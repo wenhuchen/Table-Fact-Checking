@@ -17,13 +17,16 @@
                 font-family: verdana;
                 background-color: white;
             }
-            
+            .panel {
+                display: inline-block;
+                background: white;
+            }
         </style>
     </head>
     <body>
         
         <h1 id='first'>GETTING STARTED WITH BRACKETS</h1>
-        <div id="table"></div>
+        <div id="table" class="panel panel-default"></div>
         <!--<div id="employee_table"></div>-->
         <!--<div id="qa"></div>-->
         
@@ -76,15 +79,16 @@ $(document).ready(function(){
         table = parseDSV(data, '\t');
     });
     var generated = ""
-    for (var i = 0; i < 20; i++){
+    for (var i = 0; i < 50; i++){
         // Generate Table Content
         $.get(`https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/csv/200-csv/${i}.html`, function(data){
-            generated += data;
+            data = data.replace(/ÿ/gi, "")
+            generated += '<div class="panel-heading">' + `200-csv/${i}` + '</div> <div class="panel-body">' + data;
             //$(`#table${i}`).html(data + '<div id=' + `qa${i}` + '></div>');
         }, 'text');
         // Generate QA pairs
         entries = getElem(table, 'context', `csv/200-csv/${i}.csv`);
-        var qa = "<div>";
+        var qa = "<br>";
         entries.forEach(function(val){
             qa += "<p> Question: \t " + val['utterance'] + "<br>" + "Ansewer: \t " + val['targetValue'] + "<\p>";
         });
