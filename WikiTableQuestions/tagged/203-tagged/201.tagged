@@ -1,0 +1,46 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.class	Class	class	class	NN	O						
+-1	1	fb:row.row.type	Type	type	type	NN	O						
+-1	2	fb:row.row.ships	Ships	ships	ship	NNS	O						
+-1	3	fb:row.row.displacement	Displacement	displacement	displacement	NN	O						
+-1	4	fb:row.row.note	Note	note	note	VB	O						
+0	0	fb:cell.rari_class	Rari class	rari|class	Rari|class	NNP|NN	MISC|O	|					
+0	1	fb:cell.tug_supply_vessel	Tug supply vessel	tug|supply|vessel	tug|supply|vessel	NN|NN|NN	O|O|O	||				Tug supply vessel	fb:part.tug_supply_vessel
+0	2	fb:cell.a635_revi	A635 Revi	a635|revi	a635|revus	NN|NN	O|O	|	635.0			A635 Revi	fb:part.a635_revi
+0	3	fb:cell.1_450_tonnes	1,450 tonnes	1,450|tonnes	1,450|tonne	CD|NNS	NUMBER|O	1450.0|	1450.0				
+0	4	fb:cell.null											fb:part.null
+1	0	fb:cell.malabar_class	Malabar class	malabar|class	Malabar|class	NNP|NN	O|O	|					
+1	1	fb:cell.ocean_going_tug	Ocean going tug	ocean|going|tug	Ocean|go|tug	NNP|VBG|NN	O|O|O	||				Ocean going tug	fb:part.ocean_going_tug
+1	2	fb:cell.a664_malabar_a669_tenace	A664 Malabar\nA669 Tenace	a664|malabar|a669|tenace	a664|malabar|a669|tenace	NN|NN|NN|NN	O|O|O|O	|||	664.0		669.0	A664 Malabar|A669 Tenace	fb:part.a664_malabar|fb:part.a669_tenace
+1	3	fb:cell.1_440_tonnes	1,440 tonnes	1,440|tonnes	1,440|tonne	CD|NNS	NUMBER|O	1440.0|	1440.0				
+1	4	fb:cell.ice_breaking_capabilities_to_2_meters_level_ice	Ice-breaking capabilities to 2 meters level ice	ice|breaking|capabilities|to|2|meters|level|ice	ice|breaking|capability|to|2|meter|level|ice	NN|NN|NNS|TO|CD|NNS|NN|NN	O|O|O|O|NUMBER|O|O|O	||||2.0|||	2.0			Ice-breaking capabilities to 2 meters level ice	fb:part.ice_breaking_capabilities_to_2_meters_level_ice
+2	0	fb:cell.ut507_class	UT507 class	ut507|class	ut507|class	NN|NN	O|O	|	507.0				
+2	1	fb:cell.salvage_tug	Salvage Tug	salvage|tug	salvage|tug	VB|NN	O|O	|				Salvage Tug	fb:part.salvage_tug
+2	2	fb:cell.abeille_flandre_abeille_languedoc	Abeille Flandre\nAbeille Languedoc	abeille|flandre|abeille|languedoc	Abeille|Flandre|Abeille|Languedoc	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Abeille Flandre|Abeille Languedoc	fb:part.abeille_flandre|fb:part.abeille_languedoc
+2	3	fb:cell.1_500_tonnes	1,500 tonnes	1,500|tonnes	1,500|tonne	CD|NNS	NUMBER|O	1500.0|	1500.0				
+2	4	fb:cell.chartered	Chartered	chartered	Chartered	NNP	O					Chartered	fb:part.chartered
+3	0	fb:cell.ut515_class	UT515 class	ut515|class	ut515|class	NN|NN	O|O	|	515.0				
+3	1	fb:cell.salvage_tug	Salvage Tug	salvage|tug	salvage|tug	VB|NN	O|O	|				Salvage Tug	fb:part.salvage_tug
+3	2	fb:cell.abeille_bourbon_abeille_liberte	Abeille Bourbon\nAbeille Liberté	abeille|bourbon|abeille|liberté	Abeille|bourbon|Abeille|Liberté	NNP|NN|NNP|NNP	O|O|O|O	|||				Abeille Bourbon|Abeille Liberté	fb:part.abeille_bourbon|fb:part.abeille_liberte
+3	3	fb:cell.4_000_tonnes	4,000 tonnes	4,000|tonnes	4,000|tonne	CD|NNS	NUMBER|O	4000.0|	4000.0				
+3	4	fb:cell.chartered	Chartered	chartered	Chartered	NNP	O					Chartered	fb:part.chartered
+4	0	fb:cell.ut710_class	UT710 class	ut710|class	ut710|class	NN|NN	O|O	|	710.0				
+4	1	fb:cell.support_assistance_pollution_control_vessel	Support, Assistance, Pollution control vessel	support|,|assistance|,|pollution|control|vessel	support|,|Assistance|,|Pollution|control|vessel	NN|,|NNP|,|NNP|NN|NN	O|O|O|O|O|O|O	||||||				Support|Assistance|Pollution control vessel	fb:part.support|fb:part.assistance|fb:part.pollution_control_vessel
+4	2	fb:cell.argonaute_jason	Argonaute\nJason	argonaute|jason	Argonaute|Jason	NNP|NNP	O|PERSON	|				Argonaute|Jason	fb:part.argonaute|fb:part.jason
+4	3	fb:cell.2_100_tonnes	2,100 tonnes	2,100|tonnes	2,100|tonne	CD|NNS	NUMBER|O	2100.0|	2100.0				
+4	4	fb:cell.chartered_configured_to_accommodate_nato_submarine_rescue_system	Chartered, configured to accommodate NATO Submarine Rescue System	chartered|,|configured|to|accommodate|nato|submarine|rescue|system	Chartered|,|configure|to|accommodate|NATO|Submarine|rescue|system	NNP|,|VBN|TO|VB|NNP|NNP|NN|NN	O|O|O|O|O|ORGANIZATION|O|O|O	||||||||				Chartered|configured to accommodate NATO Submarine Rescue System	fb:part.chartered|fb:part.configured_to_accommodate_nato_submarine_rescue_system
+5	0	fb:cell.ut711_class	UT711 class	ut711|class	ut711|class	NN|NN	O|O	|	711.0				
+5	1	fb:cell.support_assistance_pollution_control_vessel	Support, Assistance, Pollution control vessel	support|,|assistance|,|pollution|control|vessel	support|,|Assistance|,|Pollution|control|vessel	NN|,|NNP|,|NNP|NN|NN	O|O|O|O|O|O|O	||||||				Support|Assistance|Pollution control vessel	fb:part.support|fb:part.assistance|fb:part.pollution_control_vessel
+5	2	fb:cell.alcyon_ailette	Alcyon\nAilette	alcyon|ailette	Alcyon|Ailette	NNP|NNP	PERSON|PERSON	|				Alcyon|Ailette	fb:part.alcyon|fb:part.ailette
+5	3	fb:cell.2_000_tonnes	2,000 tonnes	2,000|tonnes	2,000|tonne	CD|NNS	NUMBER|O	2000.0|	2000.0				
+5	4	fb:cell.chartered	Chartered	chartered	Chartered	NNP	O					Chartered	fb:part.chartered
+6	0	fb:cell.null											fb:part.null
+6	1	fb:cell.training_ships	Training ships	training|ships	train|ship	VBG|NNS	O|O	|				Training ships	fb:part.training_ships
+6	2	fb:cell.vn_partisan	VN Partisan	vn|partisan	VN|Partisan	NNP|NNP	O|O	|				VN Partisan	fb:part.vn_partisan
+6	3	fb:cell.2_250_tonnes	2,250 tonnes	2,250|tonnes	2,250|tonne	CD|NNS	NUMBER|O	2250.0|	2250.0				
+6	4	fb:cell.chartered	Chartered	chartered	Chartered	NNP	O					Chartered	fb:part.chartered
+7	0	fb:cell.null											fb:part.null
+7	1	fb:cell.training_ships	Training ships	training|ships	train|ship	VBG|NNS	O|O	|				Training ships	fb:part.training_ships
+7	2	fb:cell.vn_rebel	VN Rebel	vn|rebel	VN|rebel	NNP|NN	O|O	|				VN Rebel	fb:part.vn_rebel
+7	3	fb:cell.null											fb:part.null
+7	4	fb:cell.chartered	Chartered	chartered	Chartered	NNP	O					Chartered	fb:part.chartered

@@ -1,0 +1,103 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.route	Route	route	route	NN	O						
+-1	1	fb:row.row.destinations	Destinations	destinations	destination	NNS	O						
+-1	2	fb:row.row.via	Via	via	Via	NNP	O						
+-1	3	fb:row.row.frequency_minutes	Frequency\n(minutes)	frequency|-lrb-|minutes|-rrb-	frequency|-lrb-|minute|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|DURATION|O	|||					
+-1	4	fb:row.row.peak_hours_only	Peak Hours Only	peak|hours|only	Peak|hour|only	NNP|NNS|RB	O|DURATION|O	||					
+-1	5	fb:row.row.former	Former	former	Former	NNP	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.montreal_street_st_lawrence_college	Montreal Street\nSt. Lawrence College	montreal|street|st.|lawrence|college	Montreal|Street|St.|Lawrence|College	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Montreal Street|St. Lawrence College	fb:part.montreal_street|fb:part.st_lawrence_college
+0	2	fb:cell.downtown	Downtown	downtown	downtown	NN	O					Downtown	fb:part.downtown
+0	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+0	4	fb:cell.null											fb:part.null
+0	5	fb:cell.cataraqui_town_centre_woods	Cataraqui Town Centre-Woods	cataraqui|town|centre|woods	Cataraqui|Town|Centre|Woods	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.kingston_centre_division_street	Kingston Centre\nDivision Street	kingston|centre|division|street	Kingston|Centre|Division|Street	NNP|NNP|NNP|NNP	LOCATION|O|O|O	|||				Kingston Centre|Division Street	fb:part.kingston_centre|fb:part.division_street
+1	2	fb:cell.st_lawrence_college_downtown	St. Lawrence College\nDowntown	st.|lawrence|college|downtown	St.|Lawrence|College|downtown	NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				St. Lawrence College|Downtown	fb:part.st_lawrence_college|fb:part.downtown
+1	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+1	4	fb:cell.null											fb:part.null
+1	5	fb:cell.null											fb:part.null
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.kingston_centre_downtown	Kingston Centre\nDowntown	kingston|centre|downtown	Kingston|Centre|downtown	NNP|NNP|NN	LOCATION|O|O	||				Kingston Centre|Downtown	fb:part.kingston_centre|fb:part.downtown
+2	2	fb:cell.queen_mary_road_st_lawrence_college_king_street	Queen Mary Road\nSt. Lawrence College\nKing Street	queen|mary|road|st.|lawrence|college|king|street	Queen|Mary|Road|St.|Lawrence|College|King|Street	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||				Queen Mary Road|St. Lawrence College|King Street	fb:part.queen_mary_road|fb:part.st_lawrence_college|fb:part.king_street
+2	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+2	4	fb:cell.null											fb:part.null
+2	5	fb:cell.null											fb:part.null
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.princess_street	Princess Street	princess|street	Princess|Street	NNP|NNP	O|O	|				Princess Street	fb:part.princess_street
+3	2	fb:cell.cataraqui_town_centre_downtown	Cataraqui Town Centre\nDowntown	cataraqui|town|centre|downtown	Cataraqui|Town|Centre|downtown	NNP|NNP|NNP|NN	O|O|O|O	|||				Cataraqui Town Centre|Downtown	fb:part.cataraqui_town_centre|fb:part.downtown
+3	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+3	4	fb:cell.null											fb:part.null
+3	5	fb:cell.null											fb:part.null
+4	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+4	1	fb:cell.cataraqui_town_centre_st_lawrence_college	Cataraqui Town Centre\nSt. Lawrence College	cataraqui|town|centre|st.|lawrence|college	Cataraqui|Town|Centre|St.|Lawrence|College	NNP|NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Cataraqui Town Centre|St. Lawrence College	fb:part.cataraqui_town_centre|fb:part.st_lawrence_college
+4	2	fb:cell.gardiners_town_centre	Gardiners Town Centre	gardiners|town|centre	Gardiners|Town|Centre	NNP|NNP|NNP	O|O|O	||				Gardiners Town Centre	fb:part.gardiners_town_centre
+4	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+4	4	fb:cell.null											fb:part.null
+4	5	fb:cell.downtown	Downtown	downtown	downtown	NN	O					Downtown	fb:part.downtown
+5	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+5	1	fb:cell.dalton_division_midland_gardiners	Dalton/Division\nMidland/Gardiners	dalton\\/division|midland\\/gardiners	dalton\\/division|midland\\/gardiners	NN|NNS	O|O	|				Dalton|Division|Midland|Gardiners	fb:part.dalton|fb:part.division|fb:part.midland|fb:part.gardiners
+5	2	fb:cell.cataraqui_town_centre_train_station_bus_terminal	Cataraqui Town Centre\nTrain Station\nBus Terminal	cataraqui|town|centre|train|station|bus|terminal	Cataraqui|Town|Centre|Train|Station|Bus|Terminal	NNP|NNP|NNP|NNP|NNP|NNP|NNP	O|O|O|O|O|O|O	||||||				Cataraqui Town Centre|Train Station|Bus Terminal	fb:part.cataraqui_town_centre|fb:part.train_station|fb:part.bus_terminal
+5	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+5	4	fb:cell.null											fb:part.null
+5	5	fb:cell.null											fb:part.null
+6	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+6	1	fb:cell.downtown_cataraqui_town_centre	Downtown\nCataraqui Town Centre	downtown|cataraqui|town|centre	downtown|Cataraqui|Town|Centre	NN|NNP|NNP|NNP	O|O|O|O	|||				Downtown|Cataraqui Town Centre	fb:part.downtown|fb:part.cataraqui_town_centre
+6	2	fb:cell.brock_st_barrie_st_gardiners_town_centre	Brock St. / Barrie St.\nGardiners Town Centre	brock|st.|\\/|barrie|st.|gardiners|town|centre	Brock|St.|\\/|Barrie|St.|Gardiners|Town|Centre	NNP|NNP|:|NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|O|O|O|O|O|O	|||||||				Brock St.|Barrie St.|Gardiners Town Centre	fb:part.brock_st|fb:part.barrie_st|fb:part.gardiners_town_centre
+6	3	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+6	4	fb:cell.null											fb:part.null
+6	5	fb:cell.null											fb:part.null
+7	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+7	1	fb:cell.amherstview_cataraqui_town_centre	Amherstview\nCataraqui Town Centre	amherstview|cataraqui|town|centre	Amherstview|Cataraqui|Town|Centre	NNP|NNP|NNP|NNP	O|O|O|O	|||				Amherstview|Cataraqui Town Centre	fb:part.amherstview|fb:part.cataraqui_town_centre
+7	2	fb:cell.collins_bay_road	Collins Bay Road	collins|bay|road	Collins|Bay|Road	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				Collins Bay Road	fb:part.collins_bay_road
+7	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+7	4	fb:cell.null											fb:part.null
+7	5	fb:cell.kingston_centre	Kingston Centre	kingston|centre	Kingston|Centre	NNP|NNP	LOCATION|LOCATION	|				Kingston Centre	fb:part.kingston_centre
+8	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+8	1	fb:cell.kingston_centre_cataraqui_town_centre	Kingston Centre\nCataraqui Town Centre	kingston|centre|cataraqui|town|centre	Kingston|Centre|Cataraqui|Town|Centre	NNP|NNP|NNP|NNP|NNP	LOCATION|O|O|O|O	||||				Kingston Centre|Cataraqui Town Centre	fb:part.kingston_centre|fb:part.cataraqui_town_centre
+8	2	fb:cell.bath_road_gardiners_town_centre	Bath Road\nGardiners Town Centre	bath|road|gardiners|town|centre	bath|Road|Gardiners|Town|Centre	NN|NNP|NNP|NNP|NNP	O|O|O|O|O	||||				Bath Road|Gardiners Town Centre	fb:part.bath_road|fb:part.gardiners_town_centre
+8	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+8	4	fb:cell.null											fb:part.null
+8	5	fb:cell._formerly_route_71	(formerly Route 71)	-lrb-|formerly|route|71|-rrb-	-lrb-|formerly|route|71|-rrb-	-LRB-|RB|NN|CD|-RRB-	O|O|O|NUMBER|O	|||71.0|	71.0				
+9	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+9	1	fb:cell.kingston_centre_highway_15	Kingston Centre\nHighway 15	kingston|centre|highway|15	Kingston|Centre|Highway|15	NNP|NNP|NNP|CD	LOCATION|O|O|NUMBER	|||15.0	15.0			Kingston Centre|Highway 15	fb:part.kingston_centre|fb:part.highway_15
+9	2	fb:cell.downtown_cfb_kingston_off_peak_only	Downtown\nCFB Kingston (off-peak only)	downtown|cfb|kingston|-lrb-|off|peak|only|-rrb-	downtown|CFB|Kingston|-lrb-|off|peak|only|-rrb-	NN|NNP|NNP|-LRB-|RP|NN|RB|-RRB-	O|ORGANIZATION|ORGANIZATION|O|O|O|O|O	|||||||				Downtown|CFB Kingston (off-peak only)	fb:part.downtown|fb:part.cfb_kingston_off_peak_only
+9	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+9	4	fb:cell.null											fb:part.null
+9	5	fb:cell.null_2	-	-	-	:	O						
+10	0	fb:cell.12a	12A	12a	12a	NN	O		12.0				
+10	1	fb:cell.cfb_kingston_downtown	CFB Kingston\nDowntown	cfb|kingston|downtown	CFB|Kingston|downtown	NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				CFB Kingston|Downtown	fb:part.cfb_kingston|fb:part.downtown
+10	2	fb:cell.null											fb:part.null
+10	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+10	4	fb:cell.x	X	x	x	NN	O						
+10	5	fb:cell.null											fb:part.null
+11	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+11	1	fb:cell.train_station_bus_terminal	Train Station\nBus Terminal	train|station|bus|terminal	train|Station|Bus|Terminal	NN|NNP|NNP|NNP	O|O|O|O	|||				Train Station|Bus Terminal	fb:part.train_station|fb:part.bus_terminal
+11	2	fb:cell.downtown_queen_s_university_st_lawrence_college	Downtown\nQueen's University\nSt. Lawrence College	downtown|queen|'s|university|st.|lawrence|college	downtown|queen|'s|University|St.|Lawrence|College	NN|NN|POS|NNP|NNP|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				Downtown|Queen's University|St. Lawrence College	fb:part.downtown|fb:part.queen_s_university|fb:part.st_lawrence_college
+11	3	fb:cell.null_3	*	\\*	\\*	SYM	O						
+11	4	fb:cell.null											fb:part.null
+11	5	fb:cell.student_circuit	Student Circuit	student|circuit	Student|Circuit	NNP|NNP	O|O	|					
+12	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+12	1	fb:cell.montreal_street_queen_s_university	Montreal Street\nQueen's University	montreal|street|queen|'s|university	Montreal|Street|Queen|'s|University	NNP|NNP|NNP|POS|NNP	O|O|O|O|O	||||				Montreal Street|Queen's University	fb:part.montreal_street|fb:part.queen_s_university
+12	2	fb:cell.downtown	Downtown	downtown	downtown	NN	O					Downtown	fb:part.downtown
+12	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+12	4	fb:cell.x	X	x	x	NN	O						
+12	5	fb:cell.null											fb:part.null
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.train_station_cataraqui_town_centre_midland_avenue	Train Station\nCataraqui Town Centre / Midland Avenue	train|station|cataraqui|town|centre|\\/|midland|avenue	train|Station|Cataraqui|Town|Centre|\\/|Midland|Avenue	NN|NNP|NNP|NNP|NNP|:|NNP|NNP	O|O|O|O|O|O|LOCATION|LOCATION	|||||||				Train Station|Cataraqui Town Centre|Midland Avenue	fb:part.train_station|fb:part.cataraqui_town_centre|fb:part.midland_avenue
+13	2	fb:cell.waterloo_davis_multiplex	Waterloo-Davis\nMultiplex	waterloo|davis|multiplex	Waterloo|Davis|Multiplex	NNP|NNP|NNP	LOCATION|O|O	||				Waterloo-Davis|Multiplex	fb:part.waterloo_davis|fb:part.multiplex
+13	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+13	4	fb:cell.null											fb:part.null
+13	5	fb:cell._formerly_route_a	(formerly Route A)	-lrb-|formerly|route|a|-rrb-	-lrb-|formerly|route|a|-rrb-	-LRB-|RB|NN|NN|-RRB-	O|O|O|O|O	||||					
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.reddendale_cataraqui_town_centre_woods	Reddendale\nCataraqui Town Centre - Woods	reddendale|cataraqui|town|centre|-|woods	Reddendale|Cataraqui|Town|Centre|-|Woods	NNP|NNP|NNP|NNP|:|NNP	MISC|MISC|O|O|O|PERSON	|||||				Reddendale|Cataraqui Town Centre - Woods	fb:part.reddendale|fb:part.cataraqui_town_centre_woods
+14	2	fb:cell.gardiners_town_centre	Gardiners Town Centre	gardiners|town|centre	Gardiners|Town|Centre	NNP|NNP|NNP	O|O|O	||				Gardiners Town Centre	fb:part.gardiners_town_centre
+14	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+14	4	fb:cell.null											fb:part.null
+14	5	fb:cell._formerly_route_b	(formerly Route B)	-lrb-|formerly|route|b|-rrb-	-lrb-|formerly|route|b|-rrb-	-LRB-|RB|NN|NN|-RRB-	O|O|O|O|O	||||					
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.train_station_bus_terminal	Train Station\nBus Terminal	train|station|bus|terminal	train|Station|Bus|Terminal	NN|NNP|NNP|NNP	O|O|O|O	|||				Train Station|Bus Terminal	fb:part.train_station|fb:part.bus_terminal
+15	2	fb:cell.kingston_centre	Kingston Centre	kingston|centre	Kingston|Centre	NNP|NNP	LOCATION|LOCATION	|				Kingston Centre	fb:part.kingston_centre
+15	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+15	4	fb:cell.null											fb:part.null
+15	5	fb:cell._formerly_route_c	(formerly Route C)	-lrb-|formerly|route|c|-rrb-	-lrb-|formerly|route|c|-rrb-	-LRB-|RB|NN|NN|-RRB-	O|O|O|O|O	||||					

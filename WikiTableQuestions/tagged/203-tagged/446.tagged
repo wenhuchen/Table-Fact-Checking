@@ -1,0 +1,78 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.gender	Gender	gender	gender	NN	O						
+-1	2	fb:row.row.age	Age	age	age	NN	O						
+-1	3	fb:row.row.from	From	from	from	IN	O						
+-1	4	fb:row.row.occupation	Occupation	occupation	occupation	NN	O						
+-1	5	fb:row.row.prize_money_usd	Prize Money (USD)	prize|money|-lrb-|usd|-rrb-	Prize|Money|-lrb-|USD|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O	||||					
+-1	6	fb:row.row.status	Status	status	status	NN	O						
+0	0	fb:cell.trisha	Trisha	trisha	Trisha	NNP	PERSON						
+0	1	fb:cell.female	Female	female	female	JJ	O						
+0	2	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+0	3	fb:cell.santa_monica_ca	Santa Monica, CA	santa|monica|,|ca	Santa|Monica|,|CA	NNP|NNP|,|NNP	PERSON|PERSON|O|O	|||				Santa Monica|CA	fb:part.santa_monica|fb:part.ca
+0	4	fb:cell.artist	Artist	artist	Artist	NNP	O					Artist	fb:part.artist
+0	5	fb:cell._26_000	$26,000	$|26,000	$|26,000	$|CD	MONEY|MONEY	$26000.0|$26000.0	26000.0				
+0	6	fb:cell.winner	Winner	winner	winner	NN	O						
+1	0	fb:cell.london	London	london	London	NNP	LOCATION						
+1	1	fb:cell.male	Male	male	male	JJ	O						
+1	2	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+1	3	fb:cell.mt_holly_nj	Mt. Holly, NJ	mt.|holly|,|nj	Mt.|Holly|,|NJ	NNP|NNP|,|NNP	O|O|O|O	|||				Mt. Holly|NJ	fb:part.mt_holly|fb:part.nj
+1	4	fb:cell.us_coast_guard_retired	US Coast Guard (Retired)	us|coast|guard|-lrb-|retired|-rrb-	US|Coast|Guard|-lrb-|retire|-rrb-	NNP|NNP|NNP|-LRB-|VBN|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	|||||				US Coast Guard (Retired)	fb:part.us_coast_guard_retired
+1	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+1	6	fb:cell.lost	Lost	lost	lose	VBN	O						
+2	0	fb:cell.adria	Adria	adria	Adria	NNP	ORGANIZATION						
+2	1	fb:cell.female	Female	female	female	JJ	O						
+2	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+2	3	fb:cell.seattle_wa	Seattle, WA	seattle|,|wa	Seattle|,|WA	NNP|,|NNP	LOCATION|O|LOCATION	||				Seattle|WA	fb:part.seattle|fb:part.wa
+2	4	fb:cell.bartender	Bartender	bartender	bartender	NN	O					Bartender	fb:part.bartender
+2	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+2	6	fb:cell.7th_captured_by_ricky_ortiz	7th Captured (by Ricky Ortiz)	7th|captured|-lrb-|by|ricky|ortiz|-rrb-	7th|capture|-lrb-|by|Ricky|Ortiz|-rrb-	JJ|VBN|-LRB-|IN|NNP|NNP|-RRB-	ORDINAL|O|O|O|PERSON|PERSON|O	7.0||||||	7.0				
+3	0	fb:cell.lucas	Lucas	lucas	Lucas	NNP	PERSON						
+3	1	fb:cell.male	Male	male	male	JJ	O						
+3	2	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+3	3	fb:cell.carlsbad_ca	Carlsbad, CA	carlsbad|,|ca	Carlsbad|,|CA	NNP|,|NNP	LOCATION|O|O	||				Carlsbad|CA	fb:part.carlsbad|fb:part.ca
+3	4	fb:cell.student	Student	student	student	NN	O					Student	fb:part.student
+3	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+3	6	fb:cell.6th_captured_by_kim	6th Captured (by Kim)	6th|captured|-lrb-|by|kim|-rrb-	6th|capture|-lrb-|by|Kim|-rrb-	JJ|VBN|-LRB-|IN|NNP|-RRB-	ORDINAL|O|O|O|PERSON|O	6.0|||||	6.0				
+4	0	fb:cell.andrew	Andrew	andrew	Andrew	NNP	PERSON						
+4	1	fb:cell.male	Male	male	male	JJ	O						
+4	2	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+4	3	fb:cell.redondo_beach_ca	Redondo Beach, CA	redondo|beach|,|ca	Redondo|Beach|,|CA	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Redondo Beach|CA	fb:part.redondo_beach|fb:part.ca
+4	4	fb:cell.student_lifeguard	Student / Lifeguard	student|\\/|lifeguard	student|\\/|Lifeguard	NN|:|NNP	O|O|O	||				Student|Lifeguard	fb:part.student|fb:part.lifeguard
+4	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+4	6	fb:cell.5th_captured_by_kim	5th Captured (by Kim)	5th|captured|-lrb-|by|kim|-rrb-	5th|capture|-lrb-|by|Kim|-rrb-	JJ|VBN|-LRB-|IN|NNP|-RRB-	ORDINAL|O|O|O|PERSON|O	5.0|||||	5.0				
+5	0	fb:cell.tracy	Tracy	tracy	Tracy	NNP	PERSON						
+5	1	fb:cell.female	Female	female	female	JJ	O						
+5	2	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+5	3	fb:cell.mililani_hi	Mililani, HI	mililani|,|hi	Mililani|,|HI	NNP|,|NNP	PERSON|O|O	||				Mililani|HI	fb:part.mililani|fb:part.hi
+5	4	fb:cell.student	Student	student	student	NN	O					Student	fb:part.student
+5	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+5	6	fb:cell.4th_captured_by_grant	4th Captured (by Grant)	4th|captured|-lrb-|by|grant|-rrb-	4th|capture|-lrb-|by|Grant|-rrb-	JJ|VBN|-LRB-|IN|NNP|-RRB-	ORDINAL|O|O|O|PERSON|O	4.0|||||	4.0				
+6	0	fb:cell.lynda	Lynda	lynda	Lynda	NNP	PERSON						
+6	1	fb:cell.female	Female	female	female	JJ	O						
+6	2	fb:cell.59	59	59	59	CD	NUMBER	59.0	59.0				
+6	3	fb:cell.los_angeles_ca	Los Angeles, CA	los|angeles|,|ca	Los|Angeles|,|CA	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Los Angeles|CA	fb:part.los_angeles|fb:part.ca
+6	4	fb:cell.general_contractor	General Contractor	general|contractor	General|Contractor	NNP|NNP	O|O	|				General Contractor	fb:part.general_contractor
+6	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+6	6	fb:cell.3rd_captured_by_icey	3rd Captured (by Icey)	3rd|captured|-lrb-|by|icey|-rrb-	3rd|capture|-lrb-|by|icey|-rrb-	JJ|VBN|-LRB-|IN|NN|-RRB-	ORDINAL|O|O|O|O|O	3.0|||||	3.0				
+7	0	fb:cell.darin	Darin	darin	Darin	NNP	PERSON						
+7	1	fb:cell.male	Male	male	male	JJ	O						
+7	2	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+7	3	fb:cell.fontana_ca	Fontana, CA	fontana|,|ca	Fontana|,|CA	NNP|,|NNP	PERSON|O|O	||				Fontana|CA	fb:part.fontana|fb:part.ca
+7	4	fb:cell.sports_official	Sports Official	sports|official	Sports|Official	NNP|NNP	O|O	|				Sports Official	fb:part.sports_official
+7	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+7	6	fb:cell.2nd_captured_by_wong	2nd Captured (by Wong)	2nd|captured|-lrb-|by|wong|-rrb-	2nd|capture|-lrb-|by|Wong|-rrb-	JJ|VBN|-LRB-|IN|NNP|-RRB-	ORDINAL|O|O|O|PERSON|O	2.0|||||	2.0				
+8	0	fb:cell.evan	Evan	evan	Evan	NNP	PERSON						
+8	1	fb:cell.male	Male	male	male	JJ	O						
+8	2	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+8	3	fb:cell.long_island_ny	Long Island, NY	long|island|,|ny	Long|Island|,|NY	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Long Island|NY	fb:part.long_island|fb:part.ny
+8	4	fb:cell.teacher	Teacher	teacher	teacher	NN	O					Teacher	fb:part.teacher
+8	5	fb:cell._2_000	$2,000	$|2,000	$|2,000	$|CD	MONEY|MONEY	$2000.0|$2000.0	2000.0				
+8	6	fb:cell.opted_out	Opted Out	opted|out	Opted|out	NNP|IN	O|O	|					
+9	0	fb:cell.ameenah	Ameenah	ameenah	Ameenah	NNP	O						
+9	1	fb:cell.female	Female	female	female	JJ	O						
+9	2	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+9	3	fb:cell.atlanta_ga	Atlanta, GA	atlanta|,|ga	Atlanta|,|GA	NNP|,|NNP	LOCATION|O|O	||				Atlanta|GA	fb:part.atlanta|fb:part.ga
+9	4	fb:cell.drummer	Drummer	drummer	drummer	NN	O					Drummer	fb:part.drummer
+9	5	fb:cell._0	$0	$|0	$|0	$|CD	MONEY|MONEY	$0.0|$0.0	0.0				
+9	6	fb:cell.1st_captured_by_grant	1st Captured (by Grant)	1st|captured|-lrb-|by|grant|-rrb-	1st|capture|-lrb-|by|Grant|-rrb-	CD|VBN|-LRB-|IN|NNP|-RRB-	ORDINAL|O|O|O|PERSON|O	1.0|||||	1.0				

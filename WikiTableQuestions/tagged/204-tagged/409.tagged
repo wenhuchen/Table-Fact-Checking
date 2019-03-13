@@ -1,0 +1,79 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.race_name	Race Name	race|name	race|name	NN|VB	O|O	|					
+-1	2	fb:row.row.location	Location	location	Location	NNP	O						
+-1	3	fb:row.row.uci_rating	UCI Rating	uci|rating	UCI|Rating	NNP|NNP	O|O	|					
+-1	4	fb:row.row.winner	Winner	winner	winner	NN	O						
+-1	5	fb:row.row.team	Team	team	Team	NNP	O						
+0	0	fb:cell.16_21_january	16–21 January	16|--|21|january	16|--|21|January	CD|:|CD|NNP	NUMBER|O|DATE|DATE	16.0||XXXX-01-21|XXXX-01-21	16.0		21.0		
+0	1	fb:cell.la_tropicale_amissa_bongo	La Tropicale Amissa Bongo	la|tropicale|amissa|bongo	La|Tropicale|Amissa|Bongo	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||					
+0	2	fb:cell.gabon	Gabon	gabon	Gabon	NNP	LOCATION						
+0	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+0	4	fb:cell.frederic_guesdon_fra	Frédéric Guesdon (FRA)	frédéric|guesdon|-lrb-|fra|-rrb-	Frédéric|Guesdon|-lrb-|FRA|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+0	5	fb:cell.francaise_des_jeux	Française des Jeux	française|des|jeux	Française|des|Jeux	NNP|NNP|NNP	O|O|PERSON	||					
+1	0	fb:cell.8_14_february	8–14 February	8|--|14|february	8|--|14|February	CD|:|CD|NNP	NUMBER|O|DATE|DATE	8.0||XXXX-02-14|XXXX-02-14	8.0		14.0		
+1	1	fb:cell.tour_d_egypte	Tour d'Egypte	tour|d'egypte	tour|d'egypte	NN|NN	MISC|MISC	|					
+1	2	fb:cell.egypt	Egypt	egypt	Egypt	NNP	LOCATION						
+1	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+1	4	fb:cell.waylon_woolcock_rsa	Waylon Woolcock (RSA)	waylon|woolcock|-lrb-|rsa|-rrb-	Waylon|Woolcock|-lrb-|RSA|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+1	5	fb:cell.south_africa_national_team	South Africa (national team)	south|africa|-lrb-|national|team|-rrb-	South|Africa|-lrb-|national|team|-rrb-	NNP|NNP|-LRB-|JJ|NN|-RRB-	LOCATION|LOCATION|O|O|O|O	|||||					
+2	0	fb:cell.16_february	16 February	16|february	16|February	CD|NNP	DATE|DATE	XXXX-02-16|XXXX-02-16	16.0	xxxx-02-16			
+2	1	fb:cell.gp_of_sharm_el_sheikh	GP of Sharm el-Sheikh	gp|of|sharm|el|sheikh	gp|of|sharm|el|sheikh	NN|IN|FW|FW|FW	O|O|LOCATION|O|O	||||					
+2	2	fb:cell.egypt	Egypt	egypt	Egypt	NNP	LOCATION						
+2	3	fb:cell.1_2	1.2	1.2	1.2	CD	NUMBER	1.2	1.2				
+2	4	fb:cell.jan_sipeky_svk	Ján Šipeky (SVK)	ján|šipeky|-lrb-|svk|-rrb-	Ján|Šipeky|-lrb-|SVK|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|O|O	||||					
+2	5	fb:cell.dukla_trencin_merida	Dukla Trenčín-Merida	dukla|trenčín|merida	Dukla|Trenčín|Merida	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+3	0	fb:cell.24_february_9_march	24 February–9 March	24|february|--|9|march	24|February|--|9|March	CD|NNP|:|CD|NNP	DATE|DATE|O|DATE|DATE	XXXX-02-24|XXXX-02-24||XXXX-03-09|XXXX-03-09	24.0		9.0		
+3	1	fb:cell.tour_du_cameroun	Tour du Cameroun	tour|du|cameroun	tour|du|Cameroun	NN|NNP|NNP	O|O|LOCATION	||					
+3	2	fb:cell.cameroon	Cameroon	cameroon	Cameroon	NNP	LOCATION						
+3	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+3	4	fb:cell.flavien_chipault_fra	Flavien Chipault (FRA)	flavien|chipault|-lrb-|fra|-rrb-	Flavien|Chipault|-lrb-|FRA|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|O|O	||||					
+3	5	fb:cell.leboulou	Leboulou	leboulou	Leboulou	NNP	PERSON						
+4	0	fb:cell.6_11_march	6–11 March	6|--|11|march	6|--|11|March	CD|:|CD|NNP	NUMBER|O|DATE|DATE	6.0||XXXX-03-11|XXXX-03-11	6.0		11.0		
+4	1	fb:cell.giro_del_capo	Giro del Capo	giro|del|capo	Giro|del|Capo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+4	2	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|					
+4	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+4	4	fb:cell.alexander_efimkin_rus	Alexander Efimkin (RUS)	alexander|efimkin|-lrb-|rus|-rrb-	Alexander|Efimkin|-lrb-|RUS|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+4	5	fb:cell.barloworld	Barloworld	barloworld	barloworld	NN	O						
+5	0	fb:cell.17_23_march	17–23 March	17|--|23|march	17|--|23|March	CD|:|CD|NNP	NUMBER|O|DATE|DATE	17.0||XXXX-03-23|XXXX-03-23	17.0		23.0		
+5	1	fb:cell.tour_of_libya	Tour of Libya	tour|of|libya	tour|of|Libya	NN|IN|NNP	O|O|LOCATION	||					
+5	2	fb:cell.libya	Libya	libya	Libya	NNP	LOCATION						
+5	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+5	4	fb:cell.ahmed_mohamed_ali_lba	Ahmed Mohamed Ali (LBA)	ahmed|mohamed|ali|-lrb-|lba|-rrb-	Ahmed|Mohamed|Ali|-lrb-|LBA|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|PERSON|O|O|O	|||||					
+5	5	fb:cell.libya_national_team	Libya (national team)	libya|-lrb-|national|team|-rrb-	Libya|-lrb-|national|team|-rrb-	NNP|-LRB-|JJ|NN|-RRB-	LOCATION|O|O|O|O	||||					
+6	0	fb:cell.8_april	8 April	8|april	8|April	CD|NNP	DATE|DATE	XXXX-04-08|XXXX-04-08	8.0	xxxx-04-08			
+6	1	fb:cell.grand_prix_de_la_ville_de_tunis	Grand Prix de la ville de Tunis	grand|prix|de|la|ville|de|tunis	Grand|Prix|de|la|ville|de|tunis	NNP|NNP|FW|FW|FW|FW|FW	MISC|MISC|MISC|O|O|O|LOCATION	||||||					
+6	2	fb:cell.tunisia	Tunisia	tunisia	Tunisia	NNP	LOCATION						
+6	3	fb:cell.1_2	1.2	1.2	1.2	CD	NUMBER	1.2	1.2				
+6	4	fb:cell.ahmed_mraihi_tun	Ahmed Mraihi (TUN)	ahmed|mraihi|-lrb-|tun|-rrb-	Ahmed|Mraihi|-lrb-|TUN|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+6	5	fb:cell.tunisia_national_team	Tunisia (national team)	tunisia|-lrb-|national|team|-rrb-	Tunisia|-lrb-|national|team|-rrb-	NNP|-LRB-|JJ|NN|-RRB-	LOCATION|O|O|O|O	||||					
+7	0	fb:cell.28_april_5_may	28 April–5 May	28|april|--|5|may	28|April|--|5|May	CD|NNP|:|CD|VBD-AUX	DATE|DATE|O|DATE|DATE	XXXX-04-28|XXXX-04-28||XXXX-05-05|XXXX-05-05	28.0		5.0		
+7	1	fb:cell.tour_de_la_pharmacie_centrale_de_tunisie	Tour de la Pharmacie Centrale de Tunisie	tour|de|la|pharmacie|centrale|de|tunisie	Tour|de|la|Pharmacie|Centrale|de|Tunisie	NNP|FW|FW|NNP|NNP|IN|NNP	MISC|MISC|O|O|O|O|O	||||||					
+7	2	fb:cell.tunisia	Tunisia	tunisia	Tunisia	NNP	LOCATION						
+7	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+7	4	fb:cell.hassen_ben_nasser_tun	Hassen Ben Nasser (TUN)	hassen|ben|nasser|-lrb-|tun|-rrb-	Hassen|Ben|Nasser|-lrb-|TUN|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|PERSON|O|O|O	|||||					
+7	5	fb:cell.pharmacie_centrale	Pharmacie Centrale	pharmacie|centrale	Pharmacie|Centrale	NNP|NNP	PERSON|PERSON	|					
+8	0	fb:cell.14_20_may	14–20 May	14|--|20|may	14|--|20|May	CD|:|CD|VBD-AUX	NUMBER|O|DATE|DATE	14.0||XXXX-05-20|XXXX-05-20	14.0		20.0		
+8	1	fb:cell.boucle_du_coton	Boucle du Coton	boucle|du|coton	Boucle|du|Coton	NNP|NNP|NNP	O|O|PERSON	||					
+8	2	fb:cell.burkina_faso	Burkina Faso	burkina|faso	Burkina|Faso	NNP|NNP	PERSON|PERSON	|					
+8	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+8	4	fb:cell.saidou_rouamba_bur	Saïdou Rouamba (BUR)	saïdou|rouamba|-lrb-|bur|-rrb-	saïdou|rouamba|-lrb-|bur|-rrb-	FW|FW|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+8	5	fb:cell.burkina_faso_national_team	Burkina Faso (national team)	burkina|faso|-lrb-|national|team|-rrb-	Burkina|Faso|-lrb-|national|team|-rrb-	NNP|NNP|-LRB-|JJ|NN|-RRB-	PERSON|PERSON|O|O|O|O	|||||					
+9	0	fb:cell.8_17_june	8–17 June	8|--|17|june	8|--|17|June	CD|:|CD|NNP	NUMBER|O|DATE|DATE	8.0||XXXX-06-17|XXXX-06-17	8.0		17.0		
+9	1	fb:cell.tour_du_maroc	Tour du Maroc	tour|du|maroc	tour|du|Maroc	NN|NNP|NNP	MISC|MISC|MISC	||					
+9	2	fb:cell.morocco	Morocco	morocco	Morocco	NNP	LOCATION						
+9	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+9	4	fb:cell.nicholas_white_rsa	Nicholas White (RSA)	nicholas|white|-lrb-|rsa|-rrb-	Nicholas|White|-lrb-|RSA|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+9	5	fb:cell.south_africa_national_team	South Africa (national team)	south|africa|-lrb-|national|team|-rrb-	South|Africa|-lrb-|national|team|-rrb-	NNP|NNP|-LRB-|JJ|NN|-RRB-	LOCATION|LOCATION|O|O|O|O	|||||					
+10	0	fb:cell.30_august_8_september	30 August–8 September	30|august|--|8|september	30|August|--|8|September	CD|NNP|:|CD|NNP	DATE|DATE|O|DATE|DATE	XXXX-08-30|XXXX-08-30||XXXX-09-08|XXXX-09-08	30.0		8.0		
+10	1	fb:cell.tour_du_senegal	Tour du Sénégal	tour|du|sénégal	tour|du|Sénégal	NN|NNP|NNP	MISC|MISC|MISC	||					
+10	2	fb:cell.senegal	Senegal	senegal	senegal	JJ	LOCATION						
+10	3	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+10	4	fb:cell.adil_jelloul_mar	Adil Jelloul (MAR)	adil|jelloul|-lrb-|mar|-rrb-	Adil|Jelloul|-lrb-|MAR|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|DATE|O	|||XXXX-03|					
+10	5	fb:cell.frmc_maroc	FRMC-Maroc	frmc|maroc	FRMC|Maroc	NNP|NNP	O|O	|					
+11	0	fb:cell.16_september	16 September	16|september	16|September	CD|NNP	DATE|DATE	XXXX-09-16|XXXX-09-16	16.0	xxxx-09-16			
+11	1	fb:cell.dome_2_dome_cycling_spectacular	Dome 2 Dome Cycling Spectacular	dome|2|dome|cycling|spectacular	Dome|2|Dome|Cycling|spectacular	NNP|CD|NNP|NNP|JJ	O|NUMBER|O|O|O	|2.0|||	2.0				
+11	2	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|					
+11	3	fb:cell.1_2	1.2	1.2	1.2	CD	NUMBER	1.2	1.2				
+11	4	fb:cell.jaco_venter_rsa	Jaco Venter (RSA)	jaco|venter|-lrb-|rsa|-rrb-	Jaco|Venter|-lrb-|RSA|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+11	5	fb:cell.team_neotel	Team Neotel	team|neotel	Team|Neotel	NNP|NNP	O|O	|					

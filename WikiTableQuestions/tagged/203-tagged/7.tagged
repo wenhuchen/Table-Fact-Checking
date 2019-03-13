@@ -1,0 +1,607 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.pos	Pos.	pos|.	po|.	NNS|.	O|O	|					
+-1	1	fb:row.row.artist	Artist	artist	Artist	NNP	O						
+-1	2	fb:row.row.single	Single	single	single	JJ	O						
+-1	3	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	4	fb:row.row.sales	Sales	sales	sale	NNS	O						
+-1	5	fb:row.row.peak	Peak	peak	peak	JJ	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.daniel_lavoie_patrick_fiori_garou	Daniel Lavoie, Patrick Fiori & Garou	daniel|lavoie|,|patrick|fiori|&|garou	Daniel|Lavoie|,|Patrick|Fiori|&|Garou	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|PERSON|PERSON|O|O	||||||				Daniel Lavoie|Patrick Fiori & Garou	fb:part.daniel_lavoie|fb:part.patrick_fiori_garou
+0	2	fb:cell._belle	"Belle"	``|belle|''	``|Belle|''	``|NNP|''	O|O|O	||				"Belle"	fb:part._belle
+0	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+0	4	fb:cell.2_221_000	2,221,000	2,221,000	2,221,000	CD	NUMBER	2221000.0	2221000.0				
+0	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.elton_john	Elton John	elton|john	Elton|John	NNP|NNP	PERSON|PERSON	|				Elton John	fb:part.elton_john
+1	2	fb:cell._candle_in_the_wind	"Candle in The Wind"	``|candle|in|the|wind|''	``|candle|in|the|wind|''	``|NN|IN|DT|NN|''	O|O|O|O|O|O	|||||				"Candle in The Wind"	fb:part._candle_in_the_wind
+1	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+1	4	fb:cell.2_029_000	2,029,000	2,029,000	2,029,000	CD	NUMBER	2029000.0	2029000.0				
+1	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.lou_bega	Lou Bega	lou|bega	Lou|Bega	NNP|NNP	PERSON|PERSON	|				Lou Bega	fb:part.lou_bega
+2	2	fb:cell._mambo_no_5	"Mambo No. 5"	``|mambo|no.|5|''	``|Mambo|No.|5|''	``|NNP|NNP|CD|''	O|O|O|NUMBER|O	|||5.0|	0.5			"Mambo No. 5"	fb:part._mambo_no_5
+2	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+2	4	fb:cell.1_532_000	1,532,000	1,532,000	1,532,000	CD	NUMBER	1532000.0	1532000.0				
+2	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.wes	Wes	wes	we	NNS	PERSON					Wes	fb:part.wes
+3	2	fb:cell._alane	"Alane"	``|alane|''	``|alane|''	``|NN|''	O|O|O	||				"Alane"	fb:part._alane
+3	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+3	4	fb:cell.1_418_000	1,418,000	1,418,000	1,418,000	CD	NUMBER	1418000.0	1418000.0				
+3	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.manau	Manau	manau	Manau	NNP	O					Manau	fb:part.manau
+4	2	fb:cell._la_tribu_de_dana	"La Tribu de Dana"	``|la|tribu|de|dana|''	``|La|Tribu|de|Dana|''	``|NNP|NNP|IN|NNP|''	O|O|O|O|O|O	|||||				"La Tribu de Dana"	fb:part._la_tribu_de_dana
+4	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+4	4	fb:cell.1_415_000	1,415,000	1,415,000	1,415,000	CD	NUMBER	1415000.0	1415000.0				
+4	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.ricky_martin	Ricky Martin	ricky|martin	Ricky|Martin	NNP|NNP	PERSON|PERSON	|				Ricky Martin	fb:part.ricky_martin
+5	2	fb:cell._un_dos_tres	"Un, Dos, Tres"	``|un|,|dos|,|tres|''	``|un|,|Dos|,|Tres|''	``|NN|,|NNP|,|NNP|''	O|O|O|PERSON|O|O|O	||||||				"Un|Dos|Tres"	fb:part._un|fb:part.dos|fb:part.tres
+5	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+5	4	fb:cell.1_400_000	1,400,000	1,400,000	1,400,000	CD	NUMBER	1400000.0	1400000.0				
+5	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.florent_pagny	Florent Pagny	florent|pagny	Florent|Pagny	NNP|NNP	PERSON|PERSON	|				Florent Pagny	fb:part.florent_pagny
+6	2	fb:cell._savoir_aimer	"Savoir aimer"	``|savoir|aimer|''	``|savoir|aimer|''	``|FW|FW|''	O|O|O|O	|||				"Savoir aimer"	fb:part._savoir_aimer
+6	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+6	4	fb:cell.1_234_000	1,234,000	1,234,000	1,234,000	CD	NUMBER	1234000.0	1234000.0				
+6	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.aqua	Aqua	aqua	Aqua	NNP	O					Aqua	fb:part.aqua
+7	2	fb:cell._barbie_girl	"Barbie Girl"	``|barbie|girl|''	``|Barbie|Girl|''	``|NNP|NNP|''	O|O|O|O	|||				"Barbie Girl"	fb:part._barbie_girl
+7	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+7	4	fb:cell.1_215_000	1,215,000	1,215,000	1,215,000	CD	NUMBER	1215000.0	1215000.0				
+7	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.larusso	Larusso	larusso	Larusso	NNP	PERSON					Larusso	fb:part.larusso
+8	2	fb:cell._tu_m_oublieras	"Tu m'oublieras"	``|tu|m|`|oublieras|''	``|tu|m|`|oublieras|''	``|FW|NN|``|FW|''	O|O|O|O|O|O	|||||				"Tu m'oublieras"	fb:part._tu_m_oublieras
+8	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+8	4	fb:cell.1_209_000	1,209,000	1,209,000	1,209,000	CD	NUMBER	1209000.0	1209000.0				
+8	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.celine_dion	Céline Dion	céline|dion	Céline|Dion	NNP|NNP	PERSON|PERSON	|				Céline Dion	fb:part.celine_dion
+9	2	fb:cell._the_reason_my_heart_will_go_on	"The Reason" / "My Heart Will Go On"	``|the|reason|''|\\/|``|my|heart|will|go|on|''	``|the|reason|''|\\/|``|my|Heart|Will|go|on|''	``|DT|NN|''|:|``|PRP$|NNP|VBD-AUX|VB|IN|''	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				"The Reason"|"My Heart Will Go On"	fb:part._the_reason|fb:part._my_heart_will_go_on
+9	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+9	4	fb:cell.1_197_000	1,197,000	1,197,000	1,197,000	CD	NUMBER	1197000.0	1197000.0				
+9	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.gala	Gala	gala	Gala	NNP	O					Gala	fb:part.gala
+10	2	fb:cell._freed_from_desire	"Freed from Desire"	``|freed|from|desire|''	``|Freed|from|Desire|''	``|NNP|IN|NNP|''	O|O|O|O|O	||||				"Freed from Desire"	fb:part._freed_from_desire
+10	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+10	4	fb:cell.1_013_000	1,013,000	1,013,000	1,013,000	CD	NUMBER	1013000.0	1013000.0				
+10	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.eiffel_65	Eiffel 65	eiffel|65	Eiffel|65	NNP|CD	O|NUMBER	|65.0	65.0			Eiffel 65	fb:part.eiffel_65
+11	2	fb:cell._blue_da_ba_dee	"Blue (Da Ba Dee)"	``|blue|-lrb-|da|ba|dee|-rrb-|''	``|Blue|-lrb-|da|Ba|Dee|-rrb-|''	``|NNP|-LRB-|NN|NNP|NNP|-RRB-|''	O|O|O|O|O|O|O|O	|||||||				"Blue (Da Ba Dee)"	fb:part._blue_da_ba_dee
+11	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+11	4	fb:cell.1_001_000	1,001,000	1,001,000	1,001,000	CD	NUMBER	1001000.0	1001000.0				
+11	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.carrapicho	Carrapicho	carrapicho	Carrapicho	NNP	PERSON					Carrapicho	fb:part.carrapicho
+12	2	fb:cell._tic_tic_tac	"Tic, Tic Tac"	``|tic|,|tic|tac|''	``|Tic|,|Tic|tac|''	``|NNP|,|NNP|NN|''	O|O|O|O|O|O	|||||				"Tic|Tic Tac"	fb:part._tic|fb:part.tic_tac
+12	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+12	4	fb:cell.980_000	980,000	980,000	980,000	CD	NUMBER	980000.0	980000.0				
+12	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.andrea_bocelli	Andrea Bocelli	andrea|bocelli	Andrea|Bocelli	NNP|NNP	PERSON|PERSON	|				Andrea Bocelli	fb:part.andrea_bocelli
+13	2	fb:cell._con_te_partiro	"Con te partirò"	``|con|te|partirò|''	``|con|te|partirò|''	``|NN|NN|NN|''	O|O|O|O|O	||||				"Con te partirò"	fb:part._con_te_partiro
+13	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+13	4	fb:cell.980_000	980,000	980,000	980,000	CD	NUMBER	980000.0	980000.0				
+13	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.laam	Lââm	lââm	lââm	NN	O					Lââm	fb:part.laam
+14	2	fb:cell._chanter_pour_ceux_qui_sont_loin_de_chez_eux	"Chanter pour ceux qui sont loin de chez eux"	``|chanter|pour|ceux|qui|sont|loin|de|chez|eux|''	``|Chanter|pour|ceux|qui|sont|loin|de|chez|eux|''	``|NNP|VBP|FW|FW|FW|FW|FW|FW|FW|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"Chanter pour ceux qui sont loin de chez eux"	fb:part._chanter_pour_ceux_qui_sont_loin_de_chez_eux
+14	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+14	4	fb:cell.963_000	963,000	963,000	963,000	CD	NUMBER	963000.0	963000.0				
+14	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.celine_dion	Céline Dion	céline|dion	Céline|Dion	NNP|NNP	PERSON|PERSON	|				Céline Dion	fb:part.celine_dion
+15	2	fb:cell._pour_que_tu_m_aimes_encore	"Pour que tu m'aimes encore"	``|pour|que|tu|m|`|aimes|encore|''	``|pour|que|tu|m|`|aime|encore|''	``|VB|NN|NN|NN|``|NNS|NN|''	O|O|O|O|O|O|O|O|O	||||||||				"Pour que tu m'aimes encore"	fb:part._pour_que_tu_m_aimes_encore
+15	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+15	4	fb:cell.955_000	955,000	955,000	955,000	CD	NUMBER	955000.0	955000.0				
+15	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.moos	Moos	moos	moo	NNS	PERSON					Moos	fb:part.moos
+16	2	fb:cell._au_nom_de_la_rose	"Au nom de la rose"	``|au|nom|de|la|rose|''	``|Au|nom|de|la|rise|''	``|NNP|FW|FW|FW|VBD|''	O|O|O|O|O|O|O	||||||				"Au nom de la rose"	fb:part._au_nom_de_la_rose
+16	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+16	4	fb:cell.918_000	918,000	918,000	918,000	CD	NUMBER	918000.0	918000.0				
+16	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.los_del_rio	Los del Río	los|del|río	Los|del|Río	NNP|NNP|NNP	O|O|O	||				Los del Río	fb:part.los_del_rio
+17	2	fb:cell._macarena	"Macarena"	``|macarena|''	``|Macarena|''	``|NNP|''	O|O|O	||				"Macarena"	fb:part._macarena
+17	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+17	4	fb:cell.910_000	910,000	910,000	910,000	CD	NUMBER	910000.0	910000.0				
+17	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell.andrea_bocelli_helene_segara	Andrea Bocelli & Hélène Ségara	andrea|bocelli|&|hélène|ségara	Andrea|Bocelli|&|Hélène|Ségara	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|O|O	||||				Andrea Bocelli & Hélène Ségara	fb:part.andrea_bocelli_helene_segara
+18	2	fb:cell._vivo_per_lei_je_vis_pour_elle	"Vivo per lei (je vis pour elle)"	``|vivo|per|lei|-lrb-|je|vis|pour|elle|-rrb-|''	``|Vivo|per|lei|-lrb-|je|vis|pour|elle|-rrb-|''	``|NNP|IN|NN|-LRB-|NN|FW|VBP|NN|-RRB-|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"Vivo per lei (je vis pour elle)"	fb:part._vivo_per_lei_je_vis_pour_elle
+18	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+18	4	fb:cell.874_000	874,000	874,000	874,000	CD	NUMBER	874000.0	874000.0				
+18	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell.zebda	Zebda	zebda	zebda	NN	PERSON					Zebda	fb:part.zebda
+19	2	fb:cell._tomber_la_chemise	"Tomber la chemise"	``|tomber|la|chemise|''	``|Tomber|la|chemise|''	``|NNP|NNP|NN|''	O|O|O|O|O	||||				"Tomber la chemise"	fb:part._tomber_la_chemise
+19	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+19	4	fb:cell.868_000	868,000	868,000	868,000	CD	NUMBER	868000.0	868000.0				
+19	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell.nomads	Nomads	nomads	nomad	NNS	O					Nomads	fb:part.nomads
+20	2	fb:cell._yakalelo	"Yakalelo"	``|yakalelo|''	``|Yakalelo|''	``|NNP|''	O|O|O	||				"Yakalelo"	fb:part._yakalelo
+20	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+20	4	fb:cell.846_000	846,000	846,000	846,000	CD	NUMBER	846000.0	846000.0				
+20	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+21	0	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+21	1	fb:cell.khaled	Khaled	khaled	Khaled	NNP	PERSON					Khaled	fb:part.khaled
+21	2	fb:cell._aicha	"Aïcha"	``|aïcha|''	``|aïcha|''	``|NN|''	O|O|O	||				"Aïcha"	fb:part._aicha
+21	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+21	4	fb:cell.824_000	824,000	824,000	824,000	CD	NUMBER	824000.0	824000.0				
+21	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+22	0	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	1	fb:cell.hermes_house_band	Hermes House Band	hermes|house|band	Hermes|House|Band	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Hermes House Band	fb:part.hermes_house_band
+22	2	fb:cell._i_will_survive	"I Will Survive"	``|i|will|survive|''	``|I|will|survive|''	``|PRP|VBD-AUX|VB|''	O|O|O|O|O	||||				"I Will Survive"	fb:part._i_will_survive
+22	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+22	4	fb:cell.812_000	812,000	812,000	812,000	CD	NUMBER	812000.0	812000.0				
+22	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+23	0	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+23	1	fb:cell.david_hallyday	David Hallyday	david|hallyday	David|Hallyday	NNP|NNP	PERSON|PERSON	|				David Hallyday	fb:part.david_hallyday
+23	2	fb:cell._tu_ne_m_as_pas_laisse_le_temps	"Tu ne m'as pas laissé le temps"	``|tu|ne|m|`|as|pas|laissé|le|temps|''	``|tu|ne|m|`|as|pas|laissé|le|temp|''	``|FW|FW|NN|``|IN|FW|FW|FW|NNS|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"Tu ne m'as pas laissé le temps"	fb:part._tu_ne_m_as_pas_laisse_le_temps
+23	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+23	4	fb:cell.801_000	801,000	801,000	801,000	CD	NUMBER	801000.0	801000.0				
+23	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+24	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+24	1	fb:cell.will_smith	Will Smith	will|smith	Will|Smith	VBD-AUX|NNP	PERSON|PERSON	|				Will Smith	fb:part.will_smith
+24	2	fb:cell._men_in_black	"Men in Black"	``|men|in|black|''	``|man|in|black|''	``|NN|IN|JJ|''	O|O|O|O|O	||||				"Men in Black"	fb:part._men_in_black
+24	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+24	4	fb:cell.783_000	783,000	783,000	783,000	CD	NUMBER	783000.0	783000.0				
+24	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+25	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+25	1	fb:cell.cher	Cher	cher	Cher	NNP	PERSON					Cher	fb:part.cher
+25	2	fb:cell._believe	"Believe"	``|believe|''	``|Believe|''	``|NNP|''	O|O|O	||				"Believe"	fb:part._believe
+25	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+25	4	fb:cell.764_000	764,000	764,000	764,000	CD	NUMBER	764000.0	764000.0				
+25	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+26	0	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+26	1	fb:cell.jordy	Jordy	jordy	Jordy	NNP	O					Jordy	fb:part.jordy
+26	2	fb:cell._dur_dur_d_etre_bebe	"Dur dur d'être bébé !"	``|dur|dur|d'être|bébé|!|''	``|dur|dur|d'être|bébé|!|''	``|NN|NN|NN|NN|.|''	O|O|O|O|O|O|O	||||||				"Dur dur d'être bébé !"	fb:part._dur_dur_d_etre_bebe
+26	3	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+26	4	fb:cell.751_000	751,000	751,000	751,000	CD	NUMBER	751000.0	751000.0				
+26	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+27	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+27	1	fb:cell.spice_girls	Spice Girls	spice|girls	spice|girl	NN|NNS	ORGANIZATION|ORGANIZATION	|				Spice Girls	fb:part.spice_girls
+27	2	fb:cell._wannabe	"Wannabe"	``|wannabe|''	``|Wannabe|''	``|NNP|''	O|O|O	||				"Wannabe"	fb:part._wannabe
+27	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+27	4	fb:cell.742_000	742,000	742,000	742,000	CD	NUMBER	742000.0	742000.0				
+27	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+28	0	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+28	1	fb:cell.fugees	Fugees	fugees	fugee	NNS	O					Fugees	fb:part.fugees
+28	2	fb:cell._killing_me_softly	"Killing Me Softly"	``|killing|me|softly|''	``|kill|I|softly|''	``|VBG|PRP|RB|''	O|O|O|O|O	||||				"Killing Me Softly"	fb:part._killing_me_softly
+28	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+28	4	fb:cell.674_000	674,000	674,000	674,000	CD	NUMBER	674000.0	674000.0				
+28	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+29	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	1	fb:cell.coolio	Coolio	coolio	Coolio	NNP	PERSON					Coolio	fb:part.coolio
+29	2	fb:cell._gangsta_s_paradise	"Gangsta's Paradise"	``|gangsta|'s|paradise|''	``|Gangsta|'s|Paradise|''	``|NNP|POS|NNP|''	O|O|O|O|O	||||				"Gangsta's Paradise"	fb:part._gangsta_s_paradise
+29	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+29	4	fb:cell.672_000	672,000	672,000	672,000	CD	NUMBER	672000.0	672000.0				
+29	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+30	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+30	1	fb:cell.mylene_farmer	Mylène Farmer	mylène|farmer	Mylène|Farmer	NNP|NNP	O|O	|				Mylène Farmer	fb:part.mylene_farmer
+30	2	fb:cell._desenchantee	"Désenchantée"	``|désenchantée|''	``|désenchantée|''	``|NN|''	O|O|O	||				"Désenchantée"	fb:part._desenchantee
+30	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+30	4	fb:cell.665_000	665,000	665,000	665,000	CD	NUMBER	665000.0	665000.0				
+30	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+31	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+31	1	fb:cell.brandy_monica	Brandy & Monica	brandy|&|monica	Brandy|&|Monica	NNP|CC|NNP	O|O|PERSON	||				Brandy & Monica	fb:part.brandy_monica
+31	2	fb:cell._the_boy_is_mine	"The Boy Is Mine"	``|the|boy|is|mine|''	``|the|boy|be|Mine|''	``|DT|NN|VBD-AUX|NNP|''	O|O|O|O|O|O	|||||				"The Boy Is Mine"	fb:part._the_boy_is_mine
+31	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+31	4	fb:cell.662_000	662,000	662,000	662,000	CD	NUMBER	662000.0	662000.0				
+31	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+32	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+32	1	fb:cell.robert_miles	Robert Miles	robert|miles	Robert|Miles	NNP|NNP	PERSON|PERSON	|				Robert Miles	fb:part.robert_miles
+32	2	fb:cell._children	"Children"	``|children|''	``|Children|''	``|NNP|''	O|O|O	||				"Children"	fb:part._children
+32	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+32	4	fb:cell.642_000	642,000	642,000	642,000	CD	NUMBER	642000.0	642000.0				
+32	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+33	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+33	1	fb:cell.lagaf	Lagaf'	lagaf|'	lagaf|'	NN|''	PERSON|O	|				Lagaf'	fb:part.lagaf
+33	2	fb:cell._la_zoubida	"La Zoubida"	``|la|zoubida|''	``|La|Zoubida|''	``|NNP|NNP|''	O|O|O|O	|||				"La Zoubida"	fb:part._la_zoubida
+33	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+33	4	fb:cell.625_000	625,000	625,000	625,000	CD	NUMBER	625000.0	625000.0				
+33	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+34	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+34	1	fb:cell.tina_arena	Tina Arena	tina|arena	Tina|Arena	NNP|NNP	PERSON|PERSON	|				Tina Arena	fb:part.tina_arena
+34	2	fb:cell._aller_plus_haut	"Aller plus haut"	``|aller|plus|haut|''	``|aller|plus|haut|''	``|NN|CC|NN|''	O|PERSON|O|O|O	||||				"Aller plus haut"	fb:part._aller_plus_haut
+34	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+34	4	fb:cell.617_000	617,000	617,000	617,000	CD	NUMBER	617000.0	617000.0				
+34	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+35	0	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+35	1	fb:cell.menelik_imane_d	Ménélik & Imane D	ménélik|&|imane|d	Ménélik|&|Imane|D	NNP|CC|NNP|NNP	O|O|O|O	|||				Ménélik & Imane D	fb:part.menelik_imane_d
+35	2	fb:cell._bye_bye	"Bye bye"	``|bye|bye|''	``|bye|bye|''	``|NN|NN|''	O|O|O|O	|||				"Bye bye"	fb:part._bye_bye
+35	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+35	4	fb:cell.613_000	613,000	613,000	613,000	CD	NUMBER	613000.0	613000.0				
+35	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+36	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+36	1	fb:cell.nathalie_cardone	Nathalie Cardone	nathalie|cardone	Nathalie|Cardone	NNP|NNP	PERSON|PERSON	|				Nathalie Cardone	fb:part.nathalie_cardone
+36	2	fb:cell._hasta_siempre	"Hasta Siempre"	``|hasta|siempre|''	``|Hasta|Siempre|''	``|NNP|NNP|''	O|O|O|O	|||				"Hasta Siempre"	fb:part._hasta_siempre
+36	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+36	4	fb:cell.608_000	608,000	608,000	608,000	CD	NUMBER	608000.0	608000.0				
+36	5	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+37	0	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+37	1	fb:cell.alliage_boyzone	Alliage & Boyzone	alliage|&|boyzone	Alliage|&|Boyzone	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Alliage & Boyzone	fb:part.alliage_boyzone
+37	2	fb:cell._te_garder_pres_de_moi	"Te garder près de moi"	``|te|garder|près|de|moi|''	``|te|garder|près|de|moi|''	``|FW|FW|FW|FW|FW|''	O|O|O|O|O|O|O	||||||				"Te garder près de moi"	fb:part._te_garder_pres_de_moi
+37	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+37	4	fb:cell.607_000	607,000	607,000	607,000	CD	NUMBER	607000.0	607000.0				
+37	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+38	0	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+38	1	fb:cell.eiffel_65	Eiffel 65	eiffel|65	Eiffel|65	NNP|CD	O|NUMBER	|65.0	65.0			Eiffel 65	fb:part.eiffel_65
+38	2	fb:cell._move_your_body	"Move Your Body"	``|move|your|body|''	``|move|you|body|''	``|VB|PRP$|NN|''	O|O|O|O|O	||||				"Move Your Body"	fb:part._move_your_body
+38	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+38	4	fb:cell.589_000	589,000	589,000	589,000	CD	NUMBER	589000.0	589000.0				
+38	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+39	0	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	1	fb:cell.britney_spears	Britney Spears	britney|spears	Britney|Spears	NNP|NNP	PERSON|PERSON	|				Britney Spears	fb:part.britney_spears
+39	2	fb:cell._baby_one_more_time	"... Baby One More Time"	''|...|baby|one|more|time|''	''|...|Baby|one|more|Time|''	''|:|NNP|CD|JJR|NNP|''	O|O|O|NUMBER|O|O|O	|||1.0|||				"... Baby One More Time"	fb:part._baby_one_more_time
+39	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+39	4	fb:cell.578_000	578,000	578,000	578,000	CD	NUMBER	578000.0	578000.0				
+39	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+40	0	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+40	1	fb:cell.lara_fabian	Lara Fabian	lara|fabian	Lara|Fabian	NNP|NNP	PERSON|PERSON	|				Lara Fabian	fb:part.lara_fabian
+40	2	fb:cell._tout	"Tout"	``|tout|''	``|tout|''	``|VB|''	O|O|O	||				"Tout"	fb:part._tout
+40	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+40	4	fb:cell.566_000	566,000	566,000	566,000	CD	NUMBER	566000.0	566000.0				
+40	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+41	0	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+41	1	fb:cell.helene_segara	Hélène Ségara	hélène|ségara	Hélène|Ségara	NNP|NNP	PERSON|PERSON	|				Hélène Ségara	fb:part.helene_segara
+41	2	fb:cell._il_y_a_trop_de_gens_qui_t_aiment	"Il y a trop de gens qui t'aiment"	``|il|y|a|trop|de|gens|qui|t|`|aiment|''	``|il|y|a|trop|de|gens|qui|t|`|aiment|''	``|NN|VBD|DT|FW|FW|FW|FW|NN|``|NN|''	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				"Il y a trop de gens qui t'aiment"	fb:part._il_y_a_trop_de_gens_qui_t_aiment
+41	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+41	4	fb:cell.565_000	565,000	565,000	565,000	CD	NUMBER	565000.0	565000.0				
+41	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+42	0	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+42	1	fb:cell.ricky_martin	Ricky Martin	ricky|martin	Ricky|Martin	NNP|NNP	PERSON|PERSON	|				Ricky Martin	fb:part.ricky_martin
+42	2	fb:cell._la_copa_da_la_vida	"La Copa da la Vida"	``|la|copa|da|la|vida|''	``|La|Copa|da|la|Vida|''	``|NNP|NNP|NNP|NNP|NNP|''	O|O|O|O|O|O|O	||||||				"La Copa da la Vida"	fb:part._la_copa_da_la_vida
+42	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+42	4	fb:cell.563_000	563,000	563,000	563,000	CD	NUMBER	563000.0	563000.0				
+42	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+43	0	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+43	1	fb:cell.des_ree	Des'ree	des|`|ree	Des|`|ree	NNP|``|FW	O|O|O	||				Des'ree	fb:part.des_ree
+43	2	fb:cell._life	"Life"	``|life|''	``|Life|''	``|NNP|''	O|O|O	||				"Life"	fb:part._life
+43	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+43	4	fb:cell.555_000	555,000	555,000	555,000	CD	NUMBER	555000.0	555000.0				
+43	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+44	0	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+44	1	fb:cell.poetic_lover	Poetic Lover	poetic|lover	poetic|lover	JJ|NN	O|O	|				Poetic Lover	fb:part.poetic_lover
+44	2	fb:cell._prenons_notre_temps	"Prenons notre temps"	``|prenons|notre|temps|''	``|prenon|notre|temp|''	``|NNS|VBP|NNS|''	O|O|O|O|O	||||				"Prenons notre temps"	fb:part._prenons_notre_temps
+44	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+44	4	fb:cell.532_000	532,000	532,000	532,000	CD	NUMBER	532000.0	532000.0				
+44	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+45	0	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+45	1	fb:cell.coumba_gawlo	Coumba Gawlo	coumba|gawlo	Coumba|Gawlo	NNP|NNP	PERSON|PERSON	|				Coumba Gawlo	fb:part.coumba_gawlo
+45	2	fb:cell._pata_pata	"Pata pata"	``|pata|pata|''	``|pa|pa|''	``|NN|NN|''	O|O|O|O	|||				"Pata pata"	fb:part._pata_pata
+45	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+45	4	fb:cell.529_000	529,000	529,000	529,000	CD	NUMBER	529000.0	529000.0				
+45	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+46	0	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+46	1	fb:cell.indians_sacred_spirit	Indians Sacred Spirit	indians|sacred|spirit	Indians|Sacred|spirit	NNPS|NNP|NN	MISC|MISC|MISC	||				Indians Sacred Spirit	fb:part.indians_sacred_spirit
+46	2	fb:cell._yeha_noha	"Yeha-Noha"	``|yeha|noha|''	``|Yeha|Noha|''	``|NNP|NNP|''	O|O|O|O	|||				"Yeha-Noha"	fb:part._yeha_noha
+46	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+46	4	fb:cell.528_000	528,000	528,000	528,000	CD	NUMBER	528000.0	528000.0				
+46	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+47	0	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+47	1	fb:cell.laam	Lââm	lââm	lââm	NN	O					Lââm	fb:part.laam
+47	2	fb:cell._jamais_loin_de_toi	"Jamais loin de toi"	``|jamais|loin|de|toi|''	``|jamais|loin|de|toi|''	``|FW|FW|FW|FW|''	O|O|O|O|O|O	|||||				"Jamais loin de toi"	fb:part._jamais_loin_de_toi
+47	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+47	4	fb:cell.518_000	518,000	518,000	518,000	CD	NUMBER	518000.0	518000.0				
+47	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+48	0	fb:cell.49	49	49	49	CD	NUMBER	49.0	49.0				
+48	1	fb:cell.bryan_adams	Bryan Adams	bryan|adams	Bryan|Adams	NNP|NNP	PERSON|PERSON	|				Bryan Adams	fb:part.bryan_adams
+48	2	fb:cell._everything_i_do_i_do_it_for_you	"(Everything I Do) I Do It for You"	''|-lrb-|everything|i|do|-rrb-|i|do|it|for|you|''	''|-lrb-|Everything|I|do|-rrb-|I|do|it|for|you|''	''|-LRB-|NNP|PRP|VBD-AUX|-RRB-|PRP|VBD-AUX|PRP|IN|PRP|''	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				"(Everything I Do) I Do It for You"	fb:part._everything_i_do_i_do_it_for_you
+48	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+48	4	fb:cell.508_000	508,000	508,000	508,000	CD	NUMBER	508000.0	508000.0				
+48	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+49	0	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+49	1	fb:cell.celine_dion	Céline Dion	céline|dion	Céline|Dion	NNP|NNP	PERSON|PERSON	|				Céline Dion	fb:part.celine_dion
+49	2	fb:cell._je_sais_pas	"Je sais pas"	``|je|sais|pas|''	``|je|sais|pas|''	``|NN|FW|FW|''	O|O|O|O|O	||||				"Je sais pas"	fb:part._je_sais_pas
+49	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+49	4	fb:cell.506_000	506,000	506,000	506,000	CD	NUMBER	506000.0	506000.0				
+49	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+50	0	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+50	1	fb:cell.gala	Gala	gala	Gala	NNP	O					Gala	fb:part.gala
+50	2	fb:cell._let_a_boy_cry	"Let a Boy Cry"	``|let|a|boy|cry|''	``|let|a|boy|cry|''	``|VB|DT|NN|NN|''	O|O|O|O|O|O	|||||				"Let a Boy Cry"	fb:part._let_a_boy_cry
+50	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+50	4	fb:cell.497_000	497,000	497,000	497,000	CD	NUMBER	497000.0	497000.0				
+50	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+51	0	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+51	1	fb:cell.emilia	Emilia	emilia	Emilia	NNP	PERSON					Emilia	fb:part.emilia
+51	2	fb:cell._big_big_world	"Big Big World"	``|big|big|world|''	``|Big|Big|World|''	``|NNP|NNP|NNP|''	O|O|O|O|O	||||				"Big Big World"	fb:part._big_big_world
+51	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+51	4	fb:cell.496_000	496,000	496,000	496,000	CD	NUMBER	496000.0	496000.0				
+51	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+52	0	fb:cell.53	53	53	53	CD	NUMBER	53.0	53.0				
+52	1	fb:cell.puff_daddy_faith_evans	Puff Daddy & Faith Evans	puff|daddy|&|faith|evans	puff|Daddy|&|Faith|Evans	NN|NNP|CC|NNP|NNP	O|O|O|O|O	||||				Puff Daddy & Faith Evans	fb:part.puff_daddy_faith_evans
+52	2	fb:cell._i_ll_be_missing_you	"I'll Be Missing You"	``|i|'ll|be|missing|you|''	``|I|'ll|be|miss|you|''	``|PRP|MD|VBD-AUX|VBG|PRP|''	O|O|O|O|O|O|O	||||||				"I'll Be Missing You"	fb:part._i_ll_be_missing_you
+52	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+52	4	fb:cell.492_000	492,000	492,000	492,000	CD	NUMBER	492000.0	492000.0				
+52	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+53	0	fb:cell.54	54	54	54	CD	NUMBER	54.0	54.0				
+53	1	fb:cell.hanson	Hanson	hanson	Hanson	NNP	PERSON					Hanson	fb:part.hanson
+53	2	fb:cell._mmmbop	"MMMBop"	``|mmmbop|''	``|MMMBop|''	``|NNP|''	O|O|O	||				"MMMBop"	fb:part._mmmbop
+53	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+53	4	fb:cell.490_000	490,000	490,000	490,000	CD	NUMBER	490000.0	490000.0				
+53	5	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+54	0	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+54	1	fb:cell.manau	Manau	manau	Manau	NNP	O					Manau	fb:part.manau
+54	2	fb:cell._mais_qui_est_la_belette	"Mais qui est la belette ?"	``|mais|qui|est|la|belette|?|''	``|mais|qui|est|la|belette|?|''	``|FW|FW|FW|FW|FW|.|''	O|O|O|O|O|O|O|O	|||||||				"Mais qui est la belette ?"	fb:part._mais_qui_est_la_belette
+54	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+54	4	fb:cell.490_000	490,000	490,000	490,000	CD	NUMBER	490000.0	490000.0				
+54	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+55	0	fb:cell.56	56	56	56	CD	NUMBER	56.0	56.0				
+55	1	fb:cell.the_cranberries	The Cranberries	the|cranberries	the|Cranberries	DT|NNPS	O|O	|				The Cranberries	fb:part.the_cranberries
+55	2	fb:cell._zombie	"Zombie"	``|zombie|''	``|Zombie|''	``|NNP|''	O|O|O	||				"Zombie"	fb:part._zombie
+55	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+55	4	fb:cell.484_000	484,000	484,000	484,000	CD	NUMBER	484000.0	484000.0				
+55	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+56	0	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+56	1	fb:cell.bellini	Bellini	bellini	Bellini	NNP	PERSON					Bellini	fb:part.bellini
+56	2	fb:cell._samba_de_janeiro	"Samba de Janeiro"	``|samba|de|janeiro|''	``|samba|de|Janeiro|''	``|FW|FW|NNP|''	O|O|O|O|O	||||				"Samba de Janeiro"	fb:part._samba_de_janeiro
+56	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+56	4	fb:cell.481_000	481,000	481,000	481,000	CD	NUMBER	481000.0	481000.0				
+56	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+57	0	fb:cell.58	58	58	58	CD	NUMBER	58.0	58.0				
+57	1	fb:cell.john_scatman	John Scatman	john|scatman	John|Scatman	NNP|NNP	PERSON|PERSON	|				John Scatman	fb:part.john_scatman
+57	2	fb:cell._scatman_ski_ba_bop_ba_dop_bop	"Scatman (Ski Ba Bop Ba Dop Bop)"	``|scatman|-lrb-|ski|ba|bop|ba|dop|bop|-rrb-|''	``|Scatman|-lrb-|Ski|Ba|Bop|Ba|Dop|Bop|-rrb-|''	``|NNP|-LRB-|NNP|NNP|NNP|NNP|NNP|NNP|-RRB-|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"Scatman (Ski Ba Bop Ba Dop Bop)"	fb:part._scatman_ski_ba_bop_ba_dop_bop
+57	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+57	4	fb:cell.479_000	479,000	479,000	479,000	CD	NUMBER	479000.0	479000.0				
+57	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+58	0	fb:cell.59	59	59	59	CD	NUMBER	59.0	59.0				
+58	1	fb:cell.regg_lyss	Regg'Lyss	regg|`|lyss	Regg|`|Lyss	NNP|``|NNP	O|O|PERSON	||				Regg'Lyss	fb:part.regg_lyss
+58	2	fb:cell._mets_de_l_huile	"Mets de l'huile"	``|mets|de|l'huile|''	``|Mets|de|l'huile|''	``|NNPS|FW|FW|''	O|O|O|O|O	||||				"Mets de l'huile"	fb:part._mets_de_l_huile
+58	3	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+58	4	fb:cell.476_000	476,000	476,000	476,000	CD	NUMBER	476000.0	476000.0				
+58	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+59	0	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+59	1	fb:cell.janet_jackson	Janet Jackson	janet|jackson	Janet|Jackson	NNP|NNP	PERSON|PERSON	|				Janet Jackson	fb:part.janet_jackson
+59	2	fb:cell._together_again	"Together Again"	``|together|again|''	``|together|again|''	``|RB|RB|''	O|O|O|O	|||				"Together Again"	fb:part._together_again
+59	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+59	4	fb:cell.475_000	475,000	475,000	475,000	CD	NUMBER	475000.0	475000.0				
+59	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+60	0	fb:cell.61	61	61	61	CD	NUMBER	61.0	61.0				
+60	1	fb:cell.modern_talking	Modern Talking	modern|talking	Modern|talk	NNP|VBG	O|O	|				Modern Talking	fb:part.modern_talking
+60	2	fb:cell._you_re_my_heart_you_re_my_soul	"You're My Heart, You're My Soul"	``|you|'re|my|heart|,|you|'re|my|soul|''	``|you|be|my|Heart|,|you|be|my|soul|''	``|PRP|VBP|PRP$|NNP|,|PRP|VBP|PRP$|NN|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"You're My Heart|You're My Soul"	fb:part._you_re_my_heart|fb:part.you_re_my_soul
+60	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+60	4	fb:cell.475_000	475,000	475,000	475,000	CD	NUMBER	475000.0	475000.0				
+60	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+61	0	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+61	1	fb:cell.johnny_hallyday	Johnny Hallyday	johnny|hallyday	Johnny|Hallyday	NNP|NNP	PERSON|PERSON	|				Johnny Hallyday	fb:part.johnny_hallyday
+61	2	fb:cell._vivre_pour_le_meilleur	"Vivre pour le meilleur"	``|vivre|pour|le|meilleur|''	``|Vivre|pour|le|meilleur|''	``|NNP|VBP|DT|NN|''	O|O|O|O|O|O	|||||				"Vivre pour le meilleur"	fb:part._vivre_pour_le_meilleur
+61	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+61	4	fb:cell.471_000	471,000	471,000	471,000	CD	NUMBER	471000.0	471000.0				
+61	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+62	0	fb:cell.63	63	63	63	CD	NUMBER	63.0	63.0				
+62	1	fb:cell.2be3	2Be3	2be3	2be3	NN	O		2.0		3.0	2Be3	fb:part.2be3
+62	2	fb:cell._partir_un_jour	"Partir un jour"	``|partir|un|jour|''	``|partir|un|jour|''	``|FW|FW|FW|''	O|O|O|O|O	||||				"Partir un jour"	fb:part._partir_un_jour
+62	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+62	4	fb:cell.471_000	471,000	471,000	471,000	CD	NUMBER	471000.0	471000.0				
+62	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+63	0	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0				
+63	1	fb:cell.lara_fabian	Lara Fabian	lara|fabian	Lara|Fabian	NNP|NNP	PERSON|PERSON	|				Lara Fabian	fb:part.lara_fabian
+63	2	fb:cell._je_t_aime	"Je t'aime"	``|je|t|`|aime|''	``|je|t|`|aime|''	``|NN|NN|``|FW|''	O|O|O|O|O|O	|||||				"Je t'aime"	fb:part._je_t_aime
+63	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+63	4	fb:cell.471_000	471,000	471,000	471,000	CD	NUMBER	471000.0	471000.0				
+63	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+64	0	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+64	1	fb:cell.madonna	Madonna	madonna	Madonna	NNP	PERSON					Madonna	fb:part.madonna
+64	2	fb:cell._frozen	"Frozen"	``|frozen|''	``|frozen|''	``|JJ|''	O|O|O	||				"Frozen"	fb:part._frozen
+64	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+64	4	fb:cell.469_000	469,000	469,000	469,000	CD	NUMBER	469000.0	469000.0				
+64	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+65	0	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+65	1	fb:cell.francois_feldman	François Feldman	françois|feldman	François|Feldman	NNP|NNP	PERSON|PERSON	|				François Feldman	fb:part.francois_feldman
+65	2	fb:cell._joy	"Joy"	``|joy|''	``|Joy|''	``|NNP|''	O|O|O	||				"Joy"	fb:part._joy
+65	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+65	4	fb:cell.468_000	468,000	468,000	468,000	CD	NUMBER	468000.0	468000.0				
+65	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+66	0	fb:cell.67	67	67	67	CD	NUMBER	67.0	67.0				
+66	1	fb:cell.patrick_bruel	Patrick Bruel	patrick|bruel	Patrick|Bruel	NNP|NNP	PERSON|PERSON	|				Patrick Bruel	fb:part.patrick_bruel
+66	2	fb:cell._qui_a_le_droit_live	"Qui a le droit... (live)"	``|qui|a|le|droit|...|-lrb-|live|-rrb-|''	``|qui|a|le|droit|...|-lrb-|live|-rrb-|''	``|IN|DT|FW|FW|:|-LRB-|JJ|-RRB-|''	O|O|O|O|O|O|O|O|O|O	|||||||||				"Qui a le droit... (live)"	fb:part._qui_a_le_droit_live
+66	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+66	4	fb:cell.466_000	466,000	466,000	466,000	CD	NUMBER	466000.0	466000.0				
+66	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+67	0	fb:cell.68	68	68	68	CD	NUMBER	68.0	68.0				
+67	1	fb:cell.youssou_n_dour_neneh_cherry	Youssou N'Dour & Neneh Cherry	youssou|n'dour|&|neneh|cherry	Youssou|N'Dour|&|Neneh|Cherry	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Youssou N'Dour & Neneh Cherry	fb:part.youssou_n_dour_neneh_cherry
+67	2	fb:cell._7_seconds	"7 Seconds"	``|7|seconds|''	``|7|seconds|''	``|CD|NNS|''	O|DURATION|DURATION|O	|7.0|7.0|	7.0			"7 Seconds"	fb:part._7_seconds
+67	3	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+67	4	fb:cell.465_000	465,000	465,000	465,000	CD	NUMBER	465000.0	465000.0				
+67	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+68	0	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+68	1	fb:cell.shania_twain	Shania Twain	shania|twain	Shania|Twain	NNP|NNP	PERSON|PERSON	|				Shania Twain	fb:part.shania_twain
+68	2	fb:cell._man_i_feel_like_a_woman	"Man! I Feel like a Woman!"	``|man|!|i|feel|like|a|woman|!|''	``|man|!|I|feel|like|a|Woman|!|''	``|NN|.|PRP|VBP|IN|DT|NNP|.|''	O|O|O|O|O|O|O|O|O|O	|||||||||				"Man! I Feel like a Woman!"	fb:part._man_i_feel_like_a_woman
+68	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+68	4	fb:cell.459_000	459,000	459,000	459,000	CD	NUMBER	459000.0	459000.0				
+68	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+69	0	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+69	1	fb:cell.david_charvet	David Charvet	david|charvet	David|Charvet	NNP|NNP	PERSON|PERSON	|				David Charvet	fb:part.david_charvet
+69	2	fb:cell._should_i_leave	"Should I Leave"	``|should|i|leave|''	``|should|I|leave|''	``|VBD-AUX|PRP|VB|''	O|O|O|O|O	||||				"Should I Leave"	fb:part._should_i_leave
+69	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+69	4	fb:cell.452_000	452,000	452,000	452,000	CD	NUMBER	452000.0	452000.0				
+69	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+70	0	fb:cell.71	71	71	71	CD	NUMBER	71.0	71.0				
+70	1	fb:cell.madonna	Madonna	madonna	Madonna	NNP	PERSON					Madonna	fb:part.madonna
+70	2	fb:cell._don_t_cry_for_me_argentina	"Don't Cry for Me Argentina"	``|do|n't|cry|for|me|argentina|''	``|do|not|cry|for|I|Argentina|''	``|VBD-AUX|RB|VB|IN|PRP|NNP|''	O|O|O|O|O|O|LOCATION|O	|||||||				"Don't Cry for Me Argentina"	fb:part._don_t_cry_for_me_argentina
+70	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+70	4	fb:cell.447_000	447,000	447,000	447,000	CD	NUMBER	447000.0	447000.0				
+70	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+71	0	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+71	1	fb:cell.les_inconnus	Les Inconnus	les|inconnus	Les|Inconnus	NNP|NNP	PERSON|PERSON	|				Les Inconnus	fb:part.les_inconnus
+71	2	fb:cell._auteuil_neuilly_passy	"Auteuil, Neuilly, Passy"	``|auteuil|,|neuilly|,|passy|''	``|Auteuil|,|Neuilly|,|Passy|''	``|NNP|,|NNP|,|NNP|''	O|O|O|LOCATION|O|PERSON|O	||||||				"Auteuil|Neuilly|Passy"	fb:part._auteuil|fb:part.neuilly|fb:part.passy
+71	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+71	4	fb:cell.428_000	428,000	428,000	428,000	CD	NUMBER	428000.0	428000.0				
+71	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+72	0	fb:cell.73	73	73	73	CD	NUMBER	73.0	73.0				
+72	1	fb:cell.freddie_mercury	Freddie Mercury	freddie|mercury	Freddie|Mercury	NNP|NNP	O|O	|				Freddie Mercury	fb:part.freddie_mercury
+72	2	fb:cell._living_on_my_own_1993	"Living on My Own 1993"	``|living|on|my|own|1993|''	``|live|on|my|own|1993|''	``|VBG|IN|PRP$|JJ|CD|''	O|O|O|O|O|DATE|O	|||||1993|	1993.0			"Living on My Own 1993"	fb:part._living_on_my_own_1993
+72	3	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+72	4	fb:cell.426_000	426,000	426,000	426,000	CD	NUMBER	426000.0	426000.0				
+72	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+73	0	fb:cell.74	74	74	74	CD	NUMBER	74.0	74.0				
+73	1	fb:cell.mark_snow	Mark Snow	mark|snow	Mark|Snow	NNP|NNP	O|O	|				Mark Snow	fb:part.mark_snow
+73	2	fb:cell._the_x_files	"The X-Files"	``|the|x|files|''	``|the|x|file|''	``|DT|NN|NNS|''	O|O|O|O|O	||||				"The X-Files"	fb:part._the_x_files
+73	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+73	4	fb:cell.425_000	425,000	425,000	425,000	CD	NUMBER	425000.0	425000.0				
+73	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+74	0	fb:cell.75	75	75	75	CD	NUMBER	75.0	75.0				
+74	1	fb:cell.pow_wow	Pow woW	pow|wow	Pow|woW	NNP|NNP	O|O	|				Pow woW	fb:part.pow_wow
+74	2	fb:cell._le_chat	"Le Chat"	``|le|chat|''	``|Le|Chat|''	``|NNP|NNP|''	O|O|O|O	|||				"Le Chat"	fb:part._le_chat
+74	3	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+74	4	fb:cell.423_000	423,000	423,000	423,000	CD	NUMBER	423000.0	423000.0				
+74	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+75	0	fb:cell.76	76	76	76	CD	NUMBER	76.0	76.0				
+75	1	fb:cell.felix_gray_didier_barbelivien	Félix Gray & Didier Barbelivien	félix|gray|&|didier|barbelivien	Félix|Gray|&|Didier|Barbelivien	NNP|NNP|CC|NNP|NNP	O|O|O|PERSON|PERSON	||||				Félix Gray & Didier Barbelivien	fb:part.felix_gray_didier_barbelivien
+75	2	fb:cell._il_faut_laisser_le_temps_au_temps	"Il faut laisser le temps au temps"	``|il|faut|laisser|le|temps|au|temps|''	``|il|faut|laisser|le|temp|au|temp|''	``|NN|JJ|NN|DT|NNS|NN|NNS|''	O|O|O|O|O|O|O|O|O	||||||||				"Il faut laisser le temps au temps"	fb:part._il_faut_laisser_le_temps_au_temps
+75	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+75	4	fb:cell.420_000	420,000	420,000	420,000	CD	NUMBER	420000.0	420000.0				
+75	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+76	0	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+76	1	fb:cell.felicidad	Felicidad	felicidad	Felicidad	NNP	O					Felicidad	fb:part.felicidad
+76	2	fb:cell._dam_dam_deo	"Dam dam deo"	``|dam|dam|deo|''	``|dam|dam|deo|''	``|NN|NN|NN|''	O|O|O|O|O	||||				"Dam dam deo"	fb:part._dam_dam_deo
+76	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+76	4	fb:cell.410_000	410,000	410,000	410,000	CD	NUMBER	410000.0	410000.0				
+76	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+77	0	fb:cell.78	78	78	78	CD	NUMBER	78.0	78.0				
+77	1	fb:cell.britney_spears	Britney Spears	britney|spears	Britney|Spears	NNP|NNP	PERSON|PERSON	|				Britney Spears	fb:part.britney_spears
+77	2	fb:cell._you_drive_me_crazy	"(You Drive Me) Crazy"	''|-lrb-|you|drive|me|-rrb-|crazy|''	''|-lrb-|you|drive|I|-rrb-|Crazy|''	''|-LRB-|PRP|VB|PRP|-RRB-|NNP|''	O|O|O|O|O|O|O|O	|||||||				"(You Drive Me) Crazy"	fb:part._you_drive_me_crazy
+77	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+77	4	fb:cell.409_000	409,000	409,000	409,000	CD	NUMBER	409000.0	409000.0				
+77	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+78	0	fb:cell.79	79	79	79	CD	NUMBER	79.0	79.0				
+78	1	fb:cell.worlds_apart	Worlds Apart	worlds|apart	world|apart	NNS|RB	O|O	|				Worlds Apart	fb:part.worlds_apart
+78	2	fb:cell._je_te_donne	"Je te donne"	``|je|te|donne|''	``|je|te|donne|''	``|NN|NN|NN|''	O|O|O|O|O	||||				"Je te donne"	fb:part._je_te_donne
+78	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+78	4	fb:cell.408_000	408,000	408,000	408,000	CD	NUMBER	408000.0	408000.0				
+78	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+79	0	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+79	1	fb:cell.barbra_streisand_celine_dion	Barbra Streisand & Céline Dion	barbra|streisand|&|céline|dion	Barbra|Streisand|&|Céline|Dion	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Barbra Streisand & Céline Dion	fb:part.barbra_streisand_celine_dion
+79	2	fb:cell._tell_him	"Tell Him"	``|tell|him|''	``|tell|he|''	``|VB|PRP|''	O|O|O|O	|||				"Tell Him"	fb:part._tell_him
+79	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+79	4	fb:cell.400_000	400,000	400,000	400,000	CD	NUMBER	400000.0	400000.0				
+79	5	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+80	0	fb:cell.81	81	81	81	CD	NUMBER	81.0	81.0				
+80	1	fb:cell.g_o_culture	G.O. Culture	g.o.|culture	G.O.|Culture	NNP|NNP	MISC|MISC	|				G.O. Culture	fb:part.g_o_culture
+80	2	fb:cell._darla_dirladada	"Darla_dirladada"	``|darla_dirladada|''	``|darla_dirladada|''	``|NN|''	O|O|O	||				"Darla_dirladada"	fb:part._darla_dirladada
+80	3	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+80	4	fb:cell.397_000	397,000	397,000	397,000	CD	NUMBER	397000.0	397000.0				
+80	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+81	0	fb:cell.82	82	82	82	CD	NUMBER	82.0	82.0				
+81	1	fb:cell.spice_girls	Spice Girls	spice|girls	spice|girl	NN|NNS	ORGANIZATION|ORGANIZATION	|				Spice Girls	fb:part.spice_girls
+81	2	fb:cell._spice_up_your_life	"Spice Up Your Life"	``|spice|up|your|life|''	``|spice|up|you|life|''	``|NN|IN|PRP$|NN|''	O|O|O|O|O|O	|||||				"Spice Up Your Life"	fb:part._spice_up_your_life
+81	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+81	4	fb:cell.397_000	397,000	397,000	397,000	CD	NUMBER	397000.0	397000.0				
+81	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+82	0	fb:cell.83	83	83	83	CD	NUMBER	83.0	83.0				
+82	1	fb:cell.elton_john	Elton John	elton|john	Elton|John	NNP|NNP	PERSON|PERSON	|				Elton John	fb:part.elton_john
+82	2	fb:cell._can_you_feel_the_love_tonight	"Can You Feel The Love Tonight"	``|can|you|feel|the|love|tonight|''	``|can|you|feel|the|Love|Tonight|''	``|VBD-AUX|PRP|VB|DT|NNP|NNP|''	O|O|O|O|O|O|DATE|O	||||||THIS NI|				"Can You Feel The Love Tonight"	fb:part._can_you_feel_the_love_tonight
+82	3	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+82	4	fb:cell.391_000	391,000	391,000	391,000	CD	NUMBER	391000.0	391000.0				
+82	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+83	0	fb:cell.84	84	84	84	CD	NUMBER	84.0	84.0				
+83	1	fb:cell.enigma	Enigma	enigma	enigma	NN	O					Enigma	fb:part.enigma
+83	2	fb:cell._sadeness_part_i	"Sadeness (Part I)"	``|sadeness|-lrb-|part|i|-rrb-|''	``|sadeness|-lrb-|part|i|-rrb-|''	``|NN|-LRB-|NN|NN|-RRB-|''	O|O|O|O|O|O|O	||||||				"Sadeness (Part I)"	fb:part._sadeness_part_i
+83	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+83	4	fb:cell.385_000	385,000	385,000	385,000	CD	NUMBER	385000.0	385000.0				
+83	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+84	0	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+84	1	fb:cell.jean_philippe_audin_diego_modena	Jean-Philippe Audin & Diego Modena	jean|philippe|audin|&|diego|modena	Jean|Philippe|Audin|&|Diego|Modena	NNP|NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Jean-Philippe Audin & Diego Modena	fb:part.jean_philippe_audin_diego_modena
+84	2	fb:cell._song_of_ocarina	"Song of Ocarina"	``|song|of|ocarina|''	``|song|of|Ocarina|''	``|NN|IN|NNP|''	O|O|O|O|O	||||				"Song of Ocarina"	fb:part._song_of_ocarina
+84	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+84	4	fb:cell.379_000	379,000	379,000	379,000	CD	NUMBER	379000.0	379000.0				
+84	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+85	0	fb:cell.86	86	86	86	CD	NUMBER	86.0	86.0				
+85	1	fb:cell.boris	Boris	boris	Boris	NNP	PERSON					Boris	fb:part.boris
+85	2	fb:cell._soiree_disco	"Soirée disco"	``|soirée|disco|''	``|soirée|disco|''	``|JJ|NN|''	O|O|O|O	|||				"Soirée disco"	fb:part._soiree_disco
+85	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+85	4	fb:cell.376_000	376,000	376,000	376,000	CD	NUMBER	376000.0	376000.0				
+85	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+86	0	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+86	1	fb:cell.ricky_martin	Ricky Martin	ricky|martin	Ricky|Martin	NNP|NNP	PERSON|PERSON	|				Ricky Martin	fb:part.ricky_martin
+86	2	fb:cell._te_extrano_te_olvido_te_amo	"Te Extraño, Te Olvido, Te Amo"	``|te|extraño|,|te|olvido|,|te|amo|''	``|te|extraño|,|Te|Olvido|,|Te|Amo|''	``|FW|FW|,|NNP|NNP|,|NNP|NNP|''	O|O|O|O|PERSON|PERSON|O|O|O|O	|||||||||				"Te Extraño|Te Olvido|Te Amo"	fb:part._te_extrano|fb:part.te_olvido|fb:part.te_amo
+86	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+86	4	fb:cell.373_000	373,000	373,000	373,000	CD	NUMBER	373000.0	373000.0				
+86	5	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+87	0	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+87	1	fb:cell.reel_2_real	Reel 2 Real	reel|2|real	reel|2|real	NN|CD|JJ	O|NUMBER|O	|2.0|	2.0			Reel 2 Real	fb:part.reel_2_real
+87	2	fb:cell._i_like_to_move_it	"I Like to Move It"	``|i|like|to|move|it|''	``|I|like|to|move|it|''	``|PRP|IN|TO|VB|PRP|''	O|O|O|O|O|O|O	||||||				"I Like to Move It"	fb:part._i_like_to_move_it
+87	3	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+87	4	fb:cell.367_000	367,000	367,000	367,000	CD	NUMBER	367000.0	367000.0				
+87	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+88	0	fb:cell.89	89	89	89	CD	NUMBER	89.0	89.0				
+88	1	fb:cell.celine_dion	Céline Dion	céline|dion	Céline|Dion	NNP|NNP	PERSON|PERSON	|				Céline Dion	fb:part.celine_dion
+88	2	fb:cell._un_garcon_pas_comme_les_autres_ziggy	"Un garçon pas comme les autres (Ziggy)"	``|un|garçon|pas|comme|les|autres|-lrb-|ziggy|-rrb-|''	``|un|garçon|pa|comme|les|autres|-lrb-|Ziggy|-rrb-|''	``|NN|NN|NNS|VBP|FW|FW|-LRB-|NNP|-RRB-|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"Un garçon pas comme les autres (Ziggy)"	fb:part._un_garcon_pas_comme_les_autres_ziggy
+88	3	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+88	4	fb:cell.365_000	365,000	365,000	365,000	CD	NUMBER	365000.0	365000.0				
+88	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+89	0	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+89	1	fb:cell.liane_foly	Liane Foly	liane|foly	Liane|Foly	NNP|NNP	PERSON|PERSON	|				Liane Foly	fb:part.liane_foly
+89	2	fb:cell._la_vie_ne_m_apprend_rien	"La vie ne m'apprend rien"	``|la|vie|ne|m|`|apprend|rien|''	``|La|vie|ne|m|`|apprend|rien|''	``|NNP|VB|NN|NN|``|NN|NN|''	O|O|O|O|O|O|O|O|O	||||||||				"La vie ne m'apprend rien"	fb:part._la_vie_ne_m_apprend_rien
+89	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+89	4	fb:cell.364_000	364,000	364,000	364,000	CD	NUMBER	364000.0	364000.0				
+89	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+90	0	fb:cell.91	91	91	91	CD	NUMBER	91.0	91.0				
+90	1	fb:cell.fool_s_garden	Fool's Garden	fool|'s|garden	fool|'s|garden	NN|POS|NN	O|O|O	||				Fool's Garden	fb:part.fool_s_garden
+90	2	fb:cell._lemon_tree	"Lemon Tree"	``|lemon|tree|''	``|Lemon|Tree|''	``|NNP|NNP|''	O|O|O|O	|||				"Lemon Tree"	fb:part._lemon_tree
+90	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+90	4	fb:cell.362_000	362,000	362,000	362,000	CD	NUMBER	362000.0	362000.0				
+90	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+91	0	fb:cell.92	92	92	92	CD	NUMBER	92.0	92.0				
+91	1	fb:cell.phenomenal_club	Phénoménal Club	phénoménal|club	Phénoménal|Club	NNP|NNP	O|O	|				Phénoménal Club	fb:part.phenomenal_club
+91	2	fb:cell._il_est_vraiment_phenomenal	"Il est vraiment phénoménal"	``|il|est|vraiment|phénoménal|''	``|il|est|vraiment|phénoménal|''	``|NN|NN|NN|JJ|''	O|O|O|O|O|O	|||||				"Il est vraiment phénoménal"	fb:part._il_est_vraiment_phenomenal
+91	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+91	4	fb:cell.359_000	359,000	359,000	359,000	CD	NUMBER	359000.0	359000.0				
+91	5	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+92	0	fb:cell.93	93	93	93	CD	NUMBER	93.0	93.0				
+92	1	fb:cell.patrick_bruel	Patrick Bruel	patrick|bruel	Patrick|Bruel	NNP|NNP	PERSON|PERSON	|				Patrick Bruel	fb:part.patrick_bruel
+92	2	fb:cell._alors_regarde	"Alors regarde"	``|alors|regarde|''	``|Alors|regarde|''	``|NNP|NNP|''	O|O|O|O	|||				"Alors regarde"	fb:part._alors_regarde
+92	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+92	4	fb:cell.358_000	358,000	358,000	358,000	CD	NUMBER	358000.0	358000.0				
+92	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+93	0	fb:cell.94	94	94	94	CD	NUMBER	94.0	94.0				
+93	1	fb:cell.2_unlimited	2 Unlimited	2|unlimited	2|unlimited	CD|JJ	NUMBER|O	2.0|	2.0			2 Unlimited	fb:part.2_unlimited
+93	2	fb:cell._no_limit	"No Limit"	``|no|limit|''	``|no|limit|''	``|DT|NN|''	O|O|O|O	|||				"No Limit"	fb:part._no_limit
+93	3	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+93	4	fb:cell.357_000	357,000	357,000	357,000	CD	NUMBER	357000.0	357000.0				
+93	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+94	0	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+94	1	fb:cell.alliance_ethnik	Alliance Ethnik	alliance|ethnik	Alliance|Ethnik	NNP|NNP	O|O	|				Alliance Ethnik	fb:part.alliance_ethnik
+94	2	fb:cell._respect	"Respect"	``|respect|''	``|respect|''	``|NN|''	O|O|O	||				"Respect"	fb:part._respect
+94	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+94	4	fb:cell.357_000	357,000	357,000	357,000	CD	NUMBER	357000.0	357000.0				
+94	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+95	0	fb:cell.96	96	96	96	CD	NUMBER	96.0	96.0				
+95	1	fb:cell.nirvana	Nirvana	nirvana	Nirvana	NNP	O					Nirvana	fb:part.nirvana
+95	2	fb:cell._smells_like_teen_spirit	"Smells Like Teen Spirit"	``|smells|like|teen|spirit|''	``|smell|like|Teen|Spirit|''	``|VBZ|IN|NNP|NNP|''	O|O|O|O|O|O	|||||				"Smells Like Teen Spirit"	fb:part._smells_like_teen_spirit
+95	3	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+95	4	fb:cell.356_000	356,000	356,000	356,000	CD	NUMBER	356000.0	356000.0				
+95	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+96	0	fb:cell.97	97	97	97	CD	NUMBER	97.0	97.0				
+96	1	fb:cell.iam	IAM	iam	iam	NN	O					IAM	fb:part.iam
+96	2	fb:cell._je_danse_le_mia	"Je danse le Mia"	``|je|danse|le|mia|''	``|je|danse|le|Mia|''	``|NN|JJ|DT|NNP|''	O|O|O|O|O|O	|||||				"Je danse le Mia"	fb:part._je_danse_le_mia
+96	3	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+96	4	fb:cell.352_000	352,000	352,000	352,000	CD	NUMBER	352000.0	352000.0				
+96	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+97	0	fb:cell.98	98	98	98	CD	NUMBER	98.0	98.0				
+97	1	fb:cell.organiz	Organiz'	organiz|'	organiz|'	NN|''	PERSON|O	|				Organiz'	fb:part.organiz
+97	2	fb:cell._i_never_knew_love_like_this_before	"I Never Knew Love Like This Before"	``|i|never|knew|love|like|this|before|''	``|I|never|know|Love|like|this|before|''	``|PRP|RB|VBD|NNP|IN|DT|IN|''	O|O|O|O|O|O|O|O|O	||||||||				"I Never Knew Love Like This Before"	fb:part._i_never_knew_love_like_this_before
+97	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+97	4	fb:cell.352_000	352,000	352,000	352,000	CD	NUMBER	352000.0	352000.0				
+97	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+98	0	fb:cell.99	99	99	99	CD	NUMBER	99.0	99.0				
+98	1	fb:cell.2be3	2Be3	2be3	2be3	NN	O		2.0		3.0	2Be3	fb:part.2be3
+98	2	fb:cell._toujours_la_pour_toi	"Toujours là pour toi"	``|toujours|là|pour|toi|''	``|toujours|là|pour|tous|''	``|FW|FW|VBP|NN|''	O|O|O|O|O|O	|||||				"Toujours là pour toi"	fb:part._toujours_la_pour_toi
+98	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+98	4	fb:cell.351_000	351,000	351,000	351,000	CD	NUMBER	351000.0	351000.0				
+98	5	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+99	0	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+99	1	fb:cell.snap	Snap!	snap|!	snap|!	VB|.	O|O	|				Snap!	fb:part.snap
+99	2	fb:cell._rhythm_is_a_dancer	"Rhythm Is a Dancer"	``|rhythm|is|a|dancer|''	``|rhythm|be|a|dancer|''	``|NN|VBD-AUX|DT|NN|''	O|O|O|O|O|O	|||||				"Rhythm Is a Dancer"	fb:part._rhythm_is_a_dancer
+99	3	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+99	4	fb:cell.349_000	349,000	349,000	349,000	CD	NUMBER	349000.0	349000.0				
+99	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				

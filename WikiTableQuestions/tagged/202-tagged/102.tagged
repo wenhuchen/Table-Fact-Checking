@@ -1,0 +1,125 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.battle_siege_or_offensive	Battle, Siege, or Offensive	battle|,|siege|,|or|offensive	battle|,|Siege|,|or|Offensive	NN|,|NNP|,|CC|NNP	O|O|O|O|O|O	|||||					
+-1	1	fb:row.row.conflict	Conflict	conflict	conflict	NN	O						
+-1	2	fb:row.row.dates	Dates	dates	date	NNS	O						
+-1	3	fb:row.row.estimated_number_of_americans_killed	Estimated number of Americans killed	estimated|number|of|americans|killed	estimate|number|of|Americans|kill	VBN|NN|IN|NNPS|VBD	O|O|O|MISC|O	||||					
+0	0	fb:cell.meuse_argonne_offensive	Meuse-Argonne Offensive	meuse|argonne|offensive	Meuse|Argonne|Offensive	NNP|NNP|NNP	O|O|O	||					
+0	1	fb:cell.world_war_i	World War I	world|war|i	World|War|I	NNP|NNP|NNP	MISC|MISC|MISC	||					
+0	2	fb:cell.september_26_to_november_11_1918	September 26 to November 11, 1918	september|26|to|november|11|,|1918	September|26|to|November|11|,|1918	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-09-26|XXXX-09-26||1918-11-11|1918-11-11|1918-11-11|1918-11-11	26.0		111918.0	September 26 to November 11|1918	fb:part.september_26_to_november_11|fb:part.1918
+0	3	fb:cell.26_277_killed	26,277 killed	26,277|killed	26,277|kill	CD|VBD	NUMBER|O	26277.0|	26277.0				
+1	0	fb:cell.battle_of_the_bulge	Battle of the Bulge	battle|of|the|bulge	battle|of|the|Bulge	NN|IN|DT|NNP	O|O|O|O	|||					
+1	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+1	2	fb:cell.december_16_1944_to_january_25_1945	December 16, 1944 to January 25, 1945	december|16|,|1944|to|january|25|,|1945	December|16|,|1944|to|January|25|,|1945	NNP|CD|,|CD|TO|NNP|CD|,|CD	DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	1944-12-16|1944-12-16|1944-12-16|1944-12-16||1945-01-25|1945-01-25|1945-01-25|1945-01-25	161944.0		251945.0	December 16|1944 to January 25|1945	fb:part.december_16|fb:part.1944_to_january_25|fb:part.1945
+1	3	fb:cell.19_276_killed	19,276 killed	19,276|killed	19,276|kill	CD|VBD	NUMBER|O	19276.0|	19276.0				
+2	0	fb:cell.battle_of_normandy	Battle of Normandy	battle|of|normandy	battle|of|Normandy	NN|IN|NNP	O|O|LOCATION	||					
+2	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+2	2	fb:cell.june_6_to_july_24_1944	June 6 to July 24, 1944	june|6|to|july|24|,|1944	June|6|to|July|24|,|1944	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-06-06|XXXX-06-06||1944-07-24|1944-07-24|1944-07-24|1944-07-24	6.0		241944.0	June 6 to July 24|1944	fb:part.june_6_to_july_24|fb:part.1944
+2	3	fb:cell.16_293_killed	16,293 killed	16,293|killed	16,293|kill	CD|VBD	NUMBER|O	16293.0|	16293.0				
+3	0	fb:cell.battle_of_okinawa	Battle of Okinawa	battle|of|okinawa	battle|of|Okinawa	NN|IN|NNP	O|O|LOCATION	||					
+3	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+3	2	fb:cell.april_1_to_june_21_1945	April 1 to June 21, 1945	april|1|to|june|21|,|1945	April|1|to|June|21|,|1945	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-04-01|XXXX-04-01||1945-06-21|1945-06-21|1945-06-21|1945-06-21	1.0		211945.0	April 1 to June 21|1945	fb:part.april_1_to_june_21|fb:part.1945
+3	3	fb:cell.12_513_killed	12,513 killed	12,513|killed	12,513|kill	CD|VBD	NUMBER|O	12513.0|	12513.0				
+4	0	fb:cell.battle_of_hurtgen_forest	Battle of Hürtgen Forest	battle|of|hürtgen|forest	battle|of|Hürtgen|Forest	NN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||					
+4	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+4	2	fb:cell.september_19_1944_to_february_10_1945	September 19, 1944 to February 10, 1945	september|19|,|1944|to|february|10|,|1945	September|19|,|1944|to|February|10|,|1945	NNP|CD|,|CD|TO|NNP|CD|,|CD	DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	1944-09-19|1944-09-19|1944-09-19|1944-09-19||1945-02-10|1945-02-10|1945-02-10|1945-02-10	191944.0		101945.0	September 19|1944 to February 10|1945	fb:part.september_19|fb:part.1944_to_february_10|fb:part.1945
+4	3	fb:cell.over_12_000_killed	Over 12,000 killed	over|12,000|killed	over|12,000|kill	IN|CD|VBD	O|NUMBER|O	|>12000.0|	12000.0				
+5	0	fb:cell.battle_of_gettysburg	Battle of Gettysburg	battle|of|gettysburg	battle|of|Gettysburg	NN|IN|NNP	O|O|LOCATION	||					
+5	1	fb:cell.american_civil_war	American Civil War	american|civil|war	American|Civil|War	NNP|NNP|NNP	MISC|MISC|MISC	||					
+5	2	fb:cell.july_1_to_july_3_1863	July 1 to July 3, 1863	july|1|to|july|3|,|1863	July|1|to|July|3|,|1863	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-07-01|XXXX-07-01||1863-07-03|1863-07-03|1863-07-03|1863-07-03	1.0		31863.0	July 1 to July 3|1863	fb:part.july_1_to_july_3|fb:part.1863
+5	3	fb:cell.7_863_killed_3_155_union_and_4_708_confederacy	7,863 killed (3,155 Union and 4,708 Confederacy)	7,863|killed|-lrb-|3,155|union|and|4,708|confederacy|-rrb-	7,863|kill|-lrb-|3,155|Union|and|4,708|confederacy|-rrb-	CD|VBN|-LRB-|CD|NNP|CC|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	7863.0|||3155.0|||4708.0||	7863.0		3155.0		
+6	0	fb:cell.battle_of_guadalcanal	Battle of Guadalcanal	battle|of|guadalcanal	battle|of|Guadalcanal	NN|IN|NNP	O|O|LOCATION	||					
+6	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+6	2	fb:cell.august_7_1942_to_february_9_1943	August 7, 1942 to February 9, 1943	august|7|,|1942|to|february|9|,|1943	August|7|,|1942|to|February|9|,|1943	NNP|CD|,|CD|TO|NNP|CD|,|CD	DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	1942-08-07|1942-08-07|1942-08-07|1942-08-07||1943-02-09|1943-02-09|1943-02-09|1943-02-09	71942.0		91943.0	August 7|1942 to February 9|1943	fb:part.august_7|fb:part.1942_to_february_9|fb:part.1943
+6	3	fb:cell.7_100_killed	7,100 killed	7,100|killed	7,100|kill	CD|VBD	NUMBER|O	7100.0|	7100.0				
+7	0	fb:cell.battle_of_iwo_jima	Battle of Iwo Jima	battle|of|iwo|jima	battle|of|Iwo|Jima	NN|IN|NNP|NNP	O|O|O|O	|||					
+7	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+7	2	fb:cell.february_16_to_march_26_1945	February 16 to March 26, 1945	february|16|to|march|26|,|1945	February|16|to|March|26|,|1945	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-02-16|XXXX-02-16||1945-03-26|1945-03-26|1945-03-26|1945-03-26	16.0		261945.0	February 16 to March 26|1945	fb:part.february_16_to_march_26|fb:part.1945
+7	3	fb:cell.7_000_killed	7,000 killed	7,000|killed	7,000|kill	CD|VBD	NUMBER|O	7000.0|	7000.0				
+8	0	fb:cell.battle_of_anzio	Battle of Anzio	battle|of|anzio	battle|of|Anzio	NN|IN|NNP	O|O|LOCATION	||					
+8	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+8	2	fb:cell.january_22_to_june_5_1944	January 22 to June 5, 1944	january|22|to|june|5|,|1944	January|22|to|June|5|,|1944	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-01-22|XXXX-01-22||1944-06-05|1944-06-05|1944-06-05|1944-06-05	22.0		51944.0	January 22 to June 5|1944	fb:part.january_22_to_june_5|fb:part.1944
+8	3	fb:cell.5_538_killed	5,538 killed	5,538|killed	5,538|kill	CD|VBD	NUMBER|O	5538.0|	5538.0				
+9	0	fb:cell.battle_of_pusan_perimeter	Battle of Pusan Perimeter	battle|of|pusan|perimeter	battle|of|Pusan|Perimeter	NN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||					
+9	1	fb:cell.korean_war	Korean War	korean|war	korean|war	JJ|NN	MISC|MISC	|					
+9	2	fb:cell.august_to_september_1950	August to September, 1950	august|to|september|,|1950	August|to|September|,|1950	NNP|TO|NNP|,|CD	DATE|O|DATE|DATE|DATE	XXXX-08||1950-09|1950-09|1950-09	1950.0			August to September|1950	fb:part.august_to_september|fb:part.1950
+9	3	fb:cell.4_599_killed	4,599 killed	4,599|killed	4,599|kill	CD|VBD	NUMBER|O	4599.0|	4599.0				
+10	0	fb:cell.battle_of_spotsylvania	Battle of Spotsylvania	battle|of|spotsylvania	battle|of|Spotsylvania	NN|IN|NNP	O|O|LOCATION	||					
+10	1	fb:cell.american_civil_war	American Civil War	american|civil|war	American|Civil|War	NNP|NNP|NNP	MISC|MISC|MISC	||					
+10	2	fb:cell.may_8_to_may_21_1864	May 8 to May 21, 1864	may|8|to|may|21|,|1864	May|8|to|May|21|,|1864	VBD-AUX|CD|TO|VBD-AUX|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-05-08|XXXX-05-08||1864-05-21|1864-05-21|1864-05-21|1864-05-21	8.0		211864.0	May 8 to May 21|1864	fb:part.may_8_to_may_21|fb:part.1864
+10	3	fb:cell.4_192_killed_2_725_union_and_1_467_confederacy	4,192 killed (2,725 Union and 1,467 Confederacy)	4,192|killed|-lrb-|2,725|union|and|1,467|confederacy|-rrb-	4,192|kill|-lrb-|2,725|Union|and|1,467|confederacy|-rrb-	CD|VBN|-LRB-|CD|NNP|CC|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	4192.0|||2725.0|||1467.0||	4192.0		2725.0		
+11	0	fb:cell.battle_of_chickamauga	Battle of Chickamauga	battle|of|chickamauga	battle|of|Chickamauga	NN|IN|NNP	O|O|LOCATION	||					
+11	1	fb:cell.american_civil_war	American Civil War	american|civil|war	American|Civil|War	NNP|NNP|NNP	MISC|MISC|MISC	||					
+11	2	fb:cell.september_19_to_september_20_1863	September 19 to September 20, 1863	september|19|to|september|20|,|1863	September|19|to|September|20|,|1863	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-09-19|XXXX-09-19||1863-09-20|1863-09-20|1863-09-20|1863-09-20	19.0		201863.0	September 19 to September 20|1863	fb:part.september_19_to_september_20|fb:part.1863
+11	3	fb:cell.3_969_killed_1_657_union_and_2_312_confederacy	3,969 killed (1,657 Union and 2,312 Confederacy)	3,969|killed|-lrb-|1,657|union|and|2,312|confederacy|-rrb-	3,969|kill|-lrb-|1,657|Union|and|2,312|confederacy|-rrb-	CD|VBN|-LRB-|CD|NNP|CC|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	3969.0|||1657.0|||2312.0||	3969.0		1657.0		
+12	0	fb:cell.battle_of_the_wilderness	Battle of the Wilderness	battle|of|the|wilderness	battle|of|the|wilderness	NN|IN|DT|NN	O|O|O|O	|||					
+12	1	fb:cell.american_civil_war	American Civil War	american|civil|war	American|Civil|War	NNP|NNP|NNP	MISC|MISC|MISC	||					
+12	2	fb:cell.may_5_to_may_7_1864	May 5 to May 7, 1864	may|5|to|may|7|,|1864	May|5|to|May|7|,|1864	VBD-AUX|CD|TO|VBD-AUX|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-05-05|XXXX-05-05||1864-05-07|1864-05-07|1864-05-07|1864-05-07	5.0		71864.0	May 5 to May 7|1864	fb:part.may_5_to_may_7|fb:part.1864
+12	3	fb:cell.3_741_killed_2_246_union_and_1_495_confederacy	3,741 killed (2,246 Union and 1,495 Confederacy)	3,741|killed|-lrb-|2,246|union|and|1,495|confederacy|-rrb-	3,741|kill|-lrb-|2,246|Union|and|1,495|confederacy|-rrb-	CD|VBN|-LRB-|CD|NNP|CC|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	3741.0|||2246.0|||1495.0||	3741.0		2246.0		
+13	0	fb:cell.battle_of_antietam	Battle of Antietam	battle|of|antietam	battle|of|Antietam	NN|IN|NNP	O|O|LOCATION	||					
+13	1	fb:cell.american_civil_war	American Civil War	american|civil|war	American|Civil|War	NNP|NNP|NNP	MISC|MISC|MISC	||					
+13	2	fb:cell.september_17_1862	September 17, 1862	september|17|,|1862	September|17|,|1862	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1862-09-17|1862-09-17|1862-09-17|1862-09-17	171862.0	1862-09-17		September 17|1862	fb:part.september_17|fb:part.1862
+13	3	fb:cell.3_654_killed_2_108_union_and_1_546_confederacy	3,654 killed (2,108 Union and 1,546 Confederacy)	3,654|killed|-lrb-|2,108|union|and|1,546|confederacy|-rrb-	3,654|kill|-lrb-|2,108|Union|and|1,546|confederacy|-rrb-	CD|VBN|-LRB-|CD|NNP|CC|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	3654.0|||2108.0|||1546.0||	3654.0		2108.0		
+14	0	fb:cell.battle_of_shiloh	Battle of Shiloh	battle|of|shiloh	battle|of|Shiloh	NN|IN|NNP	O|O|LOCATION	||					
+14	1	fb:cell.american_civil_war	American Civil War	american|civil|war	American|Civil|War	NNP|NNP|NNP	MISC|MISC|MISC	||					
+14	2	fb:cell.april_6_to_april_7_1862	April 6 to April 7, 1862	april|6|to|april|7|,|1862	April|6|to|April|7|,|1862	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-04-06|XXXX-04-06||1862-04-07|1862-04-07|1862-04-07|1862-04-07	6.0		71862.0	April 6 to April 7|1862	fb:part.april_6_to_april_7|fb:part.1862
+14	3	fb:cell.3_482_killed_1_754_union_and_1_728_confederacy	3,482 killed (1,754 Union and 1,728 Confederacy)	3,482|killed|-lrb-|1,754|union|and|1,728|confederacy|-rrb-	3,482|kill|-lrb-|1,754|Union|and|1,728|confederacy|-rrb-	CD|VBN|-LRB-|CD|NNP|CC|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	3482.0|||1754.0|||1728.0||	3482.0		1754.0		
+15	0	fb:cell.battle_of_chancellorsville	Battle of Chancellorsville	battle|of|chancellorsville	battle|of|Chancellorsville	NN|IN|NNP	O|O|LOCATION	||					
+15	1	fb:cell.american_civil_war	American Civil War	american|civil|war	American|Civil|War	NNP|NNP|NNP	MISC|MISC|MISC	||					
+15	2	fb:cell.april_30_to_may_6_1863	April 30 to May 6, 1863	april|30|to|may|6|,|1863	April|30|to|May|6|,|1863	NNP|CD|TO|VBD-AUX|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-04-30|XXXX-04-30||1863-05-06|1863-05-06|1863-05-06|1863-05-06	30.0		61863.0	April 30 to May 6|1863	fb:part.april_30_to_may_6|fb:part.1863
+15	3	fb:cell.3_271_killed_1_606_union_and_1_665_confederacy	3,271 killed (1,606 Union and 1,665 Confederacy)	3,271|killed|-lrb-|1,606|union|and|1,665|confederacy|-rrb-	3,271|kill|-lrb-|1,606|Union|and|1,665|confederacy|-rrb-	CD|VBN|-LRB-|CD|NNP|CC|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	3271.0|||1606.0|||1665.0||	3271.0		1606.0		
+16	0	fb:cell.battle_of_saipan	Battle of Saipan	battle|of|saipan	battle|of|Saipan	NN|IN|NNP	O|O|LOCATION	||					
+16	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+16	2	fb:cell.june_15_to_july_9_1944	June 15 to July 9 1944	june|15|to|july|9|1944	June|15|to|July|9|1944	NNP|CD|TO|NNP|CD|CD	DATE|DATE|O|DATE|DATE|DATE	XXXX-06-15|XXXX-06-15||1944-07-09|1944-07-09|1944-07-09	15.0		91944.0	June 15 to July 9 1944	fb:part.june_15_to_july_9_1944
+16	3	fb:cell.2_949_killed	2,949 killed	2,949|killed	2,949|kill	CD|VBD	NUMBER|O	2949.0|	2949.0				
+17	0	fb:cell.battle_of_sicily	Battle of Sicily	battle|of|sicily	battle|of|Sicily	NN|IN|NNP	O|O|LOCATION	||					
+17	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+17	2	fb:cell.july_9_to_august_17_1943	July 9 to August 17, 1943	july|9|to|august|17|,|1943	July|9|to|August|17|,|1943	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-07-09|XXXX-07-09||1943-08-17|1943-08-17|1943-08-17|1943-08-17	9.0		171943.0	July 9 to August 17|1943	fb:part.july_9_to_august_17|fb:part.1943
+17	3	fb:cell.2_572_killed	2,572 killed	2,572|killed	2,572|kill	CD|VBD	NUMBER|O	2572.0|	2572.0				
+18	0	fb:cell.pearl_harbor_attack	Pearl Harbor Attack	pearl|harbor|attack	Pearl|Harbor|attack	NNP|NNP|NN	LOCATION|LOCATION|LOCATION	||					
+18	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+18	2	fb:cell.december_7_1941	December 7, 1941	december|7|,|1941	December|7|,|1941	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1941-12-07|1941-12-07|1941-12-07|1941-12-07	71941.0	1941-12-07		December 7|1941	fb:part.december_7|fb:part.1941
+18	3	fb:cell.2_500_killed	2,500 killed	2,500|killed	2,500|kill	CD|VBD	NUMBER|O	2500.0|	2500.0				
+19	0	fb:cell.battle_of_salerno	Battle of Salerno	battle|of|salerno	battle|of|Salerno	NN|IN|NNP	O|O|LOCATION	||					
+19	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+19	2	fb:cell.september_3_september_16_1943	September 3 – September 16, 1943	september|3|--|september|16|,|1943	September|3|--|September|16|,|1943	NNP|CD|:|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-09-03|XXXX-09-03||1943-09-16|1943-09-16|1943-09-16|1943-09-16	3.0		161943.0	September 3 – September 16|1943	fb:part.september_3_september_16|fb:part.1943
+19	3	fb:cell.2_000_killed	2,000 killed	2,000|killed	2,000|kill	CD|VBD	NUMBER|O	2000.0|	2000.0				
+20	0	fb:cell.battle_of_belleau_wood	Battle of Belleau Wood	battle|of|belleau|wood	battle|of|Belleau|Wood	NN|IN|NNP|NNP	O|O|O|O	|||					
+20	1	fb:cell.world_war_i	World War I	world|war|i	World|War|I	NNP|NNP|NNP	MISC|MISC|MISC	||					
+20	2	fb:cell.june_1_to_june_26_1918	June 1 to June 26, 1918	june|1|to|june|26|,|1918	June|1|to|June|26|,|1918	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-06-01|XXXX-06-01||1918-06-26|1918-06-26|1918-06-26|1918-06-26	1.0		261918.0	June 1 to June 26|1918	fb:part.june_1_to_june_26|fb:part.1918
+20	3	fb:cell.1_811_killed	1,811 killed	1,811|killed	1,811|kill	CD|VBD	NUMBER|O	1811.0|	1811.0				
+21	0	fb:cell.battle_of_peleliu	Battle of Peleliu	battle|of|peleliu	battle|of|Peleliu	NN|IN|NNP	O|O|O	||					
+21	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+21	2	fb:cell.september_15_to_november_27_1944	September 15 to November 27, 1944	september|15|to|november|27|,|1944	September|15|to|November|27|,|1944	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-09-15|XXXX-09-15||1944-11-27|1944-11-27|1944-11-27|1944-11-27	15.0		271944.0	September 15 to November 27|1944	fb:part.september_15_to_november_27|fb:part.1944
+21	3	fb:cell.1_794_killed	1,794 killed	1,794|killed	1,794|kill	CD|VBD	NUMBER|O	1794.0|	1794.0				
+22	0	fb:cell.second_battle_of_guam	Second Battle of Guam	second|battle|of|guam	second|battle|of|Guam	JJ|NN|IN|NNP	ORDINAL|O|O|O	2.0|||					
+22	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+22	2	fb:cell.july_21_to_august_8_1944	July 21 to August 8, 1944	july|21|to|august|8|,|1944	July|21|to|August|8|,|1944	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-07-21|XXXX-07-21||1944-08-08|1944-08-08|1944-08-08|1944-08-08	21.0		81944.0	July 21 to August 8|1944	fb:part.july_21_to_august_8|fb:part.1944
+22	3	fb:cell.1_747_killed	1,747 killed,	1,747|killed|,	1,747|kill|,	CD|VBN|,	NUMBER|O|O	1747.0||	1747.0				
+23	0	fb:cell.battle_of_tarawa	Battle of Tarawa	battle|of|tarawa	battle|of|Tarawa	NN|IN|NNP	O|O|LOCATION	||					
+23	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+23	2	fb:cell.november_20_to_november_23_1943	November 20 to November 23, 1943	november|20|to|november|23|,|1943	November|20|to|November|23|,|1943	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-11-20|XXXX-11-20||1943-11-23|1943-11-23|1943-11-23|1943-11-23	20.0		231943.0	November 20 to November 23|1943	fb:part.november_20_to_november_23|fb:part.1943
+23	3	fb:cell.1_677_killed	1,677 killed	1,677|killed	1,677|kill	CD|VBD	NUMBER|O	1677.0|	1677.0				
+24	0	fb:cell.d_day_first_day_of_operation_overlord	D-day (first day of Operation Overlord)	d|day|-lrb-|first|day|of|operation|overlord|-rrb-	d|day|-lrb-|first|day|of|Operation|Overlord|-rrb-	NN|NN|-LRB-|JJ|NN|IN|NNP|NNP|-RRB-	O|DURATION|O|ORDINAL|DURATION|O|O|O|O	|||1.0|||||					
+24	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+24	2	fb:cell.june_6_1944	June 6, 1944	june|6|,|1944	June|6|,|1944	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1944-06-06|1944-06-06|1944-06-06|1944-06-06	61944.0	1944-06-06		June 6|1944	fb:part.june_6|fb:part.1944
+24	3	fb:cell.1_465_killed	1,465 killed	1,465|killed	1,465|kill	CD|VBD	NUMBER|O	1465.0|	1465.0				
+25	0	fb:cell.battle_of_chosin_reservoir	Battle of Chosin Reservoir	battle|of|chosin|reservoir	battle|of|Chosin|Reservoir	NN|IN|NNP|NNP	O|O|O|O	|||					
+25	1	fb:cell.korean_war	Korean War	korean|war	korean|war	JJ|NN	MISC|MISC	|					
+25	2	fb:cell.november_27_to_december_13_1950	November 27 to December 13, 1950	november|27|to|december|13|,|1950	November|27|to|December|13|,|1950	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-11-27|XXXX-11-27||1950-12-13|1950-12-13|1950-12-13|1950-12-13	27.0		131950.0	November 27 to December 13|1950	fb:part.november_27_to_december_13|fb:part.1950
+25	3	fb:cell.1_029_killed	1,029 killed	1,029|killed	1,029|kill	CD|VBD	NUMBER|O	1029.0|	1029.0				
+26	0	fb:cell.battle_for_manila	Battle for Manila	battle|for|manila	battle|for|Manila	NN|IN|NNP	O|O|LOCATION	||					
+26	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+26	2	fb:cell.february_3_to_march_3_1945	February 3 to March 3, 1945	february|3|to|march|3|,|1945	February|3|to|March|3|,|1945	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-02-03|XXXX-02-03||1945-03-03|1945-03-03|1945-03-03|1945-03-03	3.0		31945.0	February 3 to March 3|1945	fb:part.february_3_to_march_3|fb:part.1945
+26	3	fb:cell.1_010_killed	1,010 killed	1,010|killed	1,010|kill	CD|VBD	NUMBER|O	1010.0|	1010.0				
+27	0	fb:cell.battle_of_the_kasserine_pass	Battle of the Kasserine Pass	battle|of|the|kasserine|pass	battle|of|the|Kasserine|pass	NN|IN|DT|NNP|NN	O|O|O|O|O	||||					
+27	1	fb:cell.world_war_ii	World War II	world|war|ii	World|War|II	NNP|NNP|NNP	MISC|MISC|MISC	||					
+27	2	fb:cell.february_19_to_february_25_1943	February 19 to February 25, 1943	february|19|to|february|25|,|1943	February|19|to|February|25|,|1943	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-02-19|XXXX-02-19||1943-02-25|1943-02-25|1943-02-25|1943-02-25	19.0		251943.0	February 19 to February 25|1943	fb:part.february_19_to_february_25|fb:part.1943
+27	3	fb:cell.over_1_000_killed	Over 1,000 killed	over|1,000|killed	over|1,000|kill	IN|CD|VBD	O|NUMBER|O	|>1000.0|	1000.0				
+28	0	fb:cell.battle_of_taejon	Battle of Taejon	battle|of|taejon	battle|of|Taejon	NN|IN|NNP	O|O|LOCATION	||					
+28	1	fb:cell.korean_war	Korean War	korean|war	korean|war	JJ|NN	MISC|MISC	|					
+28	2	fb:cell.july_14_to_july_21_1950	July 14 to July 21, 1950	july|14|to|july|21|,|1950	July|14|to|July|21|,|1950	NNP|CD|TO|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-07-14|XXXX-07-14||1950-07-21|1950-07-21|1950-07-21|1950-07-21	14.0		211950.0	July 14 to July 21|1950	fb:part.july_14_to_july_21|fb:part.1950
+28	3	fb:cell.922_killed	922 killed	922|killed	922|kill	CD|VBD	NUMBER|O	922.0|	922.0				
+29	0	fb:cell.battle_of_khe_sanh	Battle of Khe Sanh	battle|of|khe|sanh	battle|of|Khe|Sanh	NN|IN|NNP|NNP	O|O|O|O	|||					
+29	1	fb:cell.vietnam_war	Vietnam War	vietnam|war	Vietnam|War	NNP|NNP	MISC|MISC	|					
+29	2	fb:cell.21_january_to_8_april_1968	21 January to 8 April 1968	21|january|to|8|april|1968	21|January|to|8|April|1968	CD|NNP|TO|CD|NNP|CD	DATE|DATE|O|DATE|DATE|DATE	XXXX-01-21|XXXX-01-21||1968-04-08|1968-04-08|1968-04-08	21.0		8.0	21 January to 8 April 1968	fb:part.21_january_to_8_april_1968
+29	3	fb:cell.737_killed	737 killed	737|killed	737|kill	CD|VBD	NUMBER|O	737.0|	737.0				

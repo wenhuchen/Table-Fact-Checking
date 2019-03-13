@@ -1,0 +1,85 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.model	Model	model	Model	NNP	O						
+-1	1	fb:row.row.origin	Origin	origin	origin	NN	O						
+-1	2	fb:row.row.type	Type	type	type	NN	O						
+-1	3	fb:row.row.version	Version	version	version	NN	O						
+-1	4	fb:row.row.in_service	In Service	in|service	in|Service	IN|NNP	O|O	|					
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.am_general_hmmwv	AM General HMMWV	am|general|hmmwv	AM|General|HMMWV	VBD-AUX|NNP|NNP	O|O|O	||					
+0	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+0	2	fb:cell.light_utility_vehicle	Light Utility Vehicle	light|utility|vehicle	light|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Light Utility Vehicle	fb:part.light_utility_vehicle
+0	3	fb:cell.m998a1_m1038a1_m1025a1_m1025p1_m1114	M998A1\n\nM1038A1\n\nM1025A1\n\nM1025P1\n\nM1114	m998a1|m1038a1|m1025a1|m1025p1|m1114	m998a1|m1038a1|m1025a1|m1025p1|m1114	NN|NN|NN|NN|NN	O|O|O|O|O	||||	998.0		1.0	M998A1|M1038A1|M1025A1|M1025P1|M1114	fb:part.m998a1|fb:part.m1038a1|fb:part.m1025a1|fb:part.m1025p1|fb:part.m1114
+0	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+0	5	fb:cell.divided_into_several_variants_and_series_including_armored_variants_uparmored_variants_m1025p1_and_m1114_are_assigned_with_the_mechanized_infantry_division_and_special_operations_command	Divided into several variants and series, including armored variants. Uparmored variants (M1025P1 and M1114) are assigned with the Mechanized Infantry Division and Special Operations Command.	divided|into|several|variants|and|series|,|including|armored|variants|.|uparmored|variants|-lrb-|m1025p1|and|m1114|-rrb-|are|assigned|with|the|mechanized|infantry|division|and|special|operations|command|.	divide|into|several|variant|and|series|,|include|armored|variant|.|uparmored|variant|-lrb-|m1025p1|and|m1114|-rrb-|be|assign|with|the|mechanized|Infantry|Division|and|special|Operations|command|.	VBN|IN|JJ|NNS|CC|NN|,|VBG|JJ|NNS|.|JJ|NNS|-LRB-|NN|CC|NN|-RRB-|VBD-AUX|VBN|IN|DT|JJ|NNP|NNP|CC|JJ|NNP|NN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||||||||||||||				Divided into several variants and series|including armored variants. Uparmored variants (M1025P1 and M1114) are assigned with the Mechanized Infantry Division and Special Operations Command.	fb:part.divided_into_several_variants_and_series|fb:part.including_armored_variants_uparmored_variants_m1025p1_and_m1114_are_assigned_with_the_mechanized_infantry_division_and_special_operations_command
+1	0	fb:cell.maxi_ambulance	Maxi-Ambulance	maxi|ambulance	Maxi|Ambulance	NNP|NNP	O|O	|					
+1	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+1	2	fb:cell.light_utility_vehicle	Light Utility Vehicle	light|utility|vehicle	light|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Light Utility Vehicle	fb:part.light_utility_vehicle
+1	3	fb:cell.m997a2	M997A2	m997a2	m997a2	NN	O		997.0		2.0	M997A2	fb:part.m997a2
+1	4	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0			19	fb:part.19
+1	5	fb:cell.23_delivered_to_afp_on_november_2011_pmc_received_4_units	23 delivered to AFP on November 2011, PMC received 4 units.	23|delivered|to|afp|on|november|2011|,|pmc|received|4|units|.	23|deliver|to|afp|on|November|2011|,|PMC|receive|4|unit|.	CD|VBN|TO|NN|IN|NNP|CD|,|NNP|VBD|CD|NNS|.	NUMBER|O|O|O|O|DATE|DATE|O|ORGANIZATION|O|NUMBER|O|O	23.0|||||2011-11|2011-11||||4.0||	23.0		2011.0	23 delivered to AFP on November 2011|PMC received 4 units.	fb:part.23_delivered_to_afp_on_november_2011|fb:part.pmc_received_4_units
+2	0	fb:cell.m939_truck	M939 truck	m939|truck	m939|truck	NN|NN	O|O	|	939.0				
+2	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+2	2	fb:cell.heavy_utility_vehicle	Heavy Utility Vehicle	heavy|utility|vehicle	heavy|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Heavy Utility Vehicle	fb:part.heavy_utility_vehicle
+2	3	fb:cell.m923_m929_m931_m934_m936	M923\n\nM929\n\nM931\n\nM934\n\nM936	m923|m929|m931|m934|m936	m923|m929|m931|m934|m936	NN|NN|NN|NN|NN	O|O|O|O|O	||||	923.0		929.0	M923|M929|M931|M934|M936	fb:part.m923|fb:part.m929|fb:part.m931|fb:part.m934|fb:part.m936
+2	4	fb:cell._20	>20\n\n-\n\n-\n\n-\n\n-	>|20|-|-|-|-	>|20|-|-|-|-	JJR|CD|:|:|:|:	O|NUMBER|O|O|O|O	|20.0||||	20.0			>20|-|-|-|-	fb:part._20|fb:part.null|fb:part.null|fb:part.null|fb:part.null
+2	5	fb:cell.20_m923_delivered_in_2010_several_more_of_different_variants_delivered_in_2013	20 M923 delivered in 2010, several more of different variants delivered in 2013.	20|m923|delivered|in|2010|,|several|more|of|different|variants|delivered|in|2013|.	20|m923|deliver|in|2010|,|several|more|of|different|variant|deliver|in|2013|.	CD|NN|VBN|IN|CD|,|JJ|JJR|IN|JJ|NNS|VBN|IN|CD|.	NUMBER|O|O|O|DATE|O|O|O|O|O|O|O|O|DATE|O	20.0||||2010|||||||||2013|	20.0		923.0	20 M923 delivered in 2010|several more of different variants delivered in 2013.	fb:part.20_m923_delivered_in_2010|fb:part.several_more_of_different_variants_delivered_in_2013
+3	0	fb:cell.m35_truck	M35 Truck	m35|truck	M35|Truck	NNP|NNP	O|O	|	35.0				
+3	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+3	2	fb:cell.heavy_utility_vehicle	Heavy Utility Vehicle	heavy|utility|vehicle	heavy|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Heavy Utility Vehicle	fb:part.heavy_utility_vehicle
+3	3	fb:cell.m35a1_m35a2_m35a3	M35A1\n\nM35A2\n\nM35A3	m35a1|m35a2|m35a3	m35a1|m35a2|m35a3	NN|NN|NN	O|O|O	||	35.0		1.0	M35A1|M35A2|M35A3	fb:part.m35a1|fb:part.m35a2|fb:part.m35a3
+3	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	5	fb:cell.divided_into_several_variants_and_series_in_service_with_the_pa_since_the_early_1960s_90_more_units_delivered_in_june_2011_more_delivered_in_2013	Divided into several variants and series, in service with the PA since the early 1960s. 90 more units delivered in June 2011, more delivered in 2013.	divided|into|several|variants|and|series|,|in|service|with|the|pa|since|the|early|1960s|.|90|more|units|delivered|in|june|2011|,|more|delivered|in|2013|.	divide|into|several|variant|and|series|,|in|service|with|the|pa|since|the|early|1960|.|90|more|unit|deliver|in|June|2011|,|more|deliver|in|2013|.	VBN|IN|JJ|NNS|CC|NN|,|IN|NN|IN|DT|NN|IN|DT|JJ|NNS|.|CD|JJR|NNS|VBN|IN|NNP|CD|,|RBR|VBN|IN|CD|.	O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|DATE|O|NUMBER|O|O|O|O|DATE|DATE|O|O|O|O|DATE|O	|||||||||||||||196X||90.0|||||2011-06|2011-06|||||2013|	1960.0		0.9	Divided into several variants and series|in service with the PA since the early 1960s. 90 more units delivered in June 2011|more delivered in 2013.	fb:part.divided_into_several_variants_and_series|fb:part.in_service_with_the_pa_since_the_early_1960s_90_more_units_delivered_in_june_2011|fb:part.more_delivered_in_2013
+4	0	fb:cell.mitsubishi_fuso_fighter	Mitsubishi Fuso Fighter	mitsubishi|fuso|fighter	Mitsubishi|Fuso|Fighter	NNP|NNP|NNP	ORGANIZATION|O|O	||					
+4	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+4	2	fb:cell.light_utility_vehicle	Light Utility Vehicle	light|utility|vehicle	light|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Light Utility Vehicle	fb:part.light_utility_vehicle
+4	3	fb:cell.fk_troop_carrier	FK Troop Carrier	fk|troop|carrier	fk|troop|carrier	NN|NN|NN	O|O|O	||				FK Troop Carrier	fb:part.fk_troop_carrier
+4	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+4	5	fb:cell.locally_sourced	Locally sourced.	locally|sourced|.	locally|source|.	RB|VBN|.	O|O|O	||				Locally sourced.	fb:part.locally_sourced
+5	0	fb:cell.cmc_cruiser	CMC Cruiser	cmc|cruiser	CMC|Cruiser	NNP|NNP	O|O	|					
+5	1	fb:cell.philippines	Philippines	philippines	Philippines	NNPS	LOCATION						
+5	2	fb:cell.1_4_ton_light_utility_vehicle	1/4-ton Light Utility Vehicle	1\\/4|ton|light|utility|vehicle	1\\/4|ton|light|utility|Vehicle	CD|NN|NN|NN|NNP	NUMBER|O|O|O|O	||||	1.0		4.0	1|4-ton Light Utility Vehicle	fb:part.1|fb:part.4_ton_light_utility_vehicle
+5	3	fb:cell.standard	Standard	standard	Standard	NNP	O					Standard	fb:part.standard
+5	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+5	5	fb:cell.limited_production_run_introduced_in_the_mid_1990s	Limited production run, introduced in the mid-1990s.	limited|production|run|,|introduced|in|the|mid-1990s|.	limited|production|run|,|introduce|in|the|mid-1990|.	JJ|NN|NN|,|VBN|IN|DT|NNS|.	O|O|O|O|O|O|DATE|DATE|O	||||||199X|199X|	1990.0			Limited production run|introduced in the mid-1990s.	fb:part.limited_production_run|fb:part.introduced_in_the_mid_1990s
+6	0	fb:cell.delta_mini_cruiser	Delta Mini Cruiser	delta|mini|cruiser	Delta|Mini|Cruiser	NNP|NNP|NNP	O|O|O	||					
+6	1	fb:cell.philippines	Philippines	philippines	Philippines	NNPS	LOCATION						
+6	2	fb:cell.1_4_ton_light_utility_vehicle	1/4-ton Light Utility Vehicle	1\\/4|ton|light|utility|vehicle	1\\/4|ton|light|utility|Vehicle	CD|NN|NN|NN|NNP	NUMBER|O|O|O|O	||||	1.0		4.0	1|4-ton Light Utility Vehicle	fb:part.1|fb:part.4_ton_light_utility_vehicle
+6	3	fb:cell.m1777	M1777	m1777	m1777	NN	O		1777.0			M1777	fb:part.m1777
+6	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	5	fb:cell.divided_into_several_variants_and_series_including_short_and_stretched_utility_and_armed_variants_and_modified_variants_for_specialized_units	Divided into several variants and series, including short and stretched utility and armed variants, and modified variants for specialized units.	divided|into|several|variants|and|series|,|including|short|and|stretched|utility|and|armed|variants|,|and|modified|variants|for|specialized|units|.	divide|into|several|variant|and|series|,|include|short|and|stretch|utility|and|armed|variant|,|and|modify|variant|for|specialize|unit|.	VBN|IN|JJ|NNS|CC|NN|,|VBG|JJ|CC|VBD|NN|CC|JJ|NNS|,|CC|VBN|NNS|IN|VBN|NNS|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||||||				Divided into several variants and series|including short and stretched utility and armed variants|and modified variants for specialized units.	fb:part.divided_into_several_variants_and_series|fb:part.including_short_and_stretched_utility_and_armed_variants|fb:part.and_modified_variants_for_specialized_units
+7	0	fb:cell.m151	M151	m151	m151	NN	O		151.0				
+7	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+7	2	fb:cell.1_4_ton_light_utility_vehicle	1/4-ton Light Utility Vehicle	1\\/4|ton|light|utility|vehicle	1\\/4|ton|light|utility|Vehicle	CD|NN|NN|NN|NNP	NUMBER|O|O|O|O	||||	1.0		4.0	1|4-ton Light Utility Vehicle	fb:part.1|fb:part.4_ton_light_utility_vehicle
+7	3	fb:cell.m151	M151	m151	m151	NN	O		151.0				
+7	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+7	5	fb:cell.in_service	In Service	in|service	in|Service	IN|NNP	O|O	|				In Service	fb:part.in_service
+8	0	fb:cell.mitsubishi_l200	Mitsubishi L200	mitsubishi|l200	Mitsubishi|l200	NNP|NN	O|O	|	200.0				
+8	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+8	2	fb:cell.light_utility_vehicle	Light Utility Vehicle	light|utility|vehicle	light|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Light Utility Vehicle	fb:part.light_utility_vehicle
+8	3	fb:cell.l200	L200	l200	l200	NN	O		200.0			L200	fb:part.l200
+8	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+8	5	fb:cell.used_by_military_police	Used by Military Police	used|by|military|police	use|by|Military|Police	VBN|IN|NNP|NNP	O|O|ORGANIZATION|ORGANIZATION	|||				Used by Military Police	fb:part.used_by_military_police
+9	0	fb:cell.km_50_series	KM-50 Series	km-50|series	KM-50|Series	NNP|NNP	O|O	|	50.0				
+9	1	fb:cell.republic_of_korea	Republic of Korea	republic|of|korea	Republic|of|Korea	NNP|IN|NNP	O|O|LOCATION	||					
+9	2	fb:cell.heavy_utility_vehicle	Heavy Utility Vehicle	heavy|utility|vehicle	heavy|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Heavy Utility Vehicle	fb:part.heavy_utility_vehicle
+9	3	fb:cell.km_500_km_503	KM-500\n\nKM-503	km-500|km-503	km-500|km-503	CD|NN	NUMBER|O	-500.0|	500.0		503.0	KM-500|KM-503	fb:part.km_500|fb:part.km_503
+9	4	fb:cell.6_12	6\n\n12	6|12	6|12	CD|CD	NUMBER|NUMBER	6.0|6.0	6.0		12.0	6|12	fb:part.6|fb:part.12
+9	5	fb:cell.km_500_as_155mm_artillery_prime_mover_km_503_tractor_head_for_flat_bed_trailers_1st_batch_of_6_km_500_delivered_2012_km_503_delivered_2013	KM-500 as 155mm Artillery prime mover, KM-503 tractor head for flat-bed trailers. 1st batch of 6 KM-500 delivered 2012. KM-503 delivered 2013.	km-500|as|155mm|artillery|prime|mover|,|km-503|tractor|head|for|flat|bed|trailers|.|1st|batch|of|6|km-500|delivered|2012|.|km-503|delivered|2013|.	km-500|as|155mm|artillery|prime|mover|,|km-503|tractor|head|for|flat|bed|trailer|.|1st|batch|of|6|km-500|deliver|2012|.|km-503|deliver|2013|.	CD|IN|CD|NN|JJ|NN|,|NN|NN|NN|IN|JJ|NN|NNS|.|JJ|NN|IN|CD|CD|VBN|CD|.|NN|VBN|CD|.	NUMBER|O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|ORDINAL|O|O|NUMBER|NUMBER|O|DATE|O|MISC|O|DATE|O	-500.0||155.0|||||||||||||1.0|||6.0|6.0||2012||||2013|	500.0		155.0	KM-500 as 155mm Artillery prime mover|KM-503 tractor head for flat-bed trailers. 1st batch of 6 KM-500 delivered 2012. KM-503 delivered 2013.	fb:part.km_500_as_155mm_artillery_prime_mover|fb:part.km_503_tractor_head_for_flat_bed_trailers_1st_batch_of_6_km_500_delivered_2012_km_503_delivered_2013
+10	0	fb:cell.km_25_series	KM-25 Series	km-25|series	KM-25|Series	NNP|NNP	O|O	|	25.0				
+10	1	fb:cell.republic_of_korea	Republic of Korea	republic|of|korea	Republic|of|Korea	NNP|IN|NNP	O|O|LOCATION	||					
+10	2	fb:cell.medium_utility_vehicle	Medium Utility Vehicle	medium|utility|vehicle	medium|utility|Vehicle	NN|NN|NNP	O|O|O	||				Medium Utility Vehicle	fb:part.medium_utility_vehicle
+10	3	fb:cell.km_250	KM-250	km-250	km-250	NN	O		250.0			KM-250	fb:part.km_250
+10	4	fb:cell._250	<250	<|250	<|250	JJR|CD	O|NUMBER	|250.0	250.0			<250	fb:part._250
+10	5	fb:cell.in_service_some_units_received_by_other_armed_services	In Service. Some units received by other armed services.	in|service|.|some|units|received|by|other|armed|services|.	in|Service|.|some|unit|receive|by|other|armed|service|.	IN|NNP|.|DT|NNS|VBN|IN|JJ|JJ|NNS|.	O|O|O|O|O|O|O|O|O|O|O	||||||||||				In Service. Some units received by other armed services.	fb:part.in_service_some_units_received_by_other_armed_services
+11	0	fb:cell.km_45_series	KM-45 Series	km-45|series	KM-45|Series	NNP|NNP	O|O	|	45.0				
+11	1	fb:cell.republic_of_korea	Republic of Korea	republic|of|korea	Republic|of|Korea	NNP|IN|NNP	O|O|LOCATION	||					
+11	2	fb:cell.light_utility_vehicle	Light Utility Vehicle	light|utility|vehicle	light|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Light Utility Vehicle	fb:part.light_utility_vehicle
+11	3	fb:cell.km_450	KM-450	km-450	km-450	NN	O		450.0			KM-450	fb:part.km_450
+11	4	fb:cell.727	727	727	727	CD	NUMBER	727.0	727.0			727	fb:part.727
+11	5	fb:cell.651_purchased_by_afp_on_2007_590_for_army_and_137_on_december_2010	651 purchased by AFP on 2007 (590 for army) and 137 on December 2010	651|purchased|by|afp|on|2007|-lrb-|590|for|army|-rrb-|and|137|on|december|2010	651|purchase|by|afp|on|2007|-lrb-|590|for|army|-rrb-|and|137|on|December|2010	CD|VBN|IN|NN|IN|CD|-LRB-|CD|IN|NN|-RRB-|CC|CD|IN|NNP|CD	NUMBER|O|O|O|O|DATE|O|NUMBER|O|O|O|O|NUMBER|O|DATE|DATE	651.0|||||2007||590.0|||||137.0||2010-12|2010-12	651.0		2007.0	651 purchased by AFP on 2007 (590 for army) and 137 on December 2010	fb:part.651_purchased_by_afp_on_2007_590_for_army_and_137_on_december_2010
+12	0	fb:cell.km_45_series	KM-45 Series	km-45|series	KM-45|Series	NNP|NNP	O|O	|	45.0				
+12	1	fb:cell.republic_of_korea	Republic of Korea	republic|of|korea	Republic|of|Korea	NNP|IN|NNP	O|O|LOCATION	||					
+12	2	fb:cell.field_ambulance	Field Ambulance	field|ambulance	field|ambulance	NN|NN	O|O	|				Field Ambulance	fb:part.field_ambulance
+12	3	fb:cell.km_451	KM-451	km-451	km-451	NN	O		451.0			KM-451	fb:part.km_451
+12	4	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0			48	fb:part.48
+12	5	fb:cell.60_purchased_by_afp_in_2012_48_went_to_the_army	60 purchased by AFP in 2012, 48 went to the Army.	60|purchased|by|afp|in|2012|,|48|went|to|the|army|.	60|purchase|by|afp|in|2012|,|48|go|to|the|Army|.	CD|VBN|IN|NN|IN|CD|,|CD|VBD|TO|DT|NNP|.	NUMBER|O|O|O|O|DATE|O|NUMBER|O|O|O|ORGANIZATION|O	60.0|||||2012||48.0|||||	60.0		201248.0	60 purchased by AFP in 2012|48 went to the Army.	fb:part.60_purchased_by_afp_in_2012|fb:part.48_went_to_the_army

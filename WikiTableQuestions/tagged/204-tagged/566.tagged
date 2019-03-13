@@ -1,0 +1,136 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.location	Location	location	Location	NNP	O						
+-1	1	fb:row.row.reactor_type	Reactor type	reactor|type	reactor|type	NN|NN	O|O	|					
+-1	2	fb:row.row.status	Status	status	status	NN	O						
+-1	3	fb:row.row.net_capacity_mwe	Net\nCapacity\n(MWe)	net|capacity|-lrb-|mwe|-rrb-	net|capacity|-lrb-|mwe|-rrb-	JJ|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	4	fb:row.row.gross_capacity_mwe	Gross\nCapacity\n(MWe)	gross|capacity|-lrb-|mwe|-rrb-	Gross|Capacity|-lrb-|MWe|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	NUMBER|O|O|O|O	144.0||||					
+0	0	fb:cell.chernobyl_1	Chernobyl-1	chernobyl-1	chernobyl-1	NN	O		1.0				
+0	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+0	2	fb:cell.shut_down_in_1996	shut down in 1996	shut|down|in|1996	shut|down|in|1996	VBN|RP|IN|CD	O|O|O|DATE	|||1996	1996.0			shut down in 1996	fb:part.shut_down_in_1996
+0	3	fb:cell.740	740	740	740	CD	NUMBER	740.0	740.0				
+0	4	fb:cell.800	800	800	800	CD	NUMBER	800.0	800.0				
+1	0	fb:cell.chernobyl_2	Chernobyl-2	chernobyl-2	chernobyl-2	NN	O		2.0				
+1	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+1	2	fb:cell.shut_down_in_1991	shut down in 1991	shut|down|in|1991	shut|down|in|1991	VBN|RP|IN|CD	O|O|O|DATE	|||1991	1991.0			shut down in 1991	fb:part.shut_down_in_1991
+1	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+1	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+2	0	fb:cell.chernobyl_3	Chernobyl-3	chernobyl-3	chernobyl-3	NN	O		3.0				
+2	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+2	2	fb:cell.shut_down_in_2000	shut down in 2000	shut|down|in|2000	shut|down|in|2000	VBN|RP|IN|CD	O|O|O|DATE	|||2000	2000.0			shut down in 2000	fb:part.shut_down_in_2000
+2	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+2	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+3	0	fb:cell.chernobyl_4	Chernobyl-4	chernobyl-4	chernobyl-4	NN	O		4.0				
+3	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+3	2	fb:cell.destroyed_in_the_1986_accident	destroyed in the 1986 accident	destroyed|in|the|1986|accident	destroy|in|the|1986|accident	VBN|IN|DT|CD|NN	O|O|O|DATE|O	|||1986|	1986.0			destroyed in the 1986 accident	fb:part.destroyed_in_the_1986_accident
+3	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+3	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+4	0	fb:cell.chernobyl_5	Chernobyl-5	chernobyl-5	chernobyl-5	NN	O		5.0				
+4	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+4	2	fb:cell.construction_cancelled_in_1988	construction cancelled in 1988	construction|canceled|in|1988	construction|cancel|in|1988	NN|VBN|IN|CD	O|O|O|DATE	|||1988	1988.0			construction cancelled in 1988	fb:part.construction_cancelled_in_1988
+4	3	fb:cell.950	950	950	950	CD	NUMBER	950.0	950.0				
+4	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+5	0	fb:cell.chernobyl_6	Chernobyl-6	chernobyl-6	chernobyl-6	NN	O		6.0				
+5	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+5	2	fb:cell.construction_cancelled_in_1988	construction cancelled in 1988	construction|canceled|in|1988	construction|cancel|in|1988	NN|VBN|IN|CD	O|O|O|DATE	|||1988	1988.0			construction cancelled in 1988	fb:part.construction_cancelled_in_1988
+5	3	fb:cell.950	950	950	950	CD	NUMBER	950.0	950.0				
+5	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+6	0	fb:cell.ignalina_1	Ignalina-1	ignalina-1	ignalina-1	NN	O		1.0				
+6	1	fb:cell.rbmk_1500	RBMK-1500	rbmk-1500	rbmk-1500	CD	NUMBER	-1500.0	1500.0				
+6	2	fb:cell.shut_down_in_2004	shut down in 2004	shut|down|in|2004	shut|down|in|2004	VBN|RP|IN|CD	O|O|O|DATE	|||2004	2004.0			shut down in 2004	fb:part.shut_down_in_2004
+6	3	fb:cell.1_185	1,185	1,185	1,185	CD	NUMBER	1185.0	1185.0				
+6	4	fb:cell.1_300	1,300	1,300	1,300	CD	NUMBER	1300.0	1300.0				
+7	0	fb:cell.ignalina_2	Ignalina-2	ignalina-2	ignalina-2	NN	O		2.0				
+7	1	fb:cell.rbmk_1500	RBMK-1500	rbmk-1500	rbmk-1500	CD	NUMBER	-1500.0	1500.0				
+7	2	fb:cell.shut_down_in_2009	shut down in 2009	shut|down|in|2009	shut|down|in|2009	VBN|RP|IN|CD	O|O|O|DATE	|||2009	2009.0			shut down in 2009	fb:part.shut_down_in_2009
+7	3	fb:cell.1_185	1,185	1,185	1,185	CD	NUMBER	1185.0	1185.0				
+7	4	fb:cell.1_300	1,300	1,300	1,300	CD	NUMBER	1300.0	1300.0				
+8	0	fb:cell.ignalina_3	Ignalina-3	ignalina-3	ignalina-3	NN	O		3.0				
+8	1	fb:cell.rbmk_1500	RBMK-1500	rbmk-1500	rbmk-1500	CD	NUMBER	-1500.0	1500.0				
+8	2	fb:cell.construction_cancelled_in_1988	construction cancelled in 1988	construction|canceled|in|1988	construction|cancel|in|1988	NN|VBN|IN|CD	O|O|O|DATE	|||1988	1988.0			construction cancelled in 1988	fb:part.construction_cancelled_in_1988
+8	3	fb:cell.1_380	1,380	1,380	1,380	CD	NUMBER	1380.0	1380.0				
+8	4	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+9	0	fb:cell.ignalina_4	Ignalina-4	ignalina-4	ignalina-4	NN	O		4.0				
+9	1	fb:cell.rbmk_1500	RBMK-1500	rbmk-1500	rbmk-1500	CD	NUMBER	-1500.0	1500.0				
+9	2	fb:cell.plan_cancelled_in_1988	plan cancelled in 1988	plan|canceled|in|1988	plan|cancel|in|1988	NN|VBN|IN|CD	O|O|O|DATE	|||1988	1988.0			plan cancelled in 1988	fb:part.plan_cancelled_in_1988
+9	3	fb:cell.1_380	1,380	1,380	1,380	CD	NUMBER	1380.0	1380.0				
+9	4	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+10	0	fb:cell.kostroma_1	Kostroma-1	kostroma-1	kostroma-1	NN	O		1.0				
+10	1	fb:cell.rbmk_1500	RBMK-1500	rbmk-1500	rbmk-1500	CD	NUMBER	-1500.0	1500.0				
+10	2	fb:cell.construction_cancelled_in_1980s	construction cancelled in 1980s	construction|canceled|in|1980s	construction|cancel|in|1980s	NN|VBN|IN|CD	O|O|O|DATE	|||198X	1980.0			construction cancelled in 1980s	fb:part.construction_cancelled_in_1980s
+10	3	fb:cell.1_380	1,380	1,380	1,380	CD	NUMBER	1380.0	1380.0				
+10	4	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+11	0	fb:cell.kostroma_2	Kostroma-2	kostroma-2	kostroma-2	NN	O		2.0				
+11	1	fb:cell.rbmk_1500	RBMK-1500	rbmk-1500	rbmk-1500	CD	NUMBER	-1500.0	1500.0				
+11	2	fb:cell.construction_cancelled_in_1980s	construction cancelled in 1980s	construction|canceled|in|1980s	construction|cancel|in|1980s	NN|VBN|IN|CD	O|O|O|DATE	|||198X	1980.0			construction cancelled in 1980s	fb:part.construction_cancelled_in_1980s
+11	3	fb:cell.1_380	1,380	1,380	1,380	CD	NUMBER	1380.0	1380.0				
+11	4	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+12	0	fb:cell.kursk_1	Kursk-1	kursk-1	kursk-1	NN	O		1.0				
+12	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+12	2	fb:cell.operational_until_2021	operational until 2021	operational|until|2021	operational|until|2021	JJ|IN|CD	O|O|DATE	||2021	2021.0			operational until 2021	fb:part.operational_until_2021
+12	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+12	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+13	0	fb:cell.kursk_2	Kursk-2	kursk-2	kursk-2	NN	O		2.0				
+13	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+13	2	fb:cell.operational_until_2024	operational until 2024	operational|until|2024	operational|until|2024	JJ|IN|CD	O|O|DATE	||2024	2024.0			operational until 2024	fb:part.operational_until_2024
+13	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+13	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+14	0	fb:cell.kursk_3	Kursk-3	kursk-3	kursk-3	NN	O		3.0				
+14	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+14	2	fb:cell.operational_until_march_2014	operational until March 2014	operational|until|march|2014	operational|until|March|2014	JJ|IN|NNP|CD	O|O|DATE|DATE	||2014-03|2014-03	2014.0			operational until March 2014	fb:part.operational_until_march_2014
+14	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+14	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+15	0	fb:cell.kursk_4	Kursk-4	kursk-4	kursk-4	NN	O		4.0				
+15	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+15	2	fb:cell.operational_until_february_2016	operational until February 2016	operational|until|february|2016	operational|until|February|2016	JJ|IN|NNP|CD	O|O|DATE|DATE	||2016-02|2016-02	2016.0			operational until February 2016	fb:part.operational_until_february_2016
+15	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+15	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+16	0	fb:cell.kursk_5	Kursk-5	kursk-5	kursk-5	NN	O		5.0				
+16	1	fb:cell.mker_1000	MKER-1000	mker-1000	mker-1000	NN	O		1000.0				
+16	2	fb:cell.construction_begin_was_1985_since_then_shelved	construction begin was 1985, since then shelved	construction|begin|was|1985|,|since|then|shelved	construction|begin|be|1985|,|since|then|shelve	NN|VB|VBD-AUX|CD|,|IN|RB|VBD	O|O|O|DATE|O|O|O|O	|||1985||||	1985.0			construction begin was 1985|since then shelved	fb:part.construction_begin_was_1985|fb:part.since_then_shelved
+16	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+16	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+17	0	fb:cell.kursk_6	Kursk-6	kursk-6	kursk-6	NN	O		6.0				
+17	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+17	2	fb:cell.construction_cancelled_in_1993	construction cancelled in 1993	construction|canceled|in|1993	construction|cancel|in|1993	NN|VBN|IN|CD	O|O|O|DATE	|||1993	1993.0			construction cancelled in 1993	fb:part.construction_cancelled_in_1993
+17	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+17	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+18	0	fb:cell.leningrad_1	Leningrad-1	leningrad-1	leningrad-1	NN	O		1.0				
+18	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+18	2	fb:cell.operational	operational	operational	operational	JJ	O					operational	fb:part.operational
+18	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+18	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+19	0	fb:cell.leningrad_2	Leningrad-2	leningrad-2	leningrad-2	NN	O		2.0				
+19	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+19	2	fb:cell.operational_until_2021	operational until 2021	operational|until|2021	operational|until|2021	JJ|IN|CD	O|O|DATE	||2021	2021.0			operational until 2021	fb:part.operational_until_2021
+19	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+19	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+20	0	fb:cell.leningrad_3	Leningrad-3	leningrad-3	leningrad-3	NN	O		3.0				
+20	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+20	2	fb:cell.operational_until_june_2025	operational until June 2025	operational|until|june|2025	operational|until|June|2025	JJ|IN|NNP|CD	O|O|DATE|DATE	||2025-06|2025-06	2025.0			operational until June 2025	fb:part.operational_until_june_2025
+20	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+20	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+21	0	fb:cell.leningrad_4	Leningrad-4	leningrad-4	leningrad-4	NN	O		4.0				
+21	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+21	2	fb:cell.operational_until_august_2026	operational until August 2026	operational|until|august|2026	operational|until|August|2026	JJ|IN|NNP|CD	O|O|DATE|DATE	||2026-08|2026-08	2026.0			operational until August 2026	fb:part.operational_until_august_2026
+21	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+21	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+22	0	fb:cell.smolensk_1	Smolensk-1	smolensk-1	smolensk-1	NN	O		1.0				
+22	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+22	2	fb:cell.operational_until_december_2022	operational until December 2022	operational|until|december|2022	operational|until|December|2022	JJ|IN|NNP|CD	O|O|DATE|DATE	||2022-12|2022-12	2022.0			operational until December 2022	fb:part.operational_until_december_2022
+22	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+22	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+23	0	fb:cell.smolensk_2	Smolensk-2	smolensk-2	smolensk-2	NN	O		2.0				
+23	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+23	2	fb:cell.operational_until_july_2015	operational until July 2015	operational|until|july|2015	operational|until|July|2015	JJ|IN|NNP|CD	O|O|DATE|DATE	||2015-07|2015-07	2015.0			operational until July 2015	fb:part.operational_until_july_2015
+23	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+23	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+24	0	fb:cell.smolensk_3	Smolensk-3	smolensk-3	smolensk-3	NN	O		3.0				
+24	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+24	2	fb:cell.operational_until_july_2023	operational until July 2023	operational|until|july|2023	operational|until|July|2023	JJ|IN|NNP|CD	O|O|DATE|DATE	||2023-07|2023-07	2023.0			operational until July 2023	fb:part.operational_until_july_2023
+24	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+24	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+25	0	fb:cell.smolensk_4	Smolensk-4	smolensk-4	smolensk-4	NN	O		4.0				
+25	1	fb:cell.rbmk_1000	RBMK-1000	rbmk-1000	rbmk-1000	NN	O		1000.0				
+25	2	fb:cell.construction_cancelled_in_1993	construction cancelled in 1993	construction|canceled|in|1993	construction|cancel|in|1993	NN|VBN|IN|CD	O|O|O|DATE	|||1993	1993.0			construction cancelled in 1993	fb:part.construction_cancelled_in_1993
+25	3	fb:cell.925	925	925	925	CD	NUMBER	925.0	925.0				
+25	4	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				

@@ -1,0 +1,45 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	2	fb:row.row.site	Site	site	site	NN	O						
+-1	3	fb:row.row.result	Result	result	result	NN	O						
+0	0	fb:cell.september_24	September 24	september|24	September|24	NNP|CD	DATE|DATE	XXXX-09-24|XXXX-09-24	24.0	xxxx-09-24		September 24	fb:part.september_24
+0	1	fb:cell.millsaps	Millsaps*	millsaps|\\*	Millsaps|\\*	NNP|SYM	O|O	|					
+0	2	fb:cell.denny_field_tuscaloosa_al	Denny Field • Tuscaloosa, AL	denny|field|•|tuscaloosa|,|al	Denny|Field|•|Tuscaloosa|,|AL	NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|LOCATION|O|LOCATION	|||||				Denny Field • Tuscaloosa|AL	fb:part.denny_field_tuscaloosa|fb:part.al
+0	3	fb:cell.w_54_0	W 54–0	w|54|--|0	W|54|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|54.0||0.0	54.0		0.0		
+1	0	fb:cell.october_2	October 2	october|2	October|2	NNP|CD	DATE|DATE	XXXX-10-02|XXXX-10-02	2.0	xxxx-10-02		October 2	fb:part.october_2
+1	1	fb:cell.at_vanderbilt	at Vanderbilt	at|vanderbilt	at|Vanderbilt	IN|NNP	O|LOCATION	|					
+1	2	fb:cell.dudley_field_nashville_tn	Dudley Field • Nashville, TN	dudley|field|•|nashville|,|tn	Dudley|Field|•|Nashville|,|tn	NNP|NNP|NNP|NNP|,|NN	PERSON|PERSON|O|LOCATION|O|O	|||||				Dudley Field • Nashville|TN	fb:part.dudley_field_nashville|fb:part.tn
+1	3	fb:cell.w_19_7	W 19–7	w|19|--|7	W|19|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|19.0||7.0	19.0		7.0		
+2	0	fb:cell.october_9	October 9	october|9	October|9	NNP|CD	DATE|DATE	XXXX-10-09|XXXX-10-09	9.0	xxxx-10-09		October 9	fb:part.october_9
+2	1	fb:cell.at_mississippi_a_m	at Mississippi A&M	at|mississippi|a&m	at|Mississippi|A&M	IN|NNP|NNP	O|LOCATION|O	||					
+2	2	fb:cell.meridian_fairgrounds_meridian_ms_rivalry	Meridian Fairgrounds • Meridian, MS (Rivalry)	meridian|fairgrounds|•|meridian|,|ms|-lrb-|rivalry|-rrb-	Meridian|Fairgrounds|•|Meridian|,|m|-lrb-|rivalry|-rrb-	NNP|NNP|NNP|NNP|,|NN|-LRB-|NN|-RRB-	MISC|MISC|O|O|O|O|O|O|O	||||||||				Meridian Fairgrounds • Meridian|MS (Rivalry)	fb:part.meridian_fairgrounds_meridian|fb:part.ms_rivalry
+2	3	fb:cell.w_26_7	W 26–7	w|26|--|7	W|26|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|26.0||7.0	26.0		7.0		
+3	0	fb:cell.october_16	October 16	october|16	October|16	NNP|CD	DATE|DATE	XXXX-10-16|XXXX-10-16	16.0	xxxx-10-16		October 16	fb:part.october_16
+3	1	fb:cell.at_georgia_tech	at Georgia Tech	at|georgia|tech	at|Georgia|Tech	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+3	2	fb:cell.grant_field_atlanta_ga	Grant Field • Atlanta, GA	grant|field|•|atlanta|,|ga	Grant|Field|•|Atlanta|,|GA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Grant Field • Atlanta|GA	fb:part.grant_field_atlanta|fb:part.ga
+3	3	fb:cell.w_21_0	W 21–0	w|21|--|0	W|21|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|21.0||0.0	21.0		0.0		
+4	0	fb:cell.october_23	October 23	october|23	October|23	NNP|CD	DATE|DATE	XXXX-10-23|XXXX-10-23	23.0	xxxx-10-23		October 23	fb:part.october_23
+4	1	fb:cell.sewanee	Sewanee	sewanee	Sewanee	NNP	LOCATION						
+4	2	fb:cell.rickwood_field_birmingham_al	Rickwood Field • Birmingham, AL	rickwood|field|•|birmingham|,|al	Rickwood|Field|•|Birmingham|,|AL	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Rickwood Field • Birmingham|AL	fb:part.rickwood_field_birmingham|fb:part.al
+4	3	fb:cell.w_2_0	W 2–0	w|2|--|0	w|2|--|0	NN|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||0.0	2.0		0.0		
+5	0	fb:cell.october_30	October 30	october|30	October|30	NNP|CD	DATE|DATE	XXXX-10-30|XXXX-10-30	30.0	xxxx-10-30		October 30	fb:part.october_30
+5	1	fb:cell.lsu	LSU	lsu	LSU	NNP	O						
+5	2	fb:cell.denny_field_tuscaloosa_al_rivalry	Denny Field • Tuscaloosa, AL (Rivalry)	denny|field|•|tuscaloosa|,|al|-lrb-|rivalry|-rrb-	Denny|Field|•|Tuscaloosa|,|AL|-lrb-|Rivalry|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|LOCATION|O|O|O|O|O	||||||||				Denny Field • Tuscaloosa|AL (Rivalry)	fb:part.denny_field_tuscaloosa|fb:part.al_rivalry
+5	3	fb:cell.w_24_0	W 24–0	w|24|--|0	W|24|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||0.0	24.0		0.0		
+6	0	fb:cell.november_6	November 6	november|6	November|6	NNP|CD	DATE|DATE	XXXX-11-06|XXXX-11-06	6.0	xxxx-11-06		November 6	fb:part.november_6
+6	1	fb:cell.kentucky	Kentucky	kentucky	Kentucky	NNP	LOCATION						
+6	2	fb:cell.rickwood_field_birmingham_al	Rickwood Field • Birmingham, AL	rickwood|field|•|birmingham|,|al	Rickwood|Field|•|Birmingham|,|AL	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Rickwood Field • Birmingham|AL	fb:part.rickwood_field_birmingham|fb:part.al
+6	3	fb:cell.w_14_0	W 14–0	w|14|--|0	W|14|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|14.0||0.0	14.0		0.0		
+7	0	fb:cell.november_13	November 13	november|13	November|13	NNP|CD	DATE|DATE	XXXX-11-13|XXXX-11-13	13.0	xxxx-11-13		November 13	fb:part.november_13
+7	1	fb:cell.florida	Florida	florida	Florida	NNP	LOCATION						
+7	2	fb:cell.cramton_bowl_montgomery_al	Cramton Bowl • Montgomery, AL	cramton|bowl|•|montgomery|,|al	Cramton|Bowl|•|Montgomery|,|AL	NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|O|LOCATION	|||||				Cramton Bowl • Montgomery|AL	fb:part.cramton_bowl_montgomery|fb:part.al
+7	3	fb:cell.w_49_0	W 49–0	w|49|--|0	W|49|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|49.0||0.0	49.0		0.0		
+8	0	fb:cell.november_25	November 25	november|25	November|25	NNP|CD	DATE|DATE	XXXX-11-25|XXXX-11-25	25.0	xxxx-11-25		November 25	fb:part.november_25
+8	1	fb:cell.georgia	Georgia	georgia	Georgia	NNP	LOCATION						
+8	2	fb:cell.rickwood_field_birmingham_al	Rickwood Field • Birmingham, AL	rickwood|field|•|birmingham|,|al	Rickwood|Field|•|Birmingham|,|AL	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Rickwood Field • Birmingham|AL	fb:part.rickwood_field_birmingham|fb:part.al
+8	3	fb:cell.w_33_6	W 33–6	w|33|--|6	W|33|--|6	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|33.0||6.0	33.0		6.0		
+9	0	fb:cell.january_1_1927	January 1, 1927	january|1|,|1927	January|1|,|1927	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1927-01-01|1927-01-01|1927-01-01|1927-01-01	11927.0	1927-01-01		January 1|1927	fb:part.january_1|fb:part.1927
+9	1	fb:cell.vs_stanford	vs. Stanford*	vs.|stanford|\\*	vs.|Stanford|\\*	CC|NNP|SYM	O|ORGANIZATION|O	||					
+9	2	fb:cell.rose_bowl_pasadena_ca_rose_bowl	Rose Bowl • Pasadena, CA (Rose Bowl)	rose|bowl|•|pasadena|,|ca|-lrb-|rose|bowl|-rrb-	Rose|Bowl|•|Pasadena|,|CA|-lrb-|Rose|Bowl|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|LOCATION|O|O|O|O|O|O	|||||||||				Rose Bowl • Pasadena|CA (Rose Bowl)	fb:part.rose_bowl_pasadena|fb:part.ca_rose_bowl
+9	3	fb:cell.t_7_7	T 7–7	t|7|--|7	t|7|--|7	NN|CD|:|CD	O|NUMBER|O|NUMBER	|7.0||7.0	7.0		7.0		

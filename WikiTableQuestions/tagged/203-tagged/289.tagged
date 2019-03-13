@@ -1,0 +1,49 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.version	Version	version	version	NN	O						
+-1	1	fb:row.row.length	Length	length	length	NN	O						
+-1	2	fb:row.row.album	Album	album	album	NN	O						
+-1	3	fb:row.row.remixed_by	Remixed by	remixed|by	remix|by	VBN|IN	O|O	|					
+-1	4	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	5	fb:row.row.comment	Comment	comment	comment	NN	O						
+0	0	fb:cell.single_version_radio_edit	Single Version / Radio Edit	single|version|\\/|radio|edit	single|version|\\/|Radio|Edit	JJ|NN|:|NNP|NNP	O|O|O|O|O	||||				Single Version|Radio Edit	fb:part.single_version|fb:part.radio_edit
+0	1	fb:cell.3_39	3:39	3:39	3:39	CD	TIME	T03:39	3.0		39.0		
+0	2	fb:cell.go_the_very_best_of_moby	Go – The Very Best of Moby	go|--|the|very|best|of|moby	go|--|the|very|best|of|Moby	VB|:|DT|RB|JJS|IN|NNP	O|O|O|O|O|O|O	||||||					
+0	3	fb:cell.mhc_aka_philip_larsen_and_chis_smith	MHC aka Philip Larsen and Chis Smith	mhc|aka|philip|larsen|and|chis|smith	mhc|aka|Philip|Larsen|and|Chis|Smith	NN|FW|NNP|NNP|CC|NNP|NNP	O|O|PERSON|PERSON|O|PERSON|PERSON	||||||					
+0	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+0	5	fb:cell.remixed_version_with_dance_sonorities_with_english_and_french_lyrics_which_alternate_this_version_is_more_rhythmic_than_the_original_one	Remixed version with dance sonorities, with English and French lyrics which alternate. This version is more rhythmic than the original one.	remixed|version|with|dance|sonorities|,|with|english|and|french|lyrics|which|alternate|.|this|version|is|more|rhythmic|than|the|original|one|.	remix|version|with|dance|sonority|,|with|English|and|French|lyric|which|alternate|.|this|version|be|more|rhythmic|than|the|original|one|.	VBN|NN|IN|NN|NNS|,|IN|NNP|CC|NNP|NNS|WDT|JJ|.|DT|NN|VBD-AUX|RBR|JJ|IN|DT|JJ|CD|.	O|O|O|O|O|O|O|MISC|O|MISC|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O	||||||||||||||||||||||1.0|				Remixed version with dance sonorities|with English and French lyrics which alternate. This version is more rhythmic than the original one.	fb:part.remixed_version_with_dance_sonorities|fb:part.with_english_and_french_lyrics_which_alternate_this_version_is_more_rhythmic_than_the_original_one
+1	0	fb:cell.extended_remix	Extended Remix	extended|remix	extend|Remix	VBN|NNP	O|O	|				Extended Remix	fb:part.extended_remix
+1	1	fb:cell.6_48	6:48	6:48	6:48	CD	TIME	T06:48	6.0		48.0		
+1	2	fb:cell.null	—	--	--	:	O						
+1	3	fb:cell.mhc_aka_philip_larsen_and_chis_smith	MHC aka Philip Larsen and Chis Smith	mhc|aka|philip|larsen|and|chis|smith	mhc|aka|Philip|Larsen|and|Chis|Smith	NN|FW|NNP|NNP|CC|NNP|NNP	O|O|PERSON|PERSON|O|PERSON|PERSON	||||||					
+1	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+1	5	fb:cell.similar_to_the_previous_but_longer	Similar to the previous but longer.	similar|to|the|previous|but|longer|.	similar|to|the|previous|but|longer|.	JJ|TO|DT|JJ|CC|RBR|.	O|O|O|O|O|O|O	||||||				Similar to the previous but longer.	fb:part.similar_to_the_previous_but_longer
+2	0	fb:cell.axwell_remix	Axwell Remix	axwell|remix	Axwell|Remix	NNP|NNP	O|O	|				Axwell Remix	fb:part.axwell_remix
+2	1	fb:cell.7_24	7:24	7:24	7:24	CD	TIME	T07:24	7.0		24.0		
+2	2	fb:cell.null	—	--	--	:	O						
+2	3	fb:cell.axwell	Axwell	axwell	Axwell	NNP	O						
+2	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+2	5	fb:cell.used_in_a_scene_in_the_2008_movie_21	Used in a scene in the 2008 movie 21.	used|in|a|scene|in|the|2008|movie|21|.	use|in|a|scene|in|the|2008|movie|21|.	VBN|IN|DT|NN|IN|DT|CD|NN|CD|.	O|O|O|O|O|O|DATE|O|NUMBER|O	||||||2008||21.0|	2008.0		21.0	Used in a scene in the 2008 movie 21.	fb:part.used_in_a_scene_in_the_2008_movie_21
+3	0	fb:cell.enzo_mori_stephan_clark_remix	Enzo Mori & Stephan Clark Remix	enzo|mori|&|stephan|clark|remix	Enzo|Mori|&|Stephan|Clark|Remix	NNP|NNP|CC|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|PERSON	|||||				Enzo Mori & Stephan Clark Remix	fb:part.enzo_mori_stephan_clark_remix
+3	1	fb:cell.7_10	7:10	7:10	7:10	CD	TIME	T07:10	7.0		10.0		
+3	2	fb:cell.null	—	--	--	:	O						
+3	3	fb:cell.enzo_mori_and_stephan_clark	Enzo Mori and Stephan Clark	enzo|mori|and|stephan|clark	Enzo|Mori|and|Stephan|Clark	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||					
+3	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+3	5	fb:cell.null_2											fb:part.null
+4	0	fb:cell.mhc_club_remix	MHC club Remix	mhc|club|remix	mhc|club|remix	NN|NN|NN	O|O|O	||				MHC club Remix	fb:part.mhc_club_remix
+4	1	fb:cell.7_31	7:31	7:31	7:31	CD	TIME	T07:31	7.0		31.0		
+4	2	fb:cell.null	—	--	--	:	O						
+4	3	fb:cell.mhc_aka_philip_larsen_and_chis_smith	MHC aka Philip Larsen and Chis Smith	mhc|aka|philip|larsen|and|chis|smith	mhc|aka|Philip|Larsen|and|Chis|Smith	NN|FW|NNP|NNP|CC|NNP|NNP	O|O|PERSON|PERSON|O|PERSON|PERSON	||||||					
+4	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+4	5	fb:cell.null_2											fb:part.null
+5	0	fb:cell.zloot_remix	Zloot Remix	zloot|remix	Zloot|Remix	NNP|NNP	O|O	|				Zloot Remix	fb:part.zloot_remix
+5	1	fb:cell.4_36	4:36	4:36	4:36	CD	TIME	T04:36	4.0		36.0		
+5	2	fb:cell.null	—	--	--	:	O						
+5	3	fb:cell.toni_toolz	Toni Toolz	toni|toolz	Toni|Toolz	NNP|NNP	PERSON|PERSON	|					
+5	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+5	5	fb:cell.null_2											fb:part.null
+6	0	fb:cell.music_video	Music Video	music|video	music|Video	NN|NNP	O|O	|				Music Video	fb:part.music_video
+6	1	fb:cell.3_58	3:58	3:58	3:58	CD	TIME	T03:58	3.0		58.0		
+6	2	fb:cell.null	—	--	--	:	O						
+6	3	fb:cell.null	—	--	--	:	O						
+6	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+6	5	fb:cell.null_2											fb:part.null

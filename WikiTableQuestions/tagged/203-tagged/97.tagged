@@ -1,0 +1,375 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.staple	STAPLE:	staple|:	staple|:	NN|:	O|O	|					
+-1	1	fb:row.row.maize_corn	Maize / Corn	maize|\\/|corn	Maize|\\/|Corn	NNP|:|NNP	O|O|O	||					
+-1	2	fb:row.row.rice	Rice	rice	Rice	NNP	O						
+-1	3	fb:row.row.wheat	Wheat	wheat	wheat	NN	O						
+-1	4	fb:row.row.potato	Potato	potato	potato	NN	O						
+-1	5	fb:row.row.cassava	Cassava	cassava	Cassava	NNP	O						
+-1	6	fb:row.row.soybean_green	Soybean (Green)	soybean|-lrb-|green|-rrb-	soybean|-lrb-|green|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	7	fb:row.row.sweet_potato	Sweet potato	sweet|potato	sweet|potato	JJ|NN	O|O	|					
+-1	8	fb:row.row.sorghum	Sorghum	sorghum	sorghum	NN	O						
+-1	9	fb:row.row.yam	Yam	yam	Yam	NNP	PERSON						
+-1	10	fb:row.row.plantain	Plantain	plantain	Plantain	NNP	O						
+0	0	fb:cell.component_per_100g_portion	Component (per 100g portion)	component|-lrb-|per|100g|portion|-rrb-	component|-lrb-|per|100g|portion|-rrb-	NN|-LRB-|IN|CD|NN|-RRB-	O|O|O|NUMBER|O|O	|||100.0||	100.0			Component (per 100g portion)	fb:part.component_per_100g_portion
+0	1	fb:cell.amount	Amount	amount	amount	NN	O						
+0	2	fb:cell.amount	Amount	amount	amount	NN	O						
+0	3	fb:cell.amount	Amount	amount	amount	NN	O						
+0	4	fb:cell.amount	Amount	amount	amount	NN	O						
+0	5	fb:cell.amount	Amount	amount	amount	NN	O						
+0	6	fb:cell.amount	Amount	amount	amount	NN	O						
+0	7	fb:cell.amount	Amount	amount	amount	NN	O						
+0	8	fb:cell.amount	Amount	amount	amount	NN	O						
+0	9	fb:cell.amount	Amount	amount	amount	NN	O						
+0	10	fb:cell.amount	Amount	amount	amount	NN	O						
+1	0	fb:cell.water_g	Water (g)	water|-lrb-|g|-rrb-	water|-lrb-|g|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Water (g)	fb:part.water_g
+1	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+1	2	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+1	3	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+1	4	fb:cell.79	79	79	79	CD	NUMBER	79.0	79.0				
+1	5	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+1	6	fb:cell.68	68	68	68	CD	NUMBER	68.0	68.0				
+1	7	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+1	8	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+1	9	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+1	10	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+2	0	fb:cell.energy_kj	Energy (kJ)	energy|-lrb-|kj|-rrb-	energy|-lrb-|kj|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Energy (kJ)	fb:part.energy_kj
+2	1	fb:cell.1528	1528	1528	1528	CD	DATE	1528	1528.0	1528-xx-xx			
+2	2	fb:cell.1528	1528	1528	1528	CD	DATE	1528	1528.0	1528-xx-xx			
+2	3	fb:cell.1369	1369	1369	1369	CD	DATE	1369	1369.0	1369-xx-xx			
+2	4	fb:cell.322	322	322	322	CD	NUMBER	322.0	322.0				
+2	5	fb:cell.670	670	670	670	CD	NUMBER	670.0	670.0				
+2	6	fb:cell.615	615	615	615	CD	NUMBER	615.0	615.0				
+2	7	fb:cell.360	360	360	360	CD	NUMBER	360.0	360.0				
+2	8	fb:cell.1419	1419	1419	1419	CD	DATE	1419	1419.0	1419-xx-xx			
+2	9	fb:cell.494	494	494	494	CD	NUMBER	494.0	494.0				
+2	10	fb:cell.511	511	511	511	CD	NUMBER	511.0	511.0				
+3	0	fb:cell.protein_g	Protein (g)	protein|-lrb-|g|-rrb-	protein|-lrb-|g|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Protein (g)	fb:part.protein_g
+3	1	fb:cell.9_4	9.4	9.4	9.4	CD	NUMBER	9.4	9.4				
+3	2	fb:cell.7_1	7.1	7.1	7.1	CD	NUMBER	7.1	7.1				
+3	3	fb:cell.12_6	12.6	12.6	12.6	CD	NUMBER	12.6	12.6				
+3	4	fb:cell.2_0	2.0	2.0	2.0	CD	NUMBER	2.0	2.0				
+3	5	fb:cell.1_4	1.4	1.4	1.4	CD	NUMBER	1.4	1.4				
+3	6	fb:cell.13_0	13.0	13.0	13.0	CD	NUMBER	13.0	13.0				
+3	7	fb:cell.1_6	1.6	1.6	1.6	CD	NUMBER	1.6	1.6				
+3	8	fb:cell.11_3	11.3	11.3	11.3	CD	NUMBER	11.3	11.3				
+3	9	fb:cell.1_5	1.5	1.5	1.5	CD	NUMBER	1.5	1.5				
+3	10	fb:cell.1_3	1.3	1.3	1.3	CD	NUMBER	1.3	1.3				
+4	0	fb:cell.fat_g	Fat (g)	fat|-lrb-|g|-rrb-	Fat|-lrb-|g|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||				Fat (g)	fb:part.fat_g
+4	1	fb:cell.4_74	4.74	4.74	4.74	CD	NUMBER	4.74	4.74				
+4	2	fb:cell.0_66	0.66	0.66	0.66	CD	NUMBER	0.66	0.66				
+4	3	fb:cell.1_54	1.54	1.54	1.54	CD	NUMBER	1.54	1.54				
+4	4	fb:cell.0_09	0.09	0.09	0.09	CD	NUMBER	0.09	0.09				
+4	5	fb:cell.0_28	0.28	0.28	0.28	CD	NUMBER	0.28	0.28				
+4	6	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+4	7	fb:cell.0_05	0.05	0.05	0.05	CD	NUMBER	0.05	0.05				
+4	8	fb:cell.3_3	3.3	3.3	3.3	CD	NUMBER	3.3	3.3				
+4	9	fb:cell.0_17	0.17	0.17	0.17	CD	NUMBER	0.17	0.17				
+4	10	fb:cell.0_37	0.37	0.37	0.37	CD	NUMBER	0.37	0.37				
+5	0	fb:cell.carbohydrates_g	Carbohydrates (g)	carbohydrates|-lrb-|g|-rrb-	Carbohydrates|-lrb-|g|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||				Carbohydrates (g)	fb:part.carbohydrates_g
+5	1	fb:cell.74	74	74	74	CD	NUMBER	74.0	74.0				
+5	2	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+5	3	fb:cell.71	71	71	71	CD	NUMBER	71.0	71.0				
+5	4	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+5	5	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+5	6	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+5	7	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+5	8	fb:cell.75	75	75	75	CD	NUMBER	75.0	75.0				
+5	9	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+5	10	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+6	0	fb:cell.fiber_g	Fiber (g)	fiber|-lrb-|g|-rrb-	fiber|-lrb-|g|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Fiber (g)	fb:part.fiber_g
+6	1	fb:cell.7_3	7.3	7.3	7.3	CD	NUMBER	7.3	7.3				
+6	2	fb:cell.1_3	1.3	1.3	1.3	CD	NUMBER	1.3	1.3				
+6	3	fb:cell.12_2	12.2	12.2	12.2	CD	NUMBER	12.2	12.2				
+6	4	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+6	5	fb:cell.1_8	1.8	1.8	1.8	CD	NUMBER	1.8	1.8				
+6	6	fb:cell.4_2	4.2	4.2	4.2	CD	NUMBER	4.2	4.2				
+6	7	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+6	8	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+6	9	fb:cell.4_1	4.1	4.1	4.1	CD	NUMBER	4.1	4.1				
+6	10	fb:cell.2_3	2.3	2.3	2.3	CD	NUMBER	2.3	2.3				
+7	0	fb:cell.sugar_g	Sugar (g)	sugar|-lrb-|g|-rrb-	Sugar|-lrb-|g|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||				Sugar (g)	fb:part.sugar_g
+7	1	fb:cell.0_64	0.64	0.64	0.64	CD	NUMBER	0.64	0.64				
+7	2	fb:cell.0_12	0.12	0.12	0.12	CD	NUMBER	0.12	0.12				
+7	3	fb:cell.0_41	0.41	0.41	0.41	CD	NUMBER	0.41	0.41				
+7	4	fb:cell.0_78	0.78	0.78	0.78	CD	NUMBER	0.78	0.78				
+7	5	fb:cell.1_7	1.7	1.7	1.7	CD	NUMBER	1.7	1.7				
+7	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+7	7	fb:cell.4_18	4.18	4.18	4.18	CD	NUMBER	4.18	4.18				
+7	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+7	9	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+7	10	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+8	0	fb:cell.calcium_mg	Calcium (mg)	calcium|-lrb-|mg|-rrb-	calcium|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Calcium (mg)	fb:part.calcium_mg
+8	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+8	2	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+8	3	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+8	4	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+8	5	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+8	6	fb:cell.197	197	197	197	CD	NUMBER	197.0	197.0				
+8	7	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+8	8	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+8	9	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+8	10	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+9	0	fb:cell.iron_mg	Iron (mg)	iron|-lrb-|mg|-rrb-	iron|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Iron (mg)	fb:part.iron_mg
+9	1	fb:cell.2_71	2.71	2.71	2.71	CD	NUMBER	2.71	2.71				
+9	2	fb:cell.0_8	0.8	0.8	0.8	CD	NUMBER	0.8	0.8				
+9	3	fb:cell.3_19	3.19	3.19	3.19	CD	NUMBER	3.19	3.19				
+9	4	fb:cell.0_78	0.78	0.78	0.78	CD	NUMBER	0.78	0.78				
+9	5	fb:cell.0_27	0.27	0.27	0.27	CD	NUMBER	0.27	0.27				
+9	6	fb:cell.3_55	3.55	3.55	3.55	CD	NUMBER	3.55	3.55				
+9	7	fb:cell.0_61	0.61	0.61	0.61	CD	NUMBER	0.61	0.61				
+9	8	fb:cell.4_4	4.4	4.4	4.4	CD	NUMBER	4.4	4.4				
+9	9	fb:cell.0_54	0.54	0.54	0.54	CD	NUMBER	0.54	0.54				
+9	10	fb:cell.0_6	0.6	0.6	0.6	CD	NUMBER	0.6	0.6				
+10	0	fb:cell.magnesium_mg	Magnesium (mg)	magnesium|-lrb-|mg|-rrb-	magnesium|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Magnesium (mg)	fb:part.magnesium_mg
+10	1	fb:cell.127	127	127	127	CD	NUMBER	127.0	127.0				
+10	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+10	3	fb:cell.126	126	126	126	CD	NUMBER	126.0	126.0				
+10	4	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+10	5	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+10	6	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+10	7	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+10	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+10	9	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+10	10	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+11	0	fb:cell.phosphorus_mg	Phosphorus (mg)	phosphorus|-lrb-|mg|-rrb-	phosphorus|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Phosphorus (mg)	fb:part.phosphorus_mg
+11	1	fb:cell.210	210	210	210	CD	NUMBER	210.0	210.0				
+11	2	fb:cell.115	115	115	115	CD	NUMBER	115.0	115.0				
+11	3	fb:cell.288	288	288	288	CD	NUMBER	288.0	288.0				
+11	4	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+11	5	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+11	6	fb:cell.194	194	194	194	CD	NUMBER	194.0	194.0				
+11	7	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+11	8	fb:cell.287	287	287	287	CD	NUMBER	287.0	287.0				
+11	9	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+11	10	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+12	0	fb:cell.potassium_mg	Potassium (mg)	potassium|-lrb-|mg|-rrb-	potassium|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Potassium (mg)	fb:part.potassium_mg
+12	1	fb:cell.287	287	287	287	CD	NUMBER	287.0	287.0				
+12	2	fb:cell.115	115	115	115	CD	NUMBER	115.0	115.0				
+12	3	fb:cell.363	363	363	363	CD	NUMBER	363.0	363.0				
+12	4	fb:cell.421	421	421	421	CD	NUMBER	421.0	421.0				
+12	5	fb:cell.271	271	271	271	CD	NUMBER	271.0	271.0				
+12	6	fb:cell.620	620	620	620	CD	NUMBER	620.0	620.0				
+12	7	fb:cell.337	337	337	337	CD	NUMBER	337.0	337.0				
+12	8	fb:cell.350	350	350	350	CD	NUMBER	350.0	350.0				
+12	9	fb:cell.816	816	816	816	CD	NUMBER	816.0	816.0				
+12	10	fb:cell.499	499	499	499	CD	NUMBER	499.0	499.0				
+13	0	fb:cell.sodium_mg	Sodium (mg)	sodium|-lrb-|mg|-rrb-	sodium|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Sodium (mg)	fb:part.sodium_mg
+13	1	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+13	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+13	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+13	4	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+13	5	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	6	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+13	7	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+13	8	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+13	9	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+13	10	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+14	0	fb:cell.zinc_mg	Zinc (mg)	zinc|-lrb-|mg|-rrb-	zinc|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Zinc (mg)	fb:part.zinc_mg
+14	1	fb:cell.2_21	2.21	2.21	2.21	CD	NUMBER	2.21	2.21				
+14	2	fb:cell.1_09	1.09	1.09	1.09	CD	NUMBER	1.09	1.09				
+14	3	fb:cell.2_65	2.65	2.65	2.65	CD	NUMBER	2.65	2.65				
+14	4	fb:cell.0_29	0.29	0.29	0.29	CD	NUMBER	0.29	0.29				
+14	5	fb:cell.0_34	0.34	0.34	0.34	CD	NUMBER	0.34	0.34				
+14	6	fb:cell.0_99	0.99	0.99	0.99	CD	NUMBER	0.99	0.99				
+14	7	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+14	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+14	9	fb:cell.0_24	0.24	0.24	0.24	CD	NUMBER	0.24	0.24				
+14	10	fb:cell.0_14	0.14	0.14	0.14	CD	NUMBER	0.14	0.14				
+15	0	fb:cell.copper_mg	Copper (mg)	copper|-lrb-|mg|-rrb-	copper|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Copper (mg)	fb:part.copper_mg
+15	1	fb:cell.0_31	0.31	0.31	0.31	CD	NUMBER	0.31	0.31				
+15	2	fb:cell.0_22	0.22	0.22	0.22	CD	NUMBER	0.22	0.22				
+15	3	fb:cell.0_43	0.43	0.43	0.43	CD	NUMBER	0.43	0.43				
+15	4	fb:cell.0_11	0.11	0.11	0.11	CD	NUMBER	0.11	0.11				
+15	5	fb:cell.0_10	0.10	0.10	0.10	CD	NUMBER	0.1	0.1				
+15	6	fb:cell.0_13	0.13	0.13	0.13	CD	NUMBER	0.13	0.13				
+15	7	fb:cell.0_15	0.15	0.15	0.15	CD	NUMBER	0.15	0.15				
+15	8	fb:cell.null	-	-	-	:	O						
+15	9	fb:cell.0_18	0.18	0.18	0.18	CD	NUMBER	0.18	0.18				
+15	10	fb:cell.0_08	0.08	0.08	0.08	CD	NUMBER	0.08	0.08				
+16	0	fb:cell.manganese_mg	Manganese (mg)	manganese|-lrb-|mg|-rrb-	manganese|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Manganese (mg)	fb:part.manganese_mg
+16	1	fb:cell.0_49	0.49	0.49	0.49	CD	NUMBER	0.49	0.49				
+16	2	fb:cell.1_09	1.09	1.09	1.09	CD	NUMBER	1.09	1.09				
+16	3	fb:cell.3_99	3.99	3.99	3.99	CD	NUMBER	3.99	3.99				
+16	4	fb:cell.0_15	0.15	0.15	0.15	CD	NUMBER	0.15	0.15				
+16	5	fb:cell.0_38	0.38	0.38	0.38	CD	NUMBER	0.38	0.38				
+16	6	fb:cell.0_55	0.55	0.55	0.55	CD	NUMBER	0.55	0.55				
+16	7	fb:cell.0_26	0.26	0.26	0.26	CD	NUMBER	0.26	0.26				
+16	8	fb:cell.null	-	-	-	:	O						
+16	9	fb:cell.0_40	0.40	0.40	0.40	CD	NUMBER	0.4	0.4				
+16	10	fb:cell.null	-	-	-	:	O						
+17	0	fb:cell.selenium_g	Selenium (μg)	selenium|-lrb-|μg|-rrb-	selenium|-lrb-|μg|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				Selenium (μg)	fb:part.selenium_g
+17	1	fb:cell.15_5	15.5	15.5	15.5	CD	NUMBER	15.5	15.5				
+17	2	fb:cell.15_1	15.1	15.1	15.1	CD	NUMBER	15.1	15.1				
+17	3	fb:cell.70_7	70.7	70.7	70.7	CD	NUMBER	70.7	70.7				
+17	4	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+17	5	fb:cell.0_7	0.7	0.7	0.7	CD	NUMBER	0.7	0.7				
+17	6	fb:cell.1_5	1.5	1.5	1.5	CD	NUMBER	1.5	1.5				
+17	7	fb:cell.0_6	0.6	0.6	0.6	CD	NUMBER	0.6	0.6				
+17	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+17	9	fb:cell.0_7	0.7	0.7	0.7	CD	NUMBER	0.7	0.7				
+17	10	fb:cell.1_5	1.5	1.5	1.5	CD	NUMBER	1.5	1.5				
+18	0	fb:cell.vitamin_c_mg	Vitamin C (mg)	vitamin|c|-lrb-|mg|-rrb-	vitamin|c|-lrb-|mg|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Vitamin C (mg)	fb:part.vitamin_c_mg
+18	1	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+18	2	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+18	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+18	4	fb:cell.19_7	19.7	19.7	19.7	CD	NUMBER	19.7	19.7				
+18	5	fb:cell.20_6	20.6	20.6	20.6	CD	NUMBER	20.6	20.6				
+18	6	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+18	7	fb:cell.2_4	2.4	2.4	2.4	CD	NUMBER	2.4	2.4				
+18	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+18	9	fb:cell.17_1	17.1	17.1	17.1	CD	NUMBER	17.1	17.1				
+18	10	fb:cell.18_4	18.4	18.4	18.4	CD	NUMBER	18.4	18.4				
+19	0	fb:cell.thiamin_mg	Thiamin (mg)	thiamin|-lrb-|mg|-rrb-	Thiamin|-lrb-|mg|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||				Thiamin (mg)	fb:part.thiamin_mg
+19	1	fb:cell.0_39	0.39	0.39	0.39	CD	NUMBER	0.39	0.39				
+19	2	fb:cell.0_07	0.07	0.07	0.07	CD	NUMBER	0.07	0.07				
+19	3	fb:cell.0_30	0.30	0.30	0.30	CD	NUMBER	0.3	0.3				
+19	4	fb:cell.0_08	0.08	0.08	0.08	CD	NUMBER	0.08	0.08				
+19	5	fb:cell.0_09	0.09	0.09	0.09	CD	NUMBER	0.09	0.09				
+19	6	fb:cell.0_44	0.44	0.44	0.44	CD	NUMBER	0.44	0.44				
+19	7	fb:cell.0_08	0.08	0.08	0.08	CD	NUMBER	0.08	0.08				
+19	8	fb:cell.0_24	0.24	0.24	0.24	CD	NUMBER	0.24	0.24				
+19	9	fb:cell.0_11	0.11	0.11	0.11	CD	NUMBER	0.11	0.11				
+19	10	fb:cell.0_05	0.05	0.05	0.05	CD	NUMBER	0.05	0.05				
+20	0	fb:cell.riboflavin_mg	Riboflavin (mg)	riboflavin|-lrb-|mg|-rrb-	Riboflavin|-lrb-|mg|-rrb-	NNP|-LRB-|NN|-RRB-	LOCATION|O|O|O	|||				Riboflavin (mg)	fb:part.riboflavin_mg
+20	1	fb:cell.0_20	0.20	0.20	0.20	CD	NUMBER	0.2	0.2				
+20	2	fb:cell.0_05	0.05	0.05	0.05	CD	NUMBER	0.05	0.05				
+20	3	fb:cell.0_12	0.12	0.12	0.12	CD	NUMBER	0.12	0.12				
+20	4	fb:cell.0_03	0.03	0.03	0.03	CD	NUMBER	0.03	0.03				
+20	5	fb:cell.0_05	0.05	0.05	0.05	CD	NUMBER	0.05	0.05				
+20	6	fb:cell.0_18	0.18	0.18	0.18	CD	NUMBER	0.18	0.18				
+20	7	fb:cell.0_06	0.06	0.06	0.06	CD	NUMBER	0.06	0.06				
+20	8	fb:cell.0_14	0.14	0.14	0.14	CD	NUMBER	0.14	0.14				
+20	9	fb:cell.0_03	0.03	0.03	0.03	CD	NUMBER	0.03	0.03				
+20	10	fb:cell.0_05	0.05	0.05	0.05	CD	NUMBER	0.05	0.05				
+21	0	fb:cell.niacin_mg	Niacin (mg)	niacin|-lrb-|mg|-rrb-	niacin|-lrb-|mg|-rrb-	NN|-LRB-|NN|-RRB-	MISC|O|O|O	|||				Niacin (mg)	fb:part.niacin_mg
+21	1	fb:cell.3_63	3.63	3.63	3.63	CD	NUMBER	3.63	3.63				
+21	2	fb:cell.1_6	1.6	1.6	1.6	CD	NUMBER	1.6	1.6				
+21	3	fb:cell.5_46	5.46	5.46	5.46	CD	NUMBER	5.46	5.46				
+21	4	fb:cell.1_05	1.05	1.05	1.05	CD	NUMBER	1.05	1.05				
+21	5	fb:cell.0_85	0.85	0.85	0.85	CD	NUMBER	0.85	0.85				
+21	6	fb:cell.1_65	1.65	1.65	1.65	CD	NUMBER	1.65	1.65				
+21	7	fb:cell.0_56	0.56	0.56	0.56	CD	NUMBER	0.56	0.56				
+21	8	fb:cell.2_93	2.93	2.93	2.93	CD	NUMBER	2.93	2.93				
+21	9	fb:cell.0_55	0.55	0.55	0.55	CD	NUMBER	0.55	0.55				
+21	10	fb:cell.0_69	0.69	0.69	0.69	CD	NUMBER	0.69	0.69				
+22	0	fb:cell.pantothenic_acid_mg	Pantothenic acid (mg)	pantothenic|acid|-lrb-|mg|-rrb-	pantothenic|acid|-lrb-|mg|-rrb-	JJ|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Pantothenic acid (mg)	fb:part.pantothenic_acid_mg
+22	1	fb:cell.0_42	0.42	0.42	0.42	CD	NUMBER	0.42	0.42				
+22	2	fb:cell.1_01	1.01	1.01	1.01	CD	NUMBER	1.01	1.01				
+22	3	fb:cell.0_95	0.95	0.95	0.95	CD	NUMBER	0.95	0.95				
+22	4	fb:cell.0_30	0.30	0.30	0.30	CD	NUMBER	0.3	0.3				
+22	5	fb:cell.0_11	0.11	0.11	0.11	CD	NUMBER	0.11	0.11				
+22	6	fb:cell.0_15	0.15	0.15	0.15	CD	NUMBER	0.15	0.15				
+22	7	fb:cell.0_80	0.80	0.80	0.80	CD	NUMBER	0.8	0.8				
+22	8	fb:cell.null	-	-	-	:	O						
+22	9	fb:cell.0_31	0.31	0.31	0.31	CD	NUMBER	0.31	0.31				
+22	10	fb:cell.0_26	0.26	0.26	0.26	CD	NUMBER	0.26	0.26				
+23	0	fb:cell.vitamin_b6_mg	Vitamin B6 (mg)	vitamin|b6|-lrb-|mg|-rrb-	vitamin|b6|-lrb-|mg|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||	6.0			Vitamin B6 (mg)	fb:part.vitamin_b6_mg
+23	1	fb:cell.0_62	0.62	0.62	0.62	CD	NUMBER	0.62	0.62				
+23	2	fb:cell.0_16	0.16	0.16	0.16	CD	NUMBER	0.16	0.16				
+23	3	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+23	4	fb:cell.0_30	0.30	0.30	0.30	CD	NUMBER	0.3	0.3				
+23	5	fb:cell.0_09	0.09	0.09	0.09	CD	NUMBER	0.09	0.09				
+23	6	fb:cell.0_07	0.07	0.07	0.07	CD	NUMBER	0.07	0.07				
+23	7	fb:cell.0_21	0.21	0.21	0.21	CD	NUMBER	0.21	0.21				
+23	8	fb:cell.null	-	-	-	:	O						
+23	9	fb:cell.0_29	0.29	0.29	0.29	CD	NUMBER	0.29	0.29				
+23	10	fb:cell.0_30	0.30	0.30	0.30	CD	NUMBER	0.3	0.3				
+24	0	fb:cell.folate_total_g	Folate Total (μg)	folate|total|-lrb-|μg|-rrb-	Folate|Total|-lrb-|μg|-rrb-	NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Folate Total (μg)	fb:part.folate_total_g
+24	1	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+24	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+24	3	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+24	4	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+24	5	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+24	6	fb:cell.165	165	165	165	CD	NUMBER	165.0	165.0				
+24	7	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+24	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+24	9	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+24	10	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+25	0	fb:cell.vitamin_a_iu	Vitamin A (IU)	vitamin|a|-lrb-|iu|-rrb-	vitamin|a|-lrb-|iu|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Vitamin A (IU)	fb:part.vitamin_a_iu
+25	1	fb:cell.214	214	214	214	CD	NUMBER	214.0	214.0				
+25	2	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+25	3	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+25	4	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+25	5	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+25	6	fb:cell.180	180	180	180	CD	NUMBER	180.0	180.0				
+25	7	fb:cell.14187	14187	14187	14187	CD	NUMBER	14187.0	14187.0				
+25	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+25	9	fb:cell.138	138	138	138	CD	NUMBER	138.0	138.0				
+25	10	fb:cell.1127	1127	1127	1127	CD	DATE	1127	1127.0	1127-xx-xx			
+26	0	fb:cell.vitamin_e_alpha_tocopherol_mg	Vitamin E, alpha-tocopherol (mg)	vitamin|e|,|alpha|tocopherol|-lrb-|mg|-rrb-	vitamin|e|,|alpha|tocopherol|-lrb-|mg|-rrb-	NN|NN|,|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				Vitamin E|alpha-tocopherol (mg)	fb:part.vitamin_e|fb:part.alpha_tocopherol_mg
+26	1	fb:cell.0_49	0.49	0.49	0.49	CD	NUMBER	0.49	0.49				
+26	2	fb:cell.0_11	0.11	0.11	0.11	CD	NUMBER	0.11	0.11				
+26	3	fb:cell.1_01	1.01	1.01	1.01	CD	NUMBER	1.01	1.01				
+26	4	fb:cell.0_01	0.01	0.01	0.01	CD	NUMBER	0.01	0.01				
+26	5	fb:cell.0_19	0.19	0.19	0.19	CD	NUMBER	0.19	0.19				
+26	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+26	7	fb:cell.0_26	0.26	0.26	0.26	CD	NUMBER	0.26	0.26				
+26	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+26	9	fb:cell.0_39	0.39	0.39	0.39	CD	NUMBER	0.39	0.39				
+26	10	fb:cell.0_14	0.14	0.14	0.14	CD	NUMBER	0.14	0.14				
+27	0	fb:cell.vitamin_k1_g	Vitamin K1 (μg)	vitamin|k1|-lrb-|μg|-rrb-	vitamin|k1|-lrb-|μg|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||	1.0			Vitamin K1 (μg)	fb:part.vitamin_k1_g
+27	1	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+27	2	fb:cell.0_1	0.1	0.1	0.1	CD	NUMBER	0.1	0.1				
+27	3	fb:cell.1_9	1.9	1.9	1.9	CD	NUMBER	1.9	1.9				
+27	4	fb:cell.1_9	1.9	1.9	1.9	CD	NUMBER	1.9	1.9				
+27	5	fb:cell.1_9	1.9	1.9	1.9	CD	NUMBER	1.9	1.9				
+27	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+27	7	fb:cell.1_8	1.8	1.8	1.8	CD	NUMBER	1.8	1.8				
+27	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+27	9	fb:cell.2_6	2.6	2.6	2.6	CD	NUMBER	2.6	2.6				
+27	10	fb:cell.0_7	0.7	0.7	0.7	CD	NUMBER	0.7	0.7				
+28	0	fb:cell.beta_carotene_g	Beta-carotene (μg)	beta|carotene|-lrb-|μg|-rrb-	beta|carotene|-lrb-|μg|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Beta-carotene (μg)	fb:part.beta_carotene_g
+28	1	fb:cell.97	97	97	97	CD	NUMBER	97.0	97.0				
+28	2	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+28	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+28	4	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+28	5	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+28	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+28	7	fb:cell.8509	8509	8509	8509	CD	NUMBER	8509.0	8509.0				
+28	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+28	9	fb:cell.83	83	83	83	CD	NUMBER	83.0	83.0				
+28	10	fb:cell.457	457	457	457	CD	NUMBER	457.0	457.0				
+29	0	fb:cell.lutein_zeaxanthin_g	Lutein+zeaxanthin (μg)	lutein|+|zeaxanthin|-lrb-|μg|-rrb-	lutein|+|zeaxanthin|-lrb-|μg|-rrb-	NN|CC|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Lutein+zeaxanthin (μg)	fb:part.lutein_zeaxanthin_g
+29	1	fb:cell.1355	1355	1355	1355	CD	DATE	1355	1355.0	1355-xx-xx			
+29	2	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+29	3	fb:cell.220	220	220	220	CD	NUMBER	220.0	220.0				
+29	4	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+29	5	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+29	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+29	7	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+29	8	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+29	9	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+29	10	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+30	0	fb:cell.saturated_fatty_acids_g	Saturated fatty acids (g)	saturated|fatty|acids|-lrb-|g|-rrb-	saturated|fatty|acid|-lrb-|g|-rrb-	JJ|JJ|NNS|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Saturated fatty acids (g)	fb:part.saturated_fatty_acids_g
+30	1	fb:cell.0_67	0.67	0.67	0.67	CD	NUMBER	0.67	0.67				
+30	2	fb:cell.0_18	0.18	0.18	0.18	CD	NUMBER	0.18	0.18				
+30	3	fb:cell.0_26	0.26	0.26	0.26	CD	NUMBER	0.26	0.26				
+30	4	fb:cell.0_03	0.03	0.03	0.03	CD	NUMBER	0.03	0.03				
+30	5	fb:cell.0_07	0.07	0.07	0.07	CD	NUMBER	0.07	0.07				
+30	6	fb:cell.0_79	0.79	0.79	0.79	CD	NUMBER	0.79	0.79				
+30	7	fb:cell.0_02	0.02	0.02	0.02	CD	NUMBER	0.02	0.02				
+30	8	fb:cell.0_46	0.46	0.46	0.46	CD	NUMBER	0.46	0.46				
+30	9	fb:cell.0_04	0.04	0.04	0.04	CD	NUMBER	0.04	0.04				
+30	10	fb:cell.0_14	0.14	0.14	0.14	CD	NUMBER	0.14	0.14				
+31	0	fb:cell.monounsaturated_fatty_acids_g	Monounsaturated fatty acids (g)	monounsaturated|fatty|acids|-lrb-|g|-rrb-	Monounsaturated|fatty|acid|-lrb-|g|-rrb-	NNP|JJ|NNS|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Monounsaturated fatty acids (g)	fb:part.monounsaturated_fatty_acids_g
+31	1	fb:cell.1_25	1.25	1.25	1.25	CD	NUMBER	1.25	1.25				
+31	2	fb:cell.0_21	0.21	0.21	0.21	CD	NUMBER	0.21	0.21				
+31	3	fb:cell.0_2	0.2	0.2	0.2	CD	NUMBER	0.2	0.2				
+31	4	fb:cell.0_00	0.00	0.00	0.00	CD	NUMBER	0.0	0.0				
+31	5	fb:cell.0_08	0.08	0.08	0.08	CD	NUMBER	0.08	0.08				
+31	6	fb:cell.1_28	1.28	1.28	1.28	CD	NUMBER	1.28	1.28				
+31	7	fb:cell.0_00	0.00	0.00	0.00	CD	NUMBER	0.0	0.0				
+31	8	fb:cell.0_99	0.99	0.99	0.99	CD	NUMBER	0.99	0.99				
+31	9	fb:cell.0_01	0.01	0.01	0.01	CD	NUMBER	0.01	0.01				
+31	10	fb:cell.0_03	0.03	0.03	0.03	CD	NUMBER	0.03	0.03				
+32	0	fb:cell.polyunsaturated_fatty_acids_g	Polyunsaturated fatty acids (g)	polyunsaturated|fatty|acids|-lrb-|g|-rrb-	polyunsaturated|fatty|acid|-lrb-|g|-rrb-	JJ|JJ|NNS|-LRB-|NN|-RRB-	MISC|O|O|O|O|O	|||||				Polyunsaturated fatty acids (g)	fb:part.polyunsaturated_fatty_acids_g
+32	1	fb:cell.2_16	2.16	2.16	2.16	CD	NUMBER	2.16	2.16				
+32	2	fb:cell.0_18	0.18	0.18	0.18	CD	NUMBER	0.18	0.18				
+32	3	fb:cell.0_63	0.63	0.63	0.63	CD	NUMBER	0.63	0.63				
+32	4	fb:cell.0_04	0.04	0.04	0.04	CD	NUMBER	0.04	0.04				
+32	5	fb:cell.0_05	0.05	0.05	0.05	CD	NUMBER	0.05	0.05				
+32	6	fb:cell.3_20	3.20	3.20	3.20	CD	NUMBER	3.2	3.2				
+32	7	fb:cell.0_01	0.01	0.01	0.01	CD	NUMBER	0.01	0.01				
+32	8	fb:cell.1_37	1.37	1.37	1.37	CD	NUMBER	1.37	1.37				
+32	9	fb:cell.0_08	0.08	0.08	0.08	CD	NUMBER	0.08	0.08				
+32	10	fb:cell.0_07	0.07	0.07	0.07	CD	NUMBER	0.07	0.07				

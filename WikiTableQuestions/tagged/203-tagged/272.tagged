@@ -1,0 +1,79 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.title	Title	title	title	NN	O						
+-1	1	fb:row.row.release	Release	release	Release	NNP	O						
+-1	2	fb:row.row.consoles	Consoles	consoles	console	NNS	O						
+-1	3	fb:row.row.handheld	Handheld	handheld	handheld	JJ	O						
+-1	4	fb:row.row.pc	PC	pc	pc	NN	O						
+-1	5	fb:row.row.arcade	Arcade	arcade	arcade	NN	O						
+0	0	fb:cell.nfl_blitz	NFL Blitz	nfl|blitz	NFL|Blitz	NNP|NNP	ORGANIZATION|O	|					
+0	1	fb:cell.1997_1998	1997, 1998	1997|,|1998	1997|,|1998	CD|,|CD	DATE|DATE|DATE	1997|1997|1997	1.9971998E7	1997-xx-xx		1997|1998	fb:part.1997|fb:part.1998
+0	2	fb:cell.n64_ps	N64, PS	n64|,|ps	n64|,|PS	NN|,|NNP	O|O|O	||	64.0			N64|PS	fb:part.n64|fb:part.ps
+0	3	fb:cell.gbc	GBC	gbc	gbc	NN	O					GBC	fb:part.gbc
+0	4	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+0	5	fb:cell.arcade	Arcade	arcade	arcade	NN	O					Arcade	fb:part.arcade
+1	0	fb:cell.nfl_blitz_99	NFL Blitz '99	nfl|blitz|'|99	NFL|Blitz|'|99	NNP|NNP|POS|CD	ORGANIZATION|O|DATE|DATE	||XX99|XX99	99.0				
+1	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx		1998	fb:part.1998
+1	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+1	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+1	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+1	5	fb:cell.arcade	Arcade	arcade	arcade	NN	O					Arcade	fb:part.arcade
+2	0	fb:cell.nfl_blitz_2000	NFL Blitz 2000	nfl|blitz|2000	NFL|Blitz|2000	NNP|NNP|CD	ORGANIZATION|O|DATE	||2000	2000.0				
+2	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+2	2	fb:cell.n64_ps_dreamcast	N64, PS, Dreamcast	n64|,|ps|,|dreamcast	n64|,|PS|,|Dreamcast	NN|,|NNP|,|NNP	O|O|O|O|O	||||	64.0			N64|PS|Dreamcast	fb:part.n64|fb:part.ps|fb:part.dreamcast
+2	3	fb:cell.gbc	GBC	gbc	gbc	NN	O					GBC	fb:part.gbc
+2	4	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+2	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+3	0	fb:cell.nfl_blitz_2000_gold_edition	NFL Blitz 2000 Gold Edition	nfl|blitz|2000|gold|edition	NFL|Blitz|2000|Gold|Edition	NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|DATE|O|O	||2000||	2000.0				
+3	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+3	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+3	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+3	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+3	5	fb:cell.arcade	Arcade	arcade	arcade	NN	O					Arcade	fb:part.arcade
+4	0	fb:cell.nfl_blitz_2001	NFL Blitz 2001	nfl|blitz|2001	NFL|Blitz|2001	NNP|NNP|CD	ORGANIZATION|O|DATE	||2001	2001.0				
+4	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx		2000	fb:part.2000
+4	2	fb:cell.n64_ps_dreamcast	N64, PS, Dreamcast	n64|,|ps|,|dreamcast	n64|,|PS|,|Dreamcast	NN|,|NNP|,|NNP	O|O|O|O|O	||||	64.0			N64|PS|Dreamcast	fb:part.n64|fb:part.ps|fb:part.dreamcast
+4	3	fb:cell.gbc	GBC	gbc	gbc	NN	O					GBC	fb:part.gbc
+4	4	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+4	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+5	0	fb:cell.nfl_blitz_special_edition	NFL Blitz Special Edition	nfl|blitz|special|edition	NFL|Blitz|special|edition	NNP|NNP|JJ|NN	ORGANIZATION|O|O|O	|||					
+5	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx		2001	fb:part.2001
+5	2	fb:cell.n64	N64	n64	n64	NN	O		64.0			N64	fb:part.n64
+5	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+5	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+5	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+6	0	fb:cell.nfl_blitz_20_02	NFL Blitz 20-02	nfl|blitz|20-02	NFL|Blitz|20-02	NNP|NNP|CD	ORGANIZATION|O|NUMBER	||20.0 - 2.0	20.0		2.0		
+6	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx		2001	fb:part.2001
+6	2	fb:cell.ps2_xbox_ngc	PS2, Xbox, NGC	ps2|,|xbox|,|ngc	ps2|,|Xbox|,|NGC	NN|,|NNP|,|NNP	O|O|O|O|ORGANIZATION	||||	2.0			PS2|Xbox|NGC	fb:part.ps2|fb:part.xbox|fb:part.ngc
+6	3	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+6	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+6	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+7	0	fb:cell.nfl_blitz_20_03	NFL Blitz 20-03	nfl|blitz|20-03	NFL|Blitz|20-03	NNP|NNP|CD	ORGANIZATION|O|DATE	||******20/******03	20.0		3.0		
+7	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx		2002	fb:part.2002
+7	2	fb:cell.ps2_xbox_ngc	PS2, Xbox, NGC	ps2|,|xbox|,|ngc	ps2|,|Xbox|,|NGC	NN|,|NNP|,|NNP	O|O|O|O|ORGANIZATION	||||	2.0			PS2|Xbox|NGC	fb:part.ps2|fb:part.xbox|fb:part.ngc
+7	3	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+7	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+7	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+8	0	fb:cell.nfl_blitz_pro	NFL Blitz Pro	nfl|blitz|pro	NFL|Blitz|pro	NNP|NNP|FW	ORGANIZATION|O|O	||					
+8	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx		2003	fb:part.2003
+8	2	fb:cell.ps2_xbox_ngc	PS2, Xbox, NGC	ps2|,|xbox|,|ngc	ps2|,|Xbox|,|NGC	NN|,|NNP|,|NNP	O|O|O|O|ORGANIZATION	||||	2.0			PS2|Xbox|NGC	fb:part.ps2|fb:part.xbox|fb:part.ngc
+8	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+8	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+8	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+9	0	fb:cell.blitz_the_league	Blitz: The League	blitz|:|the|league	blitz|:|the|league	NN|:|DT|NN	O|O|O|MISC	|||					
+9	1	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx		2005	fb:part.2005
+9	2	fb:cell.ps2_xbox_ps3_xbox_360	PS2, Xbox, PS3, Xbox 360	ps2|,|xbox|,|ps3|,|xbox|360	ps2|,|Xbox|,|PS3|,|Xbox|360	NN|,|NNP|,|NNP|,|NNP|CD	O|O|O|O|O|O|O|NUMBER	|||||||360.0	2.0		3.0	PS2|Xbox|PS3|Xbox 360	fb:part.ps2|fb:part.xbox|fb:part.ps3|fb:part.xbox_360
+9	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+9	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+9	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+10	0	fb:cell.blitz_the_league_ii	Blitz: The League II	blitz|:|the|league|ii	blitz|:|the|League|II	NN|:|DT|NNP|NNP	O|O|O|MISC|MISC	||||					
+10	1	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx		2008	fb:part.2008
+10	2	fb:cell.ps3_xbox_360	PS3, Xbox 360	ps3|,|xbox|360	PS3|,|Xbox|360	NNP|,|NNP|CD	O|O|O|NUMBER	|||360.0	3.0		360.0	PS3|Xbox 360	fb:part.ps3|fb:part.xbox_360
+10	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+10	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+10	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+11	0	fb:cell.nfl_blitz	NFL Blitz	nfl|blitz	NFL|Blitz	NNP|NNP	ORGANIZATION|O	|					
+11	1	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx		2012	fb:part.2012
+11	2	fb:cell.ps3_xbox_360	PS3, Xbox 360	ps3|,|xbox|360	PS3|,|Xbox|360	NNP|,|NNP|CD	O|O|O|NUMBER	|||360.0	3.0		360.0	PS3|Xbox 360	fb:part.ps3|fb:part.xbox_360
+11	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+11	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+11	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a

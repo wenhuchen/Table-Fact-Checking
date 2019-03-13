@@ -1,0 +1,64 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.match	Match	match	Match	NNP	O						
+-1	1	fb:row.row.team	Team	team	Team	NNP	O						
+-1	2	fb:row.row.result_points	Result points	result|points	result|point	NN|NNS	O|O	|					
+-1	3	fb:row.row.match_status	Match status	match|status	Match|status	NNP|NN	O|O	|					
+-1	4	fb:row.row.opposition_strength	Opposition strength	opposition|strength	opposition|strength	NN|NN	O|O	|					
+-1	5	fb:row.row.regional_strength	Regional strength	regional|strength	Regional|strength	NNP|NN	O|O	|					
+-1	6	fb:row.row.ranking_points	Ranking points	ranking|points	ranking|point	JJ|NNS	O|O	|					
+0	0	fb:cell.amplistan_vs_bestrudia_friendly_result_1_2	Amplistan vs. Bestrudia (friendly)\nResult: 1–2	amplistan|vs.|bestrudia|-lrb-|friendly|-rrb-|result|:|1|--|2	Amplistan|vs.|Bestrudia|-lrb-|friendly|-rrb-|result|:|1|--|2	NNP|CC|NNP|-LRB-|JJ|-RRB-|NN|:|CD|:|CD	O|O|O|O|O|O|O|O|NUMBER|O|NUMBER	||||||||1.0||2.0				Amplistan vs. Bestrudia (friendly)|Result: 1–2	fb:part.amplistan_vs_bestrudia_friendly|fb:part.result_1_2
+0	1	fb:cell.amplistan_bestrudia	Amplistan\nBestrudia	amplistan|bestrudia	Amplistan|Bestrudia	NNP|NNP	PERSON|PERSON	|				Amplistan|Bestrudia	fb:part.amplistan|fb:part.bestrudia
+0	2	fb:cell.0_3	0\n3	0|3	0|3	CD|CD	NUMBER|NUMBER	0.0|0.0	0.0		3.0	0|3	fb:part.0|fb:part.3
+0	3	fb:cell.1_0_1_0	1.0\n1.0	1.0|1.0	1.0|1.0	CD|CD	NUMBER|NUMBER	1.0|1.0	1.0		1.0	1.0|1.0	fb:part.1_0|fb:part.1_0
+0	4	fb:cell.0_50_1_98	0.50\n1.98	0.50|1.98	0.50|1.98	CD|CD	NUMBER|NUMBER	0.5|0.5	0.5		1.98	0.50|1.98	fb:part.0_50|fb:part.1_98
+0	5	fb:cell.0_94_0_94	0.94\n0.94	0.94|0.94	0.94|0.94	CD|CD	NUMBER|NUMBER	0.94|0.94	0.94		0.94	0.94|0.94	fb:part.0_94|fb:part.0_94
+0	6	fb:cell.0_558	0\n558	0|558	0|558	CD|CD	NUMBER|NUMBER	0.0|0.0	0.0		558.0	0|558	fb:part.0|fb:part.558
+1	0	fb:cell.amplistan_vs_bestrudia_friendly_result_1_1	Amplistan vs. Bestrudia (friendly)\nResult: 1–1	amplistan|vs.|bestrudia|-lrb-|friendly|-rrb-|result|:|1|--|1	Amplistan|vs.|Bestrudia|-lrb-|friendly|-rrb-|result|:|1|--|1	NNP|CC|NNP|-LRB-|JJ|-RRB-|NN|:|CD|:|CD	O|O|O|O|O|O|O|O|NUMBER|O|NUMBER	||||||||1.0||1.0				Amplistan vs. Bestrudia (friendly)|Result: 1–1	fb:part.amplistan_vs_bestrudia_friendly|fb:part.result_1_1
+1	1	fb:cell.amplistan_bestrudia	Amplistan\nBestrudia	amplistan|bestrudia	Amplistan|Bestrudia	NNP|NNP	PERSON|PERSON	|				Amplistan|Bestrudia	fb:part.amplistan|fb:part.bestrudia
+1	2	fb:cell.1_1	1\n1	1|1	1|1	CD|CD	NUMBER|NUMBER	1.0|1.0	1.0		1.0	1|1	fb:part.1|fb:part.1
+1	3	fb:cell.1_0_1_0	1.0\n1.0	1.0|1.0	1.0|1.0	CD|CD	NUMBER|NUMBER	1.0|1.0	1.0		1.0	1.0|1.0	fb:part.1_0|fb:part.1_0
+1	4	fb:cell.0_50_1_98	0.50\n1.98	0.50|1.98	0.50|1.98	CD|CD	NUMBER|NUMBER	0.5|0.5	0.5		1.98	0.50|1.98	fb:part.0_50|fb:part.1_98
+1	5	fb:cell.0_94_0_94	0.94\n0.94	0.94|0.94	0.94|0.94	CD|CD	NUMBER|NUMBER	0.94|0.94	0.94		0.94	0.94|0.94	fb:part.0_94|fb:part.0_94
+1	6	fb:cell.47_186	47\n186	47|186	47|186	CD|CD	NUMBER|NUMBER	47.0|47.0	47.0		186.0	47|186	fb:part.47|fb:part.186
+2	0	fb:cell.amplistan_vs_bestrudia_world_cup_finals_result_2_1	Amplistan vs. Bestrudia (World Cup finals)\nResult: 2–1	amplistan|vs.|bestrudia|-lrb-|world|cup|finals|-rrb-|result|:|2|--|1	Amplistan|vs.|Bestrudia|-lrb-|World|Cup|final|-rrb-|result|:|2|--|1	NNP|CC|NNP|-LRB-|NNP|NNP|NNS|-RRB-|NN|:|CD|:|CD	LOCATION|O|O|O|MISC|MISC|O|O|O|O|NUMBER|O|NUMBER	||||||||||2.0||1.0				Amplistan vs. Bestrudia (World Cup finals)|Result: 2–1	fb:part.amplistan_vs_bestrudia_world_cup_finals|fb:part.result_2_1
+2	1	fb:cell.amplistan_bestrudia	Amplistan\nBestrudia	amplistan|bestrudia	Amplistan|Bestrudia	NNP|NNP	PERSON|PERSON	|				Amplistan|Bestrudia	fb:part.amplistan|fb:part.bestrudia
+2	2	fb:cell.3_0	3\n0	3|0	3|0	CD|CD	NUMBER|NUMBER	3.0|3.0	3.0		0.0	3|0	fb:part.3|fb:part.0
+2	3	fb:cell.4_0_4_0	4.0\n4.0	4.0|4.0	4.0|4.0	CD|CD	NUMBER|NUMBER	4.0|4.0	4.0		4.0	4.0|4.0	fb:part.4_0|fb:part.4_0
+2	4	fb:cell.0_50_1_98	0.50\n1.98	0.50|1.98	0.50|1.98	CD|CD	NUMBER|NUMBER	0.5|0.5	0.5		1.98	0.50|1.98	fb:part.0_50|fb:part.1_98
+2	5	fb:cell.0_94_0_94	0.94\n0.94	0.94|0.94	0.94|0.94	CD|CD	NUMBER|NUMBER	0.94|0.94	0.94		0.94	0.94|0.94	fb:part.0_94|fb:part.0_94
+2	6	fb:cell.564_0	564\n0	564|0	564|0	CD|CD	NUMBER|NUMBER	564.0|564.0	564.0		0.0	564|0	fb:part.564|fb:part.0
+3	0	fb:cell.amplistan_vs_bestrudia_world_cup_finals_result_1_1_bestrudia_wins_on_penalties	Amplistan vs. Bestrudia (World Cup finals)\nResult: 1–1 (Bestrudia wins on penalties)	amplistan|vs.|bestrudia|-lrb-|world|cup|finals|-rrb-|result|:|1|--|1|-lrb-|bestrudia|wins|on|penalties|-rrb-	Amplistan|vs.|Bestrudia|-lrb-|World|Cup|final|-rrb-|result|:|1|--|1|-lrb-|Bestrudia|win|on|penalty|-rrb-	NNP|CC|NNP|-LRB-|NNP|NNP|NNS|-RRB-|NN|:|CD|:|CD|-LRB-|NNP|VBZ|IN|NNS|-RRB-	LOCATION|O|O|O|MISC|MISC|O|O|O|O|NUMBER|O|NUMBER|O|ORGANIZATION|O|O|O|O	||||||||||1.0||1.0||||||				Amplistan vs. Bestrudia (World Cup finals)|Result: 1–1 (Bestrudia wins on penalties)	fb:part.amplistan_vs_bestrudia_world_cup_finals|fb:part.result_1_1_bestrudia_wins_on_penalties
+3	1	fb:cell.amplistan_bestrudia	Amplistan\nBestrudia	amplistan|bestrudia	Amplistan|Bestrudia	NNP|NNP	PERSON|PERSON	|				Amplistan|Bestrudia	fb:part.amplistan|fb:part.bestrudia
+3	2	fb:cell.1_2	1\n2	1|2	1|2	CD|CD	NUMBER|NUMBER	1.0|1.0	1.0		2.0	1|2	fb:part.1|fb:part.2
+3	3	fb:cell.4_0_4_0	4.0\n4.0	4.0|4.0	4.0|4.0	CD|CD	NUMBER|NUMBER	4.0|4.0	4.0		4.0	4.0|4.0	fb:part.4_0|fb:part.4_0
+3	4	fb:cell.0_50_1_98	0.50\n1.98	0.50|1.98	0.50|1.98	CD|CD	NUMBER|NUMBER	0.5|0.5	0.5		1.98	0.50|1.98	fb:part.0_50|fb:part.1_98
+3	5	fb:cell.0_94_0_94	0.94\n0.94	0.94|0.94	0.94|0.94	CD|CD	NUMBER|NUMBER	0.94|0.94	0.94		0.94	0.94|0.94	fb:part.0_94|fb:part.0_94
+3	6	fb:cell.188_1488	188\n1488	188|1488	188|1488	CD|CD	NUMBER|DATE	188.0|1488	188.0		1488.0	188|1488	fb:part.188|fb:part.1488
+4	0	fb:cell.amplistan_vs_conesto_friendly_result_1_2	Amplistan vs. Conesto (friendly)\nResult: 1–2	amplistan|vs.|conesto|-lrb-|friendly|-rrb-|result|:|1|--|2	Amplistan|vs.|Conesto|-lrb-|friendly|-rrb-|result|:|1|--|2	NNP|CC|NNP|-LRB-|JJ|-RRB-|NN|:|CD|:|CD	O|O|O|O|O|O|O|O|NUMBER|O|NUMBER	||||||||1.0||2.0				Amplistan vs. Conesto (friendly)|Result: 1–2	fb:part.amplistan_vs_conesto_friendly|fb:part.result_1_2
+4	1	fb:cell.amplistan_conesto	Amplistan\nConesto	amplistan|conesto	Amplistan|Conesto	NNP|NNP	MISC|MISC	|				Amplistan|Conesto	fb:part.amplistan|fb:part.conesto
+4	2	fb:cell.0_3	0\n3	0|3	0|3	CD|CD	NUMBER|NUMBER	0.0|0.0	0.0		3.0	0|3	fb:part.0|fb:part.3
+4	3	fb:cell.1_0_1_0	1.0\n1.0	1.0|1.0	1.0|1.0	CD|CD	NUMBER|NUMBER	1.0|1.0	1.0		1.0	1.0|1.0	fb:part.1_0|fb:part.1_0
+4	4	fb:cell.1_61_1_98	1.61\n1.98	1.61|1.98	1.61|1.98	CD|CD	NUMBER|NUMBER	1.61|1.61	1.61		1.98	1.61|1.98	fb:part.1_61|fb:part.1_98
+4	5	fb:cell.0_99_0_99	0.99\n0.99	0.99|0.99	0.99|0.99	CD|CD	NUMBER|NUMBER	0.99|0.99	0.99		0.99	0.99|0.99	fb:part.0_99|fb:part.0_99
+4	6	fb:cell.0_588	0\n588	0|588	0|588	CD|CD	NUMBER|NUMBER	0.0|0.0	0.0		588.0	0|588	fb:part.0|fb:part.588
+5	0	fb:cell.conesto_vs_delphiz_continental_cup_qualifiers_result_4_0	Conesto vs. Delphiz (Continental cup qualifiers)\nResult: 4–0	conesto|vs.|delphiz|-lrb-|continental|cup|qualifiers|-rrb-|result|:|4|--|0	Conesto|vs.|Delphiz|-lrb-|Continental|cup|qualifier|-rrb-|result|:|4|--|0	NNP|FW|NNP|-LRB-|NNP|NN|NNS|-RRB-|NN|:|CD|:|CD	O|O|PERSON|O|ORGANIZATION|O|O|O|O|O|NUMBER|O|NUMBER	||||||||||4.0||0.0				Conesto vs. Delphiz (Continental cup qualifiers)|Result: 4–0	fb:part.conesto_vs_delphiz_continental_cup_qualifiers|fb:part.result_4_0
+5	1	fb:cell.conesto_delphiz	Conesto\nDelphiz	conesto|delphiz	Conesto|Delphiz	NNP|NNP	O|O	|				Conesto|Delphiz	fb:part.conesto|fb:part.delphiz
+5	2	fb:cell.3_0	3\n0	3|0	3|0	CD|CD	NUMBER|NUMBER	3.0|3.0	3.0		0.0	3|0	fb:part.3|fb:part.0
+5	3	fb:cell.2_5_2_5	2.5\n2.5	2.5|2.5	2.5|2.5	CD|CD	NUMBER|NUMBER	2.5|2.5	2.5		2.5	2.5|2.5	fb:part.2_5|fb:part.2_5
+5	4	fb:cell.1_70_1_61	1.70\n1.61	1.70|1.61	1.70|1.61	CD|CD	NUMBER|NUMBER	1.7|1.7	1.7		1.61	1.70|1.61	fb:part.1_70|fb:part.1_61
+5	5	fb:cell.0_96_0_96	0.96\n0.96	0.96|0.96	0.96|0.96	CD|CD	NUMBER|NUMBER	0.96|0.96	0.96		0.96	0.96|0.96	fb:part.0_96|fb:part.0_96
+5	6	fb:cell.1224_0	1224\n0	1224|0	1224|0	CD|CD	DATE|NUMBER	1224|0.0	1224.0		0.0	1224|0	fb:part.1224|fb:part.0
+6	0	fb:cell.conesto_vs_delphiz_continental_cup_qualifiers_result_0_1	Conesto vs. Delphiz (Continental cup qualifiers)\nResult: 0–1	conesto|vs.|delphiz|-lrb-|continental|cup|qualifiers|-rrb-|result|:|0|--|1	Conesto|vs.|Delphiz|-lrb-|Continental|cup|qualifier|-rrb-|result|:|0|--|1	NNP|FW|NNP|-LRB-|NNP|NN|NNS|-RRB-|NN|:|CD|:|CD	O|O|PERSON|O|ORGANIZATION|O|O|O|O|O|NUMBER|O|NUMBER	||||||||||0.0||1.0				Conesto vs. Delphiz (Continental cup qualifiers)|Result: 0–1	fb:part.conesto_vs_delphiz_continental_cup_qualifiers|fb:part.result_0_1
+6	1	fb:cell.conesto_delphiz	Conesto\nDelphiz	conesto|delphiz	Conesto|Delphiz	NNP|NNP	O|O	|				Conesto|Delphiz	fb:part.conesto|fb:part.delphiz
+6	2	fb:cell.0_3	0\n3	0|3	0|3	CD|CD	NUMBER|NUMBER	0.0|0.0	0.0		3.0	0|3	fb:part.0|fb:part.3
+6	3	fb:cell.2_5_2_5	2.5\n2.5	2.5|2.5	2.5|2.5	CD|CD	NUMBER|NUMBER	2.5|2.5	2.5		2.5	2.5|2.5	fb:part.2_5|fb:part.2_5
+6	4	fb:cell.1_70_1_61	1.70\n1.61	1.70|1.61	1.70|1.61	CD|CD	NUMBER|NUMBER	1.7|1.7	1.7		1.61	1.70|1.61	fb:part.1_70|fb:part.1_61
+6	5	fb:cell.0_96_0_96	0.96\n0.96	0.96|0.96	0.96|0.96	CD|CD	NUMBER|NUMBER	0.96|0.96	0.96		0.96	0.96|0.96	fb:part.0_96|fb:part.0_96
+6	6	fb:cell.0_1159	0\n1159	0|1159	0|1159	CD|CD	NUMBER|DATE	0.0|1159	0.0		1159.0	0|1159	fb:part.0|fb:part.1159
+7	0	fb:cell.conesto_vs_amplistan_world_cup_finals_result_0_0_amplistan_wins_on_penalties	Conesto vs. Amplistan (World Cup finals)\nResult: 0–0 (Amplistan wins on penalties)	conesto|vs.|amplistan|-lrb-|world|cup|finals|-rrb-|result|:|0|--|0|-lrb-|amplistan|wins|on|penalties|-rrb-	Conesto|vs.|Amplistan|-lrb-|World|Cup|final|-rrb-|result|:|0|--|0|-lrb-|Amplistan|win|on|penalty|-rrb-	NNP|FW|NNP|-LRB-|NNP|NNP|NNS|-RRB-|NN|:|CD|:|CD|-LRB-|NNP|VBZ|IN|NNS|-RRB-	O|O|O|O|MISC|MISC|O|O|O|O|NUMBER|O|NUMBER|O|ORGANIZATION|O|O|O|O	||||||||||0.0||0.0||||||				Conesto vs. Amplistan (World Cup finals)|Result: 0–0 (Amplistan wins on penalties)	fb:part.conesto_vs_amplistan_world_cup_finals|fb:part.result_0_0_amplistan_wins_on_penalties
+7	1	fb:cell.conesto_amplistan	Conesto\nAmplistan	conesto|amplistan	Conesto|Amplistan	NNP|NNP	MISC|MISC	|				Conesto|Amplistan	fb:part.conesto|fb:part.amplistan
+7	2	fb:cell.1_2	1\n2	1|2	1|2	CD|CD	NUMBER|NUMBER	1.0|1.0	1.0		2.0	1|2	fb:part.1|fb:part.2
+7	3	fb:cell.4_0_4_0	4.0\n4.0	4.0|4.0	4.0|4.0	CD|CD	NUMBER|NUMBER	4.0|4.0	4.0		4.0	4.0|4.0	fb:part.4_0|fb:part.4_0
+7	4	fb:cell.1_98_1_61	1.98\n1.61	1.98|1.61	1.98|1.61	CD|CD	NUMBER|NUMBER	1.98|1.98	1.98		1.61	1.98|1.61	fb:part.1_98|fb:part.1_61
+7	5	fb:cell.0_99_0_99	0.99\n0.99	0.99|0.99	0.99|0.99	CD|CD	NUMBER|NUMBER	0.99|0.99	0.99		0.99	0.99|0.99	fb:part.0_99|fb:part.0_99
+7	6	fb:cell.784_1275	784\n1275	784|1275	784|1275	CD|CD	NUMBER|DATE	784.0|1275	784.0		1275.0	784|1275	fb:part.784|fb:part.1275

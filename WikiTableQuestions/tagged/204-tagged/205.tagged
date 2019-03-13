@@ -1,0 +1,211 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.class	Class	class	class	NN	O						
+-1	1	fb:row.row.no	No	no	no	DT	O						
+-1	2	fb:row.row.team	Team	team	Team	NNP	O						
+-1	3	fb:row.row.drivers	Drivers	drivers	driver	NNS	O						
+-1	4	fb:row.row.chassis	Chassis	chassis	chassis	NN	O						
+-1	5	fb:row.row.engine	Engine	engine	Engine	NNP	O						
+-1	6	fb:row.row.laps	Laps	laps	laps	IN	O						
+0	0	fb:cell.s_1_6	S\n1.6	s|1.6	s|1.6	NN|CD	O|NUMBER	|1.6	1.6			S|1.6	fb:part.s|fb:part.1_6
+0	1	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+0	2	fb:cell.silvestre_semilia	Silvestre Semilia	silvestre|semilia	Silvestre|Semilia	NNP|NNP	PERSON|PERSON	|					
+0	3	fb:cell.silvestre_semilia_giuseppe_crescenti	Silvestre Semilia\n Giuseppe Crescenti	silvestre|semilia|giuseppe|crescenti	Silvestre|Semilia|Giuseppe|Crescenti	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Silvestre Semilia|Giuseppe Crescenti	fb:part.silvestre_semilia|fb:part.giuseppe_crescenti
+0	4	fb:cell.alfa_romeo_giulia_spider	Alfa Romeo Giulia Spider	alfa|romeo|giulia|spider	Alfa|Romeo|Giulia|Spider	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Alfa Romeo Giulia Spider	fb:part.alfa_romeo_giulia_spider
+0	5	fb:cell.alfa_romeo_1_6_i4	Alfa Romeo 1.6 I4	alfa|romeo|1.6|i4	Alfa|Romeo|1.6|i4	NNP|NNP|CD|NN	O|O|NUMBER|O	||1.6|	1.6		4.0		
+0	6	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+1	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+1	1	fb:cell.186	186	186	186	CD	NUMBER	186.0	186.0				
+1	2	fb:cell.luigi_rinaldi	Luigi Rinaldi	luigi|rinaldi	Luigi|Rinaldi	NNP|NNP	PERSON|PERSON	|					
+1	3	fb:cell.luigi_rinaldi_mario_radicella	Luigi Rinaldi\n Mario Radicella	luigi|rinaldi|mario|radicella	Luigi|Rinaldi|Mario|Radicella	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Luigi Rinaldi|Mario Radicella	fb:part.luigi_rinaldi|fb:part.mario_radicella
+1	4	fb:cell.alfa_romeo_gta	Alfa Romeo GTA	alfa|romeo|gta	Alfa|Romeo|GTA	NNP|NNP|NNP	PERSON|PERSON|O	||				Alfa Romeo GTA	fb:part.alfa_romeo_gta
+1	5	fb:cell.alfa_romeo_1_6_i4	Alfa Romeo 1.6 I4	alfa|romeo|1.6|i4	Alfa|Romeo|1.6|i4	NNP|NNP|CD|NN	O|O|NUMBER|O	||1.6|	1.6		4.0		
+1	6	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+2	0	fb:cell.p_3_0	P\n3.0	p|3.0	p|3.0	NN|CD	O|NUMBER	|3.0	3.0			P|3.0	fb:part.p|fb:part.3_0
+2	1	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+2	2	fb:cell.autodelta_spa	Autodelta SpA	autodelta|spa	Autodelta|SpA	NNP|NNP	O|O	|					
+2	3	fb:cell.toine_hezemans_masten_gregory	Toine Hezemans\n Masten Gregory	toine|hezemans|masten|gregory	Toine|Hezemans|Masten|Gregory	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Toine Hezemans|Masten Gregory	fb:part.toine_hezemans|fb:part.masten_gregory
+2	4	fb:cell.alfa_romeo_t33_3	Alfa Romeo T33/3	alfa|romeo|t33\\/3	Alfa|Romeo|t33\\/3	NNP|NNP|NN	PERSON|PERSON|O	||	33.0		3.0	Alfa Romeo T33|3	fb:part.alfa_romeo_t33|fb:part.3
+2	5	fb:cell.alfa_romeo_3_0l_v8	Alfa Romeo 3.0L V8	alfa|romeo|3.0|l|v8	Alfa|Romeo|3.0|l|v8	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||3.0||	3.0		8.0		
+2	6	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+3	0	fb:cell.p_2_0	P\n2.0	p|2.0	p|2.0	NN|CD	O|NUMBER	|2.0	2.0			P|2.0	fb:part.p|fb:part.2_0
+3	1	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+3	2	fb:cell.etna	Etna	etna	etna	NN	PERSON						
+3	3	fb:cell._peter_von_serzawa_santo_scigliano	"Peter von Serzawa"\n Santo Scigliano	``|peter|von|serzawa|''|santo|scigliano	``|Peter|von|Serzawa|''|Santo|Scigliano	``|NNP|NNP|NNP|''|NNP|NNP	O|PERSON|PERSON|PERSON|O|PERSON|PERSON	||||||				"Peter von Serzawa"|Santo Scigliano	fb:part._peter_von_serzawa|fb:part.santo_scigliano
+3	4	fb:cell.fiat_124_spider	Fiat 124 Spider	fiat|124|spider	Fiat|124|Spider	NNP|CD|NNP	O|NUMBER|O	|124.0|	124.0			Fiat 124 Spider	fb:part.fiat_124_spider
+3	5	fb:cell.fiat_2_0l_i4	Fiat 2.0L I4	fiat|2.0|l|i4	Fiat|2.0|l|i4	NNP|CD|NN|NN	O|NUMBER|O|O	|2.0||	2.0		4.0		
+3	6	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+4	1	fb:cell.188	188	188	188	CD	NUMBER	188.0	188.0				
+4	2	fb:cell.etna	Etna	etna	etna	NN	PERSON						
+4	3	fb:cell.checco_d_angelo_jimmy	Checco D'Angelo\n "Jimmy"	checco|d'angelo|``|jimmy|''	Checco|D'Angelo|``|Jimmy|''	NNP|NNP|``|NNP|''	PERSON|PERSON|O|O|O	||||				Checco D'Angelo|"Jimmy"	fb:part.checco_d_angelo|fb:part._jimmy
+4	4	fb:cell.alfa_romeo_gta	Alfa Romeo GTA	alfa|romeo|gta	Alfa|Romeo|GTA	NNP|NNP|NNP	PERSON|PERSON|O	||				Alfa Romeo GTA	fb:part.alfa_romeo_gta
+4	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+4	6	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+5	0	fb:cell.gt_1_3	GT\n1.3	gt|1.3	gt|1.3	NN|CD	O|NUMBER	|1.3	1.3			GT|1.3	fb:part.gt|fb:part.1_3
+5	1	fb:cell.288	288	288	288	CD	NUMBER	288.0	288.0				
+5	2	fb:cell.v10_kleber	V10 Kleber	v10|kleber	V10|Kleber	NNP|NNP	O|O	|	10.0				
+5	3	fb:cell.ferdi_bokmann_hans_e_bohm	Ferdi Bökmann\n Hans E. Böhm	ferdi|bökmann|hans|e.|böhm	Ferdi|Bökmann|Hans|E.|Böhm	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Ferdi Bökmann|Hans E. Böhm	fb:part.ferdi_bokmann|fb:part.hans_e_bohm
+5	4	fb:cell.simca_1300	Simca 1300	simca|1300	Simca|1300	NNP|CD	O|DATE	|1300	1300.0			Simca 1300	fb:part.simca_1300
+5	5	fb:cell.simca_1_3l_i4	Simca 1.3L I4	simca|1.3|l|i4	Simca|1.3|l|i4	NNP|CD|NN|NN	O|NUMBER|O|O	|1.3||	1.3		4.0		
+5	6	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+6	0	fb:cell.gt_2_0	GT\n2.0	gt|2.0	gt|2.0	NN|CD	O|NUMBER	|2.0	2.0			GT|2.0	fb:part.gt|fb:part.2_0
+6	1	fb:cell.128	128	128	128	CD	NUMBER	128.0	128.0				
+6	2	fb:cell.null											
+6	3	fb:cell.ignazio_capuano_giancarlo_barba	Ignazio Capuano\n Giancarlo Barba	ignazio|capuano|giancarlo|barba	Ignazio|Capuano|Giancarlo|Barba	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ignazio Capuano|Giancarlo Barba	fb:part.ignazio_capuano|fb:part.giancarlo_barba
+6	4	fb:cell.porsche_911s	Porsche 911S	porsche|911s	Porsche|911	NNP|NN	O|O	|	911.0			Porsche 911S	fb:part.porsche_911s
+6	5	fb:cell.porsche_2_0l_flat_6	Porsche 2.0L Flat-6	porsche|2.0|l|flat-6	Porsche|2.0|l|flat-6	NNP|CD|NN|NN	O|NUMBER|O|O	|2.0||	2.0		6.0		
+6	6	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+7	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+7	1	fb:cell.180	180	180	180	CD	NUMBER	180.0	180.0				
+7	2	fb:cell.scuderia_pegaso	Scuderia Pegaso	scuderia|pegaso	Scuderia|Pegaso	NNP|NNP	LOCATION|LOCATION	|					
+7	3	fb:cell.paolo_de_luca_giuseppe_vassallo	Paolo de Luca\n Giuseppe Vassallo	paolo|de|luca|giuseppe|vassallo	Paolo|de|Luca|Giuseppe|Vassallo	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Paolo de Luca|Giuseppe Vassallo	fb:part.paolo_de_luca|fb:part.giuseppe_vassallo
+7	4	fb:cell.alfa_romeo_gta	Alfa Romeo GTA	alfa|romeo|gta	Alfa|Romeo|GTA	NNP|NNP|NNP	PERSON|PERSON|O	||				Alfa Romeo GTA	fb:part.alfa_romeo_gta
+7	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+7	6	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+8	0	fb:cell.s_1_6	S\n1.6	s|1.6	s|1.6	NN|CD	O|NUMBER	|1.6	1.6			S|1.6	fb:part.s|fb:part.1_6
+8	1	fb:cell.156	156	156	156	CD	NUMBER	156.0	156.0				
+8	2	fb:cell.scuderia_pegaso	Scuderia Pegaso	scuderia|pegaso	Scuderia|Pegaso	NNP|NNP	LOCATION|LOCATION	|					
+8	3	fb:cell.salvatore_barraco_amphicar	Salvatore Barraco\n "Amphicar"	salvatore|barraco|``|amphicar|''	Salvatore|Barraco|``|Amphicar|''	NNP|NNP|``|NNP|''	PERSON|PERSON|O|O|O	||||				Salvatore Barraco|"Amphicar"	fb:part.salvatore_barraco|fb:part._amphicar
+8	4	fb:cell.alfa_romeo_giulia_tz	Alfa Romeo Giulia TZ	alfa|romeo|giulia|tz	Alfa|Romeo|Giulia|TZ	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O	|||				Alfa Romeo Giulia TZ	fb:part.alfa_romeo_giulia_tz
+8	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+8	6	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+9	0	fb:cell.s_1_6	S\n1.6	s|1.6	s|1.6	NN|CD	O|NUMBER	|1.6	1.6			S|1.6	fb:part.s|fb:part.1_6
+9	1	fb:cell.156	156	156	156	CD	NUMBER	156.0	156.0				
+9	2	fb:cell.etna	Etna	etna	etna	NN	PERSON						
+9	3	fb:cell.giuseppe_d_amico_girolamo_perniciaro	Giuseppe D'Amico\n Girolamo Perniciaro	giuseppe|d'amico|girolamo|perniciaro	Giuseppe|D'Amico|Girolamo|Perniciaro	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Giuseppe D'Amico|Girolamo Perniciaro	fb:part.giuseppe_d_amico|fb:part.girolamo_perniciaro
+9	4	fb:cell.alfa_romeo_giulia_tz	Alfa Romeo Giulia TZ	alfa|romeo|giulia|tz	Alfa|Romeo|Giulia|TZ	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O	|||				Alfa Romeo Giulia TZ	fb:part.alfa_romeo_giulia_tz
+9	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+9	6	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+10	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+10	1	fb:cell.192	192	192	192	CD	NUMBER	192.0	192.0				
+10	2	fb:cell.scuderia_pegaso	Scuderia Pegaso	scuderia|pegaso	Scuderia|Pegaso	NNP|NNP	LOCATION|LOCATION	|					
+10	3	fb:cell.giovanni_dell_olio_vincenzo_virgilio	Giovanni Dell'Olio\n Vincenzo Virgilio	giovanni|dell|`|olio|vincenzo|virgilio	Giovanni|Dell|`|Olio|Vincenzo|Virgilio	NNP|NNP|``|NNP|NNP|NNP	PERSON|PERSON|O|O|PERSON|PERSON	|||||				Giovanni Dell'Olio|Vincenzo Virgilio	fb:part.giovanni_dell_olio|fb:part.vincenzo_virgilio
+10	4	fb:cell.alfa_romeo_gta	Alfa Romeo GTA	alfa|romeo|gta	Alfa|Romeo|GTA	NNP|NNP|NNP	PERSON|PERSON|O	||				Alfa Romeo GTA	fb:part.alfa_romeo_gta
+10	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+10	6	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+11	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+11	1	fb:cell.198	198	198	198	CD	NUMBER	198.0	198.0				
+11	2	fb:cell.salvatore_gagliano	Salvatore Gagliano	salvatore|gagliano	Salvatore|Gagliano	NNP|NNP	PERSON|PERSON	|					
+11	3	fb:cell.salvatore_gagliano_alfonso_di_garbo	Salvatore Gagliano\n Alfonso di Garbo	salvatore|gagliano|alfonso|di|garbo	Salvatore|Gagliano|Alfonso|di|Garbo	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON	||||				Salvatore Gagliano|Alfonso di Garbo	fb:part.salvatore_gagliano|fb:part.alfonso_di_garbo
+11	4	fb:cell.alfa_romeo_gta	Alfa Romeo GTA	alfa|romeo|gta	Alfa|Romeo|GTA	NNP|NNP|NNP	PERSON|PERSON|O	||				Alfa Romeo GTA	fb:part.alfa_romeo_gta
+11	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+11	6	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+12	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+12	1	fb:cell.204	204	204	204	CD	NUMBER	204.0	204.0				
+12	2	fb:cell.gianluigi_verna	Gianluigi Verna	gianluigi|verna	Gianluigi|Verna	NNP|NNP	PERSON|PERSON	|					
+12	3	fb:cell.francesco_cosentino_gianluigi_verna	Francesco Cosentino\n Gianluigi Verna	francesco|cosentino|gianluigi|verna	Francesco|Cosentino|Gianluigi|Verna	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Francesco Cosentino|Gianluigi Verna	fb:part.francesco_cosentino|fb:part.gianluigi_verna
+12	4	fb:cell.alfa_romeo_gta	Alfa Romeo GTA	alfa|romeo|gta	Alfa|Romeo|GTA	NNP|NNP|NNP	PERSON|PERSON|O	||				Alfa Romeo GTA	fb:part.alfa_romeo_gta
+12	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+12	6	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+13	0	fb:cell.p_1_0	P\n1.0	p|1.0	p|1.0	NN|CD	O|NUMBER	|1.0	1.0			P|1.0	fb:part.p|fb:part.1_0
+13	1	fb:cell.254	254	254	254	CD	NUMBER	254.0	254.0				
+13	2	fb:cell.romano_martini	Romano Martini	romano|martini	Romano|Martini	NNP|NNP	PERSON|PERSON	|					
+13	3	fb:cell.francesco_patane_oras	Francesco Patané\n "Oras"	francesco|patané|``|oras|''	Francesco|Patané|``|Oras|''	NNP|NNP|``|NNP|''	PERSON|PERSON|O|O|O	||||				Francesco Patané|"Oras"	fb:part.francesco_patane|fb:part._oras
+13	4	fb:cell.fiat_abarth_1000sp	Fiat-Abarth 1000SP	fiat|abarth|1000sp	Fiat|Abarth|1000sp	NNP|NNP|NN	O|O|O	||	1000.0			Fiat-Abarth 1000SP	fb:part.fiat_abarth_1000sp
+13	5	fb:cell.abarth_1_0l_i4	Abarth 1.0L I4	abarth|1.0|l|i4	abarth|1.0|l|i4	JJ|CD|NN|NN	O|NUMBER|O|O	|1.0||	1.0		4.0		
+13	6	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+14	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+14	1	fb:cell.264	264	264	264	CD	NUMBER	264.0	264.0				
+14	2	fb:cell.romano_martini	Romano Martini	romano|martini	Romano|Martini	NNP|NNP	PERSON|PERSON	|					
+14	3	fb:cell.romano_martini_alessandro_federico	Romano Martini\n Alessandro Federico	romano|martini|alessandro|federico	Romano|Martini|Alessandro|Federico	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Romano Martini|Alessandro Federico	fb:part.romano_martini|fb:part.alessandro_federico
+14	4	fb:cell.ats_1000_sp	ATS 1000 SP	ats|1000|sp	at|1000|sp	NNS|CD|NN	O|DATE|O	|1000|	1000.0			ATS 1000 SP	fb:part.ats_1000_sp
+14	5	fb:cell.ford_1_0l_i4	Ford 1.0L I4	ford|1.0|l|i4	Ford|1.0|l|i4	NNP|CD|NN|NN	O|NUMBER|O|O	|1.0||	1.0		4.0		
+14	6	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+15	0	fb:cell.p_3_0	P\n3.0	p|3.0	p|3.0	NN|CD	O|NUMBER	|3.0	3.0			P|3.0	fb:part.p|fb:part.3_0
+15	1	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+15	2	fb:cell.abarth_osella	Abarth-Osella	abarth|osella	Abarth|Osella	NNP|NNP	PERSON|PERSON	|					
+15	3	fb:cell.arturo_merzario_johannes_ortner	Arturo Merzario\n Johannes Ortner	arturo|merzario|johannes|ortner	Arturo|Merzario|Johannes|Ortner	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Arturo Merzario|Johannes Ortner	fb:part.arturo_merzario|fb:part.johannes_ortner
+15	4	fb:cell.abarth_3000sp	Abarth 3000SP	abarth|3000sp	abarth|3000sp	JJ|NN	O|O	|	3000.0			Abarth 3000SP	fb:part.abarth_3000sp
+15	5	fb:cell.abarth_3_0l_v8	Abarth 3.0L V8	abarth|3.0|l|v8	abarth|3.0|l|v8	JJ|CD|NN|NN	O|NUMBER|O|O	|3.0||	3.0		8.0		
+15	6	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+16	0	fb:cell.p_1_0	P\n1.0	p|1.0	p|1.0	NN|CD	O|NUMBER	|1.0	1.0			P|1.0	fb:part.p|fb:part.1_0
+16	1	fb:cell.256	256	256	256	CD	NUMBER	256.0	256.0				
+16	2	fb:cell.scuderia_brescia_corse	Scuderia Brescia Corse	scuderia|brescia|corse	Scuderia|Brescia|Corse	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+16	3	fb:cell.luigi_moreschi_patrizia	Luigi Moreschi\n "Patrizia"	luigi|moreschi|``|patrizia|''	Luigi|Moreschi|``|Patrizia|''	NNP|NNP|``|NNP|''	PERSON|PERSON|O|O|O	||||				Luigi Moreschi|"Patrizia"	fb:part.luigi_moreschi|fb:part._patrizia
+16	4	fb:cell.ams_sp	AMS SP	ams|sp	AMS|sp	NNP|NN	O|O	|				AMS SP	fb:part.ams_sp
+16	5	fb:cell.ford_1_0l_i4	Ford 1.0L I4	ford|1.0|l|i4	Ford|1.0|l|i4	NNP|CD|NN|NN	O|NUMBER|O|O	|1.0||	1.0		4.0		
+16	6	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+17	0	fb:cell.p_1_0	P\n1.0	p|1.0	p|1.0	NN|CD	O|NUMBER	|1.0	1.0			P|1.0	fb:part.p|fb:part.1_0
+17	1	fb:cell.266	266	266	266	CD	NUMBER	266.0	266.0				
+17	2	fb:cell._gero	"Gero"	``|gero|''	``|Gero|''	``|NNP|''	O|O|O	||					
+17	3	fb:cell._gero_roger	"Gero"\n "Roger"	``|gero|''|``|roger|''	``|Gero|''|``|Roger|''	``|NNP|''|``|NNP|''	O|O|O|O|O|O	|||||				"Gero"|"Roger"	fb:part._gero|fb:part._roger
+17	4	fb:cell.de_sanctis	De Sanctis	de|sanctis	De|Sanctis	NNP|NNP	PERSON|PERSON	|				De Sanctis	fb:part.de_sanctis
+17	5	fb:cell.ford_1_0l_i4	Ford 1.0L I4	ford|1.0|l|i4	Ford|1.0|l|i4	NNP|CD|NN|NN	O|NUMBER|O|O	|1.0||	1.0		4.0		
+17	6	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+18	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+18	1	fb:cell.276	276	276	276	CD	NUMBER	276.0	276.0				
+18	2	fb:cell.scuderia_pegaso	Scuderia Pegaso	scuderia|pegaso	Scuderia|Pegaso	NNP|NNP	LOCATION|LOCATION	|					
+18	3	fb:cell.antonio_catalano_marco_de_bartoli	Antonio Catalano\n Marco de Bartoli	antonio|catalano|marco|de|bartoli	Antonio|Catalano|Marco|de|Bartoli	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Antonio Catalano|Marco de Bartoli	fb:part.antonio_catalano|fb:part.marco_de_bartoli
+18	4	fb:cell.lancia_fulvia_hf	Lancia Fulvia HF	lancia|fulvia|hf	Lancia|Fulvia|hf	NNP|NNP|NN	PERSON|PERSON|O	||				Lancia Fulvia HF	fb:part.lancia_fulvia_hf
+18	5	fb:cell.lancia_1_6l_v4	Lancia 1.6L V4	lancia|1.6|l|v4	Lancia|1.6|l|v4	NNP|CD|NN|NN	ORGANIZATION|NUMBER|O|O	|1.6||	1.6		4.0		
+18	6	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+19	0	fb:cell.gt_2_0	GT\n2.0	gt|2.0	gt|2.0	NN|CD	O|NUMBER	|2.0	2.0			GT|2.0	fb:part.gt|fb:part.2_0
+19	1	fb:cell.124	124	124	124	CD	NUMBER	124.0	124.0				
+19	2	fb:cell.giampaolo_baruffi	Giampaolo Baruffi	giampaolo|baruffi	Giampaolo|Baruffi	NNP|NNP	PERSON|PERSON	|					
+19	3	fb:cell.giancarlo_sala_giampaolo_baruffi	Giancarlo Sala\n Giampaolo Baruffi	giancarlo|sala|giampaolo|baruffi	Giancarlo|Sala|Giampaolo|Baruffi	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Giancarlo Sala|Giampaolo Baruffi	fb:part.giancarlo_sala|fb:part.giampaolo_baruffi
+19	4	fb:cell.porsche_911	Porsche 911	porsche|911	Porsche|911	NNP|CD	O|NUMBER	|911.0	911.0			Porsche 911	fb:part.porsche_911
+19	5	fb:cell.porsche_2_0l_flat_6	Porsche 2.0L Flat-6	porsche|2.0|l|flat-6	Porsche|2.0|l|flat-6	NNP|CD|NN|NN	O|NUMBER|O|O	|2.0||	2.0		6.0		
+19	6	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+20	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+20	1	fb:cell.196	196	196	196	CD	NUMBER	196.0	196.0				
+20	2	fb:cell.giovanni_rizzo	Giovanni Rizzo	giovanni|rizzo	Giovanni|Rizzo	NNP|NNP	PERSON|PERSON	|					
+20	3	fb:cell.giovanni_rizzo_stefano_alongi	Giovanni Rizzo\n Stefano Alongi	giovanni|rizzo|stefano|alongi	Giovanni|Rizzo|Stefano|Alongi	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Giovanni Rizzo|Stefano Alongi	fb:part.giovanni_rizzo|fb:part.stefano_alongi
+20	4	fb:cell.alfa_romeo_gta	Alfa Romeo GTA	alfa|romeo|gta	Alfa|Romeo|GTA	NNP|NNP|NNP	PERSON|PERSON|O	||				Alfa Romeo GTA	fb:part.alfa_romeo_gta
+20	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+20	6	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+21	0	fb:cell.s_1_3	S\n1.3	s|1.3	s|1.3	NN|CD	O|NUMBER	|1.3	1.3			S|1.3	fb:part.s|fb:part.1_3
+21	1	fb:cell.232	232	232	232	CD	NUMBER	232.0	232.0				
+21	2	fb:cell.aldo_bersano	Aldo Bersano	aldo|bersano	Aldo|Bersano	NNP|NNP	PERSON|PERSON	|					
+21	3	fb:cell.aldo_bersano_william_scheeren	Aldo Bersano\n William Scheeren	aldo|bersano|william|scheeren	Aldo|Bersano|William|Scheeren	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Aldo Bersano|William Scheeren	fb:part.aldo_bersano|fb:part.william_scheeren
+21	4	fb:cell.abarth_1300s	Abarth 1300S	abarth|1300s	abarth|1300	JJ|NN	O|DATE	|130X	1300.0			Abarth 1300S	fb:part.abarth_1300s
+21	5	fb:cell.abarth_1_3l_i4	Abarth 1.3L I4	abarth|1.3|l|i4	abarth|1.3|l|i4	JJ|CD|NN|NN	O|NUMBER|O|O	|1.3||	1.3		4.0		
+21	6	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+22	0	fb:cell.gt_1_3	GT\n1.3	gt|1.3	gt|1.3	NN|CD	O|NUMBER	|1.3	1.3			GT|1.3	fb:part.gt|fb:part.1_3
+22	1	fb:cell.272	272	272	272	CD	NUMBER	272.0	272.0				
+22	2	fb:cell.jolly_club	Jolly Club	jolly|club	jolly|Club	JJ|NNP	O|O	|					
+22	3	fb:cell.antonio_trenti_alberto_fasce	Antonio Trenti\n Alberto Fasce	antonio|trenti|alberto|fasce	Antonio|Trenti|Alberto|Fasce	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Antonio Trenti|Alberto Fasce	fb:part.antonio_trenti|fb:part.alberto_fasce
+22	4	fb:cell.lancia_fulvia_hf	Lancia Fulvia HF	lancia|fulvia|hf	Lancia|Fulvia|hf	NNP|NNP|NN	PERSON|PERSON|O	||				Lancia Fulvia HF	fb:part.lancia_fulvia_hf
+22	5	fb:cell.lancia_1_6l_v4	Lancia 1.6L V4	lancia|1.6|l|v4	Lancia|1.6|l|v4	NNP|CD|NN|NN	ORGANIZATION|NUMBER|O|O	|1.6||	1.6		4.0		
+22	6	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+23	0	fb:cell.p_3_0	P\n3.0	p|3.0	p|3.0	NN|CD	O|NUMBER	|3.0	3.0			P|3.0	fb:part.p|fb:part.3_0
+23	1	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+23	2	fb:cell.porsche_system	Porsche System	porsche|system	Porsche|System	NNP|NNP	O|O	|					
+23	3	fb:cell.vic_elford_hans_herrmann	Vic Elford\n Hans Herrmann	vic|elford|hans|herrmann	Vic|Elford|Hans|Herrmann	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Vic Elford|Hans Herrmann	fb:part.vic_elford|fb:part.hans_herrmann
+23	4	fb:cell.porsche_908_03	Porsche 908/03	porsche|908\\/03	Porsche|908\\/03	NNP|CD	O|NUMBER	|	908.0		3.0	Porsche 908|03	fb:part.porsche_908|fb:part.03
+23	5	fb:cell.porsche_3_0l_flat_8	Porsche 3.0L Flat-8	porsche|3.0|l|flat-8	Porsche|3.0|l|flat-8	NNP|CD|NN|NN	O|NUMBER|O|O	|3.0||	3.0		8.0		
+23	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+24	0	fb:cell.p_3_0	P\n3.0	p|3.0	p|3.0	NN|CD	O|NUMBER	|3.0	3.0			P|3.0	fb:part.p|fb:part.3_0
+24	1	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+24	2	fb:cell.autodelta_spa	Autodelta SpA	autodelta|spa	Autodelta|SpA	NNP|NNP	O|O	|					
+24	3	fb:cell.umberto_maglioli_nanni_galli	Umberto Maglioli\n Nanni Galli	umberto|maglioli|nanni|galli	Umberto|Maglioli|Nanni|Galli	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Umberto Maglioli|Nanni Galli	fb:part.umberto_maglioli|fb:part.nanni_galli
+24	4	fb:cell.alfa_romeo_t33_3	Alfa Romeo T33/3	alfa|romeo|t33\\/3	Alfa|Romeo|t33\\/3	NNP|NNP|NN	PERSON|PERSON|O	||	33.0		3.0	Alfa Romeo T33|3	fb:part.alfa_romeo_t33|fb:part.3
+24	5	fb:cell.alfa_romeo_3_0l_v8	Alfa Romeo 3.0L V8	alfa|romeo|3.0|l|v8	Alfa|Romeo|3.0|l|v8	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||3.0||	3.0		8.0		
+24	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+25	0	fb:cell.gt_1_6	GT\n1.6	gt|1.6	gt|1.6	NN|CD	O|NUMBER	|1.6	1.6			GT|1.6	fb:part.gt|fb:part.1_6
+25	1	fb:cell.204	204	204	204	CD	NUMBER	204.0	204.0				
+25	2	fb:cell.antonio_guagliardo	Antonio Guagliardo	antonio|guagliardo	Antonio|Guagliardo	NNP|NNP	PERSON|PERSON	|					
+25	3	fb:cell.antonio_la_luce_antonio_guagliardo	Antonio La Luce\n Antonio Guagliardo	antonio|la|luce|antonio|guagliardo	Antonio|La|Luce|Antonio|Guagliardo	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Antonio La Luce|Antonio Guagliardo	fb:part.antonio_la_luce|fb:part.antonio_guagliardo
+25	4	fb:cell.abarth_2000s	Abarth 2000S	abarth|2000s	abarth|2000	JJ|NN	O|DATE	|200X	2000.0			Abarth 2000S	fb:part.abarth_2000s
+25	5	fb:cell.alfa_romeo_1_6l_i4	Alfa Romeo 1.6L I4	alfa|romeo|1.6|l|i4	Alfa|Romeo|1.6|l|i4	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6		4.0		
+25	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+26	0	fb:cell.p_1_3	P\n1.3	p|1.3	p|1.3	NN|CD	O|NUMBER	|1.3	1.3			P|1.3	fb:part.p|fb:part.1_3
+26	1	fb:cell.220	220	220	220	CD	NUMBER	220.0	220.0				
+26	2	fb:cell.jack_wheeler	Jack Wheeler	jack|wheeler	Jack|Wheeler	NNP|NNP	PERSON|PERSON	|					
+26	3	fb:cell.jack_wheeler_martin_davidson	Jack Wheeler\n Martin Davidson	jack|wheeler|martin|davidson	Jack|Wheeler|Martin|Davidson	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Jack Wheeler|Martin Davidson	fb:part.jack_wheeler|fb:part.martin_davidson
+26	4	fb:cell.jerboa_sp	Jerboa SP	jerboa|sp	Jerboa|sp	NNP|NN	PERSON|O	|				Jerboa SP	fb:part.jerboa_sp
+26	5	fb:cell.bmc_1_3l_i4	BMC 1.3L I4	bmc|1.3|l|i4	BMC|1.3|l|i4	NNP|CD|NN|NN	O|NUMBER|O|O	|1.3||	1.3		4.0		
+26	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+27	0	fb:cell.s_1_3	S\n1.3	s|1.3	s|1.3	NN|CD	O|NUMBER	|1.3	1.3			S|1.3	fb:part.s|fb:part.1_3
+27	1	fb:cell.234	234	234	234	CD	NUMBER	234.0	234.0				
+27	2	fb:cell.settecolli	Settecolli	settecolli	settecollus	NNS	PERSON						
+27	3	fb:cell.enzo_buzzetti_gianni_marini	Enzo Buzzetti\n Gianni Marini	enzo|buzzetti|gianni|marini	Enzo|Buzzetti|Gianni|Marini	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Enzo Buzzetti|Gianni Marini	fb:part.enzo_buzzetti|fb:part.gianni_marini
+27	4	fb:cell.abarth_1300s	Abarth 1300S	abarth|1300s	abarth|1300	JJ|NN	O|DATE	|130X	1300.0			Abarth 1300S	fb:part.abarth_1300s
+27	5	fb:cell.abarth_1_6l_i4	Abarth 1.6L I4	abarth|1.6|l|i4	abarth|1.6|l|i4	JJ|CD|NN|NN	O|NUMBER|O|O	|1.6||	1.6		4.0		
+27	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+28	0	fb:cell.gt_1_3	GT\n1.3	gt|1.3	gt|1.3	NN|CD	O|NUMBER	|1.3	1.3			GT|1.3	fb:part.gt|fb:part.1_3
+28	1	fb:cell.280	280	280	280	CD	NUMBER	280.0	280.0				
+28	2	fb:cell.scuderia_pegaso	Scuderia Pegaso	scuderia|pegaso	Scuderia|Pegaso	NNP|NNP	LOCATION|LOCATION	|					
+28	3	fb:cell.giuseppe_chiaramonte_giuseppe_spatafora	Giuseppe Chiaramonte\n Giuseppe Spatafora	giuseppe|chiaramonte|giuseppe|spatafora	Giuseppe|Chiaramonte|Giuseppe|Spatafora	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Giuseppe Chiaramonte|Giuseppe Spatafora	fb:part.giuseppe_chiaramonte|fb:part.giuseppe_spatafora
+28	4	fb:cell.lancia_fulvia_hf	Lancia Fulvia HF	lancia|fulvia|hf	Lancia|Fulvia|hf	NNP|NNP|NN	PERSON|PERSON|O	||				Lancia Fulvia HF	fb:part.lancia_fulvia_hf
+28	5	fb:cell.lancia_1_6l_v4	Lancia 1.6L V4	lancia|1.6|l|v4	Lancia|1.6|l|v4	NNP|CD|NN|NN	ORGANIZATION|NUMBER|O|O	|1.6||	1.6		4.0		
+28	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				

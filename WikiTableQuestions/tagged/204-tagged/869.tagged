@@ -1,0 +1,201 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.species	Species	species	Species	NNP	O						
+-1	1	fb:row.row.country_of_origin	Country of origin	country|of|origin	country|of|origin	NN|IN|NN	O|O|O	||					
+-1	2	fb:row.row.total_released	Total released	total|released	total|release	JJ|VBN	O|O	|					
+-1	3	fb:row.row.first_release	First release	first|release	first|release	JJ|NN	ORDINAL|O	1.0|					
+-1	4	fb:row.row.last_release	Last release	last|release	last|release	JJ|NN	O|O	|					
+-1	5	fb:row.row.areas_of_release	Areas of release	areas|of|release	area|of|release	NNS|IN|NN	O|O|O	||					
+-1	6	fb:row.row.areas_established	Areas established	areas|established	area|establish	NNS|VBD	O|O	|					
+-1	7	fb:row.row.pasture_type	Pasture type	pasture|type	pasture|type	NN|NN	O|O	|					
+0	0	fb:cell.bubas_bison	Bubas bison	bubas|bison	Bubas|bison	NNP|NN	PERSON|O	|					
+0	1	fb:cell.france_spain	France, Spain	france|,|spain	France|,|Spain	NNP|,|NNP	LOCATION|O|LOCATION	||				France|Spain	fb:part.france|fb:part.spain
+0	2	fb:cell.1_613	1,613	1,613	1,613	CD	NUMBER	1613.0	1613.0				
+0	3	fb:cell.april_1983	April 1983	april|1983	April|1983	NNP|CD	DATE|DATE	1983-04|1983-04	1983.0	1983-04-xx			
+0	4	fb:cell.1996_not_by_csiro	1996 (not by CSIRO)	1996|-lrb-|not|by|csiro|-rrb-	1996|-lrb-|not|by|CSIRO|-rrb-	CD|-LRB-|RB|IN|NNP|-RRB-	DATE|O|O|O|ORGANIZATION|O	1996|||||	1996.0				
+0	5	fb:cell.wa	WA	wa	WA	NNP	O					WA	fb:part.wa
+0	6	fb:cell.nsw_sa_wa	NSW, SA, WA	nsw|,|sa|,|wa	NSW|,|SA|,|WA	NNP|,|NNP|,|NNP	O|O|O|O|LOCATION	||||				NSW|SA|WA	fb:part.nsw|fb:part.sa|fb:part.wa
+0	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+1	0	fb:cell.copris_elphenor_klug	Copris elphenor Klug	copris|elphenor|klug	copris|elphenor|klug	FW|FW|NN	O|O|PERSON	||					
+1	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+1	2	fb:cell.2_287	2,287	2,287	2,287	CD	NUMBER	2287.0	2287.0				
+1	3	fb:cell.january_1977	January 1977	january|1977	January|1977	NNP|CD	DATE|DATE	1977-01|1977-01	1977.0	1977-01-xx			
+1	4	fb:cell.may_1983	May 1983	may|1983	May|1983	VBD-AUX|CD	DATE|DATE	1983-05|1983-05	1983.0	1983-05-xx			
+1	5	fb:cell.qld	QLD	qld	qld	NN	O					QLD	fb:part.qld
+1	6	fb:cell.qld	QLD	qld	qld	NN	O					QLD	fb:part.qld
+1	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+2	0	fb:cell.copris_hispanus_linnaeus	Copris hispanus Linnaeus	copris|hispanus|linnaeus	copris|hispanus|linnaeus	FW|FW|FW	O|O|PERSON	||					
+2	1	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION					Spain	fb:part.spain
+2	2	fb:cell.294	294	294	294	CD	NUMBER	294.0	294.0				
+2	3	fb:cell.october_1983	October 1983	october|1983	October|1983	NNP|CD	DATE|DATE	1983-10|1983-10	1983.0	1983-10-xx			
+2	4	fb:cell.june_1994	June 1994	june|1994	June|1994	NNP|CD	DATE|DATE	1994-06|1994-06	1994.0	1994-06-xx			
+2	5	fb:cell.wa	WA	wa	WA	NNP	O					WA	fb:part.wa
+2	6	fb:cell.wa	WA	wa	WA	NNP	O					WA	fb:part.wa
+2	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+3	0	fb:cell.euoniticellus_africanus_harold	Euoniticellus africanus Harold	euoniticellus|africanus|harold	euoniticellus|africanus|Harold	JJ|NN|NNP	O|O|PERSON	||					
+3	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+3	2	fb:cell.49_009	49,009	49,009	49,009	CD	NUMBER	49009.0	49009.0				
+3	3	fb:cell.october_1971	October 1971	october|1971	October|1971	NNP|CD	DATE|DATE	1971-10|1971-10	1971.0	1971-10-xx			
+3	4	fb:cell.february_1984	February 1984	february|1984	February|1984	NNP|CD	DATE|DATE	1984-02|1984-02	1984.0	1984-02-xx			
+3	5	fb:cell.nsw_qld_sa_tas_vic_wa	NSW, QLD, SA, Tas, Vic, WA	nsw|,|qld|,|sa|,|tas|,|vic|,|wa	NSW|,|QLD|,|SA|,|Tas|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|PERSON|O|LOCATION	||||||||||				NSW|QLD|SA|Tas|Vic|WA	fb:part.nsw|fb:part.qld|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa
+3	6	fb:cell.nsw_qld	NSW, QLD	nsw|,|qld	NSW|,|QLD	NNP|,|NNP	O|O|O	||				NSW|QLD	fb:part.nsw|fb:part.qld
+3	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+4	0	fb:cell.euoniticellus_fulvus_goeze	Euoniticellus fulvus Goeze	euoniticellus|fulvus|goeze	euoniticellus|fulvus|goeze	JJ|NN|NN	O|O|O	||					
+4	1	fb:cell.france_turkey	France, Turkey	france|,|turkey	France|,|Turkey	NNP|,|NNP	LOCATION|O|LOCATION	||				France|Turkey	fb:part.france|fb:part.turkey
+4	2	fb:cell.76_944	76,944	76,944	76,944	CD	NUMBER	76944.0	76944.0				
+4	3	fb:cell.march_1978	March 1978	march|1978	March|1978	NNP|CD	DATE|DATE	1978-03|1978-03	1978.0	1978-03-xx			
+4	4	fb:cell.february_1983	February 1983	february|1983	February|1983	NNP|CD	DATE|DATE	1983-02|1983-02	1983.0	1983-02-xx			
+4	5	fb:cell.nsw_sa_tas_vic_wa	NSW, SA, Tas, Vic, WA	nsw|,|sa|,|tas|,|vic|,|wa	NSW|,|SA|,|Tas|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|PERSON|O|LOCATION	||||||||				NSW|SA|Tas|Vic|WA	fb:part.nsw|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa
+4	6	fb:cell.nsw_sa_tas_vic_wa	NSW, SA, Tas, Vic, WA	nsw|,|sa|,|tas|,|vic|,|wa	NSW|,|SA|,|Tas|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|PERSON|O|LOCATION	||||||||				NSW|SA|Tas|Vic|WA	fb:part.nsw|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa
+4	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+5	0	fb:cell.euoniticellus_intermedius_reiche	Euoniticellus intermedius Reiche	euoniticellus|intermedius|reiche	euoniticellus|intermedius|Reiche	JJ|NN|NNP	O|O|PERSON	||					
+5	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+5	2	fb:cell.248_637	248,637	248,637	248,637	CD	NUMBER	248637.0	248637.0				
+5	3	fb:cell.november_1971	November 1971	november|1971	November|1971	NNP|CD	DATE|DATE	1971-11|1971-11	1971.0	1971-11-xx			
+5	4	fb:cell.february_1984	February 1984	february|1984	February|1984	NNP|CD	DATE|DATE	1984-02|1984-02	1984.0	1984-02-xx			
+5	5	fb:cell.act_nsw_nt_qld_sa_vic_wa	ACT, NSW, NT, QLD, SA, Vic, WA	act|,|nsw|,|nt|,|qld|,|sa|,|vic|,|wa	act|,|NSW|,|NT|,|QLD|,|SA|,|Vic|,|WA	NN|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|O|O|PERSON|O|LOCATION	||||||||||||				ACT|NSW|NT|QLD|SA|Vic|WA	fb:part.act|fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.sa|fb:part.vic|fb:part.wa
+5	6	fb:cell.nsw_nt_qld_sa_vic_wa	NSW, NT, QLD, SA, Vic, WA	nsw|,|nt|,|qld|,|sa|,|vic|,|wa	NSW|,|NT|,|QLD|,|SA|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|PERSON|O|LOCATION	||||||||||				NSW|NT|QLD|SA|Vic|WA	fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.sa|fb:part.vic|fb:part.wa
+5	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+6	0	fb:cell.euoniticellus_pallipes_fabricius	Euoniticellus pallipes Fabricius	euoniticellus|pallipes|fabricius	euoniticellus|pallipe|fabricius	JJ|NNS|NN	O|O|PERSON	||					
+6	1	fb:cell.iran_turkey	Iran, Turkey	iran|,|turkey	Iran|,|Turkey	NNP|,|NNP	LOCATION|O|LOCATION	||				Iran|Turkey	fb:part.iran|fb:part.turkey
+6	2	fb:cell.46_642	46,642	46,642	46,642	CD	NUMBER	46642.0	46642.0				
+6	3	fb:cell.march_1977	March 1977	march|1977	March|1977	NNP|CD	DATE|DATE	1977-03|1977-03	1977.0	1977-03-xx			
+6	4	fb:cell.september_1982	September 1982	september|1982	September|1982	NNP|CD	DATE|DATE	1982-09|1982-09	1982.0	1982-09-xx			
+6	5	fb:cell.nsw_sa_wa	NSW, SA, WA	nsw|,|sa|,|wa	NSW|,|SA|,|WA	NNP|,|NNP|,|NNP	O|O|O|O|LOCATION	||||				NSW|SA|WA	fb:part.nsw|fb:part.sa|fb:part.wa
+6	6	fb:cell.nsw_sa_vic_wa	NSW, SA, Vic, WA	nsw|,|sa|,|vic|,|wa	NSW|,|SA|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|PERSON|O|LOCATION	||||||				NSW|SA|Vic|WA	fb:part.nsw|fb:part.sa|fb:part.vic|fb:part.wa
+6	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+7	0	fb:cell.geotrupes_spiniger_marsham	Geotrupes spiniger Marsham	geotrupes|spiniger|marsham	geotrupes|spiniger|Marsham	JJ|NN|NNP	O|O|LOCATION	||					
+7	1	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+7	2	fb:cell.12_082	12,082	12,082	12,082	CD	NUMBER	12082.0	12082.0				
+7	3	fb:cell.april_1979	April 1979	april|1979	April|1979	NNP|CD	DATE|DATE	1979-04|1979-04	1979.0	1979-04-xx			
+7	4	fb:cell.december_1983	December 1983	december|1983	December|1983	NNP|CD	DATE|DATE	1983-12|1983-12	1983.0	1983-12-xx			
+7	5	fb:cell.act_nsw_tas_vic	ACT, NSW, Tas, Vic	act|,|nsw|,|tas|,|vic	act|,|NSW|,|Tas|,|Vic	NN|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|PERSON	||||||				ACT|NSW|Tas|Vic	fb:part.act|fb:part.nsw|fb:part.tas|fb:part.vic
+7	6	fb:cell.act_nsw_sa_tas_vic	ACT, NSW, SA, Tas, Vic	act|,|nsw|,|sa|,|tas|,|vic	act|,|nsw|,|SA|,|Tas|,|Vic	NN|,|NN|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|PERSON	||||||||				ACT|NSW|SA|Tas|Vic	fb:part.act|fb:part.nsw|fb:part.sa|fb:part.tas|fb:part.vic
+7	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+8	0	fb:cell.liatongus_militaris_castelanu	Liatongus militaris Castelanu	liatongus|militaris|castelanu	Liatongus|militari|Castelanu	NNP|VBZ|NNP	O|O|O	||					
+8	1	fb:cell.south_africa_via_hawaii	South Africa (via Hawaii)	south|africa|-lrb-|via|hawaii|-rrb-	South|Africa|-lrb-|via|Hawaii|-rrb-	NNP|NNP|-LRB-|IN|NNP|-RRB-	LOCATION|LOCATION|O|O|LOCATION|O	|||||				South Africa (via Hawaii)	fb:part.south_africa_via_hawaii
+8	2	fb:cell.70_450	70,450	70,450	70,450	CD	NUMBER	70450.0	70450.0				
+8	3	fb:cell.january_1968	January 1968	january|1968	January|1968	NNP|CD	DATE|DATE	1968-01|1968-01	1968.0	1968-01-xx			
+8	4	fb:cell.november_1979	November 1979	november|1979	November|1979	NNP|CD	DATE|DATE	1979-11|1979-11	1979.0	1979-11-xx			
+8	5	fb:cell.nsw_nt_qld_wa	NSW, NT, QLD, WA	nsw|,|nt|,|qld|,|wa	NSW|,|NT|,|QLD|,|WA	NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				NSW|NT|QLD|WA	fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.wa
+8	6	fb:cell.nsw_nt_qld	NSW, NT, QLD	nsw|,|nt|,|qld	nsw|,|nt|,|qld	NN|,|NN|,|NN	O|O|O|O|O	||||				NSW|NT|QLD	fb:part.nsw|fb:part.nt|fb:part.qld
+8	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+9	0	fb:cell.onitis_alexis_fabricius	Onitis alexis Fabricius	onitis|alexis|fabricius	onitis|alexi|fabricius	NN|VBZ|NN	MISC|O|PERSON	||					
+9	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+9	2	fb:cell.186_441	186,441	186,441	186,441	CD	NUMBER	186441.0	186441.0				
+9	3	fb:cell.august_1972	August 1972	august|1972	August|1972	NNP|CD	DATE|DATE	1972-08|1972-08	1972.0	1972-08-xx			
+9	4	fb:cell.february_1984	February 1984	february|1984	February|1984	NNP|CD	DATE|DATE	1984-02|1984-02	1984.0	1984-02-xx			
+9	5	fb:cell.nsw_nt_qld_wa	NSW, NT, QLD, WA	nsw|,|nt|,|qld|,|wa	NSW|,|NT|,|QLD|,|WA	NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				NSW|NT|QLD|WA	fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.wa
+9	6	fb:cell.nsw_nt_qld_sa_vic_wa	NSW, NT, QLD, SA, Vic, WA	nsw|,|nt|,|qld|,|sa|,|vic|,|wa	NSW|,|NT|,|QLD|,|SA|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|PERSON|O|LOCATION	||||||||||				NSW|NT|QLD|SA|Vic|WA	fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.sa|fb:part.vic|fb:part.wa
+9	7	fb:cell.rainfall_summer_rainfall_winter_rainfall	Rainfall, summer rainfall, winter rainfall	rainfall|,|summer|rainfall|,|winter|rainfall	rainfall|,|summer|rainfall|,|winter|rainfall	NN|,|NN|NNS|,|NN|NNS	O|O|DATE|O|O|DATE|O	||XXXX-SU|||XXXX-WI|				Rainfall|summer rainfall|winter rainfall	fb:part.rainfall|fb:part.summer_rainfall|fb:part.winter_rainfall
+10	0	fb:cell.onitis_aygalus_fabricius	Onitis aygalus Fabricius	onitis|aygalus|fabricius	onitis|aygalus|fabricius	NN|NN|NN	O|O|PERSON	||					
+10	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+10	2	fb:cell.18_682	18,682	18,682	18,682	CD	NUMBER	18682.0	18682.0				
+10	3	fb:cell.january_1977	January 1977	january|1977	January|1977	NNP|CD	DATE|DATE	1977-01|1977-01	1977.0	1977-01-xx			
+10	4	fb:cell.january_1982	January 1982	january|1982	January|1982	NNP|CD	DATE|DATE	1982-01|1982-01	1982.0	1982-01-xx			
+10	5	fb:cell.nsw_sa_wa	NSW, SA, WA	nsw|,|sa|,|wa	NSW|,|SA|,|WA	NNP|,|NNP|,|NNP	O|O|O|O|LOCATION	||||				NSW|SA|WA	fb:part.nsw|fb:part.sa|fb:part.wa
+10	6	fb:cell.nsw_sa_vic_wa	NSW, SA, Vic, WA	nsw|,|sa|,|vic|,|wa	NSW|,|SA|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|PERSON|O|LOCATION	||||||				NSW|SA|Vic|WA	fb:part.nsw|fb:part.sa|fb:part.vic|fb:part.wa
+10	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+11	0	fb:cell.onitis_caffer_boheman	Onitis caffer Boheman	onitis|caffer|boheman	onitis|caffer|boheman	NN|NN|NN	O|O|O	||					
+11	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+11	2	fb:cell.8_738	8,738	8,738	8,738	CD	NUMBER	8738.0	8738.0				
+11	3	fb:cell.october_1979	October 1979	october|1979	October|1979	NNP|CD	DATE|DATE	1979-10|1979-10	1979.0	1979-10-xx			
+11	4	fb:cell.april_1984	April 1984	april|1984	April|1984	NNP|CD	DATE|DATE	1984-04|1984-04	1984.0	1984-04-xx			
+11	5	fb:cell.wa	WA	wa	WA	NNP	O					WA	fb:part.wa
+11	6	fb:cell.qld_nsw_sa	QLD, NSW, SA	qld|,|nsw|,|sa	QLD|,|NSW|,|SA	NNP|,|NNP|,|NNP	O|O|O|O|O	||||				QLD|NSW|SA	fb:part.qld|fb:part.nsw|fb:part.sa
+11	7	fb:cell.summer_rainfall_winter_rainfall	Summer rainfall, winter rainfall	summer|rainfall|,|winter|rainfall	summer|rainfall|,|winter|rainfall	NN|NNS|,|NN|NNS	DATE|O|O|DATE|O	XXXX-SU|||XXXX-WI|				Summer rainfall|winter rainfall	fb:part.summer_rainfall|fb:part.winter_rainfall
+12	0	fb:cell.onitis_pecuarius_lansberge	Onitis pecuarius Lansberge	onitis|pecuarius|lansberge	onitis|pecuarius|lansberge	NN|NN|NN	O|O|O	||					
+12	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+12	2	fb:cell.11_395	11,395	11,395	11,395	CD	NUMBER	11395.0	11395.0				
+12	3	fb:cell.november_1976	November 1976	november|1976	November|1976	NNP|CD	DATE|DATE	1976-11|1976-11	1976.0	1976-11-xx			
+12	4	fb:cell.may_1979	May 1979	may|1979	May|1979	VBD-AUX|CD	DATE|DATE	1979-05|1979-05	1979.0	1979-05-xx			
+12	5	fb:cell.nsw_qld	NSW, QLD	nsw|,|qld	NSW|,|QLD	NNP|,|NNP	O|O|O	||				NSW|QLD	fb:part.nsw|fb:part.qld
+12	6	fb:cell.nsw_qld	NSW, QLD	nsw|,|qld	NSW|,|QLD	NNP|,|NNP	O|O|O	||				NSW|QLD	fb:part.nsw|fb:part.qld
+12	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+13	0	fb:cell.onitis_vanderkelleni_lansberge	Onitis vanderkelleni Lansberge	onitis|vanderkelleni|lansberge	onitis|vanderkellenus|lansberge	NN|NNS|NN	O|O|O	||					
+13	1	fb:cell.kenya_rwanda_zaire	Kenya, Rwanda, Zaire	kenya|,|rwanda|,|zaire	Kenya|,|Rwanda|,|Zaire	NNP|,|NNP|,|NNP	LOCATION|O|LOCATION|O|LOCATION	||||				Kenya|Rwanda|Zaire	fb:part.kenya|fb:part.rwanda|fb:part.zaire
+13	2	fb:cell.10_852	10,852	10,852	10,852	CD	NUMBER	10852.0	10852.0				
+13	3	fb:cell.october_1974	October 1974	october|1974	October|1974	NNP|CD	DATE|DATE	1974-10|1974-10	1974.0	1974-10-xx			
+13	4	fb:cell.february_1982	February 1982	february|1982	February|1982	NNP|CD	DATE|DATE	1982-02|1982-02	1982.0	1982-02-xx			
+13	5	fb:cell.nsw_qld	NSW, QLD	nsw|,|qld	NSW|,|QLD	NNP|,|NNP	O|O|O	||				NSW|QLD	fb:part.nsw|fb:part.qld
+13	6	fb:cell.qld	QLD	qld	qld	NN	O					QLD	fb:part.qld
+13	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+14	0	fb:cell.onitis_viridulus_bohemann	Onitis viridulus Bohemann	onitis|viridulus|bohemann	onitis|viridulus|bohemann	NN|NN|NN	O|O|PERSON	||					
+14	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+14	2	fb:cell.8_008	8,008	8,008	8,008	CD	NUMBER	8008.0	8008.0				
+14	3	fb:cell.september_1976	September 1976	september|1976	September|1976	NNP|CD	DATE|DATE	1976-09|1976-09	1976.0	1976-09-xx			
+14	4	fb:cell.july_1980	July 1980	july|1980	July|1980	NNP|CD	DATE|DATE	1980-07|1980-07	1980.0	1980-07-xx			
+14	5	fb:cell.nsw_nt_qld	NSW, NT, QLD	nsw|,|nt|,|qld	nsw|,|nt|,|qld	NN|,|NN|,|NN	O|O|O|O|O	||||				NSW|NT|QLD	fb:part.nsw|fb:part.nt|fb:part.qld
+14	6	fb:cell.nsw_nt_qld_wa	NSW, NT, QLD, WA	nsw|,|nt|,|qld|,|wa	NSW|,|NT|,|QLD|,|WA	NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				NSW|NT|QLD|WA	fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.wa
+14	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+15	0	fb:cell.onthophagus_binodis_thunberg	Onthophagus binodis Thunberg	onthophagus|binodis|thunberg	onthophagus|binodis|Thunberg	NN|NNP|NNP	O|O|PERSON	||					
+15	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+15	2	fb:cell.173_018	173,018	173,018	173,018	CD	NUMBER	173018.0	173018.0				
+15	3	fb:cell.october_1971	October 1971	october|1971	October|1971	NNP|CD	DATE|DATE	1971-10|1971-10	1971.0	1971-10-xx			
+15	4	fb:cell.february_1982	February 1982	february|1982	February|1982	NNP|CD	DATE|DATE	1982-02|1982-02	1982.0	1982-02-xx			
+15	5	fb:cell.nsw_qld_sa_tas_vic_wa_norfolk_islands	NSW, QLD, SA, Tas, Vic, WA, Norfolk Islands	nsw|,|qld|,|sa|,|tas|,|vic|,|wa|,|norfolk|islands	NSW|,|QLD|,|SA|,|Tas|,|Vic|,|WA|,|Norfolk|Islands	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|NNPS	O|O|O|O|O|O|O|O|PERSON|O|LOCATION|O|LOCATION|LOCATION	|||||||||||||				NSW|QLD|SA|Tas|Vic|WA|Norfolk Islands	fb:part.nsw|fb:part.qld|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa|fb:part.norfolk_islands
+15	6	fb:cell.nsw_qld_sa_tas_vic_wa_norfolk_islands	NSW, QLD, SA, Tas, Vic, WA, Norfolk Islands	nsw|,|qld|,|sa|,|tas|,|vic|,|wa|,|norfolk|islands	NSW|,|QLD|,|SA|,|Tas|,|Vic|,|WA|,|Norfolk|Islands	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|NNPS	O|O|O|O|O|O|O|O|PERSON|O|LOCATION|O|LOCATION|LOCATION	|||||||||||||				NSW|QLD|SA|Tas|Vic|WA|Norfolk Islands	fb:part.nsw|fb:part.qld|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa|fb:part.norfolk_islands
+15	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+16	0	fb:cell.onthophagus_gazella_fabricius	Onthophagus gazella Fabricius	onthophagus|gazella|fabricius	onthophagus|gazellum|fabricius	NN|NN|NN	O|O|PERSON	||					
+16	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+16	2	fb:cell.420_415	420,415	420,415	420,415	CD	NUMBER	420415.0	420415.0				
+16	3	fb:cell.february_1968	February 1968	february|1968	February|1968	NNP|CD	DATE|DATE	1968-02|1968-02	1968.0	1968-02-xx			
+16	4	fb:cell.february_1984	February 1984	february|1984	February|1984	NNP|CD	DATE|DATE	1984-02|1984-02	1984.0	1984-02-xx			
+16	5	fb:cell.act_nsw_nt_qld_sa_tas_vic_wa_norfolk_islands	ACT, NSW, NT, QLD, SA, Tas, Vic, WA, Norfolk Islands	act|,|nsw|,|nt|,|qld|,|sa|,|tas|,|vic|,|wa|,|norfolk|islands	act|,|NSW|,|NT|,|QLD|,|SA|,|Tas|,|Vic|,|WA|,|Norfolk|Islands	NN|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|NNPS	O|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|LOCATION|O|LOCATION|LOCATION	|||||||||||||||||				ACT|NSW|NT|QLD|SA|Tas|Vic|WA|Norfolk Islands	fb:part.act|fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa|fb:part.norfolk_islands
+16	6	fb:cell.act_nsw_nt_qld_sa_wa_norfolk_islands	ACT, NSW, NT, QLD, SA, WA, Norfolk Islands	act|,|nsw|,|nt|,|qld|,|sa|,|wa|,|norfolk|islands	act|,|NSW|,|NT|,|QLD|,|SA|,|WA|,|Norfolk|Islands	NN|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|NNPS	O|O|O|O|O|O|O|O|O|O|LOCATION|O|LOCATION|LOCATION	|||||||||||||				ACT|NSW|NT|QLD|SA|WA|Norfolk Islands	fb:part.act|fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.sa|fb:part.wa|fb:part.norfolk_islands
+16	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+17	0	fb:cell.onthophagus_nigiventris_d_orbigny	Onthophagus nigiventris d'Orbigny	onthophagus|nigiventris|d'orbigny	onthophagus|nigiventri|d'orbigny	NN|VBZ|NN	O|O|O	||					
+17	1	fb:cell.east_africa	East Africa	east|africa	East|Africa	NNP|NNP	O|O	|				East Africa	fb:part.east_africa
+17	2	fb:cell.29_960	29,960	29,960	29,960	CD	NUMBER	29960.0	29960.0				
+17	3	fb:cell.may_1975	May 1975	may|1975	May|1975	VBD-AUX|CD	DATE|DATE	1975-05|1975-05	1975.0	1975-05-xx			
+17	4	fb:cell.march_1983	March 1983	march|1983	March|1983	NNP|CD	DATE|DATE	1983-03|1983-03	1983.0	1983-03-xx			
+17	5	fb:cell.nsw	NSW	nsw	nsw	NN	O					NSW	fb:part.nsw
+17	6	fb:cell.nsw	NSW	nsw	nsw	NN	O					NSW	fb:part.nsw
+17	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+18	0	fb:cell.onthophagus_obliquus	Onthophagus obliquus	onthophagus|obliquus	onthophagus|obliquus	NN|NN	O|O	|					
+18	1	fb:cell.nigeria_senegal_zaire	Nigeria, Senegal, Zaire	nigeria|,|senegal|,|zaire	Nigeria|,|Senegal|,|Zaire	NNP|,|NNP|,|NNP	LOCATION|O|LOCATION|O|LOCATION	||||				Nigeria|Senegal|Zaire	fb:part.nigeria|fb:part.senegal|fb:part.zaire
+18	2	fb:cell.9_300	9,300	9,300	9,300	CD	NUMBER	9300.0	9300.0				
+18	3	fb:cell.january_1976	January 1976	january|1976	January|1976	NNP|CD	DATE|DATE	1976-01|1976-01	1976.0	1976-01-xx			
+18	4	fb:cell.november_1977	November 1977	november|1977	November|1977	NNP|CD	DATE|DATE	1977-11|1977-11	1977.0	1977-11-xx			
+18	5	fb:cell.qld_nt	QLD, NT	qld|,|nt	qld|,|nt	NN|,|NN	O|O|O	||				QLD|NT	fb:part.qld|fb:part.nt
+18	6	fb:cell.qld	QLD	qld	qld	NN	O					QLD	fb:part.qld
+18	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+19	0	fb:cell.onthophagus_sagittarius	Onthophagus sagittarius	onthophagus|sagittarius	onthophagus|sagittarius	NN|NN	O|O	|					
+19	1	fb:cell.sri_lanka_via_hawaii	Sri Lanka (via Hawaii)	sri|lanka|-lrb-|via|hawaii|-rrb-	Sri|Lanka|-lrb-|via|Hawaii|-rrb-	NNP|NNP|-LRB-|IN|NNP|-RRB-	LOCATION|LOCATION|O|O|LOCATION|O	|||||				Sri Lanka (via Hawaii)	fb:part.sri_lanka_via_hawaii
+19	2	fb:cell.9_075	9,075	9,075	9,075	CD	NUMBER	9075.0	9075.0				
+19	3	fb:cell.january_1968	January 1968	january|1968	January|1968	NNP|CD	DATE|DATE	1968-01|1968-01	1968.0	1968-01-xx			
+19	4	fb:cell.march_1977	March 1977	march|1977	March|1977	NNP|CD	DATE|DATE	1977-03|1977-03	1977.0	1977-03-xx			
+19	5	fb:cell.nsw_nt_qld_wa	NSW, NT, QLD, WA	nsw|,|nt|,|qld|,|wa	NSW|,|NT|,|QLD|,|WA	NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				NSW|NT|QLD|WA	fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.wa
+19	6	fb:cell.nsw_nt	NSW, NT	nsw|,|nt	nsw|,|nt	NN|,|NN	O|O|O	||				NSW|NT	fb:part.nsw|fb:part.nt
+19	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+20	0	fb:cell.onthophagus_taurus_schreber	Onthophagus taurus Schreber	onthophagus|taurus|schreber	Onthophagus|taurus|Schreber	NNP|NNP|NNP	MISC|O|O	||					
+20	1	fb:cell.spain_greece_italy_turkey	Spain, Greece, Italy, Turkey	spain|,|greece|,|italy|,|turkey	Spain|,|Greece|,|Italy|,|Turkey	NNP|,|NNP|,|NNP|,|NNP	LOCATION|O|LOCATION|O|LOCATION|O|LOCATION	||||||				Spain|Greece|Italy|Turkey	fb:part.spain|fb:part.greece|fb:part.italy|fb:part.turkey
+20	2	fb:cell.164_499	164,499	164,499	164,499	CD	NUMBER	164499.0	164499.0				
+20	3	fb:cell.february_1975	February 1975	february|1975	February|1975	NNP|CD	DATE|DATE	1975-02|1975-02	1975.0	1975-02-xx			
+20	4	fb:cell.january_1984	January 1984	january|1984	January|1984	NNP|CD	DATE|DATE	1984-01|1984-01	1984.0	1984-01-xx			
+20	5	fb:cell.nsw_sa_tas_vic_wa	NSW, SA, Tas, Vic, WA	nsw|,|sa|,|tas|,|vic|,|wa	NSW|,|SA|,|Tas|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|PERSON|O|LOCATION	||||||||				NSW|SA|Tas|Vic|WA	fb:part.nsw|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa
+20	6	fb:cell.nsw_sa_tas_vic_wa	NSW, SA, Tas, Vic, WA	nsw|,|sa|,|tas|,|vic|,|wa	NSW|,|SA|,|Tas|,|Vic|,|WA	NNP|,|NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|PERSON|O|LOCATION	||||||||				NSW|SA|Tas|Vic|WA	fb:part.nsw|fb:part.sa|fb:part.tas|fb:part.vic|fb:part.wa
+20	7	fb:cell.winter_rainfall	Winter rainfall	winter|rainfall	Winter|rainfall	NNP|NNS	DATE|O	XXXX-WI|				Winter rainfall	fb:part.winter_rainfall
+21	0	fb:cell.sisyphus_rubrus_paschalidis	Sisyphus rubrus Paschalidis	sisyphus|rubrus|paschalidis	Sisyphus|rubrus|Paschalidis	NNP|VBZ|NNP	MISC|O|PERSON	||					
+21	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+21	2	fb:cell.85_933	85,933	85,933	85,933	CD	NUMBER	85933.0	85933.0				
+21	3	fb:cell.march_1973	March 1973	march|1973	March|1973	NNP|CD	DATE|DATE	1973-03|1973-03	1973.0	1973-03-xx			
+21	4	fb:cell.february_1980	February 1980	february|1980	February|1980	NNP|CD	DATE|DATE	1980-02|1980-02	1980.0	1980-02-xx			
+21	5	fb:cell.nsw_qld_wa	NSW, QLD, WA	nsw|,|qld|,|wa	NSW|,|QLD|,|WA	NNP|,|NNP|,|NNP	O|O|O|O|LOCATION	||||				NSW|QLD|WA	fb:part.nsw|fb:part.qld|fb:part.wa
+21	6	fb:cell.nsw_qld	NSW, QLD	nsw|,|qld	NSW|,|QLD	NNP|,|NNP	O|O|O	||				NSW|QLD	fb:part.nsw|fb:part.qld
+21	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+22	0	fb:cell.sisyphus_spinipes	Sisyphus spinipes	sisyphus|spinipes	Sisyphus|spinipe	NNP|NNS	MISC|O	|					
+22	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|				South Africa	fb:part.south_africa
+22	2	fb:cell.36_125	36,125	36,125	36,125	CD	NUMBER	36125.0	36125.0				
+22	3	fb:cell.march_1972	March 1972	march|1972	March|1972	NNP|CD	DATE|DATE	1972-03|1972-03	1972.0	1972-03-xx			
+22	4	fb:cell.december_1978	December 1978	december|1978	December|1978	NNP|CD	DATE|DATE	1978-12|1978-12	1978.0	1978-12-xx			
+22	5	fb:cell.nsw_nt_qld_wa	NSW, NT, QLD, WA	nsw|,|nt|,|qld|,|wa	NSW|,|NT|,|QLD|,|WA	NNP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				NSW|NT|QLD|WA	fb:part.nsw|fb:part.nt|fb:part.qld|fb:part.wa
+22	6	fb:cell.nsw_qld	NSW, QLD	nsw|,|qld	NSW|,|QLD	NNP|,|NNP	O|O|O	||				NSW|QLD	fb:part.nsw|fb:part.qld
+22	7	fb:cell.summer_rainfall	Summer rainfall	summer|rainfall	summer|rainfall	NN|NNS	DATE|O	XXXX-SU|				Summer rainfall	fb:part.summer_rainfall
+23	0	fb:cell.null											fb:part.null
+23	1	fb:cell.total	Total:	total|:	total|:	JJ|:	O|O	|				Total:	fb:part.total
+23	2	fb:cell.1_680_399	1,680,399	1,680,399	1,680,399	CD	NUMBER	1680399.0	1680399.0				
+23	3	fb:cell.null											fb:part.null
+23	4	fb:cell.null											fb:part.null
+23	5	fb:cell.null											fb:part.null
+23	6	fb:cell.null											fb:part.null
+23	7	fb:cell.null											fb:part.null

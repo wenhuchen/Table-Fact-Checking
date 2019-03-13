@@ -1,0 +1,211 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	2	fb:row.row.result	Result	result	result	NN	O						
+-1	3	fb:row.row.goal_scorers_season_goals	Goal Scorers (Season Goals)	goal|scorers|-lrb-|season|goals|-rrb-	Goal|Scorers|-lrb-|season|goal|-rrb-	NNP|NNP|-LRB-|NN|NNS|-RRB-	O|O|O|O|O|O	|||||					
+-1	4	fb:row.row.goalie_saves	Goalie Saves	goalie|saves	Goalie|save	NNP|VBZ	O|O	|					
+-1	5	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.sept_28	Sept. 28	sept.|28	Sept.|28	NNP|CD	DATE|DATE	XXXX-09-28|XXXX-09-28	0.28	xxxx-09-28			
+0	1	fb:cell.union	Union	union	Union	NNP	O					Union	fb:part.union
+0	2	fb:cell.w_5_0	W, 5-0	w|,|5-0	w|,|5-0	NN|,|CD	O|O|NUMBER	||5.0 - 0.0	5.0		0.0	W|5-0	fb:part.w|fb:part.5_0
+0	3	fb:cell.matthews_1_pp_keseley_1_kranz_1_sanders_1_pp_deluce_1	Matthews (1)-PP, Keseley (1), Kranz (1), Sanders (1)-PP, Deluce (1)	matthews|-lrb-|1|-rrb-|pp|,|keseley|-lrb-|1|-rrb-|,|kranz|-lrb-|1|-rrb-|,|sanders|-lrb-|1|-rrb-|pp|,|deluce|-lrb-|1|-rrb-	Matthews|-lrb-|1|-rrb-|pp|,|keseley|-lrb-|1|-rrb-|,|Kranz|-lrb-|1|-rrb-|,|Sanders|-lrb-|1|-rrb-|pp|,|deluce|-lrb-|1|-rrb-	NNP|-LRB-|LS|-RRB-|NN|,|NN|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|NN|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|O|LOCATION|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O	||1.0||||||1.0|||||1.0|||||1.0||||||1.0|	1.0		1.0	Matthews (1)-PP|Keseley (1)|Kranz (1)|Sanders (1)-PP|Deluce (1)	fb:part.matthews_1_pp|fb:part.keseley_1|fb:part.kranz_1|fb:part.sanders_1_pp|fb:part.deluce_1
+0	4	fb:cell.vetter_5	Vetter, 5	vetter|,|5	Vetter|,|5	NNP|,|CD	PERSON|O|NUMBER	||5.0	5.0			Vetter|5	fb:part.vetter|fb:part.5
+0	5	fb:cell.463	463	463	463	CD	NUMBER	463.0	463.0			463	fb:part.463
+1	0	fb:cell.sept_29	Sept. 29	sept.|29	Sept.|29	NNP|CD	DATE|DATE	XXXX-09-29|XXXX-09-29	0.29	xxxx-09-29			
+1	1	fb:cell.union	Union	union	Union	NNP	O					Union	fb:part.union
+1	2	fb:cell.w_11_0	W, 11-0	w|,|11-0	w|,|11-0	NN|,|CD	O|O|NUMBER	||11.0 - 0.0	11.0		0.0	W|11-0	fb:part.w|fb:part.11_0
+1	3	fb:cell.duggan_1_keseley_2_pp_sanders_2_sanders_3_knight_1_morris_1_pp_deluce_2_knight_2_pp_duggan_2_nash_1_keseley_3	Duggan (1), Keseley (2)-PP, Sanders (2), Sanders (3), Knight (1), Morris (1)-PP, Deluce (2), Knight (2)-PP, Duggan (2), Nash (1), Keseley (3)	duggan|-lrb-|1|-rrb-|,|keseley|-lrb-|2|-rrb-|pp|,|sanders|-lrb-|2|-rrb-|,|sanders|-lrb-|3|-rrb-|,|knight|-lrb-|1|-rrb-|,|morris|-lrb-|1|-rrb-|pp|,|deluce|-lrb-|2|-rrb-|,|knight|-lrb-|2|-rrb-|pp|,|duggan|-lrb-|2|-rrb-|,|nash|-lrb-|1|-rrb-|,|keseley|-lrb-|3|-rrb-	Duggan|-lrb-|1|-rrb-|,|keseley|-lrb-|2|-rrb-|pp|,|Sanders|-lrb-|2|-rrb-|,|Sanders|-lrb-|3|-rrb-|,|Knight|-lrb-|1|-rrb-|,|Morris|-lrb-|1|-rrb-|pp|,|deluce|-lrb-|2|-rrb-|,|Knight|-lrb-|2|-rrb-|pp|,|Duggan|-lrb-|2|-rrb-|,|Nash|-lrb-|1|-rrb-|,|keseley|-lrb-|3|-rrb-	NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|NN|,|NN|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|NN|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|LOCATION|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|LOCATION|O|NUMBER|O	||1.0|||||2.0||||||2.0|||||3.0|||||1.0|||||1.0||||||2.0|||||2.0||||||2.0|||||1.0|||||3.0|	1.0		2.0	Duggan (1)|Keseley (2)-PP|Sanders (2)|Sanders (3)|Knight (1)|Morris (1)-PP|Deluce (2)|Knight (2)-PP|Duggan (2)|Nash (1)|Keseley (3)	fb:part.duggan_1|fb:part.keseley_2_pp|fb:part.sanders_2|fb:part.sanders_3|fb:part.knight_1|fb:part.morris_1_pp|fb:part.deluce_2|fb:part.knight_2_pp|fb:part.duggan_2|fb:part.nash_1|fb:part.keseley_3
+1	4	fb:cell.mccready_14	McCready, 14	mccready|,|14	McCready|,|14	NNP|,|CD	PERSON|O|NUMBER	||14.0	14.0			McCready|14	fb:part.mccready|fb:part.14
+1	5	fb:cell.326	326	326	326	CD	NUMBER	326.0	326.0			326	fb:part.326
+2	0	fb:cell.oct_5	Oct. 5	oct.|5	Oct.|5	NNP|CD	DATE|DATE	XXXX-10-05|XXXX-10-05	0.5	xxxx-10-05			
+2	1	fb:cell.robert_morris	ROBERT MORRIS	robert|morris	ROBERT|MORRIS	NNP|NNP	O|PERSON	|				ROBERT MORRIS	fb:part.robert_morris
+2	2	fb:cell.w_3_0	W, 3-0	w|,|3-0	w|,|3-0	NN|,|CD	O|O|NUMBER	||3.0 - 0.0	3.0		0.0	W|3-0	fb:part.w|fb:part.3_0
+2	3	fb:cell.lawler_1_zaugg_1_pp_deluce_3	Lawler (1), Zaugg (1)-PP, Deluce (3)	lawler|-lrb-|1|-rrb-|,|zaugg|-lrb-|1|-rrb-|pp|,|deluce|-lrb-|3|-rrb-	lawler|-lrb-|1|-rrb-|,|Zaugg|-lrb-|1|-rrb-|pp|,|deluce|-lrb-|3|-rrb-	NN|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|NN|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O	||1.0|||||1.0||||||3.0|	1.0		1.0	Lawler (1)|Zaugg (1)-PP|Deluce (3)	fb:part.lawler_1|fb:part.zaugg_1_pp|fb:part.deluce_3
+2	4	fb:cell.vetter_11	Vetter, 11	vetter|,|11	Vetter|,|11	NNP|,|CD	PERSON|O|NUMBER	||11.0	11.0			Vetter|11	fb:part.vetter|fb:part.11
+2	5	fb:cell.1_912	1,912	1,912	1,912	CD	NUMBER	1912.0	1912.0			1,912	fb:part.1_912
+3	0	fb:cell.oct_6	Oct. 6	oct.|6	Oct.|6	NNP|CD	DATE|DATE	XXXX-10-06|XXXX-10-06	0.6	xxxx-10-06			
+3	1	fb:cell.robert_morris	ROBERT MORRIS	robert|morris	ROBERT|MORRIS	NNP|NNP	O|PERSON	|				ROBERT MORRIS	fb:part.robert_morris
+3	2	fb:cell.w_3_1	W, 3-1	w|,|3-1	w|,|3-1	NN|,|CD	O|O|NUMBER	||3.0 - 1.0	3.0		1.0	W|3-1	fb:part.w|fb:part.3_1
+3	3	fb:cell.windmeier_1_pp_lawler_2_keseley_4	Windmeier (1)-PP, Lawler (2), Keseley (4)	windmeier|-lrb-|1|-rrb-|pp|,|lawler|-lrb-|2|-rrb-|,|keseley|-lrb-|4|-rrb-	windmeier|-lrb-|1|-rrb-|pp|,|lawler|-lrb-|2|-rrb-|,|keseley|-lrb-|4|-rrb-	NN|-LRB-|CD|-RRB-|NN|,|NN|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-	O|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||1.0||||||2.0|||||4.0|	1.0		2.0	Windmeier (1)-PP|Lawler (2)|Keseley (4)	fb:part.windmeier_1_pp|fb:part.lawler_2|fb:part.keseley_4
+3	4	fb:cell.vetter_13	Vetter, 13	vetter|,|13	Vetter|,|13	NNP|,|CD	PERSON|O|NUMBER	||13.0	13.0			Vetter|13	fb:part.vetter|fb:part.13
+3	5	fb:cell.2_043	2,043	2,043	2,043	CD	NUMBER	2043.0	2043.0			2,043	fb:part.2_043
+4	0	fb:cell.oct_13	Oct. 13	oct.|13	Oct.|13	NNP|CD	DATE|DATE	XXXX-10-13|XXXX-10-13	0.13	xxxx-10-13			
+4	1	fb:cell.ohio_state_10_10	OHIO STATE* (10/10)	ohio|state|\\*|-lrb-|10\\/10|-rrb-	OHIO|STATE|\\*|-lrb-|10\\/10|-rrb-	NNP|NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|O|NUMBER|O	|||||	10.0		10.0	OHIO STATE* (10|10)	fb:part.ohio_state_10|fb:part.10
+4	2	fb:cell.w_4_0	W, 4-0	w|,|4-0	w|,|4-0	NN|,|JJ	O|O|O	||	4.0		0.0	W|4-0	fb:part.w|fb:part.4_0
+4	3	fb:cell.deluce_4_pp_nash_2_giles_1_hagen_1	Deluce (4)-PP, Nash (2), Giles (1), Hagen (1)	deluce|-lrb-|4|-rrb-|pp|,|nash|-lrb-|2|-rrb-|,|giles|-lrb-|1|-rrb-|,|hagen|-lrb-|1|-rrb-	deluce|-lrb-|4|-rrb-|pp|,|Nash|-lrb-|2|-rrb-|,|Giles|-lrb-|1|-rrb-|,|Hagen|-lrb-|1|-rrb-	NN|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-	O|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||4.0||||||2.0|||||1.0|||||1.0|	4.0		2.0	Deluce (4)-PP|Nash (2)|Giles (1)|Hagen (1)	fb:part.deluce_4_pp|fb:part.nash_2|fb:part.giles_1|fb:part.hagen_1
+4	4	fb:cell.vetter_12	Vetter, 12	vetter|,|12	Vetter|,|12	NNP|,|CD	PERSON|O|NUMBER	||12.0	12.0			Vetter|12	fb:part.vetter|fb:part.12
+4	5	fb:cell.1_434	1,434	1,434	1,434	CD	NUMBER	1434.0	1434.0			1,434	fb:part.1_434
+5	0	fb:cell.oct_14	Oct. 14	oct.|14	Oct.|14	NNP|CD	DATE|DATE	XXXX-10-14|XXXX-10-14	0.14	xxxx-10-14			
+5	1	fb:cell.ohio_state_10_10	OHIO STATE* (10/10)	ohio|state|\\*|-lrb-|10\\/10|-rrb-	OHIO|STATE|\\*|-lrb-|10\\/10|-rrb-	NNP|NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|O|NUMBER|O	|||||	10.0		10.0	OHIO STATE* (10|10)	fb:part.ohio_state_10|fb:part.10
+5	2	fb:cell.t_2_2	T, 2-2	t|,|2-2	t|,|2-2	NN|,|CD	O|O|NUMBER	||2.0 - 2.0	2.0		2.0	T|2-2	fb:part.t|fb:part.2_2
+5	3	fb:cell.zaugg_2_pp_deluce_5_gt	Zaugg (2)-PP, Deluce (5)-GT	zaugg|-lrb-|2|-rrb-|pp|,|deluce|-lrb-|5|-rrb-|gt	Zaugg|-lrb-|2|-rrb-|pp|,|deluce|-lrb-|5|-rrb-|gt	NNP|-LRB-|LS|-RRB-|NN|,|NN|-LRB-|CD|-RRB-|NN	PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O|O	||2.0||||||5.0||	2.0		5.0	Zaugg (2)-PP|Deluce (5)-GT	fb:part.zaugg_2_pp|fb:part.deluce_5_gt
+5	4	fb:cell.vetter_17	Vetter, 17	vetter|,|17	Vetter|,|17	NNP|,|CD	PERSON|O|NUMBER	||17.0	17.0			Vetter|17	fb:part.vetter|fb:part.17
+5	5	fb:cell.1_461	1,461	1,461	1,461	CD	NUMBER	1461.0	1461.0			1,461	fb:part.1_461
+6	0	fb:cell.oct_19	Oct. 19	oct.|19	Oct.|19	NNP|CD	DATE|DATE	XXXX-10-19|XXXX-10-19	0.19	xxxx-10-19			
+6	1	fb:cell.st_cloud_state	St. Cloud State*	st.|cloud|state|\\*	St.|Cloud|State|\\*	NNP|NNP|NNP|SYM	O|O|O|O	|||				St. Cloud State*	fb:part.st_cloud_state
+6	2	fb:cell.l_2_1	L, 2-1	l|,|2-1	l|,|2-1	NN|,|CD	O|O|NUMBER	||2.0 - 1.0	2.0		1.0	L|2-1	fb:part.l|fb:part.2_1
+6	3	fb:cell.sanders_4_st_cloud_minn	Sanders (4) St. Cloud, Minn.	sanders|-lrb-|4|-rrb-|st.|cloud|,|minn.|.	Sanders|-lrb-|4|-rrb-|St.|Cloud|,|Minn.|.	NNP|-LRB-|LS|-RRB-|NNP|NNP|,|NNP|.	PERSON|O|NUMBER|O|LOCATION|LOCATION|O|LOCATION|O	||4.0||||||	4.0			Sanders (4) St. Cloud|Minn.	fb:part.sanders_4_st_cloud|fb:part.minn
+6	4	fb:cell.vetter_17	Vetter, 17	vetter|,|17	Vetter|,|17	NNP|,|CD	PERSON|O|NUMBER	||17.0	17.0			Vetter|17	fb:part.vetter|fb:part.17
+6	5	fb:cell.402	402	402	402	CD	NUMBER	402.0	402.0			402	fb:part.402
+7	0	fb:cell.oct_20	Oct. 20	oct.|20	Oct.|20	NNP|CD	DATE|DATE	XXXX-10-20|XXXX-10-20	0.2	xxxx-10-20			
+7	1	fb:cell.st_cloud_state	St. Cloud State*	st.|cloud|state|\\*	St.|Cloud|State|\\*	NNP|NNP|NNP|SYM	O|O|O|O	|||				St. Cloud State*	fb:part.st_cloud_state
+7	2	fb:cell.w_5_0	W, 5-0	w|,|5-0	w|,|5-0	NN|,|CD	O|O|NUMBER	||5.0 - 0.0	5.0		0.0	W|5-0	fb:part.w|fb:part.5_0
+7	3	fb:cell.deluce_6_pp_zaugg_3_deluce_7_zaugg_4_deluce_8_pp_ht	Deluce (6)-PP, Zaugg (3), Deluce (7), Zaugg (4), Deluce (8)-PP-HT	deluce|-lrb-|6|-rrb-|pp|,|zaugg|-lrb-|3|-rrb-|,|deluce|-lrb-|7|-rrb-|,|zaugg|-lrb-|4|-rrb-|,|deluce|-lrb-|8|-rrb-|pp|ht	deluce|-lrb-|6|-rrb-|pp|,|Zaugg|-lrb-|3|-rrb-|,|deluce|-lrb-|7|-rrb-|,|Zaugg|-lrb-|4|-rrb-|,|deluce|-lrb-|8|-rrb-|pp|ht	NN|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-|NN|NN	O|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O	||6.0||||||3.0|||||7.0|||||4.0|||||8.0|||	6.0		3.0	Deluce (6)-PP|Zaugg (3)|Deluce (7)|Zaugg (4)|Deluce (8)-PP-HT	fb:part.deluce_6_pp|fb:part.zaugg_3|fb:part.deluce_7|fb:part.zaugg_4|fb:part.deluce_8_pp_ht
+7	4	fb:cell.vetter_12	Vetter, 12	vetter|,|12	Vetter|,|12	NNP|,|CD	PERSON|O|NUMBER	||12.0	12.0			Vetter|12	fb:part.vetter|fb:part.12
+7	5	fb:cell.287	287	287	287	CD	NUMBER	287.0	287.0			287	fb:part.287
+8	0	fb:cell.oct_26	Oct. 26	oct.|26	Oct.|26	NNP|CD	DATE|DATE	XXXX-10-26|XXXX-10-26	0.26	xxxx-10-26			
+8	1	fb:cell.minnesota_state	MINNESOTA STATE*	minnesota|state|\\*	MINNESOTA|STATE|\\*	NNP|NNP|SYM	LOCATION|O|O	||				MINNESOTA STATE*	fb:part.minnesota_state
+8	2	fb:cell.w_4_2	W, 4-2	w|,|4-2	w|,|4-2	NN|,|CD	O|O|NUMBER	||4.0 - 2.0	4.0		2.0	W|4-2	fb:part.w|fb:part.4_2
+8	3	fb:cell.zaugg_5_giles_2_pp_matthews_2_knight_3	Zaugg (5), Giles (2)-PP, Matthews (2), Knight (3)	zaugg|-lrb-|5|-rrb-|,|giles|-lrb-|2|-rrb-|pp|,|matthews|-lrb-|2|-rrb-|,|knight|-lrb-|3|-rrb-	Zaugg|-lrb-|5|-rrb-|,|Giles|-lrb-|2|-rrb-|pp|,|Matthews|-lrb-|2|-rrb-|,|Knight|-lrb-|3|-rrb-	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|NN|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|O|O|NUMBER|O	||5.0|||||2.0||||||2.0|||||3.0|	5.0		2.0	Zaugg (5)|Giles (2)-PP|Matthews (2)|Knight (3)	fb:part.zaugg_5|fb:part.giles_2_pp|fb:part.matthews_2|fb:part.knight_3
+8	4	fb:cell.vetter_12	Vetter, 12	vetter|,|12	Vetter|,|12	NNP|,|CD	PERSON|O|NUMBER	||12.0	12.0			Vetter|12	fb:part.vetter|fb:part.12
+8	5	fb:cell.2_137	2,137	2,137	2,137	CD	NUMBER	2137.0	2137.0			2,137	fb:part.2_137
+9	0	fb:cell.oct_27	Oct. 27	oct.|27	Oct.|27	NNP|CD	DATE|DATE	XXXX-10-27|XXXX-10-27	0.27	xxxx-10-27			
+9	1	fb:cell.minnesota_state	MINNESOTA STATE*	minnesota|state|\\*	MINNESOTA|STATE|\\*	NNP|NNP|SYM	LOCATION|O|O	||				MINNESOTA STATE*	fb:part.minnesota_state
+9	2	fb:cell.w_4_2	W, 4-2	w|,|4-2	w|,|4-2	NN|,|CD	O|O|NUMBER	||4.0 - 2.0	4.0		2.0	W|4-2	fb:part.w|fb:part.4_2
+9	3	fb:cell.zaugg_6_pp_sanders_5_knight_4_jakiel_1	Zaugg (6)-PP, Sanders (5), Knight (4), Jakiel (1)	zaugg|-lrb-|6|-rrb-|pp|,|sanders|-lrb-|5|-rrb-|,|knight|-lrb-|4|-rrb-|,|jakiel|-lrb-|1|-rrb-	Zaugg|-lrb-|6|-rrb-|pp|,|Sanders|-lrb-|5|-rrb-|,|Knight|-lrb-|4|-rrb-|,|jakiel|-lrb-|1|-rrb-	NNP|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||6.0||||||5.0|||||4.0|||||1.0|	6.0		5.0	Zaugg (6)-PP|Sanders (5)|Knight (4)|Jakiel (1)	fb:part.zaugg_6_pp|fb:part.sanders_5|fb:part.knight_4|fb:part.jakiel_1
+9	4	fb:cell.vetter_16	Vetter, 16	vetter|,|16	Vetter|,|16	NNP|,|CD	PERSON|O|NUMBER	||16.0	16.0			Vetter|16	fb:part.vetter|fb:part.16
+9	5	fb:cell.1_538	1,538	1,538	1,538	CD	NUMBER	1538.0	1538.0			1,538	fb:part.1_538
+10	0	fb:cell.nov_2	Nov. 2	nov.|2	Nov.|2	NNP|CD	DATE|DATE	XXXX-11-02|XXXX-11-02	0.2	xxxx-11-02			
+10	1	fb:cell.minnesota_6_7	MINNESOTA* (6/7)	minnesota|\\*|-lrb-|6\\/7|-rrb-	MINNESOTA|\\*|-lrb-|6\\/7|-rrb-	NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|NUMBER|O	||||	6.0		7.0	MINNESOTA* (6|7)	fb:part.minnesota_6|fb:part.7
+10	2	fb:cell.w_3_0	W, 3-0	w|,|3-0	w|,|3-0	NN|,|CD	O|O|NUMBER	||3.0 - 0.0	3.0		0.0	W|3-0	fb:part.w|fb:part.3_0
+10	3	fb:cell.sanders_6_sanders_7_keseley_5	Sanders (6), Sanders (7), Keseley (5)	sanders|-lrb-|6|-rrb-|,|sanders|-lrb-|7|-rrb-|,|keseley|-lrb-|5|-rrb-	Sanders|-lrb-|6|-rrb-|,|Sanders|-lrb-|7|-rrb-|,|keseley|-lrb-|5|-rrb-	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|LOCATION|O|NUMBER|O	||6.0|||||7.0|||||5.0|	6.0		7.0	Sanders (6)|Sanders (7)|Keseley (5)	fb:part.sanders_6|fb:part.sanders_7|fb:part.keseley_5
+10	4	fb:cell.vetter_22	Vetter, 22	vetter|,|22	Vetter|,|22	NNP|,|CD	PERSON|O|NUMBER	||22.0	22.0			Vetter|22	fb:part.vetter|fb:part.22
+10	5	fb:cell.1_389	1.389	1.389	1.389	CD	NUMBER	1.389	1.389			1.389	fb:part.1_389
+11	0	fb:cell.nov_3	Nov. 3	nov.|3	Nov.|3	NNP|CD	DATE|DATE	XXXX-11-03|XXXX-11-03	0.3	xxxx-11-03			
+11	1	fb:cell.minnesota_6_7	MINNESOTA* (6/7)	minnesota|\\*|-lrb-|6\\/7|-rrb-	MINNESOTA|\\*|-lrb-|6\\/7|-rrb-	NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|NUMBER|O	||||	6.0		7.0	MINNESOTA* (6|7)	fb:part.minnesota_6|fb:part.7
+11	2	fb:cell.l_3_2	L, 3-2	l|,|3-2	l|,|3-2	NN|,|CD	O|O|NUMBER	||3.0 - 2.0	3.0		2.0	L|3-2	fb:part.l|fb:part.3_2
+11	3	fb:cell.duggan_3_pp_lawler_3_pp	Duggan (3)-PP, Lawler (3)-PP	duggan|-lrb-|3|-rrb-|pp|,|lawler|-lrb-|3|-rrb-|pp	Duggan|-lrb-|3|-rrb-|pp|,|lawler|-lrb-|3|-rrb-|pp	NNP|-LRB-|LS|-RRB-|NN|,|NN|-LRB-|CD|-RRB-|NN	PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O	||3.0||||||3.0||	3.0		3.0	Duggan (3)-PP|Lawler (3)-PP	fb:part.duggan_3_pp|fb:part.lawler_3_pp
+11	4	fb:cell.vetter_15	Vetter, 15	vetter|,|15	Vetter|,|15	NNP|,|CD	PERSON|O|NUMBER	||15.0	15.0			Vetter|15	fb:part.vetter|fb:part.15
+11	5	fb:cell.2_404	2,404	2,404	2,404	CD	NUMBER	2404.0	2404.0			2,404	fb:part.2_404
+12	0	fb:cell.nov_17	Nov. 17	nov.|17	Nov.|17	NNP|CD	DATE|DATE	XXXX-11-17|XXXX-11-17	0.17	xxxx-11-17			
+12	1	fb:cell.new_hampshire_2_3	New Hampshire (2/3)	new|hampshire|-lrb-|2\\/3|-rrb-	New|Hampshire|-lrb-|2\\/3|-rrb-	NNP|NNP|-LRB-|CD|-RRB-	O|O|O|NUMBER|O	||||	2.0		3.0	New Hampshire (2|3)	fb:part.new_hampshire_2|fb:part.3
+12	2	fb:cell.l_2_1	L, 2-1	l|,|2-1	l|,|2-1	NN|,|CD	O|O|NUMBER	||2.0 - 1.0	2.0		1.0	L|2-1	fb:part.l|fb:part.2_1
+12	3	fb:cell.knight_5_pp	Knight (5)-PP	knight|-lrb-|5|-rrb-|pp	Knight|-lrb-|5|-rrb-|pp	NNP|-LRB-|CD|-RRB-|NN	O|O|NUMBER|O|O	||5.0||	5.0			Knight (5)-PP	fb:part.knight_5_pp
+12	4	fb:cell.vetter_24	Vetter, 24	vetter|,|24	Vetter|,|24	NNP|,|CD	PERSON|O|NUMBER	||24.0	24.0			Vetter|24	fb:part.vetter|fb:part.24
+12	5	fb:cell.1_196	1,196	1,196	1,196	CD	NUMBER	1196.0	1196.0			1,196	fb:part.1_196
+13	0	fb:cell.nov_18	Nov. 18	nov.|18	Nov.|18	NNP|CD	DATE|DATE	XXXX-11-18|XXXX-11-18	0.18	xxxx-11-18			
+13	1	fb:cell.new_hampshire_2_3	New Hampshire (2/3)	new|hampshire|-lrb-|2\\/3|-rrb-	New|Hampshire|-lrb-|2\\/3|-rrb-	NNP|NNP|-LRB-|CD|-RRB-	O|O|O|NUMBER|O	||||	2.0		3.0	New Hampshire (2|3)	fb:part.new_hampshire_2|fb:part.3
+13	2	fb:cell.l_2_1	L, 2-1	l|,|2-1	l|,|2-1	NN|,|CD	O|O|NUMBER	||2.0 - 1.0	2.0		1.0	L|2-1	fb:part.l|fb:part.2_1
+13	3	fb:cell.sanders_8	Sanders (8)	sanders|-lrb-|8|-rrb-	Sanders|-lrb-|8|-rrb-	NNP|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O	||8.0|	8.0			Sanders (8)	fb:part.sanders_8
+13	4	fb:cell.vetter_20	Vetter, 20	vetter|,|20	Vetter|,|20	NNP|,|CD	PERSON|O|NUMBER	||20.0	20.0			Vetter|20	fb:part.vetter|fb:part.20
+13	5	fb:cell.1_226	1,226	1,226	1,226	CD	NUMBER	1226.0	1226.0			1,226	fb:part.1_226
+14	0	fb:cell.nov_23	Nov. 23	nov.|23	Nov.|23	NNP|CD	DATE|DATE	XXXX-11-23|XXXX-11-23	0.23	xxxx-11-23			
+14	1	fb:cell.bemidji_state	BemIdji State*	bemidji|state|\\*	BemIdji|State|\\*	NNP|NNP|SYM	ORGANIZATION|O|O	||				BemIdji State*	fb:part.bemidji_state
+14	2	fb:cell.w_7_0	W, 7-0	w|,|7-0	w|,|7-0	NN|,|CD	O|O|NUMBER	||7.0 - 0.0	7.0		0.0	W|7-0	fb:part.w|fb:part.7_0
+14	3	fb:cell.zaugg_7_matthews_3_pp_knight_6_pp_zaugg_8_pp_lawler_4_nash_3_duggan_4	Zaugg (7), Matthews (3)-PP, Knight (6)-PP, Zaugg (8)-PP, Lawler (4), Nash (3), Duggan (4)	zaugg|-lrb-|7|-rrb-|,|matthews|-lrb-|3|-rrb-|pp|,|knight|-lrb-|6|-rrb-|pp|,|zaugg|-lrb-|8|-rrb-|pp|,|lawler|-lrb-|4|-rrb-|,|nash|-lrb-|3|-rrb-|,|duggan|-lrb-|4|-rrb-	Zaugg|-lrb-|7|-rrb-|,|Matthews|-lrb-|3|-rrb-|pp|,|Knight|-lrb-|6|-rrb-|pp|,|Zaugg|-lrb-|8|-rrb-|pp|,|lawler|-lrb-|4|-rrb-|,|Nash|-lrb-|3|-rrb-|,|Duggan|-lrb-|4|-rrb-	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|NN|,|NN|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||7.0|||||3.0||||||6.0||||||8.0||||||4.0|||||3.0|||||4.0|	7.0		3.0	Zaugg (7)|Matthews (3)-PP|Knight (6)-PP|Zaugg (8)-PP|Lawler (4)|Nash (3)|Duggan (4)	fb:part.zaugg_7|fb:part.matthews_3_pp|fb:part.knight_6_pp|fb:part.zaugg_8_pp|fb:part.lawler_4|fb:part.nash_3|fb:part.duggan_4
+14	4	fb:cell.vetter_13	Vetter, 13	vetter|,|13	Vetter|,|13	NNP|,|CD	PERSON|O|NUMBER	||13.0	13.0			Vetter|13	fb:part.vetter|fb:part.13
+14	5	fb:cell.121	121	121	121	CD	NUMBER	121.0	121.0			121	fb:part.121
+15	0	fb:cell.nov_24	Nov. 24	nov.|24	Nov.|24	NNP|CD	DATE|DATE	XXXX-11-24|XXXX-11-24	0.24	xxxx-11-24			
+15	1	fb:cell.bemidji_state	BemIdji State*	bemidji|state|\\*	BemIdji|State|\\*	NNP|NNP|SYM	ORGANIZATION|O|O	||				BemIdji State*	fb:part.bemidji_state
+15	2	fb:cell.t_0_0	T, 0-0	t|,|0-0	t|,|0-0	NN|,|CD	O|O|NUMBER	||0.0 - 0.0	0.0		0.0	T|0-0	fb:part.t|fb:part.0_0
+15	3	fb:cell.none	None	none	none	NN	O					None	fb:part.none
+15	4	fb:cell.mccready_14	McCready, 14	mccready|,|14	McCready|,|14	NNP|,|CD	PERSON|O|NUMBER	||14.0	14.0			McCready|14	fb:part.mccready|fb:part.14
+15	5	fb:cell.125	125	125	125	CD	NUMBER	125.0	125.0			125	fb:part.125
+16	0	fb:cell.nov_30	Nov. 30	nov.|30	Nov.|30	NNP|CD	DATE|DATE	XXXX-11-30|XXXX-11-30	0.3	xxxx-11-30			
+16	1	fb:cell.minnesota_duluth_3_3	MINNESOTA DULUTH* (3/3)	minnesota|duluth|\\*|-lrb-|3\\/3|-rrb-	MINNESOTA|DULUTH|\\*|-lrb-|3\\/3|-rrb-	NNP|NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|O|NUMBER|O	|||||	3.0		3.0	MINNESOTA DULUTH* (3|3)	fb:part.minnesota_duluth_3|fb:part.3
+16	2	fb:cell.l_3_1	L, 3-1	l|,|3-1	l|,|3-1	NN|,|CD	O|O|NUMBER	||3.0 - 1.0	3.0		1.0	L|3-1	fb:part.l|fb:part.3_1
+16	3	fb:cell.hanson_1_kohl_center	Hanson (1) Kohl Center	hanson|-lrb-|1|-rrb-|kohl|center	Hanson|-lrb-|1|-rrb-|Kohl|Center	NNP|-LRB-|LS|-RRB-|NNP|NNP	PERSON|O|NUMBER|O|PERSON|PERSON	||1.0|||	1.0			Hanson (1) Kohl Center	fb:part.hanson_1_kohl_center
+16	4	fb:cell.vetter_19	Vetter, 19	vetter|,|19	Vetter|,|19	NNP|,|CD	PERSON|O|NUMBER	||19.0	19.0			Vetter|19	fb:part.vetter|fb:part.19
+16	5	fb:cell.1_342	1,342	1,342	1,342	CD	NUMBER	1342.0	1342.0			1,342	fb:part.1_342
+17	0	fb:cell.dec_1	Dec. 1	dec.|1	Dec.|1	NNP|CD	DATE|DATE	XXXX-12-01|XXXX-12-01	0.1	xxxx-12-01			
+17	1	fb:cell.minnesota_duluth_3_3	MINNESOTA DULUTH* (3/3)	minnesota|duluth|\\*|-lrb-|3\\/3|-rrb-	MINNESOTA|DULUTH|\\*|-lrb-|3\\/3|-rrb-	NNP|NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|O|NUMBER|O	|||||	3.0		3.0	MINNESOTA DULUTH* (3|3)	fb:part.minnesota_duluth_3|fb:part.3
+17	2	fb:cell.l_3_2_ot	L, 3-2 (OT)	l|,|3-2|-lrb-|ot|-rrb-	l|,|3-2|-lrb-|ot|-rrb-	NN|,|CD|-LRB-|NN|-RRB-	O|O|NUMBER|O|O|O	||3.0 - 2.0|||	3.0		2.0	L|3-2 (OT)	fb:part.l|fb:part.3_2_ot
+17	3	fb:cell.lawler_5_pp_duggan_5_pp	Lawler (5)-PP, Duggan (5)-PP	lawler|-lrb-|5|-rrb-|pp|,|duggan|-lrb-|5|-rrb-|pp	lawler|-lrb-|5|-rrb-|pp|,|Duggan|-lrb-|5|-rrb-|pp	NN|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|NN	PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O	||5.0||||||5.0||	5.0		5.0	Lawler (5)-PP|Duggan (5)-PP	fb:part.lawler_5_pp|fb:part.duggan_5_pp
+17	4	fb:cell.vetter_22	Vetter, 22	vetter|,|22	Vetter|,|22	NNP|,|CD	PERSON|O|NUMBER	||22.0	22.0			Vetter|22	fb:part.vetter|fb:part.22
+17	5	fb:cell.1_638	1,638	1,638	1,638	CD	NUMBER	1638.0	1638.0			1,638	fb:part.1_638
+18	0	fb:cell.dec_8	Dec. 8	dec.|8	Dec.|8	NNP|CD	DATE|DATE	XXXX-12-08|XXXX-12-08	0.8	xxxx-12-08			
+18	1	fb:cell.north_dakota	North Dakota*	north|dakota|\\*	North|Dakota|\\*	NNP|NNP|SYM	LOCATION|LOCATION|O	||				North Dakota*	fb:part.north_dakota
+18	2	fb:cell.w_3_2	W, 3-2	w|,|3-2	w|,|3-2	NN|,|CD	O|O|NUMBER	||3.0 - 2.0	3.0		2.0	W|3-2	fb:part.w|fb:part.3_2
+18	3	fb:cell.knight_7_giles_3_lawler_6	Knight (7), Giles (3), Lawler (6)	knight|-lrb-|7|-rrb-|,|giles|-lrb-|3|-rrb-|,|lawler|-lrb-|6|-rrb-	Knight|-lrb-|7|-rrb-|,|Giles|-lrb-|3|-rrb-|,|lawler|-lrb-|6|-rrb-	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-	O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||7.0|||||3.0|||||6.0|	7.0		3.0	Knight (7)|Giles (3)|Lawler (6)	fb:part.knight_7|fb:part.giles_3|fb:part.lawler_6
+18	4	fb:cell.vetter_12	Vetter, 12	vetter|,|12	Vetter|,|12	NNP|,|CD	PERSON|O|NUMBER	||12.0	12.0			Vetter|12	fb:part.vetter|fb:part.12
+18	5	fb:cell.425	425	425	425	CD	NUMBER	425.0	425.0			425	fb:part.425
+19	0	fb:cell.dec_9	Dec. 9	dec.|9	Dec.|9	NNP|CD	DATE|DATE	XXXX-12-09|XXXX-12-09	0.9	xxxx-12-09			
+19	1	fb:cell.north_dakota	North Dakota*	north|dakota|\\*	North|Dakota|\\*	NNP|NNP|SYM	LOCATION|LOCATION|O	||				North Dakota*	fb:part.north_dakota
+19	2	fb:cell.w_4_0	W, 4-0	w|,|4-0	w|,|4-0	NN|,|JJ	O|O|O	||	4.0		0.0	W|4-0	fb:part.w|fb:part.4_0
+19	3	fb:cell.knight_8_nash_4_deluce_9_lawler_7	Knight (8), Nash (4), Deluce (9), Lawler (7)	knight|-lrb-|8|-rrb-|,|nash|-lrb-|4|-rrb-|,|deluce|-lrb-|9|-rrb-|,|lawler|-lrb-|7|-rrb-	Knight|-lrb-|8|-rrb-|,|Nash|-lrb-|4|-rrb-|,|deluce|-lrb-|9|-rrb-|,|lawler|-lrb-|7|-rrb-	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-	O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||8.0|||||4.0|||||9.0|||||7.0|	8.0		4.0	Knight (8)|Nash (4)|Deluce (9)|Lawler (7)	fb:part.knight_8|fb:part.nash_4|fb:part.deluce_9|fb:part.lawler_7
+19	4	fb:cell.vetter_5	Vetter, 5	vetter|,|5	Vetter|,|5	NNP|,|CD	PERSON|O|NUMBER	||5.0	5.0			Vetter|5	fb:part.vetter|fb:part.5
+19	5	fb:cell.221	221	221	221	CD	NUMBER	221.0	221.0			221	fb:part.221
+20	0	fb:cell.jan_4	Jan. 4	jan.|4	Jan.|4	NNP|CD	DATE|DATE	XXXX-01-04|XXXX-01-04	0.4	xxxx-01-04			
+20	1	fb:cell.minnesota_state	MINNESOTA STATE*	minnesota|state|\\*	MINNESOTA|STATE|\\*	NNP|NNP|SYM	LOCATION|O|O	||				MINNESOTA STATE*	fb:part.minnesota_state
+20	2	fb:cell.w_4_1	W, 4-1	w|,|4-1	w|,|4-1	NN|,|CD	O|O|NUMBER	||4.0 - 1.0	4.0		1.0	W|4-1	fb:part.w|fb:part.4_1
+20	3	fb:cell.kranz_2_kranz_3_sanders_9_pp_lawler_8	Kranz (2), Kranz (3), Sanders (9)-PP, Lawler (8)	kranz|-lrb-|2|-rrb-|,|kranz|-lrb-|3|-rrb-|,|sanders|-lrb-|9|-rrb-|pp|,|lawler|-lrb-|8|-rrb-	Kranz|-lrb-|2|-rrb-|,|Kranz|-lrb-|3|-rrb-|,|Sanders|-lrb-|9|-rrb-|pp|,|lawler|-lrb-|8|-rrb-	NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|CD|-RRB-|NN|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O	||2.0|||||3.0|||||9.0||||||8.0|	2.0		3.0	Kranz (2)|Kranz (3)|Sanders (9)-PP|Lawler (8)	fb:part.kranz_2|fb:part.kranz_3|fb:part.sanders_9_pp|fb:part.lawler_8
+20	4	fb:cell.vetter_17	Vetter, 17	vetter|,|17	Vetter|,|17	NNP|,|CD	PERSON|O|NUMBER	||17.0	17.0			Vetter|17	fb:part.vetter|fb:part.17
+20	5	fb:cell.304	304	304	304	CD	NUMBER	304.0	304.0			304	fb:part.304
+21	0	fb:cell.jan_5	Jan. 5	jan.|5	Jan.|5	NNP|CD	DATE|DATE	XXXX-01-05|XXXX-01-05	0.5	xxxx-01-05			
+21	1	fb:cell.minnesota_state	MINNESOTA STATE*	minnesota|state|\\*	MINNESOTA|STATE|\\*	NNP|NNP|SYM	LOCATION|O|O	||				MINNESOTA STATE*	fb:part.minnesota_state
+21	2	fb:cell.w_3_1	W, 3-1	w|,|3-1	w|,|3-1	NN|,|CD	O|O|NUMBER	||3.0 - 1.0	3.0		1.0	W|3-1	fb:part.w|fb:part.3_1
+21	3	fb:cell.keseley_6_lawler_9_pp_knight_9	Keseley (6), Lawler (9)-PP, Knight (9)	keseley|-lrb-|6|-rrb-|,|lawler|-lrb-|9|-rrb-|pp|,|knight|-lrb-|9|-rrb-	keseley|-lrb-|6|-rrb-|,|lawler|-lrb-|9|-rrb-|pp|,|Knight|-lrb-|9|-rrb-	NN|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-	O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O	||6.0|||||9.0||||||9.0|	6.0		9.0	Keseley (6)|Lawler (9)-PP|Knight (9)	fb:part.keseley_6|fb:part.lawler_9_pp|fb:part.knight_9
+21	4	fb:cell.vetter_20	Vetter, 20	vetter|,|20	Vetter|,|20	NNP|,|CD	PERSON|O|NUMBER	||20.0	20.0			Vetter|20	fb:part.vetter|fb:part.20
+21	5	fb:cell.225	225	225	225	CD	NUMBER	225.0	225.0			225	fb:part.225
+22	0	fb:cell.jan_18	Jan. 18	jan.|18	Jan.|18	NNP|CD	DATE|DATE	XXXX-01-18|XXXX-01-18	0.18	xxxx-01-18			
+22	1	fb:cell.ohio_state	OHIO State*	ohio|state|\\*	OHIO|State|\\*	NNP|NNP|SYM	LOCATION|O|O	||				OHIO State*	fb:part.ohio_state
+22	2	fb:cell.w_3_2	W, 3-2	w|,|3-2	w|,|3-2	NN|,|CD	O|O|NUMBER	||3.0 - 2.0	3.0		2.0	W|3-2	fb:part.w|fb:part.3_2
+22	3	fb:cell.duggan_6_zaugg_9_duggan_7_pp	Duggan (6), Zaugg (9), Duggan (7)-PP	duggan|-lrb-|6|-rrb-|,|zaugg|-lrb-|9|-rrb-|,|duggan|-lrb-|7|-rrb-|pp	Duggan|-lrb-|6|-rrb-|,|Zaugg|-lrb-|9|-rrb-|,|Duggan|-lrb-|7|-rrb-|pp	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|NN	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O	||6.0|||||9.0|||||7.0||	6.0		9.0	Duggan (6)|Zaugg (9)|Duggan (7)-PP	fb:part.duggan_6|fb:part.zaugg_9|fb:part.duggan_7_pp
+22	4	fb:cell.vetter_25	Vetter, 25	vetter|,|25	Vetter|,|25	NNP|,|CD	PERSON|O|NUMBER	||25.0	25.0			Vetter|25	fb:part.vetter|fb:part.25
+22	5	fb:cell.231	231	231	231	CD	NUMBER	231.0	231.0			231	fb:part.231
+23	0	fb:cell.jan_19	Jan. 19	jan.|19	Jan.|19	NNP|CD	DATE|DATE	XXXX-01-19|XXXX-01-19	0.19	xxxx-01-19			
+23	1	fb:cell.ohio_state	OHIO State*	ohio|state|\\*	OHIO|State|\\*	NNP|NNP|SYM	LOCATION|O|O	||				OHIO State*	fb:part.ohio_state
+23	2	fb:cell.w_4_1	W, 4-1	w|,|4-1	w|,|4-1	NN|,|CD	O|O|NUMBER	||4.0 - 1.0	4.0		1.0	W|4-1	fb:part.w|fb:part.4_1
+23	3	fb:cell.zaugg_10_pp_knight_10_keseley_7_pp	Zaugg (10)-PP, Knight (10), Keseley (7)-PP,	zaugg|-lrb-|10|-rrb-|pp|,|knight|-lrb-|10|-rrb-|,|keseley|-lrb-|7|-rrb-|pp|,	Zaugg|-lrb-|10|-rrb-|pp|,|Knight|-lrb-|10|-rrb-|,|keseley|-lrb-|7|-rrb-|pp|,	NNP|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|NN|,	PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|LOCATION|O|NUMBER|O|O|O	||10.0||||||10.0|||||7.0|||	10.0		10.0	Zaugg (10)-PP|Knight (10)|Keseley (7)-PP,	fb:part.zaugg_10_pp|fb:part.knight_10|fb:part.keseley_7_pp
+23	4	fb:cell.vetter_20	Vetter, 20	vetter|,|20	Vetter|,|20	NNP|,|CD	PERSON|O|NUMBER	||20.0	20.0			Vetter|20	fb:part.vetter|fb:part.20
+23	5	fb:cell.514_duggan_7	514\nDuggan (7)	514|duggan|-lrb-|7|-rrb-	514|duggan|-lrb-|7|-rrb-	CD|NN|-LRB-|CD|-RRB-	NUMBER|PERSON|O|NUMBER|O	514.0|||7.0|	514.0		7.0	514|Duggan (7)	fb:part.514|fb:part.duggan_7
+24	0	fb:cell.jan_25	Jan. 25	jan.|25	Jan.|25	NNP|CD	DATE|DATE	XXXX-01-25|XXXX-01-25	0.25	xxxx-01-25			
+24	1	fb:cell.st_cloud_state_9_9	ST. CLOUD STATE* (9/9)	st.|cloud|state|\\*|-lrb-|9\\/9|-rrb-	ST.|CLOUD|STATE|\\*|-lrb-|9\\/9|-rrb-	NNP|NNP|NNP|SYM|-LRB-|CD|-RRB-	O|O|O|O|O|NUMBER|O	||||||				ST. CLOUD STATE* (9|9)	fb:part.st_cloud_state_9|fb:part.9
+24	2	fb:cell.w_4_1	W, 4-1	w|,|4-1	w|,|4-1	NN|,|CD	O|O|NUMBER	||4.0 - 1.0	4.0		1.0	W|4-1	fb:part.w|fb:part.4_1
+24	3	fb:cell.sanders_10_deluce_10_zaugg_11_nash_5	Sanders (10), Deluce (10), Zaugg (11), Nash (5)	sanders|-lrb-|10|-rrb-|,|deluce|-lrb-|10|-rrb-|,|zaugg|-lrb-|11|-rrb-|,|nash|-lrb-|5|-rrb-	Sanders|-lrb-|10|-rrb-|,|deluce|-lrb-|10|-rrb-|,|Zaugg|-lrb-|11|-rrb-|,|Nash|-lrb-|5|-rrb-	NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||10.0|||||10.0|||||11.0|||||5.0|	10.0		10.0	Sanders (10)|Deluce (10)|Zaugg (11)|Nash (5)	fb:part.sanders_10|fb:part.deluce_10|fb:part.zaugg_11|fb:part.nash_5
+24	4	fb:cell.vetter_22	Vetter, 22	vetter|,|22	Vetter|,|22	NNP|,|CD	PERSON|O|NUMBER	||22.0	22.0			Vetter|22	fb:part.vetter|fb:part.22
+24	5	fb:cell.1_494	1,494	1,494	1,494	CD	NUMBER	1494.0	1494.0			1,494	fb:part.1_494
+25	0	fb:cell.jan_26	Jan. 26	jan.|26	Jan.|26	NNP|CD	DATE|DATE	XXXX-01-26|XXXX-01-26	0.26	xxxx-01-26			
+25	1	fb:cell.st_cloud_state_9_9	ST. CLOUD STATE* (9/9)	st.|cloud|state|\\*|-lrb-|9\\/9|-rrb-	ST.|CLOUD|STATE|\\*|-lrb-|9\\/9|-rrb-	NNP|NNP|NNP|SYM|-LRB-|CD|-RRB-	O|O|O|O|O|NUMBER|O	||||||				ST. CLOUD STATE* (9|9)	fb:part.st_cloud_state_9|fb:part.9
+25	2	fb:cell.w_4_0	W, 4-0	w|,|4-0	w|,|4-0	NN|,|JJ	O|O|O	||	4.0		0.0	W|4-0	fb:part.w|fb:part.4_0
+25	3	fb:cell.zaugg_12_pp_knight_11_zaugg_13_deluce_11	Zaugg (12)-PP, Knight (11), Zaugg (13), Deluce (11)	zaugg|-lrb-|12|-rrb-|pp|,|knight|-lrb-|11|-rrb-|,|zaugg|-lrb-|13|-rrb-|,|deluce|-lrb-|11|-rrb-	Zaugg|-lrb-|12|-rrb-|pp|,|Knight|-lrb-|11|-rrb-|,|Zaugg|-lrb-|13|-rrb-|,|deluce|-lrb-|11|-rrb-	NNP|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|NUMBER|O	||12.0||||||11.0|||||13.0|||||11.0|	12.0		11.0	Zaugg (12)-PP|Knight (11)|Zaugg (13)|Deluce (11)	fb:part.zaugg_12_pp|fb:part.knight_11|fb:part.zaugg_13|fb:part.deluce_11
+25	4	fb:cell.vetter_18	Vetter, 18	vetter|,|18	Vetter|,|18	NNP|,|CD	PERSON|O|NUMBER	||18.0	18.0			Vetter|18	fb:part.vetter|fb:part.18
+25	5	fb:cell.5_377	5,377	5,377	5,377	CD	NUMBER	5377.0	5377.0			5,377	fb:part.5_377
+26	0	fb:cell.feb_2	Feb. 2	feb.|2	Feb.|2	NNP|CD	DATE|DATE	XXXX-02-02|XXXX-02-02	0.2	xxxx-02-02			
+26	1	fb:cell.north_dakota	North Dakota*	north|dakota|\\*	North|Dakota|\\*	NNP|NNP|SYM	LOCATION|LOCATION|O	||				North Dakota*	fb:part.north_dakota
+26	2	fb:cell.w_6_1	W, 6-1	w|,|6-1	w|,|6-1	NN|,|CD	O|O|NUMBER	||6.0 - 1.0	6.0		1.0	W|6-1	fb:part.w|fb:part.6_1
+26	3	fb:cell.sanders_11_knight_12_pp_knight_13_pp	Sanders (11), Knight (12)-PP, Knight (13)-PP,	sanders|-lrb-|11|-rrb-|,|knight|-lrb-|12|-rrb-|pp|,|knight|-lrb-|13|-rrb-|pp|,	Sanders|-lrb-|11|-rrb-|,|Knight|-lrb-|12|-rrb-|pp|,|Knight|-lrb-|13|-rrb-|pp|,	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|NN|,	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O	||11.0|||||12.0||||||13.0|||	11.0		12.0	Sanders (11)|Knight (12)-PP|Knight (13)-PP,	fb:part.sanders_11|fb:part.knight_12_pp|fb:part.knight_13_pp
+26	4	fb:cell.vetter_16	Vetter, 16	vetter|,|16	Vetter|,|16	NNP|,|CD	PERSON|O|NUMBER	||16.0	16.0			Vetter|16	fb:part.vetter|fb:part.16
+26	5	fb:cell.2_219_knight_14_pp_ht_sanders_12_keseley_8	2,219\nKnight (14)-PP-HT, Sanders (12), Keseley (8)	2,219|knight|-lrb-|14|-rrb-|pp|ht|,|sanders|-lrb-|12|-rrb-|,|keseley|-lrb-|8|-rrb-	2,219|Knight|-lrb-|14|-rrb-|PP|HT|,|Sanders|-lrb-|12|-rrb-|,|keseley|-lrb-|8|-rrb-	CD|NNP|-LRB-|CD|-RRB-|NNP|NNP|,|NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|PERSON|O|NUMBER|O|O|O|O|NUMBER|O	2219.0|||14.0|||||||12.0|||||8.0|	2219.0		14.0	2,219|Knight (14)-PP-HT|Sanders (12)|Keseley (8)	fb:part.2_219|fb:part.knight_14_pp_ht|fb:part.sanders_12|fb:part.keseley_8
+27	0	fb:cell.feb_3	Feb. 3	feb.|3	Feb.|3	NNP|CD	DATE|DATE	XXXX-02-03|XXXX-02-03	0.3	xxxx-02-03			
+27	1	fb:cell.north_dakota	North Dakota*	north|dakota|\\*	North|Dakota|\\*	NNP|NNP|SYM	LOCATION|LOCATION|O	||				North Dakota*	fb:part.north_dakota
+27	2	fb:cell.w_5_2	W, 5-2	w|,|5-2	W|,|5-2	NNP|,|CD	O|O|NUMBER	||5.0 - 2.0	5.0		2.0	W|5-2	fb:part.w|fb:part.5_2
+27	3	fb:cell.duggan_9_pp_duggan_10_windmerier_2_sh_en	Duggan (9)-PP, Duggan (10), Windmerier (2)-SH-EN	duggan|-lrb-|9|-rrb-|pp|,|duggan|-lrb-|10|-rrb-|,|windmerier|-lrb-|2|-rrb-|sh|en	Duggan|-lrb-|9|-rrb-|pp|,|Duggan|-lrb-|10|-rrb-|,|windmerier|-lrb-|2|-rrb-|sh|en	NNP|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|NN|IN	PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|O|O|NUMBER|O|O|O	||9.0||||||10.0|||||2.0|||	9.0		10.0	Duggan (9)-PP|Duggan (10)|Windmerier (2)-SH-EN	fb:part.duggan_9_pp|fb:part.duggan_10|fb:part.windmerier_2_sh_en
+27	4	fb:cell.vetter_12	Vetter, 12	vetter|,|12	Vetter|,|12	NNP|,|CD	PERSON|O|NUMBER	||12.0	12.0			Vetter|12	fb:part.vetter|fb:part.12
+27	5	fb:cell.1_776_duggan_11_ht_knight_15	1,776\nDuggan (11)-HT, Knight (15)	1,776|duggan|-lrb-|11|-rrb-|ht|,|knight|-lrb-|15|-rrb-	1,776|Duggan|-lrb-|11|-rrb-|HT|,|Knight|-lrb-|15|-rrb-	CD|NNP|-LRB-|CD|-RRB-|NNP|,|NNP|-LRB-|CD|-RRB-	NUMBER|PERSON|O|NUMBER|O|O|O|O|O|NUMBER|O	1776.0|||11.0||||||15.0|	1776.0		11.0	1,776|Duggan (11)-HT|Knight (15)	fb:part.1_776|fb:part.duggan_11_ht|fb:part.knight_15
+28	0	fb:cell.feb_8	Feb. 8	feb.|8	Feb.|8	NNP|CD	DATE|DATE	XXXX-02-08|XXXX-02-08	0.8	xxxx-02-08			
+28	1	fb:cell.minnesota_duluth_3_3	MINNESOTA DULUTH* (3/3)	minnesota|duluth|\\*|-lrb-|3\\/3|-rrb-	MINNESOTA|DULUTH|\\*|-lrb-|3\\/3|-rrb-	NNP|NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|O|NUMBER|O	|||||	3.0		3.0	MINNESOTA DULUTH* (3|3)	fb:part.minnesota_duluth_3|fb:part.3
+28	2	fb:cell.w_3_2	W, 3-2	w|,|3-2	w|,|3-2	NN|,|CD	O|O|NUMBER	||3.0 - 2.0	3.0		2.0	W|3-2	fb:part.w|fb:part.3_2
+28	3	fb:cell.sanders_13_duggan_12_hagen_2	Sanders (13), Duggan (12), Hagen (2)	sanders|-lrb-|13|-rrb-|,|duggan|-lrb-|12|-rrb-|,|hagen|-lrb-|2|-rrb-	Sanders|-lrb-|13|-rrb-|,|Duggan|-lrb-|12|-rrb-|,|Hagen|-lrb-|2|-rrb-	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||13.0|||||12.0|||||2.0|	13.0		12.0	Sanders (13)|Duggan (12)|Hagen (2)	fb:part.sanders_13|fb:part.duggan_12|fb:part.hagen_2
+28	4	fb:cell.vetter_27	Vetter, 27	vetter|,|27	Vetter|,|27	NNP|,|CD	PERSON|O|NUMBER	||27.0	27.0			Vetter|27	fb:part.vetter|fb:part.27
+28	5	fb:cell.904	904	904	904	CD	NUMBER	904.0	904.0			904	fb:part.904
+29	0	fb:cell.feb_9	Feb. 9	feb.|9	Feb.|9	NNP|CD	DATE|DATE	XXXX-02-09|XXXX-02-09	0.9	xxxx-02-09			
+29	1	fb:cell.minnesota_duluth_3_3	MINNESOTA DULUTH* (3/3)	minnesota|duluth|\\*|-lrb-|3\\/3|-rrb-	MINNESOTA|DULUTH|\\*|-lrb-|3\\/3|-rrb-	NNP|NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|O|NUMBER|O	|||||	3.0		3.0	MINNESOTA DULUTH* (3|3)	fb:part.minnesota_duluth_3|fb:part.3
+29	2	fb:cell.l_3_2	L, 3-2	l|,|3-2	l|,|3-2	NN|,|CD	O|O|NUMBER	||3.0 - 2.0	3.0		2.0	L|3-2	fb:part.l|fb:part.3_2
+29	3	fb:cell.duggan_13_pp_duggan_14	Duggan (13)-PP, Duggan (14)	duggan|-lrb-|13|-rrb-|pp|,|duggan|-lrb-|14|-rrb-	Duggan|-lrb-|13|-rrb-|pp|,|Duggan|-lrb-|14|-rrb-	NNP|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|O|PERSON|O|NUMBER|O	||13.0||||||14.0|	13.0		14.0	Duggan (13)-PP|Duggan (14)	fb:part.duggan_13_pp|fb:part.duggan_14
+29	4	fb:cell.vetter_27	Vetter, 27	vetter|,|27	Vetter|,|27	NNP|,|CD	PERSON|O|NUMBER	||27.0	27.0			Vetter|27	fb:part.vetter|fb:part.27
+29	5	fb:cell.891	891	891	891	CD	NUMBER	891.0	891.0			891	fb:part.891
+30	0	fb:cell.feb_15	Feb. 15	feb.|15	Feb.|15	NNP|CD	DATE|DATE	XXXX-02-15|XXXX-02-15	0.15	xxxx-02-15			
+30	1	fb:cell.bemidji_state	BemIdji State*	bemidji|state|\\*	BemIdji|State|\\*	NNP|NNP|SYM	ORGANIZATION|O|O	||				BemIdji State*	fb:part.bemidji_state
+30	2	fb:cell.w_4_0	W, 4-0	w|,|4-0	w|,|4-0	NN|,|JJ	O|O|O	||	4.0		0.0	W|4-0	fb:part.w|fb:part.4_0
+30	3	fb:cell.sanders_14_keseley_9_pp_hagen_3_zaugg_14	Sanders (14), Keseley (9)-PP, Hagen (3), Zaugg (14)	sanders|-lrb-|14|-rrb-|,|keseley|-lrb-|9|-rrb-|pp|,|hagen|-lrb-|3|-rrb-|,|zaugg|-lrb-|14|-rrb-	Sanders|-lrb-|14|-rrb-|,|keseley|-lrb-|9|-rrb-|pp|,|Hagen|-lrb-|3|-rrb-|,|Zaugg|-lrb-|14|-rrb-	NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|NN|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|LOCATION|O|NUMBER|O|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||14.0|||||9.0||||||3.0|||||14.0|	14.0		9.0	Sanders (14)|Keseley (9)-PP|Hagen (3)|Zaugg (14)	fb:part.sanders_14|fb:part.keseley_9_pp|fb:part.hagen_3|fb:part.zaugg_14
+30	4	fb:cell.vetter_11	Vetter, 11	vetter|,|11	Vetter|,|11	NNP|,|CD	PERSON|O|NUMBER	||11.0	11.0			Vetter|11	fb:part.vetter|fb:part.11
+30	5	fb:cell.1_318	1,318	1,318	1,318	CD	NUMBER	1318.0	1318.0			1,318	fb:part.1_318
+31	0	fb:cell.feb_16	Feb. 16	feb.|16	Feb.|16	NNP|CD	DATE|DATE	XXXX-02-16|XXXX-02-16	0.16	xxxx-02-16			
+31	1	fb:cell.bemidji_state	BemIdji State*	bemidji|state|\\*	BemIdji|State|\\*	NNP|NNP|SYM	ORGANIZATION|O|O	||				BemIdji State*	fb:part.bemidji_state
+31	2	fb:cell.w_3_0	W, 3-0	w|,|3-0	w|,|3-0	NN|,|CD	O|O|NUMBER	||3.0 - 0.0	3.0		0.0	W|3-0	fb:part.w|fb:part.3_0
+31	3	fb:cell.zaugg_15_nordby_1_duggan_15	Zaugg (15), Nordby (1), Duggan (15)	zaugg|-lrb-|15|-rrb-|,|nordby|-lrb-|1|-rrb-|,|duggan|-lrb-|15|-rrb-	Zaugg|-lrb-|15|-rrb-|,|Nordby|-lrb-|1|-rrb-|,|Duggan|-lrb-|15|-rrb-	NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O	||15.0|||||1.0|||||15.0|	15.0		1.0	Zaugg (15)|Nordby (1)|Duggan (15)	fb:part.zaugg_15|fb:part.nordby_1|fb:part.duggan_15
+31	4	fb:cell.mccready_12	McCready, 12	mccready|,|12	McCready|,|12	NNP|,|CD	PERSON|O|NUMBER	||12.0	12.0			McCready|12	fb:part.mccready|fb:part.12
+31	5	fb:cell.790	790	790	790	CD	NUMBER	790.0	790.0			790	fb:part.790
+32	0	fb:cell.feb_23	Feb. 23	feb.|23	Feb.|23	NNP|CD	DATE|DATE	XXXX-02-23|XXXX-02-23	0.23	xxxx-02-23			
+32	1	fb:cell.minnesota_4_4	MINNESOTA* (4/4)	minnesota|\\*|-lrb-|4\\/4|-rrb-	MINNESOTA|\\*|-lrb-|4\\/4|-rrb-	NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|NUMBER|O	||||	4.0		4.0	MINNESOTA* (4|4)	fb:part.minnesota_4|fb:part.4
+32	2	fb:cell.w_5_1	W, 5-1	w|,|5-1	w|,|5-1	NN|,|CD	O|O|NUMBER	||5.0 - 1.0	5.0		1.0	W|5-1	fb:part.w|fb:part.5_1
+32	3	fb:cell.knight_16_dronen_1_zaugg_16_duggan_16_sh	Knight (16), Dronen (1), Zaugg (16), Duggan (16)-SH,	knight|-lrb-|16|-rrb-|,|dronen|-lrb-|1|-rrb-|,|zaugg|-lrb-|16|-rrb-|,|duggan|-lrb-|16|-rrb-|sh|,	Knight|-lrb-|16|-rrb-|,|dronen|-lrb-|1|-rrb-|,|Zaugg|-lrb-|16|-rrb-|,|Duggan|-lrb-|16|-rrb-|sh|,	NNP|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|,|NNP|-LRB-|CD|-RRB-|NN|,	O|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O	||16.0|||||1.0|||||16.0|||||16.0|||	16.0		1.0	Knight (16)|Dronen (1)|Zaugg (16)|Duggan (16)-SH,	fb:part.knight_16|fb:part.dronen_1|fb:part.zaugg_16|fb:part.duggan_16_sh
+32	4	fb:cell.vetter_32	Vetter, 32	vetter|,|32	Vetter|,|32	NNP|,|CD	PERSON|O|NUMBER	||32.0	32.0			Vetter|32	fb:part.vetter|fb:part.32
+32	5	fb:cell.2_823_duggan_17	2,823\nDuggan (17)	2,823|duggan|-lrb-|17|-rrb-	2,823|Duggan|-lrb-|17|-rrb-	CD|NNP|-LRB-|CD|-RRB-	NUMBER|PERSON|O|NUMBER|O	2823.0|||17.0|	2823.0		17.0	2,823|Duggan (17)	fb:part.2_823|fb:part.duggan_17
+33	0	fb:cell.feb_24	Feb. 24	feb.|24	Feb.|24	NNP|CD	DATE|DATE	XXXX-02-24|XXXX-02-24	0.24	xxxx-02-24			
+33	1	fb:cell.minnesota_4_4	MINNESOTA* (4/4)	minnesota|\\*|-lrb-|4\\/4|-rrb-	MINNESOTA|\\*|-lrb-|4\\/4|-rrb-	NNP|SYM|-LRB-|CD|-RRB-	LOCATION|O|O|NUMBER|O	||||	4.0		4.0	MINNESOTA* (4|4)	fb:part.minnesota_4|fb:part.4
+33	2	fb:cell.t_2_2	T, 2-2	t|,|2-2	t|,|2-2	NN|,|CD	O|O|NUMBER	||2.0 - 2.0	2.0		2.0	T|2-2	fb:part.t|fb:part.2_2
+33	3	fb:cell.matthews_4_knight_17_gt	Matthews (4), Knight (17)-GT	matthews|-lrb-|4|-rrb-|,|knight|-lrb-|17|-rrb-|gt	Matthews|-lrb-|4|-rrb-|,|Knight|-lrb-|17|-rrb-|gt	NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|CD|-RRB-|NN	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O	||4.0|||||17.0||	4.0		17.0	Matthews (4)|Knight (17)-GT	fb:part.matthews_4|fb:part.knight_17_gt
+33	4	fb:cell.vetter_22	Vetter, 22	vetter|,|22	Vetter|,|22	NNP|,|CD	PERSON|O|NUMBER	||22.0	22.0			Vetter|22	fb:part.vetter|fb:part.22
+33	5	fb:cell.2_130	2,130	2,130	2,130	CD	NUMBER	2130.0	2130.0			2,130	fb:part.2_130

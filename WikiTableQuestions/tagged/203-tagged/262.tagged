@@ -1,0 +1,73 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.team	Team	team	Team	NNP	O						
+-1	2	fb:row.row.co_drivers	Co-Drivers	co|drivers	Co|Drivers	NNP|NNPS	O|O	|					
+-1	3	fb:row.row.car	Car	car	car	NN	O						
+-1	4	fb:row.row.class	Class	class	class	NN	O						
+-1	5	fb:row.row.laps	Laps	laps	laps	IN	O						
+-1	6	fb:row.row.pos	Pos.	pos|.	po|.	NNS|.	O|O	|					
+-1	7	fb:row.row.class_pos	Class\nPos.	class|pos|.	Class|Pos|.	NNP|NNP|.	O|O|O	||					
+0	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+0	1	fb:cell.team_den_bla_avis_team_goh	Team Den Blå Avis\n Team Goh	team|den|blå|avis|team|goh	Team|Den|Blå|Avis|Team|Goh	NNP|NNP|NNP|NNP|NNP|NNP	O|O|O|O|O|O	|||||				Team Den Blå Avis|Team Goh	fb:part.team_den_bla_avis|fb:part.team_goh
+0	2	fb:cell.john_nielsen_hiroki_katoh	John Nielsen\n Hiroki Katoh	john|nielsen|hiroki|katoh	John|Nielsen|Hiroki|Katoh	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Nielsen|Hiroki Katoh	fb:part.john_nielsen|fb:part.hiroki_katoh
+0	3	fb:cell.dome_s101_judd	Dome S101-Judd	dome|s101|judd	Dome|S101|Judd	NNP|NNP|NNP	O|O|PERSON	||	101.0				
+0	4	fb:cell.lmp900	LMP900	lmp900	lmp900	NN	O		900.0				
+0	5	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+0	6	fb:cell.dnf	DNF	dnf	dnf	NN	O						
+0	7	fb:cell.dnf	DNF	dnf	dnf	NN	O						
+1	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+1	1	fb:cell.rn_motorsport	RN Motorsport	rn|motorsport	RN|Motorsport	NNP|NNP	O|O	|				RN Motorsport	fb:part.rn_motorsport
+1	2	fb:cell.john_nielsen_hayanari_shimoda	John Nielsen\n Hayanari Shimoda	john|nielsen|hayanari|shimoda	John|Nielsen|Hayanari|Shimoda	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Nielsen|Hayanari Shimoda	fb:part.john_nielsen|fb:part.hayanari_shimoda
+1	3	fb:cell.dba4_03s_zytek	DBA4 03S-Zytek	dba4|03s|zytek	dba4|03|zytek	NN|NN|NN	O|O|O	||	403.0				
+1	4	fb:cell.lmp675	LMP675	lmp675	lmp675	NN	O		675.0				
+1	5	fb:cell.288	288	288	288	CD	NUMBER	288.0	288.0				
+1	6	fb:cell.22nd	22nd	22nd	22nd	JJ	ORDINAL	22.0	22.0				
+1	7	fb:cell.2nd	2nd	2nd	2nd	JJ	ORDINAL	2.0	2.0				
+2	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+2	1	fb:cell.lister_racing	Lister Racing	lister|racing	Lister|race	NNP|VBG	O|O	|				Lister Racing	fb:part.lister_racing
+2	2	fb:cell.john_nielsen_jens_m_ller	John Nielsen\n Jens Møller	john|nielsen|jens|møller	John|Nielsen|Jens|Møller	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Nielsen|Jens Møller	fb:part.john_nielsen|fb:part.jens_m_ller
+2	3	fb:cell.lister_storm_lmp_chevrolet	Lister Storm LMP-Chevrolet	lister|storm|lmp|chevrolet	Lister|storm|lmp|Chevrolet	NNP|NN|NN|NNP	O|O|O|O	|||					
+2	4	fb:cell.lmp1	LMP1	lmp1	lmp1	NN	O		1.0				
+2	5	fb:cell.279	279	279	279	CD	NUMBER	279.0	279.0				
+2	6	fb:cell.24th	24th	24th	24th	JJ	ORDINAL	24.0	24.0				
+2	7	fb:cell.9th	9th	9th	9th	JJ	ORDINAL	9.0	9.0				
+3	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+3	1	fb:cell.zytek_engineering_team_essex_invest	Zytek Engineering\n Team Essex Invest	zytek|engineering|team|essex|invest	Zytek|Engineering|Team|Essex|invest	NNP|NNP|NNP|NNP|VB	O|O|O|O|O	||||				Zytek Engineering|Team Essex Invest	fb:part.zytek_engineering|fb:part.team_essex_invest
+3	2	fb:cell.john_nielsen_philip_andersen	John Nielsen\n Philip Andersen	john|nielsen|philip|andersen	John|Nielsen|Philip|Andersen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Nielsen|Philip Andersen	fb:part.john_nielsen|fb:part.philip_andersen
+3	3	fb:cell.zytek_06s	Zytek 06S	zytek|06s	Zytek|06	NNP|NN	O|O	|	6.0				
+3	4	fb:cell.lmp1	LMP1	lmp1	lmp1	NN	O		1.0				
+3	5	fb:cell.269	269	269	269	CD	NUMBER	269.0	269.0				
+3	6	fb:cell.nc	NC	nc	nc	NN	O						
+3	7	fb:cell.nc	NC	nc	nc	NN	O						
+4	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+4	1	fb:cell.aston_martin_racing_larbre	Aston Martin Racing Larbre	aston|martin|racing|larbre	Aston|Martin|race|larbre	NNP|NNP|VBG|NN	ORGANIZATION|ORGANIZATION|O|O	|||				Aston Martin Racing Larbre	fb:part.aston_martin_racing_larbre
+4	2	fb:cell.christophe_bouchut_fabrizio_gollin	Christophe Bouchut\n Fabrizio Gollin	christophe|bouchut|fabrizio|gollin	Christophe|Bouchut|Fabrizio|Gollin	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Christophe Bouchut|Fabrizio Gollin	fb:part.christophe_bouchut|fb:part.fabrizio_gollin
+4	3	fb:cell.aston_martin_dbr9	Aston Martin DBR9	aston|martin|dbr9	Aston|Martin|dbr9	NNP|NNP|NN	PERSON|PERSON|O	||	9.0				
+4	4	fb:cell.gt1	GT1	gt1	gt1	NN	O		1.0				
+4	5	fb:cell.341	341	341	341	CD	NUMBER	341.0	341.0				
+4	6	fb:cell.7th	7th	7th	7th	IN	ORDINAL	7.0	7.0				
+4	7	fb:cell.3rd	3rd	3rd	3rd	IN	ORDINAL	3.0	3.0				
+5	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+5	1	fb:cell.team_essex	Team Essex	team|essex	Team|Essex	NNP|NNP	O|O	|				Team Essex	fb:part.team_essex
+5	2	fb:cell.john_nielsen_sascha_maassen	John Nielsen\n Sascha Maassen	john|nielsen|sascha|maassen	John|Nielsen|Sascha|Maassen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Nielsen|Sascha Maassen	fb:part.john_nielsen|fb:part.sascha_maassen
+5	3	fb:cell.porsche_rs_spyder_evo	Porsche RS Spyder Evo	porsche|rs|spyder|evo	Porsche|r|Spyder|Evo	NNP|NN|NNP|NNP	O|O|O|O	|||					
+5	4	fb:cell.lmp2	LMP2	lmp2	lmp2	NN	O		2.0				
+5	5	fb:cell.347	347	347	347	CD	NUMBER	347.0	347.0				
+5	6	fb:cell.12th	12th	12th	12th	JJ	ORDINAL	12.0	12.0				
+5	7	fb:cell.2nd	2nd	2nd	2nd	JJ	ORDINAL	2.0	2.0				
+6	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+6	1	fb:cell.team_essex	Team Essex	team|essex	Team|Essex	NNP|NNP	O|O	|				Team Essex	fb:part.team_essex
+6	2	fb:cell.kristian_poulsen_emmanuel_collard	Kristian Poulsen\n Emmanuel Collard	kristian|poulsen|emmanuel|collard	Kristian|Poulsen|Emmanuel|Collard	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Kristian Poulsen|Emmanuel Collard	fb:part.kristian_poulsen|fb:part.emmanuel_collard
+6	3	fb:cell.porsche_rs_spyder_evo	Porsche RS Spyder Evo	porsche|rs|spyder|evo	Porsche|r|Spyder|Evo	NNP|NN|NNP|NNP	O|O|O|O	|||					
+6	4	fb:cell.lmp2	LMP2	lmp2	lmp2	NN	O		2.0				
+6	5	fb:cell.357	357	357	357	CD	NUMBER	357.0	357.0				
+6	6	fb:cell.10th	10th	10th	10th	JJ	ORDINAL	10.0	10.0				
+6	7	fb:cell.1st	1st	1st	1st	CD	ORDINAL	1.0	1.0				
+7	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+7	1	fb:cell.hope_racing	Hope Racing	hope|racing	Hope|race	NNP|VBG	O|O	|				Hope Racing	fb:part.hope_racing
+7	2	fb:cell.steve_zacchia_jan_lammers	Steve Zacchia\n Jan Lammers	steve|zacchia|jan|lammers	Steve|Zacchia|Jan|Lammers	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Steve Zacchia|Jan Lammers	fb:part.steve_zacchia|fb:part.jan_lammers
+7	3	fb:cell.oreca_01_swiss_hytech	Oreca 01-Swiss HyTech	oreca|01|swiss|hytech	Oreca|01|swiss|hytech	NNP|CD|JJ|NN	O|NUMBER|MISC|O	|1.0||	1.0				
+7	4	fb:cell.lmp1	LMP1	lmp1	lmp1	NN	O		1.0				
+7	5	fb:cell.115	115	115	115	CD	NUMBER	115.0	115.0				
+7	6	fb:cell.dnf	DNF	dnf	dnf	NN	O						
+7	7	fb:cell.dnf	DNF	dnf	dnf	NN	O						

@@ -1,0 +1,559 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.first_name	First Name	first|name	First|name	NNP|VB	ORDINAL|O	1.0|					
+-1	1	fb:row.row.surname	Surname	surname	surname	NN	O						
+-1	2	fb:row.row.death_year	Death year	death|year	death|year	NN|NN	O|DURATION	|					
+-1	3	fb:row.row.beginning_of_service	Beginning of\nservice	beginning|of|service	beginning|of|service	NN|IN|NN	O|O|O	||					
+-1	4	fb:row.row.end_of_service	End of\nservice	end|of|service	end|of|service	NN|IN|NN	O|O|O	||					
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.pilzbach	Pilzbach	pilzbach	pilzbach	NN	PERSON						
+0	1	fb:cell.johann_adam	Johann Adam	johann|adam	Johann|Adam	NNP|NNP	PERSON|PERSON	|				Johann Adam	fb:part.johann_adam
+0	2	fb:cell.1802	1802	1802	1802	CD	DATE	1802	1802.0	1802-xx-xx		1802	fb:part.1802
+0	3	fb:cell.1772	1772	1772	1772	CD	DATE	1772	1772.0	1772-xx-xx		1772	fb:part.1772
+0	4	fb:cell.1776	1776	1776	1776	CD	DATE	1776	1776.0	1776-xx-xx		1776	fb:part.1776
+0	5	fb:cell.null											fb:part.null
+1	0	fb:cell.fritsch	Fritsch	fritsch	Fritsch	NNP	PERSON						
+1	1	fb:cell.lorenz	Lorenz	lorenz	Lorenz	NNP	PERSON					Lorenz	fb:part.lorenz
+1	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+1	3	fb:cell.1794	1794	1794	1794	CD	DATE	1794	1794.0	1794-xx-xx		1794	fb:part.1794
+1	4	fb:cell.1798	1798	1798	1798	CD	DATE	1798	1798.0	1798-xx-xx		1798	fb:part.1798
+1	5	fb:cell.null											fb:part.null
+2	0	fb:cell.kempf	Kempf	kempf	Kempf	NNP	PERSON						
+2	1	fb:cell.laurentius	Laurentius	laurentius	Laurentius	NNP	PERSON					Laurentius	fb:part.laurentius
+2	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+2	3	fb:cell.1798	1798	1798	1798	CD	DATE	1798	1798.0	1798-xx-xx		1798	fb:part.1798
+2	4	fb:cell.1812	1812	1812	1812	CD	DATE	1812	1812.0	1812-xx-xx		1812	fb:part.1812
+2	5	fb:cell.null											fb:part.null
+3	0	fb:cell.aizele	Aizele	aizele	Aizele	NNP	O						
+3	1	fb:cell.matthias	Matthias	matthias	Matthias	NNP	PERSON					Matthias	fb:part.matthias
+3	2	fb:cell.1856	1856	1856	1856	CD	DATE	1856	1856.0	1856-xx-xx		1856	fb:part.1856
+3	3	fb:cell.1812	1812	1812	1812	CD	DATE	1812	1812.0	1812-xx-xx		1812	fb:part.1812
+3	4	fb:cell.1836	1836	1836	1836	CD	DATE	1836	1836.0	1836-xx-xx		1836	fb:part.1836
+3	5	fb:cell.null											fb:part.null
+4	0	fb:cell.bottka	Bottka	bottka	bottka	FW	LOCATION						
+4	1	fb:cell.paul	Paul	paul	Paul	NNP	PERSON					Paul	fb:part.paul
+4	2	fb:cell.1872	1872	1872	1872	CD	DATE	1872	1872.0	1872-xx-xx		1872	fb:part.1872
+4	3	fb:cell.1836	1836	1836	1836	CD	DATE	1836	1836.0	1836-xx-xx		1836	fb:part.1836
+4	4	fb:cell.1845	1845	1845	1845	CD	DATE	1845	1845.0	1845-xx-xx		1845	fb:part.1845
+4	5	fb:cell.null											fb:part.null
+5	0	fb:cell.vendeschu	Vendeschu	vendeschu	Vendeschu	NNP	PERSON						
+5	1	fb:cell.augustin_johann	Augustin Johann	augustin|johann	Augustin|Johann	NNP|NNP	PERSON|PERSON	|				Augustin Johann	fb:part.augustin_johann
+5	2	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx		1896	fb:part.1896
+5	3	fb:cell.1845	1845	1845	1845	CD	DATE	1845	1845.0	1845-xx-xx		1845	fb:part.1845
+5	4	fb:cell.1846	1846	1846	1846	CD	DATE	1846	1846.0	1846-xx-xx		1846	fb:part.1846
+5	5	fb:cell.null											fb:part.null
+6	0	fb:cell.einsner	Einsner	einsner	einsner	NN	PERSON						
+6	1	fb:cell.georg	Georg	georg	Georg	NNP	PERSON					Georg	fb:part.georg
+6	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+6	3	fb:cell.1846	1846	1846	1846	CD	DATE	1846	1846.0	1846-xx-xx		1846	fb:part.1846
+6	4	fb:cell.1870	1870	1870	1870	CD	DATE	1870	1870.0	1870-xx-xx		1870	fb:part.1870
+6	5	fb:cell.null											fb:part.null
+7	0	fb:cell.bartl	Bartl	bartl	bartl	NN	O						
+7	1	fb:cell.anton	Anton	anton	Anton	NNP	PERSON					Anton	fb:part.anton
+7	2	fb:cell.1897	1897	1897	1897	CD	DATE	1897	1897.0	1897-xx-xx		1897	fb:part.1897
+7	3	fb:cell.1870	1870	1870	1870	CD	DATE	1870	1870.0	1870-xx-xx		1870	fb:part.1870
+7	4	fb:cell.1893	1893	1893	1893	CD	DATE	1893	1893.0	1893-xx-xx		1893	fb:part.1893
+7	5	fb:cell.null											fb:part.null
+8	0	fb:cell.loschardt	Löschardt	löschardt	löschardt	NN	PERSON						
+8	1	fb:cell.ferdinand	Ferdinand	ferdinand	Ferdinand	NNP	PERSON					Ferdinand	fb:part.ferdinand
+8	2	fb:cell.1914	1914	1914	1914	CD	DATE	1914	1914.0	1914-xx-xx		1914	fb:part.1914
+8	3	fb:cell.1893	1893	1893	1893	CD	DATE	1893	1893.0	1893-xx-xx		1893	fb:part.1893
+8	4	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx		1899	fb:part.1899
+8	5	fb:cell.null											fb:part.null
+9	0	fb:cell.pallanik	Pallanik	pallanik	Pallanik	NNP	O						
+9	1	fb:cell.johann	Johann	johann	Johann	NNP	PERSON					Johann	fb:part.johann
+9	2	fb:cell.1922	1922	1922	1922	CD	DATE	1922	1922.0	1922-xx-xx		1922	fb:part.1922
+9	3	fb:cell.1888	1888	1888	1888	CD	DATE	1888	1888.0	1888-xx-xx		1888	fb:part.1888
+9	4	fb:cell.1910	1910	1910	1910	CD	DATE	1910	1910.0	1910-xx-xx		1910	fb:part.1910
+9	5	fb:cell.null											fb:part.null
+10	0	fb:cell.seitz	Seitz	seitz	Seitz	NNP	PERSON						
+10	1	fb:cell.michael	Michael	michael	Michael	NNP	PERSON					Michael	fb:part.michael
+10	2	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx		1930	fb:part.1930
+10	3	fb:cell.1883	1883	1883	1883	CD	DATE	1883	1883.0	1883-xx-xx		1883	fb:part.1883
+10	4	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx		1892	fb:part.1892
+10	5	fb:cell.null											fb:part.null
+11	0	fb:cell.amschlinger	Amschlinger	amschlinger	Amschlinger	NNP	O						
+11	1	fb:cell.franz	Franz	franz	Franz	NNP	PERSON					Franz	fb:part.franz
+11	2	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx		1946	fb:part.1946
+11	3	fb:cell.1894	1894	1894	1894	CD	DATE	1894	1894.0	1894-xx-xx		1894	fb:part.1894
+11	4	fb:cell.1903	1903	1903	1903	CD	DATE	1903	1903.0	1903-xx-xx		1903	fb:part.1903
+11	5	fb:cell.null											fb:part.null
+12	0	fb:cell.gehl	Gehl	gehl	Gehl	NNP	PERSON						
+12	1	fb:cell.othmar	Othmar	othmar	Othmar	NNP	PERSON					Othmar	fb:part.othmar
+12	2	fb:cell.1951	1951	1951	1951	CD	DATE	1951	1951.0	1951-xx-xx		1951	fb:part.1951
+12	3	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx		1892	fb:part.1892
+12	4	fb:cell.1903	1903	1903	1903	CD	DATE	1903	1903.0	1903-xx-xx		1903	fb:part.1903
+12	5	fb:cell.null											fb:part.null
+13	0	fb:cell.rothmayer	Rothmayer	rothmayer	Rothmayer	NNP	O						
+13	1	fb:cell.siegmund	Siegmund	siegmund	Siegmund	NNP	PERSON					Siegmund	fb:part.siegmund
+13	2	fb:cell.1902	1902	1902	1902	CD	DATE	1902	1902.0	1902-xx-xx		1902	fb:part.1902
+13	3	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx		1899	fb:part.1899
+13	4	fb:cell.1902	1902	1902	1902	CD	DATE	1902	1902.0	1902-xx-xx		1902	fb:part.1902
+13	5	fb:cell.null											fb:part.null
+14	0	fb:cell.schummer	Schummer	schummer	schummer	NN	O						
+14	1	fb:cell.rudolf	Rudolf	rudolf	Rudolf	NNP	PERSON					Rudolf	fb:part.rudolf
+14	2	fb:cell.1944	1944	1944	1944	CD	DATE	1944	1944.0	1944-xx-xx		1944	fb:part.1944
+14	3	fb:cell.1893	1893	1893	1893	CD	DATE	1893	1893.0	1893-xx-xx		1893	fb:part.1893
+14	4	fb:cell.1907	1907	1907	1907	CD	DATE	1907	1907.0	1907-xx-xx		1907	fb:part.1907
+14	5	fb:cell.null											fb:part.null
+15	0	fb:cell.schutz	Schutz	schutz	Schutz	NNP	PERSON						
+15	1	fb:cell.nikolaus	Nikolaus	nikolaus	Nikolaus	NNP	PERSON					Nikolaus	fb:part.nikolaus
+15	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+15	3	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx		1899	fb:part.1899
+15	4	fb:cell.1901	1901	1901	1901	CD	DATE	1901	1901.0	1901-xx-xx		1901	fb:part.1901
+15	5	fb:cell.null											fb:part.null
+16	0	fb:cell.eisele	Eisele	eisele	Eisele	NNP	PERSON						
+16	1	fb:cell.matthias	Matthias	matthias	Matthias	NNP	PERSON					Matthias	fb:part.matthias
+16	2	fb:cell.1944	1944	1944	1944	CD	DATE	1944	1944.0	1944-xx-xx		1944	fb:part.1944
+16	3	fb:cell.1901	1901	1901	1901	CD	DATE	1901	1901.0	1901-xx-xx		1901	fb:part.1901
+16	4	fb:cell.1906	1906	1906	1906	CD	DATE	1906	1906.0	1906-xx-xx		1906	fb:part.1906
+16	5	fb:cell.null											fb:part.null
+17	0	fb:cell.dietl	Dietl	dietl	Dietl	NNP	PERSON						
+17	1	fb:cell.august_gustav	August Gustav	august|gustav	August|Gustav	NNP|NNP	DATE|PERSON	XXXX-08|				August Gustav	fb:part.august_gustav
+17	2	fb:cell.1928	1928	1928	1928	CD	DATE	1928	1928.0	1928-xx-xx		1928	fb:part.1928
+17	3	fb:cell.1901	1901	1901	1901	CD	DATE	1901	1901.0	1901-xx-xx		1901	fb:part.1901
+17	4	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx		1912	fb:part.1912
+17	5	fb:cell.null											fb:part.null
+18	0	fb:cell.misenko	Misenko	misenko	Misenko	NNP	O						
+18	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+18	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+18	3	fb:cell.1902	1902	1902	1902	CD	DATE	1902	1902.0	1902-xx-xx		1902	fb:part.1902
+18	4	fb:cell.1909	1909	1909	1909	CD	DATE	1909	1909.0	1909-xx-xx		1909	fb:part.1909
+18	5	fb:cell.null											fb:part.null
+19	0	fb:cell.palya	Pálya	pálya	pálya	NN	LOCATION						
+19	1	fb:cell.matthias	Matthias	matthias	Matthias	NNP	PERSON					Matthias	fb:part.matthias
+19	2	fb:cell.1915	1915	1915	1915	CD	DATE	1915	1915.0	1915-xx-xx		1915	fb:part.1915
+19	3	fb:cell.1903	1903	1903	1903	CD	DATE	1903	1903.0	1903-xx-xx		1903	fb:part.1903
+19	4	fb:cell.1915	1915	1915	1915	CD	DATE	1915	1915.0	1915-xx-xx		1915	fb:part.1915
+19	5	fb:cell.null											fb:part.null
+20	0	fb:cell.simonich	Simonich	simonich	Simonich	NNP	PERSON						
+20	1	fb:cell.maximilian	Maximilian	maximilian	Maximilian	NNP	PERSON					Maximilian	fb:part.maximilian
+20	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+20	3	fb:cell.1903	1903	1903	1903	CD	DATE	1903	1903.0	1903-xx-xx		1903	fb:part.1903
+20	4	fb:cell.1915	1915	1915	1915	CD	DATE	1915	1915.0	1915-xx-xx		1915	fb:part.1915
+20	5	fb:cell.null											fb:part.null
+21	0	fb:cell.schiller_szantho	Schiller Szánthó	schiller|szánthó	Schiller|Szánthó	NNP|NNP	PERSON|PERSON	|					
+21	1	fb:cell.geza	Géza	géza	géza	NN	PERSON					Géza	fb:part.geza
+21	2	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx		1950	fb:part.1950
+21	3	fb:cell.1908	1908	1908	1908	CD	DATE	1908	1908.0	1908-xx-xx		1908	fb:part.1908
+21	4	fb:cell.1909	1909	1909	1909	CD	DATE	1909	1909.0	1909-xx-xx		1909	fb:part.1909
+21	5	fb:cell.null											fb:part.null
+22	0	fb:cell.elsner	Elsner	elsner	Elsner	NNP	PERSON						
+22	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+22	2	fb:cell.1965	1965	1965	1965	CD	DATE	1965	1965.0	1965-xx-xx		1965	fb:part.1965
+22	3	fb:cell.1911	1911	1911	1911	CD	DATE	1911	1911.0	1911-xx-xx		1911	fb:part.1911
+22	4	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx		1926	fb:part.1926
+22	5	fb:cell.null											fb:part.null
+23	0	fb:cell.schrotz	Schrotz	schrotz	Schrotz	NNP	PERSON						
+23	1	fb:cell.stefan	Stefan	stefan	Stefan	NNP	PERSON					Stefan	fb:part.stefan
+23	2	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx		1967	fb:part.1967
+23	3	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx		1912	fb:part.1912
+23	4	fb:cell.1923	1923	1923	1923	CD	DATE	1923	1923.0	1923-xx-xx		1923	fb:part.1923
+23	5	fb:cell.null											fb:part.null
+24	0	fb:cell.fiedler	Fiedler	fiedler	Fiedler	NNP	PERSON						
+24	1	fb:cell.stefan	Stefan	stefan	Stefan	NNP	PERSON					Stefan	fb:part.stefan
+24	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+24	3	fb:cell.1916	1916	1916	1916	CD	DATE	1916	1916.0	1916-xx-xx		1916	fb:part.1916
+24	4	fb:cell.1923	1923	1923	1923	CD	DATE	1923	1923.0	1923-xx-xx		1923	fb:part.1923
+24	5	fb:cell.null											fb:part.null
+25	0	fb:cell.hager	Hager	hager	Hager	NNP	PERSON						
+25	1	fb:cell.nikolaus	Nikolaus	nikolaus	Nikolaus	NNP	PERSON					Nikolaus	fb:part.nikolaus
+25	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+25	3	fb:cell.1917	1917	1917	1917	CD	DATE	1917	1917.0	1917-xx-xx		1917	fb:part.1917
+25	4	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx		1926	fb:part.1926
+25	5	fb:cell.null											fb:part.null
+26	0	fb:cell.fulda	Fulda	fulda	Fulda	NNP	LOCATION						
+26	1	fb:cell.paul	Paul	paul	Paul	NNP	PERSON					Paul	fb:part.paul
+26	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+26	3	fb:cell.1922	1922	1922	1922	CD	DATE	1922	1922.0	1922-xx-xx		1922	fb:part.1922
+26	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+26	5	fb:cell.null											fb:part.null
+27	0	fb:cell.blaskovics	Blaskovics	blaskovics	blaskovic	NNS	O						
+27	1	fb:cell.adalbert	Adalbert	adalbert	Adalbert	NNP	PERSON					Adalbert	fb:part.adalbert
+27	2	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx		1981	fb:part.1981
+27	3	fb:cell.1912_1956	1912/1956	1912\\/1956	1912\\/1956	CD	NUMBER		1912.0		1956.0	1912|1956	fb:part.1912|fb:part.1956
+27	4	fb:cell.1929_1981	1929/1981	1929\\/1981	1929\\/1981	CD	NUMBER		1929.0		1981.0	1929|1981	fb:part.1929|fb:part.1981
+27	5	fb:cell.null											fb:part.null
+28	0	fb:cell.rudolf	Rudolf	rudolf	Rudolf	NNP	PERSON					Rudolf	fb:part.rudolf
+28	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+28	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+28	3	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx		1912	fb:part.1912
+28	4	fb:cell.1921	1921	1921	1921	CD	DATE	1921	1921.0	1921-xx-xx		1921	fb:part.1921
+28	5	fb:cell.null											fb:part.null
+29	0	fb:cell.waltner	Waltner	waltner	Waltner	NNP	PERSON						
+29	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+29	2	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx		1986	fb:part.1986
+29	3	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx		1920	fb:part.1920
+29	4	fb:cell.1923	1923	1923	1923	CD	DATE	1923	1923.0	1923-xx-xx		1923	fb:part.1923
+29	5	fb:cell.null											fb:part.null
+30	0	fb:cell.rech	Rech	rech	Rech	NNP	PERSON						
+30	1	fb:cell.karl_geza	Karl Géza	karl|géza	Karl|Géza	NNP|NNP	PERSON|PERSON	|				Karl Géza	fb:part.karl_geza
+30	2	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx		1956	fb:part.1956
+30	3	fb:cell.1924	1924	1924	1924	CD	DATE	1924	1924.0	1924-xx-xx		1924	fb:part.1924
+30	4	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx		1925	fb:part.1925
+30	5	fb:cell.null											fb:part.null
+31	0	fb:cell.szekely	Székely	székely	székely	RB	O						
+31	1	fb:cell.franz	Franz	franz	Franz	NNP	PERSON					Franz	fb:part.franz
+31	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+31	3	fb:cell.1923	1923	1923	1923	CD	DATE	1923	1923.0	1923-xx-xx		1923	fb:part.1923
+31	4	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx		1930	fb:part.1930
+31	5	fb:cell.null											fb:part.null
+32	0	fb:cell.toth	Tóth	tóth	tóth	NN	O						
+32	1	fb:cell.stefan	Stefan	stefan	Stefan	NNP	PERSON					Stefan	fb:part.stefan
+32	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+32	3	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx		1936	fb:part.1936
+32	4	fb:cell.1943	1943	1943	1943	CD	DATE	1943	1943.0	1943-xx-xx		1943	fb:part.1943
+32	5	fb:cell.null											fb:part.null
+33	0	fb:cell.lischerong	Lischerong	lischerong	Lischerong	NNP	LOCATION						
+33	1	fb:cell.matthias	Matthias	matthias	Matthias	NNP	PERSON					Matthias	fb:part.matthias
+33	2	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx		1950	fb:part.1950
+33	3	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx		1925	fb:part.1925
+33	4	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx		1950	fb:part.1950
+33	5	fb:cell.null											fb:part.null
+34	0	fb:cell.strubert	Strubert	strubert	Strubert	NNP	PERSON						
+34	1	fb:cell.peter	Peter	peter	Peter	NNP	PERSON					Peter	fb:part.peter
+34	2	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx		1956	fb:part.1956
+34	3	fb:cell.1924	1924	1924	1924	CD	DATE	1924	1924.0	1924-xx-xx		1924	fb:part.1924
+34	4	fb:cell.1932	1932	1932	1932	CD	DATE	1932	1932.0	1932-xx-xx		1932	fb:part.1932
+34	5	fb:cell.null											fb:part.null
+35	0	fb:cell.wild	Wild	wild	Wild	NNP	O						
+35	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+35	2	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx		1961	fb:part.1961
+35	3	fb:cell.1927	1927	1927	1927	CD	DATE	1927	1927.0	1927-xx-xx		1927	fb:part.1927
+35	4	fb:cell.1933	1933	1933	1933	CD	DATE	1933	1933.0	1933-xx-xx		1933	fb:part.1933
+35	5	fb:cell.null											fb:part.null
+36	0	fb:cell.lindnder	Lindnder	lindnder	lindnder	NN	PERSON						
+36	1	fb:cell.wendelin	Wendelin	wendelin	Wendelin	NNP	PERSON					Wendelin	fb:part.wendelin
+36	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+36	3	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx		1925	fb:part.1925
+36	4	fb:cell.1929	1929	1929	1929	CD	DATE	1929	1929.0	1929-xx-xx		1929	fb:part.1929
+36	5	fb:cell.null											fb:part.null
+37	0	fb:cell.eisele	Eisele	eisele	Eisele	NNP	PERSON						
+37	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+37	2	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx		1981	fb:part.1981
+37	3	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx		1926	fb:part.1926
+37	4	fb:cell.1931	1931	1931	1931	CD	DATE	1931	1931.0	1931-xx-xx		1931	fb:part.1931
+37	5	fb:cell.null											fb:part.null
+38	0	fb:cell.juhasz	Juhász	juhász	juhász	NN	PERSON						
+38	1	fb:cell.tibor	Tibor	tibor	Tibor	NNP	PERSON					Tibor	fb:part.tibor
+38	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+38	3	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx		1930	fb:part.1930
+38	4	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx		1938	fb:part.1938
+38	5	fb:cell.null											fb:part.null
+39	0	fb:cell.kauschitz	Kauschitz	kauschitz	Kauschitz	NNP	PERSON						
+39	1	fb:cell.antonius	Antonius	antonius	Antonius	NNP	PERSON					Antonius	fb:part.antonius
+39	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+39	3	fb:cell.1933	1933	1933	1933	CD	DATE	1933	1933.0	1933-xx-xx		1933	fb:part.1933
+39	4	fb:cell.1939	1939	1939	1939	CD	DATE	1939	1939.0	1939-xx-xx		1939	fb:part.1939
+39	5	fb:cell.null											fb:part.null
+40	0	fb:cell.benz	Benz	benz	Benz	NNP	PERSON						
+40	1	fb:cell.johannes	Johannes	johannes	Johannes	NNP	PERSON					Johannes	fb:part.johannes
+40	2	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx		1985	fb:part.1985
+40	3	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx		1936	fb:part.1936
+40	4	fb:cell.1942	1942	1942	1942	CD	DATE	1942	1942.0	1942-xx-xx		1942	fb:part.1942
+40	5	fb:cell.null											fb:part.null
+41	0	fb:cell.janisch	Janisch	janisch	Janisch	NNP	PERSON						
+41	1	fb:cell.desiderius	Desiderius	desiderius	desiderius	NN	O					Desiderius	fb:part.desiderius
+41	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+41	3	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx		1934	fb:part.1934
+41	4	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx		1941	fb:part.1941
+41	5	fb:cell.null											fb:part.null
+42	0	fb:cell.honig	Hönig	hönig	hönig	NN	O						
+42	1	fb:cell.franz	Franz	franz	Franz	NNP	PERSON					Franz	fb:part.franz
+42	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+42	3	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx		1926	fb:part.1926
+42	4	fb:cell.1931	1931	1931	1931	CD	DATE	1931	1931.0	1931-xx-xx		1931	fb:part.1931
+42	5	fb:cell.null											fb:part.null
+43	0	fb:cell.brosos	Brosos	brosos	broso	NNS	PERSON						
+43	1	fb:cell.ludwig	Ludwig	ludwig	Ludwig	NNP	PERSON					Ludwig	fb:part.ludwig
+43	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+43	3	fb:cell.1933	1933	1933	1933	CD	DATE	1933	1933.0	1933-xx-xx		1933	fb:part.1933
+43	4	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx		1938	fb:part.1938
+43	5	fb:cell.null											fb:part.null
+44	0	fb:cell.hardt	Hardt	hardt	Hardt	NNP	PERSON						
+44	1	fb:cell.alfons	Alfons	alfons	alfon	NNS	PERSON					Alfons	fb:part.alfons
+44	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+44	3	fb:cell.1927	1927	1927	1927	CD	DATE	1927	1927.0	1927-xx-xx		1927	fb:part.1927
+44	4	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx		1930	fb:part.1930
+44	5	fb:cell.null											fb:part.null
+45	0	fb:cell.hauptamnn	Hauptamnn	hauptamnn	Hauptamnn	NNP	PERSON						
+45	1	fb:cell.ferdinand	Ferdinand	ferdinand	Ferdinand	NNP	PERSON					Ferdinand	fb:part.ferdinand
+45	2	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx		1989	fb:part.1989
+45	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+45	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+45	5	fb:cell.ordained_as_a_priest_at_resita_on_march_29th_1936	Ordained as a priest at\nReșița on March, 29th 1936	ordained|as|a|priest|at|reșița|on|march|,|29th|1936	ordain|as|a|priest|at|Reșița|on|March|,|29th|1936	VBN|IN|DT|NN|IN|NNP|IN|NNP|,|JJ|CD	O|O|O|O|O|LOCATION|O|DATE|O|ORDINAL|DATE	|||||||XXXX-03||29.0|1936	29.0		1936.0	Ordained as a priest at|Reșița on March|29th 1936	fb:part.ordained_as_a_priest_at|fb:part.resita_on_march|fb:part.29th_1936
+46	0	fb:cell.hampel	Hampel	hampel	hampel	NN	PERSON						
+46	1	fb:cell.karl	Karl	karl	Karl	NNP	PERSON					Karl	fb:part.karl
+46	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+46	3	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx		1934	fb:part.1934
+46	4	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx		1937	fb:part.1937
+46	5	fb:cell.null											fb:part.null
+47	0	fb:cell.willw	Willw	willw	willw	NN	PERSON						
+47	1	fb:cell.andreas	Andreas	andreas	Andreas	NNP	PERSON					Andreas	fb:part.andreas
+47	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+47	3	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx		1941	fb:part.1941
+47	4	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx		1946	fb:part.1946
+47	5	fb:cell.null											fb:part.null
+48	0	fb:cell.schwartz	Schwartz	schwartz	Schwartz	NNP	PERSON						
+48	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+48	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+48	3	fb:cell.1942	1942	1942	1942	CD	DATE	1942	1942.0	1942-xx-xx		1942	fb:part.1942
+48	4	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx		1946	fb:part.1946
+48	5	fb:cell.null											fb:part.null
+49	0	fb:cell.gerstenengst	Gerstenengst	gerstenengst	gerstenengst	NN	O						
+49	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+49	2	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx		1992	fb:part.1992
+49	3	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx		1946	fb:part.1946
+49	4	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx		1958	fb:part.1958
+49	5	fb:cell.null											fb:part.null
+50	0	fb:cell.voo	Vöö	vöö	vöö	NN	O						
+50	1	fb:cell.peter	Peter	peter	Peter	NNP	PERSON					Peter	fb:part.peter
+50	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+50	3	fb:cell.1940	1940	1940	1940	CD	DATE	1940	1940.0	1940-xx-xx		1940	fb:part.1940
+50	4	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx		1941	fb:part.1941
+50	5	fb:cell.null											fb:part.null
+51	0	fb:cell.lackner	Lackner	lackner	Lackner	NNP	PERSON						
+51	1	fb:cell.paul	Paul	paul	Paul	NNP	PERSON					Paul	fb:part.paul
+51	2	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx		1987	fb:part.1987
+51	3	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx		1946	fb:part.1946
+51	4	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx		1987	fb:part.1987
+51	5	fb:cell.null											fb:part.null
+52	0	fb:cell.kokos	Kokos	kokos	koko	NNS	PERSON						
+52	1	fb:cell.alexander	Alexander	alexander	Alexander	NNP	PERSON					Alexander	fb:part.alexander
+52	2	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx		1954	fb:part.1954
+52	3	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx		1953	fb:part.1953
+52	4	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx		1954	fb:part.1954
+52	5	fb:cell.null											fb:part.null
+53	0	fb:cell.buding	Buding	buding	bude	VBG	O						
+53	1	fb:cell.zoltan	Zoltan	zoltan	Zoltan	NNP	PERSON					Zoltan	fb:part.zoltan
+53	2	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx		1996	fb:part.1996
+53	3	fb:cell.1955_1995	1955/1995	1955\\/1995	1955\\/1995	CD	NUMBER		1955.0		1995.0	1955|1995	fb:part.1955|fb:part.1995
+53	4	fb:cell.1956_1996	1956/1996	1956\\/1996	1956\\/1996	CD	NUMBER		1956.0		1996.0	1956|1996	fb:part.1956|fb:part.1996
+53	5	fb:cell.null											fb:part.null
+54	0	fb:cell.katic	Katic	katic	Katic	NNP	PERSON						
+54	1	fb:cell.theodor	Theodor	theodor	Theodor	NNP	PERSON					Theodor	fb:part.theodor
+54	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+54	3	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx		1955	fb:part.1955
+54	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+54	5	fb:cell.null											fb:part.null
+55	0	fb:cell.borth	Borth	borth	Borth	NNP	PERSON						
+55	1	fb:cell.nikolaus_pater_gottfried	Nikolaus\nPater Gottfried	nikolaus|pater|gottfried	Nikolaus|Pater|Gottfried	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Nikolaus|Pater Gottfried	fb:part.nikolaus|fb:part.pater_gottfried
+55	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+55	3	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx		1958	fb:part.1958
+55	4	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx		1959	fb:part.1959
+55	5	fb:cell.null											fb:part.null
+56	0	fb:cell.demele	Demele	demele	demele	NN	O						
+56	1	fb:cell.vencel	Vencel	vencel	Vencel	NNP	PERSON					Vencel	fb:part.vencel
+56	2	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+56	3	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx		1959	fb:part.1959
+56	4	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx		1963	fb:part.1963
+56	5	fb:cell.null											fb:part.null
+57	0	fb:cell.neu	Neu	neu	neu	NN	PERSON						
+57	1	fb:cell.anton	Anton	anton	Anton	NNP	PERSON					Anton	fb:part.anton
+57	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+57	3	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx		1963	fb:part.1963
+57	4	fb:cell.1965	1965	1965	1965	CD	DATE	1965	1965.0	1965-xx-xx		1965	fb:part.1965
+57	5	fb:cell.null											fb:part.null
+58	0	fb:cell.babeu	Babeu	babeu	Babeu	NNP	PERSON						
+58	1	fb:cell.mihai	Mihai	mihai	Mihai	NNP	PERSON					Mihai	fb:part.mihai
+58	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+58	3	fb:cell.1965	1965	1965	1965	CD	DATE	1965	1965.0	1965-xx-xx		1965	fb:part.1965
+58	4	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx		1972	fb:part.1972
+58	5	fb:cell.null											fb:part.null
+59	0	fb:cell.fritz	Fritz	fritz	Fritz	NNP	PERSON						
+59	1	fb:cell.anton	Anton	anton	Anton	NNP	PERSON					Anton	fb:part.anton
+59	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+59	3	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx		1972	fb:part.1972
+59	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx		1974	fb:part.1974
+59	5	fb:cell.null											fb:part.null
+60	0	fb:cell.hajdu	Hajdu	hajdu	Hajdu	NNP	PERSON						
+60	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+60	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+60	3	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx		1974	fb:part.1974
+60	4	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx		1976	fb:part.1976
+60	5	fb:cell.null											fb:part.null
+61	0	fb:cell.hoher	Höher	höher	höher	NN	O						
+61	1	fb:cell.otto	Otto	otto	Otto	NNP	PERSON					Otto	fb:part.otto
+61	2	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx		2006	fb:part.2006
+61	3	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx		1976	fb:part.1976
+61	4	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx		1978	fb:part.1978
+61	5	fb:cell.null											fb:part.null
+62	0	fb:cell.dobra	Dobra	dobra	Dobra	NNP	PERSON						
+62	1	fb:cell.petar	Petar	petar	petar	JJ	PERSON					Petar	fb:part.petar
+62	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+62	3	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx		1977	fb:part.1977
+62	4	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx		1979	fb:part.1979
+62	5	fb:cell.null											fb:part.null
+63	0	fb:cell.henger	Henger	henger	henger	NN	O						
+63	1	fb:cell.michael	Michael	michael	Michael	NNP	PERSON					Michael	fb:part.michael
+63	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+63	3	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx		1978	fb:part.1978
+63	4	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx		1980	fb:part.1980
+63	5	fb:cell.null											fb:part.null
+64	0	fb:cell.nagy	Nagy	nagy	Nagy	NNP	PERSON						
+64	1	fb:cell.carol	Carol	carol	Carol	NNP	PERSON					Carol	fb:part.carol
+64	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+64	3	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx		1979	fb:part.1979
+64	4	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx		1987	fb:part.1987
+64	5	fb:cell.null											fb:part.null
+65	0	fb:cell.dragomir	Dragomir	dragomir	Dragomir	NNP	PERSON						
+65	1	fb:cell.andrei_gheorghe	Andrei Gheorghe	andrei|gheorghe	Andrei|Gheorghe	NNP|NNP	PERSON|PERSON	|				Andrei Gheorghe	fb:part.andrei_gheorghe
+65	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+65	3	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx		1980	fb:part.1980
+65	4	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx		1982	fb:part.1982
+65	5	fb:cell.null											fb:part.null
+66	0	fb:cell.lovasz	Lovasz	lovasz	Lovasz	NNP	PERSON						
+66	1	fb:cell.reinhold	Reinhold	reinhold	Reinhold	NNP	PERSON					Reinhold	fb:part.reinhold
+66	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+66	3	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx		1982	fb:part.1982
+66	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+66	5	fb:cell.null											fb:part.null
+67	0	fb:cell.mutiu	Muțiu	muțiu	muțiu	FW	PERSON						
+67	1	fb:cell.petru	Petru	petru	Petru	NNP	PERSON					Petru	fb:part.petru
+67	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+67	3	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx		1983	fb:part.1983
+67	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+67	5	fb:cell.null											fb:part.null
+68	0	fb:cell.matei	Matei	matei	Matei	NNP	PERSON						
+68	1	fb:cell.peter_gottlieb	Peter Gottlieb	peter|gottlieb	Peter|Gottlieb	NNP|NNP	PERSON|PERSON	|				Peter Gottlieb	fb:part.peter_gottlieb
+68	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+68	3	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx		1983	fb:part.1983
+68	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx		1988	fb:part.1988
+68	5	fb:cell.null											fb:part.null
+69	0	fb:cell.pal	Pál	pál	pál	NN	O						
+69	1	fb:cell.jozsef_csaba	József Csaba	józsef|csaba	József|Csaba	NNP|NNP	PERSON|PERSON	|				József Csaba	fb:part.jozsef_csaba
+69	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+69	3	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx		1987	fb:part.1987
+69	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+69	5	fb:cell.null											fb:part.null
+70	0	fb:cell.szocs	Szöcs	szöcs	szöcs	NNS	O						
+70	1	fb:cell.laszlo	László	lászló	lászló	NN	O					László	fb:part.laszlo
+70	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+70	3	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx		1987	fb:part.1987
+70	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx		1988	fb:part.1988
+70	5	fb:cell.null											fb:part.null
+71	0	fb:cell.medek	Medek	medek	Medek	NNP	PERSON						
+71	1	fb:cell.ioan_siegfried	Ioan Siegfried	ioan|siegfried	Ioan|Siegfried	NNP|NNP	PERSON|PERSON	|				Ioan Siegfried	fb:part.ioan_siegfried
+71	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+71	3	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx		1988	fb:part.1988
+71	4	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx		1989	fb:part.1989
+71	5	fb:cell.null											fb:part.null
+72	0	fb:cell.catici	Catici	catici	Catici	NNP	LOCATION						
+72	1	fb:cell.gheorghe	Gheorghe	gheorghe	Gheorghe	NNP	PERSON					Gheorghe	fb:part.gheorghe
+72	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+72	3	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx		1988	fb:part.1988
+72	4	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx		1992	fb:part.1992
+72	5	fb:cell.null											fb:part.null
+73	0	fb:cell.balogh	Balogh	balogh	Balogh	NNP	PERSON						
+73	1	fb:cell.andras	András	andrás	andrás	NNS	O					András	fb:part.andras
+73	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+73	3	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx		1988	fb:part.1988
+73	4	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx		1989	fb:part.1989
+73	5	fb:cell.null											fb:part.null
+74	0	fb:cell.wonerth	Wonerth	wonerth	wonerth	JJ	LOCATION						
+74	1	fb:cell.laszlo	László	lászló	lászló	NN	O					László	fb:part.laszlo
+74	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+74	3	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx		1989	fb:part.1989
+74	4	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx		1990	fb:part.1990
+74	5	fb:cell.null											fb:part.null
+75	0	fb:cell.ebenspanger	Ebenspanger	ebenspanger	ebenspanger	NN	O						
+75	1	fb:cell.ferenc	Ferenc	ferenc	Ferenc	NNP	PERSON					Ferenc	fb:part.ferenc
+75	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+75	3	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx		1989	fb:part.1989
+75	4	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx		1990	fb:part.1990
+75	5	fb:cell.null											fb:part.null
+76	0	fb:cell.zarioiu	Zarioiu	zarioiu	Zarioiu	NNP	PERSON						
+76	1	fb:cell.iuliu	Iuliu	iuliu	iuliu	FW	O					Iuliu	fb:part.iuliu
+76	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+76	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx		1990	fb:part.1990
+76	4	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx		1991	fb:part.1991
+76	5	fb:cell.null											fb:part.null
+77	0	fb:cell.grega	Grega	grega	Grega	NNP	PERSON						
+77	1	fb:cell.bertram	Bertram	bertram	Bertram	NNP	PERSON					Bertram	fb:part.bertram
+77	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+77	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx		1991	fb:part.1991
+77	4	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx		1993	fb:part.1993
+77	5	fb:cell.null											fb:part.null
+78	0	fb:cell.groza	Groza	groza	Groza	NNP	PERSON						
+78	1	fb:cell.dan	Dán	dán	dán	NN	MISC					Dán	fb:part.dan
+78	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+78	3	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx		1992	fb:part.1992
+78	4	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx		1993	fb:part.1993
+78	5	fb:cell.null											fb:part.null
+79	0	fb:cell.debert	Debert	debert	debert	NN	PERSON						
+79	1	fb:cell.reiner	Reiner	reiner	Reiner	NNP	PERSON					Reiner	fb:part.reiner
+79	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+79	3	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx		1993	fb:part.1993
+79	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx		1994	fb:part.1994
+79	5	fb:cell.null											fb:part.null
+80	0	fb:cell.palie	Pălie	pălie	pălie	NN	O						
+80	1	fb:cell.veniamin	Veniamin	veniamin	Veniamin	NNP	PERSON					Veniamin	fb:part.veniamin
+80	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+80	3	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx		1994	fb:part.1994
+80	4	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx		1996	fb:part.1996
+80	5	fb:cell.null											fb:part.null
+81	0	fb:cell.gyorgy	György	györgy	György	NNP	O						
+81	1	fb:cell.zoltan	Zoltan	zoltan	Zoltan	NNP	PERSON					Zoltan	fb:part.zoltan
+81	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+81	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx		1996	fb:part.1996
+81	4	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx		1998	fb:part.1998
+81	5	fb:cell.null											fb:part.null
+82	0	fb:cell.altman	Altman	altman	Altman	NNP	PERSON						
+82	1	fb:cell.josef	Josef	josef	Josef	NNP	PERSON					Josef	fb:part.josef
+82	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+82	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx		1997	fb:part.1997
+82	4	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+82	5	fb:cell.null											fb:part.null
+83	0	fb:cell.conceanga	Conceangă	conceangă	Conceangă	NNP	O						
+83	1	fb:cell.ulderic	Ulderic	ulderic	ulderic	JJ	O					Ulderic	fb:part.ulderic
+83	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+83	3	fb:cell.1997_2001	1997/2001	1997\\/2001	1997\\/2001	CD	NUMBER		1997.0		2001.0	1997|2001	fb:part.1997|fb:part.2001
+83	4	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx		2003	fb:part.2003
+83	5	fb:cell.null											fb:part.null
+84	0	fb:cell.fecheta	Fechetă	fechetă	fechetă	NN	O						
+84	1	fb:cell.virgil	Virgil	virgil	Virgil	NNP	PERSON					Virgil	fb:part.virgil
+84	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+84	3	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx		1998	fb:part.1998
+84	4	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+84	5	fb:cell.null											fb:part.null
+85	0	fb:cell.tampu	Țâmpu	țâmpu	țâmpu	FW	O						
+85	1	fb:cell.petru	Petru	petru	Petru	NNP	PERSON					Petru	fb:part.petru
+85	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+85	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+85	4	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx		2001	fb:part.2001
+85	5	fb:cell.null											fb:part.null
+86	0	fb:cell.jager	Jäger	jäger	jäger	NN	O						
+86	1	fb:cell.martin	Martin	martin	Martin	NNP	PERSON					Martin	fb:part.martin
+86	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+86	3	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx		2002	fb:part.2002
+86	4	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx		2004	fb:part.2004
+86	5	fb:cell.null											fb:part.null
+87	0	fb:cell.rebegila	Rebegilă	rebegilă	rebegilă	NN	O						
+87	1	fb:cell.petru	Petru	petru	Petru	NNP	PERSON					Petru	fb:part.petru
+87	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+87	3	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx		2004	fb:part.2004
+87	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx		2006	fb:part.2006
+87	5	fb:cell.null											fb:part.null
+88	0	fb:cell.lucacela	Lucacela	lucacela	lucacelum	NN	PERSON						
+88	1	fb:cell.davor	Davor	davor	Davor	NNP	PERSON					Davor	fb:part.davor
+88	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+88	3	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx		2006	fb:part.2006
+88	4	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx		2008	fb:part.2008
+88	5	fb:cell.null											fb:part.null
+89	0	fb:cell.kozovits	Kozovits	kozovits	kozovit	NNS	O						
+89	1	fb:cell.attila	Attila	attila	attilum	NN	PERSON					Attila	fb:part.attila
+89	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+89	3	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx		2008	fb:part.2008
+89	4	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx		2009	fb:part.2009
+89	5	fb:cell.null											fb:part.null
+90	0	fb:cell.lunic	Lunic	lunic	lunic	JJ	PERSON						
+90	1	fb:cell.daniel	Daniel	daniel	Daniel	NNP	PERSON					Daniel	fb:part.daniel
+90	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+90	3	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx		2009	fb:part.2009
+90	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+90	5	fb:cell.null											fb:part.null
+91	0	fb:cell.varga	Varga	varga	Varga	NNP	PERSON						
+91	1	fb:cell.janos	János	jános	jános	NNS	PERSON					János	fb:part.janos
+91	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+91	3	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx		2013	fb:part.2013
+91	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+91	5	fb:cell.null											fb:part.null

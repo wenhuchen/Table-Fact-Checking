@@ -1,0 +1,141 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.route_number	Route Number	route|number	route|number	NN|NN	O|O	|					
+-1	1	fb:row.row.route	Route	route	route	NN	O						
+-1	2	fb:row.row.via	Via	via	Via	NNP	O						
+-1	3	fb:row.row.operator	Operator	operator	operator	NN	O						
+-1	4	fb:row.row.operation	Operation	operation	operation	NN	O						
+0	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+0	1	fb:cell.ilford_hainault_street_to_oxford_circus	Ilford Hainault Street to Oxford Circus	ilford|hainault|street|to|oxford|circus	Ilford|Hainault|Street|to|Oxford|Circus	NNP|NNP|NNP|TO|NNP|NNP	ORGANIZATION|O|O|O|O|O	|||||					
+0	2	fb:cell.holborn_aldgate_stratford	Holborn , Aldgate , Stratford	holborn|,|aldgate|,|stratford	Holborn|,|Aldgate|,|Stratford	NNP|,|NNP|,|NNP	PERSON|O|LOCATION|O|LOCATION	||||				Holborn|Aldgate|Stratford	fb:part.holborn|fb:part.aldgate|fb:part.stratford
+0	3	fb:cell.first_london	First London	first|london	First|London	NNP|NNP	ORDINAL|LOCATION	1.0|					
+0	4	fb:cell.24_hours_london_buses_service_times	24 Hours. London Buses service. Times	24|hours|.|london|buses|service|.|times	24|hour|.|London|Buses|service|.|Times	CD|NNS|.|NNP|NNPS|NN|.|NNP	DURATION|DURATION|O|LOCATION|O|O|O|O	24.0|24.0||||||	24.0				
+1	0	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+1	1	fb:cell.leytonstone_station_to_romford_station	Leytonstone Station  to Romford Station	leytonstone|station|to|romford|station	Leytonstone|Station|to|Romford|Station	NNP|NNP|TO|NNP|NNP	O|O|O|O|O	||||					
+1	2	fb:cell.wanstead_redbridge_gants_hill_newbury_park	Wanstead , Redbridge , Gants Hill , Newbury Park	wanstead|,|redbridge|,|gants|hill|,|newbury|park	Wanstead|,|Redbridge|,|Gants|Hill|,|Newbury|Park	NNP|,|NNP|,|NNP|NNP|,|NNP|NNP	LOCATION|O|ORGANIZATION|O|PERSON|PERSON|O|LOCATION|LOCATION	||||||||				Wanstead|Redbridge|Gants Hill|Newbury Park	fb:part.wanstead|fb:part.redbridge|fb:part.gants_hill|fb:part.newbury_park
+1	3	fb:cell.arriva_london	Arriva London	arriva|london	Arriva|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+1	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+2	0	fb:cell.86	86	86	86	CD	NUMBER	86.0	86.0				
+2	1	fb:cell.stratford_bus_station_to_romford_station	Stratford Bus Station to Romford Station	stratford|bus|station|to|romford|station	Stratford|Bus|Station|to|Romford|Station	NNP|NNP|NNP|TO|NNP|NNP	LOCATION|O|O|O|LOCATION|LOCATION	|||||					
+2	2	fb:cell.manor_park_ilford_seven_kings	Manor Park, Ilford , Seven Kings	manor|park|,|ilford|,|seven|kings	Manor|Park|,|Ilford|,|seven|king	NNP|NNP|,|NNP|,|CD|NNS	O|O|O|LOCATION|O|NUMBER|O	|||||7.0|				Manor Park|Ilford|Seven Kings	fb:part.manor_park|fb:part.ilford|fb:part.seven_kings
+2	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+2	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+3	0	fb:cell.101	101	101	101	CD	NUMBER	101.0	101.0				
+3	1	fb:cell.wanstead_station_to_gallions_reach_shopping_centre	Wanstead Station  to Gallions Reach Shopping Centre	wanstead|station|to|gallions|reach|shopping|centre	Wanstead|Station|to|Gallions|Reach|Shopping|Centre	NNP|NNP|TO|NNP|NNP|NNP|NNP	LOCATION|LOCATION|O|O|O|O|O	||||||					
+3	2	fb:cell.manor_park_east_ham_beckton	Manor Park , East Ham , Beckton	manor|park|,|east|ham|,|beckton	Manor|Park|,|East|Ham|,|Beckton	NNP|NNP|,|NNP|NNP|,|NNP	O|O|O|ORGANIZATION|ORGANIZATION|O|LOCATION	||||||				Manor Park|East Ham|Beckton	fb:part.manor_park|fb:part.east_ham|fb:part.beckton
+3	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+3	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+4	0	fb:cell.123	123	123	123	CD	NUMBER	123.0	123.0				
+4	1	fb:cell.ilford_hainault_street_to_wood_green_bus_station	Ilford Hainault Street to Wood Green Bus Station	ilford|hainault|street|to|wood|green|bus|station	Ilford|Hainault|Street|to|Wood|Green|Bus|Station	NNP|NNP|NNP|TO|NNP|NNP|NNP|NNP	LOCATION|LOCATION|LOCATION|O|O|O|O|O	|||||||					
+4	2	fb:cell.gants_hill_walthamstow_tottenham_turnpike_lane	Gants Hill , Walthamstow, Tottenham, Turnpike Lane	gants|hill|,|walthamstow|,|tottenham|,|turnpike|lane	Gants|Hill|,|Walthamstow|,|Tottenham|,|Turnpike|Lane	NNP|NNP|,|NNP|,|NNP|,|NNP|NNP	PERSON|PERSON|O|LOCATION|O|LOCATION|O|O|O	||||||||				Gants Hill|Walthamstow|Tottenham|Turnpike Lane	fb:part.gants_hill|fb:part.walthamstow|fb:part.tottenham|fb:part.turnpike_lane
+4	3	fb:cell.arriva_london	Arriva London	arriva|london	Arriva|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+4	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+5	0	fb:cell.128	128	128	128	CD	NUMBER	128.0	128.0				
+5	1	fb:cell.claybury_broadway_to_romford_station	Claybury Broadway to Romford Station	claybury|broadway|to|romford|station	Claybury|Broadway|to|Romford|Station	NNP|NNP|TO|NNP|NNP	O|O|O|LOCATION|LOCATION	||||					
+5	2	fb:cell.barkingside_gants_hill_ilford	Barkingside, Gants Hill , Ilford	barkingside|,|gants|hill|,|ilford	Barkingside|,|Gants|Hill|,|Ilford	NNP|,|NNP|NNP|,|NNP	O|O|PERSON|PERSON|O|LOCATION	|||||				Barkingside|Gants Hill|Ilford	fb:part.barkingside|fb:part.gants_hill|fb:part.ilford
+5	3	fb:cell.arriva_london	Arriva London	arriva|london	Arriva|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+5	4	fb:cell.24_hours_london_buses_service_times	24 Hours. London Buses service. Times	24|hours|.|london|buses|service|.|times	24|hour|.|London|Buses|service|.|Times	CD|NNS|.|NNP|NNPS|NN|.|NNP	DURATION|DURATION|O|LOCATION|O|O|O|O	24.0|24.0||||||	24.0				
+6	0	fb:cell.145	145	145	145	CD	NUMBER	145.0	145.0				
+6	1	fb:cell.leytonstone_to_dagenham_asda	Leytonstone to Dagenham Asda	leytonstone|to|dagenham|asda	leytonstone|to|Dagenham|Asda	NN|TO|NNP|NNP	O|O|LOCATION|LOCATION	|||					
+6	2	fb:cell.redbridge_ilford_becontree	Redbridge , Ilford, Becontree	redbridge|,|ilford|,|becontree	Redbridge|,|Ilford|,|Becontree	NNP|,|NNP|,|NNP	ORGANIZATION|O|LOCATION|O|PERSON	||||				Redbridge|Ilford|Becontree	fb:part.redbridge|fb:part.ilford|fb:part.becontree
+6	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+7	0	fb:cell.147	147	147	147	CD	NUMBER	147.0	147.0				
+7	1	fb:cell.ilford_hainault_street_to_canning_town_station	Ilford Hainault Street to Canning Town station	ilford|hainault|street|to|canning|town|station	Ilford|Hainault|Street|to|Canning|Town|station	NNP|NNP|NNP|TO|NNP|NNP|NN	LOCATION|LOCATION|LOCATION|O|O|O|O	||||||					
+7	2	fb:cell.east_ham_newham_general_hospital_custom_house	East Ham , Newham General Hospital, Custom House	east|ham|,|newham|general|hospital|,|custom|house	East|Ham|,|Newham|General|Hospital|,|Custom|House	NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION	||||||||				East Ham|Newham General Hospital|Custom House	fb:part.east_ham|fb:part.newham_general_hospital|fb:part.custom_house
+7	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+7	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+8	0	fb:cell.150	150	150	150	CD	NUMBER	150.0	150.0				
+8	1	fb:cell.chigwell_row_to_becontree_heath_bus_station	Chigwell Row to Becontree Heath Bus Station	chigwell|row|to|becontree|heath|bus|station	Chigwell|Row|to|Becontree|Heath|Bus|Station	NNP|NNP|TO|NNP|NNP|NNP|NNP	MISC|MISC|O|O|O|O|O	||||||					
+8	2	fb:cell.hainault_barkingside_gants_hill_ilford	Hainault  Barkingside, Gants Hill , Ilford	hainault|barkingside|,|gants|hill|,|ilford	Hainault|Barkingside|,|Gants|Hill|,|Ilford	NNP|NNP|,|NNP|NNP|,|NNP	PERSON|PERSON|O|PERSON|PERSON|O|LOCATION	||||||				Hainault  Barkingside|Gants Hill|Ilford	fb:part.hainault_barkingside|fb:part.gants_hill|fb:part.ilford
+8	3	fb:cell.arriva_london	Arriva London	arriva|london	Arriva|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+8	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+9	0	fb:cell.167	167	167	167	CD	NUMBER	167.0	167.0				
+9	1	fb:cell.debden_to_ilford_hainault_street	Debden  to Ilford Hainault Street	debden|to|ilford|hainault|street	debden|to|Ilford|Hainault|Street	JJ|TO|NNP|NNP|NNP	O|O|O|O|O	||||					
+9	2	fb:cell.loughton_barkingside_gants_hill	Loughton , Barkingside, Gants Hill	loughton|,|barkingside|,|gants|hill	Loughton|,|Barkingside|,|Gants|Hill	NNP|,|NNP|,|NNP|NNP	PERSON|O|O|O|PERSON|PERSON	|||||				Loughton|Barkingside|Gants Hill	fb:part.loughton|fb:part.barkingside|fb:part.gants_hill
+9	3	fb:cell.blue_triangle	Blue Triangle	blue|triangle	Blue|Triangle	NNP|NNP	O|O	|					
+9	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+10	0	fb:cell.169	169	169	169	CD	NUMBER	169.0	169.0				
+10	1	fb:cell.barking_town_centre_to_clayhall_the_glade	Barking Town Centre  to Clayhall The Glade	barking|town|centre|to|clayhall|the|glade	Barking|Town|Centre|to|Clayhall|The|Glade	NNP|NNP|NNP|TO|NNP|NNP|NNP	O|O|O|O|O|O|O	||||||					
+10	2	fb:cell.ilford_newbury_park_barkingside	Ilford , Newbury Park, Barkingside	ilford|,|newbury|park|,|barkingside	Ilford|,|Newbury|Park|,|Barkingside	NNP|,|NNP|NNP|,|NNP	LOCATION|O|LOCATION|LOCATION|O|O	|||||				Ilford|Newbury Park|Barkingside	fb:part.ilford|fb:part.newbury_park|fb:part.barkingside
+10	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+10	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+11	0	fb:cell.179	179	179	179	CD	NUMBER	179.0	179.0				
+11	1	fb:cell.chingford_to_ilford_hainault_street	Chingford  to Ilford Hainault Street	chingford|to|ilford|hainault|street	Chingford|to|Ilford|Hainault|Street	NNP|TO|NNP|NNP|NNP	LOCATION|O|O|O|O	||||					
+11	2	fb:cell.woodford_green_south_woodford_gants_hill	Woodford Green, South Woodford , Gants Hill	woodford|green|,|south|woodford|,|gants|hill	Woodford|Green|,|South|Woodford|,|Gants|Hill	NNP|NNP|,|NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION|O|PERSON|PERSON	|||||||				Woodford Green|South Woodford|Gants Hill	fb:part.woodford_green|fb:part.south_woodford|fb:part.gants_hill
+11	3	fb:cell.first_london	First London	first|london	First|London	NNP|NNP	ORDINAL|LOCATION	1.0|					
+11	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+12	0	fb:cell.247	247	247	247	CD	NUMBER	247.0	247.0				
+12	1	fb:cell.barkingside_station_to_romford_station	Barkingside Station  to Romford Station	barkingside|station|to|romford|station	Barkingside|Station|to|Romford|Station	NNP|NNP|TO|NNP|NNP	O|O|O|O|O	||||					
+12	2	fb:cell.hainault_collier_row	Hainault , Collier Row	hainault|,|collier|row	Hainault|,|Collier|Row	NNP|,|NNP|NNP	O|O|PERSON|PERSON	|||				Hainault|Collier Row	fb:part.hainault|fb:part.collier_row
+12	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+12	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+13	0	fb:cell.275	275	275	275	CD	NUMBER	275.0	275.0				
+13	1	fb:cell.walthamstow_st_james_street_station_to_barkingside_tesco	Walthamstow St James Street Station  to Barkingside Tesco	walthamstow|st|james|street|station|to|barkingside|tesco	Walthamstow|St|James|Street|Station|to|Barkingside|Tesco	NNP|NNP|NNP|NNP|NNP|TO|NNP|NNP	LOCATION|O|O|O|O|O|O|O	|||||||					
+13	2	fb:cell.highams_park_woodford_green_woodford_bridge	Highams Park, Woodford Green, Woodford Bridge	highams|park|,|woodford|green|,|woodford|bridge	Highams|Park|,|Woodford|Green|,|Woodford|Bridge	NNP|NNP|,|NNP|NNP|,|NNP|NNP	O|O|O|LOCATION|LOCATION|O|LOCATION|LOCATION	|||||||				Highams Park|Woodford Green|Woodford Bridge	fb:part.highams_park|fb:part.woodford_green|fb:part.woodford_bridge
+13	3	fb:cell.arriva_london	Arriva London	arriva|london	Arriva|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+13	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+14	0	fb:cell.296	296	296	296	CD	NUMBER	296.0	296.0				
+14	1	fb:cell.ilford_sainbury_s_to_romford_station	Ilford Sainbury's to Romford Station	ilford|sainbury|'s|to|romford|station	Ilford|Sainbury|'s|to|Romford|Station	NNP|NNP|POS|TO|NNP|NNP	PERSON|PERSON|O|O|O|O	|||||					
+14	2	fb:cell.gants_hill_newbury_park_rose_lane	Gants Hill , Newbury Park, Rose Lane	gants|hill|,|newbury|park|,|rose|lane	Gants|Hill|,|Newbury|Park|,|Rose|Lane	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|LOCATION|LOCATION|O|PERSON|PERSON	|||||||				Gants Hill|Newbury Park|Rose Lane	fb:part.gants_hill|fb:part.newbury_park|fb:part.rose_lane
+14	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+14	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+15	0	fb:cell.308	308	308	308	CD	NUMBER	308.0	308.0				
+15	1	fb:cell.wanstead_station_to_clapton_park_millfields_road	Wanstead Station  to Clapton Park Millfields Road	wanstead|station|to|clapton|park|millfields|road	Wanstead|Station|to|Clapton|Park|Millfields|Road	NNP|NNP|TO|NNP|NNP|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION|LOCATION|LOCATION	||||||					
+15	2	fb:cell.forest_gate_stratford_leyton	Forest Gate , Stratford , Leyton	forest|gate|,|stratford|,|leyton	forest|gate|,|Stratford|,|Leyton	NN|NN|,|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Forest Gate|Stratford|Leyton	fb:part.forest_gate|fb:part.stratford|fb:part.leyton
+15	3	fb:cell.first_london	First London	first|london	First|London	NNP|NNP	ORDINAL|LOCATION	1.0|					
+15	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+16	0	fb:cell.362	362	362	362	CD	NUMBER	362.0	362.0				
+16	1	fb:cell.grange_hill_to_king_george_hospital	Grange Hill  to King George Hospital	grange|hill|to|king|george|hospital	Grange|Hill|to|King|George|Hospital	NNP|NNP|TO|NNP|NNP|NNP	PERSON|PERSON|O|O|PERSON|PERSON	|||||					
+16	2	fb:cell.hainault_marks_gate_chadwell_heath	Hainault, Marks Gate, Chadwell Heath	hainault|,|marks|gate|,|chadwell|heath	Hainault|,|Marks|Gate|,|Chadwell|Heath	NNP|,|NNP|NNP|,|NNP|NNP	O|O|O|O|O|PERSON|PERSON	||||||				Hainault|Marks Gate|Chadwell Heath	fb:part.hainault|fb:part.marks_gate|fb:part.chadwell_heath
+16	3	fb:cell.blue_triangle	Blue Triangle	blue|triangle	Blue|Triangle	NNP|NNP	O|O	|					
+16	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+17	0	fb:cell.364	364	364	364	CD	NUMBER	364.0	364.0				
+17	1	fb:cell.ilford_hainault_street_to_dagenham_east_station	Ilford Hainault Street to Dagenham East Station	ilford|hainault|street|to|dagenham|east|station	Ilford|Hainault|Street|to|Dagenham|East|Station	NNP|NNP|NNP|TO|NNP|NNP|NNP	LOCATION|LOCATION|LOCATION|O|LOCATION|LOCATION|LOCATION	||||||					
+17	2	fb:cell.goodmayes_becontree_dagenham_heathway	Goodmayes , Becontree, Dagenham Heathway	goodmayes|,|becontree|,|dagenham|heathway	Goodmayes|,|Becontree|,|Dagenham|Heathway	NNP|,|NNP|,|NNP|NNP	O|O|PERSON|O|LOCATION|LOCATION	|||||				Goodmayes|Becontree|Dagenham Heathway	fb:part.goodmayes|fb:part.becontree|fb:part.dagenham_heathway
+17	3	fb:cell.blue_triangle	Blue Triangle	blue|triangle	Blue|Triangle	NNP|NNP	O|O	|					
+17	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+18	0	fb:cell.366	366	366	366	CD	NUMBER	366.0	366.0				
+18	1	fb:cell.redbridge_falmouth_gardens_to_beckton_station	Redbridge Falmouth Gardens to Beckton Station	redbridge|falmouth|gardens|to|beckton|station	Redbridge|Falmouth|Gardens|to|Beckton|Station	NNP|NNP|NNP|TO|NNP|NNP	ORGANIZATION|O|O|O|LOCATION|LOCATION	|||||					
+18	2	fb:cell.redbridge_ilford_barking	Redbridge , Ilford, Barking	redbridge|,|ilford|,|barking	Redbridge|,|Ilford|,|bark	NNP|,|NNP|,|VBG	ORGANIZATION|O|LOCATION|O|O	||||				Redbridge|Ilford|Barking	fb:part.redbridge|fb:part.ilford|fb:part.barking
+18	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+18	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+19	0	fb:cell.396	396	396	396	CD	NUMBER	396.0	396.0				
+19	1	fb:cell.ilford_sainbury_s_to_king_george_hospital	Ilford Sainbury's to King George Hospital	ilford|sainbury|'s|to|king|george|hospital	Ilford|Sainbury|'s|to|King|George|Hospital	NNP|NNP|POS|TO|NNP|NNP|NNP	PERSON|PERSON|O|O|O|PERSON|PERSON	||||||					
+19	2	fb:cell.gants_hill_newbury_park_little_heath	Gants Hill , Newbury Park, Little Heath	gants|hill|,|newbury|park|,|little|heath	Gants|Hill|,|Newbury|Park|,|Little|Heath	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|LOCATION|LOCATION|O|O|O	|||||||				Gants Hill|Newbury Park|Little Heath	fb:part.gants_hill|fb:part.newbury_park|fb:part.little_heath
+19	3	fb:cell.stagecoach_london	Stagecoach London	stagecoach|london	Stagecoach|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+19	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+20	0	fb:cell.462	462	462	462	CD	NUMBER	462.0	462.0				
+20	1	fb:cell.hainault_the_lowe_to_ilford_hainault_street	Hainault The Lowe to Ilford Hainault Street	hainault|the|lowe|to|ilford|hainault|street	Hainault|The|Lowe|to|Ilford|Hainault|Street	NNP|NNP|NNP|TO|NNP|NNP|NNP	O|O|PERSON|O|O|O|O	||||||					
+20	2	fb:cell.grange_hill_barkingside_gants_hill	Grange Hill , Barkingside, Gants Hill	grange|hill|,|barkingside|,|gants|hill	Grange|Hill|,|Barkingside|,|Gants|Hill	NNP|NNP|,|NNP|,|NNP|NNP	PERSON|PERSON|O|O|O|PERSON|PERSON	||||||				Grange Hill|Barkingside|Gants Hill	fb:part.grange_hill|fb:part.barkingside|fb:part.gants_hill
+20	3	fb:cell.arriva_london	Arriva London	arriva|london	Arriva|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+20	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+21	0	fb:cell.el1	EL1	el1	el1	NN	O		1.0				
+21	1	fb:cell.ilford_station_to_barking_reach	Ilford Station  to Barking Reach	ilford|station|to|barking|reach	Ilford|Station|to|Barking|reach	NNP|NNP|TO|NNP|VB	O|O|O|O|O	||||					
+21	2	fb:cell.ilford_lane_barking_river_road	Ilford Lane, Barking , River Road	ilford|lane|,|barking|,|river|road	Ilford|Lane|,|Barking|,|River|Road	NNP|NNP|,|NNP|,|NNP|NNP	LOCATION|LOCATION|O|O|O|LOCATION|LOCATION	||||||				Ilford Lane|Barking|River Road	fb:part.ilford_lane|fb:part.barking|fb:part.river_road
+21	3	fb:cell.blue_triangle	Blue Triangle	blue|triangle	Blue|Triangle	NNP|NNP	O|O	|					
+21	4	fb:cell.24_hours_london_buses_service_times	24 Hours. London Buses service. Times	24|hours|.|london|buses|service|.|times	24|hour|.|London|Buses|service|.|Times	CD|NNS|.|NNP|NNPS|NN|.|NNP	DURATION|DURATION|O|LOCATION|O|O|O|O	24.0|24.0||||||	24.0				
+22	0	fb:cell.el2	EL2	el2	el2	NN	O		2.0				
+22	1	fb:cell.ilford_station_to_dagenham_dock_station	Ilford Station  to Dagenham Dock Station	ilford|station|to|dagenham|dock|station	Ilford|Station|to|Dagenham|Dock|Station	NNP|NNP|TO|NNP|NNP|NNP	LOCATION|LOCATION|O|LOCATION|O|O	|||||					
+22	2	fb:cell.barking_thames_view_estate_dagenham	Barking , Thames View Estate, Dagenham	barking|,|thames|view|estate|,|dagenham	bark|,|Thames|View|Estate|,|Dagenham	VBG|,|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				Barking|Thames View Estate|Dagenham	fb:part.barking|fb:part.thames_view_estate|fb:part.dagenham
+22	3	fb:cell.blue_triangle	Blue Triangle	blue|triangle	Blue|Triangle	NNP|NNP	O|O	|					
+22	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+23	0	fb:cell.w12	W12	w12	w12	NN	O		12.0				
+23	1	fb:cell.walthamstow_coppermill_lane_to_wanstead_station	Walthamstow Coppermill Lane to Wanstead Station	walthamstow|coppermill|lane|to|wanstead|station	Walthamstow|Coppermill|Lane|to|Wanstead|Station	NNP|NNP|NNP|TO|NNP|NNP	PERSON|PERSON|PERSON|O|LOCATION|LOCATION	|||||					
+23	2	fb:cell.walthamstow_central_whipps_cross_hospital_south_woodford	Walthamstow Central , Whipps Cross Hospital, South Woodford	walthamstow|central|,|whipps|cross|hospital|,|south|woodford	Walthamstow|Central|,|Whipps|Cross|Hospital|,|South|Woodford	NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION	||||||||				Walthamstow Central|Whipps Cross Hospital|South Woodford	fb:part.walthamstow_central|fb:part.whipps_cross_hospital|fb:part.south_woodford
+23	3	fb:cell.hct_group	HCT Group	hct|group	HCT|Group	NNP|NNP	O|O	|					
+23	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+24	0	fb:cell.w13	W13	w13	w13	NN	O		13.0				
+24	1	fb:cell.woodford_wells_to_leytonstone_station	Woodford Wells to Leytonstone Station	woodford|wells|to|leytonstone|station	Woodford|Wells|to|Leytonstone|Station	NNP|NNP|TO|NNP|NNP	PERSON|PERSON|O|O|O	||||					
+24	2	fb:cell.woodford_green_snaresbrook_wanstead	Woodford Green, Snaresbrook , Wanstead	woodford|green|,|snaresbrook|,|wanstead	Woodford|Green|,|Snaresbrook|,|Wanstead	NNP|NNP|,|NNP|,|NNP	LOCATION|LOCATION|O|O|O|LOCATION	|||||				Woodford Green|Snaresbrook|Wanstead	fb:part.woodford_green|fb:part.snaresbrook|fb:part.wanstead
+24	3	fb:cell.hct_group	HCT Group	hct|group	HCT|Group	NNP|NNP	O|O	|					
+24	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+25	0	fb:cell.w14	W14	w14	w14	NN	O		14.0				
+25	1	fb:cell.leyton_asda_to_woodford_bridge	Leyton Asda to Woodford Bridge	leyton|asda|to|woodford|bridge	Leyton|Asda|to|Woodford|Bridge	NNP|NNP|TO|NNP|NNP	PERSON|PERSON|O|LOCATION|LOCATION	||||					
+25	2	fb:cell.south_woodford_wanstead_leytonstone	South Woodford , Wanstead , Leytonstone	south|woodford|,|wanstead|,|leytonstone	South|Woodford|,|Wanstead|,|Leytonstone	NNP|NNP|,|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION|O|PERSON	|||||				South Woodford|Wanstead|Leytonstone	fb:part.south_woodford|fb:part.wanstead|fb:part.leytonstone
+25	3	fb:cell.arriva_london	Arriva London	arriva|london	Arriva|London	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+25	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					
+26	0	fb:cell.w19	W19	w19	w19	NN	O		19.0				
+26	1	fb:cell.walthamstow_angel_avenue_to_ilford_station	Walthamstow Angel Avenue to Ilford Station	walthamstow|angel|avenue|to|ilford|station	Walthamstow|Angel|Avenue|to|Ilford|Station	NNP|NNP|NNP|TO|NNP|NNP	LOCATION|O|O|O|O|O	|||||					
+26	2	fb:cell.walthamstow_central_leytonstone_manor_park	Walthamstow Central , Leytonstone , Manor Park	walthamstow|central|,|leytonstone|,|manor|park	Walthamstow|Central|,|Leytonstone|,|Manor|Park	NNP|NNP|,|NNP|,|NNP|NNP	LOCATION|LOCATION|O|O|O|O|O	||||||				Walthamstow Central|Leytonstone|Manor Park	fb:part.walthamstow_central|fb:part.leytonstone|fb:part.manor_park
+26	3	fb:cell.blue_triangle	Blue Triangle	blue|triangle	Blue|Triangle	NNP|NNP	O|O	|					
+26	4	fb:cell.daily_london_buses_service_times	Daily. London Buses service. Times	daily|.|london|buses|service|.|times	Daily|.|London|Buses|service|.|Times	NNP|.|NNP|NNPS|NN|.|NNP	SET|O|LOCATION|O|O|O|O	||||||					

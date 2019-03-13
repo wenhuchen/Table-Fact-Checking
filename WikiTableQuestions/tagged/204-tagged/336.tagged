@@ -1,0 +1,56 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.operators	Operators	operators	Operators	NNP	O						
+-1	1	fb:row.row.named_trains	Named trains	named|trains	name|train	VBN|NNS	O|O	|					
+-1	2	fb:row.row.destination	Destination	destination	destination	NN	O						
+-1	3	fb:row.row.year_begun	Year begun	year|begun	year|begin	NN|VBN	DURATION|O	|					
+-1	4	fb:row.row.year_discontinued	Year discontinued	year|discontinued	year|discontinue	NN|VBN	DURATION|O	|					
+0	0	fb:cell.baltimore_and_ohio	Baltimore and Ohio	baltimore|and|ohio	Baltimore|and|Ohio	NNP|CC|NNP	LOCATION|O|LOCATION	||					
+0	1	fb:cell.capitol_limited	Capitol Limited	capitol|limited	Capitol|Limited	NNP|NNP	O|O	|					
+0	2	fb:cell.chicago_illinois_via_washington_d_c_and_pittsburgh_pennsylvania	Chicago, Illinois via Washington, D.C. and Pittsburgh, Pennsylvania	chicago|,|illinois|via|washington|,|d.c.|and|pittsburgh|,|pennsylvania	Chicago|,|Illinois|via|Washington|,|D.C.|and|Pittsburgh|,|Pennsylvania	NNP|,|NNP|IN|NNP|,|NNP|CC|NNP|,|NNP	LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION	||||||||||				Chicago|Illinois via Washington|D.C. and Pittsburgh|Pennsylvania	fb:part.chicago|fb:part.illinois_via_washington|fb:part.d_c_and_pittsburgh|fb:part.pennsylvania
+0	3	fb:cell.1923	1923	1923	1923	CD	DATE	1923	1923.0	1923-xx-xx			
+0	4	fb:cell.1958	1958*	1958|\\*	1958|\\*	CD|SYM	DATE|O	1958|	1958.0				
+1	0	fb:cell.baltimore_and_ohio	Baltimore and Ohio	baltimore|and|ohio	Baltimore|and|Ohio	NNP|CC|NNP	LOCATION|O|LOCATION	||					
+1	1	fb:cell.metropolitan_special	Metropolitan Special	metropolitan|special	Metropolitan|special	NNP|JJ	O|O	|					
+1	2	fb:cell.st_louis_missouri_via_washington_d_c_and_cincinnati_ohio	St. Louis, Missouri via Washington, D.C. and Cincinnati, Ohio	st.|louis|,|missouri|via|washington|,|d.c.|and|cincinnati|,|ohio	St.|Louis|,|Missouri|via|Washington|,|D.C.|and|Cincinnati|,|Ohio	NNP|NNP|,|NNP|IN|NNP|,|NNP|CC|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION	|||||||||||				St. Louis|Missouri via Washington|D.C. and Cincinnati|Ohio	fb:part.st_louis|fb:part.missouri_via_washington|fb:part.d_c_and_cincinnati|fb:part.ohio
+1	3	fb:cell.ca_1920	ca. 1920	ca.|1920	ca.|1920	FW|CD	O|DATE	|1920	0.192				
+1	4	fb:cell.1958	1958*	1958|\\*	1958|\\*	CD|SYM	DATE|O	1958|	1958.0				
+2	0	fb:cell.baltimore_and_ohio	Baltimore and Ohio	baltimore|and|ohio	Baltimore|and|Ohio	NNP|CC|NNP	LOCATION|O|LOCATION	||					
+2	1	fb:cell.national_limited	National Limited	national|limited	National|Limited	NNP|NNP	O|O	|					
+2	2	fb:cell.st_louis_missouri_via_washington_d_c_and_cincinnati_ohio	St. Louis, Missouri via Washington, D.C. and Cincinnati, Ohio	st.|louis|,|missouri|via|washington|,|d.c.|and|cincinnati|,|ohio	St.|Louis|,|Missouri|via|Washington|,|D.C.|and|Cincinnati|,|Ohio	NNP|NNP|,|NNP|IN|NNP|,|NNP|CC|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION	|||||||||||				St. Louis|Missouri via Washington|D.C. and Cincinnati|Ohio	fb:part.st_louis|fb:part.missouri_via_washington|fb:part.d_c_and_cincinnati|fb:part.ohio
+2	3	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx			
+2	4	fb:cell.1958	1958*	1958|\\*	1958|\\*	CD|SYM	DATE|O	1958|	1958.0				
+3	0	fb:cell.baltimore_and_ohio	Baltimore and Ohio	baltimore|and|ohio	Baltimore|and|Ohio	NNP|CC|NNP	LOCATION|O|LOCATION	||					
+3	1	fb:cell.royal_blue	Royal Blue	royal|blue	Royal|Blue	NNP|NNP	O|O	|					
+3	2	fb:cell.washington_d_c	Washington, D.C.	washington|,|d.c.	Washington|,|D.C.	NNP|,|NNP	LOCATION|O|LOCATION	||				Washington|D.C.	fb:part.washington|fb:part.d_c
+3	3	fb:cell.1890	1890	1890	1890	CD	DATE	1890	1890.0	1890-xx-xx			
+3	4	fb:cell.1958_2	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+4	0	fb:cell.central_railroad_of_new_jersey	Central Railroad of New Jersey	central|railroad|of|new|jersey	Central|railroad|of|New|Jersey	NNP|NN|IN|NNP|NNP	O|O|O|LOCATION|LOCATION	||||					
+4	1	fb:cell.blue_comet	Blue Comet	blue|comet	Blue|Comet	NNP|NNP	O|O	|					
+4	2	fb:cell.atlantic_city_new_jersey	Atlantic City, New Jersey	atlantic|city|,|new|jersey	Atlantic|City|,|New|Jersey	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				Atlantic City|New Jersey	fb:part.atlantic_city|fb:part.new_jersey
+4	3	fb:cell.1929	1929	1929	1929	CD	DATE	1929	1929.0	1929-xx-xx			
+4	4	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx			
+5	0	fb:cell.reading_railroad_with_the_central_railroad_of_new_jersey	Reading Railroad with the Central Railroad of New Jersey	reading|railroad|with|the|central|railroad|of|new|jersey	read|railroad|with|the|Central|railroad|of|New|Jersey	VBG|NN|IN|DT|NNP|NN|IN|NNP|NNP	O|O|O|O|O|O|O|LOCATION|LOCATION	||||||||					
+5	1	fb:cell.crusader	Crusader	crusader	Crusader	NNP	O						
+5	2	fb:cell.philadelphia_pennsylvania	Philadelphia, Pennsylvania	philadelphia|,|pennsylvania	Philadelphia|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Philadelphia|Pennsylvania	fb:part.philadelphia|fb:part.pennsylvania
+5	3	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx			
+5	4	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+6	0	fb:cell.reading_railroad_with_the_central_railroad_of_new_jersey	Reading Railroad with the Central Railroad of New Jersey	reading|railroad|with|the|central|railroad|of|new|jersey	read|railroad|with|the|Central|railroad|of|New|Jersey	VBG|NN|IN|DT|NNP|NN|IN|NNP|NNP	O|O|O|O|O|O|O|LOCATION|LOCATION	||||||||					
+6	1	fb:cell.harrisburg_special	Harrisburg Special	harrisburg|special	Harrisburg|special	NNP|JJ	LOCATION|O	|					
+6	2	fb:cell.harrisburg_pennsylvania	Harrisburg, Pennsylvania	harrisburg|,|pennsylvania	Harrisburg|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Harrisburg|Pennsylvania	fb:part.harrisburg|fb:part.pennsylvania
+6	3	fb:cell.null											
+6	4	fb:cell.null											
+7	0	fb:cell.reading_railroad_with_the_central_railroad_of_new_jersey	Reading Railroad with the Central Railroad of New Jersey	reading|railroad|with|the|central|railroad|of|new|jersey	read|railroad|with|the|Central|railroad|of|New|Jersey	VBG|NN|IN|DT|NNP|NN|IN|NNP|NNP	O|O|O|O|O|O|O|LOCATION|LOCATION	||||||||					
+7	1	fb:cell.queen_of_the_valley	Queen of the Valley	queen|of|the|valley	queen|of|the|Valley	NN|IN|DT|NNP	O|O|O|LOCATION	|||					
+7	2	fb:cell.harrisburg_pennsylvania	Harrisburg, Pennsylvania	harrisburg|,|pennsylvania	Harrisburg|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Harrisburg|Pennsylvania	fb:part.harrisburg|fb:part.pennsylvania
+7	3	fb:cell.null											
+7	4	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+8	0	fb:cell.reading_railroad_with_the_central_railroad_of_new_jersey	Reading Railroad with the Central Railroad of New Jersey	reading|railroad|with|the|central|railroad|of|new|jersey	read|railroad|with|the|Central|railroad|of|New|Jersey	VBG|NN|IN|DT|NNP|NN|IN|NNP|NNP	O|O|O|O|O|O|O|LOCATION|LOCATION	||||||||					
+8	1	fb:cell.wall_street	Wall Street	wall|street	Wall|Street	NNP|NNP	O|O	|					
+8	2	fb:cell.philadelphia_pennsylvania	Philadelphia, Pennsylvania	philadelphia|,|pennsylvania	Philadelphia|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Philadelphia|Pennsylvania	fb:part.philadelphia|fb:part.pennsylvania
+8	3	fb:cell.null											
+8	4	fb:cell.null											
+9	0	fb:cell.reading_railroad_with_the_central_railroad_of_new_jersey	Reading Railroad with the Central Railroad of New Jersey	reading|railroad|with|the|central|railroad|of|new|jersey	read|railroad|with|the|Central|railroad|of|New|Jersey	VBG|NN|IN|DT|NNP|NN|IN|NNP|NNP	O|O|O|O|O|O|O|LOCATION|LOCATION	||||||||					
+9	1	fb:cell.williamsporter	Williamsporter	williamsporter	williamsporter	NN	PERSON						
+9	2	fb:cell.williamsport_pennsylvania	Williamsport, Pennsylvania	williamsport|,|pennsylvania	Williamsport|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Williamsport|Pennsylvania	fb:part.williamsport|fb:part.pennsylvania
+9	3	fb:cell.null											
+9	4	fb:cell.null											

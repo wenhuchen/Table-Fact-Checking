@@ -1,0 +1,11 @@
+| decimal32 | decimal64 | decimal128 | decimal(32k)         | Format                                      |
+| 1         | 1         | 1          | 1                    | Sign field (bits)                           |
+| 5         | 5         | 5          | 5                    | Combination field (bits)                    |
+| 6         | 8         | 12         | w = 2×k + 4          | Exponent continuation field (bits)          |
+| 20        | 50        | 110        | t = 30×k−10          | Coefficient continuation field (bits)       |
+| 32        | 64        | 128        | 32×k                 | Total size (bits)                           |
+| 7         | 16        | 34         | p = 3×t/10+1 = 9×k−2 | Coefficient size (decimal digits)           |
+| 192       | 768       | 12288      | 3×2w = 48×4k         | Exponent range                              |
+| 96        | 384       | 6144       | Emax = 3×2w−1        | Largest value is 9.99...×10Emax             |
+| −95       | −383      | −6143      | Emin = 1−Emax        | Smallest normalized value is 1.00...×10Emin |
+| −101      | −398      | −6176      | Etiny = 2−p−Emax     | Smallest non-zero value is 1×10Etiny        |

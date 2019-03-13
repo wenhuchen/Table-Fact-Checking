@@ -1,0 +1,457 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.null											
+-1	2	fb:row.row.local_names	Local names	local|names	local|name	JJ|NNS	O|O	|					
+-1	3	fb:row.row.sort	Sort	sort	sort	NN	O						
+-1	4	fb:row.row.canton_s_neighboring_countries	Canton(s), neighboring countries	canton|-lrb-|s|-rrb-|,|neighboring|countries	Canton|-lrb-|s|-rrb-|,|neighbor|country	NNP|-LRB-|NNS|-RRB-|,|VBG|NNS	LOCATION|O|O|O|O|O|O	||||||					
+-1	5	fb:row.row.area_in_km	Area in km²	area|in|km|²	area|in|km|²	NN|IN|NN|NN	O|O|O|O	|||					
+-1	6	fb:row.row.elevation_m	Elevation\nm	elevation|m	elevation|m	NN|NN	O|O	|					
+-1	7	fb:row.row.max_depth_in_meter	max. depth\nin meter	max|.|depth|in|meter	max|.|depth|in|meter	NN|.|NN|IN|NN	O|O|O|O|O	||||					
+0	0	fb:cell.lake_geneva	Lake Geneva	lake|geneva	Lake|Geneva	NNP|NNP	PERSON|PERSON	|				Lake Geneva	fb:part.lake_geneva
+0	1	fb:cell.null											
+0	2	fb:cell.lac_leman_lac_de_geneve	Lac Léman, Lac de Genève	lac|léman|,|lac|de|genève	Lac|Léman|,|Lac|de|Genève	NNP|NNP|,|NNP|IN|NNP	MISC|MISC|O|O|O|O	|||||				Lac Léman|Lac de Genève	fb:part.lac_leman|fb:part.lac_de_geneve
+0	3	fb:cell.geneva	Geneva	geneva	Geneva	NNP	LOCATION					Geneva	fb:part.geneva
+0	4	fb:cell.geneva_vaud_valais_france	Geneva, Vaud, Valais, France	geneva|,|vaud|,|valais|,|france	Geneva|,|Vaud|,|Valais|,|France	NNP|,|NNP|,|NNP|,|NNP	LOCATION|O|LOCATION|O|LOCATION|O|LOCATION	||||||				Geneva|Vaud|Valais|France	fb:part.geneva|fb:part.vaud|fb:part.valais|fb:part.france
+0	5	fb:cell.580_03	580.03	580.03	580.03	CD	NUMBER	580.03	580.03				
+0	6	fb:cell.372_0	372.0	372.0	372.0	CD	NUMBER	372.0	372.0				
+0	7	fb:cell.310	310	310	310	CD	NUMBER	310.0	310.0				
+1	0	fb:cell.lake_constance	Lake Constance	lake|constance	Lake|Constance	NNP|NNP	O|O	|				Lake Constance	fb:part.lake_constance
+1	1	fb:cell.null											
+1	2	fb:cell.bodensee	Bodensee	bodensee	Bodensee	NNP	O					Bodensee	fb:part.bodensee
+1	3	fb:cell.constance	Constance	constance	Constance	NNP	PERSON					Constance	fb:part.constance
+1	4	fb:cell.st_gallen_thurgau_austria_germany	St. Gallen, Thurgau, Austria, Germany	st.|gallen|,|thurgau|,|austria|,|germany	St.|Gallen|,|Thurgau|,|Austria|,|Germany	NNP|NNP|,|NNP|,|NNP|,|NNP	LOCATION|LOCATION|O|O|O|LOCATION|O|LOCATION	|||||||				St. Gallen|Thurgau|Austria|Germany	fb:part.st_gallen|fb:part.thurgau|fb:part.austria|fb:part.germany
+1	5	fb:cell.536_00	536.00	536.00	536.00	CD	NUMBER	536.0	536.0				
+1	6	fb:cell.395_6	395.6	395.6	395.6	CD	NUMBER	395.6	395.6				
+1	7	fb:cell.252	252	252	252	CD	NUMBER	252.0	252.0				
+2	0	fb:cell.lake_neuchatel	Lake Neuchâtel	lake|neuchâtel	Lake|Neuchâtel	NNP|NNP	O|O	|				Lake Neuchâtel	fb:part.lake_neuchatel
+2	1	fb:cell.null											
+2	2	fb:cell.lac_de_neuchatel_neuenburgersee	Lac de Neuchâtel, Neuenburgersee	lac|de|neuchâtel|,|neuenburgersee	Lac|de|Neuchâtel|,|Neuenburgersee	NNP|NNP|NNP|,|NNP	PERSON|PERSON|PERSON|O|LOCATION	||||				Lac de Neuchâtel|Neuenburgersee	fb:part.lac_de_neuchatel|fb:part.neuenburgersee
+2	3	fb:cell.neuchatel	Neuchâtel	neuchâtel	Neuchâtel	NNP	PERSON					Neuchâtel	fb:part.neuchatel
+2	4	fb:cell.berne_fribourg_neuchatel_vaud	Berne, Fribourg, Neuchâtel, Vaud	berne|,|fribourg|,|neuchâtel|,|vaud	Berne|,|Fribourg|,|Neuchâtel|,|Vaud	NNP|,|NNP|,|NNP|,|NNP	PERSON|O|LOCATION|O|PERSON|O|LOCATION	||||||				Berne|Fribourg|Neuchâtel|Vaud	fb:part.berne|fb:part.fribourg|fb:part.neuchatel|fb:part.vaud
+2	5	fb:cell.215_20	215.20	215.20	215.20	CD	NUMBER	215.2	215.2				
+2	6	fb:cell.429_4	429.4	429.4	429.4	CD	NUMBER	429.4	429.4				
+2	7	fb:cell.153	153	153	153	CD	NUMBER	153.0	153.0				
+3	0	fb:cell.lake_maggiore	Lake Maggiore	lake|maggiore	Lake|Maggiore	NNP|NNP	PERSON|PERSON	|				Lake Maggiore	fb:part.lake_maggiore
+3	1	fb:cell.null											
+3	2	fb:cell.lago_maggiore	Lago Maggiore	lago|maggiore	Lago|Maggiore	NNP|NNP	PERSON|PERSON	|				Lago Maggiore	fb:part.lago_maggiore
+3	3	fb:cell.maggiore	Maggiore	maggiore	Maggiore	NNP	PERSON					Maggiore	fb:part.maggiore
+3	4	fb:cell.ticino_italy	Ticino, Italy	ticino|,|italy	Ticino|,|Italy	NNP|,|NNP	LOCATION|O|LOCATION	||				Ticino|Italy	fb:part.ticino|fb:part.italy
+3	5	fb:cell.210_12	210.12	210.12	210.12	CD	NUMBER	210.12	210.12				
+3	6	fb:cell.193_5	193.5	193.5	193.5	CD	NUMBER	193.5	193.5				
+3	7	fb:cell.372	372	372	372	CD	NUMBER	372.0	372.0				
+4	0	fb:cell.lake_lucerne	Lake Lucerne	lake|lucerne	Lake|Lucerne	NNP|NNP	LOCATION|LOCATION	|				Lake Lucerne	fb:part.lake_lucerne
+4	1	fb:cell.null											
+4	2	fb:cell.vierwaldstattersee	Vierwaldstättersee	vierwaldstättersee	Vierwaldstättersee	NNP	PERSON					Vierwaldstättersee	fb:part.vierwaldstattersee
+4	3	fb:cell.lucerne	Lucerne	lucerne	Lucerne	NNP	LOCATION					Lucerne	fb:part.lucerne
+4	4	fb:cell.lucerne_nidwalden_obwalden_schwyz_uri	Lucerne, Nidwalden, Obwalden, Schwyz, Uri	lucerne|,|nidwalden|,|obwalden|,|schwyz|,|uri	Lucerne|,|Nidwalden|,|Obwalden|,|Schwyz|,|Uri	NNP|,|NNP|,|NNP|,|NNP|,|NNP	LOCATION|O|PERSON|O|O|O|O|O|PERSON	||||||||				Lucerne|Nidwalden|Obwalden|Schwyz|Uri	fb:part.lucerne|fb:part.nidwalden|fb:part.obwalden|fb:part.schwyz|fb:part.uri
+4	5	fb:cell.113_72	113.72	113.72	113.72	CD	NUMBER	113.72	113.72				
+4	6	fb:cell.433_6	433.6	433.6	433.6	CD	NUMBER	433.6	433.6				
+4	7	fb:cell.214	214	214	214	CD	NUMBER	214.0	214.0				
+5	0	fb:cell.lake_zurich	Lake Zurich	lake|zurich	Lake|Zurich	NNP|NNP	O|O	|				Lake Zurich	fb:part.lake_zurich
+5	1	fb:cell.null											
+5	2	fb:cell.zurichsee	Zürichsee	zürichsee	zürichsee	NN	O					Zürichsee	fb:part.zurichsee
+5	3	fb:cell.zurich	Zurich	zurich	Zurich	NNP	LOCATION					Zurich	fb:part.zurich
+5	4	fb:cell.st_gallen_schwyz_zurich	St. Gallen, Schwyz, Zurich	st.|gallen|,|schwyz|,|zurich	St.|Gallen|,|Schwyz|,|Zurich	NNP|NNP|,|NNP|,|NNP	LOCATION|LOCATION|O|O|O|LOCATION	|||||				St. Gallen|Schwyz|Zurich	fb:part.st_gallen|fb:part.schwyz|fb:part.zurich
+5	5	fb:cell.88_17	88.17	88.17	88.17	CD	NUMBER	88.17	88.17				
+5	6	fb:cell.405_9	405.9	405.9	405.9	CD	NUMBER	405.9	405.9				
+5	7	fb:cell.136	136	136	136	CD	NUMBER	136.0	136.0				
+6	0	fb:cell.lake_lugano	Lake Lugano	lake|lugano	Lake|Lugano	NNP|NNP	LOCATION|LOCATION	|				Lake Lugano	fb:part.lake_lugano
+6	1	fb:cell.null											
+6	2	fb:cell.ceresio_lago_di_lugano	Ceresio, Lago di Lugano	ceresio|,|lago|di|lugano	Ceresio|,|Lago|di|Lugano	NNP|,|NNP|NNP|NNP	O|O|O|O|LOCATION	||||				Ceresio|Lago di Lugano	fb:part.ceresio|fb:part.lago_di_lugano
+6	3	fb:cell.lugano	Lugano	lugano	Lugano	NNP	LOCATION					Lugano	fb:part.lugano
+6	4	fb:cell.ticino_italy	Ticino, Italy	ticino|,|italy	Ticino|,|Italy	NNP|,|NNP	LOCATION|O|LOCATION	||				Ticino|Italy	fb:part.ticino|fb:part.italy
+6	5	fb:cell.48_67	48.67	48.67	48.67	CD	NUMBER	48.67	48.67				
+6	6	fb:cell.270_5	270.5	270.5	270.5	CD	NUMBER	270.5	270.5				
+6	7	fb:cell.288	288	288	288	CD	NUMBER	288.0	288.0				
+7	0	fb:cell.lake_thun	Lake Thun	lake|thun	Lake|Thun	NNP|NNP	O|O	|				Lake Thun	fb:part.lake_thun
+7	1	fb:cell.null											
+7	2	fb:cell.thunersee	Thunersee	thunersee	Thunersee	NNP	O					Thunersee	fb:part.thunersee
+7	3	fb:cell.thun	Thun	thun	Thun	NNP	PERSON					Thun	fb:part.thun
+7	4	fb:cell.berne	Berne	berne	Berne	NNP	PERSON					Berne	fb:part.berne
+7	5	fb:cell.47_74	47.74	47.74	47.74	CD	NUMBER	47.74	47.74				
+7	6	fb:cell.557_8	557.8	557.8	557.8	CD	NUMBER	557.8	557.8				
+7	7	fb:cell.215	215	215	215	CD	NUMBER	215.0	215.0				
+8	0	fb:cell.lake_biel	Lake Biel	lake|biel	Lake|Biel	NNP|NNP	PERSON|PERSON	|				Lake Biel	fb:part.lake_biel
+8	1	fb:cell.null											
+8	2	fb:cell.lac_de_bienne_bielersee	Lac de Bienne, Bielersee	lac|de|bienne|,|bielersee	Lac|de|Bienne|,|Bielersee	NNP|NNP|NNP|,|NNP	LOCATION|LOCATION|LOCATION|O|PERSON	||||				Lac de Bienne|Bielersee	fb:part.lac_de_bienne|fb:part.bielersee
+8	3	fb:cell.biel_bienne	Biel/Bienne	biel\\/bienne	biel\\/bienne	NN	O					Biel|Bienne	fb:part.biel|fb:part.bienne
+8	4	fb:cell.berne_neuchatel	Berne, Neuchâtel	berne|,|neuchâtel	Berne|,|Neuchâtel	NNP|,|NNP	PERSON|O|PERSON	||				Berne|Neuchâtel	fb:part.berne|fb:part.neuchatel
+8	5	fb:cell.39_51	39.51	39.51	39.51	CD	NUMBER	39.51	39.51				
+8	6	fb:cell.429_1	429.1	429.1	429.1	CD	NUMBER	429.1	429.1				
+8	7	fb:cell.74	74	74	74	CD	NUMBER	74.0	74.0				
+9	0	fb:cell.lake_zug	Lake Zug	lake|zug	Lake|Zug	NNP|NNP	O|O	|				Lake Zug	fb:part.lake_zug
+9	1	fb:cell.null											
+9	2	fb:cell.zugersee	Zugersee	zugersee	zugersee	NN	O					Zugersee	fb:part.zugersee
+9	3	fb:cell.zug	Zug	zug	Zug	NNP	LOCATION					Zug	fb:part.zug
+9	4	fb:cell.lucerne_schwyz_zug	Lucerne, Schwyz, Zug	lucerne|,|schwyz|,|zug	Lucerne|,|Schwyz|,|Zug	NNP|,|NNP|,|NNP	LOCATION|O|O|O|LOCATION	||||				Lucerne|Schwyz|Zug	fb:part.lucerne|fb:part.schwyz|fb:part.zug
+9	5	fb:cell.38_41	38.41	38.41	38.41	CD	NUMBER	38.41	38.41				
+9	6	fb:cell.413_6	413.6	413.6	413.6	CD	NUMBER	413.6	413.6				
+9	7	fb:cell.198	198	198	198	CD	NUMBER	198.0	198.0				
+10	0	fb:cell.lake_brienz	Lake Brienz	lake|brienz	Lake|Brienz	NNP|NNP	LOCATION|LOCATION	|				Lake Brienz	fb:part.lake_brienz
+10	1	fb:cell.null											
+10	2	fb:cell.brienzersee	Brienzersee	brienzersee	Brienzersee	NNP	LOCATION					Brienzersee	fb:part.brienzersee
+10	3	fb:cell.brienz	Brienz	brienz	Brienz	NNP	LOCATION					Brienz	fb:part.brienz
+10	4	fb:cell.berne	Berne	berne	Berne	NNP	PERSON					Berne	fb:part.berne
+10	5	fb:cell.29_81	29.81	29.81	29.81	CD	NUMBER	29.81	29.81				
+10	6	fb:cell.563_7	563.7	563.7	563.7	CD	NUMBER	563.7	563.7				
+10	7	fb:cell.260	260	260	260	CD	NUMBER	260.0	260.0				
+11	0	fb:cell.lake_walen	Lake Walen	lake|walen	Lake|Walen	NNP|NNP	PERSON|PERSON	|				Lake Walen	fb:part.lake_walen
+11	1	fb:cell.null											
+11	2	fb:cell.walensee	Walensee	walensee	Walensee	NNP	LOCATION					Walensee	fb:part.walensee
+11	3	fb:cell.walen	Walen	walen	Walen	NNP	PERSON					Walen	fb:part.walen
+11	4	fb:cell.glarus_st_gallen	Glarus, St. Gallen	glarus|,|st.|gallen	Glarus|,|St.|Gallen	NNP|,|NNP|NNP	O|O|LOCATION|LOCATION	|||				Glarus|St. Gallen	fb:part.glarus|fb:part.st_gallen
+11	5	fb:cell.24_16	24.16	24.16	24.16	CD	NUMBER	24.16	24.16				
+11	6	fb:cell.419_0	419.0	419.0	419.0	CD	NUMBER	419.0	419.0				
+11	7	fb:cell.150	150	150	150	CD	NUMBER	150.0	150.0				
+12	0	fb:cell.lake_murten	Lake Murten	lake|murten	Lake|Murten	NNP|NNP	LOCATION|LOCATION	|				Lake Murten	fb:part.lake_murten
+12	1	fb:cell.null											
+12	2	fb:cell.murtensee_lac_de_morat	Murtensee, Lac de Morat	murtensee|,|lac|de|morat	Murtensee|,|Lac|de|Morat	NNP|,|NNP|IN|NNP	PERSON|O|PERSON|PERSON|PERSON	||||				Murtensee|Lac de Morat	fb:part.murtensee|fb:part.lac_de_morat
+12	3	fb:cell.murten	Murten	murten	Murten	NNP	LOCATION					Murten	fb:part.murten
+12	4	fb:cell.fribourg_vaud	Fribourg, Vaud	fribourg|,|vaud	Fribourg|,|Vaud	NNP|,|NNP	LOCATION|O|LOCATION	||				Fribourg|Vaud	fb:part.fribourg|fb:part.vaud
+12	5	fb:cell.22_80	22.80	22.80	22.80	CD	NUMBER	22.8	22.8				
+12	6	fb:cell.429_2	429.2	429.2	429.2	CD	NUMBER	429.2	429.2				
+12	7	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+13	0	fb:cell.lake_sempach	Lake Sempach	lake|sempach	Lake|Sempach	NNP|NNP	O|O	|				Lake Sempach	fb:part.lake_sempach
+13	1	fb:cell.null											
+13	2	fb:cell.sempachersee	Sempachersee	sempachersee	sempachersee	NN	O					Sempachersee	fb:part.sempachersee
+13	3	fb:cell.sempach	Sempach	sempach	Sempach	NNP	O					Sempach	fb:part.sempach
+13	4	fb:cell.lucerne	Lucerne	lucerne	Lucerne	NNP	LOCATION					Lucerne	fb:part.lucerne
+13	5	fb:cell.14_36	14.36	14.36	14.36	CD	NUMBER	14.36	14.36				
+13	6	fb:cell.503_8	503.8	503.8	503.8	CD	NUMBER	503.8	503.8				
+13	7	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+14	0	fb:cell.sihlsee	Sihlsee	sihlsee	Sihlsee	NNP	PERSON					Sihlsee	fb:part.sihlsee
+14	1	fb:cell.null											
+14	2	fb:cell.sihlsee	Sihlsee	sihlsee	Sihlsee	NNP	PERSON					Sihlsee	fb:part.sihlsee
+14	3	fb:cell.sihl	Sihl	sihl	sihl	NN	O					Sihl	fb:part.sihl
+14	4	fb:cell.schwyz	Schwyz	schwyz	Schwyz	NNP	O					Schwyz	fb:part.schwyz
+14	5	fb:cell.10_72	10.72	10.72	10.72	CD	NUMBER	10.72	10.72				
+14	6	fb:cell.889	889	889	889	CD	NUMBER	889.0	889.0				
+14	7	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+15	0	fb:cell.lake_hallwil	Lake Hallwil	lake|hallwil	Lake|Hallwil	NNP|NNP	O|O	|				Lake Hallwil	fb:part.lake_hallwil
+15	1	fb:cell.null											
+15	2	fb:cell.hallwilersee	Hallwilersee	hallwilersee	Hallwilersee	NNP	PERSON					Hallwilersee	fb:part.hallwilersee
+15	3	fb:cell.hallwil	Hallwil	hallwil	Hallwil	NNP	O					Hallwil	fb:part.hallwil
+15	4	fb:cell.aargau_lucerne	Aargau, Lucerne	aargau|,|lucerne	Aargau|,|Lucerne	NNP|,|NNP	LOCATION|O|LOCATION	||				Aargau|Lucerne	fb:part.aargau|fb:part.lucerne
+15	5	fb:cell.10_21	10.21	10.21	10.21	CD	NUMBER	10.21	10.21				
+15	6	fb:cell.448_7	448.7	448.7	448.7	CD	NUMBER	448.7	448.7				
+15	7	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+16	0	fb:cell.lac_de_la_gruyere	Lac de la Gruyère	lac|de|la|gruyère	Lac|de|la|gruyère	NNP|FW|FW|FW	O|O|O|O	|||				Lac de la Gruyère	fb:part.lac_de_la_gruyere
+16	1	fb:cell.null_2	↑	↑	↑	NN	O						
+16	2	fb:cell.lac_de_la_gruyere	Lac de la Gruyère	lac|de|la|gruyère	Lac|de|la|gruyère	NNP|FW|FW|FW	O|O|O|O	|||				Lac de la Gruyère	fb:part.lac_de_la_gruyere
+16	3	fb:cell.gruyere	Gruyère	gruyère	gruyère	NN	O					Gruyère	fb:part.gruyere
+16	4	fb:cell.fribourg	Fribourg	fribourg	Fribourg	NNP	LOCATION					Fribourg	fb:part.fribourg
+16	5	fb:cell.9_60	9.60	9.60	9.60	CD	NUMBER	9.6	9.6				
+16	6	fb:cell.677	677	677	677	CD	NUMBER	677.0	677.0				
+16	7	fb:cell.75	75	75	75	CD	NUMBER	75.0	75.0				
+17	0	fb:cell.lac_de_joux_and_lac_brenet	Lac de Joux and\nLac Brenet	lac|de|joux|and|lac|brenet	Lac|de|Joux|and|Lac|Brenet	NNP|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|PERSON|O|O|O	|||||				Lac de Joux and|Lac Brenet	fb:part.lac_de_joux_and|fb:part.lac_brenet
+17	1	fb:cell.null_3	*	\\*	\\*	SYM	O						
+17	2	fb:cell.lac_de_joux_and_lac_brenet	Lac de Joux and\nLac Brenet	lac|de|joux|and|lac|brenet	Lac|de|Joux|and|Lac|Brenet	NNP|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|PERSON|O|O|O	|||||				Lac de Joux and|Lac Brenet	fb:part.lac_de_joux_and|fb:part.lac_brenet
+17	3	fb:cell.joux	Joux	joux	Joux	NNP	PERSON					Joux	fb:part.joux
+17	4	fb:cell.vaud	Vaud	vaud	Vaud	NNP	LOCATION					Vaud	fb:part.vaud
+17	5	fb:cell.9_56	9.56	9.56	9.56	CD	NUMBER	9.56	9.56				
+17	6	fb:cell.1004	1004	1004	1004	CD	DATE	1004	1004.0	1004-xx-xx			
+17	7	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+18	0	fb:cell.greifensee	Greifensee	greifensee	Greifensee	NNP	LOCATION					Greifensee	fb:part.greifensee
+18	1	fb:cell.null											
+18	2	fb:cell.greifensee	Greifensee	greifensee	Greifensee	NNP	LOCATION					Greifensee	fb:part.greifensee
+18	3	fb:cell.greifensee	Greifensee	greifensee	Greifensee	NNP	LOCATION					Greifensee	fb:part.greifensee
+18	4	fb:cell.zurich	Zurich	zurich	Zurich	NNP	LOCATION					Zurich	fb:part.zurich
+18	5	fb:cell.8_17	8.17	8.17	8.17	CD	NUMBER	8.17	8.17				
+18	6	fb:cell.435_1	435.1	435.1	435.1	CD	NUMBER	435.1	435.1				
+18	7	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+19	0	fb:cell.lake_sarnen	Lake Sarnen	lake|sarnen	Lake|Sarnen	NNP|NNP	PERSON|PERSON	|				Lake Sarnen	fb:part.lake_sarnen
+19	1	fb:cell.null											
+19	2	fb:cell.sarnersee	Sarnersee	sarnersee	Sarnersee	NNP	PERSON					Sarnersee	fb:part.sarnersee
+19	3	fb:cell.sarnen	Sarnen	sarnen	sarnen	NN	PERSON					Sarnen	fb:part.sarnen
+19	4	fb:cell.obwalden	Obwalden	obwalden	obwalden	NN	PERSON					Obwalden	fb:part.obwalden
+19	5	fb:cell.7_38	7.38	7.38	7.38	CD	NUMBER	7.38	7.38				
+19	6	fb:cell.468_4	468.4	468.4	468.4	CD	NUMBER	468.4	468.4				
+19	7	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+20	0	fb:cell.agerisee	Ägerisee	ägerisee	ägerisee	NN	O					Ägerisee	fb:part.agerisee
+20	1	fb:cell.null											
+20	2	fb:cell.agerisee	Ägerisee	ägerisee	ägerisee	NN	O					Ägerisee	fb:part.agerisee
+20	3	fb:cell.aegeri	Aegeri	aegeri	Aegeri	NNP	LOCATION					Aegeri	fb:part.aegeri
+20	4	fb:cell.zug	Zug	zug	Zug	NNP	LOCATION					Zug	fb:part.zug
+20	5	fb:cell.7_25	7.25	7.25	7.25	CD	NUMBER	7.25	7.25				
+20	6	fb:cell.723_9	723.9	723.9	723.9	CD	NUMBER	723.9	723.9				
+20	7	fb:cell.82	82	82	82	CD	NUMBER	82.0	82.0				
+21	0	fb:cell.lake_baldegg	Lake Baldegg	lake|baldegg	Lake|Baldegg	NNP|NNP	O|O	|				Lake Baldegg	fb:part.lake_baldegg
+21	1	fb:cell.null											
+21	2	fb:cell.baldeggersee	Baldeggersee	baldeggersee	baldeggersee	NN	LOCATION					Baldeggersee	fb:part.baldeggersee
+21	3	fb:cell.baldegg	Baldegg	baldegg	baldegg	NN	O					Baldegg	fb:part.baldegg
+21	4	fb:cell.lucerne	Lucerne	lucerne	Lucerne	NNP	LOCATION					Lucerne	fb:part.lucerne
+21	5	fb:cell.5_24	5.24	5.24	5.24	CD	NUMBER	5.24	5.24				
+21	6	fb:cell.463_0	463.0	463.0	463.0	CD	NUMBER	463.0	463.0				
+21	7	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+22	0	fb:cell.lago_di_livigno	Lago di Livigno	lago|di|livigno	Lago|di|Livigno	NNP|NNP|NNP	O|O|LOCATION	||				Lago di Livigno	fb:part.lago_di_livigno
+22	1	fb:cell.null_2	↑	↑	↑	NN	O						
+22	2	fb:cell.lago_di_livigno	Lago di Livigno	lago|di|livigno	Lago|di|Livigno	NNP|NNP|NNP	O|O|LOCATION	||				Lago di Livigno	fb:part.lago_di_livigno
+22	3	fb:cell.livignio	Livignio	livignio	Livignio	NNP	PERSON					Livignio	fb:part.livignio
+22	4	fb:cell.italy_grisons	Italy, Grisons	italy|,|grisons	Italy|,|Grisons	NNP|,|NNP	LOCATION|O|LOCATION	||				Italy|Grisons	fb:part.italy|fb:part.grisons
+22	5	fb:cell.4_71	4.71	4.71	4.71	CD	NUMBER	4.71	4.71				
+22	6	fb:cell.1805	1805	1805	1805	CD	DATE	1805	1805.0	1805-xx-xx			
+22	7	fb:cell.119	119	119	119	CD	NUMBER	119.0	119.0				
+23	0	fb:cell.schiffenensee	Schiffenensee	schiffenensee	schiffenensee	NN	O					Schiffenensee	fb:part.schiffenensee
+23	1	fb:cell.null_2	↑	↑	↑	NN	O						
+23	2	fb:cell.schiffenensee_lac_de_schiffenen	Schiffenensee, Lac de Schiffenen	schiffenensee|,|lac|de|schiffenen	Schiffenensee|,|Lac|de|Schiffenen	NNP|,|NNP|IN|NNP	O|O|O|O|O	||||				Schiffenensee|Lac de Schiffenen	fb:part.schiffenensee|fb:part.lac_de_schiffenen
+23	3	fb:cell.schiffenen	Schiffenen	schiffenen	schiffenen	NN	PERSON					Schiffenen	fb:part.schiffenen
+23	4	fb:cell.fribourg	Fribourg	fribourg	Fribourg	NNP	LOCATION					Fribourg	fb:part.fribourg
+23	5	fb:cell.4_25	4.25	4.25	4.25	CD	NUMBER	4.25	4.25				
+23	6	fb:cell.532	532	532	532	CD	NUMBER	532.0	532.0				
+23	7	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+24	0	fb:cell.wagitalersee	Wägitalersee	wägitalersee	Wägitalersee	NNP	O					Wägitalersee	fb:part.wagitalersee
+24	1	fb:cell.null_2	↑	↑	↑	NN	O						
+24	2	fb:cell.wagitalersee	Wägitalersee	wägitalersee	Wägitalersee	NNP	O					Wägitalersee	fb:part.wagitalersee
+24	3	fb:cell.waegital	Waegital	waegital	waegital	JJ	PERSON					Waegital	fb:part.waegital
+24	4	fb:cell.schwyz	Schwyz	schwyz	Schwyz	NNP	O					Schwyz	fb:part.schwyz
+24	5	fb:cell.4_18	4.18	4.18	4.18	CD	NUMBER	4.18	4.18				
+24	6	fb:cell.900	900	900	900	CD	NUMBER	900.0	900.0				
+24	7	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+25	0	fb:cell.lago_di_lei	Lago di Lei	lago|di|lei	Lago|di|Lei	NNP|NNP|NNP	O|O|O	||				Lago di Lei	fb:part.lago_di_lei
+25	1	fb:cell.null_2	↑	↑	↑	NN	O						
+25	2	fb:cell.lago_di_lei	Lago di Lei	lago|di|lei	Lago|di|Lei	NNP|NNP|NNP	O|O|O	||				Lago di Lei	fb:part.lago_di_lei
+25	3	fb:cell.lei	Lei	lei	lei	NN	O					Lei	fb:part.lei
+25	4	fb:cell.italy_grisons	Italy, Grisons	italy|,|grisons	Italy|,|Grisons	NNP|,|NNP	LOCATION|O|LOCATION	||				Italy|Grisons	fb:part.italy|fb:part.grisons
+25	5	fb:cell.4_12	4.12	4.12	4.12	CD	NUMBER	4.12	4.12				
+25	6	fb:cell.1931	1931	1931	1931	CD	DATE	1931	1931.0	1931-xx-xx			
+25	7	fb:cell.133	133	133	133	CD	NUMBER	133.0	133.0				
+26	0	fb:cell.lake_sils	Lake Sils	lake|sils	Lake|Sils	NNP|NNP	O|O	|				Lake Sils	fb:part.lake_sils
+26	1	fb:cell.null											
+26	2	fb:cell.silsersee_lej_da_segl	Silsersee, Lej da Segl	silsersee|,|lej|da|segl	Silsersee|,|Lej|da|segl	NNP|,|NNP|NN|NN	PERSON|O|PERSON|O|O	||||				Silsersee|Lej da Segl	fb:part.silsersee|fb:part.lej_da_segl
+26	3	fb:cell.sils	Sils	sils	sil	NNS	O					Sils	fb:part.sils
+26	4	fb:cell.grisons	Grisons	grisons	Grisons	NNP	LOCATION					Grisons	fb:part.grisons
+26	5	fb:cell.4_1	4.1	4.1	4.1	CD	NUMBER	4.1	4.1				
+26	6	fb:cell.1797	1797	1797	1797	CD	DATE	1797	1797.0	1797-xx-xx			
+26	7	fb:cell.71	71	71	71	CD	NUMBER	71.0	71.0				
+27	0	fb:cell.lac_des_dix	Lac des Dix	lac|des|dix	Lac|des|Dix	NNP|NNP|NNP	O|O|O	||				Lac des Dix	fb:part.lac_des_dix
+27	1	fb:cell.null_2	↑	↑	↑	NN	O						
+27	2	fb:cell.lac_des_dix	Lac des Dix	lac|des|dix	Lac|des|Dix	NNP|NNP|NNP	O|O|O	||				Lac des Dix	fb:part.lac_des_dix
+27	3	fb:cell.dix	Dix	dix	dix	IN	O					Dix	fb:part.dix
+27	4	fb:cell.valais	Valais	valais	Valais	NNP	LOCATION					Valais	fb:part.valais
+27	5	fb:cell.3_65	3.65	3.65	3.65	CD	NUMBER	3.65	3.65				
+27	6	fb:cell.2365	2365	2365	2365	CD	DATE	2365	2365.0	2365-xx-xx			
+27	7	fb:cell.227	227	227	227	CD	NUMBER	227.0	227.0				
+28	0	fb:cell.lake_wohlen	Lake Wohlen	lake|wohlen	Lake|Wohlen	NNP|NNP	O|O	|				Lake Wohlen	fb:part.lake_wohlen
+28	1	fb:cell.null_2	↑	↑	↑	NN	O						
+28	2	fb:cell.wohlensee	Wohlensee	wohlensee	wohlensee	JJ	O					Wohlensee	fb:part.wohlensee
+28	3	fb:cell.wohlen	Wohlen	wohlen	wohlen	JJ	PERSON					Wohlen	fb:part.wohlen
+28	4	fb:cell.berne	Berne	berne	Berne	NNP	PERSON					Berne	fb:part.berne
+28	5	fb:cell.3_65	3.65	3.65	3.65	CD	NUMBER	3.65	3.65				
+28	6	fb:cell.480	480	480	480	CD	NUMBER	480.0	480.0				
+28	7	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+29	0	fb:cell.pfaffikersee	Pfäffikersee	pfäffikersee	pfäffikersee	NN	O					Pfäffikersee	fb:part.pfaffikersee
+29	1	fb:cell.null											
+29	2	fb:cell.pfaffikersee	Pfäffikersee	pfäffikersee	pfäffikersee	NN	O					Pfäffikersee	fb:part.pfaffikersee
+29	3	fb:cell.pfaffikersee	Pfäffikersee	pfäffikersee	pfäffikersee	NN	O					Pfäffikersee	fb:part.pfaffikersee
+29	4	fb:cell.zurich	Zurich	zurich	Zurich	NNP	LOCATION					Zurich	fb:part.zurich
+29	5	fb:cell.3_3	3.3	3.3	3.3	CD	NUMBER	3.3	3.3				
+29	6	fb:cell.536	536	536	536	CD	NUMBER	536.0	536.0				
+29	7	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+30	0	fb:cell.klontalersee	Klöntalersee	klöntalersee	klöntalersee	NN	LOCATION					Klöntalersee	fb:part.klontalersee
+30	1	fb:cell.null_3	*	\\*	\\*	SYM	O						
+30	2	fb:cell.klontalersee	Klöntalersee	klöntalersee	klöntalersee	NN	LOCATION					Klöntalersee	fb:part.klontalersee
+30	3	fb:cell.klontalersee	Klöntalersee	klöntalersee	klöntalersee	NN	LOCATION					Klöntalersee	fb:part.klontalersee
+30	4	fb:cell.glarus	Glarus	glarus	glarus	FW	O					Glarus	fb:part.glarus
+30	5	fb:cell.3_29	3.29	3.29	3.29	CD	NUMBER	3.29	3.29				
+30	6	fb:cell.847	847	847	847	CD	NUMBER	847.0	847.0				
+30	7	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+31	0	fb:cell.lac_d_emosson	Lac d'Emosson	lac|d'emosson	Lac|d'Emosson	NNP|NNP	O|O	|				Lac d'Emosson	fb:part.lac_d_emosson
+31	1	fb:cell.null_2	↑	↑	↑	NN	O						
+31	2	fb:cell.lac_d_emosson	Lac d'Emosson	lac|d'emosson	Lac|d'Emosson	NNP|NNP	O|O	|				Lac d'Emosson	fb:part.lac_d_emosson
+31	3	fb:cell.emosson	Emosson	emosson	emosson	NN	O					Emosson	fb:part.emosson
+31	4	fb:cell.valais	Valais	valais	Valais	NNP	LOCATION					Valais	fb:part.valais
+31	5	fb:cell.3_27	3.27	3.27	3.27	CD	NUMBER	3.27	3.27				
+31	6	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx			
+31	7	fb:cell.161	161	161	161	CD	NUMBER	161.0	161.0				
+32	0	fb:cell.lake_silvaplana	Lake Silvaplana	lake|silvaplana	Lake|Silvaplana	NNP|NNP	LOCATION|LOCATION	|				Lake Silvaplana	fb:part.lake_silvaplana
+32	1	fb:cell.null											
+32	2	fb:cell.silvaplanersee_lej_da_silvaplauna	Silvaplanersee, Lej da Silvaplauna	silvaplanersee|,|lej|da|silvaplauna	Silvaplanersee|,|Lej|da|Silvaplauna	NNP|,|NNP|NNP|NNP	PERSON|O|PERSON|PERSON|PERSON	||||				Silvaplanersee|Lej da Silvaplauna	fb:part.silvaplanersee|fb:part.lej_da_silvaplauna
+32	3	fb:cell.silvaplana	Silvaplana	silvaplana	silvaplana	NN	PERSON					Silvaplana	fb:part.silvaplana
+32	4	fb:cell.grisons	Grisons	grisons	Grisons	NNP	LOCATION					Grisons	fb:part.grisons
+32	5	fb:cell.3_1	3.1	3.1	3.1	CD	NUMBER	3.1	3.1				
+32	6	fb:cell.1790	1790	1790	1790	CD	DATE	1790	1790.0	1790-xx-xx			
+32	7	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+33	0	fb:cell.lake_lauerz	Lake Lauerz	lake|lauerz	Lake|Lauerz	NNP|NNP	LOCATION|LOCATION	|				Lake Lauerz	fb:part.lake_lauerz
+33	1	fb:cell.null											
+33	2	fb:cell.lauerzersee	Lauerzersee	lauerzersee	Lauerzersee	NNP	PERSON					Lauerzersee	fb:part.lauerzersee
+33	3	fb:cell.lauerz	Lauerz	lauerz	Lauerz	NNP	PERSON					Lauerz	fb:part.lauerz
+33	4	fb:cell.schwyz	Schwyz	schwyz	Schwyz	NNP	O					Schwyz	fb:part.schwyz
+33	5	fb:cell.3_1	3.1	3.1	3.1	CD	NUMBER	3.1	3.1				
+33	6	fb:cell.447	447	447	447	CD	NUMBER	447.0	447.0				
+33	7	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+34	0	fb:cell.grimselsee	Grimselsee	grimselsee	grimselsee	NN	PERSON					Grimselsee	fb:part.grimselsee
+34	1	fb:cell.null_2	↑	↑	↑	NN	O						
+34	2	fb:cell.grimselsee	Grimselsee	grimselsee	grimselsee	NN	PERSON					Grimselsee	fb:part.grimselsee
+34	3	fb:cell.grimsel	Grimsel	grimsel	Grimsel	NNP	PERSON					Grimsel	fb:part.grimsel
+34	4	fb:cell.berne	Berne	berne	Berne	NNP	PERSON					Berne	fb:part.berne
+34	5	fb:cell.2_63	2.63	2.63	2.63	CD	NUMBER	2.63	2.63				
+34	6	fb:cell.1908	1908	1908	1908	CD	DATE	1908	1908.0	1908-xx-xx			
+34	7	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+35	0	fb:cell.lake_lungern	Lake Lungern	lake|lungern	Lake|Lungern	NNP|NNP	O|O	|				Lake Lungern	fb:part.lake_lungern
+35	1	fb:cell.null_3	*	\\*	\\*	SYM	O						
+35	2	fb:cell.lungerersee_lungernsee	Lungerersee, Lungernsee	lungerersee|,|lungernsee	Lungerersee|,|Lungernsee	NNP|,|NNP	PERSON|O|PERSON	||				Lungerersee|Lungernsee	fb:part.lungerersee|fb:part.lungernsee
+35	3	fb:cell.lungern	Lungern	lungern	Lungern	NNP	O					Lungern	fb:part.lungern
+35	4	fb:cell.obwalden	Obwalden	obwalden	obwalden	NN	PERSON					Obwalden	fb:part.obwalden
+35	5	fb:cell.2_01	2.01	2.01	2.01	CD	NUMBER	2.01	2.01				
+35	6	fb:cell.688	688	688	688	CD	NUMBER	688.0	688.0				
+35	7	fb:cell.68	68	68	68	CD	NUMBER	68.0	68.0				
+36	0	fb:cell.lac_de_mauvoisin	Lac de Mauvoisin	lac|de|mauvoisin	Lac|de|Mauvoisin	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de Mauvoisin	fb:part.lac_de_mauvoisin
+36	1	fb:cell.null_2	↑	↑	↑	NN	O						
+36	2	fb:cell.lac_de_mauvoisin	Lac de Mauvoisin	lac|de|mauvoisin	Lac|de|Mauvoisin	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de Mauvoisin	fb:part.lac_de_mauvoisin
+36	3	fb:cell.mauvoisin	Mauvoisin	mauvoisin	mauvoisin	NN	PERSON					Mauvoisin	fb:part.mauvoisin
+36	4	fb:cell.valais	Valais	valais	Valais	NNP	LOCATION					Valais	fb:part.valais
+36	5	fb:cell.2_08	2.08	2.08	2.08	CD	NUMBER	2.08	2.08				
+36	6	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+36	7	fb:cell.180	180	180	180	CD	NUMBER	180.0	180.0				
+37	0	fb:cell.lago_di_poschiavo	Lago di Poschiavo	lago|di|poschiavo	Lago|di|Poschiavo	NNP|NNP|NNP	O|O|O	||				Lago di Poschiavo	fb:part.lago_di_poschiavo
+37	1	fb:cell.null_3	*	\\*	\\*	SYM	O						
+37	2	fb:cell.lago_di_poschiavo	Lago di Poschiavo	lago|di|poschiavo	Lago|di|Poschiavo	NNP|NNP|NNP	O|O|O	||				Lago di Poschiavo	fb:part.lago_di_poschiavo
+37	3	fb:cell.poschiavo	Poschiavo	poschiavo	Poschiavo	NNP	O					Poschiavo	fb:part.poschiavo
+37	4	fb:cell.grisons	Grisons	grisons	Grisons	NNP	LOCATION					Grisons	fb:part.grisons
+37	5	fb:cell.1_98	1.98	1.98	1.98	CD	NUMBER	1.98	1.98				
+37	6	fb:cell.962	962	962	962	CD	NUMBER	962.0	962.0				
+37	7	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+38	0	fb:cell.lai_da_sontga_maria	Lai da Sontga Maria	lai|da|sontga|maria	Lai|da|Sontga|Maria	NNP|NNP|NNP|NNP	PERSON|O|O|PERSON	|||				Lai da Sontga Maria	fb:part.lai_da_sontga_maria
+38	1	fb:cell.null_2	↑	↑	↑	NN	O						
+38	2	fb:cell.lai_da_sontga_maria	Lai da Sontga Maria	lai|da|sontga|maria	Lai|da|Sontga|Maria	NNP|NNP|NNP|NNP	PERSON|O|O|PERSON	|||				Lai da Sontga Maria	fb:part.lai_da_sontga_maria
+38	3	fb:cell.st_maria	St. Maria	st.|maria	St.|Maria	NNP|NNP	LOCATION|LOCATION	|				St. Maria	fb:part.st_maria
+38	4	fb:cell.grisons_ticino	Grisons, Ticino	grisons|,|ticino	Grisons|,|Ticino	NNP|,|NNP	LOCATION|O|LOCATION	||				Grisons|Ticino	fb:part.grisons|fb:part.ticino
+38	5	fb:cell.1_77	1.77	1.77	1.77	CD	NUMBER	1.77	1.77				
+38	6	fb:cell.1908	1908	1908	1908	CD	DATE	1908	1908.0	1908-xx-xx			
+38	7	fb:cell.86	86	86	86	CD	NUMBER	86.0	86.0				
+39	0	fb:cell.mattmarksee	Mattmarksee	mattmarksee	mattmarksee	NN	PERSON					Mattmarksee	fb:part.mattmarksee
+39	1	fb:cell.null_2	↑	↑	↑	NN	O						
+39	2	fb:cell.mattmarksee	Mattmarksee	mattmarksee	mattmarksee	NN	PERSON					Mattmarksee	fb:part.mattmarksee
+39	3	fb:cell.mattmark	Mattmark	mattmark	Mattmark	NNP	PERSON					Mattmark	fb:part.mattmark
+39	4	fb:cell.valais	Valais	valais	Valais	NNP	LOCATION					Valais	fb:part.valais
+39	5	fb:cell.1_76	1.76	1.76	1.76	CD	NUMBER	1.76	1.76				
+39	6	fb:cell.2197	2197	2197	2197	CD	DATE	2197	2197.0	2197-xx-xx			
+39	7	fb:cell.93	93	93	93	CD	NUMBER	93.0	93.0				
+40	0	fb:cell.lago_di_vogorno	Lago di Vogorno	lago|di|vogorno	Lago|di|Vogorno	NNP|NNP|NNP	O|O|O	||				Lago di Vogorno	fb:part.lago_di_vogorno
+40	1	fb:cell.null_2	↑	↑	↑	NN	O						
+40	2	fb:cell.lago_di_vogorno	Lago di Vogorno	lago|di|vogorno	Lago|di|Vogorno	NNP|NNP|NNP	O|O|O	||				Lago di Vogorno	fb:part.lago_di_vogorno
+40	3	fb:cell.vogorno	Vogorno	vogorno	Vogorno	NNP	O					Vogorno	fb:part.vogorno
+40	4	fb:cell.ticino	Ticino	ticino	Ticino	NNP	LOCATION					Ticino	fb:part.ticino
+40	5	fb:cell.1_68	1.68	1.68	1.68	CD	NUMBER	1.68	1.68				
+40	6	fb:cell.470	470	470	470	CD	NUMBER	470.0	470.0				
+40	7	fb:cell.204	204	204	204	CD	NUMBER	204.0	204.0				
+41	0	fb:cell.lac_de_salanfe	Lac de Salanfe	lac|de|salanfe	Lac|de|Salanfe	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de Salanfe	fb:part.lac_de_salanfe
+41	1	fb:cell.null_2	↑	↑	↑	NN	O						
+41	2	fb:cell.lac_de_salanfe	Lac de Salanfe	lac|de|salanfe	Lac|de|Salanfe	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de Salanfe	fb:part.lac_de_salanfe
+41	3	fb:cell.salanfe	Salanfe	salanfe	salanfe	FW	LOCATION					Salanfe	fb:part.salanfe
+41	4	fb:cell.valais	Valais	valais	Valais	NNP	LOCATION					Valais	fb:part.valais
+41	5	fb:cell.1_62	1.62	1.62	1.62	CD	NUMBER	1.62	1.62				
+41	6	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx			
+41	7	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+42	0	fb:cell.zervreilasee	Zervreilasee	zervreilasee	zervreilasee	NN	O					Zervreilasee	fb:part.zervreilasee
+42	1	fb:cell.null_2	↑	↑	↑	NN	O						
+42	2	fb:cell.zervreilasee	Zervreilasee	zervreilasee	zervreilasee	NN	O					Zervreilasee	fb:part.zervreilasee
+42	3	fb:cell.zervreila	Zervreila	zervreila	zervreilum	NN	O					Zervreila	fb:part.zervreila
+42	4	fb:cell.grisons	Grisons	grisons	Grisons	NNP	LOCATION					Grisons	fb:part.grisons
+42	5	fb:cell.1_61	1.61	1.61	1.61	CD	NUMBER	1.61	1.61				
+42	6	fb:cell.1862	1862	1862	1862	CD	DATE	1862	1862.0	1862-xx-xx			
+42	7	fb:cell.140	140	140	140	CD	NUMBER	140.0	140.0				
+43	0	fb:cell.lac_de_l_hongrin	Lac de l'Hongrin	lac|de|l'hongrin	Lac|de|l'Hongrin	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de l'Hongrin	fb:part.lac_de_l_hongrin
+43	1	fb:cell.null_2	↑	↑	↑	NN	O						
+43	2	fb:cell.lac_de_l_hongrin	Lac de l'Hongrin	lac|de|l'hongrin	Lac|de|l'Hongrin	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de l'Hongrin	fb:part.lac_de_l_hongrin
+43	3	fb:cell.hongrin	Hongrin	hongrin	Hongrin	NNP	PERSON					Hongrin	fb:part.hongrin
+43	4	fb:cell.vaud	Vaud	vaud	Vaud	NNP	LOCATION					Vaud	fb:part.vaud
+43	5	fb:cell.1_60	1.60	1.60	1.60	CD	NUMBER	1.6	1.6				
+43	6	fb:cell.1255	1255	1255	1255	CD	DATE	1255	1255.0	1255-xx-xx			
+43	7	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+44	0	fb:cell.lago_bianco	Lago Bianco	lago|bianco	Lago|Bianco	NNP|NNP	PERSON|PERSON	|				Lago Bianco	fb:part.lago_bianco
+44	1	fb:cell.null_3	*	\\*	\\*	SYM	O						
+44	2	fb:cell.lago_bianco	Lago Bianco	lago|bianco	Lago|Bianco	NNP|NNP	PERSON|PERSON	|				Lago Bianco	fb:part.lago_bianco
+44	3	fb:cell.bianco	Bianco	bianco	Bianco	NNP	PERSON					Bianco	fb:part.bianco
+44	4	fb:cell.grisons	Grisons	grisons	Grisons	NNP	LOCATION					Grisons	fb:part.grisons
+44	5	fb:cell.1_50	1.50	1.50	1.50	CD	NUMBER	1.5	1.5				
+44	6	fb:cell.2234	2234	2234	2234	CD	DATE	2234	2234.0	2234-xx-xx			
+44	7	fb:cell.53	53	53	53	CD	NUMBER	53.0	53.0				
+45	0	fb:cell.lago_ritom	Lago Ritom	lago|ritom	Lago|Ritom	NNP|NNP	PERSON|PERSON	|				Lago Ritom	fb:part.lago_ritom
+45	1	fb:cell.null_3	*	\\*	\\*	SYM	O						
+45	2	fb:cell.lago_ritom	Lago Ritom	lago|ritom	Lago|Ritom	NNP|NNP	PERSON|PERSON	|				Lago Ritom	fb:part.lago_ritom
+45	3	fb:cell.ritom	Ritom	ritom	ritom	NN	PERSON					Ritom	fb:part.ritom
+45	4	fb:cell.ticino	Ticino	ticino	Ticino	NNP	LOCATION					Ticino	fb:part.ticino
+45	5	fb:cell.1_49	1.49	1.49	1.49	CD	NUMBER	1.49	1.49				
+45	6	fb:cell.1850	1850	1850	1850	CD	DATE	1850	1850.0	1850-xx-xx			
+45	7	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+46	0	fb:cell.oberaarsee	Oberaarsee	oberaarsee	oberaarsee	NN	O					Oberaarsee	fb:part.oberaarsee
+46	1	fb:cell.null_2	↑	↑	↑	NN	O						
+46	2	fb:cell.oberaarsee	Oberaarsee	oberaarsee	oberaarsee	NN	O					Oberaarsee	fb:part.oberaarsee
+46	3	fb:cell.oberaar	Oberaar	oberaar	Oberaar	NNP	O					Oberaar	fb:part.oberaar
+46	4	fb:cell.berne	Berne	berne	Berne	NNP	PERSON					Berne	fb:part.berne
+46	5	fb:cell.1_47	1.47	1.47	1.47	CD	NUMBER	1.47	1.47				
+46	6	fb:cell.2303	2303	2303	2303	CD	DATE	2303	2303.0	2303-xx-xx			
+46	7	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+47	0	fb:cell.lai_da_marmorera	Lai da Marmorera	lai|da|marmorera	Lai|da|Marmorera	NNP|NNP|NNP	PERSON|O|O	||				Lai da Marmorera	fb:part.lai_da_marmorera
+47	1	fb:cell.null_2	↑	↑	↑	NN	O						
+47	2	fb:cell.lai_da_marmorera	Lai da Marmorera	lai|da|marmorera	Lai|da|Marmorera	NNP|NNP|NNP	PERSON|O|O	||				Lai da Marmorera	fb:part.lai_da_marmorera
+47	3	fb:cell.marmorera	Marmorera	marmorera	Marmorera	NNP	PERSON					Marmorera	fb:part.marmorera
+47	4	fb:cell.grisons	Grisons	grisons	Grisons	NNP	LOCATION					Grisons	fb:part.grisons
+47	5	fb:cell.1_41	1.41	1.41	1.41	CD	NUMBER	1.41	1.41				
+47	6	fb:cell.1680	1680	1680	1680	CD	DATE	1680	1680.0	1680-xx-xx			
+47	7	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+48	0	fb:cell.lac_de_moiry	Lac de Moiry	lac|de|moiry	Lac|de|Moiry	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de Moiry	fb:part.lac_de_moiry
+48	1	fb:cell.null_2	↑	↑	↑	NN	O						
+48	2	fb:cell.lac_de_moiry	Lac de Moiry	lac|de|moiry	Lac|de|Moiry	NNP|NNP|NNP	MISC|MISC|MISC	||				Lac de Moiry	fb:part.lac_de_moiry
+48	3	fb:cell.moiry	Moiry	moiry	Moiry	NNP	O					Moiry	fb:part.moiry
+48	4	fb:cell.valais	Valais	valais	Valais	NNP	LOCATION					Valais	fb:part.valais
+48	5	fb:cell.1_40	1.40	1.40	1.40	CD	NUMBER	1.4	1.4				
+48	6	fb:cell.2249	2249	2249	2249	CD	DATE	2249	2249.0	2249-xx-xx			
+48	7	fb:cell.120	120	120	120	CD	NUMBER	120.0	120.0				
+49	0	fb:cell.limmernsee	Limmernsee	limmernsee	limmernsee	NN	LOCATION					Limmernsee	fb:part.limmernsee
+49	1	fb:cell.null_2	↑	↑	↑	NN	O						
+49	2	fb:cell.limmernsee	Limmernsee	limmernsee	limmernsee	NN	LOCATION					Limmernsee	fb:part.limmernsee
+49	3	fb:cell.limmern	Limmern	limmern	Limmern	NNP	LOCATION					Limmern	fb:part.limmern
+49	4	fb:cell.glarus	Glarus	glarus	glarus	FW	O					Glarus	fb:part.glarus
+49	5	fb:cell.1_36	1.36	1.36	1.36	CD	NUMBER	1.36	1.36				
+49	6	fb:cell.1857	1857	1857	1857	CD	DATE	1857	1857.0	1857-xx-xx			
+49	7	fb:cell.122	122	122	122	CD	NUMBER	122.0	122.0				
+50	0	fb:cell.goscheneralpsee	Göscheneralpsee	göscheneralpsee	göscheneralpsee	NN	PERSON					Göscheneralpsee	fb:part.goscheneralpsee
+50	1	fb:cell.null_2	↑	↑	↑	NN	O						
+50	2	fb:cell.goscheneralpsee	Göscheneralpsee	göscheneralpsee	göscheneralpsee	NN	PERSON					Göscheneralpsee	fb:part.goscheneralpsee
+50	3	fb:cell.goscheneralp	Göscheneralp	göscheneralp	göscheneralp	NN	O					Göscheneralp	fb:part.goscheneralp
+50	4	fb:cell.uri	Uri	uri	Uri	NNP	PERSON					Uri	fb:part.uri
+50	5	fb:cell.1_32	1.32	1.32	1.32	CD	NUMBER	1.32	1.32				
+50	6	fb:cell.1792	1792	1792	1792	CD	DATE	1792	1792.0	1792-xx-xx			
+50	7	fb:cell.106	106	106	106	CD	NUMBER	106.0	106.0				
+51	0	fb:cell.lago_di_luzzone	Lago di Luzzone	lago|di|luzzone	Lago|di|Luzzone	NNP|NNP|NNP	O|O|O	||				Lago di Luzzone	fb:part.lago_di_luzzone
+51	1	fb:cell.null_2	↑	↑	↑	NN	O						
+51	2	fb:cell.lago_di_luzzone	Lago di Luzzone	lago|di|luzzone	Lago|di|Luzzone	NNP|NNP|NNP	O|O|O	||				Lago di Luzzone	fb:part.lago_di_luzzone
+51	3	fb:cell.luzzone	Luzzone	luzzone	luzzone	NN	PERSON					Luzzone	fb:part.luzzone
+51	4	fb:cell.ticino	Ticino	ticino	Ticino	NNP	LOCATION					Ticino	fb:part.ticino
+51	5	fb:cell.1_27	1.27	1.27	1.27	CD	NUMBER	1.27	1.27				
+51	6	fb:cell.1606	1606	1606	1606	CD	DATE	1606	1606.0	1606-xx-xx			
+51	7	fb:cell.181	181	181	181	CD	NUMBER	181.0	181.0				
+52	0	fb:cell.klingnauer_stausee	Klingnauer Stausee	klingnauer|stausee	Klingnauer|Stausee	NNP|NNP	O|O	|				Klingnauer Stausee	fb:part.klingnauer_stausee
+52	1	fb:cell.null_2	↑	↑	↑	NN	O						
+52	2	fb:cell.klingnauer_stausee	Klingnauer Stausee	klingnauer|stausee	Klingnauer|Stausee	NNP|NNP	O|O	|				Klingnauer Stausee	fb:part.klingnauer_stausee
+52	3	fb:cell.klingnau	Klingnau	klingnau	Klingnau	NNP	PERSON					Klingnau	fb:part.klingnau
+52	4	fb:cell.aargau	Aargau	aargau	Aargau	NNP	LOCATION					Aargau	fb:part.aargau
+52	5	fb:cell.1_16	1.16	1.16	1.16	CD	NUMBER	1.16	1.16				
+52	6	fb:cell.318	318	318	318	CD	NUMBER	318.0	318.0				
+52	7	fb:cell.8_5	8.5	8.5	8.5	CD	NUMBER	8.5	8.5				
+53	0	fb:cell.albigna_lake	Albigna lake	albigna|lake	Albigna|lake	NNP|NN	PERSON|O	|				Albigna lake	fb:part.albigna_lake
+53	1	fb:cell.null_2	↑	↑	↑	NN	O						
+53	2	fb:cell.lago_da_l_albigna_lagh_da_l_albigna	Lago da l'Albigna\nLägh da l'Albigna	lago|da|l'albigna|lägh|da|l'albigna	Lago|da|l'Albigna|Lägh|da|l'albigna	NNP|NNP|NNP|NNP|NN|NN	O|O|O|O|O|O	|||||				Lago da l'Albigna|Lägh da l'Albigna	fb:part.lago_da_l_albigna|fb:part.lagh_da_l_albigna
+53	3	fb:cell.albigna	Albigna	albigna	Albigna	NNP	PERSON					Albigna	fb:part.albigna
+53	4	fb:cell.grisons	Grisons	grisons	Grisons	NNP	LOCATION					Grisons	fb:part.grisons
+53	5	fb:cell.1_13	1.13	1.13	1.13	CD	NUMBER	1.13	1.13				
+53	6	fb:cell.2163	2163	2163	2163	CD	DATE	2163	2163.0	2163-xx-xx			
+53	7	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+54	0	fb:cell.oeschinen_lake	Oeschinen Lake	oeschinen|lake	Oeschinen|Lake	NNP|NNP	LOCATION|LOCATION	|				Oeschinen Lake	fb:part.oeschinen_lake
+54	1	fb:cell.null_2	↑	↑	↑	NN	O						
+54	2	fb:cell.oeschinensee	Oeschinensee	oeschinensee	oeschinensee	NN	O					Oeschinensee	fb:part.oeschinensee
+54	3	fb:cell.oeschinen	Oeschinen	oeschinen	oeschinen	NN	PERSON					Oeschinen	fb:part.oeschinen
+54	4	fb:cell.berne	Berne	berne	Berne	NNP	PERSON					Berne	fb:part.berne
+54	5	fb:cell.1_11	1.11	1.11	1.11	CD	NUMBER	1.11	1.11				
+54	6	fb:cell.1578	1578	1578	1578	CD	DATE	1578	1578.0	1578-xx-xx			
+54	7	fb:cell.56	56	56	56	CD	NUMBER	56.0	56.0				
+55	0	fb:cell.lago_del_sambuco	Lago del Sambuco	lago|del|sambuco	Lago|del|Sambuco	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Lago del Sambuco	fb:part.lago_del_sambuco
+55	1	fb:cell.null_2	↑	↑	↑	NN	O						
+55	2	fb:cell.lago_del_sambuco	Lago del Sambuco	lago|del|sambuco	Lago|del|Sambuco	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Lago del Sambuco	fb:part.lago_del_sambuco
+55	3	fb:cell.sambuco	Sambuco	sambuco	sambuco	FW	PERSON					Sambuco	fb:part.sambuco
+55	4	fb:cell.ticino	Ticino	ticino	Ticino	NNP	LOCATION					Ticino	fb:part.ticino
+55	5	fb:cell.1_11	1.11	1.11	1.11	CD	NUMBER	1.11	1.11				
+55	6	fb:cell.1461	1461	1461	1461	CD	DATE	1461	1461.0	1461-xx-xx			
+55	7	fb:cell.124	124	124	124	CD	NUMBER	124.0	124.0				

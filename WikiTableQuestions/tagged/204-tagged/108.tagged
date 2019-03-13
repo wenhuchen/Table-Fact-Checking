@@ -1,0 +1,307 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.typ	Typ	typ	typ	NN	O						
+-1	1	fb:row.row.construction_time	Construction Time	construction|time	construction|time	NN|NN	O|O	|					
+-1	2	fb:row.row.cylinders	Cylinders	cylinders	cylinder	NNS	O						
+-1	3	fb:row.row.capacity	Capacity	capacity	capacity	NN	O						
+-1	4	fb:row.row.power	Power	power	power	NN	O						
+-1	5	fb:row.row.top_speed	Top speed	top|speed	top|speed	JJ|NN	O|O	|					
+0	0	fb:cell.vis_a_vis	Vis-à-Vis	vis|à|vis	Vis|à|Vis	NNP|NNP|NNP	O|O|O	||				Vis-à-Vis	fb:part.vis_a_vis
+0	1	fb:cell.1900_1903	1900–1903	1900|--|1903	1900|--|1903	CD|:|CD	DATE|DATE|DATE	1900|1900|1903	1900.0		1903.0		
+0	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	3	fb:cell.400_cc	400 cc	400|cc	400|cc	CD|NN	NUMBER|O	400.0|	400.0				
+0	4	fb:cell.2_6_kw_3_5_ps	2,6 kW (3,5 PS)	2,6|kw|-lrb-|3,5|ps|-rrb-	2,6|kw|-lrb-|3,5|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	2.6|||3.5||	26.0		35.0		
+0	5	fb:cell.30_km_h_19_mph	30 km/h (19 mph)	30|km\\/h|-lrb-|19|mph|-rrb-	30|km\\/h|-lrb-|19|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	30.0|||19.0||	30.0		19.0	30 km|h (19 mph)	fb:part.30_km|fb:part.h_19_mph
+1	0	fb:cell.45_ps_33_kw_44_hp	45 PS (33 kW; 44 hp)	45|ps|-lrb-|33|kw|;|44|hp|-rrb-	45|PS|-lrb-|33|kw|;|44|hp|-rrb-	CD|NNP|-LRB-|CD|NN|:|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	45.0|||33.0|||44.0||	45.0		33.0	45 PS (33 kW; 44 hp)	fb:part.45_ps_33_kw_44_hp
+1	1	fb:cell.1900_1903	1900–1903	1900|--|1903	1900|--|1903	CD|:|CD	DATE|DATE|DATE	1900|1900|1903	1900.0		1903.0		
+1	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	3	fb:cell.510_cc	510 cc	510|cc	510|cc	CD|NN	NUMBER|O	510.0|	510.0				
+1	4	fb:cell.3_3_kw_4_5_ps	3,3 kW (4,5 PS)	3,3|kw|-lrb-|4,5|ps|-rrb-	3,3|kw|-lrb-|4,5|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	3.3|||4.5||	33.0		45.0		
+1	5	fb:cell.35_km_h_22_mph	35 km/h (22 mph)	35|km\\/h|-lrb-|22|mph|-rrb-	35|km\\/h|-lrb-|22|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	35.0|||22.0||	35.0		22.0	35 km|h (22 mph)	fb:part.35_km|fb:part.h_22_mph
+2	0	fb:cell.8_ps_6_kw_8_hp	8 PS (6 kW; 8 hp)	8|ps|-lrb-|6|kw|;|8|hp|-rrb-	8|PS|-lrb-|6|kw|;|8|hp|-rrb-	CD|NNP|-LRB-|CD|NN|:|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	8.0|||6.0|||8.0||	8.0		6.0	8 PS (6 kW; 8 hp)	fb:part.8_ps_6_kw_8_hp
+2	1	fb:cell.1901_1903	1901–1903	1901|--|1903	1901|--|1903	CD|:|CD	DATE|DATE|DATE	1901|1901|1903	1901.0		1903.0		
+2	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+2	3	fb:cell.865_cc	865 cc	865|cc	865|cc	CD|NN	NUMBER|O	865.0|	865.0				
+2	4	fb:cell.5_9_kw_8_ps	5,9 kW (8 PS)	5,9|kw|-lrb-|8|ps|-rrb-	5,9|kw|-lrb-|8|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	5.9|||8.0||	59.0		8.0		
+2	5	fb:cell.40_km_h_25_mph	40 km/h (25 mph)	40|km\\/h|-lrb-|25|mph|-rrb-	40|km\\/h|-lrb-|25|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	40.0|||25.0||	40.0		25.0	40 km|h (25 mph)	fb:part.40_km|fb:part.h_25_mph
+3	0	fb:cell.24_28_ps	24/28 PS	24\\/28|ps	24\\/28|PS	CD|NNP	NUMBER|O	|	24.0		28.0	24|28 PS	fb:part.24|fb:part.28_ps
+3	1	fb:cell.1904_1905	1904–1905	1904|--|1905	1904|--|1905	CD|:|CD	DATE|DATE|DATE	1904|1904|1905	1904.0		1905.0		
+3	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+3	3	fb:cell.4_016_cc	4,016 cc	4,016|cc	4,016|cc	CD|NN	NUMBER|O	4016.0|	4016.0				
+3	4	fb:cell.20_6_kw_28_ps	20,6 kW (28 PS)	20,6|kw|-lrb-|28|ps|-rrb-	20,6|kw|-lrb-|28|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	20.6|||28.0||	206.0		28.0		
+3	5	fb:cell.65_km_h_40_mph	65 km/h (40 mph)	65|km\\/h|-lrb-|40|mph|-rrb-	65|km\\/h|-lrb-|40|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	65.0|||40.0||	65.0		40.0	65 km|h (40 mph)	fb:part.65_km|fb:part.h_40_mph
+4	0	fb:cell.8_12_8_14_ps	8/12 (8/14) PS	8\\/12|-lrb-|8\\/14|-rrb-|ps	8\\/12|-lrb-|8\\/14|-rrb-|PS	NN|-LRB-|CD|-RRB-|NNP	O|O|NUMBER|O|O	||||	8.0		12.0	8|12 (8|14) PS	fb:part.8|fb:part.12_8|fb:part.14_ps
+4	1	fb:cell.1904_1906	1904–1906	1904|--|1906	1904|--|1906	CD|:|CD	DATE|DATE|DATE	1904|1904|1906	1904.0		1906.0		
+4	2	fb:cell.2_inline	2 inline	2|inline	2|inline	CD|NN	NUMBER|O	2.0|	2.0				
+4	3	fb:cell.2_008_cc	2,008 cc	2,008|cc	2,008|cc	CD|NN	NUMBER|O	2008.0|	2008.0				
+4	4	fb:cell.8_8_10_3_kw_12_14_ps	8,8–10,3 kW (12–14 PS)	8,8|--|10,3|kw|-lrb-|12|--|14|ps|-rrb-	8,8|--|10,3|kw|-lrb-|12|--|14|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|MONEY|MONEY|O|NUMBER|O|NUMBER|O|O	8.8||$103.0|$103.0||12.0||14.0||	88.0		103.0		
+4	5	fb:cell.50_km_h_31_mph	50 km/h (31 mph)	50|km\\/h|-lrb-|31|mph|-rrb-	50|km\\/h|-lrb-|31|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	50.0|||31.0||	50.0		31.0	50 km|h (31 mph)	fb:part.50_km|fb:part.h_31_mph
+5	0	fb:cell.4_8_ps	4/8 PS	4\\/8|ps	4\\/8|PS	CD|NNP	NUMBER|O	|	4.0		8.0	4|8 PS	fb:part.4|fb:part.8_ps
+5	1	fb:cell.1906_1907	1906–1907	1906|--|1907	1906|--|1907	CD|:|CD	DATE|DATE|DATE	1906|1906|1907	1906.0		1907.0		
+5	2	fb:cell.2_v	2 V	2|v	2|v	CD|NN	NUMBER|O	2.0|	2.0				
+5	3	fb:cell.1_032_cc	1,032 cc	1,032|cc	1,032|cc	CD|NN	NUMBER|O	1032.0|	1032.0				
+5	4	fb:cell.5_9_kw_8_ps	5,9 kW (8 PS)	5,9|kw|-lrb-|8|ps|-rrb-	5,9|kw|-lrb-|8|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	5.9|||8.0||	59.0		8.0		
+5	5	fb:cell.55_km_h_34_mph	55 km/h (34 mph)	55|km\\/h|-lrb-|34|mph|-rrb-	55|km\\/h|-lrb-|34|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	55.0|||34.0||	55.0		34.0	55 km|h (34 mph)	fb:part.55_km|fb:part.h_34_mph
+6	0	fb:cell.5_9_ps	5/9 PS	5\\/9|ps	5\\/9|PS	CD|NNP	NUMBER|O	|	5.0		9.0	5|9 PS	fb:part.5|fb:part.9_ps
+6	1	fb:cell.1907_1909	1907–1909	1907|--|1909	1907|--|1909	CD|:|CD	DATE|DATE|DATE	1907|1907|1909	1907.0		1909.0		
+6	2	fb:cell.2_inline	2 inline	2|inline	2|inline	CD|NN	NUMBER|O	2.0|	2.0				
+6	3	fb:cell.1_134_cc	1,134 cc	1,134|cc	1,134|cc	CD|NN	NUMBER|O	1134.0|	1134.0				
+6	4	fb:cell.6_6_kw_9_ps	6,6 kW (9 PS)	6,6|kw|-lrb-|9|ps|-rrb-	6,6|kw|-lrb-|9|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	6.6|||9.0||	66.0		9.0		
+6	5	fb:cell.60_km_h_37_mph	60 km/h (37 mph)	60|km\\/h|-lrb-|37|mph|-rrb-	60|km\\/h|-lrb-|37|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	60.0|||37.0||	60.0		37.0	60 km|h (37 mph)	fb:part.60_km|fb:part.h_37_mph
+7	0	fb:cell.8_15_ps	8/15 PS	8\\/15|ps	8\\/15|PS	CD|NNP	NUMBER|O	|	8.0		15.0	8|15 PS	fb:part.8|fb:part.15_ps
+7	1	fb:cell.1907_1910	1907–1910	1907|--|1910	1907|--|1910	CD|:|CD	DATE|DATE|DATE	1907|1907|1910	1907.0		1910.0		
+7	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+7	3	fb:cell.2_011_cc	2,011 cc	2,011|cc	2,011|cc	CD|NN	NUMBER|O	2011.0|	2011.0				
+7	4	fb:cell.11_kw_15_ps	11 kW (15 PS)	11|kw|-lrb-|15|ps|-rrb-	11|kw|-lrb-|15|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	11.0|||15.0||	11.0		15.0		
+7	5	fb:cell.55_km_h_34_mph	55 km/h (34 mph)	55|km\\/h|-lrb-|34|mph|-rrb-	55|km\\/h|-lrb-|34|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	55.0|||34.0||	55.0		34.0	55 km|h (34 mph)	fb:part.55_km|fb:part.h_34_mph
+8	0	fb:cell.11_18_ps	11/18 PS	11\\/18|ps	11\\/18|PS	CD|NNP	NUMBER|O	|	11.0		18.0	11|18 PS	fb:part.11|fb:part.18_ps
+8	1	fb:cell.1907_1910	1907–1910	1907|--|1910	1907|--|1910	CD|:|CD	DATE|DATE|DATE	1907|1907|1910	1907.0		1910.0		
+8	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+8	3	fb:cell.2_799_cc	2,799 cc	2,799|cc	2,799|cc	CD|NN	NUMBER|O	2799.0|	2799.0				
+8	4	fb:cell.13_2_kw_18_ps	13,2 kW (18 PS)	13,2|kw|-lrb-|18|ps|-rrb-	13,2|kw|-lrb-|18|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	13.2|||18.0||	132.0		18.0		
+8	5	fb:cell.55_km_h_34_mph	55 km/h (34 mph)	55|km\\/h|-lrb-|34|mph|-rrb-	55|km\\/h|-lrb-|34|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	55.0|||34.0||	55.0		34.0	55 km|h (34 mph)	fb:part.55_km|fb:part.h_34_mph
+9	0	fb:cell.23_50_ps	23/50 PS	23\\/50|ps	23\\/50|PS	CD|NNP	NUMBER|O	|	23.0		50.0	23|50 PS	fb:part.23|fb:part.50_ps
+9	1	fb:cell.1909_1912	1909–1912	1909|--|1912	1909|--|1912	CD|:|CD	DATE|DATE|DATE	1909|1909|1912	1909.0		1912.0		
+9	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+9	3	fb:cell.5_800_cc	5,800 cc	5,800|cc	5,800|cc	CD|NN	NUMBER|O	5800.0|	5800.0				
+9	4	fb:cell.42_6_kw_58_ps	42,6 kW (58 PS)	42,6|kw|-lrb-|58|ps|-rrb-	42,6|kw|-lrb-|58|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	42.6|||58.0||	426.0		58.0		
+9	5	fb:cell.null											fb:part.null
+10	0	fb:cell.19_45_ps	19/45 PS	19\\/45|ps	19\\/45|PS	CD|NNP	NUMBER|O	|	19.0		45.0	19|45 PS	fb:part.19|fb:part.45_ps
+10	1	fb:cell.1909_1912	1909–1912	1909|--|1912	1909|--|1912	CD|:|CD	DATE|DATE|DATE	1909|1909|1912	1909.0		1912.0		
+10	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+10	3	fb:cell.4_840_cc	4,840 cc	4,840|cc	4,840|cc	CD|NN	NUMBER|O	4840.0|	4840.0				
+10	4	fb:cell.35_kw_48_ps	35 kW (48 PS)	35|kw|-lrb-|48|ps|-rrb-	35|kw|-lrb-|48|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	35.0|||48.0||	35.0		48.0		
+10	5	fb:cell.null											fb:part.null
+11	0	fb:cell.13_30_ps	13/30 PS	13\\/30|ps	13\\/30|PS	CD|NNP	NUMBER|O	|	13.0		30.0	13|30 PS	fb:part.13|fb:part.30_ps
+11	1	fb:cell.1909_1912	1909–1912	1909|--|1912	1909|--|1912	CD|:|CD	DATE|DATE|DATE	1909|1909|1912	1909.0		1912.0		
+11	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+11	3	fb:cell.3_180_cc	3,180 cc	3,180|cc	3,180|cc	CD|NN	NUMBER|O	3180.0|	3180.0				
+11	4	fb:cell.25_7_kw_35_ps	25,7 kW (35 PS)	25,7|kw|-lrb-|35|ps|-rrb-	25,7|kw|-lrb-|35|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	25.7|||35.0||	257.0		35.0		
+11	5	fb:cell.null											fb:part.null
+12	0	fb:cell.10_28_ps	10/28 PS	10\\/28|ps	10\\/28|PS	CD|NNP	NUMBER|O	|	10.0		28.0	10|28 PS	fb:part.10|fb:part.28_ps
+12	1	fb:cell.1909_1912	1909–1912	1909|--|1912	1909|--|1912	CD|:|CD	DATE|DATE|DATE	1909|1909|1912	1909.0		1912.0		
+12	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+12	3	fb:cell.2_612_cc	2,612 cc	2,612|cc	2,612|cc	CD|NN	NUMBER|O	2612.0|	2612.0				
+12	4	fb:cell.22_kw_30_ps	22 kW (30 PS)	22|kw|-lrb-|30|ps|-rrb-	22|kw|-lrb-|30|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	22.0|||30.0||	22.0		30.0		
+12	5	fb:cell.null											fb:part.null
+13	0	fb:cell.k_7_15_ps	K 7/15 PS	k|7\\/15|ps	K|7\\/15|PS	NNP|CD|NNP	O|NUMBER|O	||	7.0		15.0	K 7|15 PS	fb:part.k_7|fb:part.15_ps
+13	1	fb:cell.1910_1913	1910–1913	1910|--|1913	1910|--|1913	CD|:|CD	DATE|DATE|DATE	1910|1910|1913	1910.0		1913.0		
+13	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+13	3	fb:cell.1_768_cc	1,768 cc	1,768|cc	1,768|cc	CD|NN	NUMBER|O	1768.0|	1768.0				
+13	4	fb:cell.11_kw_15_ps	11 kW (15 PS)	11|kw|-lrb-|15|ps|-rrb-	11|kw|-lrb-|15|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	11.0|||15.0||	11.0		15.0		
+13	5	fb:cell.60_km_h_37_mph	60 km/h (37 mph)	60|km\\/h|-lrb-|37|mph|-rrb-	60|km\\/h|-lrb-|37|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	60.0|||37.0||	60.0		37.0	60 km|h (37 mph)	fb:part.60_km|fb:part.h_37_mph
+14	0	fb:cell.30_70_ps	30/70 PS	30\\/70|ps	30\\/70|PS	CD|NNP	NUMBER|O	|	30.0		70.0	30|70 PS	fb:part.30|fb:part.70_ps
+14	1	fb:cell.1911_1914	1911–1914	1911|--|1914	1911|--|1914	CD|:|CD	DATE|DATE|DATE	1911|1911|1914	1911.0		1914.0		
+14	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+14	3	fb:cell.7_853_cc	7,853 cc	7,853|cc	7,853|cc	CD|NN	NUMBER|O	7853.0|	7853.0				
+14	4	fb:cell.51_kw_70_ps	51 kW (70 PS)	51|kw|-lrb-|70|ps|-rrb-	51|kw|-lrb-|70|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	51.0|||70.0||	51.0		70.0		
+14	5	fb:cell.115_km_h_71_mph	115 km/h (71 mph)	115|km\\/h|-lrb-|71|mph|-rrb-	115|km\\/h|-lrb-|71|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	115.0|||71.0||	115.0		71.0	115 km|h (71 mph)	fb:part.115_km|fb:part.h_71_mph
+15	0	fb:cell.35_80_ps	35/80 PS	35\\/80|ps	35\\/80|PS	CD|NNP	NUMBER|O	|	35.0		80.0	35|80 PS	fb:part.35|fb:part.80_ps
+15	1	fb:cell.1911_1914	1911–1914	1911|--|1914	1911|--|1914	CD|:|CD	DATE|DATE|DATE	1911|1911|1914	1911.0		1914.0		
+15	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+15	3	fb:cell.9_081_cc	9,081 cc	9,081|cc	9,081|cc	CD|NN	NUMBER|O	9081.0|	9081.0				
+15	4	fb:cell.62_5_kw_85_ps	62,5 kW (85 PS)	62,5|kw|-lrb-|85|ps|-rrb-	62,5|kw|-lrb-|85|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	62.5|||85.0||	625.0		85.0		
+15	5	fb:cell.null											fb:part.null
+16	0	fb:cell.k_5_13_ps	K 5/13 PS	k|5\\/13|ps	K|5\\/13|PS	NNP|CD|NNP	O|NUMBER|O	||	5.0		13.0	K 5|13 PS	fb:part.k_5|fb:part.13_ps
+16	1	fb:cell.1911_1920	1911–1920	1911|--|1920	1911|--|1920	CD|:|CD	DATE|DATE|DATE	1911|1911|1920	1911.0		1920.0		
+16	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+16	3	fb:cell.1_292_cc	1,292 cc	1,292|cc	1,292|cc	CD|NN	NUMBER|O	1292.0|	1292.0				
+16	4	fb:cell.9_6_10_3_kw_13_14_ps	9,6–10,3 kW (13–14 PS)	9,6|--|10,3|kw|-lrb-|13|--|14|ps|-rrb-	9,6|--|10,3|kw|-lrb-|13|--|14|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|MONEY|MONEY|O|NUMBER|O|NUMBER|O|O	9.6||$103.0|$103.0||13.0||14.0||	96.0		103.0		
+16	5	fb:cell.55_km_h_34_mph	55 km/h (34 mph)	55|km\\/h|-lrb-|34|mph|-rrb-	55|km\\/h|-lrb-|34|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	55.0|||34.0||	55.0		34.0	55 km|h (34 mph)	fb:part.55_km|fb:part.h_34_mph
+17	0	fb:cell.20_50_ps	20/50 PS	20\\/50|ps	20\\/50|PS	CD|NNP	NUMBER|O	|	20.0		50.0	20|50 PS	fb:part.20|fb:part.50_ps
+17	1	fb:cell.1912_1914	1912–1914	1912|--|1914	1912|--|1914	CD|:|CD	DATE|DATE|DATE	1912|1912|1914	1912.0		1914.0		
+17	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+17	3	fb:cell.5_229_cc	5,229 cc	5,229|cc	5,229|cc	CD|NN	NUMBER|O	5229.0|	5229.0				
+17	4	fb:cell.40_kw_55_ps	40 kW (55 PS)	40|kw|-lrb-|55|ps|-rrb-	40|kw|-lrb-|55|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	40.0|||55.0||	40.0		55.0		
+17	5	fb:cell.105_km_h_65_mph	105 km/h (65 mph)	105|km\\/h|-lrb-|65|mph|-rrb-	105|km\\/h|-lrb-|65|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	105.0|||65.0||	105.0		65.0	105 km|h (65 mph)	fb:part.105_km|fb:part.h_65_mph
+18	0	fb:cell.15_40_ps	15/40 PS	15\\/40|ps	15\\/40|PS	CD|NNP	NUMBER|O	|	15.0		40.0	15|40 PS	fb:part.15|fb:part.40_ps
+18	1	fb:cell.1913_1914	1913–1914	1913|--|1914	1913|--|1914	CD|:|CD	DATE|DATE|DATE	1913|1913|1914	1913.0		1914.0		
+18	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+18	3	fb:cell.3_866_cc	3,866 cc	3,866|cc	3,866|cc	CD|NN	NUMBER|O	3866.0|	3866.0				
+18	4	fb:cell.33_kw_45_ps	33 kW (45 PS)	33|kw|-lrb-|45|ps|-rrb-	33|kw|-lrb-|45|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	33.0|||45.0||	33.0		45.0		
+18	5	fb:cell.90_km_h_56_mph	90 km/h (56 mph)	90|km\\/h|-lrb-|56|mph|-rrb-	90|km\\/h|-lrb-|56|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	90.0|||56.0||	90.0		56.0	90 km|h (56 mph)	fb:part.90_km|fb:part.h_56_mph
+19	0	fb:cell.9_24_ps	9/24 PS	9\\/24|ps	9\\/24|PS	CD|NNP	NUMBER|O	|	9.0		24.0	9|24 PS	fb:part.9|fb:part.24_ps
+19	1	fb:cell.1913_1914	1913–1914	1913|--|1914	1913|--|1914	CD|:|CD	DATE|DATE|DATE	1913|1913|1914	1913.0		1914.0		
+19	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+19	3	fb:cell.2_313_cc	2,313 cc	2,313|cc	2,313|cc	CD|NN	NUMBER|O	2313.0|	2313.0				
+19	4	fb:cell.17_6_kw_24_ps	17,6 kW (24 PS)	17,6|kw|-lrb-|24|ps|-rrb-	17,6|kw|-lrb-|24|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	17.6|||24.0||	176.0		24.0		
+19	5	fb:cell.70_km_h_43_mph	70 km/h (43 mph)	70|km\\/h|-lrb-|43|mph|-rrb-	70|km\\/h|-lrb-|43|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	70.0|||43.0||	70.0		43.0	70 km|h (43 mph)	fb:part.70_km|fb:part.h_43_mph
+20	0	fb:cell.25_55_ps	25/55 PS	25\\/55|ps	25\\/55|PS	CD|NNP	NUMBER|O	|	25.0		55.0	25|55 PS	fb:part.25|fb:part.55_ps
+20	1	fb:cell.1913_1914	1913–1914	1913|--|1914	1913|--|1914	CD|:|CD	DATE|DATE|DATE	1913|1913|1914	1913.0		1914.0		
+20	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+20	3	fb:cell.6_457_cc	6,457 cc	6,457|cc	6,457|cc	CD|NN	NUMBER|O	6457.0|	6457.0				
+20	4	fb:cell.44_kw_60_ps	44 kW (60 PS)	44|kw|-lrb-|60|ps|-rrb-	44|kw|-lrb-|60|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	44.0|||60.0||	44.0		60.0		
+20	5	fb:cell.null											fb:part.null
+21	0	fb:cell.kl_6_16_ps	KL 6/16 PS	kl|6\\/16|ps	kl|6\\/16|PS	NN|CD|NNP	O|NUMBER|O	||	6.0		16.0	KL 6|16 PS	fb:part.kl_6|fb:part.16_ps
+21	1	fb:cell.1913_1920	1913–1920	1913|--|1920	1913|--|1920	CD|:|CD	DATE|DATE|DATE	1913|1913|1920	1913.0		1920.0		
+21	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+21	3	fb:cell.1_551_cc	1,551 cc	1,551|cc	1,551|cc	CD|NN	NUMBER|O	1551.0|	1551.0				
+21	4	fb:cell.11_8_kw_16_ps	11,8 kW (16 PS)	11,8|kw|-lrb-|16|ps|-rrb-	11,8|kw|-lrb-|16|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	11.8|||16.0||	118.0		16.0		
+21	5	fb:cell.60_km_h_37_mph	60 km/h (37 mph)	60|km\\/h|-lrb-|37|mph|-rrb-	60|km\\/h|-lrb-|37|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	60.0|||37.0||	60.0		37.0	60 km|h (37 mph)	fb:part.60_km|fb:part.h_37_mph
+22	0	fb:cell.12_30_ps	12/30 PS	12\\/30|ps	12\\/30|PS	CD|NNP	NUMBER|O	|	12.0		30.0	12|30 PS	fb:part.12|fb:part.30_ps
+22	1	fb:cell.1914	1914	1914	1914	CD	DATE	1914	1914.0	1914-xx-xx			
+22	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+22	3	fb:cell.3_115_cc	3,115 cc	3,115|cc	3,115|cc	CD|NN	NUMBER|O	3115.0|	3115.0				
+22	4	fb:cell.25_7_kw_35_ps	25,7 kW (35 PS)	25,7|kw|-lrb-|35|ps|-rrb-	25,7|kw|-lrb-|35|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	25.7|||35.0||	257.0		35.0		
+22	5	fb:cell.null											fb:part.null
+23	0	fb:cell.9_24_9_30_ps	9/24 (9/30) PS	9\\/24|-lrb-|9\\/30|-rrb-|ps	9\\/24|-lrb-|9\\/30|-rrb-|PS	NN|-LRB-|CD|-RRB-|NNP	O|O|NUMBER|O|O	||||	9.0		24.0	9|24 (9|30) PS	fb:part.9|fb:part.24_9|fb:part.30_ps_2
+23	1	fb:cell.1921_1924	1921–1924	1921|--|1924	1921|--|1924	CD|:|CD	DATE|DATE|DATE	1921|1921|1924	1921.0		1924.0		
+23	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+23	3	fb:cell.2_298_cc	2,298 cc	2,298|cc	2,298|cc	CD|NN	NUMBER|O	2298.0|	2298.0				
+23	4	fb:cell.17_6_22_kw_24_30_ps	17,6–22 kW (24–30 PS)	17,6|--|22|kw|-lrb-|24|--|30|ps|-rrb-	17,6|--|22|kw|-lrb-|24|--|30|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|MONEY|MONEY|O|NUMBER|O|NUMBER|O|O	17.6||$22.0|$22.0||24.0||30.0||	176.0		22.0		
+23	5	fb:cell.65_km_h_40_mph_75_km_h_47_mph	65 km/h (40 mph)–75 km/h (47 mph)	65|km\\/h|-lrb-|40|mph|-rrb-|--|75|km\\/h|-lrb-|47|mph|-rrb-	65|km\\/h|-lrb-|40|mph|-rrb-|--|75|km\\/h|-lrb-|47|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|:|CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O	65.0|||40.0||||75.0|||47.0||	65.0		40.0	65 km|h (40 mph)–75 km|h (47 mph)	fb:part.65_km|fb:part.h_40_mph_75_km|fb:part.h_47_mph
+24	0	fb:cell.12_34_12_40_ps	12/34 (12/40) PS	12\\/34|-lrb-|12\\/40|-rrb-|ps	12\\/34|-lrb-|12\\/40|-rrb-|PS	NN|-LRB-|CD|-RRB-|NNP	O|O|NUMBER|O|O	||||	12.0		34.0	12|34 (12|40) PS	fb:part.12|fb:part.34_12|fb:part.40_ps_2
+24	1	fb:cell.1921_1924	1921–1924	1921|--|1924	1921|--|1924	CD|:|CD	DATE|DATE|DATE	1921|1921|1924	1921.0		1924.0		
+24	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+24	3	fb:cell.3_115_cc	3,115 cc	3,115|cc	3,115|cc	CD|NN	NUMBER|O	3115.0|	3115.0				
+24	4	fb:cell.25_29_kw_34_40_ps	25–29 kW (34–40 PS)	25|--|29|kw|-lrb-|34|--|40|ps|-rrb-	25|--|29|kw|-lrb-|34|--|40|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|MONEY|MONEY|O|NUMBER|O|NUMBER|O|O	25.0||$29.0|$29.0||34.0||40.0||	25.0		29.0		
+24	5	fb:cell.85_km_h_53_mph	85 km/h (53 mph)	85|km\\/h|-lrb-|53|mph|-rrb-	85|km\\/h|-lrb-|53|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	85.0|||53.0||	85.0		53.0	85 km|h (53 mph)	fb:part.85_km|fb:part.h_53_mph
+25	0	fb:cell.18_60_ps	18/60 PS	18\\/60|ps	18\\/60|PS	CD|NNP	NUMBER|O	|	18.0		60.0	18|60 PS	fb:part.18|fb:part.60_ps
+25	1	fb:cell.1921_1924	1921–1924	1921|--|1924	1921|--|1924	CD|:|CD	DATE|DATE|DATE	1921|1921|1924	1921.0		1924.0		
+25	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+25	3	fb:cell.4_712_cc	4,712 cc	4,712|cc	4,712|cc	CD|NN	NUMBER|O	4712.0|	4712.0				
+25	4	fb:cell.44_kw_60_ps	44 kW (60 PS)	44|kw|-lrb-|60|ps|-rrb-	44|kw|-lrb-|60|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	44.0|||60.0||	44.0		60.0		
+25	5	fb:cell.100_km_h_62_mph	100 km/h (62 mph)	100|km\\/h|-lrb-|62|mph|-rrb-	100|km\\/h|-lrb-|62|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	100.0|||62.0||	100.0		62.0	100 km|h (62 mph)	fb:part.100_km|fb:part.h_62_mph
+26	0	fb:cell.6_22_ps	6/22 PS	6\\/22|ps	6\\/22|PS	CD|NNP	NUMBER|O	|	6.0		22.0	6|22 PS	fb:part.6|fb:part.22_ps
+26	1	fb:cell.1922_1923	1922–1923	1922|--|1923	1922|--|1923	CD|:|CD	DATE|DATE|DATE	1922|1922|1923	1922.0		1923.0		
+26	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+26	3	fb:cell.1_550_cc	1,550 cc	1,550|cc	1,550|cc	CD|NN	NUMBER|O	1550.0|	1550.0				
+26	4	fb:cell.16_kw_22_ps	16 kW (22 PS)	16|kw|-lrb-|22|ps|-rrb-	16|kw|-lrb-|22|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	16.0|||22.0||	16.0		22.0		
+26	5	fb:cell.75_km_h_47_mph	75 km/h (47 mph)	75|km\\/h|-lrb-|47|mph|-rrb-	75|km\\/h|-lrb-|47|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	75.0|||47.0||	75.0		47.0	75 km|h (47 mph)	fb:part.75_km|fb:part.h_47_mph
+27	0	fb:cell.10_50_ps	10/50 PS	10\\/50|ps	10\\/50|PS	CD|NNP	NUMBER|O	|	10.0		50.0	10|50 PS	fb:part.10|fb:part.50_ps
+27	1	fb:cell.1925_1927	1925–1927	1925|--|1927	1925|--|1927	CD|:|CD	DATE|DATE|DATE	1925|1925|1927	1925.0		1927.0		
+27	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+27	3	fb:cell.2_580_cc	2,580 cc	2,580|cc	2,580|cc	CD|NN	NUMBER|O	2580.0|	2580.0				
+27	4	fb:cell.37_kw_50_ps	37 kW (50 PS)	37|kw|-lrb-|50|ps|-rrb-	37|kw|-lrb-|50|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	37.0|||50.0||	37.0		50.0		
+27	5	fb:cell.90_km_h_56_mph	90 km/h (56 mph)	90|km\\/h|-lrb-|56|mph|-rrb-	90|km\\/h|-lrb-|56|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	90.0|||56.0||	90.0		56.0	90 km|h (56 mph)	fb:part.90_km|fb:part.h_56_mph
+28	0	fb:cell.18_80_ps	18/80 PS	18\\/80|ps	18\\/80|PS	CD|NNP	NUMBER|O	|	18.0		80.0	18|80 PS	fb:part.18|fb:part.80_ps
+28	1	fb:cell.1925_1927	1925–1927	1925|--|1927	1925|--|1927	CD|:|CD	DATE|DATE|DATE	1925|1925|1927	1925.0		1927.0		
+28	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+28	3	fb:cell.4_704_cc	4,704 cc	4,704|cc	4,704|cc	CD|NN	NUMBER|O	4704.0|	4704.0				
+28	4	fb:cell.59_kw_80_ps	59 kW (80 PS)	59|kw|-lrb-|80|ps|-rrb-	59|kw|-lrb-|80|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	59.0|||80.0||	59.0		80.0		
+28	5	fb:cell.100_km_h_62_mph	100 km/h (62 mph)	100|km\\/h|-lrb-|62|mph|-rrb-	100|km\\/h|-lrb-|62|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	100.0|||62.0||	100.0		62.0	100 km|h (62 mph)	fb:part.100_km|fb:part.h_62_mph
+29	0	fb:cell.6_25_ps	6/25 PS	6\\/25|ps	6\\/25|PS	CD|NNP	NUMBER|O	|	6.0		25.0	6|25 PS	fb:part.6|fb:part.25_ps
+29	1	fb:cell.1925_1928	1925–1928	1925|--|1928	1925|--|1928	CD|:|CD	DATE|DATE|DATE	1925|1925|1928	1925.0		1928.0		
+29	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+29	3	fb:cell.1_550_cc	1,550 cc	1,550|cc	1,550|cc	CD|NN	NUMBER|O	1550.0|	1550.0				
+29	4	fb:cell.18_kw_25_ps	18 kW (25 PS)	18|kw|-lrb-|25|ps|-rrb-	18|kw|-lrb-|25|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	18.0|||25.0||	18.0		25.0		
+29	5	fb:cell.80_km_h_50_mph	80 km/h (50 mph)	80|km\\/h|-lrb-|50|mph|-rrb-	80|km\\/h|-lrb-|50|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	80.0|||50.0||	80.0		50.0	80 km|h (50 mph)	fb:part.80_km|fb:part.h_50_mph
+30	0	fb:cell.standard_6	Standard 6	standard|6	Standard|6	NNP|CD	O|NUMBER	|6.0	6.0			Standard 6	fb:part.standard_6
+30	1	fb:cell.1927_1928	1927–1928	1927|--|1928	1927|--|1928	CD|:|CD	DATE|DATE|DATE	1927|1927|1928	1927.0		1928.0		
+30	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+30	3	fb:cell.2_540_cc	2,540 cc	2,540|cc	2,540|cc	CD|NN	NUMBER|O	2540.0|	2540.0				
+30	4	fb:cell.33_kw_45_ps	33 kW (45 PS)	33|kw|-lrb-|45|ps|-rrb-	33|kw|-lrb-|45|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	33.0|||45.0||	33.0		45.0		
+30	5	fb:cell.85_km_h_53_mph_90_km_h_56_mph	85 km/h (53 mph)–90 km/h (56 mph)	85|km\\/h|-lrb-|53|mph|-rrb-|--|90|km\\/h|-lrb-|56|mph|-rrb-	85|km\\/h|-lrb-|53|mph|-rrb-|--|90|km\\/h|-lrb-|56|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|:|CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|MONEY|MONEY|O|NUMBER|O|O	85.0|||53.0||||$90.0|$90.0||56.0||	85.0		53.0	85 km|h (53 mph)–90 km|h (56 mph)	fb:part.85_km|fb:part.h_53_mph_90_km|fb:part.h_56_mph
+31	0	fb:cell.standard_8	Standard 8	standard|8	Standard|8	NNP|CD	O|NUMBER	|8.0	8.0			Standard 8	fb:part.standard_8
+31	1	fb:cell.1928_1933	1928–1933	1928|--|1933	1928|--|1933	CD|:|CD	DATE|DATE|DATE	1928|1928|1933	1928.0		1933.0		
+31	2	fb:cell.8_inline	8 inline	8|inline	8|inline	CD|NN	NUMBER|O	8.0|	8.0				
+31	3	fb:cell.3_887_cc	3,887 cc	3,887|cc	3,887|cc	CD|NN	NUMBER|O	3887.0|	3887.0				
+31	4	fb:cell.51_59_kw_70_80_ps	51–59 kW (70–80 PS)	51|--|59|kw|-lrb-|70|--|80|ps|-rrb-	51|--|59|kw|-lrb-|70|--|80|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|MONEY|MONEY|O|NUMBER|O|NUMBER|O|O	51.0||$59.0|$59.0||70.0||80.0||	51.0		59.0		
+31	5	fb:cell.100_km_h_62_mph_105_km_h_65_mph	100 km/h (62 mph)–105 km/h (65 mph)	100|km\\/h|-lrb-|62|mph|-rrb-|--|105|km\\/h|-lrb-|65|mph|-rrb-	100|km\\/h|-lrb-|62|mph|-rrb-|--|105|km\\/h|-lrb-|65|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|:|CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O	100.0|||62.0||||105.0|||65.0||	100.0		62.0	100 km|h (62 mph)–105 km|h (65 mph)	fb:part.100_km|fb:part.h_62_mph_105_km|fb:part.h_65_mph
+32	0	fb:cell.standard_6_a_s	Standard 6 A/S	standard|6|a\\/s	Standard|6|A\\/S	NNP|CD|NNP	O|NUMBER|O	|6.0|	6.0			Standard 6 A|S	fb:part.standard_6_a|fb:part.s
+32	1	fb:cell.1928_1934	1928–1934	1928|--|1934	1928|--|1934	CD|:|CD	DATE|DATE|DATE	1928|1928|1934	1928.0		1934.0		
+32	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+32	3	fb:cell.2_916_cc	2,916 cc	2,916|cc	2,916|cc	CD|NN	NUMBER|O	2916.0|	2916.0				
+32	4	fb:cell.37_kw_50_ps	37 kW (50 PS)	37|kw|-lrb-|50|ps|-rrb-	37|kw|-lrb-|50|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	37.0|||50.0||	37.0		50.0		
+32	5	fb:cell.85_km_h_53_mph_90_km_h_56_mph	85 km/h (53 mph)–90 km/h (56 mph)	85|km\\/h|-lrb-|53|mph|-rrb-|--|90|km\\/h|-lrb-|56|mph|-rrb-	85|km\\/h|-lrb-|53|mph|-rrb-|--|90|km\\/h|-lrb-|56|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|:|CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|MONEY|MONEY|O|NUMBER|O|O	85.0|||53.0||||$90.0|$90.0||56.0||	85.0		53.0	85 km|h (53 mph)–90 km|h (56 mph)	fb:part.85_km|fb:part.h_53_mph_90_km|fb:part.h_56_mph
+33	0	fb:cell.favorit	Favorit	favorit	Favorit	NNP	O					Favorit	fb:part.favorit
+33	1	fb:cell.1929_1933	1929–1933	1929|--|1933	1929|--|1933	CD|:|CD	DATE|DATE|DATE	1929|1929|1933	1929.0		1933.0		
+33	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+33	3	fb:cell.1_943_cc	1,943 cc	1,943|cc	1,943|cc	CD|NN	NUMBER|O	1943.0|	1943.0				
+33	4	fb:cell.25_7_kw_35_ps	25,7 kW (35 PS)	25,7|kw|-lrb-|35|ps|-rrb-	25,7|kw|-lrb-|35|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	25.7|||35.0||	257.0		35.0		
+33	5	fb:cell.80_km_h_50_mph	80 km/h (50 mph)	80|km\\/h|-lrb-|50|mph|-rrb-	80|km\\/h|-lrb-|50|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	80.0|||50.0||	80.0		50.0	80 km|h (50 mph)	fb:part.80_km|fb:part.h_50_mph
+34	0	fb:cell.primus_1_5_a	Primus 1,5 A	primus|1,5|a	Primus|1,5|a	NNP|CD|DT	O|NUMBER|O	|1.5|	15.0			Primus 1,5 A	fb:part.primus_1_5_a
+34	1	fb:cell.1932_1934	1932–1934	1932|--|1934	1932|--|1934	CD|:|CD	DATE|DATE|DATE	1932|1932|1934	1932.0		1934.0		
+34	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+34	3	fb:cell.1_504_cc	1,504 cc	1,504|cc	1,504|cc	CD|NN	NUMBER|O	1504.0|	1504.0				
+34	4	fb:cell.23_5_24_2_kw_32_33_ps	23,5–24,2 kW (32–33 PS)	23,5|--|24,2|kw|-lrb-|32|--|33|ps|-rrb-	23,5|--|24,2|kw|-lrb-|32|--|33|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER|O|O	23.5||24.2|||32.0||33.0||	235.0		242.0		
+34	5	fb:cell.90_km_h_56_mph	90 km/h (56 mph)	90|km\\/h|-lrb-|56|mph|-rrb-	90|km\\/h|-lrb-|56|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	90.0|||56.0||	90.0		56.0	90 km|h (56 mph)	fb:part.90_km|fb:part.h_56_mph
+35	0	fb:cell.trumpf_1_5_av	Trumpf 1,5 AV	trumpf|1,5|av	trumpf|1,5|av	FW|FW|NN	PERSON|O|O	||	15.0			Trumpf 1,5 AV	fb:part.trumpf_1_5_av
+35	1	fb:cell.1932_1934	1932–1934	1932|--|1934	1932|--|1934	CD|:|CD	DATE|DATE|DATE	1932|1932|1934	1932.0		1934.0		
+35	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+35	3	fb:cell.1_504_cc	1,504 cc	1,504|cc	1,504|cc	CD|NN	NUMBER|O	1504.0|	1504.0				
+35	4	fb:cell.23_5_24_2_kw_32_33_ps	23,5–24,2 kW (32–33 PS)	23,5|--|24,2|kw|-lrb-|32|--|33|ps|-rrb-	23,5|--|24,2|kw|-lrb-|32|--|33|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER|O|O	23.5||24.2|||32.0||33.0||	235.0		242.0		
+35	5	fb:cell.95_km_h_59_mph	95 km/h (59 mph)	95|km\\/h|-lrb-|59|mph|-rrb-	95|km\\/h|-lrb-|59|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	95.0|||59.0||	95.0		59.0	95 km|h (59 mph)	fb:part.95_km|fb:part.h_59_mph
+36	0	fb:cell.favorit_2u	Favorit 2U	favorit|2u	Favorit|2U	NNP|NNP	O|O	|	2.0			Favorit 2U	fb:part.favorit_2u
+36	1	fb:cell.1933_1934	1933–1934	1933|--|1934	1933|--|1934	CD|:|CD	DATE|DATE|DATE	1933|1933|1934	1933.0		1934.0		
+36	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+36	3	fb:cell.1_943_cc	1,943 cc	1,943|cc	1,943|cc	CD|NN	NUMBER|O	1943.0|	1943.0				
+36	4	fb:cell.29_kw_40_ps	29 kW (40 PS)	29|kw|-lrb-|40|ps|-rrb-	29|kw|-lrb-|40|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	29.0|||40.0||	29.0		40.0		
+36	5	fb:cell.90_km_h_56_mph	90 km/h (56 mph)	90|km\\/h|-lrb-|56|mph|-rrb-	90|km\\/h|-lrb-|56|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	90.0|||56.0||	90.0		56.0	90 km|h (56 mph)	fb:part.90_km|fb:part.h_56_mph
+37	0	fb:cell.standard_6_3u	Standard 6 3U	standard|6|3u	Standard|6|3u	NNP|CD|NN	O|NUMBER|O	|6.0|	63.0			Standard 6 3U	fb:part.standard_6_3u
+37	1	fb:cell.1933_1934	1933–1934	1933|--|1934	1933|--|1934	CD|:|CD	DATE|DATE|DATE	1933|1933|1934	1933.0		1934.0		
+37	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+37	3	fb:cell.2_916_cc	2,916 cc	2,916|cc	2,916|cc	CD|NN	NUMBER|O	2916.0|	2916.0				
+37	4	fb:cell.44_kw_60_ps	44 kW (60 PS)	44|kw|-lrb-|60|ps|-rrb-	44|kw|-lrb-|60|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	44.0|||60.0||	44.0		60.0		
+37	5	fb:cell.100_km_h_62_mph	100 km/h (62 mph)	100|km\\/h|-lrb-|62|mph|-rrb-	100|km\\/h|-lrb-|62|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	100.0|||62.0||	100.0		62.0	100 km|h (62 mph)	fb:part.100_km|fb:part.h_62_mph
+38	0	fb:cell.achtzylinder	Achtzylinder	achtzylinder	achtzylinder	NN	O					Achtzylinder	fb:part.achtzylinder
+38	1	fb:cell.1933_1934	1933–1934	1933|--|1934	1933|--|1934	CD|:|CD	DATE|DATE|DATE	1933|1933|1934	1933.0		1934.0		
+38	2	fb:cell.8_inline	8 inline	8|inline	8|inline	CD|NN	NUMBER|O	8.0|	8.0				
+38	3	fb:cell.3_887_cc	3,887 cc	3,887|cc	3,887|cc	CD|NN	NUMBER|O	3887.0|	3887.0				
+38	4	fb:cell.59_kw_80_ps	59 kW (80 PS)	59|kw|-lrb-|80|ps|-rrb-	59|kw|-lrb-|80|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	59.0|||80.0||	59.0		80.0		
+38	5	fb:cell.105_km_h_65_mph	105 km/h (65 mph)	105|km\\/h|-lrb-|65|mph|-rrb-	105|km\\/h|-lrb-|65|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	105.0|||65.0||	105.0		65.0	105 km|h (65 mph)	fb:part.105_km|fb:part.h_65_mph
+39	0	fb:cell.trumpf_sport	Trumpf Sport	trumpf|sport	Trumpf|Sport	NNP|NNP	O|O	|				Trumpf Sport	fb:part.trumpf_sport
+39	1	fb:cell.1933_1935	1933–1935	1933|--|1935	1933|--|1935	CD|:|CD	DATE|DATE|DATE	1933|1933|1935	1933.0		1935.0		
+39	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+39	3	fb:cell.1_645_cc	1,645 cc	1,645|cc	1,645|cc	CD|NN	NUMBER|O	1645.0|	1645.0				
+39	4	fb:cell.34_5_kw_47_ps	34,5 kW (47 PS)	34,5|kw|-lrb-|47|ps|-rrb-	34,5|kw|-lrb-|47|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	34.5|||47.0||	345.0		47.0		
+39	5	fb:cell.115_km_h_71_mph	115 km/h (71 mph)	115|km\\/h|-lrb-|71|mph|-rrb-	115|km\\/h|-lrb-|71|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	115.0|||71.0||	115.0		71.0	115 km|h (71 mph)	fb:part.115_km|fb:part.h_71_mph
+40	0	fb:cell.primus_1_7_a	Primus 1,7 A	primus|1,7|a	Primus|1,7|a	NNP|CD|DT	O|NUMBER|O	|1.7|	17.0			Primus 1,7 A	fb:part.primus_1_7_a
+40	1	fb:cell.1933_1936	1933–1936	1933|--|1936	1933|--|1936	CD|:|CD	DATE|DATE|DATE	1933|1933|1936	1933.0		1936.0		
+40	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+40	3	fb:cell.1_645_cc	1,645 cc	1,645|cc	1,645|cc	CD|NN	NUMBER|O	1645.0|	1645.0				
+40	4	fb:cell.28_kw_38_ps	28 kW (38 PS)	28|kw|-lrb-|38|ps|-rrb-	28|kw|-lrb-|38|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	28.0|||38.0||	28.0		38.0		
+40	5	fb:cell.95_km_h_59_mph	95 km/h (59 mph)	95|km\\/h|-lrb-|59|mph|-rrb-	95|km\\/h|-lrb-|59|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	95.0|||59.0||	95.0		59.0	95 km|h (59 mph)	fb:part.95_km|fb:part.h_59_mph
+41	0	fb:cell.trumpf_1_7_av	Trumpf 1,7 AV	trumpf|1,7|av	trumpf|1,7|av	FW|FW|NN	PERSON|O|O	||	17.0			Trumpf 1,7 AV	fb:part.trumpf_1_7_av
+41	1	fb:cell.1933_1936	1933–1936	1933|--|1936	1933|--|1936	CD|:|CD	DATE|DATE|DATE	1933|1933|1936	1933.0		1936.0		
+41	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+41	3	fb:cell.1_645_cc	1,645 cc	1,645|cc	1,645|cc	CD|NN	NUMBER|O	1645.0|	1645.0				
+41	4	fb:cell.28_kw_38_ps	28 kW (38 PS)	28|kw|-lrb-|38|ps|-rrb-	28|kw|-lrb-|38|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	28.0|||38.0||	28.0		38.0		
+41	5	fb:cell.100_km_h_62_mph	100 km/h (62 mph)	100|km\\/h|-lrb-|62|mph|-rrb-	100|km\\/h|-lrb-|62|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	100.0|||62.0||	100.0		62.0	100 km|h (62 mph)	fb:part.100_km|fb:part.h_62_mph
+42	0	fb:cell.diplomat	Diplomat	diplomat	diplomat	NN	O					Diplomat	fb:part.diplomat
+42	1	fb:cell.1934_1938	1934–1938	1934|--|1938	1934|--|1938	CD|:|CD	DATE|DATE|DATE	1934|1934|1938	1934.0		1938.0		
+42	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+42	3	fb:cell.2_916_cc	2,916 cc	2,916|cc	2,916|cc	CD|NN	NUMBER|O	2916.0|	2916.0				
+42	4	fb:cell.44_48_kw_60_65_ps	44–48 kW (60–65 PS)	44|--|48|kw|-lrb-|60|--|65|ps|-rrb-	44|--|48|kw|-lrb-|60|--|65|PS|-rrb-	CD|:|CD|NN|-LRB-|CD|:|CD|NNP|-RRB-	NUMBER|O|MONEY|MONEY|O|NUMBER|O|NUMBER|O|O	44.0||$48.0|$48.0||60.0||65.0||	44.0		48.0		
+42	5	fb:cell.100_km_h_62_mph_105_km_h_65_mph	100 km/h (62 mph)–105 km/h (65 mph)	100|km\\/h|-lrb-|62|mph|-rrb-|--|105|km\\/h|-lrb-|65|mph|-rrb-	100|km\\/h|-lrb-|62|mph|-rrb-|--|105|km\\/h|-lrb-|65|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|:|CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O	100.0|||62.0||||105.0|||65.0||	100.0		62.0	100 km|h (62 mph)–105 km|h (65 mph)	fb:part.100_km|fb:part.h_62_mph_105_km|fb:part.h_65_mph
+43	0	fb:cell.trumpf_junior_1g_e	Trumpf Junior 1G/E	trumpf|junior|1g\\/e	Trumpf|Junior|1G\\/E	NNP|NNP|NNP	PERSON|PERSON|O	||	1.0			Trumpf Junior 1G|E	fb:part.trumpf_junior_1g|fb:part.e
+43	1	fb:cell.1934_1941	1934–1941	1934|--|1941	1934|--|1941	CD|:|CD	DATE|DATE|DATE	1934|1934|1941	1934.0		1941.0		
+43	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+43	3	fb:cell.995_cc	995 cc	995|cc	995|cc	CD|NN	NUMBER|O	995.0|	995.0				
+43	4	fb:cell.18_4_kw_25_ps	18,4 kW (25 PS)	18,4|kw|-lrb-|25|ps|-rrb-	18,4|kw|-lrb-|25|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	18.4|||25.0||	184.0		25.0		
+43	5	fb:cell.90_km_h_56_mph	90 km/h (56 mph)	90|km\\/h|-lrb-|56|mph|-rrb-	90|km\\/h|-lrb-|56|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	90.0|||56.0||	90.0		56.0	90 km|h (56 mph)	fb:part.90_km|fb:part.h_56_mph
+44	0	fb:cell.trumpf_junior_sport	Trumpf Junior Sport	trumpf|junior|sport	Trumpf|Junior|Sport	NNP|NNP|NNP	O|O|O	||				Trumpf Junior Sport	fb:part.trumpf_junior_sport
+44	1	fb:cell.1935_1937	1935–1937	1935|--|1937	1935|--|1937	CD|:|CD	DATE|DATE|DATE	1935|1935|1937	1935.0		1937.0		
+44	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+44	3	fb:cell.995_cc	995 cc	995|cc	995|cc	CD|NN	NUMBER|O	995.0|	995.0				
+44	4	fb:cell.20_6_kw_28_ps	20,6 kW (28 PS)	20,6|kw|-lrb-|28|ps|-rrb-	20,6|kw|-lrb-|28|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	20.6|||28.0||	206.0		28.0		
+44	5	fb:cell.110_km_h_68_mph	110 km/h (68 mph)	110|km\\/h|-lrb-|68|mph|-rrb-	110|km\\/h|-lrb-|68|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	110.0|||68.0||	110.0		68.0	110 km|h (68 mph)	fb:part.110_km|fb:part.h_68_mph
+45	0	fb:cell.trumpf_1_7_ev	Trumpf 1,7 EV	trumpf|1,7|ev	trumpf|1,7|ev	FW|FW|NN	PERSON|O|O	||	17.0			Trumpf 1,7 EV	fb:part.trumpf_1_7_ev
+45	1	fb:cell.1936_1938	1936–1938	1936|--|1938	1936|--|1938	CD|:|CD	DATE|DATE|DATE	1936|1936|1938	1936.0		1938.0		
+45	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+45	3	fb:cell.1_645_cc	1,645 cc	1,645|cc	1,645|cc	CD|NN	NUMBER|O	1645.0|	1645.0				
+45	4	fb:cell.28_kw_38_ps	28 kW (38 PS)	28|kw|-lrb-|38|ps|-rrb-	28|kw|-lrb-|38|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	28.0|||38.0||	28.0		38.0		
+45	5	fb:cell.102_km_h_63_mph	102 km/h (63 mph)	102|km\\/h|-lrb-|63|mph|-rrb-	102|km\\/h|-lrb-|63|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	102.0|||63.0||	102.0		63.0	102 km|h (63 mph)	fb:part.102_km|fb:part.h_63_mph
+46	0	fb:cell.primus_1_7_e	Primus 1,7 E	primus|1,7|e	Primus|1,7|e	NNP|CD|NN	O|NUMBER|O	|1.7|	17.0			Primus 1,7 E	fb:part.primus_1_7_e
+46	1	fb:cell.1937_1938	1937–1938	1937|--|1938	1937|--|1938	CD|:|CD	DATE|DATE|DATE	1937|1937|1938	1937.0		1938.0		
+46	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+46	3	fb:cell.1_645_cc	1,645 cc	1,645|cc	1,645|cc	CD|NN	NUMBER|O	1645.0|	1645.0				
+46	4	fb:cell.28_kw_38_ps	28 kW (38 PS)	28|kw|-lrb-|38|ps|-rrb-	28|kw|-lrb-|38|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	28.0|||38.0||	28.0		38.0		
+46	5	fb:cell.100_km_h_62_mph	100 km/h (62 mph)	100|km\\/h|-lrb-|62|mph|-rrb-	100|km\\/h|-lrb-|62|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	100.0|||62.0||	100.0		62.0	100 km|h (62 mph)	fb:part.100_km|fb:part.h_62_mph
+47	0	fb:cell.adler_2_5_litre	Adler 2.5-litre	adler|2.5|litre	Adler|2.5|litre	NNP|CD|NN	PERSON|NUMBER|O	|2.5|	2.5			Adler 2.5-litre	fb:part.adler_2_5_litre
+47	1	fb:cell.1937_1940	1937–1940	1937|--|1940	1937|--|1940	CD|:|CD	DATE|DATE|DATE	1937|1937|1940	1937.0		1940.0		
+47	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+47	3	fb:cell.2_494_cc	2,494 cc	2,494|cc	2,494|cc	CD|NN	NUMBER|O	2494.0|	2494.0				
+47	4	fb:cell.42_6_kw_58_ps	42,6 kW (58 PS)	42,6|kw|-lrb-|58|ps|-rrb-	42,6|kw|-lrb-|58|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	42.6|||58.0||	426.0		58.0		
+47	5	fb:cell.125_km_h_78_mph	125 km/h (78 mph)	125|km\\/h|-lrb-|78|mph|-rrb-	125|km\\/h|-lrb-|78|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	125.0|||78.0||	125.0		78.0	125 km|h (78 mph)	fb:part.125_km|fb:part.h_78_mph
+48	0	fb:cell.adler_2_5_litre_sport	Adler 2.5-litre Sport	adler|2.5|litre|sport	Adler|2.5|litre|Sport	NNP|CD|NNP|NNP	PERSON|NUMBER|O|O	|2.5||	2.5			Adler 2.5-litre Sport	fb:part.adler_2_5_litre_sport
+48	1	fb:cell.1938_1939	1938–1939	1938|--|1939	1938|--|1939	CD|:|CD	DATE|DATE|DATE	1938|1938|1939	1938.0		1939.0		
+48	2	fb:cell.6_inline	6 inline	6|inline	6|inline	CD|NN	NUMBER|O	6.0|	6.0				
+48	3	fb:cell.2_494_cc	2,494 cc	2,494|cc	2,494|cc	CD|NN	NUMBER|O	2494.0|	2494.0				
+48	4	fb:cell.59_kw_80_ps	59 kW (80 PS)	59|kw|-lrb-|80|ps|-rrb-	59|kw|-lrb-|80|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	59.0|||80.0||	59.0		80.0		
+48	5	fb:cell.150_km_h_93_mph	150 km/h (93 mph)	150|km\\/h|-lrb-|93|mph|-rrb-	150|km\\/h|-lrb-|93|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	150.0|||93.0||	150.0		93.0	150 km|h (93 mph)	fb:part.150_km|fb:part.h_93_mph
+49	0	fb:cell.2_liter	2 Liter	2|liter	2|liter	CD|NN	NUMBER|O	2.0|	2.0			2 Liter	fb:part.2_liter
+49	1	fb:cell.1938_1940	1938–1940	1938|--|1940	1938|--|1940	CD|:|CD	DATE|DATE|DATE	1938|1938|1940	1938.0		1940.0		
+49	2	fb:cell.4_inline	4 inline	4|inline	4|inline	CD|NN	NUMBER|O	4.0|	4.0				
+49	3	fb:cell.1_910_cc	1,910 cc	1,910|cc	1,910|cc	CD|NN	NUMBER|O	1910.0|	1910.0				
+49	4	fb:cell.33_kw_45_ps	33 kW (45 PS)	33|kw|-lrb-|45|ps|-rrb-	33|kw|-lrb-|45|PS|-rrb-	CD|NN|-LRB-|CD|NNP|-RRB-	NUMBER|O|O|NUMBER|O|O	33.0|||45.0||	33.0		45.0		
+49	5	fb:cell.110_km_h_68_mph	110 km/h (68 mph)	110|km\\/h|-lrb-|68|mph|-rrb-	110|km\\/h|-lrb-|68|mph|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	110.0|||68.0||	110.0		68.0	110 km|h (68 mph)	fb:part.110_km|fb:part.h_68_mph

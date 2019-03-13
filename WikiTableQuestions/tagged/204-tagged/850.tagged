@@ -1,0 +1,451 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	name	name	name	NN	O						
+-1	1	fb:row.row.railway	railway	railway	railway	NN	O						
+-1	2	fb:row.row.series	series	series	series	NN	O						
+-1	3	fb:row.row.maker	maker	maker	maker	NN	O						
+-1	4	fb:row.row.dates	dates	dates	date	NNS	O						
+-1	5	fb:row.row.drive	drive	drive	drive	NN	O						
+-1	6	fb:row.row.wheel_arrangement	wheel arrangement	wheel|arrangement	wheel|arrangement	NN|NN	O|O	|					
+-1	7	fb:row.row.weight	weight	weight	weight	NN	O						
+-1	8	fb:row.row.power	power	power	power	NN	O						
+-1	9	fb:row.row.notes	notes	notes	note	NNS	O						
+0	0	fb:cell.re_465	Re 465	re|465	Re|465	NNP|CD	O|NUMBER	|465.0	465.0			Re 465	fb:part.re_465
+0	1	fb:cell.bls_switzerland	BLS, Switzerland	bls|,|switzerland	bl|,|Switzerland	NN|,|NNP	O|O|LOCATION	||				BLS|Switzerland	fb:part.bls|fb:part.switzerland
+0	2	fb:cell.re_465_001_465_0018	Re 465 001-465 0018	re|465 001-465 0018	Re|465 001-465 0018	NNP|CD	O|NUMBER	|	465001.0		4650018.0	Re 465 001-465 0018	fb:part.re_465_001_465_0018
+0	3	fb:cell.slm_abb	SLM, ABB	slm|,|abb	SLM|,|ABB	NNP|,|NNP	ORGANIZATION|O|ORGANIZATION	||				SLM|ABB	fb:part.slm|fb:part.abb
+0	4	fb:cell.1994_97	1994-97	1994-97	1994-97	CD	NUMBER	1994.0 - 97.0	1994.0		97.0	1994-97	fb:part.1994_97
+0	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+0	6	fb:cell.bo_bo	Bo-Bo	bo|bo	Bo|Bo	NNP|NNP	PERSON|PERSON	|				Bo-Bo	fb:part.bo_bo
+0	7	fb:cell.84_t	84 t	84|t	84|t	CD|NN	NUMBER|O	84.0|	84.0				
+0	8	fb:cell.9_520_horsepower_7_099_kw_tractive_force_300_kn_30_6_tons	9,520 horsepower (7,099 kW)\n[Tractive force: 300 kN (30.6 tons)	9,520|horsepower|-lrb-|7,099|kw|-rrb-|-lsb-|tractive|force|:|300|kn|-lrb-|30.6|tons|-rrb-	9,520|horsepower|-lrb-|7,099|kw|-rrb-|-lsb-|tractive|force|:|300|kn|-lrb-|30.6|ton|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|-LRB-|JJ|NN|:|CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O	9520.0|||7099.0|||||||300.0|||30.6||	9520.0		7099.0	9,520 horsepower (7,099 kW)|[Tractive force: 300 kN (30.6 tons)	fb:part.9_520_horsepower_7_099_kw|fb:part._tractive_force_300_kn_30_6_tons
+0	9	fb:cell.most_powerful_locomotive_with_only_four_axles_similar_locomotives_with_slightly_different_technical_data_are_in_operation_with_sbb_re_460_119_pc_nsb_el_18_22_pc_vr_sr2_46_pc_kcrc_hong_kong_2_pc	most powerful locomotive with only four axles, similar locomotives with slightly different technical data are in operation with SBB (Re 460; 119 pc/ NSB (El 18; 22 pc)/ VR (Sr2; 46 pc)/ KCRC (Hong Kong; 2 pc)	most|powerful|locomotive|with|only|four|axles|,|similar|locomotives|with|slightly|different|technical|data|are|in|operation|with|sbb|-lrb-|re|460|;|119|pc|\\/|nsb|-lrb-|el|18|;|22|pc|-rrb-|\\/|vr|-lrb-|sr2|;|46|pc|-rrb-|\\/|kcrc|-lrb-|hong|kong|;|2|pc|-rrb-	most|powerful|locomotive|with|only|four|axle|,|similar|locomotive|with|slightly|different|technical|datum|be|in|operation|with|sbb|-lrb-|Re|460|;|119|pc|\\/|nsb|-lrb-|El|18|;|22|pc|-rrb-|\\/|vr|-lrb-|sr2|;|46|pc|-rrb-|\\/|KCRC|-lrb-|Hong|Kong|;|2|pc|-rrb-	RBS|JJ|NN|IN|JJ|CD|NNS|,|JJ|NNS|IN|RB|JJ|JJ|NNS|VBD-AUX|IN|NN|IN|NN|-LRB-|NNP|CD|:|CD|NN|:|NN|-LRB-|NNP|CD|:|CD|NN|-RRB-|:|NN|-LRB-|NN|:|CD|NN|-RRB-|:|NNP|-LRB-|NNP|NNP|:|CD|NN|-RRB-	O|O|O|O|O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|NUMBER|O|O|ORGANIZATION|O|O|NUMBER|O|NUMBER|O|O|O|O|O|O|O|NUMBER|O|O|O|ORGANIZATION|O|LOCATION|LOCATION|O|NUMBER|O|O	|||||4.0|||||||||||||||||460.0||119.0||||||18.0||22.0||||||||46.0|||||||||2.0||	460.0		119.0	most powerful locomotive with only four axles|similar locomotives with slightly different technical data are in operation with SBB (Re 460; 119 pc|NSB (El 18; 22 pc)|VR (Sr2; 46 pc)|KCRC (Hong Kong; 2 pc)	fb:part.most_powerful_locomotive_with_only_four_axles|fb:part.similar_locomotives_with_slightly_different_technical_data_are_in_operation_with_sbb_re_460_119_pc|fb:part.nsb_el_18_22_pc|fb:part.vr_sr2_46_pc|fb:part.kcrc_hong_kong_2_pc
+1	0	fb:cell.re_6_6	Re 6/6	re|6\\/6	Re|6\\/6	NNP|CD	O|NUMBER	|	6.0		6.0	Re 6|6	fb:part.re_6|fb:part.6
+1	1	fb:cell.sbb_switzerland	SBB, Switzerland	sbb|,|switzerland	SBB|,|Switzerland	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				SBB|Switzerland	fb:part.sbb|fb:part.switzerland
+1	2	fb:cell.11601_11689	11601-11689	11601-11689	11601-11689	CD	NUMBER	11601.0 - 11689.0	11601.0		11689.0	11601-11689	fb:part.11601_11689
+1	3	fb:cell.slm_mfo_bbc_secheron	SLM, MFO/BBC/Sécheron	slm|,|mfo\\/bbc\\/s|écheron	SLM|,|mfo\\/bbc\\/s|écheron	NNP|,|NN|NN	ORGANIZATION|O|O|O	|||				SLM|MFO|BBC|Sécheron	fb:part.slm|fb:part.mfo|fb:part.bbc|fb:part.secheron
+1	4	fb:cell.1972_1975_80	1972, 1975–80	1972|,|1975|--|80	1972|,|1975|--|80	CD|,|CD|:|CD	DATE|DATE|DATE|O|NUMBER	1972|1972|1972||80.0	1.9721975E7		80.0	1972|1975–80	fb:part.1972|fb:part.1975_80
+1	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+1	6	fb:cell.bo_bo_bo	Bo-Bo-Bo	bo|bo|bo	Bo|Bo|Bo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Bo-Bo-Bo	fb:part.bo_bo_bo
+1	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+1	8	fb:cell.10_908_horsepower_8_134_kw_tractive_force_398_kn_41_tons	10,908 horsepower (8,134 kW) Tractive force: 398 kN (41 tons)	10,908|horsepower|-lrb-|8,134|kw|-rrb-|tractive|force|:|398|kn|-lrb-|41|tons|-rrb-	10,908|horsepower|-lrb-|8,134|kw|-rrb-|tractive|force|:|398|kn|-lrb-|41|ton|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|JJ|NN|:|CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O	10908.0|||8134.0||||||398.0|||41.0||	10908.0		8134.0	10,908 horsepower (8,134 kW) Tractive force: 398 kN (41 tons)	fb:part.10_908_horsepower_8_134_kw_tractive_force_398_kn_41_tons
+1	9	fb:cell.in_operation_october_2012_revised_classification_re_620_most_powerful_single_frame_locomotive_till_china_railways_hxd1b_appeared	in operation (October 2012), revised classification Re 620, most powerful single-frame locomotive till China Railways HXD1B appeared	in|operation|-lrb-|october|2012|-rrb-|,|revised|classification|re|620|,|most|powerful|single|frame|locomotive|till|china|railways|hxd1b|appeared	in|operation|-lrb-|October|2012|-rrb-|,|revise|classification|Re|620|,|most|powerful|single|frame|locomotive|till|China|Railways|hxd1b|appear	IN|NN|-LRB-|NNP|CD|-RRB-|,|VBN|NN|NNP|CD|,|RBS|JJ|JJ|NN|NN|IN|NNP|NNPS|NN|VBD	O|O|O|DATE|DATE|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O|LOCATION|O|O|O	|||2012-10|2012-10||||||620.0|||||||||||	2012.0		620.0	in operation (October 2012)|revised classification Re 620|most powerful single-frame locomotive till China Railways HXD1B appeared	fb:part.in_operation_october_2012|fb:part.revised_classification_re_620|fb:part.most_powerful_single_frame_locomotive_till_china_railways_hxd1b_appeared
+2	0	fb:cell.re_4_4	Re 4/4	re|4\\/4	Re|4\\/4	NNP|CD	O|NUMBER	|	4.0		4.0	Re 4|4	fb:part.re_4|fb:part.4
+2	1	fb:cell.bls_switzerland	BLS, Switzerland	bls|,|switzerland	bl|,|Switzerland	NN|,|NNP	O|O|LOCATION	||				BLS|Switzerland	fb:part.bls|fb:part.switzerland
+2	2	fb:cell.re_425_161_re_425_195	Re 425 161-Re 425 195)	re|425|161|re|425|195|-rrb-	Re|425|161|Re|425|195|-rrb-	NNP|CD|CD|NNP|CD|CD|-RRB-	O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	|425.0|425.0||425.0|425.0|	425161.0		425195.0	Re 425 161-Re 425 195)	fb:part.re_425_161_re_425_195
+2	3	fb:cell.slm_bbc	SLM / BBC	slm|\\/|bbc	SLM|\\/|BBC	NNP|:|NNP	O|O|ORGANIZATION	||				SLM|BBC	fb:part.slm|fb:part.bbc
+2	4	fb:cell.1964_83	1964-83	1964-83	1964-83	CD	NUMBER	1964.0 - 83.0	1964.0		83.0	1964-83	fb:part.1964_83
+2	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+2	6	fb:cell._bo_bo	(Bo)(Bo)	-lrb-|bo|-rrb-|-lrb-|bo|-rrb-	-lrb-|Bo|-rrb-|-lrb-|Bo|-rrb-	-LRB-|NNP|-RRB-|-LRB-|NNP|-RRB-	O|O|O|O|O|O	|||||				(Bo)(Bo)	fb:part._bo_bo
+2	7	fb:cell.80_t	80 t	80|t	80|t	CD|NN	NUMBER|O	80.0|	80.0				
+2	8	fb:cell.6_772_horsepower_5_050_kw_tractive_force_314_kn_32_tons	6,772 horsepower (5,050 kW) Tractive force 314 kN (32 tons)	6,772|horsepower|-lrb-|5,050|kw|-rrb-|tractive|force|314|kn|-lrb-|32|tons|-rrb-	6,772|horsepower|-lrb-|5,050|kw|-rrb-|tractive|force|314|kn|-lrb-|32|ton|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|JJ|NN|CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|NUMBER|O|O|NUMBER|O|O	6772.0|||5050.0|||||314.0|||32.0||	6772.0		5050.0	6,772 horsepower (5,050 kW) Tractive force 314 kN (32 tons)	fb:part.6_772_horsepower_5_050_kw_tractive_force_314_kn_32_tons
+2	9	fb:cell.in_operation_october_2012	in operation (October 2012)	in|operation|-lrb-|october|2012|-rrb-	in|operation|-lrb-|October|2012|-rrb-	IN|NN|-LRB-|NNP|CD|-RRB-	O|O|O|DATE|DATE|O	|||2012-10|2012-10|	2012.0			in operation (October 2012)	fb:part.in_operation_october_2012
+3	0	fb:cell.ae_8_8	Ae 8/8	ae|8\\/8	ae|8\\/8	NN|CD	O|NUMBER	|	8.0		8.0	Ae 8|8	fb:part.ae_8|fb:part.8
+3	1	fb:cell.bls_switzerland	BLS, Switzerland	bls|,|switzerland	bl|,|Switzerland	NN|,|NNP	O|O|LOCATION	||				BLS|Switzerland	fb:part.bls|fb:part.switzerland
+3	2	fb:cell.271_275	271-275	271-275	271-275	CD	NUMBER	271.0 - 275.0	271.0		275.0	271-275	fb:part.271_275
+3	3	fb:cell.slm_bbc	SLM / BBC	slm|\\/|bbc	SLM|\\/|BBC	NNP|:|NNP	O|O|ORGANIZATION	||				SLM|BBC	fb:part.slm|fb:part.bbc
+3	4	fb:cell.1959_66	1959-66	1959-66	1959-66	CD	NUMBER	1959.0 - 66.0	1959.0		66.0	1959-66	fb:part.1959_66
+3	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+3	6	fb:cell._bo_bo_bo_bo	(Bo)(Bo)+(Bo)(Bo)	-lrb-|bo|-rrb-|-lrb-|bo|-rrb-|+|-lrb-|bo|-rrb-|-lrb-|bo|-rrb-	-lrb-|Bo|-rrb-|-lrb-|Bo|-rrb-|+|-lrb-|Bo|-rrb-|-lrb-|Bo|-rrb-	-LRB-|NNP|-RRB-|-LRB-|NNP|-RRB-|CC|-LRB-|NNP|-RRB-|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				(Bo)(Bo)+(Bo)(Bo)	fb:part._bo_bo_bo_bo
+3	7	fb:cell.160_t	160 t	160|t	160|t	CD|NN	NUMBER|O	160.0|	160.0				
+3	8	fb:cell.8_806_horsepower_6_567_kw_tractive_force_471_kn_48_tons	8,806 horsepower (6,567 kW), tractive force 471 kN (48 tons)	8,806|horsepower|-lrb-|6,567|kw|-rrb-|,|tractive|force|471|kn|-lrb-|48|tons|-rrb-	8,806|horsepower|-lrb-|6,567|kw|-rrb-|,|tractive|force|471|kn|-lrb-|48|ton|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|,|JJ|NN|CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O	8806.0|||6567.0||||||471.0|||48.0||	8806.0		6567.0	8,806 horsepower (6,567 kW)|tractive force 471 kN (48 tons)	fb:part.8_806_horsepower_6_567_kw|fb:part.tractive_force_471_kn_48_tons
+3	9	fb:cell.1_preserved_in_working_order	1 preserved in working order	1|preserved|in|working|order	1|preserve|in|work|order	CD|VBN|IN|VBG|NN	NUMBER|O|O|O|O	1.0||||	1.0			1 preserved in working order	fb:part.1_preserved_in_working_order
+4	0	fb:cell.ad43c	AD43C	ad43c	ad43c	NN	O		43.0			AD43C	fb:part.ad43c
+4	1	fb:cell.iranian_railways_rai	Iranian Railways(RAI)	iranian|railways|-lrb-|rai|-rrb-	iranian|railway|-lrb-|raus|-rrb-	JJ|NNS|-LRB-|NN|-RRB-	MISC|O|O|O|O	||||				Iranian Railways(RAI)	fb:part.iranian_railways_rai
+4	2	fb:cell.2001_2100	2001-2100	2001-2100	2001-2100	CD	DATE	2001/2100	2001.0		2100.0	2001-2100	fb:part.2001_2100
+4	3	fb:cell.alstom	ALSTOM	alstom	ALSTOM	NNP	ORGANIZATION					ALSTOM	fb:part.alstom
+4	4	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx		2001	fb:part.2001
+4	5	fb:cell.diesel_electric	Diesel Electric	diesel|electric	Diesel|Electric	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Diesel Electric	fb:part.diesel_electric
+4	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+4	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+4	8	fb:cell.4_300_horsepower_3_207_kw	4,300 horsepower (3,207 kW)	4,300|horsepower|-lrb-|3,207|kw|-rrb-	4,300|horsepower|-lrb-|3,207|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	4300.0|||3207.0||	4300.0		3207.0	4,300 horsepower (3,207 kW)	fb:part.4_300_horsepower_3_207_kw
+4	9	fb:cell.about_50_locomotives_are_stopped_because_of_failures_in_the_rk215_diesel_engine	about 50 locomotives are stopped because of failures in the RK215 diesel engine	about|50|locomotives|are|stopped|because|of|failures|in|the|rk215|diesel|engine	about|50|locomotive|be|stop|because|of|failure|in|the|rk215|diesel|engine	IN|CD|NNS|VBD-AUX|VBN|RB|IN|NNS|IN|DT|NN|NN|NN	O|NUMBER|O|O|O|O|O|O|O|O|O|O|O	|~50.0|||||||||||	50.0		215.0	about 50 locomotives are stopped because of failures in the RK215 diesel engine	fb:part.about_50_locomotives_are_stopped_because_of_failures_in_the_rk215_diesel_engine
+5	0	fb:cell.ae_6_6	Ae 6/6	ae|6\\/6	ae|6\\/6	NN|CD	O|NUMBER	|	6.0		6.0	Ae 6|6	fb:part.ae_6|fb:part.6
+5	1	fb:cell.sbb_switzerland	SBB, Switzerland	sbb|,|switzerland	SBB|,|Switzerland	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				SBB|Switzerland	fb:part.sbb|fb:part.switzerland
+5	2	fb:cell.11401_11520	11401-11520	11401-11520	11401-11520	CD	NUMBER	11401.0 - 11520.0	11401.0		11520.0	11401-11520	fb:part.11401_11520
+5	3	fb:cell.slm_mfo_bbc	SLM, MFO/ BBC	slm|,|mfo|\\/|bbc	SLM|,|MFO|\\/|BBC	NNP|,|NNP|:|NNP	ORGANIZATION|O|O|O|ORGANIZATION	||||				SLM|MFO|BBC	fb:part.slm|fb:part.mfo|fb:part.bbc
+5	4	fb:cell.1952_1955_66	1952; 1955–66	1952|;|1955|--|66	1952|;|1955|--|66	CD|:|CD|:|CD	DATE|DATE|DATE|O|NUMBER	1952|1952|1955||66.0	1952.0		1955.0	1952; 1955–66	fb:part.1952_1955_66
+5	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+5	6	fb:cell.co_co_2	Co-Co	co|co	Co|Co	NNP|NNP	O|O	|				Co-Co	fb:part.co_co_2
+5	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+5	8	fb:cell.6_000_horsepower_4_474_kw_tractive_force_392_kn_40_tons	6,000 horsepower (4,474 kW) [Tractive force: 392 kN (40 tons)	6,000|horsepower|-lrb-|4,474|kw|-rrb-|-lsb-|tractive|force|:|392|kn|-lrb-|40|tons|-rrb-	6,000|horsepower|-lrb-|4,474|kw|-rrb-|-lsb-|tractive|force|:|392|kn|-lrb-|40|ton|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|-LRB-|JJ|NN|:|CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O	6000.0|||4474.0|||||||392.0|||40.0||	6000.0		4474.0	6,000 horsepower (4,474 kW) [Tractive force: 392 kN (40 tons)	fb:part.6_000_horsepower_4_474_kw_tractive_force_392_kn_40_tons
+5	9	fb:cell.still_in_operation_october_2012	still in operation (October 2012)	still|in|operation|-lrb-|october|2012|-rrb-	still|in|operation|-lrb-|October|2012|-rrb-	RB|IN|NN|-LRB-|NNP|CD|-RRB-	O|O|O|O|DATE|DATE|O	||||2012-10|2012-10|	2012.0			still in operation (October 2012)	fb:part.still_in_operation_october_2012
+6	0	fb:cell.ae_6_8	Ae 6/8	ae|6\\/8	ae|6\\/8	NN|CD	O|NUMBER	|	6.0		8.0	Ae 6|8	fb:part.ae_6|fb:part.8
+6	1	fb:cell.bls_switzerland	BLS, Switzerland	bls|,|switzerland	bl|,|Switzerland	NN|,|NNP	O|O|LOCATION	||				BLS|Switzerland	fb:part.bls|fb:part.switzerland
+6	2	fb:cell.201_208	201-208	201-208	201-208	CD	NUMBER	201.0 - 208.0	201.0		208.0	201-208	fb:part.201_208
+6	3	fb:cell.slm_secheron	SLM / Sécheron	slm|\\/|sécheron	SLM|\\/|Sécheron	NNP|:|NNP	O|O|O	||				SLM|Sécheron	fb:part.slm|fb:part.secheron
+6	4	fb:cell.1939	1939	1939	1939	CD	DATE	1939	1939.0	1939-xx-xx		1939	fb:part.1939
+6	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+6	6	fb:cell._1_co_co1	(1'Co)(Co1')	-lrb-|1|`|co|-rrb-|-lrb-|co1|'|-rrb-	-lrb-|1|`|Co|-rrb-|-lrb-|co1|'|-rrb-	-LRB-|CD|``|NNP|-RRB-|-LRB-|NN|''|-RRB-	O|NUMBER|O|O|O|O|O|O|O	|1.0|||||||	1.0		1.0	(1'Co)(Co1')	fb:part._1_co_co1
+6	7	fb:cell.140_t	140 t	140|t	140|t	CD|NN	NUMBER|O	140.0|	140.0				
+6	8	fb:cell.6_000_horsepower_4_474_kw_tractive_force_353_kn_36_tons	6,000 horsepower (4,474 kW), tractive force 353 kN (36 tons)	6,000|horsepower|-lrb-|4,474|kw|-rrb-|,|tractive|force|353|kn|-lrb-|36|tons|-rrb-	6,000|horsepower|-lrb-|4,474|kw|-rrb-|,|tractive|force|353|kn|-lrb-|36|ton|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|,|JJ|NN|CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O	6000.0|||4474.0||||||353.0|||36.0||	6000.0		4474.0	6,000 horsepower (4,474 kW)|tractive force 353 kN (36 tons)	fb:part.6_000_horsepower_4_474_kw|fb:part.tractive_force_353_kn_36_tons
+6	9	fb:cell.2_remain_in_working_order_as_heritage_locos	2 remain in working order as heritage locos	2|remain|in|working|order|as|heritage|locos	2|remain|in|work|order|as|heritage|loco	CD|VBP|IN|VBG|NN|IN|NN|NNS	NUMBER|O|O|O|O|O|O|O	2.0|||||||	2.0			2 remain in working order as heritage locos	fb:part.2_remain_in_working_order_as_heritage_locos
+7	0	fb:cell.ae_8_14	Ae 8/14	ae|8\\/14	ae|8\\/14	NN|CD	O|NUMBER	|	8.0		14.0	Ae 8|14	fb:part.ae_8|fb:part.14
+7	1	fb:cell.sbb_switzerland	SBB, Switzerland	sbb|,|switzerland	SBB|,|Switzerland	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				SBB|Switzerland	fb:part.sbb|fb:part.switzerland
+7	2	fb:cell.11852	11852	11852	11852	CD	NUMBER	11852.0	11852.0			11852	fb:part.11852
+7	3	fb:cell.slm_mfo_bbc	SLM, MFO/ BBC	slm|,|mfo|\\/|bbc	SLM|,|MFO|\\/|BBC	NNP|,|NNP|:|NNP	ORGANIZATION|O|O|O|ORGANIZATION	||||				SLM|MFO|BBC	fb:part.slm|fb:part.mfo|fb:part.bbc
+7	4	fb:cell.1939	1939	1939	1939	CD	DATE	1939	1939.0	1939-xx-xx		1939	fb:part.1939
+7	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+7	6	fb:cell._1_a_a1_a_a1_1_a_a1_a_a1	(1'A)A1'A(A1')+(1'A)A1'A(A1')	-lrb-|1|`|a|-rrb-|a1|`|a|-lrb-|a1|'|-rrb-|+|-lrb-|1|`|a|-rrb-|a1|`|a|-lrb-|a1|'|-rrb-	-lrb-|1|`|a|-rrb-|a1|`|a|-lrb-|a1|'|-rrb-|+|-lrb-|1|`|a|-rrb-|a1|`|a|-lrb-|a1|'|-rrb-	-LRB-|CD|``|NN|-RRB-|NN|``|NN|-LRB-|NN|''|-RRB-|CC|-LRB-|CD|``|NN|-RRB-|NN|``|NN|-LRB-|NN|''|-RRB-	O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O|O|O|O	|1.0|||||||||||||1.0||||||||||	1.0		1.0	(1'A)A1'A(A1')+(1'A)A1'A(A1')	fb:part._1_a_a1_a_a1_1_a_a1_a_a1
+7	7	fb:cell.236_t	236 t	236|t	236|t	CD|NN	NUMBER|O	236.0|	236.0				
+7	8	fb:cell.11_000_horsepower_8_203_kw_tractive_force_490_kn_50_tons	11,000 horsepower (8,203 kW), Tractive force: 490 kN (50 tons)	11,000|horsepower|-lrb-|8,203|kw|-rrb-|,|tractive|force|:|490|kn|-lrb-|50|tons|-rrb-	11,000|horsepower|-lrb-|8,203|kw|-rrb-|,|tractive|force|:|490|kn|-lrb-|50|ton|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|,|JJ|NN|:|CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O	11000.0|||8203.0|||||||490.0|||50.0||	11000.0		8203.0	11,000 horsepower (8,203 kW)|Tractive force: 490 kN (50 tons)	fb:part.11_000_horsepower_8_203_kw|fb:part.tractive_force_490_kn_50_tons
+7	9	fb:cell.exhibit_at_swiss_transport_museum	Exhibit at Swiss Transport Museum	exhibit|at|swiss|transport|museum	exhibit|at|swiss|transport|museum	NN|IN|JJ|NN|NN	O|O|O|O|O	||||				Exhibit at Swiss Transport Museum	fb:part.exhibit_at_swiss_transport_museum
+8	0	fb:cell.prr_gg1	PRR GG1	prr|gg1	prr|gg1	NN|NN	O|O	|	1.0			PRR GG1	fb:part.prr_gg1
+8	1	fb:cell.pennsylvania_rail_road_prr_penn_central_conrail_amtrak_nj_transit	Pennsylvania Rail Road (PRR), Penn Central, Conrail, Amtrak & NJ Transit	pennsylvania|rail|road|-lrb-|prr|-rrb-|,|penn|central|,|conrail|,|amtrak|&|nj|transit	Pennsylvania|Rail|Road|-lrb-|prr|-rrb-|,|Penn|Central|,|Conrail|,|Amtrak|&|NJ|Transit	NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP|,|NNP|,|NNP|CC|NNP|NNP	LOCATION|LOCATION|LOCATION|O|O|O|O|LOCATION|LOCATION|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||||||||				Pennsylvania Rail Road (PRR)|Penn Central|Conrail|Amtrak & NJ Transit	fb:part.pennsylvania_rail_road_prr|fb:part.penn_central|fb:part.conrail|fb:part.amtrak_nj_transit
+8	2	fb:cell.4800_4938_900_929	4800-4938, 900-929	4800-4938|,|900-929	4800-4938|,|900-929	CD|,|CD	DURATION|O|NUMBER	4800.0||900.0 - 929.0	4800.0		4938900.0	4800-4938|900-929	fb:part.4800_4938|fb:part.900_929
+8	3	fb:cell.altoona_works_general_electric	Altoona Works, General Electric	altoona|works|,|general|electric	Altoona|Works|,|General|Electric	NNP|NNP|,|NNP|NNP	LOCATION|O|O|ORGANIZATION|ORGANIZATION	||||				Altoona Works|General Electric	fb:part.altoona_works|fb:part.general_electric
+8	4	fb:cell.1934_43	1934–43	1934|--|43	1934|--|43	CD|:|CD	DATE|O|NUMBER	1934||43.0	1934.0		43.0	1934–43	fb:part.1934_43
+8	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+8	6	fb:cell.2_c_c_2_4_6_6_4	2-C+C-2 (4-6-6-4)	2|c+c|-2|-lrb-|4-6-6-4|-rrb-	2|c+c|-2|-lrb-|4-6-6-4|-rrb-	CD|NN|CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O	2.0||-2.0|||	2.0		2.0	2-C+C-2 (4-6-6-4)	fb:part.2_c_c_2_4_6_6_4
+8	7	fb:cell.208_9_to_216_4	208.9 to 216.4	208.9|to|216.4	208.9|to|216.4	CD|TO|CD	NUMBER|O|NUMBER	208.9||216.4	208.9		216.4		
+8	8	fb:cell.4_629_horsepower_3_452_kw_tractive_effort_65_500_lbf	4,629 horsepower (3,452 kW), Tractive Effort: 65,500 lbf	4,629|horsepower|-lrb-|3,452|kw|-rrb-|,|tractive|effort|:|65,500|lbf	4,629|horsepower|-lrb-|3,452|kw|-rrb-|,|Tractive|Effort|:|65,500|lbf	CD|NN|-LRB-|CD|NN|-RRB-|,|NNP|NNP|:|CD|NN	NUMBER|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O	4629.0|||3452.0|||||||65500.0|	4629.0		3452.0	4,629 horsepower (3,452 kW)|Tractive Effort: 65,500 lbf	fb:part.4_629_horsepower_3_452_kw|fb:part.tractive_effort_65_500_lbf
+8	9	fb:cell.most_scrapped_the_prototype_and_15_production_locomotives_preserved_in_museums	Most scrapped; the prototype and 15 production locomotives preserved in museums	most|scrapped|;|the|prototype|and|15|production|locomotives|preserved|in|museums	most|scrap|;|the|prototype|and|15|production|locomotive|preserve|in|museum	JJS|VBN|:|DT|NN|CC|CD|NN|NNS|VBN|IN|NNS	O|O|O|O|O|O|NUMBER|O|O|O|O|O	||||||15.0|||||	15.0			Most scrapped; the prototype and 15 production locomotives preserved in museums	fb:part.most_scrapped_the_prototype_and_15_production_locomotives_preserved_in_museums
+9	0	fb:cell.class_461	Class 461	class|461	Class|461	NNP|CD	O|NUMBER	|461.0	461.0			Class 461	fb:part.class_461
+9	1	fb:cell.zeleznice_srbije_serbia	Železnice Srbije, Serbia	železnice|srbije|,|serbia	Železnice|Srbije|,|Serbia	NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|LOCATION	|||				Železnice Srbije|Serbia	fb:part.zeleznice_srbije|fb:part.serbia
+9	2	fb:cell.zs461_0_1_zs461_2	ŽS461-0/1, ŽS461-2	žs461-0|\\/|1|,|žs461-2	žs461-0|\\/|1|,|žs461-2	NN|:|CD|,|NN	O|O|NUMBER|O|O	||1.0||	461.0		0.0	ŽS461-0|1|ŽS461-2	fb:part.zs461_0|fb:part.1|fb:part.zs461_2
+9	3	fb:cell.electroputere_craiova_romania	Electroputere Craiova, Romania	electroputere|craiova|,|romania	Electroputere|Craiova|,|Romania	NNP|NNP|,|NNP	PERSON|PERSON|O|LOCATION	|||				Electroputere Craiova|Romania	fb:part.electroputere_craiova|fb:part.romania
+9	4	fb:cell.1965_91	1965–91	1965|--|91	1965|--|91	CD|:|CD	DATE|O|NUMBER	1965||91.0	1965.0		91.0	1965–91	fb:part.1965_91
+9	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+9	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+9	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+9	8	fb:cell.7_638_horsepower_5_696_kw	7,638 horsepower (5,696 kW)	7,638|horsepower|-lrb-|5,696|kw|-rrb-	7,638|horsepower|-lrb-|5,696|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	7638.0|||5696.0||	7638.0		5696.0	7,638 horsepower (5,696 kW)	fb:part.7_638_horsepower_5_696_kw
+9	9	fb:cell.operational_in_romania_serbia_montenegro_bulgaria_hungary_macedonia	Operational in Romania, Serbia, Montenegro, Bulgaria, Hungary & Macedonia.	operational|in|romania|,|serbia|,|montenegro|,|bulgaria|,|hungary|&|macedonia|.	operational|in|Romania|,|Serbia|,|Montenegro|,|Bulgaria|,|Hungary|&|Macedonia|.	JJ|IN|NNP|,|NNP|,|NNP|,|NNP|,|NNP|CC|NNP|.	O|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O|LOCATION|O	|||||||||||||				Operational in Romania|Serbia|Montenegro|Bulgaria|Hungary & Macedonia.	fb:part.operational_in_romania|fb:part.serbia|fb:part.montenegro|fb:part.bulgaria|fb:part.hungary_macedonia
+10	0	fb:cell.allegheny	Allegheny	allegheny	Allegheny	NNP	LOCATION					Allegheny	fb:part.allegheny
+10	1	fb:cell.chesapeake_and_ohio_railway_c_o_virginian_railway_vgn	Chesapeake and Ohio Railway (C&O) & Virginian Railway (VGN)	chesapeake|and|ohio|railway|-lrb-|c&o|-rrb-|&|virginian|railway|-lrb-|vgn|-rrb-	Chesapeake|and|Ohio|railway|-lrb-|c&o|-rrb-|&|Virginian|Railway|-lrb-|VGN|-rrb-	NNP|CC|NNP|NN|-LRB-|NN|-RRB-|CC|NNP|NNP|-LRB-|NNP|-RRB-	LOCATION|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O	||||||||||||				Chesapeake and Ohio Railway (C&O) & Virginian Railway (VGN)	fb:part.chesapeake_and_ohio_railway_c_o_virginian_railway_vgn
+10	2	fb:cell.1600_1659_c_o_900_907_vgn	1600-1659 (C&O), 900-907 (VGN)	1600-1659|-lrb-|c&o|-rrb-|,|900-907|-lrb-|vgn|-rrb-	1600-1659|-lrb-|c&o|-rrb-|,|900-907|-lrb-|vgn|-rrb-	CD|-LRB-|NN|-RRB-|,|CD|-LRB-|NN|-RRB-	DATE|O|MISC|O|O|NUMBER|O|O|O	1600/1659|||||900.0 - 907.0|||	1600.0		1659.0	1600-1659 (C&O)|900-907 (VGN)	fb:part.1600_1659_c_o|fb:part.900_907_vgn
+10	3	fb:cell.lima_locomotive_works	Lima Locomotive Works	lima|locomotive|works	Lima|Locomotive|Works	NNP|NNP|NNP	LOCATION|O|O	||				Lima Locomotive Works	fb:part.lima_locomotive_works
+10	4	fb:cell.1941_48	1941–48	1941|--|48	1941|--|48	CD|:|CD	DATE|O|NUMBER	1941||48.0	1941.0		48.0	1941–48	fb:part.1941_48
+10	5	fb:cell.steam	Steam	steam	steam	NN	O					Steam	fb:part.steam
+10	6	fb:cell.2_6_6_6	2-6-6-6	2-6-6-6	2-6-6-6	CD	NUMBER		2.0		6.0	2-6-6-6	fb:part.2_6_6_6
+10	7	fb:cell.544_t	544 t	544|t	544|t	CD|NN	NUMBER|O	544.0|	544.0				
+10	8	fb:cell.7_500_horsepower_5_593_kw	7,500 horsepower (5,593 kW)	7,500|horsepower|-lrb-|5,593|kw|-rrb-	7,500|horsepower|-lrb-|5,593|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	7500.0|||5593.0||	7500.0		5593.0	7,500 horsepower (5,593 kW)	fb:part.7_500_horsepower_5_593_kw
+10	9	fb:cell.two_on_static_display	Two on static display	two|on|static|display	two|on|static|display	CD|IN|JJ|NN	NUMBER|O|O|O	2.0|||				Two on static display	fb:part.two_on_static_display
+11	0	fb:cell.m1	M1	m1	m1	NN	O		1.0			M1	fb:part.m1
+11	1	fb:cell.chesapeake_and_ohio_railway_c_o	Chesapeake and Ohio Railway (C&O)	chesapeake|and|ohio|railway|-lrb-|c&o|-rrb-	Chesapeake|and|Ohio|railway|-lrb-|c&o|-rrb-	NNP|CC|NNP|NN|-LRB-|NN|-RRB-	LOCATION|O|LOCATION|O|O|O|O	||||||				Chesapeake and Ohio Railway (C&O)	fb:part.chesapeake_and_ohio_railway_c_o
+11	2	fb:cell.500_502	500-502	500-502	500-502	CD	NUMBER	500.0 - 502.0	500.0		502.0	500-502	fb:part.500_502
+11	3	fb:cell.baldwin_locomotive_works	Baldwin Locomotive Works	baldwin|locomotive|works	Baldwin|Locomotive|Works	NNP|NNP|NNP	PERSON|O|O	||				Baldwin Locomotive Works	fb:part.baldwin_locomotive_works
+11	4	fb:cell.1947_50	1947–50	1947|--|50	1947|--|50	CD|:|CD	DATE|O|NUMBER	1947||50.0	1947.0		50.0	1947–50	fb:part.1947_50
+11	5	fb:cell.steam_turbine_electric	Steam Turbine Electric	steam|turbine|electric	Steam|Turbine|Electric	NNP|NNP|NNP	O|O|O	||				Steam Turbine Electric	fb:part.steam_turbine_electric
+11	6	fb:cell.2_c1_2_c1_b_4_8_0_4_8_4	2-C1-2-C1-B\n(4-8-0-4-8-4)	2|c1-2|c1|b|-lrb-|4-8-0-4-8-4|-rrb-	2|c1-2|c1|b|-lrb-|4-8-0-4-8-4|-rrb-	CD|NN|NN|NN|-LRB-|CD|-RRB-	NUMBER|O|O|O|O|NUMBER|O	2.0||||||	2.0		1.0	2-C1-2-C1-B|(4-8-0-4-8-4)	fb:part.2_c1_2_c1_b|fb:part._4_8_0_4_8_4
+11	7	fb:cell.428_t	428 t	428|t	428|t	CD|NN	NUMBER|O	428.0|	428.0				
+11	8	fb:cell.6_000_horsepower_4_474_kw	6,000 horsepower (4,474 kW)	6,000|horsepower|-lrb-|4,474|kw|-rrb-	6,000|horsepower|-lrb-|4,474|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6000.0|||4474.0||	6000.0		4474.0	6,000 horsepower (4,474 kW)	fb:part.6_000_horsepower_4_474_kw
+11	9	fb:cell.nicknamed_sacred_cows_sold_back_to_baldwin_in_1950_and_scrapped	Nicknamed "Sacred Cows". Sold back to Baldwin in 1950 and scrapped.	nicknamed|``|sacred|cows|''|.|sold|back|to|baldwin|in|1950|and|scrapped|.	nickname|``|sacred|cow|''|.|sell|back|to|Baldwin|in|1950|and|scrap|.	VBN|``|JJ|NNS|''|.|VBN|RB|TO|NNP|IN|CD|CC|VBD|.	MISC|MISC|MISC|MISC|O|O|O|O|O|PERSON|O|DATE|O|O|O	|||||||||||1950|||				Nicknamed "Sacred Cows". Sold back to Baldwin in 1950 and scrapped.	fb:part.nicknamed_sacred_cows_sold_back_to_baldwin_in_1950_and_scrapped
+12	0	fb:cell.big_boy	Big Boy	big|boy	big|boy	JJ|NN	O|O	|				Big Boy	fb:part.big_boy
+12	1	fb:cell.union_pacific	Union Pacific	union|pacific	Union|Pacific	NNP|NNP	O|O	|				Union Pacific	fb:part.union_pacific
+12	2	fb:cell.x4000_x4024	X4000-X4024	x4000|x4024	x4000|x4024	NN|NN	O|O	|	4000.0		4024.0	X4000-X4024	fb:part.x4000_x4024
+12	3	fb:cell.alco	ALCO	alco	ALCO	NNP	ORGANIZATION					ALCO	fb:part.alco
+12	4	fb:cell.1941_44	1941-–44	1941|-|--|44	1941|-|--|44	CD|:|:|CD	DATE|O|O|NUMBER	1941|||44.0	1941.0		44.0	1941-–44	fb:part.1941_44
+12	5	fb:cell.steam	Steam	steam	steam	NN	O					Steam	fb:part.steam
+12	6	fb:cell.4_8_8_4	4-8-8-4	4-8-8-4	4-8-8-4	CD	NUMBER		4.0		8.0	4-8-8-4	fb:part.4_8_8_4
+12	7	fb:cell.548_t	548 t	548|t	548|t	CD|NN	NUMBER|O	548.0|	548.0				
+12	8	fb:cell.6_290_horsepower_4_690_kw	6,290 horsepower (4,690 kW)	6,290|horsepower|-lrb-|4,690|kw|-rrb-	6,290|horsepower|-lrb-|4,690|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6290.0|||4690.0||	6290.0		4690.0	6,290 horsepower (4,690 kW)	fb:part.6_290_horsepower_4_690_kw
+12	9	fb:cell.several_on_static_display_no_4014_is_to_be_moved_from_pomona_calif_to_cheyenne_wyo_for_restoration	Several on static display.\nNo. 4014 is to be moved from Pomona, Calif., to Cheyenne, Wyo. for restoration.	several|on|static|display|.|no.|4014|is|to|be|moved|from|pomona|,|calif.|,|to|cheyenne|,|wyo.|for|restoration|.	several|on|static|display|.|no.|4014|be|to|be|move|from|Pomona|,|Calif.|,|to|Cheyenne|,|Wyo.|for|restoration|.	JJ|IN|JJ|NN|.|NN|CD|VBD-AUX|TO|VBD-AUX|VBN|IN|NNP|,|NNP|,|TO|NNP|,|NNP|IN|NN|.	O|O|O|O|O|O|NUMBER|O|O|O|O|O|LOCATION|O|LOCATION|O|O|LOCATION|O|LOCATION|O|O|O	||||||4014.0||||||||||||||||				Several on static display.|No. 4014 is to be moved from Pomona|Calif.|to Cheyenne|Wyo. for restoration.	fb:part.several_on_static_display|fb:part.no_4014_is_to_be_moved_from_pomona|fb:part.calif|fb:part.to_cheyenne|fb:part.wyo_for_restoration
+13	0	fb:cell.xa_triplex	XA Triplex	xa|triplex	XA|Triplex	NNP|NNP	ORGANIZATION|ORGANIZATION	|				XA Triplex	fb:part.xa_triplex
+13	1	fb:cell.virginian_railway	Virginian Railway	virginian|railway	Virginian|Railway	NNP|NNP	O|O	|				Virginian Railway	fb:part.virginian_railway
+13	2	fb:cell.700	700	700	700	CD	NUMBER	700.0	700.0			700	fb:part.700
+13	3	fb:cell.baldwin	Baldwin	baldwin	Baldwin	NNP	PERSON					Baldwin	fb:part.baldwin
+13	4	fb:cell.1916	1916	1916	1916	CD	DATE	1916	1916.0	1916-xx-xx		1916	fb:part.1916
+13	5	fb:cell.steam	Steam	steam	steam	NN	O					Steam	fb:part.steam
+13	6	fb:cell.2_8_8_8_4	2-8-8-8-4	2-8-8-8-4	2-8-8-8-4	CD	NUMBER		2.0		8.0	2-8-8-8-4	fb:part.2_8_8_8_4
+13	7	fb:cell.383_t	383 t	383|t	383|t	CD|NN	NUMBER|O	383.0|	383.0				
+13	8	fb:cell.n_a_tractive_effort_199_560_lb_simple_166_600_lb_compound	N/A, Tractive Effort: 199,560 lb simple; 166,600 lb compound	n\\/a|,|tractive|effort|:|199,560|lb|simple|;|166,600|lb|compound	n\\/a|,|Tractive|Effort|:|199,560|lb|simple|;|166,600|lb|compound	NN|,|NNP|NNP|:|CD|NN|NN|:|CD|NN|NN	O|O|O|O|O|NUMBER|O|O|O|NUMBER|O|O	|||||199560.0||||166600.0||	199560.0		166600.0	N|A|Tractive Effort: 199,560 lb simple; 166,600 lb compound	fb:part.n|fb:part.a|fb:part.tractive_effort_199_560_lb_simple_166_600_lb_compound
+13	9	fb:cell.rebuilt_into_separate_locomotives	Rebuilt into separate locomotives	rebuilt|into|separate|locomotives	rebuild|into|separate|locomotive	VBN|IN|JJ|NNS	O|O|O|O	|||				Rebuilt into separate locomotives	fb:part.rebuilt_into_separate_locomotives
+14	0	fb:cell.challenger	Challenger	challenger	Challenger	NNP	O					Challenger	fb:part.challenger
+14	1	fb:cell.union_pacific	Union Pacific	union|pacific	Union|Pacific	NNP|NNP	O|O	|				Union Pacific	fb:part.union_pacific
+14	2	fb:cell.3985	3985	3985	3985	CD	NUMBER	3985.0	3985.0			3985	fb:part.3985
+14	3	fb:cell.alco	ALCO	alco	ALCO	NNP	ORGANIZATION					ALCO	fb:part.alco
+14	4	fb:cell.1936_43	1936–43	1936|--|43	1936|--|43	CD|:|CD	DATE|O|NUMBER	1936||43.0	1936.0		43.0	1936–43	fb:part.1936_43
+14	5	fb:cell.steam	Steam	steam	steam	NN	O					Steam	fb:part.steam
+14	6	fb:cell.4_6_6_4	4-6-6-4	4-6-6-4	4-6-6-4	CD	NUMBER		4.0		6.0	4-6-6-4	fb:part.4_6_6_4
+14	7	fb:cell.485_t	485 t	485|t	485|t	CD|NN	NUMBER|O	485.0|	485.0				
+14	8	fb:cell.6_200_horsepower_4_623_kw	6,200 horsepower (4,623 kW)	6,200|horsepower|-lrb-|4,623|kw|-rrb-	6,200|horsepower|-lrb-|4,623|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6200.0|||4623.0||	6200.0		4623.0	6,200 horsepower (4,623 kW)	fb:part.6_200_horsepower_4_623_kw
+14	9	fb:cell.operates_in_excursion_service_largest_operational_steam_locomotive_in_2007	Operates in excursion service; largest operational steam locomotive in 2007	operates|in|excursion|service|;|largest|operational|steam|locomotive|in|2007	operate|in|excursion|service|;|largest|operational|steam|locomotive|in|2007	VBZ|IN|NN|NN|:|JJS|JJ|NN|NN|IN|CD	O|O|O|O|O|O|O|O|O|O|DATE	||||||||||2007	2007.0			Operates in excursion service; largest operational steam locomotive in 2007	fb:part.operates_in_excursion_service_largest_operational_steam_locomotive_in_2007
+15	0	fb:cell.gtel_8500_big_blow	GTEL 8500 'Big Blow'	gtel|8500|`|big|blow|'	GTEL|8500|`|big|blow|'	NNP|CD|``|JJ|NN|''	O|NUMBER|O|O|O|O	|8500.0||||	8500.0			GTEL 8500 'Big Blow'	fb:part.gtel_8500_big_blow
+15	1	fb:cell.union_pacific	Union Pacific	union|pacific	Union|Pacific	NNP|NNP	O|O	|				Union Pacific	fb:part.union_pacific
+15	2	fb:cell.1_30_control_cab_1b_30b_turbine_unit	1-30 (control cab), 1B-30B (turbine unit)	1-30|-lrb-|control|cab|-rrb-|,|1b-30b|-lrb-|turbine|unit|-rrb-	1-30|-lrb-|control|cab|-rrb-|,|1b-30b|-lrb-|turbine|unit|-rrb-	CD|-LRB-|NN|NN|-RRB-|,|NN|-LRB-|NN|NN|-RRB-	NUMBER|O|O|O|O|O|O|O|O|O|O	1.0 - 30.0||||||||||	1.0		30.0	1-30 (control cab)|1B-30B (turbine unit)	fb:part.1_30_control_cab|fb:part.1b_30b_turbine_unit
+15	3	fb:cell.general_electric	General Electric	general|electric	General|Electric	NNP|NNP	O|O	|				General Electric	fb:part.general_electric
+15	4	fb:cell.1958_61	1958–61	1958|--|61	1958|--|61	CD|:|CD	DATE|O|NUMBER	1958||61.0	1958.0		61.0	1958–61	fb:part.1958_61
+15	5	fb:cell.gas_turbine_electric	Gas turbine-electric	gas|turbine|electric	gas|turbine|electric	NN|NN|NN	O|O|O	||				Gas turbine-electric	fb:part.gas_turbine_electric
+15	6	fb:cell.c_c_c_c	C-C+C-C	c|c+c|c	c|c+c|c	NN|NN|NN	O|O|O	||				C-C+C-C	fb:part.c_c_c_c
+15	7	fb:cell.425_t	425 t	425|t	425|t	CD|NN	NUMBER|O	425.0|	425.0				
+15	8	fb:cell.8_469_horsepower_6_315_kw_over_10_000_hp_at_lower_altitude_and_ambient_temperatures	8,469 horsepower (6,315 kW) Over 10,000 hp at lower altitude and ambient temperatures.	8,469|horsepower|-lrb-|6,315|kw|-rrb-|over|10,000|hp|at|lower|altitude|and|ambient|temperatures|.	8,469|horsepower|-lrb-|6,315|kw|-rrb-|over|10,000|hp|at|lower|altitude|and|ambient|temperature|.	CD|NN|-LRB-|CD|NN|-RRB-|IN|CD|NN|IN|JJR|NN|CC|JJ|NNS|.	NUMBER|O|O|NUMBER|O|O|O|NUMBER|O|O|O|O|O|O|O|O	8469.0|||6315.0||||>10000.0||||||||	8469.0		6315.0	8,469 horsepower (6,315 kW) Over 10,000 hp at lower altitude and ambient temperatures.	fb:part.8_469_horsepower_6_315_kw_over_10_000_hp_at_lower_altitude_and_ambient_temperatures
+15	9	fb:cell.two_preserved_in_museums_most_powerful_internal_combustion_locomotive_built	Two preserved in museums. Most powerful internal combustion locomotive built.	two|preserved|in|museums|.|most|powerful|internal|combustion|locomotive|built|.	two|preserve|in|museum|.|most|powerful|internal|combustion|locomotive|build|.	CD|VBN|IN|NNS|.|JJS|JJ|JJ|NN|NN|VBN|.	NUMBER|O|O|O|O|O|O|O|O|O|O|O	2.0|||||||||||				Two preserved in museums. Most powerful internal combustion locomotive built.	fb:part.two_preserved_in_museums_most_powerful_internal_combustion_locomotive_built
+16	0	fb:cell.emd_dda40x	EMD DDA40X	emd|dda40x	emd|dda40x	NN|NN	O|O	|	40.0			EMD DDA40X	fb:part.emd_dda40x
+16	1	fb:cell.union_pacific	Union Pacific	union|pacific	Union|Pacific	NNP|NNP	O|O	|				Union Pacific	fb:part.union_pacific
+16	2	fb:cell.6900_6947	6900-6947	6900-6947	6900-6947	CD	DURATION	6900.0	6900.0		6947.0	6900-6947	fb:part.6900_6947
+16	3	fb:cell.electro_motive_division_of_general_motors	Electro-Motive Division of General Motors	electro|motive|division|of|general|motors	Electro|Motive|Division|of|General|Motors	NNP|NNP|NNP|IN|NNP|NNPS	O|O|O|O|ORGANIZATION|ORGANIZATION	|||||				Electro-Motive Division of General Motors	fb:part.electro_motive_division_of_general_motors
+16	4	fb:cell.1969_71	1969–71	1969|--|71	1969|--|71	CD|:|CD	DATE|O|NUMBER	1969||71.0	1969.0		71.0	1969–71	fb:part.1969_71
+16	5	fb:cell.diesel_electric_2	Diesel-electric	diesel|electric	Diesel|electric	NNP|JJ	O|O	|				Diesel-electric	fb:part.diesel_electric_2
+16	6	fb:cell.d_d	D-D	d|d	d|d	NN|NN	O|O	|				D-D	fb:part.d_d
+16	7	fb:cell.244_t	244 t	244|t	244|t	CD|NN	NUMBER|O	244.0|	244.0				
+16	8	fb:cell.6_600_horsepower_4_922_kw	6,600 horsepower (4,922 kW)	6,600|horsepower|-lrb-|4,922|kw|-rrb-	6,600|horsepower|-lrb-|4,922|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6600.0|||4922.0||	6600.0		4922.0	6,600 horsepower (4,922 kW)	fb:part.6_600_horsepower_4_922_kw
+16	9	fb:cell.one_operational_several_in_museums_largest_operational_single_unit_diesel_locomotive_and_the_most_powerful	One operational, several in museums; largest operational single-unit diesel locomotive and the most powerful	one|operational|,|several|in|museums|;|largest|operational|single|unit|diesel|locomotive|and|the|most|powerful	one|operational|,|several|in|museum|;|largest|operational|single|unit|diesel|locomotive|and|the|most|powerful	CD|JJ|,|JJ|IN|NNS|:|JJS|JJ|JJ|NN|NN|NN|CC|DT|RBS|JJ	NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	1.0||||||||||||||||				One operational|several in museums; largest operational single-unit diesel locomotive and the most powerful	fb:part.one_operational|fb:part.several_in_museums_largest_operational_single_unit_diesel_locomotive_and_the_most_powerful
+17	0	fb:cell.sj_dm3	SJ Dm3	sj|dm3	sj|dm3	NN|NN	O|O	|	3.0			SJ Dm3	fb:part.sj_dm3
+17	1	fb:cell.malmbanan	Malmbanan	malmbanan	malmbanan	NN	PERSON					Malmbanan	fb:part.malmbanan
+17	2	fb:cell.null											fb:part.null
+17	3	fb:cell.asea	ASEA	asea	ASEA	NNP	ORGANIZATION					ASEA	fb:part.asea
+17	4	fb:cell.1953_71	1953–71	1953|--|71	1953|--|71	CD|:|CD	DATE|O|NUMBER	1953||71.0	1953.0		71.0	1953–71	fb:part.1953_71
+17	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+17	6	fb:cell.1_d_d_d1	1'D+D+D1'	1|'d|+|d+d|1|'	1|'d|+|d+d|1|'	CD|NN|CC|NN|CD|''	NUMBER|O|O|O|NUMBER|O	1.0||||1.0|	1.0		1.0	1'D+D+D1'	fb:part.1_d_d_d1
+17	7	fb:cell.273_t	273 t	273|t	273|t	CD|NN	NUMBER|O	273.0|	273.0				
+17	8	fb:cell.9_655_horsepower_7_200_kw	9,655 horsepower (7,200 kW)	9,655|horsepower|-lrb-|7,200|kw|-rrb-	9,655|horsepower|-lrb-|7,200|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	9655.0|||7200.0||	9655.0		7200.0	9,655 horsepower (7,200 kW)	fb:part.9_655_horsepower_7_200_kw
+17	9	fb:cell.highest_continuous_tractive_effort_when_built_most_powerful_locomotive_using_jackshafts	Highest continuous tractive effort when built, most powerful locomotive using jackshafts	highest|continuous|tractive|effort|when|built|,|most|powerful|locomotive|using|jackshafts	highest|continuous|tractive|effort|when|build|,|most|powerful|locomotive|use|jackshaft	JJS|JJ|JJ|NN|WRB|VBN|,|RBS|JJ|NN|VBG|NNS	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Highest continuous tractive effort when built|most powerful locomotive using jackshafts	fb:part.highest_continuous_tractive_effort_when_built|fb:part.most_powerful_locomotive_using_jackshafts
+18	0	fb:cell.db_class_103	DB Class 103	db|class|103	DB|Class|103	NNP|NNP|CD	O|O|NUMBER	||103.0	103.0			DB Class 103	fb:part.db_class_103
+18	1	fb:cell.null											fb:part.null
+18	2	fb:cell.null											fb:part.null
+18	3	fb:cell.null											fb:part.null
+18	4	fb:cell.1970_73	1970–73	1970|--|73	1970|--|73	CD|:|CD	DATE|O|NUMBER	1970||73.0	1970.0		73.0	1970–73	fb:part.1970_73
+18	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+18	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+18	7	fb:cell.114_t	114 t	114|t	114|t	CD|NN	NUMBER|O	114.0|	114.0				
+18	8	fb:cell.9_977_horsepower_7_440_kw	9,977 horsepower (7,440 kW)	9,977|horsepower|-lrb-|7,440|kw|-rrb-	9,977|horsepower|-lrb-|7,440|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	9977.0|||7440.0||	9977.0		7440.0	9,977 horsepower (7,440 kW)	fb:part.9_977_horsepower_7_440_kw
+18	9	fb:cell.null											fb:part.null
+19	0	fb:cell.060_ea	060-EA	060|ea	060|ea	CD|NN	NUMBER|O	60.0|	60.0			060-EA	fb:part.060_ea
+19	1	fb:cell.romanian_railways_cfr	Romanian Railways(CFR)	romanian|railways|-lrb-|cfr|-rrb-	romanian|railway|-lrb-|cfr|-rrb-	JJ|NNS|-LRB-|NNS|-RRB-	MISC|O|O|O|O	||||				Romanian Railways(CFR)	fb:part.romanian_railways_cfr
+19	2	fb:cell.001_1000	001-1000	001-1000	001-1000	CD	NUMBER	1.0 - 1000.0	1.0		1000.0	001-1000	fb:part.001_1000
+19	3	fb:cell.electroputere_craiova	Electroputere Craiova	electroputere|craiova	Electroputere|Craiova	NNP|NNP	PERSON|PERSON	|				Electroputere Craiova	fb:part.electroputere_craiova
+19	4	fb:cell.1970_91	1970-91	1970-91	1970-91	CD	NUMBER	1970.0 - 91.0	1970.0		91.0	1970-91	fb:part.1970_91
+19	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+19	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+19	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+19	8	fb:cell.6_839_horsepower_5_100_kw	6,839 horsepower (5,100 kW)	6,839|horsepower|-lrb-|5,100|kw|-rrb-	6,839|horsepower|-lrb-|5,100|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6839.0|||5100.0||	6839.0		5100.0	6,839 horsepower (5,100 kW)	fb:part.6_839_horsepower_5_100_kw
+19	9	fb:cell.most_powerful_locomotive_in_1970s_highest_continuous_tractive_effort	Most powerful locomotive in 1970s; highest continuous tractive effort	most|powerful|locomotive|in|1970s|;|highest|continuous|tractive|effort	most|powerful|locomotive|in|1970s|;|highest|continuous|tractive|effort	JJS|JJ|NN|IN|CD|:|JJS|JJ|JJ|NN	O|O|O|O|DATE|O|O|O|O|O	||||197X|||||	1970.0			Most powerful locomotive in 1970s; highest continuous tractive effort	fb:part.most_powerful_locomotive_in_1970s_highest_continuous_tractive_effort
+20	0	fb:cell.060_ea_softronic_phoenix_version	060-EA Softronic Phoenix version	060|ea|softronic|phoenix|version	060|ea|Softronic|Phoenix|version	CD|NN|NNP|NNP|NN	NUMBER|O|O|O|O	60.0||||	60.0			060-EA Softronic Phoenix version	fb:part.060_ea_softronic_phoenix_version
+20	1	fb:cell.romanian_railways_cfr_and_hungarian_state_railways_mav	Romanian Railways (CFR) and Hungarian State Railways ( MÁV )	romanian|railways|-lrb-|cfr|-rrb-|and|hungarian|state|railways|-lrb-|máv|-rrb-	romanian|railway|-lrb-|cfr|-rrb-|and|hungarian|state|railway|-lrb-|máv|-rrb-	JJ|NNS|-LRB-|NNS|-RRB-|CC|JJ|NN|NNS|-LRB-|NN|-RRB-	MISC|O|O|O|O|O|MISC|O|O|O|O|O	|||||||||||				Romanian Railways (CFR) and Hungarian State Railways ( MÁV )	fb:part.romanian_railways_cfr_and_hungarian_state_railways_mav
+20	2	fb:cell.001_2001_2004	001, 2001-2004	001|,|2001-2004	001|,|2001-2004	CD|,|CD	NUMBER|O|DATE	1.0||2001/2004	12001.0		2004.0	001|2001-2004	fb:part.001|fb:part.2001_2004
+20	3	fb:cell.softronic_craiova	Softronic Craiova	softronic|craiova	Softronic|Craiova	NNP|NNP	PERSON|PERSON	|				Softronic Craiova	fb:part.softronic_craiova
+20	4	fb:cell.2009_present	2009–present	2009|--|present	2009|--|present	CD|:|JJ	DATE|O|DATE	2009||PRESENT_REF	2009.0			2009–present	fb:part.2009_present
+20	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+20	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+20	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+20	8	fb:cell.8_851_horsepower_6_600_kw	8,851 horsepower (6,600 kW)	8,851|horsepower|-lrb-|6,600|kw|-rrb-	8,851|horsepower|-lrb-|6,600|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	8851.0|||6600.0||	8851.0		6600.0	8,851 horsepower (6,600 kW)	fb:part.8_851_horsepower_6_600_kw
+20	9	fb:cell.most_powerful_locomotive_with_highest_continuous_tractive_effort	Most powerful locomotive with highest continuous tractive effort	most|powerful|locomotive|with|highest|continuous|tractive|effort	most|powerful|locomotive|with|highest|continuous|tractive|effort	JJS|JJ|NN|IN|JJS|JJ|JJ|NN	O|O|O|O|O|O|O|O	|||||||				Most powerful locomotive with highest continuous tractive effort	fb:part.most_powerful_locomotive_with_highest_continuous_tractive_effort
+21	0	fb:cell.softronic_transmontana_060_ea_version	Softronic TransMONTANA (060-EA version)	softronic|transmontana|-lrb-|060|ea|version|-rrb-	softronic|transmontana|-lrb-|060|ea|version|-rrb-	JJ|NN|-LRB-|CD|NN|NN|-RRB-	MISC|MISC|O|NUMBER|O|O|O	|||60.0|||	60.0			Softronic TransMONTANA (060-EA version)	fb:part.softronic_transmontana_060_ea_version
+21	1	fb:cell.romanian_railways_cfr_2	Romanian Railways (CFR)	romanian|railways|-lrb-|cfr|-rrb-	romanian|railway|-lrb-|cfr|-rrb-	JJ|NNS|-LRB-|NNS|-RRB-	MISC|O|O|O|O	||||				Romanian Railways (CFR)	fb:part.romanian_railways_cfr_2
+21	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0			1	fb:part.1
+21	3	fb:cell.softronic_craiova	Softronic Craiova	softronic|craiova	Softronic|Craiova	NNP|NNP	PERSON|PERSON	|				Softronic Craiova	fb:part.softronic_craiova
+21	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx		2010	fb:part.2010
+21	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+21	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+21	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+21	8	fb:cell.10_997_horsepower_8_200_kw	10,997 horsepower (8,200 kW)	10,997|horsepower|-lrb-|8,200|kw|-rrb-	10,997|horsepower|-lrb-|8,200|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	10997.0|||8200.0||	10997.0		8200.0	10,997 horsepower (8,200 kW)	fb:part.10_997_horsepower_8_200_kw
+21	9	fb:cell.null											fb:part.null
+22	0	fb:cell.sbb_cff_ffs_re_620	SBB-CFF-FFS Re 620	sbb|cff|ffs|re|620	SBB|CFF|FFS|Re|620	NNP|NNP|NNP|NNP|CD	O|O|O|O|NUMBER	||||620.0	620.0			SBB-CFF-FFS Re 620	fb:part.sbb_cff_ffs_re_620
+22	1	fb:cell.gotthardbahn	Gotthardbahn	gotthardbahn	Gotthardbahn	NNP	PERSON					Gotthardbahn	fb:part.gotthardbahn
+22	2	fb:cell.null											fb:part.null
+22	3	fb:cell.bbc	BBC	bbc	BBC	NNP	ORGANIZATION					BBC	fb:part.bbc
+22	4	fb:cell.1972_80	1972–80	1972|--|80	1972|--|80	CD|:|CD	DATE|O|NUMBER	1972||80.0	1972.0		80.0	1972–80	fb:part.1972_80
+22	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+22	6	fb:cell.bo_bo_bo_2	Bo'Bo'Bo'	bo'bo|`|bo|'	Bo'Bo|`|Bo|'	NNP|``|NNP|''	O|O|O|O	|||				Bo'Bo'Bo'	fb:part.bo_bo_bo_2
+22	7	fb:cell.120_t	120 t	120|t	120|t	CD|NN	NUMBER|O	120.0|	120.0				
+22	8	fb:cell.10_527_horsepower_7_850_kw	10,527 horsepower (7,850 kW)	10,527|horsepower|-lrb-|7,850|kw|-rrb-	10,527|horsepower|-lrb-|7,850|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	10527.0|||7850.0||	10527.0		7850.0	10,527 horsepower (7,850 kW)	fb:part.10_527_horsepower_7_850_kw
+22	9	fb:cell.most_powerful_single_frame_locomotive_when_built	Most powerful single-frame locomotive when built	most|powerful|single|frame|locomotive|when|built	most|powerful|single|frame|locomotive|when|build	JJS|JJ|JJ|NN|NN|WRB|VBN	O|O|O|O|O|O|O	||||||				Most powerful single-frame locomotive when built	fb:part.most_powerful_single_frame_locomotive_when_built
+23	0	fb:cell.jr_freight_class_ef200	JR Freight Class EF200	jr|freight|class|ef200	JR|Freight|Class|EF200	NNP|NNP|NNP|NNP	O|O|O|O	|||	200.0			JR Freight Class EF200	fb:part.jr_freight_class_ef200
+23	1	fb:cell.jr_freight	JR Freight	jr|freight	JR|Freight	NNP|NNP	O|O	|				JR Freight	fb:part.jr_freight
+23	2	fb:cell.null											fb:part.null
+23	3	fb:cell.hitachi_ltd	Hitachi Ltd.	hitachi|ltd.|.	Hitachi|Ltd.|.	NNP|NNP|.	ORGANIZATION|ORGANIZATION|O	||				Hitachi Ltd.	fb:part.hitachi_ltd
+23	4	fb:cell.1990	1990–	1990|--	1990|--	CD|:	DATE|O	1990|	1990.0			1990–	fb:part.1990
+23	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+23	6	fb:cell.bo_bo_bo_2	Bo'Bo'Bo'	bo'bo|`|bo|'	Bo'Bo|`|Bo|'	NNP|``|NNP|''	O|O|O|O	|||				Bo'Bo'Bo'	fb:part.bo_bo_bo_2
+23	7	fb:cell.100_8_t	100.8 t	100.8|t	100.8|t	CD|NN	NUMBER|O	100.8|	100.8				
+23	8	fb:cell.8_046_horsepower_6_000_kw	8,046 horsepower (6,000 kW)	8,046|horsepower|-lrb-|6,000|kw|-rrb-	8,046|horsepower|-lrb-|6,000|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	8046.0|||6000.0||	8046.0		6000.0	8,046 horsepower (6,000 kW)	fb:part.8_046_horsepower_6_000_kw
+23	9	fb:cell.most_powerful_single_frame_narrow_gauge_locomotive_in_series_production	Most powerful single-frame narrow-gauge locomotive in series production	most|powerful|single|frame|narrow|gauge|locomotive|in|series|production	most|powerful|single|frame|narrow|gauge|locomotive|in|series|production	JJS|JJ|JJ|NN|JJ|NN|NN|IN|NN|NN	O|O|O|O|O|O|O|O|O|O	|||||||||				Most powerful single-frame narrow-gauge locomotive in series production	fb:part.most_powerful_single_frame_narrow_gauge_locomotive_in_series_production
+24	0	fb:cell.emd_sd90mac	EMD SD90MAC	emd|sd90mac	emd|sd90mac	NN|NN	O|O	|	90.0			EMD SD90MAC	fb:part.emd_sd90mac
+24	1	fb:cell.union_pacific	Union Pacific	union|pacific	Union|Pacific	NNP|NNP	O|O	|				Union Pacific	fb:part.union_pacific
+24	2	fb:cell.8500_8561	8500-8561	8500-8561	8500-8561	CD	DURATION	8500.0	8500.0		8561.0	8500-8561	fb:part.8500_8561
+24	3	fb:cell.electro_motive_diesel	Electro-Motive Diesel	electro|motive|diesel	Electro|Motive|Diesel	NNP|NNP|NNP	O|O|O	||				Electro-Motive Diesel	fb:part.electro_motive_diesel
+24	4	fb:cell.1996_2002	1996–2002	1996|--|2002	1996|--|2002	CD|:|CD	DATE|DATE|DATE	1996|1996|2002	1996.0		2002.0	1996–2002	fb:part.1996_2002
+24	5	fb:cell.diesel_electric_2	Diesel-electric	diesel|electric	Diesel|electric	NNP|JJ	O|O	|				Diesel-electric	fb:part.diesel_electric_2
+24	6	fb:cell.c_c	C-C	c|c	c|c	NN|NN	O|O	|				C-C	fb:part.c_c
+24	7	fb:cell.210_t	210 t	210|t	210|t	CD|NN	NUMBER|O	210.0|	210.0				
+24	8	fb:cell.6_300_horsepower_4_698_kw	6,300 horsepower (4,698 kW)	6,300|horsepower|-lrb-|4,698|kw|-rrb-	6,300|horsepower|-lrb-|4,698|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6300.0|||4698.0||	6300.0		4698.0	6,300 horsepower (4,698 kW)	fb:part.6_300_horsepower_4_698_kw
+24	9	fb:cell.retired_from_service_some_on_lease_with_emlx	Retired from service, some on lease with EMLX	retired|from|service|,|some|on|lease|with|emlx	retire|from|service|,|some|on|lease|with|emlx	VBN|IN|NN|,|DT|IN|NN|IN|NN	O|O|O|O|O|O|O|O|MISC	||||||||				Retired from service|some on lease with EMLX	fb:part.retired_from_service|fb:part.some_on_lease_with_emlx
+25	0	fb:cell.ge_ac6000cw	GE AC6000CW	ge|ac6000cw	GE|AC6000CW	NNP|NNP	O|O	|	6000.0			GE AC6000CW	fb:part.ge_ac6000cw
+25	1	fb:cell.union_pacific_csx_transportation_bhp_billiton	Union Pacific; CSX Transportation; BHP Billiton	union|pacific|;|csx|transportation|;|bhp|billiton	Union|Pacific|;|CSX|Transportation|;|BHP|Billiton	NNP|NNP|:|NNP|NNP|:|NNP|NNP	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|O|O|O	|||||||				Union Pacific; CSX Transportation; BHP Billiton	fb:part.union_pacific_csx_transportation_bhp_billiton
+25	2	fb:cell.600_699_5000_5016_6070_6077_7500_7579_being_overhauled_and_renumbered_69xx	600-699, 5000-5016, 6070-6077, 7500-7579 (being overhauled and renumbered 69xx)	600-699|,|5000-5016|,|6070-6077|,|7500-7579|-lrb-|being|overhauled|and|renumbered|69xx|-rrb-	600-699|,|5000-5016|,|6070-6077|,|7500-7579|-lrb-|be|overhaul|and|renumber|69xx|-rrb-	CD|,|CD|,|CD|,|CD|-LRB-|VBG|VBN|CC|VBN|JJ|-RRB-	NUMBER|O|DURATION|O|DURATION|O|DURATION|O|O|O|O|O|O|O	600.0 - 699.0||5000.0||6070.0||7500.0|||||||	600.0		6995000.0	600-699|5000-5016|6070-6077|7500-7579 (being overhauled and renumbered 69xx)	fb:part.600_699|fb:part.5000_5016|fb:part.6070_6077|fb:part.7500_7579_being_overhauled_and_renumbered_69xx
+25	3	fb:cell.general_electric	General Electric	general|electric	General|Electric	NNP|NNP	O|O	|				General Electric	fb:part.general_electric
+25	4	fb:cell.1996_2001	1996–2001	1996|--|2001	1996|--|2001	CD|:|CD	DATE|DATE|DATE	1996|1996|2001	1996.0		2001.0	1996–2001	fb:part.1996_2001
+25	5	fb:cell.diesel_electric_2	Diesel-electric	diesel|electric	Diesel|electric	NNP|JJ	O|O	|				Diesel-electric	fb:part.diesel_electric_2
+25	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+25	7	fb:cell.210_t	210 t	210|t	210|t	CD|NN	NUMBER|O	210.0|	210.0				
+25	8	fb:cell.6_250_horsepower_4_661_kw	6,250 horsepower (4,661 kW)	6,250|horsepower|-lrb-|4,661|kw|-rrb-	6,250|horsepower|-lrb-|4,661|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6250.0|||4661.0||	6250.0		4661.0	6,250 horsepower (4,661 kW)	fb:part.6_250_horsepower_4_661_kw
+25	9	fb:cell.actual_hp_output_on_early_production_units_is_4350_hp_due_to_use_of_the_7fdl_engine	Actual HP output on early production units is 4350 hp due to use of the 7FDL engine.	actual|hp|output|on|early|production|units|is|4350|hp|due|to|use|of|the|7fdl|engine|.	actual|HP|output|on|early|production|unit|be|4350|hp|due|to|use|of|the|7FDL|engine|.	JJ|NNP|NN|IN|JJ|NN|NNS|VBD-AUX|CD|NN|JJ|TO|VB|IN|DT|NNP|NN|.	O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O|O|O	||||||||4350.0|||||||||	4350.0		7.0	Actual HP output on early production units is 4350 hp due to use of the 7FDL engine.	fb:part.actual_hp_output_on_early_production_units_is_4350_hp_due_to_use_of_the_7fdl_engine
+26	0	fb:cell.indian_locomotive_class_wag_9	Indian locomotive class WAG-9	indian|locomotive|class|wag-9	indian|locomotive|class|wag-9	JJ|NN|NN|NN	MISC|O|O|O	|||	9.0			Indian locomotive class WAG-9	fb:part.indian_locomotive_class_wag_9
+26	1	fb:cell.indian_railways	Indian Railways	indian|railways	indian|railway	JJ|NNS	MISC|O	|				Indian Railways	fb:part.indian_railways
+26	2	fb:cell.null											fb:part.null
+26	3	fb:cell.chittaranjan_locomotive_works_india	Chittaranjan Locomotive Works, India	chittaranjan|locomotive|works|,|india	Chittaranjan|Locomotive|Works|,|India	NNP|NNP|NNP|,|NNP	O|O|O|O|LOCATION	||||				Chittaranjan Locomotive Works|India	fb:part.chittaranjan_locomotive_works|fb:part.india
+26	4	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx		1998	fb:part.1998
+26	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+26	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+26	7	fb:cell.123_t	123 t	123|t	123|t	CD|NN	NUMBER|O	123.0|	123.0				
+26	8	fb:cell.6_350_horsepower_4_735_kw	6,350 horsepower (4,735 kW)	6,350|horsepower|-lrb-|4,735|kw|-rrb-	6,350|horsepower|-lrb-|4,735|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6350.0|||4735.0||	6350.0		4735.0	6,350 horsepower (4,735 kW)	fb:part.6_350_horsepower_4_735_kw
+26	9	fb:cell.most_powerful_electric_locomotive_in_india_in_2010	Most powerful electric locomotive in India in 2010.	most|powerful|electric|locomotive|in|india|in|2010|.	most|powerful|electric|locomotive|in|India|in|2010|.	JJS|JJ|JJ|NN|IN|NNP|IN|CD|.	O|O|O|O|O|LOCATION|O|DATE|O	|||||||2010|	2010.0			Most powerful electric locomotive in India in 2010.	fb:part.most_powerful_electric_locomotive_in_india_in_2010
+27	0	fb:cell.china_railways_hxn3	China Railways HXN3	china|railways|hxn3	China|Railways|hxn3	NNP|NNPS|NN	LOCATION|O|O	||	3.0			China Railways HXN3	fb:part.china_railways_hxn3
+27	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+27	2	fb:cell.hxn30001_hxn30300	HXN30001-HXN30300	hxn30001|hxn30300	hxn30001|hxn30300	NN|NN	O|O	|	30001.0		30300.0	HXN30001-HXN30300	fb:part.hxn30001_hxn30300
+27	3	fb:cell.dalian_locomotive_emd	Dalian Locomotive, EMD	dalian|locomotive|,|emd	Dalian|Locomotive|,|EMD	NNP|NNP|,|NNP	LOCATION|O|O|O	|||				Dalian Locomotive|EMD	fb:part.dalian_locomotive|fb:part.emd
+27	4	fb:cell.2008	2008–	2008|--	2008|--	CD|:	DATE|O	2008|	2008.0			2008–	fb:part.2008
+27	5	fb:cell.diesel_electric_2	Diesel-electric	diesel|electric	Diesel|electric	NNP|JJ	O|O	|				Diesel-electric	fb:part.diesel_electric_2
+27	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+27	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+27	8	fb:cell.6_300_horsepower_4_698_kw	6,300 horsepower (4,698 kW)	6,300|horsepower|-lrb-|4,698|kw|-rrb-	6,300|horsepower|-lrb-|4,698|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6300.0|||4698.0||	6300.0		4698.0	6,300 horsepower (4,698 kW)	fb:part.6_300_horsepower_4_698_kw
+27	9	fb:cell.most_powerful_diesel_electric_locomotive_in_active_production	Most powerful diesel-electric locomotive in active production.	most|powerful|diesel|electric|locomotive|in|active|production|.	most|powerful|diesel|electric|locomotive|in|active|production|.	JJS|JJ|NN|JJ|NN|IN|JJ|NN|.	O|O|O|O|O|O|O|O|O	||||||||				Most powerful diesel-electric locomotive in active production.	fb:part.most_powerful_diesel_electric_locomotive_in_active_production
+28	0	fb:cell.china_railways_hxn5	China Railways HXN5	china|railways|hxn5	China|Railways|hxn5	NNP|NNPS|NN	LOCATION|O|O	||	5.0			China Railways HXN5	fb:part.china_railways_hxn5
+28	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+28	2	fb:cell.hxn50001_hxn50300	HXN50001-HXN50300	hxn50001|hxn50300	hxn50001|hxn50300	NN|NN	O|O	|	50001.0		50300.0	HXN50001-HXN50300	fb:part.hxn50001_hxn50300
+28	3	fb:cell.ge_csr_qishuyan_locomotive	GE, CSR Qishuyan Locomotive	ge|,|csr|qishuyan|locomotive	GE|,|CSR|Qishuyan|Locomotive	NNP|,|NNP|NNP|NNP	O|O|ORGANIZATION|O|O	||||				GE|CSR Qishuyan Locomotive	fb:part.ge|fb:part.csr_qishuyan_locomotive
+28	4	fb:cell.2008	2008–	2008|--	2008|--	CD|:	DATE|O	2008|	2008.0			2008–	fb:part.2008
+28	5	fb:cell.diesel_electric_2	Diesel-electric	diesel|electric	Diesel|electric	NNP|JJ	O|O	|				Diesel-electric	fb:part.diesel_electric_2
+28	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+28	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+28	8	fb:cell.6_250_horsepower_4_661_kw	6,250 horsepower (4,661 kW)	6,250|horsepower|-lrb-|4,661|kw|-rrb-	6,250|horsepower|-lrb-|4,661|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	6250.0|||4661.0||	6250.0		4661.0	6,250 horsepower (4,661 kW)	fb:part.6_250_horsepower_4_661_kw
+28	9	fb:cell.most_powerful_diesel_electric_locomotive_in_active_production	Most powerful diesel-electric locomotive in active production.	most|powerful|diesel|electric|locomotive|in|active|production|.	most|powerful|diesel|electric|locomotive|in|active|production|.	JJS|JJ|NN|JJ|NN|IN|JJ|NN|.	O|O|O|O|O|O|O|O|O	||||||||				Most powerful diesel-electric locomotive in active production.	fb:part.most_powerful_diesel_electric_locomotive_in_active_production
+29	0	fb:cell.china_railways_hxd1	China Railways HXD1	china|railways|hxd1	China|Railways|hxd1	NNP|NNPS|NN	LOCATION|O|O	||	1.0			China Railways HXD1	fb:part.china_railways_hxd1
+29	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+29	2	fb:cell.hxd10001_hxd10220	HXD10001-HXD10220	hxd10001|hxd10220	hxd10001|hxd10220	NN|NN	O|O	|	10001.0		10220.0	HXD10001-HXD10220	fb:part.hxd10001_hxd10220
+29	3	fb:cell.csr_zhuzhou_electric_locomotive_siemens	CSR Zhuzhou Electric Locomotive, Siemens	csr|zhuzhou|electric|locomotive|,|siemens	CSR|Zhuzhou|Electric|Locomotive|,|Siemens	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION	|||||				CSR Zhuzhou Electric Locomotive|Siemens	fb:part.csr_zhuzhou_electric_locomotive|fb:part.siemens
+29	4	fb:cell.2006_08	2006–08	2006|--|08	2006|--|08	CD|:|CD	DATE|O|NUMBER	2006||8.0	2006.0		8.0	2006–08	fb:part.2006_08
+29	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+29	6	fb:cell.bo_bo_bo_bo	Bo'Bo'+Bo'Bo'	bo'bo|'|+|bo'bo|'	bo'bo|'|+|bo'bo|'	NN|''|CC|NN|''	O|O|O|O|O	||||				Bo'Bo'+Bo'Bo'	fb:part.bo_bo_bo_bo
+29	7	fb:cell.200_t	200 t	200|t	200|t	CD|NN	NUMBER|O	200.0|	200.0				
+29	8	fb:cell.12_874_horsepower_9_600_kw	12,874 horsepower (9,600 kW)	12,874|horsepower|-lrb-|9,600|kw|-rrb-	12,874|horsepower|-lrb-|9,600|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	12874.0|||9600.0||	12874.0		9600.0	12,874 horsepower (9,600 kW)	fb:part.12_874_horsepower_9_600_kw
+29	9	fb:cell.null											fb:part.null
+30	0	fb:cell.china_railways_hxd2	China Railways HXD2	china|railways|hxd2	China|Railways|hxd2	NNP|NNPS|NN	LOCATION|O|O	||	2.0			China Railways HXD2	fb:part.china_railways_hxd2
+30	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+30	2	fb:cell.hxd20001_hxd20180	HXD20001-HXD20180	hxd20001|hxd20180	hxd20001|hxd20180	NN|NN	O|O	|	20001.0		20180.0	HXD20001-HXD20180	fb:part.hxd20001_hxd20180
+30	3	fb:cell.datong_electric_locomotive_alstom	Datong Electric Locomotive, Alstom	datong|electric|locomotive|,|alstom	Datong|Electric|Locomotive|,|Alstom	NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION	||||				Datong Electric Locomotive|Alstom	fb:part.datong_electric_locomotive|fb:part.alstom
+30	4	fb:cell.2006_08	2006–08	2006|--|08	2006|--|08	CD|:|CD	DATE|O|NUMBER	2006||8.0	2006.0		8.0	2006–08	fb:part.2006_08
+30	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+30	6	fb:cell.bo_bo_bo_bo	Bo'Bo'+Bo'Bo'	bo'bo|'|+|bo'bo|'	bo'bo|'|+|bo'bo|'	NN|''|CC|NN|''	O|O|O|O|O	||||				Bo'Bo'+Bo'Bo'	fb:part.bo_bo_bo_bo
+30	7	fb:cell.200_t	200 t	200|t	200|t	CD|NN	NUMBER|O	200.0|	200.0				
+30	8	fb:cell.13_410_horsepower_10_000_kw	13,410 horsepower (10,000 kW)	13,410|horsepower|-lrb-|10,000|kw|-rrb-	13,410|horsepower|-lrb-|10,000|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	13410.0|||10000.0||	13410.0		10000.0	13,410 horsepower (10,000 kW)	fb:part.13_410_horsepower_10_000_kw
+30	9	fb:cell.null											fb:part.null
+31	0	fb:cell.china_railways_hxd3	China Railways HXD3	china|railways|hxd3	China|Railways|hxd3	NNP|NNPS|NN	LOCATION|O|O	||	3.0			China Railways HXD3	fb:part.china_railways_hxd3
+31	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+31	2	fb:cell.hxd30001_hxd30890_hxd38001_38150	HXD30001-HXD30890, HXD38001-38150	hxd30001|hxd30890|,|hxd38001-38150	hxd30001|hxd30890|,|hxd38001-38150	NN|NN|,|NN	O|O|O|O	|||	30001.0		30890.0	HXD30001-HXD30890|HXD38001-38150	fb:part.hxd30001_hxd30890|fb:part.hxd38001_38150
+31	3	fb:cell.toshiba_dalian_locomotive	Toshiba, Dalian Locomotive	toshiba|,|dalian|locomotive	Toshiba|,|Dalian|Locomotive	NNP|,|NNP|NNP	ORGANIZATION|O|LOCATION|LOCATION	|||				Toshiba|Dalian Locomotive	fb:part.toshiba|fb:part.dalian_locomotive
+31	4	fb:cell.2006_09	2006–09	2006|--|09	2006|--|09	CD|:|CD	DATE|O|NUMBER	2006||9.0	2006.0		9.0	2006–09	fb:part.2006_09
+31	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+31	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+31	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+31	8	fb:cell.9_655_horsepower_7_200_kw	9,655 horsepower (7,200 kW)	9,655|horsepower|-lrb-|7,200|kw|-rrb-	9,655|horsepower|-lrb-|7,200|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	9655.0|||7200.0||	9655.0		7200.0	9,655 horsepower (7,200 kW)	fb:part.9_655_horsepower_7_200_kw
+31	9	fb:cell.null											fb:part.null
+32	0	fb:cell.china_railways_hxd1b	China Railways HXD1B	china|railways|hxd1b	China|Railways|hxd1b	NNP|NNPS|NN	LOCATION|O|O	||	1.0			China Railways HXD1B	fb:part.china_railways_hxd1b
+32	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+32	2	fb:cell.hxd1b0001_hxd1b0500	HXD1B0001-HXD1B0500	hxd1b0001|hxd1b0500	hxd1b0001|hxd1b0500	NN|CD	O|NUMBER	|1.05E13	1.0		1.0	HXD1B0001-HXD1B0500	fb:part.hxd1b0001_hxd1b0500
+32	3	fb:cell.csr_zhuzhou_electric_locomotive_siemens	CSR Zhuzhou Electric Locomotive, Siemens	csr|zhuzhou|electric|locomotive|,|siemens	CSR|Zhuzhou|Electric|Locomotive|,|Siemens	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION	|||||				CSR Zhuzhou Electric Locomotive|Siemens	fb:part.csr_zhuzhou_electric_locomotive|fb:part.siemens
+32	4	fb:cell.2009	2009–	2009|--	2009|--	CD|:	DATE|O	2009|	2009.0			2009–	fb:part.2009
+32	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+32	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+32	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+32	8	fb:cell.12_874_horsepower_9_600_kw	12,874 horsepower (9,600 kW)	12,874|horsepower|-lrb-|9,600|kw|-rrb-	12,874|horsepower|-lrb-|9,600|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	12874.0|||9600.0||	12874.0		9600.0	12,874 horsepower (9,600 kW)	fb:part.12_874_horsepower_9_600_kw
+32	9	fb:cell.most_powerful_single_frame_locomotive_in_series_production	Most powerful single-frame locomotive in series production	most|powerful|single|frame|locomotive|in|series|production	most|powerful|single|frame|locomotive|in|series|production	JJS|JJ|JJ|NN|NN|IN|NN|NN	O|O|O|O|O|O|O|O	|||||||				Most powerful single-frame locomotive in series production	fb:part.most_powerful_single_frame_locomotive_in_series_production
+33	0	fb:cell.china_railways_hxd2b	China Railways HXD2B	china|railways|hxd2b	China|Railways|hxd2b	NNP|NNPS|NN	LOCATION|O|O	||	2.0			China Railways HXD2B	fb:part.china_railways_hxd2b
+33	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+33	2	fb:cell.hxd2b0001_hxd2b0500	HXD2B0001-HXD2B0500	hxd2b0001|hxd2b0500	hxd2b0001|hxd2b0500	NN|CD	O|NUMBER	|2.05E13	2.0		1.0	HXD2B0001-HXD2B0500	fb:part.hxd2b0001_hxd2b0500
+33	3	fb:cell.datong_electric_locomotive_alstom	Datong Electric Locomotive, Alstom	datong|electric|locomotive|,|alstom	Datong|Electric|Locomotive|,|Alstom	NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION	||||				Datong Electric Locomotive|Alstom	fb:part.datong_electric_locomotive|fb:part.alstom
+33	4	fb:cell.2009	2009–	2009|--	2009|--	CD|:	DATE|O	2009|	2009.0			2009–	fb:part.2009
+33	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+33	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+33	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+33	8	fb:cell.12_874_horsepower_9_600_kw	12,874 horsepower (9,600 kW)	12,874|horsepower|-lrb-|9,600|kw|-rrb-	12,874|horsepower|-lrb-|9,600|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	12874.0|||9600.0||	12874.0		9600.0	12,874 horsepower (9,600 kW)	fb:part.12_874_horsepower_9_600_kw
+33	9	fb:cell.most_powerful_single_frame_locomotive_in_series_production	Most powerful single-frame locomotive in series production	most|powerful|single|frame|locomotive|in|series|production	most|powerful|single|frame|locomotive|in|series|production	JJS|JJ|JJ|NN|NN|IN|NN|NN	O|O|O|O|O|O|O|O	|||||||				Most powerful single-frame locomotive in series production	fb:part.most_powerful_single_frame_locomotive_in_series_production
+34	0	fb:cell.china_railways_hxd3b	China Railways HXD3B	china|railways|hxd3b	China|Railways|hxd3b	NNP|NNPS|NN	LOCATION|O|O	||	3.0			China Railways HXD3B	fb:part.china_railways_hxd3b
+34	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+34	2	fb:cell.hxd3b0001_hxd3b0500	HXD3B0001-HXD3B0500	hxd3b0001|hxd3b0500	hxd3b0001|hxd3b0500	NN|CD	O|NUMBER	|3.05E13	3.0		1.0	HXD3B0001-HXD3B0500	fb:part.hxd3b0001_hxd3b0500
+34	3	fb:cell.dalian_bombardier	Dalian, Bombardier	dalian|,|bombardier	Dalian|,|Bombardier	NNP|,|NNP	LOCATION|O|PERSON	||				Dalian|Bombardier	fb:part.dalian|fb:part.bombardier
+34	4	fb:cell.2009	2009–	2009|--	2009|--	CD|:	DATE|O	2009|	2009.0			2009–	fb:part.2009
+34	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+34	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+34	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+34	8	fb:cell.12_874_horsepower_9_600_kw	12,874 horsepower (9,600 kW)	12,874|horsepower|-lrb-|9,600|kw|-rrb-	12,874|horsepower|-lrb-|9,600|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	12874.0|||9600.0||	12874.0		9600.0	12,874 horsepower (9,600 kW)	fb:part.12_874_horsepower_9_600_kw
+34	9	fb:cell.most_powerful_single_frame_locomotive_in_series_production	Most powerful single-frame locomotive in series production	most|powerful|single|frame|locomotive|in|series|production	most|powerful|single|frame|locomotive|in|series|production	JJS|JJ|JJ|NN|NN|IN|NN|NN	O|O|O|O|O|O|O|O	|||||||				Most powerful single-frame locomotive in series production	fb:part.most_powerful_single_frame_locomotive_in_series_production
+35	0	fb:cell.china_railways_hxd1c	China Railways HXD1C	china|railways|hxd1c	China|Railways|hxd1c	NNP|NNPS|NN	LOCATION|O|O	||	1.0			China Railways HXD1C	fb:part.china_railways_hxd1c
+35	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+35	2	fb:cell.hxd1c0001_hxd1c0990	HXD1C0001-HXD1C0990	hxd1c0001|hxd1c0990	hxd1c0001|hxd1c0990	NN|NN	O|O	|	1.0		1.0	HXD1C0001-HXD1C0990	fb:part.hxd1c0001_hxd1c0990
+35	3	fb:cell.csr_zhuzhou_electric_locomotive_siemens	CSR Zhuzhou Electric Locomotive, Siemens	csr|zhuzhou|electric|locomotive|,|siemens	CSR|Zhuzhou|Electric|Locomotive|,|Siemens	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION	|||||				CSR Zhuzhou Electric Locomotive|Siemens	fb:part.csr_zhuzhou_electric_locomotive|fb:part.siemens
+35	4	fb:cell.2009	2009–	2009|--	2009|--	CD|:	DATE|O	2009|	2009.0			2009–	fb:part.2009
+35	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+35	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+35	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+35	8	fb:cell.9_655_horsepower_7_200_kw	9,655 horsepower (7,200 kW)	9,655|horsepower|-lrb-|7,200|kw|-rrb-	9,655|horsepower|-lrb-|7,200|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	9655.0|||7200.0||	9655.0		7200.0	9,655 horsepower (7,200 kW)	fb:part.9_655_horsepower_7_200_kw
+35	9	fb:cell.null											fb:part.null
+36	0	fb:cell.china_railways_hxd2c	China Railways HXD2C	china|railways|hxd2c	China|Railways|hxd2c	NNP|NNPS|NN	LOCATION|O|O	||	2.0			China Railways HXD2C	fb:part.china_railways_hxd2c
+36	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+36	2	fb:cell.hxd2c0001	HXD2C0001-	hxd2c0001|-	hxd2c0001|-	NN|:	O|O	|	2.0		1.0	HXD2C0001-	fb:part.hxd2c0001
+36	3	fb:cell.datong_electric_locomotive_alstom	Datong Electric Locomotive, Alstom	datong|electric|locomotive|,|alstom	Datong|Electric|Locomotive|,|Alstom	NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION	||||				Datong Electric Locomotive|Alstom	fb:part.datong_electric_locomotive|fb:part.alstom
+36	4	fb:cell.2010_2	2010–	2010|--	2010|--	CD|:	DATE|O	2010|	2010.0			2010–	fb:part.2010_2
+36	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+36	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+36	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+36	8	fb:cell.9_655_horsepower_7_200_kw	9,655 horsepower (7,200 kW)	9,655|horsepower|-lrb-|7,200|kw|-rrb-	9,655|horsepower|-lrb-|7,200|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	9655.0|||7200.0||	9655.0		7200.0	9,655 horsepower (7,200 kW)	fb:part.9_655_horsepower_7_200_kw
+36	9	fb:cell.null											fb:part.null
+37	0	fb:cell.china_railways_hxd3c	China Railways HXD3C	china|railways|hxd3c	China|Railways|hxd3c	NNP|NNPS|NN	LOCATION|O|O	||	3.0			China Railways HXD3C	fb:part.china_railways_hxd3c
+37	1	fb:cell.china_railways	China Railways	china|railways	China|Railways	NNP|NNPS	LOCATION|O	|				China Railways	fb:part.china_railways
+37	2	fb:cell.hxd3c0001	HXD3C0001-	hxd3c0001|-	hxd3c0001|-	NN|:	O|O	|	3.0		1.0	HXD3C0001-	fb:part.hxd3c0001
+37	3	fb:cell.dalian_bombardier	Dalian, Bombardier	dalian|,|bombardier	Dalian|,|Bombardier	NNP|,|NNP	LOCATION|O|PERSON	||				Dalian|Bombardier	fb:part.dalian|fb:part.bombardier
+37	4	fb:cell.2010_2	2010–	2010|--	2010|--	CD|:	DATE|O	2010|	2010.0			2010–	fb:part.2010_2
+37	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+37	6	fb:cell.co_co	Co'Co'	co'co|'	co'co|'	NN|''	O|O	|				Co'Co'	fb:part.co_co
+37	7	fb:cell.150_t	150 t	150|t	150|t	CD|NN	NUMBER|O	150.0|	150.0				
+37	8	fb:cell.9_655_horsepower_7_200_kw	9,655 horsepower (7,200 kW)	9,655|horsepower|-lrb-|7,200|kw|-rrb-	9,655|horsepower|-lrb-|7,200|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	9655.0|||7200.0||	9655.0		7200.0	9,655 horsepower (7,200 kW)	fb:part.9_655_horsepower_7_200_kw
+37	9	fb:cell.null											fb:part.null
+38	0	fb:cell.iore	IORE	iore	iore	NN	O					IORE	fb:part.iore
+38	1	fb:cell.malmbanan	Malmbanan	malmbanan	malmbanan	NN	PERSON					Malmbanan	fb:part.malmbanan
+38	2	fb:cell.iore_101_iore_126	IORE 101-IORE 126	iore|101|iore|126	iore|101|iore|126	NN|CD|NN|CD	O|NUMBER|O|NUMBER	|101.0||126.0	101.0		126.0	IORE 101-IORE 126	fb:part.iore_101_iore_126
+38	3	fb:cell.bombardier	Bombardier	bombardier	Bombardier	NNP	PERSON					Bombardier	fb:part.bombardier
+38	4	fb:cell.2000_04	2000–04	2000|--|04	2000|--|04	CD|:|CD	DATE|O|NUMBER	2000||4.0	2000.0		4.0	2000–04	fb:part.2000_04
+38	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+38	6	fb:cell.co_co_co_co	Co'Co'+Co'Co'	co'co|'|+|co'co|'	co'co|'|+|co'co|'	NN|''|CC|NN|''	O|O|O|O|O	||||				Co'Co'+Co'Co'	fb:part.co_co_co_co
+38	7	fb:cell.360_t	360 t	360|t	360|t	CD|NN	NUMBER|O	360.0|	360.0				
+38	8	fb:cell.14_483_horsepower_10_800_kw_for_a_pair_possible_to_operate_halves_which_is_not_usually_done	14,483 horsepower (10,800 kW)\nfor a pair, possible to operate halves which is not usually done	14,483|horsepower|-lrb-|10,800|kw|-rrb-|for|a|pair|,|possible|to|operate|halves|which|is|not|usually|done	14,483|horsepower|-lrb-|10,800|kw|-rrb-|for|a|pair|,|possible|to|operate|half|which|be|not|usually|do	CD|NN|-LRB-|CD|NN|-RRB-|IN|DT|NN|,|JJ|TO|VB|NNS|WDT|VBD-AUX|RB|RB|VBN	NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	14483.0|||10800.0|||||||||||||||	14483.0		10800.0	14,483 horsepower (10,800 kW)|for a pair|possible to operate halves which is not usually done	fb:part.14_483_horsepower_10_800_kw|fb:part.for_a_pair|fb:part.possible_to_operate_halves_which_is_not_usually_done
+38	9	fb:cell.highest_continuous_tractive_effort	Highest continuous tractive effort	highest|continuous|tractive|effort	highest|continuous|tractive|effort	JJS|JJ|JJ|NN	O|O|O|O	|||				Highest continuous tractive effort	fb:part.highest_continuous_tractive_effort
+39	0	fb:cell.jawn_henry	Jawn Henry	jawn|henry	Jawn|Henry	NNP|NNP	PERSON|PERSON	|				Jawn Henry	fb:part.jawn_henry
+39	1	fb:cell.norfolk_and_western_railway_n_w	Norfolk and Western Railway (N&W)	norfolk|and|western|railway|-lrb-|n&w|-rrb-	Norfolk|and|western|railway|-lrb-|n&w|-rrb-	NNP|CC|JJ|NN|-LRB-|NN|-RRB-	LOCATION|O|MISC|MISC|O|O|O	||||||				Norfolk and Western Railway (N&W)	fb:part.norfolk_and_western_railway_n_w
+39	2	fb:cell.2300	2300	2300	2300	CD	DATE	2300	2300.0	2300-xx-xx		2300	fb:part.2300
+39	3	fb:cell.baldwin_locomotive_works	Baldwin Locomotive Works	baldwin|locomotive|works	Baldwin|Locomotive|Works	NNP|NNP|NNP	PERSON|O|O	||				Baldwin Locomotive Works	fb:part.baldwin_locomotive_works
+39	4	fb:cell.1954_58	1954-58	1954-58	1954-58	CD	NUMBER	1954.0 - 58.0	1954.0		58.0	1954-58	fb:part.1954_58
+39	5	fb:cell.steam_turbine_electric	Steam Turbine Electric	steam|turbine|electric	Steam|Turbine|Electric	NNP|NNP|NNP	O|O|O	||				Steam Turbine Electric	fb:part.steam_turbine_electric
+39	6	fb:cell.c_c_c_c_2	C+C-C+C	c+c|c+c	C+C|C+C	NNP|NNP	O|O	|				C+C-C+C	fb:part.c_c_c_c_2
+39	7	fb:cell.404_t	404 t	404|t	404|t	CD|NN	NUMBER|O	404.0|	404.0				
+39	8	fb:cell.4_500_horsepower_3_356_kw	4,500 horsepower (3,356 kW)	4,500|horsepower|-lrb-|3,356|kw|-rrb-	4,500|horsepower|-lrb-|3,356|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	4500.0|||3356.0||	4500.0		3356.0	4,500 horsepower (3,356 kW)	fb:part.4_500_horsepower_3_356_kw
+39	9	fb:cell.struck_from_the_n_w_roster_on_january_4_1958	Struck from the N&W roster on January 4, 1958	struck|from|the|n&w|roster|on|january|4|,|1958	Struck|from|the|n&w|roster|on|January|4|,|1958	NNP|IN|DT|NN|NN|IN|NNP|CD|,|CD	O|O|O|O|O|O|DATE|DATE|DATE|DATE	||||||1958-01-04|1958-01-04|1958-01-04|1958-01-04	41958.0			Struck from the N&W roster on January 4|1958	fb:part.struck_from_the_n_w_roster_on_january_4|fb:part.1958
+40	0	fb:cell.vl85	VL85	vl85	vl85	NN	O		85.0			VL85	fb:part.vl85
+40	1	fb:cell.russian_railways	Russian Railways	russian|railways	russian|railway	JJ|NNS	MISC|O	|				Russian Railways	fb:part.russian_railways
+40	2	fb:cell.270	270	270	270	CD	NUMBER	270.0	270.0			270	fb:part.270
+40	3	fb:cell.novocherkassk_electric_locomotive_plant	Novocherkassk Electric Locomotive Plant	novocherkassk|electric|locomotive|plant	Novocherkassk|Electric|Locomotive|Plant	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Novocherkassk Electric Locomotive Plant	fb:part.novocherkassk_electric_locomotive_plant
+40	4	fb:cell.1983_94	1983-94	1983-94	1983-94	CD	NUMBER	1983.0 - 94.0	1983.0		94.0	1983-94	fb:part.1983_94
+40	5	fb:cell.electric	electric	electric	electric	JJ	O					electric	fb:part.electric
+40	6	fb:cell.bo_bo_bo_bo_bo_bo	Bo'Bo'Bo'+Bo'Bo'Bo'	bo'bo|`|bo|'|+|bo'bo|`|bo|'	Bo'Bo|`|Bo|'|+|Bo'Bo|`|Bo|'	NNP|``|NNP|''|CC|NNP|``|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				Bo'Bo'Bo'+Bo'Bo'Bo'	fb:part.bo_bo_bo_bo_bo_bo
+40	7	fb:cell.300_t	300 t	300|t	300|t	CD|NN	NUMBER|O	300.0|	300.0				
+40	8	fb:cell.13_437_horsepower_10_020_kw	13,437 horsepower (10,020 kW)	13,437|horsepower|-lrb-|10,020|kw|-rrb-	13,437|horsepower|-lrb-|10,020|kw|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	13437.0|||10020.0||	13437.0		10020.0	13,437 horsepower (10,020 kW)	fb:part.13_437_horsepower_10_020_kw
+40	9	fb:cell.null											fb:part.null
+41	0	fb:cell.wdg5	WDG5	wdg5	wdg5	NN	O		5.0			WDG5	fb:part.wdg5
+41	1	fb:cell.indian_railways	Indian Railways	indian|railways	indian|railway	JJ|NNS	MISC|O	|				Indian Railways	fb:part.indian_railways
+41	2	fb:cell.null											fb:part.null
+41	3	fb:cell.emd_dlw	EMD / DLW	emd|\\/|dlw	EMD|\\/|DLW	NNP|:|NNP	O|O|O	||				EMD|DLW	fb:part.emd|fb:part.dlw
+41	4	fb:cell.2012_present	2012–present	2012|--|present	2012|--|present	CD|:|JJ	DATE|O|DATE	2012||PRESENT_REF	2012.0			2012–present	fb:part.2012_present
+41	5	fb:cell.diesel_electric_transmission	Diesel-Electric Transmission	diesel|electric|transmission	Diesel|Electric|Transmission	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Diesel-Electric Transmission	fb:part.diesel_electric_transmission
+41	6	fb:cell.bo_bo_bo	Bo-Bo-Bo	bo|bo|bo	Bo|Bo|Bo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Bo-Bo-Bo	fb:part.bo_bo_bo
+41	7	fb:cell.null											fb:part.null
+41	8	fb:cell.5500hp_locomotive_with_560kn_tractive_effort	5500HP locomotive with 560KN tractive effort	5500hp|locomotive|with|560kn|tractive|effort	5500hp|locomotive|with|560kn|tractive|effort	NN|NN|IN|NN|JJ|NN	O|O|O|O|O|O	|||||	5500.0		560.0	5500HP locomotive with 560KN tractive effort	fb:part.5500hp_locomotive_with_560kn_tractive_effort
+41	9	fb:cell.the_most_powerful_diesel_locomotive_in_india_a_vision_statement_of_ir_suggests_that_up_to_5_000_units_of_this_class_will_be_manufactured_by_2020	The most powerful diesel locomotive in India. A vision statement of IR suggests that up to 5,000 units of this class will be manufactured by 2020.	the|most|powerful|diesel|locomotive|in|india|.|a|vision|statement|of|ir|suggests|that|up|to|5,000|units|of|this|class|will|be|manufactured|by|2020|.	the|most|powerful|diesel|locomotive|in|India|.|a|vision|statement|of|ir|suggest|that|up|to|5,000|unit|of|this|class|will|be|manufacture|by|2020|.	DT|RBS|JJ|NN|NN|IN|NNP|.|DT|NN|NN|IN|NN|VBZ|IN|RB|TO|CD|NNS|IN|DT|NN|VBD-AUX|VBD-AUX|VBN|IN|CD|.	O|O|O|O|O|O|LOCATION|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O|O|DATE|O	|||||||||||||||||<=5000.0|||||||||2020|				The most powerful diesel locomotive in India. A vision statement of IR suggests that up to 5,000 units of this class will be manufactured by 2020.	fb:part.the_most_powerful_diesel_locomotive_in_india_a_vision_statement_of_ir_suggests_that_up_to_5_000_units_of_this_class_will_be_manufactured_by_2020
+42	0	fb:cell.union_pacific_coal_gtel	Union Pacific Coal GTEL	union|pacific|coal|gtel	Union|Pacific|Coal|GTEL	NNP|NNP|NNP|NNP	O|O|O|O	|||				Union Pacific Coal GTEL	fb:part.union_pacific_coal_gtel
+42	1	fb:cell.union_pacific	Union Pacific	union|pacific	Union|Pacific	NNP|NNP	O|O	|				Union Pacific	fb:part.union_pacific
+42	2	fb:cell.80_later_8080	80 (later 8080)	80|-lrb-|later|8080|-rrb-	80|-lrb-|later|8080|-rrb-	CD|-LRB-|RB|CD|-RRB-	NUMBER|O|O|NUMBER|O	80.0|||8080.0|	80.0		8080.0	80 (later 8080)	fb:part.80_later_8080
+42	3	fb:cell.union_pacific_omaha_shops	Union Pacific Omaha Shops	union|pacific|omaha|shops	Union|Pacific|Omaha|Shops	NNP|NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Union Pacific Omaha Shops	fb:part.union_pacific_omaha_shops
+42	4	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx		1961	fb:part.1961
+42	5	fb:cell.diesel_electric_gas_turbine_electric	Diesel-Electric + Gas Turbine-Electric	diesel|electric|+|gas|turbine|electric	Diesel|Electric|+|Gas|Turbine|Electric	NNP|NNP|CC|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Diesel-Electric + Gas Turbine-Electric	fb:part.diesel_electric_gas_turbine_electric
+42	6	fb:cell.a1a_a1a_2_d_d_2	A1A-A1A+2-D-D-2	a1a|a1a|+2|d|d-2	a1a|a1a|+2|d|d-2	NN|NN|NN|NN|NN	O|O|NUMBER|O|O	||2.0||	1.0		1.0	A1A-A1A+2-D-D-2	fb:part.a1a_a1a_2_d_d_2
+42	7	fb:cell.728_t	728 t	728|t	728|t	CD|NN	NUMBER|O	728.0|	728.0				
+42	8	fb:cell.7_000_horsepower_5_220_kw_2000hp_diesel_5000hp_turbine	7,000 horsepower (5,220 kW) (2000hp Diesel + 5000hp turbine)	7,000|horsepower|-lrb-|5,220|kw|-rrb-|-lrb-|2000hp|diesel|+|5000hp|turbine|-rrb-	7,000|horsepower|-lrb-|5,220|kw|-rrb-|-lrb-|2000hp|Diesel|+|5000hp|turbine|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-|-LRB-|JJ|NNP|CC|JJ|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|O|O	7000.0|||5220.0|||||||||	7000.0		5220.0	7,000 horsepower (5,220 kW) (2000hp Diesel + 5000hp turbine)	fb:part.7_000_horsepower_5_220_kw_2000hp_diesel_5000hp_turbine
+42	9	fb:cell.home_built_experimental_coal_fired_gas_turbine_assembled_from_alco_pa_1_up_607_gn_w1_5018_and_the_tender_from_challenger_3990_215_feet_66_m_overall_length_1_457_280_pounds_661_011_kg_total_weight_unsuccessful_set_aside_in_1964_and_scrapped_in_1968	Home-built experimental coal-fired gas turbine. Assembled from ALCO PA-1 UP #607, GN W1 #5018, and the tender from Challenger #3990. 215 feet (66 m) overall length; 1,457,280 pounds (661,011 kg) total weight. Unsuccessful; set aside in 1964 and scrapped in 1968.	home|built|experimental|coal|fired|gas|turbine|.|assembled|from|alco|pa-1|up|#|607|,|gn|w1|#|5018|,|and|the|tender|from|challenger|#|3990|.|215|feet|-lrb-|66|m|-rrb-|overall|length|;|1,457,280|pounds|-lrb-|661,011|kg|-rrb-|total|weight|.|unsuccessful|;|set|aside|in|1964|and|scrapped|in|1968|.	Home|build|experimental|coal|fire|gas|turbine|.|assemble|from|ALCO|pa-1|up|#|607|,|GN|W1|#|5018|,|and|the|tender|from|Challenger|#|3990|.|215|foot|-lrb-|66|m|-rrb-|overall|length|;|1,457,280|pound|-lrb-|661,011|kg|-rrb-|total|weight|.|unsuccessful|;|set|aside|in|1964|and|scrap|in|1968|.	NNP|VBD|JJ|NN|VBD|NN|NN|.|VBN|IN|NNP|NN|NN|#|CD|,|NNP|NNP|#|CD|,|CC|DT|NN|IN|NNP|#|CD|.|CD|NNS|-LRB-|CD|NN|-RRB-|JJ|NN|:|CD|NNS|-LRB-|CD|NN|-RRB-|JJ|NN|.|JJ|:|VBN|RB|IN|CD|CC|VBN|IN|CD|.	O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|MONEY|MONEY|O|ORGANIZATION|O|MONEY|DATE|O|O|O|O|O|O|MONEY|DATE|O|NUMBER|O|O|NUMBER|O|O|O|O|O|MONEY|MONEY|O|NUMBER|O|O|O|O|O|O|O|O|O|O|DATE|O|O|O|DATE|O	|||||||||||||£607.0|£607.0||||£|5018|||||||£|3990||215.0|||66.0||||||£1457280.0|£1457280.0||661011.0|||||||||||1964||||1968|				Home-built experimental coal-fired gas turbine. Assembled from ALCO PA-1 UP #607|GN W1 #5018|and the tender from Challenger #3990. 215 feet (66 m) overall length; 1,457,280 pounds (661,011 kg) total weight. Unsuccessful; set aside in 1964 and scrapped in 1968.	fb:part.home_built_experimental_coal_fired_gas_turbine_assembled_from_alco_pa_1_up_607|fb:part.gn_w1_5018|fb:part.and_the_tender_from_challenger_3990_215_feet_66_m_overall_length_1_457_280_pounds_661_011_kg_total_weight_unsuccessful_set_aside_in_1964_and_scrapped_in_1968
+43	0	fb:cell.h220	H220	h220	h220	NN	O		220.0			H220	fb:part.h220
+43	1	fb:cell.victorian_railways	Victorian Railways	victorian|railways	victorian|railway	JJ|NNS	O|O	|				Victorian Railways	fb:part.victorian_railways
+43	2	fb:cell.h_class	H Class	h|class	h|class	NN|NN	O|O	|				H Class	fb:part.h_class
+43	3	fb:cell.victorian_railways_newport_workshop	Victorian Railways / [Newport Workshop]	victorian|railways|\\/|-lsb-|newport|workshop|-rsb-	victorian|railway|\\/|-lsb-|Newport|Workshop|-rsb-	JJ|NNS|:|-LRB-|NNP|NNP|-RRB-	MISC|O|O|O|ORGANIZATION|ORGANIZATION|O	||||||				Victorian Railways|[Newport Workshop]	fb:part.victorian_railways|fb:part._newport_workshop
+43	4	fb:cell.1941_1958	1941–1958	1941|--|1958	1941|--|1958	CD|:|CD	DATE|DATE|DATE	1941|1941|1958	1941.0		1958.0	1941–1958	fb:part.1941_1958
+43	5	fb:cell.220_psi_steam_boiler_3_cylinder	220 PSI Steam Boiler, 3 Cylinder	220|psi|steam|boiler|,|3|cylinder	220|PSI|Steam|Boiler|,|3|cylinder	CD|NNP|NNP|NNP|,|CD|NN	NUMBER|O|O|O|O|NUMBER|O	220.0|||||3.0|	220.0		3.0	220 PSI Steam Boiler|3 Cylinder	fb:part.220_psi_steam_boiler|fb:part.3_cylinder
+43	6	fb:cell.4_8_4	4-8-4	4-8-4	4-8-4	CD	NUMBER		4.0		8.0	4-8-4	fb:part.4_8_4
+43	7	fb:cell.265t	265t	265t	265t	NN	O		265.0				
+43	8	fb:cell.3_600_hp_2_680kw_coal_fired_steam_locomotive_50_mph_with_245kn_tractive_effort	3,600 HP / 2,680KW coal fired steam locomotive (50 mph) with 245KN tractive effort.	3,600|hp|\\/|2,680|kw|coal|fired|steam|locomotive|-lrb-|50|mph|-rrb-|with|245kn|tractive|effort|.	3,600|HP|\\/|2,680|KW|coal|fire|steam|locomotive|-lrb-|50|mph|-rrb-|with|245kn|tractive|effort|.	CD|NNP|:|CD|NNP|NN|VBD|NN|NN|-LRB-|CD|NN|-RRB-|IN|NN|JJ|NN|.	NUMBER|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O	3600.0|||2680.0|||||||50.0|||||||	3600.0		2680.0	3,600 HP|2,680KW coal fired steam locomotive (50 mph) with 245KN tractive effort.	fb:part.3_600_hp|fb:part.2_680kw_coal_fired_steam_locomotive_50_mph_with_245kn_tractive_effort
+43	9	fb:cell.the_most_powerful_steam_locomotive_at_the_time_built_in_australia_1_built_preserved_at_newport_victoria	The most powerful steam locomotive, at the time built in, Australia. 1 Built. Preserved at Newport, Victoria	the|most|powerful|steam|locomotive|,|at|the|time|built|in|,|australia|.|1|built|.|preserved|at|newport|,|victoria	the|most|powerful|steam|locomotive|,|at|the|time|build|in|,|Australia|.|1|build|.|preserve|at|Newport|,|Victoria	DT|RBS|JJ|NN|NN|,|IN|DT|NN|VBN|IN|,|NNP|.|CD|VBN|.|VBN|IN|NNP|,|NNP	O|O|O|O|O|O|O|O|O|O|O|O|LOCATION|O|NUMBER|O|O|O|O|LOCATION|O|LOCATION	||||||||||||||1.0|||||||	0.1			The most powerful steam locomotive|at the time built in|Australia. 1 Built. Preserved at Newport|Victoria	fb:part.the_most_powerful_steam_locomotive|fb:part.at_the_time_built_in|fb:part.australia_1_built_preserved_at_newport|fb:part.victoria

@@ -1,0 +1,85 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.air_ground	Air/Ground	air\\/ground	Air\\/Ground	NNP	O						
+-1	3	fb:row.row.number	Number	number	number	NN	O						
+-1	4	fb:row.row.type	Type	type	type	NN	O						
+-1	5	fb:row.row.status	Status	status	status	NN	O						
+0	0	fb:cell.8_march_1944	8 March 1944	8|march|1944	8|March|1944	CD|NNP|CD	DATE|DATE|DATE	1944-03-08|1944-03-08|1944-03-08	8.0	1944-03-08	1944.0		
+0	1	fb:cell.near_steinhuder_meer_lake_germany	Near Steinhuder Meer (Lake), Germany	near|steinhuder|meer|-lrb-|lake|-rrb-|,|germany	near|Steinhuder|Meer|-lrb-|Lake|-rrb-|,|Germany	IN|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP	O|O|O|O|O|O|O|LOCATION	|||||||				Near Steinhuder Meer (Lake)|Germany	fb:part.near_steinhuder_meer_lake|fb:part.germany
+0	2	fb:cell.air	Air	air	Air	NNP	O						
+0	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+0	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+1	0	fb:cell.16_march_1944	16 March 1944	16|march|1944	16|March|1944	CD|NNP|CD	DATE|DATE|DATE	1944-03-16|1944-03-16|1944-03-16	16.0	1944-03-16	1944.0		
+1	1	fb:cell.20_miles_south_of_stuttgart_germany	20 miles south of Stuttgart, Germany	20|miles|south|of|stuttgart|,|germany	20|mile|south|of|Stuttgart|,|Germany	CD|NNS|RB|IN|NNP|,|NNP	NUMBER|O|O|O|LOCATION|O|LOCATION	20.0||||||	20.0			20 miles south of Stuttgart|Germany	fb:part.20_miles_south_of_stuttgart|fb:part.germany
+1	2	fb:cell.air	Air	air	Air	NNP	O						
+1	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	4	fb:cell.me_110	Me-110	me-110	me-110	NN	O		110.0				
+1	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+2	0	fb:cell.11_april_1944	11 April 1944	11|april|1944	11|April|1944	CD|NNP|CD	DATE|DATE|DATE	1944-04-11|1944-04-11|1944-04-11	11.0	1944-04-11	1944.0		
+2	1	fb:cell.20_miles_northeast_of_magdeburg_germany	20 miles northeast of Magdeburg, Germany	20|miles|northeast|of|magdeburg|,|germany	20|mile|northeast|of|Magdeburg|,|Germany	CD|NNS|RB|IN|NNP|,|NNP	NUMBER|O|O|O|LOCATION|O|LOCATION	20.0||||||	20.0			20 miles northeast of Magdeburg|Germany	fb:part.20_miles_northeast_of_magdeburg|fb:part.germany
+2	2	fb:cell.air	Air	air	Air	NNP	O						
+2	3	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+2	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+2	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+3	0	fb:cell.13_april_1944	13 April 1944	13|april|1944	13|April|1944	CD|NNP|CD	DATE|DATE|DATE	1944-04-13|1944-04-13|1944-04-13	13.0	1944-04-13	1944.0		
+3	1	fb:cell.west_of_mannheim_germany	West of Mannheim, Germany	west|of|mannheim|,|germany	West|of|Mannheim|,|Germany	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				West of Mannheim|Germany	fb:part.west_of_mannheim|fb:part.germany
+3	2	fb:cell.air	Air	air	Air	NNP	O						
+3	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+3	4	fb:cell.fw_190	FW-190	fw-190	fw-190	NN	O		190.0				
+3	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+4	0	fb:cell.24_april_1944	24 April 1944	24|april|1944	24|April|1944	CD|NNP|CD	DATE|DATE|DATE	1944-04-24|1944-04-24|1944-04-24	24.0	1944-04-24	1944.0		
+4	1	fb:cell.south_of_munich_germany	South of Munich, Germany	south|of|munich|,|germany	South|of|Munich|,|Germany	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				South of Munich|Germany	fb:part.south_of_munich|fb:part.germany
+4	2	fb:cell.air	Air	air	Air	NNP	O						
+4	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+4	4	fb:cell.me_110	Me-110	me-110	me-110	NN	O		110.0				
+4	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+5	0	fb:cell.27_may_1944	27 May 1944	27|may|1944	27|May|1944	CD|VBD-AUX|CD	DATE|DATE|DATE	1944-05-27|1944-05-27|1944-05-27	27.0	1944-05-27	1944.0		
+5	1	fb:cell.north_of_strasbourg_france	North of Strasbourg, France	north|of|strasbourg|,|france	North|of|Strasbourg|,|France	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				North of Strasbourg|France	fb:part.north_of_strasbourg|fb:part.france
+5	2	fb:cell.air	Air	air	Air	NNP	O						
+5	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+5	5	fb:cell.damaged	Damaged	damaged	damage	VBN	O						
+6	0	fb:cell.18_august_1944	18 August 1944	18|august|1944	18|August|1944	CD|NNP|CD	DATE|DATE|DATE	1944-08-18|1944-08-18|1944-08-18	18.0	1944-08-18	1944.0		
+6	1	fb:cell.20_miles_northeast_of_paris_france	20 miles northeast of Paris, France	20|miles|northeast|of|paris|,|france	20|mile|northeast|of|Paris|,|France	CD|NNS|RB|IN|NNP|,|NNP	NUMBER|O|O|O|LOCATION|O|LOCATION	20.0||||||	20.0			20 miles northeast of Paris|France	fb:part.20_miles_northeast_of_paris|fb:part.france
+6	2	fb:cell.air	Air	air	Air	NNP	O						
+6	3	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+6	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+6	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+7	0	fb:cell.13_september_1944	13 September 1944	13|september|1944	13|September|1944	CD|NNP|CD	DATE|DATE|DATE	1944-09-13|1944-09-13|1944-09-13	13.0	1944-09-13	1944.0		
+7	1	fb:cell.south_of_nordhausen_germany	South of Nordhausen, Germany	south|of|nordhausen|,|germany	South|of|Nordhausen|,|Germany	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				South of Nordhausen|Germany	fb:part.south_of_nordhausen|fb:part.germany
+7	2	fb:cell.air	Air	air	Air	NNP	O						
+7	3	fb:cell.2_5	2.5	2.5	2.5	CD	NUMBER	2.5	2.5				
+7	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+7	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+8	0	fb:cell.6_october_1944	6 October 1944	6|october|1944	6|October|1944	CD|NNP|CD	DATE|DATE|DATE	1944-10-06|1944-10-06|1944-10-06	6.0	1944-10-06	1944.0		
+8	1	fb:cell.20_miles_northwest_of_berlin_germany	20 miles northwest of Berlin, Germany	20|miles|northwest|of|berlin|,|germany	20|mile|northwest|of|Berlin|,|Germany	CD|NNS|RB|IN|NNP|,|NNP	NUMBER|O|O|O|LOCATION|O|LOCATION	20.0||||||	20.0			20 miles northwest of Berlin|Germany	fb:part.20_miles_northwest_of_berlin|fb:part.germany
+8	2	fb:cell.air	Air	air	Air	NNP	O						
+8	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+8	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+8	5	fb:cell.damaged	Damaged	damaged	damage	VBN	O						
+9	0	fb:cell.6_october_1944	6 October 1944	6|october|1944	6|October|1944	CD|NNP|CD	DATE|DATE|DATE	1944-10-06|1944-10-06|1944-10-06	6.0	1944-10-06	1944.0		
+9	1	fb:cell.20_miles_northwest_of_berlin_germany	20 miles northwest of Berlin, Germany	20|miles|northwest|of|berlin|,|germany	20|mile|northwest|of|Berlin|,|Germany	CD|NNS|RB|IN|NNP|,|NNP	NUMBER|O|O|O|LOCATION|O|LOCATION	20.0||||||	20.0			20 miles northwest of Berlin|Germany	fb:part.20_miles_northwest_of_berlin|fb:part.germany
+9	2	fb:cell.air	Air	air	Air	NNP	O						
+9	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+9	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+9	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+10	0	fb:cell.27_november_1944	27 November 1944	27|november|1944	27|November|1944	CD|NNP|CD	DATE|DATE|DATE	1944-11-27|1944-11-27|1944-11-27	27.0	1944-11-27	1944.0		
+10	1	fb:cell.south_of_magdeburg_germany	South of Magdeburg, Germany	south|of|magdeburg|,|germany	South|of|Magdeburg|,|Germany	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				South of Magdeburg|Germany	fb:part.south_of_magdeburg|fb:part.germany
+10	2	fb:cell.air	Air	air	Air	NNP	O						
+10	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+10	4	fb:cell.fw_190	FW-190	fw-190	fw-190	NN	O		190.0				
+10	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+11	0	fb:cell.14_january_1945	14 January 1945	14|january|1945	14|January|1945	CD|NNP|CD	DATE|DATE|DATE	1945-01-14|1945-01-14|1945-01-14	14.0	1945-01-14	1945.0		
+11	1	fb:cell.20_miles_northwest_of_berlin_germany	20 miles northwest of Berlin, Germany	20|miles|northwest|of|berlin|,|germany	20|mile|northwest|of|Berlin|,|Germany	CD|NNS|RB|IN|NNP|,|NNP	NUMBER|O|O|O|LOCATION|O|LOCATION	20.0||||||	20.0			20 miles northwest of Berlin|Germany	fb:part.20_miles_northwest_of_berlin|fb:part.germany
+11	2	fb:cell.air	Air	air	Air	NNP	O						
+11	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+11	4	fb:cell.me_109	Me-109	me-109	me-109	NN	O		109.0				
+11	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+12	0	fb:cell.25_january_1952	25 January 1952	25|january|1952	25|January|1952	CD|NNP|CD	DATE|DATE|DATE	1952-01-25|1952-01-25|1952-01-25	25.0	1952-01-25	1952.0		
+12	1	fb:cell.korea	Korea	korea	Korea	NNP	LOCATION					Korea	fb:part.korea
+12	2	fb:cell.air	Air	air	Air	NNP	O						
+12	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+12	4	fb:cell.mig_15	Mig-15	mig-15	mig-15	NN	O		15.0				
+12	5	fb:cell.damaged	Damaged	damaged	damage	VBN	O						

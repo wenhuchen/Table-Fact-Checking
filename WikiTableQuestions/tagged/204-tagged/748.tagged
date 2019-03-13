@@ -1,0 +1,427 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.composer	Composer	composer	composer	NN	O						
+-1	1	fb:row.row.born	Born	born	bear	VBN	O						
+-1	2	fb:row.row.died	Died	died	die	VBN	O						
+-1	3	fb:row.row.nationality	Nationality	nationality	nationality	NN	O						
+-1	4	fb:row.row.notable_works_for_piano	Notable works for piano	notable|works|for|piano	notable|work|for|piano	JJ|NNS|IN|NN	O|O|O|O	|||					
+-1	5	fb:row.row.remarks	Remarks	remarks	remark	NNS	O						
+0	0	fb:cell.roy_agnew	Roy Agnew	roy|agnew	Roy|Agnew	NNP|NNP	PERSON|PERSON	|					
+0	1	fb:cell.1891	1891	1891	1891	CD	DATE	1891	1891.0	1891-xx-xx			
+0	2	fb:cell.1944	1944	1944	1944	CD	DATE	1944	1944.0	1944-xx-xx			
+0	3	fb:cell.australian	Australian	australian	australian	JJ	MISC					Australian	fb:part.australian
+0	4	fb:cell.null											fb:part.null
+0	5	fb:cell.null											fb:part.null
+1	0	fb:cell.theodore_akimenko_ru	Theodore Akimenko (ru)	theodore|akimenko|-lrb-|ru|-rrb-	Theodore|Akimenko|-lrb-|ru|-rrb-	NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O	||||					
+1	1	fb:cell.1876	1876	1876	1876	CD	DATE	1876	1876.0	1876-xx-xx			
+1	2	fb:cell.1945	1945	1945	1945	CD	DATE	1945	1945.0	1945-xx-xx			
+1	3	fb:cell.russian_ukrainian	Russian, Ukrainian	russian|,|ukrainian	Russian|,|ukrainian	NNP|,|JJ	MISC|O|LOCATION	||				Russian|Ukrainian	fb:part.russian|fb:part.ukrainian
+1	4	fb:cell.imslp	IMSLP	imslp	imslp	NN	O					IMSLP	fb:part.imslp
+1	5	fb:cell.null											fb:part.null
+2	0	fb:cell.malcolm_arnold	Malcolm Arnold	malcolm|arnold	Malcolm|Arnold	NNP|NNP	PERSON|PERSON	|					
+2	1	fb:cell.1921	1921	1921	1921	CD	DATE	1921	1921.0	1921-xx-xx			
+2	2	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+2	3	fb:cell.english	English	english	English	NNP	MISC					English	fb:part.english
+2	4	fb:cell.sonata_for_piano_1942_variations_on_a_ukrainian_folk_song_op_9	Sonata for Piano (1942)\nVariations on a Ukrainian Folk Song, Op. 9	sonata|for|piano|-lrb-|1942|-rrb-|variations|on|a|ukrainian|folk|song|,|op.|9	Sonata|for|Piano|-lrb-|1942|-rrb-|variation|on|a|ukrainian|folk|song|,|Op.|9	NNP|IN|NNP|-LRB-|CD|-RRB-|NNS|IN|DT|JJ|NN|NN|,|NNP|CD	O|O|O|O|DATE|O|O|O|O|MISC|MISC|MISC|O|O|NUMBER	||||1942||||||||||9.0	1942.0		0.9	Sonata for Piano (1942)|Variations on a Ukrainian Folk Song|Op. 9	fb:part.sonata_for_piano_1942|fb:part.variations_on_a_ukrainian_folk_song|fb:part.op_9
+2	5	fb:cell.null											fb:part.null
+3	0	fb:cell.willem_andriessen	Willem Andriessen	willem|andriessen	Willem|Andriessen	NNP|NNP	PERSON|PERSON	|					
+3	1	fb:cell.1887	1887	1887	1887	CD	DATE	1887	1887.0	1887-xx-xx			
+3	2	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+3	3	fb:cell.dutch	Dutch	dutch	dutch	JJ	MISC					Dutch	fb:part.dutch
+3	4	fb:cell.null											fb:part.null
+3	5	fb:cell.null											fb:part.null
+4	0	fb:cell.bela_bartok	Béla Bartók	béla|bartók	Béla|Bartók	NNP|NNP	PERSON|PERSON	|					
+4	1	fb:cell.1881	1881	1881	1881	CD	DATE	1881	1881.0	1881-xx-xx			
+4	2	fb:cell.1945	1945	1945	1945	CD	DATE	1945	1945.0	1945-xx-xx			
+4	3	fb:cell.hungarian	Hungarian	hungarian	hungarian	JJ	MISC					Hungarian	fb:part.hungarian
+4	4	fb:cell.mikrokosmos_sz_107_bb_105_out_of_doors_sz_81_bb_89_romanian_folk_dances_sz_56_bb_68_allegro_barbaro_sz_49_bb_63	Mikrokosmos, Sz. 107, BB 105\nOut of Doors, Sz. 81, BB 89\nRomanian Folk Dances, Sz. 56, BB 68\nAllegro barbaro, Sz. 49, BB 63	mikrokosmos|,|sz|.|107|,|bb|105|out|of|doors|,|sz|.|81|,|bb|89|romanian|folk|dances|,|sz|.|56|,|bb|68|allegro|barbaro|,|sz|.|49|,|bb|63	Mikrokosmos|,|Sz|.|107|,|bb|105|out|of|Doors|,|Sz|.|81|,|bb|89|romanian|folk|dance|,|sz|.|56|,|bb|68|Allegro|barbaro|,|sz|.|49|,|bb|63	NNP|,|NNP|.|CD|,|NN|CD|IN|IN|NNP|,|NNP|.|CD|,|NN|CD|JJ|NN|NNS|,|NN|.|CD|,|NN|CD|NNP|NN|,|NN|.|CD|,|NN|CD	O|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|NUMBER|MISC|MISC|MISC|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|NUMBER	||||107.0|||105.0|||||||81.0|||89.0|||||||56.0|||68.0||||||49.0|||63.0	0.107		105.0	Mikrokosmos|Sz. 107|BB 105|Out of Doors|Sz. 81|BB 89|Romanian Folk Dances|Sz. 56|BB 68|Allegro barbaro|Sz. 49|BB 63	fb:part.mikrokosmos|fb:part.sz_107|fb:part.bb_105|fb:part.out_of_doors|fb:part.sz_81|fb:part.bb_89|fb:part.romanian_folk_dances|fb:part.sz_56|fb:part.bb_68|fb:part.allegro_barbaro|fb:part.sz_49|fb:part.bb_63
+4	5	fb:cell.folksong_influenced_centric_modal_polymodal_polytonal	Folksong-influenced, Centric, Modal, Polymodal/Polytonal	folksong|influenced|,|centric|,|modal|,|polymodal\\/polytonal	Folksong|influence|,|Centric|,|Modal|,|Polymodal\\/Polytonal	NNP|VBD|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O	|||||||				Folksong-influenced|Centric|Modal|Polymodal|Polytonal	fb:part.folksong_influenced|fb:part.centric|fb:part.modal|fb:part.polymodal|fb:part.polytonal
+5	0	fb:cell.arnold_bax	Arnold Bax	arnold|bax	Arnold|bax	NNP|NN	PERSON|PERSON	|					
+5	1	fb:cell.1883	1883	1883	1883	CD	DATE	1883	1883.0	1883-xx-xx			
+5	2	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx			
+5	3	fb:cell.english	English	english	English	NNP	MISC					English	fb:part.english
+5	4	fb:cell.piano_sonata_no_1_1910_1917_1920_piano_sonata_no_2_1919_piano_sonata_in_e_flat_1921_piano_sonata_no_3_1926_piano_sonata_no_4_1932	Piano Sonata No. 1 (1910, 1917–1920)\nPiano Sonata No. 2 (1919)\nPiano Sonata in E-flat (1921)\nPiano Sonata No. 3 (1926)\nPiano Sonata No. 4 (1932)	piano|sonata|no.|1|-lrb-|1910|,|1917|--|1920|-rrb-|piano|sonata|no.|2|-lrb-|1919|-rrb-|piano|sonata|in|e|flat|-lrb-|1921|-rrb-|piano|sonata|no.|3|-lrb-|1926|-rrb-|piano|sonata|no.|4|-lrb-|1932|-rrb-	Piano|Sonata|no.|1|-lrb-|1910|,|1917|--|1920|-rrb-|Piano|Sonata|no.|2|-lrb-|1919|-rrb-|Piano|Sonata|in|E|flat|-lrb-|1921|-rrb-|Piano|Sonata|no.|3|-lrb-|1926|-rrb-|Piano|Sonata|no.|4|-lrb-|1932|-rrb-	NNP|NNP|NN|CD|-LRB-|CD|,|CD|:|CD|-RRB-|NNP|NNP|NN|CD|-LRB-|CD|-RRB-|NNP|NNP|IN|NNP|JJ|-LRB-|CD|-RRB-|NNP|NNP|NN|CD|-LRB-|CD|-RRB-|NNP|NNP|NN|CD|-LRB-|CD|-RRB-	O|O|O|NUMBER|O|DATE|DATE|DATE|DATE|DATE|O|O|O|O|NUMBER|O|DATE|O|O|O|O|O|O|O|DATE|O|O|O|O|NUMBER|O|DATE|O|O|O|O|NUMBER|O|DATE|O	|||1.0||1910|1910|1910|1910|1920|||||2.0||1919||||||||1921|||||3.0||1926|||||4.0||1932|	0.1		1.9101917E7	Piano Sonata No. 1 (1910|1917–1920)|Piano Sonata No. 2 (1919)|Piano Sonata in E-flat (1921)|Piano Sonata No. 3 (1926)|Piano Sonata No. 4 (1932)	fb:part.piano_sonata_no_1_1910|fb:part.1917_1920|fb:part.piano_sonata_no_2_1919|fb:part.piano_sonata_in_e_flat_1921|fb:part.piano_sonata_no_3_1926|fb:part.piano_sonata_no_4_1932
+5	5	fb:cell.romantic_impressionist	Romantic, Impressionist	romantic|,|impressionist	romantic|,|impressionist	JJ|,|JJ	O|O|O	||				Romantic|Impressionist	fb:part.romantic|fb:part.impressionist
+6	0	fb:cell.york_bowen	York Bowen	york|bowen	York|Bowen	NNP|NNP	PERSON|PERSON	|					
+6	1	fb:cell.1884	1884	1884	1884	NN	DATE	1884	1884.0	1884-xx-xx			
+6	2	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+6	3	fb:cell.english	English	english	English	NNP	MISC					English	fb:part.english
+6	4	fb:cell.null											fb:part.null
+6	5	fb:cell.romantic	Romantic	romantic	romantic	JJ	O					Romantic	fb:part.romantic
+7	0	fb:cell.frank_bridge	Frank Bridge	frank|bridge	Frank|Bridge	NNP|NNP	PERSON|PERSON	|					
+7	1	fb:cell.1879	1879	1879	1879	NNS	SET		1879.0				
+7	2	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx			
+7	3	fb:cell.english	English	english	English	NNP	MISC					English	fb:part.english
+7	4	fb:cell.null											fb:part.null
+7	5	fb:cell.late_romantic_hints_of_second_viennese_school	Late-Romantic, hints of Second Viennese School	late|romantic|,|hints|of|second|viennese|school	late|romantic|,|hint|of|second|Viennese|School	RB|JJ|,|NNS|IN|JJ|NNP|NNP	O|O|O|O|O|ORDINAL|O|O	|||||2.0||				Late-Romantic|hints of Second Viennese School	fb:part.late_romantic|fb:part.hints_of_second_viennese_school
+8	0	fb:cell.ferruccio_busoni	Ferruccio Busoni	ferruccio|busoni	Ferruccio|Busoni	NNP|NNP	PERSON|PERSON	|					
+8	1	fb:cell.1866	1866	1866	1866	NNP	DATE	1866	1866.0	1866-xx-xx			
+8	2	fb:cell.1924	1924	1924	1924	CD	DATE	1924	1924.0	1924-xx-xx			
+8	3	fb:cell.italian	Italian	italian	italian	JJ	MISC					Italian	fb:part.italian
+8	4	fb:cell.fantasia_contrappuntistica_1910	Fantasia contrappuntistica (1910)	fantasia|contrappuntistica|-lrb-|1910|-rrb-	Fantasia|contrappuntistica|-lrb-|1910|-rrb-	NNP|NN|-LRB-|CD|-RRB-	O|O|O|DATE|O	|||1910|	1910.0			Fantasia contrappuntistica (1910)	fb:part.fantasia_contrappuntistica_1910
+8	5	fb:cell.mature_works_of_indeterminate_key_late_in_career_neoclassical	Mature works of indeterminate key; Late in career, neoclassical	mature|works|of|indeterminate|key|;|late|in|career|,|neoclassical	mature|work|of|indeterminate|key|;|late|in|career|,|neoclassical	JJ|NNS|IN|JJ|NN|:|RB|IN|NN|,|JJ	O|O|O|O|O|O|O|O|O|O|O	||||||||||				Mature works of indeterminate key; Late in career|neoclassical	fb:part.mature_works_of_indeterminate_key_late_in_career|fb:part.neoclassical
+9	0	fb:cell.alfredo_casella	Alfredo Casella	alfredo|casella	Alfredo|Casella	NNP|NNP	PERSON|PERSON	|					
+9	1	fb:cell.1883	1883	1883	1883	CD	DATE	1883	1883.0	1883-xx-xx			
+9	2	fb:cell.1947	1947	1947	1947	CD	DATE	1947	1947.0	1947-xx-xx			
+9	3	fb:cell.italian	Italian	italian	italian	JJ	MISC					Italian	fb:part.italian
+9	4	fb:cell.null											fb:part.null
+9	5	fb:cell.null											fb:part.null
+10	0	fb:cell.cecile_chaminade	Cécile Chaminade	cécile|chaminade	Cécile|Chaminade	NNP|NNP	PERSON|PERSON	|					
+10	1	fb:cell.1857	1857	1857	1857	CD	DATE	1857	1857.0	1857-xx-xx			
+10	2	fb:cell.1944	1944	1944	1944	CD	DATE	1944	1944.0	1944-xx-xx			
+10	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+10	4	fb:cell.null											fb:part.null
+10	5	fb:cell.null											fb:part.null
+11	0	fb:cell.mikalojus_konstantinas_ciurlionis	Mikalojus Konstantinas Čiurlionis	mikalojus|konstantinas|čiurlionis	Mikalojus|Konstantinas|Čiurlionis	NNP|NNP|NNP	O|O|O	||					
+11	1	fb:cell.1875	1875	1875	1875	CD	DATE	1875	1875.0	1875-xx-xx			
+11	2	fb:cell.1911	1911	1911	1911	CD	DATE	1911	1911.0	1911-xx-xx			
+11	3	fb:cell.lithuanian	Lithuanian	lithuanian	lithuanian	JJ	MISC					Lithuanian	fb:part.lithuanian
+11	4	fb:cell.piano_sonata_in_f_major_nocturne_in_c_sharp_minor_nocturne_in_f_minor_impromptu_in_f_sharp_minor	Piano Sonata in F major\nNocturne in C-sharp minor\nNocturne in F minor\nImpromptu in F-sharp minor	piano|sonata|in|f|major|nocturne|in|c|sharp|minor|nocturne|in|f|minor|impromptu|in|f|sharp|minor	Piano|Sonata|in|f|major|Nocturne|in|C|sharp|minor|Nocturne|in|f|minor|Impromptu|in|f|sharp|minor	NNP|NNP|IN|NN|JJ|NNP|IN|NNP|JJ|JJ|NNP|IN|NN|JJ|NNP|IN|NN|JJ|JJ	O|O|O|O|O|O|O|O|O|O|O|O|O|O|MISC|O|O|O|O	||||||||||||||||||				Piano Sonata in F major|Nocturne in C-sharp minor|Nocturne in F minor|Impromptu in F-sharp minor	fb:part.piano_sonata_in_f_major|fb:part.nocturne_in_c_sharp_minor|fb:part.nocturne_in_f_minor|fb:part.impromptu_in_f_sharp_minor
+11	5	fb:cell.null											fb:part.null
+12	0	fb:cell.claude_debussy	Claude Debussy	claude|debussy	Claude|Debussy	NNP|NNP	PERSON|PERSON	|					
+12	1	fb:cell.1862	1862	1862	1862	CD	DATE	1862	1862.0	1862-xx-xx			
+12	2	fb:cell.1918	1918	1918	1918	CD	DATE	1918	1918.0	1918-xx-xx			
+12	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+12	4	fb:cell.etudes_l_136_preludes_l_117_and_l_123_suite_bergamasque_l_75_deux_arabesques_l_66	Études, L 136\nPréludes (L 117 and L 123)\nSuite bergamasque, L 75\nDeux arabesques, L 66	études|,|l|136|préludes|-lrb-|l|117|and|l|123|-rrb-|suite|bergamasque|,|l|75|deux|arabesques|,|l|66	Études|,|L|136|préludes|-lrb-|l|117|and|l|123|-rrb-|suite|bergamasque|,|l|75|Deux|arabesque|,|l|66	NNP|,|NNP|CD|NNS|-LRB-|NN|CD|CC|NN|CD|-RRB-|NN|NN|,|NN|CD|NNP|NNS|,|NN|CD	O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|MISC|O|O|O|NUMBER|O|O|O|O|NUMBER	|||136.0||||117.0|||123.0||||||75.0|||||66.0	136.0		117.0	Études|L 136|Préludes (L 117 and L 123)|Suite bergamasque|L 75|Deux arabesques|L 66	fb:part.etudes|fb:part.l_136|fb:part.preludes_l_117_and_l_123|fb:part.suite_bergamasque|fb:part.l_75|fb:part.deux_arabesques|fb:part.l_66
+12	5	fb:cell.impressionist	Impressionist	impressionist	impressionist	NN	O					Impressionist	fb:part.impressionist
+13	0	fb:cell.duke_ellington	Duke Ellington	duke|ellington	Duke|Ellington	NNP|NNP	PERSON|PERSON	|					
+13	1	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx			
+13	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+13	3	fb:cell.american	American	american	american	JJ	MISC					American	fb:part.american
+13	4	fb:cell.null											fb:part.null
+13	5	fb:cell.jazz	Jazz	jazz	jazz	NN	O					Jazz	fb:part.jazz
+14	0	fb:cell.samuil_feinberg	Samuil Feinberg	samuil|feinberg	Samuil|Feinberg	NNP|NNP	PERSON|PERSON	|					
+14	1	fb:cell.1890	1890	1890	1890	CD	DATE	1890	1890.0	1890-xx-xx			
+14	2	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+14	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+14	4	fb:cell.null											fb:part.null
+14	5	fb:cell.null											fb:part.null
+15	0	fb:cell.ossip_gabrilowitsch	Ossip Gabrilowitsch	ossip|gabrilowitsch	Ossip|Gabrilowitsch	NNP|NNP	PERSON|PERSON	|					
+15	1	fb:cell.1878	1878	1878	1878	CD	DATE	1878	1878.0	1878-xx-xx			
+15	2	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx			
+15	3	fb:cell.russian_american	Russian, American	russian|,|american	Russian|,|American	NNP|,|NNP	MISC|O|MISC	||				Russian|American	fb:part.russian|fb:part.american
+15	4	fb:cell.null											fb:part.null
+15	5	fb:cell.null											fb:part.null
+16	0	fb:cell.george_gershwin	George Gershwin	george|gershwin	George|Gershwin	NNP|NNP	PERSON|PERSON	|					
+16	1	fb:cell.1898	1898	1898	1898	CD	DATE	1898	1898.0	1898-xx-xx			
+16	2	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx			
+16	3	fb:cell.american	American	american	american	JJ	MISC					American	fb:part.american
+16	4	fb:cell.three_preludes_george_gershwin_s_songbook	Three Preludes\nGeorge Gershwin's Songbook	three|preludes|george|gershwin|'s|songbook	three|prelude|George|Gershwin|'s|songbook	CD|NNS|NNP|NNP|POS|NN	NUMBER|O|PERSON|PERSON|O|O	3.0|||||				Three Preludes|George Gershwin's Songbook	fb:part.three_preludes|fb:part.george_gershwin_s_songbook
+16	5	fb:cell.jazz_influenced	Jazz-influenced	jazz|influenced	jazz|influence	NN|VBD	O|O	|				Jazz-influenced	fb:part.jazz_influenced
+17	0	fb:cell.alberto_ginastera	Alberto Ginastera	alberto|ginastera	Alberto|Ginastera	NNP|NNP	PERSON|PERSON	|					
+17	1	fb:cell.1916	1916	1916	1916	CD	DATE	1916	1916.0	1916-xx-xx			
+17	2	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+17	3	fb:cell.argentine	Argentine	argentine	argentine	JJ	MISC					Argentine	fb:part.argentine
+17	4	fb:cell.null											fb:part.null
+17	5	fb:cell.earlier_works_often_integrate_argentine_folk_themes_later_works_increasingly_abstracted	Earlier works often integrate Argentine folk themes; later works increasingly abstracted	earlier|works|often|integrate|argentine|folk|themes|;|later|works|increasingly|abstracted	earlier|work|often|integrate|argentine|folk|theme|;|later|work|increasingly|abstracted	JJR|NNS|RB|VBP|JJ|NN|NNS|:|RB|VBZ|RB|JJ	O|O|O|O|MISC|O|O|O|O|O|O|O	|||||||||||				Earlier works often integrate Argentine folk themes; later works increasingly abstracted	fb:part.earlier_works_often_integrate_argentine_folk_themes_later_works_increasingly_abstracted
+18	0	fb:cell.alexander_glazunov	Alexander Glazunov	alexander|glazunov	Alexander|Glazunov	NNP|NNP	PERSON|PERSON	|					
+18	1	fb:cell.1865	1865	1865	1865	CD	DATE	1865	1865.0	1865-xx-xx			
+18	2	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx			
+18	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+18	4	fb:cell.null											fb:part.null
+18	5	fb:cell.romantic	Romantic	romantic	romantic	JJ	O					Romantic	fb:part.romantic
+19	0	fb:cell.leopold_godowsky	Leopold Godowsky	leopold|godowsky	Leopold|Godowsky	NNP|NNP	PERSON|PERSON	|					
+19	1	fb:cell.1870	1870	1870	1870	CD	DATE	1870	1870.0	1870-xx-xx			
+19	2	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+19	3	fb:cell.polish_american	Polish, American	polish|,|american	Polish|,|American	NNP|,|NNP	MISC|O|MISC	||				Polish|American	fb:part.polish|fb:part.american
+19	4	fb:cell.studies_on_chopin_s_etudes_1894_1914	Studies on Chopin's Études (1894–1914)	studies|on|chopin|'s|études|-lrb-|1894|--|1914|-rrb-	study|on|Chopin|'s|études|-lrb-|1894|--|1914|-rrb-	NNS|IN|NNP|POS|NNS|-LRB-|CD|:|CD|-RRB-	O|O|PERSON|O|O|O|DATE|DATE|DATE|O	||||||1894|1894|1914|	1894.0		1914.0	Studies on Chopin's Études (1894–1914)	fb:part.studies_on_chopin_s_etudes_1894_1914
+19	5	fb:cell.null											fb:part.null
+20	0	fb:cell.percy_grainger	Percy Grainger	percy|grainger	Percy|Grainger	NNP|NNP	PERSON|PERSON	|					
+20	1	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx			
+20	2	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+20	3	fb:cell.australian_english_american	Australian, English, American	australian|,|english|,|american	australian|,|English|,|American	JJ|,|NNP|,|NNP	MISC|O|MISC|O|MISC	||||				Australian|English|American	fb:part.australian|fb:part.english|fb:part.american
+20	4	fb:cell.null											fb:part.null
+20	5	fb:cell.null											fb:part.null
+21	0	fb:cell.enrique_granados	Enrique Granados	enrique|granados	Enrique|Granados	NNP|NNP	PERSON|PERSON	|					
+21	1	fb:cell.1867	1867	1867	1867	CD	DATE	1867	1867.0	1867-xx-xx			
+21	2	fb:cell.1916	1916	1916	1916	CD	DATE	1916	1916.0	1916-xx-xx			
+21	3	fb:cell.spanish	Spanish	spanish	spanish	JJ	MISC					Spanish	fb:part.spanish
+21	4	fb:cell.null											fb:part.null
+21	5	fb:cell.distinctly_spanish	Distinctly Spanish	distinctly|spanish	distinctly|spanish	RB|JJ	O|MISC	|				Distinctly Spanish	fb:part.distinctly_spanish
+22	0	fb:cell.scott_joplin	Scott Joplin	scott|joplin	Scott|Joplin	NNP|NNP	PERSON|PERSON	|					
+22	1	fb:cell.1867	1867	1867	1867	CD	DATE	1867	1867.0	1867-xx-xx			
+22	2	fb:cell.1917	1917	1917	1917	CD	DATE	1917	1917.0	1917-xx-xx			
+22	3	fb:cell.american	American	american	american	JJ	MISC					American	fb:part.american
+22	4	fb:cell.null											fb:part.null
+22	5	fb:cell.ragtime	Ragtime	ragtime	Ragtime	NNP	O					Ragtime	fb:part.ragtime
+23	0	fb:cell.dmitri_kabalevsky	Dmitri Kabalevsky	dmitri|kabalevsky	Dmitri|Kabalevsky	NNP|NNP	PERSON|PERSON	|					
+23	1	fb:cell.1904	1904	1904	1904	CD	DATE	1904	1904.0	1904-xx-xx			
+23	2	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+23	3	fb:cell.russian_soviet	Russian, Soviet	russian|,|soviet	Russian|,|Soviet	NNP|,|NNP	MISC|O|MISC	||				Russian|Soviet	fb:part.russian|fb:part.soviet
+23	4	fb:cell.null											fb:part.null
+23	5	fb:cell.null											fb:part.null
+24	0	fb:cell.aram_khachaturian	Aram Khachaturian	aram|khachaturian	Aram|Khachaturian	NNP|NNP	PERSON|PERSON	|					
+24	1	fb:cell.1903	1903	1903	1903	CD	DATE	1903	1903.0	1903-xx-xx			
+24	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+24	3	fb:cell.soviet_armenian	Soviet, Armenian	soviet|,|armenian	soviet|,|armenian	JJ|,|JJ	MISC|O|MISC	||				Soviet|Armenian	fb:part.soviet|fb:part.armenian
+24	4	fb:cell.null											fb:part.null
+24	5	fb:cell.null											fb:part.null
+25	0	fb:cell.viktor_kosenko	Viktor Kosenko	viktor|kosenko	Viktor|Kosenko	NNP|NNP	PERSON|PERSON	|					
+25	1	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx			
+25	2	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+25	3	fb:cell.ukrainian	Ukrainian	ukrainian	ukrainian	JJ	MISC					Ukrainian	fb:part.ukrainian
+25	4	fb:cell.null											fb:part.null
+25	5	fb:cell.null											fb:part.null
+26	0	fb:cell.joseph_lamb	Joseph Lamb	joseph|lamb	Joseph|Lamb	NNP|NNP	PERSON|PERSON	|					
+26	1	fb:cell.1887	1887	1887	1887	CD	DATE	1887	1887.0	1887-xx-xx			
+26	2	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+26	3	fb:cell.american	American	american	american	JJ	MISC					American	fb:part.american
+26	4	fb:cell.null											fb:part.null
+26	5	fb:cell.ragtime	Ragtime	ragtime	Ragtime	NNP	O					Ragtime	fb:part.ragtime
+27	0	fb:cell.constant_lambert	Constant Lambert	constant|lambert	constant|Lambert	JJ|NNP	O|PERSON	|					
+27	1	fb:cell.1905	1905	1905	1905	CD	DATE	1905	1905.0	1905-xx-xx			
+27	2	fb:cell.1951	1951	1951	1951	CD	DATE	1951	1951.0	1951-xx-xx			
+27	3	fb:cell.english	English	english	English	NNP	MISC					English	fb:part.english
+27	4	fb:cell.piano_sonata_1928_1929_suite_in_3_movements_1925_elegiac_blues_1927	Piano Sonata (1928–1929)\nSuite in 3 Movements (1925)\nElegiac Blues (1927)	piano|sonata|-lrb-|1928|--|1929|-rrb-|suite|in|3|movements|-lrb-|1925|-rrb-|elegiac|blues|-lrb-|1927|-rrb-	Piano|Sonata|-lrb-|1928|--|1929|-rrb-|Suite|in|3|movement|-lrb-|1925|-rrb-|Elegiac|Blues|-lrb-|1927|-rrb-	NNP|NNP|-LRB-|CD|:|CD|-RRB-|NNP|IN|CD|NNS|-LRB-|CD|-RRB-|NNP|NNP|-LRB-|CD|-RRB-	O|O|O|DATE|DATE|DATE|O|O|O|NUMBER|O|O|DATE|O|O|O|O|DATE|O	|||1928|1928|1929||||3.0|||1925|||||1927|	1928.0		1929.0	Piano Sonata (1928–1929)|Suite in 3 Movements (1925)|Elegiac Blues (1927)	fb:part.piano_sonata_1928_1929|fb:part.suite_in_3_movements_1925|fb:part.elegiac_blues_1927
+27	5	fb:cell.null											fb:part.null
+28	0	fb:cell.ernesto_lecuona	Ernesto Lecuona	ernesto|lecuona	Ernesto|Lecuona	NNP|NNP	PERSON|PERSON	|					
+28	1	fb:cell.1895	1895	1895	1895	CD	DATE	1895	1895.0	1895-xx-xx			
+28	2	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+28	3	fb:cell.cuban	Cuban	cuban	Cuban	NNP	MISC					Cuban	fb:part.cuban
+28	4	fb:cell.null											fb:part.null
+28	5	fb:cell.null											fb:part.null
+29	0	fb:cell.nikolai_medtner	Nikolai Medtner	nikolai|medtner	Nikolai|Medtner	NNP|NNP	PERSON|PERSON	|					
+29	1	fb:cell.1880	1880	1880	1880	NNP	DATE	1880	1880.0	1880-xx-xx			
+29	2	fb:cell.1951	1951	1951	1951	CD	DATE	1951	1951.0	1951-xx-xx			
+29	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+29	4	fb:cell.null											fb:part.null
+29	5	fb:cell.null											fb:part.null
+30	0	fb:cell.erkki_melartin	Erkki Melartin	erkki|melartin	Erkki|Melartin	NNP|NNP	PERSON|PERSON	|					
+30	1	fb:cell.1875	1875	1875	1875	CD	DATE	1875	1875.0	1875-xx-xx			
+30	2	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx			
+30	3	fb:cell.finnish	Finnish	finnish	finnish	JJ	MISC					Finnish	fb:part.finnish
+30	4	fb:cell.null											fb:part.null
+30	5	fb:cell.null											fb:part.null
+31	0	fb:cell.olivier_messiaen	Olivier Messiaen	olivier|messiaen	Olivier|Messiaen	NNP|NNP	PERSON|PERSON	|					
+31	1	fb:cell.1906	1906	1906	1906	CD	DATE	1906	1906.0	1906-xx-xx			
+31	2	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+31	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+31	4	fb:cell.vingt_regards_sur_l_enfant_jesus_1944_quatre_etudes_de_rythme_1949_1950_catalogue_d_oiseaux_1956_1958	Vingt regards sur l'enfant-Jésus (1944)\nQuatre études de rythme (1949–1950)\nCatalogue d'oiseaux (1956–1958)	vingt|regards|sur|l'enfant|jésus|-lrb-|1944|-rrb-|quatre|études|de|rythme|-lrb-|1949|--|1950|-rrb-|catalogue|d'oiseaux|-lrb-|1956|--|1958|-rrb-	Vingt|regard|sur|l'enfant|jésus|-lrb-|1944|-rrb-|Quatre|études|de|rythme|-lrb-|1949|--|1950|-rrb-|Catalogue|d'oiseaux|-lrb-|1956|--|1958|-rrb-	NNP|VBZ|NN|JJ|NN|-LRB-|CD|-RRB-|NNP|NNS|IN|NN|-LRB-|CD|:|CD|-RRB-|NNP|NN|-LRB-|CD|:|CD|-RRB-	O|O|O|O|O|O|DATE|O|O|O|O|O|O|DATE|DATE|DATE|O|O|O|O|DATE|DATE|DATE|O	||||||1944|||||||1949|1949|1950|||||1956|1956|1958|	1944.0		1949.0	Vingt regards sur l'enfant-Jésus (1944)|Quatre études de rythme (1949–1950)|Catalogue d'oiseaux (1956–1958)	fb:part.vingt_regards_sur_l_enfant_jesus_1944|fb:part.quatre_etudes_de_rythme_1949_1950|fb:part.catalogue_d_oiseaux_1956_1958
+31	5	fb:cell.null											fb:part.null
+32	0	fb:cell.federico_mompou	Federico Mompou	federico|mompou	Federico|Mompou	NNP|NNP	PERSON|PERSON	|					
+32	1	fb:cell.1893	1893	1893	1893	CD	DATE	1893	1893.0	1893-xx-xx			
+32	2	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+32	3	fb:cell.catalan_spanish	Catalan, Spanish	catalan|,|spanish	Catalan|,|Spanish	NNP|,|NNP	MISC|O|LOCATION	||				Catalan|Spanish	fb:part.catalan|fb:part.spanish
+32	4	fb:cell.null											fb:part.null
+32	5	fb:cell.null											fb:part.null
+33	0	fb:cell.thelonious_monk	Thelonious Monk	thelonious|monk	thelonious|monk	JJ|NN	O|O	|					
+33	1	fb:cell.1917	1917	1917	1917	CD	DATE	1917	1917.0	1917-xx-xx			
+33	2	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+33	3	fb:cell.american	American	american	american	JJ	MISC					American	fb:part.american
+33	4	fb:cell.null											fb:part.null
+33	5	fb:cell.jazz	Jazz	jazz	jazz	NN	O					Jazz	fb:part.jazz
+34	0	fb:cell.nikolai_myaskovsky	Nikolai Myaskovsky	nikolai|myaskovsky	Nikolai|Myaskovsky	NNP|NNP	PERSON|PERSON	|					
+34	1	fb:cell.1881	1881	1881	1881	CD	DATE	1881	1881.0	1881-xx-xx			
+34	2	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+34	3	fb:cell.russian_soviet	Russian, Soviet	russian|,|soviet	Russian|,|Soviet	NNP|,|NNP	MISC|O|MISC	||				Russian|Soviet	fb:part.russian|fb:part.soviet
+34	4	fb:cell.null											fb:part.null
+34	5	fb:cell.null											fb:part.null
+35	0	fb:cell.ernesto_nazareth	Ernesto Nazareth	ernesto|nazareth	Ernesto|Nazareth	NNP|NNP	PERSON|PERSON	|					
+35	1	fb:cell.1863	1863	1863	1863	CD	DATE	1863	1863.0	1863-xx-xx			
+35	2	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx			
+35	3	fb:cell.brazilian	Brazilian	brazilian	brazilian	JJ	MISC					Brazilian	fb:part.brazilian
+35	4	fb:cell.null											fb:part.null
+35	5	fb:cell.eclectic_influences_primarily_dance_music_tangos_waltzes_polkas_etc_influenced_by_african_and_argentine_styles	Eclectic influences; primarily dance music (tangos, waltzes, polkas, etc.), influenced by African and Argentine styles	eclectic|influences|;|primarily|dance|music|-lrb-|tangos|,|waltzes|,|polkas|,|etc.|-rrb-|,|influenced|by|african|and|argentine|styles	eclectic|influence|;|primarily|dance|music|-lrb-|tango|,|waltz|,|polka|,|etc.|-rrb-|,|influence|by|African|and|argentine|style	JJ|NNS|:|RB|NN|NN|-LRB-|NNS|,|NNS|,|NNS|,|FW|-RRB-|,|VBN|IN|NNP|CC|JJ|NNS	MISC|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|MISC|O|MISC|O	|||||||||||||||||||||				Eclectic influences; primarily dance music (tangos|waltzes|polkas|etc.)|influenced by African and Argentine styles	fb:part.eclectic_influences_primarily_dance_music_tangos|fb:part.waltzes|fb:part.polkas|fb:part.etc|fb:part.influenced_by_african_and_argentine_styles
+36	0	fb:cell.walter_niemann	Walter Niemann	walter|niemann	Walter|Niemann	NNP|NNP	PERSON|PERSON	|					
+36	1	fb:cell.1876	1876	1876	1876	CD	DATE	1876	1876.0	1876-xx-xx			
+36	2	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx			
+36	3	fb:cell.german	German	german	german	JJ	MISC					German	fb:part.german
+36	4	fb:cell.null											fb:part.null
+36	5	fb:cell.impressionist_and_exotic_influences	Impressionist and exotic influences	impressionist|and|exotic|influences	impressionist|and|exotic|influence	NN|CC|JJ|NNS	O|O|O|O	|||				Impressionist and exotic influences	fb:part.impressionist_and_exotic_influences
+37	0	fb:cell.ignacy_jan_paderewski	Ignacy Jan Paderewski	ignacy|jan|paderewski	Ignacy|Jan|Paderewski	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+37	1	fb:cell.1860	1860	1860	1860	CD	DATE	1860	1860.0	1860-xx-xx			
+37	2	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx			
+37	3	fb:cell.polish	Polish	polish	polish	JJ	MISC					Polish	fb:part.polish
+37	4	fb:cell.null											fb:part.null
+37	5	fb:cell.null											fb:part.null
+38	0	fb:cell.jacobo_palm	Jacobo Palm	jacobo|palm	Jacobo|Palm	NNP|NNP	PERSON|PERSON	|					
+38	1	fb:cell.1887	1887	1887	1887	CD	DATE	1887	1887.0	1887-xx-xx			
+38	2	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+38	3	fb:cell.curacao_born	Curaçao-born	curaçao|born	Curaçao|bear	NNP|VBN	O|O	|				Curaçao-born	fb:part.curacao_born
+38	4	fb:cell.null											fb:part.null
+38	5	fb:cell.null											fb:part.null
+39	0	fb:cell.john_palm	John Palm	john|palm	John|Palm	NNP|NNP	PERSON|PERSON	|					
+39	1	fb:cell.1885	1885	1885	1885	NNP	DATE	1885	1885.0	1885-xx-xx			
+39	2	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx			
+39	3	fb:cell.curacao_born	Curaçao-born	curaçao|born	Curaçao|bear	NNP|VBN	O|O	|				Curaçao-born	fb:part.curacao_born
+39	4	fb:cell.null											fb:part.null
+39	5	fb:cell.null											fb:part.null
+40	0	fb:cell.rudolph_palm	Rudolph Palm	rudolph|palm	Rudolph|Palm	NNP|NNP	PERSON|PERSON	|					
+40	1	fb:cell.1880	1880	1880	1880	NNP	DATE	1880	1880.0	1880-xx-xx			
+40	2	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+40	3	fb:cell.curacao_born	Curaçao-born	curaçao|born	Curaçao|bear	NNP|VBN	O|O	|				Curaçao-born	fb:part.curacao_born
+40	4	fb:cell.null											fb:part.null
+40	5	fb:cell.null											fb:part.null
+41	0	fb:cell.selim_palmgren	Selim Palmgren	selim|palmgren	Selim|Palmgren	NNP|NNP	PERSON|PERSON	|					
+41	1	fb:cell.1878	1878	1878	1878	CD	DATE	1878	1878.0	1878-xx-xx			
+41	2	fb:cell.1951	1951	1951	1951	CD	DATE	1951	1951.0	1951-xx-xx			
+41	3	fb:cell.finnish	Finnish	finnish	finnish	JJ	MISC					Finnish	fb:part.finnish
+41	4	fb:cell.null											fb:part.null
+41	5	fb:cell.null											fb:part.null
+42	0	fb:cell.isidor_philipp	Isidor Philipp	isidor|philipp	Isidor|Philipp	NNP|NNP	PERSON|PERSON	|					
+42	1	fb:cell.1863	1863	1863	1863	CD	DATE	1863	1863.0	1863-xx-xx			
+42	2	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+42	3	fb:cell.french_hungarian	French, Hungarian	french|,|hungarian	french|,|hungarian	JJ|,|JJ	MISC|O|MISC	||				French|Hungarian	fb:part.french|fb:part.hungarian
+42	4	fb:cell.null											fb:part.null
+42	5	fb:cell.null											fb:part.null
+43	0	fb:cell.francis_poulenc	Francis Poulenc	francis|poulenc	Francis|Poulenc	NNP|NNP	PERSON|PERSON	|					
+43	1	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx			
+43	2	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+43	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+43	4	fb:cell.null											fb:part.null
+43	5	fb:cell.null											fb:part.null
+44	0	fb:cell.sergei_prokofiev	Sergei Prokofiev	sergei|prokofiev	Sergei|Prokofiev	NNP|NNP	PERSON|PERSON	|					
+44	1	fb:cell.1891	1891	1891	1891	CD	DATE	1891	1891.0	1891-xx-xx			
+44	2	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx			
+44	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+44	4	fb:cell.sonata_no_6_in_a_major_op_82_1940_sonata_no_7_in_b_flat_major_op_83_1942_sonata_no_8_in_b_flat_major_op_84_1944_visions_fugitives_op_22_1915_1917_toccata_in_d_minor_op_11_1912	Sonata No. 6 in A major, Op. 82 (1940)\nSonata No. 7 in B-flat major, Op. 83 (1942)\nSonata No. 8 in B-flat major, Op. 84 (1944)\nVisions fugitives, Op. 22 (1915–1917)\nToccata in D minor, Op. 11 (1912)	sonata|no.|6|in|a|major|,|op.|82|-lrb-|1940|-rrb-|sonata|no.|7|in|b|flat|major|,|op.|83|-lrb-|1942|-rrb-|sonata|no.|8|in|b|flat|major|,|op.|84|-lrb-|1944|-rrb-|visions|fugitives|,|op.|22|-lrb-|1915|--|1917|-rrb-|toccata|in|d|minor|,|op.|11|-lrb-|1912|-rrb-	Sonata|No.|6|in|a|major|,|op.|82|-lrb-|1940|-rrb-|Sonata|no.|7|in|b|flat|major|,|op.|83|-lrb-|1942|-rrb-|Sonata|no.|8|in|b|flat|major|,|op.|84|-lrb-|1944|-rrb-|vision|fugitive|,|op.|22|-lrb-|1915|--|1917|-rrb-|Toccata|in|D|minor|,|op.|11|-lrb-|1912|-rrb-	NNP|NNP|CD|IN|DT|JJ|,|NN|CD|-LRB-|CD|-RRB-|NNP|NN|CD|IN|NN|JJ|JJ|,|NN|CD|-LRB-|CD|-RRB-|NNP|NN|CD|IN|NN|JJ|JJ|,|NN|CD|-LRB-|CD|-RRB-|NNS|NNS|,|NN|CD|-LRB-|CD|:|CD|-RRB-|NNP|IN|NNP|JJ|,|NN|CD|-LRB-|CD|-RRB-	O|O|NUMBER|O|O|O|O|O|NUMBER|O|DATE|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|DATE|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|DATE|O|MISC|O|O|O|NUMBER|O|DATE|DATE|DATE|O|O|O|O|O|O|O|NUMBER|O|DATE|O	||6.0||||||82.0||1940||||7.0|||||||83.0||1942||||8.0|||||||84.0||1944||||||22.0||1915|1915|1917||||||||11.0||1912|	0.6		0.82	Sonata No. 6 in A major|Op. 82 (1940)|Sonata No. 7 in B-flat major|Op. 83 (1942)|Sonata No. 8 in B-flat major|Op. 84 (1944)|Visions fugitives|Op. 22 (1915–1917)|Toccata in D minor|Op. 11 (1912)	fb:part.sonata_no_6_in_a_major|fb:part.op_82_1940|fb:part.sonata_no_7_in_b_flat_major|fb:part.op_83_1942|fb:part.sonata_no_8_in_b_flat_major|fb:part.op_84_1944|fb:part.visions_fugitives|fb:part.op_22_1915_1917|fb:part.toccata_in_d_minor|fb:part.op_11_1912
+44	5	fb:cell.null											fb:part.null
+45	0	fb:cell.sergei_rachmaninoff	Sergei Rachmaninoff	sergei|rachmaninoff	Sergei|Rachmaninoff	NNP|NNP	PERSON|PERSON	|					
+45	1	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx			
+45	2	fb:cell.1943	1943	1943	1943	CD	DATE	1943	1943.0	1943-xx-xx			
+45	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+45	4	fb:cell.null											fb:part.null
+45	5	fb:cell.romantic	Romantic	romantic	romantic	JJ	O					Romantic	fb:part.romantic
+46	0	fb:cell.maurice_ravel	Maurice Ravel	maurice|ravel	Maurice|Ravel	NNP|NNP	PERSON|PERSON	|					
+46	1	fb:cell.1875	1875	1875	1875	CD	DATE	1875	1875.0	1875-xx-xx			
+46	2	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx			
+46	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+46	4	fb:cell.gaspard_de_la_nuit_1908_le_tombeau_de_couperin_1914_1917_jeux_d_eau_1901	Gaspard de la nuit (1908)\nLe tombeau de Couperin (1914–1917)\nJeux d'eau (1901)	gaspard|de|la|nuit|-lrb-|1908|-rrb-|le|tombeau|de|couperin|-lrb-|1914|--|1917|-rrb-|jeux|d'eau|-lrb-|1901|-rrb-	Gaspard|de|la|nuit|-lrb-|1908|-rrb-|Le|tombeau|de|Couperin|-lrb-|1914|--|1917|-rrb-|Jeux|d'eau|-lrb-|1901|-rrb-	NNP|FW|FW|FW|-LRB-|CD|-RRB-|NNP|FW|FW|NNP|-LRB-|CD|:|CD|-RRB-|NNP|NNP|-LRB-|CD|-RRB-	PERSON|O|O|O|O|DATE|O|PERSON|PERSON|PERSON|PERSON|O|DATE|DATE|DATE|O|PERSON|O|O|DATE|O	|||||1908|||||||1914|1914|1917|||||1901|	1908.0		1914.0	Gaspard de la nuit (1908)|Le tombeau de Couperin (1914–1917)|Jeux d'eau (1901)	fb:part.gaspard_de_la_nuit_1908|fb:part.le_tombeau_de_couperin_1914_1917|fb:part.jeux_d_eau_1901
+46	5	fb:cell.impressionist_sometimes_jazz_influenced	Impressionist; sometimes jazz-influenced	impressionist|;|sometimes|jazz|influenced	impressionist|;|sometimes|jazz|influence	NN|:|RB|NN|VBD	O|O|O|O|O	||||				Impressionist; sometimes jazz-influenced	fb:part.impressionist_sometimes_jazz_influenced
+47	0	fb:cell.vladimir_rebikov	Vladimir Rebikov	vladimir|rebikov	Vladimir|Rebikov	NNP|NNP	PERSON|PERSON	|					
+47	1	fb:cell.1866	1866	1866	1866	NNP	DATE	1866	1866.0	1866-xx-xx			
+47	2	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx			
+47	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+47	4	fb:cell.null											fb:part.null
+47	5	fb:cell.impressionist_romantic	Impressionist, Romantic	impressionist|,|romantic	impressionist|,|romantic	NN|,|JJ	O|O|O	||				Impressionist|Romantic	fb:part.impressionist|fb:part.romantic
+48	0	fb:cell.emmanuel_rhene_baton	Emmanuel Rhené-Baton	emmanuel|rhené|baton	Emmanuel|Rhené|Baton	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+48	1	fb:cell.1879	1879	1879	1879	NNS	SET		1879.0				
+48	2	fb:cell.1940	1940	1940	1940	CD	DATE	1940	1940.0	1940-xx-xx			
+48	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+48	4	fb:cell.null											fb:part.null
+48	5	fb:cell.null											fb:part.null
+49	0	fb:cell.jean_roger_ducasse	Jean Roger-Ducasse	jean|roger|ducasse	Jean|Roger|Ducasse	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+49	1	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx			
+49	2	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+49	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+49	4	fb:cell.null											fb:part.null
+49	5	fb:cell.null											fb:part.null
+50	0	fb:cell.erik_satie	Erik Satie	erik|satie	Erik|Satie	NNP|NNP	PERSON|PERSON	|					
+50	1	fb:cell.1866	1866	1866	1866	NNP	DATE	1866	1866.0	1866-xx-xx			
+50	2	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx			
+50	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+50	4	fb:cell.null											fb:part.null
+50	5	fb:cell.impressionist_minimalist_precursor	Impressionist; Minimalist (precursor)	impressionist|;|minimalist|-lrb-|precursor|-rrb-	impressionist|;|Minimalist|-lrb-|precursor|-rrb-	NN|:|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Impressionist; Minimalist (precursor)	fb:part.impressionist_minimalist_precursor
+51	0	fb:cell.ahmed_adnan_saygun	Ahmed Adnan Saygun	ahmed|adnan|saygun	Ahmed|Adnan|Saygun	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+51	1	fb:cell.1907	1907	1907	1907	CD	DATE	1907	1907.0	1907-xx-xx			
+51	2	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+51	3	fb:cell.turkish	Turkish	turkish	turkish	JJ	MISC					Turkish	fb:part.turkish
+51	4	fb:cell.null											fb:part.null
+51	5	fb:cell.neoclassical_traditional_turkish_folksong_influence	Neoclassical, traditional Turkish folksong influence	neoclassical|,|traditional|turkish|folksong|influence	neoclassical|,|traditional|turkish|folksong|influence	JJ|,|JJ|JJ|JJ|NN	O|O|O|MISC|O|O	|||||				Neoclassical|traditional Turkish folksong influence	fb:part.neoclassical|fb:part.traditional_turkish_folksong_influence
+52	0	fb:cell.florent_schmitt	Florent Schmitt	florent|schmitt	Florent|Schmitt	NNP|NNP	PERSON|PERSON	|					
+52	1	fb:cell.1870	1870	1870	1870	CD	DATE	1870	1870.0	1870-xx-xx			
+52	2	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+52	3	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+52	4	fb:cell.null											fb:part.null
+52	5	fb:cell.impressionist_late_romantic	Impressionist, Late-Romantic	impressionist|,|late|romantic	impressionist|,|late|romantic	NN|,|JJ|JJ	O|O|O|O	|||				Impressionist|Late-Romantic	fb:part.impressionist|fb:part.late_romantic
+53	0	fb:cell.arnold_schoenberg	Arnold Schoenberg	arnold|schoenberg	Arnold|Schoenberg	NNP|NNP	PERSON|PERSON	|					
+53	1	fb:cell.1874	1874	1874	1874	CD	DATE	1874	1874.0	1874-xx-xx			
+53	2	fb:cell.1951	1951	1951	1951	CD	DATE	1951	1951.0	1951-xx-xx			
+53	3	fb:cell.austrian_american	Austrian, American	austrian|,|american	austrian|,|american	JJ|,|JJ	MISC|O|MISC	||				Austrian|American	fb:part.austrian|fb:part.american
+53	4	fb:cell.drei_klavierstucke_op_11_funf_klavierstucke_op_23_sechs_kleine_klavierstucke_op_19_suite_fur_klavier_op_25	Drei Klavierstücke, Op. 11\nFünf Klavierstücke, Op. 23\nSechs Kleine Klavierstücke, Op. 19\nSuite für Klavier, Op. 25	drei|klavierstücke|,|op.|11|fünf|klavierstücke|,|op.|23|sechs|kleine|klavierstücke|,|op.|19|suite|für|klavier|,|op.|25	Drei|Klavierstücke|,|Op.|11|Fünf|Klavierstücke|,|Op.|23|Sechs|Kleine|Klavierstücke|,|Op.|19|suite|für|Klavier|,|Op.|25	NNP|NNP|,|NNP|CD|NNP|NNP|,|NNP|CD|NNP|NNP|NNP|,|NNP|CD|NN|NN|NNP|,|NNP|CD	PERSON|PERSON|O|O|NUMBER|O|O|O|O|NUMBER|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|NUMBER|O|O|O|O|O|NUMBER	||||11.0|||||23.0||||||19.0||||||25.0	0.11		0.23	Drei Klavierstücke|Op. 11|Fünf Klavierstücke|Op. 23|Sechs Kleine Klavierstücke|Op. 19|Suite für Klavier|Op. 25	fb:part.drei_klavierstucke|fb:part.op_11|fb:part.funf_klavierstucke|fb:part.op_23|fb:part.sechs_kleine_klavierstucke|fb:part.op_19|fb:part.suite_fur_klavier|fb:part.op_25
+53	5	fb:cell.serial_mature_late_career_late_romantic_early_career	Serial (mature/late career), Late-Romantic (early career)	serial|-lrb-|mature\\/late|career|-rrb-|,|late|romantic|-lrb-|early|career|-rrb-	serial|-lrb-|mature\\/late|career|-rrb-|,|late|romantic|-lrb-|early|career|-rrb-	JJ|-LRB-|JJ|NN|-RRB-|,|JJ|JJ|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Serial (mature|late career)|Late-Romantic (early career)	fb:part.serial_mature|fb:part.late_career|fb:part.late_romantic_early_career
+54	0	fb:cell.james_scott	James Scott	james|scott	James|Scott	NNP|NNP	PERSON|PERSON	|					
+54	1	fb:cell.1885	1885	1885	1885	NNP	DATE	1885	1885.0	1885-xx-xx			
+54	2	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+54	3	fb:cell.american_african_american	American, African-American	american|,|african|american	American|,|African|American	NNP|,|NNP|NNP	MISC|O|MISC|MISC	|||				American|African-American	fb:part.american|fb:part.african_american
+54	4	fb:cell.null											fb:part.null
+54	5	fb:cell.ragtime	Ragtime	ragtime	Ragtime	NNP	O					Ragtime	fb:part.ragtime
+55	0	fb:cell.alexander_scriabin	Alexander Scriabin	alexander|scriabin	Alexander|Scriabin	NNP|NNP	PERSON|PERSON	|					
+55	1	fb:cell.1872	1872	1872	1872	CD	DATE	1872	1872.0	1872-xx-xx			
+55	2	fb:cell.1915	1915	1915	1915	CD	DATE	1915	1915.0	1915-xx-xx			
+55	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+55	4	fb:cell.10_piano_sonatas	10 piano sonatas	10|piano|sonatas	10|piano|sonata	CD|NN|NNS	NUMBER|O|O	10.0||	10.0			10 piano sonatas	fb:part.10_piano_sonatas
+55	5	fb:cell.late_romantic_early_atonal_mystical_mature	Late-Romantic (early); Atonal, Mystical (mature)	late|romantic|-lrb-|early|-rrb-|;|atonal|,|mystical|-lrb-|mature|-rrb-	late|romantic|-lrb-|early|-rrb-|;|Atonal|,|mystical|-lrb-|mature|-rrb-	RB|JJ|-LRB-|JJ|-RRB-|:|NNP|,|JJ|-LRB-|JJ|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Late-Romantic (early); Atonal|Mystical (mature)	fb:part.late_romantic_early_atonal|fb:part.mystical_mature
+56	0	fb:cell.dmitri_shostakovich	Dmitri Shostakovich	dmitri|shostakovich	Dmitri|Shostakovich	NNP|NNP	PERSON|PERSON	|					
+56	1	fb:cell.1906	1906	1906	1906	CD	DATE	1906	1906.0	1906-xx-xx			
+56	2	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+56	3	fb:cell.russian_soviet	Russian, Soviet	russian|,|soviet	Russian|,|Soviet	NNP|,|NNP	MISC|O|MISC	||				Russian|Soviet	fb:part.russian|fb:part.soviet
+56	4	fb:cell.piano_sonata_no_1_op_12_1926_24_preludes_op_34_1932_1933_piano_sonata_no_2_in_b_minor_op_61_1943_24_preludes_and_fugues_op_87_1950_1951	Piano Sonata No. 1, Op. 12 (1926)\n24 Preludes, Op. 34 (1932–1933)\nPiano Sonata No. 2 in B minor, Op. 61 (1943)\n24 Preludes and Fugues, Op. 87 (1950–1951)	piano|sonata|no.|1|,|op.|12|-lrb-|1926|-rrb-|24|preludes|,|op.|34|-lrb-|1932|--|1933|-rrb-|piano|sonata|no.|2|in|b|minor|,|op.|61|-lrb-|1943|-rrb-|24|preludes|and|fugues|,|op.|87|-lrb-|1950|--|1951|-rrb-	Piano|Sonata|no.|1|,|op.|12|-lrb-|1926|-rrb-|24|prelude|,|op.|34|-lrb-|1932|--|1933|-rrb-|Piano|Sonata|no.|2|in|b|minor|,|op.|61|-lrb-|1943|-rrb-|24|prelude|and|fugue|,|op.|87|-lrb-|1950|--|1951|-rrb-	NNP|NNP|NN|CD|,|RB|CD|-LRB-|CD|-RRB-|CD|NNS|,|NN|CD|-LRB-|CD|:|CD|-RRB-|NNP|NNP|NN|CD|IN|NN|JJ|,|NN|CD|-LRB-|CD|-RRB-|CD|NNS|CC|NNS|,|NN|CD|-LRB-|CD|:|CD|-RRB-	O|O|O|NUMBER|O|O|NUMBER|O|DATE|O|NUMBER|O|O|O|NUMBER|O|DATE|DATE|DATE|O|O|O|O|NUMBER|O|O|O|O|O|NUMBER|O|DATE|O|NUMBER|O|O|O|O|O|NUMBER|O|DATE|DATE|DATE|O	|||1.0|||12.0||1926||24.0||||34.0||1932|1932|1933|||||2.0||||||61.0||1943||24.0||||||87.0||1950|1950|1951|	0.1		0.12	Piano Sonata No. 1|Op. 12 (1926)|24 Preludes|Op. 34 (1932–1933)|Piano Sonata No. 2 in B minor|Op. 61 (1943)|24 Preludes and Fugues|Op. 87 (1950–1951)	fb:part.piano_sonata_no_1|fb:part.op_12_1926|fb:part.24_preludes|fb:part.op_34_1932_1933|fb:part.piano_sonata_no_2_in_b_minor|fb:part.op_61_1943|fb:part.24_preludes_and_fugues|fb:part.op_87_1950_1951
+56	5	fb:cell.post_romantic_neoclassical_elements_of_grotesque	Post-Romantic; neoclassical; elements of grotesque	post|romantic|;|neoclassical|;|elements|of|grotesque	Post|romantic|;|neoclassical|;|element|of|grotesque	NNP|JJ|:|JJ|:|NNS|IN|JJ	O|O|O|O|O|O|O|O	|||||||				Post-Romantic; neoclassical; elements of grotesque	fb:part.post_romantic_neoclassical_elements_of_grotesque
+57	0	fb:cell.jean_sibelius	Jean Sibelius	jean|sibelius	Jean|Sibelius	NNP|NNP	PERSON|PERSON	|					
+57	1	fb:cell.1865	1865	1865	1865	CD	DATE	1865	1865.0	1865-xx-xx			
+57	2	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+57	3	fb:cell.finnish	Finnish	finnish	finnish	JJ	MISC					Finnish	fb:part.finnish
+57	4	fb:cell.sonata_in_f_major_op_12_three_sonatinas_op_67	Sonata in F major, Op. 12\nThree Sonatinas, Op. 67	sonata|in|f|major|,|op.|12|three|sonatinas|,|op.|67	Sonata|in|f|major|,|op.|12|three|Sonatinas|,|Op.|67	NNP|IN|NN|JJ|,|NN|CD|CD|NNP|,|NNP|CD	O|O|O|O|O|O|NUMBER|NUMBER|O|O|O|NUMBER	||||||12.0|12.0||||67.0	0.12		0.67	Sonata in F major|Op. 12|Three Sonatinas|Op. 67	fb:part.sonata_in_f_major|fb:part.op_12|fb:part.three_sonatinas|fb:part.op_67
+57	5	fb:cell.late_romantic_post_romantic	Late-Romantic; post-Romantic	late|romantic|;|post|romantic	late|romantic|;|post|romantic	RB|JJ|:|NN|JJ	O|O|O|O|O	||||				Late-Romantic; post-Romantic	fb:part.late_romantic_post_romantic
+58	0	fb:cell.kaikhosru_shapurji_sorabji	Kaikhosru Shapurji Sorabji	kaikhosru|shapurji|sorabji	Kaikhosru|Shapurji|Sorabji	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+58	1	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx			
+58	2	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+58	3	fb:cell.english	English	english	English	NNP	MISC					English	fb:part.english
+58	4	fb:cell.opus_clavicembalisticum_etudes_transcendantes_100_sequentia_cyclica_super_dies_irae_ex_missa_pro_defunctis_piano_symphony_no_2_gulistan_nocturne_for_piano	Opus clavicembalisticum\nÉtudes transcendantes (100)\nSequentia cyclica super "Dies irae" ex Missa pro defunctis\nPiano Symphony No. 2\n"Gulistān"—Nocturne for Piano	opus|clavicembalisticum|études|transcendantes|-lrb-|100|-rrb-|sequentia|cyclica|super|``|dies|irae|''|ex|missa|pro|defunctis|piano|symphony|no.|2|``|gulistān|''|--|nocturne|for|piano	Opus|clavicembalisticum|études|transcendante|-lrb-|100|-rrb-|Sequentia|cyclica|super|``|die|irae|''|ex|missa|pro|defunctis|Piano|Symphony|no.|2|``|gulistān|''|--|Nocturne|for|Piano	NNP|NN|NNS|NNS|-LRB-|CD|-RRB-|NNP|NN|JJ|``|VBZ|JJ|''|FW|FW|FW|FW|NNP|NNP|NN|CD|``|NN|''|:|NNP|IN|NNP	O|O|O|O|O|NUMBER|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O	|||||100.0||||||||||||||||2.0|||||||	100.0		0.2	Opus clavicembalisticum|Études transcendantes (100)|Sequentia cyclica super "Dies irae" ex Missa pro defunctis|Piano Symphony No. 2|"Gulistān"—Nocturne for Piano	fb:part.opus_clavicembalisticum|fb:part.etudes_transcendantes_100|fb:part.sequentia_cyclica_super_dies_irae_ex_missa_pro_defunctis|fb:part.piano_symphony_no_2|fb:part._gulistan_nocturne_for_piano
+58	5	fb:cell.neoclassical_neoromantic_postimpressionistic	Neoclassical, neoromantic, postimpressionistic	neoclassical|,|neoromantic|,|postimpressionistic	neoclassical|,|neoromantic|,|postimpressionistic	JJ|,|JJ|,|JJ	O|O|O|O|O	||||				Neoclassical|neoromantic|postimpressionistic	fb:part.neoclassical|fb:part.neoromantic|fb:part.postimpressionistic
+59	0	fb:cell.alexei_stanchinsky	Alexei Stanchinsky	alexei|stanchinsky	Alexei|Stanchinsky	NNP|NNP	PERSON|PERSON	|					
+59	1	fb:cell.1888	1888	1888	1888	CD	DATE	1888	1888.0	1888-xx-xx			
+59	2	fb:cell.1914	1914	1914	1914	CD	DATE	1914	1914.0	1914-xx-xx			
+59	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+59	4	fb:cell.null											fb:part.null
+59	5	fb:cell.post_romantic_modal	Post-Romantic, modal	post|romantic|,|modal	Post|romantic|,|modal	NNP|JJ|,|JJ	O|O|O|O	|||				Post-Romantic|modal	fb:part.post_romantic|fb:part.modal
+60	0	fb:cell.wilhelm_stenhammar	Wilhelm Stenhammar	wilhelm|stenhammar	Wilhelm|Stenhammar	NNP|NNP	PERSON|PERSON	|					
+60	1	fb:cell.1871	1871	1871	1871	CD	DATE	1871	1871.0	1871-xx-xx			
+60	2	fb:cell.1927	1927	1927	1927	CD	DATE	1927	1927.0	1927-xx-xx			
+60	3	fb:cell.swedish	Swedish	swedish	Swedish	NNP	MISC					Swedish	fb:part.swedish
+60	4	fb:cell.null											fb:part.null
+60	5	fb:cell.null											fb:part.null
+61	0	fb:cell.richard_strauss	Richard Strauss	richard|strauss	Richard|Strauss	NNP|NNP	PERSON|PERSON	|					
+61	1	fb:cell.1864	1864	1864	1864	CD	DATE	1864	1864.0	1864-xx-xx			
+61	2	fb:cell.1949	1949	1949	1949	CD	DATE	1949	1949.0	1949-xx-xx			
+61	3	fb:cell.german	German	german	german	JJ	MISC					German	fb:part.german
+61	4	fb:cell.null											fb:part.null
+61	5	fb:cell.null											fb:part.null
+62	0	fb:cell.igor_stravinsky	Igor Stravinsky	igor|stravinsky	Igor|Stravinsky	NNP|NNP	PERSON|PERSON	|					
+62	1	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx			
+62	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+62	3	fb:cell.russian_french_american	Russian, French, American	russian|,|french|,|american	Russian|,|French|,|American	NNP|,|NNP|,|NNP	MISC|O|MISC|O|MISC	||||				Russian|French|American	fb:part.russian|fb:part.french|fb:part.american
+62	4	fb:cell.piano_sonata_in_f_sharp_minor_quatre_etudes_op_7_piano_rag_music_trois_mouvements_de_petrouchka	Piano Sonata in F-sharp minor\nQuatre études, Op. 7\nPiano-Rag-Music\nTrois mouvements de Petrouchka	piano|sonata|in|f|sharp|minor|quatre|études|,|op.|7|piano|rag|music|trois|mouvements|de|petrouchka	Piano|Sonata|in|f|sharp|minor|Quatre|études|,|op.|7|Piano|Rag|Music|Trois|mouvements|de|Petrouchka	NNP|NNP|IN|NN|JJ|JJ|NNP|NNS|,|NN|CD|NNP|NNP|NNP|NNP|NNP|IN|NNP	O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O	||||||||||7.0|||||||	0.7			Piano Sonata in F-sharp minor|Quatre études|Op. 7|Piano-Rag-Music|Trois mouvements de Petrouchka	fb:part.piano_sonata_in_f_sharp_minor|fb:part.quatre_etudes|fb:part.op_7|fb:part.piano_rag_music|fb:part.trois_mouvements_de_petrouchka
+62	5	fb:cell.post_romantic_early_neoclassical_middle_serial_late_career	Post-Romantic (early); Neoclassical (middle); Serial (late career)	post|romantic|-lrb-|early|-rrb-|;|neoclassical|-lrb-|middle|-rrb-|;|serial|-lrb-|late|career|-rrb-	Post|romantic|-lrb-|early|-rrb-|;|neoclassical|-lrb-|middle|-rrb-|;|serial|-lrb-|late|career|-rrb-	NNP|JJ|-LRB-|JJ|-RRB-|:|JJ|-LRB-|JJ|-RRB-|:|JJ|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				Post-Romantic (early); Neoclassical (middle); Serial (late career)	fb:part.post_romantic_early_neoclassical_middle_serial_late_career
+63	0	fb:cell.soulima_stravinsky	Soulima Stravinsky	soulima|stravinsky	Soulima|Stravinsky	NNP|NNP	PERSON|PERSON	|					
+63	1	fb:cell.1910	1910	1910	1910	CD	DATE	1910	1910.0	1910-xx-xx			
+63	2	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+63	3	fb:cell.swiss_american	Swiss, American	swiss|,|american	swiss|,|american	JJ|,|JJ	MISC|O|MISC	||				Swiss|American	fb:part.swiss|fb:part.american
+63	4	fb:cell.null											fb:part.null
+63	5	fb:cell.null											fb:part.null
+64	0	fb:cell.toru_takemitsu	Tōru Takemitsu	tōru|takemitsu	Tōru|Takemitsu	NNP|NNP	PERSON|PERSON	|					
+64	1	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx			
+64	2	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+64	3	fb:cell.japanese	Japanese	japanese	japanese	JJ	MISC					Japanese	fb:part.japanese
+64	4	fb:cell.null											fb:part.null
+64	5	fb:cell.eclectic_with_influences_ranging_from_jazz_popular_music_avant_garde_procedures_and_traditional_japanese_music_strongly_influenced_by_debussy_and_messiaen	Eclectic, with influences ranging from jazz, popular music, avant-garde procedures, and traditional Japanese music; strongly influenced by Debussy and Messiaen	eclectic|,|with|influences|ranging|from|jazz|,|popular|music|,|avant|garde|procedures|,|and|traditional|japanese|music|;|strongly|influenced|by|debussy|and|messiaen	eclectic|,|with|influence|range|from|jazz|,|popular|music|,|avant|garde|procedure|,|and|traditional|japanese|music|;|strongly|influence|by|Debussy|and|Messiaen	JJ|,|IN|NNS|VBG|IN|NN|,|JJ|NN|,|JJ|NN|NNS|,|CC|JJ|JJ|NN|:|RB|VBN|IN|NNP|CC|NNP	MISC|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|MISC|O|O|O|O|O|PERSON|O|PERSON	|||||||||||||||||||||||||				Eclectic|with influences ranging from jazz|popular music|avant-garde procedures|and traditional Japanese music; strongly influenced by Debussy and Messiaen	fb:part.eclectic|fb:part.with_influences_ranging_from_jazz|fb:part.popular_music|fb:part.avant_garde_procedures|fb:part.and_traditional_japanese_music_strongly_influenced_by_debussy_and_messiaen
+65	0	fb:cell.joaquin_turina	Joaquin Turina	joaquin|turina	Joaquin|Turina	NNP|NNP	PERSON|PERSON	|					
+65	1	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx			
+65	2	fb:cell.1949	1949	1949	1949	CD	DATE	1949	1949.0	1949-xx-xx			
+65	3	fb:cell.spanish	Spanish	spanish	spanish	JJ	MISC					Spanish	fb:part.spanish
+65	4	fb:cell.null											fb:part.null
+65	5	fb:cell.null											fb:part.null
+66	0	fb:cell.galina_ustvolskaya	Galina Ustvolskaya	galina|ustvolskaya	Galina|Ustvolskaya	NNP|NNP	PERSON|PERSON	|					
+66	1	fb:cell.1919	1919	1919	1919	CD	DATE	1919	1919.0	1919-xx-xx			
+66	2	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+66	3	fb:cell.russian	Russian	russian	russian	JJ	MISC					Russian	fb:part.russian
+66	4	fb:cell.null											fb:part.null
+66	5	fb:cell.eclectic	Eclectic	eclectic	eclectic	JJ	MISC					Eclectic	fb:part.eclectic
+67	0	fb:cell.heitor_villa_lobos	Heitor Villa-Lobos	heitor|villa|lobos	Heitor|Villa|Lobos	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+67	1	fb:cell.1887	1887	1887	1887	CD	DATE	1887	1887.0	1887-xx-xx			
+67	2	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx			
+67	3	fb:cell.brazilian	Brazilian	brazilian	brazilian	JJ	MISC					Brazilian	fb:part.brazilian
+67	4	fb:cell.bachianas_brasileiras_no_4_rudepoema_1921_1926	Bachianas Brasileiras No. 4\nRudepoêma (1921–1926)	bachianas|brasileiras|no.|4|rudepoêma|-lrb-|1921|--|1926|-rrb-	Bachianas|Brasileiras|no.|4|rudepoêma|-lrb-|1921|--|1926|-rrb-	NNP|NNP|NN|CD|NN|-LRB-|CD|:|CD|-RRB-	O|O|O|NUMBER|O|O|DATE|DATE|DATE|O	|||4.0|||1921|1921|1926|	0.4		1921.0	Bachianas Brasileiras No. 4|Rudepoêma (1921–1926)	fb:part.bachianas_brasileiras_no_4|fb:part.rudepoema_1921_1926
+67	5	fb:cell.null											fb:part.null
+68	0	fb:cell.angel_villoldo	Ángel Villoldo	ángel|villoldo	Ángel|Villoldo	NNP|NNP	PERSON|PERSON	|					
+68	1	fb:cell.1861	1861	1861	1861	CD	DATE	1861	1861.0	1861-xx-xx			
+68	2	fb:cell.1919	1919	1919	1919	CD	DATE	1919	1919.0	1919-xx-xx			
+68	3	fb:cell.argentine	Argentine	argentine	argentine	JJ	MISC					Argentine	fb:part.argentine
+68	4	fb:cell.null											fb:part.null
+68	5	fb:cell.tango	Tango	tango	Tango	NNP	O					Tango	fb:part.tango
+69	0	fb:cell.pancho_vladigerov	Pancho Vladigerov	pancho|vladigerov	Pancho|Vladigerov	NNP|NNP	PERSON|PERSON	|					
+69	1	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx			
+69	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+69	3	fb:cell.bulgarian	Bulgarian	bulgarian	bulgarian	JJ	MISC					Bulgarian	fb:part.bulgarian
+69	4	fb:cell.null											fb:part.null
+69	5	fb:cell.null											fb:part.null

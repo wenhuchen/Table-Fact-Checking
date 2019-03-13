@@ -1,0 +1,113 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	3	fb:row.row.rank	Rank#	rank|#	Rank|#	NNP|#	O|O	|					
+-1	4	fb:row.row.site	Site	site	site	NN	O						
+-1	5	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	6	fb:row.row.result	Result	result	result	NN	O						
+-1	7	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.august_31	August 31	august|31	August|31	NNP|CD	DATE|DATE	XXXX-08-31|XXXX-08-31	31.0	xxxx-08-31			
+0	1	fb:cell.6_00_pm	6:00 PM	6:00|pm	6:00|pm	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+0	2	fb:cell.at_13_michigan_state	at #13 Michigan State*	at|#|13|michigan|state|\\*	at|#|13|Michigan|State|\\*	IN|#|CD|NNP|NNP|SYM	O|MONEY|MONEY|LOCATION|O|O	|£13.0|£13.0|||	13.0				
+0	3	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+0	4	fb:cell.spartan_stadium_east_lansing_mi	Spartan Stadium • East Lansing, MI	spartan|stadium|•|east|lansing|,|mi	Spartan|Stadium|•|East|Lansing|,|MI	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				Spartan Stadium • East Lansing|MI	fb:part.spartan_stadium_east_lansing|fb:part.mi
+0	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION						
+0	6	fb:cell.l_13_17	L 13–17	l|13|--|17	l|13|--|17	NN|CD|:|CD	O|NUMBER|O|NUMBER	|13.0||17.0	13.0		17.0		
+0	7	fb:cell.78_709	78,709	78,709	78,709	CD	NUMBER	78709.0	78709.0				
+1	0	fb:cell.september_15	September 15	september|15	September|15	NNP|CD	DATE|DATE	XXXX-09-15|XXXX-09-15	15.0	xxxx-09-15			
+1	1	fb:cell.2_00_pm	2:00 PM	2:00|pm	2:00|pm	CD|NN	TIME|TIME	T14:00|T14:00	2.0		0.0		
+1	2	fb:cell.miami_oh	Miami (OH)*	miami|-lrb-|oh|-rrb-|\\*	Miami|-lrb-|oh|-rrb-|\\*	NNP|-LRB-|NN|-RRB-|SYM	LOCATION|O|O|O|O	||||					
+1	3	fb:cell.null											
+1	4	fb:cell.bronco_stadium_boise_id	Bronco Stadium • Boise, ID	bronco|stadium|•|boise|,|id	Bronco|Stadium|•|Boise|,|ID	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Bronco Stadium • Boise|ID	fb:part.bronco_stadium_boise|fb:part.id
+1	5	fb:cell.nbcsn	NBCSN	nbcsn	nbcsn	NN	O						
+1	6	fb:cell.w_39_12	W 39–12	w|39|--|12	W|39|--|12	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|39.0||12.0	39.0		12.0		
+1	7	fb:cell.34_178	34,178	34,178	34,178	CD	NUMBER	34178.0	34178.0				
+2	0	fb:cell.september_20	September 20	september|20	September|20	NNP|CD	DATE|DATE	XXXX-09-20|XXXX-09-20	20.0	xxxx-09-20			
+2	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+2	2	fb:cell.byu	BYU*	byu|\\*	BYU|\\*	NNP|SYM	O|O	|					
+2	3	fb:cell.null											
+2	4	fb:cell.bronco_stadium_boise_id	Bronco Stadium • Boise, ID	bronco|stadium|•|boise|,|id	Bronco|Stadium|•|Boise|,|ID	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Bronco Stadium • Boise|ID	fb:part.bronco_stadium_boise|fb:part.id
+2	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION						
+2	6	fb:cell.w_7_6	W 7–6	w|7|--|6	w|7|--|6	NN|CD|:|CD	O|NUMBER|O|NUMBER	|7.0||6.0	7.0		6.0		
+2	7	fb:cell.36_864	36,864	36,864	36,864	CD	NUMBER	36864.0	36864.0				
+3	0	fb:cell.september_29	September 29	september|29	September|29	NNP|CD	DATE|DATE	XXXX-09-29|XXXX-09-29	29.0	xxxx-09-29			
+3	1	fb:cell.4_00_pm	4:00 PM	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+3	2	fb:cell.at_new_mexico	at New Mexico	at|new|mexico	at|New|Mexico	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+3	3	fb:cell.null											
+3	4	fb:cell.university_stadium_albuequerque_nm	University Stadium • Albuequerque, NM	university|stadium|•|albuequerque|,|nm	University|Stadium|•|Albuequerque|,|NM	NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O	|||||				University Stadium • Albuequerque|NM	fb:part.university_stadium_albuequerque|fb:part.nm
+3	5	fb:cell.ktvb	KTVB	ktvb	ktvb	NN	O						
+3	6	fb:cell.w_32_29	W 32–29	w|32|--|29	W|32|--|29	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|32.0||29.0	32.0		29.0		
+3	7	fb:cell.28_270	28,270	28,270	28,270	CD	NUMBER	28270.0	28270.0				
+4	0	fb:cell.october_6	October 6	october|6	October|6	NNP|CD	DATE|DATE	XXXX-10-06|XXXX-10-06	6.0	xxxx-10-06			
+4	1	fb:cell.10_00_am	10:00 AM	10:00|am	10:00|AM	CD|VBD-AUX	TIME|TIME	T10:00|T10:00	10.0		0.0		
+4	2	fb:cell.at_southern_miss	at Southern Miss*	at|southern|miss|\\*	at|Southern|Miss|\\*	IN|NNP|NNP|SYM	O|MISC|MISC|MISC	|||					
+4	3	fb:cell._25	#25	#|25	#|25	#|CD	MONEY|MONEY	£25.0|£25.0	25.0				
+4	4	fb:cell.m_m_roberts_stadium_hattiesburg_ms	M. M. Roberts Stadium • Hattiesburg, MS	m.|m.|roberts|stadium|•|hattiesburg|,|ms	M.|M.|Roberts|Stadium|•|Hattiesburg|,|m	NNP|NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|PERSON|PERSON|O|O|LOCATION|O|O	|||||||				M. M. Roberts Stadium • Hattiesburg|MS	fb:part.m_m_roberts_stadium_hattiesburg|fb:part.ms
+4	5	fb:cell.fsn	FSN	fsn	fsn	NN	O						
+4	6	fb:cell.w_40_14	W 40–14	w|40|--|14	W|40|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|40.0||14.0	40.0		14.0		
+4	7	fb:cell.25_337	25,337	25,337	25,337	CD	NUMBER	25337.0	25337.0				
+5	0	fb:cell.october_13	October 13	october|13	October|13	NNP|CD	DATE|DATE	XXXX-10-13|XXXX-10-13	13.0	xxxx-10-13			
+5	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+5	2	fb:cell.fresno_state	Fresno State	fresno|state	Fresno|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+5	3	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+5	4	fb:cell.bronco_stadium_boise_id_battle_for_the_milk_can	Bronco Stadium • Boise, ID (Battle for the Milk Can)	bronco|stadium|•|boise|,|id|-lrb-|battle|for|the|milk|can|-rrb-	Bronco|Stadium|•|Boise|,|ID|-lrb-|Battle|for|the|milk|can|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|IN|DT|NN|VBD-AUX|-RRB-	O|O|O|LOCATION|O|O|O|O|O|O|O|O|O	||||||||||||				Bronco Stadium • Boise|ID (Battle for the Milk Can)	fb:part.bronco_stadium_boise|fb:part.id_battle_for_the_milk_can
+5	5	fb:cell.nbcsn	NBCSN	nbcsn	nbcsn	NN	O						
+5	6	fb:cell.w_20_10	W 20–10	w|20|--|10	W|20|--|10	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|20.0||10.0	20.0		10.0		
+5	7	fb:cell.35_742	35,742	35,742	35,742	CD	NUMBER	35742.0	35742.0				
+6	0	fb:cell.october_20	October 20	october|20	October|20	NNP|CD	DATE|DATE	XXXX-10-20|XXXX-10-20	20.0	xxxx-10-20			
+6	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+6	2	fb:cell.unlv	UNLV	unlv	unlv	NN	ORGANIZATION						
+6	3	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+6	4	fb:cell.bronco_stadium_boise_id	Bronco Stadium • Boise, ID	bronco|stadium|•|boise|,|id	Bronco|Stadium|•|Boise|,|ID	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Bronco Stadium • Boise|ID	fb:part.bronco_stadium_boise|fb:part.id
+6	5	fb:cell.nbcsn	NBCSN	nbcsn	nbcsn	NN	O						
+6	6	fb:cell.w_32_7	W 32–7	w|32|--|7	W|32|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|32.0||7.0	32.0		7.0		
+6	7	fb:cell.36_012	36,012	36,012	36,012	CD	NUMBER	36012.0	36012.0				
+7	0	fb:cell.october_27	October 27	october|27	October|27	NNP|CD	DATE|DATE	XXXX-10-27|XXXX-10-27	27.0	xxxx-10-27			
+7	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+7	2	fb:cell.at_wyoming	at Wyoming	at|wyoming	at|Wyoming	IN|NNP	O|LOCATION	|					
+7	3	fb:cell._18	#18	#|18	#|18	#|CD	MONEY|MONEY	£18.0|£18.0	18.0				
+7	4	fb:cell.war_memorial_stadium_laramie_wy	War Memorial Stadium • Laramie, WY	war|memorial|stadium|•|laramie|,|wy	War|Memorial|Stadium|•|Laramie|,|wy	NNP|NNP|NNP|NNP|NNP|,|NN	O|O|O|O|LOCATION|O|O	||||||				War Memorial Stadium • Laramie|WY	fb:part.war_memorial_stadium_laramie|fb:part.wy
+7	5	fb:cell.cbssn	CBSSN	cbssn	cbssn	NN	O						
+7	6	fb:cell.w_45_14	W 45–14	w|45|--|14	W|45|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|45.0||14.0	45.0		14.0		
+7	7	fb:cell.17_855	17,855	17,855	17,855	CD	NUMBER	17855.0	17855.0				
+8	0	fb:cell.november_3	November 3	november|3	November|3	NNP|CD	DATE|DATE	XXXX-11-03|XXXX-11-03	3.0	xxxx-11-03			
+8	1	fb:cell.8_30_pm	8:30 PM	8:30|pm	8:30|pm	CD|NN	TIME|TIME	T20:30|T20:30	8.0		30.0		
+8	2	fb:cell.san_diego_state	San Diego State	san|diego|state	San|Diego|State	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+8	3	fb:cell._14	#14	#|14	#|14	#|CD	MONEY|MONEY	£14.0|£14.0	14.0				
+8	4	fb:cell.bronco_stadium_boise_id	Bronco Stadium • Boise, ID	bronco|stadium|•|boise|,|id	Bronco|Stadium|•|Boise|,|ID	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Bronco Stadium • Boise|ID	fb:part.bronco_stadium_boise|fb:part.id
+8	5	fb:cell.cbssn	CBSSN	cbssn	cbssn	NN	O						
+8	6	fb:cell.l_19_21	L 19–21	l|19|--|21	l|19|--|21	NN|CD|:|CD	O|NUMBER|O|NUMBER	|19.0||21.0	19.0		21.0		
+8	7	fb:cell.36_084	36,084	36,084	36,084	CD	NUMBER	36084.0	36084.0				
+9	0	fb:cell.november_10	November 10	november|10	November|10	NNP|CD	DATE|DATE	XXXX-11-10|XXXX-11-10	10.0	xxxx-11-10			
+9	1	fb:cell.5_00_pm	5:00 PM	5:00|pm	5:00|pm	CD|NN	TIME|TIME	T17:00|T17:00	5.0		0.0		
+9	2	fb:cell.at_hawai_i	at Hawaiʻi	at|hawaiʻi	at|hawaiʻi	IN|NN	O|O	|					
+9	3	fb:cell._24	#24	#|24	#|24	#|CD	MONEY|MONEY	£24.0|£24.0	24.0				
+9	4	fb:cell.aloha_stadium_honolulu_hi	Aloha Stadium • Honolulu, HI	aloha|stadium|•|honolulu|,|hi	Aloha|Stadium|•|Honolulu|,|HI	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Aloha Stadium • Honolulu|HI	fb:part.aloha_stadium_honolulu|fb:part.hi
+9	5	fb:cell.nbcsn	NBCSN	nbcsn	nbcsn	NN	O						
+9	6	fb:cell.w_49_14	W 49–14	w|49|--|14	W|49|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|49.0||14.0	49.0		14.0		
+9	7	fb:cell.29_471	29,471	29,471	29,471	CD	NUMBER	29471.0	29471.0				
+10	0	fb:cell.november_17	November 17	november|17	November|17	NNP|CD	DATE|DATE	XXXX-11-17|XXXX-11-17	17.0	xxxx-11-17			
+10	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+10	2	fb:cell.colorado_state	Colorado State	colorado|state	Colorado|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+10	3	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+10	4	fb:cell.bronco_stadium_boise_id	Bronco Stadium • Boise, ID	bronco|stadium|•|boise|,|id	Bronco|Stadium|•|Boise|,|ID	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Bronco Stadium • Boise|ID	fb:part.bronco_stadium_boise|fb:part.id
+10	5	fb:cell.nbcsn	NBCSN	nbcsn	nbcsn	NN	O						
+10	6	fb:cell.w_42_14	W 42–14	w|42|--|14	W|42|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|42.0||14.0	42.0		14.0		
+10	7	fb:cell.33_545	33,545	33,545	33,545	CD	NUMBER	33545.0	33545.0				
+11	0	fb:cell.december_1	December 1	december|1	December|1	NNP|CD	DATE|DATE	XXXX-12-01|XXXX-12-01	1.0	xxxx-12-01			
+11	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+11	2	fb:cell.at_nevada	at Nevada	at|nevada	at|Nevada	IN|NNP	O|LOCATION	|					
+11	3	fb:cell._15	#15	#|15	#|15	#|CD	MONEY|MONEY	£15.0|£15.0	15.0				
+11	4	fb:cell.mackay_stadium_reno_nv_rivalry	Mackay Stadium • Reno, NV (Rivalry)	mackay|stadium|•|reno|,|nv|-lrb-|rivalry|-rrb-	Mackay|Stadium|•|Reno|,|NV|-lrb-|Rivalry|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|PERSON|O|O|O|O|O	||||||||				Mackay Stadium • Reno|NV (Rivalry)	fb:part.mackay_stadium_reno|fb:part.nv_rivalry
+11	5	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION						
+11	6	fb:cell.w_27_21	W 27–21	w|27|--|21	W|27|--|21	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||21.0	27.0		21.0		
+11	7	fb:cell.30_017	30,017	30,017	30,017	CD	NUMBER	30017.0	30017.0				
+12	0	fb:cell.december_22	December 22	december|22	December|22	NNP|CD	DATE|DATE	XXXX-12-22|XXXX-12-22	22.0	xxxx-12-22			
+12	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+12	2	fb:cell.vs_washington	vs. Washington*	vs.|washington|\\*	vs.|Washington|\\*	IN|NNP|SYM	O|LOCATION|O	||					
+12	3	fb:cell._15	#15	#|15	#|15	#|CD	MONEY|MONEY	£15.0|£15.0	15.0				
+12	4	fb:cell.sam_boyd_stadium_whitney_nv_maaco_bowl_las_vegas	Sam Boyd Stadium • Whitney, NV (Maaco Bowl Las Vegas)	sam|boyd|stadium|•|whitney|,|nv|-lrb-|maaco|bowl|las|vegas|-rrb-	Sam|Boyd|Stadium|•|Whitney|,|NV|-lrb-|Maaco|Bowl|Las|Vegas|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|NNP|-RRB-	PERSON|PERSON|O|O|PERSON|O|ORGANIZATION|O|ORGANIZATION|O|O|O|O	||||||||||||				Sam Boyd Stadium • Whitney|NV (Maaco Bowl Las Vegas)	fb:part.sam_boyd_stadium_whitney|fb:part.nv_maaco_bowl_las_vegas
+12	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION						
+12	6	fb:cell.w_28_26	W 28–26	w|28|--|26	W|28|--|26	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|28.0||26.0	28.0		26.0		
+12	7	fb:cell.33_217	33,217	33,217	33,217	CD	NUMBER	33217.0	33217.0				

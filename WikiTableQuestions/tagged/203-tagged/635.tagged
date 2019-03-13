@@ -1,0 +1,106 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.number_name	Number/name	number\\/name	number\\/name	NN	O						
+-1	1	fb:row.row.wheel_arrangement	Wheel arrangement	wheel|arrangement	wheel|arrangement	NN|NN	O|O	|					
+-1	2	fb:row.row.builder	Builder	builder	builder	NN	MISC						
+-1	3	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	4	fb:row.row.disposition_and_location	Disposition and\nLocation	disposition|and|location	Disposition|and|Location	NNP|CC|NNP	O|O|O	||					
+0	0	fb:cell.1_san_francisco	1\nSan Francisco	1|san|francisco	1|San|Francisco	CD|NNP|NNP	NUMBER|LOCATION|LOCATION	1.0||	1.0			1|San Francisco	fb:part.1|fb:part.san_francisco
+0	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+0	2	fb:cell.norris_locomotive_works	Norris Locomotive Works	norris|locomotive|works	Norris|Locomotive|Works	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Norris Locomotive Works	fb:part.norris_locomotive_works
+0	3	fb:cell.1862	1862	1862	1862	CD	DATE	1862	1862.0	1862-xx-xx		1862	fb:part.1862
+0	4	fb:cell.to_southern_pacific_2_1109_unknown	To Southern Pacific #2, #1109. Unknown.	to|southern|pacific|#|2|,|#|1109|.|unknown|.	to|Southern|Pacific|#|2|,|#|1109|.|unknown|.	TO|NNP|NNP|#|CD|,|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|MONEY|DATE|O|O|O	|||£2.0|£2.0||£|1109|||	2.0		1109.0	To Southern Pacific #2|#1109. Unknown.	fb:part.to_southern_pacific_2|fb:part._1109_unknown
+1	0	fb:cell.2_san_jose	2\nSan Jose	2|san|jose	2|San|Jose	CD|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION	2.0||	2.0			2|San Jose	fb:part.2|fb:part.san_jose
+1	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+1	2	fb:cell.norris_locomotive_works	Norris Locomotive Works	norris|locomotive|works	Norris|Locomotive|Works	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Norris Locomotive Works	fb:part.norris_locomotive_works
+1	3	fb:cell.1862	1862	1862	1862	CD	DATE	1862	1862.0	1862-xx-xx		1862	fb:part.1862
+1	4	fb:cell.to_sf_np_as_little_josie_to_northwestern_pacific_railroad_1_retired_in_1921	To SF&NP as Little Josie. To Northwestern Pacific Railroad #1. Retired in 1921.	to|sf&np|as|little|josie|.|to|northwestern|pacific|railroad|#|1|.|retired|in|1921|.	to|sf&np|as|little|Josie|.|to|Northwestern|Pacific|Railroad|#|1|.|retire|in|1921|.	TO|VB|IN|JJ|NNP|.|TO|NNP|NNP|NNP|#|CD|.|VBN|IN|CD|.	O|O|O|PERSON|PERSON|O|O|O|O|O|MONEY|MONEY|O|O|O|DATE|O	||||||||||£1.0|£1.0||||1921|				To SF&NP as Little Josie. To Northwestern Pacific Railroad #1. Retired in 1921.	fb:part.to_sf_np_as_little_josie_to_northwestern_pacific_railroad_1_retired_in_1921
+2	0	fb:cell.3_t_dame	3\nT. Dame	3|t.|dame	3|T.|Dame	CD|NNP|NNP	NUMBER|O|O	3.0||	3.0			3|T. Dame	fb:part.3|fb:part.t_dame
+2	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+2	2	fb:cell.norris_locomotive_works	Norris Locomotive Works	norris|locomotive|works	Norris|Locomotive|Works	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Norris Locomotive Works	fb:part.norris_locomotive_works
+2	3	fb:cell.null											fb:part.null
+2	4	fb:cell.to_southern_pacific_3_1110_unknown	To Southern Pacific #3, #1110. Unknown.	to|southern|pacific|#|3|,|#|1110|.|unknown|.	to|Southern|Pacific|#|3|,|#|1110|.|unknown|.	TO|NNP|NNP|#|CD|,|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|MONEY|DATE|O|O|O	|||£3.0|£3.0||£|1110|||	3.0		1110.0	To Southern Pacific #3|#1110. Unknown.	fb:part.to_southern_pacific_3|fb:part._1110_unknown
+3	0	fb:cell.4_a_h_houston	4\nA.H. Houston	4|a.h.|houston	4|A.H.|Houston	CD|NNP|NNP	NUMBER|PERSON|PERSON	4.0||	4.0			4|A.H. Houston	fb:part.4|fb:part.a_h_houston
+3	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+3	2	fb:cell.cooke_locomotive_and_machine_works	Cooke Locomotive and Machine Works	cooke|locomotive|and|machine|works	Cooke|Locomotive|and|Machine|Works	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|O|O|O	||||				Cooke Locomotive and Machine Works	fb:part.cooke_locomotive_and_machine_works
+3	3	fb:cell.11_1863	11/1863	11\\/1863	11\\/1863	CD	NUMBER		11.0		1863.0	11|1863	fb:part.11|fb:part.1863
+3	4	fb:cell.to_southern_pacific_4_unknown	To Southern Pacific #4. Unknown.	to|southern|pacific|#|4|.|unknown|.	to|Southern|Pacific|#|4|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£4.0|£4.0|||	4.0			To Southern Pacific #4. Unknown.	fb:part.to_southern_pacific_4_unknown
+4	0	fb:cell.5_chas_mclaughlin	5\nChas. McLaughlin	5|chas|.|mclaughlin	5|Chas|.|McLaughlin	CD|NNP|.|NNP	NUMBER|PERSON|O|PERSON	5.0|||	5.0			5|Chas. McLaughlin	fb:part.5|fb:part.chas_mclaughlin
+4	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+4	2	fb:cell.cooke_locomotive_and_machine_works	Cooke Locomotive and Machine Works	cooke|locomotive|and|machine|works	Cooke|Locomotive|and|Machine|Works	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|O|O|O	||||				Cooke Locomotive and Machine Works	fb:part.cooke_locomotive_and_machine_works
+4	3	fb:cell.null											fb:part.null
+4	4	fb:cell.to_southern_pacific_5_unknown	To Southern Pacific #5. Unknown.	to|southern|pacific|#|5|.|unknown|.	to|Southern|Pacific|#|5|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£5.0|£5.0|||	5.0			To Southern Pacific #5. Unknown.	fb:part.to_southern_pacific_5_unknown
+5	0	fb:cell.6_california	6\nCalifornia	6|california	6|California	CD|NNP	NUMBER|LOCATION	6.0|	6.0			6|California	fb:part.6|fb:part.california
+5	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+5	2	fb:cell.h_j_booth_at_union_iron_works	H. J. Booth at Union Iron Works	h.|j.|booth|at|union|iron|works	H.|J.|Booth|at|Union|Iron|Works	NNP|NNP|NNP|IN|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|O|O|O	||||||				H. J. Booth at Union Iron Works	fb:part.h_j_booth_at_union_iron_works
+5	3	fb:cell.7_1865	7/1865	7\\/1865	7\\/1865	CD	NUMBER		7.0		1865.0	7|1865	fb:part.7|fb:part.1865
+5	4	fb:cell.to_southern_pacific_6_1303_rebuilt_1873_scrapped_in_1911	To Southern Pacific #6, #1303. Rebuilt 1873. Scrapped in 1911.	to|southern|pacific|#|6|,|#|1303|.|rebuilt|1873|.|scrapped|in|1911|.	to|Southern|Pacific|#|6|,|#|1303|.|Rebuilt|1873|.|scrap|in|1911|.	TO|NNP|NNP|#|CD|,|#|CD|.|NNP|NNP|.|VBN|IN|CD|.	O|O|O|MONEY|MONEY|O|MONEY|DATE|O|O|DATE|O|O|O|DATE|O	|||£6.0|£6.0||£|1303|||1873||||1911|	6.0		1303.0	To Southern Pacific #6|#1303. Rebuilt 1873. Scrapped in 1911.	fb:part.to_southern_pacific_6|fb:part._1303_rebuilt_1873_scrapped_in_1911
+6	0	fb:cell.7_atlantic	7\nAtlantic	7|atlantic	7|Atlantic	CD|NNP	NUMBER|LOCATION	7.0|	7.0			7|Atlantic	fb:part.7|fb:part.atlantic
+6	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+6	2	fb:cell.h_j_booth_at_union_iron_works_2	H.J. Booth at Union Iron Works	h.j.|booth|at|union|iron|works	H.J.|Booth|at|Union|Iron|Works	NNP|NNP|IN|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|O|O|O|O	|||||				H.J. Booth at Union Iron Works	fb:part.h_j_booth_at_union_iron_works_2
+6	3	fb:cell.1865	1865	1865	1865	CD	DATE	1865	1865.0	1865-xx-xx		1865	fb:part.1865
+6	4	fb:cell.to_southern_pacific_7_1231_scrapped_in_1895	To Southern Pacific #7, #1231, scrapped in 1895.	to|southern|pacific|#|7|,|#|1231|,|scrapped|in|1895|.	to|Southern|Pacific|#|7|,|#|1231|,|scrap|in|1895|.	TO|NNP|NNP|#|CD|,|#|CD|,|VBN|IN|CD|.	O|O|O|MONEY|MONEY|O|MONEY|DATE|O|O|O|DATE|O	|||£7.0|£7.0||£|1231||||1895|	7.0		1231.0	To Southern Pacific #7|#1231|scrapped in 1895.	fb:part.to_southern_pacific_7|fb:part._1231|fb:part.scrapped_in_1895
+7	0	fb:cell.8_union	8\nUnion	8|union	8|Union	CD|NNP	NUMBER|O	8.0|	8.0			8|Union	fb:part.8|fb:part.union
+7	1	fb:cell.0_4_0	0-4-0	0-4-0	0-4-0	NN	O		0.0		4.0		
+7	2	fb:cell.h_j_booth_at_union_iron_works_2	H.J. Booth at Union Iron Works	h.j.|booth|at|union|iron|works	H.J.|Booth|at|Union|Iron|Works	NNP|NNP|IN|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|O|O|O|O	|||||				H.J. Booth at Union Iron Works	fb:part.h_j_booth_at_union_iron_works_2
+7	3	fb:cell.6_1867	6/1867	6\\/1867	6\\/1867	CD	NUMBER		6.0		1867.0	6|1867	fb:part.6|fb:part.1867
+7	4	fb:cell.to_southern_pacific_8_1002_unknown	To Southern Pacific #8, #1002. Unknown.	to|southern|pacific|#|8|,|#|1002|.|unknown|.	to|Southern|Pacific|#|8|,|#|1002|.|unknown|.	TO|NNP|NNP|#|CD|,|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|MONEY|DATE|O|O|O	|||£8.0|£8.0||£|1002|||	8.0		1002.0	To Southern Pacific #8|#1002. Unknown.	fb:part.to_southern_pacific_8|fb:part._1002_unknown
+8	0	fb:cell.9_donahue	9\nDonahue	9|donahue	9|Donahue	CD|NNP	NUMBER|PERSON	9.0|	9.0			9|Donahue	fb:part.9|fb:part.donahue
+8	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+8	2	fb:cell.cooke_locomotive_and_machine_works	Cooke Locomotive and Machine Works	cooke|locomotive|and|machine|works	Cooke|Locomotive|and|Machine|Works	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|O|O|O	||||				Cooke Locomotive and Machine Works	fb:part.cooke_locomotive_and_machine_works
+8	3	fb:cell.4_1870	4/1870	4\\/1870	4\\/1870	CD	NUMBER		4.0		1870.0	4|1870	fb:part.4|fb:part.1870
+8	4	fb:cell.to_southern_pacific_9_unknown	To Southern Pacific #9. Unknown.	to|southern|pacific|#|9|.|unknown|.	to|Southern|Pacific|#|9|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£9.0|£9.0|||	9.0			To Southern Pacific #9. Unknown.	fb:part.to_southern_pacific_9_unknown
+9	0	fb:cell.10_newhall	10\nNewhall	10|newhall	10|Newhall	CD|NNP	NUMBER|ORGANIZATION	10.0|	10.0			10|Newhall	fb:part.10|fb:part.newhall
+9	1	fb:cell.null											fb:part.null
+9	2	fb:cell.null											fb:part.null
+9	3	fb:cell.null											fb:part.null
+9	4	fb:cell.to_southern_pacific_10_unknown	To Southern Pacific #10. Unknown.	to|southern|pacific|#|10|.|unknown|.	to|Southern|Pacific|#|10|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£10.0|£10.0|||	10.0			To Southern Pacific #10. Unknown.	fb:part.to_southern_pacific_10_unknown
+10	0	fb:cell.11_menlo_park	11\nMenlo Park	11|menlo|park	11|Menlo|Park	CD|NNP|NNP	NUMBER|O|O	11.0||	11.0			11|Menlo Park	fb:part.11|fb:part.menlo_park
+10	1	fb:cell.4_4_0	4-4-0	4-4-0	4-4-0	CD	NUMBER		4.0		4.0		
+10	2	fb:cell.mason_machine_works	Mason Machine Works	mason|machine|works	Mason|Machine|Works	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Mason Machine Works	fb:part.mason_machine_works
+10	3	fb:cell.4_16_1870	4/16/1870	4\\/16\\/1870	4\\/16\\/1870	CD	DATE	1870-04-16	4.0	1870-04-16	16.0	4|16|1870	fb:part.4|fb:part.16|fb:part.1870
+10	4	fb:cell.to_southern_pacific_11_unknown	To Southern Pacific #11. Unknown.	to|southern|pacific|#|11|.|unknown|.	to|Southern|Pacific|#|11|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£11.0|£11.0|||	11.0			To Southern Pacific #11. Unknown.	fb:part.to_southern_pacific_11_unknown
+11	0	fb:cell.12_racer	12\nRacer	12|racer	12|racer	CD|NN	NUMBER|O	12.0|	12.0			12|Racer	fb:part.12|fb:part.racer
+11	1	fb:cell.null											fb:part.null
+11	2	fb:cell.mck_a	McK/A	mck\\/a	mck\\/a	NN	O					McK|A	fb:part.mck|fb:part.a
+11	3	fb:cell.7_1868	7/1868	7\\/1868	7\\/1868	CD	NUMBER		7.0		1868.0	7|1868	fb:part.7|fb:part.1868
+11	4	fb:cell.to_southern_pacific_12_unknown	To Southern Pacific #12. Unknown.	to|southern|pacific|#|12|.|unknown|.	to|Southern|Pacific|#|12|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£12.0|£12.0|||	12.0			To Southern Pacific #12. Unknown.	fb:part.to_southern_pacific_12_unknown
+12	0	fb:cell.13_shoshone	13\nShoshone	13|shoshone	13|shoshone	CD|NN	NUMBER|O	13.0|	13.0			13|Shoshone	fb:part.13|fb:part.shoshone
+12	1	fb:cell.null											fb:part.null
+12	2	fb:cell.norris_locomotive_works	Norris Locomotive Works	norris|locomotive|works	Norris|Locomotive|Works	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Norris Locomotive Works	fb:part.norris_locomotive_works
+12	3	fb:cell.6_1867	6/1867	6\\/1867	6\\/1867	CD	NUMBER		6.0		1867.0	6|1867	fb:part.6|fb:part.1867
+12	4	fb:cell.to_southern_pacific_13_unknown	To Southern Pacific #13. Unknown.	to|southern|pacific|#|13|.|unknown|.	to|Southern|Pacific|#|13|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£13.0|£13.0|||	13.0			To Southern Pacific #13. Unknown.	fb:part.to_southern_pacific_13_unknown
+13	0	fb:cell.14_red_eagle	14\nRed Eagle	14|red|eagle	14|red|Eagle	CD|JJ|NNP	NUMBER|O|O	14.0||	14.0			14|Red Eagle	fb:part.14|fb:part.red_eagle
+13	1	fb:cell.null											fb:part.null
+13	2	fb:cell.cooke_locomotive_and_machine_works	Cooke Locomotive and Machine Works	cooke|locomotive|and|machine|works	Cooke|Locomotive|and|Machine|Works	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|O|O|O	||||				Cooke Locomotive and Machine Works	fb:part.cooke_locomotive_and_machine_works
+13	3	fb:cell.7_1868	7/1868	7\\/1868	7\\/1868	CD	NUMBER		7.0		1868.0	7|1868	fb:part.7|fb:part.1868
+13	4	fb:cell.to_southern_pacific_14_unknown	To Southern Pacific #14. Unknown.	to|southern|pacific|#|14|.|unknown|.	to|Southern|Pacific|#|14|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£14.0|£14.0|||	14.0			To Southern Pacific #14. Unknown.	fb:part.to_southern_pacific_14_unknown
+14	0	fb:cell.15_black_deer	15\nBlack Deer	15|black|deer	15|black|deer	CD|JJ|NNS	NUMBER|O|O	15.0||	15.0			15|Black Deer	fb:part.15|fb:part.black_deer
+14	1	fb:cell.null											fb:part.null
+14	2	fb:cell.mck_a	McK/A	mck\\/a	mck\\/a	NN	O					McK|A	fb:part.mck|fb:part.a
+14	3	fb:cell.10_1867	10/1867	10\\/1867	10\\/1867	CD	NUMBER		10.0		1867.0	10|1867	fb:part.10|fb:part.1867
+14	4	fb:cell.to_southern_pacific_15_unknown	To Southern Pacific #15. Unknown.	to|southern|pacific|#|15|.|unknown|.	to|Southern|Pacific|#|15|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£15.0|£15.0|||	15.0			To Southern Pacific #15. Unknown.	fb:part.to_southern_pacific_15_unknown
+15	0	fb:cell.16_reindeer	16\nReindeer	16|reindeer	16|reindeer	CD|NN	NUMBER|O	16.0|	16.0			16|Reindeer	fb:part.16|fb:part.reindeer
+15	1	fb:cell.null											fb:part.null
+15	2	fb:cell.schenectady_locomotive_works	Schenectady Locomotive Works	schenectady|locomotive|works	Schenectady|Locomotive|Works	NNP|NNP|NNP	O|O|O	||				Schenectady Locomotive Works	fb:part.schenectady_locomotive_works
+15	3	fb:cell.11_1868	11/1868	11\\/1868	11\\/1868	CD	NUMBER		11.0		1868.0	11|1868	fb:part.11|fb:part.1868
+15	4	fb:cell.to_southern_pacific_1151_unknown	To Southern Pacific #1151. Unknown.	to|southern|pacific|#|1151|.|unknown|.	to|Southern|Pacific|#|1151|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£1151.0|£1151.0|||	1151.0			To Southern Pacific #1151. Unknown.	fb:part.to_southern_pacific_1151_unknown
+16	0	fb:cell.17_mohave	17\nMohave	17|mohave	17|mohave	CD|NN	NUMBER|O	17.0|	17.0			17|Mohave	fb:part.17|fb:part.mohave
+16	1	fb:cell.null											fb:part.null
+16	2	fb:cell.norris_locomotive_works	Norris Locomotive Works	norris|locomotive|works	Norris|Locomotive|Works	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Norris Locomotive Works	fb:part.norris_locomotive_works
+16	3	fb:cell.7_1860	7/1860	7\\/1860	7\\/1860	CD	NUMBER		7.0		1860.0	7|1860	fb:part.7|fb:part.1860
+16	4	fb:cell.to_southern_pacific_17_unknown	To Southern Pacific #17. Unknown.	to|southern|pacific|#|17|.|unknown|.	to|Southern|Pacific|#|17|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£17.0|£17.0|||	17.0			To Southern Pacific #17. Unknown.	fb:part.to_southern_pacific_17_unknown
+17	0	fb:cell.18_peeler	18\nPeeler	18|peeler	18|Peeler	CD|NNP	NUMBER|PERSON	18.0|	18.0			18|Peeler	fb:part.18|fb:part.peeler
+17	1	fb:cell.null											fb:part.null
+17	2	fb:cell.rhode_island_locomotive_works	Rhode Island Locomotive Works	rhode|island|locomotive|works	Rhode|Island|Locomotive|Works	NNP|NNP|NNP|NNP	LOCATION|LOCATION|O|O	|||				Rhode Island Locomotive Works	fb:part.rhode_island_locomotive_works
+17	3	fb:cell.11_1868	11/1868	11\\/1868	11\\/1868	CD	NUMBER		11.0		1868.0	11|1868	fb:part.11|fb:part.1868
+17	4	fb:cell.to_southern_pacific_18_unknown	To Southern Pacific #18. Unknown.	to|southern|pacific|#|18|.|unknown|.	to|Southern|Pacific|#|18|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£18.0|£18.0|||	18.0			To Southern Pacific #18. Unknown.	fb:part.to_southern_pacific_18_unknown
+18	0	fb:cell.19_raven	19\nRaven	19|raven	19|raven	CD|NN	NUMBER|O	19.0|	19.0			19|Raven	fb:part.19|fb:part.raven
+18	1	fb:cell.null											fb:part.null
+18	2	fb:cell.schenectady_locomotive_works	Schenectady Locomotive Works	schenectady|locomotive|works	Schenectady|Locomotive|Works	NNP|NNP|NNP	O|O|O	||				Schenectady Locomotive Works	fb:part.schenectady_locomotive_works
+18	3	fb:cell.10_1868	10/1868	10\\/1868	10\\/1868	CD	NUMBER		10.0		1868.0	10|1868	fb:part.10|fb:part.1868
+18	4	fb:cell.to_southern_pacific_19_unknown	To Southern Pacific #19. Unknown.	to|southern|pacific|#|19|.|unknown|.	to|Southern|Pacific|#|19|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£19.0|£19.0|||	19.0			To Southern Pacific #19. Unknown.	fb:part.to_southern_pacific_19_unknown
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+19	1	fb:cell.null											fb:part.null
+19	2	fb:cell.baldwin_locomotive_works	Baldwin Locomotive Works	baldwin|locomotive|works	Baldwin|Locomotive|Works	NNP|NNP|NNP	PERSON|O|O	||				Baldwin Locomotive Works	fb:part.baldwin_locomotive_works
+19	3	fb:cell.6_1872	6/1872	6\\/1872	6\\/1872	CD	NUMBER		6.0		1872.0	6|1872	fb:part.6|fb:part.1872
+19	4	fb:cell.to_southern_pacific_20_unknown	To Southern Pacific #20. Unknown.	to|southern|pacific|#|20|.|unknown|.	to|Southern|Pacific|#|20|.|unknown|.	TO|NNP|NNP|#|CD|.|JJ|.	O|O|O|MONEY|MONEY|O|O|O	|||£20.0|£20.0|||	20.0			To Southern Pacific #20. Unknown.	fb:part.to_southern_pacific_20_unknown

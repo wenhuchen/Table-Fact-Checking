@@ -1,0 +1,113 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	3	fb:row.row.rank	Rank#	rank|#	Rank|#	NNP|#	O|O	|					
+-1	4	fb:row.row.site	Site	site	site	NN	O						
+-1	5	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	6	fb:row.row.result	Result	result	result	NN	O						
+-1	7	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.august_30	August 30	august|30	August|30	NNP|CD	DATE|DATE	XXXX-08-30|XXXX-08-30	30.0	xxxx-08-30		August 30	fb:part.august_30
+0	1	fb:cell.8_00_pm	8:00 PM	8:00|pm	8:00|pm	CD|NN	TIME|TIME	T20:00|T20:00	8.0		0.0		
+0	2	fb:cell.vs_alabama	vs. Alabama*	vs.|alabama|\\*	vs.|Alabama|\\*	CC|NNP|SYM	O|LOCATION|O	||					
+0	3	fb:cell._9	#9	#|9	#|9	#|CD	MONEY|MONEY	£9.0|£9.0	9.0				
+0	4	fb:cell.georgia_dome_atlanta_ga_chick_fil_a_college_kickoff	Georgia Dome • Atlanta, GA (Chick-fil-A College Kickoff)	georgia|dome|•|atlanta|,|ga|-lrb-|chick|fil|a|college|kickoff|-rrb-	Georgia|Dome|•|Atlanta|,|GA|-lrb-|Chick|fil|A|College|Kickoff|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NN|NNP|NNP|NNP|-RRB-	LOCATION|O|O|LOCATION|O|O|O|O|O|O|O|O|O	||||||||||||				Georgia Dome • Atlanta|GA (Chick-fil-A College Kickoff)	fb:part.georgia_dome_atlanta|fb:part.ga_chick_fil_a_college_kickoff
+0	5	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION						
+0	6	fb:cell.l_10_34	L 10–34	l|10|--|34	l|10|--|34	NN|CD|:|CD	O|NUMBER|O|NUMBER	|10.0||34.0	10.0		34.0		
+0	7	fb:cell.70_097	70,097	70,097	70,097	CD	NUMBER	70097.0	70097.0				
+1	0	fb:cell.september_6	September 6	september|6	September|6	NNP|CD	DATE|DATE	XXXX-09-06|XXXX-09-06	6.0	xxxx-09-06		September 6	fb:part.september_6
+1	1	fb:cell.3_30_pm	3:30 PM	3:30|pm	3:30|pm	CD|NN	TIME|TIME	T15:30|T15:30	3.0		30.0		
+1	2	fb:cell.the_citadel	The Citadel*	the|citadel|\\*	the|Citadel|\\*	DT|NNP|SYM	O|O|O	||					
+1	3	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+1	4	fb:cell.memorial_stadium_clemson_sc_military_appreciation_day	Memorial Stadium • Clemson, SC (Military Appreciation Day)	memorial|stadium|•|clemson|,|sc|-lrb-|military|appreciation|day|-rrb-	Memorial|Stadium|•|Clemson|,|sc|-lrb-|military|appreciation|day|-rrb-	NNP|NNP|NNP|NNP|,|NN|-LRB-|JJ|NN|NN|-RRB-	O|O|O|ORGANIZATION|O|O|O|O|O|DURATION|O	||||||||||				Memorial Stadium • Clemson|SC (Military Appreciation Day)	fb:part.memorial_stadium_clemson|fb:part.sc_military_appreciation_day
+1	5	fb:cell.null											
+1	6	fb:cell.w_45_17	W 45–17	w|45|--|17	W|45|--|17	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|45.0||17.0	45.0		17.0		
+1	7	fb:cell.76_794	76,794	76,794	76,794	CD	NUMBER	76794.0	76794.0				
+2	0	fb:cell.september_13	September 13	september|13	September|13	NNP|CD	DATE|DATE	XXXX-09-13|XXXX-09-13	13.0	xxxx-09-13		September 13	fb:part.september_13
+2	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+2	2	fb:cell.nc_state	NC State	nc|state	nc|state	NN|NN	O|O	|					
+2	3	fb:cell._23	#23	#|23	#|23	#|CD	MONEY|MONEY	£23.0|£23.0	23.0				
+2	4	fb:cell.memorial_stadium_clemson_sc_textile_bowl_hall_of_fame_day	Memorial Stadium • Clemson, SC (Textile Bowl/Hall of Fame Day)	memorial|stadium|•|clemson|,|sc|-lrb-|textile|bowl\\/hall|of|fame|day|-rrb-	Memorial|Stadium|•|Clemson|,|SC|-lrb-|Textile|Bowl\\/Hall|of|Fame|Day|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|IN|NNP|NNP|-RRB-	O|O|O|ORGANIZATION|O|O|O|MISC|MISC|MISC|MISC|DURATION|O	||||||||||||				Memorial Stadium • Clemson|SC (Textile Bowl|Hall of Fame Day)	fb:part.memorial_stadium_clemson|fb:part.sc_textile_bowl|fb:part.hall_of_fame_day
+2	5	fb:cell.raycom	Raycom	raycom	Raycom	NNP	ORGANIZATION						
+2	6	fb:cell.w_27_9	W 27–9	w|27|--|9	W|27|--|9	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||9.0	27.0		9.0		
+2	7	fb:cell.77_071	77,071	77,071	77,071	CD	NUMBER	77071.0	77071.0				
+3	0	fb:cell.september_20	September 20	september|20	September|20	NNP|CD	DATE|DATE	XXXX-09-20|XXXX-09-20	20.0	xxxx-09-20		September 20	fb:part.september_20
+3	1	fb:cell.1_00_pm	1:00 PM	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+3	2	fb:cell.sc_state	SC State*	sc|state|\\*	sc|state|\\*	NN|NN|SYM	O|O|O	||					
+3	3	fb:cell._21	#21	#|21	#|21	#|CD	MONEY|MONEY	£21.0|£21.0	21.0				
+3	4	fb:cell.memorial_stadium_clemson_sc_youth_day	Memorial Stadium • Clemson, SC (Youth Day)	memorial|stadium|•|clemson|,|sc|-lrb-|youth|day|-rrb-	Memorial|Stadium|•|Clemson|,|SC|-lrb-|Youth|Day|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|ORGANIZATION|O|O|O|O|DURATION|O	|||||||||				Memorial Stadium • Clemson|SC (Youth Day)	fb:part.memorial_stadium_clemson|fb:part.sc_youth_day
+3	5	fb:cell.null											
+3	6	fb:cell.w_54_0	W 54–0	w|54|--|0	W|54|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|54.0||0.0	54.0		0.0		
+3	7	fb:cell.78_607	78,607	78,607	78,607	CD	NUMBER	78607.0	78607.0				
+4	0	fb:cell.september_27	September 27	september|27	September|27	NNP|CD	DATE|DATE	XXXX-09-27|XXXX-09-27	27.0	xxxx-09-27		September 27	fb:part.september_27
+4	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+4	2	fb:cell.maryland	Maryland	maryland	Maryland	NNP	LOCATION						
+4	3	fb:cell._19	#19	#|19	#|19	#|CD	MONEY|DATE	£|******19	19.0				
+4	4	fb:cell.memorial_stadium_clemson_sc_family_weekend	Memorial Stadium • Clemson, SC (Family Weekend)	memorial|stadium|•|clemson|,|sc|-lrb-|family|weekend|-rrb-	Memorial|Stadium|•|Clemson|,|SC|-lrb-|Family|Weekend|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|ORGANIZATION|O|O|O|O|DATE|O	||||||||XXXX-WE|				Memorial Stadium • Clemson|SC (Family Weekend)	fb:part.memorial_stadium_clemson|fb:part.sc_family_weekend
+4	5	fb:cell.raycom	Raycom	raycom	Raycom	NNP	ORGANIZATION						
+4	6	fb:cell.l_17_20	L 17–20	l|17|--|20	l|17|--|20	NN|CD|:|CD	O|NUMBER|O|NUMBER	|17.0||20.0	17.0		20.0		
+4	7	fb:cell.81_500	81,500	81,500	81,500	CD	NUMBER	81500.0	81500.0				
+5	0	fb:cell.october_9	October 9	october|9	October|9	NNP|CD	DATE|DATE	XXXX-10-09|XXXX-10-09	9.0	xxxx-10-09		October 9	fb:part.october_9
+5	1	fb:cell.7_45_pm	7:45 PM	7:45|pm	7:45|pm	CD|NN	TIME|TIME	T19:45|T19:45	7.0		45.0		
+5	2	fb:cell.at_wake_forest	at Wake Forest	at|wake|forest	at|Wake|Forest	IN|NNP|NNP	O|O|O	||					
+5	3	fb:cell.null											
+5	4	fb:cell.bb_t_field_winston_salem_nc	BB&T Field • Winston-Salem, NC	bb&t|field|•|winston|salem|,|nc	BB&T|Field|•|Winston|Salem|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|O|O|PERSON|PERSON|O|O	||||||				BB&T Field • Winston-Salem|NC	fb:part.bb_t_field_winston_salem|fb:part.nc
+5	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION						
+5	6	fb:cell.l_7_12	L 7–12	l|7|--|12	l|7|--|12	NN|CD|:|CD	O|NUMBER|O|NUMBER	|7.0||12.0	7.0		12.0		
+5	7	fb:cell.33_988	33,988	33,988	33,988	CD	NUMBER	33988.0	33988.0				
+6	0	fb:cell.october_18	October 18	october|18	October|18	NNP|CD	DATE|DATE	XXXX-10-18|XXXX-10-18	18.0	xxxx-10-18		October 18	fb:part.october_18
+6	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+6	2	fb:cell.georgia_tech	Georgia Tech	georgia|tech	Georgia|Tech	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	3	fb:cell.null											
+6	4	fb:cell.memorial_stadium_clemson_sc_iptay_day	Memorial Stadium • Clemson, SC (IPTAY Day)	memorial|stadium|•|clemson|,|sc|-lrb-|iptay|day|-rrb-	Memorial|Stadium|•|Clemson|,|SC|-lrb-|IPTAY|Day|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|ORGANIZATION|O|O|O|O|DURATION|O	|||||||||				Memorial Stadium • Clemson|SC (IPTAY Day)	fb:part.memorial_stadium_clemson|fb:part.sc_iptay_day
+6	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION						
+6	6	fb:cell.l_17_21	L 17–21	l|17|--|21	l|17|--|21	NN|CD|:|CD	O|NUMBER|O|NUMBER	|17.0||21.0	17.0		21.0		
+6	7	fb:cell.81_500	81,500	81,500	81,500	CD	NUMBER	81500.0	81500.0				
+7	0	fb:cell.november_1	November 1	november|1	November|1	NNP|CD	DATE|DATE	XXXX-11-01|XXXX-11-01	1.0	xxxx-11-01		November 1	fb:part.november_1
+7	1	fb:cell.3_30_pm	3:30 PM	3:30|pm	3:30|pm	CD|NN	TIME|TIME	T15:30|T15:30	3.0		30.0		
+7	2	fb:cell.at_boston_college	at Boston College	at|boston|college	at|Boston|College	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+7	3	fb:cell.null											
+7	4	fb:cell.alumni_stadium_chestnut_hill_ma_o_rourke_mcfadden_trophy	Alumni Stadium • Chestnut Hill, MA (O'Rourke-McFadden trophy)	alumni|stadium|•|chestnut|hill|,|ma|-lrb-|o'rourke|mcfadden|trophy|-rrb-	Alumni|Stadium|•|Chestnut|Hill|,|MA|-lrb-|O'Rourke|McFadden|trophy|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NN|-RRB-	O|O|O|LOCATION|LOCATION|O|LOCATION|O|PERSON|PERSON|O|O	|||||||||||				Alumni Stadium • Chestnut Hill|MA (O'Rourke-McFadden trophy)	fb:part.alumni_stadium_chestnut_hill|fb:part.ma_o_rourke_mcfadden_trophy
+7	5	fb:cell.espnu	ESPNU	espnu	ESPNU	NNP	ORGANIZATION						
+7	6	fb:cell.w_27_21	W 27–21	w|27|--|21	W|27|--|21	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||21.0	27.0		21.0		
+7	7	fb:cell.41_863	41,863	41,863	41,863	CD	NUMBER	41863.0	41863.0				
+8	0	fb:cell.november_8	November 8	november|8	November|8	NNP|CD	DATE|DATE	XXXX-11-08|XXXX-11-08	8.0	xxxx-11-08		November 8	fb:part.november_8
+8	1	fb:cell.3_30_pm	3:30 PM	3:30|pm	3:30|pm	CD|NN	TIME|TIME	T15:30|T15:30	3.0		30.0		
+8	2	fb:cell.at_24_florida_state	at #24 Florida State	at|#|24|florida|state	at|#|24|Florida|State	IN|#|CD|NNP|NNP	O|MONEY|MONEY|ORGANIZATION|ORGANIZATION	|£24.0|£24.0||	24.0				
+8	3	fb:cell.null											
+8	4	fb:cell.doak_campbell_stadium_tallahassee_fl	Doak Campbell Stadium • Tallahassee, FL	doak|campbell|stadium|•|tallahassee|,|fl	Doak|Campbell|Stadium|•|Tallahassee|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|PERSON|O|O|LOCATION|O|LOCATION	||||||				Doak Campbell Stadium • Tallahassee|FL	fb:part.doak_campbell_stadium_tallahassee|fb:part.fl
+8	5	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION						
+8	6	fb:cell.l_27_41	L 27–41	l|27|--|41	l|27|--|41	NN|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||41.0	27.0		41.0		
+8	7	fb:cell.77_013	77,013	77,013	77,013	CD	NUMBER	77013.0	77013.0				
+9	0	fb:cell.november_15	November 15	november|15	November|15	NNP|CD	DATE|DATE	XXXX-11-15|XXXX-11-15	15.0	xxxx-11-15		November 15	fb:part.november_15
+9	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+9	2	fb:cell.duke	Duke	duke	Duke	NNP	PERSON						
+9	3	fb:cell.null											
+9	4	fb:cell.memorial_stadium_clemson_sc_homecoming	Memorial Stadium • Clemson, SC (Homecoming)	memorial|stadium|•|clemson|,|sc|-lrb-|homecoming|-rrb-	Memorial|Stadium|•|Clemson|,|SC|-lrb-|Homecoming|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|ORGANIZATION|O|O|O|O|O	||||||||				Memorial Stadium • Clemson|SC (Homecoming)	fb:part.memorial_stadium_clemson|fb:part.sc_homecoming
+9	5	fb:cell.raycom	Raycom	raycom	Raycom	NNP	ORGANIZATION						
+9	6	fb:cell.w_31_7	W 31–7	w|31|--|7	W|31|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|31.0||7.0	31.0		7.0		
+9	7	fb:cell.76_217	76,217	76,217	76,217	CD	NUMBER	76217.0	76217.0				
+10	0	fb:cell.november_22	November 22	november|22	November|22	NNP|CD	DATE|DATE	XXXX-11-22|XXXX-11-22	22.0	xxxx-11-22		November 22	fb:part.november_22
+10	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+10	2	fb:cell.at_virginia	at Virginia	at|virginia	at|Virginia	IN|NNP	O|LOCATION	|					
+10	3	fb:cell.null											
+10	4	fb:cell.scott_stadium_charlottesville_va	Scott Stadium • Charlottesville, VA	scott|stadium|•|charlottesville|,|va	Scott|Stadium|•|Charlottesville|,|VA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|ORGANIZATION	|||||				Scott Stadium • Charlottesville|VA	fb:part.scott_stadium_charlottesville|fb:part.va
+10	5	fb:cell.raycom	Raycom	raycom	Raycom	NNP	ORGANIZATION						
+10	6	fb:cell.w_13_3	W 13–3	w|13|--|3	W|13|--|3	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|13.0||3.0	13.0		3.0		
+10	7	fb:cell.51_979	51,979	51,979	51,979	CD	NUMBER	51979.0	51979.0				
+11	0	fb:cell.november_29	November 29	november|29	November|29	NNP|CD	DATE|DATE	XXXX-11-29|XXXX-11-29	29.0	xxxx-11-29		November 29	fb:part.november_29
+11	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+11	2	fb:cell.south_carolina	South Carolina*	south|carolina|\\*	South|Carolina|\\*	NNP|NNP|SYM	LOCATION|LOCATION|O	||					
+11	3	fb:cell.null											
+11	4	fb:cell.memorial_stadium_clemson_sc_battle_for_the_palmetto_state_solid_orange_game	Memorial Stadium • Clemson, SC (Battle for the Palmetto State/Solid Orange Game)	memorial|stadium|•|clemson|,|sc|-lrb-|battle|for|the|palmetto|state\\/solid|orange|game|-rrb-	Memorial|Stadium|•|Clemson|,|sc|-lrb-|battle|for|the|Palmetto|State\\/Solid|Orange|Game|-rrb-	NNP|NNP|NNP|NNP|,|NN|-LRB-|NN|IN|DT|NNP|NNP|NNP|NNP|-RRB-	O|O|O|ORGANIZATION|O|O|O|O|O|O|MISC|MISC|MISC|MISC|O	||||||||||||||				Memorial Stadium • Clemson|SC (Battle for the Palmetto State|Solid Orange Game)	fb:part.memorial_stadium_clemson|fb:part.sc_battle_for_the_palmetto_state|fb:part.solid_orange_game
+11	5	fb:cell.espn2	ESPN2	espn2	espn2	NN	O		2.0				
+11	6	fb:cell.w_31_14	W 31–14	w|31|--|14	W|31|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|31.0||14.0	31.0		14.0		
+11	7	fb:cell.82_456	82,456	82,456	82,456	CD	NUMBER	82456.0	82456.0				
+12	0	fb:cell.january_1_2009	January 1, 2009	january|1|,|2009	January|1|,|2009	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2009-01-01|2009-01-01|2009-01-01|2009-01-01	12009.0	2009-01-01		January 1|2009	fb:part.january_1|fb:part.2009
+12	1	fb:cell.1_00_pm	1:00 PM	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+12	2	fb:cell.vs_nebraska	vs. Nebraska*	vs.|nebraska|\\*	vs.|Nebraska|\\*	CC|NNP|SYM	O|LOCATION|O	||					
+12	3	fb:cell.null											
+12	4	fb:cell.jacksonville_municipal_stadium_jacksonville_fl_gator_bowl	Jacksonville Municipal Stadium • Jacksonville, FL (Gator Bowl)	jacksonville|municipal|stadium|•|jacksonville|,|fl|-lrb-|gator|bowl|-rrb-	Jacksonville|Municipal|Stadium|•|Jacksonville|,|fl|-lrb-|Gator|Bowl|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NN|-LRB-|NNP|NNP|-RRB-	LOCATION|O|O|O|LOCATION|O|LOCATION|O|O|O|O	||||||||||				Jacksonville Municipal Stadium • Jacksonville|FL (Gator Bowl)	fb:part.jacksonville_municipal_stadium_jacksonville|fb:part.fl_gator_bowl
+12	5	fb:cell.cbs	CBS	cbs	CBS	NNP	O						
+12	6	fb:cell.l_21_26	L 21–26	l|21|--|26	l|21|--|26	NN|CD|:|CD	O|NUMBER|O|NUMBER	|21.0||26.0	21.0		26.0		
+12	7	fb:cell.67_282	67,282	67,282	67,282	CD	NUMBER	67282.0	67282.0				

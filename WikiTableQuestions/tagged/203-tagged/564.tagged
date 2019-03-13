@@ -1,0 +1,79 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.hand	Hand	hand	hand	NN	O						
+-1	1	fb:row.row.1_credit	1 credit	1|credit	1|credit	CD|NN	NUMBER|O	1.0|					
+-1	2	fb:row.row.2_credits	2 credits	2|credits	2|credit	CD|NNS	NUMBER|O	2.0|					
+-1	3	fb:row.row.3_credits	3 credits	3|credits	3|credit	CD|NNS	NUMBER|O	3.0|					
+-1	4	fb:row.row.4_credits	4 credits	4|credits	4|credit	CD|NNS	NUMBER|O	4.0|					
+-1	5	fb:row.row.5_credits	5 credits	5|credits	5|credit	CD|NNS	NUMBER|O	5.0|					
+0	0	fb:cell.royal_flush	Royal flush	royal|flush	Royal|flush	NNP|NN	O|O	|				Royal flush	fb:part.royal_flush
+0	1	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+0	2	fb:cell.500	500	500	500	CD	NUMBER	500.0	500.0				
+0	3	fb:cell.750	750	750	750	CD	NUMBER	750.0	750.0				
+0	4	fb:cell.1000	1000	1000	1000	CD	DATE	1000	1000.0	1000-xx-xx			
+0	5	fb:cell.4000	4000*	4000|\\*	4000|\\*	CD|SYM	NUMBER|O	4000.0|	4000.0				
+1	0	fb:cell.straight_flush	Straight flush	straight|flush	straight|flush	JJ|NN	O|O	|				Straight flush	fb:part.straight_flush
+1	1	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+1	2	fb:cell.120	120	120	120	CD	NUMBER	120.0	120.0				
+1	3	fb:cell.180	180	180	180	CD	NUMBER	180.0	180.0				
+1	4	fb:cell.240	240	240	240	CD	NUMBER	240.0	240.0				
+1	5	fb:cell.400	400	400	400	CD	NUMBER	400.0	400.0				
+2	0	fb:cell.four_aces	Four aces	four|aces	four|ace	CD|VBZ	NUMBER|O	4.0|				Four aces	fb:part.four_aces
+2	1	fb:cell.400	400	400	400	CD	NUMBER	400.0	400.0				
+2	2	fb:cell.800	800	800	800	CD	NUMBER	800.0	800.0				
+2	3	fb:cell.1200	1200	1200	1200	CD	DATE	1200	1200.0	1200-xx-xx			
+2	4	fb:cell.1600	1600	1600	1600	CD	DATE	1600	1600.0	1600-xx-xx			
+2	5	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+3	0	fb:cell.four_of_a_kind_2_4	Four of a kind, 2-4	four|of|a|kind|,|2-4	four|of|a|kind|,|2-4	CD|IN|DT|NN|,|CD	NUMBER|O|O|O|O|NUMBER	4.0|||||2.0 - 4.0	2.0		4.0	Four of a kind|2-4	fb:part.four_of_a_kind|fb:part.2_4
+3	1	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+3	2	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0				
+3	3	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+3	4	fb:cell.400	400	400	400	CD	NUMBER	400.0	400.0				
+3	5	fb:cell.500	500	500	500	CD	NUMBER	500.0	500.0				
+4	0	fb:cell.four_of_a_kind_5_k	Four of a kind, 5-K	four|of|a|kind|,|5|k	four|of|a|kind|,|5|k	CD|IN|DT|NN|,|CD|NN	NUMBER|O|O|O|O|NUMBER|O	4.0|||||5.0|	5.0			Four of a kind|5-K	fb:part.four_of_a_kind|fb:part.5_k
+4	1	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+4	2	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+4	3	fb:cell.150	150	150	150	CD	NUMBER	150.0	150.0				
+4	4	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0				
+4	5	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+5	0	fb:cell.full_house	Full house	full|house	full|house	JJ|NN	O|O	|				Full house	fb:part.full_house
+5	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+5	2	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+5	3	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+5	4	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+5	5	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+6	0	fb:cell.flush	Flush	flush	flush	JJ	O					Flush	fb:part.flush
+6	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+6	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+6	3	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+6	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+6	5	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+7	0	fb:cell.straight	Straight	straight	straight	NN	O					Straight	fb:part.straight
+7	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+7	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	3	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+7	4	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+7	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+8	0	fb:cell.three_of_a_kind	Three of a kind	three|of|a|kind	three|of|a|kind	CD|IN|DT|NN	NUMBER|O|O|O	3.0|||				Three of a kind	fb:part.three_of_a_kind
+8	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+8	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+8	3	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	4	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+8	5	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+9	0	fb:cell.two_pair	Two pair	two|pair	two|pair	CD|NN	NUMBER|O	2.0|				Two pair	fb:part.two_pair
+9	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+9	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+9	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+9	4	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+9	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+10	0	fb:cell.jacks_or_better	Jacks or better	jacks|or|better	Jacks|or|better	NNP|CC|JJR	O|O|O	||				Jacks or better	fb:part.jacks_or_better
+10	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+10	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+10	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+10	4	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+10	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+11	0	fb:cell.theoretical_return	Theoretical return	theoretical|return	theoretical|return	JJ|NN	O|O	|				Theoretical return	fb:part.theoretical_return
+11	1	fb:cell.98_68	98.68%	98.68|%	98.68|%	CD|NN	PERCENT|PERCENT	%98.68|%98.68	98.68				
+11	2	fb:cell.98_68	98.68%	98.68|%	98.68|%	CD|NN	PERCENT|PERCENT	%98.68|%98.68	98.68				
+11	3	fb:cell.98_68	98.68%	98.68|%	98.68|%	CD|NN	PERCENT|PERCENT	%98.68|%98.68	98.68				
+11	4	fb:cell.98_68	98.68%	98.68|%	98.68|%	CD|NN	PERCENT|PERCENT	%98.68|%98.68	98.68				
+11	5	fb:cell.99_92	99.92%*	99.92|%|\\*	99.92|%|\\*	CD|NN|SYM	PERCENT|PERCENT|O	%99.92|%99.92|	99.92				

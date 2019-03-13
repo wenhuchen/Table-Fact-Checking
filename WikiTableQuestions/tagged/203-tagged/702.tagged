@@ -1,0 +1,309 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.type	Type	type	type	NN	O						
+-1	2	fb:row.row.technologies	Technologies	technologies	Technologies	NNPS	O						
+-1	3	fb:row.row.author	Author	author	author	NN	O						
+-1	4	fb:row.row.presented_last_updated	Presented /\nLast updated	presented|\\/|last|updated	present|\\/|last|update	VBN|:|JJ|VBN	O|O|O|O	|||					
+-1	5	fb:row.row.licence	Licence*	licence|\\*	Licence|\\*	NNP|SYM	O|O	|					
+-1	6	fb:row.row.homepage	Homepage	homepage	homepage	NN	O						
+0	0	fb:cell.abyss	ABySS	abyss	abyss	NN	O					ABySS	fb:part.abyss
+0	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+0	2	fb:cell.solexa_solid	Solexa, SOLiD	solexa|,|solid	Solexa|,|SOLiD	NNP|,|NNP	ORGANIZATION|O|O	||				Solexa|SOLiD	fb:part.solexa|fb:part.solid
+0	3	fb:cell.simpson_j_et_al	Simpson, J. et al.	simpson|,|j.|et|al.|.	Simpson|,|J.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Simpson|J. et al.	fb:part.simpson|fb:part.j_et_al
+0	4	fb:cell.2008_2011	2008 / 2011	2008|\\/|2011	2008|\\/|2011	CD|:|CD	DATE|DATE|DATE	2008|2008|2011	2008.0		2011.0	2008|2011	fb:part.2008|fb:part.2011
+0	5	fb:cell.nc_a	NC-A	nc|a	nc|a	NN|NN	O|O	|				NC-A	fb:part.nc_a
+0	6	fb:cell.link	link	link	link	NN	O						
+1	0	fb:cell.allpaths_lg	ALLPATHS-LG	allpaths|lg	ALLPATHS|LG	NNP|NNP	O|O	|				ALLPATHS-LG	fb:part.allpaths_lg
+1	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+1	2	fb:cell.solexa_solid	Solexa, SOLiD	solexa|,|solid	Solexa|,|SOLiD	NNP|,|NNP	ORGANIZATION|O|O	||				Solexa|SOLiD	fb:part.solexa|fb:part.solid
+1	3	fb:cell.gnerre_s_et_al	Gnerre, S. et al.	gnerre|,|s.|et|al.|.	Gnerre|,|S.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Gnerre|S. et al.	fb:part.gnerre|fb:part.s_et_al
+1	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+1	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+1	6	fb:cell.link	link	link	link	NN	O						
+2	0	fb:cell.amos	AMOS	amos	amo	NNS	ORGANIZATION					AMOS	fb:part.amos
+2	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+2	2	fb:cell.sanger_454	Sanger, 454	sanger|,|454	Sanger|,|454	NNP|,|CD	PERSON|O|NUMBER	||454.0	454.0			Sanger|454	fb:part.sanger|fb:part.454
+2	3	fb:cell.salzberg_s_et_al	Salzberg, S. et al.	salzberg|,|s.|et|al.|.	Salzberg|,|S.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Salzberg|S. et al.	fb:part.salzberg|fb:part.s_et_al
+2	4	fb:cell.2002_2008	2002? / 2008?	2002|?|\\/|2008|?	2002|?|\\/|2008|?	CD|.|:|CD|.	DATE|O|O|DATE|O	2002|||2008|	2002.0		2008.0	2002?|2008?	fb:part.2002|fb:part.2008_2
+2	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+2	6	fb:cell.link	link	link	link	NN	O						
+3	0	fb:cell.arapan_m	Arapan-M	arapan|m	arapan|m	NN|NN	MISC|MISC	|				Arapan-M	fb:part.arapan_m
+3	1	fb:cell.medium_genomes_e_g_e_coli	Medium Genomes (e.g. E.coli)	medium|genomes|-lrb-|e.g.|e.coli|-rrb-	medium|genome|-lrb-|e.g.|e.coli|-rrb-	NN|NNS|-LRB-|FW|FW|-RRB-	O|O|O|O|O|O	|||||				Medium Genomes (e.g. E.coli)	fb:part.medium_genomes_e_g_e_coli
+3	2	fb:cell.all	All	all	all	DT	O					All	fb:part.all
+3	3	fb:cell.sahli_m_shibuya_t	Sahli, M. & Shibuya, T.	sahli|,|m.|&|shibuya|,|t.	Sahli|,|M.|&|Shibuya|,|T.	NNP|,|NNP|CC|NNP|,|NNP	PERSON|O|O|O|O|O|O	||||||				Sahli|M. & Shibuya|T.	fb:part.sahli|fb:part.m_shibuya|fb:part.t
+3	4	fb:cell.2011_2012	2011 / 2012	2011|\\/|2012	2011|\\/|2012	CD|:|CD	DATE|DATE|DATE	2011|2011|2012	2011.0		2012.0	2011|2012	fb:part.2011|fb:part.2012
+3	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+3	6	fb:cell.link	link	link	link	NN	O						
+4	0	fb:cell.arapan_s	Arapan-S	arapan|s	arapan|s	JJ|NN	O|O	|				Arapan-S	fb:part.arapan_s
+4	1	fb:cell.small_genomes_viruses_and_bacteria	Small Genomes (Viruses and Bacteria)	small|genomes|-lrb-|viruses|and|bacteria|-rrb-	small|genome|-lrb-|virus|and|bacterium|-rrb-	JJ|NNS|-LRB-|NNS|CC|NNS|-RRB-	O|O|O|O|O|O|O	||||||				Small Genomes (Viruses and Bacteria)	fb:part.small_genomes_viruses_and_bacteria
+4	2	fb:cell.all	All	all	all	DT	O					All	fb:part.all
+4	3	fb:cell.sahli_m_shibuya_t	Sahli, M. & Shibuya, T.	sahli|,|m.|&|shibuya|,|t.	Sahli|,|M.|&|Shibuya|,|T.	NNP|,|NNP|CC|NNP|,|NNP	PERSON|O|O|O|O|O|O	||||||				Sahli|M. & Shibuya|T.	fb:part.sahli|fb:part.m_shibuya|fb:part.t
+4	4	fb:cell.2011_2012	2011 / 2012	2011|\\/|2012	2011|\\/|2012	CD|:|CD	DATE|DATE|DATE	2011|2011|2012	2011.0		2012.0	2011|2012	fb:part.2011|fb:part.2012
+4	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+4	6	fb:cell.link	link	link	link	NN	O						
+5	0	fb:cell.celera_wga_assembler_cabog	Celera WGA Assembler / CABOG	celera|wga|assembler|\\/|cabog	Celera|WGA|Assembler|\\/|CABOG	NNP|NNP|NNP|:|NNP	ORGANIZATION|ORGANIZATION|O|O|O	||||				Celera WGA Assembler|CABOG	fb:part.celera_wga_assembler|fb:part.cabog
+5	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+5	2	fb:cell.sanger_454_solexa	Sanger, 454, Solexa	sanger|,|454|,|solexa	Sanger|,|454|,|Solexa	NNP|,|CD|,|NNP	PERSON|O|NUMBER|O|ORGANIZATION	||454.0||	454.0			Sanger|454|Solexa	fb:part.sanger|fb:part.454|fb:part.solexa
+5	3	fb:cell.myers_g_et_al_miller_g_et_al	Myers, G. et al.; Miller G. et al.	myers|,|g.|et|al.|;|miller|g.|et|al.|.	Myers|,|G.|et|al.|;|Miller|G.|et|al.|.	NNP|,|NNP|FW|FW|:|NNP|NNP|FW|FW|.	PERSON|O|O|O|O|O|PERSON|O|O|O|O	||||||||||				Myers|G. et al.; Miller G. et al.	fb:part.myers|fb:part.g_et_al_miller_g_et_al
+5	4	fb:cell.2004_2010	2004 / 2010	2004|\\/|2010	2004|\\/|2010	CD|:|CD	DATE|DATE|DATE	2004|2004|2010	2004.0		2010.0	2004|2010	fb:part.2004|fb:part.2010
+5	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+5	6	fb:cell.link	link	link	link	NN	O						
+6	0	fb:cell.clc_genomics_workbench_clc_assembly_cell	CLC Genomics Workbench & CLC Assembly Cell	clc|genomics|workbench|&|clc|assembly|cell	clc|genomic|Workbench|&|clc|assembly|cell	NN|NNS|NNP|CC|NN|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				CLC Genomics Workbench & CLC Assembly Cell	fb:part.clc_genomics_workbench_clc_assembly_cell
+6	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+6	2	fb:cell.sanger_454_solexa_solid	Sanger, 454, Solexa, SOLiD	sanger|,|454|,|solexa|,|solid	Sanger|,|454|,|Solexa|,|SOLiD	NNP|,|CD|,|NNP|,|NNP	PERSON|O|NUMBER|O|ORGANIZATION|O|O	||454.0||||	454.0			Sanger|454|Solexa|SOLiD	fb:part.sanger|fb:part.454|fb:part.solexa|fb:part.solid
+6	3	fb:cell.clc_bio	CLC bio	clc|bio	clc|bio	NN|NN	O|O	|				CLC bio	fb:part.clc_bio
+6	4	fb:cell.2008_2010_2011	2008 / 2010 / 2011	2008|\\/|2010|\\/|2011	2008|\\/|2010|\\/|2011	CD|:|CD|:|CD	DATE|DATE|DATE|DATE|DATE	2008|2008|2010|2010|2011	2008.0		2010.0	2008|2010|2011	fb:part.2008|fb:part.2010|fb:part.2011
+6	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+6	6	fb:cell.link	link	link	link	NN	O						
+7	0	fb:cell.cortex	Cortex	cortex	cortex	NN	O					Cortex	fb:part.cortex
+7	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+7	2	fb:cell.solexa_solid	Solexa, SOLiD	solexa|,|solid	Solexa|,|SOLiD	NNP|,|NNP	ORGANIZATION|O|O	||				Solexa|SOLiD	fb:part.solexa|fb:part.solid
+7	3	fb:cell.iqbal_z_et_al	Iqbal, Z. et al.	iqbal|,|z.|et|al.|.	Iqbal|,|Z.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Iqbal|Z. et al.	fb:part.iqbal|fb:part.z_et_al
+7	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+7	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+7	6	fb:cell.link	link	link	link	NN	O						
+8	0	fb:cell.dna_baser	DNA Baser	dna|baser	dna|baser	NN|NN	O|O	|				DNA Baser	fb:part.dna_baser
+8	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+8	2	fb:cell.sanger_454	Sanger, 454	sanger|,|454	Sanger|,|454	NNP|,|CD	PERSON|O|NUMBER	||454.0	454.0			Sanger|454	fb:part.sanger|fb:part.454
+8	3	fb:cell.heracle_biosoft_srl	Heracle BioSoft SRL	heracle|biosoft|srl	Heracle|BioSoft|SRL	NNP|NNP|NNP	O|O|O	||				Heracle BioSoft SRL	fb:part.heracle_biosoft_srl
+8	4	fb:cell.01_2014	01.2014	01.2014	01.2014	CD	NUMBER	1.2014	1.2014			01.2014	fb:part.01_2014
+8	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+8	6	fb:cell.www_dnabaser_com	www.DnaBaser.com	www.dnabaser.com	www.DnaBaser.com	NNP	O						
+9	0	fb:cell.dna_dragon	DNA Dragon	dna|dragon	dna|Dragon	NN|NNP	O|O	|				DNA Dragon	fb:part.dna_dragon
+9	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+9	2	fb:cell.illumina_solid_complete_genomics_454_sanger	Illumina, SOLiD, Complete Genomics, 454, Sanger	illumina|,|solid|,|complete|genomics|,|454|,|sanger	Illumina|,|SOLiD|,|complete|genomic|,|454|,|Sanger	NNP|,|NNP|,|JJ|NNS|,|CD|,|NNP	ORGANIZATION|O|O|O|O|O|O|NUMBER|O|PERSON	|||||||454.0||	454.0			Illumina|SOLiD|Complete Genomics|454|Sanger	fb:part.illumina|fb:part.solid|fb:part.complete_genomics|fb:part.454|fb:part.sanger
+9	3	fb:cell.sequentix	SequentiX	sequentix	sequentix	NN	O					SequentiX	fb:part.sequentix
+9	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+9	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+9	6	fb:cell.link	link	link	link	NN	O						
+10	0	fb:cell.dnanexus	DNAnexus	dnanexus	dnanexus	NN	O					DNAnexus	fb:part.dnanexus
+10	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+10	2	fb:cell.illumina_solid_complete_genomics	Illumina, SOLiD, Complete Genomics	illumina|,|solid|,|complete|genomics	Illumina|,|SOLiD|,|complete|genomic	NNP|,|NNP|,|JJ|NNS	ORGANIZATION|O|O|O|O|O	|||||				Illumina|SOLiD|Complete Genomics	fb:part.illumina|fb:part.solid|fb:part.complete_genomics
+10	3	fb:cell.dnanexus	DNAnexus	dnanexus	dnanexus	NN	O					DNAnexus	fb:part.dnanexus
+10	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+10	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+10	6	fb:cell.link	link	link	link	NN	O						
+11	0	fb:cell.edena	Edena	edena	Edena	NNP	PERSON					Edena	fb:part.edena
+11	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+11	2	fb:cell.illumina	Illumina	illumina	Illumina	NNP	PERSON					Illumina	fb:part.illumina
+11	3	fb:cell.d_hernandez_p_francois_l_farinelli_m_osteras_and_j_schrenzel	D. Hernandez, P. François, L. Farinelli, M. Osteras, and J. Schrenzel.	d.|hernandez|,|p.|françois|,|l.|farinelli|,|m.|osteras|,|and|j.|schrenzel|.	D.|Hernandez|,|P.|François|,|L.|Farinelli|,|M.|Osteras|,|and|J.|Schrenzel|.	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|CC|NNP|NNP|.	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|O|PERSON|PERSON|O	|||||||||||||||				D. Hernandez|P. François|L. Farinelli|M. Osteras|and J. Schrenzel.	fb:part.d_hernandez|fb:part.p_francois|fb:part.l_farinelli|fb:part.m_osteras|fb:part.and_j_schrenzel
+11	4	fb:cell.2008_2013	2008/2013	2008\\/2013	2008\\/2013	CD	NUMBER		2008.0		2013.0	2008|2013	fb:part.2008|fb:part.2013
+11	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+11	6	fb:cell.link	link	link	link	NN	O						
+12	0	fb:cell.euler	Euler	euler	Euler	NNP	PERSON					Euler	fb:part.euler
+12	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+12	2	fb:cell.sanger_454_solexa_2	Sanger, 454 (,Solexa ?)	sanger|,|454|-lrb-|,|solexa|?|-rrb-	Sanger|,|454|-lrb-|,|Solexa|?|-rrb-	NNP|,|CD|-LRB-|,|NNP|.|-RRB-	PERSON|O|NUMBER|O|O|ORGANIZATION|O|O	||454.0|||||	454.0			Sanger|454 (,Solexa ?)	fb:part.sanger|fb:part.454_solexa
+12	3	fb:cell.pevzner_p_et_al	Pevzner, P. et al.	pevzner|,|p.|et|al.|.	Pevzner|,|P.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Pevzner|P. et al.	fb:part.pevzner|fb:part.p_et_al
+12	4	fb:cell.2001_2006	2001 / 2006?	2001|\\/|2006|?	2001|\\/|2006|?	CD|:|CD|.	DATE|DATE|DATE|O	2001|2001|2006|	2001.0		2006.0	2001|2006?	fb:part.2001|fb:part.2006
+12	5	fb:cell._c_nc_a	(C / NC-A?)	-lrb-|c|\\/|nc|a|?|-rrb-	-lrb-|c|\\/|nc|a|?|-rrb-	-LRB-|NN|:|NN|NN|.|-RRB-	O|O|O|O|O|O|O	||||||				(C|NC-A?)	fb:part._c|fb:part.nc_a_2
+12	6	fb:cell.link	link	link	link	NN	O						
+13	0	fb:cell.euler_sr	Euler-sr	euler|sr	Euler|sr	NNP|NN	PERSON|O	|				Euler-sr	fb:part.euler_sr
+13	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+13	2	fb:cell.454_solexa	454, Solexa	454|,|solexa	454|,|Solexa	CD|,|NNP	NUMBER|O|ORGANIZATION	454.0||	454.0			454|Solexa	fb:part.454|fb:part.solexa
+13	3	fb:cell.chaisson_mj_et_al	Chaisson, MJ. et al.	chaisson|,|mj|.|et|al.|.	Chaisson|,|MJ|.|et|al.|.	NNP|,|NNP|.|FW|FW|.	PERSON|O|ORGANIZATION|O|O|O|O	||||||				Chaisson|MJ. et al.	fb:part.chaisson|fb:part.mj_et_al
+13	4	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx		2008	fb:part.2008
+13	5	fb:cell.nc_a	NC-A	nc|a	nc|a	NN|NN	O|O	|				NC-A	fb:part.nc_a
+13	6	fb:cell.link	link	link	link	NN	O						
+14	0	fb:cell.forge	Forge	forge	Forge	NNP	O					Forge	fb:part.forge
+14	1	fb:cell._large_genomes_est_metagenomes	(large) genomes, EST, metagenomes	-lrb-|large|-rrb-|genomes|,|est|,|metagenomes	-lrb-|large|-rrb-|genome|,|EST|,|metagenome	-LRB-|JJ|-RRB-|NNS|,|NNP|,|NNS	O|O|O|O|O|O|O|O	|||||||				(large) genomes|EST|metagenomes	fb:part._large_genomes|fb:part.est|fb:part.metagenomes
+14	2	fb:cell.454_solexa_solid_sanger	454, Solexa, SOLID, Sanger	454|,|solexa|,|solid|,|sanger	454|,|Solexa|,|SOLID|,|Sanger	CD|,|NNP|,|NNP|,|NNP	NUMBER|O|ORGANIZATION|O|O|O|PERSON	454.0||||||	454.0			454|Solexa|SOLID|Sanger	fb:part.454|fb:part.solexa|fb:part.solid|fb:part.sanger
+14	3	fb:cell.platt_dm_evers_d	Platt, DM, Evers, D.	platt|,|dm|,|evers|,|d.	Platt|,|dm|,|Evers|,|D.	NNP|,|NN|,|NNP|,|NNP	PERSON|O|O|O|PERSON|O|O	||||||				Platt|DM|Evers|D.	fb:part.platt|fb:part.dm|fb:part.evers|fb:part.d
+14	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx		2010	fb:part.2010
+14	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+14	6	fb:cell.link	link	link	link	NN	O						
+15	0	fb:cell.geneious	Geneious	geneious	geneious	JJ	O					Geneious	fb:part.geneious
+15	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+15	2	fb:cell.sanger_454_solexa_ion_torrent_complete_genomics_pacbio_oxford_nanopore_illumina	Sanger, 454, Solexa, Ion Torrent, Complete Genomics, PacBio, Oxford Nanopore, Illumina	sanger|,|454|,|solexa|,|ion|torrent|,|complete|genomics|,|pacbio|,|oxford|nanopore|,|illumina	Sanger|,|454|,|Solexa|,|Ion|Torrent|,|complete|genomic|,|PacBio|,|Oxford|Nanopore|,|Illumina	NNP|,|CD|,|NNP|,|NNP|NNP|,|JJ|NNS|,|NNP|,|NNP|NNP|,|NNP	PERSON|O|NUMBER|O|ORGANIZATION|O|PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|PERSON|PERSON|O|ORGANIZATION	||454.0|||||||||||||||	454.0			Sanger|454|Solexa|Ion Torrent|Complete Genomics|PacBio|Oxford Nanopore|Illumina	fb:part.sanger|fb:part.454|fb:part.solexa|fb:part.ion_torrent|fb:part.complete_genomics|fb:part.pacbio|fb:part.oxford_nanopore|fb:part.illumina
+15	3	fb:cell.biomatters_ltd	Biomatters Ltd	biomatters|ltd	biomatter|Ltd	NNS|NNP	ORGANIZATION|ORGANIZATION	|				Biomatters Ltd	fb:part.biomatters_ltd
+15	4	fb:cell.2009_2013	2009 / 2013	2009|\\/|2013	2009|\\/|2013	CD|:|CD	DATE|DATE|DATE	2009|2009|2013	2009.0		2013.0	2009|2013	fb:part.2009|fb:part.2013
+15	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+15	6	fb:cell.link	link	link	link	NN	O						
+16	0	fb:cell.graph_constructor	Graph Constructor	graph|constructor	graph|constructor	NN|NN	O|O	|				Graph Constructor	fb:part.graph_constructor
+16	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+16	2	fb:cell.sanger_454_solexa_solid	Sanger, 454, Solexa, SOLiD	sanger|,|454|,|solexa|,|solid	Sanger|,|454|,|Solexa|,|SOLiD	NNP|,|CD|,|NNP|,|NNP	PERSON|O|NUMBER|O|ORGANIZATION|O|O	||454.0||||	454.0			Sanger|454|Solexa|SOLiD	fb:part.sanger|fb:part.454|fb:part.solexa|fb:part.solid
+16	3	fb:cell.convey_computer_corporation	Convey Computer Corporation	convey|computer|corporation	Convey|Computer|Corporation	NNP|NNP|NNP	O|O|O	||				Convey Computer Corporation	fb:part.convey_computer_corporation
+16	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+16	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+16	6	fb:cell.link	link	link	link	NN	O						
+17	0	fb:cell.idba_iterative_de_bruijn_graph_short_read_assembler	IDBA (Iterative De Bruijn graph short read Assembler)	idba|-lrb-|iterative|de|bruijn|graph|short|read|assembler|-rrb-	idba|-lrb-|iterative|De|Bruijn|graph|short|read|assembler|-rrb-	NN|-LRB-|JJ|NNP|NNP|NN|JJ|NN|NN|-RRB-	ORGANIZATION|O|O|O|O|O|O|O|O|O	|||||||||				IDBA (Iterative De Bruijn graph short read Assembler)	fb:part.idba_iterative_de_bruijn_graph_short_read_assembler
+17	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+17	2	fb:cell.sanger_454_solexa_3	Sanger,454,Solexa	sanger|,454|,|solexa	Sanger|,454|,|Solexa	NNP|CD|,|NNP	PERSON|NUMBER|O|ORGANIZATION	|454.0||	454.0			Sanger,454,Solexa	fb:part.sanger_454_solexa
+17	3	fb:cell.yu_peng_henry_c_m_leung_siu_ming_yiu_francis_y_l_chin	Yu Peng, Henry C. M. Leung, Siu-Ming Yiu, Francis Y. L. Chin	yu|peng|,|henry|c.|m.|leung|,|siu|ming|yiu|,|francis|y.|l.|chin	Yu|Peng|,|Henry|C.|M.|Leung|,|Siu|Ming|Yiu|,|Francis|Y.|L.|Chin	NNP|NNP|,|NNP|NNP|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON|PERSON	|||||||||||||||				Yu Peng|Henry C. M. Leung|Siu-Ming Yiu|Francis Y. L. Chin	fb:part.yu_peng|fb:part.henry_c_m_leung|fb:part.siu_ming_yiu|fb:part.francis_y_l_chin
+17	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx		2010	fb:part.2010
+17	5	fb:cell._c_nc_a	(C / NC-A?)	-lrb-|c|\\/|nc|a|?|-rrb-	-lrb-|c|\\/|nc|a|?|-rrb-	-LRB-|NN|:|NN|NN|.|-RRB-	O|O|O|O|O|O|O	||||||				(C|NC-A?)	fb:part._c|fb:part.nc_a_2
+17	6	fb:cell.link	link	link	link	NN	O						
+18	0	fb:cell.ligr_assembler_derived_from_tigr_assembler	LIGR Assembler (derived from TIGR Assembler)	ligr|assembler|-lrb-|derived|from|tigr|assembler|-rrb-	LIGR|Assembler|-lrb-|derive|from|TIGR|Assembler|-rrb-	NNP|NNP|-LRB-|VBN|IN|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O	|||||||				LIGR Assembler (derived from TIGR Assembler)	fb:part.ligr_assembler_derived_from_tigr_assembler
+18	1	fb:cell.genomic	genomic	genomic	genomic	JJ	O					genomic	fb:part.genomic
+18	2	fb:cell.sanger	Sanger	sanger	Sanger	NNP	PERSON					Sanger	fb:part.sanger
+18	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+18	4	fb:cell.2009_2012	2009/ 2012	2009|\\/|2012	2009|\\/|2012	CD|:|CD	DATE|DATE|DATE	2009|2009|2012	2009.0		2012.0	2009|2012	fb:part.2009|fb:part.2012
+18	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+18	6	fb:cell.link	link	link	link	NN	O						
+19	0	fb:cell.masurca_maryland_super_read_celera_assembler	MaSuRCA (Maryland Super Read - Celera Assembler)	masurca|-lrb-|maryland|super|read|-|celera|assembler|-rrb-	masurca|-lrb-|Maryland|Super|Read|-|Celera|Assembler|-rrb-	NN|-LRB-|NNP|NNP|NNP|:|NNP|NNP|-RRB-	O|O|LOCATION|O|O|O|O|O|O	||||||||				MaSuRCA (Maryland Super Read - Celera Assembler)	fb:part.masurca_maryland_super_read_celera_assembler
+19	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+19	2	fb:cell.sanger_illumina_454	Sanger, Illumina, 454	sanger|,|illumina|,|454	Sanger|,|Illumina|,|454	NNP|,|NNP|,|CD	PERSON|O|ORGANIZATION|O|NUMBER	||||454.0	454.0			Sanger|Illumina|454	fb:part.sanger|fb:part.illumina|fb:part.454
+19	3	fb:cell.aleksey_zimin_guillaume_marcais_daniela_puiu_michael_roberts_steven_l_salzberg_james_a_yorke	Aleksey Zimin, Guillaume Marçais, Daniela Puiu, Michael Roberts, Steven L. Salzberg, James A. Yorke	aleksey|zimin|,|guillaume|marçais|,|daniela|puiu|,|michael|roberts|,|steven|l.|salzberg|,|james|a.|yorke	Aleksey|Zimin|,|Guillaume|Marçais|,|Daniela|Puiu|,|Michael|Roberts|,|Steven|L.|Salzberg|,|James|A.|Yorke	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON	||||||||||||||||||				Aleksey Zimin|Guillaume Marçais|Daniela Puiu|Michael Roberts|Steven L. Salzberg|James A. Yorke	fb:part.aleksey_zimin|fb:part.guillaume_marcais|fb:part.daniela_puiu|fb:part.michael_roberts|fb:part.steven_l_salzberg|fb:part.james_a_yorke
+19	4	fb:cell.2012_2013	2012 / 2013	2012|\\/|2013	2012|\\/|2013	CD|:|CD	DATE|DATE|DATE	2012|2012|2013	2012.0		2013.0	2012|2013	fb:part.2012|fb:part.2013
+19	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+19	6	fb:cell.link	link	link	link	NN	O						
+20	0	fb:cell.mira_mimicking_intelligent_read_assembly	MIRA (Mimicking Intelligent Read Assembly)	mira|-lrb-|mimicking|intelligent|read|assembly|-rrb-	mira|-lrb-|mimic|intelligent|Read|Assembly|-rrb-	NN|-LRB-|VBG|JJ|NNP|NNP|-RRB-	ORGANIZATION|O|O|O|O|O|O	||||||				MIRA (Mimicking Intelligent Read Assembly)	fb:part.mira_mimicking_intelligent_read_assembly
+20	1	fb:cell.genomes_ests	genomes, ESTs	genomes|,|ests	genome|,|est	NNS|,|NNS	O|O|O	||				genomes|ESTs	fb:part.genomes|fb:part.ests
+20	2	fb:cell.sanger_454_solexa	Sanger, 454, Solexa	sanger|,|454|,|solexa	Sanger|,|454|,|Solexa	NNP|,|CD|,|NNP	PERSON|O|NUMBER|O|ORGANIZATION	||454.0||	454.0			Sanger|454|Solexa	fb:part.sanger|fb:part.454|fb:part.solexa
+20	3	fb:cell.chevreux_b	Chevreux, B.	chevreux|,|b.	Chevreux|,|B.	NNP|,|NNP	PERSON|O|O	||				Chevreux|B.	fb:part.chevreux|fb:part.b
+20	4	fb:cell.1998_2011	1998 / 2011	1998|\\/|2011	1998|\\/|2011	CD|:|CD	DATE|DATE|DATE	1998|1998|2011	1998.0		2011.0	1998|2011	fb:part.1998|fb:part.2011
+20	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+20	6	fb:cell.link	link	link	link	NN	O						
+21	0	fb:cell.nextgene	NextGENe	nextgene	nextgene	NN	O					NextGENe	fb:part.nextgene
+21	1	fb:cell._small_genomes	(small genomes?)	-lrb-|small|genomes|?|-rrb-	-lrb-|small|genome|?|-rrb-	-LRB-|JJ|NNS|.|-RRB-	O|O|O|O|O	||||				(small genomes?)	fb:part._small_genomes
+21	2	fb:cell.454_solexa_solid	454, Solexa, SOLiD	454|,|solexa|,|solid	454|,|Solexa|,|SOLiD	CD|,|NNP|,|NNP	NUMBER|O|ORGANIZATION|O|O	454.0||||	454.0			454|Solexa|SOLiD	fb:part.454|fb:part.solexa|fb:part.solid
+21	3	fb:cell.softgenetics	Softgenetics	softgenetics	softgenetic	NNS	O					Softgenetics	fb:part.softgenetics
+21	4	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx		2008	fb:part.2008
+21	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+21	6	fb:cell.link	link	link	link	NN	O						
+22	0	fb:cell.newbler	Newbler	newbler	Newbler	NNP	O					Newbler	fb:part.newbler
+22	1	fb:cell.genomes_ests	genomes, ESTs	genomes|,|ests	genome|,|est	NNS|,|NNS	O|O|O	||				genomes|ESTs	fb:part.genomes|fb:part.ests
+22	2	fb:cell.454_sanger	454, Sanger	454|,|sanger	454|,|Sanger	CD|,|NNP	NUMBER|O|PERSON	454.0||	454.0			454|Sanger	fb:part.454|fb:part.sanger
+22	3	fb:cell.454_roche	454/Roche	454\\/roche	454\\/roche	NN	O		454.0			454|Roche	fb:part.454|fb:part.roche
+22	4	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx		2009	fb:part.2009
+22	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+22	6	fb:cell.link	link	link	link	NN	O						
+23	0	fb:cell.padena	PADENA	padena	padena	NN	O					PADENA	fb:part.padena
+23	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+23	2	fb:cell.454_sanger	454, Sanger	454|,|sanger	454|,|Sanger	CD|,|NNP	NUMBER|O|PERSON	454.0||	454.0			454|Sanger	fb:part.454|fb:part.sanger
+23	3	fb:cell.454_roche	454/Roche	454\\/roche	454\\/roche	NN	O		454.0			454|Roche	fb:part.454|fb:part.roche
+23	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx		2010	fb:part.2010
+23	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+23	6	fb:cell.link	link	link	link	NN	O						
+24	0	fb:cell.pasha	PASHA	pasha	PASHA	NNP	PERSON					PASHA	fb:part.pasha
+24	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+24	2	fb:cell.illumina	Illumina	illumina	Illumina	NNP	PERSON					Illumina	fb:part.illumina
+24	3	fb:cell.liu_schmidt_maskell	Liu, Schmidt, Maskell	liu|,|schmidt|,|maskell	Liu|,|Schmidt|,|Maskell	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Liu|Schmidt|Maskell	fb:part.liu|fb:part.schmidt|fb:part.maskell
+24	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+24	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+24	6	fb:cell.link	link	link	link	NN	O						
+25	0	fb:cell.phrap	Phrap	phrap	phrap	NN	O					Phrap	fb:part.phrap
+25	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+25	2	fb:cell.sanger_454_solexa	Sanger, 454, Solexa	sanger|,|454|,|solexa	Sanger|,|454|,|Solexa	NNP|,|CD|,|NNP	PERSON|O|NUMBER|O|ORGANIZATION	||454.0||	454.0			Sanger|454|Solexa	fb:part.sanger|fb:part.454|fb:part.solexa
+25	3	fb:cell.green_p	Green, P.	green|,|p.	Green|,|P.	NNP|,|NNP	O|O|O	||				Green|P.	fb:part.green|fb:part.p
+25	4	fb:cell.1994_2008	1994 / 2008	1994|\\/|2008	1994|\\/|2008	CD|:|CD	DATE|DATE|DATE	1994|1994|2008	1994.0		2008.0	1994|2008	fb:part.1994|fb:part.2008
+25	5	fb:cell.c_nc_a	C / NC-A	c|\\/|nc|a	c|\\/|nc|a	NN|:|NN|NN	O|O|O|O	|||				C|NC-A	fb:part.c|fb:part.nc_a
+25	6	fb:cell.link	link	link	link	NN	O						
+26	0	fb:cell.tigr_assembler	TIGR Assembler	tigr|assembler	TIGR|Assembler	NNP|NNP	O|O	|				TIGR Assembler	fb:part.tigr_assembler
+26	1	fb:cell.genomic	genomic	genomic	genomic	JJ	O					genomic	fb:part.genomic
+26	2	fb:cell.sanger	Sanger	sanger	Sanger	NNP	PERSON					Sanger	fb:part.sanger
+26	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+26	4	fb:cell.1995_2003	1995 / 2003	1995|\\/|2003	1995|\\/|2003	CD|:|CD	DATE|DATE|DATE	1995|1995|2003	1995.0		2003.0	1995|2003	fb:part.1995|fb:part.2003
+26	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+26	6	fb:cell.link	link	link	link	NN	O						
+27	0	fb:cell.ray	Ray	ray	Ray	NNP	PERSON					Ray	fb:part.ray
+27	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+27	2	fb:cell.illumina_mix_of_illumina_and_454_paired_or_not	Illumina, mix of Illumina and 454, paired or not	illumina|,|mix|of|illumina|and|454|,|paired|or|not	Illumina|,|mix|of|Illumina|and|454|,|paired|or|not	NNP|,|NN|IN|NNP|CC|CD|,|JJ|CC|RB	ORGANIZATION|O|O|O|ORGANIZATION|O|NUMBER|O|O|O|O	||||||454.0||||	454.0			Illumina|mix of Illumina and 454|paired or not	fb:part.illumina|fb:part.mix_of_illumina_and_454|fb:part.paired_or_not
+27	3	fb:cell.sebastien_boisvert_francois_laviolette_jacques_corbeil	Sébastien Boisvert, François Laviolette & Jacques Corbeil.	sébastien|boisvert|,|françois|laviolette|&|jacques|corbeil|.	Sébastien|Boisvert|,|François|Laviolette|&|Jacques|Corbeil|.	NNP|NNP|,|NNP|NNP|CC|NNP|NNP|.	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||||||				Sébastien Boisvert|François Laviolette & Jacques Corbeil.	fb:part.sebastien_boisvert|fb:part.francois_laviolette_jacques_corbeil
+27	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx		2010	fb:part.2010
+27	5	fb:cell.os_gnu_general_public_license	OS [GNU General Public License]	os|-lsb-|gnu|general|public|license|-rsb-	os|-lsb-|GNU|General|Public|License|-rsb-	NN|-LRB-|NNP|NNP|NNP|NNP|-RRB-	O|O|O|O|O|O|O	||||||				OS [GNU General Public License]	fb:part.os_gnu_general_public_license
+27	6	fb:cell.link	link	link	link	NN	O						
+28	0	fb:cell.sequencher	Sequencher	sequencher	sequencher	NN	O					Sequencher	fb:part.sequencher
+28	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+28	2	fb:cell.traditional_and_next_generation_sequence_data	traditional and next generation sequence data	traditional|and|next|generation|sequence|data	traditional|and|next|generation|sequence|datum	JJ|CC|JJ|NN|NN|NNS	O|O|O|O|O|O	|||||				traditional and next generation sequence data	fb:part.traditional_and_next_generation_sequence_data
+28	3	fb:cell.gene_codes_corporation	Gene Codes Corporation	gene|codes|corporation	Gene|Codes|Corporation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Gene Codes Corporation	fb:part.gene_codes_corporation
+28	4	fb:cell.1991_2009_2011	1991 / 2009 / 2011	1991|\\/|2009|\\/|2011	1991|\\/|2009|\\/|2011	CD|:|CD|:|CD	DATE|DATE|DATE|DATE|DATE	1991|1991|2009|2009|2011	1991.0		2009.0	1991|2009|2011	fb:part.1991|fb:part.2009|fb:part.2011
+28	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+28	6	fb:cell.link	link	link	link	NN	O						
+29	0	fb:cell.seqman_ngen	SeqMan NGen	seqman|ngen	SeqMan|NGen	NNP|NNP	MISC|MISC	|				SeqMan NGen	fb:part.seqman_ngen
+29	1	fb:cell._large_genomes_exomes_transcriptomes_metagenomes_ests	(large) genomes, exomes, transcriptomes, metagenomes, ESTs	-lrb-|large|-rrb-|genomes|,|exomes|,|transcriptomes|,|metagenomes|,|ests	-lrb-|large|-rrb-|genome|,|exome|,|transcriptome|,|metagenome|,|est	-LRB-|JJ|-RRB-|NNS|,|NNS|,|NNS|,|NNS|,|NNS	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				(large) genomes|exomes|transcriptomes|metagenomes|ESTs	fb:part._large_genomes|fb:part.exomes|fb:part.transcriptomes|fb:part.metagenomes|fb:part.ests
+29	2	fb:cell.illumina_abi_solid_roche_454_ion_torrent_solexa_sanger	Illumina, ABI SOLiD, Roche 454, Ion Torrent, Solexa, Sanger	illumina|,|abi|solid|,|roche|454|,|ion|torrent|,|solexa|,|sanger	Illumina|,|ABI|SOLiD|,|Roche|454|,|Ion|Torrent|,|Solexa|,|Sanger	NNP|,|NNP|NNP|,|NNP|CD|,|NNP|NNP|,|NNP|,|NNP	ORGANIZATION|O|O|O|O|PERSON|NUMBER|O|PERSON|PERSON|O|ORGANIZATION|O|PERSON	||||||454.0|||||||	454.0			Illumina|ABI SOLiD|Roche 454|Ion Torrent|Solexa|Sanger	fb:part.illumina|fb:part.abi_solid|fb:part.roche_454|fb:part.ion_torrent|fb:part.solexa|fb:part.sanger
+29	3	fb:cell.dnastar	DNASTAR	dnastar	dnastar	NN	O					DNASTAR	fb:part.dnastar
+29	4	fb:cell.2007_2011	2007 / 2011	2007|\\/|2011	2007|\\/|2011	CD|:|CD	DATE|DATE|DATE	2007|2007|2011	2007.0		2011.0	2007|2011	fb:part.2007|fb:part.2011
+29	5	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+29	6	fb:cell.link	link	link	link	NN	O						
+30	0	fb:cell.sga	SGA	sga	SGA	NNP	O					SGA	fb:part.sga
+30	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+30	2	fb:cell.illumina_sanger_roche_454_ion_torrent	Illumina, Sanger (Roche 454?, Ion Torrent?)	illumina|,|sanger|-lrb-|roche|454|?|,|ion|torrent|?|-rrb-	Illumina|,|Sanger|-lrb-|Roche|454|?|,|Ion|Torrent|?|-rrb-	NNP|,|NNP|-LRB-|NNP|CD|.|,|NNP|NNP|.|-RRB-	ORGANIZATION|O|PERSON|O|ORGANIZATION|NUMBER|O|O|O|O|O|O	|||||454.0||||||	454.0			Illumina|Sanger (Roche 454?|Ion Torrent?)	fb:part.illumina|fb:part.sanger_roche_454|fb:part.ion_torrent_2
+30	3	fb:cell.simpson_j_t_et_al	Simpson, J.T. et al.	simpson|,|j.t.|et|al.|.	Simpson|,|J.T.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|PERSON|O|O|O	|||||				Simpson|J.T. et al.	fb:part.simpson|fb:part.j_t_et_al
+30	4	fb:cell.2011_2012	2011 / 2012	2011|\\/|2012	2011|\\/|2012	CD|:|CD	DATE|DATE|DATE	2011|2011|2012	2011.0		2012.0	2011|2012	fb:part.2011|fb:part.2012
+30	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+30	6	fb:cell.link	link	link	link	NN	O						
+31	0	fb:cell.sharcgs	SHARCGS	sharcgs	sharcg	NNS	O					SHARCGS	fb:part.sharcgs
+31	1	fb:cell._small_genomes_2	(small) genomes	-lrb-|small|-rrb-|genomes	-lrb-|small|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(small) genomes	fb:part._small_genomes_2
+31	2	fb:cell.solexa	Solexa	solexa	Solexa	NNP	LOCATION					Solexa	fb:part.solexa
+31	3	fb:cell.dohm_et_al	Dohm et al.	dohm|et|al.|.	Dohm|et|al.|.	NNP|FW|FW|.	PERSON|O|O|O	|||				Dohm et al.	fb:part.dohm_et_al
+31	4	fb:cell.2007_2007	2007 / 2007	2007|\\/|2007	2007|\\/|2007	CD|:|CD	DATE|DATE|DATE	2007|2007|2007	2007.0	2007-xx-xx	2007.0	2007|2007	fb:part.2007|fb:part.2007
+31	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+31	6	fb:cell.link	link	link	link	NN	O						
+32	0	fb:cell.sopra	SOPRA	sopra	SOPRA	NNP	O					SOPRA	fb:part.sopra
+32	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+32	2	fb:cell.illumina_solid_sanger_454	Illumina, SOLiD, Sanger, 454	illumina|,|solid|,|sanger|,|454	Illumina|,|SOLiD|,|Sanger|,|454	NNP|,|NNP|,|NNP|,|CD	ORGANIZATION|O|O|O|PERSON|O|NUMBER	||||||454.0	454.0			Illumina|SOLiD|Sanger|454	fb:part.illumina|fb:part.solid|fb:part.sanger|fb:part.454
+32	3	fb:cell.dayarian_a_et_al	Dayarian, A. et al.	dayarian|,|a.|et|al.|.	Dayarian|,|A.|et|al.|.	NNP|,|NNP|NNP|FW|.	MISC|O|O|O|O|O	|||||				Dayarian|A. et al.	fb:part.dayarian|fb:part.a_et_al
+32	4	fb:cell.2010_2011	2010 / 2011	2010|\\/|2011	2010|\\/|2011	CD|:|CD	DATE|DATE|DATE	2010|2010|2011	2010.0		2011.0	2010|2011	fb:part.2010|fb:part.2011
+32	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+32	6	fb:cell.link	link	link	link	NN	O						
+33	0	fb:cell.sparseassembler	SparseAssembler	sparseassembler	sparseassembler	NN	O					SparseAssembler	fb:part.sparseassembler
+33	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+33	2	fb:cell.illumina_454_ion_torrent	Illumina, 454, Ion torrent	illumina|,|454|,|ion|torrent	Illumina|,|454|,|ion|torrent	NNP|,|CD|,|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||454.0|||	454.0			Illumina|454|Ion torrent	fb:part.illumina|fb:part.454|fb:part.ion_torrent
+33	3	fb:cell.ye_c_et_al	Ye, C. et al.	ye|,|c.|et|al.|.	Ye|,|C.|et|al.|.	NNP|,|NNP|FW|FW|.	O|O|O|O|O|O	|||||				Ye|C. et al.	fb:part.ye|fb:part.c_et_al
+33	4	fb:cell.2012_2012	2012 / 2012	2012|\\/|2012	2012|\\/|2012	CD|:|CD	DATE|DATE|DATE	2012|2012|2012	2012.0	2012-xx-xx	2012.0	2012|2012	fb:part.2012|fb:part.2012
+33	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+33	6	fb:cell.link	link	link	link	NN	O						
+34	0	fb:cell.ssake	SSAKE	ssake	ssake	NN	O					SSAKE	fb:part.ssake
+34	1	fb:cell._small_genomes_2	(small) genomes	-lrb-|small|-rrb-|genomes	-lrb-|small|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(small) genomes	fb:part._small_genomes_2
+34	2	fb:cell.solexa_solid_helicos	Solexa (SOLiD? Helicos?)	solexa|-lrb-|solid|?|helicos|?|-rrb-	Solexa|-lrb-|SOLiD|?|Helicos|?|-rrb-	NNP|-LRB-|NNP|.|NNP|.|-RRB-	ORGANIZATION|O|O|O|O|O|O	||||||				Solexa (SOLiD? Helicos?)	fb:part.solexa_solid_helicos
+34	3	fb:cell.warren_r_et_al	Warren, R. et al.	warren|,|r.|et|al.|.	Warren|,|R.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Warren|R. et al.	fb:part.warren|fb:part.r_et_al
+34	4	fb:cell.2007_2007	2007 / 2007	2007|\\/|2007	2007|\\/|2007	CD|:|CD	DATE|DATE|DATE	2007|2007|2007	2007.0	2007-xx-xx	2007.0	2007|2007	fb:part.2007|fb:part.2007
+34	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+34	6	fb:cell.link	link	link	link	NN	O						
+35	0	fb:cell.soapdenovo	SOAPdenovo	soapdenovo	soapdenovo	NN	O					SOAPdenovo	fb:part.soapdenovo
+35	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+35	2	fb:cell.solexa	Solexa	solexa	Solexa	NNP	LOCATION					Solexa	fb:part.solexa
+35	3	fb:cell.li_r_et_al	Li, R. et al.	li|,|r.|et|al.|.	Li|,|R.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Li|R. et al.	fb:part.li|fb:part.r_et_al
+35	4	fb:cell.2009_2009	2009 / 2009	2009|\\/|2009	2009|\\/|2009	CD|:|CD	DATE|DATE|DATE	2009|2009|2009	2009.0	2009-xx-xx	2009.0	2009|2009	fb:part.2009|fb:part.2009
+35	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+35	6	fb:cell.link	link	link	link	NN	O						
+36	0	fb:cell.spades	SPAdes	spades	spade	NNS	O					SPAdes	fb:part.spades
+36	1	fb:cell._small_genomes_single_cell	(small) genomes, single-cell	-lrb-|small|-rrb-|genomes|,|single|cell	-lrb-|small|-rrb-|genome|,|single|cell	-LRB-|JJ|-RRB-|NNS|,|JJ|NN	O|O|O|O|O|O|O	||||||				(small) genomes|single-cell	fb:part._small_genomes_2|fb:part.single_cell
+36	2	fb:cell.illumina_solexa	Illumina, Solexa	illumina|,|solexa	Illumina|,|Solexa	NNP|,|NNP	ORGANIZATION|O|ORGANIZATION	||				Illumina|Solexa	fb:part.illumina|fb:part.solexa
+36	3	fb:cell.bankevich_a_et_al	Bankevich, A et al.	bankevich|,|a|et|al.|.	Bankevich|,|A|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Bankevich|A et al.	fb:part.bankevich|fb:part.a_et_al_2
+36	4	fb:cell.2012_2013	2012 / 2013	2012|\\/|2013	2012|\\/|2013	CD|:|CD	DATE|DATE|DATE	2012|2012|2013	2012.0		2013.0	2012|2013	fb:part.2012|fb:part.2013
+36	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+36	6	fb:cell.link	link	link	link	NN	O						
+37	0	fb:cell.staden_gap4_package	Staden gap4 package	staden|gap4|package	staden|gap4|package	JJ|NN|NN	PERSON|O|O	||	4.0			Staden gap4 package	fb:part.staden_gap4_package
+37	1	fb:cell.bacs_small_genomes	BACs (, small genomes?)	bacs|-lrb-|,|small|genomes|?|-rrb-	bac|-lrb-|,|small|genome|?|-rrb-	NNS|-LRB-|,|JJ|NNS|.|-RRB-	MISC|O|O|O|O|O|O	||||||				BACs (|small genomes?)	fb:part.bacs|fb:part.small_genomes
+37	2	fb:cell.sanger	Sanger	sanger	Sanger	NNP	PERSON					Sanger	fb:part.sanger
+37	3	fb:cell.staden_et_al	Staden et al.	staden|et|al.|.	Staden|et|al.|.	NNP|FW|FW|.	PERSON|O|O|O	|||				Staden et al.	fb:part.staden_et_al
+37	4	fb:cell.1991_2008	1991 / 2008	1991|\\/|2008	1991|\\/|2008	CD|:|CD	DATE|DATE|DATE	1991|1991|2008	1991.0		2008.0	1991|2008	fb:part.1991|fb:part.2008
+37	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+37	6	fb:cell.link	link	link	link	NN	O						
+38	0	fb:cell.taipan	Taipan	taipan	Taipan	NNP	PERSON					Taipan	fb:part.taipan
+38	1	fb:cell._small_genomes_2	(small) genomes	-lrb-|small|-rrb-|genomes	-lrb-|small|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(small) genomes	fb:part._small_genomes_2
+38	2	fb:cell.illumina	Illumina	illumina	Illumina	NNP	PERSON					Illumina	fb:part.illumina
+38	3	fb:cell.schmidt_b_et_al	Schmidt, B. et al.	schmidt|,|b.|et|al.|.	Schmidt|,|B.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Schmidt|B. et al.	fb:part.schmidt|fb:part.b_et_al
+38	4	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx		2009	fb:part.2009
+38	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+38	6	fb:cell.link	link	link	link	NN	O						
+39	0	fb:cell.vcake	VCAKE	vcake	vcake	NN	O					VCAKE	fb:part.vcake
+39	1	fb:cell._small_genomes_2	(small) genomes	-lrb-|small|-rrb-|genomes	-lrb-|small|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(small) genomes	fb:part._small_genomes_2
+39	2	fb:cell.solexa_solid_helicos_2	Solexa (SOLiD?, Helicos?)	solexa|-lrb-|solid|?|,|helicos|?|-rrb-	Solexa|-lrb-|SOLiD|?|,|Helicos|?|-rrb-	NNP|-LRB-|NNP|.|,|NNP|.|-RRB-	ORGANIZATION|O|O|O|O|O|O|O	|||||||				Solexa (SOLiD?|Helicos?)	fb:part.solexa_solid|fb:part.helicos
+39	3	fb:cell.jeck_w_et_al	Jeck, W. et al.	jeck|,|w.|et|al.|.	Jeck|,|W.|et|al.|.	NNP|,|NNP|FW|FW|.	PERSON|O|O|O|O|O	|||||				Jeck|W. et al.	fb:part.jeck|fb:part.w_et_al
+39	4	fb:cell.2007_2007	2007 / 2007	2007|\\/|2007	2007|\\/|2007	CD|:|CD	DATE|DATE|DATE	2007|2007|2007	2007.0	2007-xx-xx	2007.0	2007|2007	fb:part.2007|fb:part.2007
+39	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+39	6	fb:cell.link	link	link	link	NN	O						
+40	0	fb:cell.phusion_assembler	Phusion assembler	phusion|assembler	Phusion|assembler	NNP|NN	O|O	|				Phusion assembler	fb:part.phusion_assembler
+40	1	fb:cell._large_genomes	(large) genomes	-lrb-|large|-rrb-|genomes	-lrb-|large|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(large) genomes	fb:part._large_genomes
+40	2	fb:cell.sanger	Sanger	sanger	Sanger	NNP	PERSON					Sanger	fb:part.sanger
+40	3	fb:cell.mullikin_jc_et_al	Mullikin JC, et al.	mullikin|jc|,|et|al.|.	Mullikin|JC|,|et|al.|.	NNP|NNP|,|FW|FW|.	ORGANIZATION|ORGANIZATION|O|O|O|O	|||||				Mullikin JC|et al.	fb:part.mullikin_jc|fb:part.et_al
+40	4	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx		2003	fb:part.2003
+40	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+40	6	fb:cell.link	link	link	link	NN	O						
+41	0	fb:cell.quality_value_guided_sra_qsra	Quality Value Guided SRA (QSRA)	quality|value|guided|sra|-lrb-|qsra|-rrb-	Quality|Value|guide|sra|-lrb-|qsra|-rrb-	NNP|NNP|VBD|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||				Quality Value Guided SRA (QSRA)	fb:part.quality_value_guided_sra_qsra
+41	1	fb:cell.genomes	genomes	genomes	genome	NNS	O					genomes	fb:part.genomes
+41	2	fb:cell.sanger_solexa	Sanger, Solexa	sanger|,|solexa	Sanger|,|Solexa	NNP|,|NNP	PERSON|O|ORGANIZATION	||				Sanger|Solexa	fb:part.sanger|fb:part.solexa
+41	3	fb:cell.bryant_dw_et_al	Bryant DW, et al.	bryant|dw|,|et|al.|.	Bryant|DW|,|et|al.|.	NNP|NNP|,|FW|FW|.	PERSON|O|O|O|O|O	|||||				Bryant DW|et al.	fb:part.bryant_dw|fb:part.et_al
+41	4	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx		2009	fb:part.2009
+41	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+41	6	fb:cell.link	link	link	link	NN	O						
+42	0	fb:cell.velvet	Velvet	velvet	velvet	NN	O					Velvet	fb:part.velvet
+42	1	fb:cell._small_genomes_2	(small) genomes	-lrb-|small|-rrb-|genomes	-lrb-|small|-rrb-|genome	-LRB-|JJ|-RRB-|NNS	O|O|O|O	|||				(small) genomes	fb:part._small_genomes_2
+42	2	fb:cell.sanger_454_solexa_solid	Sanger, 454, Solexa, SOLiD	sanger|,|454|,|solexa|,|solid	Sanger|,|454|,|Solexa|,|SOLiD	NNP|,|CD|,|NNP|,|NNP	PERSON|O|NUMBER|O|ORGANIZATION|O|O	||454.0||||	454.0			Sanger|454|Solexa|SOLiD	fb:part.sanger|fb:part.454|fb:part.solexa|fb:part.solid
+42	3	fb:cell.zerbino_d_et_al	Zerbino, D. et al.	zerbino|,|d.|et|al.|.	Zerbino|,|D.|et|al.|.	NNP|,|NNP|FW|FW|.	O|O|O|O|O|O	|||||				Zerbino|D. et al.	fb:part.zerbino|fb:part.d_et_al
+42	4	fb:cell.2007_2009	2007 / 2009	2007|\\/|2009	2007|\\/|2009	CD|:|CD	DATE|DATE|DATE	2007|2007|2009	2007.0		2009.0	2007|2009	fb:part.2007|fb:part.2009
+42	5	fb:cell.os	OS	os	os	NN	O					OS	fb:part.os
+42	6	fb:cell.link	link	link	link	NN	O						

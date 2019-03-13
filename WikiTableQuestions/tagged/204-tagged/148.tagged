@@ -1,0 +1,233 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.elected	Elected	elected	elect	VBN	O						
+-1	2	fb:row.row.term_began	Term began	term|began	term|begin	NN|VBD	O|O	|					
+-1	3	fb:row.row.term_ended	Term ended	term|ended	term|end	NN|VBD	O|O	|					
+0	0	fb:cell.henry_a_atkins	Henry A. Atkins	henry|a.|atkins	Henry|A.|Atkins	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+0	1	fb:cell.appointed_december_2_1869_elected_july_11_1870	appointed December 2, 1869\nelected July 11, 1870	appointed|december|2|,|1869|elected|july|11|,|1870	appoint|December|2|,|1869|elect|July|11|,|1870	VBN|NNP|CD|,|CD|VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1869-12-02|1869-12-02|1869-12-02|1869-12-02||1870-07-11|1870-07-11|1870-07-11|1870-07-11	21869.0		111870.0	appointed December 2|1869|elected July 11|1870	fb:part.appointed_december_2|fb:part.1869|fb:part.elected_july_11|fb:part.1870
+0	2	fb:cell.1869	1869	1869	1869	CD	DATE	1869	1869.0	1869-xx-xx		1869	fb:part.1869
+0	3	fb:cell.1871	1871	1871	1871	CD	DATE	1871	1871.0	1871-xx-xx		1871	fb:part.1871
+1	0	fb:cell.john_t_jordan	John T. Jordan	john|t.|jordan	John|T.|Jordan	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+1	1	fb:cell.elected_july_10_1871	elected July 10, 1871	elected|july|10|,|1871	elect|July|10|,|1871	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1871-07-10|1871-07-10|1871-07-10|1871-07-10	101871.0			elected July 10|1871	fb:part.elected_july_10|fb:part.1871
+1	2	fb:cell.1871	1871	1871	1871	CD	DATE	1871	1871.0	1871-xx-xx		1871	fb:part.1871
+1	3	fb:cell.1872	1872	1872	1872	CD	DATE	1872	1872.0	1872-xx-xx		1872	fb:part.1872
+2	0	fb:cell.corliss_p_stone	Corliss P. Stone	corliss|p.|stone	Corliss|P.|Stone	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+2	1	fb:cell.elected_july_8_1872_abandoned_office_left_for_san_francisco_february_23_1873_after_allegedly_embezzling_15_000	elected July 8, 1872\nabandoned office: left for San Francisco February 23, 1873 after allegedly embezzling $15,000	elected|july|8|,|1872|abandoned|office|:|left|for|san|francisco|february|23|,|1873|after|allegedly|embezzling|$|15,000	elect|July|8|,|1872|abandon|office|:|leave|for|San|Francisco|February|23|,|1873|after|allegedly|embezzle|$|15,000	VBN|NNP|CD|,|CD|VBD|NN|:|VBN|IN|NNP|NNP|NNP|CD|,|NNP|IN|RB|VBG|$|CD	O|DATE|DATE|DATE|DATE|O|O|O|O|O|LOCATION|LOCATION|DATE|DATE|DATE|DATE|O|O|O|MONEY|MONEY	|1872-07-08|1872-07-08|1872-07-08|1872-07-08||||||||1873-02-23|1873-02-23|1873-02-23|1873-02-23||||$15000.0|$15000.0	81872.0		231873.0	elected July 8|1872|abandoned office: left for San Francisco February 23|1873 after allegedly embezzling $15,000	fb:part.elected_july_8|fb:part.1872|fb:part.abandoned_office_left_for_san_francisco_february_23|fb:part.1873_after_allegedly_embezzling_15_000
+2	2	fb:cell.1872	1872	1872	1872	CD	DATE	1872	1872.0	1872-xx-xx		1872	fb:part.1872
+2	3	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx		1873	fb:part.1873
+3	0	fb:cell.john_t_jordan	John T. Jordan	john|t.|jordan	John|T.|Jordan	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+3	1	fb:cell.appointed	appointed	appointed	appoint	VBN	O					appointed	fb:part.appointed
+3	2	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx		1873	fb:part.1873
+3	3	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx		1873	fb:part.1873
+4	0	fb:cell.moses_r_maddocks	Moses R. Maddocks	moses|r.|maddocks	Moses|R.|Maddocks	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+4	1	fb:cell.elected	Elected	elected	elect	VBN	O					Elected	fb:part.elected
+4	2	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx		1873	fb:part.1873
+4	3	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx		1873	fb:part.1873
+5	0	fb:cell.john_collins	John Collins	john|collins	John|Collins	NNP|NNP	PERSON|PERSON	|					
+5	1	fb:cell.elected_july_14_1873	elected July 14, 1873	elected|july|14|,|1873	elect|July|14|,|1873	VBN|NNP|CD|,|NNP	O|DATE|DATE|DATE|DATE	|1873-07-14|1873-07-14|1873-07-14|1873-07-14	141873.0			elected July 14|1873	fb:part.elected_july_14|fb:part.1873
+5	2	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx		1873	fb:part.1873
+5	3	fb:cell.1874	1874	1874	1874	CD	DATE	1874	1874.0	1874-xx-xx		1874	fb:part.1874
+6	0	fb:cell.henry_yesler	Henry Yesler	henry|yesler	Henry|Yesler	NNP|NNP	PERSON|PERSON	|					
+6	1	fb:cell.elected_july_13_1874	elected July 13, 1874	elected|july|13|,|1874	elect|July|13|,|1874	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1874-07-13|1874-07-13|1874-07-13|1874-07-13	131874.0			elected July 13|1874	fb:part.elected_july_13|fb:part.1874
+6	2	fb:cell.1874	1874	1874	1874	CD	DATE	1874	1874.0	1874-xx-xx		1874	fb:part.1874
+6	3	fb:cell.1875	1875	1875	1875	CD	DATE	1875	1875.0	1875-xx-xx		1875	fb:part.1875
+7	0	fb:cell.bailey_gatzert	Bailey Gatzert	bailey|gatzert	Bailey|Gatzert	NNP|NNP	PERSON|PERSON	|					
+7	1	fb:cell.elected_august_2_1875	elected August 2, 1875	elected|august|2|,|1875	elect|August|2|,|1875	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1875-08-02|1875-08-02|1875-08-02|1875-08-02	21875.0			elected August 2|1875	fb:part.elected_august_2|fb:part.1875
+7	2	fb:cell.1875	1875	1875	1875	CD	DATE	1875	1875.0	1875-xx-xx		1875	fb:part.1875
+7	3	fb:cell.1876	1876	1876	1876	CD	DATE	1876	1876.0	1876-xx-xx		1876	fb:part.1876
+8	0	fb:cell.gideon_a_weed	Gideon A. Weed	gideon|a.|weed	Gideon|A.|Weed	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+8	1	fb:cell.elected_july_10_1876_and_july_9_1877	elected July 10, 1876\nand July 9, 1877	elected|july|10|,|1876|and|july|9|,|1877	elect|July|10|,|1876|and|July|9|,|1877	VBN|NNP|CD|,|CD|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1876-07-10|1876-07-10|1876-07-10|1876-07-10||1877-07-09|1877-07-09|1877-07-09|1877-07-09	101876.0		91877.0	elected July 10|1876|and July 9|1877	fb:part.elected_july_10|fb:part.1876|fb:part.and_july_9|fb:part.1877
+8	2	fb:cell.1876	1876	1876	1876	CD	DATE	1876	1876.0	1876-xx-xx		1876	fb:part.1876
+8	3	fb:cell.1878	1878	1878	1878	CD	DATE	1878	1878.0	1878-xx-xx		1878	fb:part.1878
+9	0	fb:cell.beriah_brown	Beriah Brown	beriah|brown	Beriah|Brown	NNP|NNP	PERSON|PERSON	|					
+9	1	fb:cell.elected_july_8_1878	elected July 8, 1878	elected|july|8|,|1878	elect|July|8|,|1878	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1878-07-08|1878-07-08|1878-07-08|1878-07-08	81878.0			elected July 8|1878	fb:part.elected_july_8|fb:part.1878
+9	2	fb:cell.1878	1878	1878	1878	CD	DATE	1878	1878.0	1878-xx-xx		1878	fb:part.1878
+9	3	fb:cell.1879	1879	1879	1879	NNS	SET		1879.0			1879	fb:part.1879
+10	0	fb:cell.orange_jacobs	Orange Jacobs	orange|jacobs	Orange|Jacobs	NNP|NNP	O|PERSON	|					
+10	1	fb:cell.elected_july_14_1879	elected July 14, 1879	elected|july|14|,|1879	elect|July|14|,|1879	VBN|NNP|CD|,|NNS	O|DATE|DATE|DATE|DATE	|1879-07-14|1879-07-14|1879-07-14|1879-07-14	141879.0			elected July 14|1879	fb:part.elected_july_14|fb:part.1879
+10	2	fb:cell.1879	1879	1879	1879	NNS	SET		1879.0			1879	fb:part.1879
+10	3	fb:cell.1880	1880	1880	1880	NNP	DATE	1880	1880.0	1880-xx-xx		1880	fb:part.1880
+11	0	fb:cell.leonard_purley_smith	Leonard Purley Smith	leonard|purley|smith	Leonard|Purley|Smith	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+11	1	fb:cell.elected_july_12_1880_and_july_11_1881	elected July 12, 1880\nand July 11, 1881	elected|july|12|,|1880|and|july|11|,|1881	elect|July|12|,|1880|and|July|11|,|1881	VBN|NNP|CD|,|NNP|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1880-07-12|1880-07-12|1880-07-12|1880-07-12||1881-07-11|1881-07-11|1881-07-11|1881-07-11	121880.0		111881.0	elected July 12|1880|and July 11|1881	fb:part.elected_july_12|fb:part.1880|fb:part.and_july_11|fb:part.1881
+11	2	fb:cell.1880	1880	1880	1880	NNP	DATE	1880	1880.0	1880-xx-xx		1880	fb:part.1880
+11	3	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx		1882	fb:part.1882
+12	0	fb:cell.henry_g_struve	Henry G. Struve	henry|g.|struve	Henry|G.|Struve	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+12	1	fb:cell.elected_july_10_1882_and_july_9_1883	elected July 10, 1882\nand July 9, 1883	elected|july|10|,|1882|and|july|9|,|1883	elect|July|10|,|1882|and|July|9|,|1883	VBN|NNP|CD|,|CD|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1882-07-10|1882-07-10|1882-07-10|1882-07-10||1883-07-09|1883-07-09|1883-07-09|1883-07-09	101882.0		91883.0	elected July 10|1882|and July 9|1883	fb:part.elected_july_10|fb:part.1882|fb:part.and_july_9|fb:part.1883
+12	2	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx		1882	fb:part.1882
+12	3	fb:cell.1884	1884	1884	1884	NN	DATE	1884	1884.0	1884-xx-xx		1884	fb:part.1884
+13	0	fb:cell.john_leary	John Leary	john|leary	John|Leary	NNP|NNP	PERSON|PERSON	|					
+13	1	fb:cell.elected_july_14_1884	elected July 14, 1884	elected|july|14|,|1884	elect|July|14|,|1884	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1884-07-14|1884-07-14|1884-07-14|1884-07-14	141884.0			elected July 14|1884	fb:part.elected_july_14|fb:part.1884
+13	2	fb:cell.1884	1884	1884	1884	NN	DATE	1884	1884.0	1884-xx-xx		1884	fb:part.1884
+13	3	fb:cell.1885	1885	1885	1885	NNP	DATE	1885	1885.0	1885-xx-xx		1885	fb:part.1885
+14	0	fb:cell.henry_yesler	Henry Yesler	henry|yesler	Henry|Yesler	NNP|NNP	PERSON|PERSON	|					
+14	1	fb:cell.elected_july_13_1885	elected July 13, 1885	elected|july|13|,|1885	elect|July|13|,|1885	VBN|NNP|CD|,|NNP	O|DATE|DATE|DATE|DATE	|1885-07-13|1885-07-13|1885-07-13|1885-07-13	131885.0			elected July 13|1885	fb:part.elected_july_13|fb:part.1885
+14	2	fb:cell.1885	1885	1885	1885	NNP	DATE	1885	1885.0	1885-xx-xx		1885	fb:part.1885
+14	3	fb:cell.1886	1886	1886	1886	CD	DATE	1886	1886.0	1886-xx-xx		1886	fb:part.1886
+15	0	fb:cell.william_h_shoudy	William H. Shoudy	william|h.|shoudy	William|H.|Shoudy	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+15	1	fb:cell.elected_july_12_1886	elected July 12, 1886	elected|july|12|,|1886	elect|July|12|,|1886	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1886-07-12|1886-07-12|1886-07-12|1886-07-12	121886.0			elected July 12|1886	fb:part.elected_july_12|fb:part.1886
+15	2	fb:cell.1886	1886	1886	1886	CD	DATE	1886	1886.0	1886-xx-xx		1886	fb:part.1886
+15	3	fb:cell.1887	1887	1887	1887	CD	DATE	1887	1887.0	1887-xx-xx		1887	fb:part.1887
+16	0	fb:cell.dr_thomas_t_minor	Dr. Thomas T. Minor	dr.|thomas|t.|minor	Dr.|Thomas|T.|Minor	NNP|NNP|NNP|NNP	O|PERSON|PERSON|PERSON	|||					
+16	1	fb:cell.elected_july_11_1887	elected July 11, 1887	elected|july|11|,|1887	elect|July|11|,|1887	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1887-07-11|1887-07-11|1887-07-11|1887-07-11	111887.0			elected July 11|1887	fb:part.elected_july_11|fb:part.1887
+16	2	fb:cell.1887	1887	1887	1887	CD	DATE	1887	1887.0	1887-xx-xx		1887	fb:part.1887
+16	3	fb:cell.1888	1888	1888	1888	CD	DATE	1888	1888.0	1888-xx-xx		1888	fb:part.1888
+17	0	fb:cell.robert_moran	Robert Moran	robert|moran	Robert|Moran	NNP|NNP	PERSON|PERSON	|					
+17	1	fb:cell.elected_july_9_1888_and_july_8_1889	elected July 9, 1888\nand July 8, 1889	elected|july|9|,|1888|and|july|8|,|1889	elect|July|9|,|1888|and|July|8|,|1889	VBN|NNP|CD|,|CD|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1888-07-09|1888-07-09|1888-07-09|1888-07-09||1889-07-08|1889-07-08|1889-07-08|1889-07-08	91888.0		81889.0	elected July 9|1888|and July 8|1889	fb:part.elected_july_9|fb:part.1888|fb:part.and_july_8|fb:part.1889
+17	2	fb:cell.1888	1888	1888	1888	CD	DATE	1888	1888.0	1888-xx-xx		1888	fb:part.1888
+17	3	fb:cell.1890	1890	1890	1890	CD	DATE	1890	1890.0	1890-xx-xx		1890	fb:part.1890
+18	0	fb:cell.harry_white	Harry White	harry|white	Harry|White	NNP|NNP	PERSON|PERSON	|					
+18	1	fb:cell.elected_july_14_1890_resigned_under_pressure_november_30_1891	elected July 14, 1890\nresigned under pressure November 30, 1891.	elected|july|14|,|1890|resigned|under|pressure|november|30|,|1891|.	elect|July|14|,|1890|resign|under|pressure|November|30|,|1891|.	VBN|NNP|CD|,|CD|VBD|IN|NN|NNP|CD|,|CD|.	O|DATE|DATE|DATE|DATE|O|O|O|DATE|DATE|DATE|DATE|O	|1890-07-14|1890-07-14|1890-07-14|1890-07-14||||1891-11-30|1891-11-30|1891-11-30|1891-11-30|	141890.0		301891.0	elected July 14|1890|resigned under pressure November 30|1891.	fb:part.elected_july_14|fb:part.1890|fb:part.resigned_under_pressure_november_30|fb:part.1891
+18	2	fb:cell.1890	1890	1890	1890	CD	DATE	1890	1890.0	1890-xx-xx		1890	fb:part.1890
+18	3	fb:cell.1891	1891	1891	1891	CD	DATE	1891	1891.0	1891-xx-xx		1891	fb:part.1891_2
+19	0	fb:cell.george_w_hall	George W. Hall	george|w.|hall	George|W.|Hall	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+19	1	fb:cell.appointed_december_9_1891	appointed December 9, 1891	appointed|december|9|,|1891	appoint|December|9|,|1891	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1891-12-09|1891-12-09|1891-12-09|1891-12-09	91891.0			appointed December 9|1891	fb:part.appointed_december_9|fb:part.1891_2
+19	2	fb:cell.1891	1891	1891	1891	CD	DATE	1891	1891.0	1891-xx-xx		1891	fb:part.1891_2
+19	3	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx		1892	fb:part.1892
+20	0	fb:cell.james_t_ronald	James T. Ronald	james|t.|ronald	James|T.|Ronald	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+20	1	fb:cell.elected_march_8_1892	elected March 8, 1892	elected|march|8|,|1892	elect|March|8|,|1892	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1892-03-08|1892-03-08|1892-03-08|1892-03-08	81892.0			elected March 8|1892	fb:part.elected_march_8|fb:part.1892
+20	2	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx		1892	fb:part.1892
+20	3	fb:cell.1894	1894	1894	1894	CD	DATE	1894	1894.0	1894-xx-xx		1894	fb:part.1894
+21	0	fb:cell.byron_phelps	Byron Phelps	byron|phelps	Byron|Phelps	NNP|NNP	PERSON|PERSON	|					
+21	1	fb:cell.elected_march_12_1894	elected March 12, 1894	elected|march|12|,|1894	elect|March|12|,|1894	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1894-03-12|1894-03-12|1894-03-12|1894-03-12	121894.0			elected March 12|1894	fb:part.elected_march_12|fb:part.1894
+21	2	fb:cell.1894	1894	1894	1894	CD	DATE	1894	1894.0	1894-xx-xx		1894	fb:part.1894
+21	3	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx		1896	fb:part.1896
+22	0	fb:cell.frank_d_black	Frank D. Black	frank|d.|black	Frank|D.|Black	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+22	1	fb:cell.elected_march_9_1896_resigned_after_three_weeks_in_office	elected March 9, 1896\nresigned after three weeks in office	elected|march|9|,|1896|resigned|after|three|weeks|in|office	elect|March|9|,|1896|resign|after|three|week|in|office	VBN|NNP|CD|,|CD|VBD|IN|CD|NNS|IN|NN	O|DATE|DATE|DATE|DATE|O|O|DURATION|NUMBER|O|O	|1896-03-09|1896-03-09|1896-03-09|1896-03-09||||0.0||	91896.0			elected March 9|1896|resigned after three weeks in office	fb:part.elected_march_9|fb:part.1896|fb:part.resigned_after_three_weeks_in_office
+22	2	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx		1896	fb:part.1896
+22	3	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx		1896	fb:part.1896
+23	0	fb:cell.w_d_wood	W. D. Wood	w.|d.|wood	W.|D.|Wood	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+23	1	fb:cell.appointed_april_6_1896_resigned_july_1897	appointed April 6, 1896\nresigned July 1897	appointed|april|6|,|1896|resigned|july|1897	appoint|April|6|,|1896|resign|July|1897	VBN|NNP|CD|,|CD|VBD|NNP|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE	|1896-04-06|1896-04-06|1896-04-06|1896-04-06||1897-07|1897-07	61896.0		1897.0	appointed April 6|1896|resigned July 1897	fb:part.appointed_april_6|fb:part.1896|fb:part.resigned_july_1897
+23	2	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx		1896	fb:part.1896
+23	3	fb:cell.1897	1897	1897	1897	CD	DATE	1897	1897.0	1897-xx-xx		1897	fb:part.1897
+24	0	fb:cell.thomas_j_humes	Thomas J. Humes	thomas|j.|humes	Thomas|J.|Humes	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+24	1	fb:cell.appointed_november_19_1897_and_elected_march_13_1900	appointed November 19, 1897\nand elected March 13, 1900	appointed|november|19|,|1897|and|elected|march|13|,|1900	appoint|November|19|,|1897|and|elect|March|13|,|1900	VBN|NNP|CD|,|CD|CC|VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|O|DATE|DATE|DATE|DATE	|1897-11-19|1897-11-19|1897-11-19|1897-11-19|||1900-03-13|1900-03-13|1900-03-13|1900-03-13	191897.0		131900.0	appointed November 19|1897|and elected March 13|1900	fb:part.appointed_november_19|fb:part.1897|fb:part.and_elected_march_13|fb:part.1900
+24	2	fb:cell.1897	1897	1897	1897	CD	DATE	1897	1897.0	1897-xx-xx		1897	fb:part.1897
+24	3	fb:cell.1904	1904	1904	1904	CD	DATE	1904	1904.0	1904-xx-xx		1904	fb:part.1904
+25	0	fb:cell.richard_a_ballinger	Richard A. Ballinger	richard|a.|ballinger	Richard|A.|Ballinger	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+25	1	fb:cell.elected_march_8_1904	elected March 8, 1904	elected|march|8|,|1904	elect|March|8|,|1904	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1904-03-08|1904-03-08|1904-03-08|1904-03-08	81904.0			elected March 8|1904	fb:part.elected_march_8|fb:part.1904
+25	2	fb:cell.1904	1904	1904	1904	CD	DATE	1904	1904.0	1904-xx-xx		1904	fb:part.1904
+25	3	fb:cell.1906	1906	1906	1906	CD	DATE	1906	1906.0	1906-xx-xx		1906	fb:part.1906
+26	0	fb:cell.william_hickman_moore	William Hickman Moore	william|hickman|moore	William|Hickman|Moore	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+26	1	fb:cell.elected_march_6_1906	elected March 6, 1906	elected|march|6|,|1906	elect|March|6|,|1906	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1906-03-06|1906-03-06|1906-03-06|1906-03-06	61906.0			elected March 6|1906	fb:part.elected_march_6|fb:part.1906
+26	2	fb:cell.1906	1906	1906	1906	CD	DATE	1906	1906.0	1906-xx-xx		1906	fb:part.1906
+26	3	fb:cell.1908	1908	1908	1908	CD	DATE	1908	1908.0	1908-xx-xx		1908	fb:part.1908
+27	0	fb:cell.john_f_miller	John F. Miller	john|f.|miller	John|F.|Miller	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+27	1	fb:cell.elected_march_3_1908	elected March 3, 1908	elected|march|3|,|1908	elect|March|3|,|1908	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1908-03-03|1908-03-03|1908-03-03|1908-03-03	31908.0			elected March 3|1908	fb:part.elected_march_3|fb:part.1908
+27	2	fb:cell.1908	1908	1908	1908	CD	DATE	1908	1908.0	1908-xx-xx		1908	fb:part.1908
+27	3	fb:cell.1910	1910	1910	1910	CD	DATE	1910	1910.0	1910-xx-xx		1910	fb:part.1910
+28	0	fb:cell.hiram_c_gill	Hiram C. Gill	hiram|c.|gill	Hiram|C.|Gill	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+28	1	fb:cell.elected_march_8_1910_recalled_february_9_1911	elected March 8, 1910\nrecalled February 9, 1911	elected|march|8|,|1910|recalled|february|9|,|1911	elect|March|8|,|1910|recall|February|9|,|1911	VBN|NNP|CD|,|CD|VBD|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1910-03-08|1910-03-08|1910-03-08|1910-03-08||1911-02-09|1911-02-09|1911-02-09|1911-02-09	81910.0		91911.0	elected March 8|1910|recalled February 9|1911	fb:part.elected_march_8|fb:part.1910|fb:part.recalled_february_9|fb:part.1911
+28	2	fb:cell.1910	1910	1910	1910	CD	DATE	1910	1910.0	1910-xx-xx		1910	fb:part.1910
+28	3	fb:cell.1911	1911	1911	1911	CD	DATE	1911	1911.0	1911-xx-xx		1911	fb:part.1911
+29	0	fb:cell.george_w_dilling	George W. Dilling	george|w.|dilling	George|W.|Dilling	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+29	1	fb:cell.appointed_february_10_1911_citation_needed	appointed February 10, 1911[citation needed]	appointed|february|10|,|1911|-lsb-|citation|needed|-rsb-	appoint|February|10|,|1911|-lsb-|citation|need|-rsb-	VBN|NNP|CD|,|CD|-LRB-|NN|VBN|-RRB-	O|DATE|DATE|DATE|DATE|O|O|O|O	|1911-02-10|1911-02-10|1911-02-10|1911-02-10||||	101911.0			appointed February 10|1911[citation needed]	fb:part.appointed_february_10|fb:part.1911_citation_needed
+29	2	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx		1912	fb:part.1912
+29	3	fb:cell.null											fb:part.null
+30	0	fb:cell.george_f_cotterill	George F. Cotterill	george|f.|cotterill	George|F.|Cotterill	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+30	1	fb:cell.elected_march_5_1912	elected March 5, 1912	elected|march|5|,|1912	elect|March|5|,|1912	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1912-03-05|1912-03-05|1912-03-05|1912-03-05	51912.0			elected March 5|1912	fb:part.elected_march_5|fb:part.1912
+30	2	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx		1912	fb:part.1912
+30	3	fb:cell.1914	1914	1914	1914	CD	DATE	1914	1914.0	1914-xx-xx		1914	fb:part.1914
+31	0	fb:cell.hiram_c_gill	Hiram C. Gill	hiram|c.|gill	Hiram|C.|Gill	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+31	1	fb:cell.elected_march_3_1914	elected March 3, 1914	elected|march|3|,|1914	elect|March|3|,|1914	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1914-03-03|1914-03-03|1914-03-03|1914-03-03	31914.0			elected March 3|1914	fb:part.elected_march_3|fb:part.1914
+31	2	fb:cell.1914	1914	1914	1914	CD	DATE	1914	1914.0	1914-xx-xx		1914	fb:part.1914
+31	3	fb:cell.1918	1918	1918	1918	CD	DATE	1918	1918.0	1918-xx-xx		1918	fb:part.1918
+32	0	fb:cell.ole_hanson	Ole Hanson	ole|hanson	ole|Hanson	JJ|NNP	PERSON|PERSON	|					
+32	1	fb:cell.elected_march_5_1918_resigned_august_28_1919_after_several_months_out_of_town	elected March 5, 1918\nresigned August 28, 1919 after several months out of town	elected|march|5|,|1918|resigned|august|28|,|1919|after|several|months|out|of|town	elect|March|5|,|1918|resign|August|28|,|1919|after|several|month|out|of|town	VBN|NNP|CD|,|CD|VBD|NNP|CD|,|CD|IN|JJ|NNS|IN|IN|NN	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE|O|DURATION|DURATION|O|O|O	|1918-03-05|1918-03-05|1918-03-05|1918-03-05||1919-08-28|1919-08-28|1919-08-28|1919-08-28||||||	51918.0		281919.0	elected March 5|1918|resigned August 28|1919 after several months out of town	fb:part.elected_march_5|fb:part.1918|fb:part.resigned_august_28|fb:part.1919_after_several_months_out_of_town
+32	2	fb:cell.1918	1918	1918	1918	CD	DATE	1918	1918.0	1918-xx-xx		1918	fb:part.1918
+32	3	fb:cell.1919	1919	1919	1919	CD	DATE	1919	1919.0	1919-xx-xx		1919	fb:part.1919
+33	0	fb:cell.c_b_fitzgerald	C. B. Fitzgerald	c.|b.|fitzgerald	C.|B.|Fitzgerald	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+33	1	fb:cell.appointed_august_28_1919	appointed August 28, 1919	appointed|august|28|,|1919	appoint|August|28|,|1919	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1919-08-28|1919-08-28|1919-08-28|1919-08-28	281919.0			appointed August 28|1919	fb:part.appointed_august_28|fb:part.1919
+33	2	fb:cell.1919	1919	1919	1919	CD	DATE	1919	1919.0	1919-xx-xx		1919	fb:part.1919
+33	3	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx		1920	fb:part.1920
+34	0	fb:cell.hugh_m_caldwell	Hugh M. Caldwell	hugh|m.|caldwell	Hugh|M.|Caldwell	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+34	1	fb:cell.elected_march_2_1920	elected March 2, 1920	elected|march|2|,|1920	elect|March|2|,|1920	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1920-03-02|1920-03-02|1920-03-02|1920-03-02	21920.0			elected March 2|1920	fb:part.elected_march_2|fb:part.1920
+34	2	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx		1920	fb:part.1920
+34	3	fb:cell.1922	1922	1922	1922	CD	DATE	1922	1922.0	1922-xx-xx		1922	fb:part.1922
+35	0	fb:cell.edwin_j_brown	Edwin J. Brown	edwin|j.|brown	Edwin|J.|Brown	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+35	1	fb:cell.elected_may_2_1922_and_march_4_1924	elected May 2, 1922\nand March 4, 1924	elected|may|2|,|1922|and|march|4|,|1924	elect|May|2|,|1922|and|March|4|,|1924	VBN|VBD-AUX|CD|,|CD|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1922-05-02|1922-05-02|1922-05-02|1922-05-02||1924-03-04|1924-03-04|1924-03-04|1924-03-04	21922.0		41924.0	elected May 2|1922|and March 4|1924	fb:part.elected_may_2|fb:part.1922|fb:part.and_march_4|fb:part.1924
+35	2	fb:cell.1922	1922	1922	1922	CD	DATE	1922	1922.0	1922-xx-xx		1922	fb:part.1922
+35	3	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx		1926	fb:part.1926
+36	0	fb:cell.bertha_knight_landes	Bertha Knight Landes	bertha|knight|landes	Bertha|Knight|Landes	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+36	1	fb:cell.elected_march_9_1926	elected March 9, 1926	elected|march|9|,|1926	elect|March|9|,|1926	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1926-03-09|1926-03-09|1926-03-09|1926-03-09	91926.0			elected March 9|1926	fb:part.elected_march_9|fb:part.1926
+36	2	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx		1926	fb:part.1926
+36	3	fb:cell.1928	1928	1928	1928	CD	DATE	1928	1928.0	1928-xx-xx		1928	fb:part.1928
+37	0	fb:cell.frank_e_edwards	Frank E. Edwards	frank|e.|edwards	Frank|E.|Edwards	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+37	1	fb:cell.elected_march_6_1928_and_march_4_1930_recalled_july_13_1931	elected March 6, 1928\nand March 4, 1930\nrecalled July 13, 1931	elected|march|6|,|1928|and|march|4|,|1930|recalled|july|13|,|1931	elect|March|6|,|1928|and|March|4|,|1930|recall|July|13|,|1931	VBN|NNP|CD|,|CD|CC|NNP|CD|,|CD|VBD|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1928-03-06|1928-03-06|1928-03-06|1928-03-06||1930-03-04|1930-03-04|1930-03-04|1930-03-04||1931-07-13|1931-07-13|1931-07-13|1931-07-13	61928.0		41930.0	elected March 6|1928|and March 4|1930|recalled July 13|1931	fb:part.elected_march_6|fb:part.1928|fb:part.and_march_4|fb:part.1930|fb:part.recalled_july_13|fb:part.1931
+37	2	fb:cell.1928	1928	1928	1928	CD	DATE	1928	1928.0	1928-xx-xx		1928	fb:part.1928
+37	3	fb:cell.1931	1931	1931	1931	CD	DATE	1931	1931.0	1931-xx-xx		1931	fb:part.1931
+38	0	fb:cell.robert_h_harlin	Robert H. Harlin	robert|h.|harlin	Robert|H.|Harlin	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+38	1	fb:cell.appointed_july_14_1931	appointed July 14, 1931	appointed|july|14|,|1931	appoint|July|14|,|1931	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1931-07-14|1931-07-14|1931-07-14|1931-07-14	141931.0			appointed July 14|1931	fb:part.appointed_july_14|fb:part.1931
+38	2	fb:cell.1931	1931	1931	1931	CD	DATE	1931	1931.0	1931-xx-xx		1931	fb:part.1931
+38	3	fb:cell.1932	1932	1932	1932	CD	DATE	1932	1932.0	1932-xx-xx		1932	fb:part.1932
+39	0	fb:cell.john_f_dore	John F. Dore	john|f.|dore	John|F.|Dore	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+39	1	fb:cell.elected_march_8_1932	elected March 8, 1932	elected|march|8|,|1932	elect|March|8|,|1932	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1932-03-08|1932-03-08|1932-03-08|1932-03-08	81932.0			elected March 8|1932	fb:part.elected_march_8|fb:part.1932
+39	2	fb:cell.1932	1932	1932	1932	CD	DATE	1932	1932.0	1932-xx-xx		1932	fb:part.1932
+39	3	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx		1934	fb:part.1934
+40	0	fb:cell.charles_l_smith	Charles L. Smith	charles|l.|smith	Charles|L.|Smith	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+40	1	fb:cell.elected_march_6_1934	elected March 6, 1934	elected|march|6|,|1934	elect|March|6|,|1934	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1934-03-06|1934-03-06|1934-03-06|1934-03-06	61934.0			elected March 6|1934	fb:part.elected_march_6|fb:part.1934
+40	2	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx		1934	fb:part.1934
+40	3	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx		1936	fb:part.1936
+41	0	fb:cell.john_f_dore	John F. Dore	john|f.|dore	John|F.|Dore	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+41	1	fb:cell.elected_march_3_1936_became_gravely_ill_and_was_relieved_of_office_april_13_1938_already_a_lame_duck_after_the_1938_election_he_died_five_days_later	elected March 3, 1936\nbecame gravely ill and was relieved of office April 13, 1938, already a lame duck after the 1938 election. He died five days later.	elected|march|3|,|1936|became|gravely|ill|and|was|relieved|of|office|april|13|,|1938|,|already|a|lame|duck|after|the|1938|election|.|he|died|five|days|later|.	elect|March|3|,|1936|become|gravely|ill|and|be|relieve|of|office|April|13|,|1938|,|already|a|lame|duck|after|the|1938|election|.|he|die|five|day|later|.	VBN|NNP|CD|,|CD|VBD|RB|JJ|CC|VBD-AUX|VBN|IN|NN|NNP|CD|,|CD|,|RB|DT|JJ|NN|IN|DT|CD|NN|.|PRP|VBD|CD|NNS|RB|.	O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|DATE|O|O|O|O|DATE|DATE|DATE|O	|1936-03-03|1936-03-03|1936-03-03|1936-03-03|||||||||1938-04-13|1938-04-13|1938-04-13|1938-04-13||||||||1938|||||OFFSET P5D|OFFSET P5D|OFFSET P5D|	31936.0		131938.0	elected March 3|1936|became gravely ill and was relieved of office April 13|1938|already a lame duck after the 1938 election. He died five days later.	fb:part.elected_march_3|fb:part.1936|fb:part.became_gravely_ill_and_was_relieved_of_office_april_13|fb:part.1938|fb:part.already_a_lame_duck_after_the_1938_election_he_died_five_days_later
+41	2	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx		1936	fb:part.1936
+41	3	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx		1938	fb:part.1938
+42	0	fb:cell.arthur_b_langlie	Arthur B. Langlie	arthur|b.|langlie	Arthur|B.|Langlie	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+42	1	fb:cell.elected_march_8_1938_appointed_to_take_office_early_april_27_1938_after_dore_s_death_elected_march_5_1940_resigned_january_11_1941_to_become_governor_of_washington	elected March 8, 1938\nappointed to take office early, April 27, 1938, after Dore's death.\nelected March 5, 1940\nresigned January 11, 1941, to become Governor of Washington	elected|march|8|,|1938|appointed|to|take|office|early|,|april|27|,|1938|,|after|dore|'s|death|.|elected|march|5|,|1940|resigned|january|11|,|1941|,|to|become|governor|of|washington	elect|March|8|,|1938|appoint|to|take|office|early|,|April|27|,|1938|,|after|Dore|'s|death|.|elect|March|5|,|1940|resign|January|11|,|1941|,|to|become|governor|of|Washington	VBN|NNP|CD|,|CD|VBN|TO|VB|NN|RB|,|NNP|CD|,|CD|,|IN|NNP|POS|NN|.|VBN|NNP|CD|,|CD|VBD|NNP|CD|,|CD|,|TO|VB|NN|IN|NNP	O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|DATE|DATE|DATE|DATE|O|O|PERSON|O|O|O|O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE|O|O|O|O|O|LOCATION	|1938-03-08|1938-03-08|1938-03-08|1938-03-08|||||||1938-04-27|1938-04-27|1938-04-27|1938-04-27||||||||1940-03-05|1940-03-05|1940-03-05|1940-03-05||1941-01-11|1941-01-11|1941-01-11|1941-01-11||||||	81938.0		271938.0	elected March 8|1938|appointed to take office early|April 27|1938|after Dore's death.|elected March 5|1940|resigned January 11|1941|to become Governor of Washington	fb:part.elected_march_8|fb:part.1938|fb:part.appointed_to_take_office_early|fb:part.april_27|fb:part.1938|fb:part.after_dore_s_death|fb:part.elected_march_5|fb:part.1940|fb:part.resigned_january_11|fb:part.1941|fb:part.to_become_governor_of_washington
+42	2	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx		1938	fb:part.1938
+42	3	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx		1941	fb:part.1941
+43	0	fb:cell.john_e_carroll	John E. Carroll	john|e.|carroll	John|E.|Carroll	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+43	1	fb:cell.appointed_january_27_1941	appointed January 27, 1941	appointed|january|27|,|1941	appoint|January|27|,|1941	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1941-01-27|1941-01-27|1941-01-27|1941-01-27	271941.0			appointed January 27|1941	fb:part.appointed_january_27|fb:part.1941
+43	2	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx		1941	fb:part.1941
+43	3	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx		1941	fb:part.1941
+44	0	fb:cell.earl_millikin	Earl Millikin	earl|millikin	Earl|Millikin	NNP|NNP	PERSON|PERSON	|					
+44	1	fb:cell.elected_march_4_1941	elected March 4, 1941	elected|march|4|,|1941	elect|March|4|,|1941	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1941-03-04|1941-03-04|1941-03-04|1941-03-04	41941.0			elected March 4|1941	fb:part.elected_march_4|fb:part.1941
+44	2	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx		1941	fb:part.1941
+44	3	fb:cell.1942	1942	1942	1942	CD	DATE	1942	1942.0	1942-xx-xx		1942	fb:part.1942
+45	0	fb:cell.william_f_devin	William F. Devin	william|f.|devin	William|F.|Devin	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+45	1	fb:cell.elected_march_3_1942_march_7_1944_march_5_1946_and_march_2_1948	elected March 3, 1942, March 7, 1944, March 5, 1946, and March 2, 1948	elected|march|3|,|1942|,|march|7|,|1944|,|march|5|,|1946|,|and|march|2|,|1948	elect|March|3|,|1942|,|March|7|,|1944|,|March|5|,|1946|,|and|March|2|,|1948	VBN|NNP|CD|,|CD|,|NNP|CD|,|CD|,|NNP|CD|,|CD|,|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|O|O|DATE|DATE|DATE|DATE	|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|1942-03-03|||1948-03-02|1948-03-02|1948-03-02|1948-03-02	31942.0		71944.0	elected March 3|1942|March 7|1944|March 5|1946|and March 2|1948	fb:part.elected_march_3|fb:part.1942|fb:part.march_7|fb:part.1944|fb:part.march_5|fb:part.1946|fb:part.and_march_2|fb:part.1948
+45	2	fb:cell.1942	1942	1942	1942	CD	DATE	1942	1942.0	1942-xx-xx		1942	fb:part.1942
+45	3	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx		1952	fb:part.1952
+46	0	fb:cell.allan_pomeroy	Allan Pomeroy	allan|pomeroy	Allan|Pomeroy	NNP|NNP	PERSON|PERSON	|					
+46	1	fb:cell.elected_march_4_1952	elected March 4, 1952	elected|march|4|,|1952	elect|March|4|,|1952	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1952-03-04|1952-03-04|1952-03-04|1952-03-04	41952.0			elected March 4|1952	fb:part.elected_march_4|fb:part.1952
+46	2	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx		1952	fb:part.1952
+46	3	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx		1956	fb:part.1956
+47	0	fb:cell.gordon_s_clinton	Gordon S. Clinton	gordon|s.|clinton	Gordon|S.|Clinton	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+47	1	fb:cell.elected_march_6_1956_and_march_8_1960	elected March 6, 1956\nand March 8, 1960	elected|march|6|,|1956|and|march|8|,|1960	elect|March|6|,|1956|and|March|8|,|1960	VBN|NNP|CD|,|CD|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|1956-03-06|1956-03-06|1956-03-06|1956-03-06||1960-03-08|1960-03-08|1960-03-08|1960-03-08	61956.0		81960.0	elected March 6|1956|and March 8|1960	fb:part.elected_march_6|fb:part.1956|fb:part.and_march_8|fb:part.1960
+47	2	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx		1956	fb:part.1956
+47	3	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx		1964	fb:part.1964
+48	0	fb:cell.james_d_orma_braman	James d'Orma Braman	james|d'orma|braman	James|d'Orma|Braman	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+48	1	fb:cell.elected_march_10_1964_resigned_march_23_1969_to_accept_an_appointment_as_an_assistant_secretary_in_the_department_of_transportation_in_the_nixon_administration	elected March 10, 1964\nresigned March 23, 1969, to accept an appointment as an Assistant Secretary in the Department of Transportation in the Nixon administration.	elected|march|10|,|1964|resigned|march|23|,|1969|,|to|accept|an|appointment|as|an|assistant|secretary|in|the|department|of|transportation|in|the|nixon|administration|.	elect|March|10|,|1964|resign|March|23|,|1969|,|to|accept|a|appointment|as|a|Assistant|Secretary|in|the|Department|of|Transportation|in|the|Nixon|administration|.	VBN|NNP|CD|,|CD|VBD|NNP|CD|,|CD|,|TO|VB|DT|NN|IN|DT|NNP|NNP|IN|DT|NNP|IN|NNP|IN|DT|NNP|NN|.	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|PERSON|O|O	|1964-03-10|1964-03-10|1964-03-10|1964-03-10||1969-03-23|1969-03-23|1969-03-23|1969-03-23|||||||||||||||||||	101964.0		231969.0	elected March 10|1964|resigned March 23|1969|to accept an appointment as an Assistant Secretary in the Department of Transportation in the Nixon administration.	fb:part.elected_march_10|fb:part.1964|fb:part.resigned_march_23|fb:part.1969|fb:part.to_accept_an_appointment_as_an_assistant_secretary_in_the_department_of_transportation_in_the_nixon_administration
+48	2	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx		1964	fb:part.1964
+48	3	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx		1969	fb:part.1969
+49	0	fb:cell.floyd_c_miller	Floyd C. Miller	floyd|c.|miller	Floyd|C.|Miller	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+49	1	fb:cell.appointed_march_23_1969	appointed March 23, 1969	appointed|march|23|,|1969	appoint|March|23|,|1969	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1969-03-23|1969-03-23|1969-03-23|1969-03-23	231969.0			appointed March 23|1969	fb:part.appointed_march_23|fb:part.1969
+49	2	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx		1969	fb:part.1969
+49	3	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx		1969	fb:part.1969
+50	0	fb:cell.wesley_c_uhlman	Wesley C. Uhlman	wesley|c.|uhlman	Wesley|C.|Uhlman	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+50	1	fb:cell.elected_november_4_1969_and_november_6_1973_survived_recall_attempt_on_july_1_1975	elected November 4, 1969\nand November 6, 1973\nsurvived recall attempt on July 1, 1975	elected|november|4|,|1969|and|november|6|,|1973|survived|recall|attempt|on|july|1|,|1975	elect|November|4|,|1969|and|November|6|,|1973|survive|recall|attempt|on|July|1|,|1975	VBN|NNP|CD|,|CD|CC|NNP|CD|,|CD|VBD|NN|NN|IN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE|O|O|O|O|DATE|DATE|DATE|DATE	|1969-11-04|1969-11-04|1969-11-04|1969-11-04||1973-11-06|1973-11-06|1973-11-06|1973-11-06|||||1975-07-01|1975-07-01|1975-07-01|1975-07-01	41969.0		61973.0	elected November 4|1969|and November 6|1973|survived recall attempt on July 1|1975	fb:part.elected_november_4|fb:part.1969|fb:part.and_november_6|fb:part.1973|fb:part.survived_recall_attempt_on_july_1|fb:part.1975
+50	2	fb:cell.december_1_1969	December 1, 1969	december|1|,|1969	December|1|,|1969	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1969-12-01|1969-12-01|1969-12-01|1969-12-01	11969.0	1969-12-01		December 1|1969	fb:part.december_1|fb:part.1969
+50	3	fb:cell.january_1_1978	January 1, 1978	january|1|,|1978	January|1|,|1978	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1978-01-01|1978-01-01|1978-01-01|1978-01-01	11978.0	1978-01-01		January 1|1978	fb:part.january_1|fb:part.1978
+51	0	fb:cell.charles_royer	Charles Royer	charles|royer	Charles|Royer	NNP|NNP	PERSON|PERSON	|					
+51	1	fb:cell.elected_november_8_1977_november_3_1981_and_november_5_1985	elected November 8, 1977, November 3, 1981, and November 5, 1985	elected|november|8|,|1977|,|november|3|,|1981|,|and|november|5|,|1985	elect|November|8|,|1977|,|November|3|,|1981|,|and|November|5|,|1985	VBN|NNP|CD|,|CD|,|NNP|CD|,|CD|,|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|O|O|DATE|DATE|DATE|DATE	|1977-11-08|1977-11-08|1977-11-08|1977-11-08|1977-11-08|1977-11-08|1977-11-08|1977-11-08|1977-11-08|||1985-11-05|1985-11-05|1985-11-05|1985-11-05	81977.0		31981.0	elected November 8|1977|November 3|1981|and November 5|1985	fb:part.elected_november_8|fb:part.1977|fb:part.november_3|fb:part.1981|fb:part.and_november_5|fb:part.1985
+51	2	fb:cell.january_1_1978	January 1, 1978	january|1|,|1978	January|1|,|1978	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1978-01-01|1978-01-01|1978-01-01|1978-01-01	11978.0	1978-01-01		January 1|1978	fb:part.january_1|fb:part.1978
+51	3	fb:cell.january_1_1990	January 1, 1990	january|1|,|1990	January|1|,|1990	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1990-01-01|1990-01-01|1990-01-01|1990-01-01	11990.0	1990-01-01		January 1|1990	fb:part.january_1|fb:part.1990
+52	0	fb:cell.norman_b_rice	Norman B. Rice	norman|b.|rice	Norman|B.|Rice	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+52	1	fb:cell.elected_november_7_1989	elected November 7, 1989	elected|november|7|,|1989	elect|November|7|,|1989	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1989-11-07|1989-11-07|1989-11-07|1989-11-07	71989.0			elected November 7|1989	fb:part.elected_november_7|fb:part.1989
+52	2	fb:cell.january_1_1990	January 1, 1990	january|1|,|1990	January|1|,|1990	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1990-01-01|1990-01-01|1990-01-01|1990-01-01	11990.0	1990-01-01		January 1|1990	fb:part.january_1|fb:part.1990
+52	3	fb:cell.january_1_1998	January 1, 1998	january|1|,|1998	January|1|,|1998	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1998-01-01|1998-01-01|1998-01-01|1998-01-01	11998.0	1998-01-01		January 1|1998	fb:part.january_1|fb:part.1998
+53	0	fb:cell.paul_schell	Paul Schell	paul|schell	Paul|Schell	NNP|NNP	PERSON|PERSON	|					
+53	1	fb:cell.elected_november_4_1997	elected November 4, 1997	elected|november|4|,|1997	elect|November|4|,|1997	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|1997-11-04|1997-11-04|1997-11-04|1997-11-04	41997.0			elected November 4|1997	fb:part.elected_november_4|fb:part.1997
+53	2	fb:cell.january_1_1998	January 1, 1998	january|1|,|1998	January|1|,|1998	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1998-01-01|1998-01-01|1998-01-01|1998-01-01	11998.0	1998-01-01		January 1|1998	fb:part.january_1|fb:part.1998
+53	3	fb:cell.january_1_2002	January 1, 2002	january|1|,|2002	January|1|,|2002	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2002-01-01|2002-01-01|2002-01-01|2002-01-01	12002.0	2002-01-01		January 1|2002	fb:part.january_1|fb:part.2002
+54	0	fb:cell.gregory_j_nickels	Gregory J. Nickels	gregory|j.|nickels	Gregory|J.|Nickels	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+54	1	fb:cell.elected_november_6_2001_and_november_8_2005	elected November 6, 2001\nand November 8, 2005	elected|november|6|,|2001|and|november|8|,|2005	elect|November|6|,|2001|and|November|8|,|2005	VBN|NNP|CD|,|CD|CC|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE|O|DATE|DATE|DATE|DATE	|2001-11-06|2001-11-06|2001-11-06|2001-11-06||2005-11-08|2005-11-08|2005-11-08|2005-11-08	62001.0		82005.0	elected November 6|2001|and November 8|2005	fb:part.elected_november_6|fb:part.2001|fb:part.and_november_8|fb:part.2005
+54	2	fb:cell.january_1_2002	January 1, 2002	january|1|,|2002	January|1|,|2002	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2002-01-01|2002-01-01|2002-01-01|2002-01-01	12002.0	2002-01-01		January 1|2002	fb:part.january_1|fb:part.2002
+54	3	fb:cell.january_1_2010	January 1, 2010	january|1|,|2010	January|1|,|2010	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2010-01-01|2010-01-01|2010-01-01|2010-01-01	12010.0	2010-01-01		January 1|2010	fb:part.january_1|fb:part.2010
+55	0	fb:cell.michael_mcginn	Michael McGinn	michael|mcginn	Michael|McGinn	NNP|NNP	PERSON|PERSON	|					
+55	1	fb:cell.elected_november_3_2009	elected November 3, 2009	elected|november|3|,|2009	elect|November|3|,|2009	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|2009-11-03|2009-11-03|2009-11-03|2009-11-03	32009.0			elected November 3|2009	fb:part.elected_november_3|fb:part.2009
+55	2	fb:cell.january_1_2010	January 1, 2010	january|1|,|2010	January|1|,|2010	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2010-01-01|2010-01-01|2010-01-01|2010-01-01	12010.0	2010-01-01		January 1|2010	fb:part.january_1|fb:part.2010
+55	3	fb:cell.january_1_2014	January 1, 2014	january|1|,|2014	January|1|,|2014	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2014-01-01|2014-01-01|2014-01-01|2014-01-01	12014.0	2014-01-01		January 1|2014	fb:part.january_1|fb:part.2014
+56	0	fb:cell.ed_murray	Ed Murray	ed|murray	Ed|Murray	NNP|NNP	PERSON|PERSON	|					
+56	1	fb:cell.elected_november_5_2013	elected November 5, 2013	elected|november|5|,|2013	elect|November|5|,|2013	VBN|NNP|CD|,|CD	O|DATE|DATE|DATE|DATE	|2013-11-05|2013-11-05|2013-11-05|2013-11-05	52013.0			elected November 5|2013	fb:part.elected_november_5|fb:part.2013
+56	2	fb:cell.january_1_2014	January 1, 2014	january|1|,|2014	January|1|,|2014	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2014-01-01|2014-01-01|2014-01-01|2014-01-01	12014.0	2014-01-01		January 1|2014	fb:part.january_1|fb:part.2014
+56	3	fb:cell.present	present	present	present	JJ	DATE	PRESENT_REF				present	fb:part.present

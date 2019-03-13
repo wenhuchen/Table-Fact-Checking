@@ -1,0 +1,76 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.b_side	B-side	b|side	b|side	NN|NN	O|O	|					
+-1	3	fb:row.row.mediums	Mediums	mediums	medium	NNS	O						
+-1	4	fb:row.row.label_catalog	Label (Catalog)	label|-lrb-|catalog|-rrb-	label|-lrb-|catalog|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+0	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+0	1	fb:cell._broke	"Broke"	``|broke|''	``|Broke|''	``|NNP|''	O|O|O	||					
+0	2	fb:cell._whenever_i_breathe_out_you_breathe_in_positive_negative	"Whenever I Breathe Out, You Breathe In" (Positive/Negative)	``|whenever|i|breathe|out|,|you|breathe|in|''|-lrb-|positive\\/negative|-rrb-	``|Whenever|I|breathe|out|,|you|breathe|in|''|-lrb-|positive\\/negative|-rrb-	``|NNP|PRP|VBP|IN|,|PRP|VBP|IN|''|-LRB-|JJ|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				"Whenever I Breathe Out|You Breathe In" (Positive|Negative)	fb:part._whenever_i_breathe_out|fb:part.you_breathe_in_positive|fb:part.negative
+0	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+0	4	fb:cell.sub_pop_sp0338	Sub Pop (SP0338)	sub|pop|-lrb-|sp0338|-rrb-	sub|pop|-lrb-|sp0338|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||	338.0			Sub Pop (SP0338)	fb:part.sub_pop_sp0338
+1	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+1	1	fb:cell._a_life_of_arctic_sounds	"A Life of Arctic Sounds"	``|a|life|of|arctic|sounds|''	``|a|life|of|Arctic|sound|''	``|DT|NN|IN|NNP|VBZ|''	O|O|O|O|O|O|O	||||||					
+1	2	fb:cell._medication	"Medication"	``|medication|''	``|medication|''	``|NN|''	O|O|O	||				"Medication"	fb:part._medication
+1	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+1	4	fb:cell.suicide_squeeze_ssr001003	Suicide Squeeze (SSR001003)	suicide|squeeze|-lrb-|ssr001003|-rrb-	suicide|squeeze|-lrb-|ssr001003|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||	1003.0			Suicide Squeeze (SSR001003)	fb:part.suicide_squeeze_ssr001003
+2	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+2	1	fb:cell._birds_vs_worms	"Birds vs. Worms"	``|birds|vs.|worms|''	``|bird|vs.|worm|''	``|NNS|CC|NNS|''	O|O|O|O|O	||||					
+2	2	fb:cell._every_penny_fed_car_four_fingered_fisherman	"Every Penny Fed Car", "Four Fingered Fisherman"	``|every|penny|fed|car|''|,|``|four|fingered|fisherman|''	``|every|Penny|Fed|car|''|,|``|four|Fingered|Fisherman|''	``|DT|NNP|NNP|NN|''|,|``|CD|NNP|NNP|''	O|O|MISC|MISC|MISC|O|O|O|NUMBER|MISC|MISC|O	||||||||4.0|||				"Every Penny Fed Car"|"Four Fingered Fisherman"	fb:part._every_penny_fed_car|fb:part._four_fingered_fisherman
+2	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+2	4	fb:cell.hit_or_miss	Hit Or Miss	hit|or|miss	hit|or|Miss	VBN|CC|NNP	O|MISC|MISC	||				Hit Or Miss	fb:part.hit_or_miss
+3	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+3	1	fb:cell._other_people_s_lives	"Other People's Lives"	``|other|people|'s|lives|''	``|other|people|'s|life|''	``|JJ|NNS|POS|NNS|''	O|O|O|O|O|O	|||||					
+3	2	fb:cell._grey_ice_water	"Grey Ice Water"	``|grey|ice|water|''	``|Grey|Ice|Water|''	``|NNP|NNP|NNP|''	O|O|O|O|O	||||				"Grey Ice Water"	fb:part._grey_ice_water
+3	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+3	4	fb:cell.up_records	Up Records	up|records	up|Records	IN|NNP	O|O	|				Up Records	fb:part.up_records
+4	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+4	1	fb:cell._never_ending_math_equation	"Never Ending Math Equation"	``|never|ending|math|equation|''	``|never|ending|Math|equation|''	``|RB|JJ|NNP|NN|''	O|O|O|O|O|O	|||||					
+4	2	fb:cell._workin_on_leavin_the_livin	"Workin' on Leavin' the Livin'"	``|workin|'|on|leavin|'|the|livin|'|''	``|Workin|'|on|Leavin|'|the|livin|'|''	``|NNP|''|IN|NNP|POS|DT|NN|''|''	O|O|O|O|O|O|O|O|O|O	|||||||||				"Workin' on Leavin' the Livin'"	fb:part._workin_on_leavin_the_livin
+4	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+4	4	fb:cell.sub_pop_sp0436	Sub Pop (SP0436)	sub|pop|-lrb-|sp0436|-rrb-	sub|pop|-lrb-|sp0436|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||	436.0			Sub Pop (SP0436)	fb:part.sub_pop_sp0436
+5	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+5	1	fb:cell._whenever_you_see_fit	"Whenever You See Fit"	``|whenever|you|see|fit|''	``|Whenever|you|see|fit|''	``|NNP|PRP|VB|NN|''	O|O|O|O|O|O	|||||					
+5	2	fb:cell._whenever_you_see_fit_dj_dynomite_d_mix_whenever_you_see_fit_sientific_american_mix	"Whenever You See Fit (DJ Dynomite D Mix)", "Whenever You See Fit" (Sientific American Mix)	``|whenever|you|see|fit|-lrb-|dj|dynomite|d|mix|-rrb-|''|,|``|whenever|you|see|fit|''|-lrb-|sientific|american|mix|-rrb-	``|Whenever|you|see|fit|-lrb-|DJ|Dynomite|D|Mix|-rrb-|''|,|``|Whenever|you|see|fit|''|-lrb-|Sientific|American|Mix|-rrb-	``|NNP|PRP|VB|NN|-LRB-|NNP|NNP|NNP|NNP|-RRB-|''|,|``|NNP|PRP|VB|NN|''|-LRB-|NNP|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|MISC|MISC|O|O	|||||||||||||||||||||||				"Whenever You See Fit (DJ Dynomite D Mix)"|"Whenever You See Fit" (Sientific American Mix)	fb:part._whenever_you_see_fit_dj_dynomite_d_mix|fb:part._whenever_you_see_fit_sientific_american_mix
+5	3	fb:cell.12_cd	12", CD	12|''|,|cd	12|''|,|CD	CD|''|,|NNP	NUMBER|O|O|O	12.0|||	12.0			12"|CD	fb:part.12|fb:part.cd
+5	4	fb:cell.up_records_suicide_squeeze	Up Records/Suicide Squeeze	up|records\\/suicide|squeeze	up|Records\\/Suicide|Squeeze	IN|NNP|NNP	O|O|O	||				Up Records|Suicide Squeeze	fb:part.up_records|fb:part.suicide_squeeze
+6	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+6	1	fb:cell._heart_cooks_brain	"Heart Cooks Brain"	``|heart|cooks|brain|''	``|Heart|Cooks|brain|''	``|NNP|NNPS|NN|''	O|O|O|O|O	||||					
+6	2	fb:cell._shit_luck	"Shit Luck"	``|shit|luck|''	``|shit|Luck|''	``|NN|NNP|''	O|O|O|O	|||				"Shit Luck"	fb:part._shit_luck
+6	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+6	4	fb:cell.matador_records	Matador Records	matador|records	Matador|Records	NNP|NNPS	O|O	|				Matador Records	fb:part.matador_records
+7	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+7	1	fb:cell._float_on	"Float On"	``|float|on|''	``|float|on|''	``|VB|IN|''	O|O|O|O	|||					
+7	2	fb:cell._i_ve_got_it_all_most	"I've Got It All (Most)"	``|i|'ve|got|it|all|-lrb-|most|-rrb-|''	``|I|have|get|it|all|-lrb-|most|-rrb-|''	``|PRP|VBP|VBD|PRP|DT|-LRB-|JJS|-RRB-|''	O|O|O|O|O|O|O|O|O|O	|||||||||				"I've Got It All (Most)"	fb:part._i_ve_got_it_all_most
+7	3	fb:cell.7_cd	7", CD	7|''|,|cd	7|''|,|CD	CD|''|,|NNP	NUMBER|O|O|O	7.0|||	7.0			7"|CD	fb:part.7|fb:part.cd
+7	4	fb:cell.epic_076685	Epic (076685)	epic|-lrb-|076685|-rrb-	epic|-lrb-|076685|-rrb-	NN|-LRB-|CD|-RRB-	O|O|NUMBER|O	||76685.0|	76685.0			Epic (076685)	fb:part.epic_076685
+8	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+8	1	fb:cell._ocean_breathes_salty	"Ocean Breathes Salty"	``|ocean|breathes|salty|''	``|Ocean|Breathes|Salty|''	``|NNP|NNP|NNP|''	O|O|O|O|O	||||					
+8	2	fb:cell._float_on_live_studio	"Float On (Live Studio)"	``|float|on|-lrb-|live|studio|-rrb-|''	``|float|on|-lrb-|live|studio|-rrb-|''	``|VB|IN|-LRB-|JJ|NN|-RRB-|''	O|O|O|O|O|O|O|O	|||||||				"Float On (Live Studio)"	fb:part._float_on_live_studio
+8	3	fb:cell.cd	CD	cd	CD	NNP	O					CD	fb:part.cd
+8	4	fb:cell.epic	Epic	epic	epic	NN	O					Epic	fb:part.epic
+9	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+9	1	fb:cell._dashboard	"Dashboard"	``|dashboard|''	``|dashboard|''	``|NN|''	O|O|O	||					
+9	2	fb:cell._king_rat	"King Rat"	``|king|rat|''	``|King|rat|''	``|NNP|NN|''	O|O|O|O	|||				"King Rat"	fb:part._king_rat
+9	3	fb:cell.7_cd	7", CD	7|''|,|cd	7|''|,|CD	CD|''|,|NNP	NUMBER|O|O|O	7.0|||	7.0			7"|CD	fb:part.7|fb:part.cd
+9	4	fb:cell.epic	Epic	epic	epic	NN	O					Epic	fb:part.epic
+10	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+10	1	fb:cell._missed_the_boat	"Missed the Boat"	``|missed|the|boat|''	``|miss|the|Boat|''	``|VBN|DT|NNP|''	O|O|O|O|O	||||					
+10	2	fb:cell.null											fb:part.null
+10	3	fb:cell.digital	Digital	digital	Digital	NNP	O					Digital	fb:part.digital
+10	4	fb:cell.epic	Epic	epic	epic	NN	O					Epic	fb:part.epic
+11	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+11	1	fb:cell._satellite_skin	"Satellite Skin"	``|satellite|skin|''	``|Satellite|Skin|''	``|NNP|NNP|''	O|O|O|O	|||					
+11	2	fb:cell._guilty_cocker_spaniels	"Guilty Cocker Spaniels"	``|guilty|cocker|spaniels|''	``|Guilty|Cocker|Spaniels|''	``|NNP|NNP|NNP|''	O|O|O|O|O	||||				"Guilty Cocker Spaniels"	fb:part._guilty_cocker_spaniels
+11	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+11	4	fb:cell.epic	Epic	epic	epic	NN	O					Epic	fb:part.epic
+12	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+12	1	fb:cell._autumn_beds	"Autumn Beds"	``|autumn|beds|''	``|autumn|bed|''	``|NN|NNS|''	O|DATE|O|O	|XXXX-FA||					
+12	2	fb:cell._whale_song	"Whale Song"	``|whale|song|''	``|Whale|song|''	``|NNP|NN|''	O|O|O|O	|||				"Whale Song"	fb:part._whale_song
+12	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+12	4	fb:cell.epic	Epic	epic	epic	NN	O					Epic	fb:part.epic
+13	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+13	1	fb:cell._perpetual_motion_machine	"Perpetual Motion Machine"	``|perpetual|motion|machine|''	``|perpetual|Motion|machine|''	``|JJ|NNP|NN|''	O|O|O|O|O	||||					
+13	2	fb:cell._history_sticks_to_your_feet	"History Sticks To Your Feet"	``|history|sticks|to|your|feet|''	``|history|stick|to|you|Feet|''	``|NN|VBZ|TO|PRP$|NNP|''	O|O|O|O|O|O|O	||||||				"History Sticks To Your Feet"	fb:part._history_sticks_to_your_feet
+13	3	fb:cell.7	7"	7|''	7|''	CD|''	NUMBER|O	7.0|	7.0			7"	fb:part.7
+13	4	fb:cell.epic	Epic	epic	epic	NN	O					Epic	fb:part.epic

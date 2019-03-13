@@ -1,0 +1,81 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name_s	Name(s)	name|-lrb-|s|-rrb-	name|-lrb-|s|-rrb-	VB|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	1	fb:row.row.yard_no	Yard no.	yard|no|.	yard|no|.	NN|DT|.	O|O|O	||					
+-1	2	fb:row.row.type_as_built	Type (as built)	type|-lrb-|as|built|-rrb-	type|-lrb-|as|build|-rrb-	NN|-LRB-|IN|VBN|-RRB-	O|O|O|O|O	||||					
+-1	3	fb:row.row.owner	Owner	owner	Owner	NNP	O						
+-1	4	fb:row.row.imo_number	IMO number	imo|number	IMO|number	NNP|NN	O|O	|					
+-1	5	fb:row.row.laid_down	Laid down	laid|down	lay|down	VBN|RP	O|O	|					
+-1	6	fb:row.row.launched	Launched	launched	launch	VBN	O						
+-1	7	fb:row.row.delivered_commissioned	Delivered/\nCommissioned	delivered|\\/|commissioned	deliver|\\/|commission	VBN|:|VBN	O|O|O	||					
+-1	8	fb:row.row.fate_decommissioned	Fate/\nDecommissioned	fate|\\/|decommissioned	Fate|\\/|decommissioned	NNP|:|JJ	O|O|O	||					
+-1	9	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.sally	Sally	sally	Sally	NNP	PERSON						
+0	1	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+0	2	fb:cell.yacht	Yacht	yacht	Yacht	NNP	O						
+0	3	fb:cell.lyman	Lyman	lyman	Lyman	NNP	PERSON						
+0	4	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+0	5	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+0	6	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+0	7	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+0	8	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+0	9	fb:cell.null											
+1	0	fb:cell.caprice	Caprice	caprice	Caprice	NNP	O						
+1	1	fb:cell.101	101	101	101	CD	NUMBER	101.0	101.0				
+1	2	fb:cell.yacht	Yacht	yacht	Yacht	NNP	O						
+1	3	fb:cell.robinson	Robinson	robinson	Robinson	NNP	PERSON						
+1	4	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+1	5	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+1	6	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+1	7	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+1	8	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+1	9	fb:cell.null											
+2	0	fb:cell.eleanor	Eleanor	eleanor	Eleanor	NNP	PERSON						
+2	1	fb:cell.103	103	103	103	CD	NUMBER	103.0	103.0				
+2	2	fb:cell.yacht	Yacht	yacht	Yacht	NNP	O						
+2	3	fb:cell.clapp	Clapp	clapp	Clapp	NNP	PERSON						
+2	4	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+2	5	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+2	6	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+2	7	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+2	8	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+2	9	fb:cell.null											
+3	0	fb:cell.uss_lawrence_dd_8	USS Lawrence (DD-8)	uss|lawrence|-lrb-|dd-8|-rrb-	USS|Lawrence|-lrb-|dd-8|-rrb-	NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O	||||	8.0				
+3	1	fb:cell.104	104	104	104	CD	NUMBER	104.0	104.0				
+3	2	fb:cell.bainbridge_class_destroyer	Bainbridge-class destroyer	bainbridge|class|destroyer	Bainbridge|class|destroyer	NNP|NN|NN	LOCATION|O|O	||					
+3	3	fb:cell.u_s_navy	U.S. Navy	u.s.|navy	U.S.|Navy	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+3	4	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+3	5	fb:cell.10_april_1899	10 April 1899	10|april|1899	10|April|1899	CD|NNP|CD	DATE|DATE|DATE	1899-04-10|1899-04-10|1899-04-10	10.0	1899-04-10	1899.0		
+3	6	fb:cell.7_november_1900	7 November 1900	7|november|1900	7|November|1900	CD|NNP|CD	DATE|DATE|DATE	1900-11-07|1900-11-07|1900-11-07	7.0	1900-11-07	1900.0		
+3	7	fb:cell.7_april_1903	7 April 1903	7|april|1903	7|April|1903	CD|NNP|CD	DATE|DATE|DATE	1903-04-07|1903-04-07|1903-04-07	7.0	1903-04-07	1903.0		
+3	8	fb:cell.20_june_1919	20 June 1919	20|june|1919	20|June|1919	CD|NNP|CD	DATE|DATE|DATE	1919-06-20|1919-06-20|1919-06-20	20.0	1919-06-20	1919.0		
+3	9	fb:cell.sold_to_joseph_g_hitner_scrapped	Sold to Joseph G. Hitner; scrapped	sold|to|joseph|g.|hitner|;|scrapped	sell|to|Joseph|G.|Hitner|;|scrap	VBN|TO|NNP|NNP|NNP|:|VBD	O|O|PERSON|PERSON|PERSON|O|O	||||||					
+4	0	fb:cell.uss_macdonough_dd_9	USS Macdonough (DD-9)	uss|macdonough|-lrb-|dd-9|-rrb-	USS|Macdonough|-lrb-|dd-9|-rrb-	NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O	||||	9.0				
+4	1	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+4	2	fb:cell.bainbridge_class_destroyer	Bainbridge-class destroyer	bainbridge|class|destroyer	Bainbridge|class|destroyer	NNP|NN|NN	LOCATION|O|O	||					
+4	3	fb:cell.u_s_navy	U.S. Navy	u.s.|navy	U.S.|Navy	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+4	4	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+4	5	fb:cell.10_april_1899	10 April 1899	10|april|1899	10|April|1899	CD|NNP|CD	DATE|DATE|DATE	1899-04-10|1899-04-10|1899-04-10	10.0	1899-04-10	1899.0		
+4	6	fb:cell.24_december_1900	24 December 1900	24|december|1900	24|December|1900	CD|NNP|CD	DATE|DATE|DATE	1900-12-24|1900-12-24|1900-12-24	24.0	1900-12-24	1900.0		
+4	7	fb:cell.5_september_1903	5 September 1903	5|september|1903	5|September|1903	CD|NNP|CD	DATE|DATE|DATE	1903-09-05|1903-09-05|1903-09-05	5.0	1903-09-05	1903.0		
+4	8	fb:cell.3_september_1919	3 September 1919	3|september|1919	3|September|1919	CD|NNP|CD	DATE|DATE|DATE	1919-09-03|1919-09-03|1919-09-03	3.0	1919-09-03	1919.0		
+4	9	fb:cell.sold_to_joseph_g_hitner_scrapped	Sold to Joseph G. Hitner; scrapped	sold|to|joseph|g.|hitner|;|scrapped	sell|to|Joseph|G.|Hitner|;|scrap	VBN|TO|NNP|NNP|NNP|:|VBD	O|O|PERSON|PERSON|PERSON|O|O	||||||					
+5	0	fb:cell.jule	Jule	jule	jule	NN	PERSON						
+5	1	fb:cell.106	106	106	106	CD	NUMBER	106.0	106.0				
+5	2	fb:cell.yacht	Yacht	yacht	Yacht	NNP	O						
+5	3	fb:cell.j_arthur	J. Arthur	j.|arthur	J.|Arthur	NNP|NNP	O|O	|					
+5	4	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+5	5	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+5	6	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+5	7	fb:cell.12_june_1899	12 June 1899	12|june|1899	12|June|1899	CD|NNP|CD	DATE|DATE|DATE	1899-06-12|1899-06-12|1899-06-12	12.0	1899-06-12	1899.0		
+5	8	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+5	9	fb:cell.null											
+6	0	fb:cell.united_states_lightship_lv_72	United States lightship LV-72	united|states|lightship|lv-72	United|States|lightship|lv-72	NNP|NNPS|NN|NN	LOCATION|LOCATION|O|O	|||	72.0				
+6	1	fb:cell.107	107	107	107	CD	NUMBER	107.0	107.0				
+6	2	fb:cell.lightvessel	Lightvessel	lightvessel	Lightvessel	NNP	PERSON						
+6	3	fb:cell.u_s_lighthouse_board	U.S Lighthouse Board	u.s|lighthouse|board	U.S|Lighthouse|Board	NNP|NNP|NNP	O|O|O	||					
+6	4	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+6	5	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+6	6	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+6	7	fb:cell.13_february_1901	13 February 1901	13|february|1901	13|February|1901	CD|NNP|CD	DATE|DATE|DATE	1901-02-13|1901-02-13|1901-02-13	13.0	1901-02-13	1901.0		
+6	8	fb:cell.unknown	Unknown	unknown	unknown	JJ	O						
+6	9	fb:cell.null											

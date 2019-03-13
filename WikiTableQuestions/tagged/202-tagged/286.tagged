@@ -1,0 +1,265 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.outcome	Outcome	outcome	outcome	NN	O						
+-1	1	fb:row.row.no	No.	no|.	no|.	DT|.	O|O	|					
+-1	2	fb:row.row.date	Date	date	date	NN	O						
+-1	3	fb:row.row.tournament	Tournament	tournament	tournament	NN	O						
+-1	4	fb:row.row.surface	Surface	surface	surface	NN	O						
+-1	5	fb:row.row.partner	Partner	partner	Partner	NNP	O						
+-1	6	fb:row.row.opponents_in_the_final	Opponents in the final	opponents|in|the|final	opponent|in|the|final	NNS|IN|DT|JJ	O|O|O|O	|||					
+-1	7	fb:row.row.score_in_the_final	Score in the final	score|in|the|final	score|in|the|final	NN|IN|DT|JJ	NUMBER|O|O|O	20.0|||					
+0	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+0	1	fb:cell.1	1.	1|.	1|.	LS|.	NUMBER|O	1.0|	1.0				
+0	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+0	3	fb:cell.stockholm_sweden	Stockholm, Sweden	stockholm|,|sweden	Stockholm|,|Sweden	NNP|,|NNP	O|O|LOCATION	||				Stockholm|Sweden	fb:part.stockholm|fb:part.sweden
+0	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+0	5	fb:cell.roy_emerson	Roy Emerson	roy|emerson	Roy|Emerson	NNP|NNP	PERSON|PERSON	|					
+0	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+0	7	fb:cell.5_7_6_7	5–7, 6–7	5|--|7|,|6|--|7	5|--|7|,|6|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||6.0||7.0	5.0		76.0	5–7|6–7	fb:part.5_7|fb:part.6_7
+1	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+1	1	fb:cell.2	2.	2|.	2|.	LS|.	NUMBER|O	2.0|	2.0				
+1	2	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+1	3	fb:cell.miami_wct_us	Miami WCT, US	miami|wct|,|us	Miami|WCT|,|US	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Miami WCT|US	fb:part.miami_wct|fb:part.us
+1	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+1	5	fb:cell.terry_addison	Terry Addison	terry|addison	Terry|Addison	NNP|NNP	PERSON|PERSON	|					
+1	6	fb:cell.roy_emerson_rod_laver	Roy Emerson\n Rod Laver	roy|emerson|rod|laver	Roy|Emerson|Rod|Laver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Roy Emerson|Rod Laver	fb:part.roy_emerson|fb:part.rod_laver
+1	7	fb:cell.4_6_4_6	4–6, 4–6	4|--|6|,|4|--|6	4|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||4.0||6.0	4.0		64.0	4–6|4–6	fb:part.4_6|fb:part.4_6
+2	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+2	1	fb:cell.3	3.	3|.	3|.	LS|.	NUMBER|O	3.0|	3.0				
+2	2	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+2	3	fb:cell.richmond_wct_us	Richmond WCT, US	richmond|wct|,|us	Richmond|WCT|,|US	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Richmond WCT|US	fb:part.richmond_wct|fb:part.us
+2	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+2	5	fb:cell.terry_addison	Terry Addison	terry|addison	Terry|Addison	NNP|NNP	PERSON|PERSON	|					
+2	6	fb:cell.roy_emerson_rod_laver	Roy Emerson\n Rod Laver	roy|emerson|rod|laver	Roy|Emerson|Rod|Laver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Roy Emerson|Rod Laver	fb:part.roy_emerson|fb:part.rod_laver
+2	7	fb:cell.6_3_3_6_4_6	6–3, 3–6, 4–6	6|--|3|,|3|--|6|,|4|--|6	6|--|3|,|3|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||3.0||6.0||4.0||6.0	6.0		33.0	6–3|3–6|4–6	fb:part.6_3|fb:part.3_6|fb:part.4_6
+3	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+3	1	fb:cell.4	4.	4|.	4|.	LS|.	NUMBER|O	4.0|	4.0				
+3	2	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+3	3	fb:cell.st_louis_us	St. Louis, US	st.|louis|,|us	St.|Louis|,|US	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				St. Louis|US	fb:part.st_louis|fb:part.us
+3	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+3	5	fb:cell.terry_addison	Terry Addison	terry|addison	Terry|Addison	NNP|NNP	PERSON|PERSON	|					
+3	6	fb:cell.ove_nils_bengtson_jim_mcmanus	Ove Nils Bengtson\n Jim McManus	ove|nils|bengtson|jim|mcmanus	Ove|Nils|Bengtson|Jim|McManus	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Ove Nils Bengtson|Jim McManus	fb:part.ove_nils_bengtson|fb:part.jim_mcmanus
+3	7	fb:cell.2_6_5_7	2–6, 5–7	2|--|6|,|5|--|7	2|--|6|,|5|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||5.0||7.0	2.0		65.0	2–6|5–7	fb:part.2_6|fb:part.5_7
+4	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+4	1	fb:cell.5	5.	5|.	5|.	CD|.	NUMBER|O	5.0|	5.0				
+4	2	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+4	3	fb:cell.columbus_us	Columbus, US	columbus|,|us	Columbus|,|US	NNP|,|NNP	O|O|LOCATION	||				Columbus|US	fb:part.columbus|fb:part.us
+4	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+4	5	fb:cell.charles_pasarell	Charles Pasarell	charles|pasarell	Charles|Pasarell	NNP|NNP	PERSON|PERSON	|					
+4	6	fb:cell.gerald_battrick_graham_stilwell	Gerald Battrick\n Graham Stilwell	gerald|battrick|graham|stilwell	Gerald|Battrick|Graham|Stilwell	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Gerald Battrick|Graham Stilwell	fb:part.gerald_battrick|fb:part.graham_stilwell
+4	7	fb:cell.4_6_6_7	4–6, 6–7	4|--|6|,|6|--|7	4|--|6|,|6|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||6.0||7.0	4.0		66.0	4–6|6–7	fb:part.4_6|fb:part.6_7
+5	0	fb:cell.winner	Winner	winner	winner	NN	O						
+5	1	fb:cell.1	1.	1|.	1|.	LS|.	NUMBER|O	1.0|	1.0				
+5	2	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+5	3	fb:cell.merion_us	Merion, US	merion|,|us	Merion|,|US	NNP|,|NNP	LOCATION|O|LOCATION	||				Merion|US	fb:part.merion|fb:part.us
+5	4	fb:cell.grass	Grass	grass	grass	NN	O						
+5	5	fb:cell.allan_stone	Allan Stone	allan|stone	Allan|Stone	NNP|NNP	PERSON|PERSON	|					
+5	6	fb:cell.john_austin_fred_mcnair	John Austin\n Fred McNair	john|austin|fred|mcnair	John|Austin|Fred|McNair	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Austin|Fred McNair	fb:part.john_austin|fb:part.fred_mcnair
+5	7	fb:cell.7_6_6_3	7–6, 6–3	7|--|6|,|6|--|3	7|--|6|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||6.0||3.0	7.0		66.0	7–6|6–3	fb:part.7_6|fb:part.6_3
+6	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+6	1	fb:cell.6	6.	6|.	6|.	CD|.	NUMBER|O	6.0|	6.0				
+6	2	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+6	3	fb:cell.tokyo_outdoor	Tokyo Outdoor	tokyo|outdoor	Tokyo|Outdoor	NNP|NNP	LOCATION|O	|				Tokyo Outdoor	fb:part.tokyo_outdoor
+6	4	fb:cell.null											
+6	5	fb:cell.allan_stone	Allan Stone	allan|stone	Allan|Stone	NNP|NNP	PERSON|PERSON	|					
+6	6	fb:cell.mal_anderson_ken_rosewall	Mal Anderson\n Ken Rosewall	mal|anderson|ken|rosewall	Mal|Anderson|Ken|Rosewall	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Mal Anderson|Ken Rosewall	fb:part.mal_anderson|fb:part.ken_rosewall
+6	7	fb:cell.5_7_5_7	5–7, 5–7	5|--|7|,|5|--|7	5|--|7|,|5|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||5.0||7.0	5.0		75.0	5–7|5–7	fb:part.5_7|fb:part.5_7
+7	0	fb:cell.winner	Winner	winner	winner	NN	O						
+7	1	fb:cell.2	2.	2|.	2|.	LS|.	NUMBER|O	2.0|	2.0				
+7	2	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+7	3	fb:cell.hong_kong	Hong Kong	hong|kong	Hong|Kong	NNP|NNP	LOCATION|LOCATION	|				Hong Kong	fb:part.hong_kong
+7	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+7	5	fb:cell.rod_laver	Rod Laver	rod|laver	Rod|Laver	NNP|NNP	PERSON|PERSON	|					
+7	6	fb:cell.paul_gerken_brian_gottfried	Paul Gerken\n Brian Gottfried	paul|gerken|brian|gottfried	Paul|Gerken|Brian|Gottfried	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Paul Gerken|Brian Gottfried	fb:part.paul_gerken|fb:part.brian_gottfried
+7	7	fb:cell.6_3_5_7_17_15	6–3, 5–7, 17–15	6|--|3|,|5|--|7|,|17|--|15	6|--|3|,|5|--|7|,|17|--|15	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||5.0||7.0||17.0||15.0	6.0		35.0	6–3|5–7|17–15	fb:part.6_3|fb:part.5_7|fb:part.17_15
+8	0	fb:cell.winner	Winner	winner	winner	NN	O						
+8	1	fb:cell.3	3.	3|.	3|.	LS|.	NUMBER|O	3.0|	3.0				
+8	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+8	3	fb:cell.houston_us	Houston, US	houston|,|us	Houston|,|US	NNP|,|NNP	LOCATION|O|LOCATION	||				Houston|US	fb:part.houston|fb:part.us
+8	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+8	5	fb:cell.rod_laver	Rod Laver	rod|laver	Rod|Laver	NNP|NNP	PERSON|PERSON	|					
+8	6	fb:cell.arthur_ashe_roscoe_tanner	Arthur Ashe\n Roscoe Tanner	arthur|ashe|roscoe|tanner	Arthur|Ashe|Roscoe|Tanner	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Arthur Ashe|Roscoe Tanner	fb:part.arthur_ashe|fb:part.roscoe_tanner
+8	7	fb:cell.4_6_7_6_6_4	4–6, 7–6, 6–4	4|--|6|,|7|--|6|,|6|--|4	4|--|6|,|7|--|6|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||7.0||6.0||6.0||4.0	4.0		67.0	4–6|7–6|6–4	fb:part.4_6|fb:part.7_6|fb:part.6_4
+9	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+9	1	fb:cell.7	7.	7|.	7|.	CD|.	NUMBER|O	7.0|	7.0				
+9	2	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+9	3	fb:cell.orlando_wct_us	Orlando WCT, US	orlando|wct|,|us	Orlando|WCT|,|US	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Orlando WCT|US	fb:part.orlando_wct|fb:part.us
+9	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+9	5	fb:cell.ray_ruffels	Ray Ruffels	ray|ruffels	Ray|Ruffels	NNP|NNP	PERSON|PERSON	|					
+9	6	fb:cell.brian_gottfried_raul_ramirez	Brian Gottfried\n Raúl Ramírez	brian|gottfried|raúl|ramírez	Brian|Gottfried|Raúl|Ramírez	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Brian Gottfried|Raúl Ramírez	fb:part.brian_gottfried|fb:part.raul_ramirez
+9	7	fb:cell.4_6_4_6	4–6, 4–6	4|--|6|,|4|--|6	4|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||4.0||6.0	4.0		64.0	4–6|4–6	fb:part.4_6|fb:part.4_6
+10	0	fb:cell.winner	Winner	winner	winner	NN	O						
+10	1	fb:cell.4	4.	4|.	4|.	LS|.	NUMBER|O	4.0|	4.0				
+10	2	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+10	3	fb:cell.st_louis_us	St. Louis, US	st.|louis|,|us	St.|Louis|,|US	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				St. Louis|US	fb:part.st_louis|fb:part.us
+10	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+10	5	fb:cell.ray_ruffels	Ray Ruffels	ray|ruffels	Ray|Ruffels	NNP|NNP	PERSON|PERSON	|					
+10	6	fb:cell.ross_case_geoff_masters	Ross Case\n Geoff Masters	ross|case|geoff|masters	Ross|Case|Geoff|master	NNP|NNP|NNP|NN	PERSON|O|PERSON|PERSON	|||				Ross Case|Geoff Masters	fb:part.ross_case|fb:part.geoff_masters
+10	7	fb:cell.6_4_6_4	6–4, 6–4	6|--|4|,|6|--|4	6|--|4|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||4.0	6.0		46.0	6–4|6–4	fb:part.6_4|fb:part.6_4
+11	0	fb:cell.winner	Winner	winner	winner	NN	O						
+11	1	fb:cell.5	5.	5|.	5|.	CD|.	NUMBER|O	5.0|	5.0				
+11	2	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+11	3	fb:cell.istanbul_turkey	Istanbul, Turkey	istanbul|,|turkey	Istanbul|,|Turkey	NNP|,|NNP	LOCATION|O|LOCATION	||				Istanbul|Turkey	fb:part.istanbul|fb:part.turkey
+11	4	fb:cell.outdoor	Outdoor	outdoor	outdoor	JJ	O						
+11	5	fb:cell.thomaz_koch	Thomaz Koch	thomaz|koch	Thomaz|Koch	NNP|NNP	PERSON|PERSON	|					
+11	6	fb:cell.colin_dowdeswell_john_feaver	Colin Dowdeswell\n John Feaver	colin|dowdeswell|john|feaver	Colin|Dowdeswell|John|Feaver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Colin Dowdeswell|John Feaver	fb:part.colin_dowdeswell|fb:part.john_feaver
+11	7	fb:cell.6_2_6_2_6_2	6–2, 6–2, 6–2	6|--|2|,|6|--|2|,|6|--|2	6|--|2|,|6|--|2|,|6|--|2	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||6.0||2.0||6.0||2.0	6.0		26.0	6–2|6–2|6–2	fb:part.6_2|fb:part.6_2|fb:part.6_2
+12	0	fb:cell.winner	Winner	winner	winner	NN	O						
+12	1	fb:cell.6	6.	6|.	6|.	CD|.	NUMBER|O	6.0|	6.0				
+12	2	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+12	3	fb:cell.palm_springs_us	Palm Springs, US	palm|springs|,|us	Palm|Springs|,|US	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Palm Springs|US	fb:part.palm_springs|fb:part.us
+12	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+12	5	fb:cell.sandy_mayer	Sandy Mayer	sandy|mayer	Sandy|Mayer	NNP|NNP	PERSON|PERSON	|					
+12	6	fb:cell.raymond_moore_erik_van_dillen	Raymond Moore\n Erik Van Dillen	raymond|moore|erik|van|dillen	Raymond|Moore|Erik|Van|Dillen	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Raymond Moore|Erik Van Dillen	fb:part.raymond_moore|fb:part.erik_van_dillen
+12	7	fb:cell.6_4_6_7_7_6	6–4, 6–7, 7–6	6|--|4|,|6|--|7|,|7|--|6	6|--|4|,|6|--|7|,|7|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||7.0||7.0||6.0	6.0		46.0	6–4|6–7|7–6	fb:part.6_4|fb:part.6_7|fb:part.7_6
+13	0	fb:cell.winner	Winner	winner	winner	NN	O						
+13	1	fb:cell.7	7.	7|.	7|.	CD|.	NUMBER|O	7.0|	7.0				
+13	2	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+13	3	fb:cell.palma_spain	Palma, Spain	palma|,|spain	Palma|,|Spain	NNP|,|NNP	PERSON|O|LOCATION	||				Palma|Spain	fb:part.palma|fb:part.spain
+13	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+13	5	fb:cell.john_andrews	John Andrews	john|andrews	John|Andrews	NNP|NNP	PERSON|PERSON	|					
+13	6	fb:cell.mark_edmondson_john_marks	Mark Edmondson\n John Marks	mark|edmondson|john|marks	Mark|Edmondson|John|Marks	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Mark Edmondson|John Marks	fb:part.mark_edmondson|fb:part.john_marks
+13	7	fb:cell.2_6_6_3_6_2	2–6, 6–3, 6–2	2|--|6|,|6|--|3|,|6|--|2	2|--|6|,|6|--|3|,|6|--|2	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||6.0||3.0||6.0||2.0	2.0		66.0	2–6|6–3|6–2	fb:part.2_6|fb:part.6_3|fb:part.6_2
+14	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+14	1	fb:cell.8	8.	8|.	8|.	CD|.	NUMBER|O	8.0|	8.0				
+14	2	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+14	3	fb:cell.madrid_spain	Madrid, Spain	madrid|,|spain	Madrid|,|Spain	NNP|,|NNP	LOCATION|O|LOCATION	||				Madrid|Spain	fb:part.madrid|fb:part.spain
+14	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+14	5	fb:cell.john_andrews	John Andrews	john|andrews	John|Andrews	NNP|NNP	PERSON|PERSON	|					
+14	6	fb:cell.carlos_kirmayr_eduardo_mandarino	Carlos Kirmayr\n Eduardo Mandarino	carlos|kirmayr|eduardo|mandarino	Carlos|Kirmayr|Eduardo|Mandarino	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Carlos Kirmayr|Eduardo Mandarino	fb:part.carlos_kirmayr|fb:part.eduardo_mandarino
+14	7	fb:cell.6_7_6_4_6_8	6–7, 6–4, 6–8	6|--|7|,|6|--|4|,|6|--|8	6|--|7|,|6|--|4|,|6|--|8	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||4.0||6.0||8.0	6.0		76.0	6–7|6–4|6–8	fb:part.6_7|fb:part.6_4|fb:part.6_8
+15	0	fb:cell.winner	Winner	winner	winner	NN	O						
+15	1	fb:cell.8	8.	8|.	8|.	CD|.	NUMBER|O	8.0|	8.0				
+15	2	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+15	3	fb:cell.florence_italy	Florence, Italy	florence|,|italy	Florence|,|Italy	NNP|,|NNP	LOCATION|O|LOCATION	||				Florence|Italy	fb:part.florence|fb:part.italy
+15	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+15	5	fb:cell.carlos_kirmayr	Carlos Kirmayr	carlos|kirmayr	Carlos|Kirmayr	NNP|NNP	PERSON|PERSON	|					
+15	6	fb:cell.peter_szoke_balazs_taroczy	Péter Szőke\n Balázs Taróczy	péter|szőke|balázs|taróczy	Péter|Szőke|Balázs|Taróczy	NNP|NNP|NNP|NNP	O|O|O|O	|||				Péter Szőke|Balázs Taróczy	fb:part.peter_szoke|fb:part.balazs_taroczy
+15	7	fb:cell.5_7_7_5_7_5	5–7, 7–5, 7–5	5|--|7|,|7|--|5|,|7|--|5	5|--|7|,|7|--|5|,|7|--|5	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||7.0||5.0||7.0||5.0	5.0		77.0	5–7|7–5|7–5	fb:part.5_7|fb:part.7_5|fb:part.7_5
+16	0	fb:cell.winner	Winner	winner	winner	NN	O						
+16	1	fb:cell.9	9.	9|.	9|.	CD|.	NUMBER|O	9.0|	9.0				
+16	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+16	3	fb:cell.little_rock_us	Little Rock, US	little|rock|,|us	Little|Rock|,|US	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				Little Rock|US	fb:part.little_rock|fb:part.us
+16	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+16	5	fb:cell.haroon_rahim	Haroon Rahim	haroon|rahim	Haroon|Rahim	NNP|NNP	PERSON|PERSON	|					
+16	6	fb:cell.bob_hewitt_frew_mcmillan	Bob Hewitt\n Frew McMillan	bob|hewitt|frew|mcmillan	Bob|Hewitt|Frew|McMillan	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Bob Hewitt|Frew McMillan	fb:part.bob_hewitt|fb:part.frew_mcmillan
+16	7	fb:cell.6_7_6_3_6_3	6–7, 6–3, 6–3	6|--|7|,|6|--|3|,|6|--|3	6|--|7|,|6|--|3|,|6|--|3	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||3.0||6.0||3.0	6.0		76.0	6–7|6–3|6–3	fb:part.6_7|fb:part.6_3|fb:part.6_3
+17	0	fb:cell.winner	Winner	winner	winner	NN	O						
+17	1	fb:cell.10	10.	10|.	10|.	CD|.	NUMBER|O	10.0|	10.0				
+17	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+17	3	fb:cell.denver_us	Denver, US	denver|,|us	Denver|,|US	NNP|,|NNP	LOCATION|O|LOCATION	||				Denver|US	fb:part.denver|fb:part.us
+17	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+17	5	fb:cell.geoff_masters	Geoff Masters	geoff|masters	Geoff|master	NNP|NN	PERSON|PERSON	|					
+17	6	fb:cell.syd_ball_kim_warwick	Syd Ball\n Kim Warwick	syd|ball|kim|warwick	Syd|Ball|Kim|Warwick	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Syd Ball|Kim Warwick	fb:part.syd_ball|fb:part.kim_warwick
+17	7	fb:cell.6_2_6_3	6–2, 6–3	6|--|2|,|6|--|3	6|--|2|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||6.0||3.0	6.0		26.0	6–2|6–3	fb:part.6_2|fb:part.6_3
+18	0	fb:cell.winner	Winner	winner	winner	NN	O						
+18	1	fb:cell.11	11.	11|.	11|.	CD|.	NUMBER|O	11.0|	11.0				
+18	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+18	3	fb:cell.south_orange_us	South Orange, US	south|orange|,|us	South|Orange|,|US	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				South Orange|US	fb:part.south_orange|fb:part.us
+18	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+18	5	fb:cell.wojtek_fibak	Wojtek Fibak	wojtek|fibak	Wojtek|Fibak	NNP|NNP	PERSON|PERSON	|					
+18	6	fb:cell.ion_tiriac_guillermo_vilas	Ion Ţiriac\n Guillermo Vilas	ion|ţiriac|guillermo|vilas	ion|Ţiriac|Guillermo|Vilas	NN|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ion Ţiriac|Guillermo Vilas	fb:part.ion_tiriac|fb:part.guillermo_vilas
+18	7	fb:cell.6_1_7_5	6–1, 7–5	6|--|1|,|7|--|5	6|--|1|,|7|--|5	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||1.0||7.0||5.0	6.0		17.0	6–1|7–5	fb:part.6_1|fb:part.7_5
+19	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+19	1	fb:cell.9	9.	9|.	9|.	CD|.	NUMBER|O	9.0|	9.0				
+19	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+19	3	fb:cell.tokyo_outdoor_japan	Tokyo Outdoor, Japan	tokyo|outdoor|,|japan	Tokyo|Outdoor|,|Japan	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Tokyo Outdoor|Japan	fb:part.tokyo_outdoor|fb:part.japan
+19	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+19	5	fb:cell.chris_kachel	Chris Kachel	chris|kachel	Chris|Kachel	NNP|NNP	PERSON|PERSON	|					
+19	6	fb:cell.geoff_masters_kim_warwick	Geoff Masters\n Kim Warwick	geoff|masters|kim|warwick	Geoff|master|Kim|Warwick	NNP|NN|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Geoff Masters|Kim Warwick	fb:part.geoff_masters|fb:part.kim_warwick
+19	7	fb:cell.2_6_6_7	2–6, 6–7	2|--|6|,|6|--|7	2|--|6|,|6|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||6.0||7.0	2.0		66.0	2–6|6–7	fb:part.2_6|fb:part.6_7
+20	0	fb:cell.winner	Winner	winner	winner	NN	O						
+20	1	fb:cell.12	12.	12|.	12|.	CD|.	NUMBER|O	12.0|	12.0				
+20	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+20	3	fb:cell.little_rock_us	Little Rock, US	little|rock|,|us	Little|Rock|,|US	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				Little Rock|US	fb:part.little_rock|fb:part.us
+20	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+20	5	fb:cell.geoff_masters	Geoff Masters	geoff|masters	Geoff|master	NNP|NN	PERSON|PERSON	|					
+20	6	fb:cell.tim_gullikson_tom_gullikson	Tim Gullikson\n Tom Gullikson	tim|gullikson|tom|gullikson	Tim|Gullikson|Tom|Gullikson	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tim Gullikson|Tom Gullikson	fb:part.tim_gullikson|fb:part.tom_gullikson
+20	7	fb:cell.7_6_6_3	7–6, 6–3	7|--|6|,|6|--|3	7|--|6|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||6.0||3.0	7.0		66.0	7–6|6–3	fb:part.7_6|fb:part.6_3
+21	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+21	1	fb:cell.10	10.	10|.	10|.	CD|.	NUMBER|O	10.0|	10.0				
+21	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+21	3	fb:cell.johannesburg_south_africa	Johannesburg, South Africa	johannesburg|,|south|africa	Johannesburg|,|South|Africa	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Johannesburg|South Africa	fb:part.johannesburg|fb:part.south_africa
+21	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+21	5	fb:cell.geoff_masters	Geoff Masters	geoff|masters	Geoff|master	NNP|NN	PERSON|PERSON	|					
+21	6	fb:cell.bob_hewitt_frew_mcmillan	Bob Hewitt\n Frew McMillan	bob|hewitt|frew|mcmillan	Bob|Hewitt|Frew|McMillan	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Bob Hewitt|Frew McMillan	fb:part.bob_hewitt|fb:part.frew_mcmillan
+21	7	fb:cell.5_7_6_7	5–7, 6–7	5|--|7|,|6|--|7	5|--|7|,|6|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||6.0||7.0	5.0		76.0	5–7|6–7	fb:part.5_7|fb:part.6_7
+22	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+22	1	fb:cell.11	11.	11|.	11|.	CD|.	NUMBER|O	11.0|	11.0				
+22	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+22	3	fb:cell.newport_us	Newport, US	newport|,|us	Newport|,|US	NNP|,|NNP	LOCATION|O|LOCATION	||				Newport|US	fb:part.newport|fb:part.us
+22	4	fb:cell.grass	Grass	grass	grass	NN	O						
+22	5	fb:cell.bob_giltinan	Bob Giltinan	bob|giltinan	Bob|Giltinan	NNP|NNP	PERSON|PERSON	|					
+22	6	fb:cell.tim_gullikson_tom_gullikson	Tim Gullikson\n Tom Gullikson	tim|gullikson|tom|gullikson	Tim|Gullikson|Tom|Gullikson	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tim Gullikson|Tom Gullikson	fb:part.tim_gullikson|fb:part.tom_gullikson
+22	7	fb:cell.4_6_4_6	4–6, 4–6	4|--|6|,|4|--|6	4|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||4.0||6.0	4.0		64.0	4–6|4–6	fb:part.4_6|fb:part.4_6
+23	0	fb:cell.winner	Winner	winner	winner	NN	O						
+23	1	fb:cell.13	13.	13|.	13|.	CD|.	NUMBER|O	13.0|	13.0				
+23	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+23	3	fb:cell.columbus_us	Columbus, US	columbus|,|us	Columbus|,|US	NNP|,|NNP	O|O|LOCATION	||				Columbus|US	fb:part.columbus|fb:part.us
+23	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+23	5	fb:cell.bob_giltinan	Bob Giltinan	bob|giltinan	Bob|Giltinan	NNP|NNP	PERSON|PERSON	|					
+23	6	fb:cell.marcello_lara_eliot_teltscher	Marcello Lara\n Eliot Teltscher	marcello|lara|eliot|teltscher	Marcello|Lara|Eliot|Teltscher	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Marcello Lara|Eliot Teltscher	fb:part.marcello_lara|fb:part.eliot_teltscher
+23	7	fb:cell.6_2_6_3	6–2, 6–3	6|--|2|,|6|--|3	6|--|2|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||6.0||3.0	6.0		26.0	6–2|6–3	fb:part.6_2|fb:part.6_3
+24	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+24	1	fb:cell.12	12.	12|.	12|.	CD|.	NUMBER|O	12.0|	12.0				
+24	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+24	3	fb:cell.san_jose_costa_rica	San Jose, Costa Rica	san|jose|,|costa|rica	San|Jose|,|Costa|Rica	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				San Jose|Costa Rica	fb:part.san_jose|fb:part.costa_rica
+24	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+24	5	fb:cell.anand_amritraj	Anand Amritraj	anand|amritraj	Anand|Amritraj	NNP|NNP	PERSON|PERSON	|					
+24	6	fb:cell.ion_tiriac_guillermo_vilas	Ion Ţiriac\n Guillermo Vilas	ion|ţiriac|guillermo|vilas	ion|Ţiriac|Guillermo|Vilas	NN|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ion Ţiriac|Guillermo Vilas	fb:part.ion_tiriac|fb:part.guillermo_vilas
+24	7	fb:cell.4_6_6_2_4_6	4–6, 6–2, 4–6	4|--|6|,|6|--|2|,|4|--|6	4|--|6|,|6|--|2|,|4|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||6.0||2.0||4.0||6.0	4.0		66.0	4–6|6–2|4–6	fb:part.4_6|fb:part.6_2|fb:part.4_6
+25	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+25	1	fb:cell.13	13.	13|.	13|.	CD|.	NUMBER|O	13.0|	13.0				
+25	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+25	3	fb:cell.tulsa_us	Tulsa, US	tulsa|,|us	Tulsa|,|US	NNP|,|NNP	LOCATION|O|LOCATION	||				Tulsa|US	fb:part.tulsa|fb:part.us
+25	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+25	5	fb:cell.tom_gullikson	Tom Gullikson	tom|gullikson	Tom|Gullikson	NNP|NNP	PERSON|PERSON	|					
+25	6	fb:cell.francisco_gonzalez_eliot_teltscher	Francisco González\n Eliot Teltscher	francisco|gonzález|eliot|teltscher	Francisco|González|Eliot|Teltscher	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Francisco González|Eliot Teltscher	fb:part.francisco_gonzalez|fb:part.eliot_teltscher
+25	7	fb:cell.7_6_5_7_3_6	7–6, 5–7, 3–6	7|--|6|,|5|--|7|,|3|--|6	7|--|6|,|5|--|7|,|3|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||5.0||7.0||3.0||6.0	7.0		65.0	7–6|5–7|3–6	fb:part.7_6|fb:part.5_7|fb:part.3_6
+26	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+26	1	fb:cell.14	14.	14|.	14|.	CD|.	NUMBER|O	14.0|	14.0				
+26	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+26	3	fb:cell.stowe_us	Stowe, US	stowe|,|us	Stowe|,|US	NNP|,|NNP	PERSON|O|LOCATION	||				Stowe|US	fb:part.stowe|fb:part.us
+26	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+26	5	fb:cell.anand_amritraj	Anand Amritraj	anand|amritraj	Anand|Amritraj	NNP|NNP	PERSON|PERSON	|					
+26	6	fb:cell.mike_cahill_steve_krulevitz	Mike Cahill\n Steve Krulevitz	mike|cahill|steve|krulevitz	Mike|Cahill|Steve|Krulevitz	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Mike Cahill|Steve Krulevitz	fb:part.mike_cahill|fb:part.steve_krulevitz
+26	7	fb:cell.6_3_3_6_4_6	6–3, 3–6, 4–6	6|--|3|,|3|--|6|,|4|--|6	6|--|3|,|3|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||3.0||6.0||4.0||6.0	6.0		33.0	6–3|3–6|4–6	fb:part.6_3|fb:part.3_6|fb:part.4_6
+27	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+27	1	fb:cell.15	15.	15|.	15|.	CD|.	NUMBER|O	15.0|	15.0				
+27	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+27	3	fb:cell.tel_aviv_israel	Tel Aviv, Israel	tel|aviv|,|israel	Tel|Aviv|,|Israel	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Tel Aviv|Israel	fb:part.tel_aviv|fb:part.israel
+27	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+27	5	fb:cell.mike_cahill	Mike Cahill	mike|cahill	Mike|Cahill	NNP|NNP	PERSON|PERSON	|					
+27	6	fb:cell.ilie_nastase_tom_okker	Ilie Năstase\n Tom Okker	ilie|năstase|tom|okker	Ilie|Năstase|Tom|Okker	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ilie Năstase|Tom Okker	fb:part.ilie_nastase|fb:part.tom_okker
+27	7	fb:cell.5_7_4_6	5–7, 4–6	5|--|7|,|4|--|6	5|--|7|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||4.0||6.0	5.0		74.0	5–7|4–6	fb:part.5_7|fb:part.4_6
+28	0	fb:cell.winner	Winner	winner	winner	NN	O						
+28	1	fb:cell.14	14.	14|.	14|.	CD|.	NUMBER|O	14.0|	14.0				
+28	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+28	3	fb:cell.tokyo_outdoor_japan	Tokyo Outdoor, Japan	tokyo|outdoor|,|japan	Tokyo|Outdoor|,|Japan	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Tokyo Outdoor|Japan	fb:part.tokyo_outdoor|fb:part.japan
+28	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+28	5	fb:cell.pat_du_pre	Pat Du Pré	pat|du|pré	Pat|Du|Pré	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+28	6	fb:cell.rod_frawley_francisco_gonzalez	Rod Frawley\n Francisco González	rod|frawley|francisco|gonzález	Rod|Frawley|Francisco|González	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rod Frawley|Francisco González	fb:part.rod_frawley|fb:part.francisco_gonzalez
+28	7	fb:cell.3_6_6_1_6_1	3–6, 6–1, 6–1	3|--|6|,|6|--|1|,|6|--|1	3|--|6|,|6|--|1|,|6|--|1	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||6.0||1.0||6.0||1.0	3.0		66.0	3–6|6–1|6–1	fb:part.3_6|fb:part.6_1|fb:part.6_1
+29	0	fb:cell.winner	Winner	winner	winner	NN	O						
+29	1	fb:cell.15	15.	15|.	15|.	CD|.	NUMBER|O	15.0|	15.0				
+29	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+29	3	fb:cell.adelaide_australia	Adelaide, Australia	adelaide|,|australia	Adelaide|,|Australia	NNP|,|NNP	LOCATION|O|LOCATION	||				Adelaide|Australia	fb:part.adelaide|fb:part.australia
+29	4	fb:cell.grass	Grass	grass	grass	NN	O						
+29	5	fb:cell.chris_kachel	Chris Kachel	chris|kachel	Chris|Kachel	NNP|NNP	PERSON|PERSON	|					
+29	6	fb:cell.john_alexander_phil_dent	John Alexander\n Phil Dent	john|alexander|phil|dent	John|Alexander|Phil|Dent	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Alexander|Phil Dent	fb:part.john_alexander|fb:part.phil_dent
+29	7	fb:cell.6_7_7_6_6_4	6–7, 7–6, 6–4	6|--|7|,|7|--|6|,|6|--|4	6|--|7|,|7|--|6|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||7.0||6.0||6.0||4.0	6.0		77.0	6–7|7–6|6–4	fb:part.6_7|fb:part.7_6|fb:part.6_4
+30	0	fb:cell.winner	Winner	winner	winner	NN	O						
+30	1	fb:cell.16	16.	16|.	16|.	CD|.	NUMBER|O	16.0|	16.0				
+30	2	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+30	3	fb:cell.metz_france	Metz, France	metz|,|france	Metz|,|France	NNP|,|NNP	PERSON|O|LOCATION	||				Metz|France	fb:part.metz|fb:part.france
+30	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+30	5	fb:cell.gene_mayer	Gene Mayer	gene|mayer	Gene|Mayer	NNP|NNP	PERSON|PERSON	|					
+30	6	fb:cell.chris_delaney_kim_warwick	Chris Delaney\n Kim Warwick	chris|delaney|kim|warwick	Chris|Delaney|Kim|Warwick	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Chris Delaney|Kim Warwick	fb:part.chris_delaney|fb:part.kim_warwick
+30	7	fb:cell.7_6_7_5	7–6, 7–5	7|--|6|,|7|--|5	7|--|6|,|7|--|5	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||7.0||5.0	7.0		67.0	7–6|7–5	fb:part.7_6|fb:part.7_5
+31	0	fb:cell.winner	Winner	winner	winner	NN	O						
+31	1	fb:cell.17	17.	17|.	17|.	CD|.	NUMBER|O	17.0|	17.0				
+31	2	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+31	3	fb:cell.adelaide_australia	Adelaide, Australia	adelaide|,|australia	Adelaide|,|Australia	NNP|,|NNP	LOCATION|O|LOCATION	||				Adelaide|Australia	fb:part.adelaide|fb:part.australia
+31	4	fb:cell.grass	Grass	grass	grass	NN	O						
+31	5	fb:cell.john_james	John James	john|james	John|James	NNP|NNP	PERSON|PERSON	|					
+31	6	fb:cell.craig_edwards_eddie_edwards	Craig Edwards\n Eddie Edwards	craig|edwards|eddie|edwards	Craig|Edwards|Eddie|Edwards	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Craig Edwards|Eddie Edwards	fb:part.craig_edwards|fb:part.eddie_edwards
+31	7	fb:cell.6_3_6_4	6–3, 6–4	6|--|3|,|6|--|4	6|--|3|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||6.0||4.0	6.0		36.0	6–3|6–4	fb:part.6_3|fb:part.6_4

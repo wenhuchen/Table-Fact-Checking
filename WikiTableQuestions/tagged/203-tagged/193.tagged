@@ -1,0 +1,67 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.ship_name	Ship Name	ship|name	ship|name	NN|VB	O|O	|					
+-1	1	fb:row.row.in_service	In Service	in|service	in|Service	IN|NNP	O|O	|					
+-1	2	fb:row.row.project_number	Project Number	project|number	Project|Number	NNP|NNP	O|O	|					
+-1	3	fb:row.row.type	Type	type	type	NN	O						
+-1	4	fb:row.row.class	Class	class	class	NN	O						
+-1	5	fb:row.row.comments	Comments	comments	comment	NNS	O						
+0	0	fb:cell.lenin	Lenin	lenin	Lenin	NNP	PERSON						
+0	1	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx			
+0	2	fb:cell.92m	92M	92m	92m	NN	O		92.0				
+0	3	fb:cell.icebreaker	Icebreaker	icebreaker	icebreaker	NN	O						
+0	4	fb:cell.null	—	--	--	:	O						
+0	5	fb:cell.decommissioned_1989_museum_ship	Decommissioned 1989. Museum ship.	decommissioned|1989|.|museum|ship|.	decommissioned|1989|.|Museum|ship|.	JJ|CD|.|NNP|NN|.	O|DATE|O|O|O|O	|1989||||	1989.0			Decommissioned 1989. Museum ship.	fb:part.decommissioned_1989_museum_ship
+1	0	fb:cell.arktika	Arktika	arktika	arktika	FW	LOCATION						
+1	1	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+1	2	fb:cell.1052_1	1052-1	1052-1	1052-1	CD	NUMBER	1052.0 - 1.0	1052.0		1.0		
+1	3	fb:cell.icebreaker	Icebreaker	icebreaker	icebreaker	NN	O						
+1	4	fb:cell.arktika	Arktika	arktika	arktika	FW	LOCATION						
+1	5	fb:cell.not_operational	Not operational.	not|operational|.	not|operational|.	RB|JJ|.	O|O|O	||				Not operational.	fb:part.not_operational
+2	0	fb:cell.sibir	Sibir	sibir	Sibir	NNP	PERSON						
+2	1	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+2	2	fb:cell.1052_2	1052-2	1052-2	1052-2	CD	NUMBER	1052.0 - 2.0	1052.0		2.0		
+2	3	fb:cell.icebreaker	Icebreaker	icebreaker	icebreaker	NN	O						
+2	4	fb:cell.arktika	Arktika	arktika	arktika	FW	LOCATION						
+2	5	fb:cell.defueled_and_not_operational_since_1993	Defueled and not operational since 1993.	defueled|and|not|operational|since|1993|.	defueled|and|not|operational|since|1993|.	JJ|CC|RB|JJ|IN|CD|.	O|O|O|O|O|DATE|O	|||||1993|	1993.0			Defueled and not operational since 1993.	fb:part.defueled_and_not_operational_since_1993
+3	0	fb:cell.rossiya	Rossiya	rossiya	Rossiya	NNP	PERSON						
+3	1	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+3	2	fb:cell.10521_1	10521-1	10521-1	10521-1	CD	NUMBER	10521.0 - 1.0	10521.0		1.0		
+3	3	fb:cell.icebreaker	Icebreaker	icebreaker	icebreaker	NN	O						
+3	4	fb:cell.arktika	Arktika	arktika	arktika	FW	LOCATION						
+3	5	fb:cell.null_2											fb:part.null
+4	0	fb:cell.sevmorput	Sevmorput	sevmorput	sevmorput	NN	O						
+4	1	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+4	2	fb:cell.10081	10081	10081	10081	CD	NUMBER	10081.0	10081.0				
+4	3	fb:cell.container_ship	Container ship	container|ship	Container|ship	NNP|NN	O|O	|					
+4	4	fb:cell.null	—	--	--	:	O						
+4	5	fb:cell.has_ice_breaking_bow	Has ice-breaking bow	has|ice|breaking|bow	have|ice|breaking|bow	VBD-AUX|NN|NN|NN	O|O|O|O	|||				Has ice-breaking bow	fb:part.has_ice_breaking_bow
+5	0	fb:cell.taymyr	Taymyr	taymyr	Taymyr	NNP	O						
+5	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+5	2	fb:cell.10580_1	10580-1	10580-1	10580-1	CD	NUMBER	10580.0 - 1.0	10580.0		1.0		
+5	3	fb:cell.river_icebreaker	River icebreaker	river|icebreaker	river|icebreaker	NN|NN	O|O	|					
+5	4	fb:cell.taymyr	Taymyr	taymyr	Taymyr	NNP	O						
+5	5	fb:cell.null_2											fb:part.null
+6	0	fb:cell.sovetskiy_soyuz	Sovetskiy Soyuz	sovetskiy|soyuz	Sovetskiy|Soyuz	NNP|NNP	O|O	|					
+6	1	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+6	2	fb:cell.10521_2	10521-2	10521-2	10521-2	CD	NUMBER	10521.0 - 2.0	10521.0		2.0		
+6	3	fb:cell.icebreaker	Icebreaker	icebreaker	icebreaker	NN	O						
+6	4	fb:cell.arktika	Arktika	arktika	arktika	FW	LOCATION						
+6	5	fb:cell.null_2											fb:part.null
+7	0	fb:cell.vaygach	Vaygach	vaygach	Vaygach	NNP	O						
+7	1	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+7	2	fb:cell.10580_2	10580-2	10580-2	10580-2	CD	NUMBER	10580.0 - 2.0	10580.0		2.0		
+7	3	fb:cell.river_icebreaker	River icebreaker	river|icebreaker	river|icebreaker	NN|NN	O|O	|					
+7	4	fb:cell.taymyr	Taymyr	taymyr	Taymyr	NNP	O						
+7	5	fb:cell.null_2											fb:part.null
+8	0	fb:cell.yamal	Yamal	yamal	yamal	JJ	O						
+8	1	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+8	2	fb:cell.10521_3	10521-3	10521-3	10521-3	CD	NUMBER	10521.0 - 3.0	10521.0		3.0		
+8	3	fb:cell.icebreaker	Icebreaker	icebreaker	icebreaker	NN	O						
+8	4	fb:cell.arktika	Arktika	arktika	arktika	FW	LOCATION						
+8	5	fb:cell.null_2											fb:part.null
+9	0	fb:cell.50_let_pobedy	50 Let Pobedy	50|let|pobedy	50|let|Pobedy	CD|VB|NNP	NUMBER|O|O	50.0||	50.0				
+9	1	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+9	2	fb:cell.10521	10521	10521	10521	CD	NUMBER	10521.0	10521.0				
+9	3	fb:cell.icebreaker	Icebreaker	icebreaker	icebreaker	NN	O						
+9	4	fb:cell.arktika	Arktika	arktika	arktika	FW	LOCATION						
+9	5	fb:cell.built_as_ural_completed_in_2007	Built as Ural, completed in 2007.	built|as|ural|,|completed|in|2007|.	build|as|Ural|,|complete|in|2007|.	VBN|IN|NNP|,|VBN|IN|CD|.	O|O|LOCATION|O|O|O|DATE|O	||||||2007|	2007.0			Built as Ural|completed in 2007.	fb:part.built_as_ural|fb:part.completed_in_2007

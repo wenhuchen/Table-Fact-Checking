@@ -1,0 +1,49 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	2	fb:row.row.site	Site	site	site	NN	O						
+-1	3	fb:row.row.result	Result	result	result	NN	O						
+0	0	fb:cell.september_5	September 5	september|5	September|5	NNP|CD	DATE|DATE	XXXX-09-05|XXXX-09-05	5.0	xxxx-09-05			
+0	1	fb:cell.alcorn_state	Alcorn State	alcorn|state	Alcorn|State	NNP|NNP	LOCATION|O	|					
+0	2	fb:cell.independence_stadium_shreveport_la	Independence Stadium • Shreveport. LA	independence|stadium|•|shreveport|.|la	Independence|Stadium|•|Shreveport|.|LA	NNP|NNP|NNP|NNP|.|NNP	O|O|O|LOCATION|O|O	|||||				Independence Stadium • Shreveport. LA	fb:part.independence_stadium_shreveport_la
+0	3	fb:cell.l_24_28	L 24–28	l|24|--|28	l|24|--|28	NN|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||28.0	24.0		28.0		
+1	0	fb:cell.september_12	September 12	september|12	September|12	NNP|CD	DATE|DATE	XXXX-09-12|XXXX-09-12	12.0	xxxx-09-12			
+1	1	fb:cell.vs_central_state	vs. Central State*	vs.|central|state|\\*	vs.|Central|State|\\*	CC|NNP|NNP|SYM	O|O|O|O	|||					
+1	2	fb:cell.yankee_stadium_new_york_ny	Yankee Stadium • New York, NY	yankee|stadium|•|new|york|,|ny	Yankee|Stadium|•|New|York|,|NY	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|LOCATION|O|O	||||||				Yankee Stadium • New York|NY	fb:part.yankee_stadium_new_york|fb:part.ny
+1	3	fb:cell.l_21_37	L 21–37	l|21|--|37	l|21|--|37	NN|CD|:|CD	O|NUMBER|O|NUMBER	|21.0||37.0	21.0		37.0		
+2	0	fb:cell.september_26	September 26	september|26	September|26	NNP|CD	DATE|DATE	XXXX-09-26|XXXX-09-26	26.0	xxxx-09-26			
+2	1	fb:cell.bethune_cookman	Bethune-Cookman*	bethune|cookman|\\*	Bethune|Cookman|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+2	2	fb:cell.eddie_robinson_stadium_grambling_la	Eddie Robinson Stadium • Grambling, LA	eddie|robinson|stadium|•|grambling|,|la	Eddie|Robinson|Stadium|•|Grambling|,|LA	NNP|NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|O|LOCATION|O|LOCATION	||||||				Eddie Robinson Stadium • Grambling|LA	fb:part.eddie_robinson_stadium_grambling|fb:part.la
+2	3	fb:cell.w_21_14	W 21–14	w|21|--|14	W|21|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|21.0||14.0	21.0		14.0		
+3	0	fb:cell.october_3	October 3	october|3	October|3	NNP|CD	DATE|DATE	XXXX-10-03|XXXX-10-03	3.0	xxxx-10-03			
+3	1	fb:cell.vs_prairie_view_a_m	vs. Prairie View A&M	vs.|prairie|view|a&m	vs.|Prairie|View|A&M	CC|NNP|NNP|NNP	O|O|O|O	|||					
+3	2	fb:cell.cotton_bowl_dallas_tx	Cotton Bowl • Dallas, TX	cotton|bowl|•|dallas|,|tx	Cotton|Bowl|•|Dallas|,|TX	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Cotton Bowl • Dallas|TX	fb:part.cotton_bowl_dallas|fb:part.tx
+3	3	fb:cell.w_28_7	W 28–7	w|28|--|7	W|28|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|28.0||7.0	28.0		7.0		
+4	0	fb:cell.october_10	October 10	october|10	October|10	NNP|CD	DATE|DATE	XXXX-10-10|XXXX-10-10	10.0	xxxx-10-10			
+4	1	fb:cell.at_tennessee_state	at Tennessee State*	at|tennessee|state|\\*	at|Tennessee|State|\\*	IN|NNP|NNP|SYM	O|LOCATION|O|O	|||					
+4	2	fb:cell.dudley_field_nashville_tn	Dudley Field • Nashville, TN	dudley|field|•|nashville|,|tn	Dudley|Field|•|Nashville|,|tn	NNP|NNP|NNP|NNP|,|NN	PERSON|PERSON|O|LOCATION|O|O	|||||				Dudley Field • Nashville|TN	fb:part.dudley_field_nashville|fb:part.tn
+4	3	fb:cell.w_51_9	W 51–9	w|51|--|9	W|51|--|9	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|51.0||9.0	51.0		9.0		
+5	0	fb:cell.october_17	October 17	october|17	October|17	NNP|CD	DATE|DATE	XXXX-10-17|XXXX-10-17	17.0	xxxx-10-17			
+5	1	fb:cell.mississippi_valley_state	Mississippi Valley State	mississippi|valley|state	Mississippi|Valley|State	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+5	2	fb:cell.eddie_robinson_stadium_grambling_la	Eddie Robinson Stadium • Grambling, LA	eddie|robinson|stadium|•|grambling|,|la	Eddie|Robinson|Stadium|•|Grambling|,|LA	NNP|NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|O|LOCATION|O|LOCATION	||||||				Eddie Robinson Stadium • Grambling|LA	fb:part.eddie_robinson_stadium_grambling|fb:part.la
+5	3	fb:cell.w_45_14	W 45–14	w|45|--|14	W|45|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|45.0||14.0	45.0		14.0		
+6	0	fb:cell.october_24	October 24	october|24	October|24	NNP|CD	DATE|DATE	XXXX-10-24|XXXX-10-24	24.0	xxxx-10-24			
+6	1	fb:cell.at_jackson_state	at Jackson State	at|jackson|state	at|Jackson|State	IN|NNP|NNP	O|O|O	||					
+6	2	fb:cell.mississippi_veterans_memorial_stadium_jackson_ms	Mississippi Veterans Memorial Stadium • Jackson, MS	mississippi|veterans|memorial|stadium|•|jackson|,|ms	Mississippi|Veterans|Memorial|Stadium|•|Jackson|,|m	NNP|NNP|NNP|NNP|NNP|NNP|,|NN	LOCATION|O|O|O|O|PERSON|O|O	|||||||				Mississippi Veterans Memorial Stadium • Jackson|MS	fb:part.mississippi_veterans_memorial_stadium_jackson|fb:part.ms
+6	3	fb:cell.l_17_31	L 17–31	l|17|--|31	l|17|--|31	NN|CD|:|CD	O|NUMBER|O|NUMBER	|17.0||31.0	17.0		31.0		
+7	0	fb:cell.october_31	October 31	october|31	October|31	NNP|CD	DATE|DATE	XXXX-10-31|XXXX-10-31	31.0	xxxx-10-31			
+7	1	fb:cell.texas_southern	Texas Southern	texas|southern	Texas|Southern	NNP|NNP	LOCATION|LOCATION	|					
+7	2	fb:cell.eddie_robinson_stadium_grambling_la	Eddie Robinson Stadium • Grambling, LA	eddie|robinson|stadium|•|grambling|,|la	Eddie|Robinson|Stadium|•|Grambling|,|LA	NNP|NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|O|LOCATION|O|LOCATION	||||||				Eddie Robinson Stadium • Grambling|LA	fb:part.eddie_robinson_stadium_grambling|fb:part.la
+7	3	fb:cell.w_30_9	W 30–9	w|30|--|9	W|30|--|9	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|30.0||9.0	30.0		9.0		
+8	0	fb:cell.november_7	November 7	november|7	November|7	NNP|CD	DATE|DATE	XXXX-11-07|XXXX-11-07	7.0	xxxx-11-07			
+8	1	fb:cell.at_alabama_state	at Alabama State	at|alabama|state	at|Alabama|State	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+8	2	fb:cell.cramton_bowl_montgomery_al	Cramton Bowl • Montgomery, AL	cramton|bowl|•|montgomery|,|al	Cramton|Bowl|•|Montgomery|,|AL	NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|O|LOCATION	|||||				Cramton Bowl • Montgomery|AL	fb:part.cramton_bowl_montgomery|fb:part.al
+8	3	fb:cell.l_7_17	L 7–17	l|7|--|17	l|7|--|17	NN|CD|:|CD	O|NUMBER|O|NUMBER	|7.0||17.0	7.0		17.0		
+9	0	fb:cell.november_14	November 14	november|14	November|14	NNP|CD	DATE|DATE	XXXX-11-14|XXXX-11-14	14.0	xxxx-11-14			
+9	1	fb:cell.south_carolina_state	South Carolina State*	south|carolina|state|\\*	South|Carolina|State|\\*	NNP|NNP|NNP|SYM	LOCATION|LOCATION|O|O	|||					
+9	2	fb:cell.eddie_robinson_stadium_grambling_la	Eddie Robinson Stadium • Grambling, LA	eddie|robinson|stadium|•|grambling|,|la	Eddie|Robinson|Stadium|•|Grambling|,|LA	NNP|NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|O|LOCATION|O|LOCATION	||||||				Eddie Robinson Stadium • Grambling|LA	fb:part.eddie_robinson_stadium_grambling|fb:part.la
+9	3	fb:cell.l_13_15	L 13–15	l|13|--|15	l|13|--|15	NN|CD|:|CD	O|NUMBER|O|NUMBER	|13.0||15.0	13.0		15.0		
+10	0	fb:cell.november_28	November 28	november|28	November|28	NNP|CD	DATE|DATE	XXXX-11-28|XXXX-11-28	28.0	xxxx-11-28			
+10	1	fb:cell.vs_southern	vs. Southern	vs.|southern	vs.|Southern	CC|NNP	O|MISC	|					
+10	2	fb:cell.louisiana_superdome_new_orleans_la_xiv_bayou_classic	Louisiana Superdome • New Orleans, LA (XIV Bayou Classic)	louisiana|superdome|•|new|orleans|,|la|-lrb-|xiv|bayou|classic|-rrb-	Louisiana|Superdome|•|New|Orleans|,|LA|-lrb-|XIV|Bayou|Classic|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION|O|O|O|O|O	|||||||||||				Louisiana Superdome • New Orleans|LA (XIV Bayou Classic)	fb:part.louisiana_superdome_new_orleans|fb:part.la_xiv_bayou_classic
+10	3	fb:cell.l_21_27	L 21–27	l|21|--|27	l|21|--|27	NN|CD|:|CD	O|NUMBER|O|NUMBER	|21.0||27.0	21.0		27.0		

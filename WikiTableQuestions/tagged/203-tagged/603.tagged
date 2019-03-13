@@ -1,0 +1,73 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.service	Service	service	Service	NNP	O						
+-1	1	fb:row.row.service_id	Service ID	service|id	Service|ID	NNP|NNP	O|O	|					
+-1	2	fb:row.row.bit_rate	Bit rate	bit|rate	bit|rate	NN|NN	O|O	|					
+-1	3	fb:row.row.audio_channels	Audio channels	audio|channels	audio|channel	NN|NNS	O|O	|					
+-1	4	fb:row.row.description	Description	description	description	NN	O						
+-1	5	fb:row.row.analogue_availability	Analogue availability	analogue|availability	analogue|availability	NN|NN	O|O	|					
+0	0	fb:cell.capital_yorkshire	Capital Yorkshire	capital|yorkshire	Capital|Yorkshire	NNP|NNP	O|LOCATION	|					
+0	1	fb:cell.c3aa	C3AA	c3aa	c3aa	NN	O		3.0				
+0	2	fb:cell.128_kbit_s	128 kbit/s	128|kbit\\/s	128|kbit\\/s	CD|NNS	NUMBER|O	128.0|	128.0			128 kbit|s	fb:part.128_kbit|fb:part.s
+0	3	fb:cell.joint_stereo	Joint stereo	joint|stereo	Joint|stereo	NNP|NN	O|O	|					
+0	4	fb:cell.dance_and_r_n_b	Dance and R'n'B	dance|and|r|'n'|b	Dance|and|R|'n'|b	NNP|CC|NNP|CC|NN	O|O|O|O|O	||||				Dance and R'n'B	fb:part.dance_and_r_n_b
+0	5	fb:cell.105_1_mhz_south_west_yorkshire_105_6_mhz_bradford_sheffield_105_8_mhz_humberside	105.1 MHz (South & West Yorkshire)\n105.6 MHz (Bradford & Sheffield)\n105.8 MHz (Humberside)	105.1|mhz|-lrb-|south|&|west|yorkshire|-rrb-|105.6|mhz|-lrb-|bradford|&|sheffield|-rrb-|105.8|mhz|-lrb-|humberside|-rrb-	105.1|mhz|-lrb-|South|&|West|Yorkshire|-rrb-|105.6|mhz|-lrb-|Bradford|&|Sheffield|-rrb-|105.8|mhz|-lrb-|humberside|-rrb-	CD|NN|-LRB-|NNP|CC|NNP|NNP|-RRB-|CD|NN|-LRB-|NNP|CC|NNP|-RRB-|CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|LOCATION|LOCATION|O|NUMBER|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O|O|O|O	105.1||||||||105.6|||||||105.8||||	105.1		105.6	105.1 MHz (South & West Yorkshire)|105.6 MHz (Bradford & Sheffield)|105.8 MHz (Humberside)	fb:part.105_1_mhz_south_west_yorkshire|fb:part.105_6_mhz_bradford_sheffield|fb:part.105_8_mhz_humberside
+1	0	fb:cell.choice_fm	Choice FM	choice|fm	choice|fm	NN|NN	O|O	|					
+1	1	fb:cell.c0ce	C0CE	c0ce	c0ce	NN	O		0.0				
+1	2	fb:cell.128_kbit_s	128 kbit/s	128|kbit\\/s	128|kbit\\/s	CD|NNS	NUMBER|O	128.0|	128.0			128 kbit|s	fb:part.128_kbit|fb:part.s
+1	3	fb:cell.joint_stereo	Joint stereo	joint|stereo	Joint|stereo	NNP|NN	O|O	|					
+1	4	fb:cell.r_n_b_and_hip_hop	R'n'B and Hip-hop	r|'n'|b|and|hip|hop	r|'n'|b|and|hip|hop	NN|CC|NN|CC|NN|VBP	O|O|O|O|O|O	|||||				R'n'B and Hip-hop	fb:part.r_n_b_and_hip_hop
+1	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+2	0	fb:cell.heart_london	Heart London	heart|london	Heart|London	NNP|NNP	O|LOCATION	|					
+2	1	fb:cell.cccd	CCCD	cccd	cccd	NN	O						
+2	2	fb:cell.128_kbit_s	128 kbit/s	128|kbit\\/s	128|kbit\\/s	CD|NNS	NUMBER|O	128.0|	128.0			128 kbit|s	fb:part.128_kbit|fb:part.s
+2	3	fb:cell.joint_stereo	Joint stereo	joint|stereo	Joint|stereo	NNP|NN	O|O	|					
+2	4	fb:cell.adult_contemporary	Adult contemporary	adult|contemporary	adult|contemporary	JJ|JJ	O|O	|				Adult contemporary	fb:part.adult_contemporary
+2	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+3	0	fb:cell.gold	Gold	gold	gold	NN	O						
+3	1	fb:cell.c2ce	C2CE	c2ce	c2ce	NN	O		2.0				
+3	2	fb:cell.64_kbit_s	64 kbit/s	64|kbit\\/s	64|kbit\\/s	CD|NNS	NUMBER|O	64.0|	64.0			64 kbit|s	fb:part.64_kbit|fb:part.s
+3	3	fb:cell.mono_lsf	Mono LSF	mono|lsf	mono|lsf	NN|NN	O|O	|					
+3	4	fb:cell.oldies_60s_70s_80s	Oldies, 60s, 70s, 80s	oldies|,|60s|,|70s|,|80s	Oldies|,|60|,|70|,|80s	NNPS|,|NNS|,|NNS|,|CD	O|O|O|O|O|O|NUMBER	||||||80.0	60.0		70.0	Oldies|60s|70s|80s	fb:part.oldies|fb:part.60s|fb:part.70s|fb:part.80s
+3	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+4	0	fb:cell.real_radio_yorkshire	Real Radio (Yorkshire)	real|radio|-lrb-|yorkshire|-rrb-	real|radio|-lrb-|Yorkshire|-rrb-	JJ|NN|-LRB-|NNP|-RRB-	O|O|O|ORGANIZATION|O	||||					
+4	1	fb:cell.c3a4	C3A4	c3a4	c3a4	NN	O		3.0		4.0		
+4	2	fb:cell.128_kbit_s	128 kbit/s	128|kbit\\/s	128|kbit\\/s	CD|NNS	NUMBER|O	128.0|	128.0			128 kbit|s	fb:part.128_kbit|fb:part.s
+4	3	fb:cell.joint_stereo	Joint stereo	joint|stereo	Joint|stereo	NNP|NN	O|O	|					
+4	4	fb:cell.contemporary	Contemporary	contemporary	Contemporary	NNP	O					Contemporary	fb:part.contemporary
+4	5	fb:cell.106_2_mhz_south_west_yorkshire_107_6_mhz_bradford_halifax_107_7_mhz_sheffield	106.2 MHz (South & West Yorkshire)\n107.6 MHz (Bradford & Halifax)\n107.7 MHz (Sheffield)	106.2|mhz|-lrb-|south|&|west|yorkshire|-rrb-|107.6|mhz|-lrb-|bradford|&|halifax|-rrb-|107.7|mhz|-lrb-|sheffield|-rrb-	106.2|mhz|-lrb-|South|&|West|Yorkshire|-rrb-|107.6|mhz|-lrb-|Bradford|&|Halifax|-rrb-|107.7|mhz|-lrb-|Sheffield|-rrb-	CD|NN|-LRB-|NNP|CC|NNP|NNP|-RRB-|CD|NN|-LRB-|NNP|CC|NNP|-RRB-|CD|NN|-LRB-|NNP|-RRB-	NUMBER|O|O|O|O|LOCATION|LOCATION|O|NUMBER|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O|O|LOCATION|O	106.2||||||||107.6|||||||107.7||||	106.2		107.6	106.2 MHz (South & West Yorkshire)|107.6 MHz (Bradford & Halifax)|107.7 MHz (Sheffield)	fb:part.106_2_mhz_south_west_yorkshire|fb:part.107_6_mhz_bradford_halifax|fb:part.107_7_mhz_sheffield
+5	0	fb:cell.real_radio_xs	Real Radio XS	real|radio|xs	real|radio|x	JJ|NN|NN	O|O|O	||					
+5	1	fb:cell.c8c5	C8C5	c8c5	c8c5	NN	O		8.0		5.0		
+5	2	fb:cell.128_kbit_s	128 kbit/s	128|kbit\\/s	128|kbit\\/s	CD|NNS	NUMBER|O	128.0|	128.0			128 kbit|s	fb:part.128_kbit|fb:part.s
+5	3	fb:cell.joint_stereo	Joint stereo	joint|stereo	Joint|stereo	NNP|NN	O|O	|					
+5	4	fb:cell.classic_rock	Classic rock	classic|rock	classic|rock	JJ|NN	O|O	|				Classic rock	fb:part.classic_rock
+5	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+6	0	fb:cell.ucb_gospel	UCB Gospel	ucb|gospel	UCB|Gospel	NNP|NNP	O|O	|					
+6	1	fb:cell.ced0	CED0	ced0	ced0	NN	O		0.0				
+6	2	fb:cell.64_kbit_s	64 kbit/s	64|kbit\\/s	64|kbit\\/s	CD|NNS	NUMBER|O	64.0|	64.0			64 kbit|s	fb:part.64_kbit|fb:part.s
+6	3	fb:cell.mono_lsf	Mono LSF	mono|lsf	mono|lsf	NN|NN	O|O	|					
+6	4	fb:cell.christian	Christian	christian	Christian	NNP	MISC					Christian	fb:part.christian
+6	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+7	0	fb:cell.ucb_inspirational	UCB Inspirational	ucb|inspirational	UCB|Inspirational	NNP|NNP	O|O	|					
+7	1	fb:cell.cfd0	CFD0	cfd0	cfd0	NN	O		0.0				
+7	2	fb:cell.64_kbit_s	64 kbit/s	64|kbit\\/s	64|kbit\\/s	CD|NNS	NUMBER|O	64.0|	64.0			64 kbit|s	fb:part.64_kbit|fb:part.s
+7	3	fb:cell.mono_lsf	Mono LSF	mono|lsf	mono|lsf	NN|NN	O|O	|					
+7	4	fb:cell.christian	Christian	christian	Christian	NNP	MISC					Christian	fb:part.christian
+7	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+8	0	fb:cell.xfm	XFM	xfm	xfm	NN	O						
+8	1	fb:cell.c0b8	C0B8	c0b8	c0b8	NN	O		0.0		8.0		
+8	2	fb:cell.128_kbit_s	128 kbit/s	128|kbit\\/s	128|kbit\\/s	CD|NNS	NUMBER|O	128.0|	128.0			128 kbit|s	fb:part.128_kbit|fb:part.s
+8	3	fb:cell.joint_stereo	Joint stereo	joint|stereo	Joint|stereo	NNP|NN	O|O	|					
+8	4	fb:cell.indie_alternative_rock_music	Indie / alternative / rock music	indie|\\/|alternative|\\/|rock|music	Indie|\\/|alternative|\\/|rock|music	NNP|:|JJ|:|NN|NN	MISC|O|O|O|O|O	|||||				Indie|alternative|rock music	fb:part.indie|fb:part.alternative|fb:part.rock_music
+8	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+9	0	fb:cell.yorkshire_radio	Yorkshire Radio	yorkshire|radio	Yorkshire|Radio	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+9	1	fb:cell.cfcd	CFCD	cfcd	cfcd	NNS	O						
+9	2	fb:cell.128_kbit_s	128 kbit/s	128|kbit\\/s	128|kbit\\/s	CD|NNS	NUMBER|O	128.0|	128.0			128 kbit|s	fb:part.128_kbit|fb:part.s
+9	3	fb:cell.joint_stereo	Joint stereo	joint|stereo	Joint|stereo	NNP|NN	O|O	|					
+9	4	fb:cell.pop_music_and_sport	Pop music and sport	pop|music|and|sport	pop|music|and|sport	NN|NN|CC|NN	O|O|O|O	|||				Pop music and sport	fb:part.pop_music_and_sport
+9	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+10	0	fb:cell.dab_guide	DAB Guide	dab|guide	DAB|Guide	NNP|NNP	O|O	|					
+10	1	fb:cell.e1c000a9	E1C000A9	e1c000a9	e1c000a9	NN	O		1.0		0.0		
+10	2	fb:cell.8_kbit_s	8 kbit/s	8|kbit\\/s	8|kbit\\/s	CD|NNS	NUMBER|O	8.0|	8.0			8 kbit|s	fb:part.8_kbit|fb:part.s
+10	3	fb:cell.data	Data	data	datum	NNS	O						
+10	4	fb:cell.hidden_service_epg_data	Hidden service, EPG data	hidden|service|,|epg|data	hidden|service|,|EPG|datum	JJ|NN|,|NNP|NNS	O|O|O|ORGANIZATION|O	||||				Hidden service|EPG data	fb:part.hidden_service|fb:part.epg_data
+10	5	fb:cell.null	—	--	--	:	O					—	fb:part.null

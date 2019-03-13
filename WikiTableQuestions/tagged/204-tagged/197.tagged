@@ -1,0 +1,92 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	3	fb:row.row.site	Site	site	site	NN	O						
+-1	4	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	5	fb:row.row.result	Result	result	result	NN	O						
+-1	6	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.september_4	September 4	september|4	September|4	NNP|CD	DATE|DATE	XXXX-09-04|XXXX-09-04	4.0	xxxx-09-04			
+0	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+0	2	fb:cell.pacific	Pacific*	pacific|\\*	Pacific|\\*	NNP|SYM	LOCATION|O	|					
+0	3	fb:cell.jones_stadium_lubbock_tx	Jones Stadium • Lubbock, TX	jones|stadium|•|lubbock|,|tx	Jones|Stadium|•|Lubbock|,|TX	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Jones Stadium • Lubbock|TX	fb:part.jones_stadium_lubbock|fb:part.tx
+0	4	fb:cell.null											
+0	5	fb:cell.w_55_7	W 55-7	w|55-7	W|55-7	NNP|CD	O|NUMBER	|55.0 - 7.0	55.0		7.0		
+0	6	fb:cell.29_164	29,164	29,164	29,164	CD	NUMBER	29164.0	29164.0				
+1	0	fb:cell.september_11	September 11	september|11	September|11	NNP|CD	DATE|DATE	XXXX-09-11|XXXX-09-11	11.0	xxxx-09-11			
+1	1	fb:cell.1_00_pm	1:00 PM	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+1	2	fb:cell.at_9_nebraska	at #9 Nebraska*	at|#|9|nebraska|\\*	at|#|9|Nebraska|\\*	IN|#|CD|NNP|SYM	O|MONEY|MONEY|LOCATION|O	|£9.0|£9.0||	9.0				
+1	3	fb:cell.memorial_stadium_lincoln_ne	Memorial Stadium • Lincoln, NE	memorial|stadium|•|lincoln|,|ne	Memorial|Stadium|•|Lincoln|,|ne	NNP|NNP|NNP|NNP|,|NN	O|O|O|PERSON|O|O	|||||				Memorial Stadium • Lincoln|NE	fb:part.memorial_stadium_lincoln|fb:part.ne
+1	4	fb:cell.null											
+1	5	fb:cell.l_27_50	L 27-50	l|27-50	l|27-50	NN|CD	O|NUMBER	|27.0 - 50.0	27.0		50.0		
+1	6	fb:cell.75_771	75,771	75,771	75,771	CD	NUMBER	75771.0	75771.0				
+2	0	fb:cell.september_18	September 18	september|18	September|18	NNP|CD	DATE|DATE	XXXX-09-18|XXXX-09-18	18.0	xxxx-09-18			
+2	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+2	2	fb:cell.at_georgia	at Georgia*	at|georgia|\\*	at|Georgia|\\*	IN|NNP|SYM	O|LOCATION|O	||					
+2	3	fb:cell.sanford_stadium_athens_ga	Sanford Stadium • Athens, GA	sanford|stadium|•|athens|,|ga	Sanford|Stadium|•|Athens|,|GA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Sanford Stadium • Athens|GA	fb:part.sanford_stadium_athens|fb:part.ga
+2	4	fb:cell.null											
+2	5	fb:cell.l_11_17	L 11-17	l|11-17	l|11-17	NN|CD	O|DATE	|******11/******17	11.0		17.0		
+2	6	fb:cell.74_511	74,511	74,511	74,511	CD	NUMBER	74511.0	74511.0				
+3	0	fb:cell.september_25	September 25	september|25	September|25	NNP|CD	DATE|DATE	XXXX-09-25|XXXX-09-25	25.0	xxxx-09-25			
+3	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+3	2	fb:cell.at_baylor	at Baylor	at|baylor	at|Baylor	IN|NNP	O|LOCATION	|					
+3	3	fb:cell.floyd_casey_stadium_waco_tx	Floyd Casey Stadium • Waco, TX	floyd|casey|stadium|•|waco|,|tx	Floyd|Casey|Stadium|•|Waco|,|TX	NNP|NNP|NNP|VBD|NNP|,|NNP	PERSON|PERSON|PERSON|O|O|O|LOCATION	||||||				Floyd Casey Stadium • Waco|TX	fb:part.floyd_casey_stadium_waco|fb:part.tx
+3	4	fb:cell.raycom	Raycom	raycom	Raycom	NNP	ORGANIZATION						
+3	5	fb:cell.l_26_28	L 26-28	l|26-28	l|26-28	NN|CD	O|DATE	|******26/******28	26.0		28.0		
+3	6	fb:cell.32_690	32,690	32,690	32,690	CD	NUMBER	32690.0	32690.0				
+4	0	fb:cell.october_2	October 2	october|2	October|2	NNP|CD	DATE|DATE	XXXX-10-02|XXXX-10-02	2.0	xxxx-10-02			
+4	1	fb:cell.11_00_am	11:00 AM	11:00|am	11:00|AM	CD|VBD-AUX	TIME|TIME	T11:00|T11:00	11.0		0.0		
+4	2	fb:cell._14_texas_a_m	#14 Texas A&M	#|14|texas|a&m	#|14|Texas|A&M	#|CD|NNP|NNP	MONEY|MONEY|LOCATION|O	£14.0|£14.0||	14.0				
+4	3	fb:cell.jones_stadium_lubbock_tx	Jones Stadium • Lubbock, TX	jones|stadium|•|lubbock|,|tx	Jones|Stadium|•|Lubbock|,|TX	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Jones Stadium • Lubbock|TX	fb:part.jones_stadium_lubbock|fb:part.tx
+4	4	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION						
+4	5	fb:cell.l_6_31	L 6-31	l|6-31	l|6-31	NN|CD	O|NUMBER	|6.0 - 31.0	6.0		31.0		
+4	6	fb:cell.50_748	50,748	50,748	50,748	CD	NUMBER	50748.0	50748.0				
+5	0	fb:cell.october_9	October 9	october|9	October|9	NNP|CD	DATE|DATE	XXXX-10-09|XXXX-10-09	9.0	xxxx-10-09			
+5	1	fb:cell.1_00_pm	1:00 PM	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+5	2	fb:cell.north_carolina_state	North Carolina State*	north|carolina|state|\\*	North|Carolina|State|\\*	NNP|NNP|NNP|SYM	O|O|O|O	|||					
+5	3	fb:cell.jones_stadium_lubbock_tx	Jones Stadium • Lubbock, TX	jones|stadium|•|lubbock|,|tx	Jones|Stadium|•|Lubbock|,|TX	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Jones Stadium • Lubbock|TX	fb:part.jones_stadium_lubbock|fb:part.tx
+5	4	fb:cell.null											
+5	5	fb:cell.l_34_36	L 34-36	l|34-36	l|34-36	NN|CD	O|DATE	|2036	34.0		36.0		
+5	6	fb:cell.26_943	26,943	26,943	26,943	CD	NUMBER	26943.0	26943.0				
+6	0	fb:cell.october_16	October 16	october|16	October|16	NNP|CD	DATE|DATE	XXXX-10-16|XXXX-10-16	16.0	xxxx-10-16			
+6	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+6	2	fb:cell.rice	Rice	rice	Rice	NNP	O						
+6	3	fb:cell.jones_stadium_lubbock_tx	Jones Stadium • Lubbock, TX	jones|stadium|•|lubbock|,|tx	Jones|Stadium|•|Lubbock|,|TX	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Jones Stadium • Lubbock|TX	fb:part.jones_stadium_lubbock|fb:part.tx
+6	4	fb:cell.null											
+6	5	fb:cell.w_45_16	W 45-16	w|45-16	W|45-16	NNP|CD	O|NUMBER	|45.0 - 16.0	45.0		16.0		
+6	6	fb:cell.27_812	27,812	27,812	27,812	CD	NUMBER	27812.0	27812.0				
+7	0	fb:cell.october_30	October 30	october|30	October|30	NNP|CD	DATE|DATE	XXXX-10-30|XXXX-10-30	30.0	xxxx-10-30			
+7	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+7	2	fb:cell.at_texas	at Texas	at|texas	at|Texas	IN|NNP	O|LOCATION	|					
+7	3	fb:cell.texas_memorial_stadium_austin_tx_chancellor_s_spurs	Texas Memorial Stadium • Austin, TX (Chancellor's Spurs)	texas|memorial|stadium|•|austin|,|tx|-lrb-|chancellor|'s|spurs|-rrb-	Texas|Memorial|Stadium|•|Austin|,|TX|-lrb-|Chancellor|'s|Spurs|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|POS|NNPS|-RRB-	LOCATION|O|O|O|LOCATION|O|LOCATION|O|O|O|O|O	|||||||||||				Texas Memorial Stadium • Austin|TX (Chancellor's Spurs)	fb:part.texas_memorial_stadium_austin|fb:part.tx_chancellor_s_spurs
+7	4	fb:cell.raycom	Raycom	raycom	Raycom	NNP	ORGANIZATION						
+7	5	fb:cell.w_31_22	W 31-22	w|31-22	W|31-22	NNP|CD	O|NUMBER	|31.0 - 22.0	31.0		22.0		
+7	6	fb:cell.63_132	63,132	63,132	63,132	CD	NUMBER	63132.0	63132.0				
+8	0	fb:cell.november_6	November 6	november|6	November|6	NNP|CD	DATE|DATE	XXXX-11-06|XXXX-11-06	6.0	xxxx-11-06			
+8	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+8	2	fb:cell.tcu	TCU	tcu	TCU	NNP	O						
+8	3	fb:cell.jones_stadium_lubbock_tx	Jones Stadium • Lubbock, TX	jones|stadium|•|lubbock|,|tx	Jones|Stadium|•|Lubbock|,|TX	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Jones Stadium • Lubbock|TX	fb:part.jones_stadium_lubbock|fb:part.tx
+8	4	fb:cell.raycom	Raycom	raycom	Raycom	NNP	ORGANIZATION						
+8	5	fb:cell.w_49_21	W 49-21	w|49-21	W|49-21	NNP|CD	O|NUMBER	|49.0 - 21.0	49.0		21.0		
+8	6	fb:cell.31_922	31,922	31,922	31,922	CD	NUMBER	31922.0	31922.0				
+9	0	fb:cell.november_13	November 13	november|13	November|13	NNP|CD	DATE|DATE	XXXX-11-13|XXXX-11-13	13.0	xxxx-11-13			
+9	1	fb:cell.2_00_pm	2:00 PM	2:00|pm	2:00|pm	CD|NN	TIME|TIME	T14:00|T14:00	2.0		0.0		
+9	2	fb:cell.at_smu	at SMU	at|smu	at|SMU	IN|NNP	O|O	|					
+9	3	fb:cell.ownby_stadium_university_park_tx	Ownby Stadium • University Park, TX	ownby|stadium|•|university|park|,|tx	Ownby|Stadium|•|University|Park|,|TX	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				Ownby Stadium • University Park|TX	fb:part.ownby_stadium_university_park|fb:part.tx
+9	4	fb:cell.null											
+9	5	fb:cell.w_41_24	W 41-24	w|41-24	W|41-24	NNP|CD	O|NUMBER	|41.0 - 24.0	41.0		24.0		
+9	6	fb:cell.15_714	15,714	15,714	15,714	CD	NUMBER	15714.0	15714.0				
+10	0	fb:cell.november_20	November 20	november|20	November|20	NNP|CD	DATE|DATE	XXXX-11-20|XXXX-11-20	20.0	xxxx-11-20			
+10	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+10	2	fb:cell.vs_houston	vs. Houston	vs.|houston	vs.|Houston	CC|NNP	O|LOCATION	|					
+10	3	fb:cell.alamodome_san_antonio_tx	Alamodome • San Antonio, TX	alamodome|•|san|antonio|,|tx	Alamodome|•|San|Antonio|,|TX	NNP|NNP|NNP|NNP|,|NNP	O|O|LOCATION|LOCATION|O|LOCATION	|||||				Alamodome • San Antonio|TX	fb:part.alamodome_san_antonio|fb:part.tx
+10	4	fb:cell.null											
+10	5	fb:cell.w_58_7	W 58-7	w|58-7	W|58-7	NNP|CD	O|NUMBER	|58.0 - 7.0	58.0		7.0		
+10	6	fb:cell.28_652	28,652	28,652	28,652	CD	NUMBER	28652.0	28652.0				
+11	0	fb:cell.december_31	December 31	december|31	December|31	NNP|CD	DATE|DATE	XXXX-12-31|XXXX-12-31	31.0	xxxx-12-31			
+11	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+11	2	fb:cell.vs_19_oklahoma	vs. #19 Oklahoma*	vs.|#|19|oklahoma|\\*	vs.|#|19|Oklahoma|\\*	CC|#|CD|NNP|SYM	O|MONEY|MONEY|LOCATION|O	|£19.0|£19.0||					
+11	3	fb:cell.sun_bowl_stadium_el_paso_tx_john_hancock_bowl	Sun Bowl Stadium • El Paso, TX (John Hancock Bowl)	sun|bowl|stadium|•|el|paso|,|tx|-lrb-|john|hancock|bowl|-rrb-	Sun|Bowl|Stadium|•|El|Paso|,|TX|-lrb-|John|Hancock|Bowl|-rrb-	NNP|NNP|NNP|CD|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|-RRB-	O|O|O|NUMBER|LOCATION|LOCATION|O|LOCATION|O|PERSON|PERSON|O|O	||||||||||||				Sun Bowl Stadium • El Paso|TX (John Hancock Bowl)	fb:part.sun_bowl_stadium_el_paso|fb:part.tx_john_hancock_bowl
+11	4	fb:cell.cbs	CBS	cbs	CBS	NNP	O						
+11	5	fb:cell.l_10_41	L 10-41	l|10-41	l|10-41	NN|CD	O|NUMBER	|10.0 - 41.0	10.0		41.0		
+11	6	fb:cell.43_848	43,848	43,848	43,848	CD	NUMBER	43848.0	43848.0				

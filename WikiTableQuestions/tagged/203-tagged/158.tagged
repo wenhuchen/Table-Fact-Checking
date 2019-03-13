@@ -1,0 +1,113 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	3	fb:row.row.rank	Rank#	rank|#	Rank|#	NNP|#	O|O	|					
+-1	4	fb:row.row.site	Site	site	site	NN	O						
+-1	5	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	6	fb:row.row.result	Result	result	result	NN	O						
+-1	7	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.september_3	September 3	september|3	September|3	NNP|CD	DATE|DATE	XXXX-09-03|XXXX-09-03	3.0	xxxx-09-03			
+0	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+0	2	fb:cell.utah_state	Utah State*	utah|state|\\*	Utah|State|\\*	NNP|NNP|SYM	LOCATION|O|O	||					
+0	3	fb:cell._19	#19	#|19	#|19	#|CD	MONEY|DATE	£|******19	19.0				
+0	4	fb:cell.rice_eccles_stadium_salt_lake_city_ut_battle_of_the_brothers	Rice–Eccles Stadium • Salt Lake City, UT (Battle of the Brothers)	rice|--|eccles|stadium|•|salt|lake|city|,|ut|-lrb-|battle|of|the|brothers|-rrb-	Rice|--|Eccles|Stadium|•|Salt|Lake|City|,|UT|-lrb-|Battle|of|the|brother|-rrb-	NNP|:|NNP|NNP|VBD|NNP|NNP|NNP|,|NNP|-LRB-|NNP|IN|DT|NN|-RRB-	O|O|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|O|LOCATION|O|O|O|O|ORGANIZATION|O	|||||||||||||||				Rice–Eccles Stadium • Salt Lake City|UT (Battle of the Brothers)	fb:part.rice_eccles_stadium_salt_lake_city|fb:part.ut_battle_of_the_brothers
+0	5	fb:cell.the_mtn	The mtn.	the|mtn|.	the|mtn|.	DT|NN|.	O|O|O	||				The mtn.	fb:part.the_mtn
+0	6	fb:cell.w_35_17	W 35–17	w|35|--|17	W|35|--|17	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|35.0||17.0	35.0		17.0		
+0	7	fb:cell.45_333	45,333	45,333	45,333	CD	NUMBER	45333.0	45333.0				
+1	0	fb:cell.september_12	September 12	september|12	September|12	NNP|CD	DATE|DATE	XXXX-09-12|XXXX-09-12	12.0	xxxx-09-12			
+1	1	fb:cell.8_30_pm	8:30 PM	8:30|pm	8:30|pm	CD|NN	TIME|TIME	T20:30|T20:30	8.0		30.0		
+1	2	fb:cell.at_san_jose_state	at San Jose State*	at|san|jose|state|\\*	at|San|Jose|State|\\*	IN|NNP|NNP|NNP|SYM	O|O|O|O|O	||||					
+1	3	fb:cell._17	#17	#|17	#|17	#|CD	MONEY|MONEY	£17.0|£17.0	17.0				
+1	4	fb:cell.spartan_stadium_san_jose_ca	Spartan Stadium • San José, CA	spartan|stadium|•|san|josé|,|ca	Spartan|Stadium|•|San|José|,|CA	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|LOCATION|O|LOCATION	||||||				Spartan Stadium • San José|CA	fb:part.spartan_stadium_san_jose|fb:part.ca
+1	5	fb:cell.espnu	ESPNU	espnu	ESPNU	NNP	ORGANIZATION					ESPNU	fb:part.espnu
+1	6	fb:cell.w_24_14	W 24–14	w|24|--|14	W|24|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||14.0	24.0		14.0		
+1	7	fb:cell.23_684	23,684	23,684	23,684	CD	NUMBER	23684.0	23684.0				
+2	0	fb:cell.september_19	September 19	september|19	September|19	NNP|CD	DATE|DATE	XXXX-09-19|XXXX-09-19	19.0	xxxx-09-19			
+2	1	fb:cell.1_30_pm	1:30 PM	1:30|pm	1:30|pm	CD|NN	TIME|TIME	T13:30|T13:30	1.0		30.0		
+2	2	fb:cell.at_oregon	at Oregon*	at|oregon|\\*	at|Oregon|\\*	IN|NNP|SYM	O|LOCATION|O	||					
+2	3	fb:cell._18	#18	#|18	#|18	#|CD	MONEY|MONEY	£18.0|£18.0	18.0				
+2	4	fb:cell.autzen_stadium_eugene_or	Autzen Stadium • Eugene, OR	autzen|stadium|•|eugene|,|or	Autzen|Stadium|•|Eugene|,|or	NNP|NNP|NNP|NNP|,|NN	O|O|O|PERSON|O|O	|||||				Autzen Stadium • Eugene|OR	fb:part.autzen_stadium_eugene|fb:part.or
+2	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION					ESPN	fb:part.espn
+2	6	fb:cell.l_24_31	L 24–31	l|24|--|31	l|24|--|31	NN|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||31.0	24.0		31.0		
+2	7	fb:cell.58_017	58,017	58,017	58,017	CD	NUMBER	58017.0	58017.0				
+3	0	fb:cell.september_26	September 26	september|26	September|26	NNP|CD	DATE|DATE	XXXX-09-26|XXXX-09-26	26.0	xxxx-09-26			
+3	1	fb:cell.5_30_pm	5:30 PM	5:30|pm	5:30|pm	CD|NN	TIME|TIME	T17:30|T17:30	5.0		30.0		
+3	2	fb:cell.louisville	Louisville*	louisville|\\*	Louisville|\\*	NNP|SYM	LOCATION|O	|					
+3	3	fb:cell.null											
+3	4	fb:cell.rice_eccles_stadium_salt_lake_city_ut	Rice–Eccles Stadium • Salt Lake City, UT	rice|--|eccles|stadium|•|salt|lake|city|,|ut	Rice|--|Eccles|Stadium|•|Salt|Lake|City|,|UT	NNP|:|NNP|NNP|VBD|NNP|NNP|NNP|,|NNP	O|O|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|O|O	|||||||||				Rice–Eccles Stadium • Salt Lake City|UT	fb:part.rice_eccles_stadium_salt_lake_city|fb:part.ut
+3	5	fb:cell.cbscs	CBSCS	cbscs	cbsc	NN	O					CBSCS	fb:part.cbscs
+3	6	fb:cell.w_30_14	W 30–14	w|30|--|14	W|30|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|30.0||14.0	30.0		14.0		
+3	7	fb:cell.45_588	45,588	45,588	45,588	CD	NUMBER	45588.0	45588.0				
+4	0	fb:cell.october_10	October 10	october|10	October|10	NNP|CD	DATE|DATE	XXXX-10-10|XXXX-10-10	10.0	xxxx-10-10			
+4	1	fb:cell.4_00_pm	4:00 PM	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+4	2	fb:cell.at_colorado_state	at Colorado State	at|colorado|state	at|Colorado|State	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+4	3	fb:cell.null											
+4	4	fb:cell.hughes_stadium_fort_collins_co	Hughes Stadium • Fort Collins, CO	hughes|stadium|•|fort|collins|,|co	Hughes|Stadium|•|Fort|Collins|,|CO	NNP|NNP|VBD|NNP|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				Hughes Stadium • Fort Collins|CO	fb:part.hughes_stadium_fort_collins|fb:part.co
+4	5	fb:cell.the_mtn	The mtn.	the|mtn|.	the|mtn|.	DT|NN|.	O|O|O	||				The mtn.	fb:part.the_mtn
+4	6	fb:cell.w_24_17	W 24–17	w|24|--|17	W|24|--|17	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||17.0	24.0		17.0		
+4	7	fb:cell.30_499	30,499	30,499	30,499	CD	NUMBER	30499.0	30499.0				
+5	0	fb:cell.october_17	October 17	october|17	October|17	NNP|CD	DATE|DATE	XXXX-10-17|XXXX-10-17	17.0	xxxx-10-17			
+5	1	fb:cell.8_00_pm	8:00 PM	8:00|pm	8:00|pm	CD|NN	TIME|TIME	T20:00|T20:00	8.0		0.0		
+5	2	fb:cell.at_unlv	at UNLV	at|unlv	at|UNLV	IN|NNP	O|ORGANIZATION	|					
+5	3	fb:cell._24	#24	#|24	#|24	#|CD	MONEY|MONEY	£24.0|£24.0	24.0				
+5	4	fb:cell.sam_boyd_stadium_las_vegas_nv	Sam Boyd Stadium • Las Vegas, NV	sam|boyd|stadium|•|las|vegas|,|nv	Sam|Boyd|Stadium|•|Las|Vegas|,|NV	NNP|NNP|NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|O|LOCATION|LOCATION|O|O	|||||||				Sam Boyd Stadium • Las Vegas|NV	fb:part.sam_boyd_stadium_las_vegas|fb:part.nv
+5	5	fb:cell.the_mtn	The mtn.	the|mtn|.	the|mtn|.	DT|NN|.	O|O|O	||				The mtn.	fb:part.the_mtn
+5	6	fb:cell.w_35_15	W 35–15	w|35|--|15	W|35|--|15	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|35.0||15.0	35.0		15.0		
+5	7	fb:cell.26_315	26,315	26,315	26,315	CD	NUMBER	26315.0	26315.0				
+6	0	fb:cell.october_24	October 24	october|24	October|24	NNP|CD	DATE|DATE	XXXX-10-24|XXXX-10-24	24.0	xxxx-10-24			
+6	1	fb:cell.2_00_pm	2:00 PM	2:00|pm	2:00|pm	CD|NN	TIME|TIME	T14:00|T14:00	2.0		0.0		
+6	2	fb:cell.air_force	Air Force	air|force	Air|Force	NNP|NNP	O|O	|					
+6	3	fb:cell._19	#19	#|19	#|19	#|CD	MONEY|DATE	£|******19	19.0				
+6	4	fb:cell.rice_eccles_stadium_salt_lake_city_ut	Rice–Eccles Stadium • Salt Lake City, UT	rice|--|eccles|stadium|•|salt|lake|city|,|ut	Rice|--|Eccles|Stadium|•|Salt|Lake|City|,|UT	NNP|:|NNP|NNP|VBD|NNP|NNP|NNP|,|NNP	O|O|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|O|O	|||||||||				Rice–Eccles Stadium • Salt Lake City|UT	fb:part.rice_eccles_stadium_salt_lake_city|fb:part.ut
+6	5	fb:cell.versus	Versus	versus	Versus	NNP	O					Versus	fb:part.versus
+6	6	fb:cell.w_23_16_ot	W 23–16 OT	w|23|--|16|ot	W|23|--|16|ot	NNP|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|23.0||16.0|	23.0		16.0		
+6	7	fb:cell.45_129	45,129	45,129	45,129	CD	NUMBER	45129.0	45129.0				
+7	0	fb:cell.october_31	October 31	october|31	October|31	NNP|CD	DATE|DATE	XXXX-10-31|XXXX-10-31	31.0	xxxx-10-31			
+7	1	fb:cell.6_00_pm	6:00 PM	6:00|pm	6:00|pm	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+7	2	fb:cell.wyoming	Wyoming	wyoming	Wyoming	NNP	LOCATION						
+7	3	fb:cell._19	#19	#|19	#|19	#|CD	MONEY|DATE	£|******19	19.0				
+7	4	fb:cell.rice_eccles_stadium_salt_lake_city_ut	Rice–Eccles Stadium • Salt Lake City, UT	rice|--|eccles|stadium|•|salt|lake|city|,|ut	Rice|--|Eccles|Stadium|•|Salt|Lake|City|,|UT	NNP|:|NNP|NNP|VBD|NNP|NNP|NNP|,|NNP	O|O|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|O|O	|||||||||				Rice–Eccles Stadium • Salt Lake City|UT	fb:part.rice_eccles_stadium_salt_lake_city|fb:part.ut
+7	5	fb:cell.the_mtn	The mtn.	the|mtn|.	the|mtn|.	DT|NN|.	O|O|O	||				The mtn.	fb:part.the_mtn
+7	6	fb:cell.w_22_10	W 22–10	w|22|--|10	W|22|--|10	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|22.0||10.0	22.0		10.0		
+7	7	fb:cell.44_837	44,837	44,837	44,837	CD	NUMBER	44837.0	44837.0				
+8	0	fb:cell.november_7	November 7	november|7	November|7	NNP|CD	DATE|DATE	XXXX-11-07|XXXX-11-07	7.0	xxxx-11-07			
+8	1	fb:cell.4_00_pm	4:00 PM	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+8	2	fb:cell.new_mexico	New Mexico	new|mexico	New|Mexico	NNP|NNP	LOCATION|LOCATION	|					
+8	3	fb:cell._17	#17	#|17	#|17	#|CD	MONEY|MONEY	£17.0|£17.0	17.0				
+8	4	fb:cell.rice_eccles_stadium_salt_lake_city_ut_the_bowl	Rice–Eccles Stadium • Salt Lake City, UT (The Bowl)	rice|--|eccles|stadium|•|salt|lake|city|,|ut|-lrb-|the|bowl|-rrb-	Rice|--|Eccles|Stadium|•|Salt|Lake|City|,|UT|-lrb-|the|Bowl|-rrb-	NNP|:|NNP|NNP|VBD|NNP|NNP|NNP|,|NNP|-LRB-|DT|NNP|-RRB-	O|O|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|O|O|O|O|O|O	|||||||||||||				Rice–Eccles Stadium • Salt Lake City|UT (The Bowl)	fb:part.rice_eccles_stadium_salt_lake_city|fb:part.ut_the_bowl
+8	5	fb:cell.the_mtn	The mtn.	the|mtn|.	the|mtn|.	DT|NN|.	O|O|O	||				The mtn.	fb:part.the_mtn
+8	6	fb:cell.w_45_14	W 45–14	w|45|--|14	W|45|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|45.0||14.0	45.0		14.0		
+8	7	fb:cell.45_051	45,051	45,051	45,051	CD	NUMBER	45051.0	45051.0				
+9	0	fb:cell.november_14	November 14	november|14	November|14	NNP|CD	DATE|DATE	XXXX-11-14|XXXX-11-14	14.0	xxxx-11-14			
+9	1	fb:cell.5_30_pm	5:30 PM	5:30|pm	5:30|pm	CD|NN	TIME|TIME	T17:30|T17:30	5.0		30.0		
+9	2	fb:cell.at_4_tcu	at #4 TCU	at|#|4|tcu	at|#|4|tcu	IN|#|CD|NN	O|MONEY|MONEY|ORGANIZATION	|£4.0|£4.0|	4.0				
+9	3	fb:cell._16	#16	#|16	#|16	#|CD	MONEY|MONEY	£16.0|£16.0	16.0				
+9	4	fb:cell.amon_g_carter_stadium_fort_worth_tx	Amon G. Carter Stadium • Fort Worth, TX	amon|g.|carter|stadium|•|fort|worth|,|tx	Amon|G.|Carter|Stadium|•|Fort|Worth|,|TX	NNP|NNP|NNP|NNP|VBD|NNP|NNP|,|NNP	PERSON|PERSON|PERSON|O|O|O|O|O|LOCATION	||||||||				Amon G. Carter Stadium • Fort Worth|TX	fb:part.amon_g_carter_stadium_fort_worth|fb:part.tx
+9	5	fb:cell.cbscs	CBSCS	cbscs	cbsc	NN	O					CBSCS	fb:part.cbscs
+9	6	fb:cell.l_28_55	L 28–55	l|28|--|55	l|28|--|55	NN|CD|:|CD	O|NUMBER|O|NUMBER	|28.0||55.0	28.0		55.0		
+9	7	fb:cell.50_307	50,307	50,307	50,307	CD	NUMBER	50307.0	50307.0				
+10	0	fb:cell.november_21	November 21	november|21	November|21	NNP|CD	DATE|DATE	XXXX-11-21|XXXX-11-21	21.0	xxxx-11-21			
+10	1	fb:cell.2_00_pm	2:00 PM	2:00|pm	2:00|pm	CD|NN	TIME|TIME	T14:00|T14:00	2.0		0.0		
+10	2	fb:cell.san_diego_state	San Diego State	san|diego|state	San|Diego|State	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+10	3	fb:cell._23	#23	#|23	#|23	#|CD	MONEY|MONEY	£23.0|£23.0	23.0				
+10	4	fb:cell.rice_eccles_stadium_salt_lake_city_ut	Rice–Eccles Stadium • Salt Lake City, UT	rice|--|eccles|stadium|•|salt|lake|city|,|ut	Rice|--|Eccles|Stadium|•|Salt|Lake|City|,|UT	NNP|:|NNP|NNP|VBD|NNP|NNP|NNP|,|NNP	O|O|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|O|O	|||||||||				Rice–Eccles Stadium • Salt Lake City|UT	fb:part.rice_eccles_stadium_salt_lake_city|fb:part.ut
+10	5	fb:cell.versus	Versus	versus	Versus	NNP	O					Versus	fb:part.versus
+10	6	fb:cell.w_38_7	W 38–7	w|38|--|7	W|38|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|38.0||7.0	38.0		7.0		
+10	7	fb:cell.44_991	44,991	44,991	44,991	CD	NUMBER	44991.0	44991.0				
+11	0	fb:cell.november_28	November 28	november|28	November|28	NNP|CD	DATE|DATE	XXXX-11-28|XXXX-11-28	28.0	xxxx-11-28			
+11	1	fb:cell.3_00_pm	3:00 PM	3:00|pm	3:00|pm	CD|NN	TIME|TIME	T15:00|T15:00	3.0		0.0		
+11	2	fb:cell.at_18_byu	at #18 BYU	at|#|18|byu	at|#|18|byu	IN|#|CD|NN	O|MONEY|MONEY|ORGANIZATION	|£18.0|£18.0|	18.0				
+11	3	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+11	4	fb:cell.lavell_edwards_stadium_provo_ut_the_holy_war	LaVell Edwards Stadium • Provo, UT (The Holy War)	lavell|edwards|stadium|•|provo|,|ut|-lrb-|the|holy|war|-rrb-	LaVell|Edwards|Stadium|•|Provo|,|UT|-lrb-|the|Holy|War|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|DT|NNP|NNP|-RRB-	PERSON|PERSON|O|O|LOCATION|O|O|O|O|O|O|O	|||||||||||				LaVell Edwards Stadium • Provo|UT (The Holy War)	fb:part.lavell_edwards_stadium_provo|fb:part.ut_the_holy_war
+11	5	fb:cell.cbscs_the_mtn	CBSCS/The mtn.	cbscs\\/the|mtn|.	CBSCS\\/The|mtn|.	NNP|NN|.	O|O|O	||				CBSCS|The mtn.	fb:part.cbscs|fb:part.the_mtn
+11	6	fb:cell.l_23_26_ot	L 23–26 OT	l|23|--|26|ot	l|23|--|26|ot	NN|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|23.0||26.0|	23.0		26.0		
+11	7	fb:cell.64_301	64,301	64,301	64,301	CD	NUMBER	64301.0	64301.0				
+12	0	fb:cell.december_23	December 23	december|23	December|23	NNP|CD	DATE|DATE	XXXX-12-23|XXXX-12-23	23.0	xxxx-12-23			
+12	1	fb:cell.6_00_pm	6:00 PM	6:00|pm	6:00|pm	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+12	2	fb:cell.vs_california	vs. California*	vs.|california|\\*	vs.|California|\\*	IN|NNP|SYM	O|LOCATION|O	||					
+12	3	fb:cell._23	#23	#|23	#|23	#|CD	MONEY|MONEY	£23.0|£23.0	23.0				
+12	4	fb:cell.qualcomm_stadium_san_diego_ca_poinsettia_bowl	Qualcomm Stadium • San Diego, CA (Poinsettia Bowl)	qualcomm|stadium|•|san|diego|,|ca|-lrb-|poinsettia|bowl|-rrb-	Qualcomm|Stadium|•|San|Diego|,|CA|-lrb-|Poinsettia|Bowl|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|LOCATION|LOCATION|O|LOCATION|O|LOCATION|LOCATION|O	||||||||||				Qualcomm Stadium • San Diego|CA (Poinsettia Bowl)	fb:part.qualcomm_stadium_san_diego|fb:part.ca_poinsettia_bowl
+12	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION					ESPN	fb:part.espn
+12	6	fb:cell.w_37_27	W 37–27	w|37|--|27	w|37|--|27	NN|CD|:|CD	O|NUMBER|O|NUMBER	|37.0||27.0	37.0		27.0		
+12	7	fb:cell.32_665	32,665	32,665	32,665	CD	NUMBER	32665.0	32665.0				

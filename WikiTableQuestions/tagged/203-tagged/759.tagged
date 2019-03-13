@@ -1,0 +1,61 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.company	Company	company	company	NN	O						
+-1	2	fb:row.row.number_of_members_affected	Number of Members Affected	number|of|members|affected	number|of|member|affect	NN|IN|NNS|VBN	O|O|O|O	|||					
+-1	3	fb:row.row.duration_of_strike	Duration of Strike	duration|of|strike	duration|of|strike	NN|IN|NN	O|O|O	||					
+-1	4	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+0	1	fb:cell.southern_bell_telephone_co	Southern Bell Telephone Co.	southern|bell|telephone|co.|.	Southern|Bell|Telephone|Co.|.	NNP|NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||					
+0	2	fb:cell.50_000	50,000	50,000	50,000	CD	NUMBER	50000.0	50000.0				
+0	3	fb:cell.72_days	72 days	72|days	72|day	CD|NNS	DURATION|DURATION	72.0|72.0	72.0			72 days	fb:part.72_days
+0	4	fb:cell.strike_was_in_answer_to_management_s_effort_to_prohibit_workers_from_striking	Strike was in answer to management's effort to prohibit workers from striking.	strike|was|in|answer|to|management|'s|effort|to|prohibit|workers|from|striking|.	strike|be|in|answer|to|management|'s|effort|to|prohibit|worker|from|striking|.	NN|VBD-AUX|IN|NN|TO|NN|POS|NN|TO|VB|NNS|IN|JJ|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||				Strike was in answer to management's effort to prohibit workers from striking.	fb:part.strike_was_in_answer_to_management_s_effort_to_prohibit_workers_from_striking
+1	0	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+1	1	fb:cell.at_t	AT&T	at&t	AT&T	NNP	ORGANIZATION						
+1	2	fb:cell.200_000	200,000	200,000	200,000	CD	NUMBER	200000.0	200000.0				
+1	3	fb:cell.18_days	18 days	18|days	18|day	CD|NNS	DURATION|DURATION	18.0|18.0	18.0			18 days	fb:part.18_days
+1	4	fb:cell.wage_increases_to_compensate_for_cost_of_living_and_medical_benefits_won	Wage increases to compensate for cost of living, and medical benefits won	wage|increases|to|compensate|for|cost|of|living|,|and|medical|benefits|won	wage|increase|to|compensate|for|cost|of|living|,|and|medical|benefit|win	NN|VBZ|TO|VB|IN|NN|IN|NN|,|CC|JJ|NNS|VBD	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				Wage increases to compensate for cost of living|and medical benefits won	fb:part.wage_increases_to_compensate_for_cost_of_living|fb:part.and_medical_benefits_won
+2	0	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+2	1	fb:cell.bell_system	Bell System	bell|system	Bell|System	NNP|NNP	O|O	|					
+2	2	fb:cell.400_000	400,000	400,000	400,000	CD	NUMBER	400000.0	400000.0				
+2	3	fb:cell.1_week	1 week	1|week	1|week	CD|NN	DURATION|DURATION	1.0|1.0	1.0			1 week	fb:part.1_week
+2	4	fb:cell.cost_of_living_allowance_cola_won_for_workers	Cost of Living Allowance (COLA) won for workers	cost|of|living|allowance|-lrb-|cola|-rrb-|won|for|workers	cost|of|live|allowance|-lrb-|cola|-rrb-|win|for|worker	NN|IN|VBG|NN|-LRB-|NN|-RRB-|VBD|IN|NNS	O|O|O|O|O|O|O|O|O|O	|||||||||				Cost of Living Allowance (COLA) won for workers	fb:part.cost_of_living_allowance_cola_won_for_workers
+3	0	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+3	1	fb:cell.bell_system	Bell System	bell|system	Bell|System	NNP|NNP	O|O	|					
+3	2	fb:cell.600_000	600,000	600,000	600,000	CD	NUMBER	600000.0	600000.0				
+3	3	fb:cell.22_days	22 days	22|days	22|day	CD|NNS	DURATION|DURATION	22.0|22.0	22.0			22 days	fb:part.22_days
+3	4	fb:cell.last_contract_with_the_bell_system_before_its_breakup_bell_system_sought_givebacks_the_contract_resulted_in_wage_increases_employment_security_pension_and_health_improvements	Last contract with the Bell System before its breakup. Bell System sought givebacks. The contract resulted in Wage increases, employment security, pension, and health improvements.	last|contract|with|the|bell|system|before|its|breakup|.|bell|system|sought|givebacks|.|the|contract|resulted|in|wage|increases|,|employment|security|,|pension|,|and|health|improvements|.	last|contract|with|the|Bell|System|before|its|breakup|.|Bell|System|seek|giveback|.|the|contract|result|in|wage|increase|,|employment|security|,|pension|,|and|health|improvement|.	JJ|NN|IN|DT|NNP|NNP|IN|PRP$|NN|.|NNP|NNP|VBD|NNS|.|DT|NN|VBD|IN|NN|NNS|,|NN|NN|,|NN|,|CC|NN|NNS|.	O|O|O|O|MISC|MISC|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||||||||||||||				Last contract with the Bell System before its breakup. Bell System sought givebacks. The contract resulted in Wage increases|employment security|pension|and health improvements.	fb:part.last_contract_with_the_bell_system_before_its_breakup_bell_system_sought_givebacks_the_contract_resulted_in_wage_increases|fb:part.employment_security|fb:part.pension|fb:part.and_health_improvements
+4	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+4	1	fb:cell.at_t	AT&T	at&t	AT&T	NNP	ORGANIZATION						
+4	2	fb:cell.175_000	175,000	175,000	175,000	CD	NUMBER	175000.0	175000.0				
+4	3	fb:cell.25_days	25 days	25|days	25|day	CD|NNS	DURATION|DURATION	25.0|25.0	25.0			25 days	fb:part.25_days
+4	4	fb:cell.cola_clause_suspended_in_contract_former_bell_system_contracts_vary_substantially_from_the_at_t_contract	COLA clause suspended in contract - former Bell System contracts vary substantially from the AT&T contract.	cola|clause|suspended|in|contract|-|former|bell|system|contracts|vary|substantially|from|the|at&t|contract|.	cola|clause|suspend|in|contract|-|former|Bell|System|contract|vary|substantially|from|the|AT&T|contract|.	NN|NN|VBN|IN|NN|:|JJ|NNP|NNP|NNS|VBP|RB|IN|DT|NNP|NN|.	ORGANIZATION|O|O|O|O|O|O|MISC|MISC|O|O|O|O|O|ORGANIZATION|O|O	||||||||||||||||				COLA clause suspended in contract - former Bell System contracts vary substantially from the AT&T contract.	fb:part.cola_clause_suspended_in_contract_former_bell_system_contracts_vary_substantially_from_the_at_t_contract
+5	0	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+5	1	fb:cell.at_t	AT&T	at&t	AT&T	NNP	ORGANIZATION						
+5	2	fb:cell.175_000	175,000	175,000	175,000	CD	NUMBER	175000.0	175000.0				
+5	3	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+5	4	fb:cell.child_and_elder_care_benefits_added_to_contract_cola_clause_removed_from_contract	Child and elder care benefits added to contract. COLA clause removed from contract	child|and|elder|care|benefits|added|to|contract|.|cola|clause|removed|from|contract	child|and|elder|care|benefit|add|to|contract|.|cola|clause|remove|from|contract	NN|CC|JJR|NN|NNS|VBD|TO|NN|.|NN|NN|VBN|IN|NN	O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||				Child and elder care benefits added to contract. COLA clause removed from contract	fb:part.child_and_elder_care_benefits_added_to_contract_cola_clause_removed_from_contract
+6	0	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+6	1	fb:cell.nynex	NYNEX	nynex	NYNEX	NNP	ORGANIZATION						
+6	2	fb:cell.175_000	175,000	175,000	175,000	CD	NUMBER	175000.0	175000.0				
+6	3	fb:cell.17_weeks	17 weeks	17|weeks	17|week	CD|NNS	DURATION|DURATION	17.0|17.0	17.0			17 weeks	fb:part.17_weeks
+6	4	fb:cell.strike_was_due_to_major_health_care_cuts_by_nynex	Strike was due to major health care cuts by NYNEX	strike|was|due|to|major|health|care|cuts|by|nynex	strike|be|due|to|major|health|care|cut|by|NYNEX	NN|VBD-AUX|JJ|TO|JJ|NN|NN|NNS|IN|NNP	O|O|O|O|O|O|O|O|O|ORGANIZATION	|||||||||				Strike was due to major health care cuts by NYNEX	fb:part.strike_was_due_to_major_health_care_cuts_by_nynex
+7	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+7	1	fb:cell.us_west	US West	us|west	US|West	NNP|NNP	LOCATION|LOCATION	|					
+7	2	fb:cell.34_000	34,000	34,000	34,000	CD	NUMBER	34000.0	34000.0				
+7	3	fb:cell.15_day	15 day	15|day	15|day	CD|NN	DURATION|DURATION	15.0|15.0	15.0			15 day	fb:part.15_day
+7	4	fb:cell.strike_was_due_to_mandatory_overtime_demands_and_forced_pay_for_performance_plan_overtime_caps_were_won	Strike was due to mandatory overtime demands and forced pay-for-performance plan. Overtime caps were won.	strike|was|due|to|mandatory|overtime|demands|and|forced|pay|for|performance|plan|.|overtime|caps|were|won|.	strike|be|due|to|mandatory|overtime|demand|and|forced|pay|for|performance|plan|.|overtime|cap|be|win|.	NN|VBD-AUX|JJ|TO|JJ|NN|NNS|CC|JJ|NN|IN|NN|NN|.|NN|NNS|VBD-AUX|VBN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||				Strike was due to mandatory overtime demands and forced pay-for-performance plan. Overtime caps were won.	fb:part.strike_was_due_to_mandatory_overtime_demands_and_forced_pay_for_performance_plan_overtime_caps_were_won
+8	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+8	1	fb:cell.verizon	Verizon	verizon	Verizon	NNP	O						
+8	2	fb:cell.80_000	80,000	80,000	80,000	CD	NUMBER	80000.0	80000.0				
+8	3	fb:cell.3_weeks	3 weeks	3|weeks	3|week	CD|NNS	DURATION|DURATION	3.0|3.0	3.0			3 weeks	fb:part.3_weeks
+8	4	fb:cell.strike_was_due_to_mandatory_overtime_demands_provisions_for_stress_were_won	Strike was due to mandatory overtime demands. Provisions for stress were won.	strike|was|due|to|mandatory|overtime|demands|.|provisions|for|stress|were|won|.	strike|be|due|to|mandatory|overtime|demand|.|provision|for|stress|be|win|.	NN|VBD-AUX|JJ|TO|JJ|NN|NNS|.|NNS|IN|NN|VBD-AUX|VBN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||				Strike was due to mandatory overtime demands. Provisions for stress were won.	fb:part.strike_was_due_to_mandatory_overtime_demands_provisions_for_stress_were_won
+9	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+9	1	fb:cell.verizon	Verizon	verizon	Verizon	NNP	O						
+9	2	fb:cell.45_000	45,000	45,000	45,000	CD	NUMBER	45000.0	45000.0				
+9	3	fb:cell.13_days	13 days	13|days	13|day	CD|NNS	DURATION|DURATION	13.0|13.0	13.0			13 days	fb:part.13_days
+9	4	fb:cell.strike_was_due_to_major_wage_and_health_care_cuts_by_verizon_a_forced_pay_for_performance_plan_and_movement_of_work_job_security_provisions_contract_extended	Strike was due to major wage and health care cuts by Verizon, a forced pay-for-performance plan and movement-of-work job security provisions. Contract extended.	strike|was|due|to|major|wage|and|health|care|cuts|by|verizon|,|a|forced|pay|for|performance|plan|and|movement|of|work|job|security|provisions|.|contract|extended|.	strike|be|due|to|major|wage|and|health|care|cut|by|Verizon|,|a|forced|pay|for|performance|plan|and|movement|of|work|job|security|provision|.|contract|extend|.	NN|VBD-AUX|JJ|TO|JJ|NN|CC|NN|NN|NNS|IN|NNP|,|DT|JJ|NN|IN|NN|NN|CC|NN|IN|NN|NN|NN|NNS|.|NN|VBD|.	O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||||||||||||||				Strike was due to major wage and health care cuts by Verizon|a forced pay-for-performance plan and movement-of-work job security provisions. Contract extended.	fb:part.strike_was_due_to_major_wage_and_health_care_cuts_by_verizon|fb:part.a_forced_pay_for_performance_plan_and_movement_of_work_job_security_provisions_contract_extended
+10	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+10	1	fb:cell.at_t	AT&T	at&t	AT&T	NNP	ORGANIZATION						
+10	2	fb:cell.20_000	20,000	20,000	20,000	CD	NUMBER	20000.0	20000.0				
+10	3	fb:cell.2_days	2 Days	2|days	2|day	CD|NNS	DURATION|DURATION	2.0|2.0	2.0			2 Days	fb:part.2_days
+10	4	fb:cell.at_t_west_california_nevada_and_at_t_east_connecticut_unfair_labor_practice_strike_during_contract_negotiations	AT&T West; California, Nevada, and AT&T East; Connecticut - Unfair labor practice strike during contract negotiations.	at&t|west|;|california|,|nevada|,|and|at&t|east|;|connecticut|-|unfair|labor|practice|strike|during|contract|negotiations|.	AT&T|West|;|California|,|Nevada|,|and|AT&T|East|;|Connecticut|-|unfair|labor|practice|strike|during|contract|negotiation|.	NNP|NNP|:|NNP|,|NNP|,|CC|NNP|NNP|:|NNP|:|JJ|NN|NN|NN|IN|NN|NNS|.	ORGANIZATION|O|O|LOCATION|O|LOCATION|O|O|ORGANIZATION|O|O|LOCATION|O|O|O|O|O|O|O|O|O	||||||||||||||||||||				AT&T West; California|Nevada|and AT&T East; Connecticut - Unfair labor practice strike during contract negotiations.	fb:part.at_t_west_california|fb:part.nevada|fb:part.and_at_t_east_connecticut_unfair_labor_practice_strike_during_contract_negotiations

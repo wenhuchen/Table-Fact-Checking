@@ -1,0 +1,561 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.outcome	Outcome	outcome	outcome	NN	O						
+-1	1	fb:row.row.no	No.	no|.	no|.	DT|.	O|O	|					
+-1	2	fb:row.row.date	Date	date	date	NN	O						
+-1	3	fb:row.row.tournament	Tournament	tournament	tournament	NN	O						
+-1	4	fb:row.row.surface	Surface	surface	surface	NN	O						
+-1	5	fb:row.row.partner	Partner	partner	Partner	NNP	O						
+-1	6	fb:row.row.opponents_in_the_final	Opponents in the final	opponents|in|the|final	opponent|in|the|final	NNS|IN|DT|JJ	O|O|O|O	|||					
+-1	7	fb:row.row.score_in_the_final	Score in the final	score|in|the|final	score|in|the|final	NN|IN|DT|JJ	NUMBER|O|O|O	20.0|||					
+0	0	fb:cell.winner	Winner	winner	winner	NN	O						
+0	1	fb:cell.1	1.	1|.	1|.	LS|.	NUMBER|O	1.0|	1.0				
+0	2	fb:cell.12_march_1978	12 March 1978	12|march|1978	12|March|1978	CD|NNP|CD	DATE|DATE|DATE	1978-03-12|1978-03-12|1978-03-12	12.0	1978-03-12	1978.0		
+0	3	fb:cell.dallas	Dallas	dallas	Dallas	NNP	LOCATION					Dallas	fb:part.dallas
+0	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+0	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+0	6	fb:cell.evonne_goolagong_betty_stove	Evonne Goolagong\n Betty Stöve	evonne|goolagong|betty|stöve	Evonne|Goolagong|Betty|Stöve	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||				Evonne Goolagong|Betty Stöve	fb:part.evonne_goolagong|fb:part.betty_stove
+0	7	fb:cell.6_3_7_6	6–3, 7–6	6|--|3|,|7|--|6	6|--|3|,|7|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||7.0||6.0	6.0		37.0	6–3|7–6	fb:part.6_3|fb:part.7_6
+1	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+1	1	fb:cell.1	1.	1|.	1|.	LS|.	NUMBER|O	1.0|	1.0				
+1	2	fb:cell.1_october_1978	1 October 1978	1|october|1978	1|October|1978	CD|NNP|CD	DATE|DATE|DATE	1978-10-01|1978-10-01|1978-10-01	1.0	1978-10-01	1978.0		
+1	3	fb:cell.atlanta	Atlanta	atlanta	Atlanta	NNP	LOCATION					Atlanta	fb:part.atlanta
+1	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+1	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+1	6	fb:cell.francoise_durr_virginia_wade	Françoise Dürr\n Virginia Wade	françoise|dürr|virginia|wade	Françoise|Dürr|Virginia|Wade	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Françoise Dürr|Virginia Wade	fb:part.francoise_durr|fb:part.virginia_wade
+1	7	fb:cell.6_4_2_6_4_6	6–4, 2–6, 4–6	6|--|4|,|2|--|6|,|4|--|6	6|--|4|,|2|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||2.0||6.0||4.0||6.0	6.0		42.0	6–4|2–6|4–6	fb:part.6_4|fb:part.2_6|fb:part.4_6
+2	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+2	1	fb:cell.2	2.	2|.	2|.	LS|.	NUMBER|O	2.0|	2.0				
+2	2	fb:cell.8_october_1978	8 October 1978	8|october|1978	8|October|1978	CD|NNP|CD	DATE|DATE|DATE	1978-10-08|1978-10-08|1978-10-08	8.0	1978-10-08	1978.0		
+2	3	fb:cell.phoenix	Phoenix	phoenix	Phoenix	NNP	LOCATION					Phoenix	fb:part.phoenix
+2	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+2	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+2	6	fb:cell.tracy_austin_betty_stove	Tracy Austin\n Betty Stöve	tracy|austin|betty|stöve	Tracy|Austin|Betty|Stöve	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tracy Austin|Betty Stöve	fb:part.tracy_austin|fb:part.betty_stove
+2	7	fb:cell.4_6_7_6_2_6	4–6, 7–6, 2–6	4|--|6|,|7|--|6|,|2|--|6	4|--|6|,|7|--|6|,|2|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||7.0||6.0||2.0||6.0	4.0		67.0	4–6|7–6|2–6	fb:part.4_6|fb:part.7_6|fb:part.2_6
+3	0	fb:cell.winner	Winner	winner	winner	NN	O						
+3	1	fb:cell.2	2.	2|.	2|.	LS|.	NUMBER|O	2.0|	2.0				
+3	2	fb:cell.12_november_1978	12 November 1978	12|november|1978	12|November|1978	CD|NNP|CD	DATE|DATE|DATE	1978-11-12|1978-11-12|1978-11-12	12.0	1978-11-12	1978.0		
+3	3	fb:cell.oldsmar	Oldsmar	oldsmar	Oldsmar	NNP	LOCATION					Oldsmar	fb:part.oldsmar
+3	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+3	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+3	6	fb:cell.kerry_reid_wendy_turnbull	Kerry Reid\n Wendy Turnbull	kerry|reid|wendy|turnbull	Kerry|Reid|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Kerry Reid|Wendy Turnbull	fb:part.kerry_reid|fb:part.wendy_turnbull
+3	7	fb:cell.7_6_6_3	7–6, 6–3	7|--|6|,|6|--|3	7|--|6|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||6.0||3.0	7.0		66.0	7–6|6–3	fb:part.7_6|fb:part.6_3
+4	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+4	1	fb:cell.3	3.	3|.	3|.	LS|.	NUMBER|O	3.0|	3.0				
+4	2	fb:cell.18_february_1979	18 February 1979	18|february|1979	18|February|1979	CD|NNP|CD	DATE|DATE|DATE	1979-02-18|1979-02-18|1979-02-18	18.0	1979-02-18	1979.0		
+4	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|				Los Angeles	fb:part.los_angeles
+4	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+4	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+4	6	fb:cell.rosemary_casals_chris_evert	Rosemary Casals\n Chris Evert	rosemary|casals|chris|evert	Rosemary|Casals|Chris|Evert	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Chris Evert	fb:part.rosemary_casals|fb:part.chris_evert
+4	7	fb:cell.4_6_6_1_3_6	4–6, 6–1, 3–6	4|--|6|,|6|--|1|,|3|--|6	4|--|6|,|6|--|1|,|3|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||6.0||1.0||3.0||6.0	4.0		66.0	4–6|6–1|3–6	fb:part.4_6|fb:part.6_1|fb:part.3_6
+5	0	fb:cell.winner	Winner	winner	winner	NN	O						
+5	1	fb:cell.3	3.	3|.	3|.	LS|.	NUMBER|O	3.0|	3.0				
+5	2	fb:cell.4_march_1979	4 March 1979	4|march|1979	4|March|1979	CD|NNP|CD	DATE|DATE|DATE	1979-03-04|1979-03-04|1979-03-04	4.0	1979-03-04	1979.0		
+5	3	fb:cell.dallas	Dallas	dallas	Dallas	NNP	LOCATION					Dallas	fb:part.dallas
+5	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+5	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+5	6	fb:cell.rosemary_casals_chris_evert	Rosemary Casals\n Chris Evert	rosemary|casals|chris|evert	Rosemary|Casals|Chris|Evert	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Chris Evert	fb:part.rosemary_casals|fb:part.chris_evert
+5	7	fb:cell.7_6_6_2	7–6, 6–2	7|--|6|,|6|--|2	7|--|6|,|6|--|2	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||6.0||2.0	7.0		66.0	7–6|6–2	fb:part.7_6|fb:part.6_2
+6	0	fb:cell.winner	Winner	winner	winner	NN	O						
+6	1	fb:cell.4	4.	4|.	4|.	LS|.	NUMBER|O	4.0|	4.0				
+6	2	fb:cell.12_august_1979	12 August 1979	12|august|1979	12|August|1979	CD|NNP|CD	DATE|DATE|DATE	1979-08-12|1979-08-12|1979-08-12	12.0	1979-08-12	1979.0		
+6	3	fb:cell.indianapolis	Indianapolis	indianapolis	Indianapolis	NNP	LOCATION					Indianapolis	fb:part.indianapolis
+6	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+6	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+6	6	fb:cell.penny_johnson_paula_smith	Penny Johnson\n Paula Smith	penny|johnson|paula|smith	Penny|Johnson|Paula|Smith	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Penny Johnson|Paula Smith	fb:part.penny_johnson|fb:part.paula_smith
+6	7	fb:cell.6_1_6_0	6–1, 6–0	6|--|1|,|6|--|0	6|--|1|,|6|--|0	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||1.0||6.0||0.0	6.0		16.0	6–1|6–0	fb:part.6_1|fb:part.6_0
+7	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+7	1	fb:cell.4	4.	4|.	4|.	LS|.	NUMBER|O	4.0|	4.0				
+7	2	fb:cell.29_september_1979	29 September 1979	29|september|1979	29|September|1979	CD|NNP|CD	DATE|DATE|DATE	1979-09-29|1979-09-29|1979-09-29	29.0	1979-09-29	1979.0		
+7	3	fb:cell.atlanta	Atlanta	atlanta	Atlanta	NNP	LOCATION					Atlanta	fb:part.atlanta
+7	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+7	5	fb:cell.ann_kiyomura	Ann Kiyomura	ann|kiyomura	Ann|Kiyomura	NNP|NNP	PERSON|PERSON	|					
+7	6	fb:cell.betty_stove_wendy_turnbull	Betty Stöve\n Wendy Turnbull	betty|stöve|wendy|turnbull	Betty|Stöve|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Betty Stöve|Wendy Turnbull	fb:part.betty_stove|fb:part.wendy_turnbull
+7	7	fb:cell.2_6_4_6	2–6, 4–6	2|--|6|,|4|--|6	2|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||4.0||6.0	2.0		64.0	2–6|4–6	fb:part.2_6|fb:part.4_6
+8	0	fb:cell.winner	Winner	winner	winner	NN	O						
+8	1	fb:cell.5	5.	5|.	5|.	CD|.	NUMBER|O	5.0|	5.0				
+8	2	fb:cell.28_october_1979	28 October 1979	28|october|1979	28|October|1979	CD|NNP|CD	DATE|DATE|DATE	1979-10-28|1979-10-28|1979-10-28	28.0	1979-10-28	1979.0		
+8	3	fb:cell.tampa	Tampa	tampa	Tampa	NNP	LOCATION					Tampa	fb:part.tampa
+8	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+8	5	fb:cell.virginia_ruzici	Virginia Ruzici	virginia|ruzici	Virginia|Ruzici	NNP|NNP	LOCATION|LOCATION	|					
+8	6	fb:cell.ilana_kloss_betty_ann_stuart	Ilana Kloss\n Betty-Ann Stuart	ilana|kloss|betty|ann|stuart	Ilana|Kloss|Betty|Ann|Stuart	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Ilana Kloss|Betty-Ann Stuart	fb:part.ilana_kloss|fb:part.betty_ann_stuart
+8	7	fb:cell.7_5_4_6_7_5	7–5, 4–6, 7–5	7|--|5|,|4|--|6|,|7|--|5	7|--|5|,|4|--|6|,|7|--|5	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||5.0||4.0||6.0||7.0||5.0	7.0		54.0	7–5|4–6|7–5	fb:part.7_5|fb:part.4_6|fb:part.7_5
+9	0	fb:cell.winner	Winner	winner	winner	NN	O						
+9	1	fb:cell.6	6.	6|.	6|.	CD|.	NUMBER|O	6.0|	6.0				
+9	2	fb:cell.25_november_1979	25 November 1979	25|november|1979	25|November|1979	CD|NNP|CD	DATE|DATE|DATE	1979-11-25|1979-11-25|1979-11-25	25.0	1979-11-25	1979.0		
+9	3	fb:cell.brighton	Brighton	brighton	Brighton	NNP	LOCATION					Brighton	fb:part.brighton
+9	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+9	5	fb:cell.ann_kiyomura	Ann Kiyomura	ann|kiyomura	Ann|Kiyomura	NNP|NNP	PERSON|PERSON	|					
+9	6	fb:cell.ilana_kloss_laura_dupont	Ilana Kloss\n Laura duPont	ilana|kloss|laura|dupont	Ilana|Kloss|Laura|duPont	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O	|||				Ilana Kloss|Laura duPont	fb:part.ilana_kloss|fb:part.laura_dupont
+9	7	fb:cell.6_2_6_1	6–2, 6–1	6|--|2|,|6|--|1	6|--|2|,|6|--|1	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||6.0||1.0	6.0		26.0	6–2|6–1	fb:part.6_2|fb:part.6_1
+10	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+10	1	fb:cell.5	5.	5|.	5|.	CD|.	NUMBER|O	5.0|	5.0				
+10	2	fb:cell.2_december_1979	2 December 1979	2|december|1979	2|December|1979	CD|NNP|CD	DATE|DATE|DATE	1979-12-02|1979-12-02|1979-12-02	2.0	1979-12-02	1979.0		
+10	3	fb:cell.melbourne	Melbourne	melbourne	Melbourne	NNP	LOCATION					Melbourne	fb:part.melbourne
+10	4	fb:cell.grass	Grass	grass	grass	NN	O						
+10	5	fb:cell.dianne_fromholtz	Dianne Fromholtz	dianne|fromholtz	Dianne|Fromholtz	NNP|NNP	PERSON|PERSON	|					
+10	6	fb:cell.billie_jean_king_wendy_turnbull	Billie Jean King\n Wendy Turnbull	billie|jean|king|wendy|turnbull	Billie|Jean|King|Wendy|Turnbull	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Billie Jean King|Wendy Turnbull	fb:part.billie_jean_king|fb:part.wendy_turnbull
+10	7	fb:cell.3_6_3_6	3–6, 3–6	3|--|6|,|3|--|6	3|--|6|,|3|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||3.0||6.0	3.0		63.0	3–6|3–6	fb:part.3_6|fb:part.3_6
+11	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+11	1	fb:cell.6	6.	6|.	6|.	CD|.	NUMBER|O	6.0|	6.0				
+11	2	fb:cell.10_february_1980	10 February 1980	10|february|1980	10|February|1980	CD|NNP|CD	DATE|DATE|DATE	1980-02-10|1980-02-10|1980-02-10	10.0	1980-02-10	1980.0		
+11	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|				Los Angeles	fb:part.los_angeles
+11	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+11	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+11	6	fb:cell.rosemary_casals_martina_navratilova	Rosemary Casals\n Martina Navratilova	rosemary|casals|martina|navratilova	Rosemary|Casals|Martina|Navratilova	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Martina Navratilova	fb:part.rosemary_casals|fb:part.martina_navratilova
+11	7	fb:cell.6_7_2_6	6–7, 2–6	6|--|7|,|2|--|6	6|--|7|,|2|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||2.0||6.0	6.0		72.0	6–7|2–6	fb:part.6_7|fb:part.2_6
+12	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+12	1	fb:cell.7	7.	7|.	7|.	CD|.	NUMBER|O	7.0|	7.0				
+12	2	fb:cell.24_february_1980	24 February 1980	24|february|1980	24|February|1980	CD|NNP|CD	DATE|DATE|DATE	1980-02-24|1980-02-24|1980-02-24	24.0	1980-02-24	1980.0		
+12	3	fb:cell.detroit	Detroit	detroit	Detroit	NNP	LOCATION					Detroit	fb:part.detroit
+12	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+12	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+12	6	fb:cell.billie_jean_king_ilana_kloss	Billie Jean King\n Ilana Kloss	billie|jean|king|ilana|kloss	Billie|Jean|King|Ilana|Kloss	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Billie Jean King|Ilana Kloss	fb:part.billie_jean_king|fb:part.ilana_kloss
+12	7	fb:cell.6_3_3_6_2_6	6–3, 3–6, 2–6	6|--|3|,|3|--|6|,|2|--|6	6|--|3|,|3|--|6|,|2|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||3.0||6.0||2.0||6.0	6.0		33.0	6–3|3–6|2–6	fb:part.6_3|fb:part.3_6|fb:part.2_6
+13	0	fb:cell.winner	Winner	winner	winner	NN	O						
+13	1	fb:cell.7	7.	7|.	7|.	CD|.	NUMBER|O	7.0|	7.0				
+13	2	fb:cell.13_april_1980	13 April 1980	13|april|1980	13|April|1980	CD|NNP|CD	DATE|DATE|DATE	1980-04-13|1980-04-13|1980-04-13	13.0	1980-04-13	1980.0		
+13	3	fb:cell.hilton_head	Hilton Head	hilton|head	Hilton|Head	NNP|NNP	O|O	|				Hilton Head	fb:part.hilton_head
+13	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+13	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+13	6	fb:cell.candy_reynolds_paula_smith	Candy Reynolds\n Paula Smith	candy|reynolds|paula|smith	candy|Reynolds|Paula|Smith	NN|NNP|NNP|NNP	O|O|PERSON|PERSON	|||				Candy Reynolds|Paula Smith	fb:part.candy_reynolds|fb:part.paula_smith
+13	7	fb:cell.6_2_6_1	6–2, 6–1	6|--|2|,|6|--|1	6|--|2|,|6|--|1	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||6.0||1.0	6.0		26.0	6–2|6–1	fb:part.6_2|fb:part.6_1
+14	0	fb:cell.winner	Winner	winner	winner	NN	O						
+14	1	fb:cell.8	8.	8|.	8|.	CD|.	NUMBER|O	8.0|	8.0				
+14	2	fb:cell.7_june_1980	7 June 1980	7|june|1980	7|June|1980	CD|NNP|CD	DATE|DATE|DATE	1980-06-07|1980-06-07|1980-06-07	7.0	1980-06-07	1980.0		
+14	3	fb:cell.french_open	French Open	french|open	french|Open	JJ|NNP	MISC|MISC	|				French Open	fb:part.french_open
+14	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+14	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+14	6	fb:cell.ivanna_madruga_adriana_villagran	Ivanna Madruga\n Adriana Villagran	ivanna|madruga|adriana|villagran	Ivanna|Madruga|Adriana|Villagran	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ivanna Madruga|Adriana Villagran	fb:part.ivanna_madruga|fb:part.adriana_villagran
+14	7	fb:cell.6_1_6_0	6–1, 6–0	6|--|1|,|6|--|0	6|--|1|,|6|--|0	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||1.0||6.0||0.0	6.0		16.0	6–1|6–0	fb:part.6_1|fb:part.6_0
+15	0	fb:cell.winner	Winner	winner	winner	NN	O						
+15	1	fb:cell.9	9.	9|.	9|.	CD|.	NUMBER|O	9.0|	9.0				
+15	2	fb:cell.21_june_1980	21 June 1980	21|june|1980	21|June|1980	CD|NNP|CD	DATE|DATE|DATE	1980-06-21|1980-06-21|1980-06-21	21.0	1980-06-21	1980.0		
+15	3	fb:cell.eastbourne	Eastbourne	eastbourne	Eastbourne	NNP	LOCATION					Eastbourne	fb:part.eastbourne
+15	4	fb:cell.grass	Grass	grass	grass	NN	O						
+15	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+15	6	fb:cell.pam_shriver_betty_stove	Pam Shriver\n Betty Stöve	pam|shriver|betty|stöve	Pam|Shriver|Betty|Stöve	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Pam Shriver|Betty Stöve	fb:part.pam_shriver|fb:part.betty_stove
+15	7	fb:cell.6_4_6_1	6–4, 6–1	6|--|4|,|6|--|1	6|--|4|,|6|--|1	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||1.0	6.0		46.0	6–4|6–1	fb:part.6_4|fb:part.6_1
+16	0	fb:cell.winner	Winner	winner	winner	NN	O						
+16	1	fb:cell.10	10.	10|.	10|.	CD|.	NUMBER|O	10.0|	10.0				
+16	2	fb:cell.5_july_1980	5 July 1980	5|july|1980	5|July|1980	CD|NNP|CD	DATE|DATE|DATE	1980-07-05|1980-07-05|1980-07-05	5.0	1980-07-05	1980.0		
+16	3	fb:cell.wimbledon	Wimbledon	wimbledon	Wimbledon	NNP	MISC					Wimbledon	fb:part.wimbledon
+16	4	fb:cell.grass	Grass	grass	grass	NN	O						
+16	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+16	6	fb:cell.rosemary_casals_wendy_turnbull	Rosemary Casals\n Wendy Turnbull	rosemary|casals|wendy|turnbull	Rosemary|Casals|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Wendy Turnbull	fb:part.rosemary_casals|fb:part.wendy_turnbull
+16	7	fb:cell.4_6_7_5_6_1	4–6, 7–5, 6–1	4|--|6|,|7|--|5|,|6|--|1	4|--|6|,|7|--|5|,|6|--|1	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||7.0||5.0||6.0||1.0	4.0		67.0	4–6|7–5|6–1	fb:part.4_6|fb:part.7_5|fb:part.6_1
+17	0	fb:cell.winner	Winner	winner	winner	NN	O						
+17	1	fb:cell.11	11.	11|.	11|.	CD|.	NUMBER|O	11.0|	11.0				
+17	2	fb:cell.20_july_1980	20 July 1980	20|july|1980	20|July|1980	CD|NNP|CD	DATE|DATE|DATE	1980-07-20|1980-07-20|1980-07-20	20.0	1980-07-20	1980.0		
+17	3	fb:cell.montreal	Montreal	montreal	Montreal	NNP	LOCATION					Montreal	fb:part.montreal
+17	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+17	5	fb:cell.pam_shriver	Pam Shriver	pam|shriver	Pam|Shriver	NNP|NNP	PERSON|PERSON	|					
+17	6	fb:cell.ann_kiyomura_greer_stevens	Ann Kiyomura\n Greer Stevens	ann|kiyomura|greer|stevens	Ann|Kiyomura|Greer|Stevens	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ann Kiyomura|Greer Stevens	fb:part.ann_kiyomura|fb:part.greer_stevens
+17	7	fb:cell.3_6_6_6_ret	3–6, 6–6 ret.	3|--|6|,|6|--|6|ret|.	3|--|6|,|6|--|6|ret|.	CD|:|CD|,|CD|:|CD|NN|.	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	3.0||6.0||6.0||6.0||	3.0		66.0	3–6|6–6 ret.	fb:part.3_6|fb:part.6_6_ret
+18	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+18	1	fb:cell.8	8.	8|.	8|.	CD|.	NUMBER|O	8.0|	8.0				
+18	2	fb:cell.27_july_1980	27 July 1980	27|july|1980	27|July|1980	CD|NNP|CD	DATE|DATE|DATE	1980-07-27|1980-07-27|1980-07-27	27.0	1980-07-27	1980.0		
+18	3	fb:cell.richmond	Richmond	richmond	Richmond	NNP	LOCATION					Richmond	fb:part.richmond
+18	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+18	5	fb:cell.pam_shriver	Pam Shriver	pam|shriver	Pam|Shriver	NNP|NNP	PERSON|PERSON	|					
+18	6	fb:cell.billie_jean_king_martina_navratilova	Billie Jean King\n Martina Navratilova	billie|jean|king|martina|navratilova	Billie|Jean|King|Martina|Navratilova	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Billie Jean King|Martina Navratilova	fb:part.billie_jean_king|fb:part.martina_navratilova
+18	7	fb:cell.4_6_6_4_3_6	4–6, 6–4, 3–6	4|--|6|,|6|--|4|,|3|--|6	4|--|6|,|6|--|4|,|3|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||6.0||4.0||3.0||6.0	4.0		66.0	4–6|6–4|3–6	fb:part.4_6|fb:part.6_4|fb:part.3_6
+19	0	fb:cell.winner	Winner	winner	winner	NN	O						
+19	1	fb:cell.12	12.	12|.	12|.	CD|.	NUMBER|O	12.0|	12.0				
+19	2	fb:cell.10_august_1980	10 August 1980	10|august|1980	10|August|1980	CD|NNP|CD	DATE|DATE|DATE	1980-08-10|1980-08-10|1980-08-10	10.0	1980-08-10	1980.0		
+19	3	fb:cell.indianapolis	Indianapolis	indianapolis	Indianapolis	NNP	LOCATION					Indianapolis	fb:part.indianapolis
+19	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+19	5	fb:cell.paula_smith	Paula Smith	paula|smith	Paula|Smith	NNP|NNP	PERSON|PERSON	|					
+19	6	fb:cell.virginia_ruzici_renata_tomanova	Virginia Ruzici\n Renáta Tomanová	virginia|ruzici|renáta|tomanová	Virginia|Ruzici|Renáta|Tomanová	NNP|NNP|NNP|NNP	LOCATION|LOCATION|O|O	|||				Virginia Ruzici|Renáta Tomanová	fb:part.virginia_ruzici|fb:part.renata_tomanova
+19	7	fb:cell.4_6_6_3_6_4	4–6, 6–3, 6–4	4|--|6|,|6|--|3|,|6|--|4	4|--|6|,|6|--|3|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||6.0||3.0||6.0||4.0	4.0		66.0	4–6|6–3|6–4	fb:part.4_6|fb:part.6_3|fb:part.6_4
+20	0	fb:cell.winner	Winner	winner	winner	NN	O						
+20	1	fb:cell.13	13.	13|.	13|.	CD|.	NUMBER|O	13.0|	13.0				
+20	2	fb:cell.21_september_1980	21 September 1980	21|september|1980	21|September|1980	CD|NNP|CD	DATE|DATE|DATE	1980-09-21|1980-09-21|1980-09-21	21.0	1980-09-21	1980.0		
+20	3	fb:cell.las_vegas	Las Vegas	las|vegas	Las|Vegas	NNP|NNP	LOCATION|LOCATION	|				Las Vegas	fb:part.las_vegas
+20	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+20	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+20	6	fb:cell.martina_navratilova_betty_stove	Martina Navratilova\n Betty Stöve	martina|navratilova|betty|stöve	Martina|Navratilova|Betty|Stöve	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Betty Stöve	fb:part.martina_navratilova|fb:part.betty_stove
+20	7	fb:cell.2_6_6_4_6_3	2–6, 6–4, 6–3	2|--|6|,|6|--|4|,|6|--|3	2|--|6|,|6|--|4|,|6|--|3	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||6.0||4.0||6.0||3.0	2.0		66.0	2–6|6–4|6–3	fb:part.2_6|fb:part.6_4|fb:part.6_3
+21	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+21	1	fb:cell.9	9.	9|.	9|.	CD|.	NUMBER|O	9.0|	9.0				
+21	2	fb:cell.28_september_1980	28 September 1980	28|september|1980	28|September|1980	CD|NNP|CD	DATE|DATE|DATE	1980-09-28|1980-09-28|1980-09-28	28.0	1980-09-28	1980.0		
+21	3	fb:cell.atlanta	Atlanta	atlanta	Atlanta	NNP	LOCATION					Atlanta	fb:part.atlanta
+21	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+21	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+21	6	fb:cell.barbara_potter_sharon_walsh	Barbara Potter\n Sharon Walsh	barbara|potter|sharon|walsh	Barbara|Potter|Sharon|Walsh	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Barbara Potter|Sharon Walsh	fb:part.barbara_potter|fb:part.sharon_walsh
+21	7	fb:cell.3_6_1_6	3–6, 1–6	3|--|6|,|1|--|6	3|--|6|,|1|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||1.0||6.0	3.0		61.0	3–6|1–6	fb:part.3_6|fb:part.1_6
+22	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+22	1	fb:cell.10	10.	10|.	10|.	CD|.	NUMBER|O	10.0|	10.0				
+22	2	fb:cell.5_october_1980	5 October 1980	5|october|1980	5|October|1980	CD|NNP|CD	DATE|DATE|DATE	1980-10-05|1980-10-05|1980-10-05	5.0	1980-10-05	1980.0		
+22	3	fb:cell.minneapolis	Minneapolis	minneapolis	Minneapolis	NNP	LOCATION					Minneapolis	fb:part.minneapolis
+22	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+22	5	fb:cell.paula_smith	Paula Smith	paula|smith	Paula|Smith	NNP|NNP	PERSON|PERSON	|					
+22	6	fb:cell.ann_kiyomura_candy_reynolds	Ann Kiyomura\n Candy Reynolds	ann|kiyomura|candy|reynolds	Ann|Kiyomura|candy|Reynolds	NNP|NNP|NN|NNP	PERSON|PERSON|ORGANIZATION|ORGANIZATION	|||				Ann Kiyomura|Candy Reynolds	fb:part.ann_kiyomura|fb:part.candy_reynolds
+22	7	fb:cell.3_6_6_4_1_6	3–6, 6–4, 1–6	3|--|6|,|6|--|4|,|1|--|6	3|--|6|,|6|--|4|,|1|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||6.0||4.0||1.0||6.0	3.0		66.0	3–6|6–4|1–6	fb:part.3_6|fb:part.6_4|fb:part.1_6
+23	0	fb:cell.winner	Winner	winner	winner	NN	O						
+23	1	fb:cell.14	14.	14|.	14|.	CD|.	NUMBER|O	14.0|	14.0				
+23	2	fb:cell.26_october_1980	26 October 1980	26|october|1980	26|October|1980	CD|NNP|CD	DATE|DATE|DATE	1980-10-26|1980-10-26|1980-10-26	26.0	1980-10-26	1980.0		
+23	3	fb:cell.brighton	Brighton	brighton	Brighton	NNP	LOCATION					Brighton	fb:part.brighton
+23	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+23	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+23	6	fb:cell.martina_navratilova_betty_stove	Martina Navratilova\n Betty Stöve	martina|navratilova|betty|stöve	Martina|Navratilova|Betty|Stöve	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Betty Stöve	fb:part.martina_navratilova|fb:part.betty_stove
+23	7	fb:cell.6_3_7_5	6–3, 7–5	6|--|3|,|7|--|5	6|--|3|,|7|--|5	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||7.0||5.0	6.0		37.0	6–3|7–5	fb:part.6_3|fb:part.7_5
+24	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+24	1	fb:cell.11	11.	11|.	11|.	CD|.	NUMBER|O	11.0|	11.0				
+24	2	fb:cell.9_november_1980	9 November 1980	9|november|1980	9|November|1980	CD|NNP|CD	DATE|DATE|DATE	1980-11-09|1980-11-09|1980-11-09	9.0	1980-11-09	1980.0		
+24	3	fb:cell.filderstadt	Filderstadt	filderstadt	Filderstadt	NNP	LOCATION					Filderstadt	fb:part.filderstadt
+24	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+24	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+24	6	fb:cell.hana_mandlikova_betty_stove	Hana Mandlíková\n Betty Stöve	hana|mandlíková|betty|stöve	Hana|Mandlíková|Betty|Stöve	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||				Hana Mandlíková|Betty Stöve	fb:part.hana_mandlikova|fb:part.betty_stove
+24	7	fb:cell.4_6_5_7	4–6, 5–7	4|--|6|,|5|--|7	4|--|6|,|5|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||5.0||7.0	4.0		65.0	4–6|5–7	fb:part.4_6|fb:part.5_7
+25	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+25	1	fb:cell.12	12.	12|.	12|.	CD|.	NUMBER|O	12.0|	12.0				
+25	2	fb:cell.16_november_1980	16 November 1980	16|november|1980	16|November|1980	CD|NNP|CD	DATE|DATE|DATE	1980-11-16|1980-11-16|1980-11-16	16.0	1980-11-16	1980.0		
+25	3	fb:cell.tampa	Tampa	tampa	Tampa	NNP	LOCATION					Tampa	fb:part.tampa
+25	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+25	5	fb:cell.paula_smith	Paula Smith	paula|smith	Paula|Smith	NNP|NNP	PERSON|PERSON	|					
+25	6	fb:cell.rosemary_casals_candy_reynolds	Rosemary Casals\n Candy Reynolds	rosemary|casals|candy|reynolds	Rosemary|Casals|candy|Reynolds	NNP|NNP|NN|NNP	PERSON|PERSON|O|O	|||				Rosemary Casals|Candy Reynolds	fb:part.rosemary_casals|fb:part.candy_reynolds
+25	7	fb:cell.6_7_5_7	6–7, 5–7	6|--|7|,|5|--|7	6|--|7|,|5|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||5.0||7.0	6.0		75.0	6–7|5–7	fb:part.6_7|fb:part.5_7
+26	0	fb:cell.winner	Winner	winner	winner	NN	O						
+26	1	fb:cell.15	15.	15|.	15|.	CD|.	NUMBER|O	15.0|	15.0				
+26	2	fb:cell.25_january_1981	25 January 1981	25|january|1981	25|January|1981	CD|NNP|CD	DATE|DATE|DATE	1981-01-25|1981-01-25|1981-01-25	25.0	1981-01-25	1981.0		
+26	3	fb:cell.cincinnati	Cincinnati	cincinnati	Cincinnati	NNP	LOCATION					Cincinnati	fb:part.cincinnati
+26	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+26	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+26	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+26	7	fb:cell.1_6_6_3_6_3	1–6, 6–3, 6–3	1|--|6|,|6|--|3|,|6|--|3	1|--|6|,|6|--|3|,|6|--|3	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	1.0||6.0||6.0||3.0||6.0||3.0	1.0		66.0	1–6|6–3|6–3	fb:part.1_6|fb:part.6_3|fb:part.6_3
+27	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+27	1	fb:cell.13	13.	13|.	13|.	CD|.	NUMBER|O	13.0|	13.0				
+27	2	fb:cell.15_march_1981	15 March 1981	15|march|1981	15|March|1981	CD|NNP|CD	DATE|DATE|DATE	1981-03-15|1981-03-15|1981-03-15	15.0	1981-03-15	1981.0		
+27	3	fb:cell.dallas	Dallas	dallas	Dallas	NNP	LOCATION					Dallas	fb:part.dallas
+27	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+27	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+27	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+27	7	fb:cell.5_7_4_6	5–7, 4–6	5|--|7|,|4|--|6	5|--|7|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||4.0||6.0	5.0		74.0	5–7|4–6	fb:part.5_7|fb:part.4_6
+28	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+28	1	fb:cell.14	14.	14|.	14|.	CD|.	NUMBER|O	14.0|	14.0				
+28	2	fb:cell.21_june_1981	21 June 1981	21|june|1981	21|June|1981	CD|NNP|CD	DATE|DATE|DATE	1981-06-21|1981-06-21|1981-06-21	21.0	1981-06-21	1981.0		
+28	3	fb:cell.eastbourne	Eastbourne	eastbourne	Eastbourne	NNP	LOCATION					Eastbourne	fb:part.eastbourne
+28	4	fb:cell.grass	Grass	grass	grass	NN	O						
+28	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+28	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+28	7	fb:cell.7_6_2_6_1_6	7–6, 2–6, 1–6	7|--|6|,|2|--|6|,|1|--|6	7|--|6|,|2|--|6|,|1|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||2.0||6.0||1.0||6.0	7.0		62.0	7–6|2–6|1–6	fb:part.7_6|fb:part.2_6|fb:part.1_6
+29	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+29	1	fb:cell.15	15.	15|.	15|.	CD|.	NUMBER|O	15.0|	15.0				
+29	2	fb:cell.3_july_1981	3 July 1981	3|july|1981	3|July|1981	CD|NNP|CD	DATE|DATE|DATE	1981-07-03|1981-07-03|1981-07-03	3.0	1981-07-03	1981.0		
+29	3	fb:cell.wimbledon	Wimbledon	wimbledon	Wimbledon	NNP	MISC					Wimbledon	fb:part.wimbledon
+29	4	fb:cell.grass	Grass	grass	grass	NN	O						
+29	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+29	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+29	7	fb:cell.3_6_6_7_6	3–6, 6–7(6)	3|--|6|,|6|--|7|-lrb-|6|-rrb-	3|--|6|,|6|--|7|-lrb-|6|-rrb-	CD|:|CD|,|CD|:|CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	3.0||6.0||6.0||7.0||6.0|	3.0		66.0	3–6|6–7(6)	fb:part.3_6|fb:part.6_7_6
+30	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+30	1	fb:cell.16	16.	16|.	16|.	CD|.	NUMBER|O	16.0|	16.0				
+30	2	fb:cell.16_august_1981	16 August 1981	16|august|1981	16|August|1981	CD|NNP|CD	DATE|DATE|DATE	1981-08-16|1981-08-16|1981-08-16	16.0	1981-08-16	1981.0		
+30	3	fb:cell.richmond	Richmond	richmond	Richmond	NNP	LOCATION					Richmond	fb:part.richmond
+30	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+30	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+30	6	fb:cell.sue_barker_ann_kiyomura	Sue Barker\n Ann Kiyomura	sue|barker|ann|kiyomura	sue|Barker|Ann|Kiyomura	VB|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Sue Barker|Ann Kiyomura	fb:part.sue_barker|fb:part.ann_kiyomura
+30	7	fb:cell.6_4_6_7_4_6	6–4, 6–7, 4–6	6|--|4|,|6|--|7|,|4|--|6	6|--|4|,|6|--|7|,|4|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||7.0||4.0||6.0	6.0		46.0	6–4|6–7|4–6	fb:part.6_4|fb:part.6_7|fb:part.4_6
+31	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+31	1	fb:cell.17	17.	17|.	17|.	CD|.	NUMBER|O	17.0|	17.0				
+31	2	fb:cell.23_august_1981	23 August 1981	23|august|1981	23|August|1981	CD|NNP|CD	DATE|DATE|DATE	1981-08-23|1981-08-23|1981-08-23	23.0	1981-08-23	1981.0		
+31	3	fb:cell.toronto	Toronto	toronto	Toronto	NNP	LOCATION					Toronto	fb:part.toronto
+31	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+31	5	fb:cell.candy_reynolds	Candy Reynolds	candy|reynolds	candy|Reynolds	NN|NNP	O|O	|					
+31	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+31	7	fb:cell.6_7_6_7	6–7, 6–7	6|--|7|,|6|--|7	6|--|7|,|6|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||7.0	6.0		76.0	6–7|6–7	fb:part.6_7|fb:part.6_7
+32	0	fb:cell.winner	Winner	winner	winner	NN	O						
+32	1	fb:cell.16	16.	16|.	16|.	CD|.	NUMBER|O	16.0|	16.0				
+32	2	fb:cell.12_september_1981	12 September 1981	12|september|1981	12|September|1981	CD|NNP|CD	DATE|DATE|DATE	1981-09-12|1981-09-12|1981-09-12	12.0	1981-09-12	1981.0		
+32	3	fb:cell.us_open	US Open	us|open	US|Open	NNP|NNP	MISC|MISC	|				US Open	fb:part.us_open
+32	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+32	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+32	6	fb:cell.rosemary_casals_wendy_turnbull	Rosemary Casals\n Wendy Turnbull	rosemary|casals|wendy|turnbull	Rosemary|Casals|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Wendy Turnbull	fb:part.rosemary_casals|fb:part.wendy_turnbull
+32	7	fb:cell.6_3_6_3	6–3, 6–3	6|--|3|,|6|--|3	6|--|3|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||6.0||3.0	6.0		36.0	6–3|6–3	fb:part.6_3|fb:part.6_3
+33	0	fb:cell.winner	Winner	winner	winner	NN	O						
+33	1	fb:cell.17	17.	17|.	17|.	CD|.	NUMBER|O	17.0|	17.0				
+33	2	fb:cell.25_october_1981	25 October 1981	25|october|1981	25|October|1981	CD|NNP|CD	DATE|DATE|DATE	1981-10-25|1981-10-25|1981-10-25	25.0	1981-10-25	1981.0		
+33	3	fb:cell.brighton	Brighton	brighton	Brighton	NNP	LOCATION					Brighton	fb:part.brighton
+33	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+33	5	fb:cell.barbara_potter	Barbara Potter	barbara|potter	Barbara|Potter	NNP|NNP	PERSON|PERSON	|					
+33	6	fb:cell.mima_jausovec_pam_shriver	Mima Jaušovec\n Pam Shriver	mima|jaušovec|pam|shriver	Mima|Jaušovec|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Mima Jaušovec|Pam Shriver	fb:part.mima_jausovec|fb:part.pam_shriver
+33	7	fb:cell.6_7_6_3_6_4	6–7, 6–3, 6–4	6|--|7|,|6|--|3|,|6|--|4	6|--|7|,|6|--|3|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||3.0||6.0||4.0	6.0		76.0	6–7|6–3|6–4	fb:part.6_7|fb:part.6_3|fb:part.6_4
+34	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+34	1	fb:cell.18	18.	18|.	18|.	CD|.	NUMBER|O	18.0|	18.0				
+34	2	fb:cell.1_november_1981	1 November 1981	1|november|1981	1|November|1981	CD|NNP|CD	DATE|DATE|DATE	1981-11-01|1981-11-01|1981-11-01	1.0	1981-11-01	1981.0		
+34	3	fb:cell.filderstadt	Filderstadt	filderstadt	Filderstadt	NNP	LOCATION					Filderstadt	fb:part.filderstadt
+34	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+34	5	fb:cell.barbara_potter	Barbara Potter	barbara|potter	Barbara|Potter	NNP|NNP	PERSON|PERSON	|					
+34	6	fb:cell.mima_jausovec_martina_navratilova	Mima Jaušovec\n Martina Navratilova	mima|jaušovec|martina|navratilova	Mima|Jaušovec|Martina|Navratilova	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Mima Jaušovec|Martina Navratilova	fb:part.mima_jausovec|fb:part.martina_navratilova
+34	7	fb:cell.4_6_1_6	4–6, 1–6	4|--|6|,|1|--|6	4|--|6|,|1|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||1.0||6.0	4.0		61.0	4–6|1–6	fb:part.4_6|fb:part.1_6
+35	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+35	1	fb:cell.19	19.	19|.	19|.	CD|.	NUMBER|O	19.0|	19.0				
+35	2	fb:cell.29_november_1981	29 November 1981	29|november|1981	29|November|1981	CD|NNP|CD	DATE|DATE|DATE	1981-11-29|1981-11-29|1981-11-29	29.0	1981-11-29	1981.0		
+35	3	fb:cell.sydney	Sydney	sydney	Sydney	NNP	LOCATION					Sydney	fb:part.sydney
+35	4	fb:cell.grass	Grass	grass	grass	NN	O						
+35	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+35	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+35	7	fb:cell.7_6_2_6_4_6	7–6, 2–6, 4–6	7|--|6|,|2|--|6|,|4|--|6	7|--|6|,|2|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||2.0||6.0||4.0||6.0	7.0		62.0	7–6|2–6|4–6	fb:part.7_6|fb:part.2_6|fb:part.4_6
+36	0	fb:cell.winner	Winner	winner	winner	NN	O						
+36	1	fb:cell.18	18.	18|.	18|.	CD|.	NUMBER|O	18.0|	18.0				
+36	2	fb:cell.5_december_1981	5 December 1981	5|december|1981	5|December|1981	CD|NNP|CD	DATE|DATE|DATE	1981-12-05|1981-12-05|1981-12-05	5.0	1981-12-05	1981.0		
+36	3	fb:cell.australian_open	Australian Open	australian|open	australian|Open	JJ|NNP	MISC|MISC	|				Australian Open	fb:part.australian_open
+36	4	fb:cell.grass	Grass	grass	grass	NN	O						
+36	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+36	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+36	7	fb:cell.6_2_7_5	6–2, 7–5	6|--|2|,|7|--|5	6|--|2|,|7|--|5	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||7.0||5.0	6.0		27.0	6–2|7–5	fb:part.6_2|fb:part.7_5
+37	0	fb:cell.winner	Winner	winner	winner	NN	O						
+37	1	fb:cell.19	19.	19|.	19|.	CD|.	NUMBER|O	19.0|	19.0				
+37	2	fb:cell.10_january_1982	10 January 1982	10|january|1982	10|January|1982	CD|NNP|CD	DATE|DATE|DATE	1982-01-10|1982-01-10|1982-01-10	10.0	1982-01-10	1982.0		
+37	3	fb:cell.washington_d_c	Washington, D.C.	washington|,|d.c.	Washington|,|D.C.	NNP|,|NNP	LOCATION|O|LOCATION	||				Washington|D.C.	fb:part.washington|fb:part.d_c
+37	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+37	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+37	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+37	7	fb:cell.6_2_3_6_6_1	6–2, 3–6, 6–1	6|--|2|,|3|--|6|,|6|--|1	6|--|2|,|3|--|6|,|6|--|1	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||3.0||6.0||6.0||1.0	6.0		23.0	6–2|3–6|6–1	fb:part.6_2|fb:part.3_6|fb:part.6_1
+38	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+38	1	fb:cell.20	20.	20|.	20|.	CD|.	NUMBER|O	20.0|	20.0				
+38	2	fb:cell.17_january_1982	17 January 1982	17|january|1982	17|January|1982	CD|NNP|CD	DATE|DATE|DATE	1982-01-17|1982-01-17|1982-01-17	17.0	1982-01-17	1982.0		
+38	3	fb:cell.cincinnati	Cincinnati	cincinnati	Cincinnati	NNP	LOCATION					Cincinnati	fb:part.cincinnati
+38	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+38	5	fb:cell.pam_shriver	Pam Shriver	pam|shriver	Pam|Shriver	NNP|NNP	PERSON|PERSON	|					
+38	6	fb:cell.sue_barker_ann_kiyomura	Sue Barker\n Ann Kiyomura	sue|barker|ann|kiyomura	sue|Barker|Ann|Kiyomura	VB|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Sue Barker|Ann Kiyomura	fb:part.sue_barker|fb:part.ann_kiyomura
+38	7	fb:cell.2_6_6_7	2–6, 6–7	2|--|6|,|6|--|7	2|--|6|,|6|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||6.0||7.0	2.0		66.0	2–6|6–7	fb:part.2_6|fb:part.6_7
+39	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+39	1	fb:cell.21	21.	21|.	21|.	CD|.	NUMBER|O	21.0|	21.0				
+39	2	fb:cell.24_january_1982	24 January 1982	24|january|1982	24|January|1982	CD|NNP|CD	DATE|DATE|DATE	1982-01-24|1982-01-24|1982-01-24	24.0	1982-01-24	1982.0		
+39	3	fb:cell.seattle	Seattle	seattle	Seattle	NNP	LOCATION					Seattle	fb:part.seattle
+39	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+39	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+39	6	fb:cell.rosemary_casals_wendy_turnbull	Rosemary Casals\n Wendy Turnbull	rosemary|casals|wendy|turnbull	Rosemary|Casals|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Wendy Turnbull	fb:part.rosemary_casals|fb:part.wendy_turnbull
+39	7	fb:cell.5_7_4_6	5–7, 4–6	5|--|7|,|4|--|6	5|--|7|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||4.0||6.0	5.0		74.0	5–7|4–6	fb:part.5_7|fb:part.4_6
+40	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+40	1	fb:cell.22	22.	22|.	22|.	CD|.	NUMBER|O	22.0|	22.0				
+40	2	fb:cell.14_february_1982	14 February 1982	14|february|1982	14|February|1982	CD|NNP|CD	DATE|DATE|DATE	1982-02-14|1982-02-14|1982-02-14	14.0	1982-02-14	1982.0		
+40	3	fb:cell.kansas_city	Kansas City	kansas|city	Kansas|City	NNP|NNP	LOCATION|LOCATION	|				Kansas City	fb:part.kansas_city
+40	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+40	5	fb:cell.mary_lou_piatek	Mary Lou Piatek	mary|lou|piatek	Mary|Lou|Piatek	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+40	6	fb:cell.barbara_potter_sharon_walsh	Barbara Potter\n Sharon Walsh	barbara|potter|sharon|walsh	Barbara|Potter|Sharon|Walsh	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Barbara Potter|Sharon Walsh	fb:part.barbara_potter|fb:part.sharon_walsh
+40	7	fb:cell.6_4_2_6_2_6	6–4, 2–6, 2–6	6|--|4|,|2|--|6|,|2|--|6	6|--|4|,|2|--|6|,|2|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||2.0||6.0||2.0||6.0	6.0		42.0	6–4|2–6|2–6	fb:part.6_4|fb:part.2_6|fb:part.2_6
+41	0	fb:cell.winner	Winner	winner	winner	NN	O						
+41	1	fb:cell.20	20.	20|.	20|.	CD|.	NUMBER|O	20.0|	20.0				
+41	2	fb:cell.7_march_1982	7 March 1982	7|march|1982	7|March|1982	CD|NNP|CD	DATE|DATE|DATE	1982-03-07|1982-03-07|1982-03-07	7.0	1982-03-07	1982.0		
+41	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|				Los Angeles	fb:part.los_angeles
+41	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+41	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+41	6	fb:cell.barbara_potter_sharon_walsh	Barbara Potter\n Sharon Walsh	barbara|potter|sharon|walsh	Barbara|Potter|Sharon|Walsh	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Barbara Potter|Sharon Walsh	fb:part.barbara_potter|fb:part.sharon_walsh
+41	7	fb:cell.6_3_7_5	6–3, 7–5	6|--|3|,|7|--|5	6|--|3|,|7|--|5	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||7.0||5.0	6.0		37.0	6–3|7–5	fb:part.6_3|fb:part.7_5
+42	0	fb:cell.winner	Winner	winner	winner	NN	O						
+42	1	fb:cell.21	21.	21|.	21|.	CD|.	NUMBER|O	21.0|	21.0				
+42	2	fb:cell.20_march_1982	20 March 1982	20|march|1982	20|March|1982	CD|NNP|CD	DATE|DATE|DATE	1982-03-20|1982-03-20|1982-03-20	20.0	1982-03-20	1982.0		
+42	3	fb:cell.boston	Boston	boston	Boston	NNP	LOCATION					Boston	fb:part.boston
+42	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+42	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+42	6	fb:cell.rosemary_casals_wendy_turnbull	Rosemary Casals\n Wendy Turnbull	rosemary|casals|wendy|turnbull	Rosemary|Casals|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Wendy Turnbull	fb:part.rosemary_casals|fb:part.wendy_turnbull
+42	7	fb:cell.7_6_2_6_6_4	7–6, 2–6, 6–4	7|--|6|,|2|--|6|,|6|--|4	7|--|6|,|2|--|6|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||2.0||6.0||6.0||4.0	7.0		62.0	7–6|2–6|6–4	fb:part.7_6|fb:part.2_6|fb:part.6_4
+43	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+43	1	fb:cell.23	23.	23|.	23|.	CD|.	NUMBER|O	23.0|	23.0				
+43	2	fb:cell.28_march_1982	28 March 1982	28|march|1982	28|March|1982	CD|NNP|CD	DATE|DATE|DATE	1982-03-28|1982-03-28|1982-03-28	28.0	1982-03-28	1982.0		
+43	3	fb:cell.new_york_city	New York City	new|york|city	New|York|City	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				New York City	fb:part.new_york_city
+43	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+43	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+43	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+43	7	fb:cell.4_6_3_6	4–6, 3–6	4|--|6|,|3|--|6	4|--|6|,|3|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||3.0||6.0	4.0		63.0	4–6|3–6	fb:part.4_6|fb:part.3_6
+44	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+44	1	fb:cell.24	24.	24|.	24|.	CD|.	NUMBER|O	24.0|	24.0				
+44	2	fb:cell.18_april_1982	18 April 1982	18|april|1982	18|April|1982	CD|NNP|CD	DATE|DATE|DATE	1982-04-18|1982-04-18|1982-04-18	18.0	1982-04-18	1982.0		
+44	3	fb:cell.fort_worth	Fort Worth	fort|worth	Fort|Worth	NNP|NNP	LOCATION|LOCATION	|				Fort Worth	fb:part.fort_worth
+44	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+44	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+44	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+44	7	fb:cell.5_7_3_6	5–7, 3–6	5|--|7|,|3|--|6	5|--|7|,|3|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||3.0||6.0	5.0		73.0	5–7|3–6	fb:part.5_7|fb:part.3_6
+45	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+45	1	fb:cell.25	25.	25|.	25|.	CD|.	NUMBER|O	25.0|	25.0				
+45	2	fb:cell.2_may_1982	2 May 1982	2|may|1982	2|May|1982	CD|VBD-AUX|CD	DATE|DATE|DATE	1982-05-02|1982-05-02|1982-05-02	2.0	1982-05-02	1982.0		
+45	3	fb:cell.orlando	Orlando	orlando	Orlando	NNP	LOCATION					Orlando	fb:part.orlando
+45	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+45	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+45	6	fb:cell.rosemary_casals_wendy_turnbull	Rosemary Casals\n Wendy Turnbull	rosemary|casals|wendy|turnbull	Rosemary|Casals|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Wendy Turnbull	fb:part.rosemary_casals|fb:part.wendy_turnbull
+45	7	fb:cell.3_6_3_6	3–6, 3–6	3|--|6|,|3|--|6	3|--|6|,|3|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||3.0||6.0	3.0		63.0	3–6|3–6	fb:part.3_6|fb:part.3_6
+46	0	fb:cell.winner	Winner	winner	winner	NN	O						
+46	1	fb:cell.22	22.	22|.	22|.	CD|.	NUMBER|O	22.0|	22.0				
+46	2	fb:cell.5_june_1982	5 June 1982	5|june|1982	5|June|1982	CD|NNP|CD	DATE|DATE|DATE	1982-06-05|1982-06-05|1982-06-05	5.0	1982-06-05	1982.0		
+46	3	fb:cell.french_open	French Open	french|open	french|Open	JJ|NNP	MISC|MISC	|				French Open	fb:part.french_open
+46	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+46	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+46	6	fb:cell.rosemary_casals_wendy_turnbull	Rosemary Casals\n Wendy Turnbull	rosemary|casals|wendy|turnbull	Rosemary|Casals|Wendy|Turnbull	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosemary Casals|Wendy Turnbull	fb:part.rosemary_casals|fb:part.wendy_turnbull
+46	7	fb:cell.6_3_6_4	6–3, 6–4	6|--|3|,|6|--|4	6|--|3|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||6.0||4.0	6.0		36.0	6–3|6–4	fb:part.6_3|fb:part.6_4
+47	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+47	1	fb:cell.26	26.	26|.	26|.	CD|.	NUMBER|O	26.0|	26.0				
+47	2	fb:cell.20_june_1982	20 June 1982	20|june|1982	20|June|1982	CD|NNP|CD	DATE|DATE|DATE	1982-06-20|1982-06-20|1982-06-20	20.0	1982-06-20	1982.0		
+47	3	fb:cell.eastbourne	Eastbourne	eastbourne	Eastbourne	NNP	LOCATION					Eastbourne	fb:part.eastbourne
+47	4	fb:cell.grass	Grass	grass	grass	NN	O						
+47	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+47	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+47	7	fb:cell.3_6_4_6	3–6, 4–6	3|--|6|,|4|--|6	3|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||4.0||6.0	3.0		64.0	3–6|4–6	fb:part.3_6|fb:part.4_6
+48	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+48	1	fb:cell.27	27.	27|.	27|.	CD|.	NUMBER|O	27.0|	27.0				
+48	2	fb:cell.3_july_1982	3 July 1982	3|july|1982	3|July|1982	CD|NNP|CD	DATE|DATE|DATE	1982-07-03|1982-07-03|1982-07-03	3.0	1982-07-03	1982.0		
+48	3	fb:cell.wimbledon	Wimbledon	wimbledon	Wimbledon	NNP	MISC					Wimbledon	fb:part.wimbledon
+48	4	fb:cell.grass	Grass	grass	grass	NN	O						
+48	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+48	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+48	7	fb:cell.4_6_1_6	4–6, 1–6	4|--|6|,|1|--|6	4|--|6|,|1|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||1.0||6.0	4.0		61.0	4–6|1–6	fb:part.4_6|fb:part.1_6
+49	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+49	1	fb:cell.28	28.	28|.	28|.	CD|.	NUMBER|O	28.0|	28.0				
+49	2	fb:cell.24_october_1982	24 October 1982	24|october|1982	24|October|1982	CD|NNP|CD	DATE|DATE|DATE	1982-10-24|1982-10-24|1982-10-24	24.0	1982-10-24	1982.0		
+49	3	fb:cell.filderstadt	Filderstadt	filderstadt	Filderstadt	NNP	LOCATION					Filderstadt	fb:part.filderstadt
+49	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+49	5	fb:cell.candy_reynolds	Candy Reynolds	candy|reynolds	candy|Reynolds	NN|NNP	O|O	|					
+49	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+49	7	fb:cell.2_6_3_6	2–6, 3–6	2|--|6|,|3|--|6	2|--|6|,|3|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||3.0||6.0	2.0		63.0	2–6|3–6	fb:part.2_6|fb:part.3_6
+50	0	fb:cell.winner	Winner	winner	winner	NN	O						
+50	1	fb:cell.23	23.	23|.	23|.	CD|.	NUMBER|O	23.0|	23.0				
+50	2	fb:cell.21_november_1982	21 November 1982	21|november|1982	21|November|1982	CD|NNP|CD	DATE|DATE|DATE	1982-11-21|1982-11-21|1982-11-21	21.0	1982-11-21	1982.0		
+50	3	fb:cell.brisbane	Brisbane	brisbane	Brisbane	NNP	LOCATION					Brisbane	fb:part.brisbane
+50	4	fb:cell.grass	Grass	grass	grass	NN	O						
+50	5	fb:cell.billie_jean_king	Billie Jean King	billie|jean|king	Billie|Jean|King	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+50	6	fb:cell.claudia_kohde_kilsch_eva_pfaff	Claudia Kohde-Kilsch\n Eva Pfaff	claudia|kohde|kilsch|eva|pfaff	Claudia|Kohde|Kilsch|Eva|Pfaff	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Claudia Kohde-Kilsch|Eva Pfaff	fb:part.claudia_kohde_kilsch|fb:part.eva_pfaff
+50	7	fb:cell.6_3_6_4	6–3, 6–4	6|--|3|,|6|--|4	6|--|3|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||6.0||4.0	6.0		36.0	6–3|6–4	fb:part.6_3|fb:part.6_4
+51	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+51	1	fb:cell.29	29.	29|.	29|.	CD|.	NUMBER|O	29.0|	29.0				
+51	2	fb:cell.10_january_1983	10 January 1983	10|january|1983	10|January|1983	CD|NNP|CD	DATE|DATE|DATE	1983-01-10|1983-01-10|1983-01-10	10.0	1983-01-10	1983.0		
+51	3	fb:cell.washington_d_c	Washington, D.C.	washington|,|d.c.	Washington|,|D.C.	NNP|,|NNP	LOCATION|O|LOCATION	||				Washington|D.C.	fb:part.washington|fb:part.d_c
+51	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+51	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+51	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+51	7	fb:cell.6_4_5_7_3_6	6–4, 5–7, 3–6	6|--|4|,|5|--|7|,|3|--|6	6|--|4|,|5|--|7|,|3|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||5.0||7.0||3.0||6.0	6.0		45.0	6–4|5–7|3–6	fb:part.6_4|fb:part.5_7|fb:part.3_6
+52	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+52	1	fb:cell.30	30.	30|.	30|.	CD|.	NUMBER|O	30.0|	30.0				
+52	2	fb:cell.20_february_1983	20 February 1983	20|february|1983	20|February|1983	CD|NNP|CD	DATE|DATE|DATE	1983-02-20|1983-02-20|1983-02-20	20.0	1983-02-20	1983.0		
+52	3	fb:cell.chicago	Chicago	chicago	Chicago	NNP	LOCATION					Chicago	fb:part.chicago
+52	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+52	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+52	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+52	7	fb:cell.1_6_2_6	1–6, 2–6	1|--|6|,|2|--|6	1|--|6|,|2|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	1.0||6.0||2.0||6.0	1.0		62.0	1–6|2–6	fb:part.1_6|fb:part.2_6
+53	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+53	1	fb:cell.31	31.	31|.	31|.	CD|.	NUMBER|O	31.0|	31.0				
+53	2	fb:cell.20_march_1983	20 March 1983	20|march|1983	20|March|1983	CD|NNP|CD	DATE|DATE|DATE	1983-03-20|1983-03-20|1983-03-20	20.0	1983-03-20	1983.0		
+53	3	fb:cell.boston	Boston	boston	Boston	NNP	LOCATION					Boston	fb:part.boston
+53	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+53	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+53	6	fb:cell.jo_durie_ann_kiyomura	Jo Durie\n Ann Kiyomura	jo|durie|ann|kiyomura	Jo|Durie|Ann|Kiyomura	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Jo Durie|Ann Kiyomura	fb:part.jo_durie|fb:part.ann_kiyomura
+53	7	fb:cell.3_6_1_6	3–6, 1–6	3|--|6|,|1|--|6	3|--|6|,|1|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||1.0||6.0	3.0		61.0	3–6|1–6	fb:part.3_6|fb:part.1_6
+54	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+54	1	fb:cell.32	32.	32|.	32|.	CD|.	NUMBER|O	32.0|	32.0				
+54	2	fb:cell.3_april_1983	3 April 1983	3|april|1983	3|April|1983	CD|NNP|CD	DATE|DATE|DATE	1983-04-03|1983-04-03|1983-04-03	3.0	1983-04-03	1983.0		
+54	3	fb:cell.tokyo	Tokyo	tokyo	Tokyo	NNP	LOCATION					Tokyo	fb:part.tokyo
+54	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+54	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+54	6	fb:cell.billie_jean_king_sharon_walsh	Billie Jean King\n Sharon Walsh	billie|jean|king|sharon|walsh	Billie|Jean|King|Sharon|Walsh	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Billie Jean King|Sharon Walsh	fb:part.billie_jean_king|fb:part.sharon_walsh
+54	7	fb:cell.1_6_1_6	1–6, 1–6	1|--|6|,|1|--|6	1|--|6|,|1|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	1.0||6.0||1.0||6.0	1.0		61.0	1–6|1–6	fb:part.1_6|fb:part.1_6
+55	0	fb:cell.winner	Winner	winner	winner	NN	O						
+55	1	fb:cell.24	24.	24|.	24|.	CD|.	NUMBER|O	24.0|	24.0				
+55	2	fb:cell.24_april_1983	24 April 1983	24|april|1983	24|April|1983	CD|NNP|CD	DATE|DATE|DATE	1983-04-24|1983-04-24|1983-04-24	24.0	1983-04-24	1983.0		
+55	3	fb:cell.orlando	Orlando	orlando	Orlando	NNP	LOCATION					Orlando	fb:part.orlando
+55	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+55	5	fb:cell.billie_jean_king	Billie Jean King	billie|jean|king	Billie|Jean|King	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+55	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+55	7	fb:cell.6_3_1_6_7_6	6–3, 1–6, 7–6	6|--|3|,|1|--|6|,|7|--|6	6|--|3|,|1|--|6|,|7|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||1.0||6.0||7.0||6.0	6.0		31.0	6–3|1–6|7–6	fb:part.6_3|fb:part.1_6|fb:part.7_6
+56	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+56	1	fb:cell.33	33.	33|.	33|.	CD|.	NUMBER|O	33.0|	33.0				
+56	2	fb:cell.4_june_1983	4 June 1983	4|june|1983	4|June|1983	CD|NNP|CD	DATE|DATE|DATE	1983-06-04|1983-06-04|1983-06-04	4.0	1983-06-04	1983.0		
+56	3	fb:cell.french_open	French Open	french|open	french|Open	JJ|NNP	MISC|MISC	|				French Open	fb:part.french_open
+56	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+56	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+56	6	fb:cell.rosalyn_fairbank_candy_reynolds	Rosalyn Fairbank\n Candy Reynolds	rosalyn|fairbank|candy|reynolds	Rosalyn|Fairbank|candy|Reynolds	NNP|NNP|NN|NNP	PERSON|PERSON|O|O	|||				Rosalyn Fairbank|Candy Reynolds	fb:part.rosalyn_fairbank|fb:part.candy_reynolds
+56	7	fb:cell.7_5_5_7_2_6	7–5, 5–7, 2–6	7|--|5|,|5|--|7|,|2|--|6	7|--|5|,|5|--|7|,|2|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||5.0||5.0||7.0||2.0||6.0	7.0		55.0	7–5|5–7|2–6	fb:part.7_5|fb:part.5_7|fb:part.2_6
+57	0	fb:cell.winner	Winner	winner	winner	NN	O						
+57	1	fb:cell.25	25.	25|.	25|.	CD|.	NUMBER|O	25.0|	25.0				
+57	2	fb:cell.22_april_1984	22 April 1984	22|april|1984	22|April|1984	CD|NNP|CD	DATE|DATE|DATE	1984-04-22|1984-04-22|1984-04-22	22.0	1984-04-22	1984.0		
+57	3	fb:cell.amelia_island	Amelia Island	amelia|island	Amelia|Island	NNP|NNP	LOCATION|LOCATION	|				Amelia Island	fb:part.amelia_island
+57	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+57	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+57	6	fb:cell.anne_hobbs_mima_jausovec	Anne Hobbs\n Mima Jaušovec	anne|hobbs|mima|jaušovec	Anne|Hobbs|Mima|Jaušovec	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Anne Hobbs|Mima Jaušovec	fb:part.anne_hobbs|fb:part.mima_jausovec
+57	7	fb:cell.6_4_3_6_6_4	6–4, 3–6, 6–4	6|--|4|,|3|--|6|,|6|--|4	6|--|4|,|3|--|6|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||3.0||6.0||6.0||4.0	6.0		43.0	6–4|3–6|6–4	fb:part.6_4|fb:part.3_6|fb:part.6_4
+58	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+58	1	fb:cell.34	34.	34|.	34|.	CD|.	NUMBER|O	34.0|	34.0				
+58	2	fb:cell.7_july_1984	7 July 1984	7|july|1984	7|July|1984	CD|NNP|CD	DATE|DATE|DATE	1984-07-07|1984-07-07|1984-07-07	7.0	1984-07-07	1984.0		
+58	3	fb:cell.wimbledon	Wimbledon	wimbledon	Wimbledon	NNP	MISC					Wimbledon	fb:part.wimbledon
+58	4	fb:cell.grass	Grass	grass	grass	NN	O						
+58	5	fb:cell.kathy_jordan	Kathy Jordan	kathy|jordan	Kathy|Jordan	NNP|NNP	PERSON|PERSON	|					
+58	6	fb:cell.martina_navratilova_pam_shriver	Martina Navratilova\n Pam Shriver	martina|navratilova|pam|shriver	Martina|Navratilova|Pam|Shriver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Martina Navratilova|Pam Shriver	fb:part.martina_navratilova|fb:part.pam_shriver
+58	7	fb:cell.3_6_4_6	3–6, 4–6	3|--|6|,|4|--|6	3|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||4.0||6.0	3.0		64.0	3–6|4–6	fb:part.3_6|fb:part.4_6
+59	0	fb:cell.winner	Winner	winner	winner	NN	O						
+59	1	fb:cell.26	26.	26|.	26|.	CD|.	NUMBER|O	26.0|	26.0				
+59	2	fb:cell.31_march_1985	31 March 1985	31|march|1985	31|March|1985	CD|NNP|CD	DATE|DATE|DATE	1985-03-31|1985-03-31|1985-03-31	31.0	1985-03-31	1985.0		
+59	3	fb:cell.palm_beach_gardens	Palm Beach Gardens	palm|beach|gardens	Palm|Beach|Gardens	NNP|NNP|NNPS	LOCATION|LOCATION|LOCATION	||				Palm Beach Gardens	fb:part.palm_beach_gardens
+59	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+59	5	fb:cell.joanne_russell	Joanne Russell	joanne|russell	Joanne|Russell	NNP|NNP	PERSON|PERSON	|					
+59	6	fb:cell.laura_arraya_gabriela_sabatini	Laura Arraya\n Gabriela Sabatini	laura|arraya|gabriela|sabatini	Laura|Arraya|Gabriela|Sabatini	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Laura Arraya|Gabriela Sabatini	fb:part.laura_arraya|fb:part.gabriela_sabatini
+59	7	fb:cell.1_6_6_1_7_6_4	1–6, 6–1, 7–6(4)	1|--|6|,|6|--|1|,|7|--|6|-lrb-|4|-rrb-	1|--|6|,|6|--|1|,|7|--|6|-lrb-|4|-rrb-	CD|:|CD|,|CD|:|CD|,|CD|:|CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	1.0||6.0||6.0||1.0||7.0||6.0||4.0|	1.0		66.0	1–6|6–1|7–6(4)	fb:part.1_6|fb:part.6_1|fb:part.7_6_4
+60	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+60	1	fb:cell.35	35.	35|.	35|.	CD|.	NUMBER|O	35.0|	35.0				
+60	2	fb:cell.26_january_1986	26 January 1986	26|january|1986	26|January|1986	CD|NNP|CD	DATE|DATE|DATE	1986-01-26|1986-01-26|1986-01-26	26.0	1986-01-26	1986.0		
+60	3	fb:cell.wichita	Wichita	wichita	Wichita	NNP	LOCATION					Wichita	fb:part.wichita
+60	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+60	5	fb:cell.joanne_russell	Joanne Russell	joanne|russell	Joanne|Russell	NNP|NNP	PERSON|PERSON	|					
+60	6	fb:cell.kathy_jordan_candy_reynolds	Kathy Jordan\n Candy Reynolds	kathy|jordan|candy|reynolds	Kathy|Jordan|candy|Reynolds	NNP|NNP|NN|NNP	PERSON|PERSON|O|O	|||				Kathy Jordan|Candy Reynolds	fb:part.kathy_jordan|fb:part.candy_reynolds
+60	7	fb:cell.3_6_7_6_5_3_6	3–6, 7–6(5), 3–6	3|--|6|,|7|--|6|-lrb-|5|-rrb-|,|3|--|6	3|--|6|,|7|--|6|-lrb-|5|-rrb-|,|3|--|6	CD|:|CD|,|CD|:|CD|-LRB-|CD|-RRB-|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER	3.0||6.0||7.0||6.0||5.0|||3.0||6.0	3.0		67.0	3–6|7–6(5)|3–6	fb:part.3_6|fb:part.7_6_5|fb:part.3_6
+61	0	fb:cell.winner	Winner	winner	winner	NN	O						
+61	1	fb:cell.27	27.	27|.	27|.	CD|.	NUMBER|O	27.0|	27.0				
+61	2	fb:cell.9_march_1986	9 March 1986	9|march|1986	9|March|1986	CD|NNP|CD	DATE|DATE|DATE	1986-03-09|1986-03-09|1986-03-09	9.0	1986-03-09	1986.0		
+61	3	fb:cell.hershey	Hershey	hershey	Hershey	NNP	PERSON					Hershey	fb:part.hershey
+61	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+61	5	fb:cell.candy_reynolds	Candy Reynolds	candy|reynolds	candy|Reynolds	NN|NNP	O|O	|					
+61	6	fb:cell.sandy_collins_kim_sands	Sandy Collins\n Kim Sands	sandy|collins|kim|sands	Sandy|Collins|Kim|Sands	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Sandy Collins|Kim Sands	fb:part.sandy_collins|fb:part.kim_sands
+61	7	fb:cell.7_6_8_6_1	7–6(8), 6–1	7|--|6|-lrb-|8|-rrb-|,|6|--|1	7|--|6|-lrb-|8|-rrb-|,|6|--|1	CD|:|CD|-LRB-|CD|-RRB-|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER	7.0||6.0||8.0|||6.0||1.0	7.0		6.0	7–6(8)|6–1	fb:part.7_6_8|fb:part.6_1
+62	0	fb:cell.winner	Winner	winner	winner	NN	O						
+62	1	fb:cell.28	28.	28|.	28|.	CD|.	NUMBER|O	28.0|	28.0				
+62	2	fb:cell.5_october_1986	5 October 1986	5|october|1986	5|October|1986	CD|NNP|CD	DATE|DATE|DATE	1986-10-05|1986-10-05|1986-10-05	5.0	1986-10-05	1986.0		
+62	3	fb:cell.new_orleans	New Orleans	new|orleans	New|Orleans	NNP|NNP	LOCATION|LOCATION	|				New Orleans	fb:part.new_orleans
+62	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+62	5	fb:cell.candy_reynolds	Candy Reynolds	candy|reynolds	candy|Reynolds	NN|NNP	O|O	|					
+62	6	fb:cell.svetlana_parkhomenko_larisa_savchenko	Svetlana Parkhomenko\n Larisa Savchenko	svetlana|parkhomenko|larisa|savchenko	Svetlana|Parkhomenko|Larisa|Savchenko	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Svetlana Parkhomenko|Larisa Savchenko	fb:part.svetlana_parkhomenko|fb:part.larisa_savchenko
+62	7	fb:cell.6_3_3_6_6_3	6–3, 3–6, 6–3	6|--|3|,|3|--|6|,|6|--|3	6|--|3|,|3|--|6|,|6|--|3	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||3.0||6.0||6.0||3.0	6.0		33.0	6–3|3–6|6–3	fb:part.6_3|fb:part.3_6|fb:part.6_3
+63	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+63	1	fb:cell.36	36.	36|.	36|.	CD|.	NUMBER|O	36.0|	36.0				
+63	2	fb:cell.2_november_1986	2 November 1986	2|november|1986	2|November|1986	CD|NNP|CD	DATE|DATE|DATE	1986-11-02|1986-11-02|1986-11-02	2.0	1986-11-02	1986.0		
+63	3	fb:cell.indianapolis	Indianapolis	indianapolis	Indianapolis	NNP	LOCATION					Indianapolis	fb:part.indianapolis
+63	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+63	5	fb:cell.candy_reynolds	Candy Reynolds	candy|reynolds	candy|Reynolds	NN|NNP	O|O	|					
+63	6	fb:cell.zina_garrison_lori_mcneil	Zina Garrison\n Lori McNeil	zina|garrison|lori|mcneil	Zina|Garrison|Lori|McNeil	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Zina Garrison|Lori McNeil	fb:part.zina_garrison|fb:part.lori_mcneil
+63	7	fb:cell.5_4_ret	5–4 ret.	5|--|4|ret|.	5|--|4|ret|.	CD|:|CD|NN|.	NUMBER|O|NUMBER|O|O	5.0||4.0||	5.0		4.0	5–4 ret.	fb:part.5_4_ret
+64	0	fb:cell.winner	Winner	winner	winner	NN	O						
+64	1	fb:cell.29	29.	29|.	29|.	CD|.	NUMBER|O	29.0|	29.0				
+64	2	fb:cell.18_february_1990	18 February 1990	18|february|1990	18|February|1990	CD|NNP|CD	DATE|DATE|DATE	1990-02-18|1990-02-18|1990-02-18	18.0	1990-02-18	1990.0		
+64	3	fb:cell.chicago	Chicago	chicago	Chicago	NNP	LOCATION					Chicago	fb:part.chicago
+64	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+64	5	fb:cell.martina_navratilova	Martina Navratilova	martina|navratilova	Martina|Navratilova	NNP|NNP	PERSON|PERSON	|					
+64	6	fb:cell.arantxa_sanchez_vicario_nathalie_tauziat	Arantxa Sánchez Vicario\n Nathalie Tauziat	arantxa|sánchez|vicario|nathalie|tauziat	Arantxa|Sánchez|Vicario|Nathalie|Tauziat	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Arantxa Sánchez Vicario|Nathalie Tauziat	fb:part.arantxa_sanchez_vicario|fb:part.nathalie_tauziat
+64	7	fb:cell.6_7_9_6_4_6_3	6–7(9), 6–4, 6–3	6|--|7|-lrb-|9|-rrb-|,|6|--|4|,|6|--|3	6|--|7|-lrb-|9|-rrb-|,|6|--|4|,|6|--|3	CD|:|CD|-LRB-|CD|-RRB-|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||9.0|||6.0||4.0||6.0||3.0	6.0		7.0	6–7(9)|6–4|6–3	fb:part.6_7_9|fb:part.6_4|fb:part.6_3
+65	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+65	1	fb:cell.37	37.	37|.	37|.	CD|.	NUMBER|O	37.0|	37.0				
+65	2	fb:cell.22_july_1990	22 July 1990	22|july|1990	22|July|1990	CD|NNP|CD	DATE|DATE|DATE	1990-07-22|1990-07-22|1990-07-22	22.0	1990-07-22	1990.0		
+65	3	fb:cell.newport	Newport	newport	Newport	NNP	LOCATION					Newport	fb:part.newport
+65	4	fb:cell.grass	Grass	grass	grass	NN	O						
+65	5	fb:cell.patty_fendick	Patty Fendick	patty|fendick	Patty|Fendick	NNP|NNP	PERSON|PERSON	|					
+65	6	fb:cell.lise_gregory_gretchen_magers	Lise Gregory\n Gretchen Magers	lise|gregory|gretchen|magers	Lise|Gregory|Gretchen|Magers	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Lise Gregory|Gretchen Magers	fb:part.lise_gregory|fb:part.gretchen_magers
+65	7	fb:cell.6_7_7_1_6	6–7(7), 1–6	6|--|7|-lrb-|7|-rrb-|,|1|--|6	6|--|7|-lrb-|7|-rrb-|,|1|--|6	CD|:|CD|-LRB-|CD|-RRB-|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER	6.0||7.0||7.0|||1.0||6.0	6.0		7.0	6–7(7)|1–6	fb:part.6_7_7|fb:part.1_6
+66	0	fb:cell.winner	Winner	winner	winner	NN	O						
+66	1	fb:cell.30	30.	30|.	30|.	CD|.	NUMBER|O	30.0|	30.0				
+66	2	fb:cell.12_august_1990	12 August 1990	12|august|1990	12|August|1990	CD|NNP|CD	DATE|DATE|DATE	1990-08-12|1990-08-12|1990-08-12	12.0	1990-08-12	1990.0		
+66	3	fb:cell.albuquerque	Albuquerque	albuquerque	Albuquerque	NNP	LOCATION					Albuquerque	fb:part.albuquerque
+66	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+66	5	fb:cell.meredith_mcgrath	Meredith McGrath	meredith|mcgrath	Meredith|McGrath	NNP|NNP	PERSON|PERSON	|					
+66	6	fb:cell.mareen_louie_harper_wendy_white	Mareen Louie-Harper\n Wendy White	mareen|louie|harper|wendy|white	Mareen|Louie|Harper|Wendy|White	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Mareen Louie-Harper|Wendy White	fb:part.mareen_louie_harper|fb:part.wendy_white
+66	7	fb:cell.7_6_2_6_4	7–6(2), 6–4	7|--|6|-lrb-|2|-rrb-|,|6|--|4	7|--|6|-lrb-|2|-rrb-|,|6|--|4	CD|:|CD|-LRB-|CD|-RRB-|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER	7.0||6.0||2.0|||6.0||4.0	7.0		6.0	7–6(2)|6–4	fb:part.7_6_2|fb:part.6_4
+67	0	fb:cell.winner	Winner	winner	winner	NN	O						
+67	1	fb:cell.31	31.	31|.	31|.	CD|.	NUMBER|O	31.0|	31.0				
+67	2	fb:cell.4_november_1990	4 November 1990	4|november|1990	4|November|1990	CD|NNP|CD	DATE|DATE|DATE	1990-11-04|1990-11-04|1990-11-04	4.0	1990-11-04	1990.0		
+67	3	fb:cell.oakland	Oakland	oakland	Oakland	NNP	LOCATION					Oakland	fb:part.oakland
+67	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+67	5	fb:cell.meredith_mcgrath	Meredith McGrath	meredith|mcgrath	Meredith|McGrath	NNP|NNP	PERSON|PERSON	|					
+67	6	fb:cell.rosalyn_fairbank_robin_white	Rosalyn Fairbank\n Robin White	rosalyn|fairbank|robin|white	Rosalyn|Fairbank|Robin|White	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Rosalyn Fairbank|Robin White	fb:part.rosalyn_fairbank|fb:part.robin_white
+67	7	fb:cell.2_6_6_0_6_4	2–6, 6–0, 6–4	2|--|6|,|6|--|0|,|6|--|4	2|--|6|,|6|--|0|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	2.0||6.0||6.0||0.0||6.0||4.0	2.0		66.0	2–6|6–0|6–4	fb:part.2_6|fb:part.6_0|fb:part.6_4
+68	0	fb:cell.winner	Winner	winner	winner	NN	O						
+68	1	fb:cell.32	32.	32|.	32|.	CD|.	NUMBER|O	32.0|	32.0				
+68	2	fb:cell.24_february_1991	24 February 1991	24|february|1991	24|February|1991	CD|NNP|CD	DATE|DATE|DATE	1991-02-24|1991-02-24|1991-02-24	24.0	1991-02-24	1991.0		
+68	3	fb:cell.oklahoma_city	Oklahoma City	oklahoma|city	Oklahoma|City	NNP|NNP	LOCATION|LOCATION	|				Oklahoma City	fb:part.oklahoma_city
+68	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+68	5	fb:cell.meredith_mcgrath	Meredith McGrath	meredith|mcgrath	Meredith|McGrath	NNP|NNP	PERSON|PERSON	|					
+68	6	fb:cell.katrina_adams_jill_hetherington	Katrina Adams\n Jill Hetherington	katrina|adams|jill|hetherington	Katrina|Adams|Jill|Hetherington	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Katrina Adams|Jill Hetherington	fb:part.katrina_adams|fb:part.jill_hetherington
+68	7	fb:cell.6_2_6_4	6–2, 6–4	6|--|2|,|6|--|4	6|--|2|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||6.0||4.0	6.0		26.0	6–2|6–4	fb:part.6_2|fb:part.6_4

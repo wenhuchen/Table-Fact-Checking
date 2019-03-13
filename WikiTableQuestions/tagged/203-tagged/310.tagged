@@ -1,0 +1,53 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.tablet	Tablet	tablet	Tablet	NNP	O						
+-1	1	fb:row.row.genealogy	Genealogy	genealogy	Genealogy	NNP	O						
+-1	2	fb:row.row.narrative	Narrative	narrative	narrative	NN	O						
+-1	3	fb:row.row.colophon	Colophon	colophon	Colophon	NNP	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.creation_of_universe_1_1	Creation of Universe 1:1	creation|of|universe|1:1	creation|of|universe|1:1	NN|IN|NN|CD	O|O|O|NUMBER	|||	1.0		1.0	Creation of Universe 1:1	fb:part.creation_of_universe_1_1
+0	2	fb:cell.1_2_to_2_3	1:2 to 2:3	1:2|to|2:3	1:2|to|2:3	CD|TO|CD	NUMBER|O|NUMBER	||	1.0		2.0		
+0	3	fb:cell._this_is_the_account_of_the_heavens_and_of_the_earth_when_they_were_created_2_4	"This is the account of the heavens and of the earth when they were created." 2:4	``|this|is|the|account|of|the|heavens|and|of|the|earth|when|they|were|created|.|''|2:4	``|this|be|the|account|of|the|heaven|and|of|the|earth|when|they|be|create|.|''|2:4	``|DT|VBD-AUX|DT|NN|IN|DT|NNS|CC|IN|DT|NN|WRB|PRP|VBD-AUX|VBN|.|''|CD	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER	||||||||||||||||||				"This is the account of the heavens and of the earth when they were created." 2:4	fb:part._this_is_the_account_of_the_heavens_and_of_the_earth_when_they_were_created_2_4
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.heavens_and_earth_2_4	Heavens and Earth 2:4	heavens|and|earth|2:4	heaven|and|Earth|2:4	NNS|CC|NNP|CD	O|O|O|NUMBER	|||	2.0		4.0	Heavens and Earth 2:4	fb:part.heavens_and_earth_2_4
+1	2	fb:cell.2_5_to_4_26	2:5 to 4:26	2:5|to|4:26	2:5|to|4:26	CD|TO|CD	NUMBER|O|TIME	||T04:26	2.0		5.0		
+1	3	fb:cell._this_is_the_written_account_of_adam_5_1	"This is the written account of Adam." 5:1	``|this|is|the|written|account|of|adam|.|''|5:1	``|this|be|the|write|account|of|Adam|.|''|5:1	``|DT|VBD-AUX|DT|VBN|NN|IN|NNP|.|''|NN	O|O|O|O|O|O|O|PERSON|O|O|O	||||||||||				"This is the written account of Adam." 5:1	fb:part._this_is_the_written_account_of_adam_5_1
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.adam_to_noah_5_1_32	Adam to Noah 5:1 - 32	adam|to|noah|5:1|-|32	Adam|to|Noah|5:1|-|32	NNP|TO|NNP|CD|:|CD	PERSON|O|PERSON|NUMBER|O|DATE	|||||32	5.0		1.0	Adam to Noah 5:1 - 32	fb:part.adam_to_noah_5_1_32
+2	2	fb:cell.6_1_8	6:1 - 8	6:1|-|8	6:1|-|8	SYM|:|CD	O|O|DATE	||******08	6.0		1.0		
+2	3	fb:cell._this_is_the_account_of_noah_6_9	"This is the account of Noah." 6:9	``|this|is|the|account|of|noah|.|''|6:9	``|this|be|the|account|of|Noah|.|''|6:9	``|DT|VBD-AUX|DT|NN|IN|NNP|.|''|CD	O|O|O|O|O|O|PERSON|O|O|NUMBER	|||||||||				"This is the account of Noah." 6:9	fb:part._this_is_the_account_of_noah_6_9
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.noah_to_shem_ham_and_japeth_6_9_10	Noah to Shem, Ham, and Japeth 6:9 - 10	noah|to|shem|,|ham|,|and|japeth|6:9|-|10	Noah|to|Shem|,|Ham|,|and|Japeth|6:9|-|10	NNP|TO|NNP|,|NNP|,|CC|NNP|CD|:|CD	PERSON|O|O|O|PERSON|O|O|O|NUMBER|O|DATE	||||||||||******10	6.0		9.0	Noah to Shem|Ham|and Japeth 6:9 - 10	fb:part.noah_to_shem|fb:part.ham|fb:part.and_japeth_6_9_10
+3	2	fb:cell.6_11_to_9_29	6:11 to 9:29	6:11|to|9:29	6:11|to|9:29	CD|TO|CD	TIME|O|TIME	T06:11||T09:29	6.0		11.0		
+3	3	fb:cell._this_is_the_account_of_shem_ham_and_japheth_noah_s_sons_10_1	"This is the account of Shem, Ham, and Japheth, Noah's sons." 10:1	``|this|is|the|account|of|shem|,|ham|,|and|japheth|,|noah|'s|sons|.|''|10:1	``|this|be|the|account|of|Shem|,|Ham|,|and|Japheth|,|Noah|'s|son|.|''|10:1	``|DT|VBD-AUX|DT|NN|IN|NNP|,|NNP|,|CC|NNP|,|NNP|POS|NNS|.|''|CD	O|O|O|O|O|O|O|O|ORGANIZATION|O|O|PERSON|O|PERSON|O|O|O|O|NUMBER	||||||||||||||||||				"This is the account of Shem|Ham|and Japheth|Noah's sons." 10:1	fb:part._this_is_the_account_of_shem|fb:part.ham|fb:part.and_japheth|fb:part.noah_s_sons_10_1
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.descendants_of_shem_ham_and_japeth_10_1_32	Descendants of Shem, Ham, and Japeth 10:1 - 32	descendants|of|shem|,|ham|,|and|japeth|10:1|-|32	descendant|of|Shem|,|Ham|,|and|Japeth|10:1|-|32	NNS|IN|NNP|,|NNP|,|CC|NNP|CD|:|CD	O|O|O|O|PERSON|O|O|O|NUMBER|O|DATE	||||||||||32	10.0		1.0	Descendants of Shem|Ham|and Japeth 10:1 - 32	fb:part.descendants_of_shem|fb:part.ham|fb:part.and_japeth_10_1_32
+4	2	fb:cell.11_1_9	11:1 - 9	11:1|-|9	11:1|-|9	SYM|:|CD	O|O|DATE	||******09	11.0		1.0		
+4	3	fb:cell._this_is_the_account_of_shem_11_10	"This is the account of Shem." 11:10	``|this|is|the|account|of|shem|.|''|11:10	``|this|be|the|account|of|Shem|.|''|11:10	``|DT|VBD-AUX|DT|NN|IN|NNP|.|''|CD	O|O|O|O|O|O|O|O|O|TIME	|||||||||T11:10				"This is the account of Shem." 11:10	fb:part._this_is_the_account_of_shem_11_10
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.shem_to_terah_11_10_26	Shem to Terah 11:10 - 26	shem|to|terah|11:10|-|26	Shem|to|Terah|11:10|-|26	NNP|TO|NNP|CD|:|CD	PERSON|O|O|TIME|O|DATE	|||T11:10||******26	11.0		10.0	Shem to Terah 11:10 - 26	fb:part.shem_to_terah_11_10_26
+5	2	fb:cell.no_narrative	no narrative	no|narrative	no|narrative	DT|NN	O|O	|					
+5	3	fb:cell._this_is_the_account_of_terah_11_27	"This is the account of Terah." 11:27	``|this|is|the|account|of|terah|.|''|11:27	``|this|be|the|account|of|Terah|.|''|11:27	``|DT|VBD-AUX|DT|NN|IN|NNP|.|''|CD	O|O|O|O|O|O|LOCATION|O|O|TIME	|||||||||T11:27				"This is the account of Terah." 11:27	fb:part._this_is_the_account_of_terah_11_27
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.terah_to_abraham_11_27	Terah to Abraham 11:27	terah|to|abraham|11:27	Terah|to|Abraham|11:27	NNP|TO|NNP|CD	O|O|PERSON|TIME	|||T11:27	11.0		27.0	Terah to Abraham 11:27	fb:part.terah_to_abraham_11_27
+6	2	fb:cell.11_28_to_25_11	11:28 to 25:11	11:28|to|25:11	11:28|to|25:11	CD|TO|CD	TIME|O|NUMBER	T11:28||	11.0		28.0		
+6	3	fb:cell._this_is_the_account_of_abraham_s_son_ishmael_25_12_eldest_son	"This is the account of Abraham's son Ishmael." 25:12 (eldest son)	``|this|is|the|account|of|abraham|'s|son|ishmael|.|''|25:12|-lrb-|eldest|son|-rrb-	``|this|be|the|account|of|Abraham|'s|son|Ishmael|.|''|25:12|-lrb-|eldest|son|-rrb-	``|DT|VBD-AUX|DT|NN|IN|NNP|POS|NN|NNP|.|''|NN|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O|PERSON|O|O|PERSON|O|O|O|O|O|O|O	||||||||||||||||				"This is the account of Abraham's son Ishmael." 25:12 (eldest son)	fb:part._this_is_the_account_of_abraham_s_son_ishmael_25_12_eldest_son
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.descendants_of_ishmael_25_13_18	Descendants of Ishmael 25:13 - 18	descendants|of|ishmael|25:13|-|18	descendant|of|Ishmael|25:13|-|18	NNS|IN|NNP|CD|:|CD	O|O|O|NUMBER|O|DATE	|||||******18	25.0		13.0	Descendants of Ishmael 25:13 - 18	fb:part.descendants_of_ishmael_25_13_18
+7	2	fb:cell.no_narrative	no narrative	no|narrative	no|narrative	DT|NN	O|O	|					
+7	3	fb:cell._this_is_the_account_of_abraham_s_son_isaac_25_19	"This is the account of Abraham's son Isaac." 25:19	``|this|is|the|account|of|abraham|'s|son|isaac|.|''|25:19	``|this|be|the|account|of|Abraham|'s|son|Isaac|.|''|25:19	``|DT|VBD-AUX|DT|NN|IN|NNP|POS|NN|NNP|.|''|CD	O|O|O|O|O|O|PERSON|O|O|PERSON|O|O|NUMBER	||||||||||||				"This is the account of Abraham's son Isaac." 25:19	fb:part._this_is_the_account_of_abraham_s_son_isaac_25_19
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.abraham_to_isaac_25_19	Abraham to Isaac 25:19	abraham|to|isaac|25:19	Abraham|to|Isaac|25:19	NNP|TO|NNP|CD	PERSON|O|PERSON|NUMBER	|||	25.0		19.0	Abraham to Isaac 25:19	fb:part.abraham_to_isaac_25_19
+8	2	fb:cell.25_20_to_35_29	25:20 to 35:29	25:20|to|35:29	25:20|to|35:29	CD|TO|CD	NUMBER|O|NUMBER	||	25.0		20.0		
+8	3	fb:cell._this_is_the_account_of_esau_36_1_eldest_son	"This is the account of Esau." 36:1 (eldest son)	``|this|is|the|account|of|esau|.|''|36:1|-lrb-|eldest|son|-rrb-	``|this|be|the|account|of|Esau|.|''|36:1|-lrb-|eldest|son|-rrb-	``|DT|VBD-AUX|DT|NN|IN|NNP|.|''|NN|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O|PERSON|O|O|O|O|O|O|O	|||||||||||||				"This is the account of Esau." 36:1 (eldest son)	fb:part._this_is_the_account_of_esau_36_1_eldest_son
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.descendants_of_esau_36_2_5	Descendants of Esau 36:2 - 5	descendants|of|esau|36:2|-|5	descendant|of|Esau|36:2|-|5	NNS|IN|NNP|CD|:|CD	O|O|PERSON|NUMBER|O|DATE	|||||******05	36.0		2.0	Descendants of Esau 36:2 - 5	fb:part.descendants_of_esau_36_2_5
+9	2	fb:cell.36_6_8	36:6 - 8	36:6|-|8	36:6|-|8	SYM|:|CD	O|O|DATE	||******08	36.0		6.0		
+9	3	fb:cell._this_is_the_account_of_esau_36_9	"This is the account of Esau." 36:9	``|this|is|the|account|of|esau|.|''|36:9	``|this|be|the|account|of|Esau|.|''|36:9	``|DT|VBD-AUX|DT|NN|IN|NNP|.|''|CD	O|O|O|O|O|O|PERSON|O|O|NUMBER	|||||||||				"This is the account of Esau." 36:9	fb:part._this_is_the_account_of_esau_36_9
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.descendants_of_esau_36_10_to_37_1	Descendants of Esau 36:10 to 37:1	descendants|of|esau|36:10|to|37:1	descendant|of|Esau|36:10|to|37:1	NNS|IN|NNP|CD|TO|CD	O|O|PERSON|NUMBER|O|NUMBER	|||||	36.0		10.0	Descendants of Esau 36:10 to 37:1	fb:part.descendants_of_esau_36_10_to_37_1
+10	2	fb:cell.no_narrative	no narrative	no|narrative	no|narrative	DT|NN	O|O	|					
+10	3	fb:cell._this_is_the_account_of_jacob_37_2	"This is the account of Jacob." 37:2	``|this|is|the|account|of|jacob|.|''|37:2	``|this|be|the|account|of|Jacob|.|''|37:2	``|DT|VBD-AUX|DT|NN|IN|NNP|.|''|CD	O|O|O|O|O|O|PERSON|O|O|NUMBER	|||||||||				"This is the account of Jacob." 37:2	fb:part._this_is_the_account_of_jacob_37_2
+11	0	fb:cell.null											
+11	1	fb:cell.no_genealogy	no genealogy	no|genealogy	no|genealogy	DT|NN	O|O	|				no genealogy	fb:part.no_genealogy
+11	2	fb:cell.37_2_to_50_26	37:2 to 50:26	37:2|to|50:26	37:2|to|50:26	CD|TO|CD	NUMBER|O|NUMBER	||	37.0		2.0		
+11	3	fb:cell.no_colophon	no colophon	no|colophon	no|colophon	DT|NN	O|O	|				no colophon	fb:part.no_colophon

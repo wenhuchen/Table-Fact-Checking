@@ -1,0 +1,92 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	2	fb:row.row.rank	Rank#	rank|#	Rank|#	NNP|#	O|O	|					
+-1	3	fb:row.row.site	Site	site	site	NN	O						
+-1	4	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	5	fb:row.row.result	Result	result	result	NN	O						
+-1	6	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.september_18	September 18	september|18	September|18	NNP|CD	DATE|DATE	XXXX-09-18|XXXX-09-18	18.0	xxxx-09-18			
+0	1	fb:cell.smu	SMU*	smu|\\*	SMU|\\*	NNP|SYM	O|O	|					
+0	2	fb:cell._10	#10	#|10	#|10	#|CD	MONEY|MONEY	£10.0|£10.0	10.0				
+0	3	fb:cell.oklahoma_memorial_stadium_norman_ok	Oklahoma Memorial Stadium • Norman, OK	oklahoma|memorial|stadium|•|norman|,|ok	Oklahoma|Memorial|Stadium|•|Norman|,|ok	NNP|NNP|NNP|NNP|NNP|,|UH	LOCATION|O|O|O|PERSON|O|O	||||||				Oklahoma Memorial Stadium • Norman|OK	fb:part.oklahoma_memorial_stadium_norman|fb:part.ok
+0	4	fb:cell.null											
+0	5	fb:cell.w_30_0	W 30–0	w|30|--|0	W|30|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|30.0||0.0	30.0		0.0		
+0	6	fb:cell.53_545	53,545	53,545	53,545	CD	NUMBER	53545.0	53545.0				
+1	0	fb:cell.september_25	September 25	september|25	September|25	NNP|CD	DATE|DATE	XXXX-09-25|XXXX-09-25	25.0	xxxx-09-25			
+1	1	fb:cell.at_pittsburgh	at Pittsburgh*	at|pittsburgh|\\*	at|Pittsburgh|\\*	IN|NNP|SYM	O|LOCATION|O	||					
+1	2	fb:cell._11	#11	#|11	#|11	#|CD	MONEY|MONEY	£11.0|£11.0	11.0				
+1	3	fb:cell.pitt_stadium_pittsburgh_pa	Pitt Stadium • Pittsburgh, PA	pitt|stadium|•|pittsburgh|,|pa	Pitt|Stadium|•|Pittsburgh|,|pa	NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|LOCATION|O|LOCATION	|||||				Pitt Stadium • Pittsburgh|PA	fb:part.pitt_stadium_pittsburgh|fb:part.pa
+1	4	fb:cell.null											
+1	5	fb:cell.w_55_29	W 55–29	w|55|--|29	W|55|--|29	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|55.0||29.0	55.0		29.0		
+1	6	fb:cell.34_916	34,916	34,916	34,916	CD	NUMBER	34916.0	34916.0				
+2	0	fb:cell.october_2	October 2	october|2	October|2	NNP|CD	DATE|DATE	XXXX-10-02|XXXX-10-02	2.0	xxxx-10-02			
+2	1	fb:cell._17_usc	#17 USC*	#|17|usc|\\*	#|17|USC|\\*	#|CD|NNP|SYM	MONEY|MONEY|ORGANIZATION|O	£17.0|£17.0||	17.0				
+2	2	fb:cell._8	#8	#|8	#|8	#|CD	MONEY|MONEY	£8.0|£8.0	8.0				
+2	3	fb:cell.oklahoma_memorial_stadium_norman_ok	Oklahoma Memorial Stadium • Norman, OK	oklahoma|memorial|stadium|•|norman|,|ok	Oklahoma|Memorial|Stadium|•|Norman|,|ok	NNP|NNP|NNP|NNP|NNP|,|UH	LOCATION|O|O|O|PERSON|O|O	||||||				Oklahoma Memorial Stadium • Norman|OK	fb:part.oklahoma_memorial_stadium_norman|fb:part.ok
+2	4	fb:cell.null											
+2	5	fb:cell.w_33_20	W 33–20	w|33|--|20	W|33|--|20	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|33.0||20.0	33.0		20.0		
+2	6	fb:cell.62_351	62,351	62,351	62,351	CD	NUMBER	62351.0	62351.0				
+3	0	fb:cell.october_9	October 9	october|9	October|9	NNP|CD	DATE|DATE	XXXX-10-09|XXXX-10-09	9.0	xxxx-10-09			
+3	1	fb:cell.vs_3_texas	vs. #3 Texas*	vs.|#|3|texas|\\*	vs.|#|3|Texas|\\*	CC|#|CD|NNP|SYM	O|MONEY|MONEY|LOCATION|O	|£3.0|£3.0||					
+3	2	fb:cell._8	#8	#|8	#|8	#|CD	MONEY|MONEY	£8.0|£8.0	8.0				
+3	3	fb:cell.cotton_bowl_dallas_tx_red_river_shootout	Cotton Bowl • Dallas, TX (Red River Shootout)	cotton|bowl|•|dallas|,|tx|-lrb-|red|river|shootout|-rrb-	Cotton|Bowl|•|Dallas|,|TX|-lrb-|Red|River|Shootout|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|-RRB-	O|O|O|LOCATION|O|LOCATION|O|O|O|O|O	||||||||||				Cotton Bowl • Dallas|TX (Red River Shootout)	fb:part.cotton_bowl_dallas|fb:part.tx_red_river_shootout
+3	4	fb:cell.cbs	CBS	cbs	CBS	NNP	O						
+3	5	fb:cell.w_48_27	W 48–27	w|48|--|27	W|48|--|27	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|48.0||27.0	48.0		27.0		
+3	6	fb:cell.72_032	72,032	72,032	72,032	CD	NUMBER	72032.0	72032.0				
+4	0	fb:cell.october_16	October 16	october|16	October|16	NNP|CD	DATE|DATE	XXXX-10-16|XXXX-10-16	16.0	xxxx-10-16			
+4	1	fb:cell._6_colorado	#6 Colorado	#|6|colorado	#|6|Colorado	#|CD|NNP	MONEY|MONEY|LOCATION	£6.0|£6.0|	6.0				
+4	2	fb:cell._2	#2	#|2	#|2	#|CD	MONEY|MONEY	£2.0|£2.0	2.0				
+4	3	fb:cell.oklahoma_memorial_stadium_norman_ok	Oklahoma Memorial Stadium • Norman, OK	oklahoma|memorial|stadium|•|norman|,|ok	Oklahoma|Memorial|Stadium|•|Norman|,|ok	NNP|NNP|NNP|NNP|NNP|,|UH	LOCATION|O|O|O|PERSON|O|O	||||||				Oklahoma Memorial Stadium • Norman|OK	fb:part.oklahoma_memorial_stadium_norman|fb:part.ok
+4	4	fb:cell.null											
+4	5	fb:cell.w_45_17	W 45–17	w|45|--|17	W|45|--|17	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|45.0||17.0	45.0		17.0		
+4	6	fb:cell.62_501	62,501	62,501	62,501	CD	NUMBER	62501.0	62501.0				
+5	0	fb:cell.october_23	October 23	october|23	October|23	NNP|CD	DATE|DATE	XXXX-10-23|XXXX-10-23	23.0	xxxx-10-23			
+5	1	fb:cell.at_kansas_state	at Kansas State	at|kansas|state	at|Kansas|State	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+5	2	fb:cell._2	#2	#|2	#|2	#|CD	MONEY|MONEY	£2.0|£2.0	2.0				
+5	3	fb:cell.ksu_stadium_manhattan_ks	KSU Stadium • Manhattan, KS	ksu|stadium|•|manhattan|,|ks	KSU|Stadium|•|Manhattan|,|k	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|O	|||||				KSU Stadium • Manhattan|KS	fb:part.ksu_stadium_manhattan|fb:part.ks
+5	4	fb:cell.null											
+5	5	fb:cell.w_75_28	W 75–28	w|75|--|28	W|75|--|28	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|75.0||28.0	75.0		28.0		
+5	6	fb:cell.37_198	37,198	37,198	37,198	CD	NUMBER	37198.0	37198.0				
+6	0	fb:cell.october_30	October 30	october|30	October|30	NNP|CD	DATE|DATE	XXXX-10-30|XXXX-10-30	30.0	xxxx-10-30			
+6	1	fb:cell.iowa_state	Iowa State	iowa|state	Iowa|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	2	fb:cell._2	#2	#|2	#|2	#|CD	MONEY|MONEY	£2.0|£2.0	2.0				
+6	3	fb:cell.oklahoma_memorial_stadium_norman_ok	Oklahoma Memorial Stadium • Norman, OK	oklahoma|memorial|stadium|•|norman|,|ok	Oklahoma|Memorial|Stadium|•|Norman|,|ok	NNP|NNP|NNP|NNP|NNP|,|UH	LOCATION|O|O|O|PERSON|O|O	||||||				Oklahoma Memorial Stadium • Norman|OK	fb:part.oklahoma_memorial_stadium_norman|fb:part.ok
+6	4	fb:cell.null											
+6	5	fb:cell.w_39_7	W 39–7	w|39|--|7	W|39|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|39.0||7.0	39.0		7.0		
+6	6	fb:cell.60_477	60,477	60,477	60,477	CD	NUMBER	60477.0	60477.0				
+7	0	fb:cell.november_6	November 6	november|6	November|6	NNP|CD	DATE|DATE	XXXX-11-06|XXXX-11-06	6.0	xxxx-11-06			
+7	1	fb:cell.at_missouri	at Missouri	at|missouri	at|Missouri	IN|NNP	O|LOCATION	|					
+7	2	fb:cell._2	#2	#|2	#|2	#|CD	MONEY|MONEY	£2.0|£2.0	2.0				
+7	3	fb:cell.memorial_stadium_columbia_mo	Memorial Stadium • Columbia, MO	memorial|stadium|•|columbia|,|mo	Memorial|Stadium|•|Columbia|,|MO	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Memorial Stadium • Columbia|MO	fb:part.memorial_stadium_columbia|fb:part.mo
+7	4	fb:cell.null											
+7	5	fb:cell.w_20_3	W 20–3	w|20|--|3	W|20|--|3	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|20.0||3.0	20.0		3.0		
+7	6	fb:cell.55_098	55,098	55,098	55,098	CD	NUMBER	55098.0	55098.0				
+8	0	fb:cell.november_13	November 13	november|13	November|13	NNP|CD	DATE|DATE	XXXX-11-13|XXXX-11-13	13.0	xxxx-11-13			
+8	1	fb:cell.kansas	Kansas	kansas	Kansas	NNP	LOCATION						
+8	2	fb:cell._2	#2	#|2	#|2	#|CD	MONEY|MONEY	£2.0|£2.0	2.0				
+8	3	fb:cell.oklahoma_memorial_stadium_norman_ok	Oklahoma Memorial Stadium • Norman, OK	oklahoma|memorial|stadium|•|norman|,|ok	Oklahoma|Memorial|Stadium|•|Norman|,|ok	NNP|NNP|NNP|NNP|NNP|,|UH	LOCATION|O|O|O|PERSON|O|O	||||||				Oklahoma Memorial Stadium • Norman|OK	fb:part.oklahoma_memorial_stadium_norman|fb:part.ok
+8	4	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION						
+8	5	fb:cell.w_56_10	W 56–10	w|56|--|10	W|56|--|10	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|56.0||10.0	56.0		10.0		
+8	6	fb:cell.54_347	54,347	54,347	54,347	CD	NUMBER	54347.0	54347.0				
+9	0	fb:cell.november_25	November 25	november|25	November|25	NNP|CD	DATE|DATE	XXXX-11-25|XXXX-11-25	25.0	xxxx-11-25			
+9	1	fb:cell._1_nebraska	#1 Nebraska	#|1|nebraska	#|1|Nebraska	#|CD|NNP	MONEY|MONEY|LOCATION	£1.0|£1.0|	1.0				
+9	2	fb:cell._2	#2	#|2	#|2	#|CD	MONEY|MONEY	£2.0|£2.0	2.0				
+9	3	fb:cell.oklahoma_memorial_stadium_norman_ok_rivalry	Oklahoma Memorial Stadium • Norman, OK (Rivalry)	oklahoma|memorial|stadium|•|norman|,|ok|-lrb-|rivalry|-rrb-	Oklahoma|Memorial|Stadium|•|Norman|,|ok|-lrb-|rivalry|-rrb-	NNP|NNP|NNP|NNP|NNP|,|JJ|-LRB-|NN|-RRB-	LOCATION|O|O|O|PERSON|O|O|O|O|O	|||||||||				Oklahoma Memorial Stadium • Norman|OK (Rivalry)	fb:part.oklahoma_memorial_stadium_norman|fb:part.ok_rivalry
+9	4	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION						
+9	5	fb:cell.l_31_35	L 31–35	l|31|--|35	l|31|--|35	NN|CD|:|CD	O|NUMBER|O|NUMBER	|31.0||35.0	31.0		35.0		
+9	6	fb:cell.62_884	62,884	62,884	62,884	CD	NUMBER	62884.0	62884.0				
+10	0	fb:cell.december_4	December 4	december|4	December|4	NNP|CD	DATE|DATE	XXXX-12-04|XXXX-12-04	4.0	xxxx-12-04			
+10	1	fb:cell.at_oklahoma_state	at Oklahoma State	at|oklahoma|state	at|Oklahoma|State	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+10	2	fb:cell._3	#3	#|3	#|3	#|CD	MONEY|MONEY	£3.0|£3.0	3.0				
+10	3	fb:cell.lewis_field_stillwater_ok_bedlam_series	Lewis Field • Stillwater, OK (Bedlam Series)	lewis|field|•|stillwater|,|ok|-lrb-|bedlam|series|-rrb-	Lewis|Field|•|Stillwater|,|ok|-lrb-|Bedlam|Series|-rrb-	NNP|NNP|NNP|NNP|,|JJ|-LRB-|NNP|NNP|-RRB-	PERSON|O|O|LOCATION|O|O|O|O|O|O	|||||||||				Lewis Field • Stillwater|OK (Bedlam Series)	fb:part.lewis_field_stillwater|fb:part.ok_bedlam_series
+10	4	fb:cell.null											
+10	5	fb:cell.w_58_14	W 58–14	w|58|--|14	W|58|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|58.0||14.0	58.0		14.0		
+10	6	fb:cell.36_571	36,571	36,571	36,571	CD	NUMBER	36571.0	36571.0				
+11	0	fb:cell.january_1	January 1	january|1	January|1	NNP|CD	DATE|DATE	XXXX-01-01|XXXX-01-01	1.0	xxxx-01-01			
+11	1	fb:cell.vs_5_auburn	vs. #5 Auburn*	vs.|#|5|auburn|\\*	vs.|#|5|Auburn|\\*	CC|#|CD|NNP|SYM	O|MONEY|MONEY|ORGANIZATION|O	|£5.0|£5.0||					
+11	2	fb:cell._3	#3	#|3	#|3	#|CD	MONEY|MONEY	£3.0|£3.0	3.0				
+11	3	fb:cell.tulane_stadium_new_orleans_la_sugar_bowl	Tulane Stadium • New Orleans, LA (Sugar Bowl)	tulane|stadium|•|new|orleans|,|la|-lrb-|sugar|bowl|-rrb-	Tulane|Stadium|•|New|Orleans|,|LA|-lrb-|Sugar|Bowl|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|LOCATION|LOCATION|O|LOCATION|O|O|O|O	||||||||||				Tulane Stadium • New Orleans|LA (Sugar Bowl)	fb:part.tulane_stadium_new_orleans|fb:part.la_sugar_bowl
+11	4	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION						
+11	5	fb:cell.w_40_22	W 40–22	w|40|--|22	W|40|--|22	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|40.0||22.0	40.0		22.0		
+11	6	fb:cell.84_031	84,031	84,031	84,031	CD	NUMBER	84031.0	84031.0				

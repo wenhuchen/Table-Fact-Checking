@@ -1,0 +1,41 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.term_french	Term (French)	term|-lrb-|french|-rrb-	term|-lrb-|french|-rrb-	NN|-LRB-|JJ|-RRB-	O|O|MISC|O	|||					
+-1	1	fb:row.row.description	Description	description	description	NN	O						
+-1	2	fb:row.row.temperature_range	Temperature range	temperature|range	temperature|range	NN|NN	O|O	|					
+-1	3	fb:row.row.temperature_range_2	Temperature range	temperature|range	temperature|range	NN|NN	O|O	|					
+-1	4	fb:row.row.usda_recommended	USDA recommended	usda|recommended	USDA|recommend	NNP|VBD	ORGANIZATION|O	|					
+0	0	fb:cell.extra_rare_or_blue_bleu	Extra-rare or Blue (bleu)	extra|rare|or|blue|-lrb-|bleu|-rrb-	Extra|rare|or|blue|-lrb-|bleu|-rrb-	NNP|JJ|CC|JJ|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||				Extra-rare or Blue (bleu)	fb:part.extra_rare_or_blue_bleu
+0	1	fb:cell.very_red_and_cold	very red and cold	very|red|and|cold	very|red|and|cold	RB|JJ|CC|JJ	O|O|O|O	|||					
+0	2	fb:cell.46_49_c	46–49 °C	46|--|49|°|c	46|--|49|°|c	CD|:|CD|NN|NN	NUMBER|O|NUMBER|O|O	46.0||49.0||	46.0		49.0		
+0	3	fb:cell.115_120_f	115–120 °F	115|--|120|°|f	115|--|120|°|f	CD|:|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|O	115.0||120.0|120.0|	115.0		120.0		
+0	4	fb:cell.null											
+1	0	fb:cell.rare_saignant	Rare (saignant)	rare|-lrb-|saignant|-rrb-	rare|-lrb-|saignant|-rrb-	JJ|-LRB-|JJ|-RRB-	O|O|O|O	|||				Rare (saignant)	fb:part.rare_saignant
+1	1	fb:cell.cold_red_center_soft	cold red center; soft	cold|red|center|;|soft	cold|red|center|;|soft	JJ|JJ|NN|:|JJ	O|O|O|O|O	||||					
+1	2	fb:cell.52_55_c	52–55 °C	52|--|55|°|c	52|--|55|°|c	CD|:|CD|NN|NN	NUMBER|O|NUMBER|O|O	52.0||55.0||	52.0		55.0		
+1	3	fb:cell.125_130_f	125–130 °F	125|--|130|°|f	125|--|130|°|f	CD|:|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|O	125.0||130.0|130.0|	125.0		130.0		
+1	4	fb:cell.null											
+2	0	fb:cell.medium_rare_a_point	Medium rare (à point)	medium|rare|-lrb-|à|point|-rrb-	medium|rare|-lrb-|à|point|-rrb-	NN|JJ|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O	|||||				Medium rare (à point)	fb:part.medium_rare_a_point
+2	1	fb:cell.warm_red_center_firmer	warm red center; firmer	warm|red|center|;|firmer	warm|red|center|;|firmer	JJ|JJ|NN|:|JJR	O|O|O|O|O	||||					
+2	2	fb:cell.55_60_c	55–60 °C	55|--|60|°|c	55|--|60|°|c	CD|:|CD|NN|NN	NUMBER|O|NUMBER|O|O	55.0||60.0||	55.0		60.0		
+2	3	fb:cell.130_140_f	130–140 °F	130|--|140|°|f	130|--|140|°|f	CD|:|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|O	130.0||140.0|140.0|	130.0		140.0		
+2	4	fb:cell.145_f	145 °F	145|°|f	145|°|f	CD|CD|NN	NUMBER|NUMBER|O	145.0|145.0|	145.0				
+3	0	fb:cell.medium_demi_anglais	Medium (demi-anglais)	medium|-lrb-|demi|anglais|-rrb-	medium|-lrb-|demus|anglai|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||				Medium (demi-anglais)	fb:part.medium_demi_anglais
+3	1	fb:cell.pink_and_firm	pink and firm	pink|and|firm	pink|and|firm	NN|CC|NN	O|O|O	||					
+3	2	fb:cell.60_65_c	60–65 °C	60|--|65|°|c	60|--|65|°|c	CD|:|CD|NN|NN	NUMBER|O|NUMBER|O|O	60.0||65.0||	60.0		65.0		
+3	3	fb:cell.140_150_f	140–150 °F	140|--|150|°|f	140|--|150|°|f	CD|:|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|O	140.0||150.0|150.0|	140.0		150.0		
+3	4	fb:cell.160_f	160 °F	160|°|f	160|°|f	CD|CD|NN	NUMBER|NUMBER|O	160.0|160.0|	160.0				
+4	0	fb:cell.medium_well_cuit	Medium well (cuit)	medium|well|-lrb-|cuit|-rrb-	medium|well|-lrb-|cuit|-rrb-	NN|RB|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Medium well (cuit)	fb:part.medium_well_cuit
+4	1	fb:cell.small_amount_of_pink_in_the_center	small amount of pink in the center	small|amount|of|pink|in|the|center	small|amount|of|pink|in|the|center	JJ|NN|IN|NN|IN|DT|NN	O|O|O|O|O|O|O	||||||					
+4	2	fb:cell.65_69_c	65–69 °C	65|--|69|°|c	65|--|69|°|c	CD|:|CD|NN|NN	NUMBER|O|NUMBER|O|O	65.0||69.0||	65.0		69.0		
+4	3	fb:cell.150_155_f	150–155 °F	150|--|155|°|f	150|--|155|°|f	CD|:|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|O	150.0||155.0|155.0|	150.0		155.0		
+4	4	fb:cell.null											
+5	0	fb:cell.well_done_bien_cuit	Well done (bien cuit)	well|done|-lrb-|bien|cuit|-rrb-	well|do|-lrb-|bien|cuit|-rrb-	RB|VBN|-LRB-|FW|FW|-RRB-	O|O|O|O|O|O	|||||				Well done (bien cuit)	fb:part.well_done_bien_cuit
+5	1	fb:cell.gray_brown_throughout_firm	gray-brown throughout; firm	gray|brown|throughout|;|firm	gray|brown|throughout|;|firm	JJ|JJ|IN|:|NN	O|O|O|O|O	||||					
+5	2	fb:cell.71_100_c	71–100 °C	71|--|100|°|c	71|--|100|°|c	CD|:|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|O	71.0||100.0|100.0|	71.0		100.0		
+5	3	fb:cell.160_212_f	160–212 °F	160|--|212|°|f	160|--|212|°|f	CD|:|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|O	160.0||212.0|212.0|	160.0		212.0		
+5	4	fb:cell.170_f	170 °F	170|°|f	170|°|f	CD|CD|NN	NUMBER|NUMBER|O	170.0|170.0|	170.0				
+6	0	fb:cell.over_cooked_trop_cuit_carbonise	Over cooked (trop cuit, carbonisé")'	over|cooked|-lrb-|trop|cuit|,|carbonisé|''|-rrb-|'	over|cook|-lrb-|trop|cuit|,|carbonisé|''|-rrb-|'	IN|VBN|-LRB-|FW|FW|,|NN|''|-RRB-|''	O|O|O|O|O|O|O|O|O|O	|||||||||				Over cooked (trop cuit|carbonisé")'	fb:part.over_cooked_trop_cuit|fb:part.carbonise
+6	1	fb:cell.blacken_throughout_hard	blacken throughout; hard	blacken|throughout|;|hard	blacken|throughout|;|hard	VB|IN|:|RB	O|O|O|O	|||					
+6	2	fb:cell._100_c	> 100 °C	>|100|°|c	>|100|°|c	JJR|CD|NN|NN	O|NUMBER|O|O	|100.0||	100.0				
+6	3	fb:cell._212_f	> 212 °F	>|212|°|f	>|212|°|f	JJR|CD|NN|NN	O|NUMBER|O|O	|212.0||	212.0				
+6	4	fb:cell.300_f	300 °F	300|°|f	300|°|f	CD|CD|NN	NUMBER|NUMBER|O	300.0|300.0|	300.0				

@@ -1,0 +1,100 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.season	Season	season	season	NN	O						
+-1	1	fb:row.row.date	Date	date	date	NN	O						
+-1	2	fb:row.row.driver	Driver	driver	driver	NN	O						
+-1	3	fb:row.row.team	Team	team	Team	NNP	O						
+-1	4	fb:row.row.chassis	Chassis	chassis	chassis	NN	O						
+-1	5	fb:row.row.engine	Engine	engine	Engine	NNP	O						
+-1	6	fb:row.row.race_distance_laps	Race Distance\nLaps	race|distance|laps	race|Distance|Laps	NN|NNP|NNP	O|O|O	||					
+-1	7	fb:row.row.race_distance_miles_km	Race Distance\nMiles (km)	race|distance|miles|-lrb-|km|-rrb-	race|Distance|Miles|-lrb-|km|-rrb-	NN|NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	8	fb:row.row.race_time	Race Time	race|time	race|time	NN|NN	O|O	|					
+-1	9	fb:row.row.average_speed_mph	Average Speed\n(mph)	average|speed|-lrb-|mph|-rrb-	average|speed|-lrb-|mph|-rrb-	JJ|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	10	fb:row.row.report	Report	report	Report	NNP	O						
+0	0	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+0	1	fb:cell.july_17	July 17	july|17	July|17	NNP|CD	DATE|DATE	XXXX-07-17|XXXX-07-17	17.0	xxxx-07-17			
+0	2	fb:cell.sebastien_bourdais	Sébastien Bourdais	sébastien|bourdais	Sébastien|Bourdais	NNP|NNP	PERSON|PERSON	|					
+0	3	fb:cell.newman_haas_racing	Newman/Haas Racing	newman\\/haas|racing	Newman\\/Haas|race	NNP|VBG	O|O	|				Newman|Haas Racing	fb:part.newman|fb:part.haas_racing
+0	4	fb:cell.lola	Lola	lola	Lola	NNP	PERSON						
+0	5	fb:cell.ford_cosworth	Ford-Cosworth	ford|cosworth	Ford|Cosworth	NNP|NNP	O|O	|					
+0	6	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+0	7	fb:cell.173_624_279_42	173.624 (279.42)	173.624|-lrb-|279.42|-rrb-	173.624|-lrb-|279.42|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	173.624||279.42|	173.624		279.42		
+0	8	fb:cell.1_38_55	1:38:55	1:38:55	1:38:55	CD	TIME	T01:38:55	1.0		38.0		
+0	9	fb:cell.105_302	105.302	105.302	105.302	CD	NUMBER	105.302	105.302				
+0	10	fb:cell.report	Report	report	Report	NNP	O						
+1	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+1	1	fb:cell.july_23	July 23	july|23	July|23	NNP|CD	DATE|DATE	XXXX-07-23|XXXX-07-23	23.0	xxxx-07-23			
+1	2	fb:cell.justin_wilson	Justin Wilson	justin|wilson	Justin|Wilson	NNP|NNP	PERSON|PERSON	|					
+1	3	fb:cell.rusport	RuSPORT	rusport	rusport	NN	O					RuSPORT	fb:part.rusport
+1	4	fb:cell.lola	Lola	lola	Lola	NNP	PERSON						
+1	5	fb:cell.ford_cosworth	Ford-Cosworth	ford|cosworth	Ford|Cosworth	NNP|NNP	O|O	|					
+1	6	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+1	7	fb:cell.167_705_269_895	167.705 (269.895)	167.705|-lrb-|269.895|-rrb-	167.705|-lrb-|269.895|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	167.705||269.895|	167.705		269.895		
+1	8	fb:cell.1_40_30	1:40:30	1:40:30	1:40:30	CD	TIME	T01:40:30	1.0		40.0		
+1	9	fb:cell.100_112	100.112	100.112	100.112	CD	NUMBER	100.112	100.112				
+1	10	fb:cell.report	Report	report	Report	NNP	O						
+2	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+2	1	fb:cell.july_22	July 22	july|22	July|22	NNP|CD	DATE|DATE	XXXX-07-22|XXXX-07-22	22.0	xxxx-07-22			
+2	2	fb:cell.sebastien_bourdais	Sébastien Bourdais	sébastien|bourdais	Sébastien|Bourdais	NNP|NNP	PERSON|PERSON	|					
+2	3	fb:cell.newman_haas_lanigan_racing	Newman/Haas/Lanigan Racing	newman\\/haas\\/lanigan|racing	Newman\\/Haas\\/Lanigan|race	NNP|VBG	O|O	|				Newman|Haas|Lanigan Racing	fb:part.newman|fb:part.haas|fb:part.lanigan_racing
+2	4	fb:cell.panoz	Panoz	panoz	Panoz	NNP	PERSON						
+2	5	fb:cell.cosworth	Cosworth	cosworth	Cosworth	NNP	O						
+2	6	fb:cell.96	96	96	96	CD	NUMBER	96.0	96.0				
+2	7	fb:cell.189_408_304_822	189.408 (304.822)	189.408|-lrb-|304.822|-rrb-	189.408|-lrb-|304.822|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	189.408||304.822|	189.408		304.822		
+2	8	fb:cell.1_45_41	1:45:41	1:45:41	1:45:41	CD	TIME	T01:45:41	1.0		45.0		
+2	9	fb:cell.107_517	107.517	107.517	107.517	CD	NUMBER	107.517	107.517				
+2	10	fb:cell.report	Report	report	Report	NNP	O						
+3	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+3	1	fb:cell.july_26	July 26	july|26	July|26	NNP|CD	DATE|DATE	XXXX-07-26|XXXX-07-26	26.0	xxxx-07-26			
+3	2	fb:cell.scott_dixon	Scott Dixon	scott|dixon	Scott|Dixon	NNP|NNP	PERSON|PERSON	|					
+3	3	fb:cell.chip_ganassi_racing	Chip Ganassi Racing	chip|ganassi|racing	chip|Ganassi|race	NN|NNP|VBG	O|O|O	||				Chip Ganassi Racing	fb:part.chip_ganassi_racing
+3	4	fb:cell.dallara	Dallara	dallara	Dallara	NNP	PERSON						
+3	5	fb:cell.honda	Honda	honda	Honda	NNP	ORGANIZATION						
+3	6	fb:cell.91	91*	91|\\*	91|\\*	CD|SYM	NUMBER|O	91.0|	91.0				
+3	7	fb:cell.179_543_288_946	179.543 (288.946)	179.543|-lrb-|288.946|-rrb-	179.543|-lrb-|288.946|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	179.543||288.946|	179.543		288.946		
+3	8	fb:cell.1_51_06	1:51:06	1:51:06	1:51:06	CD	TIME	T01:51:06	1.0		51.0		
+3	9	fb:cell.96_967	96.967	96.967	96.967	CD	NUMBER	96.967	96.967				
+3	10	fb:cell.report	Report	report	Report	NNP	O						
+4	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+4	1	fb:cell.july_26	July 26	july|26	July|26	NNP|CD	DATE|DATE	XXXX-07-26|XXXX-07-26	26.0	xxxx-07-26			
+4	2	fb:cell.will_power	Will Power	will|power	Will|Power	VBD-AUX|NNP	O|O	|					
+4	3	fb:cell.penske_racing	Penske Racing	penske|racing	Penske|race	NNP|VBG	O|O	|				Penske Racing	fb:part.penske_racing
+4	4	fb:cell.dallara	Dallara	dallara	Dallara	NNP	PERSON						
+4	5	fb:cell.honda	Honda	honda	Honda	NNP	ORGANIZATION						
+4	6	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+4	7	fb:cell.187_435_301_647	187.435 (301.647)	187.435|-lrb-|301.647|-rrb-	187.435|-lrb-|301.647|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	187.435||301.647|	187.435		301.647		
+4	8	fb:cell.1_42_42	1:42:42	1:42:42	1:42:42	CD	TIME	T01:42:42	1.0		42.0		
+4	9	fb:cell.109_498	109.498	109.498	109.498	CD	NUMBER	109.498	109.498				
+4	10	fb:cell.report	Report	report	Report	NNP	O						
+5	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+5	1	fb:cell.july_25	July 25	july|25	July|25	NNP|CD	DATE|DATE	XXXX-07-25|XXXX-07-25	25.0	xxxx-07-25			
+5	2	fb:cell.scott_dixon	Scott Dixon	scott|dixon	Scott|Dixon	NNP|NNP	PERSON|PERSON	|					
+5	3	fb:cell.chip_ganassi_racing	Chip Ganassi Racing	chip|ganassi|racing	chip|Ganassi|race	NN|NNP|VBG	O|O|O	||				Chip Ganassi Racing	fb:part.chip_ganassi_racing
+5	4	fb:cell.dallara	Dallara	dallara	Dallara	NNP	PERSON						
+5	5	fb:cell.honda	Honda	honda	Honda	NNP	ORGANIZATION						
+5	6	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+5	7	fb:cell.187_435_301_647	187.435 (301.647)	187.435|-lrb-|301.647|-rrb-	187.435|-lrb-|301.647|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	187.435||301.647|	187.435		301.647		
+5	8	fb:cell.1_50_37	1:50:37	1:50:37	1:50:37	CD	TIME	T01:50:37	1.0		50.0		
+5	9	fb:cell.101_666	101.666	101.666	101.666	CD	NUMBER	101.666	101.666				
+5	10	fb:cell.report	Report	report	Report	NNP	O						
+6	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+6	1	fb:cell.july_24	July 24	july|24	July|24	NNP|CD	DATE|DATE	XXXX-07-24|XXXX-07-24	24.0	xxxx-07-24			
+6	2	fb:cell.will_power	Will Power	will|power	Will|Power	VBD-AUX|NNP	O|O	|					
+6	3	fb:cell.penske_racing	Penske Racing	penske|racing	Penske|race	NNP|VBG	O|O	|				Penske Racing	fb:part.penske_racing
+6	4	fb:cell.dallara	Dallara	dallara	Dallara	NNP	PERSON						
+6	5	fb:cell.honda	Honda	honda	Honda	NNP	ORGANIZATION						
+6	6	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+6	7	fb:cell.180_48_290_454	180.48 (290.454)	180.48|-lrb-|290.454|-rrb-	180.48|-lrb-|290.454|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	180.48||290.454|	180.48		290.454		
+6	8	fb:cell.1_57_23	1:57:23	1:57:23	1:57:23	CD	TIME	T01:57:23	1.0		57.0		
+6	9	fb:cell.90_949	90.949	90.949	90.949	CD	NUMBER	90.949	90.949				
+6	10	fb:cell.report	Report	report	Report	NNP	O						
+7	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+7	1	fb:cell.july_22	July 22	july|22	July|22	NNP|CD	DATE|DATE	XXXX-07-22|XXXX-07-22	22.0	xxxx-07-22			
+7	2	fb:cell.helio_castroneves	Hélio Castroneves	hélio|castroneves	Hélio|Castroneves	NNP|NNP	PERSON|PERSON	|					
+7	3	fb:cell.penske_racing	Penske Racing	penske|racing	Penske|race	NNP|VBG	O|O	|				Penske Racing	fb:part.penske_racing
+7	4	fb:cell.dallara	Dallara	dallara	Dallara	NNP	PERSON						
+7	5	fb:cell.chevrolet	Chevrolet	chevrolet	Chevrolet	NNP	O						
+7	6	fb:cell.75	75	75	75	CD	NUMBER	75.0	75.0				
+7	7	fb:cell.169_2_272_301	169.2 (272.301)	169.2|-lrb-|272.301|-rrb-	169.2|-lrb-|272.301|-rrb-	NN|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	169.2||272.301|	169.2		272.301		
+7	8	fb:cell.1_38_51	1:38:51	1:38:51	1:38:51	CD	TIME	T01:38:51	1.0		38.0		
+7	9	fb:cell.101_246	101.246	101.246	101.246	CD	NUMBER	101.246	101.246				
+7	10	fb:cell.report	Report	report	Report	NNP	O						

@@ -1,0 +1,76 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.national_champion	National Champion	national|champion	National|Champion	NNP|NNP	O|O	|					
+-1	2	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+-1	3	fb:row.row.runner_up	Runner-Up	runner|up	Runner|up	NNP|IN	O|O	|					
+-1	4	fb:row.row.host_or_site	Host or site	host|or|site	host|or|site	NN|CC|NN	O|O|O	||					
+0	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+0	1	fb:cell.ucla	UCLA	ucla	UCLA	NNP	ORGANIZATION						
+0	2	fb:cell.5_4	5-4	5-4	5-4	JJ	O		5.0		4.0		
+0	3	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+0	4	fb:cell.stanford_university_avery_aquatic_center_stanford_california	Stanford University, Avery Aquatic Center, Stanford, California	stanford|university|,|avery|aquatic|center|,|stanford|,|california	Stanford|University|,|Avery|Aquatic|Center|,|Stanford|,|California	NNP|NNP|,|NNP|NNP|NNP|,|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|LOCATION	|||||||||				Stanford University|Avery Aquatic Center|Stanford|California	fb:part.stanford_university|fb:part.avery_aquatic_center|fb:part.stanford|fb:part.california
+1	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+1	1	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+1	2	fb:cell.8_4	8-4	8-4	8-4	CD	NUMBER	8.0 - 4.0	8.0		4.0		
+1	3	fb:cell.ucla	UCLA	ucla	UCLA	NNP	ORGANIZATION						
+1	4	fb:cell.usc_mcdonald_s_swim_stadium_los_angeles_california	USC, McDonald's Swim Stadium, Los Angeles, California	usc|,|mcdonald|'s|swim|stadium|,|los|angeles|,|california	USC|,|McDonald|'s|Swim|Stadium|,|Los|Angeles|,|California	NNP|,|NNP|POS|NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||||||				USC|McDonald's Swim Stadium|Los Angeles|California	fb:part.usc|fb:part.mcdonald_s_swim_stadium|fb:part.los_angeles|fb:part.california
+2	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+2	1	fb:cell.ucla_2	UCLA (2)	ucla|-lrb-|2|-rrb-	UCLA|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	ORGANIZATION|O|NUMBER|O	||2.0|	2.0				
+2	2	fb:cell.4_3	4-3	4-3	4-3	CD	NUMBER	4.0 - 3.0	4.0		3.0		
+2	3	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+2	4	fb:cell.uc_san_diego_canyonview_pool_san_diego_california	UC San Diego, Canyonview Pool, San Diego, California	uc|san|diego|,|canyonview|pool|,|san|diego|,|california	uc|San|Diego|,|Canyonview|Pool|,|San|Diego|,|California	NN|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|LOCATION|LOCATION|O|LOCATION	||||||||||				UC San Diego|Canyonview Pool|San Diego|California	fb:part.uc_san_diego|fb:part.canyonview_pool|fb:part.san_diego|fb:part.california
+3	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+3	1	fb:cell.usc	USC	usc	USC	NNP	O						
+3	2	fb:cell.10_8	10-8	10-8	10-8	CD	NUMBER	10.0 - 8.0	10.0		8.0		
+3	3	fb:cell.loyola_marymount	Loyola Marymount	loyola|marymount	Loyola|Marymount	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+3	4	fb:cell.stanford_university_avery_aquatic_center_stanford_california	Stanford University, Avery Aquatic Center, Stanford, California	stanford|university|,|avery|aquatic|center|,|stanford|,|california	Stanford|University|,|Avery|Aquatic|Center|,|Stanford|,|California	NNP|NNP|,|NNP|NNP|NNP|,|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|LOCATION	|||||||||				Stanford University|Avery Aquatic Center|Stanford|California	fb:part.stanford_university|fb:part.avery_aquatic_center|fb:part.stanford|fb:part.california
+4	0	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+4	1	fb:cell.ucla_3	UCLA (3)	ucla|-lrb-|3|-rrb-	UCLA|-lrb-|3|-rrb-	NNP|-LRB-|LS|-RRB-	ORGANIZATION|O|NUMBER|O	||3.0|	3.0				
+4	2	fb:cell.3_2	3-2	3-2	3-2	CD	NUMBER	3.0 - 2.0	3.0		2.0		
+4	3	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+4	4	fb:cell.university_of_michigan_canham_natatorium_ann_arbor_michigan	University of Michigan, Canham Natatorium, Ann Arbor, Michigan	university|of|michigan|,|canham|natatorium|,|ann|arbor|,|michigan	University|of|Michigan|,|Canham|Natatorium|,|Ann|Arbor|,|Michigan	NNP|IN|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|PERSON|O|PERSON|PERSON|O|LOCATION	||||||||||				University of Michigan|Canham Natatorium|Ann Arbor|Michigan	fb:part.university_of_michigan|fb:part.canham_natatorium|fb:part.ann_arbor|fb:part.michigan
+5	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+5	1	fb:cell.ucla_4	UCLA (4)	ucla|-lrb-|4|-rrb-	UCLA|-lrb-|4|-rrb-	NNP|-LRB-|LS|-RRB-	ORGANIZATION|O|NUMBER|O	||4.0|	4.0				
+5	2	fb:cell.9_8	9-8	9-8	9-8	CD	NUMBER	9.0 - 8.0	9.0		8.0		
+5	3	fb:cell.usc	USC	usc	USC	NNP	O						
+5	4	fb:cell.uc_davis_schaal_aquatics_center_davis_california	UC Davis, Schaal Aquatics Center, Davis, California	uc|davis|,|schaal|aquatics|center|,|davis|,|california	uc|Davis|,|Schaal|Aquatics|Center|,|Davis|,|California	NN|NNP|,|NNP|NNP|NNP|,|NNP|,|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|O|LOCATION	|||||||||				UC Davis|Schaal Aquatics Center|Davis|California	fb:part.uc_davis|fb:part.schaal_aquatics_center|fb:part.davis|fb:part.california
+6	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+6	1	fb:cell.ucla_5	UCLA (5)	ucla|-lrb-|5|-rrb-	UCLA|-lrb-|5|-rrb-	NNP|-LRB-|CD|-RRB-	ORGANIZATION|O|NUMBER|O	||5.0|	5.0				
+6	2	fb:cell.5_4	5-4	5-4	5-4	JJ	O		5.0		4.0		
+6	3	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+6	4	fb:cell.long_beach_state_joint_forces_training_base_los_alamitos_california	Long Beach State, Joint Forces Training Base, Los Alamitos, California	long|beach|state|,|joint|forces|training|base|,|los|alamitos|,|california	long|Beach|State|,|Joint|Forces|Training|Base|,|Los|Alamitos|,|California	JJ|NNP|NNP|,|NNP|NNP|NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|LOCATION|LOCATION|O|LOCATION	||||||||||||				Long Beach State|Joint Forces Training Base|Los Alamitos|California	fb:part.long_beach_state|fb:part.joint_forces_training_base|fb:part.los_alamitos|fb:part.california
+7	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+7	1	fb:cell.ucla_6	UCLA (6)	ucla|-lrb-|6|-rrb-	UCLA|-lrb-|6|-rrb-	NNP|-LRB-|CD|-RRB-	ORGANIZATION|O|NUMBER|O	||6.0|	6.0				
+7	2	fb:cell.6_3	6-3	6-3	6-3	CD	NUMBER	6.0 - 3.0	6.0		3.0		
+7	3	fb:cell.usc	USC	usc	USC	NNP	O						
+7	4	fb:cell.stanford_university_avery_aquatic_center_stanford_california	Stanford University, Avery Aquatic Center, Stanford, California	stanford|university|,|avery|aquatic|center|,|stanford|,|california	Stanford|University|,|Avery|Aquatic|Center|,|Stanford|,|California	NNP|NNP|,|NNP|NNP|NNP|,|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|LOCATION	|||||||||				Stanford University|Avery Aquatic Center|Stanford|California	fb:part.stanford_university|fb:part.avery_aquatic_center|fb:part.stanford|fb:part.california
+8	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+8	1	fb:cell.ucla_7	UCLA (7)	ucla|-lrb-|7|-rrb-	UCLA|-lrb-|7|-rrb-	NNP|-LRB-|CD|-RRB-	ORGANIZATION|O|NUMBER|O	||7.0|	7.0				
+8	2	fb:cell.5_4	5-4	5-4	5-4	JJ	O		5.0		4.0		
+8	3	fb:cell.usc	USC	usc	USC	NNP	O						
+8	4	fb:cell.university_of_maryland_eppley_recreation_center_natatorium_college_park_maryland	University of Maryland, Eppley Recreation Center Natatorium, College Park, Maryland	university|of|maryland|,|eppley|recreation|center|natatorium|,|college|park|,|maryland	University|of|Maryland|,|Eppley|Recreation|Center|Natatorium|,|College|Park|,|Maryland	NNP|IN|NNP|,|NNP|NNP|NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|LOCATION	||||||||||||				University of Maryland|Eppley Recreation Center Natatorium|College Park|Maryland	fb:part.university_of_maryland|fb:part.eppley_recreation_center_natatorium|fb:part.college_park|fb:part.maryland
+9	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+9	1	fb:cell.usc_2	USC (2)	usc|-lrb-|2|-rrb-	usc|-lrb-|2|-rrb-	NN|-LRB-|CD|-RRB-	ORGANIZATION|O|NUMBER|O	||2.0|	2.0				
+9	2	fb:cell.10_9	10-9	10-9	10-9	CD	NUMBER	10.0 - 9.0	10.0		9.0		
+9	3	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+9	4	fb:cell.san_diego_state_aztec_aquaplex_san_diego_california	San Diego State, Aztec Aquaplex, San Diego, California	san|diego|state|,|aztec|aquaplex|,|san|diego|,|california	San|Diego|State|,|aztec|Aquaplex|,|San|Diego|,|California	NNP|NNP|NNP|,|JJ|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION|LOCATION|O|LOCATION	||||||||||				San Diego State|Aztec Aquaplex|San Diego|California	fb:part.san_diego_state|fb:part.aztec_aquaplex|fb:part.san_diego|fb:part.california
+10	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+10	1	fb:cell.stanford_2	Stanford (2)	stanford|-lrb-|2|-rrb-	Stanford|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	O|O|NUMBER|O	||2.0|	2.0				
+10	2	fb:cell.9_5	9-5	9-5	9-5	CD	NUMBER	9.0 - 5.0	9.0		5.0		
+10	3	fb:cell.california	California	california	California	NNP	LOCATION						
+10	4	fb:cell.university_of_michigan_canham_natatorium_ann_arbor_michigan	University of Michigan, Canham Natatorium, Ann Arbor, Michigan	university|of|michigan|,|canham|natatorium|,|ann|arbor|,|michigan	University|of|Michigan|,|Canham|Natatorium|,|Ann|Arbor|,|Michigan	NNP|IN|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|PERSON|O|PERSON|PERSON|O|LOCATION	||||||||||				University of Michigan|Canham Natatorium|Ann Arbor|Michigan	fb:part.university_of_michigan|fb:part.canham_natatorium|fb:part.ann_arbor|fb:part.michigan
+11	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+11	1	fb:cell.stanford_3	Stanford (3)	stanford|-lrb-|3|-rrb-	Stanford|-lrb-|3|-rrb-	NNP|-LRB-|LS|-RRB-	O|O|NUMBER|O	||3.0|	3.0				
+11	2	fb:cell.6_4	6-4	6-4	6-4	CD	NUMBER	6.0 - 4.0	6.0		4.0		
+11	3	fb:cell.usc	USC	usc	USC	NNP	O						
+11	4	fb:cell.san_diego_state_aztec_aquaplex_san_diego_california	San Diego State, Aztec Aquaplex, San Diego, California	san|diego|state|,|aztec|aquaplex|,|san|diego|,|california	San|Diego|State|,|aztec|Aquaplex|,|San|Diego|,|California	NNP|NNP|NNP|,|JJ|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION|LOCATION|O|LOCATION	||||||||||				San Diego State|Aztec Aquaplex|San Diego|California	fb:part.san_diego_state|fb:part.aztec_aquaplex|fb:part.san_diego|fb:part.california
+12	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+12	1	fb:cell.usc_3	USC (3)	usc|-lrb-|3|-rrb-	usc|-lrb-|3|-rrb-	NN|-LRB-|CD|-RRB-	ORGANIZATION|O|NUMBER|O	||3.0|	3.0				
+12	2	fb:cell.10_9_5ot	10-9 5OT	10-9|5ot	10-9|5ot	CD|NN	NUMBER|O	10.0 - 9.0|	10.0		95.0		
+12	3	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+12	4	fb:cell.harvard_university_blodgett_pool_cambridge_massachusetts	Harvard University, Blodgett Pool, Cambridge, Massachusetts	harvard|university|,|blodgett|pool|,|cambridge|,|massachusetts	Harvard|University|,|Blodgett|Pool|,|Cambridge|,|Massachusetts	NNP|NNP|,|NNP|NNP|,|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|PERSON|PERSON|O|LOCATION|O|LOCATION	||||||||				Harvard University|Blodgett Pool|Cambridge|Massachusetts	fb:part.harvard_university|fb:part.blodgett_pool|fb:part.cambridge|fb:part.massachusetts
+13	0	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+13	1	fb:cell.null											
+13	2	fb:cell.null											
+13	3	fb:cell.null											
+13	4	fb:cell.usc_uytengsu_aquatics_center_los_angeles_california	USC, Uytengsu Aquatics Center, Los Angeles, California	usc|,|uytengsu|aquatics|center|,|los|angeles|,|california	USC|,|Uytengsu|Aquatics|Center|,|Los|Angeles|,|California	NNP|,|NNP|NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	|||||||||				USC|Uytengsu Aquatics Center|Los Angeles|California	fb:part.usc|fb:part.uytengsu_aquatics_center|fb:part.los_angeles|fb:part.california

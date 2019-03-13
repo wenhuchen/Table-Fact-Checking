@@ -1,0 +1,691 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.launch_date	Launch Date	launch|date	Launch|Date	NNP|NNP	O|O	|					
+-1	1	fb:row.row.sts_number	STS Number	sts|number	STS|Number	NNP|NNP	O|O	|					
+-1	2	fb:row.row.payload_name	Payload Name	payload|name	Payload|name	NNP|VB	O|O	|					
+-1	3	fb:row.row.payload_classification	Payload Classification	payload|classification	Payload|classification	NNP|NN	O|O	|					
+-1	4	fb:row.row.experiment_name	Experiment\nName	experiment|name	experiment|name	NN|VB	O|O	|					
+-1	5	fb:row.row.payload_carrier_hardware	Payload Carrier Hardware	payload|carrier|hardware	payload|carrier|hardware	NN|NN|NN	O|O|O	||					
+0	0	fb:cell.03_22_82	03/22/82	03\\/22\\/82	03\\/22\\/82	NN	DATE	XX82-03-22	3.0	xxxx-03-22	22.0	03|22|82	fb:part.03|fb:part.22|fb:part.82
+0	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+0	2	fb:cell.gas_fvp	GAS, FVP	gas|,|fvp	gas|,|fvp	NN|,|NN	O|O|O	||				GAS|FVP	fb:part.gas|fb:part.fvp
+0	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+0	4	fb:cell.gas_fvp	GAS, FVP	gas|,|fvp	gas|,|fvp	NN|,|NN	O|O|O	||				GAS|FVP	fb:part.gas|fb:part.fvp
+0	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+1	0	fb:cell.06_27_82	06/27/82	06\\/27\\/82	06\\/27\\/82	NN	DATE	XX82-06-27	6.0	xxxx-06-27	27.0	06|27|82	fb:part.06|fb:part.27|fb:part.82
+1	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+1	2	fb:cell.g_001	G-001	g-001	g-001	NN	O		1.0			G-001	fb:part.g_001
+1	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+1	4	fb:cell.g_001	G-001	g-001	g-001	NN	O		1.0			G-001	fb:part.g_001
+1	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+2	0	fb:cell.11_11_82	11/11/82	11\\/11\\/82	11\\/11\\/82	CD	DATE	XX82-11-11	11.0	xxxx-11-11	11.0	11|11|82	fb:part.11|fb:part.11|fb:part.82
+2	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+2	2	fb:cell.g_026	G-026	g-026	g-026	NN	O		26.0			G-026	fb:part.g_026
+2	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+2	4	fb:cell.g_026	G-026	g-026	g-026	NN	O		26.0			G-026	fb:part.g_026
+2	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+3	0	fb:cell.04_04_83	04/04/83	04\\/04\\/83	04\\/04\\/83	NN	DATE	XX83-04-04	4.0	xxxx-04-04	4.0	04|04|83	fb:part.04|fb:part.04|fb:part.83
+3	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+3	2	fb:cell.g_005_g_049_g_381	G-005\nG-049\nG-381	g-005|g-049|g-381	g-005|g-049|g-381	NN|NN|NN	O|O|O	||	5.0		49.0	G-005|G-049|G-381	fb:part.g_005|fb:part.g_049|fb:part.g_381
+3	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+3	4	fb:cell.g_005_g_049_g_381	G-005\nG-049\nG-381	g-005|g-049|g-381	g-005|g-049|g-381	NN|NN|NN	O|O|O	||	5.0		49.0	G-005|G-049|G-381	fb:part.g_005|fb:part.g_049|fb:part.g_381
+3	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+4	0	fb:cell.06_18_83	06/18/83	06\\/18\\/83	06\\/18\\/83	NN	DATE	XX83-06-18	6.0	xxxx-06-18	18.0	06|18|83	fb:part.06|fb:part.18|fb:part.83
+4	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+4	2	fb:cell.g_002_g_088_g_009_g_012_g_033_g_305_g_345	G-002\nG-088\nG-009\nG-012\nG-033\nG-305\nG-345	g-002|g-088|g-009|g-012|g-033|g-305|g-345	g-002|g-088|g-009|g-012|g-033|g-305|g-345	NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O	||||||	2.0		88.0	G-002|G-088|G-009|G-012|G-033|G-305|G-345	fb:part.g_002|fb:part.g_088|fb:part.g_009|fb:part.g_012|fb:part.g_033|fb:part.g_305|fb:part.g_345
+4	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+4	4	fb:cell.g_002_g_088_g_009_g_012_g_033_g_305_g_345	G-002\nG-088\nG-009\nG-012\nG-033\nG-305\nG-345	g-002|g-088|g-009|g-012|g-033|g-305|g-345	g-002|g-088|g-009|g-012|g-033|g-305|g-345	NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O	||||||	2.0		88.0	G-002|G-088|G-009|G-012|G-033|G-305|G-345	fb:part.g_002|fb:part.g_088|fb:part.g_009|fb:part.g_012|fb:part.g_033|fb:part.g_305|fb:part.g_345
+4	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+5	0	fb:cell.08_30_83	08/30/83	08\\/30\\/83	08\\/30\\/83	NN	DATE	XX83-08-30	8.0	xxxx-08-30	30.0	08|30|83	fb:part.08|fb:part.30|fb:part.83
+5	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+5	2	fb:cell.g_346_g_347_g_348_g_475	G-346\nG-347\nG-348\nG-475	g-346|g-347|g-348|g-475	g-346|g-347|g-348|g-475	NN|NN|NN|NN	O|O|O|O	|||	346.0		347.0	G-346|G-347|G-348|G-475	fb:part.g_346|fb:part.g_347|fb:part.g_348|fb:part.g_475
+5	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+5	4	fb:cell.g_346_g_347_g_348_g_475	G-346\nG-347\nG-348\nG-475	g-346|g-347|g-348|g-475	g-346|g-347|g-348|g-475	NN|NN|NN|NN	O|O|O|O	|||	346.0		347.0	G-346|G-347|G-348|G-475	fb:part.g_346|fb:part.g_347|fb:part.g_348|fb:part.g_475
+5	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+6	0	fb:cell.02_03_84	02/03/84	02\\/03\\/84	02\\/03\\/84	NN	DATE	XX84-02-03	2.0	xxxx-02-03	3.0	02|03|84	fb:part.02|fb:part.03|fb:part.84
+6	1	fb:cell.10_41_b	10 (41-B)	10|-lrb-|41|b|-rrb-	10|-lrb-|41|b|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	10.0||41.0||	10.0		41.0		
+6	2	fb:cell.g_004_g_008_g_051_g_309_g_349	G-004\nG-008\nG-051\nG-309\nG-349	g-004|g-008|g-051|g-309|g-349	g-004|g-008|g-051|g-309|g-349	NN|NN|NN|NN|NN	O|O|O|O|O	||||	4.0		8.0	G-004|G-008|G-051|G-309|G-349	fb:part.g_004|fb:part.g_008|fb:part.g_051|fb:part.g_309|fb:part.g_349
+6	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+6	4	fb:cell.g_004_g_008_g_051_g_309_g_349	G-004\nG-008\nG-051\nG-309\nG-349	g-004|g-008|g-051|g-309|g-349	g-004|g-008|g-051|g-309|g-349	NN|NN|NN|NN|NN	O|O|O|O|O	||||	4.0		8.0	G-004|G-008|G-051|G-309|G-349	fb:part.g_004|fb:part.g_008|fb:part.g_051|fb:part.g_309|fb:part.g_349
+6	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+7	0	fb:cell.10_05_84	10/05/84	10\\/05\\/84	10\\/05\\/84	CD	DATE	XX84-10-05	10.0	xxxx-10-05	5.0	10|05|84	fb:part.10|fb:part.05|fb:part.84
+7	1	fb:cell.13_41_g	13 (41-G)	13|-lrb-|41|g|-rrb-	13|-lrb-|41|g|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	13.0||41.0||	13.0		41.0		
+7	2	fb:cell.g_007_g_013_g_032_g_038_g_074_g_306_g_469_g_518	G-007\nG-013\nG-032\nG-038\nG-074\nG-306\nG-469\nG-518	g-007|g-013|g-032|g-038|g-074|g-306|g-469|g-518	g-007|g-013|g-032|g-038|g-074|g-306|g-469|g-518	JJ|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O	|||||||	7.0		13.0	G-007|G-013|G-032|G-038|G-074|G-306|G-469|G-518	fb:part.g_007|fb:part.g_013|fb:part.g_032|fb:part.g_038|fb:part.g_074|fb:part.g_306|fb:part.g_469|fb:part.g_518
+7	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+7	4	fb:cell.g_007_g_013_g_032_g_038_g_074_g_306_g_469_g_518	G-007\nG-013\nG-032\nG-038\nG-074\nG-306\nG-469\nG-518	g-007|g-013|g-032|g-038|g-074|g-306|g-469|g-518	g-007|g-013|g-032|g-038|g-074|g-306|g-469|g-518	JJ|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O	|||||||	7.0		13.0	G-007|G-013|G-032|G-038|G-074|G-306|G-469|G-518	fb:part.g_007|fb:part.g_013|fb:part.g_032|fb:part.g_038|fb:part.g_074|fb:part.g_306|fb:part.g_469|fb:part.g_518
+7	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+8	0	fb:cell.04_12_85	04/12/85	04\\/12\\/85	04\\/12\\/85	NN	DATE	XX85-04-12	4.0	xxxx-04-12	12.0	04|12|85	fb:part.04|fb:part.12|fb:part.85
+8	1	fb:cell.16_51_d	16 (51-D)	16|-lrb-|51|d|-rrb-	16|-lrb-|51|d|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	16.0||51.0||	16.0		51.0		
+8	2	fb:cell.g_035_g_471	G-035\nG-471	g-035|g-471	g-035|g-471	NN|NN	O|O	|	35.0		471.0	G-035|G-471	fb:part.g_035|fb:part.g_471
+8	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+8	4	fb:cell.g_035_g_471	G-035\nG-471	g-035|g-471	g-035|g-471	NN|NN	O|O	|	35.0		471.0	G-035|G-471	fb:part.g_035|fb:part.g_471
+8	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+9	0	fb:cell.04_29_85	04/29//85	04\\/29|\\/|\\/|85	04\\/29|\\/|\\/|85	CD|:|:|CD	NUMBER|O|O|NUMBER	|||85.0	4.0		29.0	04|29||85	fb:part.04|fb:part.29|fb:part.null|fb:part.85
+9	1	fb:cell.17_51_b	17 (51-B)	17|-lrb-|51|b|-rrb-	17|-lrb-|51|b|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	17.0||51.0||	17.0		51.0		
+9	2	fb:cell.g_010_g_308	G-010\nG-308	g-010|g-308	g-010|g-308	NN|NN	O|O	|	10.0		308.0	G-010|G-308	fb:part.g_010|fb:part.g_308
+9	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+9	4	fb:cell.g_010_g_308	G-010\nG-308	g-010|g-308	g-010|g-308	NN|NN	O|O	|	10.0		308.0	G-010|G-308	fb:part.g_010|fb:part.g_308
+9	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+10	0	fb:cell.06_17_85	06/17/85	06\\/17\\/85	06\\/17\\/85	NN	DATE	XX85-06-17	6.0	xxxx-06-17	17.0	06|17|85	fb:part.06|fb:part.17|fb:part.85
+10	1	fb:cell.18_51_g	18 (51-G)	18|-lrb-|51|g|-rrb-	18|-lrb-|51|g|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	18.0||51.0||	18.0		51.0		
+10	2	fb:cell.g_025_g_027_g_028_g_034_g_314_g_471	G-025\nG-027\nG-028\nG-034\nG-314\nG-471	g-025|g-027|g-028|g-034|g-314|g-471	g-025|g-027|g-028|g-034|g-314|g-471	CD|NN|NN|NN|NN|NN	NUMBER|O|O|O|O|O	-25.0|||||	25.0		27.0	G-025|G-027|G-028|G-034|G-314|G-471	fb:part.g_025|fb:part.g_027|fb:part.g_028|fb:part.g_034|fb:part.g_314|fb:part.g_471
+10	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+10	4	fb:cell.g_025_g_027_g_028_g_034_g_314_g_471	G-025\nG-027\nG-028\nG-034\nG-314\nG-471	g-025|g-027|g-028|g-034|g-314|g-471	g-025|g-027|g-028|g-034|g-314|g-471	CD|NN|NN|NN|NN|NN	NUMBER|O|O|O|O|O	-25.0|||||	25.0		27.0	G-025|G-027|G-028|G-034|G-314|G-471	fb:part.g_025|fb:part.g_027|fb:part.g_028|fb:part.g_034|fb:part.g_314|fb:part.g_471
+10	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+11	0	fb:cell.10_30_85	10/30/85	10\\/30\\/85	10\\/30\\/85	CD	DATE	XX85-10-30	10.0	xxxx-10-30	30.0	10|30|85	fb:part.10|fb:part.30|fb:part.85
+11	1	fb:cell.22_61_a	22 (61-A)	22|-lrb-|61|a|-rrb-	22|-lrb-|61|a|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	22.0||61.0||	22.0		61.0		
+11	2	fb:cell.g_308	G-308	g-308	g-308	NN	O		308.0			G-308	fb:part.g_308
+11	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+11	4	fb:cell.g_308	G-308	g-308	g-308	NN	O		308.0			G-308	fb:part.g_308
+11	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+12	0	fb:cell.11_26_85	11/26/85	11\\/26\\/85	11\\/26\\/85	NN	DATE	XX85-11-26	11.0	xxxx-11-26	26.0	11|26|85	fb:part.11|fb:part.26|fb:part.85
+12	1	fb:cell.23_61_b	23 (61-B)	23|-lrb-|61|b|-rrb-	23|-lrb-|61|b|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	23.0||61.0||	23.0		61.0		
+12	2	fb:cell.g_479	G-479	g-479	g-479	NN	O		479.0			G-479	fb:part.g_479
+12	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+12	4	fb:cell.g_479	G-479	g-479	g-479	NN	O		479.0			G-479	fb:part.g_479
+12	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+13	0	fb:cell.01_12_86	01/12/86	01\\/12\\/86	01\\/12\\/86	CD	DATE	XX86-01-12	1.0	xxxx-01-12	12.0	01|12|86	fb:part.01|fb:part.12|fb:part.86
+13	1	fb:cell.24_61_c	24 (61-C)	24|-lrb-|61|c|-rrb-	24|-lrb-|61|c|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	24.0||61.0||	24.0		61.0		
+13	2	fb:cell.hhg_1	HHG-1	hhg-1	hhg-1	NN	O		1.0			HHG-1	fb:part.hhg_1
+13	3	fb:cell.hitchhiker	Hitchhiker	hitchhiker	hitchhiker	NN	PERSON					Hitchhiker	fb:part.hitchhiker
+13	4	fb:cell.particle_analysis_cameras_for_the_shuttle_pacs_capillary_pump_loop_cpl	Particle Analysis Cameras for\nthe\nShuttle (PACS)\nCapillary Pump\nLoop (CPL)	particle|analysis|cameras|for|the|shuttle|-lrb-|pacs|-rrb-|capillary|pump|loop|-lrb-|cpl|-rrb-	particle|analysis|camera|for|the|Shuttle|-lrb-|pac|-rrb-|Capillary|pump|Loop|-lrb-|CPL|-rrb-	NN|NN|NNS|IN|DT|NNP|-LRB-|NNS|-RRB-|NNP|NN|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				Particle Analysis Cameras for|the|Shuttle (PACS)|Capillary Pump|Loop (CPL)	fb:part.particle_analysis_cameras_for|fb:part.the|fb:part.shuttle_pacs|fb:part.capillary_pump|fb:part.loop_cpl
+13	5	fb:cell.hitchhiker_bridge	Hitchhiker Bridge	hitchhiker|bridge	Hitchhiker|Bridge	NNP|NNP	O|O	|				Hitchhiker Bridge	fb:part.hitchhiker_bridge
+14	0	fb:cell.01_12_86	01/12/86	01\\/12\\/86	01\\/12\\/86	CD	DATE	XX86-01-12	1.0	xxxx-01-12	12.0	01|12|86	fb:part.01|fb:part.12|fb:part.86
+14	1	fb:cell.24_61_c	24 (61-C)	24|-lrb-|61|c|-rrb-	24|-lrb-|61|c|-rrb-	CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O	24.0||61.0||	24.0		61.0		
+14	2	fb:cell.gba_1	GBA-1	gba-1	gba-1	NN	O		1.0			GBA-1	fb:part.gba_1
+14	3	fb:cell.gas_bridge_assembly_1	GAS Bridge Assembly-1	gas|bridge|assembly-1	gas|bridge|assembly-1	NN|NN|NN	O|O|O	||	1.0			GAS Bridge Assembly-1	fb:part.gas_bridge_assembly_1
+14	4	fb:cell.g_007_g_062_g_310_g_332_g_446_g_449_g_462_g_463_g_464_g_470_g_481_g_494	G-007\nG-062\nG-310\nG-332\nG-446\nG-449\nG-462\nG-463\nG-464\nG-470\nG-481\nG-494	g-007|g-062|g-310|g-332|g-446|g-449|g-462|g-463|g-464|g-470|g-481|g-494	g-007|g-062|g-310|g-332|g-446|g-449|g-462|g-463|g-464|g-470|g-481|g-494	JJ|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||	7.0		62.0	G-007|G-062|G-310|G-332|G-446|G-449|G-462|G-463|G-464|G-470|G-481|G-494	fb:part.g_007|fb:part.g_062|fb:part.g_310|fb:part.g_332|fb:part.g_446|fb:part.g_449|fb:part.g_462|fb:part.g_463|fb:part.g_464|fb:part.g_470|fb:part.g_481|fb:part.g_494
+14	5	fb:cell.gas_assembly_bridge_gba	GAS Assembly Bridge (GBA)	gas|assembly|bridge|-lrb-|gba|-rrb-	gas|assembly|bridge|-lrb-|gba|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				GAS Assembly Bridge (GBA)	fb:part.gas_assembly_bridge_gba
+15	0	fb:cell.08_08_89	08/08/89	08\\/08\\/89	08\\/08\\/89	CD	DATE	XX89-08-08	8.0	xxxx-08-08	8.0	08|08|89	fb:part.08|fb:part.08|fb:part.89
+15	1	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+15	2	fb:cell.g_335_g_341	G-335\nG-341	g-335|g-341	g-335|g-341	NN|NN	O|O	|	335.0		341.0	G-335|G-341	fb:part.g_335|fb:part.g_341
+15	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+15	4	fb:cell.g_335_g_341	G-335\nG-341	g-335|g-341	g-335|g-341	NN|NN	O|O	|	335.0		341.0	G-335|G-341	fb:part.g_335|fb:part.g_341
+15	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+16	0	fb:cell.10_18_89	10/18/89	10\\/18\\/89	10\\/18\\/89	CD	DATE	XX89-10-18	10.0	xxxx-10-18	18.0	10|18|89	fb:part.10|fb:part.18|fb:part.89
+16	1	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+16	2	fb:cell.shuttle_solar_background_ultraviolet_ssbuv_01	Shuttle Solar Background Ultraviolet (SSBUV-01)	shuttle|solar|background|ultraviolet|-lrb-|ssbuv-01|-rrb-	Shuttle|Solar|Background|Ultraviolet|-lrb-|ssbuv-01|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||	1.0			Shuttle Solar Background Ultraviolet (SSBUV-01)	fb:part.shuttle_solar_background_ultraviolet_ssbuv_01
+16	3	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+16	4	fb:cell.shuttle_solar_background_ultraviolet_ssbuv	Shuttle Solar Background\nUltraviolet\n(SSBUV)	shuttle|solar|background|ultraviolet|-lrb-|ssbuv|-rrb-	Shuttle|Solar|Background|Ultraviolet|-lrb-|SSBUV|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O	||||||				Shuttle Solar Background|Ultraviolet|(SSBUV)	fb:part.shuttle_solar_background|fb:part.ultraviolet|fb:part._ssbuv
+16	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+17	0	fb:cell.12_02_90	12/02/90	12\\/02\\/90	12\\/02\\/90	CD	DATE	XX90-12-02	12.0	xxxx-12-02	2.0	12|02|90	fb:part.12|fb:part.02|fb:part.90
+17	1	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+17	2	fb:cell.broad_band_x_ray_telescope_bbxrt	Broad Band X-Ray Telescope (BBXRT)	broad|band|x|ray|telescope|-lrb-|bbxrt|-rrb-	Broad|Band|X|Ray|Telescope|-lrb-|BBXRT|-rrb-	NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|O	|||||||				Broad Band X-Ray Telescope (BBXRT)	fb:part.broad_band_x_ray_telescope_bbxrt
+17	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+17	4	fb:cell.broad_band_x_ray_telescope_bbxrt	Broad Band X-Ray Telescope (BBXRT)	broad|band|x|ray|telescope|-lrb-|bbxrt|-rrb-	Broad|Band|X|Ray|Telescope|-lrb-|BBXRT|-rrb-	NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|O	|||||||				Broad Band X-Ray Telescope (BBXRT)	fb:part.broad_band_x_ray_telescope_bbxrt
+17	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+18	0	fb:cell.04_28_91	04/28/91	04\\/28\\/91	04\\/28\\/91	NN	DATE	XX91-04-28	4.0	xxxx-04-28	28.0	04|28|91	fb:part.04|fb:part.28|fb:part.91
+18	1	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+18	2	fb:cell._acronym_title_multi_purpose_experiment_canister_mpec_acronym_01	<acronym title="Multi- Purpose Experiment Canister">MPEC</acronym>-01	<acronym title="multi- purpose experiment canister">|mpec|</acronym>|-01	<acronym title="multi- purpose experiment canister">|mpec|</acronym>|-01	JJ|NN|NN|CD	O|O|O|NUMBER	|||-1.0	1.0			<acronym title="Multi- Purpose Experiment Canister">MPEC<|acronym>-01	fb:part._acronym_title_multi_purpose_experiment_canister_mpec|fb:part.acronym_01
+18	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+18	4	fb:cell.multi_purpose_experiment_canister_mpec	Multi- Purpose Experiment Canister\n(MPEC)	multi|-|purpose|experiment|canister|-lrb-|mpec|-rrb-	multi|-|purpose|experiment|canister|-lrb-|mpec|-rrb-	SYM|:|NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				Multi- Purpose Experiment Canister|(MPEC)	fb:part.multi_purpose_experiment_canister|fb:part._mpec
+18	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+19	0	fb:cell.04_28_91	04/28/91	04\\/28\\/91	04\\/28\\/91	NN	DATE	XX91-04-28	4.0	xxxx-04-28	28.0	04|28|91	fb:part.04|fb:part.28|fb:part.91
+19	1	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+19	2	fb:cell._acronym_title_space_test_payload_space_test_payload_stp_1_acronym	<acronym title="Space Test Payload">Space\nTest Payload (STP)-1</acronym>	<acronym title="space test payload">|space|test|payload|-lrb-|stp|-rrb-|-1|</acronym>	<acronym title="Space Test Payload">|Space|Test|Payload|-lrb-|stp|-rrb-|-1|</acronym>	NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	O|O|O|O|O|O|O|NUMBER|O	|||||||-1.0|	1.0			<acronym title="Space Test Payload">Space|Test Payload (STP)-1<|acronym>	fb:part._acronym_title_space_test_payload_space|fb:part.test_payload_stp_1|fb:part.acronym
+19	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+19	4	fb:cell.advanced_liquid_feed_experiment_alfe_acronym_title_mcdonnell_douglas_astronautics_company_mdac_acronym_acronym_title_mission_dependent_equipment_mde_acronym_acronym_title_air_force_astronautics_laboratory_afal_acronym_data_systems_experiment_dse_acronym_title_national_aeronautics_and_space_administration_nasa_acronym_acronym_title_goddard_space_flight_center_gsfc_acronym_spacecraft_kinetic_infrared_test_skirt_circular_variable_filter_cvf_glos_ultraviolet_limb_imaging_experiment_uvlimb_acronym_title_naval_research_laboratory_nrl_acronym_acronym_title_united_states_air_force_usaf_acronym_spacetest_program	Advanced Liquid\nFeed Experiment (ALFE), <acronym title="McDonnell Douglas Astronautics Company">MDAC</acronym>-<acronym title="mission-dependent equipment">MDE</acronym>/<acronym title="Air Force Astronautics Laboratory">AFAL</acronym>\nData Systems Experiment (DSE), <acronym title="National Aeronautics and Space Administration">NASA</acronym><acronym title="Goddard Space Flight Center">GSFC</acronym>\nSpacecraft Kinetic Infrared Test\n(SKIRT) -Circular Variable Filter\n(CVF) / GLOS\nUltraviolet Limb Imaging Experiment (UVLIMB), <acronym title="Naval Research Laboratory">\nNRL</acronym>/<acronym title="United states air force">USAF</acronym>\nSpaceTest Program	advanced|liquid|feed|experiment|-lrb-|alfe|-rrb-|,|<acronym title="mcdonnell douglas astronautics company">|mdac|</acronym>|-|<acronym title="mission dependent equipment">|mde|</acronym>|\\/|<acronym title="air force astronautics laboratory">|afal|</acronym>|data|systems|experiment|-lrb-|dse|-rrb-|,|<acronym title="national aeronautics and space administration">|nasa|</acronym>|<acronym title="goddard space flight center">|gsfc|</acronym>|spacecraft|kinetic|infrared|test|-lrb-|skirt|-rrb-|circular|variable|filter|-lrb-|cvf|-rrb-|\\/|glos|ultraviolet|limb|imaging|experiment|-lrb-|uvlimb|-rrb-|,|<acronym title="naval research laboratory">|nrl|</acronym>|\\/|<acronym title="united states air force">|usaf|</acronym>|spacetest|program	Advanced|liquid|feed|experiment|-lrb-|alfe|-rrb-|,|<acronym title="mcdonnell douglas astronautics company">|mdac|</acronym>|-|<acronym title="mission dependent equipment">|mde|</acronym>|\\/|<acronym title="Air Force Astronautics Laboratory">|AFAL|</acronym>|Data|Systems|experiment|-lrb-|dse|-rrb-|,|<acronym title="National Aeronautics and Space Administration">|NASA|</acronym>|<acronym title="Goddard Space Flight Center">|GSFC|</acronym>|Spacecraft|kinetic|infrared|test|-lrb-|skirt|-rrb-|circular|variable|Filter|-lrb-|cvf|-rrb-|\\/|GLOS|Ultraviolet|Limb|Imaging|experiment|-lrb-|uvlimb|-rrb-|,|<acronym title="naval research laboratory">|nrl|</acronym>|\\/|<acronym title="United states air force">|USAF|</acronym>|SpaceTest|Program	NNP|NN|NN|NN|-LRB-|NN|-RRB-|,|NN|NN|NN|:|JJ|NN|NN|:|NNP|NNP|NNP|NNP|NNPS|NN|-LRB-|NN|-RRB-|,|NNP|NNP|VBD|NNP|NNP|NNP|NNP|JJ|JJ|NN|-LRB-|NN|-RRB-|JJ|JJ|NNP|-LRB-|NN|-RRB-|:|NNP|NNP|NNP|NNP|NN|-LRB-|NN|-RRB-|,|NN|NN|NN|:|NNP|NNP|VBD|NNP|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|ORGANIZATION|O|O|O	|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||				Advanced Liquid|Feed Experiment (ALFE)|<acronym title="McDonnell Douglas Astronautics Company">MDAC<|acronym>-<acronym title="mission-dependent equipment">MDE<|acronym>|<acronym title="Air Force Astronautics Laboratory">AFAL<|acronym>|Data Systems Experiment (DSE)|<acronym title="National Aeronautics and Space Administration">NASA<|acronym><acronym title="Goddard Space Flight Center">GSFC<|acronym>|Spacecraft Kinetic Infrared Test|(SKIRT) -Circular Variable Filter|(CVF)|GLOS|Ultraviolet Limb Imaging Experiment (UVLIMB)|<acronym title="Naval Research Laboratory">|NRL<|acronym>|<acronym title="United states air force">USAF<|acronym>|SpaceTest Program	fb:part.advanced_liquid|fb:part.feed_experiment_alfe|fb:part._acronym_title_mcdonnell_douglas_astronautics_company_mdac|fb:part.acronym_acronym_title_mission_dependent_equipment_mde|fb:part.acronym|fb:part._acronym_title_air_force_astronautics_laboratory_afal|fb:part.acronym|fb:part.data_systems_experiment_dse|fb:part._acronym_title_national_aeronautics_and_space_administration_nasa|fb:part.acronym_acronym_title_goddard_space_flight_center_gsfc|fb:part.acronym|fb:part.spacecraft_kinetic_infrared_test|fb:part._skirt_circular_variable_filter|fb:part._cvf|fb:part.glos|fb:part.ultraviolet_limb_imaging_experiment_uvlimb|fb:part._acronym_title_naval_research_laboratory|fb:part.nrl|fb:part.acronym|fb:part._acronym_title_united_states_air_force_usaf|fb:part.acronym|fb:part.spacetest_program
+19	5	fb:cell.hitchhiker_bridge	Hitchhiker Bridge	hitchhiker|bridge	Hitchhiker|Bridge	NNP|NNP	O|O	|				Hitchhiker Bridge	fb:part.hitchhiker_bridge
+20	0	fb:cell.06_05_91	06/05/91	06\\/05\\/91	06\\/05\\/91	NN	DATE	XX91-06-05	6.0	xxxx-06-05	5.0	06|05|91	fb:part.06|fb:part.05|fb:part.91
+20	1	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+20	2	fb:cell.gba_2	GBA-2	gba-2	gba-2	NN	O		2.0			GBA-2	fb:part.gba_2
+20	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+20	4	fb:cell.g_021_g_052_g_091_g_105_g_286_g_405_g_408_g_451_g_455_g_486_g_507_g_616	G-021\nG-052\nG-091\nG-105\nG-286\nG-405\nG-408\nG-451\nG-455\nG-486\nG-507\nG-616	g-021|g-052|g-091|g-105|g-286|g-405|g-408|g-451|g-455|g-486|g-507|g-616	g-021|g-052|g-091|g-105|g-286|g-405|g-408|g-451|g-455|g-486|g-507|g-616	NN|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||	21.0		52.0	G-021|G-052|G-091|G-105|G-286|G-405|G-408|G-451|G-455|G-486|G-507|G-616	fb:part.g_021|fb:part.g_052|fb:part.g_091|fb:part.g_105|fb:part.g_286|fb:part.g_405|fb:part.g_408|fb:part.g_451|fb:part.g_455|fb:part.g_486|fb:part.g_507|fb:part.g_616
+20	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+21	0	fb:cell.01_22_92	01/22/92	01\\/22\\/92	01\\/22\\/92	NN	DATE	XX92-01-22	1.0	xxxx-01-22	22.0	01|22|92	fb:part.01|fb:part.22|fb:part.92
+21	1	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+21	2	fb:cell.gba_3	GBA-3	gba-3	gba-3	NN	O		3.0			GBA-3	fb:part.gba_3
+21	3	fb:cell.gas_bridge_assembly_3	GAS Bridge Assembly-3	gas|bridge|assembly-3	gas|bridge|assembly-3	NN|NN|NN	O|O|O	||	3.0			GAS Bridge Assembly-3	fb:part.gas_bridge_assembly_3
+21	4	fb:cell.g_086_g_140_g_143_g_329_g_336_g_337_g_457_g_609_g_610_g_614	G-086\nG-140\nG-143\nG-329\nG-336\nG-337\nG-457\nG-609\nG-610\nG-614	g-086|g-140|g-143|g-329|g-336|g-337|g-457|g-609|g-610|g-614	g-086|g-140|g-143|g-329|g-336|g-337|g-457|g-609|g-610|g-614	NN|NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O|O	|||||||||	86.0		140.0	G-086|G-140|G-143|G-329|G-336|G-337|G-457|G-609|G-610|G-614	fb:part.g_086|fb:part.g_140|fb:part.g_143|fb:part.g_329|fb:part.g_336|fb:part.g_337|fb:part.g_457|fb:part.g_609|fb:part.g_610|fb:part.g_614
+21	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+22	0	fb:cell.08_02_91	08/02/91	08\\/02\\/91	08\\/02\\/91	NN	DATE	XX91-08-02	8.0	xxxx-08-02	2.0	08|02|91	fb:part.08|fb:part.02|fb:part.91
+22	1	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+22	2	fb:cell.tpce_01	TPCE-01	tpce-01	tpce-01	NN	O		1.0			TPCE-01	fb:part.tpce_01
+22	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+22	4	fb:cell.tpce_01	TPCE-01	tpce-01	tpce-01	NN	O		1.0			TPCE-01	fb:part.tpce_01
+22	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+23	0	fb:cell.03_24_92	03/24/92	03\\/24\\/92	03\\/24\\/92	NN	DATE	XX92-03-24	3.0	xxxx-03-24	24.0	03|24|92	fb:part.03|fb:part.24|fb:part.92
+23	1	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+23	2	fb:cell.g_229	G-229	g-229	g-229	NN	O		229.0			G-229	fb:part.g_229
+23	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+23	4	fb:cell.g_229	G-229	g-229	g-229	NN	O		229.0			G-229	fb:part.g_229
+23	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+24	0	fb:cell.07_31_92	07/31/92	07\\/31\\/92	07\\/31\\/92	NN	DATE	XX92-07-31	7.0	xxxx-07-31	31.0	07|31|92	fb:part.07|fb:part.31|fb:part.92
+24	1	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+24	2	fb:cell._acronym_title_consortium_complex_autonomous_payload_concap_iv_03_acronym_ii_01_concap_iii_01_acronym_title_limited_duration_space_environment_candidate_materials_exposure_acronym	<acronym title="Consortium Complex Autonomous Payload">CONCAP\nIV-03</acronym>-II-01\nCONCAP-III-01\n<acronym title="Limited Duration Space Environment Candidate Materials Exposure"></acronym>	<acronym title="consortium complex autonomous payload">|concap|iv-03|</acronym>|ii-01|concap|iii-01|<acronym title="limited duration space environment candidate materials exposure">|</acronym>	<acronym title="consortium complex autonomous payload">|concap|iv-03|</acronym>|ii-01|concap|iii-01|<acronym title="limited duration space environment candidate materials exposure">|</acronym>	NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O	||||||||	3.0		1.0	<acronym title="Consortium Complex Autonomous Payload">CONCAP|IV-03<|acronym>-II-01|CONCAP-III-01|<acronym title="Limited Duration Space Environment Candidate Materials Exposure"><|acronym>	fb:part._acronym_title_consortium_complex_autonomous_payload_concap|fb:part.iv_03|fb:part.acronym_ii_01|fb:part.concap_iii_01|fb:part._acronym_title_limited_duration_space_environment_candidate_materials_exposure|fb:part.acronym
+24	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+24	4	fb:cell._acronym_title_limited_duration_space_environment_candidate_materials_exposure_ldce_acronym_01_ldce_02_ldce_03	<acronym title="Limited Duration Space Environment Candidate Materials Exposure">LDCE</acronym>-01\nLDCE-02\nLDCE-03	<acronym title="limited duration space environment candidate materials exposure">|ldce|</acronym>|-01|ldce-02|ldce-03	<acronym title="limited duration space environment candidate materials exposure">|ldce|</acronym>|-01|ldce-02|ldce-03	NN|NN|NN|CD|NN|NN	O|O|O|NUMBER|O|O	|||-1.0||	1.0		2.0	<acronym title="Limited Duration Space Environment Candidate Materials Exposure">LDCE<|acronym>-01|LDCE-02|LDCE-03	fb:part._acronym_title_limited_duration_space_environment_candidate_materials_exposure_ldce|fb:part.acronym_01|fb:part.ldce_02|fb:part.ldce_03
+24	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+25	0	fb:cell.09_12_92	09/12/92	09\\/12\\/92	09\\/12\\/92	NN	DATE	XX92-09-12	9.0	xxxx-09-12	12.0	09|12|92	fb:part.09|fb:part.12|fb:part.92
+25	1	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+25	2	fb:cell.gba_4	GBA-4	gba-4	gba-4	NN	O		4.0			GBA-4	fb:part.gba_4
+25	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+25	4	fb:cell.g_102_g_255_g_300_g_330_g_482_g_520_g_521_g_534_g_613	G-102\nG-255\nG-300\nG-330\nG-482\nG-520\nG-521\nG-534\nG-613	g-102|g-255|g-300|g-330|g-482|g-520|g-521|g-534|g-613	g-102|g-255|g-300|g-330|g-482|g-520|g-521|g-534|g-613	NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O	||||||||	102.0		255.0	G-102|G-255|G-300|G-330|G-482|G-520|G-521|G-534|G-613	fb:part.g_102|fb:part.g_255|fb:part.g_300|fb:part.g_330|fb:part.g_482|fb:part.g_520|fb:part.g_521|fb:part.g_534|fb:part.g_613
+25	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+26	0	fb:cell.11_12_93	11/12/93	11\\/12\\/93	11\\/12\\/93	CD	DATE	XX93-11-12	11.0	xxxx-11-12	12.0	11|12|93	fb:part.11|fb:part.12|fb:part.93
+26	1	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+26	2	fb:cell.ldce_04_ldce_05	LDCE-04\nLDCE-05	ldce-04|ldce-05	ldce-04|ldce-05	NN|NN	O|O	|	4.0		5.0	LDCE-04|LDCE-05	fb:part.ldce_04|fb:part.ldce_05
+26	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+26	4	fb:cell.ldce_04_ldce_05	LDCE-04\nLDCE-05	ldce-04|ldce-05	ldce-04|ldce-05	NN|NN	O|O	|	4.0		5.0	LDCE-04|LDCE-05	fb:part.ldce_04|fb:part.ldce_05
+26	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+27	0	fb:cell.10_22_92	10/22/92	10\\/22\\/92	10\\/22\\/92	CD	DATE	XX92-10-22	10.0	xxxx-10-22	22.0	10|22|92	fb:part.10|fb:part.22|fb:part.92
+27	1	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+27	2	fb:cell._acronym_title_attitude_sensor_package_asp_acronym	<acronym title="Attitude Sensor Package">ASP</acronym>	<acronym title="attitude sensor package">|asp|</acronym>	<acronym title="attitude sensor package">|asp|</acronym>	NN|NN|NN	O|O|O	||				<acronym title="Attitude Sensor Package">ASP<|acronym>	fb:part._acronym_title_attitude_sensor_package_asp|fb:part.acronym
+27	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+27	4	fb:cell.attitude_sensor_package_asp	Attitude Sensor Package (ASP)	attitude|sensor|package|-lrb-|asp|-rrb-	attitude|sensor|package|-lrb-|asp|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Attitude Sensor Package (ASP)	fb:part.attitude_sensor_package_asp
+27	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+28	0	fb:cell.10_22_92	10/22/92	10\\/22\\/92	10\\/22\\/92	CD	DATE	XX92-10-22	10.0	xxxx-10-22	22.0	10|22|92	fb:part.10|fb:part.22|fb:part.92
+28	1	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+28	2	fb:cell.tpce_01	TPCE-01	tpce-01	tpce-01	NN	O		1.0			TPCE-01	fb:part.tpce_01
+28	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+28	4	fb:cell.tpce_01	TPCE-01	tpce-01	tpce-01	NN	O		1.0			TPCE-01	fb:part.tpce_01
+28	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+29	0	fb:cell.12_02_92	12/02/92	12\\/02\\/92	12\\/02\\/92	CD	DATE	XX92-12-02	12.0	xxxx-12-02	2.0	12|02|92	fb:part.12|fb:part.02|fb:part.92
+29	1	fb:cell.53	53	53	53	CD	NUMBER	53.0	53.0				
+29	2	fb:cell.gcp	GCP	gcp	gcp	NN	O					GCP	fb:part.gcp
+29	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+29	4	fb:cell.orbital_debris_radar_calibration_spheres_oderacs_1_cryogenic_heat_pipe_experiment_cryohp_shuttle_glow_glo_1	Orbital Debris\nRadar Calibration Spheres\n(ODERACS-1)\nCryogenic\nHeat Pipe\nExperiment\n(CRYOHP)\nShuttle Glow\n(GLO-1)	orbital|debris|radar|calibration|spheres|-lrb-|oderacs-1|-rrb-|cryogenic|heat|pipe|experiment|-lrb-|cryohp|-rrb-|shuttle|glow|-lrb-|glo-1|-rrb-	Orbital|Debris|Radar|Calibration|Spheres|-lrb-|oderacs-1|-rrb-|cryogenic|heat|Pipe|Experiment|-lrb-|CRYOHP|-rrb-|Shuttle|Glow|-lrb-|glo-1|-rrb-	NNP|NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-|JJ|NN|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||||	1.0		1.0	Orbital Debris|Radar Calibration Spheres|(ODERACS-1)|Cryogenic|Heat Pipe|Experiment|(CRYOHP)|Shuttle Glow|(GLO-1)	fb:part.orbital_debris|fb:part.radar_calibration_spheres|fb:part._oderacs_1|fb:part.cryogenic|fb:part.heat_pipe|fb:part.experiment|fb:part._cryohp|fb:part.shuttle_glow|fb:part._glo_1
+29	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+30	0	fb:cell.01_13_93	01/13/93	01\\/13\\/93	01\\/13\\/93	NN	DATE	XX93-01-13	1.0	xxxx-01-13	13.0	01|13|93	fb:part.01|fb:part.13|fb:part.93
+30	1	fb:cell.54	54	54	54	CD	NUMBER	54.0	54.0				
+30	2	fb:cell._acronym_title_diffuse_x_ray_spectrometer_dxs_acronym	<acronym title="Diffuse X-ray Spectrometer">DXS</acronym>	<acronym title="diffuse x ray spectrometer">|dxs|</acronym>	<acronym title="diffuse x ray spectrometer">|dx|</acronym>	NN|NN|NN	O|O|O	||				<acronym title="Diffuse X-ray Spectrometer">DXS<|acronym>	fb:part._acronym_title_diffuse_x_ray_spectrometer_dxs|fb:part.acronym
+30	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+30	4	fb:cell.diffuse_x_ray_spectrometer_dxs	Diffuse X-ray Spectrometer\n(DXS)	diffuse|x|ray|spectrometer|-lrb-|dxs|-rrb-	diffuse|x|ray|spectrometer|-lrb-|dx|-rrb-	JJ|NN|NN|NN|-LRB-|NN|-RRB-	MISC|O|O|O|O|O|O	||||||				Diffuse X-ray Spectrometer|(DXS)	fb:part.diffuse_x_ray_spectrometer|fb:part._dxs
+30	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+31	0	fb:cell.04_26_93	04/26/93	04\\/26\\/93	04\\/26\\/93	NN	DATE	XX93-04-26	4.0	xxxx-04-26	26.0	04|26|93	fb:part.04|fb:part.26|fb:part.93
+31	1	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+31	2	fb:cell._acronym_title_reaction_kinetics_in_glass_melts_rkgm_acronym	<acronym title="Reaction Kinetics in Glass Melts">RKGM</acronym>	<acronym title="reaction kinetics in glass melts">|rkgm|</acronym>	<acronym title="reaction kinetics in glass melts">|rkgm|</acronym>	NN|NN|NN	O|O|O	||				<acronym title="Reaction Kinetics in Glass Melts">RKGM<|acronym>	fb:part._acronym_title_reaction_kinetics_in_glass_melts_rkgm|fb:part.acronym
+31	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+31	4	fb:cell.rkgm	RKGM	rkgm	rkgm	NN	O					RKGM	fb:part.rkgm
+31	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+32	0	fb:cell.04_08_93	04/08/93	04\\/08\\/93	04\\/08\\/93	NN	DATE	XX93-04-08	4.0	xxxx-04-08	8.0	04|08|93	fb:part.04|fb:part.08|fb:part.93
+32	1	fb:cell.56	56	56	56	CD	NUMBER	56.0	56.0				
+32	2	fb:cell._acronym_title_solar_ultra_violet_experiment_suve_acronym	<acronym title="Solar Ultra-Violet Experiment">SUVE</acronym>	<acronym title="solar ultra violet experiment">|suve|</acronym>	<acronym title="solar ultra violet experiment">|suve|</acronym>	NN|NN|NN	O|O|O	||				<acronym title="Solar Ultra-Violet Experiment">SUVE<|acronym>	fb:part._acronym_title_solar_ultra_violet_experiment_suve|fb:part.acronym
+32	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+32	4	fb:cell.suve	SUVE	suve	suve	NN	O					SUVE	fb:part.suve
+32	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+33	0	fb:cell.06_21_93	06/21/93	06\\/21\\/93	06\\/21\\/93	NN	DATE	XX93-06-21	6.0	xxxx-06-21	21.0	06|21|93	fb:part.06|fb:part.21|fb:part.93
+33	1	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+33	2	fb:cell._acronym_title_super_fluid_helium_on_orbit_transfer_shoot_acronym	<acronym title="Super Fluid Helium On Orbit Transfer">SHOOT</acronym>	<acronym title="super fluid helium on orbit transfer">|shoot|</acronym>	<acronym title="Super Fluid Helium On Orbit Transfer">|SHOOT|</acronym>	NNP|NNP|NN	O|O|O	||				<acronym title="Super Fluid Helium On Orbit Transfer">SHOOT<|acronym>	fb:part._acronym_title_super_fluid_helium_on_orbit_transfer_shoot|fb:part.acronym
+33	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+33	4	fb:cell.super_fluid_helium_on_orbit_transfer_shoot_experiment	Super Fluid Helium\nOn Orbit Transfer (SHOOT)\nexperiment	super|fluid|helium|on|orbit|transfer|-lrb-|shoot|-rrb-|experiment	Super|Fluid|Helium|on|Orbit|transfer|-lrb-|shoot|-rrb-|experiment	NNP|NNP|NNP|IN|NNP|NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O|O|O|O|O|O	|||||||||				Super Fluid Helium|On Orbit Transfer (SHOOT)|experiment	fb:part.super_fluid_helium|fb:part.on_orbit_transfer_shoot|fb:part.experiment
+33	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+34	0	fb:cell.06_21_93	06/21/93	06\\/21\\/93	06\\/21\\/93	NN	DATE	XX93-06-21	6.0	xxxx-06-21	21.0	06|21|93	fb:part.06|fb:part.21|fb:part.93
+34	1	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+34	2	fb:cell.gba_5	GBA-5	gba-5	gba-5	NN	O		5.0			GBA-5	fb:part.gba_5
+34	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+34	4	fb:cell.concap_iv_01_g_022_g_324_g_399_g_450_g_452_g_453_g_454_g_535_g_601_g_647	CONCAP-IV-01\nG-022\nG-324\nG-399\nG-450\nG-452\nG-453\nG-454\nG-535\nG-601\nG-647	concap|iv-01|g-022|g-324|g-399|g-450|g-452|g-453|g-454|g-535|g-601|g-647	concap|iv-01|g-022|g-324|g-399|g-450|g-452|g-453|g-454|g-535|g-601|g-647	NN|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||	1.0		22.0	CONCAP-IV-01|G-022|G-324|G-399|G-450|G-452|G-453|G-454|G-535|G-601|G-647	fb:part.concap_iv_01|fb:part.g_022|fb:part.g_324|fb:part.g_399|fb:part.g_450|fb:part.g_452|fb:part.g_453|fb:part.g_454|fb:part.g_535|fb:part.g_601|fb:part.g_647
+34	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+35	0	fb:cell.04_09_94	04/09/94	04\\/09\\/94	04\\/09\\/94	NN	DATE	XX94-04-09	4.0	xxxx-04-09	9.0	04|09|94	fb:part.04|fb:part.09|fb:part.94
+35	1	fb:cell.59	59	59	59	CD	NUMBER	59.0	59.0				
+35	2	fb:cell.concap_iv_02_acronym_title_goddard_ground_support_equipment_acronym	CONCAP IV-02\n<acronym title="Goddard ground support equipment"></acronym>	concap|iv-02|<acronym title="goddard ground support equipment">|</acronym>	concap|iv-02|<acronym title="goddard ground support equipment">|</acronym>	NN|NN|NN|NN	O|O|O|O	|||	2.0			CONCAP IV-02|<acronym title="Goddard ground support equipment"><|acronym>	fb:part.concap_iv_02|fb:part._acronym_title_goddard_ground_support_equipment|fb:part.acronym
+35	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+35	4	fb:cell.concap_iv_02	CONCAP IV-02	concap|iv-02	concap|iv-02	NN|NN	O|O	|	2.0			CONCAP IV-02	fb:part.concap_iv_02
+35	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+36	0	fb:cell.04_09_94	04/09/94	04\\/09\\/94	04\\/09\\/94	NN	DATE	XX94-04-09	4.0	xxxx-04-09	9.0	04|09|94	fb:part.04|fb:part.09|fb:part.94
+36	1	fb:cell.59	59	59	59	CD	NUMBER	59.0	59.0				
+36	2	fb:cell.g_203_g_300_g_458	G-203\nG-300\nG-458	g-203|g-300|g-458	g-203|g-300|g-458	NN|NN|NN	O|O|O	||	203.0		300.0	G-203|G-300|G-458	fb:part.g_203|fb:part.g_300|fb:part.g_458
+36	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+36	4	fb:cell.g_203_g_300_g_458	G-203\nG-300\nG-458	g-203|g-300|g-458	g-203|g-300|g-458	NN|NN|NN	O|O|O	||	203.0		300.0	G-203|G-300|G-458	fb:part.g_203|fb:part.g_300|fb:part.g_458
+36	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+37	0	fb:cell.02_03_94	02/03/94	02\\/03\\/94	02\\/03\\/94	NN	DATE	XX94-02-03	2.0	xxxx-02-03	3.0	02|03|94	fb:part.02|fb:part.03|fb:part.94
+37	1	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+37	2	fb:cell.cob_gba_oderacs_1r_bremsat	COB/GBA\nODERACS-1R\nBREMSAT	cob\\/gba|oderacs-1r|bremsat	cob\\/gba|oderacs-1r|bremsat	NN|NN|NN	O|O|O	||	1.0			COB|GBA|ODERACS-1R|BREMSAT	fb:part.cob|fb:part.gba|fb:part.oderacs_1r|fb:part.bremsat
+37	3	fb:cell.gas_bridge_assembly_6_with_hitchhiker_avionic	GAS Bridge Assembly-6 with\nHitchhiker Avionic	gas|bridge|assembly-6|with|hitchhiker|avionic	gas|bridge|assembly-6|with|Hitchhiker|Avionic	NN|NN|NN|IN|NNP|NNP	O|O|O|O|PERSON|PERSON	|||||	6.0			GAS Bridge Assembly-6 with|Hitchhiker Avionic	fb:part.gas_bridge_assembly_6_with|fb:part.hitchhiker_avionic
+37	4	fb:cell.capillary_pumped_loop_capl_nasa_gsfc	Capillary Pumped Loop (CAPL),\nNASA GSFC	capillary|pumped|loop|-lrb-|capl|-rrb-|,|nasa|gsfc	Capillary|Pumped|Loop|-lrb-|CAPL|-rrb-|,|NASA|GSFC	NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP	O|O|O|O|O|O|O|ORGANIZATION|O	||||||||				Capillary Pumped Loop (CAPL)|NASA GSFC	fb:part.capillary_pumped_loop_capl|fb:part.nasa_gsfc
+37	5	fb:cell.gba_w_hh_avionics	GBA\nw/ HH Avionics	gba|w|\\/|hh|avionics	gba|w|\\/|HH|Avionics	NN|NN|:|NNP|NNP	O|O|O|O|MISC	||||				GBA|w|HH Avionics	fb:part.gba|fb:part.w|fb:part.hh_avionics
+38	0	fb:cell.02_03_94	02/03/94	02\\/03\\/94	02\\/03\\/94	NN	DATE	XX94-02-03	2.0	xxxx-02-03	3.0	02|03|94	fb:part.02|fb:part.03|fb:part.94
+38	1	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+38	2	fb:cell.cob_gba_oderacs_1r_bremsat	COB/GBA\nODERACS-1R\nBREMSAT	cob\\/gba|oderacs-1r|bremsat	cob\\/gba|oderacs-1r|bremsat	NN|NN|NN	O|O|O	||	1.0			COB|GBA|ODERACS-1R|BREMSAT	fb:part.cob|fb:part.gba|fb:part.oderacs_1r|fb:part.bremsat
+38	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+38	4	fb:cell.orbital_debris_radar_calibration_spheres_oderacs_1r_usaf	Orbital Debris Radar Calibration\nSpheres (ODERACS-1R),\nUSAF	orbital|debris|radar|calibration|spheres|-lrb-|oderacs-1r|-rrb-|,|usaf	Orbital|Debris|Radar|Calibration|Spheres|-lrb-|oderacs-1r|-rrb-|,|usaf	NNP|NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NN	O|O|O|O|O|O|O|O|O|ORGANIZATION	|||||||||	1.0			Orbital Debris Radar Calibration|Spheres (ODERACS-1R)|USAF	fb:part.orbital_debris_radar_calibration|fb:part.spheres_oderacs_1r|fb:part.usaf
+38	5	fb:cell.gba_w_hh_avionics	GBA\nw/ HH Avionics	gba|w|\\/|hh|avionics	gba|w|\\/|HH|Avionics	NN|NN|:|NNP|NNP	O|O|O|O|MISC	||||				GBA|w|HH Avionics	fb:part.gba|fb:part.w|fb:part.hh_avionics
+39	0	fb:cell.02_03_94_2	02/03/\n94	02\\/03|\\/|94	02\\/03|\\/|94	CD|:|CD	NUMBER|O|NUMBER	||94.0	2.0		3.0	02|03|94	fb:part.02|fb:part.03|fb:part.94
+39	1	fb:cell.6_0	6 0	6|0	6|0	CD|CD	NUMBER|NUMBER	6.0|6.0	60.0				
+39	2	fb:cell.cob_gba_oderacs_1r_bremsat	COB/GBA\nODERACS-1R\nBREMSAT	cob\\/gba|oderacs-1r|bremsat	cob\\/gba|oderacs-1r|bremsat	NN|NN|NN	O|O|O	||	1.0			COB|GBA|ODERACS-1R|BREMSAT	fb:part.cob|fb:part.gba|fb:part.oderacs_1r|fb:part.bremsat
+39	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+39	4	fb:cell.breman_satellite_bremsat_university_of_bremen	BREMAN Satellite (BREMSAT),\nUniversity of\nBremen	breman|satellite|-lrb-|bremsat|-rrb-|,|university|of|bremen	BREMAN|Satellite|-lrb-|BREMSAT|-rrb-|,|University|of|Bremen	NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|IN|NNP	O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||||				BREMAN Satellite (BREMSAT)|University of|Bremen	fb:part.breman_satellite_bremsat|fb:part.university_of|fb:part.bremen
+39	5	fb:cell.gba_w_hh_avionics	GBA\nw/ HH Avionics	gba|w|\\/|hh|avionics	gba|w|\\/|HH|Avionics	NN|NN|:|NNP|NNP	O|O|O|O|MISC	||||				GBA|w|HH Avionics	fb:part.gba|fb:part.w|fb:part.hh_avionics
+40	0	fb:cell.02_03_94	02/03/94	02\\/03\\/94	02\\/03\\/94	NN	DATE	XX94-02-03	2.0	xxxx-02-03	3.0	02|03|94	fb:part.02|fb:part.03|fb:part.94
+40	1	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+40	2	fb:cell.cob_gba_oderacs_1r_bremsat	COB/GBA\nODERACS-1R\nBREMSAT	cob\\/gba|oderacs-1r|bremsat	cob\\/gba|oderacs-1r|bremsat	NN|NN|NN	O|O|O	||	1.0			COB|GBA|ODERACS-1R|BREMSAT	fb:part.cob|fb:part.gba|fb:part.oderacs_1r|fb:part.bremsat
+40	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+40	4	fb:cell.g_071_g_514_g_536_g_557	G-071\nG-514\nG-536\nG-557	g-071|g-514|g-536|g-557	g-071|g-514|g-536|g-557	NN|NN|NN|NN	O|O|O|O	|||	71.0		514.0	G-071|G-514|G-536|G-557	fb:part.g_071|fb:part.g_514|fb:part.g_536|fb:part.g_557
+40	5	fb:cell.gba_w_hh_avionics	GBA\nw/ HH Avionics	gba|w|\\/|hh|avionics	gba|w|\\/|HH|Avionics	NN|NN|:|NNP|NNP	O|O|O|O|MISC	||||				GBA|w|HH Avionics	fb:part.gba|fb:part.w|fb:part.hh_avionics
+41	0	fb:cell.03_04_94	03/04/94	03\\/04\\/94	03\\/04\\/94	NN	DATE	XX94-03-04	3.0	xxxx-03-04	4.0	03|04|94	fb:part.03|fb:part.04|fb:part.94
+41	1	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+41	2	fb:cell.ldce_06_ldce_07_ldce_08	LDCE-06\nLDCE-07\nLDCE-08	ldce-06|ldce-07|ldce-08	ldce-06|ldce-07|ldce-08	NN|NN|NN	O|O|O	||	6.0		7.0	LDCE-06|LDCE-07|LDCE-08	fb:part.ldce_06|fb:part.ldce_07|fb:part.ldce_08
+41	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+41	4	fb:cell.ldce_06_ldce_07_ldce_08	LDCE-06\nLDCE-07\nLDCE-08	ldce-06|ldce-07|ldce-08	ldce-06|ldce-07|ldce-08	NN|NN|NN	O|O|O	||	6.0		7.0	LDCE-06|LDCE-07|LDCE-08	fb:part.ldce_06|fb:part.ldce_07|fb:part.ldce_08
+41	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+42	0	fb:cell.03_04_94	03/04/94	03\\/04\\/94	03\\/04\\/94	NN	DATE	XX94-03-04	3.0	xxxx-03-04	4.0	03|04|94	fb:part.03|fb:part.04|fb:part.94
+42	1	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+42	2	fb:cell._acronym_title_office_of_aeronautics_and_space_technology_oast_acronym_2	<acronym title="Office of Aeronautics and Space Technology">OAST</acronym>-2	<acronym title="office of aeronautics and space technology">|oast|</acronym>|-2	<acronym title="Office of Aeronautics and Space Technology">|OAST|</acronym>|-2	NNP|NNP|VBD|CD	O|O|O|NUMBER	|||-2.0	2.0			<acronym title="Office of Aeronautics and Space Technology">OAST<|acronym>-2	fb:part._acronym_title_office_of_aeronautics_and_space_technology_oast|fb:part.acronym_2
+42	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+42	4	fb:cell.thermal_energy_storage_tes_1_tes_2	Thermal Energy Storage\n(TES-1,\nTES-2)	thermal|energy|storage|-lrb-|tes-1|,|tes-2|-rrb-	thermal|Energy|Storage|-lrb-|TES-1|,|tes-2|-rrb-	JJ|NNP|NNP|-LRB-|NNP|,|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||	1.0		2.0	Thermal Energy Storage|(TES-1|TES-2)	fb:part.thermal_energy_storage|fb:part._tes_1|fb:part.tes_2
+42	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+43	0	fb:cell.03_04_94	03/04/94	03\\/04\\/94	03\\/04\\/94	NN	DATE	XX94-03-04	3.0	xxxx-03-04	4.0	03|04|94	fb:part.03|fb:part.04|fb:part.94
+43	1	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+43	2	fb:cell._acronym_title_office_of_aeronautics_and_space_technology_oast_acronym_2	<acronym title="Office of Aeronautics and Space Technology">OAST</acronym>-2	<acronym title="office of aeronautics and space technology">|oast|</acronym>|-2	<acronym title="Office of Aeronautics and Space Technology">|OAST|</acronym>|-2	NNP|NNP|VBD|CD	O|O|O|NUMBER	|||-2.0	2.0			<acronym title="Office of Aeronautics and Space Technology">OAST<|acronym>-2	fb:part._acronym_title_office_of_aeronautics_and_space_technology_oast|fb:part.acronym_2
+43	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+43	4	fb:cell.cryogenic_two_phase_cryotp_nasa_gsfc_usaf_phillips_lab_emulsion_chamber_technology_ect_nasa_msfc_experimental_investigation_of_spacecraft_glow_eisg_nasa_jsc_nasa_gsfc_solar_array_module_plasma_interaction_experiment_sampie_nasa_lerc_spacecraft_kinetic_infrared_test_skirt_nasa_jsc_nasa_gsfc	Cryogenic Two Phase (CRYOTP), NASA GSFC/USAF Phillips Lab\nEmulsion Chamber Technology (ECT), NASA MSFC\nExperimental Investigation of Spacecraft Glow (EISG), NASA JSC/NASA GSFC\nSolar Array Module Plasma Interaction Experiment\n(SAMPIE), NASA\nLeRC\nSpacecraft Kinetic Infrared Test\n(SKIRT), NASA\nJSC/ NASA GSFC	cryogenic|two|phase|-lrb-|cryotp|-rrb-|,|nasa|gsfc\\/usaf|phillips|lab|emulsion|chamber|technology|-lrb-|ect|-rrb-|,|nasa|msfc|experimental|investigation|of|spacecraft|glow|-lrb-|eisg|-rrb-|,|nasa|jsc\\/nasa|gsfc|solar|array|module|plasma|interaction|experiment|-lrb-|sampie|-rrb-|,|nasa|lerc|spacecraft|kinetic|infrared|test|-lrb-|skirt|-rrb-|,|nasa|jsc|\\/|nasa|gsfc	cryogenic|two|phase|-lrb-|cryotp|-rrb-|,|NASA|GSFC\\/USAF|Phillips|Lab|Emulsion|Chamber|Technology|-lrb-|ECT|-rrb-|,|NASA|MSFC|experimental|investigation|of|spacecraft|glow|-lrb-|eisg|-rrb-|,|NASA|JSC\\/NASA|GSFC|Solar|Array|Module|plasma|interaction|experiment|-lrb-|sampie|-rrb-|,|NASA|LeRC|Spacecraft|kinetic|infrared|test|-lrb-|skirt|-rrb-|,|NASA|JSC|\\/|NASA|GSFC	JJ|CD|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|JJ|NN|IN|NN|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|NNP|NNP|NNP|NN|NN|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|JJ|JJ|NN|-LRB-|NN|-RRB-|,|NNP|NNP|:|NNP|NNP	MISC|NUMBER|MISC|O|O|O|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|ORGANIZATION|O	|2.0|||||||||||||||||||||||||||||||||||||||||||||||||||||||				Cryogenic Two Phase (CRYOTP)|NASA GSFC|USAF Phillips Lab|Emulsion Chamber Technology (ECT)|NASA MSFC|Experimental Investigation of Spacecraft Glow (EISG)|NASA JSC|NASA GSFC|Solar Array Module Plasma Interaction Experiment|(SAMPIE)|NASA|LeRC|Spacecraft Kinetic Infrared Test|(SKIRT)|NASA|JSC|NASA GSFC	fb:part.cryogenic_two_phase_cryotp|fb:part.nasa_gsfc|fb:part.usaf_phillips_lab|fb:part.emulsion_chamber_technology_ect|fb:part.nasa_msfc|fb:part.experimental_investigation_of_spacecraft_glow_eisg|fb:part.nasa_jsc|fb:part.nasa_gsfc|fb:part.solar_array_module_plasma_interaction_experiment|fb:part._sampie|fb:part.nasa|fb:part.lerc|fb:part.spacecraft_kinetic_infrared_test|fb:part._skirt|fb:part.nasa|fb:part.jsc|fb:part.nasa_gsfc
+43	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+44	0	fb:cell.02_03_95	02/03/95	02\\/03\\/95	02\\/03\\/95	CD	DATE	XX95-02-03	2.0	xxxx-02-03	3.0	02|03|95	fb:part.02|fb:part.03|fb:part.95
+44	1	fb:cell.63	63	63	63	CD	NUMBER	63.0	63.0				
+44	2	fb:cell.cgp_acronym_title_orbital_debris_radar_calibration_sphere_oderacs_acronym_2	CGP/<acronym title="orbital debris radar calibration sphere">ODERACS</acronym>-2	cgp|\\/|<acronym title="orbital debris radar calibration sphere">|oderacs|</acronym>|-2	cgp|\\/|<acronym title="orbital debris radar calibration sphere">|oderac|</acronym>|-2	NN|:|JJ|NN|NN|CD	O|O|O|O|O|NUMBER	|||||-2.0	2.0			CGP|<acronym title="orbital debris radar calibration sphere">ODERACS<|acronym>-2	fb:part.cgp|fb:part._acronym_title_orbital_debris_radar_calibration_sphere_oderacs|fb:part.acronym_2
+44	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+44	4	fb:cell.cryo_system_experiment_cse_hughes_shuttle_glow_glo_2_u_of_az_imax_cargo_bay_camera_icbc_orbital_debris_radar_calibration_system_ii_oderacs_ii_usaf	Cryo System Experiment (CSE), Hughes\nShuttle Glow\n(GLO-2), U of AZ\nIMAX Cargo Bay Camera (ICBC)\nOrbital Debris\nRadar Calibration System-II\n(ODERACS-II),\nUSAF	cryo|system|experiment|-lrb-|cse|-rrb-|,|hughes|shuttle|glow|-lrb-|glo-2|-rrb-|,|u|of|az|imax|cargo|bay|camera|-lrb-|icbc|-rrb-|orbital|debris|radar|calibration|system|ii|-lrb-|oderacs|ii|-rrb-|,|usaf	Cryo|System|Experiment|-lrb-|CSE|-rrb-|,|Hughes|Shuttle|Glow|-lrb-|glo-2|-rrb-|,|u|of|AZ|IMAX|Cargo|Bay|Camera|-lrb-|ICBC|-rrb-|Orbital|Debris|Radar|Calibration|System|II|-lrb-|ODERACS|II|-rrb-|,|usaf	NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NN|IN|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|NNP|-RRB-|,|NN	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION	|||||||||||||||||||||||||||||||||||	2.0			Cryo System Experiment (CSE)|Hughes|Shuttle Glow|(GLO-2)|U of AZ|IMAX Cargo Bay Camera (ICBC)|Orbital Debris|Radar Calibration System-II|(ODERACS-II)|USAF	fb:part.cryo_system_experiment_cse|fb:part.hughes|fb:part.shuttle_glow|fb:part._glo_2|fb:part.u_of_az|fb:part.imax_cargo_bay_camera_icbc|fb:part.orbital_debris|fb:part.radar_calibration_system_ii|fb:part._oderacs_ii|fb:part.usaf
+44	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+45	0	fb:cell.09_09_94	09/09/94	09\\/09\\/94	09\\/09\\/94	NN	DATE	XX94-09-09	9.0	xxxx-09-09	9.0	09|09|94	fb:part.09|fb:part.09|fb:part.94
+45	1	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0				
+45	2	fb:cell._acronym_title_robot_operated_materials_processing_system_romps_acronym_1	<acronym title="Robot Operated Materials Processing\nSystem">ROMPS</acronym>-1	<|acronym|title|=|``|robot|operated|materials|processing|system|''|>|romps|</acronym>|-1	<|acronym|title|=|``|Robot|Operated|Materials|Processing|System|''|>|romp|</acronym>|-1	JJR|NN|NN|JJ|``|NNP|NNP|NNPS|NNP|NNP|''|JJR|NNS|RB|CD	O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER	||||||||||||||-1.0	1.0			<acronym title="Robot Operated Materials Processing|System">ROMPS<|acronym>-1	fb:part._acronym_title_robot_operated_materials_processing|fb:part.system_romps|fb:part.acronym_1
+45	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+45	4	fb:cell.robot_operated_materials_processing_system_romps	Robot Operated Materials Processing\nSystem (ROMPS)	robot|operated|materials|processing|system|-lrb-|romps|-rrb-	Robot|Operated|Materials|Processing|System|-lrb-|ROMPS|-rrb-	NNP|NNP|NNPS|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|O	|||||||				Robot Operated Materials Processing|System (ROMPS)	fb:part.robot_operated_materials_processing|fb:part.system_romps_2
+45	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+46	0	fb:cell.09_09_94	09/09/94	09\\/09\\/94	09\\/09\\/94	NN	DATE	XX94-09-09	9.0	xxxx-09-09	9.0	09|09|94	fb:part.09|fb:part.09|fb:part.94
+46	1	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0				
+46	2	fb:cell.gba_7	GBA-7	gba-7	gba-7	NN	O		7.0			GBA-7	fb:part.gba_7
+46	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+46	4	fb:cell.g_178_g_254_g_325_g_417_g_453_g_454_g_456_g_485_g_506_g_562	G-178\nG-254\nG-325\nG-417\nG-453\nG-454\nG-456\nG-485\nG-506\nG-562	g-178|g-254|g-325|g-417|g-453|g-454|g-456|g-485|g-506|g-562	g-178|g-254|g-325|g-417|g-453|g-454|g-456|g-485|g-506|g-562	NN|NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O|O	|||||||||	178.0		254.0	G-178|G-254|G-325|G-417|G-453|G-454|G-456|G-485|G-506|G-562	fb:part.g_178|fb:part.g_254|fb:part.g_325|fb:part.g_417|fb:part.g_453|fb:part.g_454|fb:part.g_456|fb:part.g_485|fb:part.g_506|fb:part.g_562
+46	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+47	0	fb:cell.11_03_94	11/03/94	11\\/03\\/94	11\\/03\\/94	CD	DATE	XX94-11-03	11.0	xxxx-11-03	3.0	11|03|94	fb:part.11|fb:part.03|fb:part.94
+47	1	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+47	2	fb:cell.escape_2	ESCAPE-2	escape-2	escape-2	NN	O		2.0			ESCAPE-2	fb:part.escape_2
+47	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+47	4	fb:cell.escape_2	ESCAPE-2	escape-2	escape-2	NN	O		2.0			ESCAPE-2	fb:part.escape_2
+47	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+48	0	fb:cell.03_02_95	03/02/95	03\\/02\\/95	03\\/02\\/95	CD	DATE	XX95-03-02	3.0	xxxx-03-02	2.0	03|02|95	fb:part.03|fb:part.02|fb:part.95
+48	1	fb:cell.67	67	67	67	CD	NUMBER	67.0	67.0				
+48	2	fb:cell.g_387_g_388	G-387\nG-388	g-387|g-388	g-387|g-388	NN|NN	O|O	|	387.0		388.0	G-387|G-388	fb:part.g_387|fb:part.g_388
+48	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+48	4	fb:cell.g_387_g_388	G-387\nG-388	g-387|g-388	g-387|g-388	NN|NN	O|O	|	387.0		388.0	G-387|G-388	fb:part.g_387|fb:part.g_388
+48	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+49	0	fb:cell.09_30_94	09/30/94	09\\/30\\/94	09\\/30\\/94	NN	DATE	XX94-09-30	9.0	xxxx-09-30	30.0	09|30|94	fb:part.09|fb:part.30|fb:part.94
+49	1	fb:cell.68	68	68	68	CD	NUMBER	68.0	68.0				
+49	2	fb:cell.g_316_g_503_g_541	G-316\nG-503\nG-541	g-316|g-503|g-541	g-316|g-503|g-541	NN|NN|NN	O|O|O	||	316.0		503.0	G-316|G-503|G-541	fb:part.g_316|fb:part.g_503|fb:part.g_541
+49	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+49	4	fb:cell.g_316_g_503_g_541	G-316\nG-503\nG-541	g-316|g-503|g-541	g-316|g-503|g-541	NN|NN|NN	O|O|O	||	316.0		503.0	G-316|G-503|G-541	fb:part.g_316|fb:part.g_503|fb:part.g_541
+49	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+50	0	fb:cell.09_07_95	09/07/95	09\\/07\\/95	09\\/07\\/95	CD	DATE	XX95-09-07	9.0	xxxx-09-07	7.0	09|07|95	fb:part.09|fb:part.07|fb:part.95
+50	1	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+50	2	fb:cell._acronym_title_international_euv_hitchhiker_ieh_1_acronym	<acronym title="International EUV Hitchhiker">IEH-1</acronym>	<acronym title="international euv hitchhiker">|ieh-1|</acronym>	<acronym title="international euv hitchhiker">|ieh-1|</acronym>	NN|NN|NN	O|O|O	||	1.0			<acronym title="International EUV Hitchhiker">IEH-1<|acronym>	fb:part._acronym_title_international_euv_hitchhiker_ieh_1|fb:part.acronym
+50	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+50	4	fb:cell.ultraviolet_spectrograph_telescope_for_astronomical_research_uvstar_u_of_az_esa_shuttle_glow_experiment_3_glo_3_u_of_az_solar_extreme_ultraviolet_hh_seh_usc	Ultraviolet Spectrograph\nTelescope for Astronomical\nResearch\n(UVSTAR), U of AZ/ESA\nShuttle Glow Experiment-3\n(GLO-3), U of AZ\nSolar Extreme Ultraviolet HH\n(SEH), USC	ultraviolet|spectrograph|telescope|for|astronomical|research|-lrb-|uvstar|-rrb-|,|u|of|az\\/esa|shuttle|glow|experiment-3|-lrb-|glo-3|-rrb-|,|u|of|az|solar|extreme|ultraviolet|hh|-lrb-|seh|-rrb-|,|usc	Ultraviolet|Spectrograph|Telescope|for|Astronomical|Research|-lrb-|UVSTAR|-rrb-|,|U|of|AZ\\/ESA|Shuttle|Glow|experiment-3|-lrb-|glo-3|-rrb-|,|u|of|AZ|Solar|Extreme|Ultraviolet|hh|-lrb-|seh|-rrb-|,|usc	NNP|NNP|NNP|IN|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|IN|NNP|NNP|NNP|NN|-LRB-|NN|-RRB-|,|NN|IN|NNP|NNP|NNP|NNP|NN|-LRB-|NN|-RRB-|,|NN	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION	|||||||||||||||||||||||||||||||	3.0		3.0	Ultraviolet Spectrograph|Telescope for Astronomical|Research|(UVSTAR)|U of AZ|ESA|Shuttle Glow Experiment-3|(GLO-3)|U of AZ|Solar Extreme Ultraviolet HH|(SEH)|USC	fb:part.ultraviolet_spectrograph|fb:part.telescope_for_astronomical|fb:part.research|fb:part._uvstar|fb:part.u_of_az|fb:part.esa|fb:part.shuttle_glow_experiment_3|fb:part._glo_3|fb:part.u_of_az|fb:part.solar_extreme_ultraviolet_hh|fb:part._seh|fb:part.usc
+50	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+51	0	fb:cell.09_07_95	09/07/95	09\\/07\\/95	09\\/07\\/95	CD	DATE	XX95-09-07	9.0	xxxx-09-07	7.0	09|07|95	fb:part.09|fb:part.07|fb:part.95
+51	1	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+51	2	fb:cell.ieh_1	IEH-1	ieh-1	ieh-1	NN	O		1.0			IEH-1	fb:part.ieh_1
+51	3	fb:cell.hh_jr	HH-Jr.	hh|jr.|.	HH|Jr.|.	NNP|NNP|.	O|O|O	||				HH-Jr.	fb:part.hh_jr
+51	4	fb:cell.complex_autonomous_payload_concap_iv_03_u_of_al	Complex\nAutonomous\nPayload\n(CONCAP IV-03),\nU of AL	complex|autonomous|payload|-lrb-|concap|iv-03|-rrb-|,|u|of|al	complex|Autonomous|Payload|-lrb-|CONCAP|iv-03|-rrb-|,|U|of|AL	NN|NNP|NNP|-LRB-|NNP|NN|-RRB-|,|NNP|IN|NNP	O|O|O|O|O|O|O|O|O|O|O	||||||||||	3.0			Complex|Autonomous|Payload|(CONCAP IV-03)|U of AL	fb:part.complex|fb:part.autonomous|fb:part.payload|fb:part._concap_iv_03|fb:part.u_of_al
+51	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+52	0	fb:cell.09_07_95	09/07/95	09\\/07\\/95	09\\/07\\/95	CD	DATE	XX95-09-07	9.0	xxxx-09-07	7.0	09|07|95	fb:part.09|fb:part.07|fb:part.95
+52	1	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+52	2	fb:cell._acronym_title_capillary_pumped_loop_get_away_special_bridge_assembly_capl_gba_acronym	<acronym title="Capillary Pumped Loop/Get Away Special Bridge Assembly">CAPL/GBA</acronym>	<acronym title="capillary pumped loop/get away special bridge assembly">|capl\\/gba|</acronym>	<acronym title="capillary pumped loop/get away special bridge assembly">|capl\\/gba|</acronym>	NN|NN|NN	O|O|O	||				<acronym title="Capillary Pumped Loop|Get Away Special Bridge Assembly">CAPL|GBA<|acronym>	fb:part._acronym_title_capillary_pumped_loop|fb:part.get_away_special_bridge_assembly_capl|fb:part.gba_6|fb:part.acronym
+52	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+52	4	fb:cell.capillary_pumped_loop_capl_2_nasa_gsfc	Capillary Pumped Loop (CAPL-2), NASA/GSFC	capillary|pumped|loop|-lrb-|capl-2|-rrb-|,|nasa\\/gsfc	Capillary|Pumped|Loop|-lrb-|capl-2|-rrb-|,|nasa\\/gsfc	NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NN	O|O|O|O|O|O|O|O	|||||||	2.0			Capillary Pumped Loop (CAPL-2)|NASA|GSFC	fb:part.capillary_pumped_loop_capl_2|fb:part.nasa|fb:part.gsfc
+52	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+53	0	fb:cell.09_07_95	09/07/95	09\\/07\\/95	09\\/07\\/95	CD	DATE	XX95-09-07	9.0	xxxx-09-07	7.0	09|07|95	fb:part.09|fb:part.07|fb:part.95
+53	1	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+53	2	fb:cell.capl_gba	CAPL/GBA	capl\\/gba	capl\\/gba	NN	O					CAPL|GBA	fb:part.capl|fb:part.gba
+53	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+53	4	fb:cell.tes_2	TES-2	tes-2	tes-2	NN	O		2.0			TES-2	fb:part.tes_2_2
+53	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+54	0	fb:cell.09_07_95	09/07/95	09\\/07\\/95	09\\/07\\/95	CD	DATE	XX95-09-07	9.0	xxxx-09-07	7.0	09|07|95	fb:part.09|fb:part.07|fb:part.95
+54	1	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+54	2	fb:cell.capl_gba	CAPL/GBA	capl\\/gba	capl\\/gba	NN	O					CAPL|GBA	fb:part.capl|fb:part.gba
+54	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+54	4	fb:cell.g_515_g_645_sre_g_702_sre_g_726	G-515\nG-645/SRE\nG-702/SRE\nG-726	g-515|g-645|\\/|sre|g-702|\\/|sre|g-726	g-515|g-645|\\/|sre|g-702|\\/|sre|g-726	NN|NN|:|NN|NN|:|NN|NN	O|O|O|O|O|O|O|O	|||||||	515.0		645.0	G-515|G-645|SRE|G-702|SRE|G-726	fb:part.g_515|fb:part.g_645|fb:part.sre|fb:part.g_702|fb:part.sre|fb:part.g_726
+54	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+55	0	fb:cell.01_11_96	01/11/96	01\\/11\\/96	01\\/11\\/96	CD	DATE	XX96-01-11	1.0	xxxx-01-11	11.0	01|11|96	fb:part.01|fb:part.11|fb:part.96
+55	1	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+55	2	fb:cell.sla_01	SLA-01	sla-01	sla-01	NN	O		1.0			SLA-01	fb:part.sla_01
+55	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+55	4	fb:cell.shuttle_laser_altimeter_01_sla_01_nasa_gsfc	Shuttle Laser Altimeter-01 (SLA-01), NASA/GSFC	shuttle|laser|altimeter-01|-lrb-|sla-01|-rrb-|,|nasa\\/gsfc	Shuttle|Laser|altimeter-01|-lrb-|sla-01|-rrb-|,|nasa\\/gsfc	NNP|NNP|NN|-LRB-|NN|-RRB-|,|NN	O|O|O|O|O|O|O|O	|||||||	1.0		1.0	Shuttle Laser Altimeter-01 (SLA-01)|NASA|GSFC	fb:part.shuttle_laser_altimeter_01_sla_01|fb:part.nasa|fb:part.gsfc
+55	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+56	0	fb:cell.01_11_96	01/11/96	01\\/11\\/96	01\\/11\\/96	CD	DATE	XX96-01-11	1.0	xxxx-01-11	11.0	01|11|96	fb:part.01|fb:part.11|fb:part.96
+56	1	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+56	2	fb:cell.sla_01	SLA-01	sla-01	sla-01	NN	O		1.0			SLA-01	fb:part.sla_01
+56	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+56	4	fb:cell.tes_2	TES-2	tes-2	tes-2	NN	O		2.0			TES-2	fb:part.tes_2_2
+56	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+57	0	fb:cell.01_11_96	01/11/96	01\\/11\\/96	01\\/11\\/96	CD	DATE	XX96-01-11	1.0	xxxx-01-11	11.0	01|11|96	fb:part.01|fb:part.11|fb:part.96
+57	1	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+57	2	fb:cell.sla_01	SLA-01	sla-01	sla-01	NN	O		1.0			SLA-01	fb:part.sla_01
+57	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+57	4	fb:cell.g_342_g_459_g_740	G-342\nG-459\nG-740	g-342|g-459|g-740	g-342|g-459|g-740	NN|NN|NN	O|O|O	||	342.0		459.0	G-342|G-459|G-740	fb:part.g_342|fb:part.g_459|fb:part.g_740
+57	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+58	0	fb:cell.01_11_96	01/11/96	01\\/11\\/96	01\\/11\\/96	CD	DATE	XX96-01-11	1.0	xxxx-01-11	11.0	01|11|96	fb:part.01|fb:part.11|fb:part.96
+58	1	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+58	2	fb:cell.sla_01	SLA-01	sla-01	sla-01	NN	O		1.0			SLA-01	fb:part.sla_01
+58	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+58	4	fb:cell.shuttle_laser_altimeter_01_sla_01_nasa_gsfc_2	Shuttle Laser Altimeter-01(SLA-01),\nNASA/GSFC	shuttle|laser|altimeter-01|-lrb-|sla-01|-rrb-|,|nasa\\/gsfc	Shuttle|Laser|altimeter-01|-lrb-|sla-01|-rrb-|,|nasa\\/gsfc	NNP|NNP|NN|-LRB-|NN|-RRB-|,|NN	O|O|O|O|O|O|O|O	|||||||	1.0		1.0	Shuttle Laser Altimeter-01(SLA-01)|NASA|GSFC	fb:part.shuttle_laser_altimeter_01_sla_01_2|fb:part.nasa|fb:part.gsfc
+58	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+59	0	fb:cell.11_12_95	11/12/95	11\\/12\\/95	11\\/12\\/95	CD	DATE	XX95-11-12	11.0	xxxx-11-12	12.0	11|12|95	fb:part.11|fb:part.12|fb:part.95
+59	1	fb:cell.74	74	74	74	CD	NUMBER	74.0	74.0				
+59	2	fb:cell.gpp	GPP	gpp	gpp	NN	O					GPP	fb:part.gpp
+59	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+59	4	fb:cell.shuttle_glow_experiment_glo_4_photogrammetric_appendage_structural_dynamics_experiment_payload_pasde_01	Shuttle Glow Experiment (GLO-4)\nPhotogrammetric Appendage Structural Dynamics Experiment Payload (PASDE-01)	shuttle|glow|experiment|-lrb-|glo-4|-rrb-|photogrammetric|appendage|structural|dynamics|experiment|payload|-lrb-|pasde-01|-rrb-	shuttle|glow|experiment|-lrb-|glo-4|-rrb-|Photogrammetric|Appendage|Structural|Dynamics|Experiment|Payload|-lrb-|pasde-01|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-|NNP|NNP|NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||	4.0		1.0	Shuttle Glow Experiment (GLO-4)|Photogrammetric Appendage Structural Dynamics Experiment Payload (PASDE-01)	fb:part.shuttle_glow_experiment_glo_4|fb:part.photogrammetric_appendage_structural_dynamics_experiment_payload_pasde_01
+59	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+60	0	fb:cell.03_22_96	03/22/96	03\\/22\\/96	03\\/22\\/96	CD	DATE	XX96-03-22	3.0	xxxx-03-22	22.0	03|22|96	fb:part.03|fb:part.22|fb:part.96
+60	1	fb:cell.76	76	76	76	CD	NUMBER	76.0	76.0				
+60	2	fb:cell.g_312	G-312	g-312	g-312	NN	O		312.0			G-312	fb:part.g_312
+60	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+60	4	fb:cell.g_312	G-312	g-312	g-312	NN	O		312.0			G-312	fb:part.g_312
+60	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+61	0	fb:cell.05_19_96	05/19/96	05\\/19\\/96	05\\/19\\/96	CD	DATE	XX96-05-19	5.0	xxxx-05-19	19.0	05|19|96	fb:part.05|fb:part.19|fb:part.96
+61	1	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+61	2	fb:cell.teams	TEAMS	teams	team	NNS	O					TEAMS	fb:part.teams
+61	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+61	4	fb:cell.vented_tank_resupply_experiment_vtre_nasa_lerc_gps_attitude_and_navigation_experiment_gane_nasa_jsc_liquid_metal_thermal_experiment_lmte_usaf_phillips_laboratory_passive_aerodynamically_stabilized_magnetically_damped_satellite_pams_nasa_gsfc	Vented Tank Resupply Experiment (VTRE), NASA/LeRC\nGPS Attitude and Navigation Experiment (GANE), NASA/JSC\nLiquid Metal Thermal Experiment (LMTE), USAF Phillips Laboratory\nPassive Aerodynamically-Stabilized Magnetically-Damped Satellite (PAMS), NASA GSFC	vented|tank|resupply|experiment|-lrb-|vtre|-rrb-|,|nasa\\/lerc|gps|attitude|and|navigation|experiment|-lrb-|gane|-rrb-|,|nasa\\/jsc|liquid|metal|thermal|experiment|-lrb-|lmte|-rrb-|,|usaf|phillips|laboratory|passive|aerodynamically|stabilized|magnetically|damped|satellite|-lrb-|pams|-rrb-|,|nasa|gsfc	Vented|Tank|Resupply|Experiment|-lrb-|VTRE|-rrb-|,|NASA\\/LeRC|GPS|attitude|and|Navigation|Experiment|-lrb-|GANE|-rrb-|,|NASA\\/JSC|liquid|metal|thermal|experiment|-lrb-|lmte|-rrb-|,|USAF|Phillips|Laboratory|Passive|Aerodynamically|Stabilized|magnetically|Damped|Satellite|-lrb-|PAMS|-rrb-|,|NASA|GSFC	NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|NN|CC|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NN|NN|JJ|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|NNP|NNP|NNP|RB|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O	|||||||||||||||||||||||||||||||||||||||||				Vented Tank Resupply Experiment (VTRE)|NASA|LeRC|GPS Attitude and Navigation Experiment (GANE)|NASA|JSC|Liquid Metal Thermal Experiment (LMTE)|USAF Phillips Laboratory|Passive Aerodynamically-Stabilized Magnetically-Damped Satellite (PAMS)|NASA GSFC	fb:part.vented_tank_resupply_experiment_vtre|fb:part.nasa|fb:part.lerc|fb:part.gps_attitude_and_navigation_experiment_gane|fb:part.nasa|fb:part.jsc|fb:part.liquid_metal_thermal_experiment_lmte|fb:part.usaf_phillips_laboratory|fb:part.passive_aerodynamically_stabilized_magnetically_damped_satellite_pams|fb:part.nasa_gsfc
+61	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+62	0	fb:cell.05_19_96	05/19/96	05\\/19\\/96	05\\/19\\/96	CD	DATE	XX96-05-19	5.0	xxxx-05-19	19.0	05|19|96	fb:part.05|fb:part.19|fb:part.96
+62	1	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+62	2	fb:cell.tpce_rf	TPCE-RF	tpce|rf	tpce|rf	NN|NN	O|O	|				TPCE-RF	fb:part.tpce_rf
+62	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+62	4	fb:cell.tpce_rf	TPCE-RF	tpce|rf	tpce|rf	NN|NN	O|O	|				TPCE-RF	fb:part.tpce_rf
+62	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+63	0	fb:cell.05_19_96	05/19/96	05\\/19\\/96	05\\/19\\/96	CD	DATE	XX96-05-19	5.0	xxxx-05-19	19.0	05|19|96	fb:part.05|fb:part.19|fb:part.96
+63	1	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+63	2	fb:cell.g_056_g_063_g_142_g_144_g_163_g_200_g_490_g_564_g_565_g_703_g_741	G-056\nG-063\nG-142\nG-144\nG-163\nG-200\nG-490\nG-564\nG-565\nG-703\nG-741	g-056|g-063|g-142|g-144|g-163|g-200|g-490|g-564|g-565|g-703|g-741	g-056|g-063|g-142|g-144|g-163|g-200|g-490|g-564|g-565|g-703|g-741	NN|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||	56.0		63.0	G-056|G-063|G-142|G-144|G-163|G-200|G-490|G-564|G-565|G-703|G-741	fb:part.g_056|fb:part.g_063|fb:part.g_142|fb:part.g_144|fb:part.g_163|fb:part.g_200|fb:part.g_490|fb:part.g_564|fb:part.g_565|fb:part.g_703|fb:part.g_741
+63	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+63	4	fb:cell.g_056_g_063_g_142_g_144_g_163_g_200_g_490_g_564_g_565_g_703_g_741	G-056\nG-063\nG-142\nG-144\nG-163\nG-200\nG-490\nG-564\nG-565\nG-703\nG-741	g-056|g-063|g-142|g-144|g-163|g-200|g-490|g-564|g-565|g-703|g-741	g-056|g-063|g-142|g-144|g-163|g-200|g-490|g-564|g-565|g-703|g-741	NN|NN|NN|NN|NN|NN|NN|NN|NN|NN|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||	56.0		63.0	G-056|G-063|G-142|G-144|G-163|G-200|G-490|G-564|G-565|G-703|G-741	fb:part.g_056|fb:part.g_063|fb:part.g_142|fb:part.g_144|fb:part.g_163|fb:part.g_200|fb:part.g_490|fb:part.g_564|fb:part.g_565|fb:part.g_703|fb:part.g_741
+63	5	fb:cell.gba	GBA	gba	gba	NN	O					GBA	fb:part.gba
+64	0	fb:cell.11_19_96	11/19/96	11\\/19\\/96	11\\/19\\/96	CD	DATE	XX96-11-19	11.0	xxxx-11-19	19.0	11|19|96	fb:part.11|fb:part.19|fb:part.96
+64	1	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+64	2	fb:cell.sem_01	SEM-01	sem-01	sem-01	NN	O		1.0			SEM-01	fb:part.sem_01
+64	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+64	4	fb:cell.sem_01	SEM-01	sem-01	sem-01	NN	O		1.0			SEM-01	fb:part.sem_01
+64	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+65	0	fb:cell.04_04_97	04/04/97	04\\/04\\/97	04\\/04\\/97	CD	DATE	XX97-04-04	4.0	xxxx-04-04	4.0	04|04|97	fb:part.04|fb:part.04|fb:part.97
+65	1	fb:cell.83	83	83	83	CD	NUMBER	83.0	83.0				
+65	2	fb:cell.cryofd	CRYOFD	cryofd	cryofd	NN	O					CRYOFD	fb:part.cryofd
+65	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+65	4	fb:cell.cryogenic_flexible_diode_cryofd_nasa_gsfc_usaf_phillips_lab	Cryogenic Flexible Diode (CRYOFD),\nNASA GSFC/USAF Phillips Lab	cryogenic|flexible|diode|-lrb-|cryofd|-rrb-|,|nasa|gsfc\\/usaf|phillips|lab	Cryogenic|Flexible|Diode|-lrb-|CRYOFD|-rrb-|,|NASA|GSFC\\/USAF|Phillips|lab	NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|NNP|NN	O|O|O|O|O|O|O|ORGANIZATION|O|O|O	||||||||||				Cryogenic Flexible Diode (CRYOFD)|NASA GSFC|USAF Phillips Lab	fb:part.cryogenic_flexible_diode_cryofd|fb:part.nasa_gsfc|fb:part.usaf_phillips_lab
+65	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+66	0	fb:cell.08_07_97	08/07/97	08\\/07\\/97	08\\/07\\/97	CD	DATE	XX97-08-07	8.0	xxxx-08-07	7.0	08|07|97	fb:part.08|fb:part.07|fb:part.97
+66	1	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+66	2	fb:cell.tas_01	TAS-01	tas-01	tas-01	NN	O		1.0			TAS-01	fb:part.tas_01
+66	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+66	4	fb:cell.shuttle_laser_altimeter_sla_02_nasa_gsfc_infrared_spectral_imaging_radiometer_isir_nasa_gsfc_critical_viscosity_of_xenon_cvx_01_nasa_lerc_space_experiment_module_sem_02_nasa_gsfc_solar_constant_solcon_1_royal_meteorological_institute_of_belgium_two_phase_flow_tpf_nasa_gsfc_coollar_flight_experiment_cfe_usaf_phillips_lab	Shuttle Laser Altimeter (SLA-02), NASA GSFC\nInfrared Spectral Imaging Radiometer (ISIR), NASA GSFC\nCritical Viscosity of Xenon (CVX-01), NASA LeRC\nSpace Experiment Module (SEM-02), NASA GSFC\nSolar Constant (SOLCON-1), Royal Meteorological Institute of Belgium\nTwo-Phase Flow (TPF), NASA GSFC\nCOOLLAR Flight Experiment (CFE), USAF Phillips Lab	shuttle|laser|altimeter|-lrb-|sla-02|-rrb-|,|nasa|gsfc|infrared|spectral|imaging|radiometer|-lrb-|isir|-rrb-|,|nasa|gsfc|critical|viscosity|of|xenon|-lrb-|cvx-01|-rrb-|,|nasa|lerc|space|experiment|module|-lrb-|sem-02|-rrb-|,|nasa|gsfc|solar|constant|-lrb-|solcon-1|-rrb-|,|royal|meteorological|institute|of|belgium|two|phase|flow|-lrb-|tpf|-rrb-|,|nasa|gsfc|coollar|flight|experiment|-lrb-|cfe|-rrb-|,|usaf|phillips|lab	Shuttle|Laser|Altimeter|-lrb-|sla-02|-rrb-|,|NASA|GSFC|infrared|spectral|Imaging|Radiometer|-lrb-|ISIR|-rrb-|,|NASA|GSFC|critical|viscosity|of|xenon|-lrb-|cvx-01|-rrb-|,|NASA|LeRC|Space|Experiment|Module|-lrb-|sem-02|-rrb-|,|NASA|GSFC|Solar|constant|-lrb-|solcon-1|-rrb-|,|Royal|Meteorological|Institute|of|Belgium|two|phase|flow|-lrb-|tpf|-rrb-|,|NASA|GSFC|COOLLAR|Flight|Experiment|-lrb-|CFE|-rrb-|,|USAF|Phillips|lab	NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP|JJ|JJ|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|JJ|NN|IN|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|JJ|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|IN|NNP|CD|NN|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|NN	O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|NUMBER|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||||||||||||||||||||||||||||||||||||||||||2.0||||||||||||||||||	2.0		1.0	Shuttle Laser Altimeter (SLA-02)|NASA GSFC|Infrared Spectral Imaging Radiometer (ISIR)|NASA GSFC|Critical Viscosity of Xenon (CVX-01)|NASA LeRC|Space Experiment Module (SEM-02)|NASA GSFC|Solar Constant (SOLCON-1)|Royal Meteorological Institute of Belgium|Two-Phase Flow (TPF)|NASA GSFC|COOLLAR Flight Experiment (CFE)|USAF Phillips Lab	fb:part.shuttle_laser_altimeter_sla_02|fb:part.nasa_gsfc|fb:part.infrared_spectral_imaging_radiometer_isir|fb:part.nasa_gsfc|fb:part.critical_viscosity_of_xenon_cvx_01|fb:part.nasa_lerc|fb:part.space_experiment_module_sem_02|fb:part.nasa_gsfc|fb:part.solar_constant_solcon_1|fb:part.royal_meteorological_institute_of_belgium|fb:part.two_phase_flow_tpf|fb:part.nasa_gsfc|fb:part.coollar_flight_experiment_cfe|fb:part.usaf_phillips_lab
+66	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+67	0	fb:cell.08_07_97	08/07/97	08\\/07\\/97	08\\/07\\/97	CD	DATE	XX97-08-07	8.0	xxxx-08-07	7.0	08|07|97	fb:part.08|fb:part.07|fb:part.97
+67	1	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+67	2	fb:cell.tas_01	TAS-01	tas-01	tas-01	NN	O		1.0			TAS-01	fb:part.tas_01
+67	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+67	4	fb:cell.sem_02	SEM-02	sem-02	sem-02	NN	O		2.0			SEM-02	fb:part.sem_02
+67	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+68	0	fb:cell.08_07_97	08/07/97	08\\/07\\/97	08\\/07\\/97	CD	DATE	XX97-08-07	8.0	xxxx-08-07	7.0	08|07|97	fb:part.08|fb:part.07|fb:part.97
+68	1	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+68	2	fb:cell.ieh_2	IEH-2	ieh-2	ieh-2	NN	O		2.0			IEH-2	fb:part.ieh_2
+68	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+68	4	fb:cell.ultraviolet_spectrograph_telescope_for_astronomical_research_uvstar_u_of_az_esa_shuttle_glow_experiment_5_6_glo_5_6_u_of_az_solar_extreme_ultraviolet_hitchhiker_seh_usc_distribution_and_automation_technology_advancement_colorado_hitchhiker_and_student_experiment_of_solar_radiation_data_chaser_university_of_colorado	Ultraviolet Spectrograph Telescope for Astronomical Research (UVSTAR), U of AZ/ESA\nShuttle Glow Experiment-5 & 6 (GLO-5 & 6), U of AZ\nSolar Extreme Ultraviolet Hitchhiker (SEH), USC\nDistribution and Automation Technology Advancement - Colorado Hitchhiker\nAnd Student Experiment of solar Radiation (DATA-CHASER), University\nof Colorado	ultraviolet|spectrograph|telescope|for|astronomical|research|-lrb-|uvstar|-rrb-|,|u|of|az\\/esa|shuttle|glow|experiment-5|&|6|-lrb-|glo-5|&|6|-rrb-|,|u|of|az|solar|extreme|ultraviolet|hitchhiker|-lrb-|seh|-rrb-|,|usc|distribution|and|automation|technology|advancement|-|colorado|hitchhiker|and|student|experiment|of|solar|radiation|-lrb-|data|chaser|-rrb-|,|university|of|colorado	Ultraviolet|Spectrograph|Telescope|for|Astronomical|Research|-lrb-|UVSTAR|-rrb-|,|U|of|AZ\\/ESA|Shuttle|Glow|Experiment-5|&|6|-lrb-|glo-5|&|6|-rrb-|,|u|of|AZ|Solar|Extreme|Ultraviolet|Hitchhiker|-lrb-|SEH|-rrb-|,|USC|distribution|and|automation|technology|Advancement|-|Colorado|Hitchhiker|and|Student|Experiment|of|solar|Radiation|-lrb-|DATA|CHASER|-rrb-|,|University|of|Colorado	NNP|NNP|NNP|IN|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|IN|NNP|NNP|NNP|NNP|CC|CD|-LRB-|NN|CC|CD|-RRB-|,|NN|IN|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NN|CC|NN|NN|NNP|:|NNP|NNP|CC|NNP|NNP|IN|JJ|NNP|-LRB-|NNP|NNP|-RRB-|,|NNP|IN|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||||||||||6.0||||6.0||||||||||||||||||||||||||||||||||||	5.0		6.0	Ultraviolet Spectrograph Telescope for Astronomical Research (UVSTAR)|U of AZ|ESA|Shuttle Glow Experiment-5 & 6 (GLO-5 & 6)|U of AZ|Solar Extreme Ultraviolet Hitchhiker (SEH)|USC|Distribution and Automation Technology Advancement - Colorado Hitchhiker|And Student Experiment of solar Radiation (DATA-CHASER)|University|of Colorado	fb:part.ultraviolet_spectrograph_telescope_for_astronomical_research_uvstar|fb:part.u_of_az|fb:part.esa|fb:part.shuttle_glow_experiment_5_6_glo_5_6|fb:part.u_of_az|fb:part.solar_extreme_ultraviolet_hitchhiker_seh|fb:part.usc|fb:part.distribution_and_automation_technology_advancement_colorado_hitchhiker|fb:part.and_student_experiment_of_solar_radiation_data_chaser|fb:part.university|fb:part.of_colorado
+68	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+69	0	fb:cell.08_07_97	08/07/97	08\\/07\\/97	08\\/07\\/97	CD	DATE	XX97-08-07	8.0	xxxx-08-07	7.0	08|07|97	fb:part.08|fb:part.07|fb:part.97
+69	1	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+69	2	fb:cell.g_572_g_745	G-572\nG-745	g-572|g-745	g-572|g-745	NN|NN	O|O	|	572.0		745.0	G-572|G-745	fb:part.g_572|fb:part.g_745
+69	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+69	4	fb:cell.g_572_g_745	G-572\nG-745	g-572|g-745	g-572|g-745	NN|NN	O|O	|	572.0		745.0	G-572|G-745	fb:part.g_572|fb:part.g_745
+69	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+70	0	fb:cell.19_25_97	19/25/97	19\\/25\\/97	19\\/25\\/97	CD	NUMBER		19.0		25.0	19|25|97	fb:part.19|fb:part.25|fb:part.97
+70	1	fb:cell.86	86	86	86	CD	NUMBER	86.0	86.0				
+70	2	fb:cell.seedsii	SEEDSII	seedsii	seedsii	CD	NUMBER	0.0	0.0			SEEDSII	fb:part.seedsii
+70	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+70	4	fb:cell.seedsii	SEEDSII	seedsii	seedsii	CD	NUMBER	0.0	0.0			SEEDSII	fb:part.seedsii
+70	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+71	0	fb:cell.11_19_97	11/19/97	11\\/19\\/97	11\\/19\\/97	CD	DATE	XX97-11-19	11.0	xxxx-11-19	19.0	11|19|97	fb:part.11|fb:part.19|fb:part.97
+71	1	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+71	2	fb:cell.lhp_nasbe_lnbp	LHP/NaSBE (LNBP)	lhp\\/nasbe|-lrb-|lnbp|-rrb-	lhp\\/nasbe|-lrb-|lnbp|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				LHP|NaSBE (LNBP)	fb:part.lhp|fb:part.nasbe_lnbp
+71	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+71	4	fb:cell.loop_heat_pipe_experiment_lhp_dynatherm_sodium_surface_battery_experiment_nasbe_nrl	Loop Heat Pipe Experiment (LHP), Dynatherm\nSodium Surface Battery Experiment (NaSBE), NRL	loop|heat|pipe|experiment|-lrb-|lhp|-rrb-|,|dynatherm|sodium|surface|battery|experiment|-lrb-|nasbe|-rrb-|,|nrl	Loop|Heat|Pipe|Experiment|-lrb-|LHP|-rrb-|,|Dynatherm|sodium|surface|battery|experiment|-lrb-|nasbe|-rrb-|,|nrl	NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NN|NN|NN|NN|-LRB-|NN|-RRB-|,|NN	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION	|||||||||||||||||				Loop Heat Pipe Experiment (LHP)|Dynatherm|Sodium Surface Battery Experiment (NaSBE)|NRL	fb:part.loop_heat_pipe_experiment_lhp|fb:part.dynatherm|fb:part.sodium_surface_battery_experiment_nasbe|fb:part.nrl_2
+71	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+72	0	fb:cell.11_19_97	11/19/97	11\\/19\\/97	11\\/19\\/97	CD	DATE	XX97-11-19	11.0	xxxx-11-19	19.0	11|19|97	fb:part.11|fb:part.19|fb:part.97
+72	1	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+72	2	fb:cell.solse_01	SOLSE-01	solse-01	solse-01	NN	O		1.0			SOLSE-01	fb:part.solse_01
+72	3	fb:cell.hh_jr_2	HH-Jr	hh|jr	hh|Jr	NN|NNP	O|O	|				HH-Jr	fb:part.hh_jr_2
+72	4	fb:cell.shuttle_ozone_limb_sounding_experiment_solse_01_nasa_gsfc	Shuttle Ozone Limb Sounding Experiment (SOLSE-01), NASA GSFC	shuttle|ozone|limb|sounding|experiment|-lrb-|solse-01|-rrb-|,|nasa|gsfc	Shuttle|ozone|limb|sound|experiment|-lrb-|solse-01|-rrb-|,|NASA|GSFC	NNP|NN|NN|VBG|NN|-LRB-|NN|-RRB-|,|NNP|NNP	O|O|O|O|O|O|O|O|O|ORGANIZATION|O	||||||||||	1.0			Shuttle Ozone Limb Sounding Experiment (SOLSE-01)|NASA GSFC	fb:part.shuttle_ozone_limb_sounding_experiment_solse_01|fb:part.nasa_gsfc
+72	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+73	0	fb:cell.11_19_97	11/19/97	11\\/19\\/97	11\\/19\\/97	CD	DATE	XX97-11-19	11.0	xxxx-11-19	19.0	11|19|97	fb:part.11|fb:part.19|fb:part.97
+73	1	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+73	2	fb:cell.tgdf	TGDF	tgdf	tgdf	NN	O					TGDF	fb:part.tgdf
+73	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+73	4	fb:cell.tgdf	TGDF	tgdf	tgdf	NN	O					TGDF	fb:part.tgdf
+73	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+74	0	fb:cell.11_19_97	11/19/97	11\\/19\\/97	11\\/19\\/97	CD	DATE	XX97-11-19	11.0	xxxx-11-19	19.0	11|19|97	fb:part.11|fb:part.19|fb:part.97
+74	1	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+74	2	fb:cell.g_036	G-036	g-036	g-036	NN	O		36.0			G-036	fb:part.g_036
+74	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+74	4	fb:cell.g_036	G-036	g-036	g-036	NN	O		36.0			G-036	fb:part.g_036
+74	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+75	0	fb:cell.12_04_98	12/04/98	12\\/04\\/98	12\\/04\\/98	CD	DATE	XX98-12-04	12.0	xxxx-12-04	4.0	12|04|98	fb:part.12|fb:part.04|fb:part.98
+75	1	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+75	2	fb:cell.mightysat_1	MIGHTYSAT-1	mightysat-1	mightysat-1	NN	O		1.0			MIGHTYSAT-1	fb:part.mightysat_1
+75	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+75	4	fb:cell.mightysat_1_usaf_phillips_lab_satellite_de_aplicaciones_cientifico_a_sac_a_argentinean_national_commission_of_space_activities	MightySat-1, USAF Phillips\nLab\nSatellite de Aplicaciones Cientifico-A (SAC-A), Argentinean National Commission of Space Activities	mightysat-1|,|usaf|phillips|lab|satellite|de|aplicaciones|cientifico|a|-lrb-|sac|a|-rrb-|,|argentinean|national|commission|of|space|activities	mightysat-1|,|USAF|Phillips|Lab|Satellite|de|Aplicaciones|Cientifico|A|-lrb-|sac|a|-rrb-|,|argentinean|National|Commission|of|Space|activity	NN|,|NNP|NNP|NNP|NNP|IN|NNP|NNP|NNP|-LRB-|NN|NN|-RRB-|,|JJ|NNP|NNP|IN|NNP|NNS	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||||||||||||||||	1.0			MightySat-1|USAF Phillips|Lab|Satellite de Aplicaciones Cientifico-A (SAC-A)|Argentinean National Commission of Space Activities	fb:part.mightysat_1|fb:part.usaf_phillips|fb:part.lab|fb:part.satellite_de_aplicaciones_cientifico_a_sac_a|fb:part.argentinean_national_commission_of_space_activities
+75	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+76	0	fb:cell.12_04_98	12/04/98	12\\/04\\/98	12\\/04\\/98	CD	DATE	XX98-12-04	12.0	xxxx-12-04	4.0	12|04|98	fb:part.12|fb:part.04|fb:part.98
+76	1	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+76	2	fb:cell.jsc_apfr	JSC APFR	jsc|apfr	JSC|APFR	NNP|NNP	O|O	|				JSC APFR	fb:part.jsc_apfr
+76	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+76	4	fb:cell.jsc_apfr	JSC APFR	jsc|apfr	JSC|APFR	NNP|NNP	O|O	|				JSC APFR	fb:part.jsc_apfr
+76	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+77	0	fb:cell.12_04_98	12/04/98	12\\/04\\/98	12\\/04\\/98	CD	DATE	XX98-12-04	12.0	xxxx-12-04	4.0	12|04|98	fb:part.12|fb:part.04|fb:part.98
+77	1	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+77	2	fb:cell.g_093r	G-093R	g-093r	g-093r	NN	O		93.0			G-093R	fb:part.g_093r
+77	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+77	4	fb:cell.g_093r	G-093R	g-093r	g-093r	NN	O		93.0			G-093R	fb:part.g_093r
+77	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+78	0	fb:cell.12_04_98	12/04/98	12\\/04\\/98	12\\/04\\/98	CD	DATE	XX98-12-04	12.0	xxxx-12-04	4.0	12|04|98	fb:part.12|fb:part.04|fb:part.98
+78	1	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+78	2	fb:cell.sem_07	SEM-07	sem-07	sem-07	NN	O		7.0			SEM-07	fb:part.sem_07
+78	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+78	4	fb:cell.sem_07	SEM-07	sem-07	sem-07	NN	O		7.0			SEM-07	fb:part.sem_07
+78	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+79	0	fb:cell.01_22_98	01/22/98	01\\/22\\/98	01\\/22\\/98	CD	DATE	XX98-01-22	1.0	xxxx-01-22	22.0	01|22|98	fb:part.01|fb:part.22|fb:part.98
+79	1	fb:cell.89	89	89	89	CD	NUMBER	89.0	89.0				
+79	2	fb:cell.g_093_g_141_g_145_g_432	G-093\nG-141\nG-145\nG-432	g-093|g-141|g-145|g-432	g-093|g-141|g-145|g-432	NN|NN|NN|NN	O|O|O|O	|||	93.0		141.0	G-093|G-141|G-145|G-432	fb:part.g_093|fb:part.g_141|fb:part.g_145|fb:part.g_432
+79	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+79	4	fb:cell.g_093_g_141_g_145_g_432	G-093\nG-141\nG-145\nG-432	g-093|g-141|g-145|g-432	g-093|g-141|g-145|g-432	NN|NN|NN|NN	O|O|O|O	|||	93.0		141.0	G-093|G-141|G-145|G-432	fb:part.g_093|fb:part.g_141|fb:part.g_145|fb:part.g_432
+79	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+80	0	fb:cell.04_17_98	04/17/98	04\\/17\\/98	04\\/17\\/98	CD	DATE	XX98-04-17	4.0	xxxx-04-17	17.0	04|17|98	fb:part.04|fb:part.17|fb:part.98
+80	1	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+80	2	fb:cell.svf_01	SVF-01	svf-01	svf-01	NN	O		1.0			SVF-01	fb:part.svf_01
+80	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+80	4	fb:cell.shuttle_vibration_forces_svf_nasa_jpl	Shuttle Vibration Forces (SVF),\nNASA JPL	shuttle|vibration|forces|-lrb-|svf|-rrb-|,|nasa|jpl	Shuttle|Vibration|Forces|-lrb-|svf|-rrb-|,|NASA|JPL	NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP	O|O|O|O|O|O|O|ORGANIZATION|O	||||||||				Shuttle Vibration Forces (SVF)|NASA JPL	fb:part.shuttle_vibration_forces_svf|fb:part.nasa_jpl
+80	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+81	0	fb:cell.04_17_98	04/17/98	04\\/17\\/98	04\\/17\\/98	CD	DATE	XX98-04-17	4.0	xxxx-04-17	17.0	04|17|98	fb:part.04|fb:part.17|fb:part.98
+81	1	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+81	2	fb:cell.g_197_g_744_g_772	G-197\nG-744\nG-772	g-197|g-744|g-772	g-197|g-744|g-772	NN|NN|NN	O|O|O	||	197.0		744.0	G-197|G-744|G-772	fb:part.g_197|fb:part.g_744|fb:part.g_772
+81	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+81	4	fb:cell.g_197_g_744_g_772	G-197\nG-744\nG-772	g-197|g-744|g-772	g-197|g-744|g-772	NN|NN|NN	O|O|O	||	197.0		744.0	G-197|G-744|G-772	fb:part.g_197|fb:part.g_744|fb:part.g_772
+81	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+82	0	fb:cell.06_02_98	06/02/98	06\\/02\\/98	06\\/02\\/98	CD	DATE	XX98-06-02	6.0	xxxx-06-02	2.0	06|02|98	fb:part.06|fb:part.02|fb:part.98
+82	1	fb:cell.91	91	91	91	CD	NUMBER	91.0	91.0				
+82	2	fb:cell.g_090_g_648_g_743_g_765	G-090\nG-648\nG-743\nG-765	g-090|g-648|g-743|g-765	g-090|g-648|g-743|g-765	NN|NN|NN|NN	O|O|O|O	|||	90.0		648.0	G-090|G-648|G-743|G-765	fb:part.g_090|fb:part.g_648|fb:part.g_743|fb:part.g_765
+82	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+82	4	fb:cell.g_090_g_648_g_743_g_765	G-090\nG-648\nG-743\nG-765	g-090|g-648|g-743|g-765	g-090|g-648|g-743|g-765	NN|NN|NN|NN	O|O|O|O	|||	90.0		648.0	G-090|G-648|G-743|G-765	fb:part.g_090|fb:part.g_648|fb:part.g_743|fb:part.g_765
+82	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+83	0	fb:cell.06_02_98	06/02/98	06\\/02\\/98	06\\/02\\/98	CD	DATE	XX98-06-02	6.0	xxxx-06-02	2.0	06|02|98	fb:part.06|fb:part.02|fb:part.98
+83	1	fb:cell.91	91	91	91	CD	NUMBER	91.0	91.0				
+83	2	fb:cell.sem_03_sem_05	SEM-03\nSEM-05	sem-03|sem-05	sem-03|sem-05	NN|NN	O|O	|	3.0		5.0	SEM-03|SEM-05	fb:part.sem_03|fb:part.sem_05
+83	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+83	4	fb:cell.sem_03_sem_05	SEM-03\nSEM-05	sem-03|sem-05	sem-03|sem-05	NN|NN	O|O	|	3.0		5.0	SEM-03|SEM-05	fb:part.sem_03|fb:part.sem_05
+83	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+84	0	fb:cell.07_01_97	07/01/97	07\\/01\\/97	07\\/01\\/97	CD	DATE	XX97-07-01	7.0	xxxx-07-01	1.0	07|01|97	fb:part.07|fb:part.01|fb:part.97
+84	1	fb:cell.94	94	94	94	CD	NUMBER	94.0	94.0				
+84	2	fb:cell.cryofd	CRYOFD	cryofd	cryofd	NN	O					CRYOFD	fb:part.cryofd
+84	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+84	4	fb:cell.cryogenic_flexible_diode_cryofd_experiment_payload	Cryogenic Flexible Diode (CRYOFD)\nexperiment payload	cryogenic|flexible|diode|-lrb-|cryofd|-rrb-|experiment|payload	Cryogenic|Flexible|Diode|-lrb-|CRYOFD|-rrb-|experiment|payload	NNP|NNP|NNP|-LRB-|NNP|-RRB-|NN|NN	O|O|O|O|O|O|O|O	|||||||				Cryogenic Flexible Diode (CRYOFD)|experiment payload	fb:part.cryogenic_flexible_diode_cryofd|fb:part.experiment_payload
+84	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+85	0	fb:cell.10_29_98	10/29/98	10\\/29\\/98	10\\/29\\/98	CD	DATE	XX98-10-29	10.0	xxxx-10-29	29.0	10|29|98	fb:part.10|fb:part.29|fb:part.98
+85	1	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+85	2	fb:cell.cryotsu	CRYOTSU	cryotsu	CRYOTSU	NNP	O					CRYOTSU	fb:part.cryotsu
+85	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+85	4	fb:cell.cryogenic_thermal_storage_unit_cryotsu_nasa_gsfc	Cryogenic Thermal Storage Unit (CRYOTSU), NASA GSFC	cryogenic|thermal|storage|unit|-lrb-|cryotsu|-rrb-|,|nasa|gsfc	cryogenic|thermal|storage|unit|-lrb-|cryotsu|-rrb-|,|NASA|GSFC	JJ|JJ|NN|NN|-LRB-|NN|-RRB-|,|NNP|NNP	O|O|O|O|O|O|O|O|ORGANIZATION|O	|||||||||				Cryogenic Thermal Storage Unit (CRYOTSU)|NASA GSFC	fb:part.cryogenic_thermal_storage_unit_cryotsu|fb:part.nasa_gsfc
+85	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+86	0	fb:cell.10_29_98	10/29/98	10\\/29\\/98	10\\/29\\/98	CD	DATE	XX98-10-29	10.0	xxxx-10-29	29.0	10|29|98	fb:part.10|fb:part.29|fb:part.98
+86	1	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+86	2	fb:cell.ieh_3	IEH-3	ieh-3	ieh-3	NN	O		3.0			IEH-3	fb:part.ieh_3
+86	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+86	4	fb:cell.ultraviolet_spectrograph_telescope_for_astronomical_research_uvstar_u_of_az_esa_solar_extreme_ultraviolet_hitchhiker_seh_usc_star_lite_u_of_az_petite_amateur_navy_satellite_pansat_usaf_space_test_program_solar_constant_experiment_solcon_02_royal_meteorological_institute_of_belgium	Ultraviolet\nSpectrograph Telescope for Astronomical Research (UVSTAR), U of\nAZ/ESA\nSolar Extreme Ultraviolet Hitchhiker (SEH), USC\nSTAR-LITE, U of AZ\nPetite Amateur Navy Satellite (PANSAT), USAF Space Test Program\nSolar Constant Experiment (SOLCON-02), Royal Meteorological Institute of Belgium	ultraviolet|spectrograph|telescope|for|astronomical|research|-lrb-|uvstar|-rrb-|,|u|of|az\\/esa|solar|extreme|ultraviolet|hitchhiker|-lrb-|seh|-rrb-|,|usc|star|lite|,|u|of|az|petite|amateur|navy|satellite|-lrb-|pansat|-rrb-|,|usaf|space|test|program|solar|constant|experiment|-lrb-|solcon-02|-rrb-|,|royal|meteorological|institute|of|belgium	Ultraviolet|Spectrograph|Telescope|for|Astronomical|Research|-lrb-|UVSTAR|-rrb-|,|U|of|AZ\\/ESA|Solar|Extreme|Ultraviolet|Hitchhiker|-lrb-|SEH|-rrb-|,|USC|STAR|LITE|,|U|of|AZ|Petite|amateur|Navy|Satellite|-lrb-|PANSAT|-rrb-|,|USAF|Space|Test|Program|Solar|constant|experiment|-lrb-|solcon-02|-rrb-|,|Royal|Meteorological|Institute|of|Belgium	NNP|NNP|NNP|IN|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|IN|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|NNP|,|NNP|IN|NNP|NNP|JJ|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|NNP|NNP|NNP|JJ|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|IN|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	|||||||||||||||||||||||||||||||||||||||||||||||||||	2.0			Ultraviolet|Spectrograph Telescope for Astronomical Research (UVSTAR)|U of|AZ|ESA|Solar Extreme Ultraviolet Hitchhiker (SEH)|USC|STAR-LITE|U of AZ|Petite Amateur Navy Satellite (PANSAT)|USAF Space Test Program|Solar Constant Experiment (SOLCON-02)|Royal Meteorological Institute of Belgium	fb:part.ultraviolet|fb:part.spectrograph_telescope_for_astronomical_research_uvstar|fb:part.u_of|fb:part.az|fb:part.esa|fb:part.solar_extreme_ultraviolet_hitchhiker_seh|fb:part.usc|fb:part.star_lite|fb:part.u_of_az|fb:part.petite_amateur_navy_satellite_pansat|fb:part.usaf_space_test_program|fb:part.solar_constant_experiment_solcon_02|fb:part.royal_meteorological_institute_of_belgium
+86	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+87	0	fb:cell.10_29_98	10/29/98	10\\/29\\/98	10\\/29\\/98	CD	DATE	XX98-10-29	10.0	xxxx-10-29	29.0	10|29|98	fb:part.10|fb:part.29|fb:part.98
+87	1	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+87	2	fb:cell.ieh_3	IEH-3	ieh-3	ieh-3	NN	O		3.0			IEH-3	fb:part.ieh_3
+87	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+87	4	fb:cell.g_238_g_764	G-238\nG-764	g-238|g-764	g-238|g-764	NN|NN	O|O	|	238.0		764.0	G-238|G-764	fb:part.g_238|fb:part.g_764
+87	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+88	0	fb:cell.10_29_98	10/29/98	10\\/29\\/98	10\\/29\\/98	CD	DATE	XX98-10-29	10.0	xxxx-10-29	29.0	10|29|98	fb:part.10|fb:part.29|fb:part.98
+88	1	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+88	2	fb:cell.sem_04	SEM-04	sem-04	sem-04	NN	O		4.0			SEM-04	fb:part.sem_04
+88	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+88	4	fb:cell.sem_04	SEM-04	sem-04	sem-04	NN	O		4.0			SEM-04	fb:part.sem_04
+88	5	fb:cell.sem_attached_to_spartan_201_05_bridge	SEM-attached\nto SPARTAN 201-05 Bridge	sem|attached|to|spartan|201-05|bridge	sem|attach|to|SPARTAN|201-05|Bridge	NN|VBN|TO|NNP|CD|NNP	O|O|O|O|NUMBER|O	||||201.0 - 5.0|	201.0		5.0	SEM-attached|to SPARTAN 201-05 Bridge	fb:part.sem_attached|fb:part.to_spartan_201_05_bridge
+89	0	fb:cell.10_29_98	10/29/98	10\\/29\\/98	10\\/29\\/98	CD	DATE	XX98-10-29	10.0	xxxx-10-29	29.0	10|29|98	fb:part.10|fb:part.29|fb:part.98
+89	1	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+89	2	fb:cell.g_467_g_779	G-467\nG-779	g-467|g-779	g-467|g-779	NN|NN	O|O	|	467.0		779.0	G-467|G-779	fb:part.g_467|fb:part.g_779
+89	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+89	4	fb:cell.g_467_g_779	G-467\nG-779	g-467|g-779	g-467|g-779	NN|NN	O|O	|	467.0		779.0	G-467|G-779	fb:part.g_467|fb:part.g_779
+89	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+90	0	fb:cell.05_27_99	05/27/99	05\\/27\\/99	05\\/27\\/99	CD	DATE	XX99-05-27	5.0	xxxx-05-27	27.0	05|27|99	fb:part.05|fb:part.27|fb:part.99
+90	1	fb:cell.96	96	96	96	CD	NUMBER	96.0	96.0				
+90	2	fb:cell.svf_02	SVF-02	svf-02	svf-02	NN	O		2.0			SVF-02	fb:part.svf_02
+90	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+90	4	fb:cell.shuttle_vibration_forces_svf_02_nasa_jpl	Shuttle Vibration Forces (SVF-02), NASA JPL	shuttle|vibration|forces|-lrb-|svf-02|-rrb-|,|nasa|jpl	Shuttle|Vibration|Forces|-lrb-|svf-02|-rrb-|,|NASA|JPL	NNP|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP	O|O|O|O|O|O|O|ORGANIZATION|O	||||||||	2.0			Shuttle Vibration Forces (SVF-02)|NASA JPL	fb:part.shuttle_vibration_forces_svf_02|fb:part.nasa_jpl
+90	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+91	0	fb:cell.05_27_99	05/27/99	05\\/27\\/99	05\\/27\\/99	CD	DATE	XX99-05-27	5.0	xxxx-05-27	27.0	05|27|99	fb:part.05|fb:part.27|fb:part.99
+91	1	fb:cell.96	96	96	96	CD	NUMBER	96.0	96.0				
+91	2	fb:cell.starshine	STARSHINE	starshine	starshine	NN	O					STARSHINE	fb:part.starshine
+91	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+91	4	fb:cell.student_tracked_atmospheric_research_satellite_for_heuristic_international_networking_experiment_starshine_rocky_mountain_nasa_space_grant_consortium_usu	Student Tracked Atmospheric\nResearch Satellite for Heuristic International Networking Experiment (STARSHINE), Rocky Mountain NASA Space Grant Consortium/USU	student|tracked|atmospheric|research|satellite|for|heuristic|international|networking|experiment|-lrb-|starshine|-rrb-|,|rocky|mountain|nasa|space|grant|consortium\\/usu	student|Tracked|Atmospheric|Research|Satellite|for|Heuristic|International|Networking|Experiment|-lrb-|STARSHINE|-rrb-|,|Rocky|Mountain|NASA|Space|Grant|Consortium\\/USU	NN|NNP|NNP|NNP|NNP|IN|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|NNP|NNP|NNP|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O	|||||||||||||||||||				Student Tracked Atmospheric|Research Satellite for Heuristic International Networking Experiment (STARSHINE)|Rocky Mountain NASA Space Grant Consortium|USU	fb:part.student_tracked_atmospheric|fb:part.research_satellite_for_heuristic_international_networking_experiment_starshine|fb:part.rocky_mountain_nasa_space_grant_consortium|fb:part.usu
+91	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+92	0	fb:cell.05_19_00	05/19/00	05\\/19\\/00	05\\/19\\/00	CD	DATE	XX00-05-19	5.0	xxxx-05-19	19.0	05|19|00	fb:part.05|fb:part.19|fb:part.00
+92	1	fb:cell.101	101	101	101	CD	NUMBER	101.0	101.0				
+92	2	fb:cell.mars	MARS	mars	mar	NNS	O					MARS	fb:part.mars
+92	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+92	4	fb:cell.mars	MARS	mars	mar	NNS	O					MARS	fb:part.mars
+92	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+93	0	fb:cell.05_19_00	05/19/00	05\\/19\\/00	05\\/19\\/00	CD	DATE	XX00-05-19	5.0	xxxx-05-19	19.0	05|19|00	fb:part.05|fb:part.19|fb:part.00
+93	1	fb:cell.101	101	101	101	CD	NUMBER	101.0	101.0				
+93	2	fb:cell.sem_06	SEM-06	sem-06	sem-06	NN	O		6.0			SEM-06	fb:part.sem_06
+93	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+93	4	fb:cell.sem_06	SEM-06	sem-06	sem-06	NN	O		6.0			SEM-06	fb:part.sem_06
+93	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+94	0	fb:cell.03_08_01	03/08/01	03\\/08\\/01	03\\/08\\/01	NN	DATE	XX01-03-08	3.0	xxxx-03-08	8.0	03|08|01	fb:part.03|fb:part.08|fb:part.01
+94	1	fb:cell.102	102	102	102	CD	NUMBER	102.0	102.0				
+94	2	fb:cell.wsvfm	WSVFM	wsvfm	WSVFM	NNP	O					WSVFM	fb:part.wsvfm
+94	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+94	4	fb:cell.wide_band_shuttle_vibration_force_measurement_wsvfm_nasa_jpl	Wide-band Shuttle Vibration\nForce Measurement(WSVFM) NASA JPL	wide|band|shuttle|vibration|force|measurement|-lrb-|wsvfm|-rrb-|nasa|jpl	wide|band|Shuttle|Vibration|Force|Measurement|-lrb-|WSVFM|-rrb-|NASA|JPL	NN|NN|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP	O|O|O|O|O|O|O|O|O|ORGANIZATION|O	||||||||||				Wide-band Shuttle Vibration|Force Measurement(WSVFM) NASA JPL	fb:part.wide_band_shuttle_vibration|fb:part.force_measurement_wsvfm_nasa_jpl
+94	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+95	0	fb:cell.03_08_01	03/08/01	03\\/08\\/01	03\\/08\\/01	NN	DATE	XX01-03-08	3.0	xxxx-03-08	8.0	03|08|01	fb:part.03|fb:part.08|fb:part.01
+95	1	fb:cell.102	102	102	102	CD	NUMBER	102.0	102.0				
+95	2	fb:cell.g_783	G-783	g-783	g-783	NN	O		783.0			G-783	fb:part.g_783
+95	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+95	4	fb:cell.g_783	G-783	g-783	g-783	NN	O		783.0			G-783	fb:part.g_783
+95	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+96	0	fb:cell.03_08_01	03/08/01	03\\/08\\/01	03\\/08\\/01	NN	DATE	XX01-03-08	3.0	xxxx-03-08	8.0	03|08|01	fb:part.03|fb:part.08|fb:part.01
+96	1	fb:cell.102	102	102	102	CD	NUMBER	102.0	102.0				
+96	2	fb:cell.sem_09	SEM-09	sem-09	sem-09	NN	O		9.0			SEM-09	fb:part.sem_09
+96	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+96	4	fb:cell.sem_09	SEM-09	sem-09	sem-09	NN	O		9.0			SEM-09	fb:part.sem_09
+96	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+97	0	fb:cell.03_08_01	03/08/01	03\\/08\\/01	03\\/08\\/01	NN	DATE	XX01-03-08	3.0	xxxx-03-08	8.0	03|08|01	fb:part.03|fb:part.08|fb:part.01
+97	1	fb:cell.102	102	102	102	CD	NUMBER	102.0	102.0				
+97	2	fb:cell.beam_bay_4	Beam - Bay 4	beam|-|bay|4	Beam|-|Bay|4	NNP|:|NNP|CD	O|O|DATE|DATE	||******04|******04	4.0			Beam - Bay 4	fb:part.beam_bay_4
+97	3	fb:cell.beam_contingency_i	Beam - Contingency I	beam|-|contingency|i	Beam|-|contingency|I	NNP|:|NN|PRP	O|O|O|O	|||				Beam - Contingency I	fb:part.beam_contingency_i
+97	4	fb:cell.beam_bay_4	Beam - Bay 4	beam|-|bay|4	Beam|-|Bay|4	NNP|:|NNP|CD	O|O|DATE|DATE	||******04|******04	4.0			Beam - Bay 4	fb:part.beam_bay_4
+97	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+98	0	fb:cell.08_10_01	08/10/01	08\\/10\\/01	08\\/10\\/01	NN	DATE	XX01-08-10	8.0	xxxx-08-10	10.0	08|10|01	fb:part.08|fb:part.10|fb:part.01
+98	1	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+98	2	fb:cell.heat	HEAT	heat	heat	NN	O					HEAT	fb:part.heat
+98	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+98	4	fb:cell.advance_carrier_equipment_ace_simplesat_nasa_gsfc	Advance Carrier Equipment (ACE)\nSimpleSat, NASA/GSFC	advance|carrier|equipment|-lrb-|ace|-rrb-|simplesat|,|nasa\\/gsfc	Advance|carrier|equipment|-lrb-|ace|-rrb-|simplesat|,|nasa\\/gsfc	NNP|NN|NN|-LRB-|NN|-RRB-|NN|,|NN	O|O|O|O|O|O|O|O|O	||||||||				Advance Carrier Equipment (ACE)|SimpleSat|NASA|GSFC	fb:part.advance_carrier_equipment_ace|fb:part.simplesat|fb:part.nasa|fb:part.gsfc
+98	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+99	0	fb:cell.08_10_01	08/10/01	08\\/10\\/01	08\\/10\\/01	NN	DATE	XX01-08-10	8.0	xxxx-08-10	10.0	08|10|01	fb:part.08|fb:part.10|fb:part.01
+99	1	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+99	2	fb:cell.heat	HEAT	heat	heat	NN	O					HEAT	fb:part.heat
+99	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+99	4	fb:cell.g_774	G-774	g-774	g-774	NN	O		774.0			G-774	fb:part.g_774
+99	5	fb:cell.null											fb:part.null
+100	0	fb:cell.08_10_01	08/10/01	08\\/10\\/01	08\\/10\\/01	NN	DATE	XX01-08-10	8.0	xxxx-08-10	10.0	08|10|01	fb:part.08|fb:part.10|fb:part.01
+100	1	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+100	2	fb:cell.heat	HEAT	heat	heat	NN	O					HEAT	fb:part.heat
+100	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+100	4	fb:cell.sem_10	SEM-10	sem-10	sem-10	NN	O		10.0			SEM-10	fb:part.sem_10
+100	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+101	0	fb:cell.08_10_01	08/10/01	08\\/10\\/01	08\\/10\\/01	NN	DATE	XX01-08-10	8.0	xxxx-08-10	10.0	08|10|01	fb:part.08|fb:part.10|fb:part.01
+101	1	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+101	2	fb:cell.g_780	G-780	g-780	g-780	NN	O		780.0			G-780	fb:part.g_780
+101	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+101	4	fb:cell.g_780	G-780	g-780	g-780	NN	O		780.0			G-780	fb:part.g_780
+101	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+102	0	fb:cell.08_10_01	08/10/01	08\\/10\\/01	08\\/10\\/01	NN	DATE	XX01-08-10	8.0	xxxx-08-10	10.0	08|10|01	fb:part.08|fb:part.10|fb:part.01
+102	1	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+102	2	fb:cell.heat	HEAT	heat	heat	NN	O					HEAT	fb:part.heat
+102	3	fb:cell.beam_bay_4_port	Beam - Bay 4 Port	beam|-|bay|4|port	Beam|-|Bay|4|Port	NNP|:|NNP|CD|NNP	O|O|O|NUMBER|O	|||4.0|	4.0			Beam - Bay 4 Port	fb:part.beam_bay_4_port
+102	4	fb:cell.beam_for_contingency	Beam for Contingency	beam|for|contingency	Beam|for|Contingency	NNP|IN|NNP	O|O|O	||				Beam for Contingency	fb:part.beam_for_contingency
+102	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+103	0	fb:cell.09_08_00	09/08/00	09\\/08\\/00	09\\/08\\/00	CD	DATE	XX00-09-08	9.0	xxxx-09-08	8.0	09|08|00	fb:part.09|fb:part.08|fb:part.00
+103	1	fb:cell.106	106	106	106	CD	NUMBER	106.0	106.0				
+103	2	fb:cell.g_782	G-782	g-782	g-782	NN	O		782.0			G-782	fb:part.g_782
+103	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+103	4	fb:cell.g_782	G-782	g-782	g-782	NN	O		782.0			G-782	fb:part.g_782
+103	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+104	0	fb:cell.09_08_00	09/08/00	09\\/08\\/00	09\\/08\\/00	CD	DATE	XX00-09-08	9.0	xxxx-09-08	8.0	09|08|00	fb:part.09|fb:part.08|fb:part.00
+104	1	fb:cell.106	106	106	106	CD	NUMBER	106.0	106.0				
+104	2	fb:cell.sem_08	SEM-08	sem-08	sem-08	NN	O		8.0			SEM-08	fb:part.sem_08
+104	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+104	4	fb:cell.sem_08	SEM-08	sem-08	sem-08	NN	O		8.0			SEM-08	fb:part.sem_08
+104	5	fb:cell.adapter_beam	Adapter Beam	adapter|beam	adapter|Beam	NN|NNP	O|O	|				Adapter Beam	fb:part.adapter_beam
+105	0	fb:cell.11_29_02	11/29/02	11\\/29\\/02	11\\/29\\/02	NN	DATE	XX02-11-29	11.0	xxxx-11-29	29.0	11|29|02	fb:part.11|fb:part.29|fb:part.02
+105	1	fb:cell.107	107	107	107	CD	NUMBER	107.0	107.0				
+105	2	fb:cell.freestar	FREESTAR	freestar	freestar	NN	O					FREESTAR	fb:part.freestar
+105	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+105	4	fb:cell.mediterranean_israeli_dust_experiment_meidex_israeli_space_agency_solar_constant_experiment_solcon_03_royal_meteorological_institute_of_belgium_shuttle_ozone_limb_sounding_experiment_solse_2_nasa_gsfc_critical_viscosity_of_xenon_cvx_2_nasa_grc_low_power_transceiver_lpt_nasa_gsfc_and_itt_industries	Mediterranean Israeli Dust Experiment (MEIDEX), Israeli Space Agency\nSolar Constant Experiment (SOLCON-03), Royal Meteorological Institute of Belgium\nShuttle Ozone Limb Sounding Experiment (SOLSE-2), NASA GSFC\nCritical Viscosity of Xenon (CVX-2), NASA GRC\nLow Power Transceiver (LPT), NASA GSFC and ITT Industries	mediterranean|israeli|dust|experiment|-lrb-|meidex|-rrb-|,|israeli|space|agency|solar|constant|experiment|-lrb-|solcon-03|-rrb-|,|royal|meteorological|institute|of|belgium|shuttle|ozone|limb|sounding|experiment|-lrb-|solse-2|-rrb-|,|nasa|gsfc|critical|viscosity|of|xenon|-lrb-|cvx-2|-rrb-|,|nasa|grc|low|power|transceiver|-lrb-|lpt|-rrb-|,|nasa|gsfc|and|itt|industries	mediterranean|israeli|dust|experiment|-lrb-|meidex|-rrb-|,|israeli|space|Agency|Solar|constant|experiment|-lrb-|solcon-03|-rrb-|,|Royal|Meteorological|Institute|of|Belgium|Shuttle|ozone|limb|sound|experiment|-lrb-|solse-2|-rrb-|,|NASA|GSFC|critical|viscosity|of|xenon|-lrb-|cvx-2|-rrb-|,|NASA|GRC|Low|Power|Transceiver|-lrb-|LPT|-rrb-|,|NASA|GSFC|and|ITT|Industries	JJ|JJ|NN|NN|-LRB-|NN|-RRB-|,|JJ|NN|NNP|NNP|JJ|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|IN|NNP|NNP|NN|NN|VBG|NN|-LRB-|NN|-RRB-|,|NNP|NNP|JJ|NN|IN|NN|-LRB-|NN|-RRB-|,|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|CC|NNP|NNPS	MISC|MISC|MISC|MISC|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION	|||||||||||||||||||||||||||||||||||||||||||||||||||||||	3.0		2.0	Mediterranean Israeli Dust Experiment (MEIDEX)|Israeli Space Agency|Solar Constant Experiment (SOLCON-03)|Royal Meteorological Institute of Belgium|Shuttle Ozone Limb Sounding Experiment (SOLSE-2)|NASA GSFC|Critical Viscosity of Xenon (CVX-2)|NASA GRC|Low Power Transceiver (LPT)|NASA GSFC and ITT Industries	fb:part.mediterranean_israeli_dust_experiment_meidex|fb:part.israeli_space_agency|fb:part.solar_constant_experiment_solcon_03|fb:part.royal_meteorological_institute_of_belgium|fb:part.shuttle_ozone_limb_sounding_experiment_solse_2|fb:part.nasa_gsfc|fb:part.critical_viscosity_of_xenon_cvx_2|fb:part.nasa_grc|fb:part.low_power_transceiver_lpt|fb:part.nasa_gsfc_and_itt_industries
+105	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+106	0	fb:cell.11_29_02	11/29/02	11\\/29\\/02	11\\/29\\/02	NN	DATE	XX02-11-29	11.0	xxxx-11-29	29.0	11|29|02	fb:part.11|fb:part.29|fb:part.02
+106	1	fb:cell.107	107	107	107	CD	NUMBER	107.0	107.0				
+106	2	fb:cell.freestar	FREESTAR	freestar	freestar	NN	O					FREESTAR	fb:part.freestar
+106	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+106	4	fb:cell.sem_14	SEM-14	sem-14	sem-14	NN	O		14.0			SEM-14	fb:part.sem_14
+106	5	fb:cell.hh_bridge	HH Bridge	hh|bridge	HH|Bridge	NNP|NNP	O|O	|				HH Bridge	fb:part.hh_bridge
+107	0	fb:cell.12_05_01	12/05/01	12\\/05\\/01	12\\/05\\/01	CD	DATE	XX01-12-05	12.0	xxxx-12-05	5.0	12|05|01	fb:part.12|fb:part.05|fb:part.01
+107	1	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+107	2	fb:cell.mach_1	MACH-1	mach-1	mach-1	NN	O		1.0			MACH-1	fb:part.mach_1
+107	3	fb:cell.hh	HH	hh	hh	NN	O					HH	fb:part.hh
+107	4	fb:cell.capl_3_nasa_gsfc_and_the_naval_research_laboratory_starshine_2_rocky_mountain_nasa_space_grant_consortium_usu_prototype_synchrotron_radiation_detector_psrd_nasa_jsc	CAPL-3, NASA GSFC and the Naval Research Laboratory\nSTARSHINE-2, Rocky Mountain NASA Space Grant Consortium / USU\nPrototype Synchrotron Radiation Detector (PSRD), NASA JSC	capl-3|,|nasa|gsfc|and|the|naval|research|laboratory|starshine-2|,|rocky|mountain|nasa|space|grant|consortium|\\/|usu|prototype|synchrotron|radiation|detector|-lrb-|psrd|-rrb-|,|nasa|jsc	capl-3|,|NASA|GSFC|and|the|Naval|Research|Laboratory|starshine-2|,|Rocky|Mountain|NASA|Space|Grant|Consortium|\\/|USU|Prototype|Synchrotron|Radiation|Detector|-lrb-|PSRD|-rrb-|,|NASA|JSC	NN|,|NNP|NNP|CC|DT|NNP|NNP|NNP|NN|,|NNP|NNP|NNP|NNP|NNP|NNP|:|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP	O|O|ORGANIZATION|ORGANIZATION|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O	||||||||||||||||||||||||||||	3.0		2.0	CAPL-3|NASA GSFC and the Naval Research Laboratory|STARSHINE-2|Rocky Mountain NASA Space Grant Consortium|USU|Prototype Synchrotron Radiation Detector (PSRD)|NASA JSC	fb:part.capl_3|fb:part.nasa_gsfc_and_the_naval_research_laboratory|fb:part.starshine_2|fb:part.rocky_mountain_nasa_space_grant_consortium|fb:part.usu|fb:part.prototype_synchrotron_radiation_detector_psrd|fb:part.nasa_jsc
+107	5	fb:cell.gba_with_hh_avionics	GBA with HH Avionics	gba|with|hh|avionics	gba|with|hh|avionic	NN|IN|NN|NNS	O|O|O|MISC	|||				GBA with HH Avionics	fb:part.gba_with_hh_avionics
+108	0	fb:cell.12_05_01	12/05/01	12\\/05\\/01	12\\/05\\/01	CD	DATE	XX01-12-05	12.0	xxxx-12-05	5.0	12|05|01	fb:part.12|fb:part.05|fb:part.01
+108	1	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+108	2	fb:cell.mach_1	MACH-1	mach-1	mach-1	NN	O		1.0			MACH-1	fb:part.mach_1
+108	3	fb:cell.cap	CAP	cap	cap	NN	O					CAP	fb:part.cap
+108	4	fb:cell.collisions_into_dust_experiment_collide_2_nasa_grc	Collisions Into Dust Experiment\n(COLLIDE-2), NASA GRC	collisions|into|dust|experiment|-lrb-|collide-2|-rrb-|,|nasa|grc	Collisions|Into|dust|experiment|-lrb-|collide-2|-rrb-|,|NASA|GRC	NNP|NNP|NN|NN|-LRB-|NN|-RRB-|,|NNP|NNP	O|O|O|O|O|O|O|O|ORGANIZATION|O	|||||||||	2.0			Collisions Into Dust Experiment|(COLLIDE-2)|NASA GRC	fb:part.collisions_into_dust_experiment|fb:part._collide_2|fb:part.nasa_grc
+108	5	fb:cell.gba_with_hh_avionics	GBA with HH Avionics	gba|with|hh|avionics	gba|with|hh|avionic	NN|IN|NN|NNS	O|O|O|MISC	|||				GBA with HH Avionics	fb:part.gba_with_hh_avionics
+109	0	fb:cell.12_05_01	12/05/01	12\\/05\\/01	12\\/05\\/01	CD	DATE	XX01-12-05	12.0	xxxx-12-05	5.0	12|05|01	fb:part.12|fb:part.05|fb:part.01
+109	1	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+109	2	fb:cell.mach_1	MACH-1	mach-1	mach-1	NN	O		1.0			MACH-1	fb:part.mach_1
+109	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+109	4	fb:cell.g_761	G-761	g-761	g-761	NN	O		761.0			G-761	fb:part.g_761
+109	5	fb:cell.gba_with_hh_avionics	GBA with HH Avionics	gba|with|hh|avionics	gba|with|hh|avionic	NN|IN|NN|NNS	O|O|O|MISC	|||				GBA with HH Avionics	fb:part.gba_with_hh_avionics
+110	0	fb:cell.12_05_01	12/05/01	12\\/05\\/01	12\\/05\\/01	CD	DATE	XX01-12-05	12.0	xxxx-12-05	5.0	12|05|01	fb:part.12|fb:part.05|fb:part.01
+110	1	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+110	2	fb:cell.mach_1_2	MACH-\n1	mach|-|1	mach|-|1	SYM|:|CD	ORGANIZATION|O|DATE	||******01	1.0			MACH-|1	fb:part.mach|fb:part.1
+110	3	fb:cell.sem	SEM	sem	sem	NN	O					SEM	fb:part.sem
+110	4	fb:cell.sem_11_sem_15	SEM-11\nSEM-15	sem-11|sem-15	sem-11|sem-15	NN|NN	O|O	|	11.0		15.0	SEM-11|SEM-15	fb:part.sem_11|fb:part.sem_15
+110	5	fb:cell.gba_with_hh_avionics	GBA with HH Avionics	gba|with|hh|avionics	gba|with|hh|avionic	NN|IN|NN|NNS	O|O|O|MISC	|||				GBA with HH Avionics	fb:part.gba_with_hh_avionics
+111	0	fb:cell.12_05_01	12/05/01	12\\/05\\/01	12\\/05\\/01	CD	DATE	XX01-12-05	12.0	xxxx-12-05	5.0	12|05|01	fb:part.12|fb:part.05|fb:part.01
+111	1	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+111	2	fb:cell.lmc	LMC	lmc	LMC	NNP	O					LMC	fb:part.lmc
+111	3	fb:cell.lmc_carrier	LMC Carrier	lmc|carrier	lmc|carrier	NN|NN	ORGANIZATION|O	|				LMC Carrier	fb:part.lmc_carrier
+111	4	fb:cell.sem_12	SEM-12	sem-12	sem-12	NN	O		12.0			SEM-12	fb:part.sem_12
+111	5	fb:cell.lmc_carrier	LMC Carrier	lmc|carrier	lmc|carrier	NN|NN	ORGANIZATION|O	|				LMC Carrier	fb:part.lmc_carrier
+112	0	fb:cell.12_05_01	12/05/01	12\\/05\\/01	12\\/05\\/01	CD	DATE	XX01-12-05	12.0	xxxx-12-05	5.0	12|05|01	fb:part.12|fb:part.05|fb:part.01
+112	1	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+112	2	fb:cell.lmc	LMC	lmc	LMC	NNP	O					LMC	fb:part.lmc
+112	3	fb:cell.lmc_carrier	LMC Carrier	lmc|carrier	lmc|carrier	NN|NN	ORGANIZATION|O	|				LMC Carrier	fb:part.lmc_carrier
+112	4	fb:cell.g_064_g_730_g_785	G-064\nG-730\nG-785	g-064|g-730|g-785	g-064|g-730|g-785	NN|NN|NN	O|O|O	||	64.0		730.0	G-064|G-730|G-785	fb:part.g_064|fb:part.g_730|fb:part.g_785
+112	5	fb:cell.lmc_carrier	LMC Carrier	lmc|carrier	lmc|carrier	NN|NN	ORGANIZATION|O	|				LMC Carrier	fb:part.lmc_carrier
+113	0	fb:cell.12_05_01	12/05/01	12\\/05\\/01	12\\/05\\/01	CD	DATE	XX01-12-05	12.0	xxxx-12-05	5.0	12|05|01	fb:part.12|fb:part.05|fb:part.01
+113	1	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+113	2	fb:cell.g_221_g_775	G-221\nG-775	g-221|g-775	g-221|g-775	NN|NN	O|O	|	221.0		775.0	G-221|G-775	fb:part.g_221|fb:part.g_775
+113	3	fb:cell.gas	GAS	gas	gas	NN	O					GAS	fb:part.gas
+113	4	fb:cell.g_221_g_775	G-221\nG-775	g-221|g-775	g-221|g-775	NN|NN	O|O	|	221.0		775.0	G-221|G-775	fb:part.g_221|fb:part.g_775
+113	5	fb:cell.adapter_beam_tbody	Adapter Beam</tbody>	adapter|beam|</tbody>	adapter|Beam|</tbody>	NN|NNP|NNP	O|O|O	||				Adapter Beam<|tbody>	fb:part.adapter_beam_2|fb:part.tbody

@@ -1,0 +1,92 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	3	fb:row.row.site	Site	site	site	NN	O						
+-1	4	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	5	fb:row.row.result	Result	result	result	NN	O						
+-1	6	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.september_5	September 5	september|5	September|5	NNP|CD	DATE|DATE	XXXX-09-05|XXXX-09-05	5.0	xxxx-09-05			
+0	1	fb:cell.2_30_p_m	2:30 p.m.	2:30|p.m.	2:30|p.m.	CD|NN	TIME|TIME	T14:30|T14:30	2.0		30.0		
+0	2	fb:cell.jackson_state	Jackson State*	jackson|state|\\*	Jackson|State|\\*	NNP|NNP|SYM	PERSON|O|O	||					
+0	3	fb:cell.davis_wade_stadium_starkville_ms	Davis Wade Stadium • Starkville, MS	davis|wade|stadium|•|starkville|,|ms	Davis|Wade|Stadium|•|Starkville|,|m	NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|O|LOCATION|O|O	||||||				Davis Wade Stadium • Starkville|MS	fb:part.davis_wade_stadium_starkville|fb:part.ms
+0	4	fb:cell.espnu	ESPNU	espnu	ESPNU	NNP	ORGANIZATION						
+0	5	fb:cell.w_45_7	W 45–7	w|45|--|7	W|45|--|7	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|45.0||7.0	45.0		7.0		
+0	6	fb:cell.54_232	54,232	54,232	54,232	CD	NUMBER	54232.0	54232.0				
+1	0	fb:cell.september_12	September 12	september|12	September|12	NNP|CD	DATE|DATE	XXXX-09-12|XXXX-09-12	12.0	xxxx-09-12			
+1	1	fb:cell.6_00_p_m	6:00 p.m.	6:00|p.m.	6:00|p.m.	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+1	2	fb:cell.at_auburn	at Auburn	at|auburn	at|Auburn	IN|NNP	O|LOCATION	|					
+1	3	fb:cell.jordan_hare_stadium_auburn_al	Jordan–Hare Stadium • Auburn, AL	jordan|--|hare|stadium|•|auburn|,|al	Jordan|--|Hare|Stadium|•|Auburn|,|AL	NNP|:|NNP|NNP|NNP|NNP|,|NNP	LOCATION|O|O|O|O|O|O|LOCATION	|||||||				Jordan–Hare Stadium • Auburn|AL	fb:part.jordan_hare_stadium_auburn|fb:part.al
+1	4	fb:cell.secrn	SECRN	secrn	secrn	NN	O						
+1	5	fb:cell.l_24_49	L 24–49	l|24|--|49	l|24|--|49	NN|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||49.0	24.0		49.0		
+1	6	fb:cell.85_269	85,269	85,269	85,269	CD	NUMBER	85269.0	85269.0				
+2	0	fb:cell.september_19	September 19	september|19	September|19	NNP|CD	DATE|DATE	XXXX-09-19|XXXX-09-19	19.0	xxxx-09-19			
+2	1	fb:cell.6_00_p_m	6:00 p.m.	6:00|p.m.	6:00|p.m.	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+2	2	fb:cell.at_vanderbilt	at Vanderbilt	at|vanderbilt	at|Vanderbilt	IN|NNP	O|LOCATION	|					
+2	3	fb:cell.vanderbilt_stadium_nashville_tn	Vanderbilt Stadium • Nashville, TN	vanderbilt|stadium|•|nashville|,|tn	Vanderbilt|Stadium|•|Nashville|,|tn	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|O	|||||				Vanderbilt Stadium • Nashville|TN	fb:part.vanderbilt_stadium_nashville|fb:part.tn
+2	4	fb:cell.secrn	SECRN	secrn	secrn	NN	O						
+2	5	fb:cell.w_15_3	W 15–3	w|15|--|3	W|15|--|3	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|15.0||3.0	15.0		3.0		
+2	6	fb:cell.31_840	31,840	31,840	31,840	CD	NUMBER	31840.0	31840.0				
+3	0	fb:cell.september_26	September 26	september|26	September|26	NNP|CD	DATE|DATE	XXXX-09-26|XXXX-09-26	26.0	xxxx-09-26			
+3	1	fb:cell.11_21_a_m	11:21 a.m.	11:21|a.m.	11:21|a.m.	CD|NN	TIME|TIME	T11:21|T11:21	11.0		21.0		
+3	2	fb:cell._7_lsu	#7 LSU	#|7|lsu	#|7|lsu	#|CD|NN	MONEY|MONEY|ORGANIZATION	£7.0|£7.0|	7.0				
+3	3	fb:cell.davis_wade_stadium_starkville_ms	Davis Wade Stadium • Starkville, MS	davis|wade|stadium|•|starkville|,|ms	Davis|Wade|Stadium|•|Starkville|,|m	NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|O|LOCATION|O|O	||||||				Davis Wade Stadium • Starkville|MS	fb:part.davis_wade_stadium_starkville|fb:part.ms
+3	4	fb:cell.secn	SECN	secn	secn	NN	O						
+3	5	fb:cell.l_26_30	L 26–30	l|26|--|30	l|26|--|30	NN|CD|:|CD	O|NUMBER|O|NUMBER	|26.0||30.0	26.0		30.0		
+3	6	fb:cell.53_612	53,612	53,612	53,612	CD	NUMBER	53612.0	53612.0				
+4	0	fb:cell.october_3	October 3	october|3	October|3	NNP|CD	DATE|DATE	XXXX-10-03|XXXX-10-03	3.0	xxxx-10-03			
+4	1	fb:cell.6_30_p_m	6:30 p.m.	6:30|p.m.	6:30|p.m.	CD|NN	TIME|TIME	T18:30|T18:30	6.0		30.0		
+4	2	fb:cell._25_georgia_tech	#25 Georgia Tech*	#|25|georgia|tech|\\*	#|25|Georgia|Tech|\\*	#|CD|NNP|NNP|SYM	MONEY|MONEY|ORGANIZATION|ORGANIZATION|O	£25.0|£25.0|||	25.0				
+4	3	fb:cell.davis_wade_stadium_starkville_ms	Davis Wade Stadium • Starkville, MS	davis|wade|stadium|•|starkville|,|ms	Davis|Wade|Stadium|•|Starkville|,|m	NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|O|LOCATION|O|O	||||||				Davis Wade Stadium • Starkville|MS	fb:part.davis_wade_stadium_starkville|fb:part.ms
+4	4	fb:cell.css	CSS	css	CSS	NNP	O						
+4	5	fb:cell.l_31_42	L 31–42	l|31|--|42	l|31|--|42	NN|CD|:|CD	O|NUMBER|O|NUMBER	|31.0||42.0	31.0		42.0		
+4	6	fb:cell.50_035	50,035	50,035	50,035	CD	NUMBER	50035.0	50035.0				
+5	0	fb:cell.october_10	October 10	october|10	October|10	NNP|CD	DATE|DATE	XXXX-10-10|XXXX-10-10	10.0	xxxx-10-10			
+5	1	fb:cell.11_30_a_m	11:30 a.m.	11:30|a.m.	11:30|a.m.	CD|NN	TIME|TIME	T11:30|T11:30	11.0		30.0		
+5	2	fb:cell.houston	Houston*	houston|\\*	Houston|\\*	NNP|SYM	LOCATION|O	|					
+5	3	fb:cell.davis_wade_stadium_starkville_ms	Davis Wade Stadium • Starkville, MS	davis|wade|stadium|•|starkville|,|ms	Davis|Wade|Stadium|•|Starkville|,|m	NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|O|LOCATION|O|O	||||||				Davis Wade Stadium • Starkville|MS	fb:part.davis_wade_stadium_starkville|fb:part.ms
+5	4	fb:cell.espnu	ESPNU	espnu	ESPNU	NNP	ORGANIZATION						
+5	5	fb:cell.l_24_31	L 24–31	l|24|--|31	l|24|--|31	NN|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||31.0	24.0		31.0		
+5	6	fb:cell.48_019	48,019	48,019	48,019	CD	NUMBER	48019.0	48019.0				
+6	0	fb:cell.october_17	October 17	october|17	October|17	NNP|CD	DATE|DATE	XXXX-10-17|XXXX-10-17	17.0	xxxx-10-17			
+6	1	fb:cell.11_30_a_m	11:30 a.m.	11:30|a.m.	11:30|a.m.	CD|NN	TIME|TIME	T11:30|T11:30	11.0		30.0		
+6	2	fb:cell.at_middle_tennessee	at Middle Tennessee*	at|middle|tennessee|\\*	at|Middle|Tennessee|\\*	IN|NNP|NNP|SYM	O|LOCATION|LOCATION|O	|||					
+6	3	fb:cell.johnny_red_floyd_stadium_murfreesboro_tn	Johnny "Red" Floyd Stadium • Murfreesboro, TN	johnny|``|red|''|floyd|stadium|•|murfreesboro|,|tn	Johnny|``|Red|''|Floyd|Stadium|•|Murfreesboro|,|tn	NNP|``|NNP|''|NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|O|O|O|O|LOCATION|O|O	|||||||||				Johnny "Red" Floyd Stadium • Murfreesboro|TN	fb:part.johnny_red_floyd_stadium_murfreesboro|fb:part.tn
+6	4	fb:cell.espnu	ESPNU	espnu	ESPNU	NNP	ORGANIZATION						
+6	5	fb:cell.w_27_6	W 27–6	w|27|--|6	W|27|--|6	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||6.0	27.0		6.0		
+6	6	fb:cell.23_882	23,882	23,882	23,882	CD	NUMBER	23882.0	23882.0				
+7	0	fb:cell.october_24	October 24	october|24	October|24	NNP|CD	DATE|DATE	XXXX-10-24|XXXX-10-24	24.0	xxxx-10-24			
+7	1	fb:cell.6_30_p_m	6:30 p.m.	6:30|p.m.	6:30|p.m.	CD|NN	TIME|TIME	T18:30|T18:30	6.0		30.0		
+7	2	fb:cell._1_florida	#1 Florida	#|1|florida	#|1|Florida	#|CD|NNP	MONEY|MONEY|LOCATION	£1.0|£1.0|	1.0				
+7	3	fb:cell.davis_wade_stadium_starkville_ms	Davis Wade Stadium • Starkville, MS	davis|wade|stadium|•|starkville|,|ms	Davis|Wade|Stadium|•|Starkville|,|m	NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|O|LOCATION|O|O	||||||				Davis Wade Stadium • Starkville|MS	fb:part.davis_wade_stadium_starkville|fb:part.ms
+7	4	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION						
+7	5	fb:cell.l_19_29	L 19–29	l|19|--|29	l|19|--|29	NN|CD|:|CD	O|NUMBER|O|NUMBER	|19.0||29.0	19.0		29.0		
+7	6	fb:cell.57_178	57,178	57,178	57,178	CD	NUMBER	57178.0	57178.0				
+8	0	fb:cell.october_31	October 31	october|31	October|31	NNP|CD	DATE|DATE	XXXX-10-31|XXXX-10-31	31.0	xxxx-10-31			
+8	1	fb:cell.6_00_p_m	6:00 p.m.	6:00|p.m.	6:00|p.m.	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+8	2	fb:cell.at_kentucky	at Kentucky	at|kentucky	at|Kentucky	IN|NNP	O|LOCATION	|					
+8	3	fb:cell.commonwealth_stadium_lexington_ky	Commonwealth Stadium • Lexington, KY	commonwealth|stadium|•|lexington|,|ky	Commonwealth|Stadium|•|Lexington|,|KY	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Commonwealth Stadium • Lexington|KY	fb:part.commonwealth_stadium_lexington|fb:part.ky
+8	4	fb:cell.secrn	SECRN	secrn	secrn	NN	O						
+8	5	fb:cell.w_31_24	W 31–24	w|31|--|24	W|31|--|24	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|31.0||24.0	31.0		24.0		
+8	6	fb:cell.67_953	67,953	67,953	67,953	CD	NUMBER	67953.0	67953.0				
+9	0	fb:cell.november_14	November 14	november|14	November|14	NNP|CD	DATE|DATE	XXXX-11-14|XXXX-11-14	14.0	xxxx-11-14			
+9	1	fb:cell.6_00_p_m	6:00 p.m.	6:00|p.m.	6:00|p.m.	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+9	2	fb:cell._2_alabama	#2 Alabama	#|2|alabama	#|2|Alabama	#|CD|NNP	MONEY|MONEY|LOCATION	£2.0|£2.0|	2.0				
+9	3	fb:cell.davis_wade_stadium_starkville_ms_rivalry	Davis Wade Stadium • Starkville, MS (Rivalry)	davis|wade|stadium|•|starkville|,|ms|-lrb-|rivalry|-rrb-	Davis|Wade|Stadium|•|Starkville|,|m|-lrb-|rivalry|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NN|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|LOCATION|O|O|O|O|O	|||||||||				Davis Wade Stadium • Starkville|MS (Rivalry)	fb:part.davis_wade_stadium_starkville|fb:part.ms_rivalry
+9	4	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION						
+9	5	fb:cell.l_3_31	L 3–31	l|3|--|31	l|3|--|31	NN|CD|:|CD	O|NUMBER|O|NUMBER	|3.0||31.0	3.0		31.0		
+9	6	fb:cell.58_103	58,103	58,103	58,103	CD	NUMBER	58103.0	58103.0				
+10	0	fb:cell.november_21	November 21	november|21	November|21	NNP|CD	DATE|DATE	XXXX-11-21|XXXX-11-21	21.0	xxxx-11-21			
+10	1	fb:cell.11_21_a_m	11:21 a.m.	11:21|a.m.	11:21|a.m.	CD|NN	TIME|TIME	T11:21|T11:21	11.0		21.0		
+10	2	fb:cell.at_arkansas	at Arkansas	at|arkansas	at|Arkansas	IN|NNP	O|LOCATION	|					
+10	3	fb:cell.war_memorial_stadium_little_rock_ar	War Memorial Stadium • Little Rock, AR	war|memorial|stadium|•|little|rock|,|ar	War|Memorial|Stadium|•|Little|Rock|,|ar	NNP|NNP|NNP|NNP|NNP|NNP|,|NN	O|O|O|O|O|O|O|O	|||||||				War Memorial Stadium • Little Rock|AR	fb:part.war_memorial_stadium_little_rock|fb:part.ar
+10	4	fb:cell.secn	SECN	secn	secn	NN	O						
+10	5	fb:cell.l_21_42	L 21–42	l|21|--|42	l|21|--|42	NN|CD|:|CD	O|NUMBER|O|NUMBER	|21.0||42.0	21.0		42.0		
+10	6	fb:cell.55_634	55,634	55,634	55,634	CD	NUMBER	55634.0	55634.0				
+11	0	fb:cell.november_28	November 28	november|28	November|28	NNP|CD	DATE|DATE	XXXX-11-28|XXXX-11-28	28.0	xxxx-11-28			
+11	1	fb:cell.11_21_a_m	11:21 a.m.	11:21|a.m.	11:21|a.m.	CD|NN	TIME|TIME	T11:21|T11:21	11.0		21.0		
+11	2	fb:cell._25_ole_miss	#25 Ole Miss	#|25|ole|miss	#|25|ole|Miss	#|CD|JJ|NNP	MONEY|MONEY|MISC|MISC	£25.0|£25.0||	25.0				
+11	3	fb:cell.davis_wade_stadium_starkville_ms_egg_bowl	Davis Wade Stadium • Starkville, MS (Egg Bowl)	davis|wade|stadium|•|starkville|,|ms|-lrb-|egg|bowl|-rrb-	Davis|Wade|Stadium|•|Starkville|,|m|-lrb-|Egg|Bowl|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NN|-LRB-|NNP|NNP|-RRB-	PERSON|PERSON|PERSON|O|LOCATION|O|O|O|O|O|O	||||||||||				Davis Wade Stadium • Starkville|MS (Egg Bowl)	fb:part.davis_wade_stadium_starkville|fb:part.ms_egg_bowl
+11	4	fb:cell.secn	SECN	secn	secn	NN	O						
+11	5	fb:cell.w_41_27	W 41–27	w|41|--|27	W|41|--|27	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|41.0||27.0	41.0		27.0		
+11	6	fb:cell.55_365	55,365	55,365	55,365	CD	NUMBER	55365.0	55365.0				

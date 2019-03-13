@@ -1,0 +1,96 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.sport	Sport	sport	Sport	NNP	O						
+-1	2	fb:row.row.event	Event	event	event	NN	O						
+-1	3	fb:row.row.placing	Placing	placing	place	VBG	O						
+-1	4	fb:row.row.performance	Performance	performance	Performance	NNP	O						
+0	0	fb:cell.shaul_ladani	Shaul Ladani	shaul|ladani	Shaul|Ladani	NNP|NNP	PERSON|PERSON	|					
+0	1	fb:cell.athletics	Athletics	athletics	Athletics	NNP	O						
+0	2	fb:cell.men_s_50_km_walk	Men's 50 km walk	men|'s|50|km|walk	man|'s|50|km|walk	NN|POS|CD|NN|NN	O|O|NUMBER|O|O	||50.0||	50.0				
+0	3	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+0	4	fb:cell.4_24_38_6_also_entered_for_20_km_walk_but_did_not_start	4:24:38.6\n(also entered for 20 km walk, but did not start)	4:24:38.6|-lrb-|also|entered|for|20|km|walk|,|but|did|not|start|-rrb-	4:24:38.6|-lrb-|also|enter|for|20|km|walk|,|but|do|not|start|-rrb-	NN|-LRB-|RB|VBN|IN|CD|NN|NN|,|CC|VBD-AUX|RB|VB|-RRB-	TIME|O|O|O|O|NUMBER|O|O|O|O|O|O|O|O	T04:24:38|||||20.0||||||||	4.0		24.0	4:24:38.6|(also entered for 20 km walk|but did not start)	fb:part.4_24_38_6|fb:part._also_entered_for_20_km_walk|fb:part.but_did_not_start
+1	0	fb:cell.esther_shahamorov	Esther Shahamorov	esther|shahamorov	Esther|Shahamorov	NNP|NNP	PERSON|PERSON	|					
+1	1	fb:cell.athletics	Athletics	athletics	Athletics	NNP	O						
+1	2	fb:cell.women_s_100_m	Women's 100 m	women|'s|100|m	Women|'s|100|m	NNP|POS|CD|NN	O|O|NUMBER|O	||100.0|	100.0				
+1	3	fb:cell.semifinal_5th	Semifinal (5th)	semifinal|-lrb-|5th|-rrb-	Semifinal|-lrb-|5th|-rrb-	NNP|-LRB-|JJ|-RRB-	O|O|ORDINAL|O	||5.0|	5.0				
+1	4	fb:cell.11_49	11.49	11.49	11.49	CD	NUMBER	11.49	11.49			11.49	fb:part.11_49
+2	0	fb:cell.esther_shahamorov	Esther Shahamorov	esther|shahamorov	Esther|Shahamorov	NNP|NNP	PERSON|PERSON	|					
+2	1	fb:cell.athletics	Athletics	athletics	Athletics	NNP	O						
+2	2	fb:cell.women_s_100_m_hurdles	Women's 100 m hurdles	women|'s|100|m|hurdles	Women|'s|100|m|hurdle	NNP|POS|CD|NN|NNS	O|O|NUMBER|O|O	||100.0||	100.0				
+2	3	fb:cell.semifinal	Semifinal	semifinal	Semifinal	NNP	O						
+2	4	fb:cell.did_not_start_left_munich_before_the_semifinal	Did not start (left Munich before the semifinal)	did|not|start|-lrb-|left|munich|before|the|semifinal|-rrb-	do|not|start|-lrb-|leave|Munich|before|the|semifinal|-rrb-	VBD-AUX|RB|VB|-LRB-|VBN|NNP|IN|DT|JJ|-RRB-	O|O|O|O|O|LOCATION|O|O|O|O	|||||||||				Did not start (left Munich before the semifinal)	fb:part.did_not_start_left_munich_before_the_semifinal
+3	0	fb:cell.dan_alon	Dan Alon	dan|alon	Dan|Alon	NNP|NNP	PERSON|PERSON	|					
+3	1	fb:cell.fencing	Fencing	fencing	fencing	NN	O						
+3	2	fb:cell.men_s_foil	Men's foil	men|'s|foil	man|'s|foil	NN|POS|NN	O|O|O	||					
+3	3	fb:cell.second_round	Second round	second|round	second|round	JJ|NN	ORDINAL|O	2.0|					
+3	4	fb:cell.w5_l5_1r_3_2_2r_2_3	W5–L5 (1R 3-2, 2R 2-3)	w5|--|l5|-lrb-|1r|3-2|,|2r|2-3|-rrb-	w5|--|l5|-lrb-|1r|3-2|,|2r|2-3|-rrb-	NN|:|NN|-LRB-|NN|CD|,|NN|CD|-RRB-	O|O|O|O|O|NUMBER|O|O|NUMBER|O	|||||3.0 - 2.0|||2.0 - 3.0|	5.0		5.0	W5–L5 (1R 3-2|2R 2-3)	fb:part.w5_l5_1r_3_2|fb:part.2r_2_3
+4	0	fb:cell.yehuda_weissenstein	Yehuda Weissenstein	yehuda|weissenstein	Yehuda|Weissenstein	NNP|NNP	PERSON|PERSON	|					
+4	1	fb:cell.fencing	Fencing	fencing	fencing	NN	O						
+4	2	fb:cell.men_s_foil	Men's foil	men|'s|foil	man|'s|foil	NN|POS|NN	O|O|O	||					
+4	3	fb:cell.second_round	Second round	second|round	second|round	JJ|NN	ORDINAL|O	2.0|					
+4	4	fb:cell.w2_l8_1r_2_3_2r_0_5	W2–L8 (1R 2-3, 2R 0-5)	w2|--|l8|-lrb-|1r|2-3|,|2r|0-5|-rrb-	w2|--|l8|-lrb-|1r|2-3|,|2r|0-5|-rrb-	NN|:|NN|-LRB-|NN|CD|,|NN|CD|-RRB-	O|O|O|O|O|NUMBER|O|O|NUMBER|O	|||||2.0 - 3.0|||0.0 - 5.0|	2.0		8.0	W2–L8 (1R 2-3|2R 0-5)	fb:part.w2_l8_1r_2_3|fb:part.2r_0_5
+5	0	fb:cell.yair_michaeli	Yair Michaeli	yair|michaeli	Yair|Michaeli	NNP|NNP	PERSON|PERSON	|					
+5	1	fb:cell.sailing	Sailing	sailing	Sailing	NNP	O						
+5	2	fb:cell.flying_dutchman	Flying Dutchman	flying|dutchman	Flying|Dutchman	NNP|NNP	O|MISC	|					
+5	3	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+5	4	fb:cell.28_22_22_19_25_19_dns_171_pts_left_kiel_before_7th_race	28-22-22-19-25-19-DNS = 171 pts\n(left Kiel before 7th race)	28-22-22-19-25-19|dns|=|171|pts|-lrb-|left|kiel|before|7th|race|-rrb-	28-22-22-19-25-19|dn|=|171|pt|-lrb-|leave|Kiel|before|7th|race|-rrb-	CD|NN|JJ|CD|NNS|-LRB-|VBN|NNP|IN|JJ|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|ORDINAL|O|O	|||171.0||||||7.0||	28.0		22.0	28-22-22-19-25-19-DNS = 171 pts|(left Kiel before 7th race)	fb:part.28_22_22_19_25_19_dns_171_pts|fb:part._left_kiel_before_7th_race
+6	0	fb:cell.itzhak_nir	Itzhak Nir	itzhak|nir	Itzhak|Nir	NNP|NNP	PERSON|PERSON	|					
+6	1	fb:cell.sailing	Sailing	sailing	Sailing	NNP	O						
+6	2	fb:cell.flying_dutchman	Flying Dutchman	flying|dutchman	Flying|Dutchman	NNP|NNP	O|MISC	|					
+6	3	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+6	4	fb:cell.28_22_22_19_25_19_dns_171_pts_left_kiel_before_7th_race	28-22-22-19-25-19-DNS = 171 pts\n(left Kiel before 7th race)	28-22-22-19-25-19|dns|=|171|pts|-lrb-|left|kiel|before|7th|race|-rrb-	28-22-22-19-25-19|dn|=|171|pt|-lrb-|leave|Kiel|before|7th|race|-rrb-	CD|NN|JJ|CD|NNS|-LRB-|VBN|NNP|IN|JJ|NN|-RRB-	NUMBER|O|O|NUMBER|O|O|O|O|O|ORDINAL|O|O	|||171.0||||||7.0||	28.0		22.0	28-22-22-19-25-19-DNS = 171 pts|(left Kiel before 7th race)	fb:part.28_22_22_19_25_19_dns_171_pts|fb:part._left_kiel_before_7th_race
+7	0	fb:cell.henry_hershkowitz	Henry Hershkowitz	henry|hershkowitz	Henry|Hershkowitz	NNP|NNP	PERSON|PERSON	|					
+7	1	fb:cell.shooting	Shooting	shooting	shooting	NN	O						
+7	2	fb:cell.50_metre_rifle_prone	50 metre rifle prone	50|metre|rifle|prone	50|metre|rifle|prone	CD|NN|NN|JJ	NUMBER|O|O|O	50.0|||	50.0				
+7	3	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+7	4	fb:cell.593_600	593/600	593\\/600	593\\/600	CD	NUMBER		593.0		600.0	593|600	fb:part.593|fb:part.600
+8	0	fb:cell.henry_hershkowitz	Henry Hershkowitz	henry|hershkowitz	Henry|Hershkowitz	NNP|NNP	PERSON|PERSON	|					
+8	1	fb:cell.shooting	Shooting	shooting	shooting	NN	O						
+8	2	fb:cell.50_metre_rifle_three_positions	50 metre rifle three positions	50|metre|rifle|three|positions	50|metre|rifle|three|position	CD|NN|NN|CD|NNS	NUMBER|O|O|NUMBER|O	50.0|||3.0|	50.0				
+8	3	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+8	4	fb:cell.1114_1200	1114/1200	1114\\/1200	1114\\/1200	CD	NUMBER		1114.0		1200.0	1114|1200	fb:part.1114|fb:part.1200
+9	0	fb:cell.zelig_stroch	Zelig Stroch	zelig|stroch	Zelig|Stroch	NNP|NNP	PERSON|PERSON	|					
+9	1	fb:cell.shooting	Shooting	shooting	shooting	NN	O						
+9	2	fb:cell.50_metre_rifle_prone	50 metre rifle prone	50|metre|rifle|prone	50|metre|rifle|prone	CD|NN|NN|JJ	NUMBER|O|O|O	50.0|||	50.0				
+9	3	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+9	4	fb:cell.589_600	589/600	589\\/600	589\\/600	CD	NUMBER		589.0		600.0	589|600	fb:part.589|fb:part.600
+10	0	fb:cell.shlomit_nir	Shlomit Nir	shlomit|nir	Shlomit|Nir	NNP|NNP	PERSON|PERSON	|					
+10	1	fb:cell.swimming	Swimming	swimming	swimming	NN	O						
+10	2	fb:cell.women_s_100_m_breaststroke	Women's 100 m breaststroke	women|'s|100|m|breaststroke	Women|'s|100|m|breaststroke	NNP|POS|CD|NN|NN	O|O|NUMBER|O|O	||100.0||	100.0				
+10	3	fb:cell.heats_8th	Heats (8th)	heats|-lrb-|8th|-rrb-	heat|-lrb-|8th|-rrb-	VBZ|-LRB-|JJ|-RRB-	O|O|ORDINAL|O	||8.0|	8.0				
+10	4	fb:cell.1_20_90	1:20.90	1:20.90	1:20.90	CD	TIME	T01:20	1.0		20.9	1:20.90	fb:part.1_20_90
+11	0	fb:cell.shlomit_nir	Shlomit Nir	shlomit|nir	Shlomit|Nir	NNP|NNP	PERSON|PERSON	|					
+11	1	fb:cell.swimming	Swimming	swimming	swimming	NN	O						
+11	2	fb:cell.women_s_200_m_breaststroke	Women's 200 m breaststroke	women|'s|200|m|breaststroke	Women|'s|200|m|breaststroke	NNP|POS|CD|NN|NN	O|O|NUMBER|O|O	||200.0||	200.0				
+11	3	fb:cell.heats_6th	Heats (6th)	heats|-lrb-|6th|-rrb-	heat|-lrb-|6th|-rrb-	VBZ|-LRB-|JJ|-RRB-	O|O|ORDINAL|O	||6.0|	6.0				
+11	4	fb:cell.2_53_60	2:53.60	2:53.60	2:53.60	CD	TIME	T02:53	2.0		53.6	2:53.60	fb:part.2_53_60
+12	0	fb:cell.david_berger	David Berger	david|berger	David|Berger	NNP|NNP	PERSON|PERSON	|					
+12	1	fb:cell.weightlifting	Weightlifting	weightlifting	weightlift	VBG	O						
+12	2	fb:cell.light_heavyweight_82_5_kg	Light-heavyweight <82.5 kg	light|heavyweight|<|82.5|kg	light|heavyweight|<|82.5|kg	JJ|JJ|JJR|CD|NN	O|O|O|NUMBER|O	|||82.5|	82.5				
+12	3	fb:cell.null	—	--	--	:	O						
+12	4	fb:cell.j_132_5_c_122_5_s_t	J:132.5 C:122.5 S:— T:—	j|:132.5|c|:122.5|s|:|--|t|:|--	j|:132.5|c|:122.5|s|:|--|t|:|--	NN|CD|NN|CD|NN|:|:|NN|:|:	O|NUMBER|O|NUMBER|O|O|O|O|O|O	|||||||||	132.5		122.5	J:132.5 C:122.5 S:— T:—	fb:part.j_132_5_c_122_5_s_t
+13	0	fb:cell.ze_ev_friedman	Ze'ev Friedman	ze'ev|friedman	Ze'ev|Friedman	NNP|NNP	PERSON|PERSON	|					
+13	1	fb:cell.weightlifting	Weightlifting	weightlifting	weightlift	VBG	O						
+13	2	fb:cell.bantamweight_56_kg	Bantamweight <56 kg	bantamweight|<|56|kg	bantamweight|<|56|kg	JJ|JJR|CD|NN	O|O|NUMBER|O	||56.0|	56.0				
+13	3	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+13	4	fb:cell.j_102_5_c_102_5_s_125_t_330	J:102.5 C:102.5 S:125 T:330	j|:102.5|c|:102.5|s|:125|t|:330	j|:102.5|c|:102.5|s|:125|t|:330	NN|CD|NN|CD|NN|CD|NN|CD	O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	|||||||	102.5		102.5	J:102.5 C:102.5 S:125 T:330	fb:part.j_102_5_c_102_5_s_125_t_330
+14	0	fb:cell.yossef_romano	Yossef Romano	yossef|romano	Yossef|Romano	NNP|NNP	PERSON|PERSON	|					
+14	1	fb:cell.weightlifting	Weightlifting	weightlifting	weightlift	VBG	O						
+14	2	fb:cell.middleweight_75_kg	Middleweight <75 kg	middleweight|<|75|kg	middleweight|<|75|kg	JJ|JJR|CD|NN	O|O|NUMBER|O	||75.0|	75.0				
+14	3	fb:cell.null	—	--	--	:	O						
+14	4	fb:cell._retired_injured_on_third_attempt_to_press_137_5kg	(retired injured on third attempt to press 137.5kg)	-lrb-|retired|injured|on|third|attempt|to|press|137.5|kg|-rrb-	-lrb-|retire|injure|on|third|attempt|to|press|137.5|kg|-rrb-	-LRB-|VBN|VBN|IN|JJ|NN|TO|VB|CD|NN|-RRB-	O|O|O|O|ORDINAL|O|O|O|NUMBER|O|O	||||3.0||||137.5||	137.5			(retired injured on third attempt to press 137.5kg)	fb:part._retired_injured_on_third_attempt_to_press_137_5kg
+15	0	fb:cell.gad_tsobari	Gad Tsobari	gad|tsobari	Gad|Tsobari	NNP|NNP	PERSON|PERSON	|					
+15	1	fb:cell.wrestling	Wrestling	wrestling	wrestle	VBG	O						
+15	2	fb:cell.freestyle_light_flyweight_48_kg	Freestyle — Light Flyweight <48 kg	freestyle|--|light|flyweight|<|48|kg	Freestyle|--|light|flyweight|<|48|kg	NNP|:|JJ|NN|JJR|CD|NN	O|O|O|O|O|NUMBER|O	|||||48.0|	48.0				
+15	3	fb:cell.group_stage	Group stage	group|stage	Group|stage	NNP|NN	O|O	|					
+15	4	fb:cell.0w_2l	0W–2L	0w|--|2l	0w|--|2l	NN|:|NN	O|O|O	||	0.0		2.0	0W–2L	fb:part.0w_2l
+16	0	fb:cell.eliezer_halfin	Eliezer Halfin	eliezer|halfin	Eliezer|Halfin	NNP|NNP	PERSON|PERSON	|					
+16	1	fb:cell.wrestling	Wrestling	wrestling	wrestle	VBG	O						
+16	2	fb:cell.freestyle_lightweight_68_kg	Freestyle — Lightweight <68 kg	freestyle|--|lightweight|<|68|kg	Freestyle|--|lightweight|<|68|kg	NNP|:|JJ|JJR|CD|NN	O|O|O|O|NUMBER|O	||||68.0|	68.0				
+16	3	fb:cell.group_stage	Group stage	group|stage	Group|stage	NNP|NN	O|O	|					
+16	4	fb:cell.1w_2l	1W–2L	1w|--|2l	1w|--|2l	NN|:|NN	O|O|O	||	1.0		2.0	1W–2L	fb:part.1w_2l
+17	0	fb:cell.mark_slavin	Mark Slavin	mark|slavin	Mark|Slavin	NNP|NNP	PERSON|PERSON	|					
+17	1	fb:cell.wrestling	Wrestling	wrestling	wrestle	VBG	O						
+17	2	fb:cell.greco_roman_middleweight_82_kg	Greco-Roman — Middleweight <82 kg	greco|roman|--|middleweight|<|82|kg	Greco|Roman|--|middleweight|<|82|kg	NNP|NNP|:|JJ|JJR|CD|NN	PERSON|PERSON|O|O|O|NUMBER|O	|||||82.0|	82.0				
+17	3	fb:cell.null	—	--	--	:	O						
+17	4	fb:cell._taken_hostage_before_his_scheduled_event	(taken hostage before his scheduled event)	-lrb-|taken|hostage|before|his|scheduled|event|-rrb-	-lrb-|take|hostage|before|he|scheduled|event|-rrb-	-LRB-|VBN|NN|IN|PRP$|JJ|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				(taken hostage before his scheduled event)	fb:part._taken_hostage_before_his_scheduled_event

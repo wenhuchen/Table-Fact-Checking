@@ -1,0 +1,1921 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.city	City	city	City	NNP	O						
+-1	1	fb:row.row.county	County	county	County	NNP	O						
+-1	2	fb:row.row.population_2011	Population (2011)	population|-lrb-|2011|-rrb-	Population|-lrb-|2011|-rrb-	NNP|-LRB-|CD|-RRB-	O|O|DATE|O	||2011|					
+-1	3	fb:row.row.population_2002	Population (2002)	population|-lrb-|2002|-rrb-	Population|-lrb-|2002|-rrb-	NNP|-LRB-|CD|-RRB-	O|O|DATE|O	||2002|					
+-1	4	fb:row.row.altitude_m	Altitude (m)	altitude|-lrb-|m|-rrb-	altitude|-lrb-|m|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.year_status_granted_or_first_attested	Year status\ngranted* or\nfirst attested†	year|status|granted|\\*|or|first|attested|†	year|status|grant|\\*|or|first|attest|†	NN|NN|VBN|SYM|CC|JJ|VBD|CD	DURATION|O|O|O|O|ORDINAL|O|NUMBER	|||||1.0||					
+0	0	fb:cell.bucharest	Bucharest	bucharest	Bucharest	NNP	LOCATION						
+0	1	fb:cell.null	-	-	-	:	O						
+0	2	fb:cell.1_883_425	1,883,425	1,883,425	1,883,425	CD	NUMBER	1883425.0	1883425.0				
+0	3	fb:cell.1_926_334	1,926,334	1,926,334	1,926,334	CD	NUMBER	1926334.0	1926334.0				
+0	4	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+0	5	fb:cell.1459	1459†	1459|†	1459|†	CD|CD	DATE|NUMBER	1459|	1459.0			1459†	fb:part.1459
+1	0	fb:cell.cluj_napoca	Cluj-Napoca	cluj|napoca	Cluj|Napoca	NNP|NNP	PERSON|PERSON	|					
+1	1	fb:cell.cluj	Cluj	cluj	Cluj	NNP	O						
+1	2	fb:cell.324_576	324,576	324,576	324,576	CD	NUMBER	324576.0	324576.0				
+1	3	fb:cell.317_953	317,953	317,953	317,953	CD	NUMBER	317953.0	317953.0				
+1	4	fb:cell.360	360	360	360	CD	NUMBER	360.0	360.0				
+1	5	fb:cell.1316	1316*	1316|\\*	1316|\\*	CD|SYM	DATE|O	1316|	1316.0			1316*	fb:part.1316
+2	0	fb:cell.timisoara	Timișoara	timișoara	Timișoara	NNP	LOCATION						
+2	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+2	2	fb:cell.319_279	319,279	319,279	319,279	CD	NUMBER	319279.0	319279.0				
+2	3	fb:cell.317_660	317,660	317,660	317,660	CD	NUMBER	317660.0	317660.0				
+2	4	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+2	5	fb:cell.1342	1342*	1342|\\*	1342|\\*	CD|SYM	DATE|O	1342|	1342.0			1342*	fb:part.1342
+3	0	fb:cell.iasi	Iași	iași	iași	NN	O						
+3	1	fb:cell.iasi	Iași	iași	iași	NN	O						
+3	2	fb:cell.290_422	290,422	290,422	290,422	CD	NUMBER	290422.0	290422.0				
+3	3	fb:cell.320_888	320,888	320,888	320,888	CD	NUMBER	320888.0	320888.0				
+3	4	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+3	5	fb:cell.1408	1408†	1408|†	1408|†	CD|CD	DATE|NUMBER	1408|	1408.0			1408†	fb:part.1408
+4	0	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+4	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+4	2	fb:cell.283_872	283,872	283,872	283,872	CD	NUMBER	283872.0	283872.0				
+4	3	fb:cell.310_471	310,471	310,471	310,471	CD	NUMBER	310471.0	310471.0				
+4	4	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+4	5	fb:cell.260_bc	260 BC†	260|bc|†	260|bc|†	CD|NN|NN	DATE|DATE|O	-0259|-0259|	260.0			260 BC†	fb:part.260_bc
+5	0	fb:cell.craiova	Craiova	craiova	Craiova	NNP	LOCATION						
+5	1	fb:cell.dolj	Dolj	dolj	dolj	NN	O						
+5	2	fb:cell.269_506	269,506	269,506	269,506	CD	NUMBER	269506.0	269506.0				
+5	3	fb:cell.302_601	302,601	302,601	302,601	CD	NUMBER	302601.0	302601.0				
+5	4	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+5	5	fb:cell.1475	1475†	1475|†	1475|†	CD|CD	DATE|NUMBER	1475|	1475.0			1475†	fb:part.1475
+6	0	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+6	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+6	2	fb:cell.253_200	253,200	253,200	253,200	CD	NUMBER	253200.0	253200.0				
+6	3	fb:cell.284_596	284,596	284,596	284,596	CD	NUMBER	284596.0	284596.0				
+6	4	fb:cell.625	625	625	625	CD	NUMBER	625.0	625.0				
+6	5	fb:cell.1235	1235†	1235|†	1235|†	CD|CD	DATE|NUMBER	1235|	1235.0			1235†	fb:part.1235
+7	0	fb:cell.galati	Galați	galați	Galați	NNP	PERSON						
+7	1	fb:cell.galati	Galați	galați	Galați	NNP	PERSON						
+7	2	fb:cell.249_432	249,432	249,432	249,432	CD	NUMBER	249432.0	249432.0				
+7	3	fb:cell.298_861	298,861	298,861	298,861	CD	NUMBER	298861.0	298861.0				
+7	4	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+7	5	fb:cell.1445	1445†	1445|†	1445|†	CD|CD	DATE|NUMBER	1445|	1445.0			1445†	fb:part.1445
+8	0	fb:cell.ploiesti	Ploiești	ploiești	Ploiești	NNP	O						
+8	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+8	2	fb:cell.209_945	209,945	209,945	209,945	CD	NUMBER	209945.0	209945.0				
+8	3	fb:cell.232_527	232,527	232,527	232,527	CD	NUMBER	232527.0	232527.0				
+8	4	fb:cell.150	150	150	150	CD	NUMBER	150.0	150.0				
+8	5	fb:cell.1596	1596†	1596|†	1596|†	CD|CD	DATE|NUMBER	1596|	1596.0			1596†	fb:part.1596
+9	0	fb:cell.oradea	Oradea	oradea	Oradea	NNP	LOCATION						
+9	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+9	2	fb:cell.196_367	196,367	196,367	196,367	CD	NUMBER	196367.0	196367.0				
+9	3	fb:cell.206_614	206,614	206,614	206,614	CD	NUMBER	206614.0	206614.0				
+9	4	fb:cell.150	150	150	150	CD	NUMBER	150.0	150.0				
+9	5	fb:cell.1113	1113†	1113|†	1113|†	CD|CD	DATE|NUMBER	1113|	1113.0			1113†	fb:part.1113
+10	0	fb:cell.braila	Brăila	brăila	Brăila	NNP	LOCATION						
+10	1	fb:cell.braila	Brăila	brăila	Brăila	NNP	LOCATION						
+10	2	fb:cell.180_302	180,302	180,302	180,302	CD	NUMBER	180302.0	180302.0				
+10	3	fb:cell.216_292	216,292	216,292	216,292	CD	NUMBER	216292.0	216292.0				
+10	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+10	5	fb:cell.1368	1368†	1368|†	1368|†	CD|CD	DATE|NUMBER	1368|	1368.0			1368†	fb:part.1368
+11	0	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+11	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+11	2	fb:cell.159_074	159,074	159,074	159,074	CD	NUMBER	159074.0	159074.0				
+11	3	fb:cell.172_824	172,824	172,824	172,824	CD	NUMBER	172824.0	172824.0				
+11	4	fb:cell.107	107	107	107	CD	NUMBER	107.0	107.0				
+11	5	fb:cell.1028	1028†	1028|†	1028|†	CD|CD	DATE|NUMBER	1028|	1028.0			1028†	fb:part.1028
+12	0	fb:cell.pitesti	Pitești	pitești	Pitești	NNP	PERSON						
+12	1	fb:cell.arges	Argeș	argeș	argeș	NN	O						
+12	2	fb:cell.155_383	155,383	155,383	155,383	CD	NUMBER	155383.0	155383.0				
+12	3	fb:cell.168_458	168,458	168,458	168,458	CD	NUMBER	168458.0	168458.0				
+12	4	fb:cell.287	287	287	287	CD	NUMBER	287.0	287.0				
+12	5	fb:cell.1388	1388†	1388|†	1388|†	CD|CD	DATE|NUMBER	1388|	1388.0			1388†	fb:part.1388
+13	0	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+13	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+13	2	fb:cell.147_245	147,245	147,245	147,245	CD	NUMBER	147245.0	147245.0				
+13	3	fb:cell.154_892	154,892	154,892	154,892	CD	NUMBER	154892.0	154892.0				
+13	4	fb:cell.415	415	415	415	CD	NUMBER	415.0	415.0				
+13	5	fb:cell.1366	1366†	1366|†	1366|†	CD|CD	DATE|NUMBER	1366|	1366.0			1366†	fb:part.1366
+14	0	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+14	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+14	2	fb:cell.144_307	144,307	144,307	144,307	CD	NUMBER	144307.0	144307.0				
+14	3	fb:cell.175_500	175,500	175,500	175,500	CD	NUMBER	175500.0	175500.0				
+14	4	fb:cell.165	165	165	165	CD	NUMBER	165.0	165.0				
+14	5	fb:cell.1408	1408†	1408|†	1408|†	CD|CD	DATE|NUMBER	1408|	1408.0			1408†	fb:part.1408
+15	0	fb:cell.targu_mures	Târgu Mureș	târgu|mureș	Târgu|Mureș	NNP|NNP	PERSON|PERSON	|					
+15	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+15	2	fb:cell.134_290	134,290	134,290	134,290	CD	NUMBER	134290.0	134290.0				
+15	3	fb:cell.149_577	149,577	149,577	149,577	CD	NUMBER	149577.0	149577.0				
+15	4	fb:cell.330	330	330	330	CD	NUMBER	330.0	330.0				
+15	5	fb:cell.1332	1332*	1332|\\*	1332|\\*	CD|SYM	DATE|O	1332|	1332.0			1332*	fb:part.1332
+16	0	fb:cell.baia_mare	Baia Mare	baia|mare	Baia|Mare	NNP|NNP	PERSON|PERSON	|					
+16	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+16	2	fb:cell.123_738	123,738	123,738	123,738	CD	NUMBER	123738.0	123738.0				
+16	3	fb:cell.137_976	137,976	137,976	137,976	CD	NUMBER	137976.0	137976.0				
+16	4	fb:cell.225	225	225	225	CD	NUMBER	225.0	225.0				
+16	5	fb:cell.1329	1329†	1329|†	1329|†	CD|CD	DATE|NUMBER	1329|	1329.0			1329†	fb:part.1329
+17	0	fb:cell.buzau	Buzău	buzău	Buzău	NNP	MISC						
+17	1	fb:cell.buzau	Buzău	buzău	Buzău	NNP	MISC						
+17	2	fb:cell.115_494	115,494	115,494	115,494	CD	NUMBER	115494.0	115494.0				
+17	3	fb:cell.133_116	133,116	133,116	133,116	CD	NUMBER	133116.0	133116.0				
+17	4	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+17	5	fb:cell.1431	1431†	1431|†	1431|†	CD|CD	DATE|NUMBER	1431|	1431.0			1431†	fb:part.1431
+18	0	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+18	1	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+18	2	fb:cell.106_847	106,847	106,847	106,847	CD	NUMBER	106847.0	106847.0				
+18	3	fb:cell.115_344	115,344	115,344	115,344	CD	NUMBER	115344.0	115344.0				
+18	4	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0				
+18	5	fb:cell.1439	1439†	1439|†	1439|†	CD|CD	DATE|NUMBER	1439|	1439.0			1439†	fb:part.1439
+19	0	fb:cell.satu_mare	Satu Mare	satu|mare	Satu|Mare	NNP|NNP	O|O	|					
+19	1	fb:cell.satu_mare	Satu Mare	satu|mare	Satu|Mare	NNP|NNP	O|O	|					
+19	2	fb:cell.102_411	102,411	102,411	102,411	CD	NUMBER	102411.0	102411.0				
+19	3	fb:cell.115_630	115,630	115,630	115,630	CD	NUMBER	115630.0	115630.0				
+19	4	fb:cell.123	123	123	123	CD	NUMBER	123.0	123.0				
+19	5	fb:cell.1213	1213†	1213|†	1213|†	CD|CD	DATE|NUMBER	1213|	1213.0			1213†	fb:part.1213
+20	0	fb:cell.ramnicu_valcea	Râmnicu Vâlcea	râmnicu|vâlcea	Râmnicu|Vâlcea	NNP|NNP	PERSON|PERSON	|					
+20	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+20	2	fb:cell.98_776	98,776	98,776	98,776	CD	NUMBER	98776.0	98776.0				
+20	3	fb:cell.107_656	107,656	107,656	107,656	CD	NUMBER	107656.0	107656.0				
+20	4	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+20	5	fb:cell.1388	1388†	1388|†	1388|†	CD|CD	DATE|NUMBER	1388|	1388.0			1388†	fb:part.1388
+21	0	fb:cell.drobeta_turnu_severin	Drobeta-Turnu Severin	drobeta|turnu|severin	drobeta|Turnu|Severin	NN|NNP|NNP	O|PERSON|PERSON	||					
+21	1	fb:cell.mehedinti	Mehedinți	mehedinți	Mehedinți	NNP	PERSON						
+21	2	fb:cell.92_617	92,617	92,617	92,617	CD	NUMBER	92617.0	92617.0				
+21	3	fb:cell.104_035	104,035	104,035	104,035	CD	NUMBER	104035.0	104035.0				
+21	4	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+21	5	fb:cell.121_ad_1833	121 AD†/1833*	121|ad|†|\\/|1833|\\*	121|ad|†|\\/|1833|\\*	CD|NN|NN|:|CD|SYM	DATE|DATE|O|O|DATE|O	+0121|+0121|||1833|	121.0		1833.0	121 AD†|1833*	fb:part.121_ad|fb:part.1833
+22	0	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+22	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+22	2	fb:cell.92_121	92,121	92,121	92,121	CD	NUMBER	92121.0	92121.0				
+22	3	fb:cell.106_138	106,138	106,138	106,138	CD	NUMBER	106138.0	106138.0				
+22	4	fb:cell.325	325	325	325	CD	NUMBER	325.0	325.0				
+22	5	fb:cell.1388	1388†	1388|†	1388|†	CD|CD	DATE|NUMBER	1388|	1388.0			1388†	fb:part.1388
+23	0	fb:cell.piatra_neamt	Piatra Neamț	piatra|neamț	Piatra|Neamț	NNP|NNP	PERSON|PERSON	|					
+23	1	fb:cell.neamt	Neamț	neamț	Neamț	NNP	O						
+23	2	fb:cell.85_055	85,055	85,055	85,055	CD	NUMBER	85055.0	85055.0				
+23	3	fb:cell.105_499	105,499	105,499	105,499	CD	NUMBER	105499.0	105499.0				
+23	4	fb:cell.345	345	345	345	CD	NUMBER	345.0	345.0				
+23	5	fb:cell.1491	1491†	1491|†	1491|†	CD|CD	DATE|NUMBER	1491|	1491.0			1491†	fb:part.1491
+24	0	fb:cell.targu_jiu	Târgu Jiu	târgu|jiu	Târgu|Jiu	NNP|NNP	O|O	|					
+24	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+24	2	fb:cell.82_504	82,504	82,504	82,504	CD	NUMBER	82504.0	82504.0				
+24	3	fb:cell.96_562	96,562	96,562	96,562	NN	NUMBER	96562.0	96562.0				
+24	4	fb:cell.205	205	205	205	CD	NUMBER	205.0	205.0				
+24	5	fb:cell.null_2											fb:part.null
+25	0	fb:cell.targoviste	Târgoviște	târgoviște	târgoviște	NN	O						
+25	1	fb:cell.dambovita	Dâmbovița	dâmbovița	dâmbovița	NN	PERSON						
+25	2	fb:cell.79_610	79,610	79,610	79,610	CD	NUMBER	79610.0	79610.0				
+25	3	fb:cell.89_429	89,429	89,429	89,429	CD	NUMBER	89429.0	89429.0				
+25	4	fb:cell.280	280	280	280	CD	NUMBER	280.0	280.0				
+25	5	fb:cell.null_2											fb:part.null
+26	0	fb:cell.focsani	Focșani	focșani	focșani	NNS	PERSON						
+26	1	fb:cell.vrancea	Vrancea	vrancea	Vrancea	NNP	LOCATION						
+26	2	fb:cell.79_315	79,315	79,315	79,315	CD	NUMBER	79315.0	79315.0				
+26	3	fb:cell.103_219	103,219	103,219	103,219	CD	NUMBER	103219.0	103219.0				
+26	4	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+26	5	fb:cell.1575	1575†	1575|†	1575|†	CD|CD	DATE|NUMBER	1575|	1575.0			1575†	fb:part.1575
+27	0	fb:cell.bistrita	Bistrița	bistrița	Bistrița	NNP	LOCATION						
+27	1	fb:cell.bistrita_nasaud	Bistrița-Năsăud	bistrița|năsăud	Bistrița|Năsăud	NNP|NNP	PERSON|PERSON	|					
+27	2	fb:cell.75_076	75,076	75,076	75,076	CD	NUMBER	75076.0	75076.0				
+27	3	fb:cell.81_467	81,467	81,467	81,467	CD	NUMBER	81467.0	81467.0				
+27	4	fb:cell.360	360	360	360	CD	NUMBER	360.0	360.0				
+27	5	fb:cell.1349	1349*	1349|\\*	1349|\\*	CD|SYM	DATE|O	1349|	1349.0			1349*	fb:part.1349
+28	0	fb:cell.tulcea	Tulcea	tulcea	Tulcea	NNP	LOCATION						
+28	1	fb:cell.tulcea	Tulcea	tulcea	Tulcea	NNP	LOCATION						
+28	2	fb:cell.73_707	73,707	73,707	73,707	CD	NUMBER	73707.0	73707.0				
+28	3	fb:cell.92_762	92,762	92,762	92,762	CD	NUMBER	92762.0	92762.0				
+28	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+28	5	fb:cell.null_2											fb:part.null
+29	0	fb:cell.resita	Reșița	reșița	reșița	NN	O						
+29	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+29	2	fb:cell.73_282	73,282	73,282	73,282	CD	NUMBER	73282.0	73282.0				
+29	3	fb:cell.83_985	83,985	83,985	83,985	CD	NUMBER	83985.0	83985.0				
+29	4	fb:cell.245	245	245	245	CD	NUMBER	245.0	245.0				
+29	5	fb:cell.1925	1925*	1925|\\*	1925|\\*	CD|SYM	DATE|O	1925|	1925.0			1925*	fb:part.1925
+30	0	fb:cell.slatina	Slatina	slatina	Slatina	NNP	LOCATION						
+30	1	fb:cell.olt	Olt	olt	olt	NN	O						
+30	2	fb:cell.70_293	70,293	70,293	70,293	CD	NUMBER	70293.0	70293.0				
+30	3	fb:cell.79_171	79,171	79,171	79,171	CD	NUMBER	79171.0	79171.0				
+30	4	fb:cell.135	135	135	135	CD	NUMBER	135.0	135.0				
+30	5	fb:cell.1368	1368†	1368|†	1368|†	CD|CD	DATE|NUMBER	1368|	1368.0			1368†	fb:part.1368
+31	0	fb:cell.calarasi	Călărași	călărași	Călărași	NNP	PERSON						
+31	1	fb:cell.calarasi	Călărași	călărași	Călărași	NNP	PERSON						
+31	2	fb:cell.65_181	65,181	65,181	65,181	CD	NUMBER	65181.0	65181.0				
+31	3	fb:cell.70_039	70,039	70,039	70,039	CD	NUMBER	70039.0	70039.0				
+31	4	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+31	5	fb:cell.1534	1534†	1534|†	1534|†	CD|CD	DATE|NUMBER	1534|	1534.0			1534†	fb:part.1534
+32	0	fb:cell.alba_iulia	Alba Iulia	alba|iulia	Alba|Iulia	NNP|NNP	PERSON|PERSON	|					
+32	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+32	2	fb:cell.63_536	63,536	63,536	63,536	CD	NUMBER	63536.0	63536.0				
+32	3	fb:cell.66_369	66,369	66,369	66,369	CD	NUMBER	66369.0	66369.0				
+32	4	fb:cell.330	330	330	330	CD	NUMBER	330.0	330.0				
+32	5	fb:cell.1097	1097†	1097|†	1097|†	CD|CD	DATE|NUMBER	1097|	1097.0			1097†	fb:part.1097
+33	0	fb:cell.giurgiu	Giurgiu	giurgiu	Giurgiu	NNP	LOCATION						
+33	1	fb:cell.giurgiu	Giurgiu	giurgiu	Giurgiu	NNP	LOCATION						
+33	2	fb:cell.61_353	61,353	61,353	61,353	CD	NUMBER	61353.0	61353.0				
+33	3	fb:cell.69_587	69,587	69,587	69,587	CD	NUMBER	69587.0	69587.0				
+33	4	fb:cell.null_2											fb:part.null
+33	5	fb:cell.1395	1395†	1395|†	1395|†	CD|CD	DATE|NUMBER	1395|	1395.0			1395†	fb:part.1395
+34	0	fb:cell.deva	Deva	deva	deva	NN	PERSON						
+34	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+34	2	fb:cell.61_123	61,123	61,123	61,123	CD	NUMBER	61123.0	61123.0				
+34	3	fb:cell.69_390	69,390	69,390	69,390	CD	NUMBER	69390.0	69390.0				
+34	4	fb:cell.null_2											fb:part.null
+34	5	fb:cell.1269	1269†	1269|†	1269|†	CD|CD	DATE|NUMBER	1269|	1269.0			1269†	fb:part.1269
+35	0	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+35	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+35	2	fb:cell.60_525	60,525	60,525	60,525	CD	NUMBER	60525.0	60525.0				
+35	3	fb:cell.71_380	71,380	71,380	71,380	CD	NUMBER	71380.0	71380.0				
+35	4	fb:cell.240	240	240	240	CD	NUMBER	240.0	240.0				
+35	5	fb:cell.null_2											fb:part.null
+36	0	fb:cell.zalau	Zalău	zalău	Zalău	NNP	PERSON						
+36	1	fb:cell.salaj	Sălaj	sălaj	sălaj	NN	O						
+36	2	fb:cell.56_202	56,202	56,202	56,202	CD	NUMBER	56202.0	56202.0				
+36	3	fb:cell.63_305	63,305	63,305	63,305	CD	NUMBER	63305.0	63305.0				
+36	4	fb:cell.null_2											fb:part.null
+36	5	fb:cell.1473	1473*	1473|\\*	1473|\\*	CD|SYM	DATE|O	1473|	1473.0			1473*	fb:part.1473
+37	0	fb:cell.sfantu_gheorghe	Sfântu Gheorghe	sfântu|gheorghe	Sfântu|Gheorghe	NNP|NNP	PERSON|PERSON	|					
+37	1	fb:cell.covasna	Covasna	covasna	Covasna	NNP	LOCATION						
+37	2	fb:cell.56_006	56,006	56,006	56,006	CD	NUMBER	56006.0	56006.0				
+37	3	fb:cell.61_512	61,512	61,512	61,512	CD	NUMBER	61512.0	61512.0				
+37	4	fb:cell.null_2											fb:part.null
+37	5	fb:cell.1332_1832	1332†/1832*	1332|†|\\/|1832|\\*	1332|†|\\/|1832|\\*	CD|CD|:|CD|SYM	DATE|NUMBER|O|DATE|O	1332|||1832|	1332.0		1832.0	1332†|1832*	fb:part.1332_2|fb:part.1832
+38	0	fb:cell.barlad	Bârlad	bârlad	Bârlad	NNP	PERSON						
+38	1	fb:cell.vaslui	Vaslui	vaslui	Vaslui	NNP	LOCATION						
+38	2	fb:cell.55_837	55,837	55,837	55,837	CD	NUMBER	55837.0	55837.0				
+38	3	fb:cell.69_183	69,183	69,183	69,183	CD	NUMBER	69183.0	69183.0				
+38	4	fb:cell.null_2											fb:part.null
+38	5	fb:cell.null_2											fb:part.null
+39	0	fb:cell.vaslui	Vaslui	vaslui	Vaslui	NNP	LOCATION						
+39	1	fb:cell.vaslui	Vaslui	vaslui	Vaslui	NNP	LOCATION						
+39	2	fb:cell.55_407	55,407	55,407	55,407	CD	NUMBER	55407.0	55407.0				
+39	3	fb:cell.70_267	70,267	70,267	70,267	CD	NUMBER	70267.0	70267.0				
+39	4	fb:cell.null_2											fb:part.null
+39	5	fb:cell.null_2											fb:part.null
+40	0	fb:cell.roman	Roman	roman	Roman	NNP	MISC						
+40	1	fb:cell.neamt	Neamț	neamț	Neamț	NNP	O						
+40	2	fb:cell.50_713	50,713	50,713	50,713	CD	NUMBER	50713.0	50713.0				
+40	3	fb:cell.69_483	69,483	69,483	69,483	CD	NUMBER	69483.0	69483.0				
+40	4	fb:cell.null_2											fb:part.null
+40	5	fb:cell.null_2											fb:part.null
+41	0	fb:cell.turda	Turda	turda	turda	NN	PERSON						
+41	1	fb:cell.cluj	Cluj	cluj	Cluj	NNP	O						
+41	2	fb:cell.47_744	47,744	47,744	47,744	CD	NUMBER	47744.0	47744.0				
+41	3	fb:cell.55_770	55,770	55,770	55,770	CD	NUMBER	55770.0	55770.0				
+41	4	fb:cell.null_2											fb:part.null
+41	5	fb:cell.1075	1075†	1075|†	1075|†	CD|CD	DATE|NUMBER	1075|	1075.0			1075†	fb:part.1075
+42	0	fb:cell.medias	Mediaș	mediaș	Mediaș	NNP	O						
+42	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+42	2	fb:cell.47_204	47,204	47,204	47,204	CD	NUMBER	47204.0	47204.0				
+42	3	fb:cell.55_203	55,203	55,203	55,203	CD	NUMBER	55203.0	55203.0				
+42	4	fb:cell.null_2											fb:part.null
+42	5	fb:cell.1359	1359*	1359|\\*	1359|\\*	CD|SYM	DATE|O	1359|	1359.0			1359*	fb:part.1359
+43	0	fb:cell.slobozia	Slobozia	slobozia	Slobozia	NNP	O						
+43	1	fb:cell.ialomita	Ialomița	ialomița	ialomița	NN	LOCATION						
+43	2	fb:cell.45_891	45,891	45,891	45,891	CD	NUMBER	45891.0	45891.0				
+43	3	fb:cell.52_677	52,677	52,677	52,677	CD	NUMBER	52677.0	52677.0				
+43	4	fb:cell.null_2											fb:part.null
+43	5	fb:cell.null_2											fb:part.null
+44	0	fb:cell.alexandria	Alexandria	alexandria	Alexandria	NNP	LOCATION						
+44	1	fb:cell.teleorman	Teleorman	teleorman	teleorman	NN	PERSON						
+44	2	fb:cell.45_434	45,434	45,434	45,434	CD	NUMBER	45434.0	45434.0				
+44	3	fb:cell.50_591	50,591	50,591	50,591	CD	NUMBER	50591.0	50591.0				
+44	4	fb:cell.null_2											fb:part.null
+44	5	fb:cell.1840	1840*	1840|\\*	1840|\\*	CD|SYM	DATE|O	1840|	1840.0			1840*	fb:part.1840
+45	0	fb:cell.voluntari	Voluntari	voluntari	Voluntari	NNP	PERSON						
+45	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+45	2	fb:cell.42_944	42,944	42,944	42,944	CD	NUMBER	42944.0	42944.0				
+45	3	fb:cell.30_016	30,016	30,016	30,016	CD	NUMBER	30016.0	30016.0				
+45	4	fb:cell.null_2											fb:part.null
+45	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+46	0	fb:cell.lugoj	Lugoj	lugoj	Lugoj	NNP	O						
+46	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+46	2	fb:cell.40_361	40,361	40,361	40,361	CD	NUMBER	40361.0	40361.0				
+46	3	fb:cell.44_571	44,571	44,571	44,571	CD	NUMBER	44571.0	44571.0				
+46	4	fb:cell.null_2											fb:part.null
+46	5	fb:cell.null_2											fb:part.null
+47	0	fb:cell.medgidia	Medgidia	medgidia	Medgidia	NNP	LOCATION						
+47	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+47	2	fb:cell.39_780	39,780	39,780	39,780	CD	NUMBER	39780.0	39780.0				
+47	3	fb:cell.43_867	43,867	43,867	43,867	CD	NUMBER	43867.0	43867.0				
+47	4	fb:cell.null_2											fb:part.null
+47	5	fb:cell.null_2											fb:part.null
+48	0	fb:cell.onesti	Onești	onești	onești	NN	O						
+48	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+48	2	fb:cell.39_172	39,172	39,172	39,172	CD	NUMBER	39172.0	39172.0				
+48	3	fb:cell.51_681	51,681	51,681	51,681	CD	NUMBER	51681.0	51681.0				
+48	4	fb:cell.null_2											fb:part.null
+48	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+49	0	fb:cell.miercurea_ciuc	Miercurea Ciuc	miercurea|ciuc	Miercurea|Ciuc	NNP|NNP	O|O	|					
+49	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+49	2	fb:cell.38_966	38,966	38,966	38,966	CD	NUMBER	38966.0	38966.0				
+49	3	fb:cell.41_852	41,852	41,852	41,852	CD	NUMBER	41852.0	41852.0				
+49	4	fb:cell.null_2											fb:part.null
+49	5	fb:cell.null_2											fb:part.null
+50	0	fb:cell.sighetu_marmatiei	Sighetu Marmației	sighetu|marmației	Sighetu|Marmației	NNP|NNP	PERSON|PERSON	|					
+50	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+50	2	fb:cell.37_640	37,640	37,640	37,640	CD	NUMBER	37640.0	37640.0				
+50	3	fb:cell.41_246	41,246	41,246	41,246	CD	NUMBER	41246.0	41246.0				
+50	4	fb:cell.null_2											fb:part.null
+50	5	fb:cell.null_2											fb:part.null
+51	0	fb:cell.petrosani	Petroșani	petroșani	petroșani	JJ	PERSON						
+51	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+51	2	fb:cell.37_160	37,160	37,160	37,160	CD	NUMBER	37160.0	37160.0				
+51	3	fb:cell.45_447	45,447	45,447	45,447	CD	NUMBER	45447.0	45447.0				
+51	4	fb:cell.null_2											fb:part.null
+51	5	fb:cell.1930	1930*	1930|\\*	1930|\\*	CD|SYM	DATE|O	1930|	1930.0			1930*	fb:part.1930
+52	0	fb:cell.mangalia	Mangalia	mangalia	Mangalia	NNP	O						
+52	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+52	2	fb:cell.36_364	36,364	36,364	36,364	CD	NUMBER	36364.0	36364.0				
+52	3	fb:cell.40_037	40,037	40,037	40,037	CD	NUMBER	40037.0	40037.0				
+52	4	fb:cell.null_2											fb:part.null
+52	5	fb:cell.null_2											fb:part.null
+53	0	fb:cell.tecuci	Tecuci	tecuci	Tecuci	NNP	PERSON						
+53	1	fb:cell.galati	Galați	galați	Galați	NNP	PERSON						
+53	2	fb:cell.34_871	34,871	34,871	34,871	CD	NUMBER	34871.0	34871.0				
+53	3	fb:cell.42_012	42,012	42,012	42,012	CD	NUMBER	42012.0	42012.0				
+53	4	fb:cell.null_2											fb:part.null
+53	5	fb:cell.null_2											fb:part.null
+54	0	fb:cell.odorheiu_secuiesc	Odorheiu Secuiesc	odorheiu|secuiesc	Odorheiu|Secuiesc	NNP|NNP	MISC|MISC	|					
+54	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+54	2	fb:cell.34_257	34,257	34,257	34,257	CD	NUMBER	34257.0	34257.0				
+54	3	fb:cell.36_926	36,926	36,926	36,926	CD	NUMBER	36926.0	36926.0				
+54	4	fb:cell.null_2											fb:part.null
+54	5	fb:cell.null_2											fb:part.null
+55	0	fb:cell.ramnicu_sarat	Râmnicu Sărat	râmnicu|sărat	Râmnicu|Sărat	NNP|NNP	PERSON|PERSON	|					
+55	1	fb:cell.buzau	Buzău	buzău	Buzău	NNP	MISC						
+55	2	fb:cell.33_843	33,843	33,843	33,843	CD	NUMBER	33843.0	33843.0				
+55	3	fb:cell.38_805	38,805	38,805	38,805	CD	NUMBER	38805.0	38805.0				
+55	4	fb:cell.null_2											fb:part.null
+55	5	fb:cell.null_2											fb:part.null
+56	0	fb:cell.pascani	Pașcani	pașcani	Pașcani	NNP	PERSON						
+56	1	fb:cell.iasi	Iași	iași	iași	NN	O						
+56	2	fb:cell.33_745	33,745	33,745	33,745	CD	NUMBER	33745.0	33745.0				
+56	3	fb:cell.42_172	42,172	42,172	42,172	CD	NUMBER	42172.0	42172.0				
+56	4	fb:cell.null_2											fb:part.null
+56	5	fb:cell.null_2											fb:part.null
+57	0	fb:cell.dej	Dej	dej	dej	NN	PERSON						
+57	1	fb:cell.cluj	Cluj	cluj	Cluj	NNP	O						
+57	2	fb:cell.33_497	33,497	33,497	33,497	CD	NUMBER	33497.0	33497.0				
+57	3	fb:cell.38_478	38,478	38,478	38,478	CD	NUMBER	38478.0	38478.0				
+57	4	fb:cell.null_2											fb:part.null
+57	5	fb:cell.null_2											fb:part.null
+58	0	fb:cell.reghin	Reghin	reghin	reghin	NN	O						
+58	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+58	2	fb:cell.33_281	33,281	33,281	33,281	CD	NUMBER	33281.0	33281.0				
+58	3	fb:cell.36_023	36,023	36,023	36,023	CD	NUMBER	36023.0	36023.0				
+58	4	fb:cell.null_2											fb:part.null
+58	5	fb:cell.null_2											fb:part.null
+59	0	fb:cell.navodari	Năvodari	năvodari	Năvodari	NNP	PERSON						
+59	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+59	2	fb:cell.32_981	32,981	32,981	32,981	CD	NUMBER	32981.0	32981.0				
+59	3	fb:cell.32_400	32,400	32,400	32,400	CD	NUMBER	32400.0	32400.0				
+59	4	fb:cell.null_2											fb:part.null
+59	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+60	0	fb:cell.campina	Câmpina	câmpina	Câmpina	NNP	PERSON						
+60	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+60	2	fb:cell.32_935	32,935	32,935	32,935	CD	NUMBER	32935.0	32935.0				
+60	3	fb:cell.38_758	38,758	38,758	38,758	CD	NUMBER	38758.0	38758.0				
+60	4	fb:cell.null_2											fb:part.null
+60	5	fb:cell.1864	1864*	1864|\\*	1864|\\*	CD|SYM	DATE|O	1864|	1864.0			1864*	fb:part.1864
+61	0	fb:cell.mioveni	Mioveni	mioveni	miovenus	NNS	LOCATION						
+61	1	fb:cell.arges	Argeș	argeș	argeș	NN	O						
+61	2	fb:cell.31_998	31,998	31,998	31,998	CD	NUMBER	31998.0	31998.0				
+61	3	fb:cell.35_849	35,849	35,849	35,849	CD	NUMBER	35849.0	35849.0				
+61	4	fb:cell.null_2											fb:part.null
+61	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+62	0	fb:cell.campulung	Câmpulung	câmpulung	Câmpulung	NNP	O						
+62	1	fb:cell.arges	Argeș	argeș	argeș	NN	O						
+62	2	fb:cell.31_767	31,767	31,767	31,767	CD	NUMBER	31767.0	31767.0				
+62	3	fb:cell.38_285	38,285	38,285	38,285	CD	NUMBER	38285.0	38285.0				
+62	4	fb:cell.null_2											fb:part.null
+62	5	fb:cell.null_2											fb:part.null
+63	0	fb:cell.caracal	Caracal	caracal	caracal	JJ	O						
+63	1	fb:cell.olt	Olt	olt	olt	NN	O						
+63	2	fb:cell.30_954	30,954	30,954	30,954	CD	NUMBER	30954.0	30954.0				
+63	3	fb:cell.34_603	34,603	34,603	34,603	CD	NUMBER	34603.0	34603.0				
+63	4	fb:cell.null_2											fb:part.null
+63	5	fb:cell.1538	1538†	1538|†	1538|†	CD|CD	DATE|NUMBER	1538|	1538.0			1538†	fb:part.1538
+64	0	fb:cell.sacele	Săcele	săcele	săcele	NN	O						
+64	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+64	2	fb:cell.30_798	30,798	30,798	30,798	CD	NUMBER	30798.0	30798.0				
+64	3	fb:cell.29_967	29,967	29,967	29,967	CD	NUMBER	29967.0	29967.0				
+64	4	fb:cell.null_2											fb:part.null
+64	5	fb:cell.1971	1971*	1971|\\*	1971|\\*	CD|SYM	DATE|O	1971|	1971.0			1971*	fb:part.1971
+65	0	fb:cell.fagaras	Făgăraș	făgăraș	făgăraș	NN	O						
+65	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+65	2	fb:cell.30_714	30,714	30,714	30,714	CD	NUMBER	30714.0	30714.0				
+65	3	fb:cell.36_121	36,121	36,121	36,121	CD	NUMBER	36121.0	36121.0				
+65	4	fb:cell.null_2											fb:part.null
+65	5	fb:cell.1291	1291†	1291|†	1291|†	CD|CD	DATE|NUMBER	1291|	1291.0			1291†	fb:part.1291
+66	0	fb:cell.fetesti	Fetești	fetești	Fetești	NNP	O						
+66	1	fb:cell.ialomita	Ialomița	ialomița	ialomița	NN	LOCATION						
+66	2	fb:cell.30_217	30,217	30,217	30,217	CD	NUMBER	30217.0	30217.0				
+66	3	fb:cell.33_197	33,197	33,197	33,197	CD	NUMBER	33197.0	33197.0				
+66	4	fb:cell.null_2											fb:part.null
+66	5	fb:cell.1965	1965*	1965|\\*	1965|\\*	CD|SYM	DATE|O	1965|	1965.0			1965*	fb:part.1965
+67	0	fb:cell.sighisoara	Sighișoara	sighișoara	sighișoara	NN	PERSON						
+67	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+67	2	fb:cell.28_102	28,102	28,102	28,102	CD	NUMBER	28102.0	28102.0				
+67	3	fb:cell.32_287	32,287	32,287	32,287	CD	NUMBER	32287.0	32287.0				
+67	4	fb:cell.null_2											fb:part.null
+67	5	fb:cell.1367	1367*	1367|\\*	1367|\\*	CD|SYM	DATE|O	1367|	1367.0			1367*	fb:part.1367
+68	0	fb:cell.borsa	Borșa	borșa	borșa	NN	PERSON						
+68	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+68	2	fb:cell.27_611	27,611	27,611	27,611	CD	NUMBER	27611.0	27611.0				
+68	3	fb:cell.27_247	27,247	27,247	27,247	CD	NUMBER	27247.0	27247.0				
+68	4	fb:cell.null_2											fb:part.null
+68	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+69	0	fb:cell.rosiorii_de_vede	Roșiorii de Vede	roșiorii|de|vede	Roșiorii|de|Vede	NNP|NNP|NNP	O|O|O	||					
+69	1	fb:cell.teleorman	Teleorman	teleorman	teleorman	NN	PERSON						
+69	2	fb:cell.27_416	27,416	27,416	27,416	CD	NUMBER	27416.0	27416.0				
+69	3	fb:cell.31_873	31,873	31,873	31,873	CD	NUMBER	31873.0	31873.0				
+69	4	fb:cell.null_2											fb:part.null
+69	5	fb:cell.null_2											fb:part.null
+70	0	fb:cell.curtea_de_arges	Curtea de Argeș	curtea|de|argeș	curtea|de|argeș	FW|FW|FW	O|O|O	||					
+70	1	fb:cell.arges	Argeș	argeș	argeș	NN	O						
+70	2	fb:cell.27_359	27,359	27,359	27,359	CD	NUMBER	27359.0	27359.0				
+70	3	fb:cell.32_626	32,626	32,626	32,626	CD	NUMBER	32626.0	32626.0				
+70	4	fb:cell.null_2											fb:part.null
+70	5	fb:cell.1330	1330†	1330|†	1330|†	CD|CD	DATE|NUMBER	1330|	1330.0			1330†	fb:part.1330
+71	0	fb:cell.sebes	Sebeș	sebeș	sebeș	NN	O						
+71	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+71	2	fb:cell.27_019	27,019	27,019	27,019	CD	NUMBER	27019.0	27019.0				
+71	3	fb:cell.29_475	29,475	29,475	29,475	CD	NUMBER	29475.0	29475.0				
+71	4	fb:cell.null_2											fb:part.null
+71	5	fb:cell.null_2											fb:part.null
+72	0	fb:cell.husi	Huși	huși	Huși	NNP	PERSON						
+72	1	fb:cell.vaslui	Vaslui	vaslui	Vaslui	NNP	LOCATION						
+72	2	fb:cell.26_266	26,266	26,266	26,266	CD	NUMBER	26266.0	26266.0				
+72	3	fb:cell.33_320	33,320	33,320	33,320	CD	NUMBER	33320.0	33320.0				
+72	4	fb:cell.null_2											fb:part.null
+72	5	fb:cell.null_2											fb:part.null
+73	0	fb:cell.falticeni	Fălticeni	fălticeni	fălticeni	NNS	PERSON						
+73	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+73	2	fb:cell.25_723	25,723	25,723	25,723	CD	NUMBER	25723.0	25723.0				
+73	3	fb:cell.33_867	33,867	33,867	33,867	CD	NUMBER	33867.0	33867.0				
+73	4	fb:cell.null_2											fb:part.null
+73	5	fb:cell.null_2											fb:part.null
+74	0	fb:cell.pantelimon	Pantelimon	pantelimon	pantelimon	NN	PERSON						
+74	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+74	2	fb:cell.25_596	25,596	25,596	25,596	CD	NUMBER	25596.0	25596.0				
+74	3	fb:cell.16_019	16,019	16,019	16,019	CD	NUMBER	16019.0	16019.0				
+74	4	fb:cell.null_2											fb:part.null
+74	5	fb:cell.2005	2005*	2005|\\*	2005|\\*	CD|SYM	DATE|O	2005|	2005.0			2005*	fb:part.2005
+75	0	fb:cell.oltenita	Oltenița	oltenița	oltenița	JJ	O						
+75	1	fb:cell.calarasi	Călărași	călărași	Călărași	NNP	PERSON						
+75	2	fb:cell.24_822	24,822	24,822	24,822	CD	NUMBER	24822.0	24822.0				
+75	3	fb:cell.31_434	31,434	31,434	31,434	CD	NUMBER	31434.0	31434.0				
+75	4	fb:cell.null_2											fb:part.null
+75	5	fb:cell.null_2											fb:part.null
+76	0	fb:cell.turnu_magurele	Turnu Măgurele	turnu|măgurele	Turnu|Măgurele	NNP|NNP	PERSON|PERSON	|					
+76	1	fb:cell.teleorman	Teleorman	teleorman	teleorman	NN	PERSON						
+76	2	fb:cell.24_772	24,772	24,772	24,772	CD	NUMBER	24772.0	24772.0				
+76	3	fb:cell.30_187	30,187	30,187	30,187	CD	NUMBER	30187.0	30187.0				
+76	4	fb:cell.null_2											fb:part.null
+76	5	fb:cell.null_2											fb:part.null
+77	0	fb:cell.caransebes	Caransebeș	caransebeș	caransebeș	NN	O						
+77	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+77	2	fb:cell.24_689	24,689	24,689	24,689	CD	NUMBER	24689.0	24689.0				
+77	3	fb:cell.31_199	31,199	31,199	31,199	CD	NUMBER	31199.0	31199.0				
+77	4	fb:cell.null_2											fb:part.null
+77	5	fb:cell.null_2											fb:part.null
+78	0	fb:cell.dorohoi	Dorohoi	dorohoi	Dorohoi	NNP	PERSON						
+78	1	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+78	2	fb:cell.24_309	24,309	24,309	24,309	CD	NUMBER	24309.0	24309.0				
+78	3	fb:cell.31_073	31,073	31,073	31,073	CD	NUMBER	31073.0	31073.0				
+78	4	fb:cell.null_2											fb:part.null
+78	5	fb:cell.null_2											fb:part.null
+79	0	fb:cell.vulcan	Vulcan	vulcan	Vulcan	NNP	O						
+79	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+79	2	fb:cell.24_160	24,160	24,160	24,160	CD	NUMBER	24160.0	24160.0				
+79	3	fb:cell.33_186	33,186	33,186	33,186	CD	NUMBER	33186.0	33186.0				
+79	4	fb:cell.null_2											fb:part.null
+79	5	fb:cell.1953	1953*	1953|\\*	1953|\\*	CD|SYM	DATE|O	1953|	1953.0			1953*	fb:part.1953
+80	0	fb:cell.radauti	Rădăuți	rădăuți	rădăuți	NN	PERSON						
+80	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+80	2	fb:cell.23_822	23,822	23,822	23,822	CD	NUMBER	23822.0	23822.0				
+80	3	fb:cell.32_151	32,151	32,151	32,151	CD	NUMBER	32151.0	32151.0				
+80	4	fb:cell.null_2											fb:part.null
+80	5	fb:cell.null_2											fb:part.null
+81	0	fb:cell.zarnesti	Zărnești	zărnești	Zărnești	NNP	PERSON						
+81	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+81	2	fb:cell.23_476	23,476	23,476	23,476	CD	NUMBER	23476.0	23476.0				
+81	3	fb:cell.26_520	26,520	26,520	26,520	CD	NUMBER	26520.0	26520.0				
+81	4	fb:cell.null_2											fb:part.null
+81	5	fb:cell.1951	1951*	1951|\\*	1951|\\*	CD|SYM	DATE|O	1951|	1951.0			1951*	fb:part.1951
+82	0	fb:cell.lupeni	Lupeni	lupeni	lupenus	NNS	PERSON						
+82	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+82	2	fb:cell.23_390	23,390	23,390	23,390	CD	NUMBER	23390.0	23390.0				
+82	3	fb:cell.31_409	31,409	31,409	31,409	CD	NUMBER	31409.0	31409.0				
+82	4	fb:cell.null_2											fb:part.null
+82	5	fb:cell.1941_1960	1941*/1960*	1941|\\*|\\/|1960|\\*	1941|\\*|\\/|1960|\\*	CD|SYM|:|CD|SYM	DATE|O|O|DATE|O	1941|||1960|	1941.0		1960.0	1941*|1960*	fb:part.1941|fb:part.1960
+83	0	fb:cell.aiud	Aiud	aiud	Aiud	NNP	O						
+83	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+83	2	fb:cell.22_876	22,876	22,876	22,876	CD	NUMBER	22876.0	22876.0				
+83	3	fb:cell.28_909	28,909	28,909	28,909	CD	NUMBER	28909.0	28909.0				
+83	4	fb:cell.null_2											fb:part.null
+83	5	fb:cell.null_2											fb:part.null
+84	0	fb:cell.petrila	Petrila	petrila	Petrila	NNP	LOCATION						
+84	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+84	2	fb:cell.22_692	22,692	22,692	22,692	CD	NUMBER	22692.0	22692.0				
+84	3	fb:cell.28_742	28,742	28,742	28,742	CD	NUMBER	28742.0	28742.0				
+84	4	fb:cell.null_2											fb:part.null
+84	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+85	0	fb:cell.campia_turzii	Câmpia Turzii	câmpia|turzii	Câmpia|Turzii	NNP|NNP	PERSON|PERSON	|					
+85	1	fb:cell.cluj	Cluj	cluj	Cluj	NNP	O						
+85	2	fb:cell.22_223	22,223	22,223	22,223	CD	NUMBER	22223.0	22223.0				
+85	3	fb:cell.29_852	29,852	29,852	29,852	CD	NUMBER	29852.0	29852.0				
+85	4	fb:cell.null_2											fb:part.null
+85	5	fb:cell.null_2											fb:part.null
+86	0	fb:cell.buftea	Buftea	buftea	Buftea	NNP	PERSON						
+86	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+86	2	fb:cell.22_178	22,178	22,178	22,178	CD	NUMBER	22178.0	22178.0				
+86	3	fb:cell.19_617	19,617	19,617	19,617	CD	NUMBER	19617.0	19617.0				
+86	4	fb:cell.null_2											fb:part.null
+86	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+87	0	fb:cell.tarnaveni	Târnăveni	târnăveni	târnăveni	NNS	LOCATION						
+87	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+87	2	fb:cell.22_075	22,075	22,075	22,075	CD	NUMBER	22075.0	22075.0				
+87	3	fb:cell.29_828	29,828	29,828	29,828	CD	NUMBER	29828.0	29828.0				
+87	4	fb:cell.null_2											fb:part.null
+87	5	fb:cell.1912	1912*	1912|\\*	1912|\\*	CD|SYM	DATE|O	1912|	1912.0			1912*	fb:part.1912
+88	0	fb:cell.popesti_leordeni	Popești-Leordeni	popești|leordeni	Popești|Leordeni	NNP|NNP	PERSON|PERSON	|					
+88	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+88	2	fb:cell.21_895	21,895	21,895	21,895	CD	NUMBER	21895.0	21895.0				
+88	3	fb:cell.15_115	15,115	15,115	15,115	CD	NUMBER	15115.0	15115.0				
+88	4	fb:cell.null_2											fb:part.null
+88	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+89	0	fb:cell.moinesti	Moinești	moinești	Moinești	NNP	PERSON						
+89	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+89	2	fb:cell.21_787	21,787	21,787	21,787	CD	NUMBER	21787.0	21787.0				
+89	3	fb:cell.25_532	25,532	25,532	25,532	CD	NUMBER	25532.0	25532.0				
+89	4	fb:cell.null_2											fb:part.null
+89	5	fb:cell.null_2											fb:part.null
+90	0	fb:cell.codlea	Codlea	codlea	codlea	NN	O						
+90	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+90	2	fb:cell.21_708	21,708	21,708	21,708	CD	NUMBER	21708.0	21708.0				
+90	3	fb:cell.24_814	24,814	24,814	24,814	CD	NUMBER	24814.0	24814.0				
+90	4	fb:cell.null_2											fb:part.null
+90	5	fb:cell.1950	1950*	1950|\\*	1950|\\*	CD|SYM	DATE|O	1950|	1950.0			1950*	fb:part.1950
+91	0	fb:cell.cugir	Cugir	cugir	cugir	NN	O						
+91	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+91	2	fb:cell.21_376	21,376	21,376	21,376	CD	NUMBER	21376.0	21376.0				
+91	3	fb:cell.30_244	30,244	30,244	30,244	CD	NUMBER	30244.0	30244.0				
+91	4	fb:cell.null_2											fb:part.null
+91	5	fb:cell.1960	1960*	1960|\\*	1960|\\*	CD|SYM	DATE|O	1960|	1960.0			1960*	fb:part.1960
+92	0	fb:cell.carei	Carei	carei	carei	FW	PERSON						
+92	1	fb:cell.satu_mare	Satu Mare	satu|mare	Satu|Mare	NNP|NNP	O|O	|					
+92	2	fb:cell.21_112	21,112	21,112	21,112	CD	NUMBER	21112.0	21112.0				
+92	3	fb:cell.25_590	25,590	25,590	25,590	CD	NUMBER	25590.0	25590.0				
+92	4	fb:cell.null_2											fb:part.null
+92	5	fb:cell.1871	1871*	1871|\\*	1871|\\*	CD|SYM	DATE|O	1871|	1871.0			1871*	fb:part.1871
+93	0	fb:cell.gherla	Gherla	gherla	gherlum	NN	PERSON						
+93	1	fb:cell.cluj	Cluj	cluj	Cluj	NNP	O						
+93	2	fb:cell.20_982	20,982	20,982	20,982	CD	NUMBER	20982.0	20982.0				
+93	3	fb:cell.24_232	24,232	24,232	24,232	CD	NUMBER	24232.0	24232.0				
+93	4	fb:cell.null_2											fb:part.null
+93	5	fb:cell.null_2											fb:part.null
+94	0	fb:cell.blaj	Blaj	blaj	blaj	NN	PERSON						
+94	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+94	2	fb:cell.20_630	20,630	20,630	20,630	CD	NUMBER	20630.0	20630.0				
+94	3	fb:cell.21_819	21,819	21,819	21,819	CD	NUMBER	21819.0	21819.0				
+94	4	fb:cell.null_2											fb:part.null
+94	5	fb:cell.1271	1271†	1271|†	1271|†	CD|CD	DATE|NUMBER	1271|	1271.0			1271†	fb:part.1271
+95	0	fb:cell.comanesti	Comănești	comănești	comănești	NNS	O						
+95	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+95	2	fb:cell.19_568	19,568	19,568	19,568	CD	NUMBER	19568.0	19568.0				
+95	3	fb:cell.26_237	26,237	26,237	26,237	CD	NUMBER	26237.0	26237.0				
+95	4	fb:cell.null_2											fb:part.null
+95	5	fb:cell.1952	1952*	1952|\\*	1952|\\*	CD|SYM	DATE|O	1952|	1952.0			1952*	fb:part.1952
+96	0	fb:cell.motru	Motru	motru	Motru	NNP	PERSON						
+96	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+96	2	fb:cell.19_079	19,079	19,079	19,079	CD	NUMBER	19079.0	19079.0				
+96	3	fb:cell.25_860	25,860	25,860	25,860	CD	NUMBER	25860.0	25860.0				
+96	4	fb:cell.null_2											fb:part.null
+96	5	fb:cell.1966	1966*	1966|\\*	1966|\\*	CD|SYM	DATE|O	1966|	1966.0			1966*	fb:part.1966
+97	0	fb:cell.targu_neamt	Târgu Neamț	târgu|neamț	Târgu|Neamț	NNP|NNP	MISC|MISC	|					
+97	1	fb:cell.neamt	Neamț	neamț	Neamț	NNP	O						
+97	2	fb:cell.18_695	18,695	18,695	18,695	CD	NUMBER	18695.0	18695.0				
+97	3	fb:cell.22_634	22,634	22,634	22,634	CD	NUMBER	22634.0	22634.0				
+97	4	fb:cell.null_2											fb:part.null
+97	5	fb:cell.null_2											fb:part.null
+98	0	fb:cell.moreni	Moreni	moreni	Moreni	NNP	PERSON						
+98	1	fb:cell.dambovita	Dâmbovița	dâmbovița	dâmbovița	NN	PERSON						
+98	2	fb:cell.18_687	18,687	18,687	18,687	CD	NUMBER	18687.0	18687.0				
+98	3	fb:cell.22_868	22,868	22,868	22,868	CD	NUMBER	22868.0	22868.0				
+98	4	fb:cell.null_2											fb:part.null
+98	5	fb:cell.1948	1948*	1948|\\*	1948|\\*	CD|SYM	DATE|O	1948|	1948.0			1948*	fb:part.1948
+99	0	fb:cell.targu_secuiesc	Târgu Secuiesc	târgu|secuiesc	Târgu|Secuiesc	NNP|NNP	MISC|MISC	|					
+99	1	fb:cell.covasna	Covasna	covasna	Covasna	NNP	LOCATION						
+99	2	fb:cell.18_491	18,491	18,491	18,491	CD	NUMBER	18491.0	18491.0				
+99	3	fb:cell.22_251	22,251	22,251	22,251	CD	NUMBER	22251.0	22251.0				
+99	4	fb:cell.null_2											fb:part.null
+99	5	fb:cell.null_2											fb:part.null
+100	0	fb:cell.gheorgheni	Gheorgheni	gheorgheni	gheorghenus	NNS	PERSON						
+100	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+100	2	fb:cell.18_377	18,377	18,377	18,377	CD	NUMBER	18377.0	18377.0				
+100	3	fb:cell.21_245	21,245	21,245	21,245	CD	NUMBER	21245.0	21245.0				
+100	4	fb:cell.null_2											fb:part.null
+100	5	fb:cell.null_2											fb:part.null
+101	0	fb:cell.orastie	Orăștie	orăștie	Orăștie	NNP	O						
+101	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+101	2	fb:cell.18_227	18,227	18,227	18,227	CD	NUMBER	18227.0	18227.0				
+101	3	fb:cell.24_354	24,354	24,354	24,354	CD	NUMBER	24354.0	24354.0				
+101	4	fb:cell.null_2											fb:part.null
+101	5	fb:cell.null_2											fb:part.null
+102	0	fb:cell.bals	Balș	balș	balș	NN	O						
+102	1	fb:cell.olt	Olt	olt	olt	NN	O						
+102	2	fb:cell.18_164	18,164	18,164	18,164	CD	NUMBER	18164.0	18164.0				
+102	3	fb:cell.23_147	23,147	23,147	23,147	CD	NUMBER	23147.0	23147.0				
+102	4	fb:cell.null_2											fb:part.null
+102	5	fb:cell.1921	1921*	1921|\\*	1921|\\*	CD|SYM	DATE|O	1921|	1921.0			1921*	fb:part.1921
+103	0	fb:cell.baicoi	Băicoi	băicoi	Băicoi	NNP	PERSON						
+103	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+103	2	fb:cell.17_981	17,981	17,981	17,981	CD	NUMBER	17981.0	17981.0				
+103	3	fb:cell.20_234	20,234	20,234	20,234	CD	NUMBER	20234.0	20234.0				
+103	4	fb:cell.null_2											fb:part.null
+103	5	fb:cell.1948	1948*	1948|\\*	1948|\\*	CD|SYM	DATE|O	1948|	1948.0			1948*	fb:part.1948
+104	0	fb:cell.dragasani	Drăgășani	drăgășani	drăgășani	NNS	PERSON						
+104	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+104	2	fb:cell.17_871	17,871	17,871	17,871	CD	NUMBER	17871.0	17871.0				
+104	3	fb:cell.22_499	22,499	22,499	22,499	CD	NUMBER	22499.0	22499.0				
+104	4	fb:cell.null_2											fb:part.null
+104	5	fb:cell.null_2											fb:part.null
+105	0	fb:cell.salonta	Salonta	salonta	salonta	FW	LOCATION						
+105	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+105	2	fb:cell.17_735	17,735	17,735	17,735	CD	NUMBER	17735.0	17735.0				
+105	3	fb:cell.20_006	20,006	20,006	20,006	CD	NUMBER	20006.0	20006.0				
+105	4	fb:cell.null_2											fb:part.null
+105	5	fb:cell.null_2											fb:part.null
+106	0	fb:cell.bailesti	Băilești	băilești	Băilești	NNP	PERSON						
+106	1	fb:cell.dolj	Dolj	dolj	dolj	NN	O						
+106	2	fb:cell.17_437	17,437	17,437	17,437	CD	NUMBER	17437.0	17437.0				
+106	3	fb:cell.22_231	22,231	22,231	22,231	CD	NUMBER	22231.0	22231.0				
+106	4	fb:cell.null_2											fb:part.null
+106	5	fb:cell.1921	1921*	1921|\\*	1921|\\*	CD|SYM	DATE|O	1921|	1921.0			1921*	fb:part.1921
+107	0	fb:cell.calafat	Calafat	calafat	Calafat	NNP	LOCATION						
+107	1	fb:cell.dolj	Dolj	dolj	dolj	NN	O						
+107	2	fb:cell.17_336	17,336	17,336	17,336	CD	NUMBER	17336.0	17336.0				
+107	3	fb:cell.21_227	21,227	21,227	21,227	CD	NUMBER	21227.0	21227.0				
+107	4	fb:cell.null_2											fb:part.null
+107	5	fb:cell.null_2											fb:part.null
+108	0	fb:cell.cernavoda	Cernavodă	cernavodă	Cernavodă	NNP	O						
+108	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+108	2	fb:cell.17_022	17,022	17,022	17,022	CD	NUMBER	17022.0	17022.0				
+108	3	fb:cell.20_514	20,514	20,514	20,514	CD	NUMBER	20514.0	20514.0				
+108	4	fb:cell.null_2											fb:part.null
+108	5	fb:cell.null_2											fb:part.null
+109	0	fb:cell.filiasi	Filiași	filiași	Filiași	NNP	O						
+109	1	fb:cell.dolj	Dolj	dolj	dolj	NN	O						
+109	2	fb:cell.16_900	16,900	16,900	16,900	CD	NUMBER	16900.0	16900.0				
+109	3	fb:cell.20_159	20,159	20,159	20,159	CD	NUMBER	20159.0	20159.0				
+109	4	fb:cell.null_2											fb:part.null
+109	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+110	0	fb:cell.campulung_moldovenesc	Câmpulung Moldovenesc	câmpulung|moldovenesc	Câmpulung|Moldovenesc	NNP|NNP	O|O	|					
+110	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+110	2	fb:cell.16_722	16,722	16,722	16,722	CD	NUMBER	16722.0	16722.0				
+110	3	fb:cell.21_862	21,862	21,862	21,862	CD	NUMBER	21862.0	21862.0				
+110	4	fb:cell.null_2											fb:part.null
+110	5	fb:cell.1866	1866*	1866|\\*	1866|\\*	NNP|SYM	DATE|O	1866|	1866.0			1866*	fb:part.1866
+111	0	fb:cell.corabia	Corabia	corabia	Corabia	NNP	LOCATION						
+111	1	fb:cell.olt	Olt	olt	olt	NN	O						
+111	2	fb:cell.16_441	16,441	16,441	16,441	CD	NUMBER	16441.0	16441.0				
+111	3	fb:cell.21_932	21,932	21,932	21,932	CD	NUMBER	21932.0	21932.0				
+111	4	fb:cell.null_2											fb:part.null
+111	5	fb:cell.1871	1871*	1871|\\*	1871|\\*	CD|SYM	DATE|O	1871|	1871.0			1871*	fb:part.1871
+112	0	fb:cell.adjud	Adjud	adjud	Adjud	NNP	O						
+112	1	fb:cell.vrancea	Vrancea	vrancea	Vrancea	NNP	LOCATION						
+112	2	fb:cell.16_045	16,045	16,045	16,045	CD	NUMBER	16045.0	16045.0				
+112	3	fb:cell.20_776	20,776	20,776	20,776	CD	NUMBER	20776.0	20776.0				
+112	4	fb:cell.null_2											fb:part.null
+112	5	fb:cell.null_2											fb:part.null
+113	0	fb:cell.breaza	Breaza	breaza	Breaza	NNP	LOCATION						
+113	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+113	2	fb:cell.15_928	15,928	15,928	15,928	CD	NUMBER	15928.0	15928.0				
+113	3	fb:cell.18_863	18,863	18,863	18,863	CD	NUMBER	18863.0	18863.0				
+113	4	fb:cell.null_2											fb:part.null
+113	5	fb:cell.1952	1952*	1952|\\*	1952|\\*	CD|SYM	DATE|O	1952|	1952.0			1952*	fb:part.1952
+114	0	fb:cell.bocsa	Bocșa	bocșa	bocșa	NN	PERSON						
+114	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+114	2	fb:cell.15_842	15,842	15,842	15,842	CD	NUMBER	15842.0	15842.0				
+114	3	fb:cell.19_023	19,023	19,023	19,023	CD	NUMBER	19023.0	19023.0				
+114	4	fb:cell.null_2											fb:part.null
+114	5	fb:cell.1960	1960*	1960|\\*	1960|\\*	CD|SYM	DATE|O	1960|	1960.0			1960*	fb:part.1960
+115	0	fb:cell.marghita	Marghita	marghita	Marghita	NNP	PERSON						
+115	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+115	2	fb:cell.15_770	15,770	15,770	15,770	CD	NUMBER	15770.0	15770.0				
+115	3	fb:cell.18_650	18,650	18,650	18,650	CD	NUMBER	18650.0	18650.0				
+115	4	fb:cell.null_2											fb:part.null
+115	5	fb:cell.1967	1967*	1967|\\*	1967|\\*	CD|SYM	DATE|O	1967|	1967.0			1967*	fb:part.1967
+116	0	fb:cell.baia_sprie	Baia Sprie	baia|sprie	Baia|Sprie	NNP|NNP	PERSON|PERSON	|					
+116	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+116	2	fb:cell.15_476	15,476	15,476	15,476	CD	NUMBER	15476.0	15476.0				
+116	3	fb:cell.15_735	15,735	15,735	15,735	CD	NUMBER	15735.0	15735.0				
+116	4	fb:cell.null_2											fb:part.null
+116	5	fb:cell.null_2											fb:part.null
+117	0	fb:cell.bragadiru	Bragadiru	bragadiru	Bragadiru	NNP	PERSON						
+117	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+117	2	fb:cell.15_329	15,329	15,329	15,329	CD	NUMBER	15329.0	15329.0				
+117	3	fb:cell.8_165	8,165	8,165	8,165	CD	NUMBER	8165.0	8165.0				
+117	4	fb:cell.null_2											fb:part.null
+117	5	fb:cell.2005	2005*	2005|\\*	2005|\\*	CD|SYM	DATE|O	2005|	2005.0			2005*	fb:part.2005
+118	0	fb:cell.ludus	Luduș	luduș	luduș	NN	PERSON						
+118	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+118	2	fb:cell.15_328	15,328	15,328	15,328	CD	NUMBER	15328.0	15328.0				
+118	3	fb:cell.18_647	18,647	18,647	18,647	CD	NUMBER	18647.0	18647.0				
+118	4	fb:cell.null_2											fb:part.null
+118	5	fb:cell.1960	1960*	1960|\\*	1960|\\*	CD|SYM	DATE|O	1960|	1960.0			1960*	fb:part.1960
+119	0	fb:cell.urziceni	Urziceni	urziceni	urzicenus	NNS	LOCATION						
+119	1	fb:cell.ialomita	Ialomița	ialomița	ialomița	NN	LOCATION						
+119	2	fb:cell.15_308	15,308	15,308	15,308	CD	NUMBER	15308.0	15308.0				
+119	3	fb:cell.19_088	19,088	19,088	19,088	CD	NUMBER	19088.0	19088.0				
+119	4	fb:cell.null_2											fb:part.null
+119	5	fb:cell.null_2											fb:part.null
+120	0	fb:cell.viseu_de_sus	Vișeu de Sus	vișeu|de|sus	vișeu|de|sus	FW|FW|FW	O|O|O	||					
+120	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+120	2	fb:cell.15_037	15,037	15,037	15,037	CD	NUMBER	15037.0	15037.0				
+120	3	fb:cell.18_444	18,444	18,444	18,444	CD	NUMBER	18444.0	18444.0				
+120	4	fb:cell.null_2											fb:part.null
+120	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+121	0	fb:cell.rasnov	Râșnov	râșnov	Râșnov	NNP	PERSON						
+121	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+121	2	fb:cell.15_022	15,022	15,022	15,022	CD	NUMBER	15022.0	15022.0				
+121	3	fb:cell.16_242	16,242	16,242	16,242	CD	NUMBER	16242.0	16242.0				
+121	4	fb:cell.null_2											fb:part.null
+121	5	fb:cell.null_2											fb:part.null
+122	0	fb:cell.buhusi	Buhuși	buhuși	Buhuși	NNP	PERSON						
+122	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+122	2	fb:cell.14_562	14,562	14,562	14,562	CD	NUMBER	14562.0	14562.0				
+122	3	fb:cell.21_993	21,993	21,993	21,993	CD	NUMBER	21993.0	21993.0				
+122	4	fb:cell.null_2											fb:part.null
+122	5	fb:cell.1930	1930*	1930|\\*	1930|\\*	CD|SYM	DATE|O	1930|	1930.0			1930*	fb:part.1930
+123	0	fb:cell.stefanesti	Ștefănești	ștefănești	Ștefănești	NNP	O						
+123	1	fb:cell.arges	Argeș	argeș	argeș	NN	O						
+123	2	fb:cell.14_541	14,541	14,541	14,541	CD	NUMBER	14541.0	14541.0				
+123	3	fb:cell.12_983	12,983	12,983	12,983	CD	NUMBER	12983.0	12983.0				
+123	4	fb:cell.null_2											fb:part.null
+123	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+124	0	fb:cell.brad	Brad	brad	Brad	NNP	PERSON						
+124	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+124	2	fb:cell.14_495	14,495	14,495	14,495	CD	NUMBER	14495.0	14495.0				
+124	3	fb:cell.18_075	18,075	18,075	18,075	CD	NUMBER	18075.0	18075.0				
+124	4	fb:cell.null_2											fb:part.null
+124	5	fb:cell.1941	1941*	1941|\\*	1941|\\*	CD|SYM	DATE|O	1941|	1941.0			1941*	fb:part.1941
+125	0	fb:cell.simleu_silvaniei	Șimleu Silvaniei	șimleu|silvaniei	Șimleu|Silvaniei	NNP|NNP	PERSON|PERSON	|					
+125	1	fb:cell.salaj	Sălaj	sălaj	sălaj	NN	O						
+125	2	fb:cell.14_436	14,436	14,436	14,436	CD	NUMBER	14436.0	14436.0				
+125	3	fb:cell.17_053	17,053	17,053	17,053	CD	NUMBER	17053.0	17053.0				
+125	4	fb:cell.null_2											fb:part.null
+125	5	fb:cell.null_2											fb:part.null
+126	0	fb:cell.vatra_dornei	Vatra Dornei	vatra|dornei	Vatra|Dornei	NNP|NNP	PERSON|PERSON	|					
+126	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+126	2	fb:cell.14_429	14,429	14,429	14,429	CD	NUMBER	14429.0	14429.0				
+126	3	fb:cell.17_864	17,864	17,864	17,864	CD	NUMBER	17864.0	17864.0				
+126	4	fb:cell.null_2											fb:part.null
+126	5	fb:cell.1907	1907*	1907|\\*	1907|\\*	CD|SYM	DATE|O	1907|	1907.0			1907*	fb:part.1907
+127	0	fb:cell.mizil	Mizil	mizil	mizil	NN	O						
+127	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+127	2	fb:cell.14_312	14,312	14,312	14,312	CD	NUMBER	14312.0	14312.0				
+127	3	fb:cell.17_075	17,075	17,075	17,075	CD	NUMBER	17075.0	17075.0				
+127	4	fb:cell.null_2											fb:part.null
+127	5	fb:cell.1830	1830*	1830|\\*	1830|\\*	CD|SYM	DATE|O	1830|	1830.0			1830*	fb:part.1830
+128	0	fb:cell.cisnadie	Cisnădie	cisnădie	cisnădie	NN	PERSON						
+128	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+128	2	fb:cell.14_282	14,282	14,282	14,282	CD	NUMBER	14282.0	14282.0				
+128	3	fb:cell.17_204	17,204	17,204	17,204	CD	NUMBER	17204.0	17204.0				
+128	4	fb:cell.null_2											fb:part.null
+128	5	fb:cell.1948	1948*	1948|\\*	1948|\\*	CD|SYM	DATE|O	1948|	1948.0			1948*	fb:part.1948
+129	0	fb:cell.pucioasa	Pucioasa	pucioasa	pucioasa	NN	PERSON						
+129	1	fb:cell.dambovita	Dâmbovița	dâmbovița	dâmbovița	NN	PERSON						
+129	2	fb:cell.14_254	14,254	14,254	14,254	CD	NUMBER	14254.0	14254.0				
+129	3	fb:cell.16_489	16,489	16,489	16,489	CD	NUMBER	16489.0	16489.0				
+129	4	fb:cell.null_2											fb:part.null
+129	5	fb:cell.1929	1929*	1929|\\*	1929|\\*	CD|SYM	DATE|O	1929|	1929.0			1929*	fb:part.1929
+130	0	fb:cell.chitila	Chitila	chitila	Chitila	NNP	LOCATION						
+130	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+130	2	fb:cell.14_184	14,184	14,184	14,184	CD	NUMBER	14184.0	14184.0				
+130	3	fb:cell.12_643	12,643	12,643	12,643	CD	NUMBER	12643.0	12643.0				
+130	4	fb:cell.null_2											fb:part.null
+130	5	fb:cell.2005	2005*	2005|\\*	2005|\\*	CD|SYM	DATE|O	2005|	2005.0			2005*	fb:part.2005
+131	0	fb:cell.zimnicea	Zimnicea	zimnicea	zimnicea	NN	PERSON						
+131	1	fb:cell.teleorman	Teleorman	teleorman	teleorman	NN	PERSON						
+131	2	fb:cell.14_058	14,058	14,058	14,058	CD	NUMBER	14058.0	14058.0				
+131	3	fb:cell.16_787	16,787	16,787	16,787	CD	NUMBER	16787.0	16787.0				
+131	4	fb:cell.null_2											fb:part.null
+131	5	fb:cell.null_2											fb:part.null
+132	0	fb:cell.toplita	Toplița	toplița	Toplița	NNP	PERSON						
+132	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+132	2	fb:cell.13_929	13,929	13,929	13,929	CD	NUMBER	13929.0	13929.0				
+132	3	fb:cell.16_839	16,839	16,839	16,839	CD	NUMBER	16839.0	16839.0				
+132	4	fb:cell.null_2											fb:part.null
+132	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+133	0	fb:cell.otopeni	Otopeni	otopeni	Otopeni	NNP	LOCATION						
+133	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+133	2	fb:cell.13_861	13,861	13,861	13,861	CD	NUMBER	13861.0	13861.0				
+133	3	fb:cell.10_515	10,515	10,515	10,515	CD	NUMBER	10515.0	10515.0				
+133	4	fb:cell.null_2											fb:part.null
+133	5	fb:cell.2000	2000*	2000|\\*	2000|\\*	CD|SYM	DATE|O	2000|	2000.0			2000*	fb:part.2000
+134	0	fb:cell.ovidiu	Ovidiu	ovidiu	Ovidiu	NNP	PERSON						
+134	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+134	2	fb:cell.13_847	13,847	13,847	13,847	CD	NUMBER	13847.0	13847.0				
+134	3	fb:cell.13_458	13,458	13,458	13,458	CD	NUMBER	13458.0	13458.0				
+134	4	fb:cell.null_2											fb:part.null
+134	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+135	0	fb:cell.gura_humorului	Gura Humorului	gura|humorului	Gura|Humorului	NNP|NNP	PERSON|PERSON	|					
+135	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+135	2	fb:cell.13_667	13,667	13,667	13,667	CD	NUMBER	13667.0	13667.0				
+135	3	fb:cell.16_740	16,740	16,740	16,740	CD	NUMBER	16740.0	16740.0				
+135	4	fb:cell.null_2											fb:part.null
+135	5	fb:cell.1904	1904*	1904|\\*	1904|\\*	CD|SYM	DATE|O	1904|	1904.0			1904*	fb:part.1904
+136	0	fb:cell.gaesti	Găești	găești	Găești	NNP	PERSON						
+136	1	fb:cell.dambovita	Dâmbovița	dâmbovița	dâmbovița	NN	PERSON						
+136	2	fb:cell.13_317	13,317	13,317	13,317	CD	NUMBER	13317.0	13317.0				
+136	3	fb:cell.16_598	16,598	16,598	16,598	CD	NUMBER	16598.0	16598.0				
+136	4	fb:cell.null_2											fb:part.null
+136	5	fb:cell.null_2											fb:part.null
+137	0	fb:cell.vicovu_de_sus	Vicovu de Sus	vicovu|de|sus	vicovu|de|sus	FW|FW|FW	O|O|O	||					
+137	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+137	2	fb:cell.13_308	13,308	13,308	13,308	CD	NUMBER	13308.0	13308.0				
+137	3	fb:cell.14_125	14,125	14,125	14,125	CD	NUMBER	14125.0	14125.0				
+137	4	fb:cell.null_2											fb:part.null
+137	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+138	0	fb:cell.tandarei	Țăndărei	țăndărei	țăndărei	FW	O						
+138	1	fb:cell.ialomita	Ialomița	ialomița	ialomița	NN	LOCATION						
+138	2	fb:cell.13_219	13,219	13,219	13,219	CD	NUMBER	13219.0	13219.0				
+138	3	fb:cell.14_591	14,591	14,591	14,591	CD	NUMBER	14591.0	14591.0				
+138	4	fb:cell.null_2											fb:part.null
+138	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+139	0	fb:cell.ocna_mures	Ocna Mureș	ocna|mureș	Ocna|Mureș	NNP|NNP	PERSON|PERSON	|					
+139	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+139	2	fb:cell.13_036	13,036	13,036	13,036	CD	NUMBER	13036.0	13036.0				
+139	3	fb:cell.15_697	15,697	15,697	15,697	CD	NUMBER	15697.0	15697.0				
+139	4	fb:cell.null_2											fb:part.null
+139	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+140	0	fb:cell.bolintin_vale	Bolintin-Vale	bolintin|vale	Bolintin|Vale	NNP|NNP	PERSON|PERSON	|					
+140	1	fb:cell.giurgiu	Giurgiu	giurgiu	Giurgiu	NNP	LOCATION						
+140	2	fb:cell.12_929	12,929	12,929	12,929	CD	NUMBER	12929.0	12929.0				
+140	3	fb:cell.11_464	11,464	11,464	11,464	CD	NUMBER	11464.0	11464.0				
+140	4	fb:cell.null_2											fb:part.null
+140	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+141	0	fb:cell.avrig	Avrig	avrig	avrig	NN	O						
+141	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+141	2	fb:cell.12_815	12,815	12,815	12,815	CD	NUMBER	12815.0	12815.0				
+141	3	fb:cell.16_215	16,215	16,215	16,215	CD	NUMBER	16215.0	16215.0				
+141	4	fb:cell.null_2											fb:part.null
+141	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+142	0	fb:cell.pecica	Pecica	pecica	Pecica	NNP	PERSON						
+142	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+142	2	fb:cell.12_762	12,762	12,762	12,762	CD	NUMBER	12762.0	12762.0				
+142	3	fb:cell.13_024	13,024	13,024	13,024	CD	NUMBER	13024.0	13024.0				
+142	4	fb:cell.null_2											fb:part.null
+142	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+143	0	fb:cell.simeria	Simeria	simeria	Simeria	NNP	LOCATION						
+143	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+143	2	fb:cell.12_556	12,556	12,556	12,556	CD	NUMBER	12556.0	12556.0				
+143	3	fb:cell.14_571	14,571	14,571	14,571	CD	NUMBER	14571.0	14571.0				
+143	4	fb:cell.null_2											fb:part.null
+143	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+144	0	fb:cell.moldova_noua	Moldova Nouă	moldova|nouă	Moldova|Nouă	NNP|NNP	LOCATION|O	|					
+144	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+144	2	fb:cell.12_350	12,350	12,350	12,350	CD	NUMBER	12350.0	12350.0				
+144	3	fb:cell.15_112	15,112	15,112	15,112	CD	NUMBER	15112.0	15112.0				
+144	4	fb:cell.null_2											fb:part.null
+144	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+145	0	fb:cell.sannicolau_mare	Sânnicolau Mare	sânnicolau|mare	Sânnicolau|Mare	NNP|NNP	O|O	|					
+145	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+145	2	fb:cell.12_312	12,312	12,312	12,312	CD	NUMBER	12312.0	12312.0				
+145	3	fb:cell.13_007	13,007	13,007	13,007	CD	NUMBER	13007.0	13007.0				
+145	4	fb:cell.null_2											fb:part.null
+145	5	fb:cell.1942	1942*	1942|\\*	1942|\\*	CD|SYM	DATE|O	1942|	1942.0			1942*	fb:part.1942
+146	0	fb:cell.valenii_de_munte	Vălenii de Munte	vălenii|de|munte	Vălenii|de|Munte	NNP|NNP|NNP	O|O|O	||					
+146	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+146	2	fb:cell.12_257	12,257	12,257	12,257	CD	NUMBER	12257.0	12257.0				
+146	3	fb:cell.13_898	13,898	13,898	13,898	CD	NUMBER	13898.0	13898.0				
+146	4	fb:cell.null_2											fb:part.null
+146	5	fb:cell.null_2											fb:part.null
+147	0	fb:cell.darmanesti	Dărmănești	dărmănești	Dărmănești	NNP	PERSON						
+147	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+147	2	fb:cell.12_247	12,247	12,247	12,247	CD	NUMBER	12247.0	12247.0				
+147	3	fb:cell.14_232	14,232	14,232	14,232	CD	NUMBER	14232.0	14232.0				
+147	4	fb:cell.null_2											fb:part.null
+147	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+148	0	fb:cell.dabuleni	Dăbuleni	dăbuleni	dăbuleni	NNS	PERSON						
+148	1	fb:cell.dolj	Dolj	dolj	dolj	NN	O						
+148	2	fb:cell.12_182	12,182	12,182	12,182	CD	NUMBER	12182.0	12182.0				
+148	3	fb:cell.13_888	13,888	13,888	13,888	CD	NUMBER	13888.0	13888.0				
+148	4	fb:cell.null_2											fb:part.null
+148	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+149	0	fb:cell.comarnic	Comarnic	comarnic	comarnic	JJ	O						
+149	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+149	2	fb:cell.11_970	11,970	11,970	11,970	CD	NUMBER	11970.0	11970.0				
+149	3	fb:cell.13_532	13,532	13,532	13,532	CD	NUMBER	13532.0	13532.0				
+149	4	fb:cell.null_2											fb:part.null
+149	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+150	0	fb:cell.negresti_oas	Negrești-Oaș	negrești|oaș	Negrești|Oaș	NNP|NNP	O|O	|					
+150	1	fb:cell.satu_mare	Satu Mare	satu|mare	Satu|Mare	NNP|NNP	O|O	|					
+150	2	fb:cell.11_867	11,867	11,867	11,867	CD	NUMBER	11867.0	11867.0				
+150	3	fb:cell.16_356	16,356	16,356	16,356	CD	NUMBER	16356.0	16356.0				
+150	4	fb:cell.null_2											fb:part.null
+150	5	fb:cell.1965	1965*	1965|\\*	1965|\\*	CD|SYM	DATE|O	1965|	1965.0			1965*	fb:part.1965
+151	0	fb:cell.rovinari	Rovinari	rovinari	Rovinari	NNP	LOCATION						
+151	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+151	2	fb:cell.11_816	11,816	11,816	11,816	CD	NUMBER	11816.0	11816.0				
+151	3	fb:cell.12_603	12,603	12,603	12,603	CD	NUMBER	12603.0	12603.0				
+151	4	fb:cell.null_2											fb:part.null
+151	5	fb:cell.1981	1981*	1981|\\*	1981|\\*	CD|SYM	DATE|O	1981|	1981.0			1981*	fb:part.1981
+152	0	fb:cell.scornicesti	Scornicești	scornicești	Scornicești	NNP	O						
+152	1	fb:cell.olt	Olt	olt	olt	NN	O						
+152	2	fb:cell.11_766	11,766	11,766	11,766	CD	NUMBER	11766.0	11766.0				
+152	3	fb:cell.13_751	13,751	13,751	13,751	CD	NUMBER	13751.0	13751.0				
+152	4	fb:cell.null_2											fb:part.null
+152	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+153	0	fb:cell.targu_lapus	Târgu Lăpuș	târgu|lăpuș	Târgu|Lăpuș	NNP|NNP	O|O	|					
+153	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+153	2	fb:cell.11_744	11,744	11,744	11,744	CD	NUMBER	11744.0	11744.0				
+153	3	fb:cell.14_139	14,139	14,139	14,139	CD	NUMBER	14139.0	14139.0				
+153	4	fb:cell.null_2											fb:part.null
+153	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+154	0	fb:cell.sacueni	Săcueni	săcueni	săcueni	NNS	LOCATION						
+154	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+154	2	fb:cell.11_526	11,526	11,526	11,526	CD	NUMBER	11526.0	11526.0				
+154	3	fb:cell.11_665	11,665	11,665	11,665	CD	NUMBER	11665.0	11665.0				
+154	4	fb:cell.null_2											fb:part.null
+154	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+155	0	fb:cell.videle	Videle	videle	Videle	NNP	O						
+155	1	fb:cell.teleorman	Teleorman	teleorman	teleorman	NN	PERSON						
+155	2	fb:cell.11_508	11,508	11,508	11,508	CD	NUMBER	11508.0	11508.0				
+155	3	fb:cell.12_498	12,498	12,498	12,498	CD	NUMBER	12498.0	12498.0				
+155	4	fb:cell.null_2											fb:part.null
+155	5	fb:cell.null_2											fb:part.null
+156	0	fb:cell.santana	Sântana	sântana	Sântana	NNP	O						
+156	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+156	2	fb:cell.11_428	11,428	11,428	11,428	CD	NUMBER	11428.0	11428.0				
+156	3	fb:cell.12_936	12,936	12,936	12,936	CD	NUMBER	12936.0	12936.0				
+156	4	fb:cell.null_2											fb:part.null
+156	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+157	0	fb:cell.oravita	Oravița	oravița	Oravița	NNP	O						
+157	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+157	2	fb:cell.11_382	11,382	11,382	11,382	CD	NUMBER	11382.0	11382.0				
+157	3	fb:cell.15_222	15,222	15,222	15,222	CD	NUMBER	15222.0	15222.0				
+157	4	fb:cell.null_2											fb:part.null
+157	5	fb:cell.null_2											fb:part.null
+158	0	fb:cell.targu_ocna	Târgu Ocna	târgu|ocna	târgu|ocna	FW|FW	PERSON|PERSON	|					
+158	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+158	2	fb:cell.11_300	11,300	11,300	11,300	CD	NUMBER	11300.0	11300.0				
+158	3	fb:cell.14_184	14,184	14,184	14,184	CD	NUMBER	14184.0	14184.0				
+158	4	fb:cell.null_2											fb:part.null
+158	5	fb:cell.1774	1774*	1774|\\*	1774|\\*	CD|SYM	DATE|O	1774|	1774.0			1774*	fb:part.1774
+159	0	fb:cell.calan	Călan	călan	călan	NN	MISC						
+159	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+159	2	fb:cell.11_279	11,279	11,279	11,279	CD	NUMBER	11279.0	11279.0				
+159	3	fb:cell.14_714	14,714	14,714	14,714	CD	NUMBER	14714.0	14714.0				
+159	4	fb:cell.null_2											fb:part.null
+159	5	fb:cell.1961	1961*	1961|\\*	1961|\\*	CD|SYM	DATE|O	1961|	1961.0			1961*	fb:part.1961
+160	0	fb:cell.boldesti_scaeni	Boldești-Scăeni	boldești|scăeni	Boldești|Scăeni	NNP|NNP	PERSON|PERSON	|					
+160	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+160	2	fb:cell.11_137	11,137	11,137	11,137	CD	NUMBER	11137.0	11137.0				
+160	3	fb:cell.11_505	11,505	11,505	11,505	CD	NUMBER	11505.0	11505.0				
+160	4	fb:cell.null_2											fb:part.null
+160	5	fb:cell.null_2											fb:part.null
+161	0	fb:cell.magurele	Măgurele	măgurele	măgurele	NN	O						
+161	1	fb:cell.ilfov	Ilfov	ilfov	Ilfov	NNP	O						
+161	2	fb:cell.11_041	11,041	11,041	11,041	CD	NUMBER	11041.0	11041.0				
+161	3	fb:cell.9_200	9,200	9,200	9,200	CD	NUMBER	9200.0	9200.0				
+161	4	fb:cell.null_2											fb:part.null
+161	5	fb:cell.2005	2005*	2005|\\*	2005|\\*	CD|SYM	DATE|O	2005|	2005.0			2005*	fb:part.2005
+162	0	fb:cell.harlau	Hârlău	hârlău	hârlău	FW	PERSON						
+162	1	fb:cell.iasi	Iași	iași	iași	NN	O						
+162	2	fb:cell.10_905	10,905	10,905	10,905	CD	NUMBER	10905.0	10905.0				
+162	3	fb:cell.12_260	12,260	12,260	12,260	CD	NUMBER	12260.0	12260.0				
+162	4	fb:cell.null_2											fb:part.null
+162	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+163	0	fb:cell.draganesti_olt	Drăgănești-Olt	drăgănești|olt	Drăgănești|Olt	NNP|NNP	O|O	|					
+163	1	fb:cell.olt	Olt	olt	olt	NN	O						
+163	2	fb:cell.10_894	10,894	10,894	10,894	CD	NUMBER	10894.0	10894.0				
+163	3	fb:cell.13_181	13,181	13,181	13,181	CD	NUMBER	13181.0	13181.0				
+163	4	fb:cell.null_2											fb:part.null
+163	5	fb:cell.null_2											fb:part.null
+164	0	fb:cell.jimbolia	Jimbolia	jimbolia	Jimbolia	NNP	PERSON						
+164	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+164	2	fb:cell.10_808	10,808	10,808	10,808	CD	NUMBER	10808.0	10808.0				
+164	3	fb:cell.10_497	10,497	10,497	10,497	CD	NUMBER	10497.0	10497.0				
+164	4	fb:cell.null_2											fb:part.null
+164	5	fb:cell.1950	1950*	1950|\\*	1950|\\*	CD|SYM	DATE|O	1950|	1950.0			1950*	fb:part.1950
+165	0	fb:cell.marasesti	Mărășești	mărășești	Mărășești	NNP	O						
+165	1	fb:cell.vrancea	Vrancea	vrancea	Vrancea	NNP	LOCATION						
+165	2	fb:cell.10_671	10,671	10,671	10,671	CD	NUMBER	10671.0	10671.0				
+165	3	fb:cell.13_070	13,070	13,070	13,070	CD	NUMBER	13070.0	13070.0				
+165	4	fb:cell.null_2											fb:part.null
+165	5	fb:cell.null_2											fb:part.null
+166	0	fb:cell.beius	Beiuș	beiuș	Beiuș	NNP	O						
+166	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+166	2	fb:cell.10_667	10,667	10,667	10,667	CD	NUMBER	10667.0	10667.0				
+166	3	fb:cell.12_089	12,089	12,089	12,089	CD	NUMBER	12089.0	12089.0				
+166	4	fb:cell.null_2											fb:part.null
+166	5	fb:cell.1451	1451*	1451|\\*	1451|\\*	CD|SYM	DATE|O	1451|	1451.0			1451*	fb:part.1451
+167	0	fb:cell.beclean	Beclean	beclean	beclean	NN	MISC						
+167	1	fb:cell.bistrita_nasaud	Bistrița-Năsăud	bistrița|năsăud	Bistrița|Năsăud	NNP|NNP	PERSON|PERSON	|					
+167	2	fb:cell.10_628	10,628	10,628	10,628	CD	NUMBER	10628.0	10628.0				
+167	3	fb:cell.12_033	12,033	12,033	12,033	CD	NUMBER	12033.0	12033.0				
+167	4	fb:cell.null_2											fb:part.null
+167	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+168	0	fb:cell.urlati	Urlați	urlați	urlați	NNS	O						
+168	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+168	2	fb:cell.10_541	10,541	10,541	10,541	CD	NUMBER	10541.0	10541.0				
+168	3	fb:cell.11_858	11,858	11,858	11,858	CD	NUMBER	11858.0	11858.0				
+168	4	fb:cell.null_2											fb:part.null
+168	5	fb:cell.null_2											fb:part.null
+169	0	fb:cell.otelu_rosu	Oțelu Roșu	oțelu|roșu	Oțelu|Roșu	NNP|NNP	PERSON|PERSON	|					
+169	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+169	2	fb:cell.10_510	10,510	10,510	10,510	CD	NUMBER	10510.0	10510.0				
+169	3	fb:cell.13_128	13,128	13,128	13,128	CD	NUMBER	13128.0	13128.0				
+169	4	fb:cell.null_2											fb:part.null
+169	5	fb:cell.1960	1960*	1960|\\*	1960|\\*	CD|SYM	DATE|O	1960|	1960.0			1960*	fb:part.1960
+170	0	fb:cell.strehaia	Strehaia	strehaia	strehaia	FW	LOCATION						
+170	1	fb:cell.mehedinti	Mehedinți	mehedinți	Mehedinți	NNP	PERSON						
+170	2	fb:cell.10_506	10,506	10,506	10,506	CD	NUMBER	10506.0	10506.0				
+170	3	fb:cell.12_564	12,564	12,564	12,564	CD	NUMBER	12564.0	12564.0				
+170	4	fb:cell.null_2											fb:part.null
+170	5	fb:cell.1921	1921*	1921|\\*	1921|\\*	CD|SYM	DATE|O	1921|	1921.0			1921*	fb:part.1921
+171	0	fb:cell.targu_frumos	Târgu Frumos	târgu|frumos	Târgu|Frumos	NNP|NNP	MISC|MISC	|					
+171	1	fb:cell.iasi	Iași	iași	iași	NN	O						
+171	2	fb:cell.10_475	10,475	10,475	10,475	CD	NUMBER	10475.0	10475.0				
+171	3	fb:cell.13_763	13,763	13,763	13,763	CD	NUMBER	13763.0	13763.0				
+171	4	fb:cell.null_2											fb:part.null
+171	5	fb:cell.null_2											fb:part.null
+172	0	fb:cell.orsova	Orșova	orșova	orșova	NN	PERSON						
+172	1	fb:cell.mehedinti	Mehedinți	mehedinți	Mehedinți	NNP	PERSON						
+172	2	fb:cell.10_441	10,441	10,441	10,441	CD	NUMBER	10441.0	10441.0				
+172	3	fb:cell.15_379	15,379	15,379	15,379	CD	NUMBER	15379.0	15379.0				
+172	4	fb:cell.null_2											fb:part.null
+172	5	fb:cell.null_2											fb:part.null
+173	0	fb:cell.sinaia	Sinaia	sinaia	Sinaia	NNP	LOCATION						
+173	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+173	2	fb:cell.10_410	10,410	10,410	10,410	CD	NUMBER	10410.0	10410.0				
+173	3	fb:cell.14_636	14,636	14,636	14,636	CD	NUMBER	14636.0	14636.0				
+173	4	fb:cell.null_2											fb:part.null
+173	5	fb:cell.1880	1880*	1880|\\*	1880|\\*	NNP|SYM	DATE|O	1880|	1880.0			1880*	fb:part.1880
+174	0	fb:cell.jibou	Jibou	jibou	jibou	FW	PERSON						
+174	1	fb:cell.salaj	Sălaj	sălaj	sălaj	NN	O						
+174	2	fb:cell.10_407	10,407	10,407	10,407	CD	NUMBER	10407.0	10407.0				
+174	3	fb:cell.12_283	12,283	12,283	12,283	CD	NUMBER	12283.0	12283.0				
+174	4	fb:cell.null_2											fb:part.null
+174	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+175	0	fb:cell.sovata	Sovata	sovata	sovata	FW	O						
+175	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+175	2	fb:cell.10_385	10,385	10,385	10,385	CD	NUMBER	10385.0	10385.0				
+175	3	fb:cell.12_219	12,219	12,219	12,219	CD	NUMBER	12219.0	12219.0				
+175	4	fb:cell.null_2											fb:part.null
+175	5	fb:cell.1952	1952*	1952|\\*	1952|\\*	CD|SYM	DATE|O	1952|	1952.0			1952*	fb:part.1952
+176	0	fb:cell.costesti	Costești	costești	Costești	NNP	O						
+176	1	fb:cell.arges	Argeș	argeș	argeș	NN	O						
+176	2	fb:cell.10_375	10,375	10,375	10,375	CD	NUMBER	10375.0	10375.0				
+176	3	fb:cell.12_091	12,091	12,091	12,091	CD	NUMBER	12091.0	12091.0				
+176	4	fb:cell.null_2											fb:part.null
+176	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+177	0	fb:cell.ianca	Ianca	ianca	ianca	NN	LOCATION						
+177	1	fb:cell.braila	Brăila	brăila	Brăila	NNP	LOCATION						
+177	2	fb:cell.10_343	10,343	10,343	10,343	CD	NUMBER	10343.0	10343.0				
+177	3	fb:cell.12_886	12,886	12,886	12,886	CD	NUMBER	12886.0	12886.0				
+177	4	fb:cell.null_2											fb:part.null
+177	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+178	0	fb:cell.lipova	Lipova	lipova	lipova	NN	PERSON						
+178	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+178	2	fb:cell.10_313	10,313	10,313	10,313	CD	NUMBER	10313.0	10313.0				
+178	3	fb:cell.11_491	11,491	11,491	11,491	CD	NUMBER	11491.0	11491.0				
+178	4	fb:cell.null_2											fb:part.null
+178	5	fb:cell.1440	1440*	1440|\\*	1440|\\*	CD|SYM	DATE|O	1440|	1440.0			1440*	fb:part.1440
+179	0	fb:cell.dolhasca	Dolhasca	dolhasca	Dolhasca	NNP	LOCATION						
+179	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+179	2	fb:cell.10_298	10,298	10,298	10,298	CD	NUMBER	10298.0	10298.0				
+179	3	fb:cell.11_009	11,009	11,009	11,009	CD	NUMBER	11009.0	11009.0				
+179	4	fb:cell.null_2											fb:part.null
+179	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+180	0	fb:cell.topoloveni	Topoloveni	topoloveni	Topoloveni	NNP	PERSON						
+180	1	fb:cell.arges	Argeș	argeș	argeș	NN	O						
+180	2	fb:cell.10_219	10,219	10,219	10,219	CD	NUMBER	10219.0	10219.0				
+180	3	fb:cell.10_329	10,329	10,329	10,329	CD	NUMBER	10329.0	10329.0				
+180	4	fb:cell.null_2											fb:part.null
+180	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+181	0	fb:cell.murfatlar	Murfatlar	murfatlar	murfatlar	JJ	PERSON						
+181	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+181	2	fb:cell.10_216	10,216	10,216	10,216	CD	NUMBER	10216.0	10216.0				
+181	3	fb:cell.10_857	10,857	10,857	10,857	CD	NUMBER	10857.0	10857.0				
+181	4	fb:cell.null_2											fb:part.null
+181	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+182	0	fb:cell.nehoiu	Nehoiu	nehoiu	nehoiu	FW	PERSON						
+182	1	fb:cell.buzau	Buzău	buzău	Buzău	NNP	MISC						
+182	2	fb:cell.10_211	10,211	10,211	10,211	CD	NUMBER	10211.0	10211.0				
+182	3	fb:cell.12_650	12,650	12,650	12,650	CD	NUMBER	12650.0	12650.0				
+182	4	fb:cell.null_2											fb:part.null
+182	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+183	0	fb:cell.flamanzi	Flămânzi	flămânzi	Flămânzi	NNP	PERSON						
+183	1	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+183	2	fb:cell.10_136	10,136	10,136	10,136	CD	NUMBER	10136.0	10136.0				
+183	3	fb:cell.11_799	11,799	11,799	11,799	CD	NUMBER	11799.0	11799.0				
+183	4	fb:cell.null_2											fb:part.null
+183	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+184	0	fb:cell.covasna	Covasna	covasna	Covasna	NNP	LOCATION						
+184	1	fb:cell.covasna	Covasna	covasna	Covasna	NNP	LOCATION						
+184	2	fb:cell.10_114	10,114	10,114	10,114	CD	NUMBER	10114.0	10114.0				
+184	3	fb:cell.12_306	12,306	12,306	12,306	CD	NUMBER	12306.0	12306.0				
+184	4	fb:cell.null_2											fb:part.null
+184	5	fb:cell.1952	1952*	1952|\\*	1952|\\*	CD|SYM	DATE|O	1952|	1952.0			1952*	fb:part.1952
+185	0	fb:cell.alesd	Aleșd	aleșd	Aleșd	NNP	O						
+185	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+185	2	fb:cell.10_066	10,066	10,066	10,066	CD	NUMBER	10066.0	10066.0				
+185	3	fb:cell.10_852	10,852	10,852	10,852	CD	NUMBER	10852.0	10852.0				
+185	4	fb:cell.null_2											fb:part.null
+185	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+186	0	fb:cell.valea_lui_mihai	Valea lui Mihai	valea|lui|mihai	Valea|lui|Mihai	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+186	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+186	2	fb:cell.9_902	9,902	9,902	9,902	CD	NUMBER	9902.0	9902.0				
+186	3	fb:cell.10_665	10,665	10,665	10,665	CD	NUMBER	10665.0	10665.0				
+186	4	fb:cell.null_2											fb:part.null
+186	5	fb:cell.1844_1930_1989	1844*/1930*/1989*	1844|\\*|\\/|1930|\\*|\\/|1989|\\*	1844|\\*|\\/|1930|\\*|\\/|1989|\\*	CD|SYM|:|CD|SYM|:|CD|SYM	DATE|O|O|DATE|O|O|DATE|O	1844|||1930|||1989|	1844.0		1930.0	1844*|1930*|1989*	fb:part.1844|fb:part.1930|fb:part.1989
+187	0	fb:cell.darabani	Darabani	darabani	darabanus	NNS	PERSON						
+187	1	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+187	2	fb:cell.9_893	9,893	9,893	9,893	CD	NUMBER	9893.0	9893.0				
+187	3	fb:cell.12_002	12,002	12,002	12,002	CD	NUMBER	12002.0	12002.0				
+187	4	fb:cell.null_2											fb:part.null
+187	5	fb:cell.1926_1968	1926*/1968*	1926|\\*|\\/|1968|\\*	1926|\\*|\\/|1968|\\*	CD|SYM|:|CD|SYM	DATE|O|O|DATE|O	1926|||1968|	1926.0		1968.0	1926*|1968*	fb:part.1926|fb:part.1968
+188	0	fb:cell.hateg	Hațeg	hațeg	Hațeg	NNP	PERSON						
+188	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+188	2	fb:cell.9_685	9,685	9,685	9,685	CD	NUMBER	9685.0	9685.0				
+188	3	fb:cell.12_507	12,507	12,507	12,507	CD	NUMBER	12507.0	12507.0				
+188	4	fb:cell.null_2											fb:part.null
+188	5	fb:cell.null_2											fb:part.null
+189	0	fb:cell.sangeorz_bai	Sângeorz-Băi	sângeorz|băi	Sângeorz|Băi	NNP|NNP	O|O	|					
+189	1	fb:cell.bistrita_nasaud	Bistrița-Năsăud	bistrița|năsăud	Bistrița|Năsăud	NNP|NNP	PERSON|PERSON	|					
+189	2	fb:cell.9_679	9,679	9,679	9,679	CD	NUMBER	9679.0	9679.0				
+189	3	fb:cell.10_702	10,702	10,702	10,702	CD	NUMBER	10702.0	10702.0				
+189	4	fb:cell.null_2											fb:part.null
+189	5	fb:cell.null_2											fb:part.null
+190	0	fb:cell.titu	Titu	titu	Titu	NNP	O						
+190	1	fb:cell.dambovita	Dâmbovița	dâmbovița	dâmbovița	NN	PERSON						
+190	2	fb:cell.9_658	9,658	9,658	9,658	CD	NUMBER	9658.0	9658.0				
+190	3	fb:cell.10_711	10,711	10,711	10,711	CD	NUMBER	10711.0	10711.0				
+190	4	fb:cell.null_2											fb:part.null
+190	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+191	0	fb:cell.cristuru_secuiesc	Cristuru Secuiesc	cristuru|secuiesc	Cristuru|Secuiesc	NNP|NNP	MISC|MISC	|					
+191	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+191	2	fb:cell.9_650	9,650	9,650	9,650	CD	NUMBER	9650.0	9650.0				
+191	3	fb:cell.11_291	11,291	11,291	11,291	CD	NUMBER	11291.0	11291.0				
+191	4	fb:cell.null_2											fb:part.null
+191	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+192	0	fb:cell.harsova	Hârșova	hârșova	hârșova	NN	PERSON						
+192	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+192	2	fb:cell.9_642	9,642	9,642	9,642	CD	NUMBER	9642.0	9642.0				
+192	3	fb:cell.11_198	11,198	11,198	11,198	CD	NUMBER	11198.0	11198.0				
+192	4	fb:cell.null_2											fb:part.null
+192	5	fb:cell.null_2											fb:part.null
+193	0	fb:cell.liteni	Liteni	liteni	litenus	NNS	LOCATION						
+193	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+193	2	fb:cell.9_596	9,596	9,596	9,596	CD	NUMBER	9596.0	9596.0				
+193	3	fb:cell.9_851	9,851	9,851	9,851	CD	NUMBER	9851.0	9851.0				
+193	4	fb:cell.null_2											fb:part.null
+193	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+194	0	fb:cell.nasaud	Năsăud	năsăud	năsăud	NN	O						
+194	1	fb:cell.bistrita_nasaud	Bistrița-Năsăud	bistrița|năsăud	Bistrița|Năsăud	NNP|NNP	PERSON|PERSON	|					
+194	2	fb:cell.9_587	9,587	9,587	9,587	CD	NUMBER	9587.0	9587.0				
+194	3	fb:cell.11_365	11,365	11,365	11,365	CD	NUMBER	11365.0	11365.0				
+194	4	fb:cell.null_2											fb:part.null
+194	5	fb:cell.null_2											fb:part.null
+195	0	fb:cell.podu_iloaiei	Podu Iloaiei	podu|iloaiei	Podu|Iloaiei	NNP|NNP	PERSON|PERSON	|					
+195	1	fb:cell.iasi	Iași	iași	iași	NN	O						
+195	2	fb:cell.9_573	9,573	9,573	9,573	CD	NUMBER	9573.0	9573.0				
+195	3	fb:cell.9_739	9,739	9,739	9,739	CD	NUMBER	9739.0	9739.0				
+195	4	fb:cell.null_2											fb:part.null
+195	5	fb:cell.2005	2005*	2005|\\*	2005|\\*	CD|SYM	DATE|O	2005|	2005.0			2005*	fb:part.2005
+196	0	fb:cell.eforie	Eforie	eforie	eforie	NN	O						
+196	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+196	2	fb:cell.9_473	9,473	9,473	9,473	CD	NUMBER	9473.0	9473.0				
+196	3	fb:cell.9_294	9,294	9,294	9,294	CD	NUMBER	9294.0	9294.0				
+196	4	fb:cell.null_2											fb:part.null
+196	5	fb:cell.null_2											fb:part.null
+197	0	fb:cell.odobesti	Odobești	odobești	Odobești	NNP	PERSON						
+197	1	fb:cell.vrancea	Vrancea	vrancea	Vrancea	NNP	LOCATION						
+197	2	fb:cell.9_364	9,364	9,364	9,364	CD	NUMBER	9364.0	9364.0				
+197	3	fb:cell.8_000	8,000	8,000	8,000	CD	NUMBER	8000.0	8000.0				
+197	4	fb:cell.null_2											fb:part.null
+197	5	fb:cell.null_2											fb:part.null
+198	0	fb:cell.huedin	Huedin	huedin	huedin	NN	PERSON						
+198	1	fb:cell.cluj	Cluj	cluj	Cluj	NNP	O						
+198	2	fb:cell.9_346	9,346	9,346	9,346	CD	NUMBER	9346.0	9346.0				
+198	3	fb:cell.9_955	9,955	9,955	9,955	CD	NUMBER	9955.0	9955.0				
+198	4	fb:cell.null_2											fb:part.null
+198	5	fb:cell.1961	1961*	1961|\\*	1961|\\*	CD|SYM	DATE|O	1961|	1961.0			1961*	fb:part.1961
+199	0	fb:cell.ineu	Ineu	ineu	Ineu	NNP	O						
+199	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+199	2	fb:cell.9_260	9,260	9,260	9,260	CD	NUMBER	9260.0	9260.0				
+199	3	fb:cell.10_416	10,416	10,416	10,416	CD	NUMBER	10416.0	10416.0				
+199	4	fb:cell.null_2											fb:part.null
+199	5	fb:cell.1967	1967*	1967|\\*	1967|\\*	CD|SYM	DATE|O	1967|	1967.0			1967*	fb:part.1967
+200	0	fb:cell.salcea	Salcea	salcea	salcea	FW	LOCATION						
+200	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+200	2	fb:cell.9_015	9,015	9,015	9,015	CD	NUMBER	9015.0	9015.0				
+200	3	fb:cell.8_719	8,719	8,719	8,719	CD	NUMBER	8719.0	8719.0				
+200	4	fb:cell.null_2											fb:part.null
+200	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+201	0	fb:cell.seini	Seini	seini	Seini	NNP	PERSON						
+201	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+201	2	fb:cell.8_987	8,987	8,987	8,987	CD	NUMBER	8987.0	8987.0				
+201	3	fb:cell.9_439	9,439	9,439	9,439	CD	NUMBER	9439.0	9439.0				
+201	4	fb:cell.null_2											fb:part.null
+201	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+202	0	fb:cell.uricani	Uricani	uricani	uricanus	NNS	PERSON						
+202	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+202	2	fb:cell.8_972	8,972	8,972	8,972	CD	NUMBER	8972.0	8972.0				
+202	3	fb:cell.12_177	12,177	12,177	12,177	CD	NUMBER	12177.0	12177.0				
+202	4	fb:cell.null_2											fb:part.null
+202	5	fb:cell.1965	1965*	1965|\\*	1965|\\*	CD|SYM	DATE|O	1965|	1965.0			1965*	fb:part.1965
+203	0	fb:cell.babadag	Babadag	babadag	Babadag	NNP	O						
+203	1	fb:cell.tulcea	Tulcea	tulcea	Tulcea	NNP	LOCATION						
+203	2	fb:cell.8_940	8,940	8,940	8,940	CD	NUMBER	8940.0	8940.0				
+203	3	fb:cell.10_878	10,878	10,878	10,878	CD	NUMBER	10878.0	10878.0				
+203	4	fb:cell.null_2											fb:part.null
+203	5	fb:cell.null_2											fb:part.null
+204	0	fb:cell.bumbesti_jiu	Bumbești-Jiu	bumbești|jiu	Bumbești|Jiu	NNP|NNP	O|O	|					
+204	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+204	2	fb:cell.8_932	8,932	8,932	8,932	CD	NUMBER	8932.0	8932.0				
+204	3	fb:cell.11_882	11,882	11,882	11,882	CD	NUMBER	11882.0	11882.0				
+204	4	fb:cell.null_2											fb:part.null
+204	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+205	0	fb:cell.busteni	Bușteni	bușteni	bușteni	NNS	PERSON						
+205	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+205	2	fb:cell.8_894	8,894	8,894	8,894	CD	NUMBER	8894.0	8894.0				
+205	3	fb:cell.11_787	11,787	11,787	11,787	CD	NUMBER	11787.0	11787.0				
+205	4	fb:cell.null_2											fb:part.null
+205	5	fb:cell.1946	1946*	1946|\\*	1946|\\*	CD|SYM	DATE|O	1946|	1946.0			1946*	fb:part.1946
+206	0	fb:cell.agnita	Agnita	agnita	Agnita	NNP	O						
+206	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+206	2	fb:cell.8_732	8,732	8,732	8,732	CD	NUMBER	8732.0	8732.0				
+206	3	fb:cell.12_115	12,115	12,115	12,115	CD	NUMBER	12115.0	12115.0				
+206	4	fb:cell.null_2											fb:part.null
+206	5	fb:cell.1950	1950*	1950|\\*	1950|\\*	CD|SYM	DATE|O	1950|	1950.0			1950*	fb:part.1950
+207	0	fb:cell.iernut	Iernut	iernut	iernut	NN	O						
+207	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+207	2	fb:cell.8_705	8,705	8,705	8,705	CD	NUMBER	8705.0	8705.0				
+207	3	fb:cell.9_833	9,833	9,833	9,833	CD	NUMBER	9833.0	9833.0				
+207	4	fb:cell.null_2											fb:part.null
+207	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+208	0	fb:cell.baraolt	Baraolt	baraolt	baraolt	NN	O						
+208	1	fb:cell.covasna	Covasna	covasna	Covasna	NNP	LOCATION						
+208	2	fb:cell.8_672	8,672	8,672	8,672	CD	NUMBER	8672.0	8672.0				
+208	3	fb:cell.10_464	10,464	10,464	10,464	CD	NUMBER	10464.0	10464.0				
+208	4	fb:cell.null_2											fb:part.null
+208	5	fb:cell.null_2											fb:part.null
+209	0	fb:cell.tasnad	Tășnad	tășnad	tășnad	NN	O						
+209	1	fb:cell.satu_mare	Satu Mare	satu|mare	Satu|Mare	NNP|NNP	O|O	|					
+209	2	fb:cell.8_631	8,631	8,631	8,631	CD	NUMBER	8631.0	8631.0				
+209	3	fb:cell.10_188	10,188	10,188	10,188	CD	NUMBER	10188.0	10188.0				
+209	4	fb:cell.null_2											fb:part.null
+209	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+210	0	fb:cell.roznov	Roznov	roznov	Roznov	NNP	PERSON						
+210	1	fb:cell.neamt	Neamț	neamț	Neamț	NNP	O						
+210	2	fb:cell.8_593	8,593	8,593	8,593	CD	NUMBER	8593.0	8593.0				
+210	3	fb:cell.9_171	9,171	9,171	9,171	CD	NUMBER	9171.0	9171.0				
+210	4	fb:cell.null_2											fb:part.null
+210	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+211	0	fb:cell.babeni	Băbeni	băbeni	băbeni	NNS	PERSON						
+211	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+211	2	fb:cell.8_451	8,451	8,451	8,451	CD	NUMBER	8451.0	8451.0				
+211	3	fb:cell.9_475	9,475	9,475	9,475	CD	NUMBER	9475.0	9475.0				
+211	4	fb:cell.null_2											fb:part.null
+211	5	fb:cell.2002	2002*	2002|\\*	2002|\\*	CD|SYM	DATE|O	2002|	2002.0			2002*	fb:part.2002
+212	0	fb:cell.negresti	Negrești	negrești	Negrești	NNP	LOCATION						
+212	1	fb:cell.vaslui	Vaslui	vaslui	Vaslui	NNP	LOCATION						
+212	2	fb:cell.8_380	8,380	8,380	8,380	CD	NUMBER	8380.0	8380.0				
+212	3	fb:cell.10_481	10,481	10,481	10,481	CD	NUMBER	10481.0	10481.0				
+212	4	fb:cell.null_2											fb:part.null
+212	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+213	0	fb:cell.recas	Recaș	recaș	recaș	NN	O						
+213	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+213	2	fb:cell.8_336	8,336	8,336	8,336	CD	NUMBER	8336.0	8336.0				
+213	3	fb:cell.8_560	8,560	8,560	8,560	CD	NUMBER	8560.0	8560.0				
+213	4	fb:cell.null_2											fb:part.null
+213	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+214	0	fb:cell.macin	Măcin	măcin	măcin	NN	O						
+214	1	fb:cell.tulcea	Tulcea	tulcea	Tulcea	NNP	LOCATION						
+214	2	fb:cell.8_245	8,245	8,245	8,245	CD	NUMBER	8245.0	8245.0				
+214	3	fb:cell.11_803	11,803	11,803	11,803	CD	NUMBER	11803.0	11803.0				
+214	4	fb:cell.null_2											fb:part.null
+214	5	fb:cell.null_2											fb:part.null
+215	0	fb:cell.targu_carbunesti	Târgu Cărbunești	târgu|cărbunești	Târgu|Cărbunești	NNP|NNP	PERSON|PERSON	|					
+215	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+215	2	fb:cell.8_034	8,034	8,034	8,034	CD	NUMBER	8034.0	8034.0				
+215	3	fb:cell.9_338	9,338	9,338	9,338	CD	NUMBER	9338.0	9338.0				
+215	4	fb:cell.null_2											fb:part.null
+215	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+216	0	fb:cell.chisineu_cris	Chișineu-Criș	chișineu|criș	Chișineu|Criș	NNP|NNP	O|O	|					
+216	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+216	2	fb:cell.7_987	7,987	7,987	7,987	CD	NUMBER	7987.0	7987.0				
+216	3	fb:cell.8_724	8,724	8,724	8,724	CD	NUMBER	8724.0	8724.0				
+216	4	fb:cell.null_2											fb:part.null
+216	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+217	0	fb:cell.siret	Siret	siret	Siret	NNP	O						
+217	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+217	2	fb:cell.7_976	7,976	7,976	7,976	CD	NUMBER	7976.0	7976.0				
+217	3	fb:cell.10_003	10,003	10,003	10,003	CD	NUMBER	10003.0	10003.0				
+217	4	fb:cell.null_2											fb:part.null
+217	5	fb:cell.null_2											fb:part.null
+218	0	fb:cell.mihailesti	Mihăilești	mihăilești	Mihăilești	NNP	O						
+218	1	fb:cell.giurgiu	Giurgiu	giurgiu	Giurgiu	NNP	LOCATION						
+218	2	fb:cell.7_923	7,923	7,923	7,923	CD	NUMBER	7923.0	7923.0				
+218	3	fb:cell.7_161	7,161	7,161	7,161	CD	NUMBER	7161.0	7161.0				
+218	4	fb:cell.null_2											fb:part.null
+218	5	fb:cell.null_2											fb:part.null
+219	0	fb:cell.budesti	Budești	budești	Budești	NNP	PERSON						
+219	1	fb:cell.calarasi	Călărași	călărași	Călărași	NNP	PERSON						
+219	2	fb:cell.7_725	7,725	7,725	7,725	CD	NUMBER	7725.0	7725.0				
+219	3	fb:cell.9_596	9,596	9,596	9,596	CD	NUMBER	9596.0	9596.0				
+219	4	fb:cell.null_2											fb:part.null
+219	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+220	0	fb:cell.plopeni	Plopeni	plopeni	Plopeni	NNP	LOCATION						
+220	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+220	2	fb:cell.7_718	7,718	7,718	7,718	CD	NUMBER	7718.0	7718.0				
+220	3	fb:cell.10_083	10,083	10,083	10,083	CD	NUMBER	10083.0	10083.0				
+220	4	fb:cell.null_2											fb:part.null
+220	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+221	0	fb:cell.panciu	Panciu	panciu	panciu	NN	O						
+221	1	fb:cell.vrancea	Vrancea	vrancea	Vrancea	NNP	LOCATION						
+221	2	fb:cell.7_664	7,664	7,664	7,664	CD	NUMBER	7664.0	7664.0				
+221	3	fb:cell.9_834	9,834	9,834	9,834	CD	NUMBER	9834.0	9834.0				
+221	4	fb:cell.null_2											fb:part.null
+221	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+222	0	fb:cell.calimanesti	Călimănești	călimănești	Călimănești	NNP	O						
+222	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+222	2	fb:cell.7_622	7,622	7,622	7,622	CD	NUMBER	7622.0	7622.0				
+222	3	fb:cell.8_923	8,923	8,923	8,923	CD	NUMBER	8923.0	8923.0				
+222	4	fb:cell.null_2											fb:part.null
+222	5	fb:cell.1927	1927*	1927|\\*	1927|\\*	CD|SYM	DATE|O	1927|	1927.0			1927*	fb:part.1927
+223	0	fb:cell.fieni	Fieni	fieni	fienus	NNS	PERSON						
+223	1	fb:cell.dambovita	Dâmbovița	dâmbovița	dâmbovița	NN	PERSON						
+223	2	fb:cell.7_587	7,587	7,587	7,587	CD	NUMBER	7587.0	7587.0				
+223	3	fb:cell.8_092	8,092	8,092	8,092	CD	NUMBER	8092.0	8092.0				
+223	4	fb:cell.null_2											fb:part.null
+223	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+224	0	fb:cell.somcuta_mare	Șomcuta Mare	șomcuta|mare	Șomcuta|Mare	NNP|NNP	O|O	|					
+224	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+224	2	fb:cell.7_565	7,565	7,565	7,565	CD	NUMBER	7565.0	7565.0				
+224	3	fb:cell.7_708	7,708	7,708	7,708	CD	NUMBER	7708.0	7708.0				
+224	4	fb:cell.null_2											fb:part.null
+224	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+225	0	fb:cell.intorsura_buzaului	Întorsura Buzăului	întorsura|buzăului	Întorsura|Buzăului	NNP|NNP	O|O	|					
+225	1	fb:cell.covasna	Covasna	covasna	Covasna	NNP	LOCATION						
+225	2	fb:cell.7_528	7,528	7,528	7,528	CD	NUMBER	7528.0	7528.0				
+225	3	fb:cell.9_081	9,081	9,081	9,081	CD	NUMBER	9081.0	9081.0				
+225	4	fb:cell.null_2											fb:part.null
+225	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+226	0	fb:cell.zlatna	Zlatna	zlatna	Zlatna	NNP	O						
+226	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+226	2	fb:cell.7_490	7,490	7,490	7,490	CD	NUMBER	7490.0	7490.0				
+226	3	fb:cell.9_254	9,254	9,254	9,254	CD	NUMBER	9254.0	9254.0				
+226	4	fb:cell.null_2											fb:part.null
+226	5	fb:cell.null_2											fb:part.null
+227	0	fb:cell.anina	Anina	anina	Anina	NNP	PERSON						
+227	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+227	2	fb:cell.7_485	7,485	7,485	7,485	CD	NUMBER	7485.0	7485.0				
+227	3	fb:cell.10_594	10,594	10,594	10,594	CD	NUMBER	10594.0	10594.0				
+227	4	fb:cell.null_2											fb:part.null
+227	5	fb:cell.1952	1952*	1952|\\*	1952|\\*	CD|SYM	DATE|O	1952|	1952.0			1952*	fb:part.1952
+228	0	fb:cell.curtici	Curtici	curtici	curticus	NN	MISC						
+228	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+228	2	fb:cell.7_453	7,453	7,453	7,453	CD	NUMBER	7453.0	7453.0				
+228	3	fb:cell.9_762	9,762	9,762	9,762	CD	NUMBER	9762.0	9762.0				
+228	4	fb:cell.null_2											fb:part.null
+228	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+229	0	fb:cell.nadlac	Nădlac	nădlac	nădlac	NN	O						
+229	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+229	2	fb:cell.7_398	7,398	7,398	7,398	CD	NUMBER	7398.0	7398.0				
+229	3	fb:cell.8_422	8,422	8,422	8,422	CD	NUMBER	8422.0	8422.0				
+229	4	fb:cell.null_2											fb:part.null
+229	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+230	0	fb:cell.dumbraveni	Dumbrăveni	dumbrăveni	dumbrăveni	NNS	PERSON						
+230	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+230	2	fb:cell.7_388	7,388	7,388	7,388	CD	NUMBER	7388.0	7388.0				
+230	3	fb:cell.8_812	8,812	8,812	8,812	CD	NUMBER	8812.0	8812.0				
+230	4	fb:cell.null_2											fb:part.null
+230	5	fb:cell.null_2											fb:part.null
+231	0	fb:cell.victoria	Victoria	victoria	Victoria	NNP	LOCATION						
+231	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+231	2	fb:cell.7_386	7,386	7,386	7,386	CD	NUMBER	7386.0	7386.0				
+231	3	fb:cell.9_059	9,059	9,059	9,059	CD	NUMBER	9059.0	9059.0				
+231	4	fb:cell.null_2											fb:part.null
+231	5	fb:cell.1954	1954*	1954|\\*	1954|\\*	CD|SYM	DATE|O	1954|	1954.0			1954*	fb:part.1954
+232	0	fb:cell.amara	Amara	amara	Amara	NNP	PERSON						
+232	1	fb:cell.ialomita	Ialomița	ialomița	ialomița	NN	LOCATION						
+232	2	fb:cell.7_345	7,345	7,345	7,345	CD	NUMBER	7345.0	7345.0				
+232	3	fb:cell.7_627	7,627	7,627	7,627	CD	NUMBER	7627.0	7627.0				
+232	4	fb:cell.null_2											fb:part.null
+232	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+233	0	fb:cell.patarlagele	Pătârlagele	pătârlagele	pătârlagele	NN	O						
+233	1	fb:cell.buzau	Buzău	buzău	Buzău	NNP	MISC						
+233	2	fb:cell.7_304	7,304	7,304	7,304	CD	NUMBER	7304.0	7304.0				
+233	3	fb:cell.8_290	8,290	8,290	8,290	CD	NUMBER	8290.0	8290.0				
+233	4	fb:cell.null_2											fb:part.null
+233	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+234	0	fb:cell.techirghiol	Techirghiol	techirghiol	techirghiol	NN	O						
+234	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+234	2	fb:cell.7_292	7,292	7,292	7,292	CD	NUMBER	7292.0	7292.0				
+234	3	fb:cell.7_388	7,388	7,388	7,388	CD	NUMBER	7388.0	7388.0				
+234	4	fb:cell.null_2											fb:part.null
+234	5	fb:cell.null_2											fb:part.null
+235	0	fb:cell.pogoanele	Pogoanele	pogoanele	pogoanele	NN	O						
+235	1	fb:cell.buzau	Buzău	buzău	Buzău	NNP	MISC						
+235	2	fb:cell.7_275	7,275	7,275	7,275	CD	NUMBER	7275.0	7275.0				
+235	3	fb:cell.7_614	7,614	7,614	7,614	CD	NUMBER	7614.0	7614.0				
+235	4	fb:cell.null_2											fb:part.null
+235	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+236	0	fb:cell.ulmeni	Ulmeni	ulmeni	Ulmeni	NNP	LOCATION						
+236	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+236	2	fb:cell.7_270	7,270	7,270	7,270	CD	NUMBER	7270.0	7270.0				
+236	3	fb:cell.7_153	7,153	7,153	7,153	CD	NUMBER	7153.0	7153.0				
+236	4	fb:cell.null_2											fb:part.null
+236	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+237	0	fb:cell.campeni	Câmpeni	câmpeni	câmpeni	NNS	PERSON						
+237	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+237	2	fb:cell.7_221	7,221	7,221	7,221	CD	NUMBER	7221.0	7221.0				
+237	3	fb:cell.8_587	8,587	8,587	8,587	CD	NUMBER	8587.0	8587.0				
+237	4	fb:cell.null_2											fb:part.null
+237	5	fb:cell.1961	1961*	1961|\\*	1961|\\*	CD|SYM	DATE|O	1961|	1961.0			1961*	fb:part.1961
+238	0	fb:cell.cehu_silvaniei	Cehu Silvaniei	cehu|silvaniei	Cehu|Silvaniei	NNP|NNP	PERSON|PERSON	|					
+238	1	fb:cell.salaj	Sălaj	sălaj	sălaj	NN	O						
+238	2	fb:cell.7_214	7,214	7,214	7,214	CD	NUMBER	7214.0	7214.0				
+238	3	fb:cell.8_468	8,468	8,468	8,468	CD	NUMBER	8468.0	8468.0				
+238	4	fb:cell.null_2											fb:part.null
+238	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+239	0	fb:cell.tautii_magheraus	Tăuții-Măgherăuș	tăuții|măgherăuș	Tăuții|Măgherăuș	NNP|NNP	O|O	|					
+239	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+239	2	fb:cell.7_136	7,136	7,136	7,136	CD	NUMBER	7136.0	7136.0				
+239	3	fb:cell.6_713	6,713	6,713	6,713	CD	NUMBER	6713.0	6713.0				
+239	4	fb:cell.null_2											fb:part.null
+239	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+240	0	fb:cell.murgeni	Murgeni	murgeni	murgenus	NNS	PERSON						
+240	1	fb:cell.vaslui	Vaslui	vaslui	Vaslui	NNP	LOCATION						
+240	2	fb:cell.7_119	7,119	7,119	7,119	CD	NUMBER	7119.0	7119.0				
+240	3	fb:cell.7_674	7,674	7,674	7,674	CD	NUMBER	7674.0	7674.0				
+240	4	fb:cell.null_2											fb:part.null
+240	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+241	0	fb:cell.tismana	Tismana	tismana	Tismana	NNP	O						
+241	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+241	2	fb:cell.7_035	7,035	7,035	7,035	CD	NUMBER	7035.0	7035.0				
+241	3	fb:cell.7_894	7,894	7,894	7,894	CD	NUMBER	7894.0	7894.0				
+241	4	fb:cell.null_2											fb:part.null
+241	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+242	0	fb:cell.buzias	Buziaș	buziaș	Buziaș	NNP	MISC						
+242	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+242	2	fb:cell.7_023	7,023	7,023	7,023	CD	NUMBER	7023.0	7023.0				
+242	3	fb:cell.8_128	8,128	8,128	8,128	CD	NUMBER	8128.0	8128.0				
+242	4	fb:cell.null_2											fb:part.null
+242	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+243	0	fb:cell.segarcea	Segarcea	segarcea	segarcea	NN	O						
+243	1	fb:cell.dolj	Dolj	dolj	dolj	NN	O						
+243	2	fb:cell.7_019	7,019	7,019	7,019	CD	NUMBER	7019.0	7019.0				
+243	3	fb:cell.8_704	8,704	8,704	8,704	CD	NUMBER	8704.0	8704.0				
+243	4	fb:cell.null_2											fb:part.null
+243	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+244	0	fb:cell.saveni	Săveni	săveni	săveni	FW	LOCATION						
+244	1	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+244	2	fb:cell.6_999	6,999	6,999	6,999	CD	NUMBER	6999.0	6999.0				
+244	3	fb:cell.8_685	8,685	8,685	8,685	CD	NUMBER	8685.0	8685.0				
+244	4	fb:cell.null_2											fb:part.null
+244	5	fb:cell.1920_1968	1920*/1968*	1920|\\*|\\/|1968|\\*	1920|\\*|\\/|1968|\\*	CD|SYM|:|CD|SYM	DATE|O|O|DATE|O	1920|||1968|	1920.0		1968.0	1920*|1968*	fb:part.1920|fb:part.1968
+245	0	fb:cell.pancota	Pâncota	pâncota	pâncota	NN	LOCATION						
+245	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+245	2	fb:cell.6_946	6,946	6,946	6,946	CD	NUMBER	6946.0	6946.0				
+245	3	fb:cell.7_418	7,418	7,418	7,418	CD	NUMBER	7418.0	7418.0				
+245	4	fb:cell.null_2											fb:part.null
+245	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+246	0	fb:cell.ungheni	Ungheni	ungheni	Ungheni	NNP	LOCATION						
+246	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+246	2	fb:cell.6_945	6,945	6,945	6,945	CD	NUMBER	6945.0	6945.0				
+246	3	fb:cell.6_554	6,554	6,554	6,554	CD	NUMBER	6554.0	6554.0				
+246	4	fb:cell.null_2											fb:part.null
+246	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+247	0	fb:cell.sarmasu	Sărmașu	sărmașu	sărmașu	FW	PERSON						
+247	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+247	2	fb:cell.6_942	6,942	6,942	6,942	CD	NUMBER	6942.0	6942.0				
+247	3	fb:cell.7_493	7,493	7,493	7,493	CD	NUMBER	7493.0	7493.0				
+247	4	fb:cell.null_2											fb:part.null
+247	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+248	0	fb:cell.racari	Răcari	răcari	Răcari	NNP	PERSON						
+248	1	fb:cell.dambovita	Dâmbovița	dâmbovița	dâmbovița	NN	PERSON						
+248	2	fb:cell.6_930	6,930	6,930	6,930	CD	NUMBER	6930.0	6930.0				
+248	3	fb:cell.6_892	6,892	6,892	6,892	CD	NUMBER	6892.0	6892.0				
+248	4	fb:cell.null_2											fb:part.null
+248	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+249	0	fb:cell.talmaciu	Tălmaciu	tălmaciu	tălmaciu	FW	O						
+249	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+249	2	fb:cell.6_905	6,905	6,905	6,905	CD	NUMBER	6905.0	6905.0				
+249	3	fb:cell.9_147	9,147	9,147	9,147	CD	NUMBER	9147.0	9147.0				
+249	4	fb:cell.null_2											fb:part.null
+249	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+250	0	fb:cell.cajvana	Cajvana	cajvana	Cajvana	NNP	O						
+250	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+250	2	fb:cell.6_901	6,901	6,901	6,901	CD	NUMBER	6901.0	6901.0				
+250	3	fb:cell.7_263	7,263	7,263	7,263	CD	NUMBER	7263.0	7263.0				
+250	4	fb:cell.null_2											fb:part.null
+250	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+251	0	fb:cell.vlahita	Vlăhița	vlăhița	Vlăhița	NNP	PERSON						
+251	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+251	2	fb:cell.6_898	6,898	6,898	6,898	CD	NUMBER	6898.0	6898.0				
+251	3	fb:cell.7_392	7,392	7,392	7,392	CD	NUMBER	7392.0	7392.0				
+251	4	fb:cell.null_2											fb:part.null
+251	5	fb:cell.null_2											fb:part.null
+252	0	fb:cell.fundulea	Fundulea	fundulea	fundulea	NN	PERSON						
+252	1	fb:cell.calarasi	Călărași	călărași	Călărași	NNP	PERSON						
+252	2	fb:cell.6_851	6,851	6,851	6,851	CD	NUMBER	6851.0	6851.0				
+252	3	fb:cell.6_217	6,217	6,217	6,217	CD	NUMBER	6217.0	6217.0				
+252	4	fb:cell.null_2											fb:part.null
+252	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+253	0	fb:cell.livada	Livada	livada	Livada	NNP	PERSON						
+253	1	fb:cell.satu_mare	Satu Mare	satu|mare	Satu|Mare	NNP|NNP	O|O	|					
+253	2	fb:cell.6_773	6,773	6,773	6,773	CD	NUMBER	6773.0	6773.0				
+253	3	fb:cell.7_004	7,004	7,004	7,004	CD	NUMBER	7004.0	7004.0				
+253	4	fb:cell.null_2											fb:part.null
+253	5	fb:cell.2006	2006*	2006|\\*	2006|\\*	CD|SYM	DATE|O	2006|	2006.0			2006*	fb:part.2006
+254	0	fb:cell.faget	Făget	făget	Făget	NNP	O						
+254	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+254	2	fb:cell.6_761	6,761	6,761	6,761	CD	NUMBER	6761.0	6761.0				
+254	3	fb:cell.7_519	7,519	7,519	7,519	CD	NUMBER	7519.0	7519.0				
+254	4	fb:cell.null_2											fb:part.null
+254	5	fb:cell.1994	1994*	1994|\\*	1994|\\*	CD|SYM	DATE|O	1994|	1994.0			1994*	fb:part.1994
+255	0	fb:cell.teius	Teiuș	teiuș	teiuș	NN	O						
+255	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+255	2	fb:cell.6_695	6,695	6,695	6,695	CD	NUMBER	6695.0	6695.0				
+255	3	fb:cell.7_338	7,338	7,338	7,338	CD	NUMBER	7338.0	7338.0				
+255	4	fb:cell.null_2											fb:part.null
+255	5	fb:cell.1994	1994*	1994|\\*	1994|\\*	CD|SYM	DATE|O	1994|	1994.0			1994*	fb:part.1994
+256	0	fb:cell.bicaz	Bicaz	bicaz	Bicaz	NNP	PERSON						
+256	1	fb:cell.neamt	Neamț	neamț	Neamț	NNP	O						
+256	2	fb:cell.6_543	6,543	6,543	6,543	CD	NUMBER	6543.0	6543.0				
+256	3	fb:cell.8_911	8,911	8,911	8,911	CD	NUMBER	8911.0	8911.0				
+256	4	fb:cell.null_2											fb:part.null
+256	5	fb:cell.1960	1960*	1960|\\*	1960|\\*	CD|SYM	DATE|O	1960|	1960.0			1960*	fb:part.1960
+257	0	fb:cell.stei	Ștei	ștei	ștei	NN	O						
+257	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+257	2	fb:cell.6_529	6,529	6,529	6,529	CD	NUMBER	6529.0	6529.0				
+257	3	fb:cell.9_466	9,466	9,466	9,466	CD	NUMBER	9466.0	9466.0				
+257	4	fb:cell.null_2											fb:part.null
+257	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+258	0	fb:cell.insuratei	Însurăței	însurăței	Însurăței	NNP	O						
+258	1	fb:cell.braila	Brăila	brăila	Brăila	NNP	LOCATION						
+258	2	fb:cell.6_528	6,528	6,528	6,528	CD	NUMBER	6528.0	6528.0				
+258	3	fb:cell.7_501	7,501	7,501	7,501	CD	NUMBER	7501.0	7501.0				
+258	4	fb:cell.null_2											fb:part.null
+258	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+259	0	fb:cell.lehliu_gara	Lehliu Gară	lehliu|gară	Lehliu|Gară	NNP|NNP	PERSON|PERSON	|					
+259	1	fb:cell.calarasi	Călărași	călărași	Călărași	NNP	PERSON						
+259	2	fb:cell.6_502	6,502	6,502	6,502	CD	NUMBER	6502.0	6502.0				
+259	3	fb:cell.6_667	6,667	6,667	6,667	CD	NUMBER	6667.0	6667.0				
+259	4	fb:cell.null_2											fb:part.null
+259	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+260	0	fb:cell.targu_bujor	Târgu Bujor	târgu|bujor	Târgu|Bujor	NNP|NNP	MISC|MISC	|					
+260	1	fb:cell.galati	Galați	galați	Galați	NNP	PERSON						
+260	2	fb:cell.6_299	6,299	6,299	6,299	CD	NUMBER	6299.0	6299.0				
+260	3	fb:cell.8_044	8,044	8,044	8,044	CD	NUMBER	8044.0	8044.0				
+260	4	fb:cell.null_2											fb:part.null
+260	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+261	0	fb:cell.piatra_olt	Piatra-Olt	piatra|olt	Piatra|Olt	NNP|NNP	O|O	|					
+261	1	fb:cell.olt	Olt	olt	olt	NN	O						
+261	2	fb:cell.6_299	6,299	6,299	6,299	CD	NUMBER	6299.0	6299.0				
+261	3	fb:cell.6_583	6,583	6,583	6,583	CD	NUMBER	6583.0	6583.0				
+261	4	fb:cell.null_2											fb:part.null
+261	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+262	0	fb:cell.horezu	Horezu	horezu	horezu	FW	PERSON						
+262	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+262	2	fb:cell.6_263	6,263	6,263	6,263	CD	NUMBER	6263.0	6263.0				
+262	3	fb:cell.7_446	7,446	7,446	7,446	CD	NUMBER	7446.0	7446.0				
+262	4	fb:cell.null_2											fb:part.null
+262	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+263	0	fb:cell.deta	Deta	deta	deta	NN	PERSON						
+263	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+263	2	fb:cell.6_260	6,260	6,260	6,260	CD	NUMBER	6260.0	6260.0				
+263	3	fb:cell.6_423	6,423	6,423	6,423	CD	NUMBER	6423.0	6423.0				
+263	4	fb:cell.null_2											fb:part.null
+263	5	fb:cell.1810_1968	1810*/1968*	1810|\\*|\\/|1968|\\*	1810|\\*|\\/|1968|\\*	CD|SYM|:|CD|SYM	DATE|O|O|DATE|O	1810|||1968|	1810.0		1968.0	1810*|1968*	fb:part.1810|fb:part.1968
+264	0	fb:cell.ardud	Ardud	ardud	ardud	NN	O						
+264	1	fb:cell.satu_mare	Satu Mare	satu|mare	Satu|Mare	NNP|NNP	O|O	|					
+264	2	fb:cell.6_231	6,231	6,231	6,231	CD	NUMBER	6231.0	6231.0				
+264	3	fb:cell.6_486	6,486	6,486	6,486	CD	NUMBER	6486.0	6486.0				
+264	4	fb:cell.null_2											fb:part.null
+264	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+265	0	fb:cell.balan	Bălan	bălan	bălan	JJ	MISC						
+265	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+265	2	fb:cell.6_115	6,115	6,115	6,115	CD	NUMBER	6115.0	6115.0				
+265	3	fb:cell.9_295	9,295	9,295	9,295	CD	NUMBER	9295.0	9295.0				
+265	4	fb:cell.null_2											fb:part.null
+265	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+266	0	fb:cell.slanic	Slănic	slănic	slănic	JJ	MISC						
+266	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+266	2	fb:cell.6_034	6,034	6,034	6,034	CD	NUMBER	6034.0	6034.0				
+266	3	fb:cell.7_249	7,249	7,249	7,249	CD	NUMBER	7249.0	7249.0				
+266	4	fb:cell.null_2											fb:part.null
+266	5	fb:cell.1892	1892*	1892|\\*	1892|\\*	CD|SYM	DATE|O	1892|	1892.0			1892*	fb:part.1892
+267	0	fb:cell.brezoi	Brezoi	brezoi	Brezoi	NNP	PERSON						
+267	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+267	2	fb:cell.6_022	6,022	6,022	6,022	CD	NUMBER	6022.0	6022.0				
+267	3	fb:cell.7_589	7,589	7,589	7,589	CD	NUMBER	7589.0	7589.0				
+267	4	fb:cell.null_2											fb:part.null
+267	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+268	0	fb:cell.sebis	Sebiș	sebiș	sebiș	NN	O						
+268	1	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+268	2	fb:cell.5_979	5,979	5,979	5,979	CD	NUMBER	5979.0	5979.0				
+268	3	fb:cell.6_829	6,829	6,829	6,829	CD	NUMBER	6829.0	6829.0				
+268	4	fb:cell.null_2											fb:part.null
+268	5	fb:cell.null_2											fb:part.null
+269	0	fb:cell.frasin	Frasin	frasin	frasin	NN	O						
+269	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+269	2	fb:cell.5_876	5,876	5,876	5,876	CD	NUMBER	5876.0	5876.0				
+269	3	fb:cell.6_532	6,532	6,532	6,532	CD	NUMBER	6532.0	6532.0				
+269	4	fb:cell.null_2											fb:part.null
+269	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+270	0	fb:cell.gataia	Gătaia	gătaia	Gătaia	NNP	LOCATION						
+270	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+270	2	fb:cell.5_861	5,861	5,861	5,861	CD	NUMBER	5861.0	5861.0				
+270	3	fb:cell.8_103	8,103	8,103	8,103	CD	NUMBER	8103.0	8103.0				
+270	4	fb:cell.null_2											fb:part.null
+270	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+271	0	fb:cell.potcoava	Potcoava	potcoava	potcoava	NN	O						
+271	1	fb:cell.olt	Olt	olt	olt	NN	O						
+271	2	fb:cell.5_743	5,743	5,743	5,743	CD	NUMBER	5743.0	5743.0				
+271	3	fb:cell.6_111	6,111	6,111	6,111	CD	NUMBER	6111.0	6111.0				
+271	4	fb:cell.null_2											fb:part.null
+271	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+272	0	fb:cell.miercurea_nirajului	Miercurea Nirajului	miercurea|nirajului	Miercurea|Nirajului	NNP|NNP	PERSON|PERSON	|					
+272	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+272	2	fb:cell.5_554	5,554	5,554	5,554	CD	NUMBER	5554.0	5554.0				
+272	3	fb:cell.5_824	5,824	5,824	5,824	CD	NUMBER	5824.0	5824.0				
+272	4	fb:cell.null_2											fb:part.null
+272	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+273	0	fb:cell.brosteni	Broșteni	broșteni	broșteni	NNS	LOCATION						
+273	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+273	2	fb:cell.5_506	5,506	5,506	5,506	CD	NUMBER	5506.0	5506.0				
+273	3	fb:cell.6_603	6,603	6,603	6,603	CD	NUMBER	6603.0	6603.0				
+273	4	fb:cell.null_2											fb:part.null
+273	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+274	0	fb:cell.novaci	Novaci	novaci	Novaci	NNP	PERSON						
+274	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+274	2	fb:cell.5_431	5,431	5,431	5,431	CD	NUMBER	5431.0	5431.0				
+274	3	fb:cell.6_151	6,151	6,151	6,151	CD	NUMBER	6151.0	6151.0				
+274	4	fb:cell.null_2											fb:part.null
+274	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+275	0	fb:cell.saliste	Săliște	săliște	săliște	NN	O						
+275	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+275	2	fb:cell.5_421	5,421	5,421	5,421	CD	NUMBER	5421.0	5421.0				
+275	3	fb:cell.6_092	6,092	6,092	6,092	CD	NUMBER	6092.0	6092.0				
+275	4	fb:cell.null_2											fb:part.null
+275	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+276	0	fb:cell.copsa_mica	Copșa Mică	copșa|mică	Copșa|Mică	NNP|NNP	O|O	|					
+276	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+276	2	fb:cell.5_404	5,404	5,404	5,404	CD	NUMBER	5404.0	5404.0				
+276	3	fb:cell.5_157	5,157	5,157	5,157	CD	NUMBER	5157.0	5157.0				
+276	4	fb:cell.null_2											fb:part.null
+276	5	fb:cell.1961	1961*	1961|\\*	1961|\\*	CD|SYM	DATE|O	1961|	1961.0			1961*	fb:part.1961
+277	0	fb:cell.baneasa	Băneasa	băneasa	Băneasa	NNP	PERSON						
+277	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+277	2	fb:cell.5_384	5,384	5,384	5,384	CD	NUMBER	5384.0	5384.0				
+277	3	fb:cell.5_538	5,538	5,538	5,538	CD	NUMBER	5538.0	5538.0				
+277	4	fb:cell.null_2											fb:part.null
+277	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+278	0	fb:cell.baia_de_arama	Baia de Aramă	baia|de|aramă	Baia|de|Aramă	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+278	1	fb:cell.mehedinti	Mehedinți	mehedinți	Mehedinți	NNP	PERSON						
+278	2	fb:cell.5_349	5,349	5,349	5,349	CD	NUMBER	5349.0	5349.0				
+278	3	fb:cell.5_724	5,724	5,724	5,724	CD	NUMBER	5724.0	5724.0				
+278	4	fb:cell.null_2											fb:part.null
+278	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+279	0	fb:cell.ciacova	Ciacova	ciacova	ciacova	NN	PERSON						
+279	1	fb:cell.timis	Timiș	timiș	Timiș	NNP	O						
+279	2	fb:cell.5_348	5,348	5,348	5,348	CD	NUMBER	5348.0	5348.0				
+279	3	fb:cell.7_285	7,285	7,285	7,285	CD	NUMBER	7285.0	7285.0				
+279	4	fb:cell.null_2											fb:part.null
+279	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+280	0	fb:cell.stefanesti	Ștefănești	ștefănești	Ștefănești	NNP	O						
+280	1	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+280	2	fb:cell.5_314	5,314	5,314	5,314	CD	NUMBER	5314.0	5314.0				
+280	3	fb:cell.5_628	5,628	5,628	5,628	CD	NUMBER	5628.0	5628.0				
+280	4	fb:cell.null_2											fb:part.null
+280	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+281	0	fb:cell.vanju_mare	Vânju Mare	vânju|mare	Vânju|Mare	NNP|NNP	O|O	|					
+281	1	fb:cell.mehedinti	Mehedinți	mehedinți	Mehedinți	NNP	PERSON						
+281	2	fb:cell.5_311	5,311	5,311	5,311	CD	NUMBER	5311.0	5311.0				
+281	3	fb:cell.7_074	7,074	7,074	7,074	CD	NUMBER	7074.0	7074.0				
+281	4	fb:cell.null_2											fb:part.null
+281	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+282	0	fb:cell.geoagiu	Geoagiu	geoagiu	Geoagiu	NNP	PERSON						
+282	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+282	2	fb:cell.5_294	5,294	5,294	5,294	CD	NUMBER	5294.0	5294.0				
+282	3	fb:cell.6_290	6,290	6,290	6,290	CD	NUMBER	6290.0	6290.0				
+282	4	fb:cell.null_2											fb:part.null
+282	5	fb:cell.2000	2000*	2000|\\*	2000|\\*	CD|SYM	DATE|O	2000|	2000.0			2000*	fb:part.2000
+283	0	fb:cell.rupea	Rupea	rupea	rupea	NN	LOCATION						
+283	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+283	2	fb:cell.5_269	5,269	5,269	5,269	CD	NUMBER	5269.0	5269.0				
+283	3	fb:cell.6_246	6,246	6,246	6,246	CD	NUMBER	6246.0	6246.0				
+283	4	fb:cell.null_2											fb:part.null
+283	5	fb:cell.1951	1951*	1951|\\*	1951|\\*	CD|SYM	DATE|O	1951|	1951.0			1951*	fb:part.1951
+284	0	fb:cell.sangeorgiu_de_padure	Sângeorgiu de Pădure	sângeorgiu|de|pădure	sângeorgiu|de|pădure	FW|FW|FW	O|O|O	||					
+284	1	fb:cell.mures	Mureș	mureș	mureș	NN	PERSON						
+284	2	fb:cell.5_166	5,166	5,166	5,166	CD	NUMBER	5166.0	5166.0				
+284	3	fb:cell.5_492	5,492	5,492	5,492	CD	NUMBER	5492.0	5492.0				
+284	4	fb:cell.null_2											fb:part.null
+284	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+285	0	fb:cell.negru_voda	Negru Vodă	negru|vodă	Negru|Vodă	NNP|NNP	O|O	|					
+285	1	fb:cell.constanta	Constanța	constanța	constanța	NN	O						
+285	2	fb:cell.5_088	5,088	5,088	5,088	CD	NUMBER	5088.0	5088.0				
+285	3	fb:cell.5_529	5,529	5,529	5,529	CD	NUMBER	5529.0	5529.0				
+285	4	fb:cell.null_2											fb:part.null
+285	5	fb:cell.null_2											fb:part.null
+286	0	fb:cell.abrud	Abrud	abrud	abrud	NN	PERSON						
+286	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+286	2	fb:cell.5_072	5,072	5,072	5,072	CD	NUMBER	5072.0	5072.0				
+286	3	fb:cell.6_803	6,803	6,803	6,803	CD	NUMBER	6803.0	6803.0				
+286	4	fb:cell.null_2											fb:part.null
+286	5	fb:cell.null_2											fb:part.null
+287	0	fb:cell.isaccea	Isaccea	isaccea	isaccea	NN	LOCATION						
+287	1	fb:cell.tulcea	Tulcea	tulcea	Tulcea	NNP	LOCATION						
+287	2	fb:cell.5_026	5,026	5,026	5,026	CD	NUMBER	5026.0	5026.0				
+287	3	fb:cell.5_374	5,374	5,374	5,374	CD	NUMBER	5374.0	5374.0				
+287	4	fb:cell.null_2											fb:part.null
+287	5	fb:cell.null_2											fb:part.null
+288	0	fb:cell.baile_herculane	Băile Herculane	băile|herculane	Băile|Herculane	NNP|NNP	O|O	|					
+288	1	fb:cell.caras_severin	Caraș-Severin	caraș|severin	Caraș|Severin	NNP|NNP	PERSON|PERSON	|					
+288	2	fb:cell.5_008	5,008	5,008	5,008	CD	NUMBER	5008.0	5008.0				
+288	3	fb:cell.6_051	6,051	6,051	6,051	CD	NUMBER	6051.0	6051.0				
+288	4	fb:cell.null_2											fb:part.null
+288	5	fb:cell.null_2											fb:part.null
+289	0	fb:cell.milisauti	Milișăuți	milișăuți	Milișăuți	NNP	PERSON						
+289	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+289	2	fb:cell.5_005	5,005	5,005	5,005	CD	NUMBER	5005.0	5005.0				
+289	3	fb:cell.8_433	8,433	8,433	8,433	CD	NUMBER	8433.0	8433.0				
+289	4	fb:cell.null_2											fb:part.null
+289	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+290	0	fb:cell.cavnic	Cavnic	cavnic	cavnic	JJ	MISC						
+290	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+290	2	fb:cell.4_976	4,976	4,976	4,976	CD	NUMBER	4976.0	4976.0				
+290	3	fb:cell.5_494	5,494	5,494	5,494	CD	NUMBER	5494.0	5494.0				
+290	4	fb:cell.null_2											fb:part.null
+290	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+291	0	fb:cell.fierbinti_targ	Fierbinți-Târg	fierbinți|târg	Fierbinți|Târg	NNP|NNP	MISC|MISC	|					
+291	1	fb:cell.ialomita	Ialomița	ialomița	ialomița	NN	LOCATION						
+291	2	fb:cell.4_969	4,969	4,969	4,969	CD	NUMBER	4969.0	4969.0				
+291	3	fb:cell.5_253	5,253	5,253	5,253	CD	NUMBER	5253.0	5253.0				
+291	4	fb:cell.null_2											fb:part.null
+291	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+292	0	fb:cell.salistea_de_sus	Săliștea de Sus	săliștea|de|sus	săliștea|de|sus	FW|FW|FW	O|O|O	||					
+292	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+292	2	fb:cell.4_893	4,893	4,893	4,893	CD	NUMBER	4893.0	4893.0				
+292	3	fb:cell.5_196	5,196	5,196	5,196	CD	NUMBER	5196.0	5196.0				
+292	4	fb:cell.null_2											fb:part.null
+292	5	fb:cell.1365_2004	1365†/2004*	1365|†|\\/|2004|\\*	1365|†|\\/|2004|\\*	CD|CD|:|CD|SYM	DATE|NUMBER|O|DATE|O	1365|||2004|	1365.0		2004.0	1365†|2004*	fb:part.1365|fb:part.2004
+293	0	fb:cell.balcesti	Bălcești	bălcești	Bălcești	NNP	PERSON						
+293	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+293	2	fb:cell.4_864	4,864	4,864	4,864	CD	NUMBER	4864.0	4864.0				
+293	3	fb:cell.5_780	5,780	5,780	5,780	CD	NUMBER	5780.0	5780.0				
+293	4	fb:cell.null_2											fb:part.null
+293	5	fb:cell.2002	2002*	2002|\\*	2002|\\*	CD|SYM	DATE|O	2002|	2002.0			2002*	fb:part.2002
+294	0	fb:cell.berbesti	Berbești	berbești	Berbești	NNP	PERSON						
+294	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+294	2	fb:cell.4_836	4,836	4,836	4,836	CD	NUMBER	4836.0	4836.0				
+294	3	fb:cell.5_704	5,704	5,704	5,704	CD	NUMBER	5704.0	5704.0				
+294	4	fb:cell.null_2											fb:part.null
+294	5	fb:cell.2003	2003*	2003|\\*	2003|\\*	CD|SYM	DATE|O	2003|	2003.0			2003*	fb:part.2003
+295	0	fb:cell.predeal	Predeal	predeal	predeal	NN	O						
+295	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+295	2	fb:cell.4_755	4,755	4,755	4,755	CD	NUMBER	4755.0	4755.0				
+295	3	fb:cell.5_615	5,615	5,615	5,615	CD	NUMBER	5615.0	5615.0				
+295	4	fb:cell.1030	1030	1030	1030	CD	DATE	1030	1030.0	1030-xx-xx			
+295	5	fb:cell.1935	1935*	1935|\\*	1935|\\*	CD|SYM	DATE|O	1935|	1935.0			1935*	fb:part.1935
+296	0	fb:cell.ghimbav	Ghimbav	ghimbav	Ghimbav	NNP	O						
+296	1	fb:cell.brasov	Brașov	brașov	Brașov	NNP	PERSON						
+296	2	fb:cell.4_698	4,698	4,698	4,698	CD	NUMBER	4698.0	4698.0				
+296	3	fb:cell.5_112	5,112	5,112	5,112	CD	NUMBER	5112.0	5112.0				
+296	4	fb:cell.null_2											fb:part.null
+296	5	fb:cell.2002	2002*	2002|\\*	2002|\\*	CD|SYM	DATE|O	2002|	2002.0			2002*	fb:part.2002
+297	0	fb:cell.azuga	Azuga	azuga	azuga	NN	PERSON						
+297	1	fb:cell.prahova	Prahova	prahova	prahova	NN	PERSON						
+297	2	fb:cell.4_440	4,440	4,440	4,440	CD	NUMBER	4440.0	4440.0				
+297	3	fb:cell.6_119	6,119	6,119	6,119	CD	NUMBER	6119.0	6119.0				
+297	4	fb:cell.null_2											fb:part.null
+297	5	fb:cell.1948	1948*	1948|\\*	1948|\\*	CD|SYM	DATE|O	1948|	1948.0			1948*	fb:part.1948
+298	0	fb:cell.ticleni	Țicleni	țicleni	țicleni	NNS	O						
+298	1	fb:cell.gorj	Gorj	gorj	Gorj	NNP	LOCATION						
+298	2	fb:cell.4_414	4,414	4,414	4,414	CD	NUMBER	4414.0	4414.0				
+298	3	fb:cell.5_205	5,205	5,205	5,205	CD	NUMBER	5205.0	5205.0				
+298	4	fb:cell.null_2											fb:part.null
+298	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+299	0	fb:cell.aninoasa	Aninoasa	aninoasa	Aninoasa	NNP	PERSON						
+299	1	fb:cell.hunedoara	Hunedoara	hunedoara	Hunedoara	NNP	LOCATION						
+299	2	fb:cell.4_360	4,360	4,360	4,360	CD	NUMBER	4360.0	4360.0				
+299	3	fb:cell.6_108	6,108	6,108	6,108	CD	NUMBER	6108.0	6108.0				
+299	4	fb:cell.null_2											fb:part.null
+299	5	fb:cell.1989	1989*	1989|\\*	1989|\\*	CD|SYM	DATE|O	1989|	1989.0			1989*	fb:part.1989
+300	0	fb:cell.bucecea	Bucecea	bucecea	Bucecea	NNP	LOCATION						
+300	1	fb:cell.botosani	Botoșani	botoșani	botoșani	NNS	PERSON						
+300	2	fb:cell.4_274	4,274	4,274	4,274	CD	NUMBER	4274.0	4274.0				
+300	3	fb:cell.5_128	5,128	5,128	5,128	CD	NUMBER	5128.0	5128.0				
+300	4	fb:cell.null_2											fb:part.null
+300	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+301	0	fb:cell.slanic_moldova	Slănic Moldova	slănic|moldova	slănic|moldova	JJ|NN	O|LOCATION	|					
+301	1	fb:cell.bacau	Bacău	bacău	bacău	NN	PERSON						
+301	2	fb:cell.4_198	4,198	4,198	4,198	CD	NUMBER	4198.0	4198.0				
+301	3	fb:cell.5_375	5,375	5,375	5,375	CD	NUMBER	5375.0	5375.0				
+301	4	fb:cell.null_2											fb:part.null
+301	5	fb:cell.null_2											fb:part.null
+302	0	fb:cell.baile_olanesti	Băile Olănești	băile|olănești	Băile|Olănești	NNP|NNP	O|O	|					
+302	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+302	2	fb:cell.4_186	4,186	4,186	4,186	CD	NUMBER	4186.0	4186.0				
+302	3	fb:cell.4_814	4,814	4,814	4,814	CD	NUMBER	4814.0	4814.0				
+302	4	fb:cell.null_2											fb:part.null
+302	5	fb:cell.null_2											fb:part.null
+303	0	fb:cell.miercurea_sibiului	Miercurea Sibiului	miercurea|sibiului	Miercurea|Sibiului	NNP|NNP	PERSON|PERSON	|					
+303	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+303	2	fb:cell.3_910	3,910	3,910	3,910	CD	NUMBER	3910.0	3910.0				
+303	3	fb:cell.4_063	4,063	4,063	4,063	CD	NUMBER	4063.0	4063.0				
+303	4	fb:cell.null_2											fb:part.null
+303	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+304	0	fb:cell.sulina	Sulina	sulina	Sulina	NNP	LOCATION						
+304	1	fb:cell.tulcea	Tulcea	tulcea	Tulcea	NNP	LOCATION						
+304	2	fb:cell.3_663	3,663	3,663	3,663	CD	NUMBER	3663.0	3663.0				
+304	3	fb:cell.5_140	5,140	5,140	5,140	CD	NUMBER	5140.0	5140.0				
+304	4	fb:cell.null_2											fb:part.null
+304	5	fb:cell.null_2											fb:part.null
+305	0	fb:cell.bechet	Bechet	bechet	Bechet	NNP	PERSON						
+305	1	fb:cell.dolj	Dolj	dolj	dolj	NN	O						
+305	2	fb:cell.3_657	3,657	3,657	3,657	CD	NUMBER	3657.0	3657.0				
+305	3	fb:cell.3_864	3,864	3,864	3,864	CD	NUMBER	3864.0	3864.0				
+305	4	fb:cell.null_2											fb:part.null
+305	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+306	0	fb:cell.faurei	Făurei	făurei	făurei	FW	O						
+306	1	fb:cell.braila	Brăila	brăila	Brăila	NNP	LOCATION						
+306	2	fb:cell.3_592	3,592	3,592	3,592	CD	NUMBER	3592.0	3592.0				
+306	3	fb:cell.4_626	4,626	4,626	4,626	CD	NUMBER	4626.0	4626.0				
+306	4	fb:cell.null_2											fb:part.null
+306	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+307	0	fb:cell.ocna_sibiului	Ocna Sibiului	ocna|sibiului	Ocna|Sibiului	NNP|NNP	PERSON|PERSON	|					
+307	1	fb:cell.sibiu	Sibiu	sibiu	Sibiu	NNP	LOCATION						
+307	2	fb:cell.3_562	3,562	3,562	3,562	CD	NUMBER	3562.0	3562.0				
+307	3	fb:cell.4_184	4,184	4,184	4,184	CD	NUMBER	4184.0	4184.0				
+307	4	fb:cell.null_2											fb:part.null
+307	5	fb:cell.null_2											fb:part.null
+308	0	fb:cell.baia_de_aries	Baia de Arieș	baia|de|arieș	Baia|de|Arieș	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+308	1	fb:cell.alba	Alba	alba	Alba	NNP	PERSON						
+308	2	fb:cell.3_461	3,461	3,461	3,461	CD	NUMBER	3461.0	3461.0				
+308	3	fb:cell.4_877	4,877	4,877	4,877	CD	NUMBER	4877.0	4877.0				
+308	4	fb:cell.null_2											fb:part.null
+308	5	fb:cell.1998	1998*	1998|\\*	1998|\\*	CD|SYM	DATE|O	1998|	1998.0			1998*	fb:part.1998
+309	0	fb:cell.ocnele_mari	Ocnele Mari	ocnele|mari	Ocnele|Mari	NNP|NNP	PERSON|PERSON	|					
+309	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+309	2	fb:cell.3_309	3,309	3,309	3,309	CD	NUMBER	3309.0	3309.0				
+309	3	fb:cell.3_591	3,591	3,591	3,591	CD	NUMBER	3591.0	3591.0				
+309	4	fb:cell.null_2											fb:part.null
+309	5	fb:cell.1960	1960*	1960|\\*	1960|\\*	CD|SYM	DATE|O	1960|	1960.0			1960*	fb:part.1960
+310	0	fb:cell.cazanesti	Căzănești	căzănești	Căzănești	NNP	O						
+310	1	fb:cell.ialomita	Ialomița	ialomița	ialomița	NN	LOCATION						
+310	2	fb:cell.3_271	3,271	3,271	3,271	CD	NUMBER	3271.0	3271.0				
+310	3	fb:cell.3_641	3,641	3,641	3,641	CD	NUMBER	3641.0	3641.0				
+310	4	fb:cell.null_2											fb:part.null
+310	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+311	0	fb:cell.dragomiresti	Dragomirești	dragomirești	Dragomirești	NNP	PERSON						
+311	1	fb:cell.maramures	Maramureș	maramureș	Maramureș	NNP	O						
+311	2	fb:cell.3_213	3,213	3,213	3,213	CD	NUMBER	3213.0	3213.0				
+311	3	fb:cell.3_132	3,132	3,132	3,132	CD	NUMBER	3132.0	3132.0				
+311	4	fb:cell.null_2											fb:part.null
+311	5	fb:cell.2004	2004*	2004|\\*	2004|\\*	CD|SYM	DATE|O	2004|	2004.0			2004*	fb:part.2004
+312	0	fb:cell.beresti	Berești	berești	Berești	NNP	PERSON						
+312	1	fb:cell.galati	Galați	galați	Galați	NNP	PERSON						
+312	2	fb:cell.2_916	2,916	2,916	2,916	CD	NUMBER	2916.0	2916.0				
+312	3	fb:cell.3_926	3,926	3,926	3,926	CD	NUMBER	3926.0	3926.0				
+312	4	fb:cell.null_2											fb:part.null
+312	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968
+313	0	fb:cell.borsec	Borsec	borsec	Borsec	NNP	O						
+313	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+313	2	fb:cell.2_585	2,585	2,585	2,585	CD	NUMBER	2585.0	2585.0				
+313	3	fb:cell.3_109	3,109	3,109	3,109	CD	NUMBER	3109.0	3109.0				
+313	4	fb:cell.null_2											fb:part.null
+313	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+314	0	fb:cell.baile_govora	Băile Govora	băile|govora	Băile|Govora	NNP|NNP	O|O	|					
+314	1	fb:cell.valcea	Vâlcea	vâlcea	Vâlcea	NNP	LOCATION						
+314	2	fb:cell.2_449	2,449	2,449	2,449	CD	NUMBER	2449.0	2449.0				
+314	3	fb:cell.3_147	3,147	3,147	3,147	CD	NUMBER	3147.0	3147.0				
+314	4	fb:cell.null_2											fb:part.null
+314	5	fb:cell.1927	1927*	1927|\\*	1927|\\*	CD|SYM	DATE|O	1927|	1927.0			1927*	fb:part.1927
+315	0	fb:cell.vascau	Vașcău	vașcău	vașcău	FW	PERSON						
+315	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+315	2	fb:cell.2_315	2,315	2,315	2,315	CD	NUMBER	2315.0	2315.0				
+315	3	fb:cell.3_032	3,032	3,032	3,032	CD	NUMBER	3032.0	3032.0				
+315	4	fb:cell.null_2											fb:part.null
+315	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+316	0	fb:cell.solca	Solca	solca	solca	NN	LOCATION						
+316	1	fb:cell.suceava	Suceava	suceava	Suceava	NNP	LOCATION						
+316	2	fb:cell.2_188	2,188	2,188	2,188	CD	NUMBER	2188.0	2188.0				
+316	3	fb:cell.4_687	4,687	4,687	4,687	CD	NUMBER	4687.0	4687.0				
+316	4	fb:cell.null_2											fb:part.null
+316	5	fb:cell.1926	1926*	1926|\\*	1926|\\*	CD|SYM	DATE|O	1926|	1926.0			1926*	fb:part.1926
+317	0	fb:cell.nucet	Nucet	nucet	Nucet	NNP	O						
+317	1	fb:cell.bihor	Bihor	bihor	Bihor	NNP	LOCATION						
+317	2	fb:cell.2_165	2,165	2,165	2,165	CD	NUMBER	2165.0	2165.0				
+317	3	fb:cell.2_851	2,851	2,851	2,851	CD	NUMBER	2851.0	2851.0				
+317	4	fb:cell.null_2											fb:part.null
+317	5	fb:cell.1956	1956*	1956|\\*	1956|\\*	CD|SYM	DATE|O	1956|	1956.0			1956*	fb:part.1956
+318	0	fb:cell.baile_tusnad	Băile Tușnad	băile|tușnad	Băile|Tușnad	NNP|NNP	O|O	|					
+318	1	fb:cell.harghita	Harghita	harghita	Harghita	NNP	LOCATION						
+318	2	fb:cell.1_641	1,641	1,641	1,641	CD	NUMBER	1641.0	1641.0				
+318	3	fb:cell.1_802	1,802	1,802	1,802	CD	NUMBER	1802.0	1802.0				
+318	4	fb:cell.null_2											fb:part.null
+318	5	fb:cell.1968	1968*	1968|\\*	1968|\\*	CD|SYM	DATE|O	1968|	1968.0			1968*	fb:part.1968

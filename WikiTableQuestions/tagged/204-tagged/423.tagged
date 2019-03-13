@@ -1,0 +1,97 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.city	City	city	City	NNP	O						
+-1	3	fb:row.row.listing_date	Listing date	listing|date	listing|date	NN|NN	O|O	|					
+0	0	fb:cell.branch_county_courthouse_informational_site	Branch County Courthouse Informational Site	branch|county|courthouse|informational|site	Branch|County|courthouse|informational|site	NNP|NNP|NN|JJ|NN	O|O|O|O|O	||||					
+0	1	fb:cell.31_division_street	31 Division Street	31|division|street	31|Division|Street	CD|NNP|NNP	NUMBER|O|O	31.0||	31.0			31 Division Street	fb:part.31_division_street
+0	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+0	3	fb:cell.march_16_1989	March 16, 1989	march|16|,|1989	March|16|,|1989	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1989-03-16|1989-03-16|1989-03-16|1989-03-16	161989.0	1989-03-16		March 16|1989	fb:part.march_16|fb:part.1989
+1	0	fb:cell.bronson_public_library	Bronson Public Library	bronson|public|library	Bronson|Public|Library	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+1	1	fb:cell.207_matteson_street	207 Matteson Street	207|matteson|street	207|Matteson|Street	CD|NNP|NNP	NUMBER|LOCATION|LOCATION	207.0||	207.0			207 Matteson Street	fb:part.207_matteson_street
+1	2	fb:cell.bronson	Bronson	bronson	Bronson	NNP	PERSON						
+1	3	fb:cell.september_28_2000	September 28, 2000	september|28|,|2000	September|28|,|2000	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2000-09-28|2000-09-28|2000-09-28|2000-09-28	282000.0	2000-09-28		September 28|2000	fb:part.september_28|fb:part.2000
+2	0	fb:cell.chicago_road_informational_designation	Chicago Road Informational Designation	chicago|road|informational|designation	Chicago|Road|Informational|designation	NNP|NNP|NNP|NN	LOCATION|O|O|O	|||					
+2	1	fb:cell.us_12_and_prairie_river_road_park_1_5_miles_west_of_bronson	US-12 and Prairie River Road (Park 1.5 miles west of Bronson)	us-12|and|prairie|river|road|-lrb-|park|1.5|miles|west|of|bronson|-rrb-	us-12|and|Prairie|River|Road|-lrb-|Park|1.5|mile|west|of|Bronson|-rrb-	NN|CC|NNP|NNP|NNP|-LRB-|NNP|CD|NNS|RB|IN|NNP|-RRB-	O|O|LOCATION|LOCATION|LOCATION|O|O|NUMBER|O|O|O|LOCATION|O	|||||||1.5|||||	12.0		1.5	US-12 and Prairie River Road (Park 1.5 miles west of Bronson)	fb:part.us_12_and_prairie_river_road_park_1_5_miles_west_of_bronson
+2	2	fb:cell.bronson_township	Bronson Township	bronson|township	Bronson|Township	NNP|NNP	LOCATION|LOCATION	|					
+2	3	fb:cell.september_17_1957	September 17, 1957	september|17|,|1957	September|17|,|1957	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1957-09-17|1957-09-17|1957-09-17|1957-09-17	171957.0	1957-09-17		September 17|1957	fb:part.september_17|fb:part.1957
+3	0	fb:cell.city_of_coldwater_informational_designation	City of Coldwater Informational Designation	city|of|coldwater|informational|designation	City|of|Coldwater|Informational|designation	NNP|IN|NNP|NNP|NN	O|O|O|O|O	||||					
+3	1	fb:cell.city_park_at_intersection_of_us_12_and_us_27	City Park at intersection of US-12 and US-27	city|park|at|intersection|of|us-12|and|us-27	City|Park|at|intersection|of|us-12|and|us-27	NNP|NNP|IN|NN|IN|NN|CC|NN	O|O|O|O|O|O|O|O	|||||||	12.0		27.0	City Park at intersection of US-12 and US-27	fb:part.city_park_at_intersection_of_us_12_and_us_27
+3	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+3	3	fb:cell.april_14_1961	April 14, 1961	april|14|,|1961	April|14|,|1961	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1961-04-14|1961-04-14|1961-04-14|1961-04-14	141961.0	1961-04-14		April 14|1961	fb:part.april_14|fb:part.1961
+4	0	fb:cell.edwin_r_clarke_library_michigan_library_association	Edwin R. Clarke Library (Michigan Library Association)	edwin|r.|clarke|library|-lrb-|michigan|library|association|-rrb-	Edwin|R.|Clarke|Library|-lrb-|Michigan|Library|Association|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|PERSON|PERSON|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||||||					
+4	1	fb:cell.12_east_chicago_street_between_division_and_hudson_streets	12 East Chicago Street, between Division and Hudson streets	12|east|chicago|street|,|between|division|and|hudson|streets	12|East|Chicago|Street|,|between|Division|and|Hudson|street	CD|NNP|NNP|NNP|,|IN|NNP|CC|NNP|NNS	NUMBER|O|O|O|O|O|O|O|LOCATION|O	12.0|||||||||	12.0			12 East Chicago Street|between Division and Hudson streets	fb:part.12_east_chicago_street|fb:part.between_division_and_hudson_streets
+4	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+4	3	fb:cell.march_9_1966	March 9, 1966	march|9|,|1966	March|9|,|1966	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1966-03-09|1966-03-09|1966-03-09|1966-03-09	91966.0	1966-03-09		March 9|1966	fb:part.march_9|fb:part.1966
+5	0	fb:cell.dr_hawley_harvey_crippen_home_site_informational_designation	Dr. Hawley Harvey Crippen Home Site Informational Designation	dr.|hawley|harvey|crippen|home|site|informational|designation	Dr.|Hawley|Harvey|Crippen|Home|site|Informational|Designation	NNP|NNP|NNP|NNP|NNP|NN|NNP|NNP	O|PERSON|PERSON|PERSON|O|O|O|O	|||||||					
+5	1	fb:cell.66_north_monroe_street	66 North Monroe Street	66|north|monroe|street	66|north|Monroe|Street	CD|JJ|NNP|NNP	NUMBER|O|O|O	66.0|||	66.0			66 North Monroe Street	fb:part.66_north_monroe_street
+5	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+5	3	fb:cell.august_21_1987	August 21, 1987	august|21|,|1987	August|21|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-08-21|1987-08-21|1987-08-21|1987-08-21	211987.0	1987-08-21		August 21|1987	fb:part.august_21|fb:part.1987
+6	0	fb:cell.east_chicago_street_historic_district	East Chicago Street Historic District†	east|chicago|street|historic|district|†	East|Chicago|Street|Historic|District|†	NNP|NNP|NNP|NNP|NNP|NN	O|O|O|O|O|O	|||||					
+6	1	fb:cell.chicago_street_from_wright_to_division_streets_including_the_four_parks_at_division	Chicago Street from Wright to Division streets, including the four parks at Division	chicago|street|from|wright|to|division|streets|,|including|the|four|parks|at|division	Chicago|Street|from|Wright|to|Division|street|,|include|the|four|park|at|Division	NNP|NNP|IN|NNP|TO|NNP|NNS|,|VBG|DT|CD|NNS|IN|NNP	LOCATION|O|O|PERSON|O|O|O|O|O|O|NUMBER|O|O|O	||||||||||4.0|||				Chicago Street from Wright to Division streets|including the four parks at Division	fb:part.chicago_street_from_wright_to_division_streets|fb:part.including_the_four_parks_at_division
+6	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+6	3	fb:cell.july_26_1974	July 26, 1974	july|26|,|1974	July|26|,|1974	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1974-07-26|1974-07-26|1974-07-26|1974-07-26	261974.0	1974-07-26		July 26|1974	fb:part.july_26|fb:part.1974
+7	0	fb:cell.first_presbyterian_church	First Presbyterian Church†	first|presbyterian|church|†	First|Presbyterian|Church|†	NNP|NNP|NNP|NN	ORDINAL|MISC|O|O	1.0|||					
+7	1	fb:cell.52_marshall_street_ne_corner_of_marshall_and_church_streets	52 Marshall Street, NE corner of Marshall and Church streets	52|marshall|street|,|ne|corner|of|marshall|and|church|streets	52|Marshall|Street|,|ne|corner|of|Marshall|and|Church|street	CD|NNP|NNP|,|NN|NN|IN|NNP|CC|NNP|NNS	NUMBER|ORGANIZATION|ORGANIZATION|O|O|O|O|PERSON|O|O|O	52.0||||||||||	52.0			52 Marshall Street|NE corner of Marshall and Church streets	fb:part.52_marshall_street|fb:part.ne_corner_of_marshall_and_church_streets
+7	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+7	3	fb:cell.june_15_1979	June 15, 1979	june|15|,|1979	June|15|,|1979	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1979-06-15|1979-06-15|1979-06-15|1979-06-15	151979.0	1979-06-15		June 15|1979	fb:part.june_15|fb:part.1979
+8	0	fb:cell.abram_c_fisk_house	Abram C. Fisk House†	abram|c.|fisk|house|†	Abram|C.|Fisk|House|†	NNP|NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||					
+8	1	fb:cell.867_east_chicago_street	867 East Chicago Street	867|east|chicago|street	867|East|Chicago|Street	CD|NNP|NNP|NNP	NUMBER|O|O|O	867.0|||	867.0			867 East Chicago Street	fb:part.867_east_chicago_street
+8	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+8	3	fb:cell.june_15_1979	June 15, 1979	june|15|,|1979	June|15|,|1979	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1979-06-15|1979-06-15|1979-06-15|1979-06-15	151979.0	1979-06-15		June 15|1979	fb:part.june_15|fb:part.1979
+9	0	fb:cell.william_p_hurd_house	William P. Hurd House	william|p.|hurd|house	William|P.|Hurd|House	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+9	1	fb:cell.601_north_broadway	601 North Broadway	601|north|broadway	601|north|Broadway	CD|JJ|NNP	NUMBER|O|O	601.0||	601.0			601 North Broadway	fb:part.601_north_broadway
+9	2	fb:cell.union_city	Union City	union|city	Union|City	NNP|NNP	O|O	|					
+9	3	fb:cell.july_17_1981	July 17, 1981	july|17|,|1981	July|17|,|1981	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1981-07-17|1981-07-17|1981-07-17|1981-07-17	171981.0	1981-07-17		July 17|1981	fb:part.july_17|fb:part.1981
+10	0	fb:cell.lanphere_pratt_house	Lanphere-Pratt House	lanphere|pratt|house	Lanphere|Pratt|House	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+10	1	fb:cell.90_division_street	90 Division Street	90|division|street	90|Division|Street	CD|NNP|NNP	NUMBER|O|O	90.0||	90.0			90 Division Street	fb:part.90_division_street
+10	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+10	3	fb:cell.february_23_1978	February 23, 1978	february|23|,|1978	February|23|,|1978	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1978-02-23|1978-02-23|1978-02-23|1978-02-23	231978.0	1978-02-23		February 23|1978	fb:part.february_23|fb:part.1978
+11	0	fb:cell.henry_a_locke_house	Henry A. Locke House	henry|a.|locke|house	Henry|A.|Locke|House	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+11	1	fb:cell.140_east_division_street	140 East Division Street	140|east|division|street	140|East|Division|Street	CD|NNP|NNP|NNP	NUMBER|O|O|O	140.0|||	140.0			140 East Division Street	fb:part.140_east_division_street
+11	2	fb:cell.sherwood	Sherwood	sherwood	Sherwood	NNP	PERSON						
+11	3	fb:cell.march_19_1980	March 19, 1980	march|19|,|1980	March|19|,|1980	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1980-03-19|1980-03-19|1980-03-19|1980-03-19	191980.0	1980-03-19		March 19|1980	fb:part.march_19|fb:part.1980
+12	0	fb:cell.governor_cyrus_gray_luce_homesite_informational_site	Governor Cyrus Gray Luce Homesite Informational Site	governor|cyrus|gray|luce|homesite|informational|site	Governor|Cyrus|Gray|Luce|Homesite|Informational|site	NNP|NNP|NNP|NNP|NNP|NNP|NN	O|PERSON|PERSON|O|O|O|O	||||||					
+12	1	fb:cell.northeast_corner_of_division_and_east_washington_streets	Northeast corner of Division and East Washington streets	northeast|corner|of|division|and|east|washington|streets	Northeast|corner|of|Division|and|East|Washington|street	NNP|NN|IN|NNP|CC|NNP|NNP|NNS	O|O|O|O|O|LOCATION|LOCATION|O	|||||||				Northeast corner of Division and East Washington streets	fb:part.northeast_corner_of_division_and_east_washington_streets
+12	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+12	3	fb:cell.august_15_1975	August 15, 1975	august|15|,|1975	August|15|,|1975	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1975-08-15|1975-08-15|1975-08-15|1975-08-15	151975.0	1975-08-15		August 15|1975	fb:part.august_15|fb:part.1975
+13	0	fb:cell.methodist_episcopal_church	Methodist Episcopal Church	methodist|episcopal|church	Methodist|Episcopal|Church	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+13	1	fb:cell.126_marshall_road	126 Marshall Road	126|marshall|road	126|Marshall|Road	CD|NNP|NNP	NUMBER|LOCATION|LOCATION	126.0||	126.0			126 Marshall Road	fb:part.126_marshall_road
+13	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+13	3	fb:cell.april_17_1997	April 17, 1997	april|17|,|1997	April|17|,|1997	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1997-04-17|1997-04-17|1997-04-17|1997-04-17	171997.0	1997-04-17		April 17|1997	fb:part.april_17|fb:part.1997
+14	0	fb:cell.general_john_g_parkhurst_house	General John G. Parkhurst House	general|john|g.|parkhurst|house	General|John|G.|Parkhurst|House	NNP|NNP|NNP|NNP|NNP	O|PERSON|PERSON|PERSON|PERSON	||||					
+14	1	fb:cell.55_north_clay_street	55 North Clay Street	55|north|clay|street	55|north|Clay|Street	CD|JJ|NNP|NNP	NUMBER|O|O|O	55.0|||	55.0			55 North Clay Street	fb:part.55_north_clay_street
+14	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+14	3	fb:cell.june_15_1979	June 15, 1979	june|15|,|1979	June|15|,|1979	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1979-06-15|1979-06-15|1979-06-15|1979-06-15	151979.0	1979-06-15		June 15|1979	fb:part.june_15|fb:part.1979
+15	0	fb:cell.harriet_quimby_informational_designation	Harriet Quimby Informational Designation	harriet|quimby|informational|designation	Harriet|Quimby|Informational|designation	NNP|NNP|NNP|NN	PERSON|PERSON|O|O	|||					
+15	1	fb:cell.branch_county_memorial_airport	Branch County Memorial Airport	branch|county|memorial|airport	Branch|County|Memorial|Airport	NNP|NNP|NNP|NNP	O|O|O|O	|||				Branch County Memorial Airport	fb:part.branch_county_memorial_airport
+15	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+15	3	fb:cell.january_21_1988	January 21, 1988	january|21|,|1988	January|21|,|1988	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1988-01-21|1988-01-21|1988-01-21|1988-01-21	211988.0	1988-01-21		January 21|1988	fb:part.january_21|fb:part.1988
+16	0	fb:cell.quincy_township_public_library	Quincy Township Public Library	quincy|township|public|library	Quincy|Township|Public|Library	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+16	1	fb:cell.11_north_main_street_just_north_of_us_12	11 North Main Street, just north of US-12	11|north|main|street|,|just|north|of|us-12	11|north|Main|Street|,|just|north|of|us-12	CD|JJ|NNP|NNP|,|RB|RB|IN|NN	NUMBER|O|O|O|O|O|O|O|O	11.0||||||||	11.0		12.0	11 North Main Street|just north of US-12	fb:part.11_north_main_street|fb:part.just_north_of_us_12
+16	2	fb:cell.quincy	Quincy	quincy	Quincy	NNP	PERSON						
+16	3	fb:cell.april_25_1988	April 25, 1988	april|25|,|1988	April|25|,|1988	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1988-04-25|1988-04-25|1988-04-25|1988-04-25	251988.0	1988-04-25		April 25|1988	fb:part.april_25|fb:part.1988
+17	0	fb:cell.state_public_school_at_coldwater	State Public School at Coldwater	state|public|school|at|coldwater	State|Public|School|at|Coldwater	NNP|NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	||||					
+17	1	fb:cell.620_marshall_road	620 Marshall Road	620|marshall|road	620|Marshall|Road	CD|NNP|NNP	NUMBER|LOCATION|LOCATION	620.0||	620.0			620 Marshall Road	fb:part.620_marshall_road
+17	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+17	3	fb:cell.may_13_1981	May 13, 1981	may|13|,|1981	May|13|,|1981	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1981-05-13|1981-05-13|1981-05-13|1981-05-13	131981.0	1981-05-13		May 13|1981	fb:part.may_13|fb:part.1981
+18	0	fb:cell.tibbits_opera_house	Tibbits Opera House	tibbits|opera|house	Tibbits|Opera|House	NNP|NNP|NNP	O|O|O	||					
+18	1	fb:cell.14_south_hanchett_street	14 South Hanchett Street	14|south|hanchett|street	14|south|Hanchett|Street	CD|JJ|NNP|NNP	NUMBER|O|O|O	14.0|||	14.0			14 South Hanchett Street	fb:part.14_south_hanchett_street
+18	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+18	3	fb:cell.december_11_1970	December 11, 1970	december|11|,|1970	December|11|,|1970	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1970-12-11|1970-12-11|1970-12-11|1970-12-11	111970.0	1970-12-11		December 11|1970	fb:part.december_11|fb:part.1970
+19	0	fb:cell.union_city_iron_furnace	Union City Iron Furnace	union|city|iron|furnace	Union|City|Iron|Furnace	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+19	1	fb:cell.m_60_near_waterworks_road	M-60 near Waterworks Road	m-60|near|waterworks|road	m-60|near|Waterworks|Road	NN|IN|NNP|NNP	O|O|O|O	|||	60.0			M-60 near Waterworks Road	fb:part.m_60_near_waterworks_road
+19	2	fb:cell.union_township	Union Township	union|township	Union|Township	NNP|NNP	O|O	|					
+19	3	fb:cell.february_14_1963	February 14, 1963	february|14|,|1963	February|14|,|1963	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1963-02-14|1963-02-14|1963-02-14|1963-02-14	141963.0	1963-02-14		February 14|1963	fb:part.february_14|fb:part.1963
+20	0	fb:cell.union_city_methodist_episcopal_church	Union City Methodist Episcopal Church	union|city|methodist|episcopal|church	Union|City|Methodist|Episcopal|Church	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||					
+20	1	fb:cell.200_ellen_street	200 Ellen Street	200|ellen|street	200|Ellen|Street	CD|NNP|NNP	NUMBER|PERSON|PERSON	200.0||	200.0			200 Ellen Street	fb:part.200_ellen_street
+20	2	fb:cell.union_city	Union City	union|city	Union|City	NNP|NNP	O|O	|					
+20	3	fb:cell.september_19_1991	September 19, 1991	september|19|,|1991	September|19|,|1991	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1991-09-19|1991-09-19|1991-09-19|1991-09-19	191991.0	1991-09-19		September 19|1991	fb:part.september_19|fb:part.1991
+21	0	fb:cell.lucius_m_wing_house	Lucius M. Wing House†	lucius|m.|wing|house|†	Lucius|M.|Wing|House|†	NNP|NNP|NNP|NNP|NN	PERSON|PERSON|PERSON|PERSON|O	||||					
+21	1	fb:cell.27_south_jefferson_street_ne_corner_of_s_jefferson_and_east_pearl_street	27 South Jefferson Street, NE corner of S. Jefferson and East Pearl Street	27|south|jefferson|street|,|ne|corner|of|s.|jefferson|and|east|pearl|street	27|South|Jefferson|Street|,|ne|corner|of|S.|Jefferson|and|East|Pearl|Street	CD|NNP|NNP|NNP|,|NN|NN|IN|NNP|NNP|CC|NNP|NNP|NNP	NUMBER|LOCATION|LOCATION|LOCATION|O|O|O|O|PERSON|PERSON|O|LOCATION|LOCATION|LOCATION	27.0|||||||||||||	27.0			27 South Jefferson Street|NE corner of S. Jefferson and East Pearl Street	fb:part.27_south_jefferson_street|fb:part.ne_corner_of_s_jefferson_and_east_pearl_street
+21	2	fb:cell.coldwater	Coldwater	coldwater	Coldwater	NNP	O						
+21	3	fb:cell.october_17_1974	October 17, 1974	october|17|,|1974	October|17|,|1974	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1974-10-17|1974-10-17|1974-10-17|1974-10-17	171974.0	1974-10-17		October 17|1974	fb:part.october_17|fb:part.1974
+22	0	fb:cell.john_d_zimmerman_house	John D. Zimmerman House	john|d.|zimmerman|house	John|D.|Zimmerman|House	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+22	1	fb:cell.119_east_high_street	119 East High Street	119|east|high|street	119|East|High|Street	CD|NNP|NNP|NNP	NUMBER|O|O|O	119.0|||	119.0			119 East High Street	fb:part.119_east_high_street
+22	2	fb:cell.union_city	Union City	union|city	Union|City	NNP|NNP	O|O	|					
+22	3	fb:cell.september_21_1983	September 21, 1983	september|21|,|1983	September|21|,|1983	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1983-09-21|1983-09-21|1983-09-21|1983-09-21	211983.0	1983-09-21		September 21|1983	fb:part.september_21|fb:part.1983

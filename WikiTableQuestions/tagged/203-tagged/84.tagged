@@ -1,0 +1,155 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rank	Rank	rank	Rank	NNP	O						
+-1	1	fb:row.row.name	Name	name	name	VB	O						
+-1	2	fb:row.row.height_ft_m	Height\nft (m)	height|ft|-lrb-|m|-rrb-	height|ft|-lrb-|m|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	3	fb:row.row.floors	Floors	floors	floor	NNS	O						
+-1	4	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	5	fb:row.row.coordinates	Coordinates	coordinates	coordinate	VBZ	O						
+-1	6	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.ordway_building	Ordway Building	ordway|building	Ordway|Building	NNP|NNP	O|O	|					
+0	2	fb:cell.404_123	404 (123)	404|-lrb-|123|-rrb-	404|-lrb-|123|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	404.0||123.0|	404.0		123.0		
+0	3	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+0	4	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+0	5	fb:cell.37_48_36_n_122_15_51_w_37_81000_n_122_26417_w	37°48′36″N 122°15′51″W﻿ / ﻿37.81000°N 122.26417°W	37|°|48|′|36|″|n|122|°|15|′|51|″|w|\\/|37.81000|°|n|122.26417|°|w	37|°|48|′|36|″|n|122|°|15|′|51|″|w|\\/|37.81000|°|n|122.26417|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||36.0|36.0||122.0||15.0|15.0|15.0||||37.81|37.81||122.26417|122.26417|	37.0		48.0	37°48′36″N 122°15′51″W﻿|﻿37.81000°N 122.26417°W	fb:part.37_48_36_n_122_15_51_w|fb:part.37_81000_n_122_26417_w
+0	6	fb:cell.tallest_building_in_both_oakland_and_in_the_bay_area_outside_of_san_francisco_tallest_building_constructed_in_the_1970s	Tallest building in both Oakland and in the Bay Area outside of San Francisco; tallest building constructed in the 1970s	tallest|building|in|both|oakland|and|in|the|bay|area|outside|of|san|francisco|;|tallest|building|constructed|in|the|1970s	tallest|building|in|both|Oakland|and|in|the|Bay|Area|outside|of|San|Francisco|;|tallest|building|construct|in|the|1970	JJS|NN|IN|CC|NNP|CC|IN|DT|NNP|NNP|IN|IN|NNP|NNP|:|JJS|NN|VBN|IN|DT|NNS	O|O|O|O|ORGANIZATION|O|O|O|LOCATION|LOCATION|O|O|LOCATION|LOCATION|O|O|O|O|O|DATE|DATE	|||||||||||||||||||197X|197X	1970.0				
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.kaiser_center	Kaiser Center	kaiser|center	Kaiser|Center	NNP|NNP	O|O	|					
+1	2	fb:cell.390_119	390 (119)	390|-lrb-|119|-rrb-	390|-lrb-|119|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	390.0||119.0|	390.0		119.0		
+1	3	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+1	4	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+1	5	fb:cell.37_48_32_n_122_15_52_w_37_80889_n_122_26444_w	37°48′32″N 122°15′52″W﻿ / ﻿37.80889°N 122.26444°W	37|°|48|′|32|″|n|122|°|15|′|52|″|w|\\/|37.80889|°|n|122.26444|°|w	37|°|48|′|32|″|n|122|°|15|′|52|″|w|\\/|37.80889|°|n|122.26444|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||32.0|32.0||122.0||15.0|15.0|15.0||||37.80889|37.80889||122.26444|122.26444|	37.0		48.0	37°48′32″N 122°15′52″W﻿|﻿37.80889°N 122.26444°W	fb:part.37_48_32_n_122_15_52_w|fb:part.37_80889_n_122_26444_w
+1	6	fb:cell.tallest_building_constructed_in_the_1960s	Tallest building constructed in the 1960s	tallest|building|constructed|in|the|1960s	tallest|building|construct|in|the|1960	JJS|NN|VBN|IN|DT|NNS	O|O|O|O|DATE|DATE	||||196X|196X	1960.0				
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.lake_merritt_plaza	Lake Merritt Plaza	lake|merritt|plaza	Lake|Merritt|Plaza	NNP|NNP|NNP	O|O|O	||					
+2	2	fb:cell.371_113	371 (113)	371|-lrb-|113|-rrb-	371|-lrb-|113|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	371.0||113.0|	371.0		113.0		
+2	3	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+2	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+2	5	fb:cell.37_48_27_n_122_15_54_w_37_80750_n_122_26500_w	37°48′27″N 122°15′54″W﻿ / ﻿37.80750°N 122.26500°W	37|°|48|′|27|″|n|122|°|15|′|54|″|w|\\/|37.80750|°|n|122.26500|°|w	37|°|48|′|27|″|n|122|°|15|′|54|″|w|\\/|37.80750|°|n|122.26500|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||27.0|27.0||122.0||15.0|15.0|15.0||||37.8075|37.8075||122.265|122.265|	37.0		48.0	37°48′27″N 122°15′54″W﻿|﻿37.80750°N 122.26500°W	fb:part.37_48_27_n_122_15_54_w|fb:part.37_80750_n_122_26500_w
+2	6	fb:cell.tallest_building_constructed_in_the_1980s	Tallest building constructed in the 1980s	tallest|building|constructed|in|the|1980s	tallest|building|construct|in|the|1980	JJS|NN|VBN|IN|DT|NNS	O|O|O|O|DATE|DATE	||||198X|198X	1980.0				
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.1111_broadway	1111 Broadway	1111|broadway	1111|Broadway	CD|NNP	DATE|O	1111|	1111.0				
+3	2	fb:cell.360_110	360 (110)	360|-lrb-|110|-rrb-	360|-lrb-|110|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	360.0||110.0|	360.0		110.0		
+3	3	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+3	4	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+3	5	fb:cell.37_48_10_n_122_16_22_w_37_80278_n_122_27278_w	37°48′10″N 122°16′22″W﻿ / ﻿37.80278°N 122.27278°W	37|°|48|′|10|″|n|122|°|16|′|22|″|w|\\/|37.80278|°|n|122.27278|°|w	37|°|48|′|10|″|n|122|°|16|′|22|″|w|\\/|37.80278|°|n|122.27278|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||10.0|10.0||122.0||16.0|16.0|16.0||||37.80278|37.80278||122.27278|122.27278|	37.0		48.0	37°48′10″N 122°16′22″W﻿|﻿37.80278°N 122.27278°W	fb:part.37_48_10_n_122_16_22_w|fb:part.37_80278_n_122_27278_w
+3	6	fb:cell.tallest_building_constructed_in_the_1990s	Tallest building constructed in the 1990s	tallest|building|constructed|in|the|1990s	tallest|building|construct|in|the|1990	JJS|NN|VBN|IN|DT|NNS	O|O|O|O|DATE|DATE	||||199X|199X	1990.0				
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.kaiser_engineering_building	Kaiser Engineering Building	kaiser|engineering|building	Kaiser|Engineering|Building	NNP|NNP|NNP	O|O|O	||					
+4	2	fb:cell.336_102	336 (102)	336|-lrb-|102|-rrb-	336|-lrb-|102|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	336.0||102.0|	336.0		102.0		
+4	3	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+4	4	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+4	5	fb:cell.37_48_21_n_122_15_54_w_37_80583_n_122_26500_w	37°48′21″N 122°15′54″W﻿ / ﻿37.80583°N 122.26500°W	37|°|48|′|21|″|n|122|°|15|′|54|″|w|\\/|37.80583|°|n|122.26500|°|w	37|°|48|′|21|″|n|122|°|15|′|54|″|w|\\/|37.80583|°|n|122.26500|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||21.0|21.0||122.0||15.0|15.0|15.0||||37.80583|37.80583||122.265|122.265|	37.0		48.0	37°48′21″N 122°15′54″W﻿|﻿37.80583°N 122.26500°W	fb:part.37_48_21_n_122_15_54_w|fb:part.37_80583_n_122_26500_w
+4	6	fb:cell.null											
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.clorox_building	Clorox Building	clorox|building	Clorox|Building	NNP|NNP	O|O	|					
+5	2	fb:cell.330_101	330 (101)	330|-lrb-|101|-rrb-	330|-lrb-|101|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	330.0||101.0|	330.0		101.0		
+5	3	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+5	4	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+5	5	fb:cell.37_48_12_n_122_16_20_w_37_80333_n_122_27222_w	37°48′12″N 122°16′20″W﻿ / ﻿37.80333°N 122.27222°W	37|°|48|′|12|″|n|122|°|16|′|20|″|w|\\/|37.80333|°|n|122.27222|°|w	37|°|48|′|12|″|n|122|°|16|′|20|″|w|\\/|37.80333|°|n|122.27222|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||12.0|12.0||122.0||16.0|16.0|16.0||||37.80333|37.80333||122.27222|122.27222|	37.0		48.0	37°48′12″N 122°16′20″W﻿|﻿37.80333°N 122.27222°W	fb:part.37_48_12_n_122_16_20_w|fb:part.37_80333_n_122_27222_w
+5	6	fb:cell.null											
+6	0	fb:cell.7	7=	7|=	7|=	CD|JJ	NUMBER|O	7.0|	7.0				
+6	1	fb:cell.em_harris_state_office_building	EM Harris State Office Building	em|harris|state|office|building	EM|Harris|State|Office|Building	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||					
+6	2	fb:cell.328_100	328 (100)	328|-lrb-|100|-rrb-	328|-lrb-|100|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	328.0||100.0|	328.0		100.0		
+6	3	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+6	4	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+6	5	fb:cell.37_48_23_n_122_16_24_w_37_80639_n_122_27333_w	37°48′23″N 122°16′24″W﻿ / ﻿37.80639°N 122.27333°W	37|°|48|′|23|″|n|122|°|16|′|24|″|w|\\/|37.80639|°|n|122.27333|°|w	37|°|48|′|23|″|n|122|°|16|′|24|″|w|\\/|37.80639|°|n|122.27333|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||23.0|23.0||122.0||16.0|16.0|16.0||||37.80639|37.80639||122.27333|122.27333|	37.0		48.0	37°48′23″N 122°16′24″W﻿|﻿37.80639°N 122.27333°W	fb:part.37_48_23_n_122_16_24_w|fb:part.37_80639_n_122_27333_w
+6	6	fb:cell.null											
+7	0	fb:cell.7	7=	7|=	7|=	CD|JJ	NUMBER|O	7.0|	7.0				
+7	1	fb:cell.ronald_v_dellums_federal_building_south	Ronald V. Dellums Federal Building South	ronald|v.|dellums|federal|building|south	Ronald|V.|Dellums|Federal|Building|South	NNP|NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|O|O	|||||					
+7	2	fb:cell.328_100	328 (100)	328|-lrb-|100|-rrb-	328|-lrb-|100|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	328.0||100.0|	328.0		100.0		
+7	3	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+7	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+7	5	fb:cell.37_48_16_n_122_16_29_w_37_80444_n_122_27472_w	37°48′16″N 122°16′29″W﻿ / ﻿37.80444°N 122.27472°W	37|°|48|′|16|″|n|122|°|16|′|29|″|w|\\/|37.80444|°|n|122.27472|°|w	37|°|48|′|16|″|n|122|°|16|′|29|″|w|\\/|37.80444|°|n|122.27472|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||16.0|16.0||122.0||16.0|16.0|16.0||||37.80444|37.80444||122.27472|122.27472|	37.0		48.0	37°48′16″N 122°16′29″W﻿|﻿37.80444°N 122.27472°W	fb:part.37_48_16_n_122_16_29_w|fb:part.37_80444_n_122_27472_w
+7	6	fb:cell.null											
+8	0	fb:cell.7	7=	7|=	7|=	CD|JJ	NUMBER|O	7.0|	7.0				
+8	1	fb:cell.ronald_v_dellums_federal_building_north	Ronald V. Dellums Federal Building North	ronald|v.|dellums|federal|building|north	Ronald|V.|Dellums|Federal|Building|North	NNP|NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|O|O	|||||					
+8	2	fb:cell.328_100	328 (100)	328|-lrb-|100|-rrb-	328|-lrb-|100|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	328.0||100.0|	328.0		100.0		
+8	3	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+8	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+8	5	fb:cell.37_48_18_n_122_16_28_w_37_80500_n_122_27444_w	37°48′18″N 122°16′28″W﻿ / ﻿37.80500°N 122.27444°W	37|°|48|′|18|″|n|122|°|16|′|28|″|w|\\/|37.80500|°|n|122.27444|°|w	37|°|48|′|18|″|n|122|°|16|′|28|″|w|\\/|37.80500|°|n|122.27444|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||18.0|18.0||122.0||16.0|16.0|16.0||||37.805|37.805||122.27444|122.27444|	37.0		48.0	37°48′18″N 122°16′28″W﻿|﻿37.80500°N 122.27444°W	fb:part.37_48_18_n_122_16_28_w|fb:part.37_80500_n_122_27444_w
+8	6	fb:cell.null											
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.oakland_city_hall	Oakland City Hall	oakland|city|hall	Oakland|City|Hall	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+9	2	fb:cell.320_98	320 (98)	320|-lrb-|98|-rrb-	320|-lrb-|98|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	320.0||98.0|	320.0		98.0		
+9	3	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+9	4	fb:cell.1914	1914	1914	1914	CD	DATE	1914	1914.0	1914-xx-xx			
+9	5	fb:cell.37_48_19_n_122_16_21_w_37_80528_n_122_27250_w	37°48′19″N 122°16′21″W﻿ / ﻿37.80528°N 122.27250°W	37|°|48|′|19|″|n|122|°|16|′|21|″|w|\\/|37.80528|°|n|122.27250|°|w	37|°|48|′|19|″|n|122|°|16|′|21|″|w|\\/|37.80528|°|n|122.27250|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||19.0|19.0||122.0||16.0|16.0|16.0||||37.80528|37.80528||122.2725|122.2725|	37.0		48.0	37°48′19″N 122°16′21″W﻿|﻿37.80528°N 122.27250°W	fb:part.37_48_19_n_122_16_21_w|fb:part.37_80528_n_122_27250_w
+9	6	fb:cell.tallest_building_constructed_in_the_1910s_national_register_of_historic_places	Tallest building constructed in the 1910s; National Register of Historic Places	tallest|building|constructed|in|the|1910s|;|national|register|of|historic|places	tallest|building|construct|in|the|1910s|;|National|Register|of|Historic|Places	JJS|NN|VBN|IN|DT|CD|:|NNP|NNP|IN|NNP|NNPS	O|O|O|O|DATE|DATE|O|O|O|O|O|O	||||191X|191X||||||	1910.0				
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.tribune_tower	Tribune Tower	tribune|tower	Tribune|Tower	NNP|NNP	O|O	|					
+10	2	fb:cell.310_94	310 (94)	310|-lrb-|94|-rrb-	310|-lrb-|94|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	310.0||94.0|	310.0		94.0		
+10	3	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+10	4	fb:cell.1906	1906	1906	1906	CD	DATE	1906	1906.0	1906-xx-xx			
+10	5	fb:cell.37_48_11_n_122_16_14_w_37_80306_n_122_27056_w	37°48′11″N 122°16′14″W﻿ / ﻿37.80306°N 122.27056°W	37|°|48|′|11|″|n|122|°|16|′|14|″|w|\\/|37.80306|°|n|122.27056|°|w	37|°|48|′|11|″|n|122|°|16|′|14|″|w|\\/|37.80306|°|n|122.27056|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||11.0|11.0||122.0||16.0|16.0|16.0||||37.80306|37.80306||122.27056|122.27056|	37.0		48.0	37°48′11″N 122°16′14″W﻿|﻿37.80306°N 122.27056°W	fb:part.37_48_11_n_122_16_14_w|fb:part.37_80306_n_122_27056_w
+10	6	fb:cell.tallest_building_constructed_in_the_1920s	Tallest building constructed in the 1920s	tallest|building|constructed|in|the|1920s	tallest|building|construct|in|the|1920s	JJS|NN|VBN|IN|DT|CD	O|O|O|O|DATE|DATE	||||192X|192X	1920.0				
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.1330_broadway	1330 Broadway	1330|broadway	1330|Broadway	CD|NNP	DATE|O	1330|	1330.0				
+11	2	fb:cell.297_91	297 (91)	297|-lrb-|91|-rrb-	297|-lrb-|91|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	297.0||91.0|	297.0		91.0		
+11	3	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+11	4	fb:cell.1956_1959	1956–1959	1956|--|1959	1956|--|1959	CD|:|CD	DATE|DATE|DATE	1956|1956|1959	1956.0		1959.0		
+11	5	fb:cell.37_48_14_n_122_16_14_w_37_80389_n_122_27056_w	37°48′14″N 122°16′14″W﻿ / ﻿37.80389°N 122.27056°W	37|°|48|′|14|″|n|122|°|16|′|14|″|w|\\/|37.80389|°|n|122.27056|°|w	37|°|48|′|14|″|n|122|°|16|′|14|″|w|\\/|37.80389|°|n|122.27056|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||14.0|14.0||122.0||16.0|16.0|16.0||||37.80389|37.80389||122.27056|122.27056|	37.0		48.0	37°48′14″N 122°16′14″W﻿|﻿37.80389°N 122.27056°W	fb:part.37_48_14_n_122_16_14_w|fb:part.37_80389_n_122_27056_w
+11	6	fb:cell.null											
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.pacific_bell_building	Pacific Bell Building	pacific|bell|building	Pacific|Bell|Building	NNP|NNP|NNP	O|O|O	||					
+12	2	fb:cell.296_90	296 (90)	296|-lrb-|90|-rrb-	296|-lrb-|90|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	296.0||90.0|	296.0		90.0		
+12	3	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+12	4	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+12	5	fb:cell.37_48_37_n_122_15_57_w_37_81028_n_122_26583_w	37°48′37″N 122°15′57″W﻿ / ﻿37.81028°N 122.26583°W	37|°|48|′|37|″|n|122|°|15|′|57|″|w|\\/|37.81028|°|n|122.26583|°|w	37|°|48|′|37|″|n|122|°|15|′|57|″|w|\\/|37.81028|°|n|122.26583|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||37.0|37.0||122.0||15.0|15.0|15.0||||37.81028|37.81028||122.26583|122.26583|	37.0		48.0	37°48′37″N 122°15′57″W﻿|﻿37.81028°N 122.26583°W	fb:part.37_48_37_n_122_15_57_w|fb:part.37_81028_n_122_26583_w
+12	6	fb:cell.null											
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.555_city_center	555 City Center	555|city|center	555|City|Center	CD|NNP|NNP	NUMBER|O|O	555.0||	555.0				
+13	2	fb:cell.279_85	279 (85)	279|-lrb-|85|-rrb-	279|-lrb-|85|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	279.0||85.0|	279.0		85.0		
+13	3	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+13	4	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+13	5	fb:cell.37_48_13_n_122_16_31_w_37_80361_n_122_27528_w	37°48′13″N 122°16′31″W﻿ / ﻿37.80361°N 122.27528°W	37|°|48|′|13|″|n|122|°|16|′|31|″|w|\\/|37.80361|°|n|122.27528|°|w	37|°|48|′|13|″|n|122|°|16|′|31|″|w|\\/|37.80361|°|n|122.27528|°|w	CD|CD|CD|CD|CD|NN|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0|37.0|37.0|||122.0||16.0|16.0|16.0||||37.80361|37.80361||122.27528|122.27528|	37.0		48.0	37°48′13″N 122°16′31″W﻿|﻿37.80361°N 122.27528°W	fb:part.37_48_13_n_122_16_31_w|fb:part.37_80361_n_122_27528_w
+13	6	fb:cell.null											
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.park_bellevue_tower	Park Bellevue Tower	park|bellevue|tower	Park|Bellevue|Tower	NNP|NNP|NNP	O|O|O	||					
+14	2	fb:cell.270_82	270 (82)	270|-lrb-|82|-rrb-	270|-lrb-|82|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	270.0||82.0|	270.0		82.0		
+14	3	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+14	4	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+14	5	fb:cell.37_48_28_n_122_15_20_w_37_80778_n_122_25556_w	37°48′28″N 122°15′20″W﻿ / ﻿37.80778°N 122.25556°W	37|°|48|′|28|″|n|122|°|15|′|20|″|w|\\/|37.80778|°|n|122.25556|°|w	37|°|48|′|28|″|n|122|°|15|′|20|″|w|\\/|37.80778|°|n|122.25556|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||28.0|28.0||122.0||15.0|15.0|15.0||||37.80778|37.80778||122.25556|122.25556|	37.0		48.0	37°48′28″N 122°15′20″W﻿|﻿37.80778°N 122.25556°W	fb:part.37_48_28_n_122_15_20_w|fb:part.37_80778_n_122_25556_w
+14	6	fb:cell.null											
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.st_paul_s_towers	St. Paul's Towers	st.|paul|'s|towers	St.|Paul|'s|Towers	NNP|NNP|POS|NNP	PERSON|PERSON|O|O	|||					
+15	2	fb:cell.267_81	267 (81)	267|-lrb-|81|-rrb-	267|-lrb-|81|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	267.0||81.0|	267.0		81.0		
+15	3	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+15	4	fb:cell.1966	1966	1966	1966	CD	DATE	1966	1966.0	1966-xx-xx			
+15	5	fb:cell.37_48_42_n_122_15_37_w_37_81167_n_122_26028_w	37°48′42″N 122°15′37″W﻿ / ﻿37.81167°N 122.26028°W	37|°|48|′|42|″|n|122|°|15|′|37|″|w|\\/|37.81167|°|n|122.26028|°|w	37|°|48|′|42|″|n|122|°|15|′|37|″|w|\\/|37.81167|°|n|122.26028|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||42.0|42.0||122.0||15.0||37.0|37.0|||37.81167|37.81167||122.26028|122.26028|	37.0		48.0	37°48′42″N 122°15′37″W﻿|﻿37.81167°N 122.26028°W	fb:part.37_48_42_n_122_15_37_w|fb:part.37_81167_n_122_26028_w
+15	6	fb:cell.null											
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.the_grand_apartments	The Grand Apartments	the|grand|apartments	the|Grand|apartment	DT|NNP|NNS	O|MISC|MISC	||					
+16	2	fb:cell.263_80	263 (80)	263|-lrb-|80|-rrb-	263|-lrb-|80|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	263.0||80.0|	263.0		80.0		
+16	3	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+16	4	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+16	5	fb:cell.37_48_41_n_122_15_53_w_37_81139_n_122_26472_w	37°48′41″N 122°15′53″W﻿ / ﻿37.81139°N 122.26472°W	37|°|48|′|41|″|n|122|°|15|′|53|″|w|\\/|37.81139|°|n|122.26472|°|w	37|°|48|′|41|″|n|122|°|15|′|53|″|w|\\/|37.81139|°|n|122.26472|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||41.0|41.0||122.0||15.0|15.0|15.0||||37.81139|37.81139||122.26472|122.26472|	37.0		48.0	37°48′41″N 122°15′53″W﻿|﻿37.81139°N 122.26472°W	fb:part.37_48_41_n_122_15_53_w|fb:part.37_81139_n_122_26472_w
+16	6	fb:cell.null											
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.central_building	Central Building	central|building	Central|Building	NNP|NNP	O|O	|					
+17	2	fb:cell.235_72	235 (72)	235|-lrb-|72|-rrb-	235|-lrb-|72|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	235.0||72.0|	235.0		72.0		
+17	3	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+17	4	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx			
+17	5	fb:cell.37_48_15_n_122_16_14_w_37_80417_n_122_27056_w	37°48′15″N 122°16′14″W﻿ / ﻿37.80417°N 122.27056°W	37|°|48|′|15|″|n|122|°|16|′|14|″|w|\\/|37.80417|°|n|122.27056|°|w	37|°|48|′|15|″|n|122|°|16|′|14|″|w|\\/|37.80417|°|n|122.27056|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||15.0|15.0||122.0||16.0|16.0|16.0||||37.80417|37.80417||122.27056|122.27056|	37.0		48.0	37°48′15″N 122°16′14″W﻿|﻿37.80417°N 122.27056°W	fb:part.37_48_15_n_122_16_14_w|fb:part.37_80417_n_122_27056_w
+17	6	fb:cell.null											
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell.bank_of_america_building	Bank of America Building	bank|of|america|building	Bank|of|America|Building	NNP|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+18	2	fb:cell.225_69	225 (69)	225|-lrb-|69|-rrb-	225|-lrb-|69|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	225.0||69.0|	225.0		69.0		
+18	3	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+18	4	fb:cell.1907	1907	1907	1907	CD	DATE	1907	1907.0	1907-xx-xx			
+18	5	fb:cell.37_48_10_n_122_16_17_w_37_80278_n_122_27139_w	37°48′10″N 122°16′17″W﻿ / ﻿37.80278°N 122.27139°W	37|°|48|′|10|″|n|122|°|16|′|17|″|w|\\/|37.80278|°|n|122.27139|°|w	37|°|48|′|10|″|n|122|°|16|′|17|″|w|\\/|37.80278|°|n|122.27139|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||10.0|10.0||122.0||16.0||17.0||||37.80278|37.80278||122.27139|122.27139|	37.0		48.0	37°48′10″N 122°16′17″W﻿|﻿37.80278°N 122.27139°W	fb:part.37_48_10_n_122_16_17_w|fb:part.37_80278_n_122_27139_w
+18	6	fb:cell.tallest_building_constructed_in_the_decade_of_1900	Tallest building constructed in the decade of 1900	tallest|building|constructed|in|the|decade|of|1900	tallest|building|construct|in|the|decade|of|1900	JJS|NN|VBN|IN|DT|NN|IN|CD	O|O|O|O|DATE|DATE|DATE|DATE	||||THIS P10Y INTERSECT 1900|THIS P10Y INTERSECT 1900|THIS P10Y INTERSECT 1900|THIS P10Y INTERSECT 1900	1900.0				
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell.financial_center_building	Financial Center Building	financial|center|building	Financial|Center|Building	NNP|NNP|NNP	O|O|O	||					
+19	2	fb:cell.214_65	214 (65)	214|-lrb-|65|-rrb-	214|-lrb-|65|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	214.0||65.0|	214.0		65.0		
+19	3	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+19	4	fb:cell.1929	1929	1929	1929	CD	DATE	1929	1929.0	1929-xx-xx			
+19	5	fb:cell.37_48_13_n_122_16_13_w_37_80361_n_122_27028_w	37°48′13″N 122°16′13″W﻿ / ﻿37.80361°N 122.27028°W	37|°|48|′|13|″|n|122|°|16|′|13|″|w|\\/|37.80361|°|n|122.27028|°|w	37|°|48|′|13|″|n|122|°|16|′|13|″|w|\\/|37.80361|°|n|122.27028|°|w	CD|CD|CD|CD|CD|NN|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0|37.0|37.0|||122.0||16.0|16.0|16.0||||37.80361|37.80361||122.27028|122.27028|	37.0		48.0	37°48′13″N 122°16′13″W﻿|﻿37.80361°N 122.27028°W	fb:part.37_48_13_n_122_16_13_w|fb:part.37_80361_n_122_27028_w
+19	6	fb:cell.null											
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell.sbc_building	SBC Building	sbc|building	SBC|Building	NNP|NNP	O|O	|					
+20	2	fb:cell.203_62	203 (62)	203|-lrb-|62|-rrb-	203|-lrb-|62|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	203.0||62.0|	203.0		62.0		
+20	3	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+20	4	fb:cell.null_2	—	--	--	:	O						
+20	5	fb:cell.37_48_21_n_122_16_08_w_37_80583_n_122_26889_w	37°48′21″N 122°16′08″W﻿ / ﻿37.80583°N 122.26889°W	37|°|48|′|21|″|n|122|°|16|′|08|″|w|\\/|37.80583|°|n|122.26889|°|w	37|°|48|′|21|″|n|122|°|16|′|08|″|w|\\/|37.80583|°|n|122.26889|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||21.0|21.0||122.0||16.0|16.0|16.0||||37.80583|37.80583||122.26889|122.26889|	37.0		48.0	37°48′21″N 122°16′08″W﻿|﻿37.80583°N 122.26889°W	fb:part.37_48_21_n_122_16_08_w|fb:part.37_80583_n_122_26889_w
+20	6	fb:cell.null											

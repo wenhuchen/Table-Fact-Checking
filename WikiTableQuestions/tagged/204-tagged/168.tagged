@@ -1,0 +1,265 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	3	fb:row.row.site	Site	site	site	NN	O						
+-1	4	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	5	fb:row.row.result	Result	result	result	NN	O						
+-1	6	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+-1	7	fb:row.row.record	Record	record	record	VB	O						
+0	0	fb:cell.11_09_2013	11/09/2013*	11\\/09\\/2013|\\*	11\\/09\\/2013|\\*	CD|SYM	DATE|O	2013-11-09|	11.0		9.0	11|09|2013*	fb:part.11|fb:part.09|fb:part.2013
+0	1	fb:cell.1_00_pm	1:00 pm	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+0	2	fb:cell.trinity_baptist	Trinity Baptist	trinity|baptist	Trinity|Baptist	NNP|NNP	O|O	|					
+0	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+0	4	fb:cell.null											
+0	5	fb:cell.w_91_74	W 91–74	w|91|--|74	W|91|--|74	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|91.0||74.0	91.0		74.0		
+0	6	fb:cell.409	409	409	409	CD	NUMBER	409.0	409.0			409	fb:part.409
+0	7	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+1	0	fb:cell.11_12_2013	11/12/2013*	11\\/12\\/2013|\\*	11\\/12\\/2013|\\*	CD|SYM	DATE|O	2013-11-12|	11.0		12.0	11|12|2013*	fb:part.11|fb:part.12|fb:part.2013
+1	1	fb:cell.7_00_pm	7:00 pm	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+1	2	fb:cell.at_south_florida	at South Florida	at|south|florida	at|South|Florida	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+1	3	fb:cell.usf_sun_dome_tampa_fl	USF Sun Dome • Tampa, FL	usf|sun|dome|•|tampa|,|fl	usf|Sun|Dome|•|Tampa|,|fl	NN|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|O|O|O|O|O|O	||||||				USF Sun Dome • Tampa|FL	fb:part.usf_sun_dome_tampa|fb:part.fl
+1	4	fb:cell.espn3	ESPN3	espn3	espn3	NN	O		3.0				
+1	5	fb:cell.l_65_91	L 65–91	l|65|--|91	l|65|--|91	NN|CD|:|CD	O|NUMBER|O|NUMBER	|65.0||91.0	65.0		91.0		
+1	6	fb:cell.3_549	3,549	3,549	3,549	CD	NUMBER	3549.0	3549.0			3,549	fb:part.3_549
+1	7	fb:cell.1_1	1–1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+2	0	fb:cell.11_17_2013	11/17/2013*	11\\/17\\/2013|\\*	11\\/17\\/2013|\\*	CD|SYM	DATE|O	2013-11-17|	11.0		17.0	11|17|2013*	fb:part.11|fb:part.17|fb:part.2013
+2	1	fb:cell.2_00_pm	2:00 pm	2:00|pm	2:00|pm	CD|NN	TIME|TIME	T14:00|T14:00	2.0		0.0		
+2	2	fb:cell.at_ucf	at UCF	at|ucf	at|UCF	IN|NNP	O|ORGANIZATION	|					
+2	3	fb:cell.cfe_arena_orlando_fl	CFE Arena • Orlando, FL	cfe|arena|•|orlando|,|fl	CFE|Arena|•|Orlando|,|fl	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|LOCATION	|||||				CFE Arena • Orlando|FL	fb:part.cfe_arena_orlando|fb:part.fl
+2	4	fb:cell.espn3	ESPN3	espn3	espn3	NN	O		3.0				
+2	5	fb:cell.l_63_83	L 63–83	l|63|--|83	l|63|--|83	NN|CD|:|CD	O|NUMBER|O|NUMBER	|63.0||83.0	63.0		83.0		
+2	6	fb:cell.4_095	4,095	4,095	4,095	CD	NUMBER	4095.0	4095.0			4,095	fb:part.4_095
+2	7	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+3	0	fb:cell.11_19_2013	11/19/2013*	11\\/19\\/2013|\\*	11\\/19\\/2013|\\*	CD|SYM	DATE|O	2013-11-19|	11.0		19.0	11|19|2013*	fb:part.11|fb:part.19|fb:part.2013
+3	1	fb:cell.7_00_pm	7:00 pm	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+3	2	fb:cell.trinity_fl	Trinity (FL)	trinity|-lrb-|fl|-rrb-	Trinity|-lrb-|fl|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||					
+3	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+3	4	fb:cell.null											
+3	5	fb:cell.w_98_55	W 98–55	w|98|--|55	W|98|--|55	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|98.0||55.0	98.0		55.0		
+3	6	fb:cell.1_180	1,180	1,180	1,180	CD	NUMBER	1180.0	1180.0			1,180	fb:part.1_180
+3	7	fb:cell.2_2	2–2	2|--|2	2|--|2	CD|:|CD	NUMBER|O|NUMBER	2.0||2.0	2.0		2.0		
+4	0	fb:cell.11_21_2013	11/21/2013*	11\\/21\\/2013|\\*	11\\/21\\/2013|\\*	CD|SYM	DATE|O	2013-11-21|	11.0		21.0	11|21|2013*	fb:part.11|fb:part.21|fb:part.2013
+4	1	fb:cell.7_00_pm	7:00 pm	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+4	2	fb:cell.fiu	FIU	fiu	FIU	NNP	O						
+4	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+4	4	fb:cell.null											
+4	5	fb:cell.l_67_82	L 67–82	l|67|--|82	l|67|--|82	NN|CD|:|CD	O|NUMBER|O|NUMBER	|67.0||82.0	67.0		82.0		
+4	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+4	7	fb:cell.2_3	2–3	2|--|3	2|--|3	CD|:|CD	NUMBER|O|NUMBER	2.0||3.0	2.0		3.0		
+5	0	fb:cell.11_25_2013	11/25/2013*	11\\/25\\/2013|\\*	11\\/25\\/2013|\\*	CD|SYM	DATE|O	2013-11-25|	11.0		25.0	11|25|2013*	fb:part.11|fb:part.25|fb:part.2013
+5	1	fb:cell.9_00_pm	9:00 pm	9:00|pm	9:00|pm	CD|NN	TIME|TIME	T21:00|T21:00	9.0		0.0		
+5	2	fb:cell.at_new_mexico_state	at New Mexico State	at|new|mexico|state	at|New|Mexico|State	IN|NNP|NNP|NNP	O|LOCATION|LOCATION|O	|||					
+5	3	fb:cell.pan_american_center_las_cruces_nm_colorado_state_challenge	Pan American Center • Las Cruces, NM\n(Colorado State Challenge)	pan|american|center|•|las|cruces|,|nm|-lrb-|colorado|state|challenge|-rrb-	Pan|American|Center|•|Las|Cruces|,|NM|-lrb-|Colorado|State|Challenge|-rrb-	NNP|NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|-RRB-	MISC|MISC|MISC|MISC|LOCATION|LOCATION|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||||||||||				Pan American Center • Las Cruces|NM|(Colorado State Challenge)	fb:part.pan_american_center_las_cruces|fb:part.nm|fb:part._colorado_state_challenge
+5	4	fb:cell.null											
+5	5	fb:cell.l_56_79	L 56–79	l|56|--|79	l|56|--|79	NN|CD|:|CD	O|NUMBER|O|NUMBER	|56.0||79.0	56.0		79.0		
+5	6	fb:cell.4_985	4,985	4,985	4,985	CD	NUMBER	4985.0	4985.0			4,985	fb:part.4_985
+5	7	fb:cell.2_4	2–4	2|--|4	2|--|4	CD|:|CD	NUMBER|O|NUMBER	2.0||4.0	2.0		4.0		
+6	0	fb:cell.11_27_2013	11/27/2013*	11\\/27\\/2013|\\*	11\\/27\\/2013|\\*	CD|SYM	DATE|O	2013-11-27|	11.0		27.0	11|27|2013*	fb:part.11|fb:part.27|fb:part.2013
+6	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+6	2	fb:cell.at_new_mexico_state	at New Mexico State	at|new|mexico|state	at|New|Mexico|State	IN|NNP|NNP|NNP	O|LOCATION|LOCATION|O	|||					
+6	3	fb:cell.moby_arena_fort_collins_co_colorado_state_challenge	Moby Arena • Fort Collins, CO\n(Colorado State Challenge)	moby|arena|•|fort|collins|,|co|-lrb-|colorado|state|challenge|-rrb-	Moby|Arena|•|Fort|Collins|,|CO|-lrb-|Colorado|State|Challenge|-rrb-	NNP|NNP|VBD|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|-RRB-	O|O|O|LOCATION|LOCATION|O|LOCATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||||||||				Moby Arena • Fort Collins|CO|(Colorado State Challenge)	fb:part.moby_arena_fort_collins|fb:part.co|fb:part._colorado_state_challenge
+6	4	fb:cell.null											
+6	5	fb:cell.l_52_66	L 52–66	l|52|--|66	l|52|--|66	NN|CD|:|CD	O|NUMBER|O|NUMBER	|52.0||66.0	52.0		66.0		
+6	6	fb:cell.2_945	2,945	2,945	2,945	CD	NUMBER	2945.0	2945.0			2,945	fb:part.2_945
+6	7	fb:cell.2_5	2–5	2|--|5	2|--|5	CD|:|CD	NUMBER|O|NUMBER	2.0||5.0	2.0		5.0		
+7	0	fb:cell.11_29_2013	11/29/2013*	11\\/29\\/2013|\\*	11\\/29\\/2013|\\*	CD|SYM	DATE|O	2013-11-29|	11.0		29.0	11|29|2013*	fb:part.11|fb:part.29|fb:part.2013
+7	1	fb:cell.9_00_pm	9:00 pm	9:00|pm	9:00|pm	CD|NN	TIME|TIME	T21:00|T21:00	9.0		0.0		
+7	2	fb:cell.vs_prairie_view_a_m	vs. Prairie View A&M	vs.|prairie|view|a&m	vs.|Prairie|View|A&M	CC|NNP|NNP|NNP	O|O|O|O	|||					
+7	3	fb:cell.butler_hancock_sports_pavilion_greeley_co_colorado_state_challenge	Butler–Hancock Sports Pavilion • Greeley, CO\n(Colorado State Challenge)	butler|--|hancock|sports|pavilion|•|greeley|,|co|-lrb-|colorado|state|challenge|-rrb-	Butler|--|Hancock|Sports|Pavilion|•|Greeley|,|CO|-lrb-|Colorado|State|Challenge|-rrb-	NNP|:|NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|O|O|O|O|LOCATION|O|LOCATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||||||||||				Butler–Hancock Sports Pavilion • Greeley|CO|(Colorado State Challenge)	fb:part.butler_hancock_sports_pavilion_greeley|fb:part.co|fb:part._colorado_state_challenge
+7	4	fb:cell.null											
+7	5	fb:cell.l_80_89	L 80–89	l|80|--|89	l|80|--|89	NN|CD|:|CD	O|NUMBER|O|NUMBER	|80.0||89.0	80.0		89.0		
+7	6	fb:cell.102	102	102	102	CD	NUMBER	102.0	102.0			102	fb:part.102
+7	7	fb:cell.2_6	2–6	2|--|6	2|--|6	CD|:|CD	NUMBER|O|NUMBER	2.0||6.0	2.0		6.0		
+8	0	fb:cell.11_30_2013	11/30/2013*	11\\/30\\/2013|\\*	11\\/30\\/2013|\\*	CD|SYM	DATE|O	2013-11-30|	11.0		30.0	11|30|2013*	fb:part.11|fb:part.30|fb:part.2013
+8	1	fb:cell.9_00_pm	9:00 pm	9:00|pm	9:00|pm	CD|NN	TIME|TIME	T21:00|T21:00	9.0		0.0		
+8	2	fb:cell.at_northern_colorado	at Northern Colorado	at|northern|colorado	at|Northern|Colorado	IN|NNP|NNP	O|O|O	||					
+8	3	fb:cell.butler_hancock_sports_pavilion_greeley_co_colorado_state_challenge	Butler–Hancock Sports Pavilion • Greeley, CO\n(Colorado State Challenge)	butler|--|hancock|sports|pavilion|•|greeley|,|co|-lrb-|colorado|state|challenge|-rrb-	Butler|--|Hancock|Sports|Pavilion|•|Greeley|,|CO|-lrb-|Colorado|State|Challenge|-rrb-	NNP|:|NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|O|O|O|O|LOCATION|O|LOCATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||||||||||				Butler–Hancock Sports Pavilion • Greeley|CO|(Colorado State Challenge)	fb:part.butler_hancock_sports_pavilion_greeley|fb:part.co|fb:part._colorado_state_challenge
+8	4	fb:cell.null											
+8	5	fb:cell.l_60_65	L 60–65	l|60|--|65	l|60|--|65	NN|CD|:|CD	O|NUMBER|O|NUMBER	|60.0||65.0	60.0		65.0		
+8	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+8	7	fb:cell.2_7	2–7	2|--|7	2|--|7	CD|:|CD	NUMBER|O|NUMBER	2.0||7.0	2.0		7.0		
+9	0	fb:cell.12_03_2013	12/03/2013*	12\\/03\\/2013|\\*	12\\/03\\/2013|\\*	CD|SYM	DATE|O	2013-12-03|	12.0		3.0	12|03|2013*	fb:part.12|fb:part.03|fb:part.2013
+9	1	fb:cell.7_00_pm	7:00 pm	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+9	2	fb:cell.at_stetson	at Stetson	at|stetson	at|Stetson	IN|NNP	O|LOCATION	|					
+9	3	fb:cell.edmunds_center_deland_fl	Edmunds Center • DeLand, FL	edmunds|center|•|deland|,|fl	Edmunds|Center|•|DeLand|,|fl	NNP|NNP|CD|NNP|,|NN	O|O|NUMBER|O|O|O	|||||				Edmunds Center • DeLand|FL	fb:part.edmunds_center_deland|fb:part.fl
+9	4	fb:cell.null											
+9	5	fb:cell.l_52_56	L 52–56	l|52|--|56	l|52|--|56	NN|CD|:|CD	O|NUMBER|O|NUMBER	|52.0||56.0	52.0		56.0		
+9	6	fb:cell.1_056	1,056	1,056	1,056	CD	NUMBER	1056.0	1056.0			1,056	fb:part.1_056
+9	7	fb:cell.2_8	2–8	2|--|8	2|--|8	CD|:|CD	NUMBER|O|NUMBER	2.0||8.0	2.0		8.0		
+10	0	fb:cell.12_07_2013	12/07/2013	12\\/07\\/2013	12\\/07\\/2013	CD	DATE	2013-12-07	12.0	2013-12-07	7.0	12|07|2013	fb:part.12|fb:part.07|fb:part.2013_2
+10	1	fb:cell.6_00_pm	6:00 pm	6:00|pm	6:00|pm	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+10	2	fb:cell.at_norfolk_state	at Norfolk State	at|norfolk|state	at|Norfolk|State	IN|NNP|NNP	O|LOCATION|O	||					
+10	3	fb:cell.joseph_g_echols_memorial_hall_norfolk_va	Joseph G. Echols Memorial Hall • Norfolk, VA	joseph|g.|echols|memorial|hall|•|norfolk|,|va	Joseph|G.|Echols|Memorial|Hall|•|Norfolk|,|VA	NNP|NNP|NNP|NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|PERSON|O|O|O|LOCATION|O|LOCATION	||||||||				Joseph G. Echols Memorial Hall • Norfolk|VA	fb:part.joseph_g_echols_memorial_hall_norfolk|fb:part.va
+10	4	fb:cell.null											
+10	5	fb:cell.l_45_59	L 45–59	l|45|--|59	l|45|--|59	NN|CD|:|CD	O|NUMBER|O|NUMBER	|45.0||59.0	45.0		59.0		
+10	6	fb:cell.1_425	1,425	1,425	1,425	CD	NUMBER	1425.0	1425.0			1,425	fb:part.1_425
+10	7	fb:cell.2_9_0_1	2–9 (0–1)	2|--|9|-lrb-|0|--|1|-rrb-	2|--|9|-lrb-|0|--|1|-rrb-	CD|:|CD|-LRB-|CD|:|LS|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	2.0||9.0||0.0||1.0|	2.0		9.0		
+11	0	fb:cell.12_09_2013	12/09/2013	12\\/09\\/2013	12\\/09\\/2013	CD	DATE	2013-12-09	12.0	2013-12-09	9.0	12|09|2013	fb:part.12|fb:part.09|fb:part.2013_2
+11	1	fb:cell.7_00_pm	7:00 pm	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+11	2	fb:cell.at_hampton	at Hampton	at|hampton	at|Hampton	IN|NNP	O|LOCATION	|					
+11	3	fb:cell.hampton_convocation_center_hampton_va	Hampton Convocation Center • Hampton, VA	hampton|convocation|center|•|hampton|,|va	Hampton|Convocation|Center|•|Hampton|,|VA	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|PERSON|O|LOCATION	||||||				Hampton Convocation Center • Hampton|VA	fb:part.hampton_convocation_center_hampton|fb:part.va
+11	4	fb:cell.null											
+11	5	fb:cell.l_52_85	L 52–85	l|52|--|85	l|52|--|85	NN|CD|:|CD	O|NUMBER|O|NUMBER	|52.0||85.0	52.0		85.0		
+11	6	fb:cell.1_428	1,428	1,428	1,428	CD	NUMBER	1428.0	1428.0			1,428	fb:part.1_428
+11	7	fb:cell.2_10_0_2	2–10 (0–2)	2|--|10|-lrb-|0|--|2|-rrb-	2|--|10|-lrb-|0|--|2|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	2.0||10.0||0.0||2.0|	2.0		10.0		
+12	0	fb:cell.12_14_2013	12/14/2013*	12\\/14\\/2013|\\*	12\\/14\\/2013|\\*	CD|SYM	DATE|O	2013-12-14|	12.0		14.0	12|14|2013*	fb:part.12|fb:part.14|fb:part.2013
+12	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+12	2	fb:cell.at_akron	at Akron	at|akron	at|Akron	IN|NNP	O|LOCATION	|					
+12	3	fb:cell.james_a_rhodes_arena_akron_oh	James A. Rhodes Arena • Akron, OH	james|a.|rhodes|arena|•|akron|,|oh	James|A.|Rhodes|Arena|•|Akron|,|oh	NNP|NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|PERSON|PERSON|PERSON|O|LOCATION|O|O	|||||||				James A. Rhodes Arena • Akron|OH	fb:part.james_a_rhodes_arena_akron|fb:part.oh
+12	4	fb:cell.null											
+12	5	fb:cell.l_56_84	L 56–84	l|56|--|84	l|56|--|84	NN|CD|:|CD	O|NUMBER|O|NUMBER	|56.0||84.0	56.0		84.0		
+12	6	fb:cell.2_763	2,763	2,763	2,763	CD	NUMBER	2763.0	2763.0			2,763	fb:part.2_763
+12	7	fb:cell.2_11	2–11	2|--|11	2|--|11	CD|:|CD	NUMBER|O|NUMBER	2.0||11.0	2.0		11.0		
+13	0	fb:cell.12_17_2013	12/17/2013*	12\\/17\\/2013|\\*	12\\/17\\/2013|\\*	CD|SYM	DATE|O	2013-12-17|	12.0		17.0	12|17|2013*	fb:part.12|fb:part.17|fb:part.2013
+13	1	fb:cell.7_00_pm	7:00 pm	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+13	2	fb:cell.at_youngstown_state	at Youngstown State	at|youngstown|state	at|Youngstown|State	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+13	3	fb:cell.beeghly_center_youngstown_oh	Beeghly Center • Youngstown, OH	beeghly|center|•|youngstown|,|oh	Beeghly|Center|•|Youngstown|,|oh	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|O	|||||				Beeghly Center • Youngstown|OH	fb:part.beeghly_center_youngstown|fb:part.oh
+13	4	fb:cell.null											
+13	5	fb:cell.l_59_71	L 59–71	l|59|--|71	l|59|--|71	NN|CD|:|CD	O|NUMBER|O|NUMBER	|59.0||71.0	59.0		71.0		
+13	6	fb:cell.1_399	1,399	1,399	1,399	CD	NUMBER	1399.0	1399.0			1,399	fb:part.1_399
+13	7	fb:cell.2_12	2–12	2|--|12	2|--|12	CD|:|CD	NUMBER|O|NUMBER	2.0||12.0	2.0		12.0		
+14	0	fb:cell.12_21_2013	12/21/2013*	12\\/21\\/2013|\\*	12\\/21\\/2013|\\*	CD|SYM	DATE|O	2013-12-21|	12.0		21.0	12|21|2013*	fb:part.12|fb:part.21|fb:part.2013
+14	1	fb:cell.7_00_pm	7:00 pm	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+14	2	fb:cell.at_north_florida	at North Florida	at|north|florida	at|North|Florida	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+14	3	fb:cell.unf_arena_jacksonville_fl	UNF Arena • Jacksonville, FL	unf|arena|•|jacksonville|,|fl	UNF|Arena|•|Jacksonville|,|fl	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|LOCATION	|||||				UNF Arena • Jacksonville|FL	fb:part.unf_arena_jacksonville|fb:part.fl
+14	4	fb:cell.null											
+14	5	fb:cell.l_64_68	L 64–68	l|64|--|68	l|64|--|68	NN|CD|:|CD	O|NUMBER|O|NUMBER	|64.0||68.0	64.0		68.0		
+14	6	fb:cell.617	617	617	617	CD	NUMBER	617.0	617.0			617	fb:part.617
+14	7	fb:cell.2_13	2–13	2|--|13	2|--|13	CD|:|CD	NUMBER|O|NUMBER	2.0||13.0	2.0		13.0		
+15	0	fb:cell.12_30_2013	12/30/2013*	12\\/30\\/2013|\\*	12\\/30\\/2013|\\*	CD|SYM	DATE|O	2013-12-30|	12.0		30.0	12|30|2013*	fb:part.12|fb:part.30|fb:part.2013
+15	1	fb:cell.8_00_pm	8:00 pm	8:00|pm	8:00|pm	CD|NN	TIME|TIME	T20:00|T20:00	8.0		0.0		
+15	2	fb:cell.at_detroit	at Detroit	at|detroit	at|Detroit	IN|NNP	O|LOCATION	|					
+15	3	fb:cell.calihan_hall_detroit_mi	Calihan Hall • Detroit, MI	calihan|hall|•|detroit|,|mi	Calihan|Hall|•|Detroit|,|MI	NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|LOCATION|O|O	|||||				Calihan Hall • Detroit|MI	fb:part.calihan_hall_detroit|fb:part.mi
+15	4	fb:cell.null											
+15	5	fb:cell.l_53_73	L 53–73	l|53|--|73	l|53|--|73	NN|CD|:|CD	O|NUMBER|O|NUMBER	|53.0||73.0	53.0		73.0		
+15	6	fb:cell.3_107	3,107	3,107	3,107	CD	NUMBER	3107.0	3107.0			3,107	fb:part.3_107
+15	7	fb:cell.2_14	2–14	2|--|14	2|--|14	CD|:|CD	NUMBER|O|NUMBER	2.0||14.0	2.0		14.0		
+16	0	fb:cell.01_03_2014	01/03/2014*	01\\/03\\/2014|\\*	01\\/03\\/2014|\\*	CD|SYM	DATE|O	2014-01-03|	1.0		3.0	01|03|2014*	fb:part.01|fb:part.03|fb:part.2014
+16	1	fb:cell.8_00_pm	8:00 pm	8:00|pm	8:00|pm	CD|NN	TIME|TIME	T20:00|T20:00	8.0		0.0		
+16	2	fb:cell.at_northern_illinois	at Northern Illinois	at|northern|illinois	at|Northern|Illinois	IN|NNP|NNP	O|O|O	||					
+16	3	fb:cell.convocation_center_dekalb_il	Convocation Center • DeKalb, IL	convocation|center|•|dekalb|,|il	convocation|Center|•|DeKalb|,|il	NN|NNP|CD|NNP|,|NN	O|O|NUMBER|O|O|O	|||||				Convocation Center • DeKalb|IL	fb:part.convocation_center_dekalb|fb:part.il
+16	4	fb:cell.null											
+16	5	fb:cell.l_51_65	L 51–65	l|51|--|65	l|51|--|65	NN|CD|:|CD	O|NUMBER|O|NUMBER	|51.0||65.0	51.0		65.0		
+16	6	fb:cell.657	657	657	657	CD	NUMBER	657.0	657.0			657	fb:part.657
+16	7	fb:cell.2_15	2–15	2|--|15	2|--|15	CD|:|CD	NUMBER|O|NUMBER	2.0||15.0	2.0		15.0		
+17	0	fb:cell.01_11_2014	01/11/2014	01\\/11\\/2014	01\\/11\\/2014	NN	DATE	2014-01-11	1.0	2014-01-11	11.0	01|11|2014	fb:part.01|fb:part.11|fb:part.2014_2
+17	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+17	2	fb:cell.north_carolina_a_t	North Carolina A&T	north|carolina|a&t	North|Carolina|A&T	NNP|NNP|NNP	LOCATION|LOCATION|O	||					
+17	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+17	4	fb:cell.null											
+17	5	fb:cell.l_67_70	L 67–70	l|67|--|70	l|67|--|70	NN|CD|:|CD	O|NUMBER|O|NUMBER	|67.0||70.0	67.0		70.0		
+17	6	fb:cell.1_091	1,091	1,091	1,091	CD	NUMBER	1091.0	1091.0			1,091	fb:part.1_091
+17	7	fb:cell.2_16_0_3	2–16 (0–3)	2|--|16|-lrb-|0|--|3|-rrb-	2|--|16|-lrb-|0|--|3|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	2.0||16.0||0.0||3.0|	2.0		16.0		
+18	0	fb:cell.01_13_2014	01/13/2014	01\\/13\\/2014	01\\/13\\/2014	NN	DATE	2014-01-13	1.0	2014-01-13	13.0	01|13|2014	fb:part.01|fb:part.13|fb:part.2014_2
+18	1	fb:cell.7_30_pm	7:30 pm	7:30|pm	7:30|pm	CD|NN	TIME|TIME	T19:30|T19:30	7.0		30.0		
+18	2	fb:cell.north_carolina_central	North Carolina Central	north|carolina|central	North|Carolina|Central	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+18	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+18	4	fb:cell.null											
+18	5	fb:cell.l_49_64	L 49–64	l|49|--|64	l|49|--|64	NN|CD|:|CD	O|NUMBER|O|NUMBER	|49.0||64.0	49.0		64.0		
+18	6	fb:cell.1_210	1,210	1,210	1,210	CD	NUMBER	1210.0	1210.0			1,210	fb:part.1_210
+18	7	fb:cell.2_17_0_4	2–17 (0–4)	2|--|17|-lrb-|0|--|4|-rrb-	2|--|17|-lrb-|0|--|4|-rrb-	CD|:|CD|-LRB-|CD|:|LS|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	2.0||17.0||0.0||4.0|	2.0		17.0		
+19	0	fb:cell.01_18_2014	01/18/2014	01\\/18\\/2014	01\\/18\\/2014	NN	DATE	2014-01-18	1.0	2014-01-18	18.0	01|18|2014	fb:part.01|fb:part.18|fb:part.2014_2
+19	1	fb:cell.6_00_pm	6:00 pm	6:00|pm	6:00|pm	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+19	2	fb:cell.at_savannah_state	at Savannah State	at|savannah|state	at|Savannah|State	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+19	3	fb:cell.tiger_arena_savannah_ga	Tiger Arena • Savannah, GA	tiger|arena|•|savannah|,|ga	Tiger|Arena|•|Savannah|,|GA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Tiger Arena • Savannah|GA	fb:part.tiger_arena_savannah|fb:part.ga
+19	4	fb:cell.null											
+19	5	fb:cell.l_60_70_ot	L 60–70 OT	l|60|--|70|ot	l|60|--|70|ot	NN|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|60.0||70.0|	60.0		70.0		
+19	6	fb:cell.3_220	3,220	3,220	3,220	CD	NUMBER	3220.0	3220.0			3,220	fb:part.3_220
+19	7	fb:cell.2_18_0_5	2–18 (0–5)	2|--|18|-lrb-|0|--|5|-rrb-	2|--|18|-lrb-|0|--|5|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	2.0||18.0||0.0||5.0|	2.0		18.0		
+20	0	fb:cell.01_20_2014	01/20/2014	01\\/20\\/2014	01\\/20\\/2014	NN	DATE	2014-01-20	1.0	2014-01-20	20.0	01|20|2014	fb:part.01|fb:part.20|fb:part.2014_2
+20	1	fb:cell.7_30_pm	7:30 pm	7:30|pm	7:30|pm	CD|NN	TIME|TIME	T19:30|T19:30	7.0		30.0		
+20	2	fb:cell.at_south_carolina_state	at South Carolina State	at|south|carolina|state	at|South|Carolina|State	IN|NNP|NNP|NNP	O|LOCATION|LOCATION|LOCATION	|||					
+20	3	fb:cell.shm_memorial_center_orangeburg_sc	SHM Memorial Center • Orangeburg, SC	shm|memorial|center|•|orangeburg|,|sc	SHM|Memorial|Center|•|Orangeburg|,|SC	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|LOCATION|O|O	||||||				SHM Memorial Center • Orangeburg|SC	fb:part.shm_memorial_center_orangeburg|fb:part.sc
+20	4	fb:cell.null											
+20	5	fb:cell.l_67_69	L 67–69	l|67|--|69	l|67|--|69	NN|CD|:|CD	O|NUMBER|O|NUMBER	|67.0||69.0	67.0		69.0		
+20	6	fb:cell.751	751	751	751	CD	NUMBER	751.0	751.0			751	fb:part.751
+20	7	fb:cell.2_19_0_6	2–19 (0–6)	2|--|19|-lrb-|0|--|6|-rrb-	2|--|19|-lrb-|0|--|6|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	2.0||19.0||0.0||6.0|	2.0		19.0		
+21	0	fb:cell.01_25_2014	01/25/2014	01\\/25\\/2014	01\\/25\\/2014	NN	DATE	2014-01-25	1.0	2014-01-25	25.0	01|25|2014	fb:part.01|fb:part.25|fb:part.2014_2
+21	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+21	2	fb:cell.maryland_eastern_shore	Maryland Eastern Shore	maryland|eastern|shore	Maryland|Eastern|Shore	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+21	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+21	4	fb:cell.null											
+21	5	fb:cell.w_69_63	W 69–63	w|69|--|63	W|69|--|63	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|69.0||63.0	69.0		63.0		
+21	6	fb:cell.1_030	1,030	1,030	1,030	CD	NUMBER	1030.0	1030.0			1,030	fb:part.1_030
+21	7	fb:cell.3_19_1_6	3–19 (1–6)	3|--|19|-lrb-|1|--|6|-rrb-	3|--|19|-lrb-|1|--|6|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	3.0||19.0||1.0||6.0|	3.0		19.0		
+22	0	fb:cell.01_27_2014	01/27/2014	01\\/27\\/2014	01\\/27\\/2014	NN	DATE	2014-01-27	1.0	2014-01-27	27.0	01|27|2014	fb:part.01|fb:part.27|fb:part.2014_2
+22	1	fb:cell.7_30_pm	7:30 pm	7:30|pm	7:30|pm	CD|NN	TIME|TIME	T19:30|T19:30	7.0		30.0		
+22	2	fb:cell.howard	Howard	howard	Howard	NNP	PERSON						
+22	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+22	4	fb:cell.null											
+22	5	fb:cell.w_58_47	W 58–47	w|58|--|47	W|58|--|47	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|58.0||47.0	58.0		47.0		
+22	6	fb:cell.1_216	1,216	1,216	1,216	CD	NUMBER	1216.0	1216.0			1,216	fb:part.1_216
+22	7	fb:cell.4_19_2_6	4–19 (2–6)	4|--|19|-lrb-|2|--|6|-rrb-	4|--|19|-lrb-|2|--|6|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	4.0||19.0||2.0||6.0|	4.0		19.0		
+23	0	fb:cell.02_01_2014	02/01/2014	02\\/01\\/2014	02\\/01\\/2014	NN	DATE	2014-02-01	2.0	2014-02-01	1.0	02|01|2014	fb:part.02|fb:part.01|fb:part.2014_2
+23	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+23	2	fb:cell.savannah_state	Savannah State	savannah|state	Savannah|State	NNP|NNP	LOCATION|LOCATION	|					
+23	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+23	4	fb:cell.null											
+23	5	fb:cell.l_40_50	L 40–50	l|40|--|50	l|40|--|50	NN|CD|:|CD	O|NUMBER|O|NUMBER	|40.0||50.0	40.0		50.0		
+23	6	fb:cell.1_075	1,075	1,075	1,075	CD	NUMBER	1075.0	1075.0			1,075	fb:part.1_075
+23	7	fb:cell.4_20_2_7	4–20 (2–7)	4|--|20|-lrb-|2|--|7|-rrb-	4|--|20|-lrb-|2|--|7|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	4.0||20.0||2.0||7.0|	4.0		20.0		
+24	0	fb:cell.02_03_2014	02/03/2014	02\\/03\\/2014	02\\/03\\/2014	NN	DATE	2014-02-03	2.0	2014-02-03	3.0	02|03|2014	fb:part.02|fb:part.03|fb:part.2014_2
+24	1	fb:cell.7_30_pm	7:30 pm	7:30|pm	7:30|pm	CD|NN	TIME|TIME	T19:30|T19:30	7.0		30.0		
+24	2	fb:cell.south_carolina_state	South Carolina State	south|carolina|state	South|Carolina|State	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+24	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+24	4	fb:cell.null											
+24	5	fb:cell.w_91_59	W 91–59	w|91|--|59	W|91|--|59	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|91.0||59.0	91.0		59.0		
+24	6	fb:cell.1_063	1,063	1,063	1,063	CD	NUMBER	1063.0	1063.0			1,063	fb:part.1_063
+24	7	fb:cell.5_20_3_7	5–20 (3–7)	5|--|20|-lrb-|3|--|7|-rrb-	5|--|20|-lrb-|3|--|7|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	5.0||20.0||3.0||7.0|	5.0		20.0		
+25	0	fb:cell.02_08_2014	02/08/2014	02\\/08\\/2014	02\\/08\\/2014	NN	DATE	2014-02-08	2.0	2014-02-08	8.0	02|08|2014	fb:part.02|fb:part.08|fb:part.2014_2
+25	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+25	2	fb:cell.at_north_carolina_central	at North Carolina Central	at|north|carolina|central	at|North|Carolina|Central	IN|NNP|NNP|NNP	O|LOCATION|LOCATION|LOCATION	|||					
+25	3	fb:cell.mclendon_mcdougald_gymnasium_durham_nc	McLendon–McDougald Gymnasium • Durham, NC	mclendon|--|mcdougald|gymnasium|•|durham|,|nc	McLendon|--|McDougald|Gymnasium|•|Durham|,|NC	NNP|:|NNP|NNP|NNP|NNP|,|NNP	PERSON|O|PERSON|O|O|LOCATION|O|O	|||||||				McLendon–McDougald Gymnasium • Durham|NC	fb:part.mclendon_mcdougald_gymnasium_durham|fb:part.nc
+25	4	fb:cell.null											
+25	5	fb:cell.l_54_77	L 54–77	l|54|--|77	l|54|--|77	NN|CD|:|CD	O|NUMBER|O|NUMBER	|54.0||77.0	54.0		77.0		
+25	6	fb:cell.2_420	2,420	2,420	2,420	CD	NUMBER	2420.0	2420.0			2,420	fb:part.2_420
+25	7	fb:cell.5_21_3_8	5–21 (3–8)	5|--|21|-lrb-|3|--|8|-rrb-	5|--|21|-lrb-|3|--|8|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	5.0||21.0||3.0||8.0|	5.0		21.0		
+26	0	fb:cell.02_10_2014	02/10/2014	02\\/10\\/2014	02\\/10\\/2014	NN	DATE	2014-02-10	2.0	2014-02-10	10.0	02|10|2014	fb:part.02|fb:part.10|fb:part.2014_2
+26	1	fb:cell.8_00_pm	8:00 pm	8:00|pm	8:00|pm	CD|NN	TIME|TIME	T20:00|T20:00	8.0		0.0		
+26	2	fb:cell.at_north_carolina_a_t	at North Carolina A&T	at|north|carolina|a&t	at|North|Carolina|A&T	IN|NNP|NNP|NNP	O|LOCATION|LOCATION|O	|||					
+26	3	fb:cell.corbett_sports_center_greensboro_nc	Corbett Sports Center • Greensboro, NC	corbett|sports|center|•|greensboro|,|nc	Corbett|Sports|Center|•|Greensboro|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O	||||||				Corbett Sports Center • Greensboro|NC	fb:part.corbett_sports_center_greensboro|fb:part.nc
+26	4	fb:cell.null											
+26	5	fb:cell.w_72_71	W 72–71	w|72|--|71	W|72|--|71	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|72.0||71.0	72.0		71.0		
+26	6	fb:cell.1_019	1,019	1,019	1,019	CD	NUMBER	1019.0	1019.0			1,019	fb:part.1_019
+26	7	fb:cell.6_21_4_8	6–21 (4–8)	6|--|21|-lrb-|4|--|8|-rrb-	6|--|21|-lrb-|4|--|8|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	6.0||21.0||4.0||8.0|	6.0		21.0		
+27	0	fb:cell.02_15_2014	02/15/2014	02\\/15\\/2014	02\\/15\\/2014	NN	DATE	2014-02-15	2.0	2014-02-15	15.0	02|15|2014	fb:part.02|fb:part.15|fb:part.2014_2
+27	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+27	2	fb:cell.delaware_state	Delaware State	delaware|state	Delaware|State	NNP|NNP	LOCATION|O	|					
+27	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+27	4	fb:cell.null											
+27	5	fb:cell.l_67_79	L 67–79	l|67|--|79	l|67|--|79	NN|CD|:|CD	O|NUMBER|O|NUMBER	|67.0||79.0	67.0		79.0		
+27	6	fb:cell.843	843	843	843	CD	NUMBER	843.0	843.0			843	fb:part.843
+27	7	fb:cell.6_22_4_9	6–22 (4–9)	6|--|22|-lrb-|4|--|9|-rrb-	6|--|22|-lrb-|4|--|9|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	6.0||22.0||4.0||9.0|	6.0		22.0		
+28	0	fb:cell.02_22_2014	02/22/2014	02\\/22\\/2014	02\\/22\\/2014	NN	DATE	2014-02-22	2.0	2014-02-22	22.0	02|22|2014	fb:part.02|fb:part.22|fb:part.2014_2
+28	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+28	2	fb:cell.florida_a_m	Florida A&M	florida|a&m	Florida|A&M	NNP|NNP	LOCATION|O	|					
+28	3	fb:cell.moore_gymnasium_daytona_beach_fl	Moore Gymnasium • Daytona Beach, FL	moore|gymnasium|•|daytona|beach|,|fl	Moore|Gymnasium|•|Daytona|Beach|,|fl	NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				Moore Gymnasium • Daytona Beach|FL	fb:part.moore_gymnasium_daytona_beach|fb:part.fl
+28	4	fb:cell.null											
+28	5	fb:cell.l_75_80	L 75–80	l|75|--|80	l|75|--|80	NN|CD|:|CD	O|NUMBER|O|NUMBER	|75.0||80.0	75.0		80.0		
+28	6	fb:cell.3_231	3,231	3,231	3,231	CD	NUMBER	3231.0	3231.0			3,231	fb:part.3_231
+28	7	fb:cell.6_23_4_10	6–23 (4–10)	6|--|23|-lrb-|4|--|10|-rrb-	6|--|23|-lrb-|4|--|10|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	6.0||23.0||4.0||10.0|	6.0		23.0		
+29	0	fb:cell.03_01_2014	03/01/2014	03\\/01\\/2014	03\\/01\\/2014	NN	DATE	2014-03-01	3.0	2014-03-01	1.0	03|01|2014	fb:part.03|fb:part.01|fb:part.2014_2
+29	1	fb:cell.4_00_pm	4:00 pm	4:00|pm	4:00|pm	CD|NN	TIME|TIME	T16:00|T16:00	4.0		0.0		
+29	2	fb:cell.at_morgan_state	at Morgan State	at|morgan|state	at|Morgan|State	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+29	3	fb:cell.talmadge_l_hill_field_house_baltimore_md	Talmadge L. Hill Field House • Baltimore, MD	talmadge|l.|hill|field|house|•|baltimore|,|md	Talmadge|L.|Hill|Field|House|•|Baltimore|,|md	NNP|NNP|NNP|NNP|NNP|NNP|NNP|,|NN	PERSON|PERSON|PERSON|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O	||||||||				Talmadge L. Hill Field House • Baltimore|MD	fb:part.talmadge_l_hill_field_house_baltimore|fb:part.md
+29	4	fb:cell.null											
+29	5	fb:cell.l_61_65	L 61–65	l|61|--|65	l|61|--|65	NN|CD|:|CD	O|NUMBER|O|NUMBER	|61.0||65.0	61.0		65.0		
+29	6	fb:cell.2_056	2,056	2,056	2,056	CD	NUMBER	2056.0	2056.0			2,056	fb:part.2_056
+29	7	fb:cell.6_24_4_11	6–24 (4–11)	6|--|24|-lrb-|4|--|11|-rrb-	6|--|24|-lrb-|4|--|11|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	6.0||24.0||4.0||11.0|	6.0		24.0		
+30	0	fb:cell.03_06_2014	03/06/2014	03\\/06\\/2014	03\\/06\\/2014	NN	DATE	2014-03-06	3.0	2014-03-06	6.0	03|06|2014	fb:part.03|fb:part.06|fb:part.2014_2
+30	1	fb:cell.7_30_pm	7:30 pm	7:30|pm	7:30|pm	CD|NN	TIME|TIME	T19:30|T19:30	7.0		30.0		
+30	2	fb:cell.at_florida_a_m	at Florida A&M	at|florida|a&m	at|Florida|A&M	IN|NNP|NNP	O|LOCATION|O	||					
+30	3	fb:cell.teaching_gym_tallahassee_fl	Teaching Gym • Tallahassee, FL	teaching|gym|•|tallahassee|,|fl	teaching|gym|•|Tallahassee|,|fl	NN|NN|CD|NNP|,|NN	O|O|NUMBER|LOCATION|O|LOCATION	|||||				Teaching Gym • Tallahassee|FL	fb:part.teaching_gym_tallahassee|fb:part.fl
+30	4	fb:cell.null											
+30	5	fb:cell.w_70_68	W 70–68	w|70|--|68	W|70|--|68	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|70.0||68.0	70.0		68.0		
+30	6	fb:cell.2_376	2,376	2,376	2,376	CD	NUMBER	2376.0	2376.0			2,376	fb:part.2_376
+30	7	fb:cell.7_24_5_11	7–24 (5–11)	7|--|24|-lrb-|5|--|11|-rrb-	7|--|24|-lrb-|5|--|11|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	7.0||24.0||5.0||11.0|	7.0		24.0		
+31	0	fb:cell.03_11_2014	03/11/2014	03\\/11\\/2014	03\\/11\\/2014	NN	DATE	2014-03-11	3.0	2014-03-11	11.0	03|11|2014	fb:part.03|fb:part.11|fb:part.2014_2
+31	1	fb:cell.6_30_pm	6:30 pm	6:30|pm	6:30|pm	CD|NN	TIME|TIME	T18:30|T18:30	6.0		30.0		
+31	2	fb:cell.vs_coppin_state	vs. Coppin State	vs.|coppin|state	vs.|Coppin|State	CC|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+31	3	fb:cell.norfolk_scope_norfolk_va_first_round	Norfolk Scope • Norfolk, VA\n(First round)	norfolk|scope|•|norfolk|,|va|-lrb-|first|round|-rrb-	Norfolk|Scope|•|Norfolk|,|VA|-lrb-|First|round|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NN|-RRB-	LOCATION|O|O|LOCATION|O|O|O|ORDINAL|O|O	|||||||1.0||				Norfolk Scope • Norfolk|VA|(First round)	fb:part.norfolk_scope_norfolk|fb:part.va|fb:part._first_round
+31	4	fb:cell.null											
+31	5	fb:cell.l_68_75	L 68–75	l|68|--|75	l|68|--|75	NN|CD|:|CD	O|NUMBER|O|NUMBER	|68.0||75.0	68.0		75.0		
+31	6	fb:cell.4_658	4,658	4,658	4,658	CD	NUMBER	4658.0	4658.0			4,658	fb:part.4_658
+31	7	fb:cell.7_25	7–25	7|--|25	7|--|25	CD|:|CD	NUMBER|O|NUMBER	7.0||25.0	7.0		25.0		

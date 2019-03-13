@@ -1,0 +1,185 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.manufacturer	Manufacturer	manufacturer	manufacturer	NN	O						
+-1	2	fb:row.row.model	Model	model	Model	NNP	O						
+-1	3	fb:row.row.length_feet	Length (feet)	length|-lrb-|feet|-rrb-	length|-lrb-|foot|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.quantity	Quantity	quantity	quantity	NN	O						
+-1	5	fb:row.row.fleet_series	Fleet Series	fleet|series	Fleet|Series	NNP|NNP	O|O	|					
+-1	6	fb:row.row.fuel_propulsion	Fuel Propulsion	fuel|propulsion	fuel|propulsion	NN|NN	O|O	|					
+-1	7	fb:row.row.powertrain	Powertrain	powertrain	powertrain	NN	O						
+0	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+0	1	fb:cell.new_flyer	New Flyer	new|flyer	New|Flyer	NNP|NNP	O|O	|					
+0	2	fb:cell.d60	D60	d60	d60	NN	O		60.0				
+0	3	fb:cell.60_articulated	60 (articulated)	60|-lrb-|articulated|-rrb-	60|-lrb-|articulate|-rrb-	CD|-LRB-|VBN|-RRB-	NUMBER|O|O|O	60.0|||	60.0				
+0	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+0	5	fb:cell.1901_1930	1901-1930*	1901-1930|\\*	1901-1930|\\*	CD|SYM	DATE|O	1901/1930|	1901.0		1930.0	1901-1930*	fb:part.1901_1930
+0	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+0	7	fb:cell.detroit_diesel_series_50_allison_b400r	Detroit Diesel Series 50\nAllison B400R	detroit|diesel|series|50|allison|b400r	Detroit|Diesel|Series|50|Allison|b400r	NNP|NNP|NNP|CD|NNP|NN	LOCATION|O|O|NUMBER|PERSON|O	|||50.0||	50.0		400.0	Detroit Diesel Series 50|Allison B400R	fb:part.detroit_diesel_series_50|fb:part.allison_b400r
+1	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+1	1	fb:cell.nabi	NABI	nabi	NABI	NNP	ORGANIZATION						
+1	2	fb:cell.416	416	416	416	CD	NUMBER	416.0	416.0				
+1	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+1	4	fb:cell.133	133	133	133	CD	NUMBER	133.0	133.0				
+1	5	fb:cell.3001_3067_3101_3166	3001-3067, 3101-3166*	3001-3067|,|3101-3166|\\*	3001-3067|,|3101-3166|\\*	CD|,|CD|SYM	DURATION|O|DURATION|O	3001.0||3101.0|	3001.0		3.0673101E7	3001-3067|3101-3166*	fb:part.3001_3067|fb:part.3101_3166
+1	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+1	7	fb:cell.cummins_m11e_allison_b400r	Cummins M11E\nAllison B400R	cummins|m11e|allison|b400r	Cummins|M11E|Allison|b400r	NNP|NNP|NNP|NN	O|O|PERSON|PERSON	|||	11.0		400.0	Cummins M11E|Allison B400R	fb:part.cummins_m11e|fb:part.allison_b400r
+2	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+2	1	fb:cell.nabi	NABI	nabi	NABI	NNP	ORGANIZATION						
+2	2	fb:cell.40_lfw	40-LFW	40|lfw	40|lfw	CD|NN	NUMBER|O	40.0|	40.0				
+2	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+2	4	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+2	5	fb:cell.4001_4044	4001-4044	4001-4044	4001-4044	CD	DURATION	4001.0	4001.0		4044.0	4001-4044	fb:part.4001_4044
+2	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+2	7	fb:cell.null											fb:part.null
+3	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+3	1	fb:cell.nabi	NABI	nabi	NABI	NNP	ORGANIZATION						
+3	2	fb:cell.40_lfw	40-LFW	40|lfw	40|lfw	CD|NN	NUMBER|O	40.0|	40.0				
+3	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+3	4	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+3	5	fb:cell.7201_7223	7201-7223	7201-7223	7201-7223	CD	DURATION	7201.0	7201.0		7223.0	7201-7223	fb:part.7201_7223
+3	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+3	7	fb:cell.cummins_ism_allison_b400r	Cummins ISM\nAllison B400R	cummins|ism|allison|b400r	Cummins|ISM|Allison|b400r	NNP|NNP|NNP|NN	O|O|PERSON|PERSON	|||	400.0			Cummins ISM|Allison B400R	fb:part.cummins_ism|fb:part.allison_b400r
+4	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+4	1	fb:cell.mci	MCI	mci	MCI	NNP	O						
+4	2	fb:cell.d4500	D4500	d4500	d4500	CD	NUMBER	4500.0	4500.0				
+4	3	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+4	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+4	5	fb:cell.6001_6030	6001-6030	6001-6030	6001-6030	CD	DURATION	6001.0	6001.0		6030.0	6001-6030	fb:part.6001_6030
+4	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+4	7	fb:cell.null											fb:part.null
+5	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+5	1	fb:cell.mci	MCI	mci	MCI	NNP	O						
+5	2	fb:cell.d4500	D4500	d4500	d4500	CD	NUMBER	4500.0	4500.0				
+5	3	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+5	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+5	5	fb:cell.6031_6040	6031-6040	6031-6040	6031-6040	CD	DURATION	6031.0	6031.0		6040.0	6031-6040	fb:part.6031_6040
+5	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+5	7	fb:cell.null											fb:part.null
+6	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+6	1	fb:cell.mci	MCI	mci	MCI	NNP	O						
+6	2	fb:cell.d4500	D4500	d4500	d4500	CD	NUMBER	4500.0	4500.0				
+6	3	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+6	4	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+6	5	fb:cell.6041_6079	6041-6079	6041-6079	6041-6079	CD	DURATION	6041.0	6041.0		6079.0	6041-6079	fb:part.6041_6079
+6	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+6	7	fb:cell.null											fb:part.null
+7	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+7	1	fb:cell.nabi	NABI	nabi	NABI	NNP	ORGANIZATION						
+7	2	fb:cell.40_lfw	40-LFW	40|lfw	40|lfw	CD|NN	NUMBER|O	40.0|	40.0				
+7	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+7	4	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+7	5	fb:cell.4051_4090	4051-4090	4051-4090	4051-4090	CD	DURATION	4051.0	4051.0		4090.0	4051-4090	fb:part.4051_4090
+7	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+7	7	fb:cell.cummins_isl_allison_b400r	Cummins ISL\nAllison B400R	cummins|isl|allison|b400r	Cummins|ISL|Allison|b400r	NNP|NNP|NNP|NN	O|O|PERSON|PERSON	|||	400.0			Cummins ISL|Allison B400R	fb:part.cummins_isl|fb:part.allison_b400r
+8	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+8	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+8	2	fb:cell.a330	A330	a330	a330	NN	O		330.0				
+8	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+8	4	fb:cell.110	110	110	110	CD	NUMBER	110.0	110.0				
+8	5	fb:cell.1001_1110	1001-1110	1001-1110	1001-1110	CD	DATE	1001/1110	1001.0		1110.0	1001-1110	fb:part.1001_1110
+8	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+8	7	fb:cell.cummins_ism_voith_d864_3e	Cummins ISM\nVoith D864.3E	cummins|ism|voith|d864|.3|e	Cummins|ISM|Voith|d864|.3|e	NNP|NNP|NNP|NN|NN|NN	O|O|O|O|NUMBER|O	||||0.3|	864.3			Cummins ISM|Voith D864.3E	fb:part.cummins_ism|fb:part.voith_d864_3e
+9	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+9	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+9	2	fb:cell.ag300	AG300	ag300	ag300	NN	O		300.0				
+9	3	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+9	4	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+9	5	fb:cell.2001_2057	2001-2057	2001-2057	2001-2057	CD	DATE	2001/2057	2001.0		2057.0	2001-2057	fb:part.2001_2057
+9	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+9	7	fb:cell.cummins_ism_voith_d864_3e	Cummins ISM\nVoith D864.3E	cummins|ism|voith|d864|.3|e	Cummins|ISM|Voith|d864|.3|e	NNP|NNP|NNP|NN|NN|NN	O|O|O|O|NUMBER|O	||||0.3|	864.3			Cummins ISM|Voith D864.3E	fb:part.cummins_ism|fb:part.voith_d864_3e
+10	0	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+10	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+10	2	fb:cell.a300fc	A300FC	a300fc	a300fc	NN	O		300.0				
+10	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+10	4	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+10	5	fb:cell.fc1_fc3	FC1-FC3	fc1|fc3	fc1|fc3	NN|NN	O|O	|	1.0		3.0	FC1-FC3	fb:part.fc1_fc3
+10	6	fb:cell.hydrogen	Hydrogen	hydrogen	hydrogen	NN	O						
+10	7	fb:cell.null											fb:part.null
+11	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+11	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+11	2	fb:cell.a300k	A300K	a300k	a300k	CD	NUMBER	300.0	300.0				
+11	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+11	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+11	5	fb:cell.5001_5050	5001-5050	5001-5050	5001-5050	CD	DURATION	5001.0	5001.0		5050.0	5001-5050	fb:part.5001_5050
+11	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+11	7	fb:cell.cummins_isb_voith_d864_3e	Cummins ISB\nVoith D864.3E	cummins|isb|voith|d864|.3|e	Cummins|ISB|Voith|d864|.3|e	NNP|NNP|NNP|NN|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O	||||0.3|	864.3			Cummins ISB|Voith D864.3E	fb:part.cummins_isb|fb:part.voith_d864_3e
+12	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+12	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+12	2	fb:cell.ag300	AG300	ag300	ag300	NN	O		300.0				
+12	3	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+12	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+12	5	fb:cell.2101_2110	2101-2110	2101-2110	2101-2110	CD	DATE	2101/2110	2101.0		2110.0	2101-2110	fb:part.2101_2110
+12	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+12	7	fb:cell.cummins_isl_voith_d864_3e	Cummins ISL\nVoith D864.3E	cummins|isl|voith|d864|.3|e	Cummins|ISL|Voith|d864|.3|e	NNP|NNP|NNP|NN|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O	||||0.3|	864.3			Cummins ISL|Voith D864.3E	fb:part.cummins_isl|fb:part.voith_d864_3e
+13	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+13	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+13	2	fb:cell.ag300	AG300	ag300	ag300	NN	O		300.0				
+13	3	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+13	4	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+13	5	fb:cell.2151_2165	2151-2165	2151-2165	2151-2165	CD	DATE	2151/2165	2151.0		2165.0	2151-2165	fb:part.2151_2165
+13	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+13	7	fb:cell.cummins_ism_voith_d864_3e	Cummins ISM\nVoith D864.3E	cummins|ism|voith|d864|.3|e	Cummins|ISM|Voith|d864|.3|e	NNP|NNP|NNP|NN|NN|NN	O|O|O|O|NUMBER|O	||||0.3|	864.3			Cummins ISM|Voith D864.3E	fb:part.cummins_ism|fb:part.voith_d864_3e
+14	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+14	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+14	2	fb:cell.a300l	A300L	a300l	a300l	NN	O		300.0				
+14	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+14	4	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+14	5	fb:cell.1201_1227	1201-1227	1201-1227	1201-1227	CD	DATE	1201/1227	1201.0		1227.0	1201-1227	fb:part.1201_1227
+14	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+14	7	fb:cell.cummins_isl_voith_d864_5	Cummins ISL\nVoith D864.5	cummins|isl|voith|d864|.5	Cummins|ISL|Voith|d864|.5	NNP|NNP|NNP|NN|CD	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER	||||0.5	864.5			Cummins ISL|Voith D864.5	fb:part.cummins_isl|fb:part.voith_d864_5
+15	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+15	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+15	2	fb:cell.a300k	A300K	a300k	a300k	CD	NUMBER	300.0	300.0				
+15	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+15	4	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+15	5	fb:cell.5099	5099	5099	5099	CD	NUMBER	5099.0	5099.0			5099	fb:part.5099
+15	6	fb:cell.diesel_electric_hybrid	Diesel-electric hybrid	diesel|electric|hybrid	Diesel|electric|hybrid	NNP|JJ|NN	O|O|O	||					
+15	7	fb:cell.null											fb:part.null
+16	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+16	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+16	2	fb:cell.a300k	A300K	a300k	a300k	CD	NUMBER	300.0	300.0				
+16	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+16	4	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+16	5	fb:cell.5101_5139	5101-5139	5101-5139	5101-5139	CD	DURATION	5101.0	5101.0		5139.0	5101-5139	fb:part.5101_5139
+16	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+16	7	fb:cell.cummins_isb_voith_d854_5	Cummins ISB\nVoith D854.5	cummins|isb|voith|d854|.5	Cummins|ISB|Voith|d854|.5	NNP|NNP|NNP|NN|CD	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER	||||0.5	854.5			Cummins ISB|Voith D854.5	fb:part.cummins_isb|fb:part.voith_d854_5
+17	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+17	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+17	2	fb:cell.ag300	AG300	ag300	ag300	NN	O		300.0				
+17	3	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+17	4	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+17	5	fb:cell.2191_2199	2191-2199	2191-2199	2191-2199	CD	DATE	2191/2199	2191.0		2199.0	2191-2199	fb:part.2191_2199
+17	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+17	7	fb:cell.cummins_isl_voith_d864_5	Cummins ISL\nVoith D864.5	cummins|isl|voith|d864|.5	Cummins|ISL|Voith|d864|.5	NNP|NNP|NNP|NN|CD	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER	||||0.5	864.5			Cummins ISL|Voith D864.5	fb:part.cummins_isl|fb:part.voith_d864_5
+18	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+18	1	fb:cell.van_hool	Van Hool	van|hool	Van|Hool	NNP|NNP	PERSON|PERSON	|					
+18	2	fb:cell.a300l_fc	A300L FC	a300l|fc	a300l|fc	NN|NN	O|O	|	300.0				
+18	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+18	4	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+18	5	fb:cell.fc4_fc16	FC4-FC16	fc4|fc16	fc4|fc16	NN|NN	O|O	|	4.0		16.0	FC4-FC16	fb:part.fc4_fc16
+18	6	fb:cell.hydrogen	Hydrogen	hydrogen	hydrogen	NN	O						
+18	7	fb:cell.null											fb:part.null
+19	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+19	1	fb:cell.gillig	Gillig	gillig	Gillig	NNP	PERSON						
+19	2	fb:cell.low_floor_advantage	Low-floor Advantage	low|floor|advantage	low|floor|advantage	JJ|NN|NN	O|O|O	||					
+19	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+19	4	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+19	5	fb:cell.1301_1365	1301-1365	1301-1365	1301-1365	CD	DATE	1301/1365	1301.0		1365.0	1301-1365	fb:part.1301_1365
+19	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+19	7	fb:cell.cummins_isl_280_hp_allison_b400_6_speed	Cummins ISL 280 HP \nAllison B400 6-speed	cummins|isl|280|hp|allison|b400|6|speed	Cummins|ISL|280|HP|Allison|b400|6|speed	NNP|NNP|CD|NNP|NNP|NN|CD|NN	ORGANIZATION|ORGANIZATION|NUMBER|O|PERSON|O|NUMBER|O	||280.0||||6.0|	280.0		4006.0	Cummins ISL 280 HP|Allison B400 6-speed	fb:part.cummins_isl_280_hp|fb:part.allison_b400_6_speed
+20	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+20	1	fb:cell.new_flyer	New Flyer	new|flyer	New|Flyer	NNP|NNP	O|O	|					
+20	2	fb:cell.xcelsior_d60	Xcelsior D60	xcelsior|d60	Xcelsior|d60	NNP|NN	O|O	|	60.0				
+20	3	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+20	4	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+20	5	fb:cell.2201_2223	2201-2223	2201-2223	2201-2223	CD	DATE	2201/2223	2201.0		2223.0	2201-2223	fb:part.2201_2223
+20	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+20	7	fb:cell.cummins_isl_330_hp_allison_b400_6_speed	Cummins ISL 330 HP\nAllison B400 6-speed	cummins|isl|330|hp|allison|b400|6|speed	Cummins|ISL|330|HP|Allison|b400|6|speed	NNP|NNP|CD|NNP|NNP|NN|CD|NN	ORGANIZATION|ORGANIZATION|NUMBER|O|PERSON|O|NUMBER|O	||330.0||||6.0|	330.0		4006.0	Cummins ISL 330 HP|Allison B400 6-speed	fb:part.cummins_isl_330_hp|fb:part.allison_b400_6_speed
+21	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+21	1	fb:cell.gillig	Gillig	gillig	Gillig	NNP	PERSON						
+21	2	fb:cell.low_floor_advantage	Low-floor Advantage	low|floor|advantage	low|floor|advantage	JJ|NN|NN	O|O|O	||					
+21	3	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+21	4	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+21	5	fb:cell.6101_6155	6101-6155	6101-6155	6101-6155	CD	DURATION	6101.0	6101.0		6155.0	6101-6155	fb:part.6101_6155
+21	6	fb:cell.diesel	Diesel	diesel	Diesel	NNP	O						
+21	7	fb:cell.cummins_isl_280_hp_allison_b400_6_speed	Cummins ISL 280 HP \nAllison B400 6-speed	cummins|isl|280|hp|allison|b400|6|speed	Cummins|ISL|280|HP|Allison|b400|6|speed	NNP|NNP|CD|NNP|NNP|NN|CD|NN	ORGANIZATION|ORGANIZATION|NUMBER|O|PERSON|O|NUMBER|O	||280.0||||6.0|	280.0		4006.0	Cummins ISL 280 HP|Allison B400 6-speed	fb:part.cummins_isl_280_hp|fb:part.allison_b400_6_speed

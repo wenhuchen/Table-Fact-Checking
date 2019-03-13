@@ -1,0 +1,43 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.route_number	Route Number	route|number	route|number	NN|NN	O|O	|					
+-1	1	fb:row.row.terminals	Terminals	terminals	terminal	NNS	O						
+-1	2	fb:row.row.terminals_2	Terminals	terminals	terminal	NNS	O						
+-1	3	fb:row.row.via	Via	via	Via	NNP	O						
+-1	4	fb:row.row.operator	Operator	operator	operator	NN	O						
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.310_310a_311	310 \n310A \n311	310|310a|311	310|310a|311	CD|NN|CD	NUMBER|O|NUMBER	310.0||311.0	310.0		310.0	310|310A|311	fb:part.310|fb:part.310a|fb:part.311
+0	1	fb:cell.waltham_cross_bus_station	Waltham Cross Bus Station	waltham|cross|bus|station	Waltham|Cross|Bus|Station	NNP|NNP|NNP|NNP	LOCATION|O|O|O	|||					
+0	2	fb:cell.hertford_bus_station	Hertford Bus Station	hertford|bus|station	Hertford|Bus|Station	NNP|NNP|NNP	LOCATION|O|O	||					
+0	3	fb:cell.cheshunt_broxbourne_ware	Cheshunt,\nBroxbourne,\nWare	cheshunt|,|broxbourne|,|ware	Cheshunt|,|Broxbourne|,|Ware	NNP|,|NNP|,|NNP	LOCATION|O|O|O|PERSON	||||				Cheshunt|Broxbourne|Ware	fb:part.cheshunt|fb:part.broxbourne|fb:part.ware
+0	4	fb:cell.arriva_shires_essex_centrebus	Arriva Shires & Essex,\nCentrebus	arriva|shires|&|essex|,|centrebus	Arriva|Shires|&|Essex|,|Centrebus	NNP|NNP|CC|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Arriva Shires & Essex|Centrebus	fb:part.arriva_shires_essex|fb:part.centrebus
+0	5	fb:cell.mon_sat_310_mon_fri_peaks_310a	Mon-Sat (310), Mon-Fri peaks (310A),.	mon|sat|-lrb-|310|-rrb-|,|mon|fri|peaks|-lrb-|310a|-rrb-|,|.	Mon|Sat|-lrb-|310|-rrb-|,|Mon|Fri|peak|-lrb-|310a|-rrb-|,|.	NNP|NNP|-LRB-|CD|-RRB-|,|NNP|NNP|VBZ|-LRB-|NN|-RRB-|,|.	DATE|DATE|O|NUMBER|O|O|DATE|DATE|O|O|O|O|O|O	XXXX-WXX-1|XXXX-WXX-1||310.0|||XXXX-WXX-1|XXXX-WXX-1||||||	310.0		310.0	Mon-Sat (310)|Mon-Fri peaks (310A),.	fb:part.mon_sat_310|fb:part.mon_fri_peaks_310a
+1	0	fb:cell.323	323	323	323	CD	NUMBER	323.0	323.0			323	fb:part.323
+1	1	fb:cell.broxbourne_station	Broxbourne Station	broxbourne|station	Broxbourne|Station	NNP|NNP	O|O	|					
+1	2	fb:cell.essex_road_industrial_estate	Essex Road Industrial Estate	essex|road|industrial|estate	Essex|Road|Industrial|Estate	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+1	3	fb:cell.hoddesdon	Hoddesdon	hoddesdon	Hoddesdon	NNP	PERSON					Hoddesdon	fb:part.hoddesdon
+1	4	fb:cell.sm_coaches	SM Coaches	sm|coaches	SM|Coaches	NNP|NNPS	O|O	|				SM Coaches	fb:part.sm_coaches
+1	5	fb:cell.mon_fri_peak_hours_herts_cc_contract_times	Mon-Fri peak hours. Herts CC contract. Times	mon|fri|peak|hours|.|herts|cc|contract|.|times	Mon|Fri|peak|hour|.|Herts|cc|contract|.|Times	NNP|NNP|NN|NNS|.|NNP|NN|NN|.|NNP	DATE|DATE|O|DURATION|O|O|O|O|O|O	XXXX-WXX-1|XXXX-WXX-1||||||||				Mon-Fri peak hours. Herts CC contract. Times	fb:part.mon_fri_peak_hours_herts_cc_contract_times
+2	0	fb:cell.392	392	392	392	CD	NUMBER	392.0	392.0			392	fb:part.392
+2	1	fb:cell.harlow_town_station	Harlow Town Station	harlow|town|station	Harlow|Town|Station	NNP|NNP|NNP	O|O|O	||					
+2	2	fb:cell.rye_park_old_highway	Rye Park Old Highway	rye|park|old|highway	Rye|Park|Old|Highway	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+2	3	fb:cell.nazeing_broxbourne	Nazeing,\nBroxbourne	nazeing|,|broxbourne	Nazeing|,|Broxbourne	NNP|,|NNP	MISC|O|PERSON	||				Nazeing|Broxbourne	fb:part.nazeing|fb:part.broxbourne
+2	4	fb:cell.network_harlow	Network Harlow	network|harlow	Network|Harlow	NNP|NNP	O|PERSON	|				Network Harlow	fb:part.network_harlow
+2	5	fb:cell.mon_sat_essex_cc_contract_times	Mon-Sat. Essex CC contract. Times	mon|sat|.|essex|cc|contract|.|times	Mon|Sat|.|Essex|cc|contract|.|Times	NNP|NNP|.|NNP|NN|NN|.|NNP	DATE|DATE|O|ORGANIZATION|ORGANIZATION|O|O|O	XXXX-WXX-1|XXXX-WXX-1||||||				Mon-Sat. Essex CC contract. Times	fb:part.mon_sat_essex_cc_contract_times
+3	0	fb:cell.641	641	641	641	CD	NUMBER	641.0	641.0			641	fb:part.641
+3	1	fb:cell.broxbourne_station	Broxbourne Station	broxbourne|station	Broxbourne|Station	NNP|NNP	O|O	|					
+3	2	fb:cell.hatfield_business_park	Hatfield Business Park	hatfield|business|park	Hatfield|Business|Park	NNP|NNP|NNP	O|O|O	||					
+3	3	fb:cell.hertford_university_of_hertfordshire	Hertford, University of Hertfordshire	hertford|,|university|of|hertfordshire	Hertford|,|University|of|Hertfordshire	NNP|,|NNP|IN|NNP	LOCATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Hertford|University of Hertfordshire	fb:part.hertford|fb:part.university_of_hertfordshire
+3	4	fb:cell.uno	Uno	uno	Uno	NNP	O					Uno	fb:part.uno
+3	5	fb:cell.mon_fri_university_term_time_only	Mon-Fri University term time only.	mon|fri|university|term|time|only|.	Mon|Fri|University|term|time|only|.	NNP|NNP|NNP|NN|NN|RB|.	DATE|DATE|O|O|O|O|O	XXXX-WXX-1|XXXX-WXX-1|||||				Mon-Fri University term time only.	fb:part.mon_fri_university_term_time_only
+4	0	fb:cell.c3_c3a	C3/C3A	c3\\/c3a	c3\\/c3a	NN	O		3.0		3.0	C3|C3A	fb:part.c3|fb:part.c3a
+4	1	fb:cell.waltham_cross	Waltham Cross	waltham|cross	Waltham|Cross	NNP|NNP	LOCATION|LOCATION	|					
+4	2	fb:cell.harlow_bus_station	Harlow Bus Station	harlow|bus|station	Harlow|Bus|Station	NNP|NNP|NNP	MISC|MISC|MISC	||					
+4	3	fb:cell.cheshunt_broxbourne	Cheshunt, Broxbourne	cheshunt|,|broxbourne	Cheshunt|,|Broxbourne	NNP|,|NNP	LOCATION|O|PERSON	||				Cheshunt|Broxbourne	fb:part.cheshunt|fb:part.broxbourne
+4	4	fb:cell.trustybus	Trustybus	trustybus	trustybus	FW	MISC					Trustybus	fb:part.trustybus
+4	5	fb:cell.mon_fri_2_buses_per_hour_operate_to_harlow_sat_1_bus_per_hour_to_harlow_via_hunsdon	Mon-fri. 2 buses per hour operate to Harlow. Sat 1 bus per hour to Harlow via Hunsdon	mon|fri.|2|buses|per|hour|operate|to|harlow|.|sat|1|bus|per|hour|to|harlow|via|hunsdon	Mon|fri.|2|bus|per|hour|operate|to|Harlow|.|sat|1|bus|per|hour|to|Harlow|via|Hunsdon	NNP|NNP|CD|NNS|IN|NN|VBP|TO|NNP|.|NN|CD|NN|IN|NN|TO|NNP|IN|NNP	DATE|O|NUMBER|O|O|DURATION|O|O|PERSON|O|DATE|NUMBER|O|O|DURATION|O|PERSON|O|LOCATION	XXXX-WXX-1||2.0||||||||XXXX-WXX-6|1.0|||||||	0.2			Mon-fri. 2 buses per hour operate to Harlow. Sat 1 bus per hour to Harlow via Hunsdon	fb:part.mon_fri_2_buses_per_hour_operate_to_harlow_sat_1_bus_per_hour_to_harlow_via_hunsdon
+5	0	fb:cell.c4	C4	c4	c4	NN	O		4.0			C4	fb:part.c4
+5	1	fb:cell.waltham_cross_bus_station	Waltham Cross Bus Station	waltham|cross|bus|station	Waltham|Cross|Bus|Station	NNP|NNP|NNP|NNP	LOCATION|O|O|O	|||					
+5	2	fb:cell.hertford_bus_station	Hertford Bus Station	hertford|bus|station	Hertford|Bus|Station	NNP|NNP|NNP	LOCATION|O|O	||					
+5	3	fb:cell.cheshunt_ware	Cheshunt, Ware	cheshunt|,|ware	Cheshunt|,|Ware	NNP|,|NNP	LOCATION|O|PERSON	||				Cheshunt|Ware	fb:part.cheshunt|fb:part.ware
+5	4	fb:cell.trustybus	Trustybus	trustybus	trustybus	FW	MISC					Trustybus	fb:part.trustybus
+5	5	fb:cell.sundays	Sundays.	sundays|.	sunday|.	NNS|.	SET|O	|				Sundays.	fb:part.sundays

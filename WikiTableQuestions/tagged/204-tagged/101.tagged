@@ -1,0 +1,67 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.null	#	#	#	#	O						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.producer_s	Producer(s)	producer|-lrb-|s|-rrb-	producer|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.performer_s	Performer (s)	performer|-lrb-|s|-rrb-	performer|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.sample_s	Sample(s)	sample|-lrb-|s|-rrb-	sample|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.length	Length	length	length	NN	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell._likwit	"Likwit"	``|likwit|''	``|likwit|''	``|NN|''	O|O|O	||					
+0	2	fb:cell.e_swift_tha_alkaholiks	E-Swift, Tha Alkaholiks	e|swift|,|tha|alkaholiks	e|Swift|,|Tha|Alkaholiks	NN|NNP|,|NNP|NNP	O|O|O|O|O	||||				E-Swift|Tha Alkaholiks	fb:part.e_swift|fb:part.tha_alkaholiks
+0	3	fb:cell.tash_j_ro_king_tee	Tash, J-Ro, King Tee	tash|,|j|ro|,|king|tee	Tash|,|J|ro|,|King|Tee	NNP|,|NNP|NN|,|NNP|NNP	PERSON|O|O|O|O|O|O	||||||				Tash|J-Ro|King Tee	fb:part.tash|fb:part.j_ro|fb:part.king_tee
+0	4	fb:cell._ode_to_billy_joe_by_lou_donaldson	*"Ode To Billy Joe" by Lou Donaldson	\\*|``|ode|to|billy|joe|''|by|lou|donaldson	\\*|``|Ode|to|Billy|Joe|''|by|Lou|Donaldson	SYM|``|NNP|TO|NNP|NNP|''|IN|NNP|NNP	O|O|O|O|PERSON|PERSON|O|O|PERSON|PERSON	|||||||||				*"Ode To Billy Joe" by Lou Donaldson	fb:part._ode_to_billy_joe_by_lou_donaldson
+0	5	fb:cell.2_34	2:34	2:34	2:34	CD	TIME	T02:34	2.0		34.0		
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell._only_when_i_m_drunk	"Only When I'm Drunk"	``|only|when|i|'m|drunk|''	``|only|when|I|be|Drunk|''	``|RB|WRB|PRP|VBP|NNP|''	O|O|O|O|O|O|O	||||||					
+1	2	fb:cell.e_swift_tha_alkaholiks	E-Swift, Tha Alkaholiks	e|swift|,|tha|alkaholiks	e|Swift|,|Tha|Alkaholiks	NN|NNP|,|NNP|NNP	O|O|O|O|O	||||				E-Swift|Tha Alkaholiks	fb:part.e_swift|fb:part.tha_alkaholiks
+1	3	fb:cell.j_ro_tash_e_swift	J-Ro, Tash, E-Swift	j|ro|,|tash|,|e|swift	j|ro|,|Tash|,|E|Swift	NN|NN|,|NNP|,|NNP|NNP	O|O|O|PERSON|O|O|PERSON	||||||				J-Ro|Tash|E-Swift	fb:part.j_ro|fb:part.tash|fb:part.e_swift
+1	4	fb:cell._seven_minutes_of_funk_by_tyrone_thomas_the_whole_darn_family	*"Seven Minutes of Funk" by Tyrone Thomas & The Whole Darn Family	\\*|``|seven|minutes|of|funk|''|by|tyrone|thomas|&|the|whole|darn|family	\\*|``|seven|Minutes|of|Funk|''|by|Tyrone|Thomas|&|The|Whole|Darn|Family	SYM|``|CD|NNPS|IN|NNP|''|IN|NNP|NNP|CC|NNP|NNP|NNP|NNP	O|O|DURATION|DURATION|O|O|O|O|PERSON|PERSON|O|O|O|O|O	||||||||||||||				*"Seven Minutes of Funk" by Tyrone Thomas & The Whole Darn Family	fb:part._seven_minutes_of_funk_by_tyrone_thomas_the_whole_darn_family
+1	5	fb:cell.3_36	3:36	3:36	3:36	CD	TIME	T03:36	3.0		36.0		
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell._last_call	"Last Call"	``|last|call|''	``|last|call|''	``|JJ|NN|''	O|O|O|O	|||					
+2	2	fb:cell.e_swift_king_tee	E-Swift, King Tee	e|swift|,|king|tee	e|Swift|,|King|Tee	NN|NNP|,|NNP|NNP	O|O|O|O|O	||||				E-Swift|King Tee	fb:part.e_swift|fb:part.king_tee
+2	3	fb:cell.tash_j_ro_e_swift	Tash, J-Ro, E-Swift	tash|,|j|ro|,|e|swift	Tash|,|J|ro|,|e|Swift	NNP|,|NNP|NN|,|NN|NNP	PERSON|O|O|O|O|O|O	||||||				Tash|J-Ro|E-Swift	fb:part.tash|fb:part.j_ro|fb:part.e_swift
+2	4	fb:cell._the_payback_by_james_brown	*"The Payback" by James Brown	\\*|``|the|payback|''|by|james|brown	\\*|``|the|payback|''|by|James|Brown	SYM|``|DT|NN|''|IN|NNP|NNP	O|O|O|O|O|O|PERSON|PERSON	|||||||				*"The Payback" by James Brown	fb:part._the_payback_by_james_brown
+2	5	fb:cell.4_37	4:37	4:37	4:37	CD	TIME	T04:37	4.0		37.0		
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell._can_t_tell_me_shit	"Can't Tell Me Shit"	``|ca|n't|tell|me|shit|''	``|can|not|tell|I|shit|''	``|MD|RB|VB|PRP|VB|''	O|O|O|O|O|O|O	||||||					
+3	2	fb:cell.derick_d_pimp_williams_e_swift	Derick "D. Pimp" Williams, E-Swift	derick|``|d.|pimp|''|williams|,|e|swift	Derick|``|D.|Pimp|''|Williams|,|E|Swift	NNP|``|NNP|NNP|''|NNP|,|NNP|NNP	PERSON|O|O|O|O|O|O|O|O	||||||||				Derick "D. Pimp" Williams|E-Swift	fb:part.derick_d_pimp_williams|fb:part.e_swift
+3	3	fb:cell.e_swift_j_ro	E-Swift, J-Ro	e|swift|,|j|ro	e|Swift|,|J|ro	NN|NNP|,|NNP|NN	O|O|O|O|O	||||				E-Swift|J-Ro	fb:part.e_swift|fb:part.j_ro
+3	4	fb:cell._think_about_it_by_lyn_collins	*"Think(About It)" by Lyn Collins	\\*|``|think|-lrb-|about|it|-rrb-|''|by|lyn|collins	\\*|``|think|-lrb-|about|it|-rrb-|''|by|Lyn|Collins	SYM|``|VBP|-LRB-|IN|PRP|-RRB-|''|IN|NNP|NNP	O|O|O|O|O|O|O|O|O|PERSON|PERSON	||||||||||				*"Think(About It)" by Lyn Collins	fb:part._think_about_it_by_lyn_collins
+3	5	fb:cell.4_09	4:09	4:09	4:09	CD	TIME	T04:09	4.0		9.0		
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell._turn_tha_party_out	"Turn Tha Party Out"	``|turn|tha|party|out|''	``|turn|Tha|Party|out|''	``|VB|NNP|NNP|IN|''	O|O|O|O|O|O	|||||					
+4	2	fb:cell.lootpack_tha_alkaholiks	Lootpack, Tha Alkaholiks	lootpack|,|tha|alkaholiks	Lootpack|,|Tha|Alkaholiks	NNP|,|NNP|NNP	O|O|O|O	|||				Lootpack|Tha Alkaholiks	fb:part.lootpack|fb:part.tha_alkaholiks
+4	3	fb:cell.lootpack_tash_j_ro_e_swift	Lootpack, Tash, J-Ro, E-Swift	lootpack|,|tash|,|j|ro|,|e|swift	Lootpack|,|Tash|,|J|ro|,|e|Swift	NNP|,|NNP|,|NNP|NN|,|NN|NNP	PERSON|O|PERSON|O|O|O|O|O|O	||||||||				Lootpack|Tash|J-Ro|E-Swift	fb:part.lootpack|fb:part.tash|fb:part.j_ro|fb:part.e_swift
+4	4	fb:cell._synthetic_substitution_by_melvin_bliss	*"Synthetic Substitution" by Melvin Bliss	\\*|``|synthetic|substitution|''|by|melvin|bliss	\\*|``|synthetic|substitution|''|by|Melvin|Bliss	SYM|``|JJ|NN|''|IN|NNP|NNP	O|O|O|O|O|O|PERSON|PERSON	|||||||				*"Synthetic Substitution" by Melvin Bliss	fb:part._synthetic_substitution_by_melvin_bliss
+4	5	fb:cell.3_19	3:19	3:19	3:19	CD	TIME	T03:19	3.0		19.0		
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell._bullshit	"Bullshit"	``|bullshit|''	``|Bullshit|''	``|NNP|''	O|O|O	||					
+5	2	fb:cell.king_tee_e_swift_tha_alkaholiks	King Tee, E-Swift, Tha Alkaholiks	king|tee|,|e|swift|,|tha|alkaholiks	King|Tee|,|E|Swift|,|Tha|Alkaholiks	NNP|NNP|,|NNP|NNP|,|NNP|NNP	O|O|O|O|PERSON|O|O|O	|||||||				King Tee|E-Swift|Tha Alkaholiks	fb:part.king_tee|fb:part.e_swift|fb:part.tha_alkaholiks
+5	3	fb:cell.j_ro_king_tee	J-Ro, King Tee	j|ro|,|king|tee	j|ro|,|King|Tee	NN|NN|,|NNP|NNP	O|O|O|O|O	||||				J-Ro|King Tee	fb:part.j_ro|fb:part.king_tee
+5	4	fb:cell._it_s_a_new_day_by_skull_snaps	*"It's A New Day" by Skull Snaps	\\*|``|it|'s|a|new|day|''|by|skull|snaps	\\*|``|it|be|a|new|day|''|by|Skull|snap	SYM|``|PRP|VBZ|DT|JJ|NN|''|IN|NNP|VBZ	O|O|O|O|O|MISC|DURATION|O|O|O|O	||||||||||				*"It's A New Day" by Skull Snaps	fb:part._it_s_a_new_day_by_skull_snaps
+5	5	fb:cell.3_27	3:27	3:27	3:27	CD	TIME	T03:27	3.0		27.0		
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell._soda_pop	"Soda Pop"	``|soda|pop|''	``|Soda|Pop|''	``|NNP|NNP|''	O|MISC|MISC|O	|||					
+6	2	fb:cell.e_swift_king_tee	E-Swift, King Tee	e|swift|,|king|tee	e|Swift|,|King|Tee	NN|NNP|,|NNP|NNP	O|O|O|O|O	||||				E-Swift|King Tee	fb:part.e_swift|fb:part.king_tee
+6	3	fb:cell.e_swift_field_trip_tash	E-Swift, Field Trip, Tash	e|swift|,|field|trip|,|tash	e|Swift|,|Field|Trip|,|Tash	NN|NNP|,|NNP|NNP|,|NNP	O|O|O|O|O|O|PERSON	||||||				E-Swift|Field Trip|Tash	fb:part.e_swift|fb:part.field_trip|fb:part.tash
+6	4	fb:cell._hard_times_by_baby_huey_snakin_the_grass_by_cannonball_adderley	*"Hard Times" by Baby Huey\n*"Snakin' the Grass" by Cannonball Adderley	\\*|``|hard|times|''|by|baby|huey|\\*|``|snakin|'|the|grass|''|by|cannonball|adderley	\\*|``|Hard|Times|''|by|Baby|Huey|\\*|``|snakin|'|the|grass|''|by|Cannonball|Adderley	SYM|``|NNP|NNP|''|IN|NNP|NNP|SYM|``|FW|''|DT|NN|''|IN|NNP|NNP	O|O|O|O|O|O|PERSON|PERSON|O|O|O|O|O|O|O|O|PERSON|PERSON	|||||||||||||||||				*"Hard Times" by Baby Huey|*"Snakin' the Grass" by Cannonball Adderley	fb:part._hard_times_by_baby_huey|fb:part._snakin_the_grass_by_cannonball_adderley
+6	5	fb:cell.2_48	2:48	2:48	2:48	CD	TIME	T02:48	2.0		48.0		
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell._make_room	"Make Room"	``|make|room|''	``|Make|Room|''	``|NNP|NNP|''	O|O|O|O	|||					
+7	2	fb:cell.e_swift_tha_alkaholiks	E-Swift, Tha Alkaholiks	e|swift|,|tha|alkaholiks	e|Swift|,|Tha|Alkaholiks	NN|NNP|,|NNP|NNP	O|O|O|O|O	||||				E-Swift|Tha Alkaholiks	fb:part.e_swift|fb:part.tha_alkaholiks
+7	3	fb:cell.j_ro_tash	J-Ro, Tash	j|ro|,|tash	j|ro|,|Tash	NN|NN|,|NNP	O|O|O|PERSON	|||				J-Ro|Tash	fb:part.j_ro|fb:part.tash
+7	4	fb:cell._sing_a_simple_song_by_sly_the_family_stone_blow_your_head_by_fred_wesley_the_j_b_s	*"Sing a Simple Song" by Sly & the Family Stone\n*"Blow Your Head" by Fred Wesley & The J.B.'s	\\*|``|sing|a|simple|song|''|by|sly|&|the|family|stone|\\*|``|blow|your|head|''|by|fred|wesley|&|the|j.b.|'s	\\*|``|sing|a|simple|song|''|by|Sly|&|the|Family|Stone|\\*|``|blow|you|Head|''|by|Fred|Wesley|&|The|J.B.|'s	SYM|``|VB|DT|JJ|NN|''|IN|NNP|CC|DT|NNP|NNP|SYM|``|VB|PRP$|NNP|''|IN|NNP|NNP|CC|NNP|NNP|POS	O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|PERSON|PERSON|O|O|O|O	|||||||||||||||||||||||||				*"Sing a Simple Song" by Sly & the Family Stone|*"Blow Your Head" by Fred Wesley & The J.B.'s	fb:part._sing_a_simple_song_by_sly_the_family_stone|fb:part._blow_your_head_by_fred_wesley_the_j_b_s
+7	5	fb:cell.3_28	3:28	3:28	3:28	CD	TIME	T03:28	3.0		28.0		
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell._mary_jane	"Mary Jane"	``|mary|jane|''	``|Mary|Jane|''	``|NNP|NNP|''	O|PERSON|PERSON|O	|||					
+8	2	fb:cell.lootpack_tha_alkaholiks	Lootpack, Tha Alkaholiks	lootpack|,|tha|alkaholiks	Lootpack|,|Tha|Alkaholiks	NNP|,|NNP|NNP	O|O|O|O	|||				Lootpack|Tha Alkaholiks	fb:part.lootpack|fb:part.tha_alkaholiks
+8	3	fb:cell.j_ro_tash	J-Ro, Tash	j|ro|,|tash	j|ro|,|Tash	NN|NN|,|NNP	O|O|O|PERSON	|||				J-Ro|Tash	fb:part.j_ro|fb:part.tash
+8	4	fb:cell._mary_jane_by_rick_james	*"Mary Jane" by Rick James	\\*|``|mary|jane|''|by|rick|james	\\*|``|Mary|Jane|''|by|Rick|James	SYM|``|NNP|NNP|''|IN|NNP|NNP	O|O|PERSON|PERSON|O|O|PERSON|PERSON	|||||||				*"Mary Jane" by Rick James	fb:part._mary_jane_by_rick_james
+8	5	fb:cell.3_31	3:31	3:31	3:31	CD	TIME	T03:31	3.0		31.0		
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell._who_dem_niggas	"Who Dem Niggas"	``|who|dem|niggas|''	``|who|Dem|Niggas|''	``|WP|NNP|NNPS|''	O|O|O|O|O	||||					
+9	2	fb:cell.e_swift_tha_alkaholiks	E-Swift, Tha Alkaholiks	e|swift|,|tha|alkaholiks	e|Swift|,|Tha|Alkaholiks	NN|NNP|,|NNP|NNP	O|O|O|O|O	||||				E-Swift|Tha Alkaholiks	fb:part.e_swift|fb:part.tha_alkaholiks
+9	3	fb:cell.threat_e_swift_j_ro_tash	Threat, E-Swift, J-Ro, Tash	threat|,|e|swift|,|j|ro|,|tash	threat|,|e|Swift|,|J|ro|,|Tash	NN|,|NN|NNP|,|NNP|NN|,|NNP	O|O|O|PERSON|O|O|O|O|PERSON	||||||||				Threat|E-Swift|J-Ro|Tash	fb:part.threat|fb:part.e_swift|fb:part.j_ro|fb:part.tash
+9	4	fb:cell._take_me_to_the_mardi_gras_by_bob_james_blind_alley_by_emotions_you_can_t_love_me_if_you_don_t_respect_me_by_lyn_collins	*"Take Me to The Mardi Gras" by Bob James\n*"Blind Alley" by Emotions\n*"You Can't Love Me if You Don't Respect Me" by Lyn Collins	\\*|``|take|me|to|the|mardi|gras|''|by|bob|james|\\*|``|blind|alley|''|by|emotions|\\*|``|you|ca|n't|love|me|if|you|do|n't|respect|me|''|by|lyn|collins	\\*|``|take|I|to|the|Mardi|Gras|''|by|Bob|James|\\*|``|Blind|Alley|''|by|emotion|\\*|``|you|can|not|Love|I|if|you|do|not|respect|I|''|by|Lyn|Collins	SYM|``|VB|PRP|TO|DT|NNP|NNP|''|IN|NNP|NNP|SYM|``|NNP|NNP|''|IN|NNS|SYM|``|PRP|MD|RB|NNP|PRP|IN|PRP|VBD-AUX|RB|NN|PRP|''|IN|NNP|NNP	O|O|O|O|O|O|O|O|O|O|PERSON|PERSON|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|PERSON|PERSON	|||||||||||||||||||||||||||||||||||				*"Take Me to The Mardi Gras" by Bob James|*"Blind Alley" by Emotions|*"You Can't Love Me if You Don't Respect Me" by Lyn Collins	fb:part._take_me_to_the_mardi_gras_by_bob_james|fb:part._blind_alley_by_emotions|fb:part._you_can_t_love_me_if_you_don_t_respect_me_by_lyn_collins
+9	5	fb:cell.3_46	3:46	3:46	3:46	CD	TIME	T03:46	3.0		46.0		

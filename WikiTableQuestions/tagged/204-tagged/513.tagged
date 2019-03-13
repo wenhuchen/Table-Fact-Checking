@@ -1,0 +1,85 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	3	fb:row.row.site	Site	site	site	NN	O						
+-1	4	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	5	fb:row.row.result	Result	result	result	NN	O						
+-1	6	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.august_29	August 29	august|29	August|29	NNP|CD	DATE|DATE	XXXX-08-29|XXXX-08-29	29.0	xxxx-08-29			
+0	1	fb:cell.7_30_pm	7:30 PM	7:30|pm	7:30|pm	CD|NN	TIME|TIME	T19:30|T19:30	7.0		30.0		
+0	2	fb:cell.appalachian_state	Appalachian State*	appalachian|state|\\*	Appalachian|State|\\*	NNP|NNP|SYM	MISC|O|O	||					
+0	3	fb:cell.groves_stadium_winston_salem_nc	Groves Stadium • Winston-Salem, NC	groves|stadium|•|winston|salem|,|nc	Groves|Stadium|•|Winston|Salem|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|PERSON|O|O	||||||				Groves Stadium • Winston-Salem|NC	fb:part.groves_stadium_winston_salem|fb:part.nc
+0	4	fb:cell.null											
+0	5	fb:cell.w_19_13	W 19–13	w|19|--|13	W|19|--|13	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|19.0||13.0	19.0		13.0		
+0	6	fb:cell.21_129	21,129	21,129	21,129	CD	NUMBER	21129.0	21129.0				
+1	0	fb:cell.september_7	September 7	september|7	September|7	NNP|CD	DATE|DATE	XXXX-09-07|XXXX-09-07	7.0	xxxx-09-07			
+1	1	fb:cell.6_30_pm	6:30 PM	6:30|pm	6:30|pm	CD|NN	TIME|TIME	T18:30|T18:30	6.0		30.0		
+1	2	fb:cell._13_northwestern	#13 Northwestern*	#|13|northwestern|\\*	#|13|Northwestern|\\*	#|CD|NNP|SYM	MONEY|MONEY|O|O	£13.0|£13.0||	13.0				
+1	3	fb:cell.groves_stadium_winston_salem_nc	Groves Stadium • Winston-Salem, NC	groves|stadium|•|winston|salem|,|nc	Groves|Stadium|•|Winston|Salem|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|PERSON|O|O	||||||				Groves Stadium • Winston-Salem|NC	fb:part.groves_stadium_winston_salem|fb:part.nc
+1	4	fb:cell.fsn	FSN	fsn	fsn	NN	O						
+1	5	fb:cell.w_28_27	W 28–27	w|28|--|27	W|28|--|27	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|28.0||27.0	28.0		27.0		
+1	6	fb:cell.21_749	21,749	21,749	21,749	CD	NUMBER	21749.0	21749.0				
+2	0	fb:cell.september_14	September 14	september|14	September|14	NNP|CD	DATE|DATE	XXXX-09-14|XXXX-09-14	14.0	xxxx-09-14			
+2	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+2	2	fb:cell.at_georgia_tech	at Georgia Tech	at|georgia|tech	at|Georgia|Tech	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+2	3	fb:cell.bobby_dodd_stadium_atlanta_ga	Bobby Dodd Stadium • Atlanta, GA	bobby|dodd|stadium|•|atlanta|,|ga	Bobby|Dodd|Stadium|•|Atlanta|,|GA	NNP|NNP|NNP|NNP|NNP|,|NNP	PERSON|PERSON|O|O|LOCATION|O|O	||||||				Bobby Dodd Stadium • Atlanta|GA	fb:part.bobby_dodd_stadium_atlanta|fb:part.ga
+2	4	fb:cell.null											
+2	5	fb:cell.l_10_30	L 10–30	l|10|--|30	l|10|--|30	NN|CD|:|CD	O|NUMBER|O|NUMBER	|10.0||30.0	10.0		30.0		
+2	6	fb:cell.45_750	45,750	45,750	45,750	CD	NUMBER	45750.0	45750.0				
+3	0	fb:cell.september_21	September 21	september|21	September|21	NNP|CD	DATE|DATE	XXXX-09-21|XXXX-09-21	21.0	xxxx-09-21			
+3	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+3	2	fb:cell._20_virginia	#20 Virginia	#|20|virginia	#|20|Virginia	#|CD|NNP	MONEY|MONEY|LOCATION	£20.0|£20.0|	20.0				
+3	3	fb:cell.groves_stadium_winston_salem_nc	Groves Stadium • Winston-Salem, NC	groves|stadium|•|winston|salem|,|nc	Groves|Stadium|•|Winston|Salem|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|PERSON|O|O	||||||				Groves Stadium • Winston-Salem|NC	fb:part.groves_stadium_winston_salem|fb:part.nc
+3	4	fb:cell.jps	JPS	jps	jp	NN	O						
+3	5	fb:cell.l_7_42	L 7–42	l|7|--|42	l|7|--|42	NN|CD|:|CD	O|NUMBER|O|NUMBER	|7.0||42.0	7.0		42.0		
+3	6	fb:cell.23_220	23,220	23,220	23,220	CD	NUMBER	23220.0	23220.0				
+4	0	fb:cell.september_28	September 28	september|28	September|28	NNP|CD	DATE|DATE	XXXX-09-28|XXXX-09-28	28.0	xxxx-09-28			
+4	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+4	2	fb:cell.at_clemson	at Clemson	at|clemson	at|Clemson	IN|NNP	O|LOCATION	|					
+4	3	fb:cell.memorial_stadium_clemson_sc	Memorial Stadium • Clemson, SC	memorial|stadium|•|clemson|,|sc	Memorial|Stadium|•|Clemson|,|SC	NNP|NNP|NNP|NNP|,|NNP	O|O|O|ORGANIZATION|O|O	|||||				Memorial Stadium • Clemson|SC	fb:part.memorial_stadium_clemson|fb:part.sc
+4	4	fb:cell.jps	JPS	jps	jp	NN	O						
+4	5	fb:cell.l_10_21	L 10–21	l|10|--|21	l|10|--|21	NN|CD|:|CD	O|NUMBER|O|NUMBER	|10.0||21.0	10.0		21.0		
+4	6	fb:cell.63_263	63,263	63,263	63,263	CD	NUMBER	63263.0	63263.0				
+5	0	fb:cell.october_5	October 5	october|5	October|5	NNP|CD	DATE|DATE	XXXX-10-05|XXXX-10-05	5.0	xxxx-10-05			
+5	1	fb:cell.6_30_pm	6:30 PM	6:30|pm	6:30|pm	CD|NN	TIME|TIME	T18:30|T18:30	6.0		30.0		
+5	2	fb:cell._15_north_carolina	#15 North Carolina	#|15|north|carolina	#|15|North|Carolina	#|CD|NNP|NNP	MONEY|MONEY|LOCATION|LOCATION	£15.0|£15.0||	15.0				
+5	3	fb:cell.groves_stadium_winston_salem_nc	Groves Stadium • Winston-Salem, NC	groves|stadium|•|winston|salem|,|nc	Groves|Stadium|•|Winston|Salem|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|PERSON|O|O	||||||				Groves Stadium • Winston-Salem|NC	fb:part.groves_stadium_winston_salem|fb:part.nc
+5	4	fb:cell.null											
+5	5	fb:cell.l_6_45	L 6–45	l|6|--|45	l|6|--|45	NN|CD|:|CD	O|NUMBER|O|NUMBER	|6.0||45.0	6.0		45.0		
+5	6	fb:cell.25_681	25,681	25,681	25,681	CD	NUMBER	25681.0	25681.0				
+6	0	fb:cell.october_19	October 19	october|19	October|19	NNP|CD	DATE|DATE	XXXX-10-19|XXXX-10-19	19.0	xxxx-10-19			
+6	1	fb:cell.2_00_pm	2:00 PM	2:00|pm	2:00|pm	CD|NN	TIME|TIME	T14:00|T14:00	2.0		0.0		
+6	2	fb:cell.at_maryland	at Maryland	at|maryland	at|Maryland	IN|NNP	O|LOCATION	|					
+6	3	fb:cell.byrd_stadium_college_park_md	Byrd Stadium • College Park, MD	byrd|stadium|•|college|park|,|md	Byrd|Stadium|•|College|Park|,|md	NNP|NNP|NNP|NNP|NNP|,|NN	O|O|O|O|O|O|O	||||||				Byrd Stadium • College Park|MD	fb:part.byrd_stadium_college_park|fb:part.md
+6	4	fb:cell.null											
+6	5	fb:cell.l_0_52	L 0–52	l|0|--|52	l|0|--|52	NN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||52.0	0.0		52.0		
+6	6	fb:cell.30_212	30,212	30,212	30,212	CD	NUMBER	30212.0	30212.0				
+7	0	fb:cell.october_26	October 26	october|26	October|26	NNP|CD	DATE|DATE	XXXX-10-26|XXXX-10-26	26.0	xxxx-10-26			
+7	1	fb:cell.1_00_pm	1:00 PM	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+7	2	fb:cell.navy	Navy*	navy|\\*	Navy|\\*	NNP|SYM	ORGANIZATION|O	|					
+7	3	fb:cell.groves_stadium_winston_salem_nc	Groves Stadium • Winston-Salem, NC	groves|stadium|•|winston|salem|,|nc	Groves|Stadium|•|Winston|Salem|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|PERSON|O|O	||||||				Groves Stadium • Winston-Salem|NC	fb:part.groves_stadium_winston_salem|fb:part.nc
+7	4	fb:cell.null											
+7	5	fb:cell.l_18_47	L 18–47	l|18|--|47	l|18|--|47	NN|CD|:|CD	O|NUMBER|O|NUMBER	|18.0||47.0	18.0		47.0		
+7	6	fb:cell.17_307	17,307	17,307	17,307	CD	NUMBER	17307.0	17307.0				
+8	0	fb:cell.november_9	November 9	november|9	November|9	NNP|CD	DATE|DATE	XXXX-11-09|XXXX-11-09	9.0	xxxx-11-09			
+8	1	fb:cell.12_00_pm	12:00 PM	12:00|pm	12:00|pm	CD|NN	TIME|TIME	T12:00|T12:00	12.0		0.0		
+8	2	fb:cell.vs_3_florida_state	vs. #3 Florida State	vs.|#|3|florida|state	vs.|#|3|Florida|State	CC|#|CD|NNP|NNP	O|MONEY|MONEY|ORGANIZATION|ORGANIZATION	|£3.0|£3.0||					
+8	3	fb:cell.citrus_bowl_orlando_fl	Citrus Bowl • Orlando, FL	citrus|bowl|•|orlando|,|fl	Citrus|Bowl|•|Orlando|,|fl	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|LOCATION	|||||				Citrus Bowl • Orlando|FL	fb:part.citrus_bowl_orlando|fb:part.fl
+8	4	fb:cell.jps	JPS	jps	jp	NN	O						
+8	5	fb:cell.l_7_44	L 7-44	l|7-44	l|7-44	NN|CD	O|NUMBER	|7.0 - 44.0	7.0		44.0		
+8	6	fb:cell.34_974	34,974	34,974	34,974	CD	NUMBER	34974.0	34974.0				
+9	0	fb:cell.november_16	November 16	november|16	November|16	NNP|CD	DATE|DATE	XXXX-11-16|XXXX-11-16	16.0	xxxx-11-16			
+9	1	fb:cell.1_00_pm	1:00 PM	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+9	2	fb:cell.duke	Duke	duke	Duke	NNP	PERSON						
+9	3	fb:cell.groves_stadium_winston_salem_nc	Groves Stadium • Winston-Salem, NC	groves|stadium|•|winston|salem|,|nc	Groves|Stadium|•|Winston|Salem|,|NC	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|PERSON|O|O	||||||				Groves Stadium • Winston-Salem|NC	fb:part.groves_stadium_winston_salem|fb:part.nc
+9	4	fb:cell.null											
+9	5	fb:cell.w_17_16	W 17–16	w|17|--|16	W|17|--|16	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|17.0||16.0	17.0		16.0		
+9	6	fb:cell.17_842	17,842	17,842	17,842	CD	NUMBER	17842.0	17842.0				
+10	0	fb:cell.november_23	November 23	november|23	November|23	NNP|CD	DATE|DATE	XXXX-11-23|XXXX-11-23	23.0	xxxx-11-23			
+10	1	fb:cell.1_00_pm	1:00 PM	1:00|pm	1:00|pm	CD|NN	TIME|TIME	T13:00|T13:00	1.0		0.0		
+10	2	fb:cell.at_nc_state	at NC State	at|nc|state	at|nc|state	IN|NN|NN	O|O|O	||					
+10	3	fb:cell.carter_finley_stadium_raleigh_nc	Carter–Finley Stadium • Raleigh, NC	carter|--|finley|stadium|•|raleigh|,|nc	Carter|--|Finley|Stadium|•|Raleigh|,|NC	NNP|:|NNP|NNP|NNP|NNP|,|NNP	PERSON|O|O|O|O|LOCATION|O|O	|||||||				Carter–Finley Stadium • Raleigh|NC	fb:part.carter_finley_stadium_raleigh|fb:part.nc
+10	4	fb:cell.null											
+10	5	fb:cell.l_22_37	L 22–37	l|22|--|37	l|22|--|37	NN|CD|:|CD	O|NUMBER|O|NUMBER	|22.0||37.0	22.0		37.0		
+10	6	fb:cell.40_500	40,500	40,500	40,500	CD	NUMBER	40500.0	40500.0				

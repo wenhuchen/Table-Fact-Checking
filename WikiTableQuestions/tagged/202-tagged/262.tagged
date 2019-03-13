@@ -1,0 +1,109 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.opened	Opened	opened	open	VBN	O						
+-1	3	fb:row.row.gender	Gender	gender	gender	NN	O						
+-1	4	fb:row.row.security_level_s	Security level(s)	security|level|-lrb-|s|-rrb-	security|level|-lrb-|s|-rrb-	NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O	||||					
+-1	5	fb:row.row.capacity	Capacity	capacity	capacity	NN	O						
+0	0	fb:cell.northland_region_corrections_facility	Northland Region Corrections Facility	northland|region|corrections|facility	Northland|Region|Corrections|Facility	NNP|NNP|NNP|NNP	O|O|O|O	|||				Northland Region Corrections Facility	fb:part.northland_region_corrections_facility
+0	1	fb:cell.near_kaikohe_northland	near Kaikohe, Northland	near|kaikohe|,|northland	near|Kaikohe|,|Northland	IN|NNP|,|NNP	O|LOCATION|O|LOCATION	|||				near Kaikohe|Northland	fb:part.near_kaikohe|fb:part.northland
+0	2	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+0	3	fb:cell.male	Male	male	male	JJ	O						
+0	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+0	5	fb:cell.548	548	548	548	CD	NUMBER	548.0	548.0				
+1	0	fb:cell.auckland_prison	Auckland Prison	auckland|prison	Auckland|Prison	NNP|NNP	LOCATION|LOCATION	|				Auckland Prison	fb:part.auckland_prison
+1	1	fb:cell.paremoremo_auckland	Paremoremo, Auckland	paremoremo|,|auckland	Paremoremo|,|Auckland	NNP|,|NNP	O|O|LOCATION	||				Paremoremo|Auckland	fb:part.paremoremo|fb:part.auckland
+1	2	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+1	3	fb:cell.male	Male	male	male	JJ	O						
+1	4	fb:cell.minimum_to_maximum	Minimum to Maximum	minimum|to|maximum	Minimum|to|Maximum	NNP|TO|NNP	O|O|O	||					
+1	5	fb:cell.681	681	681	681	CD	NUMBER	681.0	681.0				
+2	0	fb:cell.mount_eden_corrections_facility	Mount Eden Corrections Facility	mount|eden|corrections|facility	Mount|Eden|Corrections|Facility	NNP|NNP|NNP|NNP	O|O|O|O	|||				Mount Eden Corrections Facility	fb:part.mount_eden_corrections_facility
+2	1	fb:cell.mount_eden_auckland	Mount Eden, Auckland	mount|eden|,|auckland	Mount|Eden|,|Auckland	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				Mount Eden|Auckland	fb:part.mount_eden|fb:part.auckland
+2	2	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+2	3	fb:cell.male	Male	male	male	JJ	O						
+2	4	fb:cell.remand	Remand	remand	remand	NN	O						
+2	5	fb:cell.966	966	966	966	CD	NUMBER	966.0	966.0				
+3	0	fb:cell.auckland_region_women_s_corrections_facility	Auckland Region Women's Corrections Facility	auckland|region|women|'s|corrections|facility	Auckland|Region|Women|'s|Corrections|Facility	NNP|NNP|NNP|POS|NNPS|NNP	LOCATION|O|O|O|O|O	|||||				Auckland Region Women's Corrections Facility	fb:part.auckland_region_women_s_corrections_facility
+3	1	fb:cell.wiri_auckland	Wiri, Auckland	wiri|,|auckland	Wiri|,|Auckland	NNP|,|NNP	O|O|LOCATION	||				Wiri|Auckland	fb:part.wiri|fb:part.auckland
+3	2	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+3	3	fb:cell.female	Female	female	female	JJ	O						
+3	4	fb:cell.minimum_to_maximum	Minimum to Maximum	minimum|to|maximum	Minimum|to|Maximum	NNP|TO|NNP	O|O|O	||					
+3	5	fb:cell.456	456	456	456	CD	NUMBER	456.0	456.0				
+4	0	fb:cell.spring_hill_corrections_facility	Spring Hill Corrections Facility	spring|hill|corrections|facility	spring|Hill|Corrections|Facility	NN|NNP|NNPS|NNP	DATE|O|O|O	XXXX-SP|||				Spring Hill Corrections Facility	fb:part.spring_hill_corrections_facility
+4	1	fb:cell.hampton_downs_waikato	Hampton Downs, Waikato	hampton|downs|,|waikato	Hampton|Downs|,|Waikato	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Hampton Downs|Waikato	fb:part.hampton_downs|fb:part.waikato
+4	2	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+4	3	fb:cell.male	Male	male	male	JJ	O						
+4	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+4	5	fb:cell.1050	1050	1050	1050	CD	DATE	1050	1050.0	1050-xx-xx			
+5	0	fb:cell.waikeria_prison	Waikeria Prison	waikeria|prison	Waikeria|Prison	NNP|NNP	O|O	|				Waikeria Prison	fb:part.waikeria_prison
+5	1	fb:cell.south_of_te_awamutu_waikato	south of Te Awamutu, Waikato	south|of|te|awamutu|,|waikato	south|of|Te|Awamutu|,|Waikato	RB|IN|NNP|NNP|,|NNP	O|O|LOCATION|LOCATION|O|LOCATION	|||||				south of Te Awamutu|Waikato	fb:part.south_of_te_awamutu|fb:part.waikato
+5	2	fb:cell.1911	1911	1911	1911	CD	DATE	1911	1911.0	1911-xx-xx			
+5	3	fb:cell.male	Male	male	male	JJ	O						
+5	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+5	5	fb:cell.750	750	750	750	CD	NUMBER	750.0	750.0				
+6	0	fb:cell.tongariro_rangipo_prison	Tongariro/Rangipo Prison	tongariro\\/rangipo|prison	Tongariro\\/Rangipo|Prison	NNP|NNP	O|O	|				Tongariro|Rangipo Prison	fb:part.tongariro|fb:part.rangipo_prison
+6	1	fb:cell.near_turangi_waikato	near Turangi, Waikato	near|turangi|,|waikato	near|Turangi|,|Waikato	IN|NNP|,|NNP	O|LOCATION|O|LOCATION	|||				near Turangi|Waikato	fb:part.near_turangi|fb:part.waikato
+6	2	fb:cell.1922	1922	1922	1922	CD	DATE	1922	1922.0	1922-xx-xx			
+6	3	fb:cell.male	Male	male	male	JJ	O						
+6	4	fb:cell.minimum_to_low_medium	Minimum to Low-medium	minimum|to|low|medium	Minimum|to|low|medium	NNP|TO|JJ|NN	O|O|O|O	|||					
+6	5	fb:cell.540	540	540	540	CD	NUMBER	540.0	540.0				
+7	0	fb:cell.whanganui_prison	Whanganui Prison	whanganui|prison	Whanganui|Prison	NNP|NNP	O|O	|				Whanganui Prison	fb:part.whanganui_prison
+7	1	fb:cell.kaitoke_south_of_wanganui	Kaitoke, south of Wanganui	kaitoke|,|south|of|wanganui	Kaitoke|,|south|of|Wanganui	NNP|,|RB|IN|NNP	PERSON|O|O|O|LOCATION	||||				Kaitoke|south of Wanganui	fb:part.kaitoke|fb:part.south_of_wanganui
+7	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+7	3	fb:cell.male	Male	male	male	JJ	O						
+7	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+7	5	fb:cell.538	538	538	538	CD	NUMBER	538.0	538.0				
+8	0	fb:cell.hawke_s_bay_regional_prison	Hawke's Bay Regional Prison	hawke|'s|bay|regional|prison	Hawke|'s|Bay|Regional|Prison	NNP|POS|NNP|NNP|NNP	PERSON|O|O|O|O	||||				Hawke's Bay Regional Prison	fb:part.hawke_s_bay_regional_prison
+8	1	fb:cell.south_of_hastings	south of Hastings	south|of|hastings	south|of|Hastings	RB|IN|NNP	O|O|PERSON	||				south of Hastings	fb:part.south_of_hastings
+8	2	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+8	3	fb:cell.male	Male	male	male	JJ	O						
+8	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+8	5	fb:cell.666	666	666	666	CD	NUMBER	666.0	666.0				
+9	0	fb:cell.manawatu_prison	Manawatu Prison	manawatu|prison	Manawatu|Prison	NNP|NNP	LOCATION|LOCATION	|				Manawatu Prison	fb:part.manawatu_prison
+9	1	fb:cell.linton_south_of_palmerston_north	Linton, south of Palmerston North	linton|,|south|of|palmerston|north	Linton|,|south|of|Palmerston|North	NNP|,|RB|IN|NNP|NNP	PERSON|O|O|O|LOCATION|LOCATION	|||||				Linton|south of Palmerston North	fb:part.linton|fb:part.south_of_palmerston_north
+9	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+9	3	fb:cell.male	Male	male	male	JJ	O						
+9	4	fb:cell.null											
+9	5	fb:cell.290	290	290	290	CD	NUMBER	290.0	290.0				
+10	0	fb:cell.rimutaka_prison	Rimutaka Prison	rimutaka|prison	Rimutaka|Prison	NNP|NNP	O|O	|				Rimutaka Prison	fb:part.rimutaka_prison
+10	1	fb:cell.trentham_upper_hutt	Trentham, Upper Hutt	trentham|,|upper|hutt	Trentham|,|Upper|Hutt	NNP|,|NNP|NNP	PERSON|O|PERSON|PERSON	|||				Trentham|Upper Hutt	fb:part.trentham|fb:part.upper_hutt
+10	2	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+10	3	fb:cell.male	Male	male	male	JJ	O						
+10	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+10	5	fb:cell.942	942	942	942	CD	NUMBER	942.0	942.0				
+11	0	fb:cell.arohata_prison	Arohata Prison	arohata|prison	Arohata|Prison	NNP|NNP	O|O	|				Arohata Prison	fb:part.arohata_prison
+11	1	fb:cell.tawa_wellington	Tawa, Wellington	tawa|,|wellington	Tawa|,|Wellington	NNP|,|NNP	PERSON|O|LOCATION	||				Tawa|Wellington	fb:part.tawa|fb:part.wellington
+11	2	fb:cell.1944	1944	1944	1944	CD	DATE	1944	1944.0	1944-xx-xx			
+11	3	fb:cell.female	Female	female	female	JJ	O						
+11	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+11	5	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+12	0	fb:cell.christchurch_men_s_prison	Christchurch Men's Prison	christchurch|men|'s|prison	Christchurch|Men|'s|prison	NNP|NNP|POS|NN	O|O|O|O	|||				Christchurch Men's Prison	fb:part.christchurch_men_s_prison
+12	1	fb:cell.near_templeton_christchurch	near Templeton, Christchurch	near|templeton|,|christchurch	near|Templeton|,|Christchurch	IN|NNP|,|NNP	O|LOCATION|O|LOCATION	|||				near Templeton|Christchurch	fb:part.near_templeton|fb:part.christchurch
+12	2	fb:cell.1915	1915	1915	1915	CD	DATE	1915	1915.0	1915-xx-xx			
+12	3	fb:cell.male	Male	male	male	JJ	O						
+12	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+12	5	fb:cell.926	926	926	926	CD	NUMBER	926.0	926.0				
+13	0	fb:cell.christchurch_women_s_prison	Christchurch Women's Prison	christchurch|women|'s|prison	Christchurch|Women|'s|prison	NNP|NNP|POS|NN	O|O|O|O	|||				Christchurch Women's Prison	fb:part.christchurch_women_s_prison
+13	1	fb:cell.near_templeton_christchurch	near Templeton, Christchurch	near|templeton|,|christchurch	near|Templeton|,|Christchurch	IN|NNP|,|NNP	O|LOCATION|O|LOCATION	|||				near Templeton|Christchurch	fb:part.near_templeton|fb:part.christchurch
+13	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+13	3	fb:cell.female	Female	female	female	JJ	O						
+13	4	fb:cell.minimum_to_high	Minimum to High	minimum|to|high	Minimum|to|High	NNP|TO|NNP	O|O|O	||					
+13	5	fb:cell.138	138	138	138	CD	NUMBER	138.0	138.0				
+14	0	fb:cell.rolleston_prison	Rolleston Prison	rolleston|prison	Rolleston|Prison	NNP|NNP	PERSON|PERSON	|				Rolleston Prison	fb:part.rolleston_prison
+14	1	fb:cell.near_rolleston_canterbury	near Rolleston, Canterbury	near|rolleston|,|canterbury	near|Rolleston|,|Canterbury	IN|NNP|,|NNP	O|LOCATION|O|LOCATION	|||				near Rolleston|Canterbury	fb:part.near_rolleston|fb:part.canterbury
+14	2	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+14	3	fb:cell.male	Male	male	male	JJ	O						
+14	4	fb:cell.minimum_to_low_medium	Minimum to Low-medium	minimum|to|low|medium	Minimum|to|low|medium	NNP|TO|JJ|NN	O|O|O|O	|||					
+14	5	fb:cell.260	260	260	260	CD	NUMBER	260.0	260.0				
+15	0	fb:cell.otago_corrections_facility	Otago Corrections Facility	otago|corrections|facility	Otago|Corrections|Facility	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Otago Corrections Facility	fb:part.otago_corrections_facility
+15	1	fb:cell.north_of_milton_otago	north of Milton, Otago	north|of|milton|,|otago	north|of|Milton|,|Otago	RB|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				north of Milton|Otago	fb:part.north_of_milton|fb:part.otago
+15	2	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+15	3	fb:cell.male	Male	male	male	JJ	O						
+15	4	fb:cell.minimum_to_high_medium	Minimum to High-medium	minimum|to|high|medium	Minimum|to|high|medium	NNP|TO|JJ|NN	O|O|O|O	|||					
+15	5	fb:cell.485	485	485	485	CD	NUMBER	485.0	485.0				
+16	0	fb:cell.invercargill_prison	Invercargill Prison	invercargill|prison	Invercargill|Prison	NNP|NNP	O|O	|				Invercargill Prison	fb:part.invercargill_prison
+16	1	fb:cell.invercargill	Invercargill	invercargill	Invercargill	NNP	LOCATION					Invercargill	fb:part.invercargill
+16	2	fb:cell.1910	1910	1910	1910	CD	DATE	1910	1910.0	1910-xx-xx			
+16	3	fb:cell.male	Male	male	male	JJ	O						
+16	4	fb:cell.minimum_to_low_medium	Minimum to Low-medium	minimum|to|low|medium	Minimum|to|low|medium	NNP|TO|JJ|NN	O|O|O|O	|||					
+16	5	fb:cell.180	180	180	180	CD	NUMBER	180.0	180.0				

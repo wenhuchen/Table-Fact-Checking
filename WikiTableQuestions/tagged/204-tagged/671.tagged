@@ -1,0 +1,89 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.airing_date	Airing\ndate	airing|date	air|date	VBG|NN	O|O	|					
+-1	1	fb:row.row.english_title_chinese_title	English title\n(Chinese title)	english|title|-lrb-|chinese|title|-rrb-	English|title|-lrb-|chinese|title|-rrb-	NNP|NN|-LRB-|JJ|NN|-RRB-	MISC|O|O|MISC|O|O	|||||					
+-1	2	fb:row.row.number_of_episodes	Number of episodes	number|of|episodes	number|of|episode	NN|IN|NNS	O|O|O	||					
+-1	3	fb:row.row.main_cast	Main cast	main|cast	Main|cast	NNP|VBD	O|O	|					
+-1	4	fb:row.row.theme_song_t_sub_theme_song_st	Theme song (T)\nSub-theme song (ST)	theme|song|-lrb-|t|-rrb-|sub|theme|song|-lrb-|st|-rrb-	theme|song|-lrb-|t|-rrb-|sub|theme|song|-lrb-|st|-rrb-	NN|NN|-LRB-|NN|-RRB-|NN|NN|NN|-LRB-|JJ|-RRB-	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+-1	5	fb:row.row.genre	Genre	genre	genre	NN	O						
+-1	6	fb:row.row.notes	Notes	notes	note	NNS	O						
+-1	7	fb:row.row.official_website	Official website	official|website	Official|website	NNP|NN	O|O	|					
+0	0	fb:cell.19_feb_15_mar	19 Feb-\n15 Mar	19|feb|-|15|mar	19|Feb|-|15|Mar	CD|NNP|:|CD|NNP	DATE|DATE|O|DATE|DATE	XXXX-02-19|XXXX-02-19||XXXX-03-15|XXXX-03-15	19.0		15.0	19 Feb-|15 Mar	fb:part.19_feb|fb:part.15_mar
+0	1	fb:cell.mutual_affection	Mutual Affection\n河東獅吼	mutual|affection|河東獅吼	mutual|affection|河東獅吼	JJ|NN|NN	O|O|O	||				Mutual Affection|河東獅吼	fb:part.mutual_affection|fb:part.null
+0	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+0	3	fb:cell.esther_kwan_gordon_lam_natalie_wong	Esther Kwan, Gordon Lam, Natalie Wong	esther|kwan|,|gordon|lam|,|natalie|wong	Esther|Kwan|,|Gordon|Lam|,|Natalie|Wong	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Esther Kwan|Gordon Lam|Natalie Wong	fb:part.esther_kwan|fb:part.gordon_lam|fb:part.natalie_wong
+0	4	fb:cell.t_david_lui	T: "怕老婆會發達"\n(David Lui)	t|:|''|怕老婆會發達|''|-lrb-|david|lui|-rrb-	t|:|''|怕老婆會發達|''|-lrb-|David|Lui|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|PERSON|PERSON|O	||||||||				T: "怕老婆會發達"|(David Lui)	fb:part.t|fb:part._david_lui
+0	5	fb:cell.costume_drama	Costume drama	costume|drama	costume|drama	NN|NN	O|O	|					
+0	6	fb:cell.null											fb:part.null
+0	7	fb:cell.null											fb:part.null
+1	0	fb:cell.18_mar_3_may	18 Mar-\n3 May	18|mar|-|3|may	18|Mar|-|3|May	CD|NNP|:|CD|VBD-AUX	DATE|DATE|O|DATE|DATE	XXXX-03-18|XXXX-03-18||XXXX-05-03|XXXX-05-03	18.0		3.0	18 Mar-|3 May	fb:part.18_mar|fb:part.3_may
+1	1	fb:cell.dark_tales	Dark Tales\n聊齋	dark|tales|聊齋	dark|tale|聊齋	JJ|NNS|VBP	O|O|O	||				Dark Tales|聊齋	fb:part.dark_tales|fb:part.null
+1	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+1	3	fb:cell.gallen_lo_grace_yu_jamie_wang_cynthia_khan	Gallen Lo, Grace Yu, Jamie Wang, Cynthia Khan	gallen|lo|,|grace|yu|,|jamie|wang|,|cynthia|khan	Gallen|Lo|,|Grace|Yu|,|Jamie|Wang|,|Cynthia|Khan	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				Gallen Lo|Grace Yu|Jamie Wang|Cynthia Khan	fb:part.gallen_lo|fb:part.grace_yu|fb:part.jamie_wang|fb:part.cynthia_khan
+1	4	fb:cell.t_cass_phang	T: "隔世情"\n(Cass Phang)	t|:|''|隔世情|''|-lrb-|cass|phang|-rrb-	t|:|''|隔世情|''|-lrb-|Cass|Phang|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|PERSON|PERSON|O	||||||||				T: "隔世情"|(Cass Phang)	fb:part.t|fb:part._cass_phang
+1	5	fb:cell.costume_drama	Costume drama	costume|drama	costume|drama	NN|NN	O|O	|					
+1	6	fb:cell.prequel_to_1998_s_dark_tales_ii	Prequel to 1998's Dark Tales II.	prequel|to|1998|'s|dark|tales|ii|.	prequel|to|1998|'s|dark|tale|ii|.	NN|TO|CD|POS|JJ|NNS|CD|.	O|O|DATE|O|O|O|NUMBER|O	||1998||||0.0|	1998.0			Prequel to 1998's Dark Tales II.	fb:part.prequel_to_1998_s_dark_tales_ii
+1	7	fb:cell.null											fb:part.null
+2	0	fb:cell.6_may_31_may	6 May-\n31 May	6|may|-|31|may	6|May|-|31|May	CD|VBD-AUX|:|CD|VBD-AUX	DATE|DATE|O|DATE|DATE	XXXX-05-06|XXXX-05-06||XXXX-05-31|XXXX-05-31	6.0		31.0	6 May-|31 May	fb:part.6_may|fb:part.31_may
+2	1	fb:cell.money_just_can_t_buy	Money Just Can't Buy\n天降財神	money|just|ca|n't|buy|天降財神	Money|just|can|not|buy|天降財神	NNP|RB|MD|RB|VB|CD	O|O|O|O|O|NUMBER	|||||				Money Just Can't Buy|天降財神	fb:part.money_just_can_t_buy|fb:part.null
+2	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+2	3	fb:cell.bobby_au_yeung_mariane_chan_roger_kwok_hilary_tsui	Bobby Au Yeung, Mariane Chan, Roger Kwok, Hilary Tsui	bobby|au|yeung|,|mariane|chan|,|roger|kwok|,|hilary|tsui	Bobby|Au|Yeung|,|Mariane|Chan|,|Roger|Kwok|,|Hilary|Tsui	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||				Bobby Au Yeung|Mariane Chan|Roger Kwok|Hilary Tsui	fb:part.bobby_au_yeung|fb:part.mariane_chan|fb:part.roger_kwok|fb:part.hilary_tsui
+2	4	fb:cell.t_natalis_chan	T: "運財有福星"\n(Natalis Chan)	t|:|''|運財有福星|''|-lrb-|natalis|chan|-rrb-	t|:|''|運財有福星|''|-lrb-|Natalis|Chan|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|O|O|O	||||||||				T: "運財有福星"|(Natalis Chan)	fb:part.t|fb:part._natalis_chan
+2	5	fb:cell.modern_drama	Modern drama	modern|drama	Modern|drama	NNP|NN	O|O	|					
+2	6	fb:cell.null											fb:part.null
+2	7	fb:cell.null											fb:part.null
+3	0	fb:cell.3_jun_21_jun	3 Jun-\n21 Jun	3|jun|-|21|jun	3|jun|-|21|jun	CD|NN|:|CD|NN	DATE|DATE|O|DATE|DATE	XXXX-06-03|XXXX-06-03||XXXX-06-21|XXXX-06-21	3.0		21.0	3 Jun-|21 Jun	fb:part.3_jun|fb:part.21_jun
+3	1	fb:cell.crossing_boundaries	Crossing Boundaries\n盞鬼老豆	crossing|boundaries|盞鬼老豆	cross|boundary|盞鬼老豆	VBG|NNS|CD	O|O|NUMBER	||				Crossing Boundaries|盞鬼老豆	fb:part.crossing_boundaries|fb:part.null
+3	2	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+3	3	fb:cell.mini_kung_benz_hui	Mini Kung, Benz Hui	mini|kung|,|benz|hui	Mini|Kung|,|Benz|Hui	NNP|NNP|,|NNP|NNP	O|O|O|PERSON|PERSON	||||				Mini Kung|Benz Hui	fb:part.mini_kung|fb:part.benz_hui
+3	4	fb:cell.t_vivian_lai	T: "覺悟"\n(Vivian Lai)	t|:|''|覺悟|''|-lrb-|vivian|lai|-rrb-	t|:|''|覺悟|''|-lrb-|Vivian|Lai|-rrb-	NN|:|''|NN|''|-LRB-|NNP|NNP|-RRB-	O|O|O|O|O|O|PERSON|PERSON|O	||||||||				T: "覺悟"|(Vivian Lai)	fb:part.t|fb:part._vivian_lai
+3	5	fb:cell.modern_drama	Modern drama	modern|drama	Modern|drama	NNP|NN	O|O	|					
+3	6	fb:cell.released_overseas_on_april_3_1995	Released overseas on April 3, 1995.	released|overseas|on|april|3|,|1995|.	release|overseas|on|April|3|,|1995|.	VBN|RB|IN|NNP|CD|,|CD|.	O|O|O|DATE|DATE|DATE|DATE|O	|||1995-04-03|1995-04-03|1995-04-03|1995-04-03|	31995.0			Released overseas on April 3|1995.	fb:part.released_overseas_on_april_3|fb:part.1995
+3	7	fb:cell.null											fb:part.null
+4	0	fb:cell.24_jun_16_aug	24 Jun-\n16 Aug	24|jun|-|16|aug	24|jun|-|16|aug	CD|NN|:|CD|NN	DATE|DATE|O|DATE|DATE	XXXX-06-24|XXXX-06-24||XXXX-08-16|XXXX-08-16	24.0		16.0	24 Jun-|16 Aug	fb:part.24_jun|fb:part.16_aug
+4	1	fb:cell.state_of_divinity	State of Divinity\n笑傲江湖	state|of|divinity|笑傲江湖	state|of|Divinity|笑傲江湖	NN|IN|NNP|CD	O|O|O|NUMBER	|||				State of Divinity|笑傲江湖	fb:part.state_of_divinity|fb:part.null
+4	2	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+4	3	fb:cell.jackie_lui_fiona_leung_cherie_chan_timmy_ho_he_meitian	Jackie Lui, Fiona Leung, Cherie Chan, Timmy Ho, He Meitian	jackie|lui|,|fiona|leung|,|cherie|chan|,|timmy|ho|,|he|meitian	Jackie|Lui|,|Fiona|Leung|,|Cherie|Chan|,|Timmy|Ho|,|he|meitian	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|PRP|JJ	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|O|MISC	|||||||||||||				Jackie Lui|Fiona Leung|Cherie Chan|Timmy Ho|He Meitian	fb:part.jackie_lui|fb:part.fiona_leung|fb:part.cherie_chan|fb:part.timmy_ho|fb:part.he_meitian
+4	4	fb:cell.t_alan_tam_priscilla_chan	T: "活得瀟灑"\n(Alan Tam & Priscilla Chan)	t|:|''|活得瀟灑|''|-lrb-|alan|tam|&|priscilla|chan|-rrb-	t|:|''|活得瀟灑|''|-lrb-|Alan|Tam|&|Priscilla|Chan|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|CC|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||||||||				T: "活得瀟灑"|(Alan Tam & Priscilla Chan)	fb:part.t|fb:part._alan_tam_priscilla_chan
+4	5	fb:cell.costume_drama	Costume drama	costume|drama	costume|drama	NN|NN	O|O	|					
+4	6	fb:cell.null											fb:part.null
+4	7	fb:cell.official_website	Official website	official|website	Official|website	NNP|NN	O|O	|					
+5	0	fb:cell.19_aug_6_sep	19 Aug-\n6 Sep	19|aug|-|6|sep	19|aug|-|6|sep	CD|SYM|:|CD|NN	DATE|DATE|O|DATE|DATE	XXXX-08-19|XXXX-08-19||XXXX-09-06|XXXX-09-06	19.0		6.0	19 Aug-|6 Sep	fb:part.19_aug|fb:part.6_sep
+5	1	fb:cell.the_price_to_pay	The Price to Pay\n五個醒覺的少年	the|price|to|pay|五個醒覺的少年	the|price|to|pay|五個醒覺的少年	DT|NN|TO|VB|CD	O|O|O|O|NUMBER	||||				The Price to Pay|五個醒覺的少年	fb:part.the_price_to_pay|fb:part.null
+5	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+5	3	fb:cell.john_kwan_may_kwong_ng_ka_lok	John Kwan, May Kwong, Ng Ka Lok	john|kwan|,|may|kwong|,|ng|ka|lok	John|Kwan|,|May|Kwong|,|Ng|ka|lok	NNP|NNP|,|VBD-AUX|NNP|,|NNP|NN|NN	PERSON|PERSON|O|PERSON|PERSON|O|O|O|O	||||||||				John Kwan|May Kwong|Ng Ka Lok	fb:part.john_kwan|fb:part.may_kwong|fb:part.ng_ka_lok
+5	4	fb:cell.t_hacken_lee	T: "改改改"\n(Hacken Lee)	t|:|''|改改改|''|-lrb-|hacken|lee|-rrb-	t|:|''|改改改|''|-lrb-|Hacken|Lee|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|PERSON|PERSON|O	||||||||				T: "改改改"|(Hacken Lee)	fb:part.t|fb:part._hacken_lee
+5	5	fb:cell.modern_drama	Modern drama	modern|drama	Modern|drama	NNP|NN	O|O	|					
+5	6	fb:cell.released_overseas_on_december_7_1995	Released overseas on December 7, 1995.	released|overseas|on|december|7|,|1995|.	release|overseas|on|December|7|,|1995|.	VBN|RB|IN|NNP|CD|,|CD|.	O|O|O|DATE|DATE|DATE|DATE|O	|||1995-12-07|1995-12-07|1995-12-07|1995-12-07|	71995.0			Released overseas on December 7|1995.	fb:part.released_overseas_on_december_7|fb:part.1995
+5	7	fb:cell.null											fb:part.null
+6	0	fb:cell.9_sep_4_oct	9 Sep-\n4 Oct	9|sep|-|4|oct	9|sep|-|4|oct	CD|NN|:|CD|NN	DATE|DATE|O|DATE|DATE	XXXX-09-09|XXXX-09-09||XXXX-10-04|XXXX-10-04	9.0		4.0	9 Sep-|4 Oct	fb:part.9_sep|fb:part.4_oct
+6	1	fb:cell.night_journey	Night Journey\n殭屍福星	night|journey|殭屍福星	Night|Journey|殭屍福星	NNP|NNP|CD	TIME|O|NUMBER	TNI||				Night Journey|殭屍福星	fb:part.night_journey|fb:part.null
+6	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+6	3	fb:cell.yuen_wah_daniel_chan_louisa_so_cheung_kwok_keung_halina_tam	Yuen Wah, Daniel Chan, Louisa So, Cheung Kwok Keung, Halina Tam	yuen|wah|,|daniel|chan|,|louisa|so|,|cheung|kwok|keung|,|halina|tam	Yuen|Wah|,|Daniel|Chan|,|Louisa|so|,|Cheung|Kwok|Keung|,|Halina|Tam	NNP|NNP|,|NNP|NNP|,|NNP|RB|,|NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|O|O|PERSON|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||				Yuen Wah|Daniel Chan|Louisa So|Cheung Kwok Keung|Halina Tam	fb:part.yuen_wah|fb:part.daniel_chan|fb:part.louisa_so|fb:part.cheung_kwok_keung|fb:part.halina_tam
+6	4	fb:cell.t_daniel_chan_st_daniel_chan	T: "今天開始"\n(Daniel Chan)\nST: "天生一對"\n(Daniel Chan)	t|:|''|今天開始|''|-lrb-|daniel|chan|-rrb-|st|:|''|天生一對|''|-lrb-|daniel|chan|-rrb-	t|:|''|今天開始|''|-lrb-|Daniel|Chan|-rrb-|st|:|''|天生一對|''|-lrb-|Daniel|Chan|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|-RRB-|JJ|:|''|CD|''|-LRB-|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|PERSON|PERSON|O|O|O|O|NUMBER|O|O|PERSON|PERSON|O	|||||||||||||||||				T: "今天開始"|(Daniel Chan)|ST: "天生一對"|(Daniel Chan)	fb:part.t|fb:part._daniel_chan|fb:part.st|fb:part._daniel_chan
+6	5	fb:cell.costume_drama	Costume drama	costume|drama	costume|drama	NN|NN	O|O	|					
+6	6	fb:cell.null											fb:part.null
+6	7	fb:cell.null											fb:part.null
+7	0	fb:cell.7_oct_15_nov	7 Oct-\n15 Nov	7|oct|-|15|nov	7|oct|-|15|Nov	CD|NN|:|CD|NNP	DATE|DATE|O|DATE|DATE	XXXX-10-07|XXXX-10-07||XXXX-11-15|XXXX-11-15	7.0		15.0	7 Oct-|15 Nov	fb:part.7_oct|fb:part.15_nov
+7	1	fb:cell.food_of_love	Food of Love\n闔府統請	food|of|love|闔府統請	Food|of|Love|闔府統請	NNP|IN|NNP|CD	O|O|O|NUMBER	|||				Food of Love|闔府統請	fb:part.food_of_love|fb:part.null
+7	2	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+7	3	fb:cell.wong_he_kenix_kwok_marco_ngai_gabriel_harrison	Wong He, Kenix Kwok, Marco Ngai, Gabriel Harrison	wong|he|,|kenix|kwok|,|marco|ngai|,|gabriel|harrison	Wong|he|,|Kenix|Kwok|,|Marco|Ngai|,|Gabriel|Harrison	NNP|PRP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	O|O|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				Wong He|Kenix Kwok|Marco Ngai|Gabriel Harrison	fb:part.wong_he|fb:part.kenix_kwok|fb:part.marco_ngai|fb:part.gabriel_harrison
+7	4	fb:cell.t_gabriel_harrison	T: "闔府統請"\n(Gabriel Harrison)	t|:|''|闔府統請|''|-lrb-|gabriel|harrison|-rrb-	t|:|''|闔府統請|''|-lrb-|Gabriel|Harrison|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|PERSON|PERSON|O	||||||||				T: "闔府統請"|(Gabriel Harrison)	fb:part.t|fb:part._gabriel_harrison
+7	5	fb:cell.modern_drama	Modern drama	modern|drama	Modern|drama	NNP|NN	O|O	|					
+7	6	fb:cell.null											fb:part.null
+7	7	fb:cell.null											fb:part.null
+8	0	fb:cell.10_nov_20_dec	10 Nov-\n20 Dec	10|nov|-|20|dec	10|Nov|-|20|Dec	CD|NNP|:|CD|NNP	DATE|DATE|O|DATE|DATE	XXXX-11-10|XXXX-11-10||XXXX-12-20|XXXX-12-20	10.0		20.0	10 Nov-|20 Dec	fb:part.10_nov|fb:part.20_dec
+8	1	fb:cell.journey_to_the_west	Journey to the West\n西遊記	journey|to|the|west|西遊記	journey|to|the|West|西遊記	NN|TO|DT|NNP|CD	O|O|O|O|NUMBER	||||				Journey to the West|西遊記	fb:part.journey_to_the_west|fb:part.null
+8	2	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+8	3	fb:cell.dicky_cheung_kwong_wah_wayne_lai_evergreen_mak	Dicky Cheung, Kwong Wah, Wayne Lai, Evergreen Mak	dicky|cheung|,|kwong|wah|,|wayne|lai|,|evergreen|mak	Dicky|Cheung|,|Kwong|Wah|,|Wayne|Lai|,|Evergreen|Mak	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				Dicky Cheung|Kwong Wah|Wayne Lai|Evergreen Mak	fb:part.dicky_cheung|fb:part.kwong_wah|fb:part.wayne_lai|fb:part.evergreen_mak
+8	4	fb:cell.t_dicky_cheung	T: "西遊記"\n(Dicky Cheung)	t|:|''|西遊記|''|-lrb-|dicky|cheung|-rrb-	t|:|''|西遊記|''|-lrb-|Dicky|Cheung|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|PERSON|PERSON|O	||||||||				T: "西遊記"|(Dicky Cheung)	fb:part.t|fb:part._dicky_cheung
+8	5	fb:cell.costume_drama	Costume drama	costume|drama	costume|drama	NN|NN	O|O	|					
+8	6	fb:cell.prequel_to_1998_s_journey_to_the_west_ii	Prequel to 1998's Journey to the West II.	prequel|to|1998|'s|journey|to|the|west|ii|.	prequel|to|1998|'s|journey|to|the|West|II|.	NN|TO|CD|POS|NN|TO|DT|NNP|NNP|.	O|O|DATE|O|O|O|O|O|O|O	||1998|||||||	1998.0			Prequel to 1998's Journey to the West II.	fb:part.prequel_to_1998_s_journey_to_the_west_ii
+8	7	fb:cell.official_website	Official website	official|website	Official|website	NNP|NN	O|O	|					
+9	0	fb:cell.30_dec_1996_27_jan_1998	30 Dec 1996-\n27 Jan 1998	30|dec|1996|-|27|jan|1998	30|Dec|1996|-|27|Jan|1998	CD|NNP|CD|:|CD|NNP|CD	DATE|DATE|DATE|O|DATE|DATE|DATE	1996-12-30|1996-12-30|1996-12-30||1998-01-27|1998-01-27|1998-01-27	30.0		1996.0	30 Dec 1996-|27 Jan 1998	fb:part.30_dec_1996|fb:part.27_jan_1998
+9	1	fb:cell.in_the_name_of_love	In the Name of Love\n有肥人終成眷屬	in|the|name|of|love|有肥人終成眷屬	in|the|name|of|Love|有肥人終成眷屬	IN|DT|NN|IN|NNP|CD	O|O|MISC|MISC|MISC|NUMBER	|||||				In the Name of Love|有肥人終成眷屬	fb:part.in_the_name_of_love|fb:part.null
+9	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+9	3	fb:cell.kent_cheng_sunny_chan_gigi_fu_theresa_lee	Kent Cheng, Sunny Chan, Gigi Fu, Theresa Lee	kent|cheng|,|sunny|chan|,|gigi|fu|,|theresa|lee	Kent|Cheng|,|Sunny|Chan|,|Gigi|Fu|,|Theresa|Lee	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|O|O|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				Kent Cheng|Sunny Chan|Gigi Fu|Theresa Lee	fb:part.kent_cheng|fb:part.sunny_chan|fb:part.gigi_fu|fb:part.theresa_lee
+9	4	fb:cell.t_mo_kai_yin	T: "但願有情人"\n(Mo Kai Yin)	t|:|''|但願有情人|''|-lrb-|mo|kai|yin|-rrb-	t|:|''|但願有情人|''|-lrb-|Mo|Kai|Yin|-rrb-	NN|:|''|CD|''|-LRB-|NNP|NNP|NNP|-RRB-	O|O|O|NUMBER|O|O|PERSON|PERSON|PERSON|O	|||||||||				T: "但願有情人"|(Mo Kai Yin)	fb:part.t|fb:part._mo_kai_yin
+9	5	fb:cell.modern_drama	Modern drama	modern|drama	Modern|drama	NNP|NN	O|O	|					
+9	6	fb:cell.null											fb:part.null
+9	7	fb:cell.null											fb:part.null

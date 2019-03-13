@@ -1,0 +1,57 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.institution	Institution	institution	Institution	NNP	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.nickname	Nickname	nickname	nickname	NN	O						
+-1	3	fb:row.row.founded	Founded	founded	found	VBN	O						
+-1	4	fb:row.row.type	Type	type	type	NN	O						
+-1	5	fb:row.row.enrollment	Enrollment	enrollment	enrollment	NN	O						
+-1	6	fb:row.row.joined	Joined	joined	join	VBN	O						
+0	0	fb:cell.aib_college_of_business	AIB College of Business	aib|college|of|business	AIB|College|of|Business	NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+0	1	fb:cell.des_moines_iowa	Des Moines, Iowa	des|moines|,|iowa	Des|Moines|,|Iowa	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Des Moines|Iowa	fb:part.des_moines|fb:part.iowa
+0	2	fb:cell.eagles	Eagles	eagles	Eagles	NNPS	O					Eagles	fb:part.eagles
+0	3	fb:cell.1921	1921	1921	1921	CD	DATE	1921	1921.0	1921-xx-xx			
+0	4	fb:cell.private	Private	private	private	JJ	O					Private	fb:part.private
+0	5	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+0	6	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+1	0	fb:cell.clarke_university	Clarke University	clarke|university	Clarke|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+1	1	fb:cell.dubuque_iowa	Dubuque, Iowa	dubuque|,|iowa	Dubuque|,|Iowa	NNP|,|NNP	LOCATION|O|LOCATION	||				Dubuque|Iowa	fb:part.dubuque|fb:part.iowa
+1	2	fb:cell.crusaders	Crusaders	crusaders	Crusaders	NNPS	O					Crusaders	fb:part.crusaders
+1	3	fb:cell.1843	1843	1843	1843	CD	DATE	1843	1843.0	1843-xx-xx			
+1	4	fb:cell.private_roman_catholic	Private/Roman Catholic	private\\/roman|catholic	Private\\/Roman|Catholic	NNP|NNP	O|MISC	|				Private|Roman Catholic	fb:part.private|fb:part.roman_catholic
+1	5	fb:cell.1_230	1,230	1,230	1,230	CD	NUMBER	1230.0	1230.0				
+1	6	fb:cell.19881	19881	19881	19881	CD	NUMBER	19881.0	19881.0				
+2	0	fb:cell.grand_view_university2	Grand View University2	grand|view|university2	Grand|View|university2	NNP|NNP|NN	MISC|MISC|MISC	||	2.0				
+2	1	fb:cell.des_moines_iowa	Des Moines, Iowa	des|moines|,|iowa	Des|Moines|,|Iowa	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Des Moines|Iowa	fb:part.des_moines|fb:part.iowa
+2	2	fb:cell.vikings	Vikings	vikings	Vikings	NNPS	O					Vikings	fb:part.vikings
+2	3	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx			
+2	4	fb:cell.private_lutheran_elca	Private/Lutheran (ELCA)	private\\/lutheran|-lrb-|elca|-rrb-	private\\/lutheran|-lrb-|elca|-rrb-	NN|-LRB-|NN|-RRB-	O|O|ORGANIZATION|O	|||				Private|Lutheran (ELCA)	fb:part.private|fb:part.lutheran_elca
+2	5	fb:cell.1_750	1,750	1,750	1,750	CD	NUMBER	1750.0	1750.0				
+2	6	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+3	0	fb:cell.mount_mercy_university	Mount Mercy University	mount|mercy|university	Mount|Mercy|University	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+3	1	fb:cell.cedar_rapids_iowa	Cedar Rapids, Iowa	cedar|rapids|,|iowa	Cedar|Rapids|,|Iowa	NNP|NNP|,|NNP	MISC|MISC|O|LOCATION	|||				Cedar Rapids|Iowa	fb:part.cedar_rapids|fb:part.iowa
+3	2	fb:cell.mustangs	Mustangs	mustangs	Mustangs	NNPS	PERSON					Mustangs	fb:part.mustangs
+3	3	fb:cell.1928	1928	1928	1928	CD	DATE	1928	1928.0	1928-xx-xx			
+3	4	fb:cell.private_roman_catholic	Private/Roman Catholic	private\\/roman|catholic	Private\\/Roman|Catholic	NNP|NNP	O|MISC	|				Private|Roman Catholic	fb:part.private|fb:part.roman_catholic
+3	5	fb:cell.1_490	1,490	1,490	1,490	CD	NUMBER	1490.0	1490.0				
+3	6	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+4	0	fb:cell.saint_ambrose_university	Saint Ambrose University	saint|ambrose|university	Saint|Ambrose|University	NNP|NNP|NNP	O|O|O	||					
+4	1	fb:cell.davenport_iowa	Davenport, Iowa	davenport|,|iowa	Davenport|,|Iowa	NNP|,|NNP	PERSON|O|LOCATION	||				Davenport|Iowa	fb:part.davenport|fb:part.iowa
+4	2	fb:cell.fighting_bees_men_s_queen_bees_women_s	Fighting Bees (men's)\nQueen Bees (women's)	fighting|bees|-lrb-|men|'s|-rrb-|queen|bees|-lrb-|women|'s|-rrb-	fighting|bee|-lrb-|man|'s|-rrb-|Queen|bee|-lrb-|woman|'s|-rrb-	NN|NNS|-LRB-|NNS|POS|-RRB-|NNP|NNS|-LRB-|NNS|POS|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Fighting Bees (men's)|Queen Bees (women's)	fb:part.fighting_bees_men_s|fb:part.queen_bees_women_s
+4	3	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx			
+4	4	fb:cell.private_roman_catholic	Private/Roman Catholic	private\\/roman|catholic	Private\\/Roman|Catholic	NNP|NNP	O|MISC	|				Private|Roman Catholic	fb:part.private|fb:part.roman_catholic
+4	5	fb:cell.3_623	3,623	3,623	3,623	CD	NUMBER	3623.0	3623.0				
+4	6	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+5	0	fb:cell.viterbo_university	Viterbo University	viterbo|university	Viterbo|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+5	1	fb:cell.la_crosse_wisconsin	La Crosse, Wisconsin	la|crosse|,|wisconsin	La|Crosse|,|Wisconsin	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				La Crosse|Wisconsin	fb:part.la_crosse|fb:part.wisconsin
+5	2	fb:cell.v_hawks	V-Hawks	v|hawks	v|Hawks	NN|NNPS	O|ORGANIZATION	|				V-Hawks	fb:part.v_hawks
+5	3	fb:cell.1923	1923	1923	1923	CD	DATE	1923	1923.0	1923-xx-xx			
+5	4	fb:cell.private_roman_catholic	Private/Roman Catholic	private\\/roman|catholic	Private\\/Roman|Catholic	NNP|NNP	O|MISC	|				Private|Roman Catholic	fb:part.private|fb:part.roman_catholic
+5	5	fb:cell.2_991	2,991	2,991	2,991	CD	NUMBER	2991.0	2991.0				
+5	6	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+6	0	fb:cell.william_penn_university2	William Penn University2	william|penn|university2	William|Penn|university2	NNP|NNP|NN	PERSON|PERSON|O	||	2.0				
+6	1	fb:cell.oskaloosa_iowa	Oskaloosa, Iowa	oskaloosa|,|iowa	Oskaloosa|,|Iowa	NNP|,|NNP	LOCATION|O|LOCATION	||				Oskaloosa|Iowa	fb:part.oskaloosa|fb:part.iowa
+6	2	fb:cell.statesmen_men_s_lady_statesmen_women_s	Statesmen (men's)\nLady Statesmen (women's)	statesmen|-lrb-|men|'s|-rrb-|lady|statesmen|-lrb-|women|'s|-rrb-	statesman|-lrb-|man|'s|-rrb-|Lady|Statesmen|-lrb-|woman|'s|-rrb-	NNS|-LRB-|NNS|POS|-RRB-|NNP|NNP|-LRB-|NNS|POS|-RRB-	O|O|O|O|O|O|O|O|O|O|O	||||||||||				Statesmen (men's)|Lady Statesmen (women's)	fb:part.statesmen_men_s|fb:part.lady_statesmen_women_s
+6	3	fb:cell.1873	1873	1873	1873	NNP	DATE	1873	1873.0	1873-xx-xx			
+6	4	fb:cell.private_quaker	Private/Quaker	private\\/quaker	private\\/quaker	NN	O					Private|Quaker	fb:part.private|fb:part.quaker
+6	5	fb:cell.1_550	1,550	1,550	1,550	CD	NUMBER	1550.0	1550.0				
+6	6	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			

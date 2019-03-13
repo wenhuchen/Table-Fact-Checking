@@ -1,0 +1,169 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.competition	Competition	competition	competition	NN	O						
+-1	2	fb:row.row.date	Date	date	date	NN	O						
+-1	3	fb:row.row.location	Location	location	Location	NNP	O						
+-1	4	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	5	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+-1	6	fb:row.row.result	Result	result	result	NN	O						
+0	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+0	1	fb:cell.world_group_1st_round	World Group, 1st Round	world|group|,|1st|round	World|Group|,|1st|Round	NNP|NNP|,|CD|NNP	O|O|O|ORDINAL|O	|||1.0|	1.0			World Group|1st Round	fb:part.world_group|fb:part.1st_round
+0	2	fb:cell.2_4_feb	2–4 Feb	2|--|4|feb	2|--|4|Feb	CD|:|CD|NNP	NUMBER|O|DATE|DATE	2.0||XXXX-02-04|XXXX-02-04	2.0		4.0		
+0	3	fb:cell.barcelona_esp	Barcelona (ESP)	barcelona|-lrb-|esp|-rrb-	Barcelona|-lrb-|ESP|-rrb-	NNP|-LRB-|NNP|-RRB-	ORGANIZATION|O|O|O	|||					
+0	4	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+0	5	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+0	6	fb:cell.win	Win	win	win	VB	O						
+1	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+1	1	fb:cell.world_group_quarterfinals	World Group, Quarterfinals	world|group|,|quarterfinals	World|Group|,|Quarterfinals	NNP|NNP|,|NNP	O|O|O|O	|||				World Group|Quarterfinals	fb:part.world_group|fb:part.quarterfinals
+1	2	fb:cell.30_mar_2_apr	30 Mar – 2 Apr	30|mar|--|2|apr	30|Mar|--|2|apr	CD|NNP|:|CD|NN	DATE|DATE|O|DATE|DATE	XXXX-03-30|XXXX-03-30||XXXX-04-02|XXXX-04-02	30.0		2.0		
+1	3	fb:cell.vienna_aut	Vienna (AUT)	vienna|-lrb-|aut|-rrb-	Vienna|-lrb-|AUT|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+1	4	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+1	5	fb:cell.5_0	5–0	5|--|0	5|--|0	CD|:|CD	NUMBER|O|NUMBER	5.0||0.0	5.0		0.0		
+1	6	fb:cell.win	Win	win	win	VB	O						
+2	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+2	1	fb:cell.world_group_semifinals	World Group, Semifinals	world|group|,|semifinals	World|Group|,|Semifinals	NNP|NNP|,|NNP	O|O|O|O	|||				World Group|Semifinals	fb:part.world_group|fb:part.semifinals
+2	2	fb:cell.21_23_sep	21–23 Sep	21|--|23|sep	21|--|23|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	21.0||XXXX-09-23|XXXX-09-23	21.0		23.0		
+2	3	fb:cell.vienna_aut	Vienna (AUT)	vienna|-lrb-|aut|-rrb-	Vienna|-lrb-|AUT|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+2	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+2	5	fb:cell.2_3	2–3	2|--|3	2|--|3	CD|:|CD	NUMBER|O|NUMBER	2.0||3.0	2.0		3.0		
+2	6	fb:cell.loss	Loss	loss	loss	NN	O						
+3	0	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+3	1	fb:cell.world_group_1st_round	World Group, 1st Round	world|group|,|1st|round	World|Group|,|1st|Round	NNP|NNP|,|CD|NNP	O|O|O|ORDINAL|O	|||1.0|	1.0			World Group|1st Round	fb:part.world_group|fb:part.1st_round
+3	2	fb:cell.1_3_feb	1–3 Feb	1|--|3|feb	1|--|3|Feb	CD|:|CD|NNP	NUMBER|O|DATE|DATE	1.0||XXXX-02-03|XXXX-02-03	1.0		3.0		
+3	3	fb:cell.prague_tch	Prague (TCH)	prague|-lrb-|tch|-rrb-	Prague|-lrb-|TCH|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+3	4	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+3	5	fb:cell.1_4	1–4	1|--|4	1|--|4	CD|:|CD	NUMBER|O|NUMBER	1.0||4.0	1.0		4.0		
+3	6	fb:cell.loss	Loss	loss	loss	NN	O						
+4	0	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+4	1	fb:cell.world_group_relegation_play_offs	World Group, Relegation Play-offs	world|group|,|relegation|play|offs	World|Group|,|Relegation|Play|off	NNP|NNP|,|NNP|NNP|NNS	O|O|O|O|O|O	|||||				World Group|Relegation Play-offs	fb:part.world_group|fb:part.relegation_play_offs
+4	2	fb:cell.20_22_sep	20–22 Sep	20|--|22|sep	20|--|22|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	20.0||XXXX-09-22|XXXX-09-22	20.0		22.0		
+4	3	fb:cell.manchester_gbr	Manchester (GBR)	manchester|-lrb-|gbr|-rrb-	Manchester|-lrb-|GBR|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+4	4	fb:cell.great_britain	Great Britain	great|britain	great|Britain	JJ|NNP	LOCATION|LOCATION	|					
+4	5	fb:cell.1_3	1–3	1|--|3	1|--|3	CD|:|CD	NUMBER|O|NUMBER	1.0||3.0	1.0		3.0		
+4	6	fb:cell.loss	Loss	loss	loss	NN	O						
+5	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+5	1	fb:cell.euro_african_zone_group_i_1st_round	Euro/African Zone Group I, 1st Round	euro\\/african|zone|group|i|,|1st|round	Euro\\/African|Zone|Group|I|,|1st|Round	NNP|NNP|NNP|PRP|,|CD|NNP	MISC|MISC|MISC|O|O|ORDINAL|O	|||||1.0|	1.0			Euro|African Zone Group I|1st Round	fb:part.euro|fb:part.african_zone_group_i|fb:part.1st_round
+5	2	fb:cell.bye	BYE	bye	bye	NN	O						
+5	3	fb:cell.bye	BYE	bye	bye	NN	O						
+5	4	fb:cell.bye	BYE	bye	bye	NN	O						
+5	5	fb:cell.bye	BYE	bye	bye	NN	O						
+5	6	fb:cell.bye	BYE	bye	bye	NN	O						
+6	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+6	1	fb:cell.euro_african_zone_group_i_semifinals	Euro/African Zone Group I, Semifinals	euro\\/african|zone|group|i|,|semifinals	Euro\\/African|Zone|Group|I|,|semifinal	NNP|NNP|NNP|PRP|,|NNS	MISC|MISC|MISC|O|O|O	|||||				Euro|African Zone Group I|Semifinals	fb:part.euro|fb:part.african_zone_group_i|fb:part.semifinals
+6	2	fb:cell.1_3_may	1–3 May	1|--|3|may	1|--|3|May	CD|:|CD|VBD-AUX	NUMBER|O|DATE|DATE	1.0||XXXX-05-03|XXXX-05-03	1.0		3.0		
+6	3	fb:cell.helsinki_fin	Helsinki (FIN)	helsinki|-lrb-|fin|-rrb-	Helsinki|-lrb-|FIN|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+6	4	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+6	5	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+6	6	fb:cell.win	Win	win	win	VB	O						
+7	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+7	1	fb:cell.world_group_relegation_play_offs	World Group, Relegation Play-offs	world|group|,|relegation|play|offs	World|Group|,|Relegation|Play|off	NNP|NNP|,|NNP|NNP|NNS	O|O|O|O|O|O	|||||				World Group|Relegation Play-offs	fb:part.world_group|fb:part.relegation_play_offs
+7	2	fb:cell.25_27_sep	25–27 Sep	25|--|27|sep	25|--|27|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	25.0||XXXX-09-27|XXXX-09-27	25.0		27.0		
+7	3	fb:cell.vancouver_can	Vancouver (CAN)	vancouver|-lrb-|can|-rrb-	Vancouver|-lrb-|CAN|-rrb-	NNP|-LRB-|VBD-AUX|-RRB-	O|O|O|O	|||					
+7	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+7	5	fb:cell.3_1	3–1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+7	6	fb:cell.win	Win	win	win	VB	O						
+8	0	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+8	1	fb:cell.world_group_1st_round	World Group, 1st Round	world|group|,|1st|round	World|Group|,|1st|Round	NNP|NNP|,|CD|NNP	O|O|O|ORDINAL|O	|||1.0|	1.0			World Group|1st Round	fb:part.world_group|fb:part.1st_round
+8	2	fb:cell.26_28_mar	26–28 Mar	26|--|28|mar	26|--|28|Mar	CD|:|CD|NNP	NUMBER|O|DATE|DATE	26.0||XXXX-03-28|XXXX-03-28	26.0		28.0		
+8	3	fb:cell.vienna_aut	Vienna (AUT)	vienna|-lrb-|aut|-rrb-	Vienna|-lrb-|AUT|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+8	4	fb:cell.france	France	france	France	NNP	LOCATION						
+8	5	fb:cell.1_4	1–4	1|--|4	1|--|4	CD|:|CD	NUMBER|O|NUMBER	1.0||4.0	1.0		4.0		
+8	6	fb:cell.loss	Loss	loss	loss	NN	O						
+9	0	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+9	1	fb:cell.world_group_relegation_play_offs	World Group, Relegation Play-offs	world|group|,|relegation|play|offs	World|Group|,|Relegation|Play|off	NNP|NNP|,|NNP|NNP|NNS	O|O|O|O|O|O	|||||				World Group|Relegation Play-offs	fb:part.world_group|fb:part.relegation_play_offs
+9	2	fb:cell.24_26_sep	24–26 Sep	24|--|26|sep	24|--|26|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	24.0||XXXX-09-26|XXXX-09-26	24.0		26.0		
+9	3	fb:cell.christchurch_nzl	Christchurch (NZL)	christchurch|-lrb-|nzl|-rrb-	Christchurch|-lrb-|NZL|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+9	4	fb:cell.new_zealand	New Zealand	new|zealand	New|Zealand	NNP|NNP	LOCATION|LOCATION	|					
+9	5	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+9	6	fb:cell.win	Win	win	win	VB	O						
+10	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+10	1	fb:cell.world_group_1st_round	World Group, 1st Round	world|group|,|1st|round	World|Group|,|1st|Round	NNP|NNP|,|CD|NNP	O|O|O|ORDINAL|O	|||1.0|	1.0			World Group|1st Round	fb:part.world_group|fb:part.1st_round
+10	2	fb:cell.26_28_mar	26–28 Mar	26|--|28|mar	26|--|28|Mar	CD|:|CD|NNP	NUMBER|O|DATE|DATE	26.0||XXXX-03-28|XXXX-03-28	26.0		28.0		
+10	3	fb:cell.graz_aut	Graz (AUT)	graz|-lrb-|aut|-rrb-	Graz|-lrb-|AUT|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+10	4	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+10	5	fb:cell.2_3	2–3	2|--|3	2|--|3	CD|:|CD	NUMBER|O|NUMBER	2.0||3.0	2.0		3.0		
+10	6	fb:cell.loss	Loss	loss	loss	NN	O						
+11	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+11	1	fb:cell.world_group_relegation_play_offs	World Group, Relegation Play-offs	world|group|,|relegation|play|offs	World|Group|,|Relegation|Play|off	NNP|NNP|,|NNP|NNP|NNS	O|O|O|O|O|O	|||||				World Group|Relegation Play-offs	fb:part.world_group|fb:part.relegation_play_offs
+11	2	fb:cell.23_25_sep	23–25 Sep	23|--|25|sep	23|--|25|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	23.0||XXXX-09-25|XXXX-09-25	23.0		25.0		
+11	3	fb:cell.montevideo_uru	Montevideo (URU)	montevideo|-lrb-|uru|-rrb-	Montevideo|-lrb-|URU|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+11	4	fb:cell.uruguay	Uruguay	uruguay	Uruguay	NNP	LOCATION						
+11	5	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+11	6	fb:cell.win	Win	win	win	VB	O						
+12	0	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+12	1	fb:cell.world_group_1st_round	World Group, 1st Round	world|group|,|1st|round	World|Group|,|1st|Round	NNP|NNP|,|CD|NNP	O|O|O|ORDINAL|O	|||1.0|	1.0			World Group|1st Round	fb:part.world_group|fb:part.1st_round
+12	2	fb:cell.3_5_feb	3–5 Feb	3|--|5|feb	3|--|5|Feb	CD|:|CD|NNP	NUMBER|O|DATE|DATE	3.0||XXXX-02-05|XXXX-02-05	3.0		5.0		
+12	3	fb:cell.vienna_aut	Vienna (AUT)	vienna|-lrb-|aut|-rrb-	Vienna|-lrb-|AUT|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+12	4	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+12	5	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+12	6	fb:cell.win	Win	win	win	VB	O						
+13	0	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+13	1	fb:cell.world_group_quarterfinals	World Group, Quarterfinals	world|group|,|quarterfinals	World|Group|,|Quarterfinals	NNP|NNP|,|NNP	O|O|O|O	|||				World Group|Quarterfinals	fb:part.world_group|fb:part.quarterfinals
+13	2	fb:cell.31_mar_2_apr	31 Mar – 2 Apr	31|mar|--|2|apr	31|Mar|--|2|apr	CD|NNP|:|CD|NN	DATE|DATE|O|DATE|DATE	XXXX-03-31|XXXX-03-31||XXXX-04-02|XXXX-04-02	31.0		2.0		
+13	3	fb:cell.vaxjo_swe	Växjö (SWE)	växjö|-lrb-|swe|-rrb-	växjö|-lrb-|swe|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+13	4	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+13	5	fb:cell.0_5	0–5	0|--|5	0|--|5	CD|:|CD	NUMBER|O|NUMBER	0.0||5.0	0.0		5.0		
+13	6	fb:cell.loss	Loss	loss	loss	NN	O						
+14	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+14	1	fb:cell.world_group_1st_round	World Group, 1st Round	world|group|,|1st|round	World|Group|,|1st|Round	NNP|NNP|,|CD|NNP	O|O|O|ORDINAL|O	|||1.0|	1.0			World Group|1st Round	fb:part.world_group|fb:part.1st_round
+14	2	fb:cell.9_12_feb	9–12 Feb	9|--|12|feb	9|--|12|Feb	CD|:|CD|NNP	NUMBER|O|DATE|DATE	9.0||XXXX-02-12|XXXX-02-12	9.0		12.0		
+14	3	fb:cell.johannesburg_rsa	Johannesburg (RSA)	johannesburg|-lrb-|rsa|-rrb-	Johannesburg|-lrb-|RSA|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+14	4	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|					
+14	5	fb:cell.2_3	2–3	2|--|3	2|--|3	CD|:|CD	NUMBER|O|NUMBER	2.0||3.0	2.0		3.0		
+14	6	fb:cell.loss	Loss	loss	loss	NN	O						
+15	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+15	1	fb:cell.world_group_relegation_play_offs	World Group, Relegation Play-offs	world|group|,|relegation|play|offs	World|Group|,|Relegation|Play|off	NNP|NNP|,|NNP|NNP|NNS	O|O|O|O|O|O	|||||				World Group|Relegation Play-offs	fb:part.world_group|fb:part.relegation_play_offs
+15	2	fb:cell.20_22_sep	20–22 Sep	20|--|22|sep	20|--|22|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	20.0||XXXX-09-22|XXXX-09-22	20.0		22.0		
+15	3	fb:cell.sao_paulo_bra	São Paulo (BRA)	são|paulo|-lrb-|bra|-rrb-	São|Paulo|-lrb-|BRA|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O	||||					
+15	4	fb:cell.brazil	Brazil	brazil	Brazil	NNP	LOCATION						
+15	5	fb:cell.1_4	1–4	1|--|4	1|--|4	CD|:|CD	NUMBER|O|NUMBER	1.0||4.0	1.0		4.0		
+15	6	fb:cell.loss	Loss	loss	loss	NN	O						
+16	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+16	1	fb:cell.euro_african_zone_group_i_1st_round	Euro/African Zone Group I, 1st Round	euro\\/african|zone|group|i|,|1st|round	Euro\\/African|Zone|Group|I|,|1st|Round	NNP|NNP|NNP|PRP|,|CD|NNP	MISC|MISC|MISC|O|O|ORDINAL|O	|||||1.0|	1.0			Euro|African Zone Group I|1st Round	fb:part.euro|fb:part.african_zone_group_i|fb:part.1st_round
+16	2	fb:cell.bye	BYE	bye	bye	NN	O						
+16	3	fb:cell.bye	BYE	bye	bye	NN	O						
+16	4	fb:cell.bye	BYE	bye	bye	NN	O						
+16	5	fb:cell.bye	BYE	bye	bye	NN	O						
+16	6	fb:cell.bye	BYE	bye	bye	NN	O						
+17	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+17	1	fb:cell.euro_african_zone_group_i_semifinals	Euro/African Zone Group I, Semifinals	euro\\/african|zone|group|i|,|semifinals	Euro\\/African|Zone|Group|I|,|semifinal	NNP|NNP|NNP|PRP|,|NNS	MISC|MISC|MISC|O|O|O	|||||				Euro|African Zone Group I|Semifinals	fb:part.euro|fb:part.african_zone_group_i|fb:part.semifinals
+17	2	fb:cell.4_6_apr	4–6 Apr	4|--|6|apr	4|--|6|apr	CD|:|CD|NN	NUMBER|O|DATE|DATE	4.0||XXXX-04-06|XXXX-04-06	4.0		6.0		
+17	3	fb:cell.graz_aut	Graz (AUT)	graz|-lrb-|aut|-rrb-	Graz|-lrb-|AUT|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+17	4	fb:cell.croatia	Croatia	croatia	Croatia	NNP	LOCATION						
+17	5	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+17	6	fb:cell.win	Win	win	win	VB	O						
+18	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+18	1	fb:cell.world_group_relegation_play_offs	World Group, Relegation Play-offs	world|group|,|relegation|play|offs	World|Group|,|Relegation|Play|off	NNP|NNP|,|NNP|NNP|NNS	O|O|O|O|O|O	|||||				World Group|Relegation Play-offs	fb:part.world_group|fb:part.relegation_play_offs
+18	2	fb:cell.19_21_sep	19–21 Sep	19|--|21|sep	19|--|21|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	19.0||XXXX-09-21|XXXX-09-21	19.0		21.0		
+18	3	fb:cell.harare_zim	Harare (ZIM)	harare|-lrb-|zim|-rrb-	Harare|-lrb-|ZIM|-rrb-	NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O	|||					
+18	4	fb:cell.zimbabwe	Zimbabwe	zimbabwe	Zimbabwe	NNP	LOCATION						
+18	5	fb:cell.2_3	2–3	2|--|3	2|--|3	CD|:|CD	NUMBER|O|NUMBER	2.0||3.0	2.0		3.0		
+18	6	fb:cell.loss	Loss	loss	loss	NN	O						
+19	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+19	1	fb:cell.euro_african_zone_group_i_quarterfinals	Euro/African Zone Group I, Quarterfinals	euro\\/african|zone|group|i|,|quarterfinals	Euro\\/African|Zone|Group|I|,|quarterfinal	NNP|NNP|NNP|PRP|,|NNS	MISC|MISC|MISC|O|O|O	|||||				Euro|African Zone Group I|Quarterfinals	fb:part.euro|fb:part.african_zone_group_i|fb:part.quarterfinals
+19	2	fb:cell.3_5_apr	3–5 Apr	3|--|5|apr	3|--|5|apr	CD|:|CD|NN	NUMBER|O|DATE|DATE	3.0||XXXX-04-05|XXXX-04-05	3.0		5.0		
+19	3	fb:cell.ramat_hasharon_isr	Ramat HaSharon (ISR)	ramat|hasharon|-lrb-|isr|-rrb-	Ramat|HaSharon|-lrb-|ISR|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O	||||					
+19	4	fb:cell.israel	Israel	israel	Israel	NNP	LOCATION						
+19	5	fb:cell.1_4	1–4	1|--|4	1|--|4	CD|:|CD	NUMBER|O|NUMBER	1.0||4.0	1.0		4.0		
+19	6	fb:cell.loss	Loss	loss	loss	NN	O						
+20	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+20	1	fb:cell.euro_african_zone_group_i_relegation_play_offs	Euro/African Zone Group I, Relegation Play-offs	euro\\/african|zone|group|i|,|relegation|play|offs	Euro\\/African|Zone|Group|I|,|Relegation|Play|off	NNP|NNP|NNP|PRP|,|NNP|NNP|NNS	MISC|MISC|MISC|O|O|O|O|O	|||||||				Euro|African Zone Group I|Relegation Play-offs	fb:part.euro|fb:part.african_zone_group_i|fb:part.relegation_play_offs
+20	2	fb:cell.25_27_sep	25–27 Sep	25|--|27|sep	25|--|27|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	25.0||XXXX-09-27|XXXX-09-27	25.0		27.0		
+20	3	fb:cell.portschach_aut	Pörtschach (AUT)	pörtschach|-lrb-|aut|-rrb-	pörtschach|-lrb-|aut|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+20	4	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+20	5	fb:cell.5_0	5–0	5|--|0	5|--|0	CD|:|CD	NUMBER|O|NUMBER	5.0||0.0	5.0		0.0		
+20	6	fb:cell.win	Win	win	win	VB	O						
+21	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+21	1	fb:cell.euro_african_zone_group_i_quarterfinals	Euro/African Zone Group I, Quarterfinals	euro\\/african|zone|group|i|,|quarterfinals	Euro\\/African|Zone|Group|I|,|quarterfinal	NNP|NNP|NNP|PRP|,|NNS	MISC|MISC|MISC|O|O|O	|||||				Euro|African Zone Group I|Quarterfinals	fb:part.euro|fb:part.african_zone_group_i|fb:part.quarterfinals
+21	2	fb:cell.2_4_apr	2–4 Apr	2|--|4|apr	2|--|4|apr	CD|:|CD|NN	NUMBER|O|DATE|DATE	2.0||XXXX-04-04|XXXX-04-04	2.0		4.0		
+21	3	fb:cell.wels_aut	Wels (AUT)	wels|-lrb-|aut|-rrb-	wel|-lrb-|aut|-rrb-	NNS|-LRB-|NN|-RRB-	PERSON|O|O|O	|||					
+21	4	fb:cell.portugal	Portugal	portugal	Portugal	NNP	LOCATION						
+21	5	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+21	6	fb:cell.win	Win	win	win	VB	O						
+22	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+22	1	fb:cell.world_group_relegation_play_offs	World Group, Relegation Play-offs	world|group|,|relegation|play|offs	World|Group|,|Relegation|Play|off	NNP|NNP|,|NNP|NNP|NNS	O|O|O|O|O|O	|||||				World Group|Relegation Play-offs	fb:part.world_group|fb:part.relegation_play_offs
+22	2	fb:cell.24_26_sep	24–26 Sep	24|--|26|sep	24|--|26|sep	CD|:|CD|NN	NUMBER|O|DATE|DATE	24.0||XXXX-09-26|XXXX-09-26	24.0		26.0		
+22	3	fb:cell.portschach_aut	Pörtschach (AUT)	pörtschach|-lrb-|aut|-rrb-	pörtschach|-lrb-|aut|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+22	4	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+22	5	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+22	6	fb:cell.win	Win	win	win	VB	O						

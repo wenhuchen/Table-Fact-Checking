@@ -1,0 +1,41 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.role	Role	role	role	NN	O						
+-1	3	fb:row.row.episodes	Episodes	episodes	episode	NNS	O						
+0	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+0	1	fb:cell.the_answer_lies_in_the_soil	The Answer Lies in the Soil	the|answer|lies|in|the|soil	the|answer|lie|in|the|soil	DT|NN|VBZ|IN|DT|NN	O|O|O|O|O|O	|||||				The Answer Lies in the Soil	fb:part.the_answer_lies_in_the_soil
+0	2	fb:cell.presenter	Presenter	presenter	presenter	NN	O						
+0	3	fb:cell.all_6_episodes	All (6 episodes)	all|-lrb-|6|episodes|-rrb-	all|-lrb-|6|episode|-rrb-	DT|-LRB-|CD|NNS|-RRB-	O|O|NUMBER|O|O	||6.0||	6.0			All (6 episodes)	fb:part.all_6_episodes
+1	0	fb:cell.1999_2002	1999-2002	1999-2002	1999-2002	CD	DATE	1999/2002	1999.0		2002.0	1999-2002	fb:part.1999_2002
+1	1	fb:cell.loose_women	Loose Women	loose|women	loose|woman	JJ|NNS	O|O	|				Loose Women	fb:part.loose_women
+1	2	fb:cell.panellist	Panellist	panellist	panellist	NN	O						
+1	3	fb:cell.alternating_episodes	Alternating episodes	alternating|episodes	alternate|episode	VBG|NNS	O|O	|				Alternating episodes	fb:part.alternating_episodes
+2	0	fb:cell.2000_06	2000-06	2000-06	2000-06	CD	DATE	2000-06	2000.0	2000-06-xx	6.0	2000-06	fb:part.2000_06
+2	1	fb:cell.this_morning	This Morning	this|morning	this|morning	DT|NN	DATE|DATE	THIS MO|THIS MO				This Morning	fb:part.this_morning
+2	2	fb:cell.stand_in_presenter	Stand-in presenter	stand|in|presenter	stand|in|presenter	VB|IN|NN	O|O|O	||					
+2	3	fb:cell.occasional_episodes	Occasional episodes	occasional|episodes	occasional|episode	JJ|NNS	O|O	|				Occasional episodes	fb:part.occasional_episodes
+3	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx		2004	fb:part.2004
+3	1	fb:cell.zoo_story	Zoo Story	zoo|story	zoo|Story	NN|NNP	O|O	|				Zoo Story	fb:part.zoo_story
+3	2	fb:cell.narrator	Narrator	narrator	narrator	NN	O						
+3	3	fb:cell.all	All	all	all	DT	O					All	fb:part.all
+4	0	fb:cell.2006	2006—	2006|--	2006|--	CD|:	DATE|O	2006|	2006.0			2006—	fb:part.2006
+4	1	fb:cell.this_morning	This Morning	this|morning	this|morning	DT|NN	DATE|DATE	THIS MO|THIS MO				This Morning	fb:part.this_morning
+4	2	fb:cell.co_presenter	Co-presenter	co|presenter	Co|presenter	NNP|NN	O|O	|					
+4	3	fb:cell.fridays_and_school_holidays	Fridays and School Holidays	fridays|and|school|holidays	friday|and|School|Holidays	NNS|CC|NNP|NNPS	SET|O|O|O	|||				Fridays and School Holidays	fb:part.fridays_and_school_holidays
+5	0	fb:cell.2010_12_13	2010, 12-13	2010|,|12-13	2010|,|12-13	CD|,|CD	DATE|O|NUMBER	2010||12.0 - 13.0	201012.0		13.0	2010|12-13	fb:part.2010|fb:part.12_13
+5	1	fb:cell.loose_women	Loose Women	loose|women	loose|woman	JJ|NNS	O|O	|				Loose Women	fb:part.loose_women
+5	2	fb:cell.stand_in_anchor	Stand-in anchor	stand|in|anchor	stand|in|anchor	VB|IN|NN	O|O|O	||					
+5	3	fb:cell.occasional_episodes	Occasional episodes	occasional|episodes	occasional|episode	JJ|NNS	O|O	|				Occasional episodes	fb:part.occasional_episodes
+6	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx		2010	fb:part.2010
+6	1	fb:cell.gmtv_with_lorraine	GMTV with Lorraine	gmtv|with|lorraine	gmtv|with|Lorraine	NN|IN|NNP	ORGANIZATION|O|PERSON	||				GMTV with Lorraine	fb:part.gmtv_with_lorraine
+6	2	fb:cell.guest_presenter	Guest Presenter	guest|presenter	guest|presenter	NN|NN	O|O	|					
+6	3	fb:cell.12_13_14_15_16_april	12, 13, 14, 15, 16 April	12|,|13|,|14|,|15|,|16|april	12|,|13|,|14|,|15|,|16|April	CD|,|CD|,|CD|,|CD|,|CD|NNP	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|DATE|DATE	12.0||13.0||14.0||15.0||XXXX-04-16|XXXX-04-16	1.213141516E9			12|13|14|15|16 April	fb:part.12|fb:part.13|fb:part.14|fb:part.15|fb:part.16_april
+7	0	fb:cell.2014	2014—	2014|--	2014|--	CD|:	DATE|O	2014|	2014.0			2014—	fb:part.2014
+7	1	fb:cell.loose_women	Loose Women	loose|women	loose|woman	JJ|NNS	O|O	|				Loose Women	fb:part.loose_women
+7	2	fb:cell.anchor	Anchor	anchor	Anchor	NNP	O						
+7	3	fb:cell.wednesdays	Wednesdays	wednesdays	wednesday	NNS	SET					Wednesdays	fb:part.wednesdays
+8	0	fb:cell.2014_2	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx		2014	fb:part.2014_2
+8	1	fb:cell.he_says_she_says	He Says, She Says...	he|says|,|she|says|...	he|say|,|she|say|...	PRP|VBZ|,|PRP|VBZ|:	O|O|O|O|O|O	|||||				He Says|She Says...	fb:part.he_says|fb:part.she_says
+8	2	fb:cell.co_presenter	Co-presenter	co|presenter	Co|presenter	NNP|NN	O|O	|					
+8	3	fb:cell.pilot_recorded_1_april_2014	Pilot recorded, 1 April 2014	pilot|recorded|,|1|april|2014	pilot|record|,|1|April|2014	NN|VBD|,|CD|NNP|CD	O|O|O|DATE|DATE|DATE	|||2014-04-01|2014-04-01|2014-04-01	1.0		2014.0	Pilot recorded|1 April 2014	fb:part.pilot_recorded|fb:part.1_april_2014

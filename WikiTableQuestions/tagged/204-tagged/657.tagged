@@ -1,0 +1,121 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.time	Time	time	Time	NNP	O						
+-1	2	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	3	fb:row.row.rank	Rank#	rank|#	Rank|#	NNP|#	O|O	|					
+-1	4	fb:row.row.site	Site	site	site	NN	O						
+-1	5	fb:row.row.tv	TV	tv	tv	NN	O						
+-1	6	fb:row.row.result	Result	result	result	NN	O						
+-1	7	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.september_1	September 1	september|1	September|1	NNP|CD	DATE|DATE	XXXX-09-01|XXXX-09-01	1.0	xxxx-09-01		September 1	fb:part.september_1
+0	1	fb:cell.2_30_pm	2:30 PM	2:30|pm	2:30|pm	CD|NN	TIME|TIME	T14:30|T14:30	2.0		30.0		
+0	2	fb:cell._9_fcs_northern_iowa	#9 (FCS) Northern Iowa*	#|9|-lrb-|fcs|-rrb-|northern|iowa|\\*	#|9|-lrb-|fc|-rrb-|northern|Iowa|\\*	#|CD|-LRB-|NN|-RRB-|NN|NNP|SYM	MONEY|MONEY|O|O|O|LOCATION|LOCATION|O	£9.0|£9.0||||||	9.0				
+0	3	fb:cell._12	#12	#|12	#|12	#|CD	MONEY|MONEY	£12.0|£12.0	12.0				
+0	4	fb:cell.camp_randall_stadium_madison_wi	Camp Randall Stadium • Madison, WI	camp|randall|stadium|•|madison|,|wi	Camp|Randall|Stadium|•|Madison|,|WI	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|O	||||||				Camp Randall Stadium • Madison|WI	fb:part.camp_randall_stadium_madison|fb:part.wi
+0	5	fb:cell.btn	BTN	btn	btn	NNS	O					BTN	fb:part.btn
+0	6	fb:cell.w_26_21	W 26–21	w|26|--|21	W|26|--|21	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|26.0||21.0	26.0		21.0		
+0	7	fb:cell.79_568	79,568	79,568	79,568	CD	NUMBER	79568.0	79568.0				
+1	0	fb:cell.september_8	September 8	september|8	September|8	NNP|CD	DATE|DATE	XXXX-09-08|XXXX-09-08	8.0	xxxx-09-08		September 8	fb:part.september_8
+1	1	fb:cell.3_00_pm	3:00 PM	3:00|pm	3:00|pm	CD|NN	TIME|TIME	T15:00|T15:00	3.0		0.0		
+1	2	fb:cell.at_oregon_state	at Oregon State*	at|oregon|state|\\*	at|Oregon|State|\\*	IN|NNP|NNP|SYM	O|O|O|O	|||					
+1	3	fb:cell._13	#13	#|13	#|13	#|CD	MONEY|MONEY	£13.0|£13.0	13.0				
+1	4	fb:cell.reser_stadium_corvallis_or	Reser Stadium • Corvallis, OR	reser|stadium|•|corvallis|,|or	Reser|Stadium|•|Corvallis|,|or	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|O	|||||				Reser Stadium • Corvallis|OR	fb:part.reser_stadium_corvallis|fb:part.or
+1	5	fb:cell.fx	FX	fx	fx	NN	O					FX	fb:part.fx
+1	6	fb:cell.l_7_10	L 7–10	l|7|--|10	l|7|--|10	NN|CD|:|CD	O|NUMBER|O|NUMBER	|7.0||10.0	7.0		10.0		
+1	7	fb:cell.42_189	42,189	42,189	42,189	CD	NUMBER	42189.0	42189.0				
+2	0	fb:cell.september_15	September 15	september|15	September|15	NNP|CD	DATE|DATE	XXXX-09-15|XXXX-09-15	15.0	xxxx-09-15		September 15	fb:part.september_15
+2	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+2	2	fb:cell.utah_state	Utah State*	utah|state|\\*	Utah|State|\\*	NNP|NNP|SYM	LOCATION|O|O	||					
+2	3	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+2	4	fb:cell.camp_randall_stadium_madison_wi	Camp Randall Stadium • Madison, WI	camp|randall|stadium|•|madison|,|wi	Camp|Randall|Stadium|•|Madison|,|WI	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|O	||||||				Camp Randall Stadium • Madison|WI	fb:part.camp_randall_stadium_madison|fb:part.wi
+2	5	fb:cell.btn	BTN	btn	btn	NNS	O					BTN	fb:part.btn
+2	6	fb:cell.w_16_14	W 16–14	w|16|--|14	W|16|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|16.0||14.0	16.0		14.0		
+2	7	fb:cell.79_332	79,332	79,332	79,332	CD	NUMBER	79332.0	79332.0				
+3	0	fb:cell.september_22	September 22	september|22	September|22	NNP|CD	DATE|DATE	XXXX-09-22|XXXX-09-22	22.0	xxxx-09-22		September 22	fb:part.september_22
+3	1	fb:cell.11_00_am	11:00 AM	11:00|am	11:00|AM	CD|VBD-AUX	TIME|TIME	T11:00|T11:00	11.0		0.0		
+3	2	fb:cell.utep	UTEP*	utep|\\*	UTEP|\\*	NNP|SYM	ORGANIZATION|O	|					
+3	3	fb:cell._24	#24	#|24	#|24	#|CD	MONEY|MONEY	£24.0|£24.0	24.0				
+3	4	fb:cell.camp_randall_stadium_madison_wi	Camp Randall Stadium • Madison, WI	camp|randall|stadium|•|madison|,|wi	Camp|Randall|Stadium|•|Madison|,|WI	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|O	||||||				Camp Randall Stadium • Madison|WI	fb:part.camp_randall_stadium_madison|fb:part.wi
+3	5	fb:cell.espn2	ESPN2	espn2	espn2	NN	O		2.0			ESPN2	fb:part.espn2
+3	6	fb:cell.w_37_26	W 37–26	w|37|--|26	w|37|--|26	NN|CD|:|CD	O|NUMBER|O|NUMBER	|37.0||26.0	37.0		26.0		
+3	7	fb:cell.79_806	79,806	79,806	79,806	CD	NUMBER	79806.0	79806.0				
+4	0	fb:cell.september_29	September 29	september|29	September|29	NNP|CD	DATE|DATE	XXXX-09-29|XXXX-09-29	29.0	xxxx-09-29		September 29	fb:part.september_29
+4	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+4	2	fb:cell.at_20_nebraska	at #20 Nebraska	at|#|20|nebraska	at|#|20|Nebraska	IN|#|CD|NNP	O|MONEY|MONEY|LOCATION	|£20.0|£20.0|	20.0				
+4	3	fb:cell._23	#23	#|23	#|23	#|CD	MONEY|MONEY	£23.0|£23.0	23.0				
+4	4	fb:cell.memorial_stadium_lincoln_ne	Memorial Stadium • Lincoln, NE	memorial|stadium|•|lincoln|,|ne	Memorial|Stadium|•|Lincoln|,|ne	NNP|NNP|NNP|NNP|,|NN	O|O|O|PERSON|O|O	|||||				Memorial Stadium • Lincoln|NE	fb:part.memorial_stadium_lincoln|fb:part.ne
+4	5	fb:cell.abc	ABC	abc	ABC	NNP	ORGANIZATION					ABC	fb:part.abc
+4	6	fb:cell.l_27_30	L 27–30	l|27|--|30	l|27|--|30	NN|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||30.0	27.0		30.0		
+4	7	fb:cell.85_962	85,962	85,962	85,962	CD	NUMBER	85962.0	85962.0				
+5	0	fb:cell.october_6	October 6	october|6	October|6	NNP|CD	DATE|DATE	XXXX-10-06|XXXX-10-06	6.0	xxxx-10-06		October 6	fb:part.october_6
+5	1	fb:cell.2_30_pm	2:30 PM	2:30|pm	2:30|pm	CD|NN	TIME|TIME	T14:30|T14:30	2.0		30.0		
+5	2	fb:cell.illinois	Illinois	illinois	Illinois	NNP	LOCATION						
+5	3	fb:cell.null											
+5	4	fb:cell.camp_randall_stadium_madison_wi	Camp Randall Stadium • Madison, WI	camp|randall|stadium|•|madison|,|wi	Camp|Randall|Stadium|•|Madison|,|WI	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|O	||||||				Camp Randall Stadium • Madison|WI	fb:part.camp_randall_stadium_madison|fb:part.wi
+5	5	fb:cell.abc_espn2	ABC/ESPN2	abc\\/espn2	abc\\/espn2	NN	O		2.0			ABC|ESPN2	fb:part.abc|fb:part.espn2
+5	6	fb:cell.w_31_14	W 31–14	w|31|--|14	W|31|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|31.0||14.0	31.0		14.0		
+5	7	fb:cell.80_096	80,096	80,096	80,096	CD	NUMBER	80096.0	80096.0				
+6	0	fb:cell.october_13	October 13	october|13	October|13	NNP|CD	DATE|DATE	XXXX-10-13|XXXX-10-13	13.0	xxxx-10-13		October 13	fb:part.october_13
+6	1	fb:cell.11_00_am	11:00 AM	11:00|am	11:00|AM	CD|VBD-AUX	TIME|TIME	T11:00|T11:00	11.0		0.0		
+6	2	fb:cell.at_purdue	at Purdue	at|purdue	at|Purdue	IN|NNP	O|LOCATION	|					
+6	3	fb:cell.null											
+6	4	fb:cell.ross_ade_stadium_west_lafayette_in	Ross-Ade Stadium • West Lafayette, IN	ross|ade|stadium|•|west|lafayette|,|in	Ross|Ade|Stadium|•|West|Lafayette|,|in	NNP|NNP|NNP|NNP|NNP|NNP|,|IN	PERSON|O|O|O|LOCATION|LOCATION|O|O	|||||||				Ross-Ade Stadium • West Lafayette|IN	fb:part.ross_ade_stadium_west_lafayette|fb:part.in
+6	5	fb:cell.btn	BTN	btn	btn	NNS	O					BTN	fb:part.btn
+6	6	fb:cell.w_38_14	W 38–14	w|38|--|14	W|38|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|38.0||14.0	38.0		14.0		
+6	7	fb:cell.46_007	46,007	46,007	46,007	CD	NUMBER	46007.0	46007.0				
+7	0	fb:cell.october_20	October 20	october|20	October|20	NNP|CD	DATE|DATE	XXXX-10-20|XXXX-10-20	20.0	xxxx-10-20		October 20	fb:part.october_20
+7	1	fb:cell.11_00_am	11:00 AM	11:00|am	11:00|AM	CD|VBD-AUX	TIME|TIME	T11:00|T11:00	11.0		0.0		
+7	2	fb:cell.minnesota	Minnesota	minnesota	Minnesota	NNP	LOCATION						
+7	3	fb:cell.null											
+7	4	fb:cell.camp_randall_stadium_madison_wi_paul_bunyan_s_axe	Camp Randall Stadium • Madison, WI (Paul Bunyan's Axe)	camp|randall|stadium|•|madison|,|wi|-lrb-|paul|bunyan|'s|axe|-rrb-	Camp|Randall|Stadium|•|Madison|,|WI|-lrb-|Paul|Bunyan|'s|Axe|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|POS|NNP|-RRB-	O|O|O|O|O|O|O|O|PERSON|PERSON|O|MISC|O	||||||||||||				Camp Randall Stadium • Madison|WI (Paul Bunyan's Axe)	fb:part.camp_randall_stadium_madison|fb:part.wi_paul_bunyan_s_axe
+7	5	fb:cell.espnu	ESPNU	espnu	ESPNU	NNP	ORGANIZATION					ESPNU	fb:part.espnu
+7	6	fb:cell.w_38_13	W 38–13	w|38|--|13	W|38|--|13	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|38.0||13.0	38.0		13.0		
+7	7	fb:cell.80_587	80,587	80,587	80,587	CD	NUMBER	80587.0	80587.0				
+8	0	fb:cell.october_27	October 27	october|27	October|27	NNP|CD	DATE|DATE	XXXX-10-27|XXXX-10-27	27.0	xxxx-10-27		October 27	fb:part.october_27
+8	1	fb:cell.2_30_pm	2:30 PM	2:30|pm	2:30|pm	CD|NN	TIME|TIME	T14:30|T14:30	2.0		30.0		
+8	2	fb:cell.michigan_state	Michigan State	michigan|state	Michigan|State	NNP|NNP	LOCATION|O	|					
+8	3	fb:cell._25	#25	#|25	#|25	#|CD	MONEY|MONEY	£25.0|£25.0	25.0				
+8	4	fb:cell.camp_randall_stadium_madison_wi	Camp Randall Stadium • Madison, WI	camp|randall|stadium|•|madison|,|wi	Camp|Randall|Stadium|•|Madison|,|WI	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|O	||||||				Camp Randall Stadium • Madison|WI	fb:part.camp_randall_stadium_madison|fb:part.wi
+8	5	fb:cell.abc_espn2	ABC/ESPN2	abc\\/espn2	abc\\/espn2	NN	O		2.0			ABC|ESPN2	fb:part.abc|fb:part.espn2
+8	6	fb:cell.l_13_16_ot	L 13–16 OT	l|13|--|16|ot	l|13|--|16|ot	NN|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|13.0||16.0|	13.0		16.0		
+8	7	fb:cell.80_538	80,538	80,538	80,538	CD	NUMBER	80538.0	80538.0				
+9	0	fb:cell.november_10	November 10	november|10	November|10	NNP|CD	DATE|DATE	XXXX-11-10|XXXX-11-10	10.0	xxxx-11-10		November 10	fb:part.november_10
+9	1	fb:cell.11_00_am	11:00 AM	11:00|am	11:00|AM	CD|VBD-AUX	TIME|TIME	T11:00|T11:00	11.0		0.0		
+9	2	fb:cell.at_indiana	at Indiana	at|indiana	at|Indiana	IN|NNP	O|LOCATION	|					
+9	3	fb:cell.null											
+9	4	fb:cell.memorial_stadium_bloomington_in	Memorial Stadium • Bloomington, IN	memorial|stadium|•|bloomington|,|in	Memorial|Stadium|•|Bloomington|,|in	NNP|NNP|NNP|NNP|,|IN	O|O|O|LOCATION|O|O	|||||				Memorial Stadium • Bloomington|IN	fb:part.memorial_stadium_bloomington|fb:part.in
+9	5	fb:cell.espn2	ESPN2	espn2	espn2	NN	O		2.0			ESPN2	fb:part.espn2
+9	6	fb:cell.w_62_14	W 62–14	w|62|--|14	W|62|--|14	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|62.0||14.0	62.0		14.0		
+9	7	fb:cell.43_240	43,240	43,240	43,240	CD	NUMBER	43240.0	43240.0				
+10	0	fb:cell.november_17	November 17	november|17	November|17	NNP|CD	DATE|DATE	XXXX-11-17|XXXX-11-17	17.0	xxxx-11-17		November 17	fb:part.november_17
+10	1	fb:cell.2_30_pm	2:30 PM	2:30|pm	2:30|pm	CD|NN	TIME|TIME	T14:30|T14:30	2.0		30.0		
+10	2	fb:cell.ohio_state	Ohio State	ohio|state	Ohio|State	NNP|NNP	LOCATION|LOCATION	|					
+10	3	fb:cell.null											
+10	4	fb:cell.camp_randall_stadium_madison_wi	Camp Randall Stadium • Madison, WI	camp|randall|stadium|•|madison|,|wi	Camp|Randall|Stadium|•|Madison|,|WI	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|O	||||||				Camp Randall Stadium • Madison|WI	fb:part.camp_randall_stadium_madison|fb:part.wi
+10	5	fb:cell.abc_espn2	ABC/ESPN2	abc\\/espn2	abc\\/espn2	NN	O		2.0			ABC|ESPN2	fb:part.abc|fb:part.espn2
+10	6	fb:cell.l_14_21_ot	L 14–21 OT	l|14|--|21|ot	l|14|--|21|ot	NN|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|14.0||21.0|	14.0		21.0		
+10	7	fb:cell.80_112	80,112	80,112	80,112	CD	NUMBER	80112.0	80112.0				
+11	0	fb:cell.november_24	November 24	november|24	November|24	NNP|CD	DATE|DATE	XXXX-11-24|XXXX-11-24	24.0	xxxx-11-24		November 24	fb:part.november_24
+11	1	fb:cell.2_30_pm	2:30 PM	2:30|pm	2:30|pm	CD|NN	TIME|TIME	T14:30|T14:30	2.0		30.0		
+11	2	fb:cell.at_penn_state	at Penn State	at|penn|state	at|Penn|State	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+11	3	fb:cell.null											
+11	4	fb:cell.beaver_stadium_university_park_pa	Beaver Stadium • University Park, PA	beaver|stadium|•|university|park|,|pa	Beaver|Stadium|•|University|Park|,|pa	NNP|NNP|NNP|NNP|NNP|,|NN	O|O|O|O|O|O|LOCATION	||||||				Beaver Stadium • University Park|PA	fb:part.beaver_stadium_university_park|fb:part.pa
+11	5	fb:cell.espn2	ESPN2	espn2	espn2	NN	O		2.0			ESPN2	fb:part.espn2
+11	6	fb:cell.l_21_24_ot	L 21–24 OT	l|21|--|24|ot	l|21|--|24|ot	NN|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|21.0||24.0|	21.0		24.0		
+11	7	fb:cell.93_505	93,505	93,505	93,505	CD	NUMBER	93505.0	93505.0				
+12	0	fb:cell.december_1	December 1	december|1	December|1	NNP|CD	DATE|DATE	XXXX-12-01|XXXX-12-01	1.0	xxxx-12-01		December 1	fb:part.december_1
+12	1	fb:cell.7_00_pm	7:00 PM	7:00|pm	7:00|pm	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+12	2	fb:cell.vs_14_nebraska	vs. #14 Nebraska	vs.|#|14|nebraska	vs.|#|14|Nebraska	CC|#|CD|NNP	O|MONEY|MONEY|LOCATION	|£14.0|£14.0|					
+12	3	fb:cell.null											
+12	4	fb:cell.lucas_oil_stadium_indianapolis_in_big_ten_championship_game	Lucas Oil Stadium • Indianapolis, IN (Big Ten Championship Game)	lucas|oil|stadium|•|indianapolis|,|in|-lrb-|big|ten|championship|game|-rrb-	Lucas|Oil|Stadium|•|Indianapolis|,|in|-lrb-|big|ten|Championship|Game|-rrb-	NNP|NNP|NNP|NNP|NNP|,|IN|-LRB-|JJ|CD|NNP|NNP|-RRB-	O|O|O|O|LOCATION|O|O|O|O|NUMBER|O|O|O	|||||||||10.0|||				Lucas Oil Stadium • Indianapolis|IN (Big Ten Championship Game)	fb:part.lucas_oil_stadium_indianapolis|fb:part.in_big_ten_championship_game
+12	5	fb:cell.fox	FOX	fox	fox	NN	O					FOX	fb:part.fox
+12	6	fb:cell.w_70_31	W 70–31	w|70|--|31	W|70|--|31	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|70.0||31.0	70.0		31.0		
+12	7	fb:cell.41_260	41,260	41,260	41,260	CD	NUMBER	41260.0	41260.0				
+13	0	fb:cell.january_1_2013	January 1, 2013	january|1|,|2013	January|1|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-01-01|2013-01-01|2013-01-01|2013-01-01	12013.0	2013-01-01		January 1|2013	fb:part.january_1|fb:part.2013
+13	1	fb:cell.4_10_pm	4:10 PM	4:10|pm	4:10|pm	CD|NN	TIME|TIME	T16:10|T16:10	4.0		10.0		
+13	2	fb:cell.vs_8_stanford	vs. #8 Stanford	vs.|#|8|stanford	vs.|#|8|Stanford	CC|#|CD|NNP	O|MONEY|MONEY|ORGANIZATION	|£8.0|£8.0|					
+13	3	fb:cell._23	#23	#|23	#|23	#|CD	MONEY|MONEY	£23.0|£23.0	23.0				
+13	4	fb:cell.rose_bowl_pasadena_ca_rose_bowl	Rose Bowl • Pasadena, CA (Rose Bowl)	rose|bowl|•|pasadena|,|ca|-lrb-|rose|bowl|-rrb-	Rose|Bowl|•|Pasadena|,|CA|-lrb-|Rose|Bowl|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|LOCATION|O|O|O|O|O|O	|||||||||				Rose Bowl • Pasadena|CA (Rose Bowl)	fb:part.rose_bowl_pasadena|fb:part.ca_rose_bowl
+13	5	fb:cell.espn	ESPN	espn	ESPN	NNP	ORGANIZATION					ESPN	fb:part.espn
+13	6	fb:cell.l_14_20	L 14–20	l|14|--|20	l|14|--|20	NN|CD|:|CD	O|NUMBER|O|NUMBER	|14.0||20.0	14.0		20.0		
+13	7	fb:cell.93_259	93,259	93,259	93,259	CD	NUMBER	93259.0	93259.0				

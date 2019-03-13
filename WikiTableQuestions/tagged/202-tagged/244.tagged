@@ -1,0 +1,136 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rank	Rank	rank	Rank	NNP	O						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.studio	Studio	studio	studio	NN	O						
+-1	3	fb:row.row.actors	Actors	actors	actor	NNS	O						
+-1	4	fb:row.row.gross	Gross	gross	Gross	NNP	NUMBER	144.0					
+0	0	fb:cell.1	1.	1|.	1|.	LS|.	NUMBER|O	1.0|	1.0				
+0	1	fb:cell.star_wars	Star Wars*	star|wars|\\*	Star|Wars|\\*	NNP|NNP|SYM	O|O|O	||				Star Wars*	fb:part.star_wars
+0	2	fb:cell.lucasfilm_20th_century_fox	Lucasfilm/20th Century Fox	lucasfilm\\/20th|century|fox	lucasfilm\\/20th|Century|Fox	NN|NNP|NNP	O|DURATION|O	||	20.0			Lucasfilm|20th Century Fox	fb:part.lucasfilm|fb:part.20th_century_fox
+0	3	fb:cell.mark_hamill_harrison_ford_carrie_fisher_peter_cushing_alec_guinness_david_prowse_james_earl_jones_anthony_daniels_kenny_baker_and_peter_mayhew	Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker and Peter Mayhew	mark|hamill|,|harrison|ford|,|carrie|fisher|,|peter|cushing|,|alec|guinness|,|david|prowse|,|james|earl|jones|,|anthony|daniels|,|kenny|baker|and|peter|mayhew	Mark|Hamill|,|Harrison|Ford|,|Carrie|Fisher|,|Peter|cushing|,|Alec|Guinness|,|David|Prowse|,|James|Earl|Jones|,|Anthony|Daniels|,|Kenny|Baker|and|Peter|Mayhew	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NN|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||||||||||||||||||||				Mark Hamill|Harrison Ford|Carrie Fisher|Peter Cushing|Alec Guinness|David Prowse|James Earl Jones|Anthony Daniels|Kenny Baker and Peter Mayhew	fb:part.mark_hamill|fb:part.harrison_ford|fb:part.carrie_fisher|fb:part.peter_cushing|fb:part.alec_guinness|fb:part.david_prowse|fb:part.james_earl_jones|fb:part.anthony_daniels|fb:part.kenny_baker_and_peter_mayhew
+0	4	fb:cell._460_998_007	$460,998,007	$|460,998,007	$|460,998,007	$|CD	MONEY|MONEY	$4.60998007E8|$4.60998007E8	4.60998007E8				
+1	0	fb:cell.2	2.	2|.	2|.	LS|.	NUMBER|O	2.0|	2.0				
+1	1	fb:cell.smokey_and_the_bandit	Smokey and the Bandit	smokey|and|the|bandit	Smokey|and|the|bandit	NNP|CC|DT|NN	PERSON|O|O|O	|||				Smokey and the Bandit	fb:part.smokey_and_the_bandit
+1	2	fb:cell.universal_rastar	Universal/Rastar	universal\\/rastar	universal\\/rastar	NN	O					Universal|Rastar	fb:part.universal|fb:part.rastar
+1	3	fb:cell.burt_reynolds_sally_field_jackie_gleason_jerry_reed_and_mike_henry	Burt Reynolds, Sally Field, Jackie Gleason, Jerry Reed and Mike Henry	burt|reynolds|,|sally|field|,|jackie|gleason|,|jerry|reed|and|mike|henry	Burt|Reynolds|,|Sally|Field|,|Jackie|Gleason|,|Jerry|Reed|and|Mike|Henry	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||||				Burt Reynolds|Sally Field|Jackie Gleason|Jerry Reed and Mike Henry	fb:part.burt_reynolds|fb:part.sally_field|fb:part.jackie_gleason|fb:part.jerry_reed_and_mike_henry
+1	4	fb:cell._300_000_000	$300,000,000	$|300,000,000	$|300,000,000	$|CD	MONEY|MONEY	$3.0E8|$3.0E8	3.0E8				
+2	0	fb:cell.3	3.	3|.	3|.	LS|.	NUMBER|O	3.0|	3.0				
+2	1	fb:cell.close_encounters_of_the_third_kind	Close Encounters of the Third Kind*	close|encounters|of|the|third|kind|\\*	close|encounter|of|the|Third|Kind|\\*	JJ|NNS|IN|DT|NNP|NNP|SYM	O|O|O|O|ORDINAL|O|O	||||3.0||				Close Encounters of the Third Kind*	fb:part.close_encounters_of_the_third_kind
+2	2	fb:cell.columbia	Columbia	columbia	Columbia	NNP	LOCATION					Columbia	fb:part.columbia
+2	3	fb:cell.richard_dreyfuss_teri_garr_melinda_dillon_and_francois_truffaut	Richard Dreyfuss, Teri Garr, Melinda Dillon and François Truffaut	richard|dreyfuss|,|teri|garr|,|melinda|dillon|and|françois|truffaut	Richard|Dreyfuss|,|Teri|Garr|,|Melinda|Dillon|and|François|Truffaut	NNP|NNP|,|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				Richard Dreyfuss|Teri Garr|Melinda Dillon and François Truffaut	fb:part.richard_dreyfuss|fb:part.teri_garr|fb:part.melinda_dillon_and_francois_truffaut
+2	4	fb:cell._166_000_000	$166,000,000	$|166,000,000	$|166,000,000	$|CD	MONEY|MONEY	$1.66E8|$1.66E8	1.66E8				
+3	0	fb:cell.4	4.	4|.	4|.	LS|.	NUMBER|O	4.0|	4.0				
+3	1	fb:cell.saturday_night_fever	Saturday Night Fever	saturday|night|fever	Saturday|Night|fever	NNP|NNP|NN	DATE|TIME|TIME	XXXX-WXX-6TNI|XXXX-WXX-6TNI|XXXX-WXX-6TNI				Saturday Night Fever	fb:part.saturday_night_fever
+3	2	fb:cell.paramount	Paramount	paramount	Paramount	NNP	O					Paramount	fb:part.paramount
+3	3	fb:cell.john_travolta_and_karen_lynn_gorney	John Travolta and Karen Lynn Gorney	john|travolta|and|karen|lynn|gorney	John|Travolta|and|Karen|Lynn|Gorney	NNP|NNP|CC|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|PERSON	|||||				John Travolta and Karen Lynn Gorney	fb:part.john_travolta_and_karen_lynn_gorney
+3	4	fb:cell._139_486_124	$139,486,124	$|139,486,124	$|139,486,124	$|CD	MONEY|MONEY	$1.39486124E8|$1.39486124E8	1.39486124E8				
+4	0	fb:cell.5	5.	5|.	5|.	CD|.	NUMBER|O	5.0|	5.0				
+4	1	fb:cell.the_goodbye_girl	The Goodbye Girl	the|goodbye|girl	the|Goodbye|Girl	DT|NNP|NNP	O|O|O	||				The Goodbye Girl	fb:part.the_goodbye_girl
+4	2	fb:cell.mgm_warner_bros_rastar	MGM/Warner Bros./Rastar	mgm\\/warner|bros.|\\/|rastar	MGM\\/Warner|Bros.|\\/|Rastar	NNP|NNP|:|NNP	O|O|O|ORGANIZATION	|||				MGM|Warner Bros.|Rastar	fb:part.mgm|fb:part.warner_bros|fb:part.rastar
+4	3	fb:cell.richard_dreyfuss_marsha_mason_and_quinn_cummings	Richard Dreyfuss, Marsha Mason and Quinn Cummings	richard|dreyfuss|,|marsha|mason|and|quinn|cummings	Richard|Dreyfuss|,|Marsha|Mason|and|Quinn|Cummings	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Richard Dreyfuss|Marsha Mason and Quinn Cummings	fb:part.richard_dreyfuss|fb:part.marsha_mason_and_quinn_cummings
+4	4	fb:cell._102_000_000	$102,000,000	$|102,000,000	$|102,000,000	$|CD	MONEY|MONEY	$1.02E8|$1.02E8	1.02E8				
+5	0	fb:cell.6	6.	6|.	6|.	CD|.	NUMBER|O	6.0|	6.0				
+5	1	fb:cell.the_rescuers	The Rescuers*	the|rescuers|\\*	the|Rescuers|\\*	DT|NNPS|SYM	O|O|O	||				The Rescuers*	fb:part.the_rescuers
+5	2	fb:cell.disney	Disney	disney	Disney	NNP	O					Disney	fb:part.disney
+5	3	fb:cell.voices_of_eva_gabor_bob_newhart_and_geraldine_page	voices of Eva Gabor, Bob Newhart and Geraldine Page	voices|of|eva|gabor|,|bob|newhart|and|geraldine|page	voice|of|Eva|Gabor|,|Bob|Newhart|and|Geraldine|Page	NNS|IN|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	O|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||				voices of Eva Gabor|Bob Newhart and Geraldine Page	fb:part.voices_of_eva_gabor|fb:part.bob_newhart_and_geraldine_page
+5	4	fb:cell._71_215_869	$71,215,869	$|71,215,869	$|71,215,869	$|CD	MONEY|MONEY	$7.1215869E7|$7.1215869E7	7.1215869E7				
+6	0	fb:cell.7	7.	7|.	7|.	CD|.	NUMBER|O	7.0|	7.0				
+6	1	fb:cell.oh_god	Oh, God!	oh|,|god|!	oh|,|God|!	UH|,|NNP|.	O|O|O|O	|||				Oh|God!	fb:part.oh|fb:part.god
+6	2	fb:cell.warner_bros	Warner Bros.	warner|bros.|.	Warner|Bros.|.	NNP|NNP|.	ORGANIZATION|ORGANIZATION|O	||				Warner Bros.	fb:part.warner_bros
+6	3	fb:cell.george_burns_john_denver_and_teri_garr	George Burns, John Denver and Teri Garr	george|burns|,|john|denver|and|teri|garr	George|Burns|,|John|Denver|and|Teri|Garr	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				George Burns|John Denver and Teri Garr	fb:part.george_burns|fb:part.john_denver_and_teri_garr
+6	4	fb:cell._51_061_196	$51,061,196	$|51,061,196	$|51,061,196	$|CD	MONEY|MONEY	$5.1061196E7|$5.1061196E7	5.1061196E7				
+7	0	fb:cell.8	8.	8|.	8|.	CD|.	NUMBER|O	8.0|	8.0				
+7	1	fb:cell.a_bridge_too_far	A Bridge Too Far	a|bridge|too|far	a|Bridge|Too|Far	DT|NNP|NNP|NNP	O|O|O|O	|||				A Bridge Too Far	fb:part.a_bridge_too_far
+7	2	fb:cell.united_artists	United Artists	united|artists	United|Artists	NNP|NNP	ORGANIZATION|ORGANIZATION	|				United Artists	fb:part.united_artists
+7	3	fb:cell.dirk_bogarde_james_caan_sean_connery_elliott_gould_laurence_olivier_ryan_o_neal_robert_redford_liv_ullmann_michael_caine_edward_fox_anthony_hopkins_gene_hackman_hardy_kruger_and_maximilian_schell	Dirk Bogarde, James Caan, Sean Connery, Elliott Gould, Laurence Olivier, Ryan O'Neal, Robert Redford, Liv Ullmann, Michael Caine, Edward Fox, Anthony Hopkins, Gene Hackman, Hardy Krüger and Maximilian Schell	dirk|bogarde|,|james|caan|,|sean|connery|,|elliott|gould|,|laurence|olivier|,|ryan|o'neal|,|robert|redford|,|liv|ullmann|,|michael|caine|,|edward|fox|,|anthony|hopkins|,|gene|hackman|,|hardy|krüger|and|maximilian|schell	Dirk|Bogarde|,|James|Caan|,|Sean|Connery|,|Elliott|Gould|,|Laurence|Olivier|,|Ryan|O'Neal|,|Robert|Redford|,|Liv|Ullmann|,|Michael|Caine|,|Edward|Fox|,|Anthony|Hopkins|,|Gene|Hackman|,|Hardy|Krüger|and|Maximilian|Schell	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||||||||||||||||||||||||||||				Dirk Bogarde|James Caan|Sean Connery|Elliott Gould|Laurence Olivier|Ryan O'Neal|Robert Redford|Liv Ullmann|Michael Caine|Edward Fox|Anthony Hopkins|Gene Hackman|Hardy Krüger and Maximilian Schell	fb:part.dirk_bogarde|fb:part.james_caan|fb:part.sean_connery|fb:part.elliott_gould|fb:part.laurence_olivier|fb:part.ryan_o_neal|fb:part.robert_redford|fb:part.liv_ullmann|fb:part.michael_caine|fb:part.edward_fox|fb:part.anthony_hopkins|fb:part.gene_hackman|fb:part.hardy_kruger_and_maximilian_schell
+7	4	fb:cell._50_800_000	$50,800,000	$|50,800,000	$|50,800,000	$|CD	MONEY|MONEY	$5.08E7|$5.08E7	5.08E7				
+8	0	fb:cell.9	9.	9|.	9|.	CD|.	NUMBER|O	9.0|	9.0				
+8	1	fb:cell.the_deep	The Deep	the|deep	the|deep	DT|JJ	O|O	|				The Deep	fb:part.the_deep
+8	2	fb:cell.columbia	Columbia	columbia	Columbia	NNP	LOCATION					Columbia	fb:part.columbia
+8	3	fb:cell.robert_shaw_nick_nolte_and_jacqueline_bisset	Robert Shaw, Nick Nolte and Jacqueline Bisset	robert|shaw|,|nick|nolte|and|jacqueline|bisset	Robert|Shaw|,|Nick|Nolte|and|Jacqueline|Bisset	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Robert Shaw|Nick Nolte and Jacqueline Bisset	fb:part.robert_shaw|fb:part.nick_nolte_and_jacqueline_bisset
+8	4	fb:cell._50_681_884	$50,681,884	$|50,681,884	$|50,681,884	$|CD	MONEY|MONEY	$5.0681884E7|$5.0681884E7	5.0681884E7				
+9	0	fb:cell.10	10.	10|.	10|.	CD|.	NUMBER|O	10.0|	10.0				
+9	1	fb:cell.the_spy_who_loved_me	The Spy Who Loved Me	the|spy|who|loved|me	the|Spy|who|love|I	DT|NNP|WP|VBD|PRP	O|O|O|O|O	||||				The Spy Who Loved Me	fb:part.the_spy_who_loved_me
+9	2	fb:cell.united_artists	United Artists	united|artists	United|Artists	NNP|NNP	ORGANIZATION|ORGANIZATION	|				United Artists	fb:part.united_artists
+9	3	fb:cell.roger_moore_barbara_bach_curd_jurgens_and_richard_kiel	Roger Moore, Barbara Bach, Curd Jürgens and Richard Kiel	roger|moore|,|barbara|bach|,|curd|jürgens|and|richard|kiel	Roger|Moore|,|Barbara|Bach|,|Curd|Jürgens|and|Richard|Kiel	NNP|NNP|,|NNP|NNP|,|NNP|NNPS|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|O|O|O|PERSON|PERSON	||||||||||				Roger Moore|Barbara Bach|Curd Jürgens and Richard Kiel	fb:part.roger_moore|fb:part.barbara_bach|fb:part.curd_jurgens_and_richard_kiel
+9	4	fb:cell._46_838_673	$46,838,673	$|46,838,673	$|46,838,673	$|CD	MONEY|MONEY	$4.6838673E7|$4.6838673E7	4.6838673E7				
+10	0	fb:cell.11	11.	11|.	11|.	CD|.	NUMBER|O	11.0|	11.0				
+10	1	fb:cell.annie_hall	Annie Hall	annie|hall	Annie|Hall	NNP|NNP	PERSON|PERSON	|				Annie Hall	fb:part.annie_hall
+10	2	fb:cell.united_artists	United Artists	united|artists	United|Artists	NNP|NNP	ORGANIZATION|ORGANIZATION	|				United Artists	fb:part.united_artists
+10	3	fb:cell.woody_allen_and_diane_keaton	Woody Allen and Diane Keaton	woody|allen|and|diane|keaton	Woody|Allen|and|Diane|Keaton	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Woody Allen and Diane Keaton	fb:part.woody_allen_and_diane_keaton
+10	4	fb:cell._38_251_425	$38,251,425	$|38,251,425	$|38,251,425	$|CD	MONEY|MONEY	$3.8251425E7|$3.8251425E7	3.8251425E7				
+11	0	fb:cell.12	12.	12|.	12|.	CD|.	NUMBER|O	12.0|	12.0				
+11	1	fb:cell.semi_tough	Semi-Tough	semi|tough	Semi|tough	NNP|JJ	O|O	|				Semi-Tough	fb:part.semi_tough
+11	2	fb:cell.united_artists	United Artists	united|artists	United|Artists	NNP|NNP	ORGANIZATION|ORGANIZATION	|				United Artists	fb:part.united_artists
+11	3	fb:cell.burt_reynolds_kris_kristofferson_and_jill_clayburgh	Burt Reynolds, Kris Kristofferson and Jill Clayburgh	burt|reynolds|,|kris|kristofferson|and|jill|clayburgh	Burt|Reynolds|,|Kris|Kristofferson|and|Jill|Clayburgh	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Burt Reynolds|Kris Kristofferson and Jill Clayburgh	fb:part.burt_reynolds|fb:part.kris_kristofferson_and_jill_clayburgh
+11	4	fb:cell._37_187_139	$37,187,139	$|37,187,139	$|37,187,139	$|CD	MONEY|MONEY	$3.7187139E7|$3.7187139E7	3.7187139E7				
+12	0	fb:cell.13	13.	13|.	13|.	CD|.	NUMBER|O	13.0|	13.0				
+12	1	fb:cell.pete_s_dragon	Pete's Dragon	pete|'s|dragon	Pete|'s|Dragon	NNP|POS|NNP	PERSON|O|O	||				Pete's Dragon	fb:part.pete_s_dragon
+12	2	fb:cell.disney	Disney	disney	Disney	NNP	O					Disney	fb:part.disney
+12	3	fb:cell.helen_reddy_mickey_rooney_and_shelley_winters	Helen Reddy, Mickey Rooney and Shelley Winters	helen|reddy|,|mickey|rooney|and|shelley|winters	Helen|Reddy|,|Mickey|Rooney|and|Shelley|Winters	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Helen Reddy|Mickey Rooney and Shelley Winters	fb:part.helen_reddy|fb:part.mickey_rooney_and_shelley_winters
+12	4	fb:cell._36_000_000	$36,000,000	$|36,000,000	$|36,000,000	$|CD	MONEY|MONEY	$3.6E7|$3.6E7	3.6E7				
+13	0	fb:cell.14	14.	14|.	14|.	CD|.	NUMBER|O	14.0|	14.0				
+13	1	fb:cell.the_gauntlet	The Gauntlet	the|gauntlet	the|Gauntlet	DT|NNP	O|O	|				The Gauntlet	fb:part.the_gauntlet
+13	2	fb:cell.warner_bros	Warner Bros.	warner|bros.|.	Warner|Bros.|.	NNP|NNP|.	ORGANIZATION|ORGANIZATION|O	||				Warner Bros.	fb:part.warner_bros
+13	3	fb:cell.clint_eastwood_and_sondra_locke	Clint Eastwood and Sondra Locke	clint|eastwood|and|sondra|locke	Clint|Eastwood|and|Sondra|Locke	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Clint Eastwood and Sondra Locke	fb:part.clint_eastwood_and_sondra_locke
+13	4	fb:cell._35_400_000	$35,400,000	$|35,400,000	$|35,400,000	$|CD	MONEY|MONEY	$3.54E7|$3.54E7	3.54E7				
+14	0	fb:cell.15	15.	15|.	15|.	CD|.	NUMBER|O	15.0|	15.0				
+14	1	fb:cell.the_turning_point	The Turning Point	the|turning|point	the|turn|point	DT|VBG|NN	O|O|O	||				The Turning Point	fb:part.the_turning_point
+14	2	fb:cell.20th_century_fox	20th Century Fox	20th|century|fox	20th|Century|Fox	JJ|NNP|NNP	DATE|DATE|O	19XX|19XX|	20.0			20th Century Fox	fb:part.20th_century_fox
+14	3	fb:cell.shirley_maclaine_anne_bancroft_tom_skerritt_mikhail_baryshnikov_and_leslie_browne	Shirley MacLaine, Anne Bancroft, Tom Skerritt, Mikhail Baryshnikov and Leslie Browne	shirley|maclaine|,|anne|bancroft|,|tom|skerritt|,|mikhail|baryshnikov|and|leslie|browne	Shirley|MacLaine|,|Anne|Bancroft|,|Tom|Skerritt|,|Mikhail|Baryshnikov|and|Leslie|Browne	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||||				Shirley MacLaine|Anne Bancroft|Tom Skerritt|Mikhail Baryshnikov and Leslie Browne	fb:part.shirley_maclaine|fb:part.anne_bancroft|fb:part.tom_skerritt|fb:part.mikhail_baryshnikov_and_leslie_browne
+14	4	fb:cell._33_600_000	$33,600,000	$|33,600,000	$|33,600,000	$|CD	MONEY|MONEY	$3.36E7|$3.36E7	3.36E7				
+15	0	fb:cell.16	16.	16|.	16|.	CD|.	NUMBER|O	16.0|	16.0				
+15	1	fb:cell.heroes	Heroes	heroes	hero	NNS	O					Heroes	fb:part.heroes
+15	2	fb:cell.universal	Universal	universal	Universal	NNP	O					Universal	fb:part.universal
+15	3	fb:cell.henry_winkler_sally_field_and_harrison_ford	Henry Winkler, Sally Field, and Harrison Ford	henry|winkler|,|sally|field|,|and|harrison|ford	Henry|Winkler|,|Sally|Field|,|and|Harrison|Ford	NNP|NNP|,|NNP|NNP|,|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|O|PERSON|PERSON	||||||||				Henry Winkler|Sally Field|and Harrison Ford	fb:part.henry_winkler|fb:part.sally_field|fb:part.and_harrison_ford
+15	4	fb:cell._33_500_000	$33,500,000	$|33,500,000	$|33,500,000	$|CD	MONEY|MONEY	$3.35E7|$3.35E7	3.35E7				
+16	0	fb:cell.17	17.	17|.	17|.	CD|.	NUMBER|O	17.0|	17.0				
+16	1	fb:cell.high_anxiety	High Anxiety	high|anxiety	high|anxiety	JJ|NN	O|O	|				High Anxiety	fb:part.high_anxiety
+16	2	fb:cell.20th_century_fox	20th Century Fox	20th|century|fox	20th|Century|Fox	JJ|NNP|NNP	DATE|DATE|O	19XX|19XX|	20.0			20th Century Fox	fb:part.20th_century_fox
+16	3	fb:cell.mel_brooks_madeline_kahn_cloris_leachman_harvey_korman_ron_carey_howard_morris_and_dick_van_patten	Mel Brooks, Madeline Kahn, Cloris Leachman, Harvey Korman, Ron Carey, Howard Morris and Dick Van Patten	mel|brooks|,|madeline|kahn|,|cloris|leachman|,|harvey|korman|,|ron|carey|,|howard|morris|and|dick|van|patten	Mel|Brooks|,|Madeline|Kahn|,|Cloris|Leachman|,|Harvey|Korman|,|Ron|Carey|,|Howard|Morris|and|Dick|Van|Patten	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|CC|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON	||||||||||||||||||||				Mel Brooks|Madeline Kahn|Cloris Leachman|Harvey Korman|Ron Carey|Howard Morris and Dick Van Patten	fb:part.mel_brooks|fb:part.madeline_kahn|fb:part.cloris_leachman|fb:part.harvey_korman|fb:part.ron_carey|fb:part.howard_morris_and_dick_van_patten
+16	4	fb:cell._31_063_038	$31,063,038	$|31,063,038	$|31,063,038	$|CD	MONEY|MONEY	$3.1063038E7|$3.1063038E7	3.1063038E7				
+17	0	fb:cell.18	18.	18|.	18|.	CD|.	NUMBER|O	18.0|	18.0				
+17	1	fb:cell.exorcist_ii_the_heretic	Exorcist II: The Heretic	exorcist|ii|:|the|heretic	exorcist|ii|:|the|Heretic	NN|CD|:|DT|NNP	O|NUMBER|O|O|O	|0.0|||				Exorcist II: The Heretic	fb:part.exorcist_ii_the_heretic
+17	2	fb:cell.warner_bros	Warner Bros.	warner|bros.|.	Warner|Bros.|.	NNP|NNP|.	ORGANIZATION|ORGANIZATION|O	||				Warner Bros.	fb:part.warner_bros
+17	3	fb:cell.linda_blair_richard_burton_louise_fletcher_max_von_sydow_and_james_earl_jones	Linda Blair, Richard Burton, Louise Fletcher, Max von Sydow and James Earl Jones	linda|blair|,|richard|burton|,|louise|fletcher|,|max|von|sydow|and|james|earl|jones	Linda|Blair|,|Richard|Burton|,|Louise|Fletcher|,|Max|von|Sydow|and|James|Earl|Jones	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|CC|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON	|||||||||||||||				Linda Blair|Richard Burton|Louise Fletcher|Max von Sydow and James Earl Jones	fb:part.linda_blair|fb:part.richard_burton|fb:part.louise_fletcher|fb:part.max_von_sydow_and_james_earl_jones
+17	4	fb:cell._30_749_142	$30,749,142	$|30,749,142	$|30,749,142	$|CD	MONEY|MONEY	$3.0749142E7|$3.0749142E7	3.0749142E7				
+18	0	fb:cell.19	19.	19|.	19|.	CD|.	NUMBER|O	19.0|	19.0				
+18	1	fb:cell.airport_77	Airport '77	airport|'|77	Airport|'|77	NNP|POS|CD	O|DATE|DATE	|XX77|XX77	77.0			Airport '77	fb:part.airport_77
+18	2	fb:cell.universal	Universal	universal	Universal	NNP	O					Universal	fb:part.universal
+18	3	fb:cell.jack_lemmon_lee_grant_and_james_stewart	Jack Lemmon, Lee Grant and James Stewart	jack|lemmon|,|lee|grant|and|james|stewart	Jack|Lemmon|,|Lee|Grant|and|James|Stewart	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Jack Lemmon|Lee Grant and James Stewart	fb:part.jack_lemmon|fb:part.lee_grant_and_james_stewart
+18	4	fb:cell._30_000_000	$30,000,000	$|30,000,000	$|30,000,000	$|CD	MONEY|MONEY	$3.0E7|$3.0E7	3.0E7				
+19	0	fb:cell.20	20.	20|.	20|.	CD|.	NUMBER|O	20.0|	20.0				
+19	1	fb:cell.herbie_goes_to_monte_carlo	Herbie Goes to Monte Carlo	herbie|goes|to|monte|carlo	Herbie|go|to|Monte|Carlo	NNP|VBZ|TO|NNP|NNP	PERSON|PERSON|O|LOCATION|LOCATION	||||				Herbie Goes to Monte Carlo	fb:part.herbie_goes_to_monte_carlo
+19	2	fb:cell.disney	Disney	disney	Disney	NNP	O					Disney	fb:part.disney
+19	3	fb:cell.dean_jones_don_knotts_and_julie_sommars	Dean Jones, Don Knotts and Julie Sommars	dean|jones|,|don|knotts|and|julie|sommars	Dean|Jones|,|Don|Knotts|and|Julie|Sommars	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Dean Jones|Don Knotts and Julie Sommars	fb:part.dean_jones|fb:part.don_knotts_and_julie_sommars
+19	4	fb:cell._29_000_000	$29,000,000	$|29,000,000	$|29,000,000	$|CD	MONEY|MONEY	$2.9E7|$2.9E7	2.9E7				
+20	0	fb:cell.21	21.	21|.	21|.	CD|.	NUMBER|O	21.0|	21.0				
+20	1	fb:cell.slap_shot	Slap Shot	slap|shot	slap|shot	NN|NN	O|O	|				Slap Shot	fb:part.slap_shot
+20	2	fb:cell.universal	Universal	universal	Universal	NNP	O					Universal	fb:part.universal
+20	3	fb:cell.paul_newman_and_strother_martin	Paul Newman and Strother Martin	paul|newman|and|strother|martin	Paul|Newman|and|Strother|Martin	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Paul Newman and Strother Martin	fb:part.paul_newman_and_strother_martin
+20	4	fb:cell._28_000_000	$28,000,000	$|28,000,000	$|28,000,000	$|CD	MONEY|MONEY	$2.8E7|$2.8E7	2.8E7				
+21	0	fb:cell.22	22.	22|.	22|.	CD|.	NUMBER|O	22.0|	22.0				
+21	1	fb:cell.the_other_side_of_midnight	The Other Side of Midnight	the|other|side|of|midnight	the|other|side|of|midnight	DT|JJ|NN|IN|NN	O|O|O|O|TIME	||||T00:00				The Other Side of Midnight	fb:part.the_other_side_of_midnight
+21	2	fb:cell.20th_century_fox	20th Century Fox	20th|century|fox	20th|Century|Fox	JJ|NNP|NNP	DATE|DATE|O	19XX|19XX|	20.0			20th Century Fox	fb:part.20th_century_fox
+21	3	fb:cell.marie_france_pisier_john_beck_and_susan_sarandon	Marie-France Pisier, John Beck and Susan Sarandon	marie|france|pisier|,|john|beck|and|susan|sarandon	Marie|France|Pisier|,|John|Beck|and|Susan|Sarandon	NNP|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||				Marie-France Pisier|John Beck and Susan Sarandon	fb:part.marie_france_pisier|fb:part.john_beck_and_susan_sarandon
+21	4	fb:cell._24_652_021	$24,652,021	$|24,652,021	$|24,652,021	$|CD	MONEY|MONEY	$2.4652021E7|$2.4652021E7	2.4652021E7				
+22	0	fb:cell.23	23.	23|.	23|.	CD|.	NUMBER|O	23.0|	23.0				
+22	1	fb:cell.looking_for_mr_goodbar	Looking for Mr. Goodbar	looking|for|mr.|goodbar	look|for|Mr.|Goodbar	VBG|IN|NNP|NNP	O|O|O|PERSON	|||				Looking for Mr. Goodbar	fb:part.looking_for_mr_goodbar
+22	2	fb:cell.paramount	Paramount	paramount	Paramount	NNP	O					Paramount	fb:part.paramount
+22	3	fb:cell.diane_keaton_tuesday_weld_and_richard_gere	Diane Keaton, Tuesday Weld and Richard Gere	diane|keaton|,|tuesday|weld|and|richard|gere	Diane|Keaton|,|Tuesday|Weld|and|Richard|Gere	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|DATE|O|O|PERSON|PERSON	|||XXXX-WXX-2||||				Diane Keaton|Tuesday Weld and Richard Gere	fb:part.diane_keaton|fb:part.tuesday_weld_and_richard_gere
+22	4	fb:cell._22_512_655	$22,512,655	$|22,512,655	$|22,512,655	$|CD	MONEY|MONEY	$2.2512655E7|$2.2512655E7	2.2512655E7				
+23	0	fb:cell.24	24.	24|.	24|.	CD|.	NUMBER|O	24.0|	24.0				
+23	1	fb:cell.for_the_love_of_benji	For the Love of Benji	for|the|love|of|benji	for|the|love|of|Benji	IN|DT|NN|IN|NNP	O|O|O|O|O	||||				For the Love of Benji	fb:part.for_the_love_of_benji
+23	2	fb:cell.mulberry_square	Mulberry Square	mulberry|square	Mulberry|Square	NNP|NNP	O|O	|				Mulberry Square	fb:part.mulberry_square
+23	3	fb:cell.benjean_patsy_garrett_and_ed_nelson	Benjean, Patsy Garrett and Ed Nelson	benjean|,|patsy|garrett|and|ed|nelson	Benjean|,|Patsy|Garrett|and|Ed|Nelson	NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||				Benjean|Patsy Garrett and Ed Nelson	fb:part.benjean|fb:part.patsy_garrett_and_ed_nelson
+23	4	fb:cell._22_257_624	$22,257,624	$|22,257,624	$|22,257,624	$|CD	MONEY|MONEY	$2.2257624E7|$2.2257624E7	2.2257624E7				
+24	0	fb:cell.25	25.	25|.	25|.	CD|.	NUMBER|O	25.0|	25.0				
+24	1	fb:cell.the_world_s_greatest_lover	The World's Greatest Lover	the|world|'s|greatest|lover	the|World|'s|Greatest|Lover	DT|NNP|POS|NNP|NNP	O|O|O|O|O	||||				The World's Greatest Lover	fb:part.the_world_s_greatest_lover
+24	2	fb:cell.20th_century_fox	20th Century Fox	20th|century|fox	20th|Century|Fox	JJ|NNP|NNP	DATE|DATE|O	19XX|19XX|	20.0			20th Century Fox	fb:part.20th_century_fox
+24	3	fb:cell.gene_wilder_carol_kane_and_dom_deluise	Gene Wilder, Carol Kane and Dom DeLuise	gene|wilder|,|carol|kane|and|dom|deluise	Gene|Wilder|,|Carol|Kane|and|Dom|DeLuise	NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Gene Wilder|Carol Kane and Dom DeLuise	fb:part.gene_wilder|fb:part.carol_kane_and_dom_deluise
+24	4	fb:cell._21_000_000	$21,000,000	$|21,000,000	$|21,000,000	$|CD	MONEY|MONEY	$2.1E7|$2.1E7	2.1E7				
+25	0	fb:cell.26	26.	26|.	26|.	CD|.	NUMBER|O	26.0|	26.0				
+25	1	fb:cell.julia	Julia	julia	Julia	NNP	PERSON					Julia	fb:part.julia
+25	2	fb:cell.20th_century_fox	20th Century Fox	20th|century|fox	20th|Century|Fox	JJ|NNP|NNP	DATE|DATE|O	19XX|19XX|	20.0			20th Century Fox	fb:part.20th_century_fox
+25	3	fb:cell.jane_fonda_vanessa_redgrave_jason_robards_hal_holbrook_rosemary_murphy_and_maximilian_schell	Jane Fonda, Vanessa Redgrave, Jason Robards, Hal Holbrook, Rosemary Murphy and Maximilian Schell	jane|fonda|,|vanessa|redgrave|,|jason|robards|,|hal|holbrook|,|rosemary|murphy|and|maximilian|schell	Jane|Fonda|,|Vanessa|Redgrave|,|Jason|Robards|,|Hal|Holbrook|,|Rosemary|Murphy|and|Maximilian|Schell	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||||				Jane Fonda|Vanessa Redgrave|Jason Robards|Hal Holbrook|Rosemary Murphy and Maximilian Schell	fb:part.jane_fonda|fb:part.vanessa_redgrave|fb:part.jason_robards|fb:part.hal_holbrook|fb:part.rosemary_murphy_and_maximilian_schell
+25	4	fb:cell._20_714_400	$20,714,400	$|20,714,400	$|20,714,400	$|CD	MONEY|MONEY	$2.07144E7|$2.07144E7	2.07144E7				

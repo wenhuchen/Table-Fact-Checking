@@ -1,0 +1,121 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.courthouse	Courthouse	courthouse	courthouse	NN	O						
+-1	1	fb:row.row.city	City	city	City	NNP	O						
+-1	2	fb:row.row.street_address	Street address	street|address	Street|address	NNP|NN	O|O	|					
+-1	3	fb:row.row.jurisdiction	Jurisdiction	jurisdiction	jurisdiction	NN	O						
+-1	4	fb:row.row.dates_of_use	Dates of use	dates|of|use	date|of|use	NNS|IN|NN	O|O|O	||					
+-1	5	fb:row.row.named_for	Named for	named|for	name|for	VBN|IN	O|O	|					
+0	0	fb:cell.u_s_post_office_and_court_house	U.S. Post Office and Court House†	u.s.|post|office|and|court|house|†	U.S.|Post|Office|and|Court|House|†	NNP|NNP|NNP|CC|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O	||||||				U.S. Post Office and Court House†	fb:part.u_s_post_office_and_court_house
+0	1	fb:cell.aberdeen	Aberdeen	aberdeen	Aberdeen	NNP	LOCATION						
+0	2	fb:cell.201_w_commerce_st	201 W. Commerce St.	201|w.|commerce|st.	201|W.|Commerce|St.	CD|NNP|NNP|NNP	NUMBER|O|O|O	201.0|||	201.0				
+0	3	fb:cell.n_d_miss	N.D. Miss.	n.d.|miss.|.	N.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				N.D. Miss.	fb:part.n_d_miss
+0	4	fb:cell.1888_1974_now_the_monroe_county_chancery_court	1888–1974\nNow the Monroe County Chancery Court.	1888|--|1974|now|the|monroe|county|chancery|court|.	1888|--|1974|now|the|Monroe|County|Chancery|Court|.	CD|:|CD|RB|DT|NNP|NNP|NNP|NNP|.	DATE|DATE|DATE|DATE|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	1888|1888|1974|1974||||||	1888.0		1974.0	1888–1974|Now the Monroe County Chancery Court.	fb:part.1888_1974|fb:part.now_the_monroe_county_chancery_court
+0	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+1	0	fb:cell.thomas_g_abernethy_federal_building	Thomas G. Abernethy Federal Building	thomas|g.|abernethy|federal|building	Thomas|G.|Abernethy|Federal|Building	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|O	||||				Thomas G. Abernethy Federal Building	fb:part.thomas_g_abernethy_federal_building
+1	1	fb:cell.aberdeen	Aberdeen	aberdeen	Aberdeen	NNP	LOCATION						
+1	2	fb:cell.301_west_commerce_street	301 West Commerce Street	301|west|commerce|street	301|West|Commerce|Street	CD|NNP|NNP|NNP	NUMBER|O|O|O	301.0|||	301.0				
+1	3	fb:cell.n_d_miss	N.D. Miss.	n.d.|miss.|.	N.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				N.D. Miss.	fb:part.n_d_miss
+1	4	fb:cell._present	?-present	?|present	?|present	.|JJ	O|DATE	|PRESENT_REF				?-present	fb:part._present
+1	5	fb:cell.u_s_rep_thomas_abernethy	U.S. Rep. Thomas Abernethy	u.s.|rep.|thomas|abernethy	U.S.|Rep.|Thomas|Abernethy	NNP|NNP|NNP|NNP	LOCATION|O|PERSON|PERSON	|||				U.S. Rep. Thomas Abernethy	fb:part.u_s_rep_thomas_abernethy
+2	0	fb:cell.u_s_post_office_court_house_custom_house	U.S. Post Office, Court House, & Custom House	u.s.|post|office|,|court|house|,|&|custom|house	U.S.|Post|Office|,|Court|House|,|&|Custom|House	NNP|NNP|NNP|,|NNP|NNP|,|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||				U.S. Post Office|Court House|& Custom House	fb:part.u_s_post_office|fb:part.court_house|fb:part._custom_house
+2	1	fb:cell.biloxi	Biloxi	biloxi	Biloxi	NNP	LOCATION						
+2	2	fb:cell.140_lameuse_street	140 Lameuse Street	140|lameuse|street	140|Lameuse|Street	CD|NNP|NNP	NUMBER|O|O	140.0||	140.0				
+2	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+2	4	fb:cell.1908_1959_now_biloxi_city_hall	1908-1959\nNow Biloxi City Hall.	1908-1959|now|biloxi|city|hall|.	1908-1959|now|Biloxi|City|Hall|.	CD|RB|NNP|NNP|NNP|.	DATE|DATE|O|O|O|O	1908/1959|PRESENT_REF||||	1908.0		1959.0	1908-1959|Now Biloxi City Hall.	fb:part.1908_1959|fb:part.now_biloxi_city_hall
+2	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+3	0	fb:cell.u_s_post_office_court_house	U.S. Post Office & Court House	u.s.|post|office|&|court|house	U.S.|Post|Office|&|Court|House	NNP|NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				U.S. Post Office & Court House	fb:part.u_s_post_office_court_house
+3	1	fb:cell.biloxi	Biloxi	biloxi	Biloxi	NNP	LOCATION						
+3	2	fb:cell.null	?	?	?	.	O						
+3	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+3	4	fb:cell.1908_1959_fate_of_building_unknown	1908-1959\nFate of building unknown.	1908-1959|fate|of|building|unknown|.	1908-1959|Fate|of|build|unknown|.	CD|NNP|IN|VBG|JJ|.	DATE|O|O|O|O|O	1908/1959|||||	1908.0		1959.0	1908-1959|Fate of building unknown.	fb:part.1908_1959|fb:part.fate_of_building_unknown
+3	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+4	0	fb:cell.u_s_post_office	U.S. Post Office	u.s.|post|office	U.S.|Post|Office	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				U.S. Post Office	fb:part.u_s_post_office
+4	1	fb:cell.clarksdale	Clarksdale	clarksdale	Clarksdale	NNP	LOCATION						
+4	2	fb:cell.null	?	?	?	.	O						
+4	3	fb:cell.n_d_miss	N.D. Miss.	n.d.|miss.|.	N.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				N.D. Miss.	fb:part.n_d_miss
+4	4	fb:cell.1916_1964_razed_in_1968	1916-1964\nRazed in 1968.	1916-1964|razed|in|1968|.	1916-1964|raze|in|1968|.	CD|VBN|IN|CD|.	DATE|O|O|DATE|O	1916/1964|||1968|	1916.0		1964.0	1916-1964|Razed in 1968.	fb:part.1916_1964|fb:part.razed_in_1968
+4	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+5	0	fb:cell.federal_building	Federal Building	federal|building	Federal|Building	NNP|NNP	O|O	|				Federal Building	fb:part.federal_building
+5	1	fb:cell.clarksdale	Clarksdale	clarksdale	Clarksdale	NNP	LOCATION						
+5	2	fb:cell.null	?	?	?	.	O						
+5	3	fb:cell.n_d_miss	N.D. Miss.	n.d.|miss.|.	N.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				N.D. Miss.	fb:part.n_d_miss
+5	4	fb:cell.1964_1997_fate_of_building_unknown	1964-1997\nFate of building unknown.	1964-1997|fate|of|building|unknown|.	1964-1997|Fate|of|build|unknown|.	CD|NNP|IN|VBG|JJ|.	DATE|O|O|O|O|O	1964/1997|||||	1964.0		1997.0	1964-1997|Fate of building unknown.	fb:part.1964_1997|fb:part.fate_of_building_unknown
+5	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+6	0	fb:cell.federal_building	Federal Building	federal|building	Federal|Building	NNP|NNP	O|O	|				Federal Building	fb:part.federal_building
+6	1	fb:cell.greenville	Greenville	greenville	Greenville	NNP	LOCATION						
+6	2	fb:cell.305_main_street	305 Main Street	305|main|street	305|Main|Street	CD|NNP|NNP	NUMBER|O|O	305.0||	305.0				
+6	3	fb:cell.n_d_miss	N.D. Miss.	n.d.|miss.|.	N.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				N.D. Miss.	fb:part.n_d_miss
+6	4	fb:cell.1960_present	1960-present	1960|present	1960|present	CD|JJ	DATE|DATE	1960|1960	1960.0	1960-xx-xx		1960-present	fb:part.1960_present
+6	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+7	0	fb:cell.dan_m_russell_jr_federal_bldg_u_s_courthouse	Dan M. Russell Jr. Federal Bldg & U.S. Courthouse	dan|m.|russell|jr.|.|federal|bldg|&|u.s.|courthouse	Dan|M.|Russell|Jr.|.|Federal|Bldg|&|U.S.|courthouse	NNP|NNP|NNP|NNP|.|NNP|NNP|CC|NNP|NN	PERSON|PERSON|PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||				Dan M. Russell Jr. Federal Bldg & U.S. Courthouse	fb:part.dan_m_russell_jr_federal_bldg_u_s_courthouse
+7	1	fb:cell.gulfport	Gulfport	gulfport	Gulfport	NNP	LOCATION						
+7	2	fb:cell.2012_15th_street	2012 15th Street	2012|15th|street	2012|15th|Street	CD|NNP|NNP	DATE|ORDINAL|O	2012|15.0|	201215.0				
+7	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+7	4	fb:cell.2003_present	2003-present	2003|present	2003|present	CD|JJ	DATE|DATE	2003|2003	2003.0	2003-xx-xx		2003-present	fb:part.2003_present
+7	5	fb:cell.district_court_judge_dan_monroe_russell_jr	District Court judge Dan Monroe Russell, Jr.	district|court|judge|dan|monroe|russell|,|jr.|.	District|Court|judge|Dan|Monroe|Russell|,|Jr.|.	NNP|NNP|NN|NNP|NNP|NNP|,|NNP|.	O|O|O|PERSON|PERSON|PERSON|O|O|O	||||||||				District Court judge Dan Monroe Russell|Jr.	fb:part.district_court_judge_dan_monroe_russell|fb:part.jr
+8	0	fb:cell.u_s_court_house	U.S. Court House	u.s.|court|house	U.S.|Court|House	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				U.S. Court House	fb:part.u_s_court_house
+8	1	fb:cell.hattiesburg	Hattiesburg	hattiesburg	Hattiesburg	NNP	LOCATION						
+8	2	fb:cell.null	?	?	?	.	O						
+8	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+8	4	fb:cell.1936_completed_in_1911_now_the_forrest_county_courthouse_building	1936-?\nCompleted in 1911; now the Forrest County Courthouse Building.	1936|-|?|completed|in|1911|;|now|the|forrest|county|courthouse|building|.	1936|-|?|complete|in|1911|;|now|the|Forrest|County|courthouse|building|.	CD|:|.|VBN|IN|CD|:|RB|DT|NNP|NNP|NN|NN|.	DATE|O|O|O|O|DATE|O|DATE|O|LOCATION|LOCATION|O|O|O	1936|||||1911||PRESENT_REF||||||	1936.0		1911.0	1936-?|Completed in 1911; now the Forrest County Courthouse Building.	fb:part.1936|fb:part.completed_in_1911_now_the_forrest_county_courthouse_building
+8	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+9	0	fb:cell.william_m_colmer_federal_bldg_u_s_courthouse	William M. Colmer Federal Bldg & U.S. Courthouse	william|m.|colmer|federal|bldg|&|u.s.|courthouse	William|M.|Colmer|Federal|Bldg|&|U.S.|courthouse	NNP|NNP|NNP|NNP|NNP|CC|NNP|NN	PERSON|PERSON|PERSON|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||				William M. Colmer Federal Bldg & U.S. Courthouse	fb:part.william_m_colmer_federal_bldg_u_s_courthouse
+9	1	fb:cell.hattiesburg	Hattiesburg	hattiesburg	Hattiesburg	NNP	LOCATION						
+9	2	fb:cell.701_main_street	701 Main Street	701|main|street	701|Main|Street	CD|NNP|NNP	NUMBER|O|O	701.0||	701.0				
+9	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+9	4	fb:cell._present	?-present	?|present	?|present	.|JJ	O|DATE	|PRESENT_REF				?-present	fb:part._present
+9	5	fb:cell.u_s_rep_william_m_colmer	U.S. Rep. William M. Colmer	u.s.|rep.|william|m.|colmer	U.S.|Rep.|William|M.|Colmer	NNP|NNP|NNP|NNP|NNP	LOCATION|O|PERSON|PERSON|PERSON	||||				U.S. Rep. William M. Colmer	fb:part.u_s_rep_william_m_colmer
+10	0	fb:cell.u_s_court_house_post_office	U.S. Court House & Post Office	u.s.|court|house|&|post|office	U.S.|Court|House|&|Post|Office	NNP|NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				U.S. Court House & Post Office	fb:part.u_s_court_house_post_office
+10	1	fb:cell.jackson	Jackson	jackson	Jackson	NNP	PERSON						
+10	2	fb:cell.null	?	?	?	.	O						
+10	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+10	4	fb:cell.1885_1933	1885-1933	1885-1933	1885-1933	CD	DATE	1885/1933	1885.0		1933.0	1885-1933	fb:part.1885_1933
+10	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+11	0	fb:cell.james_eastland_federal_building	James Eastland Federal Building	james|eastland|federal|building	James|Eastland|Federal|Building	NNP|NNP|NNP|NNP	PERSON|PERSON|O|O	|||				James Eastland Federal Building	fb:part.james_eastland_federal_building
+11	1	fb:cell.jackson	Jackson	jackson	Jackson	NNP	PERSON						
+11	2	fb:cell.null	?	?	?	.	O						
+11	3	fb:cell.s_d_miss_5th_cir	S.D. Miss.\n5th Cir.	s.d.|miss.|5th|cir|.	S.D.|Miss.|5th|cir|.	NNP|NNP|JJ|NN|.	LOCATION|O|ORDINAL|O|O	||5.0||				S.D. Miss.|5th Cir.	fb:part.s_d_miss|fb:part.5th_cir
+11	4	fb:cell.1934_present_1981_present	1934-present\n1981-present	1934|present|1981|present	1934|present|1981|present	CD|JJ|CD|JJ	DATE|DATE|DATE|DATE	1934|1934|1934|1934	1934.0	1934-xx-xx	1981.0	1934-present|1981-present	fb:part.1934_present|fb:part.1981_present
+11	5	fb:cell.u_s_sen_james_eastland_1984	U.S. Sen. James Eastland (1984)	u.s.|sen.|james|eastland|-lrb-|1984|-rrb-	U.S.|Sen.|James|Eastland|-lrb-|1984|-rrb-	NNP|NNP|NNP|NNP|-LRB-|CD|-RRB-	LOCATION|O|PERSON|PERSON|O|DATE|O	|||||1984|				U.S. Sen. James Eastland (1984)	fb:part.u_s_sen_james_eastland_1984
+12	0	fb:cell.u_s_post_office_courthouse	U.S. Post Office & Courthouse	u.s.|post|office|&|courthouse	U.S.|Post|Office|&|courthouse	NNP|NNP|NNP|CC|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				U.S. Post Office & Courthouse	fb:part.u_s_post_office_courthouse
+12	1	fb:cell.meridian	Meridian	meridian	Meridian	NNP	LOCATION						
+12	2	fb:cell.8th_st_and_22nd_ave	8th St and 22nd Ave	8th|st|and|22nd|ave	8th|St|and|22nd|ave	JJ|NNP|CC|JJ|NN	ORDINAL|O|O|ORDINAL|O	8.0|||22.0|	8.0		22.0		
+12	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+12	4	fb:cell.1898_1933_razed_in_the_1950s	1898-1933\nRazed in the 1950s.	1898-1933|razed|in|the|1950s|.	1898-1933|raze|in|the|1950|.	CD|VBN|IN|DT|NNS|.	DATE|O|O|DATE|DATE|O	1898/1933|||195X|195X|	1898.0		1933.0	1898-1933|Razed in the 1950s.	fb:part.1898_1933|fb:part.razed_in_the_1950s
+12	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+13	0	fb:cell.u_s_post_office_courthouse	U.S. Post Office & Courthouse	u.s.|post|office|&|courthouse	U.S.|Post|Office|&|courthouse	NNP|NNP|NNP|CC|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				U.S. Post Office & Courthouse	fb:part.u_s_post_office_courthouse
+13	1	fb:cell.meridian	Meridian	meridian	Meridian	NNP	LOCATION						
+13	2	fb:cell.2100_9th_street	2100 9th Street	2100|9th|street	2100|9th|street	CD|JJ|NN	DATE|ORDINAL|O	2100|9.0|	21009.0				
+13	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+13	4	fb:cell.1933_present	1933-present	1933|present	1933|present	CD|JJ	DATE|DATE	1933|1933	1933.0	1933-xx-xx		1933-present	fb:part.1933_present
+13	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+14	0	fb:cell.u_s_courthouse	U.S. Courthouse	u.s.|courthouse	U.S.|courthouse	NNP|NN	LOCATION|O	|				U.S. Courthouse	fb:part.u_s_courthouse
+14	1	fb:cell.natchez	Natchez	natchez	Natchez	NNP	LOCATION						
+14	2	fb:cell.109_pearl_street	109 Pearl Street	109|pearl|street	109|Pearl|Street	CD|NNP|NNP	NUMBER|O|O	109.0||	109.0				
+14	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+14	4	fb:cell.2007_present_built_in_1853	2007-present\nBuilt in 1853	2007|present|built|in|1853	2007|present|build|in|1853	CD|JJ|VBN|IN|CD	DATE|DATE|O|O|DATE	2007|2007|||1853	2007.0		1853.0	2007-present|Built in 1853	fb:part.2007_present|fb:part.built_in_1853
+14	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+15	0	fb:cell.u_s_court_house_post_office	U.S. Court House & Post Office	u.s.|court|house|&|post|office	U.S.|Court|House|&|Post|Office	NNP|NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				U.S. Court House & Post Office	fb:part.u_s_court_house_post_office
+15	1	fb:cell.oxford	Oxford	oxford	Oxford	NNP	LOCATION						
+15	2	fb:cell.107_courthouse_square	107 Courthouse Square	107|courthouse|square	107|courthouse|square	CD|NN|NN	NUMBER|O|O	107.0||	107.0				
+15	3	fb:cell.n_d_miss	N.D. Miss.	n.d.|miss.|.	N.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				N.D. Miss.	fb:part.n_d_miss
+15	4	fb:cell.1887_ca_1974_now_oxford_city_hall	1887-ca. 1974\nNow Oxford City Hall.	1887|ca.|1974|now|oxford|city|hall|.	1887|ca.|1974|now|Oxford|City|Hall|.	CD|FW|CD|RB|NNP|NNP|NNP|.	DATE|DATE|DATE|DATE|O|O|O|O	1887|1887|1974|1974||||	1887.0		0.1974	1887-ca. 1974|Now Oxford City Hall.	fb:part.1887_ca_1974|fb:part.now_oxford_city_hall
+15	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+16	0	fb:cell.federal_bldg_post_office_courthouse	Federal Bldg, Post Office, & Courthouse	federal|bldg|,|post|office|,|&|courthouse	Federal|Bldg|,|Post|Office|,|&|courthouse	NNP|NNP|,|NNP|NNP|,|CC|NN	O|O|O|ORGANIZATION|ORGANIZATION|O|O|O	|||||||				Federal Bldg|Post Office|& Courthouse	fb:part.federal_bldg|fb:part.post_office|fb:part._courthouse
+16	1	fb:cell.oxford	Oxford	oxford	Oxford	NNP	LOCATION						
+16	2	fb:cell.911_jackson_avenue	911 Jackson Avenue	911|jackson|avenue	911|Jackson|Avenue	CD|NNP|NNP	NUMBER|O|O	911.0||	911.0				
+16	3	fb:cell.n_d_miss	N.D. Miss.	n.d.|miss.|.	N.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				N.D. Miss.	fb:part.n_d_miss
+16	4	fb:cell._present	?-present	?|present	?|present	.|JJ	O|DATE	|PRESENT_REF				?-present	fb:part._present
+16	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+17	0	fb:cell.u_s_court_house_post_office_custom_house	U.S. Court House, Post Office & Custom House	u.s.|court|house|,|post|office|&|custom|house	U.S.|Court|House|,|Post|Office|&|Custom|House	NNP|NNP|NNP|,|NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||||				U.S. Court House|Post Office & Custom House	fb:part.u_s_court_house|fb:part.post_office_custom_house
+17	1	fb:cell.vicksburg	Vicksburg	vicksburg	Vicksburg	NNP	LOCATION						
+17	2	fb:cell.1400_walnut_street	1400 Walnut Street	1400|walnut|street	1400|Walnut|Street	CD|NNP|NNP	DATE|O|O	1400||	1400.0				
+17	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+17	4	fb:cell.1892_1937_now_in_use_by_the_mississippi_river_commission	1892-1937\nNow in use by the Mississippi River Commission.	1892-1937|now|in|use|by|the|mississippi|river|commission|.	1892-1937|now|in|use|by|the|Mississippi|River|Commission|.	CD|RB|IN|NN|IN|DT|NNP|NNP|NNP|.	DATE|DATE|O|O|O|O|LOCATION|LOCATION|LOCATION|O	1892/1937|PRESENT_REF||||||||	1892.0		1937.0	1892-1937|Now in use by the Mississippi River Commission.	fb:part.1892_1937|fb:part.now_in_use_by_the_mississippi_river_commission
+17	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+18	0	fb:cell.u_s_post_office_court_house	U.S. Post Office & Court House	u.s.|post|office|&|court|house	U.S.|Post|Office|&|Court|House	NNP|NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				U.S. Post Office & Court House	fb:part.u_s_post_office_court_house
+18	1	fb:cell.vicksburg	Vicksburg	vicksburg	Vicksburg	NNP	LOCATION						
+18	2	fb:cell.null	?	?	?	.	O						
+18	3	fb:cell.s_d_miss	S.D. Miss.	s.d.|miss.|.	S.D.|Miss.|.	NNP|NNP|.	LOCATION|LOCATION|O	||				S.D. Miss.	fb:part.s_d_miss
+18	4	fb:cell.1937_present_now_privately_owned	1937-present\nNow privately owned.	1937|present|now|privately|owned|.	1937|present|now|privately|own|.	CD|JJ|RB|RB|VBN|.	DATE|DATE|DATE|O|O|O	1937|1937|1937|||	1937.0			1937-present|Now privately owned.	fb:part.1937_present|fb:part.now_privately_owned
+18	5	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a

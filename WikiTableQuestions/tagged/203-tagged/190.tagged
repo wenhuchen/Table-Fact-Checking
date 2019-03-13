@@ -1,0 +1,79 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.type	Type	type	type	NN	O						
+-1	2	fb:row.row.circle	Circle	circle	Circle	NNP	O						
+-1	3	fb:row.row.bench	Bench	bench	bench	NN	O						
+-1	4	fb:row.row.formed	Formed	formed	form	VBN	O						
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.uberlingen	Überlingen	überlingen	überlingen	NN	O						
+0	1	fb:cell.imperial_city	Imperial City	imperial|city	Imperial|City	NNP|NNP	O|O	|				Imperial City	fb:part.imperial_city
+0	2	fb:cell.swab	Swab	swab	swab	NN	O						
+0	3	fb:cell.sw	SW	sw	sw	NN	O						
+0	4	fb:cell.1268	1268	1268	1268	CD	DATE	1268	1268.0	1268-xx-xx			
+0	5	fb:cell.1803_mediatized_to_baden	1803: Mediatized to Baden	1803|:|mediatized|to|baden	1803|:|mediatize|to|Baden	NNP|:|VBN|TO|NNP	DATE|O|O|O|LOCATION	1803||||	1803.0			1803: Mediatized to Baden	fb:part.1803_mediatized_to_baden
+1	0	fb:cell.ulm	Ulm	ulm	ulm	NN	O						
+1	1	fb:cell.1155_free_imperial_city	1155: Free Imperial City	1155|:|free|imperial|city	1155|:|Free|Imperial|City	CD|:|NNP|NNP|NNP	DATE|O|O|O|O	1155||||	1155.0			1155: Free Imperial City	fb:part.1155_free_imperial_city
+1	2	fb:cell.swab	Swab	swab	swab	NN	O						
+1	3	fb:cell.sw	SW	sw	sw	NN	O						
+1	4	fb:cell.1115	1115	1115	1115	CD	DATE	1115	1115.0	1115-xx-xx			
+1	5	fb:cell.1803_mediatized_to_bavaria_1809_to_wurttemberg	1803: Mediatized to Bavaria\n1809: To Wurttemberg	1803|:|mediatized|to|bavaria|1809|:|to|wurttemberg	1803|:|mediatize|to|Bavaria|1809|:|to|Wurttemberg	NNP|:|VBN|TO|NNP|CD|:|TO|NNP	DATE|O|O|O|LOCATION|DATE|O|O|LOCATION	1803|||||1809|||	1803.0		1809.0	1803: Mediatized to Bavaria|1809: To Wurttemberg	fb:part.1803_mediatized_to_bavaria|fb:part.1809_to_wurttemberg
+2	0	fb:cell.umpfenbach	Umpfenbach	umpfenbach	Umpfenbach	NNP	O						
+2	1	fb:cell.lordship_1805_hre_princely_county	Lordship\n1805: HRE Princely County	lordship|1805|:|hre|princely|county	lordship|1805|:|HRE|Princely|County	NN|CD|:|NNP|NNP|NNP	O|DATE|O|O|O|O	|1805||||	1805.0			Lordship|1805: HRE Princely County	fb:part.lordship|fb:part.1805_hre_princely_county
+2	2	fb:cell.null											fb:part.null
+2	3	fb:cell.null											fb:part.null
+2	4	fb:cell.null											fb:part.null
+2	5	fb:cell.to_trauttmansdorff	To Trauttmansdorff	to|trauttmansdorff	to|trauttmansdorff	TO|FW	O|O	|				To Trauttmansdorff	fb:part.to_trauttmansdorff
+3	0	fb:cell.unterwalden	Unterwalden	unterwalden	unterwalden	JJ	O						
+3	1	fb:cell.imperial_valley	Imperial valley	imperial|valley	Imperial|valley	NNP|NN	O|O	|				Imperial valley	fb:part.imperial_valley
+3	2	fb:cell.null											fb:part.null
+3	3	fb:cell.null											fb:part.null
+3	4	fb:cell.1415	1415	1415	1415	CD	DATE	1415	1415.0	1415-xx-xx			
+3	5	fb:cell.division_into_nidwalden_and_obwalden_1173_to_counts_of_habsburg_1291_nidwalden_became_a_founding_member_of_the_swiss_league_1324_immediate_imperial_fief_reichsunmittelbar_1350s_division_into_obwalden_and_nidwalden_1648_left_empire_as_member_of_swiss_confederation	Division into Nidwalden and Obwalden\n1173: To Counts of Habsburg\n1291: Nidwalden became a founding member of the Swiss League\n1324: Immediate Imperial fief (Reichsunmittelbar)\n1350s: Division into Obwalden and Nidwalden\n1648: Left Empire as member of Swiss Confederation	division|into|nidwalden|and|obwalden|1173|:|to|counts|of|habsburg|1291|:|nidwalden|became|a|founding|member|of|the|swiss|league|1324|:|immediate|imperial|fief|-lrb-|reichsunmittelbar|-rrb-|1350s|:|division|into|obwalden|and|nidwalden|1648|:|left|empire|as|member|of|swiss|confederation	Division|into|Nidwalden|and|Obwalden|1173|:|to|count|of|Habsburg|1291|:|nidwalden|become|a|found|member|of|the|Swiss|League|1324|:|Immediate|Imperial|fief|-lrb-|reichsunmittelbar|-rrb-|1350s|:|Division|into|Obwalden|and|Nidwalden|1648|:|leave|Empire|as|member|of|swiss|Confederation	NNP|IN|NNP|CC|NNP|CD|:|TO|NNS|IN|NNP|CD|:|JJ|VBD|DT|VBG|NN|IN|DT|NNP|NNP|CD|:|NNP|NNP|NN|-LRB-|NN|-RRB-|CD|:|NNP|IN|NNP|CC|NNP|CD|:|VBN|NNP|IN|NN|IN|JJ|NNP	O|O|LOCATION|O|O|DATE|O|O|O|O|LOCATION|DATE|O|PERSON|O|O|O|O|O|O|MISC|MISC|DATE|O|O|O|O|O|O|O|DATE|O|O|O|LOCATION|O|O|DATE|O|O|O|O|O|O|MISC|MISC	|||||1173||||||1291|||||||||||1324||||||||135X|||||||1648||||||||	1173.0		1291.0	Division into Nidwalden and Obwalden|1173: To Counts of Habsburg|1291: Nidwalden became a founding member of the Swiss League|1324: Immediate Imperial fief (Reichsunmittelbar)|1350s: Division into Obwalden and Nidwalden|1648: Left Empire as member of Swiss Confederation	fb:part.division_into_nidwalden_and_obwalden|fb:part.1173_to_counts_of_habsburg|fb:part.1291_nidwalden_became_a_founding_member_of_the_swiss_league|fb:part.1324_immediate_imperial_fief_reichsunmittelbar|fb:part.1350s_division_into_obwalden_and_nidwalden|fb:part.1648_left_empire_as_member_of_swiss_confederation
+4	0	fb:cell.upper_salm	Upper Salm	upper|salm	Upper|Salm	NNP|NNP	O|O	|					
+4	1	fb:cell.1163_county	1163: County	1163|:|county	1163|:|County	CD|:|NNP	DATE|O|O	1163||	1163.0			1163: County	fb:part.1163_county
+4	2	fb:cell.null											fb:part.null
+4	3	fb:cell.null											fb:part.null
+4	4	fb:cell.1170	1170	1170	1170	CD	DATE	1170	1170.0	1170-xx-xx			
+4	5	fb:cell.partitioned_from_salm_1499_raised_to_wild_and_rhinegraves_of_salm_1574_divided_into_salm_salm_and_salm_grumbach	Partitioned from Salm\n1499: Raised to Wild- and Rhinegraves of Salm\n1574: Divided into Salm-Salm and Salm-Grumbach	partitioned|from|salm|1499|:|raised|to|wild|-|and|rhinegraves|of|salm|1574|:|divided|into|salm|salm|and|salm|grumbach	partition|from|Salm|1499|:|raise|to|Wild|-|and|rhinegrave|of|Salm|1574|:|divide|into|Salm|Salm|and|Salm|Grumbach	VBN|IN|NNP|CD|:|VBN|TO|NNP|:|CC|NNS|IN|NNP|CD|:|VBN|IN|NNP|NNP|CC|NNP|NNP	O|O|O|DATE|O|O|O|O|O|O|O|O|O|DATE|O|O|O|PERSON|PERSON|O|PERSON|PERSON	|||1499||||||||||1574||||||||	1499.0		1574.0	Partitioned from Salm|1499: Raised to Wild- and Rhinegraves of Salm|1574: Divided into Salm-Salm and Salm-Grumbach	fb:part.partitioned_from_salm|fb:part.1499_raised_to_wild_and_rhinegraves_of_salm|fb:part.1574_divided_into_salm_salm_and_salm_grumbach
+5	0	fb:cell.upper_bavaria_oberbayern	Upper Bavaria (Oberbayern)	upper|bavaria|-lrb-|oberbayern|-rrb-	Upper|Bavaria|-lrb-|Oberbayern|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	O|LOCATION|O|O|O	||||					
+5	1	fb:cell.duchy	Duchy	duchy	Duchy	NNP	O					Duchy	fb:part.duchy
+5	2	fb:cell.null											fb:part.null
+5	3	fb:cell.null											fb:part.null
+5	4	fb:cell.1255	1255	1255	1255	CD	DATE	1255	1255.0	1255-xx-xx			
+5	5	fb:cell.null											fb:part.null
+6	0	fb:cell.upper_schonburg	Upper Schönburg	upper|schönburg	Upper|Schönburg	NNP|NNP	O|O	|					
+6	1	fb:cell.county	County	county	County	NNP	O					County	fb:part.county
+6	2	fb:cell.upp_sax	Upp Sax	upp|sax	Upp|Sax	NNP|NNP	O|O	|					
+6	3	fb:cell.null											fb:part.null
+6	4	fb:cell.1569	1569	1569	1569	CD	DATE	1569	1569.0	1569-xx-xx			
+6	5	fb:cell.partitioned_from_schonburg_1800_partitioned_into_schonburg_hartenstein_and_schonburg_waldenburg	Partitioned from Schönburg\n1800: Partitioned into Schönburg-Hartenstein and Schönburg-Waldenburg	partitioned|from|schönburg|1800|:|partitioned|into|schönburg|hartenstein|and|schönburg|waldenburg	partition|from|Schönburg|1800|:|partition|into|Schönburg|Hartenstein|and|Schönburg|Waldenburg	VBN|IN|NNP|CD|:|VBN|IN|NNP|NNP|CC|NNP|NNP	O|O|LOCATION|DATE|O|O|O|PERSON|PERSON|O|LOCATION|LOCATION	|||1800||||||||	1800.0			Partitioned from Schönburg|1800: Partitioned into Schönburg-Hartenstein and Schönburg-Waldenburg	fb:part.partitioned_from_schonburg|fb:part.1800_partitioned_into_schonburg_hartenstein_and_schonburg_waldenburg
+7	0	fb:cell.urach	Urach	urach	urach	NN	O						
+7	1	fb:cell.county	County	county	County	NNP	O					County	fb:part.county
+7	2	fb:cell.null											fb:part.null
+7	3	fb:cell.null											fb:part.null
+7	4	fb:cell.null											fb:part.null
+7	5	fb:cell.1060_1st_mention_of_urach_1080_1st_use_of_count_of_urach_division_of_territory_into_achalm_and_urach_1218_egino_i_of_urach_inherited_county_of_freiburg_from_zahringen_1261_counts_of_urach_died_out_1251_1265_ulrich_i_of_wurttemberg_acquired_territories_of_counts_of_urach	1060: 1st mention of Urach\n1080: 1st use of "Count of Urach"\nDivision of territory into Achalm and Urach\n1218 Egino I of Urach inherited County of Freiburg from Zahringen\n1261: Counts of Urach died out\n1251-1265: Ulrich I of Wurttemberg acquired territories of Counts of Urach	1060|:|1st|mention|of|urach|1080|:|1st|use|of|``|count|of|urach|''|division|of|territory|into|achalm|and|urach|1218|egino|i|of|urach|inherited|county|of|freiburg|from|zahringen|1261|:|counts|of|urach|died|out|1251-1265|:|ulrich|i|of|wurttemberg|acquired|territories|of|counts|of|urach	1060|:|1st|mention|of|Urach|1080|:|1st|use|of|``|count|of|Urach|''|Division|of|territory|into|Achalm|and|Urach|1218|Egino|i|of|Urach|inherit|County|of|Freiburg|from|Zahringen|1261|:|count|of|Urach|die|out|1251-1265|:|Ulrich|I|of|Wurttemberg|acquire|territory|of|count|of|urach	CD|:|CD|NN|IN|NNP|CD|:|CD|NN|IN|``|NN|IN|NNP|''|NNP|IN|NN|IN|NNP|CC|NNP|CD|NNP|CD|IN|NNP|VBN|NNP|IN|NNP|IN|NNP|CD|:|NNS|IN|NNP|VBD|RP|CD|:|NNP|NNP|IN|NNP|VBD|NNS|IN|NNS|IN|NN	DATE|O|ORDINAL|O|O|O|DATE|O|ORDINAL|O|O|O|O|O|O|O|O|O|O|O|O|O|O|DATE|O|NUMBER|O|LOCATION|O|O|O|LOCATION|O|LOCATION|DATE|O|O|O|PERSON|O|O|DATE|O|PERSON|PERSON|O|LOCATION|O|O|O|O|O|LOCATION	1060||1.0||||1080||1.0|||||||||||||||1218||0.0|||||||||1261|||||||1251/1265|||||||||||	1060.0		1.0	1060: 1st mention of Urach|1080: 1st use of "Count of Urach"|Division of territory into Achalm and Urach|1218 Egino I of Urach inherited County of Freiburg from Zahringen|1261: Counts of Urach died out|1251-1265: Ulrich I of Wurttemberg acquired territories of Counts of Urach	fb:part.1060_1st_mention_of_urach|fb:part.1080_1st_use_of_count_of_urach|fb:part.division_of_territory_into_achalm_and_urach|fb:part.1218_egino_i_of_urach_inherited_county_of_freiburg_from_zahringen|fb:part.1261_counts_of_urach_died_out|fb:part.1251_1265_ulrich_i_of_wurttemberg_acquired_territories_of_counts_of_urach
+8	0	fb:cell.uri	Uri	uri	Uri	NNP	PERSON						
+8	1	fb:cell.imperial_valley	Imperial valley	imperial|valley	Imperial|valley	NNP|NN	O|O	|				Imperial valley	fb:part.imperial_valley
+8	2	fb:cell.null											fb:part.null
+8	3	fb:cell.null											fb:part.null
+8	4	fb:cell.1231	1231	1231	1231	CD	DATE	1231	1231.0	1231-xx-xx			
+8	5	fb:cell.split_off_from_habsburg_1648_left_empire_as_member_of_swiss_confederation	Split off from Habsburg\n1648: Left Empire as member of Swiss Confederation	split|off|from|habsburg|1648|:|left|empire|as|member|of|swiss|confederation	split|off|from|Habsburg|1648|:|leave|Empire|as|member|of|swiss|Confederation	VB|RP|IN|NNP|CD|:|VBN|NNP|IN|NN|IN|JJ|NNP	O|O|O|LOCATION|DATE|O|O|O|O|O|O|MISC|MISC	||||1648||||||||	1648.0			Split off from Habsburg|1648: Left Empire as member of Swiss Confederation	fb:part.split_off_from_habsburg|fb:part.1648_left_empire_as_member_of_swiss_confederation
+9	0	fb:cell.ursberg	Ursberg	ursberg	ursberg	NN	LOCATION						
+9	1	fb:cell.1143_hre_abbey	1143: HRE Abbey	1143|:|hre|abbey	1143|:|HRE|Abbey	CD|:|NNP|NNP	DATE|O|O|O	1143|||	1143.0			1143: HRE Abbey	fb:part.1143_hre_abbey
+9	2	fb:cell.swab	Swab	swab	swab	NN	O						
+9	3	fb:cell.null											fb:part.null
+9	4	fb:cell.null											fb:part.null
+9	5	fb:cell.1803_secularized	1803; Secularized	1803|;|secularized	1803|;|Secularized	CD|:|NNP	DATE|O|O	1803||	1803.0			1803; Secularized	fb:part.1803_secularized
+10	0	fb:cell.utrecht	Utrecht	utrecht	Utrecht	NNP	O						
+10	1	fb:cell.bishopric	Bishopric	bishopric	Bishopric	NNP	O					Bishopric	fb:part.bishopric
+10	2	fb:cell.burg	Burg	burg	burg	NN	PERSON						
+10	3	fb:cell.ec	EC	ec	ec	NN	ORGANIZATION						
+10	4	fb:cell.1024	1024	1024	1024	CD	DATE	1024	1024.0	1024-xx-xx			
+10	5	fb:cell.1512_burgundian_circle_1528_secularized_to_austria_1793_council_of_princes	1512: Burgundian Circle\n1528: Secularized to Austria\n1793: Council of Princes	1512|:|burgundian|circle|1528|:|secularized|to|austria|1793|:|council|of|princes	1512|:|burgundian|Circle|1528|:|secularize|to|Austria|1793|:|Council|of|Princes	CD|:|JJ|NNP|CD|:|VBN|TO|NNP|CD|:|NNP|IN|NNPS	DATE|O|MISC|O|DATE|O|O|O|LOCATION|DATE|O|O|O|O	1512||||1528|||||1793||||	1512.0		1528.0	1512: Burgundian Circle|1528: Secularized to Austria|1793: Council of Princes	fb:part.1512_burgundian_circle|fb:part.1528_secularized_to_austria|fb:part.1793_council_of_princes
+11	0	fb:cell.uznach	Uznach	uznach	Uznach	NNP	O						
+11	1	fb:cell.county	County	county	County	NNP	O					County	fb:part.county
+11	2	fb:cell.null											fb:part.null
+11	3	fb:cell.null											fb:part.null
+11	4	fb:cell.null											fb:part.null
+11	5	fb:cell.null											fb:part.null

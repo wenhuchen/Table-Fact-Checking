@@ -1,0 +1,92 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.institution	Institution	institution	Institution	NNP	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.nickname	Nickname	nickname	nickname	NN	O						
+-1	3	fb:row.row.founded	Founded	founded	found	VBN	O						
+-1	4	fb:row.row.historical_affiliation	Historical Affiliation	historical|affiliation	historical|affiliation	JJ|NN	O|O	|					
+-1	5	fb:row.row.enrollment	Enrollment	enrollment	enrollment	NN	O						
+-1	6	fb:row.row.primary_conference	Primary Conference	primary|conference	primary|conference	JJ|NN	O|O	|					
+0	0	fb:cell.brown_university	Brown University	brown|university	Brown|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+0	1	fb:cell.providence_rhode_island	Providence, Rhode Island	providence|,|rhode|island	Providence|,|Rhode|Island	NNP|,|NNP|NNP	O|O|LOCATION|LOCATION	|||				Providence|Rhode Island	fb:part.providence|fb:part.rhode_island
+0	2	fb:cell.bears	Bears	bears	bear	NNS	O						
+0	3	fb:cell.1764	1764	1764	1764	CD	DATE	1764	1764.0	1764-xx-xx			
+0	4	fb:cell.nonsectarian_founded_by_baptists_but_founding_charter_promises_no_religious_tests_and_full_liberty_of_conscience	Nonsectarian, founded by Baptists, but founding charter promises "no religious tests" and "full liberty of conscience"	nonsectarian|,|founded|by|baptists|,|but|founding|charter|promises|``|no|religious|tests|''|and|``|full|liberty|of|conscience|''	nonsectarian|,|found|by|baptist|,|but|found|charter|promise|``|no|religious|test|''|and|``|full|liberty|of|conscience|''	JJ|,|VBN|IN|NNS|,|CC|VBG|NN|VBZ|``|DT|JJ|NNS|''|CC|``|JJ|NN|IN|NN|''	MISC|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||||||				Nonsectarian|founded by Baptists|but founding charter promises "no religious tests" and "full liberty of conscience"	fb:part.nonsectarian|fb:part.founded_by_baptists|fb:part.but_founding_charter_promises_no_religious_tests_and_full_liberty_of_conscience
+0	5	fb:cell.7_744	7,744	7,744	7,744	CD	NUMBER	7744.0	7744.0				
+0	6	fb:cell.ivy_league	Ivy League	ivy|league	Ivy|League	NNP|NNP	MISC|MISC	|					
+1	0	fb:cell.clarkson_university	Clarkson University	clarkson|university	Clarkson|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+1	1	fb:cell.potsdam_new_york	Potsdam, New York	potsdam|,|new|york	Potsdam|,|New|York	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Potsdam|New York	fb:part.potsdam|fb:part.new_york
+1	2	fb:cell.golden_knights	Golden Knights	golden|knights	Golden|Knights	NNP|NNP	O|O	|					
+1	3	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx			
+1	4	fb:cell.private_non_sectarian	Private/Non-sectarian	private\\/non|sectarian	Private\\/Non|sectarian	NNP|NN	O|O	|				Private|Non-sectarian	fb:part.private|fb:part.non_sectarian
+1	5	fb:cell.3_100	3,100	3,100	3,100	CD	NUMBER	3100.0	3100.0				
+1	6	fb:cell.liberty_league_d_iii	Liberty League (D-III)	liberty|league|-lrb-|d|iii|-rrb-	Liberty|League|-lrb-|D|III|-rrb-	NNP|NNP|-LRB-|NNP|NNP|-RRB-	MISC|MISC|O|O|O|O	|||||					
+2	0	fb:cell.colgate_university	Colgate University	colgate|university	Colgate|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+2	1	fb:cell.hamilton_new_york	Hamilton, New York	hamilton|,|new|york	Hamilton|,|New|York	NNP|,|NNP|NNP	PERSON|O|LOCATION|LOCATION	|||				Hamilton|New York	fb:part.hamilton|fb:part.new_york
+2	2	fb:cell.raiders	Raiders	raiders	Raiders	NNPS	O						
+2	3	fb:cell.1819	1819	1819	1819	CD	DATE	1819	1819.0	1819-xx-xx			
+2	4	fb:cell.private_non_sectarian_founded_by_baptists	Private/Non-sectarian, founded by Baptists	private\\/non|sectarian|,|founded|by|baptists	Private\\/Non|sectarian|,|found|by|baptist	NNP|NN|,|VBN|IN|NNS	O|O|O|O|O|O	|||||				Private|Non-sectarian|founded by Baptists	fb:part.private|fb:part.non_sectarian|fb:part.founded_by_baptists
+2	5	fb:cell.2_800	2,800	2,800	2,800	CD	NUMBER	2800.0	2800.0				
+2	6	fb:cell.patriot_league	Patriot League	patriot|league	patriot|league	NN|NN	MISC|MISC	|					
+3	0	fb:cell.cornell_university	Cornell University	cornell|university	Cornell|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+3	1	fb:cell.ithaca_new_york	Ithaca, New York	ithaca|,|new|york	Ithaca|,|New|York	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Ithaca|New York	fb:part.ithaca|fb:part.new_york
+3	2	fb:cell.big_red	Big Red	big|red	Big|Red	NNP|NNP	O|O	|					
+3	3	fb:cell.1865	1865	1865	1865	CD	DATE	1865	1865.0	1865-xx-xx			
+3	4	fb:cell.private_non_sectarian	Private/Non-sectarian	private\\/non|sectarian	Private\\/Non|sectarian	NNP|NN	O|O	|				Private|Non-sectarian	fb:part.private|fb:part.non_sectarian
+3	5	fb:cell.20_400	20,400	20,400	20,400	CD	NUMBER	20400.0	20400.0				
+3	6	fb:cell.ivy_league	Ivy League	ivy|league	Ivy|League	NNP|NNP	MISC|MISC	|					
+4	0	fb:cell.dartmouth_college	Dartmouth College	dartmouth|college	Dartmouth|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+4	1	fb:cell.hanover_new_hampshire	Hanover, New Hampshire	hanover|,|new|hampshire	Hanover|,|New|Hampshire	NNP|,|NNP|NNP	O|O|LOCATION|LOCATION	|||				Hanover|New Hampshire	fb:part.hanover|fb:part.new_hampshire
+4	2	fb:cell.big_green	Big Green	big|green	Big|Green	NNP|NNP	O|O	|					
+4	3	fb:cell.1769	1769	1769	1769	CD	DATE	1769	1769.0	1769-xx-xx			
+4	4	fb:cell.private_congregationalist	Private/Congregationalist	private\\/congregationalist	Private\\/Congregationalist	NNP	O					Private|Congregationalist	fb:part.private|fb:part.congregationalist
+4	5	fb:cell.5_753	5,753	5,753	5,753	CD	NUMBER	5753.0	5753.0				
+4	6	fb:cell.ivy_league	Ivy League	ivy|league	Ivy|League	NNP|NNP	MISC|MISC	|					
+5	0	fb:cell.harvard_university	Harvard University	harvard|university	Harvard|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+5	1	fb:cell.cambridge_massachusetts	Cambridge, Massachusetts	cambridge|,|massachusetts	Cambridge|,|Massachusetts	NNP|,|NNP	LOCATION|O|LOCATION	||				Cambridge|Massachusetts	fb:part.cambridge|fb:part.massachusetts
+5	2	fb:cell.crimson	Crimson	crimson	crimson	JJ	MISC						
+5	3	fb:cell.1636	1636	1636	1636	CD	DATE	1636	1636.0	1636-xx-xx			
+5	4	fb:cell.private_unitarian	Private/Unitarian	private\\/unitarian	private\\/unitarian	NN	O					Private|Unitarian	fb:part.private|fb:part.unitarian
+5	5	fb:cell.20_042	20,042	20,042	20,042	CD	NUMBER	20042.0	20042.0				
+5	6	fb:cell.ivy_league	Ivy League	ivy|league	Ivy|League	NNP|NNP	MISC|MISC	|					
+6	0	fb:cell.princeton_university	Princeton University	princeton|university	Princeton|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	1	fb:cell.princeton_new_jersey	Princeton, New Jersey	princeton|,|new|jersey	Princeton|,|New|Jersey	NNP|,|NNP|NNP	ORGANIZATION|O|LOCATION|LOCATION	|||				Princeton|New Jersey	fb:part.princeton|fb:part.new_jersey
+6	2	fb:cell.tigers	Tigers	tigers	Tigers	NNP	O						
+6	3	fb:cell.1746	1746	1746	1746	CD	DATE	1746	1746.0	1746-xx-xx			
+6	4	fb:cell.nonsectarian_but_founded_by_presbyterians	Nonsectarian, but founded by Presbyterians	nonsectarian|,|but|founded|by|presbyterians	nonsectarian|,|but|found|by|Presbyterians	JJ|,|CC|VBN|IN|NNPS	MISC|O|O|O|O|MISC	|||||				Nonsectarian|but founded by Presbyterians	fb:part.nonsectarian|fb:part.but_founded_by_presbyterians
+6	5	fb:cell.6_677	6,677	6,677	6,677	CD	NUMBER	6677.0	6677.0				
+6	6	fb:cell.ivy_league	Ivy League	ivy|league	Ivy|League	NNP|NNP	MISC|MISC	|					
+7	0	fb:cell.quinnipiac_university	Quinnipiac University	quinnipiac|university	Quinnipiac|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+7	1	fb:cell.hamden_connecticut	Hamden, Connecticut	hamden|,|connecticut	Hamden|,|Connecticut	NNP|,|NNP	LOCATION|O|LOCATION	||				Hamden|Connecticut	fb:part.hamden|fb:part.connecticut
+7	2	fb:cell.bobcats	Bobcats	bobcats	bobcat	NNS	O						
+7	3	fb:cell.1929	1929	1929	1929	CD	DATE	1929	1929.0	1929-xx-xx			
+7	4	fb:cell.private_non_sectarian	Private/Non-sectarian	private\\/non|sectarian	Private\\/Non|sectarian	NNP|NN	O|O	|				Private|Non-sectarian	fb:part.private|fb:part.non_sectarian
+7	5	fb:cell.7_700	7,700	7,700	7,700	CD	NUMBER	7700.0	7700.0				
+7	6	fb:cell.maac	MAAC	maac	maac	NN	O						
+8	0	fb:cell.rensselaer_polytechnic_institute	Rensselaer Polytechnic Institute	rensselaer|polytechnic|institute	Rensselaer|Polytechnic|Institute	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+8	1	fb:cell.troy_new_york	Troy, New York	troy|,|new|york	Troy|,|New|York	NNP|,|NNP|NNP	O|O|LOCATION|LOCATION	|||				Troy|New York	fb:part.troy|fb:part.new_york
+8	2	fb:cell.engineers	Engineers	engineers	engineer	NNS	O						
+8	3	fb:cell.1824	1824	1824	1824	CD	DATE	1824	1824.0	1824-xx-xx			
+8	4	fb:cell.private_non_sectarian	Private/Non-sectarian	private\\/non|sectarian	Private\\/Non|sectarian	NNP|NN	O|O	|				Private|Non-sectarian	fb:part.private|fb:part.non_sectarian
+8	5	fb:cell.6_376	6,376	6,376	6,376	CD	NUMBER	6376.0	6376.0				
+8	6	fb:cell.liberty_league_d_iii	Liberty League (D-III)	liberty|league|-lrb-|d|iii|-rrb-	Liberty|League|-lrb-|D|III|-rrb-	NNP|NNP|-LRB-|NNP|NNP|-RRB-	MISC|MISC|O|O|O|O	|||||					
+9	0	fb:cell.st_lawrence_university	St. Lawrence University	st.|lawrence|university	St.|Lawrence|University	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+9	1	fb:cell.canton_new_york	Canton, New York	canton|,|new|york	Canton|,|New|York	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Canton|New York	fb:part.canton|fb:part.new_york
+9	2	fb:cell.saints	Saints	saints	Saints	NNP	O						
+9	3	fb:cell.1856	1856	1856	1856	CD	DATE	1856	1856.0	1856-xx-xx			
+9	4	fb:cell.non_denominational_founded_by_universalist_church_of_america	Non-denominational, founded by Universalist Church of America	non|denominational|,|founded|by|universalist|church|of|america	non|denominational|,|found|by|Universalist|Church|of|America	JJ|JJ|,|VBN|IN|NNP|NNP|IN|NNP	O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||||				Non-denominational|founded by Universalist Church of America	fb:part.non_denominational|fb:part.founded_by_universalist_church_of_america
+9	5	fb:cell.2_100	2,100	2,100	2,100	CD	NUMBER	2100.0	2100.0				
+9	6	fb:cell.liberty_league_d_iii	Liberty League (D-III)	liberty|league|-lrb-|d|iii|-rrb-	Liberty|League|-lrb-|D|III|-rrb-	NNP|NNP|-LRB-|NNP|NNP|-RRB-	MISC|MISC|O|O|O|O	|||||					
+10	0	fb:cell.union_college	Union College	union|college	Union|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+10	1	fb:cell.schenectady_new_york	Schenectady, New York	schenectady|,|new|york	Schenectady|,|New|York	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Schenectady|New York	fb:part.schenectady|fb:part.new_york
+10	2	fb:cell.dutchmen	Dutchmen	dutchmen	dutchman	NNS	MISC						
+10	3	fb:cell.1795	1795	1795	1795	CD	DATE	1795	1795.0	1795-xx-xx			
+10	4	fb:cell.private_non_sectarian	Private/Non-sectarian	private\\/non|sectarian	Private\\/Non|sectarian	NNP|NN	O|O	|				Private|Non-sectarian	fb:part.private|fb:part.non_sectarian
+10	5	fb:cell.2_100	2,100	2,100	2,100	CD	NUMBER	2100.0	2100.0				
+10	6	fb:cell.liberty_league_d_iii	Liberty League (D-III)	liberty|league|-lrb-|d|iii|-rrb-	Liberty|League|-lrb-|D|III|-rrb-	NNP|NNP|-LRB-|NNP|NNP|-RRB-	MISC|MISC|O|O|O|O	|||||					
+11	0	fb:cell.yale_university	Yale University	yale|university	Yale|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+11	1	fb:cell.new_haven_connecticut	New Haven, Connecticut	new|haven|,|connecticut	New|Haven|,|Connecticut	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				New Haven|Connecticut	fb:part.new_haven|fb:part.connecticut
+11	2	fb:cell.bulldogs	Bulldogs	bulldogs	Bulldogs	NNPS	O						
+11	3	fb:cell.1701	1701	1701	1701	CD	DATE	1701	1701.0	1701-xx-xx			
+11	4	fb:cell.private_congregationalist	Private/Congregationalist	private\\/congregationalist	Private\\/Congregationalist	NNP	O					Private|Congregationalist	fb:part.private|fb:part.congregationalist
+11	5	fb:cell.11_483	11,483	11,483	11,483	CD	NUMBER	11483.0	11483.0				
+11	6	fb:cell.ivy_league	Ivy League	ivy|league	Ivy|League	NNP|NNP	MISC|MISC	|					

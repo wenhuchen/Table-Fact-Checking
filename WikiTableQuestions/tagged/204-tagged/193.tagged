@@ -1,0 +1,181 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.artist	Artist	artist	Artist	NNP	O						
+-1	2	fb:row.row.album	Album	album	album	NN	O						
+-1	3	fb:row.row.chart_position	Chart Position	chart|position	chart|position	NN|NN	O|O	|					
+-1	4	fb:row.row.role	Role	role	role	NN	O						
+0	0	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+0	1	fb:cell.eddie_harris	Eddie Harris	eddie|harris	Eddie|Harris	NNP|NNP	PERSON|PERSON	|					
+0	2	fb:cell._exodus_single	“Exodus” (single)	``|exodus|''|-lrb-|single|-rrb-	``|Exodus|''|-lrb-|single|-rrb-	``|NNP|''|-LRB-|JJ|-RRB-	O|O|O|O|O|O	|||||				“Exodus” (single)	fb:part._exodus_single
+0	3	fb:cell._16_r_b_36_us	#16 R&B, #36 US	#|16|r&b|,|#|36|us	#|16|r&b|,|#|36|US	#|CD|NN|,|#|CD|NNP	MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£16.0|£16.0|||£36.0|£36.0|	16.0		36.0	#16 R&B|#36 US	fb:part._16_r_b|fb:part._36_us
+0	4	fb:cell.remastering_engineer	Remastering Engineer	remastering|engineer	remaster|engineer	VBG|NN	O|O	|				Remastering Engineer	fb:part.remastering_engineer
+1	0	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+1	1	fb:cell.eddie_harris	Eddie Harris	eddie|harris	Eddie|Harris	NNP|NNP	PERSON|PERSON	|					
+1	2	fb:cell._it_s_crazy_single	“It’s Crazy” (single)	``|it|'s|crazy|''|-lrb-|single|-rrb-	``|it|be|Crazy|''|-lrb-|single|-rrb-	``|PRP|VBZ|NNP|''|-LRB-|JJ|-RRB-	O|O|O|O|O|O|O|O	|||||||				“It’s Crazy” (single)	fb:part._it_s_crazy_single
+1	3	fb:cell._88_us	#88 US	#|88|us	#|88|US	#|CD|NNP	MONEY|MONEY|LOCATION	£88.0|£88.0|	88.0			#88 US	fb:part._88_us
+1	4	fb:cell.remastering_engineer	Remastering Engineer	remastering|engineer	remaster|engineer	VBG|NN	O|O	|				Remastering Engineer	fb:part.remastering_engineer
+2	0	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+2	1	fb:cell.eddie_harris_les_mccann	Eddie Harris & Les McCann	eddie|harris|&|les|mccann	Eddie|Harris|&|Les|McCann	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||					
+2	2	fb:cell.swiss_movement	Swiss Movement	swiss|movement	swiss|Movement	JJ|NNP	O|O	|				Swiss Movement	fb:part.swiss_movement
+2	3	fb:cell._1_jazz_2_r_b_29_us	#1 Jazz, #2 R&B, #29 US	#|1|jazz|,|#|2|r&b|,|#|29|us	#|1|jazz|,|#|2|r&b|,|#|29|US	#|CD|NN|,|#|CD|NN|,|#|CD|NNP	MONEY|MONEY|ORGANIZATION|O|MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£1.0|£1.0|||£2.0|£2.0|||£29.0|£29.0|	1.0		2.0	#1 Jazz|#2 R&B|#29 US	fb:part._1_jazz|fb:part._2_r_b|fb:part._29_us
+2	4	fb:cell.remixing_remastering_engineer	Remixing & Remastering Engineer	remixing|&|remastering|engineer	Remixing|&|Remastering|Engineer	NNP|CC|NNP|NNP	O|O|O|O	|||				Remixing & Remastering Engineer	fb:part.remixing_remastering_engineer
+3	0	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+3	1	fb:cell.r_b_greaves	R.B. Greaves	r.b.|greaves	R.B.|Greaves	NNP|NNP	PERSON|PERSON	|				R.B. Greaves	fb:part.r_b_greaves
+3	2	fb:cell.r_b_greaves	R.B. Greaves	r.b.|greaves	R.B.|Greaves	NNP|NNP	PERSON|PERSON	|				R.B. Greaves	fb:part.r_b_greaves
+3	3	fb:cell._24_r_b_85_us	#24 R&B, #85 US	#|24|r&b|,|#|85|us	#|24|r&b|,|#|85|US	#|CD|NN|,|#|CD|NNP	MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£24.0|£24.0|||£85.0|£85.0|	24.0		85.0	#24 R&B|#85 US	fb:part._24_r_b|fb:part._85_us
+3	4	fb:cell.mixing_engineer	Mixing Engineer	mixing|engineer	mix|engineer	VBG|NN	O|O	|				Mixing Engineer	fb:part.mixing_engineer
+4	0	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+4	1	fb:cell.eddie_harris_les_mccann	Eddie Harris & Les McCann	eddie|harris|&|les|mccann	Eddie|Harris|&|Les|McCann	NNP|NNP|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||					
+4	2	fb:cell.second_movement	Second Movement	second|movement	second|Movement	JJ|NNP	ORDINAL|O	2.0|				Second Movement	fb:part.second_movement
+4	3	fb:cell._1_jazz_41_us	#1 Jazz, # 41 US	#|1|jazz|,|#|41|us	#|1|jazz|,|#|41|US	#|CD|NN|,|#|CD|NNP	MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£1.0|£1.0|||£41.0|£41.0|	1.0		41.0	#1 Jazz|# 41 US	fb:part._1_jazz|fb:part._41_us
+4	4	fb:cell.recording_and_remastering_engineer	Recording and Remastering Engineer	recording|and|remastering|engineer	Recording|and|Remastering|Engineer	NNP|CC|NNP|NNP	O|O|O|O	|||				Recording and Remastering Engineer	fb:part.recording_and_remastering_engineer
+5	0	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+5	1	fb:cell.les_mccann	Les McCann	les|mccann	Les|McCann	NNP|NNP	PERSON|PERSON	|					
+5	2	fb:cell.invitation_to_openness	Invitation to Openness	invitation|to|openness	invitation|to|openness	NN|TO|NN	O|O|O	||				Invitation to Openness	fb:part.invitation_to_openness
+5	3	fb:cell._8_jazz	#8 Jazz	#|8|jazz	#|8|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£8.0|£8.0|	8.0			#8 Jazz	fb:part._8_jazz
+5	4	fb:cell.remastering_engineer	Remastering Engineer	remastering|engineer	remaster|engineer	VBG|NN	O|O	|				Remastering Engineer	fb:part.remastering_engineer
+6	0	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+6	1	fb:cell.donny_hathaway	Donny Hathaway	donny|hathaway	Donny|Hathaway	NNP|NNP	PERSON|PERSON	|				Donny Hathaway	fb:part.donny_hathaway
+6	2	fb:cell.donny_hathaway	Donny Hathaway	donny|hathaway	Donny|Hathaway	NNP|NNP	PERSON|PERSON	|				Donny Hathaway	fb:part.donny_hathaway
+6	3	fb:cell._6_r_b_89_us	#6 R&B, #89 US	#|6|r&b|,|#|89|us	#|6|r&b|,|#|89|US	#|CD|NN|,|#|CD|NNP	MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£6.0|£6.0|||£89.0|£89.0|	6.0		89.0	#6 R&B|#89 US	fb:part._6_r_b|fb:part._89_us
+6	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+7	0	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+7	1	fb:cell.roberta_flack_donny_hathaway	Roberta Flack & Donny Hathaway	roberta|flack|&|donny|hathaway	Roberta|Flack|&|Donny|Hathaway	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Roberta Flack & Donny Hathaway	fb:part.roberta_flack_donny_hathaway
+7	2	fb:cell.roberta_flack_donny_hathaway	Roberta Flack & Donny Hathaway	roberta|flack|&|donny|hathaway	Roberta|Flack|&|Donny|Hathaway	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Roberta Flack & Donny Hathaway	fb:part.roberta_flack_donny_hathaway
+7	3	fb:cell._3_us_2_r_b_10_jazz	#3 US, #2 R&B, #10 Jazz	#|3|us|,|#|2|r&b|,|#|10|jazz	#|3|US|,|#|2|r&b|,|#|10|jazz	#|CD|NNP|,|#|CD|NN|,|#|CD|NN	MONEY|MONEY|LOCATION|O|MONEY|MONEY|O|O|MONEY|MONEY|MONEY	£3.0|£3.0|||£2.0|£2.0|||£10.0|£10.0|£10.0	3.0		2.0	#3 US|#2 R&B|#10 Jazz	fb:part._3_us|fb:part._2_r_b|fb:part._10_jazz
+7	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+8	0	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+8	1	fb:cell.cream	Cream	cream	cream	NN	O						
+8	2	fb:cell.live_cream_volume_ii	Live Cream Volume II	live|cream|volume|ii	Live|cream|volume|ii	NNP|NN|NN|CD	O|O|O|NUMBER	|||0.0				Live Cream Volume II	fb:part.live_cream_volume_ii
+8	3	fb:cell._27_us	#27 US	#|27|us	#|27|US	#|CD|NNP	MONEY|MONEY|LOCATION	£27.0|£27.0|	27.0			#27 US	fb:part._27_us
+8	4	fb:cell.remixing_engineer	Remixing Engineer	remixing|engineer	remix|engineer	VBG|NN	O|O	|				Remixing Engineer	fb:part.remixing_engineer
+9	0	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+9	1	fb:cell.herbie_mann	Herbie Mann	herbie|mann	Herbie|Mann	NNP|NNP	PERSON|PERSON	|					
+9	2	fb:cell.hold_on_i_m_coming	Hold On, I’m Coming	hold|on|,|i|'m|coming	hold|on|,|I|be|come	VB|IN|,|PRP|VBP|VBG	O|O|O|O|O|O	|||||				Hold On|I’m Coming	fb:part.hold_on|fb:part.i_m_coming
+9	3	fb:cell._7_jazz	#7 Jazz	#|7|jazz	#|7|jazz	#|CD|NN	MONEY|MONEY|O	£7.0|£7.0|	7.0			#7 Jazz	fb:part._7_jazz
+9	4	fb:cell.mixing_engineer	Mixing Engineer	mixing|engineer	mix|engineer	VBG|NN	O|O	|				Mixing Engineer	fb:part.mixing_engineer
+10	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+10	1	fb:cell.bette_midler	Bette Midler	bette|midler	Bette|Midler	NNP|NNP	PERSON|PERSON	|				Bette Midler	fb:part.bette_midler
+10	2	fb:cell.bette_midler	Bette Midler	bette|midler	Bette|Midler	NNP|NNP	PERSON|PERSON	|				Bette Midler	fb:part.bette_midler
+10	3	fb:cell._6_us	#6 US	#|6|us	#|6|US	#|CD|NNP	MONEY|MONEY|LOCATION	£6.0|£6.0|	6.0			#6 US	fb:part._6_us
+10	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+11	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+11	1	fb:cell.hall_oates	Hall & Oates	hall|&|oates	Hall|&|Oates	NNP|CC|NNP	O|O|O	||					
+11	2	fb:cell.abandoned_luncheonette	Abandoned Luncheonette	abandoned|luncheonette	abandon|luncheonette	VBN|NN	O|O	|				Abandoned Luncheonette	fb:part.abandoned_luncheonette
+11	3	fb:cell._33_us	#33 US	#|33|us	#|33|US	#|CD|NNP	MONEY|MONEY|LOCATION	£33.0|£33.0|	33.0			#33 US	fb:part._33_us
+11	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+12	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+12	1	fb:cell.willie_nelson	Willie Nelson	willie|nelson	Willie|Nelson	NNP|NNP	PERSON|PERSON	|					
+12	2	fb:cell.shotgun_willie	Shotgun Willie	shotgun|willie	Shotgun|Willie	NNP|NNP	O|O	|				Shotgun Willie	fb:part.shotgun_willie
+12	3	fb:cell._41_us	#41 US	#|41|us	#|41|US	#|CD|NNP	MONEY|MONEY|LOCATION	£41.0|£41.0|	41.0			#41 US	fb:part._41_us_2
+12	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+13	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+13	1	fb:cell.les_mccann	Les McCann	les|mccann	Les|McCann	NNP|NNP	PERSON|PERSON	|					
+13	2	fb:cell.layers	Layers	layers	layer	NNS	O					Layers	fb:part.layers
+13	3	fb:cell._5_jazz	#5 Jazz	#|5|jazz	#|5|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£5.0|£5.0|	5.0			#5 Jazz	fb:part._5_jazz
+13	4	fb:cell.remastering_engineer	Remastering Engineer	remastering|engineer	remaster|engineer	VBG|NN	O|O	|				Remastering Engineer	fb:part.remastering_engineer
+14	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+14	1	fb:cell.the_modern_jazz_quartet	The Modern Jazz Quartet	the|modern|jazz|quartet	the|Modern|jazz|quartet	DT|NNP|NN|NN	O|MISC|MISC|MISC	|||					
+14	2	fb:cell.blues_on_bach	Blues on Bach	blues|on|bach	blues|on|Bach	NNS|IN|NNP	O|O|PERSON	||				Blues on Bach	fb:part.blues_on_bach
+14	3	fb:cell._34_jazz	#34 Jazz	#|34|jazz	#|34|jazz	#|CD|NN	MONEY|MONEY|O	£34.0|£34.0|	34.0			#34 Jazz	fb:part._34_jazz
+14	4	fb:cell.recording_and_mixing_engineer	Recording and Mixing Engineer	recording|and|mixing|engineer	Recording|and|Mixing|Engineer	NNP|CC|NNP|NNP	O|O|O|O	|||				Recording and Mixing Engineer	fb:part.recording_and_mixing_engineer
+15	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+15	1	fb:cell.donny_hathaway	Donny Hathaway	donny|hathaway	Donny|Hathaway	NNP|NNP	PERSON|PERSON	|				Donny Hathaway	fb:part.donny_hathaway
+15	2	fb:cell.extension_of_a_man	Extension of a Man	extension|of|a|man	Extension|of|a|man	NNP|IN|DT|NN	O|O|O|O	|||				Extension of a Man	fb:part.extension_of_a_man
+15	3	fb:cell._18_r_b_69_us	#18 R&B, #69 US	#|18|r&b|,|#|69|us	#|18|r&b|,|#|69|US	#|CD|NN|,|#|CD|NNP	MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£18.0|£18.0|||£69.0|£69.0|	18.0		69.0	#18 R&B|#69 US	fb:part._18_r_b|fb:part._69_us
+15	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+16	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+16	1	fb:cell.bee_gees	Bee Gees	bee|gees	bee|gee	NN|NNS	O|O	|					
+16	2	fb:cell.mr_natural	Mr. Natural	mr.|natural	Mr.|Natural	NNP|NNP	O|PERSON	|				Mr. Natural	fb:part.mr_natural
+16	3	fb:cell._178_us	#178 US	#|178|us	#|178|US	#|CD|NNP	MONEY|MONEY|LOCATION	£178.0|£178.0|	178.0			#178 US	fb:part._178_us
+16	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+17	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+17	1	fb:cell.the_modern_jazz_quartet	The Modern Jazz Quartet	the|modern|jazz|quartet	the|Modern|jazz|quartet	DT|NNP|NN|NN	O|MISC|MISC|MISC	|||					
+17	2	fb:cell.the_complete_last_concert	The Complete Last Concert	the|complete|last|concert	the|complete|last|concert	DT|JJ|JJ|NN	O|O|O|O	|||				The Complete Last Concert	fb:part.the_complete_last_concert
+17	3	fb:cell._34_jazz	#34 Jazz	#|34|jazz	#|34|jazz	#|CD|NN	MONEY|MONEY|O	£34.0|£34.0|	34.0			#34 Jazz	fb:part._34_jazz
+17	4	fb:cell.mixing_engineer	Mixing Engineer	mixing|engineer	mix|engineer	VBG|NN	O|O	|				Mixing Engineer	fb:part.mixing_engineer
+18	0	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+18	1	fb:cell.the_rolling_stones	The Rolling Stones	the|rolling|stones	the|Rolling|Stones	DT|NNP|NNP	O|O|O	||					
+18	2	fb:cell.black_and_blue	Black and Blue	black|and|blue	black|and|blue	JJ|CC|JJ	O|O|O	||				Black and Blue	fb:part.black_and_blue
+18	3	fb:cell._1_us	#1 US	#|1|us	#|1|US	#|CD|NNP	MONEY|MONEY|LOCATION	£1.0|£1.0|	1.0			#1 US	fb:part._1_us
+18	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+19	0	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+19	1	fb:cell.willie_nelson	Willie Nelson	willie|nelson	Willie|Nelson	NNP|NNP	PERSON|PERSON	|					
+19	2	fb:cell.the_troublemaker	The Troublemaker	the|troublemaker	the|troublemaker	DT|NN	O|O	|				The Troublemaker	fb:part.the_troublemaker
+19	3	fb:cell._1_country_60_us	#1 Country, #60 US	#|1|country|,|#|60|us	#|1|country|,|#|60|US	#|CD|NN|,|#|CD|NNP	MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£1.0|£1.0|||£60.0|£60.0|	1.0		60.0	#1 Country|#60 US	fb:part._1_country|fb:part._60_us
+19	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+20	0	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+20	1	fb:cell.ben_e_king	Ben E. King	ben|e.|king	Ben|E.|King	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+20	2	fb:cell.benny_us	Benny & Us	benny|&|us	Benny|&|Us	NNP|CC|NNP	PERSON|O|O	||				Benny & Us	fb:part.benny_us
+20	3	fb:cell._14_r_b_33_us	#14 R&B, #33 US	#|14|r&b|,|#|33|us	#|14|r&b|,|#|33|US	#|CD|NN|,|#|CD|NNP	MONEY|MONEY|O|O|MONEY|MONEY|LOCATION	£14.0|£14.0|||£33.0|£33.0|	14.0		33.0	#14 R&B|#33 US	fb:part._14_r_b|fb:part._33_us
+20	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+21	0	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+21	1	fb:cell.bette_midler	Bette Midler	bette|midler	Bette|Midler	NNP|NNP	PERSON|PERSON	|				Bette Midler	fb:part.bette_midler
+21	2	fb:cell.thighs_and_whispers	Thighs and Whispers	thighs|and|whispers	thigh|and|whisper	NNS|CC|NNS	O|O|O	||				Thighs and Whispers	fb:part.thighs_and_whispers
+21	3	fb:cell._65_us	#65 US	#|65|us	#|65|US	#|CD|NNP	MONEY|MONEY|LOCATION	£65.0|£65.0|	65.0			#65 US	fb:part._65_us
+21	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+22	0	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+22	1	fb:cell.paul_simon	Paul Simon	paul|simon	Paul|Simon	NNP|NNP	PERSON|PERSON	|					
+22	2	fb:cell.hearts_and_bones	Hearts and Bones	hearts|and|bones	Hearts|and|Bones	NNPS|CC|NNPS	O|O|O	||				Hearts and Bones	fb:part.hearts_and_bones
+22	3	fb:cell._35_us	#35 US	#|35|us	#|35|US	#|CD|NNP	MONEY|MONEY|LOCATION	£35.0|£35.0|	35.0			#35 US	fb:part._35_us
+22	4	fb:cell.recording_engineer	Recording Engineer	recording|engineer	Recording|Engineer	NNP|NNP	O|O	|				Recording Engineer	fb:part.recording_engineer
+23	0	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+23	1	fb:cell.david_fathead_newman	David “Fathead” Newman	david|``|fathead|''|newman	David|``|Fathead|''|Newman	NNP|``|NNP|''|NNP	PERSON|O|O|O|PERSON	||||					
+23	2	fb:cell.bigger_better	Bigger & Better	bigger|&|better	bigger|&|Better	JJR|CC|NNP	O|O|O	||				Bigger & Better	fb:part.bigger_better
+23	3	fb:cell._10_jazz_42_r_b	#10 Jazz, #42 R&B	#|10|jazz|,|#|42|r&b	#|10|jazz|,|#|42|r&b	#|CD|NN|,|#|CD|NN	MONEY|MONEY|O|O|MONEY|MONEY|O	£10.0|£10.0|||£42.0|£42.0|	10.0		42.0	#10 Jazz|#42 R&B	fb:part._10_jazz|fb:part._42_r_b
+23	4	fb:cell.remastering_engineer	Remastering Engineer	remastering|engineer	remaster|engineer	VBG|NN	O|O	|				Remastering Engineer	fb:part.remastering_engineer
+24	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+24	1	fb:cell.various_artists	Various Artists	various|artists	various|artist	JJ|NNS	O|O	|					
+24	2	fb:cell.jazz_for_the_open_road	Jazz for the Open Road	jazz|for|the|open|road	jazz|for|the|Open|Road	NN|IN|DT|NNP|NNP	O|O|O|MISC|MISC	||||				Jazz for the Open Road	fb:part.jazz_for_the_open_road
+24	3	fb:cell._1_jazz	#1 Jazz	#|1|jazz	#|1|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£1.0|£1.0|	1.0			#1 Jazz	fb:part._1_jazz
+24	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer
+25	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+25	1	fb:cell.various_artists	Various Artists	various|artists	various|artist	JJ|NNS	O|O	|					
+25	2	fb:cell.jazz_for_the_quiet_times	Jazz for the Quiet Times	jazz|for|the|quiet|times	jazz|for|the|Quiet|Times	NN|IN|DT|NNP|NNP	O|O|O|O|O	||||				Jazz for the Quiet Times	fb:part.jazz_for_the_quiet_times
+25	3	fb:cell._1_jazz	#1 Jazz	#|1|jazz	#|1|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£1.0|£1.0|	1.0			#1 Jazz	fb:part._1_jazz
+25	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer
+26	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+26	1	fb:cell.various_artists	Various Artists	various|artists	various|artist	JJ|NNS	O|O	|					
+26	2	fb:cell.jazz_for_when_you_re_alone	Jazz for When You’re Alone	jazz|for|when|you|'re|alone	jazz|for|when|you|be|alone	NN|IN|WRB|PRP|VBP|RB	O|O|O|O|O|O	|||||				Jazz for When You’re Alone	fb:part.jazz_for_when_you_re_alone
+26	3	fb:cell._1_jazz	#1 Jazz	#|1|jazz	#|1|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£1.0|£1.0|	1.0			#1 Jazz	fb:part._1_jazz
+26	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer
+27	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+27	1	fb:cell.various_artists	Various Artists	various|artists	various|artist	JJ|NNS	O|O	|					
+27	2	fb:cell.jazz_for_a_lazy_day	Jazz for a Lazy Day	jazz|for|a|lazy|day	jazz|for|a|lazy|day	NN|IN|DT|JJ|NN	O|O|O|MISC|DURATION	||||				Jazz for a Lazy Day	fb:part.jazz_for_a_lazy_day
+27	3	fb:cell._4_jazz	#4 Jazz	#|4|jazz	#|4|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£4.0|£4.0|	4.0			#4 Jazz	fb:part._4_jazz
+27	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer
+28	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+28	1	fb:cell.various_artists	Various Artists	various|artists	various|artist	JJ|NNS	O|O	|					
+28	2	fb:cell.jazz_for_a_rainy_afternoon	Jazz for a Rainy Afternoon	jazz|for|a|rainy|afternoon	jazz|for|a|Rainy|afternoon	NN|IN|DT|NNP|NN	O|O|O|O|TIME	||||TAF				Jazz for a Rainy Afternoon	fb:part.jazz_for_a_rainy_afternoon
+28	3	fb:cell._1_jazz	#1 Jazz	#|1|jazz	#|1|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£1.0|£1.0|	1.0			#1 Jazz	fb:part._1_jazz
+28	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer
+29	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+29	1	fb:cell.jane_monheit	Jane Monheit	jane|monheit	Jane|Monheit	NNP|NNP	PERSON|PERSON	|					
+29	2	fb:cell.never_never_land	Never Never Land	never|never|land	never|never|land	RB|RB|VB	O|O|O	||				Never Never Land	fb:part.never_never_land
+29	3	fb:cell._2_jazz	#2 Jazz	#|2|jazz	#|2|jazz	#|CD|NN	MONEY|MONEY|O	£2.0|£2.0|	2.0			#2 Jazz	fb:part._2_jazz
+29	4	fb:cell.mixing_mastering_engineer	Mixing & Mastering Engineer	mixing|&|mastering|engineer	Mixing|&|Mastering|Engineer	NNP|CC|NNP|NNP	O|O|O|O	|||				Mixing & Mastering Engineer	fb:part.mixing_mastering_engineer
+30	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+30	1	fb:cell.various_artists	Various Artists	various|artists	various|artist	JJ|NNS	O|O	|					
+30	2	fb:cell.jazz_for_when_you_re_in_love	Jazz for When You’re in Love	jazz|for|when|you|'re|in|love	jazz|for|when|you|be|in|love	NN|IN|WRB|PRP|VBP|IN|NN	O|O|O|O|O|O|O	||||||				Jazz for When You’re in Love	fb:part.jazz_for_when_you_re_in_love
+30	3	fb:cell._9_jazz	#9 Jazz	#|9|jazz	#|9|jazz	#|CD|NN	MONEY|MONEY|O	£9.0|£9.0|	9.0			#9 Jazz	fb:part._9_jazz
+30	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer
+31	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+31	1	fb:cell.jane_monheit	Jane Monheit	jane|monheit	Jane|Monheit	NNP|NNP	PERSON|PERSON	|					
+31	2	fb:cell.come_dream_with_me	Come Dream with Me	come|dream|with|me	come|dream|with|I	VB|NN|IN|PRP	O|O|O|O	|||				Come Dream with Me	fb:part.come_dream_with_me
+31	3	fb:cell._1_jazz	#1 Jazz	#|1|jazz	#|1|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£1.0|£1.0|	1.0			#1 Jazz	fb:part._1_jazz
+31	4	fb:cell.mixing_mastering_engineer	Mixing & Mastering Engineer	mixing|&|mastering|engineer	Mixing|&|Mastering|Engineer	NNP|CC|NNP|NNP	O|O|O|O	|||				Mixing & Mastering Engineer	fb:part.mixing_mastering_engineer
+32	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+32	1	fb:cell.jane_monheit	Jane Monheit	jane|monheit	Jane|Monheit	NNP|NNP	PERSON|PERSON	|					
+32	2	fb:cell.in_the_sun	In the Sun	in|the|sun	in|the|Sun	IN|DT|NNP	O|O|O	||				In the Sun	fb:part.in_the_sun
+32	3	fb:cell._2_jazz	#2 Jazz	#|2|jazz	#|2|jazz	#|CD|NN	MONEY|MONEY|O	£2.0|£2.0|	2.0			#2 Jazz	fb:part._2_jazz
+32	4	fb:cell.recording_mixing_mastering_engineer	Recording, Mixing & Mastering Engineer	recording|,|mixing|&|mastering|engineer	Recording|,|Mixing|&|Mastering|Engineer	NNP|,|NNP|CC|NNP|NNP	O|O|O|O|O|O	|||||				Recording|Mixing & Mastering Engineer	fb:part.recording|fb:part.mixing_mastering_engineer
+33	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+33	1	fb:cell.various_artists	Various Artists	various|artists	various|artist	JJ|NNS	O|O	|					
+33	2	fb:cell.jazz_for_those_peaceful_moments	Jazz for Those Peaceful Moments	jazz|for|those|peaceful|moments	jazz|for|those|peaceful|moment	NN|IN|DT|JJ|NNS	O|O|O|O|O	||||				Jazz for Those Peaceful Moments	fb:part.jazz_for_those_peaceful_moments
+33	3	fb:cell._4_jazz	#4 Jazz	#|4|jazz	#|4|jazz	#|CD|NN	MONEY|MONEY|ORGANIZATION	£4.0|£4.0|	4.0			#4 Jazz	fb:part._4_jazz
+33	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer
+34	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+34	1	fb:cell.mocean_worker	Mocean Worker	mocean|worker	mocean|worker	JJ|NN	MISC|MISC	|					
+34	2	fb:cell.cinco_de_mowo	Cinco de Mowo!	cinco|de|mowo|!	Cinco|de|Mowo|!	NNP|NNP|NNP|.	O|O|O|O	|||				Cinco de Mowo!	fb:part.cinco_de_mowo
+34	3	fb:cell._16_electronic	#16 Electronic	#|16|electronic	#|16|electronic	#|CD|JJ	MONEY|MONEY|O	£16.0|£16.0|	16.0			#16 Electronic	fb:part._16_electronic
+34	4	fb:cell.mastering_engineer	Mastering Engineer	mastering|engineer	master|engineer	VBG|NN	O|O	|				Mastering Engineer	fb:part.mastering_engineer

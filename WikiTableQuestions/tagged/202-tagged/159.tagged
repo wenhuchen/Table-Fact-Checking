@@ -1,0 +1,61 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.character	Character	character	character	NN	O						
+-1	1	fb:row.row.null	М	м	м	NN	O						
+-1	2	fb:row.row.null_2	М	м	м	NN	O						
+-1	3	fb:row.row.null_3	м	м	м	NN	O						
+-1	4	fb:row.row.null_4	м	м	м	NN	O						
+0	0	fb:cell.unicode_name	Unicode name	unicode|name	Unicode|name	NNP|NN	ORGANIZATION|O	|					
+0	1	fb:cell.cyrillic_capital_letter_em	CYRILLIC CAPITAL LETTER EM	cyrillic|capital|letter|em	CYRILLIC|CAPITAL|LETTER|EM	NNP|NNP|NNP|NNP	MISC|O|O|O	|||					
+0	2	fb:cell.cyrillic_capital_letter_em	CYRILLIC CAPITAL LETTER EM	cyrillic|capital|letter|em	CYRILLIC|CAPITAL|LETTER|EM	NNP|NNP|NNP|NNP	MISC|O|O|O	|||					
+0	3	fb:cell.cyrillic_small_letter_em	CYRILLIC SMALL LETTER EM	cyrillic|small|letter|em	CYRILLIC|SMALL|LETTER|EM	NNP|NNP|NNP|NNP	MISC|O|O|O	|||					
+0	4	fb:cell.cyrillic_small_letter_em	CYRILLIC SMALL LETTER EM	cyrillic|small|letter|em	CYRILLIC|SMALL|LETTER|EM	NNP|NNP|NNP|NNP	MISC|O|O|O	|||					
+1	0	fb:cell.encodings	Encodings	encodings	encoding	NNS	O						
+1	1	fb:cell.decimal	decimal	decimal	decimal	NN	O						
+1	2	fb:cell.hex	hex	hex	hex	NN	O						
+1	3	fb:cell.decimal	decimal	decimal	decimal	NN	O						
+1	4	fb:cell.hex	hex	hex	hex	NN	O						
+2	0	fb:cell.unicode	Unicode	unicode	Unicode	NNP	ORGANIZATION						
+2	1	fb:cell.1052	1052	1052	1052	CD	DATE	1052	1052.0	1052-xx-xx			
+2	2	fb:cell.u_041c	U+041C	u|+041|c	U|+041|c	NNP|CD|NN	O|NUMBER|O	|41.0|	41.0				
+2	3	fb:cell.1084	1084	1084	1084	CD	DATE	1084	1084.0	1084-xx-xx			
+2	4	fb:cell.u_043c	U+043C	u|+043|c	U|+043|c	NNP|CD|NN	O|NUMBER|O	|43.0|	43.0				
+3	0	fb:cell.utf_8	UTF-8	utf-8	utf-8	NN	O		8.0				
+3	1	fb:cell.208_156	208 156	208|156	208|156	CD|CD	NUMBER|NUMBER	208.0|208.0	208156.0				
+3	2	fb:cell.d0_9c	D0 9C	d0|9c	d0|9c	NN|NN	O|O	|	9.0				
+3	3	fb:cell.208_188	208 188	208|188	208|188	CD|CD	NUMBER|NUMBER	208.0|208.0	208188.0				
+3	4	fb:cell.d0_bc	D0 BC	d0|bc	d0|bc	NN|NN	O|O	|	0.0				
+4	0	fb:cell.numeric_character_reference	Numeric character reference	numeric|character|reference	numeric|character|reference	JJ|NN|NN	MISC|O|O	||					
+4	1	fb:cell._1052	&#1052;	&#1052;	&#1052;	CD	NUMBER		1052.0				
+4	2	fb:cell._x41c	&#x41C;	&|#x|41c|;	&|#x|41c|;	CC|NN|NN|:	O|O|O|O	|||	41.0				
+4	3	fb:cell._1084	&#1084;	&#1084;	&#1084;	CD	NUMBER		1084.0				
+4	4	fb:cell._x43c	&#x43C;	&|#x|43c|;	&|#x|43c|;	CC|NN|NN|:	O|O|O|O	|||	43.0				
+5	0	fb:cell.koi8_r_and_koi8_u	KOI8-R and KOI8-U	koi8|r|and|koi8|u	koi8|r|and|koi8|u	NN|NN|CC|NN|NN	O|O|O|O|O	||||	8.0		8.0		
+5	1	fb:cell.237	237	237	237	CD	NUMBER	237.0	237.0				
+5	2	fb:cell.ed	ED	ed	ed	NN	O						
+5	3	fb:cell.205	205	205	205	CD	NUMBER	205.0	205.0				
+5	4	fb:cell.cd	CD	cd	CD	NNP	O						
+6	0	fb:cell.code_page_855	Code page 855	code|page|855	Code|page|855	NNP|NN|CD	O|O|NUMBER	||855.0	855.0				
+6	1	fb:cell.211	211	211	211	CD	NUMBER	211.0	211.0				
+6	2	fb:cell.d3	D3	d3	d3	NN	O		3.0				
+6	3	fb:cell.210	210	210	210	CD	NUMBER	210.0	210.0				
+6	4	fb:cell.d2	D2	d2	d2	NN	O		2.0				
+7	0	fb:cell.code_page_866	Code page 866	code|page|866	Code|page|866	NNP|NN|CD	O|O|NUMBER	||866.0	866.0				
+7	1	fb:cell.140	140	140	140	CD	NUMBER	140.0	140.0				
+7	2	fb:cell.8c	8C	8c	8c	NN	O		8.0				
+7	3	fb:cell.172	172	172	172	CD	NUMBER	172.0	172.0				
+7	4	fb:cell.ac	AC	ac	ac	NN	O						
+8	0	fb:cell.windows_1251	Windows-1251	windows-1251	windows-1251	NN	O		1251.0				
+8	1	fb:cell.204	204	204	204	CD	NUMBER	204.0	204.0				
+8	2	fb:cell.cc	CC	cc	cc	NN	O						
+8	3	fb:cell.236	236	236	236	CD	NUMBER	236.0	236.0				
+8	4	fb:cell.ec	EC	ec	ec	NN	ORGANIZATION						
+9	0	fb:cell.iso_8859_5	ISO-8859-5	iso-8859-5	iso-8859-5	NN	O		8859.0		5.0		
+9	1	fb:cell.188	188	188	188	CD	NUMBER	188.0	188.0				
+9	2	fb:cell.bc	BC	bc	bc	NN	O						
+9	3	fb:cell.220	220	220	220	CD	NUMBER	220.0	220.0				
+9	4	fb:cell.dc	DC	dc	dc	NNS	O						
+10	0	fb:cell.macintosh_cyrillic	Macintosh Cyrillic	macintosh|cyrillic	Macintosh|Cyrillic	NNP|NNP	O|O	|					
+10	1	fb:cell.140	140	140	140	CD	NUMBER	140.0	140.0				
+10	2	fb:cell.8c	8C	8c	8c	NN	O		8.0				
+10	3	fb:cell.236	236	236	236	CD	NUMBER	236.0	236.0				
+10	4	fb:cell.ec	EC	ec	ec	NN	ORGANIZATION						

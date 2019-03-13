@@ -1,0 +1,745 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.player	Player	player	Player	NNP	O						
+-1	1	fb:row.row.career	Career	career	Career	NNP	O						
+-1	2	fb:row.row.nickname	Nickname	nickname	nickname	NN	O						
+-1	3	fb:row.row.team_inducted_as	Team Inducted As	team|inducted|as	Team|Inducted|as	NNP|NNP|IN	O|O|O	||					
+0	0	fb:cell.hank_aaron	Hank Aaron	hank|aaron	Hank|Aaron	NNP|NNP	PERSON|PERSON	|				Hank Aaron	fb:part.hank_aaron
+0	1	fb:cell.1954_76	1954–76	1954|--|76	1954|--|76	CD|:|CD	DATE|O|NUMBER	1954||76.0	1954.0		76.0	1954–76	fb:part.1954_76
+0	2	fb:cell._hammer_hammerin_hank_or_bad_henry	"Hammer", "Hammerin’ Hank" or "Bad Henry"	``|hammer|''|,|``|hammerin|'|hank|''|or|``|bad|henry|''	``|Hammer|''|,|``|Hammerin|'|Hank|''|or|``|Bad|Henry|''	``|NNP|''|,|``|NNP|''|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||				"Hammer"|"Hammerin’ Hank" or "Bad Henry"	fb:part._hammer|fb:part._hammerin_hank_or_bad_henry
+0	3	fb:cell.milwaukee_braves	Milwaukee Braves	milwaukee|braves	Milwaukee|Braves	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Milwaukee Braves	fb:part.milwaukee_braves
+1	0	fb:cell.grover_cleveland_alexander	Grover Cleveland Alexander	grover|cleveland|alexander	Grover|Cleveland|Alexander	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Grover Cleveland Alexander	fb:part.grover_cleveland_alexander
+1	1	fb:cell.1911_30	1911–30	1911|--|30	1911|--|30	CD|:|CD	DATE|O|NUMBER	1911||30.0	1911.0		30.0	1911–30	fb:part.1911_30
+1	2	fb:cell._old_pete	"Old Pete"	``|old|pete|''	``|old|Pete|''	``|JJ|NNP|''	O|O|O|O	|||				"Old Pete"	fb:part._old_pete
+1	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+2	0	fb:cell.roberto_alomar	Roberto Alomar	roberto|alomar	Roberto|Alomar	NNP|NNP	PERSON|PERSON	|				Roberto Alomar	fb:part.roberto_alomar
+2	1	fb:cell.1988_04	1988–04	1988|--|04	1988|--|04	CD|:|CD	DATE|O|NUMBER	1988||4.0	1988.0		4.0	1988–04	fb:part.1988_04
+2	2	fb:cell._robbie	"Robbie"	``|robbie|''	``|Robbie|''	``|NNP|''	O|O|O	||				"Robbie"	fb:part._robbie
+2	3	fb:cell.toronto_blue_jays	Toronto Blue Jays	toronto|blue|jays	Toronto|Blue|Jays	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Toronto Blue Jays	fb:part.toronto_blue_jays
+3	0	fb:cell.walter_alston	Walter Alston	walter|alston	Walter|Alston	NNP|NNP	PERSON|PERSON	|				Walter Alston	fb:part.walter_alston
+3	1	fb:cell.1954_76	1954–76	1954|--|76	1954|--|76	CD|:|CD	DATE|O|NUMBER	1954||76.0	1954.0		76.0	1954–76	fb:part.1954_76
+3	2	fb:cell._smokey	"Smokey"	``|smokey|''	``|Smokey|''	``|NNP|''	O|O|O	||				"Smokey"	fb:part._smokey
+3	3	fb:cell.los_angeles_dodgers	Los Angeles Dodgers	los|angeles|dodgers	Los|Angeles|Dodgers	NNP|NNP|NNPS	O|O|O	||				Los Angeles Dodgers	fb:part.los_angeles_dodgers
+4	0	fb:cell.sparky_anderson	Sparky Anderson	sparky|anderson	Sparky|Anderson	NNP|NNP	PERSON|PERSON	|				Sparky Anderson	fb:part.sparky_anderson
+4	1	fb:cell.1970_95	1970–95	1970|--|95	1970|--|95	CD|:|CD	DATE|O|NUMBER	1970||95.0	1970.0		95.0	1970–95	fb:part.1970_95
+4	2	fb:cell._sparky_or_captain_hook	"Sparky" or "Captain Hook"	``|sparky|''|or|``|captain|hook|''	``|Sparky|''|or|``|Captain|Hook|''	``|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Sparky" or "Captain Hook"	fb:part._sparky_or_captain_hook
+4	3	fb:cell.cincinnati_reds	Cincinnati Reds	cincinnati|reds	Cincinnati|red	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Cincinnati Reds	fb:part.cincinnati_reds
+5	0	fb:cell.cap_anson	Cap Anson	cap|anson	Cap|Anson	NNP|NNP	O|O	|				Cap Anson	fb:part.cap_anson
+5	1	fb:cell.1871_97	1871–97	1871|--|97	1871|--|97	CD|:|CD	DATE|O|NUMBER	1871||97.0	1871.0		97.0	1871–97	fb:part.1871_97
+5	2	fb:cell._cap_pop_uncle_or_captain	"Cap", "Pop", "Uncle" or "Captain"	``|cap|''|,|``|pop|''|,|``|uncle|''|or|``|captain|''	``|Cap|''|,|``|pop|''|,|``|Uncle|''|or|``|Captain|''	``|NNP|''|,|``|NN|''|,|``|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				"Cap"|"Pop"|"Uncle" or "Captain"	fb:part._cap|fb:part._pop|fb:part._uncle_or_captain
+5	3	fb:cell.chicago_white_stockings	Chicago White Stockings	chicago|white|stockings	Chicago|White|Stockings	NNP|NNP|NNPS	LOCATION|O|O	||				Chicago White Stockings	fb:part.chicago_white_stockings
+6	0	fb:cell.luis_aparicio	Luis Aparicio	luis|aparicio	Luis|Aparicio	NNP|NNP	PERSON|PERSON	|				Luis Aparicio	fb:part.luis_aparicio
+6	1	fb:cell.1956_73	1956–73	1956|--|73	1956|--|73	CD|:|CD	DATE|O|NUMBER	1956||73.0	1956.0		73.0	1956–73	fb:part.1956_73
+6	2	fb:cell._little_louie	"Little Louie"	``|little|louie|''	``|little|Louie|''	``|JJ|NNP|''	O|O|O|O	|||				"Little Louie"	fb:part._little_louie
+6	3	fb:cell.chicago_white_sox	Chicago White Sox	chicago|white|sox	Chicago|White|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Chicago White Sox	fb:part.chicago_white_sox
+7	0	fb:cell.luke_appling	Luke Appling	luke|appling	Luke|Appling	NNP|NNP	PERSON|PERSON	|				Luke Appling	fb:part.luke_appling
+7	1	fb:cell.1930_50	1930–50	1930|--|50	1930|--|50	CD|:|CD	DATE|O|NUMBER	1930||50.0	1930.0		50.0	1930–50	fb:part.1930_50
+7	2	fb:cell._old_aches_pains_luscious_luke_fumblefoot_or_kid_boots	"Old Aches & Pains", "Luscious Luke", "Fumblefoot" or "Kid Boots"	``|old|aches|&|pains|''|,|``|luscious|luke|''|,|``|fumblefoot|''|or|``|kid|boots|''	``|Old|Aches|&|Pains|''|,|``|Luscious|Luke|''|,|``|Fumblefoot|''|or|``|Kid|Boots|''	``|NNP|NNP|CC|NNP|''|,|``|NNP|NNP|''|,|``|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||||				"Old Aches & Pains"|"Luscious Luke"|"Fumblefoot" or "Kid Boots"	fb:part._old_aches_pains|fb:part._luscious_luke|fb:part._fumblefoot_or_kid_boots
+7	3	fb:cell.chicago_white_sox	Chicago White Sox	chicago|white|sox	Chicago|White|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Chicago White Sox	fb:part.chicago_white_sox
+8	0	fb:cell.richie_ashburn	Richie Ashburn	richie|ashburn	Richie|Ashburn	NNP|NNP	PERSON|PERSON	|				Richie Ashburn	fb:part.richie_ashburn
+8	1	fb:cell.1948_62	1948–62	1948|--|62	1948|--|62	CD|:|CD	DATE|O|NUMBER	1948||62.0	1948.0		62.0	1948–62	fb:part.1948_62
+8	2	fb:cell._putt_putt_or_whitey	"Putt-Putt" or "Whitey"	``|putt|putt|''|or|``|whitey|''	``|Putt|Putt|''|or|``|Whitey|''	``|NNP|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Putt-Putt" or "Whitey"	fb:part._putt_putt_or_whitey
+8	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+9	0	fb:cell.earl_averill	Earl Averill	earl|averill	Earl|Averill	NNP|NNP	PERSON|PERSON	|				Earl Averill	fb:part.earl_averill
+9	1	fb:cell.1929_41	1929–41	1929|--|41	1929|--|41	CD|:|CD	DATE|O|NUMBER	1929||41.0	1929.0		41.0	1929–41	fb:part.1929_41
+9	2	fb:cell._rock_or_earl_of_snohomish	"Rock" or "Earl of Snohomish"	``|rock|''|or|``|earl|of|snohomish|''	``|Rock|''|or|``|Earl|of|Snohomish|''	``|NNP|''|CC|``|NNP|IN|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"Rock" or "Earl of Snohomish"	fb:part._rock_or_earl_of_snohomish
+9	3	fb:cell.cleveland_indians	Cleveland Indians	cleveland|indians	Cleveland|Indians	NNP|NNPS	O|O	|				Cleveland Indians	fb:part.cleveland_indians
+10	0	fb:cell.frank_baker	Frank Baker	frank|baker	Frank|Baker	NNP|NNP	PERSON|PERSON	|				Frank Baker	fb:part.frank_baker
+10	1	fb:cell.1908_22	1908–22	1908|--|22	1908|--|22	CD|:|CD	DATE|O|NUMBER	1908||22.0	1908.0		22.0	1908–22	fb:part.1908_22
+10	2	fb:cell._home_run	"Home Run"	``|home|run|''	``|Home|Run|''	``|NNP|NNP|''	O|O|O|O	|||				"Home Run"	fb:part._home_run
+10	3	fb:cell.philadelphia_athletics	Philadelphia Athletics	philadelphia|athletics	Philadelphia|Athletics	NNP|NNP	LOCATION|LOCATION	|				Philadelphia Athletics	fb:part.philadelphia_athletics
+11	0	fb:cell.dave_bancroft	Dave Bancroft	dave|bancroft	Dave|Bancroft	NNP|NNP	PERSON|PERSON	|				Dave Bancroft	fb:part.dave_bancroft
+11	1	fb:cell.1915_30	1915–30	1915|--|30	1915|--|30	CD|:|CD	DATE|O|NUMBER	1915||30.0	1915.0		30.0	1915–30	fb:part.1915_30
+11	2	fb:cell._beauty	"Beauty"	``|beauty|''	``|beauty|''	``|NN|''	O|O|O	||				"Beauty"	fb:part._beauty
+11	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+12	0	fb:cell.ernie_banks	Ernie Banks	ernie|banks	Ernie|bank	NNP|NNS	PERSON|PERSON	|				Ernie Banks	fb:part.ernie_banks
+12	1	fb:cell.1953_71	1953–71	1953|--|71	1953|--|71	CD|:|CD	DATE|O|NUMBER	1953||71.0	1953.0		71.0	1953–71	fb:part.1953_71
+12	2	fb:cell._mr_cub	"Mr. Cub"	``|mr.|cub|''	``|Mr.|Cub|''	``|NNP|NNP|''	O|O|O|O	|||				"Mr. Cub"	fb:part._mr_cub
+12	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+13	0	fb:cell.jake_beckley	Jake Beckley	jake|beckley	Jake|Beckley	NNP|NNP	PERSON|PERSON	|				Jake Beckley	fb:part.jake_beckley
+13	1	fb:cell.1888_1907	1888–1907	1888|--|1907	1888|--|1907	CD|:|CD	DATE|DATE|DATE	1888|1888|1907	1888.0		1907.0	1888–1907	fb:part.1888_1907
+13	2	fb:cell._eagle_eye	"Eagle Eye"	``|eagle|eye|''	``|Eagle|Eye|''	``|NNP|NNP|''	O|O|O|O	|||				"Eagle Eye"	fb:part._eagle_eye
+13	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+14	0	fb:cell.james_bell	James Bell	james|bell	James|Bell	NNP|NNP	PERSON|PERSON	|				James Bell	fb:part.james_bell
+14	1	fb:cell.1922_1938_1942_1947_1950	1922–1938, 1942, 1947–1950	1922|--|1938|,|1942|,|1947|--|1950	1922|--|1938|,|1942|,|1947|--|1950	CD|:|CD|,|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1922|1922|1938|1938|1938|1938|1938|1938|1950	1922.0		1.93819421947E11	1922–1938|1942|1947–1950	fb:part.1922_1938|fb:part.1942|fb:part.1947_1950
+14	2	fb:cell._cool_papa	"Cool Papa"	``|cool|papa|''	``|cool|papa|''	``|JJ|NN|''	O|O|O|O	|||				"Cool Papa"	fb:part._cool_papa
+14	3	fb:cell.st_louis_stars	St. Louis Stars	st.|louis|stars	St.|Louis|Stars	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				St. Louis Stars	fb:part.st_louis_stars
+15	0	fb:cell.johnny_bench	Johnny Bench	johnny|bench	Johnny|Bench	NNP|NNP	PERSON|PERSON	|				Johnny Bench	fb:part.johnny_bench
+15	1	fb:cell.1967_83	1967–83	1967|--|83	1967|--|83	CD|:|CD	DATE|O|NUMBER	1967||83.0	1967.0		83.0	1967–83	fb:part.1967_83
+15	2	fb:cell._little_general	"Little General"	``|little|general|''	``|little|General|''	``|JJ|NNP|''	O|O|O|O	|||				"Little General"	fb:part._little_general
+15	3	fb:cell.cincinnati_reds	Cincinnati Reds	cincinnati|reds	Cincinnati|red	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Cincinnati Reds	fb:part.cincinnati_reds
+16	0	fb:cell.chief_bender	Chief Bender	chief|bender	Chief|Bender	NNP|NNP	O|PERSON	|				Chief Bender	fb:part.chief_bender
+16	1	fb:cell.1903_25	1903–25	1903|--|25	1903|--|25	CD|:|CD	DATE|O|NUMBER	1903||25.0	1903.0		25.0	1903–25	fb:part.1903_25
+16	2	fb:cell._chief	"Chief"	``|chief|''	``|Chief|''	``|NNP|''	O|O|O	||				"Chief"	fb:part._chief
+16	3	fb:cell.philadelphia_athletics	Philadelphia Athletics	philadelphia|athletics	Philadelphia|Athletics	NNP|NNP	LOCATION|LOCATION	|				Philadelphia Athletics	fb:part.philadelphia_athletics
+17	0	fb:cell.yogi_berra	Yogi Berra	yogi|berra	Yogi|Berra	NNP|NNP	PERSON|PERSON	|				Yogi Berra	fb:part.yogi_berra
+17	1	fb:cell.1946_65	1946–65	1946|--|65	1946|--|65	CD|:|CD	DATE|O|NUMBER	1946||65.0	1946.0		65.0	1946–65	fb:part.1946_65
+17	2	fb:cell._yogi	"Yogi"	``|yogi|''	``|Yogi|''	``|NNP|''	O|O|O	||				"Yogi"	fb:part._yogi
+17	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+18	0	fb:cell.wade_boggs	Wade Boggs	wade|boggs	Wade|Boggs	NNP|NNP	PERSON|PERSON	|				Wade Boggs	fb:part.wade_boggs
+18	1	fb:cell.1982_99	1982–99	1982|--|99	1982|--|99	CD|:|CD	DATE|O|NUMBER	1982||99.0	1982.0		99.0	1982–99	fb:part.1982_99
+18	2	fb:cell._chicken_man	"Chicken Man"	``|chicken|man|''	``|Chicken|Man|''	``|NNP|NNP|''	O|O|O|O	|||				"Chicken Man"	fb:part._chicken_man
+18	3	fb:cell.boston_red_sox	Boston Red Sox	boston|red|sox	Boston|Red|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Boston Red Sox	fb:part.boston_red_sox
+19	0	fb:cell.jim_bottomley	Jim Bottomley	jim|bottomley	Jim|Bottomley	NNP|NNP	PERSON|PERSON	|				Jim Bottomley	fb:part.jim_bottomley
+19	1	fb:cell.1922_37	1922–37	1922|--|37	1922|--|37	CD|:|CD	DATE|O|NUMBER	1922||37.0	1922.0		37.0	1922–37	fb:part.1922_37
+19	2	fb:cell._sunny_jim	"Sunny Jim"	``|sunny|jim|''	``|Sunny|Jim|''	``|NNP|NNP|''	O|O|O|O	|||				"Sunny Jim"	fb:part._sunny_jim
+19	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+20	0	fb:cell.roger_bresnahan	Roger Bresnahan	roger|bresnahan	Roger|Bresnahan	NNP|NNP	PERSON|PERSON	|				Roger Bresnahan	fb:part.roger_bresnahan
+20	1	fb:cell.1897_1915	1897–1915	1897|--|1915	1897|--|1915	CD|:|CD	DATE|DATE|DATE	1897|1897|1915	1897.0		1915.0	1897–1915	fb:part.1897_1915
+20	2	fb:cell._the_duke_of_tralee	"The Duke of Tralee"	``|the|duke|of|tralee|''	``|the|Duke|of|Tralee|''	``|DT|NNP|IN|NNP|''	O|O|O|O|LOCATION|O	|||||				"The Duke of Tralee"	fb:part._the_duke_of_tralee
+20	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+21	0	fb:cell.lou_brock	Lou Brock	lou|brock	Lou|Brock	NNP|NNP	PERSON|PERSON	|				Lou Brock	fb:part.lou_brock
+21	1	fb:cell.1961_79	1961–79	1961|--|79	1961|--|79	CD|:|CD	DATE|O|NUMBER	1961||79.0	1961.0		79.0	1961–79	fb:part.1961_79
+21	2	fb:cell._the_franchise	"The Franchise"	``|the|franchise|''	``|the|franchise|''	``|DT|NN|''	O|O|MISC|O	|||				"The Franchise"	fb:part._the_franchise
+21	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+22	0	fb:cell.dan_brouthers	Dan Brouthers	dan|brouthers	Dan|Brouthers	NNP|NNP	PERSON|PERSON	|				Dan Brouthers	fb:part.dan_brouthers
+22	1	fb:cell.1879_96	1879–96	1879|--|96	1879|--|96	NNS|:|CD	SET|O|NUMBER	||96.0	1879.0		96.0	1879–96	fb:part.1879_96
+22	2	fb:cell._big_dan_or_alderman	"Big Dan" or "Alderman"	``|big|dan|''|or|``|alderman|''	``|big|Dan|''|or|``|Alderman|''	``|JJ|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Big Dan" or "Alderman"	fb:part._big_dan_or_alderman
+22	3	fb:cell.buffalo_bisons	Buffalo Bisons	buffalo|bisons	Buffalo|Bisons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Buffalo Bisons	fb:part.buffalo_bisons
+23	0	fb:cell.mordecai_brown	Mordecai Brown	mordecai|brown	Mordecai|Brown	NNP|NNP	PERSON|PERSON	|				Mordecai Brown	fb:part.mordecai_brown
+23	1	fb:cell.1903_16	1903–16	1903|--|16	1903|--|16	CD|:|CD	DATE|O|NUMBER	1903||16.0	1903.0		16.0	1903–16	fb:part.1903_16
+23	2	fb:cell._three_finger_or_miner	"Three Finger" or "Miner"	``|three|finger|''|or|``|miner|''	``|three|finger|''|or|``|Miner|''	``|CD|NN|''|CC|``|NNP|''	O|NUMBER|O|O|O|O|O|O	|3.0||||||				"Three Finger" or "Miner"	fb:part._three_finger_or_miner
+23	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+24	0	fb:cell.jesse_burkett	Jesse Burkett	jesse|burkett	Jesse|Burkett	NNP|NNP	PERSON|PERSON	|				Jesse Burkett	fb:part.jesse_burkett
+24	1	fb:cell.1890_1905	1890–1905	1890|--|1905	1890|--|1905	CD|:|CD	DATE|DATE|DATE	1890|1890|1905	1890.0		1905.0	1890–1905	fb:part.1890_1905
+24	2	fb:cell._crab	"Crab"	``|crab|''	``|Crab|''	``|NNP|''	O|O|O	||				"Crab"	fb:part._crab
+24	3	fb:cell.cleveland_spiders	Cleveland Spiders	cleveland|spiders	Cleveland|spider	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Cleveland Spiders	fb:part.cleveland_spiders
+25	0	fb:cell.roy_campanella	Roy Campanella	roy|campanella	Roy|Campanella	NNP|NNP	PERSON|PERSON	|				Roy Campanella	fb:part.roy_campanella
+25	1	fb:cell.1948_57	1948–57	1948|--|57	1948|--|57	CD|:|CD	DATE|O|NUMBER	1948||57.0	1948.0		57.0	1948–57	fb:part.1948_57
+25	2	fb:cell._campy	"Campy"	``|campy|''	``|campy|''	``|JJ|''	O|O|O	||				"Campy"	fb:part._campy
+25	3	fb:cell.brooklyn_dodgers	Brooklyn Dodgers	brooklyn|dodgers	Brooklyn|Dodgers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Brooklyn Dodgers	fb:part.brooklyn_dodgers
+26	0	fb:cell.max_carey	Max Carey	max|carey	Max|Carey	NNP|NNP	PERSON|PERSON	|				Max Carey	fb:part.max_carey
+26	1	fb:cell.1910_29	1910–29	1910|--|29	1910|--|29	CD|:|CD	DATE|O|NUMBER	1910||29.0	1910.0		29.0	1910–29	fb:part.1910_29
+26	2	fb:cell._scoops	"Scoops"	``|scoops|''	``|scoop|''	``|NNS|''	O|O|O	||				"Scoops"	fb:part._scoops
+26	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+27	0	fb:cell.steve_carlton	Steve Carlton	steve|carlton	Steve|Carlton	NNP|NNP	PERSON|PERSON	|				Steve Carlton	fb:part.steve_carlton
+27	1	fb:cell.1965_88	1965–88	1965|--|88	1965|--|88	CD|:|CD	DATE|O|NUMBER	1965||88.0	1965.0		88.0	1965–88	fb:part.1965_88
+27	2	fb:cell._lefty	"Lefty"	``|lefty|''	``|Lefty|''	``|NNP|''	O|O|O	||				"Lefty"	fb:part._lefty
+27	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+28	0	fb:cell.gary_carter	Gary Carter	gary|carter	Gary|Carter	NNP|NNP	PERSON|PERSON	|				Gary Carter	fb:part.gary_carter
+28	1	fb:cell.1974_92	1974–92	1974|--|92	1974|--|92	CD|:|CD	DATE|O|NUMBER	1974||92.0	1974.0		92.0	1974–92	fb:part.1974_92
+28	2	fb:cell._the_kid	"The Kid"	``|the|kid|''	``|the|kid|''	``|DT|NN|''	O|O|O|O	|||				"The Kid"	fb:part._the_kid
+28	3	fb:cell.montreal_expos	Montreal Expos	montreal|expos	Montreal|Expos	NNP|NNPS	O|O	|				Montreal Expos	fb:part.montreal_expos
+29	0	fb:cell.orlando_cepeda	Orlando Cepeda	orlando|cepeda	Orlando|Cepeda	NNP|NNP	PERSON|PERSON	|				Orlando Cepeda	fb:part.orlando_cepeda
+29	1	fb:cell.1958_74	1958–74	1958|--|74	1958|--|74	CD|:|CD	DATE|O|NUMBER	1958||74.0	1958.0		74.0	1958–74	fb:part.1958_74
+29	2	fb:cell._baby_bull_or_cha_cha	"Baby Bull" or "Cha Cha"	``|baby|bull|''|or|``|cha|cha|''	``|Baby|Bull|''|or|``|Cha|Cha|''	``|NNP|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"Baby Bull" or "Cha Cha"	fb:part._baby_bull_or_cha_cha
+29	3	fb:cell.san_francisco_giants	San Francisco Giants	san|francisco|giants	San|Francisco|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				San Francisco Giants	fb:part.san_francisco_giants
+30	0	fb:cell.frank_chance	Frank Chance	frank|chance	Frank|chance	NNP|NN	PERSON|PERSON	|				Frank Chance	fb:part.frank_chance
+30	1	fb:cell.1898_1914	1898–1914	1898|--|1914	1898|--|1914	CD|:|CD	DATE|DATE|DATE	1898|1898|1914	1898.0		1914.0	1898–1914	fb:part.1898_1914
+30	2	fb:cell._husk_the_peerless_leader_and_part_of_tinker_to_evers_to_chance	"Husk", "The Peerless Leader" and part of "Tinker to Evers to Chance"	``|husk|''|,|``|the|peerless|leader|''|and|part|of|``|tinker|to|evers|to|chance|''	``|husk|''|,|``|the|Peerless|Leader|''|and|part|of|``|Tinker|to|Evers|to|chance|''	``|NN|''|,|``|DT|NNP|NNP|''|CC|NN|IN|``|NNP|TO|NNP|TO|NN|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||				"Husk"|"The Peerless Leader" and part of "Tinker to Evers to Chance"	fb:part._husk|fb:part._the_peerless_leader_and_part_of_tinker_to_evers_to_chance
+30	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+31	0	fb:cell.happy_chandler	Happy Chandler	happy|chandler	happy|Chandler	JJ|NNP	O|O	|				Happy Chandler	fb:part.happy_chandler
+31	1	fb:cell.1945_1951	1945–1951	1945|--|1951	1945|--|1951	CD|:|CD	DATE|DATE|DATE	1945|1945|1951	1945.0		1951.0	1945–1951	fb:part.1945_1951
+31	2	fb:cell._happy	"Happy"	``|happy|''	``|happy|''	``|JJ|''	O|O|O	||				"Happy"	fb:part._happy
+31	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+32	0	fb:cell.jack_chesbro	Jack Chesbro	jack|chesbro	Jack|Chesbro	NNP|NNP	PERSON|PERSON	|				Jack Chesbro	fb:part.jack_chesbro
+32	1	fb:cell.1899_1909	1899–1909	1899|--|1909	1899|--|1909	CD|:|CD	DATE|DATE|DATE	1899|1899|1909	1899.0		1909.0	1899–1909	fb:part.1899_1909
+32	2	fb:cell._happy_jack	"Happy Jack"	``|happy|jack|''	``|happy|Jack|''	``|JJ|NNP|''	O|O|O|O	|||				"Happy Jack"	fb:part._happy_jack
+32	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+33	0	fb:cell.fred_clarke	Fred Clarke	fred|clarke	Fred|Clarke	NNP|NNP	PERSON|PERSON	|				Fred Clarke	fb:part.fred_clarke
+33	1	fb:cell.1897_1915	1897–1915	1897|--|1915	1897|--|1915	CD|:|CD	DATE|DATE|DATE	1897|1897|1915	1897.0		1915.0	1897–1915	fb:part.1897_1915
+33	2	fb:cell._cap	"Cap"	``|cap|''	``|Cap|''	``|NNP|''	O|O|O	||				"Cap"	fb:part._cap
+33	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+34	0	fb:cell.roberto_clemente	Roberto Clemente	roberto|clemente	Roberto|Clemente	NNP|NNP	PERSON|PERSON	|				Roberto Clemente	fb:part.roberto_clemente
+34	1	fb:cell.1955_72	1955–72	1955|--|72	1955|--|72	CD|:|CD	DATE|O|NUMBER	1955||72.0	1955.0		72.0	1955–72	fb:part.1955_72
+34	2	fb:cell._arriba_or_bob	"Arriba" or "Bob"	``|arriba|''|or|``|bob|''	``|arriba|''|or|``|Bob|''	``|FW|''|CC|``|NNP|''	O|O|O|O|O|O|O	||||||				"Arriba" or "Bob"	fb:part._arriba_or_bob
+34	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+35	0	fb:cell.ty_cobb	Ty Cobb	ty|cobb	Ty|Cobb	NNP|NNP	PERSON|PERSON	|				Ty Cobb	fb:part.ty_cobb
+35	1	fb:cell.1905_28	1905–28	1905|--|28	1905|--|28	CD|:|CD	DATE|O|NUMBER	1905||28.0	1905.0		28.0	1905–28	fb:part.1905_28
+35	2	fb:cell._the_georgia_peach	"The Georgia Peach"	``|the|georgia|peach|''	``|the|Georgia|Peach|''	``|DT|NNP|NNP|''	O|O|LOCATION|O|O	||||				"The Georgia Peach"	fb:part._the_georgia_peach
+35	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+36	0	fb:cell.mickey_cochrane	Mickey Cochrane	mickey|cochrane	Mickey|Cochrane	NNP|NNP	PERSON|PERSON	|				Mickey Cochrane	fb:part.mickey_cochrane
+36	1	fb:cell.1925_37	1925–37	1925|--|37	1925|--|37	CD|:|CD	DATE|O|NUMBER	1925||37.0	1925.0		37.0	1925–37	fb:part.1925_37
+36	2	fb:cell._black_mike_or_mickey	"Black Mike" or "Mickey"	``|black|mike|''|or|``|mickey|''	``|black|Mike|''|or|``|Mickey|''	``|JJ|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Black Mike" or "Mickey"	fb:part._black_mike_or_mickey
+36	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+37	0	fb:cell.eddie_collins	Eddie Collins	eddie|collins	Eddie|Collins	NNP|NNP	PERSON|PERSON	|				Eddie Collins	fb:part.eddie_collins
+37	1	fb:cell.1906_30	1906–30	1906|--|30	1906|--|30	CD|:|CD	DATE|O|NUMBER	1906||30.0	1906.0		30.0	1906–30	fb:part.1906_30
+37	2	fb:cell._cocky	"Cocky"	``|cocky|''	``|cocky|''	``|JJ|''	O|O|O	||				"Cocky"	fb:part._cocky
+37	3	fb:cell.philadelphia_athletics	Philadelphia Athletics	philadelphia|athletics	Philadelphia|Athletics	NNP|NNP	LOCATION|LOCATION	|				Philadelphia Athletics	fb:part.philadelphia_athletics
+38	0	fb:cell.earle_combs	Earle Combs	earle|combs	Earle|Combs	NNP|NNP	PERSON|PERSON	|				Earle Combs	fb:part.earle_combs
+38	1	fb:cell.1924_35	1924–35	1924|--|35	1924|--|35	CD|:|CD	DATE|O|NUMBER	1924||35.0	1924.0		35.0	1924–35	fb:part.1924_35
+38	2	fb:cell._the_kentucky_colonel	"The Kentucky Colonel"	``|the|kentucky|colonel|''	``|the|Kentucky|Colonel|''	``|DT|NNP|NNP|''	O|O|O|O|O	||||				"The Kentucky Colonel"	fb:part._the_kentucky_colonel
+38	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+39	0	fb:cell.charlie_comiskey	Charlie Comiskey	charlie|comiskey	Charlie|Comiskey	NNP|NNP	PERSON|PERSON	|				Charlie Comiskey	fb:part.charlie_comiskey
+39	1	fb:cell.1882_94	1882–94	1882|--|94	1882|--|94	CD|:|CD	DATE|O|NUMBER	1882||94.0	1882.0		94.0	1882–94	fb:part.1882_94
+39	2	fb:cell._commy_or_the_old_roman	"Commy" or "The Old Roman"	``|commy|''|or|``|the|old|roman|''	``|Commy|''|or|``|The|Old|Roman|''	``|NNP|''|CC|``|NNP|NNP|NNP|''	O|O|O|O|O|O|MISC|MISC|O	||||||||				"Commy" or "The Old Roman"	fb:part._commy_or_the_old_roman
+39	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+40	0	fb:cell.jocko_conlan	Jocko Conlan	jocko|conlan	Jocko|Conlan	NNP|NNP	PERSON|PERSON	|				Jocko Conlan	fb:part.jocko_conlan
+40	1	fb:cell.1941_1965	1941–1965	1941|--|1965	1941|--|1965	CD|:|CD	DATE|DATE|DATE	1941|1941|1965	1941.0		1965.0	1941–1965	fb:part.1941_1965
+40	2	fb:cell._jocko	"Jocko"	``|jocko|''	``|Jocko|''	``|NNP|''	O|O|O	||				"Jocko"	fb:part._jocko
+40	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+41	0	fb:cell.stan_coveleski	Stan Coveleski	stan|coveleski	Stan|Coveleski	NNP|NNP	PERSON|PERSON	|				Stan Coveleski	fb:part.stan_coveleski
+41	1	fb:cell.1912_28	1912–28	1912|--|28	1912|--|28	CD|:|CD	DATE|O|NUMBER	1912||28.0	1912.0		28.0	1912–28	fb:part.1912_28
+41	2	fb:cell._covey	"Covey"	``|covey|''	``|Covey|''	``|NNP|''	O|O|O	||				"Covey"	fb:part._covey
+41	3	fb:cell.cleveland_indians	Cleveland Indians	cleveland|indians	Cleveland|Indians	NNP|NNPS	O|O	|				Cleveland Indians	fb:part.cleveland_indians
+42	0	fb:cell.sam_crawford	Sam Crawford	sam|crawford	Sam|Crawford	NNP|NNP	PERSON|PERSON	|				Sam Crawford	fb:part.sam_crawford
+42	1	fb:cell.1899_1917	1899–1917	1899|--|1917	1899|--|1917	CD|:|CD	DATE|DATE|DATE	1899|1899|1917	1899.0		1917.0	1899–1917	fb:part.1899_1917
+42	2	fb:cell._wahoo_sam	"Wahoo Sam"	``|wahoo|sam|''	``|Wahoo|Sam|''	``|NNP|NNP|''	O|O|O|O	|||				"Wahoo Sam"	fb:part._wahoo_sam
+42	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+43	0	fb:cell.candy_cummings	Candy Cummings	candy|cummings	candy|cumming	NN|NNS	O|O	|				Candy Cummings	fb:part.candy_cummings
+43	1	fb:cell.1872_77	1872–77	1872|--|77	1872|--|77	CD|:|CD	DATE|O|NUMBER	1872||77.0	1872.0		77.0	1872–77	fb:part.1872_77
+43	2	fb:cell._candy	"Candy"	``|candy|''	``|candy|''	``|NN|''	O|O|O	||				"Candy"	fb:part._candy
+43	3	fb:cell.hartford_dark_blues	Hartford Dark Blues	hartford|dark|blues	Hartford|dark|blues	NNP|JJ|NNS	LOCATION|O|O	||				Hartford Dark Blues	fb:part.hartford_dark_blues
+44	0	fb:cell.kiki_cuyler	Kiki Cuyler	kiki|cuyler	Kiki|Cuyler	NNP|NNP	PERSON|PERSON	|				Kiki Cuyler	fb:part.kiki_cuyler
+44	1	fb:cell.1921_38	1921–38	1921|--|38	1921|--|38	CD|:|CD	DATE|O|NUMBER	1921||38.0	1921.0		38.0	1921–38	fb:part.1921_38
+44	2	fb:cell._kiki_or_cuy	"Kiki" or "Cuy"	``|kiki|''|or|``|cuy|''	``|Kiki|''|or|``|Cuy|''	``|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O	||||||				"Kiki" or "Cuy"	fb:part._kiki_or_cuy
+44	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+45	0	fb:cell.dizzy_dean	Dizzy Dean	dizzy|dean	dizzy|Dean	JJ|NNP	O|O	|				Dizzy Dean	fb:part.dizzy_dean
+45	1	fb:cell.1930_41	1930–41	1930|--|41	1930|--|41	CD|:|CD	DATE|O|NUMBER	1930||41.0	1930.0		41.0	1930–41	fb:part.1930_41
+45	2	fb:cell._diz_dizzy_or_the_great_man	"Diz", "Dizzy" or "The Great Man"	``|diz|''|,|``|dizzy|''|or|``|the|great|man|''	``|diz|''|,|``|Dizzy|''|or|``|the|great|man|''	``|NN|''|,|``|NNP|''|CC|``|DT|JJ|NN|''	O|O|O|O|O|O|O|O|O|O|MISC|MISC|O	||||||||||||				"Diz"|"Dizzy" or "The Great Man"	fb:part._diz|fb:part._dizzy_or_the_great_man
+45	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+46	0	fb:cell.ed_delahanty	Ed Delahanty	ed|delahanty	Ed|Delahanty	NNP|NNP	PERSON|PERSON	|				Ed Delahanty	fb:part.ed_delahanty
+46	1	fb:cell.1888_1903	1888–1903	1888|--|1903	1888|--|1903	CD|:|CD	DATE|DATE|DATE	1888|1888|1903	1888.0		1903.0	1888–1903	fb:part.1888_1903
+46	2	fb:cell._big_ed	"Big Ed"	``|big|ed|''	``|big|Ed|''	``|JJ|NNP|''	O|O|O|O	|||				"Big Ed"	fb:part._big_ed
+46	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+47	0	fb:cell.joe_dimaggio	Joe DiMaggio	joe|dimaggio	Joe|DiMaggio	NNP|NNP	PERSON|PERSON	|				Joe DiMaggio	fb:part.joe_dimaggio
+47	1	fb:cell.1936_51	1936–51	1936|--|51	1936|--|51	CD|:|CD	DATE|O|NUMBER	1936||51.0	1936.0		51.0	1936–51	fb:part.1936_51
+47	2	fb:cell._the_yankee_clipper_or_joltin_joe	"The Yankee Clipper" or "Joltin Joe"	``|the|yankee|clipper|''|or|``|joltin|joe|''	``|the|Yankee|Clipper|''|or|``|Joltin|Joe|''	``|DT|NNP|NNP|''|CC|``|NNP|NNP|''	O|O|MISC|MISC|O|O|O|O|O|O	|||||||||				"The Yankee Clipper" or "Joltin Joe"	fb:part._the_yankee_clipper_or_joltin_joe
+47	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+48	0	fb:cell.don_drysdale	Don Drysdale	don|drysdale	Don|Drysdale	NNP|NNP	PERSON|PERSON	|				Don Drysdale	fb:part.don_drysdale
+48	1	fb:cell.1956_69	1956–69	1956|--|69	1956|--|69	CD|:|CD	DATE|O|NUMBER	1956||69.0	1956.0		69.0	1956–69	fb:part.1956_69
+48	2	fb:cell._big_d	"Big D"	``|big|d|''	``|big|d|''	``|JJ|NN|''	O|O|O|O	|||				"Big D"	fb:part._big_d
+48	3	fb:cell.los_angeles_dodgers	Los Angeles Dodgers	los|angeles|dodgers	Los|Angeles|Dodgers	NNP|NNP|NNPS	O|O|O	||				Los Angeles Dodgers	fb:part.los_angeles_dodgers
+49	0	fb:cell.hugh_duffy	Hugh Duffy	hugh|duffy	Hugh|duffy	NNP|NN	PERSON|PERSON	|				Hugh Duffy	fb:part.hugh_duffy
+49	1	fb:cell.1888_1906	1888–1906	1888|--|1906	1888|--|1906	CD|:|CD	DATE|DATE|DATE	1888|1888|1906	1888.0		1906.0	1888–1906	fb:part.1888_1906
+49	2	fb:cell._sir_hugh	"Sir Hugh"	``|sir|hugh|''	``|Sir|Hugh|''	``|NNP|NNP|''	O|O|O|O	|||				"Sir Hugh"	fb:part._sir_hugh
+49	3	fb:cell.boston_beaneaters	Boston Beaneaters	boston|beaneaters	Boston|Beaneaters	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Boston Beaneaters	fb:part.boston_beaneaters
+50	0	fb:cell.leo_durocher	Leo Durocher	leo|durocher	Leo|Durocher	NNP|NNP	PERSON|PERSON	|				Leo Durocher	fb:part.leo_durocher
+50	1	fb:cell.1925_73	1925–73	1925|--|73	1925|--|73	CD|:|CD	DATE|O|NUMBER	1925||73.0	1925.0		73.0	1925–73	fb:part.1925_73
+50	2	fb:cell._the_lip_or_lippy	"The Lip" or "Lippy"	``|the|lip|''|or|``|lippy|''	``|the|lip|''|or|``|Lippy|''	``|DT|NN|''|CC|``|NNP|''	O|O|MISC|O|O|O|O|O	|||||||				"The Lip" or "Lippy"	fb:part._the_lip_or_lippy
+50	3	fb:cell.brooklyn_dodgers	Brooklyn Dodgers	brooklyn|dodgers	Brooklyn|Dodgers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Brooklyn Dodgers	fb:part.brooklyn_dodgers
+51	0	fb:cell.dennis_eckersley	Dennis Eckersley	dennis|eckersley	Dennis|Eckersley	NNP|NNP	PERSON|PERSON	|				Dennis Eckersley	fb:part.dennis_eckersley
+51	1	fb:cell.1975_98	1975–98	1975|--|98	1975|--|98	CD|:|CD	DATE|O|NUMBER	1975||98.0	1975.0		98.0	1975–98	fb:part.1975_98
+51	2	fb:cell._the_eck	"The Eck"	``|the|eck|''	``|the|eck|''	``|DT|NN|''	O|O|O|O	|||				"The Eck"	fb:part._the_eck
+51	3	fb:cell.oakland_athletics	Oakland Athletics	oakland|athletics	Oakland|Athletics	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Oakland Athletics	fb:part.oakland_athletics
+52	0	fb:cell.johnny_evers	Johnny Evers	johnny|evers	Johnny|Evers	NNP|NNP	PERSON|PERSON	|				Johnny Evers	fb:part.johnny_evers
+52	1	fb:cell.1902_29	1902–29	1902|--|29	1902|--|29	CD|:|CD	DATE|O|NUMBER	1902||29.0	1902.0		29.0	1902–29	fb:part.1902_29
+52	2	fb:cell._the_crab_trojan_and_part_of_tinker_to_evers_to_chance	"The Crab", "Trojan" and part of "Tinker to Evers to Chance"	``|the|crab|''|,|``|trojan|''|and|part|of|``|tinker|to|evers|to|chance|''	``|the|Crab|''|,|``|Trojan|''|and|part|of|``|Tinker|to|Evers|to|chance|''	``|DT|NNP|''|,|``|NNP|''|CC|NN|IN|``|NNP|TO|NNP|TO|NN|''	O|O|O|O|O|O|MISC|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||				"The Crab"|"Trojan" and part of "Tinker to Evers to Chance"	fb:part._the_crab|fb:part._trojan_and_part_of_tinker_to_evers_to_chance
+52	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+53	0	fb:cell.buck_ewing	Buck Ewing	buck|ewing	Buck|Ewing	NNP|NNP	O|O	|				Buck Ewing	fb:part.buck_ewing
+53	1	fb:cell.1880_97	1880–97	1880|--|97	1880|--|97	NNP|:|CD	DATE|O|NUMBER	1880||97.0	1880.0		97.0	1880–97	fb:part.1880_97
+53	2	fb:cell._buck	"Buck"	``|buck|''	``|Buck|''	``|NNP|''	O|O|O	||				"Buck"	fb:part._buck
+53	3	fb:cell.new_york_gothams	New York Gothams	new|york|gothams	New|York|Gothams	NNP|NNP|NNP	O|O|O	||				New York Gothams	fb:part.new_york_gothams
+54	0	fb:cell.red_faber	Red Faber	red|faber	Red|Faber	NNP|NNP	O|O	|				Red Faber	fb:part.red_faber
+54	1	fb:cell.1914_33	1914–33	1914|--|33	1914|--|33	CD|:|CD	DATE|O|NUMBER	1914||33.0	1914.0		33.0	1914–33	fb:part.1914_33
+54	2	fb:cell._red	"Red"	``|red|''	``|Red|''	``|NNP|''	O|O|O	||				"Red"	fb:part._red
+54	3	fb:cell.chicago_white_sox	Chicago White Sox	chicago|white|sox	Chicago|White|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Chicago White Sox	fb:part.chicago_white_sox
+55	0	fb:cell.bob_feller	Bob Feller	bob|feller	Bob|Feller	NNP|NNP	PERSON|PERSON	|				Bob Feller	fb:part.bob_feller
+55	1	fb:cell.1936_56	1936–56	1936|--|56	1936|--|56	CD|:|CD	DATE|O|NUMBER	1936||56.0	1936.0		56.0	1936–56	fb:part.1936_56
+55	2	fb:cell._rapid_robert_or_the_heater_from_van_meter	"Rapid Robert" or "The Heater From Van Meter"	``|rapid|robert|''|or|``|the|heater|from|van|meter|''	``|rapid|Robert|''|or|``|the|Heater|from|Van|Meter|''	``|JJ|NNP|''|CC|``|DT|NNP|IN|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				"Rapid Robert" or "The Heater From Van Meter"	fb:part._rapid_robert_or_the_heater_from_van_meter
+55	3	fb:cell.cleveland_indians	Cleveland Indians	cleveland|indians	Cleveland|Indians	NNP|NNPS	O|O	|				Cleveland Indians	fb:part.cleveland_indians
+56	0	fb:cell.rollie_fingers	Rollie Fingers	rollie|fingers	Rollie|Fingers	NNP|NNP	PERSON|PERSON	|				Rollie Fingers	fb:part.rollie_fingers
+56	1	fb:cell.1968_85	1968–85	1968|--|85	1968|--|85	CD|:|CD	DATE|O|NUMBER	1968||85.0	1968.0		85.0	1968–85	fb:part.1968_85
+56	2	fb:cell._rollie	"Rollie"	``|rollie|''	``|Rollie|''	``|NNP|''	O|O|O	||				"Rollie"	fb:part._rollie
+56	3	fb:cell.oakland_athletics	Oakland Athletics	oakland|athletics	Oakland|Athletics	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Oakland Athletics	fb:part.oakland_athletics
+57	0	fb:cell.carlton_fisk	Carlton Fisk	carlton|fisk	Carlton|Fisk	NNP|NNP	PERSON|PERSON	|				Carlton Fisk	fb:part.carlton_fisk
+57	1	fb:cell.1969_93	1969–93	1969|--|93	1969|--|93	CD|:|CD	DATE|O|NUMBER	1969||93.0	1969.0		93.0	1969–93	fb:part.1969_93
+57	2	fb:cell._pudge	"Pudge"	``|pudge|''	``|Pudge|''	``|NNP|''	O|O|O	||				"Pudge"	fb:part._pudge
+57	3	fb:cell.boston_red_sox	Boston Red Sox	boston|red|sox	Boston|Red|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Boston Red Sox	fb:part.boston_red_sox
+58	0	fb:cell.whitey_ford	Whitey Ford	whitey|ford	Whitey|Ford	NNP|NNP	PERSON|PERSON	|				Whitey Ford	fb:part.whitey_ford
+58	1	fb:cell.1950_67	1950–67	1950|--|67	1950|--|67	CD|:|CD	DATE|O|NUMBER	1950||67.0	1950.0		67.0	1950–67	fb:part.1950_67
+58	2	fb:cell._whitey_the_chairman_of_the_board_or_slick	"Whitey", "The Chairman of the Board", or "Slick""	``|whitey|''|,|``|the|chairman|of|the|board|''|,|or|``|slick|''|''	``|Whitey|''|,|``|the|Chairman|of|the|Board|''|,|or|``|slick|''|''	``|NNP|''|,|``|DT|NNP|IN|DT|NNP|''|,|CC|``|JJ|''|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||				"Whitey"|"The Chairman of the Board"|or "Slick""	fb:part._whitey|fb:part._the_chairman_of_the_board|fb:part.or_slick
+58	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+59	0	fb:cell.rube_foster	Rube Foster	rube|foster	Rube|Foster	NNP|NNP	PERSON|PERSON	|				Rube Foster	fb:part.rube_foster
+59	1	fb:cell.1902_1926	1902–1926	1902|--|1926	1902|--|1926	CD|:|CD	DATE|DATE|DATE	1902|1902|1926	1902.0		1926.0	1902–1926	fb:part.1902_1926
+59	2	fb:cell._rube	"Rube"	``|rube|''	``|rube|''	``|NN|''	O|O|O	||				"Rube"	fb:part._rube
+59	3	fb:cell.chicago_american_giants	Chicago American Giants	chicago|american|giants	Chicago|American|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Chicago American Giants	fb:part.chicago_american_giants
+60	0	fb:cell.nellie_fox	Nellie Fox	nellie|fox	Nellie|Fox	NNP|NNP	PERSON|PERSON	|				Nellie Fox	fb:part.nellie_fox
+60	1	fb:cell.1947_65	1947–65	1947|--|65	1947|--|65	CD|:|CD	DATE|O|NUMBER	1947||65.0	1947.0		65.0	1947–65	fb:part.1947_65
+60	2	fb:cell._nellie_little_nel_or_the_mighty_mite	"Nellie", "Little Nel", or "The Mighty Mite"'	``|nellie|''|,|``|little|nel|''|,|or|``|the|mighty|mite|''|'	``|Nellie|''|,|``|little|nel|''|,|or|``|the|Mighty|Mite|''|'	``|NNP|''|,|``|JJ|NN|''|,|CC|``|DT|NNP|NNP|''|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				"Nellie"|"Little Nel"|or "The Mighty Mite"'	fb:part._nellie|fb:part._little_nel|fb:part.or_the_mighty_mite
+60	3	fb:cell.chicago_white_sox	Chicago White Sox	chicago|white|sox	Chicago|White|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Chicago White Sox	fb:part.chicago_white_sox
+61	0	fb:cell.jimmie_foxx	Jimmie Foxx	jimmie|foxx	Jimmie|Foxx	NNP|NNP	PERSON|PERSON	|				Jimmie Foxx	fb:part.jimmie_foxx
+61	1	fb:cell.1925_45	1925–45	1925|--|45	1925|--|45	CD|:|CD	DATE|O|NUMBER	1925||45.0	1925.0		45.0	1925–45	fb:part.1925_45
+61	2	fb:cell._beast_or_double_x	"Beast" or "Double X"	``|beast|''|or|``|double|x|''	``|beast|''|or|``|double|x|''	``|NN|''|CC|``|JJ|NN|''	O|O|O|O|O|O|O|O	|||||||				"Beast" or "Double X"	fb:part._beast_or_double_x
+61	3	fb:cell.boston_red_sox	Boston Red Sox	boston|red|sox	Boston|Red|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Boston Red Sox	fb:part.boston_red_sox
+62	0	fb:cell.frankie_frisch	Frankie Frisch	frankie|frisch	Frankie|Frisch	NNP|NNP	PERSON|PERSON	|				Frankie Frisch	fb:part.frankie_frisch
+62	1	fb:cell.1919_37	1919–37	1919|--|37	1919|--|37	CD|:|CD	DATE|O|NUMBER	1919||37.0	1919.0		37.0	1919–37	fb:part.1919_37
+62	2	fb:cell._the_fordham_flash	"The Fordham Flash"	``|the|fordham|flash|''	``|the|Fordham|Flash|''	``|DT|NNP|NNP|''	O|O|O|O|O	||||				"The Fordham Flash"	fb:part._the_fordham_flash
+62	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+63	0	fb:cell.pud_galvin	Pud Galvin	pud|galvin	Pud|Galvin	NNP|NNP	PERSON|PERSON	|				Pud Galvin	fb:part.pud_galvin
+63	1	fb:cell.1875_92	1875–92	1875|--|92	1875|--|92	CD|:|CD	DATE|O|NUMBER	1875||92.0	1875.0		92.0	1875–92	fb:part.1875_92
+63	2	fb:cell._pud_gentle_jeems_or_the_little_steam_engine	"Pud", "Gentle Jeems", or "The Little Steam Engine"	``|pud|''|,|``|gentle|jeems|''|,|or|``|the|little|steam|engine|''	``|pud|''|,|``|gentle|jeem|''|,|or|``|the|little|Steam|Engine|''	``|NN|''|,|``|JJ|NN|''|,|CC|``|DT|JJ|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				"Pud"|"Gentle Jeems"|or "The Little Steam Engine"	fb:part._pud|fb:part._gentle_jeems|fb:part.or_the_little_steam_engine
+63	3	fb:cell.buffalo_bisons	Buffalo Bisons	buffalo|bisons	Buffalo|Bisons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Buffalo Bisons	fb:part.buffalo_bisons
+64	0	fb:cell.lou_gehrig	Lou Gehrig	lou|gehrig	Lou|Gehrig	NNP|NNP	PERSON|PERSON	|				Lou Gehrig	fb:part.lou_gehrig
+64	1	fb:cell.1923_39	1923–39	1923|--|39	1923|--|39	CD|:|CD	DATE|O|NUMBER	1923||39.0	1923.0		39.0	1923–39	fb:part.1923_39
+64	2	fb:cell._the_iron_horse_or_buster_or_biscuit_pants	"The Iron Horse or "Buster" or "Biscuit Pants"	``|the|iron|horse|or|``|buster|''|or|``|biscuit|pants|''	``|the|iron|horse|or|``|Buster|''|or|``|Biscuit|Pants|''	``|DT|JJ|NN|CC|``|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				"The Iron Horse or "Buster" or "Biscuit Pants"	fb:part._the_iron_horse_or_buster_or_biscuit_pants
+64	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+65	0	fb:cell.charlie_gehringer	Charlie Gehringer	charlie|gehringer	Charlie|Gehringer	NNP|NNP	PERSON|PERSON	|				Charlie Gehringer	fb:part.charlie_gehringer
+65	1	fb:cell.1924_42	1924–42	1924|--|42	1924|--|42	CD|:|CD	DATE|O|NUMBER	1924||42.0	1924.0		42.0	1924–42	fb:part.1924_42
+65	2	fb:cell._the_mechanical_man_and_one_of_detroit_s_g_men	"The Mechanical Man" and one of Detroit's "G-Men"	``|the|mechanical|man|''|and|one|of|detroit|'s|``|g|men|''	``|the|mechanical|man|''|and|one|of|Detroit|'s|``|g|man|''	``|DT|JJ|NN|''|CC|CD|IN|NNP|POS|``|NN|NNS|''	O|O|MISC|MISC|O|O|NUMBER|O|LOCATION|O|O|O|O|O	||||||1.0|||||||				"The Mechanical Man" and one of Detroit's "G-Men"	fb:part._the_mechanical_man_and_one_of_detroit_s_g_men
+65	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+66	0	fb:cell.bob_gibson	Bob Gibson	bob|gibson	Bob|Gibson	NNP|NNP	PERSON|PERSON	|				Bob Gibson	fb:part.bob_gibson
+66	1	fb:cell.1959_75	1959–75	1959|--|75	1959|--|75	CD|:|CD	DATE|O|NUMBER	1959||75.0	1959.0		75.0	1959–75	fb:part.1959_75
+66	2	fb:cell._hoot_or_gibby	"Hoot" or "Gibby"	``|hoot|''|or|``|gibby|''	``|Hoot|''|or|``|Gibby|''	``|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O	||||||				"Hoot" or "Gibby"	fb:part._hoot_or_gibby
+66	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+67	0	fb:cell.lefty_gomez	Lefty Gomez	lefty|gomez	Lefty|Gomez	NNP|NNP	O|PERSON	|				Lefty Gomez	fb:part.lefty_gomez
+67	1	fb:cell.1930_43	1930–43	1930|--|43	1930|--|43	CD|:|CD	DATE|O|NUMBER	1930||43.0	1930.0		43.0	1930–43	fb:part.1930_43
+67	2	fb:cell._lefty_or_goofy	"Lefty" or "Goofy"	``|lefty|''|or|``|goofy|''	``|Lefty|''|or|``|Goofy|''	``|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O	||||||				"Lefty" or "Goofy"	fb:part._lefty_or_goofy
+67	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+68	0	fb:cell.goose_goslin	Goose Goslin	goose|goslin	Goose|Goslin	NNP|NNP	PERSON|PERSON	|				Goose Goslin	fb:part.goose_goslin
+68	1	fb:cell.1921_38	1921–38	1921|--|38	1921|--|38	CD|:|CD	DATE|O|NUMBER	1921||38.0	1921.0		38.0	1921–38	fb:part.1921_38
+68	2	fb:cell._goose_and_one_of_detroit_s_g_men	"Goose" and one of Detroit's "G-Men"	``|goose|''|and|one|of|detroit|'s|``|g|men|''	``|goose|''|and|one|of|Detroit|'s|``|g|man|''	``|NN|''|CC|CD|IN|NNP|POS|``|NN|NNS|''	O|O|O|O|NUMBER|O|LOCATION|O|O|O|O|O	||||1.0|||||||				"Goose" and one of Detroit's "G-Men"	fb:part._goose_and_one_of_detroit_s_g_men
+68	3	fb:cell.washington_senators	Washington Senators	washington|senators	Washington|Senators	NNP|NNPS	LOCATION|O	|				Washington Senators	fb:part.washington_senators
+69	0	fb:cell.rich_gossage	Rich Gossage	rich|gossage	Rich|Gossage	NNP|NNP	PERSON|PERSON	|				Rich Gossage	fb:part.rich_gossage
+69	1	fb:cell.1972_94	1972-94	1972-94	1972-94	CD	NUMBER	1972.0 - 94.0	1972.0		94.0	1972-94	fb:part.1972_94
+69	2	fb:cell._goose	"Goose"	``|goose|''	``|goose|''	``|NN|''	O|O|O	||				"Goose"	fb:part._goose
+69	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+70	0	fb:cell.hank_greenberg	Hank Greenberg	hank|greenberg	Hank|Greenberg	NNP|NNP	PERSON|PERSON	|				Hank Greenberg	fb:part.hank_greenberg
+70	1	fb:cell.1930_47	1930–47	1930|--|47	1930|--|47	CD|:|CD	DATE|O|NUMBER	1930||47.0	1930.0		47.0	1930–47	fb:part.1930_47
+70	2	fb:cell._hammerin_hank_and_one_of_detroit_s_g_men	"Hammerin’ Hank" and one of Detroit's "G-Men"	``|hammerin|'|hank|''|and|one|of|detroit|'s|``|g|men|''	``|hammerin|'|Hank|''|and|one|of|Detroit|'s|``|g|man|''	``|NN|''|NNP|''|CC|CD|IN|NNP|POS|``|NN|NNS|''	O|O|O|O|O|O|NUMBER|O|LOCATION|O|O|O|O|O	||||||1.0|||||||				"Hammerin’ Hank" and one of Detroit's "G-Men"	fb:part._hammerin_hank_and_one_of_detroit_s_g_men
+70	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+71	0	fb:cell.clark_griffith	Clark Griffith	clark|griffith	Clark|Griffith	NNP|NNP	PERSON|PERSON	|				Clark Griffith	fb:part.clark_griffith
+71	1	fb:cell.1901_20	1901–20	1901|--|20	1901|--|20	CD|:|CD	DATE|O|NUMBER	1901||20.0	1901.0		20.0	1901–20	fb:part.1901_20
+71	2	fb:cell._the_old_fox	"The Old Fox"	``|the|old|fox|''	``|the|Old|Fox|''	``|DT|NNP|NNP|''	O|O|O|O|O	||||				"The Old Fox"	fb:part._the_old_fox
+71	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+72	0	fb:cell.burleigh_grimes	Burleigh Grimes	burleigh|grimes	Burleigh|Grimes	NNP|NNP	PERSON|PERSON	|				Burleigh Grimes	fb:part.burleigh_grimes
+72	1	fb:cell.1916_34	1916–34	1916|--|34	1916|--|34	CD|:|CD	DATE|O|NUMBER	1916||34.0	1916.0		34.0	1916–34	fb:part.1916_34
+72	2	fb:cell._ol_stubblebeard	"Ol' Stubblebeard"	``|ol'|stubblebeard|''	``|ol'|stubblebeard|''	``|JJ|NN|''	O|O|O|O	|||				"Ol' Stubblebeard"	fb:part._ol_stubblebeard
+72	3	fb:cell.brooklyn_dodgers	Brooklyn Dodgers	brooklyn|dodgers	Brooklyn|Dodgers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Brooklyn Dodgers	fb:part.brooklyn_dodgers
+73	0	fb:cell.lefty_grove	Lefty Grove	lefty|grove	Lefty|Grove	NNP|NNP	O|O	|				Lefty Grove	fb:part.lefty_grove
+73	1	fb:cell.1925_41	1925–41	1925|--|41	1925|--|41	CD|:|CD	DATE|O|NUMBER	1925||41.0	1925.0		41.0	1925–41	fb:part.1925_41
+73	2	fb:cell._lefty	"Lefty"	``|lefty|''	``|Lefty|''	``|NNP|''	O|O|O	||				"Lefty"	fb:part._lefty
+73	3	fb:cell.boston_red_sox	Boston Red Sox	boston|red|sox	Boston|Red|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Boston Red Sox	fb:part.boston_red_sox
+74	0	fb:cell.tony_gwynn	Tony Gwynn	tony|gwynn	Tony|Gwynn	NNP|NNP	PERSON|PERSON	|				Tony Gwynn	fb:part.tony_gwynn
+74	1	fb:cell.1982_2001	1982–2001	1982|--|2001	1982|--|2001	CD|:|CD	DATE|DATE|DATE	1982|1982|2001	1982.0		2001.0	1982–2001	fb:part.1982_2001
+74	2	fb:cell._captain_video_or_mr_padre	"Captain Video" or "Mr. Padre"	``|captain|video|''|or|``|mr.|padre|''	``|Captain|Video|''|or|``|Mr.|Padre|''	``|NNP|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"Captain Video" or "Mr. Padre"	fb:part._captain_video_or_mr_padre
+74	3	fb:cell.san_diego_padres	San Diego Padres	san|diego|padres	San|Diego|Padres	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				San Diego Padres	fb:part.san_diego_padres
+75	0	fb:cell.chick_hafey	Chick Hafey	chick|hafey	Chick|Hafey	NNP|NNP	PERSON|PERSON	|				Chick Hafey	fb:part.chick_hafey
+75	1	fb:cell.1924_37	1924–37	1924|--|37	1924|--|37	CD|:|CD	DATE|O|NUMBER	1924||37.0	1924.0		37.0	1924–37	fb:part.1924_37
+75	2	fb:cell._chick	"Chick"	``|chick|''	``|Chick|''	``|NNP|''	O|O|O	||				"Chick"	fb:part._chick
+75	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+76	0	fb:cell.jesse_haines	Jesse Haines	jesse|haines	Jesse|Haines	NNP|NNP	PERSON|PERSON	|				Jesse Haines	fb:part.jesse_haines
+76	1	fb:cell.1918_37	1918–37	1918|--|37	1918|--|37	CD|:|CD	DATE|O|NUMBER	1918||37.0	1918.0		37.0	1918–37	fb:part.1918_37
+76	2	fb:cell._pop	"Pop"	``|pop|''	``|pop|''	``|NN|''	O|O|O	||				"Pop"	fb:part._pop
+76	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+77	0	fb:cell.billy_hamilton	Billy Hamilton	billy|hamilton	Billy|Hamilton	NNP|NNP	PERSON|PERSON	|				Billy Hamilton	fb:part.billy_hamilton
+77	1	fb:cell.1888_1901	1888–1901	1888|--|1901	1888|--|1901	CD|:|CD	DATE|DATE|DATE	1888|1888|1901	1888.0		1901.0	1888–1901	fb:part.1888_1901
+77	2	fb:cell._sliding_billy	"Sliding Billy"	``|sliding|billy|''	``|slide|Billy|''	``|VBG|NNP|''	O|O|O|O	|||				"Sliding Billy"	fb:part._sliding_billy
+77	3	fb:cell.boston_beaneaters	Boston Beaneaters	boston|beaneaters	Boston|Beaneaters	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Boston Beaneaters	fb:part.boston_beaneaters
+78	0	fb:cell.ned_hanlon	Ned Hanlon	ned|hanlon	Ned|Hanlon	NNP|NNP	PERSON|PERSON	|				Ned Hanlon	fb:part.ned_hanlon
+78	1	fb:cell.1880_1907	1880–1907	1880|--|1907	1880|--|1907	NNP|:|CD	DATE|DATE|DATE	1880|1880|1907	1880.0		1907.0	1880–1907	fb:part.1880_1907
+78	2	fb:cell._ned	"Ned"	``|ned|''	``|Ned|''	``|NNP|''	O|O|O	||				"Ned"	fb:part._ned
+78	3	fb:cell.baltimore_orioles_nl	Baltimore Orioles (NL)	baltimore|orioles|-lrb-|nl|-rrb-	Baltimore|Orioles|-lrb-|NL|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O	||||				Baltimore Orioles (NL)	fb:part.baltimore_orioles_nl
+79	0	fb:cell.bucky_harris	Bucky Harris	bucky|harris	Bucky|Harris	NNP|NNP	PERSON|PERSON	|				Bucky Harris	fb:part.bucky_harris
+79	1	fb:cell.1919_56	1919–56	1919|--|56	1919|--|56	CD|:|CD	DATE|O|NUMBER	1919||56.0	1919.0		56.0	1919–56	fb:part.1919_56
+79	2	fb:cell._bucky	"Bucky"	``|bucky|''	``|Bucky|''	``|NNP|''	O|O|O	||				"Bucky"	fb:part._bucky
+79	3	fb:cell.washington_senators	Washington Senators	washington|senators	Washington|Senators	NNP|NNPS	LOCATION|O	|				Washington Senators	fb:part.washington_senators
+80	0	fb:cell.gabby_hartnett	Gabby Hartnett	gabby|hartnett	Gabby|Hartnett	NNP|NNP	PERSON|PERSON	|				Gabby Hartnett	fb:part.gabby_hartnett
+80	1	fb:cell.1922_41	1922–41	1922|--|41	1922|--|41	CD|:|CD	DATE|O|NUMBER	1922||41.0	1922.0		41.0	1922–41	fb:part.1922_41
+80	2	fb:cell._gabby_or_old_tomato_face	"Gabby" or "Old Tomato Face"	``|gabby|''|or|``|old|tomato|face|''	``|Gabby|''|or|``|Old|Tomato|Face|''	``|NNP|''|CC|``|NNP|NNP|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"Gabby" or "Old Tomato Face"	fb:part._gabby_or_old_tomato_face
+80	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+81	0	fb:cell.harry_heilmann	Harry Heilmann	harry|heilmann	Harry|Heilmann	NNP|NNP	PERSON|PERSON	|				Harry Heilmann	fb:part.harry_heilmann
+81	1	fb:cell.1914_32	1914–32	1914|--|32	1914|--|32	CD|:|CD	DATE|O|NUMBER	1914||32.0	1914.0		32.0	1914–32	fb:part.1914_32
+81	2	fb:cell._slug	"Slug"	``|slug|''	``|slug|''	``|NN|''	O|O|O	||				"Slug"	fb:part._slug
+81	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+82	0	fb:cell.harry_hooper	Harry Hooper	harry|hooper	Harry|Hooper	NNP|NNP	PERSON|PERSON	|				Harry Hooper	fb:part.harry_hooper
+82	1	fb:cell.1909_25	1909–25	1909|--|25	1909|--|25	CD|:|CD	DATE|O|NUMBER	1909||25.0	1909.0		25.0	1909–25	fb:part.1909_25
+82	2	fb:cell._hoop	"Hoop"	``|hoop|''	``|Hoop|''	``|NNP|''	O|O|O	||				"Hoop"	fb:part._hoop
+82	3	fb:cell.boston_red_sox	Boston Red Sox	boston|red|sox	Boston|Red|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Boston Red Sox	fb:part.boston_red_sox
+83	0	fb:cell.rogers_hornsby	Rogers Hornsby	rogers|hornsby	Rogers|Hornsby	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Rogers Hornsby	fb:part.rogers_hornsby
+83	1	fb:cell.1915_37	1915–37	1915|--|37	1915|--|37	CD|:|CD	DATE|O|NUMBER	1915||37.0	1915.0		37.0	1915–37	fb:part.1915_37
+83	2	fb:cell._rajah	"Rajah"	``|rajah|''	``|rajah|''	``|NN|''	O|O|O	||				"Rajah"	fb:part._rajah
+83	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+84	0	fb:cell.waite_hoyt	Waite Hoyt	waite|hoyt	Waite|Hoyt	NNP|NNP	PERSON|PERSON	|				Waite Hoyt	fb:part.waite_hoyt
+84	1	fb:cell.1918_38	1918–38	1918|--|38	1918|--|38	CD|:|CD	DATE|O|NUMBER	1918||38.0	1918.0		38.0	1918–38	fb:part.1918_38
+84	2	fb:cell._schoolboy	"Schoolboy"	``|schoolboy|''	``|Schoolboy|''	``|NNP|''	O|O|O	||				"Schoolboy"	fb:part._schoolboy
+84	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+85	0	fb:cell.carl_hubbell	Carl Hubbell	carl|hubbell	Carl|Hubbell	NNP|NNP	PERSON|PERSON	|				Carl Hubbell	fb:part.carl_hubbell
+85	1	fb:cell.1928_43	1928–43	1928|--|43	1928|--|43	CD|:|CD	DATE|O|NUMBER	1928||43.0	1928.0		43.0	1928–43	fb:part.1928_43
+85	2	fb:cell._king_carl_or_the_meal_ticket	"King Carl" or "The Meal Ticket"	``|king|carl|''|or|``|the|meal|ticket|''	``|King|Carl|''|or|``|the|Meal|Ticket|''	``|NNP|NNP|''|CC|``|DT|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O	|||||||||				"King Carl" or "The Meal Ticket"	fb:part._king_carl_or_the_meal_ticket
+85	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+86	0	fb:cell.catfish_hunter	Catfish Hunter	catfish|hunter	Catfish|Hunter	NNP|NNP	O|O	|				Catfish Hunter	fb:part.catfish_hunter
+86	1	fb:cell.1965_79	1965–79	1965|--|79	1965|--|79	CD|:|CD	DATE|O|NUMBER	1965||79.0	1965.0		79.0	1965–79	fb:part.1965_79
+86	2	fb:cell._catfish	"Catfish"	``|catfish|''	``|catfish|''	``|NN|''	O|MISC|O	||				"Catfish"	fb:part._catfish
+86	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+87	0	fb:cell.monte_irvin	Monte Irvin	monte|irvin	Monte|Irvin	NNP|NNP	PERSON|PERSON	|				Monte Irvin	fb:part.monte_irvin
+87	1	fb:cell.1949_56	1949–56	1949|--|56	1949|--|56	CD|:|CD	DATE|O|NUMBER	1949||56.0	1949.0		56.0	1949–56	fb:part.1949_56
+87	2	fb:cell._mr_murder	"Mr. Murder"	``|mr.|murder|''	``|Mr.|murder|''	``|NNP|NN|''	O|O|O|O	|||				"Mr. Murder"	fb:part._mr_murder
+87	3	fb:cell.newark_eagles	Newark Eagles	newark|eagles	Newark|Eagles	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Newark Eagles	fb:part.newark_eagles
+88	0	fb:cell.reggie_jackson	Reggie Jackson	reggie|jackson	Reggie|Jackson	NNP|NNP	PERSON|PERSON	|				Reggie Jackson	fb:part.reggie_jackson
+88	1	fb:cell.1967_87	1967–87	1967|--|87	1967|--|87	CD|:|CD	DATE|O|NUMBER	1967||87.0	1967.0		87.0	1967–87	fb:part.1967_87
+88	2	fb:cell._mr_october	"Mr. October"	``|mr.|october|''	``|Mr.|October|''	``|NNP|NNP|''	O|O|DATE|O	||XXXX-10|				"Mr. October"	fb:part._mr_october
+88	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+89	0	fb:cell.travis_jackson	Travis Jackson	travis|jackson	Travis|Jackson	NNP|NNP	PERSON|PERSON	|				Travis Jackson	fb:part.travis_jackson
+89	1	fb:cell.1922_36	1922–36	1922|--|36	1922|--|36	CD|:|CD	DATE|O|NUMBER	1922||36.0	1922.0		36.0	1922–36	fb:part.1922_36
+89	2	fb:cell._stonewall	"Stonewall"	``|stonewall|''	``|Stonewall|''	``|NNP|''	O|O|O	||				"Stonewall"	fb:part._stonewall
+89	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+90	0	fb:cell.ferguson_jenkins	Ferguson Jenkins	ferguson|jenkins	Ferguson|Jenkins	NNP|NNP	PERSON|PERSON	|				Ferguson Jenkins	fb:part.ferguson_jenkins
+90	1	fb:cell.1965_83	1965–83	1965|--|83	1965|--|83	CD|:|CD	DATE|O|NUMBER	1965||83.0	1965.0		83.0	1965–83	fb:part.1965_83
+90	2	fb:cell._fly_or_fergie	"Fly" or "Fergie"	``|fly|''|or|``|fergie|''	``|fly|''|or|``|Fergie|''	``|VB|''|CC|``|NNP|''	O|O|O|O|O|O|O	||||||				"Fly" or "Fergie"	fb:part._fly_or_fergie
+90	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+91	0	fb:cell.hughie_jennings	Hughie Jennings	hughie|jennings	Hughie|Jennings	NNP|NNP	PERSON|PERSON	|				Hughie Jennings	fb:part.hughie_jennings
+91	1	fb:cell.1891_1924	1891–1924	1891|--|1924	1891|--|1924	CD|:|CD	DATE|DATE|DATE	1891|1891|1924	1891.0		1924.0	1891–1924	fb:part.1891_1924
+91	2	fb:cell._ee_yah	"Ee-Yah"	``|ee|yah|''	``|Ee|Yah|''	``|NNP|NNP|''	O|O|O|O	|||				"Ee-Yah"	fb:part._ee_yah
+91	3	fb:cell.baltimore_orioles_nl	Baltimore Orioles (NL)	baltimore|orioles|-lrb-|nl|-rrb-	Baltimore|Orioles|-lrb-|NL|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O	||||				Baltimore Orioles (NL)	fb:part.baltimore_orioles_nl
+92	0	fb:cell.ban_johnson	Ban Johnson	ban|johnson	ban|Johnson	NN|NNP	PERSON|PERSON	|				Ban Johnson	fb:part.ban_johnson
+92	1	fb:cell.1900_1927	1900–1927	1900|--|1927	1900|--|1927	CD|:|CD	DATE|DATE|DATE	1900|1900|1927	1900.0		1927.0	1900–1927	fb:part.1900_1927
+92	2	fb:cell._ban	"Ban"	``|ban|''	``|ban|''	``|NN|''	O|O|O	||				"Ban"	fb:part._ban
+92	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+93	0	fb:cell.walter_johnson	Walter Johnson	walter|johnson	Walter|Johnson	NNP|NNP	PERSON|PERSON	|				Walter Johnson	fb:part.walter_johnson
+93	1	fb:cell.1907_27	1907–27	1907|--|27	1907|--|27	CD|:|CD	DATE|O|NUMBER	1907||27.0	1907.0		27.0	1907–27	fb:part.1907_27
+93	2	fb:cell._the_big_train_or_barney	"The Big Train" or "Barney"	``|the|big|train|''|or|``|barney|''	``|the|big|train|''|or|``|Barney|''	``|DT|JJ|NN|''|CC|``|NNP|''	O|O|MISC|MISC|O|O|O|O|O	||||||||				"The Big Train" or "Barney"	fb:part._the_big_train_or_barney
+93	3	fb:cell.washington_senators	Washington Senators	washington|senators	Washington|Senators	NNP|NNPS	LOCATION|O	|				Washington Senators	fb:part.washington_senators
+94	0	fb:cell.al_kaline	Al Kaline	al|kaline	Al|Kaline	NNP|NNP	PERSON|PERSON	|				Al Kaline	fb:part.al_kaline
+94	1	fb:cell.1953_74	1953–74	1953|--|74	1953|--|74	CD|:|CD	DATE|O|NUMBER	1953||74.0	1953.0		74.0	1953–74	fb:part.1953_74
+94	2	fb:cell._salty_line_or_mr_tiger	"Salty", "Line", or "Mr. Tiger"	``|salty|''|,|``|line|''|,|or|``|mr.|tiger|''	``|Salty|''|,|``|Line|''|,|or|``|Mr.|Tiger|''	``|NNP|''|,|``|NNP|''|,|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				"Salty"|"Line"|or "Mr. Tiger"	fb:part._salty|fb:part._line|fb:part.or_mr_tiger
+94	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+95	0	fb:cell.tim_keefe	Tim Keefe	tim|keefe	Tim|Keefe	NNP|NNP	PERSON|PERSON	|				Tim Keefe	fb:part.tim_keefe
+95	1	fb:cell.1880_93	1880–93	1880|--|93	1880|--|93	NNP|:|CD	DATE|O|NUMBER	1880||93.0	1880.0		93.0	1880–93	fb:part.1880_93
+95	2	fb:cell._smiling_tim_or_sir_timothy	"Smiling Tim" or "Sir Timothy"	``|smiling|tim|''|or|``|sir|timothy|''	``|smile|Tim|''|or|``|Sir|Timothy|''	``|VBG|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"Smiling Tim" or "Sir Timothy"	fb:part._smiling_tim_or_sir_timothy
+95	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+96	0	fb:cell.willie_keeler	Willie Keeler	willie|keeler	Willie|Keeler	NNP|NNP	PERSON|PERSON	|				Willie Keeler	fb:part.willie_keeler
+96	1	fb:cell.1892_1910	1892–1910	1892|--|1910	1892|--|1910	CD|:|CD	DATE|DATE|DATE	1892|1892|1910	1892.0		1910.0	1892–1910	fb:part.1892_1910
+96	2	fb:cell._wee_willie_or_hit_em_where_they_ain_t	"Wee Willie" or "Hit 'Em Where They Ain't"	``|wee|willie|''|or|``|hit|'em|where|they|ai|n't|''	``|Wee|Willie|''|or|``|hit|'Em|where|they|be|not|''	``|NNP|NNP|''|CC|``|VBN|NNP|WRB|PRP|VBP|RB|''	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				"Wee Willie" or "Hit 'Em Where They Ain't"	fb:part._wee_willie_or_hit_em_where_they_ain_t
+96	3	fb:cell.new_york_highlanders	New York Highlanders	new|york|highlanders	New|York|Highlanders	NNP|NNP|NNPS	O|O|O	||				New York Highlanders	fb:part.new_york_highlanders
+97	0	fb:cell.george_kelly	George Kelly	george|kelly	George|Kelly	NNP|NNP	PERSON|PERSON	|				George Kelly	fb:part.george_kelly
+97	1	fb:cell.1915_32	1915–32	1915|--|32	1915|--|32	CD|:|CD	DATE|O|NUMBER	1915||32.0	1915.0		32.0	1915–32	fb:part.1915_32
+97	2	fb:cell._highpockets	"Highpockets"	``|highpockets|''	``|highpocket|''	``|NNS|''	O|O|O	||				"Highpockets"	fb:part._highpockets
+97	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+98	0	fb:cell.king_kelly	King Kelly	king|kelly	King|Kelly	NNP|NNP	O|O	|				King Kelly	fb:part.king_kelly
+98	1	fb:cell.1878_93	1878–93	1878|--|93	1878|--|93	CD|:|CD	DATE|O|NUMBER	1878||93.0	1878.0		93.0	1878–93	fb:part.1878_93
+98	2	fb:cell._honest_joe_or_king	"Honest Joe" or "King"	``|honest|joe|''|or|``|king|''	``|Honest|Joe|''|or|``|King|''	``|NNP|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Honest Joe" or "King"	fb:part._honest_joe_or_king
+98	3	fb:cell.chicago_white_stockings	Chicago White Stockings	chicago|white|stockings	Chicago|White|Stockings	NNP|NNP|NNPS	LOCATION|O|O	||				Chicago White Stockings	fb:part.chicago_white_stockings
+99	0	fb:cell.harmon_killebrew	Harmon Killebrew	harmon|killebrew	Harmon|Killebrew	NNP|NNP	PERSON|PERSON	|				Harmon Killebrew	fb:part.harmon_killebrew
+99	1	fb:cell.1954_75	1954–75	1954|--|75	1954|--|75	CD|:|CD	DATE|O|NUMBER	1954||75.0	1954.0		75.0	1954–75	fb:part.1954_75
+99	2	fb:cell._killer	"Killer"	``|killer|''	``|killer|''	``|NN|''	O|O|O	||				"Killer"	fb:part._killer
+99	3	fb:cell.minnesota_twins	Minnesota Twins	minnesota|twins	Minnesota|twin	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Minnesota Twins	fb:part.minnesota_twins
+100	0	fb:cell.chuck_klein	Chuck Klein	chuck|klein	Chuck|Klein	NNP|NNP	PERSON|PERSON	|				Chuck Klein	fb:part.chuck_klein
+100	1	fb:cell.1928_44	1928–44	1928|--|44	1928|--|44	CD|:|CD	DATE|O|NUMBER	1928||44.0	1928.0		44.0	1928–44	fb:part.1928_44
+100	2	fb:cell._the_hoosier_hammerer	"The Hoosier Hammerer"	``|the|hoosier|hammerer|''	``|the|Hoosier|Hammerer|''	``|DT|NNP|NNP|''	O|O|O|O|O	||||				"The Hoosier Hammerer"	fb:part._the_hoosier_hammerer
+100	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+101	0	fb:cell.nap_lajoie	Nap Lajoie	nap|lajoie	Nap|Lajoie	NNP|NNP	PERSON|PERSON	|				Nap Lajoie	fb:part.nap_lajoie
+101	1	fb:cell.1896_1916	1896–1916	1896|--|1916	1896|--|1916	CD|:|CD	DATE|DATE|DATE	1896|1896|1916	1896.0		1916.0	1896–1916	fb:part.1896_1916
+101	2	fb:cell._larry_or_poli_or_nap	"Larry" or "Poli" or "Nap"	``|larry|''|or|``|poli|''|or|``|nap|''	``|Larry|''|or|``|Poli|''|or|``|nap|''	``|NNP|''|CC|``|NNP|''|CC|``|NN|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"Larry" or "Poli" or "Nap"	fb:part._larry_or_poli_or_nap
+101	3	fb:cell.cleveland_indians	Cleveland Indians	cleveland|indians	Cleveland|Indians	NNP|NNPS	O|O	|				Cleveland Indians	fb:part.cleveland_indians
+102	0	fb:cell.tony_lazzeri	Tony Lazzeri	tony|lazzeri	Tony|Lazzeri	NNP|NNP	PERSON|PERSON	|				Tony Lazzeri	fb:part.tony_lazzeri
+102	1	fb:cell.1926_39	1926–39	1926|--|39	1926|--|39	CD|:|CD	DATE|O|NUMBER	1926||39.0	1926.0		39.0	1926–39	fb:part.1926_39
+102	2	fb:cell._poosh_em_up_tony	"Poosh 'Em Up Tony"	``|poosh|'em|up|tony|''	``|Poosh|'Em|up|Tony|''	``|NNP|NNP|IN|NNP|''	O|O|O|O|O|O	|||||				"Poosh 'Em Up Tony"	fb:part._poosh_em_up_tony
+102	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+103	0	fb:cell.buck_leonard	Buck Leonard	buck|leonard	Buck|Leonard	NNP|NNP	O|PERSON	|				Buck Leonard	fb:part.buck_leonard
+103	1	fb:cell.1933_1950	1933–1950	1933|--|1950	1933|--|1950	CD|:|CD	DATE|DATE|DATE	1933|1933|1950	1933.0		1950.0	1933–1950	fb:part.1933_1950
+103	2	fb:cell._buck	"Buck"	``|buck|''	``|Buck|''	``|NNP|''	O|O|O	||				"Buck"	fb:part._buck
+103	3	fb:cell.homestead_grays	Homestead Grays	homestead|grays	Homestead|Grays	NNP|NNP	O|O	|				Homestead Grays	fb:part.homestead_grays
+104	0	fb:cell.freddie_lindstrom	Freddie Lindstrom	freddie|lindstrom	Freddie|Lindstrom	NNP|NNP	PERSON|PERSON	|				Freddie Lindstrom	fb:part.freddie_lindstrom
+104	1	fb:cell.1924_36	1924–36	1924|--|36	1924|--|36	CD|:|CD	DATE|O|NUMBER	1924||36.0	1924.0		36.0	1924–36	fb:part.1924_36
+104	2	fb:cell._lindy	"Lindy"	``|lindy|''	``|Lindy|''	``|NNP|''	O|O|O	||				"Lindy"	fb:part._lindy
+104	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+105	0	fb:cell.pop_lloyd	Pop Lloyd	pop|lloyd	Pop|Lloyd	NNP|NNP	O|O	|				Pop Lloyd	fb:part.pop_lloyd
+105	1	fb:cell.1906_1932	1906–1932	1906|--|1932	1906|--|1932	CD|:|CD	DATE|DATE|DATE	1906|1906|1932	1906.0		1932.0	1906–1932	fb:part.1906_1932
+105	2	fb:cell._pop	"Pop"	``|pop|''	``|pop|''	``|NN|''	O|O|O	||				"Pop"	fb:part._pop
+105	3	fb:cell.new_york_lincoln_giants	New York Lincoln Giants	new|york|lincoln|giants	New|York|Lincoln|Giants	NNP|NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				New York Lincoln Giants	fb:part.new_york_lincoln_giants
+106	0	fb:cell.ernie_lombardi	Ernie Lombardi	ernie|lombardi	Ernie|Lombardi	NNP|NNP	PERSON|PERSON	|				Ernie Lombardi	fb:part.ernie_lombardi
+106	1	fb:cell.1931_47	1931–47	1931|--|47	1931|--|47	CD|:|CD	DATE|O|NUMBER	1931||47.0	1931.0		47.0	1931–47	fb:part.1931_47
+106	2	fb:cell._bocci_or_schnozz	"Bocci" or "Schnozz"	``|bocci|''|or|``|schnozz|''	``|Bocci|''|or|``|Schnozz|''	``|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O	||||||				"Bocci" or "Schnozz"	fb:part._bocci_or_schnozz
+106	3	fb:cell.cincinnati_reds	Cincinnati Reds	cincinnati|reds	Cincinnati|red	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Cincinnati Reds	fb:part.cincinnati_reds
+107	0	fb:cell.ted_lyons	Ted Lyons	ted|lyons	Ted|Lyons	NNP|NNP	PERSON|PERSON	|				Ted Lyons	fb:part.ted_lyons
+107	1	fb:cell.1923_46	1923–46	1923|--|46	1923|--|46	CD|:|CD	DATE|O|NUMBER	1923||46.0	1923.0		46.0	1923–46	fb:part.1923_46
+107	2	fb:cell._sunday_teddy	"Sunday Teddy"	``|sunday|teddy|''	``|Sunday|Teddy|''	``|NNP|NNP|''	O|DATE|O|O	|XXXX-WXX-7||				"Sunday Teddy"	fb:part._sunday_teddy
+107	3	fb:cell.chicago_white_sox	Chicago White Sox	chicago|white|sox	Chicago|White|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Chicago White Sox	fb:part.chicago_white_sox
+108	0	fb:cell.connie_mack	Connie Mack	connie|mack	Connie|Mack	NNP|NNP	PERSON|PERSON	|				Connie Mack	fb:part.connie_mack
+108	1	fb:cell.1894_1950	1894–1950	1894|--|1950	1894|--|1950	CD|:|CD	DATE|DATE|DATE	1894|1894|1950	1894.0		1950.0	1894–1950	fb:part.1894_1950
+108	2	fb:cell._connie_mr_baseball_or_the_tall_tactician	"Connie", "Mr. Baseball", or "The Tall Tactician"	``|connie|''|,|``|mr.|baseball|''|,|or|``|the|tall|tactician|''	``|Connie|''|,|``|Mr.|Baseball|''|,|or|``|the|Tall|Tactician|''	``|NNP|''|,|``|NNP|NNP|''|,|CC|``|DT|NNP|NNP|''	O|MISC|O|O|O|O|O|O|O|O|O|O|MISC|MISC|O	||||||||||||||				"Connie"|"Mr. Baseball"|or "The Tall Tactician"	fb:part._connie|fb:part._mr_baseball|fb:part.or_the_tall_tactician
+108	3	fb:cell.philadelphia_athletics	Philadelphia Athletics	philadelphia|athletics	Philadelphia|Athletics	NNP|NNP	LOCATION|LOCATION	|				Philadelphia Athletics	fb:part.philadelphia_athletics
+109	0	fb:cell.mickey_mantle	Mickey Mantle	mickey|mantle	Mickey|Mantle	NNP|NNP	PERSON|PERSON	|				Mickey Mantle	fb:part.mickey_mantle
+109	1	fb:cell.1951_68	1951–68	1951|--|68	1951|--|68	CD|:|CD	DATE|O|NUMBER	1951||68.0	1951.0		68.0	1951–68	fb:part.1951_68
+109	2	fb:cell._the_mick_the_commerce_comet_or_muscles	"The Mick", "The Commerce Comet", or "Muscles"	``|the|mick|''|,|``|the|commerce|comet|''|,|or|``|muscles|''	``|the|Mick|''|,|``|the|Commerce|Comet|''|,|or|``|Muscles|''	``|DT|NNP|''|,|``|DT|NNP|NNP|''|,|CC|``|NNPS|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				"The Mick"|"The Commerce Comet"|or "Muscles"	fb:part._the_mick|fb:part._the_commerce_comet|fb:part.or_muscles
+109	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+110	0	fb:cell.heinie_manush	Heinie Manush	heinie|manush	Heinie|Manush	NNP|NNP	PERSON|PERSON	|				Heinie Manush	fb:part.heinie_manush
+110	1	fb:cell.1923_39	1923–39	1923|--|39	1923|--|39	CD|:|CD	DATE|O|NUMBER	1923||39.0	1923.0		39.0	1923–39	fb:part.1923_39
+110	2	fb:cell._heinie	"Heinie"	``|heinie|''	``|Heinie|''	``|NNP|''	O|O|O	||				"Heinie"	fb:part._heinie
+110	3	fb:cell.washington_senators	Washington Senators	washington|senators	Washington|Senators	NNP|NNPS	LOCATION|O	|				Washington Senators	fb:part.washington_senators
+111	0	fb:cell.rabbit_maranville	Rabbit Maranville	rabbit|maranville	rabbit|Maranville	NN|NNP	O|O	|				Rabbit Maranville	fb:part.rabbit_maranville
+111	1	fb:cell.1912_35	1912–35	1912|--|35	1912|--|35	CD|:|CD	DATE|O|NUMBER	1912||35.0	1912.0		35.0	1912–35	fb:part.1912_35
+111	2	fb:cell._rabbit	"Rabbit"	``|rabbit|''	``|rabbit|''	``|NN|''	O|O|O	||				"Rabbit"	fb:part._rabbit
+111	3	fb:cell.boston_braves	Boston Braves	boston|braves	Boston|Braves	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Boston Braves	fb:part.boston_braves
+112	0	fb:cell.juan_marichal	Juan Marichal	juan|marichal	Juan|Marichal	NNP|NNP	PERSON|PERSON	|				Juan Marichal	fb:part.juan_marichal
+112	1	fb:cell.1960_75	1960–75	1960|--|75	1960|--|75	CD|:|CD	DATE|O|NUMBER	1960||75.0	1960.0		75.0	1960–75	fb:part.1960_75
+112	2	fb:cell._manito_mar_or_the_dominican_dandy	"Manito", "Mar", or "The Dominican Dandy"	``|manito|''|,|``|mar|''|,|or|``|the|dominican|dandy|''	``|Manito|''|,|``|Mar|''|,|or|``|the|Dominican|Dandy|''	``|NNP|''|,|``|NNP|''|,|CC|``|DT|NNP|NNP|''	O|O|O|O|O|DATE|O|O|O|O|O|O|O|O	|||||XXXX-03||||||||				"Manito"|"Mar"|or "The Dominican Dandy"	fb:part._manito|fb:part._mar|fb:part.or_the_dominican_dandy
+112	3	fb:cell.san_francisco_giants	San Francisco Giants	san|francisco|giants	San|Francisco|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				San Francisco Giants	fb:part.san_francisco_giants
+113	0	fb:cell.rube_marquard	Rube Marquard	rube|marquard	Rube|Marquard	NNP|NNP	PERSON|PERSON	|				Rube Marquard	fb:part.rube_marquard
+113	1	fb:cell.1908_25	1908–25	1908|--|25	1908|--|25	CD|:|CD	DATE|O|NUMBER	1908||25.0	1908.0		25.0	1908–25	fb:part.1908_25
+113	2	fb:cell._rube	"Rube"	``|rube|''	``|rube|''	``|NN|''	O|O|O	||				"Rube"	fb:part._rube
+113	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+114	0	fb:cell.christy_mathewson	Christy Mathewson	christy|mathewson	Christy|Mathewson	NNP|NNP	PERSON|PERSON	|				Christy Mathewson	fb:part.christy_mathewson
+114	1	fb:cell.1900_16	1900–16	1900|--|16	1900|--|16	CD|:|CD	DATE|O|NUMBER	1900||16.0	1900.0		16.0	1900–16	fb:part.1900_16
+114	2	fb:cell._big_six_matty_or_the_christian_gentleman	"Big Six", "Matty", or "The Christian Gentleman"	``|big|six|''|,|``|matty|''|,|or|``|the|christian|gentleman|''	``|big|six|''|,|``|Matty|''|,|or|``|the|christian|gentleman|''	``|JJ|CD|''|,|``|NNP|''|,|CC|``|DT|JJ|NN|''	O|O|NUMBER|O|O|O|O|O|O|O|O|O|MISC|MISC|O	||6.0||||||||||||				"Big Six"|"Matty"|or "The Christian Gentleman"	fb:part._big_six|fb:part._matty|fb:part.or_the_christian_gentleman
+114	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+115	0	fb:cell.willie_mays	Willie Mays	willie|mays	Willie|Mays	NNP|NNP	PERSON|PERSON	|				Willie Mays	fb:part.willie_mays
+115	1	fb:cell.1951_73	1951–73	1951|--|73	1951|--|73	CD|:|CD	DATE|O|NUMBER	1951||73.0	1951.0		73.0	1951–73	fb:part.1951_73
+115	2	fb:cell._the_say_hey_kid	"The Say Hey Kid"	``|the|say|hey|kid|''	``|the|say|hey|kid|''	``|DT|VB|UH|NN|''	O|O|O|O|O|O	|||||				"The Say Hey Kid"	fb:part._the_say_hey_kid
+115	3	fb:cell.san_francisco_giants	San Francisco Giants	san|francisco|giants	San|Francisco|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				San Francisco Giants	fb:part.san_francisco_giants
+116	0	fb:cell.bill_mazeroski	Bill Mazeroski	bill|mazeroski	Bill|Mazeroski	NNP|NNP	PERSON|PERSON	|				Bill Mazeroski	fb:part.bill_mazeroski
+116	1	fb:cell.1956_72	1956–72	1956|--|72	1956|--|72	CD|:|CD	DATE|O|NUMBER	1956||72.0	1956.0		72.0	1956–72	fb:part.1956_72
+116	2	fb:cell._maz	"Maz"	``|maz|''	``|Maz|''	``|NNP|''	O|O|O	||				"Maz"	fb:part._maz
+116	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+117	0	fb:cell.joe_mccarthy	Joe McCarthy	joe|mccarthy	Joe|McCarthy	NNP|NNP	PERSON|PERSON	|				Joe McCarthy	fb:part.joe_mccarthy
+117	1	fb:cell.1926_50	1926–50	1926|--|50	1926|--|50	CD|:|CD	DATE|O|NUMBER	1926||50.0	1926.0		50.0	1926–50	fb:part.1926_50
+117	2	fb:cell._marse_joe	"Marse Joe"	``|marse|joe|''	``|Marse|Joe|''	``|NNP|NNP|''	O|O|O|O	|||				"Marse Joe"	fb:part._marse_joe
+117	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+118	0	fb:cell.willie_mccovey	Willie McCovey	willie|mccovey	Willie|McCovey	NNP|NNP	PERSON|PERSON	|				Willie McCovey	fb:part.willie_mccovey
+118	1	fb:cell.1959_80	1959–80	1959|--|80	1959|--|80	CD|:|CD	DATE|O|NUMBER	1959||80.0	1959.0		80.0	1959–80	fb:part.1959_80
+118	2	fb:cell._stretch_mac_or_big_mac	"Stretch", "Mac", or "Big Mac"	``|stretch|''|,|``|mac|''|,|or|``|big|mac|''	``|Stretch|''|,|``|Mac|''|,|or|``|Big|Mac|''	``|NNP|''|,|``|NNP|''|,|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				"Stretch"|"Mac"|or "Big Mac"	fb:part._stretch|fb:part._mac|fb:part.or_big_mac
+118	3	fb:cell.san_francisco_giants	San Francisco Giants	san|francisco|giants	San|Francisco|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				San Francisco Giants	fb:part.san_francisco_giants
+119	0	fb:cell.joe_mcginnity	Joe McGinnity	joe|mcginnity	Joe|McGinnity	NNP|NNP	PERSON|PERSON	|				Joe McGinnity	fb:part.joe_mcginnity
+119	1	fb:cell.1899_1908	1899–1908	1899|--|1908	1899|--|1908	CD|:|CD	DATE|DATE|DATE	1899|1899|1908	1899.0		1908.0	1899–1908	fb:part.1899_1908
+119	2	fb:cell._iron_man	"Iron Man"	``|iron|man|''	``|Iron|Man|''	``|NNP|NNP|''	O|MISC|MISC|O	|||				"Iron Man"	fb:part._iron_man
+119	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+120	0	fb:cell.bill_mcgowan	Bill McGowan	bill|mcgowan	Bill|McGowan	NNP|NNP	PERSON|PERSON	|				Bill McGowan	fb:part.bill_mcgowan
+120	1	fb:cell.1925_1954	1925–1954	1925|--|1954	1925|--|1954	CD|:|CD	DATE|DATE|DATE	1925|1925|1954	1925.0		1954.0	1925–1954	fb:part.1925_1954
+120	2	fb:cell._little_joe_chest	"Little Joe Chest"	``|little|joe|chest|''	``|little|Joe|chest|''	``|JJ|NNP|NN|''	O|O|O|O|O	||||				"Little Joe Chest"	fb:part._little_joe_chest
+120	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+121	0	fb:cell.john_mcgraw	John McGraw	john|mcgraw	John|McGraw	NNP|NNP	PERSON|PERSON	|				John McGraw	fb:part.john_mcgraw
+121	1	fb:cell.1899_1932	1899–1932	1899|--|1932	1899|--|1932	CD|:|CD	DATE|DATE|DATE	1899|1899|1932	1899.0		1932.0	1899–1932	fb:part.1899_1932
+121	2	fb:cell._little_napoleon_or_mugsy	"Little Napoleon" or "Mugsy"	``|little|napoleon|''|or|``|mugsy|''	``|little|Napoleon|''|or|``|Mugsy|''	``|JJ|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Little Napoleon" or "Mugsy"	fb:part._little_napoleon_or_mugsy
+121	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+122	0	fb:cell.bid_mcphee	Bid McPhee	bid|mcphee	bid|mcphee	NN|NN	O|O	|				Bid McPhee	fb:part.bid_mcphee
+122	1	fb:cell.1882_99	1882–99	1882|--|99	1882|--|99	CD|:|CD	DATE|O|NUMBER	1882||99.0	1882.0		99.0	1882–99	fb:part.1882_99
+122	2	fb:cell._bid	"Bid"	``|bid|''	``|bid|''	``|NN|''	O|O|O	||				"Bid"	fb:part._bid
+122	3	fb:cell.cincinnati_red_stockings	Cincinnati Red Stockings	cincinnati|red|stockings	Cincinnati|Red|Stockings	NNP|NNP|NNP	LOCATION|O|O	||				Cincinnati Red Stockings	fb:part.cincinnati_red_stockings
+123	0	fb:cell.joe_medwick	Joe Medwick	joe|medwick	Joe|Medwick	NNP|NNP	PERSON|PERSON	|				Joe Medwick	fb:part.joe_medwick
+123	1	fb:cell.1932_48	1932–48	1932|--|48	1932|--|48	CD|:|CD	DATE|O|NUMBER	1932||48.0	1932.0		48.0	1932–48	fb:part.1932_48
+123	2	fb:cell._ducky_or_ducky_wucky	"Ducky" or "Ducky Wucky"	``|ducky|''|or|``|ducky|wucky|''	``|Ducky|''|or|``|Ducky|Wucky|''	``|NNP|''|CC|``|NNP|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Ducky" or "Ducky Wucky"	fb:part._ducky_or_ducky_wucky
+123	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+124	0	fb:cell.johnny_mize	Johnny Mize	johnny|mize	Johnny|Mize	NNP|NNP	PERSON|PERSON	|				Johnny Mize	fb:part.johnny_mize
+124	1	fb:cell.1936_53	1936–53	1936|--|53	1936|--|53	CD|:|CD	DATE|O|NUMBER	1936||53.0	1936.0		53.0	1936–53	fb:part.1936_53
+124	2	fb:cell._the_big_cat	"The Big Cat"	``|the|big|cat|''	``|the|big|cat|''	``|DT|JJ|NN|''	O|O|O|O|O	||||				"The Big Cat"	fb:part._the_big_cat
+124	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+125	0	fb:cell.paul_molitor	Paul Molitor	paul|molitor	Paul|Molitor	NNP|NNP	PERSON|PERSON	|				Paul Molitor	fb:part.paul_molitor
+125	1	fb:cell.1978_98	1978–98	1978|--|98	1978|--|98	CD|:|CD	DATE|O|NUMBER	1978||98.0	1978.0		98.0	1978–98	fb:part.1978_98
+125	2	fb:cell._the_ignitor_or_molly	"The Ignitor" or "Molly"	``|the|ignitor|''|or|``|molly|''	``|the|ignitor|''|or|``|Molly|''	``|DT|NN|''|CC|``|NNP|''	O|O|O|O|O|O|O|O	|||||||				"The Ignitor" or "Molly"	fb:part._the_ignitor_or_molly
+125	3	fb:cell.milwaukee_brewers	Milwaukee Brewers	milwaukee|brewers	Milwaukee|brewer	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Milwaukee Brewers	fb:part.milwaukee_brewers
+126	0	fb:cell.joe_morgan	Joe Morgan	joe|morgan	Joe|Morgan	NNP|NNP	PERSON|PERSON	|				Joe Morgan	fb:part.joe_morgan
+126	1	fb:cell.1963_84	1963–84	1963|--|84	1963|--|84	CD|:|CD	DATE|O|NUMBER	1963||84.0	1963.0		84.0	1963–84	fb:part.1963_84
+126	2	fb:cell._little_joe	"Little Joe"	``|little|joe|''	``|little|Joe|''	``|JJ|NNP|''	O|O|O|O	|||				"Little Joe"	fb:part._little_joe
+126	3	fb:cell.cincinnati_reds	Cincinnati Reds	cincinnati|reds	Cincinnati|red	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Cincinnati Reds	fb:part.cincinnati_reds
+127	0	fb:cell.eddie_murray	Eddie Murray	eddie|murray	Eddie|Murray	NNP|NNP	PERSON|PERSON	|				Eddie Murray	fb:part.eddie_murray
+127	1	fb:cell.1977_97	1977–97	1977|--|97	1977|--|97	CD|:|CD	DATE|O|NUMBER	1977||97.0	1977.0		97.0	1977–97	fb:part.1977_97
+127	2	fb:cell._steady_eddie	"Steady Eddie"	``|steady|eddie|''	``|Steady|Eddie|''	``|NNP|NNP|''	O|O|O|O	|||				"Steady Eddie"	fb:part._steady_eddie
+127	3	fb:cell.baltimore_orioles	Baltimore Orioles	baltimore|orioles	Baltimore|Orioles	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Baltimore Orioles	fb:part.baltimore_orioles
+128	0	fb:cell.stan_musial	Stan Musial	stan|musial	Stan|Musial	NNP|NNP	PERSON|PERSON	|				Stan Musial	fb:part.stan_musial
+128	1	fb:cell.1941_63	1941–63	1941|--|63	1941|--|63	CD|:|CD	DATE|O|NUMBER	1941||63.0	1941.0		63.0	1941–63	fb:part.1941_63
+128	2	fb:cell._stan_the_man	"Stan the Man"	``|stan|the|man|''	``|Stan|the|man|''	``|NNP|DT|NN|''	O|O|O|O|O	||||				"Stan the Man"	fb:part._stan_the_man
+128	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+129	0	fb:cell.hal_newhouser	Hal Newhouser	hal|newhouser	Hal|Newhouser	NNP|NNP	PERSON|PERSON	|				Hal Newhouser	fb:part.hal_newhouser
+129	1	fb:cell.1939_55	1939–55	1939|--|55	1939|--|55	CD|:|CD	DATE|O|NUMBER	1939||55.0	1939.0		55.0	1939–55	fb:part.1939_55
+129	2	fb:cell._prince_hal	"Prince Hal"	``|prince|hal|''	``|Prince|Hal|''	``|NNP|NNP|''	O|O|PERSON|O	|||				"Prince Hal"	fb:part._prince_hal
+129	3	fb:cell.detroit_tigers	Detroit Tigers	detroit|tigers	Detroit|Tigers	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Tigers	fb:part.detroit_tigers
+130	0	fb:cell.kid_nichols	Kid Nichols	kid|nichols	kid|Nichols	NN|NNP	O|PERSON	|				Kid Nichols	fb:part.kid_nichols
+130	1	fb:cell.1890_1906	1890–1906	1890|--|1906	1890|--|1906	CD|:|CD	DATE|DATE|DATE	1890|1890|1906	1890.0		1906.0	1890–1906	fb:part.1890_1906
+130	2	fb:cell._kid	"Kid"	``|kid|''	``|kid|''	``|NN|''	O|O|O	||				"Kid"	fb:part._kid
+130	3	fb:cell.boston_beaneaters	Boston Beaneaters	boston|beaneaters	Boston|Beaneaters	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Boston Beaneaters	fb:part.boston_beaneaters
+131	0	fb:cell.phil_niekro	Phil Niekro	phil|niekro	Phil|Niekro	NNP|NNP	PERSON|PERSON	|				Phil Niekro	fb:part.phil_niekro
+131	1	fb:cell.1964_87	1964–87	1964|--|87	1964|--|87	CD|:|CD	DATE|O|NUMBER	1964||87.0	1964.0		87.0	1964–87	fb:part.1964_87
+131	2	fb:cell._knucksie	"Knucksie"	``|knucksie|''	``|Knucksie|''	``|NNP|''	O|O|O	||				"Knucksie"	fb:part._knucksie
+131	3	fb:cell.atlanta_braves	Atlanta Braves	atlanta|braves	Atlanta|Braves	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Atlanta Braves	fb:part.atlanta_braves
+132	0	fb:cell.jim_o_rourke	Jim O'Rourke	jim|o'rourke	Jim|O'Rourke	NNP|NNP	PERSON|PERSON	|				Jim O'Rourke	fb:part.jim_o_rourke
+132	1	fb:cell.1872_1904	1872–1904	1872|--|1904	1872|--|1904	CD|:|CD	DATE|DATE|DATE	1872|1872|1904	1872.0		1904.0	1872–1904	fb:part.1872_1904
+132	2	fb:cell._orator_jim	"Orator Jim"	``|orator|jim|''	``|Orator|Jim|''	``|NNP|NNP|''	O|O|O|O	|||				"Orator Jim"	fb:part._orator_jim
+132	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+133	0	fb:cell.mel_ott	Mel Ott	mel|ott	Mel|Ott	NNP|NNP	PERSON|PERSON	|				Mel Ott	fb:part.mel_ott
+133	1	fb:cell.1926_47	1926–47	1926|--|47	1926|--|47	CD|:|CD	DATE|O|NUMBER	1926||47.0	1926.0		47.0	1926–47	fb:part.1926_47
+133	2	fb:cell._master_melvin	"Master Melvin"	``|master|melvin|''	``|Master|Melvin|''	``|NNP|NNP|''	O|O|O|O	|||				"Master Melvin"	fb:part._master_melvin
+133	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+134	0	fb:cell.satchel_paige	Satchel Paige	satchel|paige	Satchel|Paige	NNP|NNP	PERSON|PERSON	|				Satchel Paige	fb:part.satchel_paige
+134	1	fb:cell.1948_53	1948–53	1948|--|53	1948|--|53	CD|:|CD	DATE|O|NUMBER	1948||53.0	1948.0		53.0	1948–53	fb:part.1948_53
+134	2	fb:cell._satchel	"Satchel"	``|satchel|''	``|Satchel|''	``|NNP|''	O|O|O	||				"Satchel"	fb:part._satchel
+134	3	fb:cell.kansas_city_monarchs	Kansas City Monarchs	kansas|city|monarchs	Kansas|City|Monarchs	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Kansas City Monarchs	fb:part.kansas_city_monarchs
+135	0	fb:cell.jim_palmer	Jim Palmer	jim|palmer	Jim|Palmer	NNP|NNP	PERSON|PERSON	|				Jim Palmer	fb:part.jim_palmer
+135	1	fb:cell.1965_84	1965–84	1965|--|84	1965|--|84	CD|:|CD	DATE|O|NUMBER	1965||84.0	1965.0		84.0	1965–84	fb:part.1965_84
+135	2	fb:cell._cakes	"Cakes"	``|cakes|''	``|cake|''	``|NNS|''	O|O|O	||				"Cakes"	fb:part._cakes
+135	3	fb:cell.baltimore_orioles	Baltimore Orioles	baltimore|orioles	Baltimore|Orioles	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Baltimore Orioles	fb:part.baltimore_orioles
+136	0	fb:cell.herb_pennock	Herb Pennock	herb|pennock	Herb|Pennock	NNP|NNP	PERSON|PERSON	|				Herb Pennock	fb:part.herb_pennock
+136	1	fb:cell.1912_34	1912–34	1912|--|34	1912|--|34	CD|:|CD	DATE|O|NUMBER	1912||34.0	1912.0		34.0	1912–34	fb:part.1912_34
+136	2	fb:cell._the_knight_of_kennett_square	"The Knight of Kennett Square"	``|the|knight|of|kennett|square|''	``|the|Knight|of|Kennett|Square|''	``|DT|NNP|IN|NNP|NNP|''	O|O|O|O|O|O|O	||||||				"The Knight of Kennett Square"	fb:part._the_knight_of_kennett_square
+136	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+137	0	fb:cell.kirby_puckett	Kirby Puckett	kirby|puckett	Kirby|Puckett	NNP|NNP	PERSON|PERSON	|				Kirby Puckett	fb:part.kirby_puckett
+137	1	fb:cell.1984_95	1984–95	1984|--|95	1984|--|95	CD|:|CD	DATE|O|NUMBER	1984||95.0	1984.0		95.0	1984–95	fb:part.1984_95
+137	2	fb:cell._puck	"Puck"	``|puck|''	``|puck|''	``|NN|''	O|O|O	||				"Puck"	fb:part._puck
+137	3	fb:cell.minnesota_twins	Minnesota Twins	minnesota|twins	Minnesota|twin	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Minnesota Twins	fb:part.minnesota_twins
+138	0	fb:cell.charles_radbourn	Charles Radbourn	charles|radbourn	Charles|Radbourn	NNP|NNP	PERSON|PERSON	|				Charles Radbourn	fb:part.charles_radbourn
+138	1	fb:cell.1881_91	1881–91	1881|--|91	1881|--|91	CD|:|CD	DATE|O|NUMBER	1881||91.0	1881.0		91.0	1881–91	fb:part.1881_91
+138	2	fb:cell._old_hoss	"Old Hoss"	``|old|hoss|''	``|Old|Hoss|''	``|NNP|NNP|''	O|O|O|O	|||				"Old Hoss"	fb:part._old_hoss
+138	3	fb:cell.providence_grays	Providence Grays	providence|grays	Providence|Grays	NNP|NNP	O|O	|				Providence Grays	fb:part.providence_grays
+139	0	fb:cell.pee_wee_reese	Pee Wee Reese	pee|wee|reese	Pee|Wee|Reese	NNP|NNP|NNP	O|O|O	||				Pee Wee Reese	fb:part.pee_wee_reese
+139	1	fb:cell.1940_58	1940–58	1940|--|58	1940|--|58	CD|:|CD	DATE|O|NUMBER	1940||58.0	1940.0		58.0	1940–58	fb:part.1940_58
+139	2	fb:cell._pee_wee_or_the_little_colonel	"Pee Wee" or "The Little Colonel"	``|pee|wee|''|or|``|the|little|colonel|''	``|Pee|Wee|''|or|``|the|little|Colonel|''	``|NNP|NNP|''|CC|``|DT|JJ|NNP|''	O|O|O|O|O|O|O|O|O|O	|||||||||				"Pee Wee" or "The Little Colonel"	fb:part._pee_wee_or_the_little_colonel
+139	3	fb:cell.brooklyn_dodgers	Brooklyn Dodgers	brooklyn|dodgers	Brooklyn|Dodgers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Brooklyn Dodgers	fb:part.brooklyn_dodgers
+140	0	fb:cell.branch_rickey	Branch Rickey	branch|rickey	Branch|Rickey	NNP|NNP	O|PERSON	|				Branch Rickey	fb:part.branch_rickey
+140	1	fb:cell.1905_07_1913_25	1905–07, 1913–25	1905|--|07|,|1913|--|25	1905|--|07|,|1913|--|25	CD|:|CD|,|CD|:|CD	DATE|O|NUMBER|O|DATE|O|NUMBER	1905||7.0||1913||25.0	1905.0		71913.0	1905–07|1913–25	fb:part.1905_07|fb:part.1913_25
+140	2	fb:cell._the_mahatma	"The Mahatma"	``|the|mahatma|''	``|the|Mahatma|''	``|DT|NNP|''	O|O|O|O	|||				"The Mahatma"	fb:part._the_mahatma
+140	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+141	0	fb:cell.cal_ripken_jr	Cal Ripken, Jr	cal|ripken|,|jr	Cal|Ripken|,|Jr	NNP|NNP|,|NNP	PERSON|PERSON|O|O	|||				Cal Ripken|Jr	fb:part.cal_ripken|fb:part.jr
+141	1	fb:cell.1981_2001	1981–2001	1981|--|2001	1981|--|2001	CD|:|CD	DATE|DATE|DATE	1981|1981|2001	1981.0		2001.0	1981–2001	fb:part.1981_2001
+141	2	fb:cell._iron_man	"Iron Man"	``|iron|man|''	``|Iron|Man|''	``|NNP|NNP|''	O|MISC|MISC|O	|||				"Iron Man"	fb:part._iron_man
+141	3	fb:cell.baltimore_orioles	Baltimore Orioles	baltimore|orioles	Baltimore|Orioles	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Baltimore Orioles	fb:part.baltimore_orioles
+142	0	fb:cell.eppa_rixey	Eppa Rixey	eppa|rixey	eppa|rixey	NN|NN	PERSON|PERSON	|				Eppa Rixey	fb:part.eppa_rixey
+142	1	fb:cell.1912_33	1912–33	1912|--|33	1912|--|33	CD|:|CD	DATE|O|NUMBER	1912||33.0	1912.0		33.0	1912–33	fb:part.1912_33
+142	2	fb:cell._jeptha	"Jeptha"	``|jeptha|''	``|jeptha|''	``|NN|''	O|O|O	||				"Jeptha"	fb:part._jeptha
+142	3	fb:cell.cincinnati_reds	Cincinnati Reds	cincinnati|reds	Cincinnati|red	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Cincinnati Reds	fb:part.cincinnati_reds
+143	0	fb:cell.phil_rizzuto	Phil Rizzuto	phil|rizzuto	Phil|Rizzuto	NNP|NNP	PERSON|PERSON	|				Phil Rizzuto	fb:part.phil_rizzuto
+143	1	fb:cell.1941_56	1941–56	1941|--|56	1941|--|56	CD|:|CD	DATE|O|NUMBER	1941||56.0	1941.0		56.0	1941–56	fb:part.1941_56
+143	2	fb:cell._scooter	"Scooter"	``|scooter|''	``|scooter|''	``|NN|''	O|O|O	||				"Scooter"	fb:part._scooter
+143	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+144	0	fb:cell.brooks_robinson	Brooks Robinson	brooks|robinson	Brooks|Robinson	NNP|NNP	PERSON|PERSON	|				Brooks Robinson	fb:part.brooks_robinson
+144	1	fb:cell.1955_77	1955–77	1955|--|77	1955|--|77	CD|:|CD	DATE|O|NUMBER	1955||77.0	1955.0		77.0	1955–77	fb:part.1955_77
+144	2	fb:cell._hoover_or_the_vacuum_cleaner	"Hoover" or "The Vacuum Cleaner"	``|hoover|''|or|``|the|vacuum|cleaner|''	``|Hoover|''|or|``|the|Vacuum|Cleaner|''	``|NNP|''|CC|``|DT|NNP|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"Hoover" or "The Vacuum Cleaner"	fb:part._hoover_or_the_vacuum_cleaner
+144	3	fb:cell.baltimore_orioles	Baltimore Orioles	baltimore|orioles	Baltimore|Orioles	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Baltimore Orioles	fb:part.baltimore_orioles
+145	0	fb:cell.bullet_rogan	Bullet Rogan	bullet|rogan	Bullet|Rogan	NNP|NNP	O|PERSON	|				Bullet Rogan	fb:part.bullet_rogan
+145	1	fb:cell.1917_1920_1938	1917, 1920–1938	1917|,|1920|--|1938	1917|,|1920|--|1938	CD|,|CD|:|CD	DATE|DATE|DATE|DATE|DATE	1917|1917|1917|1917|1938	1.917192E7		1938.0	1917|1920–1938	fb:part.1917|fb:part.1920_1938
+145	2	fb:cell._bullet	"Bullet"	``|bullet|''	``|Bullet|''	``|NNP|''	O|O|O	||				"Bullet"	fb:part._bullet
+145	3	fb:cell.kansas_city_monarchs	Kansas City Monarchs	kansas|city|monarchs	Kansas|City|Monarchs	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Kansas City Monarchs	fb:part.kansas_city_monarchs
+146	0	fb:cell.red_ruffing	Red Ruffing	red|ruffing	Red|Ruffing	NNP|NNPS	O|O	|				Red Ruffing	fb:part.red_ruffing
+146	1	fb:cell.1924_47	1924–47	1924|--|47	1924|--|47	CD|:|CD	DATE|O|NUMBER	1924||47.0	1924.0		47.0	1924–47	fb:part.1924_47
+146	2	fb:cell._red	"Red"	``|red|''	``|Red|''	``|NNP|''	O|O|O	||				"Red"	fb:part._red
+146	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+147	0	fb:cell.amos_rusie	Amos Rusie	amos|rusie	Amos|Rusie	NNP|NNP	PERSON|PERSON	|				Amos Rusie	fb:part.amos_rusie
+147	1	fb:cell.1889_1901	1889–1901	1889|--|1901	1889|--|1901	CD|:|CD	DATE|DATE|DATE	1889|1889|1901	1889.0		1901.0	1889–1901	fb:part.1889_1901
+147	2	fb:cell._the_hoosier_thunderbolt	"The Hoosier Thunderbolt"	``|the|hoosier|thunderbolt|''	``|the|Hoosier|Thunderbolt|''	``|DT|NNP|NNP|''	O|O|O|O|O	||||				"The Hoosier Thunderbolt"	fb:part._the_hoosier_thunderbolt
+147	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+148	0	fb:cell.babe_ruth	Babe Ruth	babe|ruth	Babe|Ruth	NNP|NNP	O|PERSON	|				Babe Ruth	fb:part.babe_ruth
+148	1	fb:cell.1914_35	1914–35	1914|--|35	1914|--|35	CD|:|CD	DATE|O|NUMBER	1914||35.0	1914.0		35.0	1914–35	fb:part.1914_35
+148	2	fb:cell._babe_the_bambino_sultan_of_swat_or_colossus_of_clout	"Babe", "The Bambino", "Sultan of Swat" or "Colossus of Clout"	``|babe|''|,|``|the|bambino|''|,|``|sultan|of|swat|''|or|``|colossus|of|clout|''	``|Babe|''|,|``|the|bambino|''|,|``|Sultan|of|Swat|''|or|``|Colossus|of|Clout|''	``|NNP|''|,|``|DT|NN|''|,|``|NNP|IN|NNP|''|CC|``|NNP|IN|NNP|''	O|MISC|O|O|O|O|O|O|O|O|O|O|MISC|O|O|O|O|O|O|O	|||||||||||||||||||				"Babe"|"The Bambino"|"Sultan of Swat" or "Colossus of Clout"	fb:part._babe|fb:part._the_bambino|fb:part._sultan_of_swat_or_colossus_of_clout
+148	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+149	0	fb:cell.nolan_ryan	Nolan Ryan	nolan|ryan	Nolan|Ryan	NNP|NNP	PERSON|PERSON	|				Nolan Ryan	fb:part.nolan_ryan
+149	1	fb:cell.1966_93	1966–93	1966|--|93	1966|--|93	CD|:|CD	DATE|O|NUMBER	1966||93.0	1966.0		93.0	1966–93	fb:part.1966_93
+149	2	fb:cell._the_ryan_express	"The Ryan Express"	``|the|ryan|express|''	``|the|Ryan|Express|''	``|DT|NNP|NNP|''	O|O|O|O|O	||||				"The Ryan Express"	fb:part._the_ryan_express
+149	3	fb:cell.texas_rangers	Texas Rangers	texas|rangers	Texas|Rangers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Texas Rangers	fb:part.texas_rangers
+150	0	fb:cell.ryne_sandberg	Ryne Sandberg	ryne|sandberg	Ryne|Sandberg	NNP|NNP	PERSON|PERSON	|				Ryne Sandberg	fb:part.ryne_sandberg
+150	1	fb:cell.1981_97	1981–97	1981|--|97	1981|--|97	CD|:|CD	DATE|O|NUMBER	1981||97.0	1981.0		97.0	1981–97	fb:part.1981_97
+150	2	fb:cell._ryno	"Ryno"	``|ryno|''	``|Ryno|''	``|NNP|''	O|O|O	||				"Ryno"	fb:part._ryno
+150	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+151	0	fb:cell.ray_schalk	Ray Schalk	ray|schalk	Ray|Schalk	NNP|NNP	PERSON|PERSON	|				Ray Schalk	fb:part.ray_schalk
+151	1	fb:cell.1912_29	1912–29	1912|--|29	1912|--|29	CD|:|CD	DATE|O|NUMBER	1912||29.0	1912.0		29.0	1912–29	fb:part.1912_29
+151	2	fb:cell._cracker	"Cracker"	``|cracker|''	``|Cracker|''	``|NNP|''	O|O|O	||				"Cracker"	fb:part._cracker
+151	3	fb:cell.chicago_white_sox	Chicago White Sox	chicago|white|sox	Chicago|White|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Chicago White Sox	fb:part.chicago_white_sox
+152	0	fb:cell.mike_schmidt	Mike Schmidt	mike|schmidt	Mike|Schmidt	NNP|NNP	PERSON|PERSON	|				Mike Schmidt	fb:part.mike_schmidt
+152	1	fb:cell.1972_89	1972–89	1972|--|89	1972|--|89	CD|:|CD	DATE|O|NUMBER	1972||89.0	1972.0		89.0	1972–89	fb:part.1972_89
+152	2	fb:cell._schmidty	"Schmidty"	``|schmidty|''	``|Schmidty|''	``|NNP|''	O|O|O	||				"Schmidty"	fb:part._schmidty
+152	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+153	0	fb:cell.tom_seaver	Tom Seaver	tom|seaver	Tom|Seaver	NNP|NNP	PERSON|PERSON	|				Tom Seaver	fb:part.tom_seaver
+153	1	fb:cell.1967_86	1967–86	1967|--|86	1967|--|86	CD|:|CD	DATE|O|NUMBER	1967||86.0	1967.0		86.0	1967–86	fb:part.1967_86
+153	2	fb:cell._tom_terrific_or_the_franchise	"Tom Terrific" or "The Franchise"	``|tom|terrific|''|or|``|the|franchise|''	``|Tom|Terrific|''|or|``|the|franchise|''	``|NNP|NNP|''|CC|``|DT|NN|''	O|O|O|O|O|O|O|O|O	||||||||				"Tom Terrific" or "The Franchise"	fb:part._tom_terrific_or_the_franchise
+153	3	fb:cell.new_york_mets	New York Mets	new|york|mets	New|York|Mets	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Mets	fb:part.new_york_mets
+154	0	fb:cell.al_simmons	Al Simmons	al|simmons	Al|Simmons	NNP|NNP	PERSON|PERSON	|				Al Simmons	fb:part.al_simmons
+154	1	fb:cell.1924_44	1924–44	1924|--|44	1924|--|44	CD|:|CD	DATE|O|NUMBER	1924||44.0	1924.0		44.0	1924–44	fb:part.1924_44
+154	2	fb:cell._bucketfoot_al	"Bucketfoot Al"	``|bucketfoot|al|''	``|Bucketfoot|Al|''	``|NNP|NNP|''	O|O|O|O	|||				"Bucketfoot Al"	fb:part._bucketfoot_al
+154	3	fb:cell.philadelphia_athletics	Philadelphia Athletics	philadelphia|athletics	Philadelphia|Athletics	NNP|NNP	LOCATION|LOCATION	|				Philadelphia Athletics	fb:part.philadelphia_athletics
+155	0	fb:cell.george_sisler	George Sisler	george|sisler	George|Sisler	NNP|NNP	PERSON|PERSON	|				George Sisler	fb:part.george_sisler
+155	1	fb:cell.1915_30	1915–30	1915|--|30	1915|--|30	CD|:|CD	DATE|O|NUMBER	1915||30.0	1915.0		30.0	1915–30	fb:part.1915_30
+155	2	fb:cell._gorgeous_george	"Gorgeous George"	``|gorgeous|george|''	``|gorgeous|George|''	``|JJ|NNP|''	O|O|O|O	|||				"Gorgeous George"	fb:part._gorgeous_george
+155	3	fb:cell.st_louis_browns	St. Louis Browns	st.|louis|browns	St.|Louis|Browns	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Browns	fb:part.st_louis_browns
+156	0	fb:cell.enos_slaughter	Enos Slaughter	enos|slaughter	Enos|Slaughter	NNP|NNP	O|O	|				Enos Slaughter	fb:part.enos_slaughter
+156	1	fb:cell.1938_59	1938–59	1938|--|59	1938|--|59	CD|:|CD	DATE|O|NUMBER	1938||59.0	1938.0		59.0	1938–59	fb:part.1938_59
+156	2	fb:cell._country	"Country"	``|country|''	``|country|''	``|NN|''	O|O|O	||				"Country"	fb:part._country
+156	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+157	0	fb:cell.ozzie_smith	Ozzie Smith	ozzie|smith	Ozzie|Smith	NNP|NNP	PERSON|PERSON	|				Ozzie Smith	fb:part.ozzie_smith
+157	1	fb:cell.1978_96	1978–96	1978|--|96	1978|--|96	CD|:|CD	DATE|O|NUMBER	1978||96.0	1978.0		96.0	1978–96	fb:part.1978_96
+157	2	fb:cell._the_wizard_of_oz_or_the_wizard	"The Wizard of Oz" or "The Wizard"	``|the|wizard|of|oz|''|or|``|the|wizard|''	``|the|Wizard|of|Oz|''|or|``|the|Wizard|''	``|DT|NNP|IN|NNP|''|CC|``|DT|NNP|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||				"The Wizard of Oz" or "The Wizard"	fb:part._the_wizard_of_oz_or_the_wizard
+157	3	fb:cell.st_louis_cardinals	St. Louis Cardinals	st.|louis|cardinals	St.|Louis|Cardinals	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. Louis Cardinals	fb:part.st_louis_cardinals
+158	0	fb:cell.duke_snider	Duke Snider	duke|snider	Duke|Snider	NNP|NNP	PERSON|PERSON	|				Duke Snider	fb:part.duke_snider
+158	1	fb:cell.1947_64	1947–64	1947|--|64	1947|--|64	CD|:|CD	DATE|O|NUMBER	1947||64.0	1947.0		64.0	1947–64	fb:part.1947_64
+158	2	fb:cell._the_silver_fox_of_duke	"The Silver Fox" of "Duke"	``|the|silver|fox|''|of|``|duke|''	``|the|silver|Fox|''|of|``|Duke|''	``|DT|NN|NNP|''|IN|``|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"The Silver Fox" of "Duke"	fb:part._the_silver_fox_of_duke
+158	3	fb:cell.brooklyn_dodgers	Brooklyn Dodgers	brooklyn|dodgers	Brooklyn|Dodgers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Brooklyn Dodgers	fb:part.brooklyn_dodgers
+159	0	fb:cell.tris_speaker	Tris Speaker	tris|speaker	Tris|Speaker	NNP|NNP	O|O	|				Tris Speaker	fb:part.tris_speaker
+159	1	fb:cell.1907_28	1907–28	1907|--|28	1907|--|28	CD|:|CD	DATE|O|NUMBER	1907||28.0	1907.0		28.0	1907–28	fb:part.1907_28
+159	2	fb:cell._tris_the_grey_eagle_or_spoke	"Tris", "The Grey Eagle" or "Spoke"	``|tris|''|,|``|the|grey|eagle|''|or|``|spoke|''	``|Tris|''|,|``|the|Grey|Eagle|''|or|``|Spoke|''	``|NNP|''|,|``|DT|NNP|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				"Tris"|"The Grey Eagle" or "Spoke"	fb:part._tris|fb:part._the_grey_eagle_or_spoke
+159	3	fb:cell.cleveland_indians	Cleveland Indians	cleveland|indians	Cleveland|Indians	NNP|NNPS	O|O	|				Cleveland Indians	fb:part.cleveland_indians
+160	0	fb:cell.willie_stargell	Willie Stargell	willie|stargell	Willie|Stargell	NNP|NNP	PERSON|PERSON	|				Willie Stargell	fb:part.willie_stargell
+160	1	fb:cell.1962_82	1962–82	1962|--|82	1962|--|82	CD|:|CD	DATE|O|NUMBER	1962||82.0	1962.0		82.0	1962–82	fb:part.1962_82
+160	2	fb:cell._pops	"Pops"	``|pops|''	``|Pops|''	``|NNPS|''	O|O|O	||				"Pops"	fb:part._pops
+160	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+161	0	fb:cell.turkey_stearnes	Turkey Stearnes	turkey|stearnes	Turkey|Stearnes	NNP|NNP	LOCATION|LOCATION	|				Turkey Stearnes	fb:part.turkey_stearnes
+161	1	fb:cell.1920_1942_1945	1920–1942, 1945	1920|--|1942|,|1945	1920|--|1942|,|1945	CD|:|CD|,|CD	DATE|DATE|DATE|DATE|DATE	1920|1920|1942|1942|1942	1920.0		1.9421945E7	1920–1942|1945	fb:part.1920_1942|fb:part.1945
+161	2	fb:cell._turkey	"Turkey"	``|turkey|''	``|Turkey|''	``|NNP|''	O|O|O	||				"Turkey"	fb:part._turkey
+161	3	fb:cell.detroit_stars	Detroit Stars	detroit|stars	Detroit|Stars	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Detroit Stars	fb:part.detroit_stars
+162	0	fb:cell.casey_stengel	Casey Stengel	casey|stengel	Casey|Stengel	NNP|NNP	PERSON|PERSON	|				Casey Stengel	fb:part.casey_stengel
+162	1	fb:cell.1912_25_1934_65	1912–25, 1934–65	1912|--|25|,|1934|--|65	1912|--|25|,|1934|--|65	CD|:|CD|,|CD|:|CD	DATE|O|NUMBER|O|DATE|O|NUMBER	1912||25.0||1934||65.0	1912.0		251934.0	1912–25|1934–65	fb:part.1912_25|fb:part.1934_65
+162	2	fb:cell._casey_and_the_old_professor	"Casey" and "The Old Professor"	``|casey|''|and|``|the|old|professor|''	``|Casey|''|and|``|The|Old|Professor|''	``|NNP|''|CC|``|NNP|NNP|NNP|''	O|O|O|O|O|O|O|O|O	||||||||				"Casey" and "The Old Professor"	fb:part._casey_and_the_old_professor
+162	3	fb:cell.new_york_yankees	New York Yankees	new|york|yankees	New|York|Yankees	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Yankees	fb:part.new_york_yankees
+163	0	fb:cell.don_sutton	Don Sutton	don|sutton	Don|Sutton	NNP|NNP	PERSON|PERSON	|				Don Sutton	fb:part.don_sutton
+163	1	fb:cell.1966_88	1966–88	1966|--|88	1966|--|88	CD|:|CD	DATE|O|NUMBER	1966||88.0	1966.0		88.0	1966–88	fb:part.1966_88
+163	2	fb:cell._black_decker	"Black & Decker"	``|black|&|decker|''	``|Black|&|Decker|''	``|NNP|CC|NNP|''	O|O|O|O|O	||||				"Black & Decker"	fb:part._black_decker
+163	3	fb:cell.los_angeles_dodgers	Los Angeles Dodgers	los|angeles|dodgers	Los|Angeles|Dodgers	NNP|NNP|NNPS	O|O|O	||				Los Angeles Dodgers	fb:part.los_angeles_dodgers
+164	0	fb:cell.bill_terry	Bill Terry	bill|terry	Bill|Terry	NNP|NNP	PERSON|PERSON	|				Bill Terry	fb:part.bill_terry
+164	1	fb:cell.1923_36	1923–36	1923|--|36	1923|--|36	CD|:|CD	DATE|O|NUMBER	1923||36.0	1923.0		36.0	1923–36	fb:part.1923_36
+164	2	fb:cell._memphis_bill	"Memphis Bill"	``|memphis|bill|''	``|Memphis|Bill|''	``|NNP|NNP|''	O|O|O|O	|||				"Memphis Bill"	fb:part._memphis_bill
+164	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+165	0	fb:cell.sam_thompson	Sam Thompson	sam|thompson	Sam|Thompson	NNP|NNP	PERSON|PERSON	|				Sam Thompson	fb:part.sam_thompson
+165	1	fb:cell.1885_98	1885–98	1885|--|98	1885|--|98	NNP|:|CD	DATE|O|NUMBER	1885||98.0	1885.0		98.0	1885–98	fb:part.1885_98
+165	2	fb:cell._big_sam	"Big Sam	``|big|sam	``|big|Sam	``|JJ|NNP	O|O|PERSON	||				"Big Sam	fb:part._big_sam
+165	3	fb:cell.philadelphia_phillies	Philadelphia Phillies	philadelphia|phillies	Philadelphia|Phillies	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Philadelphia Phillies	fb:part.philadelphia_phillies
+166	0	fb:cell.pie_traynor	Pie Traynor	pie|traynor	Pie|Traynor	NNP|NNP	O|O	|				Pie Traynor	fb:part.pie_traynor
+166	1	fb:cell.1920_37	1920–37	1920|--|37	1920|--|37	CD|:|CD	DATE|O|NUMBER	1920||37.0	1920.0		37.0	1920–37	fb:part.1920_37
+166	2	fb:cell._pie	"Pie"	``|pie|''	``|Pie|''	``|NNP|''	O|O|O	||				"Pie"	fb:part._pie
+166	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+167	0	fb:cell.dazzy_vance	Dazzy Vance	dazzy|vance	Dazzy|Vance	NNP|NNP	PERSON|PERSON	|				Dazzy Vance	fb:part.dazzy_vance
+167	1	fb:cell.1915_35	1915–35	1915|--|35	1915|--|35	CD|:|CD	DATE|O|NUMBER	1915||35.0	1915.0		35.0	1915–35	fb:part.1915_35
+167	2	fb:cell._dazzy	"Dazzy"	``|dazzy|''	``|Dazzy|''	``|NNP|''	O|O|O	||				"Dazzy"	fb:part._dazzy
+167	3	fb:cell.brooklyn_dodgers	Brooklyn Dodgers	brooklyn|dodgers	Brooklyn|Dodgers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Brooklyn Dodgers	fb:part.brooklyn_dodgers
+168	0	fb:cell.arky_vaughan	Arky Vaughan	arky|vaughan	Arky|Vaughan	NNP|NNP	PERSON|PERSON	|				Arky Vaughan	fb:part.arky_vaughan
+168	1	fb:cell.1932_48	1932–48	1932|--|48	1932|--|48	CD|:|CD	DATE|O|NUMBER	1932||48.0	1932.0		48.0	1932–48	fb:part.1932_48
+168	2	fb:cell._arky	"Arky"	``|arky|''	``|Arky|''	``|NNP|''	O|O|O	||				"Arky"	fb:part._arky
+168	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+169	0	fb:cell.rube_waddell	Rube Waddell	rube|waddell	Rube|Waddell	NNP|NNP	PERSON|PERSON	|				Rube Waddell	fb:part.rube_waddell
+169	1	fb:cell.1897_1910	1897–1910	1897|--|1910	1897|--|1910	CD|:|CD	DATE|DATE|DATE	1897|1897|1910	1897.0		1910.0	1897–1910	fb:part.1897_1910
+169	2	fb:cell._rube	"Rube"	``|rube|''	``|rube|''	``|NN|''	O|O|O	||				"Rube"	fb:part._rube
+169	3	fb:cell.philadelphia_athletics	Philadelphia Athletics	philadelphia|athletics	Philadelphia|Athletics	NNP|NNP	LOCATION|LOCATION	|				Philadelphia Athletics	fb:part.philadelphia_athletics
+170	0	fb:cell.honus_wagner	Honus Wagner	honus|wagner	Honus|Wagner	NNP|NNP	PERSON|PERSON	|				Honus Wagner	fb:part.honus_wagner
+170	1	fb:cell.1897_1917	1897–1917	1897|--|1917	1897|--|1917	CD|:|CD	DATE|DATE|DATE	1897|1897|1917	1897.0		1917.0	1897–1917	fb:part.1897_1917
+170	2	fb:cell._the_flying_dutchman_or_honus	"The Flying Dutchman" or "Honus"	``|the|flying|dutchman|''|or|``|honus|''	``|the|Flying|Dutchman|''|or|``|Honus|''	``|DT|NNP|NNP|''|CC|``|NNP|''	O|O|MISC|MISC|O|O|O|O|O	||||||||				"The Flying Dutchman" or "Honus"	fb:part._the_flying_dutchman_or_honus
+170	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+171	0	fb:cell.lloyd_waner	Lloyd Waner	lloyd|waner	Lloyd|Waner	NNP|NNP	PERSON|PERSON	|				Lloyd Waner	fb:part.lloyd_waner
+171	1	fb:cell.1927_45	1927–45	1927|--|45	1927|--|45	CD|:|CD	DATE|O|NUMBER	1927||45.0	1927.0		45.0	1927–45	fb:part.1927_45
+171	2	fb:cell._little_poison	"Little Poison"	``|little|poison|''	``|little|poison|''	``|JJ|NN|''	O|O|O|O	|||				"Little Poison"	fb:part._little_poison
+171	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+172	0	fb:cell.paul_waner	Paul Waner	paul|waner	Paul|Waner	NNP|NNP	PERSON|PERSON	|				Paul Waner	fb:part.paul_waner
+172	1	fb:cell.1926_45	1926–45	1926|--|45	1926|--|45	CD|:|CD	DATE|O|NUMBER	1926||45.0	1926.0		45.0	1926–45	fb:part.1926_45
+172	2	fb:cell._big_poison	"Big Poison"	``|big|poison|''	``|big|poison|''	``|JJ|NN|''	O|O|O|O	|||				"Big Poison"	fb:part._big_poison
+172	3	fb:cell.pittsburgh_pirates	Pittsburgh Pirates	pittsburgh|pirates	Pittsburgh|Pirates	NNP|NNPS	LOCATION|LOCATION	|				Pittsburgh Pirates	fb:part.pittsburgh_pirates
+173	0	fb:cell.earl_weaver	Earl Weaver	earl|weaver	Earl|Weaver	NNP|NNP	PERSON|PERSON	|				Earl Weaver	fb:part.earl_weaver
+173	1	fb:cell.1968_86	1968–86	1968|--|86	1968|--|86	CD|:|CD	DATE|O|NUMBER	1968||86.0	1968.0		86.0	1968–86	fb:part.1968_86
+173	2	fb:cell._doodles	"Doodles"	``|doodles|''	``|Doodles|''	``|NNP|''	O|O|O	||				"Doodles"	fb:part._doodles
+173	3	fb:cell.baltimore_orioles	Baltimore Orioles	baltimore|orioles	Baltimore|Orioles	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Baltimore Orioles	fb:part.baltimore_orioles
+174	0	fb:cell.willie_wells	Willie Wells	willie|wells	Willie|Wells	NNP|NNP	PERSON|PERSON	|				Willie Wells	fb:part.willie_wells
+174	1	fb:cell.1923_1924_1936_1942_1944_1948	1923, 1924–1936, 1942, 1944–1948	1923|,|1924|--|1936|,|1942|,|1944|--|1948	1923|,|1924|--|1936|,|1942|,|1944|--|1948	CD|,|CD|:|CD|,|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1923|1923|1923|1923|1936|1936|1936|1936|1936|1936|1948	1.9231924E7		1.93619421944E11	1923|1924–1936|1942|1944–1948	fb:part.1923|fb:part.1924_1936|fb:part.1942|fb:part.1944_1948
+174	2	fb:cell._devil	"Devil"	``|devil|''	``|Devil|''	``|NNP|''	O|O|O	||				"Devil"	fb:part._devil
+174	3	fb:cell.st_louis_stars	St. Louis Stars	st.|louis|stars	St.|Louis|Stars	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				St. Louis Stars	fb:part.st_louis_stars
+175	0	fb:cell.zack_wheat	Zack Wheat	zack|wheat	Zack|Wheat	NNP|NNP	PERSON|PERSON	|				Zack Wheat	fb:part.zack_wheat
+175	1	fb:cell.1909_27	1909–27	1909|--|27	1909|--|27	CD|:|CD	DATE|O|NUMBER	1909||27.0	1909.0		27.0	1909–27	fb:part.1909_27
+175	2	fb:cell._buck	"Buck"	``|buck|''	``|Buck|''	``|NNP|''	O|O|O	||				"Buck"	fb:part._buck
+175	3	fb:cell.brooklyn_dodgers	Brooklyn Dodgers	brooklyn|dodgers	Brooklyn|Dodgers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Brooklyn Dodgers	fb:part.brooklyn_dodgers
+176	0	fb:cell.billy_williams	Billy Williams	billy|williams	Billy|Williams	NNP|NNP	PERSON|PERSON	|				Billy Williams	fb:part.billy_williams
+176	1	fb:cell.1959_76	1959–76	1959|--|76	1959|--|76	CD|:|CD	DATE|O|NUMBER	1959||76.0	1959.0		76.0	1959–76	fb:part.1959_76
+176	2	fb:cell._sweet_swingin_billy_from_whistler	"Sweet Swingin' Billy from Whistler"	``|sweet|swingin|'|billy|from|whistler|''	``|Sweet|Swingin|'|Billy|from|Whistler|''	``|NNP|NNP|POS|NNP|IN|NNP|''	O|O|O|O|O|O|LOCATION|O	|||||||				"Sweet Swingin' Billy from Whistler"	fb:part._sweet_swingin_billy_from_whistler
+176	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+177	0	fb:cell.hack_wilson	Hack Wilson	hack|wilson	Hack|Wilson	NNP|NNP	O|PERSON	|				Hack Wilson	fb:part.hack_wilson
+177	1	fb:cell.1923_34	1923–34	1923|--|34	1923|--|34	CD|:|CD	DATE|O|NUMBER	1923||34.0	1923.0		34.0	1923–34	fb:part.1923_34
+177	2	fb:cell._hack	"Hack"	``|hack|''	``|hack|''	``|NN|''	O|O|O	||				"Hack"	fb:part._hack
+177	3	fb:cell.chicago_cubs	Chicago Cubs	chicago|cubs	Chicago|Cubs	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Chicago Cubs	fb:part.chicago_cubs
+178	0	fb:cell.cyclone_joe_williams	Cyclone Joe Williams	cyclone|joe|williams	cyclone|Joe|Williams	NN|NNP|NNP	O|PERSON|PERSON	||				Cyclone Joe Williams	fb:part.cyclone_joe_williams
+178	1	fb:cell.1910_1932	1910–1932	1910|--|1932	1910|--|1932	CD|:|CD	DATE|DATE|DATE	1910|1910|1932	1910.0		1932.0	1910–1932	fb:part.1910_1932
+178	2	fb:cell._smokey_joe_or_cyclone	"Smokey Joe" or "Cyclone"	``|smokey|joe|''|or|``|cyclone|''	``|Smokey|Joe|''|or|``|Cyclone|''	``|NNP|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O|O	|||||||				"Smokey Joe" or "Cyclone"	fb:part._smokey_joe_or_cyclone
+178	3	fb:cell.new_york_lincoln_giants	New York Lincoln Giants	new|york|lincoln|giants	New|York|Lincoln|Giants	NNP|NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				New York Lincoln Giants	fb:part.new_york_lincoln_giants
+179	0	fb:cell.ted_williams	Ted Williams	ted|williams	Ted|Williams	NNP|NNP	PERSON|PERSON	|				Ted Williams	fb:part.ted_williams
+179	1	fb:cell.1939_60	1939–60	1939|--|60	1939|--|60	CD|:|CD	DATE|O|NUMBER	1939||60.0	1939.0		60.0	1939–60	fb:part.1939_60
+179	2	fb:cell._the_splendid_splinter_teddy_ballgame_thumper_or_kid	"The Splendid Splinter", "Teddy Ballgame", "Thumper", or "Kid"	``|the|splendid|splinter|''|,|``|teddy|ballgame|''|,|``|thumper|''|,|or|``|kid|''	``|the|splendid|splinter|''|,|``|Teddy|Ballgame|''|,|``|Thumper|''|,|or|``|Kid|''	``|DT|JJ|NN|''|,|``|NNP|NNP|''|,|``|NNP|''|,|CC|``|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||				"The Splendid Splinter"|"Teddy Ballgame"|"Thumper"|or "Kid"	fb:part._the_splendid_splinter|fb:part._teddy_ballgame|fb:part._thumper|fb:part.or_kid
+179	3	fb:cell.boston_red_sox	Boston Red Sox	boston|red|sox	Boston|Red|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Boston Red Sox	fb:part.boston_red_sox
+180	0	fb:cell.early_wynn	Early Wynn	early|wynn	early|Wynn	RB|NNP	O|O	|				Early Wynn	fb:part.early_wynn
+180	1	fb:cell.1939_63	1939–63	1939|--|63	1939|--|63	CD|:|CD	DATE|O|NUMBER	1939||63.0	1939.0		63.0	1939–63	fb:part.1939_63
+180	2	fb:cell._gus	"Gus"	``|gus|''	``|Gus|''	``|NNP|''	O|O|O	||				"Gus"	fb:part._gus
+180	3	fb:cell.cleveland_indians	Cleveland Indians	cleveland|indians	Cleveland|Indians	NNP|NNPS	O|O	|				Cleveland Indians	fb:part.cleveland_indians
+181	0	fb:cell.carl_yastrzemski	Carl Yastrzemski	carl|yastrzemski	Carl|Yastrzemski	NNP|NNP	PERSON|PERSON	|				Carl Yastrzemski	fb:part.carl_yastrzemski
+181	1	fb:cell.1961_83	1961–83	1961|--|83	1961|--|83	CD|:|CD	DATE|O|NUMBER	1961||83.0	1961.0		83.0	1961–83	fb:part.1961_83
+181	2	fb:cell._yaz	"Yaz"	``|yaz|''	``|Yaz|''	``|NNP|''	O|O|O	||				"Yaz"	fb:part._yaz
+181	3	fb:cell.boston_red_sox	Boston Red Sox	boston|red|sox	Boston|Red|Sox	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Boston Red Sox	fb:part.boston_red_sox
+182	0	fb:cell.cy_young	Cy Young	cy|young	Cy|Young	NNP|NNP	O|O	|				Cy Young	fb:part.cy_young
+182	1	fb:cell.1890_1911	1890–1911	1890|--|1911	1890|--|1911	CD|:|CD	DATE|DATE|DATE	1890|1890|1911	1890.0		1911.0	1890–1911	fb:part.1890_1911
+182	2	fb:cell._cy_or_cyclone	"Cy" or "Cyclone"	``|cy|''|or|``|cyclone|''	``|Cy|''|or|``|Cyclone|''	``|NNP|''|CC|``|NNP|''	O|O|O|O|O|O|O	||||||				"Cy" or "Cyclone"	fb:part._cy_or_cyclone
+182	3	fb:cell.cleveland_spiders	Cleveland Spiders	cleveland|spiders	Cleveland|spider	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Cleveland Spiders	fb:part.cleveland_spiders
+183	0	fb:cell.ross_youngs	Ross Youngs	ross|youngs	Ross|Youngs	NNP|NNP	PERSON|PERSON	|				Ross Youngs	fb:part.ross_youngs
+183	1	fb:cell.1917_26	1917–26	1917|--|26	1917|--|26	CD|:|CD	DATE|O|NUMBER	1917||26.0	1917.0		26.0	1917–26	fb:part.1917_26
+183	2	fb:cell._pep	"Pep"	``|pep|''	``|pep|''	``|NN|''	O|O|O	||				"Pep"	fb:part._pep
+183	3	fb:cell.new_york_giants	New York Giants	new|york|giants	New|York|Giants	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				New York Giants	fb:part.new_york_giants
+184	0	fb:cell.robin_yount	Robin Yount	robin|yount	Robin|Yount	NNP|NNP	PERSON|PERSON	|				Robin Yount	fb:part.robin_yount
+184	1	fb:cell.1974_93	1974–93	1974|--|93	1974|--|93	CD|:|CD	DATE|O|NUMBER	1974||93.0	1974.0		93.0	1974–93	fb:part.1974_93
+184	2	fb:cell._the_kid	"The Kid"	``|the|kid|''	``|the|kid|''	``|DT|NN|''	O|O|O|O	|||				"The Kid"	fb:part._the_kid
+184	3	fb:cell.milwaukee_brewers	Milwaukee Brewers	milwaukee|brewers	Milwaukee|brewer	NNP|NNS	ORGANIZATION|ORGANIZATION	|				Milwaukee Brewers	fb:part.milwaukee_brewers

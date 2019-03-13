@@ -1,0 +1,80 @@
+<table class="wikitable" style="text-align:center">
+<caption>IEEE 754-2008 decimal floating-point formats</caption>
+<tr>
+<th>decimal32</th>
+<th>decimal64</th>
+<th>decimal128</th>
+<th>decimal(32<i>k</i>)</th>
+<th align="left">Format</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<th>Sign field (bits)</th>
+</tr>
+<tr>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<th>Combination field (bits)</th>
+</tr>
+<tr>
+<td>6</td>
+<td>8</td>
+<td>12</td>
+<td><i>w</i> = 2×<i>k</i> + 4</td>
+<th>Exponent continuation field (bits)</th>
+</tr>
+<tr>
+<td>20</td>
+<td>50</td>
+<td>110</td>
+<td><i>t</i> = 30×<i>k</i>−10</td>
+<th>Coefficient continuation field (bits)</th>
+</tr>
+<tr>
+<td>32</td>
+<td>64</td>
+<td>128</td>
+<td>32×<i>k</i></td>
+<th>Total size (bits)</th>
+</tr>
+<tr>
+<td>7</td>
+<td>16</td>
+<td>34</td>
+<td><i>p</i> = 3×<i>t</i>/10+1 = 9×<i>k</i>−2</td>
+<th>Coefficient size (decimal digits)</th>
+</tr>
+<tr>
+<td>192</td>
+<td>768</td>
+<td>12288</td>
+<td>3×2<sup><i>w</i></sup> = 48×4<sup><i>k</i></sup></td>
+<th>Exponent range</th>
+</tr>
+<tr>
+<td>96</td>
+<td>384</td>
+<td>6144</td>
+<td>Emax = 3×2<sup><i>w</i>−1</sup></td>
+<th>Largest value is 9.99...×10<sup>Emax</sup></th>
+</tr>
+<tr>
+<td>−95</td>
+<td>−383</td>
+<td>−6143</td>
+<td>Emin = 1−Emax</td>
+<th>Smallest normalized value is 1.00...×10<sup>Emin</sup></th>
+</tr>
+<tr>
+<td>−101</td>
+<td>−398</td>
+<td>−6176</td>
+<td>Etiny = 2−p−Emax</td>
+<th>Smallest non-zero value is 1×10<sup>Etiny</sup></th>
+</tr>
+</table>

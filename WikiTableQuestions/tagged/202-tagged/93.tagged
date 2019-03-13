@@ -1,0 +1,29 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.restaurant	Restaurant	restaurant	Restaurant	NNP	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.date_opened	Date Opened	date|opened	date|open	NN|VBD	O|O	|					
+-1	3	fb:row.row.date_closed	Date Closed	date|closed	date|closed	NN|JJ	O|O	|					
+0	0	fb:cell.verre_at_the_hilton_dubai_creek	Verre at the Hilton Dubai Creek	verre|at|the|hilton|dubai|creek	Verre|at|the|Hilton|Dubai|Creek	NNP|IN|DT|NNP|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Verre at the Hilton Dubai Creek	fb:part.verre_at_the_hilton_dubai_creek
+0	1	fb:cell.dubai_united_arab_emirates	Dubai, United Arab Emirates	dubai|,|united|arab|emirates	Dubai|,|United|Arab|Emirates	NNP|,|NNP|NNP|NNPS	LOCATION|O|LOCATION|LOCATION|LOCATION	||||				Dubai|United Arab Emirates	fb:part.dubai|fb:part.united_arab_emirates
+0	2	fb:cell.null											
+0	3	fb:cell.october_2011	October 2011	october|2011	October|2011	NNP|CD	DATE|DATE	2011-10|2011-10	2011.0	2011-10-xx			
+1	0	fb:cell.maze_by_gordon_ramsay	Maze by Gordon Ramsay	maze|by|gordon|ramsay	maze|by|Gordon|Ramsay	NN|IN|NNP|NNP	O|O|PERSON|PERSON	|||				Maze by Gordon Ramsay	fb:part.maze_by_gordon_ramsay
+1	1	fb:cell.the_pearl_qatar_doha_qatar	The Pearl-Qatar, Doha, Qatar	the|pearl|qatar|,|doha|,|qatar	the|Pearl|Qatar|,|Doha|,|Qatar	DT|NNP|NNP|,|NNP|,|NNP	O|LOCATION|LOCATION|O|LOCATION|O|LOCATION	||||||				The Pearl-Qatar|Doha|Qatar	fb:part.the_pearl_qatar|fb:part.doha|fb:part.qatar
+1	2	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+1	3	fb:cell.march_2012	March 2012	march|2012	March|2012	NNP|CD	DATE|DATE	2012-03|2012-03	2012.0	2012-03-xx			
+2	0	fb:cell.gordon_ramsay_at_conrad_tokyo	Gordon Ramsay at Conrad Tokyo	gordon|ramsay|at|conrad|tokyo	Gordon|Ramsay|at|Conrad|Tokyo	NNP|NNP|IN|NNP|NNP	PERSON|PERSON|O|LOCATION|LOCATION	||||				Gordon Ramsay at Conrad Tokyo	fb:part.gordon_ramsay_at_conrad_tokyo
+2	1	fb:cell.conrad_tokyo_tokyo_japan	Conrad Tokyo, Tokyo, Japan	conrad|tokyo|,|tokyo|,|japan	Conrad|Tokyo|,|Tokyo|,|Japan	NNP|NNP|,|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION|O|LOCATION	|||||				Conrad Tokyo|Tokyo|Japan	fb:part.conrad_tokyo|fb:part.tokyo|fb:part.japan
+2	2	fb:cell.null											
+2	3	fb:cell.null_2	-	-	-	:	O						
+3	0	fb:cell.cerise_by_gordon_ramsay	Cerise by Gordon Ramsay	cerise|by|gordon|ramsay	Cerise|by|Gordon|Ramsay	NNP|IN|NNP|NNP	PERSON|O|PERSON|PERSON	|||				Cerise by Gordon Ramsay	fb:part.cerise_by_gordon_ramsay
+3	1	fb:cell.minato_tokyo_japan	Minato, Tokyo, Japan	minato|,|tokyo|,|japan	Minato|,|Tokyo|,|Japan	NNP|,|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				Minato|Tokyo|Japan	fb:part.minato|fb:part.tokyo|fb:part.japan
+3	2	fb:cell.null											
+3	3	fb:cell.null_2	-	-	-	:	O						
+4	0	fb:cell.maze_by_gordon_ramsay	Maze by Gordon Ramsay	maze|by|gordon|ramsay	maze|by|Gordon|Ramsay	NN|IN|NNP|NNP	O|O|PERSON|PERSON	|||				Maze by Gordon Ramsay	fb:part.maze_by_gordon_ramsay
+4	1	fb:cell.one_and_only_hotel_cape_town_south_africa	One and Only Hotel, Cape Town, South Africa	one|and|only|hotel|,|cape|town|,|south|africa	one|and|only|hotel|,|Cape|Town|,|South|Africa	CD|CC|RB|NN|,|NNP|NNP|,|NNP|NNP	NUMBER|O|O|O|O|LOCATION|LOCATION|O|LOCATION|LOCATION	1.0|||||||||				One and Only Hotel|Cape Town|South Africa	fb:part.one_and_only_hotel|fb:part.cape_town|fb:part.south_africa
+4	2	fb:cell.april_2009	April 2009	april|2009	April|2009	NNP|CD	DATE|DATE	2009-04|2009-04	2009.0	2009-04-xx			
+4	3	fb:cell.july_2010	July 2010	july|2010	July|2010	NNP|CD	DATE|DATE	2010-07|2010-07	2010.0	2010-07-xx			
+5	0	fb:cell.maze_maze_grill_by_gordon_ramsay	Maze / Maze Grill by Gordon Ramsay	maze|\\/|maze|grill|by|gordon|ramsay	maze|\\/|maze|Grill|by|Gordon|Ramsay	NN|:|NN|NNP|IN|NNP|NNP	O|O|O|O|O|PERSON|PERSON	||||||				Maze|Maze Grill by Gordon Ramsay	fb:part.maze|fb:part.maze_grill_by_gordon_ramsay
+5	1	fb:cell.crown_metropol_melbourne_australia	Crown Metropol, Melbourne, Australia	crown|metropol|,|melbourne|,|australia	Crown|Metropol|,|Melbourne|,|Australia	NNP|NNP|,|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Crown Metropol|Melbourne|Australia	fb:part.crown_metropol|fb:part.melbourne|fb:part.australia
+5	2	fb:cell.march_2010	March 2010	march|2010	March|2010	NNP|CD	DATE|DATE	2010-03|2010-03	2010.0	2010-03-xx			
+5	3	fb:cell.august_2011	August 2011	august|2011	August|2011	NNP|CD	DATE|DATE	2011-08|2011-08	2011.0	2011-08-xx			

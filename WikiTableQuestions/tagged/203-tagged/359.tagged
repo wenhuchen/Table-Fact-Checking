@@ -1,0 +1,61 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.outcome	Outcome	outcome	outcome	NN	O						
+-1	1	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	2	fb:row.row.championship	Championship	championship	Championship	NNP	O						
+-1	3	fb:row.row.surface	Surface	surface	surface	NN	O						
+-1	4	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	5	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+0	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+0	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+0	2	fb:cell.canada_toronto_1	Canada (Toronto) (1)	canada|-lrb-|toronto|-rrb-|-lrb-|1|-rrb-	Canada|-lrb-|Toronto|-rrb-|-lrb-|1|-rrb-	NNP|-LRB-|NNP|-RRB-|-LRB-|LS|-RRB-	LOCATION|O|LOCATION|O|O|NUMBER|O	|||||1.0|	1.0				
+0	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+0	4	fb:cell.guillermo_canas	Guillermo Cañas	guillermo|cañas	Guillermo|Cañas	NNP|NNP	PERSON|PERSON	|					
+0	5	fb:cell.4_6_5_7	4–6, 5–7	4|--|6|,|5|--|7	4|--|6|,|5|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||5.0||7.0	4.0		65.0	4–6|5–7	fb:part.4_6|fb:part.5_7
+1	0	fb:cell.winner	Winner	winner	winner	NN	O						
+1	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+1	2	fb:cell.montreal	Montreal	montreal	Montreal	NNP	LOCATION						
+1	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+1	4	fb:cell.david_nalbandian	David Nalbandian	david|nalbandian	David|Nalbandian	NNP|NNP	PERSON|PERSON	|					
+1	5	fb:cell.6_1_6_3	6–1, 6–3	6|--|1|,|6|--|3	6|--|1|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||1.0||6.0||3.0	6.0		16.0	6–1|6–3	fb:part.6_1|fb:part.6_3
+2	0	fb:cell.winner	Winner	winner	winner	NN	O						
+2	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+2	2	fb:cell.cincinnati	Cincinnati	cincinnati	Cincinnati	NNP	LOCATION						
+2	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+2	4	fb:cell.mardy_fish	Mardy Fish	mardy|fish	Mardy|fish	NNP|NN	PERSON|PERSON	|					
+2	5	fb:cell.4_6_7_6_7_3_7_6_7_4	4–6, 7–6(7–3), 7–6(7–4)	4|--|6|,|7|--|6|-lrb-|7|--|3|-rrb-|,|7|--|6|-lrb-|7|--|4|-rrb-	4|--|6|,|7|--|6|-lrb-|7|--|3|-rrb-|,|7|--|6|-lrb-|7|--|4|-rrb-	CD|:|CD|,|CD|:|CD|-LRB-|CD|:|CD|-RRB-|,|CD|:|CD|-LRB-|CD|:|LS|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	4.0||6.0||7.0||6.0||7.0||3.0|||7.0||6.0||7.0||4.0|	4.0		67.0	4–6|7–6(7–3)|7–6(7–4)	fb:part.4_6|fb:part.7_6_7_3|fb:part.7_6_7_4
+3	0	fb:cell.winner	Winner	winner	winner	NN	O						
+3	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+3	2	fb:cell.miami	Miami	miami	Miami	NNP	LOCATION						
+3	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+3	4	fb:cell.guillermo_coria	Guillermo Coria	guillermo|coria	Guillermo|Coria	NNP|NNP	PERSON|PERSON	|					
+3	5	fb:cell.6_7_2_7_6_3_6_1_ret	6–7(2–7), 6–3, 6–1, ret.	6|--|7|-lrb-|2|--|7|-rrb-|,|6|--|3|,|6|--|1|,|ret|.	6|--|7|-lrb-|2|--|7|-rrb-|,|6|--|3|,|6|--|1|,|ret|.	CD|:|CD|-LRB-|CD|:|CD|-RRB-|,|CD|:|CD|,|CD|:|CD|,|NN|.	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|O	6.0||7.0||2.0||7.0|||6.0||3.0||6.0||1.0|||	6.0		7.0	6–7(2–7)|6–3|6–1|ret.	fb:part.6_7_2_7|fb:part.6_3|fb:part.6_1|fb:part.ret
+4	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+4	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+4	2	fb:cell.toronto_2	Toronto (2)	toronto|-lrb-|2|-rrb-	Toronto|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	LOCATION|O|NUMBER|O	||2.0|	2.0				
+4	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+4	4	fb:cell.roger_federer	Roger Federer	roger|federer	Roger|Federer	NNP|NNP	PERSON|PERSON	|					
+4	5	fb:cell.5_7_3_6	5–7, 3–6	5|--|7|,|3|--|6	5|--|7|,|3|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||3.0||6.0	5.0		73.0	5–7|3–6	fb:part.5_7|fb:part.3_6
+5	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+5	1	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+5	2	fb:cell.cincinnati	Cincinnati	cincinnati	Cincinnati	NNP	LOCATION						
+5	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+5	4	fb:cell.roger_federer	Roger Federer	roger|federer	Roger|Federer	NNP|NNP	PERSON|PERSON	|					
+5	5	fb:cell.3_6_5_7	3–6, 5–7	3|--|6|,|5|--|7	3|--|6|,|5|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||5.0||7.0	3.0		65.0	3–6|5–7	fb:part.3_6|fb:part.5_7
+6	0	fb:cell.winner	Winner	winner	winner	NN	O						
+6	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+6	2	fb:cell.cincinnati_2	Cincinnati (2)	cincinnati|-lrb-|2|-rrb-	Cincinnati|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	LOCATION|O|NUMBER|O	||2.0|	2.0				
+6	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+6	4	fb:cell.juan_carlos_ferrero	Juan Carlos Ferrero	juan|carlos|ferrero	Juan|Carlos|Ferrero	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+6	5	fb:cell.6_3_6_4	6–3, 6–4	6|--|3|,|6|--|4	6|--|3|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||6.0||4.0	6.0		36.0	6–3|6–4	fb:part.6_3|fb:part.6_4
+7	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+7	1	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+7	2	fb:cell.indian_wells	Indian Wells	indian|wells	indian|Wells	JJ|NNP	MISC|MISC	|					
+7	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+7	4	fb:cell.ivan_ljubicic	Ivan Ljubičić	ivan|ljubičić	Ivan|Ljubičić	NNP|NNP	PERSON|PERSON	|					
+7	5	fb:cell.6_7_3_7_6_7_5_7	6–7(3–7), 6–7(5–7)	6|--|7|-lrb-|3|--|7|-rrb-|,|6|--|7|-lrb-|5|--|7|-rrb-	6|--|7|-lrb-|3|--|7|-rrb-|,|6|--|7|-lrb-|5|--|7|-rrb-	CD|:|CD|-LRB-|CD|:|CD|-RRB-|,|CD|:|CD|-LRB-|CD|:|CD|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	6.0||7.0||3.0||7.0|||6.0||7.0||5.0||7.0|	6.0		7.0	6–7(3–7)|6–7(5–7)	fb:part.6_7_3_7|fb:part.6_7_5_7
+8	0	fb:cell.winner	Winner	winner	winner	NN	O						
+8	1	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+8	2	fb:cell.miami_2	Miami (2)	miami|-lrb-|2|-rrb-	Miami|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	LOCATION|O|NUMBER|O	||2.0|	2.0				
+8	3	fb:cell.hard	Hard	hard	hard	JJ	O						
+8	4	fb:cell.tomas_berdych	Tomáš Berdych	tomáš|berdych	Tomáš|Berdych	NNP|NNP	PERSON|PERSON	|					
+8	5	fb:cell.7_5_6_4	7–5, 6–4	7|--|5|,|6|--|4	7|--|5|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||5.0||6.0||4.0	7.0		56.0	7–5|6–4	fb:part.7_5|fb:part.6_4

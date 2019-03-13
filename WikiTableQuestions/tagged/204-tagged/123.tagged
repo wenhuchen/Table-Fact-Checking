@@ -1,0 +1,97 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.week	Week	week	week	NN	DURATION						
+-1	1	fb:row.row.date	Date	date	date	NN	O						
+-1	2	fb:row.row.kickoff	Kickoff	kickoff	Kickoff	NNP	O						
+-1	3	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	4	fb:row.row.results_final_score	Results\nFinal score	results|final|score	result|final|score	NNS|JJ|NN	O|O|NUMBER	||20.0					
+-1	5	fb:row.row.results_team_record	Results\nTeam record	results|team|record	result|Team|record	NNS|NNP|NN	O|O|O	||					
+-1	6	fb:row.row.game_site	Game site	game|site	game|site	NN|NN	O|O	|					
+-1	7	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.saturday_april_13	Saturday, April 13	saturday|,|april|13	Saturday|,|April|13	NNP|,|NNP|CD	DATE|DATE|DATE|DATE	XXXX-04-13|XXXX-04-13|XXXX-04-13|XXXX-04-13	13.0	xxxx-04-13		Saturday|April 13	fb:part.saturday|fb:part.april_13
+0	2	fb:cell.7_00_p_m	7:00 p.m.	7:00|p.m.	7:00|p.m.	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+0	3	fb:cell.at_rhein_fire	at Rhein Fire	at|rhein|fire	at|Rhein|Fire	IN|NNP|NNP	O|O|O	||					
+0	4	fb:cell.w_27_21	W 27–21	w|27|--|21	W|27|--|21	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||21.0	27.0		21.0		
+0	5	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+0	6	fb:cell.rheinstadion	Rheinstadion	rheinstadion	Rheinstadion	NNP	O						
+0	7	fb:cell.32_092	32,092	32,092	32,092	CD	NUMBER	32092.0	32092.0				
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.saturday_april_20	Saturday, April 20	saturday|,|april|20	Saturday|,|April|20	NNP|,|NNP|CD	DATE|DATE|DATE|DATE	XXXX-04-20|XXXX-04-20|XXXX-04-20|XXXX-04-20	20.0	xxxx-04-20		Saturday|April 20	fb:part.saturday|fb:part.april_20
+1	2	fb:cell.7_00_p_m	7:00 p.m.	7:00|p.m.	7:00|p.m.	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+1	3	fb:cell.london_monarchs	London Monarchs	london|monarchs	London|Monarchs	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+1	4	fb:cell.w_37_3	W 37–3	w|37|--|3	w|37|--|3	NN|CD|:|CD	O|NUMBER|O|NUMBER	|37.0||3.0	37.0		3.0		
+1	5	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+1	6	fb:cell.waldstadion	Waldstadion	waldstadion	Waldstadion	NNP	O						
+1	7	fb:cell.34_186	34,186	34,186	34,186	CD	NUMBER	34186.0	34186.0				
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.sunday_april_28	Sunday, April 28	sunday|,|april|28	Sunday|,|April|28	NNP|,|NNP|CD	DATE|DATE|DATE|DATE	XXXX-04-28|XXXX-04-28|XXXX-04-28|XXXX-04-28	28.0	xxxx-04-28		Sunday|April 28	fb:part.sunday|fb:part.april_28
+2	2	fb:cell.6_00_p_m	6:00 p.m.	6:00|p.m.	6:00|p.m.	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+2	3	fb:cell.at_barcelona_dragons	at Barcelona Dragons	at|barcelona|dragons	at|Barcelona|Dragons	IN|NNP|NNPS	O|ORGANIZATION|ORGANIZATION	||					
+2	4	fb:cell.w_33_29	W 33–29	w|33|--|29	W|33|--|29	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|33.0||29.0	33.0		29.0		
+2	5	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+2	6	fb:cell.estadi_olimpic_de_montjuic	Estadi Olímpic de Montjuïc	estadi|olímpic|de|montjuïc	Estadi|Olímpic|de|Montjuïc	NNP|NNP|IN|NNP	MISC|MISC|MISC|MISC	|||					
+2	7	fb:cell.17_503	17,503	17,503	17,503	CD	NUMBER	17503.0	17503.0				
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.sunday_may_5	Sunday, May 5	sunday|,|may|5	Sunday|,|May|5	NNP|,|VBD-AUX|CD	DATE|DATE|DATE|DATE	XXXX-05-05|XXXX-05-05|XXXX-05-05|XXXX-05-05	5.0	xxxx-05-05		Sunday|May 5	fb:part.sunday|fb:part.may_5
+3	2	fb:cell.7_00_p_m	7:00 p.m.	7:00|p.m.	7:00|p.m.	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+3	3	fb:cell.amsterdam_admirals	Amsterdam Admirals	amsterdam|admirals	Amsterdam|admiral	NNP|NNS	LOCATION|O	|					
+3	4	fb:cell.w_40_28	W 40–28	w|40|--|28	W|40|--|28	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|40.0||28.0	40.0		28.0		
+3	5	fb:cell.4_0	4–0	4|--|0	4|--|0	CD|:|CD	NUMBER|O|NUMBER	4.0||0.0	4.0		0.0		
+3	6	fb:cell.waldstadion	Waldstadion	waldstadion	Waldstadion	NNP	O						
+3	7	fb:cell.28_627	28,627	28,627	28,627	CD	NUMBER	28627.0	28627.0				
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.saturday_may_11	Saturday, May 11	saturday|,|may|11	Saturday|,|May|11	NNP|,|VBD-AUX|CD	DATE|DATE|DATE|DATE	XXXX-05-11|XXXX-05-11|XXXX-05-11|XXXX-05-11	11.0	xxxx-05-11		Saturday|May 11	fb:part.saturday|fb:part.may_11
+4	2	fb:cell.7_00_p_m	7:00 p.m.	7:00|p.m.	7:00|p.m.	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+4	3	fb:cell.scottish_claymores	Scottish Claymores	scottish|claymores	scottish|claymore	JJ|NNS	O|O	|					
+4	4	fb:cell.l_0_20	L 0–20	l|0|--|20	l|0|--|20	NN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||20.0	0.0		20.0		
+4	5	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+4	6	fb:cell.waldstadion	Waldstadion	waldstadion	Waldstadion	NNP	O						
+4	7	fb:cell.32_126	32,126	32,126	32,126	CD	NUMBER	32126.0	32126.0				
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.sunday_may_19	Sunday, May 19	sunday|,|may|19	Sunday|,|May|19	NNP|,|VBD-AUX|CD	DATE|DATE|DATE|DATE	XXXX-05-19|XXXX-05-19|XXXX-05-19|XXXX-05-19	19.0	xxxx-05-19		Sunday|May 19	fb:part.sunday|fb:part.may_19
+5	2	fb:cell.3_00_p_m	3:00 p.m.	3:00|p.m.	3:00|p.m.	CD|NN	TIME|TIME	T15:00|T15:00	3.0		0.0		
+5	3	fb:cell.at_london_monarchs	at London Monarchs	at|london|monarchs	at|London|Monarchs	IN|NNP|NNPS	O|ORGANIZATION|ORGANIZATION	||					
+5	4	fb:cell.l_7_27	L 7–27	l|7|--|27	l|7|--|27	NN|CD|:|CD	O|NUMBER|O|NUMBER	|7.0||27.0	7.0		27.0		
+5	5	fb:cell.4_2	4–2	4|--|2	4|--|2	CD|:|CD	NUMBER|O|NUMBER	4.0||2.0	4.0		2.0		
+5	6	fb:cell.white_hart_lane	White Hart Lane	white|hart|lane	White|Hart|Lane	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+5	7	fb:cell.10_764	10,764	10,764	10,764	CD	NUMBER	10764.0	10764.0				
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.sunday_may_26	Sunday, May 26	sunday|,|may|26	Sunday|,|May|26	NNP|,|VBD-AUX|CD	DATE|DATE|DATE|DATE	XXXX-05-26|XXXX-05-26|XXXX-05-26|XXXX-05-26	26.0	xxxx-05-26		Sunday|May 26	fb:part.sunday|fb:part.may_26
+6	2	fb:cell.3_00_p_m	3:00 p.m.	3:00|p.m.	3:00|p.m.	CD|NN	TIME|TIME	T15:00|T15:00	3.0		0.0		
+6	3	fb:cell.at_scottish_claymores	at Scottish Claymores	at|scottish|claymores	at|scottish|claymore	IN|JJ|NNS	O|O|O	||					
+6	4	fb:cell.l_17_20	L 17–20	l|17|--|20	l|17|--|20	NN|CD|:|CD	O|NUMBER|O|NUMBER	|17.0||20.0	17.0		20.0		
+6	5	fb:cell.4_3	4–3	4|--|3	4|--|3	CD|:|CD	NUMBER|O|NUMBER	4.0||3.0	4.0		3.0		
+6	6	fb:cell.murrayfield_stadium	Murrayfield Stadium	murrayfield|stadium	Murrayfield|Stadium	NNP|NNP	O|O	|					
+6	7	fb:cell.13_116	13,116	13,116	13,116	CD	NUMBER	13116.0	13116.0				
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.saturday_june_1	Saturday, June 1	saturday|,|june|1	Saturday|,|June|1	NNP|,|NNP|CD	DATE|DATE|DATE|DATE	XXXX-06-01|XXXX-06-01|XXXX-06-01|XXXX-06-01	1.0	xxxx-06-01		Saturday|June 1	fb:part.saturday|fb:part.june_1
+7	2	fb:cell.7_00_p_m	7:00 p.m.	7:00|p.m.	7:00|p.m.	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+7	3	fb:cell.rhein_fire	Rhein Fire	rhein|fire	Rhein|Fire	NNP|NNP	O|O	|					
+7	4	fb:cell.l_8_31	L 8–31	l|8|--|31	l|8|--|31	NN|CD|:|CD	O|NUMBER|O|NUMBER	|8.0||31.0	8.0		31.0		
+7	5	fb:cell.4_4	4–4	4|--|4	4|--|4	CD|:|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+7	6	fb:cell.waldstadion	Waldstadion	waldstadion	Waldstadion	NNP	O						
+7	7	fb:cell.38_798	38,798	38,798	38,798	CD	NUMBER	38798.0	38798.0				
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.saturday_june_8	Saturday, June 8	saturday|,|june|8	Saturday|,|June|8	NNP|,|NNP|CD	DATE|DATE|DATE|DATE	XXXX-06-08|XXXX-06-08|XXXX-06-08|XXXX-06-08	8.0	xxxx-06-08		Saturday|June 8	fb:part.saturday|fb:part.june_8
+8	2	fb:cell.7_00_p_m	7:00 p.m.	7:00|p.m.	7:00|p.m.	CD|NN	TIME|TIME	T19:00|T19:00	7.0		0.0		
+8	3	fb:cell.barcelona_dragons	Barcelona Dragons	barcelona|dragons	Barcelona|Dragons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+8	4	fb:cell.w_24_21	W 24–21	w|24|--|21	W|24|--|21	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|24.0||21.0	24.0		21.0		
+8	5	fb:cell.5_4	5–4	5|--|4	5|--|4	CD|:|CD	NUMBER|O|NUMBER	5.0||4.0	5.0		4.0		
+8	6	fb:cell.waldstadion	Waldstadion	waldstadion	Waldstadion	NNP	O						
+8	7	fb:cell.33_115	33,115	33,115	33,115	CD	NUMBER	33115.0	33115.0				
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.saturday_june_15	Saturday, June 15	saturday|,|june|15	Saturday|,|June|15	NNP|,|NNP|CD	DATE|DATE|DATE|DATE	XXXX-06-15|XXXX-06-15|XXXX-06-15|XXXX-06-15	15.0	xxxx-06-15		Saturday|June 15	fb:part.saturday|fb:part.june_15
+9	2	fb:cell.6_30_p_m	6:30 p.m.	6:30|p.m.	6:30|p.m.	CD|NN	TIME|TIME	T18:30|T18:30	6.0		30.0		
+9	3	fb:cell.at_amsterdam_admirals	at Amsterdam Admirals	at|amsterdam|admirals	at|Amsterdam|admiral	IN|NNP|NNS	O|LOCATION|O	||					
+9	4	fb:cell.w_28_20	W 28–20	w|28|--|20	W|28|--|20	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|28.0||20.0	28.0		20.0		
+9	5	fb:cell.6_4	6–4	6|--|4	6|--|4	CD|:|CD	NUMBER|O|NUMBER	6.0||4.0	6.0		4.0		
+9	6	fb:cell.olympisch_stadion	Olympisch Stadion	olympisch|stadion	Olympisch|Stadion	NNP|NNP	MISC|MISC	|					
+9	7	fb:cell.14_062	14,062	14,062	14,062	CD	NUMBER	14062.0	14062.0				
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.sunday_june_23	Sunday, June 23	sunday|,|june|23	Sunday|,|June|23	NNP|,|NNP|CD	DATE|DATE|DATE|DATE	XXXX-06-23|XXXX-06-23|XXXX-06-23|XXXX-06-23	23.0	xxxx-06-23		Sunday|June 23	fb:part.sunday|fb:part.june_23
+10	2	fb:cell.6_00_p_m	6:00 p.m.	6:00|p.m.	6:00|p.m.	CD|NN	TIME|TIME	T18:00|T18:00	6.0		0.0		
+10	3	fb:cell.at_scottish_claymores	at Scottish Claymores	at|scottish|claymores	at|scottish|claymore	IN|JJ|NNS	O|O|O	||					
+10	4	fb:cell.l_27_32	L 27–32	l|27|--|32	l|27|--|32	NN|CD|:|CD	O|NUMBER|O|NUMBER	|27.0||32.0	27.0		32.0		
+10	5	fb:cell.6_5	6–5	6|--|5	6|--|5	CD|:|CD	NUMBER|O|NUMBER	6.0||5.0	6.0		5.0		
+10	6	fb:cell.murrayfield_stadium	Murrayfield Stadium	murrayfield|stadium	Murrayfield|Stadium	NNP|NNP	O|O	|					
+10	7	fb:cell.38_982	38,982	38,982	38,982	CD	NUMBER	38982.0	38982.0				

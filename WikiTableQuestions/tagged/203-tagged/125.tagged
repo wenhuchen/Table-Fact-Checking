@@ -1,0 +1,71 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.club	Club	club	Club	NNP	O						
+-1	1	fb:row.row.winners	Winners	winners	winner	NNS	O						
+-1	2	fb:row.row.runner_ups	Runner-ups	runner|ups	Runner|up	NNP|NNS	O|O	|					
+-1	3	fb:row.row.winning_years	Winning Years	winning|years	win|year	VBG|NNS	O|DURATION	|					
+-1	4	fb:row.row.runner_up_years	Runner-up Years	runner|up|years	Runner|up|year	NNP|RB|NNS	O|O|DURATION	||					
+0	0	fb:cell.fk_austria_wien	FK Austria Wien	fk|austria|wien	fk|Austria|Wien	NN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				FK Austria Wien	fb:part.fk_austria_wien
+0	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+0	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+0	3	fb:cell.1990_1991_1992_1994_2003_2004	1990, 1991, 1992, 1994, 2003, 2004	1990|,|1991|,|1992|,|1994|,|2003|,|2004	1990|,|1991|,|1992|,|1994|,|2003|,|2004	CD|,|CD|,|CD|,|CD|,|CD|,|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1990|1990|1990|1990|1990|1990|1990|1990|1990|1990|1990	1.9901991199219943E23	1990-xx-xx		1990|1991|1992|1994|2003|2004	fb:part.1990|fb:part.1991|fb:part.1992|fb:part.1994|fb:part.2003|fb:part.2004
+0	4	fb:cell.1986_1994	1986, 1994	1986|,|1994	1986|,|1994	CD|,|CD	DATE|DATE|DATE	1986|1986|1986	1.9861994E7	1986-xx-xx		1986|1994	fb:part.1986|fb:part.1994
+1	0	fb:cell.sk_rapid_wien	SK Rapid Wien	sk|rapid|wien	SK|Rapid|Wien	NNP|NNP|NNP	O|O|PERSON	||				SK Rapid Wien	fb:part.sk_rapid_wien
+1	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+1	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	3	fb:cell.1986_1987_1988_2008	1986, 1987, 1988, 2008	1986|,|1987|,|1988|,|2008	1986|,|1987|,|1988|,|2008	CD|,|CD|,|CD|,|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE	1986|1986|1986|1986|1986|1986|1986	1.986198719882008E15	1986-xx-xx		1986|1987|1988|2008	fb:part.1986|fb:part.1987|fb:part.1988|fb:part.2008
+1	4	fb:cell.1995_1996	1995, 1996	1995|,|1996	1995|,|1996	CD|,|CD	DATE|DATE|DATE	1995|1995|1995	1.9951996E7	1995-xx-xx		1995|1996	fb:part.1995|fb:part.1996
+2	0	fb:cell.sk_sturm_graz	SK Sturm Graz	sk|sturm|graz	SK|Sturm|Graz	NNP|NNP|NNP	O|PERSON|PERSON	||				SK Sturm Graz	fb:part.sk_sturm_graz
+2	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+2	3	fb:cell.1996_1998_1999	1996, 1998, 1999	1996|,|1998|,|1999	1996|,|1998|,|1999	CD|,|CD|,|CD	DATE|DATE|DATE|DATE|DATE	1996|1996|1996|1996|1996	1.99619981999E11	1996-xx-xx		1996|1998|1999	fb:part.1996|fb:part.1998|fb:part.1999
+2	4	fb:cell.1997_2002	1997, 2002	1997|,|2002	1997|,|2002	CD|,|CD	DATE|DATE|DATE	1997|1997|1997	1.9972002E7	1997-xx-xx		1997|2002	fb:part.1997|fb:part.2002
+3	0	fb:cell.sv_austria_salzburg	SV Austria Salzburg	sv|austria|salzburg	SV|Austria|Salzburg	NNP|NNP|NNP	O|LOCATION|LOCATION	||				SV Austria Salzburg	fb:part.sv_austria_salzburg
+3	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+3	2	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+3	3	fb:cell.1994_1995_1997	1994, 1995, 1997	1994|,|1995|,|1997	1994|,|1995|,|1997	CD|,|CD|,|CD	DATE|DATE|DATE|DATE|DATE	1994|1994|1994|1994|1994	1.99419951997E11	1994-xx-xx		1994|1995|1997	fb:part.1994|fb:part.1995|fb:part.1997
+3	4	fb:cell.null	–	--	--	:	O					–	fb:part.null
+4	0	fb:cell.grazer_ak	Grazer AK	grazer|ak	Grazer|AK	NNP|NNP	PERSON|O	|				Grazer AK	fb:part.grazer_ak
+4	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+4	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+4	3	fb:cell.2000_2002	2000, 2002	2000|,|2002	2000|,|2002	CD|,|CD	DATE|DATE|DATE	2000|2000|2000	2.0002002E7	2000-xx-xx		2000|2002	fb:part.2000|fb:part.2002
+4	4	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx		2004	fb:part.2004
+5	0	fb:cell.vfb_admira_wacker_modling	VfB Admira Wacker Mödling	vfb|admira|wacker|mödling	VfB|Admira|Wacker|Mödling	NNP|NNP|NNP|NNP	O|PERSON|PERSON|PERSON	|||				VfB Admira Wacker Mödling	fb:part.vfb_admira_wacker_modling
+5	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	3	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx		1989	fb:part.1989
+5	4	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx		1992	fb:part.1992
+6	0	fb:cell.fc_karnten	FC Kärnten	fc|kärnten	FC|Kärnten	NNP|NNP	ORGANIZATION|ORGANIZATION	|				FC Kärnten	fb:part.fc_karnten
+6	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+6	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+6	3	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx		2001	fb:part.2001
+6	4	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx		2003	fb:part.2003
+7	0	fb:cell.fc_swarovski_tirol_fc_tirol_innsbruck	FC Swarovski Tirol / FC Tirol Innsbruck	fc|swarovski|tirol|\\/|fc|tirol|innsbruck	FC|Swarovski|Tirol|\\/|FC|Tirol|Innsbruck	NNP|NNP|NNP|:|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				FC Swarovski Tirol|FC Tirol Innsbruck	fb:part.fc_swarovski_tirol|fb:part.fc_tirol_innsbruck
+7	1	fb:cell.0_2	0*	0|\\*	0|\\*	CD|SYM	NUMBER|O	0.0|	0.0				
+7	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+7	3	fb:cell.null	–	--	--	:	O					–	fb:part.null
+7	4	fb:cell.1987_1989_1990_1993_2000_2001	1987, 1989, 1990, 1993, 2000, 2001	1987|,|1989|,|1990|,|1993|,|2000|,|2001	1987|,|1989|,|1990|,|1993|,|2000|,|2001	CD|,|CD|,|CD|,|CD|,|CD|,|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1987|1987|1987|1987|1987|1987|1987|1987|1987|1987|1987	1.9871989199019933E23	1987-xx-xx		1987|1989|1990|1993|2000|2001	fb:part.1987|fb:part.1989|fb:part.1990|fb:part.1993|fb:part.2000|fb:part.2001
+8	0	fb:cell.kremser_sc	Kremser SC	kremser|sc	Kremser|SC	NNP|NNP	O|O	|				Kremser SC	fb:part.kremser_sc
+8	1	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+8	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+8	3	fb:cell.null	–	--	--	:	O					–	fb:part.null
+8	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx		1988	fb:part.1988
+9	0	fb:cell.sv_stockerau	SV Stockerau	sv|stockerau	SV|Stockerau	NNP|NNP	O|O	|				SV Stockerau	fb:part.sv_stockerau
+9	1	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+9	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+9	3	fb:cell.null	–	--	--	:	O					–	fb:part.null
+9	4	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx		1991	fb:part.1991
+10	0	fb:cell.sv_ried	SV Ried	sv|ried	sv|rie	NN|VBD	O|O	|				SV Ried	fb:part.sv_ried
+10	1	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+10	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+10	3	fb:cell.null	–	--	--	:	O					–	fb:part.null
+10	4	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx		1998	fb:part.1998
+11	0	fb:cell.lask_linz	LASK Linz	lask|linz	LASK|Linz	NNP|NNP	ORGANIZATION|ORGANIZATION	|				LASK Linz	fb:part.lask_linz
+11	1	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+11	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+11	3	fb:cell.null	–	--	--	:	O					–	fb:part.null
+11	4	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx		1999	fb:part.1999
+12	0	fb:cell.sv_horn	SV Horn	sv|horn	SV|Horn	NNP|NNP	O|O	|				SV Horn	fb:part.sv_horn
+12	1	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+12	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+12	3	fb:cell.null	–	--	--	:	O					–	fb:part.null
+12	4	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx		2008	fb:part.2008

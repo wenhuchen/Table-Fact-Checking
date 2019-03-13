@@ -1,0 +1,92 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.part	Part	part	part	NN	O						
+-1	1	fb:row.row.number	Number	number	number	NN	O						
+-1	2	fb:row.row.first_public_release_date_first_edition	First public release date (First edition)	first|public|release|date|-lrb-|first|edition|-rrb-	first|public|release|date|-lrb-|first|edition|-rrb-	JJ|JJ|NN|NN|-LRB-|JJ|NN|-RRB-	ORDINAL|O|O|O|O|ORDINAL|O|O	1.0|||||1.0||					
+-1	3	fb:row.row.latest_public_release_date_edition	Latest public release date (edition)	latest|public|release|date|-lrb-|edition|-rrb-	latest|public|release|date|-lrb-|edition|-rrb-	JJS|JJ|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||					
+-1	4	fb:row.row.latest_amendment	Latest amendment	latest|amendment	latest|amendment	JJS|NN	O|O	|					
+-1	5	fb:row.row.title	Title	title	title	NN	O						
+-1	6	fb:row.row.description	Description	description	description	NN	O						
+0	0	fb:cell.part_1	Part 1	part|1	Part|1	NNP|CD	O|NUMBER	|1.0	1.0				
+0	1	fb:cell.iso_iec_15938_1	ISO/IEC 15938-1	iso\\/iec|15938-1	iso\\/iec|15938-1	NN|CD	O|NUMBER	|15938.0 - 1.0	15938.0		1.0	ISO|IEC 15938-1	fb:part.iso|fb:part.iec_15938_1
+0	2	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+0	3	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+0	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+0	5	fb:cell.systems	Systems	systems	Systems	NNPS	O						
+0	6	fb:cell.the_architectural_framework_of_mpeg_7_the_carriage_of_mpeg_7_content_tem_textual_format_for_mpeg_7_and_the_binary_format_for_mpeg_7_descriptions_bim	the architectural framework of MPEG-7, the carriage of MPEG-7 content - TeM (Textual format for MPEG-7) and the binary format for MPEG-7 descriptions (BiM)	the|architectural|framework|of|mpeg-7|,|the|carriage|of|mpeg-7|content|-|tem|-lrb-|textual|format|for|mpeg-7|-rrb-|and|the|binary|format|for|mpeg-7|descriptions|-lrb-|bim|-rrb-	the|architectural|framework|of|mpeg-7|,|the|carriage|of|mpeg-7|content|-|tem|-lrb-|textual|format|for|mpeg-7|-rrb-|and|the|binary|format|for|mpeg-7|description|-lrb-|bim|-rrb-	DT|JJ|NN|IN|NN|,|DT|NN|IN|NN|NN|:|NN|-LRB-|JJ|NN|IN|NN|-RRB-|CC|DT|JJ|NN|IN|NN|NNS|-LRB-|NNS|-RRB-	O|O|O|O|O|O|O|O|O|MISC|O|O|O|O|O|O|O|O|O|O|O|O|O|O|MISC|O|O|O|O	||||||||||||||||||||||||||||	7.0		7.0	the architectural framework of MPEG-7|the carriage of MPEG-7 content - TeM (Textual format for MPEG-7) and the binary format for MPEG-7 descriptions (BiM)	fb:part.the_architectural_framework_of_mpeg_7|fb:part.the_carriage_of_mpeg_7_content_tem_textual_format_for_mpeg_7_and_the_binary_format_for_mpeg_7_descriptions_bim
+1	0	fb:cell.part_2	Part 2	part|2	part|2	NN|CD	O|NUMBER	|2.0	2.0				
+1	1	fb:cell.iso_iec_15938_2	ISO/IEC 15938-2	iso\\/iec|15938-2	iso\\/iec|15938-2	NN|CD	O|NUMBER	|15938.0 - 2.0	15938.0		2.0	ISO|IEC 15938-2	fb:part.iso|fb:part.iec_15938_2
+1	2	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+1	3	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+1	4	fb:cell.null											fb:part.null
+1	5	fb:cell.description_definition_language	Description definition language	description|definition|language	description|definition|language	NN|NN|NN	O|O|O	||					
+1	6	fb:cell.null											fb:part.null
+2	0	fb:cell.part_3	Part 3	part|3	Part|3	NNP|CD	O|NUMBER	|3.0	3.0				
+2	1	fb:cell.iso_iec_15938_3	ISO/IEC 15938-3	iso\\/iec|15938-3	iso\\/iec|15938-3	NN|CD	O|NUMBER	|15938.0 - 3.0	15938.0		3.0	ISO|IEC 15938-3	fb:part.iso|fb:part.iec_15938_3
+2	2	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+2	3	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+2	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+2	5	fb:cell.visual	Visual	visual	visual	JJ	O						
+2	6	fb:cell.null											fb:part.null
+3	0	fb:cell.part_4	Part 4	part|4	Part|4	NNP|CD	O|NUMBER	|4.0	4.0				
+3	1	fb:cell.iso_iec_15938_4	ISO/IEC 15938-4	iso\\/iec|15938-4	iso\\/iec|15938-4	NN|CD	O|NUMBER	|15938.0 - 4.0	15938.0		4.0	ISO|IEC 15938-4	fb:part.iso|fb:part.iec_15938_4
+3	2	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+3	3	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+3	4	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+3	5	fb:cell.audio	Audio	audio	Audio	NNP	O						
+3	6	fb:cell.null											fb:part.null
+4	0	fb:cell.part_5	Part 5	part|5	Part|5	NNP|CD	O|NUMBER	|5.0	5.0				
+4	1	fb:cell.iso_iec_15938_5	ISO/IEC 15938-5	iso\\/iec|15938-5	iso\\/iec|15938-5	NN|CD	O|NUMBER	|15938.0 - 5.0	15938.0		5.0	ISO|IEC 15938-5	fb:part.iso|fb:part.iec_15938_5
+4	2	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+4	3	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+4	4	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+4	5	fb:cell.multimedia_description_schemes	Multimedia description schemes	multimedia|description|schemes	Multimedia|description|scheme	NNP|NN|NNS	O|O|O	||					
+4	6	fb:cell.null											fb:part.null
+5	0	fb:cell.part_6	Part 6	part|6	Part|6	NNP|CD	O|NUMBER	|6.0	6.0				
+5	1	fb:cell.iso_iec_15938_6	ISO/IEC 15938-6	iso\\/iec|15938-6	iso\\/iec|15938-6	NN|CD	O|NUMBER	|15938.0 - 6.0	15938.0		6.0	ISO|IEC 15938-6	fb:part.iso|fb:part.iec_15938_6
+5	2	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+5	3	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+5	4	fb:cell.2010_2011	2010 (2011)	2010|-lrb-|2011|-rrb-	2010|-lrb-|2011|-rrb-	CD|-LRB-|CD|-RRB-	DATE|DATE|DATE|O	2010|2010|2011|	2010.0		2011.0		
+5	5	fb:cell.reference_software	Reference software	reference|software	Reference|software	NNP|NN	O|O	|					
+5	6	fb:cell.null											fb:part.null
+6	0	fb:cell.part_7	Part 7	part|7	part|7	NN|CD	O|NUMBER	|7.0	7.0				
+6	1	fb:cell.iso_iec_15938_7	ISO/IEC 15938-7	iso\\/iec|15938-7	iso\\/iec|15938-7	NN|CD	O|NUMBER	|15938.0 - 7.0	15938.0		7.0	ISO|IEC 15938-7	fb:part.iso|fb:part.iec_15938_7
+6	2	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+6	3	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+6	4	fb:cell.2010_2011	2010 (2011)	2010|-lrb-|2011|-rrb-	2010|-lrb-|2011|-rrb-	CD|-LRB-|CD|-RRB-	DATE|DATE|DATE|O	2010|2010|2011|	2010.0		2011.0		
+6	5	fb:cell.conformance_testing	Conformance testing	conformance|testing	Conformance|testing	NNP|NN	O|O	|					
+6	6	fb:cell.null											fb:part.null
+7	0	fb:cell.part_8	Part 8	part|8	Part|8	NNP|CD	O|NUMBER	|8.0	8.0				
+7	1	fb:cell.iso_iec_tr_15938_8	ISO/IEC TR 15938-8	iso\\/iec|tr|15938-8	iso\\/iec|tr|15938-8	NN|NN|CD	O|O|NUMBER	||15938.0 - 8.0	15938.0		8.0	ISO|IEC TR 15938-8	fb:part.iso|fb:part.iec_tr_15938_8
+7	2	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+7	3	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+7	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+7	5	fb:cell.extraction_and_use_of_mpeg_7_descriptions	Extraction and use of MPEG-7 descriptions	extraction|and|use|of|mpeg-7|descriptions	extraction|and|use|of|mpeg-7|description	NN|CC|NN|IN|NN|NNS	O|O|O|O|O|O	|||||	7.0				
+7	6	fb:cell.null											fb:part.null
+8	0	fb:cell.part_9	Part 9	part|9	Part|9	NNP|CD	O|NUMBER	|9.0	9.0				
+8	1	fb:cell.iso_iec_15938_9	ISO/IEC 15938-9	iso\\/iec|15938-9	iso\\/iec|15938-9	NN|CD	O|NUMBER	|15938.0 - 9.0	15938.0		9.0	ISO|IEC 15938-9	fb:part.iso|fb:part.iec_15938_9
+8	2	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+8	3	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+8	4	fb:cell._2011	(2011)	-lrb-|2011|-rrb-	-lrb-|2011|-rrb-	-LRB-|CD|-RRB-	O|DATE|O	|2011|	2011.0				
+8	5	fb:cell.profiles_and_levels	Profiles and levels	profiles|and|levels	profile|and|level	NNS|CC|NNS	O|O|O	||					
+8	6	fb:cell.null											fb:part.null
+9	0	fb:cell.part_10	Part 10	part|10	Part|10	NNP|CD	O|NUMBER	|10.0	10.0				
+9	1	fb:cell.iso_iec_15938_10	ISO/IEC 15938-10	iso\\/iec|15938-10	iso\\/iec|15938-10	NN|CD	O|NUMBER	|15938.0 - 10.0	15938.0		10.0	ISO|IEC 15938-10	fb:part.iso|fb:part.iec_15938_10
+9	2	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+9	3	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+9	4	fb:cell.null											fb:part.null
+9	5	fb:cell.schema_definition	Schema definition	schema|definition	schema|definition	NN|NN	O|O	|					
+9	6	fb:cell.null											fb:part.null
+10	0	fb:cell.part_11	Part 11	part|11	Part|11	NNP|CD	O|NUMBER	|11.0	11.0				
+10	1	fb:cell.iso_iec_tr_15938_11	ISO/IEC TR 15938-11	iso\\/iec|tr|15938-11	iso\\/iec|tr|15938-11	NN|NN|CD	O|O|NUMBER	||15938.0 - 11.0	15938.0		11.0	ISO|IEC TR 15938-11	fb:part.iso|fb:part.iec_tr_15938_11
+10	2	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+10	3	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+10	4	fb:cell.null											fb:part.null
+10	5	fb:cell.mpeg_7_profile_schemas	MPEG-7 profile schemas	mpeg-7|profile|schemas	mpeg-7|profile|schema	NN|NN|NNS	O|O|O	||	7.0				
+10	6	fb:cell.null											fb:part.null
+11	0	fb:cell.part_12	Part 12	part|12	Part|12	NNP|CD	O|NUMBER	|12.0	12.0				
+11	1	fb:cell.iso_iec_15938_12	ISO/IEC 15938-12	iso\\/iec|15938-12	iso\\/iec|15938-12	NN|CD	O|NUMBER	|15938.0 - 12.0	15938.0		12.0	ISO|IEC 15938-12	fb:part.iso|fb:part.iec_15938_12
+11	2	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+11	3	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+11	4	fb:cell._2011	(2011)	-lrb-|2011|-rrb-	-lrb-|2011|-rrb-	-LRB-|CD|-RRB-	O|DATE|O	|2011|	2011.0				
+11	5	fb:cell.query_format	Query format	query|format	Query|format	NNP|NN	O|O	|					
+11	6	fb:cell.null											fb:part.null

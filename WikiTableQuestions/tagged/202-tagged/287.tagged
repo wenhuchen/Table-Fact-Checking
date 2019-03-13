@@ -1,0 +1,53 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.parameter	Parameter	parameter	parameter	NN	O						
+-1	1	fb:row.row.en57	EN57	en57	en57	NN	O						
+-1	2	fb:row.row.en71	EN71	en71	en71	NN	O						
+-1	3	fb:row.row.ew58	EW58	ew58	ew58	NN	O						
+0	0	fb:cell.top_speed	Top speed	top|speed	top|speed	JJ|NN	O|O	|				Top speed	fb:part.top_speed
+0	1	fb:cell.110_km_h	110 km/h	110|km\\/h	110|km\\/h	CD|NN	NUMBER|O	110.0|	110.0			110 km|h	fb:part.110_km|fb:part.h
+0	2	fb:cell.110_km_h	110 km/h	110|km\\/h	110|km\\/h	CD|NN	NUMBER|O	110.0|	110.0			110 km|h	fb:part.110_km|fb:part.h
+0	3	fb:cell.120_km_h	120 km/h	120|km\\/h	120|km\\/h	CD|NN	NUMBER|O	120.0|	120.0			120 km|h	fb:part.120_km|fb:part.h
+1	0	fb:cell.power_at_h	Power (at h)	power|-lrb-|at|h|-rrb-	power|-lrb-|at|h|-rrb-	NN|-LRB-|IN|NN|-RRB-	O|O|O|O|O	||||				Power (at h)	fb:part.power_at_h
+1	1	fb:cell.740_kw	740 kW	740|kw	740|kw	CD|NN	NUMBER|O	740.0|	740.0			740 kW	fb:part.740_kw
+1	2	fb:cell.1480_kw	1480 kW	1480|kw	1480|kw	CD|NN	DATE|O	1480|	1480.0			1480 kW	fb:part.1480_kw
+1	3	fb:cell.1864_kw	1864 kW	1864|kw	1864|kw	CD|NN	DATE|O	1864|	1864.0			1864 kW	fb:part.1864_kw
+2	0	fb:cell.constant_power	Constant power	constant|power	constant|power	JJ|NN	O|O	|				Constant power	fb:part.constant_power
+2	1	fb:cell.608_kw	608 kW	608|kw	608|kw	CD|NN	NUMBER|O	608.0|	608.0			608 kW	fb:part.608_kw
+2	2	fb:cell.1216_kw	1216 kW	1216|kw	1216|kw	CD|NN	DATE|O	1216|	1216.0			1216 kW	fb:part.1216_kw
+2	3	fb:cell.1648_kw	1648 kW	1648|kw	1648|kw	CD|NN	DATE|O	1648|	1648.0			1648 kW	fb:part.1648_kw
+3	0	fb:cell.top_acceleration	Top acceleration	top|acceleration	top|acceleration	JJ|NN	O|O	|				Top acceleration	fb:part.top_acceleration
+3	1	fb:cell.0_5_m_s	0,5 m/s²	0,5|m\\/s|²	0,5|m\\/s|²	CD|NNS|IN	NUMBER|O|O	0.5||	5.0			0,5 m|s²	fb:part.0_5_m|fb:part.s
+3	2	fb:cell.0_6_m_s	0,6 m/s²	0,6|m\\/s|²	0,6|m\\/s|²	CD|NNS|IN	NUMBER|O|O	0.6||	6.0			0,6 m|s²	fb:part.0_6_m|fb:part.s
+3	3	fb:cell.0_9_m_s	0,9 m/s²	0,9|m\\/s|²	0,9|m\\/s|²	CD|NNS|IN	NUMBER|O|O	0.9||	9.0			0,9 m|s²	fb:part.0_9_m|fb:part.s
+4	0	fb:cell.max_axle_pressure	Max. axle pressure	max|.|axle|pressure	Max|.|axle|pressure	NNP|.|NN|NN	PERSON|O|O|O	|||				Max. axle pressure	fb:part.max_axle_pressure
+4	1	fb:cell.14_3_t	14,3 t	14,3|t	14,3|t	CD|NN	NUMBER|O	14.3|	143.0			14,3 t	fb:part.14_3_t
+4	2	fb:cell.14_3_t	14,3 t	14,3|t	14,3|t	CD|NN	NUMBER|O	14.3|	143.0			14,3 t	fb:part.14_3_t
+4	3	fb:cell.13_0_t	13,0 t	13,0|t	13,0|t	CD|NN	NUMBER|O	13.0|	130.0			13,0 t	fb:part.13_0_t
+5	0	fb:cell.car_weight	Car weight	car|weight	car|weight	NN|NN	O|O	|				Car weight	fb:part.car_weight
+5	1	fb:cell.57_2_x_34_t	57 + 2 x 34 t	57|+|2|x|34|t	57|+|2|x|34|t	CD|CC|CD|CC|CD|NN	NUMBER|O|NUMBER|O|NUMBER|O	57.0||2.0||34.0|	57.0		2.0	57 + 2 x 34 t	fb:part.57_2_x_34_t
+5	2	fb:cell.2_x_57_2_x_34_t	2 x 57 + 2 x 34 t	2|x|57|+|2|x|34|t	2|x|57|+|2|x|34|t	CD|CC|CD|CC|CD|CC|CD|NN	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	2.0||57.0||2.0||34.0|	2.0		57.0	2 x 57 + 2 x 34 t	fb:part.2_x_57_2_x_34_t
+5	3	fb:cell.42_2_x_52_t	42 + 2 x 52 t	42|+|2|x|52|t	42|+|2|x|52|t	CD|CC|CD|CC|CD|NN	NUMBER|O|NUMBER|O|NUMBER|O	42.0||2.0||52.0|	42.0		2.0	42 + 2 x 52 t	fb:part.42_2_x_52_t
+6	0	fb:cell.wheel_diameter_driving_non_driving	Wheel diameter (driving/non driving)	wheel|diameter|-lrb-|driving\\/non|driving|-rrb-	wheel|diameter|-lrb-|driving\\/non|driving|-rrb-	NN|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O	|||||				Wheel diameter (driving|non driving)	fb:part.wheel_diameter_driving|fb:part.non_driving
+6	1	fb:cell.1000_940_mm	1000/940 mm	1000\\/940|mm	1000\\/940|mm	CD|NN	NUMBER|O	|	1000.0		940.0	1000|940 mm	fb:part.1000|fb:part.940_mm
+6	2	fb:cell.1000_940_mm	1000/940 mm	1000\\/940|mm	1000\\/940|mm	CD|NN	NUMBER|O	|	1000.0		940.0	1000|940 mm	fb:part.1000|fb:part.940_mm
+6	3	fb:cell.1000_920_mm	1000/920 mm	1000\\/920|mm	1000\\/920|mm	CD|NN	NUMBER|O	|	1000.0		920.0	1000|920 mm	fb:part.1000|fb:part.920_mm
+7	0	fb:cell.car_length_external_internal	Car length (external + internal)	car|length|-lrb-|external|+|internal|-rrb-	car|length|-lrb-|external|+|internal|-rrb-	NN|NN|-LRB-|JJ|CC|JJ|-RRB-	O|O|O|O|O|O|O	||||||				Car length (external + internal)	fb:part.car_length_external_internal
+7	1	fb:cell.20700_21570_mm	20700 + 21570 mm	20700|+|21570|mm	20700|+|21570|mm	CD|CC|CD|NN	NUMBER|O|NUMBER|O	20700.0||21570.0|	20700.0		21570.0	20700 + 21570 mm	fb:part.20700_21570_mm
+7	2	fb:cell.20700_21570_mm	20700 + 21570 mm	20700|+|21570|mm	20700|+|21570|mm	CD|CC|CD|NN	NUMBER|O|NUMBER|O	20700.0||21570.0|	20700.0		21570.0	20700 + 21570 mm	fb:part.20700_21570_mm
+7	3	fb:cell.21130_20940_mm	21130 + 20940 mm	21130|+|20940|mm	21130|+|20940|mm	CD|CC|CD|NN	NUMBER|O|NUMBER|O	21130.0||20940.0|	21130.0		20940.0	21130 + 20940 mm	fb:part.21130_20940_mm
+8	0	fb:cell.places_seating_standing	Places (seating/standing)	places|-lrb-|seating\\/standing|-rrb-	Places|-lrb-|seating\\/standing|-rrb-	NNPS|-LRB-|VBG|-RRB-	O|O|O|O	|||				Places (seating|standing)	fb:part.places_seating|fb:part.standing
+8	1	fb:cell.212_468	212/468	212\\/468	212\\/468	CD	NUMBER		212.0		468.0	212|468	fb:part.212|fb:part.468
+8	2	fb:cell.288_624	288/624	288\\/624	288\\/624	CD	NUMBER		288.0		624.0	288|624	fb:part.288|fb:part.624
+8	3	fb:cell.212_352	212/352	212\\/352	212\\/352	CD	NUMBER		212.0		352.0	212|352	fb:part.212|fb:part.352
+9	0	fb:cell.number_of_cars_in_unit	Number of cars in unit	number|of|cars|in|unit	number|of|car|in|unit	NN|IN|NNS|IN|NN	O|O|O|O|O	||||				Number of cars in unit	fb:part.number_of_cars_in_unit
+9	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0			3	fb:part.3
+9	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0			4	fb:part.4
+9	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0			3	fb:part.3
+10	0	fb:cell.traction_scheme_m_motor_d_motorman_s_cabin_n_no_cabin_motor	Traction scheme (m-motor, d-motorman's cabin, n-no cabin/motor)	traction|scheme|-lrb-|m|motor|,|d|motorman|'s|cabin|,|n|no|cabin\\/motor|-rrb-	Traction|scheme|-lrb-|m|motor|,|d|motorman|'s|cabin|,|n|no|cabin\\/motor|-rrb-	NNP|NN|-LRB-|NN|NN|,|NN|NN|POS|NN|,|NN|DT|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				Traction scheme (m-motor|d-motorman's cabin|n-no cabin|motor)	fb:part.traction_scheme_m_motor|fb:part.d_motorman_s_cabin|fb:part.n_no_cabin|fb:part.motor
+10	1	fb:cell.d_m_d	d-m-d	d|m|d	d|m|d	NN|NN|NN	O|O|O	||				d-m-d	fb:part.d_m_d
+10	2	fb:cell.d_m_m_d	d-m-m-d	d|m|m|d	d|m|m|d	NN|NN|NN|NN	O|O|O|O	|||				d-m-m-d	fb:part.d_m_m_d
+10	3	fb:cell.dm_n_dm	dm-n-dm	dm|n|dm	dm|n|dm	NN|NN|NN	O|O|O	||				dm-n-dm	fb:part.dm_n_dm
+11	0	fb:cell.number_of_doors_per_car_per_side	Number of doors per car per side	number|of|doors|per|car|per|side	number|of|door|per|car|per|side	NN|IN|NNS|IN|NN|IN|NN	O|O|O|O|O|O|O	||||||				Number of doors per car per side	fb:part.number_of_doors_per_car_per_side
+11	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0			2	fb:part.2
+11	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0			2	fb:part.2
+11	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0			3	fb:part.3

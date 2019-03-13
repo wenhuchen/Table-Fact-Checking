@@ -1,0 +1,517 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.designation	Designation	designation	designation	NN	O						
+-1	1	fb:row.row.classification	Classification	classification	classification	NN	O						
+-1	2	fb:row.row.constellation	Constellation	constellation	constellation	NN	O						
+-1	3	fb:row.row.apparent_magnitude	Apparent Magnitude	apparent|magnitude	apparent|magnitude	JJ|NN	O|O	|					
+0	0	fb:cell.comet_galaxy	Comet Galaxy	comet|galaxy	Comet|Galaxy	NNP|NNP	O|O	|				Comet Galaxy	fb:part.comet_galaxy
+0	1	fb:cell.s	S	s	s	NN	O					S	fb:part.s
+0	2	fb:cell.sculptor	Sculptor	sculptor	sculptor	NN	O					Sculptor	fb:part.sculptor
+0	3	fb:cell.null											fb:part.null
+1	0	fb:cell.eso_97_g13_circinus_galaxy	ESO 97-G13, Circinus Galaxy	eso|97|g13|,|circinus|galaxy	ESO|97|g13|,|Circinus|Galaxy	NNP|CD|NN|,|NNP|NNP	O|NUMBER|O|O|O|O	|97.0||||	97.0		13.0	ESO 97-G13|Circinus Galaxy	fb:part.eso_97_g13|fb:part.circinus_galaxy
+1	1	fb:cell.s	S	s	s	NN	O					S	fb:part.s
+1	2	fb:cell.circinus	Circinus	circinus	Circinus	NNP	O					Circinus	fb:part.circinus
+1	3	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0			11	fb:part.11
+2	0	fb:cell.eso_269_57	ESO 269-57	eso|269-57	ESO|269-57	NNP|CD	O|NUMBER	|269.0 - 57.0	269.0		57.0	ESO 269-57	fb:part.eso_269_57
+2	1	fb:cell.sb_r_a	SB(r)a	sb|-lrb-|r|-rrb-|a	sb|-lrb-|r|-rrb-|a	NN|-LRB-|NN|-RRB-|DT	O|O|O|O|O	||||				SB(r)a	fb:part.sb_r_a
+2	2	fb:cell.centaurus	Centaurus	centaurus	Centaurus	NNP	O					Centaurus	fb:part.centaurus
+2	3	fb:cell.12_49	12.49	12.49	12.49	CD	NUMBER	12.49	12.49			12.49	fb:part.12_49
+3	0	fb:cell.eso_510_g13	ESO 510-G13	eso|510|g13	eso|510|g13	NN|CD|NN	O|NUMBER|O	|510.0|	510.0		13.0	ESO 510-G13	fb:part.eso_510_g13
+3	1	fb:cell.sa_pec_sp	Sa: pec sp	sa|:|pec|sp	Sa|:|pec|sp	NNP|:|NN|NN	O|O|O|O	|||				Sa: pec sp	fb:part.sa_pec_sp
+3	2	fb:cell.hydra	Hydra	hydra	hydra	NN	PERSON					Hydra	fb:part.hydra
+3	3	fb:cell.13_4	13.4	13.4	13.4	CD	NUMBER	13.4	13.4			13.4	fb:part.13_4
+4	0	fb:cell.ic_342	IC 342	ic|342	ic|342	NN|CD	O|NUMBER	|342.0	342.0			IC 342	fb:part.ic_342
+4	1	fb:cell.sab_rs_cd	SAB(rs)cd	sab|-lrb-|rs|-rrb-|cd	SAB|-lrb-|r|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)cd	fb:part.sab_rs_cd
+4	2	fb:cell.camelopardalis	Camelopardalis	camelopardalis	Camelopardalis	NNP	O					Camelopardalis	fb:part.camelopardalis
+4	3	fb:cell.9_1	9.1	9.1	9.1	CD	NUMBER	9.1	9.1			9.1	fb:part.9_1
+5	0	fb:cell.ic_442	IC 442	ic|442	ic|442	NN|CD	O|NUMBER	|442.0	442.0			IC 442	fb:part.ic_442
+5	1	fb:cell.s	S	s	s	NN	O					S	fb:part.s
+5	2	fb:cell.camelopardalis	Camelopardalis	camelopardalis	Camelopardalis	NNP	O					Camelopardalis	fb:part.camelopardalis
+5	3	fb:cell.13_8	13.8	13.8	13.8	CD	NUMBER	13.8	13.8			13.8	fb:part.13_8
+6	0	fb:cell.ic_1296	IC 1296	ic|1296	ic|1296	NN|CD	O|DATE	|1296	1296.0			IC 1296	fb:part.ic_1296
+6	1	fb:cell.sbbc	SBbc	sbbc	sbbc	NN	O					SBbc	fb:part.sbbc
+6	2	fb:cell.lyra	Lyra	lyra	Lyra	NNP	ORGANIZATION					Lyra	fb:part.lyra
+6	3	fb:cell.14_8	14.8	14.8	14.8	CD	NUMBER	14.8	14.8			14.8	fb:part.14_8
+7	0	fb:cell.isohdfs_27	ISOHDFS 27	isohdfs|27	isohdf|27	NN|CD	O|NUMBER	|27.0	27.0			ISOHDFS 27	fb:part.isohdfs_27
+7	1	fb:cell.s	S	s	s	NN	O					S	fb:part.s
+7	2	fb:cell.null											fb:part.null
+7	3	fb:cell.null											fb:part.null
+8	0	fb:cell.ic_2163	IC 2163	ic|2163	ic|2163	NN|CD	O|DATE	|2163	2163.0			IC 2163	fb:part.ic_2163
+8	1	fb:cell.sb_rs_c_pec	SB(rs)c pec	sb|-lrb-|rs|-rrb-|c|pec	sb|-lrb-|r|-rrb-|c|pec	NN|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SB(rs)c pec	fb:part.sb_rs_c_pec
+8	2	fb:cell.canis_major	Canis Major	canis|major	Canis|Major	NNP|NNP	O|O	|				Canis Major	fb:part.canis_major
+8	3	fb:cell.11_6	11.6	11.6	11.6	CD	NUMBER	11.6	11.6			11.6	fb:part.11_6
+9	0	fb:cell.ic_4970	IC 4970	ic|4970	ic|4970	NN|CD	O|NUMBER	|4970.0	4970.0			IC 4970	fb:part.ic_4970
+9	1	fb:cell.sa0_pec	SA0- pec	sa0|-|pec	sa0|-|pec	SYM|:|NN	O|O|O	||	0.0			SA0- pec	fb:part.sa0_pec
+9	2	fb:cell.pavo	Pavo	pavo	Pavo	NNP	O					Pavo	fb:part.pavo
+9	3	fb:cell.12_7	12.7	12.7	12.7	CD	NUMBER	12.7	12.7			12.7	fb:part.12_7
+10	0	fb:cell.leda_100170_dwingeloo_1	LEDA 100170, Dwingeloo 1	leda|100170|,|dwingeloo|1	LEDA|100170|,|Dwingeloo|1	NNP|CD|,|NNP|CD	ORGANIZATION|NUMBER|O|PERSON|NUMBER	|100170.0|||1.0	100170.0		1.0	LEDA 100170|Dwingeloo 1	fb:part.leda_100170|fb:part.dwingeloo_1
+10	1	fb:cell.sb_s_cd	SB(s)cd	sb|-lrb-|s|-rrb-|cd	sb|-lrb-|s|-rrb-|cd	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)cd	fb:part.sb_s_cd
+10	2	fb:cell.cassiopeia	Cassiopeia	cassiopeia	Cassiopeia	NNP	O					Cassiopeia	fb:part.cassiopeia
+10	3	fb:cell.8_3	8.3	8.3	8.3	CD	NUMBER	8.3	8.3			8.3	fb:part.8_3
+11	0	fb:cell.m31_andromeda	M31, Andromeda	m31|,|andromeda	m31|,|Andromeda	NN|,|NNP	O|O|PERSON	||	31.0			M31|Andromeda	fb:part.m31|fb:part.andromeda
+11	1	fb:cell.sa_s_b	SA(s)b	sa|-lrb-|s|-rrb-|b	SA|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)b	fb:part.sa_s_b
+11	2	fb:cell.andromeda	Andromeda	andromeda	Andromeda	NNP	PERSON					Andromeda	fb:part.andromeda
+11	3	fb:cell.4_36	4.36	4.36	4.36	CD	NUMBER	4.36	4.36			4.36	fb:part.4_36
+12	0	fb:cell.m33_triangulum_galaxy	M33, Triangulum Galaxy	m33|,|triangulum|galaxy	m33|,|Triangulum|Galaxy	NN|,|NNP|NNP	O|O|O|O	|||	33.0			M33|Triangulum Galaxy	fb:part.m33|fb:part.triangulum_galaxy
+12	1	fb:cell.sa_s_cd	SA(s)cd	sa|-lrb-|s|-rrb-|cd	SA|-lrb-|s|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)cd	fb:part.sa_s_cd
+12	2	fb:cell.triangulum	Triangulum	triangulum	triangulum	NN	O					Triangulum	fb:part.triangulum
+12	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3			6.3	fb:part.6_3
+13	0	fb:cell.m51a_whirlpool_galaxy	M51a, Whirlpool Galaxy	m51a|,|whirlpool|galaxy	m51a|,|Whirlpool|Galaxy	NN|,|NNP|NNP	O|O|ORGANIZATION|ORGANIZATION	|||	51.0			M51a|Whirlpool Galaxy	fb:part.m51a|fb:part.whirlpool_galaxy
+13	1	fb:cell.sa_s_bc_pec	SA(s)bc pec	sa|-lrb-|s|-rrb-|bc|pec	SA|-lrb-|s|-rrb-|bc|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SA(s)bc pec	fb:part.sa_s_bc_pec
+13	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+13	3	fb:cell.9_0	9.0	9.0	9.0	CD	NUMBER	9.0	9.0			9.0	fb:part.9_0
+14	0	fb:cell.m58	M58	m58	m58	NN	O		58.0			M58	fb:part.m58
+14	1	fb:cell.sab_rs_b	SAB(rs)b	sab|-lrb-|rs|-rrb-|b	SAB|-lrb-|r|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)b	fb:part.sab_rs_b
+14	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+14	3	fb:cell.10_5	10.5	10.5	10.5	CD	NUMBER	10.5	10.5			10.5	fb:part.10_5
+15	0	fb:cell.m61	M61	m61	m61	NN	O		61.0			M61	fb:part.m61
+15	1	fb:cell.sab_rs_bc	SAB(rs)bc	sab|-lrb-|rs|-rrb-|bc	SAB|-lrb-|r|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)bc	fb:part.sab_rs_bc
+15	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+15	3	fb:cell.10_2	10.2	10.2	10.2	CD	NUMBER	10.2	10.2			10.2	fb:part.10_2
+16	0	fb:cell.m63_sunflower_galaxy	M63, Sunflower Galaxy	m63|,|sunflower|galaxy	m63|,|sunflower|galaxy	NN|,|NN|NN	O|O|O|O	|||	63.0			M63|Sunflower Galaxy	fb:part.m63|fb:part.sunflower_galaxy
+16	1	fb:cell.sa_rs_bc	SA(rs)bc	sa|-lrb-|rs|-rrb-|bc	SA|-lrb-|r|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(rs)bc	fb:part.sa_rs_bc
+16	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+16	3	fb:cell.9_3	9.3	9.3	9.3	CD	NUMBER	9.3	9.3			9.3	fb:part.9_3
+17	0	fb:cell.m64_black_eye_galaxy	M64, Black Eye Galaxy	m64|,|black|eye|galaxy	m64|,|Black|Eye|Galaxy	NN|,|NNP|NNP|NNP	O|O|O|O|O	||||	64.0			M64|Black Eye Galaxy	fb:part.m64|fb:part.black_eye_galaxy
+17	1	fb:cell._r_sa_rs_ab	(R)SA(rs)ab	-lrb-|r|-rrb-|sa|-lrb-|rs|-rrb-|ab	-lrb-|r|-rrb-|SA|-lrb-|r|-rrb-|ab	-LRB-|NN|-RRB-|NNP|-LRB-|NNS|-RRB-|IN	O|O|O|O|O|O|O|O	|||||||				(R)SA(rs)ab	fb:part._r_sa_rs_ab
+17	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+17	3	fb:cell.9_4	9.4	9.4	9.4	CD	NUMBER	9.4	9.4			9.4	fb:part.9_4
+18	0	fb:cell.m65	M65	m65	m65	NN	O		65.0			M65	fb:part.m65
+18	1	fb:cell.sab_rs_a	SAB(rs)a	sab|-lrb-|rs|-rrb-|a	SAB|-lrb-|r|-rrb-|a	NNP|-LRB-|NNS|-RRB-|DT	O|O|O|O|O	||||				SAB(rs)a	fb:part.sab_rs_a
+18	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+18	3	fb:cell.10_3	10.3	10.3	10.3	CD	NUMBER	10.3	10.3			10.3	fb:part.10_3
+19	0	fb:cell.m66	M66	m66	m66	NN	O		66.0			M66	fb:part.m66
+19	1	fb:cell.sab_s_b	SAB(s)b	sab|-lrb-|s|-rrb-|b	SAB|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)b	fb:part.sab_s_b
+19	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+19	3	fb:cell.9_7	9.7	9.7	9.7	CD	NUMBER	9.7	9.7			9.7	fb:part.9_7
+20	0	fb:cell.m74	M74	m74	m74	NN	O		74.0			M74	fb:part.m74
+20	1	fb:cell.sa_s_c	SA(s)c	sa|-lrb-|s|-rrb-|c	SA|-lrb-|s|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)c	fb:part.sa_s_c
+20	2	fb:cell.pisces	Pisces	pisces	pisces	NNS	O					Pisces	fb:part.pisces
+20	3	fb:cell.9_95	9.95	9.95	9.95	CD	NUMBER	9.95	9.95			9.95	fb:part.9_95
+21	0	fb:cell.m77	M77	m77	m77	NN	O		77.0			M77	fb:part.m77
+21	1	fb:cell._r_sa_rs_b	(R)SA(rs)b	-lrb-|r|-rrb-|sa|-lrb-|rs|-rrb-|b	-lrb-|r|-rrb-|SA|-lrb-|r|-rrb-|b	-LRB-|NN|-RRB-|NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O|O|O|O	|||||||				(R)SA(rs)b	fb:part._r_sa_rs_b
+21	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+21	3	fb:cell.9_6	9.6	9.6	9.6	CD	NUMBER	9.6	9.6			9.6	fb:part.9_6
+22	0	fb:cell.m81	M81	m81	m81	NN	O		81.0			M81	fb:part.m81
+22	1	fb:cell.sa_s_ab	SA(s)ab	sa|-lrb-|s|-rrb-|ab	SA|-lrb-|s|-rrb-|ab	NNP|-LRB-|NNS|-RRB-|IN	O|O|O|O|O	||||				SA(s)ab	fb:part.sa_s_ab
+22	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+22	3	fb:cell.7_9	7.9	7.9	7.9	CD	NUMBER	7.9	7.9			7.9	fb:part.7_9
+23	0	fb:cell.m83	M83	m83	m83	NN	O		83.0			M83	fb:part.m83
+23	1	fb:cell.sab_s_c	SAB(s)c	sab|-lrb-|s|-rrb-|c	SAB|-lrb-|s|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)c	fb:part.sab_s_c
+23	2	fb:cell.hydra	Hydra	hydra	hydra	NN	PERSON					Hydra	fb:part.hydra
+23	3	fb:cell.8_2	8.2	8.2	8.2	CD	NUMBER	8.2	8.2			8.2	fb:part.8_2
+24	0	fb:cell.m88	M88	m88	m88	NN	O		88.0			M88	fb:part.m88
+24	1	fb:cell.sa_rs_b	SA(rs)b	sa|-lrb-|rs|-rrb-|b	SA|-lrb-|r|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(rs)b	fb:part.sa_rs_b
+24	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+24	3	fb:cell.10_4	10.4	10.4	10.4	CD	NUMBER	10.4	10.4			10.4	fb:part.10_4
+25	0	fb:cell.m90	M90	m90	m90	NN	O		90.0			M90	fb:part.m90
+25	1	fb:cell.sab_rs_ab	SAB(rs)ab	sab|-lrb-|rs|-rrb-|ab	SAB|-lrb-|r|-rrb-|ab	NNP|-LRB-|NNS|-RRB-|IN	O|O|O|O|O	||||				SAB(rs)ab	fb:part.sab_rs_ab
+25	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+25	3	fb:cell.10_3	10.3	10.3	10.3	CD	NUMBER	10.3	10.3			10.3	fb:part.10_3
+26	0	fb:cell.m91	M91	m91	m91	NN	O		91.0			M91	fb:part.m91
+26	1	fb:cell.sbb_rs	SBb(rs)	sbb|-lrb-|rs|-rrb-	sbb|-lrb-|r|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||				SBb(rs)	fb:part.sbb_rs
+26	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+26	3	fb:cell.11_0	11.0	11.0	11.0	CD	NUMBER	11.0	11.0			11.0	fb:part.11_0
+27	0	fb:cell.m94	M94	m94	m94	NN	O		94.0			M94	fb:part.m94
+27	1	fb:cell.sa_r_ab	SA(r)ab	sa|-lrb-|r|-rrb-|ab	SA|-lrb-|r|-rrb-|ab	NNP|-LRB-|NN|-RRB-|IN	O|O|O|O|O	||||				SA(r)ab	fb:part.sa_r_ab
+27	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+27	3	fb:cell.9_0	9.0	9.0	9.0	CD	NUMBER	9.0	9.0			9.0	fb:part.9_0
+28	0	fb:cell.m95	M95	m95	m95	NN	O		95.0			M95	fb:part.m95
+28	1	fb:cell.sb_r_b	SB(r)b	sb|-lrb-|r|-rrb-|b	sb|-lrb-|r|-rrb-|b	NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SB(r)b	fb:part.sb_r_b
+28	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+28	3	fb:cell.11_4	11.4	11.4	11.4	CD	NUMBER	11.4	11.4			11.4	fb:part.11_4
+29	0	fb:cell.m96	M96	m96	m96	NN	O		96.0			M96	fb:part.m96
+29	1	fb:cell.sab_rs_ab	SAB(rs)ab	sab|-lrb-|rs|-rrb-|ab	SAB|-lrb-|r|-rrb-|ab	NNP|-LRB-|NNS|-RRB-|IN	O|O|O|O|O	||||				SAB(rs)ab	fb:part.sab_rs_ab
+29	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+29	3	fb:cell.10_1	10.1	10.1	10.1	CD	NUMBER	10.1	10.1			10.1	fb:part.10_1
+30	0	fb:cell.m98	M98	m98	m98	NN	O		98.0			M98	fb:part.m98
+30	1	fb:cell.sab_s_ab	SAB(s)ab	sab|-lrb-|s|-rrb-|ab	SAB|-lrb-|s|-rrb-|ab	NNP|-LRB-|NNS|-RRB-|IN	O|O|O|O|O	||||				SAB(s)ab	fb:part.sab_s_ab
+30	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+30	3	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0			11	fb:part.11
+31	0	fb:cell.m99_coma_pinwheel_galaxy	M99, Coma Pinwheel Galaxy	m99|,|coma|pinwheel|galaxy	m99|,|Coma|Pinwheel|Galaxy	NN|,|NNP|NNP|NNP	O|O|O|O|O	||||	99.0			M99|Coma Pinwheel Galaxy	fb:part.m99|fb:part.coma_pinwheel_galaxy
+31	1	fb:cell.sa_s_c	SA(s)c	sa|-lrb-|s|-rrb-|c	SA|-lrb-|s|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)c	fb:part.sa_s_c
+31	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+31	3	fb:cell.10_4	10.4	10.4	10.4	CD	NUMBER	10.4	10.4			10.4	fb:part.10_4
+32	0	fb:cell.m100	M100	m100	m100	NN	O		100.0			M100	fb:part.m100
+32	1	fb:cell.sab_s_bc	SAB(s)bc	sab|-lrb-|s|-rrb-|bc	SAB|-lrb-|s|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)bc	fb:part.sab_s_bc
+32	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+32	3	fb:cell.10_1	10.1	10.1	10.1	CD	NUMBER	10.1	10.1			10.1	fb:part.10_1
+33	0	fb:cell.m101_pinwheel_galaxy	M101, Pinwheel Galaxy	m101|,|pinwheel|galaxy	m101|,|Pinwheel|Galaxy	NN|,|NNP|NNP	O|O|O|O	|||	101.0			M101|Pinwheel Galaxy	fb:part.m101|fb:part.pinwheel_galaxy
+33	1	fb:cell.sab_rs_cd	SAB(rs)cd	sab|-lrb-|rs|-rrb-|cd	SAB|-lrb-|r|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)cd	fb:part.sab_rs_cd
+33	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+33	3	fb:cell.8_3	8.3	8.3	8.3	CD	NUMBER	8.3	8.3			8.3	fb:part.8_3
+34	0	fb:cell.m104_sombrero_galaxy	M104, Sombrero Galaxy	m104|,|sombrero|galaxy	m104|,|Sombrero|Galaxy	NN|,|NNP|NNP	O|O|O|O	|||	104.0			M104|Sombrero Galaxy	fb:part.m104|fb:part.sombrero_galaxy
+34	1	fb:cell.sa_s_a	SA(s)a	sa|-lrb-|s|-rrb-|a	SA|-lrb-|s|-rrb-|a	NNP|-LRB-|NNS|-RRB-|DT	O|O|O|O|O	||||				SA(s)a	fb:part.sa_s_a
+34	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+34	3	fb:cell.9_0	9.0	9.0	9.0	CD	NUMBER	9.0	9.0			9.0	fb:part.9_0
+35	0	fb:cell.m106	M106	m106	m106	NN	O		106.0			M106	fb:part.m106
+35	1	fb:cell.sab_s_bc	SAB(s)bc	sab|-lrb-|s|-rrb-|bc	SAB|-lrb-|s|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)bc	fb:part.sab_s_bc
+35	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+35	3	fb:cell.9_1	9.1	9.1	9.1	CD	NUMBER	9.1	9.1			9.1	fb:part.9_1
+36	0	fb:cell.m108	M108	m108	m108	NN	O		108.0			M108	fb:part.m108
+36	1	fb:cell.sb_s_cd	SB(s)cd	sb|-lrb-|s|-rrb-|cd	sb|-lrb-|s|-rrb-|cd	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)cd	fb:part.sb_s_cd
+36	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+36	3	fb:cell.10_7	10.7	10.7	10.7	CD	NUMBER	10.7	10.7			10.7	fb:part.10_7
+37	0	fb:cell.m109	M109	m109	m109	NN	O		109.0			M109	fb:part.m109
+37	1	fb:cell.sb_rs_bc	SB(rs)bc	sb|-lrb-|rs|-rrb-|bc	sb|-lrb-|r|-rrb-|bc	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(rs)bc	fb:part.sb_rs_bc
+37	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+37	3	fb:cell.10_6	10.6	10.6	10.6	CD	NUMBER	10.6	10.6			10.6	fb:part.10_6
+38	0	fb:cell.maffei_2	Maffei 2	maffei|2	Maffei|2	NNP|CD	PERSON|NUMBER	|2.0	2.0			Maffei 2	fb:part.maffei_2
+38	1	fb:cell.sab_rs_bc	SAB(rs)bc	sab|-lrb-|rs|-rrb-|bc	SAB|-lrb-|r|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)bc	fb:part.sab_rs_bc
+38	2	fb:cell.cassiopeia	Cassiopeia	cassiopeia	Cassiopeia	NNP	O					Cassiopeia	fb:part.cassiopeia
+38	3	fb:cell.16_0	16.0	16.0	16.0	CD	NUMBER	16.0	16.0			16.0	fb:part.16_0
+39	0	fb:cell.milky_way	Milky Way	milky|way	Milky|Way	NNP|NNP	O|O	|				Milky Way	fb:part.milky_way
+39	1	fb:cell.sba_citation_needed	SBa[citation needed]	sba|-lsb-|citation|needed|-rsb-	sba|-lsb-|citation|need|-rsb-	NN|-LRB-|NN|VBN|-RRB-	O|O|O|O|O	||||				SBa[citation needed]	fb:part.sba_citation_needed
+39	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+39	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+40	0	fb:cell.ngc_1	NGC 1	ngc|1	NGC|1	NNP|CD	ORGANIZATION|NUMBER	|1.0	1.0			NGC 1	fb:part.ngc_1
+40	1	fb:cell.sa_s_b	SA(s)b	sa|-lrb-|s|-rrb-|b	SA|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)b	fb:part.sa_s_b
+40	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+40	3	fb:cell.13_65	13.65	13.65	13.65	CD	NUMBER	13.65	13.65			13.65	fb:part.13_65
+41	0	fb:cell.ngc_2	NGC 2	ngc|2	ngc|2	NN|CD	ORGANIZATION|NUMBER	|2.0	2.0			NGC 2	fb:part.ngc_2
+41	1	fb:cell.sab	Sab	sab	Sab	NNP	O					Sab	fb:part.sab
+41	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+41	3	fb:cell._15_0	+15.0	+15.0	+15.0	CD	NUMBER	15.0	15.0			+15.0	fb:part._15_0
+42	0	fb:cell.ngc_17	NGC 17	ngc|17	NGC|17	NNP|CD	O|NUMBER	|17.0	17.0			NGC 17	fb:part.ngc_17
+42	1	fb:cell.sc	Sc	sc	sc	NN	O					Sc	fb:part.sc
+42	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+42	3	fb:cell.15_3	15.3	15.3	15.3	CD	NUMBER	15.3	15.3			15.3	fb:part.15_3
+43	0	fb:cell.ngc_47	NGC 47	ngc|47	NGC|47	NNP|CD	O|NUMBER	|47.0	47.0			NGC 47	fb:part.ngc_47
+43	1	fb:cell.sb_rs_bc	SB(rs)bc	sb|-lrb-|rs|-rrb-|bc	sb|-lrb-|r|-rrb-|bc	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(rs)bc	fb:part.sb_rs_bc
+43	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+43	3	fb:cell.13_5	13.5	13.5	13.5	CD	NUMBER	13.5	13.5			13.5	fb:part.13_5
+44	0	fb:cell.ngc_247	NGC 247	ngc|247	ngc|247	NN|CD	O|NUMBER	|247.0	247.0			NGC 247	fb:part.ngc_247
+44	1	fb:cell.sab_s_d	SAB(s)d	sab|-lrb-|s|-rrb-|d	SAB|-lrb-|s|-rrb-|d	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)d	fb:part.sab_s_d
+44	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+44	3	fb:cell.9_9	9.9	9.9	9.9	CD	NUMBER	9.9	9.9			9.9	fb:part.9_9
+45	0	fb:cell.ngc_253_sculptor_galaxy	NGC 253, Sculptor Galaxy	ngc|253|,|sculptor|galaxy	ngc|253|,|Sculptor|Galaxy	NN|CD|,|NNP|NNP	ORGANIZATION|NUMBER|O|O|O	|253.0|||	253.0			NGC 253|Sculptor Galaxy	fb:part.ngc_253|fb:part.sculptor_galaxy
+45	1	fb:cell.sab_s_c	SAB(s)c	sab|-lrb-|s|-rrb-|c	SAB|-lrb-|s|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)c	fb:part.sab_s_c
+45	2	fb:cell.sculptor	Sculptor	sculptor	sculptor	NN	O					Sculptor	fb:part.sculptor
+45	3	fb:cell.8_0	8.0	8.0	8.0	CD	NUMBER	8.0	8.0			8.0	fb:part.8_0
+46	0	fb:cell.ngc_300	NGC 300	ngc|300	ngc|300	NN|CD	O|NUMBER	|300.0	300.0			NGC 300	fb:part.ngc_300
+46	1	fb:cell.sa_s_d	SA(s)d	sa|-lrb-|s|-rrb-|d	SA|-lrb-|s|-rrb-|d	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)d	fb:part.sa_s_d
+46	2	fb:cell.sculptor	Sculptor	sculptor	sculptor	NN	O					Sculptor	fb:part.sculptor
+46	3	fb:cell.9_0	9.0	9.0	9.0	CD	NUMBER	9.0	9.0			9.0	fb:part.9_0
+47	0	fb:cell.ngc_514	NGC 514	ngc|514	ngc|514	NN|CD	O|NUMBER	|514.0	514.0			NGC 514	fb:part.ngc_514
+47	1	fb:cell.sab_rs_c	SAB(rs)c	sab|-lrb-|rs|-rrb-|c	SAB|-lrb-|r|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)c	fb:part.sab_rs_c
+47	2	fb:cell.pisces	Pisces	pisces	pisces	NNS	O					Pisces	fb:part.pisces
+47	3	fb:cell.12_2	12.2	12.2	12.2	CD	NUMBER	12.2	12.2			12.2	fb:part.12_2
+48	0	fb:cell.ngc_625	NGC 625	ngc|625	ngc|625	NN|CD	O|NUMBER	|625.0	625.0			NGC 625	fb:part.ngc_625
+48	1	fb:cell.sb_s_m	SB(s)m	sb|-lrb-|s|-rrb-|m	sb|-lrb-|s|-rrb-|m	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)m	fb:part.sb_s_m
+48	2	fb:cell.phoenix	Phoenix	phoenix	Phoenix	NNP	LOCATION					Phoenix	fb:part.phoenix
+48	3	fb:cell.11_7	11.7	11.7	11.7	CD	NUMBER	11.7	11.7			11.7	fb:part.11_7
+49	0	fb:cell.ngc_772	NGC 772	ngc|772	ngc|772	NN|CD	O|NUMBER	|772.0	772.0			NGC 772	fb:part.ngc_772
+49	1	fb:cell.sa_s_b	SA(s)b	sa|-lrb-|s|-rrb-|b	SA|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)b	fb:part.sa_s_b
+49	2	fb:cell.aries	Aries	aries	aries	NNS	O					Aries	fb:part.aries
+49	3	fb:cell.11_1	11.1	11.1	11.1	CD	NUMBER	11.1	11.1			11.1	fb:part.11_1
+50	0	fb:cell.ngc_891	NGC 891	ngc|891	ngc|891	NN|CD	O|NUMBER	|891.0	891.0			NGC 891	fb:part.ngc_891
+50	1	fb:cell.sa_s_b	SA(s)b	sa|-lrb-|s|-rrb-|b	SA|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)b	fb:part.sa_s_b
+50	2	fb:cell.andromeda	Andromeda	andromeda	Andromeda	NNP	PERSON					Andromeda	fb:part.andromeda
+50	3	fb:cell.10_8	10.8	10.8	10.8	CD	NUMBER	10.8	10.8			10.8	fb:part.10_8
+51	0	fb:cell.ngc_1032	NGC 1032	ngc|1032	NGC|1032	NNP|CD	O|DATE	|1032	1032.0			NGC 1032	fb:part.ngc_1032
+51	1	fb:cell.s0_a	S0/a	s0\\/a	s0\\/a	NN	O		0.0			S0|a	fb:part.s0|fb:part.a
+51	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+51	3	fb:cell.12_6	12.6	12.6	12.6	CD	NUMBER	12.6	12.6			12.6	fb:part.12_6
+52	0	fb:cell.ngc_1042	NGC 1042	ngc|1042	NGC|1042	NNP|CD	O|DATE	|1042	1042.0			NGC 1042	fb:part.ngc_1042
+52	1	fb:cell.sab_rs_cd	SAB(rs)cd	sab|-lrb-|rs|-rrb-|cd	SAB|-lrb-|r|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)cd	fb:part.sab_rs_cd
+52	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+52	3	fb:cell.14_0	14.0	14.0	14.0	CD	NUMBER	14.0	14.0			14.0	fb:part.14_0
+53	0	fb:cell.ngc_1055	NGC 1055	ngc|1055	NGC|1055	NNP|CD	O|DATE	|1055	1055.0			NGC 1055	fb:part.ngc_1055
+53	1	fb:cell.sbb_ii_iii_spindle	SBb:II-III: spindle	sbb|:|ii|iii|:|spindle	sbb|:|ii|iii|:|spindle	NN|:|CD|CD|:|NN	O|O|NUMBER|NUMBER|O|O	||0.0|0.0||				SBb:II-III: spindle	fb:part.sbb_ii_iii_spindle
+53	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+53	3	fb:cell.11_6	11.6	11.6	11.6	CD	NUMBER	11.6	11.6			11.6	fb:part.11_6
+54	0	fb:cell.ngc_1087	NGC 1087	ngc|1087	NGC|1087	NNP|CD	O|DATE	|1087	1087.0			NGC 1087	fb:part.ngc_1087
+54	1	fb:cell.sab_rs_c	SAB(rs)c	sab|-lrb-|rs|-rrb-|c	SAB|-lrb-|r|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)c	fb:part.sab_rs_c
+54	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+54	3	fb:cell.12_2	12.2	12.2	12.2	CD	NUMBER	12.2	12.2			12.2	fb:part.12_2
+55	0	fb:cell.ngc_1090	NGC 1090	ngc|1090	NGC|1090	NNP|CD	O|DATE	|1090	1090.0			NGC 1090	fb:part.ngc_1090
+55	1	fb:cell.sb_rs_bc	SB(rs)bc	sb|-lrb-|rs|-rrb-|bc	sb|-lrb-|r|-rrb-|bc	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(rs)bc	fb:part.sb_rs_bc
+55	2	fb:cell.cetus	Cetus	cetus	Cetus	NNP	O					Cetus	fb:part.cetus
+55	3	fb:cell.12_5	12.5	12.5	12.5	CD	NUMBER	12.5	12.5			12.5	fb:part.12_5
+56	0	fb:cell.ngc_1097	NGC 1097	ngc|1097	NGC|1097	NNP|CD	O|DATE	|1097	1097.0			NGC 1097	fb:part.ngc_1097
+56	1	fb:cell.r_1_sb_r_l_bsy1	R'_1:)SB(r'l)bSy1	r|'|_|1|:|-rrb-|sb|-lrb-|r|`|l|-rrb-|bsy1	r|'|_|1|:|-rrb-|sb|-lrb-|r|`|l|-rrb-|bsy1	NN|POS|NN|CD|:|-RRB-|NN|-LRB-|NN|``|NN|-RRB-|NN	O|O|O|NUMBER|O|O|O|O|O|O|O|O|O	|||1.0|||||||||	1.0		1.0	R'_1:)SB(r'l)bSy1	fb:part.r_1_sb_r_l_bsy1
+56	2	fb:cell.fornax	Fornax	fornax	fornax	NN	O					Fornax	fb:part.fornax
+56	3	fb:cell.10_2	10.2	10.2	10.2	CD	NUMBER	10.2	10.2			10.2	fb:part.10_2
+57	0	fb:cell.ngc_1232	NGC 1232	ngc|1232	NGC|1232	NNP|CD	O|DATE	|1232	1232.0			NGC 1232	fb:part.ngc_1232
+57	1	fb:cell.sab_rs_c	SAB(rs)c	sab|-lrb-|rs|-rrb-|c	SAB|-lrb-|r|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)c	fb:part.sab_rs_c
+57	2	fb:cell.eridanus	Eridanus	eridanus	Eridanus	NNP	O					Eridanus	fb:part.eridanus
+57	3	fb:cell.10_9	10.9	10.9	10.9	CD	NUMBER	10.9	10.9			10.9	fb:part.10_9
+58	0	fb:cell.ngc_1300	NGC 1300	ngc|1300	NGC|1300	NNP|CD	O|DATE	|1300	1300.0			NGC 1300	fb:part.ngc_1300
+58	1	fb:cell._r_sb_s_bc	(R')SB(s)bc	-lrb-|r|'|-rrb-|sb|-lrb-|s|-rrb-|bc	-lrb-|r|'|-rrb-|sb|-lrb-|s|-rrb-|bc	-LRB-|NN|''|-RRB-|NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O|O|O|O|O	||||||||				(R')SB(s)bc	fb:part._r_sb_s_bc
+58	2	fb:cell.eridanus	Eridanus	eridanus	Eridanus	NNP	O					Eridanus	fb:part.eridanus
+58	3	fb:cell.11_4	11.4	11.4	11.4	CD	NUMBER	11.4	11.4			11.4	fb:part.11_4
+59	0	fb:cell.ngc_1365	NGC 1365	ngc|1365	NGC|1365	NNP|CD	O|DATE	|1365	1365.0			NGC 1365	fb:part.ngc_1365
+59	1	fb:cell._r_sbb_s_b	(R')SBb(s)b	-lrb-|r|'|-rrb-|sbb|-lrb-|s|-rrb-|b	-lrb-|r|'|-rrb-|sbb|-lrb-|s|-rrb-|b	-LRB-|NN|''|-RRB-|NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O|O|O|O|O	||||||||				(R')SBb(s)b	fb:part._r_sbb_s_b
+59	2	fb:cell.fornax	Fornax	fornax	fornax	NN	O					Fornax	fb:part.fornax
+59	3	fb:cell.10_3	10.3	10.3	10.3	CD	NUMBER	10.3	10.3			10.3	fb:part.10_3
+60	0	fb:cell.ngc_1512	NGC 1512	ngc|1512	NGC|1512	NNP|CD	O|DATE	|1512	1512.0			NGC 1512	fb:part.ngc_1512
+60	1	fb:cell.sb_r_ab	SB(r)ab	sb|-lrb-|r|-rrb-|ab	sb|-lrb-|r|-rrb-|ab	NN|-LRB-|NN|-RRB-|IN	O|O|O|O|O	||||				SB(r)ab	fb:part.sb_r_ab
+60	2	fb:cell.horologium	Horologium	horologium	Horologium	NNP	O					Horologium	fb:part.horologium
+60	3	fb:cell.11_1	11.1	11.1	11.1	CD	NUMBER	11.1	11.1			11.1	fb:part.11_1
+61	0	fb:cell.ngc_1532	NGC 1532	ngc|1532	NGC|1532	NNP|CD	O|DATE	|1532	1532.0			NGC 1532	fb:part.ngc_1532
+61	1	fb:cell.sb_s_b_pec	SB(s)b pec	sb|-lrb-|s|-rrb-|b|pec	sb|-lrb-|s|-rrb-|b|pec	NN|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SB(s)b pec	fb:part.sb_s_b_pec
+61	2	fb:cell.eridanus	Eridanus	eridanus	Eridanus	NNP	O					Eridanus	fb:part.eridanus
+61	3	fb:cell.10_7	10.7	10.7	10.7	CD	NUMBER	10.7	10.7			10.7	fb:part.10_7
+62	0	fb:cell.ngc_1637	NGC 1637	ngc|1637	NGC|1637	NNP|CD	O|DATE	|1637	1637.0			NGC 1637	fb:part.ngc_1637
+62	1	fb:cell.sab_rs_c	SAB(rs)c	sab|-lrb-|rs|-rrb-|c	SAB|-lrb-|r|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)c	fb:part.sab_rs_c
+62	2	fb:cell.eridanus	Eridanus	eridanus	Eridanus	NNP	O					Eridanus	fb:part.eridanus
+62	3	fb:cell.11_5	11.5	11.5	11.5	CD	NUMBER	11.5	11.5			11.5	fb:part.11_5
+63	0	fb:cell.ngc_2207	NGC 2207	ngc|2207	NGC|2207	NNP|CD	O|DATE	|2207	2207.0			NGC 2207	fb:part.ngc_2207
+63	1	fb:cell.sab_rs_bc_pec	SAB(rs)bc pec	sab|-lrb-|rs|-rrb-|bc|pec	SAB|-lrb-|r|-rrb-|bc|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SAB(rs)bc pec	fb:part.sab_rs_bc_pec
+63	2	fb:cell.canis_major	Canis Major	canis|major	Canis|Major	NNP|NNP	O|O	|				Canis Major	fb:part.canis_major
+63	3	fb:cell.12_2	12.2	12.2	12.2	CD	NUMBER	12.2	12.2			12.2	fb:part.12_2
+64	0	fb:cell.ngc_2403	NGC 2403	ngc|2403	NGC|2403	NNP|CD	O|DATE	|2403	2403.0			NGC 2403	fb:part.ngc_2403
+64	1	fb:cell.sab_s_cd	SAB(s)cd	sab|-lrb-|s|-rrb-|cd	SAB|-lrb-|s|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)cd	fb:part.sab_s_cd
+64	2	fb:cell.camelopardalis	Camelopardalis	camelopardalis	Camelopardalis	NNP	O					Camelopardalis	fb:part.camelopardalis
+64	3	fb:cell.8_9	8.9	8.9	8.9	CD	NUMBER	8.9	8.9			8.9	fb:part.8_9
+65	0	fb:cell.ngc_2442	NGC 2442	ngc|2442	NGC|2442	NNP|CD	O|DATE	|2442	2442.0			NGC 2442	fb:part.ngc_2442
+65	1	fb:cell.sab_s_bc_pec	SAB(s)bc pec	sab|-lrb-|s|-rrb-|bc|pec	SAB|-lrb-|s|-rrb-|bc|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SAB(s)bc pec	fb:part.sab_s_bc_pec
+65	2	fb:cell.volans	Volans	volans	volan	NNS	MISC					Volans	fb:part.volans
+65	3	fb:cell.11_2	11.2	11.2	11.2	CD	NUMBER	11.2	11.2			11.2	fb:part.11_2
+66	0	fb:cell.ngc_2541	NGC 2541	ngc|2541	NGC|2541	NNP|CD	O|DATE	|2541	2541.0			NGC 2541	fb:part.ngc_2541
+66	1	fb:cell.sa_s_cd	SA(s)cd	sa|-lrb-|s|-rrb-|cd	SA|-lrb-|s|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)cd	fb:part.sa_s_cd
+66	2	fb:cell.lynx	Lynx	lynx	Lynx	NNP	PERSON					Lynx	fb:part.lynx
+66	3	fb:cell.12_3	12.3	12.3	12.3	CD	NUMBER	12.3	12.3			12.3	fb:part.12_3
+67	0	fb:cell.ngc_2683	NGC 2683	ngc|2683	NGC|2683	NNP|CD	O|DATE	|2683	2683.0			NGC 2683	fb:part.ngc_2683
+67	1	fb:cell.sa_rs_b	SA(rs)b	sa|-lrb-|rs|-rrb-|b	SA|-lrb-|r|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(rs)b	fb:part.sa_rs_b
+67	2	fb:cell.lynx	Lynx	lynx	Lynx	NNP	PERSON					Lynx	fb:part.lynx
+67	3	fb:cell.10_6	10.6	10.6	10.6	CD	NUMBER	10.6	10.6			10.6	fb:part.10_6
+68	0	fb:cell.ngc_2715	NGC 2715	ngc|2715	NGC|2715	NNP|CD	O|DATE	|2715	2715.0			NGC 2715	fb:part.ngc_2715
+68	1	fb:cell.sabc	SABc	sabc	sabc	NN	O					SABc	fb:part.sabc
+68	2	fb:cell.camelopardalis	Camelopardalis	camelopardalis	Camelopardalis	NNP	O					Camelopardalis	fb:part.camelopardalis
+68	3	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0			12	fb:part.12
+69	0	fb:cell.ngc_2841	NGC 2841	ngc|2841	NGC|2841	NNP|CD	O|DATE	|2841	2841.0			NGC 2841	fb:part.ngc_2841
+69	1	fb:cell.sa_r_b	SA(r)b	sa|-lrb-|r|-rrb-|b	SA|-lrb-|r|-rrb-|b	NNP|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SA(r)b	fb:part.sa_r_b
+69	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+69	3	fb:cell.10_1	10.1	10.1	10.1	CD	NUMBER	10.1	10.1			10.1	fb:part.10_1
+70	0	fb:cell.ngc_2903	NGC 2903	ngc|2903	NGC|2903	NNP|CD	O|DATE	|2903	2903.0			NGC 2903	fb:part.ngc_2903
+70	1	fb:cell.sb_s_d	SB(s)d	sb|-lrb-|s|-rrb-|d	sb|-lrb-|s|-rrb-|d	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)d	fb:part.sb_s_d
+70	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+70	3	fb:cell.9_7	9.7	9.7	9.7	CD	NUMBER	9.7	9.7			9.7	fb:part.9_7
+71	0	fb:cell.ngc_2976	NGC 2976	ngc|2976	NGC|2976	NNP|CD	O|DATE	|2976	2976.0			NGC 2976	fb:part.ngc_2976
+71	1	fb:cell.sac_pec	SAc pec	sac|pec	sac|pec	NN|NN	O|O	|				SAc pec	fb:part.sac_pec
+71	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+71	3	fb:cell.10_8	10.8	10.8	10.8	CD	NUMBER	10.8	10.8			10.8	fb:part.10_8
+72	0	fb:cell.ngc_2997	NGC 2997	ngc|2997	NGC|2997	NNP|CD	O|DATE	|2997	2997.0			NGC 2997	fb:part.ngc_2997
+72	1	fb:cell.sa_s_c	SA(s)c	sa|-lrb-|s|-rrb-|c	SA|-lrb-|s|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)c	fb:part.sa_s_c
+72	2	fb:cell.antlia	Antlia	antlia	Antlia	NNP	PERSON					Antlia	fb:part.antlia
+72	3	fb:cell.10_1	10.1	10.1	10.1	CD	NUMBER	10.1	10.1			10.1	fb:part.10_1
+73	0	fb:cell.ngc_3054	NGC 3054	ngc|3054	NGC|3054	NNP|CD	O|NUMBER	|3054.0	3054.0			NGC 3054	fb:part.ngc_3054
+73	1	fb:cell.sab_r_bc	SAB(r)bc	sab|-lrb-|r|-rrb-|bc	sab|-lrb-|r|-rrb-|bc	NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SAB(r)bc	fb:part.sab_r_bc
+73	2	fb:cell.hydra	Hydra	hydra	hydra	NN	PERSON					Hydra	fb:part.hydra
+73	3	fb:cell.12_6	12.6	12.6	12.6	CD	NUMBER	12.6	12.6			12.6	fb:part.12_6
+74	0	fb:cell.ngc_3079	NGC 3079	ngc|3079	NGC|3079	NNP|CD	O|NUMBER	|3079.0	3079.0			NGC 3079	fb:part.ngc_3079
+74	1	fb:cell.sb_s_c	SB(s)c	sb|-lrb-|s|-rrb-|c	sb|-lrb-|s|-rrb-|c	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)c	fb:part.sb_s_c
+74	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+74	3	fb:cell.11_5	11.5	11.5	11.5	CD	NUMBER	11.5	11.5			11.5	fb:part.11_5
+75	0	fb:cell.ngc_3109	NGC 3109	ngc|3109	NGC|3109	NNP|CD	O|NUMBER	|3109.0	3109.0			NGC 3109	fb:part.ngc_3109
+75	1	fb:cell.sb_s_m	SB(s)m	sb|-lrb-|s|-rrb-|m	sb|-lrb-|s|-rrb-|m	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)m	fb:part.sb_s_m
+75	2	fb:cell.hydra	Hydra	hydra	hydra	NN	PERSON					Hydra	fb:part.hydra
+75	3	fb:cell.10_4	10.4	10.4	10.4	CD	NUMBER	10.4	10.4			10.4	fb:part.10_4
+76	0	fb:cell.ngc_3184	NGC 3184	ngc|3184	NGC|3184	NNP|CD	O|NUMBER	|3184.0	3184.0			NGC 3184	fb:part.ngc_3184
+76	1	fb:cell.sa_s_b	SA(s)b	sa|-lrb-|s|-rrb-|b	SA|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)b	fb:part.sa_s_b
+76	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+76	3	fb:cell.9_6	9.6	9.6	9.6	CD	NUMBER	9.6	9.6			9.6	fb:part.9_6
+77	0	fb:cell.ngc_3223	NGC 3223	ngc|3223	NGC|3223	NNP|CD	O|NUMBER	|3223.0	3223.0			NGC 3223	fb:part.ngc_3223
+77	1	fb:cell.null											fb:part.null
+77	2	fb:cell.antlia	Antlia	antlia	Antlia	NNP	PERSON					Antlia	fb:part.antlia
+77	3	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0			12	fb:part.12
+78	0	fb:cell.ngc_3310	NGC 3310	ngc|3310	NGC|3310	NNP|CD	O|NUMBER	|3310.0	3310.0			NGC 3310	fb:part.ngc_3310
+78	1	fb:cell.sab_r_bc_pec	SAB(r)bc pec	sab|-lrb-|r|-rrb-|bc|pec	sab|-lrb-|r|-rrb-|bc|pec	NN|-LRB-|NN|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SAB(r)bc pec	fb:part.sab_r_bc_pec
+78	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+78	3	fb:cell.11_2	11.2	11.2	11.2	CD	NUMBER	11.2	11.2			11.2	fb:part.11_2
+79	0	fb:cell.ngc_3314	NGC 3314	ngc|3314	NGC|3314	NNP|CD	O|NUMBER	|3314.0	3314.0			NGC 3314	fb:part.ngc_3314
+79	1	fb:cell.sbbc_saab	SBbc/SAab	sbbc\\/saab	sbbc\\/saab	NN	O					SBbc|SAab	fb:part.sbbc|fb:part.saab
+79	2	fb:cell.hydra	Hydra	hydra	hydra	NN	PERSON					Hydra	fb:part.hydra
+79	3	fb:cell.12_5	12.5	12.5	12.5	CD	NUMBER	12.5	12.5			12.5	fb:part.12_5
+80	0	fb:cell.ngc_3370	NGC 3370	ngc|3370	NGC|3370	NNP|CD	O|NUMBER	|3370.0	3370.0			NGC 3370	fb:part.ngc_3370
+80	1	fb:cell.sa_s_c	SA(s)c	sa|-lrb-|s|-rrb-|c	SA|-lrb-|s|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)c	fb:part.sa_s_c
+80	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+80	3	fb:cell.12_3	12.3	12.3	12.3	CD	NUMBER	12.3	12.3			12.3	fb:part.12_3
+81	0	fb:cell.ngc_3486	NGC 3486	ngc|3486	NGC|3486	NNP|CD	O|NUMBER	|3486.0	3486.0			NGC 3486	fb:part.ngc_3486
+81	1	fb:cell.sb	Sb	sb	sb	NN	O					Sb	fb:part.sb
+81	2	fb:cell.leo_minor	Leo Minor	leo|minor	Leo|Minor	NNP|NNP	PERSON|PERSON	|				Leo Minor	fb:part.leo_minor
+81	3	fb:cell.11_0	11.0	11.0	11.0	CD	NUMBER	11.0	11.0			11.0	fb:part.11_0
+82	0	fb:cell.ngc_3521	NGC 3521	ngc|3521	NGC|3521	NNP|CD	O|NUMBER	|3521.0	3521.0			NGC 3521	fb:part.ngc_3521
+82	1	fb:cell.sabbc	SABbc	sabbc	sabbc	NN	O					SABbc	fb:part.sabbc
+82	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+82	3	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0			10	fb:part.10
+83	0	fb:cell.ngc_3596	NGC 3596	ngc|3596	NGC|3596	NNP|CD	O|NUMBER	|3596.0	3596.0			NGC 3596	fb:part.ngc_3596
+83	1	fb:cell.sab_rs_c	SAB(rs)c	sab|-lrb-|rs|-rrb-|c	SAB|-lrb-|r|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)c	fb:part.sab_rs_c
+83	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+83	3	fb:cell.12_0	12.0	12.0	12.0	CD	NUMBER	12.0	12.0			12.0	fb:part.12_0
+84	0	fb:cell.ngc_3628	NGC 3628	ngc|3628	NGC|3628	NNP|CD	O|NUMBER	|3628.0	3628.0			NGC 3628	fb:part.ngc_3628
+84	1	fb:cell.sab_pec	SAb pec	sab|pec	SAb|pec	NNP|NN	O|O	|				SAb pec	fb:part.sab_pec
+84	2	fb:cell.leo	Leo	leo	Leo	NNP	PERSON					Leo	fb:part.leo
+84	3	fb:cell.14_0	14.0	14.0	14.0	CD	NUMBER	14.0	14.0			14.0	fb:part.14_0
+85	0	fb:cell.ngc_3877	NGC 3877	ngc|3877	NGC|3877	NNP|CD	O|NUMBER	|3877.0	3877.0			NGC 3877	fb:part.ngc_3877
+85	1	fb:cell.sc	Sc	sc	sc	NN	O					Sc	fb:part.sc
+85	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+85	3	fb:cell.12_1	12.1	12.1	12.1	CD	NUMBER	12.1	12.1			12.1	fb:part.12_1
+86	0	fb:cell.ngc_3949	NGC 3949	ngc|3949	NGC|3949	NNP|CD	O|NUMBER	|3949.0	3949.0			NGC 3949	fb:part.ngc_3949
+86	1	fb:cell.sa_s_bc	SA(s)bc	sa|-lrb-|s|-rrb-|bc	SA|-lrb-|s|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)bc	fb:part.sa_s_bc
+86	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+86	3	fb:cell.11_5	11.5	11.5	11.5	CD	NUMBER	11.5	11.5			11.5	fb:part.11_5
+87	0	fb:cell.ngc_3953	NGC 3953	ngc|3953	NGC|3953	NNP|CD	O|NUMBER	|3953.0	3953.0			NGC 3953	fb:part.ngc_3953
+87	1	fb:cell.sb_r_bc	SB(r)bc	sb|-lrb-|r|-rrb-|bc	sb|-lrb-|r|-rrb-|bc	NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SB(r)bc	fb:part.sb_r_bc
+87	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+87	3	fb:cell.10_8	10.8	10.8	10.8	CD	NUMBER	10.8	10.8			10.8	fb:part.10_8
+88	0	fb:cell.ngc_3982	NGC 3982	ngc|3982	NGC|3982	NNP|CD	O|NUMBER	|3982.0	3982.0			NGC 3982	fb:part.ngc_3982
+88	1	fb:cell.sab_r_b	SAB(r)b	sab|-lrb-|r|-rrb-|b	sab|-lrb-|r|-rrb-|b	NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SAB(r)b	fb:part.sab_r_b
+88	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+88	3	fb:cell.12_0	12.0	12.0	12.0	CD	NUMBER	12.0	12.0			12.0	fb:part.12_0
+89	0	fb:cell.ngc_4013	NGC 4013	ngc|4013	NGC|4013	NNP|CD	O|NUMBER	|4013.0	4013.0			NGC 4013	fb:part.ngc_4013
+89	1	fb:cell.sab	Sab	sab	Sab	NNP	O					Sab	fb:part.sab
+89	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+89	3	fb:cell.19_2	19.2	19.2	19.2	CD	NUMBER	19.2	19.2			19.2	fb:part.19_2
+90	0	fb:cell.ngc_4027	NGC 4027	ngc|4027	NGC|4027	NNP|CD	O|NUMBER	|4027.0	4027.0			NGC 4027	fb:part.ngc_4027
+90	1	fb:cell.sb_s_dm	SB(s)dm	sb|-lrb-|s|-rrb-|dm	sb|-lrb-|s|-rrb-|dm	NN|-LRB-|NNS|-RRB-|VBP	O|O|O|O|O	||||				SB(s)dm	fb:part.sb_s_dm
+90	2	fb:cell.corvus	Corvus	corvus	corvus	NN	O					Corvus	fb:part.corvus
+90	3	fb:cell.11_7	11.7	11.7	11.7	CD	NUMBER	11.7	11.7			11.7	fb:part.11_7
+91	0	fb:cell.ngc_4088	NGC 4088	ngc|4088	NGC|4088	NNP|CD	O|NUMBER	|4088.0	4088.0			NGC 4088	fb:part.ngc_4088
+91	1	fb:cell.sab_rs_bc	SAB(rs)bc	sab|-lrb-|rs|-rrb-|bc	SAB|-lrb-|r|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)bc	fb:part.sab_rs_bc
+91	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+91	3	fb:cell.11_2	11.2	11.2	11.2	CD	NUMBER	11.2	11.2			11.2	fb:part.11_2
+92	0	fb:cell.ngc_4216	NGC 4216	ngc|4216	NGC|4216	NNP|CD	O|NUMBER	|4216.0	4216.0			NGC 4216	fb:part.ngc_4216
+92	1	fb:cell.sab_s_b	SAB(s)b	sab|-lrb-|s|-rrb-|b	SAB|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)b	fb:part.sab_s_b
+92	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+92	3	fb:cell.11_0	11.0	11.0	11.0	CD	NUMBER	11.0	11.0			11.0	fb:part.11_0
+93	0	fb:cell.ngc_4314	NGC 4314	ngc|4314	NGC|4314	NNP|CD	O|NUMBER	|4314.0	4314.0			NGC 4314	fb:part.ngc_4314
+93	1	fb:cell.sba	SBa	sba	sba	SYM	O					SBa	fb:part.sba
+93	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+93	3	fb:cell.null											fb:part.null
+94	0	fb:cell.ngc_4395	NGC 4395	ngc|4395	NGC|4395	NNP|CD	O|NUMBER	|4395.0	4395.0			NGC 4395	fb:part.ngc_4395
+94	1	fb:cell.sa_s_m	SA(s)m	sa|-lrb-|s|-rrb-|m	SA|-lrb-|s|-rrb-|m	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)m	fb:part.sa_s_m
+94	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+94	3	fb:cell.10_6	10.6	10.6	10.6	CD	NUMBER	10.6	10.6			10.6	fb:part.10_6
+95	0	fb:cell.ngc_4414	NGC 4414	ngc|4414	NGC|4414	NNP|CD	O|NUMBER	|4414.0	4414.0			NGC 4414	fb:part.ngc_4414
+95	1	fb:cell.sa_rs_c	SA(rs)c	sa|-lrb-|rs|-rrb-|c	SA|-lrb-|r|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(rs)c	fb:part.sa_rs_c
+95	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+95	3	fb:cell.11_0	11.0	11.0	11.0	CD	NUMBER	11.0	11.0			11.0	fb:part.11_0
+96	0	fb:cell.ngc_4565	NGC 4565	ngc|4565	NGC|4565	NNP|CD	O|NUMBER	|4565.0	4565.0			NGC 4565	fb:part.ngc_4565
+96	1	fb:cell.sa_s_b	SA(s)b	sa|-lrb-|s|-rrb-|b	SA|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)b	fb:part.sa_s_b
+96	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+96	3	fb:cell.10_42	10.42	10.42	10.42	CD	NUMBER	10.42	10.42			10.42	fb:part.10_42
+97	0	fb:cell.ngc_4618	NGC 4618	ngc|4618	NGC|4618	NNP|CD	O|NUMBER	|4618.0	4618.0			NGC 4618	fb:part.ngc_4618
+97	1	fb:cell.sb_rs_m	SB(rs)m	sb|-lrb-|rs|-rrb-|m	sb|-lrb-|r|-rrb-|m	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(rs)m	fb:part.sb_rs_m
+97	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+97	3	fb:cell.11_2	11.2	11.2	11.2	CD	NUMBER	11.2	11.2			11.2	fb:part.11_2
+98	0	fb:cell.ngc_4625	NGC 4625	ngc|4625	NGC|4625	NNP|CD	O|NUMBER	|4625.0	4625.0			NGC 4625	fb:part.ngc_4625
+98	1	fb:cell.sab_rs_m_pec	SAB(rs)m pec	sab|-lrb-|rs|-rrb-|m|pec	SAB|-lrb-|r|-rrb-|m|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SAB(rs)m pec	fb:part.sab_rs_m_pec
+98	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+98	3	fb:cell.13_2	13.2	13.2	13.2	CD	NUMBER	13.2	13.2			13.2	fb:part.13_2
+99	0	fb:cell.ngc_4631	NGC 4631	ngc|4631	NGC|4631	NNP|CD	O|NUMBER	|4631.0	4631.0			NGC 4631	fb:part.ngc_4631
+99	1	fb:cell.sb_s_d	SB(s)d	sb|-lrb-|s|-rrb-|d	sb|-lrb-|s|-rrb-|d	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)d	fb:part.sb_s_d
+99	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+99	3	fb:cell.9_8	9.8	9.8	9.8	CD	NUMBER	9.8	9.8			9.8	fb:part.9_8
+100	0	fb:cell.ngc_4725	NGC 4725	ngc|4725	NGC|4725	NNP|CD	O|NUMBER	|4725.0	4725.0			NGC 4725	fb:part.ngc_4725
+100	1	fb:cell.sab_r_ab_pec	SAB(r)ab pec	sab|-lrb-|r|-rrb-|ab|pec	sab|-lrb-|r|-rrb-|ab|pec	NN|-LRB-|NN|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SAB(r)ab pec	fb:part.sab_r_ab_pec
+100	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+100	3	fb:cell.10_1	10.1	10.1	10.1	CD	NUMBER	10.1	10.1			10.1	fb:part.10_1
+101	0	fb:cell.ngc_4911	NGC 4911	ngc|4911	NGC|4911	NNP|CD	O|NUMBER	|4911.0	4911.0			NGC 4911	fb:part.ngc_4911
+101	1	fb:cell.sb	Sb	sb	sb	NN	O					Sb	fb:part.sb
+101	2	fb:cell.coma_berenices	Coma Berenices	coma|berenices	Coma|Berenices	NNP|NNPS	O|O	|				Coma Berenices	fb:part.coma_berenices
+101	3	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+102	0	fb:cell.ngc_4945	NGC 4945	ngc|4945	NGC|4945	NNP|CD	O|NUMBER	|4945.0	4945.0			NGC 4945	fb:part.ngc_4945
+102	1	fb:cell.sb_s_cd	SB(s)cd	sb|-lrb-|s|-rrb-|cd	sb|-lrb-|s|-rrb-|cd	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)cd	fb:part.sb_s_cd
+102	2	fb:cell.centaurus	Centaurus	centaurus	Centaurus	NNP	O					Centaurus	fb:part.centaurus
+102	3	fb:cell.9_3	9.3	9.3	9.3	CD	NUMBER	9.3	9.3			9.3	fb:part.9_3
+103	0	fb:cell.ngc_5005	NGC 5005	ngc|5005	NGC|5005	NNP|CD	O|NUMBER	|5005.0	5005.0			NGC 5005	fb:part.ngc_5005
+103	1	fb:cell.sab_rs_bc	SAB(rs)bc	sab|-lrb-|rs|-rrb-|bc	SAB|-lrb-|r|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)bc	fb:part.sab_rs_bc
+103	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+103	3	fb:cell.10_6	10.6	10.6	10.6	CD	NUMBER	10.6	10.6			10.6	fb:part.10_6
+104	0	fb:cell.ngc_5033	NGC 5033	ngc|5033	NGC|5033	NNP|CD	O|NUMBER	|5033.0	5033.0			NGC 5033	fb:part.ngc_5033
+104	1	fb:cell.sa_s_c	SA(s)c	sa|-lrb-|s|-rrb-|c	SA|-lrb-|s|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)c	fb:part.sa_s_c
+104	2	fb:cell.canes_venatici	Canes Venatici	canes|venatici	Canes|Venatici	NNP|NNP	O|O	|				Canes Venatici	fb:part.canes_venatici
+104	3	fb:cell.10_8	10.8	10.8	10.8	CD	NUMBER	10.8	10.8			10.8	fb:part.10_8
+105	0	fb:cell.ngc_5068	NGC 5068	ngc|5068	NGC|5068	NNP|CD	O|NUMBER	|5068.0	5068.0			NGC 5068	fb:part.ngc_5068
+105	1	fb:cell.sb_s_d	SB(s)d	sb|-lrb-|s|-rrb-|d	sb|-lrb-|s|-rrb-|d	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)d	fb:part.sb_s_d
+105	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+105	3	fb:cell.10_5	10.5	10.5	10.5	CD	NUMBER	10.5	10.5			10.5	fb:part.10_5
+106	0	fb:cell.ngc_5078	NGC 5078	ngc|5078	NGC|5078	NNP|CD	O|NUMBER	|5078.0	5078.0			NGC 5078	fb:part.ngc_5078
+106	1	fb:cell.sa_s_a	SA(s)a	sa|-lrb-|s|-rrb-|a	SA|-lrb-|s|-rrb-|a	NNP|-LRB-|NNS|-RRB-|DT	O|O|O|O|O	||||				SA(s)a	fb:part.sa_s_a
+106	2	fb:cell.hydra	Hydra	hydra	hydra	NN	PERSON					Hydra	fb:part.hydra
+106	3	fb:cell.11_8	11.8	11.8	11.8	CD	NUMBER	11.8	11.8			11.8	fb:part.11_8
+107	0	fb:cell.ngc_5091	NGC 5091	ngc|5091	NGC|5091	NNP|CD	O|NUMBER	|5091.0	5091.0			NGC 5091	fb:part.ngc_5091
+107	1	fb:cell.sb_pec_sp	Sb pec sp	sb|pec|sp	sb|pec|sp	NN|NN|NN	O|O|O	||				Sb pec sp	fb:part.sb_pec_sp
+107	2	fb:cell.centaurus	Centaurus	centaurus	Centaurus	NNP	O					Centaurus	fb:part.centaurus
+107	3	fb:cell.13_9	13.9	13.9	13.9	CD	NUMBER	13.9	13.9			13.9	fb:part.13_9
+108	0	fb:cell.ngc_5164	NGC 5164	ngc|5164	NGC|5164	NNP|CD	O|NUMBER	|5164.0	5164.0			NGC 5164	fb:part.ngc_5164
+108	1	fb:cell.sbb	SBb	sbb	sbb	SYM	O					SBb	fb:part.sbb
+108	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+108	3	fb:cell.14_1	14.1	14.1	14.1	CD	NUMBER	14.1	14.1			14.1	fb:part.14_1
+109	0	fb:cell.ngc_5257	NGC 5257	ngc|5257	NGC|5257	NNP|CD	O|NUMBER	|5257.0	5257.0			NGC 5257	fb:part.ngc_5257
+109	1	fb:cell.sab_s_b_pec	SAB(s)b pec	sab|-lrb-|s|-rrb-|b|pec	SAB|-lrb-|s|-rrb-|b|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SAB(s)b pec	fb:part.sab_s_b_pec
+109	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+109	3	fb:cell.12_9	12.9	12.9	12.9	CD	NUMBER	12.9	12.9			12.9	fb:part.12_9
+110	0	fb:cell.ngc_5258	NGC 5258	ngc|5258	NGC|5258	NNP|CD	O|NUMBER	|5258.0	5258.0			NGC 5258	fb:part.ngc_5258
+110	1	fb:cell.sa_s_b_pec	SA(s)b pec	sa|-lrb-|s|-rrb-|b|pec	SA|-lrb-|s|-rrb-|b|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SA(s)b pec	fb:part.sa_s_b_pec
+110	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+110	3	fb:cell.12_9	12.9	12.9	12.9	CD	NUMBER	12.9	12.9			12.9	fb:part.12_9
+111	0	fb:cell.ngc_5474	NGC 5474	ngc|5474	NGC|5474	NNP|CD	O|NUMBER	|5474.0	5474.0			NGC 5474	fb:part.ngc_5474
+111	1	fb:cell.sa_s_cd_pec	SA(s)cd pec	sa|-lrb-|s|-rrb-|cd|pec	SA|-lrb-|s|-rrb-|cd|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SA(s)cd pec	fb:part.sa_s_cd_pec
+111	2	fb:cell.ursa_major	Ursa Major	ursa|major	Ursa|Major	NNP|NNP	O|O	|				Ursa Major	fb:part.ursa_major
+111	3	fb:cell.11_3	11.3	11.3	11.3	CD	NUMBER	11.3	11.3			11.3	fb:part.11_3
+112	0	fb:cell.ngc_5624	NGC 5624	ngc|5624	NGC|5624	NNP|CD	O|NUMBER	|5624.0	5624.0			NGC 5624	fb:part.ngc_5624
+112	1	fb:cell.s	S	s	s	NN	O					S	fb:part.s
+112	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+112	3	fb:cell.14_6	14.6	14.6	14.6	CD	NUMBER	14.6	14.6			14.6	fb:part.14_6
+113	0	fb:cell.ngc_5713	NGC 5713	ngc|5713	NGC|5713	NNP|CD	O|NUMBER	|5713.0	5713.0			NGC 5713	fb:part.ngc_5713
+113	1	fb:cell.sab_rs_bc_pec	SAB(rs)bc pec	sab|-lrb-|rs|-rrb-|bc|pec	SAB|-lrb-|r|-rrb-|bc|pec	NNP|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SAB(rs)bc pec	fb:part.sab_rs_bc_pec
+113	2	fb:cell.virgo	Virgo	virgo	Virgo	NNP	PERSON					Virgo	fb:part.virgo
+113	3	fb:cell.12_1	12.1	12.1	12.1	CD	NUMBER	12.1	12.1			12.1	fb:part.12_1
+114	0	fb:cell.ngc_5921	NGC 5921	ngc|5921	NGC|5921	NNP|CD	O|NUMBER	|5921.0	5921.0			NGC 5921	fb:part.ngc_5921
+114	1	fb:cell.sb_r_bc	SB(r)bc	sb|-lrb-|r|-rrb-|bc	sb|-lrb-|r|-rrb-|bc	NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SB(r)bc	fb:part.sb_r_bc
+114	2	fb:cell.serpens_caput	Serpens Caput	serpens|caput	Serpens|Caput	NNP|NNP	MISC|MISC	|				Serpens Caput	fb:part.serpens_caput
+114	3	fb:cell.11_5	11.5	11.5	11.5	CD	NUMBER	11.5	11.5			11.5	fb:part.11_5
+115	0	fb:cell.ngc_6744	NGC 6744	ngc|6744	NGC|6744	NNP|CD	O|NUMBER	|6744.0	6744.0			NGC 6744	fb:part.ngc_6744
+115	1	fb:cell.sab_r_bc	SAB(r)bc	sab|-lrb-|r|-rrb-|bc	sab|-lrb-|r|-rrb-|bc	NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SAB(r)bc	fb:part.sab_r_bc
+115	2	fb:cell.pavo	Pavo	pavo	Pavo	NNP	O					Pavo	fb:part.pavo
+115	3	fb:cell.9_14	9.14	9.14	9.14	CD	NUMBER	9.14	9.14			9.14	fb:part.9_14
+116	0	fb:cell.ngc_6745	NGC 6745	ngc|6745	NGC|6745	NNP|CD	O|NUMBER	|6745.0	6745.0			NGC 6745	fb:part.ngc_6745
+116	1	fb:cell.s	S	s	s	NN	O					S	fb:part.s
+116	2	fb:cell.lyra	Lyra	lyra	Lyra	NNP	ORGANIZATION					Lyra	fb:part.lyra
+116	3	fb:cell.13_3	13.3	13.3	13.3	CD	NUMBER	13.3	13.3			13.3	fb:part.13_3
+117	0	fb:cell.ngc_6872	NGC 6872	ngc|6872	NGC|6872	NNP|CD	O|NUMBER	|6872.0	6872.0			NGC 6872	fb:part.ngc_6872
+117	1	fb:cell.sab_rs_c	SAB(rs)c	sab|-lrb-|rs|-rrb-|c	SAB|-lrb-|r|-rrb-|c	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)c	fb:part.sab_rs_c
+117	2	fb:cell.pavo	Pavo	pavo	Pavo	NNP	O					Pavo	fb:part.pavo
+117	3	fb:cell.12_7	12.7	12.7	12.7	CD	NUMBER	12.7	12.7			12.7	fb:part.12_7
+118	0	fb:cell.ngc_6946	NGC 6946	ngc|6946	NGC|6946	NNP|CD	O|NUMBER	|6946.0	6946.0			NGC 6946	fb:part.ngc_6946
+118	1	fb:cell.sab_rs_cd	SAB(rs)cd	sab|-lrb-|rs|-rrb-|cd	SAB|-lrb-|r|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)cd	fb:part.sab_rs_cd
+118	2	fb:cell.cepheus	Cepheus	cepheus	Cepheus	NNP	O					Cepheus	fb:part.cepheus
+118	3	fb:cell.9_6	9.6	9.6	9.6	CD	NUMBER	9.6	9.6			9.6	fb:part.9_6
+119	0	fb:cell.ngc_7217	NGC 7217	ngc|7217	NGC|7217	NNP|CD	O|NUMBER	|7217.0	7217.0			NGC 7217	fb:part.ngc_7217
+119	1	fb:cell._r_sa_r_ab	(R)SA(r)ab	-lrb-|r|-rrb-|sa|-lrb-|r|-rrb-|ab	-lrb-|r|-rrb-|SA|-lrb-|r|-rrb-|ab	-LRB-|NN|-RRB-|NNP|-LRB-|NN|-RRB-|IN	O|O|O|O|O|O|O|O	|||||||				(R)SA(r)ab	fb:part._r_sa_r_ab
+119	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+119	3	fb:cell.11_0	11.0	11.0	11.0	CD	NUMBER	11.0	11.0			11.0	fb:part.11_0
+120	0	fb:cell.ngc_7318	NGC 7318	ngc|7318	NGC|7318	NNP|CD	O|NUMBER	|7318.0	7318.0			NGC 7318	fb:part.ngc_7318
+120	1	fb:cell.sb_s_bc_pec	SB(s)bc pec	sb|-lrb-|s|-rrb-|bc|pec	sb|-lrb-|s|-rrb-|bc|pec	NN|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SB(s)bc pec	fb:part.sb_s_bc_pec
+120	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+120	3	fb:cell.14_4_13_9	14.4 / 13.9	14.4|\\/|13.9	14.4|\\/|13.9	CD|:|CD	NUMBER|O|NUMBER	14.4||13.9	14.4		13.9	14.4|13.9	fb:part.14_4|fb:part.13_9
+121	0	fb:cell.ngc_7331	NGC 7331	ngc|7331	NGC|7331	NNP|CD	O|NUMBER	|7331.0	7331.0			NGC 7331	fb:part.ngc_7331
+121	1	fb:cell.sa_s_b	SA(s)b	sa|-lrb-|s|-rrb-|b	SA|-lrb-|s|-rrb-|b	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)b	fb:part.sa_s_b
+121	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+121	3	fb:cell.10_4	10.4	10.4	10.4	CD	NUMBER	10.4	10.4			10.4	fb:part.10_4
+122	0	fb:cell.ngc_7479	NGC 7479	ngc|7479	NGC|7479	NNP|CD	O|NUMBER	|7479.0	7479.0			NGC 7479	fb:part.ngc_7479
+122	1	fb:cell.sb_s_c	SB(s)c	sb|-lrb-|s|-rrb-|c	sb|-lrb-|s|-rrb-|c	NN|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SB(s)c	fb:part.sb_s_c
+122	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+122	3	fb:cell.11_6	11.6	11.6	11.6	CD	NUMBER	11.6	11.6			11.6	fb:part.11_6
+123	0	fb:cell.ngc_7742	NGC 7742	ngc|7742	NGC|7742	NNP|CD	O|NUMBER	|7742.0	7742.0			NGC 7742	fb:part.ngc_7742
+123	1	fb:cell.sa_r_b	SA(r)b	sa|-lrb-|r|-rrb-|b	SA|-lrb-|r|-rrb-|b	NNP|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||				SA(r)b	fb:part.sa_r_b
+123	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+123	3	fb:cell.12_4	12.4	12.4	12.4	CD	NUMBER	12.4	12.4			12.4	fb:part.12_4
+124	0	fb:cell.ngc_7752	NGC 7752	ngc|7752	NGC|7752	NNP|CD	O|NUMBER	|7752.0	7752.0			NGC 7752	fb:part.ngc_7752
+124	1	fb:cell.sab_rs_bc	SAB(rs)bc	sab|-lrb-|rs|-rrb-|bc	SAB|-lrb-|r|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(rs)bc	fb:part.sab_rs_bc
+124	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+124	3	fb:cell.12_8	12.8	12.8	12.8	CD	NUMBER	12.8	12.8			12.8	fb:part.12_8
+125	0	fb:cell.ngc_7793	NGC 7793	ngc|7793	NGC|7793	NNP|CD	O|NUMBER	|7793.0	7793.0			NGC 7793	fb:part.ngc_7793
+125	1	fb:cell.sa_s_d	SA(s)d	sa|-lrb-|s|-rrb-|d	SA|-lrb-|s|-rrb-|d	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SA(s)d	fb:part.sa_s_d
+125	2	fb:cell.sculptor	Sculptor	sculptor	sculptor	NN	O					Sculptor	fb:part.sculptor
+125	3	fb:cell.10_0	10.0	10.0	10.0	CD	NUMBER	10.0	10.0			10.0	fb:part.10_0
+126	0	fb:cell.ngc_7814	NGC 7814	ngc|7814	NGC|7814	NNP|CD	O|NUMBER	|7814.0	7814.0			NGC 7814	fb:part.ngc_7814
+126	1	fb:cell.sa_s_ab	SA(s)ab	sa|-lrb-|s|-rrb-|ab	SA|-lrb-|s|-rrb-|ab	NNP|-LRB-|NNS|-RRB-|IN	O|O|O|O|O	||||				SA(s)ab	fb:part.sa_s_ab
+126	2	fb:cell.pegasus	Pegasus	pegasus	Pegasus	NNP	O					Pegasus	fb:part.pegasus
+126	3	fb:cell.11_6	11.6	11.6	11.6	CD	NUMBER	11.6	11.6			11.6	fb:part.11_6
+127	0	fb:cell.ugc_10214_tadpole_galaxy	UGC 10214, Tadpole Galaxy	ugc|10214|,|tadpole|galaxy	UGC|10214|,|Tadpole|Galaxy	NNP|CD|,|NNP|NNP	O|NUMBER|O|O|O	|10214.0|||	10214.0			UGC 10214|Tadpole Galaxy	fb:part.ugc_10214|fb:part.tadpole_galaxy
+127	1	fb:cell.sb_s_c_pec	SB(s)c pec	sb|-lrb-|s|-rrb-|c|pec	sb|-lrb-|s|-rrb-|c|pec	NN|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SB(s)c pec	fb:part.sb_s_c_pec
+127	2	fb:cell.draco	Draco	draco	Draco	NNP	PERSON					Draco	fb:part.draco
+127	3	fb:cell.14_4	14.4	14.4	14.4	CD	NUMBER	14.4	14.4			14.4	fb:part.14_4

@@ -1,0 +1,519 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.null											
+-1	1	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	2	fb:row.row.name	Name	name	name	VB	O						
+-1	3	fb:row.row.city	City	city	City	NNP	O						
+-1	4	fb:row.row.country	Country	country	country	NN	O						
+-1	5	fb:row.row.guests_of_honor	Guests of Honor	guests|of|honor	guest|of|honor	NNS|IN|NN	O|O|O	||					
+-1	6	fb:row.row.size	Size	size	size	NN	O						
+0	0	fb:cell.1st	1st	1st	1st	CD	ORDINAL	1.0	1.0				
+0	1	fb:cell.1939	1939	1939	1939	CD	DATE	1939	1939.0	1939-xx-xx			
+0	2	fb:cell.nycon_i	Nycon I	nycon|i	nycon|i	NN|NN	MISC|O	|					
+0	3	fb:cell.new_york_new_york	New York, New York	new|york|,|new|york	New|York|,|New|York	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				New York|New York	fb:part.new_york|fb:part.new_york
+0	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+0	5	fb:cell.frank_r_paul	Frank R. Paul	frank|r.|paul	Frank|R.|Paul	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Frank R. Paul	fb:part.frank_r_paul
+0	6	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0			200	fb:part.200
+1	0	fb:cell.2nd	2nd	2nd	2nd	JJ	ORDINAL	2.0	2.0				
+1	1	fb:cell.1940	1940	1940	1940	CD	DATE	1940	1940.0	1940-xx-xx			
+1	2	fb:cell.chicon_i	Chicon I	chicon|i	Chicon|I	NNP|PRP	O|O	|					
+1	3	fb:cell.chicago_illinois	Chicago, Illinois	chicago|,|illinois	Chicago|,|Illinois	NNP|,|NNP	LOCATION|O|LOCATION	||				Chicago|Illinois	fb:part.chicago|fb:part.illinois
+1	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+1	5	fb:cell.e_e_doc_smith	E. E. "Doc" Smith	e.|e.|``|doc|''|smith	E.|E.|``|Doc|''|Smith	NNP|NNP|``|NNP|''|NNP	PERSON|PERSON|O|O|O|PERSON	|||||				E. E. "Doc" Smith	fb:part.e_e_doc_smith
+1	6	fb:cell.128	128	128	128	CD	NUMBER	128.0	128.0			128	fb:part.128
+2	0	fb:cell.3rd	3rd	3rd	3rd	IN	ORDINAL	3.0	3.0				
+2	1	fb:cell.1941	1941	1941	1941	CD	DATE	1941	1941.0	1941-xx-xx			
+2	2	fb:cell.denvention_i	Denvention I	denvention|i	denvention|i	NN|NN	O|O	|					
+2	3	fb:cell.denver_colorado	Denver, Colorado	denver|,|colorado	Denver|,|Colorado	NNP|,|NNP	LOCATION|O|LOCATION	||				Denver|Colorado	fb:part.denver|fb:part.colorado
+2	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+2	5	fb:cell.robert_a_heinlein	Robert A. Heinlein	robert|a.|heinlein	Robert|A.|Heinlein	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Robert A. Heinlein	fb:part.robert_a_heinlein
+2	6	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0			90	fb:part.90
+3	0	fb:cell.4th	4th	4th	4th	JJ	ORDINAL	4.0	4.0				
+3	1	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx			
+3	2	fb:cell.pacificon_i	Pacificon I	pacificon|i	pacificon|i	NN|NN	O|O	|					
+3	3	fb:cell.los_angeles_california	Los Angeles, California	los|angeles|,|california	Los|Angeles|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Los Angeles|California	fb:part.los_angeles|fb:part.california
+3	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+3	5	fb:cell.a_e_van_vogt_e_mayne_hull	A. E. van Vogt\nE. Mayne Hull	a.|e.|van|vogt|e.|mayne|hull	a.|E.|van|Vogt|E.|Mayne|Hull	NN|NNP|NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	||||||				A. E. van Vogt|E. Mayne Hull	fb:part.a_e_van_vogt|fb:part.e_mayne_hull
+3	6	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0			130	fb:part.130
+4	0	fb:cell.5th	5th	5th	5th	NN	ORDINAL	5.0	5.0				
+4	1	fb:cell.1947	1947	1947	1947	CD	DATE	1947	1947.0	1947-xx-xx			
+4	2	fb:cell.philcon_i	Philcon I	philcon|i	Philcon|I	NNP|PRP	O|O	|					
+4	3	fb:cell.philadelphia_pennsylvania	Philadelphia, Pennsylvania	philadelphia|,|pennsylvania	Philadelphia|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Philadelphia|Pennsylvania	fb:part.philadelphia|fb:part.pennsylvania
+4	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+4	5	fb:cell.john_w_campbell_jr	John W. Campbell, Jr.	john|w.|campbell|,|jr.|.	John|W.|Campbell|,|Jr.|.	NNP|NNP|NNP|,|NNP|.	PERSON|PERSON|PERSON|O|O|O	|||||				John W. Campbell|Jr.	fb:part.john_w_campbell|fb:part.jr
+4	6	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0			200	fb:part.200
+5	0	fb:cell.6th	6th	6th	6th	JJ	ORDINAL	6.0	6.0				
+5	1	fb:cell.1948	1948	1948	1948	CD	DATE	1948	1948.0	1948-xx-xx			
+5	2	fb:cell.torcon_i	Torcon I	torcon|i	Torcon|I	NNP|PRP	O|O	|					
+5	3	fb:cell.toronto_ontario	Toronto, Ontario	toronto|,|ontario	Toronto|,|Ontario	NNP|,|NNP	LOCATION|O|LOCATION	||				Toronto|Ontario	fb:part.toronto|fb:part.ontario
+5	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+5	5	fb:cell.robert_bloch_pro_bob_tucker_fan	Robert Bloch (Pro)\nBob Tucker (fan)	robert|bloch|-lrb-|pro|-rrb-|bob|tucker|-lrb-|fan|-rrb-	Robert|Bloch|-lrb-|pro|-rrb-|Bob|Tucker|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||				Robert Bloch (Pro)|Bob Tucker (fan)	fb:part.robert_bloch_pro|fb:part.bob_tucker_fan
+5	6	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0			200	fb:part.200
+6	0	fb:cell.7th	7th	7th	7th	IN	ORDINAL	7.0	7.0				
+6	1	fb:cell.1949	1949	1949	1949	CD	DATE	1949	1949.0	1949-xx-xx			
+6	2	fb:cell.cinvention	Cinvention	cinvention	cinvention	NN	MISC						
+6	3	fb:cell.cincinnati_ohio	Cincinnati, Ohio	cincinnati|,|ohio	Cincinnati|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Cincinnati|Ohio	fb:part.cincinnati|fb:part.ohio
+6	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+6	5	fb:cell.lloyd_a_eshbach_pro_ted_carnell_fan	Lloyd A. Eshbach (pro)\nTed Carnell (fan)	lloyd|a.|eshbach|-lrb-|pro|-rrb-|ted|carnell|-lrb-|fan|-rrb-	Lloyd|A.|Eshbach|-lrb-|pro|-rrb-|Ted|Carnell|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||				Lloyd A. Eshbach (pro)|Ted Carnell (fan)	fb:part.lloyd_a_eshbach_pro|fb:part.ted_carnell_fan
+6	6	fb:cell.190	190	190	190	CD	NUMBER	190.0	190.0			190	fb:part.190
+7	0	fb:cell.8th	8th	8th	8th	JJ	ORDINAL	8.0	8.0				
+7	1	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+7	2	fb:cell.norwescon	Norwescon	norwescon	Norwescon	NNP	O						
+7	3	fb:cell.portland_oregon	Portland, Oregon	portland|,|oregon	Portland|,|Oregon	NNP|,|NNP	LOCATION|O|LOCATION	||				Portland|Oregon	fb:part.portland|fb:part.oregon
+7	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+7	5	fb:cell.anthony_boucher	Anthony Boucher	anthony|boucher	Anthony|Boucher	NNP|NNP	PERSON|PERSON	|				Anthony Boucher	fb:part.anthony_boucher
+7	6	fb:cell.400	400	400	400	CD	NUMBER	400.0	400.0			400	fb:part.400
+8	0	fb:cell.9th	9th	9th	9th	JJ	ORDINAL	9.0	9.0				
+8	1	fb:cell.1951	1951	1951	1951	CD	DATE	1951	1951.0	1951-xx-xx			
+8	2	fb:cell.nolacon_i	Nolacon I	nolacon|i	Nolacon|I	NNP|PRP	O|O	|					
+8	3	fb:cell.new_orleans_louisiana	New Orleans, Louisiana	new|orleans|,|louisiana	New|Orleans|,|Louisiana	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				New Orleans|Louisiana	fb:part.new_orleans|fb:part.louisiana
+8	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+8	5	fb:cell.fritz_leiber	Fritz Leiber	fritz|leiber	Fritz|Leiber	NNP|NNP	PERSON|PERSON	|				Fritz Leiber	fb:part.fritz_leiber
+8	6	fb:cell.190	190	190	190	CD	NUMBER	190.0	190.0			190	fb:part.190
+9	0	fb:cell.10th	10th	10th	10th	JJ	ORDINAL	10.0	10.0				
+9	1	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+9	2	fb:cell.tasfic_chicon_ii	TASFiC (Chicon II)	tasfic|-lrb-|chicon|ii|-rrb-	tasfic|-lrb-|Chicon|II|-rrb-	NN|-LRB-|NNP|NNP|-RRB-	O|O|O|O|O	||||					
+9	3	fb:cell.chicago_illinois	Chicago, Illinois	chicago|,|illinois	Chicago|,|Illinois	NNP|,|NNP	LOCATION|O|LOCATION	||				Chicago|Illinois	fb:part.chicago|fb:part.illinois
+9	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+9	5	fb:cell.hugo_gernsback	Hugo Gernsback	hugo|gernsback	Hugo|Gernsback	NNP|NNP	PERSON|PERSON	|				Hugo Gernsback	fb:part.hugo_gernsback
+9	6	fb:cell.870	870	870	870	CD	NUMBER	870.0	870.0			870	fb:part.870
+10	0	fb:cell.11th	11th	11th	11th	JJ	ORDINAL	11.0	11.0				
+10	1	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx			
+10	2	fb:cell.philcon_ii	Philcon II	philcon|ii	Philcon|II	NNP|NNP	O|O	|					
+10	3	fb:cell.philadelphia_pennsylvania	Philadelphia, Pennsylvania	philadelphia|,|pennsylvania	Philadelphia|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Philadelphia|Pennsylvania	fb:part.philadelphia|fb:part.pennsylvania
+10	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+10	5	fb:cell.willy_ley	Willy Ley	willy|ley	Willy|Ley	NNP|NNP	PERSON|PERSON	|				Willy Ley	fb:part.willy_ley
+10	6	fb:cell.750	750	750	750	CD	NUMBER	750.0	750.0			750	fb:part.750
+11	0	fb:cell.12th	12th	12th	12th	JJ	ORDINAL	12.0	12.0				
+11	1	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+11	2	fb:cell.sfcon	SFCon	sfcon	sfcon	NN	O						
+11	3	fb:cell.san_francisco_california	San Francisco, California	san|francisco|,|california	San|Francisco|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Francisco|California	fb:part.san_francisco|fb:part.california
+11	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+11	5	fb:cell.john_w_campbell_jr	John W. Campbell, Jr.	john|w.|campbell|,|jr.|.	John|W.|Campbell|,|Jr.|.	NNP|NNP|NNP|,|NNP|.	PERSON|PERSON|PERSON|O|O|O	|||||				John W. Campbell|Jr.	fb:part.john_w_campbell|fb:part.jr
+11	6	fb:cell.700	700	700	700	CD	NUMBER	700.0	700.0			700	fb:part.700
+12	0	fb:cell.13th	13th	13th	13th	JJ	ORDINAL	13.0	13.0				
+12	1	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+12	2	fb:cell.clevention	Clevention	clevention	clevention	NN	O						
+12	3	fb:cell.cleveland_ohio	Cleveland, Ohio	cleveland|,|ohio	Cleveland|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Cleveland|Ohio	fb:part.cleveland|fb:part.ohio
+12	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+12	5	fb:cell.isaac_asimov_pro_sam_moskowitz_mystery_goh	Isaac Asimov (pro)\nSam Moskowitz (mystery GoH)	isaac|asimov|-lrb-|pro|-rrb-|sam|moskowitz|-lrb-|mystery|goh|-rrb-	Isaac|Asimov|-lrb-|pro|-rrb-|Sam|Moskowitz|-lrb-|mystery|goh|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|O	||||||||||				Isaac Asimov (pro)|Sam Moskowitz (mystery GoH)	fb:part.isaac_asimov_pro|fb:part.sam_moskowitz_mystery_goh
+12	6	fb:cell.380	380	380	380	CD	NUMBER	380.0	380.0			380	fb:part.380
+13	0	fb:cell.14th	14th	14th	14th	JJ	ORDINAL	14.0	14.0				
+13	1	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+13	2	fb:cell.nycon_ii	NyCon II	nycon|ii	nycon|ii	NN|CD	O|NUMBER	|0.0					
+13	3	fb:cell.new_york_new_york	New York, New York	new|york|,|new|york	New|York|,|New|York	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				New York|New York	fb:part.new_york|fb:part.new_york
+13	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+13	5	fb:cell.arthur_c_clarke	Arthur C. Clarke	arthur|c.|clarke	Arthur|C.|Clarke	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Arthur C. Clarke	fb:part.arthur_c_clarke
+13	6	fb:cell.850	850	850	850	CD	NUMBER	850.0	850.0			850	fb:part.850
+14	0	fb:cell.15th	15th	15th	15th	NN	ORDINAL	15.0	15.0				
+14	1	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+14	2	fb:cell.loncon_i	Loncon I	loncon|i	Loncon|I	NNP|PRP	O|O	|					
+14	3	fb:cell.london	London	london	London	NNP	LOCATION					London	fb:part.london
+14	4	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+14	5	fb:cell.john_w_campbell_jr	John W. Campbell, Jr.	john|w.|campbell|,|jr.|.	John|W.|Campbell|,|Jr.|.	NNP|NNP|NNP|,|NNP|.	PERSON|PERSON|PERSON|O|O|O	|||||				John W. Campbell|Jr.	fb:part.john_w_campbell|fb:part.jr
+14	6	fb:cell.268	268	268	268	CD	NUMBER	268.0	268.0			268	fb:part.268
+15	0	fb:cell.16th	16th	16th	16th	JJ	ORDINAL	16.0	16.0				
+15	1	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+15	2	fb:cell.solacon	Solacon	solacon	Solacon	NNP	O						
+15	3	fb:cell.south_gate_california	South Gate, California	south|gate|,|california	South|Gate|,|California	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				South Gate|California	fb:part.south_gate|fb:part.california
+15	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+15	5	fb:cell.richard_matheson	Richard Matheson	richard|matheson	Richard|Matheson	NNP|NNP	PERSON|PERSON	|				Richard Matheson	fb:part.richard_matheson
+15	6	fb:cell.211	211	211	211	CD	NUMBER	211.0	211.0			211	fb:part.211
+16	0	fb:cell.17th	17th	17th	17th	JJ	ORDINAL	17.0	17.0				
+16	1	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx			
+16	2	fb:cell.detention	Detention	detention	detention	NN	O						
+16	3	fb:cell.detroit_michigan	Detroit, Michigan	detroit|,|michigan	Detroit|,|Michigan	NNP|,|NNP	LOCATION|O|LOCATION	||				Detroit|Michigan	fb:part.detroit|fb:part.michigan
+16	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+16	5	fb:cell.poul_anderson_pro_john_berry_fan	Poul Anderson (pro)\nJohn Berry (fan)	poul|anderson|-lrb-|pro|-rrb-|john|berry|-lrb-|fan|-rrb-	Poul|Anderson|-lrb-|pro|-rrb-|John|Berry|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||				Poul Anderson (pro)|John Berry (fan)	fb:part.poul_anderson_pro|fb:part.john_berry_fan
+16	6	fb:cell.371	371	371	371	CD	NUMBER	371.0	371.0			371	fb:part.371
+17	0	fb:cell.18th	18th	18th	18th	JJ	ORDINAL	18.0	18.0				
+17	1	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+17	2	fb:cell.pittcon	Pittcon	pittcon	Pittcon	NNP	PERSON						
+17	3	fb:cell.pittsburgh_pennsylvania	Pittsburgh, Pennsylvania	pittsburgh|,|pennsylvania	Pittsburgh|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Pittsburgh|Pennsylvania	fb:part.pittsburgh|fb:part.pennsylvania
+17	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+17	5	fb:cell.james_blish	James Blish	james|blish	James|Blish	NNP|NNP	PERSON|PERSON	|				James Blish	fb:part.james_blish
+17	6	fb:cell.568	568	568	568	CD	NUMBER	568.0	568.0			568	fb:part.568
+18	0	fb:cell.19th	19th	19th	19th	JJ	ORDINAL	19.0	19.0				
+18	1	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+18	2	fb:cell.seacon	Seacon	seacon	Seacon	NNP	O						
+18	3	fb:cell.seattle_washington	Seattle, Washington	seattle|,|washington	Seattle|,|Washington	NNP|,|NNP	LOCATION|O|LOCATION	||				Seattle|Washington	fb:part.seattle|fb:part.washington
+18	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+18	5	fb:cell.robert_a_heinlein	Robert A. Heinlein	robert|a.|heinlein	Robert|A.|Heinlein	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Robert A. Heinlein	fb:part.robert_a_heinlein
+18	6	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0			300	fb:part.300
+19	0	fb:cell.20th	20th	20th	20th	JJ	ORDINAL	20.0	20.0				
+19	1	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+19	2	fb:cell.chicon_iii	Chicon III	chicon|iii	Chicon|III	NNP|NNP	PERSON|PERSON	|					
+19	3	fb:cell.chicago_illinois	Chicago, Illinois	chicago|,|illinois	Chicago|,|Illinois	NNP|,|NNP	LOCATION|O|LOCATION	||				Chicago|Illinois	fb:part.chicago|fb:part.illinois
+19	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+19	5	fb:cell.theodore_sturgeon	Theodore Sturgeon	theodore|sturgeon	Theodore|Sturgeon	NNP|NNP	PERSON|PERSON	|				Theodore Sturgeon	fb:part.theodore_sturgeon
+19	6	fb:cell.730	730	730	730	CD	NUMBER	730.0	730.0			730	fb:part.730
+20	0	fb:cell.21st	21st	21st	21st	CD	ORDINAL	21.0	21.0				
+20	1	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+20	2	fb:cell.discon_i	Discon I	discon|i	Discon|I	NNP|PRP	O|O	|					
+20	3	fb:cell.washington_d_c	Washington, D.C.	washington|,|d.c.	Washington|,|D.C.	NNP|,|NNP	LOCATION|O|LOCATION	||				Washington|D.C.	fb:part.washington|fb:part.d_c
+20	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+20	5	fb:cell.murray_leinster	Murray Leinster	murray|leinster	Murray|Leinster	NNP|NNP	PERSON|PERSON	|				Murray Leinster	fb:part.murray_leinster
+20	6	fb:cell.600	600	600	600	CD	NUMBER	600.0	600.0			600	fb:part.600
+21	0	fb:cell.22nd	22nd	22nd	22nd	JJ	ORDINAL	22.0	22.0				
+21	1	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+21	2	fb:cell.pacificon_ii	Pacificon II	pacificon|ii	Pacificon|II	NNP|NNP	O|O	|					
+21	3	fb:cell.oakland_california	Oakland, California	oakland|,|california	Oakland|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Oakland|California	fb:part.oakland|fb:part.california
+21	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+21	5	fb:cell.leigh_brackett_pro_edmond_hamilton_pro_forrest_j_ackerman_fan	Leigh Brackett (pro)\nEdmond Hamilton (pro)\nForrest J Ackerman (fan)	leigh|brackett|-lrb-|pro|-rrb-|edmond|hamilton|-lrb-|pro|-rrb-|forrest|j|ackerman|-lrb-|fan|-rrb-	Leigh|Brackett|-lrb-|pro|-rrb-|Edmond|Hamilton|-lrb-|pro|-rrb-|Forrest|J|Ackerman|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O	|||||||||||||||				Leigh Brackett (pro)|Edmond Hamilton (pro)|Forrest J Ackerman (fan)	fb:part.leigh_brackett_pro|fb:part.edmond_hamilton_pro|fb:part.forrest_j_ackerman_fan
+21	6	fb:cell.523	523	523	523	CD	NUMBER	523.0	523.0			523	fb:part.523
+22	0	fb:cell.23rd	23rd	23rd	23rd	JJ	ORDINAL	23.0	23.0				
+22	1	fb:cell.1965	1965	1965	1965	CD	DATE	1965	1965.0	1965-xx-xx			
+22	2	fb:cell.loncon_ii	Loncon II	loncon|ii	Loncon|II	NNP|NNP	O|O	|					
+22	3	fb:cell.london	London	london	London	NNP	LOCATION					London	fb:part.london
+22	4	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+22	5	fb:cell.brian_w_aldiss	Brian W. Aldiss	brian|w.|aldiss	Brian|W.|Aldiss	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Brian W. Aldiss	fb:part.brian_w_aldiss
+22	6	fb:cell.350	350	350	350	CD	NUMBER	350.0	350.0			350	fb:part.350
+23	0	fb:cell.24th	24th	24th	24th	JJ	ORDINAL	24.0	24.0				
+23	1	fb:cell.1966	1966	1966	1966	CD	DATE	1966	1966.0	1966-xx-xx			
+23	2	fb:cell.tricon	Tricon	tricon	Tricon	NNP	O						
+23	3	fb:cell.cleveland_ohio	Cleveland, Ohio	cleveland|,|ohio	Cleveland|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Cleveland|Ohio	fb:part.cleveland|fb:part.ohio
+23	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+23	5	fb:cell.l_sprague_de_camp	L. Sprague de Camp	l.|sprague|de|camp	L.|Sprague|de|Camp	NNP|NNP|IN|NNP	O|O|O|O	|||				L. Sprague de Camp	fb:part.l_sprague_de_camp
+23	6	fb:cell.850	850	850	850	CD	NUMBER	850.0	850.0			850	fb:part.850
+24	0	fb:cell.25th	25th	25th	25th	JJ	ORDINAL	25.0	25.0				
+24	1	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+24	2	fb:cell.nycon_3	Nycon 3	nycon|3	Nycon|3	NNP|CD	O|NUMBER	|3.0	3.0				
+24	3	fb:cell.new_york_new_york	New York, New York	new|york|,|new|york	New|York|,|New|York	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				New York|New York	fb:part.new_york|fb:part.new_york
+24	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+24	5	fb:cell.lester_del_rey_pro_bob_tucker_fan	Lester del Rey (pro)\nBob Tucker (fan)	lester|del|rey|-lrb-|pro|-rrb-|bob|tucker|-lrb-|fan|-rrb-	Lester|del|Rey|-lrb-|pro|-rrb-|Bob|Tucker|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||				Lester del Rey (pro)|Bob Tucker (fan)	fb:part.lester_del_rey_pro|fb:part.bob_tucker_fan
+24	6	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0			1,500	fb:part.1_500
+25	0	fb:cell.26th	26th	26th	26th	JJ	ORDINAL	26.0	26.0				
+25	1	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+25	2	fb:cell.baycon	Baycon	baycon	Baycon	NNP	PERSON						
+25	3	fb:cell.berkeley_california	Berkeley, California	berkeley|,|california	Berkeley|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Berkeley|California	fb:part.berkeley|fb:part.california
+25	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+25	5	fb:cell.philip_jose_farmer_pro_walter_j_daugherty_fan	Philip José Farmer (pro)\nWalter J. Daugherty (fan)	philip|josé|farmer|-lrb-|pro|-rrb-|walter|j.|daugherty|-lrb-|fan|-rrb-	Philip|José|Farmer|-lrb-|pro|-rrb-|Walter|J.|Daugherty|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O	|||||||||||				Philip José Farmer (pro)|Walter J. Daugherty (fan)	fb:part.philip_jose_farmer_pro|fb:part.walter_j_daugherty_fan
+25	6	fb:cell.1_430	1,430	1,430	1,430	CD	NUMBER	1430.0	1430.0			1,430	fb:part.1_430
+26	0	fb:cell.27th	27th	27th	27th	JJ	ORDINAL	27.0	27.0				
+26	1	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+26	2	fb:cell.st_louiscon	St. Louiscon	st.|louiscon	St.|Louiscon	NNP|NNP	LOCATION|LOCATION	|					
+26	3	fb:cell.st_louis_missouri	St. Louis, Missouri	st.|louis|,|missouri	St.|Louis|,|Missouri	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				St. Louis|Missouri	fb:part.st_louis|fb:part.missouri
+26	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+26	5	fb:cell.jack_gaughan_pro_eddie_jones_fan	Jack Gaughan (pro)\nEddie Jones (fan)	jack|gaughan|-lrb-|pro|-rrb-|eddie|jones|-lrb-|fan|-rrb-	Jack|Gaughan|-lrb-|pro|-rrb-|Eddie|Jones|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||				Jack Gaughan (pro)|Eddie Jones (fan)	fb:part.jack_gaughan_pro|fb:part.eddie_jones_fan
+26	6	fb:cell.1_534	1,534	1,534	1,534	CD	NUMBER	1534.0	1534.0			1,534	fb:part.1_534
+27	0	fb:cell.28th	28th	28th	28th	JJ	ORDINAL	28.0	28.0				
+27	1	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+27	2	fb:cell.heicon_70	Heicon '70	heicon|'|70	Heicon|'|70	NNP|POS|CD	PERSON|DATE|DATE	|XX70|XX70	70.0				
+27	3	fb:cell.heidelberg	Heidelberg	heidelberg	Heidelberg	NNP	LOCATION					Heidelberg	fb:part.heidelberg
+27	4	fb:cell.west_germany	West Germany	west|germany	West|Germany	NNP|NNP	LOCATION|LOCATION	|					
+27	5	fb:cell.e_c_tubb_uk_robert_silverberg_us_herbert_w_franke_germany_elliot_k_shorter_fan	E.C. Tubb (UK)\nRobert Silverberg (US)\nHerbert W. Franke (Germany)\nElliot K. Shorter (fan)	e.c.|tubb|-lrb-|uk|-rrb-|robert|silverberg|-lrb-|us|-rrb-|herbert|w.|franke|-lrb-|germany|-rrb-|elliot|k.|shorter|-lrb-|fan|-rrb-	E.C.|Tubb|-lrb-|UK|-rrb-|Robert|Silverberg|-lrb-|US|-rrb-|Herbert|W.|Franke|-lrb-|Germany|-rrb-|Elliot|K.|shorter|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|JJR|-LRB-|NN|-RRB-	O|PERSON|O|LOCATION|O|PERSON|PERSON|O|LOCATION|O|PERSON|PERSON|PERSON|O|LOCATION|O|PERSON|PERSON|PERSON|O|O|O	|||||||||||||||||||||				E.C. Tubb (UK)|Robert Silverberg (US)|Herbert W. Franke (Germany)|Elliot K. Shorter (fan)	fb:part.e_c_tubb_uk|fb:part.robert_silverberg_us|fb:part.herbert_w_franke_germany|fb:part.elliot_k_shorter_fan
+27	6	fb:cell.620	620	620	620	CD	NUMBER	620.0	620.0			620	fb:part.620
+28	0	fb:cell.29th	29th	29th	29th	JJ	ORDINAL	29.0	29.0				
+28	1	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+28	2	fb:cell.noreascon_i	Noreascon I	noreascon|i	Noreascon|I	NNP|PRP	O|O	|					
+28	3	fb:cell.boston_massachusetts	Boston, Massachusetts	boston|,|massachusetts	Boston|,|Massachusetts	NNP|,|NNP	LOCATION|O|LOCATION	||				Boston|Massachusetts	fb:part.boston|fb:part.massachusetts
+28	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+28	5	fb:cell.clifford_d_simak_pro_harry_warner_jr_fan	Clifford D. Simak (pro)\nHarry Warner, Jr. (fan)	clifford|d.|simak|-lrb-|pro|-rrb-|harry|warner|,|jr.|-lrb-|fan|-rrb-	Clifford|D.|Simak|-lrb-|pro|-rrb-|Harry|Warner|,|Jr.|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|,|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|O|O	||||||||||||				Clifford D. Simak (pro)|Harry Warner|Jr. (fan)	fb:part.clifford_d_simak_pro|fb:part.harry_warner|fb:part.jr_fan
+28	6	fb:cell.1_600	1,600	1,600	1,600	CD	NUMBER	1600.0	1600.0			1,600	fb:part.1_600
+29	0	fb:cell.30th	30th	30th	30th	JJ	ORDINAL	30.0	30.0				
+29	1	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+29	2	fb:cell.l_a_con_i	L.A.con I	l.a.con|i	L.A.con|I	NNP|PRP	O|O	|					
+29	3	fb:cell.los_angeles_california	Los Angeles, California	los|angeles|,|california	Los|Angeles|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Los Angeles|California	fb:part.los_angeles|fb:part.california
+29	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+29	5	fb:cell.frederik_pohl_pro_buck_juanita_coulson_fan	Frederik Pohl (pro)\nBuck & Juanita Coulson (fan)	frederik|pohl|-lrb-|pro|-rrb-|buck|&|juanita|coulson|-lrb-|fan|-rrb-	Frederik|Pohl|-lrb-|pro|-rrb-|Buck|&|Juanita|Coulson|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|CC|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|O|O|PERSON|PERSON|O|O|O	|||||||||||				Frederik Pohl (pro)|Buck & Juanita Coulson (fan)	fb:part.frederik_pohl_pro|fb:part.buck_juanita_coulson_fan
+29	6	fb:cell.2_007	2,007	2,007	2,007	CD	NUMBER	2007.0	2007.0			2,007	fb:part.2_007
+30	0	fb:cell.31st	31st	31st	31st	IN	ORDINAL	31.0	31.0				
+30	1	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+30	2	fb:cell.torcon_ii	Torcon II	torcon|ii	Torcon|II	NNP|NNP	O|O	|					
+30	3	fb:cell.toronto	Toronto	toronto	Toronto	NNP	LOCATION					Toronto	fb:part.toronto
+30	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+30	5	fb:cell.robert_bloch_pro_william_rotsler_fan	Robert Bloch (Pro)\nWilliam Rotsler (fan)	robert|bloch|-lrb-|pro|-rrb-|william|rotsler|-lrb-|fan|-rrb-	Robert|Bloch|-lrb-|pro|-rrb-|William|Rotsler|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||				Robert Bloch (Pro)|William Rotsler (fan)	fb:part.robert_bloch_pro|fb:part.william_rotsler_fan
+30	6	fb:cell.2_900	2,900	2,900	2,900	CD	NUMBER	2900.0	2900.0			2,900	fb:part.2_900
+31	0	fb:cell.32nd	32nd	32nd	32nd	NN	ORDINAL	32.0	32.0				
+31	1	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+31	2	fb:cell.discon_ii	Discon II	discon|ii	Discon|II	NNP|NNP	O|O	|					
+31	3	fb:cell.washington_d_c	Washington, D.C.	washington|,|d.c.	Washington|,|D.C.	NNP|,|NNP	LOCATION|O|LOCATION	||				Washington|D.C.	fb:part.washington|fb:part.d_c
+31	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+31	5	fb:cell.roger_zelazny_pro_jay_kay_klein_fan	Roger Zelazny (pro)\nJay Kay Klein (fan)	roger|zelazny|-lrb-|pro|-rrb-|jay|kay|klein|-lrb-|fan|-rrb-	Roger|Zelazny|-lrb-|pro|-rrb-|Jay|Kay|Klein|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O	||||||||||				Roger Zelazny (pro)|Jay Kay Klein (fan)	fb:part.roger_zelazny_pro|fb:part.jay_kay_klein_fan
+31	6	fb:cell.3_587	3,587	3,587	3,587	CD	NUMBER	3587.0	3587.0			3,587	fb:part.3_587
+32	0	fb:cell.33rd	33rd	33rd	33rd	JJ	ORDINAL	33.0	33.0				
+32	1	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+32	2	fb:cell.aussiecon_1	Aussiecon 1	aussiecon|1	Aussiecon|1	NNP|CD	O|NUMBER	|1.0	1.0				
+32	3	fb:cell.melbourne_victoria	Melbourne, Victoria	melbourne|,|victoria	Melbourne|,|Victoria	NNP|,|NNP	LOCATION|O|LOCATION	||				Melbourne|Victoria	fb:part.melbourne|fb:part.victoria
+32	4	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+32	5	fb:cell.ursula_k_le_guin_pro_susan_wood_fan_mike_glicksohn_fan_donald_tuck_australian	Ursula K. Le Guin (pro)\nSusan Wood (fan)\nMike Glicksohn (fan)\nDonald Tuck (Australian)	ursula|k.|le|guin|-lrb-|pro|-rrb-|susan|wood|-lrb-|fan|-rrb-|mike|glicksohn|-lrb-|fan|-rrb-|donald|tuck|-lrb-|australian|-rrb-	Ursula|K.|Le|Guin|-lrb-|pro|-rrb-|Susan|Wood|-lrb-|fan|-rrb-|Mike|Glicksohn|-lrb-|fan|-rrb-|Donald|Tuck|-lrb-|Australian|-rrb-	NNP|NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|PERSON|PERSON|O|O|O|LOCATION|LOCATION|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|MISC|O	|||||||||||||||||||||				Ursula K. Le Guin (pro)|Susan Wood (fan)|Mike Glicksohn (fan)|Donald Tuck (Australian)	fb:part.ursula_k_le_guin_pro|fb:part.susan_wood_fan|fb:part.mike_glicksohn_fan|fb:part.donald_tuck_australian
+32	6	fb:cell.606	606	606	606	CD	NUMBER	606.0	606.0			606	fb:part.606
+33	0	fb:cell.34th	34th	34th	34th	NN	ORDINAL	34.0	34.0				
+33	1	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+33	2	fb:cell.midamericon	MidAmeriCon	midamericon	MidAmeriCon	NNP	O						
+33	3	fb:cell.kansas_city_missouri	Kansas City, Missouri	kansas|city|,|missouri	Kansas|City|,|Missouri	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Kansas City|Missouri	fb:part.kansas_city|fb:part.missouri
+33	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+33	5	fb:cell.robert_a_heinlein	Robert A. Heinlein	robert|a.|heinlein	Robert|A.|Heinlein	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Robert A. Heinlein	fb:part.robert_a_heinlein
+33	6	fb:cell.3_014	3,014	3,014	3,014	CD	NUMBER	3014.0	3014.0			3,014	fb:part.3_014
+34	0	fb:cell.35th	35th	35th	35th	JJ	ORDINAL	35.0	35.0				
+34	1	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+34	2	fb:cell.suncon	SunCon	suncon	SunCon	NNP	O						
+34	3	fb:cell.miami_beach_florida	Miami Beach, Florida	miami|beach|,|florida	Miami|Beach|,|Florida	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Miami Beach|Florida	fb:part.miami_beach|fb:part.florida
+34	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+34	5	fb:cell.jack_williamson_pro_robert_a_madle_fan	Jack Williamson (pro)\nRobert A. Madle (fan)	jack|williamson|-lrb-|pro|-rrb-|robert|a.|madle|-lrb-|fan|-rrb-	Jack|Williamson|-lrb-|pro|-rrb-|Robert|A.|Madle|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O	||||||||||				Jack Williamson (pro)|Robert A. Madle (fan)	fb:part.jack_williamson_pro|fb:part.robert_a_madle_fan
+34	6	fb:cell.3_240_4_200	3,240\n(4,200)	3,240|-lrb-|4,200|-rrb-	3,240|-lrb-|4,200|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3240.0||4200.0|	3240.0		4200.0	3,240|(4,200)	fb:part.3_240|fb:part._4_200
+35	0	fb:cell.36th	36th	36th	36th	NN	ORDINAL	36.0	36.0				
+35	1	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+35	2	fb:cell.iguanacon_ii	IguanaCon II	iguanacon|ii	IguanaCon|II	NNP|NNP	O|O	|					
+35	3	fb:cell.phoenix_arizona	Phoenix, Arizona	phoenix|,|arizona	Phoenix|,|Arizona	NNP|,|NNP	LOCATION|O|LOCATION	||				Phoenix|Arizona	fb:part.phoenix|fb:part.arizona
+35	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+35	5	fb:cell.harlan_ellison_pro_bill_bowers_fan	Harlan Ellison (pro)\nBill Bowers (fan)	harlan|ellison|-lrb-|pro|-rrb-|bill|bowers|-lrb-|fan|-rrb-	Harlan|Ellison|-lrb-|pro|-rrb-|Bill|Bowers|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||				Harlan Ellison (pro)|Bill Bowers (fan)	fb:part.harlan_ellison_pro|fb:part.bill_bowers_fan
+35	6	fb:cell.4_700	4,700	4,700	4,700	CD	NUMBER	4700.0	4700.0			4,700	fb:part.4_700
+36	0	fb:cell.37th	37th	37th	37th	JJ	ORDINAL	37.0	37.0				
+36	1	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+36	2	fb:cell.seacon_79	Seacon '79	seacon|'|79	Seacon|'|79	NNP|POS|CD	PERSON|DATE|DATE	|XX79|XX79	79.0				
+36	3	fb:cell.brighton	Brighton	brighton	Brighton	NNP	LOCATION					Brighton	fb:part.brighton
+36	4	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+36	5	fb:cell.brian_aldiss_uk_fritz_leiber_us_harry_bell_fan	Brian Aldiss (UK)\nFritz Leiber (US)\nHarry Bell (fan)	brian|aldiss|-lrb-|uk|-rrb-|fritz|leiber|-lrb-|us|-rrb-|harry|bell|-lrb-|fan|-rrb-	Brian|Aldiss|-lrb-|UK|-rrb-|Fritz|Leiber|-lrb-|US|-rrb-|Harry|Bell|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|LOCATION|O|PERSON|PERSON|O|LOCATION|O|ORGANIZATION|ORGANIZATION|O|O|O	||||||||||||||				Brian Aldiss (UK)|Fritz Leiber (US)|Harry Bell (fan)	fb:part.brian_aldiss_uk|fb:part.fritz_leiber_us|fb:part.harry_bell_fan
+36	6	fb:cell.3_114	3,114	3,114	3,114	CD	NUMBER	3114.0	3114.0			3,114	fb:part.3_114
+37	0	fb:cell.38th	38th	38th	38th	NN	ORDINAL	38.0	38.0				
+37	1	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+37	2	fb:cell.noreascon_two	Noreascon Two	noreascon|two	Noreascon|two	NNP|CD	MISC|NUMBER	|2.0					
+37	3	fb:cell.boston_massachusetts	Boston, Massachusetts	boston|,|massachusetts	Boston|,|Massachusetts	NNP|,|NNP	LOCATION|O|LOCATION	||				Boston|Massachusetts	fb:part.boston|fb:part.massachusetts
+37	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+37	5	fb:cell.damon_knight_pro_kate_wilhelm_pro_bruce_pelz_fan	Damon Knight (pro)\nKate Wilhelm (pro)\nBruce Pelz (fan)	damon|knight|-lrb-|pro|-rrb-|kate|wilhelm|-lrb-|pro|-rrb-|bruce|pelz|-lrb-|fan|-rrb-	Damon|Knight|-lrb-|pro|-rrb-|Kate|Wilhelm|-lrb-|pro|-rrb-|Bruce|Pelz|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||||||				Damon Knight (pro)|Kate Wilhelm (pro)|Bruce Pelz (fan)	fb:part.damon_knight_pro|fb:part.kate_wilhelm_pro|fb:part.bruce_pelz_fan
+37	6	fb:cell.5_850	5,850	5,850	5,850	CD	NUMBER	5850.0	5850.0			5,850	fb:part.5_850
+38	0	fb:cell.39th	39th	39th	39th	NN	ORDINAL	39.0	39.0				
+38	1	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+38	2	fb:cell.denvention_two	Denvention Two	denvention|two	Denvention|two	NNP|CD	MISC|NUMBER	|2.0					
+38	3	fb:cell.denver_colorado	Denver, Colorado	denver|,|colorado	Denver|,|Colorado	NNP|,|NNP	LOCATION|O|LOCATION	||				Denver|Colorado	fb:part.denver|fb:part.colorado
+38	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+38	5	fb:cell.clifford_d_simak_pro_c_l_moore_pro_rusty_hevelin_fan	Clifford D. Simak (pro)\nC.L. Moore (pro)\nRusty Hevelin (fan)	clifford|d.|simak|-lrb-|pro|-rrb-|c.l.|moore|-lrb-|pro|-rrb-|rusty|hevelin|-lrb-|fan|-rrb-	Clifford|D.|Simak|-lrb-|pro|-rrb-|C.L.|Moore|-lrb-|pro|-rrb-|Rusty|Hevelin|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||				Clifford D. Simak (pro)|C.L. Moore (pro)|Rusty Hevelin (fan)	fb:part.clifford_d_simak_pro|fb:part.c_l_moore_pro|fb:part.rusty_hevelin_fan
+38	6	fb:cell.3_792	3,792	3,792	3,792	CD	NUMBER	3792.0	3792.0			3,792	fb:part.3_792
+39	0	fb:cell.40th	40th	40th	40th	JJ	ORDINAL	40.0	40.0				
+39	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+39	2	fb:cell.chicon_iv	Chicon IV	chicon|iv	Chicon|iv	NNP|CD	O|NUMBER	|0.0					
+39	3	fb:cell.chicago_illinois	Chicago, Illinois	chicago|,|illinois	Chicago|,|Illinois	NNP|,|NNP	LOCATION|O|LOCATION	||				Chicago|Illinois	fb:part.chicago|fb:part.illinois
+39	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+39	5	fb:cell.a_bertram_chandler_pro_frank_kelly_freas_pro_lee_hoffman_fan	A. Bertram Chandler (pro)\nFrank Kelly Freas (pro)\nLee Hoffman (fan)	a.|bertram|chandler|-lrb-|pro|-rrb-|frank|kelly|freas|-lrb-|pro|-rrb-|lee|hoffman|-lrb-|fan|-rrb-	a.|Bertram|Chandler|-lrb-|pro|-rrb-|Frank|Kelly|Freas|-lrb-|pro|-rrb-|Lee|Hoffman|-lrb-|fan|-rrb-	NN|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||||||||				A. Bertram Chandler (pro)|Frank Kelly Freas (pro)|Lee Hoffman (fan)	fb:part.a_bertram_chandler_pro|fb:part.frank_kelly_freas_pro|fb:part.lee_hoffman_fan
+39	6	fb:cell.4_275	4,275	4,275	4,275	CD	NUMBER	4275.0	4275.0			4,275	fb:part.4_275
+40	0	fb:cell.41st	41st	41st	41st	CD	ORDINAL	41.0	41.0				
+40	1	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+40	2	fb:cell.constellation	ConStellation	constellation	constellation	NN	O						
+40	3	fb:cell.baltimore_maryland	Baltimore, Maryland	baltimore|,|maryland	Baltimore|,|Maryland	NNP|,|NNP	LOCATION|O|LOCATION	||				Baltimore|Maryland	fb:part.baltimore|fb:part.maryland
+40	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+40	5	fb:cell.john_brunner_pro_david_a_kyle_fan	John Brunner (pro)\nDavid A. Kyle (fan)	john|brunner|-lrb-|pro|-rrb-|david|a.|kyle|-lrb-|fan|-rrb-	John|Brunner|-lrb-|pro|-rrb-|David|A.|Kyle|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O	||||||||||				John Brunner (pro)|David A. Kyle (fan)	fb:part.john_brunner_pro|fb:part.david_a_kyle_fan
+40	6	fb:cell.6_400	6,400	6,400	6,400	CD	NUMBER	6400.0	6400.0			6,400	fb:part.6_400
+41	0	fb:cell.42nd	42nd	42nd	42nd	NNP	ORDINAL	42.0	42.0				
+41	1	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+41	2	fb:cell.l_a_con_ii	L.A.con II	l.a.con|ii	L.A.con|II	NNP|NNP	O|O	|					
+41	3	fb:cell.anaheim_california	Anaheim, California	anaheim|,|california	Anaheim|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Anaheim|California	fb:part.anaheim|fb:part.california
+41	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+41	5	fb:cell.gordon_r_dickson_pro_dick_eney_fan	Gordon R. Dickson (pro)\nDick Eney (fan)	gordon|r.|dickson|-lrb-|pro|-rrb-|dick|eney|-lrb-|fan|-rrb-	Gordon|R.|Dickson|-lrb-|pro|-rrb-|Dick|Eney|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||				Gordon R. Dickson (pro)|Dick Eney (fan)	fb:part.gordon_r_dickson_pro|fb:part.dick_eney_fan
+41	6	fb:cell.8_365	8,365	8,365	8,365	CD	NUMBER	8365.0	8365.0			8,365	fb:part.8_365
+42	0	fb:cell.43rd	43rd	43rd	43rd	NN	ORDINAL	43.0	43.0				
+42	1	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+42	2	fb:cell.aussiecon_two	Aussiecon Two	aussiecon|two	Aussiecon|two	NNP|CD	MISC|NUMBER	|2.0					
+42	3	fb:cell.melbourne_victoria	Melbourne, Victoria	melbourne|,|victoria	Melbourne|,|Victoria	NNP|,|NNP	LOCATION|O|LOCATION	||				Melbourne|Victoria	fb:part.melbourne|fb:part.victoria
+42	4	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+42	5	fb:cell.gene_wolfe_pro_ted_white_fan	Gene Wolfe (pro)\nTed White (fan)	gene|wolfe|-lrb-|pro|-rrb-|ted|white|-lrb-|fan|-rrb-	Gene|Wolfe|-lrb-|pro|-rrb-|Ted|White|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||				Gene Wolfe (pro)|Ted White (fan)	fb:part.gene_wolfe_pro|fb:part.ted_white_fan
+42	6	fb:cell.1_599	1,599	1,599	1,599	CD	NUMBER	1599.0	1599.0			1,599	fb:part.1_599
+43	0	fb:cell.44th	44th	44th	44th	NN	ORDINAL	44.0	44.0				
+43	1	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+43	2	fb:cell.confederation	ConFederation	confederation	confederation	NN	O						
+43	3	fb:cell.atlanta_georgia	Atlanta, Georgia	atlanta|,|georgia	Atlanta|,|Georgia	NNP|,|NNP	LOCATION|O|LOCATION	||				Atlanta|Georgia	fb:part.atlanta|fb:part.georgia
+43	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+43	5	fb:cell.ray_bradbury_pro_terry_carr_fan	Ray Bradbury (pro)\nTerry Carr (fan)	ray|bradbury|-lrb-|pro|-rrb-|terry|carr|-lrb-|fan|-rrb-	Ray|Bradbury|-lrb-|pro|-rrb-|Terry|Carr|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||				Ray Bradbury (pro)|Terry Carr (fan)	fb:part.ray_bradbury_pro|fb:part.terry_carr_fan
+43	6	fb:cell.5_811	5,811	5,811	5,811	CD	NUMBER	5811.0	5811.0			5,811	fb:part.5_811
+44	0	fb:cell.45th	45th	45th	45th	NN	ORDINAL	45.0	45.0				
+44	1	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+44	2	fb:cell.conspiracy_87	Conspiracy '87	conspiracy|'|87	Conspiracy|'|87	NNP|POS|CD	O|DATE|DATE	|XX87|XX87	87.0				
+44	3	fb:cell.brighton	Brighton	brighton	Brighton	NNP	LOCATION					Brighton	fb:part.brighton
+44	4	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+44	5	fb:cell.doris_lessing_uk_alfred_bester_us_boris_and_arkady_strugatsky_ussr_jim_burns_artist_ray_harryhausen_film_joyce_and_ken_slater_fan_david_langford_special_fan	Doris Lessing (UK)\nAlfred Bester (US)\nBoris and Arkady Strugatsky (USSR)\nJim Burns (artist)\nRay Harryhausen (film)\nJoyce and Ken Slater (fan)\nDavid Langford (special fan)	doris|lessing|-lrb-|uk|-rrb-|alfred|bester|-lrb-|us|-rrb-|boris|and|arkady|strugatsky|-lrb-|ussr|-rrb-|jim|burns|-lrb-|artist|-rrb-|ray|harryhausen|-lrb-|film|-rrb-|joyce|and|ken|slater|-lrb-|fan|-rrb-|david|langford|-lrb-|special|fan|-rrb-	Doris|Lessing|-lrb-|UK|-rrb-|Alfred|Bester|-lrb-|US|-rrb-|Boris|and|Arkady|Strugatsky|-lrb-|USSR|-rrb-|Jim|Burns|-lrb-|artist|-rrb-|Ray|Harryhausen|-lrb-|film|-rrb-|Joyce|and|Ken|Slater|-lrb-|fan|-rrb-|David|Langford|-lrb-|special|fan|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|-LRB-|NNP|-RRB-|NNP|CC|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|CC|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|JJ|NN|-RRB-	PERSON|PERSON|O|LOCATION|O|PERSON|PERSON|O|LOCATION|O|PERSON|O|PERSON|PERSON|O|ORGANIZATION|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|O	|||||||||||||||||||||||||||||||||||||||				Doris Lessing (UK)|Alfred Bester (US)|Boris and Arkady Strugatsky (USSR)|Jim Burns (artist)|Ray Harryhausen (film)|Joyce and Ken Slater (fan)|David Langford (special fan)	fb:part.doris_lessing_uk|fb:part.alfred_bester_us|fb:part.boris_and_arkady_strugatsky_ussr|fb:part.jim_burns_artist|fb:part.ray_harryhausen_film|fb:part.joyce_and_ken_slater_fan|fb:part.david_langford_special_fan
+44	6	fb:cell.4_009_5_425	4,009\n(5,425)	4,009|-lrb-|5,425|-rrb-	4,009|-lrb-|5,425|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4009.0||5425.0|	4009.0		5425.0	4,009|(5,425)	fb:part.4_009|fb:part._5_425
+45	0	fb:cell.46th	46th	46th	46th	NN	ORDINAL	46.0	46.0				
+45	1	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+45	2	fb:cell.nolacon_ii	Nolacon II	nolacon|ii	Nolacon|II	NNP|NNP	O|O	|					
+45	3	fb:cell.new_orleans_louisiana	New Orleans, Louisiana	new|orleans|,|louisiana	New|Orleans|,|Louisiana	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				New Orleans|Louisiana	fb:part.new_orleans|fb:part.louisiana
+45	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+45	5	fb:cell.donald_a_wollheim_pro_roger_sims_fan	Donald A. Wollheim (pro)\nRoger Sims (fan)	donald|a.|wollheim|-lrb-|pro|-rrb-|roger|sims|-lrb-|fan|-rrb-	Donald|A.|Wollheim|-lrb-|pro|-rrb-|Roger|Sims|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||				Donald A. Wollheim (pro)|Roger Sims (fan)	fb:part.donald_a_wollheim_pro|fb:part.roger_sims_fan
+45	6	fb:cell.5_300	5,300	5,300	5,300	CD	NUMBER	5300.0	5300.0			5,300	fb:part.5_300
+46	0	fb:cell.47th	47th	47th	47th	NN	ORDINAL	47.0	47.0				
+46	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+46	2	fb:cell.noreascon_3	Noreascon 3	noreascon|3	Noreascon|3	NNP|CD	O|NUMBER	|3.0	3.0				
+46	3	fb:cell.boston_massachusetts	Boston, Massachusetts	boston|,|massachusetts	Boston|,|Massachusetts	NNP|,|NNP	LOCATION|O|LOCATION	||				Boston|Massachusetts	fb:part.boston|fb:part.massachusetts
+46	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+46	5	fb:cell.andre_norton_pro_betty_and_ian_ballantine_pro_the_stranger_club_fan	Andre Norton (pro)\nBetty and Ian Ballantine (pro)\nThe Stranger Club (fan)	andre|norton|-lrb-|pro|-rrb-|betty|and|ian|ballantine|-lrb-|pro|-rrb-|the|stranger|club|-lrb-|fan|-rrb-	Andre|Norton|-lrb-|pro|-rrb-|Betty|and|Ian|Ballantine|-lrb-|pro|-rrb-|the|Stranger|Club|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|CC|NNP|NNP|-LRB-|FW|-RRB-|DT|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON|O|O|O|O|O|O|O|O|O	|||||||||||||||||				Andre Norton (pro)|Betty and Ian Ballantine (pro)|The Stranger Club (fan)	fb:part.andre_norton_pro|fb:part.betty_and_ian_ballantine_pro|fb:part.the_stranger_club_fan
+46	6	fb:cell.6_837_7_795	6,837\n(7,795)	6,837|-lrb-|7,795|-rrb-	6,837|-lrb-|7,795|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6837.0||7795.0|	6837.0		7795.0	6,837|(7,795)	fb:part.6_837|fb:part._7_795
+47	0	fb:cell.48th	48th	48th	48th	NN	ORDINAL	48.0	48.0				
+47	1	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+47	2	fb:cell.confiction	ConFiction	confiction	confiction	NN	O						
+47	3	fb:cell.the_hague	The Hague	the|hague	the|hague	DT|NN	O|O	|				The Hague	fb:part.the_hague
+47	4	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+47	5	fb:cell.harry_harrison_pro_wolfgang_jeschke_pro_joe_haldeman_pro_andrew_i_porter_fan	Harry Harrison (pro)\nWolfgang Jeschke (pro)\nJoe Haldeman (pro)\nAndrew I. Porter (fan)	harry|harrison|-lrb-|pro|-rrb-|wolfgang|jeschke|-lrb-|pro|-rrb-|joe|haldeman|-lrb-|pro|-rrb-|andrew|i.|porter|-lrb-|fan|-rrb-	Harry|Harrison|-lrb-|pro|-rrb-|Wolfgang|Jeschke|-lrb-|pro|-rrb-|Joe|Haldeman|-lrb-|pro|-rrb-|Andrew|I.|Porter|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O	||||||||||||||||||||				Harry Harrison (pro)|Wolfgang Jeschke (pro)|Joe Haldeman (pro)|Andrew I. Porter (fan)	fb:part.harry_harrison_pro|fb:part.wolfgang_jeschke_pro|fb:part.joe_haldeman_pro|fb:part.andrew_i_porter_fan
+47	6	fb:cell.3_580	3,580	3,580	3,580	CD	NUMBER	3580.0	3580.0			3,580	fb:part.3_580
+48	0	fb:cell.49th	49th	49th	49th	NN	ORDINAL	49.0	49.0				
+48	1	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+48	2	fb:cell.chicon_v	Chicon V	chicon|v	Chicon|V	NNP|NNP	O|O	|					
+48	3	fb:cell.chicago_illinois	Chicago, Illinois	chicago|,|illinois	Chicago|,|Illinois	NNP|,|NNP	LOCATION|O|LOCATION	||				Chicago|Illinois	fb:part.chicago|fb:part.illinois
+48	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+48	5	fb:cell.hal_clement_pro_martin_h_greenberg_pro_richard_powers_pro_jon_and_joni_stopa_fan	Hal Clement (pro)\nMartin H. Greenberg (pro)\nRichard Powers (pro)\nJon and Joni Stopa (fan)	hal|clement|-lrb-|pro|-rrb-|martin|h.|greenberg|-lrb-|pro|-rrb-|richard|powers|-lrb-|pro|-rrb-|jon|and|joni|stopa|-lrb-|fan|-rrb-	Hal|Clement|-lrb-|pro|-rrb-|Martin|H.|Greenberg|-lrb-|pro|-rrb-|Richard|Powers|-lrb-|pro|-rrb-|Jon|and|Joni|Stopa|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|CC|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON|O|O|O	||||||||||||||||||||||				Hal Clement (pro)|Martin H. Greenberg (pro)|Richard Powers (pro)|Jon and Joni Stopa (fan)	fb:part.hal_clement_pro|fb:part.martin_h_greenberg_pro|fb:part.richard_powers_pro|fb:part.jon_and_joni_stopa_fan
+48	6	fb:cell.5_661	5,661	5,661	5,661	CD	NUMBER	5661.0	5661.0			5,661	fb:part.5_661
+49	0	fb:cell.50th	50th	50th	50th	JJ	ORDINAL	50.0	50.0				
+49	1	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+49	2	fb:cell.magicon	MagiCon	magicon	magicon	NN	O						
+49	3	fb:cell.orlando_florida	Orlando, Florida	orlando|,|florida	Orlando|,|Florida	NNP|,|NNP	LOCATION|O|LOCATION	||				Orlando|Florida	fb:part.orlando|fb:part.florida
+49	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+49	5	fb:cell.jack_vance_pro_vincent_di_fate_artist_walter_a_willis_fan	Jack Vance (pro)\nVincent Di Fate (artist)\nWalter A. Willis (fan)	jack|vance|-lrb-|pro|-rrb-|vincent|di|fate|-lrb-|artist|-rrb-|walter|a.|willis|-lrb-|fan|-rrb-	Jack|Vance|-lrb-|pro|-rrb-|Vincent|Di|Fate|-lrb-|artist|-rrb-|Walter|A.|Willis|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|O|O|O|O|O|O|PERSON|PERSON|PERSON|O|O|O	||||||||||||||||				Jack Vance (pro)|Vincent Di Fate (artist)|Walter A. Willis (fan)	fb:part.jack_vance_pro|fb:part.vincent_di_fate_artist|fb:part.walter_a_willis_fan
+49	6	fb:cell.5_319_6_368	5,319\n(6,368)	5,319|-lrb-|6,368|-rrb-	5,319|-lrb-|6,368|-rrb-	NN|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5319.0||6368.0|	5319.0		6368.0	5,319|(6,368)	fb:part.5_319|fb:part._6_368
+50	0	fb:cell.51st	51st	51st	51st	IN	ORDINAL	51.0	51.0				
+50	1	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+50	2	fb:cell.confrancisco	ConFrancisco	confrancisco	ConFrancisco	NNP	O						
+50	3	fb:cell.san_francisco_california	San Francisco, California	san|francisco|,|california	San|Francisco|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Francisco|California	fb:part.san_francisco|fb:part.california
+50	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+50	5	fb:cell.larry_niven_alicia_austin_tom_digby_fan_jan_howard_finder_mark_twain_dead_goh	Larry Niven\nAlicia Austin\nTom Digby (fan)\nJan Howard Finder\nMark Twain (Dead GoH)	larry|niven|alicia|austin|tom|digby|-lrb-|fan|-rrb-|jan|howard|finder|mark|twain|-lrb-|dead|goh|-rrb-	Larry|Niven|Alicia|Austin|Tom|Digby|-lrb-|fan|-rrb-|Jan|Howard|Finder|Mark|Twain|-lrb-|Dead|GoH|-rrb-	NNP|NNP|NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|NNP|NNP|NNP|-LRB-|NNP|NNP|-RRB-	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|PERSON|PERSON|O|O|O|O	|||||||||||||||||				Larry Niven|Alicia Austin|Tom Digby (fan)|Jan Howard Finder|Mark Twain (Dead GoH)	fb:part.larry_niven|fb:part.alicia_austin|fb:part.tom_digby_fan|fb:part.jan_howard_finder|fb:part.mark_twain_dead_goh
+50	6	fb:cell.6_602	6,602	6,602	6,602	CD	NUMBER	6602.0	6602.0			6,602	fb:part.6_602
+51	0	fb:cell.52nd	52nd	52nd	52nd	NN	ORDINAL	52.0	52.0				
+51	1	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+51	2	fb:cell.conadian	ConAdian	conadian	ConAdian	NNP	O						
+51	3	fb:cell.winnipeg	Winnipeg	winnipeg	Winnipeg	NNP	LOCATION					Winnipeg	fb:part.winnipeg
+51	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+51	5	fb:cell.anne_mccaffrey_pro_george_barr_artist_robert_runte_fan	Anne McCaffrey (pro)\nGeorge Barr (artist)\nRobert Runte (fan)	anne|mccaffrey|-lrb-|pro|-rrb-|george|barr|-lrb-|artist|-rrb-|robert|runte|-lrb-|fan|-rrb-	Anne|McCaffrey|-lrb-|pro|-rrb-|George|Barr|-lrb-|artist|-rrb-|Robert|Runte|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||||||				Anne McCaffrey (pro)|George Barr (artist)|Robert Runte (fan)	fb:part.anne_mccaffrey_pro|fb:part.george_barr_artist|fb:part.robert_runte_fan
+51	6	fb:cell.3_570_7_725	3,570\n(7,725)	3,570|-lrb-|7,725|-rrb-	3,570|-lrb-|7,725|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3570.0||7725.0|	3570.0		7725.0	3,570|(7,725)	fb:part.3_570|fb:part._7_725
+52	0	fb:cell.53rd	53rd	53rd	53rd	CD	ORDINAL	53.0	53.0				
+52	1	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+52	2	fb:cell.intersection	Intersection	intersection	intersection	NN	O						
+52	3	fb:cell.glasgow_scotland	Glasgow, Scotland	glasgow|,|scotland	Glasgow|,|Scotland	NNP|,|NNP	LOCATION|O|LOCATION	||				Glasgow|Scotland	fb:part.glasgow|fb:part.scotland
+52	4	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+52	5	fb:cell.samuel_r_delany_writer_gerry_anderson_media_les_edwards_artist_vin_clarke_fan	Samuel R. Delany (writer)\nGerry Anderson (media)\nLes Edwards (artist)\nVin¢ Clarke (fan)	samuel|r.|delany|-lrb-|writer|-rrb-|gerry|anderson|-lrb-|media|-rrb-|les|edwards|-lrb-|artist|-rrb-|vin|cents|clarke|-lrb-|fan|-rrb-	Samuel|R.|Delany|-lrb-|writer|-rrb-|Gerry|Anderson|-lrb-|media|-rrb-|Les|Edwards|-lrb-|artist|-rrb-|vin|cent|Clarke|-lrb-|fan|-rrb-	NNP|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NNS|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NN|NNS|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|O|PERSON|O|O|O	|||||||||||||||||||||				Samuel R. Delany (writer)|Gerry Anderson (media)|Les Edwards (artist)|Vin¢ Clarke (fan)	fb:part.samuel_r_delany_writer|fb:part.gerry_anderson_media|fb:part.les_edwards_artist|fb:part.vin_clarke_fan
+52	6	fb:cell.4_173_6_524	4,173\n(6,524)	4,173|-lrb-|6,524|-rrb-	4,173|-lrb-|6,524|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4173.0||6524.0|	4173.0		6524.0	4,173|(6,524)	fb:part.4_173|fb:part._6_524
+53	0	fb:cell.54th	54th	54th	54th	JJ	ORDINAL	54.0	54.0				
+53	1	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+53	2	fb:cell.l_a_con_iii	L.A.con III	l.a.con|iii	L.A.con|III	NNP|NNP	O|O	|					
+53	3	fb:cell.anaheim_california	Anaheim, California	anaheim|,|california	Anaheim|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Anaheim|California	fb:part.anaheim|fb:part.california
+53	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+53	5	fb:cell.james_white_writer_roger_corman_media_elsie_wollheim_special_takumi_and_sachiko_shibano_fan	James White (writer)\nRoger Corman (media)\nElsie Wollheim (special)\nTakumi and Sachiko Shibano (fan)	james|white|-lrb-|writer|-rrb-|roger|corman|-lrb-|media|-rrb-|elsie|wollheim|-lrb-|special|-rrb-|takumi|and|sachiko|shibano|-lrb-|fan|-rrb-	James|White|-lrb-|writer|-rrb-|Roger|Corman|-lrb-|media|-rrb-|Elsie|Wollheim|-lrb-|special|-rrb-|Takumi|and|Sachiko|Shibano|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NNS|-RRB-|NNP|NNP|-LRB-|JJ|-RRB-|NNP|CC|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON|O|O|O	|||||||||||||||||||||				James White (writer)|Roger Corman (media)|Elsie Wollheim (special)|Takumi and Sachiko Shibano (fan)	fb:part.james_white_writer|fb:part.roger_corman_media|fb:part.elsie_wollheim_special|fb:part.takumi_and_sachiko_shibano_fan
+53	6	fb:cell.6_703	6,703	6,703	6,703	CD	NUMBER	6703.0	6703.0			6,703	fb:part.6_703
+54	0	fb:cell.55th	55th	55th	55th	JJ	ORDINAL	55.0	55.0				
+54	1	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+54	2	fb:cell.lonestarcon_2	LoneStarCon 2	lonestarcon|2	lonestarcon|2	NN|CD	O|NUMBER	|2.0	2.0				
+54	3	fb:cell.san_antonio_texas	San Antonio, Texas	san|antonio|,|texas	San|Antonio|,|Texas	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Antonio|Texas	fb:part.san_antonio|fb:part.texas
+54	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+54	5	fb:cell.algis_budrys_pro_michael_moorcock_pro_don_maitz_artist_roy_tackett_fan	Algis Budrys (pro)\nMichael Moorcock (pro)\nDon Maitz (artist)\nRoy Tackett (fan)	algis|budrys|-lrb-|pro|-rrb-|michael|moorcock|-lrb-|pro|-rrb-|don|maitz|-lrb-|artist|-rrb-|roy|tackett|-lrb-|fan|-rrb-	Algis|Budrys|-lrb-|pro|-rrb-|Michael|Moorcock|-lrb-|pro|-rrb-|Don|Maitz|-lrb-|artist|-rrb-|Roy|Tackett|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||||||				Algis Budrys (pro)|Michael Moorcock (pro)|Don Maitz (artist)|Roy Tackett (fan)	fb:part.algis_budrys_pro|fb:part.michael_moorcock_pro|fb:part.don_maitz_artist|fb:part.roy_tackett_fan
+54	6	fb:cell.4_634_5_614	4,634\n(5,614)	4,634|-lrb-|5,614|-rrb-	4,634|-lrb-|5,614|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4634.0||5614.0|	4634.0		5614.0	4,634|(5,614)	fb:part.4_634|fb:part._5_614
+55	0	fb:cell.56th	56th	56th	56th	JJ	ORDINAL	56.0	56.0				
+55	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+55	2	fb:cell.bucconeer	BucConeer	bucconeer	BucConeer	NNP	O						
+55	3	fb:cell.baltimore_maryland	Baltimore, Maryland	baltimore|,|maryland	Baltimore|,|Maryland	NNP|,|NNP	LOCATION|O|LOCATION	||				Baltimore|Maryland	fb:part.baltimore|fb:part.maryland
+55	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+55	5	fb:cell.c_j_cherryh_milton_a_rothman_stanley_schmidt_michael_whelan_j_michael_straczynski_special	C. J. Cherryh\nMilton A. Rothman\nStanley Schmidt\nMichael Whelan\nJ. Michael Straczynski (special)	c.|j.|cherryh|milton|a.|rothman|stanley|schmidt|michael|whelan|j.|michael|straczynski|-lrb-|special|-rrb-	C.|J.|Cherryh|Milton|A.|Rothman|Stanley|Schmidt|Michael|Whelan|J.|Michael|Straczynski|-lrb-|special|-rrb-	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|-LRB-|JJ|-RRB-	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|O|O|O	|||||||||||||||				C. J. Cherryh|Milton A. Rothman|Stanley Schmidt|Michael Whelan|J. Michael Straczynski (special)	fb:part.c_j_cherryh|fb:part.milton_a_rothman|fb:part.stanley_schmidt|fb:part.michael_whelan|fb:part.j_michael_straczynski_special
+55	6	fb:cell.6_572	6,572	6,572	6,572	CD	NUMBER	6572.0	6572.0			6,572	fb:part.6_572
+56	0	fb:cell.57th	57th	57th	57th	JJ	ORDINAL	57.0	57.0				
+56	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+56	2	fb:cell.aussiecon_three	Aussiecon Three	aussiecon|three	Aussiecon|three	NNP|CD	O|NUMBER	|3.0					
+56	3	fb:cell.melbourne_victoria	Melbourne, Victoria	melbourne|,|victoria	Melbourne|,|Victoria	NNP|,|NNP	LOCATION|O|LOCATION	||				Melbourne|Victoria	fb:part.melbourne|fb:part.victoria
+56	4	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+56	5	fb:cell.gregory_benford_author_george_turner_author_bruce_gillespie_fan	Gregory Benford, author\nGeorge Turner, author\nBruce Gillespie, fan	gregory|benford|,|author|george|turner|,|author|bruce|gillespie|,|fan	Gregory|Benford|,|author|George|Turner|,|author|Bruce|Gillespie|,|fan	NNP|NNP|,|NN|NNP|NNP|,|NN|NNP|NNP|,|NN	PERSON|PERSON|O|O|PERSON|PERSON|O|O|PERSON|PERSON|O|O	|||||||||||				Gregory Benford|author|George Turner|author|Bruce Gillespie|fan	fb:part.gregory_benford|fb:part.author|fb:part.george_turner|fb:part.author|fb:part.bruce_gillespie|fb:part.fan
+56	6	fb:cell.1_626_2_872	1,626\n(2,872)	1,626|-lrb-|2,872|-rrb-	1,626|-lrb-|2,872|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1626.0||2872.0|	1626.0		2872.0	1,626|(2,872)	fb:part.1_626|fb:part._2_872
+57	0	fb:cell.58th	58th	58th	58th	JJ	ORDINAL	58.0	58.0				
+57	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+57	2	fb:cell.chicon_2000	Chicon 2000	chicon|2000	Chicon|2000	NNP|CD	O|DATE	|2000	2000.0				
+57	3	fb:cell.chicago_illinois	Chicago, Illinois	chicago|,|illinois	Chicago|,|Illinois	NNP|,|NNP	LOCATION|O|LOCATION	||				Chicago|Illinois	fb:part.chicago|fb:part.illinois
+57	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+57	5	fb:cell.ben_bova_author_bob_eggleton_artist_jim_baen_editor_bob_anne_passovoy_fan	Ben Bova (author)\nBob Eggleton (artist)\nJim Baen (editor)\nBob & Anne Passovoy (fan)	ben|bova|-lrb-|author|-rrb-|bob|eggleton|-lrb-|artist|-rrb-|jim|baen|-lrb-|editor|-rrb-|bob|&|anne|passovoy|-lrb-|fan|-rrb-	Ben|Bova|-lrb-|author|-rrb-|Bob|Eggleton|-lrb-|artist|-rrb-|Jim|Baen|-lrb-|editor|-rrb-|Bob|&|Anne|Passovoy|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|CC|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||||||||				Ben Bova (author)|Bob Eggleton (artist)|Jim Baen (editor)|Bob & Anne Passovoy (fan)	fb:part.ben_bova_author|fb:part.bob_eggleton_artist|fb:part.jim_baen_editor|fb:part.bob_anne_passovoy_fan
+57	6	fb:cell.5_794_6_574	5,794\n(6,574)	5,794|-lrb-|6,574|-rrb-	5,794|-lrb-|6,574|-rrb-	NN|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5794.0||6574.0|	5794.0		6574.0	5,794|(6,574)	fb:part.5_794|fb:part._6_574
+58	0	fb:cell.59th	59th	59th	59th	JJ	ORDINAL	59.0	59.0				
+58	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+58	2	fb:cell.millennium_philcon	Millennium Philcon	millennium|philcon	millennium|philcon	NN|NN	DURATION|O	|					
+58	3	fb:cell.philadelphia_pennsylvania	Philadelphia, Pennsylvania	philadelphia|,|pennsylvania	Philadelphia|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Philadelphia|Pennsylvania	fb:part.philadelphia|fb:part.pennsylvania
+58	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+58	5	fb:cell.greg_bear_author_stephen_youll_artist_gardner_dozois_editor_george_h_scithers_fan	Greg Bear (author)\nStephen Youll (artist)\nGardner Dozois (editor)\nGeorge H. Scithers (fan)	greg|bear|-lrb-|author|-rrb-|stephen|youll|-lrb-|artist|-rrb-|gardner|dozois|-lrb-|editor|-rrb-|george|h.|scithers|-lrb-|fan|-rrb-	Greg|Bear|-lrb-|author|-rrb-|Stephen|Youll|-lrb-|artist|-rrb-|Gardner|Dozois|-lrb-|editor|-rrb-|George|H.|Scithers|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O	||||||||||||||||||||				Greg Bear (author)|Stephen Youll (artist)|Gardner Dozois (editor)|George H. Scithers (fan)	fb:part.greg_bear_author|fb:part.stephen_youll_artist|fb:part.gardner_dozois_editor|fb:part.george_h_scithers_fan
+58	6	fb:cell.4_840_6_269	4,840\n(6,269)	4,840|-lrb-|6,269|-rrb-	4,840|-lrb-|6,269|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4840.0||6269.0|	4840.0		6269.0	4,840|(6,269)	fb:part.4_840|fb:part._6_269
+59	0	fb:cell.60th	60th	60th	60th	JJ	ORDINAL	60.0	60.0				
+59	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+59	2	fb:cell.conjose	ConJosé	conjosé	ConJosé	NNP	O						
+59	3	fb:cell.san_jose_california	San Jose, California	san|jose|,|california	San|Jose|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Jose|California	fb:part.san_jose|fb:part.california
+59	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+59	5	fb:cell.vernor_vinge_author_david_cherry_artist_bjo_john_trimble_fan_ferdinand_feghoot_imaginary	Vernor Vinge (author)\nDavid Cherry (artist)\nBjo & John Trimble (fan)\nFerdinand Feghoot (imaginary)	vernor|vinge|-lrb-|author|-rrb-|david|cherry|-lrb-|artist|-rrb-|bjo|&|john|trimble|-lrb-|fan|-rrb-|ferdinand|feghoot|-lrb-|imaginary|-rrb-	Vernor|Vinge|-lrb-|author|-rrb-|David|Cherry|-lrb-|artist|-rrb-|Bjo|&|John|Trimble|-lrb-|fan|-rrb-|Ferdinand|Feghoot|-lrb-|imaginary|-rrb-	NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|CC|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|JJ|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O|PERSON|PERSON|O|O|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||||||||				Vernor Vinge (author)|David Cherry (artist)|Bjo & John Trimble (fan)|Ferdinand Feghoot (imaginary)	fb:part.vernor_vinge_author|fb:part.david_cherry_artist|fb:part.bjo_john_trimble_fan|fb:part.ferdinand_feghoot_imaginary
+59	6	fb:cell.5_162_5_916	5,162\n(5,916)	5,162|-lrb-|5,916|-rrb-	5,162|-lrb-|5,916|-rrb-	NN|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5162.0||5916.0|	5162.0		5916.0	5,162|(5,916)	fb:part.5_162|fb:part._5_916
+60	0	fb:cell.61st	61st	61st	61st	IN	ORDINAL	61.0	61.0				
+60	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+60	2	fb:cell.torcon_3	Torcon 3	torcon|3	Torcon|3	NNP|CD	O|NUMBER	|3.0	3.0				
+60	3	fb:cell.toronto	Toronto	toronto	Toronto	NNP	LOCATION					Toronto	fb:part.toronto
+60	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+60	5	fb:cell.george_r_r_martin_author_frank_kelly_freas_artist_mike_glyer_fan_robert_bloch_gohst_of_honor	George R. R. Martin (author)\nFrank Kelly Freas (artist)\nMike Glyer (fan)\nRobert Bloch (GoHst of Honor)	george|r.|r.|martin|-lrb-|author|-rrb-|frank|kelly|freas|-lrb-|artist|-rrb-|mike|glyer|-lrb-|fan|-rrb-|robert|bloch|-lrb-|gohst|of|honor|-rrb-	George|R.|R.|Martin|-lrb-|author|-rrb-|Frank|Kelly|Freas|-lrb-|artist|-rrb-|Mike|Glyer|-lrb-|fan|-rrb-|Robert|Bloch|-lrb-|GoHst|of|honor|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NNP|IN|NN|-RRB-	PERSON|PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|O|O	||||||||||||||||||||||||				George R. R. Martin (author)|Frank Kelly Freas (artist)|Mike Glyer (fan)|Robert Bloch (GoHst of Honor)	fb:part.george_r_r_martin_author|fb:part.frank_kelly_freas_artist|fb:part.mike_glyer_fan|fb:part.robert_bloch_gohst_of_honor
+60	6	fb:cell.3_834_4_986	3,834\n(4,986)	3,834|-lrb-|4,986|-rrb-	3,834|-lrb-|4,986|-rrb-	NN|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3834.0||4986.0|	3834.0		4986.0	3,834|(4,986)	fb:part.3_834|fb:part._4_986
+61	0	fb:cell.62nd	62nd	62nd	62nd	JJ	ORDINAL	62.0	62.0				
+61	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+61	2	fb:cell.noreascon_4	Noreascon 4	noreascon|4	Noreascon|4	NNP|CD	O|NUMBER	|4.0	4.0				
+61	3	fb:cell.boston_massachusetts	Boston, Massachusetts	boston|,|massachusetts	Boston|,|Massachusetts	NNP|,|NNP	LOCATION|O|LOCATION	||				Boston|Massachusetts	fb:part.boston|fb:part.massachusetts
+61	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+61	5	fb:cell.terry_pratchett_pro_william_tenn_pro_jack_speer_fan_peter_weston_fan	Terry Pratchett (pro)\nWilliam Tenn (pro)\nJack Speer (fan)\nPeter Weston (fan)	terry|pratchett|-lrb-|pro|-rrb-|william|tenn|-lrb-|pro|-rrb-|jack|speer|-lrb-|fan|-rrb-|peter|weston|-lrb-|fan|-rrb-	Terry|Pratchett|-lrb-|pro|-rrb-|William|Tenn|-lrb-|pro|-rrb-|Jack|Speer|-lrb-|fan|-rrb-|Peter|Weston|-lrb-|fan|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||||||				Terry Pratchett (pro)|William Tenn (pro)|Jack Speer (fan)|Peter Weston (fan)	fb:part.terry_pratchett_pro|fb:part.william_tenn_pro|fb:part.jack_speer_fan|fb:part.peter_weston_fan
+61	6	fb:cell.5_651_7_485	5,651\n(7,485)	5,651|-lrb-|7,485|-rrb-	5,651|-lrb-|7,485|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5651.0||7485.0|	5651.0		7485.0	5,651|(7,485)	fb:part.5_651|fb:part._7_485
+62	0	fb:cell.63rd	63rd	63rd	63rd	JJ	ORDINAL	63.0	63.0				
+62	1	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+62	2	fb:cell.interaction	Interaction	interaction	interaction	NN	O						
+62	3	fb:cell.glasgow_scotland	Glasgow, Scotland	glasgow|,|scotland	Glasgow|,|Scotland	NNP|,|NNP	LOCATION|O|LOCATION	||				Glasgow|Scotland	fb:part.glasgow|fb:part.scotland
+62	4	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+62	5	fb:cell.greg_pickersgill_christopher_priest_robert_sheckley_lars_olov_strandberg_jane_yolen	Greg Pickersgill\nChristopher Priest\nRobert Sheckley\nLars-Olov Strandberg\nJane Yolen	greg|pickersgill|christopher|priest|robert|sheckley|lars|olov|strandberg|jane|yolen	Greg|Pickersgill|Christopher|Priest|Robert|Sheckley|Lars|Olov|Strandberg|Jane|Yolen	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	||||||||||				Greg Pickersgill|Christopher Priest|Robert Sheckley|Lars-Olov Strandberg|Jane Yolen	fb:part.greg_pickersgill|fb:part.christopher_priest|fb:part.robert_sheckley|fb:part.lars_olov_strandberg|fb:part.jane_yolen
+62	6	fb:cell.4_115_5_202	4,115\n(5,202)	4,115|-lrb-|5,202|-rrb-	4,115|-lrb-|5,202|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4115.0||5202.0|	4115.0		5202.0	4,115|(5,202)	fb:part.4_115|fb:part._5_202
+63	0	fb:cell.64th	64th	64th	64th	JJ	ORDINAL	64.0	64.0				
+63	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+63	2	fb:cell.l_a_con_iv	L.A.con IV	l.a.con|iv	L.A.con|iv	NNP|CD	O|NUMBER	|0.0					
+63	3	fb:cell.anaheim_california	Anaheim, California	anaheim|,|california	Anaheim|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Anaheim|California	fb:part.anaheim|fb:part.california
+63	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+63	5	fb:cell.connie_willis_author_james_gurney_artist_howard_devore_fan_frankie_thomas_special	Connie Willis (Author)\nJames Gurney (Artist)\nHoward DeVore (fan)\nFrankie Thomas (Special)	connie|willis|-lrb-|author|-rrb-|james|gurney|-lrb-|artist|-rrb-|howard|devore|-lrb-|fan|-rrb-|frankie|thomas|-lrb-|special|-rrb-	Connie|Willis|-lrb-|author|-rrb-|James|Gurney|-lrb-|Artist|-rrb-|Howard|DeVore|-lrb-|fan|-rrb-|Frankie|Thomas|-lrb-|special|-rrb-	NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|JJ|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||||||				Connie Willis (Author)|James Gurney (Artist)|Howard DeVore (fan)|Frankie Thomas (Special)	fb:part.connie_willis_author|fb:part.james_gurney_artist|fb:part.howard_devore_fan|fb:part.frankie_thomas_special
+63	6	fb:cell.5_738_6_291	5,738\n(6,291)	5,738|-lrb-|6,291|-rrb-	5,738|-lrb-|6,291|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5738.0||6291.0|	5738.0		6291.0	5,738|(6,291)	fb:part.5_738|fb:part._6_291
+64	0	fb:cell.65th	65th	65th	65th	JJ	ORDINAL	65.0	65.0				
+64	1	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+64	2	fb:cell.nippon_2007	Nippon 2007	nippon|2007	Nippon|2007	NNP|CD	MISC|DATE	|2007	2007.0				
+64	3	fb:cell.yokohama	Yokohama	yokohama	Yokohama	NNP	LOCATION					Yokohama	fb:part.yokohama
+64	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+64	5	fb:cell.sakyo_komatsu_author_david_brin_author_takumi_shibano_fan_yoshitaka_amano_artist_michael_whelan_artist	Sakyo Komatsu (author)\nDavid Brin (author)\nTakumi Shibano (fan)\nYoshitaka Amano (artist)\nMichael Whelan (artist)	sakyo|komatsu|-lrb-|author|-rrb-|david|brin|-lrb-|author|-rrb-|takumi|shibano|-lrb-|fan|-rrb-|yoshitaka|amano|-lrb-|artist|-rrb-|michael|whelan|-lrb-|artist|-rrb-	Sakyo|Komatsu|-lrb-|author|-rrb-|David|Brin|-lrb-|author|-rrb-|Takumi|Shibano|-lrb-|fan|-rrb-|Yoshitaka|Amano|-lrb-|artist|-rrb-|Michael|Whelan|-lrb-|artist|-rrb-	NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||||||||||||||||				Sakyo Komatsu (author)|David Brin (author)|Takumi Shibano (fan)|Yoshitaka Amano (artist)|Michael Whelan (artist)	fb:part.sakyo_komatsu_author|fb:part.david_brin_author|fb:part.takumi_shibano_fan|fb:part.yoshitaka_amano_artist|fb:part.michael_whelan_artist
+64	6	fb:cell.3_348_5_149	3,348\n(5,149)	3,348|-lrb-|5,149|-rrb-	3,348|-lrb-|5,149|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3348.0||5149.0|	3348.0		5149.0	3,348|(5,149)	fb:part.3_348|fb:part._5_149
+65	0	fb:cell.66th	66th	66th	66th	JJ	ORDINAL	66.0	66.0				
+65	1	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+65	2	fb:cell.denvention_3	Denvention 3	denvention|3	denvention|3	NN|CD	O|NUMBER	|3.0	3.0				
+65	3	fb:cell.denver_colorado	Denver, Colorado	denver|,|colorado	Denver|,|Colorado	NNP|,|NNP	LOCATION|O|LOCATION	||				Denver|Colorado	fb:part.denver|fb:part.colorado
+65	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+65	5	fb:cell.lois_mcmaster_bujold_pro_tom_whitmore_fan_rick_sternbach_artist	Lois McMaster Bujold (pro)\nTom Whitmore (fan)\nRick Sternbach (artist)	lois|mcmaster|bujold|-lrb-|pro|-rrb-|tom|whitmore|-lrb-|fan|-rrb-|rick|sternbach|-lrb-|artist|-rrb-	Lois|McMaster|Bujold|-lrb-|pro|-rrb-|Tom|Whitmore|-lrb-|fan|-rrb-|Rick|Sternbach|-lrb-|artist|-rrb-	NNP|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||				Lois McMaster Bujold (pro)|Tom Whitmore (fan)|Rick Sternbach (artist)	fb:part.lois_mcmaster_bujold_pro|fb:part.tom_whitmore_fan|fb:part.rick_sternbach_artist
+65	6	fb:cell.3_752	3,752	3,752	3,752	CD	NUMBER	3752.0	3752.0			3,752	fb:part.3_752
+66	0	fb:cell.67th	67th	67th	67th	JJ	ORDINAL	67.0	67.0				
+66	1	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+66	2	fb:cell.anticipation	Anticipation	anticipation	anticipation	NN	O						
+66	3	fb:cell.montreal_quebec	Montréal, Québec	montréal|,|québec	Montréal|,|Québec	NNP|,|NNP	PERSON|O|O	||				Montréal|Québec	fb:part.montreal|fb:part.quebec
+66	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+66	5	fb:cell.neil_gaiman_pro_elisabeth_vonarburg_pro_taral_wayne_fan_david_hartwell_editor_tom_doherty_publisher	Neil Gaiman (pro)\nElisabeth Vonarburg (pro)\nTaral Wayne (fan)\nDavid Hartwell (editor)\nTom Doherty (publisher)	neil|gaiman|-lrb-|pro|-rrb-|elisabeth|vonarburg|-lrb-|pro|-rrb-|taral|wayne|-lrb-|fan|-rrb-|david|hartwell|-lrb-|editor|-rrb-|tom|doherty|-lrb-|publisher|-rrb-	Neil|Gaiman|-lrb-|pro|-rrb-|Elisabeth|Vonarburg|-lrb-|pro|-rrb-|Taral|Wayne|-lrb-|fan|-rrb-|David|Hartwell|-lrb-|editor|-rrb-|Tom|Doherty|-lrb-|publisher|-rrb-	NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|FW|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	||||||||||||||||||||||||				Neil Gaiman (pro)|Elisabeth Vonarburg (pro)|Taral Wayne (fan)|David Hartwell (editor)|Tom Doherty (publisher)	fb:part.neil_gaiman_pro|fb:part.elisabeth_vonarburg_pro|fb:part.taral_wayne_fan|fb:part.david_hartwell_editor|fb:part.tom_doherty_publisher
+66	6	fb:cell.3_925_4_499	3,925\n(4,499)	3,925|-lrb-|4,499|-rrb-	3,925|-lrb-|4,499|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3925.0||4499.0|	3925.0		4499.0	3,925|(4,499)	fb:part.3_925|fb:part._4_499
+67	0	fb:cell.68th	68th	68th	68th	JJ	ORDINAL	68.0	68.0				
+67	1	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+67	2	fb:cell.aussiecon_four	Aussiecon Four	aussiecon|four	Aussiecon|four	NNP|CD	MISC|NUMBER	|4.0					
+67	3	fb:cell.melbourne_victoria	Melbourne, Victoria	melbourne|,|victoria	Melbourne|,|Victoria	NNP|,|NNP	LOCATION|O|LOCATION	||				Melbourne|Victoria	fb:part.melbourne|fb:part.victoria
+67	4	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+67	5	fb:cell.kim_stanley_robinson_author_robin_johnson_fan_shaun_tan_artist	Kim Stanley Robinson (author)\nRobin Johnson (fan)\nShaun Tan (artist)	kim|stanley|robinson|-lrb-|author|-rrb-|robin|johnson|-lrb-|fan|-rrb-|shaun|tan|-lrb-|artist|-rrb-	Kim|Stanley|Robinson|-lrb-|author|-rrb-|Robin|Johnson|-lrb-|fan|-rrb-|Shaun|Tan|-lrb-|artist|-rrb-	NNP|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||				Kim Stanley Robinson (author)|Robin Johnson (fan)|Shaun Tan (artist)	fb:part.kim_stanley_robinson_author|fb:part.robin_johnson_fan|fb:part.shaun_tan_artist
+67	6	fb:cell.2_101_3_462	2,101\n(3,462)	2,101|-lrb-|3,462|-rrb-	2,101|-lrb-|3,462|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2101.0||3462.0|	2101.0		3462.0	2,101|(3,462)	fb:part.2_101|fb:part._3_462
+68	0	fb:cell.69th	69th	69th	69th	JJ	ORDINAL	69.0	69.0				
+68	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+68	2	fb:cell.renovation	Renovation	renovation	renovation	NN	O						
+68	3	fb:cell.reno_nevada	Reno, Nevada	reno|,|nevada	Reno|,|Nevada	NNP|,|NNP	PERSON|O|LOCATION	||				Reno|Nevada	fb:part.reno|fb:part.nevada
+68	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+68	5	fb:cell.tim_powers_ellen_asher_boris_vallejo_charles_n_brown_in_memoriam	Tim Powers\nEllen Asher\nBoris Vallejo\nCharles N. Brown (in memoriam)	tim|powers|ellen|asher|boris|vallejo|charles|n.|brown|-lrb-|in|memoriam|-rrb-	Tim|Powers|Ellen|Asher|Boris|Vallejo|Charles|N.|Brown|-lrb-|in|memoriam|-rrb-	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|-LRB-|IN|NN|-RRB-	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|O|O|O|O	||||||||||||				Tim Powers|Ellen Asher|Boris Vallejo|Charles N. Brown (in memoriam)	fb:part.tim_powers|fb:part.ellen_asher|fb:part.boris_vallejo|fb:part.charles_n_brown_in_memoriam
+68	6	fb:cell.4_112_5_526	4,112\n(5,526)	4,112|-lrb-|5,526|-rrb-	4,112|-lrb-|5,526|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4112.0||5526.0|	4112.0		5526.0	4,112|(5,526)	fb:part.4_112|fb:part._5_526
+69	0	fb:cell.70th	70th	70th	70th	JJ	ORDINAL	70.0	70.0				
+69	1	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+69	2	fb:cell.chicon_7	Chicon 7	chicon|7	Chicon|7	NNP|CD	PERSON|NUMBER	|7.0	7.0				
+69	3	fb:cell.chicago_illinois	Chicago, Illinois	chicago|,|illinois	Chicago|,|Illinois	NNP|,|NNP	LOCATION|O|LOCATION	||				Chicago|Illinois	fb:part.chicago|fb:part.illinois
+69	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+69	5	fb:cell.mike_resnick_author_rowena_morrill_artist_story_musgrave_astronaut_peggy_rae_sapienza_fan_jane_frank_agent_sy_liebergot_special_guest_john_scalzi_toastmaster	Mike Resnick (author)\nRowena Morrill (artist)\nStory Musgrave (astronaut)\nPeggy Rae Sapienza (fan)\nJane Frank (agent)\nSy Liebergot (special guest)\nJohn Scalzi (toastmaster)	mike|resnick|-lrb-|author|-rrb-|rowena|morrill|-lrb-|artist|-rrb-|story|musgrave|-lrb-|astronaut|-rrb-|peggy|rae|sapienza|-lrb-|fan|-rrb-|jane|frank|-lrb-|agent|-rrb-|sy|liebergot|-lrb-|special|guest|-rrb-|john|scalzi|-lrb-|toastmaster|-rrb-	Mike|Resnick|-lrb-|author|-rrb-|Rowena|Morrill|-lrb-|artist|-rrb-|Story|Musgrave|-lrb-|astronaut|-rrb-|Peggy|Rae|Sapienza|-lrb-|fan|-rrb-|Jane|Frank|-lrb-|agent|-rrb-|Sy|Liebergot|-lrb-|special|guest|-rrb-|John|Scalzi|-lrb-|toastmaster|-rrb-	NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NNP|-LRB-|JJ|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-	PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|O|PERSON|O|O|O|PERSON|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|O|O|O|O|PERSON|PERSON|O|O|O	||||||||||||||||||||||||||||||||||||				Mike Resnick (author)|Rowena Morrill (artist)|Story Musgrave (astronaut)|Peggy Rae Sapienza (fan)|Jane Frank (agent)|Sy Liebergot (special guest)|John Scalzi (toastmaster)	fb:part.mike_resnick_author|fb:part.rowena_morrill_artist|fb:part.story_musgrave_astronaut|fb:part.peggy_rae_sapienza_fan|fb:part.jane_frank_agent|fb:part.sy_liebergot_special_guest|fb:part.john_scalzi_toastmaster
+69	6	fb:cell.4_743_6_197	4,743\n(6,197)	4,743|-lrb-|6,197|-rrb-	4,743|-lrb-|6,197|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4743.0||6197.0|	4743.0		6197.0	4,743|(6,197)	fb:part.4_743|fb:part._6_197
+70	0	fb:cell.71st	71st	71st	71st	IN	ORDINAL	71.0	71.0				
+70	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+70	2	fb:cell.lonestarcon_3	LoneStarCon 3	lonestarcon|3	LoneStarCon|3	NNP|CD	O|NUMBER	|3.0	3.0				
+70	3	fb:cell.san_antonio_texas	San Antonio, Texas	san|antonio|,|texas	San|Antonio|,|Texas	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Antonio|Texas	fb:part.san_antonio|fb:part.texas
+70	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+70	5	fb:cell.ellen_datlow_james_gunn_willie_siros_norman_spinrad_darrell_k_sweet_in_memoriam_paul_cornell_toastmaster_leslie_fish_joe_r_lansdale	Ellen Datlow\nJames Gunn\nWillie Siros\nNorman Spinrad\nDarrell K. Sweet (in memoriam)\nPaul Cornell (toastmaster)\nLeslie Fish\nJoe R. Lansdale	ellen|datlow|james|gunn|willie|siros|norman|spinrad|darrell|k.|sweet|-lrb-|in|memoriam|-rrb-|paul|cornell|-lrb-|toastmaster|-rrb-|leslie|fish|joe|r.|lansdale	Ellen|Datlow|James|Gunn|Willie|Siros|Norman|Spinrad|Darrell|K.|Sweet|-lrb-|in|memoriam|-rrb-|Paul|Cornell|-lrb-|toastmaster|-rrb-|Leslie|fish|Joe|R.|Lansdale	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|-LRB-|IN|NN|-RRB-|NNP|NNP|-LRB-|NN|-RRB-|NNP|NN|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|O|O|O|O|PERSON|PERSON|O|O|O|PERSON|PERSON|PERSON|PERSON|PERSON	||||||||||||||||||||||||				Ellen Datlow|James Gunn|Willie Siros|Norman Spinrad|Darrell K. Sweet (in memoriam)|Paul Cornell (toastmaster)|Leslie Fish|Joe R. Lansdale	fb:part.ellen_datlow|fb:part.james_gunn|fb:part.willie_siros|fb:part.norman_spinrad|fb:part.darrell_k_sweet_in_memoriam|fb:part.paul_cornell_toastmaster|fb:part.leslie_fish|fb:part.joe_r_lansdale
+70	6	fb:cell.4_311_6_060	4,311\n(6,060)	4,311|-lrb-|6,060|-rrb-	4,311|-lrb-|6,060|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4311.0||6060.0|	4311.0		6060.0	4,311|(6,060)	fb:part.4_311|fb:part._6_060
+71	0	fb:cell.72nd	72nd	72nd	72nd	JJ	ORDINAL	72.0	72.0				
+71	1	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+71	2	fb:cell.loncon_3	Loncon 3	loncon|3	Loncon|3	NNP|CD	O|NUMBER	|3.0	3.0				
+71	3	fb:cell.london	London	london	London	NNP	LOCATION					London	fb:part.london
+71	4	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+71	5	fb:cell.iain_m_banks_in_memoriam_john_clute_chris_foss_malcolm_edwards_jeanne_gomoll_robin_hobb_bryan_talbot	Iain M. Banks (in memoriam)\nJohn Clute\nChris Foss\nMalcolm Edwards\nJeanne Gomoll\nRobin Hobb\nBryan Talbot	iain|m.|banks|-lrb-|in|memoriam|-rrb-|john|clute|chris|foss|malcolm|edwards|jeanne|gomoll|robin|hobb|bryan|talbot	Iain|M.|Banks|-lrb-|in|memoriam|-rrb-|John|Clute|Chris|Foss|Malcolm|Edwards|Jeanne|Gomoll|Robin|Hobb|Bryan|Talbot	NNP|NNP|NNP|-LRB-|IN|NN|-RRB-|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|O|O|O|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	||||||||||||||||||				Iain M. Banks (in memoriam)|John Clute|Chris Foss|Malcolm Edwards|Jeanne Gomoll|Robin Hobb|Bryan Talbot	fb:part.iain_m_banks_in_memoriam|fb:part.john_clute|fb:part.chris_foss|fb:part.malcolm_edwards|fb:part.jeanne_gomoll|fb:part.robin_hobb|fb:part.bryan_talbot
+71	6	fb:cell.null											fb:part.null
+72	0	fb:cell.73rd	73rd	73rd	73rd	JJ	ORDINAL	73.0	73.0				
+72	1	fb:cell.2015	2015	2015	2015	CD	DATE	2015	2015.0	2015-xx-xx			
+72	2	fb:cell.sasquan	Sasquan	sasquan	Sasquan	NNP	PERSON						
+72	3	fb:cell.spokane_washington	Spokane, Washington	spokane|,|washington	Spokane|,|Washington	NNP|,|NNP	LOCATION|O|LOCATION	||				Spokane|Washington	fb:part.spokane|fb:part.washington
+72	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+72	5	fb:cell.brad_foster_david_gerrold_vonda_mcintyre_tom_smith_leslie_turek	Brad Foster\nDavid Gerrold\nVonda McIntyre\nTom Smith\nLeslie Turek	brad|foster|david|gerrold|vonda|mcintyre|tom|smith|leslie|turek	Brad|Foster|David|Gerrold|Vonda|McIntyre|Tom|Smith|Leslie|Turek	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	|||||||||				Brad Foster|David Gerrold|Vonda McIntyre|Tom Smith|Leslie Turek	fb:part.brad_foster|fb:part.david_gerrold|fb:part.vonda_mcintyre|fb:part.tom_smith|fb:part.leslie_turek
+72	6	fb:cell.null											fb:part.null

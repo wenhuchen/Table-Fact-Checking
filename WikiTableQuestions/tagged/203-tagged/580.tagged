@@ -1,0 +1,260 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.title	Title	title	title	NN	O						
+-1	1	fb:row.row.release	Release	release	Release	NNP	O						
+-1	2	fb:row.row.genre	Genre	genre	genre	NN	O						
+-1	3	fb:row.row.computer	Computer	computer	computer	NN	O						
+-1	4	fb:row.row.console	Console	console	console	NN	O						
+-1	5	fb:row.row.handheld	Handheld	handheld	handheld	JJ	O						
+-1	6	fb:row.row.smartphone	Smartphone	smartphone	Smartphone	NNP	O						
+0	0	fb:cell.bionicle_heroes	Bionicle Heroes	bionicle|heroes	Bionicle|Heroes	NNP|NNPS	O|O	|					
+0	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+0	2	fb:cell.third_person_shooter	Third-person shooter	third|person|shooter	third|person|shooter	JJ|NN|NN	ORDINAL|O|O	3.0||				Third-person shooter	fb:part.third_person_shooter
+0	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+0	4	fb:cell.playstation_2_gamecube_xbox_xbox_360_wii	PlayStation 2, GameCube, Xbox, Xbox 360, Wii	playstation|2|,|gamecube|,|xbox|,|xbox|360|,|wii	PlayStation|2|,|GameCube|,|Xbox|,|Xbox|360|,|Wii	NNP|CD|,|NNP|,|NNP|,|NNP|CD|,|NNP	O|NUMBER|O|O|O|O|O|O|NUMBER|O|O	|2.0|||||||360.0||	2.0		360.0	PlayStation 2|GameCube|Xbox|Xbox 360|Wii	fb:part.playstation_2|fb:part.gamecube|fb:part.xbox|fb:part.xbox_360|fb:part.wii
+0	5	fb:cell.nintendo_ds	Nintendo DS	nintendo|ds	Nintendo|d	NNP|NN	O|O	|				Nintendo DS	fb:part.nintendo_ds
+0	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+1	0	fb:cell.bionicle_matoran_adventures	Bionicle: Matoran Adventures	bionicle|:|matoran|adventures	Bionicle|:|Matoran|Adventures	NNP|:|NNP|NNPS	MISC|O|O|O	|||					
+1	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+1	2	fb:cell.platformer	Platformer	platformer	platformer	NN	O					Platformer	fb:part.platformer
+1	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+1	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+1	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+1	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+2	0	fb:cell.bionicle_maze_of_shadows	Bionicle: Maze of Shadows	bionicle|:|maze|of|shadows	Bionicle|:|maze|of|shadow	NNP|:|NN|IN|NNS	MISC|O|O|O|O	||||					
+2	1	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+2	2	fb:cell.turn_based_rpg	Turn Based RPG	turn|based|rpg	turn|base|rpg	VB|VBN|NN	O|O|O	||				Turn Based RPG	fb:part.turn_based_rpg
+2	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+2	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+2	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+2	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+3	0	fb:cell.bionicle_tales_of_the_tohunga	Bionicle: Tales of the Tohunga	bionicle|:|tales|of|the|tohunga	Bionicle|:|tale|of|the|Tohunga	NNP|:|NNS|IN|DT|NNP	MISC|O|O|O|O|O	|||||					
+3	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+3	2	fb:cell.adventure	Adventure	adventure	adventure	NN	O					Adventure	fb:part.adventure
+3	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+3	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+3	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+3	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+4	0	fb:cell.bionicle_the_game	Bionicle: The Game	bionicle|:|the|game	Bionicle|:|the|game	NNP|:|DT|NN	MISC|O|O|O	|||					
+4	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+4	2	fb:cell.adventure	Adventure	adventure	adventure	NN	O					Adventure	fb:part.adventure
+4	3	fb:cell.windows_os_x	Windows, OS X	windows|,|os|x	Windows|,|OS|X	NNP|,|NNP|NNP	MISC|O|O|O	|||				Windows|OS X	fb:part.windows|fb:part.os_x
+4	4	fb:cell.playstation_2_gamecube_xbox	PlayStation 2, GameCube, Xbox	playstation|2|,|gamecube|,|xbox	PlayStation|2|,|GameCube|,|Xbox	NNP|CD|,|NNP|,|NNP	O|NUMBER|O|O|O|O	|2.0||||	2.0			PlayStation 2|GameCube|Xbox	fb:part.playstation_2|fb:part.gamecube|fb:part.xbox
+4	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+4	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+5	0	fb:cell.drome_racers	Drome Racers	drome|racers	Drome|Racers	NNP|NNPS	O|O	|					
+5	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+5	2	fb:cell.racing	Racing	racing	race	VBG	O					Racing	fb:part.racing
+5	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+5	4	fb:cell.playstation_2_gamecube_xbox	PlayStation 2, GameCube, Xbox	playstation|2|,|gamecube|,|xbox	PlayStation|2|,|GameCube|,|Xbox	NNP|CD|,|NNP|,|NNP	O|NUMBER|O|O|O|O	|2.0||||	2.0			PlayStation 2|GameCube|Xbox	fb:part.playstation_2|fb:part.gamecube|fb:part.xbox
+5	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+5	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+6	0	fb:cell.island_xtreme_stunts	Island Xtreme Stunts	island|xtreme|stunts	Island|Xtreme|stunt	NNP|NNP|NNS	O|O|O	||					
+6	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+6	2	fb:cell.action_adventure	Action-adventure	action|adventure	Action|adventure	NNP|NN	O|O	|				Action-adventure	fb:part.action_adventure
+6	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+6	4	fb:cell.playstation_2	PlayStation 2	playstation|2	PlayStation|2	NNP|CD	O|NUMBER	|2.0	2.0			PlayStation 2	fb:part.playstation_2
+6	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+6	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+7	0	fb:cell.lego_alpha_team	Lego Alpha Team	lego|alpha|team	Lego|Alpha|Team	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+7	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+7	2	fb:cell.action	Action	action	Action	NNP	O					Action	fb:part.action
+7	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+7	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+7	5	fb:cell.game_boy_color	Game Boy Color	game|boy|color	Game|Boy|Color	NNP|NNP|NNP	O|O|O	||				Game Boy Color	fb:part.game_boy_color
+7	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+8	0	fb:cell.lego_battles	Lego Battles	lego|battles	Lego|Battles	NNP|NNPS	O|O	|					
+8	1	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+8	2	fb:cell.real_time_strategy	Real-time strategy	real|time|strategy	real|time|strategy	JJ|NN|NN	O|O|O	||				Real-time strategy	fb:part.real_time_strategy
+8	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+8	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+8	5	fb:cell.nintendo_ds	Nintendo DS	nintendo|ds	Nintendo|d	NNP|NN	O|O	|				Nintendo DS	fb:part.nintendo_ds
+8	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+9	0	fb:cell.lego_battles_ninjago	Lego Battles: Ninjago	lego|battles|:|ninjago	Lego|Battles|:|ninjago	NNP|NNPS|:|NN	O|O|O|O	|||					
+9	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+9	2	fb:cell.real_time_strategy	Real-time strategy	real|time|strategy	real|time|strategy	JJ|NN|NN	O|O|O	||				Real-time strategy	fb:part.real_time_strategy
+9	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+9	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+9	5	fb:cell.nintendo_ds	Nintendo DS	nintendo|ds	Nintendo|d	NNP|NN	O|O	|				Nintendo DS	fb:part.nintendo_ds
+9	6	fb:cell.ios	iOS	ios	iOS	NNP	O					iOS	fb:part.ios
+10	0	fb:cell.lego_chess	Lego Chess	lego|chess	Lego|Chess	NNP|NNP	O|O	|					
+10	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+10	2	fb:cell.strategy	Strategy	strategy	strategy	NN	O					Strategy	fb:part.strategy
+10	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+10	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+10	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+10	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+11	0	fb:cell.lego_city_undercover	Lego City Undercover	lego|city|undercover	Lego|City|Undercover	NNP|NNP|NNP	O|O|O	||					
+11	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+11	2	fb:cell.open_world_platform_game	Open world, Platform game	open|world|,|platform|game	open|world|,|platform|game	VB|NN|,|NN|NN	O|O|O|O|O	||||				Open world|Platform game	fb:part.open_world|fb:part.platform_game
+11	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+11	4	fb:cell.wii_u	Wii U	wii|u	Wii|U	NNP|NNP	O|O	|				Wii U	fb:part.wii_u
+11	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+11	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+12	0	fb:cell.lego_city_undercover_the_chase_begins	Lego City Undercover: The Chase Begins	lego|city|undercover|:|the|chase|begins	Lego|City|Undercover|:|the|Chase|begin	NNP|NNP|NNP|:|DT|NNP|VBZ	O|O|O|O|O|O|O	||||||					
+12	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+12	2	fb:cell.open_world_platform_game	Open world, Platform game	open|world|,|platform|game	open|world|,|platform|game	VB|NN|,|NN|NN	O|O|O|O|O	||||				Open world|Platform game	fb:part.open_world|fb:part.platform_game
+12	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+12	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+12	5	fb:cell.nintendo_3ds	Nintendo 3DS	nintendo|3ds	Nintendo|3d	NNP|NN	O|O	|	3.0			Nintendo 3DS	fb:part.nintendo_3ds
+12	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+13	0	fb:cell.lego_creationary	Lego Creationary	lego|creationary	Lego|Creationary	NNP|NNP	O|O	|					
+13	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+13	2	fb:cell.puzzle	Puzzle	puzzle	puzzle	NN	O					Puzzle	fb:part.puzzle
+13	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+13	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+13	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+13	6	fb:cell.ios_android	iOS, Android	ios|,|android	iOS|,|Android	NNP|,|NNP	O|O|O	||				iOS|Android	fb:part.ios|fb:part.android
+14	0	fb:cell.lego_creator	Lego Creator	lego|creator	Lego|Creator	NNP|NNP	O|O	|					
+14	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+14	2	fb:cell.construction_and_management_simulation	Construction and management simulation	construction|and|management|simulation	construction|and|management|simulation	NN|CC|NN|NN	O|O|O|O	|||				Construction and management simulation	fb:part.construction_and_management_simulation
+14	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+14	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+14	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+14	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+15	0	fb:cell.lego_creator_knights_kingdom	Lego Creator: Knights Kingdom	lego|creator|:|knights|kingdom	Lego|Creator|:|Knights|Kingdom	NNP|NNP|:|NNP|NNP	O|O|O|O|O	||||					
+15	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+15	2	fb:cell.construction_and_management_simulation	Construction and management simulation	construction|and|management|simulation	construction|and|management|simulation	NN|CC|NN|NN	O|O|O|O	|||				Construction and management simulation	fb:part.construction_and_management_simulation
+15	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+15	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+15	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+15	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+16	0	fb:cell.lego_friends	Lego Friends	lego|friends	Lego|Friends	NNP|NNPS	O|O	|					
+16	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+16	2	fb:cell.miscellaneous	Miscellaneous	miscellaneous	miscellaneous	JJ	O					Miscellaneous	fb:part.miscellaneous
+16	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+16	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+16	5	fb:cell.nintendo_ds_nintendo_3ds	Nintendo DS, Nintendo 3DS	nintendo|ds|,|nintendo|3ds	Nintendo|d|,|Nintendo|3d	NNP|NN|,|NNP|NN	O|O|O|ORGANIZATION|O	||||	3.0			Nintendo DS|Nintendo 3DS	fb:part.nintendo_ds|fb:part.nintendo_3ds
+16	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+17	0	fb:cell.lego_island	Lego Island	lego|island	Lego|Island	NNP|NNP	LOCATION|LOCATION	|					
+17	1	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+17	2	fb:cell.action_adventure	Action-adventure	action|adventure	Action|adventure	NNP|NN	O|O	|				Action-adventure	fb:part.action_adventure
+17	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+17	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+17	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+17	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+18	0	fb:cell.lego_island_2_the_brickster_s_revenge	Lego Island 2 The Brickster's Revenge	lego|island|2|the|brickster|'s|revenge	Lego|Island|2|the|brickster|'s|revenge	NNP|NNP|CD|DT|NN|POS|NN	ORGANIZATION|ORGANIZATION|NUMBER|O|O|O|O	||2.0||||	2.0				
+18	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+18	2	fb:cell.action_adventure	Action-adventure	action|adventure	Action|adventure	NNP|NN	O|O	|				Action-adventure	fb:part.action_adventure
+18	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+18	4	fb:cell.playstation	PlayStation	playstation	PlayStation	NNP	O					PlayStation	fb:part.playstation
+18	5	fb:cell.game_boy_color_game_boy_advance	Game Boy Color, Game Boy Advance	game|boy|color|,|game|boy|advance	Game|Boy|Color|,|Game|Boy|Advance	NNP|NNP|NNP|,|NNP|NNP|NNP	O|O|O|O|O|O|O	||||||				Game Boy Color|Game Boy Advance	fb:part.game_boy_color|fb:part.game_boy_advance
+18	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+19	0	fb:cell.lego_knights_kingdom	Lego Knights' Kingdom	lego|knights|'|kingdom	Lego|Knights|'|Kingdom	NNP|NNP|POS|NNP	O|O|O|O	|||					
+19	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+19	2	fb:cell.action_adventure	Action-adventure	action|adventure	Action|adventure	NNP|NN	O|O	|				Action-adventure	fb:part.action_adventure
+19	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+19	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+19	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+19	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+20	0	fb:cell.lego_legends_of_chima_online	Lego Legends of Chima Online	lego|legends|of|chima|online	Lego|Legends|of|Chima|Online	NNP|NNPS|IN|NNP|NNP	O|O|O|PERSON|PERSON	||||					
+20	1	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+20	2	fb:cell.massively_multiplayer_online_mmo	Massively multiplayer online (MMO)	massively|multiplayer|online|-lrb-|mmo|-rrb-	massively|multiplayer|online|-lrb-|mmo|-rrb-	RB|JJ|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Massively multiplayer online (MMO)	fb:part.massively_multiplayer_online_mmo
+20	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+20	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+20	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+20	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+21	0	fb:cell.lego_legends_of_chima_laval_s_journey	Lego Legends of Chima: Laval's Journey	lego|legends|of|chima|:|laval|'s|journey	Lego|Legends|of|Chima|:|Laval|'s|journey	NNP|NNPS|IN|NNP|:|NNP|POS|NN	O|O|O|PERSON|O|ORGANIZATION|O|O	|||||||					
+21	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+21	2	fb:cell.action_adventure	Action-adventure	action|adventure	Action|adventure	NNP|NN	O|O	|				Action-adventure	fb:part.action_adventure
+21	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+21	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+21	5	fb:cell.nintendo_ds_nintendo_3ds_playstation_vita	Nintendo DS, Nintendo 3DS, PlayStation Vita	nintendo|ds|,|nintendo|3ds|,|playstation|vita	Nintendo|d|,|Nintendo|3DS|,|PlayStation|Vita	NNP|NN|,|NNP|NNPS|,|NNP|NNP	O|O|O|ORGANIZATION|O|O|O|PERSON	|||||||	3.0			Nintendo DS|Nintendo 3DS|PlayStation Vita	fb:part.nintendo_ds|fb:part.nintendo_3ds|fb:part.playstation_vita
+21	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+22	0	fb:cell.lego_legends_of_chima_speedorz	Lego Legends of Chima: Speedorz	lego|legends|of|chima|:|speedorz	Lego|Legends|of|Chima|:|Speedorz	NNP|NNPS|IN|NNP|:|NNP	O|O|O|O|O|PERSON	|||||					
+22	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+22	2	fb:cell.racing	Racing	racing	race	VBG	O					Racing	fb:part.racing
+22	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+22	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+22	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+22	6	fb:cell.ios	iOS	ios	iOS	NNP	O					iOS	fb:part.ios
+23	0	fb:cell.lego_loco	Lego Loco	lego|loco	Lego|Loco	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+23	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+23	2	fb:cell.virtual_world	Virtual world	virtual|world	virtual|world	JJ|NN	O|O	|				Virtual world	fb:part.virtual_world
+23	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+23	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+23	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+23	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+24	0	fb:cell.lego_minifigures_online	Lego Minifigures Online	lego|minifigures|online	Lego|Minifigures|Online	NNP|NNP|NNP	O|O|O	||					
+24	1	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+24	2	fb:cell.massively_multiplayer_online_mmo	Massively multiplayer online (MMO)	massively|multiplayer|online|-lrb-|mmo|-rrb-	massively|multiplayer|online|-lrb-|mmo|-rrb-	RB|JJ|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Massively multiplayer online (MMO)	fb:part.massively_multiplayer_online_mmo
+24	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+24	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+24	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+24	6	fb:cell.ios_android	iOS, Android	ios|,|android	iOS|,|Android	NNP|,|NNP	O|O|O	||				iOS|Android	fb:part.ios|fb:part.android
+25	0	fb:cell.lego_my_style_kindergarten	Lego My Style Kindergarten	lego|my|style|kindergarten	Lego|my|style|kindergarten	NNP|PRP$|NN|NN	O|O|O|O	|||					
+25	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+25	2	fb:cell.educational	Educational	educational	Educational	NNP	O					Educational	fb:part.educational
+25	3	fb:cell.windows_mac_os	Windows, Mac OS	windows|,|mac|os	Windows|,|Mac|OS	NNP|,|NNP|NNP	MISC|O|O|O	|||				Windows|Mac OS	fb:part.windows|fb:part.mac_os
+25	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+25	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+25	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+26	0	fb:cell.lego_my_style_preschool	Lego My Style Preschool	lego|my|style|preschool	Lego|my|style|preschool	NNP|PRP$|NN|NN	O|O|O|O	|||					
+26	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+26	2	fb:cell.educational	Educational	educational	Educational	NNP	O					Educational	fb:part.educational
+26	3	fb:cell.windows_mac_os	Windows, Mac OS	windows|,|mac|os	Windows|,|Mac|OS	NNP|,|NNP|NNP	MISC|O|O|O	|||				Windows|Mac OS	fb:part.windows|fb:part.mac_os
+26	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+26	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+26	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+27	0	fb:cell.lego_ninjago_nindroids	Lego Ninjago Nindroids	lego|ninjago|nindroids	Lego|Ninjago|Nindroids	NNP|NNP|NNPS	MISC|MISC|MISC	||					
+27	1	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+27	2	fb:cell.action_adventure	Action-adventure	action|adventure	Action|adventure	NNP|NN	O|O	|				Action-adventure	fb:part.action_adventure
+27	3	fb:cell.null	—	--	--	:	O					—	fb:part.null
+27	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+27	5	fb:cell.nintendo_3ds_playstation_vita	Nintendo 3DS, PlayStation Vita	nintendo|3ds|,|playstation|vita	Nintendo|3DS|,|PlayStation|Vita	NNP|NNPS|,|NNP|NNP	O|O|O|O|PERSON	||||	3.0			Nintendo 3DS|PlayStation Vita	fb:part.nintendo_3ds|fb:part.playstation_vita
+27	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+28	0	fb:cell.lego_ninjago_the_final_battle	Lego Ninjago: The Final Battle	lego|ninjago|:|the|final|battle	Lego|Ninjago|:|The|Final|Battle	NNP|NNP|:|NNP|NNP|NNP	O|O|O|O|O|O	|||||					
+28	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+28	2	fb:cell.platformer	Platformer	platformer	platformer	NN	O					Platformer	fb:part.platformer
+28	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+28	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+28	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+28	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+29	0	fb:cell.lego_racers	Lego Racers	lego|racers	Lego|Racers	NNP|NNPS	O|O	|					
+29	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+29	2	fb:cell.racing	Racing	racing	race	VBG	O					Racing	fb:part.racing
+29	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+29	4	fb:cell.playstation_nintendo_64	PlayStation, Nintendo 64	playstation|,|nintendo|64	PlayStation|,|Nintendo|64	NNP|,|NNP|CD	O|O|ORGANIZATION|NUMBER	|||64.0	64.0			PlayStation|Nintendo 64	fb:part.playstation|fb:part.nintendo_64
+29	5	fb:cell.game_boy_color	Game Boy Color	game|boy|color	Game|Boy|Color	NNP|NNP|NNP	O|O|O	||				Game Boy Color	fb:part.game_boy_color
+29	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+30	0	fb:cell.lego_racers_2	Lego Racers 2	lego|racers|2	Lego|Racers|2	NNP|NNPS|CD	O|O|NUMBER	||2.0	2.0				
+30	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+30	2	fb:cell.racing	Racing	racing	race	VBG	O					Racing	fb:part.racing
+30	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+30	4	fb:cell.playstation_2	PlayStation 2	playstation|2	PlayStation|2	NNP|CD	O|NUMBER	|2.0	2.0			PlayStation 2	fb:part.playstation_2
+30	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+30	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+31	0	fb:cell.lego_rock_raiders	Lego Rock Raiders	lego|rock|raiders	Lego|Rock|Raiders	NNP|NNP|NNPS	O|O|O	||					
+31	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+31	2	fb:cell.real_time_strategy_action	Real-time strategy, Action	real|time|strategy|,|action	real|time|strategy|,|Action	JJ|NN|NN|,|NNP	O|O|O|O|O	||||				Real-time strategy|Action	fb:part.real_time_strategy|fb:part.action
+31	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+31	4	fb:cell.playstation	PlayStation	playstation	PlayStation	NNP	O					PlayStation	fb:part.playstation
+31	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+31	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+32	0	fb:cell.lego_soccer_mania	Lego Soccer Mania	lego|soccer|mania	Lego|Soccer|Mania	NNP|NNP|NNP	O|O|O	||					
+32	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+32	2	fb:cell.sport	Sport	sport	Sport	NNP	O					Sport	fb:part.sport
+32	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+32	4	fb:cell.playstation_2	PlayStation 2	playstation|2	PlayStation|2	NNP|CD	O|NUMBER	|2.0	2.0			PlayStation 2	fb:part.playstation_2
+32	5	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+32	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+33	0	fb:cell.lego_stunt_rally	Lego Stunt Rally	lego|stunt|rally	Lego|Stunt|Rally	NNP|NNP|NNP	O|O|O	||					
+33	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+33	2	fb:cell.racing	Racing	racing	race	VBG	O					Racing	fb:part.racing
+33	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+33	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+33	5	fb:cell.game_boy_color	Game Boy Color	game|boy|color	Game|Boy|Color	NNP|NNP|NNP	O|O|O	||				Game Boy Color	fb:part.game_boy_color
+33	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+34	0	fb:cell.lego_universe	Lego Universe	lego|universe	Lego|Universe	NNP|NNP	O|O	|					
+34	1	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+34	2	fb:cell.massively_multiplayer_online_mmo	Massively multiplayer online (MMO)	massively|multiplayer|online|-lrb-|mmo|-rrb-	massively|multiplayer|online|-lrb-|mmo|-rrb-	RB|JJ|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				Massively multiplayer online (MMO)	fb:part.massively_multiplayer_online_mmo
+34	3	fb:cell.windows_os_x	Windows, OS X	windows|,|os|x	Windows|,|OS|X	NNP|,|NNP|NNP	MISC|O|O|O	|||				Windows|OS X	fb:part.windows|fb:part.os_x
+34	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+34	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+34	6	fb:cell.null	—	--	--	:	O					—	fb:part.null
+35	0	fb:cell.legoland	Legoland	legoland	Legoland	NNP	LOCATION						
+35	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+35	2	fb:cell.simulation_strategy	Simulation strategy	simulation|strategy	simulation|strategy	NN|NN	O|O	|				Simulation strategy	fb:part.simulation_strategy
+35	3	fb:cell.windows	Windows	windows	Windows	NNP	MISC					Windows	fb:part.windows
+35	4	fb:cell.null	—	--	--	:	O					—	fb:part.null
+35	5	fb:cell.null	—	--	--	:	O					—	fb:part.null
+35	6	fb:cell.null	—	--	--	:	O					—	fb:part.null

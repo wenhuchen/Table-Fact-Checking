@@ -1,0 +1,1193 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.comet	Comet	comet	Comet	NNP	O						
+-1	1	fb:row.row.discoverer_s_or_namesake_s	Discoverer(s) or namesake(s)	discoverer|-lrb-|s|-rrb-|or|namesake|-lrb-|s|-rrb-	Discoverer|-lrb-|s|-rrb-|or|namesake|-lrb-|s|-rrb-	NNP|-LRB-|NNS|-RRB-|CC|NN|-LRB-|NNS|-RRB-	O|O|O|O|O|O|O|O|O	||||||||					
+-1	2	fb:row.row.orbital_period_years	Orbital period (years)	orbital|period|-lrb-|years|-rrb-	orbital|period|-lrb-|year|-rrb-	JJ|NN|-LRB-|NNS|-RRB-	MISC|O|O|DURATION|O	||||					
+-1	3	fb:row.row.spacecraft_encounter_s	Spacecraft encounter(s)	spacecraft|encounter|-lrb-|s|-rrb-	spacecraft|encounter|-lrb-|s|-rrb-	NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O	||||					
+0	0	fb:cell.1p_halley	1P/Halley	1p\\/halley	1p\\/halley	NN	O		1.0			1P|Halley	fb:part.1p|fb:part.halley
+0	1	fb:cell.halley	Halley	halley	Halley	NNP	PERSON					Halley	fb:part.halley
+0	2	fb:cell.75_32	75.32	75.32	75.32	CD	NUMBER	75.32	75.32				
+0	3	fb:cell.giotto_flyby_1986_vega_1_flyby_1986_vega_2_flyby_1986_suisei_flyby_1986_ice_distant_flyby_1986_sakigake_distant_flyby_1986	Giotto (flyby 1986), Vega 1 (flyby 1986), Vega 2 (flyby 1986), Suisei (flyby 1986) ICE (distant flyby 1986), Sakigake (distant flyby 1986)	giotto|-lrb-|flyby|1986|-rrb-|,|vega|1|-lrb-|flyby|1986|-rrb-|,|vega|2|-lrb-|flyby|1986|-rrb-|,|suisei|-lrb-|flyby|1986|-rrb-|ice|-lrb-|distant|flyby|1986|-rrb-|,|sakigake|-lrb-|distant|flyby|1986|-rrb-	Giotto|-lrb-|flyby|1986|-rrb-|,|Vega|1|-lrb-|flyby|1986|-rrb-|,|Vega|2|-lrb-|flyby|1986|-rrb-|,|suisei|-lrb-|flyby|1986|-rrb-|ice|-lrb-|distant|flyby|1986|-rrb-|,|Sakigake|-lrb-|distant|flyby|1986|-rrb-	NNP|-LRB-|JJ|CD|-RRB-|,|NNP|CD|-LRB-|JJ|CD|-RRB-|,|NNP|CD|-LRB-|JJ|CD|-RRB-|,|FW|-LRB-|JJ|CD|-RRB-|NN|-LRB-|JJ|JJ|CD|-RRB-|,|NNP|-LRB-|JJ|JJ|CD|-RRB-	O|O|O|DATE|O|O|O|NUMBER|O|O|DATE|O|O|O|NUMBER|O|O|DATE|O|O|PERSON|O|O|DATE|O|O|O|O|O|DATE|O|O|ORGANIZATION|O|O|O|DATE|O	|||1986||||1.0|||1986||||2.0|||1986||||||1986||||||1986|||||||1986|	1986.0		1.0	Giotto (flyby 1986)|Vega 1 (flyby 1986)|Vega 2 (flyby 1986)|Suisei (flyby 1986) ICE (distant flyby 1986)|Sakigake (distant flyby 1986)	fb:part.giotto_flyby_1986|fb:part.vega_1_flyby_1986|fb:part.vega_2_flyby_1986|fb:part.suisei_flyby_1986_ice_distant_flyby_1986|fb:part.sakigake_distant_flyby_1986
+1	0	fb:cell.2p_encke	2P/Encke	2p\\/encke	2p\\/encke	NN	O		2.0			2P|Encke	fb:part.2p|fb:part.encke
+1	1	fb:cell.encke	Encke	encke	Encke	NNP	PERSON					Encke	fb:part.encke
+1	2	fb:cell.3_30	3.30	3.30	3.30	CD	NUMBER	3.3	3.3				
+1	3	fb:cell.null											fb:part.null
+2	0	fb:cell.3d_biela	3D/Biela	3d\\/biela	3d\\/biela	NN	O		3.0			3D|Biela	fb:part.3d|fb:part.biela
+2	1	fb:cell.biela	Biela	biela	Biela	NNP	PERSON					Biela	fb:part.biela
+2	2	fb:cell.null											fb:part.null
+2	3	fb:cell.null											fb:part.null
+3	0	fb:cell.4p_faye	4P/Faye	4p\\/faye	4p\\/faye	NN	O		4.0			4P|Faye	fb:part.4p|fb:part.faye
+3	1	fb:cell.faye	Faye	faye	Faye	NNP	PERSON					Faye	fb:part.faye
+3	2	fb:cell.7_51	7.51	7.51	7.51	CD	NUMBER	7.51	7.51				
+3	3	fb:cell.null											fb:part.null
+4	0	fb:cell.5d_brorsen	5D/Brorsen	5d\\/brorsen	5d\\/brorsen	NN	O		5.0			5D|Brorsen	fb:part.5d|fb:part.brorsen
+4	1	fb:cell.brorsen	Brorsen	brorsen	Brorsen	NNP	PERSON					Brorsen	fb:part.brorsen
+4	2	fb:cell.null											fb:part.null
+4	3	fb:cell.null											fb:part.null
+5	0	fb:cell.6p_d_arrest	6P/d'Arrest	6p\\/d|`|arrest	6p\\/d|`|arrest	JJ|``|NN	O|O|O	||	6.0			6P|d'Arrest	fb:part.6p|fb:part.d_arrest
+5	1	fb:cell.d_arrest	d'Arrest	d'arrest	d'arrest	NN	O					d'Arrest	fb:part.d_arrest
+5	2	fb:cell.6_54	6.54	6.54	6.54	CD	NUMBER	6.54	6.54				
+5	3	fb:cell.null											fb:part.null
+6	0	fb:cell.7p_pons_winnecke	7P/Pons–Winnecke	7p\\/pons|--|winnecke	7p\\/pons|--|winnecke	NNS|:|NN	O|O|PERSON	||	7.0			7P|Pons–Winnecke	fb:part.7p|fb:part.pons_winnecke
+6	1	fb:cell.pons_winnecke	Pons & Winnecke	pons|&|winnecke	Pons|&|Winnecke	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Pons & Winnecke	fb:part.pons_winnecke_2
+6	2	fb:cell.6_36	6.36	6.36	6.36	CD	NUMBER	6.36	6.36				
+6	3	fb:cell.null											fb:part.null
+7	0	fb:cell.8p_tuttle	8P/Tuttle	8p\\/tuttle	8p\\/tuttle	NN	O		8.0			8P|Tuttle	fb:part.8p|fb:part.tuttle
+7	1	fb:cell.tuttle	Tuttle	tuttle	Tuttle	NNP	PERSON					Tuttle	fb:part.tuttle
+7	2	fb:cell.13_61	13.61	13.61	13.61	CD	NUMBER	13.61	13.61				
+7	3	fb:cell.null											fb:part.null
+8	0	fb:cell.9p_tempel_tempel_1	9P/Tempel (Tempel 1)	9p\\/tempel|-lrb-|tempel|1|-rrb-	9p\\/tempel|-lrb-|tempel|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||1.0|	9.0		1.0	9P|Tempel (Tempel 1)	fb:part.9p|fb:part.tempel_tempel_1
+8	1	fb:cell.tempel	Tempel	tempel	Tempel	NNP	PERSON					Tempel	fb:part.tempel
+8	2	fb:cell.5_58	5.58	5.58	5.58	CD	NUMBER	5.58	5.58				
+8	3	fb:cell.deep_impact_impactor_flyby_2005_stardust_flyby_2011	Deep Impact (impactor/flyby 2005), Stardust (flyby 2011)	deep|impact|-lrb-|impactor\\/flyby|2005|-rrb-|,|stardust|-lrb-|flyby|2011|-rrb-	deep|impact|-lrb-|impactor\\/flyby|2005|-rrb-|,|Stardust|-lrb-|flyby|2011|-rrb-	JJ|NN|-LRB-|JJ|CD|-RRB-|,|NNP|-LRB-|JJ|CD|-RRB-	O|O|O|O|DATE|O|O|O|O|O|DATE|O	||||2005||||||2011|	2005.0		2011.0	Deep Impact (impactor|flyby 2005)|Stardust (flyby 2011)	fb:part.deep_impact_impactor|fb:part.flyby_2005|fb:part.stardust_flyby_2011
+9	0	fb:cell.10p_tempel_tempel_2	10P/Tempel (Tempel 2)	10p\\/tempel|-lrb-|tempel|2|-rrb-	10p\\/tempel|-lrb-|tempel|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||2.0|	10.0		2.0	10P|Tempel (Tempel 2)	fb:part.10p|fb:part.tempel_tempel_2
+9	1	fb:cell.tempel	Tempel	tempel	Tempel	NNP	PERSON					Tempel	fb:part.tempel
+9	2	fb:cell.5_37	5.37	5.37	5.37	CD	NUMBER	5.37	5.37				
+9	3	fb:cell.null											fb:part.null
+10	0	fb:cell.11p_tempel_swift_linear	11P/Tempel–Swift–LINEAR	11p\\/tempel|--|swift|--|linear	11p\\/tempel|--|Swift|--|linear	NN|:|NNP|:|NN	O|O|O|O|O	||||	11.0			11P|Tempel–Swift–LINEAR	fb:part.11p|fb:part.tempel_swift_linear
+10	1	fb:cell.tempel_swift_linear	Tempel & Swift & LINEAR	tempel|&|swift|&|linear	Tempel|&|Swift|&|LINEAR	NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Tempel & Swift & LINEAR	fb:part.tempel_swift_linear_2
+10	2	fb:cell.6_37	6.37	6.37	6.37	CD	NUMBER	6.37	6.37				
+10	3	fb:cell.null											fb:part.null
+11	0	fb:cell.12p_pons_brooks	12P/Pons–Brooks	12p\\/pons|--|brooks	12p\\/pons|--|Brooks	NNS|:|NNP	O|O|PERSON	||	12.0			12P|Pons–Brooks	fb:part.12p|fb:part.pons_brooks
+11	1	fb:cell.pons_brooks	Pons & Brooks	pons|&|brooks	Pons|&|Brooks	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Pons & Brooks	fb:part.pons_brooks_2
+11	2	fb:cell.70_85	70.85	70.85	70.85	CD	NUMBER	70.85	70.85				
+11	3	fb:cell.null											fb:part.null
+12	0	fb:cell.13p_olbers	13P/Olbers	13p\\/olbers	13p\\/olbers	NNS	O		13.0			13P|Olbers	fb:part.13p|fb:part.olbers
+12	1	fb:cell.olbers	Olbers	olbers	olber	NNS	O					Olbers	fb:part.olbers
+12	2	fb:cell.69_52	69.52	69.52	69.52	CD	NUMBER	69.52	69.52				
+12	3	fb:cell.null											fb:part.null
+13	0	fb:cell.14p_wolf	14P/Wolf	14p\\/wolf	14p\\/wolf	NN	O		14.0			14P|Wolf	fb:part.14p|fb:part.wolf
+13	1	fb:cell.wolf	Wolf	wolf	Wolf	NNP	PERSON					Wolf	fb:part.wolf
+13	2	fb:cell.8_74	8.74	8.74	8.74	CD	NUMBER	8.74	8.74				
+13	3	fb:cell.null											fb:part.null
+14	0	fb:cell.15p_finlay	15P/Finlay	15p\\/finlay	15p\\/finlay	NN	O		15.0			15P|Finlay	fb:part.15p|fb:part.finlay
+14	1	fb:cell.finlay	Finlay	finlay	Finlay	NNP	PERSON					Finlay	fb:part.finlay
+14	2	fb:cell.6_50	6.50	6.50	6.50	CD	NUMBER	6.5	6.5				
+14	3	fb:cell.null											fb:part.null
+15	0	fb:cell.16p_brooks_brooks_2	16P/Brooks (Brooks 2)	16p\\/brooks|-lrb-|brooks|2|-rrb-	16p\\/brooks|-lrb-|Brooks|2|-rrb-	NNS|-LRB-|NNP|LS|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||2.0|	16.0		2.0	16P|Brooks (Brooks 2)	fb:part.16p|fb:part.brooks_brooks_2
+15	1	fb:cell.brooks	Brooks	brooks	Brooks	NNP	PERSON					Brooks	fb:part.brooks
+15	2	fb:cell.6_14	6.14	6.14	6.14	CD	NUMBER	6.14	6.14				
+15	3	fb:cell.null											fb:part.null
+16	0	fb:cell.17p_holmes	17P/Holmes	17p\\/holmes	17p\\/holmes	NNS	O		17.0			17P|Holmes	fb:part.17p|fb:part.holmes
+16	1	fb:cell.holmes	Holmes	holmes	Holmes	NNP	PERSON					Holmes	fb:part.holmes
+16	2	fb:cell.6_88	6.88	6.88	6.88	CD	NUMBER	6.88	6.88				
+16	3	fb:cell.null											fb:part.null
+17	0	fb:cell.18d_perrine_mrkos	18D/Perrine–Mrkos	18d\\/perrine|--|mrkos	18D\\/Perrine|--|mrko	NNP|:|NNS	O|O|O	||	18.0			18D|Perrine–Mrkos	fb:part.18d|fb:part.perrine_mrkos
+17	1	fb:cell.perrine_mrkos	Perrine & Mrkos	perrine|&|mrkos	Perrine|&|Mrkos	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Perrine & Mrkos	fb:part.perrine_mrkos_2
+17	2	fb:cell.null											fb:part.null
+17	3	fb:cell.null											fb:part.null
+18	0	fb:cell.19p_borrelly	19P/Borrelly	19p\\/borrelly	19p\\/borrelly	RB	O		19.0			19P|Borrelly	fb:part.19p|fb:part.borrelly
+18	1	fb:cell.borrelly	Borrelly	borrelly	Borrelly	NNP	PERSON					Borrelly	fb:part.borrelly
+18	2	fb:cell.6_85	6.85	6.85	6.85	CD	NUMBER	6.85	6.85				
+18	3	fb:cell.deep_space_1_flyby_2001	Deep Space 1 (flyby 2001)	deep|space|1|-lrb-|flyby|2001|-rrb-	deep|space|1|-lrb-|flyby|2001|-rrb-	JJ|NN|CD|-LRB-|JJ|CD|-RRB-	O|O|NUMBER|O|O|DATE|O	||1.0|||2001|	1.0		2001.0	Deep Space 1 (flyby 2001)	fb:part.deep_space_1_flyby_2001
+19	0	fb:cell.20d_westphal	20D/Westphal	20d\\/westphal	20d\\/westphal	JJ	O		20.0			20D|Westphal	fb:part.20d|fb:part.westphal
+19	1	fb:cell.westphal	Westphal	westphal	Westphal	NNP	PERSON					Westphal	fb:part.westphal
+19	2	fb:cell.null											fb:part.null
+19	3	fb:cell.null											fb:part.null
+20	0	fb:cell.21p_giacobini_zinner	21P/Giacobini–Zinner	21p\\/giacobini|--|zinner	21p\\/giacobini|--|zinner	NNS|:|NN	O|O|PERSON	||	21.0			21P|Giacobini–Zinner	fb:part.21p|fb:part.giacobini_zinner
+20	1	fb:cell.giacobini_zinner	Giacobini & Zinner	giacobini|&|zinner	Giacobini|&|Zinner	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Giacobini & Zinner	fb:part.giacobini_zinner_2
+20	2	fb:cell.6_60	6.60	6.60	6.60	CD	NUMBER	6.6	6.6				
+20	3	fb:cell.ice_distant_flyby_1985	ICE (distant flyby 1985)	ice|-lrb-|distant|flyby|1985|-rrb-	ice|-lrb-|distant|flyby|1985|-rrb-	NN|-LRB-|JJ|JJ|CD|-RRB-	O|O|O|O|DATE|O	||||1985|	1985.0			ICE (distant flyby 1985)	fb:part.ice_distant_flyby_1985
+21	0	fb:cell.22p_kopff	22P/Kopff	22p\\/kopff	22p\\/kopff	NN	O		22.0			22P|Kopff	fb:part.22p|fb:part.kopff
+21	1	fb:cell.kopff	Kopff	kopff	Kopff	NNP	PERSON					Kopff	fb:part.kopff
+21	2	fb:cell.6_43	6.43	6.43	6.43	CD	NUMBER	6.43	6.43				
+21	3	fb:cell.craf_rendezvous_lander_2000_cancelled	CRAF (rendezvous/lander 2000 – cancelled)	craf|-lrb-|rendezvous\\/lander|2000|--|canceled|-rrb-	craf|-lrb-|rendezvous\\/lander|2000|--|cancel|-rrb-	NN|-LRB-|JJ|CD|:|VBN|-RRB-	ORGANIZATION|O|O|DATE|O|O|O	|||2000|||	2000.0			CRAF (rendezvous|lander 2000 – cancelled)	fb:part.craf_rendezvous|fb:part.lander_2000_cancelled
+22	0	fb:cell.23p_brorsen_metcalf	23P/Brorsen–Metcalf	23p\\/brorsen|--|metcalf	23p\\/brorsen|--|Metcalf	NN|:|NNP	O|O|PERSON	||	23.0			23P|Brorsen–Metcalf	fb:part.23p|fb:part.brorsen_metcalf
+22	1	fb:cell.brorsen_metcalf	Brorsen & Metcalf	brorsen|&|metcalf	Brorsen|&|Metcalf	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Brorsen & Metcalf	fb:part.brorsen_metcalf_2
+22	2	fb:cell.70_52	70.52	70.52	70.52	CD	NUMBER	70.52	70.52				
+22	3	fb:cell.null											fb:part.null
+23	0	fb:cell.24p_schaumasse	24P/Schaumasse	24p\\/schaumasse	24p\\/schaumasse	NN	O		24.0			24P|Schaumasse	fb:part.24p|fb:part.schaumasse
+23	1	fb:cell.schaumasse	Schaumasse	schaumasse	schaumasse	NN	O					Schaumasse	fb:part.schaumasse
+23	2	fb:cell.8_25	8.25	8.25	8.25	CD	NUMBER	8.25	8.25				
+23	3	fb:cell.null											fb:part.null
+24	0	fb:cell.25d_neujmin_neujmin_2	25D/Neujmin (Neujmin 2)	25d\\/neujmin|-lrb-|neujmin|2|-rrb-	25d\\/neujmin|-lrb-|neujmin|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|O|NUMBER|O	|||2.0|	25.0		2.0	25D|Neujmin (Neujmin 2)	fb:part.25d|fb:part.neujmin_neujmin_2
+24	1	fb:cell.neujmin	Neujmin	neujmin	Neujmin	NNP	O					Neujmin	fb:part.neujmin
+24	2	fb:cell.null											fb:part.null
+24	3	fb:cell.null											fb:part.null
+25	0	fb:cell.26p_grigg_skjellerup	26P/Grigg–Skjellerup	26p\\/grigg|--|skjellerup	26p\\/grigg|--|skjellerup	NN|:|NN	O|O|O	||	26.0			26P|Grigg–Skjellerup	fb:part.26p|fb:part.grigg_skjellerup
+25	1	fb:cell.grigg_skjellerup	Grigg & Skjellerup	grigg|&|skjellerup	Grigg|&|Skjellerup	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Grigg & Skjellerup	fb:part.grigg_skjellerup_2
+25	2	fb:cell.5_31	5.31	5.31	5.31	CD	NUMBER	5.31	5.31				
+25	3	fb:cell.giotto_flyby_1992	Giotto (flyby 1992)	giotto|-lrb-|flyby|1992|-rrb-	Giotto|-lrb-|flyby|1992|-rrb-	NNP|-LRB-|JJ|CD|-RRB-	O|O|O|DATE|O	|||1992|	1992.0			Giotto (flyby 1992)	fb:part.giotto_flyby_1992
+26	0	fb:cell.27p_crommelin	27P/Crommelin	27p\\/crommelin	27p\\/crommelin	NN	O		27.0			27P|Crommelin	fb:part.27p|fb:part.crommelin
+26	1	fb:cell.crommelin	Crommelin	crommelin	Crommelin	NNP	PERSON					Crommelin	fb:part.crommelin
+26	2	fb:cell.27_93	27.93	27.93	27.93	CD	NUMBER	27.93	27.93				
+26	3	fb:cell.null											fb:part.null
+27	0	fb:cell.28p_neujmin_neujmin_1	28P/Neujmin (Neujmin 1)	28p\\/neujmin|-lrb-|neujmin|1|-rrb-	28p\\/neujmin|-lrb-|neujmin|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||1.0|	28.0		1.0	28P|Neujmin (Neujmin 1)	fb:part.28p|fb:part.neujmin_neujmin_1
+27	1	fb:cell.neujmin	Neujmin	neujmin	Neujmin	NNP	O					Neujmin	fb:part.neujmin
+27	2	fb:cell.18_17	18.17	18.17	18.17	CD	NUMBER	18.17	18.17				
+27	3	fb:cell.null											fb:part.null
+28	0	fb:cell.29p_schwassmann_wachmann_schwassmann_wachmann_1	29P/Schwassmann–Wachmann (Schwassmann–Wachmann 1)	29p\\/schwassmann|--|wachmann|-lrb-|schwassmann|--|wachmann|1|-rrb-	29p\\/schwassmann|--|Wachmann|-lrb-|Schwassmann|--|Wachmann|1|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||1.0|	29.0		1.0	29P|Schwassmann–Wachmann (Schwassmann–Wachmann 1)	fb:part.29p|fb:part.schwassmann_wachmann_schwassmann_wachmann_1
+28	1	fb:cell.schwassmann_wachmann	Schwassmann & Wachmann	schwassmann|&|wachmann	Schwassmann|&|Wachmann	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Schwassmann & Wachmann	fb:part.schwassmann_wachmann
+28	2	fb:cell.14_69	14.69	14.69	14.69	CD	NUMBER	14.69	14.69				
+28	3	fb:cell.null											fb:part.null
+29	0	fb:cell.30p_reinmuth_reinmuth_1	30P/Reinmuth (Reinmuth 1)	30p\\/reinmuth|-lrb-|reinmuth|1|-rrb-	30p\\/reinmuth|-lrb-|reinmuth|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||1.0|	30.0		1.0	30P|Reinmuth (Reinmuth 1)	fb:part.30p|fb:part.reinmuth_reinmuth_1
+29	1	fb:cell.reinmuth	Reinmuth	reinmuth	Reinmuth	NNP	PERSON					Reinmuth	fb:part.reinmuth
+29	2	fb:cell.7_34	7.34	7.34	7.34	CD	NUMBER	7.34	7.34				
+29	3	fb:cell.null											fb:part.null
+30	0	fb:cell.31p_schwassmann_wachmann_schwassmann_wachmann_2	31P/Schwassmann–Wachmann (Schwassmann–Wachmann 2)	31p\\/schwassmann|--|wachmann|-lrb-|schwassmann|--|wachmann|2|-rrb-	31P\\/Schwassmann|--|Wachmann|-lrb-|Schwassmann|--|Wachmann|2|-rrb-	NNP|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||2.0|	31.0		2.0	31P|Schwassmann–Wachmann (Schwassmann–Wachmann 2)	fb:part.31p|fb:part.schwassmann_wachmann_schwassmann_wachmann_2
+30	1	fb:cell.schwassmann_wachmann	Schwassmann & Wachmann	schwassmann|&|wachmann	Schwassmann|&|Wachmann	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Schwassmann & Wachmann	fb:part.schwassmann_wachmann
+30	2	fb:cell.8_75	8.75	8.75	8.75	CD	NUMBER	8.75	8.75				
+30	3	fb:cell.null											fb:part.null
+31	0	fb:cell.32p_comas_sola	32P/Comas Solá	32p\\/comas|solá	32p\\/comas|solá	NNS|VBP	O|O	|	32.0			32P|Comas Solá	fb:part.32p|fb:part.comas_sola
+31	1	fb:cell.comas_sola	Comas Solá	comas|solá	Comas|Solá	NNP|NNP	O|O	|				Comas Solá	fb:part.comas_sola
+31	2	fb:cell.8_80	8.80	8.80	8.80	CD	NUMBER	8.8	8.8				
+31	3	fb:cell.null											fb:part.null
+32	0	fb:cell.33p_daniel	33P/Daniel	33p\\/daniel	33p\\/daniel	NN	O		33.0			33P|Daniel	fb:part.33p|fb:part.daniel
+32	1	fb:cell.daniel	Daniel	daniel	Daniel	NNP	PERSON					Daniel	fb:part.daniel
+32	2	fb:cell.8_07	8.07	8.07	8.07	CD	NUMBER	8.07	8.07				
+32	3	fb:cell.null											fb:part.null
+33	0	fb:cell.34d_gale	34D/Gale	34d\\/gale	34d\\/gale	NN	O		34.0			34D|Gale	fb:part.34d|fb:part.gale
+33	1	fb:cell.gale	Gale	gale	Gale	NNP	PERSON					Gale	fb:part.gale
+33	2	fb:cell.null											fb:part.null
+33	3	fb:cell.null											fb:part.null
+34	0	fb:cell.35p_herschel_rigollet	35P/Herschel–Rigollet	35p\\/herschel|--|rigollet	35p\\/herschel|--|Rigollet	NN|:|NNP	O|O|PERSON	||	35.0			35P|Herschel–Rigollet	fb:part.35p|fb:part.herschel_rigollet
+34	1	fb:cell.herschel_rigollet	Herschel & Rigollet	herschel|&|rigollet	Herschel|&|Rigollet	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Herschel & Rigollet	fb:part.herschel_rigollet_2
+34	2	fb:cell.155	155	155	155	CD	NUMBER	155.0	155.0				
+34	3	fb:cell.null											fb:part.null
+35	0	fb:cell.36p_whipple	36P/Whipple	36p\\/whipple	36p\\/whipple	NN	O		36.0			36P|Whipple	fb:part.36p|fb:part.whipple
+35	1	fb:cell.whipple	Whipple	whipple	Whipple	NNP	PERSON					Whipple	fb:part.whipple
+35	2	fb:cell.8_55	8.55	8.55	8.55	CD	NUMBER	8.55	8.55				
+35	3	fb:cell.null											fb:part.null
+36	0	fb:cell.37p_forbes	37P/Forbes	37p\\/forbes	37p\\/forbes	NNS	O		37.0			37P|Forbes	fb:part.37p|fb:part.forbes
+36	1	fb:cell.forbes	Forbes	forbes	Forbes	NNP	O					Forbes	fb:part.forbes
+36	2	fb:cell.6_35	6.35	6.35	6.35	CD	NUMBER	6.35	6.35				
+36	3	fb:cell.null											fb:part.null
+37	0	fb:cell.38p_stephan_oterma	38P/Stephan–Oterma	38p\\/stephan|--|oterma	38p\\/stephan|--|oterma	NN|:|NN	O|O|PERSON	||	38.0			38P|Stephan–Oterma	fb:part.38p|fb:part.stephan_oterma
+37	1	fb:cell.stephan_oterma	Stephan & Oterma	stephan|&|oterma	Stephan|&|Oterma	NNP|CC|NNP	PERSON|O|O	||				Stephan & Oterma	fb:part.stephan_oterma_2
+37	2	fb:cell.37_72	37.72	37.72	37.72	CD	NUMBER	37.72	37.72				
+37	3	fb:cell.null											fb:part.null
+38	0	fb:cell.39p_oterma	39P/Oterma	39p\\/oterma	39p\\/oterma	NN	O		39.0			39P|Oterma	fb:part.39p|fb:part.oterma
+38	1	fb:cell.oterma	Oterma	oterma	oterma	NN	PERSON					Oterma	fb:part.oterma
+38	2	fb:cell.19_53	19.53	19.53	19.53	CD	NUMBER	19.53	19.53				
+38	3	fb:cell.null											fb:part.null
+39	0	fb:cell.40p_vaisala_vaisala_1	40P/Väisälä (Väisälä 1)	40p\\/v|äisälä|-lrb-|väisälä|1|-rrb-	40p\\/v|äisälä|-lrb-|väisälä|1|-rrb-	NN|NN|-LRB-|NN|CD|-RRB-	O|O|O|ORGANIZATION|NUMBER|O	||||1.0|	40.0		1.0	40P|Väisälä (Väisälä 1)	fb:part.40p|fb:part.vaisala_vaisala_1
+39	1	fb:cell.vaisala	Väisälä	väisälä	Väisälä	NNP	O					Väisälä	fb:part.vaisala
+39	2	fb:cell.10_82	10.82	10.82	10.82	CD	NUMBER	10.82	10.82				
+39	3	fb:cell.null											fb:part.null
+40	0	fb:cell.41p_tuttle_giacobini_kresak	41P/Tuttle–Giacobini–Kresák	41p\\/tuttle|--|giacobini|--|kresák	41p\\/tuttle|--|Giacobini|--|Kresák	NN|:|NNP|:|NNP	O|O|PERSON|O|PERSON	||||	41.0			41P|Tuttle–Giacobini–Kresák	fb:part.41p|fb:part.tuttle_giacobini_kresak
+40	1	fb:cell.tuttle_giacobini_kresak	Tuttle & Giacobini & Kresák	tuttle|&|giacobini|&|kresák	Tuttle|&|Giacobini|&|Kresák	NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Tuttle & Giacobini & Kresák	fb:part.tuttle_giacobini_kresak_2
+40	2	fb:cell.5_42	5.42	5.42	5.42	CD	NUMBER	5.42	5.42				
+40	3	fb:cell.null											fb:part.null
+41	0	fb:cell.42p_neujmin_neujmin_3	42P/Neujmin (Neujmin 3)	42p\\/neujmin|-lrb-|neujmin|3|-rrb-	42p\\/neujmin|-lrb-|neujmin|3|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||3.0|	42.0		3.0	42P|Neujmin (Neujmin 3)	fb:part.42p|fb:part.neujmin_neujmin_3
+41	1	fb:cell.neujmin	Neujmin	neujmin	Neujmin	NNP	O					Neujmin	fb:part.neujmin
+41	2	fb:cell.10_70	10.70	10.70	10.70	CD	NUMBER	10.7	10.7				
+41	3	fb:cell.null											fb:part.null
+42	0	fb:cell.43p_wolf_harrington	43P/Wolf–Harrington	43p\\/wolf|--|harrington	43p\\/wolf|--|Harrington	NN|:|NNP	O|O|PERSON	||	43.0			43P|Wolf–Harrington	fb:part.43p|fb:part.wolf_harrington
+42	1	fb:cell.wolf_harrington	Wolf & Harrington	wolf|&|harrington	Wolf|&|Harrington	NNP|CC|NNP	O|O|PERSON	||				Wolf & Harrington	fb:part.wolf_harrington_2
+42	2	fb:cell.6_13	6.13	6.13	6.13	CD	NUMBER	6.13	6.13				
+42	3	fb:cell.null											fb:part.null
+43	0	fb:cell.44p_reinmuth_reinmuth_2	44P/Reinmuth (Reinmuth 2)	44p\\/reinmuth|-lrb-|reinmuth|2|-rrb-	44p\\/reinmuth|-lrb-|reinmuth|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||2.0|	44.0		2.0	44P|Reinmuth (Reinmuth 2)	fb:part.44p|fb:part.reinmuth_reinmuth_2
+43	1	fb:cell.reinmuth	Reinmuth	reinmuth	Reinmuth	NNP	PERSON					Reinmuth	fb:part.reinmuth
+43	2	fb:cell.7_08	7.08	7.08	7.08	CD	NUMBER	7.08	7.08				
+43	3	fb:cell.null											fb:part.null
+44	0	fb:cell.45p_honda_mrkos_pajdusakova	45P/Honda–Mrkos–Pajdušáková	45p\\/honda|--|mrkos|--|pajdušáková	45p\\/honda|--|Mrkos|--|pajdušáková	NN|:|NNP|:|NN	O|O|O|O|O	||||	45.0			45P|Honda–Mrkos–Pajdušáková	fb:part.45p|fb:part.honda_mrkos_pajdusakova
+44	1	fb:cell.honda_mrkos_pajdusakova	Honda & Mrkos & Pajdušáková	honda|&|mrkos|&|pajdušáková	Honda|&|Mrkos|&|Pajdušáková	NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Honda & Mrkos & Pajdušáková	fb:part.honda_mrkos_pajdusakova_2
+44	2	fb:cell.5_26	5.26	5.26	5.26	CD	NUMBER	5.26	5.26				
+44	3	fb:cell.null											fb:part.null
+45	0	fb:cell.46p_wirtanen	46P/Wirtanen	46p\\/wirtanen	46p\\/wirtanen	NN	O		46.0			46P|Wirtanen	fb:part.46p|fb:part.wirtanen
+45	1	fb:cell.wirtanen	Wirtanen	wirtanen	wirtanen	NN	PERSON					Wirtanen	fb:part.wirtanen
+45	2	fb:cell.5_44	5.44	5.44	5.44	CD	NUMBER	5.44	5.44				
+45	3	fb:cell.ice_distant_flyby_2018_proposed_chopper_lander_2022_proposed	ICE (distant flyby 2018 – proposed), CHopper (lander 2022—proposed)	ice|-lrb-|distant|flyby|2018|--|proposed|-rrb-|,|chopper|-lrb-|lander|2022|--|proposed|-rrb-	ice|-lrb-|distant|flyby|2018|--|propose|-rrb-|,|chopper|-lrb-|lander|2022|--|propose|-rrb-	NN|-LRB-|JJ|JJ|CD|:|VBN|-RRB-|,|NN|-LRB-|NN|CD|:|VBN|-RRB-	O|O|O|O|DATE|O|O|O|O|O|O|O|DATE|O|O|O	||||2018||||||||2022|||	2018.0		2022.0	ICE (distant flyby 2018 – proposed)|CHopper (lander 2022—proposed)	fb:part.ice_distant_flyby_2018_proposed|fb:part.chopper_lander_2022_proposed
+46	0	fb:cell.47p_ashbrook_jackson	47P/Ashbrook–Jackson	47p\\/ashbrook|--|jackson	47p\\/ashbrook|--|Jackson	NN|:|NNP	O|O|PERSON	||	47.0			47P|Ashbrook–Jackson	fb:part.47p|fb:part.ashbrook_jackson
+46	1	fb:cell.ashbrook_jackson	Ashbrook & Jackson	ashbrook|&|jackson	Ashbrook|&|Jackson	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Ashbrook & Jackson	fb:part.ashbrook_jackson_2
+46	2	fb:cell.8_35	8.35	8.35	8.35	CD	NUMBER	8.35	8.35				
+46	3	fb:cell.null											fb:part.null
+47	0	fb:cell.48p_johnson	48P/Johnson	48p\\/johnson	48p\\/johnson	NN	O		48.0			48P|Johnson	fb:part.48p|fb:part.johnson
+47	1	fb:cell.johnson	Johnson	johnson	Johnson	NNP	PERSON					Johnson	fb:part.johnson
+47	2	fb:cell.6_95	6.95	6.95	6.95	CD	NUMBER	6.95	6.95				
+47	3	fb:cell.null											fb:part.null
+48	0	fb:cell.49p_arend_rigaux	49P/Arend–Rigaux	49p\\/arend|--|rigaux	49p\\/arend|--|Rigaux	NN|:|NNP	O|O|PERSON	||	49.0			49P|Arend–Rigaux	fb:part.49p|fb:part.arend_rigaux
+48	1	fb:cell.arend_rigaux	Arend & Rigaux	arend|&|rigaux	Arend|&|Rigaux	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Arend & Rigaux	fb:part.arend_rigaux_2
+48	2	fb:cell.6_73	6.73	6.73	6.73	CD	NUMBER	6.73	6.73				
+48	3	fb:cell.null											fb:part.null
+49	0	fb:cell.50p_arend	50P/Arend	50p\\/arend	50p\\/arend	NN	O		50.0			50P|Arend	fb:part.50p|fb:part.arend
+49	1	fb:cell.arend	Arend	arend	Arend	NNP	PERSON					Arend	fb:part.arend
+49	2	fb:cell.8_25	8.25	8.25	8.25	CD	NUMBER	8.25	8.25				
+49	3	fb:cell.null											fb:part.null
+50	0	fb:cell.51p_harrington	51P/Harrington	51p\\/harrington	51p\\/harrington	NN	O		51.0			51P|Harrington	fb:part.51p|fb:part.harrington
+50	1	fb:cell.harrington	Harrington	harrington	Harrington	NNP	PERSON					Harrington	fb:part.harrington
+50	2	fb:cell.7_13	7.13	7.13	7.13	CD	NUMBER	7.13	7.13				
+50	3	fb:cell.null											fb:part.null
+51	0	fb:cell.52p_harrington_abell	52P/Harrington–Abell	52p\\/harrington|--|abell	52p\\/harrington|--|Abell	NN|:|NNP	O|O|PERSON	||	52.0			52P|Harrington–Abell	fb:part.52p|fb:part.harrington_abell
+51	1	fb:cell.harrington_abell	Harrington & Abell	harrington|&|abell	Harrington|&|Abell	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Harrington & Abell	fb:part.harrington_abell_2
+51	2	fb:cell.7_54	7.54	7.54	7.54	CD	NUMBER	7.54	7.54				
+51	3	fb:cell.null											fb:part.null
+52	0	fb:cell.53p_van_biesbroeck	53P/Van Biesbroeck	53p\\/van|biesbroeck	53p\\/van|biesbroeck	NN|NN	O|O	|	53.0			53P|Van Biesbroeck	fb:part.53p|fb:part.van_biesbroeck
+52	1	fb:cell.van_biesbroeck	Van Biesbroeck	van|biesbroeck	Van|Biesbroeck	NNP|NNP	PERSON|PERSON	|				Van Biesbroeck	fb:part.van_biesbroeck
+52	2	fb:cell.12_6	12.6	12.6	12.6	CD	NUMBER	12.6	12.6				
+52	3	fb:cell.null											fb:part.null
+53	0	fb:cell.54p_de_vico_swift_neat	54P/de Vico–Swift–NEAT	54p\\/de|vico|--|swift|--|neat	54P\\/de|Vico|--|Swift|--|neat	NNP|NNP|:|NNP|:|JJ	O|PERSON|O|O|O|O	|||||	54.0			54P|de Vico–Swift–NEAT	fb:part.54p|fb:part.de_vico_swift_neat
+53	1	fb:cell.de_vico_swift_neat	de Vico & Swift & NEAT	de|vico|&|swift|&|neat	de|Vico|&|Swift|&|NEAT	IN|NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				de Vico & Swift & NEAT	fb:part.de_vico_swift_neat_2
+53	2	fb:cell.7_38	7.38	7.38	7.38	CD	NUMBER	7.38	7.38				
+53	3	fb:cell.null											fb:part.null
+54	0	fb:cell.55p_tempel_tuttle	55P/Tempel–Tuttle	55p\\/tempel|--|tuttle	55p\\/tempel|--|Tuttle	NN|:|NNP	O|O|PERSON	||	55.0			55P|Tempel–Tuttle	fb:part.55p|fb:part.tempel_tuttle
+54	1	fb:cell.tempel_tuttle	Tempel & Tuttle	tempel|&|tuttle	Tempel|&|Tuttle	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Tempel & Tuttle	fb:part.tempel_tuttle_2
+54	2	fb:cell.33_24	33.24	33.24	33.24	CD	NUMBER	33.24	33.24				
+54	3	fb:cell.null											fb:part.null
+55	0	fb:cell.56p_slaughter_burnham	56P/Slaughter–Burnham	56p\\/slaughter|--|burnham	56p\\/slaughter|--|Burnham	NN|:|NNP	O|O|PERSON	||	56.0			56P|Slaughter–Burnham	fb:part.56p|fb:part.slaughter_burnham
+55	1	fb:cell.slaughter_burnham	Slaughter & Burnham	slaughter|&|burnham	Slaughter|&|Burnham	NNP|CC|NNP	O|O|LOCATION	||				Slaughter & Burnham	fb:part.slaughter_burnham_2
+55	2	fb:cell.11_54	11.54	11.54	11.54	CD	NUMBER	11.54	11.54				
+55	3	fb:cell.null											fb:part.null
+56	0	fb:cell.57p_du_toit_neujmin_delporte	57P/du Toit–Neujmin–Delporte	57p\\/du|toit|--|neujmin|--|delporte	57p\\/du|toit|--|Neujmin|--|Delporte	NN|NN|:|NNP|:|NNP	O|PERSON|O|O|O|PERSON	|||||	57.0			57P|du Toit–Neujmin–Delporte	fb:part.57p|fb:part.du_toit_neujmin_delporte
+56	1	fb:cell.du_toit_neujmin_delporte	du Toit & Neujmin & Delporte	du|toit|&|neujmin|&|delporte	du|Toit|&|Neujmin|&|Delporte	NNP|NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				du Toit & Neujmin & Delporte	fb:part.du_toit_neujmin_delporte_2
+56	2	fb:cell.6_40	6.40	6.40	6.40	CD	NUMBER	6.4	6.4				
+56	3	fb:cell.null											fb:part.null
+57	0	fb:cell.58p_jackson_neujmin	58P/Jackson–Neujmin	58p\\/jackson|--|neujmin	58p\\/jackson|--|neujmin	NN|:|NN	O|O|PERSON	||	58.0			58P|Jackson–Neujmin	fb:part.58p|fb:part.jackson_neujmin
+57	1	fb:cell.jackson_neujmin	Jackson & Neujmin	jackson|&|neujmin	Jackson|&|Neujmin	NNP|CC|NNP	PERSON|O|O	||				Jackson & Neujmin	fb:part.jackson_neujmin_2
+57	2	fb:cell.8_24	8.24	8.24	8.24	CD	NUMBER	8.24	8.24				
+57	3	fb:cell.null											fb:part.null
+58	0	fb:cell.59p_kearns_kwee	59P/Kearns–Kwee	59p\\/kearns|--|kwee	59p\\/kearns|--|Kwee	NNS|:|NNP	O|O|PERSON	||	59.0			59P|Kearns–Kwee	fb:part.59p|fb:part.kearns_kwee
+58	1	fb:cell.kearns_kwee	Kearns & Kwee	kearns|&|kwee	Kearns|&|Kwee	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Kearns & Kwee	fb:part.kearns_kwee_2
+58	2	fb:cell.9_51	9.51	9.51	9.51	CD	NUMBER	9.51	9.51				
+58	3	fb:cell.null											fb:part.null
+59	0	fb:cell.60p_tsuchinshan_tsuchinshan_2	60P/Tsuchinshan (Tsuchinshan 2)	60p\\/tsuchinshan|-lrb-|tsuchinshan|2|-rrb-	60p\\/tsuchinshan|-lrb-|tsuchinshan|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|O|NUMBER|O	|||2.0|	60.0		2.0	60P|Tsuchinshan (Tsuchinshan 2)	fb:part.60p|fb:part.tsuchinshan_tsuchinshan_2
+59	1	fb:cell.tsuchinshan	Tsuchinshan	tsuchinshan	tsuchinshan	NN	MISC					Tsuchinshan	fb:part.tsuchinshan
+59	2	fb:cell.6_56	6.56	6.56	6.56	CD	NUMBER	6.56	6.56				
+59	3	fb:cell.null											fb:part.null
+60	0	fb:cell.61p_shajn_schaldach	61P/Shajn–Schaldach	61p\\/shajn|--|schaldach	61p\\/shajn|--|schaldach	NN|:|NN	O|O|O	||	61.0			61P|Shajn–Schaldach	fb:part.61p|fb:part.shajn_schaldach
+60	1	fb:cell.shajn_schaldach	Shajn & Schaldach	shajn|&|schaldach	Shajn|&|Schaldach	NNP|CC|NNP	O|O|O	||				Shajn & Schaldach	fb:part.shajn_schaldach_2
+60	2	fb:cell.7_06	7.06	7.06	7.06	CD	NUMBER	7.06	7.06				
+60	3	fb:cell.null											fb:part.null
+61	0	fb:cell.62p_tsuchinshan_tsuchinshan_1	62P/Tsuchinshan (Tsuchinshan 1)	62p\\/tsuchinshan|-lrb-|tsuchinshan|1|-rrb-	62p\\/tsuchinshan|-lrb-|tsuchinshan|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|O|NUMBER|O	|||1.0|	62.0		1.0	62P|Tsuchinshan (Tsuchinshan 1)	fb:part.62p|fb:part.tsuchinshan_tsuchinshan_1
+61	1	fb:cell.tsuchinshan	Tsuchinshan	tsuchinshan	tsuchinshan	NN	MISC					Tsuchinshan	fb:part.tsuchinshan
+61	2	fb:cell.6_63	6.63	6.63	6.63	CD	NUMBER	6.63	6.63				
+61	3	fb:cell.null											fb:part.null
+62	0	fb:cell.63p_wild_wild_1	63P/Wild (Wild 1)	63p\\/wild|-lrb-|wild|1|-rrb-	63p\\/wild|-lrb-|Wild|1|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|O|NUMBER|O	|||1.0|	63.0		1.0	63P|Wild (Wild 1)	fb:part.63p|fb:part.wild_wild_1
+62	1	fb:cell.wild	Wild	wild	Wild	NNP	O					Wild	fb:part.wild
+62	2	fb:cell.13_25	13.25	13.25	13.25	CD	NUMBER	13.25	13.25				
+62	3	fb:cell.null											fb:part.null
+63	0	fb:cell.64p_swift_gehrels	64P/Swift–Gehrels	64p\\/swift|--|gehrels	64p\\/swift|--|gehrel	NN|:|NNS	O|O|PERSON	||	64.0			64P|Swift–Gehrels	fb:part.64p|fb:part.swift_gehrels
+63	1	fb:cell.swift_gehrels	Swift & Gehrels	swift|&|gehrels	Swift|&|Gehrels	NNP|CC|NNP	O|O|O	||				Swift & Gehrels	fb:part.swift_gehrels_2
+63	2	fb:cell.9_35	9.35	9.35	9.35	CD	NUMBER	9.35	9.35				
+63	3	fb:cell.null											fb:part.null
+64	0	fb:cell.65p_gunn	65P/Gunn	65p\\/gunn	65p\\/gunn	NN	O		65.0			65P|Gunn	fb:part.65p|fb:part.gunn
+64	1	fb:cell.gunn	Gunn	gunn	Gunn	NNP	PERSON					Gunn	fb:part.gunn
+64	2	fb:cell.6_88	6.88	6.88	6.88	CD	NUMBER	6.88	6.88				
+64	3	fb:cell.null											fb:part.null
+65	0	fb:cell.66p_du_toit	66P/du Toit	66p\\/du|toit	66P\\/du|Toit	NNP|NNP	O|PERSON	|	66.0			66P|du Toit	fb:part.66p|fb:part.du_toit
+65	1	fb:cell.du_toit	du Toit	du|toit	du|Toit	NNP|NNP	O|O	|				du Toit	fb:part.du_toit
+65	2	fb:cell.14_71	14.71	14.71	14.71	CD	NUMBER	14.71	14.71				
+65	3	fb:cell.null											fb:part.null
+66	0	fb:cell.67p_churyumov_gerasimenko	67P/Churyumov–Gerasimenko	67p\\/churyumov|--|gerasimenko	67P\\/Churyumov|--|Gerasimenko	NNP|:|NNP	O|O|PERSON	||	67.0			67P|Churyumov–Gerasimenko	fb:part.67p|fb:part.churyumov_gerasimenko
+66	1	fb:cell.churyumov_gerasimenko	Churyumov & Gerasimenko	churyumov|&|gerasimenko	Churyumov|&|Gerasimenko	NNP|CC|NNP	O|O|PERSON	||				Churyumov & Gerasimenko	fb:part.churyumov_gerasimenko_2
+66	2	fb:cell.6_45	6.45	6.45	6.45	CD	NUMBER	6.45	6.45				
+66	3	fb:cell.rosetta_orbiter_2014	Rosetta (orbiter 2014)	rosetta|-lrb-|orbiter|2014|-rrb-	Rosetta|-lrb-|orbiter|2014|-rrb-	NNP|-LRB-|VBP|CD|-RRB-	O|O|O|DATE|O	|||2014|	2014.0			Rosetta (orbiter 2014)	fb:part.rosetta_orbiter_2014
+67	0	fb:cell.68p_klemola	68P/Klemola	68p\\/klemola	68p\\/klemola	NN	O		68.0			68P|Klemola	fb:part.68p|fb:part.klemola
+67	1	fb:cell.klemola	Klemola	klemola	klemolum	NN	LOCATION					Klemola	fb:part.klemola
+67	2	fb:cell.10_83	10.83	10.83	10.83	CD	NUMBER	10.83	10.83				
+67	3	fb:cell.null											fb:part.null
+68	0	fb:cell.69p_taylor	69P/Taylor	69p\\/taylor	69p\\/taylor	NN	O		69.0			69P|Taylor	fb:part.69p|fb:part.taylor
+68	1	fb:cell.taylor	Taylor	taylor	Taylor	NNP	PERSON					Taylor	fb:part.taylor
+68	2	fb:cell.7_65	7.65	7.65	7.65	CD	NUMBER	7.65	7.65				
+68	3	fb:cell.null											fb:part.null
+69	0	fb:cell.70p_kojima	70P/Kojima	70p\\/kojima	70p\\/kojima	NN	O		70.0			70P|Kojima	fb:part.70p|fb:part.kojima
+69	1	fb:cell.kojima	Kojima	kojima	Kojima	NNP	PERSON					Kojima	fb:part.kojima
+69	2	fb:cell.7_06	7.06	7.06	7.06	CD	NUMBER	7.06	7.06				
+69	3	fb:cell.null											fb:part.null
+70	0	fb:cell.71p_clark	71P/Clark	71p\\/clark	71p\\/clark	NN	O		71.0			71P|Clark	fb:part.71p|fb:part.clark
+70	1	fb:cell.clark	Clark	clark	Clark	NNP	PERSON					Clark	fb:part.clark
+70	2	fb:cell.5_53	5.53	5.53	5.53	CD	NUMBER	5.53	5.53				
+70	3	fb:cell.null											fb:part.null
+71	0	fb:cell.72d_denning_fujikawa	72D/Denning–Fujikawa	72d\\/denning|--|fujikawa	72d\\/denning|--|fujikawa	VBG|:|NN	O|O|PERSON	||	72.0			72D|Denning–Fujikawa	fb:part.72d|fb:part.denning_fujikawa
+71	1	fb:cell.denning_fujikawa	Denning & Fujikawa	denning|&|fujikawa	Denning|&|Fujikawa	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Denning & Fujikawa	fb:part.denning_fujikawa_2
+71	2	fb:cell.null											fb:part.null
+71	3	fb:cell.null											fb:part.null
+72	0	fb:cell.73p_schwassmann_wachmann_schwassmann_wachmann_3	73P/Schwassmann–Wachmann (Schwassmann–Wachmann 3)	73p\\/schwassmann|--|wachmann|-lrb-|schwassmann|--|wachmann|3|-rrb-	73P\\/Schwassmann|--|Wachmann|-lrb-|Schwassmann|--|Wachmann|3|-rrb-	NNP|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||3.0|	73.0		3.0	73P|Schwassmann–Wachmann (Schwassmann–Wachmann 3)	fb:part.73p|fb:part.schwassmann_wachmann_schwassmann_wachmann_3
+72	1	fb:cell.schwassmann_wachmann	Schwassmann & Wachmann	schwassmann|&|wachmann	Schwassmann|&|Wachmann	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Schwassmann & Wachmann	fb:part.schwassmann_wachmann
+72	2	fb:cell.5_36	5.36	5.36	5.36	CD	NUMBER	5.36	5.36				
+72	3	fb:cell.null											fb:part.null
+73	0	fb:cell.74p_smirnova_chernykh	74P/Smirnova–Chernykh	74p\\/smirnova|--|chernykh	74P\\/Smirnova|--|Chernykh	NNP|:|NNP	O|O|PERSON	||	74.0			74P|Smirnova–Chernykh	fb:part.74p|fb:part.smirnova_chernykh
+73	1	fb:cell.smirnova_chernykh	Smirnova & Chernykh	smirnova|&|chernykh	Smirnova|&|Chernykh	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Smirnova & Chernykh	fb:part.smirnova_chernykh_2
+73	2	fb:cell.8_51	8.51	8.51	8.51	CD	NUMBER	8.51	8.51				
+73	3	fb:cell.null											fb:part.null
+74	0	fb:cell.75d_kohoutek	75D/Kohoutek	75d\\/kohoutek	75d\\/kohoutek	NN	O		75.0			75D|Kohoutek	fb:part.75d|fb:part.kohoutek
+74	1	fb:cell.kohoutek	Kohoutek	kohoutek	Kohoutek	NNP	PERSON					Kohoutek	fb:part.kohoutek
+74	2	fb:cell._7	~7	~|7	~|7	NN|CD	O|NUMBER	|7.0	7.0				
+74	3	fb:cell.null											fb:part.null
+75	0	fb:cell.76p_west_kohoutek_ikemura	76P/West–Kohoutek–Ikemura	76p\\/west|--|kohoutek|--|ikemura	76P\\/West|--|Kohoutek|--|Ikemura	NNP|:|NNP|:|NNP	O|O|O|O|PERSON	||||	76.0			76P|West–Kohoutek–Ikemura	fb:part.76p|fb:part.west_kohoutek_ikemura
+75	1	fb:cell.west_kohoutek_ikemura	West & Kohoutek & Ikemura	west|&|kohoutek|&|ikemura	West|&|Kohoutek|&|Ikemura	NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				West & Kohoutek & Ikemura	fb:part.west_kohoutek_ikemura_2
+75	2	fb:cell.6_48	6.48	6.48	6.48	CD	NUMBER	6.48	6.48				
+75	3	fb:cell.null											fb:part.null
+76	0	fb:cell.77p_longmore	77P/Longmore	77p\\/longmore	77p\\/longmore	NN	O		77.0			77P|Longmore	fb:part.77p|fb:part.longmore
+76	1	fb:cell.longmore	Longmore	longmore	longmore	NN	PERSON					Longmore	fb:part.longmore
+76	2	fb:cell.6_88	6.88	6.88	6.88	CD	NUMBER	6.88	6.88				
+76	3	fb:cell.null											fb:part.null
+77	0	fb:cell.78p_gehrels_gehrels_2	78P/Gehrels (Gehrels 2)	78p\\/gehrels|-lrb-|gehrels|2|-rrb-	78p\\/gehrels|-lrb-|gehrel|2|-rrb-	NNS|-LRB-|NNS|LS|-RRB-	O|O|PERSON|NUMBER|O	|||2.0|	78.0		2.0	78P|Gehrels (Gehrels 2)	fb:part.78p|fb:part.gehrels_gehrels_2
+77	1	fb:cell.gehrels	Gehrels	gehrels	gehrel	NNS	PERSON					Gehrels	fb:part.gehrels
+77	2	fb:cell.7_22	7.22	7.22	7.22	CD	NUMBER	7.22	7.22				
+77	3	fb:cell.null											fb:part.null
+78	0	fb:cell.79p_du_toit_hartley	79P/du Toit–Hartley	79p\\/du|toit|--|hartley	79P\\/du|Toit|--|Hartley	NNP|NNP|:|NNP	O|PERSON|O|PERSON	|||	79.0			79P|du Toit–Hartley	fb:part.79p|fb:part.du_toit_hartley
+78	1	fb:cell.du_toit_hartley	du Toit & Hartley	du|toit|&|hartley	du|Toit|&|Hartley	NNP|NNP|CC|NNP	O|O|O|PERSON	|||				du Toit & Hartley	fb:part.du_toit_hartley_2
+78	2	fb:cell.5_28	5.28	5.28	5.28	CD	NUMBER	5.28	5.28				
+78	3	fb:cell.null											fb:part.null
+79	0	fb:cell.80p_peters_hartley	80P/Peters–Hartley	80p\\/peters|--|hartley	80p\\/peters|--|Hartley	NNS|:|NNP	O|O|PERSON	||	80.0			80P|Peters–Hartley	fb:part.80p|fb:part.peters_hartley
+79	1	fb:cell.peters_hartley	Peters & Hartley	peters|&|hartley	Peters|&|Hartley	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Peters & Hartley	fb:part.peters_hartley_2
+79	2	fb:cell.8_12	8.12	8.12	8.12	CD	NUMBER	8.12	8.12				
+79	3	fb:cell.null											fb:part.null
+80	0	fb:cell.81p_wild_wild_2	81P/Wild (Wild 2)	81p\\/wild|-lrb-|wild|2|-rrb-	81p\\/wild|-lrb-|Wild|2|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|O|NUMBER|O	|||2.0|	81.0		2.0	81P|Wild (Wild 2)	fb:part.81p|fb:part.wild_wild_2
+80	1	fb:cell.wild	Wild	wild	Wild	NNP	O					Wild	fb:part.wild
+80	2	fb:cell.6_41	6.41	6.41	6.41	CD	NUMBER	6.41	6.41				
+80	3	fb:cell.stardust_flyby_sample_return_2004	Stardust (flyby/sample return 2004)	stardust|-lrb-|flyby\\/sample|return|2004|-rrb-	Stardust|-lrb-|flyby\\/sample|return|2004|-rrb-	NNP|-LRB-|JJ|NN|CD|-RRB-	O|O|O|O|DATE|O	||||2004|	2004.0			Stardust (flyby|sample return 2004)	fb:part.stardust_flyby|fb:part.sample_return_2004
+81	0	fb:cell.82p_gehrels_gehrels_3	82P/Gehrels (Gehrels 3)	82p\\/gehrels|-lrb-|gehrels|3|-rrb-	82p\\/gehrels|-lrb-|gehrel|3|-rrb-	NNS|-LRB-|NNS|LS|-RRB-	O|O|PERSON|NUMBER|O	|||3.0|	82.0		3.0	82P|Gehrels (Gehrels 3)	fb:part.82p|fb:part.gehrels_gehrels_3
+81	1	fb:cell.gehrels	Gehrels	gehrels	gehrel	NNS	PERSON					Gehrels	fb:part.gehrels
+81	2	fb:cell.8_43	8.43	8.43	8.43	CD	NUMBER	8.43	8.43				
+81	3	fb:cell.null											fb:part.null
+82	0	fb:cell.83d_russell_russell_1	83D/Russell (Russell 1)	83d\\/russell|-lrb-|russell|1|-rrb-	83d\\/russell|-lrb-|Russell|1|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||1.0|	83.0		1.0	83D|Russell (Russell 1)	fb:part.83d|fb:part.russell_russell_1
+82	1	fb:cell.russell	Russell	russell	Russell	NNP	PERSON					Russell	fb:part.russell
+82	2	fb:cell.null											fb:part.null
+82	3	fb:cell.null											fb:part.null
+83	0	fb:cell.84p_giclas	84P/Giclas	84p\\/giclas	84p\\/giclas	NNS	O		84.0			84P|Giclas	fb:part.84p|fb:part.giclas
+83	1	fb:cell.giclas	Giclas	giclas	Giclas	NNP	PERSON					Giclas	fb:part.giclas
+83	2	fb:cell.6_97	6.97	6.97	6.97	CD	NUMBER	6.97	6.97				
+83	3	fb:cell.null											fb:part.null
+84	0	fb:cell.85p_boethin	85P/Boethin	85p\\/boethin	85p\\/boethin	NN	O		85.0			85P|Boethin	fb:part.85p|fb:part.boethin
+84	1	fb:cell.boethin	Boethin	boethin	boethin	NN	PERSON					Boethin	fb:part.boethin
+84	2	fb:cell.11_81	11.81	11.81	11.81	CD	NUMBER	11.81	11.81				
+84	3	fb:cell.null											fb:part.null
+85	0	fb:cell.86p_wild_wild_3	86P/Wild (Wild 3)	86p\\/wild|-lrb-|wild|3|-rrb-	86p\\/wild|-lrb-|Wild|3|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|O|NUMBER|O	|||3.0|	86.0		3.0	86P|Wild (Wild 3)	fb:part.86p|fb:part.wild_wild_3
+85	1	fb:cell.wild	Wild	wild	Wild	NNP	O					Wild	fb:part.wild
+85	2	fb:cell.6_91	6.91	6.91	6.91	CD	NUMBER	6.91	6.91				
+85	3	fb:cell.null											fb:part.null
+86	0	fb:cell.87p_bus	87P/Bus	87p\\/bus	87p\\/bus	NN	O		87.0			87P|Bus	fb:part.87p|fb:part.bus
+86	1	fb:cell.bus	Bus	bus	bus	NN	O					Bus	fb:part.bus
+86	2	fb:cell.6_51	6.51	6.51	6.51	CD	NUMBER	6.51	6.51				
+86	3	fb:cell.null											fb:part.null
+87	0	fb:cell.88p_howell	88P/Howell	88p\\/howell	88p\\/howell	NN	O		88.0			88P|Howell	fb:part.88p|fb:part.howell
+87	1	fb:cell.howell	Howell	howell	Howell	NNP	PERSON					Howell	fb:part.howell
+87	2	fb:cell.5_49	5.49	5.49	5.49	CD	NUMBER	5.49	5.49				
+87	3	fb:cell.null											fb:part.null
+88	0	fb:cell.89p_russell_russell_2	89P/Russell (Russell 2)	89p\\/russell|-lrb-|russell|2|-rrb-	89p\\/russell|-lrb-|Russell|2|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||2.0|	89.0		2.0	89P|Russell (Russell 2)	fb:part.89p|fb:part.russell_russell_2
+88	1	fb:cell.russell	Russell	russell	Russell	NNP	PERSON					Russell	fb:part.russell
+88	2	fb:cell.7_26	7.26	7.26	7.26	CD	NUMBER	7.26	7.26				
+88	3	fb:cell.null											fb:part.null
+89	0	fb:cell.90p_gehrels_gehrels_1	90P/Gehrels (Gehrels 1)	90p\\/gehrels|-lrb-|gehrels|1|-rrb-	90p\\/gehrels|-lrb-|gehrel|1|-rrb-	NNS|-LRB-|NNS|LS|-RRB-	O|O|PERSON|NUMBER|O	|||1.0|	90.0		1.0	90P|Gehrels (Gehrels 1)	fb:part.90p|fb:part.gehrels_gehrels_1
+89	1	fb:cell.gehrels	Gehrels	gehrels	gehrel	NNS	PERSON					Gehrels	fb:part.gehrels
+89	2	fb:cell.14_85	14.85	14.85	14.85	NN	NUMBER	14.85	14.85				
+89	3	fb:cell.null											fb:part.null
+90	0	fb:cell.91p_russell_russell_3	91P/Russell (Russell 3)	91p\\/russell|-lrb-|russell|3|-rrb-	91p\\/russell|-lrb-|Russell|3|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||3.0|	91.0		3.0	91P|Russell (Russell 3)	fb:part.91p|fb:part.russell_russell_3
+90	1	fb:cell.russell	Russell	russell	Russell	NNP	PERSON					Russell	fb:part.russell
+90	2	fb:cell.7_67	7.67	7.67	7.67	CD	NUMBER	7.67	7.67				
+90	3	fb:cell.null											fb:part.null
+91	0	fb:cell.92p_sanguin	92P/Sanguin	92p\\/sanguin	92p\\/sanguin	NN	O		92.0			92P|Sanguin	fb:part.92p|fb:part.sanguin
+91	1	fb:cell.sanguin	Sanguin	sanguin	Sanguin	NNP	PERSON					Sanguin	fb:part.sanguin
+91	2	fb:cell.12_43	12.43	12.43	12.43	CD	NUMBER	12.43	12.43				
+91	3	fb:cell.null											fb:part.null
+92	0	fb:cell.93p_lovas_lovas_1	93P/Lovas (Lovas 1)	93p\\/lovas|-lrb-|lovas|1|-rrb-	93p\\/lovas|-lrb-|lova|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|PERSON|NUMBER|O	|||1.0|	93.0		1.0	93P|Lovas (Lovas 1)	fb:part.93p|fb:part.lovas_lovas_1
+92	1	fb:cell.lovas	Lovas	lovas	Lovas	NNP	PERSON					Lovas	fb:part.lovas
+92	2	fb:cell.9_20	9.20	9.20	9.20	CD	NUMBER	9.2	9.2				
+92	3	fb:cell.null											fb:part.null
+93	0	fb:cell.94p_russell_russell_4	94P/Russell (Russell 4)	94p\\/russell|-lrb-|russell|4|-rrb-	94p\\/russell|-lrb-|Russell|4|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||4.0|	94.0		4.0	94P|Russell (Russell 4)	fb:part.94p|fb:part.russell_russell_4
+93	1	fb:cell.russell	Russell	russell	Russell	NNP	PERSON					Russell	fb:part.russell
+93	2	fb:cell.6_58	6.58	6.58	6.58	CD	NUMBER	6.58	6.58				
+93	3	fb:cell.null											fb:part.null
+94	0	fb:cell.95p_chiron_minor_planet_2060_chiron	95P/Chiron = minor planet 2060 Chiron	95p\\/chiron|=|minor|planet|2060|chiron	95p\\/chiron|=|minor|planet|2060|Chiron	NN|JJ|JJ|NN|CD|NNP	O|O|O|O|DATE|O	||||2060|	95.0		2060.0	95P|Chiron = minor planet 2060 Chiron	fb:part.95p|fb:part.chiron_minor_planet_2060_chiron
+94	1	fb:cell.kowal	Kowal	kowal	Kowal	NNP	PERSON					Kowal	fb:part.kowal
+94	2	fb:cell.50_50	50.50	50.50	50.50	CD	NUMBER	50.5	50.5				
+94	3	fb:cell.null											fb:part.null
+95	0	fb:cell.96p_machholz_machholz_1	96P/Machholz (Machholz 1)	96p\\/machholz|-lrb-|machholz|1|-rrb-	96p\\/machholz|-lrb-|machholz|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||1.0|	96.0		1.0	96P|Machholz (Machholz 1)	fb:part.96p|fb:part.machholz_machholz_1
+95	1	fb:cell.machholz	Machholz	machholz	Machholz	NNP	PERSON					Machholz	fb:part.machholz
+95	2	fb:cell.5_28	5.28	5.28	5.28	CD	NUMBER	5.28	5.28				
+95	3	fb:cell.null											fb:part.null
+96	0	fb:cell.97p_metcalf_brewington	97P/Metcalf–Brewington	97p\\/metcalf|--|brewington	97p\\/metcalf|--|Brewington	NN|:|NNP	O|O|PERSON	||	97.0			97P|Metcalf–Brewington	fb:part.97p|fb:part.metcalf_brewington
+96	1	fb:cell.metcalf_brewington	Metcalf & Brewington	metcalf|&|brewington	Metcalf|&|Brewington	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Metcalf & Brewington	fb:part.metcalf_brewington_2
+96	2	fb:cell.10_51	10.51	10.51	10.51	CD	NUMBER	10.51	10.51				
+96	3	fb:cell.null											fb:part.null
+97	0	fb:cell.98p_takamizawa	98P/Takamizawa	98p\\/takamizawa	98p\\/takamizawa	NNS	O		98.0			98P|Takamizawa	fb:part.98p|fb:part.takamizawa
+97	1	fb:cell.takamizawa	Takamizawa	takamizawa	Takamizawa	NNP	PERSON					Takamizawa	fb:part.takamizawa
+97	2	fb:cell.7_40	7.40	7.40	7.40	CD	NUMBER	7.4	7.4				
+97	3	fb:cell.null											fb:part.null
+98	0	fb:cell.99p_kowal_kowal_1	99P/Kowal (Kowal 1)	99p\\/kowal|-lrb-|kowal|1|-rrb-	99p\\/kowal|-lrb-|kowal|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|PERSON|NUMBER|O	|||1.0|	99.0		1.0	99P|Kowal (Kowal 1)	fb:part.99p|fb:part.kowal_kowal_1
+98	1	fb:cell.kowal	Kowal	kowal	Kowal	NNP	PERSON					Kowal	fb:part.kowal
+98	2	fb:cell.15_25	15.25	15.25	15.25	CD	NUMBER	15.25	15.25				
+98	3	fb:cell.null											fb:part.null
+99	0	fb:cell.100p_hartley_hartley_1	100P/Hartley (Hartley 1)	100p\\/hartley|-lrb-|hartley|1|-rrb-	100p\\/hartley|-lrb-|Hartley|1|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|PERSON|NUMBER|O	|||1.0|	100.0		1.0	100P|Hartley (Hartley 1)	fb:part.100p|fb:part.hartley_hartley_1
+99	1	fb:cell.hartley	Hartley	hartley	Hartley	NNP	PERSON					Hartley	fb:part.hartley
+99	2	fb:cell.6_35	6.35	6.35	6.35	CD	NUMBER	6.35	6.35				
+99	3	fb:cell.null											fb:part.null
+100	0	fb:cell.101p_chernykh	101P/Chernykh	101p\\/chernykh	101p\\/chernykh	NN	O		101.0			101P|Chernykh	fb:part.101p|fb:part.chernykh
+100	1	fb:cell.chernykh	Chernykh	chernykh	Chernykh	NNP	PERSON					Chernykh	fb:part.chernykh
+100	2	fb:cell.13_94	13.94	13.94	13.94	CD	NUMBER	13.94	13.94				
+100	3	fb:cell.null											fb:part.null
+101	0	fb:cell.102p_shoemaker_shoemaker_1	102P/Shoemaker (Shoemaker 1)	102p\\/shoemaker|-lrb-|shoemaker|1|-rrb-	102p\\/shoemaker|-lrb-|shoemaker|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||1.0|	102.0		1.0	102P|Shoemaker (Shoemaker 1)	fb:part.102p|fb:part.shoemaker_shoemaker_1
+101	1	fb:cell.c_shoemaker_e_shoemaker	C. Shoemaker & E. Shoemaker	c.|shoemaker|&|e.|shoemaker	C.|Shoemaker|&|E.|Shoemaker	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				C. Shoemaker & E. Shoemaker	fb:part.c_shoemaker_e_shoemaker
+101	2	fb:cell.7_22	7.22	7.22	7.22	CD	NUMBER	7.22	7.22				
+101	3	fb:cell.null											fb:part.null
+102	0	fb:cell.103p_hartley_hartley_2	103P/Hartley (Hartley 2)	103p\\/hartley|-lrb-|hartley|2|-rrb-	103p\\/hartley|-lrb-|Hartley|2|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|PERSON|NUMBER|O	|||2.0|	103.0		2.0	103P|Hartley (Hartley 2)	fb:part.103p|fb:part.hartley_hartley_2
+102	1	fb:cell.hartley	Hartley	hartley	Hartley	NNP	PERSON					Hartley	fb:part.hartley
+102	2	fb:cell.6_47	6.47	6.47	6.47	CD	NUMBER	6.47	6.47				
+102	3	fb:cell.deep_impact_flyby_2010	Deep Impact (flyby 2010)	deep|impact|-lrb-|flyby|2010|-rrb-	deep|impact|-lrb-|flyby|2010|-rrb-	JJ|NN|-LRB-|JJ|CD|-RRB-	O|O|O|O|DATE|O	||||2010|	2010.0			Deep Impact (flyby 2010)	fb:part.deep_impact_flyby_2010
+103	0	fb:cell.104p_kowal_kowal_2	104P/Kowal (Kowal 2)	104p\\/kowal|-lrb-|kowal|2|-rrb-	104p\\/kowal|-lrb-|kowal|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|PERSON|NUMBER|O	|||2.0|	104.0		2.0	104P|Kowal (Kowal 2)	fb:part.104p|fb:part.kowal_kowal_2
+103	1	fb:cell.kowal	Kowal	kowal	Kowal	NNP	PERSON					Kowal	fb:part.kowal
+103	2	fb:cell.5_89	5.89	5.89	5.89	CD	NUMBER	5.89	5.89				
+103	3	fb:cell.null											fb:part.null
+104	0	fb:cell.105p_singer_brewster	105P/Singer Brewster	105p\\/singer|brewster	105P\\/Singer|Brewster	NNP|NNP	O|PERSON	|	105.0			105P|Singer Brewster	fb:part.105p|fb:part.singer_brewster
+104	1	fb:cell.singer_brewster	Singer-Brewster	singer|brewster	Singer|Brewster	NNP|NNP	O|PERSON	|				Singer-Brewster	fb:part.singer_brewster_2
+104	2	fb:cell.6_47	6.47	6.47	6.47	CD	NUMBER	6.47	6.47				
+104	3	fb:cell.null											fb:part.null
+105	0	fb:cell.106p_schuster	106P/Schuster	106p\\/schuster	106p\\/schuster	NN	O		106.0			106P|Schuster	fb:part.106p|fb:part.schuster
+105	1	fb:cell.schuster	Schuster	schuster	Schuster	NNP	O					Schuster	fb:part.schuster
+105	2	fb:cell.7_31	7.31	7.31	7.31	CD	NUMBER	7.31	7.31				
+105	3	fb:cell.null											fb:part.null
+106	0	fb:cell.107p_wilson_harrington_minor_planet_4015_wilson_harrington	107P/Wilson–Harrington = minor planet 4015 Wilson–Harrington	107p\\/wilson|--|harrington|=|minor|planet|4015|wilson|--|harrington	107p\\/wilson|--|Harrington|=|minor|planet|4015|Wilson|--|Harrington	NN|:|NNP|JJ|JJ|NN|CD|NNP|:|NNP	O|O|PERSON|O|O|O|NUMBER|PERSON|O|PERSON	||||||4015.0|||	107.0		4015.0	107P|Wilson–Harrington = minor planet 4015 Wilson–Harrington	fb:part.107p|fb:part.wilson_harrington_minor_planet_4015_wilson_harrington
+106	1	fb:cell.helin_wilson_harrington	Helin & Wilson & Harrington	helin|&|wilson|&|harrington	Helin|&|Wilson|&|Harrington	NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Helin & Wilson & Harrington	fb:part.helin_wilson_harrington
+106	2	fb:cell.4_29	4.29	4.29	4.29	CD	NUMBER	4.29	4.29				
+106	3	fb:cell.null											fb:part.null
+107	0	fb:cell.108p_ciffreo	108P/Ciffréo	108p\\/ciffr|éo	108p\\/ciffr|éo	NN|NN	O|O	|	108.0			108P|Ciffréo	fb:part.108p|fb:part.ciffreo
+107	1	fb:cell.ciffreo	Ciffréo	ciffréo	Ciffréo	NNP	O					Ciffréo	fb:part.ciffreo
+107	2	fb:cell.7_26	7.26	7.26	7.26	CD	NUMBER	7.26	7.26				
+107	3	fb:cell.null											fb:part.null
+108	0	fb:cell.109p_swift_tuttle	109P/Swift–Tuttle	109p\\/swift|--|tuttle	109p\\/swift|--|Tuttle	NN|:|NNP	O|O|PERSON	||	109.0			109P|Swift–Tuttle	fb:part.109p|fb:part.swift_tuttle
+108	1	fb:cell.swift_tuttle	Swift & Tuttle	swift|&|tuttle	Swift|&|Tuttle	NNP|CC|NNP	O|O|O	||				Swift & Tuttle	fb:part.swift_tuttle_2
+108	2	fb:cell.133_28	133.28	133.28	133.28	CD	NUMBER	133.28	133.28				
+108	3	fb:cell.null											fb:part.null
+109	0	fb:cell.110p_hartley_hartley_3	110P/Hartley (Hartley 3)	110p\\/hartley|-lrb-|hartley|3|-rrb-	110p\\/hartley|-lrb-|Hartley|3|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|PERSON|NUMBER|O	|||3.0|	110.0		3.0	110P|Hartley (Hartley 3)	fb:part.110p|fb:part.hartley_hartley_3
+109	1	fb:cell.hartley	Hartley	hartley	Hartley	NNP	PERSON					Hartley	fb:part.hartley
+109	2	fb:cell.6_88	6.88	6.88	6.88	CD	NUMBER	6.88	6.88				
+109	3	fb:cell.null											fb:part.null
+110	0	fb:cell.111p_helin_roman_crockett	111P/Helin–Roman–Crockett	111p\\/helin|--|roman|--|crockett	111p\\/helin|--|Roman|--|Crockett	NN|:|NNP|:|NNP	O|O|MISC|O|PERSON	||||	111.0			111P|Helin–Roman–Crockett	fb:part.111p|fb:part.helin_roman_crockett
+110	1	fb:cell.helin_roman_crockett	Helin & Roman & Crockett	helin|&|roman|&|crockett	Helin|&|Roman|&|Crockett	NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Helin & Roman & Crockett	fb:part.helin_roman_crockett_2
+110	2	fb:cell.8_14	8.14	8.14	8.14	CD	NUMBER	8.14	8.14				
+110	3	fb:cell.null											fb:part.null
+111	0	fb:cell.112p_urata_niijima	112P/Urata–Niijima	112p\\/urata|--|niijima	112p\\/urata|--|Niijima	NN|:|NNP	O|O|LOCATION	||	112.0			112P|Urata–Niijima	fb:part.112p|fb:part.urata_niijima
+111	1	fb:cell.urata_niijima	Urata & Niijima	urata|&|niijima	Urata|&|Niijima	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Urata & Niijima	fb:part.urata_niijima_2
+111	2	fb:cell.6_67	6.67	6.67	6.67	CD	NUMBER	6.67	6.67				
+111	3	fb:cell.null											fb:part.null
+112	0	fb:cell.113p_spitaler	113P/Spitaler	113p\\/spitaler	113p\\/spitaler	NN	O		113.0			113P|Spitaler	fb:part.113p|fb:part.spitaler
+112	1	fb:cell.spitaler	Spitaler	spitaler	spitaler	NN	O					Spitaler	fb:part.spitaler
+112	2	fb:cell.7_09	7.09	7.09	7.09	CD	NUMBER	7.09	7.09				
+112	3	fb:cell.null											fb:part.null
+113	0	fb:cell.114p_wiseman_skiff	114P/Wiseman–Skiff	114p\\/wiseman|--|skiff	114p\\/wiseman|--|skiff	NN|:|NN	O|O|O	||	114.0			114P|Wiseman–Skiff	fb:part.114p|fb:part.wiseman_skiff
+113	1	fb:cell.wiseman_skiff	Wiseman & Skiff	wiseman|&|skiff	Wiseman|&|Skiff	NNP|CC|NNP	PERSON|O|O	||				Wiseman & Skiff	fb:part.wiseman_skiff_2
+113	2	fb:cell.6_67	6.67	6.67	6.67	CD	NUMBER	6.67	6.67				
+113	3	fb:cell.null											fb:part.null
+114	0	fb:cell.115p_maury	115P/Maury	115p\\/maury	115p\\/maury	NN	O		115.0			115P|Maury	fb:part.115p|fb:part.maury
+114	1	fb:cell.maury	Maury	maury	Maury	NNP	PERSON					Maury	fb:part.maury
+114	2	fb:cell.8_76	8.76	8.76	8.76	CD	NUMBER	8.76	8.76				
+114	3	fb:cell.null											fb:part.null
+115	0	fb:cell.116p_wild_wild_4	116P/Wild (Wild 4)	116p\\/wild|-lrb-|wild|4|-rrb-	116p\\/wild|-lrb-|Wild|4|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|O|NUMBER|O	|||4.0|	116.0		4.0	116P|Wild (Wild 4)	fb:part.116p|fb:part.wild_wild_4
+115	1	fb:cell.wild	Wild	wild	Wild	NNP	O					Wild	fb:part.wild
+115	2	fb:cell.6_51	6.51	6.51	6.51	CD	NUMBER	6.51	6.51				
+115	3	fb:cell.null											fb:part.null
+116	0	fb:cell.117p_helin_roman_alu_helin_roman_alu_1	117P/Helin–Roman–Alu (Helin–Roman–Alu 1)	117p\\/helin|--|roman|--|alu|-lrb-|helin|--|roman|--|alu|1|-rrb-	117p\\/helin|--|Roman|--|alu|-lrb-|Helin|--|Roman|--|alu|1|-rrb-	NN|:|NNP|:|NN|-LRB-|NNP|:|NNP|:|NN|CD|-RRB-	O|O|MISC|O|PERSON|O|PERSON|O|MISC|O|PERSON|NUMBER|O	|||||||||||1.0|	117.0		1.0	117P|Helin–Roman–Alu (Helin–Roman–Alu 1)	fb:part.117p|fb:part.helin_roman_alu_helin_roman_alu_1
+116	1	fb:cell.helin_roman_alu	Helin & Roman & Alu	helin|&|roman|&|alu	Helin|&|Roman|&|alu	NNP|CC|NNP|CC|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Helin & Roman & Alu	fb:part.helin_roman_alu
+116	2	fb:cell.8_24	8.24	8.24	8.24	CD	NUMBER	8.24	8.24				
+116	3	fb:cell.null											fb:part.null
+117	0	fb:cell.118p_shoemaker_levy_shoemaker_levy_4	118P/Shoemaker–Levy (Shoemaker–Levy 4)	118p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|4|-rrb-	118p\\/shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|4|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||4.0|	118.0		4.0	118P|Shoemaker–Levy (Shoemaker–Levy 4)	fb:part.118p|fb:part.shoemaker_levy_shoemaker_levy_4
+117	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+117	2	fb:cell.6_44	6.44	6.44	6.44	CD	NUMBER	6.44	6.44				
+117	3	fb:cell.null											fb:part.null
+118	0	fb:cell.119p_parker_hartley	119P/Parker–Hartley	119p\\/parker|--|hartley	119p\\/parker|--|Hartley	NN|:|NNP	O|O|PERSON	||	119.0			119P|Parker–Hartley	fb:part.119p|fb:part.parker_hartley
+118	1	fb:cell.parker_hartley	Parker & Hartley	parker|&|hartley	Parker|&|Hartley	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Parker & Hartley	fb:part.parker_hartley_2
+118	2	fb:cell.8_89	8.89	8.89	8.89	CD	NUMBER	8.89	8.89				
+118	3	fb:cell.null											fb:part.null
+119	0	fb:cell.120p_mueller_mueller_1	120P/Mueller (Mueller 1)	120p\\/mueller|-lrb-|mueller|1|-rrb-	120p\\/mueller|-lrb-|mueller|1|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|PERSON|NUMBER|O	|||1.0|	120.0		1.0	120P|Mueller (Mueller 1)	fb:part.120p|fb:part.mueller_mueller_1
+119	1	fb:cell.mueller	Mueller	mueller	Mueller	NNP	PERSON					Mueller	fb:part.mueller
+119	2	fb:cell.8_43	8.43	8.43	8.43	CD	NUMBER	8.43	8.43				
+119	3	fb:cell.null											fb:part.null
+120	0	fb:cell.121p_shoemaker_holt_shoemaker_holt_2	121P/Shoemaker–Holt (Shoemaker–Holt 2)	121p\\/shoemaker|--|holt|-lrb-|shoemaker|--|holt|2|-rrb-	121p\\/shoemaker|--|Holt|-lrb-|Shoemaker|--|Holt|2|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|PERSON|NUMBER|O	|||||||2.0|	121.0		2.0	121P|Shoemaker–Holt (Shoemaker–Holt 2)	fb:part.121p|fb:part.shoemaker_holt_shoemaker_holt_2
+120	1	fb:cell.c_shoemaker_e_shoemaker_holt	C.Shoemaker, E.Shoemaker & Holt	c.shoemaker|,|e.shoemaker|&|holt	C.Shoemaker|,|E.Shoemaker|&|Holt	NNP|,|NNP|CC|NNP	O|O|O|O|O	||||				C.Shoemaker|E.Shoemaker & Holt	fb:part.c_shoemaker_2|fb:part.e_shoemaker_holt
+120	2	fb:cell.8_02	8.02	8.02	8.02	CD	NUMBER	8.02	8.02				
+120	3	fb:cell.null											fb:part.null
+121	0	fb:cell.122p_de_vico	122P/de Vico	122p\\/de|vico	122P\\/de|Vico	NNP|NNP	O|PERSON	|	122.0			122P|de Vico	fb:part.122p|fb:part.de_vico
+121	1	fb:cell.de_vico	de Vico	de|vico	de|Vico	IN|NNP	O|PERSON	|				de Vico	fb:part.de_vico
+121	2	fb:cell.74_35	74.35	74.35	74.35	CD	NUMBER	74.35	74.35				
+121	3	fb:cell.null											fb:part.null
+122	0	fb:cell.123p_west_hartley	123P/West–Hartley	123p\\/west|--|hartley	123p\\/west|--|Hartley	NN|:|NNP	O|O|PERSON	||	123.0			123P|West–Hartley	fb:part.123p|fb:part.west_hartley
+122	1	fb:cell.west_hartley	West & Hartley	west|&|hartley	West|&|Hartley	NNP|CC|NNP	O|O|PERSON	||				West & Hartley	fb:part.west_hartley_2
+122	2	fb:cell.7_59	7.59	7.59	7.59	CD	NUMBER	7.59	7.59				
+122	3	fb:cell.null											fb:part.null
+123	0	fb:cell.124p_mrkos	124P/Mrkos	124p\\/mrkos	124p\\/mrkos	NNS	O		124.0			124P|Mrkos	fb:part.124p|fb:part.mrkos
+123	1	fb:cell.mrkos	Mrkos	mrkos	mrko	NNS	O					Mrkos	fb:part.mrkos
+123	2	fb:cell.5_75	5.75	5.75	5.75	CD	NUMBER	5.75	5.75				
+123	3	fb:cell.null											fb:part.null
+124	0	fb:cell.125p_spacewatch	125P/Spacewatch	125p\\/spacewatch	125p\\/spacewatch	NN	O		125.0			125P|Spacewatch	fb:part.125p|fb:part.spacewatch
+124	1	fb:cell.spacewatch	Spacewatch	spacewatch	Spacewatch	NNP	O					Spacewatch	fb:part.spacewatch
+124	2	fb:cell.5_53	5.53	5.53	5.53	CD	NUMBER	5.53	5.53				
+124	3	fb:cell.null											fb:part.null
+125	0	fb:cell.126p_iras	126P/IRAS	126p\\/iras	126p\\/iras	NN	O		126.0			126P|IRAS	fb:part.126p|fb:part.iras
+125	1	fb:cell.iras	IRAS	iras	ira	NNS	O					IRAS	fb:part.iras
+125	2	fb:cell.13_41	13.41	13.41	13.41	CD	NUMBER	13.41	13.41				
+125	3	fb:cell.null											fb:part.null
+126	0	fb:cell.127p_holt_olmstead	127P/Holt–Olmstead	127p\\/holt|--|olmstead	127p\\/holt|--|Olmstead	NN|:|NNP	O|O|PERSON	||	127.0			127P|Holt–Olmstead	fb:part.127p|fb:part.holt_olmstead
+126	1	fb:cell.holt_olmstead	Holt & Olmstead	holt|&|olmstead	Holt|&|Olmstead	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Holt & Olmstead	fb:part.holt_olmstead_2
+126	2	fb:cell.6_41	6.41	6.41	6.41	CD	NUMBER	6.41	6.41				
+126	3	fb:cell.null											fb:part.null
+127	0	fb:cell.128p_shoemaker_holt_shoemaker_holt_1	128P/Shoemaker–Holt (Shoemaker–Holt 1)	128p\\/shoemaker|--|holt|-lrb-|shoemaker|--|holt|1|-rrb-	128p\\/shoemaker|--|Holt|-lrb-|Shoemaker|--|Holt|1|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|PERSON|NUMBER|O	|||||||1.0|	128.0		1.0	128P|Shoemaker–Holt (Shoemaker–Holt 1)	fb:part.128p|fb:part.shoemaker_holt_shoemaker_holt_1
+127	1	fb:cell.c_shoemaker_e_shoemaker_holt_2	C. Shoemaker, E. Shoemaker & Holt	c.|shoemaker|,|e.|shoemaker|&|holt	C.|Shoemaker|,|E.|Shoemaker|&|Holt	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Holt	fb:part.c_shoemaker|fb:part.e_shoemaker_holt_2
+127	2	fb:cell.9_59	9.59	9.59	9.59	CD	NUMBER	9.59	9.59				
+127	3	fb:cell.null											fb:part.null
+128	0	fb:cell.129p_shoemaker_levy_shoemaker_levy_3	129P/Shoemaker–Levy (Shoemaker–Levy 3)	129p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|3|-rrb-	129p\\/shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|3|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|ORGANIZATION|NUMBER|O	|||||||3.0|	129.0		3.0	129P|Shoemaker–Levy (Shoemaker–Levy 3)	fb:part.129p|fb:part.shoemaker_levy_shoemaker_levy_3
+128	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+128	2	fb:cell.8_89	8.89	8.89	8.89	CD	NUMBER	8.89	8.89				
+128	3	fb:cell.null											fb:part.null
+129	0	fb:cell.130p_mcnaught_hughes	130P/McNaught–Hughes	130p\\/mcnaught|--|hughes	130p\\/mcnaught|--|Hughes	NN|:|NNP	O|O|PERSON	||	130.0			130P|McNaught–Hughes	fb:part.130p|fb:part.mcnaught_hughes
+129	1	fb:cell.mcnaught_hughes	McNaught & Hughes	mcnaught|&|hughes	McNaught|&|Hughes	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				McNaught & Hughes	fb:part.mcnaught_hughes_2
+129	2	fb:cell.6_66	6.66	6.66	6.66	CD	NUMBER	6.66	6.66				
+129	3	fb:cell.null											fb:part.null
+130	0	fb:cell.131p_mueller_mueller_2	131P/Mueller (Mueller 2)	131p\\/mueller|-lrb-|mueller|2|-rrb-	131p\\/mueller|-lrb-|mueller|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|PERSON|NUMBER|O	|||2.0|	131.0		2.0	131P|Mueller (Mueller 2)	fb:part.131p|fb:part.mueller_mueller_2
+130	1	fb:cell.mueller	Mueller	mueller	Mueller	NNP	PERSON					Mueller	fb:part.mueller
+130	2	fb:cell.7_08	7.08	7.08	7.08	CD	NUMBER	7.08	7.08				
+130	3	fb:cell.null											fb:part.null
+131	0	fb:cell.132p_helin_roman_alu_helin_roman_alu_2	132P/Helin–Roman–Alu (Helin–Roman–Alu 2)	132p\\/helin|--|roman|--|alu|-lrb-|helin|--|roman|--|alu|2|-rrb-	132p\\/helin|--|Roman|--|alu|-lrb-|Helin|--|Roman|--|alu|2|-rrb-	NN|:|NNP|:|NN|-LRB-|NNP|:|NNP|:|NN|CD|-RRB-	O|O|MISC|O|PERSON|O|PERSON|O|MISC|O|PERSON|NUMBER|O	|||||||||||2.0|	132.0		2.0	132P|Helin–Roman–Alu (Helin–Roman–Alu 2)	fb:part.132p|fb:part.helin_roman_alu_helin_roman_alu_2
+131	1	fb:cell.helin_roman_alu	Helin & Roman & Alu	helin|&|roman|&|alu	Helin|&|Roman|&|alu	NNP|CC|NNP|CC|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Helin & Roman & Alu	fb:part.helin_roman_alu
+131	2	fb:cell.8_28	8.28	8.28	8.28	CD	NUMBER	8.28	8.28				
+131	3	fb:cell.null											fb:part.null
+132	0	fb:cell.133p_elst_pizarro_minor_planet_7968_elst_pizarro	133P/Elst–Pizarro = minor planet 7968 Elst–Pizarro	133p\\/elst|--|pizarro|=|minor|planet|7968|elst|--|pizarro	133p\\/elst|--|Pizarro|=|minor|planet|7968|Elst|--|Pizarro	NN|:|NNP|JJ|JJ|NN|CD|NNP|:|NNP	O|O|PERSON|O|O|O|DATE|O|O|PERSON	||||||7968|||	133.0		7968.0	133P|Elst–Pizarro = minor planet 7968 Elst–Pizarro	fb:part.133p|fb:part.elst_pizarro_minor_planet_7968_elst_pizarro
+132	1	fb:cell.elst_pizarro	Elst & Pizarro	elst|&|pizarro	Elst|&|Pizarro	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Elst & Pizarro	fb:part.elst_pizarro
+132	2	fb:cell.5_62	5.62	5.62	5.62	CD	NUMBER	5.62	5.62				
+132	3	fb:cell.null											fb:part.null
+133	0	fb:cell.134p_kowal_vavrova	134P/Kowal–Vávrová	134p\\/kowal|--|vávrová	134p\\/kowal|--|Vávrová	NN|:|NNP	O|O|O	||	134.0			134P|Kowal–Vávrová	fb:part.134p|fb:part.kowal_vavrova
+133	1	fb:cell.kowal_vavrova	Kowal & Vávrová	kowal|&|vávrová	Kowal|&|Vávrová	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Kowal & Vávrová	fb:part.kowal_vavrova_2
+133	2	fb:cell.15_6	15.6	15.6	15.6	CD	NUMBER	15.6	15.6				
+133	3	fb:cell.null											fb:part.null
+134	0	fb:cell.135p_shoemaker_levy_shoemaker_levy_8	135P/Shoemaker–Levy (Shoemaker–Levy 8)	135p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|8|-rrb-	135p\\/shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|8|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|CD|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||8.0|	135.0		8.0	135P|Shoemaker–Levy (Shoemaker–Levy 8)	fb:part.135p|fb:part.shoemaker_levy_shoemaker_levy_8
+134	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+134	2	fb:cell.7_50	7.50	7.50	7.50	CD	NUMBER	7.5	7.5				
+134	3	fb:cell.null											fb:part.null
+135	0	fb:cell.136p_mueller_mueller_3	136P/Mueller (Mueller 3)	136p\\/mueller|-lrb-|mueller|3|-rrb-	136p\\/mueller|-lrb-|mueller|3|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||3.0|	136.0		3.0	136P|Mueller (Mueller 3)	fb:part.136p|fb:part.mueller_mueller_3
+135	1	fb:cell.mueller	Mueller	mueller	Mueller	NNP	PERSON					Mueller	fb:part.mueller
+135	2	fb:cell.8_62	8.62	8.62	8.62	CD	NUMBER	8.62	8.62				
+135	3	fb:cell.null											fb:part.null
+136	0	fb:cell.137p_shoemaker_levy_shoemaker_levy_2	137P/Shoemaker–Levy (Shoemaker–Levy 2)	137p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|2|-rrb-	137p\\/shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|2|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||2.0|	137.0		2.0	137P|Shoemaker–Levy (Shoemaker–Levy 2)	fb:part.137p|fb:part.shoemaker_levy_shoemaker_levy_2
+136	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+136	2	fb:cell.9_55	9.55	9.55	9.55	CD	NUMBER	9.55	9.55				
+136	3	fb:cell.null											fb:part.null
+137	0	fb:cell.138p_shoemaker_levy_shoemaker_levy_7	138P/Shoemaker–Levy (Shoemaker–Levy 7)	138p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|7|-rrb-	138p\\/shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|7|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|CD|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||7.0|	138.0		7.0	138P|Shoemaker–Levy (Shoemaker–Levy 7)	fb:part.138p|fb:part.shoemaker_levy_shoemaker_levy_7
+137	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+137	2	fb:cell.6_91	6.91	6.91	6.91	CD	NUMBER	6.91	6.91				
+137	3	fb:cell.null											fb:part.null
+138	0	fb:cell.139p_vaisala_oterma	139P/Väisälä–Oterma	139p\\/v|äisälä|--|oterma	139p\\/v|äisälä|--|oterma	NN|NN|:|NN	O|O|O|PERSON	|||	139.0			139P|Väisälä–Oterma	fb:part.139p|fb:part.vaisala_oterma
+138	1	fb:cell.vaisala_oterma	Väisälä & Oterma	väisälä|&|oterma	Väisälä|&|Oterma	NNP|CC|NNP	O|O|O	||				Väisälä & Oterma	fb:part.vaisala_oterma_2
+138	2	fb:cell.9_61	9.61	9.61	9.61	CD	NUMBER	9.61	9.61				
+138	3	fb:cell.null											fb:part.null
+139	0	fb:cell.140p_bowell_skiff	140P/Bowell–Skiff	140p\\/bowell|--|skiff	140p\\/bowell|--|skiff	NN|:|NN	O|O|O	||	140.0			140P|Bowell–Skiff	fb:part.140p|fb:part.bowell_skiff
+139	1	fb:cell.bowell_skiff	Bowell & Skiff	bowell|&|skiff	Bowell|&|Skiff	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Bowell & Skiff	fb:part.bowell_skiff_2
+139	2	fb:cell.16_18	16.18	16.18	16.18	CD	NUMBER	16.18	16.18				
+139	3	fb:cell.null											fb:part.null
+140	0	fb:cell.141p_machholz_machholz_2	141P/Machholz (Machholz 2)	141p\\/machholz|-lrb-|machholz|2|-rrb-	141p\\/machholz|-lrb-|machholz|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||2.0|	141.0		2.0	141P|Machholz (Machholz 2)	fb:part.141p|fb:part.machholz_machholz_2
+140	1	fb:cell.machholz	Machholz	machholz	Machholz	NNP	PERSON					Machholz	fb:part.machholz
+140	2	fb:cell.5_23	5.23	5.23	5.23	CD	NUMBER	5.23	5.23				
+140	3	fb:cell.null											fb:part.null
+141	0	fb:cell.142p_ge_wang	142P/Ge–Wang	142p\\/ge|--|wang	142p\\/ge|--|Wang	NN|:|NNP	O|O|PERSON	||	142.0			142P|Ge–Wang	fb:part.142p|fb:part.ge_wang
+141	1	fb:cell.ge_wang	Ge & Wang	ge|&|wang	Ge|&|Wang	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Ge & Wang	fb:part.ge_wang_2
+141	2	fb:cell.11_09	11.09	11.09	11.09	CD	NUMBER	11.09	11.09				
+141	3	fb:cell.null											fb:part.null
+142	0	fb:cell.143p_kowal_mrkos	143P/Kowal–Mrkos	143p\\/kowal|--|mrkos	143p\\/kowal|--|mrko	NN|:|NNS	O|O|O	||	143.0			143P|Kowal–Mrkos	fb:part.143p|fb:part.kowal_mrkos
+142	1	fb:cell.kowal_mrkos	Kowal & Mrkos	kowal|&|mrkos	Kowal|&|Mrkos	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Kowal & Mrkos	fb:part.kowal_mrkos_2
+142	2	fb:cell.8_93	8.93	8.93	8.93	CD	NUMBER	8.93	8.93				
+142	3	fb:cell.null											fb:part.null
+143	0	fb:cell.144p_kushida	144P/Kushida	144p\\/kushida	144p\\/kushida	NN	O		144.0			144P|Kushida	fb:part.144p|fb:part.kushida
+143	1	fb:cell.kushida	Kushida	kushida	Kushida	NNP	PERSON					Kushida	fb:part.kushida
+143	2	fb:cell.7_57	7.57	7.57	7.57	CD	NUMBER	7.57	7.57				
+143	3	fb:cell.null											fb:part.null
+144	0	fb:cell.145p_shoemaker_levy_shoemaker_levy_5	145P/Shoemaker–Levy (Shoemaker–Levy 5)	145p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|5|-rrb-	145p\\/shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|5|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|CD|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||5.0|	145.0		5.0	145P|Shoemaker–Levy (Shoemaker–Levy 5)	fb:part.145p|fb:part.shoemaker_levy_shoemaker_levy_5
+144	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+144	2	fb:cell.8_66	8.66	8.66	8.66	CD	NUMBER	8.66	8.66				
+144	3	fb:cell.null											fb:part.null
+145	0	fb:cell.146p_shoemaker_linear	146P/Shoemaker–LINEAR	146p\\/shoemaker|--|linear	146p\\/shoemaker|--|linear	NN|:|NN	O|O|O	||	146.0			146P|Shoemaker–LINEAR	fb:part.146p|fb:part.shoemaker_linear
+145	1	fb:cell.c_shoemaker_e_shoemaker_linear	C. Shoemaker, E. Shoemaker & LINEAR	c.|shoemaker|,|e.|shoemaker|&|linear	C.|Shoemaker|,|E.|Shoemaker|&|LINEAR	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & LINEAR	fb:part.c_shoemaker|fb:part.e_shoemaker_linear
+145	2	fb:cell.8_12	8.12	8.12	8.12	CD	NUMBER	8.12	8.12				
+145	3	fb:cell.null											fb:part.null
+146	0	fb:cell.147p_kushida_muramatsu	147P/Kushida–Muramatsu	147p\\/kushida|--|muramatsu	147p\\/kushida|--|Muramatsu	NN|:|NNP	O|O|PERSON	||	147.0			147P|Kushida–Muramatsu	fb:part.147p|fb:part.kushida_muramatsu
+146	1	fb:cell.kushida_muramatsu	Kushida & Muramatsu	kushida|&|muramatsu	Kushida|&|Muramatsu	NNP|CC|NNP	PERSON|O|PERSON	||				Kushida & Muramatsu	fb:part.kushida_muramatsu_2
+146	2	fb:cell.7_41	7.41	7.41	7.41	CD	NUMBER	7.41	7.41				
+146	3	fb:cell.null											fb:part.null
+147	0	fb:cell.148p_anderson_linear	148P/Anderson–LINEAR	148p\\/anderson|--|linear	148p\\/anderson|--|linear	NN|:|NN	O|O|O	||	148.0			148P|Anderson–LINEAR	fb:part.148p|fb:part.anderson_linear
+147	1	fb:cell.anderson_linear	Anderson & LINEAR	anderson|&|linear	Anderson|&|LINEAR	NNP|CC|NNP	O|O|O	||				Anderson & LINEAR	fb:part.anderson_linear_2
+147	2	fb:cell.7_07	7.07	7.07	7.07	CD	NUMBER	7.07	7.07				
+147	3	fb:cell.null											fb:part.null
+148	0	fb:cell.149p_mueller_mueller_4	149P/Mueller (Mueller 4)	149p\\/mueller|-lrb-|mueller|4|-rrb-	149p\\/mueller|-lrb-|mueller|4|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||4.0|	149.0		4.0	149P|Mueller (Mueller 4)	fb:part.149p|fb:part.mueller_mueller_4
+148	1	fb:cell.mueller	Mueller	mueller	Mueller	NNP	PERSON					Mueller	fb:part.mueller
+148	2	fb:cell.9_02	9.02	9.02	9.02	CD	NUMBER	9.02	9.02				
+148	3	fb:cell.null											fb:part.null
+149	0	fb:cell.150p_loneos	150P/LONEOS	150p\\/loneos	150p\\/loneos	NN	O		150.0			150P|LONEOS	fb:part.150p|fb:part.loneos
+149	1	fb:cell.loneos	LONEOS	loneos	loneo	NNS	O					LONEOS	fb:part.loneos
+149	2	fb:cell.7_66	7.66	7.66	7.66	CD	NUMBER	7.66	7.66				
+149	3	fb:cell.null											fb:part.null
+150	0	fb:cell.151p_helin	151P/Helin	151p\\/helin	151p\\/helin	NN	O		151.0			151P|Helin	fb:part.151p|fb:part.helin
+150	1	fb:cell.helin	Helin	helin	Helin	NNP	PERSON					Helin	fb:part.helin
+150	2	fb:cell.14_10	14.10	14.10	14.10	CD	NUMBER	14.1	14.1				
+150	3	fb:cell.null											fb:part.null
+151	0	fb:cell.152p_helin_lawrence	152P/Helin–Lawrence	152p\\/helin|--|lawrence	152p\\/helin|--|Lawrence	NN|:|NNP	O|O|PERSON	||	152.0			152P|Helin–Lawrence	fb:part.152p|fb:part.helin_lawrence
+151	1	fb:cell.helin_lawrence	Helin & Lawrence	helin|&|lawrence	Helin|&|Lawrence	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Helin & Lawrence	fb:part.helin_lawrence_2
+151	2	fb:cell.9_54	9.54	9.54	9.54	CD	NUMBER	9.54	9.54				
+151	3	fb:cell.null											fb:part.null
+152	0	fb:cell.153p_ikeya_zhang	153P/Ikeya–Zhang	153p\\/ikeya|--|zhang	153p\\/ikeya|--|Zhang	NN|:|NNP	O|O|PERSON	||	153.0			153P|Ikeya–Zhang	fb:part.153p|fb:part.ikeya_zhang
+152	1	fb:cell.ikeya_zhang	Ikeya & Zhang	ikeya|&|zhang	Ikeya|&|Zhang	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Ikeya & Zhang	fb:part.ikeya_zhang_2
+152	2	fb:cell.366_5	366.5	366.5	366.5	CD	NUMBER	366.5	366.5				
+152	3	fb:cell.null											fb:part.null
+153	0	fb:cell.154p_brewington	154P/Brewington	154p\\/brewington	154p\\/brewington	NN	O		154.0			154P|Brewington	fb:part.154p|fb:part.brewington
+153	1	fb:cell.brewington	Brewington	brewington	Brewington	NNP	PERSON					Brewington	fb:part.brewington
+153	2	fb:cell.10_66	10.66	10.66	10.66	CD	NUMBER	10.66	10.66				
+153	3	fb:cell.null											fb:part.null
+154	0	fb:cell.155p_shoemaker_shoemaker_3	155P/Shoemaker (Shoemaker 3)	155p\\/shoemaker|-lrb-|shoemaker|3|-rrb-	155p\\/shoemaker|-lrb-|shoemaker|3|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||3.0|	155.0		3.0	155P|Shoemaker (Shoemaker 3)	fb:part.155p|fb:part.shoemaker_shoemaker_3
+154	1	fb:cell.c_shoemaker_e_shoemaker	C. Shoemaker & E. Shoemaker	c.|shoemaker|&|e.|shoemaker	C.|Shoemaker|&|E.|Shoemaker	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				C. Shoemaker & E. Shoemaker	fb:part.c_shoemaker_e_shoemaker
+154	2	fb:cell.17_09	17.09	17.09	17.09	CD	NUMBER	17.09	17.09				
+154	3	fb:cell.null											fb:part.null
+155	0	fb:cell.156p_russell_linear	156P/Russell–LINEAR	156p\\/russell|--|linear	156p\\/russell|--|linear	NN|:|NN	O|O|O	||	156.0			156P|Russell–LINEAR	fb:part.156p|fb:part.russell_linear
+155	1	fb:cell.russell_linear	Russell & LINEAR	russell|&|linear	Russell|&|LINEAR	NNP|CC|NNP	PERSON|O|O	||				Russell & LINEAR	fb:part.russell_linear_2
+155	2	fb:cell.6_84	6.84	6.84	6.84	CD	NUMBER	6.84	6.84				
+155	3	fb:cell.null											fb:part.null
+156	0	fb:cell.157p_tritton	157P/Tritton	157p\\/tritton	157p\\/tritton	NN	O		157.0			157P|Tritton	fb:part.157p|fb:part.tritton
+156	1	fb:cell.tritton	Tritton	tritton	Tritton	NNP	PERSON					Tritton	fb:part.tritton
+156	2	fb:cell.6_29	6.29	6.29	6.29	CD	NUMBER	6.29	6.29				
+156	3	fb:cell.null											fb:part.null
+157	0	fb:cell.158p_kowal_linear	158P/Kowal–LINEAR	158p\\/kowal|--|linear	158p\\/kowal|--|linear	NN|:|NN	O|O|O	||	158.0			158P|Kowal–LINEAR	fb:part.158p|fb:part.kowal_linear
+157	1	fb:cell.kowal_linear	Kowal & LINEAR	kowal|&|linear	Kowal|&|LINEAR	NNP|CC|NNP	PERSON|O|O	||				Kowal & LINEAR	fb:part.kowal_linear_2
+157	2	fb:cell.10_26	10.26	10.26	10.26	CD	NUMBER	10.26	10.26				
+157	3	fb:cell.null											fb:part.null
+158	0	fb:cell.159p_loneos	159P/LONEOS	159p\\/loneos	159p\\/loneos	NN	O		159.0			159P|LONEOS	fb:part.159p|fb:part.loneos
+158	1	fb:cell.loneos	LONEOS	loneos	loneo	NNS	O					LONEOS	fb:part.loneos
+158	2	fb:cell.14_32	14.32	14.32	14.32	CD	NUMBER	14.32	14.32				
+158	3	fb:cell.null											fb:part.null
+159	0	fb:cell.160p_linear	160P/LINEAR	160p\\/linear	160p\\/linear	NN	O		160.0			160P|LINEAR	fb:part.160p|fb:part.linear
+159	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+159	2	fb:cell.7_95	7.95	7.95	7.95	CD	NUMBER	7.95	7.95				
+159	3	fb:cell.null											fb:part.null
+160	0	fb:cell.161p_hartley_iras	161P/Hartley–IRAS	161p\\/hartley|--|iras	161p\\/hartley|--|ira	NN|:|NNS	O|O|O	||	161.0			161P|Hartley–IRAS	fb:part.161p|fb:part.hartley_iras
+160	1	fb:cell.hartley_iras	Hartley & IRAS	hartley|&|iras	Hartley|&|IRAS	NNP|CC|NNP	PERSON|O|O	||				Hartley & IRAS	fb:part.hartley_iras_2
+160	2	fb:cell.21_43	21.43	21.43	21.43	CD	NUMBER	21.43	21.43				
+160	3	fb:cell.null											fb:part.null
+161	0	fb:cell.162p_siding_spring	162P/Siding Spring	162p\\/siding|spring	162p\\/siding|spring	VBG|NN	O|DATE	|XXXX-SP	162.0			162P|Siding Spring	fb:part.162p|fb:part.siding_spring
+161	1	fb:cell.siding_spring	Siding Spring	siding|spring	side|spring	VBG|NN	O|DATE	|XXXX-SP				Siding Spring	fb:part.siding_spring
+161	2	fb:cell.5_32	5.32	5.32	5.32	CD	NUMBER	5.32	5.32				
+161	3	fb:cell.null											fb:part.null
+162	0	fb:cell.163p_neat	163P/NEAT	163p\\/neat	163p\\/neat	NN	O		163.0			163P|NEAT	fb:part.163p|fb:part.neat
+162	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+162	2	fb:cell.7_30	7.30	7.30	7.30	CD	NUMBER	7.3	7.3				
+162	3	fb:cell.null											fb:part.null
+163	0	fb:cell.164p_christensen	164P/Christensen	164p\\/christensen	164p\\/christensen	NN	O		164.0			164P|Christensen	fb:part.164p|fb:part.christensen
+163	1	fb:cell.christensen	Christensen	christensen	Christensen	NNP	PERSON					Christensen	fb:part.christensen
+163	2	fb:cell.6_97	6.97	6.97	6.97	CD	NUMBER	6.97	6.97				
+163	3	fb:cell.null											fb:part.null
+164	0	fb:cell.165p_linear	165P/LINEAR	165p\\/linear	165p\\/linear	NN	O		165.0			165P|LINEAR	fb:part.165p|fb:part.linear
+164	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+164	2	fb:cell.76_7	76.7	76.7	76.7	CD	NUMBER	76.7	76.7				
+164	3	fb:cell.null											fb:part.null
+165	0	fb:cell.166p_neat	166P/NEAT	166p\\/neat	166p\\/neat	NN	O		166.0			166P|NEAT	fb:part.166p|fb:part.neat
+165	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+165	2	fb:cell.51_73	51.73	51.73	51.73	NN	NUMBER	51.73	51.73				
+165	3	fb:cell.null											fb:part.null
+166	0	fb:cell.167p_cineos	167P/CINEOS	167p\\/cineos	167p\\/cineos	NN	O		167.0			167P|CINEOS	fb:part.167p|fb:part.cineos
+166	1	fb:cell.cineos	CINEOS	cineos	cineo	NNS	O					CINEOS	fb:part.cineos
+166	2	fb:cell.64_85	64.85	64.85	64.85	CD	NUMBER	64.85	64.85				
+166	3	fb:cell.null											fb:part.null
+167	0	fb:cell.168p_hergenrother	168P/Hergenrother	168p\\/hergenrother	168p\\/hergenrother	NN	O		168.0			168P|Hergenrother	fb:part.168p|fb:part.hergenrother
+167	1	fb:cell.hergenrother	Hergenrother	hergenrother	Hergenrother	NNP	PERSON					Hergenrother	fb:part.hergenrother
+167	2	fb:cell.6_89	6.89	6.89	6.89	CD	NUMBER	6.89	6.89				
+167	3	fb:cell.null											fb:part.null
+168	0	fb:cell.169p_neat	169P/NEAT	169p\\/neat	169p\\/neat	NN	O		169.0			169P|NEAT	fb:part.169p|fb:part.neat
+168	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+168	2	fb:cell.4_20	4.20	4.20	4.20	CD	NUMBER	4.2	4.2				
+168	3	fb:cell.null											fb:part.null
+169	0	fb:cell.170p_christensen	170P/Christensen	170p\\/christensen	170p\\/christensen	NN	O		170.0			170P|Christensen	fb:part.170p|fb:part.christensen
+169	1	fb:cell.christensen	Christensen	christensen	Christensen	NNP	PERSON					Christensen	fb:part.christensen
+169	2	fb:cell.8_63	8.63	8.63	8.63	CD	NUMBER	8.63	8.63				
+169	3	fb:cell.null											fb:part.null
+170	0	fb:cell.171p_spahr	171P/Spahr	171p\\/spahr	171p\\/spahr	NN	O		171.0			171P|Spahr	fb:part.171p|fb:part.spahr
+170	1	fb:cell.spahr	Spahr	spahr	Spahr	NNP	PERSON					Spahr	fb:part.spahr
+170	2	fb:cell.6_70	6.70	6.70	6.70	CD	NUMBER	6.7	6.7				
+170	3	fb:cell.null											fb:part.null
+171	0	fb:cell.172p_yeung	172P/Yeung	172p\\/yeung	172p\\/yeung	NN	O		172.0			172P|Yeung	fb:part.172p|fb:part.yeung
+171	1	fb:cell.yeung	Yeung	yeung	Yeung	NNP	PERSON					Yeung	fb:part.yeung
+171	2	fb:cell.6_59	6.59	6.59	6.59	CD	NUMBER	6.59	6.59				
+171	3	fb:cell.null											fb:part.null
+172	0	fb:cell.173p_mueller_mueller_5	173P/Mueller (Mueller 5)	173p\\/mueller|-lrb-|mueller|5|-rrb-	173p\\/mueller|-lrb-|mueller|5|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|PERSON|NUMBER|O	|||5.0|	173.0		5.0	173P|Mueller (Mueller 5)	fb:part.173p|fb:part.mueller_mueller_5
+172	1	fb:cell.mueller	Mueller	mueller	Mueller	NNP	PERSON					Mueller	fb:part.mueller
+172	2	fb:cell.13_63	13.63	13.63	13.63	CD	NUMBER	13.63	13.63				
+172	3	fb:cell.null											fb:part.null
+173	0	fb:cell.174p_echeclus_minor_planet_60558_echeclus	174P/Echeclus = minor planet 60558 Echeclus	174p\\/echeclus|=|minor|planet|60558|echeclus	174p\\/echeclus|=|minor|planet|60558|echeclus	NN|JJ|JJ|NN|CD|NN	O|O|O|O|NUMBER|O	||||60558.0|	174.0		60558.0	174P|Echeclus = minor planet 60558 Echeclus	fb:part.174p|fb:part.echeclus_minor_planet_60558_echeclus
+173	1	fb:cell.spacewatch	Spacewatch	spacewatch	Spacewatch	NNP	O					Spacewatch	fb:part.spacewatch
+173	2	fb:cell.35_02	35.02	35.02	35.02	CD	NUMBER	35.02	35.02				
+173	3	fb:cell.null											fb:part.null
+174	0	fb:cell.175p_hergenrother	175P/Hergenrother	175p\\/hergenrother	175p\\/hergenrother	NN	O		175.0			175P|Hergenrother	fb:part.175p|fb:part.hergenrother
+174	1	fb:cell.hergenrother	Hergenrother	hergenrother	Hergenrother	NNP	PERSON					Hergenrother	fb:part.hergenrother
+174	2	fb:cell.6_34	6.34	6.34	6.34	CD	NUMBER	6.34	6.34				
+174	3	fb:cell.null											fb:part.null
+175	0	fb:cell.176p_linear_minor_planet_118401_linear	176P/LINEAR = minor planet 118401 LINEAR	176p\\/linear|=|minor|planet|118401|linear	176p\\/linear|=|minor|planet|118401|linear	NN|JJ|JJ|NN|CD|NN	O|O|O|O|NUMBER|O	||||118401.0|	176.0		118401.0	176P|LINEAR = minor planet 118401 LINEAR	fb:part.176p|fb:part.linear_minor_planet_118401_linear
+175	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+175	2	fb:cell.5_71	5.71	5.71	5.71	CD	NUMBER	5.71	5.71				
+175	3	fb:cell.null											fb:part.null
+176	0	fb:cell.177p_barnard_barnard_2	177P/Barnard (Barnard 2)	177p\\/barnard|-lrb-|barnard|2|-rrb-	177p\\/barnard|-lrb-|Barnard|2|-rrb-	NN|-LRB-|NNP|LS|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||2.0|	177.0		2.0	177P|Barnard (Barnard 2)	fb:part.177p|fb:part.barnard_barnard_2
+176	1	fb:cell.barnard	Barnard	barnard	Barnard	NNP	PERSON					Barnard	fb:part.barnard
+176	2	fb:cell.119_67	119.67	119.67	119.67	CD	NUMBER	119.67	119.67				
+176	3	fb:cell.null											fb:part.null
+177	0	fb:cell.178p_hug_bell	178P/Hug–Bell	178p\\/hug|--|bell	178p\\/hug|--|Bell	NN|:|NNP	O|O|O	||	178.0			178P|Hug–Bell	fb:part.178p|fb:part.hug_bell
+177	1	fb:cell.hug_bell	Hug & Bell	hug|&|bell	hug|&|Bell	NN|CC|NNP	O|O|O	||				Hug & Bell	fb:part.hug_bell_2
+177	2	fb:cell.7_06	7.06	7.06	7.06	CD	NUMBER	7.06	7.06				
+177	3	fb:cell.null											fb:part.null
+178	0	fb:cell.179p_jedicke	179P/Jedicke	179p\\/jedicke	179p\\/jedicke	NN	O		179.0			179P|Jedicke	fb:part.179p|fb:part.jedicke
+178	1	fb:cell.jedicke	Jedicke	jedicke	Jedicke	NNP	PERSON					Jedicke	fb:part.jedicke
+178	2	fb:cell.14_31	14.31	14.31	14.31	CD	NUMBER	14.31	14.31				
+178	3	fb:cell.null											fb:part.null
+179	0	fb:cell.180p_neat	180P/NEAT	180p\\/neat	180p\\/neat	NN	O		180.0			180P|NEAT	fb:part.180p|fb:part.neat
+179	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+179	2	fb:cell.7_54	7.54	7.54	7.54	CD	NUMBER	7.54	7.54				
+179	3	fb:cell.null											fb:part.null
+180	0	fb:cell.181p_shoemaker_levy_shoemaker_levy_6	181P/Shoemaker–Levy (Shoemaker–Levy 6)	181p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|6|-rrb-	181P\\/Shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|6|-rrb-	NNP|:|NNP|-LRB-|NNP|:|NNP|CD|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||6.0|	181.0		6.0	181P|Shoemaker–Levy (Shoemaker–Levy 6)	fb:part.181p|fb:part.shoemaker_levy_shoemaker_levy_6
+180	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+180	2	fb:cell.7_53	7.53	7.53	7.53	CD	NUMBER	7.53	7.53				
+180	3	fb:cell.null											fb:part.null
+181	0	fb:cell.182p_loneos	182P/LONEOS	182p\\/loneos	182p\\/loneos	NN	O		182.0			182P|LONEOS	fb:part.182p|fb:part.loneos
+181	1	fb:cell.loneos	LONEOS	loneos	loneo	NNS	O					LONEOS	fb:part.loneos
+181	2	fb:cell.5_02	5.02	5.02	5.02	CD	NUMBER	5.02	5.02				
+181	3	fb:cell.null											fb:part.null
+182	0	fb:cell.183p_korlevic_juric	183P/Korlevic–Juric	183p\\/korlevic|--|juric	183P\\/Korlevic|--|Juric	NNP|:|NNP	O|O|PERSON	||	183.0			183P|Korlevic–Juric	fb:part.183p|fb:part.korlevic_juric
+182	1	fb:cell.korlevic_juric	Korlevic & Juric	korlevic|&|juric	Korlevic|&|Juric	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Korlevic & Juric	fb:part.korlevic_juric_2
+182	2	fb:cell.9_58	9.58	9.58	9.58	CD	NUMBER	9.58	9.58				
+182	3	fb:cell.null											fb:part.null
+183	0	fb:cell.184p_lovas_lovas_2	184P/Lovas (Lovas 2)	184p\\/lovas|-lrb-|lovas|2|-rrb-	184p\\/lovas|-lrb-|lova|2|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|PERSON|NUMBER|O	|||2.0|	184.0		2.0	184P|Lovas (Lovas 2)	fb:part.184p|fb:part.lovas_lovas_2
+183	1	fb:cell.lovas	Lovas	lovas	Lovas	NNP	PERSON					Lovas	fb:part.lovas
+183	2	fb:cell.6_62	6.62	6.62	6.62	CD	NUMBER	6.62	6.62				
+183	3	fb:cell.null											fb:part.null
+184	0	fb:cell.185p_petriew	185P/Petriew	185p\\/petriew	185p\\/petriew	NN	O		185.0			185P|Petriew	fb:part.185p|fb:part.petriew
+184	1	fb:cell.petriew	Petriew	petriew	Petriew	NNP	O					Petriew	fb:part.petriew
+184	2	fb:cell.5_47	5.47	5.47	5.47	CD	NUMBER	5.47	5.47				
+184	3	fb:cell.null											fb:part.null
+185	0	fb:cell.186p_garradd	186P/Garradd	186p\\/garradd	186p\\/garradd	NN	O		186.0			186P|Garradd	fb:part.186p|fb:part.garradd
+185	1	fb:cell.garradd	Garradd	garradd	Garradd	NNP	PERSON					Garradd	fb:part.garradd
+185	2	fb:cell.10_62	10.62	10.62	10.62	CD	NUMBER	10.62	10.62				
+185	3	fb:cell.null											fb:part.null
+186	0	fb:cell.187p_linear	187P/LINEAR	187p\\/linear	187p\\/linear	NN	O		187.0			187P|LINEAR	fb:part.187p|fb:part.linear
+186	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+186	2	fb:cell.9_40	9.40	9.40	9.40	CD	NUMBER	9.4	9.4				
+186	3	fb:cell.null											fb:part.null
+187	0	fb:cell.188p_linear_mueller	188P/LINEAR–Mueller	188p\\/linear|--|mueller	188P\\/LINEAR|--|Mueller	NNP|:|NNP	O|O|PERSON	||	188.0			188P|LINEAR–Mueller	fb:part.188p|fb:part.linear_mueller
+187	1	fb:cell.linear_mueller	LINEAR & Mueller	linear|&|mueller	LINEAR|&|Mueller	NNP|CC|NNP	O|O|PERSON	||				LINEAR & Mueller	fb:part.linear_mueller_2
+187	2	fb:cell.9_13	9.13	9.13	9.13	CD	NUMBER	9.13	9.13				
+187	3	fb:cell.null											fb:part.null
+188	0	fb:cell.189p_neat	189P/NEAT	189p\\/neat	189p\\/neat	NN	O		189.0			189P|NEAT	fb:part.189p|fb:part.neat
+188	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+188	2	fb:cell.4_99	4.99	4.99	4.99	CD	NUMBER	4.99	4.99				
+188	3	fb:cell.null											fb:part.null
+189	0	fb:cell.190p_mueller	190P/Mueller	190p\\/mueller	190p\\/mueller	NN	O		190.0			190P|Mueller	fb:part.190p|fb:part.mueller
+189	1	fb:cell.mueller	Mueller	mueller	Mueller	NNP	PERSON					Mueller	fb:part.mueller
+189	2	fb:cell.8_74	8.74	8.74	8.74	CD	NUMBER	8.74	8.74				
+189	3	fb:cell.null											fb:part.null
+190	0	fb:cell.191p_mcnaught	191P/McNaught	191p\\/mcnaught	191p\\/mcnaught	NN	O		191.0			191P|McNaught	fb:part.191p|fb:part.mcnaught
+190	1	fb:cell.mcnaught	McNaught	mcnaught	McNaught	NNP	PERSON					McNaught	fb:part.mcnaught
+190	2	fb:cell.6_64	6.64	6.64	6.64	CD	NUMBER	6.64	6.64				
+190	3	fb:cell.null											fb:part.null
+191	0	fb:cell.192p_shoemaker_levy_shoemaker_levy_1	192P/Shoemaker–Levy (Shoemaker–Levy 1)	192p\\/shoemaker|--|levy|-lrb-|shoemaker|--|levy|1|-rrb-	192p\\/shoemaker|--|Levy|-lrb-|Shoemaker|--|Levy|1|-rrb-	NN|:|NNP|-LRB-|NNP|:|NNP|LS|-RRB-	O|O|PERSON|O|O|O|O|NUMBER|O	|||||||1.0|	192.0		1.0	192P|Shoemaker–Levy (Shoemaker–Levy 1)	fb:part.192p|fb:part.shoemaker_levy_shoemaker_levy_1
+191	1	fb:cell.c_shoemaker_e_shoemaker_levy	C. Shoemaker, E. Shoemaker & Levy	c.|shoemaker|,|e.|shoemaker|&|levy	C.|Shoemaker|,|E.|Shoemaker|&|Levy	NNP|NNP|,|NNP|NNP|CC|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				C. Shoemaker|E. Shoemaker & Levy	fb:part.c_shoemaker|fb:part.e_shoemaker_levy
+191	2	fb:cell.17_29	17.29	17.29	17.29	CD	NUMBER	17.29	17.29				
+191	3	fb:cell.null											fb:part.null
+192	0	fb:cell.193p_linear_neat	193P/LINEAR–NEAT	193p\\/linear|--|neat	193p\\/linear|--|neat	NN|:|NN	O|O|O	||	193.0			193P|LINEAR–NEAT	fb:part.193p|fb:part.linear_neat
+192	1	fb:cell.linear_neat	LINEAR & NEAT	linear|&|neat	LINEAR|&|NEAT	NNP|CC|NNP	O|O|O	||				LINEAR & NEAT	fb:part.linear_neat_2
+192	2	fb:cell.6_56	6.56	6.56	6.56	CD	NUMBER	6.56	6.56				
+192	3	fb:cell.null											fb:part.null
+193	0	fb:cell.194p_linear	194P/LINEAR	194p\\/linear	194p\\/linear	NN	O		194.0			194P|LINEAR	fb:part.194p|fb:part.linear
+193	1	fb:cell.linear_1	LINEAR [1]	linear|-lsb-|1|-rsb-	linear|-lsb-|1|-rsb-	NN|-LRB-|CD|-RRB-	O|O|NUMBER|O	||1.0|	1.0			LINEAR [1]	fb:part.linear_1
+193	2	fb:cell.8_00	8.00	8.00	8.00	CD	NUMBER	8.0	8.0				
+193	3	fb:cell.null											fb:part.null
+194	0	fb:cell.195p_hill	195P/Hill	195p\\/hill	195p\\/hill	NN	O		195.0			195P|Hill	fb:part.195p|fb:part.hill
+194	1	fb:cell.hill	Hill	hill	Hill	NNP	PERSON					Hill	fb:part.hill
+194	2	fb:cell.16_49	16.49	16.49	16.49	CD	NUMBER	16.49	16.49				
+194	3	fb:cell.null											fb:part.null
+195	0	fb:cell.196p_tichy	196P/Tichý	196p\\/tich|ý	196p\\/tich|ý	NN|NN	O|O	|	196.0			196P|Tichý	fb:part.196p|fb:part.tichy
+195	1	fb:cell.tichy_iauc_8917	Tichý IAUC 8917	tichý|iauc|8917	Tichý|IAUC|8917	NNP|NNP|CD	O|O|NUMBER	||8917.0	8917.0			Tichý IAUC 8917	fb:part.tichy_iauc_8917
+195	2	fb:cell.7_36	7.36	7.36	7.36	CD	NUMBER	7.36	7.36				
+195	3	fb:cell.null											fb:part.null
+196	0	fb:cell.197p_linear	197P/LINEAR	197p\\/linear	197p\\/linear	NN	O		197.0			197P|LINEAR	fb:part.197p|fb:part.linear
+196	1	fb:cell.linear_iauc_8924	LINEAR IAUC 8924	linear|iauc|8924	linear|iauc|8924	JJ|NN|CD	O|O|NUMBER	||8924.0	8924.0			LINEAR IAUC 8924	fb:part.linear_iauc_8924
+196	2	fb:cell.4_85	4.85	4.85	4.85	CD	NUMBER	4.85	4.85				
+196	3	fb:cell.null											fb:part.null
+197	0	fb:cell.198p_odas	198P/ODAS	198p\\/odas	198p\\/odas	NN	O		198.0			198P|ODAS	fb:part.198p|fb:part.odas
+197	1	fb:cell.oca_dlr_asteroid_survey_odas_2_iauc_8929	OCA-DLR Asteroid Survey (ODAS)[2], IAUC 8929	oca|dlr|asteroid|survey|-lrb-|odas|-rrb-|-lsb-|2|-rsb-|,|iauc|8929	OCA|DLR|Asteroid|survey|-lrb-|oda|-rrb-|-lsb-|2|-rsb-|,|IAUC|8929	NNP|NNP|NNP|NN|-LRB-|NN|-RRB-|-LRB-|CD|-RRB-|,|NNP|CD	O|O|O|O|O|O|O|O|NUMBER|O|O|O|DATE	||||||||2.0||||8929	2.0		8929.0	OCA-DLR Asteroid Survey (ODAS)[2]|IAUC 8929	fb:part.oca_dlr_asteroid_survey_odas_2|fb:part.iauc_8929
+197	2	fb:cell.6_78	6.78	6.78	6.78	CD	NUMBER	6.78	6.78				
+197	3	fb:cell.null											fb:part.null
+198	0	fb:cell.199p_shoemaker_shoemaker_4	199P/Shoemaker (Shoemaker 4)	199p\\/shoemaker|-lrb-|shoemaker|4|-rrb-	199p\\/shoemaker|-lrb-|shoemaker|4|-rrb-	NN|-LRB-|NN|CD|-RRB-	O|O|ORGANIZATION|NUMBER|O	|||4.0|	199.0		4.0	199P|Shoemaker (Shoemaker 4)	fb:part.199p|fb:part.shoemaker_shoemaker_4
+198	1	fb:cell.c_shoemaker_e_shoemaker_cbet_1347	C. Shoemaker & E. Shoemaker CBET 1347	c.|shoemaker|&|e.|shoemaker|cbet|1347	C.|Shoemaker|&|E.|Shoemaker|CBET|1347	NNP|NNP|CC|NNP|NNP|NNP|CD	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|DATE	||||||1347				C. Shoemaker & E. Shoemaker CBET 1347	fb:part.c_shoemaker_e_shoemaker_cbet_1347
+198	2	fb:cell.14_53	14.53	14.53	14.53	CD	NUMBER	14.53	14.53				
+198	3	fb:cell.null											fb:part.null
+199	0	fb:cell.200p_larsen	200P/Larsen	200p\\/larsen	200p\\/larsen	NN	O		200.0			200P|Larsen	fb:part.200p|fb:part.larsen
+199	1	fb:cell.larsen	Larsen	larsen	Larsen	NNP	PERSON					Larsen	fb:part.larsen
+199	2	fb:cell.10_92	10.92	10.92	10.92	CD	NUMBER	10.92	10.92				
+199	3	fb:cell.null											fb:part.null
+200	0	fb:cell.201p_loneos	201P/LONEOS	201p\\/loneos	201p\\/loneos	NN	O		201.0			201P|LONEOS	fb:part.201p|fb:part.loneos
+200	1	fb:cell.loneos_3	LONEOS [3]	loneos|-lsb-|3|-rsb-	loneo|-lsb-|3|-rsb-	NN|-LRB-|CD|-RRB-	O|O|NUMBER|O	||3.0|	3.0			LONEOS [3]	fb:part.loneos_3
+200	2	fb:cell.6_47	6.47	6.47	6.47	CD	NUMBER	6.47	6.47				
+200	3	fb:cell.null											fb:part.null
+201	0	fb:cell.202p_scotti	202P/Scotti	202p\\/scotti	202p\\/scotti	NNS	O		202.0			202P|Scotti	fb:part.202p|fb:part.scotti
+201	1	fb:cell.scotti_4	Scotti [4]	scotti|-lsb-|4|-rsb-	Scotti|-lsb-|4|-rsb-	NNP|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O	||4.0|	4.0			Scotti [4]	fb:part.scotti_4
+201	2	fb:cell.7_32	7.32	7.32	7.32	CD	NUMBER	7.32	7.32				
+201	3	fb:cell.null											fb:part.null
+202	0	fb:cell.203p_korlevic	203P/Korlevic	203p\\/korlevic	203p\\/korlevic	JJ	O		203.0			203P|Korlevic	fb:part.203p|fb:part.korlevic
+202	1	fb:cell.korlevic_iauc_8974	Korlevic IAUC 8974	korlevic|iauc|8974	korlevic|iauc|8974	JJ|NN|CD	O|O|NUMBER	||8974.0	8974.0			Korlevic IAUC 8974	fb:part.korlevic_iauc_8974
+202	2	fb:cell.10_01	10.01	10.01	10.01	CD	NUMBER	10.01	10.01				
+202	3	fb:cell.null											fb:part.null
+203	0	fb:cell.204p_linear_neat	204P/LINEAR–NEAT	204p\\/linear|--|neat	204p\\/linear|--|neat	NN|:|NN	O|O|O	||	204.0			204P|LINEAR–NEAT	fb:part.204p|fb:part.linear_neat
+203	1	fb:cell.linear_neat_iauc_8974	LINEAR & NEAT IAUC 8974	linear|&|neat|iauc|8974	LINEAR|&|NEAT|IAUC|8974	NNP|CC|NNP|NNP|CD	O|O|O|O|NUMBER	||||8974.0	8974.0			LINEAR & NEAT IAUC 8974	fb:part.linear_neat_iauc_8974
+203	2	fb:cell.7_00	7.00	7.00	7.00	CD	NUMBER	7.0	7.0				
+203	3	fb:cell.null											fb:part.null
+204	0	fb:cell.205p_giacobini	205P/Giacobini	205p\\/giacobini	205p\\/giacobini	NNS	O		205.0			205P|Giacobini	fb:part.205p|fb:part.giacobini
+204	1	fb:cell.giacobini_previously_thought_lost_and_designated_d_1896_r2_iauc_8975	Giacobini (previously thought lost and designated D/1896 R2) IAUC 8975	giacobini|-lrb-|previously|thought|lost|and|designated|d\\/1896|r2|-rrb-|iauc|8975	Giacobini|-lrb-|previously|think|lose|and|designate|d\\/1896|r2|-rrb-|iauc|8975	NNP|-LRB-|RB|VBN|VBN|CC|VBN|NN|NN|-RRB-|NN|CD	PERSON|O|DATE|O|O|O|O|O|O|O|O|DATE	||PAST_REF|||||||||8975	1896.0		2.0	Giacobini (previously thought lost and designated D|1896 R2) IAUC 8975	fb:part.giacobini_previously_thought_lost_and_designated_d|fb:part.1896_r2_iauc_8975
+204	2	fb:cell.6_66	6.66	6.66	6.66	CD	NUMBER	6.66	6.66				
+204	3	fb:cell.null											fb:part.null
+205	0	fb:cell.206p_barnard_boattini	206P/Barnard–Boattini	206p\\/barnard|--|boattini	206p\\/barnard|--|Boattini	NN|:|NNP	O|O|PERSON	||	206.0			206P|Barnard–Boattini	fb:part.206p|fb:part.barnard_boattini
+205	1	fb:cell.barnard_boattini_previously_thought_lost_and_designated_d_1892_t1_barnard_3_iauc_8995	Barnard & Boattini [previously thought lost and designated D/1892 T1 (Barnard 3)] IAUC 8995	barnard|&|boattini|-lsb-|previously|thought|lost|and|designated|d\\/1892|t1|-lrb-|barnard|3|-rrb-|-rsb-|iauc|8995	Barnard|&|Boattini|-lsb-|previously|think|lose|and|designate|d\\/1892|t1|-lrb-|Barnard|3|-rrb-|-rsb-|IAUC|8995	NNP|CC|NNP|-LRB-|RB|VBN|VBN|CC|VBN|NN|NN|-LRB-|NNP|LS|-RRB-|-RRB-|NNP|CD	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|DATE|O|O|O|O|O|O|O|ORGANIZATION|NUMBER|O|O|O|NUMBER	||||PAST_REF|||||||||3.0||||8995.0	1892.0		1.0	Barnard & Boattini [previously thought lost and designated D|1892 T1 (Barnard 3)] IAUC 8995	fb:part.barnard_boattini_previously_thought_lost_and_designated_d|fb:part.1892_t1_barnard_3_iauc_8995
+205	2	fb:cell.5_81	5.81	5.81	5.81	CD	NUMBER	5.81	5.81				
+205	3	fb:cell.null											fb:part.null
+206	0	fb:cell.207p_neat	207P/NEAT	207p\\/neat	207p\\/neat	NN	O		207.0			207P|NEAT	fb:part.207p|fb:part.neat
+206	1	fb:cell.neat_iauc_8996	NEAT IAUC 8996	neat|iauc|8996	neat|iauc|8996	JJ|NN|CD	O|O|DATE	||8996	8996.0			NEAT IAUC 8996	fb:part.neat_iauc_8996
+206	2	fb:cell.7_63	7.63	7.63	7.63	CD	NUMBER	7.63	7.63				
+206	3	fb:cell.null											fb:part.null
+207	0	fb:cell.208p_mcmillan	208P/McMillan	208p\\/mcmillan	208p\\/mcmillan	NN	O		208.0			208P|McMillan	fb:part.208p|fb:part.mcmillan
+207	1	fb:cell.mcmillan_iauc_8997_iauc_9000	McMillan IAUC 8997, IAUC 9000	mcmillan|iauc|8997|,|iauc|9000	McMillan|IAUC|8997|,|IAUC|9000	NNP|NNP|CD|,|NNP|CD	PERSON|O|NUMBER|O|O|NUMBER	||8997.0|||9000.0	8997.0		9000.0	McMillan IAUC 8997|IAUC 9000	fb:part.mcmillan_iauc_8997|fb:part.iauc_9000
+207	2	fb:cell.8_16	8.16	8.16	8.16	CD	NUMBER	8.16	8.16				
+207	3	fb:cell.null											fb:part.null
+208	0	fb:cell.209p_linear	209P/LINEAR	209p\\/linear	209p\\/linear	NN	O		209.0			209P|LINEAR	fb:part.209p|fb:part.linear
+208	1	fb:cell.linear_iauc_9002	LINEAR IAUC 9002	linear|iauc|9002	linear|iauc|9002	JJ|NN|CD	O|O|NUMBER	||9002.0	9002.0			LINEAR IAUC 9002	fb:part.linear_iauc_9002
+208	2	fb:cell.5_04	5.04	5.04	5.04	CD	NUMBER	5.04	5.04				
+208	3	fb:cell.null											fb:part.null
+209	0	fb:cell.210p_christensen	210P/Christensen	210p\\/christensen	210p\\/christensen	NN	O		210.0			210P|Christensen	fb:part.210p|fb:part.christensen
+209	1	fb:cell.christensen_iauc_9005	Christensen IAUC 9005	christensen|iauc|9005	Christensen|IAUC|9005	NNP|NNP|CD	PERSON|O|DATE	||9005	9005.0			Christensen IAUC 9005	fb:part.christensen_iauc_9005
+209	2	fb:cell.5_71	5.71	5.71	5.71	CD	NUMBER	5.71	5.71				
+209	3	fb:cell.null											fb:part.null
+210	0	fb:cell.211p_hill	211P/Hill	211p\\/hill	211p\\/hill	NN	O		211.0			211P|Hill	fb:part.211p|fb:part.hill
+210	1	fb:cell.hill_catalina_sky_survey_iauc_9001	Hill (Catalina Sky Survey) IAUC 9001	hill|-lrb-|catalina|sky|survey|-rrb-|iauc|9001	Hill|-lrb-|Catalina|Sky|Survey|-rrb-|IAUC|9001	NNP|-LRB-|NNP|NNP|NNP|-RRB-|NNP|CD	O|O|LOCATION|O|O|O|O|DATE	|||||||9001	9001.0			Hill (Catalina Sky Survey) IAUC 9001	fb:part.hill_catalina_sky_survey_iauc_9001
+210	2	fb:cell.6_71	6.71	6.71	6.71	CD	NUMBER	6.71	6.71				
+210	3	fb:cell.null											fb:part.null
+211	0	fb:cell.212p_neat	212P/NEAT	212p\\/neat	212p\\/neat	NN	O		212.0			212P|NEAT	fb:part.212p|fb:part.neat
+211	1	fb:cell.neat_iauc_9010	NEAT IAUC 9010	neat|iauc|9010	neat|iauc|9010	JJ|NN|CD	O|O|NUMBER	||9010.0	9010.0			NEAT IAUC 9010	fb:part.neat_iauc_9010
+211	2	fb:cell.7_78	7.78	7.78	7.78	CD	NUMBER	7.78	7.78				
+211	3	fb:cell.null											fb:part.null
+212	0	fb:cell.213p_van_ness	213P/Van Ness	213p\\/van|ness	213p\\/van|ness	NN|NN	O|O	|	213.0			213P|Van Ness	fb:part.213p|fb:part.van_ness
+212	1	fb:cell.van_ness_iauc_9017	Van Ness IAUC 9017	van|ness|iauc|9017	Van|Ness|IAUC|9017	NNP|NNP|NNP|CD	PERSON|PERSON|O|DATE	|||9017	9017.0			Van Ness IAUC 9017	fb:part.van_ness_iauc_9017
+212	2	fb:cell.6_34	6.34	6.34	6.34	CD	NUMBER	6.34	6.34				
+212	3	fb:cell.null											fb:part.null
+213	0	fb:cell.214p_linear	214P/LINEAR	214p\\/linear	214p\\/linear	NN	O		214.0			214P|LINEAR	fb:part.214p|fb:part.linear
+213	1	fb:cell.linear_iauc_9017	LINEAR IAUC 9017	linear|iauc|9017	linear|iauc|9017	JJ|NN|CD	O|O|DATE	||9017	9017.0			LINEAR IAUC 9017	fb:part.linear_iauc_9017
+213	2	fb:cell.6_84	6.84	6.84	6.84	CD	NUMBER	6.84	6.84				
+213	3	fb:cell.null											fb:part.null
+214	0	fb:cell.215p_neat	215P/NEAT	215p\\/neat	215p\\/neat	NN	O		215.0			215P|NEAT	fb:part.215p|fb:part.neat
+214	1	fb:cell.neat_iauc_9018	NEAT IAUC 9018	neat|iauc|9018	neat|iauc|9018	JJ|NN|CD	O|O|DATE	||9018	9018.0			NEAT IAUC 9018	fb:part.neat_iauc_9018
+214	2	fb:cell.8_07	8.07	8.07	8.07	CD	NUMBER	8.07	8.07				
+214	3	fb:cell.null											fb:part.null
+215	0	fb:cell.216p_linear	216P/LINEAR	216p\\/linear	216p\\/linear	NN	O		216.0			216P|LINEAR	fb:part.216p|fb:part.linear
+215	1	fb:cell.linear_iauc_9021	LINEAR IAUC 9021	linear|iauc|9021	linear|iauc|9021	JJ|NN|CD	O|O|DATE	||9021	9021.0			LINEAR IAUC 9021	fb:part.linear_iauc_9021
+215	2	fb:cell.7_63	7.63	7.63	7.63	CD	NUMBER	7.63	7.63				
+215	3	fb:cell.null											fb:part.null
+216	0	fb:cell.217p_linear	217P/LINEAR	217p\\/linear	217p\\/linear	NN	O		217.0			217P|LINEAR	fb:part.217p|fb:part.linear
+216	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+216	2	fb:cell.7_83	7.83	7.83	7.83	CD	NUMBER	7.83	7.83				
+216	3	fb:cell.null											fb:part.null
+217	0	fb:cell.218p_linear	218P/LINEAR	218p\\/linear	218p\\/linear	NN	O		218.0			218P|LINEAR	fb:part.218p|fb:part.linear
+217	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+217	2	fb:cell.6_11	6.11	6.11	6.11	CD	NUMBER	6.11	6.11				
+217	3	fb:cell.null											fb:part.null
+218	0	fb:cell.219p_linear	219P/LINEAR	219p\\/linear	219p\\/linear	NN	O		219.0			219P|LINEAR	fb:part.219p|fb:part.linear
+218	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+218	2	fb:cell.6_98	6.98	6.98	6.98	CD	NUMBER	6.98	6.98				
+218	3	fb:cell.null											fb:part.null
+219	0	fb:cell.220p_mcnaught	220P/McNaught	220p\\/mcnaught	220p\\/mcnaught	NN	O		220.0			220P|McNaught	fb:part.220p|fb:part.mcnaught
+219	1	fb:cell.mcnaught	McNaught	mcnaught	McNaught	NNP	PERSON					McNaught	fb:part.mcnaught
+219	2	fb:cell.5_50	5.50	5.50	5.50	CD	NUMBER	5.5	5.5				
+219	3	fb:cell.null											fb:part.null
+220	0	fb:cell.221p_linear	221P/LINEAR	221p\\/linear	221p\\/linear	NN	O		221.0			221P|LINEAR	fb:part.221p|fb:part.linear
+220	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+220	2	fb:cell.6_50	6.50	6.50	6.50	CD	NUMBER	6.5	6.5				
+220	3	fb:cell.null											fb:part.null
+221	0	fb:cell.222p_linear	222P/LINEAR	222p\\/linear	222p\\/linear	NN	O		222.0			222P|LINEAR	fb:part.222p|fb:part.linear
+221	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+221	2	fb:cell.4_83	4.83	4.83	4.83	CD	NUMBER	4.83	4.83				
+221	3	fb:cell.null											fb:part.null
+222	0	fb:cell.223p_skiff	223P/Skiff	223p\\/skiff	223p\\/skiff	NN	O		223.0			223P|Skiff	fb:part.223p|fb:part.skiff
+222	1	fb:cell.skiff	Skiff	skiff	Skiff	NNP	O					Skiff	fb:part.skiff
+222	2	fb:cell.8_42	8.42	8.42	8.42	CD	NUMBER	8.42	8.42				
+222	3	fb:cell.null											fb:part.null
+223	0	fb:cell.224p_linear_neat	224P/LINEAR–NEAT	224p\\/linear|--|neat	224p\\/linear|--|neat	NN|:|NN	O|O|O	||	224.0			224P|LINEAR–NEAT	fb:part.224p|fb:part.linear_neat
+223	1	fb:cell.linear_neat	LINEAR & NEAT	linear|&|neat	LINEAR|&|NEAT	NNP|CC|NNP	O|O|O	||				LINEAR & NEAT	fb:part.linear_neat_2
+223	2	fb:cell.6_30	6.30	6.30	6.30	CD	NUMBER	6.3	6.3				
+223	3	fb:cell.null											fb:part.null
+224	0	fb:cell.225p_linear	225P/LINEAR	225p\\/linear	225p\\/linear	NN	O		225.0			225P|LINEAR	fb:part.225p|fb:part.linear
+224	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+224	2	fb:cell.6_99	6.99	6.99	6.99	CD	NUMBER	6.99	6.99				
+224	3	fb:cell.null											fb:part.null
+225	0	fb:cell.226p_pigott_linear_kowalski	226P/Pigott–LINEAR–Kowalski	226p\\/pigott|--|linear|--|kowalski	226p\\/pigott|--|linear|--|Kowalski	NN|:|NN|:|NNP	O|O|O|O|PERSON	||||	226.0			226P|Pigott–LINEAR–Kowalski	fb:part.226p|fb:part.pigott_linear_kowalski
+225	1	fb:cell.pigott_linear_kowalski	Pigott & LINEAR & Kowalski	pigott|&|linear|&|kowalski	Pigott|&|LINEAR|&|Kowalski	NNP|CC|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Pigott & LINEAR & Kowalski	fb:part.pigott_linear_kowalski_2
+225	2	fb:cell.7_32	7.32	7.32	7.32	CD	NUMBER	7.32	7.32				
+225	3	fb:cell.null											fb:part.null
+226	0	fb:cell.227p_catalina_linear	227P/Catalina–LINEAR	227p\\/catalina|--|linear	227P\\/Catalina|--|linear	NNP|:|NN	O|O|O	||	227.0			227P|Catalina–LINEAR	fb:part.227p|fb:part.catalina_linear
+226	1	fb:cell.catalina_sky_survey_linear	Catalina Sky Survey & LINEAR	catalina|sky|survey|&|linear	Catalina|Sky|Survey|&|LINEAR	NNP|NNP|NNP|CC|NNP	LOCATION|O|O|O|O	||||				Catalina Sky Survey & LINEAR	fb:part.catalina_sky_survey_linear
+226	2	fb:cell.6_79	6.79	6.79	6.79	CD	NUMBER	6.79	6.79				
+226	3	fb:cell.null											fb:part.null
+227	0	fb:cell.228p_linear	228P/LINEAR	228p\\/linear	228p\\/linear	NN	O		228.0			228P|LINEAR	fb:part.228p|fb:part.linear
+227	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+227	2	fb:cell.8_49	8.49	8.49	8.49	CD	NUMBER	8.49	8.49				
+227	3	fb:cell.null											fb:part.null
+228	0	fb:cell.229p_gibbs	229P/Gibbs	229p\\/gibbs	229p\\/gibbs	NNS	O		229.0			229P|Gibbs	fb:part.229p|fb:part.gibbs
+228	1	fb:cell.gibbs_catalina_sky_survey	Gibbs (Catalina Sky Survey)	gibbs|-lrb-|catalina|sky|survey|-rrb-	Gibbs|-lrb-|Catalina|Sky|Survey|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|LOCATION|O|O|O	|||||				Gibbs (Catalina Sky Survey)	fb:part.gibbs_catalina_sky_survey
+228	2	fb:cell.7_78	7.78	7.78	7.78	CD	NUMBER	7.78	7.78				
+228	3	fb:cell.null											fb:part.null
+229	0	fb:cell.230p_linear	230P/LINEAR	230p\\/linear	230p\\/linear	NN	O		230.0			230P|LINEAR	fb:part.230p|fb:part.linear
+229	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+229	2	fb:cell.6_27	6.27	6.27	6.27	CD	NUMBER	6.27	6.27				
+229	3	fb:cell.null											fb:part.null
+230	0	fb:cell.231p_linear_neat	231P/LINEAR–NEAT	231p\\/linear|--|neat	231p\\/linear|--|neat	NN|:|NN	O|O|O	||	231.0			231P|LINEAR–NEAT	fb:part.231p|fb:part.linear_neat
+230	1	fb:cell.linear_neat	LINEAR & NEAT	linear|&|neat	LINEAR|&|NEAT	NNP|CC|NNP	O|O|O	||				LINEAR & NEAT	fb:part.linear_neat_2
+230	2	fb:cell.8_08	8.08	8.08	8.08	CD	NUMBER	8.08	8.08				
+230	3	fb:cell.null											fb:part.null
+231	0	fb:cell.232p_hill	232P/Hill	232p\\/hill	232p\\/hill	NN	O		232.0			232P|Hill	fb:part.232p|fb:part.hill
+231	1	fb:cell.hill_catalina_sky_survey	Hill (Catalina Sky Survey)	hill|-lrb-|catalina|sky|survey|-rrb-	Hill|-lrb-|Catalina|Sky|Survey|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	O|O|LOCATION|O|O|O	|||||				Hill (Catalina Sky Survey)	fb:part.hill_catalina_sky_survey
+231	2	fb:cell.9_49	9.49	9.49	9.49	CD	NUMBER	9.49	9.49				
+231	3	fb:cell.null											fb:part.null
+232	0	fb:cell.233p_la_sagra	233P/La Sagra	233p\\/la|sagra	233P\\/La|Sagra	NNP|NNP	O|O	|	233.0			233P|La Sagra	fb:part.233p|fb:part.la_sagra
+232	1	fb:cell.la_sagra_sky_survey	La Sagra Sky Survey	la|sagra|sky|survey	La|Sagra|Sky|survey	NNP|NNP|NNP|NN	O|O|O|O	|||				La Sagra Sky Survey	fb:part.la_sagra_sky_survey
+232	2	fb:cell.5_29	5.29	5.29	5.29	CD	NUMBER	5.29	5.29				
+232	3	fb:cell.null											fb:part.null
+233	0	fb:cell.234p_linear	234P/LINEAR	234p\\/linear	234p\\/linear	NN	O		234.0			234P|LINEAR	fb:part.234p|fb:part.linear
+233	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+233	2	fb:cell.7_47	7.47	7.47	7.47	CD	NUMBER	7.47	7.47				
+233	3	fb:cell.null											fb:part.null
+234	0	fb:cell.235p_linear	235P/LINEAR	235p\\/linear	235p\\/linear	NN	O		235.0			235P|LINEAR	fb:part.235p|fb:part.linear
+234	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+234	2	fb:cell.8_00	8.00	8.00	8.00	CD	NUMBER	8.0	8.0				
+234	3	fb:cell.null											fb:part.null
+235	0	fb:cell.236p_linear	236P/LINEAR	236p\\/linear	236p\\/linear	NN	O		236.0			236P|LINEAR	fb:part.236p|fb:part.linear
+235	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+235	2	fb:cell.7_20	7.20	7.20	7.20	CD	NUMBER	7.2	7.2				
+235	3	fb:cell.null											fb:part.null
+236	0	fb:cell.237p_linear	237P/LINEAR	237p\\/linear	237p\\/linear	NN	O		237.0			237P|LINEAR	fb:part.237p|fb:part.linear
+236	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+236	2	fb:cell.6_57	6.57	6.57	6.57	CD	NUMBER	6.57	6.57				
+236	3	fb:cell.null											fb:part.null
+237	0	fb:cell.238p_read	238P/Read	238p\\/read	238p\\/read	NN	O		238.0			238P|Read	fb:part.238p|fb:part.read
+237	1	fb:cell.read_spacewatch	Read (Spacewatch)	read|-lrb-|spacewatch|-rrb-	Read|-lrb-|Spacewatch|-rrb-	NNP|-LRB-|NNP|-RRB-	O|O|MISC|O	|||				Read (Spacewatch)	fb:part.read_spacewatch
+237	2	fb:cell.5_63	5.63	5.63	5.63	CD	NUMBER	5.63	5.63				
+237	3	fb:cell.null											fb:part.null
+238	0	fb:cell.239p_linear	239P/LINEAR	239p\\/linear	239p\\/linear	NN	O		239.0			239P|LINEAR	fb:part.239p|fb:part.linear
+238	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+238	2	fb:cell.9_43	9.43	9.43	9.43	CD	NUMBER	9.43	9.43				
+238	3	fb:cell.null											fb:part.null
+239	0	fb:cell.240p_neat	240P/NEAT	240p\\/neat	240p\\/neat	NN	O		240.0			240P|NEAT	fb:part.240p|fb:part.neat
+239	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+239	2	fb:cell.7_60	7.60	7.60	7.60	CD	NUMBER	7.6	7.6				
+239	3	fb:cell.null											fb:part.null
+240	0	fb:cell.241p_linear	241P/LINEAR	241p\\/linear	241p\\/linear	NN	O		241.0			241P|LINEAR	fb:part.241p|fb:part.linear
+240	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+240	2	fb:cell.10_79	10.79	10.79	10.79	CD	NUMBER	10.79	10.79				
+240	3	fb:cell.null											fb:part.null
+241	0	fb:cell.242p_spahr	242P/Spahr	242p\\/spahr	242p\\/spahr	NN	O		242.0			242P|Spahr	fb:part.242p|fb:part.spahr
+241	1	fb:cell.spahr	Spahr	spahr	Spahr	NNP	PERSON					Spahr	fb:part.spahr
+241	2	fb:cell.13_20	13.20	13.20	13.20	CD	NUMBER	13.2	13.2				
+241	3	fb:cell.null											fb:part.null
+242	0	fb:cell.243p_neat	243P/NEAT	243p\\/neat	243p\\/neat	NN	O		243.0			243P|NEAT	fb:part.243p|fb:part.neat
+242	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+242	2	fb:cell.7_52	7.52	7.52	7.52	CD	NUMBER	7.52	7.52				
+242	3	fb:cell.null											fb:part.null
+243	0	fb:cell.244p_scotti	244P/Scotti	244p\\/scotti	244p\\/scotti	NNS	O		244.0			244P|Scotti	fb:part.244p|fb:part.scotti
+243	1	fb:cell.scotti	Scotti	scotti	Scotti	NNP	PERSON					Scotti	fb:part.scotti
+243	2	fb:cell.10_8	10.8	10.8	10.8	CD	NUMBER	10.8	10.8				
+243	3	fb:cell.null											fb:part.null
+244	0	fb:cell.245p_wise	245P/WISE	245p\\/wise	245p\\/wise	NN	O		245.0			245P|WISE	fb:part.245p|fb:part.wise
+244	1	fb:cell.wise	WISE	wise	wise	JJ	O					WISE	fb:part.wise
+244	2	fb:cell.8_03	8.03	8.03	8.03	CD	NUMBER	8.03	8.03				
+244	3	fb:cell.null											fb:part.null
+245	0	fb:cell.246p_neat	246P/NEAT	246p\\/neat	246p\\/neat	NN	O		246.0			246P|NEAT	fb:part.246p|fb:part.neat
+245	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+245	2	fb:cell.8_06	8.06	8.06	8.06	CD	NUMBER	8.06	8.06				
+245	3	fb:cell.null											fb:part.null
+246	0	fb:cell.247p_linear	247P/LINEAR	247p\\/linear	247p\\/linear	NN	O		247.0			247P|LINEAR	fb:part.247p|fb:part.linear
+246	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+246	2	fb:cell.7_98	7.98	7.98	7.98	CD	NUMBER	7.98	7.98				
+246	3	fb:cell.null											fb:part.null
+247	0	fb:cell.248p_gibbs	248P/Gibbs	248p\\/gibbs	248p\\/gibbs	NNS	O		248.0			248P|Gibbs	fb:part.248p|fb:part.gibbs
+247	1	fb:cell.gibbs_catalina_sky_survey	Gibbs (Catalina Sky Survey)	gibbs|-lrb-|catalina|sky|survey|-rrb-	Gibbs|-lrb-|Catalina|Sky|Survey|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|LOCATION|O|O|O	|||||				Gibbs (Catalina Sky Survey)	fb:part.gibbs_catalina_sky_survey
+247	2	fb:cell.14_63	14.63	14.63	14.63	CD	NUMBER	14.63	14.63				
+247	3	fb:cell.null											fb:part.null
+248	0	fb:cell.249p_linear	249P/LINEAR	249p\\/linear	249p\\/linear	NN	O		249.0			249P|LINEAR	fb:part.249p|fb:part.linear
+248	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+248	2	fb:cell.4_63	4.63	4.63	4.63	CD	NUMBER	4.63	4.63				
+248	3	fb:cell.null											fb:part.null
+249	0	fb:cell.250p_larson	250P/Larson	250p\\/larson	250p\\/larson	NN	O		250.0			250P|Larson	fb:part.250p|fb:part.larson
+249	1	fb:cell.larson_catalina_sky_survey	Larson (Catalina Sky Survey)	larson|-lrb-|catalina|sky|survey|-rrb-	Larson|-lrb-|Catalina|Sky|Survey|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|LOCATION|O|O|O	|||||				Larson (Catalina Sky Survey)	fb:part.larson_catalina_sky_survey
+249	2	fb:cell.7_20	7.20	7.20	7.20	CD	NUMBER	7.2	7.2				
+249	3	fb:cell.null											fb:part.null
+250	0	fb:cell.251p_linear	251P/LINEAR	251p\\/linear	251p\\/linear	NN	O		251.0			251P|LINEAR	fb:part.251p|fb:part.linear
+250	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+250	2	fb:cell.6_52	6.52	6.52	6.52	CD	NUMBER	6.52	6.52				
+250	3	fb:cell.null											fb:part.null
+251	0	fb:cell.252p_linear	252P/LINEAR	252p\\/linear	252p\\/linear	NN	O		252.0			252P|LINEAR	fb:part.252p|fb:part.linear
+251	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+251	2	fb:cell.5_32	5.32	5.32	5.32	CD	NUMBER	5.32	5.32				
+251	3	fb:cell.null											fb:part.null
+252	0	fb:cell.253p_panstarrs	253P/PANSTARRS	253p\\/panstarrs	253p\\/panstarrs	NN	O		253.0			253P|PANSTARRS	fb:part.253p|fb:part.panstarrs
+252	1	fb:cell.pan_starrs	Pan-STARRS	pan|starrs	Pan|STARRS	NNP|NNP	O|O	|				Pan-STARRS	fb:part.pan_starrs
+252	2	fb:cell.6_47	6.47	6.47	6.47	CD	NUMBER	6.47	6.47				
+252	3	fb:cell.null											fb:part.null
+253	0	fb:cell.254p_mcnaught	254P/McNaught	254p\\/mcnaught	254p\\/mcnaught	NN	O		254.0			254P|McNaught	fb:part.254p|fb:part.mcnaught
+253	1	fb:cell.mcnaught	McNaught	mcnaught	McNaught	NNP	PERSON					McNaught	fb:part.mcnaught
+253	2	fb:cell.10_09	10.09	10.09	10.09	CD	NUMBER	10.09	10.09				
+253	3	fb:cell.null											fb:part.null
+254	0	fb:cell.255p_levy	255P/Levy	255p\\/levy	255p\\/levy	NN	O		255.0			255P|Levy	fb:part.255p|fb:part.levy
+254	1	fb:cell.levy	Levy	levy	Levy	NNP	PERSON					Levy	fb:part.levy
+254	2	fb:cell.5_29	5.29	5.29	5.29	CD	NUMBER	5.29	5.29				
+254	3	fb:cell.null											fb:part.null
+255	0	fb:cell.256p_linear	256P/LINEAR	256p\\/linear	256p\\/linear	NN	O		256.0			256P|LINEAR	fb:part.256p|fb:part.linear
+255	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+255	2	fb:cell.9_96	9.96	9.96	9.96	CD	NUMBER	9.96	9.96				
+255	3	fb:cell.null											fb:part.null
+256	0	fb:cell.257p_catalina	257P/Catalina	257p\\/catalina	257p\\/catalina	NN	O		257.0			257P|Catalina	fb:part.257p|fb:part.catalina
+256	1	fb:cell.catalina_sky_survey	Catalina Sky Survey	catalina|sky|survey	Catalina|Sky|survey	NNP|NNP|NN	LOCATION|O|O	||				Catalina Sky Survey	fb:part.catalina_sky_survey
+256	2	fb:cell.7_27	7.27	7.27	7.27	CD	NUMBER	7.27	7.27				
+256	3	fb:cell.null											fb:part.null
+257	0	fb:cell.258p_panstarrs	258P/PANSTARRS	258p\\/panstarrs	258p\\/panstarrs	NN	O		258.0			258P|PANSTARRS	fb:part.258p|fb:part.panstarrs
+257	1	fb:cell.pan_starrs	Pan-STARRS	pan|starrs	Pan|STARRS	NNP|NNP	O|O	|				Pan-STARRS	fb:part.pan_starrs
+257	2	fb:cell.9_22	9.22	9.22	9.22	CD	NUMBER	9.22	9.22				
+257	3	fb:cell.null											fb:part.null
+258	0	fb:cell.259p_garradd	259P/Garradd	259p\\/garradd	259p\\/garradd	NN	O		259.0			259P|Garradd	fb:part.259p|fb:part.garradd
+258	1	fb:cell.garradd	Garradd	garradd	Garradd	NNP	PERSON					Garradd	fb:part.garradd
+258	2	fb:cell.4_50	4.50	4.50	4.50	CD	NUMBER	4.5	4.5				
+258	3	fb:cell.null											fb:part.null
+259	0	fb:cell.260p_mcnaught	260P/McNaught	260p\\/mcnaught	260p\\/mcnaught	NN	O		260.0			260P|McNaught	fb:part.260p|fb:part.mcnaught
+259	1	fb:cell.mcnaught	McNaught	mcnaught	McNaught	NNP	PERSON					McNaught	fb:part.mcnaught
+259	2	fb:cell.7_07	7.07	7.07	7.07	CD	NUMBER	7.07	7.07				
+259	3	fb:cell.null											fb:part.null
+260	0	fb:cell.261p_larson	261P/Larson	261p\\/larson	261p\\/larson	NN	O		261.0			261P|Larson	fb:part.261p|fb:part.larson
+260	1	fb:cell.larson_mount_lemmon_survey	Larson (Mount Lemmon Survey)	larson|-lrb-|mount|lemmon|survey|-rrb-	Larson|-lrb-|Mount|Lemmon|Survey|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|O|O|O|O	|||||				Larson (Mount Lemmon Survey)	fb:part.larson_mount_lemmon_survey
+260	2	fb:cell.6_80	6.80	6.80	6.80	CD	NUMBER	6.8	6.8				
+260	3	fb:cell.null											fb:part.null
+261	0	fb:cell.262p_mcnaught_russell	262P/McNaught–Russell	262p\\/mcnaught|--|russell	262p\\/mcnaught|--|Russell	NN|:|NNP	O|O|PERSON	||	262.0			262P|McNaught–Russell	fb:part.262p|fb:part.mcnaught_russell
+261	1	fb:cell.mcnaught_russell	McNaught & Russell	mcnaught|&|russell	McNaught|&|Russell	NNP|CC|NNP	PERSON|O|PERSON	||				McNaught & Russell	fb:part.mcnaught_russell_2
+261	2	fb:cell.18_3	18.3	18.3	18.3	CD	NUMBER	18.3	18.3				
+261	3	fb:cell.null											fb:part.null
+262	0	fb:cell.263p_gibbs	263P/Gibbs	263p\\/gibbs	263p\\/gibbs	NNS	O		263.0			263P|Gibbs	fb:part.263p|fb:part.gibbs
+262	1	fb:cell.gibbs_catalina_sky_survey	Gibbs (Catalina Sky Survey)	gibbs|-lrb-|catalina|sky|survey|-rrb-	Gibbs|-lrb-|Catalina|Sky|Survey|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|LOCATION|O|O|O	|||||				Gibbs (Catalina Sky Survey)	fb:part.gibbs_catalina_sky_survey
+262	2	fb:cell.5_36	5.36	5.36	5.36	CD	NUMBER	5.36	5.36				
+262	3	fb:cell.null											fb:part.null
+263	0	fb:cell.264p_larsen	264P/Larsen	264p\\/larsen	264p\\/larsen	NN	O		264.0			264P|Larsen	fb:part.264p|fb:part.larsen
+263	1	fb:cell.larsen	Larsen	larsen	Larsen	NNP	PERSON					Larsen	fb:part.larsen
+263	2	fb:cell.7_68	7.68	7.68	7.68	CD	NUMBER	7.68	7.68				
+263	3	fb:cell.null											fb:part.null
+264	0	fb:cell.265p_linear	265P/LINEAR	265p\\/linear	265p\\/linear	NN	O		265.0			265P|LINEAR	fb:part.265p|fb:part.linear
+264	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+264	2	fb:cell.8_77	8.77	8.77	8.77	CD	NUMBER	8.77	8.77				
+264	3	fb:cell.null											fb:part.null
+265	0	fb:cell.266p_christensen	266P/Christensen	266p\\/christensen	266p\\/christensen	NN	O		266.0			266P|Christensen	fb:part.266p|fb:part.christensen
+265	1	fb:cell.christensen	Christensen	christensen	Christensen	NNP	PERSON					Christensen	fb:part.christensen
+265	2	fb:cell.6_63	6.63	6.63	6.63	CD	NUMBER	6.63	6.63				
+265	3	fb:cell.null											fb:part.null
+266	0	fb:cell.267p_loneos	267P/LONEOS	267p\\/loneos	267p\\/loneos	NN	O		267.0			267P|LONEOS	fb:part.267p|fb:part.loneos
+266	1	fb:cell.loneos	LONEOS	loneos	loneo	NNS	O					LONEOS	fb:part.loneos
+266	2	fb:cell.5_96	5.96	5.96	5.96	CD	NUMBER	5.96	5.96				
+266	3	fb:cell.null											fb:part.null
+267	0	fb:cell.268p_bernardi	268P/Bernardi	268p\\/bernardi	268p\\/bernardi	NN	O		268.0			268P|Bernardi	fb:part.268p|fb:part.bernardi
+267	1	fb:cell.bernardi	Bernardi	bernardi	Bernardi	NNP	PERSON					Bernardi	fb:part.bernardi
+267	2	fb:cell.9_76	9.76	9.76	9.76	CD	NUMBER	9.76	9.76				
+267	3	fb:cell.null											fb:part.null
+268	0	fb:cell.269p_jedicke	269P/Jedicke	269p\\/jedicke	269p\\/jedicke	NN	O		269.0			269P|Jedicke	fb:part.269p|fb:part.jedicke
+268	1	fb:cell.v_jedicke_r_jedicke	V. Jedicke & R. Jedicke	v.|jedicke|&|r.|jedicke	V.|Jedicke|&|R.|Jedicke	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				V. Jedicke & R. Jedicke	fb:part.v_jedicke_r_jedicke
+268	2	fb:cell.19_55	19.55	19.55	19.55	CD	NUMBER	19.55	19.55				
+268	3	fb:cell.null											fb:part.null
+269	0	fb:cell.270p_gehrels	270P/Gehrels	270p\\/gehrels	270p\\/gehrels	NNS	O		270.0			270P|Gehrels	fb:part.270p|fb:part.gehrels
+269	1	fb:cell.gehrels	Gehrels	gehrels	gehrel	NNS	PERSON					Gehrels	fb:part.gehrels
+269	2	fb:cell.17_82	17.82	17.82	17.82	CD	NUMBER	17.82	17.82				
+269	3	fb:cell.null											fb:part.null
+270	0	fb:cell.271p_van_houten_lemmon	271P/van Houten–Lemmon	271p\\/van|houten|--|lemmon	271P\\/van|Houten|--|Lemmon	NNP|NNP|:|NNP	O|PERSON|O|PERSON	|||	271.0			271P|van Houten–Lemmon	fb:part.271p|fb:part.van_houten_lemmon
+270	1	fb:cell.c_van_houten_i_van_houten_groeneveld_mount_lemmon_survey	C. van Houten & I. van Houten-Groeneveld & Mount Lemmon Survey	c.|van|houten|&|i.|van|houten|groeneveld|&|mount|lemmon|survey	C.|van|Houten|&|I.|van|Houten|Groeneveld|&|Mount|Lemmon|survey	NNP|NNP|NNP|CC|NNP|NNP|NNP|NNP|CC|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||||				C. van Houten & I. van Houten-Groeneveld & Mount Lemmon Survey	fb:part.c_van_houten_i_van_houten_groeneveld_mount_lemmon_survey
+270	2	fb:cell.18_42	18.42	18.42	18.42	CD	NUMBER	18.42	18.42				
+270	3	fb:cell.null											fb:part.null
+271	0	fb:cell.272p_neat	272P/NEAT	272p\\/neat	272p\\/neat	NN	O		272.0			272P|NEAT	fb:part.272p|fb:part.neat
+271	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+271	2	fb:cell.9_36	9.36	9.36	9.36	CD	NUMBER	9.36	9.36				
+271	3	fb:cell.null											fb:part.null
+272	0	fb:cell.273p_pons_gambart	273P/Pons–Gambart	273p\\/pons|--|gambart	273p\\/pons|--|gambart	NNS|:|NN	O|O|PERSON	||	273.0			273P|Pons–Gambart	fb:part.273p|fb:part.pons_gambart
+272	1	fb:cell.pons_gambart	Pons & Gambart	pons|&|gambart	Pons|&|Gambart	NNP|CC|NNP	O|O|O	||				Pons & Gambart	fb:part.pons_gambart_2
+272	2	fb:cell.188	188	188	188	CD	NUMBER	188.0	188.0				
+272	3	fb:cell.null											fb:part.null
+273	0	fb:cell.274p_tombaugh_tenagra	274P/Tombaugh–Tenagra	274p\\/tombaugh|--|tenagra	274p\\/tombaugh|--|Tenagra	NN|:|NNP	O|O|ORGANIZATION	||	274.0			274P|Tombaugh–Tenagra	fb:part.274p|fb:part.tombaugh_tenagra
+273	1	fb:cell.tombaugh_tenagra_ii_observatory	Tombaugh & Tenagra II Observatory	tombaugh|&|tenagra|ii|observatory	Tombaugh|&|Tenagra|II|Observatory	NNP|CC|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Tombaugh & Tenagra II Observatory	fb:part.tombaugh_tenagra_ii_observatory
+273	2	fb:cell.9_12	9.12	9.12	9.12	CD	NUMBER	9.12	9.12				
+273	3	fb:cell.null											fb:part.null
+274	0	fb:cell.275p_hermann	275P/Hermann	275p\\/hermann	275p\\/hermann	NN	O		275.0			275P|Hermann	fb:part.275p|fb:part.hermann
+274	1	fb:cell.hermann	Hermann	hermann	Hermann	NNP	PERSON					Hermann	fb:part.hermann
+274	2	fb:cell.13_79	13.79	13.79	13.79	CD	NUMBER	13.79	13.79				
+274	3	fb:cell.null											fb:part.null
+275	0	fb:cell.276p_vorobjov	276P/Vorobjov	276p\\/vorobjov	276p\\/vorobjov	NN	O		276.0			276P|Vorobjov	fb:part.276p|fb:part.vorobjov
+275	1	fb:cell.vorobjov	Vorobjov	vorobjov	Vorobjov	NNP	PERSON					Vorobjov	fb:part.vorobjov
+275	2	fb:cell.12_5	12.5	12.5	12.5	CD	NUMBER	12.5	12.5				
+275	3	fb:cell.null											fb:part.null
+276	0	fb:cell.277p_linear	277P/LINEAR	277p\\/linear	277p\\/linear	NN	O		277.0			277P|LINEAR	fb:part.277p|fb:part.linear
+276	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+276	2	fb:cell.7_59	7.59	7.59	7.59	CD	NUMBER	7.59	7.59				
+276	3	fb:cell.null											fb:part.null
+277	0	fb:cell.278p_mcnaught	278P/McNaught	278p\\/mcnaught	278p\\/mcnaught	NN	O		278.0			278P|McNaught	fb:part.278p|fb:part.mcnaught
+277	1	fb:cell.mcnaught	McNaught	mcnaught	McNaught	NNP	PERSON					McNaught	fb:part.mcnaught
+277	2	fb:cell.7_12	7.12	7.12	7.12	CD	NUMBER	7.12	7.12				
+277	3	fb:cell.null											fb:part.null
+278	0	fb:cell.279p_la_sagra	279P/La Sagra	279p\\/la|sagra	279P\\/La|Sagra	NNP|NNP	O|O	|	279.0			279P|La Sagra	fb:part.279p|fb:part.la_sagra
+278	1	fb:cell.la_sagra_sky_survey	La Sagra Sky Survey	la|sagra|sky|survey	La|Sagra|Sky|survey	NNP|NNP|NNP|NN	O|O|O|O	|||				La Sagra Sky Survey	fb:part.la_sagra_sky_survey
+278	2	fb:cell.6_78	6.78	6.78	6.78	CD	NUMBER	6.78	6.78				
+278	3	fb:cell.null											fb:part.null
+279	0	fb:cell.280p_larsen	280P/Larsen	280p\\/larsen	280p\\/larsen	NN	O		280.0			280P|Larsen	fb:part.280p|fb:part.larsen
+279	1	fb:cell.larsen	Larsen	larsen	Larsen	NNP	PERSON					Larsen	fb:part.larsen
+279	2	fb:cell.9_63	9.63	9.63	9.63	CD	NUMBER	9.63	9.63				
+279	3	fb:cell.null											fb:part.null
+280	0	fb:cell.281p_moss	281P/MOSS	281p\\/moss	281p\\/moss	NN	O		281.0			281P|MOSS	fb:part.281p|fb:part.moss
+280	1	fb:cell.morocco_oukaimeden_sky_survey_moss	Morocco Oukaimeden Sky Survey (MOSS)	morocco|oukaimeden|sky|survey|-lrb-|moss|-rrb-	Morocco|Oukaimeden|Sky|survey|-lrb-|moss|-rrb-	NNP|NNP|NNP|NN|-LRB-|NN|-RRB-	LOCATION|O|O|O|O|O|O	||||||				Morocco Oukaimeden Sky Survey (MOSS)	fb:part.morocco_oukaimeden_sky_survey_moss
+280	2	fb:cell.10_69	10.69	10.69	10.69	CD	NUMBER	10.69	10.69				
+280	3	fb:cell.null											fb:part.null
+281	0	fb:cell.282p	282P	282p	282p	NN	O		282.0			282P	fb:part.282p
+281	1	fb:cell.null											fb:part.null
+281	2	fb:cell.8_76	8.76	8.76	8.76	CD	NUMBER	8.76	8.76				
+281	3	fb:cell.null											fb:part.null
+282	0	fb:cell.283p_spacewatch	283P/Spacewatch	283p\\/spacewatch	283p\\/spacewatch	NN	O		283.0			283P|Spacewatch	fb:part.283p|fb:part.spacewatch
+282	1	fb:cell.spacewatch	Spacewatch	spacewatch	Spacewatch	NNP	O					Spacewatch	fb:part.spacewatch
+282	2	fb:cell.8_40	8.40	8.40	8.40	CD	NUMBER	8.4	8.4				
+282	3	fb:cell.null											fb:part.null
+283	0	fb:cell.284p_mcnaught	284P/McNaught	284p\\/mcnaught	284p\\/mcnaught	JJ	O		284.0			284P|McNaught	fb:part.284p|fb:part.mcnaught
+283	1	fb:cell.mcnaught	McNaught	mcnaught	McNaught	NNP	PERSON					McNaught	fb:part.mcnaught
+283	2	fb:cell.7_04	7.04	7.04	7.04	CD	NUMBER	7.04	7.04				
+283	3	fb:cell.null											fb:part.null
+284	0	fb:cell.285p_linear	285P/LINEAR	285p\\/linear	285p\\/linear	NN	O		285.0			285P|LINEAR	fb:part.285p|fb:part.linear
+284	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+284	2	fb:cell.9_52	9.52	9.52	9.52	CD	NUMBER	9.52	9.52				
+284	3	fb:cell.null											fb:part.null
+285	0	fb:cell.286p_christensen	286P/Christensen	286p\\/christensen	286p\\/christensen	NN	O		286.0			286P|Christensen	fb:part.286p|fb:part.christensen
+285	1	fb:cell.christensen	Christensen	christensen	Christensen	NNP	PERSON					Christensen	fb:part.christensen
+285	2	fb:cell.8_37	8.37	8.37	8.37	CD	NUMBER	8.37	8.37				
+285	3	fb:cell.null											fb:part.null
+286	0	fb:cell.287p_christensen	287P/Christensen	287p\\/christensen	287p\\/christensen	NN	O		287.0			287P|Christensen	fb:part.287p|fb:part.christensen
+286	1	fb:cell.christensen	Christensen	christensen	Christensen	NNP	PERSON					Christensen	fb:part.christensen
+286	2	fb:cell.8_54	8.54	8.54	8.54	CD	NUMBER	8.54	8.54				
+286	3	fb:cell.null											fb:part.null
+287	0	fb:cell.288p_spacewatch_minor_planet_300163_2006_vw139	288P/Spacewatch = minor planet (300163) 2006 VW139	288p\\/spacewatch|=|minor|planet|-lrb-|300163|-rrb-|2006|vw139	288p\\/spacewatch|=|minor|planet|-lrb-|300163|-rrb-|2006|vw139	NN|JJ|JJ|NN|-LRB-|CD|-RRB-|CD|NN	O|O|O|O|O|NUMBER|O|DATE|O	|||||300163.0||2006|	288.0		300163.0	288P|Spacewatch = minor planet (300163) 2006 VW139	fb:part.288p|fb:part.spacewatch_minor_planet_300163_2006_vw139
+287	1	fb:cell.spacewatch	Spacewatch	spacewatch	Spacewatch	NNP	O					Spacewatch	fb:part.spacewatch
+287	2	fb:cell.5_32	5.32	5.32	5.32	CD	NUMBER	5.32	5.32				
+287	3	fb:cell.null											fb:part.null
+288	0	fb:cell.289p_blanpain	289P/Blanpain	289p\\/blanpain	289p\\/blanpain	NN	O		289.0			289P|Blanpain	fb:part.289p|fb:part.blanpain
+288	1	fb:cell.blanpain	Blanpain	blanpain	Blanpain	NNP	PERSON					Blanpain	fb:part.blanpain
+288	2	fb:cell.5_33	5.33	5.33	5.33	CD	NUMBER	5.33	5.33				
+288	3	fb:cell.null											fb:part.null
+289	0	fb:cell.290p_jager	290P/Jäger	290p\\/j|äger	290p\\/j|äger	NN|NN	O|O	|	290.0			290P|Jäger	fb:part.290p|fb:part.jager
+289	1	fb:cell.jager	Jäger	jäger	jäger	NN	O					Jäger	fb:part.jager
+289	2	fb:cell.15_2	15.2	15.2	15.2	CD	NUMBER	15.2	15.2				
+289	3	fb:cell.null											fb:part.null
+290	0	fb:cell.291p_neat	291P/NEAT	291p\\/neat	291p\\/neat	NN	O		291.0			291P|NEAT	fb:part.291p|fb:part.neat
+290	1	fb:cell.neat	NEAT	neat	neat	JJ	O					NEAT	fb:part.neat
+290	2	fb:cell.9_71	9.71	9.71	9.71	CD	NUMBER	9.71	9.71				
+290	3	fb:cell.null											fb:part.null
+291	0	fb:cell.292p_li	292P/Li	292p\\/li	292p\\/li	NN	O		292.0			292P|Li	fb:part.292p|fb:part.li
+291	1	fb:cell.li	Li	li	Li	NNP	O					Li	fb:part.li
+291	2	fb:cell.15_1	15.1	15.1	15.1	CD	NUMBER	15.1	15.1				
+291	3	fb:cell.null											fb:part.null
+292	0	fb:cell.293p_spacewatch	293P/Spacewatch	293p\\/spacewatch	293p\\/spacewatch	NN	O		293.0			293P|Spacewatch	fb:part.293p|fb:part.spacewatch
+292	1	fb:cell.spacewatch	Spacewatch	spacewatch	Spacewatch	NNP	O					Spacewatch	fb:part.spacewatch
+292	2	fb:cell.6_94	6.94	6.94	6.94	CD	NUMBER	6.94	6.94				
+292	3	fb:cell.null											fb:part.null
+293	0	fb:cell.294p_linear	294P/LINEAR	294p\\/linear	294p\\/linear	NN	O		294.0			294P|LINEAR	fb:part.294p|fb:part.linear
+293	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+293	2	fb:cell.5_74	5.74	5.74	5.74	CD	NUMBER	5.74	5.74				
+293	3	fb:cell.null											fb:part.null
+294	0	fb:cell.295p_linear	295P/LINEAR	295p\\/linear	295p\\/linear	NN	O		295.0			295P|LINEAR	fb:part.295p|fb:part.linear
+294	1	fb:cell.linear	LINEAR	linear	linear	NN	O					LINEAR	fb:part.linear
+294	2	fb:cell.12_3	12.3	12.3	12.3	CD	NUMBER	12.3	12.3				
+294	3	fb:cell.null											fb:part.null
+295	0	fb:cell.296p_garradd	296P/Garradd	296p\\/garradd	296p\\/garradd	NN	O		296.0			296P|Garradd	fb:part.296p|fb:part.garradd
+295	1	fb:cell.garradd	Garradd	garradd	Garradd	NNP	PERSON					Garradd	fb:part.garradd
+295	2	fb:cell.6_55	6.55	6.55	6.55	CD	NUMBER	6.55	6.55				
+295	3	fb:cell.null											fb:part.null
+296	0	fb:cell.297p_beshore	297P/Beshore	297p\\/beshore	297p\\/beshore	NN	O		297.0			297P|Beshore	fb:part.297p|fb:part.beshore
+296	1	fb:cell.beshore_mount_lemmon_survey	Beshore (Mount Lemmon Survey)	beshore|-lrb-|mount|lemmon|survey|-rrb-	Beshore|-lrb-|Mount|Lemmon|Survey|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	PERSON|O|O|O|O|O	|||||				Beshore (Mount Lemmon Survey)	fb:part.beshore_mount_lemmon_survey
+296	2	fb:cell.6_39	6.39	6.39	6.39	CD	NUMBER	6.39	6.39				
+296	3	fb:cell.null											fb:part.null

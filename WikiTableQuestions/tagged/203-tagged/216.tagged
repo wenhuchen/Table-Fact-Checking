@@ -1,0 +1,313 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rank	Rank	rank	Rank	NNP	O						
+-1	1	fb:row.row.hospital	Hospital	hospital	hospital	NN	O						
+-1	2	fb:row.row.city	City	city	City	NNP	O						
+-1	3	fb:row.row.county	County	county	County	NNP	O						
+-1	4	fb:row.row._beds	# Beds	#|beds	#|Beds	#|NNPS	O|O	|					
+-1	5	fb:row.row.type_of_hospital	Type of Hospital	type|of|hospital	type|of|hospital	NN|IN|NN	O|O|O	||					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.patton_state_hospital	Patton State Hospital	patton|state|hospital	Patton|State|Hospital	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Patton State Hospital	fb:part.patton_state_hospital
+0	2	fb:cell.patton	Patton	patton	patton	NN	PERSON						
+0	3	fb:cell.san_bernardino	San Bernardino	san|bernardino	San|Bernardino	NNP|NNP	LOCATION|LOCATION	|					
+0	4	fb:cell.1500	1500	1500	1500	CD	DATE	1500	1500.0	1500-xx-xx			
+0	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.la_county_usc_medical_center	LA County & USC Medical Center	la|county|&|usc|medical|center	LA|County|&|USC|Medical|Center	NNP|NNP|CC|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				LA County & USC Medical Center	fb:part.la_county_usc_medical_center
+1	2	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+1	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+1	4	fb:cell.1395	1395	1395	1395	CD	DATE	1395	1395.0	1395-xx-xx			
+1	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.napa_state_hospital	Napa State Hospital	napa|state|hospital	Napa|State|Hospital	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Napa State Hospital	fb:part.napa_state_hospital
+2	2	fb:cell.napa	Napa	napa	Napa	NNP	PERSON						
+2	3	fb:cell.napa	Napa	napa	Napa	NNP	PERSON						
+2	4	fb:cell.1385	1385	1385	1385	CD	DATE	1385	1385.0	1385-xx-xx			
+2	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.sonoma_developmental_center	Sonoma Developmental Center	sonoma|developmental|center	Sonoma|Developmental|Center	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Sonoma Developmental Center	fb:part.sonoma_developmental_center
+3	2	fb:cell.eldridge	Eldridge	eldridge	Eldridge	NNP	PERSON						
+3	3	fb:cell.sonoma	Sonoma	sonoma	sonoma	FW	LOCATION						
+3	4	fb:cell.1300	1300	1300	1300	CD	DATE	1300	1300.0	1300-xx-xx			
+3	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.lanterman_developmental_center	Lanterman Developmental Center	lanterman|developmental|center	Lanterman|Developmental|Center	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Lanterman Developmental Center	fb:part.lanterman_developmental_center
+4	2	fb:cell.pomona	Pomona	pomona	Pomona	NNP	LOCATION						
+4	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+4	4	fb:cell.1286	1286	1286	1286	CD	DATE	1286	1286.0	1286-xx-xx			
+4	5	fb:cell.rehabilitaion	Rehabilitaion	rehabilitaion	rehabilitaion	NN	O					Rehabilitaion	fb:part.rehabilitaion
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.fairview_developmental_center	Fairview Developmental Center	fairview|developmental|center	Fairview|Developmental|Center	NNP|NNP|NNP	O|O|O	||				Fairview Developmental Center	fb:part.fairview_developmental_center
+5	2	fb:cell.costa_mesa	Costa Mesa	costa|mesa	Costa|Mesa	NNP|NNP	O|O	|					
+5	3	fb:cell.orange	Orange	orange	Orange	NNP	O						
+5	4	fb:cell.1218	1218	1218	1218	CD	DATE	1218	1218.0	1218-xx-xx			
+5	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.porterville_developmental_center	Porterville Developmental Center	porterville|developmental|center	Porterville|Developmental|Center	NNP|NNP|NNP	LOCATION|O|O	||				Porterville Developmental Center	fb:part.porterville_developmental_center
+6	2	fb:cell.porterville	Porterville	porterville	Porterville	NNP	LOCATION						
+6	3	fb:cell.tulare	Tulare	tulare	tulare	FW	O						
+6	4	fb:cell.1210	1210	1210	1210	CD	DATE	1210	1210.0	1210-xx-xx			
+6	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.laguna_honda_hospital_rehabilitation_center	Laguna Honda Hospital Rehabilitation Center	laguna|honda|hospital|rehabilitation|center	Laguna|Honda|Hospital|Rehabilitation|Center	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Laguna Honda Hospital Rehabilitation Center	fb:part.laguna_honda_hospital_rehabilitation_center
+7	2	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+7	3	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+7	4	fb:cell.1200	1200	1200	1200	CD	DATE	1200	1200.0	1200-xx-xx			
+7	5	fb:cell.nursing_homes	Nursing Homes	nursing|homes	Nursing|Homes	NNP|NNPS	O|O	|				Nursing Homes	fb:part.nursing_homes
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.atascadero_state_hospital	Atascadero State Hospital	atascadero|state|hospital	Atascadero|State|Hospital	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Atascadero State Hospital	fb:part.atascadero_state_hospital
+8	2	fb:cell.atascadero	Atascadero	atascadero	Atascadero	NNP	LOCATION						
+8	3	fb:cell.san_luis_obispo	San Luis Obispo	san|luis|obispo	San|Luis|Obispo	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+8	4	fb:cell.1200	1200	1200	1200	CD	DATE	1200	1200.0	1200-xx-xx			
+8	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.veterans_home_of_california	Veterans Home of California	veterans|home|of|california	Veterans|Home|of|California	NNP|NNP|IN|NNP	O|O|O|LOCATION	|||				Veterans Home of California	fb:part.veterans_home_of_california
+9	2	fb:cell.yountville	Yountville	yountville	Yountville	NNP	LOCATION						
+9	3	fb:cell.napa	Napa	napa	Napa	NNP	PERSON						
+9	4	fb:cell.1100	1100	1100	1100	CD	DATE	1100	1100.0	1100-xx-xx			
+9	5	fb:cell.veteran_admin	Veteran Admin	veteran|admin	Veteran|Admin	NNP|NNP	O|O	|				Veteran Admin	fb:part.veteran_admin
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.metropolitan_state_hospital	Metropolitan State Hospital	metropolitan|state|hospital	Metropolitan|State|Hospital	NNP|NNP|NNP	O|O|O	||				Metropolitan State Hospital	fb:part.metropolitan_state_hospital
+10	2	fb:cell.norwalk	Norwalk	norwalk	Norwalk	NNP	LOCATION						
+10	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+10	4	fb:cell.1096	1096	1096	1096	CD	DATE	1096	1096.0	1096-xx-xx			
+10	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.va_palo_alto_health_care_system	VA Palo Alto Health Care System	va|palo|alto|health|care|system	VA|Palo|Alto|Health|Care|System	NNP|NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				VA Palo Alto Health Care System	fb:part.va_palo_alto_health_care_system
+11	2	fb:cell.palo_alto	Palo Alto	palo|alto	Palo|Alto	NNP|NNP	O|O	|					
+11	3	fb:cell.santa_clara	Santa Clara	santa|clara	Santa|Clara	NNP|NNP	LOCATION|LOCATION	|					
+11	4	fb:cell.967	967	967	967	CD	NUMBER	967.0	967.0				
+11	5	fb:cell.veteran_admin	Veteran Admin	veteran|admin	Veteran|Admin	NNP|NNP	O|O	|				Veteran Admin	fb:part.veteran_admin
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.cedars_sinai_medical_center	Cedars-Sinai Medical Center	cedars|sinai|medical|center	Cedars|Sinai|Medical|Center	NNP|NNP|NNP|NNP	O|O|O|O	|||				Cedars-Sinai Medical Center	fb:part.cedars_sinai_medical_center
+12	2	fb:cell.west_hollywood	West Hollywood	west|hollywood	West|Hollywood	NNP|NNP	LOCATION|LOCATION	|					
+12	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+12	4	fb:cell.952	952	952	952	CD	NUMBER	952.0	952.0				
+12	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.loma_linda_university_medica_center	Loma Linda University Medica Center	loma|linda|university|medica|center	Loma|Linda|University|Medica|Center	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Loma Linda University Medica Center	fb:part.loma_linda_university_medica_center
+13	2	fb:cell.loma_linda	Loma Linda	loma|linda	Loma|Linda	NNP|NNP	PERSON|PERSON	|					
+13	3	fb:cell.san_bernardino	San Bernardino	san|bernardino	San|Bernardino	NNP|NNP	LOCATION|LOCATION	|					
+13	4	fb:cell.822	822	822	822	CD	NUMBER	822.0	822.0				
+13	5	fb:cell.university_teaching	University/Teaching	university\\/teaching	university\\/teaching	VBG	O					University|Teaching	fb:part.university|fb:part.teaching
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.ucla_medical_center	UCLA Medical Center	ucla|medical|center	UCLA|Medical|Center	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				UCLA Medical Center	fb:part.ucla_medical_center
+14	2	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+14	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+14	4	fb:cell.668	668	668	668	CD	NUMBER	668.0	668.0				
+14	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.kaweah_delta_regional_medical_center	Kaweah Delta Regional Medical Center	kaweah|delta|regional|medical|center	Kaweah|Delta|Regional|Medical|Center	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Kaweah Delta Regional Medical Center	fb:part.kaweah_delta_regional_medical_center
+15	2	fb:cell.visalia	Visalia	visalia	Visalia	NNP	LOCATION						
+15	3	fb:cell.tulare	Tulare	tulare	tulare	FW	O						
+15	4	fb:cell.629	629	629	629	CD	NUMBER	629.0	629.0				
+15	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.naval_medical_center	Naval Medical Center	naval|medical|center	Naval|Medical|Center	NNP|NNP|NNP	O|O|O	||				Naval Medical Center	fb:part.naval_medical_center
+16	2	fb:cell.san_diego	San Diego	san|diego	San|Diego	NNP|NNP	LOCATION|LOCATION	|					
+16	3	fb:cell.san_diego	San Diego	san|diego	San|Diego	NNP|NNP	LOCATION|LOCATION	|					
+16	4	fb:cell.620	620	620	620	CD	NUMBER	620.0	620.0				
+16	5	fb:cell.military	Military	military	military	JJ	O					Military	fb:part.military
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.ucsd_medical_center	UCSD Medical Center	ucsd|medical|center	UCSD|Medical|Center	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				UCSD Medical Center	fb:part.ucsd_medical_center
+17	2	fb:cell.san_diego	San Diego	san|diego	San|Diego	NNP|NNP	LOCATION|LOCATION	|					
+17	3	fb:cell.san_diego	San Diego	san|diego	San|Diego	NNP|NNP	LOCATION|LOCATION	|					
+17	4	fb:cell.594	594	594	594	CD	NUMBER	594.0	594.0				
+17	5	fb:cell.university_teaching	University/Teaching	university\\/teaching	university\\/teaching	VBG	O					University|Teaching	fb:part.university|fb:part.teaching
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell.ucsf_medical_center_mount_zion	UCSF Medical Center Mount Zion	ucsf|medical|center|mount|zion	UCSF|Medical|Center|Mount|Zion	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				UCSF Medical Center Mount Zion	fb:part.ucsf_medical_center_mount_zion
+18	2	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+18	3	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+18	4	fb:cell.579	579	579	579	CD	NUMBER	579.0	579.0				
+18	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell.ucd_medical_center	UCD Medical Center	ucd|medical|center	UCD|Medical|Center	NNP|NNP|NNP	O|O|O	||				UCD Medical Center	fb:part.ucd_medical_center
+19	2	fb:cell.sacramento	Sacramento	sacramento	Sacramento	NNP	LOCATION						
+19	3	fb:cell.sacramento	Sacramento	sacramento	Sacramento	NNP	LOCATION						
+19	4	fb:cell.577	577	577	577	CD	NUMBER	577.0	577.0				
+19	5	fb:cell.university_teaching	University/Teaching	university\\/teaching	university\\/teaching	VBG	O					University|Teaching	fb:part.university|fb:part.teaching
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell.california_pacific_calif_campus	California Pacific/Calif Campus	california|pacific\\/calif|campus	California|Pacific\\/Calif|Campus	NNP|NNP|NNP	LOCATION|O|O	||				California Pacific|Calif Campus	fb:part.california_pacific|fb:part.calif_campus
+20	2	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+20	3	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+20	4	fb:cell.572	572	572	572	CD	NUMBER	572.0	572.0				
+20	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+21	0	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+21	1	fb:cell.long_beach_memorial_medical_center	Long Beach Memorial Medical Center	long|beach|memorial|medical|center	long|Beach|Memorial|Medical|Center	JJ|NNP|NNP|NNP|NNP	O|O|O|O|O	||||				Long Beach Memorial Medical Center	fb:part.long_beach_memorial_medical_center
+21	2	fb:cell.long_beach	Long Beach	long|beach	long|Beach	JJ|NNP	O|O	|					
+21	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+21	4	fb:cell.568	568	568	568	CD	NUMBER	568.0	568.0				
+21	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+22	0	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	1	fb:cell.harbor_ucla_medical_center	Harbor UCLA Medical Center	harbor|ucla|medical|center	Harbor|UCLA|Medical|Center	NNP|NNP|NNP|NNP	O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Harbor UCLA Medical Center	fb:part.harbor_ucla_medical_center
+22	2	fb:cell.torrance	Torrance	torrance	Torrance	NNP	PERSON						
+22	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+22	4	fb:cell.553	553	553	553	CD	NUMBER	553.0	553.0				
+22	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+23	0	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+23	1	fb:cell.mission_hospital_regional_medical_center	Mission Hospital Regional Medical Center	mission|hospital|regional|medical|center	Mission|Hospital|Regional|Medical|Center	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Mission Hospital Regional Medical Center	fb:part.mission_hospital_regional_medical_center
+23	2	fb:cell.mission_viejo	Mission Viejo	mission|viejo	Mission|Viejo	NNP|NNP	MISC|MISC	|					
+23	3	fb:cell.orange	Orange	orange	Orange	NNP	O						
+23	4	fb:cell.552	552	552	552	CD	NUMBER	552.0	552.0				
+23	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+24	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+24	1	fb:cell.alta_bates_summit_medical_center	Alta Bates Summit Medical Center	alta|bates|summit|medical|center	Alta|Bates|Summit|Medical|Center	NNP|NNP|NNP|NNP|NNP	O|O|O|O|O	||||				Alta Bates Summit Medical Center	fb:part.alta_bates_summit_medical_center
+24	2	fb:cell.berkeley	Berkeley	berkeley	Berkeley	NNP	LOCATION						
+24	3	fb:cell.alameda	Alameda	alameda	Alameda	NNP	LOCATION						
+24	4	fb:cell.551	551	551	551	CD	NUMBER	551.0	551.0				
+24	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+25	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+25	1	fb:cell.san_francisco_general_hospital	San Francisco General Hospital	san|francisco|general|hospital	San|Francisco|General|Hospital	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				San Francisco General Hospital	fb:part.san_francisco_general_hospital
+25	2	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+25	3	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+25	4	fb:cell.550	550	550	550	CD	NUMBER	550.0	550.0				
+25	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+26	0	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+26	1	fb:cell.ucsf_medical_center_at_parnassus	UCSF Medical Center at Parnassus	ucsf|medical|center|at|parnassus	UCSF|Medical|Center|at|Parnassus	NNP|NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	||||				UCSF Medical Center at Parnassus	fb:part.ucsf_medical_center_at_parnassus
+26	2	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+26	3	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+26	4	fb:cell.536	536	536	536	CD	NUMBER	536.0	536.0				
+26	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+27	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+27	1	fb:cell.alta_bates_summit_medical_center	Alta Bates Summit Medical Center	alta|bates|summit|medical|center	Alta|Bates|Summit|Medical|Center	NNP|NNP|NNP|NNP|NNP	O|O|O|O|O	||||				Alta Bates Summit Medical Center	fb:part.alta_bates_summit_medical_center
+27	2	fb:cell.oakland	Oakland	oakland	Oakland	NNP	LOCATION						
+27	3	fb:cell.alameda	Alameda	alameda	Alameda	NNP	LOCATION						
+27	4	fb:cell.534	534	534	534	CD	NUMBER	534.0	534.0				
+27	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+28	0	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+28	1	fb:cell.santa_clara_valley_medical_center	Santa Clara Valley Medical Center	santa|clara|valley|medical|center	Santa|Clara|Valley|Medical|Center	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Santa Clara Valley Medical Center	fb:part.santa_clara_valley_medical_center
+28	2	fb:cell.san_jose	San Jose	san|jose	San|Jose	NNP|NNP	LOCATION|LOCATION	|					
+28	3	fb:cell.santa_clara	Santa Clara	santa|clara	Santa|Clara	NNP|NNP	LOCATION|LOCATION	|					
+28	4	fb:cell.524	524	524	524	CD	NUMBER	524.0	524.0				
+28	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+29	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	1	fb:cell.scripps_mercy_hospital	Scripps Mercy Hospital	scripps|mercy|hospital	Scripps|Mercy|Hospital	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Scripps Mercy Hospital	fb:part.scripps_mercy_hospital
+29	2	fb:cell.san_diego	San Diego	san|diego	San|Diego	NNP|NNP	LOCATION|LOCATION	|					
+29	3	fb:cell.san_diego	San Diego	san|diego	San|Diego	NNP|NNP	LOCATION|LOCATION	|					
+29	4	fb:cell.523	523	523	523	CD	NUMBER	523.0	523.0				
+29	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+30	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+30	1	fb:cell.huntington_memorial_hospital	Huntington Memorial Hospital	huntington|memorial|hospital	Huntington|Memorial|Hospital	NNP|NNP|NNP	O|O|O	||				Huntington Memorial Hospital	fb:part.huntington_memorial_hospital
+30	2	fb:cell.pasadena	Pasadena	pasadena	Pasadena	NNP	LOCATION						
+30	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+30	4	fb:cell.522	522	522	522	CD	NUMBER	522.0	522.0				
+30	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+31	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+31	1	fb:cell.adventist_medical_center	Adventist Medical Center	adventist|medical|center	Adventist|Medical|Center	NNP|NNP|NNP	O|O|O	||				Adventist Medical Center	fb:part.adventist_medical_center
+31	2	fb:cell.glendale	Glendale	glendale	Glendale	NNP	LOCATION						
+31	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+31	4	fb:cell.508	508	508	508	CD	NUMBER	508.0	508.0				
+31	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+32	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+32	1	fb:cell.grossmont_hospital	Grossmont Hospital	grossmont|hospital	Grossmont|Hospital	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Grossmont Hospital	fb:part.grossmont_hospital
+32	2	fb:cell.la_mesa	La Mesa	la|mesa	La|Mesa	NNP|NNP	O|O	|					
+32	3	fb:cell.san_diego	San Diego	san|diego	San|Diego	NNP|NNP	LOCATION|LOCATION	|					
+32	4	fb:cell.481	481	481	481	CD	NUMBER	481.0	481.0				
+32	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+33	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+33	1	fb:cell.doctors_medical_center	Doctors Medical Center	doctors|medical|center	doctor|medical|Center	NNS|JJ|NNP	O|O|O	||				Doctors Medical Center	fb:part.doctors_medical_center
+33	2	fb:cell.modesto	Modesto	modesto	Modesto	NNP	LOCATION						
+33	3	fb:cell.stanislaus	Stanislaus	stanislaus	stanislaus	FW	O						
+33	4	fb:cell.465	465	465	465	CD	NUMBER	465.0	465.0				
+33	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+34	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+34	1	fb:cell.st_bernardine_medical_center	St. Bernardine Medical Center	st.|bernardine|medical|center	St.|Bernardine|Medical|Center	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				St. Bernardine Medical Center	fb:part.st_bernardine_medical_center
+34	2	fb:cell.san_bernardino	San Bernardino	san|bernardino	San|Bernardino	NNP|NNP	LOCATION|LOCATION	|					
+34	3	fb:cell.san_bernardino	San Bernardino	san|bernardino	San|Bernardino	NNP|NNP	LOCATION|LOCATION	|					
+34	4	fb:cell.463	463	463	463	CD	NUMBER	463.0	463.0				
+34	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+35	0	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+35	1	fb:cell.uci_medical_center	UCI Medical Center	uci|medical|center	UCI|Medical|Center	NNP|NNP|NNP	ORGANIZATION|O|O	||				UCI Medical Center	fb:part.uci_medical_center
+35	2	fb:cell.orange	Orange	orange	Orange	NNP	O						
+35	3	fb:cell.orange	Orange	orange	Orange	NNP	O						
+35	4	fb:cell.462	462	462	462	CD	NUMBER	462.0	462.0				
+35	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+36	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+36	1	fb:cell.stanford_medical_center	Stanford Medical Center	stanford|medical|center	Stanford|Medical|Center	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Stanford Medical Center	fb:part.stanford_medical_center
+36	2	fb:cell.stanford	Stanford	stanford	Stanford	NNP	LOCATION						
+36	3	fb:cell.santa_clara	Santa Clara	santa|clara	Santa|Clara	NNP|NNP	LOCATION|LOCATION	|					
+36	4	fb:cell.460	460	460	460	CD	NUMBER	460.0	460.0				
+36	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+37	0	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+37	1	fb:cell.community_regional_medical_center	Community Regional Medical Center	community|regional|medical|center	Community|Regional|Medical|Center	NNP|NNP|NNP|NNP	O|O|O|O	|||				Community Regional Medical Center	fb:part.community_regional_medical_center
+37	2	fb:cell.fresno	Fresno	fresno	Fresno	NNP	LOCATION						
+37	3	fb:cell.fresno	Fresno	fresno	Fresno	NNP	LOCATION						
+37	4	fb:cell.457	457	457	457	CD	NUMBER	457.0	457.0				
+37	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+38	0	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+38	1	fb:cell.methodist_hospital	Methodist Hospital	methodist|hospital	Methodist|Hospital	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Methodist Hospital	fb:part.methodist_hospital
+38	2	fb:cell.arcadia	Arcadia	arcadia	Arcadia	NNP	LOCATION						
+38	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+38	4	fb:cell.455	455	455	455	CD	NUMBER	455.0	455.0				
+38	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+39	0	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	1	fb:cell.providence_st_joseph_medical_center	Providence St. Joseph Medical Center	providence|st.|joseph|medical|center	Providence|St.|Joseph|Medical|Center	NNP|NNP|NNP|NNP|NNP	O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Providence St. Joseph Medical Center	fb:part.providence_st_joseph_medical_center
+39	2	fb:cell.burbank	Burbank	burbank	Burbank	NNP	LOCATION						
+39	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+39	4	fb:cell.455	455	455	455	CD	NUMBER	455.0	455.0				
+39	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+40	0	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+40	1	fb:cell.hoag_memorial_hospital	Hoag Memorial Hospital	hoag|memorial|hospital	Hoag|Memorial|Hospital	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Hoag Memorial Hospital	fb:part.hoag_memorial_hospital
+40	2	fb:cell.newport_beach	Newport Beach	newport|beach	Newport|Beach	NNP|NNP	LOCATION|LOCATION	|					
+40	3	fb:cell.orange	Orange	orange	Orange	NNP	O						
+40	4	fb:cell.450	450	450	450	CD	NUMBER	450.0	450.0				
+40	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+41	0	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+41	1	fb:cell.agnews_developmental_center	Agnews Developmental Center	agnews|developmental|center	Agnews|developmental|center	NNPS|JJ|NN	O|O|O	||				Agnews Developmental Center	fb:part.agnews_developmental_center
+41	2	fb:cell.san_jose	San Jose	san|jose	San|Jose	NNP|NNP	LOCATION|LOCATION	|					
+41	3	fb:cell.santa_clara	Santa Clara	santa|clara	Santa|Clara	NNP|NNP	LOCATION|LOCATION	|					
+41	4	fb:cell.450	450	450	450	CD	NUMBER	450.0	450.0				
+41	5	fb:cell.mental_health	Mental Health	mental|health	Mental|Health	NNP|NNP	O|O	|				Mental Health	fb:part.mental_health
+42	0	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+42	1	fb:cell.jewish_home	Jewish Home	jewish|home	Jewish|Home	NNP|NNP	MISC|O	|				Jewish Home	fb:part.jewish_home
+42	2	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+42	3	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+42	4	fb:cell.450	450	450	450	CD	NUMBER	450.0	450.0				
+42	5	fb:cell.nursing_homes	Nursing Homes	nursing|homes	Nursing|Homes	NNP|NNPS	O|O	|				Nursing Homes	fb:part.nursing_homes
+43	0	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+43	1	fb:cell.st_joseph_hospital_orange	St. Joseph Hospital Orange	st.|joseph|hospital|orange	St.|Joseph|Hospital|Orange	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				St. Joseph Hospital Orange	fb:part.st_joseph_hospital_orange
+43	2	fb:cell.orange	Orange	orange	Orange	NNP	O						
+43	3	fb:cell.orange	Orange	orange	Orange	NNP	O						
+43	4	fb:cell.448	448	448	448	CD	NUMBER	448.0	448.0				
+43	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+44	0	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+44	1	fb:cell.presbyterian_intercommunity	Presbyterian Intercommunity	presbyterian|intercommunity	presbyterian|intercommunity	JJ|NN	MISC|MISC	|				Presbyterian Intercommunity	fb:part.presbyterian_intercommunity
+44	2	fb:cell.whittier	Whittier	whittier	Whittier	NNP	LOCATION						
+44	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+44	4	fb:cell.441	441	441	441	CD	NUMBER	441.0	441.0				
+44	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+45	0	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+45	1	fb:cell.kaiser_permanente_medical_center	Kaiser Permanente Medical Center	kaiser|permanente|medical|center	Kaiser|Permanente|Medical|Center	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Kaiser Permanente Medical Center	fb:part.kaiser_permanente_medical_center
+45	2	fb:cell.fontana	Fontana	fontana	Fontana	NNP	PERSON						
+45	3	fb:cell.san_bernardino	San Bernardino	san|bernardino	San|Bernardino	NNP|NNP	LOCATION|LOCATION	|					
+45	4	fb:cell.440	440	440	440	CD	NUMBER	440.0	440.0				
+45	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+46	0	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+46	1	fb:cell.kaiser_permanente_medical_center	Kaiser Permanente Medical Center	kaiser|permanente|medical|center	Kaiser|Permanente|Medical|Center	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Kaiser Permanente Medical Center	fb:part.kaiser_permanente_medical_center
+46	2	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+46	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+46	4	fb:cell.439	439	439	439	CD	NUMBER	439.0	439.0				
+46	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+47	0	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+47	1	fb:cell.pomona_valley_hospital_medical_center	Pomona Valley Hospital Medical Center	pomona|valley|hospital|medical|center	Pomona|Valley|Hospital|Medical|Center	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Pomona Valley Hospital Medical Center	fb:part.pomona_valley_hospital_medical_center
+47	2	fb:cell.pomona	Pomona	pomona	Pomona	NNP	LOCATION						
+47	3	fb:cell.los_angeles	Los Angeles	los|angeles	Los|Angeles	NNP|NNP	LOCATION|LOCATION	|					
+47	4	fb:cell.436	436	436	436	CD	NUMBER	436.0	436.0				
+47	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+48	0	fb:cell.49	49	49	49	CD	NUMBER	49.0	49.0				
+48	1	fb:cell.sutter_general_medical_center	Sutter General Medical Center	sutter|general|medical|center	Sutter|General|Medical|Center	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Sutter General Medical Center	fb:part.sutter_general_medical_center
+48	2	fb:cell.sacramento	Sacramento	sacramento	Sacramento	NNP	LOCATION						
+48	3	fb:cell.sacramento	Sacramento	sacramento	Sacramento	NNP	LOCATION						
+48	4	fb:cell.432	432	432	432	CD	NUMBER	432.0	432.0				
+48	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+49	0	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+49	1	fb:cell.st_mary_medical_center	St. Mary Medical Center	st.|mary|medical|center	St.|Mary|Medical|Center	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				St. Mary Medical Center	fb:part.st_mary_medical_center
+49	2	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+49	3	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+49	4	fb:cell.430	430	430	430	CD	NUMBER	430.0	430.0				
+49	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care
+50	0	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+50	1	fb:cell.good_samaritan_hospital	Good Samaritan Hospital	good|samaritan|hospital	good|Samaritan|Hospital	JJ|NNP|NNP	O|O|O	||				Good Samaritan Hospital	fb:part.good_samaritan_hospital
+50	2	fb:cell.san_jose	San Jose	san|jose	San|Jose	NNP|NNP	LOCATION|LOCATION	|					
+50	3	fb:cell.santa_clara	Santa Clara	santa|clara	Santa|Clara	NNP|NNP	LOCATION|LOCATION	|					
+50	4	fb:cell.429	429	429	429	CD	NUMBER	429.0	429.0				
+50	5	fb:cell.general_acute_care	General Acute Care	general|acute|care	General|acute|care	NNP|JJ|NN	O|O|O	||				General Acute Care	fb:part.general_acute_care

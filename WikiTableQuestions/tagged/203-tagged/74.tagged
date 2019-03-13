@@ -1,0 +1,78 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rank	Rank	rank	Rank	NNP	O						
+-1	1	fb:row.row.urban_area	Urban Area	urban|area	Urban|Area	NNP|NNP	O|O	|					
+-1	2	fb:row.row.population_2001_census	Population\n(2001 Census)	population|-lrb-|2001|census|-rrb-	Population|-lrb-|2001|Census|-rrb-	NNP|-LRB-|CD|NNP|-RRB-	O|O|DATE|O|O	||2001||					
+-1	3	fb:row.row.area_km	Area (km²)	area|-lrb-|km|²|-rrb-	area|-lrb-|km|²|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||					
+-1	4	fb:row.row.density_people_km	Density (People/km²)	density|-lrb-|people\\/km|²|-rrb-	density|-lrb-|people\\/km|²|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||					
+-1	5	fb:row.row.major_subdivisions	Major subdivisions	major|subdivisions	major|subdivision	JJ|NNS	O|O	|					
+-1	6	fb:row.row.metropolitan_area	Metropolitan Area	metropolitan|area	Metropolitan|Area	NNP|NNP	O|O	|					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.greater_glasgow	Greater Glasgow	greater|glasgow	Greater|Glasgow	NNP|NNP	O|LOCATION	|				Greater Glasgow	fb:part.greater_glasgow
+0	2	fb:cell.1_168_270	1,168,270	1,168,270	1,168,270	CD	NUMBER	1168270.0	1168270.0				
+0	3	fb:cell.368_47	368.47	368.47	368.47	CD	NUMBER	368.47	368.47				
+0	4	fb:cell.3_171_0	3,171.0	3,171.0	3,171.0	CD	NUMBER	3171.0	3171.0				
+0	5	fb:cell.glasgow_paisley_coatbridge_clydebank_motherwell_wishaw	Glasgow, Paisley, Coatbridge, Clydebank, Motherwell, Wishaw	glasgow|,|paisley|,|coatbridge|,|clydebank|,|motherwell|,|wishaw	Glasgow|,|Paisley|,|Coatbridge|,|Clydebank|,|Motherwell|,|Wishaw	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP	LOCATION|O|PERSON|O|O|O|O|O|ORGANIZATION|O|LOCATION	||||||||||				Glasgow|Paisley|Coatbridge|Clydebank|Motherwell|Wishaw	fb:part.glasgow|fb:part.paisley|fb:part.coatbridge|fb:part.clydebank|fb:part.motherwell|fb:part.wishaw
+0	6	fb:cell.glasgow	Glasgow	glasgow	Glasgow	NNP	LOCATION						
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.edinburgh	Edinburgh	edinburgh	Edinburgh	NNP	LOCATION					Edinburgh	fb:part.edinburgh
+1	2	fb:cell.452_194	452,194	452,194	452,194	CD	NUMBER	452194.0	452194.0				
+1	3	fb:cell.120_11	120.11	120.11	120.11	CD	NUMBER	120.11	120.11				
+1	4	fb:cell.3_765_0	3,765.0	3,765.0	3,765.0	CD	NUMBER	3765.0	3765.0				
+1	5	fb:cell.edinburgh_musselburgh	Edinburgh, Musselburgh	edinburgh|,|musselburgh	Edinburgh|,|Musselburgh	NNP|,|NNP	LOCATION|O|LOCATION	||				Edinburgh|Musselburgh	fb:part.edinburgh|fb:part.musselburgh
+1	6	fb:cell.edinburgh	Edinburgh	edinburgh	Edinburgh	NNP	LOCATION					Edinburgh	fb:part.edinburgh
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.aberdeen	Aberdeen	aberdeen	Aberdeen	NNP	LOCATION					Aberdeen	fb:part.aberdeen
+2	2	fb:cell.197_328	197,328	197,328	197,328	CD	NUMBER	197328.0	197328.0				
+2	3	fb:cell.60_94	60.94	60.94	60.94	CD	NUMBER	60.94	60.94				
+2	4	fb:cell.3_238	3,238	3,238	3,238	CD	NUMBER	3238.0	3238.0				
+2	5	fb:cell.aberdeen_cove_bay_dyce	Aberdeen, Cove Bay, Dyce	aberdeen|,|cove|bay|,|dyce	Aberdeen|,|Cove|Bay|,|Dyce	NNP|,|NNP|NNP|,|NNP	ORGANIZATION|O|PERSON|PERSON|O|O	|||||				Aberdeen|Cove Bay|Dyce	fb:part.aberdeen|fb:part.cove_bay|fb:part.dyce
+2	6	fb:cell.aberdeen	Aberdeen	aberdeen	Aberdeen	NNP	LOCATION					Aberdeen	fb:part.aberdeen
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.dundee	Dundee	dundee	Dundee	NNP	LOCATION					Dundee	fb:part.dundee
+3	2	fb:cell.154_674	154,674	154,674	154,674	CD	NUMBER	154674.0	154674.0				
+3	3	fb:cell.67	67	67	67	CD	NUMBER	67.0	67.0				
+3	4	fb:cell.3_298	3,298	3,298	3,298	CD	NUMBER	3298.0	3298.0				
+3	5	fb:cell.dundee	Dundee	dundee	Dundee	NNP	LOCATION					Dundee	fb:part.dundee
+3	6	fb:cell.dundee	Dundee	dundee	Dundee	NNP	LOCATION					Dundee	fb:part.dundee
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.falkirk	Falkirk	falkirk	Falkirk	NNP	LOCATION					Falkirk	fb:part.falkirk
+4	2	fb:cell.91_402	91,402	91,402	91,402	CD	NUMBER	91402.0	91402.0				
+4	3	fb:cell.36_10	36.10	36.10	36.10	CD	NUMBER	36.1	36.1				
+4	4	fb:cell.2_532	2,532	2,532	2,532	CD	NUMBER	2532.0	2532.0				
+4	5	fb:cell.falkirk_grangemouth_carron_polmont_stenhousemuir	Falkirk, Grangemouth, Carron, Polmont, Stenhousemuir	falkirk|,|grangemouth|,|carron|,|polmont|,|stenhousemuir	Falkirk|,|Grangemouth|,|Carron|,|Polmont|,|Stenhousemuir	NNP|,|NNP|,|NNP|,|NNP|,|NNP	ORGANIZATION|O|O|O|PERSON|O|O|O|PERSON	||||||||				Falkirk|Grangemouth|Carron|Polmont|Stenhousemuir	fb:part.falkirk|fb:part.grangemouth|fb:part.carron|fb:part.polmont|fb:part.stenhousemuir
+4	6	fb:cell.falkirk	Falkirk	falkirk	Falkirk	NNP	LOCATION					Falkirk	fb:part.falkirk
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.east_kilbride	East Kilbride	east|kilbride	East|Kilbride	NNP|NNP	O|O	|				East Kilbride	fb:part.east_kilbride
+5	2	fb:cell.73_796	73,796	73,796	73,796	CD	NUMBER	73796.0	73796.0				
+5	3	fb:cell.24_12	24.12	24.12	24.12	CD	NUMBER	24.12	24.12				
+5	4	fb:cell.3_060	3,060	3,060	3,060	CD	NUMBER	3060.0	3060.0				
+5	5	fb:cell.east_kilbride	East Kilbride	east|kilbride	East|Kilbride	NNP|NNP	O|O	|				East Kilbride	fb:part.east_kilbride
+5	6	fb:cell.glasgow	Glasgow	glasgow	Glasgow	NNP	LOCATION						
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.greenock	Greenock	greenock	Greenock	NNP	PERSON					Greenock	fb:part.greenock
+6	2	fb:cell.73_595	73,595	73,595	73,595	CD	NUMBER	73595.0	73595.0				
+6	3	fb:cell.20_69	20.69	20.69	20.69	CD	NUMBER	20.69	20.69				
+6	4	fb:cell.3_557	3,557	3,557	3,557	CD	NUMBER	3557.0	3557.0				
+6	5	fb:cell.greenock_gourock_port_glasgow	Greenock, Gourock, Port Glasgow	greenock|,|gourock|,|port|glasgow	Greenock|,|Gourock|,|Port|Glasgow	NNP|,|NNP|,|NNP|NNP	PERSON|O|O|O|LOCATION|LOCATION	|||||				Greenock|Gourock|Port Glasgow	fb:part.greenock|fb:part.gourock|fb:part.port_glasgow
+6	6	fb:cell.glasgow	Glasgow	glasgow	Glasgow	NNP	LOCATION						
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.blantyre_hamilton	Blantyre/Hamilton	blantyre\\/hamilton	blantyre\\/hamilton	NN	O					Blantyre|Hamilton	fb:part.blantyre|fb:part.hamilton
+7	2	fb:cell.65_874	65,874	65,874	65,874	CD	NUMBER	65874.0	65874.0				
+7	3	fb:cell.22_63	22.63	22.63	22.63	CD	NUMBER	22.63	22.63				
+7	4	fb:cell.2_911	2,911	2,911	2,911	CD	NUMBER	2911.0	2911.0				
+7	5	fb:cell.blantyre_hamilton_2	Blantyre, Hamilton	blantyre|,|hamilton	Blantyre|,|Hamilton	NNP|,|NNP	LOCATION|O|PERSON	||				Blantyre|Hamilton	fb:part.blantyre|fb:part.hamilton
+7	6	fb:cell.glasgow	Glasgow	glasgow	Glasgow	NNP	LOCATION						
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.ayr_prestwick	Ayr/Prestwick	ayr\\/prestwick	ayr\\/prestwick	NN	O					Ayr|Prestwick	fb:part.ayr|fb:part.prestwick
+8	2	fb:cell.61_365	61,365	61,365	61,365	CD	NUMBER	61365.0	61365.0				
+8	3	fb:cell.23_57	23.57	23.57	23.57	CD	NUMBER	23.57	23.57				
+8	4	fb:cell.2_604	2,604	2,604	2,604	CD	NUMBER	2604.0	2604.0				
+8	5	fb:cell.ayr_prestwick_2	Ayr, Prestwick	ayr|,|prestwick	Ayr|,|Prestwick	NNP|,|NNP	O|O|LOCATION	||				Ayr|Prestwick	fb:part.ayr|fb:part.prestwick
+8	6	fb:cell.ayr	Ayr	ayr	ayr	NN	O						
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.livingston	Livingston	livingston	Livingston	NNP	PERSON					Livingston	fb:part.livingston
+9	2	fb:cell.59_511	59,511	59,511	59,511	CD	NUMBER	59511.0	59511.0				
+9	3	fb:cell.26_07	26.07	26.07	26.07	CD	NUMBER	26.07	26.07				
+9	4	fb:cell.2_283	2,283	2,283	2,283	CD	NUMBER	2283.0	2283.0				
+9	5	fb:cell.livingston_east_calder_mid_calder	Livingston, East Calder, Mid Calder	livingston|,|east|calder|,|mid|calder	Livingston|,|East|Calder|,|Mid|Calder	NNP|,|NNP|NNP|,|NNP|NNP	PERSON|O|O|O|O|LOCATION|LOCATION	||||||				Livingston|East Calder|Mid Calder	fb:part.livingston|fb:part.east_calder|fb:part.mid_calder
+9	6	fb:cell.edinburgh	Edinburgh	edinburgh	Edinburgh	NNP	LOCATION					Edinburgh	fb:part.edinburgh

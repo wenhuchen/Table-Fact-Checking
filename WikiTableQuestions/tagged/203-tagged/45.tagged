@@ -1,0 +1,1786 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.character	Character	character	character	NN	O						
+-1	2	fb:row.row.unicode_code_point_decimal	Unicode code point (decimal)	unicode|code|point|-lrb-|decimal|-rrb-	Unicode|code|point|-lrb-|decimal|-rrb-	NNP|NN|NN|-LRB-|JJ|-RRB-	ORGANIZATION|O|O|O|O|O	|||||					
+-1	3	fb:row.row.standard	Standard	standard	Standard	NNP	O						
+-1	4	fb:row.row.dtd	DTD	dtd	dtd	IN	O						
+-1	5	fb:row.row.old_iso_subset	Old ISO subset	old|iso|subset	old|iso|subset	JJ|NN|NN	O|O|O	||					
+-1	6	fb:row.row.description	Description	description	description	NN	O						
+0	0	fb:cell.quot	quot	quot	quot	NN	O						
+0	1	fb:cell.null	"	''	''	''	O						
+0	2	fb:cell.u_0022_34	U+0022 (34)	u|+0022|-lrb-|34|-rrb-	U|+0022|-lrb-|34|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|22.0||34.0|	22.0		34.0		
+0	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+0	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+0	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+0	6	fb:cell.quotation_mark_apl_quote	quotation mark (APL quote)	quotation|mark|-lrb-|apl|quote|-rrb-	quotation|mark|-lrb-|apl|quote|-rrb-	NN|NN|-LRB-|NN|NN|-RRB-	O|O|O|ORGANIZATION|O|O	|||||				quotation mark (APL quote)	fb:part.quotation_mark_apl_quote
+1	0	fb:cell.amp	amp	amp	amp	IN	O						
+1	1	fb:cell.null_2	&	&	&	CC	O						
+1	2	fb:cell.u_0026_38	U+0026 (38)	u|+0026|-lrb-|38|-rrb-	U|+0026|-lrb-|38|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|26.0||38.0|	26.0		38.0		
+1	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+1	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+1	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+1	6	fb:cell.ampersand	ampersand	ampersand	ampersand	NN	O					ampersand	fb:part.ampersand
+2	0	fb:cell.apos	apos	apos	apo	NNS	O						
+2	1	fb:cell.null_3	'	'	'	''	O						
+2	2	fb:cell.u_0027_39	U+0027 (39)	u|+0027|-lrb-|39|-rrb-	U|+0027|-lrb-|39|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|27.0||39.0|	27.0		39.0		
+2	3	fb:cell.xhtml_1_0	XHTML 1.0	xhtml|1.0	xhtml|1.0	NN|CD	O|NUMBER	|1.0	1.0				
+2	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+2	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+2	6	fb:cell.apostrophe_apostrophe_quote_see_below	apostrophe (apostrophe-quote); see below	apostrophe|-lrb-|apostrophe|quote|-rrb-|;|see|below	apostrophe|-lrb-|apostrophe|quote|-rrb-|;|see|below	NN|-LRB-|NN|NN|-RRB-|:|VB|IN	O|O|O|O|O|O|O|O	|||||||				apostrophe (apostrophe-quote); see below	fb:part.apostrophe_apostrophe_quote_see_below
+3	0	fb:cell.lt	lt	lt	lt	NN	O						
+3	1	fb:cell.null_4	<	<	<	JJR	O						
+3	2	fb:cell.u_003c_60	U+003C (60)	u|+003|c|-lrb-|60|-rrb-	U|+003|c|-lrb-|60|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||60.0|	3.0		60.0		
+3	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+3	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+3	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+3	6	fb:cell.less_than_sign	less-than sign	less|than|sign	less|than|sign	JJR|IN|NN	O|O|O	||				less-than sign	fb:part.less_than_sign
+4	0	fb:cell.gt	gt	gt	gt	NN	O						
+4	1	fb:cell.null_5	>	>	>	JJR	O						
+4	2	fb:cell.u_003e_62	U+003E (62)	u|+003|e|-lrb-|62|-rrb-	U|+003|e|-lrb-|62|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||62.0|	3.0		62.0		
+4	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+4	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+4	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+4	6	fb:cell.greater_than_sign	greater-than sign	greater|than|sign	greater|than|sign	JJR|IN|NN	O|O|O	||				greater-than sign	fb:part.greater_than_sign
+5	0	fb:cell.nbsp	nbsp	nbsp	nbsp	NN	O						
+5	1	fb:cell.null_6											
+5	2	fb:cell.u_00a0_160	U+00A0 (160)	u|+00|a0|-lrb-|160|-rrb-	U|+00|a0|-lrb-|160|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||160.0|	0.0		0.0		
+5	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+5	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+5	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+5	6	fb:cell.no_break_space_non_breaking_space	no-break space (non-breaking space)	no|break|space|-lrb-|non|breaking|space|-rrb-	no|break|space|-lrb-|non|breaking|space|-rrb-	DT|NN|NN|-LRB-|JJ|JJ|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				no-break space (non-breaking space)	fb:part.no_break_space_non_breaking_space
+6	0	fb:cell.iexcl	iexcl	iexcl	iexcl	NN	O						
+6	1	fb:cell.null_7	¡	¡	¡	NN	O						
+6	2	fb:cell.u_00a1_161	U+00A1 (161)	u|+00|a1|-lrb-|161|-rrb-	U|+00|a1|-lrb-|161|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||161.0|	0.0		1.0		
+6	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+6	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+6	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+6	6	fb:cell.inverted_exclamation_mark	inverted exclamation mark	inverted|exclamation|mark	inverted|exclamation|mark	JJ|JJ|NN	O|O|O	||				inverted exclamation mark	fb:part.inverted_exclamation_mark
+7	0	fb:cell.cent	cent	cent	cent	NN	O						
+7	1	fb:cell.null_8	¢	cents	cent	NNS	O						
+7	2	fb:cell.u_00a2_162	U+00A2 (162)	u|+00|a2|-lrb-|162|-rrb-	U|+00|a2|-lrb-|162|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||162.0|	0.0		2.0		
+7	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+7	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+7	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+7	6	fb:cell.cent_sign	cent sign	cent|sign	cent|sign	NN|NN	O|O	|				cent sign	fb:part.cent_sign
+8	0	fb:cell.pound	pound	pound	pound	NN	O						
+8	1	fb:cell.null_9	£	#	#	#	O						
+8	2	fb:cell.u_00a3_163	U+00A3 (163)	u|+00|a3|-lrb-|163|-rrb-	U|+00|a3|-lrb-|163|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||163.0|	0.0		3.0		
+8	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+8	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+8	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+8	6	fb:cell.pound_sign	pound sign	pound|sign	pound|sign	NN|NN	O|O	|				pound sign	fb:part.pound_sign
+9	0	fb:cell.curren	curren	curren	curren	NN	O						
+9	1	fb:cell.null_10	¤	$	$	$	O						
+9	2	fb:cell.u_00a4_164	U+00A4 (164)	u|+00|a4|-lrb-|164|-rrb-	U|+00|a4|-lrb-|164|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||164.0|	0.0		4.0		
+9	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+9	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+9	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+9	6	fb:cell.currency_sign	currency sign	currency|sign	currency|sign	NN|NN	O|O	|				currency sign	fb:part.currency_sign
+10	0	fb:cell.yen	yen	yen	yen	NNS	O						
+10	1	fb:cell.null_11	¥	¥	¥	NN	O						
+10	2	fb:cell.u_00a5_165	U+00A5 (165)	u|+00|a5|-lrb-|165|-rrb-	U|+00|a5|-lrb-|165|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||165.0|	0.0		5.0		
+10	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+10	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+10	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+10	6	fb:cell.yen_sign_yuan_sign	yen sign (yuan sign)	yen|sign|-lrb-|yuan|sign|-rrb-	yen|sign|-lrb-|yuan|sign|-rrb-	NN|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O	|||||				yen sign (yuan sign)	fb:part.yen_sign_yuan_sign
+11	0	fb:cell.brvbar	brvbar	brvbar	brvbar	NN	O						
+11	1	fb:cell.null_12	¦	¦	¦	NN	O						
+11	2	fb:cell.u_00a6_166	U+00A6 (166)	u|+00|a6|-lrb-|166|-rrb-	U|+00|a6|-lrb-|166|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||166.0|	0.0		6.0		
+11	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+11	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+11	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+11	6	fb:cell.broken_bar_broken_vertical_bar	broken bar (broken vertical bar)	broken|bar|-lrb-|broken|vertical|bar|-rrb-	broken|bar|-lrb-|broken|vertical|bar|-rrb-	JJ|NN|-LRB-|JJ|JJ|NN|-RRB-	O|O|O|O|O|O|O	||||||				broken bar (broken vertical bar)	fb:part.broken_bar_broken_vertical_bar
+12	0	fb:cell.sect	sect	sect	sect	NN	O						
+12	1	fb:cell.null_13	§	§	§	NN	O						
+12	2	fb:cell.u_00a7_167	U+00A7 (167)	u|+00|a7|-lrb-|167|-rrb-	U|+00|a7|-lrb-|167|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||167.0|	0.0		7.0		
+12	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+12	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+12	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+12	6	fb:cell.section_sign	section sign	section|sign	section|sign	NN|NN	O|O	|				section sign	fb:part.section_sign
+13	0	fb:cell.uml	uml	uml	uml	NN	O						
+13	1	fb:cell.null_14	¨	¨	¨	NN	O						
+13	2	fb:cell.u_00a8_168	U+00A8 (168)	u|+00|a8|-lrb-|168|-rrb-	U|+00|a8|-lrb-|168|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||168.0|	0.0		8.0		
+13	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+13	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+13	5	fb:cell.isodia	ISOdia	isodia	isodium	NN	O						
+13	6	fb:cell.diaeresis_spacing_diaeresis_see_germanic_umlaut	diaeresis (spacing diaeresis); see Germanic umlaut	diaeresis|-lrb-|spacing|diaeresis|-rrb-|;|see|germanic|umlaut	diaeresis|-lrb-|spacing|diaeresis|-rrb-|;|see|germanic|umlaut	NN|-LRB-|NN|NN|-RRB-|:|VB|JJ|NN	O|O|O|O|O|O|O|MISC|O	||||||||				diaeresis (spacing diaeresis); see Germanic umlaut	fb:part.diaeresis_spacing_diaeresis_see_germanic_umlaut
+14	0	fb:cell.copy	copy	copy	copy	NN	O						
+14	1	fb:cell.null_15	©	©	©	NN	O						
+14	2	fb:cell.u_00a9_169	U+00A9 (169)	u|+00|a9|-lrb-|169|-rrb-	U|+00|a9|-lrb-|169|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||169.0|	0.0		9.0		
+14	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+14	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+14	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+14	6	fb:cell.copyright_symbol	copyright symbol	copyright|symbol	copyright|symbol	NN|NN	O|O	|				copyright symbol	fb:part.copyright_symbol
+15	0	fb:cell.ordf	ordf	ordf	ordf	NN	O						
+15	1	fb:cell.null_16	ª	ª	ª	NN	O						
+15	2	fb:cell.u_00aa_170	U+00AA (170)	u|+00|aa|-lrb-|170|-rrb-	U|+00|aa|-lrb-|170|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||170.0|	0.0		170.0		
+15	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+15	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+15	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+15	6	fb:cell.feminine_ordinal_indicator	feminine ordinal indicator	feminine|ordinal|indicator	feminine|ordinal|indicator	JJ|JJ|NN	O|O|O	||				feminine ordinal indicator	fb:part.feminine_ordinal_indicator
+16	0	fb:cell.laquo	laquo	laquo	laquo	NN	O						
+16	1	fb:cell.null	"	''	''	''	O						
+16	2	fb:cell.u_00ab_171	U+00AB (171)	u|+00|ab|-lrb-|171|-rrb-	U|+00|AB|-lrb-|171|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||171.0|	0.0		171.0		
+16	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+16	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+16	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+16	6	fb:cell.left_pointing_double_angle_quotation_mark_left_pointing_guillemet	left-pointing double angle quotation mark (left pointing guillemet)	left|pointing|double|angle|quotation|mark|-lrb-|left|pointing|guillemet|-rrb-	left|point|double|angle|quotation|mark|-lrb-|left|point|guillemet|-rrb-	RB|VBG|JJ|NN|NN|NN|-LRB-|JJ|VBG|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O	||||||||||				left-pointing double angle quotation mark (left pointing guillemet)	fb:part.left_pointing_double_angle_quotation_mark_left_pointing_guillemet
+17	0	fb:cell.not	not	not	not	RB	O						
+17	1	fb:cell.null_17	¬	¬	¬	NN	O						
+17	2	fb:cell.u_00ac_172	U+00AC (172)	u|+00|ac|-lrb-|172|-rrb-	U|+00|ac|-lrb-|172|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||172.0|	0.0		172.0		
+17	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+17	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+17	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+17	6	fb:cell.not_sign	not sign	not|sign	not|sign	RB|NN	O|O	|				not sign	fb:part.not_sign
+18	0	fb:cell.shy	shy	shy	shy	JJ	O						
+18	1	fb:cell.null_6											
+18	2	fb:cell.u_00ad_173	U+00AD (173)	u|+00|ad|-lrb-|173|-rrb-	U|+00|ad|-lrb-|173|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|DATE|DATE|O|NUMBER|O	|+0000|+0000||173.0|	0.0		173.0		
+18	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+18	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+18	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+18	6	fb:cell.soft_hyphen_discretionary_hyphen	soft hyphen (discretionary hyphen)	soft|hyphen|-lrb-|discretionary|hyphen|-rrb-	soft|hyphen|-lrb-|discretionary|hyphen|-rrb-	JJ|NN|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O	|||||				soft hyphen (discretionary hyphen)	fb:part.soft_hyphen_discretionary_hyphen
+19	0	fb:cell.reg	reg	reg	reg	NN	O						
+19	1	fb:cell.null_18	®	®	®	NN	O						
+19	2	fb:cell.u_00ae_174	U+00AE (174)	u|+00|ae|-lrb-|174|-rrb-	U|+00|ae|-lrb-|174|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||174.0|	0.0		174.0		
+19	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+19	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+19	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+19	6	fb:cell.registered_sign_registered_trademark_symbol	registered sign (registered trademark symbol)	registered|sign|-lrb-|registered|trademark|symbol|-rrb-	register|sign|-lrb-|register|trademark|symbol|-rrb-	VBN|NN|-LRB-|VBN|NN|NN|-RRB-	O|O|O|O|O|O|O	||||||				registered sign (registered trademark symbol)	fb:part.registered_sign_registered_trademark_symbol
+20	0	fb:cell.macr	macr	macr	macr	NN	O						
+20	1	fb:cell.null_19	¯	¯	¯	NN	O						
+20	2	fb:cell.u_00af_175	U+00AF (175)	u|+00|af|-lrb-|175|-rrb-	U|+00|af|-lrb-|175|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||175.0|	0.0		175.0		
+20	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+20	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+20	5	fb:cell.isodia	ISOdia	isodia	isodium	NN	O						
+20	6	fb:cell.macron_spacing_macron_overline_apl_overbar	macron (spacing macron, overline, APL overbar)	macron|-lrb-|spacing|macron|,|overline|,|apl|overbar|-rrb-	macron|-lrb-|spacing|macron|,|overline|,|apl|overbar|-rrb-	NN|-LRB-|NN|NN|,|NN|,|NN|NN|-RRB-	O|O|O|O|O|O|O|ORGANIZATION|O|O	|||||||||				macron (spacing macron|overline|APL overbar)	fb:part.macron_spacing_macron|fb:part.overline|fb:part.apl_overbar
+21	0	fb:cell.deg	deg	deg	deg	NN	O						
+21	1	fb:cell.null_20	°	°	°	NN	O						
+21	2	fb:cell.u_00b0_176	U+00B0 (176)	u|+00|b0|-lrb-|176|-rrb-	U|+00|b0|-lrb-|176|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||176.0|	0.0		0.0		
+21	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+21	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+21	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+21	6	fb:cell.degree_symbol	degree symbol	degree|symbol	degree|symbol	NN|NN	O|O	|				degree symbol	fb:part.degree_symbol
+22	0	fb:cell.plusmn	plusmn	plusmn	plusmn	NN	O						
+22	1	fb:cell.null_21	±	±	±	NN	O						
+22	2	fb:cell.u_00b1_177	U+00B1 (177)	u|+00|b1|-lrb-|177|-rrb-	U|+00|b1|-lrb-|177|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||177.0|	0.0		1.0		
+22	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+22	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+22	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+22	6	fb:cell.plus_minus_sign_plus_or_minus_sign	plus-minus sign (plus-or-minus sign)	plus|minus|sign|-lrb-|plus|or|minus|sign|-rrb-	plus|minus|sign|-lrb-|plus|or|minus|sign|-rrb-	CC|CC|NN|-LRB-|CC|CC|CC|NN|-RRB-	O|O|O|O|O|O|O|O|O	||||||||				plus-minus sign (plus-or-minus sign)	fb:part.plus_minus_sign_plus_or_minus_sign
+23	0	fb:cell.sup2	sup2	sup2	sup2	NN	O		2.0				
+23	1	fb:cell.null_22	²	²	²	NN	O						
+23	2	fb:cell.u_00b2_178	U+00B2 (178)	u|+00|b2|-lrb-|178|-rrb-	U|+00|b2|-lrb-|178|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||178.0|	0.0		2.0		
+23	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+23	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+23	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+23	6	fb:cell.superscript_two_superscript_digit_two_squared	superscript two (superscript digit two, squared)	superscript|two|-lrb-|superscript|digit|two|,|squared|-rrb-	superscript|two|-lrb-|superscript|digit|two|,|square|-rrb-	JJ|CD|-LRB-|JJ|NN|CD|,|VBN|-RRB-	O|NUMBER|O|O|O|NUMBER|O|O|O	|2.0||||2.0|||				superscript two (superscript digit two|squared)	fb:part.superscript_two_superscript_digit_two|fb:part.squared
+24	0	fb:cell.sup3	sup3	sup3	sup3	NN	O		3.0				
+24	1	fb:cell.null_23	³	³	³	NN	O						
+24	2	fb:cell.u_00b3_179	U+00B3 (179)	u|+00|b3|-lrb-|179|-rrb-	U|+00|b3|-lrb-|179|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||179.0|	0.0		3.0		
+24	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+24	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+24	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+24	6	fb:cell.superscript_three_superscript_digit_three_cubed	superscript three (superscript digit three, cubed)	superscript|three|-lrb-|superscript|digit|three|,|cubed|-rrb-	superscript|three|-lrb-|superscript|digit|three|,|cube|-rrb-	JJ|CD|-LRB-|JJ|NN|CD|,|VBN|-RRB-	O|NUMBER|O|O|O|NUMBER|O|O|O	|3.0||||3.0|||				superscript three (superscript digit three|cubed)	fb:part.superscript_three_superscript_digit_three|fb:part.cubed
+25	0	fb:cell.acute	acute	acute	acute	JJ	O						
+25	1	fb:cell.null_3	'	'	'	''	O						
+25	2	fb:cell.u_00b4_180	U+00B4 (180)	u|+00|b4|-lrb-|180|-rrb-	U|+00|b4|-lrb-|180|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||180.0|	0.0		4.0		
+25	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+25	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+25	5	fb:cell.isodia	ISOdia	isodia	isodium	NN	O						
+25	6	fb:cell.acute_accent_spacing_acute	acute accent (spacing acute)	acute|accent|-lrb-|spacing|acute|-rrb-	acute|accent|-lrb-|spacing|acute|-rrb-	JJ|NN|-LRB-|NN|JJ|-RRB-	O|O|O|O|O|O	|||||				acute accent (spacing acute)	fb:part.acute_accent_spacing_acute
+26	0	fb:cell.micro	micro	micro	micro	JJ	O						
+26	1	fb:cell.null_24	µ	µ	µ	NN	O						
+26	2	fb:cell.u_00b5_181	U+00B5 (181)	u|+00|b5|-lrb-|181|-rrb-	U|+00|b5|-lrb-|181|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||181.0|	0.0		5.0		
+26	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+26	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+26	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+26	6	fb:cell.micro_sign	micro sign	micro|sign	micro|sign	JJ|NN	O|O	|				micro sign	fb:part.micro_sign
+27	0	fb:cell.para	para	para	para	NN	O						
+27	1	fb:cell.null_25	¶	¶	¶	NN	O						
+27	2	fb:cell.u_00b6_182	U+00B6 (182)	u|+00|b6|-lrb-|182|-rrb-	U|+00|b6|-lrb-|182|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||182.0|	0.0		6.0		
+27	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+27	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+27	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+27	6	fb:cell.pilcrow_sign_paragraph_sign	pilcrow sign (paragraph sign)	pilcrow|sign|-lrb-|paragraph|sign|-rrb-	pilcrow|sign|-lrb-|paragraph|sign|-rrb-	NN|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O	|||||				pilcrow sign (paragraph sign)	fb:part.pilcrow_sign_paragraph_sign
+28	0	fb:cell.middot	middot	middot	middot	NN	O						
+28	1	fb:cell.null_26	·	·	·	NN	O						
+28	2	fb:cell.u_00b7_183	U+00B7 (183)	u|+00|b7|-lrb-|183|-rrb-	U|+00|b7|-lrb-|183|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||183.0|	0.0		7.0		
+28	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+28	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+28	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+28	6	fb:cell.middle_dot_georgian_comma_greek_middle_dot	middle dot (Georgian comma, Greek middle dot)	middle|dot|-lrb-|georgian|comma|,|greek|middle|dot|-rrb-	middle|dot|-lrb-|georgian|comma|,|greek|middle|dot|-rrb-	JJ|NN|-LRB-|JJ|NN|,|JJ|JJ|NN|-RRB-	O|O|O|LOCATION|O|O|MISC|O|O|O	|||||||||				middle dot (Georgian comma|Greek middle dot)	fb:part.middle_dot_georgian_comma|fb:part.greek_middle_dot
+29	0	fb:cell.cedil	cedil	cedil	cedil	NN	O						
+29	1	fb:cell.null_27	¸	¸	¸	NN	O						
+29	2	fb:cell.u_00b8_184	U+00B8 (184)	u|+00|b8|-lrb-|184|-rrb-	U|+00|b8|-lrb-|184|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||184.0|	0.0		8.0		
+29	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+29	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+29	5	fb:cell.isodia	ISOdia	isodia	isodium	NN	O						
+29	6	fb:cell.cedilla_spacing_cedilla	cedilla (spacing cedilla)	cedilla|-lrb-|spacing|cedilla|-rrb-	cedilla|-lrb-|spacing|cedilla|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||				cedilla (spacing cedilla)	fb:part.cedilla_spacing_cedilla
+30	0	fb:cell.sup1	sup1	sup1	sup1	NN	O		1.0				
+30	1	fb:cell.null_28	¹	¹	¹	NN	O						
+30	2	fb:cell.u_00b9_185	U+00B9 (185)	u|+00|b9|-lrb-|185|-rrb-	U|+00|b9|-lrb-|185|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||185.0|	0.0		9.0		
+30	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+30	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+30	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+30	6	fb:cell.superscript_one_superscript_digit_one	superscript one (superscript digit one)	superscript|one|-lrb-|superscript|digit|one|-rrb-	superscript|one|-lrb-|superscript|digit|one|-rrb-	JJ|CD|-LRB-|JJ|NN|CD|-RRB-	O|NUMBER|O|O|O|NUMBER|O	|1.0||||1.0|				superscript one (superscript digit one)	fb:part.superscript_one_superscript_digit_one
+31	0	fb:cell.ordm	ordm	ordm	ordm	NN	O						
+31	1	fb:cell.null_29	º	º	º	NN	O						
+31	2	fb:cell.u_00ba_186	U+00BA (186)	u|+00|ba|-lrb-|186|-rrb-	U|+00|ba|-lrb-|186|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||186.0|	0.0		186.0		
+31	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+31	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+31	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+31	6	fb:cell.masculine_ordinal_indicator	masculine ordinal indicator	masculine|ordinal|indicator	masculine|ordinal|indicator	JJ|JJ|NN	O|O|O	||				masculine ordinal indicator	fb:part.masculine_ordinal_indicator
+32	0	fb:cell.raquo	raquo	raquo	raquo	NN	O						
+32	1	fb:cell.null	"	''	''	''	O						
+32	2	fb:cell.u_00bb_187	U+00BB (187)	u|+00|bb|-lrb-|187|-rrb-	U|+00|bb|-lrb-|187|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||187.0|	0.0		187.0		
+32	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+32	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+32	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+32	6	fb:cell.right_pointing_double_angle_quotation_mark_right_pointing_guillemet	right-pointing double angle quotation mark (right pointing guillemet)	right|pointing|double|angle|quotation|mark|-lrb-|right|pointing|guillemet|-rrb-	right|point|double|angle|quotation|mark|-lrb-|right|point|guillemet|-rrb-	RB|VBG|JJ|NN|NN|NN|-LRB-|JJ|VBG|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O	||||||||||				right-pointing double angle quotation mark (right pointing guillemet)	fb:part.right_pointing_double_angle_quotation_mark_right_pointing_guillemet
+33	0	fb:cell.frac14	frac14	frac14	frac14	NN	O		14.0				
+33	1	fb:cell.null_30	¼	1\\/4	1\\/4	CD	NUMBER						
+33	2	fb:cell.u_00bc_188	U+00BC (188)	u|+00|bc|-lrb-|188|-rrb-	U|+00|bc|-lrb-|188|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|DATE|DATE|O|NUMBER|O	|-0000|-0000||188.0|	0.0		188.0		
+33	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+33	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+33	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+33	6	fb:cell.vulgar_fraction_one_quarter_fraction_one_quarter	vulgar fraction one quarter (fraction one quarter)	vulgar|fraction|one|quarter|-lrb-|fraction|one|quarter|-rrb-	vulgar|fraction|one|quarter|-lrb-|fraction|one|quarter|-rrb-	JJ|NN|CD|NN|-LRB-|NN|CD|NN|-RRB-	O|O|DURATION|DURATION|O|O|DURATION|DURATION|O	||||||||				vulgar fraction one quarter (fraction one quarter)	fb:part.vulgar_fraction_one_quarter_fraction_one_quarter
+34	0	fb:cell.frac12	frac12	frac12	frac12	NN	O		12.0				
+34	1	fb:cell.null_31	½	1\\/2	1\\/2	CD	NUMBER						
+34	2	fb:cell.u_00bd_189	U+00BD (189)	u|+00|bd|-lrb-|189|-rrb-	U|+00|bd|-lrb-|189|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||189.0|	0.0		189.0		
+34	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+34	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+34	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+34	6	fb:cell.vulgar_fraction_one_half_fraction_one_half	vulgar fraction one half (fraction one half)	vulgar|fraction|one|half|-lrb-|fraction|one|half|-rrb-	vulgar|fraction|one|half|-lrb-|fraction|one|half|-rrb-	JJ|NN|CD|NN|-LRB-|NN|CD|NN|-RRB-	O|O|NUMBER|O|O|O|NUMBER|O|O	||1.0||||1.0||				vulgar fraction one half (fraction one half)	fb:part.vulgar_fraction_one_half_fraction_one_half
+35	0	fb:cell.frac34	frac34	frac34	frac34	NN	O		34.0				
+35	1	fb:cell.null_32	¾	3\\/4	3\\/4	CD	NUMBER						
+35	2	fb:cell.u_00be_190	U+00BE (190)	u|+00|be|-lrb-|190|-rrb-	U|+00|be|-lrb-|190|-rrb-	NNP|CD|VBD-AUX|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||190.0|	0.0		190.0		
+35	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+35	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+35	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+35	6	fb:cell.vulgar_fraction_three_quarters_fraction_three_quarters	vulgar fraction three quarters (fraction three quarters)	vulgar|fraction|three|quarters|-lrb-|fraction|three|quarters|-rrb-	vulgar|fraction|three|quarter|-lrb-|fraction|three|quarter|-rrb-	JJ|NN|CD|NNS|-LRB-|NN|CD|NNS|-RRB-	O|O|DURATION|DURATION|O|O|DURATION|DURATION|O	||||||||				vulgar fraction three quarters (fraction three quarters)	fb:part.vulgar_fraction_three_quarters_fraction_three_quarters
+36	0	fb:cell.iquest	iquest	iquest	iquest	IN	O						
+36	1	fb:cell.null_33	¿	¿	¿	IN	O						
+36	2	fb:cell.u_00bf_191	U+00BF (191)	u|+00|bf|-lrb-|191|-rrb-	U|+00|bf|-lrb-|191|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||191.0|	0.0		191.0		
+36	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+36	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+36	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+36	6	fb:cell.inverted_question_mark_turned_question_mark	inverted question mark (turned question mark)	inverted|question|mark|-lrb-|turned|question|mark|-rrb-	inverted|question|mark|-lrb-|turn|question|mark|-rrb-	JJ|NN|NN|-LRB-|VBN|NN|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				inverted question mark (turned question mark)	fb:part.inverted_question_mark_turned_question_mark
+37	0	fb:cell.agrave	Agrave	agrave	Agrave	NNP	O						
+37	1	fb:cell.a	À	à	à	NN	O						
+37	2	fb:cell.u_00c0_192	U+00C0 (192)	u|+00|c0|-lrb-|192|-rrb-	U|+00|c0|-lrb-|192|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||192.0|	0.0		0.0		
+37	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+37	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+37	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+37	6	fb:cell.latin_capital_letter_a_with_grave_accent_latin_capital_letter_a_grave	Latin capital letter A with grave accent (Latin capital letter A grave)	latin|capital|letter|a|with|grave|accent|-lrb-|latin|capital|letter|a|grave|-rrb-	latin|capital|letter|a|with|grave|accent|-lrb-|latin|capital|letter|a|grave|-rrb-	JJ|NN|NN|DT|IN|JJ|NN|-LRB-|JJ|NN|NN|DT|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||				Latin capital letter A with grave accent (Latin capital letter A grave)	fb:part.latin_capital_letter_a_with_grave_accent_latin_capital_letter_a_grave
+38	0	fb:cell.aacute	Aacute	aacute	aacute	JJ	O						
+38	1	fb:cell.a	À	à	à	NN	O						
+38	2	fb:cell.u_00c1_193	U+00C1 (193)	u|+00|c1|-lrb-|193|-rrb-	U|+00|c1|-lrb-|193|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||193.0|	0.0		1.0		
+38	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+38	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+38	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+38	6	fb:cell.latin_capital_letter_a_with_acute_accent	Latin capital letter A with acute accent	latin|capital|letter|a|with|acute|accent	latin|capital|letter|a|with|acute|accent	JJ|NN|NN|DT|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter A with acute accent	fb:part.latin_capital_letter_a_with_acute_accent
+39	0	fb:cell.acirc	Acirc	acirc	acirc	NN	O						
+39	1	fb:cell.a	À	à	à	NN	O						
+39	2	fb:cell.u_00c2_194	U+00C2 (194)	u|+00|c2|-lrb-|194|-rrb-	U|+00|c2|-lrb-|194|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||194.0|	0.0		2.0		
+39	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+39	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+39	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+39	6	fb:cell.latin_capital_letter_a_with_circumflex	Latin capital letter A with circumflex	latin|capital|letter|a|with|circumflex	latin|capital|letter|a|with|circumflex	JJ|NN|NN|DT|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter A with circumflex	fb:part.latin_capital_letter_a_with_circumflex
+40	0	fb:cell.atilde	Atilde	atilde	Atilde	NNP	O						
+40	1	fb:cell.a	À	à	à	NN	O						
+40	2	fb:cell.u_00c3_195	U+00C3 (195)	u|+00|c3|-lrb-|195|-rrb-	U|+00|c3|-lrb-|195|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||195.0|	0.0		3.0		
+40	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+40	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+40	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+40	6	fb:cell.latin_capital_letter_a_with_tilde	Latin capital letter A with tilde	latin|capital|letter|a|with|tilde	latin|capital|letter|a|with|tilde	JJ|NN|NN|DT|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter A with tilde	fb:part.latin_capital_letter_a_with_tilde
+41	0	fb:cell.auml	Auml	auml	auml	NN	O						
+41	1	fb:cell.a	À	à	à	NN	O						
+41	2	fb:cell.u_00c4_196	U+00C4 (196)	u|+00|c4|-lrb-|196|-rrb-	U|+00|c4|-lrb-|196|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||196.0|	0.0		4.0		
+41	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+41	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+41	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+41	6	fb:cell.latin_capital_letter_a_with_diaeresis	Latin capital letter A with diaeresis	latin|capital|letter|a|with|diaeresis	latin|capital|letter|a|with|diaeresis	JJ|NN|NN|DT|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter A with diaeresis	fb:part.latin_capital_letter_a_with_diaeresis
+42	0	fb:cell.aring	Aring	aring	are	VBG	O						
+42	1	fb:cell.a	À	à	à	NN	O						
+42	2	fb:cell.u_00c5_197	U+00C5 (197)	u|+00|c5|-lrb-|197|-rrb-	U|+00|c5|-lrb-|197|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||197.0|	0.0		5.0		
+42	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+42	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+42	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+42	6	fb:cell.latin_capital_letter_a_with_ring_above_latin_capital_letter_a_ring	Latin capital letter A with ring above (Latin capital letter A ring)	latin|capital|letter|a|with|ring|above|-lrb-|latin|capital|letter|a|ring|-rrb-	latin|capital|letter|a|with|ring|above|-lrb-|latin|capital|letter|a|ring|-rrb-	JJ|NN|NN|DT|IN|NN|IN|-LRB-|JJ|NN|NN|DT|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||				Latin capital letter A with ring above (Latin capital letter A ring)	fb:part.latin_capital_letter_a_with_ring_above_latin_capital_letter_a_ring
+43	0	fb:cell.aelig	AElig	aelig	aelig	NN	O						
+43	1	fb:cell.null_34	Æ	æ	æ	NN	O						
+43	2	fb:cell.u_00c6_198	U+00C6 (198)	u|+00|c6|-lrb-|198|-rrb-	U|+00|c6|-lrb-|198|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||198.0|	0.0		6.0		
+43	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+43	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+43	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+43	6	fb:cell.latin_capital_letter_ae_latin_capital_ligature_ae	Latin capital letter AE (Latin capital ligature AE)	latin|capital|letter|ae|-lrb-|latin|capital|ligature|ae|-rrb-	latin|capital|letter|AE|-lrb-|Latin|capital|ligature|ae|-rrb-	JJ|NN|NN|NNP|-LRB-|NNP|NN|NN|NN|-RRB-	O|O|O|O|O|O|O|O|O|O	|||||||||				Latin capital letter AE (Latin capital ligature AE)	fb:part.latin_capital_letter_ae_latin_capital_ligature_ae
+44	0	fb:cell.ccedil	Ccedil	ccedil	ccedil	NN	O						
+44	1	fb:cell.c	Ç	ç	ç	NN	O						
+44	2	fb:cell.u_00c7_199	U+00C7 (199)	u|+00|c7|-lrb-|199|-rrb-	U|+00|c7|-lrb-|199|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||199.0|	0.0		7.0		
+44	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+44	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+44	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+44	6	fb:cell.latin_capital_letter_c_with_cedilla	Latin capital letter C with cedilla	latin|capital|letter|c|with|cedilla	latin|capital|letter|c|with|cedilla	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter C with cedilla	fb:part.latin_capital_letter_c_with_cedilla
+45	0	fb:cell.egrave	Egrave	egrave	egrave	NN	O						
+45	1	fb:cell.e	È	è	è	NN	O						
+45	2	fb:cell.u_00c8_200	U+00C8 (200)	u|+00|c8|-lrb-|200|-rrb-	U|+00|c8|-lrb-|200|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||200.0|	0.0		8.0		
+45	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+45	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+45	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+45	6	fb:cell.latin_capital_letter_e_with_grave_accent	Latin capital letter E with grave accent	latin|capital|letter|e|with|grave|accent	latin|capital|letter|e|with|grave|accent	JJ|NN|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter E with grave accent	fb:part.latin_capital_letter_e_with_grave_accent
+46	0	fb:cell.eacute	Eacute	eacute	eacute	NN	O						
+46	1	fb:cell.e	È	è	è	NN	O						
+46	2	fb:cell.u_00c9_201	U+00C9 (201)	u|+00|c9|-lrb-|201|-rrb-	U|+00|c9|-lrb-|201|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||201.0|	0.0		9.0		
+46	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+46	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+46	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+46	6	fb:cell.latin_capital_letter_e_with_acute_accent	Latin capital letter E with acute accent	latin|capital|letter|e|with|acute|accent	latin|capital|letter|e|with|acute|accent	JJ|NN|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter E with acute accent	fb:part.latin_capital_letter_e_with_acute_accent
+47	0	fb:cell.ecirc	Ecirc	ecirc	ecirc	NN	O						
+47	1	fb:cell.e	È	è	è	NN	O						
+47	2	fb:cell.u_00ca_202	U+00CA (202)	u|+00|ca|-lrb-|202|-rrb-	U|+00|CA|-lrb-|202|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||202.0|	0.0		202.0		
+47	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+47	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+47	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+47	6	fb:cell.latin_capital_letter_e_with_circumflex	Latin capital letter E with circumflex	latin|capital|letter|e|with|circumflex	latin|capital|letter|e|with|circumflex	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter E with circumflex	fb:part.latin_capital_letter_e_with_circumflex
+48	0	fb:cell.euml	Euml	euml	euml	NN	O						
+48	1	fb:cell.e	È	è	è	NN	O						
+48	2	fb:cell.u_00cb_203	U+00CB (203)	u|+00|cb|-lrb-|203|-rrb-	U|+00|cb|-lrb-|203|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||203.0|	0.0		203.0		
+48	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+48	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+48	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+48	6	fb:cell.latin_capital_letter_e_with_diaeresis	Latin capital letter E with diaeresis	latin|capital|letter|e|with|diaeresis	latin|capital|letter|e|with|diaeresis	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter E with diaeresis	fb:part.latin_capital_letter_e_with_diaeresis
+49	0	fb:cell.igrave	Igrave	igrave	igrave	NN	O						
+49	1	fb:cell.i	Ì	ì	ì	NN	O						
+49	2	fb:cell.u_00cc_204	U+00CC (204)	u|+00|cc|-lrb-|204|-rrb-	U|+00|cc|-lrb-|204|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||204.0|	0.0		204.0		
+49	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+49	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+49	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+49	6	fb:cell.latin_capital_letter_i_with_grave_accent	Latin capital letter I with grave accent	latin|capital|letter|i|with|grave|accent	latin|capital|letter|I|with|grave|accent	JJ|NN|NN|PRP|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter I with grave accent	fb:part.latin_capital_letter_i_with_grave_accent
+50	0	fb:cell.iacute	Iacute	iacute	iacute	JJ	O						
+50	1	fb:cell.i	Ì	ì	ì	NN	O						
+50	2	fb:cell.u_00cd_205	U+00CD (205)	u|+00|cd|-lrb-|205|-rrb-	U|+00|CD|-lrb-|205|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||205.0|	0.0		205.0		
+50	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+50	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+50	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+50	6	fb:cell.latin_capital_letter_i_with_acute_accent	Latin capital letter I with acute accent	latin|capital|letter|i|with|acute|accent	latin|capital|letter|I|with|acute|accent	JJ|NN|NN|PRP|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter I with acute accent	fb:part.latin_capital_letter_i_with_acute_accent
+51	0	fb:cell.icirc	Icirc	icirc	icirc	NN	O						
+51	1	fb:cell.i	Ì	ì	ì	NN	O						
+51	2	fb:cell.u_00ce_206	U+00CE (206)	u|+00|ce|-lrb-|206|-rrb-	U|+00|ce|-lrb-|206|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||206.0|	0.0		206.0		
+51	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+51	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+51	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+51	6	fb:cell.latin_capital_letter_i_with_circumflex	Latin capital letter I with circumflex	latin|capital|letter|i|with|circumflex	latin|capital|letter|I|with|circumflex	JJ|NN|NN|PRP|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter I with circumflex	fb:part.latin_capital_letter_i_with_circumflex
+52	0	fb:cell.iuml	Iuml	iuml	iuml	NN	O						
+52	1	fb:cell.i	Ì	ì	ì	NN	O						
+52	2	fb:cell.u_00cf_207	U+00CF (207)	u|+00|cf|-lrb-|207|-rrb-	U|+00|cf|-lrb-|207|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||207.0|	0.0		207.0		
+52	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+52	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+52	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+52	6	fb:cell.latin_capital_letter_i_with_diaeresis	Latin capital letter I with diaeresis	latin|capital|letter|i|with|diaeresis	latin|capital|letter|I|with|diaeresis	JJ|NN|NN|PRP|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter I with diaeresis	fb:part.latin_capital_letter_i_with_diaeresis
+53	0	fb:cell.eth	ETH	eth	eth	NN	O						
+53	1	fb:cell.null_35	Ð	ð	ð	NN	O						
+53	2	fb:cell.u_00d0_208	U+00D0 (208)	u|+00|d0|-lrb-|208|-rrb-	U|+00|d0|-lrb-|208|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||208.0|	0.0		0.0		
+53	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+53	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+53	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+53	6	fb:cell.latin_capital_letter_eth	Latin capital letter Eth	latin|capital|letter|eth	latin|capital|letter|Eth	JJ|NN|NN|NNP	O|O|O|O	|||				Latin capital letter Eth	fb:part.latin_capital_letter_eth
+54	0	fb:cell.ntilde	Ntilde	ntilde	ntilde	NN	O						
+54	1	fb:cell.n	Ñ	ñ	ñ	NN	O						
+54	2	fb:cell.u_00d1_209	U+00D1 (209)	u|+00|d1|-lrb-|209|-rrb-	U|+00|d1|-lrb-|209|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||209.0|	0.0		1.0		
+54	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+54	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+54	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+54	6	fb:cell.latin_capital_letter_n_with_tilde	Latin capital letter N with tilde	latin|capital|letter|n|with|tilde	latin|capital|letter|n|with|tilde	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter N with tilde	fb:part.latin_capital_letter_n_with_tilde
+55	0	fb:cell.ograve	Ograve	ograve	Ograve	NNP	O						
+55	1	fb:cell.o	Ò	ò	ò	NN	O						
+55	2	fb:cell.u_00d2_210	U+00D2 (210)	u|+00|d2|-lrb-|210|-rrb-	U|+00|d2|-lrb-|210|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||210.0|	0.0		2.0		
+55	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+55	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+55	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+55	6	fb:cell.latin_capital_letter_o_with_grave_accent	Latin capital letter O with grave accent	latin|capital|letter|o|with|grave|accent	latin|capital|letter|o|with|grave|accent	JJ|NN|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter O with grave accent	fb:part.latin_capital_letter_o_with_grave_accent
+56	0	fb:cell.oacute	Oacute	oacute	oacute	JJ	O						
+56	1	fb:cell.o	Ò	ò	ò	NN	O						
+56	2	fb:cell.u_00d3_211	U+00D3 (211)	u|+00|d3|-lrb-|211|-rrb-	U|+00|d3|-lrb-|211|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||211.0|	0.0		3.0		
+56	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+56	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+56	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+56	6	fb:cell.latin_capital_letter_o_with_acute_accent	Latin capital letter O with acute accent	latin|capital|letter|o|with|acute|accent	latin|capital|letter|o|with|acute|accent	JJ|NN|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter O with acute accent	fb:part.latin_capital_letter_o_with_acute_accent
+57	0	fb:cell.ocirc	Ocirc	ocirc	ocirc	NN	O						
+57	1	fb:cell.o	Ò	ò	ò	NN	O						
+57	2	fb:cell.u_00d4_212	U+00D4 (212)	u|+00|d4|-lrb-|212|-rrb-	U|+00|d4|-lrb-|212|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||212.0|	0.0		4.0		
+57	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+57	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+57	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+57	6	fb:cell.latin_capital_letter_o_with_circumflex	Latin capital letter O with circumflex	latin|capital|letter|o|with|circumflex	latin|capital|letter|o|with|circumflex	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter O with circumflex	fb:part.latin_capital_letter_o_with_circumflex
+58	0	fb:cell.otilde	Otilde	otilde	otilde	NN	O						
+58	1	fb:cell.o	Ò	ò	ò	NN	O						
+58	2	fb:cell.u_00d5_213	U+00D5 (213)	u|+00|d5|-lrb-|213|-rrb-	U|+00|d5|-lrb-|213|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||213.0|	0.0		5.0		
+58	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+58	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+58	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+58	6	fb:cell.latin_capital_letter_o_with_tilde	Latin capital letter O with tilde	latin|capital|letter|o|with|tilde	latin|capital|letter|o|with|tilde	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter O with tilde	fb:part.latin_capital_letter_o_with_tilde
+59	0	fb:cell.ouml	Ouml	ouml	ouml	NN	O						
+59	1	fb:cell.o	Ò	ò	ò	NN	O						
+59	2	fb:cell.u_00d6_214	U+00D6 (214)	u|+00|d6|-lrb-|214|-rrb-	U|+00|d6|-lrb-|214|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||214.0|	0.0		6.0		
+59	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+59	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+59	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+59	6	fb:cell.latin_capital_letter_o_with_diaeresis	Latin capital letter O with diaeresis	latin|capital|letter|o|with|diaeresis	latin|capital|letter|o|with|diaeresis	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter O with diaeresis	fb:part.latin_capital_letter_o_with_diaeresis
+60	0	fb:cell.times	times	times	time	NNS	O						
+60	1	fb:cell.null_36	×	×	×	NN	O						
+60	2	fb:cell.u_00d7_215	U+00D7 (215)	u|+00|d7|-lrb-|215|-rrb-	U|+00|d7|-lrb-|215|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||215.0|	0.0		7.0		
+60	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+60	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+60	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+60	6	fb:cell.multiplication_sign	multiplication sign	multiplication|sign	multiplication|sign	NN|NN	O|O	|				multiplication sign	fb:part.multiplication_sign
+61	0	fb:cell.oslash	Oslash	oslash	oslash	JJ	O						
+61	1	fb:cell.null_37	Ø	ø	ø	NN	O						
+61	2	fb:cell.u_00d8_216	U+00D8 (216)	u|+00|d8|-lrb-|216|-rrb-	U|+00|d8|-lrb-|216|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||216.0|	0.0		8.0		
+61	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+61	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+61	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+61	6	fb:cell.latin_capital_letter_o_with_stroke_latin_capital_letter_o_slash	Latin capital letter O with stroke (Latin capital letter O slash)	latin|capital|letter|o|with|stroke|-lrb-|latin|capital|letter|o|slash|-rrb-	latin|capital|letter|o|with|stroke|-lrb-|latin|capital|letter|O|slash|-rrb-	JJ|NN|NN|NN|IN|NN|-LRB-|JJ|NN|NN|NNP|VBP|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				Latin capital letter O with stroke (Latin capital letter O slash)	fb:part.latin_capital_letter_o_with_stroke_latin_capital_letter_o_slash
+62	0	fb:cell.ugrave	Ugrave	ugrave	Ugrave	NNP	O						
+62	1	fb:cell.u	Ù	ù	ù	NN	O						
+62	2	fb:cell.u_00d9_217	U+00D9 (217)	u|+00|d9|-lrb-|217|-rrb-	U|+00|d9|-lrb-|217|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||217.0|	0.0		9.0		
+62	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+62	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+62	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+62	6	fb:cell.latin_capital_letter_u_with_grave_accent	Latin capital letter U with grave accent	latin|capital|letter|u|with|grave|accent	latin|capital|letter|U|with|grave|accent	JJ|NN|NN|NNP|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter U with grave accent	fb:part.latin_capital_letter_u_with_grave_accent
+63	0	fb:cell.uacute	Uacute	uacute	uacute	JJ	O						
+63	1	fb:cell.u	Ù	ù	ù	NN	O						
+63	2	fb:cell.u_00da_218	U+00DA (218)	u|+00|da|-lrb-|218|-rrb-	U|+00|DA|-lrb-|218|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||218.0|	0.0		218.0		
+63	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+63	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+63	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+63	6	fb:cell.latin_capital_letter_u_with_acute_accent	Latin capital letter U with acute accent	latin|capital|letter|u|with|acute|accent	latin|capital|letter|U|with|acute|accent	JJ|NN|NN|NNP|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter U with acute accent	fb:part.latin_capital_letter_u_with_acute_accent
+64	0	fb:cell.ucirc	Ucirc	ucirc	ucirc	NN	O						
+64	1	fb:cell.u	Ù	ù	ù	NN	O						
+64	2	fb:cell.u_00db_219	U+00DB (219)	u|+00|db|-lrb-|219|-rrb-	U|+00|db|-lrb-|219|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||219.0|	0.0		219.0		
+64	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+64	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+64	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+64	6	fb:cell.latin_capital_letter_u_with_circumflex	Latin capital letter U with circumflex	latin|capital|letter|u|with|circumflex	latin|capital|letter|U|with|circumflex	JJ|NN|NN|NNP|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter U with circumflex	fb:part.latin_capital_letter_u_with_circumflex
+65	0	fb:cell.uuml	Uuml	uuml	uuml	NN	O						
+65	1	fb:cell.u	Ù	ù	ù	NN	O						
+65	2	fb:cell.u_00dc_220	U+00DC (220)	u|+00|dc|-lrb-|220|-rrb-	U|+00|dc|-lrb-|220|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||220.0|	0.0		220.0		
+65	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+65	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+65	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+65	6	fb:cell.latin_capital_letter_u_with_diaeresis	Latin capital letter U with diaeresis	latin|capital|letter|u|with|diaeresis	latin|capital|letter|U|with|diaeresis	JJ|NN|NN|NNP|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter U with diaeresis	fb:part.latin_capital_letter_u_with_diaeresis
+66	0	fb:cell.yacute	Yacute	yacute	yacute	JJ	O						
+66	1	fb:cell.y	Ý	ý	ý	NN	O						
+66	2	fb:cell.u_00dd_221	U+00DD (221)	u|+00|dd|-lrb-|221|-rrb-	U|+00|dd|-lrb-|221|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||221.0|	0.0		221.0		
+66	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+66	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+66	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+66	6	fb:cell.latin_capital_letter_y_with_acute_accent	Latin capital letter Y with acute accent	latin|capital|letter|y|with|acute|accent	latin|capital|letter|y|with|acute|accent	JJ|NN|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin capital letter Y with acute accent	fb:part.latin_capital_letter_y_with_acute_accent
+67	0	fb:cell.thorn	THORN	thorn	THORN	NNP	O						
+67	1	fb:cell.null_38	Þ	þ	þ	NN	O						
+67	2	fb:cell.u_00de_222	U+00DE (222)	u|+00|de|-lrb-|222|-rrb-	U|+00|de|-lrb-|222|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||222.0|	0.0		222.0		
+67	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+67	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+67	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+67	6	fb:cell.latin_capital_letter_thorn	Latin capital letter THORN	latin|capital|letter|thorn	latin|capital|letter|THORN	JJ|NN|NN|NNP	O|O|O|O	|||				Latin capital letter THORN	fb:part.latin_capital_letter_thorn
+68	0	fb:cell.szlig	szlig	szlig	szlig	NN	O						
+68	1	fb:cell.null_39	ß	ß	ß	NN	O						
+68	2	fb:cell.u_00df_223	U+00DF (223)	u|+00|df|-lrb-|223|-rrb-	U|+00|df|-lrb-|223|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||223.0|	0.0		223.0		
+68	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+68	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+68	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+68	6	fb:cell.latin_small_letter_sharp_s_ess_zed_see_german_eszett	Latin small letter sharp s (ess-zed); see German Eszett	latin|small|letter|sharp|s|-lrb-|ess|zed|-rrb-|;|see|german|eszett	latin|small|letter|sharp|s|-lrb-|ess|zed|-rrb-|;|see|german|eszett	JJ|JJ|NN|JJ|NNS|-LRB-|NN|VBN|-RRB-|:|VB|JJ|NN	O|O|O|O|O|O|O|O|O|O|O|MISC|O	||||||||||||				Latin small letter sharp s (ess-zed); see German Eszett	fb:part.latin_small_letter_sharp_s_ess_zed_see_german_eszett
+69	0	fb:cell.agrave	Agrave	agrave	Agrave	NNP	O						
+69	1	fb:cell.a	À	à	à	NN	O						
+69	2	fb:cell.u_00e0_224	U+00E0 (224)	u|+00|e0|-lrb-|224|-rrb-	U|+00|e0|-lrb-|224|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||224.0|	0.0		224.0		
+69	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+69	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+69	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+69	6	fb:cell.latin_small_letter_a_with_grave_accent	Latin small letter a with grave accent	latin|small|letter|a|with|grave|accent	latin|small|letter|a|with|grave|accent	JJ|JJ|NN|DT|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter a with grave accent	fb:part.latin_small_letter_a_with_grave_accent
+70	0	fb:cell.aacute	Aacute	aacute	aacute	JJ	O						
+70	1	fb:cell.a	À	à	à	NN	O						
+70	2	fb:cell.u_00e1_225	U+00E1 (225)	u|+00|e1|-lrb-|225|-rrb-	U|+00|e1|-lrb-|225|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||225.0|	0.0		225.0		
+70	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+70	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+70	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+70	6	fb:cell.latin_small_letter_a_with_acute_accent	Latin small letter a with acute accent	latin|small|letter|a|with|acute|accent	latin|small|letter|a|with|acute|accent	JJ|JJ|NN|DT|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter a with acute accent	fb:part.latin_small_letter_a_with_acute_accent
+71	0	fb:cell.acirc	Acirc	acirc	acirc	NN	O						
+71	1	fb:cell.a	À	à	à	NN	O						
+71	2	fb:cell.u_00e2_226	U+00E2 (226)	u|+00|e2|-lrb-|226|-rrb-	U|+00|e2|-lrb-|226|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||226.0|	0.0		226.0		
+71	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+71	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+71	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+71	6	fb:cell.latin_small_letter_a_with_circumflex	Latin small letter a with circumflex	latin|small|letter|a|with|circumflex	latin|small|letter|a|with|circumflex	JJ|JJ|NN|DT|IN|NN	O|O|O|O|O|O	|||||				Latin small letter a with circumflex	fb:part.latin_small_letter_a_with_circumflex
+72	0	fb:cell.atilde	Atilde	atilde	Atilde	NNP	O						
+72	1	fb:cell.a	À	à	à	NN	O						
+72	2	fb:cell.u_00e3_227	U+00E3 (227)	u|+00|e3|-lrb-|227|-rrb-	U|+00|e3|-lrb-|227|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||227.0|	0.0		227.0		
+72	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+72	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+72	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+72	6	fb:cell.latin_small_letter_a_with_tilde	Latin small letter a with tilde	latin|small|letter|a|with|tilde	latin|small|letter|a|with|tilde	JJ|JJ|NN|DT|IN|NN	O|O|O|O|O|O	|||||				Latin small letter a with tilde	fb:part.latin_small_letter_a_with_tilde
+73	0	fb:cell.auml	Auml	auml	auml	NN	O						
+73	1	fb:cell.a	À	à	à	NN	O						
+73	2	fb:cell.u_00e4_228	U+00E4 (228)	u|+00|e4|-lrb-|228|-rrb-	U|+00|e4|-lrb-|228|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||228.0|	0.0		228.0		
+73	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+73	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+73	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+73	6	fb:cell.latin_small_letter_a_with_diaeresis	Latin small letter a with diaeresis	latin|small|letter|a|with|diaeresis	latin|small|letter|a|with|diaeresis	JJ|JJ|NN|DT|IN|NN	O|O|O|O|O|O	|||||				Latin small letter a with diaeresis	fb:part.latin_small_letter_a_with_diaeresis
+74	0	fb:cell.aring	Aring	aring	are	VBG	O						
+74	1	fb:cell.a	À	à	à	NN	O						
+74	2	fb:cell.u_00e5_229	U+00E5 (229)	u|+00|e5|-lrb-|229|-rrb-	U|+00|e5|-lrb-|229|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||229.0|	0.0		229.0		
+74	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+74	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+74	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+74	6	fb:cell.latin_small_letter_a_with_ring_above	Latin small letter a with ring above	latin|small|letter|a|with|ring|above	latin|small|letter|a|with|ring|above	JJ|JJ|NN|DT|IN|NN|IN	O|O|O|O|O|O|O	||||||				Latin small letter a with ring above	fb:part.latin_small_letter_a_with_ring_above
+75	0	fb:cell.aelig	AElig	aelig	aelig	NN	O						
+75	1	fb:cell.null_34	Æ	æ	æ	NN	O						
+75	2	fb:cell.u_00e6_230	U+00E6 (230)	u|+00|e6|-lrb-|230|-rrb-	U|+00|e6|-lrb-|230|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||230.0|	0.0		230.0		
+75	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+75	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+75	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+75	6	fb:cell.latin_small_letter_ae_latin_small_ligature_ae	Latin small letter ae (Latin small ligature ae)	latin|small|letter|ae|-lrb-|latin|small|ligature|ae|-rrb-	latin|small|letter|ae|-lrb-|latin|small|ligature|ae|-rrb-	JJ|JJ|NN|NN|-LRB-|JJ|JJ|NN|NN|-RRB-	O|O|O|O|O|O|O|O|O|O	|||||||||				Latin small letter ae (Latin small ligature ae)	fb:part.latin_small_letter_ae_latin_small_ligature_ae
+76	0	fb:cell.ccedil	Ccedil	ccedil	ccedil	NN	O						
+76	1	fb:cell.c	Ç	ç	ç	NN	O						
+76	2	fb:cell.u_00e7_231	U+00E7 (231)	u|+00|e7|-lrb-|231|-rrb-	U|+00|e7|-lrb-|231|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||231.0|	0.0		231.0		
+76	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+76	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+76	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+76	6	fb:cell.latin_small_letter_c_with_cedilla	Latin small letter c with cedilla	latin|small|letter|c|with|cedilla	latin|small|letter|c|with|cedilla	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter c with cedilla	fb:part.latin_small_letter_c_with_cedilla
+77	0	fb:cell.egrave	Egrave	egrave	egrave	NN	O						
+77	1	fb:cell.e	È	è	è	NN	O						
+77	2	fb:cell.u_00e8_232	U+00E8 (232)	u|+00|e8|-lrb-|232|-rrb-	U|+00|e8|-lrb-|232|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||232.0|	0.0		232.0		
+77	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+77	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+77	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+77	6	fb:cell.latin_small_letter_e_with_grave_accent	Latin small letter e with grave accent	latin|small|letter|e|with|grave|accent	latin|small|letter|e|with|grave|accent	JJ|JJ|NN|SYM|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter e with grave accent	fb:part.latin_small_letter_e_with_grave_accent
+78	0	fb:cell.eacute	Eacute	eacute	eacute	NN	O						
+78	1	fb:cell.e	È	è	è	NN	O						
+78	2	fb:cell.u_00e9_233	U+00E9 (233)	u|+00|e9|-lrb-|233|-rrb-	U|+00|e9|-lrb-|233|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||233.0|	0.0		233.0		
+78	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+78	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+78	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+78	6	fb:cell.latin_small_letter_e_with_acute_accent	Latin small letter e with acute accent	latin|small|letter|e|with|acute|accent	latin|small|letter|e|with|acute|accent	JJ|JJ|NN|SYM|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter e with acute accent	fb:part.latin_small_letter_e_with_acute_accent
+79	0	fb:cell.ecirc	Ecirc	ecirc	ecirc	NN	O						
+79	1	fb:cell.e	È	è	è	NN	O						
+79	2	fb:cell.u_00ea_234	U+00EA (234)	u|+00|ea|-lrb-|234|-rrb-	U|+00|ea|-lrb-|234|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||234.0|	0.0		234.0		
+79	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+79	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+79	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+79	6	fb:cell.latin_small_letter_e_with_circumflex	Latin small letter e with circumflex	latin|small|letter|e|with|circumflex	latin|small|letter|e|with|circumflex	JJ|JJ|NN|SYM|IN|NN	O|O|O|O|O|O	|||||				Latin small letter e with circumflex	fb:part.latin_small_letter_e_with_circumflex
+80	0	fb:cell.euml	Euml	euml	euml	NN	O						
+80	1	fb:cell.e	È	è	è	NN	O						
+80	2	fb:cell.u_00eb_235	U+00EB (235)	u|+00|eb|-lrb-|235|-rrb-	U|+00|EB|-lrb-|235|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||235.0|	0.0		235.0		
+80	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+80	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+80	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+80	6	fb:cell.latin_small_letter_e_with_diaeresis	Latin small letter e with diaeresis	latin|small|letter|e|with|diaeresis	latin|small|letter|e|with|diaeresis	JJ|JJ|NN|SYM|IN|NN	O|O|O|O|O|O	|||||				Latin small letter e with diaeresis	fb:part.latin_small_letter_e_with_diaeresis
+81	0	fb:cell.igrave	Igrave	igrave	igrave	NN	O						
+81	1	fb:cell.i	Ì	ì	ì	NN	O						
+81	2	fb:cell.u_00ec_236	U+00EC (236)	u|+00|ec|-lrb-|236|-rrb-	U|+00|EC|-lrb-|236|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|ORGANIZATION|O|NUMBER|O	|0.0|||236.0|	0.0		236.0		
+81	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+81	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+81	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+81	6	fb:cell.latin_small_letter_i_with_grave_accent	Latin small letter i with grave accent	latin|small|letter|i|with|grave|accent	latin|small|letter|i|with|grave|accent	JJ|JJ|NN|FW|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter i with grave accent	fb:part.latin_small_letter_i_with_grave_accent
+82	0	fb:cell.iacute	Iacute	iacute	iacute	JJ	O						
+82	1	fb:cell.i	Ì	ì	ì	NN	O						
+82	2	fb:cell.u_00ed_237	U+00ED (237)	u|+00|ed|-lrb-|237|-rrb-	U|+00|ED|-lrb-|237|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||237.0|	0.0		237.0		
+82	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+82	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+82	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+82	6	fb:cell.latin_small_letter_i_with_acute_accent	Latin small letter i with acute accent	latin|small|letter|i|with|acute|accent	latin|small|letter|i|with|acute|accent	JJ|JJ|NN|FW|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter i with acute accent	fb:part.latin_small_letter_i_with_acute_accent
+83	0	fb:cell.icirc	Icirc	icirc	icirc	NN	O						
+83	1	fb:cell.i	Ì	ì	ì	NN	O						
+83	2	fb:cell.u_00ee_238	U+00EE (238)	u|+00|ee|-lrb-|238|-rrb-	U|+00|ee|-lrb-|238|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||238.0|	0.0		238.0		
+83	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+83	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+83	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+83	6	fb:cell.latin_small_letter_i_with_circumflex	Latin small letter i with circumflex	latin|small|letter|i|with|circumflex	latin|small|letter|i|with|circumflex	JJ|JJ|NN|FW|IN|NN	O|O|O|O|O|O	|||||				Latin small letter i with circumflex	fb:part.latin_small_letter_i_with_circumflex
+84	0	fb:cell.iuml	Iuml	iuml	iuml	NN	O						
+84	1	fb:cell.i	Ì	ì	ì	NN	O						
+84	2	fb:cell.u_00ef_239	U+00EF (239)	u|+00|ef|-lrb-|239|-rrb-	U|+00|ef|-lrb-|239|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||239.0|	0.0		239.0		
+84	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+84	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+84	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+84	6	fb:cell.latin_small_letter_i_with_diaeresis	Latin small letter i with diaeresis	latin|small|letter|i|with|diaeresis	latin|small|letter|i|with|diaeresis	JJ|JJ|NN|FW|IN|NN	O|O|O|O|O|O	|||||				Latin small letter i with diaeresis	fb:part.latin_small_letter_i_with_diaeresis
+85	0	fb:cell.eth	ETH	eth	eth	NN	O						
+85	1	fb:cell.null_35	Ð	ð	ð	NN	O						
+85	2	fb:cell.u_00f0_240	U+00F0 (240)	u|+00|f0|-lrb-|240|-rrb-	U|+00|f0|-lrb-|240|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||240.0|	0.0		0.0		
+85	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+85	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+85	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+85	6	fb:cell.latin_small_letter_eth	Latin small letter eth	latin|small|letter|eth	latin|small|letter|eth	JJ|JJ|NN|NN	O|O|O|O	|||				Latin small letter eth	fb:part.latin_small_letter_eth
+86	0	fb:cell.ntilde	Ntilde	ntilde	ntilde	NN	O						
+86	1	fb:cell.n	Ñ	ñ	ñ	NN	O						
+86	2	fb:cell.u_00f1_241	U+00F1 (241)	u|+00|f1|-lrb-|241|-rrb-	U|+00|f1|-lrb-|241|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||241.0|	0.0		1.0		
+86	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+86	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+86	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+86	6	fb:cell.latin_small_letter_n_with_tilde	Latin small letter n with tilde	latin|small|letter|n|with|tilde	latin|small|letter|n|with|tilde	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter n with tilde	fb:part.latin_small_letter_n_with_tilde
+87	0	fb:cell.ograve	Ograve	ograve	Ograve	NNP	O						
+87	1	fb:cell.o	Ò	ò	ò	NN	O						
+87	2	fb:cell.u_00f2_242	U+00F2 (242)	u|+00|f2|-lrb-|242|-rrb-	U|+00|f2|-lrb-|242|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||242.0|	0.0		2.0		
+87	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+87	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+87	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+87	6	fb:cell.latin_small_letter_o_with_grave_accent	Latin small letter o with grave accent	latin|small|letter|o|with|grave|accent	latin|small|letter|o|with|grave|accent	JJ|JJ|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter o with grave accent	fb:part.latin_small_letter_o_with_grave_accent
+88	0	fb:cell.oacute	Oacute	oacute	oacute	JJ	O						
+88	1	fb:cell.o	Ò	ò	ò	NN	O						
+88	2	fb:cell.u_00f3_243	U+00F3 (243)	u|+00|f3|-lrb-|243|-rrb-	U|+00|f3|-lrb-|243|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||243.0|	0.0		3.0		
+88	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+88	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+88	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+88	6	fb:cell.latin_small_letter_o_with_acute_accent	Latin small letter o with acute accent	latin|small|letter|o|with|acute|accent	latin|small|letter|o|with|acute|accent	JJ|JJ|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter o with acute accent	fb:part.latin_small_letter_o_with_acute_accent
+89	0	fb:cell.ocirc	Ocirc	ocirc	ocirc	NN	O						
+89	1	fb:cell.o	Ò	ò	ò	NN	O						
+89	2	fb:cell.u_00f4_244	U+00F4 (244)	u|+00|f4|-lrb-|244|-rrb-	U|+00|f4|-lrb-|244|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||244.0|	0.0		4.0		
+89	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+89	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+89	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+89	6	fb:cell.latin_small_letter_o_with_circumflex	Latin small letter o with circumflex	latin|small|letter|o|with|circumflex	latin|small|letter|o|with|circumflex	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter o with circumflex	fb:part.latin_small_letter_o_with_circumflex
+90	0	fb:cell.otilde	Otilde	otilde	otilde	NN	O						
+90	1	fb:cell.o	Ò	ò	ò	NN	O						
+90	2	fb:cell.u_00f5_245	U+00F5 (245)	u|+00|f5|-lrb-|245|-rrb-	U|+00|f5|-lrb-|245|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||245.0|	0.0		5.0		
+90	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+90	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+90	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+90	6	fb:cell.latin_small_letter_o_with_tilde	Latin small letter o with tilde	latin|small|letter|o|with|tilde	latin|small|letter|o|with|tilde	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter o with tilde	fb:part.latin_small_letter_o_with_tilde
+91	0	fb:cell.ouml	Ouml	ouml	ouml	NN	O						
+91	1	fb:cell.o	Ò	ò	ò	NN	O						
+91	2	fb:cell.u_00f6_246	U+00F6 (246)	u|+00|f6|-lrb-|246|-rrb-	U|+00|f6|-lrb-|246|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||246.0|	0.0		6.0		
+91	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+91	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+91	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+91	6	fb:cell.latin_small_letter_o_with_diaeresis	Latin small letter o with diaeresis	latin|small|letter|o|with|diaeresis	latin|small|letter|o|with|diaeresis	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter o with diaeresis	fb:part.latin_small_letter_o_with_diaeresis
+92	0	fb:cell.divide	divide	divide	divide	NN	O						
+92	1	fb:cell.null_40	÷	÷	÷	NN	O						
+92	2	fb:cell.u_00f7_247	U+00F7 (247)	u|+00|f7|-lrb-|247|-rrb-	U|+00|f7|-lrb-|247|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||247.0|	0.0		7.0		
+92	3	fb:cell.html_3_2	HTML 3.2	html|3.2	HTML|3.2	NNP|CD	O|NUMBER	|3.2	3.2				
+92	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+92	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+92	6	fb:cell.division_sign_obelus	division sign (obelus)	division|sign|-lrb-|obelus|-rrb-	division|sign|-lrb-|obelus|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||				division sign (obelus)	fb:part.division_sign_obelus
+93	0	fb:cell.oslash	Oslash	oslash	oslash	JJ	O						
+93	1	fb:cell.null_37	Ø	ø	ø	NN	O						
+93	2	fb:cell.u_00f8_248	U+00F8 (248)	u|+00|f8|-lrb-|248|-rrb-	U|+00|f8|-lrb-|248|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||248.0|	0.0		8.0		
+93	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+93	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+93	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+93	6	fb:cell.latin_small_letter_o_with_stroke_latin_small_letter_o_slash	Latin small letter o with stroke (Latin small letter o slash)	latin|small|letter|o|with|stroke|-lrb-|latin|small|letter|o|slash|-rrb-	latin|small|letter|o|with|stroke|-lrb-|latin|small|letter|o|slash|-rrb-	JJ|JJ|NN|NN|IN|NN|-LRB-|JJ|JJ|NN|NN|VBP|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				Latin small letter o with stroke (Latin small letter o slash)	fb:part.latin_small_letter_o_with_stroke_latin_small_letter_o_slash
+94	0	fb:cell.ugrave	Ugrave	ugrave	Ugrave	NNP	O						
+94	1	fb:cell.u	Ù	ù	ù	NN	O						
+94	2	fb:cell.u_00f9_249	U+00F9 (249)	u|+00|f9|-lrb-|249|-rrb-	U|+00|f9|-lrb-|249|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||249.0|	0.0		9.0		
+94	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+94	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+94	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+94	6	fb:cell.latin_small_letter_u_with_grave_accent	Latin small letter u with grave accent	latin|small|letter|u|with|grave|accent	latin|small|letter|u|with|grave|accent	JJ|JJ|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter u with grave accent	fb:part.latin_small_letter_u_with_grave_accent
+95	0	fb:cell.uacute	Uacute	uacute	uacute	JJ	O						
+95	1	fb:cell.u	Ù	ù	ù	NN	O						
+95	2	fb:cell.u_00fa_250	U+00FA (250)	u|+00|fa|-lrb-|250|-rrb-	U|+00|fa|-lrb-|250|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||250.0|	0.0		250.0		
+95	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+95	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+95	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+95	6	fb:cell.latin_small_letter_u_with_acute_accent	Latin small letter u with acute accent	latin|small|letter|u|with|acute|accent	latin|small|letter|u|with|acute|accent	JJ|JJ|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter u with acute accent	fb:part.latin_small_letter_u_with_acute_accent
+96	0	fb:cell.ucirc	Ucirc	ucirc	ucirc	NN	O						
+96	1	fb:cell.u	Ù	ù	ù	NN	O						
+96	2	fb:cell.u_00fb_251	U+00FB (251)	u|+00|fb|-lrb-|251|-rrb-	U|+00|fb|-lrb-|251|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||251.0|	0.0		251.0		
+96	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+96	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+96	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+96	6	fb:cell.latin_small_letter_u_with_circumflex	Latin small letter u with circumflex	latin|small|letter|u|with|circumflex	latin|small|letter|u|with|circumflex	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter u with circumflex	fb:part.latin_small_letter_u_with_circumflex
+97	0	fb:cell.uuml	Uuml	uuml	uuml	NN	O						
+97	1	fb:cell.u	Ù	ù	ù	NN	O						
+97	2	fb:cell.u_00fc_252	U+00FC (252)	u|+00|fc|-lrb-|252|-rrb-	U|+00|fc|-lrb-|252|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||252.0|	0.0		252.0		
+97	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+97	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+97	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+97	6	fb:cell.latin_small_letter_u_with_diaeresis	Latin small letter u with diaeresis	latin|small|letter|u|with|diaeresis	latin|small|letter|u|with|diaeresis	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter u with diaeresis	fb:part.latin_small_letter_u_with_diaeresis
+98	0	fb:cell.yacute	Yacute	yacute	yacute	JJ	O						
+98	1	fb:cell.y	Ý	ý	ý	NN	O						
+98	2	fb:cell.u_00fd_253	U+00FD (253)	u|+00|fd|-lrb-|253|-rrb-	U|+00|fd|-lrb-|253|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||253.0|	0.0		253.0		
+98	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+98	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+98	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+98	6	fb:cell.latin_small_letter_y_with_acute_accent	Latin small letter y with acute accent	latin|small|letter|y|with|acute|accent	latin|small|letter|y|with|acute|accent	JJ|JJ|NN|NN|IN|JJ|NN	O|O|O|O|O|O|O	||||||				Latin small letter y with acute accent	fb:part.latin_small_letter_y_with_acute_accent
+99	0	fb:cell.thorn	THORN	thorn	THORN	NNP	O						
+99	1	fb:cell.null_38	Þ	þ	þ	NN	O						
+99	2	fb:cell.u_00fe_254	U+00FE (254)	u|+00|fe|-lrb-|254|-rrb-	U|+00|FE|-lrb-|254|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||254.0|	0.0		254.0		
+99	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+99	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+99	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+99	6	fb:cell.latin_small_letter_thorn	Latin small letter thorn	latin|small|letter|thorn	latin|small|letter|thorn	JJ|JJ|NN|IN	O|O|O|O	|||				Latin small letter thorn	fb:part.latin_small_letter_thorn
+100	0	fb:cell.yuml	yuml	yuml	yuml	NN	O						
+100	1	fb:cell.y	Ý	ý	ý	NN	O						
+100	2	fb:cell.u_00ff_255	U+00FF (255)	u|+00|ff|-lrb-|255|-rrb-	U|+00|ff|-lrb-|255|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|0.0|||255.0|	0.0		255.0		
+100	3	fb:cell.html_2_0	HTML 2.0	html|2.0	HTML|2.0	NNP|CD	O|NUMBER	|2.0	2.0				
+100	4	fb:cell.htmllat1	HTMLlat1	htmllat1	htmllat1	NN	O		1.0				
+100	5	fb:cell.isolat1	ISOlat1	isolat1	isolat1	NN	O		1.0				
+100	6	fb:cell.latin_small_letter_y_with_diaeresis	Latin small letter y with diaeresis	latin|small|letter|y|with|diaeresis	latin|small|letter|y|with|diaeresis	JJ|JJ|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin small letter y with diaeresis	fb:part.latin_small_letter_y_with_diaeresis
+101	0	fb:cell.oelig	OElig	oelig	oelig	NN	O						
+101	1	fb:cell.null_41	Œ	œ	œ	NN	O						
+101	2	fb:cell.u_0152_338	U+0152 (338)	u|+0152|-lrb-|338|-rrb-	U|+0152|-lrb-|338|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|152.0||338.0|	152.0		338.0		
+101	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+101	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+101	5	fb:cell.isolat2	ISOlat2	isolat2	isolat2	NN	O		2.0				
+101	6	fb:cell.latin_capital_ligature_oe	Latin capital ligature oe	latin|capital|ligature|oe	latin|capital|ligature|oe	JJ|NN|NN|NN	O|O|O|O	|||				Latin capital ligature oe	fb:part.latin_capital_ligature_oe
+102	0	fb:cell.oelig	OElig	oelig	oelig	NN	O						
+102	1	fb:cell.null_41	Œ	œ	œ	NN	O						
+102	2	fb:cell.u_0153_339	U+0153 (339)	u|+0153|-lrb-|339|-rrb-	U|+0153|-lrb-|339|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|153.0||339.0|	153.0		339.0		
+102	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+102	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+102	5	fb:cell.isolat2	ISOlat2	isolat2	isolat2	NN	O		2.0				
+102	6	fb:cell.latin_small_ligature_oe	Latin small ligature oe	latin|small|ligature|oe	latin|small|ligature|oe	JJ|JJ|NN|NN	O|O|O|O	|||				Latin small ligature oe	fb:part.latin_small_ligature_oe
+103	0	fb:cell.scaron	Scaron	scaron	Scaron	NNP	O						
+103	1	fb:cell.s	Š	š	š	NN	O						
+103	2	fb:cell.u_0160_352	U+0160 (352)	u|+0160|-lrb-|352|-rrb-	U|+0160|-lrb-|352|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|160.0||352.0|	160.0		352.0		
+103	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+103	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+103	5	fb:cell.isolat2	ISOlat2	isolat2	isolat2	NN	O		2.0				
+103	6	fb:cell.latin_capital_letter_s_with_caron	Latin capital letter s with caron	latin|capital|letter|s|with|caron	latin|capital|letter|s|with|caron	JJ|NN|NN|VBZ|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter s with caron	fb:part.latin_capital_letter_s_with_caron
+104	0	fb:cell.scaron	Scaron	scaron	Scaron	NNP	O						
+104	1	fb:cell.s	Š	š	š	NN	O						
+104	2	fb:cell.u_0161_353	U+0161 (353)	u|+0161|-lrb-|353|-rrb-	U|+0161|-lrb-|353|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|161.0||353.0|	161.0		353.0		
+104	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+104	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+104	5	fb:cell.isolat2	ISOlat2	isolat2	isolat2	NN	O		2.0				
+104	6	fb:cell.latin_small_letter_s_with_caron	Latin small letter s with caron	latin|small|letter|s|with|caron	latin|small|letter|s|with|caron	JJ|JJ|NN|NNS|IN|NN	O|O|O|O|O|O	|||||				Latin small letter s with caron	fb:part.latin_small_letter_s_with_caron
+105	0	fb:cell.yuml	yuml	yuml	yuml	NN	O						
+105	1	fb:cell.y	Ý	ý	ý	NN	O						
+105	2	fb:cell.u_0178_376	U+0178 (376)	u|+0178|-lrb-|376|-rrb-	U|+0178|-lrb-|376|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|178.0||376.0|	178.0		376.0		
+105	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+105	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+105	5	fb:cell.isolat2	ISOlat2	isolat2	isolat2	NN	O		2.0				
+105	6	fb:cell.latin_capital_letter_y_with_diaeresis	Latin capital letter y with diaeresis	latin|capital|letter|y|with|diaeresis	latin|capital|letter|y|with|diaeresis	JJ|NN|NN|NN|IN|NN	O|O|O|O|O|O	|||||				Latin capital letter y with diaeresis	fb:part.latin_capital_letter_y_with_diaeresis
+106	0	fb:cell.fnof	fnof	fnof	fnof	NN	O						
+106	1	fb:cell.null_42	ƒ	ƒ	ƒ	NN	O						
+106	2	fb:cell.u_0192_402	U+0192 (402)	u|+0192|-lrb-|402|-rrb-	U|+0192|-lrb-|402|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|192.0||402.0|	192.0		402.0		
+106	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+106	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+106	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+106	6	fb:cell.latin_small_letter_f_with_hook_function_florin	Latin small letter f with hook (function, florin)	latin|small|letter|f|with|hook|-lrb-|function|,|florin|-rrb-	latin|small|letter|f|with|hook|-lrb-|function|,|florin|-rrb-	JJ|JJ|NN|FW|IN|NN|-LRB-|NN|,|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O	||||||||||				Latin small letter f with hook (function|florin)	fb:part.latin_small_letter_f_with_hook_function|fb:part.florin
+107	0	fb:cell.circ	circ	circ	circ	NN	O						
+107	1	fb:cell.null_43	ˆ	ˆ	ˆ	NN	O						
+107	2	fb:cell.u_02c6_710	U+02C6 (710)	u|+02|c6|-lrb-|710|-rrb-	U|+02|c6|-lrb-|710|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|2.0|||710.0|	2.0		6.0		
+107	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+107	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+107	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+107	6	fb:cell.modifier_letter_circumflex_accent	modifier letter circumflex accent	modifier|letter|circumflex|accent	modifier|letter|circumflex|accent	NN|NN|JJ|NN	O|O|O|O	|||				modifier letter circumflex accent	fb:part.modifier_letter_circumflex_accent
+108	0	fb:cell.tilde	tilde	tilde	tilde	NN	O						
+108	1	fb:cell.null_44	˜	˜	˜	NN	O						
+108	2	fb:cell.u_02dc_732	U+02DC (732)	u|+02|dc|-lrb-|732|-rrb-	U|+02|dc|-lrb-|732|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|2.0|||732.0|	2.0		732.0		
+108	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+108	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+108	5	fb:cell.isodia	ISOdia	isodia	isodium	NN	O						
+108	6	fb:cell.small_tilde	small tilde	small|tilde	small|tilde	JJ|NN	O|O	|				small tilde	fb:part.small_tilde
+109	0	fb:cell.alpha	Alpha	alpha	alpha	NN	O						
+109	1	fb:cell.null_45	Α	α	α	NN	O						
+109	2	fb:cell.u_0391_913	U+0391 (913)	u|+0391|-lrb-|913|-rrb-	U|+0391|-lrb-|913|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|391.0||913.0|	391.0		913.0		
+109	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+109	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+109	5	fb:cell.null_6											
+109	6	fb:cell.greek_capital_letter_alpha	Greek capital letter Alpha	greek|capital|letter|alpha	greek|capital|letter|Alpha	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Alpha	fb:part.greek_capital_letter_alpha
+110	0	fb:cell.beta	Beta	beta	beta	NN	O						
+110	1	fb:cell.null_46	Β	β	β	NN	O						
+110	2	fb:cell.u_0392_914	U+0392 (914)	u|+0392|-lrb-|914|-rrb-	U|+0392|-lrb-|914|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|392.0||914.0|	392.0		914.0		
+110	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+110	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+110	5	fb:cell.null_6											
+110	6	fb:cell.greek_capital_letter_beta	Greek capital letter Beta	greek|capital|letter|beta	greek|capital|letter|Beta	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Beta	fb:part.greek_capital_letter_beta
+111	0	fb:cell.gamma	Gamma	gamma	gamma	NN	O						
+111	1	fb:cell.null_47	Γ	γ	γ	NN	O						
+111	2	fb:cell.u_0393_915	U+0393 (915)	u|+0393|-lrb-|915|-rrb-	U|+0393|-lrb-|915|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|393.0||915.0|	393.0		915.0		
+111	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+111	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+111	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+111	6	fb:cell.greek_capital_letter_gamma	Greek capital letter Gamma	greek|capital|letter|gamma	greek|capital|letter|Gamma	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Gamma	fb:part.greek_capital_letter_gamma
+112	0	fb:cell.delta	Delta	delta	delta	NN	O						
+112	1	fb:cell.null_48	Δ	δ	δ	NN	O						
+112	2	fb:cell.u_0394_916	U+0394 (916)	u|+0394|-lrb-|916|-rrb-	U|+0394|-lrb-|916|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|394.0||916.0|	394.0		916.0		
+112	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+112	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+112	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+112	6	fb:cell.greek_capital_letter_delta	Greek capital letter Delta	greek|capital|letter|delta	greek|capital|letter|Delta	JJ|NN|NN|NNP	MISC|O|O|ORGANIZATION	|||				Greek capital letter Delta	fb:part.greek_capital_letter_delta
+113	0	fb:cell.epsilon	Epsilon	epsilon	epsilon	NN	O						
+113	1	fb:cell.null_49	Ε	ε	ε	NN	O						
+113	2	fb:cell.u_0395_917	U+0395 (917)	u|+0395|-lrb-|917|-rrb-	U|+0395|-lrb-|917|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|395.0||917.0|	395.0		917.0		
+113	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+113	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+113	5	fb:cell.null_6											
+113	6	fb:cell.greek_capital_letter_epsilon	Greek capital letter Epsilon	greek|capital|letter|epsilon	greek|capital|letter|Epsilon	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Epsilon	fb:part.greek_capital_letter_epsilon
+114	0	fb:cell.zeta	Zeta	zeta	Zeta	NNP	O						
+114	1	fb:cell.null_50	Ζ	ζ	ζ	NN	O						
+114	2	fb:cell.u_0396_918	U+0396 (918)	u|+0396|-lrb-|918|-rrb-	U|+0396|-lrb-|918|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|396.0||918.0|	396.0		918.0		
+114	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+114	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+114	5	fb:cell.null_6											
+114	6	fb:cell.greek_capital_letter_zeta	Greek capital letter Zeta	greek|capital|letter|zeta	greek|capital|letter|Zeta	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Zeta	fb:part.greek_capital_letter_zeta
+115	0	fb:cell.eta	Eta	eta	eta	NN	O						
+115	1	fb:cell.null_51	Η	η	η	NN	O						
+115	2	fb:cell.u_0397_919	U+0397 (919)	u|+0397|-lrb-|919|-rrb-	U|+0397|-lrb-|919|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|397.0||919.0|	397.0		919.0		
+115	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+115	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+115	5	fb:cell.null_6											
+115	6	fb:cell.greek_capital_letter_eta	Greek capital letter Eta	greek|capital|letter|eta	greek|capital|letter|Eta	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Eta	fb:part.greek_capital_letter_eta
+116	0	fb:cell.theta	Theta	theta	Theta	NNP	O						
+116	1	fb:cell.null_52	Θ	θ	θ	NN	O						
+116	2	fb:cell.u_0398_920	U+0398 (920)	u|+0398|-lrb-|920|-rrb-	U|+0398|-lrb-|920|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|398.0||920.0|	398.0		920.0		
+116	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+116	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+116	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+116	6	fb:cell.greek_capital_letter_theta	Greek capital letter Theta	greek|capital|letter|theta	greek|capital|letter|Theta	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Theta	fb:part.greek_capital_letter_theta
+117	0	fb:cell.iota	Iota	iota	iota	NN	O						
+117	1	fb:cell.null_53	Ι	ι	ι	NN	O						
+117	2	fb:cell.u_0399_921	U+0399 (921)	u|+0399|-lrb-|921|-rrb-	U|+0399|-lrb-|921|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|399.0||921.0|	399.0		921.0		
+117	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+117	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+117	5	fb:cell.null_6											
+117	6	fb:cell.greek_capital_letter_iota	Greek capital letter Iota	greek|capital|letter|iota	greek|capital|letter|Iota	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Iota	fb:part.greek_capital_letter_iota
+118	0	fb:cell.kappa	Kappa	kappa	kappa	NN	O						
+118	1	fb:cell.null_54	Κ	κ	κ	NN	O						
+118	2	fb:cell.u_039a_922	U+039A (922)	u|+039|a|-lrb-|922|-rrb-	U|+039|a|-lrb-|922|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|39.0|||922.0|	39.0		922.0		
+118	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+118	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+118	5	fb:cell.null_6											
+118	6	fb:cell.greek_capital_letter_kappa	Greek capital letter Kappa	greek|capital|letter|kappa	greek|capital|letter|Kappa	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Kappa	fb:part.greek_capital_letter_kappa
+119	0	fb:cell.lambda	Lambda	lambda	Lambda	NNP	O						
+119	1	fb:cell.null_55	Λ	λ	λ	NN	O						
+119	2	fb:cell.u_039b_923	U+039B (923)	u|+039|b|-lrb-|923|-rrb-	U|+039|b|-lrb-|923|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|39.0|||923.0|	39.0		923.0		
+119	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+119	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+119	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+119	6	fb:cell.greek_capital_letter_lambda	Greek capital letter Lambda	greek|capital|letter|lambda	greek|capital|letter|Lambda	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Lambda	fb:part.greek_capital_letter_lambda
+120	0	fb:cell.mu	Mu	mu	mu	NN	O						
+120	1	fb:cell.null_56	Μ	μ	μ	NN	O						
+120	2	fb:cell.u_039c_924	U+039C (924)	u|+039|c|-lrb-|924|-rrb-	U|+039|c|-lrb-|924|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|39.0|||924.0|	39.0		924.0		
+120	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+120	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+120	5	fb:cell.null_6											
+120	6	fb:cell.greek_capital_letter_mu	Greek capital letter Mu	greek|capital|letter|mu	greek|capital|letter|Mu	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Mu	fb:part.greek_capital_letter_mu
+121	0	fb:cell.nu	Nu	nu	nu	NN	O						
+121	1	fb:cell.null_57	Ν	ν	ν	NN	O						
+121	2	fb:cell.u_039d_925	U+039D (925)	u|+039|d|-lrb-|925|-rrb-	U|+039|d|-lrb-|925|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|39.0|||925.0|	39.0		925.0		
+121	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+121	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+121	5	fb:cell.null_6											
+121	6	fb:cell.greek_capital_letter_nu	Greek capital letter Nu	greek|capital|letter|nu	greek|capital|letter|Nu	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Nu	fb:part.greek_capital_letter_nu
+122	0	fb:cell.xi	Xi	xi	xi	NN	O						
+122	1	fb:cell.null_58	Ξ	ξ	ξ	NN	O						
+122	2	fb:cell.u_039e_926	U+039E (926)	u|+039|e|-lrb-|926|-rrb-	U|+039|e|-lrb-|926|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|39.0|||926.0|	39.0		926.0		
+122	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+122	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+122	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+122	6	fb:cell.greek_capital_letter_xi	Greek capital letter Xi	greek|capital|letter|xi	greek|capital|letter|xi	JJ|NN|NN|NN	MISC|O|O|O	|||				Greek capital letter Xi	fb:part.greek_capital_letter_xi
+123	0	fb:cell.omicron	Omicron	omicron	Omicron	NNP	O						
+123	1	fb:cell.null_59	Ο	ο	ο	NN	O						
+123	2	fb:cell.u_039f_927	U+039F (927)	u|+039|f|-lrb-|927|-rrb-	U|+039|f|-lrb-|927|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|39.0|||927.0|	39.0		927.0		
+123	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+123	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+123	5	fb:cell.null_6											
+123	6	fb:cell.greek_capital_letter_omicron	Greek capital letter Omicron	greek|capital|letter|omicron	greek|capital|letter|Omicron	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Omicron	fb:part.greek_capital_letter_omicron
+124	0	fb:cell.pi	Pi	pi	pi	NN	O						
+124	1	fb:cell.null_60	Π	π	π	NN	O						
+124	2	fb:cell.u_03a0_928	U+03A0 (928)	u|+03|a0|-lrb-|928|-rrb-	U|+03|a0|-lrb-|928|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||928.0|	3.0		0.0		
+124	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+124	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+124	5	fb:cell.null_6											
+124	6	fb:cell.greek_capital_letter_pi	Greek capital letter Pi	greek|capital|letter|pi	greek|capital|letter|Pi	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Pi	fb:part.greek_capital_letter_pi
+125	0	fb:cell.rho	Rho	rho	rho	NN	O						
+125	1	fb:cell.null_61	Ρ	ρ	ρ	NN	O						
+125	2	fb:cell.u_03a1_929	U+03A1 (929)	u|+03|a1|-lrb-|929|-rrb-	U|+03|a1|-lrb-|929|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||929.0|	3.0		1.0		
+125	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+125	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+125	5	fb:cell.null_6											
+125	6	fb:cell.greek_capital_letter_rho	Greek capital letter Rho	greek|capital|letter|rho	greek|capital|letter|rho	JJ|NN|NN|NN	MISC|O|O|O	|||				Greek capital letter Rho	fb:part.greek_capital_letter_rho
+126	0	fb:cell.sigma	Sigma	sigma	Sigma	NNP	O						
+126	1	fb:cell.null_62	Σ	σ	σ	NN	O						
+126	2	fb:cell.u_03a3_931	U+03A3 (931)	u|+03|a3|-lrb-|931|-rrb-	U|+03|a3|-lrb-|931|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||931.0|	3.0		3.0		
+126	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+126	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+126	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+126	6	fb:cell.greek_capital_letter_sigma	Greek capital letter Sigma	greek|capital|letter|sigma	greek|capital|letter|Sigma	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Sigma	fb:part.greek_capital_letter_sigma
+127	0	fb:cell.tau	Tau	tau	tau	NN	O						
+127	1	fb:cell.null_63	Τ	τ	τ	NN	O						
+127	2	fb:cell.u_03a4_932	U+03A4 (932)	u|+03|a4|-lrb-|932|-rrb-	U|+03|a4|-lrb-|932|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||932.0|	3.0		4.0		
+127	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+127	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+127	5	fb:cell.null_6											
+127	6	fb:cell.greek_capital_letter_tau	Greek capital letter Tau	greek|capital|letter|tau	greek|capital|letter|Tau	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Tau	fb:part.greek_capital_letter_tau
+128	0	fb:cell.upsilon	Upsilon	upsilon	Upsilon	NNP	O						
+128	1	fb:cell.null_64	Υ	υ	υ	NN	O						
+128	2	fb:cell.u_03a5_933	U+03A5 (933)	u|+03|a5|-lrb-|933|-rrb-	U|+03|a5|-lrb-|933|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||933.0|	3.0		5.0		
+128	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+128	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+128	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+128	6	fb:cell.greek_capital_letter_upsilon	Greek capital letter Upsilon	greek|capital|letter|upsilon	greek|capital|letter|Upsilon	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Upsilon	fb:part.greek_capital_letter_upsilon
+129	0	fb:cell.phi	Phi	phi	Phi	NNP	O						
+129	1	fb:cell.null_65	Φ	φ	φ	NN	O						
+129	2	fb:cell.u_03a6_934	U+03A6 (934)	u|+03|a6|-lrb-|934|-rrb-	U|+03|a6|-lrb-|934|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||934.0|	3.0		6.0		
+129	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+129	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+129	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+129	6	fb:cell.greek_capital_letter_phi	Greek capital letter Phi	greek|capital|letter|phi	greek|capital|letter|Phi	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Phi	fb:part.greek_capital_letter_phi
+130	0	fb:cell.chi	Chi	chi	Chi	NNP	O						
+130	1	fb:cell.null_66	Χ	χ	χ	NN	O						
+130	2	fb:cell.u_03a7_935	U+03A7 (935)	u|+03|a7|-lrb-|935|-rrb-	U|+03|a7|-lrb-|935|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||935.0|	3.0		7.0		
+130	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+130	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+130	5	fb:cell.null_6											
+130	6	fb:cell.greek_capital_letter_chi	Greek capital letter Chi	greek|capital|letter|chi	greek|capital|letter|Chi	JJ|NN|NN|NNP	MISC|O|O|PERSON	|||				Greek capital letter Chi	fb:part.greek_capital_letter_chi
+131	0	fb:cell.psi	Psi	psi	psus	NNS	O						
+131	1	fb:cell.null_67	Ψ	ψ	ψ	NN	O						
+131	2	fb:cell.u_03a8_936	U+03A8 (936)	u|+03|a8|-lrb-|936|-rrb-	U|+03|a8|-lrb-|936|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||936.0|	3.0		8.0		
+131	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+131	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+131	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+131	6	fb:cell.greek_capital_letter_psi	Greek capital letter Psi	greek|capital|letter|psi	greek|capital|letter|psus	JJ|NN|NN|NNS	MISC|O|O|O	|||				Greek capital letter Psi	fb:part.greek_capital_letter_psi
+132	0	fb:cell.omega	Omega	omega	Omega	NNP	O						
+132	1	fb:cell.null_68	Ω	ω	ω	NN	O						
+132	2	fb:cell.u_03a9_937	U+03A9 (937)	u|+03|a9|-lrb-|937|-rrb-	U|+03|a9|-lrb-|937|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||937.0|	3.0		9.0		
+132	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+132	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+132	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+132	6	fb:cell.greek_capital_letter_omega	Greek capital letter Omega	greek|capital|letter|omega	greek|capital|letter|Omega	JJ|NN|NN|NNP	MISC|O|O|O	|||				Greek capital letter Omega	fb:part.greek_capital_letter_omega
+133	0	fb:cell.alpha	Alpha	alpha	alpha	NN	O						
+133	1	fb:cell.null_45	Α	α	α	NN	O						
+133	2	fb:cell.u_03b1_945	U+03B1 (945)	u|+03|b1|-lrb-|945|-rrb-	U|+03|b1|-lrb-|945|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||945.0|	3.0		1.0		
+133	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+133	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+133	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+133	6	fb:cell.greek_small_letter_alpha	Greek small letter alpha	greek|small|letter|alpha	greek|small|letter|alpha	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter alpha	fb:part.greek_small_letter_alpha
+134	0	fb:cell.beta	Beta	beta	beta	NN	O						
+134	1	fb:cell.null_46	Β	β	β	NN	O						
+134	2	fb:cell.u_03b2_946	U+03B2 (946)	u|+03|b2|-lrb-|946|-rrb-	U|+03|b2|-lrb-|946|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||946.0|	3.0		2.0		
+134	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+134	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+134	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+134	6	fb:cell.greek_small_letter_beta	Greek small letter beta	greek|small|letter|beta	greek|small|letter|beta	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter beta	fb:part.greek_small_letter_beta
+135	0	fb:cell.gamma	Gamma	gamma	gamma	NN	O						
+135	1	fb:cell.null_47	Γ	γ	γ	NN	O						
+135	2	fb:cell.u_03b3_947	U+03B3 (947)	u|+03|b3|-lrb-|947|-rrb-	U|+03|b3|-lrb-|947|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||947.0|	3.0		3.0		
+135	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+135	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+135	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+135	6	fb:cell.greek_small_letter_gamma	Greek small letter gamma	greek|small|letter|gamma	greek|small|letter|gamma	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter gamma	fb:part.greek_small_letter_gamma
+136	0	fb:cell.delta	Delta	delta	delta	NN	O						
+136	1	fb:cell.null_48	Δ	δ	δ	NN	O						
+136	2	fb:cell.u_03b4_948	U+03B4 (948)	u|+03|b4|-lrb-|948|-rrb-	U|+03|b4|-lrb-|948|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||948.0|	3.0		4.0		
+136	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+136	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+136	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+136	6	fb:cell.greek_small_letter_delta	Greek small letter delta	greek|small|letter|delta	greek|small|letter|delta	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter delta	fb:part.greek_small_letter_delta
+137	0	fb:cell.epsilon	Epsilon	epsilon	epsilon	NN	O						
+137	1	fb:cell.null_49	Ε	ε	ε	NN	O						
+137	2	fb:cell.u_03b5_949	U+03B5 (949)	u|+03|b5|-lrb-|949|-rrb-	U|+03|b5|-lrb-|949|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||949.0|	3.0		5.0		
+137	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+137	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+137	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+137	6	fb:cell.greek_small_letter_epsilon	Greek small letter epsilon	greek|small|letter|epsilon	greek|small|letter|epsilon	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter epsilon	fb:part.greek_small_letter_epsilon
+138	0	fb:cell.zeta	Zeta	zeta	Zeta	NNP	O						
+138	1	fb:cell.null_50	Ζ	ζ	ζ	NN	O						
+138	2	fb:cell.u_03b6_950	U+03B6 (950)	u|+03|b6|-lrb-|950|-rrb-	U|+03|b6|-lrb-|950|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||950.0|	3.0		6.0		
+138	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+138	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+138	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+138	6	fb:cell.greek_small_letter_zeta	Greek small letter zeta	greek|small|letter|zeta	greek|small|letter|zeta	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter zeta	fb:part.greek_small_letter_zeta
+139	0	fb:cell.eta	Eta	eta	eta	NN	O						
+139	1	fb:cell.null_51	Η	η	η	NN	O						
+139	2	fb:cell.u_03b7_951	U+03B7 (951)	u|+03|b7|-lrb-|951|-rrb-	U|+03|b7|-lrb-|951|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||951.0|	3.0		7.0		
+139	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+139	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+139	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+139	6	fb:cell.greek_small_letter_eta	Greek small letter eta	greek|small|letter|eta	greek|small|letter|eta	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter eta	fb:part.greek_small_letter_eta
+140	0	fb:cell.theta	Theta	theta	Theta	NNP	O						
+140	1	fb:cell.null_52	Θ	θ	θ	NN	O						
+140	2	fb:cell.u_03b8_952	U+03B8 (952)	u|+03|b8|-lrb-|952|-rrb-	U|+03|b8|-lrb-|952|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||952.0|	3.0		8.0		
+140	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+140	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+140	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+140	6	fb:cell.greek_small_letter_theta	Greek small letter theta	greek|small|letter|theta	greek|small|letter|theta	JJ|JJ|NN|IN	MISC|O|O|O	|||				Greek small letter theta	fb:part.greek_small_letter_theta
+141	0	fb:cell.iota	Iota	iota	iota	NN	O						
+141	1	fb:cell.null_53	Ι	ι	ι	NN	O						
+141	2	fb:cell.u_03b9_953	U+03B9 (953)	u|+03|b9|-lrb-|953|-rrb-	U|+03|b9|-lrb-|953|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||953.0|	3.0		9.0		
+141	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+141	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+141	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+141	6	fb:cell.greek_small_letter_iota	Greek small letter iota	greek|small|letter|iota	greek|small|letter|iota	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter iota	fb:part.greek_small_letter_iota
+142	0	fb:cell.kappa	Kappa	kappa	kappa	NN	O						
+142	1	fb:cell.null_54	Κ	κ	κ	NN	O						
+142	2	fb:cell.u_03ba_954	U+03BA (954)	u|+03|ba|-lrb-|954|-rrb-	U|+03|ba|-lrb-|954|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||954.0|	3.0		954.0		
+142	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+142	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+142	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+142	6	fb:cell.greek_small_letter_kappa	Greek small letter kappa	greek|small|letter|kappa	greek|small|letter|kappa	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter kappa	fb:part.greek_small_letter_kappa
+143	0	fb:cell.lambda	Lambda	lambda	Lambda	NNP	O						
+143	1	fb:cell.null_55	Λ	λ	λ	NN	O						
+143	2	fb:cell.u_03bb_955	U+03BB (955)	u|+03|bb|-lrb-|955|-rrb-	U|+03|bb|-lrb-|955|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||955.0|	3.0		955.0		
+143	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+143	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+143	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+143	6	fb:cell.greek_small_letter_lambda	Greek small letter lambda	greek|small|letter|lambda	greek|small|letter|lambda	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter lambda	fb:part.greek_small_letter_lambda
+144	0	fb:cell.mu	Mu	mu	mu	NN	O						
+144	1	fb:cell.null_56	Μ	μ	μ	NN	O						
+144	2	fb:cell.u_03bc_956	U+03BC (956)	u|+03|bc|-lrb-|956|-rrb-	U|+03|BC|-lrb-|956|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|DATE|DATE|O|NUMBER|O	|-0002|-0002||956.0|	3.0		956.0		
+144	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+144	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+144	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+144	6	fb:cell.greek_small_letter_mu	Greek small letter mu	greek|small|letter|mu	greek|small|letter|mu	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter mu	fb:part.greek_small_letter_mu
+145	0	fb:cell.nu	Nu	nu	nu	NN	O						
+145	1	fb:cell.null_57	Ν	ν	ν	NN	O						
+145	2	fb:cell.u_03bd_957	U+03BD (957)	u|+03|bd|-lrb-|957|-rrb-	U|+03|bd|-lrb-|957|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||957.0|	3.0		957.0		
+145	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+145	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+145	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+145	6	fb:cell.greek_small_letter_nu	Greek small letter nu	greek|small|letter|nu	greek|small|letter|nu	JJ|JJ|NN|FW	MISC|O|O|O	|||				Greek small letter nu	fb:part.greek_small_letter_nu
+146	0	fb:cell.xi	Xi	xi	xi	NN	O						
+146	1	fb:cell.null_58	Ξ	ξ	ξ	NN	O						
+146	2	fb:cell.u_03be_958	U+03BE (958)	u|+03|be|-lrb-|958|-rrb-	U|+03|be|-lrb-|958|-rrb-	NNP|CD|VBD-AUX|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||958.0|	3.0		958.0		
+146	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+146	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+146	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+146	6	fb:cell.greek_small_letter_xi	Greek small letter xi	greek|small|letter|xi	greek|small|letter|xi	JJ|JJ|NN|IN	MISC|O|O|O	|||				Greek small letter xi	fb:part.greek_small_letter_xi
+147	0	fb:cell.omicron	Omicron	omicron	Omicron	NNP	O						
+147	1	fb:cell.null_59	Ο	ο	ο	NN	O						
+147	2	fb:cell.u_03bf_959	U+03BF (959)	u|+03|bf|-lrb-|959|-rrb-	U|+03|bf|-lrb-|959|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||959.0|	3.0		959.0		
+147	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+147	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+147	5	fb:cell.new	NEW	new	NEW	NNP	O						
+147	6	fb:cell.greek_small_letter_omicron	Greek small letter omicron	greek|small|letter|omicron	greek|small|letter|omicron	JJ|JJ|NN|NNP	MISC|O|O|O	|||				Greek small letter omicron	fb:part.greek_small_letter_omicron
+148	0	fb:cell.pi	Pi	pi	pi	NN	O						
+148	1	fb:cell.null_60	Π	π	π	NN	O						
+148	2	fb:cell.u_03c0_960	U+03C0 (960)	u|+03|c0|-lrb-|960|-rrb-	U|+03|c0|-lrb-|960|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||960.0|	3.0		0.0		
+148	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+148	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+148	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+148	6	fb:cell.greek_small_letter_pi	Greek small letter pi	greek|small|letter|pi	greek|small|letter|pi	JJ|JJ|NN|NNP	MISC|O|O|O	|||				Greek small letter pi	fb:part.greek_small_letter_pi
+149	0	fb:cell.rho	Rho	rho	rho	NN	O						
+149	1	fb:cell.null_61	Ρ	ρ	ρ	NN	O						
+149	2	fb:cell.u_03c1_961	U+03C1 (961)	u|+03|c1|-lrb-|961|-rrb-	U|+03|c1|-lrb-|961|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||961.0|	3.0		1.0		
+149	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+149	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+149	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+149	6	fb:cell.greek_small_letter_rho	Greek small letter rho	greek|small|letter|rho	greek|small|letter|rho	JJ|JJ|NN|IN	MISC|O|O|O	|||				Greek small letter rho	fb:part.greek_small_letter_rho
+150	0	fb:cell.sigmaf	sigmaf	sigmaf	sigmaf	NN	O						
+150	1	fb:cell.null_69	ς	ς	ς	NN	O						
+150	2	fb:cell.u_03c2_962	U+03C2 (962)	u|+03|c2|-lrb-|962|-rrb-	U|+03|c2|-lrb-|962|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||962.0|	3.0		2.0		
+150	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+150	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+150	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+150	6	fb:cell.greek_small_letter_final_sigma	Greek small letter final sigma	greek|small|letter|final|sigma	greek|small|letter|final|sigma	JJ|JJ|NN|JJ|NN	MISC|O|O|O|O	||||				Greek small letter final sigma	fb:part.greek_small_letter_final_sigma
+151	0	fb:cell.sigma	Sigma	sigma	Sigma	NNP	O						
+151	1	fb:cell.null_62	Σ	σ	σ	NN	O						
+151	2	fb:cell.u_03c3_963	U+03C3 (963)	u|+03|c3|-lrb-|963|-rrb-	U|+03|c3|-lrb-|963|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||963.0|	3.0		3.0		
+151	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+151	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+151	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+151	6	fb:cell.greek_small_letter_sigma	Greek small letter sigma	greek|small|letter|sigma	greek|small|letter|sigma	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter sigma	fb:part.greek_small_letter_sigma
+152	0	fb:cell.tau	Tau	tau	tau	NN	O						
+152	1	fb:cell.null_63	Τ	τ	τ	NN	O						
+152	2	fb:cell.u_03c4_964	U+03C4 (964)	u|+03|c4|-lrb-|964|-rrb-	U|+03|c4|-lrb-|964|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||964.0|	3.0		4.0		
+152	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+152	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+152	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+152	6	fb:cell.greek_small_letter_tau	Greek small letter tau	greek|small|letter|tau	greek|small|letter|tau	JJ|JJ|NN|IN	MISC|O|O|O	|||				Greek small letter tau	fb:part.greek_small_letter_tau
+153	0	fb:cell.upsilon	Upsilon	upsilon	Upsilon	NNP	O						
+153	1	fb:cell.null_64	Υ	υ	υ	NN	O						
+153	2	fb:cell.u_03c5_965	U+03C5 (965)	u|+03|c5|-lrb-|965|-rrb-	U|+03|c5|-lrb-|965|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||965.0|	3.0		5.0		
+153	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+153	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+153	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+153	6	fb:cell.greek_small_letter_upsilon	Greek small letter upsilon	greek|small|letter|upsilon	greek|small|letter|upsilon	JJ|JJ|NN|NNP	MISC|O|O|O	|||				Greek small letter upsilon	fb:part.greek_small_letter_upsilon
+154	0	fb:cell.phi	Phi	phi	Phi	NNP	O						
+154	1	fb:cell.null_65	Φ	φ	φ	NN	O						
+154	2	fb:cell.u_03c6_966	U+03C6 (966)	u|+03|c6|-lrb-|966|-rrb-	U|+03|c6|-lrb-|966|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||966.0|	3.0		6.0		
+154	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+154	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+154	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+154	6	fb:cell.greek_small_letter_phi	Greek small letter phi	greek|small|letter|phi	greek|small|letter|phi	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter phi	fb:part.greek_small_letter_phi
+155	0	fb:cell.chi	Chi	chi	Chi	NNP	O						
+155	1	fb:cell.null_66	Χ	χ	χ	NN	O						
+155	2	fb:cell.u_03c7_967	U+03C7 (967)	u|+03|c7|-lrb-|967|-rrb-	U|+03|c7|-lrb-|967|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||967.0|	3.0		7.0		
+155	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+155	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+155	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+155	6	fb:cell.greek_small_letter_chi	Greek small letter chi	greek|small|letter|chi	greek|small|letter|chus	JJ|JJ|NN|NN	MISC|O|O|O	|||				Greek small letter chi	fb:part.greek_small_letter_chi
+156	0	fb:cell.psi	Psi	psi	psus	NNS	O						
+156	1	fb:cell.null_67	Ψ	ψ	ψ	NN	O						
+156	2	fb:cell.u_03c8_968	U+03C8 (968)	u|+03|c8|-lrb-|968|-rrb-	U|+03|c8|-lrb-|968|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||968.0|	3.0		8.0		
+156	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+156	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+156	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+156	6	fb:cell.greek_small_letter_psi	Greek small letter psi	greek|small|letter|psi	greek|small|letter|psus	JJ|JJ|NN|NNS	MISC|O|O|O	|||				Greek small letter psi	fb:part.greek_small_letter_psi
+157	0	fb:cell.omega	Omega	omega	Omega	NNP	O						
+157	1	fb:cell.null_68	Ω	ω	ω	NN	O						
+157	2	fb:cell.u_03c9_969	U+03C9 (969)	u|+03|c9|-lrb-|969|-rrb-	U|+03|c9|-lrb-|969|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||969.0|	3.0		9.0		
+157	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+157	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+157	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+157	6	fb:cell.greek_small_letter_omega	Greek small letter omega	greek|small|letter|omega	greek|small|letter|omega	JJ|JJ|NN|NNP	MISC|O|O|O	|||				Greek small letter omega	fb:part.greek_small_letter_omega
+158	0	fb:cell.thetasym	thetasym	thetasym	thetasym	NN	O						
+158	1	fb:cell.null_70	ϑ	ϑ	ϑ	NN	O						
+158	2	fb:cell.u_03d1_977	U+03D1 (977)	u|+03|d1|-lrb-|977|-rrb-	U|+03|d1|-lrb-|977|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||977.0|	3.0		1.0		
+158	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+158	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+158	5	fb:cell.new	NEW	new	NEW	NNP	O						
+158	6	fb:cell.greek_theta_symbol	Greek theta symbol	greek|theta|symbol	greek|theta|symbol	JJ|NN|NN	MISC|O|O	||				Greek theta symbol	fb:part.greek_theta_symbol
+159	0	fb:cell.upsih	upsih	upsih	upsih	NN	O						
+159	1	fb:cell.null_71	ϒ	ϒ	ϒ	NN	O						
+159	2	fb:cell.u_03d2_978	U+03D2 (978)	u|+03|d2|-lrb-|978|-rrb-	U|+03|d2|-lrb-|978|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||978.0|	3.0		2.0		
+159	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+159	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+159	5	fb:cell.new	NEW	new	NEW	NNP	O						
+159	6	fb:cell.greek_upsilon_with_hook_symbol	Greek Upsilon with hook symbol	greek|upsilon|with|hook|symbol	greek|upsilon|with|hook|symbol	JJ|NN|IN|NN|NN	O|O|O|O|O	||||				Greek Upsilon with hook symbol	fb:part.greek_upsilon_with_hook_symbol
+160	0	fb:cell.piv	piv	piv	piv	NN	O						
+160	1	fb:cell.null_72	ϖ	ϖ	ϖ	NN	O						
+160	2	fb:cell.u_03d6_982	U+03D6 (982)	u|+03|d6|-lrb-|982|-rrb-	U|+03|d6|-lrb-|982|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|3.0|||982.0|	3.0		6.0		
+160	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+160	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+160	5	fb:cell.isogrk3	ISOgrk3	isogrk3	isogrk3	NN	O		3.0				
+160	6	fb:cell.greek_pi_symbol	Greek pi symbol	greek|pi|symbol	greek|pi|symbol	JJ|NN|NN	MISC|O|O	||				Greek pi symbol	fb:part.greek_pi_symbol
+161	0	fb:cell.ensp	ensp	ensp	ensp	NN	O						
+161	1	fb:cell.null_6											
+161	2	fb:cell.u_2002_8194	U+2002 (8194)	u|+2002|-lrb-|8194|-rrb-	U|+2002|-lrb-|8194|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2002.0||8194.0|	2002.0		8194.0		
+161	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+161	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+161	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+161	6	fb:cell.en_space	en space	en|space	en|space	IN|NN	O|O	|				en space	fb:part.en_space
+162	0	fb:cell.emsp	emsp	emsp	emsp	NN	O						
+162	1	fb:cell.null_6											
+162	2	fb:cell.u_2003_8195	U+2003 (8195)	u|+2003|-lrb-|8195|-rrb-	U|+2003|-lrb-|8195|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2003.0||8195.0|	2003.0		8195.0		
+162	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+162	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+162	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+162	6	fb:cell.em_space	em space	em|space	em|space	NN|NN	O|O	|				em space	fb:part.em_space
+163	0	fb:cell.thinsp	thinsp	thinsp	thinsp	NN	O						
+163	1	fb:cell.null_6											
+163	2	fb:cell.u_2009_8201	U+2009 (8201)	u|+2009|-lrb-|8201|-rrb-	U|+2009|-lrb-|8201|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2009.0||8201.0|	2009.0		8201.0		
+163	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+163	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+163	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+163	6	fb:cell.thin_space	thin space	thin|space	thin|space	JJ|NN	O|O	|				thin space	fb:part.thin_space
+164	0	fb:cell.zwnj	zwnj	zwnj	zwnj	NN	O						
+164	1	fb:cell.null_6											
+164	2	fb:cell.u_200c_8204	U+200C (8204)	u|+200|c|-lrb-|8204|-rrb-	U|+200|c|-lrb-|8204|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|200.0|||8204.0|	200.0		8204.0		
+164	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+164	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+164	5	fb:cell.new_rfc_2070	NEW RFC 2070	new|rfc|2070	NEW|RFC|2070	NNP|NNP|CD	O|O|DATE	||2070	2070.0				
+164	6	fb:cell.zero_width_non_joiner	zero-width non-joiner	zero|width|non|joiner	zero|width|non|joiner	CD|NN|JJ|NN	NUMBER|O|O|O	0.0|||				zero-width non-joiner	fb:part.zero_width_non_joiner
+165	0	fb:cell.zwj	zwj	zwj	zwj	NN	O						
+165	1	fb:cell.null_6											
+165	2	fb:cell.u_200d_8205	U+200D (8205)	u|+200|d|-lrb-|8205|-rrb-	U|+200|d|-lrb-|8205|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|200.0|||8205.0|	200.0		8205.0		
+165	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+165	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+165	5	fb:cell.new_rfc_2070	NEW RFC 2070	new|rfc|2070	NEW|RFC|2070	NNP|NNP|CD	O|O|DATE	||2070	2070.0				
+165	6	fb:cell.zero_width_joiner	zero-width joiner	zero|width|joiner	zero|width|joiner	CD|NN|NN	NUMBER|O|O	0.0||				zero-width joiner	fb:part.zero_width_joiner
+166	0	fb:cell.lrm	lrm	lrm	lrm	NN	O						
+166	1	fb:cell.null_6											
+166	2	fb:cell.u_200e_8206	U+200E (8206)	u|+200|e|-lrb-|8206|-rrb-	U|+200|e|-lrb-|8206|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|200.0|||8206.0|	200.0		8206.0		
+166	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+166	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+166	5	fb:cell.new_rfc_2070	NEW RFC 2070	new|rfc|2070	NEW|RFC|2070	NNP|NNP|CD	O|O|DATE	||2070	2070.0				
+166	6	fb:cell.left_to_right_mark	left-to-right mark	left|to|right|mark	leave|to|right|mark	VBN|TO|JJ|NN	O|O|O|O	|||				left-to-right mark	fb:part.left_to_right_mark
+167	0	fb:cell.rlm	rlm	rlm	rlm	NN	O						
+167	1	fb:cell.null_6											
+167	2	fb:cell.u_200f_8207	U+200F (8207)	u|+200|f|-lrb-|8207|-rrb-	U|+200|f|-lrb-|8207|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|200.0|||8207.0|	200.0		8207.0		
+167	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+167	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+167	5	fb:cell.new_rfc_2070	NEW RFC 2070	new|rfc|2070	NEW|RFC|2070	NNP|NNP|CD	O|O|DATE	||2070	2070.0				
+167	6	fb:cell.right_to_left_mark	right-to-left mark	right|to|left|mark	right|to|left|mark	RB|TO|JJ|NN	O|O|O|O	|||				right-to-left mark	fb:part.right_to_left_mark
+168	0	fb:cell.ndash	ndash	ndash	ndash	NN	O						
+168	1	fb:cell.null_73	–	--	--	:	O						
+168	2	fb:cell.u_2013_8211	U+2013 (8211)	u|+2013|-lrb-|8211|-rrb-	U|+2013|-lrb-|8211|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2013.0||8211.0|	2013.0		8211.0		
+168	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+168	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+168	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+168	6	fb:cell.en_dash	en dash	en|dash	en|dash	IN|NN	O|O	|				en dash	fb:part.en_dash
+169	0	fb:cell.mdash	mdash	mdash	mdash	NN	O						
+169	1	fb:cell.null_73	–	--	--	:	O						
+169	2	fb:cell.u_2014_8212	U+2014 (8212)	u|+2014|-lrb-|8212|-rrb-	U|+2014|-lrb-|8212|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2014.0||8212.0|	2014.0		8212.0		
+169	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+169	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+169	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+169	6	fb:cell.em_dash	em dash	em|dash	em|dash	NN|NN	O|O	|				em dash	fb:part.em_dash
+170	0	fb:cell.lsquo	lsquo	lsquo	lsquo	NN	O						
+170	1	fb:cell.null_3	'	'	'	''	O						
+170	2	fb:cell.u_2018_8216	U+2018 (8216)	u|+2018|-lrb-|8216|-rrb-	U|+2018|-lrb-|8216|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2018.0||8216.0|	2018.0		8216.0		
+170	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+170	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+170	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+170	6	fb:cell.left_single_quotation_mark	left single quotation mark	left|single|quotation|mark	left|single|quotation|mark	RB|JJ|NN|NN	O|O|O|O	|||				left single quotation mark	fb:part.left_single_quotation_mark
+171	0	fb:cell.rsquo	rsquo	rsquo	rsquo	NN	O						
+171	1	fb:cell.null_3	'	'	'	''	O						
+171	2	fb:cell.u_2019_8217	U+2019 (8217)	u|+2019|-lrb-|8217|-rrb-	U|+2019|-lrb-|8217|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2019.0||8217.0|	2019.0		8217.0		
+171	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+171	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+171	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+171	6	fb:cell.right_single_quotation_mark	right single quotation mark	right|single|quotation|mark	right|single|quotation|mark	RB|JJ|NN|NN	O|O|O|O	|||				right single quotation mark	fb:part.right_single_quotation_mark
+172	0	fb:cell.sbquo	sbquo	sbquo	sbquo	NN	O						
+172	1	fb:cell.null_74	‚	‚	‚	NN	O						
+172	2	fb:cell.u_201a_8218	U+201A (8218)	u|+201|a|-lrb-|8218|-rrb-	U|+201|a|-lrb-|8218|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|201.0|||8218.0|	201.0		8218.0		
+172	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+172	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+172	5	fb:cell.new	NEW	new	NEW	NNP	O						
+172	6	fb:cell.single_low_9_quotation_mark	single low-9 quotation mark	single|low-9|quotation|mark	single|low-9|quotation|mark	JJ|NN|NN|NN	O|O|O|O	|||	9.0			single low-9 quotation mark	fb:part.single_low_9_quotation_mark
+173	0	fb:cell.ldquo	ldquo	ldquo	ldquo	NN	O						
+173	1	fb:cell.null	"	''	''	''	O						
+173	2	fb:cell.u_201c_8220	U+201C (8220)	u|+201|c|-lrb-|8220|-rrb-	U|+201|c|-lrb-|8220|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|201.0|||8220.0|	201.0		8220.0		
+173	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+173	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+173	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+173	6	fb:cell.left_double_quotation_mark	left double quotation mark	left|double|quotation|mark	left|double|quotation|mark	RB|JJ|NN|NN	O|O|O|O	|||				left double quotation mark	fb:part.left_double_quotation_mark
+174	0	fb:cell.rdquo	rdquo	rdquo	rdquo	NN	O						
+174	1	fb:cell.null	"	''	''	''	O						
+174	2	fb:cell.u_201d_8221	U+201D (8221)	u|+201|d|-lrb-|8221|-rrb-	U|+201|d|-lrb-|8221|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|201.0|||8221.0|	201.0		8221.0		
+174	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+174	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+174	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+174	6	fb:cell.right_double_quotation_mark	right double quotation mark	right|double|quotation|mark	right|double|quotation|mark	RB|JJ|NN|NN	O|O|O|O	|||				right double quotation mark	fb:part.right_double_quotation_mark
+175	0	fb:cell.bdquo	bdquo	bdquo	bdquo	NN	O						
+175	1	fb:cell.null_75	„	„	„	NN	O						
+175	2	fb:cell.u_201e_8222	U+201E (8222)	u|+201|e|-lrb-|8222|-rrb-	U|+201|e|-lrb-|8222|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|201.0|||8222.0|	201.0		8222.0		
+175	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+175	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+175	5	fb:cell.new	NEW	new	NEW	NNP	O						
+175	6	fb:cell.double_low_9_quotation_mark	double low-9 quotation mark	double|low-9|quotation|mark	double|low-9|quotation|mark	RB|JJ|NN|NN	O|O|O|O	|||	9.0			double low-9 quotation mark	fb:part.double_low_9_quotation_mark
+176	0	fb:cell.dagger	dagger	dagger	dagger	NN	O						
+176	1	fb:cell.null_6											
+176	2	fb:cell.u_2020_8224	U+2020 (8224)	u|+2020|-lrb-|8224|-rrb-	U|+2020|-lrb-|8224|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2020.0||8224.0|	2020.0		8224.0		
+176	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+176	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+176	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+176	6	fb:cell.dagger_obelisk	dagger, obelisk	dagger|,|obelisk	dagger|,|obelisk	NN|,|NN	O|O|O	||				dagger|obelisk	fb:part.dagger|fb:part.obelisk
+177	0	fb:cell.dagger	dagger	dagger	dagger	NN	O						
+177	1	fb:cell.null_6											
+177	2	fb:cell.u_2021_8225	U+2021 (8225)	u|+2021|-lrb-|8225|-rrb-	U|+2021|-lrb-|8225|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2021.0||8225.0|	2021.0		8225.0		
+177	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+177	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+177	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+177	6	fb:cell.double_dagger_double_obelisk	double dagger, double obelisk	double|dagger|,|double|obelisk	double|dagger|,|double|obelisk	JJ|NN|,|JJ|NN	O|O|O|O|O	||||				double dagger|double obelisk	fb:part.double_dagger|fb:part.double_obelisk
+178	0	fb:cell.bull	bull	bull	bull	NN	O						
+178	1	fb:cell.null_6											
+178	2	fb:cell.u_2022_8226	U+2022 (8226)	u|+2022|-lrb-|8226|-rrb-	U|+2022|-lrb-|8226|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2022.0||8226.0|	2022.0		8226.0		
+178	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+178	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+178	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+178	6	fb:cell.bullet_black_small_circle	bullet (black small circle)	bullet|-lrb-|black|small|circle|-rrb-	bullet|-lrb-|black|small|circle|-rrb-	NN|-LRB-|JJ|JJ|NN|-RRB-	O|O|O|O|O|O	|||||				bullet (black small circle)	fb:part.bullet_black_small_circle
+179	0	fb:cell.hellip	hellip	hellip	hellip	IN	O						
+179	1	fb:cell.null_76	…	...	...	:	O						
+179	2	fb:cell.u_2026_8230	U+2026 (8230)	u|+2026|-lrb-|8230|-rrb-	U|+2026|-lrb-|8230|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2026.0||8230.0|	2026.0		8230.0		
+179	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+179	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+179	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+179	6	fb:cell.horizontal_ellipsis_three_dot_leader	horizontal ellipsis (three dot leader)	horizontal|ellipsis|-lrb-|three|dot|leader|-rrb-	horizontal|ellipsis|-lrb-|three|dot|leader|-rrb-	JJ|NN|-LRB-|CD|NN|NN|-RRB-	O|O|O|NUMBER|O|O|O	|||3.0|||				horizontal ellipsis (three dot leader)	fb:part.horizontal_ellipsis_three_dot_leader
+180	0	fb:cell.permil	permil	permil	permil	NN	O						
+180	1	fb:cell.null_77	‰	‰	‰	NN	O						
+180	2	fb:cell.u_2030_8240	U+2030 (8240)	u|+2030|-lrb-|8240|-rrb-	U|+2030|-lrb-|8240|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2030.0||8240.0|	2030.0		8240.0		
+180	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+180	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+180	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+180	6	fb:cell.per_mille_sign	per mille sign	per|mille|sign	per|mille|sign	IN|FW|NN	O|O|O	||				per mille sign	fb:part.per_mille_sign
+181	0	fb:cell.prime	prime	prime	prime	JJ	O						
+181	1	fb:cell.null_78	′	′	′	NN	O						
+181	2	fb:cell.u_2032_8242	U+2032 (8242)	u|+2032|-lrb-|8242|-rrb-	U|+2032|-lrb-|8242|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2032.0||8242.0|	2032.0		8242.0		
+181	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+181	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+181	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+181	6	fb:cell.prime_minutes_feet	prime (minutes, feet)	prime|-lrb-|minutes|,|feet|-rrb-	prime|-lrb-|minute|,|foot|-rrb-	JJ|-LRB-|NNS|,|NNS|-RRB-	O|O|DURATION|O|O|O	|||||				prime (minutes|feet)	fb:part.prime_minutes|fb:part.feet
+182	0	fb:cell.prime	prime	prime	prime	JJ	O						
+182	1	fb:cell.null_79	″	″	″	NN	O						
+182	2	fb:cell.u_2033_8243	U+2033 (8243)	u|+2033|-lrb-|8243|-rrb-	U|+2033|-lrb-|8243|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2033.0||8243.0|	2033.0		8243.0		
+182	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+182	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+182	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+182	6	fb:cell.double_prime_seconds_inches	double prime (seconds, inches)	double|prime|-lrb-|seconds|,|inches|-rrb-	double|prime|-lrb-|seconds|,|inch|-rrb-	JJ|JJ|-LRB-|NNS|,|NNS|-RRB-	O|O|O|DURATION|O|O|O	|||2.0|||				double prime (seconds|inches)	fb:part.double_prime_seconds|fb:part.inches
+183	0	fb:cell.lsaquo	lsaquo	lsaquo	lsaquo	NN	O						
+183	1	fb:cell.null_4	<	<	<	JJR	O						
+183	2	fb:cell.u_2039_8249	U+2039 (8249)	u|+2039|-lrb-|8249|-rrb-	U|+2039|-lrb-|8249|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2039.0||8249.0|	2039.0		8249.0		
+183	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+183	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+183	5	fb:cell.iso_proposed	ISO proposed	iso|proposed	iso|propose	NN|VBD	ORGANIZATION|O	|					
+183	6	fb:cell.single_left_pointing_angle_quotation_mark	single left-pointing angle quotation mark	single|left|pointing|angle|quotation|mark	single|left|point|angle|quotation|mark	JJ|JJ|VBG|NN|NN|NN	O|O|O|O|O|O	|||||				single left-pointing angle quotation mark	fb:part.single_left_pointing_angle_quotation_mark
+184	0	fb:cell.rsaquo	rsaquo	rsaquo	rsaquo	NN	O						
+184	1	fb:cell.null_5	>	>	>	JJR	O						
+184	2	fb:cell.u_203a_8250	U+203A (8250)	u|+203|a|-lrb-|8250|-rrb-	U|+203|a|-lrb-|8250|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|203.0|||8250.0|	203.0		8250.0		
+184	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+184	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+184	5	fb:cell.iso_proposed	ISO proposed	iso|proposed	iso|propose	NN|VBD	ORGANIZATION|O	|					
+184	6	fb:cell.single_right_pointing_angle_quotation_mark	single right-pointing angle quotation mark	single|right|pointing|angle|quotation|mark	single|right|point|angle|quotation|mark	JJ|JJ|VBG|NN|NN|NN	O|O|O|O|O|O	|||||				single right-pointing angle quotation mark	fb:part.single_right_pointing_angle_quotation_mark
+185	0	fb:cell.oline	oline	oline	oline	NN	O						
+185	1	fb:cell.null_80	‾	‾	‾	NN	O						
+185	2	fb:cell.u_203e_8254	U+203E (8254)	u|+203|e|-lrb-|8254|-rrb-	U|+203|e|-lrb-|8254|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|203.0|||8254.0|	203.0		8254.0		
+185	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+185	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+185	5	fb:cell.new	NEW	new	NEW	NNP	O						
+185	6	fb:cell.overline_spacing_overscore	overline (spacing overscore)	overline|-lrb-|spacing|overscore|-rrb-	overline|-lrb-|spacing|overscore|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||				overline (spacing overscore)	fb:part.overline_spacing_overscore
+186	0	fb:cell.frasl	frasl	frasl	frasl	NN	O						
+186	1	fb:cell.null_81	⁄	⁄	⁄	NN	O						
+186	2	fb:cell.u_2044_8260	U+2044 (8260)	u|+2044|-lrb-|8260|-rrb-	U|+2044|-lrb-|8260|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2044.0||8260.0|	2044.0		8260.0		
+186	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+186	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+186	5	fb:cell.new	NEW	new	NEW	NNP	O						
+186	6	fb:cell.fraction_slash_solidus	fraction slash (solidus)	fraction|slash|-lrb-|solidus|-rrb-	fraction|slash|-lrb-|solidus|-rrb-	NN|VBP|-LRB-|NN|-RRB-	O|O|O|O|O	||||				fraction slash (solidus)	fb:part.fraction_slash_solidus
+187	0	fb:cell.euro	euro	euro	euro	NN	O						
+187	1	fb:cell.null_82	€	$	$	$	O						
+187	2	fb:cell.u_20ac_8364	U+20AC (8364)	u|+20|ac|-lrb-|8364|-rrb-	U|+20|ac|-lrb-|8364|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|20.0|||8364.0|	20.0		8364.0		
+187	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+187	4	fb:cell.htmlspecial	HTMLspecial	htmlspecial	htmlspecial	JJ	O						
+187	5	fb:cell.new	NEW	new	NEW	NNP	O						
+187	6	fb:cell.euro_sign	euro sign	euro|sign	euro|sign	NN|NN	O|O	|				euro sign	fb:part.euro_sign
+188	0	fb:cell.image	image	image	image	NN	O						
+188	1	fb:cell.null_83	ℑ	ℑ	ℑ	NN	O						
+188	2	fb:cell.u_2111_8465	U+2111 (8465)	u|+2111|-lrb-|8465|-rrb-	U|+2111|-lrb-|8465|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2111.0||8465.0|	2111.0		8465.0		
+188	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+188	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+188	5	fb:cell.isoamso	ISOamso	isoamso	isoamso	NN	O						
+188	6	fb:cell.black_letter_capital_i_imaginary_part	black-letter capital I (imaginary part)	black|letter|capital|i|-lrb-|imaginary|part|-rrb-	black|letter|capital|i|-lrb-|imaginary|part|-rrb-	JJ|NN|NN|NN|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				black-letter capital I (imaginary part)	fb:part.black_letter_capital_i_imaginary_part
+189	0	fb:cell.weierp	weierp	weierp	weierp	NN	O						
+189	1	fb:cell.null_84	℘	℘	℘	NN	O						
+189	2	fb:cell.u_2118_8472	U+2118 (8472)	u|+2118|-lrb-|8472|-rrb-	U|+2118|-lrb-|8472|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2118.0||8472.0|	2118.0		8472.0		
+189	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+189	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+189	5	fb:cell.isoamso	ISOamso	isoamso	isoamso	NN	O						
+189	6	fb:cell.script_capital_p_power_set_weierstrass_p	script capital P (power set, Weierstrass p)	script|capital|p|-lrb-|power|set|,|weierstrass|p|-rrb-	script|capital|p|-lrb-|power|set|,|Weierstrass|p|-rrb-	NN|NN|NN|-LRB-|NN|VBN|,|NNP|NN|-RRB-	O|O|O|O|O|O|O|O|O|O	|||||||||				script capital P (power set|Weierstrass p)	fb:part.script_capital_p_power_set|fb:part.weierstrass_p
+190	0	fb:cell.real	real	real	real	JJ	O						
+190	1	fb:cell.null_85	ℜ	ℜ	ℜ	NN	O						
+190	2	fb:cell.u_211c_8476	U+211C (8476)	u|+211|c|-lrb-|8476|-rrb-	U|+211|c|-lrb-|8476|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|211.0|||8476.0|	211.0		8476.0		
+190	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+190	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+190	5	fb:cell.isoamso	ISOamso	isoamso	isoamso	NN	O						
+190	6	fb:cell.black_letter_capital_r_real_part_symbol	black-letter capital R (real part symbol)	black|letter|capital|r|-lrb-|real|part|symbol|-rrb-	black|letter|capital|r|-lrb-|real|part|symbol|-rrb-	JJ|NN|NN|NN|-LRB-|JJ|NN|NN|-RRB-	O|O|O|O|O|O|O|O|O	||||||||				black-letter capital R (real part symbol)	fb:part.black_letter_capital_r_real_part_symbol
+191	0	fb:cell.trade	trade	trade	trade	NN	O						
+191	1	fb:cell.null_86	™	™	™	NN	O						
+191	2	fb:cell.u_2122_8482	U+2122 (8482)	u|+2122|-lrb-|8482|-rrb-	U|+2122|-lrb-|8482|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2122.0||8482.0|	2122.0		8482.0		
+191	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+191	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+191	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+191	6	fb:cell.trademark_symbol	trademark symbol	trademark|symbol	trademark|symbol	NN|NN	O|O	|				trademark symbol	fb:part.trademark_symbol
+192	0	fb:cell.alefsym	alefsym	alefsym	alefsym	NN	O						
+192	1	fb:cell.null_87	ℵ	ℵ	ℵ	NN	O						
+192	2	fb:cell.u_2135_8501	U+2135 (8501)	u|+2135|-lrb-|8501|-rrb-	U|+2135|-lrb-|8501|-rrb-	NNP|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2135.0||8501.0|	2135.0		8501.0		
+192	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+192	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+192	5	fb:cell.new	NEW	new	NEW	NNP	O						
+192	6	fb:cell.alef_symbol_first_transfinite_cardinal	alef symbol (first transfinite cardinal)	alef|symbol|-lrb-|first|transfinite|cardinal|-rrb-	alef|symbol|-lrb-|first|transfinite|cardinal|-rrb-	NN|NN|-LRB-|JJ|NN|NN|-RRB-	O|O|O|ORDINAL|O|O|O	|||1.0|||				alef symbol (first transfinite cardinal)	fb:part.alef_symbol_first_transfinite_cardinal
+193	0	fb:cell.larr	larr	larr	larr	NN	O						
+193	1	fb:cell.null_88	←	←	←	NN	O						
+193	2	fb:cell.u_2190_8592	U+2190 (8592)	u|+2190|-lrb-|8592|-rrb-	U|+2190|-lrb-|8592|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2190.0||8592.0|	2190.0		8592.0		
+193	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+193	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+193	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+193	6	fb:cell.leftwards_arrow	leftwards arrow	leftwards|arrow	leftward|arrow	NNS|NN	O|O	|				leftwards arrow	fb:part.leftwards_arrow
+194	0	fb:cell.uarr	uarr	uarr	uarr	NN	O						
+194	1	fb:cell.null_89	↑	↑	↑	NN	O						
+194	2	fb:cell.u_2191_8593	U+2191 (8593)	u|+2191|-lrb-|8593|-rrb-	U|+2191|-lrb-|8593|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2191.0||8593.0|	2191.0		8593.0		
+194	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+194	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+194	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+194	6	fb:cell.upwards_arrow	upwards arrow	upwards|arrow	upward|arrow	NNS|NN	O|O	|				upwards arrow	fb:part.upwards_arrow
+195	0	fb:cell.rarr	rarr	rarr	rarr	NN	O						
+195	1	fb:cell.null_90	→	→	→	NN	O						
+195	2	fb:cell.u_2192_8594	U+2192 (8594)	u|+2192|-lrb-|8594|-rrb-	U|+2192|-lrb-|8594|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2192.0||8594.0|	2192.0		8594.0		
+195	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+195	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+195	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+195	6	fb:cell.rightwards_arrow	rightwards arrow	rightwards|arrow	rightward|arrow	NNS|NN	O|O	|				rightwards arrow	fb:part.rightwards_arrow
+196	0	fb:cell.darr	darr	darr	darr	NN	O						
+196	1	fb:cell.null_91	↓	↓	↓	NN	O						
+196	2	fb:cell.u_2193_8595	U+2193 (8595)	u|+2193|-lrb-|8595|-rrb-	U|+2193|-lrb-|8595|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2193.0||8595.0|	2193.0		8595.0		
+196	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+196	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+196	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+196	6	fb:cell.downwards_arrow	downwards arrow	downwards|arrow	downward|arrow	NNS|NN	O|O	|				downwards arrow	fb:part.downwards_arrow
+197	0	fb:cell.harr	harr	harr	harr	NN	O						
+197	1	fb:cell.null_92	↔	↔	↔	NN	O						
+197	2	fb:cell.u_2194_8596	U+2194 (8596)	u|+2194|-lrb-|8596|-rrb-	U|+2194|-lrb-|8596|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2194.0||8596.0|	2194.0		8596.0		
+197	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+197	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+197	5	fb:cell.isoamsa	ISOamsa	isoamsa	isoamsa	NN	O						
+197	6	fb:cell.left_right_arrow	left right arrow	left|right|arrow	left|right|arrow	RB|JJ|NN	O|O|O	||				left right arrow	fb:part.left_right_arrow
+198	0	fb:cell.crarr	crarr	crarr	crarr	NN	O						
+198	1	fb:cell.null_93	↵	↵	↵	NN	O						
+198	2	fb:cell.u_21b5_8629	U+21B5 (8629)	u|+21|b5|-lrb-|8629|-rrb-	U|+21|b5|-lrb-|8629|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|21.0|||8629.0|	21.0		5.0		
+198	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+198	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+198	5	fb:cell.new	NEW	new	NEW	NNP	O						
+198	6	fb:cell.downwards_arrow_with_corner_leftwards_carriage_return	downwards arrow with corner leftwards (carriage return)	downwards|arrow|with|corner|leftwards|-lrb-|carriage|return|-rrb-	downward|arrow|with|corner|leftward|-lrb-|carriage|return|-rrb-	NNS|NN|IN|NN|NNS|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O|O|O|O	||||||||				downwards arrow with corner leftwards (carriage return)	fb:part.downwards_arrow_with_corner_leftwards_carriage_return
+199	0	fb:cell.larr	larr	larr	larr	NN	O						
+199	1	fb:cell.null_94	⇐	⇐	⇐	NN	O						
+199	2	fb:cell.u_21d0_8656	U+21D0 (8656)	u|+21|d0|-lrb-|8656|-rrb-	U|+21|d0|-lrb-|8656|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|21.0|||8656.0|	21.0		0.0		
+199	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+199	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+199	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+199	6	fb:cell.leftwards_double_arrow	leftwards double arrow	leftwards|double|arrow	leftward|double|arrow	NNS|JJ|NN	O|O|O	||				leftwards double arrow	fb:part.leftwards_double_arrow
+200	0	fb:cell.uarr	uarr	uarr	uarr	NN	O						
+200	1	fb:cell.null_95	⇑	⇑	⇑	NN	O						
+200	2	fb:cell.u_21d1_8657	U+21D1 (8657)	u|+21|d1|-lrb-|8657|-rrb-	U|+21|d1|-lrb-|8657|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|21.0|||8657.0|	21.0		1.0		
+200	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+200	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+200	5	fb:cell.isoamsa	ISOamsa	isoamsa	isoamsa	NN	O						
+200	6	fb:cell.upwards_double_arrow	upwards double arrow	upwards|double|arrow	upwards|double|arrow	RB|JJ|NN	O|O|O	||				upwards double arrow	fb:part.upwards_double_arrow
+201	0	fb:cell.rarr	rarr	rarr	rarr	NN	O						
+201	1	fb:cell.null_96	⇒	⇒	⇒	NN	O						
+201	2	fb:cell.u_21d2_8658	U+21D2 (8658)	u|+21|d2|-lrb-|8658|-rrb-	U|+21|d2|-lrb-|8658|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|21.0|||8658.0|	21.0		2.0		
+201	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+201	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+201	5	fb:cell.isonum	ISOnum	isonum	isonum	NN	O						
+201	6	fb:cell.rightwards_double_arrow	rightwards double arrow	rightwards|double|arrow	rightward|double|arrow	NNS|JJ|NN	O|O|O	||				rightwards double arrow	fb:part.rightwards_double_arrow
+202	0	fb:cell.darr	darr	darr	darr	NN	O						
+202	1	fb:cell.null_97	⇓	⇓	⇓	NN	O						
+202	2	fb:cell.u_21d3_8659	U+21D3 (8659)	u|+21|d3|-lrb-|8659|-rrb-	U|+21|d3|-lrb-|8659|-rrb-	NNP|NN|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|21.0|||8659.0|	21.0		3.0		
+202	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+202	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+202	5	fb:cell.isoamsa	ISOamsa	isoamsa	isoamsa	NN	O						
+202	6	fb:cell.downwards_double_arrow	downwards double arrow	downwards|double|arrow	downwards|double|arrow	RB|JJ|NN	O|O|O	||				downwards double arrow	fb:part.downwards_double_arrow
+203	0	fb:cell.harr	harr	harr	harr	NN	O						
+203	1	fb:cell.null_98	⇔	⇔	⇔	NN	O						
+203	2	fb:cell.u_21d4_8660	U+21D4 (8660)	u|+21|d4|-lrb-|8660|-rrb-	U|+21|d4|-lrb-|8660|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|21.0|||8660.0|	21.0		4.0		
+203	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+203	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+203	5	fb:cell.isoamsa	ISOamsa	isoamsa	isoamsa	NN	O						
+203	6	fb:cell.left_right_double_arrow	left right double arrow	left|right|double|arrow	left|right|double|arrow	RB|RB|JJ|NN	O|O|O|O	|||				left right double arrow	fb:part.left_right_double_arrow
+204	0	fb:cell.forall	forall	forall	forall	NN	O						
+204	1	fb:cell.null_99	∀	∀	∀	NN	O						
+204	2	fb:cell.u_2200_8704	U+2200 (8704)	u|+2200|-lrb-|8704|-rrb-	U|+2200|-lrb-|8704|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2200.0||8704.0|	2200.0		8704.0		
+204	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+204	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+204	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+204	6	fb:cell.for_all	for all	for|all	for|all	IN|DT	O|O	|				for all	fb:part.for_all
+205	0	fb:cell.part	part	part	part	NN	O						
+205	1	fb:cell.null_100	∂	∂	∂	NN	O						
+205	2	fb:cell.u_2202_8706	U+2202 (8706)	u|+2202|-lrb-|8706|-rrb-	U|+2202|-lrb-|8706|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2202.0||8706.0|	2202.0		8706.0		
+205	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+205	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+205	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+205	6	fb:cell.partial_differential	partial differential	partial|differential	partial|differential	JJ|JJ	O|O	|				partial differential	fb:part.partial_differential
+206	0	fb:cell.exist	exist	exist	exist	VB	O						
+206	1	fb:cell.null_101	∃	∃	∃	NN	O						
+206	2	fb:cell.u_2203_8707	U+2203 (8707)	u|+2203|-lrb-|8707|-rrb-	U|+2203|-lrb-|8707|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2203.0||8707.0|	2203.0		8707.0		
+206	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+206	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+206	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+206	6	fb:cell.there_exists	there exists	there|exists	there|exist	RB|VBZ	O|O	|				there exists	fb:part.there_exists
+207	0	fb:cell.empty	empty	empty	empty	JJ	O						
+207	1	fb:cell.null_102	∅	∅	∅	NN	O						
+207	2	fb:cell.u_2205_8709	U+2205 (8709)	u|+2205|-lrb-|8709|-rrb-	U|+2205|-lrb-|8709|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2205.0||8709.0|	2205.0		8709.0		
+207	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+207	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+207	5	fb:cell.isoamso	ISOamso	isoamso	isoamso	NN	O						
+207	6	fb:cell.empty_set_null_set_see_also_u_8960	empty set (null set); see also U+8960, ⌀	empty|set|-lrb-|null|set|-rrb-|;|see|also|u|+8960|,|⌀	empty|set|-lrb-|null|set|-rrb-|;|see|also|U|+8960|,|⌀	JJ|NN|-LRB-|JJ|NN|-RRB-|:|VB|RB|NNP|CD|,|CD	O|O|O|O|O|O|O|O|O|O|NUMBER|O|NUMBER	||||||||||8960.0||	8960.0			empty set (null set); see also U+8960|⌀	fb:part.empty_set_null_set_see_also_u_8960|fb:part.null
+208	0	fb:cell.nabla	nabla	nabla	nablum	NN	O						
+208	1	fb:cell.null_103	∇	∇	∇	NN	O						
+208	2	fb:cell.u_2207_8711	U+2207 (8711)	u|+2207|-lrb-|8711|-rrb-	U|+2207|-lrb-|8711|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2207.0||8711.0|	2207.0		8711.0		
+208	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+208	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+208	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+208	6	fb:cell.del_or_nabla_vector_differential_operator	del or nabla (vector differential operator)	del|or|nabla|-lrb-|vector|differential|operator|-rrb-	del|or|nablum|-lrb-|vector|differential|operator|-rrb-	DT|CC|NN|-LRB-|NN|JJ|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				del or nabla (vector differential operator)	fb:part.del_or_nabla_vector_differential_operator
+209	0	fb:cell.isin	isin	isin	isin	NN	O						
+209	1	fb:cell.null_104	∈	∈	∈	NN	O						
+209	2	fb:cell.u_2208_8712	U+2208 (8712)	u|+2208|-lrb-|8712|-rrb-	U|+2208|-lrb-|8712|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2208.0||8712.0|	2208.0		8712.0		
+209	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+209	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+209	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+209	6	fb:cell.element_of	element of	element|of	element|of	NN|IN	O|O	|				element of	fb:part.element_of
+210	0	fb:cell.notin	notin	notin	notin	NN	O						
+210	1	fb:cell.null_104	∈	∈	∈	NN	O						
+210	2	fb:cell.u_2209_8713	U+2209 (8713)	u|+2209|-lrb-|8713|-rrb-	U|+2209|-lrb-|8713|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2209.0||8713.0|	2209.0		8713.0		
+210	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+210	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+210	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+210	6	fb:cell.not_an_element_of	not an element of	not|an|element|of	not|a|element|of	RB|DT|NN|IN	O|O|O|O	|||				not an element of	fb:part.not_an_element_of
+211	0	fb:cell.ni	ni	ni	nus	NNS	O						
+211	1	fb:cell.null_105	∋	∋	∋	NN	O						
+211	2	fb:cell.u_220b_8715	U+220B (8715)	u|+220|b|-lrb-|8715|-rrb-	U|+220|b|-lrb-|8715|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|220.0|||8715.0|	220.0		8715.0		
+211	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+211	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+211	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+211	6	fb:cell.contains_as_member	contains as member	contains|as|member	contain|as|member	VBZ|IN|NN	O|O|O	||				contains as member	fb:part.contains_as_member
+212	0	fb:cell.prod	prod	prod	prod	NN	O						
+212	1	fb:cell.null_106	∏	∏	∏	NN	O						
+212	2	fb:cell.u_220f_8719	U+220F (8719)	u|+220|f|-lrb-|8719|-rrb-	U|+220|f|-lrb-|8719|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|220.0|||8719.0|	220.0		8719.0		
+212	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+212	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+212	5	fb:cell.isoamsb	ISOamsb	isoamsb	isoamsb	NN	O						
+212	6	fb:cell.n_ary_product_product_sign	n-ary product (product sign)	n|ary|product|-lrb-|product|sign|-rrb-	n|ary|product|-lrb-|product|sign|-rrb-	NN|NN|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O|O	||||||				n-ary product (product sign)	fb:part.n_ary_product_product_sign
+213	0	fb:cell.sum	sum	sum	sum	NN	O						
+213	1	fb:cell.null_107	∑	∑	∑	NN	O						
+213	2	fb:cell.u_2211_8721	U+2211 (8721)	u|+2211|-lrb-|8721|-rrb-	U|+2211|-lrb-|8721|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2211.0||8721.0|	2211.0		8721.0		
+213	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+213	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+213	5	fb:cell.isoamsb	ISOamsb	isoamsb	isoamsb	NN	O						
+213	6	fb:cell.n_ary_summation	n-ary summation	n|ary|summation	n|ary|summation	NN|JJ|NN	O|O|O	||				n-ary summation	fb:part.n_ary_summation
+214	0	fb:cell.minus	minus	minus	minus	CC	O						
+214	1	fb:cell.null_108	−	−	−	NN	O						
+214	2	fb:cell.u_2212_8722	U+2212 (8722)	u|+2212|-lrb-|8722|-rrb-	U|+2212|-lrb-|8722|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2212.0||8722.0|	2212.0		8722.0		
+214	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+214	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+214	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+214	6	fb:cell.minus_sign	minus sign	minus|sign	minus|sign	CC|NN	O|O	|				minus sign	fb:part.minus_sign
+215	0	fb:cell.lowast	lowast	lowast	lowast	IN	O						
+215	1	fb:cell.null_109	∗	∗	∗	NN	O						
+215	2	fb:cell.u_2217_8727	U+2217 (8727)	u|+2217|-lrb-|8727|-rrb-	U|+2217|-lrb-|8727|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2217.0||8727.0|	2217.0		8727.0		
+215	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+215	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+215	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+215	6	fb:cell.asterisk_operator	asterisk operator	asterisk|operator	asterisk|operator	NN|NN	O|O	|				asterisk operator	fb:part.asterisk_operator
+216	0	fb:cell.radic	radic	radic	radic	NN	O						
+216	1	fb:cell.null_110	√	√	√	NN	O						
+216	2	fb:cell.u_221a_8730	U+221A (8730)	u|+221|a|-lrb-|8730|-rrb-	U|+221|a|-lrb-|8730|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|221.0|||8730.0|	221.0		8730.0		
+216	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+216	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+216	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+216	6	fb:cell.square_root_radical_sign	square root (radical sign)	square|root|-lrb-|radical|sign|-rrb-	square|root|-lrb-|radical|sign|-rrb-	JJ|NN|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O	|||||				square root (radical sign)	fb:part.square_root_radical_sign
+217	0	fb:cell.prop	prop	prop	prop	VB	O						
+217	1	fb:cell.null_111	∝	∝	∝	NN	O						
+217	2	fb:cell.u_221d_8733	U+221D (8733)	u|+221|d|-lrb-|8733|-rrb-	U|+221|d|-lrb-|8733|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|221.0|||8733.0|	221.0		8733.0		
+217	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+217	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+217	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+217	6	fb:cell.proportional_to	proportional to	proportional|to	proportional|to	JJ|TO	O|O	|				proportional to	fb:part.proportional_to
+218	0	fb:cell.infin	infin	infin	infin	NN	O						
+218	1	fb:cell.null_112	∞	∞	∞	NN	O						
+218	2	fb:cell.u_221e_8734	U+221E (8734)	u|+221|e|-lrb-|8734|-rrb-	U|+221|e|-lrb-|8734|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|221.0|||8734.0|	221.0		8734.0		
+218	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+218	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+218	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+218	6	fb:cell.infinity	infinity	infinity	infinity	NN	O					infinity	fb:part.infinity
+219	0	fb:cell.ang	ang	ang	ang	NN	O						
+219	1	fb:cell.null_113	∠	∠	∠	NN	O						
+219	2	fb:cell.u_2220_8736	U+2220 (8736)	u|+2220|-lrb-|8736|-rrb-	U|+2220|-lrb-|8736|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2220.0||8736.0|	2220.0		8736.0		
+219	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+219	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+219	5	fb:cell.isoamso	ISOamso	isoamso	isoamso	NN	O						
+219	6	fb:cell.angle	angle	angle	angle	NN	O					angle	fb:part.angle
+220	0	fb:cell.and	and	and	and	CC	O						
+220	1	fb:cell.null_114	∧	∧	∧	NN	O						
+220	2	fb:cell.u_2227_8743	U+2227 (8743)	u|+2227|-lrb-|8743|-rrb-	U|+2227|-lrb-|8743|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2227.0||8743.0|	2227.0		8743.0		
+220	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+220	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+220	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+220	6	fb:cell.logical_and_wedge	logical and (wedge)	logical|and|-lrb-|wedge|-rrb-	logical|and|-lrb-|wedge|-rrb-	JJ|CC|-LRB-|NN|-RRB-	O|O|O|O|O	||||				logical and (wedge)	fb:part.logical_and_wedge
+221	0	fb:cell.or	or	or	or	CC	O						
+221	1	fb:cell.null_115	∨	∨	∨	NN	O						
+221	2	fb:cell.u_2228_8744	U+2228 (8744)	u|+2228|-lrb-|8744|-rrb-	U|+2228|-lrb-|8744|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2228.0||8744.0|	2228.0		8744.0		
+221	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+221	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+221	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+221	6	fb:cell.logical_or_vee	logical or (vee)	logical|or|-lrb-|vee|-rrb-	logical|or|-lrb-|vee|-rrb-	JJ|CC|-LRB-|NN|-RRB-	O|O|O|O|O	||||				logical or (vee)	fb:part.logical_or_vee
+222	0	fb:cell.cap	cap	cap	cap	NN	O						
+222	1	fb:cell.null_116	∩	∩	∩	NN	O						
+222	2	fb:cell.u_2229_8745	U+2229 (8745)	u|+2229|-lrb-|8745|-rrb-	U|+2229|-lrb-|8745|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2229.0||8745.0|	2229.0		8745.0		
+222	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+222	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+222	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+222	6	fb:cell.intersection_cap	intersection (cap)	intersection|-lrb-|cap|-rrb-	intersection|-lrb-|cap|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				intersection (cap)	fb:part.intersection_cap
+223	0	fb:cell.cup	cup	cup	cup	NN	O						
+223	1	fb:cell.null_117	∪	∪	∪	NN	O						
+223	2	fb:cell.u_222a_8746	U+222A (8746)	u|+222|a|-lrb-|8746|-rrb-	U|+222|a|-lrb-|8746|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|222.0|||8746.0|	222.0		8746.0		
+223	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+223	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+223	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+223	6	fb:cell.union_cup	union (cup)	union|-lrb-|cup|-rrb-	union|-lrb-|cup|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||				union (cup)	fb:part.union_cup
+224	0	fb:cell.int	int	int	int	NN	O						
+224	1	fb:cell.null_118	∫	∫	∫	NN	O						
+224	2	fb:cell.u_222b_8747	U+222B (8747)	u|+222|b|-lrb-|8747|-rrb-	U|+222|b|-lrb-|8747|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|222.0|||8747.0|	222.0		8747.0		
+224	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+224	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+224	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+224	6	fb:cell.integral	integral	integral	integral	JJ	O					integral	fb:part.integral
+225	0	fb:cell.there4	there4	there4	there4	NN	O		4.0				
+225	1	fb:cell.null_119	∴	∴	∴	NN	O						
+225	2	fb:cell.u_2234_8756	U+2234 (8756)	u|+2234|-lrb-|8756|-rrb-	U|+2234|-lrb-|8756|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2234.0||8756.0|	2234.0		8756.0		
+225	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+225	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+225	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+225	6	fb:cell.therefore_sign	therefore sign	therefore|sign	therefore|sign	RB|NN	O|O	|				therefore sign	fb:part.therefore_sign
+226	0	fb:cell.sim	sim	sim	sim	NN	O						
+226	1	fb:cell.null_120	∼	∼	∼	NN	O						
+226	2	fb:cell.u_223c_8764	U+223C (8764)	u|+223|c|-lrb-|8764|-rrb-	U|+223|c|-lrb-|8764|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|223.0|||8764.0|	223.0		8764.0		
+226	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+226	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+226	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+226	6	fb:cell.tilde_operator_varies_with_similar_to	tilde operator (varies with, similar to)	tilde|operator|-lrb-|varies|with|,|similar|to|-rrb-	tilde|operator|-lrb-|vary|with|,|similar|to|-rrb-	NN|NN|-LRB-|VBZ|IN|,|JJ|TO|-RRB-	O|O|O|O|O|O|O|O|O	||||||||				tilde operator (varies with|similar to)	fb:part.tilde_operator_varies_with|fb:part.similar_to
+227	0	fb:cell.cong	cong	cong	cong	NN	O						
+227	1	fb:cell.null_121	≅	≅	≅	NN	O						
+227	2	fb:cell.u_2245_8773	U+2245 (8773)	u|+2245|-lrb-|8773|-rrb-	U|+2245|-lrb-|8773|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2245.0||8773.0|	2245.0		8773.0		
+227	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+227	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+227	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+227	6	fb:cell.congruent_to	congruent to	congruent|to	congruent|to	JJ|TO	O|O	|				congruent to	fb:part.congruent_to
+228	0	fb:cell.asymp	asymp	asymp	asymp	NN	O						
+228	1	fb:cell.null_122	≈	≈	≈	NN	O						
+228	2	fb:cell.u_2248_8776	U+2248 (8776)	u|+2248|-lrb-|8776|-rrb-	U|+2248|-lrb-|8776|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2248.0||8776.0|	2248.0		8776.0		
+228	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+228	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+228	5	fb:cell.isoamsr	ISOamsr	isoamsr	isoamsr	NN	O						
+228	6	fb:cell.almost_equal_to_asymptotic_to	almost equal to (asymptotic to)	almost|equal|to|-lrb-|asymptotic|to|-rrb-	almost|equal|to|-lrb-|asymptotic|to|-rrb-	RB|JJ|TO|-LRB-|JJ|TO|-RRB-	O|O|O|O|O|O|O	||||||				almost equal to (asymptotic to)	fb:part.almost_equal_to_asymptotic_to
+229	0	fb:cell.ne	ne	ne	ne	NN	O						
+229	1	fb:cell.null_123	≠	≠	≠	NN	O						
+229	2	fb:cell.u_2260_8800	U+2260 (8800)	u|+2260|-lrb-|8800|-rrb-	U|+2260|-lrb-|8800|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2260.0||8800.0|	2260.0		8800.0		
+229	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+229	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+229	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+229	6	fb:cell.not_equal_to	not equal to	not|equal|to	not|equal|to	RB|JJ|TO	O|O|O	||				not equal to	fb:part.not_equal_to
+230	0	fb:cell.equiv	equiv	equiv	equiv	IN	O						
+230	1	fb:cell.null_124	≡	≡	≡	NN	O						
+230	2	fb:cell.u_2261_8801	U+2261 (8801)	u|+2261|-lrb-|8801|-rrb-	U|+2261|-lrb-|8801|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2261.0||8801.0|	2261.0		8801.0		
+230	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+230	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+230	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+230	6	fb:cell.identical_to_sometimes_used_for_equivalent_to	identical to; sometimes used for 'equivalent to'	identical|to|;|sometimes|used|for|`|equivalent|to|'	identical|to|;|sometimes|use|for|`|equivalent|to|'	JJ|TO|:|RB|VBN|IN|``|JJ|TO|''	O|O|O|O|O|O|O|O|O|O	|||||||||				identical to; sometimes used for 'equivalent to'	fb:part.identical_to_sometimes_used_for_equivalent_to
+231	0	fb:cell.le	le	le	le	DT	O						
+231	1	fb:cell.null_125	≤	≤	≤	NN	O						
+231	2	fb:cell.u_2264_8804	U+2264 (8804)	u|+2264|-lrb-|8804|-rrb-	U|+2264|-lrb-|8804|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2264.0||8804.0|	2264.0		8804.0		
+231	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+231	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+231	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+231	6	fb:cell.less_than_or_equal_to	less-than or equal to	less|than|or|equal|to	less|than|or|equal|to	JJR|IN|CC|JJ|TO	O|O|O|O|O	||||				less-than or equal to	fb:part.less_than_or_equal_to
+232	0	fb:cell.ge	ge	ge	ge	NN	O						
+232	1	fb:cell.null_126	≥	≥	≥	NN	O						
+232	2	fb:cell.u_2265_8805	U+2265 (8805)	u|+2265|-lrb-|8805|-rrb-	U|+2265|-lrb-|8805|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2265.0||8805.0|	2265.0		8805.0		
+232	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+232	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+232	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+232	6	fb:cell.greater_than_or_equal_to	greater-than or equal to	greater|than|or|equal|to	greater|than|or|equal|to	JJR|IN|CC|JJ|TO	O|O|O|O|O	||||				greater-than or equal to	fb:part.greater_than_or_equal_to
+233	0	fb:cell.sub	sub	sub	sub	NN	O						
+233	1	fb:cell.null_127	⊂	⊂	⊂	NN	O						
+233	2	fb:cell.u_2282_8834	U+2282 (8834)	u|+2282|-lrb-|8834|-rrb-	U|+2282|-lrb-|8834|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2282.0||8834.0|	2282.0		8834.0		
+233	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+233	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+233	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+233	6	fb:cell.subset_of	subset of	subset|of	subset|of	NN|IN	O|O	|				subset of	fb:part.subset_of
+234	0	fb:cell.sup	sup	sup	sup	NN	O						
+234	1	fb:cell.null_128	⊃	⊃	⊃	NN	O						
+234	2	fb:cell.u_2283_8835	U+2283 (8835)	u|+2283|-lrb-|8835|-rrb-	U|+2283|-lrb-|8835|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2283.0||8835.0|	2283.0		8835.0		
+234	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+234	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+234	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+234	6	fb:cell.superset_of	superset of	superset|of	superset|of	NN|IN	O|O	|				superset of	fb:part.superset_of
+235	0	fb:cell.nsub	nsub	nsub	nsub	NN	O						
+235	1	fb:cell.null_127	⊂	⊂	⊂	NN	O						
+235	2	fb:cell.u_2284_8836	U+2284 (8836)	u|+2284|-lrb-|8836|-rrb-	U|+2284|-lrb-|8836|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2284.0||8836.0|	2284.0		8836.0		
+235	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+235	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+235	5	fb:cell.isoamsn	ISOamsn	isoamsn	isoamsn	NN	O						
+235	6	fb:cell.not_a_subset_of	not a subset of	not|a|subset|of	not|a|subset|of	RB|DT|NN|IN	O|O|O|O	|||				not a subset of	fb:part.not_a_subset_of
+236	0	fb:cell.sube	sube	sube	sube	NN	O						
+236	1	fb:cell.null_129	⊆	⊆	⊆	NN	O						
+236	2	fb:cell.u_2286_8838	U+2286 (8838)	u|+2286|-lrb-|8838|-rrb-	U|+2286|-lrb-|8838|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2286.0||8838.0|	2286.0		8838.0		
+236	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+236	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+236	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+236	6	fb:cell.subset_of_or_equal_to	subset of or equal to	subset|of|or|equal|to	subset|of|or|equal|to	NN|IN|CC|JJ|TO	O|O|O|O|O	||||				subset of or equal to	fb:part.subset_of_or_equal_to
+237	0	fb:cell.supe	supe	supe	supe	NN	O						
+237	1	fb:cell.null_130	⊇	⊇	⊇	NN	O						
+237	2	fb:cell.u_2287_8839	U+2287 (8839)	u|+2287|-lrb-|8839|-rrb-	U|+2287|-lrb-|8839|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2287.0||8839.0|	2287.0		8839.0		
+237	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+237	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+237	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+237	6	fb:cell.superset_of_or_equal_to	superset of or equal to	superset|of|or|equal|to	superset|of|or|equal|to	NN|IN|CC|JJ|TO	O|O|O|O|O	||||				superset of or equal to	fb:part.superset_of_or_equal_to
+238	0	fb:cell.oplus	oplus	oplus	oplus	NN	O						
+238	1	fb:cell.null_131	⊕	⊕	⊕	NN	O						
+238	2	fb:cell.u_2295_8853	U+2295 (8853)	u|+2295|-lrb-|8853|-rrb-	U|+2295|-lrb-|8853|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2295.0||8853.0|	2295.0		8853.0		
+238	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+238	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+238	5	fb:cell.isoamsb	ISOamsb	isoamsb	isoamsb	NN	O						
+238	6	fb:cell.circled_plus_direct_sum	circled plus (direct sum)	circled|plus|-lrb-|direct|sum|-rrb-	circle|plus|-lrb-|direct|sum|-rrb-	VBN|CC|-LRB-|JJ|NN|-RRB-	O|O|O|O|O|O	|||||				circled plus (direct sum)	fb:part.circled_plus_direct_sum
+239	0	fb:cell.otimes	otimes	otimes	otime	NNS	O						
+239	1	fb:cell.null_132	⊗	⊗	⊗	NN	O						
+239	2	fb:cell.u_2297_8855	U+2297 (8855)	u|+2297|-lrb-|8855|-rrb-	U|+2297|-lrb-|8855|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2297.0||8855.0|	2297.0		8855.0		
+239	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+239	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+239	5	fb:cell.isoamsb	ISOamsb	isoamsb	isoamsb	NN	O						
+239	6	fb:cell.circled_times_vector_product	circled times (vector product)	circled|times|-lrb-|vector|product|-rrb-	circle|time|-lrb-|vector|product|-rrb-	VBD|NNS|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O	|||||				circled times (vector product)	fb:part.circled_times_vector_product
+240	0	fb:cell.perp	perp	perp	perp	NN	O						
+240	1	fb:cell.null_133	⊥	⊥	⊥	NN	O						
+240	2	fb:cell.u_22a5_8869	U+22A5 (8869)	u|+22|a5|-lrb-|8869|-rrb-	U|+22|a5|-lrb-|8869|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|22.0|||8869.0|	22.0		5.0		
+240	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+240	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+240	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+240	6	fb:cell.up_tack_orthogonal_to_perpendicular	up tack (orthogonal to, perpendicular)	up|tack|-lrb-|orthogonal|to|,|perpendicular|-rrb-	up|tack|-lrb-|orthogonal|to|,|perpendicular|-rrb-	RB|NN|-LRB-|JJ|TO|,|JJ|-RRB-	O|O|O|O|O|O|O|O	|||||||				up tack (orthogonal to|perpendicular)	fb:part.up_tack_orthogonal_to|fb:part.perpendicular
+241	0	fb:cell.sdot	sdot	sdot	sdot	NN	O						
+241	1	fb:cell.null_134	⋅	⋅	⋅	NN	O						
+241	2	fb:cell.u_22c5_8901	U+22C5 (8901)	u|+22|c5|-lrb-|8901|-rrb-	U|+22|c5|-lrb-|8901|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|22.0|||8901.0|	22.0		5.0		
+241	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+241	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+241	5	fb:cell.isoamsb	ISOamsb	isoamsb	isoamsb	NN	O						
+241	6	fb:cell.dot_operator	dot operator	dot|operator	dot|operator	NN|NN	O|O	|				dot operator	fb:part.dot_operator
+242	0	fb:cell.vellip	vellip	vellip	vellip	NN	O						
+242	1	fb:cell.null_135	⋮	⋮	⋮	NN	O						
+242	2	fb:cell.u_22ee_8942	U+22EE (8942)	u|+22|ee|-lrb-|8942|-rrb-	U|+22|ee|-lrb-|8942|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|22.0|||8942.0|	22.0		8942.0		
+242	3	fb:cell.html_5_0	HTML 5.0	html|5.0	HTML|5.0	NNP|CD	O|NUMBER	|5.0	5.0				
+242	4	fb:cell.null_136	?	?	?	.	O						
+242	5	fb:cell.null_136	?	?	?	.	O						
+242	6	fb:cell.vertical_ellipsis	vertical ellipsis	vertical|ellipsis	vertical|ellipsis	JJ|NN	O|O	|				vertical ellipsis	fb:part.vertical_ellipsis
+243	0	fb:cell.lceil	lceil	lceil	lceil	NN	O						
+243	1	fb:cell.null_137	⌈	⌈	⌈	NN	O						
+243	2	fb:cell.u_2308_8968	U+2308 (8968)	u|+2308|-lrb-|8968|-rrb-	U|+2308|-lrb-|8968|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2308.0||8968.0|	2308.0		8968.0		
+243	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+243	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+243	5	fb:cell.isoamsc	ISOamsc	isoamsc	isoamsc	NN	O						
+243	6	fb:cell.left_ceiling_apl_upstile	left ceiling (APL upstile)	left|ceiling|-lrb-|apl|upstile|-rrb-	left|ceiling|-lrb-|apl|upstile|-rrb-	RB|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O	|||||				left ceiling (APL upstile)	fb:part.left_ceiling_apl_upstile
+244	0	fb:cell.rceil	rceil	rceil	rceil	NN	O						
+244	1	fb:cell.null_138	⌉	⌉	⌉	NN	O						
+244	2	fb:cell.u_2309_8969	U+2309 (8969)	u|+2309|-lrb-|8969|-rrb-	U|+2309|-lrb-|8969|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2309.0||8969.0|	2309.0		8969.0		
+244	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+244	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+244	5	fb:cell.isoamsc	ISOamsc	isoamsc	isoamsc	NN	O						
+244	6	fb:cell.right_ceiling	right ceiling	right|ceiling	right|ceiling	RB|NN	O|O	|				right ceiling	fb:part.right_ceiling
+245	0	fb:cell.lfloor	lfloor	lfloor	lfloor	NN	O						
+245	1	fb:cell.null_139	⌊	⌊	⌊	NN	O						
+245	2	fb:cell.u_230a_8970	U+230A (8970)	u|+230|a|-lrb-|8970|-rrb-	U|+230|a|-lrb-|8970|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|230.0|||8970.0|	230.0		8970.0		
+245	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+245	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+245	5	fb:cell.isoamsc	ISOamsc	isoamsc	isoamsc	NN	O						
+245	6	fb:cell.left_floor_apl_downstile	left floor (APL downstile)	left|floor|-lrb-|apl|downstile|-rrb-	left|floor|-lrb-|apl|downstile|-rrb-	RB|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O	|||||				left floor (APL downstile)	fb:part.left_floor_apl_downstile
+246	0	fb:cell.rfloor	rfloor	rfloor	rfloor	NN	O						
+246	1	fb:cell.null_140	⌋	⌋	⌋	NN	O						
+246	2	fb:cell.u_230b_8971	U+230B (8971)	u|+230|b|-lrb-|8971|-rrb-	U|+230|b|-lrb-|8971|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|230.0|||8971.0|	230.0		8971.0		
+246	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+246	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+246	5	fb:cell.isoamsc	ISOamsc	isoamsc	isoamsc	NN	O						
+246	6	fb:cell.right_floor	right floor	right|floor	right|floor	RB|NN	O|O	|				right floor	fb:part.right_floor
+247	0	fb:cell.lang	lang	lang	lang	NN	O						
+247	1	fb:cell.null_6											
+247	2	fb:cell.u_2329_9001	U+2329 (9001)	u|+2329|-lrb-|9001|-rrb-	U|+2329|-lrb-|9001|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2329.0||9001.0|	2329.0		9001.0		
+247	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+247	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+247	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+247	6	fb:cell.left_pointing_angle_bracket_bra	left-pointing angle bracket (bra)	left|pointing|angle|bracket|-lrb-|bra|-rrb-	left|point|angle|bracket|-lrb-|bra|-rrb-	RB|VBG|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||				left-pointing angle bracket (bra)	fb:part.left_pointing_angle_bracket_bra
+248	0	fb:cell.rang	rang	rang	ring	VBD	O						
+248	1	fb:cell.null_6											
+248	2	fb:cell.u_232a_9002	U+232A (9002)	u|+232|a|-lrb-|9002|-rrb-	U|+232|a|-lrb-|9002|-rrb-	NNP|CD|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|232.0|||9002.0|	232.0		9002.0		
+248	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+248	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+248	5	fb:cell.isotech	ISOtech	isotech	isotech	NN	O						
+248	6	fb:cell.right_pointing_angle_bracket_ket	right-pointing angle bracket (ket)	right|pointing|angle|bracket|-lrb-|ket|-rrb-	right|point|angle|bracket|-lrb-|ket|-rrb-	RB|VBG|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||				right-pointing angle bracket (ket)	fb:part.right_pointing_angle_bracket_ket
+249	0	fb:cell.loz	loz	loz	loz	NN	O						
+249	1	fb:cell.null_141	◊	◊	◊	NN	O						
+249	2	fb:cell.u_25ca_9674	U+25CA (9674)	u|+25|ca|-lrb-|9674|-rrb-	U|+25|CA|-lrb-|9674|-rrb-	NNP|CD|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|O|NUMBER|O	|25.0|||9674.0|	25.0		9674.0		
+249	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+249	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+249	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+249	6	fb:cell.lozenge	lozenge	lozenge	lozenge	NN	O					lozenge	fb:part.lozenge
+250	0	fb:cell.spades	spades	spades	spade	NNS	O						
+250	1	fb:cell.null_142	♠	♠	♠	NN	O						
+250	2	fb:cell.u_2660_9824	U+2660 (9824)	u|+2660|-lrb-|9824|-rrb-	U|+2660|-lrb-|9824|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2660.0||9824.0|	2660.0		9824.0		
+250	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+250	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+250	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+250	6	fb:cell.black_spade_suit	black spade suit	black|spade|suit	black|spade|suit	JJ|NN|NN	O|O|O	||				black spade suit	fb:part.black_spade_suit
+251	0	fb:cell.clubs	clubs	clubs	club	NNS	O						
+251	1	fb:cell.null_143	♣	♣	♣	NN	O						
+251	2	fb:cell.u_2663_9827	U+2663 (9827)	u|+2663|-lrb-|9827|-rrb-	U|+2663|-lrb-|9827|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2663.0||9827.0|	2663.0		9827.0		
+251	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+251	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+251	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+251	6	fb:cell.black_club_suit_shamrock	black club suit (shamrock)	black|club|suit|-lrb-|shamrock|-rrb-	black|club|suit|-lrb-|shamrock|-rrb-	JJ|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				black club suit (shamrock)	fb:part.black_club_suit_shamrock
+252	0	fb:cell.hearts	hearts	hearts	heart	NNS	O						
+252	1	fb:cell.null_144	♥	♥	♥	NN	O						
+252	2	fb:cell.u_2665_9829	U+2665 (9829)	u|+2665|-lrb-|9829|-rrb-	U|+2665|-lrb-|9829|-rrb-	NNP|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2665.0||9829.0|	2665.0		9829.0		
+252	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+252	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+252	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+252	6	fb:cell.black_heart_suit_valentine	black heart suit (valentine)	black|heart|suit|-lrb-|valentine|-rrb-	black|heart|suit|-lrb-|valentine|-rrb-	JJ|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||				black heart suit (valentine)	fb:part.black_heart_suit_valentine
+253	0	fb:cell.diams	diams	diams	diam	NNS	O						
+253	1	fb:cell.null_145	♦	♦	♦	NN	O						
+253	2	fb:cell.u_2666_9830	U+2666 (9830)	u|+2666|-lrb-|9830|-rrb-	U|+2666|-lrb-|9830|-rrb-	NNP|NNP|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|2666.0||9830.0|	2666.0		9830.0		
+253	3	fb:cell.html_4_0	HTML 4.0	html|4.0	HTML|4.0	NNP|CD	O|NUMBER	|4.0	4.0				
+253	4	fb:cell.htmlsymbol	HTMLsymbol	htmlsymbol	htmlsymbol	NN	O						
+253	5	fb:cell.isopub	ISOpub	isopub	isopub	NN	O						
+253	6	fb:cell.black_diamond_suit	black diamond suit	black|diamond|suit	black|diamond|suit	JJ|NN|NN	O|O|O	||				black diamond suit	fb:part.black_diamond_suit

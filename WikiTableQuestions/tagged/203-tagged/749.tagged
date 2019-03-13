@@ -1,0 +1,636 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.call_sign	Call sign	call|sign	call|sign	VB|NN	O|O	|					
+-1	1	fb:row.row.frequency	Frequency	frequency	frequency	NN	O						
+-1	2	fb:row.row.city_of_license	City of License	city|of|license	City|of|License	NNP|IN|NNP	O|O|O	||					
+-1	3	fb:row.row.licensee	Licensee	licensee	licensee	NN	O						
+-1	4	fb:row.row.format	Format	format	format	NN	O						
+0	0	fb:cell.kabu	KABU	kabu	KABU	NNP	ORGANIZATION						
+0	1	fb:cell.90_7_fm	90.7 FM	90.7|fm	90.7|fm	CD|NN	NUMBER|O	90.7|	90.7				
+0	2	fb:cell.fort_totten	Fort Totten	fort|totten	Fort|Totten	NNP|NNP	O|O	|					
+0	3	fb:cell.dakota_circle_tipi_inc	Dakota Circle Tipi, Inc.	dakota|circle|tipi|,|inc.|.	Dakota|Circle|Tipi|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Dakota Circle Tipi|Inc.	fb:part.dakota_circle_tipi|fb:part.inc
+0	4	fb:cell.educational	Educational	educational	Educational	NNP	O						
+1	0	fb:cell.kacl	KACL	kacl	KACL	NNP	ORGANIZATION						
+1	1	fb:cell.98_7_fm	98.7 FM	98.7|fm	98.7|fm	CD|NN	NUMBER|O	98.7|	98.7				
+1	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+1	3	fb:cell.townsquare_media_bismarck_license_llc	Townsquare Media Bismarck License, LLC	townsquare|media|bismarck|license|,|llc	Townsquare|Media|Bismarck|License|,|LLC	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Townsquare Media Bismarck License|LLC	fb:part.townsquare_media_bismarck_license|fb:part.llc
+1	4	fb:cell.classic_hits	Classic Hits	classic|hits	classic|hit	JJ|NNS	O|O	|					
+2	0	fb:cell.kaoc	KAOC	kaoc	kaoc	NN	ORGANIZATION						
+2	1	fb:cell.105_1_fm	105.1 FM	105.1|fm	105.1|fm	CD|NN	NUMBER|O	105.1|	105.1				
+2	2	fb:cell.cavalier	Cavalier	cavalier	Cavalier	NNP	O						
+2	3	fb:cell.simmons_broadcasting	Simmons Broadcasting	simmons|broadcasting	Simmons|Broadcasting	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Simmons Broadcasting	fb:part.simmons_broadcasting
+2	4	fb:cell.country	Country	country	country	NN	O						
+3	0	fb:cell.kauj	KAUJ	kauj	kauj	NN	O						
+3	1	fb:cell.100_9_fm	100.9 FM	100.9|fm	100.9|fm	CD|NN	NUMBER|O	100.9|	100.9				
+3	2	fb:cell.grafton	Grafton	grafton	Grafton	NNP	LOCATION						
+3	3	fb:cell.simmons_broadcasting	Simmons Broadcasting	simmons|broadcasting	Simmons|Broadcasting	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Simmons Broadcasting	fb:part.simmons_broadcasting
+3	4	fb:cell.oldies	Oldies	oldies	Oldies	NNPS	O						
+4	0	fb:cell.kbep_lp	KBEP-LP	kbep|lp	KBEP|lp	NNP|NN	O|O	|					
+4	1	fb:cell.93_7_fm	93.7 FM	93.7|fm	93.7|fm	CD|NN	NUMBER|O	93.7|	93.7				
+4	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+4	3	fb:cell.bismarck_educational_prayer_association	Bismarck Educational Prayer Association	bismarck|educational|prayer|association	Bismarck|Educational|prayer|association	NNP|NNP|NN|NN	O|O|O|O	|||				Bismarck Educational Prayer Association	fb:part.bismarck_educational_prayer_association
+4	4	fb:cell.null											
+5	0	fb:cell.kbfr	KBFR	kbfr	kbfr	NN	O						
+5	1	fb:cell.91_7_fm	91.7 FM	91.7|fm	91.7|fm	CD|NN	NUMBER|O	91.7|	91.7				
+5	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+5	3	fb:cell.family_stations_inc	Family Stations, Inc.	family|stations|,|inc.|.	Family|Stations|,|Inc.|.	NNP|NNP|,|NNP|.	O|O|O|ORGANIZATION|O	||||				Family Stations|Inc.	fb:part.family_stations|fb:part.inc
+5	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+6	0	fb:cell.kbmk	KBMK	kbmk	kbmk	NN	O						
+6	1	fb:cell.88_3_fm	88.3 FM	88.3|fm	88.3|fm	CD|NN	NUMBER|O	88.3|	88.3				
+6	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+6	3	fb:cell.educational_media_foundation	Educational Media Foundation	educational|media|foundation	Educational|Media|Foundation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Educational Media Foundation	fb:part.educational_media_foundation
+6	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+7	0	fb:cell.kbmr	KBMR	kbmr	kbmr	NN	O						
+7	1	fb:cell.1130_am	1130 AM	1130|am	1130|AM	CD|VBD-AUX	DATE|O	1130|	1130.0				
+7	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+7	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+7	4	fb:cell.classic_country	Classic Country	classic|country	classic|country	JJ|NN	O|O	|					
+8	0	fb:cell.kbto	KBTO	kbto	kbto	NN	ORGANIZATION						
+8	1	fb:cell.101_9_fm	101.9 FM	101.9|fm	101.9|fm	CD|NN	NUMBER|O	101.9|	101.9				
+8	2	fb:cell.bottineau	Bottineau	bottineau	Bottineau	NNP	PERSON						
+8	3	fb:cell.programmers_broadcasting	Programmers Broadcasting	programmers|broadcasting	Programmers|Broadcasting	NNP|NNP	O|O	|				Programmers Broadcasting	fb:part.programmers_broadcasting
+8	4	fb:cell.country	Country	country	country	NN	O						
+9	0	fb:cell.kbyz	KBYZ	kbyz	kbyz	NN	O						
+9	1	fb:cell.96_5_fm	96.5 FM	96.5|fm	96.5|fm	CD|NN	NUMBER|O	96.5|	96.5				
+9	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+9	3	fb:cell.townsquare_media_bismarck_license_llc	Townsquare Media Bismarck License, LLC	townsquare|media|bismarck|license|,|llc	Townsquare|Media|Bismarck|License|,|LLC	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Townsquare Media Bismarck License|LLC	fb:part.townsquare_media_bismarck_license|fb:part.llc
+9	4	fb:cell.classic_rock	Classic Rock	classic|rock	classic|rock	JJ|NN	MISC|MISC	|					
+10	0	fb:cell.kcad	KCAD	kcad	kcad	NN	O						
+10	1	fb:cell.99_1_fm	99.1 FM	99.1|fm	99.1|fm	CD|NN	NUMBER|O	99.1|	99.1				
+10	2	fb:cell.dickinson	Dickinson	dickinson	Dickinson	NNP	PERSON						
+10	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+10	4	fb:cell.country	Country	country	country	NN	O						
+11	0	fb:cell.kcjb	KCJB	kcjb	kcjb	NN	O						
+11	1	fb:cell.910_am	910 AM	910|am	910|AM	CD|VBD-AUX	NUMBER|O	910.0|	910.0				
+11	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+11	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+11	4	fb:cell.classic_country	Classic Country	classic|country	classic|country	JJ|NN	O|O	|					
+12	0	fb:cell.kcnd	KCND	kcnd	kcnd	NN	O						
+12	1	fb:cell.90_5_fm	90.5 FM	90.5|fm	90.5|fm	CD|NN	NUMBER|O	90.5|	90.5				
+12	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+12	3	fb:cell.prairie_public_broadcasting_inc	Prairie Public Broadcasting, Inc.	prairie|public|broadcasting|,|inc.|.	Prairie|Public|Broadcasting|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Prairie Public Broadcasting|Inc.	fb:part.prairie_public_broadcasting|fb:part.inc
+12	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+13	0	fb:cell.kdak	KDAK	kdak	kdak	NN	O						
+13	1	fb:cell.1600_am	1600 AM	1600|am	1600|AM	CD|VBD-AUX	DATE|O	1600|	1600.0				
+13	2	fb:cell.carrington	Carrington	carrington	Carrington	NNP	PERSON						
+13	3	fb:cell.two_rivers_broadcasting	Two Rivers Broadcasting	two|rivers|broadcasting	two|Rivers|Broadcasting	CD|NNP|NNP	NUMBER|O|O	2.0||				Two Rivers Broadcasting	fb:part.two_rivers_broadcasting
+13	4	fb:cell.country	Country	country	country	NN	O						
+14	0	fb:cell.kddr	KDDR	kddr	kddr	NN	O						
+14	1	fb:cell.1220_am	1220 AM	1220|am	1220|AM	CD|VBD-AUX	DATE|O	1220|	1220.0				
+14	2	fb:cell.oakes	Oakes	oakes	Oakes	NNP	PERSON						
+14	3	fb:cell.sioux_valley_broadcasting	Sioux Valley Broadcasting	sioux|valley|broadcasting	Sioux|Valley|Broadcasting	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Sioux Valley Broadcasting	fb:part.sioux_valley_broadcasting
+14	4	fb:cell.country	Country	country	country	NN	O						
+15	0	fb:cell.kdix	KDIX	kdix	kdix	NN	O						
+15	1	fb:cell.1230_am	1230 AM	1230|am	1230|AM	CD|VBD-AUX	DATE|O	1230|	1230.0				
+15	2	fb:cell.dickinson	Dickinson	dickinson	Dickinson	NNP	PERSON						
+15	3	fb:cell.starrdak_inc	Starrdak, Inc.	starrdak|,|inc.|.	Starrdak|,|Inc.|.	NNP|,|NNP|.	PERSON|O|ORGANIZATION|O	|||				Starrdak|Inc.	fb:part.starrdak|fb:part.inc
+15	4	fb:cell.classic_hits	Classic Hits	classic|hits	classic|hit	JJ|NNS	O|O	|					
+16	0	fb:cell.kdkt	KDKT	kdkt	kdkt	NN	O						
+16	1	fb:cell.1410_am	1410 AM	1410|am	1410|AM	CD|VBD-AUX	DATE|O	1410|	1410.0				
+16	2	fb:cell.beulah	Beulah	beulah	Beulah	NNP	PERSON						
+16	3	fb:cell.digital_syndicate_network	Digital Syndicate Network	digital|syndicate|network	Digital|syndicate|Network	NNP|NN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Digital Syndicate Network	fb:part.digital_syndicate_network
+16	4	fb:cell.all_sports	All Sports	all|sports	all|Sports	DT|NNP	O|O	|					
+17	0	fb:cell.kdlr	KDLR	kdlr	kdlr	NN	O						
+17	1	fb:cell.1240_am	1240 AM	1240|am	1240|AM	CD|VBD-AUX	DATE|O	1240|	1240.0				
+17	2	fb:cell.devils_lake	Devils Lake	devils|lake	Devils|Lake	NNP|NNP	LOCATION|LOCATION	|					
+17	3	fb:cell.double_z_broadcasting	Double Z Broadcasting	double|z|broadcasting	double|z|Broadcasting	JJ|NN|NNP	O|O|O	||				Double Z Broadcasting	fb:part.double_z_broadcasting
+17	4	fb:cell.classic_country	Classic Country	classic|country	classic|country	JJ|NN	O|O	|					
+18	0	fb:cell.kdpr	KDPR	kdpr	kdpr	NN	O						
+18	1	fb:cell.89_9_fm	89.9 FM	89.9|fm	89.9|fm	CD|NN	NUMBER|O	89.9|	89.9				
+18	2	fb:cell.dickinson	Dickinson	dickinson	Dickinson	NNP	PERSON						
+18	3	fb:cell.prairie_public_broadcasting_inc	Prairie Public Broadcasting, Inc.	prairie|public|broadcasting|,|inc.|.	Prairie|Public|Broadcasting|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Prairie Public Broadcasting|Inc.	fb:part.prairie_public_broadcasting|fb:part.inc
+18	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+19	0	fb:cell.kdsr	KDSR	kdsr	kdsr	NN	O						
+19	1	fb:cell.101_1_fm	101.1 FM	101.1|fm	101.1|fm	CD|NN	NUMBER|O	101.1|	101.1				
+19	2	fb:cell.williston	Williston	williston	Williston	NNP	LOCATION						
+19	3	fb:cell.williston_community_broadcasting_corp_d_b_a_kdsr_fm	Williston Community Broadcasting Corp. d/b/a KDSR(FM)	williston|community|broadcasting|corp.|d\\/b\\/a|kdsr|-lrb-|fm|-rrb-	Williston|Community|Broadcasting|Corp.|d\\/b\\/a|kdsr|-lrb-|fm|-rrb-	NNP|NNP|NNP|NNP|VBP|NN|-LRB-|NN|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O	||||||||				Williston Community Broadcasting Corp. d|b|a KDSR(FM)	fb:part.williston_community_broadcasting_corp_d|fb:part.b|fb:part.a_kdsr_fm
+19	4	fb:cell.adult_hits	Adult Hits	adult|hits	adult|hit	JJ|NNS	O|O	|					
+20	0	fb:cell.kdsu	KDSU	kdsu	kdsu	NN	O						
+20	1	fb:cell.91_9_fm	91.9 FM	91.9|fm	91.9|fm	CD|NN	NUMBER|O	91.9|	91.9				
+20	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+20	3	fb:cell.north_dakota_state_university	North Dakota State University	north|dakota|state|university	North|Dakota|State|University	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				North Dakota State University	fb:part.north_dakota_state_university
+20	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+21	0	fb:cell.kdvi	KDVI	kdvi	kdvus	NN	O						
+21	1	fb:cell.89_9_fm	89.9 FM	89.9|fm	89.9|fm	CD|NN	NUMBER|O	89.9|	89.9				
+21	2	fb:cell.devils_lake	Devils Lake	devils|lake	Devils|Lake	NNP|NNP	LOCATION|LOCATION	|					
+21	3	fb:cell.american_family_association	American Family Association	american|family|association	american|Family|Association	JJ|NNP|NNP	O|O|O	||				American Family Association	fb:part.american_family_association
+21	4	fb:cell.religious	Religious	religious	religious	JJ	O						
+22	0	fb:cell.kdvl	KDVL	kdvl	kdvl	NN	ORGANIZATION						
+22	1	fb:cell.102_5_fm	102.5 FM	102.5|fm	102.5|fm	CD|NN	NUMBER|O	102.5|	102.5				
+22	2	fb:cell.devils_lake	Devils Lake	devils|lake	Devils|Lake	NNP|NNP	LOCATION|LOCATION	|					
+22	3	fb:cell.double_z_broadcasting	Double Z Broadcasting	double|z|broadcasting	double|z|Broadcasting	JJ|NN|NNP	O|O|O	||				Double Z Broadcasting	fb:part.double_z_broadcasting
+22	4	fb:cell.classic_hits	Classic Hits	classic|hits	classic|hit	JJ|NNS	O|O	|					
+23	0	fb:cell.kdxn	KDXN	kdxn	kdxn	NN	O						
+23	1	fb:cell.105_7_fm	105.7 FM	105.7|fm	105.7|fm	CD|NN	NUMBER|O	105.7|	105.7				
+23	2	fb:cell.south_heart	South Heart	south|heart	South|Heart	NNP|NNP	O|O	|					
+23	3	fb:cell.totally_amped_llc	Totally Amped LLC	totally|amped|llc	totally|amped|llc	RB|JJ|NN	O|O|O	||				Totally Amped LLC	fb:part.totally_amped_llc
+23	4	fb:cell.null											
+24	0	fb:cell.kegk	KEGK	kegk	kegk	NN	O						
+24	1	fb:cell.106_9_fm	106.9 FM	106.9|fm	106.9|fm	CD|NN	NUMBER|O	106.9|	106.9				
+24	2	fb:cell.wahpeton	Wahpeton	wahpeton	Wahpeton	NNP	LOCATION						
+24	3	fb:cell.smahh_communications_ii_inc	SMAHH Communications II, Inc.	smahh|communications|ii|,|inc.|.	SMAHH|Communications|II|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	O|O|O|O|ORGANIZATION|O	|||||				SMAHH Communications II|Inc.	fb:part.smahh_communications_ii|fb:part.inc
+24	4	fb:cell.classic_hits	Classic Hits	classic|hits	classic|hit	JJ|NNS	O|O	|					
+25	0	fb:cell.keya	KEYA	keya	keya	NN	ORGANIZATION						
+25	1	fb:cell.88_5_fm	88.5 FM	88.5|fm	88.5|fm	CD|NN	NUMBER|O	88.5|	88.5				
+25	2	fb:cell.belcourt	Belcourt	belcourt	Belcourt	NNP	LOCATION						
+25	3	fb:cell.keya_inc	KEYA, Inc.	keya|,|inc.|.	KEYA|,|Inc.|.	NNP|,|NNP|.	LOCATION|O|ORGANIZATION|O	|||				KEYA|Inc.	fb:part.keya|fb:part.inc
+25	4	fb:cell.country	Country	country	country	NN	O						
+26	0	fb:cell.keyz	KEYZ	keyz	keyz	NN	O						
+26	1	fb:cell.660_am	660 AM	660|am	660|AM	CD|VBD-AUX	NUMBER|O	660.0|	660.0				
+26	2	fb:cell.williston	Williston	williston	Williston	NNP	LOCATION						
+26	3	fb:cell.ccr_williston_iv_llc	CCR-Williston IV, LLC	ccr|williston|iv|,|llc	CCR|Williston|IV|,|LLC	NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	||||				CCR-Williston IV|LLC	fb:part.ccr_williston_iv|fb:part.llc
+26	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+27	0	fb:cell.kfaa	KFAA	kfaa	kfaa	NN	ORGANIZATION						
+27	1	fb:cell.89_5_fm	89.5 FM	89.5|fm	89.5|fm	CD|NN	NUMBER|O	89.5|	89.5				
+27	2	fb:cell.horace	Horace	horace	Horace	NNP	PERSON						
+27	3	fb:cell.selah_corporation	Selah Corporation	selah|corporation	Selah|Corporation	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Selah Corporation	fb:part.selah_corporation
+27	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+28	0	fb:cell.kfbn	KFBN	kfbn	kfbn	NN	O						
+28	1	fb:cell.88_7_fm	88.7 FM	88.7|fm	88.7|fm	CD|NN	NUMBER|O	88.7|	88.7				
+28	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+28	3	fb:cell.fargo_baptist_church	Fargo Baptist Church	fargo|baptist|church	Fargo|Baptist|Church	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Fargo Baptist Church	fb:part.fargo_baptist_church
+28	4	fb:cell.religious	Religious	religious	religious	JJ	O						
+29	0	fb:cell.kfgo	KFGO	kfgo	kfgo	NN	O						
+29	1	fb:cell.790_am	790 AM	790|am	790|AM	CD|VBD-AUX	NUMBER|O	790.0|	790.0				
+29	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+29	3	fb:cell.midwest_communications_inc	Midwest Communications, Inc.	midwest|communications|,|inc.|.	Midwest|Communications|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Midwest Communications|Inc.	fb:part.midwest_communications|fb:part.inc
+29	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+30	0	fb:cell.kfjm	KFJM	kfjm	kfjm	NN	O						
+30	1	fb:cell.90_7_fm	90.7 FM	90.7|fm	90.7|fm	CD|NN	NUMBER|O	90.7|	90.7				
+30	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+30	3	fb:cell.university_of_north_dakota	University of North Dakota	university|of|north|dakota	University|of|North|Dakota	NNP|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				University of North Dakota	fb:part.university_of_north_dakota
+30	4	fb:cell.adult_album_alternative	Adult Album Alternative	adult|album|alternative	adult|album|Alternative	JJ|NN|NNP	O|O|O	||					
+31	0	fb:cell.kfnw	KFNW	kfnw	kfnw	NN	O						
+31	1	fb:cell.1200_am	1200 AM	1200|am	1200|AM	CD|VBD-AUX	DATE|O	1200|	1200.0				
+31	2	fb:cell.west_fargo	West Fargo	west|fargo	West|Fargo	NNP|NNP	O|O	|					
+31	3	fb:cell.northwestern_college	Northwestern College	northwestern|college	Northwestern|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Northwestern College	fb:part.northwestern_college
+31	4	fb:cell.religious	Religious	religious	religious	JJ	O						
+32	0	fb:cell.kfnw_fm	KFNW-FM	kfnw|fm	KFNW|FM	NNP|NNP	O|O	|					
+32	1	fb:cell.97_9_fm	97.9 FM	97.9|fm	97.9|fm	CD|NN	NUMBER|O	97.9|	97.9				
+32	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+32	3	fb:cell.northwestern_college	Northwestern College	northwestern|college	Northwestern|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Northwestern College	fb:part.northwestern_college
+32	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+33	0	fb:cell.kfyr	KFYR	kfyr	kfyr	NN	O						
+33	1	fb:cell.550_am	550 AM	550|am	550|AM	CD|VBD-AUX	NUMBER|O	550.0|	550.0				
+33	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+33	3	fb:cell.citicasters_licenses_inc	Citicasters Licenses, Inc.	citicasters|licenses|,|inc.|.	Citicasters|Licenses|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Citicasters Licenses|Inc.	fb:part.citicasters_licenses|fb:part.inc
+33	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+34	0	fb:cell.khnd	KHND	khnd	khnd	NN	O						
+34	1	fb:cell.1470_am	1470 AM	1470|am	1470|AM	CD|VBD-AUX	DATE|O	1470|	1470.0				
+34	2	fb:cell.harvey	Harvey	harvey	Harvey	NNP	PERSON						
+34	3	fb:cell.three_way_broadcasting	Three Way Broadcasting	three|way|broadcasting	three|Way|Broadcasting	CD|NNP|NNP	NUMBER|O|O	3.0||				Three Way Broadcasting	fb:part.three_way_broadcasting
+34	4	fb:cell.classic_rock	Classic Rock	classic|rock	classic|rock	JJ|NN	MISC|MISC	|					
+35	0	fb:cell.khrt	KHRT	khrt	khrt	NN	O						
+35	1	fb:cell.1320_am	1320 AM	1320|am	1320|AM	CD|VBD-AUX	DATE|O	1320|	1320.0				
+35	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+35	3	fb:cell.faith_broadcasting	Faith Broadcasting	faith|broadcasting	Faith|Broadcasting	NNP|NNP	O|O	|				Faith Broadcasting	fb:part.faith_broadcasting
+35	4	fb:cell.southern_gospel	Southern Gospel	southern|gospel	Southern|Gospel	NNP|NNP	O|O	|					
+36	0	fb:cell.khrt_fm	KHRT-FM	khrt|fm	KHRT|FM	NNP|NNP	O|O	|					
+36	1	fb:cell.106_9_fm	106.9 FM	106.9|fm	106.9|fm	CD|NN	NUMBER|O	106.9|	106.9				
+36	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+36	3	fb:cell.faith_broadcasting	Faith Broadcasting	faith|broadcasting	Faith|Broadcasting	NNP|NNP	O|O	|				Faith Broadcasting	fb:part.faith_broadcasting
+36	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+37	0	fb:cell.kizz	KIZZ	kizz	kizz	NN	O						
+37	1	fb:cell.93_7_fm	93.7 FM	93.7|fm	93.7|fm	CD|NN	NUMBER|O	93.7|	93.7				
+37	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+37	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+37	4	fb:cell.pop_contemporary_hit_radio	Pop Contemporary Hit Radio	pop|contemporary|hit|radio	pop|Contemporary|hit|radio	NN|NNP|VBD|NN	O|O|O|O	|||					
+38	0	fb:cell.kjit_lp	KJIT-LP	kjit|lp	KJIT|lp	NNP|NN	O|O	|					
+38	1	fb:cell.106_7_fm	106.7 FM	106.7|fm	106.7|fm	CD|NN	NUMBER|O	106.7|	106.7				
+38	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+38	3	fb:cell.he_will_provide_radio	He Will Provide Radio	he|will|provide|radio	he|will|provide|radio	PRP|VBD-AUX|VB|NN	O|O|O|O	|||				He Will Provide Radio	fb:part.he_will_provide_radio
+38	4	fb:cell.null											
+39	0	fb:cell.kjkj	KJKJ	kjkj	kjkj	NN	O						
+39	1	fb:cell.107_5_fm	107.5 FM	107.5|fm	107.5|fm	CD|NN	NUMBER|O	107.5|	107.5				
+39	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+39	3	fb:cell.citicasters_licenses_inc	Citicasters Licenses, Inc.	citicasters|licenses|,|inc.|.	Citicasters|Licenses|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Citicasters Licenses|Inc.	fb:part.citicasters_licenses|fb:part.inc
+39	4	fb:cell.active_rock	Active Rock	active|rock	active|rock	JJ|NN	O|O	|					
+40	0	fb:cell.kjkr	KJKR	kjkr	kjkr	NN	O						
+40	1	fb:cell.88_1_fm	88.1 FM	88.1|fm	88.1|fm	CD|NN	NUMBER|O	88.1|	88.1				
+40	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+40	3	fb:cell.jamestown_college	Jamestown College	jamestown|college	Jamestown|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Jamestown College	fb:part.jamestown_college
+40	4	fb:cell.null											
+41	0	fb:cell.kjnd_fm	KJND-FM	kjnd|fm	KJND|FM	NNP|NNP	O|O	|					
+41	1	fb:cell.90_7_fm	90.7 FM	90.7|fm	90.7|fm	CD|NN	NUMBER|O	90.7|	90.7				
+41	2	fb:cell.williston	Williston	williston	Williston	NNP	LOCATION						
+41	3	fb:cell.hi_line_radio_fellowship_inc	Hi-Line Radio Fellowship, Inc.	hi|line|radio|fellowship|,|inc.|.	Hi|Line|Radio|Fellowship|,|Inc.|.	NNP|NNP|NNP|NNP|,|NNP|.	O|O|O|O|O|ORGANIZATION|O	||||||				Hi-Line Radio Fellowship|Inc.	fb:part.hi_line_radio_fellowship|fb:part.inc
+41	4	fb:cell.null											
+42	0	fb:cell.kjtw	KJTW	kjtw	kjtw	NN	O						
+42	1	fb:cell.89_9_fm	89.9 FM	89.9|fm	89.9|fm	CD|NN	NUMBER|O	89.9|	89.9				
+42	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+42	3	fb:cell.american_family_association	American Family Association	american|family|association	american|Family|Association	JJ|NNP|NNP	O|O|O	||				American Family Association	fb:part.american_family_association
+42	4	fb:cell.religious	Religious	religious	religious	JJ	O						
+43	0	fb:cell.kkbo	KKBO	kkbo	kkbo	NN	O						
+43	1	fb:cell.105_9_fm	105.9 FM	105.9|fm	105.9|fm	CD|NN	NUMBER|O	105.9|	105.9				
+43	2	fb:cell.flasher	Flasher	flasher	flasher	NN	O						
+43	3	fb:cell.radio_bismarck_mandan_llc	Radio Bismarck Mandan, LLC	radio|bismarck|mandan|,|llc	Radio|Bismarck|Mandan|,|LLC	NNP|NNP|NNP|,|NNP	O|O|LOCATION|O|O	||||				Radio Bismarck Mandan|LLC	fb:part.radio_bismarck_mandan|fb:part.llc
+43	4	fb:cell.country	Country	country	country	NN	O						
+44	0	fb:cell.kkct	KKCT	kkct	kkct	NN	O						
+44	1	fb:cell.97_5_fm	97.5 FM	97.5|fm	97.5|fm	CD|NN	NUMBER|O	97.5|	97.5				
+44	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+44	3	fb:cell.townsquare_media_bismarck_license_llc	Townsquare Media Bismarck License, LLC	townsquare|media|bismarck|license|,|llc	Townsquare|Media|Bismarck|License|,|LLC	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Townsquare Media Bismarck License|LLC	fb:part.townsquare_media_bismarck_license|fb:part.llc
+44	4	fb:cell.pop_contemporary_hit_radio	Pop Contemporary Hit Radio	pop|contemporary|hit|radio	pop|Contemporary|hit|radio	NN|NNP|VBD|NN	O|O|O|O	|||					
+45	0	fb:cell.kklq	KKLQ	kklq	kklq	NN	O						
+45	1	fb:cell.100_7_fm	100.7 FM	100.7|fm	100.7|fm	CD|NN	NUMBER|O	100.7|	100.7				
+45	2	fb:cell.harwood	Harwood	harwood	Harwood	NNP	PERSON						
+45	3	fb:cell.educational_media_foundation	Educational Media Foundation	educational|media|foundation	Educational|Media|Foundation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Educational Media Foundation	fb:part.educational_media_foundation
+45	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+46	0	fb:cell.kkxl	KKXL	kkxl	kkxl	NN	O						
+46	1	fb:cell.1440_am	1440 AM	1440|am	1440|AM	CD|VBD-AUX	DATE|O	1440|	1440.0				
+46	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+46	3	fb:cell.citicasters_licenses_inc	Citicasters Licenses, Inc.	citicasters|licenses|,|inc.|.	Citicasters|Licenses|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Citicasters Licenses|Inc.	fb:part.citicasters_licenses|fb:part.inc
+46	4	fb:cell.all_sports	All Sports	all|sports	all|Sports	DT|NNP	O|O	|					
+47	0	fb:cell.kkxl_fm	KKXL-FM	kkxl|fm	KKXL|FM	NNP|NNP	O|O	|					
+47	1	fb:cell.92_9_fm	92.9 FM	92.9|fm	92.9|fm	CD|NN	NUMBER|O	92.9|	92.9				
+47	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+47	3	fb:cell.citicasters_licenses_inc	Citicasters Licenses, Inc.	citicasters|licenses|,|inc.|.	Citicasters|Licenses|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Citicasters Licenses|Inc.	fb:part.citicasters_licenses|fb:part.inc
+47	4	fb:cell.pop_contemporary_hit_radio	Pop Contemporary Hit Radio	pop|contemporary|hit|radio	pop|Contemporary|hit|radio	NN|NNP|VBD|NN	O|O|O|O	|||					
+48	0	fb:cell.klbe_lp	KLBE-LP	klbe|lp	KLBE|lp	NNP|NN	O|O	|					
+48	1	fb:cell.100_7_fm	100.7 FM	100.7|fm	100.7|fm	CD|NN	NUMBER|O	100.7|	100.7				
+48	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+48	3	fb:cell.new_song_community_church	New Song Community Church	new|song|community|church	New|song|Community|Church	NNP|NN|NNP|NNP	O|O|O|O	|||				New Song Community Church	fb:part.new_song_community_church
+48	4	fb:cell.null											
+49	0	fb:cell.klbf	KLBF	klbf	klbf	NN	O						
+49	1	fb:cell.89_1_fm	89.1 FM	89.1|fm	89.1|fm	CD|NN	NUMBER|O	89.1|	89.1				
+49	2	fb:cell.lincoln	Lincoln	lincoln	Lincoln	NNP	PERSON						
+49	3	fb:cell.educational_media_foundation	Educational Media Foundation	educational|media|foundation	Educational|Media|Foundation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Educational Media Foundation	fb:part.educational_media_foundation
+49	4	fb:cell.southern_gospel	Southern Gospel	southern|gospel	Southern|Gospel	NNP|NNP	O|O	|					
+50	0	fb:cell.kltc	KLTC	kltc	kltc	NN	ORGANIZATION						
+50	1	fb:cell.1460_am	1460 AM	1460|am	1460|AM	CD|VBD-AUX	DATE|O	1460|	1460.0				
+50	2	fb:cell.dickinson	Dickinson	dickinson	Dickinson	NNP	PERSON						
+50	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+50	4	fb:cell.classic_country	Classic Country	classic|country	classic|country	JJ|NN	O|O	|					
+51	0	fb:cell.kltq	KLTQ	kltq	kltq	NN	O						
+51	1	fb:cell.97_9_fm	97.9 FM	97.9|fm	97.9|fm	CD|NN	NUMBER|O	97.9|	97.9				
+51	2	fb:cell.beulah	Beulah	beulah	Beulah	NNP	PERSON						
+51	3	fb:cell.synergy_broadcast_north_dakota_llc	Synergy Broadcast North Dakota, LLC	synergy|broadcast|north|dakota|,|llc	synergy|Broadcast|North|Dakota|,|LLC	NN|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Synergy Broadcast North Dakota|LLC	fb:part.synergy_broadcast_north_dakota|fb:part.llc
+51	4	fb:cell.null											
+52	0	fb:cell.kluu	KLUU	kluu	kluu	NN	O						
+52	1	fb:cell.89_1_fm	89.1 FM	89.1|fm	89.1|fm	CD|NN	NUMBER|O	89.1|	89.1				
+52	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+52	3	fb:cell.educational_media_foundation	Educational Media Foundation	educational|media|foundation	Educational|Media|Foundation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Educational Media Foundation	fb:part.educational_media_foundation
+52	4	fb:cell.null											
+53	0	fb:cell.klxx	KLXX	klxx	klxx	NN	O						
+53	1	fb:cell.1270_am	1270 AM	1270|am	1270|AM	CD|VBD-AUX	DATE|O	1270|	1270.0				
+53	2	fb:cell.bismarck_mandan	Bismarck-Mandan	bismarck|mandan	Bismarck|Mandan	NNP|NNP	LOCATION|LOCATION	|					
+53	3	fb:cell.townsquare_media_bismarck_license_llc	Townsquare Media Bismarck License, LLC	townsquare|media|bismarck|license|,|llc	Townsquare|Media|Bismarck|License|,|LLC	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Townsquare Media Bismarck License|LLC	fb:part.townsquare_media_bismarck_license|fb:part.llc
+53	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+54	0	fb:cell.kmav_fm	KMAV-FM	kmav|fm	kmav|fm	NN|NN	O|O	|					
+54	1	fb:cell.105_5_fm	105.5 FM	105.5|fm	105.5|fm	CD|NN	NUMBER|O	105.5|	105.5				
+54	2	fb:cell.mayville	Mayville	mayville	Mayville	NNP	LOCATION						
+54	3	fb:cell.kmsr_inc	KMSR, Inc.	kmsr|,|inc.|.	KMSR|,|Inc.|.	NNP|,|NNP|.	LOCATION|O|ORGANIZATION|O	|||				KMSR|Inc.	fb:part.kmsr|fb:part.inc
+54	4	fb:cell.country	Country	country	country	NN	O						
+55	0	fb:cell.kmha	KMHA	kmha	kmha	NN	ORGANIZATION						
+55	1	fb:cell.91_3_fm	91.3 FM	91.3|fm	91.3|fm	CD|NN	NUMBER|O	91.3|	91.3				
+55	2	fb:cell.four_bears	Four Bears	four|bears	four|Bears	CD|NNPS	NUMBER|O	4.0|					
+55	3	fb:cell.fort_berthold_communications_enterprises	Fort Berthold Communications Enterprises	fort|berthold|communications|enterprises	Fort|Berthold|Communications|Enterprises	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Fort Berthold Communications Enterprises	fb:part.fort_berthold_communications_enterprises
+55	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+56	0	fb:cell.kmjo	KMJO	kmjo	kmjo	NN	ORGANIZATION						
+56	1	fb:cell.104_7_fm	104.7 FM	104.7|fm	104.7|fm	CD|NN	NUMBER|O	104.7|	104.7				
+56	2	fb:cell.hope	Hope	hope	Hope	NNP	O						
+56	3	fb:cell.midwest_communications_inc	Midwest Communications, Inc.	midwest|communications|,|inc.|.	Midwest|Communications|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Midwest Communications|Inc.	fb:part.midwest_communications|fb:part.inc
+56	4	fb:cell.adult_contemporary	Adult Contemporary	adult|contemporary	adult|Contemporary	JJ|NNP	O|O	|					
+57	0	fb:cell.kmpr	KMPR	kmpr	kmpr	NN	O						
+57	1	fb:cell.88_9_fm	88.9 FM	88.9|fm	88.9|fm	CD|NN	NUMBER|O	88.9|	88.9				
+57	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+57	3	fb:cell.prairie_public_broadcasting_inc	Prairie Public Broadcasting, Inc.	prairie|public|broadcasting|,|inc.|.	Prairie|Public|Broadcasting|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Prairie Public Broadcasting|Inc.	fb:part.prairie_public_broadcasting|fb:part.inc
+57	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+58	0	fb:cell.kmsr	KMSR	kmsr	kmsr	NN	O						
+58	1	fb:cell.1520_am	1520 AM	1520|am	1520|AM	CD|VBD-AUX	DATE|O	1520|	1520.0				
+58	2	fb:cell.mayville	Mayville	mayville	Mayville	NNP	LOCATION						
+58	3	fb:cell.kmsr_inc	KMSR, Inc.	kmsr|,|inc.|.	KMSR|,|Inc.|.	NNP|,|NNP|.	LOCATION|O|ORGANIZATION|O	|||				KMSR|Inc.	fb:part.kmsr|fb:part.inc
+58	4	fb:cell.all_sports	All Sports	all|sports	all|Sports	DT|NNP	O|O	|					
+59	0	fb:cell.kmxa_fm	KMXA-FM	kmxa|fm	KMXA|FM	NNP|NNP	O|O	|					
+59	1	fb:cell.99_9_fm	99.9 FM	99.9|fm	99.9|fm	CD|NN	NUMBER|O	99.9|	99.9				
+59	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+59	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+59	4	fb:cell.adult_contemporary	Adult Contemporary	adult|contemporary	adult|Contemporary	JJ|NNP	O|O	|					
+60	0	fb:cell.kndc	KNDC	kndc	kndc	NN	O						
+60	1	fb:cell.1490_am	1490 AM	1490|am	1490|AM	CD|VBD-AUX	DATE|O	1490|	1490.0				
+60	2	fb:cell.hettinger	Hettinger	hettinger	Hettinger	NNP	PERSON						
+60	3	fb:cell.schweitzer_media	Schweitzer Media	schweitzer|media	Schweitzer|Media	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Schweitzer Media	fb:part.schweitzer_media
+60	4	fb:cell.country	Country	country	country	NN	O						
+61	0	fb:cell.kndh	KNDH	kndh	kndh	NN	O						
+61	1	fb:cell.102_3_fm	102.3 FM	102.3|fm	102.3|fm	CD|NN	NUMBER|O	102.3|	102.3				
+61	2	fb:cell.hettinger	Hettinger	hettinger	Hettinger	NNP	PERSON						
+61	3	fb:cell.midnation_media_llc	Midnation Media LLC	midnation|media|llc	Midnation|Media|LLC	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Midnation Media LLC	fb:part.midnation_media_llc
+61	4	fb:cell.null											
+62	0	fb:cell.kndk	KNDK	kndk	kndk	NN	O						
+62	1	fb:cell.1080_am	1080 AM	1080|am	1080|AM	CD|VBD-AUX	DATE|O	1080|	1080.0				
+62	2	fb:cell.langdon	Langdon	langdon	Langdon	NNP	PERSON						
+62	3	fb:cell.kndk_inc	KNDK, Inc.	kndk|,|inc.|.	KNDK|,|Inc.|.	NNP|,|NNP|.	LOCATION|O|ORGANIZATION|O	|||				KNDK|Inc.	fb:part.kndk|fb:part.inc
+62	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+63	0	fb:cell.kndk_fm	KNDK-FM	kndk|fm	KNDK|FM	NNP|NNP	O|O	|					
+63	1	fb:cell.95_7_fm	95.7 FM	95.7|fm	95.7|fm	CD|NN	NUMBER|O	95.7|	95.7				
+63	2	fb:cell.langdon	Langdon	langdon	Langdon	NNP	PERSON						
+63	3	fb:cell.kndk_inc	KNDK, Inc.	kndk|,|inc.|.	KNDK|,|Inc.|.	NNP|,|NNP|.	LOCATION|O|ORGANIZATION|O	|||				KNDK|Inc.	fb:part.kndk|fb:part.inc
+63	4	fb:cell.classic_rock	Classic Rock	classic|rock	classic|rock	JJ|NN	MISC|MISC	|					
+64	0	fb:cell.kndl	KNDL	kndl	kndl	NN	O						
+64	1	fb:cell.100_7_fm	100.7 FM	100.7|fm	100.7|fm	CD|NN	NUMBER|O	100.7|	100.7				
+64	2	fb:cell.berthold	Berthold	berthold	Berthold	NNP	PERSON						
+64	3	fb:cell.educational_media_foundation	Educational Media Foundation	educational|media|foundation	Educational|Media|Foundation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Educational Media Foundation	fb:part.educational_media_foundation
+64	4	fb:cell.null											
+65	0	fb:cell.kndr	KNDR	kndr	kndr	NN	O						
+65	1	fb:cell.104_7_fm	104.7 FM	104.7|fm	104.7|fm	CD|NN	NUMBER|O	104.7|	104.7				
+65	2	fb:cell.mandan	Mandan	mandan	Mandan	NNP	LOCATION						
+65	3	fb:cell.central_dakota_enterprises	Central Dakota Enterprises	central|dakota|enterprises	Central|Dakota|Enterprises	NNP|NNP|NNPS	O|O|O	||				Central Dakota Enterprises	fb:part.central_dakota_enterprises
+65	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+66	0	fb:cell.knds_lp	KNDS-LP	knds|lp	knd|lp	NN|NN	O|O	|					
+66	1	fb:cell.96_3_fm	96.3 FM	96.3|fm	96.3|fm	CD|NN	NUMBER|O	96.3|	96.3				
+66	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+66	3	fb:cell.alliance_for_the_arts_and_humanities	Alliance for the Arts and Humanities	alliance|for|the|arts|and|humanities	Alliance|for|the|art|and|humanities	NNP|IN|DT|NNS|CC|NNS	O|O|O|O|O|O	|||||				Alliance for the Arts and Humanities	fb:part.alliance_for_the_arts_and_humanities
+66	4	fb:cell.null											
+67	0	fb:cell.kndw	KNDW	kndw	kndw	NN	O						
+67	1	fb:cell.91_7_fm	91.7 FM	91.7|fm	91.7|fm	CD|NN	NUMBER|O	91.7|	91.7				
+67	2	fb:cell.williston	Williston	williston	Williston	NNP	LOCATION						
+67	3	fb:cell.american_family_association	American Family Association	american|family|association	american|Family|Association	JJ|NNP|NNP	O|O|O	||				American Family Association	fb:part.american_family_association
+67	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+68	0	fb:cell.knox	KNOX	knox	KNOX	NNP	ORGANIZATION						
+68	1	fb:cell.1310_am	1310 AM	1310|am	1310|AM	CD|VBD-AUX	DATE|O	1310|	1310.0				
+68	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+68	3	fb:cell.leighton_enterprises_inc	Leighton Enterprises, Inc.	leighton|enterprises|,|inc.|.	Leighton|Enterprises|,|Inc.|.	NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Leighton Enterprises|Inc.	fb:part.leighton_enterprises|fb:part.inc
+68	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+69	0	fb:cell.knri	KNRI	knri	knrus	NN	O						
+69	1	fb:cell.89_7_fm	89.7 FM	89.7|fm	89.7|fm	CD|NN	NUMBER|O	89.7|	89.7				
+69	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+69	3	fb:cell.educational_media_foundation	Educational Media Foundation	educational|media|foundation	Educational|Media|Foundation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Educational Media Foundation	fb:part.educational_media_foundation
+69	4	fb:cell.contemporary_christian	Contemporary Christian	contemporary|christian	Contemporary|Christian	NNP|NNP	O|O	|					
+70	0	fb:cell.kobt_lp	KOBT-LP	kobt|lp	KOBT|lp	NNP|NN	O|O	|					
+70	1	fb:cell.101_3_fm	101.3 FM	101.3|fm	101.3|fm	CD|NN	NUMBER|O	101.3|	101.3				
+70	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+70	3	fb:cell.grand_forks_christian_broadcasting	Grand Forks Christian Broadcasting	grand|forks|christian|broadcasting	Grand|Forks|Christian|Broadcasting	NNP|NNP|NNP|NNP	O|O|O|O	|||				Grand Forks Christian Broadcasting	fb:part.grand_forks_christian_broadcasting
+70	4	fb:cell.null											
+71	0	fb:cell.kovc	KOVC	kovc	kovc	NN	O						
+71	1	fb:cell.1490_am	1490 AM	1490|am	1490|AM	CD|VBD-AUX	DATE|O	1490|	1490.0				
+71	2	fb:cell.valley_city	Valley City	valley|city	Valley|City	NNP|NNP	LOCATION|LOCATION	|					
+71	3	fb:cell.sioux_valley_broadcasting	Sioux Valley Broadcasting	sioux|valley|broadcasting	Sioux|Valley|Broadcasting	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Sioux Valley Broadcasting	fb:part.sioux_valley_broadcasting
+71	4	fb:cell.country	Country	country	country	NN	O						
+72	0	fb:cell.koww_lp	KOWW-LP	koww|lp	KOWW|lp	NNP|NN	O|O	|					
+72	1	fb:cell.98_1_fm	98.1 FM	98.1|fm	98.1|fm	CD|NN	NUMBER|O	98.1|	98.1				
+72	2	fb:cell.burlington	Burlington	burlington	Burlington	NNP	LOCATION						
+72	3	fb:cell.pointe_of_view_institute	Pointe of View Institute	pointe|of|view|institute	Pointe|of|View|Institute	NNP|IN|NNP|NNP	O|O|ORGANIZATION|ORGANIZATION	|||				Pointe of View Institute	fb:part.pointe_of_view_institute
+72	4	fb:cell.null											
+73	0	fb:cell.kpar_lp	KPAR-LP	kpar|lp	kpar|lp	NN|NN	O|O	|					
+73	1	fb:cell.103_7_fm	103.7 FM	103.7|fm	103.7|fm	CD|NN	NUMBER|O	103.7|	103.7				
+73	2	fb:cell.dickinson	Dickinson	dickinson	Dickinson	NNP	PERSON						
+73	3	fb:cell.higher_plain_media	Higher Plain Media	higher|plain|media	higher|Plain|Media	JJR|NNP|NNP	O|O|O	||				Higher Plain Media	fb:part.higher_plain_media
+73	4	fb:cell.null											
+74	0	fb:cell.kpfx	KPFX	kpfx	kpfx	NN	O						
+74	1	fb:cell.107_9_fm	107.9 FM	107.9|fm	107.9|fm	CD|NN	NUMBER|O	107.9|	107.9				
+74	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+74	3	fb:cell.l_l_licensee_llc	L&L Licensee, LLC	l&l|licensee|,|llc	L&L|Licensee|,|LLC	NNP|NNP|,|NNP	ORGANIZATION|O|O|O	|||				L&L Licensee|LLC	fb:part.l_l_licensee|fb:part.llc
+74	4	fb:cell.classic_rock	Classic Rock	classic|rock	classic|rock	JJ|NN	MISC|MISC	|					
+75	0	fb:cell.kpha	KPHA	kpha	kpha	NN	ORGANIZATION						
+75	1	fb:cell.91_3_fm	91.3 FM	91.3|fm	91.3|fm	CD|NN	NUMBER|O	91.3|	91.3				
+75	2	fb:cell.mandan	Mandan	mandan	Mandan	NNP	LOCATION						
+75	3	fb:cell.real_presence_radio	Real Presence Radio	real|presence|radio	real|presence|radio	JJ|NN|NN	O|O|O	||				Real Presence Radio	fb:part.real_presence_radio
+75	4	fb:cell.null											
+76	0	fb:cell.kpok	KPOK	kpok	kpok	NN	O						
+76	1	fb:cell.1340_am	1340 AM	1340|am	1340|AM	CD|VBD-AUX	DATE|O	1340|	1340.0				
+76	2	fb:cell.bowman	Bowman	bowman	Bowman	NNP	PERSON						
+76	3	fb:cell.tri_state_communications	Tri-State Communications	tri|state|communications	tri|State|Communications	FW|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Tri-State Communications	fb:part.tri_state_communications
+76	4	fb:cell.country	Country	country	country	NN	O						
+77	0	fb:cell.kppd	KPPD	kppd	kppd	NN	O						
+77	1	fb:cell.91_7_fm	91.7 FM	91.7|fm	91.7|fm	CD|NN	NUMBER|O	91.7|	91.7				
+77	2	fb:cell.devils_lake	Devils Lake	devils|lake	Devils|Lake	NNP|NNP	LOCATION|LOCATION	|					
+77	3	fb:cell.prairie_public_broadcasting_inc	Prairie Public Broadcasting, Inc.	prairie|public|broadcasting|,|inc.|.	Prairie|Public|Broadcasting|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Prairie Public Broadcasting|Inc.	fb:part.prairie_public_broadcasting|fb:part.inc
+77	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+78	0	fb:cell.kppr	KPPR	kppr	kppr	NN	O						
+78	1	fb:cell.89_5_fm	89.5 FM	89.5|fm	89.5|fm	CD|NN	NUMBER|O	89.5|	89.5				
+78	2	fb:cell.williston	Williston	williston	Williston	NNP	LOCATION						
+78	3	fb:cell.prairie_public_broadcasting_inc	Prairie Public Broadcasting, Inc.	prairie|public|broadcasting|,|inc.|.	Prairie|Public|Broadcasting|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Prairie Public Broadcasting|Inc.	fb:part.prairie_public_broadcasting|fb:part.inc
+78	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+79	0	fb:cell.kppw	KPPW	kppw	kppw	NN	O						
+79	1	fb:cell.88_7_fm	88.7 FM	88.7|fm	88.7|fm	CD|NN	NUMBER|O	88.7|	88.7				
+79	2	fb:cell.williston	Williston	williston	Williston	NNP	LOCATION						
+79	3	fb:cell.prairie_public_broadcasting_inc	Prairie Public Broadcasting, Inc.	prairie|public|broadcasting|,|inc.|.	Prairie|Public|Broadcasting|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Prairie Public Broadcasting|Inc.	fb:part.prairie_public_broadcasting|fb:part.inc
+79	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+80	0	fb:cell.kprj	KPRJ	kprj	kprj	NN	O						
+80	1	fb:cell.91_5_fm	91.5 FM	91.5|fm	91.5|fm	CD|NN	NUMBER|O	91.5|	91.5				
+80	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+80	3	fb:cell.prairie_public_broadcasting_inc	Prairie Public Broadcasting, Inc.	prairie|public|broadcasting|,|inc.|.	Prairie|Public|Broadcasting|,|Inc.|.	NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Prairie Public Broadcasting|Inc.	fb:part.prairie_public_broadcasting|fb:part.inc
+80	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+81	0	fb:cell.kqdj	KQDJ	kqdj	kqdj	NN	O						
+81	1	fb:cell.1400_am	1400 AM	1400|am	1400|AM	CD|VBD-AUX	DATE|O	1400|	1400.0				
+81	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+81	3	fb:cell.two_rivers_broadcasting	Two Rivers Broadcasting	two|rivers|broadcasting	two|Rivers|Broadcasting	CD|NNP|NNP	NUMBER|O|O	2.0||				Two Rivers Broadcasting	fb:part.two_rivers_broadcasting
+81	4	fb:cell.country	Country	country	country	NN	O						
+82	0	fb:cell.kqdj_fm	KQDJ-FM	kqdj|fm	KQDJ|FM	NNP|NNP	O|O	|					
+82	1	fb:cell.101_1_fm	101.1 FM	101.1|fm	101.1|fm	CD|NN	NUMBER|O	101.1|	101.1				
+82	2	fb:cell.valley_city	Valley City	valley|city	Valley|City	NNP|NNP	LOCATION|LOCATION	|					
+82	3	fb:cell.sioux_valley_broadcasting	Sioux Valley Broadcasting	sioux|valley|broadcasting	Sioux|Valley|Broadcasting	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Sioux Valley Broadcasting	fb:part.sioux_valley_broadcasting
+82	4	fb:cell.pop_contemporary_hit_radio	Pop Contemporary Hit Radio	pop|contemporary|hit|radio	pop|Contemporary|hit|radio	NN|NNP|VBD|NN	O|O|O|O	|||					
+83	0	fb:cell.kqdy	KQDY	kqdy	kqdy	NN	O						
+83	1	fb:cell.94_5_fm	94.5 FM	94.5|fm	94.5|fm	CD|NN	NUMBER|O	94.5|	94.5				
+83	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+83	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+83	4	fb:cell.country	Country	country	country	NN	O						
+84	0	fb:cell.kqlx	KQLX	kqlx	kqlx	NN	O						
+84	1	fb:cell.890_am	890 AM	890|am	890|AM	CD|VBD-AUX	NUMBER|O	890.0|	890.0				
+84	2	fb:cell.lisbon	Lisbon	lisbon	Lisbon	NNP	LOCATION						
+84	3	fb:cell.great_plains_integrated_marketing_inc	Great Plains Integrated Marketing, Inc.	great|plains|integrated|marketing|,|inc.|.	Great|Plains|Integrated|Marketing|,|Inc.|.	NNP|NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||||				Great Plains Integrated Marketing|Inc.	fb:part.great_plains_integrated_marketing|fb:part.inc
+84	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+85	0	fb:cell.kqlx_fm	KQLX-FM	kqlx|fm	KQLX|FM	NNP|NNP	O|O	|					
+85	1	fb:cell.106_1_fm	106.1 FM	106.1|fm	106.1|fm	CD|NN	NUMBER|O	106.1|	106.1				
+85	2	fb:cell.lisbon	Lisbon	lisbon	Lisbon	NNP	LOCATION						
+85	3	fb:cell.great_plains_integrated_marketing_inc	Great Plains Integrated Marketing, Inc.	great|plains|integrated|marketing|,|inc.|.	Great|Plains|Integrated|Marketing|,|Inc.|.	NNP|NNP|NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||||				Great Plains Integrated Marketing|Inc.	fb:part.great_plains_integrated_marketing|fb:part.inc
+85	4	fb:cell.country	Country	country	country	NN	O						
+86	0	fb:cell.kqlz	KQLZ	kqlz	kqlz	NN	O						
+86	1	fb:cell.95_7_fm	95.7 FM	95.7|fm	95.7|fm	CD|NN	NUMBER|O	95.7|	95.7				
+86	2	fb:cell.new_england	New England	new|england	New|England	NNP|NNP	LOCATION|LOCATION	|					
+86	3	fb:cell.synergy_broadcast_north_dakota_llc	Synergy Broadcast North Dakota, LLC	synergy|broadcast|north|dakota|,|llc	synergy|Broadcast|North|Dakota|,|LLC	NN|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Synergy Broadcast North Dakota|LLC	fb:part.synergy_broadcast_north_dakota|fb:part.llc
+86	4	fb:cell.null											
+87	0	fb:cell.kqwb	KQWB	kqwb	kqwb	NN	O						
+87	1	fb:cell.1660_am	1660 AM	1660|am	1660|AM	CD|VBD-AUX	DATE|O	1660|	1660.0				
+87	2	fb:cell.west_fargo	West Fargo	west|fargo	West|Fargo	NNP|NNP	O|O	|					
+87	3	fb:cell.l_l_licensee_llc	L&L Licensee, LLC	l&l|licensee|,|llc	L&L|Licensee|,|LLC	NNP|NNP|,|NNP	ORGANIZATION|O|O|O	|||				L&L Licensee|LLC	fb:part.l_l_licensee|fb:part.llc
+87	4	fb:cell.oldies	Oldies	oldies	Oldies	NNPS	O						
+88	0	fb:cell.kqzz	KQZZ	kqzz	kqzz	NN	O						
+88	1	fb:cell.96_7_fm	96.7 FM	96.7|fm	96.7|fm	CD|NN	NUMBER|O	96.7|	96.7				
+88	2	fb:cell.devils_lake	Devils Lake	devils|lake	Devils|Lake	NNP|NNP	LOCATION|LOCATION	|					
+88	3	fb:cell.two_rivers_broadcasting_inc	Two Rivers Broadcasting, Inc.	two|rivers|broadcasting|,|inc.|.	two|Rivers|Broadcasting|,|Inc.|.	CD|NNP|NNP|,|NNP|.	NUMBER|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	2.0|||||				Two Rivers Broadcasting|Inc.	fb:part.two_rivers_broadcasting|fb:part.inc
+88	4	fb:cell.hot_adult_contemporary	Hot Adult Contemporary	hot|adult|contemporary	hot|adult|Contemporary	JJ|NN|NNP	O|O|O	||					
+89	0	fb:cell.krrz	KRRZ	krrz	krrz	NN	O						
+89	1	fb:cell.1390_am	1390 AM	1390|am	1390|AM	CD|VBD-AUX	DATE|O	1390|	1390.0				
+89	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+89	3	fb:cell.aloha_station_trust_llc	Aloha Station Trust, LLC	aloha|station|trust|,|llc	Aloha|Station|Trust|,|LLC	NNP|NNP|NNP|,|NNP	O|O|O|O|O	||||				Aloha Station Trust|LLC	fb:part.aloha_station_trust|fb:part.llc
+89	4	fb:cell.oldies	Oldies	oldies	Oldies	NNPS	O						
+90	0	fb:cell.krvx	KRVX	krvx	krvx	NN	O						
+90	1	fb:cell.103_1_fm	103.1 FM	103.1|fm	103.1|fm	CD|NN	NUMBER|O	103.1|	103.1				
+90	2	fb:cell.wimbledon	Wimbledon	wimbledon	Wimbledon	NNP	MISC						
+90	3	fb:cell.james_river_broadcasting	James River Broadcasting	james|river|broadcasting	James|River|Broadcasting	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				James River Broadcasting	fb:part.james_river_broadcasting
+90	4	fb:cell.album_oriented_rock	Album Oriented Rock	album|oriented|rock	album|Oriented|Rock	NN|NNP|NNP	O|O|O	||					
+91	0	fb:cell.krwk	KRWK	krwk	krwk	NN	O						
+91	1	fb:cell.101_9_fm	101.9 FM	101.9|fm	101.9|fm	CD|NN	NUMBER|O	101.9|	101.9				
+91	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+91	3	fb:cell.midwest_communications_inc	Midwest Communications, Inc.	midwest|communications|,|inc.|.	Midwest|Communications|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Midwest Communications|Inc.	fb:part.midwest_communications|fb:part.inc
+91	4	fb:cell.mainstream_rock	Mainstream Rock	mainstream|rock	Mainstream|Rock	NNP|NNP	O|O	|					
+92	0	fb:cell.ksaf_lp	KSAF-LP	ksaf|lp	ksaf|lp	NN|NN	O|O	|					
+92	1	fb:cell.104_1_fm	104.1 FM	104.1|fm	104.1|fm	CD|NN	NUMBER|O	104.1|	104.1				
+92	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+92	3	fb:cell.true_light_broadcasting_inc	True Light Broadcasting, Inc.	true|light|broadcasting|,|inc.|.	true|light|Broadcasting|,|Inc.|.	JJ|NN|NNP|,|NNP|.	O|O|O|O|ORGANIZATION|O	|||||				True Light Broadcasting|Inc.	fb:part.true_light_broadcasting|fb:part.inc
+92	4	fb:cell.null											
+93	0	fb:cell.ksih	KSIH	ksih	ksih	NN	O						
+93	1	fb:cell.90_1_fm	90.1 FM	90.1|fm	90.1|fm	CD|NN	NUMBER|O	90.1|	90.1				
+93	2	fb:cell.belcourt	Belcourt	belcourt	Belcourt	NNP	LOCATION						
+93	3	fb:cell.radio_maria_inc	Radio Maria, Inc.	radio|maria|,|inc.|.	Radio|Maria|,|Inc.|.	NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Radio Maria|Inc.	fb:part.radio_maria|fb:part.inc
+93	4	fb:cell.null											
+94	0	fb:cell.ksjb	KSJB	ksjb	ksjb	NN	O						
+94	1	fb:cell.600_am	600 AM	600|am	600|AM	CD|VBD-AUX	NUMBER|O	600.0|	600.0				
+94	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+94	3	fb:cell.chesterman_communications_of_jamestown_inc	Chesterman Communications of Jamestown, Inc.	chesterman|communications|of|jamestown|,|inc.|.	Chesterman|Communications|of|Jamestown|,|Inc.|.	NNP|NNPS|IN|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|O|LOCATION|O|ORGANIZATION|O	||||||				Chesterman Communications of Jamestown|Inc.	fb:part.chesterman_communications_of_jamestown|fb:part.inc
+94	4	fb:cell.classic_country	Classic Country	classic|country	classic|country	JJ|NN	O|O	|					
+95	0	fb:cell.ksjz	KSJZ	ksjz	ksjz	NN	O						
+95	1	fb:cell.93_3_fm	93.3 FM	93.3|fm	93.3|fm	CD|NN	NUMBER|O	93.3|	93.3				
+95	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+95	3	fb:cell.chesterman_communications_of_jamestown_inc	Chesterman Communications of Jamestown, Inc.	chesterman|communications|of|jamestown|,|inc.|.	Chesterman|Communications|of|Jamestown|,|Inc.|.	NNP|NNPS|IN|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|O|LOCATION|O|ORGANIZATION|O	||||||				Chesterman Communications of Jamestown|Inc.	fb:part.chesterman_communications_of_jamestown|fb:part.inc
+95	4	fb:cell.hot_ac	Hot AC	hot|ac	hot|ac	JJ|NN	O|O	|					
+96	0	fb:cell.ksls	KSLS	ksls	ksl	NNS	O						
+96	1	fb:cell.90_7_fm	90.7 FM	90.7|fm	90.7|fm	CD|NN	NUMBER|O	90.7|	90.7				
+96	2	fb:cell.dickinson	Dickinson	dickinson	Dickinson	NNP	PERSON						
+96	3	fb:cell.bethesda_christian_broadcasting	Bethesda Christian Broadcasting	bethesda|christian|broadcasting	Bethesda|Christian|Broadcasting	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Bethesda Christian Broadcasting	fb:part.bethesda_christian_broadcasting
+96	4	fb:cell.null											
+97	0	fb:cell.ksss	KSSS	ksss	ksss	NNS	O						
+97	1	fb:cell.101_5_fm	101.5 FM	101.5|fm	101.5|fm	CD|NN	NUMBER|O	101.5|	101.5				
+97	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+97	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+97	4	fb:cell.active_rock	Active Rock	active|rock	active|rock	JJ|NN	O|O	|					
+98	0	fb:cell.ktgo	KTGO	ktgo	ktgo	NN	O						
+98	1	fb:cell.1090_am	1090 AM	1090|am	1090|AM	CD|VBD-AUX	DATE|O	1090|	1090.0				
+98	2	fb:cell.tioga	Tioga	tioga	Tioga	NNP	LOCATION						
+98	3	fb:cell.bakken_beacon_media_llc	Bakken Beacon Media LLC	bakken|beacon|media|llc	Bakken|Beacon|Media|LLC	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Bakken Beacon Media LLC	fb:part.bakken_beacon_media_llc
+98	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+99	0	fb:cell.ktwj	KTWJ	ktwj	ktwj	NN	O						
+99	1	fb:cell.90_9_fm	90.9 FM	90.9|fm	90.9|fm	CD|NN	NUMBER|O	90.9|	90.9				
+99	2	fb:cell.moffit_lincoln	Moffit-Lincoln	moffit|lincoln	Moffit|Lincoln	NNP|NNP	PERSON|PERSON	|					
+99	3	fb:cell.bismarck_adventist_education_station	Bismarck Adventist Education Station	bismarck|adventist|education|station	Bismarck|Adventist|Education|Station	NNP|NNP|NNP|NNP	O|O|O|O	|||				Bismarck Adventist Education Station	fb:part.bismarck_adventist_education_station
+99	4	fb:cell.null											
+100	0	fb:cell.ktzu	KTZU	ktzu	ktzu	NN	O						
+100	1	fb:cell.94_9_fm	94.9 FM	94.9|fm	94.9|fm	CD|NN	NUMBER|O	94.9|	94.9				
+100	2	fb:cell.velva	Velva	velva	Velva	NNP	PERSON						
+100	3	fb:cell.programmers_broadcasting	Programmers Broadcasting	programmers|broadcasting	Programmers|Broadcasting	NNP|NNP	O|O	|				Programmers Broadcasting	fb:part.programmers_broadcasting
+100	4	fb:cell.classic_rock	Classic Rock	classic|rock	classic|rock	JJ|NN	MISC|MISC	|					
+101	0	fb:cell.kund_fm	KUND-FM	kund|fm	KUND|FM	NNP|NNP	O|O	|					
+101	1	fb:cell.89_3_fm	89.3 FM	89.3|fm	89.3|fm	CD|NN	NUMBER|O	89.3|	89.3				
+101	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+101	3	fb:cell.university_of_north_dakota	University of North Dakota	university|of|north|dakota	University|of|North|Dakota	NNP|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				University of North Dakota	fb:part.university_of_north_dakota
+101	4	fb:cell.variety	Variety	variety	Variety	NNP	O						
+102	0	fb:cell.kusb	KUSB	kusb	kusb	NN	O						
+102	1	fb:cell.103_3_fm	103.3 FM	103.3|fm	103.3|fm	CD|NN	NUMBER|O	103.3|	103.3				
+102	2	fb:cell.hazelton	Hazelton	hazelton	Hazelton	NNP	PERSON						
+102	3	fb:cell.townsquare_media_bismarck_license_llc	Townsquare Media Bismarck License, LLC	townsquare|media|bismarck|license|,|llc	Townsquare|Media|Bismarck|License|,|LLC	NNP|NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	|||||				Townsquare Media Bismarck License|LLC	fb:part.townsquare_media_bismarck_license|fb:part.llc
+102	4	fb:cell.country	Country	country	country	NN	O						
+103	0	fb:cell.kvox	KVOX	kvox	kvox	NN	O						
+103	1	fb:cell.740_am	740 AM	740|am	740|AM	CD|VBD-AUX	NUMBER|O	740.0|	740.0				
+103	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+103	3	fb:cell.midwest_communications_inc	Midwest Communications, Inc.	midwest|communications|,|inc.|.	Midwest|Communications|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Midwest Communications|Inc.	fb:part.midwest_communications|fb:part.inc
+103	4	fb:cell.all_sports	All Sports	all|sports	all|Sports	DT|NNP	O|O	|					
+104	0	fb:cell.kwgo	KWGO	kwgo	kwgo	NN	O						
+104	1	fb:cell.102_9_fm	102.9 FM	102.9|fm	102.9|fm	CD|NN	NUMBER|O	102.9|	102.9				
+104	2	fb:cell.burlington	Burlington	burlington	Burlington	NNP	LOCATION						
+104	3	fb:cell.programmers_broadcasting	Programmers Broadcasting	programmers|broadcasting	Programmers|Broadcasting	NNP|NNP	O|O	|				Programmers Broadcasting	fb:part.programmers_broadcasting
+104	4	fb:cell.adult_contemporary	Adult Contemporary	adult|contemporary	adult|Contemporary	JJ|NNP	O|O	|					
+105	0	fb:cell.kwtl	KWTL	kwtl	kwtl	NN	O						
+105	1	fb:cell.1370_am	1370 AM	1370|am	1370|AM	CD|VBD-AUX	DATE|O	1370|	1370.0				
+105	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+105	3	fb:cell.real_presence_radio	Real Presence Radio	real|presence|radio	real|presence|radio	JJ|NN|NN	O|O|O	||				Real Presence Radio	fb:part.real_presence_radio
+105	4	fb:cell.religious	Religious	religious	religious	JJ	O						
+106	0	fb:cell.kxdi	KXDI	kxdi	kxdus	NN	O						
+106	1	fb:cell.93_9_fm	93.9 FM	93.9|fm	93.9|fm	CD|NN	NUMBER|O	93.9|	93.9				
+106	2	fb:cell.belfield	Belfield	belfield	Belfield	NNP	PERSON						
+106	3	fb:cell.williston_community_broadcasting_corporation	Williston Community Broadcasting Corporation	williston|community|broadcasting|corporation	Williston|Community|Broadcasting|Corporation	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Williston Community Broadcasting Corporation	fb:part.williston_community_broadcasting_corporation
+106	4	fb:cell.null											
+107	0	fb:cell.kxgt	KXGT	kxgt	kxgt	NN	O						
+107	1	fb:cell.98_3_fm	98.3 FM	98.3|fm	98.3|fm	CD|NN	NUMBER|O	98.3|	98.3				
+107	2	fb:cell.carrington	Carrington	carrington	Carrington	NNP	PERSON						
+107	3	fb:cell.two_rivers_broadcasting	Two Rivers Broadcasting	two|rivers|broadcasting	two|Rivers|Broadcasting	CD|NNP|NNP	NUMBER|O|O	2.0||				Two Rivers Broadcasting	fb:part.two_rivers_broadcasting
+107	4	fb:cell.classic_hits	Classic Hits	classic|hits	classic|hit	JJ|NNS	O|O	|					
+108	0	fb:cell.kxmr	KXMR	kxmr	kxmr	NN	O						
+108	1	fb:cell.710_am	710 AM	710|am	710|AM	CD|VBD-AUX	NUMBER|O	710.0|	710.0				
+108	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+108	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+108	4	fb:cell.all_sports	All Sports	all|sports	all|Sports	DT|NNP	O|O	|					
+109	0	fb:cell.kxpo	KXPO	kxpo	kxpo	NN	O						
+109	1	fb:cell.1340_am	1340 AM	1340|am	1340|AM	CD|VBD-AUX	DATE|O	1340|	1340.0				
+109	2	fb:cell.grafton	Grafton	grafton	Grafton	NNP	LOCATION						
+109	3	fb:cell.simmons_broadcasting	Simmons Broadcasting	simmons|broadcasting	Simmons|Broadcasting	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Simmons Broadcasting	fb:part.simmons_broadcasting
+109	4	fb:cell.country	Country	country	country	NN	O						
+110	0	fb:cell.kxrv	KXRV	kxrv	kxrv	NN	O						
+110	1	fb:cell.107_5_fm	107.5 FM	107.5|fm	107.5|fm	CD|NN	NUMBER|O	107.5|	107.5				
+110	2	fb:cell.cannon_ball	Cannon Ball	cannon|ball	Cannon|Ball	NNP|NNP	O|O	|					
+110	3	fb:cell.radio_bismarck_mandan	Radio Bismarck-Mandan	radio|bismarck|mandan	Radio|Bismarck|Mandan	NNP|NNP|NNP	O|O|LOCATION	||				Radio Bismarck-Mandan	fb:part.radio_bismarck_mandan_2
+110	4	fb:cell.classic_hits	Classic Hits	classic|hits	classic|hit	JJ|NNS	O|O	|					
+111	0	fb:cell.kynu	KYNU	kynu	kynu	NN	O						
+111	1	fb:cell.95_5_fm	95.5 FM	95.5|fm	95.5|fm	CD|NN	NUMBER|O	95.5|	95.5				
+111	2	fb:cell.jamestown	Jamestown	jamestown	Jamestown	NNP	LOCATION						
+111	3	fb:cell.two_rivers_broadcasting	Two Rivers Broadcasting	two|rivers|broadcasting	two|Rivers|Broadcasting	CD|NNP|NNP	NUMBER|O|O	2.0||				Two Rivers Broadcasting	fb:part.two_rivers_broadcasting
+111	4	fb:cell.new_country	New Country	new|country	New|Country	NNP|NNP	O|O	|					
+112	0	fb:cell.kytz	KYTZ	kytz	kytz	NN	O						
+112	1	fb:cell.106_7_fm	106.7 FM	106.7|fm	106.7|fm	CD|NN	NUMBER|O	106.7|	106.7				
+112	2	fb:cell.walhalla	Walhalla	walhalla	Walhalla	NNP	LOCATION						
+112	3	fb:cell.simmons_broadcasting	Simmons Broadcasting	simmons|broadcasting	Simmons|Broadcasting	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Simmons Broadcasting	fb:part.simmons_broadcasting
+112	4	fb:cell.hot_adult_contemporary	Hot Adult Contemporary	hot|adult|contemporary	hot|adult|Contemporary	JJ|NN|NNP	O|O|O	||					
+113	0	fb:cell.kyyx	KYYX	kyyx	kyyx	NN	O						
+113	1	fb:cell.97_1_fm	97.1 FM	97.1|fm	97.1|fm	CD|NN	NUMBER|O	97.1|	97.1				
+113	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+113	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+113	4	fb:cell.country	Country	country	country	NN	O						
+114	0	fb:cell.kyyy	KYYY	kyyy	kyyy	NN	O						
+114	1	fb:cell.92_9_fm	92.9 FM	92.9|fm	92.9|fm	CD|NN	NUMBER|O	92.9|	92.9				
+114	2	fb:cell.bismarck	Bismarck	bismarck	Bismarck	NNP	PERSON						
+114	3	fb:cell.citicasters_licenses_inc	Citicasters Licenses, Inc.	citicasters|licenses|,|inc.|.	Citicasters|Licenses|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Citicasters Licenses|Inc.	fb:part.citicasters_licenses|fb:part.inc
+114	4	fb:cell.pop_contemporary_hit_radio	Pop Contemporary Hit Radio	pop|contemporary|hit|radio	pop|Contemporary|hit|radio	NN|NNP|VBD|NN	O|O|O|O	|||					
+115	0	fb:cell.kyyz	KYYZ	kyyz	kyyz	NN	O						
+115	1	fb:cell.96_1_fm	96.1 FM	96.1|fm	96.1|fm	NN|NN	NUMBER|O	96.1|	96.1				
+115	2	fb:cell.williston	Williston	williston	Williston	NNP	LOCATION						
+115	3	fb:cell.ccr_williston_iv_llc	CCR-Williston IV, LLC	ccr|williston|iv|,|llc	CCR|Williston|IV|,|LLC	NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	||||				CCR-Williston IV|LLC	fb:part.ccr_williston_iv|fb:part.llc
+115	4	fb:cell.new_country	New Country	new|country	New|Country	NNP|NNP	O|O	|					
+116	0	fb:cell.kzdr	KZDR	kzdr	kzdr	NN	O						
+116	1	fb:cell.92_7_fm	92.7 FM	92.7|fm	92.7|fm	CD|NN	NUMBER|O	92.7|	92.7				
+116	2	fb:cell.kindred	Kindred	kindred	kindred	JJ	O						
+116	3	fb:cell.mediactive_llc	Mediactive, LLC	mediactive|,|llc	mediactive|,|llc	JJ|,|NN	O|O|O	||				Mediactive|LLC	fb:part.mediactive|fb:part.llc
+116	4	fb:cell.classic_hits	Classic Hits	classic|hits	classic|hit	JJ|NNS	O|O	|					
+117	0	fb:cell.kzgf	KZGF	kzgf	kzgf	NN	O						
+117	1	fb:cell.94_7_fm	94.7 FM	94.7|fm	94.7|fm	CD|NN	NUMBER|O	94.7|	94.7				
+117	2	fb:cell.grand_forks	Grand Forks	grand|forks	Grand|Forks	NNP|NNP	MISC|MISC	|					
+117	3	fb:cell.leighton_enterprises_inc	Leighton Enterprises, Inc.	leighton|enterprises|,|inc.|.	Leighton|Enterprises|,|Inc.|.	NNP|NNP|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Leighton Enterprises|Inc.	fb:part.leighton_enterprises|fb:part.inc
+117	4	fb:cell.pop_contemporary_hit_radio	Pop Contemporary Hit Radio	pop|contemporary|hit|radio	pop|Contemporary|hit|radio	NN|NNP|VBD|NN	O|O|O|O	|||					
+118	0	fb:cell.kzpr	KZPR	kzpr	kzpr	NN	O						
+118	1	fb:cell.105_3_fm	105.3 FM	105.3|fm	105.3|fm	CD|NN	NUMBER|O	105.3|	105.3				
+118	2	fb:cell.minot	Minot	minot	Minot	NNP	LOCATION						
+118	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+118	4	fb:cell.album_oriented_rock	Album Oriented Rock	album|oriented|rock	album|Oriented|Rock	NN|NNP|NNP	O|O|O	||					
+119	0	fb:cell.kzrx	KZRX	kzrx	kzrx	NN	O						
+119	1	fb:cell.92_1_fm	92.1 FM	92.1|fm	92.1|fm	CD|NN	NUMBER|O	92.1|	92.1				
+119	2	fb:cell.dickinson	Dickinson	dickinson	Dickinson	NNP	PERSON						
+119	3	fb:cell.cc_licenses_llc	CC Licenses, LLC	cc|licenses|,|llc	cc|licens|,|llc	NN|NNS|,|NN	O|O|O|O	|||				CC Licenses|LLC	fb:part.cc_licenses|fb:part.llc
+119	4	fb:cell.album_oriented_rock	Album Oriented Rock	album|oriented|rock	album|Oriented|Rock	NN|NNP|NNP	O|O|O	||					
+120	0	fb:cell.kztk	KZTK	kztk	kztk	NN	O						
+120	1	fb:cell.103_9_fm	103.9 FM	103.9|fm	103.9|fm	CD|NN	NUMBER|O	103.9|	103.9				
+120	2	fb:cell.arthur	Arthur	arthur	Arthur	NNP	PERSON						
+120	3	fb:cell.vision_media_inc	Vision Media, Inc.	vision|media|,|inc.|.	Vision|Media|,|Inc.|.	NNP|NNP|,|NNP|.	O|O|O|ORGANIZATION|O	||||				Vision Media|Inc.	fb:part.vision_media|fb:part.inc
+120	4	fb:cell.new_country	New Country	new|country	New|Country	NNP|NNP	O|O	|					
+121	0	fb:cell.kzzj	KZZJ	kzzj	kzzj	NN	O						
+121	1	fb:cell.1450_am	1450 AM	1450|am	1450|AM	CD|VBD-AUX	DATE|O	1450|	1450.0				
+121	2	fb:cell.rugby	Rugby	rugby	rugby	JJ	O						
+121	3	fb:cell.rugby_broadcasters_inc	Rugby Broadcasters, Inc.	rugby|broadcasters|,|inc.|.	Rugby|Broadcasters|,|Inc.|.	NNP|NNPS|,|NNP|.	O|O|O|ORGANIZATION|O	||||				Rugby Broadcasters|Inc.	fb:part.rugby_broadcasters|fb:part.inc
+121	4	fb:cell.country	Country	country	country	NN	O						
+122	0	fb:cell.kzzq	KZZQ	kzzq	kzzq	NN	O						
+122	1	fb:cell.101_9_fm	101.9 FM	101.9|fm	101.9|fm	CD|NN	NUMBER|O	101.9|	101.9				
+122	2	fb:cell.richardton	Richardton	richardton	Richardton	NNP	LOCATION						
+122	3	fb:cell.real_presence_radio	Real Presence Radio	real|presence|radio	real|presence|radio	JJ|NN|NN	O|O|O	||				Real Presence Radio	fb:part.real_presence_radio
+122	4	fb:cell.null											
+123	0	fb:cell.kzzy	KZZY	kzzy	kzzy	NN	O						
+123	1	fb:cell.103_5_fm	103.5 FM	103.5|fm	103.5|fm	CD|NN	NUMBER|O	103.5|	103.5				
+123	2	fb:cell.devils_lake	Devils Lake	devils|lake	Devils|Lake	NNP|NNP	LOCATION|LOCATION	|					
+123	3	fb:cell.double_z_broadcasting	Double Z Broadcasting	double|z|broadcasting	double|z|Broadcasting	JJ|NN|NNP	O|O|O	||				Double Z Broadcasting	fb:part.double_z_broadcasting
+123	4	fb:cell.country	Country	country	country	NN	O						
+124	0	fb:cell.wday	WDAY	wday	wday	NN	O						
+124	1	fb:cell.970_am	970 AM	970|am	970|AM	CD|VBD-AUX	NUMBER|O	970.0|	970.0				
+124	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+124	3	fb:cell.forum_communications	Forum Communications	forum|communications	Forum|Communications	NNP|NNPS	O|O	|				Forum Communications	fb:part.forum_communications
+124	4	fb:cell.news_talk_information	News Talk Information	news|talk|information	news|talk|information	NN|NN|NN	O|O|O	||					
+125	0	fb:cell.wday_fm	WDAY-FM	wday|fm	WDAY|FM	NNP|NNP	O|O	|					
+125	1	fb:cell.93_7_fm	93.7 FM	93.7|fm	93.7|fm	CD|NN	NUMBER|O	93.7|	93.7				
+125	2	fb:cell.fargo	Fargo	fargo	Fargo	NNP	PERSON						
+125	3	fb:cell.midwest_communications_inc	Midwest Communications, Inc.	midwest|communications|,|inc.|.	Midwest|Communications|,|Inc.|.	NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Midwest Communications|Inc.	fb:part.midwest_communications|fb:part.inc
+125	4	fb:cell.pop_contemporary_hit_radio	Pop Contemporary Hit Radio	pop|contemporary|hit|radio	pop|Contemporary|hit|radio	NN|NNP|VBD|NN	O|O|O|O	|||					

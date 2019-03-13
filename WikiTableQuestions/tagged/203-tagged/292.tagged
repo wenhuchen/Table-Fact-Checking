@@ -1,0 +1,586 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.payload_type_pt	Payload type (PT)	payload|type|-lrb-|pt|-rrb-	payload|type|-lrb-|pt|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	1	fb:row.row.name	Name	name	name	VB	O						
+-1	2	fb:row.row.type	Type	type	type	NN	O						
+-1	3	fb:row.row.no_of_channels	No. of channels	no|.|of|channels	no|.|of|channel	DT|.|IN|NNS	O|O|O|O	|||					
+-1	4	fb:row.row.clock_rate_hz	Clock rate (Hz)	clock|rate|-lrb-|hz|-rrb-	clock|rate|-lrb-|hz|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	5	fb:row.row.frame_size_ms	Frame size (ms)	frame|size|-lrb-|ms|-rrb-	frame|size|-lrb-|m|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	6	fb:row.row.default_packet_size_ms	Default packet size (ms)	default|packet|size|-lrb-|ms|-rrb-	Default|packet|size|-lrb-|m|-rrb-	NNP|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	7	fb:row.row.description	Description	description	description	NN	O						
+-1	8	fb:row.row.references	References	references	reference	NNS	O						
+0	0	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+0	1	fb:cell.pcmu	PCMU	pcmu	pcmu	NN	O						
+0	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+0	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+0	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+0	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+0	7	fb:cell.itu_t_g_711_pcm_law_audio_64_kbit_s	ITU-T G.711 PCM µ-Law Audio 64 kbit/s	itu|t|g.|711|pcm|µ|law|audio|64|kbit\\/s	ITU|t|G.|711|PCM|µ|Law|Audio|64|kbit\\/s	NNP|NN|NNP|CD|NNP|NNP|NNP|NNP|CD|NNS	ORGANIZATION|O|O|NUMBER|O|O|O|O|NUMBER|O	|||711.0|||||64.0|	0.711		64.0	ITU-T G.711 PCM µ-Law Audio 64 kbit|s	fb:part.itu_t_g_711_pcm_law_audio_64_kbit|fb:part.s
+0	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+1	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	1	fb:cell.reserved_previously_1016	reserved (previously 1016)	reserved|-lrb-|previously|1016|-rrb-	reserve|-lrb-|previously|1016|-rrb-	VBN|-LRB-|RB|CD|-RRB-	O|O|DATE|DATE|O	||PAST_REF|PAST_REF|	1016.0				
+1	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+1	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+1	5	fb:cell.null											fb:part.null
+1	6	fb:cell.null											fb:part.null
+1	7	fb:cell.reserved_previously_celp_audio_4_8_kbit_s	reserved, previously CELP Audio 4.8 kbit/s	reserved|,|previously|celp|audio|4.8|kbit\\/s	reserve|,|previously|CELP|Audio|4.8|kbit\\/s	VBN|,|RB|NNP|NNP|CD|NNS	O|O|DATE|O|O|NUMBER|O	||PAST_REF|||4.8|	4.8			reserved|previously CELP Audio 4.8 kbit|s	fb:part.reserved|fb:part.previously_celp_audio_4_8_kbit|fb:part.s
+1	8	fb:cell.rfc_3551_previously_rfc_1890	RFC 3551, previously RFC 1890	rfc|3551|,|previously|rfc|1890	RFC|3551|,|previously|RFC|1890	NNP|CD|,|RB|NNP|CD	O|NUMBER|O|DATE|DATE|DATE	|3551.0||PAST_REF|PAST_REF|1890	3551.0		1890.0	RFC 3551|previously RFC 1890	fb:part.rfc_3551|fb:part.previously_rfc_1890
+2	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+2	1	fb:cell.reserved_previously_g721	reserved (previously G721)	reserved|-lrb-|previously|g721|-rrb-	reserve|-lrb-|previously|g721|-rrb-	VBN|-LRB-|RB|NN|-RRB-	O|O|DATE|O|O	||PAST_REF||	721.0				
+2	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+2	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+2	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+2	5	fb:cell.null											fb:part.null
+2	6	fb:cell.null											fb:part.null
+2	7	fb:cell.reserved_previously_itu_t_g_721_adpcm_audio_32_kbit_s	reserved, previously ITU-T G.721 ADPCM Audio 32 kbit/s	reserved|,|previously|itu|t|g.|721|adpcm|audio|32|kbit\\/s	reserve|,|previously|ITU|t|G.|721|ADPCM|Audio|32|kbit\\/s	VBN|,|RB|NNP|NN|NNP|CD|NNP|NNP|CD|NNS	O|O|DATE|ORGANIZATION|O|O|NUMBER|O|O|NUMBER|O	||PAST_REF||||721.0|||32.0|	0.721		32.0	reserved|previously ITU-T G.721 ADPCM Audio 32 kbit|s	fb:part.reserved|fb:part.previously_itu_t_g_721_adpcm_audio_32_kbit|fb:part.s
+2	8	fb:cell.rfc_3551_previously_rfc_1890	RFC 3551, previously RFC 1890	rfc|3551|,|previously|rfc|1890	RFC|3551|,|previously|RFC|1890	NNP|CD|,|RB|NNP|CD	O|NUMBER|O|DATE|DATE|DATE	|3551.0||PAST_REF|PAST_REF|1890	3551.0		1890.0	RFC 3551|previously RFC 1890	fb:part.rfc_3551|fb:part.previously_rfc_1890
+3	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+3	1	fb:cell.gsm	GSM	gsm	gsm	NN	O						
+3	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+3	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+3	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+3	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+3	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+3	7	fb:cell.european_gsm_full_rate_audio_13_kbit_s_gsm_06_10	European GSM Full Rate Audio 13 kbit/s (GSM 06.10)	european|gsm|full|rate|audio|13|kbit\\/s|-lrb-|gsm|06.10|-rrb-	european|GSM|full|rate|Audio|13|kbit\\/s|-lrb-|gsm|06.10|-rrb-	JJ|NNP|JJ|NN|NNP|CD|NNS|-LRB-|NN|CD|-RRB-	O|O|O|O|O|NUMBER|O|O|O|NUMBER|O	|||||13.0||||6.1|	13.0		6.1	European GSM Full Rate Audio 13 kbit|s (GSM 06.10)	fb:part.european_gsm_full_rate_audio_13_kbit|fb:part.s_gsm_06_10
+3	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+4	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+4	1	fb:cell.g723	G723	g723	g723	NN	O		723.0				
+4	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+4	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+4	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+4	5	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0			30	fb:part.30
+4	6	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0			30	fb:part.30
+4	7	fb:cell.itu_t_g_723_1	ITU-T G.723.1	itu|t|g.|723.1	ITU|t|G.|723.1	NNP|NN|NNP|CD	O|O|O|NUMBER	|||723.1	0.723		0.1	ITU-T G.723.1	fb:part.itu_t_g_723_1
+4	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+5	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+5	1	fb:cell.dvi4	DVI4	dvi4	dvi4	NN	O		4.0				
+5	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+5	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+5	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+5	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+5	7	fb:cell.ima_adpcm_audio_32_kbit_s	IMA ADPCM Audio 32 kbit/s	ima|adpcm|audio|32|kbit\\/s	IMA|ADPCM|Audio|32|kbit\\/s	NNP|NNP|NNP|CD|NNS	O|O|O|NUMBER|O	|||32.0|	32.0			IMA ADPCM Audio 32 kbit|s	fb:part.ima_adpcm_audio_32_kbit|fb:part.s
+5	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+6	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+6	1	fb:cell.dvi4	DVI4	dvi4	dvi4	NN	O		4.0				
+6	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+6	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+6	4	fb:cell.16000	16000	16000	16000	CD	NUMBER	16000.0	16000.0			16000	fb:part.16000
+6	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+6	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+6	7	fb:cell.ima_adpcm_64_kbit_s	IMA ADPCM 64 kbit/s	ima|adpcm|64|kbit\\/s	IMA|ADPCM|64|kbit\\/s	NNP|NNP|CD|NNS	O|O|NUMBER|O	||64.0|	64.0			IMA ADPCM 64 kbit|s	fb:part.ima_adpcm_64_kbit|fb:part.s
+6	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+7	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+7	1	fb:cell.lpc	LPC	lpc	lpc	NN	O						
+7	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+7	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+7	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+7	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+7	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+7	7	fb:cell.experimental_linear_predictive_coding_audio	Experimental Linear Predictive Coding Audio	experimental|linear|predictive|coding|audio	experimental|Linear|Predictive|Coding|Audio	JJ|NNP|NNP|NNP|NNP	O|O|O|O|O	||||				Experimental Linear Predictive Coding Audio	fb:part.experimental_linear_predictive_coding_audio
+7	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+8	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+8	1	fb:cell.pcma	PCMA	pcma	pcma	NN	O						
+8	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+8	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+8	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+8	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+8	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+8	7	fb:cell.itu_t_g_711_pcm_a_law_audio_64_kbit_s	ITU-T G.711 PCM A-Law Audio 64 kbit/s	itu|t|g.|711|pcm|a|law|audio|64|kbit\\/s	ITU|t|G.|711|PCM|A|Law|Audio|64|kbit\\/s	NNP|NN|NNP|CD|NNP|NNP|NNP|NNP|CD|NNS	ORGANIZATION|O|O|NUMBER|O|O|O|O|NUMBER|O	|||711.0|||||64.0|	0.711		64.0	ITU-T G.711 PCM A-Law Audio 64 kbit|s	fb:part.itu_t_g_711_pcm_a_law_audio_64_kbit|fb:part.s
+8	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+9	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+9	1	fb:cell.g722	G722	g722	g722	NN	O		722.0				
+9	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+9	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+9	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+9	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+9	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+9	7	fb:cell.itu_t_g_722_audio	ITU-T G.722 Audio	itu|t|g.|722|audio	ITU|t|G.|722|Audio	NNP|NN|NNP|CD|NNP	O|O|O|NUMBER|O	|||722.0|	0.722			ITU-T G.722 Audio	fb:part.itu_t_g_722_audio
+9	8	fb:cell.rfc_3551_page_14	RFC 3551 - Page 14	rfc|3551|-|page|14	RFC|3551|-|Page|14	NNP|CD|:|NNP|CD	O|DATE|O|O|NUMBER	|3551|||14.0	3551.0		14.0	RFC 3551 - Page 14	fb:part.rfc_3551_page_14
+10	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+10	1	fb:cell.l16	L16	l16	l16	NN	O		16.0				
+10	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+10	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+10	4	fb:cell.44100	44100	44100	44100	CD	NUMBER	44100.0	44100.0			44100	fb:part.44100
+10	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+10	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+10	7	fb:cell.linear_pcm_16_bit_stereo_audio_1411_2_kbit_s_uncompressed	Linear PCM 16-bit Stereo Audio 1411.2 kbit/s, uncompressed	linear|pcm|16|bit|stereo|audio|1411.2|kbit\\/s|,|uncompressed	linear|pcm|16|bit|Stereo|Audio|1411.2|kbit\\/s|,|uncompressed	JJ|NN|CD|NN|NNP|NNP|CD|NNS|,|JJ	O|O|NUMBER|O|O|O|NUMBER|O|O|O	||16.0||||1411.2|||	16.0		1411.2	Linear PCM 16-bit Stereo Audio 1411.2 kbit|s|uncompressed	fb:part.linear_pcm_16_bit_stereo_audio_1411_2_kbit|fb:part.s|fb:part.uncompressed
+10	8	fb:cell.rfc_3551_page_27	RFC 3551, Page 27	rfc|3551|,|page|27	RFC|3551|,|Page|27	NNP|CD|,|NNP|CD	O|DATE|O|O|NUMBER	|3551|||27.0	3551.0		27.0	RFC 3551|Page 27	fb:part.rfc_3551|fb:part.page_27
+11	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+11	1	fb:cell.l16	L16	l16	l16	NN	O		16.0				
+11	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+11	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+11	4	fb:cell.44100	44100	44100	44100	CD	NUMBER	44100.0	44100.0			44100	fb:part.44100
+11	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+11	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+11	7	fb:cell.linear_pcm_16_bit_audio_705_6_kbit_s_uncompressed	Linear PCM 16-bit Audio 705.6 kbit/s, uncompressed	linear|pcm|16|bit|audio|705.6|kbit\\/s|,|uncompressed	linear|pcm|16|bit|audio|705.6|kbit\\/s|,|uncompressed	JJ|NN|CD|NN|JJ|CD|NNS|,|JJ	O|O|NUMBER|O|O|NUMBER|O|O|O	||16.0|||705.6|||	16.0		705.6	Linear PCM 16-bit Audio 705.6 kbit|s|uncompressed	fb:part.linear_pcm_16_bit_audio_705_6_kbit|fb:part.s|fb:part.uncompressed
+11	8	fb:cell.rfc_3551_page_27	RFC 3551, Page 27	rfc|3551|,|page|27	RFC|3551|,|Page|27	NNP|CD|,|NNP|CD	O|DATE|O|O|NUMBER	|3551|||27.0	3551.0		27.0	RFC 3551|Page 27	fb:part.rfc_3551|fb:part.page_27
+12	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+12	1	fb:cell.qcelp	QCELP	qcelp	qcelp	NN	O						
+12	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+12	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+12	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+12	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+12	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+12	7	fb:cell.qualcomm_code_excited_linear_prediction	Qualcomm Code Excited Linear Prediction	qualcomm|code|excited|linear|prediction	Qualcomm|Code|Excited|Linear|prediction	NNP|NNP|NNP|NNP|NN	O|O|O|O|O	||||				Qualcomm Code Excited Linear Prediction	fb:part.qualcomm_code_excited_linear_prediction
+12	8	fb:cell.rfc_2658_rfc_3551	RFC 2658, RFC 3551	rfc|2658|,|rfc|3551	RFC|2658|,|RFC|3551	NNP|CD|,|NNP|CD	O|DATE|O|O|NUMBER	|2658|||3551.0	2658.0		3551.0	RFC 2658|RFC 3551	fb:part.rfc_2658|fb:part.rfc_3551
+13	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+13	1	fb:cell.cn	CN	cn	cn	NN	O						
+13	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+13	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+13	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+13	5	fb:cell.null											fb:part.null
+13	6	fb:cell.null											fb:part.null
+13	7	fb:cell.comfort_noise_payload_type_used_with_audio_codecs_that_do_not_support_comfort_noise_as_part_of_the_codec_itself_such_as_g_711_g_722_1_g_722_g_726_g_727_g_728_gsm_06_10_siren_and_rtaudio	Comfort noise. Payload type used with audio codecs that do not support comfort noise as part of the codec itself such as G.711, G.722.1, G.722, G.726, G.727, G.728, GSM 06.10, Siren, and RTAudio.	comfort|noise|.|payload|type|used|with|audio|codecs|that|do|not|support|comfort|noise|as|part|of|the|codec|itself|such|as|g.|711|,|g.|722.1|,|g.|722|,|g.|726|,|g.|727|,|g.|728|,|gsm|06.10|,|siren|,|and|rtaudio|.	comfort|noise|.|payload|type|use|with|audio|codec|that|do|not|support|comfort|noise|as|part|of|the|codec|itself|such|as|G.|711|,|G.|722.1|,|G.|722|,|G.|726|,|G.|727|,|G.|728|,|GSM|06.10|,|Siren|,|and|rtaudio|.	NN|NN|.|NN|NN|VBN|IN|JJ|NNS|WDT|VBD-AUX|RB|VB|NN|NN|IN|NN|IN|DT|NN|PRP|JJ|IN|NNP|CD|,|NNP|CD|,|NNP|CD|,|NNP|CD|,|NNP|NNP|,|NNP|CD|,|NNP|CD|,|NNP|,|CC|NN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O	||||||||||||||||||||||||711.0|||722.1|||722.0|||726.0|||727.0|||728.0|||6.1||||||				Comfort noise. Payload type used with audio codecs that do not support comfort noise as part of the codec itself such as G.711|G.722.1|G.722|G.726|G.727|G.728|GSM 06.10|Siren|and RTAudio.	fb:part.comfort_noise_payload_type_used_with_audio_codecs_that_do_not_support_comfort_noise_as_part_of_the_codec_itself_such_as_g_711|fb:part.g_722_1|fb:part.g_722|fb:part.g_726|fb:part.g_727|fb:part.g_728|fb:part.gsm_06_10|fb:part.siren|fb:part.and_rtaudio
+13	8	fb:cell.rfc_3389	RFC 3389	rfc|3389	RFC|3389	NNP|CD	O|DATE	|3389	3389.0			RFC 3389	fb:part.rfc_3389
+14	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+14	1	fb:cell.mpa	MPA	mpa	mpa	NN	O						
+14	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+14	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+14	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+14	5	fb:cell.null											fb:part.null
+14	6	fb:cell.null											fb:part.null
+14	7	fb:cell.mpeg_1_or_mpeg_2_audio_only	MPEG-1 or MPEG-2 Audio Only	mpeg-1|or|mpeg-2|audio|only	mpeg-1|or|mpeg-2|Audio|only	NN|CC|NN|NNP|RB	O|O|O|O|O	||||	1.0		2.0	MPEG-1 or MPEG-2 Audio Only	fb:part.mpeg_1_or_mpeg_2_audio_only
+14	8	fb:cell.rfc_3551_rfc_2250	RFC 3551, RFC 2250	rfc|3551|,|rfc|2250	RFC|3551|,|RFC|2250	NNP|CD|,|NNP|CD	O|NUMBER|O|O|DATE	|3551.0|||2250	3551.0		2250.0	RFC 3551|RFC 2250	fb:part.rfc_3551|fb:part.rfc_2250
+15	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+15	1	fb:cell.g728	G728	g728	g728	NN	O		728.0				
+15	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+15	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+15	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+15	5	fb:cell.2_5	2.5	2.5	2.5	CD	NUMBER	2.5	2.5			2.5	fb:part.2_5
+15	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+15	7	fb:cell.itu_t_g_728_audio_16_kbit_s	ITU-T G.728 Audio 16 kbit/s	itu|t|g.|728|audio|16|kbit\\/s	ITU|t|G.|728|Audio|16|kbit\\/s	NNP|NN|NNP|CD|NNP|CD|NNS	ORGANIZATION|O|O|NUMBER|O|NUMBER|O	|||728.0||16.0|	0.728		16.0	ITU-T G.728 Audio 16 kbit|s	fb:part.itu_t_g_728_audio_16_kbit|fb:part.s
+15	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+16	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+16	1	fb:cell.dvi4	DVI4	dvi4	dvi4	NN	O		4.0				
+16	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+16	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+16	4	fb:cell.11025	11025	11025	11025	CD	NUMBER	11025.0	11025.0			11025	fb:part.11025
+16	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+16	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+16	7	fb:cell.ima_adpcm	IMA ADPCM	ima|adpcm	IMA|ADPCM	NNP|NNP	O|O	|				IMA ADPCM	fb:part.ima_adpcm
+16	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+17	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+17	1	fb:cell.dvi4	DVI4	dvi4	dvi4	NN	O		4.0				
+17	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+17	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+17	4	fb:cell.22050	22050	22050	22050	CD	NUMBER	22050.0	22050.0			22050	fb:part.22050
+17	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+17	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+17	7	fb:cell.ima_adpcm	IMA ADPCM	ima|adpcm	IMA|ADPCM	NNP|NNP	O|O	|				IMA ADPCM	fb:part.ima_adpcm
+17	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+18	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+18	1	fb:cell.g729	G729	g729	g729	NN	O		729.0				
+18	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+18	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+18	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+18	5	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+18	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+18	7	fb:cell.itu_t_g_729_and_g_729a	ITU-T G.729 and G.729a	itu|t|g.|729|and|g.|729a	ITU|t|G.|729|and|G.|729a	NNP|NN|NNP|CD|CC|NNP|NNP	ORGANIZATION|O|O|NUMBER|O|O|O	|||729.0|||	0.729		0.729	ITU-T G.729 and G.729a	fb:part.itu_t_g_729_and_g_729a
+18	8	fb:cell.rfc_3551_page_20	RFC 3551, Page 20	rfc|3551|,|page|20	RFC|3551|,|Page|20	NNP|CD|,|NNP|CD	O|NUMBER|O|O|NUMBER	|3551.0|||20.0	3551.0		20.0	RFC 3551|Page 20	fb:part.rfc_3551|fb:part.page_20
+19	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+19	1	fb:cell.celb	CELB	celb	celb	NN	O						
+19	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+19	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+19	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+19	5	fb:cell.null											fb:part.null
+19	6	fb:cell.null											fb:part.null
+19	7	fb:cell.sun_s_cellb_video_encoding	Sun's CellB Video Encoding	sun|'s|cellb|video|encoding	Sun|'s|CellB|Video|Encoding	NNP|POS|NNP|NNP|NNP	O|O|O|O|O	||||				Sun's CellB Video Encoding	fb:part.sun_s_cellb_video_encoding
+19	8	fb:cell.rfc_2029	RFC 2029	rfc|2029	RFC|2029	NNP|CD	O|DATE	|2029	2029.0			RFC 2029	fb:part.rfc_2029
+20	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+20	1	fb:cell.jpeg	JPEG	jpeg	jpeg	NN	O						
+20	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+20	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+20	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+20	5	fb:cell.null											fb:part.null
+20	6	fb:cell.null											fb:part.null
+20	7	fb:cell.jpeg_video	JPEG Video	jpeg|video	JPEG|Video	NNP|NNP	O|O	|				JPEG Video	fb:part.jpeg_video
+20	8	fb:cell.rfc_2435	RFC 2435	rfc|2435	RFC|2435	NNP|CD	O|DATE	|2435	2435.0			RFC 2435	fb:part.rfc_2435
+21	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+21	1	fb:cell.nv	NV	nv	NV	NNP	O						
+21	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+21	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+21	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+21	5	fb:cell.null											fb:part.null
+21	6	fb:cell.null											fb:part.null
+21	7	fb:cell.xerox_parc_s_network_video_nv	Xerox PARC's Network Video (nv)	xerox|parc|'s|network|video|-lrb-|nv|-rrb-	Xerox|PARC|'s|Network|Video|-lrb-|nv|-rrb-	NNP|NNP|POS|NNP|NNP|-LRB-|NN|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O|O|O|O	|||||||				Xerox PARC's Network Video (nv)	fb:part.xerox_parc_s_network_video_nv
+21	8	fb:cell.rfc_3551_page_32	RFC 3551, Page 32	rfc|3551|,|page|32	RFC|3551|,|Page|32	NNP|CD|,|NNP|CD	O|DATE|O|O|NUMBER	|3551|||32.0	3551.0		32.0	RFC 3551|Page 32	fb:part.rfc_3551|fb:part.page_32
+22	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+22	1	fb:cell.h261	H261	h261	h261	NN	O		261.0				
+22	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+22	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+22	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+22	5	fb:cell.null											fb:part.null
+22	6	fb:cell.null											fb:part.null
+22	7	fb:cell.itu_t_h_261_video	ITU-T H.261 Video	itu|t|h.|261|video	itu|t|h.|261|Video	NN|NN|NN|CD|NNP	O|O|O|NUMBER|O	|||261.0|	0.261			ITU-T H.261 Video	fb:part.itu_t_h_261_video
+22	8	fb:cell.rfc_4587	RFC 4587	rfc|4587	RFC|4587	NNP|CD	O|DATE	|4587	4587.0			RFC 4587	fb:part.rfc_4587
+23	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+23	1	fb:cell.mpv	MPV	mpv	mpv	NN	O						
+23	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+23	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+23	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+23	5	fb:cell.null											fb:part.null
+23	6	fb:cell.null											fb:part.null
+23	7	fb:cell.mpeg_1_and_mpeg_2_video	MPEG-1 and MPEG-2 Video	mpeg-1|and|mpeg-2|video	mpeg-1|and|mpeg-2|Video	NN|CC|NN|NNP	O|O|O|O	|||	1.0		2.0	MPEG-1 and MPEG-2 Video	fb:part.mpeg_1_and_mpeg_2_video
+23	8	fb:cell.rfc_2250	RFC 2250	rfc|2250	RFC|2250	NNP|CD	O|DATE	|2250	2250.0			RFC 2250	fb:part.rfc_2250
+24	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+24	1	fb:cell.mp2t	MP2T	mp2t	mp2t	NN	O		2.0				
+24	2	fb:cell.audio_video	audio/video	audio\\/video	audio\\/video	IN	O					audio|video	fb:part.audio|fb:part.video
+24	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+24	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+24	5	fb:cell.null											fb:part.null
+24	6	fb:cell.null											fb:part.null
+24	7	fb:cell.mpeg_2_transport_stream_video	MPEG-2 transport stream Video	mpeg-2|transport|stream|video	mpeg-2|transport|stream|Video	NN|NN|NN|NNP	MISC|O|O|O	|||	2.0			MPEG-2 transport stream Video	fb:part.mpeg_2_transport_stream_video
+24	8	fb:cell.rfc_2250	RFC 2250	rfc|2250	RFC|2250	NNP|CD	O|DATE	|2250	2250.0			RFC 2250	fb:part.rfc_2250
+25	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+25	1	fb:cell.h263	H263	h263	h263	NN	O		263.0				
+25	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+25	3	fb:cell.null											fb:part.null
+25	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+25	5	fb:cell.null											fb:part.null
+25	6	fb:cell.null											fb:part.null
+25	7	fb:cell.h_263_video_first_version_1996	H.263 video, first version (1996)	h.|263|video|,|first|version|-lrb-|1996|-rrb-	H.|263|video|,|first|version|-lrb-|1996|-rrb-	NNP|CD|NN|,|JJ|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|ORDINAL|O|O|DATE|O	|263.0|||1.0|||1996|	0.263		1996.0	H.263 video|first version (1996)	fb:part.h_263_video|fb:part.first_version_1996
+25	8	fb:cell.rfc_3551_rfc_2190	RFC 3551, RFC 2190	rfc|3551|,|rfc|2190	RFC|3551|,|RFC|2190	NNP|CD|,|NNP|CD	O|NUMBER|O|O|DATE	|3551.0|||2190	3551.0		2190.0	RFC 3551|RFC 2190	fb:part.rfc_3551|fb:part.rfc_2190
+26	0	fb:cell.35_71	35 - 71	35|-|71	35|-|71	CD|:|CD	NUMBER|O|DATE	35.0||71	35.0		71.0		
+26	1	fb:cell.unassigned	unassigned	unassigned	unassigned	JJ	O						
+26	2	fb:cell.null											fb:part.null
+26	3	fb:cell.null											fb:part.null
+26	4	fb:cell.null											fb:part.null
+26	5	fb:cell.null											fb:part.null
+26	6	fb:cell.null											fb:part.null
+26	7	fb:cell.null											fb:part.null
+26	8	fb:cell.rfc_3551_page_32	RFC 3551, Page 32	rfc|3551|,|page|32	RFC|3551|,|Page|32	NNP|CD|,|NNP|CD	O|DATE|O|O|NUMBER	|3551|||32.0	3551.0		32.0	RFC 3551|Page 32	fb:part.rfc_3551|fb:part.page_32
+27	0	fb:cell.72_76	72 - 76	72|-|76	72|-|76	CD|:|CD	NUMBER|O|DATE	72.0||76	72.0		76.0		
+27	1	fb:cell.reserved_for_rtcp_conflict_avoidance	Reserved for RTCP conflict avoidance	reserved|for|rtcp|conflict|avoidance	reserve|for|rtcp|conflict|avoidance	VBN|IN|NN|NN|NN	O|O|ORGANIZATION|O|O	||||					
+27	2	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+27	3	fb:cell.null											fb:part.null
+27	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+27	5	fb:cell.null											fb:part.null
+27	6	fb:cell.null											fb:part.null
+27	7	fb:cell.null											fb:part.null
+27	8	fb:cell.rfc_3551_page_32	RFC 3551, Page 32	rfc|3551|,|page|32	RFC|3551|,|Page|32	NNP|CD|,|NNP|CD	O|DATE|O|O|NUMBER	|3551|||32.0	3551.0		32.0	RFC 3551|Page 32	fb:part.rfc_3551|fb:part.page_32
+28	0	fb:cell.77_95	77 - 95	77|-|95	77|-|95	CD|:|CD	NUMBER|O|DATE	77.0||95	77.0		95.0		
+28	1	fb:cell.unassigned	unassigned	unassigned	unassigned	JJ	O						
+28	2	fb:cell.null											fb:part.null
+28	3	fb:cell.null											fb:part.null
+28	4	fb:cell.null											fb:part.null
+28	5	fb:cell.null											fb:part.null
+28	6	fb:cell.null											fb:part.null
+28	7	fb:cell.null											fb:part.null
+28	8	fb:cell.rfc_3551_page_32	RFC 3551, Page 32	rfc|3551|,|page|32	RFC|3551|,|Page|32	NNP|CD|,|NNP|CD	O|DATE|O|O|NUMBER	|3551|||32.0	3551.0		32.0	RFC 3551|Page 32	fb:part.rfc_3551|fb:part.page_32
+29	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+29	1	fb:cell.h263_1998	H263-1998	h263-1998	h263-1998	NN	O		263.0		1998.0		
+29	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+29	3	fb:cell.null											fb:part.null
+29	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+29	5	fb:cell.null											fb:part.null
+29	6	fb:cell.null											fb:part.null
+29	7	fb:cell.h_263_video_second_version_1998	H.263 video, second version (1998)	h.|263|video|,|second|version|-lrb-|1998|-rrb-	H.|263|video|,|second|version|-lrb-|1998|-rrb-	NNP|CD|NN|,|JJ|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|ORDINAL|O|O|DATE|O	|263.0|||2.0|||1998|	0.263		1998.0	H.263 video|second version (1998)	fb:part.h_263_video|fb:part.second_version_1998
+29	8	fb:cell.rfc_3551_rfc_4629_rfc_2190	RFC 3551, RFC 4629, RFC 2190	rfc|3551|,|rfc|4629|,|rfc|2190	RFC|3551|,|RFC|4629|,|RFC|2190	NNP|CD|,|NNP|CD|,|NNP|CD	O|NUMBER|O|O|NUMBER|O|O|DATE	|3551.0|||4629.0|||2190	3551.0		4629.0	RFC 3551|RFC 4629|RFC 2190	fb:part.rfc_3551|fb:part.rfc_4629|fb:part.rfc_2190
+30	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+30	1	fb:cell.h263_2000	H263-2000	h263-2000	h263-2000	NN	O		263.0		2000.0		
+30	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+30	3	fb:cell.null											fb:part.null
+30	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+30	5	fb:cell.null											fb:part.null
+30	6	fb:cell.null											fb:part.null
+30	7	fb:cell.h_263_video_third_version_2000	H.263 video, third version (2000)	h.|263|video|,|third|version|-lrb-|2000|-rrb-	H.|263|video|,|third|version|-lrb-|2000|-rrb-	NNP|CD|NN|,|JJ|NN|-LRB-|CD|-RRB-	O|NUMBER|O|O|ORDINAL|O|O|DATE|O	|263.0|||3.0|||2000|	0.263		2000.0	H.263 video|third version (2000)	fb:part.h_263_video|fb:part.third_version_2000
+30	8	fb:cell.rfc_4629	RFC 4629	rfc|4629	RFC|4629	NNP|CD	O|DATE	|4629	4629.0			RFC 4629	fb:part.rfc_4629
+31	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+31	1	fb:cell.h264	H264	h264	h264	NN	O		264.0				
+31	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+31	3	fb:cell.null											fb:part.null
+31	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+31	5	fb:cell.null											fb:part.null
+31	6	fb:cell.null											fb:part.null
+31	7	fb:cell.h_264_video_mpeg_4_part_10	H.264 video (MPEG-4 Part 10)	h.|264|video|-lrb-|mpeg-4|part|10|-rrb-	H.|264|video|-lrb-|mpeg-4|part|10|-rrb-	NNP|CD|NN|-LRB-|NN|NN|CD|-RRB-	O|NUMBER|O|O|O|O|NUMBER|O	|264.0|||||10.0|	0.264		4.0	H.264 video (MPEG-4 Part 10)	fb:part.h_264_video_mpeg_4_part_10
+31	8	fb:cell.rfc_6184_previously_rfc_3984	RFC 6184, previously RFC 3984	rfc|6184|,|previously|rfc|3984	RFC|6184|,|previously|RFC|3984	NNP|CD|,|RB|NNP|CD	O|NUMBER|O|DATE|O|NUMBER	|6184.0||PAST_REF||3984.0	6184.0		3984.0	RFC 6184|previously RFC 3984	fb:part.rfc_6184|fb:part.previously_rfc_3984
+32	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+32	1	fb:cell.theora	theora	theora	theora	NN	O						
+32	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+32	3	fb:cell.null											fb:part.null
+32	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+32	5	fb:cell.null											fb:part.null
+32	6	fb:cell.null											fb:part.null
+32	7	fb:cell.theora_video	Theora video	theora|video	Theora|video	NNP|NN	O|O	|				Theora video	fb:part.theora_video
+32	8	fb:cell.draft_barbato_avt_rtp_theora_01	draft-barbato-avt-rtp-theora-01	draft|barbato|avt|rtp|theora-01	draft|barbato|avt|rtp|theora-01	NN|NN|NN|NN|NN	O|O|O|O|O	||||	1.0			draft-barbato-avt-rtp-theora-01	fb:part.draft_barbato_avt_rtp_theora_01
+33	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+33	1	fb:cell.ilbc	iLBC	ilbc	ilbc	NN	O						
+33	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+33	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+33	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+33	5	fb:cell.20_or_30	20 or 30	20|or|30	20|or|30	CD|CC|CD	NUMBER|O|NUMBER	20.0||30.0	20.0		30.0	20 or 30	fb:part.20_or_30
+33	6	fb:cell.20_or_30_respectively	20 or 30, respectively	20|or|30|,|respectively	20|or|30|,|respectively	CD|CC|CD|,|RB	NUMBER|O|NUMBER|O|O	20.0||30.0||	20.0		30.0	20 or 30|respectively	fb:part.20_or_30|fb:part.respectively
+33	7	fb:cell.internet_low_bitrate_codec_13_33_or_15_2_kbit_s	Internet low Bitrate Codec 13.33 or 15.2 kbit/s	internet|low|bitrate|codec|13.33|or|15.2|kbit\\/s	internet|low|Bitrate|Codec|13.33|or|15.2|kbit\\/s	NN|JJ|NNP|NNP|CD|CC|CD|NNS	MISC|O|O|O|NUMBER|O|NUMBER|O	||||13.33||15.2|	13.33		15.2	Internet low Bitrate Codec 13.33 or 15.2 kbit|s	fb:part.internet_low_bitrate_codec_13_33_or_15_2_kbit|fb:part.s
+33	8	fb:cell.rfc_3952	RFC 3952	rfc|3952	RFC|3952	NNP|CD	O|NUMBER	|3952.0	3952.0			RFC 3952	fb:part.rfc_3952
+34	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+34	1	fb:cell.pcma_wb	PCMA-WB	pcma|wb	PCMA|WB	NNP|NNP	O|O	|					
+34	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+34	3	fb:cell.null											fb:part.null
+34	4	fb:cell.16000	16000	16000	16000	CD	NUMBER	16000.0	16000.0			16000	fb:part.16000
+34	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+34	6	fb:cell.null											fb:part.null
+34	7	fb:cell.itu_t_g_711_1_a_law	ITU-T G.711.1, A-law	itu|t|g.|711.1|,|a|law	ITU|t|G.|711.1|,|a|law	NNP|NN|NNP|CD|,|DT|NN	ORGANIZATION|O|O|NUMBER|O|O|O	|||711.1|||	0.711		0.1	ITU-T G.711.1|A-law	fb:part.itu_t_g_711_1|fb:part.a_law
+34	8	fb:cell.rfc_5391	RFC 5391	rfc|5391	RFC|5391	NNP|CD	O|NUMBER	|5391.0	5391.0			RFC 5391	fb:part.rfc_5391
+35	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+35	1	fb:cell.pcmu_wb	PCMU-WB	pcmu|wb	PCMU|WB	NNP|NNP	O|O	|					
+35	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+35	3	fb:cell.null											fb:part.null
+35	4	fb:cell.16000	16000	16000	16000	CD	NUMBER	16000.0	16000.0			16000	fb:part.16000
+35	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+35	6	fb:cell.null											fb:part.null
+35	7	fb:cell.itu_t_g_711_1_law	ITU-T G.711.1, µ-law	itu|t|g.|711.1|,|µ|law	ITU|t|G.|711.1|,|µ|law	NNP|NN|NNP|CD|,|NN|NN	ORGANIZATION|O|O|NUMBER|O|O|O	|||711.1|||	0.711		0.1	ITU-T G.711.1|µ-law	fb:part.itu_t_g_711_1|fb:part._law
+35	8	fb:cell.rfc_5391	RFC 5391	rfc|5391	RFC|5391	NNP|CD	O|NUMBER	|5391.0	5391.0			RFC 5391	fb:part.rfc_5391
+36	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+36	1	fb:cell.g718	G718	g718	g718	NN	O		718.0				
+36	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+36	3	fb:cell.null											fb:part.null
+36	4	fb:cell.32000_placeholder	32000 (placeholder)	32000|-lrb-|placeholder|-rrb-	32000|-lrb-|placeholder|-rrb-	CD|-LRB-|NN|-RRB-	NUMBER|O|O|O	32000.0|||	32000.0			32000 (placeholder)	fb:part.32000_placeholder
+36	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+36	6	fb:cell.null											fb:part.null
+36	7	fb:cell.itu_t_g_718	ITU-T G.718	itu|t|g.|718	ITU|t|G.|718	NNP|NN|NNP|CD	O|O|O|NUMBER	|||718.0	0.718			ITU-T G.718	fb:part.itu_t_g_718
+36	8	fb:cell.draft_ietf_avt_rtp_g718_03	draft-ietf-avt-rtp-g718-03	draft|ietf|avt|rtp|g718-03	draft|ietf|avt|rtp|g718-03	NN|NN|NN|NN|NN	O|O|O|O|O	||||	718.0		3.0	draft-ietf-avt-rtp-g718-03	fb:part.draft_ietf_avt_rtp_g718_03
+37	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+37	1	fb:cell.g719	G719	g719	g719	NN	O		719.0				
+37	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+37	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+37	4	fb:cell.48000	48000	48000	48000	CD	NUMBER	48000.0	48000.0			48000	fb:part.48000
+37	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+37	6	fb:cell.null											fb:part.null
+37	7	fb:cell.itu_t_g_719	ITU-T G.719	itu|t|g.|719	ITU|t|G.|719	NNP|NN|NNP|CD	O|O|O|NUMBER	|||719.0	0.719			ITU-T G.719	fb:part.itu_t_g_719
+37	8	fb:cell.rfc_5404	RFC 5404	rfc|5404	RFC|5404	NNP|CD	O|NUMBER	|5404.0	5404.0			RFC 5404	fb:part.rfc_5404
+38	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+38	1	fb:cell.g7221	G7221	g7221	g7221	NN	O		7221.0				
+38	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+38	3	fb:cell.null											fb:part.null
+38	4	fb:cell.32000_16000	32000, 16000	32000|,|16000	32000|,|16000	CD|,|CD	NUMBER|O|NUMBER	32000.0||16000.0	3.200016E9			32000|16000	fb:part.32000|fb:part.16000
+38	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+38	6	fb:cell.null											fb:part.null
+38	7	fb:cell.itu_t_g_722_1	ITU-T G.722.1	itu|t|g.|722.1	ITU|t|G.|722.1	NNP|NN|NNP|CD	O|O|O|NUMBER	|||722.1	0.722		0.1	ITU-T G.722.1	fb:part.itu_t_g_722_1
+38	8	fb:cell.rfc_5577	RFC 5577	rfc|5577	RFC|5577	NNP|CD	O|NUMBER	|5577.0	5577.0			RFC 5577	fb:part.rfc_5577
+39	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+39	1	fb:cell.g726_16	G726-16	g726-16	g726-16	NN	O		726.0		16.0		
+39	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+39	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+39	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+39	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+39	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+39	7	fb:cell.itu_t_g_726_audio_with_16_kbit_s	ITU-T G.726 audio with 16 kbit/s	itu|t|g.|726|audio|with|16|kbit\\/s	ITU|t|G.|726|audio|with|16|kbit\\/s	NNP|NN|NNP|CD|NN|IN|CD|NNS	ORGANIZATION|O|O|NUMBER|O|O|NUMBER|O	|||726.0|||16.0|	0.726		16.0	ITU-T G.726 audio with 16 kbit|s	fb:part.itu_t_g_726_audio_with_16_kbit|fb:part.s
+39	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+40	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+40	1	fb:cell.g726_24	G726-24	g726-24	g726-24	NN	O		726.0		24.0		
+40	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+40	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+40	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+40	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+40	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+40	7	fb:cell.itu_t_g_726_audio_with_24_kbit_s	ITU-T G.726 audio with 24 kbit/s	itu|t|g.|726|audio|with|24|kbit\\/s	ITU|t|G.|726|audio|with|24|kbit\\/s	NNP|NN|NNP|CD|NN|IN|CD|NNS	ORGANIZATION|O|O|NUMBER|O|O|NUMBER|O	|||726.0|||24.0|	0.726		24.0	ITU-T G.726 audio with 24 kbit|s	fb:part.itu_t_g_726_audio_with_24_kbit|fb:part.s
+40	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+41	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+41	1	fb:cell.g726_32	G726-32	g726-32	g726-32	NN	O		726.0		32.0		
+41	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+41	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+41	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+41	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+41	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+41	7	fb:cell.itu_t_g_726_audio_with_32_kbit_s	ITU-T G.726 audio with 32 kbit/s	itu|t|g.|726|audio|with|32|kbit\\/s	ITU|t|G.|726|audio|with|32|kbit\\/s	NNP|NN|NNP|CD|NN|IN|CD|NNS	ORGANIZATION|O|O|NUMBER|O|O|NUMBER|O	|||726.0|||32.0|	0.726		32.0	ITU-T G.726 audio with 32 kbit|s	fb:part.itu_t_g_726_audio_with_32_kbit|fb:part.s
+41	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+42	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+42	1	fb:cell.g726_40	G726-40	g726-40	g726-40	NN	O		726.0		40.0		
+42	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+42	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+42	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+42	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+42	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+42	7	fb:cell.itu_t_g_726_audio_with_40_kbit_s	ITU-T G.726 audio with 40 kbit/s	itu|t|g.|726|audio|with|40|kbit\\/s	ITU|t|G.|726|audio|with|40|kbit\\/s	NNP|NN|NNP|CD|NN|IN|CD|NNS	ORGANIZATION|O|O|NUMBER|O|O|NUMBER|O	|||726.0|||40.0|	0.726		40.0	ITU-T G.726 audio with 40 kbit|s	fb:part.itu_t_g_726_audio_with_40_kbit|fb:part.s
+42	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+43	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+43	1	fb:cell.g729d	G729D	g729d	g729d	NN	O		729.0				
+43	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+43	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+43	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+43	5	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+43	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+43	7	fb:cell.itu_t_g_729_annex_d	ITU-T G.729 Annex D	itu|t|g.|729|annex|d	ITU|t|G.|729|annex|d	NNP|NN|NNP|CD|NN|NN	O|O|O|NUMBER|O|O	|||729.0||	0.729			ITU-T G.729 Annex D	fb:part.itu_t_g_729_annex_d
+43	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+44	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+44	1	fb:cell.g729e	G729E	g729e	g729e	NN	O		729.0				
+44	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+44	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+44	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+44	5	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+44	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+44	7	fb:cell.itu_t_g_729_annex_e	ITU-T G.729 Annex E	itu|t|g.|729|annex|e	ITU|t|G.|729|Annex|e	NNP|NN|NNP|CD|NNP|NN	ORGANIZATION|O|O|NUMBER|O|O	|||729.0||	0.729			ITU-T G.729 Annex E	fb:part.itu_t_g_729_annex_e
+44	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+45	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+45	1	fb:cell.g7291	G7291	g7291	g7291	NN	O		7291.0				
+45	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+45	3	fb:cell.null											fb:part.null
+45	4	fb:cell.16000	16000	16000	16000	CD	NUMBER	16000.0	16000.0			16000	fb:part.16000
+45	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+45	6	fb:cell.null											fb:part.null
+45	7	fb:cell.itu_t_g_729_1	ITU-T G.729.1	itu|t|g.|729.1	ITU|t|G.|729.1	NNP|NN|NNP|CD	O|O|O|NUMBER	|||729.1	0.729		0.1	ITU-T G.729.1	fb:part.itu_t_g_729_1
+45	8	fb:cell.rfc_4749	RFC 4749	rfc|4749	RFC|4749	NNP|CD	O|DATE	|4749	4749.0			RFC 4749	fb:part.rfc_4749
+46	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+46	1	fb:cell.gsm_efr	GSM-EFR	gsm|efr	GSM|EFR	NNP|NNP	O|O	|					
+46	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+46	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+46	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+46	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+46	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+46	7	fb:cell.itu_t_gsm_efr_gsm_06_60	ITU-T GSM-EFR (GSM 06.60)	itu|t|gsm|efr|-lrb-|gsm|06.60|-rrb-	itu|t|gsm|efr|-lrb-|gsm|06.60|-rrb-	NN|NN|NN|NN|-LRB-|NN|CD|-RRB-	ORGANIZATION|O|O|O|O|O|NUMBER|O	||||||6.6|	6.6			ITU-T GSM-EFR (GSM 06.60)	fb:part.itu_t_gsm_efr_gsm_06_60
+46	8	fb:cell.rfc_3551	RFC 3551	rfc|3551	RFC|3551	NNP|CD	O|NUMBER	|3551.0	3551.0			RFC 3551	fb:part.rfc_3551
+47	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+47	1	fb:cell.gsm_hr_08	GSM-HR-08	gsm|hr-08	GSM|hr-08	NNP|NN	O|O	|	8.0				
+47	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+47	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+47	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+47	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+47	6	fb:cell.null											fb:part.null
+47	7	fb:cell.itu_t_gsm_hr_gsm_06_20	ITU-T GSM-HR (GSM 06.20)	itu|t|gsm|hr|-lrb-|gsm|06.20|-rrb-	ITU|t|GSM|hr|-lrb-|gsm|06.20|-rrb-	NNP|NN|NNP|NN|-LRB-|NN|CD|-RRB-	ORGANIZATION|O|O|DURATION|O|O|NUMBER|O	||||||6.2|	6.2			ITU-T GSM-HR (GSM 06.20)	fb:part.itu_t_gsm_hr_gsm_06_20
+47	8	fb:cell.rfc_5993	RFC 5993	rfc|5993	RFC|5993	NNP|CD	O|NUMBER	|5993.0	5993.0			RFC 5993	fb:part.rfc_5993
+48	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+48	1	fb:cell.amr	AMR	amr	AMR	NNP	O						
+48	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+48	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+48	4	fb:cell.8000	8000	8000	8000	CD	NUMBER	8000.0	8000.0			8000	fb:part.8000
+48	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+48	6	fb:cell.null											fb:part.null
+48	7	fb:cell.adaptive_multi_rate_audio	Adaptive Multi-Rate audio	adaptive|multi|rate|audio	adaptive|Multi|Rate|audio	JJ|NNP|NNP|NN	O|O|O|O	|||				Adaptive Multi-Rate audio	fb:part.adaptive_multi_rate_audio
+48	8	fb:cell.rfc_4867	RFC 4867	rfc|4867	RFC|4867	NNP|CD	O|NUMBER	|4867.0	4867.0			RFC 4867	fb:part.rfc_4867
+49	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+49	1	fb:cell.amr_wb	AMR-WB	amr|wb	AMR|WB	NNP|NNP	O|O	|					
+49	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+49	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+49	4	fb:cell.16000	16000	16000	16000	CD	NUMBER	16000.0	16000.0			16000	fb:part.16000
+49	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+49	6	fb:cell.null											fb:part.null
+49	7	fb:cell.adaptive_multi_rate_wideband_audio_itu_t_g_722_2	Adaptive Multi-Rate Wideband audio (ITU-T G.722.2)	adaptive|multi|rate|wideband|audio|-lrb-|itu|t|g.|722.2|-rrb-	adaptive|Multi|Rate|Wideband|audio|-lrb-|itu|t|G.|722.2|-rrb-	JJ|NNP|NNP|NNP|NN|-LRB-|NN|NN|NNP|CD|-RRB-	O|O|O|O|O|O|O|O|O|NUMBER|O	|||||||||722.2|	0.722		0.2	Adaptive Multi-Rate Wideband audio (ITU-T G.722.2)	fb:part.adaptive_multi_rate_wideband_audio_itu_t_g_722_2
+49	8	fb:cell.rfc_4867	RFC 4867	rfc|4867	RFC|4867	NNP|CD	O|NUMBER	|4867.0	4867.0			RFC 4867	fb:part.rfc_4867
+50	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+50	1	fb:cell.amr_wb_2	AMR-WB+	amr|wb|+	AMR|WB|+	NNP|NNP|CC	O|O|O	||					
+50	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+50	3	fb:cell.1_2_or_omit	1, 2 or omit	1|,|2|or|omit	1|,|2|or|omit	CD|,|CD|CC|VB	NUMBER|O|NUMBER|O|O	1.0||2.0||	12.0			1|2 or omit	fb:part.1|fb:part.2_or_omit
+50	4	fb:cell.72000	72000	72000	72000	CD	NUMBER	72000.0	72000.0			72000	fb:part.72000
+50	5	fb:cell.80_super_frame_internally_divided_in_to_transport_frames_of_13_33_14_22_15_16_17_78_20_21_33_24_26_67_30_35_55_or_40	80 (super-frame; internally divided in to transport frames of 13.33, 14.22, 15, 16, 17.78, 20, 21.33, 24, 26.67, 30, 35.55, or 40)	80|-lrb-|super|frame|;|internally|divided|in|to|transport|frames|of|13.33|,|14.22|,|15|,|16|,|17.78|,|20|,|21.33|,|24|,|26.67|,|30|,|35.55|,|or|40|-rrb-	80|-lrb-|super|frame|;|internally|divide|in|to|transport|frame|of|13.33|,|14.22|,|15|,|16|,|17.78|,|20|,|21.33|,|24|,|26.67|,|30|,|35.55|,|or|40|-rrb-	CD|-LRB-|JJ|NN|:|RB|VBN|IN|TO|VB|NNS|IN|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CC|CD|-RRB-	NUMBER|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O	80.0||||||||||||13.33||14.22||15.0||16.0||17.78||20.0||21.33||24.0||26.67||30.0||35.55|||40.0|	80.0		13.33	80 (super-frame; internally divided in to transport frames of 13.33|14.22|15|16|17.78|20|21.33|24|26.67|30|35.55|or 40)	fb:part.80_super_frame_internally_divided_in_to_transport_frames_of_13_33|fb:part.14_22|fb:part.15|fb:part.16|fb:part.17_78|fb:part.20|fb:part.21_33|fb:part.24|fb:part.26_67|fb:part.30|fb:part.35_55|fb:part.or_40
+50	6	fb:cell.null											fb:part.null
+50	7	fb:cell.extended_adaptive_multi_rate_wideband_audio	Extended Adaptive Multi Rate – WideBand audio	extended|adaptive|multi|rate|--|wideband|audio	extend|adaptive|Multi|Rate|--|WideBand|audio	VBN|JJ|NNP|NNP|:|NNP|NN	O|O|O|O|O|O|O	||||||				Extended Adaptive Multi Rate – WideBand audio	fb:part.extended_adaptive_multi_rate_wideband_audio
+50	8	fb:cell.rfc_4352	RFC 4352	rfc|4352	RFC|4352	NNP|CD	O|NUMBER	|4352.0	4352.0			RFC 4352	fb:part.rfc_4352
+51	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+51	1	fb:cell.vorbis	vorbis	vorbis	vorbi	NN	O						
+51	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+51	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+51	4	fb:cell.any_must_be_a_multiple_of_sample_rate	any (must be a multiple of sample rate)	any|-lrb-|must|be|a|multiple|of|sample|rate|-rrb-	any|-lrb-|must|be|a|multiple|of|sample|rate|-rrb-	DT|-LRB-|VBD-AUX|VBD-AUX|DT|JJ|IN|NN|NN|-RRB-	O|O|O|O|O|O|O|O|O|O	|||||||||				any (must be a multiple of sample rate)	fb:part.any_must_be_a_multiple_of_sample_rate
+51	5	fb:cell.null											fb:part.null
+51	6	fb:cell.as_many_vorbis_packets_as_fit_within_the_path_mtu_unless_it_exceeds_an_application_s_desired_transmission_latency	as many Vorbis packets as fit within the path MTU, unless it exceeds an application's desired transmission latency	as|many|vorbis|packets|as|fit|within|the|path|mtu|,|unless|it|exceeds|an|application|'s|desired|transmission|latency	as|many|Vorbis|packet|as|fit|within|the|path|MTU|,|unless|it|exceed|a|application|'s|desire|transmission|latency	RB|JJ|NNPS|NNS|IN|NN|IN|DT|NN|NNP|,|IN|PRP|VBZ|DT|NN|POS|VBN|NN|NN	O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||||				as many Vorbis packets as fit within the path MTU|unless it exceeds an application's desired transmission latency	fb:part.as_many_vorbis_packets_as_fit_within_the_path_mtu|fb:part.unless_it_exceeds_an_application_s_desired_transmission_latency
+51	7	fb:cell.rtp_payload_format_for_vorbis_encoded_audio	RTP Payload Format for Vorbis Encoded Audio	rtp|payload|format|for|vorbis|encoded|audio	RTP|Payload|Format|for|Vorbis|Encoded|Audio	NNP|NNP|NNP|IN|NNP|NNP|NNP	O|O|O|O|O|O|O	||||||				RTP Payload Format for Vorbis Encoded Audio	fb:part.rtp_payload_format_for_vorbis_encoded_audio
+51	8	fb:cell.rfc_5215	RFC 5215	rfc|5215	RFC|5215	NNP|CD	O|DATE	|5215	5215.0			RFC 5215	fb:part.rfc_5215
+52	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+52	1	fb:cell.opus	opus	opus	opus	NN	O						
+52	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+52	3	fb:cell.1_2	1, 2	1|,|2	1|,|2	CD|,|CD	NUMBER|O|NUMBER	1.0||2.0	12.0			1|2	fb:part.1|fb:part.2
+52	4	fb:cell.48000	48000	48000	48000	CD	NUMBER	48000.0	48000.0			48000	fb:part.48000
+52	5	fb:cell.2_5_5_10_20_40_or_60	2.5, 5, 10, 20, 40, or 60	2.5|,|5|,|10|,|20|,|40|,|or|60	2.5|,|5|,|10|,|20|,|40|,|or|60	CD|,|CD|,|CD|,|CD|,|CD|,|CC|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER	2.5||5.0||10.0||20.0||40.0|||60.0	2.5		5102040.0	2.5|5|10|20|40|or 60	fb:part.2_5|fb:part.5|fb:part.10|fb:part.20|fb:part.40|fb:part.or_60
+52	6	fb:cell.20_minimum_allowed_value_3_rounded_from_2_5_maximum_allowed_value_120_allowed_values_are_3_5_10_20_40_or_60_or_an_arbitrary_multiple_of_opus_frame_sizes_rounded_up_to_the_next_full_integer_value_up_to_a_maximum_value_of_120	20, minimum allowed value 3 (rounded from 2.5), maximum allowed value 120 (allowed values are 3, 5, 10, 20, 40, or 60 or an arbitrary multiple of Opus frame sizes rounded up to the next full integer value up to a maximum value of 120)	20|,|minimum|allowed|value|3|-lrb-|rounded|from|2.5|-rrb-|,|maximum|allowed|value|120|-lrb-|allowed|values|are|3|,|5|,|10|,|20|,|40|,|or|60|or|an|arbitrary|multiple|of|opus|frame|sizes|rounded|up|to|the|next|full|integer|value|up|to|a|maximum|value|of|120|-rrb-	20|,|minimum|allow|value|3|-lrb-|round|from|2.5|-rrb-|,|maximum|allow|value|120|-lrb-|allow|value|be|3|,|5|,|10|,|20|,|40|,|or|60|or|a|arbitrary|multiple|of|Opus|frame|size|round|up|to|the|next|full|integer|value|up|to|a|maximum|value|of|120|-rrb-	CD|,|NN|VBD|NN|CD|-LRB-|VBN|IN|CD|-RRB-|,|NN|VBD|NN|CD|-LRB-|VBN|NNS|VBD-AUX|CD|,|CD|,|CD|,|CD|,|CD|,|CC|CD|CC|DT|JJ|NN|IN|NNP|NN|NNS|VBD|RP|TO|DT|JJ|JJ|NN|NN|IN|TO|DT|NN|NN|IN|CD|-RRB-	NUMBER|O|O|O|O|NUMBER|O|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O	20.0|||||3.0||||2.5||||||120.0|||||3.0||5.0||10.0||20.0||40.0|||60.0|||||||||||||||||||||||120.0|	20.0		3.0	20|minimum allowed value 3 (rounded from 2.5)|maximum allowed value 120 (allowed values are 3|5|10|20|40|or 60 or an arbitrary multiple of Opus frame sizes rounded up to the next full integer value up to a maximum value of 120)	fb:part.20|fb:part.minimum_allowed_value_3_rounded_from_2_5|fb:part.maximum_allowed_value_120_allowed_values_are_3|fb:part.5|fb:part.10|fb:part.20|fb:part.40|fb:part.or_60_or_an_arbitrary_multiple_of_opus_frame_sizes_rounded_up_to_the_next_full_integer_value_up_to_a_maximum_value_of_120
+52	7	fb:cell.rtp_payload_format_for_opus_speech_and_audio_codec	RTP Payload Format for Opus Speech and Audio Codec	rtp|payload|format|for|opus|speech|and|audio|codec	RTP|Payload|Format|for|Opus|Speech|and|Audio|Codec	NNP|NNP|NNP|IN|NNP|NNP|CC|NNP|NNP	O|O|O|O|O|O|O|O|O	||||||||				RTP Payload Format for Opus Speech and Audio Codec	fb:part.rtp_payload_format_for_opus_speech_and_audio_codec
+52	8	fb:cell.draft	draft	draft	draft	NN	O					draft	fb:part.draft
+53	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+53	1	fb:cell.speex	speex	speex	speex	NN	O						
+53	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+53	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+53	4	fb:cell.8000_16000_or_32000	8000, 16000 or 32000	8000|,|16000|or|32000	8000|,|16000|or|32000	CD|,|CD|CC|CD	NUMBER|O|NUMBER|O|NUMBER	8000.0||16000.0||32000.0	8.00016E8		32000.0	8000|16000 or 32000	fb:part.8000|fb:part.16000_or_32000
+53	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+53	6	fb:cell.null											fb:part.null
+53	7	fb:cell.rtp_payload_format_for_the_speex_codec	RTP Payload Format for the Speex Codec	rtp|payload|format|for|the|speex|codec	RTP|Payload|Format|for|the|Speex|Codec	NNP|NNP|NNP|IN|DT|NNP|NNP	O|O|O|O|O|O|O	||||||				RTP Payload Format for the Speex Codec	fb:part.rtp_payload_format_for_the_speex_codec
+53	8	fb:cell.rfc_5574	RFC 5574	rfc|5574	RFC|5574	NNP|CD	O|NUMBER	|5574.0	5574.0			RFC 5574	fb:part.rfc_5574
+54	0	fb:cell.dynamic_96_127	dynamic (96-127)	dynamic|-lrb-|96-127|-rrb-	dynamic|-lrb-|96-127|-rrb-	JJ|-LRB-|CD|-RRB-	O|O|NUMBER|O	||96.0 - 127.0|	96.0		127.0		
+54	1	fb:cell.mpa_robust	mpa-robust	mpa|robust	mpa|robust	NN|JJ	O|O	|					
+54	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+54	3	fb:cell.null											fb:part.null
+54	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+54	5	fb:cell.null											fb:part.null
+54	6	fb:cell.null											fb:part.null
+54	7	fb:cell.a_more_loss_tolerant_rtp_payload_format_for_mp3_audio	A More Loss-Tolerant RTP Payload Format for MP3 Audio	a|more|loss|tolerant|rtp|payload|format|for|mp3|audio	a|more|loss|tolerant|RTP|Payload|Format|for|MP3|Audio	DT|JJR|NN|JJ|NNP|NNP|NNP|IN|NNP|NNP	O|O|O|O|O|O|O|O|O|O	|||||||||	3.0			A More Loss-Tolerant RTP Payload Format for MP3 Audio	fb:part.a_more_loss_tolerant_rtp_payload_format_for_mp3_audio
+54	8	fb:cell.rfc_5219	RFC 5219	rfc|5219	RFC|5219	NNP|CD	O|DATE	|5219	5219.0			RFC 5219	fb:part.rfc_5219
+55	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+55	1	fb:cell.mp4a_latm	MP4A-LATM	mp4a|latm	mp4a|latm	NN|NN	O|O	|	4.0				
+55	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+55	3	fb:cell.null											fb:part.null
+55	4	fb:cell.90000_or_others	90000 or others	90000|or|others	90000|or|other	CD|CC|NNS	NUMBER|O|O	90000.0||	90000.0			90000 or others	fb:part.90000_or_others
+55	5	fb:cell.null											fb:part.null
+55	6	fb:cell.recommended_same_as_frame_size	recommended same as frame size	recommended|same|as|frame|size	recommend|same|as|frame|size	VBN|JJ|IN|NN|NN	O|O|O|O|O	||||				recommended same as frame size	fb:part.recommended_same_as_frame_size
+55	7	fb:cell.rtp_payload_format_for_mpeg_4_audio	RTP Payload Format for MPEG-4 Audio	rtp|payload|format|for|mpeg-4|audio	RTP|Payload|Format|for|MPEG-4|Audio	NNP|NNP|NNP|IN|NNP|NNP	O|O|O|O|O|O	|||||	4.0			RTP Payload Format for MPEG-4 Audio	fb:part.rtp_payload_format_for_mpeg_4_audio
+55	8	fb:cell.rfc_6416_previously_rfc_3016	RFC 6416 (previously RFC 3016)	rfc|6416|-lrb-|previously|rfc|3016|-rrb-	RFC|6416|-lrb-|previously|RFC|3016|-rrb-	NNP|CD|-LRB-|RB|NNP|CD|-RRB-	O|NUMBER|O|DATE|O|NUMBER|O	|6416.0||PAST_REF||3016.0|	6416.0		3016.0	RFC 6416 (previously RFC 3016)	fb:part.rfc_6416_previously_rfc_3016
+56	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+56	1	fb:cell.mp4v_es	MP4V-ES	mp4v|es	mp4v|e	NN|NN	O|O	|	4.0				
+56	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+56	3	fb:cell.null											fb:part.null
+56	4	fb:cell.90000_or_others	90000 or others	90000|or|others	90000|or|other	CD|CC|NNS	NUMBER|O|O	90000.0||	90000.0			90000 or others	fb:part.90000_or_others
+56	5	fb:cell.null											fb:part.null
+56	6	fb:cell.recommended_same_as_frame_size	recommended same as frame size	recommended|same|as|frame|size	recommend|same|as|frame|size	VBN|JJ|IN|NN|NN	O|O|O|O|O	||||				recommended same as frame size	fb:part.recommended_same_as_frame_size
+56	7	fb:cell.rtp_payload_format_for_mpeg_4_visual	RTP Payload Format for MPEG-4 Visual	rtp|payload|format|for|mpeg-4|visual	RTP|Payload|Format|for|MPEG-4|Visual	NNP|NNP|NNP|IN|NNP|NNP	O|O|O|O|O|O	|||||	4.0			RTP Payload Format for MPEG-4 Visual	fb:part.rtp_payload_format_for_mpeg_4_visual
+56	8	fb:cell.rfc_6416_previously_rfc_3016	RFC 6416 (previously RFC 3016)	rfc|6416|-lrb-|previously|rfc|3016|-rrb-	RFC|6416|-lrb-|previously|RFC|3016|-rrb-	NNP|CD|-LRB-|RB|NNP|CD|-RRB-	O|NUMBER|O|DATE|O|NUMBER|O	|6416.0||PAST_REF||3016.0|	6416.0		3016.0	RFC 6416 (previously RFC 3016)	fb:part.rfc_6416_previously_rfc_3016
+57	0	fb:cell.dynamic_or_profile	dynamic (or profile)	dynamic|-lrb-|or|profile|-rrb-	dynamic|-lrb-|or|profile|-rrb-	JJ|-LRB-|CC|NN|-RRB-	O|O|O|O|O	||||					
+57	1	fb:cell.mpeg4_generic	mpeg4-generic	mpeg4|generic	mpeg4|generic	NN|JJ	O|O	|	4.0				
+57	2	fb:cell.audio_video	audio/video	audio\\/video	audio\\/video	IN	O					audio|video	fb:part.audio|fb:part.video
+57	3	fb:cell.null											fb:part.null
+57	4	fb:cell.90000_or_other	90000 or other	90000|or|other	90000|or|other	CD|CC|JJ	NUMBER|O|O	90000.0||	90000.0			90000 or other	fb:part.90000_or_other
+57	5	fb:cell.null											fb:part.null
+57	6	fb:cell.null											fb:part.null
+57	7	fb:cell.rtp_payload_format_for_transport_of_mpeg_4_elementary_streams	RTP Payload Format for Transport of MPEG-4 Elementary Streams	rtp|payload|format|for|transport|of|mpeg-4|elementary|streams	RTP|Payload|Format|for|transport|of|mpeg-4|Elementary|Streams	NNP|NNP|NNP|IN|NN|IN|NN|NNP|NNP	O|O|O|O|O|O|O|O|O	||||||||	4.0			RTP Payload Format for Transport of MPEG-4 Elementary Streams	fb:part.rtp_payload_format_for_transport_of_mpeg_4_elementary_streams
+57	8	fb:cell.rfc_3640	RFC 3640	rfc|3640	RFC|3640	NNP|CD	O|NUMBER	|3640.0	3640.0			RFC 3640	fb:part.rfc_3640
+58	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+58	1	fb:cell.vp8	VP8	vp8	vp8	NN	O		8.0				
+58	2	fb:cell.video	video	video	video	NN	O					video	fb:part.video
+58	3	fb:cell.null											fb:part.null
+58	4	fb:cell.90000	90000	90000	90000	CD	NUMBER	90000.0	90000.0			90000	fb:part.90000
+58	5	fb:cell.null											fb:part.null
+58	6	fb:cell.null											fb:part.null
+58	7	fb:cell.rtp_payload_format_for_transport_of_vp8_streams	RTP Payload Format for Transport of VP8 Streams	rtp|payload|format|for|transport|of|vp8|streams	RTP|Payload|Format|for|transport|of|vp8|stream	NNP|NNP|NNP|IN|NN|IN|NN|NNS	O|O|O|O|O|O|O|O	|||||||	8.0			RTP Payload Format for Transport of VP8 Streams	fb:part.rtp_payload_format_for_transport_of_vp8_streams
+58	8	fb:cell.draft_ietf_payload_vp8_08	draft-ietf-payload-vp8-08	draft|ietf|payload|vp8-08	draft|ietf|payload|vp8-08	NN|NN|NN|NN	O|O|O|O	|||	8.0		8.0	draft-ietf-payload-vp8-08	fb:part.draft_ietf_payload_vp8_08
+59	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+59	1	fb:cell.l8	L8	l8	l8	NN	O		8.0				
+59	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+59	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+59	4	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+59	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+59	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+59	7	fb:cell.linear_pcm_8_bit_audio_with_128_offset	Linear PCM 8-bit audio with 128 offset	linear|pcm|8|bit|audio|with|128|offset	linear|pcm|8|bit|audio|with|128|offset	JJ|NN|CD|NN|JJ|IN|CD|VBN	O|O|NUMBER|O|O|O|NUMBER|O	||8.0||||128.0|	8.0		128.0	Linear PCM 8-bit audio with 128 offset	fb:part.linear_pcm_8_bit_audio_with_128_offset
+59	8	fb:cell.rfc_3551_section_4_5_10_and_table_5	RFC 3551 Section 4.5.10 and Table 5	rfc|3551|section|4.5.10|and|table|5	RFC|3551|Section|4.5.10|and|Table|5	NNP|CD|NNP|CD|CC|NNP|CD	O|NUMBER|O|DATE|O|O|NUMBER	|3551.0||XX10-05-04|||5.0	3551.0		4.5	RFC 3551 Section 4.5.10 and Table 5	fb:part.rfc_3551_section_4_5_10_and_table_5
+60	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+60	1	fb:cell.dat12	DAT12	dat12	dat12	NN	O		12.0				
+60	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+60	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+60	4	fb:cell.8000_11025_16000_22050_24000_32000_44100_48000_or_others	8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|other	CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|CC|NNS	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	8000.0||11025.0||16000.0||22050.0||24000.0||32000.0||44100.0||48000.0||	8.000110251600022E38			8000|11025|16000|22050|24000|32000|44100|48000 or others	fb:part.8000|fb:part.11025|fb:part.16000|fb:part.22050|fb:part.24000|fb:part.32000|fb:part.44100|fb:part.48000_or_others
+60	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+60	6	fb:cell.20_by_analogy_with_l16	20 (by analogy with L16)	20|-lrb-|by|analogy|with|l16|-rrb-	20|-lrb-|by|analogy|with|l16|-rrb-	CD|-LRB-|IN|NN|IN|NN|-RRB-	NUMBER|O|O|O|O|O|O	20.0||||||	20.0		16.0	20 (by analogy with L16)	fb:part.20_by_analogy_with_l16
+60	7	fb:cell.iec_61119_12_bit_nonlinear_audio	IEC 61119 12-bit nonlinear audio	iec|61119|12|bit|nonlinear|audio	iec|61119|12|bit|nonlinear|audio	NN|CD|CD|NN|JJ|NN	ORGANIZATION|NUMBER|NUMBER|O|O|O	|61119.0|61119.0|||	6111912.0			IEC 61119 12-bit nonlinear audio	fb:part.iec_61119_12_bit_nonlinear_audio
+60	8	fb:cell.rfc_3190_section_3	RFC 3190 Section 3	rfc|3190|section|3	RFC|3190|Section|3	NNP|CD|NNP|CD	O|NUMBER|O|NUMBER	|3190.0||3.0	3190.0		3.0	RFC 3190 Section 3	fb:part.rfc_3190_section_3
+61	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+61	1	fb:cell.l16	L16	l16	l16	NN	O		16.0				
+61	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+61	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+61	4	fb:cell.8000_11025_16000_22050_24000_32000_44100_48000_or_others	8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|other	CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|CC|NNS	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	8000.0||11025.0||16000.0||22050.0||24000.0||32000.0||44100.0||48000.0||	8.000110251600022E38			8000|11025|16000|22050|24000|32000|44100|48000 or others	fb:part.8000|fb:part.11025|fb:part.16000|fb:part.22050|fb:part.24000|fb:part.32000|fb:part.44100|fb:part.48000_or_others
+61	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+61	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0			20	fb:part.20
+61	7	fb:cell.linear_pcm_16_bit_audio	Linear PCM 16-bit audio	linear|pcm|16|bit|audio	linear|PCM|16|bit|audio	JJ|NNP|CD|NN|JJ	O|O|NUMBER|O|O	||16.0||	16.0			Linear PCM 16-bit audio	fb:part.linear_pcm_16_bit_audio
+61	8	fb:cell.rfc_3551_section_4_5_11_rfc_2586	RFC 3551 Section 4.5.11, RFC 2586	rfc|3551|section|4.5.11|,|rfc|2586	RFC|3551|Section|4.5.11|,|RFC|2586	NNP|CD|NNP|CD|,|NNP|CD	O|NUMBER|O|DATE|O|O|DATE	|3551.0||XX11-05-04|||2586	3551.0		4.5	RFC 3551 Section 4.5.11|RFC 2586	fb:part.rfc_3551_section_4_5_11|fb:part.rfc_2586
+62	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+62	1	fb:cell.l20	L20	l20	l20	NN	O		20.0				
+62	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+62	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+62	4	fb:cell.8000_11025_16000_22050_24000_32000_44100_48000_or_others	8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|other	CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|CC|NNS	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	8000.0||11025.0||16000.0||22050.0||24000.0||32000.0||44100.0||48000.0||	8.000110251600022E38			8000|11025|16000|22050|24000|32000|44100|48000 or others	fb:part.8000|fb:part.11025|fb:part.16000|fb:part.22050|fb:part.24000|fb:part.32000|fb:part.44100|fb:part.48000_or_others
+62	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+62	6	fb:cell.20_by_analogy_with_l16	20 (by analogy with L16)	20|-lrb-|by|analogy|with|l16|-rrb-	20|-lrb-|by|analogy|with|l16|-rrb-	CD|-LRB-|IN|NN|IN|NN|-RRB-	NUMBER|O|O|O|O|O|O	20.0||||||	20.0		16.0	20 (by analogy with L16)	fb:part.20_by_analogy_with_l16
+62	7	fb:cell.linear_pcm_20_bit_audio	Linear PCM 20-bit audio	linear|pcm|20|bit|audio	linear|PCM|20|bit|audio	JJ|NNP|CD|NN|JJ	O|O|NUMBER|O|O	||20.0||	20.0			Linear PCM 20-bit audio	fb:part.linear_pcm_20_bit_audio
+62	8	fb:cell.rfc_3190_section_4	RFC 3190 Section 4	rfc|3190|section|4	RFC|3190|Section|4	NNP|CD|NNP|CD	O|NUMBER|O|NUMBER	|3190.0||4.0	3190.0		4.0	RFC 3190 Section 4	fb:part.rfc_3190_section_4
+63	0	fb:cell.dynamic	dynamic	dynamic	dynamic	JJ	O						
+63	1	fb:cell.l24	L24	l24	l24	NN	O		24.0				
+63	2	fb:cell.audio	audio	audio	audio	NN	O					audio	fb:part.audio
+63	3	fb:cell._various	(various)	-lrb-|various|-rrb-	-lrb-|various|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||				(various)	fb:part._various
+63	4	fb:cell.8000_11025_16000_22050_24000_32000_44100_48000_or_others	8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|others	8000|,|11025|,|16000|,|22050|,|24000|,|32000|,|44100|,|48000|or|other	CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|,|CD|CC|NNS	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	8000.0||11025.0||16000.0||22050.0||24000.0||32000.0||44100.0||48000.0||	8.000110251600022E38			8000|11025|16000|22050|24000|32000|44100|48000 or others	fb:part.8000|fb:part.11025|fb:part.16000|fb:part.22050|fb:part.24000|fb:part.32000|fb:part.44100|fb:part.48000_or_others
+63	5	fb:cell.any	any	any	any	DT	O					any	fb:part.any
+63	6	fb:cell.20_by_analogy_with_l16	20 (by analogy with L16)	20|-lrb-|by|analogy|with|l16|-rrb-	20|-lrb-|by|analogy|with|l16|-rrb-	CD|-LRB-|IN|NN|IN|NN|-RRB-	NUMBER|O|O|O|O|O|O	20.0||||||	20.0		16.0	20 (by analogy with L16)	fb:part.20_by_analogy_with_l16
+63	7	fb:cell.linear_pcm_24_bit_audio	Linear PCM 24-bit audio	linear|pcm|24|bit|audio	linear|pcm|24|bit|audio	JJ|NN|CD|NN|JJ	O|O|NUMBER|O|O	||24.0||	24.0			Linear PCM 24-bit audio	fb:part.linear_pcm_24_bit_audio
+63	8	fb:cell.rfc_3190_section_4	RFC 3190 Section 4	rfc|3190|section|4	RFC|3190|Section|4	NNP|CD|NNP|CD	O|NUMBER|O|NUMBER	|3190.0||4.0	3190.0		4.0	RFC 3190 Section 4	fb:part.rfc_3190_section_4

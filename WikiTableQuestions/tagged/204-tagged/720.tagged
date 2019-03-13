@@ -1,0 +1,71 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.number	Number	number	number	NN	O						
+-1	1	fb:row.row.name	Name	name	name	VB	O						
+-1	2	fb:row.row.term_started	Term Started	term|started	term|start	NN|VBD	O|O	|					
+-1	3	fb:row.row.term_ended	Term Ended	term|ended	term|end	NN|VBD	O|O	|					
+-1	4	fb:row.row.alma_mater	Alma Mater	alma|mater	Alma|Mater	NNP|NNP	O|O	|					
+-1	5	fb:row.row.field_s	Field(s)	field|-lrb-|s|-rrb-	field|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	6	fb:row.row.educational_background	Educational Background	educational|background	Educational|Background	NNP|NNP	O|O	|					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.dr_abdus_salam	Dr Abdus Salam	dr|abdus|salam	Dr|Abdus|Salam	NNP|NNP|NNP	O|PERSON|PERSON	||					
+0	2	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+0	3	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+0	4	fb:cell.imperial_college	Imperial College	imperial|college	Imperial|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+0	5	fb:cell.theoretical_physics	Theoretical Physics	theoretical|physics	theoretical|physics	JJ|NN	O|O	|				Theoretical Physics	fb:part.theoretical_physics
+0	6	fb:cell.doctor_of_philosophy_ph_d	Doctor of Philosophy (Ph.D)	doctor|of|philosophy|-lrb-|ph.|d|-rrb-	doctor|of|philosophy|-lrb-|Ph.|D|-rrb-	NN|IN|NN|-LRB-|NNP|NNP|-RRB-	O|O|O|O|O|O|O	||||||					
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.air_commodore_dr_w_adys_aw_turowicz	Air Commodore Dr Władysław Turowicz	air|commodore|dr|władysław|turowicz	Air|Commodore|Dr|Władysław|Turowicz	NNP|NNP|NNP|NNP|NNP	O|O|O|PERSON|PERSON	||||					
+1	2	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+1	3	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+1	4	fb:cell.warsaw_university_of_technology	Warsaw University of Technology	warsaw|university|of|technology	Warsaw|University|of|Technology	NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+1	5	fb:cell.aeronautical_engineering	Aeronautical Engineering	aeronautical|engineering	Aeronautical|Engineering	NNP|NNP	O|O	|				Aeronautical Engineering	fb:part.aeronautical_engineering
+1	6	fb:cell.ph_d	Ph.D	ph.d	ph.d	NN	O						
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.air_commodore_k_m_ahmad	Air Commodore K. M. Ahmad	air|commodore|k.|m.|ahmad	Air|Commodore|K.|M.|Ahmad	NNP|NNP|NNP|NNP|NNP	O|O|PERSON|PERSON|PERSON	||||					
+2	2	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+2	3	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+2	4	fb:cell.pakistan_air_force_academy	Pakistan Air Force Academy	pakistan|air|force|academy	Pakistan|Air|Force|Academy	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+2	5	fb:cell.flight_instructor	Flight Instructor	flight|instructor	Flight|Instructor	NNP|NNP	O|O	|				Flight Instructor	fb:part.flight_instructor
+2	6	fb:cell.certificated_flight_instructor_cfi	Certificated Flight Instructor (CFI)	certificated|flight|instructor|-lrb-|cfi|-rrb-	Certificated|Flight|Instructor|-lrb-|CFI|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O	|||||					
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.dr_salim_mehmud	Dr Salim Mehmud	dr|salim|mehmud	Dr|Salim|Mehmud	NNP|NNP|NNP	O|PERSON|PERSON	||					
+3	2	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+3	3	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+3	4	fb:cell.oak_ridge_institute_for_science_and_education_and_oak_ridge_national_laboratory	Oak Ridge Institute for Science and Education and Oak Ridge National Laboratory	oak|ridge|institute|for|science|and|education|and|oak|ridge|national|laboratory	Oak|Ridge|Institute|for|Science|and|Education|and|Oak|Ridge|National|Laboratory	NNP|NNP|NNP|IN|NNP|CC|NNP|CC|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||||					
+3	5	fb:cell.nuclear_engineering_electrical_engineering_physics_mathematics_electronics_engineering	Nuclear Engineering, Electrical engineering, Physics, Mathematics, Electronics engineering	nuclear|engineering|,|electrical|engineering|,|physics|,|mathematics|,|electronics|engineering	nuclear|Engineering|,|electrical|engineering|,|physics|,|Mathematics|,|Electronics|engineering	JJ|NNP|,|JJ|NN|,|NN|,|NNP|,|NNP|NN	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Nuclear Engineering|Electrical engineering|Physics|Mathematics|Electronics engineering	fb:part.nuclear_engineering|fb:part.electrical_engineering|fb:part.physics|fb:part.mathematics|fb:part.electronics_engineering
+3	6	fb:cell.ph_d	Ph.D	ph.d	ph.d	NN	O						
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.dr_m_shafi_ahmad	Dr M. Shafi Ahmad	dr|m.|shafi|ahmad	Dr|M.|Shafi|Ahmad	NNP|NNP|NNP|NNP	O|PERSON|PERSON|PERSON	|||					
+4	2	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+4	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+4	4	fb:cell.university_of_london	University of London	university|of|london	University|of|London	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+4	5	fb:cell.astronomy	Astronomy	astronomy	Astronomy	NNP	O					Astronomy	fb:part.astronomy
+4	6	fb:cell.ph_d	Ph.D	ph.d	ph.d	NN	O						
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.engr_sikandar_zaman	Engr.Sikandar Zaman	engr.sikandar|zaman	Engr.Sikandar|Zaman	NNP|NNP	O|PERSON	|					
+5	2	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+5	3	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+5	4	fb:cell.university_of_leeds	University of Leeds	university|of|leeds	University|of|Leeds	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+5	5	fb:cell.mechanical_engineering	Mechanical Engineering	mechanical|engineering	mechanical|Engineering	JJ|NNP	O|O	|				Mechanical Engineering	fb:part.mechanical_engineering
+5	6	fb:cell.bachelor_of_science_b_s	Bachelor of Science (B.S.)	bachelor|of|science|-lrb-|b.s.|-rrb-	bachelor|of|science|-lrb-|b.s.|-rrb-	NN|IN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.dr_abdul_majid	Dr Abdul Majid	dr|abdul|majid	Dr|Abdul|Majid	NNP|NNP|NNP	O|PERSON|PERSON	||					
+6	2	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+6	3	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+6	4	fb:cell.university_of_wales	University of Wales	university|of|wales	University|of|Wales	NNP|IN|NNP	O|O|LOCATION	||					
+6	5	fb:cell.astrophysics	Astrophysics	astrophysics	astrophysics	NNS	O					Astrophysics	fb:part.astrophysics
+6	6	fb:cell.ph_d	Ph.D	ph.d	ph.d	NN	O						
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.major_general_raza_hussain	Major General Raza Hussain	major|general|raza|hussain	Major|General|Raza|Hussain	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||					
+7	2	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+7	3	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+7	4	fb:cell.pakistan_army_corps_of_electrical_and_mechanical_engineers	Pakistan Army Corps of Electrical and Mechanical Engineers	pakistan|army|corps|of|electrical|and|mechanical|engineers	Pakistan|Army|Corps|of|electrical|and|mechanical|engineer	NNP|NNP|NNP|IN|JJ|CC|JJ|NNS	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	|||||||					
+7	5	fb:cell.electrical_engineering	Electrical Engineering	electrical|engineering	electrical|Engineering	JJ|NNP	O|O	|				Electrical Engineering	fb:part.electrical_engineering
+7	6	fb:cell.b_s	B.S.	b.s.	B.S.	NNP	O						
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.major_general_ahmed_bilal	Major General Ahmed Bilal	major|general|ahmed|bilal	Major|General|Ahmed|Bilal	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||					
+8	2	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+8	3	fb:cell.present	Present	present	present	JJ	DATE	PRESENT_REF					
+8	4	fb:cell.pakistan_army_corps_of_signals_engineering	Pakistan Army Corps of Signals Engineering	pakistan|army|corps|of|signals|engineering	Pakistan|Army|Corps|of|signal|Engineering	NNP|NNP|NNP|IN|NNS|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||					
+8	5	fb:cell.computer_engineering	Computer Engineering	computer|engineering	Computer|Engineering	NNP|NNP	O|O	|				Computer Engineering	fb:part.computer_engineering
+8	6	fb:cell.master_of_science_m_s	Master of Science (M.S)	master|of|science|-lrb-|m.s|-rrb-	master|of|science|-lrb-|m.s|-rrb-	NN|IN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					

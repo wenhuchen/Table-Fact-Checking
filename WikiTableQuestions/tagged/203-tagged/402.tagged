@@ -1,0 +1,76 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.festival	Festival	festival	Festival	NNP	O						
+-1	2	fb:row.row.location	Location	location	Location	NNP	O						
+-1	3	fb:row.row.awards	Awards	awards	award	NNS	O						
+-1	4	fb:row.row.link	Link	link	link	NN	O						
+0	0	fb:cell.feb_2_5_feb_11	Feb 2–5, Feb 11	feb|2|--|5|,|feb|11	Feb|2|--|5|,|Feb|11	NNP|CD|:|CD|,|NNP|CD	DATE|DATE|O|NUMBER|O|DATE|DATE	XXXX-02-02|XXXX-02-02||5.0||XXXX-02-11|XXXX-02-11	2.0		5.0	Feb 2–5|Feb 11	fb:part.feb_2_5|fb:part.feb_11
+0	1	fb:cell.santa_barbara_international_film_festival	Santa Barbara International Film Festival	santa|barbara|international|film|festival	Santa|Barbara|International|Film|Festival	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||					
+0	2	fb:cell.santa_barbara_california_usa	Santa Barbara, California  USA	santa|barbara|,|california|usa	Santa|Barbara|,|California|USA	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				Santa Barbara|California  USA	fb:part.santa_barbara|fb:part.california_usa
+0	3	fb:cell.top_11_best_of_the_fest_selection	Top 11 "Best of the Fest" Selection	top|11|``|best|of|the|fest|''|selection	top|11|``|best|of|the|Fest|''|selection	JJ|CD|``|JJS|IN|DT|NNP|''|NN	O|NUMBER|O|O|O|O|O|O|O	|11.0|||||||	11.0			Top 11 "Best of the Fest" Selection	fb:part.top_11_best_of_the_fest_selection
+0	4	fb:cell.sbiff_org	sbiff.org	sbiff.org	sbiff.org	NN	O						
+1	0	fb:cell.may_21_22_jun_11	May 21–22, Jun 11	may|21|--|22|,|jun|11	May|21|--|22|,|jun|11	VBD-AUX|CD|:|CD|,|NN|CD	DATE|DATE|O|NUMBER|O|DATE|DATE	XXXX-05-21|XXXX-05-21||22.0||XXXX-06-11|XXXX-06-11	21.0		22.0	May 21–22|Jun 11	fb:part.may_21_22|fb:part.jun_11
+1	1	fb:cell.seattle_international_film_festival	Seattle International Film Festival	seattle|international|film|festival	Seattle|International|Film|Festival	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+1	2	fb:cell.seattle_washington_usa	Seattle, Washington  USA	seattle|,|washington|usa	Seattle|,|Washington|USA	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Seattle|Washington  USA	fb:part.seattle|fb:part.washington_usa
+1	3	fb:cell.null											fb:part.null
+1	4	fb:cell.siff_net	siff.net	siff.net	siff.net	NN	O						
+2	0	fb:cell.jul_18_jul_25	Jul 18, Jul 25	jul|18|,|jul|25	Jul|18|,|Jul|25	NNP|CD|,|NNP|CD	DATE|DATE|DATE|DATE|DATE	XXXX-07-18|XXXX-07-18|XXXX-07-18|XXXX-07-18|XXXX-07-18	18.0	xxxx-07-18	25.0	Jul 18|Jul 25	fb:part.jul_18|fb:part.jul_25
+2	1	fb:cell.fantasia_festival	Fantasia Festival	fantasia|festival	Fantasia|Festival	NNP|NNP	O|O	|					
+2	2	fb:cell.montreal_quebec_canada	Montreal, Quebec  Canada	montreal|,|quebec|canada	Montreal|,|Quebec|Canada	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Montreal|Quebec  Canada	fb:part.montreal|fb:part.quebec_canada
+2	3	fb:cell.special_mention_for_the_resourcefulness_and_unwavering_determination_by_a_director_to_realize_his_unique_vision	Special Mention\n"for the resourcefulness and unwavering determination by a director to realize his unique vision"	special|mention|``|for|the|resourcefulness|and|unwavering|determination|by|a|director|to|realize|his|unique|vision|''	special|mention|``|for|the|resourcefulness|and|unwavering|determination|by|a|director|to|realize|he|unique|vision|''	JJ|NN|``|IN|DT|NN|CC|JJ|NN|IN|DT|NN|TO|VB|PRP$|JJ|NN|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||				Special Mention|"for the resourcefulness and unwavering determination by a director to realize his unique vision"	fb:part.special_mention|fb:part._for_the_resourcefulness_and_unwavering_determination_by_a_director_to_realize_his_unique_vision
+2	4	fb:cell.fantasia	FanTasia	fantasia	FanTasia	NNP	O						
+3	0	fb:cell.sep_16	Sep 16	sep|16	Sep|16	NNP|CD	DATE|DATE	XXXX-09-16|XXXX-09-16	16.0	xxxx-09-16		Sep 16	fb:part.sep_16
+3	1	fb:cell.athens_international_film_festival	Athens International Film Festival	athens|international|film|festival	Athens|International|Film|Festival	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+3	2	fb:cell.athens_attica_greece	Athens, Attica\n Greece	athens|,|attica|greece	Athens|,|Attica|Greece	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Athens|Attica|Greece	fb:part.athens|fb:part.attica|fb:part.greece
+3	3	fb:cell.best_director	Best Director	best|director	best|director	JJS|NN	O|O	|				Best Director	fb:part.best_director
+3	4	fb:cell.aiff_gr	aiff.gr	aiff.gr	aiff.gr	IN	O						
+4	0	fb:cell.sep_19	Sep 19	sep|19	Sep|19	NNP|CD	DATE|DATE	XXXX-09-19|XXXX-09-19	19.0	xxxx-09-19		Sep 19	fb:part.sep_19
+4	1	fb:cell.lund_international_fantastic_film_festival	Lund International Fantastic Film Festival	lund|international|fantastic|film|festival	Lund|International|Fantastic|Film|Festival	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||					
+4	2	fb:cell.lund_skane_sweden	Lund, Skåne\n Sweden	lund|,|skåne|sweden	Lund|,|Skåne|Sweden	NNP|,|NNP|NNP	PERSON|O|O|LOCATION	|||				Lund|Skåne|Sweden	fb:part.lund|fb:part.skane|fb:part.sweden
+4	3	fb:cell.null											fb:part.null
+4	4	fb:cell.fff_se	fff.se	fff.se	fff.se	NN	O						
+5	0	fb:cell.sep_28	Sep 28	sep|28	Sep|28	NNP|CD	DATE|DATE	XXXX-09-28|XXXX-09-28	28.0	xxxx-09-28		Sep 28	fb:part.sep_28
+5	1	fb:cell.fantastic_fest	Fantastic Fest	fantastic|fest	fantastic|fest	JJ|NN	O|O	|					
+5	2	fb:cell.austin_texas_usa	Austin, Texas\n USA	austin|,|texas|usa	Austin|,|Texas|USA	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Austin|Texas|USA	fb:part.austin|fb:part.texas|fb:part.usa
+5	3	fb:cell.null											fb:part.null
+5	4	fb:cell.fantasticfest_com	FantasticFest.com	fantasticfest.com	FantasticFest.com	NNP	O						
+6	0	fb:cell.oct_9	Oct 9	oct|9	oct|9	NN|CD	DATE|DATE	XXXX-10-09|XXXX-10-09	9.0	xxxx-10-09		Oct 9	fb:part.oct_9
+6	1	fb:cell.london_int_festival_of_science_fiction_film	London Int. Festival of Science Fiction Film	london|int|.|festival|of|science|fiction|film	London|Int|.|Festival|of|Science|Fiction|Film	NNP|NNP|.|NNP|IN|NNP|NNP|NNP	LOCATION|O|O|O|O|O|O|O	|||||||					
+6	2	fb:cell.london_england_uk	London, England\n UK	london|,|england|uk	London|,|England|UK	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				London|England|UK	fb:part.london|fb:part.england|fb:part.uk
+6	3	fb:cell.closing_night_film	Closing Night Film	closing|night|film	closing|night|Film	NN|NN|NNP	O|TIME|O	|TNI|				Closing Night Film	fb:part.closing_night_film
+6	4	fb:cell.sci_fi_london	Sci-Fi London	sci|fi|london	Sci|Fi|London	NNP|NNP|NNP	O|O|LOCATION	||					
+7	0	fb:cell.oct_9_oct_11	Oct 9, Oct 11	oct|9|,|oct|11	oct|9|,|Oct|11	NN|CD|,|NNP|CD	DATE|DATE|DATE|DATE|DATE	XXXX-10-09|XXXX-10-09|XXXX-10-09|XXXX-10-09|XXXX-10-09	9.0	xxxx-10-09	11.0	Oct 9|Oct 11	fb:part.oct_9|fb:part.oct_11
+7	1	fb:cell.sitges_film_festival	Sitges Film Festival	sitges|film|festival	Sitges|Film|Festival	NNP|NNP|NNP	O|O|O	||					
+7	2	fb:cell.sitges_catalonia_spain	Sitges, Catalonia\n Spain	sitges|,|catalonia|spain	Sitges|,|Catalonia|Spain	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Sitges|Catalonia|Spain	fb:part.sitges|fb:part.catalonia|fb:part.spain
+7	3	fb:cell.null											fb:part.null
+7	4	fb:cell.sitges_festival	Sitges Festival	sitges|festival	Sitges|Festival	NNP|NNP	O|O	|					
+8	0	fb:cell.oct_1_oct_15	Oct 1, Oct 15	oct|1|,|oct|15	oct|1|,|Oct|15	NN|CD|,|NNP|CD	DATE|DATE|DATE|DATE|DATE	XXXX-10-01|XXXX-10-01|XXXX-10-01|XXXX-10-01|XXXX-10-01	1.0	xxxx-10-01	15.0	Oct 1|Oct 15	fb:part.oct_1|fb:part.oct_15
+8	1	fb:cell.gwacheon_international_sf_festival	Gwacheon International SF Festival	gwacheon|international|sf|festival	Gwacheon|International|SF|Festival	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+8	2	fb:cell.gwacheon_gyeonggi_do_south_korea	Gwacheon, Gyeonggi-do\n South Korea	gwacheon|,|gyeonggi|do|south|korea	Gwacheon|,|Gyeonggi|do|South|Korea	NNP|,|NNP|VBD-AUX|NNP|NNP	O|O|LOCATION|O|LOCATION|LOCATION	|||||				Gwacheon|Gyeonggi-do|South Korea	fb:part.gwacheon|fb:part.gyeonggi_do|fb:part.south_korea
+8	3	fb:cell.null											fb:part.null
+8	4	fb:cell.gisf_org	gisf.org	gisf.org	gisf.org	NN	O						
+9	0	fb:cell.oct_17_oct_20	Oct 17, Oct 20	oct|17|,|oct|20	oct|17|,|Oct|20	NN|CD|,|NNP|CD	DATE|DATE|DATE|DATE|DATE	XXXX-10-17|XXXX-10-17|XXXX-10-17|XXXX-10-17|XXXX-10-17	17.0	xxxx-10-17	20.0	Oct 17|Oct 20	fb:part.oct_17|fb:part.oct_20
+9	1	fb:cell.icon_tlv	Icon TLV	icon|tlv	icon|tlv	NN|NN	O|O	|					
+9	2	fb:cell.tel_aviv_central_israel	Tel Aviv, Central\n Israel	tel|aviv|,|central|israel	Tel|Aviv|,|Central|Israel	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				Tel Aviv|Central|Israel	fb:part.tel_aviv|fb:part.central|fb:part.israel
+9	3	fb:cell.null											fb:part.null
+9	4	fb:cell.icon_org_il	icon.org.il	icon.org.il	icon.org.il	NN	O						
+10	0	fb:cell.oct_23	Oct 23	oct|23	oct|23	NN|CD	DATE|DATE	XXXX-10-23|XXXX-10-23	23.0	xxxx-10-23		Oct 23	fb:part.oct_23
+10	1	fb:cell.toronto_after_dark	Toronto After Dark	toronto|after|dark	Toronto|after|dark	NNP|IN|JJ	LOCATION|O|O	||					
+10	2	fb:cell.toronto_ontario_canada	Toronto, Ontario\n Canada	toronto|,|ontario|canada	Toronto|,|Ontario|Canada	NNP|,|NNP|NNP	LOCATION|O|ORGANIZATION|ORGANIZATION	|||				Toronto|Ontario|Canada	fb:part.toronto|fb:part.ontario|fb:part.canada
+10	3	fb:cell.best_special_effects_best_musical_score	Best Special Effects\nBest Musical Score	best|special|effects|best|musical|score	best|special|effect|best|musical|score	JJS|JJ|NNS|JJS|JJ|NN	O|O|O|O|O|NUMBER	|||||20.0				Best Special Effects|Best Musical Score	fb:part.best_special_effects|fb:part.best_musical_score
+10	4	fb:cell.torontoafterdark_com	torontoafterdark.com	torontoafterdark.com	torontoafterdark.com	NNP	O						
+11	0	fb:cell.nov_11	Nov 11	nov|11	Nov|11	NNP|CD	DATE|DATE	XXXX-11-11|XXXX-11-11	11.0	xxxx-11-11		Nov 11	fb:part.nov_11
+11	1	fb:cell.les_utopiales	Les Utopiales	les|utopiales	Les|Utopiales	NNP|NNP	O|O	|					
+11	2	fb:cell.nantes_pays_de_la_loire_france	Nantes, Pays de la Loire\n France	nantes|,|pays|de|la|loire|france	Nantes|,|pay|de|la|loire|France	NNP|,|VBZ|FW|FW|FW|NNP	ORGANIZATION|O|O|O|O|LOCATION|LOCATION	||||||				Nantes|Pays de la Loire|France	fb:part.nantes|fb:part.pays_de_la_loire|fb:part.france
+11	3	fb:cell.null											fb:part.null
+11	4	fb:cell.utopiales_org	utopiales.org	utopiales.org	utopiales.org	NN	O						
+12	0	fb:cell.nov_12_nov_18	Nov 12, Nov 18	nov|12|,|nov|18	Nov|12|,|Nov|18	NNP|CD|,|NNP|CD	DATE|DATE|DATE|DATE|DATE	XXXX-11-12|XXXX-11-12|XXXX-11-12|XXXX-11-12|XXXX-11-12	12.0	xxxx-11-12	18.0	Nov 12|Nov 18	fb:part.nov_12|fb:part.nov_18
+12	1	fb:cell.indonesia_fantastic_film_festival	Indonesia Fantastic Film Festival	indonesia|fantastic|film|festival	Indonesia|Fantastic|Film|Festival	NNP|NNP|NNP|NNP	LOCATION|O|O|O	|||					
+12	2	fb:cell.jakarta_bandung_indonesia	Jakarta, Bandung\n Indonesia	jakarta|,|bandung|indonesia	Jakarta|,|Bandung|Indonesia	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Jakarta|Bandung|Indonesia	fb:part.jakarta|fb:part.bandung|fb:part.indonesia
+12	3	fb:cell.null											fb:part.null
+12	4	fb:cell.inaff_com	inaff.com	inaff.com	inaff.com	NNP	O						
+13	0	fb:cell.nov_16_18	Nov 16–18	nov|16|--|18	Nov|16|--|18	NNP|CD|:|CD	DATE|DATE|O|NUMBER	XXXX-11-16|XXXX-11-16||18.0	16.0		18.0	Nov 16–18	fb:part.nov_16_18
+13	1	fb:cell.aff	AFF	aff	aff	NN	O						
+13	2	fb:cell.wroc_aw_lower_silesia_poland	Wrocław, Lower Silesia\n Poland	wrocław|,|lower|silesia|poland	Wrocław|,|Lower|Silesia|Poland	NNP|,|NNP|NNP|NNP	O|O|O|LOCATION|LOCATION	||||				Wrocław|Lower Silesia|Poland	fb:part.wroc_aw|fb:part.lower_silesia|fb:part.poland
+13	3	fb:cell.null											fb:part.null
+13	4	fb:cell.aff_poland	AFF Poland	aff|poland	AFF|Poland	NNP|NNP	O|LOCATION	|					

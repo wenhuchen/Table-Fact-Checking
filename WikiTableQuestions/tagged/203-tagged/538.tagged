@@ -1,0 +1,85 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.flight	Flight	flight	flight	NN	O						
+-1	1	fb:row.row.date	Date	date	date	NN	O						
+-1	2	fb:row.row.payload_nickname	Payload nickname	payload|nickname	payload|nickname	NN|NN	O|O	|					
+-1	3	fb:row.row.payload	Payload	payload	payload	NN	O						
+-1	4	fb:row.row.orbit	Orbit	orbit	orbit	NN	O						
+-1	5	fb:row.row.result	Result	result	result	NN	O						
+0	0	fb:cell.tf1_test_flight	TF1 (Test Flight)	tf1|-lrb-|test|flight|-rrb-	tf1|-lrb-|test|flight|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||	1.0				
+0	1	fb:cell.february_4_1994	February 4, 1994	february|4|,|1994	February|4|,|1994	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1994-02-04|1994-02-04|1994-02-04|1994-02-04	41994.0	1994-02-04		February 4|1994	fb:part.february_4|fb:part.1994
+0	2	fb:cell.ryusei	Ryūsei	ryūsei	ryūsei	FW	PERSON						
+0	3	fb:cell.orex_orbital_re_entry_experiment	OREX (Orbital Re-entry Experiment)	orex|-lrb-|orbital|re|entry|experiment|-rrb-	orex|-lrb-|orbital|Re|entry|experiment|-rrb-	NN|-LRB-|JJ|NNP|NN|NN|-RRB-	ORGANIZATION|O|O|O|O|O|O	||||||				OREX (Orbital Re-entry Experiment)	fb:part.orex_orbital_re_entry_experiment
+0	4	fb:cell.leo	LEO	leo	LEO	NNP	O						
+0	5	fb:cell.success	Success	success	success	NN	O						
+1	0	fb:cell.tf1_test_flight	TF1 (Test Flight)	tf1|-lrb-|test|flight|-rrb-	tf1|-lrb-|test|flight|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||	1.0				
+1	1	fb:cell.february_4_1994	February 4, 1994	february|4|,|1994	February|4|,|1994	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1994-02-04|1994-02-04|1994-02-04|1994-02-04	41994.0	1994-02-04		February 4|1994	fb:part.february_4|fb:part.1994
+1	2	fb:cell.myojo	Myōjō	myōjō	myōjō	NN	O						
+1	3	fb:cell.vep_vehicle_evaluation_payload	VEP (Vehicle Evaluation Payload)	vep|-lrb-|vehicle|evaluation|payload|-rrb-	vep|-lrb-|Vehicle|evaluation|payload|-rrb-	NN|-LRB-|NNP|NN|NN|-RRB-	O|O|O|O|O|O	|||||				VEP (Vehicle Evaluation Payload)	fb:part.vep_vehicle_evaluation_payload
+1	4	fb:cell.gto	GTO	gto	gto	NN	O						
+1	5	fb:cell.success	Success	success	success	NN	O						
+2	0	fb:cell.tf2	TF2	tf2	tf2	NN	O		2.0				
+2	1	fb:cell.august_28_1994	August 28, 1994	august|28|,|1994	August|28|,|1994	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1994-08-28|1994-08-28|1994-08-28|1994-08-28	281994.0	1994-08-28		August 28|1994	fb:part.august_28|fb:part.1994
+2	2	fb:cell.kiku_6	Kiku 6	kiku|6	Kiku|6	NNP|CD	PERSON|NUMBER	|6.0	6.0				
+2	3	fb:cell.ets_vi_engineering_test_satellite_vi	ETS-VI (Engineering Test Satellite-VI)	ets|vi|-lrb-|engineering|test|satellite|vi|-rrb-	et|VI|-lrb-|Engineering|Test|Satellite|VI|-rrb-	NN|NNP|-LRB-|NNP|NNP|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O	|||||||				ETS-VI (Engineering Test Satellite-VI)	fb:part.ets_vi_engineering_test_satellite_vi
+2	4	fb:cell.geo	GEO	geo	geo	NN	O						
+2	5	fb:cell.success	Success	success	success	NN	O						
+3	0	fb:cell.tf3	TF3	tf3	tf3	NN	O		3.0				
+3	1	fb:cell.march_18_1995	March 18, 1995	march|18|,|1995	March|18|,|1995	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1995-03-18|1995-03-18|1995-03-18|1995-03-18	181995.0	1995-03-18		March 18|1995	fb:part.march_18|fb:part.1995
+3	2	fb:cell.himawari_5	Himawari 5	himawari|5	Himawari|5	NNP|CD	ORGANIZATION|NUMBER	|5.0	5.0				
+3	3	fb:cell.gms_5_geostationary_meteorological_satellite_5	GMS-5 (Geostationary Meteorological Satellite-5)	gms-5|-lrb-|geostationary|meteorological|satellite-5|-rrb-	gms-5|-lrb-|geostationary|Meteorological|satellite-5|-rrb-	NN|-LRB-|JJ|NNP|NN|-RRB-	O|O|O|O|O|O	|||||	5.0		5.0	GMS-5 (Geostationary Meteorological Satellite-5)	fb:part.gms_5_geostationary_meteorological_satellite_5
+3	4	fb:cell.geo	GEO	geo	geo	NN	O						
+3	5	fb:cell.success	Success	success	success	NN	O						
+4	0	fb:cell.tf3	TF3	tf3	tf3	NN	O		3.0				
+4	1	fb:cell.march_18_1995	March 18, 1995	march|18|,|1995	March|18|,|1995	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1995-03-18|1995-03-18|1995-03-18|1995-03-18	181995.0	1995-03-18		March 18|1995	fb:part.march_18|fb:part.1995
+4	2	fb:cell.null											
+4	3	fb:cell.sfu_space_flyer_unit	SFU (Space Flyer Unit)	sfu|-lrb-|space|flyer|unit|-rrb-	SFU|-lrb-|Space|Flyer|Unit|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	O|O|O|O|O|O	|||||				SFU (Space Flyer Unit)	fb:part.sfu_space_flyer_unit
+4	4	fb:cell.leo	LEO	leo	LEO	NNP	O						
+4	5	fb:cell.success	Success	success	success	NN	O						
+5	0	fb:cell.f4	F4	f4	f4	NN	O		4.0				
+5	1	fb:cell.august_17_1996	August 17, 1996	august|17|,|1996	August|17|,|1996	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1996-08-17|1996-08-17|1996-08-17|1996-08-17	171996.0	1996-08-17		August 17|1996	fb:part.august_17|fb:part.1996
+5	2	fb:cell.midori	Midori	midori	Midori	NNP	PERSON						
+5	3	fb:cell.adeos_advanced_earth_observing_satellite	ADEOS (Advanced Earth Observing Satellite)	adeos|-lrb-|advanced|earth|observing|satellite|-rrb-	adeo|-lrb-|Advanced|Earth|observe|Satellite|-rrb-	NN|-LRB-|NNP|NNP|VBG|NNP|-RRB-	ORGANIZATION|O|O|O|O|O|O	||||||				ADEOS (Advanced Earth Observing Satellite)	fb:part.adeos_advanced_earth_observing_satellite
+5	4	fb:cell.leo	LEO	leo	LEO	NNP	O						
+5	5	fb:cell.success	Success	success	success	NN	O						
+6	0	fb:cell.f4	F4	f4	f4	NN	O		4.0				
+6	1	fb:cell.august_17_1996	August 17, 1996	august|17|,|1996	August|17|,|1996	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1996-08-17|1996-08-17|1996-08-17|1996-08-17	171996.0	1996-08-17		August 17|1996	fb:part.august_17|fb:part.1996
+6	2	fb:cell.fuji_3	Fuji 3	fuji|3	Fuji|3	NNP|CD	ORGANIZATION|NUMBER	|3.0	3.0				
+6	3	fb:cell.fuji_oscar_29_jas_2	Fuji OSCAR 29, JAS-2	fuji|oscar|29|,|jas-2	Fuji|OSCAR|29|,|jas-2	NNP|NNP|CD|,|NN	ORGANIZATION|ORGANIZATION|NUMBER|O|O	||29.0||	29.0		2.0	Fuji OSCAR 29|JAS-2	fb:part.fuji_oscar_29|fb:part.jas_2
+6	4	fb:cell.leo	LEO	leo	LEO	NNP	O						
+6	5	fb:cell.success	Success	success	success	NN	O						
+7	0	fb:cell.f6	F6	f6	f6	NN	O		6.0				
+7	1	fb:cell.november_27_1997	November 27, 1997	november|27|,|1997	November|27|,|1997	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1997-11-27|1997-11-27|1997-11-27|1997-11-27	271997.0	1997-11-27		November 27|1997	fb:part.november_27|fb:part.1997
+7	2	fb:cell.null											
+7	3	fb:cell.trmm_tropical_rainfall_measuring_mission	TRMM (Tropical Rainfall Measuring Mission)	trmm|-lrb-|tropical|rainfall|measuring|mission|-rrb-	trmm|-lrb-|tropical|rainfall|measure|Mission|-rrb-	NN|-LRB-|JJ|NN|VBG|NNP|-RRB-	ORGANIZATION|O|O|O|O|O|O	||||||				TRMM (Tropical Rainfall Measuring Mission)	fb:part.trmm_tropical_rainfall_measuring_mission
+7	4	fb:cell.leo	LEO	leo	LEO	NNP	O						
+7	5	fb:cell.success	Success	success	success	NN	O						
+8	0	fb:cell.f6	F6	f6	f6	NN	O		6.0				
+8	1	fb:cell.november_27_1997	November 27, 1997	november|27|,|1997	November|27|,|1997	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1997-11-27|1997-11-27|1997-11-27|1997-11-27	271997.0	1997-11-27		November 27|1997	fb:part.november_27|fb:part.1997
+8	2	fb:cell.kiku_7_orihime_hikoboshi	Kiku 7 (Orihime & Hikoboshi)	kiku|7|-lrb-|orihime|&|hikoboshi|-rrb-	Kiku|7|-lrb-|Orihime|&|Hikoboshi|-rrb-	NNP|CD|-LRB-|NNP|CC|NNP|-RRB-	PERSON|NUMBER|O|O|O|O|O	|7.0|||||	7.0				
+8	3	fb:cell.ets_vii_engineering_test_satellite_vii	ETS-VII (Engineering Test Satellite-VII)	ets|vii|-lrb-|engineering|test|satellite|vii|-rrb-	et|vii|-lrb-|Engineering|Test|Satellite|VII|-rrb-	NN|NN|-LRB-|NNP|NNP|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O	|||||||				ETS-VII (Engineering Test Satellite-VII)	fb:part.ets_vii_engineering_test_satellite_vii
+8	4	fb:cell.leo	LEO	leo	LEO	NNP	O						
+8	5	fb:cell.success	Success	success	success	NN	O						
+9	0	fb:cell.f5	F5	f5	f5	NN	O		5.0				
+9	1	fb:cell.february_21_1998	February 21, 1998	february|21|,|1998	February|21|,|1998	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1998-02-21|1998-02-21|1998-02-21|1998-02-21	211998.0	1998-02-21		February 21|1998	fb:part.february_21|fb:part.1998
+9	2	fb:cell.kakehashi	Kakehashi	kakehashi	Kakehashi	NNP	LOCATION						
+9	3	fb:cell.comets_communications_and_broadcasting_engineering_test_satellites	COMETS (Communications and Broadcasting Engineering Test Satellites)	comets|-lrb-|communications|and|broadcasting|engineering|test|satellites|-rrb-	comet|-lrb-|Communications|and|Broadcasting|Engineering|Test|Satellites|-rrb-	NNS|-LRB-|NNPS|CC|NNP|NNP|NNP|NNPS|-RRB-	O|O|O|O|O|O|O|O|O	||||||||				COMETS (Communications and Broadcasting Engineering Test Satellites)	fb:part.comets_communications_and_broadcasting_engineering_test_satellites
+9	4	fb:cell.geo	GEO	geo	geo	NN	O						
+9	5	fb:cell.partial_failure	Partial failure	partial|failure	partial|failure	JJ|NN	O|O	|					
+10	0	fb:cell.f8	F8	f8	f8	NN	O		8.0				
+10	1	fb:cell.november_15_1999	November 15, 1999	november|15|,|1999	November|15|,|1999	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1999-11-15|1999-11-15|1999-11-15|1999-11-15	151999.0	1999-11-15		November 15|1999	fb:part.november_15|fb:part.1999
+10	2	fb:cell.null											
+10	3	fb:cell.mtsat_multi_functional_transport_satellite	MTSAT (Multi-functional Transport Satellite)	mtsat|-lrb-|multi|functional|transport|satellite|-rrb-	mtsat|-lrb-|multi|functional|Transport|Satellite|-rrb-	NN|-LRB-|JJ|JJ|NNP|NNP|-RRB-	O|O|MISC|O|O|O|O	||||||				MTSAT (Multi-functional Transport Satellite)	fb:part.mtsat_multi_functional_transport_satellite
+10	4	fb:cell.geo	GEO	geo	geo	NN	O						
+10	5	fb:cell.failure	Failure	failure	failure	NN	O						
+11	0	fb:cell.f7	F7	f7	f7	NN	O		7.0				
+11	1	fb:cell.canceled	Canceled	canceled	cancel	VBN	O					Canceled	fb:part.canceled
+11	2	fb:cell.midori_ii	Midori II	midori|ii	Midori|II	NNP|NNP	PERSON|PERSON	|					
+11	3	fb:cell.adeos_ii_advanced_earth_observing_satellite_ii	ADEOS-II (Advanced Earth Observing Satellite II)	adeos|ii|-lrb-|advanced|earth|observing|satellite|ii|-rrb-	ADEOS|II|-lrb-|Advanced|Earth|observe|Satellite|II|-rrb-	NNP|NNP|-LRB-|NNP|NNP|VBG|NNP|NNP|-RRB-	ORGANIZATION|O|O|O|O|O|O|O|O	||||||||				ADEOS-II (Advanced Earth Observing Satellite II)	fb:part.adeos_ii_advanced_earth_observing_satellite_ii
+11	4	fb:cell.null											
+11	5	fb:cell.canceled	Canceled	canceled	cancel	VBN	O					Canceled	fb:part.canceled
+12	0	fb:cell.f7	F7	f7	f7	NN	O		7.0				
+12	1	fb:cell.canceled	Canceled	canceled	cancel	VBN	O					Canceled	fb:part.canceled
+12	2	fb:cell.null											
+12	3	fb:cell._labsat	μ-LabSat	μ|labsat	μ|labsat	NN|NN	O|O	|				μ-LabSat	fb:part._labsat
+12	4	fb:cell.null											
+12	5	fb:cell.canceled	Canceled	canceled	cancel	VBN	O					Canceled	fb:part.canceled

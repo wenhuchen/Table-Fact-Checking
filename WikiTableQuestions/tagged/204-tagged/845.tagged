@@ -1,0 +1,89 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.round	Round	round	Round	NNP	O						
+-1	1	fb:row.row.circuit	Circuit	circuit	circuit	NN	O						
+-1	2	fb:row.row.location	Location	location	Location	NNP	O						
+-1	3	fb:row.row.date	Date	date	date	NN	O						
+-1	4	fb:row.row.pole_position	Pole position	pole|position	Pole|position	NNP|NN	O|O	|					
+-1	5	fb:row.row.fastest_lap	Fastest lap	fastest|lap	fastest|lap	JJS|NN	O|O	|					
+-1	6	fb:row.row.winning_driver	Winning driver	winning|driver	win|driver	VBG|NN	O|O	|					
+-1	7	fb:row.row.headline_event	Headline event	headline|event	headline|event	NN|NN	O|O	|					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.albert_whitted_airport	Albert Whitted Airport	albert|whitted|airport	Albert|Whitted|Airport	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+0	2	fb:cell.st_petersburg_florida	St. Petersburg, Florida	st.|petersburg|,|florida	St.|Petersburg|,|Florida	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				St. Petersburg|Florida	fb:part.st_petersburg|fb:part.florida
+0	3	fb:cell.february_23	February 23	february|23	February|23	NNP|CD	DATE|DATE	XXXX-02-23|XXXX-02-23	23.0	xxxx-02-23			
+0	4	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+0	5	fb:cell.dan_di_leo	Dan Di Leo	dan|di|leo	Dan|Di|Leo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+0	6	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+0	7	fb:cell.grand_prix_of_st_petersburg	Grand Prix of St. Petersburg	grand|prix|of|st.|petersburg	Grand|Prix|of|St.|Petersburg	NNP|NNP|IN|NNP|NNP	MISC|MISC|O|LOCATION|LOCATION	||||					
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.fundidora_park	Fundidora park	fundidora|park	Fundidora|park	NNP|NN	O|O	|					
+1	2	fb:cell.monterrey	Monterrey	monterrey	Monterrey	NNP	LOCATION					Monterrey	fb:part.monterrey
+1	3	fb:cell.march_23	March 23	march|23	March|23	NNP|CD	DATE|DATE	XXXX-03-23|XXXX-03-23	23.0	xxxx-03-23			
+1	4	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+1	5	fb:cell.david_martinez	David Martínez	david|martínez	David|Martínez	NNP|NNP	PERSON|PERSON	|					
+1	6	fb:cell.david_martinez	David Martínez	david|martínez	David|Martínez	NNP|NNP	PERSON|PERSON	|					
+1	7	fb:cell.monterrey_grand_prix	Monterrey Grand Prix	monterrey|grand|prix	Monterrey|Grand|Prix	NNP|NNP|NNP	LOCATION|O|O	||					
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.milwaukee_mile	Milwaukee Mile	milwaukee|mile	Milwaukee|Mile	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+2	2	fb:cell.west_allis_wisconsin	West Allis, Wisconsin	west|allis|,|wisconsin	West|Allis|,|Wisconsin	NNP|NNP|,|NNP	PERSON|PERSON|O|LOCATION	|||				West Allis|Wisconsin	fb:part.west_allis|fb:part.wisconsin
+2	3	fb:cell.june_1	June 1	june|1	June|1	NNP|CD	DATE|DATE	XXXX-06-01|XXXX-06-01	1.0	xxxx-06-01			
+2	4	fb:cell.victor_gonzalez_jr	Victor Gonzalez, Jr.	victor|gonzalez|,|jr.|.	Victor|Gonzalez|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Victor Gonzalez|Jr.	fb:part.victor_gonzalez|fb:part.jr
+2	5	fb:cell.scott_poirier	Scott Poirier	scott|poirier	Scott|Poirier	NNP|NNP	PERSON|PERSON	|					
+2	6	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+2	7	fb:cell.milwaukee_mile_centennial_250	Milwaukee Mile Centennial 250	milwaukee|mile|centennial|250	Milwaukee|Mile|Centennial|250	NNP|NNP|NNP|CD	O|O|SET|NUMBER	|||250.0	250.0				
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.mazda_raceway_laguna_seca	Mazda Raceway Laguna Seca	mazda|raceway|laguna|seca	Mazda|Raceway|Laguna|Seca	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+3	2	fb:cell.monterey_california	Monterey, California	monterey|,|california	Monterey|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Monterey|California	fb:part.monterey|fb:part.california
+3	3	fb:cell.june_15	June 15	june|15	June|15	NNP|CD	DATE|DATE	XXXX-06-15|XXXX-06-15	15.0	xxxx-06-15			
+3	4	fb:cell.memo_rojas	Memo Rojas	memo|rojas	Memo|Rojas	NNP|NNP	O|O	|				Memo Rojas	fb:part.memo_rojas
+3	5	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+3	6	fb:cell.dan_di_leo	Dan Di Leo	dan|di|leo	Dan|Di|Leo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+3	7	fb:cell.grand_prix_of_monterey	Grand Prix of Monterey	grand|prix|of|monterey	Grand|Prix|of|Monterey	NNP|NNP|IN|NNP	MISC|MISC|O|LOCATION	|||					
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.portland_international_raceway	Portland International Raceway	portland|international|raceway	Portland|International|Raceway	NNP|NNP|NNP	LOCATION|O|O	||					
+4	2	fb:cell.portland_oregon	Portland, Oregon	portland|,|oregon	Portland|,|Oregon	NNP|,|NNP	LOCATION|O|LOCATION	||				Portland|Oregon	fb:part.portland|fb:part.oregon
+4	3	fb:cell.june_22	June 22	june|22	June|22	NNP|CD	DATE|DATE	XXXX-06-22|XXXX-06-22	22.0	xxxx-06-22			
+4	4	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+4	5	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+4	6	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+4	7	fb:cell.g_i_joe_s_200	G.I. Joe's 200	g.i.|joe|'s|200	G.I.|Joe|'s|200	NNP|NNP|POS|CD	O|PERSON|O|NUMBER	|||200.0					
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.burke_lakefront_airport	Burke Lakefront Airport	burke|lakefront|airport	Burke|Lakefront|Airport	NNP|NNP|NNP	O|O|O	||					
+5	2	fb:cell.cleveland_ohio	Cleveland, Ohio	cleveland|,|ohio	Cleveland|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Cleveland|Ohio	fb:part.cleveland|fb:part.ohio
+5	3	fb:cell.july_5	July 5	july|5	July|5	NNP|CD	DATE|DATE	XXXX-07-05|XXXX-07-05	5.0	xxxx-07-05			
+5	4	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+5	5	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+5	6	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+5	7	fb:cell.u_s_bank_cleveland_grand_prix	U.S. Bank Cleveland Grand Prix	u.s.|bank|cleveland|grand|prix	U.S.|Bank|Cleveland|Grand|Prix	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O	||||					
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.exhibition_place	Exhibition Place	exhibition|place	Exhibition|Place	NNP|NNP	O|O	|					
+6	2	fb:cell.toronto	Toronto	toronto	Toronto	NNP	LOCATION					Toronto	fb:part.toronto
+6	3	fb:cell.july_13	July 13	july|13	July|13	NNP|CD	DATE|DATE	XXXX-07-13|XXXX-07-13	13.0	xxxx-07-13			
+6	4	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+6	5	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+6	6	fb:cell.memo_rojas	Memo Rojas	memo|rojas	Memo|Rojas	NNP|NNP	O|O	|				Memo Rojas	fb:part.memo_rojas
+6	7	fb:cell.molson_indy_toronto	Molson Indy Toronto	molson|indy|toronto	Molson|Indy|Toronto	NNP|NNP|NNP	O|O|LOCATION	||					
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.concord_pacific_place	Concord Pacific Place	concord|pacific|place	Concord|Pacific|Place	NNP|NNP|NNP	O|O|O	||					
+7	2	fb:cell.vancouver	Vancouver	vancouver	Vancouver	NNP	LOCATION					Vancouver	fb:part.vancouver
+7	3	fb:cell.july_27	July 27	july|27	July|27	NNP|CD	DATE|DATE	XXXX-07-27|XXXX-07-27	27.0	xxxx-07-27			
+7	4	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+7	5	fb:cell.david_martinez	David Martínez	david|martínez	David|Martínez	NNP|NNP	PERSON|PERSON	|					
+7	6	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+7	7	fb:cell.molson_indy_vancouver	Molson Indy Vancouver	molson|indy|vancouver	Molson|Indy|Vancouver	NNP|NNP|NNP	O|O|O	||					
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.mid_ohio_sports_car_course	Mid-Ohio Sports Car Course	mid|ohio|sports|car|course	Mid|Ohio|Sports|Car|Course	NNP|NNP|NNP|NNP|NNP	O|O|O|O|O	||||					
+8	2	fb:cell.lexington_ohio	Lexington, Ohio	lexington|,|ohio	Lexington|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Lexington|Ohio	fb:part.lexington|fb:part.ohio
+8	3	fb:cell.august_3	August 3	august|3	August|3	NNP|CD	DATE|DATE	XXXX-08-03|XXXX-08-03	3.0	xxxx-08-03			
+8	4	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+8	5	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+8	6	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+8	7	fb:cell.champ_car_grand_prix_of_mid_ohio	Champ Car Grand Prix of Mid-Ohio	champ|car|grand|prix|of|mid|ohio	Champ|Car|Grand|Prix|of|Mid|Ohio	NNP|NNP|NNP|NNP|IN|NNP|NNP	MISC|MISC|MISC|MISC|O|LOCATION|LOCATION	||||||					
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.circuit_gilles_villeneuve	Circuit Gilles Villeneuve	circuit|gilles|villeneuve	Circuit|Gilles|Villeneuve	NNP|NNP|NNP	O|PERSON|PERSON	||					
+9	2	fb:cell.montreal	Montreal	montreal	Montreal	NNP	LOCATION					Montreal	fb:part.montreal
+9	3	fb:cell.august_24	August 24	august|24	August|24	NNP|CD	DATE|DATE	XXXX-08-24|XXXX-08-24	24.0	xxxx-08-24			
+9	4	fb:cell.memo_rojas	Memo Rojas	memo|rojas	Memo|Rojas	NNP|NNP	O|O	|				Memo Rojas	fb:part.memo_rojas
+9	5	fb:cell.leonardo_maia	Leonardo Maia	leonardo|maia	Leonardo|Maia	NNP|NNP	PERSON|PERSON	|				Leonardo Maia	fb:part.leonardo_maia
+9	6	fb:cell.memo_rojas	Memo Rojas	memo|rojas	Memo|Rojas	NNP|NNP	O|O	|				Memo Rojas	fb:part.memo_rojas
+9	7	fb:cell.molson_indy_montreal	Molson Indy Montreal	molson|indy|montreal	Molson|Indy|Montreal	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					

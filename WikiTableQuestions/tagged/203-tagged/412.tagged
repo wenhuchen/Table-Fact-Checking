@@ -1,0 +1,64 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.school	School	school	School	NNP	O						
+-1	1	fb:row.row.conference	Conference	conference	conference	NN	O						
+-1	2	fb:row.row.record_conference	Record (conference)	record|-lrb-|conference|-rrb-	Record|-lrb-|conference|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.head_coach	Head coach	head|coach	Head|coach	NNP|NN	O|O	|					
+-1	4	fb:row.row.cws_appearances	CWS appearances	cws|appearances	CWS|appearance	NNP|NNS	O|O	|					
+-1	5	fb:row.row.cws_best_finish	CWS best finish	cws|best|finish	CWS|best|finish	NNP|JJS|NN	ORGANIZATION|O|O	||					
+-1	6	fb:row.row.cws_record	CWS record	cws|record	cw|record	NN|NN	O|O	|					
+0	0	fb:cell.arizona	Arizona	arizona	Arizona	NNP	LOCATION						
+0	1	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+0	2	fb:cell.36_8_n_a	36–8 (N/A)	36|--|8|-lrb-|n\\/a|-rrb-	36|--|8|-lrb-|n\\/a|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	36.0||8.0|||	36.0		8.0	36–8 (N|A)	fb:part.36_8_n|fb:part.a_2
+0	3	fb:cell.frank_sancet	Frank Sancet	frank|sancet	Frank|Sancet	NNP|NNP	PERSON|PERSON	|					
+0	4	fb:cell.4_last_1958	4\n(last: 1958)	4|-lrb-|last|:|1958|-rrb-	4|-lrb-|last|:|1958|-rrb-	CD|-LRB-|JJ|:|CD|-RRB-	NUMBER|O|O|O|DATE|O	4.0||||1958|	4.0		1958.0	4|(last: 1958)	fb:part.4|fb:part._last_1958
+0	5	fb:cell.2nd_1956	2nd\n(1956)	2nd|-lrb-|1956|-rrb-	2nd|-lrb-|1956|-rrb-	JJ|-LRB-|CD|-RRB-	ORDINAL|O|DATE|O	2.0||1956|	2.0		1956.0	2nd|(1956)	fb:part.2nd|fb:part._1956
+0	6	fb:cell.7_8	7–8	7|--|8	7|--|8	CD|:|CD	NUMBER|O|NUMBER	7.0||8.0	7.0		8.0		
+1	0	fb:cell.clemson	Clemson	clemson	Clemson	NNP	PERSON						
+1	1	fb:cell.acc	ACC	acc	acc	NN	O					ACC	fb:part.acc
+1	2	fb:cell.23_6_11_5_0_gb	23 –6 (11–5, 0 GB)	23|--|6|-lrb-|11|--|5|,|0|gb|-rrb-	23|--|6|-lrb-|11|--|5|,|0|gb|-rrb-	CD|:|CD|-LRB-|CD|:|CD|,|CD|NN|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	23.0||6.0||11.0||5.0||0.0||	23.0		6.0	23 –6 (11–5|0 GB)	fb:part.23_6_11_5|fb:part.0_gb
+1	3	fb:cell.bill_wilhelm	Bill Wilhelm	bill|wilhelm	Bill|Wilhelm	NNP|NNP	PERSON|PERSON	|					
+1	4	fb:cell.1_last_1958	1\n(last: 1958)	1|-lrb-|last|:|1958|-rrb-	1|-lrb-|last|:|1958|-rrb-	CD|-LRB-|JJ|:|CD|-RRB-	NUMBER|O|O|O|DATE|O	1.0||||1958|	1.0		1958.0	1|(last: 1958)	fb:part.1|fb:part._last_1958
+1	5	fb:cell.5th_1958	5th\n(1958)	5th|-lrb-|1958|-rrb-	5th|-lrb-|1958|-rrb-	NN|-LRB-|CD|-RRB-	ORDINAL|O|DATE|O	5.0||1958|	5.0		1958.0	5th|(1958)	fb:part.5th|fb:part._1958
+1	6	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+2	0	fb:cell.colorado_state	Colorado State	colorado|state	Colorado|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+2	1	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+2	2	fb:cell.24_5_n_a	24–5 (N/A)	24|--|5|-lrb-|n\\/a|-rrb-	24|--|5|-lrb-|n\\/a|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	24.0||5.0|||	24.0		5.0	24–5 (N|A)	fb:part.24_5_n|fb:part.a_2
+2	3	fb:cell.pete_butler	Pete Butler	pete|butler	Pete|Butler	NNP|NNP	PERSON|PERSON	|					
+2	4	fb:cell.5_last_1958	5\n(last: 1958)	5|-lrb-|last|:|1958|-rrb-	5|-lrb-|last|:|1958|-rrb-	CD|-LRB-|JJ|:|CD|-RRB-	NUMBER|O|O|O|DATE|O	5.0||||1958|	5.0		1958.0	5|(last: 1958)	fb:part.5|fb:part._last_1958
+2	5	fb:cell.5th_1955	5th\n(1955)	5th|-lrb-|1955|-rrb-	5th|-lrb-|1955|-rrb-	NN|-LRB-|CD|-RRB-	ORDINAL|O|DATE|O	5.0||1955|	5.0		1955.0	5th|(1955)	fb:part.5th|fb:part._1955
+2	6	fb:cell.2_10	2–10	2|--|10	2|--|10	CD|:|CD	NUMBER|O|NUMBER	2.0||10.0	2.0		10.0		
+3	0	fb:cell.connecticut	Connecticut	connecticut	Connecticut	NNP	LOCATION						
+3	1	fb:cell.null											fb:part.null
+3	2	fb:cell.20_1_n_a	20–1 (N/A)	20|--|1|-lrb-|n\\/a|-rrb-	20|--|1|-lrb-|n\\/a|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	20.0||1.0|||	20.0		1.0	20–1 (N|A)	fb:part.20_1_n|fb:part.a_2
+3	3	fb:cell.j_orlean_christian	J. Orlean Christian	j.|orlean|christian	J.|Orlean|Christian	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+3	4	fb:cell.1_last_1957	1\n(last: 1957)	1|-lrb-|last|:|1957|-rrb-	1|-lrb-|last|:|1957|-rrb-	CD|-LRB-|JJ|:|CD|-RRB-	NUMBER|O|O|O|DATE|O	1.0||||1957|	1.0		1957.0	1|(last: 1957)	fb:part.1|fb:part._last_1957
+3	5	fb:cell.5th_1957	5th\n(1957)	5th|-lrb-|1957|-rrb-	5th|-lrb-|1957|-rrb-	NN|-LRB-|CD|-RRB-	ORDINAL|O|DATE|O	5.0||1957|	5.0		1957.0	5th|(1957)	fb:part.5th|fb:part._1957
+3	6	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+4	0	fb:cell.fresno_state	Fresno State	fresno|state	Fresno|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+4	1	fb:cell.null											fb:part.null
+4	2	fb:cell.38_11_n_a	38–11 (N/A)	38|--|11|-lrb-|n\\/a|-rrb-	38|--|11|-lrb-|n\\/a|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	38.0||11.0|||	38.0		11.0	38–11 (N|A)	fb:part.38_11_n|fb:part.a_2
+4	3	fb:cell.pete_beiden	Pete Beiden	pete|beiden	Pete|Beiden	NNP|NNP	PERSON|PERSON	|					
+4	4	fb:cell.0_last_none	0\n(last: none)	0|-lrb-|last|:|none|-rrb-	0|-lrb-|last|:|none|-rrb-	CD|-LRB-|JJ|:|NN|-RRB-	NUMBER|O|O|O|O|O	0.0|||||	0.0			0|(last: none)	fb:part.0|fb:part._last_none
+4	5	fb:cell.none	none	none	none	NN	O					none	fb:part.none
+4	6	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+5	0	fb:cell.oklahoma_state	Oklahoma State	oklahoma|state	Oklahoma|State	NNP|NNP	LOCATION|LOCATION	|					
+5	1	fb:cell.big_8	Big 8	big|8	big|8	JJ|CD	O|NUMBER	|8.0	8.0			Big 8	fb:part.big_8
+5	2	fb:cell.22_4_17_3_0_gb	22–4 (17–3, 0 GB)	22|--|4|-lrb-|17|--|3|,|0|gb|-rrb-	22|--|4|-lrb-|17|--|3|,|0|gb|-rrb-	CD|:|CD|-LRB-|CD|:|CD|,|CD|NN|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	22.0||4.0||17.0||3.0||0.0||	22.0		4.0	22–4 (17–3|0 GB)	fb:part.22_4_17_3|fb:part.0_gb
+5	3	fb:cell.toby_greene	Toby Greene	toby|greene	Toby|Greene	NNP|NNP	PERSON|PERSON	|					
+5	4	fb:cell.2_last_1955	2\n(last: 1955)	2|-lrb-|last|:|1955|-rrb-	2|-lrb-|last|:|1955|-rrb-	CD|-LRB-|JJ|:|CD|-RRB-	NUMBER|O|O|O|DATE|O	2.0||||1955|	2.0		1955.0	2|(last: 1955)	fb:part.2|fb:part._last_1955
+5	5	fb:cell.3rd_1955	3rd\n(1955)	3rd|-lrb-|1955|-rrb-	3rd|-lrb-|1955|-rrb-	NN|-LRB-|CD|-RRB-	ORDINAL|O|DATE|O	3.0||1955|	3.0		1955.0	3rd|(1955)	fb:part.3rd|fb:part._1955
+5	6	fb:cell.5_4	5–4	5|--|4	5|--|4	CD|:|CD	NUMBER|O|NUMBER	5.0||4.0	5.0		4.0		
+6	0	fb:cell.penn_state	Penn State	penn|state	Penn|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	1	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+6	2	fb:cell.15_4_n_a	15–4 (N/A)	15|--|4|-lrb-|n\\/a|-rrb-	15|--|4|-lrb-|n\\/a|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	15.0||4.0|||	15.0		4.0	15–4 (N|A)	fb:part.15_4_n|fb:part.a_2
+6	3	fb:cell.joe_bedenk	Joe Bedenk	joe|bedenk	Joe|Bedenk	NNP|NNP	PERSON|PERSON	|					
+6	4	fb:cell.2_last_1957	2\n(last: 1957)	2|-lrb-|last|:|1957|-rrb-	2|-lrb-|last|:|1957|-rrb-	CD|-LRB-|JJ|:|CD|-RRB-	NUMBER|O|O|O|DATE|O	2.0||||1957|	2.0		1957.0	2|(last: 1957)	fb:part.2|fb:part._last_1957
+6	5	fb:cell.2nd_1957	2nd\n(1957)	2nd|-lrb-|1957|-rrb-	2nd|-lrb-|1957|-rrb-	JJ|-LRB-|CD|-RRB-	ORDINAL|O|DATE|O	2.0||1957|	2.0		1957.0	2nd|(1957)	fb:part.2nd|fb:part._1957
+6	6	fb:cell.5_4	5–4	5|--|4	5|--|4	CD|:|CD	NUMBER|O|NUMBER	5.0||4.0	5.0		4.0		
+7	0	fb:cell.western_michigan	Western Michigan	western|michigan	western|Michigan	JJ|NNP	LOCATION|LOCATION	|					
+7	1	fb:cell.mac	MAC	mac	MAC	NNP	O					MAC	fb:part.mac
+7	2	fb:cell.24_7_8_2_0_gb	24–7 (8–2, 0 GB)	24|--|7|-lrb-|8|--|2|,|0|gb|-rrb-	24|--|7|-lrb-|8|--|2|,|0|gb|-rrb-	CD|:|CD|-LRB-|CD|:|CD|,|CD|NN|-RRB-	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|O	24.0||7.0||8.0||2.0||0.0||	24.0		7.0	24–7 (8–2|0 GB)	fb:part.24_7_8_2|fb:part.0_gb
+7	3	fb:cell.charlie_maher	Charlie Maher	charlie|maher	Charlie|Maher	NNP|NNP	PERSON|PERSON	|					
+7	4	fb:cell.3_last_1958	3\n(last: 1958)	3|-lrb-|last|:|1958|-rrb-	3|-lrb-|last|:|1958|-rrb-	CD|-LRB-|JJ|:|CD|-RRB-	NUMBER|O|O|O|DATE|O	3.0||||1958|	3.0		1958.0	3|(last: 1958)	fb:part.3|fb:part._last_1958
+7	5	fb:cell.2nd_1955	2nd\n(1955)	2nd|-lrb-|1955|-rrb-	2nd|-lrb-|1955|-rrb-	JJ|-LRB-|CD|-RRB-	ORDINAL|O|DATE|O	2.0||1955|	2.0		1955.0	2nd|(1955)	fb:part.2nd|fb:part._1955
+7	6	fb:cell.7_6	7–6	7|--|6	7|--|6	CD|:|CD	NUMBER|O|NUMBER	7.0||6.0	7.0		6.0		

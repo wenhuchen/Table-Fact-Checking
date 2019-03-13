@@ -1,0 +1,65 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.type	Type	type	type	NN	O						
+-1	1	fb:row.row.manufacturer	Manufacturer	manufacturer	manufacturer	NN	O						
+-1	2	fb:row.row.numbers	Numbers	numbers	number	NNS	O						
+-1	3	fb:row.row.year_built	Year built	year|built	year|build	NN|VBD	DURATION|O	|					
+-1	4	fb:row.row.quantity_built	Quantity built	quantity|built	quantity|build	NN|VBD	O|O	|					
+-1	5	fb:row.row.power_horsepower	Power (horsepower)	power|-lrb-|horsepower|-rrb-	power|-lrb-|horsepower|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	6	fb:row.row.max_speed_km_h	Max Speed (km/h)	max|speed|-lrb-|km\\/h|-rrb-	Max|speed|-lrb-|km\\/h|-rrb-	NNP|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	7	fb:row.row.note	Note	note	note	VB	O						
+0	0	fb:cell.rhn	RHN	rhn	rhn	NN	O					RHN	fb:part.rhn
+0	1	fb:cell.hitachi	Hitachi	hitachi	Hitachi	NNP	PERSON					Hitachi	fb:part.hitachi
+0	2	fb:cell.1011_1048_power_cars_11_48_trailer_cars	1011-1048 (power cars)\n11-48\n(trailer cars)	1011-1048|-lrb-|power|cars|-rrb-|11-48|-lrb-|trailer|cars|-rrb-	1011-1048|-lrb-|power|car|-rrb-|11-48|-lrb-|trailer|car|-rrb-	CD|-LRB-|NN|NNS|-RRB-|CD|-LRB-|NN|NNS|-RRB-	DATE|O|O|O|O|NUMBER|O|O|O|O	1011/1048|||||11.0 - 48.0||||	1011.0		1048.0	1011-1048 (power cars)|11-48|(trailer cars)	fb:part.1011_1048_power_cars|fb:part.11_48|fb:part._trailer_cars
+0	3	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+0	4	fb:cell.38_38	38+38	38|+38	38|+38	CD|CD	NUMBER|NUMBER	38.0|38.0	38.0		38.0		
+0	5	fb:cell.220	220	220	220	CD	NUMBER	220.0	220.0				
+0	6	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+0	7	fb:cell.now_use_as_a_northeastern_line_commuter_train	Now use as a Northeastern line commuter train.	now|use|as|a|northeastern|line|commuter|train|.	now|use|as|a|northeastern|line|commuter|train|.	RB|VB|IN|DT|JJ|NN|NN|NN|.	DATE|O|O|O|MISC|O|O|O|O	PRESENT_REF||||||||				Now use as a Northeastern line commuter train.	fb:part.now_use_as_a_northeastern_line_commuter_train
+1	0	fb:cell.rts	RTS	rts	RTS	NNP	O					RTS	fb:part.rts
+1	1	fb:cell.tokyu	Tokyu	tokyu	Tokyu	NNP	PERSON					Tokyu	fb:part.tokyu
+1	2	fb:cell.d9_d16_power_cars_ts4_ts7_center_trailer_cars	D9-D16\n(power cars)\nTS4-TS7\n(center/trailer cars)	d9|d16|-lrb-|power|cars|-rrb-|ts4|ts7|-lrb-|center\\/trailer|cars|-rrb-	d9|d16|-lrb-|power|car|-rrb-|ts4|ts7|-lrb-|center\\/trailer|car|-rrb-	NN|NN|-LRB-|NN|NNS|-RRB-|NN|NN|-LRB-|NN|NNS|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||	9.0		16.0	D9-D16|(power cars)|TS4-TS7|(center|trailer cars)	fb:part.d9_d16|fb:part._power_cars|fb:part.ts4_ts7|fb:part._center|fb:part.trailer_cars
+1	3	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+1	4	fb:cell.8_4	8+4	8|+4	8|+4	CD|CD	NUMBER|NUMBER	8.0|8.0	8.0		4.0		
+1	5	fb:cell.220	220	220	220	CD	NUMBER	220.0	220.0				
+1	6	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+1	7	fb:cell.ex_mahachai_railways_to_be_refurbished_similar_bodyshell_of_thn_and_nkf_but_with_different_formation_power_car_2_trailer_cars	Ex-Mahachai railways, to be refurbished. Similar bodyshell of THN and NKF but with different formation (power car-2 trailer cars).	ex|mahachai|railways|,|to|be|refurbished|.|similar|bodyshell|of|thn|and|nkf|but|with|different|formation|-lrb-|power|car-2|trailer|cars|-rrb-|.	ex|mahachai|railway|,|to|be|refurbish|.|similar|bodyshell|of|thn|and|NKF|but|with|different|formation|-lrb-|power|car-2|trailer|car|-rrb-|.	FW|FW|NNS|,|TO|VBD-AUX|VBN|.|JJ|NN|IN|NN|CC|NNP|CC|IN|JJ|NN|-LRB-|NN|NN|NN|NNS|-RRB-|.	MISC|MISC|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||||||||				Ex-Mahachai railways|to be refurbished. Similar bodyshell of THN and NKF but with different formation (power car-2 trailer cars).	fb:part.ex_mahachai_railways|fb:part.to_be_refurbished_similar_bodyshell_of_thn_and_nkf_but_with_different_formation_power_car_2_trailer_cars
+2	0	fb:cell.thn	THN	thn	thn	NN	O					THN	fb:part.thn
+2	1	fb:cell.tokyu_hitachi_and_nippon_sharyo	Tokyu, Hitachi and Nippon Sharyo	tokyu|,|hitachi|and|nippon|sharyo	Tokyu|,|Hitachi|and|Nippon|Sharyo	NNP|,|NNP|CC|NNP|NNP	ORGANIZATION|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION	|||||				Tokyu|Hitachi and Nippon Sharyo	fb:part.tokyu|fb:part.hitachi_and_nippon_sharyo
+2	2	fb:cell.1101_1140	1101–1140	1101|--|1140	1101|--|1140	CD|:|CD	DATE|DATE|DATE	1101|1101|1140	1101.0		1140.0	1101–1140	fb:part.1101_1140
+2	3	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+2	4	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+2	5	fb:cell.235	235	235	235	CD	NUMBER	235.0	235.0				
+2	6	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+2	7	fb:cell.similar_to_nkf	Similar to NKF.	similar|to|nkf|.	similar|to|NKF|.	JJ|TO|NNP|.	O|O|ORGANIZATION|O	|||				Similar to NKF.	fb:part.similar_to_nkf
+3	0	fb:cell.nkf	NKF	nkf	NKF	NNP	O					NKF	fb:part.nkf
+3	1	fb:cell.nippon_sharyo_hitachi_fuji_heavy_industries_kawasaki_heavy_industries_niigata_tekkousho_and_kinki_sharyo	Nippon Sharyo, Hitachi, Fuji Heavy Industries,Kawasaki Heavy Industries, Niigata Tekkousho, and Kinki Sharyo	nippon|sharyo|,|hitachi|,|fuji|heavy|industries|,|kawasaki|heavy|industries|,|niigata|tekkousho|,|and|kinki|sharyo	Nippon|Sharyo|,|Hitachi|,|Fuji|Heavy|Industries|,|Kawasaki|Heavy|Industries|,|Niigata|Tekkousho|,|and|Kinki|Sharyo	NNP|NNP|,|NNP|,|NNP|NNP|NNPS|,|NNP|NNP|NNPS|,|NNP|NNP|,|CC|NNP|NNP	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|PERSON|O|O|PERSON|PERSON	||||||||||||||||||				Nippon Sharyo|Hitachi|Fuji Heavy Industries,Kawasaki Heavy Industries|Niigata Tekkousho|and Kinki Sharyo	fb:part.nippon_sharyo|fb:part.hitachi|fb:part.fuji_heavy_industries_kawasaki_heavy_industries|fb:part.niigata_tekkousho|fb:part.and_kinki_sharyo
+3	2	fb:cell.1201_1264_center_2101_2112	1201–1264, (center) 2101-2112	1201|--|1264|,|-lrb-|center|-rrb-|2101-2112	1201|--|1264|,|-lrb-|center|-rrb-|2101-2112	CD|:|CD|,|-LRB-|NN|-RRB-|CD	DATE|DATE|DATE|O|O|O|O|DATE	1201|1201|1264|||||2101/2112	1201.0		1264.0	1201–1264|(center) 2101-2112	fb:part.1201_1264|fb:part._center_2101_2112
+3	3	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+3	4	fb:cell.64_12	64+12	64|+12	64|+12	CD|CD	NUMBER|NUMBER	64.0|64.0	64.0		12.0		
+3	5	fb:cell.235	235	235	235	CD	NUMBER	235.0	235.0				
+3	6	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+3	7	fb:cell.similar_to_thn_but_with_plastic_chairs	Similar to THN, but with plastic chairs.	similar|to|thn|,|but|with|plastic|chairs|.	similar|to|THN|,|but|with|plastic|chair|.	JJ|TO|NNP|,|CC|IN|JJ|NNS|.	O|O|O|O|O|O|O|O|O	||||||||				Similar to THN|but with plastic chairs.	fb:part.similar_to_thn|fb:part.but_with_plastic_chairs
+4	0	fb:cell.asr_class_158_express_sprinter	ASR\n(Class 158 Express Sprinter)	asr|-lrb-|class|158|express|sprinter|-rrb-	ASR|-lrb-|Class|158|Express|Sprinter|-rrb-	NNP|-LRB-|NNP|CD|NNP|NNP|-RRB-	ORGANIZATION|O|O|NUMBER|O|O|O	|||158.0|||	158.0			ASR|(Class 158 Express Sprinter)	fb:part.asr|fb:part._class_158_express_sprinter
+4	1	fb:cell.brel_derby_works	BREL, Derby Works	brel|,|derby|works	BREL|,|Derby|Works	NNP|,|NNP|NNP	ORGANIZATION|O|LOCATION|LOCATION	|||				BREL|Derby Works	fb:part.brel|fb:part.derby_works
+4	2	fb:cell.2501_2512_center_2113_2120	2501–2512, (center) 2113-2120	2501|--|2512|,|-lrb-|center|-rrb-|2113-2120	2501|--|2512|,|-lrb-|center|-rrb-|2113-2120	CD|:|CD|,|-LRB-|NN|-RRB-|CD	DATE|DATE|DATE|O|O|O|O|DATE	2501|2501|2512|||||2113/2120	2501.0		2512.0	2501–2512|(center) 2113-2120	fb:part.2501_2512|fb:part._center_2113_2120
+4	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+4	4	fb:cell.12_8	12+8	12|+8	12|+8	CD|CD	NUMBER|NUMBER	12.0|12.0	12.0		8.0		
+4	5	fb:cell.285	285	285	285	CD	NUMBER	285.0	285.0				
+4	6	fb:cell.120	120	120	120	CD	NUMBER	120.0	120.0				
+4	7	fb:cell.metre_gauge_version_of_british_rail_class_158_with_different_gangways_and_couplers_and_with_inward_opening_slam_doors_instead_of_plug_doors_3_car_set_until_2011_when_all_were_refurbished_with_new_seats_vinyl_floors_an_extra_coach_and_new_livery	Metre gauge version of British Rail Class 158, with different gangways and couplers, and with inward-opening slam doors instead of plug doors. 3-car set until 2011, when all were refurbished with new seats, vinyl floors, an extra coach and new livery.	metre|gauge|version|of|british|rail|class|158|,|with|different|gangways|and|couplers|,|and|with|inward|opening|slam|doors|instead|of|plug|doors|.|3|car|set|until|2011|,|when|all|were|refurbished|with|new|seats|,|vinyl|floors|,|an|extra|coach|and|new|livery|.	Metre|gauge|version|of|british|Rail|Class|158|,|with|different|gangway|and|coupler|,|and|with|inward|opening|slam|door|instead|of|plug|door|.|3|car|set|until|2011|,|when|all|be|refurbish|with|new|seat|,|vinyl|floor|,|a|extra|coach|and|new|livery|.	NNP|NN|NN|IN|JJ|NNP|NNP|CD|,|IN|JJ|NNS|CC|NNS|,|CC|IN|JJ|NN|NN|NNS|RB|IN|NN|NNS|.|CD|NN|VBN|IN|CD|,|WRB|DT|VBD-AUX|VBN|IN|JJ|NNS|,|NN|NNS|,|DT|JJ|NN|CC|JJ|NN|.	O|O|O|O|MISC|MISC|MISC|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|DATE|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||158.0|||||||||||||||||||3.0||||2011|||||||||||||||||||	158.0		0.3	Metre gauge version of British Rail Class 158|with different gangways and couplers|and with inward-opening slam doors instead of plug doors. 3-car set until 2011|when all were refurbished with new seats|vinyl floors|an extra coach and new livery.	fb:part.metre_gauge_version_of_british_rail_class_158|fb:part.with_different_gangways_and_couplers|fb:part.and_with_inward_opening_slam_doors_instead_of_plug_doors_3_car_set_until_2011|fb:part.when_all_were_refurbished_with_new_seats|fb:part.vinyl_floors|fb:part.an_extra_coach_and_new_livery
+5	0	fb:cell.apd_20	APD .20	apd|.20	APD|.20	NNP|CD	O|NUMBER	|0.2	0.2			APD .20	fb:part.apd_20
+5	1	fb:cell.daewoo_heavy_industries	Daewoo Heavy Industries	daewoo|heavy|industries	Daewoo|Heavy|Industries	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Daewoo Heavy Industries	fb:part.daewoo_heavy_industries
+5	2	fb:cell.2513_2524_center_2121_2128	2513-2524 (center) 2121-2128	2513-2524|-lrb-|center|-rrb-|2121-2128	2513-2524|-lrb-|center|-rrb-|2121-2128	NN|-LRB-|NN|-RRB-|CD	DATE|O|O|O|DATE	2513/2524||||2121/2128	2513.0		2524.0	2513-2524 (center) 2121-2128	fb:part.2513_2524_center_2121_2128
+5	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+5	4	fb:cell.10_8	10+8	10|+8	10|+8	CD|CD	NUMBER|NUMBER	10.0|10.0	10.0		8.0		
+5	5	fb:cell.298	298	298	298	CD	NUMBER	298.0	298.0				
+5	6	fb:cell.120	120	120	120	CD	NUMBER	120.0	120.0				
+5	7	fb:cell.first_batch_narrow_body	First batch, narrow body.	first|batch|,|narrow|body|.	first|batch|,|narrow|body|.	JJ|NN|,|JJ|NN|.	ORDINAL|O|O|O|O|O	1.0|||||				First batch|narrow body.	fb:part.first_batch|fb:part.narrow_body
+6	0	fb:cell.apd_60	APD .60	apd|.60	APD|.60	NNP|CD	O|NUMBER	|0.6	0.6			APD .60	fb:part.apd_60
+6	1	fb:cell.daewoo_heavy_industries	Daewoo Heavy Industries	daewoo|heavy|industries	Daewoo|Heavy|Industries	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Daewoo Heavy Industries	fb:part.daewoo_heavy_industries
+6	2	fb:cell.2525_2544	2525-2544	2525-2544	2525-2544	CD	DATE	2525/2544	2525.0		2544.0	2525-2544	fb:part.2525_2544
+6	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+6	4	fb:cell.20_40	20+40	20|+40	20|+40	CD|CD	NUMBER|NUMBER	20.0|20.0	20.0		40.0		
+6	5	fb:cell.298	298	298	298	CD	NUMBER	298.0	298.0				
+6	6	fb:cell.120	120	120	120	CD	NUMBER	120.0	120.0				
+6	7	fb:cell.second_batch_wide_body	Second batch, wide body.	second|batch|,|wide|body|.	second|batch|,|wide|body|.	JJ|NN|,|JJ|NN|.	ORDINAL|O|O|O|O|O	2.0|||||				Second batch|wide body.	fb:part.second_batch|fb:part.wide_body

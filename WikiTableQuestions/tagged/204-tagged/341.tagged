@@ -1,0 +1,256 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name_in_english	Name in English	name|in|english	name|in|English	VB|IN|NNP	O|O|MISC	||					
+-1	1	fb:row.row.name_in_turkish	Name in Turkish	name|in|turkish	name|in|turkish	VB|IN|JJ	O|O|MISC	||					
+-1	2	fb:row.row.area_km2	Area (km2)	area|-lrb-|km2|-rrb-	area|-lrb-|km2|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.depth	Depth	depth	depth	NN	O						
+-1	4	fb:row.row.location_districts_and_or_provinces	Location (districts and/or provinces)	location|-lrb-|districts|and\\/or|provinces|-rrb-	Location|-lrb-|district|and\\/or|province|-rrb-	NNP|-LRB-|NNS|CC|NNS|-RRB-	O|O|O|O|O|O	|||||					
+0	0	fb:cell.lake_van	Lake Van	lake|van	Lake|Van	NNP|NNP	O|O	|					
+0	1	fb:cell.van_golu	Van Gölü	van|gölü	Van|Gölü	NNP|NNP	O|O	|					
+0	2	fb:cell.3755_km2	3755 km2	3755|km2	3755|km2	CD|NN	NUMBER|O	3755.0|	3755.0		2.0		
+0	3	fb:cell.451_m	451 m	451|m	451|m	CD|NN	NUMBER|O	451.0|	451.0				
+0	4	fb:cell.van_bitlis	Van, Bitlis	van|,|bitlis	Van|,|Bitlis	NNP|,|NNP	O|O|LOCATION	||				Van|Bitlis	fb:part.van|fb:part.bitlis
+1	0	fb:cell.lake_tuz	Lake Tuz	lake|tuz	Lake|Tuz	NNP|NNP	O|O	|					
+1	1	fb:cell.tuz_golu	Tuz Gölü	tuz|gölü	Tuz|Gölü	NNP|NNP	MISC|MISC	|					
+1	2	fb:cell.1500_km2	1500 km2	1500|km2	1500|km2	CD|NN	DATE|O	1500|	1500.0		2.0		
+1	3	fb:cell.2_m	2 m	2|m	2|m	CD|NN	NUMBER|O	2.0|	2.0				
+1	4	fb:cell.aksaray_ankara_konya	Aksaray, Ankara, Konya	aksaray|,|ankara|,|konya	Aksaray|,|Ankara|,|Konya	NNP|,|NNP|,|NNP	LOCATION|O|LOCATION|O|LOCATION	||||				Aksaray|Ankara|Konya	fb:part.aksaray|fb:part.ankara|fb:part.konya
+2	0	fb:cell.lake_beysehir	Lake Beyşehir	lake|beyşehir	Lake|Beyşehir	NNP|NNP	O|O	|					
+2	1	fb:cell.beysehir_golu	Beyşehir Gölü	beyşehir|gölü	Beyşehir|Gölü	NNP|NNP	O|O	|					
+2	2	fb:cell.656_km2	656 km2	656|km2	656|km2	CD|NN	NUMBER|O	656.0|	656.0		2.0		
+2	3	fb:cell.10_m	10 m	10|m	10|m	CD|NN	NUMBER|O	10.0|	10.0				
+2	4	fb:cell.beysehir_in_konya_isparta	Beyşehir in Konya, Isparta	beyşehir|in|konya|,|isparta	Beyşehir|in|Konya|,|Isparta	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				Beyşehir in Konya|Isparta	fb:part.beysehir_in_konya|fb:part.isparta
+3	0	fb:cell.lake_egirdir	Lake Eğirdir	lake|eğirdir	Lake|Eğirdir	NNP|NNP	O|O	|					
+3	1	fb:cell.egirdir_golu	Eğirdir Gölü	eğirdir|gölü	Eğirdir|Gölü	NNP|NNP	O|O	|					
+3	2	fb:cell.482_km2	482 km2	482|km2	482|km2	CD|NN	NUMBER|O	482.0|	482.0		2.0		
+3	3	fb:cell.null											fb:part.null
+3	4	fb:cell.isparta	Isparta	isparta	Isparta	NNP	LOCATION					Isparta	fb:part.isparta
+4	0	fb:cell.lake_iznik	Lake İznik	lake|i̇znik	Lake|İznik	NNP|NNP	O|O	|					
+4	1	fb:cell.iznik_golu	İznik Gölü	i̇znik|gölü	İznik|Gölü	NNP|NNP	O|O	|					
+4	2	fb:cell.308_km2	308 km2	308|km2	308|km2	CD|NN	NUMBER|O	308.0|	308.0		2.0		
+4	3	fb:cell.null											fb:part.null
+4	4	fb:cell.iznik_in_bursa_yalova	İznik in Bursa, Yalova	i̇znik|in|bursa|,|yalova	İznik|in|Bursa|,|Yalova	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|LOCATION	||||				İznik in Bursa|Yalova	fb:part.iznik_in_bursa|fb:part.yalova
+5	0	fb:cell.lake_burdur	Lake Burdur	lake|burdur	Lake|Burdur	NNP|NNP	O|O	|					
+5	1	fb:cell.burdur_golu	Burdur Gölü	burdur|gölü	Burdur|Gölü	NNP|NNP	MISC|MISC	|					
+5	2	fb:cell.200_km2	200 km2	200|km2	200|km2	CD|NN	NUMBER|O	200.0|	200.0		2.0		
+5	3	fb:cell.null											fb:part.null
+5	4	fb:cell.burdur_isparta	Burdur, Isparta	burdur|,|isparta	Burdur|,|Isparta	NNP|,|NNP	MISC|O|LOCATION	||				Burdur|Isparta	fb:part.burdur|fb:part.isparta
+6	0	fb:cell.lake_manyas	Lake Manyas	lake|manyas	Lake|Manyas	NNP|NNPS	O|O	|					
+6	1	fb:cell.manyas_golu	Manyas Gölü	manyas|gölü	Manyas|Gölü	NNP|NNP	O|O	|					
+6	2	fb:cell.166_km2	166 km2	166|km2	166|km2	CD|NN	NUMBER|O	166.0|	166.0		2.0		
+6	3	fb:cell.null											fb:part.null
+6	4	fb:cell.bal_kesir	Balıkesir	balıkesir	balıkesir	NN	O					Balıkesir	fb:part.bal_kesir
+7	0	fb:cell.lake_ac_gol	Lake Acıgöl	lake|acıgöl	Lake|Acıgöl	NNP|NNP	O|O	|					
+7	1	fb:cell.ac_gol	Acıgöl	acıgöl	acıgöl	NN	O						
+7	2	fb:cell.153_km2	153 km2	153|km2	153|km2	CD|NN	NUMBER|O	153.0|	153.0		2.0		
+7	3	fb:cell.null											fb:part.null
+7	4	fb:cell.denizli_afyonkarahisar	Denizli, Afyonkarahisar	denizli|,|afyonkarahisar	Denizli|,|Afyonkarahisar	NNP|,|NNP	PERSON|O|O	||				Denizli|Afyonkarahisar	fb:part.denizli|fb:part.afyonkarahisar
+8	0	fb:cell.lake_uluabat	Lake Uluabat	lake|uluabat	Lake|Uluabat	NNP|NNP	O|O	|					
+8	1	fb:cell.uluabat_golu	Uluabat Gölü	uluabat|gölü	Uluabat|Gölü	NNP|NNP	O|O	|					
+8	2	fb:cell.134_km2	134 km2	134|km2	134|km2	CD|NN	NUMBER|O	134.0|	134.0		2.0		
+8	3	fb:cell.1_2_m	1–2 m	1|--|2|m	1|--|2|m	CD|:|CD|NN	NUMBER|O|NUMBER|O	1.0||2.0|	1.0		2.0		
+8	4	fb:cell.bursa	Bursa	bursa	bursa	NN	LOCATION					Bursa	fb:part.bursa
+9	0	fb:cell.lake_c_ld_r	Lake Çıldır	lake|çıldır	Lake|Çıldır	NNP|NNP	O|O	|					
+9	1	fb:cell.c_ld_r_golu	Çıldır Gölü	çıldır|gölü	Çıldır|Gölü	NNP|NNP	O|O	|					
+9	2	fb:cell.115_km2	115 km2	115|km2	115|km2	CD|NN	NUMBER|O	115.0|	115.0		2.0		
+9	3	fb:cell.null											fb:part.null
+9	4	fb:cell.ardahan_kars	Ardahan, Kars	ardahan|,|kars	Ardahan|,|Kars	NNP|,|NNP	O|O|LOCATION	||				Ardahan|Kars	fb:part.ardahan|fb:part.kars
+10	0	fb:cell.lake_palas_tuzla	Lake Palas Tuzla	lake|palas|tuzla	Lake|Palas|Tuzla	NNP|NNP|NNP	O|O|LOCATION	||					
+10	1	fb:cell.palas_tuzla_golu	Palas Tuzla Gölü	palas|tuzla|gölü	Palas|Tuzla|Gölü	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+10	2	fb:cell.106_km2	106 km2	106|km2	106|km2	CD|NN	NUMBER|O	106.0|	106.0		2.0		
+10	3	fb:cell.15_m	15 m	15|m	15|m	CD|NN	NUMBER|O	15.0|	15.0				
+10	4	fb:cell.palas_kayseri	Palas/Kayseri	palas\\/kayseri	palas\\/kayseri	NN	O					Palas|Kayseri	fb:part.palas|fb:part.kayseri
+11	0	fb:cell.lake_aksehir	Lake Akşehir	lake|akşehir	Lake|Akşehir	NNP|NNP	O|O	|					
+11	1	fb:cell.aksehir_golu	Akşehir Gölü	akşehir|gölü	Akşehir|Gölü	NNP|NNP	O|O	|					
+11	2	fb:cell.105_km2	105 km2	105|km2	105|km2	CD|NN	NUMBER|O	105.0|	105.0		2.0		
+11	3	fb:cell.null											fb:part.null
+11	4	fb:cell.aksehir_in_konya_afyonkarahisar	Akşehir in Konya, Afyonkarahisar	akşehir|in|konya|,|afyonkarahisar	Akşehir|in|Konya|,|Afyonkarahisar	NNP|IN|NNP|,|NNP	O|O|LOCATION|O|O	||||				Akşehir in Konya|Afyonkarahisar	fb:part.aksehir_in_konya|fb:part.afyonkarahisar
+12	0	fb:cell.lake_eber	Lake Eber	lake|eber	Lake|Eber	NNP|NNP	O|O	|					
+12	1	fb:cell.eber_golu	Eber Gölü	eber|gölü	Eber|Gölü	NNP|NNP	PERSON|PERSON	|					
+12	2	fb:cell.104_km2	104 km2	104|km2	104|km2	CD|NN	NUMBER|O	104.0|	104.0		2.0		
+12	3	fb:cell.null											fb:part.null
+12	4	fb:cell.afyonkarahisar	Afyonkarahisar	afyonkarahisar	Afyonkarahisar	NNP	O					Afyonkarahisar	fb:part.afyonkarahisar
+13	0	fb:cell.lake_ercek	Lake Erçek	lake|erçek	Lake|Erçek	NNP|NNP	O|O	|					
+13	1	fb:cell.ercek_golu	Erçek Gölü	erçek|gölü	Erçek|Gölü	NNP|NNP	O|O	|					
+13	2	fb:cell.98_km2	98 km2	98|km2	98|km2	CD|NN	NUMBER|O	98.0|	98.0		2.0		
+13	3	fb:cell.null											fb:part.null
+13	4	fb:cell.van	Van	van	Van	NNP	O					Van	fb:part.van
+14	0	fb:cell.lake_hazar	Lake Hazar	lake|hazar	Lake|Hazar	NNP|NNP	LOCATION|LOCATION	|					
+14	1	fb:cell.hazar_golu	Hazar Gölü	hazar|gölü	Hazar|Gölü	NNP|NNP	PERSON|PERSON	|					
+14	2	fb:cell.86_km2	86 km2	86|km2	86|km2	CD|NN	NUMBER|O	86.0|	86.0		2.0		
+14	3	fb:cell.null											fb:part.null
+14	4	fb:cell.elaz_g	Elazığ	elazığ	elazığ	NN	O					Elazığ	fb:part.elaz_g
+15	0	fb:cell.lake_bafa	Lake Bafa	lake|bafa	Lake|Bafa	NNP|NNP	O|O	|					
+15	1	fb:cell.bafa_golu	Bafa Gölü	bafa|gölü	Bafa|Gölü	NNP|NNP	PERSON|PERSON	|					
+15	2	fb:cell.60_km2	60 km2	60|km2	60|km2	CD|NN	NUMBER|O	60.0|	60.0		2.0		
+15	3	fb:cell.null											fb:part.null
+15	4	fb:cell.ayd_n_mugla	Aydın, Muğla	aydın|,|muğla	Aydın|,|Muğla	NNP|,|NNP	O|O|PERSON	||				Aydın|Muğla	fb:part.ayd_n|fb:part.mugla
+16	0	fb:cell.lake_koycegiz	Lake Köyceğiz	lake|köyceğiz	Lake|Köyceğiz	NNP|NNP	LOCATION|LOCATION	|					
+16	1	fb:cell.koycegiz_golu	Köyceğiz Gölü	köyceğiz|gölü	köyceğiz|gölü	NN|NN	PERSON|PERSON	|					
+16	2	fb:cell.52_km2	52 km2	52|km2	52|km2	CD|NN	NUMBER|O	52.0|	52.0		2.0		
+16	3	fb:cell.null											fb:part.null
+16	4	fb:cell.koycegiz_in_mugla	Köyceğiz in Muğla	köyceğiz|in|muğla	Köyceğiz|in|Muğla	NNP|IN|NNP	PERSON|O|LOCATION	||				Köyceğiz in Muğla	fb:part.koycegiz_in_mugla
+17	0	fb:cell.lake_is_kl	Lake Işıklı	lake|işıklı	Lake|Işıklı	NNP|NNP	O|O	|					
+17	1	fb:cell.is_kl_golu	Işıklı Gölü	işıklı|gölü	Işıklı|Gölü	NNP|NNP	O|O	|					
+17	2	fb:cell.49_km2	49 km2	49|km2	49|km2	CD|NN	NUMBER|O	49.0|	49.0		2.0		
+17	3	fb:cell.null											fb:part.null
+17	4	fb:cell.denizli	Denizli	denizli	Denizli	NNP	PERSON					Denizli	fb:part.denizli
+18	0	fb:cell.lake_nazik	Lake Nazik	lake|nazik	Lake|Nazik	NNP|NNP	O|O	|					
+18	1	fb:cell.nazik_golu	Nazik Gölü	nazik|gölü	Nazik|Gölü	NNP|NNP	MISC|MISC	|					
+18	2	fb:cell.48_km2	48 km2	48|km2	48|km2	CD|NN	NUMBER|O	48.0|	48.0		2.0		
+18	3	fb:cell.null											fb:part.null
+18	4	fb:cell.bitlis	Bitlis	bitlis	Bitlis	NNP	LOCATION					Bitlis	fb:part.bitlis
+19	0	fb:cell.lake_sapanca	Lake Sapanca	lake|sapanca	Lake|Sapanca	NNP|NNP	LOCATION|LOCATION	|					
+19	1	fb:cell.sapanca_golu	Sapanca Gölü	sapanca|gölü	Sapanca|Gölü	NNP|NNP	PERSON|PERSON	|					
+19	2	fb:cell.47_km2	47 km2	47|km2	47|km2	CD|NN	NUMBER|O	47.0|	47.0		2.0		
+19	3	fb:cell.null											fb:part.null
+19	4	fb:cell.sakarya_province	Sakarya Province	sakarya|province	Sakarya|Province	NNP|NNP	LOCATION|LOCATION	|				Sakarya Province	fb:part.sakarya_province
+20	0	fb:cell.lake_salda	Lake Salda	lake|salda	Lake|Salda	NNP|NNP	LOCATION|LOCATION	|					
+20	1	fb:cell.salda_golu	Salda Gölü	salda|gölü	salda|gölü	FW|FW	PERSON|PERSON	|					
+20	2	fb:cell.45_km2	45 km2	45|km2	45|km2	CD|NN	NUMBER|O	45.0|	45.0		2.0		
+20	3	fb:cell.184_m	184 m	184|m	184|m	CD|NN	NUMBER|O	184.0|	184.0				
+20	4	fb:cell.burdur	Burdur	burdur	burdur	NN	MISC					Burdur	fb:part.burdur
+21	0	fb:cell.lake_yay	Lake Yay	lake|yay	Lake|Yay	NNP|NNP	O|O	|					
+21	1	fb:cell.yay_golu	Yay Gölü	yay|gölü	Yay|Gölü	NNP|NNP	O|O	|					
+21	2	fb:cell.37_km2	37 km2	37|km2	37|km2	CD|NN	NUMBER|O	37.0|	37.0		2.0		
+21	3	fb:cell.null											fb:part.null
+21	4	fb:cell.kayseri	Kayseri	kayseri	Kayseri	NNP	LOCATION					Kayseri	fb:part.kayseri
+22	0	fb:cell.lake_akyatan	Lake Akyatan	lake|akyatan	Lake|Akyatan	NNP|NNP	O|O	|					
+22	1	fb:cell.akyatan_golu	Akyatan Gölü	akyatan|gölü	Akyatan|Gölü	NNP|NNP	O|O	|					
+22	2	fb:cell.35_km2	35 km2	35|km2	35|km2	CD|NN	NUMBER|O	35.0|	35.0		2.0		
+22	3	fb:cell.null											fb:part.null
+22	4	fb:cell.adana	Adana	adana	Adana	NNP	LOCATION					Adana	fb:part.adana
+23	0	fb:cell.lake_bal_k	Lake Balık	lake|balık	Lake|Balık	NNP|NNP	O|O	|					
+23	1	fb:cell.bal_k_golu	Balık Gölü	balık|gölü	Balık|Gölü	NNP|NNP	O|O	|					
+23	2	fb:cell.34_km2	34 km2	34|km2	34|km2	CD|NN	NUMBER|O	34.0|	34.0		2.0		
+23	3	fb:cell.null											fb:part.null
+23	4	fb:cell.dogubeyaz_t_in_agr	Doğubeyazıt in Ağrı	doğubeyazıt|in|ağrı	Doğubeyazıt|in|Ağrı	NNP|IN|NNP	O|O|LOCATION	||				Doğubeyazıt in Ağrı	fb:part.dogubeyaz_t_in_agr
+24	0	fb:cell.lake_marmara	Lake Marmara	lake|marmara	Lake|Marmara	NNP|NNP	LOCATION|LOCATION	|					
+24	1	fb:cell.marmara_golu	Marmara Gölü	marmara|gölü	Marmara|Gölü	NNP|NNP	PERSON|PERSON	|					
+24	2	fb:cell.34_km2	34 km2	34|km2	34|km2	CD|NN	NUMBER|O	34.0|	34.0		2.0		
+24	3	fb:cell.null											fb:part.null
+24	4	fb:cell.salihli_golmarmara_in_manisa	Salihli, Gölmarmara in Manisa	salihli|,|gölmarmara|in|manisa	salihlus|,|Gölmarmara|in|Manisa	NNS|,|NNP|IN|NNP	PERSON|O|PERSON|O|LOCATION	||||				Salihli|Gölmarmara in Manisa	fb:part.salihli|fb:part.golmarmara_in_manisa
+25	0	fb:cell.lake_col	Lake Çöl	lake|çöl	Lake|Çöl	NNP|NNP	O|O	|					
+25	1	fb:cell.col_golu	Çöl Gölü	çöl|gölü	çöl|gölü	NN|NN	MISC|MISC	|					
+25	2	fb:cell.32_km2	32 km2	32|km2	32|km2	CD|NN	NUMBER|O	32.0|	32.0		2.0		
+25	3	fb:cell.null											fb:part.null
+25	4	fb:cell.ankara	Ankara	ankara	Ankara	NNP	LOCATION					Ankara	fb:part.ankara
+26	0	fb:cell.lake_durusu_lake_terkos	Lake Durusu (Lake Terkos)	lake|durusu|-lrb-|lake|terkos|-rrb-	Lake|Durusu|-lrb-|Lake|Terkos|-rrb-	NNP|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|O|O|O	|||||					
+26	1	fb:cell.durusu_golu	Durusu Gölü	durusu|gölü	Durusu|Gölü	NNP|NNP	PERSON|PERSON	|					
+26	2	fb:cell.25_km2	25 km2	25|km2	25|km2	CD|NN	NUMBER|O	25.0|	25.0		2.0		
+26	3	fb:cell.null											fb:part.null
+26	4	fb:cell.istanbul	İstanbul	i̇stanbul	i̇stanbul	NN	O					İstanbul	fb:part.istanbul
+27	0	fb:cell.lake_karine	Lake Karine	lake|karine	Lake|Karine	NNP|NNP	LOCATION|LOCATION	|					
+27	1	fb:cell.karine_golu	Karine Gölü	karine|gölü	Karine|Gölü	NNP|NNP	PERSON|PERSON	|					
+27	2	fb:cell.24_km2	24 km2	24|km2	24|km2	CD|NN	NUMBER|O	24.0|	24.0		2.0		
+27	3	fb:cell.null											fb:part.null
+27	4	fb:cell.null											fb:part.null
+28	0	fb:cell.lake_tuzla	Lake Tuzla	lake|tuzla	Lake|Tuzla	NNP|NNP	LOCATION|LOCATION	|					
+28	1	fb:cell.tuzla_golu	Tuzla Gölü	tuzla|gölü	Tuzla|Gölü	NNP|NNP	LOCATION|O	|					
+28	2	fb:cell.23_km2	23 km2	23|km2	23|km2	CD|NN	NUMBER|O	23.0|	23.0		2.0		
+28	3	fb:cell.null											fb:part.null
+28	4	fb:cell.tuzla	Tuzla	tuzla	Tuzla	NNP	LOCATION					Tuzla	fb:part.tuzla
+29	0	fb:cell.lake_kucukcekmece	Lake Küçükçekmece	lake|küçükçekmece	Lake|Küçükçekmece	NNP|NNP	O|O	|					
+29	1	fb:cell.kucukcekmece_golu	Küçükçekmece Gölü	küçükçekmece|gölü	Küçükçekmece|Gölü	NNP|NNP	O|O	|					
+29	2	fb:cell.16_km2	16 km2	16|km2	16|km2	CD|NN	NUMBER|O	16.0|	16.0		2.0		
+29	3	fb:cell.null											fb:part.null
+29	4	fb:cell.kucukcekmece_istanbul	Küçükçekmece, İstanbul	küçükçekmece|,|i̇stanbul	Küçükçekmece|,|İstanbul	NNP|,|NNP	O|O|O	||				Küçükçekmece|İstanbul	fb:part.kucukcekmece|fb:part.istanbul
+30	0	fb:cell.lake_yarasl	Lake Yaraşlı	lake|yaraşlı	Lake|Yaraşlı	NNP|NNP	O|O	|					
+30	1	fb:cell.yarasl_golu	Yaraşlı Gölü	yaraşlı|gölü	Yaraşlı|Gölü	NNP|NNP	O|O	|					
+30	2	fb:cell.16_km2	16 km2	16|km2	16|km2	CD|NN	NUMBER|O	16.0|	16.0		2.0		
+30	3	fb:cell.null											fb:part.null
+30	4	fb:cell.burdur	Burdur	burdur	burdur	NN	MISC					Burdur	fb:part.burdur
+31	0	fb:cell.lake_hacl	Lake Haçlı	lake|haçlı	Lake|Haçlı	NNP|NNP	O|O	|					
+31	1	fb:cell.hacl_golu	Haçlı Gölü	haçlı|gölü	Haçlı|Gölü	NNP|NNP	O|O	|					
+31	2	fb:cell.16_km2	16 km2	16|km2	16|km2	CD|NN	NUMBER|O	16.0|	16.0		2.0		
+31	3	fb:cell.null											fb:part.null
+31	4	fb:cell.mus	Muş	muş	muş	NN	O					Muş	fb:part.mus
+32	0	fb:cell.lake_seyfe	Lake Seyfe	lake|seyfe	Lake|Seyfe	NNP|NNP	O|O	|					
+32	1	fb:cell.seyfe_golu	Seyfe Gölü	seyfe|gölü	Seyfe|Gölü	NNP|NNP	O|O	|					
+32	2	fb:cell.15_km2	15 km2	15|km2	15|km2	CD|NN	NUMBER|O	15.0|	15.0		2.0		
+32	3	fb:cell.null											fb:part.null
+32	4	fb:cell.k_rsehir	Kırşehir	kırşehir	Kırşehir	NNP	PERSON					Kırşehir	fb:part.k_rsehir
+33	0	fb:cell.lake_akyayan	Lake Akyayan	lake|akyayan	Lake|Akyayan	NNP|NNP	O|O	|					
+33	1	fb:cell.akyayan_golu	Akyayan Gölü	akyayan|gölü	Akyayan|Gölü	NNP|NNP	MISC|MISC	|					
+33	2	fb:cell.15_km2	15 km2	15|km2	15|km2	CD|NN	NUMBER|O	15.0|	15.0		2.0		
+33	3	fb:cell.null											fb:part.null
+33	4	fb:cell.null											fb:part.null
+34	0	fb:cell.lake_hozapin	Lake Hozapin	lake|hozapin	Lake|Hozapin	NNP|NNP	O|O	|					
+34	1	fb:cell.hozapin_golu	Hozapin Gölü	hozapin|gölü	Hozapin|Gölü	NNP|NNP	PERSON|PERSON	|					
+34	2	fb:cell.14_km2	14 km2	14|km2	14|km2	CD|NN	NUMBER|O	14.0|	14.0		2.0		
+34	3	fb:cell.null											fb:part.null
+34	4	fb:cell.null											fb:part.null
+35	0	fb:cell.lake_arin	Lake Arin	lake|arin	Lake|Arin	NNP|NNP	O|PERSON	|					
+35	1	fb:cell.arin_golu	Arin Gölü	arin|gölü	Arin|Gölü	NNP|NNP	PERSON|PERSON	|					
+35	2	fb:cell.13_km2	13 km2	13|km2	13|km2	CD|NN	NUMBER|O	13.0|	13.0		2.0		
+35	3	fb:cell.null											fb:part.null
+35	4	fb:cell.null											fb:part.null
+36	0	fb:cell.lake_nemrut	Lake Nemrut	lake|nemrut	Lake|Nemrut	NNP|NNP	LOCATION|LOCATION	|					
+36	1	fb:cell.nemrut_golu	Nemrut Gölü	nemrut|gölü	Nemrut|Gölü	NNP|NNP	O|O	|					
+36	2	fb:cell.12_km2	12 km2	12|km2	12|km2	CD|NN	NUMBER|O	12.0|	12.0		2.0		
+36	3	fb:cell.null											fb:part.null
+36	4	fb:cell.bitlis_province	Bitlis Province	bitlis|province	Bitlis|Province	NNP|NNP	LOCATION|LOCATION	|				Bitlis Province	fb:part.bitlis_province
+37	0	fb:cell.lake_bal_k	Lake Balık	lake|balık	Lake|Balık	NNP|NNP	O|O	|					
+37	1	fb:cell.bal_k_golu	Balık Gölü	balık|gölü	Balık|Gölü	NNP|NNP	O|O	|					
+37	2	fb:cell.12_km2	12 km2	12|km2	12|km2	CD|NN	NUMBER|O	12.0|	12.0		2.0		
+37	3	fb:cell.null											fb:part.null
+37	4	fb:cell.null											fb:part.null
+38	0	fb:cell.lake_buyukcekmece	Lake Büyükçekmece	lake|büyükçekmece	Lake|Büyükçekmece	NNP|NNP	O|O	|					
+38	1	fb:cell.buyukcekmece_golu	Büyükçekmece Gölü	büyükçekmece|gölü	Büyükçekmece|Gölü	NNP|NNP	O|O	|					
+38	2	fb:cell.11_km2	11 km2	11|km2	11|km2	CD|NN	NUMBER|O	11.0|	11.0		2.0		
+38	3	fb:cell.null											fb:part.null
+38	4	fb:cell.buyukcekmece_istanbul	Büyükçekmece, Istanbul	büyükçekmece|,|istanbul	Büyükçekmece|,|Istanbul	NNP|,|NNP	O|O|LOCATION	||				Büyükçekmece|Istanbul	fb:part.buyukcekmece|fb:part.istanbul
+39	0	fb:cell.lake_boluk	Lake Boluk	lake|boluk	Lake|Boluk	NNP|NNP	O|O	|					
+39	1	fb:cell.boluk_golu	Boluk Gölü	boluk|gölü	Boluk|Gölü	NNP|NNP	PERSON|PERSON	|					
+39	2	fb:cell.11_km2	11 km2	11|km2	11|km2	CD|NN	NUMBER|O	11.0|	11.0		2.0		
+39	3	fb:cell.null											fb:part.null
+39	4	fb:cell.null											fb:part.null
+40	0	fb:cell.lake_akdogan	Lake Akdoğan	lake|akdoğan	Lake|Akdoğan	NNP|NNP	O|O	|					
+40	1	fb:cell.akdogan_golu	Akdoğan Gölü	akdoğan|gölü	Akdoğan|Gölü	NNP|NNP	MISC|MISC	|					
+40	2	fb:cell.11_km2	11 km2	11|km2	11|km2	CD|NN	NUMBER|O	11.0|	11.0		2.0		
+40	3	fb:cell.null											fb:part.null
+40	4	fb:cell.null											fb:part.null
+41	0	fb:cell.lake_cavuslu	Lake Çavuşlu	lake|çavuşlu	Lake|Çavuşlu	NNP|NNP	O|O	|					
+41	1	fb:cell.cavuslu_golu	Çavuşlu Gölü	çavuşlu|gölü	Çavuşlu|Gölü	NNP|NNP	O|O	|					
+41	2	fb:cell.9_km2	9 km2	9|km2	9|km2	CD|NN	NUMBER|O	9.0|	9.0		2.0		
+41	3	fb:cell.null											fb:part.null
+41	4	fb:cell.null											fb:part.null
+42	0	fb:cell.lake_duden	Lake Düden	lake|düden	Lake|Düden	NNP|NNP	O|O	|					
+42	1	fb:cell.duden_golu	Düden Gölü	düden|gölü	düden|gölü	JJ|NN	PERSON|PERSON	|					
+42	2	fb:cell.8_km2	8 km2	8|km2	8|km2	CD|NN	NUMBER|O	8.0|	8.0		2.0		
+42	3	fb:cell.null											fb:part.null
+42	4	fb:cell.null											fb:part.null
+43	0	fb:cell.lake_gala	Lake Gala	lake|gala	Lake|Gala	NNP|NNP	LOCATION|LOCATION	|					
+43	1	fb:cell.gala_golu	Gala Gölü	gala|gölü	Gala|Gölü	NNP|NNP	O|O	|					
+43	2	fb:cell.8_km2	8 km2	8|km2	8|km2	CD|NN	NUMBER|O	8.0|	8.0		2.0		
+43	3	fb:cell.null											fb:part.null
+43	4	fb:cell.edirne	Edirne	edirne	Edirne	NNP	LOCATION					Edirne	fb:part.edirne
+44	0	fb:cell.lake_karatas	Lake Karataş	lake|karataş	Lake|Karataş	NNP|NNP	LOCATION|LOCATION	|					
+44	1	fb:cell.karatas_golu	Karataş Gölü	karataş|gölü	Karataş|Gölü	NNP|NNP	PERSON|PERSON	|					
+44	2	fb:cell.6_km2	6 km2	6|km2	6|km2	CD|NN	NUMBER|O	6.0|	6.0		2.0		
+44	3	fb:cell.null											fb:part.null
+44	4	fb:cell.null											fb:part.null
+45	0	fb:cell.lake_mogan	Lake Mogan	lake|mogan	Lake|Mogan	NNP|NNP	LOCATION|LOCATION	|					
+45	1	fb:cell.mogan_golu	Mogan Gölü	mogan|gölü	Mogan|Gölü	NNP|NNP	PERSON|PERSON	|					
+45	2	fb:cell.6_km2	6 km2	6|km2	6|km2	CD|NN	NUMBER|O	6.0|	6.0		2.0		
+45	3	fb:cell.null											fb:part.null
+45	4	fb:cell.ankara	Ankara	ankara	Ankara	NNP	LOCATION					Ankara	fb:part.ankara
+46	0	fb:cell.paradeniz	Paradeniz	paradeniz	paradeniz	NN	LOCATION						
+46	1	fb:cell.paradeniz	Paradeniz	paradeniz	paradeniz	NN	LOCATION						
+46	2	fb:cell.4_km2	4 km2	4|km2	4|km2	CD|NN	NUMBER|O	4.0|	4.0		2.0		
+46	3	fb:cell.null											fb:part.null
+46	4	fb:cell.mersin	Mersin	mersin	Mersin	NNP	LOCATION					Mersin	fb:part.mersin
+47	0	fb:cell.lake_eymir	Lake Eymir	lake|eymir	Lake|Eymir	NNP|NNP	O|O	|					
+47	1	fb:cell.eymir_golu	Eymir Gölü	eymir|gölü	Eymir|Gölü	NNP|NNP	O|O	|					
+47	2	fb:cell.1_8_km2	1.8 km2	1.8|km2	1.8|km2	CD|NN	NUMBER|O	1.8|	1.8		2.0		
+47	3	fb:cell.null											fb:part.null
+47	4	fb:cell.ankara	Ankara	ankara	Ankara	NNP	LOCATION					Ankara	fb:part.ankara
+48	0	fb:cell.lake_abant	Lake Abant	lake|abant	Lake|Abant	NNP|NNP	O|O	|					
+48	1	fb:cell.abant_golu	Abant Gölü	abant|gölü	abant|gölü	JJ|NN	O|O	|					
+48	2	fb:cell.1_28_km2	1.28 km2	1.28|km2	1.28|km2	CD|NN	NUMBER|O	1.28|	1.28		2.0		
+48	3	fb:cell.18_m	18 m	18|m	18|m	CD|NN	NUMBER|O	18.0|	18.0				
+48	4	fb:cell.bolu	Bolu	bolu	Bolu	NNP	LOCATION					Bolu	fb:part.bolu
+49	0	fb:cell.lake_golcuk	Lake Gölcük	lake|gölcük	Lake|Gölcük	NNP|NNP	O|O	|					
+49	1	fb:cell.golcuk_golu	Gölcük Gölü	gölcük|gölü	Gölcük|Gölü	NNP|NNP	O|O	|					
+49	2	fb:cell.1_km2	1 km2	1|km2	1|km2	CD|NN	NUMBER|O	1.0|	1.0		2.0		
+49	3	fb:cell.null											fb:part.null
+49	4	fb:cell.izmir	İzmir	i̇zmir	İzmir	NNP	O					İzmir	fb:part.izmir

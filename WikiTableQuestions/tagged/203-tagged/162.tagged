@@ -1,0 +1,81 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.cellulose_ethers	Cellulose ethers	cellulose|ethers	cellulose|ether	NN|NNS	O|O	|					
+-1	1	fb:row.row.reagent	Reagent	reagent	Reagent	NNP	O						
+-1	2	fb:row.row.example	Example	example	example	NN	O						
+-1	3	fb:row.row.reagent_2	Reagent	reagent	Reagent	NNP	O						
+-1	4	fb:row.row.group_r_h_or	Group R = H or	group|r|=|h|or	Group|r|=|h|or	NNP|NN|JJ|NN|CC	O|O|O|O|O	||||					
+-1	5	fb:row.row.water_solubility	Water solubility	water|solubility	water|solubility	NN|NN	O|O	|					
+-1	6	fb:row.row.application	Application	application	application	NN	O						
+-1	7	fb:row.row.e_number	E number	e|number	e|number	NN|NN	O|O	|					
+0	0	fb:cell.alkyl	Alkyl	alkyl	alkyl	NN	PERSON						
+0	1	fb:cell.halogenoalkanes	Halogenoalkanes	halogenoalkanes	halogenoalkane	NNS	O						
+0	2	fb:cell.methylcellulose	Methylcellulose	methylcellulose	methylcellulose	NN	O						
+0	3	fb:cell.chloromethane	Chloromethane	chloromethane	chloromethane	NN	O						
+0	4	fb:cell._ch3	-CH3	ch3	ch3	NN	O		3.0				
+0	5	fb:cell.cold_water_soluble	Cold water soluble	cold|water|soluble	Cold|water|soluble	NNP|NN|JJ	O|O|O	||				Cold water soluble	fb:part.cold_water_soluble
+0	6	fb:cell.null											fb:part.null
+0	7	fb:cell.e461	E461	e461	e461	NN	O		461.0				
+1	0	fb:cell.null											fb:part.null
+1	1	fb:cell.null											fb:part.null
+1	2	fb:cell.ethylcellulose	Ethylcellulose	ethylcellulose	ethylcellulose	NN	O						
+1	3	fb:cell.chloroethane	Chloroethane	chloroethane	chloroethane	NN	O						
+1	4	fb:cell._ch2ch3	-CH2CH3	ch2ch3	ch2ch3	NN	O		2.0		3.0		
+1	5	fb:cell.water_insoluble	Water insoluble	water|insoluble	water|insoluble	NN|JJ	O|O	|				Water insoluble	fb:part.water_insoluble
+1	6	fb:cell.a_commercial_thermoplastic_used_in_coatings_inks_binders_and_controlled_release_drug_tablets	A commercial thermoplastic used in coatings, inks, binders, and controlled-release drug tablets	a|commercial|thermoplastic|used|in|coatings|,|inks|,|binders|,|and|controlled|release|drug|tablets	a|commercial|thermoplastic|use|in|coating|,|ink|,|binder|,|and|controlled|release|drug|tablet	DT|JJ|JJ|VBN|IN|NNS|,|NNS|,|NNS|,|CC|JJ|NN|NN|NNS	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				A commercial thermoplastic used in coatings|inks|binders|and controlled-release drug tablets	fb:part.a_commercial_thermoplastic_used_in_coatings|fb:part.inks|fb:part.binders|fb:part.and_controlled_release_drug_tablets
+1	7	fb:cell.e462	E462	e462	e462	NN	O		462.0				
+2	0	fb:cell.null											fb:part.null
+2	1	fb:cell.null											fb:part.null
+2	2	fb:cell.ethyl_methyl_cellulose	Ethyl methyl cellulose	ethyl|methyl|cellulose	Ethyl|methyl|cellulose	NNP|NN|NN	O|O|O	||					
+2	3	fb:cell.chloromethane_and_chloroethane	Chloromethane and chloroethane	chloromethane|and|chloroethane	chloromethane|and|chloroethane	NN|CC|NN	PERSON|O|O	||					
+2	4	fb:cell._ch3_or_ch2ch3	-CH3 or -CH2CH3	ch3|or|ch2ch3	ch3|or|ch2ch3	NN|CC|NN	O|O|O	||	3.0		2.0		
+2	5	fb:cell.null											fb:part.null
+2	6	fb:cell.null											fb:part.null
+2	7	fb:cell.e465	E465	e465	e465	NN	O		465.0				
+3	0	fb:cell.hydroxyalkyl	Hydroxyalkyl	hydroxyalkyl	hydroxyalkyl	NN	PERSON						
+3	1	fb:cell.epoxides	Epoxides	epoxides	epoxide	NNS	O						
+3	2	fb:cell.hydroxyethyl_cellulose	Hydroxyethyl cellulose	hydroxyethyl|cellulose	hydroxyethyl|cellulose	NN|NN	O|O	|					
+3	3	fb:cell.ethylene_oxide	Ethylene oxide	ethylene|oxide	ethylene|oxide	NN|NN	O|O	|					
+3	4	fb:cell._ch2ch2oh	-CH2CH2OH	ch2ch2oh	ch2ch2oh	NN	O		2.0		2.0		
+3	5	fb:cell.cold_hot_water_soluble	Cold/hot water soluble	cold\\/hot|water|soluble	cold\\/hot|water|soluble	NN|NN|JJ	O|O|O	||				Cold|hot water soluble	fb:part.cold|fb:part.hot_water_soluble
+3	6	fb:cell.gelling_and_thickening_agent	Gelling and thickening agent	gelling|and|thickening|agent	gel|and|thicken|agent	VBG|CC|VBG|NN	O|O|O|O	|||				Gelling and thickening agent	fb:part.gelling_and_thickening_agent
+3	7	fb:cell.null											fb:part.null
+4	0	fb:cell.null											fb:part.null
+4	1	fb:cell.null											fb:part.null
+4	2	fb:cell.hydroxypropyl_cellulose_hpc	Hydroxypropyl cellulose (HPC)	hydroxypropyl|cellulose|-lrb-|hpc|-rrb-	hydroxypropyl|cellulose|-lrb-|hpc|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+4	3	fb:cell.propylene_oxide	Propylene oxide	propylene|oxide	propylene|oxide	NN|NN	O|O	|					
+4	4	fb:cell._ch2ch_oh_ch3	-CH2CH(OH)CH3	ch2ch|-lrb-|oh|-rrb-|ch3	ch2ch|-lrb-|oh|-rrb-|ch3	NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O	||||	2.0		3.0		
+4	5	fb:cell.cold_water_soluble	Cold water soluble	cold|water|soluble	Cold|water|soluble	NNP|NN|JJ	O|O|O	||				Cold water soluble	fb:part.cold_water_soluble
+4	6	fb:cell.null											fb:part.null
+4	7	fb:cell.e463	E463	e463	e463	NN	O		463.0				
+5	0	fb:cell.null											fb:part.null
+5	1	fb:cell.null											fb:part.null
+5	2	fb:cell.hydroxyethyl_methyl_cellulose	Hydroxyethyl methyl cellulose	hydroxyethyl|methyl|cellulose	hydroxyethyl|methyl|cellulose	NN|NN|NN	O|O|O	||					
+5	3	fb:cell.chloromethane_and_ethylene_oxide	Chloromethane and ethylene oxide	chloromethane|and|ethylene|oxide	chloromethane|and|ethylene|oxide	NN|CC|NN|NN	O|O|O|O	|||					
+5	4	fb:cell._ch3_or_ch2ch2oh	-CH3 or -CH2CH2OH	ch3|or|ch2ch2oh	ch3|or|ch2ch2oh	NN|CC|NN	O|O|O	||	3.0		2.0		
+5	5	fb:cell.cold_water_soluble	Cold water soluble	cold|water|soluble	Cold|water|soluble	NNP|NN|JJ	O|O|O	||				Cold water soluble	fb:part.cold_water_soluble
+5	6	fb:cell.production_of_cellulose_films	Production of cellulose films	production|of|cellulose|films	production|of|cellulose|film	NN|IN|NN|NNS	O|O|O|O	|||				Production of cellulose films	fb:part.production_of_cellulose_films
+5	7	fb:cell.null											fb:part.null
+6	0	fb:cell.null											fb:part.null
+6	1	fb:cell.null											fb:part.null
+6	2	fb:cell.hydroxypropyl_methyl_cellulose_hpmc	Hydroxypropyl methyl cellulose (HPMC)	hydroxypropyl|methyl|cellulose|-lrb-|hpmc|-rrb-	hydroxypropyl|methyl|cellulose|-lrb-|hpmc|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+6	3	fb:cell.chloromethane_and_propylene_oxide	Chloromethane and propylene oxide	chloromethane|and|propylene|oxide	chloromethane|and|propylene|oxide	NN|CC|NN|NN	O|O|O|O	|||					
+6	4	fb:cell._ch3_or_ch2ch_oh_ch3	-CH3 or -CH2CH(OH)CH3	ch3|or|ch2ch|-lrb-|oh|-rrb-|ch3	ch3|or|ch2ch|-lrb-|oh|-rrb-|ch3	NN|CC|NN|-LRB-|NN|-RRB-|NN	O|O|O|O|O|O|O	||||||	3.0		2.0		
+6	5	fb:cell.cold_water_soluble	Cold water soluble	cold|water|soluble	Cold|water|soluble	NNP|NN|JJ	O|O|O	||				Cold water soluble	fb:part.cold_water_soluble
+6	6	fb:cell.viscosity_modifier_gelling_foaming_and_binding_agent	Viscosity modifier, gelling, foaming and binding agent	viscosity|modifier|,|gelling|,|foaming|and|binding|agent	viscosity|modifier|,|gel|,|foam|and|bind|agent	NN|NN|,|VBG|,|VBG|CC|VBG|NN	O|O|O|O|O|O|O|O|O	||||||||				Viscosity modifier|gelling|foaming and binding agent	fb:part.viscosity_modifier|fb:part.gelling|fb:part.foaming_and_binding_agent
+6	7	fb:cell.e464	E464	e464	e464	NN	O		464.0				
+7	0	fb:cell.null											fb:part.null
+7	1	fb:cell.null											fb:part.null
+7	2	fb:cell.ethyl_hydroxyethyl_cellulose	Ethyl hydroxyethyl cellulose	ethyl|hydroxyethyl|cellulose	ethyl|hydroxyethyl|cellulose	NN|NN|NN	O|O|O	||					
+7	3	fb:cell.chloroethane_and_ethylene_oxide	Chloroethane and ethylene oxide	chloroethane|and|ethylene|oxide	chloroethane|and|ethylene|oxide	NN|CC|NN|NN	O|O|O|O	|||					
+7	4	fb:cell._ch2ch3_or_ch2ch2oh	-CH2CH3 or—CH2CH2OH	ch2ch3|or|--|ch2ch2oh	ch2ch3|or|--|ch2ch2oh	NN|CC|:|NN	O|O|O|O	|||	2.0		3.0		
+7	5	fb:cell.null											fb:part.null
+7	6	fb:cell.null											fb:part.null
+7	7	fb:cell.e467	E467	e467	e467	NN	O		467.0				
+8	0	fb:cell.carboxyalkyl	Carboxyalkyl	carboxyalkyl	carboxyalkyl	NN	O						
+8	1	fb:cell.halogenated_carboxylic_acids	Halogenated carboxylic acids	halogenated|carboxylic|acids	halogenate|carboxylic|acid	VBN|JJ|NNS	O|O|O	||					
+8	2	fb:cell.carboxymethyl_cellulose_cmc	Carboxymethyl cellulose (CMC)	carboxymethyl|cellulose|-lrb-|cmc|-rrb-	carboxymethyl|cellulose|-lrb-|cmc|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+8	3	fb:cell.chloroacetic_acid	Chloroacetic acid	chloroacetic|acid	chloroacetic|acid	JJ|NN	MISC|O	|					
+8	4	fb:cell._ch2cooh	-CH2COOH	ch2cooh	ch2cooh	NN	O		2.0				
+8	5	fb:cell.cold_hot_water_soluble	Cold/hot water soluble	cold\\/hot|water|soluble	cold\\/hot|water|soluble	NN|NN|JJ	O|O|O	||				Cold|hot water soluble	fb:part.cold|fb:part.hot_water_soluble
+8	6	fb:cell.often_used_as_its_sodium_salt_sodium_carboxymethyl_cellulose_nacmc	Often used as its sodium salt, sodium carboxymethyl cellulose (NaCMC)	often|used|as|its|sodium|salt|,|sodium|carboxymethyl|cellulose|-lrb-|nacmc|-rrb-	often|use|as|its|sodium|salt|,|sodium|carboxymethyl|cellulose|-lrb-|nacmc|-rrb-	RB|VBN|IN|PRP$|NN|NN|,|NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				Often used as its sodium salt|sodium carboxymethyl cellulose (NaCMC)	fb:part.often_used_as_its_sodium_salt|fb:part.sodium_carboxymethyl_cellulose_nacmc
+8	7	fb:cell.e466	E466	e466	e466	NN	O		466.0				

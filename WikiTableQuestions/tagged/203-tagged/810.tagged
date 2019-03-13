@@ -1,0 +1,81 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.null	#	#	#	#	O						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.songwriters	Songwriters	songwriters	songwriter	NNS	O						
+-1	3	fb:row.row.producer_s	Producer(s)	producer|-lrb-|s|-rrb-	producer|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.performer_s	Performer (s)	performer|-lrb-|s|-rrb-	performer|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell._a_dream	"A Dream"	``|a|dream|''	``|a|dream|''	``|DT|NN|''	O|O|O|O	|||					
+0	2	fb:cell.l_lynn_w_adams_m_l_king_jr	L. Lynn, W. Adams, M.L. King Jr.	l.|lynn|,|w.|adams|,|m.l.|king|jr.|.	L.|Lynn|,|W.|Adams|,|M.L.|King|Jr.|.	NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|.	PERSON|PERSON|O|PERSON|PERSON|O|O|O|O|O	|||||||||				L. Lynn|W. Adams|M.L. King Jr.	fb:part.l_lynn|fb:part.w_adams|fb:part.m_l_king_jr
+0	3	fb:cell.will_i_am	will.i.am	will.i.am	will.i.am	NN	O					will.i.am	fb:part.will_i_am
+0	4	fb:cell.common_will_i_am	Common, will.i.am	common|,|will.i.am	common|,|will.i.am	JJ|,|JJ	O|O|O	||				Common|will.i.am	fb:part.common|fb:part.will_i_am
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell._listen	"Listen!!!"	``|listen|!!!|''	``|listen|!!!|''	``|VB|NN|''	O|O|O|O	|||					
+1	2	fb:cell.t_k_greene_k_holland_f_williams	T.K. Greene, K. Holland, F. Williams	t.k.|greene|,|k.|holland|,|f.|williams	T.K.|Greene|,|K.|Holland|,|F.|Williams	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				T.K. Greene|K. Holland|F. Williams	fb:part.t_k_greene|fb:part.k_holland|fb:part.f_williams
+1	3	fb:cell.kwame	Kwamé	kwamé	kwamé	NN	O					Kwamé	fb:part.kwame
+1	4	fb:cell.talib_kweli	Talib Kweli	talib|kweli	Talib|Kweli	NNP|NNP	PERSON|PERSON	|				Talib Kweli	fb:part.talib_kweli
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell._it_s_r_time_lenky_remix	"It's R Time [Lenky Remix]"	``|it|'s|r|time|-lsb-|lenky|remix|-rsb-|''	``|it|be|r|time|-lsb-|Lenky|Remix|-rsb-|''	``|PRP|VBZ|NN|NN|-LRB-|NNP|NNP|-RRB-|''	O|O|O|O|O|O|O|O|O|O	|||||||||					
+2	2	fb:cell.j_ortega_v_santiago_l_vazquez_r_ramirez_k_ravenell_e_almonte	J. Ortega, V. Santiago, L. Vazquez, R. Ramirez, K. Ravenell, E. Almonte	j.|ortega|,|v.|santiago|,|l.|vazquez|,|r.|ramirez|,|k.|ravenell|,|e.|almonte	J.|Ortega|,|V.|Santiago|,|L.|Vazquez|,|R.|Ramirez|,|K.|Ravenell|,|E.|Almonte	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||||				J. Ortega|V. Santiago|L. Vazquez|R. Ramirez|K. Ravenell|E. Almonte	fb:part.j_ortega|fb:part.v_santiago|fb:part.l_vazquez|fb:part.r_ramirez|fb:part.k_ravenell|fb:part.e_almonte
+2	3	fb:cell.null	*?*	\\*|?|\\*	\\*|?|\\*	SYM|.|SYM	O|O|O	||				*?*	fb:part.null
+2	4	fb:cell.jeannie_ortega	Jeannie Ortega	jeannie|ortega	Jeannie|Ortega	NNP|NNP	PERSON|PERSON	|				Jeannie Ortega	fb:part.jeannie_ortega
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell._when_the_ship_goes_down_diamond_d_remix	"When the Ship Goes Down (Diamond D Remix)"	``|when|the|ship|goes|down|-lrb-|diamond|d|remix|-rrb-|''	``|when|the|ship|go|down|-lrb-|Diamond|D|Remix|-rrb-|''	``|WRB|DT|NN|VBZ|NN|-LRB-|NNP|NNP|NNP|-RRB-|''	O|O|O|MISC|MISC|MISC|O|O|O|O|O|O	|||||||||||					
+3	2	fb:cell.l_freese_l_muggerud_l_dickens	L. Freese, L. Muggerud, L. Dickens	l.|freese|,|l.|muggerud|,|l.|dickens	L.|Freese|,|L.|Muggerud|,|L.|Dickens	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				L. Freese|L. Muggerud|L. Dickens	fb:part.l_freese|fb:part.l_muggerud|fb:part.l_dickens
+3	3	fb:cell.dj_muggs	DJ Muggs	dj|muggs	DJ|Muggs	NNP|NNP	PERSON|PERSON	|				DJ Muggs	fb:part.dj_muggs
+3	4	fb:cell.cypress_hill	Cypress Hill	cypress|hill	Cypress|Hill	NNP|NNP	O|O	|				Cypress Hill	fb:part.cypress_hill
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell._hip_hop_hooray	"Hip Hop Hooray"	``|hip|hop|hooray|''	``|hip|hop|Hooray|''	``|NN|NN|NNP|''	O|O|O|O|O	||||					
+4	2	fb:cell.v_brown_a_criss_k_gist_e_isley_ru_isley_ro_isley_o_isley_m_isley	V. Brown, A. Criss, K. Gist, E. Isley, Ru. Isley, Ro. Isley, O. Isley, M. Isley	v.|brown|,|a.|criss|,|k.|gist|,|e.|isley|,|ru|.|isley|,|ro|.|isley|,|o.|isley|,|m.|isley	V.|Brown|,|A.|Criss|,|K.|Gist|,|E.|Isley|,|Ru|.|Isley|,|ro|.|Isley|,|O.|Isley|,|M.|Isley	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|.|NNP|,|NN|.|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|O|O|LOCATION|O|O|O|LOCATION|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||||||||||||				V. Brown|A. Criss|K. Gist|E. Isley|Ru. Isley|Ro. Isley|O. Isley|M. Isley	fb:part.v_brown|fb:part.a_criss|fb:part.k_gist|fb:part.e_isley|fb:part.ru_isley|fb:part.ro_isley|fb:part.o_isley|fb:part.m_isley
+4	3	fb:cell.naughty_by_nature	Naughty by Nature	naughty|by|nature	naughty|by|Nature	JJ|IN|NNP	O|O|O	||				Naughty by Nature	fb:part.naughty_by_nature
+4	4	fb:cell.naughty_by_nature	Naughty by Nature	naughty|by|nature	naughty|by|Nature	JJ|IN|NNP	O|O|O	||				Naughty by Nature	fb:part.naughty_by_nature
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell._keep_ya_head_up	"Keep Ya Head Up"	``|keep|ya|head|up|''	``|keep|Ya|Head|up|''	``|VB|NNP|NNP|IN|''	O|O|O|O|O|O	|||||					
+5	2	fb:cell.t_shakur_d_anderson_s_vincent_r_troutman	T. Shakur, D. Anderson, S. Vincent, R. Troutman	t.|shakur|,|d.|anderson|,|s.|vincent|,|r.|troutman	T.|Shakur|,|D.|Anderson|,|S.|Vincent|,|R.|Troutman	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				T. Shakur|D. Anderson|S. Vincent|R. Troutman	fb:part.t_shakur|fb:part.d_anderson|fb:part.s_vincent|fb:part.r_troutman
+5	3	fb:cell.dj_daryl	DJ Daryl	dj|daryl	DJ|Daryl	NNP|NNP	PERSON|PERSON	|				DJ Daryl	fb:part.dj_daryl
+5	4	fb:cell.2pac	2Pac	2pac	2pac	NN	O		2.0			2Pac	fb:part.2pac
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell._code_of_the_streets	"Code of the Streets"	``|code|of|the|streets|''	``|Code|of|the|Streets|''	``|NNP|IN|DT|NNPS|''	O|O|O|O|O|O	|||||					
+6	2	fb:cell.k_elam_c_martin_r_russell	K. Elam, C. Martin, R. Russell	k.|elam|,|c.|martin|,|r.|russell	K.|Elam|,|C.|Martin|,|R.|Russell	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				K. Elam|C. Martin|R. Russell	fb:part.k_elam|fb:part.c_martin|fb:part.r_russell
+6	3	fb:cell.dj_premier	DJ Premier	dj|premier	DJ|Premier	NNP|NNP	O|O	|				DJ Premier	fb:part.dj_premier
+6	4	fb:cell.gang_starr	Gang Starr	gang|starr	gang|starr	NN|NN	O|PERSON	|				Gang Starr	fb:part.gang_starr
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell._rebirth_of_slick_cool_like_dat	"Rebirth of Slick (Cool Like Dat)"	``|rebirth|of|slick|-lrb-|cool|like|dat|-rrb-|''	``|rebirth|of|slick|-lrb-|cool|like|dat|-rrb-|''	``|NN|IN|JJ|-LRB-|JJ|IN|NN|-RRB-|''	O|O|O|O|O|O|O|O|O|O	|||||||||					
+7	2	fb:cell.i_butler_c_irving_m_vieira_j_williams	I. Butler, C. Irving, M. Vieira, J. Williams	i.|butler|,|c.|irving|,|m.|vieira|,|j.|williams	i.|Butler|,|C.|Irving|,|M.|Vieira|,|J.|Williams	NN|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				I. Butler|C. Irving|M. Vieira|J. Williams	fb:part.i_butler|fb:part.c_irving|fb:part.m_vieira|fb:part.j_williams
+7	3	fb:cell.butterfly	Butterfly	butterfly	butterfly	NN	O					Butterfly	fb:part.butterfly
+7	4	fb:cell.digable_planets	Digable Planets	digable|planets	digable|planet	JJ|NNS	O|O	|				Digable Planets	fb:part.digable_planets
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell._officer	"Officer"	``|officer|''	``|Officer|''	``|NNP|''	O|O|O	||					
+8	2	fb:cell.t_hardson_j_martinez_r_robinson_d_stewart_e_wilcox	T. Hardson, J. Martinez, R. Robinson, D. Stewart, E. Wilcox	t.|hardson|,|j.|martinez|,|r.|robinson|,|d.|stewart|,|e.|wilcox	T.|Hardson|,|J.|Martinez|,|R.|Robinson|,|D.|Stewart|,|E.|Wilcox	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||||				T. Hardson|J. Martinez|R. Robinson|D. Stewart|E. Wilcox	fb:part.t_hardson|fb:part.j_martinez|fb:part.r_robinson|fb:part.d_stewart|fb:part.e_wilcox
+8	3	fb:cell.j_swift	J-Swift	j|swift	J|Swift	NNP|NNP	O|O	|				J-Swift	fb:part.j_swift
+8	4	fb:cell.the_pharcyde	The Pharcyde	the|pharcyde	the|Pharcyde	DT|NNP	O|O	|				The Pharcyde	fb:part.the_pharcyde
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell._this_is_how_we_do_it	"This Is How We Do It"	``|this|is|how|we|do|it|''	``|this|be|how|we|do|it|''	``|DT|VBD-AUX|WRB|PRP|VBD-AUX|PRP|''	O|O|O|O|O|O|O|O	|||||||					
+9	2	fb:cell.m_jordan_o_pierce_r_walters	M. Jordan, O. Pierce, R. Walters	m.|jordan|,|o.|pierce|,|r.|walters	M.|Jordan|,|O.|Pierce|,|R.|Walters	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				M. Jordan|O. Pierce|R. Walters	fb:part.m_jordan|fb:part.o_pierce|fb:part.r_walters
+9	3	fb:cell.montell_jordan_oji_pierce	Montell Jordan, Oji Pierce	montell|jordan|,|oji|pierce	Montell|Jordan|,|Oji|Pierce	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Montell Jordan|Oji Pierce	fb:part.montell_jordan|fb:part.oji_pierce
+9	4	fb:cell.montell_jordan	Montell Jordan	montell|jordan	Montell|Jordan	NNP|NNP	PERSON|PERSON	|				Montell Jordan	fb:part.montell_jordan
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell._colors	"Colors"	``|colors|''	``|Colors|''	``|NNP|''	O|O|O	||					
+10	2	fb:cell.w_adams	W. Adams	w.|adams	W.|Adams	NNP|NNP	PERSON|PERSON	|				W. Adams	fb:part.w_adams
+10	3	fb:cell.will_i_am	will.i.am	will.i.am	will.i.am	NN	O					will.i.am	fb:part.will_i_am
+10	4	fb:cell.will_i_am	will.i.am	will.i.am	will.i.am	NN	O					will.i.am	fb:part.will_i_am
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell._bus_ride	"Bus Ride"	``|bus|ride|''	``|bus|ride|''	``|NN|NN|''	O|O|O|O	|||					
+11	2	fb:cell.w_adams	W. Adams	w.|adams	W.|Adams	NNP|NNP	PERSON|PERSON	|				W. Adams	fb:part.w_adams
+11	3	fb:cell.will_i_am	will.i.am	will.i.am	will.i.am	NN	O					will.i.am	fb:part.will_i_am
+11	4	fb:cell.will_i_am	will.i.am	will.i.am	will.i.am	NN	O					will.i.am	fb:part.will_i_am
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell._riots	"Riots"	``|riots|''	``|riot|''	``|NNS|''	O|O|O	||					
+12	2	fb:cell.m_isham_w_adams	M. Isham, W. Adams	m.|isham|,|w.|adams	M.|Isham|,|W.|Adams	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				M. Isham|W. Adams	fb:part.m_isham|fb:part.w_adams
+12	3	fb:cell.null	*?*	\\*|?|\\*	\\*|?|\\*	SYM|.|SYM	O|O|O	||				*?*	fb:part.null
+12	4	fb:cell.mark_isham_miri_ben_ari_will_i_am	Mark Isham, Miri Ben-Ari, will.i.am	mark|isham|,|miri|ben|ari|,|will.i.am	Mark|Isham|,|Miri|Ben|Ari|,|will.i.am	NNP|NNP|,|NNP|NNP|NNP|,|NN	PERSON|PERSON|O|PERSON|PERSON|PERSON|O|O	|||||||				Mark Isham|Miri Ben-Ari|will.i.am	fb:part.mark_isham|fb:part.miri_ben_ari|fb:part.will_i_am
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell._eva_s_theme	"Eva's Theme"	``|eva|'s|theme|''	``|Eva|'s|theme|''	``|NNP|POS|NN|''	O|PERSON|O|O|O	||||					
+13	2	fb:cell.m_isham	M. Isham	m.|isham	M.|Isham	NNP|NNP	PERSON|PERSON	|				M. Isham	fb:part.m_isham
+13	3	fb:cell.null	*?*	\\*|?|\\*	\\*|?|\\*	SYM|.|SYM	O|O|O	||				*?*	fb:part.null
+13	4	fb:cell.mark_isham	Mark Isham	mark|isham	Mark|Isham	NNP|NNP	PERSON|PERSON	|				Mark Isham	fb:part.mark_isham
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell._anne_frank	"Anne Frank"	``|anne|frank|''	``|Anne|Frank|''	``|NNP|NNP|''	O|O|O|O	|||					
+14	2	fb:cell.m_isham	M. Isham	m.|isham	M.|Isham	NNP|NNP	PERSON|PERSON	|				M. Isham	fb:part.m_isham
+14	3	fb:cell.null	*?*	\\*|?|\\*	\\*|?|\\*	SYM|.|SYM	O|O|O	||				*?*	fb:part.null
+14	4	fb:cell.mark_isham_miri_ben_ari	Mark Isham, Miri Ben-Ari	mark|isham|,|miri|ben|ari	Mark|Isham|,|Miri|Ben|Ari	NNP|NNP|,|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|PERSON	|||||				Mark Isham|Miri Ben-Ari	fb:part.mark_isham|fb:part.miri_ben_ari

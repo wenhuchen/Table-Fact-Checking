@@ -1,0 +1,155 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.null	#	#	#	#	O						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.time	Time	time	Time	NNP	O						
+-1	3	fb:row.row.performer_s	Performer(s)	performer|-lrb-|s|-rrb-	performer|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.songwriters	Songwriters	songwriters	songwriter	NNS	O						
+-1	5	fb:row.row.producer_s	Producer(s)	producer|-lrb-|s|-rrb-	producer|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	6	fb:row.row.samples_and_notes	Samples and notes	samples|and|notes	sample|and|note	NNS|CC|NNS	O|O|O	||					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell._everything_man	"Everything Man"	``|everything|man|''	``|everything|man|''	``|NN|NN|''	O|O|O|O	|||					
+0	2	fb:cell.3_16	3:16	3:16	3:16	CD	TIME	T03:16	3.0		16.0		
+0	3	fb:cell.talib_kweli_res_additional_vocals_by_sonia_sanchez	Talib Kweli, Res\n(additional vocals by Sonia Sanchez)	talib|kweli|,|res|-lrb-|additional|vocals|by|sonia|sanchez|-rrb-	Talib|Kweli|,|Res|-lrb-|additional|vocal|by|Sonia|Sanchez|-rrb-	NNP|NNP|,|NNP|-LRB-|JJ|NNS|IN|NNP|NNP|-RRB-	PERSON|PERSON|O|O|O|O|O|O|PERSON|PERSON|O	||||||||||				Talib Kweli|Res|(additional vocals by Sonia Sanchez)	fb:part.talib_kweli|fb:part.res|fb:part._additional_vocals_by_sonia_sanchez
+0	4	fb:cell.talib_kweli_greene	Talib Kweli Greene	talib|kweli|greene	Talib|Kweli|Greene	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Talib Kweli Greene	fb:part.talib_kweli_greene
+0	5	fb:cell.madlib	Madlib	madlib	Madlib	NNP	PERSON					Madlib	fb:part.madlib
+0	6	fb:cell._everything_man_by_daybreak	"Everything Man" by Daybreak	``|everything|man|''|by|daybreak	``|everything|man|''|by|daybreak	``|NN|NN|''|IN|NN	O|O|O|O|O|PERSON	|||||				"Everything Man" by Daybreak	fb:part._everything_man_by_daybreak
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell._ny_weather_report	"NY Weather Report"	``|ny|weather|report|''	``|NY|Weather|Report|''	``|NNP|NNP|NNP|''	O|O|O|O|O	||||					
+1	2	fb:cell.4_35	4:35	4:35	4:35	CD	TIME	T04:35	4.0		35.0		
+1	3	fb:cell.talib_kweli_scratches_by_dj_jazzy_jeff_and_cut_chemist	Talib Kweli\n(scratches by DJ Jazzy Jeff and Cut Chemist)	talib|kweli|-lrb-|scratches|by|dj|jazzy|jeff|and|cut|chemist|-rrb-	Talib|Kweli|-lrb-|scratch|by|DJ|Jazzy|Jeff|and|Cut|Chemist|-rrb-	NNP|NNP|-LRB-|NNS|IN|NNP|NNP|NNP|CC|NNP|NNP|-RRB-	PERSON|PERSON|O|O|O|O|O|PERSON|O|MISC|MISC|O	|||||||||||				Talib Kweli|(scratches by DJ Jazzy Jeff and Cut Chemist)	fb:part.talib_kweli|fb:part._scratches_by_dj_jazzy_jeff_and_cut_chemist
+1	4	fb:cell.talib_kweli_greene	Talib Kweli Greene	talib|kweli|greene	Talib|Kweli|Greene	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Talib Kweli Greene	fb:part.talib_kweli_greene
+1	5	fb:cell.nick_speed	Nick Speed	nick|speed	Nick|speed	NNP|NN	PERSON|PERSON	|				Nick Speed	fb:part.nick_speed
+1	6	fb:cell._storm_by_cut_chemist	"Storm" by Cut Chemist	``|storm|''|by|cut|chemist	``|storm|''|by|Cut|Chemist	``|NN|''|IN|NNP|NNP	O|O|O|O|O|O	|||||				"Storm" by Cut Chemist	fb:part._storm_by_cut_chemist
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell._hostile_gospel_part_1_deliver_us	"Hostile Gospel (Part 1) (Deliver Us)"	``|hostile|gospel|-lrb-|part|1|-rrb-|-lrb-|deliver|us|-rrb-|''	``|hostile|gospel|-lrb-|part|1|-rrb-|-lrb-|deliver|Us|-rrb-|''	``|JJ|NN|-LRB-|NN|CD|-RRB-|-LRB-|VB|NNP|-RRB-|''	O|O|O|O|O|NUMBER|O|O|O|O|O|O	|||||1.0||||||	1.0				
+2	2	fb:cell.5_22	5:22	5:22	5:22	NN	TIME	T05:22	5.0		22.0		
+2	3	fb:cell.talib_kweli	Talib Kweli	talib|kweli	Talib|Kweli	NNP|NNP	PERSON|PERSON	|				Talib Kweli	fb:part.talib_kweli
+2	4	fb:cell.talib_kweli_greene_justin_smith_paul_greedus_didier_marouani	Talib Kweli Greene,\nJustin Smith,\nPaul Greedus,\nDidier Marouani	talib|kweli|greene|,|justin|smith|,|paul|greedus|,|didier|marouani	Talib|Kweli|Greene|,|Justin|Smith|,|Paul|Greedus|,|Didier|Marouani	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||				Talib Kweli Greene|Justin Smith|Paul Greedus|Didier Marouani	fb:part.talib_kweli_greene|fb:part.justin_smith|fb:part.paul_greedus|fb:part.didier_marouani
+2	5	fb:cell.just_blaze	Just Blaze	just|blaze	just|blaze	RB|NN	O|O	|				Just Blaze	fb:part.just_blaze
+2	6	fb:cell._deliverance_by_space	"Deliverance" by Space	``|deliverance|''|by|space	``|Deliverance|''|by|space	``|NNP|''|IN|NN	O|O|O|O|O	||||				"Deliverance" by Space	fb:part._deliverance_by_space
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell._say_something	"Say Something"	``|say|something|''	``|say|something|''	``|VB|NN|''	O|O|O|O	|||					
+3	2	fb:cell.3_43	3:43	3:43	3:43	CD	TIME	T03:43	3.0		43.0		
+3	3	fb:cell.talib_kweli_jean_grae	Talib Kweli, Jean Grae	talib|kweli|,|jean|grae	Talib|Kweli|,|Jean|Grae	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Talib Kweli|Jean Grae	fb:part.talib_kweli|fb:part.jean_grae
+3	4	fb:cell.talib_kweli_greene	Talib Kweli Greene	talib|kweli|greene	Talib|Kweli|Greene	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Talib Kweli Greene	fb:part.talib_kweli_greene
+3	5	fb:cell.will_i_am	will.i.am	will.i.am	will.i.am	NN	O					will.i.am	fb:part.will_i_am
+3	6	fb:cell._theme_for_la_s_team_by_thomas_bell_and_james_casey	"Theme for LA's Team" by Thomas Bell and James Casey	``|theme|for|la|'s|team|''|by|thomas|bell|and|james|casey	``|theme|for|LA|'s|Team|''|by|Thomas|Bell|and|James|Casey	``|NN|IN|NNP|POS|NNP|''|IN|NNP|NNP|CC|NNP|NNP	O|O|O|ORGANIZATION|O|O|O|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||				"Theme for LA's Team" by Thomas Bell and James Casey	fb:part._theme_for_la_s_team_by_thomas_bell_and_james_casey
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell._country_cousins	"Country Cousins"	``|country|cousins|''	``|country|cousin|''	``|NN|NNS|''	O|O|O|O	|||					
+4	2	fb:cell.4_31	4:31	4:31	4:31	CD	TIME	T04:31	4.0		31.0		
+4	3	fb:cell.talib_kweli_ugk_raheem_devaughn	Talib Kweli, UGK, Raheem DeVaughn	talib|kweli|,|ugk|,|raheem|devaughn	Talib|Kweli|,|UGK|,|Raheem|DeVaughn	NNP|NNP|,|NNP|,|NNP|NNP	PERSON|PERSON|O|ORGANIZATION|O|PERSON|PERSON	||||||				Talib Kweli|UGK|Raheem DeVaughn	fb:part.talib_kweli|fb:part.ugk|fb:part.raheem_devaughn
+4	4	fb:cell.talib_kweli_greene	Talib Kweli Greene	talib|kweli|greene	Talib|Kweli|Greene	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Talib Kweli Greene	fb:part.talib_kweli_greene
+4	5	fb:cell.sha_la_shakier	Sha-la Shakier	sha|la|shakier	sha|la|shakier	FW|FW|JJR	PERSON|O|O	||				Sha-la Shakier	fb:part.sha_la_shakier
+4	6	fb:cell._lost_on_23rd_street_by_johnny_hammond	"Lost on 23rd Street" by Johnny Hammond	``|lost|on|23rd|street|''|by|johnny|hammond	``|lose|on|23rd|street|''|by|Johnny|Hammond	``|VBN|IN|JJ|NN|''|IN|NNP|NNP	O|O|O|ORDINAL|O|O|O|PERSON|PERSON	|||23.0|||||	23.0			"Lost on 23rd Street" by Johnny Hammond	fb:part._lost_on_23rd_street_by_johnny_hammond
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell._holy_moly	"Holy Moly"	``|holy|moly|''	``|Holy|Moly|''	``|NNP|NNP|''	O|O|O|O	|||					
+5	2	fb:cell.2_08	2:08	2:08	2:08	CD	TIME	T02:08	2.0		8.0		
+5	3	fb:cell.talib_kweli	Talib Kweli	talib|kweli	Talib|Kweli	NNP|NNP	PERSON|PERSON	|				Talib Kweli	fb:part.talib_kweli
+5	4	fb:cell.talib_kweli_greene	Talib Kweli Greene	talib|kweli|greene	Talib|Kweli|Greene	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Talib Kweli Greene	fb:part.talib_kweli_greene
+5	5	fb:cell.pete_rock	Pete Rock	pete|rock	Pete|Rock	NNP|NNP	PERSON|PERSON	|				Pete Rock	fb:part.pete_rock
+5	6	fb:cell._border_song_holy_moses_by_aretha_franklin	"Border Song (Holy Moses)" by Aretha Franklin	``|border|song|-lrb-|holy|moses|-rrb-|''|by|aretha|franklin	``|border|song|-lrb-|holy|mose|-rrb-|''|by|Aretha|Franklin	``|NN|NN|-LRB-|JJ|NNS|-RRB-|''|IN|NNP|NNP	O|O|O|O|O|O|O|O|O|PERSON|PERSON	||||||||||				"Border Song (Holy Moses)" by Aretha Franklin	fb:part._border_song_holy_moses_by_aretha_franklin
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell._eat_to_live	"Eat to Live"	``|eat|to|live|''	``|eat|to|live|''	``|VB|TO|VB|''	O|O|O|O|O	||||					
+6	2	fb:cell.3_07	3:07	3:07	3:07	CD	TIME	T03:07	3.0		7.0		
+6	3	fb:cell.talib_kweli	Talib Kweli	talib|kweli	Talib|Kweli	NNP|NNP	PERSON|PERSON	|				Talib Kweli	fb:part.talib_kweli
+6	4	fb:cell.talib_kweli_greene	Talib Kweli Greene	talib|kweli|greene	Talib|Kweli|Greene	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Talib Kweli Greene	fb:part.talib_kweli_greene
+6	5	fb:cell.madlib	Madlib	madlib	Madlib	NNP	PERSON					Madlib	fb:part.madlib
+6	6	fb:cell._ghetto_lament_by_sylvia_saint_james	"Ghetto Lament" by Sylvia Saint James	``|ghetto|lament|''|by|sylvia|saint|james	``|Ghetto|Lament|''|by|Sylvia|Saint|James	``|NNP|NNP|''|IN|NNP|NNP|NNP	O|O|O|O|O|PERSON|PERSON|PERSON	|||||||				"Ghetto Lament" by Sylvia Saint James	fb:part._ghetto_lament_by_sylvia_saint_james
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell._in_the_mood	"In the Mood"	``|in|the|mood|''	``|in|the|mood|''	``|IN|DT|NN|''	O|O|O|O|O	||||					
+7	2	fb:cell.3_55	3:55	3:55	3:55	CD	TIME	T03:55	3.0		55.0		
+7	3	fb:cell.talib_kweli_roy_ayers_kanye_west	Talib Kweli, Roy Ayers, Kanye West	talib|kweli|,|roy|ayers|,|kanye|west	Talib|Kweli|,|Roy|Ayers|,|Kanye|West	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|LOCATION|LOCATION	|||||||				Talib Kweli|Roy Ayers|Kanye West	fb:part.talib_kweli|fb:part.roy_ayers|fb:part.kanye_west
+7	4	fb:cell.talib_kweli_greene_kanye_west_brian_potter	Talib Kweli Greene,\nKanye West,\nBrian Potter	talib|kweli|greene|,|kanye|west|,|brian|potter	Talib|Kweli|Greene|,|Kanye|West|,|Brian|Potter	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|LOCATION|LOCATION|O|PERSON|PERSON	||||||||				Talib Kweli Greene|Kanye West|Brian Potter	fb:part.talib_kweli_greene|fb:part.kanye_west|fb:part.brian_potter
+7	5	fb:cell.kanye_west	Kanye West	kanye|west	Kanye|West	NNP|NNP	O|O	|				Kanye West	fb:part.kanye_west
+7	6	fb:cell._lonesome_mood_by_the_friends_of_distinction	"Lonesome Mood" by The Friends of Distinction	``|lonesome|mood|''|by|the|friends|of|distinction	``|lonesome|mood|''|by|the|Friends|of|Distinction	``|JJ|NN|''|IN|DT|NNPS|IN|NNP	O|O|O|O|O|O|O|O|O	||||||||				"Lonesome Mood" by The Friends of Distinction	fb:part._lonesome_mood_by_the_friends_of_distinction
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell._soon_the_new_day	"Soon the New Day"	``|soon|the|new|day|''	``|soon|the|New|Day|''	``|RB|DT|NNP|NNP|''	O|O|O|MISC|DURATION|O	|||||					
+8	2	fb:cell.4_02	4:02	4:02	4:02	CD	TIME	T04:02	4.0		2.0		
+8	3	fb:cell.talib_kweli_norah_jones	Talib Kweli, Norah Jones	talib|kweli|,|norah|jones	Talib|Kweli|,|Norah|Jones	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Talib Kweli|Norah Jones	fb:part.talib_kweli|fb:part.norah_jones
+8	4	fb:cell.talib_kweli_greene_otis_jackson_jr_paul_charles_john_mason	Talib Kweli Greene,\nOtis Jackson Jr.,\nPaul Charles,\nJohn Mason	talib|kweli|greene|,|otis|jackson|jr.|,|paul|charles|,|john|mason	Talib|Kweli|Greene|,|Otis|Jackson|Jr.|,|Paul|Charles|,|John|Mason	NNP|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||				Talib Kweli Greene|Otis Jackson Jr.|Paul Charles|John Mason	fb:part.talib_kweli_greene|fb:part.otis_jackson_jr|fb:part.paul_charles|fb:part.john_mason
+8	5	fb:cell.madlib_co_produced_by_eric_krasno	Madlib\n(co-produced by Eric Krasno)	madlib|-lrb-|co|produced|by|eric|krasno|-rrb-	Madlib|-lrb-|co|produce|by|Eric|Krasno|-rrb-	NNP|-LRB-|NN|VBN|IN|NNP|NNP|-RRB-	ORGANIZATION|O|O|O|O|PERSON|PERSON|O	|||||||				Madlib|(co-produced by Eric Krasno)	fb:part.madlib|fb:part._co_produced_by_eric_krasno
+8	6	fb:cell._sheba_s_song_by_paul_charles_and_john_mason	"Sheba's Song" by Paul Charles and John Mason	``|sheba|'s|song|''|by|paul|charles|and|john|mason	``|Sheba|'s|song|''|by|Paul|Charles|and|John|Mason	``|NNP|POS|NN|''|IN|NNP|NNP|CC|NNP|NNP	O|O|O|O|O|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				"Sheba's Song" by Paul Charles and John Mason	fb:part._sheba_s_song_by_paul_charles_and_john_mason
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell._give_em_hell	"Give 'Em Hell"	``|give|'em|hell|''	``|give|'Em|Hell|''	``|VB|NNP|NNP|''	O|O|O|O|O	||||					
+9	2	fb:cell.4_27	4:27	4:27	4:27	CD	TIME	T04:27	4.0		27.0		
+9	3	fb:cell.talib_kweli_coi_mattison_lyfe_jennings	Talib Kweli, Coi Mattison, Lyfe Jennings	talib|kweli|,|coi|mattison|,|lyfe|jennings	Talib|Kweli|,|Coi|Mattison|,|Lyfe|Jennings	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Talib Kweli|Coi Mattison|Lyfe Jennings	fb:part.talib_kweli|fb:part.coi_mattison|fb:part.lyfe_jennings
+9	4	fb:cell.talib_kweli_greene_terrace_martin_kevin_gilliam_coi_mattison_chester_jennings_al_green	Talib Kweli Greene,\nTerrace Martin,\nKevin Gilliam,\nCoi Mattison,\nChester Jennings,\nAl Green	talib|kweli|greene|,|terrace|martin|,|kevin|gilliam|,|coi|mattison|,|chester|jennings|,|al|green	Talib|Kweli|Greene|,|Terrace|Martin|,|Kevin|Gilliam|,|Coi|Mattison|,|Chester|Jennings|,|Al|Green	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||||||||				Talib Kweli Greene|Terrace Martin|Kevin Gilliam|Coi Mattison|Chester Jennings|Al Green	fb:part.talib_kweli_greene|fb:part.terrace_martin|fb:part.kevin_gilliam|fb:part.coi_mattison|fb:part.chester_jennings|fb:part.al_green
+9	5	fb:cell.terrace_martin_battlecat	Terrace Martin, Battlecat	terrace|martin|,|battlecat	Terrace|Martin|,|Battlecat	NNP|NNP|,|NNP	O|PERSON|O|PERSON	|||				Terrace Martin|Battlecat	fb:part.terrace_martin|fb:part.battlecat
+9	6	fb:cell._i_m_glad_you_re_mine_by_al_green	"I'm Glad You're Mine" by Al Green	``|i|'m|glad|you|'re|mine|''|by|al|green	``|I|be|glad|you|be|Mine|''|by|Al|Green	``|PRP|VBP|JJ|PRP|VBP|NNP|''|IN|NNP|NNP	O|O|O|O|O|O|O|O|O|PERSON|PERSON	||||||||||				"I'm Glad You're Mine" by Al Green	fb:part._i_m_glad_you_re_mine_by_al_green
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell._more_or_less	"More or Less"	``|more|or|less|''	``|more|or|less|''	``|RBR|CC|RBR|''	O|O|O|O|O	||||					
+10	2	fb:cell.4_40	4:40	4:40	4:40	CD	TIME	T04:40	4.0		40.0		
+10	3	fb:cell.talib_kweli_dion	Talib Kweli, Dion	talib|kweli|,|dion	Talib|Kweli|,|Dion	NNP|NNP|,|NNP	PERSON|PERSON|O|PERSON	|||				Talib Kweli|Dion	fb:part.talib_kweli|fb:part.dion
+10	4	fb:cell.talib_kweli_greene_tony_cottrell_d_jenkins	Talib Kweli Greene,\nTony Cottrell,\nD. Jenkins	talib|kweli|greene|,|tony|cottrell|,|d.|jenkins	Talib|Kweli|Greene|,|Tony|Cottrell|,|D.|Jenkins	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||				Talib Kweli Greene|Tony Cottrell|D. Jenkins	fb:part.talib_kweli_greene|fb:part.tony_cottrell|fb:part.d_jenkins
+10	5	fb:cell.hi_tek	Hi-Tek	hi|tek	Hi|Tek	NNP|NNP	O|O	|				Hi-Tek	fb:part.hi_tek
+10	6	fb:cell.null											fb:part.null
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell._stay_around	"Stay Around"	``|stay|around|''	``|Stay|around|''	``|NNP|IN|''	O|O|O|O	|||					
+11	2	fb:cell.4_15	4:15	4:15	4:15	CD	TIME	T04:15	4.0		15.0		
+11	3	fb:cell.talib_kweli	Talib Kweli	talib|kweli	Talib|Kweli	NNP|NNP	PERSON|PERSON	|				Talib Kweli	fb:part.talib_kweli
+11	4	fb:cell.talib_kweli_greene_peter_phillips_robert_bell_ronald_bell_george_brown_cynthia_huggins_claydes_charles_smith_dennis_thomas	Talib Kweli Greene,\nPeter Phillips,\nRobert Bell,\nRonald Bell,\nGeorge Brown,\nCynthia Huggins,\nClaydes Charles Smith,\nDennis Thomas	talib|kweli|greene|,|peter|phillips|,|robert|bell|,|ronald|bell|,|george|brown|,|cynthia|huggins|,|claydes|charles|smith|,|dennis|thomas	Talib|Kweli|Greene|,|Peter|Phillips|,|Robert|Bell|,|Ronald|Bell|,|George|Brown|,|Cynthia|Huggins|,|Claydes|Charles|Smith|,|Dennis|Thomas	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||||||||||||				Talib Kweli Greene|Peter Phillips|Robert Bell|Ronald Bell|George Brown|Cynthia Huggins|Claydes Charles Smith|Dennis Thomas	fb:part.talib_kweli_greene|fb:part.peter_phillips|fb:part.robert_bell|fb:part.ronald_bell|fb:part.george_brown|fb:part.cynthia_huggins|fb:part.claydes_charles_smith|fb:part.dennis_thomas
+11	5	fb:cell.pete_rock	Pete Rock	pete|rock	Pete|Rock	NNP|NNP	PERSON|PERSON	|				Pete Rock	fb:part.pete_rock
+11	6	fb:cell._stay_awhile_by_kool_the_gang	"Stay Awhile" by Kool & the Gang	``|stay|awhile|''|by|kool|&|the|gang	``|Stay|Awhile|''|by|Kool|&|the|gang	``|NNP|NNP|''|IN|NNP|CC|DT|NN	O|O|O|O|O|ORGANIZATION|O|O|O	||||||||				"Stay Awhile" by Kool & the Gang	fb:part._stay_awhile_by_kool_the_gang
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell._hot_thing	"Hot Thing"	``|hot|thing|''	``|Hot|Thing|''	``|NNP|NNP|''	O|O|O|O	|||					
+12	2	fb:cell.3_48	3:48	3:48	3:48	CD	TIME	T03:48	3.0		48.0		
+12	3	fb:cell.talib_kweli_will_i_am	Talib Kweli, will.i.am	talib|kweli|,|will.i.am	Talib|Kweli|,|will.i.am	NNP|NNP|,|NN	PERSON|PERSON|O|O	|||				Talib Kweli|will.i.am	fb:part.talib_kweli|fb:part.will_i_am
+12	4	fb:cell.talib_kweli_greene_william_adams_johnny_watson	Talib Kweli Greene,\nWilliam Adams,\nJohnny Watson	talib|kweli|greene|,|william|adams|,|johnny|watson	Talib|Kweli|Greene|,|William|Adams|,|Johnny|Watson	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||				Talib Kweli Greene|William Adams|Johnny Watson	fb:part.talib_kweli_greene|fb:part.william_adams|fb:part.johnny_watson
+12	5	fb:cell.will_i_am	will.i.am	will.i.am	will.i.am	NN	O					will.i.am	fb:part.will_i_am
+12	6	fb:cell._we_re_no_exception_by_johnny_guitar_watson_more_more_more_by_andrea_true	"We're No Exception" by Johnny "Guitar" Watson\n"More, More, More" by Andrea True	``|we|'re|no|exception|''|by|johnny|``|guitar|''|watson|``|more|,|more|,|more|''|by|andrea|true	``|we|be|no|exception|''|by|Johnny|``|Guitar|''|Watson|``|more|,|more|,|more|''|by|Andrea|True	``|PRP|VBP|DT|NN|''|IN|NNP|``|NNP|''|NNP|``|RBR|,|RBR|,|JJR|''|IN|NNP|NNP	O|O|O|O|O|O|O|PERSON|O|O|O|PERSON|O|O|O|O|O|O|O|O|PERSON|PERSON	|||||||||||||||||||||				"We're No Exception" by Johnny "Guitar" Watson|"More|More|More" by Andrea True	fb:part._we_re_no_exception_by_johnny_guitar_watson|fb:part._more|fb:part.more|fb:part.more_by_andrea_true
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell._space_fruit_interlude	"Space Fruit" (Interlude)	``|space|fruit|''|-lrb-|interlude|-rrb-	``|space|Fruit|''|-lrb-|Interlude|-rrb-	``|NN|NNP|''|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O	||||||					
+13	2	fb:cell.1_31	1:31	1:31	1:31	CD	TIME	T01:31	1.0		31.0		
+13	3	fb:cell.sa_ra	Sa-Ra	sa|ra	sa|ra	NN|NN	O|O	|				Sa-Ra	fb:part.sa_ra
+13	4	fb:cell.om_mas_keith_shafiq_husayn	Om'Mas Keith,\nShafiq Husayn	om|`|mas|keith|,|shafiq|husayn	om|`|Mas|Keith|,|Shafiq|Husayn	NN|``|NNP|NNP|,|NNP|NNP	O|O|PERSON|PERSON|O|PERSON|PERSON	||||||				Om'Mas Keith|Shafiq Husayn	fb:part.om_mas_keith|fb:part.shafiq_husayn
+13	5	fb:cell.sa_ra	Sa-Ra	sa|ra	sa|ra	NN|NN	O|O	|				Sa-Ra	fb:part.sa_ra
+13	6	fb:cell.null											fb:part.null
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell._the_perfect_beat	"The Perfect Beat"	``|the|perfect|beat|''	``|the|Perfect|beat|''	``|DT|NNP|NN|''	O|O|O|O|O	||||					
+14	2	fb:cell.3_49	3:49	3:49	3:49	CD	TIME	T03:49	3.0		49.0		
+14	3	fb:cell.talib_kweli_krs_one	Talib Kweli, KRS-One	talib|kweli|,|krs|one	Talib|Kweli|,|KRS|one	NNP|NNP|,|NNP|CD	PERSON|PERSON|O|O|NUMBER	||||1.0				Talib Kweli|KRS-One	fb:part.talib_kweli|fb:part.krs_one
+14	4	fb:cell.talib_kweli_greene_s_thornton_leo_parker_bob_marley	Talib Kweli Greene,\nS. Thornton,\nLeo Parker,\nBob Marley	talib|kweli|greene|,|s.|thornton|,|leo|parker|,|bob|marley	Talib|Kweli|Greene|,|S.|Thornton|,|Leo|Parker|,|Bob|Marley	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||||||				Talib Kweli Greene|S. Thornton|Leo Parker|Bob Marley	fb:part.talib_kweli_greene|fb:part.s_thornton|fb:part.leo_parker|fb:part.bob_marley
+14	5	fb:cell.swiff_d	Swiff D	swiff|d	swiff|d	NN|NN	O|O	|				Swiff D	fb:part.swiff_d
+14	6	fb:cell._do_it_twice_by_bob_marley	"Do It Twice" by Bob Marley	``|do|it|twice|''|by|bob|marley	``|do|it|twice|''|by|Bob|Marley	``|VBD-AUX|PRP|RB|''|IN|NNP|NNP	O|O|O|O|O|O|PERSON|PERSON	|||||||				"Do It Twice" by Bob Marley	fb:part._do_it_twice_by_bob_marley
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell._oh_my_stars	"Oh My Stars"	``|oh|my|stars|''	``|oh|my|Stars|''	``|UH|PRP$|NNP|''	O|O|O|O|O	||||					
+15	2	fb:cell.3_40	3:40	3:40	3:40	CD	TIME	T03:40	3.0		40.0		
+15	3	fb:cell.talib_kweli_musiq_soulchild	Talib Kweli, Musiq Soulchild	talib|kweli|,|musiq|soulchild	Talib|Kweli|,|Musiq|Soulchild	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION	||||				Talib Kweli|Musiq Soulchild	fb:part.talib_kweli|fb:part.musiq_soulchild
+15	4	fb:cell.talib_kweli_greene_talib_johnson_khalil_abdul_rahman_amani_fela_greene	Talib Kweli Greene,\nTalib Johnson,\nKhalil Abdul-Rahman,\nAmani Fela Greene	talib|kweli|greene|,|talib|johnson|,|khalil|abdul|rahman|,|amani|fela|greene	Talib|Kweli|Greene|,|Talib|Johnson|,|Khalil|Abdul|Rahman|,|Amani|Fela|Greene	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON	|||||||||||||				Talib Kweli Greene|Talib Johnson|Khalil Abdul-Rahman|Amani Fela Greene	fb:part.talib_kweli_greene|fb:part.talib_johnson|fb:part.khalil_abdul_rahman|fb:part.amani_fela_greene
+15	5	fb:cell.dj_khalil	DJ Khalil	dj|khalil	DJ|Khalil	NNP|NNP	PERSON|PERSON	|				DJ Khalil	fb:part.dj_khalil
+15	6	fb:cell.null											fb:part.null
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell._listen	"Listen!!!"	``|listen|!!!|''	``|listen|!!!|''	``|VB|NN|''	O|O|O|O	|||					
+16	2	fb:cell.3_28	3:28	3:28	3:28	CD	TIME	T03:28	3.0		28.0		
+16	3	fb:cell.talib_kweli	Talib Kweli	talib|kweli	Talib|Kweli	NNP|NNP	PERSON|PERSON	|				Talib Kweli	fb:part.talib_kweli
+16	4	fb:cell.talib_kweli_greene_kwame_holland_fred_williams	Talib Kweli Greene,\nKwamé Holland,\nFred Williams	talib|kweli|greene|,|kwamé|holland|,|fred|williams	Talib|Kweli|Greene|,|Kwamé|Holland|,|Fred|Williams	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||				Talib Kweli Greene|Kwamé Holland|Fred Williams	fb:part.talib_kweli_greene|fb:part.kwame_holland|fb:part.fred_williams
+16	5	fb:cell.kwame	Kwamé	kwamé	kwamé	NN	O					Kwamé	fb:part.kwame
+16	6	fb:cell._tell_her_by_fred_williams_and_the_jewels_band	"Tell Her" by Fred Williams and the Jewels Band	``|tell|her|''|by|fred|williams|and|the|jewels|band	``|tell|she|''|by|Fred|Williams|and|the|Jewels|Band	``|VB|PRP$|''|IN|NNP|NNP|CC|DT|NNP|NNP	O|O|O|O|O|PERSON|PERSON|O|O|O|O	||||||||||				"Tell Her" by Fred Williams and the Jewels Band	fb:part._tell_her_by_fred_williams_and_the_jewels_band
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell._go_with_us	"Go With Us"	``|go|with|us|''	``|go|with|Us|''	``|VB|IN|NNP|''	O|O|O|O|O	||||					
+17	2	fb:cell.3_59	3:59	3:59	3:59	CD	TIME	T03:59	3.0		59.0		
+17	3	fb:cell.talib_kweli_strong_arm_steady	Talib Kweli, Strong Arm Steady	talib|kweli|,|strong|arm|steady	Talib|Kweli|,|strong|arm|Steady	NNP|NNP|,|JJ|NN|NNP	PERSON|PERSON|O|O|O|O	|||||				Talib Kweli|Strong Arm Steady	fb:part.talib_kweli|fb:part.strong_arm_steady
+17	4	fb:cell.talib_kweli_greene_e_jones_jason_smith_marvin_jones_charles_mitchell	Talib Kweli Greene,\nE. Jones,\nJason Smith,\nMarvin Jones,\nCharles Mitchell	talib|kweli|greene|,|e.|jones|,|jason|smith|,|marvin|jones|,|charles|mitchell	Talib|Kweli|Greene|,|E.|Jones|,|Jason|Smith|,|Marvin|Jones|,|Charles|Mitchell	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||				Talib Kweli Greene|E. Jones|Jason Smith|Marvin Jones|Charles Mitchell	fb:part.talib_kweli_greene|fb:part.e_jones|fb:part.jason_smith|fb:part.marvin_jones|fb:part.charles_mitchell
+17	5	fb:cell.e_jones	E. Jones	e.|jones	E.|Jones	NNP|NNP	PERSON|PERSON	|				E. Jones	fb:part.e_jones
+17	6	fb:cell.null											fb:part.null
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell._hostile_gospel_part_2_deliver_me	"Hostile Gospel (Part 2) (Deliver Me)"	``|hostile|gospel|-lrb-|part|2|-rrb-|-lrb-|deliver|me|-rrb-|''	``|hostile|gospel|-lrb-|part|2|-rrb-|-lrb-|deliver|I|-rrb-|''	``|JJ|NN|-LRB-|NN|CD|-RRB-|-LRB-|VB|PRP|-RRB-|''	O|O|O|O|O|NUMBER|O|O|O|O|O|O	|||||2.0||||||	2.0				
+18	2	fb:cell.4_21	4:21	4:21	4:21	CD	TIME	T04:21	4.0		21.0		
+18	3	fb:cell.talib_kweli_sizzla	Talib Kweli, Sizzla	talib|kweli|,|sizzla	Talib|Kweli|,|Sizzla	NNP|NNP|,|NNP	PERSON|PERSON|O|O	|||				Talib Kweli|Sizzla	fb:part.talib_kweli|fb:part.sizzla
+18	4	fb:cell.talib_kweli_greene_miguel_collins_khalil_abdul_rahman_david_hinds	Talib Kweli Greene,\nMiguel Collins,\nKhalil Abdul-Rahman,\nDavid Hinds	talib|kweli|greene|,|miguel|collins|,|khalil|abdul|rahman|,|david|hinds	Talib|Kweli|Greene|,|Miguel|Collins|,|Khalil|Abdul|Rahman|,|David|Hinds	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON	||||||||||||				Talib Kweli Greene|Miguel Collins|Khalil Abdul-Rahman|David Hinds	fb:part.talib_kweli_greene|fb:part.miguel_collins|fb:part.khalil_abdul_rahman|fb:part.david_hinds
+18	5	fb:cell.dj_khalil	DJ Khalil	dj|khalil	DJ|Khalil	NNP|NNP	PERSON|PERSON	|				DJ Khalil	fb:part.dj_khalil
+18	6	fb:cell._tight_rope_by_steel_pulse	"Tight Rope" by Steel Pulse	``|tight|rope|''|by|steel|pulse	``|tight|rope|''|by|Steel|pulse	``|JJ|NN|''|IN|NNP|NN	O|O|O|O|O|O|O	||||||				"Tight Rope" by Steel Pulse	fb:part._tight_rope_by_steel_pulse
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell._the_nature	"The Nature"	``|the|nature|''	``|the|Nature|''	``|DT|NNP|''	O|O|O|O	|||					
+19	2	fb:cell.5_01	5:01	5:01	5:01	NN	TIME	T05:01	5.0		1.0		
+19	3	fb:cell.talib_kweli_justin_timberlake	Talib Kweli, Justin Timberlake	talib|kweli|,|justin|timberlake	Talib|Kweli|,|Justin|Timberlake	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Talib Kweli|Justin Timberlake	fb:part.talib_kweli|fb:part.justin_timberlake
+19	4	fb:cell.talib_kweli_greene_justin_timberlake	Talib Kweli Greene,\nJustin Timberlake	talib|kweli|greene|,|justin|timberlake	Talib|Kweli|Greene|,|Justin|Timberlake	NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON	|||||				Talib Kweli Greene|Justin Timberlake	fb:part.talib_kweli_greene|fb:part.justin_timberlake
+19	5	fb:cell.eric_krasno_adam_deitch	Eric Krasno, Adam Deitch	eric|krasno|,|adam|deitch	Eric|Krasno|,|Adam|Deitch	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Eric Krasno|Adam Deitch	fb:part.eric_krasno|fb:part.adam_deitch
+19	6	fb:cell.null											fb:part.null
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell._hush	"Hush"	``|hush|''	``|hush|''	``|JJ|''	O|O|O	||					
+20	2	fb:cell.3_55	3:55	3:55	3:55	CD	TIME	T03:55	3.0		55.0		
+20	3	fb:cell.talib_kweli_jean_grae	Talib Kweli, Jean Grae	talib|kweli|,|jean|grae	Talib|Kweli|,|Jean|Grae	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Talib Kweli|Jean Grae	fb:part.talib_kweli|fb:part.jean_grae
+20	4	fb:cell.talib_kweli_greene_c_burnette_m_clervoix	Talib Kweli Greene,\nC. Burnette,\nM. Clervoix	talib|kweli|greene|,|c.|burnette|,|m.|clervoix	Talib|Kweli|Greene|,|C.|Burnette|,|M.|Clervoix	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||				Talib Kweli Greene|C. Burnette|M. Clervoix	fb:part.talib_kweli_greene|fb:part.c_burnette|fb:part.m_clervoix
+20	5	fb:cell.chad_beatz	Chad beatz	chad|beatz	Chad|beatz	NNP|NNP	O|O	|				Chad beatz	fb:part.chad_beatz
+20	6	fb:cell.lp_edition_19_itunes_single	LP Edition #19 & iTunes Single	lp|edition|#|19|&|itunes|single	lp|edition|#|19|&|iTunes|single	NN|NN|#|CD|CC|NNP|JJ	O|O|MONEY|MONEY|O|O|O	||£19.0|£19.0|||	19.0			LP Edition #19 & iTunes Single	fb:part.lp_edition_19_itunes_single

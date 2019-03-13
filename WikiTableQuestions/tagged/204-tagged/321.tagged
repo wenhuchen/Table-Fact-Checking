@@ -1,0 +1,76 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.community	Community	community	community	NN	O						
+-1	1	fb:row.row.currency	Currency	currency	currency	NN	O						
+-1	2	fb:row.row.region	Region	region	region	NN	O						
+-1	3	fb:row.row.target_date	Target date	target|date	target|date	NN|NN	O|O	|					
+-1	4	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.economic_and_monetary_community_of_central_africa_cemac	Economic and Monetary Community of Central Africa (CEMAC)	economic|and|monetary|community|of|central|africa|-lrb-|cemac|-rrb-	Economic|and|Monetary|Community|of|Central|Africa|-lrb-|CEMAC|-rrb-	NNP|CC|NNP|NNP|IN|NNP|NNP|-LRB-|NNP|-RRB-	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	|||||||||					
+0	1	fb:cell.central_african_cfa_franc	Central African CFA franc	central|african|cfa|franc	central|african|cfa|franc	JJ|JJ|NN|NN	O|O|O|O	|||				Central African CFA franc	fb:part.central_african_cfa_franc
+0	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+0	3	fb:cell.null											fb:part.null
+0	4	fb:cell.not_yet_functioning_common_market	not yet functioning common market	not|yet|functioning|common|market	not|yet|function|common|market	RB|RB|VBG|JJ|NN	O|O|O|O|O	||||				not yet functioning common market	fb:part.not_yet_functioning_common_market
+1	0	fb:cell.west_african_economic_and_monetary_union_uemoa	West African Economic and Monetary Union (UEMOA)	west|african|economic|and|monetary|union|-lrb-|uemoa|-rrb-	West|African|Economic|and|Monetary|Union|-lrb-|UEMOA|-rrb-	NNP|NNP|NNP|CC|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|ORGANIZATION|O	||||||||					
+1	1	fb:cell.west_african_cfa_franc	West African CFA franc	west|african|cfa|franc	West|African|CFA|franc	NNP|NNP|NNP|NN	MISC|MISC|O|O	|||				West African CFA franc	fb:part.west_african_cfa_franc
+1	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+1	3	fb:cell.null											fb:part.null
+1	4	fb:cell.not_yet_functioning_common_market	not yet functioning common market	not|yet|functioning|common|market	not|yet|function|common|market	RB|RB|VBG|JJ|NN	O|O|O|O|O	||||				not yet functioning common market	fb:part.not_yet_functioning_common_market
+2	0	fb:cell.gulf_cooperation_council_gcc	Gulf Cooperation Council (GCC)	gulf|cooperation|council|-lrb-|gcc|-rrb-	Gulf|Cooperation|Council|-lrb-|GCC|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	|||||					
+2	1	fb:cell.khaleeji	Khaleeji	khaleeji	Khaleeji	NNP	PERSON					Khaleeji	fb:part.khaleeji
+2	2	fb:cell.middle_east	Middle East	middle|east	Middle|East	NNP|NNP	LOCATION|LOCATION	|				Middle East	fb:part.middle_east
+2	3	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+2	4	fb:cell.possibly_gold_backed_but_postponed_due_to_the_financial_crisis	Possibly gold backed, but postponed due to the financial crisis.	possibly|gold|backed|,|but|postponed|due|to|the|financial|crisis|.	possibly|gold|back|,|but|postpone|due|to|the|financial|crisis|.	RB|NN|VBD|,|CC|VBD|JJ|TO|DT|JJ|NN|.	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Possibly gold backed|but postponed due to the financial crisis.	fb:part.possibly_gold_backed|fb:part.but_postponed_due_to_the_financial_crisis
+3	0	fb:cell.east_african_community_eac	East African Community (EAC)	east|african|community|-lrb-|eac|-rrb-	east|African|Community|-lrb-|EAC|-rrb-	JJ|NNP|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|O|O|O	|||||					
+3	1	fb:cell.east_african_shilling	East African shilling	east|african|shilling	east|african|shilling	JJ|JJ|NN	MISC|MISC|O	||				East African shilling	fb:part.east_african_shilling
+3	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+3	3	fb:cell.2015	2015	2015	2015	CD	DATE	2015	2015.0	2015-xx-xx			
+3	4	fb:cell.to_be_used_by_the_future_east_african_federation	To be used by the future East African Federation	to|be|used|by|the|future|east|african|federation	to|be|use|by|the|future|east|african|Federation	TO|VBD-AUX|VBN|IN|DT|JJ|JJ|JJ|NNP	O|O|O|O|DATE|DATE|O|O|O	||||FUTURE_REF|FUTURE_REF|||				To be used by the future East African Federation	fb:part.to_be_used_by_the_future_east_african_federation
+4	0	fb:cell.caribbean_single_market_and_economy_as_part_of_the_caricom	Caribbean Single Market and Economy (as part of the CARICOM)	caribbean|single|market|and|economy|-lrb-|as|part|of|the|caricom|-rrb-	Caribbean|single|market|and|economy|-lrb-|as|part|of|the|CARICOM|-rrb-	NNP|JJ|NN|CC|NN|-LRB-|IN|NN|IN|DT|NNP|-RRB-	LOCATION|O|O|O|O|O|O|O|O|O|O|O	|||||||||||					
+4	1	fb:cell.null											fb:part.null
+4	2	fb:cell.latin_america_caribbean	Latin America\n/Caribbean	latin|america|\\/|caribbean	Latin|America|\\/|Caribbean	NNP|NNP|:|NNP	LOCATION|LOCATION|O|LOCATION	|||				Latin America|Caribbean	fb:part.latin_america|fb:part.caribbean
+4	3	fb:cell.2015	2015	2015	2015	CD	DATE	2015	2015.0	2015-xx-xx			
+4	4	fb:cell.to_supplement_the_oecs_eastern_caribbean_currency_union	To supplement the OECS Eastern Caribbean Currency Union	to|supplement|the|oecs|eastern|caribbean|currency|union	to|supplement|the|OECS|Eastern|Caribbean|Currency|Union	TO|VB|DT|NNP|NNP|NNP|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||				To supplement the OECS Eastern Caribbean Currency Union	fb:part.to_supplement_the_oecs_eastern_caribbean_currency_union
+5	0	fb:cell.southern_african_customs_union_sacu	Southern African Customs Union (SACU)	southern|african|customs|union|-lrb-|sacu|-rrb-	southern|african|Customs|Union|-lrb-|SACU|-rrb-	JJ|JJ|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|ORGANIZATION|O	||||||					
+5	1	fb:cell.south_african_rand	South African Rand	south|african|rand	south|african|Rand	JJ|JJ|NNP	MISC|MISC|MISC	||				South African Rand	fb:part.south_african_rand
+5	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+5	3	fb:cell.2015	2015	2015	2015	CD	DATE	2015	2015.0	2015-xx-xx			
+5	4	fb:cell.de_facto_for_the_cma_member_when_the_sadc_economic_union_is_established	de facto for the CMA member when the SADC economic union is established	de|facto|for|the|cma|member|when|the|sadc|economic|union|is|established	de|facto|for|the|CMA|member|when|the|SADC|economic|union|be|establish	IN|FW|IN|DT|NNP|NN|WRB|DT|NNP|JJ|NN|VBD-AUX|VBN	O|O|O|O|ORGANIZATION|O|O|O|ORGANIZATION|O|O|O|O	||||||||||||				de facto for the CMA member when the SADC economic union is established	fb:part.de_facto_for_the_cma_member_when_the_sadc_economic_union_is_established
+6	0	fb:cell.southern_african_development_community_sadc	Southern African Development Community (SADC)	southern|african|development|community|-lrb-|sadc|-rrb-	southern|African|Development|Community|-lrb-|SADC|-rrb-	JJ|NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|ORGANIZATION|O	||||||					
+6	1	fb:cell.south_african_rand_interim_proposal	South African Rand\n(interim proposal)	south|african|rand|-lrb-|interim|proposal|-rrb-	south|african|Rand|-lrb-|interim|proposal|-rrb-	JJ|JJ|NNP|-LRB-|JJ|NN|-RRB-	MISC|MISC|O|O|O|O|O	||||||				South African Rand|(interim proposal)	fb:part.south_african_rand|fb:part._interim_proposal
+6	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+6	3	fb:cell.2016	2016	2016	2016	CD	DATE	2016	2016.0	2016-xx-xx			
+6	4	fb:cell.to_supplement_or_succeed_the_cma_and_southern_africa_customs_union	To supplement or succeed the CMA and Southern Africa Customs Union	to|supplement|or|succeed|the|cma|and|southern|africa|customs|union	to|supplement|or|succeed|the|CMA|and|Southern|Africa|Customs|Union	TO|VB|CC|VB|DT|NNP|CC|NNP|NNP|NNP|NNP	O|O|O|O|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||||||				To supplement or succeed the CMA and Southern Africa Customs Union	fb:part.to_supplement_or_succeed_the_cma_and_southern_africa_customs_union
+7	0	fb:cell.south_asian_association_for_regional_cooperation	South Asian Association for Regional Cooperation	south|asian|association|for|regional|cooperation	south|asian|association|for|Regional|Cooperation	JJ|JJ|NN|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||					
+7	1	fb:cell.null											fb:part.null
+7	2	fb:cell.south_asia	South Asia	south|asia	South|Asia	NNP|NNP	LOCATION|LOCATION	|				South Asia	fb:part.south_asia
+7	3	fb:cell.2016_citation_needed	2016[citation needed]	2016|-lsb-|citation|needed|-rsb-	2016|-lsb-|citation|need|-rsb-	CD|-LRB-|NN|VBN|-RRB-	DATE|O|O|O|O	2016||||	2016.0				
+7	4	fb:cell.null											fb:part.null
+8	0	fb:cell.union_of_south_american_nations_unasur	Union of South American Nations (UNASUR)	union|of|south|american|nations|-lrb-|unasur|-rrb-	Union|of|South|American|Nations|-lrb-|UNASUR|-rrb-	NNP|IN|NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|MISC|MISC|MISC|O|O|O	|||||||					
+8	1	fb:cell.latino	Latino	latino	latino	NN	O					Latino	fb:part.latino
+8	2	fb:cell.latin_america_caribbean	Latin America\n/Caribbean	latin|america|\\/|caribbean	Latin|America|\\/|Caribbean	NNP|NNP|:|NNP	LOCATION|LOCATION|O|LOCATION	|||				Latin America|Caribbean	fb:part.latin_america|fb:part.caribbean
+8	3	fb:cell.2019	2019	2019	2019	CD	DATE	2019	2019.0	2019-xx-xx			
+8	4	fb:cell.null											fb:part.null
+9	0	fb:cell.economic_community_of_central_african_states_eccas	Economic Community of Central African States (ECCAS)	economic|community|of|central|african|states|-lrb-|eccas|-rrb-	Economic|Community|of|Central|African|States|-lrb-|ECCAS|-rrb-	NNP|NNP|IN|NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|O|O	||||||||					
+9	1	fb:cell.null											fb:part.null
+9	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+9	3	fb:cell.null											fb:part.null
+9	4	fb:cell.to_supplement_the_economic_and_monetary_community_of_central_africa_cemac	To supplement the Economic and Monetary Community of Central Africa (CEMAC)	to|supplement|the|economic|and|monetary|community|of|central|africa|-lrb-|cemac|-rrb-	to|supplement|the|Economic|and|Monetary|Community|of|Central|Africa|-lrb-|CEMAC|-rrb-	TO|VB|DT|NNP|CC|NNP|NNP|IN|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	||||||||||||				To supplement the Economic and Monetary Community of Central Africa (CEMAC)	fb:part.to_supplement_the_economic_and_monetary_community_of_central_africa_cemac
+10	0	fb:cell.economic_community_of_west_african_states_ecowas	Economic Community of West African States (ECOWAS)	economic|community|of|west|african|states|-lrb-|ecowas|-rrb-	Economic|Community|of|West|African|States|-lrb-|ECOWAS|-rrb-	NNP|NNP|IN|NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O|O|O	||||||||					
+10	1	fb:cell.null											fb:part.null
+10	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+10	3	fb:cell.null											fb:part.null
+10	4	fb:cell.to_succeed_uemoa_and_wamz	To succeed UEMOA and WAMZ	to|succeed|uemoa|and|wamz	to|succeed|UEMOA|and|WAMZ	TO|VB|NNP|CC|NNP	O|O|ORGANIZATION|O|O	||||				To succeed UEMOA and WAMZ	fb:part.to_succeed_uemoa_and_wamz
+11	0	fb:cell.african_economic_community	African Economic Community	african|economic|community	african|Economic|Community	JJ|NNP|NNP	O|O|O	||					
+11	1	fb:cell.null											fb:part.null
+11	2	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION					Africa	fb:part.africa
+11	3	fb:cell.2028	2028	2028	2028	CD	DATE	2028	2028.0	2028-xx-xx			
+11	4	fb:cell.see_african_monetary_union	See African Monetary Union	see|african|monetary|union	see|African|Monetary|Union	VB|NNP|NNP|NNP	O|O|O|O	|||				See African Monetary Union	fb:part.see_african_monetary_union
+12	0	fb:cell.union_state_of_russia_and_belarus	Union State of Russia and Belarus	union|state|of|russia|and|belarus	Union|State|of|Russia|and|Belarus	NNP|NNP|IN|NNP|CC|NNP	O|O|O|LOCATION|O|LOCATION	|||||					
+12	1	fb:cell.russian_ruble	Russian ruble	russian|ruble	russian|ruble	JJ|NN	MISC|O	|				Russian ruble	fb:part.russian_ruble
+12	2	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION					Europe	fb:part.europe
+12	3	fb:cell.null											fb:part.null
+12	4	fb:cell.null											fb:part.null
+13	0	fb:cell.arab_league	Arab League	arab|league	Arab|League	NNP|NNP	MISC|MISC	|					
+13	1	fb:cell.arab_dinar	Arab Dinar	arab|dinar	Arab|Dinar	NNP|NNP	MISC|MISC	|				Arab Dinar	fb:part.arab_dinar
+13	2	fb:cell.arab_states	Arab states	arab|states	Arab|state	NNP|NNS	MISC|O	|				Arab states	fb:part.arab_states
+13	3	fb:cell.null											fb:part.null
+13	4	fb:cell.arab_dinar_has_been_proposed_ever_since_the_creation_of_the_arab_monetary_fund_expected_for_serious_plans_of_doing_so_after_the_creation_of_the_proposed_arab_union	Arab Dinar has been proposed ever since the creation of the Arab Monetary Fund, expected for serious plans of doing so, after the creation of the proposed Arab Union.	arab|dinar|has|been|proposed|ever|since|the|creation|of|the|arab|monetary|fund|,|expected|for|serious|plans|of|doing|so|,|after|the|creation|of|the|proposed|arab|union|.	Arab|Dinar|have|be|propose|ever|since|the|creation|of|the|Arab|Monetary|Fund|,|expect|for|serious|plan|of|do|so|,|after|the|creation|of|the|propose|Arab|Union|.	NNP|NNP|VBD-AUX|VBD-AUX|VBN|RB|IN|DT|NN|IN|DT|NNP|NNP|NNP|,|VBN|IN|JJ|NNS|IN|VBG|RB|,|IN|DT|NN|IN|DT|VBN|NNP|NNP|.	MISC|MISC|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O	|||||||||||||||||||||||||||||||				Arab Dinar has been proposed ever since the creation of the Arab Monetary Fund|expected for serious plans of doing so|after the creation of the proposed Arab Union.	fb:part.arab_dinar_has_been_proposed_ever_since_the_creation_of_the_arab_monetary_fund|fb:part.expected_for_serious_plans_of_doing_so|fb:part.after_the_creation_of_the_proposed_arab_union

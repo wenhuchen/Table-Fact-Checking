@@ -1,0 +1,96 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.ship	Ship	ship	ship	NN	O						
+-1	1	fb:row.row.hull_no	Hull No.	hull|no|.	Hull|No|.	NNP|NNP|.	O|O|O	||					
+-1	2	fb:row.row.status	Status	status	status	NN	O						
+-1	3	fb:row.row.years_active	Years Active	years|active	year|active	NNS|JJ	DURATION|O	|					
+-1	4	fb:row.row.nvr_page	NVR\nPage	nvr|page	NVR|Page	NNP|NNP	O|O	|					
+0	0	fb:cell.henry_j_kaiser	Henry J. Kaiser	henry|j.|kaiser	Henry|J.|Kaiser	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+0	1	fb:cell.t_ao_187	T-AO-187	t|ao-187	t|ao-187	NN|NN	O|O	|	187.0				
+0	2	fb:cell.active_southern_california_duty_oiler	Active—Southern California Duty Oiler	active|--|southern|california|duty|oiler	active|--|Southern|California|Duty|Oiler	JJ|:|NNP|NNP|NNP|NNP	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Active—Southern California Duty Oiler	fb:part.active_southern_california_duty_oiler
+0	3	fb:cell.1986_present	1986–present	1986|--|present	1986|--|present	CD|:|JJ	DATE|O|DATE	1986||PRESENT_REF	1986.0			1986–present	fb:part.1986_present
+0	4	fb:cell.ao187	AO187	ao187	ao187	NN	O		187.0				
+1	0	fb:cell.joshua_humphreys	Joshua Humphreys	joshua|humphreys	Joshua|Humphreys	NNP|NNP	PERSON|PERSON	|					
+1	1	fb:cell.t_ao_188	T-AO-188	t|ao-188	t|ao-188	NN|NN	O|O	|	188.0				
+1	2	fb:cell.inactivated_1996_returned_to_service_2005	Inactivated 1996, returned to service 2005	inactivated|1996|,|returned|to|service|2005	inactivate|1996|,|return|to|service|2005	VBN|CD|,|VBD|TO|NN|CD	O|DATE|O|O|O|O|DATE	|1996|||||2005	1996.0		2005.0	Inactivated 1996|returned to service 2005	fb:part.inactivated_1996|fb:part.returned_to_service_2005
+1	3	fb:cell.1987_1996_2005_2006_2010_present	1987-1996; 2005-2006; 2010-present	1987-1996|;|2005-2006|;|2010|present	1987-1996|;|2005-2006|;|2010|present	CD|:|CD|:|CD|JJ	DATE|O|DATE|O|DATE|DATE	1987/1996||2005/2006||2010|2010	1987.0		1996.0	1987-1996; 2005-2006; 2010-present	fb:part.1987_1996_2005_2006_2010_present
+1	4	fb:cell.ao188	AO188	ao188	ao188	NN	O		188.0				
+2	0	fb:cell.john_lenthall	John Lenthall	john|lenthall	John|Lenthall	NNP|NNP	PERSON|PERSON	|					
+2	1	fb:cell.t_ao_189	T-AO-189	t|ao-189	t|ao-189	NN|NN	O|O	|	189.0				
+2	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+2	3	fb:cell.1987_1996_1998_present	1987-1996; 1998–present	1987-1996|;|1998|--|present	1987-1996|;|1998|--|present	CD|:|CD|:|JJ	DATE|O|DATE|O|DATE	1987/1996||1998||PRESENT_REF	1987.0		1996.0	1987-1996; 1998–present	fb:part.1987_1996_1998_present
+2	4	fb:cell.ao189	AO189	ao189	ao189	NN	O		189.0				
+3	0	fb:cell.andrew_j_higgins	Andrew J. Higgins	andrew|j.|higgins	Andrew|J.|Higgins	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+3	1	fb:cell.t_ao_190	T-AO-190	t|ao-190	t|ao-190	NN|NN	O|O	|	190.0				
+3	2	fb:cell.inactivated_may_1996_sold_to_the_chilean_navy_may_2009_towed_to_atlantic_marine_alabama_shipyard_mobile_alabama_september_2009_for_three_month_refit_commissioned_in_chilean_navy_on_10_february_2010_and_renamed_almirante_montt_1	Inactivated May 1996. Sold to the Chilean Navy May 2009. Towed to Atlantic Marine Alabama shipyard, Mobile, Alabama, September 2009 for three-month refit. Commissioned in Chilean Navy on 10 February 2010 and renamed Almirante Montt.[1]	inactivated|may|1996|.|sold|to|the|chilean|navy|may|2009|.|towed|to|atlantic|marine|alabama|shipyard|,|mobile|,|alabama|,|september|2009|for|three|month|refit|.|commissioned|in|chilean|navy|on|10|february|2010|and|renamed|almirante|montt|.|-lsb-|1|-rsb-	inactivate|May|1996|.|sell|to|the|chilean|Navy|May|2009|.|tow|to|Atlantic|Marine|Alabama|shipyard|,|Mobile|,|Alabama|,|September|2009|for|three|month|refit|.|commission|in|chilean|Navy|on|10|February|2010|and|rename|Almirante|Montt|.|-lsb-|1|-rsb-	VBN|VBD-AUX|CD|.|VBN|TO|DT|JJ|NNP|VBD-AUX|CD|.|VBN|TO|NNP|NNP|NNP|NN|,|NNP|,|NNP|,|NNP|CD|IN|CD|NN|NN|.|VBN|IN|JJ|NNP|IN|CD|NNP|CD|CC|VBN|NNP|NNP|.|-LRB-|LS|-RRB-	O|DATE|DATE|O|O|O|O|MISC|ORGANIZATION|DATE|DATE|O|O|O|LOCATION|LOCATION|LOCATION|O|O|O|O|LOCATION|O|DATE|DATE|O|DURATION|NUMBER|O|O|O|O|MISC|ORGANIZATION|O|DATE|DATE|DATE|O|O|PERSON|PERSON|O|O|NUMBER|O	|1996-05|1996-05|||||||2009-05|2009-05|||||||||||||2009-09|2009-09|||0.0||||||||2010-02-10|2010-02-10|2010-02-10|||||||1.0|	1996.0		2009.0	Inactivated May 1996. Sold to the Chilean Navy May 2009. Towed to Atlantic Marine Alabama shipyard|Mobile|Alabama|September 2009 for three-month refit. Commissioned in Chilean Navy on 10 February 2010 and renamed Almirante Montt.[1]	fb:part.inactivated_may_1996_sold_to_the_chilean_navy_may_2009_towed_to_atlantic_marine_alabama_shipyard|fb:part.mobile|fb:part.alabama|fb:part.september_2009_for_three_month_refit_commissioned_in_chilean_navy_on_10_february_2010_and_renamed_almirante_montt_1
+3	3	fb:cell.1987_1996_usa_2010_present_chile	1987-1996 (USA); 2010–present (Chile)	1987-1996|-lrb-|usa|-rrb-|;|2010|--|present|-lrb-|chile|-rrb-	1987-1996|-lrb-|usa|-rrb-|;|2010|--|present|-lrb-|Chile|-rrb-	CD|-LRB-|NN|-RRB-|:|CD|:|JJ|-LRB-|NNP|-RRB-	DATE|O|O|O|O|DATE|O|DATE|O|LOCATION|O	1987/1996|||||2010||PRESENT_REF|||	1987.0		1996.0	1987-1996 (USA); 2010–present (Chile)	fb:part.1987_1996_usa_2010_present_chile
+3	4	fb:cell.ao190	AO190	ao190	ao190	NN	O		190.0				
+4	0	fb:cell.benjamin_isherwood	Benjamin Isherwood	benjamin|isherwood	Benjamin|Isherwood	NNP|NNP	PERSON|PERSON	|					
+4	1	fb:cell.t_ao_191	T-AO-191	t|ao-191	t|ao-191	NN|NN	O|O	|	191.0				
+4	2	fb:cell.cancelled_when_95_3_complete_transferred_to_the_maritime_administration_laid_up_in_the_james_river_reserve_fleet_scrapped_in_2011	Cancelled when 95.3% complete,\ntransferred to the Maritime Administration,\nlaid up in the James River Reserve Fleet,\nscrapped in 2011	cancelled|when|95.3|%|complete|,|transferred|to|the|maritime|administration|,|laid|up|in|the|james|river|reserve|fleet|,|scrapped|in|2011	cancel|when|95.3|%|complete|,|transfer|to|the|Maritime|Administration|,|lay|up|in|the|James|River|Reserve|Fleet|,|scrap|in|2011	VBN|WRB|CD|NN|JJ|,|VBN|TO|DT|NNP|NNP|,|VBD|RP|IN|DT|NNP|NNP|NNP|NNP|,|VBN|IN|CD	O|O|PERCENT|PERCENT|O|O|O|O|O|O|O|O|O|O|O|O|LOCATION|LOCATION|LOCATION|LOCATION|O|O|O|DATE	||%95.3|%95.3||||||||||||||||||||2011	95.3		2011.0	Cancelled when 95.3% complete|transferred to the Maritime Administration|laid up in the James River Reserve Fleet|scrapped in 2011	fb:part.cancelled_when_95_3_complete|fb:part.transferred_to_the_maritime_administration|fb:part.laid_up_in_the_james_river_reserve_fleet|fb:part.scrapped_in_2011
+4	3	fb:cell.launched_1988_christened_1991_never_in_service	Launched 1988, christened 1991, never in service	launched|1988|,|christened|1991|,|never|in|service	launch|1988|,|christen|1991|,|never|in|service	VBN|CD|,|VBN|CD|,|RB|IN|NN	O|DATE|O|O|DATE|O|O|O|O	|1988|||1991||||	1988.0		1991.0	Launched 1988|christened 1991|never in service	fb:part.launched_1988|fb:part.christened_1991|fb:part.never_in_service
+4	4	fb:cell.ao191	AO191	ao191	ao191	NN	O		191.0				
+5	0	fb:cell.henry_eckford	Henry Eckford	henry|eckford	Henry|Eckford	NNP|NNP	PERSON|PERSON	|					
+5	1	fb:cell.t_ao_192	T-AO-192	t|ao-192	t|ao-192	NN|NN	O|O	|	192.0				
+5	2	fb:cell.cancelled_when_84_complete_transferred_to_the_maritime_administration_laid_up_in_the_james_river_reserve_fleet_scrapped_in_2011	Cancelled when 84% complete,\ntransferred to the Maritime Administration,\nlaid up in the James River Reserve Fleet,\nscrapped in 2011	cancelled|when|84|%|complete|,|transferred|to|the|maritime|administration|,|laid|up|in|the|james|river|reserve|fleet|,|scrapped|in|2011	cancel|when|84|%|complete|,|transfer|to|the|Maritime|Administration|,|lay|up|in|the|James|River|Reserve|Fleet|,|scrap|in|2011	VBN|WRB|CD|NN|JJ|,|VBN|TO|DT|NNP|NNP|,|VBD|RP|IN|DT|NNP|NNP|NNP|NNP|,|VBN|IN|CD	O|O|PERCENT|PERCENT|O|O|O|O|O|O|O|O|O|O|O|O|LOCATION|LOCATION|LOCATION|LOCATION|O|O|O|DATE	||%84.0|%84.0||||||||||||||||||||2011	84.0		2011.0	Cancelled when 84% complete|transferred to the Maritime Administration|laid up in the James River Reserve Fleet|scrapped in 2011	fb:part.cancelled_when_84_complete|fb:part.transferred_to_the_maritime_administration|fb:part.laid_up_in_the_james_river_reserve_fleet|fb:part.scrapped_in_2011
+5	3	fb:cell.launched_1989_never_in_service	Launched 1989, never in service	launched|1989|,|never|in|service	launch|1989|,|never|in|service	VBN|CD|,|RB|IN|NN	O|DATE|O|O|O|O	|1989||||	1989.0			Launched 1989|never in service	fb:part.launched_1989|fb:part.never_in_service
+5	4	fb:cell.ao192	AO192	ao192	ao192	NN	O		192.0				
+6	0	fb:cell.walter_s_diehl	Walter S. Diehl	walter|s.|diehl	Walter|S.|Diehl	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+6	1	fb:cell.t_ao_193	T-AO-193	t|ao-193	t|ao-193	NN|NN	O|O	|	193.0				
+6	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+6	3	fb:cell.1988_present	1988–present	1988|--|present	1988|--|present	CD|:|JJ	DATE|O|DATE	1988||PRESENT_REF	1988.0			1988–present	fb:part.1988_present
+6	4	fb:cell.ao193	AO193	ao193	ao193	NN	O		193.0				
+7	0	fb:cell.john_ericsson	John Ericsson	john|ericsson	John|Ericsson	NNP|NNP	PERSON|PERSON	|					
+7	1	fb:cell.t_ao_194	T-AO-194	t|ao-194	t|ao-194	NN|NN	O|O	|	194.0				
+7	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+7	3	fb:cell.1991_present	1991–present	1991|--|present	1991|--|present	CD|:|JJ	DATE|O|DATE	1991||PRESENT_REF	1991.0			1991–present	fb:part.1991_present
+7	4	fb:cell.ao194	AO194	ao194	ao194	NN	O		194.0				
+8	0	fb:cell.leroy_grumman	Leroy Grumman	leroy|grumman	Leroy|Grumman	NNP|NNP	PERSON|PERSON	|					
+8	1	fb:cell.t_ao_195	T-AO-195	t|ao-195	t|ao-195	NN|NN	O|O	|	195.0				
+8	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+8	3	fb:cell.1989_present	1989–present	1989|--|present	1989|--|present	CD|:|JJ	DATE|O|DATE	1989||PRESENT_REF	1989.0			1989–present	fb:part.1989_present
+8	4	fb:cell.ao195	AO195	ao195	ao195	NN	O		195.0				
+9	0	fb:cell.kanawha	Kanawha	kanawha	Kanawha	NNP	LOCATION						
+9	1	fb:cell.t_ao_196	T-AO-196	t|ao-196	t|ao-196	NN|NN	O|O	|	196.0				
+9	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+9	3	fb:cell.1991_present	1991–present	1991|--|present	1991|--|present	CD|:|JJ	DATE|O|DATE	1991||PRESENT_REF	1991.0			1991–present	fb:part.1991_present
+9	4	fb:cell.ao196	AO196	ao196	ao196	NN	O		196.0				
+10	0	fb:cell.pecos	Pecos	pecos	Pecos	NNP	LOCATION						
+10	1	fb:cell.t_ao_197	T-AO-197	t|ao-197	t|ao-197	NN|NN	O|O	|	197.0				
+10	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+10	3	fb:cell.1990_present	1990–present	1990|--|present	1990|--|present	CD|:|JJ	DATE|O|DATE	1990||PRESENT_REF	1990.0			1990–present	fb:part.1990_present
+10	4	fb:cell.ao197	AO197	ao197	ao197	NN	O		197.0				
+11	0	fb:cell.big_horn	Big Horn	big|horn	big|Horn	JJ|NNP	O|O	|					
+11	1	fb:cell.t_ao_198	T-AO-198	t|ao-198	t|ao-198	NN|NN	O|O	|	198.0				
+11	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+11	3	fb:cell.1992_present	1992–present	1992|--|present	1992|--|present	CD|:|JJ	DATE|O|DATE	1992||PRESENT_REF	1992.0			1992–present	fb:part.1992_present
+11	4	fb:cell.ao198	AO198	ao198	ao198	NN	O		198.0				
+12	0	fb:cell.tippecanoe	Tippecanoe	tippecanoe	Tippecanoe	NNP	O						
+12	1	fb:cell.t_ao_199	T-AO-199	t|ao-199	t|ao-199	NN|NN	O|O	|	199.0				
+12	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+12	3	fb:cell.1993_present	1993–present	1993|--|present	1993|--|present	CD|:|JJ	DATE|O|DATE	1993||PRESENT_REF	1993.0			1993–present	fb:part.1993_present
+12	4	fb:cell.ao199	AO199	ao199	ao199	NN	O		199.0				
+13	0	fb:cell.guadalupe	Guadalupe	guadalupe	Guadalupe	NNP	LOCATION						
+13	1	fb:cell.t_ao_200	T-AO-200	t|ao-200	t|ao-200	NN|NN	O|O	|	200.0				
+13	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+13	3	fb:cell.1992_present	1992–present	1992|--|present	1992|--|present	CD|:|JJ	DATE|O|DATE	1992||PRESENT_REF	1992.0			1992–present	fb:part.1992_present
+13	4	fb:cell.ao200	AO200	ao200	ao200	NN	O		200.0				
+14	0	fb:cell.patuxent	Patuxent	patuxent	patuxent	NN	O						
+14	1	fb:cell.t_ao_201	T-AO-201	t|ao-201	t|ao-201	NN|NN	O|O	|	201.0				
+14	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+14	3	fb:cell.1995_present	1995–present	1995|--|present	1995|--|present	CD|:|JJ	DATE|O|DATE	1995||PRESENT_REF	1995.0			1995–present	fb:part.1995_present
+14	4	fb:cell.ao201	AO201	ao201	ao201	NN	O		201.0				
+15	0	fb:cell.yukon	Yukon	yukon	Yukon	NNP	PERSON						
+15	1	fb:cell.t_ao_202	T-AO-202	t|ao-202	t|ao-202	NN|NN	O|O	|	202.0				
+15	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+15	3	fb:cell.1994_present	1994–present	1994|--|present	1994|--|present	CD|:|JJ	DATE|O|DATE	1994||PRESENT_REF	1994.0			1994–present	fb:part.1994_present
+15	4	fb:cell.ao202	AO202	ao202	ao202	NN	O		202.0				
+16	0	fb:cell.laramie	Laramie	laramie	Laramie	NNP	LOCATION						
+16	1	fb:cell.t_ao_203	T-AO-203	t|ao-203	t|ao-203	NN|NN	O|O	|	203.0				
+16	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+16	3	fb:cell.1996_present	1996–present	1996|--|present	1996|--|present	CD|:|JJ	DATE|O|DATE	1996||PRESENT_REF	1996.0			1996–present	fb:part.1996_present
+16	4	fb:cell.ao203	AO203	ao203	ao203	NN	O		203.0				
+17	0	fb:cell.rappahannock	Rappahannock	rappahannock	rappahannock	NN	LOCATION						
+17	1	fb:cell.t_ao_204	T-AO-204	t|ao-204	t|ao-204	NN|NN	O|O	|	204.0				
+17	2	fb:cell.active	Active	active	active	JJ	O					Active	fb:part.active
+17	3	fb:cell.1995_present	1995–present	1995|--|present	1995|--|present	CD|:|JJ	DATE|O|DATE	1995||PRESENT_REF	1995.0			1995–present	fb:part.1995_present
+17	4	fb:cell.ao204	AO204	ao204	ao204	NN	O		204.0				

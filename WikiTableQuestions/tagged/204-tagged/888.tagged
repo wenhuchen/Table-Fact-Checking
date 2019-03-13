@@ -1,0 +1,33 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.location	Location	location	Location	NNP	O						
+-1	1	fb:row.row.mile	Mile	mile	Mile	NNP	O						
+-1	2	fb:row.row.destinations	Destinations	destinations	destination	NNS	O						
+-1	3	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.woodmont	Woodmont	woodmont	woodmont	JJ	O						
+0	1	fb:cell.0_00	0.00	0.00	0.00	CD	NUMBER	0.0	0.0				
+0	2	fb:cell.i_68_us_40_national_freeway_cumberland_hancock	I‑68 / US 40 (National Freeway) – Cumberland, Hancock	i‑68|\\/|us|40|-lrb-|national|freeway|-rrb-|--|cumberland|,|hancock	i‑68|\\/|US|40|-lrb-|National|Freeway|-rrb-|--|Cumberland|,|Hancock	NN|:|NNP|CD|-LRB-|NNP|NNP|-RRB-|:|NNP|,|NNP	O|O|LOCATION|NUMBER|O|O|O|O|O|LOCATION|O|PERSON	|||40.0||||||||	68.0		40.0	I‑68|US 40 (National Freeway) – Cumberland|Hancock	fb:part.i_68|fb:part.us_40_national_freeway_cumberland|fb:part.hancock
+0	3	fb:cell.western_terminus_i_68_exit_77	Western terminus; I-68 Exit 77	western|terminus|;|i-68|exit|77	western|terminus|;|I-68|exit|77	JJ|NN|:|NNP|NN|CD	MISC|O|O|O|O|NUMBER	|||||77.0	68.0		77.0		
+1	0	fb:cell.woodmont	Woodmont	woodmont	woodmont	JJ	O						
+1	1	fb:cell.0_12	0.12	0.12	0.12	CD	NUMBER	0.12	0.12				
+1	2	fb:cell.us_40_scenic_west_national_pike	US 40 Scenic west (National Pike)	us|40|scenic|west|-lrb-|national|pike|-rrb-	US|40|scenic|west|-lrb-|National|Pike|-rrb-	NNP|CD|JJ|NN|-LRB-|NNP|NNP|-RRB-	LOCATION|NUMBER|O|O|O|O|O|O	|40.0||||||	40.0			US 40 Scenic west (National Pike)	fb:part.us_40_scenic_west_national_pike
+1	3	fb:cell.us_40_scenic_is_county_maintained_but_signed	US 40 Scenic is county-maintained but signed	us|40|scenic|is|county|maintained|but|signed	US|40|scenic|be|county|maintained|but|sign	NNP|CD|JJ|VBD-AUX|NN|JJ|CC|VBD	LOCATION|NUMBER|O|O|O|O|O|O	|40.0||||||	40.0				
+2	0	fb:cell.woodmont	Woodmont	woodmont	woodmont	JJ	O						
+2	1	fb:cell.0_25	0.25	0.25	0.25	CD	NUMBER	0.25	0.25				
+2	2	fb:cell.woodmont_road_south	Woodmont Road south	woodmont|road|south	Woodmont|Road|south	NNP|NNP|RB	LOCATION|LOCATION|O	||				Woodmont Road south	fb:part.woodmont_road_south
+2	3	fb:cell.former_md_453	Former MD 453	former|md|453	former|md|453	JJ|NN|CD	O|O|NUMBER	||453.0	453.0				
+3	0	fb:cell.hancock	Hancock	hancock	Hancock	NNP	PERSON						
+3	1	fb:cell.3_52	3.52	3.52	3.52	CD	NUMBER	3.52	3.52				
+3	2	fb:cell.us_522_south_berkeley_springs_wv	US 522 south – Berkeley Springs, WV	us|522|south|--|berkeley|springs|,|wv	US|522|south|--|Berkeley|Springs|,|wv	NNP|CD|RB|:|NNP|NNP|,|NN	LOCATION|NUMBER|O|O|LOCATION|LOCATION|O|O	|522.0||||||	522.0			US 522 south – Berkeley Springs|WV	fb:part.us_522_south_berkeley_springs|fb:part.wv
+3	3	fb:cell.ramp_is_unsigned_us_522b	Ramp is unsigned US 522B	ramp|is|unsigned|us|522b	ramp|be|unsigned|US|522b	NN|VBD-AUX|JJ|NNP|NN	O|O|O|LOCATION|O	||||	522.0				
+4	0	fb:cell.hancock	Hancock	hancock	Hancock	NNP	PERSON						
+4	1	fb:cell.3_67	3.67	3.67	3.67	CD	NUMBER	3.67	3.67				
+4	2	fb:cell.limestone_road_north	Limestone Road north	limestone|road|north	Limestone|Road|north	NNP|NNP|NN	O|O|O	||				Limestone Road north	fb:part.limestone_road_north
+4	3	fb:cell.unsigned_md_894_old_alignment_of_us_522	Unsigned MD 894; old alignment of US 522	unsigned|md|894|;|old|alignment|of|us|522	unsigned|md|894|;|old|alignment|of|US|522	JJ|NN|CD|:|JJ|NN|IN|NNP|CD	O|O|NUMBER|O|O|O|O|LOCATION|NUMBER	||894.0||||||522.0	894.0		522.0		
+5	0	fb:cell.hancock	Hancock	hancock	Hancock	NNP	PERSON						
+5	1	fb:cell.3_75	3.75	3.75	3.75	CD	NUMBER	3.75	3.75				
+5	2	fb:cell.virginia_avenue_to_us_522_north	Virginia Avenue to  US 522 north	virginia|avenue|to|us|522|north	Virginia|Avenue|to|US|522|north	NNP|NNP|TO|NNP|CD|NN	LOCATION|LOCATION|O|LOCATION|NUMBER|O	||||522.0|	522.0			Virginia Avenue to  US 522 north	fb:part.virginia_avenue_to_us_522_north
+5	3	fb:cell.unsigned_us_522c	Unsigned US 522C	unsigned|us|522c	unsigned|US|522c	JJ|NNP|NN	O|O|O	||	522.0				
+6	0	fb:cell.hancock	Hancock	hancock	Hancock	NNP	PERSON						
+6	1	fb:cell.5_91	5.91	5.91	5.91	CD	NUMBER	5.91	5.91				
+6	2	fb:cell.i_70_us_40_east_eisenhower_memorial_highway_hagerstown_frederick	I‑70 / US 40 east (Eisenhower Memorial Highway) – Hagerstown, Frederick	i‑70|\\/|us|40|east|-lrb-|eisenhower|memorial|highway|-rrb-|--|hagerstown|,|frederick	i‑70|\\/|US|40|east|-lrb-|Eisenhower|Memorial|Highway|-rrb-|--|Hagerstown|,|Frederick	NN|:|NNP|CD|JJ|-LRB-|NNP|NNP|NNP|-RRB-|:|NNP|,|NNP	O|O|LOCATION|NUMBER|O|O|O|O|O|O|O|LOCATION|O|PERSON	|||40.0||||||||||	70.0		40.0	I‑70|US 40 east (Eisenhower Memorial Highway) – Hagerstown|Frederick	fb:part.i_70|fb:part.us_40_east_eisenhower_memorial_highway_hagerstown|fb:part.frederick
+6	3	fb:cell.eastern_terminus_i_70_exit_3_no_direct_access_from_md_144_to_i_70_west_use_exit_5_to_access_i_70_and_i_68_west	Eastern terminus; I-70 Exit 3; no direct access from MD 144 to I-70 west; use Exit 5 to access I-70 and I-68 west	eastern|terminus|;|i-70|exit|3|;|no|direct|access|from|md|144|to|i-70|west|;|use|exit|5|to|access|i-70|and|i-68|west	Eastern|terminus|;|I-70|exit|3|;|no|direct|access|from|md|144|to|i-70|west|;|use|exit|5|to|access|i-70|and|i-68|west	NNP|NN|:|NNP|NN|CD|:|DT|JJ|NN|IN|NN|CD|TO|CD|NN|:|NN|NN|CD|TO|NN|NN|CC|NN|NN	MISC|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|NUMBER|O|O|O|O|NUMBER|O|O|O|O|MISC|O	|||||3.0|||||||144.0||-70.0|||||5.0||||||	70.0		3.0		

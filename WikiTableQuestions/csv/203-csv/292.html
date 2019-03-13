@@ -1,0 +1,717 @@
+<table class="wikitable sortable">
+<tr>
+<th>Payload type (PT)</th>
+<th>Name</th>
+<th>Type</th>
+<th>No. of channels</th>
+<th>Clock rate (Hz)</th>
+<th>Frame size (ms)</th>
+<th>Default packet size (ms)</th>
+<th>Description</th>
+<th>References</th>
+</tr>
+<tr>
+<td>0</td>
+<td>PCMU</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.711" title="G.711">G.711</a> PCM <a class="mw-redirect" href="//en.wikipedia.org/wiki/%CE%9C-Law" title="Μ-Law">µ-Law</a> Audio 64 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>reserved (previously 1016)</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td></td>
+<td></td>
+<td>reserved, previously <a class="mw-redirect" href="//en.wikipedia.org/wiki/CELP" title="CELP">CELP</a> Audio 4.8 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a>, previously <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc1890" rel="nofollow">RFC 1890</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>reserved (previously G721)</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td></td>
+<td></td>
+<td>reserved, previously ITU-T <a class="mw-redirect" href="//en.wikipedia.org/wiki/G.721" title="G.721">G.721</a> <a class="mw-redirect" href="//en.wikipedia.org/wiki/ADPCM" title="ADPCM">ADPCM</a> Audio 32 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a>, previously <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc1890" rel="nofollow">RFC 1890</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>GSM</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>20</td>
+<td>20</td>
+<td>European <a class="mw-redirect" href="//en.wikipedia.org/wiki/GSM-FR" title="GSM-FR">GSM Full Rate</a> Audio 13 kbit/s (GSM 06.10)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>G723</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>30</td>
+<td>30</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.723.1" title="G.723.1">G.723.1</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>DVI4</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td><a href="//en.wikipedia.org/wiki/Interactive_Multimedia_Association" title="Interactive Multimedia Association">IMA</a> <a class="mw-redirect" href="//en.wikipedia.org/wiki/ADPCM" title="ADPCM">ADPCM</a> Audio 32 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>DVI4</td>
+<td>audio</td>
+<td>1</td>
+<td>16000</td>
+<td>any</td>
+<td>20</td>
+<td><a href="//en.wikipedia.org/wiki/Interactive_Multimedia_Association" title="Interactive Multimedia Association">IMA</a> <a class="mw-redirect" href="//en.wikipedia.org/wiki/ADPCM" title="ADPCM">ADPCM</a> 64 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>LPC</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>Experimental <a href="//en.wikipedia.org/wiki/Linear_predictive_coding" title="Linear predictive coding">Linear Predictive Coding</a> Audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>PCMA</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>ITU-T G.711 PCM <a class="mw-redirect" href="//en.wikipedia.org/wiki/A-Law" title="A-Law">A-Law</a> Audio 64 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>G722</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.722" title="G.722">G.722</a> Audio</td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-14" rel="nofollow">RFC 3551 - Page 14</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>L16</td>
+<td>audio</td>
+<td>2</td>
+<td>44100</td>
+<td>any</td>
+<td>20</td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/Linear_PCM" title="Linear PCM">Linear PCM</a> 16-bit Stereo Audio 1411.2 kbit/s,<sup class="reference" id="cite_ref-2"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup><sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup><sup class="reference" id="cite_ref-4"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> uncompressed</td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-27" rel="nofollow">RFC 3551, Page 27</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>L16</td>
+<td>audio</td>
+<td>1</td>
+<td>44100</td>
+<td>any</td>
+<td>20</td>
+<td>Linear PCM 16-bit Audio 705.6 kbit/s, uncompressed</td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-27" rel="nofollow">RFC 3551, Page 27</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>QCELP</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>20</td>
+<td>20</td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/QCELP" title="QCELP">Qualcomm Code Excited Linear Prediction</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2658" rel="nofollow">RFC 2658</a>, <a class="external text" href="http://tools.ietf.org/html/rfc3551#page-28" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>CN</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/Comfort_noise" title="Comfort noise">Comfort noise</a>. Payload type used with audio codecs that do not support comfort noise as part of the codec itself such as <a href="//en.wikipedia.org/wiki/G.711" title="G.711">G.711</a>, <a href="//en.wikipedia.org/wiki/G.722.1" title="G.722.1">G.722.1</a>, <a href="//en.wikipedia.org/wiki/G.722" title="G.722">G.722</a>, <a href="//en.wikipedia.org/wiki/G.726" title="G.726">G.726</a>, <a class="mw-redirect" href="//en.wikipedia.org/wiki/G.727" title="G.727">G.727</a>, <a href="//en.wikipedia.org/wiki/G.728" title="G.728">G.728</a>, <a class="mw-redirect" href="//en.wikipedia.org/wiki/GSM_06.10" title="GSM 06.10">GSM 06.10</a>, <a href="//en.wikipedia.org/wiki/Siren_(codec)" title="Siren (codec)">Siren</a>, and <a href="//en.wikipedia.org/wiki/RTAudio" title="RTAudio">RTAudio</a>.</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3389" rel="nofollow">RFC 3389</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>MPA</td>
+<td>audio</td>
+<td>1</td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/MPEG-1" title="MPEG-1">MPEG-1</a> or <a href="//en.wikipedia.org/wiki/MPEG-2" title="MPEG-2">MPEG-2</a> Audio Only</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a>, <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2250" rel="nofollow">RFC 2250</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>G728</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>2.5</td>
+<td>20</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.728" title="G.728">G.728</a> Audio 16 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>DVI4</td>
+<td>audio</td>
+<td>1</td>
+<td>11025</td>
+<td>any</td>
+<td>20</td>
+<td><a href="//en.wikipedia.org/wiki/Interactive_Multimedia_Association" title="Interactive Multimedia Association">IMA</a> <a class="mw-redirect" href="//en.wikipedia.org/wiki/ADPCM" title="ADPCM">ADPCM</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>DVI4</td>
+<td>audio</td>
+<td>1</td>
+<td>22050</td>
+<td>any</td>
+<td>20</td>
+<td>IMA ADPCM</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td>G729</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>10</td>
+<td>20</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.729" title="G.729">G.729</a> and G.729a</td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-20" rel="nofollow">RFC 3551, Page 20</a></td>
+</tr>
+<tr>
+<td>25</td>
+<td>CELB</td>
+<td>video</td>
+<td>1</td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/Sun_Microsystems" title="Sun Microsystems">Sun</a>'s CellB Video Encoding<sup class="reference" id="cite_ref-5"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2029" rel="nofollow">RFC 2029</a></td>
+</tr>
+<tr>
+<td>26</td>
+<td>JPEG</td>
+<td>video</td>
+<td>1</td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/JPEG" title="JPEG">JPEG</a> Video</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2435" rel="nofollow">RFC 2435</a></td>
+</tr>
+<tr>
+<td>28</td>
+<td>NV</td>
+<td>video</td>
+<td>1</td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/Xerox_PARC" title="Xerox PARC">Xerox PARC</a>'s Network Video (nv)<sup class="reference" id="cite_ref-6"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-32" rel="nofollow">RFC 3551, Page 32</a></td>
+</tr>
+<tr>
+<td>31</td>
+<td>H261</td>
+<td>video</td>
+<td>1</td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/H.261" title="H.261">H.261</a> Video</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc4587" rel="nofollow">RFC 4587</a></td>
+</tr>
+<tr>
+<td>32</td>
+<td>MPV</td>
+<td>video</td>
+<td>1</td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td>MPEG-1 and MPEG-2 Video</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2250" rel="nofollow">RFC 2250</a></td>
+</tr>
+<tr>
+<td>33</td>
+<td>MP2T</td>
+<td>audio/video</td>
+<td>1</td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td>MPEG-2 <a href="//en.wikipedia.org/wiki/MPEG_transport_stream" title="MPEG transport stream">transport stream</a> Video</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2250" rel="nofollow">RFC 2250</a></td>
+</tr>
+<tr>
+<td>34</td>
+<td>H263</td>
+<td>video</td>
+<td></td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/H.263" title="H.263">H.263</a> video, first version (1996)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a>, <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2190" rel="nofollow">RFC 2190</a></td>
+</tr>
+<tr>
+<td>35 - 71</td>
+<td>unassigned</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-32" rel="nofollow">RFC 3551, Page 32</a></td>
+</tr>
+<tr>
+<td>72 - 76</td>
+<td>Reserved for RTCP conflict avoidance</td>
+<td>N/A</td>
+<td></td>
+<td>N/A</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-32" rel="nofollow">RFC 3551, Page 32</a></td>
+</tr>
+<tr>
+<td>77 - 95</td>
+<td>unassigned</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a class="external text" href="http://tools.ietf.org/html/rfc3551#page-32" rel="nofollow">RFC 3551, Page 32</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>H263-1998</td>
+<td>video</td>
+<td></td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/H.263" title="H.263">H.263</a> video, second version (1998)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a>, <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc4629" rel="nofollow">RFC 4629</a>, <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2190" rel="nofollow">RFC 2190</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>H263-2000</td>
+<td>video</td>
+<td></td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/H.263" title="H.263">H.263</a> video, third version (2000)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc4629" rel="nofollow">RFC 4629</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>H264</td>
+<td>video</td>
+<td></td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/H.264" title="H.264">H.264</a> video (MPEG-4 Part 10)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc6184" rel="nofollow">RFC 6184</a>, previously <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3984" rel="nofollow">RFC 3984</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>theora</td>
+<td>video</td>
+<td></td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td><a href="//en.wikipedia.org/wiki/Theora" title="Theora">Theora</a> video</td>
+<td><a class="external text" href="http://tools.ietf.org/html/draft-barbato-avt-rtp-theora-01" rel="nofollow">draft-barbato-avt-rtp-theora-01</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>iLBC</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>20 or 30</td>
+<td>20 or 30, respectively</td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/ILBC" title="ILBC">Internet low Bitrate Codec</a> 13.33 or 15.2 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3952" rel="nofollow">RFC 3952</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>PCMA-WB</td>
+<td>audio</td>
+<td></td>
+<td>16000</td>
+<td>5</td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.711" title="G.711">G.711.1</a>, A-law</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5391" rel="nofollow">RFC 5391</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>PCMU-WB</td>
+<td>audio</td>
+<td></td>
+<td>16000</td>
+<td>5</td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.711" title="G.711">G.711.1</a>, µ-law</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5391" rel="nofollow">RFC 5391</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G718</td>
+<td>audio</td>
+<td></td>
+<td>32000 (placeholder)</td>
+<td>20</td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.718" title="G.718">G.718</a></td>
+<td><a class="external text" href="http://tools.ietf.org/html/draft-ietf-avt-rtp-g718-03" rel="nofollow">draft-ietf-avt-rtp-g718-03</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G719</td>
+<td>audio</td>
+<td>(various)</td>
+<td>48000</td>
+<td>20</td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.719" title="G.719">G.719</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5404" rel="nofollow">RFC 5404</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G7221</td>
+<td>audio</td>
+<td></td>
+<td>32000, 16000</td>
+<td>20</td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.722.1" title="G.722.1">G.722.1</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5577" rel="nofollow">RFC 5577</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G726-16</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.726" title="G.726">G.726</a> audio with 16 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G726-24</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>ITU-T G.726 audio with 24 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G726-32</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>ITU-T G.726 audio with 32 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G726-40</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>any</td>
+<td>20</td>
+<td>ITU-T G.726 audio with 40 kbit/s</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G729D</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>10</td>
+<td>20</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.729" title="G.729">G.729</a> Annex D</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G729E</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>10</td>
+<td>20</td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.729" title="G.729">G.729</a> Annex E</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>G7291</td>
+<td>audio</td>
+<td></td>
+<td>16000</td>
+<td>20</td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/G.729.1" title="G.729.1">G.729.1</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc4749" rel="nofollow">RFC 4749</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>GSM-EFR</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>20</td>
+<td>20</td>
+<td>ITU-T <a class="mw-redirect" href="//en.wikipedia.org/wiki/GSM-EFR" title="GSM-EFR">GSM-EFR</a> (GSM 06.60)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>GSM-HR-08</td>
+<td>audio</td>
+<td>1</td>
+<td>8000</td>
+<td>20</td>
+<td></td>
+<td>ITU-T <a href="//en.wikipedia.org/wiki/Half_Rate" title="Half Rate">GSM-HR</a> (GSM 06.20)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5993" rel="nofollow">RFC 5993</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>AMR</td>
+<td>audio</td>
+<td>(various)</td>
+<td>8000</td>
+<td>20</td>
+<td></td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/Adaptive_Multi-Rate" title="Adaptive Multi-Rate">Adaptive Multi-Rate</a> audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc4867" rel="nofollow">RFC 4867</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>AMR-WB</td>
+<td>audio</td>
+<td>(various)</td>
+<td>16000</td>
+<td>20</td>
+<td></td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/AMR-WB" title="AMR-WB">Adaptive Multi-Rate Wideband</a> audio (ITU-T G.722.2)</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc4867" rel="nofollow">RFC 4867</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>AMR-WB+</td>
+<td>audio</td>
+<td>1, 2 or omit</td>
+<td>72000</td>
+<td>80 (super-frame; internally divided in to transport frames of 13.33, 14.22, 15, 16, 17.78, 20, 21.33, 24, 26.67, 30, 35.55, or 40)</td>
+<td></td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/AMR-WB%2B" title="AMR-WB+">Extended Adaptive Multi Rate – WideBand</a> audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc4352" rel="nofollow">RFC 4352</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>vorbis</td>
+<td>audio</td>
+<td>(various)</td>
+<td>any (must be a multiple of sample rate)</td>
+<td></td>
+<td>as many Vorbis packets as fit within the path MTU, unless it exceeds an application's desired transmission latency</td>
+<td>RTP Payload Format for <a href="//en.wikipedia.org/wiki/Vorbis" title="Vorbis">Vorbis</a> Encoded Audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5215" rel="nofollow">RFC 5215</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>opus</td>
+<td>audio</td>
+<td>1, 2</td>
+<td>48000</td>
+<td>2.5, 5, 10, 20, 40, or 60</td>
+<td>20, minimum allowed value 3 (rounded from 2.5), maximum allowed value 120 (allowed values are 3, 5, 10, 20, 40, or 60 or an arbitrary multiple of Opus frame sizes rounded up to the next full integer value up to a maximum value of 120)</td>
+<td>RTP Payload Format for <a class="mw-redirect" href="//en.wikipedia.org/wiki/Opus_(audio_format)" title="Opus (audio format)">Opus</a> Speech and Audio Codec</td>
+<td><a class="external text" href="http://tools.ietf.org/html/draft-spittka-payload-rtp-opus-01" rel="nofollow">draft</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>speex</td>
+<td>audio</td>
+<td>1</td>
+<td>8000, 16000 or 32000</td>
+<td>20</td>
+<td></td>
+<td>RTP Payload Format for the <a href="//en.wikipedia.org/wiki/Speex" title="Speex">Speex</a> Codec</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5574" rel="nofollow">RFC 5574</a></td>
+</tr>
+<tr>
+<td>dynamic (96-127)</td>
+<td>mpa-robust</td>
+<td>audio</td>
+<td></td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td>A More Loss-Tolerant RTP Payload Format for <a href="//en.wikipedia.org/wiki/MP3" title="MP3">MP3</a> Audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5219" rel="nofollow">RFC 5219</a></td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>MP4A-LATM</td>
+<td>audio</td>
+<td></td>
+<td>90000 or others</td>
+<td></td>
+<td>recommended same as frame size</td>
+<td>RTP Payload Format for <a class="mw-redirect" href="//en.wikipedia.org/wiki/MPEG-4_Audio" title="MPEG-4 Audio">MPEG-4 Audio</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc6416" rel="nofollow">RFC 6416</a> (previously <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3016" rel="nofollow">RFC 3016</a>)</td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>MP4V-ES</td>
+<td>video</td>
+<td></td>
+<td>90000 or others</td>
+<td></td>
+<td>recommended same as frame size</td>
+<td>RTP Payload Format for <a class="mw-redirect" href="//en.wikipedia.org/wiki/MPEG-4_Visual" title="MPEG-4 Visual">MPEG-4 Visual</a></td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc6416" rel="nofollow">RFC 6416</a> (previously <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3016" rel="nofollow">RFC 3016</a>)</td>
+</tr>
+<tr>
+<td>dynamic (or profile)</td>
+<td>mpeg4-generic</td>
+<td>audio/video</td>
+<td></td>
+<td>90000 or other</td>
+<td></td>
+<td></td>
+<td>RTP Payload Format for Transport of <a href="//en.wikipedia.org/wiki/MPEG-4" title="MPEG-4">MPEG-4</a> Elementary Streams</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3640" rel="nofollow">RFC 3640</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>VP8</td>
+<td>video</td>
+<td></td>
+<td>90000</td>
+<td></td>
+<td></td>
+<td>RTP Payload Format for Transport of VP8 Streams</td>
+<td><a class="external text" href="http://tools.ietf.org/html/draft-ietf-payload-vp8-08" rel="nofollow">draft-ietf-payload-vp8-08</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>L8</td>
+<td>audio</td>
+<td>(various)</td>
+<td>(various)</td>
+<td>any</td>
+<td>20</td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/Linear_PCM" title="Linear PCM">Linear PCM</a> 8-bit audio with 128 offset</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a> Section 4.5.10 and Table 5</td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>DAT12</td>
+<td>audio</td>
+<td>(various)</td>
+<td>8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others</td>
+<td>any</td>
+<td>20 (by analogy with L16)</td>
+<td>IEC 61119 12-bit nonlinear audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3190" rel="nofollow">RFC 3190</a> Section 3</td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>L16</td>
+<td>audio</td>
+<td>(various)</td>
+<td>8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others</td>
+<td>any</td>
+<td>20</td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/Linear_PCM" title="Linear PCM">Linear PCM</a> 16-bit audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3551" rel="nofollow">RFC 3551</a> Section 4.5.11, <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2586" rel="nofollow">RFC 2586</a></td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>L20</td>
+<td>audio</td>
+<td>(various)</td>
+<td>8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others</td>
+<td>any</td>
+<td>20 (by analogy with L16)</td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/Linear_PCM" title="Linear PCM">Linear PCM</a> 20-bit audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3190" rel="nofollow">RFC 3190</a> Section 4</td>
+</tr>
+<tr>
+<td>dynamic</td>
+<td>L24</td>
+<td>audio</td>
+<td>(various)</td>
+<td>8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000 or others</td>
+<td>any</td>
+<td>20 (by analogy with L16)</td>
+<td><a class="mw-redirect" href="//en.wikipedia.org/wiki/Linear_PCM" title="Linear PCM">Linear PCM</a> 24-bit audio</td>
+<td><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3190" rel="nofollow">RFC 3190</a> Section 4</td>
+</tr>
+</table>

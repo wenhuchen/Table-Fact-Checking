@@ -1,0 +1,2024 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.region	Region	region	region	NN	O						
+-1	1	fb:row.row.country	Country	country	country	NN	O						
+-1	2	fb:row.row.location	Location	location	Location	NNP	O						
+-1	3	fb:row.row.size_m	Size (m)	size|-lrb-|m|-rrb-	size|-lrb-|m|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.payload_metric_tonnes	Payload (metric tonnes)	payload|-lrb-|metric|tonnes|-rrb-	payload|-lrb-|metric|tonne|-rrb-	NN|-LRB-|JJ|NNS|-RRB-	O|O|O|O|O	||||					
+-1	5	fb:row.row.degrees_of_freedom	Degrees of Freedom	degrees|of|freedom	degree|of|Freedom	NNS|IN|NNP	O|O|O	||					
+-1	6	fb:row.row.x_horiz_disp_mm	X Horiz Disp (mm)	x|horiz|disp|-lrb-|mm|-rrb-	x|horiz|disp|-lrb-|mm|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	7	fb:row.row.y_horiz_disp_mm	Y Horiz Disp (mm)	y|horiz|disp|-lrb-|mm|-rrb-	y|Horiz|Disp|-lrb-|mm|-rrb-	NN|NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	8	fb:row.row.z_vert_disp_mm	Z Vert Disp (mm)	z|vert|disp|-lrb-|mm|-rrb-	z|Vert|Disp|-lrb-|mm|-rrb-	NN|NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	9	fb:row.row.x_horiz_vel_mm_s	X Horiz Vel (mm/s)	x|horiz|vel|-lrb-|mm\\/s|-rrb-	x|horiz|vel|-lrb-|mm\\/s|-rrb-	NN|NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O|O	|||||					
+-1	10	fb:row.row.y_horiz_vel_mm_s	Y Horiz vel (mm/s)	y|horiz|vel|-lrb-|mm\\/s|-rrb-	y|horiz|vel|-lrb-|mm\\/s|-rrb-	NN|NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O|O	|||||					
+-1	11	fb:row.row.z_vert_vel_mm_s	Z Vert vel (mm/s)	z|vert|vel|-lrb-|mm\\/s|-rrb-	z|vert|vel|-lrb-|mm\\/s|-rrb-	NN|NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O|O	|||||					
+-1	12	fb:row.row.x_horiz_accel_m_s2	X Horiz accel (m/s2)	x|horiz|accel|-lrb-|m\\/s2|-rrb-	x|horiz|accel|-lrb-|m\\/s2|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	13	fb:row.row.y_horiz_accel_m_s2	Y Horiz accel (m/s2)	y|horiz|accel|-lrb-|m\\/s2|-rrb-	y|horiz|accel|-lrb-|m\\/s2|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	14	fb:row.row.z_vert_accel_m_s2	Z Vert accel (m/s2)	z|vert|accel|-lrb-|m\\/s2|-rrb-	z|vert|accel|-lrb-|m\\/s2|-rrb-	NN|NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	15	fb:row.row.max_freq_hz	Max Freq (Hz)	max|freq|-lrb-|hz|-rrb-	Max|Freq|-lrb-|Hz|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O	||||					
+-1	16	fb:row.row.details_checked	Details checked	details|checked	detail|check	NNS|VBD	O|O	|					
+0	0	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION						
+0	1	fb:cell.algeria	Algeria	algeria	Algeria	NNP	LOCATION						
+0	2	fb:cell.cgs_laboratory_in_construction	CGS Laboratory (in construction)	cgs|laboratory|-lrb-|in|construction|-rrb-	CGS|Laboratory|-lrb-|in|construction|-rrb-	NNP|NNP|-LRB-|IN|NN|-RRB-	O|O|O|O|O|O	|||||				CGS Laboratory (in construction)	fb:part.cgs_laboratory_in_construction
+0	3	fb:cell.6_1_x_6_1	6.1 x 6.1	6.1|x|6.1	6.1|x|6.1	CD|CC|CD	NUMBER|O|NUMBER	6.1||6.1	6.1		6.1		
+0	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+0	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+0	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+0	7	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+0	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+0	9	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+0	10	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+0	11	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+0	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+0	13	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+0	14	fb:cell._8	±8	±|8	±|8	NN|CD	O|NUMBER	|8.0	8.0			±8	fb:part._8
+0	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+0	16	fb:cell.30_6_2010	30/6/2010	30\\/6\\/2010	30\\/6\\/2010	CD	NUMBER		30.0		6.0	30|6|2010	fb:part.30|fb:part.6|fb:part.2010
+1	0	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION						
+1	1	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|					
+1	2	fb:cell.university_of_witwatersrand	University of Witwatersrand	university|of|witwatersrand	University|of|Witwatersrand	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				University of Witwatersrand	fb:part.university_of_witwatersrand
+1	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+1	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+1	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	6	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+1	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+1	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+1	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+1	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+1	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+1	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+1	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+1	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+1	15	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+1	16	fb:cell.17_7_2009	17/7/2009	17\\/7\\/2009	17\\/7\\/2009	CD	NUMBER		17.0		7.0	17|7|2009	fb:part.17|fb:part.7|fb:part.2009
+2	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+2	1	fb:cell.china	China	china	China	NNP	LOCATION						
+2	2	fb:cell.china_academy_of_building_research_beijing	China Academy of Building Research, Beijing	china|academy|of|building|research|,|beijing	China|Academy|of|Building|Research|,|Beijing	NNP|NNP|IN|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	||||||				China Academy of Building Research|Beijing	fb:part.china_academy_of_building_research|fb:part.beijing
+2	3	fb:cell.6_1_x_6_1	6.1 x 6.1	6.1|x|6.1	6.1|x|6.1	CD|CC|CD	NUMBER|O|NUMBER	6.1||6.1	6.1		6.1		
+2	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+2	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+2	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+2	7	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+2	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+2	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+2	10	fb:cell._1200	±1200	±|1200	±|1200	SYM|CD	O|DATE	|1200	1200.0			±1200	fb:part._1200
+2	11	fb:cell._800	±800	±|800	±|800	NN|CD	O|NUMBER	|800.0	800.0			±800	fb:part._800
+2	12	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+2	13	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+2	14	fb:cell._8	±8	±|8	±|8	NN|CD	O|NUMBER	|8.0	8.0			±8	fb:part._8
+2	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+2	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+3	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+3	1	fb:cell.china	China	china	China	NNP	LOCATION						
+3	2	fb:cell.guangzhou_university	Guangzhou University	guangzhou|university	Guangzhou|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Guangzhou University	fb:part.guangzhou_university
+3	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+3	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+3	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+3	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+3	7	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+3	8	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+3	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+3	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+3	11	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+3	12	fb:cell._26	±26	±|26	±|26	NN|CD	O|NUMBER	|26.0	26.0			±26	fb:part._26
+3	13	fb:cell._26	±26	±|26	±|26	NN|CD	O|NUMBER	|26.0	26.0			±26	fb:part._26
+3	14	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+3	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+3	16	fb:cell.10_7_2008	10/7/2008	10\\/7\\/2008	10\\/7\\/2008	CD	DATE	2008-10-07	10.0	2008-10-07	7.0	10|7|2008	fb:part.10|fb:part.7|fb:part.2008
+4	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+4	1	fb:cell.china	China	china	China	NNP	LOCATION						
+4	2	fb:cell.nanjing_university_of_technology	Nanjing University of Technology	nanjing|university|of|technology	Nanjing|University|of|Technology	NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Nanjing University of Technology	fb:part.nanjing_university_of_technology
+4	3	fb:cell.3_x_5	3 x 5	3|x|5	3|x|5	CD|CC|CD	NUMBER|O|NUMBER	3.0||5.0	3.0		5.0		
+4	4	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+4	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+4	6	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+4	7	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+4	8	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+4	9	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+4	10	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+4	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+4	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+4	13	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+4	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+4	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+4	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+5	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+5	1	fb:cell.china	China	china	China	NNP	LOCATION						
+5	2	fb:cell.tongji_university_shanghai	Tongji University, Shanghai	tongji|university|,|shanghai	Tongji|University|,|Shanghai	NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|LOCATION	|||				Tongji University|Shanghai	fb:part.tongji_university|fb:part.shanghai
+5	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+5	4	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+5	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+5	7	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+5	8	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+5	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+5	10	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+5	11	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+5	12	fb:cell._40	±40	±|40	±|40	RB|CD	O|NUMBER	|40.0	40.0			±40	fb:part._40
+5	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+5	14	fb:cell._40	±40	±|40	±|40	RB|CD	O|NUMBER	|40.0	40.0			±40	fb:part._40
+5	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+5	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+6	1	fb:cell.china	China	china	China	NNP	LOCATION						
+6	2	fb:cell.xi_a_university_of_architecture_technology	Xi'a University of Architecture & Technology	xi'a|university|of|architecture|&|technology	Xi'a|University|of|Architecture|&|Technology	NNP|NNP|IN|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Xi'a University of Architecture & Technology	fb:part.xi_a_university_of_architecture_technology
+6	3	fb:cell.2_x_2	2 x 2	2|x|2	2|x|2	CD|CC|CD	NUMBER|O|NUMBER	2.0||2.0	2.0		2.0		
+6	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+6	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+7	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+7	1	fb:cell.singapore	Singapore	singapore	Singapore	NNP	LOCATION						
+7	2	fb:cell.nanyang_technological_university	Nanyang Technological University	nanyang|technological|university	Nanyang|Technological|University	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Nanyang Technological University	fb:part.nanyang_technological_university
+7	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+7	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+7	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+7	6	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+7	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+7	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+7	9	fb:cell._650	±650	±|650	±|650	NN|CD	O|NUMBER	|650.0	650.0			±650	fb:part._650
+7	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+7	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+7	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+7	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+7	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+7	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+7	16	fb:cell.23_7_2008	23/7/2008	23\\/7\\/2008	23\\/7\\/2008	CD	NUMBER		23.0		7.0	23|7|2008	fb:part.23|fb:part.7|fb:part.2008
+8	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+8	1	fb:cell.hong_kong	Hong Kong	hong|kong	Hong|Kong	NNP|NNP	LOCATION|LOCATION	|					
+8	2	fb:cell.city_university_of_hong_kong	City University of Hong Kong	city|university|of|hong|kong	City|University|of|Hong|Kong	NNP|NNP|IN|NNP|NNP	O|O|O|LOCATION|LOCATION	||||				City University of Hong Kong	fb:part.city_university_of_hong_kong
+8	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+8	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+9	1	fb:cell.hong_kong	Hong Kong	hong|kong	Hong|Kong	NNP|NNP	LOCATION|LOCATION	|					
+9	2	fb:cell.hong_kong_polytechnic_university	Hong Kong Polytechnic University	hong|kong|polytechnic|university	Hong|Kong|Polytechnic|University	NNP|NNP|NNP|NNP	LOCATION|LOCATION|O|O	|||				Hong Kong Polytechnic University	fb:part.hong_kong_polytechnic_university
+9	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+9	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	12	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+9	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+10	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+10	1	fb:cell.india	India	india	India	NNP	LOCATION						
+10	2	fb:cell.jamia_millia_islamia_new_delhi	Jamia Millia Islamia,New Delhi	jamia|millia|islamia|,|new|delhi	Jamia|Millia|Islamia|,|New|Delhi	NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|LOCATION|LOCATION	|||||				Jamia Millia Islamia,New Delhi	fb:part.jamia_millia_islamia_new_delhi
+10	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+10	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+10	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+10	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+10	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+10	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+10	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+10	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+10	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+10	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+10	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+10	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+10	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+10	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+11	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+11	1	fb:cell.india	India	india	India	NNP	LOCATION						
+11	2	fb:cell.iit_guwahati	IIT Guwahati	iit|guwahati	IIT|Guwahati	NNP|NNP	O|LOCATION	|				IIT Guwahati	fb:part.iit_guwahati
+11	3	fb:cell.2_5_x_2_5	2.5 x 2.5	2.5|x|2.5	2.5|x|2.5	CD|CC|CD	NUMBER|O|NUMBER	2.5||2.5	2.5		2.5		
+11	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+11	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+11	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+11	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+11	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+11	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+11	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+11	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+11	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+11	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+11	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+11	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+11	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+12	1	fb:cell.india	India	india	India	NNP	LOCATION						
+12	2	fb:cell.cpri_bangalore_karnataka	CPRI Bangalore,Karnataka	cpri|bangalore|,|karnataka	CPRI|Bangalore|,|Karnataka	NNP|NNP|,|NNP	O|LOCATION|O|LOCATION	|||				CPRI Bangalore,Karnataka	fb:part.cpri_bangalore_karnataka
+12	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+12	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+12	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+12	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+12	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+13	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+13	1	fb:cell.india	India	india	India	NNP	LOCATION						
+13	2	fb:cell.iisc_bangalore	IISc, Bangalore	iisc|,|bangalore	iisc|,|Bangalore	NN|,|NNP	O|O|LOCATION	||				IISc|Bangalore	fb:part.iisc|fb:part.bangalore
+13	3	fb:cell.1_x_1	1 x 1	1|x|1	1|x|1	CD|CC|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+13	4	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+13	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+13	6	fb:cell._220	±220	±|220	±|220	NN|CD	O|NUMBER	|220.0	220.0			±220	fb:part._220
+13	7	fb:cell._220	±220	±|220	±|220	NN|CD	O|NUMBER	|220.0	220.0			±220	fb:part._220
+13	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+13	9	fb:cell._570	±570	±|570	±|570	NN|CD	O|NUMBER	|570.0	570.0			±570	fb:part._570
+13	10	fb:cell._570	±570	±|570	±|570	NN|CD	O|NUMBER	|570.0	570.0			±570	fb:part._570
+13	11	fb:cell._570	±570	±|570	±|570	NN|CD	O|NUMBER	|570.0	570.0			±570	fb:part._570
+13	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+13	13	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+13	14	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+13	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+13	16	fb:cell.23_7_2008	23/7/2008	23\\/7\\/2008	23\\/7\\/2008	CD	NUMBER		23.0		7.0	23|7|2008	fb:part.23|fb:part.7|fb:part.2008
+14	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+14	1	fb:cell.india	India	india	India	NNP	LOCATION						
+14	2	fb:cell.serc_chennai_1_of_3_tamil_nadu	SERC, Chennai (1 of 3), Tamil Nadu	serc|,|chennai|-lrb-|1|of|3|-rrb-|,|tamil|nadu	SERC|,|Chennai|-lrb-|1|of|3|-rrb-|,|Tamil|Nadu	NNP|,|NNP|-LRB-|CD|IN|CD|-RRB-|,|NNP|NNP	ORGANIZATION|O|LOCATION|O|TIME|TIME|TIME|O|O|LOCATION|LOCATION	||||T02:59|T02:59|T02:59||||	1.0		3.0	SERC|Chennai (1 of 3)|Tamil Nadu	fb:part.serc|fb:part.chennai_1_of_3|fb:part.tamil_nadu
+14	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+14	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+14	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+14	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+15	1	fb:cell.india	India	india	India	NNP	LOCATION						
+15	2	fb:cell.serc_chennai_2_of_3_tamil_nadu	SERC, Chennai (2 of 3),Tamil Nadu	serc|,|chennai|-lrb-|2|of|3|-rrb-|,|tamil|nadu	SERC|,|Chennai|-lrb-|2|of|3|-rrb-|,|Tamil|Nadu	NNP|,|NNP|-LRB-|CD|IN|CD|-RRB-|,|NNP|NNP	ORGANIZATION|O|LOCATION|O|TIME|TIME|TIME|O|O|LOCATION|LOCATION	||||T02:58|T02:58|T02:58||||	2.0		3.0	SERC|Chennai (2 of 3),Tamil Nadu	fb:part.serc|fb:part.chennai_2_of_3_tamil_nadu
+15	3	fb:cell.2_x_2	2 x 2	2|x|2	2|x|2	CD|CC|CD	NUMBER|O|NUMBER	2.0||2.0	2.0		2.0		
+15	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+15	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+15	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+15	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+16	1	fb:cell.india	India	india	India	NNP	LOCATION						
+16	2	fb:cell.serc_chennai_3_of_3_tamil_nadu	SERC, Chennai (3 of 3),Tamil Nadu	serc|,|chennai|-lrb-|3|of|3|-rrb-|,|tamil|nadu	SERC|,|Chennai|-lrb-|3|of|3|-rrb-|,|Tamil|Nadu	NNP|,|NNP|-LRB-|CD|IN|CD|-RRB-|,|NNP|NNP	ORGANIZATION|O|LOCATION|O|TIME|TIME|TIME|O|O|LOCATION|LOCATION	||||T02:57|T02:57|T02:57||||	3.0		3.0	SERC|Chennai (3 of 3),Tamil Nadu	fb:part.serc|fb:part.chennai_3_of_3_tamil_nadu
+16	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+16	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+16	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+16	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+17	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+17	1	fb:cell.india	India	india	India	NNP	LOCATION						
+17	2	fb:cell.indira_gandhi_centre_for_atomic_research_igcar_chennai_tamil_nadu	Indira Gandhi Centre for Atomic Research(IGCAR), Chennai,Tamil Nadu	indira|gandhi|centre|for|atomic|research|-lrb-|igcar|-rrb-|,|chennai|,|tamil|nadu	Indira|Gandhi|Centre|for|atomic|research|-lrb-|igcar|-rrb-|,|Chennai|,|Tamil|Nadu	NNP|NNP|NNP|IN|JJ|NN|-LRB-|NN|-RRB-|,|NNP|,|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|LOCATION|O|LOCATION|LOCATION	|||||||||||||				Indira Gandhi Centre for Atomic Research(IGCAR)|Chennai,Tamil Nadu	fb:part.indira_gandhi_centre_for_atomic_research_igcar|fb:part.chennai_tamil_nadu
+17	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+17	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+17	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+17	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+17	7	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+17	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+17	9	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+17	10	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+17	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+17	12	fb:cell._14_715	±14.715	±|14.715	±|14.715	NN|CD	O|NUMBER	|14.715	14.715			±14.715	fb:part._14_715
+17	13	fb:cell._14_715	±14.715	±|14.715	±|14.715	NN|CD	O|NUMBER	|14.715	14.715			±14.715	fb:part._14_715
+17	14	fb:cell.9_81	9.81	9.81	9.81	CD	NUMBER	9.81	9.81			9.81	fb:part.9_81
+17	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+17	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+18	1	fb:cell.india	India	india	India	NNP	LOCATION						
+18	2	fb:cell.iit_roorkee_uttarakhand	IIT Roorkee,Uttarakhand	iit|roorkee|,|uttarakhand	IIT|Roorkee|,|Uttarakhand	NNP|NNP|,|NNP	O|LOCATION|O|LOCATION	|||				IIT Roorkee,Uttarakhand	fb:part.iit_roorkee_uttarakhand
+18	3	fb:cell.3_5_x_3_5	3.5 x 3.5	3.5|x|3.5	3.5|x|3.5	CD|CC|CD	NUMBER|O|NUMBER	3.5||3.5	3.5		3.5		
+18	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+18	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+18	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+18	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+18	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+18	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+19	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+19	1	fb:cell.india	India	india	India	NNP	LOCATION						
+19	2	fb:cell.iit_kanpur_uttar_pradesh	IIT Kanpur,Uttar Pradesh	iit|kanpur|,|uttar|pradesh	IIT|Kanpur|,|Uttar|Pradesh	NNP|NNP|,|NNP|NNP	O|LOCATION|O|PERSON|PERSON	||||				IIT Kanpur,Uttar Pradesh	fb:part.iit_kanpur_uttar_pradesh
+19	3	fb:cell.1_2_x_1_8	1.2 x 1.8	1.2|x|1.8	1.2|x|1.8	CD|CC|CD	NUMBER|O|NUMBER	1.2||1.8	1.2		1.8		
+19	4	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+19	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+19	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+19	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+19	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+19	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+19	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+19	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+19	12	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+19	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+19	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+19	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+19	16	fb:cell.25_6_2009	25/6/2009	25\\/6\\/2009	25\\/6\\/2009	CD	NUMBER		25.0		6.0	25|6|2009	fb:part.25|fb:part.6|fb:part.2009
+20	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+20	1	fb:cell.india	India	india	India	NNP	LOCATION						
+20	2	fb:cell.bengal_engineering_and_science_university_shibpur_west_bengal	Bengal Engineering and Science University, Shibpur,West Bengal	bengal|engineering|and|science|university|,|shibpur|,|west|bengal	Bengal|Engineering|and|Science|University|,|Shibpur|,|West|Bengal	NNP|NNP|CC|NNP|NNP|,|NNP|,|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|LOCATION|LOCATION	|||||||||				Bengal Engineering and Science University|Shibpur,West Bengal	fb:part.bengal_engineering_and_science_university|fb:part.shibpur_west_bengal
+20	3	fb:cell.1_5_x_1_5	1.5 x 1.5	1.5|x|1.5	1.5|x|1.5	CD|CC|CD	NUMBER|O|NUMBER	1.5||1.5	1.5		1.5		
+20	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+20	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+20	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+20	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+20	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+20	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+20	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+20	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+20	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+20	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+20	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+20	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+20	16	fb:cell.19_11_2009	19/11/2009	19\\/11\\/2009	19\\/11\\/2009	CD	NUMBER		19.0		11.0	19|11|2009	fb:part.19|fb:part.11|fb:part.2009
+21	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+21	1	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION						
+21	2	fb:cell.iran_university_of_science_technology_iust	Iran University of Science & Technology (IUST)	iran|university|of|science|&|technology|-lrb-|iust|-rrb-	Iran|University|of|Science|&|Technology|-lrb-|IUST|-rrb-	NNP|NNP|IN|NNP|CC|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	||||||||				Iran University of Science & Technology (IUST)	fb:part.iran_university_of_science_technology_iust
+21	3	fb:cell.2_x_0_5	2 x 0.5	2|x|0.5	2|x|0.5	CD|CC|CD	NUMBER|O|NUMBER	2.0||0.5	2.0		0.5		
+21	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+21	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+21	6	fb:cell._60	±60	±|60	±|60	NN|CD	O|NUMBER	|60.0	60.0			±60	fb:part._60
+21	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+21	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+21	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+21	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+21	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+21	12	fb:cell._6_5	±6.5	±|6.5	±|6.5	NN|CD	O|NUMBER	|6.5	6.5			±6.5	fb:part._6_5
+21	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+21	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+21	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+21	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+22	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+22	1	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION						
+22	2	fb:cell.sharif_university_of_technology_sut	Sharif University of Technology (SUT))	sharif|university|of|technology|-lrb-|sut|-rrb-|-rrb-	Sharif|University|of|Technology|-lrb-|SUT|-rrb-|-rrb-	NNP|NNP|IN|NNP|-LRB-|NNP|-RRB-|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O	|||||||				Sharif University of Technology (SUT))	fb:part.sharif_university_of_technology_sut
+22	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+22	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+22	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+22	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+22	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+22	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+22	9	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+22	10	fb:cell._800	±800	±|800	±|800	NN|CD	O|NUMBER	|800.0	800.0			±800	fb:part._800
+22	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+22	12	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+22	13	fb:cell._40	±40	±|40	±|40	RB|CD	O|NUMBER	|40.0	40.0			±40	fb:part._40
+22	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+22	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+22	16	fb:cell.7_19_2011	7/19/2011	7\\/19\\/2011	7\\/19\\/2011	CD	DATE	2011-07-19	7.0	2011-07-19	19.0	7|19|2011	fb:part.7|fb:part.19|fb:part.2011
+23	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+23	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+23	2	fb:cell.aichi_institute_of_technology	Aichi Institute of Technology	aichi|institute|of|technology	Aichi|Institute|of|Technology	NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Aichi Institute of Technology	fb:part.aichi_institute_of_technology
+23	3	fb:cell.11_x_6	11 x 6	11|x|6	11|x|6	CD|CC|CD	NUMBER|O|NUMBER	11.0||6.0	11.0		6.0		
+23	4	fb:cell.136	136	136	136	CD	NUMBER	136.0	136.0				
+23	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+23	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+23	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+23	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+23	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+23	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+23	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+23	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+23	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+23	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+23	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+23	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+24	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+24	2	fb:cell.building_research_institute	Building Research Institute	building|research|institute	Building|Research|Institute	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Building Research Institute	fb:part.building_research_institute
+24	3	fb:cell.3_x_4	3 x 4	3|x|4	3|x|4	CD|CC|CD	NUMBER|O|NUMBER	3.0||4.0	3.0		4.0		
+24	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+24	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+24	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+24	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+25	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+25	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+25	2	fb:cell.central_research_institute_of_electric_power_industry	Central Research Institute of Electric Power Industry	central|research|institute|of|electric|power|industry	Central|Research|Institute|of|Electric|Power|Industry	NNP|NNP|NNP|IN|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				Central Research Institute of Electric Power Industry	fb:part.central_research_institute_of_electric_power_industry
+25	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+25	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+25	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+25	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+25	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+25	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+25	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+25	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+25	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+25	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+25	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+25	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+25	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+25	16	fb:cell.12_3_2008	12/3/2008	12\\/3\\/2008	12\\/3\\/2008	CD	DATE	2008-12-03	12.0	2008-12-03	3.0	12|3|2008	fb:part.12|fb:part.3|fb:part.2008
+26	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+26	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+26	2	fb:cell.nied_e_defence_laboratory_miki_city	NIED ‘E-Defence’ Laboratory, Miki City	nied|`|e|defense|'|laboratory|,|miki|city	NIED|`|E|Defense|'|laboratory|,|Miki|City	NNP|``|NNP|NNP|POS|NN|,|NNP|NNP	O|O|O|O|O|O|O|PERSON|PERSON	||||||||				NIED ‘E-Defence’ Laboratory|Miki City	fb:part.nied_e_defence_laboratory|fb:part.miki_city
+26	3	fb:cell.20_x_15	20 x 15	20|x|15	20|x|15	CD|CC|CD	NUMBER|O|NUMBER	20.0||15.0	20.0		15.0		
+26	4	fb:cell.1200	1200	1200	1200	CD	DATE	1200	1200.0	1200-xx-xx			
+26	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+26	6	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+26	7	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+26	8	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+26	9	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+26	10	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+26	11	fb:cell._700	±700	±|700	±|700	NN|CD	O|NUMBER	|700.0	700.0			±700	fb:part._700
+26	12	fb:cell._9	±9	±|9	±|9	NN|CD	O|NUMBER	|9.0	9.0			±9	fb:part._9
+26	13	fb:cell._9	±9	±|9	±|9	NN|CD	O|NUMBER	|9.0	9.0			±9	fb:part._9
+26	14	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+26	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+26	16	fb:cell.3_3_2008	3/3/2008	3\\/3\\/2008	3\\/3\\/2008	CD	DATE	2008-03-03	3.0	2008-03-03	3.0	3|3|2008	fb:part.3|fb:part.3|fb:part.2008
+27	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+27	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+27	2	fb:cell.fujita_corporation	Fujita Corporation	fujita|corporation	Fujita|Corporation	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Fujita Corporation	fb:part.fujita_corporation
+27	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+27	4	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+27	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+27	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+27	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+27	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+27	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+27	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+27	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+27	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+27	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+27	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+27	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+27	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+28	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+28	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+28	2	fb:cell.hazama_corp_ltd	Hazama Corp Ltd.	hazama|corp|ltd.|.	Hazama|Corp|Ltd.|.	NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||				Hazama Corp Ltd.	fb:part.hazama_corp_ltd
+28	3	fb:cell.6_x_4	6 x 4	6|x|4	6|x|4	CD|CC|CD	NUMBER|O|NUMBER	6.0||4.0	6.0		4.0		
+28	4	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+28	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+28	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+28	7	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+28	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+28	9	fb:cell._1150	±1150	±|1150	±|1150	SYM|CD	O|DATE	|1150	1150.0			±1150	fb:part._1150
+28	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+28	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+28	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+28	13	fb:cell._3	±3	±|3	±|3	NN|CD	O|NUMBER	|3.0	3.0			±3	fb:part._3
+28	14	fb:cell._2	±2	±|2	±|2	NN|CD	O|NUMBER	|2.0	2.0			±2	fb:part._2
+28	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+28	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+29	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+29	2	fb:cell.hitachi_engineering_corp	Hitachi Engineering Corp	hitachi|engineering|corp	Hitachi|Engineering|Corp	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Hitachi Engineering Corp	fb:part.hitachi_engineering_corp
+29	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+29	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+29	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+29	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+29	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	9	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+29	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+29	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+30	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+30	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+30	2	fb:cell.ishikawajima_harima_heavy_ind_corp	Ishikawajima Harima Heavy Ind Corp.	ishikawajima|harima|heavy|ind|corp.|.	Ishikawajima|Harima|Heavy|Ind|Corp.|.	NNP|NNP|NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Ishikawajima Harima Heavy Ind Corp.	fb:part.ishikawajima_harima_heavy_ind_corp
+30	3	fb:cell.4_5_x_4_5	4.5 x 4.5	4.5|x|4.5	4.5|x|4.5	CD|CC|CD	NUMBER|O|NUMBER	4.5||4.5	4.5		4.5		
+30	4	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+30	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+30	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+30	7	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+30	8	fb:cell._67	±67	±|67	±|67	NN|CD	O|NUMBER	|67.0	67.0			±67	fb:part._67
+30	9	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+30	10	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+30	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+30	12	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+30	13	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+30	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+30	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+30	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+31	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+31	2	fb:cell.jdc_corp	JDC Corp.	jdc|corp.|.	JDC|Corp.|.	NNP|NNP|.	ORGANIZATION|ORGANIZATION|O	||				JDC Corp.	fb:part.jdc_corp
+31	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+31	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+31	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+31	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+31	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+31	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+31	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+32	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+32	2	fb:cell.kawasaki_heavy_industries_corp	Kawasaki Heavy Industries Corp.	kawasaki|heavy|industries|corp.|.	Kawasaki|Heavy|Industries|Corp.|.	NNP|NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Kawasaki Heavy Industries Corp.	fb:part.kawasaki_heavy_industries_corp
+32	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+32	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+32	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+32	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	9	fb:cell._400	±400	±|400	±|400	NN|CD	O|NUMBER	|400.0	400.0			±400	fb:part._400
+32	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+32	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+32	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+33	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+33	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+33	2	fb:cell.kajima_corp_ltd_1_of_2	Kajima Corp. Ltd. (1 of 2)	kajima|corp.|.|ltd.|-lrb-|1|of|2|-rrb-	Kajima|Corp.|.|Ltd.|-lrb-|1|of|2|-rrb-	NNP|NNP|.|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|TIME|TIME|TIME|O	|||||T01:59|T01:59|T01:59|				Kajima Corp. Ltd. (1 of 2)	fb:part.kajima_corp_ltd_1_of_2
+33	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+33	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+33	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+33	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+33	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+33	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+33	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+33	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+33	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+33	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+33	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+33	14	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+33	15	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+33	16	fb:cell.3_3_2008	3/3/2008	3\\/3\\/2008	3\\/3\\/2008	CD	DATE	2008-03-03	3.0	2008-03-03	3.0	3|3|2008	fb:part.3|fb:part.3|fb:part.2008
+34	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+34	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+34	2	fb:cell.kajima_corp_ltd_2_of_2	Kajima Corp. Ltd. (2 of 2)	kajima|corp.|.|ltd.|-lrb-|2|of|2|-rrb-	Kajima|Corp.|.|Ltd.|-lrb-|2|of|2|-rrb-	NNP|NNP|.|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|TIME|TIME|TIME|O	|||||T01:58|T01:58|T01:58|				Kajima Corp. Ltd. (2 of 2)	fb:part.kajima_corp_ltd_2_of_2
+34	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+34	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+34	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+34	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+34	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+34	8	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+34	9	fb:cell._1140	±1140	±|1140	±|1140	SYM|CD	O|DATE	|1140	1140.0			±1140	fb:part._1140
+34	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+34	11	fb:cell._4450	±4450	±|4450	±|4450	SYM|CD	O|NUMBER	|4450.0	4450.0			±4450	fb:part._4450
+34	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+34	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+34	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+34	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+34	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+35	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+35	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+35	2	fb:cell.kumagai_gumi_corp_ltd	Kumagai-Gumi Corp Ltd	kumagai|gumi|corp|ltd	Kumagai|Gumi|Corp|Ltd	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Kumagai-Gumi Corp Ltd	fb:part.kumagai_gumi_corp_ltd
+35	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+35	4	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0				
+35	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+35	6	fb:cell._80	±80	±|80	±|80	NN|CD	O|NUMBER	|80.0	80.0			±80	fb:part._80
+35	7	fb:cell._260	±260	±|260	±|260	NN|CD	O|NUMBER	|260.0	260.0			±260	fb:part._260
+35	8	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+35	9	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+35	10	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+35	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+35	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+35	13	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+35	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+35	15	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+35	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+36	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+36	2	fb:cell.kyoto_university	Kyoto University	kyoto|university	Kyoto|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Kyoto University	fb:part.kyoto_university
+36	3	fb:cell.5_x_3	5 x 3	5|x|3	5|x|3	CD|CC|CD	NUMBER|O|NUMBER	5.0||3.0	5.0		3.0		
+36	4	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+36	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+36	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+36	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+36	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+36	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+36	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+37	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+37	2	fb:cell.kyoto_university_disaster_prevention_research_centre	Kyoto University Disaster Prevention Research Centre	kyoto|university|disaster|prevention|research|centre	Kyoto|University|disaster|Prevention|Research|Centre	NNP|NNP|NN|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Kyoto University Disaster Prevention Research Centre	fb:part.kyoto_university_disaster_prevention_research_centre
+37	3	fb:cell.3_5_diameter	3.5 diameter	3.5|diameter	3.5|diameter	CD|NN	NUMBER|O	3.5|	3.5				
+37	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+37	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+38	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+38	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+38	2	fb:cell.ministry_of_construction	Ministry of Construction	ministry|of|construction	Ministry|of|Construction	NNP|IN|NNP	O|O|O	||				Ministry of Construction	fb:part.ministry_of_construction
+38	3	fb:cell.6_x_8	6 x 8	6|x|8	6|x|8	CD|CC|CD	NUMBER|O|NUMBER	6.0||8.0	6.0		8.0		
+38	4	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+38	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+38	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+38	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+38	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+38	9	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+38	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+38	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+38	12	fb:cell._7	±7	±|7	±|7	NN|CD	O|NUMBER	|7.0	7.0			±7	fb:part._7
+38	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+38	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+38	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+38	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+39	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+39	2	fb:cell.mitsubishi_electric_corp	Mitsubishi Electric Corp.	mitsubishi|electric|corp.|.	Mitsubishi|Electric|Corp.|.	NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||				Mitsubishi Electric Corp.	fb:part.mitsubishi_electric_corp
+39	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	4	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+39	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+39	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	9	fb:cell._700	±700	±|700	±|700	NN|CD	O|NUMBER	|700.0	700.0			±700	fb:part._700
+39	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	12	fb:cell._25	±25	±|25	±|25	NN|CD	O|NUMBER	|25.0	25.0			±25	fb:part._25
+39	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+39	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+40	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+40	2	fb:cell.mitsubishi_heavy_industries_corp	Mitsubishi Heavy Industries Corp.	mitsubishi|heavy|industries|corp.|.	Mitsubishi|Heavy|Industries|Corp.|.	NNP|NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	||||				Mitsubishi Heavy Industries Corp.	fb:part.mitsubishi_heavy_industries_corp
+40	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	4	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+40	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+40	6	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+40	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+40	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+40	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+40	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+41	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+41	2	fb:cell.national_research_institute_of_agriculture_engineering	National Research Institute of Agriculture Engineering	national|research|institute|of|agriculture|engineering	National|Research|Institute|of|Agriculture|Engineering	NNP|NNP|NNP|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				National Research Institute of Agriculture Engineering	fb:part.national_research_institute_of_agriculture_engineering
+41	3	fb:cell.6_x_4	6 x 4	6|x|4	6|x|4	CD|CC|CD	NUMBER|O|NUMBER	6.0||4.0	6.0		4.0		
+41	4	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+41	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+41	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+41	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	9	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+41	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+41	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	15	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+41	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+42	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+42	2	fb:cell.nied_nat_inst_for_disaster_prevention_1_of_2	NIED (Nat. Inst. for Disaster Prevention) (1 of 2)	nied|-lrb-|nat|.|inst|.|for|disaster|prevention|-rrb-|-lrb-|1|of|2|-rrb-	nied|-lrb-|nat|.|Inst|.|for|disaster|Prevention|-rrb-|-lrb-|1|of|2|-rrb-	NN|-LRB-|NN|.|NNP|.|IN|NN|NNP|-RRB-|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|O|O|O|O|O|O|O|O|O|O|TIME|TIME|TIME|O	|||||||||||T01:59|T01:59|T01:59|				NIED (Nat. Inst. for Disaster Prevention) (1 of 2)	fb:part.nied_nat_inst_for_disaster_prevention_1_of_2
+42	3	fb:cell.6_x_6	6 x 6	6|x|6	6|x|6	CD|CC|CD	NUMBER|O|NUMBER	6.0||6.0	6.0		6.0		
+42	4	fb:cell.1100	1100	1100	1100	CD	DATE	1100	1100.0	1100-xx-xx			
+42	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+42	6	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+42	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	9	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+42	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+42	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	15	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+42	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+43	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+43	2	fb:cell.nied_nat_inst_for_disaster_prevention_2_of_2	NIED (Nat. Inst. for Disaster Prevention) (2 of 2)	nied|-lrb-|nat|.|inst|.|for|disaster|prevention|-rrb-|-lrb-|2|of|2|-rrb-	nied|-lrb-|nat|.|Inst|.|for|disaster|Prevention|-rrb-|-lrb-|2|of|2|-rrb-	NN|-LRB-|NN|.|NNP|.|IN|NN|NNP|-RRB-|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|O|O|O|O|O|O|O|O|O|O|TIME|TIME|TIME|O	|||||||||||T01:58|T01:58|T01:58|				NIED (Nat. Inst. for Disaster Prevention) (2 of 2)	fb:part.nied_nat_inst_for_disaster_prevention_2_of_2
+43	3	fb:cell.12_x_12	12 x 12	12|x|12	12|x|12	CD|CC|CD	NUMBER|O|NUMBER	12.0||12.0	12.0		12.0		
+43	4	fb:cell.500	500	500	500	CD	NUMBER	500.0	500.0				
+43	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+43	6	fb:cell._220	±220	±|220	±|220	NN|CD	O|NUMBER	|220.0	220.0			±220	fb:part._220
+43	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	9	fb:cell._900	±900	±|900	±|900	NN|CD	O|NUMBER	|900.0	900.0			±900	fb:part._900
+43	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+43	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+43	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+44	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+44	2	fb:cell.nishimatsu_construction_corp	Nishimatsu Construction Corp	nishimatsu|construction|corp	Nishimatsu|Construction|Corp	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Nishimatsu Construction Corp	fb:part.nishimatsu_construction_corp
+44	3	fb:cell.5_5_x_5_5	5.5 x 5.5	5.5|x|5.5	5.5|x|5.5	CD|CC|CD	NUMBER|O|NUMBER	5.5||5.5	5.5		5.5		
+44	4	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+44	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+44	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+44	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+44	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+44	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+44	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+45	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+45	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+45	2	fb:cell.nuclear_power_engineering_corporation	Nuclear Power Engineering Corporation	nuclear|power|engineering|corporation	Nuclear|Power|Engineering|Corporation	NNP|NNP|NNP|NNP	O|O|O|O	|||				Nuclear Power Engineering Corporation	fb:part.nuclear_power_engineering_corporation
+45	3	fb:cell.15_x_15	15 x 15	15|x|15	15|x|15	CD|CC|CD	NUMBER|O|NUMBER	15.0||15.0	15.0		15.0		
+45	4	fb:cell.908	908	908	908	CD	NUMBER	908.0	908.0				
+45	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+45	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+45	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+45	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+45	9	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+45	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+45	11	fb:cell._375	±375	±|375	±|375	NN|CD	O|NUMBER	|375.0	375.0			±375	fb:part._375
+45	12	fb:cell._18	±18	±|18	±|18	NN|CD	O|NUMBER	|18.0	18.0			±18	fb:part._18
+45	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+45	14	fb:cell._9	±9	±|9	±|9	NN|CD	O|NUMBER	|9.0	9.0			±9	fb:part._9
+45	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+45	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+46	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+46	2	fb:cell.nyk_corporation	NYK Corporation	nyk|corporation	NYK|Corporation	NNP|NNP	ORGANIZATION|ORGANIZATION	|				NYK Corporation	fb:part.nyk_corporation
+46	3	fb:cell.2_6_x_2_6	2.6 x 2.6	2.6|x|2.6	2.6|x|2.6	CD|CC|CD	NUMBER|O|NUMBER	2.6||2.6	2.6		2.6		
+46	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+46	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+46	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+46	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	9	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+46	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+46	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	15	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+46	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+47	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+47	2	fb:cell.obayashi_gumi_corporation	Obayashi-Gumi Corporation	obayashi|gumi|corporation	Obayashi|Gumi|Corporation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Obayashi-Gumi Corporation	fb:part.obayashi_gumi_corporation
+47	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+47	4	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+47	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+47	6	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+47	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	9	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+47	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+47	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+47	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+48	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+48	2	fb:cell.okumura_corp	Okumura Corp.	okumura|corp.|.	Okumura|Corp.|.	NNP|NNP|.	ORGANIZATION|ORGANIZATION|O	||				Okumura Corp.	fb:part.okumura_corp
+48	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+48	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+48	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+48	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+48	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+48	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+48	15	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+48	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+49	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+49	2	fb:cell.penta_ocean_construction_co_ltd_1_of_2	Penta-Ocean Construction Co. Ltd. (1 of 2)	penta|ocean|construction|co.|ltd.|-lrb-|1|of|2|-rrb-	Penta|Ocean|Construction|Co.|Ltd.|-lrb-|1|of|2|-rrb-	NNP|NNP|NNP|NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	||||||T01:59|T01:59|T01:59|				Penta-Ocean Construction Co. Ltd. (1 of 2)	fb:part.penta_ocean_construction_co_ltd_1_of_2
+49	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+49	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+49	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+49	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+49	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	12	fb:cell._5	±5	±|5	±|5	NN|CD	O|NUMBER	|5.0	5.0			±5	fb:part._5
+49	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	15	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+49	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+50	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+50	2	fb:cell.penta_ocean_construction_co_ltd_2_of_2	Penta-Ocean Construction Co. Ltd. (2 of 2)	penta|ocean|construction|co.|ltd.|-lrb-|2|of|2|-rrb-	Penta|Ocean|Construction|Co.|Ltd.|-lrb-|2|of|2|-rrb-	NNP|NNP|NNP|NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	||||||T01:58|T01:58|T01:58|				Penta-Ocean Construction Co. Ltd. (2 of 2)	fb:part.penta_ocean_construction_co_ltd_2_of_2
+50	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+50	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+50	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+50	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	9	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+50	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+50	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	15	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+50	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+51	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+51	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+51	2	fb:cell.port_and_airport_research_institute	Port and Airport Research Institute	port|and|airport|research|institute	Port|and|Airport|Research|Institute	NNP|CC|NNP|NNP|NNP	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Port and Airport Research Institute	fb:part.port_and_airport_research_institute
+51	3	fb:cell.3_4_x_3_4	3.4 x 3.4	3.4|x|3.4	3.4|x|3.4	CD|CC|CD	NUMBER|O|NUMBER	3.4||3.4	3.4		3.4		
+51	4	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+51	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+51	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+51	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+51	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+51	9	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+51	10	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+51	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+51	12	fb:cell._8	±8	±|8	±|8	NN|CD	O|NUMBER	|8.0	8.0			±8	fb:part._8
+51	13	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+51	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+51	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+51	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+52	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+52	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+52	2	fb:cell.public_works_research_institute_pwri	Public Works Research Institute (PWRI)	public|works|research|institute|-lrb-|pwri|-rrb-	Public|Works|Research|Institute|-lrb-|PWRI|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	||||||				Public Works Research Institute (PWRI)	fb:part.public_works_research_institute_pwri
+52	3	fb:cell.8_x_8	8 x 8	8|x|8	8|x|8	CD|CC|CD	NUMBER|O|NUMBER	8.0||8.0	8.0		8.0		
+52	4	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+52	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+52	6	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+52	7	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+52	8	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+52	9	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+52	10	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+52	11	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+52	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+52	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+52	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+52	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+52	16	fb:cell.10_5_2008	10/5/2008	10\\/5\\/2008	10\\/5\\/2008	CD	DATE	2008-10-05	10.0	2008-10-05	5.0	10|5|2008	fb:part.10|fb:part.5|fb:part.2008
+53	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+53	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+53	2	fb:cell.sanryo_heavy_industries_corporation	Sanryo Heavy Industries Corporation	sanryo|heavy|industries|corporation	Sanryo|Heavy|Industries|Corporation	NNP|NNP|NNPS|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Sanryo Heavy Industries Corporation	fb:part.sanryo_heavy_industries_corporation
+53	3	fb:cell.6_x_6	6 x 6	6|x|6	6|x|6	CD|CC|CD	NUMBER|O|NUMBER	6.0||6.0	6.0		6.0		
+53	4	fb:cell.90_7	90.7	90.7	90.7	CD	NUMBER	90.7	90.7				
+53	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+53	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+54	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+54	2	fb:cell.shimizu_corporation	Shimizu Corporation	shimizu|corporation	Shimizu|Corporation	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Shimizu Corporation	fb:part.shimizu_corporation
+54	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+54	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+54	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+54	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+54	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+54	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+54	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+54	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+55	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+55	2	fb:cell.taisei_corp_ltd	Taisei Corp Ltd	taisei|corp|ltd	Taisei|Corp|Ltd	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Taisei Corp Ltd	fb:part.taisei_corp_ltd
+55	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+55	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+55	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+55	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+55	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	9	fb:cell._450	±450	±|450	±|450	NN|CD	O|NUMBER	|450.0	450.0			±450	fb:part._450
+55	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+55	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+55	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+56	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+56	2	fb:cell.tobishima_corp_ltd	Tobishima Corp Ltd	tobishima|corp|ltd	Tobishima|Corp|Ltd	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Tobishima Corp Ltd	fb:part.tobishima_corp_ltd
+56	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+56	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+56	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+56	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+56	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	12	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+56	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+56	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+57	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+57	2	fb:cell.tobishima_corp_ltd	Tobishima Corp Ltd	tobishima|corp|ltd	Tobishima|Corp|Ltd	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Tobishima Corp Ltd	fb:part.tobishima_corp_ltd
+57	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+57	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+57	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+57	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	9	fb:cell._800	±800	±|800	±|800	NN|CD	O|NUMBER	|800.0	800.0			±800	fb:part._800
+57	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+57	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+57	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+58	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+58	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+58	2	fb:cell.tokyu_const_corp	Tokyu Const. Corp.	tokyu|const|.|corp.|.	Tokyu|Const|.|Corp.|.	NNP|NNP|.|NNP|.	ORGANIZATION|ORGANIZATION|O|O|O	||||				Tokyu Const. Corp.	fb:part.tokyu_const_corp
+58	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+58	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+58	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+58	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+58	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+58	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+58	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+58	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+58	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+58	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+58	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+58	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+58	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+58	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+59	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+59	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+59	2	fb:cell.toshiba_electric_co	Toshiba Electric Co.	toshiba|electric|co.|.	Toshiba|Electric|Co.|.	NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||				Toshiba Electric Co.	fb:part.toshiba_electric_co
+59	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+59	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+59	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+59	6	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+59	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+59	8	fb:cell._380	±380	±|380	±|380	NN|CD	O|NUMBER	|380.0	380.0			±380	fb:part._380
+59	9	fb:cell._400	±400	±|400	±|400	NN|CD	O|NUMBER	|400.0	400.0			±400	fb:part._400
+59	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+59	11	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+59	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+59	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+59	14	fb:cell._7	±7	±|7	±|7	NN|CD	O|NUMBER	|7.0	7.0			±7	fb:part._7
+59	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+59	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+60	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+60	1	fb:cell.korea	Korea	korea	Korea	NNP	LOCATION						
+60	2	fb:cell.hyundai_institute_of_construction_technology_development_1_of_2	Hyundai Institute of Construction Technology Development (1 of 2)	hyundai|institute|of|construction|technology|development|-lrb-|1|of|2|-rrb-	Hyundai|Institute|of|Construction|Technology|Development|-lrb-|1|of|2|-rrb-	NNP|NNP|IN|NNP|NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	|||||||T01:59|T01:59|T01:59|	1.0		2.0	Hyundai Institute of Construction Technology Development (1 of 2)	fb:part.hyundai_institute_of_construction_technology_development_1_of_2
+60	3	fb:cell.2_x_2	2 x 2	2|x|2	2|x|2	CD|CC|CD	NUMBER|O|NUMBER	2.0||2.0	2.0		2.0		
+60	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+60	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+60	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+60	7	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+60	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+60	9	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+60	10	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+60	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+60	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+60	13	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+60	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+60	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+60	16	fb:cell.5_2_2009	5/2/2009	5\\/2\\/2009	5\\/2\\/2009	CD	DATE	2009-05-02	5.0	2009-05-02	2.0	5|2|2009	fb:part.5|fb:part.2|fb:part.2009
+61	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+61	1	fb:cell.korea	Korea	korea	Korea	NNP	LOCATION						
+61	2	fb:cell.hyundai_institute_of_construction_technology_development_2_of_2	Hyundai Institute of Construction Technology Development (2 of 2)	hyundai|institute|of|construction|technology|development|-lrb-|2|of|2|-rrb-	Hyundai|Institute|of|Construction|Technology|Development|-lrb-|2|of|2|-rrb-	NNP|NNP|IN|NNP|NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	|||||||T01:58|T01:58|T01:58|	2.0		2.0	Hyundai Institute of Construction Technology Development (2 of 2)	fb:part.hyundai_institute_of_construction_technology_development_2_of_2
+61	3	fb:cell.5_x_3	5 x 3	5|x|3	5|x|3	CD|CC|CD	NUMBER|O|NUMBER	5.0||3.0	5.0		3.0		
+61	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+61	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+61	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+61	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+61	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+61	9	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+61	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+61	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+61	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+61	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+61	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+61	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+61	16	fb:cell.5_2_2009	5/2/2009	5\\/2\\/2009	5\\/2\\/2009	CD	DATE	2009-05-02	5.0	2009-05-02	2.0	5|2|2009	fb:part.5|fb:part.2|fb:part.2009
+62	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+62	1	fb:cell.korea	Korea	korea	Korea	NNP	LOCATION						
+62	2	fb:cell.korea_institute_of_machinery_and_metals	Korea Institute of Machinery and Metals	korea|institute|of|machinery|and|metals	Korea|Institute|of|Machinery|and|Metals	NNP|NNP|IN|NNP|CC|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Korea Institute of Machinery and Metals	fb:part.korea_institute_of_machinery_and_metals
+62	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+62	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+62	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+62	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+62	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+62	8	fb:cell._134	±134	±|134	±|134	NN|CD	O|NUMBER	|134.0	134.0			±134	fb:part._134
+62	9	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+62	10	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+62	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+62	12	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+62	13	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+62	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+62	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+62	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+63	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+63	1	fb:cell.korea	Korea	korea	Korea	NNP	LOCATION						
+63	2	fb:cell.pusan_national_university_1_of_3	Pusan National University (1 of 3)	pusan|national|university|-lrb-|1|of|3|-rrb-	Pusan|National|University|-lrb-|1|of|3|-rrb-	NNP|NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	||||T02:59|T02:59|T02:59|	1.0		3.0	Pusan National University (1 of 3)	fb:part.pusan_national_university_1_of_3
+63	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+63	4	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+63	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+63	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+63	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+63	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+63	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+63	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+63	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+63	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+63	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+63	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+63	15	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+63	16	fb:cell.24_7_2008	24/7/2008	24\\/7\\/2008	24\\/7\\/2008	CD	NUMBER		24.0		7.0	24|7|2008	fb:part.24|fb:part.7|fb:part.2008
+64	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+64	1	fb:cell.korea	Korea	korea	Korea	NNP	LOCATION						
+64	2	fb:cell.pusan_national_university_2_of_3	Pusan National University (2 of 3)	pusan|national|university|-lrb-|2|of|3|-rrb-	Pusan|National|University|-lrb-|2|of|3|-rrb-	NNP|NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	||||T02:58|T02:58|T02:58|	2.0		3.0	Pusan National University (2 of 3)	fb:part.pusan_national_university_2_of_3
+64	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+64	4	fb:cell.600	600	600	600	CD	NUMBER	600.0	600.0				
+64	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+64	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+64	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+64	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+64	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+64	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+64	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+64	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+64	13	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+64	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+64	15	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+64	16	fb:cell.24_7_2008	24/7/2008	24\\/7\\/2008	24\\/7\\/2008	CD	NUMBER		24.0		7.0	24|7|2008	fb:part.24|fb:part.7|fb:part.2008
+65	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+65	1	fb:cell.korea	Korea	korea	Korea	NNP	LOCATION						
+65	2	fb:cell.pusan_national_university_3_of_3	Pusan National University (3 of 3)	pusan|national|university|-lrb-|3|of|3|-rrb-	Pusan|National|University|-lrb-|3|of|3|-rrb-	NNP|NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	||||T02:57|T02:57|T02:57|	3.0		3.0	Pusan National University (3 of 3)	fb:part.pusan_national_university_3_of_3
+65	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+65	4	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+65	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+65	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+65	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+65	8	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+65	9	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+65	10	fb:cell._1500	±1500	±|1500	±|1500	SYM|CD	O|DATE	|1500	1500.0			±1500	fb:part._1500
+65	11	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+65	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+65	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+65	14	fb:cell._40	±40	±|40	±|40	RB|CD	O|NUMBER	|40.0	40.0			±40	fb:part._40
+65	15	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+65	16	fb:cell.24_7_2008	24/7/2008	24\\/7\\/2008	24\\/7\\/2008	CD	NUMBER		24.0		7.0	24|7|2008	fb:part.24|fb:part.7|fb:part.2008
+66	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+66	1	fb:cell.malaysia	Malaysia	malaysia	Malaysia	NNP	LOCATION						
+66	2	fb:cell.sabah_university	Sabah University	sabah|university	Sabah|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Sabah University	fb:part.sabah_university
+66	3	fb:cell.1_5_x_1_5	1.5 x 1.5	1.5|x|1.5	1.5|x|1.5	CD|CC|CD	NUMBER|O|NUMBER	1.5||1.5	1.5		1.5		
+66	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+66	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+67	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+67	1	fb:cell.taiwan	Taiwan	taiwan	Taiwan	NNP	LOCATION						
+67	2	fb:cell.national_center_for_research_in_earthquake_engineering	National Center for Research in Earthquake Engineering	national|center|for|research|in|earthquake|engineering	National|Center|for|Research|in|Earthquake|Engineering	NNP|NNP|IN|NNP|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	||||||				National Center for Research in Earthquake Engineering	fb:part.national_center_for_research_in_earthquake_engineering
+67	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+67	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+67	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+67	6	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+67	7	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+67	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+67	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+67	10	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+67	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+67	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+67	13	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+67	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+67	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+67	16	fb:cell.12_3_2008	12/3/2008	12\\/3\\/2008	12\\/3\\/2008	CD	DATE	2008-12-03	12.0	2008-12-03	3.0	12|3|2008	fb:part.12|fb:part.3|fb:part.2008
+68	0	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+68	1	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+68	2	fb:cell.university_of_melbourne	University of Melbourne	university|of|melbourne	University|of|Melbourne	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				University of Melbourne	fb:part.university_of_melbourne
+68	3	fb:cell.2_x_2	2 x 2	2|x|2	2|x|2	CD|CC|CD	NUMBER|O|NUMBER	2.0||2.0	2.0		2.0		
+68	4	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+68	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	0	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+69	1	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+69	2	fb:cell.university_of_technology_sydney	University of Technology, Sydney	university|of|technology|,|sydney	University|of|Technology|,|Sydney	NNP|IN|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	||||				University of Technology|Sydney	fb:part.university_of_technology|fb:part.sydney
+69	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+69	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+69	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+69	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+69	16	fb:cell.15_12_2009	15/12/2009	15\\/12\\/2009	15\\/12\\/2009	CD	NUMBER		15.0		12.0	15|12|2009	fb:part.15|fb:part.12|fb:part.2009
+70	0	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+70	1	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+70	2	fb:cell.royal_military_college	Royal Military College	royal|military|college	Royal|Military|College	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Royal Military College	fb:part.royal_military_college
+70	3	fb:cell.2_7_x_2_7	2.7 x 2.7	2.7|x|2.7	2.7|x|2.7	CD|CC|CD	NUMBER|O|NUMBER	2.7||2.7	2.7		2.7		
+70	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+70	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+70	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	0	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+71	1	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+71	2	fb:cell.university_of_british_columbia_eerf_lab	University of British Columbia (EERF Lab)	university|of|british|columbia|-lrb-|eerf|lab|-rrb-	University|of|British|Columbia|-lrb-|EERF|lab|-rrb-	NNP|IN|NNP|NNP|-LRB-|NNP|NN|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O	|||||||				University of British Columbia (EERF Lab)	fb:part.university_of_british_columbia_eerf_lab
+71	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+71	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+71	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+71	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	0	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+72	1	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+72	2	fb:cell.university_of_sherbrooke	University of Sherbrooke	university|of|sherbrooke	University|of|Sherbrooke	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				University of Sherbrooke	fb:part.university_of_sherbrooke
+72	3	fb:cell._x	? x ?	?|x|?	?|x|?	.|CC|.	O|O|O	||					
+72	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+73	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+73	1	fb:cell.france	France	france	France	NNP	LOCATION						
+73	2	fb:cell.commissariat_a_l_energie_atomique_et_aux_energies_alternatives_cea_azalee_1_of_3	Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), AZALEE (1 of 3)	commissariat|à|l'energie|atomique|et|aux|energies|alternatives|-lrb-|cea|-rrb-|,|azalee|-lrb-|1|of|3|-rrb-	Commissariat|à|l'Energie|Atomique|et|aux|Energies|Alternatives|-lrb-|CEA|-rrb-|,|azalee|-lrb-|1|of|3|-rrb-	NNP|NNP|NNP|NNP|FW|FW|NNPS|NNP|-LRB-|NNP|-RRB-|,|NN|-LRB-|CD|IN|CD|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|TIME|TIME|TIME|O	||||||||||||||T02:59|T02:59|T02:59|	1.0		3.0	Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA)|AZALEE (1 of 3)	fb:part.commissariat_a_l_energie_atomique_et_aux_energies_alternatives_cea|fb:part.azalee_1_of_3
+73	3	fb:cell.6_x_6	6 x 6	6|x|6	6|x|6	CD|CC|CD	NUMBER|O|NUMBER	6.0||6.0	6.0		6.0		
+73	4	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+73	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+73	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+73	7	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+73	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+73	9	fb:cell._700	±700	±|700	±|700	NN|CD	O|NUMBER	|700.0	700.0			±700	fb:part._700
+73	10	fb:cell._700	±700	±|700	±|700	NN|CD	O|NUMBER	|700.0	700.0			±700	fb:part._700
+73	11	fb:cell._700	±700	±|700	±|700	NN|CD	O|NUMBER	|700.0	700.0			±700	fb:part._700
+73	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+73	13	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+73	14	fb:cell._25	±25	±|25	±|25	NN|CD	O|NUMBER	|25.0	25.0			±25	fb:part._25
+73	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+73	16	fb:cell.27_01_2011	27/01/2011	27\\/01\\/2011	27\\/01\\/2011	CD	NUMBER		27.0		1.0	27|01|2011	fb:part.27|fb:part.01|fb:part.2011
+74	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+74	1	fb:cell.france	France	france	France	NNP	LOCATION						
+74	2	fb:cell.commissariat_a_l_energie_atomique_et_aux_energies_alternatives_cea_vesuve_2_of_3	Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), VESUVE (2 of 3)	commissariat|à|l'energie|atomique|et|aux|energies|alternatives|-lrb-|cea|-rrb-|,|vesuve|-lrb-|2|of|3|-rrb-	Commissariat|à|l'Energie|Atomique|et|aux|Energies|Alternatives|-lrb-|CEA|-rrb-|,|vesuve|-lrb-|2|of|3|-rrb-	NNP|NNP|NNP|NNP|FW|FW|NNPS|NNP|-LRB-|NNP|-RRB-|,|NN|-LRB-|CD|IN|CD|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|TIME|TIME|TIME|O	||||||||||||||T02:58|T02:58|T02:58|	2.0		3.0	Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA)|VESUVE (2 of 3)	fb:part.commissariat_a_l_energie_atomique_et_aux_energies_alternatives_cea|fb:part.vesuve_2_of_3
+74	3	fb:cell.4_x_3	4 x 3	4|x|3	4|x|3	CD|CC|CD	NUMBER|O|NUMBER	4.0||3.0	4.0		3.0		
+74	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+74	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+74	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+74	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+74	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+74	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+74	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+74	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+74	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+74	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+74	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+74	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+74	16	fb:cell.27_01_2011	27/01/2011	27\\/01\\/2011	27\\/01\\/2011	CD	NUMBER		27.0		1.0	27|01|2011	fb:part.27|fb:part.01|fb:part.2011
+75	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+75	1	fb:cell.france	France	france	France	NNP	LOCATION						
+75	2	fb:cell.commissariat_a_l_energie_atomique_et_aux_energies_alternatives_cea_tournesol_3_of_3	Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA), TOURNESOL (3 of 3)	commissariat|à|l'energie|atomique|et|aux|energies|alternatives|-lrb-|cea|-rrb-|,|tournesol|-lrb-|3|of|3|-rrb-	Commissariat|à|l'Energie|Atomique|et|aux|Energies|Alternatives|-lrb-|CEA|-rrb-|,|tournesol|-lrb-|3|of|3|-rrb-	NNP|NNP|NNP|NNP|FW|FW|NNPS|NNP|-LRB-|NNP|-RRB-|,|NN|-LRB-|CD|IN|CD|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|TIME|TIME|TIME|O	||||||||||||||T02:57|T02:57|T02:57|	3.0		3.0	Commissariat à l'Energie Atomique et aux Energies Alternatives (CEA)|TOURNESOL (3 of 3)	fb:part.commissariat_a_l_energie_atomique_et_aux_energies_alternatives_cea|fb:part.tournesol_3_of_3
+75	3	fb:cell.2_x_2	2 x 2	2|x|2	2|x|2	CD|CC|CD	NUMBER|O|NUMBER	2.0||2.0	2.0		2.0		
+75	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+75	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+75	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+75	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+75	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+75	9	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+75	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+75	11	fb:cell._1300	±1300	±|1300	±|1300	SYM|CD	O|DATE	|1300	1300.0			±1300	fb:part._1300
+75	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+75	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+75	14	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+75	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+75	16	fb:cell.27_01_2011	27/01/2011	27\\/01\\/2011	27\\/01\\/2011	CD	NUMBER		27.0		1.0	27|01|2011	fb:part.27|fb:part.01|fb:part.2011
+76	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+76	1	fb:cell.france	France	france	France	NNP	LOCATION						
+76	2	fb:cell.fcba_institut_technologique	FCBA Institut technologique	fcba|institut|technologique	FCBA|Institut|technologique	NNP|NNP|NN	O|O|O	||				FCBA Institut technologique	fb:part.fcba_institut_technologique
+76	3	fb:cell.6_x_6	6 x 6	6|x|6	6|x|6	CD|CC|CD	NUMBER|O|NUMBER	6.0||6.0	6.0		6.0		
+76	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+76	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+76	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+76	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+76	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+76	9	fb:cell._800	±800	±|800	±|800	NN|CD	O|NUMBER	|800.0	800.0			±800	fb:part._800
+76	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+76	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+76	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+76	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+76	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+76	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+76	16	fb:cell.02_2011	02/2011	02\\/2011	02\\/2011	NN	O		2.0		2011.0	02|2011	fb:part.02|fb:part.2011
+77	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+77	1	fb:cell.greece	Greece	greece	Greece	NNP	LOCATION						
+77	2	fb:cell.aristotle_university_of_thessaloniki	Aristotle University of Thessaloniki	aristotle|university|of|thessaloniki	Aristotle|University|of|Thessaloniki	NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				Aristotle University of Thessaloniki	fb:part.aristotle_university_of_thessaloniki
+77	3	fb:cell.1_2_x_1_2	1.2 x 1.2	1.2|x|1.2	1.2|x|1.2	CD|CC|CD	NUMBER|O|NUMBER	1.2||1.2	1.2		1.2		
+77	4	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+77	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+77	6	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+77	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+77	8	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+77	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+77	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+77	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+77	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+77	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+77	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+77	15	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+77	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+78	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+78	1	fb:cell.greece	Greece	greece	Greece	NNP	LOCATION						
+78	2	fb:cell.national_technical_university_of_athens	National Technical University of Athens	national|technical|university|of|athens	National|Technical|University|of|Athens	NNP|NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				National Technical University of Athens	fb:part.national_technical_university_of_athens
+78	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+78	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+78	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+78	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+78	7	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+78	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+78	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+78	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+78	11	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+78	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+78	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+78	14	fb:cell._40	±40	±|40	±|40	RB|CD	O|NUMBER	|40.0	40.0			±40	fb:part._40
+78	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+78	16	fb:cell.12_3_2008	12/3/2008	12\\/3\\/2008	12\\/3\\/2008	CD	DATE	2008-12-03	12.0	2008-12-03	3.0	12|3|2008	fb:part.12|fb:part.3|fb:part.2008
+79	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+79	1	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+79	2	fb:cell.ansaldo_meccanica_nucleare	Ansaldo Meccanica Nucleare	ansaldo|meccanica|nucleare	Ansaldo|Meccanica|Nucleare	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Ansaldo Meccanica Nucleare	fb:part.ansaldo_meccanica_nucleare
+79	3	fb:cell.3_5_x_3_5	3.5 x 3.5	3.5|x|3.5	3.5|x|3.5	CD|CC|CD	NUMBER|O|NUMBER	3.5||3.5	3.5		3.5		
+79	4	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+79	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+79	6	fb:cell._70	±70	±|70	±|70	NN|CD	O|NUMBER	|70.0	70.0			±70	fb:part._70
+79	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+79	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+79	9	fb:cell._860	±860	±|860	±|860	NN|CD	O|NUMBER	|860.0	860.0			±860	fb:part._860
+79	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+79	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+79	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+79	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+79	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+79	15	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+79	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+80	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+80	1	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+80	2	fb:cell.department_of_structures_for_engineering_and_architecture_university_of_naples_shake_table	Department of Structures for Engineering and Architecture, University of Naples  - Shake Table	department|of|structures|for|engineering|and|architecture|,|university|of|naples|-|shake|table	Department|of|structure|for|Engineering|and|Architecture|,|University|of|Naples|-|Shake|Table	NNP|IN|NNS|IN|NNP|CC|NNP|,|NNP|IN|NNP|:|NNP|NNP	O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	|||||||||||||				Department of Structures for Engineering and Architecture|University of Naples  - Shake Table	fb:part.department_of_structures_for_engineering_and_architecture|fb:part.university_of_naples_shake_table
+80	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+80	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+80	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+80	6	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+80	7	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+80	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+80	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+80	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+80	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+80	12	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+80	13	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+80	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+80	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+80	16	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+81	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+81	1	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+81	2	fb:cell.enea	ENEA	enea	enea	NN	O					ENEA	fb:part.enea
+81	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+81	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+81	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+81	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+81	7	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+81	8	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+81	9	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+81	10	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+81	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+81	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+81	13	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+81	14	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+81	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+81	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+82	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+82	1	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+82	2	fb:cell.enel_hydro_s_p_a_business_unit_ismes_1_of_3	Enel. Hydro S.p.A.; business unit ISMES (1 of 3)	enel|.|hydro|s.p.a.|;|business|unit|ismes|-lrb-|1|of|3|-rrb-	Enel|.|Hydro|S.p.A.|;|business|unit|isme|-lrb-|1|of|3|-rrb-	NNP|.|NNP|NNP|:|NN|NN|NN|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|O|ORGANIZATION|ORGANIZATION|O|O|O|ORGANIZATION|O|TIME|TIME|TIME|O	|||||||||T02:59|T02:59|T02:59|				Enel. Hydro S.p.A.; business unit ISMES (1 of 3)	fb:part.enel_hydro_s_p_a_business_unit_ismes_1_of_3
+82	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+82	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+82	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+82	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+82	7	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+82	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+82	9	fb:cell._550	±550	±|550	±|550	NN|CD	O|NUMBER	|550.0	550.0			±550	fb:part._550
+82	10	fb:cell._550	±550	±|550	±|550	NN|CD	O|NUMBER	|550.0	550.0			±550	fb:part._550
+82	11	fb:cell._440	±440	±|440	±|440	NN|CD	O|NUMBER	|440.0	440.0			±440	fb:part._440
+82	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+82	13	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+82	14	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+82	15	fb:cell.120	120	120	120	CD	NUMBER	120.0	120.0				
+82	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+83	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+83	1	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+83	2	fb:cell.european_centre_for_training_research_in_earthquake_engineering_eucentre_shake_table	European Centre for Training & Research in Earthquake Engineering (EUCENTRE)  - Shake Table	european|centre|for|training|&|research|in|earthquake|engineering|-lrb-|eucentre|-rrb-|-|shake|table	european|Centre|for|Training|&|Research|in|Earthquake|Engineering|-lrb-|eucentre|-rrb-|-|Shake|Table	JJ|NNP|IN|NNP|CC|NNP|IN|NNP|NNP|-LRB-|NN|-RRB-|:|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O	||||||||||||||				European Centre for Training & Research in Earthquake Engineering (EUCENTRE)  - Shake Table	fb:part.european_centre_for_training_research_in_earthquake_engineering_eucentre_shake_table
+83	3	fb:cell.5_6_x_7	5.6 x 7	5.6|x|7	5.6|x|7	CD|CC|CD	NUMBER|O|NUMBER	5.6||7.0	5.6		7.0		
+83	4	fb:cell.140	140	140	140	CD	NUMBER	140.0	140.0				
+83	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+83	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+83	7	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+83	8	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+83	9	fb:cell._2200	±2200	±|2200	±|2200	SYM|CD	O|DATE	|2200	2200.0			±2200	fb:part._2200
+83	10	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+83	11	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+83	12	fb:cell.59	59	59	59	CD	NUMBER	59.0	59.0			59	fb:part.59
+83	13	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+83	14	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+83	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+83	16	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+84	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+84	1	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+84	2	fb:cell.european_centre_for_training_research_in_earthquake_engineering_eucentre_bearing_testing_system	European Centre for Training & Research in Earthquake Engineering (EUCENTRE)  - Bearing Testing System	european|centre|for|training|&|research|in|earthquake|engineering|-lrb-|eucentre|-rrb-|-|bearing|testing|system	european|Centre|for|Training|&|Research|in|Earthquake|Engineering|-lrb-|eucentre|-rrb-|-|bear|Testing|System	JJ|NNP|IN|NNP|CC|NNP|IN|NNP|NNP|-LRB-|NN|-RRB-|:|VBG|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				European Centre for Training & Research in Earthquake Engineering (EUCENTRE)  - Bearing Testing System	fb:part.european_centre_for_training_research_in_earthquake_engineering_eucentre_bearing_testing_system
+84	3	fb:cell.1_6_x_4_4	1.6 x 4.4	1.6|x|4.4	1.6|x|4.4	CD|CC|CD	NUMBER|O|NUMBER	1.6||4.4	1.6		4.4		
+84	4	fb:cell.5000_vertical_load	5000 (vertical load)	5000|-lrb-|vertical|load|-rrb-	5000|-lrb-|vertical|load|-rrb-	CD|-LRB-|JJ|NN|-RRB-	NUMBER|O|O|O|O	5000.0||||	5000.0				
+84	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+84	6	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+84	7	fb:cell._265	±265	±|265	±|265	NN|CD	O|NUMBER	|265.0	265.0			±265	fb:part._265
+84	8	fb:cell.140	140	140	140	CD	NUMBER	140.0	140.0				
+84	9	fb:cell._2200	±2200	±|2200	±|2200	SYM|CD	O|DATE	|2200	2200.0			±2200	fb:part._2200
+84	10	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+84	11	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+84	12	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0			18	fb:part.18
+84	13	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+84	14	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+84	15	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+84	16	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+85	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+85	1	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+85	2	fb:cell.european_centre_for_training_research_in_earthquake_engineering_eucentre_damper_testing_system	European Centre for Training & Research in Earthquake Engineering (EUCENTRE)  - Damper Testing System	european|centre|for|training|&|research|in|earthquake|engineering|-lrb-|eucentre|-rrb-|-|damper|testing|system	european|Centre|for|Training|&|Research|in|Earthquake|Engineering|-lrb-|eucentre|-rrb-|-|damper|Testing|System	JJ|NNP|IN|NNP|CC|NNP|IN|NNP|NNP|-LRB-|NN|-RRB-|:|NN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				European Centre for Training & Research in Earthquake Engineering (EUCENTRE)  - Damper Testing System	fb:part.european_centre_for_training_research_in_earthquake_engineering_eucentre_damper_testing_system
+85	3	fb:cell.1_5_x_2	1.5 x 2	1.5|x|2	1.5|x|2	CD|CC|CD	NUMBER|O|NUMBER	1.5||2.0	1.5		2.0		
+85	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+85	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+85	6	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+85	7	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+85	8	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+85	9	fb:cell._1180	±1180	±|1180	±|1180	SYM|CD	O|DATE	|1180	1180.0			±1180	fb:part._1180
+85	10	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+85	11	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+85	12	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+85	13	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+85	14	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+85	15	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+85	16	fb:cell.null_2	-	-	-	:	O					-	fb:part.null_2
+86	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+86	1	fb:cell.macedonia	Macedonia	macedonia	Macedonia	NNP	LOCATION						
+86	2	fb:cell.institute_of_earthquake_engineering_and_engineering_seismology_iziis_university_of_ss_cyril_and_methodius_in_skopje_1_of_2	Institute of Earthquake Engineering and Engineering Seismology (IZIIS), University of SS. Cyril and Methodius in Skopje (1 of 2)	institute|of|earthquake|engineering|and|engineering|seismology|-lrb-|iziis|-rrb-|,|university|of|ss|.|cyril|and|methodius|in|skopje|-lrb-|1|of|2|-rrb-	Institute|of|Earthquake|Engineering|and|Engineering|Seismology|-lrb-|IZIIS|-rrb-|,|University|of|SS|.|Cyril|and|Methodius|in|Skopje|-lrb-|1|of|2|-rrb-	NNP|IN|NNP|NNP|CC|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|IN|NNP|.|NNP|CC|NNP|IN|NNP|-LRB-|CD|IN|CD|-RRB-	O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|O|ORGANIZATION|O|LOCATION|O|TIME|TIME|TIME|O	|||||||||||||||||||||T01:59|T01:59|T01:59|				Institute of Earthquake Engineering and Engineering Seismology (IZIIS)|University of SS. Cyril and Methodius in Skopje (1 of 2)	fb:part.institute_of_earthquake_engineering_and_engineering_seismology_iziis|fb:part.university_of_ss_cyril_and_methodius_in_skopje_1_of_2
+86	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+86	4	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+86	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+86	6	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+86	7	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+86	8	fb:cell._60	±60	±|60	±|60	NN|CD	O|NUMBER	|60.0	60.0			±60	fb:part._60
+86	9	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+86	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+86	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+86	12	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+86	13	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+86	14	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+86	15	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+86	16	fb:cell.20_9_2011	20/9/2011	20\\/9\\/2011	20\\/9\\/2011	CD	NUMBER		20.0		9.0	20|9|2011	fb:part.20|fb:part.9|fb:part.2011
+87	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+87	1	fb:cell.macedonia	Macedonia	macedonia	Macedonia	NNP	LOCATION						
+87	2	fb:cell.institute_of_earthquake_engineering_and_engineering_seismology_iziis_university_of_ss_cyril_and_methodius_in_skopje_2_of_2	Institute of Earthquake Engineering and Engineering Seismology (IZIIS), University of SS. Cyril and Methodius in Skopje (2 of 2)	institute|of|earthquake|engineering|and|engineering|seismology|-lrb-|iziis|-rrb-|,|university|of|ss|.|cyril|and|methodius|in|skopje|-lrb-|2|of|2|-rrb-	Institute|of|Earthquake|Engineering|and|Engineering|Seismology|-lrb-|IZIIS|-rrb-|,|University|of|SS|.|Cyril|and|Methodius|in|Skopje|-lrb-|2|of|2|-rrb-	NNP|IN|NNP|NNP|CC|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|IN|NNP|.|NNP|CC|NNP|IN|NNP|-LRB-|CD|IN|CD|-RRB-	O|O|O|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|O|ORGANIZATION|O|LOCATION|O|TIME|TIME|TIME|O	|||||||||||||||||||||T01:58|T01:58|T01:58|				Institute of Earthquake Engineering and Engineering Seismology (IZIIS)|University of SS. Cyril and Methodius in Skopje (2 of 2)	fb:part.institute_of_earthquake_engineering_and_engineering_seismology_iziis|fb:part.university_of_ss_cyril_and_methodius_in_skopje_2_of_2
+87	3	fb:cell.1_4_x_2_5	1.4 x 2.5	1.4|x|2.5	1.4|x|2.5	CD|CC|CD	NUMBER|O|NUMBER	1.4||2.5	1.4		2.5		
+87	4	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+87	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+87	6	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+87	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+87	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+87	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+87	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+87	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+87	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+87	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+87	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+87	15	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+87	16	fb:cell.7_7_2008	7/7/2008	7\\/7\\/2008	7\\/7\\/2008	CD	DATE	2008-07-07	7.0	2008-07-07	7.0	7|7|2008	fb:part.7|fb:part.7|fb:part.2008
+88	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+88	1	fb:cell.the_netherlands	The Netherlands	the|netherlands	the|Netherlands	DT|NNP	O|LOCATION	|					
+88	2	fb:cell.european_space_agency_esa_estec_test_centre	European Space Agency (ESA) ESTEC Test Centre	european|space|agency|-lrb-|esa|-rrb-|estec|test|centre	european|Space|Agency|-lrb-|ESA|-rrb-|ESTEC|Test|Centre	JJ|NNP|NNP|-LRB-|NNP|-RRB-|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O	||||||||				European Space Agency (ESA) ESTEC Test Centre	fb:part.european_space_agency_esa_estec_test_centre
+88	3	fb:cell.5_5_x_5_5	5.5 x 5.5	5.5|x|5.5	5.5|x|5.5	CD|CC|CD	NUMBER|O|NUMBER	5.5||5.5	5.5		5.5		
+88	4	fb:cell.22_5	22.5	22.5	22.5	CD	NUMBER	22.5	22.5				
+88	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+88	6	fb:cell._70	±70	±|70	±|70	NN|CD	O|NUMBER	|70.0	70.0			±70	fb:part._70
+88	7	fb:cell._70	±70	±|70	±|70	NN|CD	O|NUMBER	|70.0	70.0			±70	fb:part._70
+88	8	fb:cell._70	±70	±|70	±|70	NN|CD	O|NUMBER	|70.0	70.0			±70	fb:part._70
+88	9	fb:cell._800	±800	±|800	±|800	NN|CD	O|NUMBER	|800.0	800.0			±800	fb:part._800
+88	10	fb:cell._800	±800	±|800	±|800	NN|CD	O|NUMBER	|800.0	800.0			±800	fb:part._800
+88	11	fb:cell._800	±800	±|800	±|800	NN|CD	O|NUMBER	|800.0	800.0			±800	fb:part._800
+88	12	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+88	13	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+88	14	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+88	15	fb:cell.2_100	2-100	2-100	2-100	CD	NUMBER	2.0 - 100.0	2.0		100.0		
+88	16	fb:cell.23_7_2008	23/7/2008	23\\/7\\/2008	23\\/7\\/2008	CD	NUMBER		23.0		7.0	23|7|2008	fb:part.23|fb:part.7|fb:part.2008
+89	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+89	1	fb:cell.portugal	Portugal	portugal	Portugal	NNP	LOCATION						
+89	2	fb:cell.laboratorio_nacional_de_engenharia_civil_lnec	Laboratorio Nacional de Engenharia Civil (LNEC)	laboratorio|nacional|de|engenharia|civil|-lrb-|lnec|-rrb-	Laboratorio|Nacional|de|Engenharia|Civil|-lrb-|LNEC|-rrb-	NNP|NNP|IN|NNP|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O|O|O|O	|||||||				Laboratorio Nacional de Engenharia Civil (LNEC)	fb:part.laboratorio_nacional_de_engenharia_civil_lnec
+89	3	fb:cell.5_6_x_5_6	5.6 x 5.6	5.6|x|5.6	5.6|x|5.6	CD|CC|CD	NUMBER|O|NUMBER	5.6||5.6	5.6		5.6		
+89	4	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+89	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+89	6	fb:cell._175	±175	±|175	±|175	NN|CD	O|NUMBER	|175.0	175.0			±175	fb:part._175
+89	7	fb:cell._175	±175	±|175	±|175	NN|CD	O|NUMBER	|175.0	175.0			±175	fb:part._175
+89	8	fb:cell._175	±175	±|175	±|175	NN|CD	O|NUMBER	|175.0	175.0			±175	fb:part._175
+89	9	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+89	10	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+89	11	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+89	12	fb:cell._18	±18	±|18	±|18	NN|CD	O|NUMBER	|18.0	18.0			±18	fb:part._18
+89	13	fb:cell._11	±11	±|11	±|11	NN|CD	O|NUMBER	|11.0	11.0			±11	fb:part._11
+89	14	fb:cell._6	±6	±|6	±|6	NN|CD	O|NUMBER	|6.0	6.0			±6	fb:part._6
+89	15	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+89	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+90	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+90	1	fb:cell.russia	Russia	russia	Russia	NNP	LOCATION						
+90	2	fb:cell.hydroproject_research_institute	Hydroproject Research Institute	hydroproject|research|institute	Hydroproject|Research|Institute	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Hydroproject Research Institute	fb:part.hydroproject_research_institute
+90	3	fb:cell.5_x_5	5 x 5	5|x|5	5|x|5	CD|CC|CD	NUMBER|O|NUMBER	5.0||5.0	5.0		5.0		
+90	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+90	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+90	6	fb:cell._70	±70	±|70	±|70	NN|CD	O|NUMBER	|70.0	70.0			±70	fb:part._70
+90	7	fb:cell._70	±70	±|70	±|70	NN|CD	O|NUMBER	|70.0	70.0			±70	fb:part._70
+90	8	fb:cell._40	±40	±|40	±|40	RB|CD	O|NUMBER	|40.0	40.0			±40	fb:part._40
+90	9	fb:cell._600	±600	±|600	±|600	NN|CD	O|NUMBER	|600.0	600.0			±600	fb:part._600
+90	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+90	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+90	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+90	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+90	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+90	15	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+90	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+91	1	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+91	2	fb:cell.cedex	CEDEX	cedex	CEDEX	NNP	O					CEDEX	fb:part.cedex
+91	3	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+91	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+92	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+92	1	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+92	2	fb:cell.bogazici_university_1_of_2	Bogazici University (1 of 2)	bogazici|university|-lrb-|1|of|2|-rrb-	Bogazici|University|-lrb-|1|of|2|-rrb-	NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	|||T01:59|T01:59|T01:59|	1.0		2.0	Bogazici University (1 of 2)	fb:part.bogazici_university_1_of_2
+92	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+92	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+92	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+92	6	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+92	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+92	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+92	9	fb:cell._650	±650	±|650	±|650	NN|CD	O|NUMBER	|650.0	650.0			±650	fb:part._650
+92	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+92	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+92	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+92	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+92	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+92	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+92	16	fb:cell.3_3_2008	3/3/2008	3\\/3\\/2008	3\\/3\\/2008	CD	DATE	2008-03-03	3.0	2008-03-03	3.0	3|3|2008	fb:part.3|fb:part.3|fb:part.2008
+93	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+93	1	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+93	2	fb:cell.bogazici_university_2_of_2	Bogazici University (2 of 2)	bogazici|university|-lrb-|2|of|2|-rrb-	Bogazici|University|-lrb-|2|of|2|-rrb-	NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	|||T01:58|T01:58|T01:58|	2.0		2.0	Bogazici University (2 of 2)	fb:part.bogazici_university_2_of_2
+93	3	fb:cell.0_7_x_0_7	0.7 x 0.7	0.7|x|0.7	0.7|x|0.7	CD|CC|CD	NUMBER|O|NUMBER	0.7||0.7	0.7		0.7		
+93	4	fb:cell.0_1	0.1	0.1	0.1	CD	NUMBER	0.1	0.1				
+93	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+93	6	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+93	7	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+93	8	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+93	9	fb:cell._1200	±1200	±|1200	±|1200	SYM|CD	O|DATE	|1200	1200.0			±1200	fb:part._1200
+93	10	fb:cell._1200	±1200	±|1200	±|1200	SYM|CD	O|DATE	|1200	1200.0			±1200	fb:part._1200
+93	11	fb:cell._1200	±1200	±|1200	±|1200	SYM|CD	O|DATE	|1200	1200.0			±1200	fb:part._1200
+93	12	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+93	13	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+93	14	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+93	15	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+93	16	fb:cell.3_3_2008	3/3/2008	3\\/3\\/2008	3\\/3\\/2008	CD	DATE	2008-03-03	3.0	2008-03-03	3.0	3|3|2008	fb:part.3|fb:part.3|fb:part.2008
+94	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+94	1	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+94	2	fb:cell.middle_east_technical_university	Middle East Technical University	middle|east|technical|university	Middle|East|Technical|University	NNP|NNP|NNP|NNP	O|O|O|O	|||				Middle East Technical University	fb:part.middle_east_technical_university
+94	3	fb:cell.2_x_1	2 x 1	2|x|1	2|x|1	CD|CC|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+94	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+94	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+95	0	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION						
+95	1	fb:cell.uk	UK	uk	UK	NNP	LOCATION						
+95	2	fb:cell.university_of_bristol_eerc	University of Bristol (EERC)	university|of|bristol|-lrb-|eerc|-rrb-	University|of|Bristol|-lrb-|EERC|-rrb-	NNP|IN|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	|||||				University of Bristol (EERC)	fb:part.university_of_bristol_eerc
+95	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+95	4	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+95	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+95	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+95	7	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+95	8	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+95	9	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+95	10	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+95	11	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+95	12	fb:cell._60	±60	±|60	±|60	NN|CD	O|NUMBER	|60.0	60.0			±60	fb:part._60
+95	13	fb:cell._60	±60	±|60	±|60	NN|CD	O|NUMBER	|60.0	60.0			±60	fb:part._60
+95	14	fb:cell._60	±60	±|60	±|60	NN|CD	O|NUMBER	|60.0	60.0			±60	fb:part._60
+95	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+95	16	fb:cell.29_2_2008	29/2/2008	29\\/2\\/2008	29\\/2\\/2008	CD	NUMBER		29.0		2.0	29|2|2008	fb:part.29|fb:part.2|fb:part.2008
+96	0	fb:cell.asia	Asia	asia	Asia	NNP	LOCATION						
+96	1	fb:cell.pakistan	Pakistan	pakistan	Pakistan	NNP	LOCATION						
+96	2	fb:cell.earthquake_engineering_center_university_of_engineering_technology_peshawar	Earthquake Engineering Center, University of Engineering & Technology Peshawar	earthquake|engineering|center|,|university|of|engineering|&|technology|peshawar	Earthquake|Engineering|Center|,|University|of|Engineering|&|Technology|Peshawar	NNP|NNP|NNP|,|NNP|IN|NNP|CC|NNP|NNP	O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||				Earthquake Engineering Center|University of Engineering & Technology Peshawar	fb:part.earthquake_engineering_center|fb:part.university_of_engineering_technology_peshawar
+96	3	fb:cell.6_0_x_6_0	6.0 x 6.0	6.0|x|6.0	6.0|x|6.0	CD|CC|CD	NUMBER|O|NUMBER	6.0||6.0	6.0		6.0		
+96	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+96	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+96	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+96	7	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+96	8	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+96	9	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+96	10	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+96	11	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+96	12	fb:cell._14_7	±14.7	±|14.7	±|14.7	NN|CD	O|NUMBER	|14.7	14.7			±14.7	fb:part._14_7
+96	13	fb:cell._14_7	±14.7	±|14.7	±|14.7	NN|CD	O|NUMBER	|14.7	14.7			±14.7	fb:part._14_7
+96	14	fb:cell._14_7	±14.7	±|14.7	±|14.7	NN|CD	O|NUMBER	|14.7	14.7			±14.7	fb:part._14_7
+96	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+96	16	fb:cell.null_3											fb:part.null_3
+97	0	fb:cell.north_america	North America	north|america	North|America	NNP|NNP	LOCATION|LOCATION	|					
+97	1	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+97	2	fb:cell.universidad_nacional_autonoma_de_mexico_unam	Universidad Nacional Autónoma de México (UNAM)	universidad|nacional|autónoma|de|méxico|-lrb-|unam|-rrb-	Universidad|Nacional|Autónoma|de|México|-lrb-|UNAM|-rrb-	NNP|NNP|NNP|IN|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|ORGANIZATION|O	|||||||				Universidad Nacional Autónoma de México (UNAM)	fb:part.universidad_nacional_autonoma_de_mexico_unam
+97	3	fb:cell.4_x_4	4 x 4	4|x|4	4|x|4	CD|CC|CD	NUMBER|O|NUMBER	4.0||4.0	4.0		4.0		
+97	4	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+97	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+97	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+97	7	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+97	8	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+97	9	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+97	10	fb:cell._1100	±1100	±|1100	±|1100	SYM|CD	O|DATE	|1100	1100.0			±1100	fb:part._1100
+97	11	fb:cell._450	±450	±|450	±|450	NN|CD	O|NUMBER	|450.0	450.0			±450	fb:part._450
+97	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+97	13	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+97	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+97	15	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+97	16	fb:cell.10_9_2008	10/9/2008	10\\/9\\/2008	10\\/9\\/2008	CD	DATE	2008-10-09	10.0	2008-10-09	9.0	10|9|2008	fb:part.10|fb:part.9|fb:part.2008
+98	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+98	1	fb:cell.colorado	Colorado	colorado	Colorado	NNP	LOCATION						
+98	2	fb:cell.anco_engineers_inc_boulder_colorado	ANCO Engineers, Inc Boulder, Colorado	anco|engineers|,|inc|boulder|,|colorado	ANCO|Engineers|,|Inc|Boulder|,|Colorado	NNP|NNPS|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION	||||||				ANCO Engineers|Inc Boulder|Colorado	fb:part.anco_engineers|fb:part.inc_boulder|fb:part.colorado
+98	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+98	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+98	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+98	6	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+98	7	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+98	8	fb:cell._200	±200	±|200	±|200	NN|CD	O|NUMBER	|200.0	200.0			±200	fb:part._200
+98	9	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+98	10	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+98	11	fb:cell._2000	±2000	±|2000	±|2000	SYM|CD	O|DATE	|2000	2000.0			±2000	fb:part._2000
+98	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+98	13	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+98	14	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+98	15	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+98	16	fb:cell.16_10_2012	16/10/2012	16\\/10\\/2012	16\\/10\\/2012	CD	NUMBER		16.0		10.0	16|10|2012	fb:part.16|fb:part.10|fb:part.2012
+99	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+99	1	fb:cell.alabama	Alabama	alabama	Alabama	NNP	LOCATION						
+99	2	fb:cell.nasa	NASA	nasa	NASA	NNP	ORGANIZATION					NASA	fb:part.nasa
+99	3	fb:cell.3_x_4_5	3 x 4.5	3|x|4.5	3|x|4.5	CD|CC|CD	NUMBER|O|NUMBER	3.0||4.5	3.0		4.5		
+99	4	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+99	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+99	6	fb:cell._2440	±2440	±|2440	±|2440	SYM|CD	O|DATE	|2440	2440.0			±2440	fb:part._2440
+99	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	9	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+99	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+99	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+100	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+100	1	fb:cell.alabama	Alabama	alabama	Alabama	NNP	LOCATION						
+100	2	fb:cell.wyle_laboratories_1_of_3	Wyle Laboratories (1 of 3)	wyle|laboratories|-lrb-|1|of|3|-rrb-	Wyle|Laboratories|-lrb-|1|of|3|-rrb-	NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	|||T02:59|T02:59|T02:59|	1.0		3.0	Wyle Laboratories (1 of 3)	fb:part.wyle_laboratories_1_of_3
+100	3	fb:cell.6_1_x_5_5	6.1 x 5.5	6.1|x|5.5	6.1|x|5.5	CD|CC|CD	NUMBER|O|NUMBER	6.1||5.5	6.1		5.5		
+100	4	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+100	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+100	6	fb:cell._152	±152	±|152	±|152	NN|CD	O|NUMBER	|152.0	152.0			±152	fb:part._152
+100	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+100	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+100	9	fb:cell._890	±890	±|890	±|890	NN|CD	O|NUMBER	|890.0	890.0			±890	fb:part._890
+100	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+100	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+100	12	fb:cell._60	±60	±|60	±|60	NN|CD	O|NUMBER	|60.0	60.0			±60	fb:part._60
+100	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+100	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+100	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+100	16	fb:cell.16_10_2012	16/10/2012	16\\/10\\/2012	16\\/10\\/2012	CD	NUMBER		16.0		10.0	16|10|2012	fb:part.16|fb:part.10|fb:part.2012
+101	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+101	1	fb:cell.alabama	Alabama	alabama	Alabama	NNP	LOCATION						
+101	2	fb:cell.wyle_laboratories_2_of_3	Wyle Laboratories (2 of 3)	wyle|laboratories|-lrb-|2|of|3|-rrb-	Wyle|Laboratories|-lrb-|2|of|3|-rrb-	NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	|||T02:58|T02:58|T02:58|	2.0		3.0	Wyle Laboratories (2 of 3)	fb:part.wyle_laboratories_2_of_3
+101	3	fb:cell.2_7_x_2_7	2.7 x 2.7	2.7|x|2.7	2.7|x|2.7	CD|CC|CD	NUMBER|O|NUMBER	2.7||2.7	2.7		2.7		
+101	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+101	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+101	6	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+101	7	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+101	8	fb:cell._250	±250	±|250	±|250	NN|CD	O|NUMBER	|250.0	250.0			±250	fb:part._250
+101	9	fb:cell._1120	±1120	±|1120	±|1120	SYM|CD	O|DATE	|1120	1120.0			±1120	fb:part._1120
+101	10	fb:cell._1120	±1120	±|1120	±|1120	SYM|CD	O|DATE	|1120	1120.0			±1120	fb:part._1120
+101	11	fb:cell._1120	±1120	±|1120	±|1120	SYM|CD	O|DATE	|1120	1120.0			±1120	fb:part._1120
+101	12	fb:cell._45	±45	±|45	±|45	NN|CD	O|NUMBER	|45.0	45.0			±45	fb:part._45
+101	13	fb:cell._45	±45	±|45	±|45	NN|CD	O|NUMBER	|45.0	45.0			±45	fb:part._45
+101	14	fb:cell._45	±45	±|45	±|45	NN|CD	O|NUMBER	|45.0	45.0			±45	fb:part._45
+101	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+101	16	fb:cell.16_10_2012	16/10/2012	16\\/10\\/2012	16\\/10\\/2012	CD	NUMBER		16.0		10.0	16|10|2012	fb:part.16|fb:part.10|fb:part.2012
+102	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+102	1	fb:cell.alabama	Alabama	alabama	Alabama	NNP	LOCATION						
+102	2	fb:cell.wyle_laboratories_3_of_3	Wyle Laboratories (3 of 3)	wyle|laboratories|-lrb-|3|of|3|-rrb-	Wyle|Laboratories|-lrb-|3|of|3|-rrb-	NNP|NNP|-LRB-|CD|IN|CD|-RRB-	ORGANIZATION|ORGANIZATION|O|TIME|TIME|TIME|O	|||T02:57|T02:57|T02:57|	3.0		3.0	Wyle Laboratories (3 of 3)	fb:part.wyle_laboratories_3_of_3
+102	3	fb:cell.2_4_x_2_4	2.4 x 2.4	2.4|x|2.4	2.4|x|2.4	CD|CC|CD	NUMBER|O|NUMBER	2.4||2.4	2.4		2.4		
+102	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+102	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+102	6	fb:cell._305	±305	±|305	±|305	NN|CD	O|NUMBER	|305.0	305.0			±305	fb:part._305
+102	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+102	8	fb:cell._228	±228	±|228	±|228	NN|CD	O|NUMBER	|228.0	228.0			±228	fb:part._228
+102	9	fb:cell._1168	±1168	±|1168	±|1168	SYM|CD	O|DATE	|1168	1168.0			±1168	fb:part._1168
+102	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+102	11	fb:cell._838	±838	±|838	±|838	NN|CD	O|NUMBER	|838.0	838.0			±838	fb:part._838
+102	12	fb:cell._70	±70	±|70	±|70	NN|CD	O|NUMBER	|70.0	70.0			±70	fb:part._70
+102	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+102	14	fb:cell._80	±80	±|80	±|80	NN|CD	O|NUMBER	|80.0	80.0			±80	fb:part._80
+102	15	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+102	16	fb:cell.16_10_2012	16/10/2012	16\\/10\\/2012	16\\/10\\/2012	CD	NUMBER		16.0		10.0	16|10|2012	fb:part.16|fb:part.10|fb:part.2012
+103	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+103	1	fb:cell.north_carolina	North Carolina	north|carolina	North|Carolina	NNP|NNP	LOCATION|LOCATION	|					
+103	2	fb:cell.duke_university	Duke University	duke|university	Duke|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Duke University	fb:part.duke_university
+103	3	fb:cell.1_2_x_1_2	1.2 x 1.2	1.2|x|1.2	1.2|x|1.2	CD|CC|CD	NUMBER|O|NUMBER	1.2||1.2	1.2		1.2		
+103	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+103	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+103	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+103	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+103	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+103	9	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+103	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+103	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+103	12	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+103	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+103	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+103	15	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+103	16	fb:cell.15_4_2008	15/4/2008	15\\/4\\/2008	15\\/4\\/2008	CD	NUMBER		15.0		4.0	15|4|2008	fb:part.15|fb:part.4|fb:part.2008
+104	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+104	1	fb:cell.california	California	california	California	NNP	LOCATION						
+104	2	fb:cell.university_of_california_at_berkeley	University of California at Berkeley	university|of|california|at|berkeley	University|of|California|at|Berkeley	NNP|IN|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	||||				University of California at Berkeley	fb:part.university_of_california_at_berkeley
+104	3	fb:cell.6_1_x_6_1	6.1 x 6.1	6.1|x|6.1	6.1|x|6.1	CD|CC|CD	NUMBER|O|NUMBER	6.1||6.1	6.1		6.1		
+104	4	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+104	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+104	6	fb:cell._127	±127	±|127	±|127	NN|CD	O|NUMBER	|127.0	127.0			±127	fb:part._127
+104	7	fb:cell._127	±127	±|127	±|127	NN|CD	O|NUMBER	|127.0	127.0			±127	fb:part._127
+104	8	fb:cell._51	±51	±|51	±|51	NN|CD	O|NUMBER	|51.0	51.0			±51	fb:part._51
+104	9	fb:cell._762	±762	±|762	±|762	NN|CD	O|NUMBER	|762.0	762.0			±762	fb:part._762
+104	10	fb:cell._762	±762	±|762	±|762	NN|CD	O|NUMBER	|762.0	762.0			±762	fb:part._762
+104	11	fb:cell._254	±254	±|254	±|254	NN|CD	O|NUMBER	|254.0	254.0			±254	fb:part._254
+104	12	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+104	13	fb:cell._15	±15	±|15	±|15	NN|CD	O|NUMBER	|15.0	15.0			±15	fb:part._15
+104	14	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+104	15	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+104	16	fb:cell.30_4_2008	30/4/2008	30\\/4\\/2008	30\\/4\\/2008	CD	NUMBER		30.0		4.0	30|4|2008	fb:part.30|fb:part.4|fb:part.2008
+105	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+105	1	fb:cell.california	California	california	California	NNP	LOCATION						
+105	2	fb:cell.california_state_university_fresno	California State University, Fresno	california|state|university|,|fresno	California|State|University|,|Fresno	NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	||||				California State University|Fresno	fb:part.california_state_university|fb:part.fresno
+105	3	fb:cell.2_4_x_2_0	2.4 x 2.0	2.4|x|2.0	2.4|x|2.0	CD|CC|CD	NUMBER|O|NUMBER	2.4||2.0	2.4		2.0		
+105	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+105	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+105	6	fb:cell._125	±125	±|125	±|125	NN|CD	O|NUMBER	|125.0	125.0			±125	fb:part._125
+105	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+105	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+105	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+105	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+105	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+105	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+105	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+105	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+105	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+105	16	fb:cell.19_11_2009	19/11/2009	19\\/11\\/2009	19\\/11\\/2009	CD	NUMBER		19.0		11.0	19|11|2009	fb:part.19|fb:part.11|fb:part.2009
+106	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+106	1	fb:cell.california	California	california	California	NNP	LOCATION						
+106	2	fb:cell.university_of_california_at_san_diego	University of California at San Diego	university|of|california|at|san|diego	University|of|California|at|San|Diego	NNP|IN|NNP|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION	|||||				University of California at San Diego	fb:part.university_of_california_at_san_diego
+106	3	fb:cell.12_2_x_7_6	12.2 x 7.6	12.2|x|7.6	12.2|x|7.6	CD|CC|CD	NUMBER|O|NUMBER	12.2||7.6	12.2		7.6		
+106	4	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+106	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+106	6	fb:cell._750	±750	±|750	±|750	NN|CD	O|NUMBER	|750.0	750.0			±750	fb:part._750
+106	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+106	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+106	9	fb:cell._1800	±1800	±|1800	±|1800	SYM|CD	O|DATE	|1800	1800.0			±1800	fb:part._1800
+106	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+106	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+106	12	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+106	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+106	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+106	15	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+106	16	fb:cell.7_7_2008	7/7/2008	7\\/7\\/2008	7\\/7\\/2008	CD	DATE	2008-07-07	7.0	2008-07-07	7.0	7|7|2008	fb:part.7|fb:part.7|fb:part.2008
+107	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+107	1	fb:cell.connecticut	Connecticut	connecticut	Connecticut	NNP	LOCATION						
+107	2	fb:cell.university_of_connecticut	University of Connecticut	university|of|connecticut	University|of|Connecticut	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				University of Connecticut	fb:part.university_of_connecticut
+107	3	fb:cell.1_5_x_1_5	1.5 x 1.5	1.5|x|1.5	1.5|x|1.5	CD|CC|CD	NUMBER|O|NUMBER	1.5||1.5	1.5		1.5		
+107	4	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+107	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+107	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+107	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+107	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+107	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+107	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+107	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+107	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+107	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+107	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+107	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+107	16	fb:cell.8_5_2008	8/5/2008	8\\/5\\/2008	8\\/5\\/2008	CD	DATE	2008-08-05	8.0	2008-08-05	5.0	8|5|2008	fb:part.8|fb:part.5|fb:part.2008
+108	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+108	1	fb:cell.illinois	Illinois	illinois	Illinois	NNP	LOCATION						
+108	2	fb:cell.university_of_illinois_at_urbana_champaign	University of Illinois at Urbana / Champaign	university|of|illinois|at|urbana|\\/|champaign	University|of|Illinois|at|Urbana|\\/|Champaign	NNP|IN|NNP|IN|NNP|:|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|LOCATION	||||||				University of Illinois at Urbana|Champaign	fb:part.university_of_illinois_at_urbana|fb:part.champaign
+108	3	fb:cell.3_7_x_3_7	3.7 x 3.7	3.7|x|3.7	3.7|x|3.7	CD|CC|CD	NUMBER|O|NUMBER	3.7||3.7	3.7		3.7		
+108	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+108	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+108	6	fb:cell._50	±50	±|50	±|50	NN|CD	O|NUMBER	|50.0	50.0			±50	fb:part._50
+108	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+108	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+108	9	fb:cell._381	±381	±|381	±|381	NN|CD	O|NUMBER	|381.0	381.0			±381	fb:part._381
+108	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+108	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+108	12	fb:cell._30	±30	±|30	±|30	NN|CD	O|NUMBER	|30.0	30.0			±30	fb:part._30
+108	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+108	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+108	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+108	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+109	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+109	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+109	2	fb:cell.university_at_buffalo_state_university_of_new_york_2_identical_tables_of_3	University at Buffalo (State University of New York) (2 identical tables of 3)	university|at|buffalo|-lrb-|state|university|of|new|york|-rrb-|-lrb-|2|identical|tables|of|3|-rrb-	University|at|Buffalo|-lrb-|State|University|of|New|York|-rrb-|-lrb-|2|identical|table|of|3|-rrb-	NNP|IN|NNP|-LRB-|NNP|NNP|IN|NNP|NNP|-RRB-|-LRB-|CD|JJ|NNS|IN|CD|-RRB-	O|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|NUMBER|O|O|O|NUMBER|O	|||||||||||2.0||||3.0|	2.0		3.0	University at Buffalo (State University of New York) (2 identical tables of 3)	fb:part.university_at_buffalo_state_university_of_new_york_2_identical_tables_of_3
+109	3	fb:cell.3_6_x_3_6	3.6 x 3.6	3.6|x|3.6	3.6|x|3.6	CD|CC|CD	NUMBER|O|NUMBER	3.6||3.6	3.6		3.6		
+109	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+109	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+109	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+109	7	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+109	8	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+109	9	fb:cell._1250	±1250	±|1250	±|1250	SYM|CD	O|DATE	|1250	1250.0			±1250	fb:part._1250
+109	10	fb:cell._1250	±1250	±|1250	±|1250	SYM|CD	O|DATE	|1250	1250.0			±1250	fb:part._1250
+109	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+109	12	fb:cell._12	±12	±|12	±|12	NN|CD	O|NUMBER	|12.0	12.0			±12	fb:part._12
+109	13	fb:cell._12	±12	±|12	±|12	NN|CD	O|NUMBER	|12.0	12.0			±12	fb:part._12
+109	14	fb:cell._12	±12	±|12	±|12	NN|CD	O|NUMBER	|12.0	12.0			±12	fb:part._12
+109	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+109	16	fb:cell.12_3_2008	12/3/2008	12\\/3\\/2008	12\\/3\\/2008	CD	DATE	2008-12-03	12.0	2008-12-03	3.0	12|3|2008	fb:part.12|fb:part.3|fb:part.2008
+110	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+110	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+110	2	fb:cell.university_at_buffalo_state_university_of_new_york_3_of_3	University at Buffalo (State University of New York) (3 of 3)	university|at|buffalo|-lrb-|state|university|of|new|york|-rrb-|-lrb-|3|of|3|-rrb-	University|at|Buffalo|-lrb-|State|University|of|New|York|-rrb-|-lrb-|3|of|3|-rrb-	NNP|IN|NNP|-LRB-|NNP|NNP|IN|NNP|NNP|-RRB-|-LRB-|CD|IN|CD|-RRB-	O|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|TIME|TIME|TIME|O	|||||||||||T02:57|T02:57|T02:57|	3.0		3.0	University at Buffalo (State University of New York) (3 of 3)	fb:part.university_at_buffalo_state_university_of_new_york_3_of_3
+110	3	fb:cell.3_7_x_3_7	3.7 x 3.7	3.7|x|3.7	3.7|x|3.7	CD|CC|CD	NUMBER|O|NUMBER	3.7||3.7	3.7		3.7		
+110	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+110	5	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+110	6	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+110	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+110	8	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+110	9	fb:cell._762	±762	±|762	±|762	NN|CD	O|NUMBER	|762.0	762.0			±762	fb:part._762
+110	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+110	11	fb:cell._500	±500	±|500	±|500	NN|CD	O|NUMBER	|500.0	500.0			±500	fb:part._500
+110	12	fb:cell._12	±12	±|12	±|12	NN|CD	O|NUMBER	|12.0	12.0			±12	fb:part._12
+110	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+110	14	fb:cell._23	±23	±|23	±|23	NN|CD	O|NUMBER	|23.0	23.0			±23	fb:part._23
+110	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+110	16	fb:cell.12_3_2008	12/3/2008	12\\/3\\/2008	12\\/3\\/2008	CD	DATE	2008-12-03	12.0	2008-12-03	3.0	12|3|2008	fb:part.12|fb:part.3|fb:part.2008
+111	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+111	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+111	2	fb:cell.rensselaer_polytechnic_institute	Rensselaer Polytechnic Institute	rensselaer|polytechnic|institute	Rensselaer|Polytechnic|Institute	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Rensselaer Polytechnic Institute	fb:part.rensselaer_polytechnic_institute
+111	3	fb:cell.1_7_x_2_6	1.7 x 2.6	1.7|x|2.6	1.7|x|2.6	CD|CC|CD	NUMBER|O|NUMBER	1.7||2.6	1.7		2.6		
+111	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+111	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+111	6	fb:cell._130	±130	±|130	±|130	NN|CD	O|NUMBER	|130.0	130.0			±130	fb:part._130
+111	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+111	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+111	9	fb:cell._270	±270	±|270	±|270	NN|CD	O|NUMBER	|270.0	270.0			±270	fb:part._270
+111	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+111	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+111	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+111	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+111	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+111	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+111	16	fb:cell.8_5_2008	8/5/2008	8\\/5\\/2008	8\\/5\\/2008	CD	DATE	2008-08-05	8.0	2008-08-05	5.0	8|5|2008	fb:part.8|fb:part.5|fb:part.2008
+112	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+112	1	fb:cell.nevada	Nevada	nevada	Nevada	NNP	LOCATION						
+112	2	fb:cell.university_of_nevada_at_reno_3_identical_biaxial_tables	University of Nevada at Reno (3 identical biaxial tables)	university|of|nevada|at|reno|-lrb-|3|identical|biaxial|tables|-rrb-	University|of|Nevada|at|Reno|-lrb-|3|identical|biaxial|table|-rrb-	NNP|IN|NNP|IN|NNP|-LRB-|CD|JJ|JJ|NNS|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|NUMBER|O|O|O|O	||||||3.0||||	3.0			University of Nevada at Reno (3 identical biaxial tables)	fb:part.university_of_nevada_at_reno_3_identical_biaxial_tables
+112	3	fb:cell.4_3_x_4_5	4.3 x 4.5	4.3|x|4.5	4.3|x|4.5	CD|CC|CD	NUMBER|O|NUMBER	4.3||4.5	4.3		4.5		
+112	4	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+112	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+112	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+112	7	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+112	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+112	9	fb:cell._1270	±1270	±|1270	±|1270	SYM|CD	O|DATE	|1270	1270.0			±1270	fb:part._1270
+112	10	fb:cell._1270	±1270	±|1270	±|1270	SYM|CD	O|DATE	|1270	1270.0			±1270	fb:part._1270
+112	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+112	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+112	13	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+112	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+112	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+112	16	fb:cell.8_2_2010	8/2/2010	8\\/2\\/2010	8\\/2\\/2010	CD	DATE	2010-08-02	8.0	2010-08-02	2.0	8|2|2010	fb:part.8|fb:part.2|fb:part.2010
+113	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+113	1	fb:cell.nevada	Nevada	nevada	Nevada	NNP	LOCATION						
+113	2	fb:cell.university_of_nevada_at_reno_6_axis_table	University of Nevada at Reno (6 axis table)	university|of|nevada|at|reno|-lrb-|6|axis|table|-rrb-	University|of|Nevada|at|Reno|-lrb-|6|axis|table|-rrb-	NNP|IN|NNP|IN|NNP|-LRB-|CD|NN|NN|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|NUMBER|O|O|O	||||||6.0|||	6.0			University of Nevada at Reno (6 axis table)	fb:part.university_of_nevada_at_reno_6_axis_table
+113	3	fb:cell.2_75_x_2_75	2.75 x 2.75	2.75|x|2.75	2.75|x|2.75	CD|CC|CD	NUMBER|O|NUMBER	2.75||2.75	2.75		2.75		
+113	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+113	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+113	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+113	7	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+113	8	fb:cell._100	±100	±|100	±|100	NN|CD	O|NUMBER	|100.0	100.0			±100	fb:part._100
+113	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+113	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+113	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+113	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+113	13	fb:cell._40	±40	±|40	±|40	RB|CD	O|NUMBER	|40.0	40.0			±40	fb:part._40
+113	14	fb:cell._10	±10	±|10	±|10	NN|CD	O|NUMBER	|10.0	10.0			±10	fb:part._10
+113	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+113	16	fb:cell.13_3_2008	13/3/2008	13\\/3\\/2008	13\\/3\\/2008	CD	NUMBER		13.0		3.0	13|3|2008	fb:part.13|fb:part.3|fb:part.2008
+114	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+114	1	fb:cell.nevada	Nevada	nevada	Nevada	NNP	LOCATION						
+114	2	fb:cell.dynamic_certification_laboratories	Dynamic Certification Laboratories	dynamic|certification|laboratories	Dynamic|Certification|Laboratories	NNP|NNP|NNPS	O|O|O	||				Dynamic Certification Laboratories	fb:part.dynamic_certification_laboratories
+114	3	fb:cell.2_0_diameter	2.0 diameter	2.0|diameter	2.0|diameter	CD|NN	NUMBER|O	2.0|	2.0				
+114	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+114	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+114	6	fb:cell._140	±140	±|140	±|140	NN|CD	O|NUMBER	|140.0	140.0			±140	fb:part._140
+114	7	fb:cell._120	±120	±|120	±|120	NN|CD	O|NUMBER	|120.0	120.0			±120	fb:part._120
+114	8	fb:cell._150	±150	±|150	±|150	NN|CD	O|NUMBER	|150.0	150.0			±150	fb:part._150
+114	9	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+114	10	fb:cell._1000	±1000	±|1000	±|1000	SYM|CD	O|DATE	|1000	1000.0			±1000	fb:part._1000
+114	11	fb:cell._1200	±1200	±|1200	±|1200	SYM|CD	O|DATE	|1200	1200.0			±1200	fb:part._1200
+114	12	fb:cell._98	±98	±|98	±|98	NN|CD	O|NUMBER	|98.0	98.0			±98	fb:part._98
+114	13	fb:cell._98	±98	±|98	±|98	NN|CD	O|NUMBER	|98.0	98.0			±98	fb:part._98
+114	14	fb:cell._108	±108	±|108	±|108	NN|CD	O|NUMBER	|108.0	108.0			±108	fb:part._108
+114	15	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+114	16	fb:cell.17_7_2012	17/7/2012	17\\/7\\/2012	17\\/7\\/2012	NN	O		17.0		7.0	17|7|2012	fb:part.17|fb:part.7|fb:part.2012
+115	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+115	1	fb:cell.texas	Texas	texas	Texas	NNP	LOCATION						
+115	2	fb:cell.rice_university	Rice University	rice|university	Rice|University	NNP|NNP	O|O	|				Rice University	fb:part.rice_university
+115	3	fb:cell.0_465m	0.465m²	0.465|m|²	0.465|m|²	CD|NN|NN	NUMBER|O|O	0.465||	0.465				
+115	4	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+115	5	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+115	6	fb:cell._75	±75	±|75	±|75	NN|CD	O|NUMBER	|75.0	75.0			±75	fb:part._75
+115	7	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+115	8	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+115	9	fb:cell._1400	±1400	±|1400	±|1400	SYM|CD	O|DATE	|1400	1400.0			±1400	fb:part._1400
+115	10	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+115	11	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+115	12	fb:cell._20	±20	±|20	±|20	RB|CD	O|NUMBER	|20.0	20.0			±20	fb:part._20
+115	13	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+115	14	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+115	15	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+115	16	fb:cell.8_5_2008	8/5/2008	8\\/5\\/2008	8\\/5\\/2008	CD	DATE	2008-08-05	8.0	2008-08-05	5.0	8|5|2008	fb:part.8|fb:part.5|fb:part.2008
+116	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+116	1	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+116	2	fb:cell.civil_engineering_research_lab_u_s_army	Civil Engineering Research Lab U.S. Army	civil|engineering|research|lab|u.s.|army	civil|Engineering|Research|Lab|U.S.|Army	JJ|NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Civil Engineering Research Lab U.S. Army	fb:part.civil_engineering_research_lab_u_s_army
+116	3	fb:cell.3_6_x_3_6	3.6 x 3.6	3.6|x|3.6	3.6|x|3.6	CD|CC|CD	NUMBER|O|NUMBER	3.6||3.6	3.6		3.6		
+116	4	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+116	5	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+116	6	fb:cell._300	±300	±|300	±|300	NN|CD	O|NUMBER	|300.0	300.0			±300	fb:part._300
+116	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+116	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+116	9	fb:cell._1300	±1300	±|1300	±|1300	SYM|CD	O|DATE	|1300	1300.0			±1300	fb:part._1300
+116	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+116	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+116	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+116	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+116	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+116	15	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+116	16	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	0	fb:cell.usa	USA	usa	USA	NNP	LOCATION						
+117	1	fb:cell.virginia	Virginia	virginia	Virginia	NNP	LOCATION						
+117	2	fb:cell.the_george_washington_university_virginia_campus	The George Washington University - Virginia Campus	the|george|washington|university|-|virginia|campus	the|George|Washington|University|-|Virginia|Campus	DT|NNP|NNP|NNP|:|NNP|NNP	O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION	||||||				The George Washington University - Virginia Campus	fb:part.the_george_washington_university_virginia_campus
+117	3	fb:cell.3_x_3	3 x 3	3|x|3	3|x|3	CD|CC|CD	NUMBER|O|NUMBER	3.0||3.0	3.0		3.0		
+117	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	5	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+117	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	7	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	9	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	10	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	11	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	12	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	13	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	14	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	15	fb:cell.null	?	?	?	.	O					?	fb:part.null
+117	16	fb:cell.null	?	?	?	.	O					?	fb:part.null

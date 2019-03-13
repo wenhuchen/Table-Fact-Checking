@@ -1,0 +1,73 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.state	State	state	state	NN	O						
+-1	1	fb:row.row.membership	Membership	membership	membership	NN	O						
+-1	2	fb:row.row.parliament	Parliament	parliament	Parliament	NNP	O						
+-1	3	fb:row.row.membership_status	Membership status	membership|status	membership|status	NN|NN	O|O	|					
+-1	4	fb:row.row.represented_since	Represented since	represented|since	represent|since	VBN|IN	O|O	|					
+-1	5	fb:row.row.members	Members	members	member	NNS	O						
+0	0	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+0	1	fb:cell.full	Full	full	full	JJ	O						
+0	2	fb:cell.the_folketing	The Folketing	the|folketing	the|folketing	DT|NN	O|O	|					
+0	3	fb:cell.sovereign_state	Sovereign state	sovereign|state	sovereign|state	JJ|NN	O|O	|					
+0	4	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+0	5	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+1	0	fb:cell.iceland	Iceland	iceland	Iceland	NNP	LOCATION						
+1	1	fb:cell.full	Full	full	full	JJ	O						
+1	2	fb:cell.al_ingi	Alþingi	alþingi	Alþingi	NNP	PERSON						
+1	3	fb:cell.sovereign_state	Sovereign state	sovereign|state	sovereign|state	JJ|NN	O|O	|					
+1	4	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+1	5	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+2	0	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+2	1	fb:cell.full	Full	full	full	JJ	O						
+2	2	fb:cell.the_storting	The Storting	the|storting	the|Storting	DT|NNP	O|O	|					
+2	3	fb:cell.sovereign_state	Sovereign state	sovereign|state	sovereign|state	JJ|NN	O|O	|					
+2	4	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+2	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+3	0	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+3	1	fb:cell.full	Full	full	full	JJ	O						
+3	2	fb:cell.the_riksdag	The Riksdag	the|riksdag	the|Riksdag	DT|NNP	O|O	|					
+3	3	fb:cell.sovereign_state	Sovereign state	sovereign|state	sovereign|state	JJ|NN	O|O	|					
+3	4	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+3	5	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+4	0	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+4	1	fb:cell.full	Full	full	full	JJ	O						
+4	2	fb:cell.eduskunta	Eduskunta	eduskunta	Eduskunta	NNP	O						
+4	3	fb:cell.sovereign_state	Sovereign state	sovereign|state	sovereign|state	JJ|NN	O|O	|					
+4	4	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+4	5	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+5	0	fb:cell.greenland	Greenland	greenland	Greenland	NNP	LOCATION						
+5	1	fb:cell.associate	Associate	associate	associate	JJ	O						
+5	2	fb:cell.landsting	Landsting	landsting	landst	VBG	O						
+5	3	fb:cell.self_governing_region_of_the_danish_realm	Self-governing region of the Danish Realm	self|governing|region|of|the|danish|realm	self|governing|region|of|the|danish|realm	NN|NN|NN|IN|DT|JJ|NN	O|O|O|O|O|MISC|MISC	||||||					
+5	4	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+5	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+6	0	fb:cell.faroe_islands	Faroe Islands	faroe|islands	Faroe|Islands	NNP|NNPS	LOCATION|LOCATION	|					
+6	1	fb:cell.associate	Associate	associate	associate	JJ	O						
+6	2	fb:cell.l_gting	Løgting	løgting	løgting	VBG	O						
+6	3	fb:cell.self_governing_region_of_the_danish_realm	Self-governing region of the Danish Realm	self|governing|region|of|the|danish|realm	self|governing|region|of|the|danish|realm	NN|NN|NN|IN|DT|JJ|NN	O|O|O|O|O|MISC|MISC	||||||					
+6	4	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+6	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+7	0	fb:cell.aland_islands	Åland Islands	åland|islands	Åland|Islands	NNP|NNPS	LOCATION|LOCATION	|					
+7	1	fb:cell.associate	Associate	associate	associate	JJ	O						
+7	2	fb:cell.lagting	Lagting	lagting	lagting	NN	O						
+7	3	fb:cell.self_governing_region_of_finland	Self-governing region of Finland	self|governing|region|of|finland	self|governing|region|of|Finland	NN|NN|NN|IN|NNP	O|O|O|O|LOCATION	||||					
+7	4	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+7	5	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+8	0	fb:cell.estonia	Estonia	estonia	Estonia	NNP	LOCATION						
+8	1	fb:cell.observers	Observers	observers	observer	NNS	O						
+8	2	fb:cell.null											
+8	3	fb:cell.null											
+8	4	fb:cell.null											
+8	5	fb:cell.null											
+9	0	fb:cell.latvia	Latvia	latvia	Latvia	NNP	LOCATION						
+9	1	fb:cell.observers	Observers	observers	observer	NNS	O						
+9	2	fb:cell.null											
+9	3	fb:cell.null											
+9	4	fb:cell.null											
+9	5	fb:cell.null											
+10	0	fb:cell.lithuania	Lithuania	lithuania	Lithuania	NNP	LOCATION						
+10	1	fb:cell.observers	Observers	observers	observer	NNS	O						
+10	2	fb:cell.null											
+10	3	fb:cell.null											
+10	4	fb:cell.null											
+10	5	fb:cell.null											

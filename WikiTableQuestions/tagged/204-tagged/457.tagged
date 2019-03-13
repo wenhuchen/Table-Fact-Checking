@@ -1,0 +1,506 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.ship_name	Ship Name	ship|name	ship|name	NN|VB	O|O	|					
+-1	1	fb:row.row.desig	Desig	desig	desig	NN	O						
+-1	2	fb:row.row.status	Status	status	status	NN	O						
+-1	3	fb:row.row.notes	Notes	notes	note	NNS	O						
+-1	4	fb:row.row.links	Links	links	Links	NNP	O						
+0	0	fb:cell.pennsylvania	Pennsylvania	pennsylvania	Pennsylvania	NNP	LOCATION						
+0	1	fb:cell.bb_38	BB-38	bb-38	bb-38	NN	O		38.0				
+0	2	fb:cell.damaged	Damaged	damaged	damage	VBN	O					Damaged	fb:part.damaged
+0	3	fb:cell.in_drydock_no_1_with_cassin_and_downes_three_propeller_shafts_removed	in drydock No. 1, with Cassin and Downes. Three propeller shafts removed.	in|drydock|no.|1|,|with|cassin|and|downes|.|three|propeller|shafts|removed|.	in|drydock|no.|1|,|with|Cassin|and|Downes|.|three|propeller|shaft|remove|.	IN|NN|NN|CD|,|IN|NNP|CC|NNP|.|CD|NN|NNS|VBD|.	O|O|O|NUMBER|O|O|PERSON|O|PERSON|O|NUMBER|O|O|O|O	|||1.0|||||||3.0||||	0.1			in drydock No. 1|with Cassin and Downes. Three propeller shafts removed.	fb:part.in_drydock_no_1|fb:part.with_cassin_and_downes_three_propeller_shafts_removed
+0	4	fb:cell._1	[1]	-lsb-|1|-rsb-	-lsb-|1|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|1.0|	1.0				
+1	0	fb:cell.arizona	Arizona	arizona	Arizona	NNP	LOCATION						
+1	1	fb:cell.bb_39	BB-39	bb-39	bb-39	NN	O		39.0				
+1	2	fb:cell.sunk_total_loss	Sunk, total loss	sunk|,|total|loss	Sunk|,|total|loss	NNP|,|JJ|NN	O|O|O|O	|||				Sunk|total loss	fb:part.sunk|fb:part.total_loss
+1	3	fb:cell.moored_battleship_row_berth_f_7_forward_of_nevada_aft_of_tennessee	Moored Battleship row, berth F-7 forward of Nevada aft of Tennessee	moored|battleship|row|,|berth|f-7|forward|of|nevada|aft|of|tennessee	Moored|Battleship|row|,|berth|f-7|forward|of|Nevada|aft|of|Tennessee	NNP|NNP|NN|,|VBP|NN|RB|IN|NNP|NN|IN|NNP	O|O|O|O|O|O|O|O|LOCATION|O|O|LOCATION	|||||||||||	7.0			Moored Battleship row|berth F-7 forward of Nevada aft of Tennessee	fb:part.moored_battleship_row|fb:part.berth_f_7_forward_of_nevada_aft_of_tennessee
+1	4	fb:cell._2	[2]	-lsb-|2|-rsb-	-lsb-|2|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|2.0|	2.0				
+2	0	fb:cell.nevada	Nevada	nevada	Nevada	NNP	LOCATION						
+2	1	fb:cell.bb_36	BB-36	bb-36	bb-36	NN	O		36.0				
+2	2	fb:cell.seriously_damaged_beached_at_hospital_point	Seriously damaged, beached at Hospital Point	seriously|damaged|,|beached|at|hospital|point	seriously|damage|,|beach|at|Hospital|Point	RB|VBN|,|VBN|IN|NNP|NNP	O|O|O|O|O|LOCATION|LOCATION	||||||				Seriously damaged|beached at Hospital Point	fb:part.seriously_damaged|fb:part.beached_at_hospital_point
+2	3	fb:cell.moored_aft_of_arizona_at_berth_f_8	Moored aft of Arizona at berth F-8	moored|aft|of|arizona|at|berth|f-8	moor|aft|of|Arizona|at|berth|f-8	VBN|NN|IN|NNP|IN|VBP|NN	O|O|O|LOCATION|O|O|O	||||||	8.0			Moored aft of Arizona at berth F-8	fb:part.moored_aft_of_arizona_at_berth_f_8
+2	4	fb:cell._3	[3]	-lsb-|3|-rsb-	-lsb-|3|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|3.0|	3.0				
+3	0	fb:cell.oklahoma	Oklahoma	oklahoma	Oklahoma	NNP	LOCATION						
+3	1	fb:cell.bb_37	BB-37	bb-37	bb-37	NN	O		37.0				
+3	2	fb:cell.sunk_total_loss	Sunk, total loss	sunk|,|total|loss	Sunk|,|total|loss	NNP|,|JJ|NN	O|O|O|O	|||				Sunk|total loss	fb:part.sunk|fb:part.total_loss
+3	3	fb:cell.moored_battleship_row_outboard_of_maryland_at_berth_f_5_forward_of_west_virginia	Moored Battleship row, outboard of Maryland at berth F-5, forward of West Virginia	moored|battleship|row|,|outboard|of|maryland|at|berth|f-5|,|forward|of|west|virginia	Moored|Battleship|row|,|outboard|of|Maryland|at|berth|f-5|,|forward|of|West|Virginia	NNP|NNP|NN|,|NN|IN|NNP|IN|VBP|NN|,|RB|IN|NNP|NNP	O|O|O|O|O|O|LOCATION|O|O|O|O|O|O|LOCATION|LOCATION	||||||||||||||	5.0			Moored Battleship row|outboard of Maryland at berth F-5|forward of West Virginia	fb:part.moored_battleship_row|fb:part.outboard_of_maryland_at_berth_f_5|fb:part.forward_of_west_virginia
+3	4	fb:cell._4	[4]	-lsb-|4|-rsb-	-lsb-|4|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|4.0|	4.0				
+4	0	fb:cell.tennessee	Tennessee	tennessee	Tennessee	NNP	LOCATION						
+4	1	fb:cell.bb_43	BB-43	bb-43	bb-43	NN	O		43.0				
+4	2	fb:cell.relatively_minor_damage_repaired_by_february_1942	Relatively minor damage, repaired by February 1942	relatively|minor|damage|,|repaired|by|february|1942	relatively|minor|damage|,|repair|by|February|1942	RB|JJ|NN|,|VBN|IN|NNP|CD	O|O|O|O|O|O|DATE|DATE	||||||1942-02|1942-02	1942.0			Relatively minor damage|repaired by February 1942	fb:part.relatively_minor_damage|fb:part.repaired_by_february_1942
+4	3	fb:cell.moored_starboard_side_to_berth_f_6_next_to_west_virginia_and_forward_of_arizona	Moored starboard side to berth F-6, next to West Virginia and forward of Arizona	moored|starboard|side|to|berth|f-6|,|next|to|west|virginia|and|forward|of|arizona	moor|starboard|side|to|berth|F-6|,|next|to|West|Virginia|and|forward|of|Arizona	VBN|JJ|NN|TO|VB|NNP|,|JJ|TO|NNP|NNP|CC|RB|IN|NNP	O|O|O|O|O|O|O|O|O|LOCATION|LOCATION|O|O|O|LOCATION	||||||||||||||	6.0			Moored starboard side to berth F-6|next to West Virginia and forward of Arizona	fb:part.moored_starboard_side_to_berth_f_6|fb:part.next_to_west_virginia_and_forward_of_arizona
+4	4	fb:cell._5	[5]	-lsb-|5|-rsb-	-lsb-|5|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|5.0|	5.0				
+5	0	fb:cell.california	California	california	California	NNP	LOCATION						
+5	1	fb:cell.bb_44	BB-44	bb-44	bb-44	NN	O		44.0				
+5	2	fb:cell.sunk_floated_rebuilt_by_january_1944	Sunk, floated, rebuilt by January 1944	sunk|,|floated|,|rebuilt|by|january|1944	Sunk|,|float|,|rebuild|by|January|1944	NNP|,|VBN|,|VBN|IN|NNP|CD	O|O|O|O|O|O|DATE|DATE	||||||1944-01|1944-01	1944.0			Sunk|floated|rebuilt by January 1944	fb:part.sunk|fb:part.floated|fb:part.rebuilt_by_january_1944
+5	3	fb:cell.moored_starboard_side_to_at_berth_f_3	Moored starboard side to, at berth F-3.	moored|starboard|side|to|,|at|berth|f-3|.	moor|starboard|side|to|,|at|berth|f-3|.	VBN|JJ|NN|TO|,|IN|VBP|NN|.	O|O|O|O|O|O|O|O|O	||||||||	3.0			Moored starboard side to|at berth F-3.	fb:part.moored_starboard_side_to|fb:part.at_berth_f_3
+5	4	fb:cell._6	[6]	-lsb-|6|-rsb-	-lsb-|6|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|6.0|	6.0				
+6	0	fb:cell.maryland	Maryland	maryland	Maryland	NNP	LOCATION						
+6	1	fb:cell.bb_46	BB-46	bb-46	bb-46	NN	O		46.0				
+6	2	fb:cell.damaged_two_bomb_hits_repaired_by_february_26_1942	Damaged, two bomb hits, repaired by February 26, 1942	damaged|,|two|bomb|hits|,|repaired|by|february|26|,|1942	damage|,|two|bomb|hit|,|repair|by|February|26|,|1942	VBN|,|CD|NN|NNS|,|VBN|IN|NNP|CD|,|CD	O|O|NUMBER|O|O|O|O|O|DATE|DATE|DATE|DATE	||2.0||||||1942-02-26|1942-02-26|1942-02-26|1942-02-26	261942.0			Damaged|two bomb hits|repaired by February 26|1942	fb:part.damaged|fb:part.two_bomb_hits|fb:part.repaired_by_february_26|fb:part.1942
+6	3	fb:cell.moored_on_battleship_row_inboard_of_oklahoma_at_berth_f_5_forward_of_tennessee	Moored on Battleship row, inboard of Oklahoma at berth F-5, forward of Tennessee	moored|on|battleship|row|,|inboard|of|oklahoma|at|berth|f-5|,|forward|of|tennessee	moor|on|battleship|row|,|inboard|of|Oklahoma|at|berth|f-5|,|forward|of|Tennessee	VBN|IN|NN|NN|,|NN|IN|NNP|IN|VBP|NN|,|RB|IN|NNP	O|O|MISC|O|O|O|O|LOCATION|O|O|O|O|O|O|LOCATION	||||||||||||||	5.0			Moored on Battleship row|inboard of Oklahoma at berth F-5|forward of Tennessee	fb:part.moored_on_battleship_row|fb:part.inboard_of_oklahoma_at_berth_f_5|fb:part.forward_of_tennessee
+6	4	fb:cell._7	[7]	-lsb-|7|-rsb-	-lsb-|7|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|7.0|	7.0				
+7	0	fb:cell.west_virginia	West Virginia	west|virginia	West|Virginia	NNP|NNP	LOCATION|LOCATION	|					
+7	1	fb:cell.bb_48	BB-48	bb-48	bb-48	NN	O		48.0				
+7	2	fb:cell.sunk_floated_rebuilt_by_july_1944	Sunk, floated, rebuilt by July 1944	sunk|,|floated|,|rebuilt|by|july|1944	Sunk|,|float|,|rebuild|by|July|1944	NNP|,|VBN|,|VBN|IN|NNP|CD	O|O|O|O|O|O|DATE|DATE	||||||1944-07|1944-07	1944.0			Sunk|floated|rebuilt by July 1944	fb:part.sunk|fb:part.floated|fb:part.rebuilt_by_july_1944
+7	3	fb:cell.moored_outboard_of_tennessee_at_berth_f_6_forward_of_arizona	Moored outboard of Tennessee at berth F-6, forward of Arizona	moored|outboard|of|tennessee|at|berth|f-6|,|forward|of|arizona	moor|outboard|of|Tennessee|at|berth|f-6|,|forward|of|Arizona	VBN|NN|IN|NNP|IN|VBP|NN|,|RB|IN|NNP	O|O|O|LOCATION|O|O|O|O|O|O|LOCATION	||||||||||	6.0			Moored outboard of Tennessee at berth F-6|forward of Arizona	fb:part.moored_outboard_of_tennessee_at_berth_f_6|fb:part.forward_of_arizona
+7	4	fb:cell._8	[8]	-lsb-|8|-rsb-	-lsb-|8|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|8.0|	8.0				
+8	0	fb:cell.new_orleans	New Orleans	new|orleans	New|Orleans	NNP|NNP	LOCATION|LOCATION	|					
+8	1	fb:cell.ca_32	CA-32	ca-32	ca-32	NN	O		32.0				
+8	2	fb:cell.minor_damage	Minor damage	minor|damage	minor|damage	JJ|NN	O|O	|				Minor damage	fb:part.minor_damage
+8	3	fb:cell.moored_at_berth_b_16_navy_yard_pearl_harbor_undergoing_engine_repairs	Moored at Berth B-16, Navy Yard Pearl Harbor undergoing engine repairs	moored|at|berth|b-16|,|navy|yard|pearl|harbor|undergoing|engine|repairs	moor|at|Berth|B-16|,|Navy|Yard|Pearl|Harbor|undergo|engine|repair	VBN|IN|NNP|NNP|,|NNP|NNP|NNP|NNP|VBG|NN|NNS	O|O|O|O|O|ORGANIZATION|ORGANIZATION|LOCATION|LOCATION|O|O|O	|||||||||||	16.0			Moored at Berth B-16|Navy Yard Pearl Harbor undergoing engine repairs	fb:part.moored_at_berth_b_16|fb:part.navy_yard_pearl_harbor_undergoing_engine_repairs
+8	4	fb:cell._9	[9]	-lsb-|9|-rsb-	-lsb-|9|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|9.0|	9.0				
+9	0	fb:cell.san_francisco	San Francisco	san|francisco	San|Francisco	NNP|NNP	LOCATION|LOCATION	|					
+9	1	fb:cell.ca_38	CA-38	ca-38	ca-38	NN	O		38.0				
+9	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+9	3	fb:cell.under_overhaul_at_the_pearl_harbor_navy_yard_berth_b_17	Under overhaul at the Pearl Harbor Navy Yard berth B-17	under|overhaul|at|the|pearl|harbor|navy|yard|berth|b-17	under|overhaul|at|the|Pearl|Harbor|Navy|Yard|berth|b-17	IN|NN|IN|DT|NNP|NNP|NNP|NNP|VBP|NN	O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	|||||||||	17.0			Under overhaul at the Pearl Harbor Navy Yard berth B-17	fb:part.under_overhaul_at_the_pearl_harbor_navy_yard_berth_b_17
+9	4	fb:cell._10	[10]	-lsb-|10|-rsb-	-lsb-|10|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|10.0|	10.0				
+10	0	fb:cell.raleigh	Raleigh	raleigh	Raleigh	NNP	LOCATION						
+10	1	fb:cell.cl_7	CL-7	cl-7	cl-7	NN	O		7.0				
+10	2	fb:cell.damaged_by_torpedo	Damaged by torpedo	damaged|by|torpedo	damage|by|torpedo	VBN|IN|VB	O|O|O	||				Damaged by torpedo	fb:part.damaged_by_torpedo
+10	3	fb:cell.moored_at_berth_f_12_forward_of_utah_aft_of_detroit	Moored at berth F-12, forward of Utah, aft of Detroit	moored|at|berth|f-12|,|forward|of|utah|,|aft|of|detroit	moor|at|berth|f-12|,|forward|of|Utah|,|aft|of|Detroit	VBN|IN|VBP|NN|,|RB|IN|NNP|,|NN|IN|NNP	O|O|O|O|O|O|O|LOCATION|O|O|O|LOCATION	|||||||||||	12.0			Moored at berth F-12|forward of Utah|aft of Detroit	fb:part.moored_at_berth_f_12|fb:part.forward_of_utah|fb:part.aft_of_detroit
+10	4	fb:cell._11	[11]	-lsb-|11|-rsb-	-lsb-|11|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|11.0|	11.0				
+11	0	fb:cell.detroit	Detroit	detroit	Detroit	NNP	LOCATION						
+11	1	fb:cell.cl_8	CL-8	cl-8	cl-8	NN	O		8.0				
+11	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+11	3	fb:cell.moored_at_berth_f_13_aft_of_raleigh	Moored at berth F-13, aft of Raleigh	moored|at|berth|f-13|,|aft|of|raleigh	moor|at|berth|f-13|,|aft|of|Raleigh	VBN|IN|VBP|NN|,|NN|IN|NNP	O|O|O|O|O|O|O|LOCATION	|||||||	13.0			Moored at berth F-13|aft of Raleigh	fb:part.moored_at_berth_f_13|fb:part.aft_of_raleigh
+11	4	fb:cell._12	[12]	-lsb-|12|-rsb-	-lsb-|12|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|12.0|	12.0				
+12	0	fb:cell.phoenix	Phoenix	phoenix	Phoenix	NNP	LOCATION						
+12	1	fb:cell.cl_46	CL-46	cl-46	cl-46	NN	O		46.0				
+12	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+12	3	fb:cell.berth_c_6	Berth C-6	berth|c-6	berth|c-6	NN|NN	O|O	|	6.0			Berth C-6	fb:part.berth_c_6
+12	4	fb:cell._13	[13]	-lsb-|13|-rsb-	-lsb-|13|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|13.0|	13.0				
+13	0	fb:cell.honolulu	Honolulu	honolulu	Honolulu	NNP	LOCATION						
+13	1	fb:cell.cl_48	CL-48	cl-48	cl-48	NN	O		48.0				
+13	2	fb:cell.minor_damage_from_a_bomb_near_miss	Minor damage from a bomb near miss	minor|damage|from|a|bomb|near|miss	minor|damage|from|a|bomb|near|miss	JJ|NN|IN|DT|NN|IN|VBP	O|O|O|O|O|O|O	||||||				Minor damage from a bomb near miss	fb:part.minor_damage_from_a_bomb_near_miss
+13	3	fb:cell.moored_at_berth_b_21_navy_yard_with_st_louis_outboard	Moored at berth B-21, Navy Yard, with St. Louis outboard	moored|at|berth|b-21|,|navy|yard|,|with|st.|louis|outboard	moor|at|berth|b-21|,|Navy|Yard|,|with|St.|Louis|outboard	VBN|IN|VBP|NN|,|NNP|NNP|,|IN|NNP|NNP|NN	O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|LOCATION|LOCATION|O	|||||||||||	21.0			Moored at berth B-21|Navy Yard|with St. Louis outboard	fb:part.moored_at_berth_b_21|fb:part.navy_yard|fb:part.with_st_louis_outboard
+13	4	fb:cell._14	[14]	-lsb-|14|-rsb-	-lsb-|14|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|14.0|	14.0				
+14	0	fb:cell.st_louis	St. Louis	st.|louis	St.|Louis	NNP|NNP	LOCATION|LOCATION	|					
+14	1	fb:cell.cl_49	CL-49	cl-49	cl-49	NN	O		49.0				
+14	2	fb:cell.minor_bullet_hits	Minor bullet hits	minor|bullet|hits	minor|bullet|hit	JJ|NN|NNS	O|O|O	||				Minor bullet hits	fb:part.minor_bullet_hits
+14	3	fb:cell.moored_outboard_of_honolulu_at_berth_b_21_navy_yard	Moored outboard of Honolulu at Berth B-21, Navy Yard,	moored|outboard|of|honolulu|at|berth|b-21|,|navy|yard|,	moor|outboard|of|Honolulu|at|Berth|B-21|,|Navy|Yard|,	VBN|NN|IN|NNP|IN|NNP|NNP|,|NNP|NNP|,	O|O|O|LOCATION|O|O|O|O|ORGANIZATION|ORGANIZATION|O	||||||||||	21.0			Moored outboard of Honolulu at Berth B-21|Navy Yard,	fb:part.moored_outboard_of_honolulu_at_berth_b_21|fb:part.navy_yard_2
+14	4	fb:cell._15	[15]	-lsb-|15|-rsb-	-lsb-|15|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|15.0|	15.0				
+15	0	fb:cell.helena	Helena	helena	Helena	NNP	PERSON						
+15	1	fb:cell.cl_50	CL-50	cl-50	cl-50	NN	O		50.0				
+15	2	fb:cell.seriously_damaged_repaired_by_mid_1942	Seriously damaged, repaired by mid-1942	seriously|damaged|,|repaired|by|mid-1942	seriously|damage|,|repair|by|mid-1942	RB|VBN|,|VBN|IN|NN	O|O|O|O|O|O	|||||	1942.0			Seriously damaged|repaired by mid-1942	fb:part.seriously_damaged|fb:part.repaired_by_mid_1942
+15	3	fb:cell.moored_at_berth_b_2_naval_station_with_oglala	Moored at berth B-2 Naval station with Oglala	moored|at|berth|b-2|naval|station|with|oglala	moor|at|berth|b-2|Naval|station|with|oglalum	VBN|IN|VBP|NN|NNP|NN|IN|NN	O|O|O|O|O|O|O|LOCATION	|||||||	2.0			Moored at berth B-2 Naval station with Oglala	fb:part.moored_at_berth_b_2_naval_station_with_oglala
+15	4	fb:cell._16	[16]	-lsb-|16|-rsb-	-lsb-|16|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|16.0|	16.0				
+16	0	fb:cell.allen	Allen	allen	Allen	NNP	PERSON						
+16	1	fb:cell.dd_66	DD-66	dd-66	dd-66	NN	O		66.0				
+16	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+16	3	fb:cell.moored_to_chew_solace_nearby_to_port_berth_x_5	Moored to Chew, Solace nearby to port, berth X-5.	moored|to|chew|,|solace|nearby|to|port|,|berth|x-5|.	moor|to|chew|,|Solace|nearby|to|port|,|berth|x-5|.	VBN|TO|VB|,|NNP|RB|TO|NN|,|VBP|NN|.	O|O|LOCATION|O|O|O|O|O|O|O|O|O	|||||||||||	5.0			Moored to Chew|Solace nearby to port|berth X-5.	fb:part.moored_to_chew|fb:part.solace_nearby_to_port|fb:part.berth_x_5
+16	4	fb:cell._17	[17]	-lsb-|17|-rsb-	-lsb-|17|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|17.0|	17.0				
+17	0	fb:cell.schley	Schley	schley	Schley	NNP	PERSON						
+17	1	fb:cell.dd_103	DD-103	dd-103	dd-103	NN	O		103.0				
+17	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+17	3	fb:cell.moored_in_a_nest_of_ships_undergoing_overhaul_in_berth_b_20_unarmed	Moored in a nest of ships undergoing overhaul in berth B-20, unarmed.	moored|in|a|nest|of|ships|undergoing|overhaul|in|berth|b-20|,|unarmed|.	moor|in|a|nest|of|ship|undergo|overhaul|in|berth|b-20|,|unarmed|.	VBN|IN|DT|NN|IN|NNS|VBG|NN|IN|VBP|NN|,|JJ|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||	20.0			Moored in a nest of ships undergoing overhaul in berth B-20|unarmed.	fb:part.moored_in_a_nest_of_ships_undergoing_overhaul_in_berth_b_20|fb:part.unarmed
+17	4	fb:cell._18	[18]	-lsb-|18|-rsb-	-lsb-|18|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|18.0|	18.0				
+18	0	fb:cell.chew	Chew	chew	chew	VB	O						
+18	1	fb:cell.dd_106	DD-106	dd-106	dd-106	NN	O		106.0				
+18	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+18	3	fb:cell.berthed_at_x_5_to_allen	berthed at X-5 to Allen	berthed|at|x-5|to|allen	berthed|at|x-5|to|Allen	RB|IN|NN|TO|NNP	O|O|O|O|PERSON	||||	5.0			berthed at X-5 to Allen	fb:part.berthed_at_x_5_to_allen
+18	4	fb:cell._19	[19]	-lsb-|19|-rsb-	-lsb-|19|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|19.0|	19.0				
+19	0	fb:cell.ward	Ward	ward	Ward	NNP	PERSON						
+19	1	fb:cell.dd_139	DD-139	dd-139	dd-139	NN	O		139.0				
+19	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+19	3	fb:cell.patrolling_channel_entrance_to_pearl_harbor	patrolling channel entrance to Pearl Harbor	patrolling|channel|entrance|to|pearl|harbor	patrolling|channel|entrance|to|Pearl|Harbor	NN|NN|NN|TO|NNP|NNP	O|O|O|O|LOCATION|LOCATION	|||||				patrolling channel entrance to Pearl Harbor	fb:part.patrolling_channel_entrance_to_pearl_harbor
+19	4	fb:cell._20	[20]	-lsb-|20|-rsb-	-lsb-|20|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|20.0|	20.0				
+20	0	fb:cell.dewey	Dewey	dewey	Dewey	NNP	PERSON						
+20	1	fb:cell.dd_349	DD-349	dd-349	dd-349	NN	O		349.0				
+20	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+20	3	fb:cell.moored_berth_x_2_with_phelps_macdonough_worden_hull_and_dobbin	moored berth X-2 with Phelps, MacDonough, Worden, Hull and Dobbin	moored|berth|x-2|with|phelps|,|macdonough|,|worden|,|hull|and|dobbin	moor|berth|x-2|with|Phelps|,|MacDonough|,|Worden|,|Hull|and|Dobbin	VBN|VBP|NN|IN|NNP|,|NNP|,|NNP|,|NNP|CC|NNP	O|O|O|O|PERSON|O|PERSON|O|PERSON|O|PERSON|O|PERSON	||||||||||||	2.0			moored berth X-2 with Phelps|MacDonough|Worden|Hull and Dobbin	fb:part.moored_berth_x_2_with_phelps|fb:part.macdonough|fb:part.worden|fb:part.hull_and_dobbin
+20	4	fb:cell._21	[21]	-lsb-|21|-rsb-	-lsb-|21|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|21.0|	21.0				
+21	0	fb:cell.farragut	Farragut	farragut	Farragut	NNP	O						
+21	1	fb:cell.dd_348	DD-348	dd-348	dd-348	NN	O		348.0				
+21	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+21	3	fb:cell.starboard_to_port	starboard to port)	starboard|to|port|-rrb-	starboard|to|port|-rrb-	NN|TO|NN|-RRB-	O|O|O|O	|||				starboard to port)	fb:part.starboard_to_port
+21	4	fb:cell._22	[22]	-lsb-|22|-rsb-	-lsb-|22|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|22.0|	22.0				
+22	0	fb:cell.hull	Hull	hull	Hull	NNP	PERSON						
+22	1	fb:cell.dd_350	DD-350	dd-350	dd-350	NN	O		350.0				
+22	2	fb:cell.very_minor_damage_from_a_bomb_near_miss	Very minor damage from a bomb near-miss	very|minor|damage|from|a|bomb|near|miss	very|minor|damage|from|a|bomb|near|miss	RB|JJ|NN|IN|DT|NN|IN|VBP	O|O|O|O|O|O|O|O	|||||||				Very minor damage from a bomb near-miss	fb:part.very_minor_damage_from_a_bomb_near_miss
+22	3	fb:cell.berth_x_2_nested_with_dobbins_dewey_worden_macdonough_and_phelps	berth X-2, nested with Dobbins, Dewey, Worden, MacDonough, and Phelps	berth|x-2|,|nested|with|dobbins|,|dewey|,|worden|,|macdonough|,|and|phelps	berth|x-2|,|nested|with|dobbin|,|Dewey|,|Worden|,|MacDonough|,|and|Phelps	VBP|NN|,|JJ|IN|NNS|,|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|PERSON|O|O|LOCATION	||||||||||||||	2.0			berth X-2|nested with Dobbins|Dewey|Worden|MacDonough|and Phelps	fb:part.berth_x_2|fb:part.nested_with_dobbins|fb:part.dewey|fb:part.worden|fb:part.macdonough|fb:part.and_phelps
+22	4	fb:cell._23	[23]	-lsb-|23|-rsb-	-lsb-|23|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|23.0|	23.0				
+23	0	fb:cell.macdonough	Macdonough	macdonough	Macdonough	NNP	PERSON						
+23	1	fb:cell.dd_351	DD-351	dd-351	dd-351	NN	O		351.0				
+23	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+23	3	fb:cell.berth_x_2_nested_with_dobbins_hull_dewey_worden_and_phelps	berth X-2, nested with Dobbins, Hull, Dewey, Worden and Phelps	berth|x-2|,|nested|with|dobbins|,|hull|,|dewey|,|worden|and|phelps	berth|x-2|,|nested|with|dobbin|,|Hull|,|Dewey|,|Worden|and|Phelps	VBP|NN|,|JJ|IN|NNS|,|NNP|,|NNP|,|NNP|CC|NNP	O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|PERSON|O|LOCATION	|||||||||||||	2.0			berth X-2|nested with Dobbins|Hull|Dewey|Worden and Phelps	fb:part.berth_x_2|fb:part.nested_with_dobbins|fb:part.hull|fb:part.dewey|fb:part.worden_and_phelps
+23	4	fb:cell._24	[24]	-lsb-|24|-rsb-	-lsb-|24|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|24.0|	24.0				
+24	0	fb:cell.worden	Worden	worden	worden	JJ	PERSON						
+24	1	fb:cell.dd_352	DD-352	dd-352	dd-352	NN	O		352.0				
+24	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+24	3	fb:cell.moored_berth_x_2_undergoing_routine_upkeep_alongside_portside_of_the_dobbin_nested_to_portside_were_hull_phelps_dewey_and_macdonough	moored Berth X-2, undergoing routine upkeep alongside portside of the Dobbin. Nested to portside were Hull, Phelps, Dewey and MacDonough	moored|berth|x-2|,|undergoing|routine|upkeep|alongside|portside|of|the|dobbin|.|nested|to|portside|were|hull|,|phelps|,|dewey|and|macdonough	moor|Berth|x-2|,|undergo|routine|upkeep|alongside|portside|of|the|Dobbin|.|nest|to|portside|be|Hull|,|Phelps|,|Dewey|and|MacDonough	VBN|NNP|NN|,|VBG|JJ|NN|IN|NN|IN|DT|NNP|.|VBN|TO|NN|VBD-AUX|NNP|,|NNP|,|NNP|CC|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|PERSON	|||||||||||||||||||||||	2.0			moored Berth X-2|undergoing routine upkeep alongside portside of the Dobbin. Nested to portside were Hull|Phelps|Dewey and MacDonough	fb:part.moored_berth_x_2|fb:part.undergoing_routine_upkeep_alongside_portside_of_the_dobbin_nested_to_portside_were_hull|fb:part.phelps|fb:part.dewey_and_macdonough
+24	4	fb:cell._25	[25]	-lsb-|25|-rsb-	-lsb-|25|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|25.0|	25.0				
+25	0	fb:cell.dale	Dale	dale	Dale	NNP	PERSON						
+25	1	fb:cell.dd_353	DD-353	dd-353	dd-353	NN	O		353.0				
+25	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+25	3	fb:cell.starboard_to_port	starboard to port)	starboard|to|port|-rrb-	starboard|to|port|-rrb-	NN|TO|NN|-RRB-	O|O|O|O	|||				starboard to port)	fb:part.starboard_to_port
+25	4	fb:cell._26	[26]	-lsb-|26|-rsb-	-lsb-|26|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|26.0|	26.0				
+26	0	fb:cell.monaghan	Monaghan	monaghan	Monaghan	NNP	PERSON						
+26	1	fb:cell.dd_354	DD-354	dd-354	dd-354	NN	O		354.0				
+26	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+26	3	fb:cell.starboard_to_port	starboard to port)	starboard|to|port|-rrb-	starboard|to|port|-rrb-	NN|TO|NN|-RRB-	O|O|O|O	|||				starboard to port)	fb:part.starboard_to_port
+26	4	fb:cell._27	[27]	-lsb-|27|-rsb-	-lsb-|27|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|27.0|	27.0				
+27	0	fb:cell.aylwin	Aylwin	aylwin	Aylwin	NNP	PERSON						
+27	1	fb:cell.dd_355	DD-355	dd-355	dd-355	NN	O		355.0				
+27	2	fb:cell.minor_damage_to_propeller	Minor damage to propeller	minor|damage|to|propeller	minor|damage|to|propeller	JJ|NN|TO|NN	O|O|O|O	|||				Minor damage to propeller	fb:part.minor_damage_to_propeller
+27	3	fb:cell.berthed_at_buoy_x_18_with_dale_to_port_followed_by_farragut_and_monagaham	berthed at buoy X-18 with Dale to port, followed by Farragut and Monagaham	berthed|at|buoy|x-18|with|dale|to|port|,|followed|by|farragut|and|monagaham	berthed|at|buoy|x-18|with|Dale|to|port|,|follow|by|Farragut|and|Monagaham	RB|IN|VB|NN|IN|NNP|TO|NN|,|VBN|IN|NNP|CC|NNP	O|O|O|MISC|O|PERSON|O|O|O|O|O|LOCATION|O|LOCATION	|||||||||||||	18.0			berthed at buoy X-18 with Dale to port|followed by Farragut and Monagaham	fb:part.berthed_at_buoy_x_18_with_dale_to_port|fb:part.followed_by_farragut_and_monagaham
+27	4	fb:cell._28	[28]	-lsb-|28|-rsb-	-lsb-|28|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|28.0|	28.0				
+28	0	fb:cell.selfridge	Selfridge	selfridge	Selfridge	NNP	PERSON						
+28	1	fb:cell.dd_357	DD-357	dd-357	dd-357	NN	O		357.0				
+28	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+28	3	fb:cell.nested_with_conyngham_tucker_case_and_reid_undergoing_repairs_alongside_whitney_at_berth_x_8	nested with Conyngham, Tucker, Case and Reid, undergoing repairs alongside Whitney at berth X-8	nested|with|conyngham|,|tucker|,|case|and|reid|,|undergoing|repairs|alongside|whitney|at|berth|x-8	nested|with|Conyngham|,|Tucker|,|Case|and|Reid|,|undergo|repair|alongside|Whitney|at|berth|x-8	JJ|IN|NNP|,|NNP|,|NNP|CC|NNP|,|VBG|NNS|IN|NNP|IN|VBP|NN	O|O|PERSON|O|PERSON|O|O|O|PERSON|O|O|O|O|PERSON|O|O|O	||||||||||||||||	8.0			nested with Conyngham|Tucker|Case and Reid|undergoing repairs alongside Whitney at berth X-8	fb:part.nested_with_conyngham|fb:part.tucker|fb:part.case_and_reid|fb:part.undergoing_repairs_alongside_whitney_at_berth_x_8
+28	4	fb:cell._29	[29]	-lsb-|29|-rsb-	-lsb-|29|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|29.0|	29.0				
+29	0	fb:cell.phelps	Phelps	phelps	Phelps	NNP	PERSON						
+29	1	fb:cell.dd_360	DD-360	dd-360	dd-360	NN	O		360.0				
+29	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+29	3	fb:cell.berth_x_2_undergoing_tender_overhaul_nested_with_hull_dewey_worden_macdonough_and_dobbins	berth X-2 undergoing tender overhaul, nested with Hull, Dewey, Worden, MacDonough, and Dobbins	berth|x-2|undergoing|tender|overhaul|,|nested|with|hull|,|dewey|,|worden|,|macdonough|,|and|dobbins	berth|x-2|undergo|tender|overhaul|,|nested|with|Hull|,|Dewey|,|Worden|,|MacDonough|,|and|Dobbins	VBP|NN|VBG|NN|NN|,|JJ|IN|NNP|,|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|PERSON|O|O|PERSON	|||||||||||||||||	2.0			berth X-2 undergoing tender overhaul|nested with Hull|Dewey|Worden|MacDonough|and Dobbins	fb:part.berth_x_2_undergoing_tender_overhaul|fb:part.nested_with_hull|fb:part.dewey|fb:part.worden|fb:part.macdonough|fb:part.and_dobbins
+29	4	fb:cell._30	[30]	-lsb-|30|-rsb-	-lsb-|30|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|30.0|	30.0				
+30	0	fb:cell.cummings	Cummings	cummings	Cummings	NNP	PERSON						
+30	1	fb:cell.dd_365	DD-365	dd-365	dd-365	NN	O		365.0				
+30	2	fb:cell.minor_damage_from_bomb_fragments	Minor damage from bomb fragments	minor|damage|from|bomb|fragments	minor|damage|from|bomb|fragment	JJ|NN|IN|NN|NNS	O|O|O|O|O	||||				Minor damage from bomb fragments	fb:part.minor_damage_from_bomb_fragments
+30	3	fb:cell.nested_at_berth_b_15_order_of_the_ships_from_the_pier_outboard_tracy_preble_cummings	nested at berth B-15; order of the ships from the pier outboard – Tracy, Preble, Cummings	nested|at|berth|b-15|;|order|of|the|ships|from|the|pier|outboard|--|tracy|,|preble|,|cummings	nested|at|berth|b-15|;|order|of|the|ship|from|the|pier|outboard|--|Tracy|,|Preble|,|Cummings	JJ|IN|VBP|NN|:|NN|IN|DT|NNS|IN|DT|NN|NN|:|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON	||||||||||||||||||	15.0			nested at berth B-15; order of the ships from the pier outboard – Tracy|Preble|Cummings	fb:part.nested_at_berth_b_15_order_of_the_ships_from_the_pier_outboard_tracy|fb:part.preble|fb:part.cummings
+30	4	fb:cell._31	[31]	-lsb-|31|-rsb-	-lsb-|31|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|31.0|	31.0				
+31	0	fb:cell.reid	Reid	reid	Reid	NNP	O						
+31	1	fb:cell.dd_369	DD-369	dd-369	dd-369	NN	O		369.0				
+31	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+31	3	fb:cell.nested_with_conyngham_tucker_case_and_selfridge_undergoing_repairs_alongside_whitney_at_berth_x_8	nested with Conyngham, Tucker, Case and Selfridge, undergoing repairs alongside Whitney at berth X-8	nested|with|conyngham|,|tucker|,|case|and|selfridge|,|undergoing|repairs|alongside|whitney|at|berth|x-8	nested|with|Conyngham|,|Tucker|,|Case|and|Selfridge|,|undergo|repair|alongside|Whitney|at|berth|x-8	JJ|IN|NNP|,|NNP|,|NNP|CC|NNP|,|VBG|NNS|IN|NNP|IN|VBP|NN	O|O|PERSON|O|PERSON|O|O|O|PERSON|O|O|O|O|PERSON|O|O|O	||||||||||||||||	8.0			nested with Conyngham|Tucker|Case and Selfridge|undergoing repairs alongside Whitney at berth X-8	fb:part.nested_with_conyngham|fb:part.tucker|fb:part.case_and_selfridge|fb:part.undergoing_repairs_alongside_whitney_at_berth_x_8
+31	4	fb:cell._32	[32]	-lsb-|32|-rsb-	-lsb-|32|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|32.0|	32.0				
+32	0	fb:cell.case	Case	case	case	NN	O						
+32	1	fb:cell.dd_370	DD-370	dd-370	dd-370	NN	O		370.0				
+32	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+32	3	fb:cell.moored_starboard_side_of_whitney_at_berth_x_8_nested_with_conyngham_reid_tucker_case_and_selfridge_moored_alongside_to_port	moored starboard side of Whitney at berth X-8. Nested with Conyngham, Reid, Tucker, Case and Selfridge moored alongside to port	moored|starboard|side|of|whitney|at|berth|x-8|.|nested|with|conyngham|,|reid|,|tucker|,|case|and|selfridge|moored|alongside|to|port	moor|starboard|side|of|Whitney|at|berth|x-8|.|nest|with|Conyngham|,|Reid|,|Tucker|,|Case|and|Selfridge|moor|alongside|to|port	VBN|JJ|NN|IN|NNP|IN|VBP|NN|.|VBN|IN|NNP|,|NNP|,|NNP|,|NNP|CC|NNP|VBD|IN|TO|NN	O|O|O|O|PERSON|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|O|PERSON|O|O|O|O	|||||||||||||||||||||||	8.0			moored starboard side of Whitney at berth X-8. Nested with Conyngham|Reid|Tucker|Case and Selfridge moored alongside to port	fb:part.moored_starboard_side_of_whitney_at_berth_x_8_nested_with_conyngham|fb:part.reid|fb:part.tucker|fb:part.case_and_selfridge_moored_alongside_to_port
+32	4	fb:cell._33	[33]	-lsb-|33|-rsb-	-lsb-|33|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|33.0|	33.0				
+33	0	fb:cell.conyngham	Conyngham	conyngham	Conyngham	NNP	PERSON						
+33	1	fb:cell.dd_371	DD-371	dd-371	dd-371	NN	O		371.0				
+33	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+33	3	fb:cell.moored_starboard_side_to_whitney_at_berth_x_8_reid_tucker_case_and_selfridge_were_nested_outboard	moored starboard side to Whitney at berth X-8. Reid, Tucker, Case and Selfridge were nested outboard.	moored|starboard|side|to|whitney|at|berth|x-8|.|reid|,|tucker|,|case|and|selfridge|were|nested|outboard|.	moor|starboard|side|to|Whitney|at|berth|x-8|.|Reid|,|Tucker|,|Case|and|Selfridge|be|nested|outboard|.	VBN|JJ|NN|TO|NNP|IN|VBP|NN|.|NNP|,|NNP|,|NNP|CC|NNP|VBD-AUX|JJ|NN|.	O|O|O|O|PERSON|O|O|O|O|PERSON|O|PERSON|O|O|O|PERSON|O|O|O|O	|||||||||||||||||||	8.0			moored starboard side to Whitney at berth X-8. Reid|Tucker|Case and Selfridge were nested outboard.	fb:part.moored_starboard_side_to_whitney_at_berth_x_8_reid|fb:part.tucker|fb:part.case_and_selfridge_were_nested_outboard
+33	4	fb:cell._34	[34]	-lsb-|34|-rsb-	-lsb-|34|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|34.0|	34.0				
+34	0	fb:cell.cassin	Cassin	cassin	Cassin	NNP	PERSON						
+34	1	fb:cell.dd_372	DD-372	dd-372	dd-372	NN	O		372.0				
+34	2	fb:cell.heavily_damaged_considered_lost_but_rebuilt_by_february_5_1944	Heavily damaged, considered lost, but rebuilt by February 5, 1944	heavily|damaged|,|considered|lost|,|but|rebuilt|by|february|5|,|1944	heavily|damage|,|consider|lose|,|but|rebuild|by|February|5|,|1944	RB|VBN|,|VBN|VBN|,|CC|VBN|IN|NNP|CD|,|CD	O|O|O|O|O|O|O|O|O|DATE|DATE|DATE|DATE	|||||||||1944-02-05|1944-02-05|1944-02-05|1944-02-05	51944.0			Heavily damaged|considered lost|but rebuilt by February 5|1944	fb:part.heavily_damaged|fb:part.considered_lost|fb:part.but_rebuilt_by_february_5|fb:part.1944
+34	3	fb:cell.in_drydock_next_to_downes_forward_of_pennsylvania	in drydock next to Downes, forward of Pennsylvania	in|drydock|next|to|downes|,|forward|of|pennsylvania	in|drydock|next|to|Downes|,|forward|of|Pennsylvania	IN|NN|JJ|TO|NNP|,|RB|IN|NNP	O|O|O|O|PERSON|O|O|O|LOCATION	||||||||				in drydock next to Downes|forward of Pennsylvania	fb:part.in_drydock_next_to_downes|fb:part.forward_of_pennsylvania
+34	4	fb:cell._35	[35]	-lsb-|35|-rsb-	-lsb-|35|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|35.0|	35.0				
+35	0	fb:cell.shaw	Shaw	shaw	Shaw	NNP	ORGANIZATION						
+35	1	fb:cell.dd_373	DD-373	dd-373	dd-373	NN	O		373.0				
+35	2	fb:cell.heavily_damaged_lost_bow_repaired_by_july_1942	Heavily damaged, lost bow, repaired by July 1942.	heavily|damaged|,|lost|bow|,|repaired|by|july|1942|.	heavily|damage|,|lose|bow|,|repair|by|July|1942|.	RB|VBN|,|VBD|NN|,|VBN|IN|NNP|CD|.	O|O|O|O|O|O|O|O|DATE|DATE|O	||||||||1942-07|1942-07|	1942.0			Heavily damaged|lost bow|repaired by July 1942.	fb:part.heavily_damaged|fb:part.lost_bow|fb:part.repaired_by_july_1942
+35	3	fb:cell.yfd_2	YFD-2)	yfd-2|-rrb-	yfd-2|-rrb-	NN|-RRB-	O|O	|	2.0			YFD-2)	fb:part.yfd_2
+35	4	fb:cell._36	[36]	-lsb-|36|-rsb-	-lsb-|36|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|36.0|	36.0				
+36	0	fb:cell.tucker	Tucker	tucker	Tucker	NNP	PERSON						
+36	1	fb:cell.dd_374	DD-374	dd-374	dd-374	NN	O		374.0				
+36	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+36	3	fb:cell.moored_with_whitney_reid_conyngham_case_and_selfridge_at_berth_x_8	moored with Whitney, Reid, Conyngham, Case and Selfridge at berth X-8.	moored|with|whitney|,|reid|,|conyngham|,|case|and|selfridge|at|berth|x-8|.	moor|with|Whitney|,|Reid|,|Conyngham|,|Case|and|Selfridge|at|berth|x-8|.	VBN|IN|NNP|,|NNP|,|NNP|,|NNP|CC|NNP|IN|VBP|NN|.	O|O|PERSON|O|PERSON|O|PERSON|O|O|O|PERSON|O|O|O|O	||||||||||||||	8.0			moored with Whitney|Reid|Conyngham|Case and Selfridge at berth X-8.	fb:part.moored_with_whitney|fb:part.reid|fb:part.conyngham|fb:part.case_and_selfridge_at_berth_x_8
+36	4	fb:cell._37	[37]	-lsb-|37|-rsb-	-lsb-|37|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|37.0|	37.0				
+37	0	fb:cell.downes	Downes	downes	Downes	NNP	PERSON						
+37	1	fb:cell.dd_375	DD-375	dd-375	dd-375	NN	O		375.0				
+37	2	fb:cell.heavily_damaged_considered_lost_but_rebuilt_and_recommissioned_november_15_1943	Heavily damaged, considered lost, but rebuilt and recommissioned November 15, 1943	heavily|damaged|,|considered|lost|,|but|rebuilt|and|recommissioned|november|15|,|1943	heavily|damage|,|consider|lose|,|but|rebuilt|and|recommission|November|15|,|1943	RB|VBN|,|VBN|VBN|,|CC|NN|CC|VBD|NNP|CD|,|CD	O|O|O|O|O|O|O|O|O|O|DATE|DATE|DATE|DATE	||||||||||1943-11-15|1943-11-15|1943-11-15|1943-11-15	151943.0			Heavily damaged|considered lost|but rebuilt and recommissioned November 15|1943	fb:part.heavily_damaged|fb:part.considered_lost|fb:part.but_rebuilt_and_recommissioned_november_15|fb:part.1943
+37	3	fb:cell.in_drydock_next_to_cassin_forward_of_pennsylvania	in drydock next to Cassin forward of Pennsylvania	in|drydock|next|to|cassin|forward|of|pennsylvania	in|drydock|next|to|Cassin|forward|of|Pennsylvania	IN|NN|JJ|TO|NNP|RB|IN|NNP	O|O|O|O|PERSON|O|O|LOCATION	|||||||				in drydock next to Cassin forward of Pennsylvania	fb:part.in_drydock_next_to_cassin_forward_of_pennsylvania
+37	4	fb:cell._38	[38]	-lsb-|38|-rsb-	-lsb-|38|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|38.0|	38.0				
+38	0	fb:cell.bagley	Bagley	bagley	Bagley	NNP	PERSON						
+38	1	fb:cell.dd_386	DD-386	dd-386	dd-386	NN	O		386.0				
+38	2	fb:cell.minor_damage_from_nearby_explosions	Minor damage from nearby explosions	minor|damage|from|nearby|explosions	minor|damage|from|nearby|explosion	JJ|NN|IN|JJ|NNS	O|O|O|O|O	||||				Minor damage from nearby explosions	fb:part.minor_damage_from_nearby_explosions
+38	3	fb:cell.berth_b_22_navy_yard_pearl_harbor	Berth B-22, Navy Yard Pearl Harbor	berth|b-22|,|navy|yard|pearl|harbor	berth|b-22|,|Navy|Yard|Pearl|Harbor	NN|NN|,|NNP|NNP|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION|LOCATION|LOCATION	||||||	22.0			Berth B-22|Navy Yard Pearl Harbor	fb:part.berth_b_22|fb:part.navy_yard_pearl_harbor
+38	4	fb:cell._39	[39]	-lsb-|39|-rsb-	-lsb-|39|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|39.0|	39.0				
+39	0	fb:cell.blue	Blue	blue	Blue	NNP	O						
+39	1	fb:cell.dd_387	DD-387	dd-387	dd-387	NN	O		387.0				
+39	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+39	3	fb:cell.berth_x_7	Berth X-7	berth|x-7	berth|x-7	NN|NN	O|O	|	7.0			Berth X-7	fb:part.berth_x_7
+39	4	fb:cell._40	[40]	-lsb-|40|-rsb-	-lsb-|40|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|40.0|	40.0				
+40	0	fb:cell.helm	Helm	helm	Helm	NNP	O						
+40	1	fb:cell.dd_388	DD-388	dd-388	dd-388	NN	O		388.0				
+40	2	fb:cell.minor_damage_by_two_bomb_near_misses	Minor damage by two bomb near-misses	minor|damage|by|two|bomb|near|misses	minor|damage|by|two|bomb|near|miss	JJ|NN|IN|CD|NN|IN|VBZ	O|O|O|NUMBER|O|O|O	|||2.0|||				Minor damage by two bomb near-misses	fb:part.minor_damage_by_two_bomb_near_misses
+40	3	fb:cell.underway_from_berth_x_7_just_prior_to_attack_en_route_to_deperming_buoys_at_west_loch	Underway from berth X-7 just prior to attack, en route to deperming buoys at West Loch	underway|from|berth|x-7|just|prior|to|attack|,|en|route|to|deperming|buoys|at|west|loch	Underway|from|berth|x-7|just|prior|to|attack|,|en|route|to|deperm|buoy|at|West|Loch	NNP|IN|VBP|NN|RB|RB|TO|NN|,|IN|NN|TO|VBG|VBZ|IN|NNP|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|LOCATION|LOCATION	||||||||||||||||	7.0			Underway from berth X-7 just prior to attack|en route to deperming buoys at West Loch	fb:part.underway_from_berth_x_7_just_prior_to_attack|fb:part.en_route_to_deperming_buoys_at_west_loch
+40	4	fb:cell._41	[41]	-lsb-|41|-rsb-	-lsb-|41|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|41.0|	41.0				
+41	0	fb:cell.mugford	Mugford	mugford	Mugford	NNP	PERSON						
+41	1	fb:cell.dd_389	DD-389	dd-389	dd-389	NN	O		389.0				
+41	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+41	3	fb:cell.moored_port_side_to_the_sacramento_in_berth_b_6_at_the_navy_yard	moored port side to the Sacramento, in berth B-6, at the Navy Yard	moored|port|side|to|the|sacramento|,|in|berth|b-6|,|at|the|navy|yard	moor|port|side|to|the|Sacramento|,|in|berth|B-6|,|at|the|Navy|yard	VBN|JJ|NN|TO|DT|NNP|,|IN|VBP|NNP|,|IN|DT|NNP|NN	O|O|O|O|O|LOCATION|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION	||||||||||||||	6.0			moored port side to the Sacramento|in berth B-6|at the Navy Yard	fb:part.moored_port_side_to_the_sacramento|fb:part.in_berth_b_6|fb:part.at_the_navy_yard
+41	4	fb:cell._42	[42]	-lsb-|42|-rsb-	-lsb-|42|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|42.0|	42.0				
+42	0	fb:cell.ralph_talbot	Ralph Talbot	ralph|talbot	Ralph|Talbot	NNP|NNP	PERSON|PERSON	|					
+42	1	fb:cell.dd_390	DD-390	dd-390	dd-390	NN	O		390.0				
+42	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+42	3	fb:cell.moored_bow_to_southward_to_buoy_x_11_with_the_patterson_alongside_to_port_and_the_henley_to_starboard	moored bow to southward to buoy X-11 with the Patterson alongside to port and the Henley to starboard.	moored|bow|to|southward|to|buoy|x-11|with|the|patterson|alongside|to|port|and|the|henley|to|starboard|.	moor|bow|to|southward|to|buoy|x-11|with|the|Patterson|alongside|to|port|and|the|Henley|to|starboard|.	VBN|NN|TO|NN|TO|VB|NN|IN|DT|NNP|IN|TO|NN|CC|DT|NNP|TO|NN|.	O|O|O|O|O|O|MISC|O|O|PERSON|O|O|O|O|O|PERSON|O|O|O	||||||||||||||||||	11.0			moored bow to southward to buoy X-11 with the Patterson alongside to port and the Henley to starboard.	fb:part.moored_bow_to_southward_to_buoy_x_11_with_the_patterson_alongside_to_port_and_the_henley_to_starboard
+42	4	fb:cell._43	[43]	-lsb-|43|-rsb-	-lsb-|43|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|43.0|	43.0				
+43	0	fb:cell.henley	Henley	henley	henley	NN	PERSON						
+43	1	fb:cell.dd_391	DD-391	dd-391	dd-391	NN	O		391.0				
+43	2	fb:cell.minor_damage_from_strafing	Minor damage from strafing	minor|damage|from|strafing	minor|damage|from|strafe	JJ|NN|IN|VBG	O|O|O|O	|||				Minor damage from strafing	fb:part.minor_damage_from_strafing
+43	3	fb:cell.moored_with_patterson_and_ralph_talbot	Moored with Patterson and Ralph Talbot	moored|with|patterson|and|ralph|talbot	moor|with|Patterson|and|Ralph|Talbot	VBN|IN|NNP|CC|NNP|NNP	O|O|PERSON|O|PERSON|PERSON	|||||				Moored with Patterson and Ralph Talbot	fb:part.moored_with_patterson_and_ralph_talbot
+43	4	fb:cell._44	[44]	-lsb-|44|-rsb-	-lsb-|44|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|44.0|	44.0				
+44	0	fb:cell.patterson	Patterson	patterson	Patterson	NNP	PERSON						
+44	1	fb:cell.dd_392	DD-392	dd-392	dd-392	NN	O		392.0				
+44	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+44	3	fb:cell.moored_at_berth_x_11_with_henley_and_ralph_talbot	moored at berth X-11 with Henley and Ralph Talbot	moored|at|berth|x-11|with|henley|and|ralph|talbot	moor|at|berth|x-11|with|henley|and|Ralph|Talbot	VBN|IN|VBP|NN|IN|NN|CC|NNP|NNP	O|O|O|MISC|O|PERSON|O|PERSON|PERSON	||||||||	11.0			moored at berth X-11 with Henley and Ralph Talbot	fb:part.moored_at_berth_x_11_with_henley_and_ralph_talbot
+44	4	fb:cell._45	[45]	-lsb-|45|-rsb-	-lsb-|45|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|45.0|	45.0				
+45	0	fb:cell.jarvis	Jarvis	jarvis	Jarvis	NNP	PERSON						
+45	1	fb:cell.dd_393	DD-393	dd-393	dd-393	NN	O		393.0				
+45	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+45	3	fb:cell.moored_port_side_to_mugford_at_berth_b_6_navy_yard_pearl_harbor_during_a_restricted_availability_period	moored port side to Mugford at berth B-6 Navy Yard Pearl Harbor, during a restricted availability period	moored|port|side|to|mugford|at|berth|b-6|navy|yard|pearl|harbor|,|during|a|restricted|availability|period	moor|port|side|to|Mugford|at|berth|B-6|Navy|Yard|Pearl|Harbor|,|during|a|restricted|availability|period	VBN|JJ|NN|TO|NNP|IN|VBP|NNP|NNP|NNP|NNP|NNP|,|IN|DT|JJ|NN|NN	O|O|O|O|LOCATION|O|O|O|ORGANIZATION|ORGANIZATION|LOCATION|LOCATION|O|O|O|O|O|O	|||||||||||||||||	6.0			moored port side to Mugford at berth B-6 Navy Yard Pearl Harbor|during a restricted availability period	fb:part.moored_port_side_to_mugford_at_berth_b_6_navy_yard_pearl_harbor|fb:part.during_a_restricted_availability_period
+45	4	fb:cell._46	[46]	-lsb-|46|-rsb-	-lsb-|46|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|46.0|	46.0				
+46	0	fb:cell.narwhal	Narwhal	narwhal	Narwhal	NNP	PERSON						
+46	1	fb:cell.ss_167	SS-167	ss-167	ss-167	NN	O		167.0				
+46	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+46	3	fb:cell.moored_in_berth_s_9_at_the_submarine_base	moored in berth S-9 at the Submarine Base	moored|in|berth|s-9|at|the|submarine|base	moor|in|berth|s-9|at|the|submarine|base	VBN|IN|VBP|NN|IN|DT|NN|NN	O|O|O|O|O|O|O|O	|||||||	9.0			moored in berth S-9 at the Submarine Base	fb:part.moored_in_berth_s_9_at_the_submarine_base
+46	4	fb:cell._47	[47]	-lsb-|47|-rsb-	-lsb-|47|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|47.0|	47.0				
+47	0	fb:cell.dolphin	Dolphin	dolphin	Dolphin	NNP	PERSON						
+47	1	fb:cell.ss_169	SS-169	ss-169	ss-169	NN	O		169.0				
+47	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+47	3	fb:cell.moored_port_side_to_pier_4_in_berth_s_8_u_s_submarine_base	moored port side to, Pier #4, in Berth S-8, U.S. Submarine Base	moored|port|side|to|,|pier|#|4|,|in|berth|s-8|,|u.s.|submarine|base	moor|port|side|to|,|Pier|#|4|,|in|Berth|S-8|,|U.S.|Submarine|Base	VBN|JJ|NN|TO|,|NNP|#|CD|,|IN|NNP|NNP|,|NNP|NNP|NNP	O|O|O|O|O|O|MONEY|MONEY|O|O|O|O|O|LOCATION|O|O	||||||£4.0|£4.0||||||||	4.0		8.0	moored port side to|Pier #4|in Berth S-8|U.S. Submarine Base	fb:part.moored_port_side_to|fb:part.pier_4|fb:part.in_berth_s_8|fb:part.u_s_submarine_base
+47	4	fb:cell._48	[48]	-lsb-|48|-rsb-	-lsb-|48|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|48.0|	48.0				
+48	0	fb:cell.cachalot	Cachalot	cachalot	cachalot	NN	O						
+48	1	fb:cell.ss_170	SS-170	ss-170	ss-170	NN	O		170.0				
+48	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+48	3	fb:cell.moored_at_berth_b_1_navy_yard_undergoing_scheduled_overhaul	moored at berth B-1, Navy Yard, undergoing scheduled overhaul	moored|at|berth|b-1|,|navy|yard|,|undergoing|scheduled|overhaul	moor|at|berth|b-1|,|Navy|Yard|,|undergo|schedule|overhaul	VBN|IN|VBP|NN|,|NNP|NNP|,|VBG|VBN|NN	O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O	||||||||||	1.0			moored at berth B-1|Navy Yard|undergoing scheduled overhaul	fb:part.moored_at_berth_b_1|fb:part.navy_yard|fb:part.undergoing_scheduled_overhaul
+48	4	fb:cell._49	[49]	-lsb-|49|-rsb-	-lsb-|49|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|49.0|	49.0				
+49	0	fb:cell.tautog	Tautog	tautog	Tautog	NNP	O						
+49	1	fb:cell.ss_199	SS-199	ss-199	ss-199	NN	O		199.0				
+49	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+49	3	fb:cell.moored_at_pier_two_u_s_submarine_base	moored at pier two, U.S. Submarine Base	moored|at|pier|two|,|u.s.|submarine|base	moor|at|pier|two|,|U.S.|Submarine|Base	VBN|IN|NN|CD|,|NNP|NNP|NNP	O|O|O|NUMBER|O|LOCATION|O|O	|||2.0||||				moored at pier two|U.S. Submarine Base	fb:part.moored_at_pier_two|fb:part.u_s_submarine_base
+49	4	fb:cell._50	[50]	-lsb-|50|-rsb-	-lsb-|50|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|50.0|	50.0				
+50	0	fb:cell.oglala	Oglala	oglala	Oglala	NNP	LOCATION						
+50	1	fb:cell.cm_4	CM-4	cm-4	cm-4	NN	O		4.0				
+50	2	fb:cell.sunk_but_salvaged_and_recommissioned_february_1944	Sunk, but salvaged and recommissioned February 1944	sunk|,|but|salvaged|and|recommissioned|february|1944	Sunk|,|but|salvage|and|recommission|February|1944	NNP|,|CC|VBN|CC|VBN|NNP|CD	O|O|O|O|O|O|DATE|DATE	||||||1944-02|1944-02	1944.0			Sunk|but salvaged and recommissioned February 1944	fb:part.sunk|fb:part.but_salvaged_and_recommissioned_february_1944
+50	3	fb:cell.moored_alongside_helena_at_berth_b_2	Moored alongside Helena at berth B-2	moored|alongside|helena|at|berth|b-2	moor|alongside|Helena|at|berth|b-2	VBN|IN|NNP|IN|VBP|NN	O|O|PERSON|O|O|O	|||||	2.0			Moored alongside Helena at berth B-2	fb:part.moored_alongside_helena_at_berth_b_2
+50	4	fb:cell._51	[51]	-lsb-|51|-rsb-	-lsb-|51|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|51.0|	51.0				
+51	0	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+51	1	fb:cell.am_13	AM-13	am-13	am-13	NN	O		13.0				
+51	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+51	3	fb:cell.moored_in_a_nest_at_the_coal_dock_with_rail_bobolink_and_vireo	moored in a nest at the Coal Dock with Rail, Bobolink, and Vireo	moored|in|a|nest|at|the|coal|dock|with|rail|,|bobolink|,|and|vireo	moor|in|a|nest|at|the|Coal|dock|with|Rail|,|Bobolink|,|and|Vireo	VBN|IN|DT|NN|IN|DT|NNP|NN|IN|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				moored in a nest at the Coal Dock with Rail|Bobolink|and Vireo	fb:part.moored_in_a_nest_at_the_coal_dock_with_rail|fb:part.bobolink|fb:part.and_vireo
+51	4	fb:cell._52	[52]	-lsb-|52|-rsb-	-lsb-|52|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|52.0|	52.0				
+52	0	fb:cell.bobolink	Bobolink	bobolink	Bobolink	NNP	O						
+52	1	fb:cell.am_20	AM-20	am-20	am-20	NN	O		20.0				
+52	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+52	3	fb:cell.moored_in_a_nest_at_the_westerly_end_of_the_coal_docks_with_vireo_and_turkey_inboard_and_rail_outboard	moored in a nest at the westerly end of the Coal Docks with Vireo and Turkey inboard, and Rail outboard.	moored|in|a|nest|at|the|westerly|end|of|the|coal|docks|with|vireo|and|turkey|inboard|,|and|rail|outboard|.	moor|in|a|nest|at|the|westerly|end|of|the|Coal|Docks|with|Vireo|and|Turkey|inboard|,|and|Rail|outboard|.	VBN|IN|DT|NN|IN|DT|JJ|NN|IN|DT|NNP|NNPS|IN|NNP|CC|NNP|NN|,|CC|NNP|NN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|LOCATION|O|O|O|O|O|O	|||||||||||||||||||||				moored in a nest at the westerly end of the Coal Docks with Vireo and Turkey inboard|and Rail outboard.	fb:part.moored_in_a_nest_at_the_westerly_end_of_the_coal_docks_with_vireo_and_turkey_inboard|fb:part.and_rail_outboard
+52	4	fb:cell._53	[53]	-lsb-|53|-rsb-	-lsb-|53|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|53.0|	53.0				
+53	0	fb:cell.rail	Rail	rail	Rail	NNP	O						
+53	1	fb:cell.am_26	AM-26	am-26	am-26	NN	O		26.0				
+53	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+53	3	fb:cell.moored_in_a_nest_at_the_coal_dock_with_turkey_bobolink_and_vireo	moored in a nest at the Coal Dock with Turkey, Bobolink, and Vireo	moored|in|a|nest|at|the|coal|dock|with|turkey|,|bobolink|,|and|vireo	moor|in|a|nest|at|the|Coal|dock|with|Turkey|,|Bobolink|,|and|Vireo	VBN|IN|DT|NN|IN|DT|NNP|NN|IN|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|O|O|O|O|LOCATION|O|O|O|O|O	||||||||||||||				moored in a nest at the Coal Dock with Turkey|Bobolink|and Vireo	fb:part.moored_in_a_nest_at_the_coal_dock_with_turkey|fb:part.bobolink|fb:part.and_vireo
+53	4	fb:cell._54	[54]	-lsb-|54|-rsb-	-lsb-|54|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|54.0|	54.0				
+54	0	fb:cell.tern	Tern	tern	Tern	NNP	O						
+54	1	fb:cell.am_31	AM-31	am-31	am-31	NN	O		31.0				
+54	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+54	3	fb:cell.north_end_of_1010_dock_undergoing_upkeep_alongside_argonne	north end of 1010 dock) undergoing upkeep alongside Argonne	north|end|of|1010|dock|-rrb-|undergoing|upkeep|alongside|argonne	north|end|of|1010|dock|-rrb-|undergo|upkeep|alongside|Argonne	RB|NN|IN|CD|NN|-RRB-|VBG|NN|IN|NNP	O|DATE|DATE|DATE|O|O|O|O|O|ORGANIZATION	|1010|1010|1010||||||	1010.0			north end of 1010 dock) undergoing upkeep alongside Argonne	fb:part.north_end_of_1010_dock_undergoing_upkeep_alongside_argonne
+54	4	fb:cell._55	[55]	-lsb-|55|-rsb-	-lsb-|55|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|55.0|	55.0				
+55	0	fb:cell.grebe	Grebe	grebe	Grebe	NNP	PERSON						
+55	1	fb:cell.am_43	AM-43	am-43	am-43	NN	O		43.0				
+55	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+55	3	fb:cell.berth_b_20_navy_yard_alongside_schley	berth B-20, Navy Yard, alongside Schley	berth|b-20|,|navy|yard|,|alongside|schley	berth|b-20|,|Navy|Yard|,|alongside|Schley	VBP|NN|,|NNP|NNP|,|IN|NNP	O|O|O|ORGANIZATION|ORGANIZATION|O|O|PERSON	|||||||	20.0			berth B-20|Navy Yard|alongside Schley	fb:part.berth_b_20|fb:part.navy_yard|fb:part.alongside_schley
+55	4	fb:cell.null											fb:part.null
+56	0	fb:cell.vireo	Vireo	vireo	Vireo	NNP	O						
+56	1	fb:cell.am_52	AM-52	am-52	am-52	NN	O		52.0				
+56	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+56	3	fb:cell.moored_inboard_at_the_coal_dock_bow_to_seaward_with_turkey_bobolink_and_rail_moored_outboard	moored inboard at the Coal Dock, bow to seaward, with Turkey, Bobolink, and Rail moored outboard	moored|inboard|at|the|coal|dock|,|bow|to|seaward|,|with|turkey|,|bobolink|,|and|rail|moored|outboard	moor|inboard|at|the|Coal|Dock|,|bow|to|seaward|,|with|Turkey|,|Bobolink|,|and|Rail|moor|outboard	VBN|NN|IN|DT|NNP|NNP|,|NN|TO|NN|,|IN|NNP|,|NNP|,|CC|NNP|VBD|NN	O|O|O|O|O|O|O|O|O|O|O|O|LOCATION|O|O|O|O|O|O|O	|||||||||||||||||||				moored inboard at the Coal Dock|bow to seaward|with Turkey|Bobolink|and Rail moored outboard	fb:part.moored_inboard_at_the_coal_dock|fb:part.bow_to_seaward|fb:part.with_turkey|fb:part.bobolink|fb:part.and_rail_moored_outboard
+56	4	fb:cell._56	[56]	-lsb-|56|-rsb-	-lsb-|56|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|56.0|	56.0				
+57	0	fb:cell.gamble	Gamble	gamble	Gamble	NNP	O						
+57	1	fb:cell.dm_15	DM-15	dm-15	dm-15	NN	O		15.0				
+57	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+57	3	fb:cell.moored_in_berth_d_3_middle_loch_in_nest_with_division_order_of_ships_from_starboard_ramsay_breese_montgomery_and_gamble	moored in berth D-3, Middle Loch, in nest with division, order of ships from starboard Ramsay, Breese, Montgomery, and Gamble	moored|in|berth|d-3|,|middle|loch|,|in|nest|with|division|,|order|of|ships|from|starboard|ramsay|,|breese|,|montgomery|,|and|gamble	moor|in|berth|d-3|,|Middle|Loch|,|in|nest|with|division|,|order|of|ship|from|starboard|Ramsay|,|Breese|,|Montgomery|,|and|Gamble	VBN|IN|VBP|NN|,|NNP|NNP|,|IN|NN|IN|NN|,|NN|IN|NNS|IN|JJ|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|LOCATION|LOCATION|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|O	|||||||||||||||||||||||||	3.0			moored in berth D-3|Middle Loch|in nest with division|order of ships from starboard Ramsay|Breese|Montgomery|and Gamble	fb:part.moored_in_berth_d_3|fb:part.middle_loch|fb:part.in_nest_with_division|fb:part.order_of_ships_from_starboard_ramsay|fb:part.breese|fb:part.montgomery|fb:part.and_gamble
+57	4	fb:cell._57	[57]	-lsb-|57|-rsb-	-lsb-|57|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|57.0|	57.0				
+58	0	fb:cell.ramsay	Ramsay	ramsay	Ramsay	NNP	PERSON						
+58	1	fb:cell.dm_16	DM-16	dm-16	dm-16	NN	O		16.0				
+58	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+58	3	fb:cell.moored_in_berth_d_3_middle_loch_in_nest_with_division_order_of_ships_from_starboard_ramsay_breese_montgomery_and_gamble	moored in berth D-3, Middle Loch, in nest with division, order of ships from starboard Ramsay, Breese, Montgomery, and Gamble	moored|in|berth|d-3|,|middle|loch|,|in|nest|with|division|,|order|of|ships|from|starboard|ramsay|,|breese|,|montgomery|,|and|gamble	moor|in|berth|d-3|,|Middle|Loch|,|in|nest|with|division|,|order|of|ship|from|starboard|Ramsay|,|Breese|,|Montgomery|,|and|Gamble	VBN|IN|VBP|NN|,|NNP|NNP|,|IN|NN|IN|NN|,|NN|IN|NNS|IN|JJ|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|LOCATION|LOCATION|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|O	|||||||||||||||||||||||||	3.0			moored in berth D-3|Middle Loch|in nest with division|order of ships from starboard Ramsay|Breese|Montgomery|and Gamble	fb:part.moored_in_berth_d_3|fb:part.middle_loch|fb:part.in_nest_with_division|fb:part.order_of_ships_from_starboard_ramsay|fb:part.breese|fb:part.montgomery|fb:part.and_gamble
+58	4	fb:cell._58	[58]	-lsb-|58|-rsb-	-lsb-|58|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|58.0|	58.0				
+59	0	fb:cell.montgomery	Montgomery	montgomery	Montgomery	NNP	PERSON						
+59	1	fb:cell.dm_17	DM-17	dm-17	dm-17	NN	O		17.0				
+59	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+59	3	fb:cell.moored_in_berth_d_3_middle_loch_in_nest_with_division_order_of_ships_from_starboard_ramsay_breese_montgomery_and_gamble	moored in berth D-3, Middle Loch, in nest with division, order of ships from starboard Ramsay, Breese, Montgomery, and Gamble	moored|in|berth|d-3|,|middle|loch|,|in|nest|with|division|,|order|of|ships|from|starboard|ramsay|,|breese|,|montgomery|,|and|gamble	moor|in|berth|d-3|,|Middle|Loch|,|in|nest|with|division|,|order|of|ship|from|starboard|Ramsay|,|Breese|,|Montgomery|,|and|Gamble	VBN|IN|VBP|NN|,|NNP|NNP|,|IN|NN|IN|NN|,|NN|IN|NNS|IN|JJ|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|LOCATION|LOCATION|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|O	|||||||||||||||||||||||||	3.0			moored in berth D-3|Middle Loch|in nest with division|order of ships from starboard Ramsay|Breese|Montgomery|and Gamble	fb:part.moored_in_berth_d_3|fb:part.middle_loch|fb:part.in_nest_with_division|fb:part.order_of_ships_from_starboard_ramsay|fb:part.breese|fb:part.montgomery|fb:part.and_gamble
+59	4	fb:cell._59	[59]	-lsb-|59|-rsb-	-lsb-|59|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|59.0|	59.0				
+60	0	fb:cell.breese	Breese	breese	Breese	NNP	PERSON						
+60	1	fb:cell.dm_18	DM-18	dm-18	dm-18	NN	O		18.0				
+60	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+60	3	fb:cell.moored_in_berth_d_3_middle_loch_in_nest_with_division_order_of_ships_from_starboard_ramsay_breese_montgomery_and_gamble	moored in berth D-3, Middle Loch, in nest with division, order of ships from starboard Ramsay, Breese, Montgomery, and Gamble	moored|in|berth|d-3|,|middle|loch|,|in|nest|with|division|,|order|of|ships|from|starboard|ramsay|,|breese|,|montgomery|,|and|gamble	moor|in|berth|d-3|,|Middle|Loch|,|in|nest|with|division|,|order|of|ship|from|starboard|Ramsay|,|Breese|,|Montgomery|,|and|Gamble	VBN|IN|VBP|NN|,|NNP|NNP|,|IN|NN|IN|NN|,|NN|IN|NNS|IN|JJ|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|LOCATION|LOCATION|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|O	|||||||||||||||||||||||||	3.0			moored in berth D-3|Middle Loch|in nest with division|order of ships from starboard Ramsay|Breese|Montgomery|and Gamble	fb:part.moored_in_berth_d_3|fb:part.middle_loch|fb:part.in_nest_with_division|fb:part.order_of_ships_from_starboard_ramsay|fb:part.breese|fb:part.montgomery|fb:part.and_gamble
+60	4	fb:cell._60	[60]	-lsb-|60|-rsb-	-lsb-|60|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|60.0|	60.0				
+61	0	fb:cell.tracy	Tracy	tracy	Tracy	NNP	PERSON						
+61	1	fb:cell.dm_19	DM-19	dm-19	dm-19	NN	O		19.0				
+61	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+61	3	fb:cell.moored_portside_to_berth_b_15_navy_yard_unarmed_disabled_undergoing_overhaul_preble_and_cummings_were_moored_to_starboard_in_that_order	moored portside to berth B-15, Navy Yard, unarmed, disabled, undergoing overhaul. Preble and Cummings were moored to starboard in that order.	moored|portside|to|berth|b-15|,|navy|yard|,|unarmed|,|disabled|,|undergoing|overhaul|.|preble|and|cummings|were|moored|to|starboard|in|that|order|.	moor|portside|to|berth|B-15|,|Navy|Yard|,|unarmed|,|disabled|,|undergo|overhaul|.|Preble|and|Cummings|be|moor|to|starboard|in|that|order|.	VBN|NN|TO|VB|NNP|,|NNP|NNP|,|JJ|,|JJ|,|VBG|NN|.|NNP|CC|NNP|VBD-AUX|VBN|TO|NN|IN|DT|NN|.	O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|O|O|O|O|O|O|O	||||||||||||||||||||||||||	15.0			moored portside to berth B-15|Navy Yard|unarmed|disabled|undergoing overhaul. Preble and Cummings were moored to starboard in that order.	fb:part.moored_portside_to_berth_b_15|fb:part.navy_yard|fb:part.unarmed_2|fb:part.disabled|fb:part.undergoing_overhaul_preble_and_cummings_were_moored_to_starboard_in_that_order
+61	4	fb:cell._61	[61]	-lsb-|61|-rsb-	-lsb-|61|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|61.0|	61.0				
+62	0	fb:cell.preble	Preble	preble	Preble	NNP	PERSON						
+62	1	fb:cell.dm_20	DM-20	dm-20	dm-20	NN	O		20.0				
+62	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+62	3	fb:cell.moored_in_berth_b_15_undergoing_scheduled_overhaul_no_arms_on_board_nest_order_of_ships_from_the_pier_outboard_tracy_preble_cummings	moored in berth B-15, undergoing scheduled overhaul, no arms on board. Nest order of ships from the pier outboard – Tracy, Preble, Cummings	moored|in|berth|b-15|,|undergoing|scheduled|overhaul|,|no|arms|on|board|.|nest|order|of|ships|from|the|pier|outboard|--|tracy|,|preble|,|cummings	moor|in|berth|B-15|,|undergo|schedule|overhaul|,|no|arm|on|board|.|nest|order|of|ship|from|the|pier|outboard|--|Tracy|,|Preble|,|Cummings	VBN|IN|VBP|NNP|,|VBG|VBN|NN|,|DT|NNS|IN|NN|.|NN|NN|IN|NNS|IN|DT|NN|NN|:|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON	|||||||||||||||||||||||||||	15.0			moored in berth B-15|undergoing scheduled overhaul|no arms on board. Nest order of ships from the pier outboard – Tracy|Preble|Cummings	fb:part.moored_in_berth_b_15|fb:part.undergoing_scheduled_overhaul|fb:part.no_arms_on_board_nest_order_of_ships_from_the_pier_outboard_tracy|fb:part.preble|fb:part.cummings
+62	4	fb:cell._62	[62]	-lsb-|62|-rsb-	-lsb-|62|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|62.0|	62.0				
+63	0	fb:cell.sicard	Sicard	sicard	Sicard	NNP	PERSON						
+63	1	fb:cell.dm_21	DM-21	dm-21	dm-21	NN	O		21.0				
+63	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+63	3	fb:cell.moored_starboard_side_to_pruitt_in_berth_b_18_navy_yard_undergoing_overhaul	Moored starboard side to Pruitt in berth B-18 Navy Yard undergoing overhaul.	moored|starboard|side|to|pruitt|in|berth|b-18|navy|yard|undergoing|overhaul|.	moor|starboard|side|to|Pruitt|in|berth|b-18|Navy|Yard|undergo|overhaul|.	VBN|JJ|NN|TO|NNP|IN|VBP|NN|NNP|NNP|VBG|NN|.	O|O|O|O|PERSON|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O	||||||||||||	18.0			Moored starboard side to Pruitt in berth B-18 Navy Yard undergoing overhaul.	fb:part.moored_starboard_side_to_pruitt_in_berth_b_18_navy_yard_undergoing_overhaul
+63	4	fb:cell._63	[63]	-lsb-|63|-rsb-	-lsb-|63|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|63.0|	63.0				
+64	0	fb:cell.pruitt	Pruitt	pruitt	Pruitt	NNP	PERSON						
+64	1	fb:cell.dm_22	DM-22	dm-22	dm-22	NN	O		22.0				
+64	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+64	3	fb:cell.moored_at_berth_b_18_navy_yard_undergoing_routine_overhaul_sicard_and_ontario_moored_to_port_in_that_order	moored at berth B-18, Navy Yard, undergoing routine overhaul. Sicard and Ontario moored to port in that order.	moored|at|berth|b-18|,|navy|yard|,|undergoing|routine|overhaul|.|sicard|and|ontario|moored|to|port|in|that|order|.	moor|at|berth|b-18|,|Navy|Yard|,|undergo|routine|overhaul|.|Sicard|and|Ontario|moor|to|port|in|that|order|.	VBN|IN|VBP|NN|,|NNP|NNP|,|VBG|JJ|NN|.|NNP|CC|NNP|VBD|TO|NN|IN|DT|NN|.	O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O|PERSON|O|LOCATION|O|O|O|O|O|O|O	|||||||||||||||||||||	18.0			moored at berth B-18|Navy Yard|undergoing routine overhaul. Sicard and Ontario moored to port in that order.	fb:part.moored_at_berth_b_18|fb:part.navy_yard|fb:part.undergoing_routine_overhaul_sicard_and_ontario_moored_to_port_in_that_order
+64	4	fb:cell._64	[64]	-lsb-|64|-rsb-	-lsb-|64|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|64.0|	64.0				
+65	0	fb:cell.zane	Zane	zane	Zane	NNP	PERSON						
+65	1	fb:cell.dms_14	DMS-14	dms-14	dms-14	NN	O		14.0				
+65	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+65	3	fb:cell.moored_bow_and_stern_in_a_nest_with_mine_division_four_at_buoys_d_7_and_d_7s_order_from_port_to_starboard_trever_wasmuth_zane_and_perry	moored bow and stern in a nest with Mine Division Four at buoys D-7 and D-7s; order from port to starboard: Trever, Wasmuth, Zane, and Perry.	moored|bow|and|stern|in|a|nest|with|mine|division|four|at|buoys|d-7|and|d-7s|;|order|from|port|to|starboard|:|trever|,|wasmuth|,|zane|,|and|perry|.	moor|bow|and|stern|in|a|nest|with|Mine|Division|four|at|buoy|d-7|and|d-7|;|order|from|port|to|starboard|:|Trever|,|Wasmuth|,|Zane|,|and|Perry|.	VBN|NN|CC|JJ|IN|DT|NN|IN|NNP|NNP|CD|IN|VBZ|NN|CC|NNS|:|NN|IN|NN|TO|NN|:|NNP|,|NNP|,|NNP|,|CC|NNP|.	O|O|O|O|O|O|O|O|MISC|MISC|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|PERSON|O	||||||||||4.0|||||||||||||||||||||	7.0		7.0	moored bow and stern in a nest with Mine Division Four at buoys D-7 and D-7s; order from port to starboard: Trever|Wasmuth|Zane|and Perry.	fb:part.moored_bow_and_stern_in_a_nest_with_mine_division_four_at_buoys_d_7_and_d_7s_order_from_port_to_starboard_trever|fb:part.wasmuth|fb:part.zane|fb:part.and_perry
+65	4	fb:cell._65	[65]	-lsb-|65|-rsb-	-lsb-|65|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|65.0|	65.0				
+66	0	fb:cell.wasmuth	Wasmuth	wasmuth	Wasmuth	NNP	PERSON						
+66	1	fb:cell.dms_15	DMS-15	dms-15	dms-15	NN	O		15.0				
+66	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+66	3	fb:cell.moored_bow_and_stern_in_a_nest_with_mine_division_four_at_buoys_d_7_and_d_7s_order_from_port_to_starboard_trever_wasmuth_zane_and_perry	moored bow and stern in a nest with Mine Division Four at buoys D-7 and D-7s; order from port to starboard: Trever, Wasmuth, Zane, and Perry.	moored|bow|and|stern|in|a|nest|with|mine|division|four|at|buoys|d-7|and|d-7s|;|order|from|port|to|starboard|:|trever|,|wasmuth|,|zane|,|and|perry|.	moor|bow|and|stern|in|a|nest|with|Mine|Division|four|at|buoy|d-7|and|d-7|;|order|from|port|to|starboard|:|Trever|,|Wasmuth|,|Zane|,|and|Perry|.	VBN|NN|CC|JJ|IN|DT|NN|IN|NNP|NNP|CD|IN|VBZ|NN|CC|NNS|:|NN|IN|NN|TO|NN|:|NNP|,|NNP|,|NNP|,|CC|NNP|.	O|O|O|O|O|O|O|O|MISC|MISC|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|PERSON|O	||||||||||4.0|||||||||||||||||||||	7.0		7.0	moored bow and stern in a nest with Mine Division Four at buoys D-7 and D-7s; order from port to starboard: Trever|Wasmuth|Zane|and Perry.	fb:part.moored_bow_and_stern_in_a_nest_with_mine_division_four_at_buoys_d_7_and_d_7s_order_from_port_to_starboard_trever|fb:part.wasmuth|fb:part.zane|fb:part.and_perry
+66	4	fb:cell._66	[66]	-lsb-|66|-rsb-	-lsb-|66|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|66.0|	66.0				
+67	0	fb:cell.trever	Trever	trever	Trever	NNP	PERSON						
+67	1	fb:cell.dms_16	DMS-16	dms-16	dms-16	NN	O		16.0				
+67	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+67	3	fb:cell.moored_at_buoys_d_7_and_d_7_s_bow_towards_pearl_city_in_the_following_order_from_north_trever_wasmuth_zane_and_perry	moored at buoys D-7 and D-7-S, bow towards Pearl City, in the following order from north, Trever, Wasmuth, Zane, and Perry	moored|at|buoys|d-7|and|d-7|s|,|bow|towards|pearl|city|,|in|the|following|order|from|north|,|trever|,|wasmuth|,|zane|,|and|perry	moor|at|buoy|d-7|and|d-7|s|,|bow|towards|Pearl|City|,|in|the|follow|order|from|north|,|Trever|,|Wasmuth|,|Zane|,|and|Perry	VBN|IN|VBZ|NN|CC|NN|NN|,|NN|IN|NNP|NNP|,|IN|DT|VBG|NN|IN|RB|,|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|O|O|O|O|O|LOCATION|LOCATION|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|PERSON	|||||||||||||||||||||||||||	7.0		7.0	moored at buoys D-7 and D-7-S|bow towards Pearl City|in the following order from north|Trever|Wasmuth|Zane|and Perry	fb:part.moored_at_buoys_d_7_and_d_7_s|fb:part.bow_towards_pearl_city|fb:part.in_the_following_order_from_north|fb:part.trever|fb:part.wasmuth|fb:part.zane|fb:part.and_perry_2
+67	4	fb:cell._67	[67]	-lsb-|67|-rsb-	-lsb-|67|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|67.0|	67.0				
+68	0	fb:cell.perry	Perry	perry	Perry	NNP	PERSON						
+68	1	fb:cell.dms_17	DMS-17	dms-17	dms-17	NN	O		17.0				
+68	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+68	3	fb:cell.moored_at_buoy_d_7_in_the_following_order_from_north_trever_wasmuth_zane_and_perry	moored at buoy D-7, in the following order from north, Trever, Wasmuth, Zane, and Perry	moored|at|buoy|d-7|,|in|the|following|order|from|north|,|trever|,|wasmuth|,|zane|,|and|perry	moor|at|buoy|d-7|,|in|the|follow|order|from|north|,|Trever|,|Wasmuth|,|Zane|,|and|Perry	VBN|IN|VB|NN|,|IN|DT|VBG|NN|IN|RB|,|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|PERSON	|||||||||||||||||||	7.0			moored at buoy D-7|in the following order from north|Trever|Wasmuth|Zane|and Perry	fb:part.moored_at_buoy_d_7|fb:part.in_the_following_order_from_north|fb:part.trever|fb:part.wasmuth|fb:part.zane|fb:part.and_perry_2
+68	4	fb:cell._68	[68]	-lsb-|68|-rsb-	-lsb-|68|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|68.0|	68.0				
+69	0	fb:cell.sacramento	Sacramento	sacramento	Sacramento	NNP	LOCATION						
+69	1	fb:cell.pg_19	PG-19	pg-19	pg-19	NN	O		19.0				
+69	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+69	3	fb:cell.moored_port_side_to_berth_b_6_navy_yard_with_mugford_and_jarvis_moored_alongside_to_starboard	moored port side to berth B-6, Navy Yard with Mugford and Jarvis moored alongside to starboard.	moored|port|side|to|berth|b-6|,|navy|yard|with|mugford|and|jarvis|moored|alongside|to|starboard|.	moor|port|side|to|berth|B-6|,|Navy|Yard|with|Mugford|and|Jarvis|moor|alongside|to|starboard|.	VBN|JJ|NN|TO|VB|NNP|,|NNP|NNP|IN|NNP|CC|NNP|VBD|IN|TO|NN|.	O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|PERSON|O|PERSON|O|O|O|O|O	|||||||||||||||||	6.0			moored port side to berth B-6|Navy Yard with Mugford and Jarvis moored alongside to starboard.	fb:part.moored_port_side_to_berth_b_6|fb:part.navy_yard_with_mugford_and_jarvis_moored_alongside_to_starboard
+69	4	fb:cell._69	[69]	-lsb-|69|-rsb-	-lsb-|69|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|69.0|	69.0				
+70	0	fb:cell.dobbin	Dobbin	dobbin	Dobbin	NNP	PERSON						
+70	1	fb:cell.ad_3	AD-3	ad-3	ad-3	NN	O		3.0				
+70	2	fb:cell.minor_damage	Minor damage	minor|damage	minor|damage	JJ|NN	O|O	|				Minor damage	fb:part.minor_damage
+70	3	fb:cell.berth_x_2_nested_with_hull_dewey_worden_macdonough_and_phelps	berth X-2, nested with Hull, Dewey, Worden, MacDonough, and Phelps	berth|x-2|,|nested|with|hull|,|dewey|,|worden|,|macdonough|,|and|phelps	berth|x-2|,|nested|with|Hull|,|Dewey|,|Worden|,|MacDonough|,|and|Phelps	VBP|NN|,|JJ|IN|NNP|,|NNP|,|NNP|,|NNP|,|CC|NNP	O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|PERSON|O|O|LOCATION	||||||||||||||	2.0			berth X-2|nested with Hull|Dewey|Worden|MacDonough|and Phelps	fb:part.berth_x_2|fb:part.nested_with_hull|fb:part.dewey|fb:part.worden|fb:part.macdonough|fb:part.and_phelps
+70	4	fb:cell._70	[70]	-lsb-|70|-rsb-	-lsb-|70|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|70.0|	70.0				
+71	0	fb:cell.whitney	Whitney	whitney	Whitney	NNP	PERSON						
+71	1	fb:cell.ad_4	AD-4	ad-4	ad-4	NN	O		4.0				
+71	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+71	3	fb:cell.moored_bow_and_stern_to_buoys_x_8_and_x_8s_with_conyngham_reid_tucker_case_and_selfridge_moored_alongside_to_port	moored bow and stern to buoys X-8 and X-8S with Conyngham, Reid, Tucker, Case and Selfridge moored alongside to port	moored|bow|and|stern|to|buoys|x-8|and|x-8s|with|conyngham|,|reid|,|tucker|,|case|and|selfridge|moored|alongside|to|port	moor|bow|and|stern|to|buoy|x-8|and|x-8|with|Conyngham|,|Reid|,|Tucker|,|Case|and|Selfridge|moor|alongside|to|port	VBN|NN|CC|JJ|TO|VBZ|NN|CC|NN|IN|NNP|,|NNP|,|NNP|,|NNP|CC|NNP|VBD|IN|TO|NN	O|O|O|O|O|O|O|O|O|O|PERSON|O|PERSON|O|PERSON|O|O|O|PERSON|O|O|O|O	||||||||||||||||||||||	8.0		8.0	moored bow and stern to buoys X-8 and X-8S with Conyngham|Reid|Tucker|Case and Selfridge moored alongside to port	fb:part.moored_bow_and_stern_to_buoys_x_8_and_x_8s_with_conyngham|fb:part.reid|fb:part.tucker|fb:part.case_and_selfridge_moored_alongside_to_port
+71	4	fb:cell._71	[71]	-lsb-|71|-rsb-	-lsb-|71|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|71.0|	71.0				
+72	0	fb:cell.curtiss	Curtiss	curtiss	Curtiss	NNP	PERSON						
+72	1	fb:cell.av_4	AV-4	av-4	av-4	NN	O		4.0				
+72	2	fb:cell.suffered_bomb_damage_repaired_san_diego_back_to_pearl_harbor_by_january_13_1942	Suffered bomb damage, repaired San Diego, back to Pearl Harbor by January 13, 1942	suffered|bomb|damage|,|repaired|san|diego|,|back|to|pearl|harbor|by|january|13|,|1942	suffer|bomb|damage|,|repair|San|Diego|,|back|to|Pearl|Harbor|by|January|13|,|1942	VBN|NN|NN|,|VBN|NNP|NNP|,|RB|TO|NNP|NNP|IN|NNP|CD|,|CD	O|O|O|O|O|LOCATION|LOCATION|O|O|O|LOCATION|LOCATION|O|DATE|DATE|DATE|DATE	|||||||||||||1942-01-13|1942-01-13|1942-01-13|1942-01-13	131942.0			Suffered bomb damage|repaired San Diego|back to Pearl Harbor by January 13|1942	fb:part.suffered_bomb_damage|fb:part.repaired_san_diego|fb:part.back_to_pearl_harbor_by_january_13|fb:part.1942
+72	3	fb:cell.moored_in_berth_x_22	moored in berth X-22	moored|in|berth|x-22	moor|in|berth|x-22	VBN|IN|VBP|NN	O|O|O|O	|||	22.0			moored in berth X-22	fb:part.moored_in_berth_x_22
+72	4	fb:cell._72	[72]	-lsb-|72|-rsb-	-lsb-|72|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|72.0|	72.0				
+73	0	fb:cell.tangier	Tangier	tangier	Tangier	NNP	LOCATION						
+73	1	fb:cell.av_8	AV-8	av-8	av-8	NN	O		8.0				
+73	2	fb:cell.minor_damage_by_several_bomb_near_misses	Minor damage by several bomb near-misses	minor|damage|by|several|bomb|near|misses	minor|damage|by|several|bomb|near|miss	JJ|NN|IN|JJ|NN|IN|VBZ	O|O|O|O|O|O|O	||||||				Minor damage by several bomb near-misses	fb:part.minor_damage_by_several_bomb_near_misses
+73	3	fb:cell.berthed_at_f_10_ford_island_with_ship_s_head_bearing_230_true_utah_moored_at_f_11_directly_astern_raleigh_at_f_12	berthed at F-10, Ford Island, with ship's head bearing 230° true; Utah moored at F-11 directly astern; Raleigh at F-12	berthed|at|f-10|,|ford|island|,|with|ship|'s|head|bearing|230|°|true|;|utah|moored|at|f-11|directly|astern|;|raleigh|at|f-12	berthed|at|f-10|,|Ford|Island|,|with|ship|'s|head|bearing|230|°|true|;|Utah|moor|at|f-11|directly|astern|;|Raleigh|at|F-12	RB|IN|NN|,|NNP|NNP|,|IN|NN|POS|NN|NN|CD|NN|JJ|:|NNP|VBD|IN|NN|RB|VBN|:|NNP|IN|NNP	O|O|O|O|LOCATION|LOCATION|O|O|O|O|O|O|NUMBER|O|O|O|LOCATION|O|O|MISC|O|O|O|LOCATION|O|O	||||||||||||230.0|||||||||||||	10.0		230.0	berthed at F-10|Ford Island|with ship's head bearing 230° true; Utah moored at F-11 directly astern; Raleigh at F-12	fb:part.berthed_at_f_10|fb:part.ford_island|fb:part.with_ship_s_head_bearing_230_true_utah_moored_at_f_11_directly_astern_raleigh_at_f_12
+73	4	fb:cell._73	[73]	-lsb-|73|-rsb-	-lsb-|73|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|73.0|	73.0				
+74	0	fb:cell.avocet	Avocet	avocet	Avocet	NNP	O						
+74	1	fb:cell.avp_4	AVP-4	avp-4	avp-4	NN	O		4.0				
+74	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+74	3	fb:cell.moored_at_berth_f_1_naval_air_station_dock	moored at berth F-1, Naval Air Station Dock	moored|at|berth|f-1|,|naval|air|station|dock	moor|at|berth|f-1|,|Naval|Air|Station|Dock	VBN|IN|VBP|NN|,|NNP|NNP|NNP|NNP	O|O|O|O|O|O|O|O|O	||||||||	1.0			moored at berth F-1|Naval Air Station Dock	fb:part.moored_at_berth_f_1|fb:part.naval_air_station_dock
+74	4	fb:cell._74	[74]	-lsb-|74|-rsb-	-lsb-|74|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|74.0|	74.0				
+75	0	fb:cell.swan	Swan	swan	swan	NN	O						
+75	1	fb:cell.avp_7	AVP-7	avp-7	avp-7	NN	O		7.0				
+75	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+75	3	fb:cell.resting_on_the_marine_railway_dock_in_boiler_upkeep	resting on the Marine Railway dock, in boiler upkeep	resting|on|the|marine|railway|dock|,|in|boiler|upkeep	rest|on|the|Marine|railway|dock|,|in|boiler|upkeep	VBG|IN|DT|NNP|NN|NN|,|IN|NN|NN	O|O|O|O|O|O|O|O|O|O	|||||||||				resting on the Marine Railway dock|in boiler upkeep	fb:part.resting_on_the_marine_railway_dock|fb:part.in_boiler_upkeep
+75	4	fb:cell._75	[75]	-lsb-|75|-rsb-	-lsb-|75|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|75.0|	75.0				
+76	0	fb:cell.hulbert	Hulbert	hulbert	Hulbert	NNP	PERSON						
+76	1	fb:cell.avd_6	AVD-6	avd-6	avd-6	NN	O		6.0				
+76	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+76	3	fb:cell.moored_berth_s_3_at_the_submarine_base	moored berth S-3 at the Submarine Base	moored|berth|s-3|at|the|submarine|base	moor|berth|s-3|at|the|submarine|base	VBN|VBP|NN|IN|DT|NN|NN	O|O|O|O|O|O|O	||||||	3.0			moored berth S-3 at the Submarine Base	fb:part.moored_berth_s_3_at_the_submarine_base
+76	4	fb:cell._76	[76]	-lsb-|76|-rsb-	-lsb-|76|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|76.0|	76.0				
+77	0	fb:cell.thornton	Thornton	thornton	Thornton	NNP	PERSON						
+77	1	fb:cell.avd_11	AVD-11	avd-11	avd-11	NN	O		11.0				
+77	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+77	3	fb:cell.moored_port_side_to_dock_at_berth_s_1_submarine_base	moored port side to dock at berth S-1, Submarine Base	moored|port|side|to|dock|at|berth|s-1|,|submarine|base	moor|port|side|to|dock|at|berth|s-1|,|submarine|base	VBN|JJ|NN|TO|NN|IN|VBP|NN|,|NN|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||	1.0			moored port side to dock at berth S-1|Submarine Base	fb:part.moored_port_side_to_dock_at_berth_s_1|fb:part.submarine_base
+77	4	fb:cell._77	[77]	-lsb-|77|-rsb-	-lsb-|77|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|77.0|	77.0				
+78	0	fb:cell.pyro	Pyro	pyro	pyro	NN	PERSON						
+78	1	fb:cell.ae_1	AE-1	ae-1	ae-1	NN	O		1.0				
+78	2	fb:cell.minor_damage_due_to_a_near_miss_from_a_dive_bomber	Minor damage due to a near-miss from a dive bomber	minor|damage|due|to|a|near|miss|from|a|dive|bomber	minor|damage|due|to|a|near|miss|from|a|dive|bomber	JJ|NN|JJ|TO|DT|JJ|VBP|IN|DT|NN|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||				Minor damage due to a near-miss from a dive bomber	fb:part.minor_damage_due_to_a_near_miss_from_a_dive_bomber
+78	3	fb:cell.moored_starboard_side_to_west_loch_dock	moored starboard side to West Loch dock.	moored|starboard|side|to|west|loch|dock|.	moor|starboard|side|to|West|Loch|dock|.	VBN|JJ|NN|TO|NNP|NNP|NN|.	O|O|O|O|LOCATION|LOCATION|O|O	|||||||				moored starboard side to West Loch dock.	fb:part.moored_starboard_side_to_west_loch_dock
+78	4	fb:cell._78	[78]	-lsb-|78|-rsb-	-lsb-|78|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|78.0|	78.0				
+79	0	fb:cell.ramapo	Ramapo	ramapo	Ramapo	NNP	LOCATION						
+79	1	fb:cell.ao_12	AO-12	ao-12	ao-12	NN	O		12.0				
+79	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+79	3	fb:cell.moored_in_berth_b_12_aft_of_rigel_starboard_side_to_under_the_large_crane	moored in Berth B-12, aft of Rigel, starboard side to, under the large crane	moored|in|berth|b-12|,|aft|of|rigel|,|starboard|side|to|,|under|the|large|crane	moor|in|Berth|B-12|,|aft|of|Rigel|,|starboard|side|to|,|under|the|large|crane	VBN|IN|NNP|NNP|,|NN|IN|NNP|,|JJ|NN|TO|,|IN|DT|JJ|NN	O|O|O|O|O|O|O|PERSON|O|O|O|O|O|O|O|O|O	||||||||||||||||	12.0			moored in Berth B-12|aft of Rigel|starboard side to|under the large crane	fb:part.moored_in_berth_b_12|fb:part.aft_of_rigel|fb:part.starboard_side_to|fb:part.under_the_large_crane
+79	4	fb:cell._79	[79]	-lsb-|79|-rsb-	-lsb-|79|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|79.0|	79.0				
+80	0	fb:cell.neosho	Neosho	neosho	Neosho	NNP	LOCATION						
+80	1	fb:cell.ao_23	AO-23	ao-23	ao-23	NN	O		23.0				
+80	2	fb:cell.undamaged_moved_to_berth_m_3_merry_point_at_0930	Undamaged, moved to berth M-3 Merry Point at 0930	undamaged|,|moved|to|berth|m-3|merry|point|at|0930	undamaged|,|move|to|berth|m-3|Merry|Point|at|0930	JJ|,|VBD|TO|VB|NN|NNP|NNP|IN|CD	O|O|O|O|O|O|O|O|O|DATE	|||||||||0930	3.0		930.0	Undamaged|moved to berth M-3 Merry Point at 0930	fb:part.undamaged|fb:part.moved_to_berth_m_3_merry_point_at_0930
+80	3	fb:cell.aft_of_california	aft of California)	aft|of|california|-rrb-	aft|of|California|-rrb-	NN|IN|NNP|-RRB-	O|O|LOCATION|O	|||				aft of California)	fb:part.aft_of_california
+80	4	fb:cell._80	[80]	-lsb-|80|-rsb-	-lsb-|80|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|80.0|	80.0				
+81	0	fb:cell.medusa	Medusa	medusa	Medusa	NNP	PERSON						
+81	1	fb:cell.ar_1	AR-1	ar-1	ar-1	NN	O		1.0				
+81	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+81	3	fb:cell.moored_berth_x_23_near_curtiss	moored berth X-23 near Curtiss	moored|berth|x-23|near|curtiss	moor|berth|x-23|near|Curtiss	VBN|VBP|NN|IN|NNP	O|O|O|O|LOCATION	||||	23.0			moored berth X-23 near Curtiss	fb:part.moored_berth_x_23_near_curtiss
+81	4	fb:cell._81	[81]	-lsb-|81|-rsb-	-lsb-|81|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|81.0|	81.0				
+82	0	fb:cell.vestal	Vestal	vestal	Vestal	NNP	PERSON						
+82	1	fb:cell.ar_4	AR-4	ar-4	ar-4	NN	O		4.0				
+82	2	fb:cell.damaged_struck_by_2_bombs_and_adjacent_to_arizona_during_explosions	Damaged, struck by 2 bombs and adjacent to Arizona during explosions	damaged|,|struck|by|2|bombs|and|adjacent|to|arizona|during|explosions	damage|,|strike|by|2|bomb|and|adjacent|to|Arizona|during|explosion	VBN|,|VBN|IN|CD|NNS|CC|JJ|TO|NNP|IN|NNS	O|O|O|O|NUMBER|O|O|O|O|LOCATION|O|O	||||2.0|||||||	2.0			Damaged|struck by 2 bombs and adjacent to Arizona during explosions	fb:part.damaged|fb:part.struck_by_2_bombs_and_adjacent_to_arizona_during_explosions
+82	3	fb:cell.moored_port_side_to_the_port_side_of_the_arizona_at_f_7	moored port side to the port side of the Arizona at F-7	moored|port|side|to|the|port|side|of|the|arizona|at|f-7	moor|port|side|to|the|port|side|of|the|Arizona|at|F-7	VBN|JJ|NN|TO|DT|JJ|NN|IN|DT|NNP|IN|NNP	O|O|O|O|O|O|O|O|O|LOCATION|O|O	|||||||||||	7.0			moored port side to the port side of the Arizona at F-7	fb:part.moored_port_side_to_the_port_side_of_the_arizona_at_f_7
+82	4	fb:cell._82	[82]	-lsb-|82|-rsb-	-lsb-|82|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|82.0|	82.0				
+83	0	fb:cell.rigel	Rigel	rigel	Rigel	NNP	PERSON						
+83	1	fb:cell.ar_11	AR-11	ar-11	ar-11	NN	O		11.0				
+83	2	fb:cell.minor_damage_from_bomb_near_misses	Minor damage from bomb near-misses	minor|damage|from|bomb|near|misses	minor|damage|from|bomb|near|miss	JJ|NN|IN|NN|IN|VBZ	O|O|O|O|O|O	|||||				Minor damage from bomb near-misses	fb:part.minor_damage_from_bomb_near_misses
+83	3	fb:cell.moored_in_berth_b_13_navy_yard_unarmed_and_undergoing_major_repairs_and_conversion_forward_of_ramapo	moored in berth B-13, Navy Yard, unarmed and undergoing major repairs and conversion, forward of Ramapo	moored|in|berth|b-13|,|navy|yard|,|unarmed|and|undergoing|major|repairs|and|conversion|,|forward|of|ramapo	moor|in|berth|b-13|,|Navy|Yard|,|unarmed|and|undergo|major|repair|and|conversion|,|forward|of|Ramapo	VBN|IN|VBP|NN|,|NNP|NNP|,|JJ|CC|VBG|JJ|NNS|CC|NN|,|RB|IN|NNP	O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|LOCATION	||||||||||||||||||	13.0			moored in berth B-13|Navy Yard|unarmed and undergoing major repairs and conversion|forward of Ramapo	fb:part.moored_in_berth_b_13|fb:part.navy_yard|fb:part.unarmed_and_undergoing_major_repairs_and_conversion|fb:part.forward_of_ramapo
+83	4	fb:cell._83	[83]	-lsb-|83|-rsb-	-lsb-|83|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|83.0|	83.0				
+84	0	fb:cell.pelias	Pelias	pelias	Pelias	NNP	PERSON						
+84	1	fb:cell.as_14	AS-14	as-14	as-14	NN	O		14.0				
+84	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+84	3	fb:cell.moored_at_submarine_base_dock	moored at submarine Base dock	moored|at|submarine|base|dock	moor|at|submarine|base|dock	VBN|IN|NN|NN|NN	O|O|O|O|O	||||				moored at submarine Base dock	fb:part.moored_at_submarine_base_dock
+84	4	fb:cell._84	[84]	-lsb-|84|-rsb-	-lsb-|84|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|84.0|	84.0				
+85	0	fb:cell.widgeon	Widgeon	widgeon	widgeon	NN	O						
+85	1	fb:cell.asr_1	ASR-1	asr-1	asr-1	NN	O		1.0				
+85	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+85	3	fb:cell.berthed_at_the_submarine_base	berthed at the submarine base	berthed|at|the|submarine|base	berthed|at|the|submarine|base	RB|IN|DT|NN|NN	O|O|O|O|O	||||				berthed at the submarine base	fb:part.berthed_at_the_submarine_base
+85	4	fb:cell._85	[85]	-lsb-|85|-rsb-	-lsb-|85|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|85.0|	85.0				
+86	0	fb:cell.solace	Solace	solace	solace	NN	O						
+86	1	fb:cell.ah_5	AH-5	ah-5	ah-5	NN	O		5.0				
+86	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+86	3	fb:cell.moored_berth_x_4_moved_to_berth_x_13_at_0900	moored berth X-4. Moved to berth X-13 at 0900.	moored|berth|x-4|.|moved|to|berth|x-13|at|0900|.	moor|berth|x-4|.|move|to|berth|x-13|at|0900|.	VBN|VBP|NN|.|VBN|TO|VB|NN|IN|CD|.	O|O|O|O|O|O|O|O|O|DATE|O	|||||||||0900|	4.0		13.0	moored berth X-4. Moved to berth X-13 at 0900.	fb:part.moored_berth_x_4_moved_to_berth_x_13_at_0900
+86	4	fb:cell._86	[86]	-lsb-|86|-rsb-	-lsb-|86|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|86.0|	86.0				
+87	0	fb:cell.castor	Castor	castor	Castor	NNP	O						
+87	1	fb:cell.aks_1	AKS-1	aks-1	aks-1	NN	O		1.0				
+87	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+87	3	fb:cell.berthed_at_merry_point_berth_m_4_near_sumner	berthed at Merry Point berth M-4, near Sumner	berthed|at|merry|point|berth|m-4|,|near|sumner	berthed|at|Merry|Point|berth|m-4|,|near|Sumner	RB|IN|NNP|NNP|VBP|NN|,|IN|NNP	O|O|O|O|O|O|O|O|LOCATION	||||||||	4.0			berthed at Merry Point berth M-4|near Sumner	fb:part.berthed_at_merry_point_berth_m_4|fb:part.near_sumner
+87	4	fb:cell._87	[87]	-lsb-|87|-rsb-	-lsb-|87|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|87.0|	87.0				
+88	0	fb:cell.antares	Antares	antares	antare	NNS	LOCATION						
+88	1	fb:cell.aks_3	AKS-3	aks-3	aks-3	NN	O		3.0				
+88	2	fb:cell.undamaged_docked_at_honolulu_at_1146	Undamaged, docked at Honolulu at 1146	undamaged|,|docked|at|honolulu|at|1146	undamaged|,|dock|at|Honolulu|at|1146	JJ|,|VBN|IN|NNP|IN|CD	O|O|O|O|LOCATION|O|DATE	||||||1146	1146.0			Undamaged|docked at Honolulu at 1146	fb:part.undamaged|fb:part.docked_at_honolulu_at_1146
+88	3	fb:cell.operating_at_harbor_entrance	Operating at harbor entrance	operating|at|harbor|entrance	operate|at|harbor|entrance	VBG|IN|NN|NN	O|O|O|O	|||				Operating at harbor entrance	fb:part.operating_at_harbor_entrance
+88	4	fb:cell._88	[88]	-lsb-|88|-rsb-	-lsb-|88|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|88.0|	88.0				
+89	0	fb:cell.ontario	Ontario	ontario	Ontario	NNP	LOCATION						
+89	1	fb:cell.at_13	AT-13	at-13	at-13	NN	O		13.0				
+89	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+89	3	fb:cell.moored_in_berth_b_18_repair_basin_pearl_harbor_outboard_of_the_sicard_undergoing_an_overhaul	moored in berth B-18, Repair Basin, Pearl Harbor outboard of the Sicard, undergoing an overhaul	moored|in|berth|b-18|,|repair|basin|,|pearl|harbor|outboard|of|the|sicard|,|undergoing|an|overhaul	moor|in|berth|b-18|,|Repair|Basin|,|Pearl|Harbor|outboard|of|the|Sicard|,|undergo|a|overhaul	VBN|IN|VBP|NN|,|NNP|NNP|,|NNP|NNP|NN|IN|DT|NNP|,|VBG|DT|NN	O|O|O|O|O|LOCATION|LOCATION|O|LOCATION|LOCATION|O|O|O|PERSON|O|O|O|O	|||||||||||||||||	18.0			moored in berth B-18|Repair Basin|Pearl Harbor outboard of the Sicard|undergoing an overhaul	fb:part.moored_in_berth_b_18|fb:part.repair_basin|fb:part.pearl_harbor_outboard_of_the_sicard|fb:part.undergoing_an_overhaul
+89	4	fb:cell._89	[89]	-lsb-|89|-rsb-	-lsb-|89|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|89.0|	89.0				
+90	0	fb:cell.keosanqua	Keosanqua	keosanqua	keosanqua	NN	PERSON						
+90	1	fb:cell.at_38	AT-38	at-38	at-38	NN	O		38.0				
+90	2	fb:cell.null											fb:part.null
+90	3	fb:cell.operating_at_harbor_entrance_with_antares	Operating at harbor entrance with Antares	operating|at|harbor|entrance|with|antares	operate|at|harbor|entrance|with|antare	VBG|IN|NN|NN|IN|NNS	O|O|O|O|O|ORGANIZATION	|||||				Operating at harbor entrance with Antares	fb:part.operating_at_harbor_entrance_with_antares
+90	4	fb:cell._90	[90]	-lsb-|90|-rsb-	-lsb-|90|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|90.0|	90.0				
+91	0	fb:cell.utah	Utah	utah	Utah	NNP	LOCATION						
+91	1	fb:cell.ag_16	AG-16	ag-16	ag-16	NN	O		16.0				
+91	2	fb:cell.sunk_total_loss	Sunk, total loss	sunk|,|total|loss	Sunk|,|total|loss	NNP|,|JJ|NN	O|O|O|O	|||				Sunk|total loss	fb:part.sunk|fb:part.total_loss
+91	3	fb:cell.moored_at_berth_f_11_between_raleigh_forward_and_tangier_astern	moored at Berth F-11, between Raleigh forward and Tangier astern	moored|at|berth|f-11|,|between|raleigh|forward|and|tangier|astern	moor|at|Berth|f-11|,|between|Raleigh|forward|and|Tangier|astern	VBN|IN|NNP|NN|,|IN|NNP|RB|CC|NNP|IN	O|O|O|O|O|O|LOCATION|O|O|LOCATION|O	||||||||||	11.0			moored at Berth F-11|between Raleigh forward and Tangier astern	fb:part.moored_at_berth_f_11|fb:part.between_raleigh_forward_and_tangier_astern
+91	4	fb:cell._91	[91]	-lsb-|91|-rsb-	-lsb-|91|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|91.0|	91.0				
+92	0	fb:cell.argonne	Argonne	argonne	Argonne	NNP	LOCATION						
+92	1	fb:cell.ag_31	AG-31	ag-31	ag-31	NN	O		31.0				
+92	2	fb:cell.null											fb:part.null
+92	3	fb:cell.moored_at_berth_b_5_north_end_of_1010_dock	Moored at berth B-5, north end of 1010 Dock.	moored|at|berth|b-5|,|north|end|of|1010|dock|.	moor|at|berth|b-5|,|north|end|of|1010|dock|.	VBN|IN|VBP|NN|,|NN|NN|IN|CD|NN|.	O|O|O|O|O|O|DATE|DATE|DATE|O|O	||||||1010|1010|1010||	5.0		1010.0	Moored at berth B-5|north end of 1010 Dock.	fb:part.moored_at_berth_b_5|fb:part.north_end_of_1010_dock
+92	4	fb:cell._92	[92]	-lsb-|92|-rsb-	-lsb-|92|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|92.0|	92.0				
+93	0	fb:cell.sumner	Sumner	sumner	Sumner	NNP	PERSON						
+93	1	fb:cell.ag_32	AG-32	ag-32	ag-32	NN	O		32.0				
+93	2	fb:cell.minor_injuries_to_gun_crews_incurred_while_firing_on_aircraft	Minor injuries to gun crews incurred while firing on aircraft	minor|injuries|to|gun|crews|incurred|while|firing|on|aircraft	minor|injury|to|gun|crew|incur|while|firing|on|aircraft	JJ|NNS|TO|NN|NNS|VBN|IN|NN|IN|NN	O|O|O|O|O|O|O|O|O|O	|||||||||				Minor injuries to gun crews incurred while firing on aircraft	fb:part.minor_injuries_to_gun_crews_incurred_while_firing_on_aircraft
+93	3	fb:cell.moored_to_the_new_dock_at_the_southern_end_of_the_submarine_base_port_side_to_bow_to_eastward	Moored to the new dock at the southern end of the Submarine Base, port side to, bow to eastward	moored|to|the|new|dock|at|the|southern|end|of|the|submarine|base|,|port|side|to|,|bow|to|eastward	moor|to|the|new|dock|at|the|southern|end|of|the|submarine|base|,|port|side|to|,|bow|to|eastward	VBN|TO|DT|JJ|NN|IN|DT|JJ|NN|IN|DT|NN|NN|,|JJ|NN|TO|,|NN|TO|RB	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||||				Moored to the new dock at the southern end of the Submarine Base|port side to|bow to eastward	fb:part.moored_to_the_new_dock_at_the_southern_end_of_the_submarine_base|fb:part.port_side_to|fb:part.bow_to_eastward
+93	4	fb:cell._93	[93]	-lsb-|93|-rsb-	-lsb-|93|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|93.0|	93.0				
+94	0	fb:cell.cockatoo	Cockatoo	cockatoo	Cockatoo	NNP	O						
+94	1	fb:cell.amc_8	AMc-8	amc-8	amc-8	NN	O		8.0				
+94	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+94	3	fb:cell.null											fb:part.null
+94	4	fb:cell.null											fb:part.null
+95	0	fb:cell.crossbill	Crossbill	crossbill	Crossbill	NNP	O						
+95	1	fb:cell.amc_9	AMc-9	amc-9	amc-9	NN	O		9.0				
+95	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+95	3	fb:cell.returned_to_harbor_from_sweeping_0525	Returned to harbor from sweeping 0525	returned|to|harbor|from|sweeping|0525	return|to|harbor|from|sweeping|0525	VBN|TO|VB|IN|JJ|CD	O|O|O|O|O|DATE	|||||0525	525.0			Returned to harbor from sweeping 0525	fb:part.returned_to_harbor_from_sweeping_0525
+95	4	fb:cell._94	[94]	-lsb-|94|-rsb-	-lsb-|94|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|94.0|	94.0				
+96	0	fb:cell.condor	Condor	condor	condor	NN	O						
+96	1	fb:cell.amc_14	AMc-14	amc-14	amc-14	NN	O		14.0				
+96	2	fb:cell.undamaged	Undamaged	undamaged	undamaged	JJ	O					Undamaged	fb:part.undamaged
+96	3	fb:cell.returned_to_harbor_from_sweeping_0525	Returned to harbor from sweeping 0525	returned|to|harbor|from|sweeping|0525	return|to|harbor|from|sweeping|0525	VBN|TO|VB|IN|JJ|CD	O|O|O|O|O|DATE	|||||0525	525.0			Returned to harbor from sweeping 0525	fb:part.returned_to_harbor_from_sweeping_0525
+96	4	fb:cell._95	[95]	-lsb-|95|-rsb-	-lsb-|95|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|95.0|	95.0				
+97	0	fb:cell.reedbird	Reedbird	reedbird	reedbird	NN	O						
+97	1	fb:cell.amc_30	AMc-30	amc-30	amc-30	NN	O		30.0				
+97	2	fb:cell.null											fb:part.null
+97	3	fb:cell.null											fb:part.null
+97	4	fb:cell.null											fb:part.null
+98	0	fb:cell.sunnadin	Sunnadin	sunnadin	sunnadin	NN	O						
+98	1	fb:cell.at_28	AT-28	at-28	at-28	NN	O		28.0				
+98	2	fb:cell.null											fb:part.null
+98	3	fb:cell.null											fb:part.null
+98	4	fb:cell.null											fb:part.null
+99	0	fb:cell.taney	Taney	taney	Taney	NNP	PERSON						
+99	1	fb:cell.whec_37	WHEC-37	whec-37	whec-37	NN	O		37.0				
+99	2	fb:cell.undamaged_moored_in_honolulu_harbor	Undamaged. Moored in Honolulu harbor.	undamaged|.|moored|in|honolulu|harbor|.	undamaged|.|moor|in|Honolulu|harbor|.	JJ|.|VBN|IN|NNP|VBP|.	O|O|O|O|LOCATION|O|O	||||||				Undamaged. Moored in Honolulu harbor.	fb:part.undamaged_moored_in_honolulu_harbor
+99	3	fb:cell.on_july_25_1941_the_coast_guard_cutter_was_transferred_to_the_navy_and_reported_for_duty_with_the_local_defense_forces_of_the_14th_naval_district_destroyer_division_80	On July 25, 1941, the Coast Guard cutter was transferred to the Navy and reported for duty with the local defense forces of the 14th Naval District (Destroyer Division 80).	on|july|25|,|1941|,|the|coast|guard|cutter|was|transferred|to|the|navy|and|reported|for|duty|with|the|local|defense|forces|of|the|14th|naval|district|-lrb-|destroyer|division|80|-rrb-|.	on|July|25|,|1941|,|the|Coast|Guard|cutter|be|transfer|to|the|Navy|and|report|for|duty|with|the|local|defense|force|of|the|14th|Naval|District|-lrb-|Destroyer|Division|80|-rrb-|.	IN|NNP|CD|,|CD|,|DT|NNP|NNP|NN|VBD-AUX|VBN|TO|DT|NNP|CC|VBN|IN|NN|IN|DT|JJ|NN|NNS|IN|DT|JJ|NNP|NNP|-LRB-|NNP|NNP|CD|-RRB-|.	O|DATE|DATE|DATE|DATE|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|ORDINAL|O|O|O|O|O|NUMBER|O|O	|1941-07-25|1941-07-25|1941-07-25|1941-07-25||||||||||||||||||||||14.0||||||80.0||	251941.0		14.0	On July 25|1941|the Coast Guard cutter was transferred to the Navy and reported for duty with the local defense forces of the 14th Naval District (Destroyer Division 80).	fb:part.on_july_25|fb:part.1941|fb:part.the_coast_guard_cutter_was_transferred_to_the_navy_and_reported_for_duty_with_the_local_defense_forces_of_the_14th_naval_district_destroyer_division_80
+99	4	fb:cell.null											fb:part.null

@@ -1,0 +1,181 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.race_name	Race name	race|name	race|name	NN|NN	O|O	|					
+-1	2	fb:row.row.d_f	D(f)	d|-lrb-|f|-rrb-	d|-lrb-|f|-rrb-	NN|-LRB-|LS|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.course	Course	course	Course	NNP	O						
+-1	4	fb:row.row.prize	Prize (£)	prize|-lrb-|#|-rrb-	Prize|-lrb-|#|-rrb-	NNP|-LRB-|#|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.odds	Odds	odds	odds	NNS	O						
+-1	6	fb:row.row.runners	Runners	runners	runner	NNS	O						
+-1	7	fb:row.row.place	Place	place	place	NN	O						
+-1	8	fb:row.row.margin	Margin	margin	margin	NN	O						
+-1	9	fb:row.row.winner_runner_up	Winner/Runner-up	winner\\/runner|up	Winner\\/Runner|up	NNP|RB	O|O	|					
+-1	10	fb:row.row.time	Time	time	Time	NNP	O						
+-1	11	fb:row.row.jockey	Jockey	jockey	jockey	NN	O						
+0	0	fb:cell.july_1879	July 1879	july|1879	July|1879	NNP|NNS	DATE|DATE	1879-07|1879-07	1879.0	1879-07-xx			
+0	1	fb:cell.chesterfield_stakes	Chesterfield Stakes	chesterfield|stakes	Chesterfield|stake	NNP|NNS	LOCATION|LOCATION	|					
+0	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+0	3	fb:cell.newmarket	Newmarket	newmarket	Newmarket	NNP	LOCATION						
+0	4	fb:cell.1130	1130	1130	1130	CD	DATE	1130	1130.0	1130-xx-xx			
+0	5	fb:cell.9_4	9/4	9\\/4	9\\/4	CD	NUMBER		9.0		4.0	9|4	fb:part.9|fb:part.4
+0	6	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+0	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	8	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	9	fb:cell.petal	Petal	petal	petal	JJ	O						
+0	10	fb:cell.0_59	0:59	0:59	0:59	CD	TIME	T00:59	0.0		59.0		
+0	11	fb:cell.charles_wood	Charles Wood	charles|wood	Charles|Wood	NNP|NNP	PERSON|PERSON	|					
+1	0	fb:cell.29_july_1879	29 July 1879	29|july|1879	29|July|1879	CD|NNP|NNS	DATE|DATE|DATE	1879-07-29|1879-07-29|1879-07-29	29.0	1879-07-29	1879.0		
+1	1	fb:cell.richmond_stakes	Richmond Stakes	richmond|stakes	Richmond|stake	NNP|NNS	LOCATION|LOCATION	|					
+1	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+1	3	fb:cell.goodwood	Goodwood	goodwood	Goodwood	NNP	LOCATION						
+1	4	fb:cell.1762	1762	1762	1762	CD	DATE	1762	1762.0	1762-xx-xx			
+1	5	fb:cell.null											fb:part.null
+1	6	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+1	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	8	fb:cell.null											fb:part.null
+1	9	fb:cell.null											fb:part.null
+1	10	fb:cell.null											fb:part.null
+1	11	fb:cell.null											fb:part.null
+2	0	fb:cell.august_1879	August 1879	august|1879	August|1879	NNP|NNS	DATE|DATE	1879-08|1879-08	1879.0	1879-08-xx			
+2	1	fb:cell.prince_of_wales_stakes	Prince of Wales Stakes	prince|of|wales|stakes	Prince|of|Wales|stake	NNP|IN|NNP|NNS	O|O|LOCATION|LOCATION	|||					
+2	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+2	3	fb:cell.york	York	york	York	NNP	O						
+2	4	fb:cell.340	340	340	340	CD	NUMBER	340.0	340.0				
+2	5	fb:cell.1_2	1/2	1\\/2	1\\/2	CD	NUMBER		1.0		2.0	1|2	fb:part.1|fb:part.2
+2	6	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+2	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+2	8	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+2	9	fb:cell.brother_to_ersilia	Brother to Ersilia	brother|to|ersilia	Brother|to|Ersilia	NNP|TO|NNP	O|O|PERSON	||					
+2	10	fb:cell.null											fb:part.null
+2	11	fb:cell.fred_archer	Fred Archer	fred|archer	Fred|Archer	NNP|NNP	PERSON|PERSON	|					
+3	0	fb:cell.1879	1879	1879	1879	NNS	SET		1879.0				
+3	1	fb:cell.triennial_produce_stakes	Triennial Produce Stakes	triennial|produce|stakes	triennial|produce|stake	JJ|VB|NNS	O|O|O	||					
+3	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+3	3	fb:cell.newmarket	Newmarket	newmarket	Newmarket	NNP	LOCATION						
+3	4	fb:cell.881	881	881	881	CD	NUMBER	881.0	881.0				
+3	5	fb:cell.null											fb:part.null
+3	6	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+3	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+3	8	fb:cell.null											fb:part.null
+3	9	fb:cell.null											fb:part.null
+3	10	fb:cell.null											fb:part.null
+3	11	fb:cell.null											fb:part.null
+4	0	fb:cell.1879	1879	1879	1879	NNS	SET		1879.0				
+4	1	fb:cell.rous_memorial_stakes	Rous Memorial Stakes	rous|memorial|stakes	Rous|Memorial|stake	NNP|NNP|NNS	O|O|O	||					
+4	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	3	fb:cell.newmarket	Newmarket	newmarket	Newmarket	NNP	LOCATION						
+4	4	fb:cell.567	567	567	567	CD	NUMBER	567.0	567.0				
+4	5	fb:cell.null											fb:part.null
+4	6	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+4	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+4	8	fb:cell.null											fb:part.null
+4	9	fb:cell.null											fb:part.null
+4	10	fb:cell.null											fb:part.null
+4	11	fb:cell.null											fb:part.null
+5	0	fb:cell.26_may_1880	26 May 1880	26|may|1880	26|May|1880	CD|VBD-AUX|NNP	DATE|DATE|DATE	1880-05-26|1880-05-26|1880-05-26	26.0	1880-05-26	1880.0		
+5	1	fb:cell.epsom_derby	Epsom Derby	epsom|derby	Epsom|Derby	NNP|NNP	LOCATION|LOCATION	|					
+5	2	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+5	3	fb:cell.epsom_downs	Epsom Downs	epsom|downs	Epsom|Downs	NNP|NNP	LOCATION|LOCATION	|					
+5	4	fb:cell.6375	6375	6375	6375	CD	NUMBER	6375.0	6375.0				
+5	5	fb:cell.2_1	2/1	2\\/1	2\\/1	CD	NUMBER		2.0		1.0	2|1	fb:part.2|fb:part.1
+5	6	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+5	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	8	fb:cell.head	Head	head	Head	NNP	O						
+5	9	fb:cell.robert_the_devil	Robert the Devil	robert|the|devil	Robert|the|Devil	NNP|DT|NNP	PERSON|O|O	||					
+5	10	fb:cell.2_48	2:48	2:48	2:48	CD	TIME	T02:48	2.0		48.0		
+5	11	fb:cell.fred_archer	Fred Archer	fred|archer	Fred|Archer	NNP|NNP	PERSON|PERSON	|					
+6	0	fb:cell.june_1880	June 1880	june|1880	June|1880	NNP|NNP	DATE|DATE	1880-06|1880-06	1880.0	1880-06-xx			
+6	1	fb:cell.st_james_s_palace_stakes	St. James's Palace Stakes	st.|james|'s|palace|stakes	St.|James|'s|palace|stake	NNP|NNP|POS|NN|NNS	PERSON|PERSON|O|O|O	||||					
+6	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+6	3	fb:cell.ascot	Ascot	ascot	ascot	NN	PERSON						
+6	4	fb:cell.1550	1550	1550	1550	CD	DATE	1550	1550.0	1550-xx-xx			
+6	5	fb:cell.30_100	30/100	30\\/100	30\\/100	CD	NUMBER		30.0		100.0	30|100	fb:part.30|fb:part.100
+6	6	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+6	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+6	8	fb:cell.head	Head	head	Head	NNP	O						
+6	9	fb:cell.fernandez	Fernandez	fernandez	Fernandez	NNP	PERSON						
+6	10	fb:cell.null											fb:part.null
+6	11	fb:cell.g_fordham	G Fordham	g|fordham	g|Fordham	NN|NNP	O|ORGANIZATION	|					
+7	0	fb:cell.15_september_1880	15 September 1880	15|september|1880	15|September|1880	CD|NNP|NNP	DATE|DATE|DATE	1880-09-15|1880-09-15|1880-09-15	15.0	1880-09-15	1880.0		
+7	1	fb:cell.st_leger	St Leger	st|leger	St|Leger	NNP|NNP	O|O	|					
+7	2	fb:cell.14_5	14.5	14.5	14.5	CD	NUMBER	14.5	14.5				
+7	3	fb:cell.doncaster	Doncaster	doncaster	Doncaster	NNP	O						
+7	4	fb:cell.6100	6100	6100	6100	CD	NUMBER	6100.0	6100.0				
+7	5	fb:cell.4_5	4/5	4\\/5	4\\/5	CD	NUMBER		4.0		5.0	4|5	fb:part.4|fb:part.5
+7	6	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+7	7	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+7	8	fb:cell.null											fb:part.null
+7	9	fb:cell.robert_the_devil	Robert the Devil	robert|the|devil	Robert|the|Devil	NNP|DT|NNP	PERSON|O|O	||					
+7	10	fb:cell.3_32	3:32	3:32	3:32	CD	TIME	T03:32	3.0		32.0		
+7	11	fb:cell.null											fb:part.null
+8	0	fb:cell.28_september_1880	28 September 1880	28|september|1880	28|September|1880	CD|NNP|NNP	DATE|DATE|DATE	1880-09-28|1880-09-28|1880-09-28	28.0	1880-09-28	1880.0		
+8	1	fb:cell.great_foal_stakes	Great Foal Stakes	great|foal|stakes	Great|Foal|stake	NNP|NNP|NNS	O|O|O	||					
+8	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+8	3	fb:cell.newmarket	Newmarket	newmarket	Newmarket	NNP	LOCATION						
+8	4	fb:cell.2697	2697	2697	2697	CD	DATE	2697	2697.0	2697-xx-xx			
+8	5	fb:cell.9_2	9/2	9\\/2	9\\/2	CD	NUMBER		9.0		2.0	9|2	fb:part.9|fb:part.2
+8	6	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+8	7	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+8	8	fb:cell.head	Head	head	Head	NNP	O						
+8	9	fb:cell.robert_the_devil	Robert the Devil	robert|the|devil	Robert|the|Devil	NNP|DT|NNP	PERSON|O|O	||					
+8	10	fb:cell.2_25	2:25	2:25	2:25	CD	TIME	T02:25	2.0		25.0		
+8	11	fb:cell.tom_cannon	Tom Cannon	tom|cannon	Tom|Cannon	NNP|NNP	PERSON|PERSON	|					
+9	0	fb:cell.14_october_1880	14 October 1880	14|october|1880	14|October|1880	CD|NNP|NNP	DATE|DATE|DATE	1880-10-14|1880-10-14|1880-10-14	14.0	1880-10-14	1880.0		
+9	1	fb:cell.champion_stakes	Champion Stakes	champion|stakes	Champion|stake	NNP|NNS	O|O	|					
+9	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	3	fb:cell.newmarket	Newmarket	newmarket	Newmarket	NNP	LOCATION						
+9	4	fb:cell.2071	2071	2071	2071	CD	DATE	2071	2071.0	2071-xx-xx			
+9	5	fb:cell.5_4	5/4	5\\/4	5\\/4	NN	O		5.0		4.0	5|4	fb:part.5|fb:part.4
+9	6	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+9	7	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+9	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	9	fb:cell.robert_the_devil	Robert the Devil	robert|the|devil	Robert|the|Devil	NNP|DT|NNP	PERSON|O|O	||					
+9	10	fb:cell.2_10	2:10	2:10	2:10	CD	TIME	T02:10	2.0		10.0		
+9	11	fb:cell.g_fordham	G Fordham	g|fordham	g|Fordham	NN|NNP	O|ORGANIZATION	|					
+10	0	fb:cell.27_april_1881	27 April 1881	27|april|1881	27|April|1881	CD|NNP|CD	DATE|DATE|DATE	1881-04-27|1881-04-27|1881-04-27	27.0	1881-04-27	1881.0		
+10	1	fb:cell.city_and_suburban_handicap	City and Suburban Handicap	city|and|suburban|handicap	City|and|Suburban|Handicap	NNP|CC|NNP|NNP	O|O|O|O	|||					
+10	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+10	3	fb:cell.epsom_downs	Epsom Downs	epsom|downs	Epsom|Downs	NNP|NNP	LOCATION|LOCATION	|					
+10	4	fb:cell.1230	1230	1230	1230	CD	DATE	1230	1230.0	1230-xx-xx			
+10	5	fb:cell.100_8	100/8	100\\/8	100\\/8	CD	NUMBER		100.0		8.0	100|8	fb:part.100|fb:part.8
+10	6	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+10	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+10	8	fb:cell.1_5	1.5	1.5	1.5	CD	NUMBER	1.5	1.5				
+10	9	fb:cell.foxhall	Foxhall	foxhall	Foxhall	NNP	O						
+10	10	fb:cell.2_07	2:07	2:07	2:07	CD	TIME	T02:07	2.0		7.0		
+10	11	fb:cell.fred_archer	Fred Archer	fred|archer	Fred|Archer	NNP|NNP	PERSON|PERSON	|					
+11	0	fb:cell.3_june_1881	3 June 1881	3|june|1881	3|June|1881	CD|NNP|CD	DATE|DATE|DATE	1881-06-03|1881-06-03|1881-06-03	3.0	1881-06-03	1881.0		
+11	1	fb:cell.epsom_gold_cup	Epsom Gold Cup	epsom|gold|cup	Epsom|Gold|Cup	NNP|NNP|NNP	LOCATION|O|O	||					
+11	2	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	3	fb:cell.epsom_downs	Epsom Downs	epsom|downs	Epsom|Downs	NNP|NNP	LOCATION|LOCATION	|					
+11	4	fb:cell.500	500	500	500	CD	NUMBER	500.0	500.0				
+11	5	fb:cell.null											fb:part.null
+11	6	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+11	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+11	8	fb:cell.null											fb:part.null
+11	9	fb:cell.robert_the_devil	Robert the Devil	robert|the|devil	Robert|the|Devil	NNP|DT|NNP	PERSON|O|O	||					
+11	10	fb:cell.null											fb:part.null
+11	11	fb:cell.null											fb:part.null
+12	0	fb:cell.13_october_1881	13 October 1881	13|october|1881	13|October|1881	CD|NNP|CD	DATE|DATE|DATE	1881-10-13|1881-10-13|1881-10-13	13.0	1881-10-13	1881.0		
+12	1	fb:cell.champion_stakes	Champion Stakes	champion|stakes	Champion|stake	NNP|NNS	O|O	|					
+12	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+12	3	fb:cell.newmarket	Newmarket	newmarket	Newmarket	NNP	LOCATION						
+12	4	fb:cell.2087	2087	2087	2087	CD	DATE	2087	2087.0	2087-xx-xx			
+12	5	fb:cell.4_6	4/6	4\\/6	4\\/6	CD	NUMBER		4.0		6.0	4|6	fb:part.4|fb:part.6
+12	6	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+12	7	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+12	8	fb:cell.0_75	0.75	0.75	0.75	CD	NUMBER	0.75	0.75				
+12	9	fb:cell.scobell	Scobell	scobell	Scobell	NNP	O						
+12	10	fb:cell.2_23_6	2:23.6	2:23.6	2:23.6	CD	TIME	T02:23	2.0		23.6		
+12	11	fb:cell.fred_archer	Fred Archer	fred|archer	Fred|Archer	NNP|NNP	PERSON|PERSON	|					
+13	0	fb:cell.25_october_1881	25 October 1881	25|october|1881	25|October|1881	CD|NNP|CD	DATE|DATE|DATE	1881-10-25|1881-10-25|1881-10-25	25.0	1881-10-25	1881.0		
+13	1	fb:cell.cambridgeshire_stakes	Cambridgeshire Stakes	cambridgeshire|stakes	Cambridgeshire|stake	NNP|NNS	LOCATION|LOCATION	|					
+13	2	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+13	3	fb:cell.newmarket	Newmarket	newmarket	Newmarket	NNP	LOCATION						
+13	4	fb:cell.2017	2017	2017	2017	CD	DATE	2017	2017.0	2017-xx-xx			
+13	5	fb:cell.9_2	9/2	9\\/2	9\\/2	CD	NUMBER		9.0		2.0	9|2	fb:part.9|fb:part.2
+13	6	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+13	7	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+13	8	fb:cell.null											fb:part.null
+13	9	fb:cell.foxhall	Foxhall	foxhall	Foxhall	NNP	O						
+13	10	fb:cell.2_15_4	2:15.4	2:15.4	2:15.4	CD	TIME	T02:15	2.0		15.4		
+13	11	fb:cell.fred_archer	Fred Archer	fred|archer	Fred|Archer	NNP|NNP	PERSON|PERSON	|					

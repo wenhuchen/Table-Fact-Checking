@@ -1,0 +1,177 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.station	Station	station	Station	NNP	O						
+-1	1	fb:row.row.type	Type	type	type	NN	O						
+-1	2	fb:row.row.latitude	Latitude	latitude	latitude	NN	O						
+-1	3	fb:row.row.longitude	Longitude	longitude	longitude	NN	LOCATION						
+-1	4	fb:row.row.el_m	El. (m)	el|.|-lrb-|m|-rrb-	El|.|-lrb-|m|-rrb-	NNP|.|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	5	fb:row.row.opened	Opened	opened	open	VBN	O						
+-1	6	fb:row.row.closed	Closed	closed	closed	JJ	O						
+-1	7	fb:row.row.coordinates	Coordinates	coordinates	coordinate	VBZ	O						
+0	0	fb:cell.mount_wilson_california	Mount Wilson, California	mount|wilson|,|california	Mount|Wilson|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Mount Wilson|California	fb:part.mount_wilson|fb:part.california
+0	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+0	2	fb:cell.34_13_n	34º13'N	34º13|'n	34º13|'n	NN|CC	O|O	|	34.0		13.0		
+0	3	fb:cell.118_56_w	118º56'W	118º56|'|w	118º56|'|w	NN|''|NN	O|O|O	||	118.0		56.0		
+0	4	fb:cell.1737	1737	1737	1737	CD	DATE	1737	1737.0	1737-xx-xx			
+0	5	fb:cell.1908	1908	1908	1908	CD	DATE	1908	1908.0	1908-xx-xx			
+0	6	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx			
+0	7	fb:cell.34_13_s_118_56_w_34_217_s_118_933_w	34°13′S 118°56′W﻿ / ﻿34.217°S 118.933°W	34|°|13|′|s|118|°|56|′|w|\\/|34.217|°|s|118.933|°|w	34|°|13|′|s|118|°|56|′|w|\\/|34.217|°|s|118.933|°|w	CD|CD|CD|NN|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	34.0|34.0|34.0|||118.0||56.0||||34.217|34.217||118.933|118.933|	34.0		13.0	34°13′S 118°56′W﻿|﻿34.217°S 118.933°W	fb:part.34_13_s_118_56_w|fb:part.34_217_s_118_933_w
+1	0	fb:cell.hump_mountain_north_carolina	Hump Mountain, North Carolina	hump|mountain|,|north|carolina	Hump|Mountain|,|North|Carolina	NNP|NNP|,|NNP|NNP	O|O|O|LOCATION|LOCATION	||||				Hump Mountain|North Carolina	fb:part.hump_mountain|fb:part.north_carolina
+1	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+1	2	fb:cell.36_8_n	36º8'N	36º8|'n	36º8|'n	NN|CC	O|O	|	36.0		8.0		
+1	3	fb:cell.82_0_w	82º0'W	82º0|'|w	82º0|'|w	NN|''|NN	O|O|O	||	82.0		0.0		
+1	4	fb:cell.1500	1500	1500	1500	CD	DATE	1500	1500.0	1500-xx-xx			
+1	5	fb:cell.1917	1917	1917	1917	CD	DATE	1917	1917.0	1917-xx-xx			
+1	6	fb:cell.1918	1918	1918	1918	CD	DATE	1918	1918.0	1918-xx-xx			
+1	7	fb:cell.36_8_n_82_0_w_36_133_n_82_000_w	36°8′N 82°0′W﻿ / ﻿36.133°N 82.000°W	36|°|8|′|n|82|°|0|′|w|\\/|36.133|°|n|82.000|°|w	36|°|8|′|n|82|°|0|′|w|\\/|36.133|°|n|82.000|°|w	CD|CD|CD|NN|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0|||82.0||0.0||||36.133|36.133||82.0|82.0|	36.0		8.0	36°8′N 82°0′W﻿|﻿36.133°N 82.000°W	fb:part.36_8_n_82_0_w|fb:part.36_133_n_82_000_w
+2	0	fb:cell.calama_chile	Calama, Chile	calama|,|chile	Calama|,|Chile	NNP|,|NNP	LOCATION|O|LOCATION	||				Calama|Chile	fb:part.calama|fb:part.chile
+2	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+2	2	fb:cell.22_28_s	22º28'S	22º28|'s	22º28|'s	NN|POS	O|O	|	22.0		28.0		
+2	3	fb:cell.68_56_w	68º56'W	68º56|'|w	68º56|'|w	NN|''|NN	O|O|O	||	68.0		56.0		
+2	4	fb:cell.2250	2250	2250	2250	CD	DATE	2250	2250.0	2250-xx-xx			
+2	5	fb:cell.1918	1918	1918	1918	CD	DATE	1918	1918.0	1918-xx-xx			
+2	6	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx			
+2	7	fb:cell.22_28_s_68_56_w_22_467_s_68_933_w	22°28′S 68°56′W﻿ / ﻿22.467°S 68.933°W	22|°|28|′|s|68|°|56|′|w|\\/|22.467|°|s|68.933|°|w	22|°|28|′|s|68|°|56|′|w|\\/|22.467|°|s|68.933|°|w	CD|CD|CD|NN|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	22.0|22.0|22.0|||68.0|68.0|68.0||||22.467|22.467||68.933|68.933|	22.0		28.0	22°28′S 68°56′W﻿|﻿22.467°S 68.933°W	fb:part.22_28_s_68_56_w|fb:part.22_467_s_68_933_w
+3	0	fb:cell.mount_montezuma_chile	Mount Montezuma, Chile	mount|montezuma|,|chile	Mount|Montezuma|,|Chile	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Mount Montezuma|Chile	fb:part.mount_montezuma|fb:part.chile
+3	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+3	2	fb:cell.22_40_s	22º40'S	22º40|'s	22º40|'s	NN|POS	O|O	|	22.0		40.0		
+3	3	fb:cell.68_56_w	68º56'W	68º56|'|w	68º56|'|w	NN|''|NN	O|O|O	||	68.0		56.0		
+3	4	fb:cell.2711	2711	2711	2711	CD	DATE	2711	2711.0	2711-xx-xx			
+3	5	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx			
+3	6	fb:cell.null	?	?	?	.	O						
+3	7	fb:cell.22_40_s_68_56_w_22_667_s_68_933_w	22°40′S 68°56′W﻿ / ﻿22.667°S 68.933°W	22|°|40|′|s|68|°|56|′|w|\\/|22.667|°|s|68.933|°|w	22|°|40|′|s|68|°|56|′|w|\\/|22.667|°|s|68.933|°|w	CD|CD|CD|NN|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	22.0|22.0|22.0|||68.0|68.0|68.0||||22.667|22.667||68.933|68.933|	22.0		40.0	22°40′S 68°56′W﻿|﻿22.667°S 68.933°W	fb:part.22_40_s_68_56_w|fb:part.22_667_s_68_933_w
+4	0	fb:cell.mount_harquahala_arizona	Mount Harquahala, Arizona	mount|harquahala|,|arizona	Mount|Harquahala|,|Arizona	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Mount Harquahala|Arizona	fb:part.mount_harquahala|fb:part.arizona
+4	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+4	2	fb:cell.33_48_n	33º48'N	33º48|'n	33º48|'n	NN|CC	O|O	|	33.0		48.0		
+4	3	fb:cell.113_20_w	113º20'W	113º20|'|w	113º20|'|w	NN|''|NN	O|O|O	||	113.0		20.0		
+4	4	fb:cell.1721	1721	1721	1721	CD	DATE	1721	1721.0	1721-xx-xx			
+4	5	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx			
+4	6	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx			
+4	7	fb:cell.33_48_n_113_20_w_33_800_n_113_333_w	33°48′N 113°20′W﻿ / ﻿33.800°N 113.333°W	33|°|48|′|n|113|°|20|′|w|\\/|33.800|°|n|113.333|°|w	33|°|48|′|n|113|°|20|′|w|\\/|33.800|°|n|113.333|°|w	CD|CD|CD|NN|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	33.0|33.0|33.0|||113.0||20.0||||33.8|33.8||113.333|113.333|	33.0		48.0	33°48′N 113°20′W﻿|﻿33.800°N 113.333°W	fb:part.33_48_n_113_20_w|fb:part.33_800_n_113_333_w
+5	0	fb:cell.table_mountain_california	Table Mountain, California	table|mountain|,|california	Table|Mountain|,|California	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				Table Mountain|California	fb:part.table_mountain|fb:part.california
+5	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+5	2	fb:cell.34_22_n	34º22'N	34º22|'n	34º22|'n	NN|CC	O|O	|	34.0		22.0		
+5	3	fb:cell.117_41_w	117º41'W	117º41|'|w	117º41|'|w	NN|''|NN	O|O|O	||	117.0		41.0		
+5	4	fb:cell.2286	2286	2286	2286	CD	DATE	2286	2286.0	2286-xx-xx			
+5	5	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx			
+5	6	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+5	7	fb:cell.34_22_n_117_41_w_34_367_n_117_683_w	34°22′N 117°41′W﻿ / ﻿34.367°N 117.683°W	34|°|22|′|n|117|°|41|′|w|\\/|34.367|°|n|117.683|°|w	34|°|22|′|n|117|°|41|′|w|\\/|34.367|°|n|117.683|°|w	CD|CD|CD|NN|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	34.0|34.0|34.0|||117.0||41.0||||34.367|34.367||117.683|117.683|	34.0		22.0	34°22′N 117°41′W﻿|﻿34.367°N 117.683°W	fb:part.34_22_n_117_41_w|fb:part.34_367_n_117_683_w
+6	0	fb:cell.mount_brukkaros_namibia	Mount Brukkaros, Namibia	mount|brukkaros|,|namibia	Mount|Brukkaros|,|Namibia	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				Mount Brukkaros|Namibia	fb:part.mount_brukkaros|fb:part.namibia
+6	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+6	2	fb:cell.25_52_s	25º52'S	25º52|'s	25º52|'s	NN|POS	O|O	|	25.0		52.0		
+6	3	fb:cell.17_48_e	17º48'E	17º48|'|e	17º48|'|e	NN|''|NN	O|O|O	||	17.0		48.0		
+6	4	fb:cell.1586	1586	1586	1586	CD	DATE	1586	1586.0	1586-xx-xx			
+6	5	fb:cell.1926	1926	1926	1926	CD	DATE	1926	1926.0	1926-xx-xx			
+6	6	fb:cell.1931	1931	1931	1931	CD	DATE	1931	1931.0	1931-xx-xx			
+6	7	fb:cell.25_52_s_17_48_e_25_867_s_17_800_e	25°52′S 17°48′E﻿ / ﻿25.867°S 17.800°E	25|°|52|′|s|17|°|48|′|e|\\/|25.867|°|s|17.800|°|e	25|°|52|′|s|17|°|48|′|e|\\/|25.867|°|s|17.800|°|e	CD|CD|CD|NN|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	25.0|25.0|25.0|||17.0||48.0|48.0|||25.867|25.867||17.8|17.8|	25.0		52.0	25°52′S 17°48′E﻿|﻿25.867°S 17.800°E	fb:part.25_52_s_17_48_e|fb:part.25_867_s_17_800_e
+7	0	fb:cell.mount_saint_catherine_egypt	Mount Saint Catherine, Egypt	mount|saint|catherine|,|egypt	Mount|Saint|Catherine|,|Egypt	NNP|NNP|NNP|,|NNP	O|O|PERSON|O|LOCATION	||||				Mount Saint Catherine|Egypt	fb:part.mount_saint_catherine|fb:part.egypt
+7	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+7	2	fb:cell.28_31_n	28º31'N	28º31|'n	28º31|'n	NN|CC	O|O	|	28.0		31.0		
+7	3	fb:cell.33_56_e	33º56'E	33º56|'|e	33º56|'|e	NN|''|NN	O|O|O	||	33.0		56.0		
+7	4	fb:cell.2591	2591	2591	2591	CD	DATE	2591	2591.0	2591-xx-xx			
+7	5	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx			
+7	6	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx			
+7	7	fb:cell.28_31_n_33_56_e_28_517_n_33_933_e	28°31′N 33°56′E﻿ / ﻿28.517°N 33.933°E	28|°|31|′|n|33|°|56|′|e|\\/|28.517|°|n|33.933|°|e	28|°|31|′|n|33|°|56|′|e|\\/|28.517|°|n|33.933|°|e	CD|CD|CD|NN|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0|||33.0||56.0|56.0|||28.517|28.517||33.933|33.933|	28.0		31.0	28°31′N 33°56′E﻿|﻿28.517°N 33.933°E	fb:part.28_31_n_33_56_e|fb:part.28_517_n_33_933_e
+8	0	fb:cell.burro_mountain_new_mexico	Burro Mountain, New Mexico	burro|mountain|,|new|mexico	Burro|Mountain|,|New|Mexico	NNP|NNP|,|NNP|NNP	O|O|O|LOCATION|LOCATION	||||				Burro Mountain|New Mexico	fb:part.burro_mountain|fb:part.new_mexico
+8	1	fb:cell.solar	Solar	solar	Solar	NNP	O					Solar	fb:part.solar
+8	2	fb:cell.32_40_n	32º40'N	32º40|'n	32º40|'n	NN|CC	O|O	|	32.0		40.0		
+8	3	fb:cell.108_33_w	108º33'W	108º33|'|w	108º33|'|w	NN|''|NN	O|O|O	||	108.0		33.0		
+8	4	fb:cell.2440	2440	2440	2440	CD	DATE	2440	2440.0	2440-xx-xx			
+8	5	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+8	6	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx			
+8	7	fb:cell.32_40_n_108_33_w_32_667_n_108_550_w	32°40′N 108°33′W﻿ / ﻿32.667°N 108.550°W	32|°|40|′|n|108|°|33|′|w|\\/|32.667|°|n|108.550|°|w	32|°|40|′|n|108|°|33|′|w|\\/|32.667|°|n|108.550|°|w	CD|CD|CD|NN|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	32.0|32.0|32.0|||108.0||33.0||||32.667|32.667||108.55|108.55|	32.0		40.0	32°40′N 108°33′W﻿|﻿32.667°N 108.550°W	fb:part.32_40_n_108_33_w|fb:part.32_667_n_108_550_w
+9	0	fb:cell.organ_pass_new_mexico	Organ Pass, New Mexico	organ|pass|,|new|mexico	organ|pass|,|New|Mexico	NN|NN|,|NNP|NNP	O|O|O|LOCATION|LOCATION	||||				Organ Pass|New Mexico	fb:part.organ_pass|fb:part.new_mexico
+9	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+9	2	fb:cell.32_25_n	32º25'N	32º25|'n	32º25|'n	NN|CC	O|O	|	32.0		25.0		
+9	3	fb:cell.253_27_e	253º27'E	253º27|'|e	253º27|'|e	NN|''|NN	O|O|O	||	253.0		27.0		
+9	4	fb:cell.null_2											fb:part.null
+9	5	fb:cell.null_2											fb:part.null
+9	6	fb:cell.null_2											fb:part.null
+9	7	fb:cell.32_25_n_106_33_w_32_417_n_106_550_w	32°25′N 106°33′W﻿ / ﻿32.417°N 106.550°W	32|°|25|′|n|106|°|33|′|w|\\/|32.417|°|n|106.550|°|w	32|°|25|′|n|106|°|33|′|w|\\/|32.417|°|n|106.550|°|w	CD|CD|CD|NN|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	32.0|32.0|32.0|||106.0||33.0||||32.417|32.417||106.55|106.55|	32.0		25.0	32°25′N 106°33′W﻿|﻿32.417°N 106.550°W	fb:part.32_25_n_106_33_w|fb:part.32_417_n_106_550_w
+10	0	fb:cell.olifantsfontein_south_africa	Olifantsfontein, South Africa	olifantsfontein|,|south|africa	Olifantsfontein|,|South|Africa	NNP|,|NNP|NNP	PERSON|O|LOCATION|LOCATION	|||				Olifantsfontein|South Africa	fb:part.olifantsfontein|fb:part.south_africa
+10	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+10	2	fb:cell.25_58_s	25º58'S	25º58|'s	25º58|'s	NN|POS	O|O	|	25.0		58.0		
+10	3	fb:cell.28_15_e	28º15'E	28º15|'|e	28º15|'|e	NN|''|NN	O|O|O	||	28.0		15.0		
+10	4	fb:cell.null_2											fb:part.null
+10	5	fb:cell.null_2											fb:part.null
+10	6	fb:cell.null_2											fb:part.null
+10	7	fb:cell.25_58_s_28_15_e_25_967_s_28_250_e	25°58′S 28°15′E﻿ / ﻿25.967°S 28.250°E	25|°|58|′|s|28|°|15|′|e|\\/|25.967|°|s|28.250|°|e	25|°|58|′|s|28|°|15|′|e|\\/|25.967|°|s|28.250|°|e	CD|CD|CD|NN|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	25.0|25.0|25.0|||28.0|28.0|28.0||||25.967|25.967||28.25|28.25|	25.0		58.0	25°58′S 28°15′E﻿|﻿25.967°S 28.250°E	fb:part.25_58_s_28_15_e|fb:part.25_967_s_28_250_e
+11	0	fb:cell.woomera_australia	Woomera, Australia	woomera|,|australia	Woomera|,|Australia	NNP|,|NNP	LOCATION|O|LOCATION	||				Woomera|Australia	fb:part.woomera|fb:part.australia
+11	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+11	2	fb:cell.31_06_s	31º06'S	31º06|'s	31º06|'s	NN|POS	O|O	|	31.0		6.0		
+11	3	fb:cell.136_46_e	136º46'E	136º46|'|e	136º46|'|e	NN|''|NN	O|O|O	||	136.0		46.0		
+11	4	fb:cell.null_2											fb:part.null
+11	5	fb:cell.null_2											fb:part.null
+11	6	fb:cell.null_2											fb:part.null
+11	7	fb:cell.31_06_s_136_46_e_31_100_s_136_767_e	31°06′S 136°46′E﻿ / ﻿31.100°S 136.767°E	31|°|06|′|s|136|°|46|′|e|\\/|31.100|°|s|136.767|°|e	31|°|06|′|s|136|°|46|′|e|\\/|31.100|°|s|136.767|°|e	CD|CD|CD|NN|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	31.0|31.0|31.0|||136.0||46.0|46.0|||31.1|31.1||136.767|136.767|	31.0		6.0	31°06′S 136°46′E﻿|﻿31.100°S 136.767°E	fb:part.31_06_s_136_46_e|fb:part.31_100_s_136_767_e
+12	0	fb:cell.cadiz_spain	Cadiz, Spain	cadiz|,|spain	Cadiz|,|Spain	NNP|,|NNP	LOCATION|O|LOCATION	||				Cadiz|Spain	fb:part.cadiz|fb:part.spain
+12	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+12	2	fb:cell.36_28_n	36º28'N	36º28|'n	36º28|'n	NN|CC	O|O	|	36.0		28.0		
+12	3	fb:cell.353_48_e	353º48'E	353º48|'|e	353º48|'|e	NN|''|NN	O|O|O	||	353.0		48.0		
+12	4	fb:cell.null_2											fb:part.null
+12	5	fb:cell.null_2											fb:part.null
+12	6	fb:cell.null_2											fb:part.null
+12	7	fb:cell.36_28_n_6_12_w_36_467_n_6_200_w	36°28′N 6°12′W﻿ / ﻿36.467°N 6.200°W	36|°|28|′|n|6|°|12|′|w|\\/|36.467|°|n|6.200|°|w	36|°|28|′|n|6|°|12|′|w|\\/|36.467|°|n|6.200|°|w	CD|CD|CD|NN|NN|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0|||6.0||12.0||||36.467|36.467||6.2|6.2|	36.0		28.0	36°28′N 6°12′W﻿|﻿36.467°N 6.200°W	fb:part.36_28_n_6_12_w|fb:part.36_467_n_6_200_w
+13	0	fb:cell.shiraz_iran	Shiraz, Iran	shiraz|,|iran	Shiraz|,|Iran	NNP|,|NNP	O|O|LOCATION	||				Shiraz|Iran	fb:part.shiraz|fb:part.iran
+13	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+13	2	fb:cell.29_38_n	29º38'N	29º38|'n	29º38|'n	NN|CC	O|O	|	29.0		38.0		
+13	3	fb:cell.52_31_e	52º31'E	52º31|'|e	52º31|'|e	NN|''|NN	O|O|O	||	52.0		31.0		
+13	4	fb:cell.null_2											fb:part.null
+13	5	fb:cell.null_2											fb:part.null
+13	6	fb:cell.null_2											fb:part.null
+13	7	fb:cell.29_38_n_52_31_e_29_633_n_52_517_e	29°38′N 52°31′E﻿ / ﻿29.633°N 52.517°E	29|°|38|′|n|52|°|31|′|e|\\/|29.633|°|n|52.517|°|e	29|°|38|′|n|52|°|31|′|e|\\/|29.633|°|n|52.517|°|e	CD|CD|CD|NN|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	29.0|29.0|29.0|||52.0||31.0|31.0|||29.633|29.633||52.517|52.517|	29.0		38.0	29°38′N 52°31′E﻿|﻿29.633°N 52.517°E	fb:part.29_38_n_52_31_e|fb:part.29_633_n_52_517_e
+14	0	fb:cell.curacao_netherlands_west_indies	Curaçao, Netherlands West Indies	curaçao|,|netherlands|west|indies	Curaçao|,|Netherlands|West|Indies	NNP|,|NNP|NNP|NNP	O|O|LOCATION|LOCATION|LOCATION	||||				Curaçao|Netherlands West Indies	fb:part.curacao|fb:part.netherlands_west_indies
+14	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+14	2	fb:cell.12_05_n	12º05'N	12º05|'n	12º05|'n	NN|CC	O|O	|	12.0		5.0		
+14	3	fb:cell.291_10_e	291º10'E	291º10|'|e	291º10|'|e	NN|''|NN	O|O|O	||	291.0		10.0		
+14	4	fb:cell.null_2											fb:part.null
+14	5	fb:cell.null_2											fb:part.null
+14	6	fb:cell.null_2											fb:part.null
+14	7	fb:cell.12_05_n_68_50_w_12_083_n_68_833_w	12°05′N 68°50′W﻿ / ﻿12.083°N 68.833°W	12|°|05|′|n|68|°|50|′|w|\\/|12.083|°|n|68.833|°|w	12|°|05|′|n|68|°|50|′|w|\\/|12.083|°|n|68.833|°|w	CD|CD|CD|NN|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	12.0|12.0|12.0|||68.0||50.0|50.0|||12.083|12.083||68.833|68.833|	12.0		5.0	12°05′N 68°50′W﻿|﻿12.083°N 68.833°W	fb:part.12_05_n_68_50_w|fb:part.12_083_n_68_833_w
+15	0	fb:cell.jupiter_florida	Jupiter, Florida	jupiter|,|florida	Jupiter|,|Florida	NNP|,|NNP	O|O|LOCATION	||				Jupiter|Florida	fb:part.jupiter|fb:part.florida
+15	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+15	2	fb:cell.27_01_n	27º01'N	27º01|'n	27º01|'n	NN|CC	O|O	|	27.0		1.0		
+15	3	fb:cell.279_53_e	279º53'E	279º53|'|e	279º53|'|e	NN|''|NN	O|O|O	||	279.0		53.0		
+15	4	fb:cell.null_2											fb:part.null
+15	5	fb:cell.null_2											fb:part.null
+15	6	fb:cell.null_2											fb:part.null
+15	7	fb:cell.27_01_n_80_07_w_27_017_n_80_117_w	27°01′N 80°07′W﻿ / ﻿27.017°N 80.117°W	27|°|01|′|n|80|°|07|′|w|\\/|27.017|°|n|80.117|°|w	27|°|01|′|n|80|°|07|′|w|\\/|27.017|°|n|80.117|°|w	CD|CD|CD|NN|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0|||80.0|80.0|80.0||||27.017|27.017||80.117|80.117|	27.0		1.0	27°01′N 80°07′W﻿|﻿27.017°N 80.117°W	fb:part.27_01_n_80_07_w|fb:part.27_017_n_80_117_w
+16	0	fb:cell.haleakala_hawaii	Haleakala, Hawaii	haleakala|,|hawaii	Haleakala|,|Hawaii	NNP|,|NNP	PERSON|O|LOCATION	||				Haleakala|Hawaii	fb:part.haleakala|fb:part.hawaii
+16	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+16	2	fb:cell.20_43_n	20º43'N	20º43|'n	20º43|'n	NN|CC	O|O	|	20.0		43.0		
+16	3	fb:cell.203_45_e	203º45'E	203º45|'|e	203º45|'|e	NN|''|NN	O|O|O	||	203.0		45.0		
+16	4	fb:cell.null_2											fb:part.null
+16	5	fb:cell.null_2											fb:part.null
+16	6	fb:cell.null_2											fb:part.null
+16	7	fb:cell.20_43_n_156_15_w_20_717_n_156_250_w	20°43′N 156°15′W﻿ / ﻿20.717°N 156.250°W	20|°|43|′|n|156|°|15|′|w|\\/|20.717|°|n|156.250|°|w	20|°|43|′|n|156|°|15|′|w|\\/|20.717|°|n|156.250|°|w	CD|CD|CD|NN|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	20.0|20.0|20.0|||156.0|156.0|156.0||||20.717|20.717||156.25|156.25|	20.0		43.0	20°43′N 156°15′W﻿|﻿20.717°N 156.250°W	fb:part.20_43_n_156_15_w|fb:part.20_717_n_156_250_w
+17	0	fb:cell.villa_dolores_argentina	Villa Dolores, Argentina	villa|dolores|,|argentina	Villa|Dolores|,|Argentina	NNP|NNP|,|NNP	PERSON|PERSON|O|LOCATION	|||				Villa Dolores|Argentina	fb:part.villa_dolores|fb:part.argentina
+17	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+17	2	fb:cell.31_57_n	31º57'N	31º57|'n	31º57|'n	NN|CC	O|O	|	31.0		57.0		
+17	3	fb:cell.294_54_e	294º54'E	294º54|'|e	294º54|'|e	NN|''|NN	O|O|O	||	294.0		54.0		
+17	4	fb:cell.null_2											fb:part.null
+17	5	fb:cell.null_2											fb:part.null
+17	6	fb:cell.null_2											fb:part.null
+17	7	fb:cell.31_57_n_65_06_e_31_950_n_65_100_e	31°57′N 65°06′E﻿ / ﻿31.950°N 65.100°E	31|°|57|′|n|65|°|06|′|e|\\/|31.950|°|n|65.100|°|e	31|°|57|′|n|65|°|06|′|e|\\/|31.950|°|n|65.100|°|e	CD|CD|CD|NN|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	31.0|31.0|31.0|||65.0||6.0|6.0|||31.95|31.95||65.1|65.1|	31.0		57.0	31°57′N 65°06′E﻿|﻿31.950°N 65.100°E	fb:part.31_57_n_65_06_e|fb:part.31_950_n_65_100_e
+18	0	fb:cell.mitaka_japan	Mitaka, Japan	mitaka|,|japan	Mitaka|,|Japan	NNP|,|NNP	LOCATION|O|LOCATION	||				Mitaka|Japan	fb:part.mitaka|fb:part.japan
+18	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+18	2	fb:cell.null_2											fb:part.null
+18	3	fb:cell.null_2											fb:part.null
+18	4	fb:cell.null_2											fb:part.null
+18	5	fb:cell.null_2											fb:part.null
+18	6	fb:cell.null_2											fb:part.null
+18	7	fb:cell.null_2											fb:part.null
+19	0	fb:cell.nani_tal_india	Nani Tal, India	nani|tal|,|india	Nani|Tal|,|India	NNP|NNP|,|NNP	PERSON|PERSON|O|LOCATION	|||				Nani Tal|India	fb:part.nani_tal|fb:part.india
+19	1	fb:cell.space_track	Space Track	space|track	space|Track	NN|NNP	O|O	|				Space Track	fb:part.space_track
+19	2	fb:cell.null_2											fb:part.null
+19	3	fb:cell.null_2											fb:part.null
+19	4	fb:cell.null_2											fb:part.null
+19	5	fb:cell.null_2											fb:part.null
+19	6	fb:cell.null_2											fb:part.null
+19	7	fb:cell.null_2											fb:part.null
+20	0	fb:cell.arequipa_peru	Arequipa, Peru	arequipa|,|peru	Arequipa|,|Peru	NNP|,|NNP	LOCATION|O|LOCATION	||				Arequipa|Peru	fb:part.arequipa|fb:part.peru
+20	1	fb:cell.solar_space_track	Solar,\nSpace Track	solar|,|space|track	Solar|,|Space|Track	NNP|,|NNP|NNP	O|O|O|O	|||				Solar|Space Track	fb:part.solar|fb:part.space_track
+20	2	fb:cell.null_2											fb:part.null
+20	3	fb:cell.null_2											fb:part.null
+20	4	fb:cell.null_2											fb:part.null
+20	5	fb:cell.null_2											fb:part.null
+20	6	fb:cell.null_2											fb:part.null
+20	7	fb:cell.null_2											fb:part.null

@@ -1,0 +1,181 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rnd	Rnd	rnd	rnd	NN	O						
+-1	1	fb:row.row.date	Date	date	date	NN	O						
+-1	2	fb:row.row.race_name	Race Name	race|name	race|name	NN|VB	O|O	|					
+-1	3	fb:row.row.circuit	Circuit	circuit	circuit	NN	O						
+-1	4	fb:row.row.city_location	City/Location	city\\/location	city\\/location	NN	O						
+-1	5	fb:row.row.pole_position	Pole position	pole|position	Pole|position	NNP|NN	O|O	|					
+-1	6	fb:row.row.fastest_lap	Fastest lap	fastest|lap	fastest|lap	JJS|NN	O|O	|					
+-1	7	fb:row.row.winning_driver	Winning driver	winning|driver	win|driver	VBG|NN	O|O	|					
+-1	8	fb:row.row.winning_team	Winning team	winning|team	win|team	VBG|NN	O|O	|					
+-1	9	fb:row.row.report	Report	report	Report	NNP	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.march_5	March 5	march|5	March|5	NNP|CD	DATE|DATE	XXXX-03-05|XXXX-03-05	5.0	xxxx-03-05			
+0	2	fb:cell.marlboro_grand_prix_of_miami_presented_by_toyota	Marlboro Grand Prix of Miami Presented by Toyota	marlboro|grand|prix|of|miami|presented|by|toyota	Marlboro|Grand|Prix|of|Miami|present|by|Toyota	NNP|NNP|NNP|IN|NNP|VBN|IN|NNP	O|O|O|O|LOCATION|O|O|ORGANIZATION	|||||||				Marlboro Grand Prix of Miami Presented by Toyota	fb:part.marlboro_grand_prix_of_miami_presented_by_toyota
+0	3	fb:cell.bicentennial_park	Bicentennial Park	bicentennial|park	Bicentennial|Park	NNP|NNP	SET|O	|					
+0	4	fb:cell.miami_florida	Miami, Florida	miami|,|florida	Miami|,|Florida	NNP|,|NNP	LOCATION|O|LOCATION	||				Miami|Florida	fb:part.miami|fb:part.florida
+0	5	fb:cell.michael_andretti	Michael Andretti	michael|andretti	Michael|Andretti	NNP|NNP	PERSON|PERSON	|				Michael Andretti	fb:part.michael_andretti
+0	6	fb:cell.scott_pruett	Scott Pruett	scott|pruett	Scott|Pruett	NNP|NNP	PERSON|PERSON	|				Scott Pruett	fb:part.scott_pruett
+0	7	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+0	8	fb:cell.team_green	Team Green	team|green	Team|Green	NNP|NNP	O|O	|				Team Green	fb:part.team_green
+0	9	fb:cell.report	Report	report	Report	NNP	O						
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.march_19	March 19	march|19	March|19	NNP|CD	DATE|DATE	XXXX-03-19|XXXX-03-19	19.0	xxxx-03-19			
+1	2	fb:cell.australian_indycar_grand_prix	Australian IndyCar Grand Prix	australian|indycar|grand|prix	australian|IndyCar|Grand|Prix	JJ|NNP|NNP|NNP	MISC|MISC|MISC|MISC	|||				Australian IndyCar Grand Prix	fb:part.australian_indycar_grand_prix
+1	3	fb:cell.surfers_paradise_street_circuit	Surfers Paradise Street Circuit	surfers|paradise|street|circuit	surfer|Paradise|Street|Circuit	NNS|NNP|NNP|NNP	O|O|O|O	|||					
+1	4	fb:cell.surfers_paradise_australia	Surfers Paradise, Australia	surfers|paradise|,|australia	surfer|Paradise|,|Australia	NNS|NNP|,|NNP	O|O|O|LOCATION	|||				Surfers Paradise|Australia	fb:part.surfers_paradise|fb:part.australia
+1	5	fb:cell.michael_andretti	Michael Andretti	michael|andretti	Michael|Andretti	NNP|NNP	PERSON|PERSON	|				Michael Andretti	fb:part.michael_andretti
+1	6	fb:cell.michael_andretti	Michael Andretti	michael|andretti	Michael|Andretti	NNP|NNP	PERSON|PERSON	|				Michael Andretti	fb:part.michael_andretti
+1	7	fb:cell.paul_tracy	Paul Tracy	paul|tracy	Paul|Tracy	NNP|NNP	PERSON|PERSON	|				Paul Tracy	fb:part.paul_tracy
+1	8	fb:cell.newman_haas_racing	Newman/Haas Racing	newman\\/haas|racing	Newman\\/Haas|race	NNP|VBG	O|O	|				Newman|Haas Racing	fb:part.newman|fb:part.haas_racing
+1	9	fb:cell.report	Report	report	Report	NNP	O						
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.april_2	April 2	april|2	April|2	NNP|CD	DATE|DATE	XXXX-04-02|XXXX-04-02	2.0	xxxx-04-02			
+2	2	fb:cell.slick_50_200	Slick 50 200	slick|50|200	slick|50|200	JJ|CD|CD	O|NUMBER|NUMBER	|50.0|50.0	50200.0			Slick 50 200	fb:part.slick_50_200
+2	3	fb:cell.phoenix_international_raceway	Phoenix International Raceway	phoenix|international|raceway	Phoenix|International|Raceway	NNP|NNP|NNP	O|O|O	||					
+2	4	fb:cell.phoenix_arizona	Phoenix, Arizona	phoenix|,|arizona	Phoenix|,|Arizona	NNP|,|NNP	LOCATION|O|LOCATION	||				Phoenix|Arizona	fb:part.phoenix|fb:part.arizona
+2	5	fb:cell.bryan_herta	Bryan Herta	bryan|herta	Bryan|Herta	NNP|NNP	PERSON|PERSON	|					
+2	6	fb:cell.emerson_fittipaldi	Emerson Fittipaldi	emerson|fittipaldi	Emerson|Fittipaldi	NNP|NNP	PERSON|PERSON	|				Emerson Fittipaldi	fb:part.emerson_fittipaldi
+2	7	fb:cell.robby_gordon	Robby Gordon	robby|gordon	Robby|Gordon	NNP|NNP	PERSON|PERSON	|				Robby Gordon	fb:part.robby_gordon
+2	8	fb:cell.walker_racing	Walker Racing	walker|racing	Walker|race	NNP|VBG	O|O	|				Walker Racing	fb:part.walker_racing
+2	9	fb:cell.report	Report	report	Report	NNP	O						
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.april_9	April 9	april|9	April|9	NNP|CD	DATE|DATE	XXXX-04-09|XXXX-04-09	9.0	xxxx-04-09			
+3	2	fb:cell.toyota_grand_prix_of_long_beach	Toyota Grand Prix of Long Beach	toyota|grand|prix|of|long|beach	Toyota|Grand|Prix|of|Long|Beach	NNP|NNP|NNP|IN|NNP|NNP	O|O|O|O|LOCATION|LOCATION	|||||				Toyota Grand Prix of Long Beach	fb:part.toyota_grand_prix_of_long_beach
+3	3	fb:cell.streets_of_long_beach	Streets of Long Beach	streets|of|long|beach	Streets|of|Long|Beach	NNPS|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||					
+3	4	fb:cell.long_beach_california	Long Beach, California	long|beach|,|california	long|Beach|,|California	JJ|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Long Beach|California	fb:part.long_beach|fb:part.california
+3	5	fb:cell.michael_andretti	Michael Andretti	michael|andretti	Michael|Andretti	NNP|NNP	PERSON|PERSON	|				Michael Andretti	fb:part.michael_andretti
+3	6	fb:cell.michael_andretti	Michael Andretti	michael|andretti	Michael|Andretti	NNP|NNP	PERSON|PERSON	|				Michael Andretti	fb:part.michael_andretti
+3	7	fb:cell.al_unser_jr	Al Unser, Jr.	al|unser|,|jr.|.	Al|Unser|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Al Unser|Jr.	fb:part.al_unser|fb:part.jr
+3	8	fb:cell.marlboro_team_penske	Marlboro Team Penske	marlboro|team|penske	Marlboro|Team|Penske	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Marlboro Team Penske	fb:part.marlboro_team_penske
+3	9	fb:cell.report	Report	report	Report	NNP	O						
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.april_23	April 23	april|23	April|23	NNP|CD	DATE|DATE	XXXX-04-23|XXXX-04-23	23.0	xxxx-04-23			
+4	2	fb:cell.bosch_spark_plug_grand_prix	Bosch Spark Plug Grand Prix	bosch|spark|plug|grand|prix	Bosch|Spark|Plug|Grand|Prix	NNP|NNP|NNP|NNP|NNP	MISC|MISC|MISC|MISC|MISC	||||				Bosch Spark Plug Grand Prix	fb:part.bosch_spark_plug_grand_prix
+4	3	fb:cell.nazareth_speedway	Nazareth Speedway	nazareth|speedway	Nazareth|Speedway	NNP|NNP	LOCATION|LOCATION	|					
+4	4	fb:cell.nazareth_pennsylvania	Nazareth, Pennsylvania	nazareth|,|pennsylvania	Nazareth|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Nazareth|Pennsylvania	fb:part.nazareth|fb:part.pennsylvania
+4	5	fb:cell.robby_gordon	Robby Gordon	robby|gordon	Robby|Gordon	NNP|NNP	PERSON|PERSON	|				Robby Gordon	fb:part.robby_gordon
+4	6	fb:cell.emerson_fittipaldi	Emerson Fittipaldi	emerson|fittipaldi	Emerson|Fittipaldi	NNP|NNP	PERSON|PERSON	|				Emerson Fittipaldi	fb:part.emerson_fittipaldi
+4	7	fb:cell.emerson_fittipaldi	Emerson Fittipaldi	emerson|fittipaldi	Emerson|Fittipaldi	NNP|NNP	PERSON|PERSON	|				Emerson Fittipaldi	fb:part.emerson_fittipaldi
+4	8	fb:cell.marlboro_team_penske	Marlboro Team Penske	marlboro|team|penske	Marlboro|Team|Penske	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Marlboro Team Penske	fb:part.marlboro_team_penske
+4	9	fb:cell.report	Report	report	Report	NNP	O						
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.may_28	May 28	may|28	May|28	VBD-AUX|CD	DATE|DATE	XXXX-05-28|XXXX-05-28	28.0	xxxx-05-28			
+5	2	fb:cell.79th_indianapolis_500	79th Indianapolis 500*	79th|indianapolis|500|\\*	79th|Indianapolis|500|\\*	JJ|NNP|CD|SYM	ORDINAL|LOCATION|NUMBER|O	79.0||500.0|	79.0		500.0	79th Indianapolis 500*	fb:part.79th_indianapolis_500
+5	3	fb:cell.indianapolis_motor_speedway	Indianapolis Motor Speedway	indianapolis|motor|speedway	Indianapolis|Motor|Speedway	NNP|NNP|NNP	LOCATION|O|O	||					
+5	4	fb:cell.speedway_indiana	Speedway, Indiana	speedway|,|indiana	Speedway|,|Indiana	NNP|,|NNP	O|O|LOCATION	||				Speedway|Indiana	fb:part.speedway|fb:part.indiana
+5	5	fb:cell.scott_brayton	Scott Brayton	scott|brayton	Scott|Brayton	NNP|NNP	PERSON|PERSON	|					
+5	6	fb:cell.scott_goodyear	Scott Goodyear	scott|goodyear	Scott|Goodyear	NNP|NNP	PERSON|PERSON	|				Scott Goodyear	fb:part.scott_goodyear
+5	7	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+5	8	fb:cell.team_green	Team Green	team|green	Team|Green	NNP|NNP	O|O	|				Team Green	fb:part.team_green
+5	9	fb:cell.report	Report	report	Report	NNP	O						
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.june_4	June 4	june|4	June|4	NNP|CD	DATE|DATE	XXXX-06-04|XXXX-06-04	4.0	xxxx-06-04			
+6	2	fb:cell.miller_genuine_draft_200	Miller Genuine Draft 200	miller|genuine|draft|200	Miller|Genuine|Draft|200	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||200.0	200.0			Miller Genuine Draft 200	fb:part.miller_genuine_draft_200
+6	3	fb:cell.milwaukee_mile	Milwaukee Mile	milwaukee|mile	Milwaukee|Mile	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	4	fb:cell.west_allis_wisconsin	West Allis, Wisconsin	west|allis|,|wisconsin	West|Allis|,|Wisconsin	NNP|NNP|,|NNP	PERSON|PERSON|O|LOCATION	|||				West Allis|Wisconsin	fb:part.west_allis|fb:part.wisconsin
+6	5	fb:cell.teo_fabi	Teo Fabi	teo|fabi	Teo|Fabi	NNP|NNP	PERSON|PERSON	|				Teo Fabi	fb:part.teo_fabi
+6	6	fb:cell.teo_fabi	Teo Fabi	teo|fabi	Teo|Fabi	NNP|NNP	PERSON|PERSON	|				Teo Fabi	fb:part.teo_fabi
+6	7	fb:cell.paul_tracy	Paul Tracy	paul|tracy	Paul|Tracy	NNP|NNP	PERSON|PERSON	|				Paul Tracy	fb:part.paul_tracy
+6	8	fb:cell.newman_haas_racing	Newman/Haas Racing	newman\\/haas|racing	Newman\\/Haas|race	NNP|VBG	O|O	|				Newman|Haas Racing	fb:part.newman|fb:part.haas_racing
+6	9	fb:cell.report	Report	report	Report	NNP	O						
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.june_11	June 11	june|11	June|11	NNP|CD	DATE|DATE	XXXX-06-11|XXXX-06-11	11.0	xxxx-06-11			
+7	2	fb:cell.itt_automotive_grand_prix_of_detroit	ITT Automotive Grand Prix of Detroit	itt|automotive|grand|prix|of|detroit	ITT|Automotive|Grand|Prix|of|Detroit	NNP|NNP|NNP|NNP|IN|NNP	ORGANIZATION|O|O|O|O|LOCATION	|||||				ITT Automotive Grand Prix of Detroit	fb:part.itt_automotive_grand_prix_of_detroit
+7	3	fb:cell.the_raceway_on_belle_isle_park	The Raceway on Belle Isle Park	the|raceway|on|belle|isle|park	the|raceway|on|Belle|Isle|Park	DT|NN|IN|NNP|NNP|NNP	O|O|O|LOCATION|LOCATION|LOCATION	|||||					
+7	4	fb:cell.detroit_michigan	Detroit, Michigan	detroit|,|michigan	Detroit|,|Michigan	NNP|,|NNP	LOCATION|O|LOCATION	||				Detroit|Michigan	fb:part.detroit|fb:part.michigan
+7	5	fb:cell.robby_gordon	Robby Gordon	robby|gordon	Robby|Gordon	NNP|NNP	PERSON|PERSON	|				Robby Gordon	fb:part.robby_gordon
+7	6	fb:cell.michael_andretti	Michael Andretti	michael|andretti	Michael|Andretti	NNP|NNP	PERSON|PERSON	|				Michael Andretti	fb:part.michael_andretti
+7	7	fb:cell.robby_gordon	Robby Gordon	robby|gordon	Robby|Gordon	NNP|NNP	PERSON|PERSON	|				Robby Gordon	fb:part.robby_gordon
+7	8	fb:cell.walker_racing	Walker Racing	walker|racing	Walker|race	NNP|VBG	O|O	|				Walker Racing	fb:part.walker_racing
+7	9	fb:cell.report	Report	report	Report	NNP	O						
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.june_25	June 25	june|25	June|25	NNP|CD	DATE|DATE	XXXX-06-25|XXXX-06-25	25.0	xxxx-06-25			
+8	2	fb:cell.budweiser_g_i_joe_s_200	Budweiser/G. I. Joe's 200	budweiser\\/g|.|i.|joe|'s|200	Budweiser\\/G|.|i.|Joe|'s|200	NNP|.|NN|NNP|POS|CD	O|O|PERSON|PERSON|O|NUMBER	|||||200.0				Budweiser|G. I. Joe's 200	fb:part.budweiser|fb:part.g_i_joe_s_200
+8	3	fb:cell.portland_international_raceway	Portland International Raceway	portland|international|raceway	Portland|International|Raceway	NNP|NNP|NNP	LOCATION|O|O	||					
+8	4	fb:cell.portland_oregon	Portland, Oregon	portland|,|oregon	Portland|,|Oregon	NNP|,|NNP	LOCATION|O|LOCATION	||				Portland|Oregon	fb:part.portland|fb:part.oregon
+8	5	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+8	6	fb:cell.al_unser_jr	Al Unser, Jr.	al|unser|,|jr.|.	Al|Unser|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Al Unser|Jr.	fb:part.al_unser|fb:part.jr
+8	7	fb:cell.al_unser_jr	Al Unser, Jr.	al|unser|,|jr.|.	Al|Unser|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Al Unser|Jr.	fb:part.al_unser|fb:part.jr
+8	8	fb:cell.marlboro_team_penske	Marlboro Team Penske	marlboro|team|penske	Marlboro|Team|Penske	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Marlboro Team Penske	fb:part.marlboro_team_penske
+8	9	fb:cell.report	Report	report	Report	NNP	O						
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.july_9	July 9	july|9	July|9	NNP|CD	DATE|DATE	XXXX-07-09|XXXX-07-09	9.0	xxxx-07-09			
+9	2	fb:cell.texaco_havoline_200	Texaco/Havoline 200	texaco\\/havoline|200	texaco\\/havoline|200	NN|CD	O|NUMBER	|200.0	200.0			Texaco|Havoline 200	fb:part.texaco|fb:part.havoline_200
+9	3	fb:cell.road_america	Road America	road|america	Road|America	NNP|NNP	LOCATION|LOCATION	|					
+9	4	fb:cell.elkhart_lake_wisconsin	Elkhart Lake, Wisconsin	elkhart|lake|,|wisconsin	Elkhart|Lake|,|Wisconsin	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Elkhart Lake|Wisconsin	fb:part.elkhart_lake|fb:part.wisconsin
+9	5	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+9	6	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+9	7	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+9	8	fb:cell.team_green	Team Green	team|green	Team|Green	NNP|NNP	O|O	|				Team Green	fb:part.team_green
+9	9	fb:cell.report	Report	report	Report	NNP	O						
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.july_16	July 16	july|16	July|16	NNP|CD	DATE|DATE	XXXX-07-16|XXXX-07-16	16.0	xxxx-07-16			
+10	2	fb:cell.molson_indy_toronto	Molson Indy Toronto	molson|indy|toronto	Molson|Indy|Toronto	NNP|NNP|NNP	O|O|LOCATION	||				Molson Indy Toronto	fb:part.molson_indy_toronto
+10	3	fb:cell.exhibition_place	Exhibition Place	exhibition|place	Exhibition|Place	NNP|NNP	O|O	|					
+10	4	fb:cell.toronto_ontario	Toronto, Ontario	toronto|,|ontario	Toronto|,|Ontario	NNP|,|NNP	LOCATION|O|LOCATION	||				Toronto|Ontario	fb:part.toronto|fb:part.ontario
+10	5	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+10	6	fb:cell.bobby_rahal	Bobby Rahal	bobby|rahal	Bobby|Rahal	NNP|NNP	PERSON|PERSON	|				Bobby Rahal	fb:part.bobby_rahal
+10	7	fb:cell.michael_andretti	Michael Andretti	michael|andretti	Michael|Andretti	NNP|NNP	PERSON|PERSON	|				Michael Andretti	fb:part.michael_andretti
+10	8	fb:cell.newman_haas_racing	Newman/Haas Racing	newman\\/haas|racing	Newman\\/Haas|race	NNP|VBG	O|O	|				Newman|Haas Racing	fb:part.newman|fb:part.haas_racing
+10	9	fb:cell.report	Report	report	Report	NNP	O						
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.july_23	July 23	july|23	July|23	NNP|CD	DATE|DATE	XXXX-07-23|XXXX-07-23	23.0	xxxx-07-23			
+11	2	fb:cell.budweiser_grand_prix_of_cleveland	Budweiser Grand Prix of Cleveland	budweiser|grand|prix|of|cleveland	Budweiser|Grand|Prix|of|Cleveland	NNP|NNP|NNP|IN|NNP	O|O|O|O|LOCATION	||||				Budweiser Grand Prix of Cleveland	fb:part.budweiser_grand_prix_of_cleveland
+11	3	fb:cell.cleveland_burke_lakefront_airport	Cleveland Burke Lakefront Airport	cleveland|burke|lakefront|airport	Cleveland|Burke|Lakefront|Airport	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+11	4	fb:cell.cleveland_ohio	Cleveland, Ohio	cleveland|,|ohio	Cleveland|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Cleveland|Ohio	fb:part.cleveland|fb:part.ohio
+11	5	fb:cell.gil_de_ferran	Gil de Ferran	gil|de|ferran	Gil|de|Ferran	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Gil de Ferran	fb:part.gil_de_ferran
+11	6	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+11	7	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+11	8	fb:cell.team_green	Team Green	team|green	Team|Green	NNP|NNP	O|O	|				Team Green	fb:part.team_green
+11	9	fb:cell.report	Report	report	Report	NNP	O						
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.july_30	July 30	july|30	July|30	NNP|CD	DATE|DATE	XXXX-07-30|XXXX-07-30	30.0	xxxx-07-30			
+12	2	fb:cell.marlboro_500	Marlboro 500	marlboro|500	Marlboro|500	NNP|CD	MISC|NUMBER	|500.0	500.0			Marlboro 500	fb:part.marlboro_500
+12	3	fb:cell.michigan_international_speedway	Michigan International Speedway	michigan|international|speedway	Michigan|International|Speedway	NNP|NNP|NNP	LOCATION|O|O	||					
+12	4	fb:cell.brooklyn_michigan	Brooklyn, Michigan	brooklyn|,|michigan	Brooklyn|,|Michigan	NNP|,|NNP	LOCATION|O|LOCATION	||				Brooklyn|Michigan	fb:part.brooklyn|fb:part.michigan
+12	5	fb:cell.parker_johnstone	Parker Johnstone	parker|johnstone	Parker|Johnstone	NNP|NNP	PERSON|PERSON	|				Parker Johnstone	fb:part.parker_johnstone
+12	6	fb:cell.parker_johnstone	Parker Johnstone	parker|johnstone	Parker|Johnstone	NNP|NNP	PERSON|PERSON	|				Parker Johnstone	fb:part.parker_johnstone
+12	7	fb:cell.scott_pruett	Scott Pruett	scott|pruett	Scott|Pruett	NNP|NNP	PERSON|PERSON	|				Scott Pruett	fb:part.scott_pruett
+12	8	fb:cell.patrick_racing	Patrick Racing	patrick|racing	Patrick|race	NNP|VBG	PERSON|PERSON	|				Patrick Racing	fb:part.patrick_racing
+12	9	fb:cell.report	Report	report	Report	NNP	O						
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.august_13	August 13	august|13	August|13	NNP|CD	DATE|DATE	XXXX-08-13|XXXX-08-13	13.0	xxxx-08-13			
+13	2	fb:cell.miller_genuine_draft_200	Miller Genuine Draft 200	miller|genuine|draft|200	Miller|Genuine|Draft|200	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||200.0	200.0			Miller Genuine Draft 200	fb:part.miller_genuine_draft_200
+13	3	fb:cell.mid_ohio_sports_car_course	Mid-Ohio Sports Car Course	mid|ohio|sports|car|course	Mid|Ohio|Sports|Car|Course	NNP|NNP|NNP|NNP|NNP	O|O|O|O|O	||||					
+13	4	fb:cell.lexington_ohio	Lexington, Ohio	lexington|,|ohio	Lexington|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Lexington|Ohio	fb:part.lexington|fb:part.ohio
+13	5	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+13	6	fb:cell.al_unser_jr	Al Unser, Jr.	al|unser|,|jr.|.	Al|Unser|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Al Unser|Jr.	fb:part.al_unser|fb:part.jr
+13	7	fb:cell.al_unser_jr	Al Unser, Jr.	al|unser|,|jr.|.	Al|Unser|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Al Unser|Jr.	fb:part.al_unser|fb:part.jr
+13	8	fb:cell.marlboro_team_penske	Marlboro Team Penske	marlboro|team|penske	Marlboro|Team|Penske	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Marlboro Team Penske	fb:part.marlboro_team_penske
+13	9	fb:cell.report	Report	report	Report	NNP	O						
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.august_20	August 20	august|20	August|20	NNP|CD	DATE|DATE	XXXX-08-20|XXXX-08-20	20.0	xxxx-08-20			
+14	2	fb:cell.new_england_200	New England 200	new|england|200	New|England|200	NNP|NNP|CD	LOCATION|LOCATION|NUMBER	||200.0	200.0			New England 200	fb:part.new_england_200
+14	3	fb:cell.new_hampshire_motor_speedway	New Hampshire Motor Speedway	new|hampshire|motor|speedway	New|Hampshire|Motor|Speedway	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+14	4	fb:cell.loudon_new_hampshire	Loudon, New Hampshire	loudon|,|new|hampshire	Loudon|,|New|Hampshire	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Loudon|New Hampshire	fb:part.loudon|fb:part.new_hampshire
+14	5	fb:cell.andre_ribeiro	André Ribeiro	andré|ribeiro	André|Ribeiro	NNP|NNP	PERSON|PERSON	|				André Ribeiro	fb:part.andre_ribeiro
+14	6	fb:cell.teo_fabi	Teo Fabi	teo|fabi	Teo|Fabi	NNP|NNP	PERSON|PERSON	|				Teo Fabi	fb:part.teo_fabi
+14	7	fb:cell.andre_ribeiro	André Ribeiro	andré|ribeiro	André|Ribeiro	NNP|NNP	PERSON|PERSON	|				André Ribeiro	fb:part.andre_ribeiro
+14	8	fb:cell.tasman_motorsports	Tasman Motorsports	tasman|motorsports	Tasman|Motorsports	NNP|NNPS	O|O	|				Tasman Motorsports	fb:part.tasman_motorsports
+14	9	fb:cell.report	Report	report	Report	NNP	O						
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.september_3	September 3	september|3	September|3	NNP|CD	DATE|DATE	XXXX-09-03|XXXX-09-03	3.0	xxxx-09-03			
+15	2	fb:cell.molson_indy_vancouver	Molson Indy Vancouver	molson|indy|vancouver	Molson|Indy|Vancouver	NNP|NNP|NNP	O|O|O	||				Molson Indy Vancouver	fb:part.molson_indy_vancouver
+15	3	fb:cell.streets_of_vancouver	Streets of Vancouver	streets|of|vancouver	Streets|of|Vancouver	NNPS|IN|NNP	O|O|LOCATION	||					
+15	4	fb:cell.vancouver_british_columbia	Vancouver, British Columbia	vancouver|,|british|columbia	Vancouver|,|British|Columbia	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Vancouver|British Columbia	fb:part.vancouver|fb:part.british_columbia
+15	5	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+15	6	fb:cell.bobby_rahal	Bobby Rahal	bobby|rahal	Bobby|Rahal	NNP|NNP	PERSON|PERSON	|				Bobby Rahal	fb:part.bobby_rahal
+15	7	fb:cell.al_unser_jr	Al Unser, Jr.	al|unser|,|jr.|.	Al|Unser|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Al Unser|Jr.	fb:part.al_unser|fb:part.jr
+15	8	fb:cell.marlboro_team_penske	Marlboro Team Penske	marlboro|team|penske	Marlboro|Team|Penske	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Marlboro Team Penske	fb:part.marlboro_team_penske
+15	9	fb:cell.report	Report	report	Report	NNP	O						
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.september_10	September 10	september|10	September|10	NNP|CD	DATE|DATE	XXXX-09-10|XXXX-09-10	10.0	xxxx-09-10			
+16	2	fb:cell.toyota_grand_prix_of_monterey	Toyota Grand Prix of Monterey	toyota|grand|prix|of|monterey	Toyota|Grand|Prix|of|Monterey	NNP|NNP|NNP|IN|NNP	O|O|O|O|LOCATION	||||				Toyota Grand Prix of Monterey	fb:part.toyota_grand_prix_of_monterey
+16	3	fb:cell.laguna_seca_raceway	Laguna Seca Raceway	laguna|seca|raceway	Laguna|Seca|Raceway	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+16	4	fb:cell.monterey_california	Monterey, California	monterey|,|california	Monterey|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Monterey|California	fb:part.monterey|fb:part.california
+16	5	fb:cell.jacques_villeneuve	Jacques Villeneuve	jacques|villeneuve	Jacques|Villeneuve	NNP|NNP	PERSON|PERSON	|				Jacques Villeneuve	fb:part.jacques_villeneuve
+16	6	fb:cell.gil_de_ferran	Gil de Ferran	gil|de|ferran	Gil|de|Ferran	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Gil de Ferran	fb:part.gil_de_ferran
+16	7	fb:cell.gil_de_ferran	Gil de Ferran	gil|de|ferran	Gil|de|Ferran	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Gil de Ferran	fb:part.gil_de_ferran
+16	8	fb:cell.jim_hall_racing	Jim Hall Racing	jim|hall|racing	Jim|Hall|race	NNP|NNP|VBG	O|O|O	||				Jim Hall Racing	fb:part.jim_hall_racing
+16	9	fb:cell.report	Report	report	Report	NNP	O						

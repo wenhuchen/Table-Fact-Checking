@@ -1,0 +1,106 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.country	Country	country	country	NN	O						
+-1	2	fb:row.row.town	Town	town	town	NN	O						
+-1	3	fb:row.row.height_metres_ft	Height\nmetres / ft	height|metres|\\/|ft	height|metre|\\/|ft	NN|VBZ|:|NN	O|O|O|O	|||					
+-1	4	fb:row.row.structural_type	Structural type	structural|type	structural|type	JJ|NN	O|O	|					
+-1	5	fb:row.row.held_record	Held record	held|record	hold|record	VBN|NN	O|O	|					
+-1	6	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.great_pyramid_of_giza	Great Pyramid of Giza	great|pyramid|of|giza	great|pyramid|of|Giza	JJ|NN|IN|NNP	O|O|O|LOCATION	|||					
+0	1	fb:cell.egypt	Egypt	egypt	Egypt	NNP	LOCATION					Egypt	fb:part.egypt
+0	2	fb:cell.giza	Giza	giza	Giza	NNP	LOCATION					Giza	fb:part.giza
+0	3	fb:cell.146_480	146 / 480	146|\\/|480	146|\\/|480	CD|:|CD	NUMBER|O|NUMBER	146.0||480.0	146.0		480.0	146|480	fb:part.146|fb:part.480
+0	4	fb:cell.mausoleum	Mausoleum	mausoleum	mausoleum	NN	O						
+0	5	fb:cell.2570_bc_1311	2570 BC–1311	2570|bc|--|1311	2570|BC|--|1311	CD|NNP|:|CD	DATE|DATE|DATE|DATE	2570|2570|2570|1311	2570.0		1311.0		
+0	6	fb:cell.due_to_erosion_today_it_stands_at_the_height_of_138_8_metres_455_ft	Due to erosion today it stands at the height of 138.8 metres (455 ft).	due|to|erosion|today|it|stands|at|the|height|of|138.8|metres|-lrb-|455|ft|-rrb-|.	due|to|erosion|today|it|stand|at|the|height|of|138.8|metre|-lrb-|455|ft|-rrb-|.	JJ|TO|NN|NN|PRP|VBZ|IN|DT|NN|IN|CD|NNS|-LRB-|CD|NN|-RRB-|.	O|O|O|DATE|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O|O	|||THIS P1D|||||||138.8|||455.0|||	138.8		455.0	Due to erosion today it stands at the height of 138.8 metres (455 ft).	fb:part.due_to_erosion_today_it_stands_at_the_height_of_138_8_metres_455_ft
+1	0	fb:cell.lincoln_cathedral	Lincoln Cathedral	lincoln|cathedral	Lincoln|Cathedral	NNP|NNP	O|O	|					
+1	1	fb:cell.england	England	england	England	NNP	LOCATION					England	fb:part.england
+1	2	fb:cell.lincoln	Lincoln	lincoln	Lincoln	NNP	PERSON					Lincoln	fb:part.lincoln
+1	3	fb:cell.159_7_524	159.7 / 524	159.7|\\/|524	159.7|\\/|524	CD|:|CD	NUMBER|O|NUMBER	159.7||524.0	159.7		524.0	159.7|524	fb:part.159_7|fb:part.524
+1	4	fb:cell.church	Church	church	Church	NNP	O						
+1	5	fb:cell.1311_1549	1311–1549	1311|--|1549	1311|--|1549	CD|:|CD	DATE|DATE|DATE	1311|1311|1549	1311.0		1549.0		
+1	6	fb:cell.spire_collapsed_in_1549_today_stands_at_a_height_of_83_metres_272_ft	Spire collapsed in 1549; today, stands at a height of 83 metres (272 ft).	spire|collapsed|in|1549|;|today|,|stands|at|a|height|of|83|metres|-lrb-|272|ft|-rrb-|.	spire|collapse|in|1549|;|today|,|stand|at|a|height|of|83|metre|-lrb-|272|ft|-rrb-|.	NN|VBD|IN|CD|:|NN|,|VBZ|IN|DT|NN|IN|CD|NNS|-LRB-|CD|NN|-RRB-|.	O|O|O|DATE|O|DATE|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O|O	|||1549||THIS P1D|||||||83.0|||272.0|||	1549.0		83.0	Spire collapsed in 1549; today|stands at a height of 83 metres (272 ft).	fb:part.spire_collapsed_in_1549_today|fb:part.stands_at_a_height_of_83_metres_272_ft
+2	0	fb:cell.st_mary_s_church	St. Mary's Church	st.|mary|'s|church	St.|Mary|'s|Church	NNP|NNP|POS|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+2	1	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION					Germany	fb:part.germany
+2	2	fb:cell.stralsund	Stralsund	stralsund	Stralsund	NNP	LOCATION					Stralsund	fb:part.stralsund
+2	3	fb:cell.151_500	151 / 500	151|\\/|500	151|\\/|500	CD|:|CD	NUMBER|O|NUMBER	151.0||500.0	151.0		500.0	151|500	fb:part.151|fb:part.500
+2	4	fb:cell.church	Church	church	Church	NNP	O						
+2	5	fb:cell.1549_1647	1549–1647	1549|--|1647	1549|--|1647	CD|:|CD	DATE|DATE|DATE	1549|1549|1647	1549.0		1647.0		
+2	6	fb:cell.spire_destroyed_by_lightning_in_1647_today_stands_at_a_height_of_104_metres_341_ft	Spire destroyed by lightning in 1647; today stands at a height of 104 metres (341 ft).	spire|destroyed|by|lightning|in|1647|;|today|stands|at|a|height|of|104|metres|-lrb-|341|ft|-rrb-|.	spire|destroy|by|lightning|in|1647|;|today|stand|at|a|height|of|104|metre|-lrb-|341|ft|-rrb-|.	NN|VBN|IN|NN|IN|CD|:|NN|VBZ|IN|DT|NN|IN|CD|NNS|-LRB-|CD|NN|-RRB-|.	O|O|O|O|O|DATE|O|DATE|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O|O	|||||1647||THIS P1D||||||104.0|||341.0|||	1647.0		104.0	Spire destroyed by lightning in 1647; today stands at a height of 104 metres (341 ft).	fb:part.spire_destroyed_by_lightning_in_1647_today_stands_at_a_height_of_104_metres_341_ft
+3	0	fb:cell.strasbourg_cathedral	Strasbourg Cathedral	strasbourg|cathedral	Strasbourg|Cathedral	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+3	1	fb:cell.germany_and_or_france_today_france	Germany and/or France (today France)	germany|and\\/or|france|-lrb-|today|france|-rrb-	Germany|and\\/or|France|-lrb-|today|France|-rrb-	NNP|CC|NNP|-LRB-|NN|NNP|-RRB-	LOCATION|O|LOCATION|O|DATE|LOCATION|O	||||THIS P1D||				Germany and|or France (today France)	fb:part.germany_and|fb:part.or_france_today_france
+3	2	fb:cell.strasbourg	Strasbourg	strasbourg	Strasbourg	NNP	LOCATION					Strasbourg	fb:part.strasbourg
+3	3	fb:cell.142_470	142 / 470	142|\\/|470	142|\\/|470	CD|:|CD	NUMBER|O|NUMBER	142.0||470.0	142.0		470.0	142|470	fb:part.142|fb:part.470
+3	4	fb:cell.church	Church	church	Church	NNP	O						
+3	5	fb:cell.1647_1874	1647–1874	1647|--|1874	1647|--|1874	CD|:|CD	DATE|DATE|DATE	1647|1647|1874	1647.0		1874.0		
+3	6	fb:cell.null											fb:part.null
+4	0	fb:cell.st_nikolai	St Nikolai	st|nikolai	St|Nikolai	NNP|NNP	PERSON|PERSON	|					
+4	1	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION					Germany	fb:part.germany
+4	2	fb:cell.hamburg	Hamburg	hamburg	Hamburg	NNP	LOCATION					Hamburg	fb:part.hamburg
+4	3	fb:cell.147_3_483	147.3 / 483	147.3|\\/|483	147.3|\\/|483	CD|:|CD	NUMBER|O|NUMBER	147.3||483.0	147.3		483.0	147.3|483	fb:part.147_3|fb:part.483
+4	4	fb:cell.church	Church	church	Church	NNP	O						
+4	5	fb:cell.1874_1876	1874–1876	1874|--|1876	1874|--|1876	CD|:|CD	DATE|DATE|DATE	1874|1874|1876	1874.0		1876.0		
+4	6	fb:cell.due_to_aerial_bombing_in_world_war_ii_the_nave_was_demolished_only_the_spire_remains	Due to aerial bombing in World War II the nave was demolished; only the spire remains.	due|to|aerial|bombing|in|world|war|ii|the|nave|was|demolished|;|only|the|spire|remains|.	due|to|aerial|bombing|in|World|War|II|the|nave|be|demolish|;|only|the|spire|remain|.	JJ|TO|JJ|NN|IN|NNP|NNP|NNP|DT|NN|VBD-AUX|VBN|:|RB|DT|NN|VBZ|.	O|O|O|O|O|MISC|MISC|MISC|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||				Due to aerial bombing in World War II the nave was demolished; only the spire remains.	fb:part.due_to_aerial_bombing_in_world_war_ii_the_nave_was_demolished_only_the_spire_remains
+5	0	fb:cell.notre_dame_cathedral	Notre-Dame Cathedral	notre|dame|cathedral	Notre|Dame|Cathedral	NNP|NNP|NNP	O|O|O	||					
+5	1	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+5	2	fb:cell.rouen	Rouen	rouen	Rouen	NNP	LOCATION					Rouen	fb:part.rouen
+5	3	fb:cell.151_500	151 / 500	151|\\/|500	151|\\/|500	CD|:|CD	NUMBER|O|NUMBER	151.0||500.0	151.0		500.0	151|500	fb:part.151|fb:part.500
+5	4	fb:cell.church	Church	church	Church	NNP	O						
+5	5	fb:cell.1876_1880	1876–1880	1876|--|1880	1876|--|1880	CD|:|NNP	DATE|O|DATE	1876||1880	1876.0		1880.0		
+5	6	fb:cell.null											fb:part.null
+6	0	fb:cell.cologne_cathedral	Cologne Cathedral	cologne|cathedral	Cologne|Cathedral	NNP|NNP	O|O	|					
+6	1	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION					Germany	fb:part.germany
+6	2	fb:cell.cologne	Cologne	cologne	Cologne	NNP	LOCATION					Cologne	fb:part.cologne
+6	3	fb:cell.157_4_516	157.4 / 516	157.4|\\/|516	157.4|\\/|516	CD|:|CD	NUMBER|O|NUMBER	157.4||516.0	157.4		516.0	157.4|516	fb:part.157_4|fb:part.516
+6	4	fb:cell.church	Church	church	Church	NNP	O						
+6	5	fb:cell.1880_1884	1880–1884	1880|--|1884	1880|--|1884	NNP|:|CD	DATE|DATE|DATE	1880|1880|1884	1880.0		1884.0		
+6	6	fb:cell.null											fb:part.null
+7	0	fb:cell.washington_monument	Washington Monument	washington|monument	Washington|Monument	NNP|NNP	LOCATION|O	|					
+7	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+7	2	fb:cell.washington_d_c	Washington, D.C.	washington|,|d.c.	Washington|,|D.C.	NNP|,|NNP	LOCATION|O|LOCATION	||				Washington|D.C.	fb:part.washington|fb:part.d_c
+7	3	fb:cell.169_3_555	169.3 / 555	169.3|\\/|555	169.3|\\/|555	CD|:|CD	NUMBER|O|NUMBER	169.3||555.0	169.3		555.0	169.3|555	fb:part.169_3|fb:part.555
+7	4	fb:cell.monument	Monument	monument	monument	NN	O						
+7	5	fb:cell.1884_1889	1884–1889	1884|--|1889	1884|--|1889	CD|:|CD	DATE|DATE|DATE	1884|1884|1889	1884.0		1889.0		
+7	6	fb:cell.null											fb:part.null
+8	0	fb:cell.eiffel_tower	Eiffel Tower	eiffel|tower	Eiffel|Tower	NNP|NNP	O|O	|					
+8	1	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+8	2	fb:cell.paris	Paris	paris	Paris	NNP	LOCATION					Paris	fb:part.paris
+8	3	fb:cell.300_6_986	300.6 / 986	300.6|\\/|986	300.6|\\/|986	CD|:|CD	NUMBER|O|NUMBER	300.6||986.0	300.6		986.0	300.6|986	fb:part.300_6|fb:part.986
+8	4	fb:cell.tower	Tower	tower	Tower	NNP	O						
+8	5	fb:cell.1889_1930	1889–1930	1889|--|1930	1889|--|1930	CD|:|CD	DATE|DATE|DATE	1889|1889|1930	1889.0		1930.0		
+8	6	fb:cell.currently_stands_at_a_height_of_324_metres_1_063_ft	Currently stands at a height of 324 metres (1,063 ft).	currently|stands|at|a|height|of|324|metres|-lrb-|1,063|ft|-rrb-|.	currently|stand|at|a|height|of|324|metre|-lrb-|1,063|ft|-rrb-|.	RB|VBZ|IN|DT|NN|IN|CD|NNS|-LRB-|CD|NN|-RRB-|.	DATE|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O|O	PRESENT_REF||||||324.0|||1063.0|||	324.0		1063.0	Currently stands at a height of 324 metres (1,063 ft).	fb:part.currently_stands_at_a_height_of_324_metres_1_063_ft
+9	0	fb:cell.chrysler_building	Chrysler Building	chrysler|building	Chrysler|Building	NNP|NNP	O|O	|					
+9	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+9	2	fb:cell.new_york_city	New York City	new|york|city	New|York|City	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				New York City	fb:part.new_york_city
+9	3	fb:cell.319_1_046	319 / 1,046	319|\\/|1,046	319|\\/|1,046	CD|:|CD	NUMBER|O|NUMBER	319.0||1046.0	319.0		1046.0	319|1,046	fb:part.319|fb:part.1_046
+9	4	fb:cell.skyscraper	Skyscraper	skyscraper	skyscraper	NN	O						
+9	5	fb:cell.1930_1931	1930–1931	1930|--|1931	1930|--|1931	CD|:|CD	DATE|DATE|DATE	1930|1930|1931	1930.0		1931.0		
+9	6	fb:cell.null											fb:part.null
+10	0	fb:cell.empire_state_building	Empire State Building	empire|state|building	Empire|State|Building	NNP|NNP|NNP	O|O|O	||					
+10	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+10	2	fb:cell.new_york_city	New York City	new|york|city	New|York|City	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				New York City	fb:part.new_york_city
+10	3	fb:cell.448_1_472	448 / 1,472	448|\\/|1,472	448|\\/|1,472	CD|:|CD	NUMBER|O|NUMBER	448.0||1472.0	448.0		1472.0	448|1,472	fb:part.448|fb:part.1_472
+10	4	fb:cell.skyscraper	Skyscraper	skyscraper	skyscraper	NN	O						
+10	5	fb:cell.1931_1967	1931–1967	1931|--|1967	1931|--|1967	CD|:|CD	DATE|DATE|DATE	1931|1931|1967	1931.0		1967.0		
+10	6	fb:cell.null											fb:part.null
+11	0	fb:cell.ostankino_tower	Ostankino Tower	ostankino|tower	Ostankino|Tower	NNP|NNP	O|O	|					
+11	1	fb:cell.russia	Russia	russia	Russia	NNP	LOCATION					Russia	fb:part.russia
+11	2	fb:cell.moscow	Moscow	moscow	Moscow	NNP	LOCATION					Moscow	fb:part.moscow
+11	3	fb:cell.540_1_772	540 / 1,772	540|\\/|1,772	540|\\/|1,772	CD|:|CD	NUMBER|O|NUMBER	540.0||1772.0	540.0		1772.0	540|1,772	fb:part.540|fb:part.1_772
+11	4	fb:cell.tower	Tower	tower	Tower	NNP	O						
+11	5	fb:cell.1967_1976	1967–1976	1967|--|1976	1967|--|1976	CD|:|CD	DATE|DATE|DATE	1967|1967|1976	1967.0		1976.0		
+11	6	fb:cell.null											fb:part.null
+12	0	fb:cell.cn_tower	CN Tower	cn|tower	cn|tower	NN|NN	O|O	|					
+12	1	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION					Canada	fb:part.canada
+12	2	fb:cell.toronto	Toronto	toronto	Toronto	NNP	LOCATION					Toronto	fb:part.toronto
+12	3	fb:cell.553_1_815	553 / 1,815	553|\\/|1,815	553|\\/|1,815	CD|:|CD	NUMBER|O|NUMBER	553.0||1815.0	553.0		1815.0	553|1,815	fb:part.553|fb:part.1_815
+12	4	fb:cell.tower	Tower	tower	Tower	NNP	O						
+12	5	fb:cell.1976_2007	1976–2007	1976|--|2007	1976|--|2007	CD|:|CD	DATE|DATE|DATE	1976|1976|2007	1976.0		2007.0		
+12	6	fb:cell.null											fb:part.null
+13	0	fb:cell.burj_khalifa	Burj Khalifa	burj|khalifa	Burj|Khalifa	NNP|NNP	PERSON|PERSON	|					
+13	1	fb:cell.united_arab_emirates	United Arab Emirates	united|arab|emirates	United|Arab|Emirates	NNP|NNP|NNPS	LOCATION|LOCATION|LOCATION	||				United Arab Emirates	fb:part.united_arab_emirates
+13	2	fb:cell.dubai	Dubai	dubai	Dubai	NNP	LOCATION					Dubai	fb:part.dubai
+13	3	fb:cell.829_8_2_722	829.8 / 2,722	829.8|\\/|2,722	829.8|\\/|2,722	CD|:|CD	NUMBER|O|NUMBER	829.8||2722.0	829.8		2722.0	829.8|2,722	fb:part.829_8|fb:part.2_722
+13	4	fb:cell.skyscraper	Skyscraper	skyscraper	skyscraper	NN	O						
+13	5	fb:cell.2007_present	2007–present	2007|--|present	2007|--|present	CD|:|JJ	DATE|O|DATE	2007||PRESENT_REF	2007.0				
+13	6	fb:cell.topped_out_on_17_january_2009	Topped-out on 17 January 2009	topped|out|on|17|january|2009	top|out|on|17|January|2009	VBN|RP|IN|CD|NNP|CD	O|O|O|DATE|DATE|DATE	|||2009-01-17|2009-01-17|2009-01-17	17.0		2009.0	Topped-out on 17 January 2009	fb:part.topped_out_on_17_january_2009

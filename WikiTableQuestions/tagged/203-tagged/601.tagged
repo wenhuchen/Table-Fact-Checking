@@ -1,0 +1,260 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.manufacturer	Manufacturer	manufacturer	manufacturer	NN	O						
+-1	1	fb:row.row.model	Model	model	Model	NNP	O						
+-1	2	fb:row.row.first_flight	first flight	first|flight	first|flight	RB|NN	ORDINAL|O	1.0|					
+-1	3	fb:row.row.max_payload_t	max Payload (t)	max|payload|-lrb-|t|-rrb-	max|payload|-lrb-|t|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	4	fb:row.row.cruise_km_h	Cruise (km/h)	cruise|-lrb-|km\\/h|-rrb-	cruise|-lrb-|km\\/h|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.max_range_km	max range (km)	max|range|-lrb-|km|-rrb-	max|range|-lrb-|km|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	6	fb:row.row.mtow	MTOW	mtow	mtow	NN	O						
+0	0	fb:cell.airbus	Airbus	airbus	Airbus	NNP	MISC					Airbus	fb:part.airbus
+0	1	fb:cell.a330_mrtt	A330 MRTT	a330|mrtt	a330|mrtt	NN|NN	O|O	|	330.0			A330 MRTT	fb:part.a330_mrtt
+0	2	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+0	3	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+0	4	fb:cell.860	860	860	860	CD	NUMBER	860.0	860.0				
+0	5	fb:cell.14_800	14,800	14,800	14,800	CD	NUMBER	14800.0	14800.0				
+0	6	fb:cell.223	223	223	223	CD	NUMBER	223.0	223.0				
+1	0	fb:cell.airbus	Airbus	airbus	Airbus	NNP	MISC					Airbus	fb:part.airbus
+1	1	fb:cell.a400m	A400M	a400m	a400m	NN	O		400.0			A400M	fb:part.a400m
+1	2	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+1	3	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+1	4	fb:cell.780	780	780	780	CD	NUMBER	780.0	780.0				
+1	5	fb:cell.9_300	9,300	9,300	9,300	CD	NUMBER	9300.0	9300.0				
+1	6	fb:cell.141	141	141	141	CD	NUMBER	141.0	141.0				
+2	0	fb:cell.alenia	Alenia	alenia	Alenia	NNP	LOCATION					Alenia	fb:part.alenia
+2	1	fb:cell.c_27j_spartan	C-27J Spartan	c-27j|spartan	c-27j|Spartan	NN|NNP	O|MISC	|	27.0			C-27J Spartan	fb:part.c_27j_spartan
+2	2	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+2	3	fb:cell.11_5	11.5	11.5	11.5	CD	NUMBER	11.5	11.5				
+2	4	fb:cell.583	583	583	583	CD	NUMBER	583.0	583.0				
+2	5	fb:cell.5_926	5,926	5,926	5,926	CD	NUMBER	5926.0	5926.0				
+2	6	fb:cell.31_8	31.8	31.8	31.8	CD	NUMBER	31.8	31.8				
+3	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+3	1	fb:cell.an_12	An-12	an-12	an-12	NN	O		12.0			An-12	fb:part.an_12
+3	2	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+3	3	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+3	4	fb:cell.777	777	777	777	CD	NUMBER	777.0	777.0				
+3	5	fb:cell.5_700	5,700	5,700	5,700	CD	NUMBER	5700.0	5700.0				
+3	6	fb:cell.61	61	61	61	CD	NUMBER	61.0	61.0				
+4	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+4	1	fb:cell.an_22_antei	An-22 Antei	an-22|antei	an-22|Antei	NN|NNP	O|O	|	22.0			An-22 Antei	fb:part.an_22_antei
+4	2	fb:cell.1965	1965	1965	1965	CD	DATE	1965	1965.0	1965-xx-xx			
+4	3	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+4	4	fb:cell.740	740	740	740	CD	NUMBER	740.0	740.0				
+4	5	fb:cell.5_000	5,000	5,000	5,000	CD	NUMBER	5000.0	5000.0				
+4	6	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+5	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+5	1	fb:cell.an_26	An-26	an-26	an-26	NN	O		26.0			An-26	fb:part.an_26
+5	2	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+5	3	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+5	4	fb:cell.440	440	440	440	CD	NUMBER	440.0	440.0				
+5	5	fb:cell.2_550	2,550	2,550	2,550	CD	NUMBER	2550.0	2550.0				
+5	6	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+6	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+6	1	fb:cell.an_32	An-32	an-32	an-32	NN	O		32.0			An-32	fb:part.an_32
+6	2	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+6	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+6	4	fb:cell.480	480	480	480	CD	NUMBER	480.0	480.0				
+6	5	fb:cell.2_500	2,500	2,500	2,500	CD	NUMBER	2500.0	2500.0				
+6	6	fb:cell.26_9	26.9	26.9	26.9	CD	NUMBER	26.9	26.9				
+7	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+7	1	fb:cell.an_70	An-70	an-70	an-70	NN	O		70.0			An-70	fb:part.an_70
+7	2	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+7	3	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+7	4	fb:cell.729	729	729	729	CD	NUMBER	729.0	729.0				
+7	5	fb:cell.6_600	6,600	6,600	6,600	CD	NUMBER	6600.0	6600.0				
+7	6	fb:cell.145	145	145	145	CD	NUMBER	145.0	145.0				
+8	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+8	1	fb:cell.an_72	An-72	an-72	an-72	NN	O		72.0			An-72	fb:part.an_72
+8	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+8	3	fb:cell.7_5	7.5	7.5	7.5	CD	NUMBER	7.5	7.5				
+8	4	fb:cell.600	600	600	600	CD	NUMBER	600.0	600.0				
+8	5	fb:cell.4_800	4,800	4,800	4,800	CD	NUMBER	4800.0	4800.0				
+8	6	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+9	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+9	1	fb:cell.an_124_ruslan	An-124 Ruslan	an-124|ruslan	an-124|ruslan	NN|NN	O|PERSON	|	124.0			An-124 Ruslan	fb:part.an_124_ruslan
+9	2	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+9	3	fb:cell.150	150	150	150	CD	NUMBER	150.0	150.0				
+9	4	fb:cell.800_850	800-850	800-850	800-850	CD	NUMBER	800.0 - 850.0	800.0		850.0		
+9	5	fb:cell.5_410	5,410	5,410	5,410	CD	NUMBER	5410.0	5410.0				
+9	6	fb:cell.405	405	405	405	CD	NUMBER	405.0	405.0				
+10	0	fb:cell.antonov	Antonov	antonov	Antonov	NNP	PERSON					Antonov	fb:part.antonov
+10	1	fb:cell.an_225_mriya	An-225 Mriya	an-225|mriya	An-225|Mriya	NNP|NNP	O|O	|	225.0			An-225 Mriya	fb:part.an_225_mriya
+10	2	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+10	3	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+10	4	fb:cell.800	800	800	800	CD	NUMBER	800.0	800.0				
+10	5	fb:cell.15_400	15,400	15,400	15,400	CD	NUMBER	15400.0	15400.0				
+10	6	fb:cell.600	600	600	600	CD	NUMBER	600.0	600.0				
+11	0	fb:cell.avic	AVIC	avic	avic	NN	ORGANIZATION					AVIC	fb:part.avic
+11	1	fb:cell.y_8	Y-8	y-8	y-8	NN	O		8.0			Y-8	fb:part.y_8
+11	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+11	3	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+11	4	fb:cell.550	550	550	550	CD	NUMBER	550.0	550.0				
+11	5	fb:cell.5_616	5,616	5,616	5,616	CD	NUMBER	5616.0	5616.0				
+11	6	fb:cell.61	61	61	61	CD	NUMBER	61.0	61.0				
+12	0	fb:cell.avic	AVIC	avic	avic	NN	ORGANIZATION					AVIC	fb:part.avic
+12	1	fb:cell.y_9	Y-9	y-9	y-9	NN	O		9.0			Y-9	fb:part.y_9
+12	2	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+12	3	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+12	4	fb:cell.650	650	650	650	CD	NUMBER	650.0	650.0				
+12	5	fb:cell.7_800	7,800	7,800	7,800	CD	NUMBER	7800.0	7800.0				
+12	6	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+13	0	fb:cell.avic	AVIC	avic	avic	NN	ORGANIZATION					AVIC	fb:part.avic
+13	1	fb:cell.y_20	Y-20	y-20	y-20	NN	O		20.0			Y-20	fb:part.y_20
+13	2	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+13	3	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+13	4	fb:cell.700	700	700	700	CD	NUMBER	700.0	700.0				
+13	5	fb:cell.7_800	7,800	7,800	7,800	CD	NUMBER	7800.0	7800.0				
+13	6	fb:cell.220	220	220	220	CD	NUMBER	220.0	220.0				
+14	0	fb:cell.bell_boeing	Bell/Boeing	bell\\/boeing	bell\\/boeing	VBG	O					Bell|Boeing	fb:part.bell|fb:part.boeing
+14	1	fb:cell.v_22_osprey	V-22 Osprey	v-22|osprey	V-22|Osprey	NNP|NNP	O|O	|	22.0			V-22 Osprey	fb:part.v_22_osprey
+14	2	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+14	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+14	4	fb:cell.396	396	396	396	CD	NUMBER	396.0	396.0				
+14	5	fb:cell.1_627	1,627	1,627	1,627	CD	NUMBER	1627.0	1627.0				
+14	6	fb:cell.27_4	27.4	27.4	27.4	CD	NUMBER	27.4	27.4				
+15	0	fb:cell.boeing	Boeing	boeing	Boeing	NNP	ORGANIZATION					Boeing	fb:part.boeing
+15	1	fb:cell.c_17_globemaster_iii	C-17 Globemaster III	c-17|globemaster|iii	C-17|Globemaster|III	NNP|NNP|NNP	MISC|MISC|MISC	||	17.0			C-17 Globemaster III	fb:part.c_17_globemaster_iii
+15	2	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+15	3	fb:cell.77_5	77.5	77.5	77.5	CD	NUMBER	77.5	77.5				
+15	4	fb:cell.830	830	830	830	CD	NUMBER	830.0	830.0				
+15	5	fb:cell.4_482	4,482	4,482	4,482	CD	NUMBER	4482.0	4482.0				
+15	6	fb:cell.265	265	265	265	CD	NUMBER	265.0	265.0				
+16	0	fb:cell.casa	CASA	casa	CASA	NNP	ORGANIZATION					CASA	fb:part.casa
+16	1	fb:cell.c_212_aviocar	C-212 Aviocar	c-212|aviocar	c-212|aviocar	NN|NN	O|O	|	212.0			C-212 Aviocar	fb:part.c_212_aviocar
+16	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+16	3	fb:cell.2_8	2.8	2.8	2.8	CD	NUMBER	2.8	2.8				
+16	4	fb:cell.315	315	315	315	CD	NUMBER	315.0	315.0				
+16	5	fb:cell.1_433	1,433	1,433	1,433	CD	NUMBER	1433.0	1433.0				
+16	6	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+17	0	fb:cell.casa_indonesian_aerospace	CASA/Indonesian Aerospace	casa\\/indonesian|aerospace	CASA\\/Indonesian|Aerospace	NNP|NNP	O|O	|				CASA|Indonesian Aerospace	fb:part.casa|fb:part.indonesian_aerospace
+17	1	fb:cell.cn_235	CN-235	cn-235	cn-235	NN	O		235.0			CN-235	fb:part.cn_235
+17	2	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+17	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+17	4	fb:cell.509	509	509	509	CD	NUMBER	509.0	509.0				
+17	5	fb:cell.5_003	5,003	5,003	5,003	CD	NUMBER	5003.0	5003.0				
+17	6	fb:cell.15_1	15.1	15.1	15.1	CD	NUMBER	15.1	15.1				
+18	0	fb:cell.casa	CASA	casa	CASA	NNP	ORGANIZATION					CASA	fb:part.casa
+18	1	fb:cell.c_295	C-295	c-295	c-295	NN	O		295.0			C-295	fb:part.c_295
+18	2	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+18	3	fb:cell.9_3	9.3	9.3	9.3	CD	NUMBER	9.3	9.3				
+18	4	fb:cell.481	481	481	481	CD	NUMBER	481.0	481.0				
+18	5	fb:cell.5_630	5,630	5,630	5,630	CD	NUMBER	5630.0	5630.0				
+18	6	fb:cell.23_2	23.2	23.2	23.2	CD	NUMBER	23.2	23.2				
+19	0	fb:cell.de_havilland_canada	de Havilland Canada	de|havilland|canada	de|Havilland|Canada	IN|NNP|NNP	O|O|LOCATION	||				de Havilland Canada	fb:part.de_havilland_canada
+19	1	fb:cell.c_7_caribou	C-7 Caribou	c-7|caribou	C-7|Caribou	NNP|NNP	O|MISC	|	7.0			C-7 Caribou	fb:part.c_7_caribou
+19	2	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+19	3	fb:cell.3_6	3.6	3.6	3.6	CD	NUMBER	3.6	3.6				
+19	4	fb:cell.348	348	348	348	CD	NUMBER	348.0	348.0				
+19	5	fb:cell.2_103	2,103	2,103	2,103	CD	NUMBER	2103.0	2103.0				
+19	6	fb:cell.14_2	14.2	14.2	14.2	CD	NUMBER	14.2	14.2				
+20	0	fb:cell.douglas	Douglas	douglas	Douglas	NNP	PERSON					Douglas	fb:part.douglas
+20	1	fb:cell.c_47	C-47	c-47	c-47	NN	O		47.0			C-47	fb:part.c_47
+20	2	fb:cell.1943	1943	1943	1943	CD	DATE	1943	1943.0	1943-xx-xx			
+20	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+20	4	fb:cell.360	360	360	360	CD	NUMBER	360.0	360.0				
+20	5	fb:cell.2_600	2,600	2,600	2,600	CD	NUMBER	2600.0	2600.0				
+20	6	fb:cell.10_5	10.5	10.5	10.5	CD	NUMBER	10.5	10.5				
+21	0	fb:cell.grumman	Grumman	grumman	Grumman	NNP	O					Grumman	fb:part.grumman
+21	1	fb:cell.c_1_trader	C-1 Trader	c-1|trader	c-1|trader	NN|NN	O|O	|	1.0			C-1 Trader	fb:part.c_1_trader
+21	2	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+21	3	fb:cell.1_6	1.6	1.6	1.6	CD	NUMBER	1.6	1.6				
+21	4	fb:cell.462	462	462	462	CD	NUMBER	462.0	462.0				
+21	5	fb:cell.2_092	2,092	2,092	2,092	CD	NUMBER	2092.0	2092.0				
+21	6	fb:cell.13_2	13.2	13.2	13.2	CD	NUMBER	13.2	13.2				
+22	0	fb:cell.grumman	Grumman	grumman	Grumman	NNP	O					Grumman	fb:part.grumman
+22	1	fb:cell.c_2_greyhound	C-2 Greyhound	c-2|greyhound	c-2|Greyhound	NN|NNP	MISC|MISC	|	2.0			C-2 Greyhound	fb:part.c_2_greyhound
+22	2	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+22	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+22	4	fb:cell.465	465	465	465	CD	NUMBER	465.0	465.0				
+22	5	fb:cell.2_400	2,400	2,400	2,400	CD	NUMBER	2400.0	2400.0				
+22	6	fb:cell.24_7	24.7	24.7	24.7	CD	NUMBER	24.7	24.7				
+23	0	fb:cell.embraer	Embraer	embraer	Embraer	NNP	O					Embraer	fb:part.embraer
+23	1	fb:cell.kc_390	KC-390	kc-390	kc-390	NN	O		390.0			KC-390	fb:part.kc_390
+23	2	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+23	3	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+23	4	fb:cell.900	900	900	900	CD	NUMBER	900.0	900.0				
+23	5	fb:cell.6_200	6,200	6,200	6,200	CD	NUMBER	6200.0	6200.0				
+23	6	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+24	0	fb:cell.fairchild	Fairchild	fairchild	Fairchild	NNP	O					Fairchild	fb:part.fairchild
+24	1	fb:cell.c_123_provider	C-123 Provider	c-123|provider	c-123|provider	NN|NN	O|O	|	123.0			C-123 Provider	fb:part.c_123_provider
+24	2	fb:cell.1949	1949	1949	1949	CD	DATE	1949	1949.0	1949-xx-xx			
+24	3	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+24	4	fb:cell.367	367	367	367	CD	NUMBER	367.0	367.0				
+24	5	fb:cell.1_666	1,666	1,666	1,666	CD	NUMBER	1666.0	1666.0				
+24	6	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+25	0	fb:cell.ilyushin	Ilyushin	ilyushin	ilyushin	NN	O					Ilyushin	fb:part.ilyushin
+25	1	fb:cell.il_76	Il-76	il-76	il-76	NN	O		76.0			Il-76	fb:part.il_76
+25	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+25	3	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+25	4	fb:cell.900	900	900	900	CD	NUMBER	900.0	900.0				
+25	5	fb:cell.4_400	4,400	4,400	4,400	CD	NUMBER	4400.0	4400.0				
+25	6	fb:cell.210	210	210	210	CD	NUMBER	210.0	210.0				
+26	0	fb:cell.ilyushin	Ilyushin	ilyushin	ilyushin	NN	O					Ilyushin	fb:part.ilyushin
+26	1	fb:cell.il_112	Il-112	il-112	il-112	NN	O		112.0			Il-112	fb:part.il_112
+26	2	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+26	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+26	4	fb:cell.550	550	550	550	CD	NUMBER	550.0	550.0				
+26	5	fb:cell.5_000	5,000	5,000	5,000	CD	NUMBER	5000.0	5000.0				
+26	6	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+27	0	fb:cell.kawasaki	Kawasaki	kawasaki	Kawasaki	NNP	PERSON					Kawasaki	fb:part.kawasaki
+27	1	fb:cell.c_1	C-1	c-1	c-1	NN	O		1.0			C-1	fb:part.c_1
+27	2	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+27	3	fb:cell.11_9	11.9	11.9	11.9	CD	NUMBER	11.9	11.9				
+27	4	fb:cell.657	657	657	657	CD	NUMBER	657.0	657.0				
+27	5	fb:cell.1_300	1,300	1,300	1,300	CD	NUMBER	1300.0	1300.0				
+27	6	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+28	0	fb:cell.kawasaki	Kawasaki	kawasaki	Kawasaki	NNP	PERSON					Kawasaki	fb:part.kawasaki
+28	1	fb:cell.xc_2	XC-2	xc-2	xc-2	NN	O		2.0			XC-2	fb:part.xc_2
+28	2	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+28	3	fb:cell.37_6	37.6	37.6	37.6	CD	NUMBER	37.6	37.6				
+28	4	fb:cell.890	890	890	890	CD	NUMBER	890.0	890.0				
+28	5	fb:cell.6_500	6,500	6,500	6,500	CD	NUMBER	6500.0	6500.0				
+28	6	fb:cell.120	120	120	120	CD	NUMBER	120.0	120.0				
+29	0	fb:cell.lockheed	Lockheed	lockheed	Lockheed	NNP	LOCATION					Lockheed	fb:part.lockheed
+29	1	fb:cell.c_5_galaxy	C-5 Galaxy	c-5|galaxy	C-5|Galaxy	NNP|NNP	O|O	|	5.0			C-5 Galaxy	fb:part.c_5_galaxy
+29	2	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+29	3	fb:cell.122	122	122	122	CD	NUMBER	122.0	122.0				
+29	4	fb:cell.907	907	907	907	CD	NUMBER	907.0	907.0				
+29	5	fb:cell.4_445	4,445	4,445	4,445	CD	NUMBER	4445.0	4445.0				
+29	6	fb:cell.381	381	381	381	CD	NUMBER	381.0	381.0				
+30	0	fb:cell.lockheed	Lockheed	lockheed	Lockheed	NNP	LOCATION					Lockheed	fb:part.lockheed
+30	1	fb:cell.c_130_hercules	C-130 Hercules	c-130|hercules	c-130|Hercules	NN|NNP	O|O	|	130.0			C-130 Hercules	fb:part.c_130_hercules
+30	2	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+30	3	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+30	4	fb:cell.540	540	540	540	CD	NUMBER	540.0	540.0				
+30	5	fb:cell.3_800	3,800	3,800	3,800	CD	NUMBER	3800.0	3800.0				
+30	6	fb:cell.70_3	70.3	70.3	70.3	CD	NUMBER	70.3	70.3				
+31	0	fb:cell.lockheed	Lockheed	lockheed	Lockheed	NNP	LOCATION					Lockheed	fb:part.lockheed
+31	1	fb:cell.c_141_starlifter	C-141 Starlifter	c-141|starlifter	c-141|starlifter	NN|NN	O|O	|	141.0			C-141 Starlifter	fb:part.c_141_starlifter
+31	2	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+31	3	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+31	4	fb:cell.912	912	912	912	CD	NUMBER	912.0	912.0				
+31	5	fb:cell.9_880	9,880	9,880	9,880	CD	NUMBER	9880.0	9880.0				
+31	6	fb:cell.147	147	147	147	CD	NUMBER	147.0	147.0				
+32	0	fb:cell.pzl_mielec	PZL Mielec	pzl|mielec	PZL|Mielec	NNP|NNP	O|LOCATION	|				PZL Mielec	fb:part.pzl_mielec
+32	1	fb:cell.m_28_skytruck	M-28 Skytruck	m-28|skytruck	m-28|skytruck	NN|NN	O|O	|	28.0			M-28 Skytruck	fb:part.m_28_skytruck
+32	2	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+32	3	fb:cell.2_5	2.5	2.5	2.5	CD	NUMBER	2.5	2.5				
+32	4	fb:cell.270	270	270	270	CD	NUMBER	270.0	270.0				
+32	5	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+32	6	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+33	0	fb:cell.short_brothers	Short Brothers	short|brothers	Short|Brothers	NNP|NNPS	O|O	|				Short Brothers	fb:part.short_brothers
+33	1	fb:cell.c_23_sherpa	C-23 Sherpa	c-23|sherpa	c-23|sherpa	NN|NN	O|O	|	23.0			C-23 Sherpa	fb:part.c_23_sherpa
+33	2	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+33	3	fb:cell.3_2	3.2	3.2	3.2	CD	NUMBER	3.2	3.2				
+33	4	fb:cell.296	296	296	296	CD	NUMBER	296.0	296.0				
+33	5	fb:cell.1_239	1,239	1,239	1,239	CD	NUMBER	1239.0	1239.0				
+33	6	fb:cell.3_2	3.2	3.2	3.2	CD	NUMBER	3.2	3.2				
+34	0	fb:cell.transport_allianz	Transport Allianz	transport|allianz	transport|Allianz	NN|NNP	O|PERSON	|				Transport Allianz	fb:part.transport_allianz
+34	1	fb:cell.transall_c_160	Transall C-160	transall|c-160	Transall|c-160	NNP|NN	O|O	|	160.0			Transall C-160	fb:part.transall_c_160
+34	2	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+34	3	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+34	4	fb:cell.513	513	513	513	CD	NUMBER	513.0	513.0				
+34	5	fb:cell.1_850	1,850	1,850	1,850	CD	NUMBER	1850.0	1850.0				
+34	6	fb:cell.49_2	49.2	49.2	49.2	CD	NUMBER	49.2	49.2				
+35	0	fb:cell.uac_and_hal	UAC and HAL	uac|and|hal	UAC|and|HAL	NNP|CC|NNP	ORGANIZATION|O|O	||				UAC and HAL	fb:part.uac_and_hal
+35	1	fb:cell.uac_hal_multirole_transport_aircraft	UAC/HAL Multirole Transport Aircraft	uac\\/hal|multirole|transport|aircraft	UAC\\/HAL|Multirole|Transport|Aircraft	NNP|NNP|NNP|NNP	O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				UAC|HAL Multirole Transport Aircraft	fb:part.uac|fb:part.hal_multirole_transport_aircraft
+35	2	fb:cell.2015	2015	2015	2015	CD	DATE	2015	2015.0	2015-xx-xx			
+35	3	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+35	4	fb:cell.830	830	830	830	CD	NUMBER	830.0	830.0				
+35	5	fb:cell.2_500	2,500	2,500	2,500	CD	NUMBER	2500.0	2500.0				
+35	6	fb:cell.68	68	68	68	CD	NUMBER	68.0	68.0				

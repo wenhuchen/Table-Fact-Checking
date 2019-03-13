@@ -1,0 +1,533 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.common_name	Common name	common|name	common|name	JJ|NN	O|O	|					
+-1	1	fb:row.row.district	District	district	District	NNP	O						
+-1	2	fb:row.row.hebrew	Hebrew	hebrew	hebrew	JJ	O						
+-1	3	fb:row.row.arabic	Arabic	arabic	arabic	JJ	MISC						
+-1	4	fb:row.row.population_2009	Population\n(2009)	population|-lrb-|2009|-rrb-	Population|-lrb-|2009|-rrb-	NNP|-LRB-|CD|-RRB-	O|O|DATE|O	||2009|					
+-1	5	fb:row.row.area_km	Area\n(km²)	area|-lrb-|km|²|-rrb-	area|-lrb-|km|²|-rrb-	NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O	||||					
+-1	6	fb:row.row.mayor	Mayor	mayor	Mayor	NNP	O						
+0	0	fb:cell.acre	Acre	acre	acre	NN	O						
+0	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+0	2	fb:cell.null	עכו	עכו	עכו	NN	O						
+0	3	fb:cell.null_2	عكا	عكا	عكا	NN	O					عكا	fb:part.null
+0	4	fb:cell.46_300	46,300	46,300	46,300	CD	NUMBER	46300.0	46300.0				
+0	5	fb:cell.13_533	13.533	13.533	13.533	CD	NUMBER	13.533	13.533				
+0	6	fb:cell.shimon_lancry	Shimon Lancry	shimon|lancry	Shimon|Lancry	NNP|NNP	PERSON|PERSON	|					
+1	0	fb:cell.afula	Afula	afula	Afula	NNP	LOCATION						
+1	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+1	2	fb:cell.null_3	עפולה	עפולה	עפולה	NN	O						
+1	3	fb:cell.null_4	العفولة	العفولة	العفولة	NN	O					العفولة	fb:part.null_2
+1	4	fb:cell.40_500	40,500	40,500	40,500	CD	NUMBER	40500.0	40500.0				
+1	5	fb:cell.26_909	26.909	26.909	26.909	CD	NUMBER	26.909	26.909				
+1	6	fb:cell.avi_elkabetz	Avi Elkabetz	avi|elkabetz	Avi|Elkabetz	NNP|NNP	PERSON|PERSON	|					
+2	0	fb:cell.arad	Arad	arad	Arad	NNP	PERSON						
+2	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+2	2	fb:cell.null_5	ערד	ערד	ערד	NN	O						
+2	3	fb:cell.null_6	عراد	عراد	عراد	NN	O					عراد	fb:part.null_3
+2	4	fb:cell.23_400	23,400	23,400	23,400	CD	NUMBER	23400.0	23400.0				
+2	5	fb:cell.93_140	93.140	93.140	93.140	CD	NUMBER	93.14	93.14				
+2	6	fb:cell.tali_ploskov	Tali Ploskov	tali|ploskov	Tali|Ploskov	NNP|NNP	PERSON|PERSON	|					
+3	0	fb:cell.ariel	Ariel	ariel	Ariel	NNP	O						
+3	1	fb:cell.judea_samaria_west_bank	Judea & Samaria\n(West Bank)	judea|&|samaria|-lrb-|west|bank|-rrb-	Judea|&|Samaria|-lrb-|West|Bank|-rrb-	NNP|CC|NNP|-LRB-|NNP|NNP|-RRB-	LOCATION|O|LOCATION|O|LOCATION|LOCATION|O	||||||				Judea & Samaria|(West Bank)	fb:part.judea_samaria|fb:part._west_bank
+3	2	fb:cell.null_7	אריאל	אריאל	אריאל	NN	O						
+3	3	fb:cell.null_8	أريأل	أريأل	أريأل	NN	O					أريأل	fb:part.null_4
+3	4	fb:cell.17_600	17,600	17,600	17,600	CD	NUMBER	17600.0	17600.0				
+3	5	fb:cell.14_677	14.677	14.677	14.677	CD	NUMBER	14.677	14.677				
+3	6	fb:cell.eliyahu_shaviro	Eliyahu Shaviro	eliyahu|shaviro	Eliyahu|Shaviro	NNP|NNP	PERSON|PERSON	|					
+4	0	fb:cell.ashdod	Ashdod	ashdod	Ashdod	NNP	LOCATION						
+4	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+4	2	fb:cell.null_9	אשדוד	אשדוד	אשדוד	NN	O						
+4	3	fb:cell.null_10	أشدود	أشدود	أشدود	NN	O					أشدود	fb:part.null_5
+4	4	fb:cell.206_400	206,400	206,400	206,400	CD	NUMBER	206400.0	206400.0				
+4	5	fb:cell.47_242	47.242	47.242	47.242	CD	NUMBER	47.242	47.242				
+4	6	fb:cell.yehiel_lasri	Yehiel Lasri	yehiel|lasri	Yehiel|Lasri	NNP|NNP	PERSON|PERSON	|					
+5	0	fb:cell.ashkelon	Ashkelon	ashkelon	Ashkelon	NNP	LOCATION						
+5	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+5	2	fb:cell.null_11	אשקלון	אשקלון	אשקלון	NN	O						
+5	3	fb:cell.null_12	عسقلان	عسقلان	عسقلان	NN	O					عسقلان	fb:part.null_6
+5	4	fb:cell.111_900	111,900	111,900	111,900	CD	NUMBER	111900.0	111900.0				
+5	5	fb:cell.47_788	47.788	47.788	47.788	CD	NUMBER	47.788	47.788				
+5	6	fb:cell.benny_vaknin	Benny Vaknin	benny|vaknin	Benny|Vaknin	NNP|NNP	PERSON|PERSON	|					
+6	0	fb:cell.baqa_jatt	Baqa-Jatt	baqa|jatt	Baqa|Jatt	NNP|NNP	PERSON|PERSON	|					
+6	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+6	2	fb:cell.null_13	באקה-ג'ת	באקה|ג|'|ת	באקה|ג|'|ת	NN|NN|''|SYM	O|O|O|O	|||					
+6	3	fb:cell.null_14	باقة جت	باقة|جت	باقة|جت	CD|NN	NUMBER|O	|				باقة جت	fb:part.null_7
+6	4	fb:cell.34_300	34,300	34,300	34,300	CD	NUMBER	34300.0	34300.0				
+6	5	fb:cell.16_392	16.392	16.392	16.392	CD	NUMBER	16.392	16.392				
+6	6	fb:cell.yitzhak_veled	Yitzhak Veled	yitzhak|veled	Yitzhak|Veled	NNP|NNP	PERSON|PERSON	|					
+7	0	fb:cell.bat_yam	Bat Yam	bat|yam	Bat|Yam	NNP|NNP	O|O	|					
+7	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+7	2	fb:cell.null_15	בת ים	בת|ים	בת|ים	NN|NN	O|O	|					
+7	3	fb:cell.null_16	بات يام	بات|يام	بات|يام	NN|CD	O|NUMBER	|				بات يام	fb:part.null_8
+7	4	fb:cell.130_000	130,000	130,000	130,000	CD	NUMBER	130000.0	130000.0				
+7	5	fb:cell.8_167	8.167	8.167	8.167	CD	NUMBER	8.167	8.167				
+7	6	fb:cell.shlomo_lahiani	Shlomo Lahiani	shlomo|lahiani	Shlomo|Lahiani	NNP|NNP	PERSON|PERSON	|					
+8	0	fb:cell.beersheba	Beersheba	beersheba	Beersheba	NNP	LOCATION						
+8	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+8	2	fb:cell.null_17	באר שבע	באר|שבע	באר|שבע	NN|CD	O|NUMBER	|					
+8	3	fb:cell.null_18	بئر السبع	بئر|السبع	بئر|السبع	NN|CD	O|NUMBER	|				بئر السبع	fb:part.null_9
+8	4	fb:cell.197_300	197,300	197,300	197,300	CD	NUMBER	197300.0	197300.0				
+8	5	fb:cell.52_903	52.903	52.903	52.903	CD	NUMBER	52.903	52.903				
+8	6	fb:cell.rubik_danilovich	Rubik Danilovich	rubik|danilovich	Rubik|Danilovich	NNP|NNP	PERSON|PERSON	|					
+9	0	fb:cell.beit_she_an	Beit She'an	beit|she'an	Beit|She'an	NNP|NNP	O|O	|					
+9	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+9	2	fb:cell.null_19	בית שאן	בית|שאן	בית|שאן	NN|CD	O|NUMBER	|					
+9	3	fb:cell.null_20	بيسان	بيسان	بيسان	NN	O					بيسان	fb:part.null_10
+9	4	fb:cell.16_900	16,900	16,900	16,900	CD	NUMBER	16900.0	16900.0				
+9	5	fb:cell.7_330	7.330	7.330	7.330	CD	NUMBER	7.33	7.33				
+9	6	fb:cell.jacky_levi	Jacky Levi	jacky|levi	Jacky|Levi	NNP|NNP	PERSON|PERSON	|					
+10	0	fb:cell.beit_shemesh	Beit Shemesh	beit|shemesh	Beit|Shemesh	NNP|NNP	O|O	|					
+10	1	fb:cell.jerusalem	Jerusalem	jerusalem	Jerusalem	NNP	LOCATION					Jerusalem	fb:part.jerusalem
+10	2	fb:cell.null_21	בית שמש	בית|שמש	בית|שמש	NN|CD	O|NUMBER	|					
+10	3	fb:cell.null_22	بيت شيمش	بيت|شيمش	بيت|شيمش	NN|CD	O|NUMBER	|				بيت شيمش	fb:part.null_11
+10	4	fb:cell.77_100	77,100	77,100	77,100	CD	NUMBER	77100.0	77100.0				
+10	5	fb:cell.34_259	34.259	34.259	34.259	CD	NUMBER	34.259	34.259				
+10	6	fb:cell.moshe_abutbul	Moshe Abutbul	moshe|abutbul	Moshe|Abutbul	NNP|NNP	PERSON|PERSON	|					
+11	0	fb:cell.beitar_illit	Beitar Illit	beitar|illit	Beitar|Illit	NNP|NNP	PERSON|PERSON	|					
+11	1	fb:cell.judea_samaria_west_bank	Judea & Samaria\n(West Bank)	judea|&|samaria|-lrb-|west|bank|-rrb-	Judea|&|Samaria|-lrb-|West|Bank|-rrb-	NNP|CC|NNP|-LRB-|NNP|NNP|-RRB-	LOCATION|O|LOCATION|O|LOCATION|LOCATION|O	||||||				Judea & Samaria|(West Bank)	fb:part.judea_samaria|fb:part._west_bank
+11	2	fb:cell.null_23	ביתר עילית	ביתר|עילית	ביתר|עילית	NN|CD	O|NUMBER	|					
+11	3	fb:cell.null_24	بيتار عيليت	بيتار|عيليت	بيتار|عيليت	NN|CD	O|NUMBER	|				بيتار عيليت	fb:part.null_12
+11	4	fb:cell.35_000	35,000	35,000	35,000	CD	NUMBER	35000.0	35000.0				
+11	5	fb:cell.6_801	6.801	6.801	6.801	CD	NUMBER	6.801	6.801				
+11	6	fb:cell.meir_rubenstein	Meir Rubenstein	meir|rubenstein	Meir|Rubenstein	NNP|NNP	PERSON|PERSON	|					
+12	0	fb:cell.bnei_brak	Bnei Brak	bnei|brak	Bnei|Brak	NNP|NNP	LOCATION|LOCATION	|					
+12	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+12	2	fb:cell.null_25	בני ברק	בני|ברק	בני|ברק	NN|CD	O|NUMBER	|					
+12	3	fb:cell.null_26	بني براك	بني|براك	بني|براك	NN|CD	O|NUMBER	|				بني براك	fb:part.null_13
+12	4	fb:cell.154_400	154,400	154,400	154,400	CD	NUMBER	154400.0	154400.0				
+12	5	fb:cell.7_088	7.088	7.088	7.088	CD	NUMBER	7.088	7.088				
+12	6	fb:cell.ya_akov_asher	Ya'akov Asher	ya'akov|asher	Ya'akov|Asher	NNP|NNP	PERSON|PERSON	|					
+13	0	fb:cell.dimona	Dimona	dimona	Dimona	NNP	O						
+13	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+13	2	fb:cell.null_27	דימונה	דימונה	דימונה	NN	O						
+13	3	fb:cell.null_28	ديمونة	ديمونة	ديمونة	NN	O					ديمونة	fb:part.null_14
+13	4	fb:cell.32_400	32,400	32,400	32,400	CD	NUMBER	32400.0	32400.0				
+13	5	fb:cell.29_877	29.877	29.877	29.877	CD	NUMBER	29.877	29.877				
+13	6	fb:cell.meir_cohen	Meir Cohen	meir|cohen	Meir|Cohen	NNP|NNP	PERSON|PERSON	|					
+14	0	fb:cell.eilat	Eilat	eilat	Eilat	NNP	LOCATION						
+14	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+14	2	fb:cell.null_29	אילת	אילת	אילת	NN	O						
+14	3	fb:cell.null_30	إيلات	إيلات	إيلات	NN	O					إيلات	fb:part.null_15
+14	4	fb:cell.47_400	47,400	47,400	47,400	CD	NUMBER	47400.0	47400.0				
+14	5	fb:cell.84_789	84.789	84.789	84.789	CD	NUMBER	84.789	84.789				
+14	6	fb:cell.meir_yitzhak_halevi	Meir Yitzhak Halevi	meir|yitzhak|halevi	Meir|Yitzhak|Halevi	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+15	0	fb:cell.el_ad	El'ad	el|`|ad	El|`|ad	NNP|``|NN	O|O|O	||					
+15	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+15	2	fb:cell.null_31	אלעד	אלעד	אלעד	NN	O						
+15	3	fb:cell.null_32	أيلعاد	أيلعاد	أيلعاد	NN	O					أيلعاد	fb:part.null_16
+15	4	fb:cell.36_300	36,300	36,300	36,300	CD	NUMBER	36300.0	36300.0				
+15	5	fb:cell.2_756	2.756	2.756	2.756	CD	NUMBER	2.756	2.756				
+15	6	fb:cell.yitzhak_idan	Yitzhak Idan	yitzhak|idan	Yitzhak|Idan	NNP|NNP	PERSON|PERSON	|					
+16	0	fb:cell.giv_atayim	Giv'atayim	giv|`|atayim	Giv|`|atayim	NNP|``|FW	O|O|O	||					
+16	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+16	2	fb:cell.null_33	גבעתיים	גבעתיים	גבעתיים	NN	O						
+16	3	fb:cell.null_34	جفعاتايم	جفعاتايم	جفعاتايم	NN	O					جفعاتايم	fb:part.null_17
+16	4	fb:cell.53_000	53,000	53,000	53,000	CD	NUMBER	53000.0	53000.0				
+16	5	fb:cell.3_246	3.246	3.246	3.246	CD	NUMBER	3.246	3.246				
+16	6	fb:cell.ran_kunik	Ran Kunik	ran|kunik	ran|kunik	NN|NN	O|O	|					
+17	0	fb:cell.giv_at_shmuel	Giv'at Shmuel	giv|`|at|shmuel	Giv|`|at|Shmuel	NNP|``|IN|NNP	O|O|O|PERSON	|||					
+17	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+17	2	fb:cell.null_35	גבעת שמואל	גבעת|שמואל	גבעת|שמואל	NN|CD	O|NUMBER	|					
+17	3	fb:cell.null_36											fb:part.null_18
+17	4	fb:cell.21_800	21,800	21,800	21,800	CD	NUMBER	21800.0	21800.0				
+17	5	fb:cell.2_579	2.579	2.579	2.579	CD	NUMBER	2.579	2.579				
+17	6	fb:cell.yossi_brodny	Yossi Brodny	yossi|brodny	Yossi|Brodny	NNP|NNP	PERSON|PERSON	|					
+18	0	fb:cell.hadera	Hadera	hadera	Hadera	NNP	LOCATION						
+18	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+18	2	fb:cell.null_37	חדרה	חדרה	חדרה	NN	O						
+18	3	fb:cell.null_38	الخضيرة	الخضيرة	الخضيرة	NN	O					الخضيرة	fb:part.null_19
+18	4	fb:cell.80_200	80,200	80,200	80,200	CD	NUMBER	80200.0	80200.0				
+18	5	fb:cell.49_359	49.359	49.359	49.359	CD	NUMBER	49.359	49.359				
+18	6	fb:cell.haim_avitan	Haim Avitan	haim|avitan	Haim|Avitan	NNP|NNP	PERSON|PERSON	|					
+19	0	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+19	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+19	2	fb:cell.null_39	חיפה	חיפה	חיפה	NN	O						
+19	3	fb:cell.null_40	حيفا	حيفا	حيفا	NN	O					حيفا	fb:part.null_20
+19	4	fb:cell.265_600	265,600	265,600	265,600	CD	NUMBER	265600.0	265600.0				
+19	5	fb:cell.63_666	63.666	63.666	63.666	CD	NUMBER	63.666	63.666				
+19	6	fb:cell.yona_yahav	Yona Yahav	yona|yahav	Yona|Yahav	NNP|NNP	PERSON|PERSON	|					
+20	0	fb:cell.herzliya	Herzliya	herzliya	Herzliya	NNP	LOCATION						
+20	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+20	2	fb:cell.null_41	הרצליה	הרצליה	הרצליה	NN	O						
+20	3	fb:cell.null_42	هرتسليا	هرتسليا	هرتسليا	NN	O					هرتسليا	fb:part.null_21
+20	4	fb:cell.87_000	87,000	87,000	87,000	CD	NUMBER	87000.0	87000.0				
+20	5	fb:cell.21_585	21.585	21.585	21.585	CD	NUMBER	21.585	21.585				
+20	6	fb:cell.yehonatan_yassur	Yehonatan Yassur	yehonatan|yassur	Yehonatan|Yassur	NNP|NNP	MISC|MISC	|					
+21	0	fb:cell.hod_hasharon	Hod HaSharon	hod|hasharon	Hod|HaSharon	NNP|NNP	O|O	|					
+21	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+21	2	fb:cell.null_43	הוד השרון	הוד|השרון	הוד|השרון	NN|CD	O|NUMBER	|					
+21	3	fb:cell.null_44	هود هشارون	هود|هشارون	هود|هشارون	NN|CD	O|NUMBER	|				هود هشارون	fb:part.null_22
+21	4	fb:cell.47_200	47,200	47,200	47,200	CD	NUMBER	47200.0	47200.0				
+21	5	fb:cell.21_585	21.585	21.585	21.585	CD	NUMBER	21.585	21.585				
+21	6	fb:cell.hai_adiv	Hai Adiv	hai|adiv	Hai|Adiv	NNP|NNP	PERSON|PERSON	|					
+22	0	fb:cell.holon	Holon	holon	Holon	NNP	O						
+22	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+22	2	fb:cell.null_45	חולון	חולון	חולון	NN	O						
+22	3	fb:cell.null_46	حولون	حولون	حولون	NN	O					حولون	fb:part.null_23
+22	4	fb:cell.184_700	184,700	184,700	184,700	CD	NUMBER	184700.0	184700.0				
+22	5	fb:cell.18_927	18.927	18.927	18.927	CD	NUMBER	18.927	18.927				
+22	6	fb:cell.moti_sasson	Moti Sasson	moti|sasson	Moti|Sasson	NNP|NNP	PERSON|PERSON	|					
+23	0	fb:cell.jerusalem	Jerusalem	jerusalem	Jerusalem	NNP	LOCATION					Jerusalem	fb:part.jerusalem
+23	1	fb:cell.jerusalem	Jerusalem	jerusalem	Jerusalem	NNP	LOCATION					Jerusalem	fb:part.jerusalem
+23	2	fb:cell.null_47	ירושלים	ירושלים	ירושלים	NN	O						
+23	3	fb:cell.null_48	أورشليم, القدس	أورشليم|,|القدس	أورشليم|,|القدس	NNP|,|CD	O|O|NUMBER	||				أورشليم|القدس	fb:part.null_24|fb:part.null_25
+23	4	fb:cell.815_600	815,600	815,600	815,600	CD	NUMBER	815600.0	815600.0				
+23	5	fb:cell.125_156	125.156	125.156	125.156	CD	NUMBER	125.156	125.156				
+23	6	fb:cell.nir_barkat	Nir Barkat	nir|barkat	Nir|Barkat	NNP|NNP	PERSON|PERSON	|					
+24	0	fb:cell.karmiel	Karmiel	karmiel	Karmiel	NNP	LOCATION						
+24	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+24	2	fb:cell.null_49	כרמיאל	כרמיאל	כרמיאל	NN	O						
+24	3	fb:cell.null_50	كرميئيل	كرميئيل	كرميئيل	NN	O					كرميئيل	fb:part.null_26
+24	4	fb:cell.44_100	44,100	44,100	44,100	CD	NUMBER	44100.0	44100.0				
+24	5	fb:cell.19_188	19.188	19.188	19.188	CD	NUMBER	19.188	19.188				
+24	6	fb:cell.adi_eldar	Adi Eldar	adi|eldar	Adi|Eldar	NNP|NNP	PERSON|PERSON	|					
+25	0	fb:cell.kafr_qasim	Kafr Qasim	kafr|qasim	Kafr|Qasim	NNP|NNP	PERSON|PERSON	|					
+25	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+25	2	fb:cell.null_51	כפר קאסם	כפר|קאסם	כפר|קאסם	NN|CD	O|NUMBER	|					
+25	3	fb:cell.null_52	كفر قاسم	كفر|قاسم	كفر|قاسم	NN|CD	O|NUMBER	|				كفر قاسم	fb:part.null_27
+25	4	fb:cell.18_800	18,800	18,800	18,800	CD	NUMBER	18800.0	18800.0				
+25	5	fb:cell.8_745	8.745	8.745	8.745	CD	NUMBER	8.745	8.745				
+25	6	fb:cell.sami_issa	Sami Issa	sami|issa	Sami|Issa	NNP|NNP	PERSON|PERSON	|					
+26	0	fb:cell.kfar_saba	Kfar Saba	kfar|saba	Kfar|Saba	NNP|NNP	LOCATION|LOCATION	|					
+26	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+26	2	fb:cell.null_53	כפר סבא	כפר|סבא	כפר|סבא	NN|CD	O|NUMBER	|					
+26	3	fb:cell.null_54	كفار سابا	كفار|سابا	كفار|سابا	NN|CD	O|NUMBER	|				كفار سابا	fb:part.null_28
+26	4	fb:cell.83_600	83,600	83,600	83,600	CD	NUMBER	83600.0	83600.0				
+26	5	fb:cell.14_169	14.169	14.169	14.169	CD	NUMBER	14.169	14.169				
+26	6	fb:cell.yehuda_ben_hemo	Yehuda Ben-Hemo	yehuda|ben|hemo	Yehuda|Ben|Hemo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+27	0	fb:cell.kiryat_ata	Kiryat Ata	kiryat|ata	Kiryat|Ata	NNP|NNP	O|O	|					
+27	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+27	2	fb:cell.null_55	קריית אתא	קריית|אתא	קריית|אתא	NN|CD	O|NUMBER	|					
+27	3	fb:cell.null_56	كريات آتا	كريات|آتا	كريات|آتا	NN|CD	O|NUMBER	|				كريات آتا	fb:part.null_29
+27	4	fb:cell.50_700	50,700	50,700	50,700	CD	NUMBER	50700.0	50700.0				
+27	5	fb:cell.16_706	16.706	16.706	16.706	CD	NUMBER	16.706	16.706				
+27	6	fb:cell.ya_akov_peretz	Ya'akov Peretz	ya'akov|peretz	Ya'akov|Peretz	NNP|NNP	PERSON|PERSON	|					
+28	0	fb:cell.kiryat_bialik	Kiryat Bialik	kiryat|bialik	Kiryat|Bialik	NNP|NNP	PERSON|PERSON	|					
+28	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+28	2	fb:cell.null_57	קריית ביאליק	קריית|ביאליק	קריית|ביאליק	NN|CD	O|NUMBER	|					
+28	3	fb:cell.null_58	كريات بياليك	كريات|بياليك	كريات|بياليك	NN|CD	O|NUMBER	|				كريات بياليك	fb:part.null_30
+28	4	fb:cell.37_300	37,300	37,300	37,300	CD	NUMBER	37300.0	37300.0				
+28	5	fb:cell.8_178	8.178	8.178	8.178	CD	NUMBER	8.178	8.178				
+28	6	fb:cell.eli_dokursky	Eli Dokursky	eli|dokursky	Eli|Dokursky	NNP|NNP	PERSON|PERSON	|					
+29	0	fb:cell.kiryat_gat	Kiryat Gat	kiryat|gat	Kiryat|Gat	NNP|NNP	O|O	|					
+29	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+29	2	fb:cell.null_59	קריית גת	קריית|גת	קריית|גת	NN|NN	O|O	|					
+29	3	fb:cell.null_60	كريات جات	كريات|جات	كريات|جات	NN|CD	O|NUMBER	|				كريات جات	fb:part.null_31
+29	4	fb:cell.47_400	47,400	47,400	47,400	CD	NUMBER	47400.0	47400.0				
+29	5	fb:cell.16_302	16.302	16.302	16.302	CD	NUMBER	16.302	16.302				
+29	6	fb:cell.aviram_dahari	Aviram Dahari	aviram|dahari	Aviram|Dahari	NNP|NNP	PERSON|PERSON	|					
+30	0	fb:cell.kiryat_malakhi	Kiryat Malakhi	kiryat|malakhi	Kiryat|Malakhi	NNP|NNP	PERSON|PERSON	|					
+30	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+30	2	fb:cell.null_61	קריית מלאכי	קריית|מלאכי	קריית|מלאכי	NN|CD	O|NUMBER	|					
+30	3	fb:cell.null_62	كريات ملاخي	كريات|ملاخي	كريات|ملاخي	NN|CD	O|NUMBER	|				كريات ملاخي	fb:part.null_32
+30	4	fb:cell.20_600	20,600	20,600	20,600	CD	NUMBER	20600.0	20600.0				
+30	5	fb:cell.4_632	4.632	4.632	4.632	CD	NUMBER	4.632	4.632				
+30	6	fb:cell.motti_malka	Motti Malka	motti|malka	Motti|Malka	NNP|NNP	PERSON|PERSON	|					
+31	0	fb:cell.kiryat_motzkin	Kiryat Motzkin	kiryat|motzkin	Kiryat|Motzkin	NNP|NNP	PERSON|PERSON	|					
+31	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+31	2	fb:cell.null_63	קריית מוצקין	קריית|מוצקין	קריית|מוצקין	NN|CD	O|NUMBER	|					
+31	3	fb:cell.null_64	كريات موتسكين	كريات|موتسكين	كريات|موتسكين	NN|CD	O|NUMBER	|				كريات موتسكين	fb:part.null_33
+31	4	fb:cell.38_000	38,000	38,000	38,000	CD	NUMBER	38000.0	38000.0				
+31	5	fb:cell.3_778	3.778	3.778	3.778	CD	NUMBER	3.778	3.778				
+31	6	fb:cell.haim_zuri	Haim Zuri	haim|zuri	Haim|Zuri	NNP|NNP	PERSON|PERSON	|					
+32	0	fb:cell.kiryat_ono	Kiryat Ono	kiryat|ono	Kiryat|Ono	NNP|NNP	O|O	|					
+32	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+32	2	fb:cell.null_65	קריית אונו	קריית|אונו	קריית|אונו	NN|CD	O|NUMBER	|					
+32	3	fb:cell.null_66	كريات أونو	كريات|أونو	كريات|أونو	NN|CD	O|NUMBER	|				كريات أونو	fb:part.null_34
+32	4	fb:cell.31_000	31,000	31,000	31,000	CD	NUMBER	31000.0	31000.0				
+32	5	fb:cell.4_112	4.112	4.112	4.112	CD	NUMBER	4.112	4.112				
+32	6	fb:cell.yossi_nishri	Yossi Nishri	yossi|nishri	Yossi|Nishri	NNP|NNP	PERSON|PERSON	|					
+33	0	fb:cell.kiryat_shmona	Kiryat Shmona	kiryat|shmona	Kiryat|Shmona	NNP|NNP	PERSON|PERSON	|					
+33	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+33	2	fb:cell.null_67	קריית שמונה	קריית|שמונה	קריית|שמונה	NN|CD	O|NUMBER	|					
+33	3	fb:cell.null_68	كريات شمونة	كريات|شمونة	كريات|شمونة	NN|CD	O|NUMBER	|				كريات شمونة	fb:part.null_35
+33	4	fb:cell.23_100	23,100	23,100	23,100	CD	NUMBER	23100.0	23100.0				
+33	5	fb:cell.14_228	14.228	14.228	14.228	CD	NUMBER	14.228	14.228				
+33	6	fb:cell.nissim_malka	Nissim Malka	nissim|malka	Nissim|Malka	NNP|NNP	PERSON|PERSON	|					
+34	0	fb:cell.kiryat_yam	Kiryat Yam	kiryat|yam	Kiryat|Yam	NNP|NNP	PERSON|PERSON	|					
+34	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+34	2	fb:cell.null_69	קריית ים	קריית|ים	קריית|ים	NN|NN	O|O	|					
+34	3	fb:cell.null_70	كريات يام	كريات|يام	كريات|يام	NN|CD	O|NUMBER	|				كريات يام	fb:part.null_36
+34	4	fb:cell.37_700	37,700	37,700	37,700	CD	NUMBER	37700.0	37700.0				
+34	5	fb:cell.4_339	4.339	4.339	4.339	CD	NUMBER	4.339	4.339				
+34	6	fb:cell.shmuel_sisso	Shmuel Sisso	shmuel|sisso	Shmuel|Sisso	NNP|NNP	PERSON|PERSON	|					
+35	0	fb:cell.lod	Lod	lod	lod	NN	O						
+35	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+35	2	fb:cell.null_71	לוד	לוד	לוד	NN	O						
+35	3	fb:cell.null_72	اللد	اللد	اللد	NN	O					اللد	fb:part.null_37
+35	4	fb:cell.69_800	69,800	69,800	69,800	CD	NUMBER	69800.0	69800.0				
+35	5	fb:cell.12_226	12.226	12.226	12.226	CD	NUMBER	12.226	12.226				
+35	6	fb:cell.yair_revivo	Yair Revivo	yair|revivo	Yair|Revivo	NNP|NNP	PERSON|PERSON	|					
+36	0	fb:cell.ma_ale_adumim	Ma'ale Adumim	ma'ale|adumim	Ma'ale|Adumim	NNP|NNP	O|O	|					
+36	1	fb:cell.judea_samaria_west_bank	Judea & Samaria\n(West Bank)	judea|&|samaria|-lrb-|west|bank|-rrb-	Judea|&|Samaria|-lrb-|West|Bank|-rrb-	NNP|CC|NNP|-LRB-|NNP|NNP|-RRB-	LOCATION|O|LOCATION|O|LOCATION|LOCATION|O	||||||				Judea & Samaria|(West Bank)	fb:part.judea_samaria|fb:part._west_bank
+36	2	fb:cell.null_73	מעלה אדומים	מעלה|אדומים	מעלה|אדומים	NN|CD	O|NUMBER	|					
+36	3	fb:cell.null_74	معلي أدوميم	معلي|أدوميم	معلي|أدوميم	NN|CD	O|NUMBER	|				معلي أدوميم	fb:part.null_38
+36	4	fb:cell.34_300	34,300	34,300	34,300	CD	NUMBER	34300.0	34300.0				
+36	5	fb:cell.49_177	49.177	49.177	49.177	CD	NUMBER	49.177	49.177				
+36	6	fb:cell.benny_kashriel	Benny Kashriel	benny|kashriel	Benny|Kashriel	NNP|NNP	PERSON|PERSON	|					
+37	0	fb:cell.ma_alot_tarshiha	Ma'alot-Tarshiha	ma'alot|tarshiha	Ma'alot|Tarshiha	NNP|NNP	O|LOCATION	|					
+37	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+37	2	fb:cell.null_75	מעלות-תרשיחא	מעלות|תרשיחא	מעלות|תרשיחא	NN|CD	O|NUMBER	|					
+37	3	fb:cell.null_76	معالوت ترشيحا	معالوت|ترشيحا	معالوت|ترشيحا	NN|CD	O|NUMBER	|				معالوت ترشيحا	fb:part.null_39
+37	4	fb:cell.20_600	20,600	20,600	20,600	CD	NUMBER	20600.0	20600.0				
+37	5	fb:cell.6_832	6.832	6.832	6.832	CD	NUMBER	6.832	6.832				
+37	6	fb:cell.shlomo_bohbot	Shlomo Bohbot	shlomo|bohbot	Shlomo|Bohbot	NNP|NNP	PERSON|PERSON	|					
+38	0	fb:cell.migdal_haemek	Migdal HaEmek	migdal|haemek	Migdal|HaEmek	NNP|NNP	O|O	|					
+38	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+38	2	fb:cell.null_77	מגדל העמק	מגדל|העמק	מגדל|העמק	NN|CD	O|NUMBER	|					
+38	3	fb:cell.null_78	مجدال هعيمق	مجدال|هعيمق	مجدال|هعيمق	NN|CD	O|NUMBER	|				مجدال هعيمق	fb:part.null_40
+38	4	fb:cell.23_900	23,900	23,900	23,900	CD	NUMBER	23900.0	23900.0				
+38	5	fb:cell.7_637	7.637	7.637	7.637	CD	NUMBER	7.637	7.637				
+38	6	fb:cell.eliyahu_barda	Eliyahu Barda	eliyahu|barda	Eliyahu|Barda	NNP|NNP	PERSON|PERSON	|					
+39	0	fb:cell.modi_in_illit	Modi'in Illit	modi'in|illit	Modi'in|Illit	NNP|NNP	LOCATION|LOCATION	|					
+39	1	fb:cell.judea_samaria_west_bank	Judea & Samaria\n(West Bank)	judea|&|samaria|-lrb-|west|bank|-rrb-	Judea|&|Samaria|-lrb-|West|Bank|-rrb-	NNP|CC|NNP|-LRB-|NNP|NNP|-RRB-	LOCATION|O|LOCATION|O|LOCATION|LOCATION|O	||||||				Judea & Samaria|(West Bank)	fb:part.judea_samaria|fb:part._west_bank
+39	2	fb:cell.null_79	מודיעין עילית	מודיעין|עילית	מודיעין|עילית	NN|CD	O|NUMBER	|					
+39	3	fb:cell.null_80	موديعين عيليت	موديعين|عيليت	موديعين|عيليت	NN|CD	O|NUMBER	|				موديعين عيليت	fb:part.null_41
+39	4	fb:cell.46_200	46,200	46,200	46,200	CD	NUMBER	46200.0	46200.0				
+39	5	fb:cell.4_746	4.746	4.746	4.746	CD	NUMBER	4.746	4.746				
+39	6	fb:cell.ya_akov_gutterman	Ya'akov Gutterman	ya'akov|gutterman	Ya'akov|Gutterman	NNP|NNP	PERSON|PERSON	|					
+40	0	fb:cell.modi_in_maccabim_re_ut	Modi'in-Maccabim-Re'ut	modi'in|maccabim|re'ut	Modi'in|Maccabim|Re'ut	NNP|NNP|NNP	O|LOCATION|O	||					
+40	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+40	2	fb:cell.null_81	מודיעין-מכבים-רעות	מודיעין|מכבים|רעות	מודיעין|מכבים|רעות	NN|CD|CD	O|NUMBER|NUMBER	||					
+40	3	fb:cell.null_82	موديعين-مكابيم-ريعوت	موديعين|مكابيم|ريعوت	موديعين|مكابيم|ريعوت	NN|CD|CD	O|NUMBER|NUMBER	||				موديعين-مكابيم-ريعوت	fb:part.null_42
+40	4	fb:cell.72_700	72,700	72,700	72,700	CD	NUMBER	72700.0	72700.0				
+40	5	fb:cell.50_176	50.176	50.176	50.176	CD	NUMBER	50.176	50.176				
+40	6	fb:cell.haim_beebas	Haim Beebas	haim|beebas	Haim|Beebas	NNP|NNP	PERSON|PERSON	|					
+41	0	fb:cell.nahariya	Nahariya	nahariya	Nahariya	NNP	LOCATION						
+41	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+41	2	fb:cell.null_83	נהריה	נהריה	נהריה	NN	O						
+41	3	fb:cell.null_84	نهاريا	نهاريا	نهاريا	NN	O					نهاريا	fb:part.null_43
+41	4	fb:cell.51_200	51,200	51,200	51,200	CD	NUMBER	51200.0	51200.0				
+41	5	fb:cell.10_233	10.233	10.233	10.233	CD	NUMBER	10.233	10.233				
+41	6	fb:cell.jacky_sabag	Jacky Sabag	jacky|sabag	Jacky|Sabag	NNP|NNP	PERSON|PERSON	|					
+42	0	fb:cell.nazareth	Nazareth	nazareth	Nazareth	NNP	LOCATION						
+42	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+42	2	fb:cell.null_85	נצרת	נצרת	נצרת	NN	O						
+42	3	fb:cell.null_86	الناصرة	الناصرة	الناصرة	NN	O					الناصرة	fb:part.null_44
+42	4	fb:cell.72_200	72,200	72,200	72,200	CD	NUMBER	72200.0	72200.0				
+42	5	fb:cell.14_123	14.123	14.123	14.123	CD	NUMBER	14.123	14.123				
+42	6	fb:cell.ali_salam	Ali Salam	ali|salam	Ali|Salam	NNP|NNP	PERSON|PERSON	|					
+43	0	fb:cell.nazareth_illit	Nazareth Illit	nazareth|illit	Nazareth|Illit	NNP|NNP	LOCATION|LOCATION	|					
+43	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+43	2	fb:cell.null_87	נצרת עילית	נצרת|עילית	נצרת|עילית	NN|CD	O|NUMBER	|					
+43	3	fb:cell.null_88	الناصرة العليا	الناصرة|العليا	الناصرة|العليا	NN|CD	O|NUMBER	|				الناصرة العليا	fb:part.null_45
+43	4	fb:cell.40_800	40,800	40,800	40,800	CD	NUMBER	40800.0	40800.0				
+43	5	fb:cell.32_521	32.521	32.521	32.521	CD	NUMBER	32.521	32.521				
+43	6	fb:cell.shimon_gapso	Shimon Gapso	shimon|gapso	Shimon|Gapso	NNP|NNP	PERSON|PERSON	|					
+44	0	fb:cell.nesher	Nesher	nesher	Nesher	NNP	PERSON						
+44	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+44	2	fb:cell.null_89	נשר	נשר	נשר	NN	O						
+44	3	fb:cell.null_90	نيشر	نيشر	نيشر	NN	O					نيشر	fb:part.null_46
+44	4	fb:cell.23_600	23,600	23,600	23,600	CD	NUMBER	23600.0	23600.0				
+44	5	fb:cell.12_790	12.790	12.790	12.790	CD	NUMBER	12.79	12.79				
+44	6	fb:cell.david_amar	David Amar	david|amar	David|Amar	NNP|NNP	PERSON|PERSON	|					
+45	0	fb:cell.ness_ziona	Ness Ziona	ness|ziona	Ness|Ziona	NNP|NNP	PERSON|PERSON	|					
+45	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+45	2	fb:cell.null_91	נס ציונה	נס|ציונה	נס|ציונה	NN|CD	O|NUMBER	|					
+45	3	fb:cell.null_92	نيس تسيونا	نيس|تسيونا	نيس|تسيونا	NN|CD	O|NUMBER	|				نيس تسيونا	fb:part.null_47
+45	4	fb:cell.38_100	38,100	38,100	38,100	CD	NUMBER	38100.0	38100.0				
+45	5	fb:cell.15_579	15.579	15.579	15.579	CD	NUMBER	15.579	15.579				
+45	6	fb:cell.yossi_shvo	Yossi Shvo	yossi|shvo	Yossi|Shvo	NNP|NNP	PERSON|PERSON	|					
+46	0	fb:cell.netanya	Netanya	netanya	Netanya	NNP	LOCATION						
+46	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+46	2	fb:cell.null_93	נתניה	נתניה	נתניה	NN	O						
+46	3	fb:cell.null_94	نتانيا	نتانيا	نتانيا	NN	O					نتانيا	fb:part.null_48
+46	4	fb:cell.183_200	183,200	183,200	183,200	CD	NUMBER	183200.0	183200.0				
+46	5	fb:cell.28_954	28.954	28.954	28.954	CD	NUMBER	28.954	28.954				
+46	6	fb:cell.miriam_feirberg	Miriam Feirberg	miriam|feirberg	Miriam|Feirberg	NNP|NNP	PERSON|PERSON	|					
+47	0	fb:cell.netivot	Netivot	netivot	Netivot	NNP	LOCATION						
+47	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+47	2	fb:cell.null_95	נתיבות	נתיבות	נתיבות	NN	O						
+47	3	fb:cell.null_96	نتيفوت	نتيفوت	نتيفوت	NN	O					نتيفوت	fb:part.null_49
+47	4	fb:cell.26_700	26,700	26,700	26,700	CD	NUMBER	26700.0	26700.0				
+47	5	fb:cell.5_626	5.626	5.626	5.626	CD	NUMBER	5.626	5.626				
+47	6	fb:cell.yehiel_zohar	Yehiel Zohar	yehiel|zohar	Yehiel|Zohar	NNP|NNP	PERSON|PERSON	|					
+48	0	fb:cell.ofakim	Ofakim	ofakim	Ofakim	NNP	LOCATION						
+48	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+48	2	fb:cell.null_97	אופקים	אופקים	אופקים	NN	O						
+48	3	fb:cell.null_98	أوفاكيم	أوفاكيم	أوفاكيم	NN	O					أوفاكيم	fb:part.null_50
+48	4	fb:cell.24_000	24,000	24,000	24,000	CD	NUMBER	24000.0	24000.0				
+48	5	fb:cell.10_273	10.273	10.273	10.273	CD	NUMBER	10.273	10.273				
+48	6	fb:cell.zvika_greengold	Zvika Greengold	zvika|greengold	Zvika|Greengold	NNP|NNP	PERSON|PERSON	|					
+49	0	fb:cell.or_akiva	Or Akiva	or|akiva	or|akiva	CC|NN	O|PERSON	|					
+49	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+49	2	fb:cell.null_99	אור עקיבא	אור|עקיבא	אור|עקיבא	NN|CD	O|NUMBER	|					
+49	3	fb:cell.null_100	أور عكيفا	أور|عكيفا	أور|عكيفا	NN|CD	O|NUMBER	|				أور عكيفا	fb:part.null_51
+49	4	fb:cell.16_100	16,100	16,100	16,100	CD	NUMBER	16100.0	16100.0				
+49	5	fb:cell.3_539	3.539	3.539	3.539	CD	NUMBER	3.539	3.539				
+49	6	fb:cell.simha_yosipov	Simha Yosipov	simha|yosipov	Simha|Yosipov	NNP|NNP	PERSON|PERSON	|					
+50	0	fb:cell.or_yehuda	Or Yehuda	or|yehuda	or|Yehuda	CC|NNP	O|PERSON	|					
+50	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+50	2	fb:cell.null_101	אור יהודה	אור|יהודה	אור|יהודה	NN|CD	O|NUMBER	|					
+50	3	fb:cell.null_102	أور يهودا	أور|يهودا	أور|يهودا	NN|CD	O|NUMBER	|				أور يهودا	fb:part.null_52
+50	4	fb:cell.34_400	34,400	34,400	34,400	CD	NUMBER	34400.0	34400.0				
+50	5	fb:cell.5_141	5.141	5.141	5.141	CD	NUMBER	5.141	5.141				
+50	6	fb:cell.david_yosef	David Yosef	david|yosef	David|Yosef	NNP|NNP	PERSON|PERSON	|					
+51	0	fb:cell.petah_tikva	Petah Tikva	petah|tikva	Petah|Tikva	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+51	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+51	2	fb:cell.null_103	פתח תקווה	פתח|תקווה	פתח|תקווה	NN|CD	O|NUMBER	|					
+51	3	fb:cell.null_104	بيتح تكفا	بيتح|تكفا	بيتح|تكفا	NN|CD	O|NUMBER	|				بيتح تكفا	fb:part.null_53
+51	4	fb:cell.209_600	209,600	209,600	209,600	CD	NUMBER	209600.0	209600.0				
+51	5	fb:cell.35_868	35.868	35.868	35.868	CD	NUMBER	35.868	35.868				
+51	6	fb:cell.itzik_braverman	Itzik Braverman	itzik|braverman	Itzik|Braverman	NNP|NNP	PERSON|PERSON	|					
+52	0	fb:cell.qalansawe	Qalansawe	qalansawe	Qalansawe	NNP	O						
+52	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+52	2	fb:cell.null_105	קלנסווה	קלנסווה	קלנסווה	NN	O						
+52	3	fb:cell.null_106	قلنسوة	قلنسوة	قلنسوة	NN	O					قلنسوة	fb:part.null_54
+52	4	fb:cell.18_700	18,700	18,700	18,700	CD	NUMBER	18700.0	18700.0				
+52	5	fb:cell.8_417	8.417	8.417	8.417	CD	NUMBER	8.417	8.417				
+52	6	fb:cell.null_36											fb:part.null_18
+53	0	fb:cell.ra_anana	Ra'anana	ra'anana	Ra'anana	NNP	O						
+53	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+53	2	fb:cell.null_107	רעננה	רעננה	רעננה	NN	O						
+53	3	fb:cell.null_108	رعنانا	رعنانا	رعنانا	NN	O					رعنانا	fb:part.null_55
+53	4	fb:cell.68_300	68,300	68,300	68,300	CD	NUMBER	68300.0	68300.0				
+53	5	fb:cell.14_878	14.878	14.878	14.878	CD	NUMBER	14.878	14.878				
+53	6	fb:cell.nahum_hofree	Nahum Hofree	nahum|hofree	Nahum|Hofree	NNP|NNP	PERSON|PERSON	|					
+54	0	fb:cell.rahat	Rahat	rahat	rahat	NN	PERSON						
+54	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+54	2	fb:cell.null_109	רהט	רהט	רהט	NN	O						
+54	3	fb:cell.null_110	رهط	رهط	رهط	NN	O					رهط	fb:part.null_56
+54	4	fb:cell.51_700	51,700	51,700	51,700	CD	NUMBER	51700.0	51700.0				
+54	5	fb:cell.19_586	19.586	19.586	19.586	CD	NUMBER	19.586	19.586				
+54	6	fb:cell.talal_al_krenawi	Talal al-Krenawi	talal|al|krenawi	Talal|al|Krenawi	NNP|NNP|NNP	PERSON|O|O	||					
+55	0	fb:cell.ramat_gan	Ramat Gan	ramat|gan	Ramat|Gan	NNP|NNP	O|O	|					
+55	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+55	2	fb:cell.null_111	רמת גן	רמת|גן	רמת|גן	NN|NN	O|O	|					
+55	3	fb:cell.null_112	رمات غان	رمات|غان	رمات|غان	NN|CD	O|NUMBER	|				رمات غان	fb:part.null_57
+55	4	fb:cell.145_000	145,000	145,000	145,000	CD	NUMBER	145000.0	145000.0				
+55	5	fb:cell.13_229	13.229	13.229	13.229	CD	NUMBER	13.229	13.229				
+55	6	fb:cell.yisrael_zinger	Yisrael Zinger	yisrael|zinger	Yisrael|Zinger	NNP|NNP	PERSON|PERSON	|					
+56	0	fb:cell.ramat_hasharon	Ramat HaSharon	ramat|hasharon	Ramat|HaSharon	NNP|NNP	O|O	|					
+56	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+56	2	fb:cell.null_113	רמת השרון	רמת|השרון	רמת|השרון	NN|CD	O|NUMBER	|					
+56	3	fb:cell.null_114	رمات هشارون	رمات|هشارون	رمات|هشارون	NN|CD	O|NUMBER	|				رمات هشارون	fb:part.null_58
+56	4	fb:cell.40_600	40,600	40,600	40,600	CD	NUMBER	40600.0	40600.0				
+56	5	fb:cell.16_792	16.792	16.792	16.792	CD	NUMBER	16.792	16.792				
+56	6	fb:cell.yitzhak_rochberger	Yitzhak Rochberger	yitzhak|rochberger	Yitzhak|Rochberger	NNP|NNP	PERSON|PERSON	|					
+57	0	fb:cell.ramla	Ramla	ramla	Ramla	NNP	LOCATION						
+57	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+57	2	fb:cell.null_115	רמלה	רמלה	רמלה	NN	O						
+57	3	fb:cell.null_116	الرملة	الرملة	الرملة	NN	O					الرملة	fb:part.null_59
+57	4	fb:cell.65_800	65,800	65,800	65,800	CD	NUMBER	65800.0	65800.0				
+57	5	fb:cell.11_854	11.854	11.854	11.854	CD	NUMBER	11.854	11.854				
+57	6	fb:cell.yoel_lavi	Yoel Lavi	yoel|lavi	Yoel|Lavi	NNP|NNP	PERSON|PERSON	|					
+58	0	fb:cell.rehovot	Rehovot	rehovot	Rehovot	NNP	LOCATION						
+58	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+58	2	fb:cell.null_117	רחובות	רחובות	רחובות	NN	O						
+58	3	fb:cell.null_118	رحوفوت	رحوفوت	رحوفوت	NN	O					رحوفوت	fb:part.null_60
+58	4	fb:cell.112_700	112,700	112,700	112,700	CD	NUMBER	112700.0	112700.0				
+58	5	fb:cell.23_041	23.041	23.041	23.041	CD	NUMBER	23.041	23.041				
+58	6	fb:cell.rahamim_malul	Rahamim Malul	rahamim|malul	Rahamim|Malul	NNP|NNP	PERSON|PERSON	|					
+59	0	fb:cell.rishon_lezion	Rishon LeZion	rishon|lezion	Rishon|LeZion	NNP|NNP	ORGANIZATION|O	|					
+59	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+59	2	fb:cell.null_119	ראשון לציון	ראשון|לציון	ראשון|לציון	NN|CD	O|NUMBER	|					
+59	3	fb:cell.null_120	ريشون لتسيون	ريشون|لتسيون	ريشون|لتسيون	NN|CD	O|NUMBER	|				ريشون لتسيون	fb:part.null_61
+59	4	fb:cell.228_200	228,200	228,200	228,200	CD	NUMBER	228200.0	228200.0				
+59	5	fb:cell.58_704	58.704	58.704	58.704	CD	NUMBER	58.704	58.704				
+59	6	fb:cell.dov_tzur	Dov Tzur	dov|tzur	Dov|Tzur	NNP|NNP	PERSON|PERSON	|					
+60	0	fb:cell.rosh_haayin	Rosh HaAyin	rosh|haayin	rosh|haayin	JJ|NN	O|O	|					
+60	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+60	2	fb:cell.null_121	ראש העין	ראש|העין	ראש|העין	NN|CD	O|NUMBER	|					
+60	3	fb:cell.null_122	رأس العين	رأس|العين	رأس|العين	NN|CD	O|NUMBER	|				رأس العين	fb:part.null_62
+60	4	fb:cell.38_500	38,500	38,500	38,500	CD	NUMBER	38500.0	38500.0				
+60	5	fb:cell.24_390	24.390	24.390	24.390	CD	NUMBER	24.39	24.39				
+60	6	fb:cell.moshe_sinai	Moshe Sinai	moshe|sinai	Moshe|Sinai	NNP|NNP	PERSON|PERSON	|					
+61	0	fb:cell.safed	Safed	safed	Safed	NNP	LOCATION						
+61	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+61	2	fb:cell.null_123	צפת	צפת	צפת	NN	O						
+61	3	fb:cell.null_124	صفد	صفد	صفد	NN	O					صفد	fb:part.null_63
+61	4	fb:cell.29_500	29,500	29,500	29,500	CD	NUMBER	29500.0	29500.0				
+61	5	fb:cell.29_248	29.248	29.248	29.248	CD	NUMBER	29.248	29.248				
+61	6	fb:cell.ilan_shohat	Ilan Shohat	ilan|shohat	Ilan|Shohat	NNP|NNP	PERSON|PERSON	|					
+62	0	fb:cell.sakhnin	Sakhnin	sakhnin	Sakhnin	NNP	LOCATION						
+62	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+62	2	fb:cell.null_125	סח'נין	סח|'|נין	סח|'|נין	NN|''|CD	O|O|NUMBER	||					
+62	3	fb:cell.null_126	سخنين	سخنين	سخنين	NN	O					سخنين	fb:part.null_64
+62	4	fb:cell.25_700	25,700	25,700	25,700	CD	NUMBER	25700.0	25700.0				
+62	5	fb:cell.9_816	9.816	9.816	9.816	CD	NUMBER	9.816	9.816				
+62	6	fb:cell.mazen_ghnaim	Mazen Ghnaim	mazen|ghnaim	Mazen|Ghnaim	NNP|NNP	PERSON|PERSON	|					
+63	0	fb:cell.sderot	Sderot	sderot	Sderot	NNP	LOCATION						
+63	1	fb:cell.south	South	south	South	NNP	O					South	fb:part.south
+63	2	fb:cell.null_127	שדרות	שדרות	שדרות	NN	O						
+63	3	fb:cell.null_128	سديروت	سديروت	سديروت	NN	O					سديروت	fb:part.null_65
+63	4	fb:cell.23_700	23,700	23,700	23,700	CD	NUMBER	23700.0	23700.0				
+63	5	fb:cell.4_472	4.472	4.472	4.472	CD	NUMBER	4.472	4.472				
+63	6	fb:cell.david_buskila	David Buskila	david|buskila	David|Buskila	NNP|NNP	PERSON|PERSON	|					
+64	0	fb:cell.shefa_amr_shfar_am	Shefa-'Amr (Shfar'am)	shefa|-|`|amr|-lrb-|shfar|`|am|-rrb-	Shefa|-|`|Amr|-lrb-|Shfar|`|be|-rrb-	NNP|:|``|NNP|-LRB-|NNP|``|VBD-AUX|-RRB-	PERSON|O|O|O|O|O|O|O|O	||||||||					
+64	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+64	2	fb:cell.null_129	שפרעם	שפרעם	שפרעם	NN	O						
+64	3	fb:cell.null_130	شفا عمرو	شفا|عمرو	شفا|عمرو	NN|CD	O|NUMBER	|				شفا عمرو	fb:part.null_66
+64	4	fb:cell.36_200	36,200	36,200	36,200	CD	NUMBER	36200.0	36200.0				
+64	5	fb:cell.19_766	19.766	19.766	19.766	CD	NUMBER	19.766	19.766				
+64	6	fb:cell.nahed_khazem	Nahed Khazem	nahed|khazem	Nahed|Khazem	NNP|NNP	PERSON|PERSON	|					
+65	0	fb:cell.tamra	Tamra	tamra	Tamra	NNP	PERSON						
+65	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+65	2	fb:cell.null_131	טמרה	טמרה	טמרה	NN	O						
+65	3	fb:cell.null_132	طمرة	طمرة	طمرة	NN	O					طمرة	fb:part.null_67
+65	4	fb:cell.28_700	28,700	28,700	28,700	CD	NUMBER	28700.0	28700.0				
+65	5	fb:cell.29_259	29.259	29.259	29.259	CD	NUMBER	29.259	29.259				
+65	6	fb:cell.abu_el_hija_adel	Abu el-Hija Adel	abu|el|hija|adel	Abu|el|Hija|Adel	NNP|NNP|NNP|NNP	PERSON|O|PERSON|PERSON	|||					
+66	0	fb:cell.tayibe	Tayibe	tayibe	tayibe	NN	O						
+66	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+66	2	fb:cell.null_133	טייבה	טייבה	טייבה	NN	O						
+66	3	fb:cell.null_134	الطيبة	الطيبة	الطيبة	NN	O					الطيبة	fb:part.null_68
+66	4	fb:cell.36_500	36,500	36,500	36,500	CD	NUMBER	36500.0	36500.0				
+66	5	fb:cell.18_662	18.662	18.662	18.662	CD	NUMBER	18.662	18.662				
+66	6	fb:cell.hemi_doron	Hemi Doron	hemi|doron	Hemi|Doron	NNP|NNP	PERSON|PERSON	|					
+67	0	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+67	1	fb:cell.tel_aviv	Tel Aviv	tel|aviv	Tel|Aviv	NNP|NNP	LOCATION|LOCATION	|				Tel Aviv	fb:part.tel_aviv
+67	2	fb:cell.null_135	תל אביב	תל|אביב	תל|אביב	NN|CD	O|NUMBER	|					
+67	3	fb:cell.null_136	تل أبيب يافا	تل|أبيب|يافا	تل|أبيب|يافا	NN|CD|CD	O|NUMBER|NUMBER	||				تل أبيب يافا	fb:part.null_69
+67	4	fb:cell.403_700	403,700	403,700	403,700	CD	NUMBER	403700.0	403700.0				
+67	5	fb:cell.51_788	51.788	51.788	51.788	CD	NUMBER	51.788	51.788				
+67	6	fb:cell.ron_huldai	Ron Huldai	ron|huldai	Ron|Huldai	NNP|NNP	PERSON|PERSON	|					
+68	0	fb:cell.tiberias	Tiberias	tiberias	Tiberias	NNP	LOCATION						
+68	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+68	2	fb:cell.null_137	טבריה	טבריה	טבריה	NN	O						
+68	3	fb:cell.null_138	طبريا	طبريا	طبريا	NN	O					طبريا	fb:part.null_70
+68	4	fb:cell.41_300	41,300	41,300	41,300	CD	NUMBER	41300.0	41300.0				
+68	5	fb:cell.10_872	10.872	10.872	10.872	CD	NUMBER	10.872	10.872				
+68	6	fb:cell.zohar_oved	Zohar Oved	zohar|oved	Zohar|Oved	NNP|NNP	O|O	|					
+69	0	fb:cell.tira	Tira	tira	Tira	NNP	O						
+69	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+69	2	fb:cell.null_139	טירה	טירה	טירה	NN	O						
+69	3	fb:cell.null_140	الطيرة	الطيرة	الطيرة	NN	O					الطيرة	fb:part.null_71
+69	4	fb:cell.22_600	22,600	22,600	22,600	CD	NUMBER	22600.0	22600.0				
+69	5	fb:cell.11_894	11.894	11.894	11.894	CD	NUMBER	11.894	11.894				
+69	6	fb:cell.mamoun_abd_al_hay	Mamoun Abd al-Hay	mamoun|abd|al|hay	Mamoun|Abd|al|Hay	NNP|NNP|NNP|NNP	PERSON|PERSON|O|O	|||					
+70	0	fb:cell.tirat_carmel	Tirat Carmel	tirat|carmel	Tirat|Carmel	NNP|NNP	PERSON|PERSON	|					
+70	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+70	2	fb:cell.null_141	טירת כרמל	טירת|כרמל	טירת|כרמל	NN|CD	O|NUMBER	|					
+70	3	fb:cell.null_142	طيرة الكرمل	طيرة|الكرمل	طيرة|الكرمل	NN|CD	O|NUMBER	|				طيرة الكرمل	fb:part.null_72
+70	4	fb:cell.18_600	18,600	18,600	18,600	CD	NUMBER	18600.0	18600.0				
+70	5	fb:cell.5_601	5.601	5.601	5.601	CD	NUMBER	5.601	5.601				
+70	6	fb:cell.aryeh_tal	Aryeh Tal	aryeh|tal	Aryeh|Tal	NNP|NNP	PERSON|PERSON	|					
+71	0	fb:cell.umm_al_fahm	Umm al-Fahm	umm|al|fahm	Umm|al|Fahm	NNP|NNP|NNP	MISC|O|O	||					
+71	1	fb:cell.haifa	Haifa	haifa	Haifa	NNP	LOCATION					Haifa	fb:part.haifa
+71	2	fb:cell.null_143	אום אל-פחם	אום|אל|פחם	אום|אל|פחם	NN|CD|CD	O|NUMBER|NUMBER	||					
+71	3	fb:cell.null_144	أم الفحم	أم|الفحم	أم|الفحم	NN|CD	O|NUMBER	|				أم الفحم	fb:part.null_73
+71	4	fb:cell.46_100	46,100	46,100	46,100	CD	NUMBER	46100.0	46100.0				
+71	5	fb:cell.22_253	22.253	22.253	22.253	CD	NUMBER	22.253	22.253				
+71	6	fb:cell.khaled_aghbariyya	Khaled Aghbariyya	khaled|aghbariyya	Khaled|Aghbariyya	NNP|NNP	PERSON|PERSON	|					
+72	0	fb:cell.yavne	Yavne	yavne	Yavne	NNP	PERSON						
+72	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+72	2	fb:cell.null_145	יבנה	יבנה	יבנה	NN	O						
+72	3	fb:cell.null_146	يبنة	يبنة	يبنة	NN	O					يبنة	fb:part.null_74
+72	4	fb:cell.33_000	33,000	33,000	33,000	CD	NUMBER	33000.0	33000.0				
+72	5	fb:cell.10_700	10.700	10.700	10.700	CD	NUMBER	10.7	10.7				
+72	6	fb:cell.zvi_gov_ari	Zvi Gov-Ari	zvi|gov|ari	Zvi|Gov|Ari	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+73	0	fb:cell.yehud_monosson	Yehud-Monosson	yehud|monosson	Yehud|Monosson	NNP|NNP	PERSON|PERSON	|					
+73	1	fb:cell.center	Center	center	Center	NNP	O					Center	fb:part.center
+73	2	fb:cell.null_147	יהוד-מונוסון	יהוד|מונוסון	יהוד|מונוסון	NN|CD	O|NUMBER	|					
+73	3	fb:cell.null_148	يهود مونوسون	يهود|مونوسون	يهود|مونوسون	NN|CD	O|NUMBER	|				يهود مونوسون	fb:part.null_75
+73	4	fb:cell.26_500	26,500	26,500	26,500	CD	NUMBER	26500.0	26500.0				
+73	5	fb:cell.5_014	5.014	5.014	5.014	CD	NUMBER	5.014	5.014				
+73	6	fb:cell.yossi_ben_david	Yossi Ben-David	yossi|ben|david	Yossi|Ben|David	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+74	0	fb:cell.yokneam	Yokneam	yokneam	Yokneam	NNP	LOCATION						
+74	1	fb:cell.north	North	north	North	NNP	O					North	fb:part.north
+74	2	fb:cell.null_149	יקנעם	יקנעם	יקנעם	NN	O						
+74	3	fb:cell.null_150	يوقنعم	يوقنعم	يوقنعم	NN	O					يوقنعم	fb:part.null_76
+74	4	fb:cell.19_100	19,100	19,100	19,100	CD	NUMBER	19100.0	19100.0				
+74	5	fb:cell.7_390	7.390	7.390	7.390	CD	NUMBER	7.39	7.39				
+74	6	fb:cell.simon_alfasi	Simon Alfasi	simon|alfasi	Simon|Alfasi	NNP|NNP	PERSON|PERSON	|					

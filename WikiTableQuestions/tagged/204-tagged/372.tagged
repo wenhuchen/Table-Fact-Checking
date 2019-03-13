@@ -1,0 +1,91 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.topic	Topic	topic	topic	NN	O						
+-1	2	fb:row.row.cost	Cost	cost	cost	NN	O						
+-1	3	fb:row.row.target_age	Target age	target|age	target|age	NN|NN	O|O	|					
+-1	4	fb:row.row.advertising	Advertising	advertising	advertising	NN	O						
+0	0	fb:cell.ask_a_biologist	Ask A Biologist	ask|a|biologist	ask|a|biologist	VB|DT|NN	O|O|O	||					
+0	1	fb:cell.biology	Biology	biology	biology	NN	O					Biology	fb:part.biology
+0	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+0	3	fb:cell.5	5+	5|+	5|+	CD|CC	NUMBER|O	5.0|	5.0				
+0	4	fb:cell.none	None	none	none	NN	O						
+1	0	fb:cell.archimedes_lab_org	Archimedes-lab.org	archimedes|lab.org	Archimedes|lab.org	NNP|NN	O|O	|					
+1	1	fb:cell.mathematics	Mathematics	mathematics	mathematics	NN	O					Mathematics	fb:part.mathematics
+1	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+1	3	fb:cell.10	10+	10|+	10|+	CD|CC	NUMBER|O	10.0|	10.0				
+1	4	fb:cell.yes_limited	Yes - limited	yes|-|limited	yes|-|limited	UH|:|JJ	O|O|O	||					
+2	0	fb:cell.awesome_library	Awesome Library	awesome|library	awesome|Library	JJ|NNP	O|O	|					
+2	1	fb:cell.all	All	all	all	DT	O					All	fb:part.all
+2	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+2	3	fb:cell.all	All	all	all	DT	O					All	fb:part.all
+2	4	fb:cell.yes_large	Yes - large	yes|-|large	yes|-|large	UH|:|JJ	O|O|O	||					
+3	0	fb:cell.bitesize_by_the_bbc	Bitesize by the BBC	bitesize|by|the|bbc	bitesize|by|the|BBC	NN|IN|DT|NNP	O|O|O|ORGANIZATION	|||					
+3	1	fb:cell.art_design_business_studies_design_technology_dida_drama_english_english_literature_french_geography_german_history_ict_irish_maths_music_physical_education_religious_studies_science_spanish	Art & Design, Business Studies, Design & Technology, DiDA, Drama, English, English Literature, French, Geography, German, History, ICT, Irish, Maths, Music, Physical Education, Religious Studies, Science, Spanish	art|&|design|,|business|studies|,|design|&|technology|,|dida|,|drama|,|english|,|english|literature|,|french|,|geography|,|german|,|history|,|ict|,|irish|,|maths|,|music|,|physical|education|,|religious|studies|,|science|,|spanish	Art|&|Design|,|Business|Studies|,|Design|&|Technology|,|DiDA|,|Drama|,|English|,|English|Literature|,|French|,|Geography|,|German|,|history|,|ICT|,|Irish|,|Maths|,|Music|,|Physical|Education|,|Religious|Studies|,|Science|,|Spanish	NNP|CC|NNP|,|NNP|NNPS|,|NNP|CC|NNP|,|NNP|,|NNP|,|NNP|,|NNP|NNP|,|NNP|,|NNP|,|NNP|,|NN|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|NNP|,|NNP|NNPS|,|NNP|,|NNP	O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|MISC|O|MISC|MISC|O|MISC|O|O|O|MISC|O|O|O|ORGANIZATION|O|MISC|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|LOCATION	||||||||||||||||||||||||||||||||||||||||||||				Art & Design|Business Studies|Design & Technology|DiDA|Drama|English|English Literature|French|Geography|German|History|ICT|Irish|Maths|Music|Physical Education|Religious Studies|Science|Spanish	fb:part.art_design|fb:part.business_studies|fb:part.design_technology|fb:part.dida|fb:part.drama|fb:part.english|fb:part.english_literature|fb:part.french|fb:part.geography|fb:part.german|fb:part.history|fb:part.ict|fb:part.irish|fb:part.maths|fb:part.music|fb:part.physical_education|fb:part.religious_studies|fb:part.science|fb:part.spanish
+3	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+3	3	fb:cell.5_16	5-16	5-16	5-16	NN	O		5.0		16.0		
+3	4	fb:cell.none	None	none	none	NN	O						
+4	0	fb:cell.brainpop	BrainPop	brainpop	BrainPop	NNP	O						
+4	1	fb:cell.science_social_studies_english_maths_art_music_health_technology	Science, Social studies, English, Maths, Art & Music, Health, Technology	science|,|social|studies|,|english|,|maths|,|art|&|music|,|health|,|technology	Science|,|Social|study|,|English|,|Maths|,|Art|&|Music|,|Health|,|Technology	NNP|,|NNP|NNS|,|NNP|,|NNP|,|NNP|CC|NNP|,|NNP|,|NNP	O|O|O|O|O|MISC|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				Science|Social studies|English|Maths|Art & Music|Health|Technology	fb:part.science|fb:part.social_studies|fb:part.english|fb:part.maths|fb:part.art_music|fb:part.health|fb:part.technology
+4	2	fb:cell.from_us_75_year	from US$75/year	from|us$|75\\/year	from|us$|75\\/year	IN|$|CD	O|MONEY|MONEY	||	75.0			from US$75|year	fb:part.from_us_75|fb:part.year
+4	3	fb:cell.4_17	4-17	4-17	4-17	CD	NUMBER	4.0 - 17.0	4.0		17.0		
+4	4	fb:cell.none	None	none	none	NN	O						
+5	0	fb:cell.cut_the_knot	Cut-the-Knot	cut|the|knot	Cut|the|Knot	NNP|DT|NNP	O|O|O	||					
+5	1	fb:cell.maths	Maths	maths	math	NNS	O					Maths	fb:part.maths
+5	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+5	3	fb:cell.8	8+	8|+	8|+	CD|CC	NUMBER|O	8.0|	8.0				
+5	4	fb:cell.yes_extensive	Yes - extensive	yes|-|extensive	yes|-|extensive	UH|:|JJ	O|O|O	||					
+6	0	fb:cell.fact_monster	Fact Monster	fact|monster	Fact|monster	NNP|NN	O|O	|					
+6	1	fb:cell.world_news_u_s_people_english_science_math_money_sports	World & News, U.S., People, English, Science, Math & Money, Sports	world|&|news|,|u.s.|,|people|,|english|,|science|,|math|&|money|,|sports	World|&|News|,|U.S.|,|People|,|English|,|Science|,|Math|&|Money|,|Sports	NNP|CC|NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP|CC|NNP|,|NNP	O|O|O|O|LOCATION|O|O|O|MISC|O|O|O|O|O|O|O|O	||||||||||||||||				World & News|U.S.|People|English|Science|Math & Money|Sports	fb:part.world_news|fb:part.u_s|fb:part.people|fb:part.english|fb:part.science|fb:part.math_money|fb:part.sports
+6	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+6	3	fb:cell.4_14_k_8	4-14 (K-8)	4-14|-lrb-|k-8|-rrb-	4-14|-lrb-|k-8|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||	4.0		14.0		
+6	4	fb:cell.yes	Yes	yes	yes	UH	O						
+7	0	fb:cell.geometry_from_the_land_of_the_incas	Geometry from the Land of the Incas	geometry|from|the|land|of|the|incas	geometry|from|the|land|of|the|Incas	NN|IN|DT|NN|IN|DT|NNPS	O|O|O|O|O|O|O	||||||					
+7	1	fb:cell.geometry	Geometry	geometry	geometry	NN	O					Geometry	fb:part.geometry
+7	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+7	3	fb:cell.12	12+	12|+	12|+	CD|CC	NUMBER|O	12.0|	12.0				
+7	4	fb:cell.yes_extensive	Yes - extensive	yes|-|extensive	yes|-|extensive	UH|:|JJ	O|O|O	||					
+8	0	fb:cell.hackmath_net	HackMath.net	hackmath.net	hackmath.net	NN	O						
+8	1	fb:cell.mathematics	Mathematics	mathematics	mathematics	NN	O					Mathematics	fb:part.mathematics
+8	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+8	3	fb:cell.9_18	9-18	9-18	9-18	CD	NUMBER	9.0 - 18.0	9.0		18.0		
+8	4	fb:cell.none	None	none	none	NN	O						
+9	0	fb:cell.hyperphysics	HyperPhysics	hyperphysics	hyperphysic	NNS	O						
+9	1	fb:cell.physics	Physics	physics	physics	NN	O					Physics	fb:part.physics
+9	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+9	3	fb:cell.15	15+	15|+	15|+	CD|CC	NUMBER|O	15.0|	15.0				
+9	4	fb:cell.none	None	none	none	NN	O						
+10	0	fb:cell.ixl	IXL	ixl	IXL	NNP	O						
+10	1	fb:cell.math	Math	math	Math	NNP	O					Math	fb:part.math
+10	2	fb:cell._80_year	$80/year	$|80\\/year	$|80\\/year	$|CD	MONEY|MONEY	|	80.0			$80|year	fb:part._80|fb:part.year
+10	3	fb:cell.4_12	4-12	4-12	4-12	CD	NUMBER	4.0 - 12.0	4.0		12.0		
+10	4	fb:cell.null	?	?	?	.	O						
+11	0	fb:cell.le_patron	Le Patron	le|patron	Le|Patron	NNP|NNP	O|O	|					
+11	1	fb:cell.french	French	french	french	JJ	MISC					French	fb:part.french
+11	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+11	3	fb:cell.12	12+	12|+	12|+	CD|CC	NUMBER|O	12.0|	12.0				
+11	4	fb:cell.yes	Yes	yes	yes	UH	O						
+12	0	fb:cell.learnalberta_ca	LearnAlberta.ca	learnalberta.ca	learnalberta.ca	NN	O						
+12	1	fb:cell.everything_mainly_aimed_at_teachers	Everything (mainly aimed at teachers)	everything|-lrb-|mainly|aimed|at|teachers|-rrb-	everything|-lrb-|mainly|aim|at|teacher|-rrb-	NN|-LRB-|RB|VBN|IN|NNS|-RRB-	O|O|O|O|O|O|O	||||||				Everything (mainly aimed at teachers)	fb:part.everything_mainly_aimed_at_teachers
+12	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+12	3	fb:cell.5_18	5-18	5-18	5-18	NN	O		5.0		18.0		
+12	4	fb:cell.no	No	no	no	DT	O						
+13	0	fb:cell.nafham	Nafham	nafham	nafham	NN	LOCATION						
+13	1	fb:cell.multidisciplinary_5_20min_k_12_school_video_lessons_for_arabic_students	Multidisciplinary 5-20min K-12 school video lessons for Arabic students	multidisciplinary|5-20min|k-12|school|video|lessons|for|arabic|students	multidisciplinary|5-20min|k-12|school|video|lesson|for|arabic|student	JJ|JJ|NN|NN|NN|NNS|IN|JJ|NNS	O|O|O|O|O|O|O|MISC|O	||||||||	5.0		20.0	Multidisciplinary 5-20min K-12 school video lessons for Arabic students	fb:part.multidisciplinary_5_20min_k_12_school_video_lessons_for_arabic_students
+13	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+13	3	fb:cell.6_18	6-18	6-18	6-18	CD	NUMBER	6.0 - 18.0	6.0		18.0		
+13	4	fb:cell.yes	Yes	yes	yes	UH	O						
+14	0	fb:cell.starfall_com	Starfall.com	starfall.com	Starfall.com	NNP	O						
+14	1	fb:cell.reading	Reading	reading	read	VBG	O					Reading	fb:part.reading
+14	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+14	3	fb:cell.2_9	2-9	2-9	2-9	CD	NUMBER	2.0 - 9.0	2.0		9.0		
+14	4	fb:cell.none	None	none	none	NN	O						
+15	0	fb:cell.smartygames_com	Smartygames.com	smartygames.com	Smartygames.com	NNP	O						
+15	1	fb:cell.math_games_reading_art_word_scramble_spanish_puzzles_kids_sudoku_and_more	Math Games, Reading, Art, Word Scramble, Spanish, Puzzles, Kids Sudoku and more	math|games|,|reading|,|art|,|word|scramble|,|spanish|,|puzzles|,|kids|sudoku|and|more	Math|Games|,|Reading|,|Art|,|Word|Scramble|,|Spanish|,|Puzzles|,|Kids|Sudoku|and|more	NNP|NNPS|,|NNP|,|NNP|,|NNP|NNP|,|NNP|,|NNP|,|NNP|NNP|CC|JJR	O|O|O|O|O|O|O|O|O|O|MISC|O|O|O|MISC|MISC|O|O	|||||||||||||||||				Math Games|Reading|Art|Word Scramble|Spanish|Puzzles|Kids Sudoku and more	fb:part.math_games|fb:part.reading|fb:part.art|fb:part.word_scramble|fb:part.spanish|fb:part.puzzles|fb:part.kids_sudoku_and_more
+15	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+15	3	fb:cell.2_9	2-9	2-9	2-9	CD	NUMBER	2.0 - 9.0	2.0		9.0		
+15	4	fb:cell.none	None	none	none	NN	O						
+16	0	fb:cell.watchknowlearn	WatchKnowLearn	watchknowlearn	WatchKnowLearn	NNP	O						
+16	1	fb:cell.all	All	all	all	DT	O					All	fb:part.all
+16	2	fb:cell.free	Free	free	Free	NNP	O					Free	fb:part.free
+16	3	fb:cell.2_17	2-17	2-17	2-17	CD	NUMBER	2.0 - 17.0	2.0		17.0		
+16	4	fb:cell.none	None	none	none	NN	O						

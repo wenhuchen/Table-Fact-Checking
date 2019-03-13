@@ -1,0 +1,521 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	name	name	name	NN	O						
+-1	1	fb:row.row.glyph	glyph	glyph	glyph	NN	O						
+-1	2	fb:row.row.c_string	C string	c|string	c|string	NN|NN	O|O	|					
+-1	3	fb:row.row.unicode	Unicode	unicode	Unicode	NNP	ORGANIZATION						
+-1	4	fb:row.row.unicode_name	Unicode name	unicode|name	Unicode|name	NNP|NN	ORGANIZATION|O	|					
+0	0	fb:cell.nul	NUL	nul	nul	NN	O						
+0	1	fb:cell.null											
+0	2	fb:cell._0	\\0	\\|0	\\|0	NN|CD	O|NUMBER	|0.0	0.0				
+0	3	fb:cell.u_0000	U+0000	u|+0000	U|+0000	NNP|CD	O|NUMBER	|0.0	0.0				
+0	4	fb:cell.null_nul	NULL (NUL)	null|-lrb-|nul|-rrb-	null|-lrb-|nul|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+1	0	fb:cell.alert	alert	alert	alert	JJ	O						
+1	1	fb:cell.null											
+1	2	fb:cell._a	\\a	\\|a	\\|a	IN|DT	O|O	|					
+1	3	fb:cell.u_0007	U+0007	u|+0007	U|+0007	NNP|CD	O|NUMBER	|7.0	7.0				
+1	4	fb:cell.bell_bel	BELL (BEL)	bell|-lrb-|bel|-rrb-	BELL|-lrb-|BEL|-rrb-	NNP|-LRB-|NNP|-RRB-	O|O|O|O	|||					
+2	0	fb:cell.backspace	backspace	backspace	backspace	NN	O						
+2	1	fb:cell.null											
+2	2	fb:cell._b	\\b	\\|b	\\|b	NN|NN	O|O	|					
+2	3	fb:cell.u_0008	U+0008	u|+0008	U|+0008	NNP|CD	O|NUMBER	|8.0	8.0				
+2	4	fb:cell.backspace_bs	BACKSPACE (BS)	backspace|-lrb-|bs|-rrb-	backspace|-lrb-|b|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+3	0	fb:cell.tab	tab	tab	tab	NN	O						
+3	1	fb:cell.null											
+3	2	fb:cell._t	\\t	\\|t	\\|t	NN|NN	O|O	|					
+3	3	fb:cell.u_0009	U+0009	u|+0009	U|+0009	NNP|CD	O|NUMBER	|9.0	9.0				
+3	4	fb:cell.character_tabulation_ht	CHARACTER TABULATION (HT)	character|tabulation|-lrb-|ht|-rrb-	character|tabulation|-lrb-|ht|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+4	0	fb:cell.carriage_return	carriage-return	carriage|return	carriage|return	NN|NN	O|O	|					
+4	1	fb:cell.null											
+4	2	fb:cell._r	\\r	\\|r	\\|r	NN|NN	O|O	|					
+4	3	fb:cell.u_000d	U+000D	u|+000|d	U|+000|d	NNP|CD|NN	O|NUMBER|O	|0.0|	0.0				
+4	4	fb:cell.carriage_return_cr	CARRIAGE RETURN (CR)	carriage|return|-lrb-|cr|-rrb-	carriage|return|-lrb-|cr|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+5	0	fb:cell.newline	newline	newline	newline	NN	O						
+5	1	fb:cell.null											
+5	2	fb:cell._n	\\n	\\|n	\\|n	NN|NN	O|O	|					
+5	3	fb:cell.u_000a	U+000A	u|+000|a	U|+000|a	NNP|CD|DT	O|NUMBER|O	|0.0|	0.0				
+5	4	fb:cell.line_feed_lf	LINE FEED (LF)	line|feed|-lrb-|lf|-rrb-	line|feed|-lrb-|lf|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+6	0	fb:cell.vertical_tab	vertical-tab	vertical|tab	vertical|tab	JJ|NN	O|O	|					
+6	1	fb:cell.null											
+6	2	fb:cell._v	\\v	\\|v	\\|v	NN|LS	O|O	|					
+6	3	fb:cell.u_000b	U+000B	u|+000|b	U|+000|b	NNP|CD|NN	O|NUMBER|O	|0.0|	0.0				
+6	4	fb:cell.line_tabulation_vt	LINE TABULATION (VT)	line|tabulation|-lrb-|vt|-rrb-	line|tabulation|-lrb-|vt|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+7	0	fb:cell.form_feed	form-feed	form|feed	form|feed	NN|NN	O|O	|					
+7	1	fb:cell.null											
+7	2	fb:cell._f	\\f	\\|f	\\|f	NN|SYM	O|O	|					
+7	3	fb:cell.u_000c	U+000C	u|+000|c	U|+000|c	NNP|CD|NN	O|NUMBER|O	|0.0|	0.0				
+7	4	fb:cell.form_feed_ff	FORM FEED (FF)	form|feed|-lrb-|ff|-rrb-	form|feed|-lrb-|ff|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+8	0	fb:cell.space	space	space	space	NN	O						
+8	1	fb:cell.null											
+8	2	fb:cell.null											
+8	3	fb:cell.u_0020	U+0020	u|+0020	U|+0020	NNP|CD	O|NUMBER	|20.0	20.0				
+8	4	fb:cell.space	space	space	space	NN	O						
+9	0	fb:cell.exclamation_mark	exclamation-mark	exclamation|mark	exclamation|mark	JJ|NN	O|O	|					
+9	1	fb:cell.null_2	!	!	!	.	O						
+9	2	fb:cell.null_2	!	!	!	.	O						
+9	3	fb:cell.u_0021	U+0021	u|+0021	U|+0021	NNP|CD	O|NUMBER	|21.0	21.0				
+9	4	fb:cell.exclamation_mark_2	EXCLAMATION MARK	exclamation|mark	EXCLAMATION|MARK	NNP|NNP	O|O	|					
+10	0	fb:cell.quotation_mark	quotation-mark	quotation|mark	quotation|mark	NN|NN	O|O	|					
+10	1	fb:cell.null_3	"	''	''	''	O						
+10	2	fb:cell.null_4	\\"	\\|''	\\|''	NN|''	O|O	|					
+10	3	fb:cell.u_0022	U+0022	u|+0022	U|+0022	NNP|CD	O|NUMBER	|22.0	22.0				
+10	4	fb:cell.quotation_mark_2	QUOTATION MARK	quotation|mark	QUOTATION|MARK	NNP|NNP	O|O	|					
+11	0	fb:cell.number_sign	number-sign	number|sign	number|sign	NN|NN	O|O	|					
+11	1	fb:cell.null_5	#	#	#	#	O						
+11	2	fb:cell.null_5	#	#	#	#	O						
+11	3	fb:cell.u_0023	U+0023	u|+0023	U|+0023	NNP|CD	O|NUMBER	|23.0	23.0				
+11	4	fb:cell.number_sign_2	NUMBER SIGN	number|sign	number|sign	NN|NN	O|O	|					
+12	0	fb:cell.dollar_sign	dollar-sign	dollar|sign	dollar|sign	NN|NN	O|O	|					
+12	1	fb:cell.null_6	$	$	$	$	O						
+12	2	fb:cell.null_6	$	$	$	$	O						
+12	3	fb:cell.u_0024	U+0024	u|+0024	U|+0024	NNP|CD	O|NUMBER	|24.0	24.0				
+12	4	fb:cell.dollar_sign_2	DOLLAR SIGN	dollar|sign	dollar|sign	NN|NN	O|O	|					
+13	0	fb:cell.percent_sign	percent-sign	percent|sign	percent|sign	NN|NN	O|O	|					
+13	1	fb:cell.null_7	%	%	%	NN	O						
+13	2	fb:cell.null_7	%	%	%	NN	O						
+13	3	fb:cell.u_0025	U+0025	u|+0025	U|+0025	NNP|CD	O|NUMBER	|25.0	25.0				
+13	4	fb:cell.percent_sign_2	PERCENT SIGN	percent|sign	percent|sign	NN|NN	O|O	|					
+14	0	fb:cell.ampersand	ampersand	ampersand	ampersand	NN	O						
+14	1	fb:cell.null_8	&	&	&	CC	O						
+14	2	fb:cell.null_8	&	&	&	CC	O						
+14	3	fb:cell.u_0026	U+0026	u|+0026	U|+0026	NNP|CD	O|NUMBER	|26.0	26.0				
+14	4	fb:cell.ampersand	ampersand	ampersand	ampersand	NN	O						
+15	0	fb:cell.apostrophe	apostrophe	apostrophe	apostrophe	NN	O						
+15	1	fb:cell.null_9	'	'	'	''	O						
+15	2	fb:cell.null_10	\\'	\\|'	\\|'	NN|''	O|O	|					
+15	3	fb:cell.u_0027	U+0027	u|+0027	U|+0027	NNP|CD	O|NUMBER	|27.0	27.0				
+15	4	fb:cell.apostrophe	apostrophe	apostrophe	apostrophe	NN	O						
+16	0	fb:cell.left_parenthesis	left-parenthesis	left|parenthesis	left|parenthesis	RB|VBZ	O|O	|					
+16	1	fb:cell.null_11	(	-lrb-	-lrb-	-LRB-	O						
+16	2	fb:cell.null_11	(	-lrb-	-lrb-	-LRB-	O						
+16	3	fb:cell.u_0028	U+0028	u|+0028	U|+0028	NNP|CD	O|NUMBER	|28.0	28.0				
+16	4	fb:cell.left_parenthesis_2	LEFT PARENTHESIS	left|parenthesis	LEFT|PARENTHESIS	NNP|NNP	O|O	|					
+17	0	fb:cell.right_parenthesis	right-parenthesis	right|parenthesis	right|parenthesis	RB|NN	O|O	|					
+17	1	fb:cell.null_12	)	-rrb-	-rrb-	-RRB-	O						
+17	2	fb:cell.null_12	)	-rrb-	-rrb-	-RRB-	O						
+17	3	fb:cell.u_0029	U+0029	u|+0029	U|+0029	NNP|CD	O|NUMBER	|29.0	29.0				
+17	4	fb:cell.right_parenthesis_2	RIGHT PARENTHESIS	right|parenthesis	right|parenthesis	NN|NNS	O|O	|					
+18	0	fb:cell.asterisk	asterisk	asterisk	asterisk	NN	O						
+18	1	fb:cell.null_13	*	\\*	\\*	SYM	O						
+18	2	fb:cell.null_13	*	\\*	\\*	SYM	O						
+18	3	fb:cell.u_002a	U+002A	u|+002|a	U|+002|a	NNP|CD|DT	O|NUMBER|O	|2.0|	2.0				
+18	4	fb:cell.asterisk	asterisk	asterisk	asterisk	NN	O						
+19	0	fb:cell.plus_sign	plus-sign	plus|sign	plus|sign	CC|NN	O|O	|					
+19	1	fb:cell.null_14	+	+	+	CC	O						
+19	2	fb:cell.null_14	+	+	+	CC	O						
+19	3	fb:cell.u_002b	U+002B	u|+002|b	U|+002|b	NNP|CD|NN	O|NUMBER|O	|2.0|	2.0				
+19	4	fb:cell.plus_sign_2	PLUS SIGN	plus|sign	PLUS|SIGN	NNP|NNP	O|O	|					
+20	0	fb:cell.comma	comma	comma	comma	NN	O						
+20	1	fb:cell.null_15	,	,	,	,	O						
+20	2	fb:cell.null_15	,	,	,	,	O						
+20	3	fb:cell.u_002c	U+002C	u|+002|c	U|+002|c	NNP|CD|NN	O|NUMBER|O	|2.0|	2.0				
+20	4	fb:cell.comma	comma	comma	comma	NN	O						
+21	0	fb:cell.hyphen	hyphen	hyphen	hyphen	NN	O						
+21	1	fb:cell.null_16	-	-	-	:	O						
+21	2	fb:cell.null_16	-	-	-	:	O						
+21	3	fb:cell.u_002d	U+002D	u|+002|d	U|+002|d	NNP|NN|NN	O|NUMBER|O	|2.0|	2.0				
+21	4	fb:cell.hyphen_minus	HYPHEN-MINUS	hyphen|minus	HYPHEN|MINUS	NNP|NNP	O|O	|					
+22	0	fb:cell.period	period	period	period	NN	O						
+22	1	fb:cell.null_17	.	.	.	.	O						
+22	2	fb:cell.null_17	.	.	.	.	O						
+22	3	fb:cell.u_002e	U+002E	u|+002|e	U|+002|e	NNP|CD|NN	O|NUMBER|O	|2.0|	2.0				
+22	4	fb:cell.full_stop	FULL STOP	full|stop	full|stop	JJ|NN	O|O	|					
+23	0	fb:cell.slash	slash	slash	slash	VBP	O						
+23	1	fb:cell.null_18	/	\\/	\\/	:	O						
+23	2	fb:cell.null_18	/	\\/	\\/	:	O						
+23	3	fb:cell.u_002f	U+002F	u|+002|f	U|+002|f	NNP|CD|NN	O|NUMBER|O	|2.0|	2.0				
+23	4	fb:cell.solidus	SOLIDUS	solidus	solidus	NNS	O						
+24	0	fb:cell.zero	zero	zero	zero	CD	NUMBER	0.0	0.0				
+24	1	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+24	2	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+24	3	fb:cell.u_0030	U+0030	u|+0030	U|+0030	NNP|CD	O|NUMBER	|30.0	30.0				
+24	4	fb:cell.digit_zero	DIGIT ZERO	digit|zero	DIGIT|ZERO	NNP|NNP	MISC|NUMBER	|0.0					
+25	0	fb:cell.one	one	one	one	CD	NUMBER	1.0	1.0				
+25	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+25	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+25	3	fb:cell.u_0031	U+0031	u|+0031	U|+0031	NNP|CD	O|NUMBER	|31.0	31.0				
+25	4	fb:cell.digit_one	DIGIT ONE	digit|one	DIGIT|one	NNP|CD	O|NUMBER	|1.0					
+26	0	fb:cell.two	two	two	two	CD	NUMBER	2.0	2.0				
+26	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+26	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+26	3	fb:cell.u_0032	U+0032	u|+0032	U|+0032	NNP|CD	O|NUMBER	|32.0	32.0				
+26	4	fb:cell.digit_two	DIGIT TWO	digit|two	DIGIT|two	NNP|CD	O|NUMBER	|2.0					
+27	0	fb:cell.three	three	three	three	CD	NUMBER	3.0	3.0				
+27	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+27	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+27	3	fb:cell.u_0033	U+0033	u|+0033	U|+0033	NNP|CD	O|NUMBER	|33.0	33.0				
+27	4	fb:cell.digit_three	DIGIT THREE	digit|three	DIGIT|three	NNP|CD	O|NUMBER	|3.0					
+28	0	fb:cell.four	four	four	four	CD	NUMBER	4.0	4.0				
+28	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+28	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+28	3	fb:cell.u_0034	U+0034	u|+0034	U|+0034	NNP|CD	O|NUMBER	|34.0	34.0				
+28	4	fb:cell.digit_four	DIGIT FOUR	digit|four	DIGIT|four	NNP|CD	O|NUMBER	|4.0					
+29	0	fb:cell.five	five	five	five	CD	NUMBER	5.0	5.0				
+29	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+29	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+29	3	fb:cell.u_0035	U+0035	u|+0035	U|+0035	NNP|CD	O|NUMBER	|35.0	35.0				
+29	4	fb:cell.digit_five	DIGIT FIVE	digit|five	DIGIT|five	NNP|CD	O|NUMBER	|5.0					
+30	0	fb:cell.six	six	six	six	CD	NUMBER	6.0	6.0				
+30	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+30	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+30	3	fb:cell.u_0036	U+0036	u|+0036	U|+0036	NNP|CD	O|NUMBER	|36.0	36.0				
+30	4	fb:cell.digit_six	DIGIT SIX	digit|six	digit|six	NN|CD	MISC|NUMBER	|6.0					
+31	0	fb:cell.seven	seven	seven	seven	CD	NUMBER	7.0	7.0				
+31	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+31	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+31	3	fb:cell.u_0037	U+0037	u|+0037	U|+0037	NNP|CD	O|NUMBER	|37.0	37.0				
+31	4	fb:cell.digit_seven	DIGIT SEVEN	digit|seven	DIGIT|seven	NNP|CD	O|NUMBER	|7.0					
+32	0	fb:cell.eight	eight	eight	eight	CD	NUMBER	8.0	8.0				
+32	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+32	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+32	3	fb:cell.u_0038	U+0038	u|+0038	U|+0038	NNP|CD	O|NUMBER	|38.0	38.0				
+32	4	fb:cell.digit_eight	DIGIT EIGHT	digit|eight	DIGIT|eight	NNP|CD	O|NUMBER	|8.0					
+33	0	fb:cell.nine	nine	nine	nine	CD	NUMBER	9.0	9.0				
+33	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+33	2	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+33	3	fb:cell.u_0039	U+0039	u|+0039	U|+0039	NNP|CD	O|NUMBER	|39.0	39.0				
+33	4	fb:cell.digit_nine	DIGIT NINE	digit|nine	DIGIT|nine	NNP|CD	MISC|NUMBER	|9.0					
+34	0	fb:cell.colon	colon	colon	colon	NN	O						
+34	1	fb:cell.null_19	:	:	:	:	O						
+34	2	fb:cell.null_19	:	:	:	:	O						
+34	3	fb:cell.u_003a	U+003A	u|+003|a	U|+003|a	NNP|CD|DT	O|NUMBER|O	|3.0|	3.0				
+34	4	fb:cell.colon	colon	colon	colon	NN	O						
+35	0	fb:cell.semicolon	semicolon	semicolon	semicolon	NN	O						
+35	1	fb:cell.null_20	;	;	;	:	O						
+35	2	fb:cell.null_20	;	;	;	:	O						
+35	3	fb:cell.u_003b	U+003B	u|+003|b	U|+003|b	NNP|CD|NN	O|NUMBER|O	|3.0|	3.0				
+35	4	fb:cell.semicolon	semicolon	semicolon	semicolon	NN	O						
+36	0	fb:cell.less_than_sign	less-than-sign	less|than|sign	less|than|sign	JJR|IN|NN	O|O|O	||					
+36	1	fb:cell.null_21	<	<	<	JJR	O						
+36	2	fb:cell.null_21	<	<	<	JJR	O						
+36	3	fb:cell.u_003c	U+003C	u|+003|c	U|+003|c	NNP|CD|NN	O|NUMBER|O	|3.0|	3.0				
+36	4	fb:cell.less_than_sign_2	LESS-THAN SIGN	less|than|sign	less|than|sign	RBR|IN|NN	O|O|O	||					
+37	0	fb:cell.equals_sign	equals-sign	equals|sign	equal|sign	VBZ|NN	O|O	|					
+37	1	fb:cell.null_22	=	=	=	JJ	O						
+37	2	fb:cell.null_22	=	=	=	JJ	O						
+37	3	fb:cell.u_003d	U+003D	u|+003|d	U|+003|d	NNP|CD|NN	O|NUMBER|O	|3.0|	3.0				
+37	4	fb:cell.equals_sign_2	EQUALS SIGN	equals|sign	equal|sign	VBZ|NN	O|O	|					
+38	0	fb:cell.greater_than_sign	greater-than-sign	greater|than|sign	greater|than|sign	JJR|IN|NN	O|O|O	||					
+38	1	fb:cell.null_23	>	>	>	JJR	O						
+38	2	fb:cell.null_23	>	>	>	JJR	O						
+38	3	fb:cell.u_003e	U+003E	u|+003|e	U|+003|e	NNP|CD|NN	O|NUMBER|O	|3.0|	3.0				
+38	4	fb:cell.greater_than_sign_2	GREATER-THAN SIGN	greater|than|sign	greater|than|sign	RBR|IN|NN	O|O|O	||					
+39	0	fb:cell.question_mark	question-mark	question|mark	question|mark	NN|NN	O|O	|					
+39	1	fb:cell.null_24	?	?	?	.	O						
+39	2	fb:cell.null_24	?	?	?	.	O						
+39	3	fb:cell.u_003f	U+003F	u|+003|f	U|+003|f	NNP|CD|NN	O|NUMBER|O	|3.0|	3.0				
+39	4	fb:cell.question_mark_2	QUESTION MARK	question|mark	question|MARK	NN|NNP	O|O	|					
+40	0	fb:cell.commercial_at	commercial-at	commercial|at	commercial|at	JJ|IN	O|O	|					
+40	1	fb:cell.null_25	@	@	@	SYM	O						
+40	2	fb:cell.null_25	@	@	@	SYM	O						
+40	3	fb:cell.u_0040	U+0040	u|+0040	U|+0040	NNP|CD	O|NUMBER	|40.0	40.0				
+40	4	fb:cell.commercial_at_2	COMMERCIAL AT	commercial|at	commercial|at	JJ|IN	O|O	|					
+41	0	fb:cell.a	A	a	a	DT	O						
+41	1	fb:cell.a	A	a	a	DT	O						
+41	2	fb:cell.a	A	a	a	DT	O						
+41	3	fb:cell.u_0041	U+0041	u|+0041	U|+0041	NNP|CD	O|NUMBER	|41.0	41.0				
+41	4	fb:cell.latin_capital_letter_a	LATIN CAPITAL LETTER A	latin|capital|letter|a	LATIN|CAPITAL|letter|a	NNP|NNP|NN|NN	O|O|O|O	|||					
+42	0	fb:cell.b	B	b	b	NN	O						
+42	1	fb:cell.b	B	b	b	NN	O						
+42	2	fb:cell.b	B	b	b	NN	O						
+42	3	fb:cell.u_0042	U+0042	u|+0042	U|+0042	NNP|CD	O|NUMBER	|42.0	42.0				
+42	4	fb:cell.latin_capital_letter_b	LATIN CAPITAL LETTER B	latin|capital|letter|b	LATIN|CAPITAL|letter|b	NNP|NNP|NN|NN	O|O|O|O	|||					
+43	0	fb:cell.c	C	c	c	NN	O						
+43	1	fb:cell.c	C	c	c	NN	O						
+43	2	fb:cell.c	C	c	c	NN	O						
+43	3	fb:cell.u_0043	U+0043	u|+0043	U|+0043	NNP|CD	O|NUMBER	|43.0	43.0				
+43	4	fb:cell.latin_capital_letter_c	LATIN CAPITAL LETTER C	latin|capital|letter|c	LATIN|CAPITAL|letter|c	NNP|NNP|NN|NN	O|O|O|O	|||					
+44	0	fb:cell.d	D	d	d	NN	O						
+44	1	fb:cell.d	D	d	d	NN	O						
+44	2	fb:cell.d	D	d	d	NN	O						
+44	3	fb:cell.u_0044	U+0044	u|+0044	U|+0044	NNP|CD	O|NUMBER	|44.0	44.0				
+44	4	fb:cell.latin_capital_letter_d	LATIN CAPITAL LETTER D	latin|capital|letter|d	LATIN|CAPITAL|letter|d	NNP|NNP|NN|NN	O|O|O|O	|||					
+45	0	fb:cell.e	E	e	e	NN	O						
+45	1	fb:cell.e	E	e	e	NN	O						
+45	2	fb:cell.e	E	e	e	NN	O						
+45	3	fb:cell.u_0045	U+0045	u|+0045	U|+0045	NNP|CD	O|NUMBER	|45.0	45.0				
+45	4	fb:cell.latin_capital_letter_e	LATIN CAPITAL LETTER E	latin|capital|letter|e	LATIN|CAPITAL|letter|e	NNP|NNP|NN|NN	O|O|O|O	|||					
+46	0	fb:cell.f	F	f	f	NN	O						
+46	1	fb:cell.f	F	f	f	NN	O						
+46	2	fb:cell.f	F	f	f	NN	O						
+46	3	fb:cell.u_0046	U+0046	u|+0046	U|+0046	NNP|CD	O|NUMBER	|46.0	46.0				
+46	4	fb:cell.latin_capital_letter_f	LATIN CAPITAL LETTER F	latin|capital|letter|f	LATIN|CAPITAL|letter|f	NNP|NNP|NN|NN	MISC|O|O|O	|||					
+47	0	fb:cell.g	G	g	g	NN	O						
+47	1	fb:cell.g	G	g	g	NN	O						
+47	2	fb:cell.g	G	g	g	NN	O						
+47	3	fb:cell.u_0047	U+0047	u|+0047	U|+0047	NNP|CD	O|NUMBER	|47.0	47.0				
+47	4	fb:cell.latin_capital_letter_g	LATIN CAPITAL LETTER G	latin|capital|letter|g	LATIN|CAPITAL|letter|g	NNP|NNP|NN|NN	O|O|O|O	|||					
+48	0	fb:cell.h	H	h	h	NN	O						
+48	1	fb:cell.h	H	h	h	NN	O						
+48	2	fb:cell.h	H	h	h	NN	O						
+48	3	fb:cell.u_0048	U+0048	u|+0048	U|+0048	NNP|CD	O|NUMBER	|48.0	48.0				
+48	4	fb:cell.latin_capital_letter_h	LATIN CAPITAL LETTER H	latin|capital|letter|h	LATIN|CAPITAL|letter|h	NNP|NNP|NN|NN	O|O|O|O	|||					
+49	0	fb:cell.i	I	i	I	PRP	O						
+49	1	fb:cell.i	I	i	I	PRP	O						
+49	2	fb:cell.i	I	i	I	PRP	O						
+49	3	fb:cell.u_0049	U+0049	u|+0049	U|+0049	NNP|CD	O|NUMBER	|49.0	49.0				
+49	4	fb:cell.latin_capital_letter_i	LATIN CAPITAL LETTER I	latin|capital|letter|i	LATIN|CAPITAL|letter|I	NNP|NNP|NN|PRP	MISC|O|O|O	|||					
+50	0	fb:cell.j	J	j	j	NN	O						
+50	1	fb:cell.j	J	j	j	NN	O						
+50	2	fb:cell.j	J	j	j	NN	O						
+50	3	fb:cell.u_004a	U+004A	u|+004|a	U|+004|a	NNP|CD|DT	O|NUMBER|O	|4.0|	4.0				
+50	4	fb:cell.latin_capital_letter_j	LATIN CAPITAL LETTER J	latin|capital|letter|j	LATIN|CAPITAL|letter|j	NNP|NNP|NN|NN	O|O|O|O	|||					
+51	0	fb:cell.k	K	k	k	NN	O						
+51	1	fb:cell.k	K	k	k	NN	O						
+51	2	fb:cell.k	K	k	k	NN	O						
+51	3	fb:cell.u_004b	U+004B	u|+004|b	U|+004|b	NNP|CD|NN	O|NUMBER|O	|4.0|	4.0				
+51	4	fb:cell.latin_capital_letter_k	LATIN CAPITAL LETTER K	latin|capital|letter|k	LATIN|CAPITAL|letter|k	NNP|NNP|NN|NN	O|O|O|O	|||					
+52	0	fb:cell.l	L	l	l	NN	O						
+52	1	fb:cell.l	L	l	l	NN	O						
+52	2	fb:cell.l	L	l	l	NN	O						
+52	3	fb:cell.u_004c	U+004C	u|+004|c	U|+004|c	NNP|CD|NN	O|NUMBER|O	|4.0|	4.0				
+52	4	fb:cell.latin_capital_letter_l	LATIN CAPITAL LETTER L	latin|capital|letter|l	LATIN|CAPITAL|letter|l	NNP|NNP|NN|NN	O|O|O|O	|||					
+53	0	fb:cell.m	M	m	m	NN	O						
+53	1	fb:cell.m	M	m	m	NN	O						
+53	2	fb:cell.m	M	m	m	NN	O						
+53	3	fb:cell.u_004d	U+004D	u|+004|d	U|+004|d	NNP|CD|NN	O|NUMBER|O	|4.0|	4.0				
+53	4	fb:cell.latin_capital_letter_m	LATIN CAPITAL LETTER M	latin|capital|letter|m	LATIN|CAPITAL|letter|m	NNP|NNP|NN|NN	O|O|O|O	|||					
+54	0	fb:cell.n	N	n	n	NN	O						
+54	1	fb:cell.n	N	n	n	NN	O						
+54	2	fb:cell.n	N	n	n	NN	O						
+54	3	fb:cell.u_004e	U+004E	u|+004|e	U|+004|e	NNP|CD|NN	O|NUMBER|O	|4.0|	4.0				
+54	4	fb:cell.latin_capital_letter_n	LATIN CAPITAL LETTER N	latin|capital|letter|n	LATIN|CAPITAL|letter|n	NNP|NNP|NN|NN	O|O|O|O	|||					
+55	0	fb:cell.o	O	o	o	NN	O						
+55	1	fb:cell.o	O	o	o	NN	O						
+55	2	fb:cell.o	O	o	o	NN	O						
+55	3	fb:cell.u_004f	U+004F	u|+004|f	U|+004|f	NNP|CD|NN	O|NUMBER|O	|4.0|	4.0				
+55	4	fb:cell.latin_capital_letter_o	LATIN CAPITAL LETTER O	latin|capital|letter|o	LATIN|CAPITAL|letter|o	NNP|NNP|NN|NN	O|O|O|O	|||					
+56	0	fb:cell.p	P	p	p	NN	O						
+56	1	fb:cell.p	P	p	p	NN	O						
+56	2	fb:cell.p	P	p	p	NN	O						
+56	3	fb:cell.u_0050	U+0050	u|+0050	U|+0050	NNP|CD	O|NUMBER	|50.0	50.0				
+56	4	fb:cell.latin_capital_letter_p	LATIN CAPITAL LETTER P	latin|capital|letter|p	LATIN|CAPITAL|letter|p	NNP|NNP|NN|NN	O|O|O|O	|||					
+57	0	fb:cell.q	Q	q	Q	NNP	O						
+57	1	fb:cell.q	Q	q	Q	NNP	O						
+57	2	fb:cell.q	Q	q	Q	NNP	O						
+57	3	fb:cell.u_0051	U+0051	u|+0051	U|+0051	NNP|CD	O|NUMBER	|51.0	51.0				
+57	4	fb:cell.latin_capital_letter_q	LATIN CAPITAL LETTER Q	latin|capital|letter|q	LATIN|CAPITAL|letter|Q	NNP|NNP|NN|NNP	O|O|O|O	|||					
+58	0	fb:cell.r	R	r	r	NN	O						
+58	1	fb:cell.r	R	r	r	NN	O						
+58	2	fb:cell.r	R	r	r	NN	O						
+58	3	fb:cell.u_0052	U+0052	u|+0052	U|+0052	NNP|CD	O|NUMBER	|52.0	52.0				
+58	4	fb:cell.latin_capital_letter_r	LATIN CAPITAL LETTER R	latin|capital|letter|r	LATIN|CAPITAL|letter|r	NNP|NNP|NN|NN	O|O|O|O	|||					
+59	0	fb:cell.s	S	s	s	NN	O						
+59	1	fb:cell.s	S	s	s	NN	O						
+59	2	fb:cell.s	S	s	s	NN	O						
+59	3	fb:cell.u_0053	U+0053	u|+0053	U|+0053	NNP|CD	O|NUMBER	|53.0	53.0				
+59	4	fb:cell.latin_capital_letter_s	LATIN CAPITAL LETTER S	latin|capital|letter|s	LATIN|CAPITAL|letter|s	NNP|NNP|NN|NN	O|O|O|O	|||					
+60	0	fb:cell.t	T	t	t	NN	O						
+60	1	fb:cell.t	T	t	t	NN	O						
+60	2	fb:cell.t	T	t	t	NN	O						
+60	3	fb:cell.u_0054	U+0054	u|+0054	U|+0054	NNP|CD	O|NUMBER	|54.0	54.0				
+60	4	fb:cell.latin_capital_letter_t	LATIN CAPITAL LETTER T	latin|capital|letter|t	LATIN|CAPITAL|letter|t	NNP|NNP|NN|NN	O|O|O|O	|||					
+61	0	fb:cell.u	U	u	U	NNP	O						
+61	1	fb:cell.u	U	u	U	NNP	O						
+61	2	fb:cell.u	U	u	U	NNP	O						
+61	3	fb:cell.u_0055	U+0055	u|+0055	U|+0055	NNP|CD	O|NUMBER	|55.0	55.0				
+61	4	fb:cell.latin_capital_letter_u	LATIN CAPITAL LETTER U	latin|capital|letter|u	LATIN|CAPITAL|letter|u	NNP|NNP|NN|NN	O|O|O|O	|||					
+62	0	fb:cell.v	V	v	v	NN	O						
+62	1	fb:cell.v	V	v	v	NN	O						
+62	2	fb:cell.v	V	v	v	NN	O						
+62	3	fb:cell.u_0056	U+0056	u|+0056	U|+0056	NNP|CD	O|NUMBER	|56.0	56.0				
+62	4	fb:cell.latin_capital_letter_v	LATIN CAPITAL LETTER V	latin|capital|letter|v	LATIN|CAPITAL|letter|v	NNP|NNP|NN|NN	O|O|O|O	|||					
+63	0	fb:cell.w	W	w	w	NN	O						
+63	1	fb:cell.w	W	w	w	NN	O						
+63	2	fb:cell.w	W	w	w	NN	O						
+63	3	fb:cell.u_0057	U+0057	u|+0057	U|+0057	NNP|CD	O|NUMBER	|57.0	57.0				
+63	4	fb:cell.latin_capital_letter_w	LATIN CAPITAL LETTER W	latin|capital|letter|w	LATIN|CAPITAL|LETTER|W	NNP|NNP|NNP|NNP	MISC|O|O|O	|||					
+64	0	fb:cell.x	X	x	x	NN	O						
+64	1	fb:cell.x	X	x	x	NN	O						
+64	2	fb:cell.x	X	x	x	NN	O						
+64	3	fb:cell.u_0058	U+0058	u|+0058	U|+0058	NNP|CD	O|NUMBER	|58.0	58.0				
+64	4	fb:cell.latin_capital_letter_x	LATIN CAPITAL LETTER X	latin|capital|letter|x	LATIN|CAPITAL|letter|x	NNP|NNP|NN|NN	MISC|O|O|O	|||					
+65	0	fb:cell.y	Y	y	y	NN	O						
+65	1	fb:cell.y	Y	y	y	NN	O						
+65	2	fb:cell.y	Y	y	y	NN	O						
+65	3	fb:cell.u_0059	U+0059	u|+0059	U|+0059	NNP|CD	O|NUMBER	|59.0	59.0				
+65	4	fb:cell.latin_capital_letter_y	LATIN CAPITAL LETTER Y	latin|capital|letter|y	LATIN|CAPITAL|letter|y	NNP|NNP|NN|NN	O|O|O|O	|||					
+66	0	fb:cell.z	Z	z	z	NN	O						
+66	1	fb:cell.z	Z	z	z	NN	O						
+66	2	fb:cell.z	Z	z	z	NN	O						
+66	3	fb:cell.u_005a	U+005A	u|+005|a	U|+005|a	NNP|CD|DT	O|NUMBER|O	|5.0|	5.0				
+66	4	fb:cell.latin_capital_letter_z	LATIN CAPITAL LETTER Z	latin|capital|letter|z	LATIN|CAPITAL|letter|z	NNP|NNP|NN|NN	O|O|O|O	|||					
+67	0	fb:cell.left_square_bracket	left-square-bracket	left|square|bracket	left|square|bracket	RB|JJ|NN	O|O|O	||					
+67	1	fb:cell.null_26	[	-lsb-	-lsb-	-LRB-	O						
+67	2	fb:cell.null_26	[	-lsb-	-lsb-	-LRB-	O						
+67	3	fb:cell.u_005b	U+005B	u|+005|b	U|+005|b	NNP|CD|NN	O|NUMBER|O	|5.0|	5.0				
+67	4	fb:cell.left_square_bracket_2	LEFT SQUARE BRACKET	left|square|bracket	LEFT|SQUARE|BRACKET	NNP|NNP|NNP	O|O|O	||					
+68	0	fb:cell.backslash	backslash	backslash	backslash	NN	O						
+68	1	fb:cell.null_27	\\	\\	\\	IN	O						
+68	2	fb:cell.null_28	\\\\	\\|\\	\\|\\	NN|SYM	O|O	|					
+68	3	fb:cell.u_005c	U+005C	u|+005|c	U|+005|c	NNP|CD|NN	O|NUMBER|O	|5.0|	5.0				
+68	4	fb:cell.reverse_solidus	REVERSE SOLIDUS	reverse|solidus	reverse|solidus	JJ|NNS	O|O	|					
+69	0	fb:cell.right_square_bracket	right-square-bracket	right|square|bracket	right|square|bracket	RB|JJ|NN	O|O|O	||					
+69	1	fb:cell.null_29	]	-rsb-	-rsb-	-RRB-	O						
+69	2	fb:cell.null_29	]	-rsb-	-rsb-	-RRB-	O						
+69	3	fb:cell.u_005d	U+005D	u|+005|d	U|+005|d	NNP|CD|NN	O|NUMBER|O	|5.0|	5.0				
+69	4	fb:cell.right_square_bracket_2	RIGHT SQUARE BRACKET	right|square|bracket	right|square|bracket	NN|NN|NN	O|O|O	||					
+70	0	fb:cell.circumflex	circumflex	circumflex	circumflex	NN	O						
+70	1	fb:cell.null_30	^	^	^	NN	O						
+70	2	fb:cell.null_30	^	^	^	NN	O						
+70	3	fb:cell.u_005e	U+005E	u|+005|e	U|+005|e	NNP|CD|NN	O|NUMBER|O	|5.0|	5.0				
+70	4	fb:cell.circumflex_accent	CIRCUMFLEX ACCENT	circumflex|accent	CIRCUMFLEX|ACCENT	NNP|NNP	O|O	|					
+71	0	fb:cell.underscore	underscore	underscore	underscore	VBP	O						
+71	1	fb:cell.null_31	_	_	_	NN	O						
+71	2	fb:cell.null_31	_	_	_	NN	O						
+71	3	fb:cell.u_005f	U+005F	u|+005|f	U|+005|f	NNP|CD|NN	O|NUMBER|O	|5.0|	5.0				
+71	4	fb:cell.low_line	LOW LINE	low|line	low|line	RB|NN	O|O	|					
+72	0	fb:cell.grave_accent	grave-accent	grave|accent	grave|accent	JJ|NN	O|O	|					
+72	1	fb:cell.null_9	'	'	'	''	O						
+72	2	fb:cell.null_9	'	'	'	''	O						
+72	3	fb:cell.u_0060	U+0060	u|+0060	U|+0060	NNP|CD	O|NUMBER	|60.0	60.0				
+72	4	fb:cell.grave_accent_2	GRAVE ACCENT	grave|accent	grave|accent	JJ|NN	O|O	|					
+73	0	fb:cell.a	A	a	a	DT	O						
+73	1	fb:cell.a	A	a	a	DT	O						
+73	2	fb:cell.a	A	a	a	DT	O						
+73	3	fb:cell.u_0061	U+0061	u|+0061	U|+0061	NNP|CD	O|NUMBER	|61.0	61.0				
+73	4	fb:cell.latin_small_letter_a	LATIN SMALL LETTER A	latin|small|letter|a	LATIN|SMALL|letter|a	NNP|NNP|NN|NN	O|O|O|O	|||					
+74	0	fb:cell.b	B	b	b	NN	O						
+74	1	fb:cell.b	B	b	b	NN	O						
+74	2	fb:cell.b	B	b	b	NN	O						
+74	3	fb:cell.u_0062	U+0062	u|+0062	U|+0062	NNP|CD	O|NUMBER	|62.0	62.0				
+74	4	fb:cell.latin_small_letter_b	LATIN SMALL LETTER B	latin|small|letter|b	LATIN|SMALL|letter|b	NNP|NNP|NN|NN	O|O|O|O	|||					
+75	0	fb:cell.c	C	c	c	NN	O						
+75	1	fb:cell.c	C	c	c	NN	O						
+75	2	fb:cell.c	C	c	c	NN	O						
+75	3	fb:cell.u_0063	U+0063	u|+0063	U|+0063	NNP|CD	O|NUMBER	|63.0	63.0				
+75	4	fb:cell.latin_small_letter_c	LATIN SMALL LETTER C	latin|small|letter|c	LATIN|SMALL|letter|c	NNP|NNP|NN|NN	O|O|O|O	|||					
+76	0	fb:cell.d	D	d	d	NN	O						
+76	1	fb:cell.d	D	d	d	NN	O						
+76	2	fb:cell.d	D	d	d	NN	O						
+76	3	fb:cell.u_0064	U+0064	u|+0064	U|+0064	NNP|CD	O|NUMBER	|64.0	64.0				
+76	4	fb:cell.latin_small_letter_d	LATIN SMALL LETTER D	latin|small|letter|d	LATIN|SMALL|letter|d	NNP|NNP|NN|NN	O|O|O|O	|||					
+77	0	fb:cell.e	E	e	e	NN	O						
+77	1	fb:cell.e	E	e	e	NN	O						
+77	2	fb:cell.e	E	e	e	NN	O						
+77	3	fb:cell.u_0065	U+0065	u|+0065	U|+0065	NNP|CD	O|NUMBER	|65.0	65.0				
+77	4	fb:cell.latin_small_letter_e	LATIN SMALL LETTER E	latin|small|letter|e	LATIN|SMALL|letter|e	NNP|NNP|NN|NN	O|O|O|O	|||					
+78	0	fb:cell.f	F	f	f	NN	O						
+78	1	fb:cell.f	F	f	f	NN	O						
+78	2	fb:cell.f	F	f	f	NN	O						
+78	3	fb:cell.u_0066	U+0066	u|+0066	U|+0066	NNP|CD	O|NUMBER	|66.0	66.0				
+78	4	fb:cell.latin_small_letter_f	LATIN SMALL LETTER F	latin|small|letter|f	LATIN|SMALL|letter|f	NNP|NNP|NN|NN	O|O|O|O	|||					
+79	0	fb:cell.g	G	g	g	NN	O						
+79	1	fb:cell.g	G	g	g	NN	O						
+79	2	fb:cell.g	G	g	g	NN	O						
+79	3	fb:cell.u_0067	U+0067	u|+0067	U|+0067	NNP|CD	O|NUMBER	|67.0	67.0				
+79	4	fb:cell.latin_small_letter_g	LATIN SMALL LETTER G	latin|small|letter|g	LATIN|SMALL|letter|g	NNP|NNP|NN|NN	O|O|O|O	|||					
+80	0	fb:cell.h	H	h	h	NN	O						
+80	1	fb:cell.h	H	h	h	NN	O						
+80	2	fb:cell.h	H	h	h	NN	O						
+80	3	fb:cell.u_0068	U+0068	u|+0068	U|+0068	NNP|CD	O|NUMBER	|68.0	68.0				
+80	4	fb:cell.latin_small_letter_h	LATIN SMALL LETTER H	latin|small|letter|h	LATIN|SMALL|letter|h	NNP|NNP|NN|NN	O|O|O|O	|||					
+81	0	fb:cell.i	I	i	I	PRP	O						
+81	1	fb:cell.i	I	i	I	PRP	O						
+81	2	fb:cell.i	I	i	I	PRP	O						
+81	3	fb:cell.u_0069	U+0069	u|+0069	U|+0069	NNP|CD	O|NUMBER	|69.0	69.0				
+81	4	fb:cell.latin_small_letter_i	LATIN SMALL LETTER I	latin|small|letter|i	LATIN|SMALL|letter|I	NNP|NNP|NN|PRP	MISC|O|O|O	|||					
+82	0	fb:cell.j	J	j	j	NN	O						
+82	1	fb:cell.j	J	j	j	NN	O						
+82	2	fb:cell.j	J	j	j	NN	O						
+82	3	fb:cell.u_006a	U+006A	u|+006|a	U|+006|a	NNP|CD|DT	O|NUMBER|O	|6.0|	6.0				
+82	4	fb:cell.latin_small_letter_j	LATIN SMALL LETTER J	latin|small|letter|j	LATIN|SMALL|letter|j	NNP|NNP|NN|NN	O|O|O|O	|||					
+83	0	fb:cell.k	K	k	k	NN	O						
+83	1	fb:cell.k	K	k	k	NN	O						
+83	2	fb:cell.k	K	k	k	NN	O						
+83	3	fb:cell.u_006b	U+006B	u|+006|b	U|+006|b	NNP|CD|NN	O|NUMBER|O	|6.0|	6.0				
+83	4	fb:cell.latin_small_letter_k	LATIN SMALL LETTER K	latin|small|letter|k	LATIN|SMALL|letter|k	NNP|NNP|NN|NN	O|O|O|O	|||					
+84	0	fb:cell.l	L	l	l	NN	O						
+84	1	fb:cell.l	L	l	l	NN	O						
+84	2	fb:cell.l	L	l	l	NN	O						
+84	3	fb:cell.u_006c	U+006C	u|+006|c	U|+006|c	NNP|CD|NN	O|NUMBER|O	|6.0|	6.0				
+84	4	fb:cell.latin_small_letter_l	LATIN SMALL LETTER L	latin|small|letter|l	LATIN|SMALL|letter|l	NNP|NNP|NN|NN	O|O|O|O	|||					
+85	0	fb:cell.m	M	m	m	NN	O						
+85	1	fb:cell.m	M	m	m	NN	O						
+85	2	fb:cell.m	M	m	m	NN	O						
+85	3	fb:cell.u_006d	U+006D	u|+006|d	U|+006|d	NNP|CD|NN	O|NUMBER|O	|6.0|	6.0				
+85	4	fb:cell.latin_small_letter_m	LATIN SMALL LETTER M	latin|small|letter|m	LATIN|SMALL|letter|m	NNP|NNP|NN|NN	O|O|O|O	|||					
+86	0	fb:cell.n	N	n	n	NN	O						
+86	1	fb:cell.n	N	n	n	NN	O						
+86	2	fb:cell.n	N	n	n	NN	O						
+86	3	fb:cell.u_006e	U+006E	u|+006|e	U|+006|e	NNP|CD|NN	O|NUMBER|O	|6.0|	6.0				
+86	4	fb:cell.latin_small_letter_n	LATIN SMALL LETTER N	latin|small|letter|n	LATIN|SMALL|letter|n	NNP|NNP|NN|NN	O|O|O|O	|||					
+87	0	fb:cell.o	O	o	o	NN	O						
+87	1	fb:cell.o	O	o	o	NN	O						
+87	2	fb:cell.o	O	o	o	NN	O						
+87	3	fb:cell.u_006f	U+006F	u|+006|f	U|+006|f	NNP|CD|NN	O|NUMBER|O	|6.0|	6.0				
+87	4	fb:cell.latin_small_letter_o	LATIN SMALL LETTER O	latin|small|letter|o	LATIN|SMALL|letter|o	NNP|NNP|NN|NN	O|O|O|O	|||					
+88	0	fb:cell.p	P	p	p	NN	O						
+88	1	fb:cell.p	P	p	p	NN	O						
+88	2	fb:cell.p	P	p	p	NN	O						
+88	3	fb:cell.u_0070	U+0070	u|+0070	U|+0070	NNP|CD	O|NUMBER	|70.0	70.0				
+88	4	fb:cell.latin_small_letter_p	LATIN SMALL LETTER P	latin|small|letter|p	LATIN|SMALL|letter|p	NNP|NNP|NN|NN	O|O|O|O	|||					
+89	0	fb:cell.q	Q	q	Q	NNP	O						
+89	1	fb:cell.q	Q	q	Q	NNP	O						
+89	2	fb:cell.q	Q	q	Q	NNP	O						
+89	3	fb:cell.u_0071	U+0071	u|+0071	U|+0071	NNP|CD	O|NUMBER	|71.0	71.0				
+89	4	fb:cell.latin_small_letter_q	LATIN SMALL LETTER Q	latin|small|letter|q	LATIN|SMALL|letter|Q	NNP|NNP|NN|NNP	O|O|O|O	|||					
+90	0	fb:cell.r	R	r	r	NN	O						
+90	1	fb:cell.r	R	r	r	NN	O						
+90	2	fb:cell.r	R	r	r	NN	O						
+90	3	fb:cell.u_0072	U+0072	u|+0072	U|+0072	NNP|CD	O|NUMBER	|72.0	72.0				
+90	4	fb:cell.latin_small_letter_r	LATIN SMALL LETTER R	latin|small|letter|r	LATIN|SMALL|letter|r	NNP|NNP|NN|NN	O|O|O|O	|||					
+91	0	fb:cell.s	S	s	s	NN	O						
+91	1	fb:cell.s	S	s	s	NN	O						
+91	2	fb:cell.s	S	s	s	NN	O						
+91	3	fb:cell.u_0073	U+0073	u|+0073	U|+0073	NNP|CD	O|NUMBER	|73.0	73.0				
+91	4	fb:cell.latin_small_letter_s	LATIN SMALL LETTER S	latin|small|letter|s	LATIN|SMALL|letter|s	NNP|NNP|NN|NN	O|O|O|O	|||					
+92	0	fb:cell.t	T	t	t	NN	O						
+92	1	fb:cell.t	T	t	t	NN	O						
+92	2	fb:cell.t	T	t	t	NN	O						
+92	3	fb:cell.u_0074	U+0074	u|+0074	U|+0074	NNP|CD	O|NUMBER	|74.0	74.0				
+92	4	fb:cell.latin_small_letter_t	LATIN SMALL LETTER T	latin|small|letter|t	LATIN|SMALL|letter|t	NNP|NNP|NN|NN	O|O|O|O	|||					
+93	0	fb:cell.u	U	u	U	NNP	O						
+93	1	fb:cell.u	U	u	U	NNP	O						
+93	2	fb:cell.u	U	u	U	NNP	O						
+93	3	fb:cell.u_0075	U+0075	u|+0075	U|+0075	NNP|CD	O|NUMBER	|75.0	75.0				
+93	4	fb:cell.latin_small_letter_u	LATIN SMALL LETTER U	latin|small|letter|u	LATIN|SMALL|letter|u	NNP|NNP|NN|NN	O|O|O|O	|||					
+94	0	fb:cell.v	V	v	v	NN	O						
+94	1	fb:cell.v	V	v	v	NN	O						
+94	2	fb:cell.v	V	v	v	NN	O						
+94	3	fb:cell.u_0076	U+0076	u|+0076	U|+0076	NNP|CD	O|NUMBER	|76.0	76.0				
+94	4	fb:cell.latin_small_letter_v	LATIN SMALL LETTER V	latin|small|letter|v	LATIN|SMALL|letter|v	NNP|NNP|NN|NN	O|O|O|O	|||					
+95	0	fb:cell.w	W	w	w	NN	O						
+95	1	fb:cell.w	W	w	w	NN	O						
+95	2	fb:cell.w	W	w	w	NN	O						
+95	3	fb:cell.u_0077	U+0077	u|+0077	U|+0077	NNP|CD	O|NUMBER	|77.0	77.0				
+95	4	fb:cell.latin_small_letter_w	LATIN SMALL LETTER W	latin|small|letter|w	LATIN|SMALL|LETTER|W	NNP|NNP|NNP|NNP	MISC|O|O|O	|||					
+96	0	fb:cell.x	X	x	x	NN	O						
+96	1	fb:cell.x	X	x	x	NN	O						
+96	2	fb:cell.x	X	x	x	NN	O						
+96	3	fb:cell.u_0078	U+0078	u|+0078	U|+0078	NNP|CD	O|NUMBER	|78.0	78.0				
+96	4	fb:cell.latin_small_letter_x	LATIN SMALL LETTER X	latin|small|letter|x	LATIN|SMALL|letter|x	NNP|NNP|NN|NN	MISC|O|O|O	|||					
+97	0	fb:cell.y	Y	y	y	NN	O						
+97	1	fb:cell.y	Y	y	y	NN	O						
+97	2	fb:cell.y	Y	y	y	NN	O						
+97	3	fb:cell.u_0079	U+0079	u|+0079	U|+0079	NNP|CD	O|NUMBER	|79.0	79.0				
+97	4	fb:cell.latin_small_letter_y	LATIN SMALL LETTER Y	latin|small|letter|y	LATIN|SMALL|letter|y	NNP|NNP|NN|NN	O|O|O|O	|||					
+98	0	fb:cell.z	Z	z	z	NN	O						
+98	1	fb:cell.z	Z	z	z	NN	O						
+98	2	fb:cell.z	Z	z	z	NN	O						
+98	3	fb:cell.u_007a	U+007A	u|+007|a	U|+007|a	NNP|CD|DT	O|NUMBER|O	|7.0|	7.0				
+98	4	fb:cell.latin_small_letter_z	LATIN SMALL LETTER Z	latin|small|letter|z	LATIN|SMALL|letter|z	NNP|NNP|NN|NN	O|O|O|O	|||					
+99	0	fb:cell.left_brace	left-brace	left|brace	left|brace	RB|VB	O|O	|					
+99	1	fb:cell.null_32	{	-lcb-	-lcb-	-LRB-	O						
+99	2	fb:cell.null_32	{	-lcb-	-lcb-	-LRB-	O						
+99	3	fb:cell.u_007b	U+007B	u|+007|b	U|+007|b	NNP|CD|NN	O|NUMBER|O	|7.0|	7.0				
+99	4	fb:cell.left_curly_bracket	LEFT CURLY BRACKET	left|curly|bracket	LEFT|CURLY|BRACKET	NNP|NNP|NNP	O|O|O	||					
+100	0	fb:cell.vertical_line	vertical-line	vertical|line	vertical|line	JJ|NN	O|O	|					
+100	1	fb:cell.null_33	\p	\p	\p	SYM	O						
+100	2	fb:cell.null_33	\p	\p	\p	SYM	O						
+100	3	fb:cell.u_007c	U+007C	u|+007|c	U|+007|c	NNP|CD|NN	O|NUMBER|O	|7.0|	7.0				
+100	4	fb:cell.vertical_line_2	VERTICAL LINE	vertical|line	vertical|line	JJ|NN	O|O	|					
+101	0	fb:cell.right_brace	right-brace	right|brace	right|brace	RB|VB	O|O	|					
+101	1	fb:cell.null_34	}	-rcb-	-rcb-	-RRB-	O						
+101	2	fb:cell.null_34	}	-rcb-	-rcb-	-RRB-	O						
+101	3	fb:cell.u_007d	U+007D	u|+007|d	U|+007|d	NNP|CD|NN	O|NUMBER|O	|7.0|	7.0				
+101	4	fb:cell.right_curly_bracket	RIGHT CURLY BRACKET	right|curly|bracket	right|curly|bracket	NN|NN|NN	O|O|O	||					
+102	0	fb:cell.tilde	tilde	tilde	tilde	NN	O						
+102	1	fb:cell.null_35	~	~	~	NN	O						
+102	2	fb:cell.null_35	~	~	~	NN	O						
+102	3	fb:cell.u_007e	U+007E	u|+007|e	U|+007|e	NNP|CD|NN	O|NUMBER|O	|7.0|	7.0				
+102	4	fb:cell.tilde	tilde	tilde	tilde	NN	O						

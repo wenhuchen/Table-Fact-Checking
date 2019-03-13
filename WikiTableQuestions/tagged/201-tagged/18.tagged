@@ -1,0 +1,65 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.event	Event	event	event	NN	O						
+-1	2	fb:row.row.headline_act_s	Headline Act(s)	headline|act|-lrb-|s|-rrb-	headline|act|-lrb-|s|-rrb-	NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O	||||					
+-1	3	fb:row.row.supporting_act_s	Supporting Act(s)	supporting|act|-lrb-|s|-rrb-	support|Act|-lrb-|s|-rrb-	VBG|NNP|-LRB-|NNS|-RRB-	O|O|O|O|O	||||					
+0	0	fb:cell.july_2002	July 2002	july|2002	July|2002	NNP|CD	DATE|DATE	2002-07|2002-07	2002.0	2002-07-xx			
+0	1	fb:cell.move_festival	Move Festival	move|festival	move|Festival	VB|NNP	O|O	|					
+0	2	fb:cell.david_bowie_new_order_green_day	David Bowie, New Order, Green Day	david|bowie|,|new|order|,|green|day	David|Bowie|,|New|Order|,|Green|Day	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|O|O|O|MISC|DURATION	|||||||				David Bowie|New Order|Green Day	fb:part.david_bowie|fb:part.new_order|fb:part.green_day
+0	3	fb:cell.null											fb:part.null
+1	0	fb:cell.september_2002	September 2002	september|2002	September|2002	NNP|CD	DATE|DATE	2002-09|2002-09	2002.0	2002-09-xx			
+1	1	fb:cell.null											fb:part.null
+1	2	fb:cell.oasis	Oasis	oasis	Oasis	NNP	O					Oasis	fb:part.oasis
+1	3	fb:cell.richard_ashcroft	Richard Ashcroft	richard|ashcroft	Richard|Ashcroft	NNP|NNP	PERSON|PERSON	|				Richard Ashcroft	fb:part.richard_ashcroft
+2	0	fb:cell.july_2003	July 2003	july|2003	July|2003	NNP|CD	DATE|DATE	2003-07|2003-07	2003.0	2003-07-xx			
+2	1	fb:cell.move_festival	Move Festival	move|festival	move|Festival	VB|NNP	O|O	|					
+2	2	fb:cell.r_e_m	R.E.M.	r.e.m.	R.E.M.	NNP	O					R.E.M.	fb:part.r_e_m
+2	3	fb:cell.john_squire_badly_drawn_boy_idlewild	John Squire, Badly Drawn Boy, Idlewild	john|squire|,|badly|drawn|boy|,|idlewild	John|Squire|,|badly|Drawn|Boy|,|Idlewild	NNP|NNP|,|RB|NNP|NNP|,|NNP	PERSON|PERSON|O|MISC|MISC|MISC|O|LOCATION	|||||||				John Squire|Badly Drawn Boy|Idlewild	fb:part.john_squire|fb:part.badly_drawn_boy|fb:part.idlewild
+3	0	fb:cell.july_2004	July 2004	july|2004	July|2004	NNP|CD	DATE|DATE	2004-07|2004-07	2004.0	2004-07-xx			
+3	1	fb:cell.move_festival	Move Festival	move|festival	move|Festival	VB|NNP	O|O	|					
+3	2	fb:cell.the_cure_morrissey	The Cure, Morrissey	the|cure|,|morrissey	the|cure|,|Morrissey	DT|NN|,|NNP	O|MISC|O|PERSON	|||				The Cure|Morrissey	fb:part.the_cure|fb:part.morrissey
+3	3	fb:cell.null											fb:part.null
+4	0	fb:cell.june_2006	June 2006	june|2006	June|2006	NNP|CD	DATE|DATE	2006-06|2006-06	2006.0	2006-06-xx			
+4	1	fb:cell.null											fb:part.null
+4	2	fb:cell.richard_ashcroft	Richard Ashcroft	richard|ashcroft	Richard|Ashcroft	NNP|NNP	PERSON|PERSON	|				Richard Ashcroft	fb:part.richard_ashcroft
+4	3	fb:cell.razorlight	Razorlight	razorlight	razorlight	NN	O					Razorlight	fb:part.razorlight
+5	0	fb:cell.june_2006	June 2006	june|2006	June|2006	NNP|CD	DATE|DATE	2006-06|2006-06	2006.0	2006-06-xx			
+5	1	fb:cell.null											fb:part.null
+5	2	fb:cell.foo_fighters	Foo Fighters	foo|fighters	Foo|Fighters	NNP|NNP	O|O	|				Foo Fighters	fb:part.foo_fighters
+5	3	fb:cell.the_strokes_angels_airwaves_the_subways_eagles_of_death_metal	The Strokes, Angels & Airwaves, The Subways, Eagles of Death Metal	the|strokes|,|angels|&|airwaves|,|the|subways|,|eagles|of|death|metal	the|stroke|,|Angels|&|Airwaves|,|the|Subways|,|Eagles|of|Death|Metal	DT|NNS|,|NNPS|CC|NNPS|,|DT|NNPS|,|NNPS|IN|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O	|||||||||||||				The Strokes|Angels & Airwaves|The Subways|Eagles of Death Metal	fb:part.the_strokes|fb:part.angels_airwaves|fb:part.the_subways|fb:part.eagles_of_death_metal
+6	0	fb:cell.july_2007	July 2007	july|2007	July|2007	NNP|CD	DATE|DATE	2007-07|2007-07	2007.0	2007-07-xx			
+6	1	fb:cell._mini_festival	'Mini-festival'	`|mini|festival|'	`|Mini|festival|'	``|NNP|NN|''	O|O|O|O	|||					
+6	2	fb:cell.arctic_monkeys	Arctic Monkeys	arctic|monkeys	Arctic|Monkeys	NNP|NNPS	O|O	|				Arctic Monkeys	fb:part.arctic_monkeys
+6	3	fb:cell.supergrass_the_coral_the_parrots_amy_winehouse	Supergrass, The Coral, The Parrots, Amy Winehouse	supergrass|,|the|coral|,|the|parrots|,|amy|winehouse	Supergrass|,|the|Coral|,|the|Parrots|,|Amy|Winehouse	NNP|,|DT|NNP|,|DT|NNP|,|NNP|NNP	O|O|O|O|O|O|O|O|PERSON|PERSON	|||||||||				Supergrass|The Coral|The Parrots|Amy Winehouse	fb:part.supergrass|fb:part.the_coral|fb:part.the_parrots|fb:part.amy_winehouse
+7	0	fb:cell.june_2008	June 2008	june|2008	June|2008	NNP|CD	DATE|DATE	2008-06|2008-06	2008.0	2008-06-xx			
+7	1	fb:cell.world_tour	World Tour	world|tour	World|Tour	NNP|NNP	MISC|MISC	|					
+7	2	fb:cell.radiohead	Radiohead	radiohead	Radiohead	NNP	PERSON					Radiohead	fb:part.radiohead
+7	3	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+8	0	fb:cell.august_2008	August 2008	august|2008	August|2008	NNP|CD	DATE|DATE	2008-08|2008-08	2008.0	2008-08-xx			
+8	1	fb:cell.accelerate_tour	Accelerate Tour	accelerate|tour	accelerate|tour	VB|NN	O|MISC	|					
+8	2	fb:cell.r_e_m	R.E.M.	r.e.m.	R.E.M.	NNP	O					R.E.M.	fb:part.r_e_m
+8	3	fb:cell.n_a	n/a	n\\/a	n\\/a	NN	O					n|a	fb:part.n|fb:part.a
+9	0	fb:cell.june_2009	June 2009	june|2009	June|2009	NNP|CD	DATE|DATE	2009-06|2009-06	2009.0	2009-06-xx			
+9	1	fb:cell.circus_tour	Circus Tour	circus|tour	Circus|Tour	NNP|NNP	MISC|MISC	|					
+9	2	fb:cell.take_that	Take That	take|that	take|that	VB|DT	O|O	|				Take That	fb:part.take_that
+9	3	fb:cell.the_script_lady_gaga	The Script, Lady Gaga	the|script|,|lady|gaga	the|Script|,|Lady|Gaga	DT|NNP|,|NNP|NNP	O|O|O|PERSON|PERSON	||||				The Script|Lady Gaga	fb:part.the_script|fb:part.lady_gaga
+10	0	fb:cell.september_2009	September 2009	september|2009	September|2009	NNP|CD	DATE|DATE	2009-09|2009-09	2009.0	2009-09-xx			
+10	1	fb:cell.suicide_tour	Suicide Tour	suicide|tour	Suicide|Tour	NNP|NNP	MISC|MISC	|					
+10	2	fb:cell.coldplay	Coldplay	coldplay	Coldplay	NNP	PERSON					Coldplay	fb:part.coldplay
+10	3	fb:cell.jay_z	Jay-Z	jay|z	Jay|z	NNP|NN	PERSON|PERSON	|				Jay-Z	fb:part.jay_z
+11	0	fb:cell.june_2010	June 2010	june|2010	June|2010	NNP|CD	DATE|DATE	2010-06|2010-06	2010.0	2010-06-xx			
+11	1	fb:cell.null											fb:part.null
+11	2	fb:cell.green_day	Green Day	green|day	Green|Day	NNP|NNP	MISC|DURATION	|				Green Day	fb:part.green_day
+11	3	fb:cell.frank_turner	Frank Turner	frank|turner	Frank|Turner	NNP|NNP	PERSON|PERSON	|				Frank Turner	fb:part.frank_turner
+12	0	fb:cell.september_2010	September 2010	september|2010	September|2010	NNP|CD	DATE|DATE	2010-09|2010-09	2010.0	2010-09-xx			
+12	1	fb:cell.null											fb:part.null
+12	2	fb:cell.muse	Muse	muse	Muse	NNP	O					Muse	fb:part.muse
+12	3	fb:cell.editors_band_of_skulls_pulled_apart_by_horses	Editors, Band of Skulls, Pulled Apart by Horses	editors|,|band|of|skulls|,|pulled|apart|by|horses	editor|,|band|of|Skulls|,|pull|apart|by|horse	NNS|,|NN|IN|NNP|,|VBD|RB|IN|NNS	O|O|O|O|O|O|O|O|O|O	|||||||||				Editors|Band of Skulls|Pulled Apart by Horses	fb:part.editors|fb:part.band_of_skulls|fb:part.pulled_apart_by_horses
+13	0	fb:cell.june_2011	June 2011	june|2011	June|2011	NNP|CD	DATE|DATE	2011-06|2011-06	2011.0	2011-06-xx			
+13	1	fb:cell.null											fb:part.null
+13	2	fb:cell.bon_jovi	Bon Jovi	bon|jovi	Bon|Jovi	NNP|NNP	PERSON|PERSON	|				Bon Jovi	fb:part.bon_jovi
+13	3	fb:cell.null											fb:part.null
+14	0	fb:cell.june_2011	June 2011	june|2011	June|2011	NNP|CD	DATE|DATE	2011-06|2011-06	2011.0	2011-06-xx			
+14	1	fb:cell.null											fb:part.null
+14	2	fb:cell.kings_of_leon	Kings Of Leon	kings|of|leon	king|of|Leon	NNS|IN|NNP	O|O|PERSON	||				Kings Of Leon	fb:part.kings_of_leon
+14	3	fb:cell.white_lies_mona	White Lies, Mona	white|lies|,|mona	White|Lies|,|Mona	NNP|NNPS|,|NNP	O|O|O|PERSON	|||				White Lies|Mona	fb:part.white_lies|fb:part.mona

@@ -1,0 +1,85 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.institution	Institution	institution	Institution	NNP	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.established	Established	established	establish	VBN	O						
+-1	3	fb:row.row.gained_university_status	Gained university status	gained|university|status	gain|university|status	VBN|NN|NN	O|O|O	||					
+-1	4	fb:row.row.vice_chancellor	Vice-chancellor	vice|chancellor	Vice|chancellor	NNP|NN	O|O	|					
+-1	5	fb:row.row.total_number_of_students	Total number of students	total|number|of|students	total|number|of|student	JJ|NN|IN|NNS	O|O|O|O	|||					
+-1	6	fb:row.row.research_funding_000	Research funding (£,000)	research|funding|-lrb-|#|,000|-rrb-	Research|funding|-lrb-|#|,000|-rrb-	NNP|NN|-LRB-|#|CD|-RRB-	O|O|O|MONEY|MONEY|O	|||£0.0|£0.0|					
+0	0	fb:cell.birkbeck_university_of_london	Birkbeck, University of London	birkbeck|,|university|of|london	Birkbeck|,|University|of|London	NNP|,|NNP|IN|NNP	PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Birkbeck|University of London	fb:part.birkbeck|fb:part.university_of_london
+0	1	fb:cell.london	London	london	London	NNP	LOCATION						
+0	2	fb:cell.1823	1823	1823	1823	CD	DATE	1823	1823.0	1823-xx-xx			
+0	3	fb:cell.1920	1920	1920	1920	CD	DATE	1920	1920.0	1920-xx-xx			
+0	4	fb:cell.professor_david_latchman	Professor David Latchman	professor|david|latchman	Professor|David|Latchman	NNP|NNP|NNP	O|PERSON|PERSON	||					
+0	5	fb:cell.19_020	19,020	19,020	19,020	CD	NUMBER	19020.0	19020.0				
+0	6	fb:cell.9_985	9,985	9,985	9,985	CD	NUMBER	9985.0	9985.0				
+1	0	fb:cell.university_of_east_anglia	University of East Anglia	university|of|east|anglia	University|of|East|Anglia	NNP|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||				University of East Anglia	fb:part.university_of_east_anglia
+1	1	fb:cell.norwich	Norwich	norwich	Norwich	NNP	LOCATION						
+1	2	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+1	3	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+1	4	fb:cell.professor_edward_acton	Professor Edward Acton	professor|edward|acton	Professor|Edward|Acton	NNP|NNP|NNP	O|PERSON|PERSON	||					
+1	5	fb:cell.19_585	19,585	19,585	19,585	CD	NUMBER	19585.0	19585.0				
+1	6	fb:cell.16_482	16,482	16,482	16,482	CD	NUMBER	16482.0	16482.0				
+2	0	fb:cell.university_of_essex	University of Essex	university|of|essex	University|of|Essex	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				University of Essex	fb:part.university_of_essex
+2	1	fb:cell.colchester	Colchester	colchester	Colchester	NNP	LOCATION						
+2	2	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+2	3	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+2	4	fb:cell.professor_anthony_forster	Professor Anthony Forster	professor|anthony|forster	Professor|Anthony|Forster	NNP|NNP|NNP	O|PERSON|PERSON	||					
+2	5	fb:cell.11_690	11,690	11,690	11,690	CD	NUMBER	11690.0	11690.0				
+2	6	fb:cell.9_967	9,967	9,967	9,967	CD	NUMBER	9967.0	9967.0				
+3	0	fb:cell.goldsmiths_university_of_london	Goldsmiths, University of London	goldsmiths|,|university|of|london	Goldsmiths|,|University|of|London	NNP|,|NNP|IN|NNP	ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Goldsmiths|University of London	fb:part.goldsmiths|fb:part.university_of_london
+3	1	fb:cell.london	London	london	London	NNP	LOCATION						
+3	2	fb:cell.1891	1891	1891	1891	CD	DATE	1891	1891.0	1891-xx-xx			
+3	3	fb:cell.1904	1904	1904	1904	CD	DATE	1904	1904.0	1904-xx-xx			
+3	4	fb:cell.dr_pat_loughrey	Dr Pat Loughrey	dr|pat|loughrey	Dr|Pat|Loughrey	NNP|NNP|NNP	O|PERSON|PERSON	||					
+3	5	fb:cell.7_615	7,615	7,615	7,615	CD	NUMBER	7615.0	7615.0				
+3	6	fb:cell.8_539	8,539	8,539	8,539	CD	NUMBER	8539.0	8539.0				
+4	0	fb:cell.institute_of_education_university_of_london	Institute of Education, University of London	institute|of|education|,|university|of|london	Institute|of|Education|,|University|of|London	NNP|IN|NNP|,|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				Institute of Education|University of London	fb:part.institute_of_education|fb:part.university_of_london
+4	1	fb:cell.london	London	london	London	NNP	LOCATION						
+4	2	fb:cell.1902	1902	1902	1902	CD	DATE	1902	1902.0	1902-xx-xx			
+4	3	fb:cell.1932	1932	1932	1932	CD	DATE	1932	1932.0	1932-xx-xx			
+4	4	fb:cell.professor_chris_husbands	Professor Chris Husbands	professor|chris|husbands	Professor|Chris|Husbands	NNP|NNP|NNPS	O|PERSON|PERSON	||					
+4	5	fb:cell.7_215	7,215	7,215	7,215	CD	NUMBER	7215.0	7215.0				
+4	6	fb:cell.7_734	7,734	7,734	7,734	CD	NUMBER	7734.0	7734.0				
+5	0	fb:cell.university_of_lancaster	University of Lancaster	university|of|lancaster	University|of|Lancaster	NNP|IN|NNP	O|O|LOCATION	||				University of Lancaster	fb:part.university_of_lancaster
+5	1	fb:cell.lancaster	Lancaster	lancaster	Lancaster	NNP	LOCATION						
+5	2	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+5	3	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+5	4	fb:cell.professor_mark_smith	Professor Mark Smith	professor|mark|smith	Professor|Mark|Smith	NNP|NNP|NNP	O|PERSON|PERSON	||					
+5	5	fb:cell.12_695	12,695	12,695	12,695	CD	NUMBER	12695.0	12695.0				
+5	6	fb:cell.18_640	18,640	18,640	18,640	CD	NUMBER	18640.0	18640.0				
+6	0	fb:cell.university_of_leicester	University of Leicester	university|of|leicester	University|of|Leicester	NNP|IN|NNP	O|O|LOCATION	||				University of Leicester	fb:part.university_of_leicester
+6	1	fb:cell.leicester	Leicester	leicester	Leicester	NNP	LOCATION						
+6	2	fb:cell.1921	1921	1921	1921	CD	DATE	1921	1921.0	1921-xx-xx			
+6	3	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+6	4	fb:cell.professor_robert_burgess	Professor Robert Burgess	professor|robert|burgess	Professor|Robert|Burgess	NNP|NNP|NNP	O|PERSON|PERSON	||					
+6	5	fb:cell.16_160	16,160	16,160	16,160	CD	NUMBER	16160.0	16160.0				
+6	6	fb:cell.22_225	22,225	22,225	22,225	CD	NUMBER	22225.0	22225.0				
+7	0	fb:cell.loughborough_university	Loughborough University	loughborough|university	Loughborough|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Loughborough University	fb:part.loughborough_university
+7	1	fb:cell.loughborough	Loughborough	loughborough	Loughborough	NNP	LOCATION						
+7	2	fb:cell.1909	1909	1909	1909	CD	DATE	1909	1909.0	1909-xx-xx			
+7	3	fb:cell.1966	1966	1966	1966	CD	DATE	1966	1966.0	1966-xx-xx			
+7	4	fb:cell.professor_robert_allison	Professor Robert Allison	professor|robert|allison	Professor|Robert|Allison	NNP|NNP|NNP	O|PERSON|PERSON	||					
+7	5	fb:cell.17_825	17,825	17,825	17,825	CD	NUMBER	17825.0	17825.0				
+7	6	fb:cell.22_398	22,398	22,398	22,398	CD	NUMBER	22398.0	22398.0				
+8	0	fb:cell.royal_holloway_university_of_london	Royal Holloway, University of London	royal|holloway|,|university|of|london	Royal|Holloway|,|University|of|London	NNP|NNP|,|NNP|IN|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Royal Holloway|University of London	fb:part.royal_holloway|fb:part.university_of_london
+8	1	fb:cell.egham	Egham	egham	Egham	NNP	LOCATION						
+8	2	fb:cell.1849	1849	1849	1849	CD	DATE	1849	1849.0	1849-xx-xx			
+8	3	fb:cell.1900	1900	1900	1900	CD	DATE	1900	1900.0	1900-xx-xx			
+8	4	fb:cell.professor_paul_layzell_principal	Professor Paul Layzell (Principal)	professor|paul|layzell|-lrb-|principal|-rrb-	Professor|Paul|Layzell|-lrb-|principal|-rrb-	NNP|NNP|NNP|-LRB-|NN|-RRB-	O|PERSON|PERSON|O|O|O	|||||					
+8	5	fb:cell.7_620	7,620	7,620	7,620	CD	NUMBER	7620.0	7620.0				
+8	6	fb:cell.13_699	13,699	13,699	13,699	CD	NUMBER	13699.0	13699.0				
+9	0	fb:cell.soas_university_of_london	SOAS, University of London	soas|,|university|of|london	SOAS|,|University|of|London	NNP|,|NNP|IN|NNP	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				SOAS|University of London	fb:part.soas|fb:part.university_of_london
+9	1	fb:cell.london	London	london	London	NNP	LOCATION						
+9	2	fb:cell.1916	1916	1916	1916	CD	DATE	1916	1916.0	1916-xx-xx			
+9	3	fb:cell.1916	1916	1916	1916	CD	DATE	1916	1916.0	1916-xx-xx			
+9	4	fb:cell.professor_paul_webley	Professor Paul Webley	professor|paul|webley	Professor|Paul|Webley	NNP|NNP|NNP	O|PERSON|PERSON	||					
+9	5	fb:cell.4_525	4,525	4,525	4,525	CD	NUMBER	4525.0	4525.0				
+9	6	fb:cell.7_238	7,238	7,238	7,238	CD	NUMBER	7238.0	7238.0				
+10	0	fb:cell.university_of_sussex	University of Sussex	university|of|sussex	University|of|Sussex	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				University of Sussex	fb:part.university_of_sussex
+10	1	fb:cell.brighton	Brighton	brighton	Brighton	NNP	LOCATION						
+10	2	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+10	3	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+10	4	fb:cell.professor_michael_farthing	Professor Michael Farthing	professor|michael|farthing	Professor|Michael|Farthing	NNP|NNP|NNP	O|PERSON|PERSON	||					
+10	5	fb:cell.12_415	12,415	12,415	12,415	CD	NUMBER	12415.0	12415.0				
+10	6	fb:cell.16_196	16,196	16,196	16,196	CD	NUMBER	16196.0	16196.0				

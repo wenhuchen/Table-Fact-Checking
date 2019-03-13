@@ -1,0 +1,41 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.iteration	Iteration	iteration	iteration	NN	O						
+-1	1	fb:row.row.dates	Dates	dates	date	NNS	O						
+-1	2	fb:row.row.location	Location	location	Location	NNP	O						
+-1	3	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+-1	4	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.gamestorm_10	GameStorm 10	gamestorm|10	GameStorm|10	NNP|CD	O|NUMBER	|10.0	10.0				
+0	1	fb:cell.march_2008	March 2008	march|2008	March|2008	NNP|CD	DATE|DATE	2008-03|2008-03	2008.0	2008-03-xx		March 2008	fb:part.march_2008
+0	2	fb:cell.red_lion_vancouver_wa	Red Lion - Vancouver, WA	red|lion|-|vancouver|,|wa	Red|Lion|-|Vancouver|,|WA	NNP|NNP|:|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Red Lion - Vancouver|WA	fb:part.red_lion_vancouver|fb:part.wa
+0	3	fb:cell.750	750	750	750	CD	NUMBER	750.0	750.0				
+0	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+1	0	fb:cell.gamestorm_11	GameStorm 11	gamestorm|11	GameStorm|11	NNP|CD	O|NUMBER	|11.0	11.0				
+1	1	fb:cell.march_26_29_2009	March 26–29, 2009	march|26|--|29|,|2009	March|26|--|29|,|2009	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-03-26|XXXX-03-26||29.0||2009	26.0		292009.0	March 26–29|2009	fb:part.march_26_29|fb:part.2009
+1	2	fb:cell.hilton_vancouver_wa	Hilton - Vancouver, WA	hilton|-|vancouver|,|wa	Hilton|-|Vancouver|,|WA	NNP|:|NNP|,|NNP	ORGANIZATION|O|LOCATION|O|LOCATION	||||				Hilton - Vancouver|WA	fb:part.hilton_vancouver|fb:part.wa
+1	3	fb:cell.736	736	736	736	CD	NUMBER	736.0	736.0				
+1	4	fb:cell.debut_of_video_games_first_ever_artist_guest_of_honor_rob_alexander	debut of Video games, first-ever Artist Guest of Honor, Rob Alexander	debut|of|video|games|,|first|ever|artist|guest|of|honor|,|rob|alexander	debut|of|Video|game|,|first|ever|Artist|Guest|of|honor|,|Rob|Alexander	NN|IN|NNP|NNS|,|RB|RB|NNP|NNP|IN|NN|,|NNP|NNP	O|O|O|O|O|ORDINAL|O|O|O|O|O|O|PERSON|PERSON	|||||1.0||||||||				debut of Video games|first-ever Artist Guest of Honor|Rob Alexander	fb:part.debut_of_video_games|fb:part.first_ever_artist_guest_of_honor|fb:part.rob_alexander
+2	0	fb:cell.gamestorm_12	GameStorm 12	gamestorm|12	GameStorm|12	NNP|CD	O|NUMBER	|12.0	12.0				
+2	1	fb:cell.march_25_28_2010	March 25–28, 2010	march|25|--|28|,|2010	March|25|--|28|,|2010	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-03-25|XXXX-03-25||28.0||2010	25.0		282010.0	March 25–28|2010	fb:part.march_25_28|fb:part.2010
+2	2	fb:cell.hilton_vancouver_wa	Hilton - Vancouver, WA	hilton|-|vancouver|,|wa	Hilton|-|Vancouver|,|WA	NNP|:|NNP|,|NNP	ORGANIZATION|O|LOCATION|O|LOCATION	||||				Hilton - Vancouver|WA	fb:part.hilton_vancouver|fb:part.wa
+2	3	fb:cell.802	802	802	802	CD	NUMBER	802.0	802.0				
+2	4	fb:cell.board_games_guest_of_honor_tom_lehmann	Board games Guest of Honor: Tom Lehmann	board|games|guest|of|honor|:|tom|lehmann	Board|game|Guest|of|honor|:|Tom|Lehmann	NNP|NNS|NNP|IN|NN|:|NNP|NNP	O|O|O|O|O|O|PERSON|PERSON	|||||||				Board games Guest of Honor: Tom Lehmann	fb:part.board_games_guest_of_honor_tom_lehmann
+3	0	fb:cell.gamestorm_13	GameStorm 13	gamestorm|13	GameStorm|13	NNP|CD	O|NUMBER	|13.0	13.0				
+3	1	fb:cell.march_24_27_2011	March 24–27, 2011	march|24|--|27|,|2011	March|24|--|27|,|2011	NNP|CD|:|CD|,|CD	DATE|DATE|DATE|DATE|DATE|DATE	XXXX-03-24|XXXX-03-24|XXXX-03-24|XXXX-03-24|XXXX-03-24|XXXX-03-24	24.0	xxxx-03-24	272011.0	March 24–27|2011	fb:part.march_24_27|fb:part.2011
+3	2	fb:cell.hilton_vancouver_wa	Hilton - Vancouver, WA	hilton|-|vancouver|,|wa	Hilton|-|Vancouver|,|WA	NNP|:|NNP|,|NNP	ORGANIZATION|O|LOCATION|O|LOCATION	||||				Hilton - Vancouver|WA	fb:part.hilton_vancouver|fb:part.wa
+3	3	fb:cell.984	984	984	984	CD	NUMBER	984.0	984.0				
+3	4	fb:cell.guests_lisa_steenson_michael_a_stackpole	Guests: Lisa Steenson, Michael A. Stackpole	guests|:|lisa|steenson|,|michael|a.|stackpole	guest|:|Lisa|Steenson|,|Michael|A.|Stackpole	NNS|:|NNP|NNP|,|NNP|NNP|NNP	O|O|PERSON|PERSON|O|PERSON|PERSON|PERSON	|||||||				Guests: Lisa Steenson|Michael A. Stackpole	fb:part.guests_lisa_steenson|fb:part.michael_a_stackpole
+4	0	fb:cell.gamestorm_14	GameStorm 14	gamestorm|14	GameStorm|14	NNP|CD	O|NUMBER	|14.0	14.0				
+4	1	fb:cell.march_22_25_2012	March 22–25, 2012	march|22|--|25|,|2012	March|22|--|25|,|2012	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-03-22|XXXX-03-22||25.0||2012	22.0		252012.0	March 22–25|2012	fb:part.march_22_25|fb:part.2012
+4	2	fb:cell.hilton_vancouver_wa	Hilton - Vancouver, WA	hilton|-|vancouver|,|wa	Hilton|-|Vancouver|,|WA	NNP|:|NNP|,|NNP	ORGANIZATION|O|LOCATION|O|LOCATION	||||				Hilton - Vancouver|WA	fb:part.hilton_vancouver|fb:part.wa
+4	3	fb:cell.1072	1072	1072	1072	CD	DATE	1072	1072.0	1072-xx-xx			
+4	4	fb:cell.boardgame_andrew_hackard_and_sam_mitschke_of_steve_jackson_games_rpg_jason_bulmahn	Boardgame:Andrew Hackard and Sam Mitschke of Steve Jackson Games - RPG: Jason Bulmahn	boardgame|:|andrew|hackard|and|sam|mitschke|of|steve|jackson|games|-|rpg|:|jason|bulmahn	Boardgame|:|Andrew|Hackard|and|Sam|Mitschke|of|Steve|Jackson|Games|-|rpg|:|Jason|Bulmahn	NNP|:|NNP|NNP|CC|NNP|NNP|IN|NNP|NNP|NNPS|:|NN|:|NNP|NNP	O|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|O|O|O|PERSON|PERSON	|||||||||||||||				Boardgame:Andrew Hackard and Sam Mitschke of Steve Jackson Games - RPG: Jason Bulmahn	fb:part.boardgame_andrew_hackard_and_sam_mitschke_of_steve_jackson_games_rpg_jason_bulmahn
+5	0	fb:cell.gamestorm_15	GameStorm 15	gamestorm|15	GameStorm|15	NNP|CD	O|NUMBER	|15.0	15.0				
+5	1	fb:cell.march_21_24_2013	March 21–24, 2013	march|21|--|24|,|2013	March|21|--|24|,|2013	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-03-21|XXXX-03-21||24.0||2013	21.0		242013.0	March 21–24|2013	fb:part.march_21_24|fb:part.2013
+5	2	fb:cell.hilton_vancouver_wa	Hilton - Vancouver, WA	hilton|-|vancouver|,|wa	Hilton|-|Vancouver|,|WA	NNP|:|NNP|,|NNP	ORGANIZATION|O|LOCATION|O|LOCATION	||||				Hilton - Vancouver|WA	fb:part.hilton_vancouver|fb:part.wa
+5	3	fb:cell.1188	1188	1188	1188	CD	DATE	1188	1188.0	1188-xx-xx			
+5	4	fb:cell.null_2											fb:part.null_2
+6	0	fb:cell.gamestorm_16	GameStorm 16	gamestorm|16	GameStorm|16	NNP|CD	O|NUMBER	|16.0	16.0				
+6	1	fb:cell.march_20_23_2014	March 20–23, 2014	march|20|--|23|,|2014	March|20|--|23|,|2014	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-03-20|XXXX-03-20||23.0||2014	20.0		232014.0	March 20–23|2014	fb:part.march_20_23|fb:part.2014
+6	2	fb:cell.hilton_vancouver_wa	Hilton - Vancouver, WA	hilton|-|vancouver|,|wa	Hilton|-|Vancouver|,|WA	NNP|:|NNP|,|NNP	ORGANIZATION|O|LOCATION|O|LOCATION	||||				Hilton - Vancouver|WA	fb:part.hilton_vancouver|fb:part.wa
+6	3	fb:cell.tba	tba	tba	tba	NN	O						
+6	4	fb:cell.guests_mike_selinker_shane_lacy_hensley_lisa_steenson_zev_shlasinger_of_z_man_games	Guests: Mike Selinker, Shane Lacy Hensley, Lisa Steenson, Zev Shlasinger of Z-Man Games	guests|:|mike|selinker|,|shane|lacy|hensley|,|lisa|steenson|,|zev|shlasinger|of|z|man|games	guest|:|Mike|Selinker|,|Shane|Lacy|Hensley|,|Lisa|Steenson|,|Zev|Shlasinger|of|z|man|Games	NNS|:|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP|IN|NN|NN|NNPS	O|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|O|O|O	|||||||||||||||||				Guests: Mike Selinker|Shane Lacy Hensley|Lisa Steenson|Zev Shlasinger of Z-Man Games	fb:part.guests_mike_selinker|fb:part.shane_lacy_hensley|fb:part.lisa_steenson|fb:part.zev_shlasinger_of_z_man_games

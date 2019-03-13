@@ -1,0 +1,73 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.kilometers	Kilometers	kilometers	kilometer	NNS	O						
+-1	1	fb:row.row.name	Name	name	name	VB	O						
+-1	2	fb:row.row.location	Location	location	Location	NNP	O						
+-1	3	fb:row.row.intersecting_routes	Intersecting routes	intersecting|routes	intersecting|route	JJ|NNS	O|O	|					
+0	0	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+0	1	fb:cell.netanya_mall	Netanya mall	netanya|mall	Netanya|mall	NNP|NN	LOCATION|O	|					
+0	2	fb:cell.netanya	Netanya	netanya	Netanya	NNP	LOCATION						
+0	3	fb:cell.petah_tikva_street_raziel_road_herzl_road	Petah Tikva Street, Raziel Road, Herzl Road	petah|tikva|street|,|raziel|road|,|herzl|road	Petah|Tikva|Street|,|Raziel|Road|,|Herzl|Road	NNP|NNP|NNP|,|NNP|NNP|,|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|PERSON|O|LOCATION|LOCATION	||||||||				Petah Tikva Street|Raziel Road|Herzl Road	fb:part.petah_tikva_street|fb:part.raziel_road|fb:part.herzl_road
+1	0	fb:cell.0_6	0.6	0.6	0.6	CD	NUMBER	0.6	0.6				
+1	1	fb:cell.netanya_interchange	Netanya interchange	netanya|interchange	Netanya|interchange	NNP|NN	LOCATION|O	|					
+1	2	fb:cell.netanya	Netanya	netanya	Netanya	NNP	LOCATION						
+1	3	fb:cell.highway_2	Highway 2	highway|2	highway|2	NN|CD	O|NUMBER	|2.0	2.0			Highway 2	fb:part.highway_2
+2	0	fb:cell.0_75	0.75	0.75	0.75	CD	NUMBER	0.75	0.75				
+2	1	fb:cell.harakevet_road	HaRakevet Road	harakevet|road	HaRakevet|Road	NNP|NNP	O|O	|					
+2	2	fb:cell.netanya	Netanya	netanya	Netanya	NNP	LOCATION						
+2	3	fb:cell.entrance_to_netanya_railway_station	Entrance to Netanya Railway Station	entrance|to|netanya|railway|station	entrance|to|Netanya|Railway|Station	NN|TO|NNP|NNP|NNP	O|O|LOCATION|O|O	||||				Entrance to Netanya Railway Station	fb:part.entrance_to_netanya_railway_station
+3	0	fb:cell.1_45	1.45	1.45	1.45	CD	NUMBER	1.45	1.45				
+3	1	fb:cell.pinkas_street	Pinkas Street	pinkas|street	Pinkas|Street	NNP|NNP	LOCATION|LOCATION	|				Pinkas Street	fb:part.pinkas_street
+3	2	fb:cell.netanya	Netanya	netanya	Netanya	NNP	LOCATION						
+3	3	fb:cell.pinkas_street	Pinkas Street	pinkas|street	Pinkas|Street	NNP|NNP	LOCATION|LOCATION	|				Pinkas Street	fb:part.pinkas_street
+4	0	fb:cell.2_2	2.2	2.2	2.2	CD	NUMBER	2.2	2.2				
+4	1	fb:cell.deganya_road	Deganya Road	deganya|road	Deganya|Road	NNP|NNP	LOCATION|LOCATION	|				Deganya Road	fb:part.deganya_road
+4	2	fb:cell.netanya	Netanya	netanya	Netanya	NNP	LOCATION						
+4	3	fb:cell.deganya_road	Deganya Road	deganya|road	Deganya|Road	NNP|NNP	LOCATION|LOCATION	|				Deganya Road	fb:part.deganya_road
+5	0	fb:cell.2_8	2.8	2.8	2.8	CD	NUMBER	2.8	2.8				
+5	1	fb:cell.beit_yitzhak	Beit Yitzhak	beit|yitzhak	Beit|Yitzhak	NNP|NNP	PERSON|PERSON	|					
+5	2	fb:cell.beit_yitzhak	Beit Yitzhak	beit|yitzhak	Beit|Yitzhak	NNP|NNP	PERSON|PERSON	|					
+5	3	fb:cell.hasharon_road	HaSharon Road	hasharon|road	HaSharon|Road	NNP|NNP	O|O	|				HaSharon Road	fb:part.hasharon_road
+6	0	fb:cell.3_8	3.8	3.8	3.8	CD	NUMBER	3.8	3.8				
+6	1	fb:cell.ganot_hadar	Ganot Hadar	ganot|hadar	Ganot|Hadar	NNP|NNP	PERSON|PERSON	|					
+6	2	fb:cell.ganot_hadar	Ganot Hadar	ganot|hadar	Ganot|Hadar	NNP|NNP	PERSON|PERSON	|					
+6	3	fb:cell.entrance_to_ganot_hadar_and_nordiya	Entrance to Ganot Hadar and Nordiya	entrance|to|ganot|hadar|and|nordiya	entrance|to|Ganot|Hadar|and|Nordiya	NN|TO|NNP|NNP|CC|NNP	O|O|PERSON|PERSON|O|PERSON	|||||				Entrance to Ganot Hadar and Nordiya	fb:part.entrance_to_ganot_hadar_and_nordiya
+7	0	fb:cell.4_3	4.3	4.3	4.3	CD	NUMBER	4.3	4.3				
+7	1	fb:cell.hasharon_junction_beit_lid	HaSharon Junction ("Beit Lid")	hasharon|junction|-lrb-|``|beit|lid|''|-rrb-	HaSharon|Junction|-lrb-|``|Beit|Lid|''|-rrb-	NNP|NNP|-LRB-|``|NNP|NNP|''|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O|O|O|O	|||||||					
+7	2	fb:cell.ganot_hadar	Ganot Hadar	ganot|hadar	Ganot|Hadar	NNP|NNP	PERSON|PERSON	|					
+7	3	fb:cell.highway_4	Highway 4	highway|4	highway|4	NN|CD	O|NUMBER	|4.0	4.0			Highway 4	fb:part.highway_4
+8	0	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+8	1	fb:cell.rabin_boulevard	Rabin Boulevard	rabin|boulevard	Rabin|Boulevard	NNP|NNP	PERSON|PERSON	|					
+8	2	fb:cell.kfar_yona	Kfar Yona	kfar|yona	Kfar|Yona	NNP|NNP	PERSON|PERSON	|					
+8	3	fb:cell.entrance_to_kfar_yona	Entrance to Kfar Yona	entrance|to|kfar|yona	entrance|to|Kfar|Yona	NN|TO|NNP|NNP	O|O|PERSON|PERSON	|||				Entrance to Kfar Yona	fb:part.entrance_to_kfar_yona
+9	0	fb:cell.7_3	7.3	7.3	7.3	CD	NUMBER	7.3	7.3				
+9	1	fb:cell.begin_boulevard	Begin Boulevard	begin|boulevard	Begin|Boulevard	NNP|NNP	O|O	|					
+9	2	fb:cell.kfar_yona	Kfar Yona	kfar|yona	Kfar|Yona	NNP|NNP	PERSON|PERSON	|					
+9	3	fb:cell.entrance_to_kfar_yona	Entrance to Kfar Yona	entrance|to|kfar|yona	entrance|to|Kfar|Yona	NN|TO|NNP|NNP	O|O|PERSON|PERSON	|||				Entrance to Kfar Yona	fb:part.entrance_to_kfar_yona
+10	0	fb:cell.7_7	7.7	7.7	7.7	CD	NUMBER	7.7	7.7				
+10	1	fb:cell.ha_atzmaut_street	Ha'Atzmaut Street	ha'atzmaut|street	Ha'Atzmaut|Street	NNP|NNP	O|O	|					
+10	2	fb:cell.haniel	Haniel	haniel	Haniel	NNP	PERSON						
+10	3	fb:cell.entrance_to_haniel	Entrance to Haniel	entrance|to|haniel	entrance|to|Haniel	NN|TO|NNP	O|O|PERSON	||				Entrance to Haniel	fb:part.entrance_to_haniel
+11	0	fb:cell.9_3	9.3	9.3	9.3	CD	NUMBER	9.3	9.3				
+11	1	fb:cell.yanuv_junction	Yanuv junction	yanuv|junction	Yanuv|junction	NNP|NN	O|O	|					
+11	2	fb:cell.yanuv	Yanuv	yanuv	Yanuv	NNP	PERSON						
+11	3	fb:cell.route_5613_entrance_to_yanuv	Route 5613, entrance to Yanuv	route|5613|,|entrance|to|yanuv	route|5613|,|entrance|to|Yanuv	NN|CD|,|NN|TO|NNP	O|NUMBER|O|O|O|LOCATION	|5613.0||||	5613.0			Route 5613|entrance to Yanuv	fb:part.route_5613|fb:part.entrance_to_yanuv
+12	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+12	1	fb:cell.haerez_way	HaErez Way	haerez|way	HaErez|Way	NNP|NNP	O|O	|					
+12	2	fb:cell.tnuvot_industrial_zone	Tnuvot industrial zone	tnuvot|industrial|zone	tnuvot|industrial|zone	JJ|JJ|NN	O|O|O	||					
+12	3	fb:cell.entrance_to_tnuvot_and_burgata	Entrance to Tnuvot and Burgata	entrance|to|tnuvot|and|burgata	entrance|to|Tnuvot|and|Burgata	NN|TO|NNP|CC|NNP	O|O|O|O|LOCATION	||||				Entrance to Tnuvot and Burgata	fb:part.entrance_to_tnuvot_and_burgata
+13	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+13	1	fb:cell.be_erotayim_junction	Be'erotayim junction	be'erotayim|junction	be'erotayim|junction	NN|NN	O|O	|					
+13	2	fb:cell.hagor	Hagor	hagor	Hagor	NNP	O						
+13	3	fb:cell.entrance_to_be_erotayim_and_olesh_route_5614_toward_qalansawe	Entrance to Be'erotayim and Olesh,\nRoute 5614 toward Qalansawe	entrance|to|be'erotayim|and|olesh|,|route|5614|toward|qalansawe	entrance|to|Be'erotayim|and|Olesh|,|Route|5614|toward|Qalansawe	NN|TO|NNP|CC|NNP|,|NNP|CD|IN|NNP	O|O|O|O|LOCATION|O|O|NUMBER|O|O	|||||||5614.0||	5614.0			Entrance to Be'erotayim and Olesh|Route 5614 toward Qalansawe	fb:part.entrance_to_be_erotayim_and_olesh|fb:part.route_5614_toward_qalansawe
+14	0	fb:cell.13_2	13.2	13.2	13.2	CD	NUMBER	13.2	13.2				
+14	1	fb:cell.nitzanei_oz_junction	Nitzanei Oz junction	nitzanei|oz|junction	nitzanei|Oz|junction	FW|NNP|NN	MISC|MISC|O	||					
+14	2	fb:cell.nitzanei_oz	Nitzanei Oz	nitzanei|oz	nitzanei|Oz	FW|NNP	MISC|MISC	|					
+14	3	fb:cell.route_5714_entrance_to_nitzanei_oz_and_yad_hana	Route 5714, entrance to Nitzanei Oz and Yad Hana	route|5714|,|entrance|to|nitzanei|oz|and|yad|hana	route|5714|,|entrance|to|Nitzanei|Oz|and|Yad|Hana	NN|CD|,|NN|TO|NNP|NNP|CC|NNP|NNP	O|NUMBER|O|O|O|O|O|O|O|O	|5714.0||||||||	5714.0			Route 5714|entrance to Nitzanei Oz and Yad Hana	fb:part.route_5714|fb:part.entrance_to_nitzanei_oz_and_yad_hana
+15	0	fb:cell.14_5	14.5	14.5	14.5	CD	NUMBER	14.5	14.5				
+15	1	fb:cell.nitzanei_oz_interchange	Nitzanei Oz interchange	nitzanei|oz|interchange	nitzanei|Oz|interchange	FW|NNP|NN	O|O|O	||					
+15	2	fb:cell.nitzanei_oz	Nitzanei Oz	nitzanei|oz	nitzanei|Oz	FW|NNP	MISC|MISC	|					
+15	3	fb:cell.highway_6	Highway 6	highway|6	highway|6	NN|CD	O|NUMBER	|6.0	6.0			Highway 6	fb:part.highway_6
+16	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+16	1	fb:cell.idf_checkpoint	IDF checkpoint	idf|checkpoint	idf|checkpoint	NN|NN	ORGANIZATION|O	|					
+16	2	fb:cell.tulkarm	Tulkarm	tulkarm	Tulkarm	NNP	LOCATION						
+16	3	fb:cell.entrance_to_nitzanei_shalom_industrial_zone	Entrance to Nitzanei Shalom industrial zone	entrance|to|nitzanei|shalom|industrial|zone	entrance|to|Nitzanei|shalom|industrial|zone	NN|TO|NNP|FW|JJ|NN	O|O|PERSON|PERSON|O|O	|||||				Entrance to Nitzanei Shalom industrial zone	fb:part.entrance_to_nitzanei_shalom_industrial_zone

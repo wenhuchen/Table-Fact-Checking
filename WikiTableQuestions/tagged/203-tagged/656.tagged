@@ -1,0 +1,235 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	2	fb:row.row.venue	Venue	venue	venue	NN	O						
+-1	3	fb:row.row.result	Result	result	result	NN	O						
+-1	4	fb:row.row.scorers	Scorers	scorers	scorer	NNS	O						
+-1	5	fb:row.row.report	Report	report	Report	NNP	O						
+0	0	fb:cell.august_30_2008_18_00	August 30, 2008 – 18:00	august|30|,|2008|--|18:00	August|30|,|2008|--|18:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-08-30|2008-08-30|2008-08-30|2008-08-30||T18:00	302008.0		18.0	August 30|2008 – 18:00	fb:part.august_30|fb:part.2008_18_00
+0	1	fb:cell.udinese	Udinese	udinese	Udinese	NNP	LOCATION						
+0	2	fb:cell.away	Away	away	away	RB	O						
+0	3	fb:cell.lost_1_3	Lost 1–3	lost|1|--|3	lose|1|--|3	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|1.0||3.0	1.0		3.0		
+0	4	fb:cell.bresciano	Bresciano	bresciano	Bresciano	NNP	PERSON					Bresciano	fb:part.bresciano
+0	5	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+1	0	fb:cell.september_13_2008_18_00	September 13, 2008 – 18:00	september|13|,|2008|--|18:00	September|13|,|2008|--|18:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-09-13|2008-09-13|2008-09-13|2008-09-13||T18:00	132008.0		18.0	September 13|2008 – 18:00	fb:part.september_13|fb:part.2008_18_00
+1	1	fb:cell.as_roma	AS Roma	as|roma	as|roma	JJ|NN	O|ORGANIZATION	|					
+1	2	fb:cell.home	Home	home	home	NN	O						
+1	3	fb:cell.won_3_1	Won 3–1	won|3|--|1	Won|3|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|3.0||1.0	3.0		1.0		
+1	4	fb:cell.miccoli_2_cavani	Miccoli (2), Cavani	miccoli|-lrb-|2|-rrb-|,|cavani	Miccoli|-lrb-|2|-rrb-|,|Cavani	NNP|-LRB-|LS|-RRB-|,|NNP	PERSON|O|NUMBER|O|O|PERSON	||2.0|||	2.0			Miccoli (2)|Cavani	fb:part.miccoli_2|fb:part.cavani
+1	5	fb:cell.null											fb:part.null
+2	0	fb:cell.september_21_2008_15_00	September 21, 2008 – 15:00	september|21|,|2008|--|15:00	September|21|,|2008|--|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-09-21|2008-09-21|2008-09-21|2008-09-21||T15:00	212008.0		15.0	September 21|2008 – 15:00	fb:part.september_21|fb:part.2008_15_00
+2	1	fb:cell.genoa	Genoa	genoa	Genoa	NNP	LOCATION						
+2	2	fb:cell.home	Home	home	home	NN	O						
+2	3	fb:cell.won_2_1	Won 2–1	won|2|--|1	Won|2|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||1.0	2.0		1.0		
+2	4	fb:cell.bovo_cavani	Bovo, Cavani	bovo|,|cavani	Bovo|,|Cavani	NNP|,|NNP	PERSON|O|PERSON	||				Bovo|Cavani	fb:part.bovo|fb:part.cavani
+2	5	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	0	fb:cell.september_24_2008_15_00	September 24, 2008 – 15:00	september|24|,|2008|--|15:00	September|24|,|2008|--|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-09-24|2008-09-24|2008-09-24|2008-09-24||T15:00	242008.0		15.0	September 24|2008 – 15:00	fb:part.september_24|fb:part.2008_15_00
+3	1	fb:cell.napoli	Napoli	napoli	Napoli	NNP	LOCATION						
+3	2	fb:cell.away	Away	away	away	RB	O						
+3	3	fb:cell.lost_2_1	Lost 2–1	lost|2|--|1	lose|2|--|1	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||1.0	2.0		1.0		
+3	4	fb:cell.miccoli	Miccoli	miccoli	Miccoli	NNP	PERSON					Miccoli	fb:part.miccoli
+3	5	fb:cell.null											fb:part.null
+4	0	fb:cell.september_28_2008_15_00	September 28, 2008 – 15:00	september|28|,|2008|--|15:00	September|28|,|2008|--|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-09-28|2008-09-28|2008-09-28|2008-09-28||T15:00	282008.0		15.0	September 28|2008 – 15:00	fb:part.september_28|fb:part.2008_15_00
+4	1	fb:cell.reggina	Reggina	reggina	Reggina	NNP	LOCATION						
+4	2	fb:cell.home	Home	home	home	NN	O						
+4	3	fb:cell.won_1_0	Won 1–0	won|1|--|0	Won|1|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|1.0||0.0	1.0		0.0		
+4	4	fb:cell.miccoli	Miccoli	miccoli	Miccoli	NNP	PERSON					Miccoli	fb:part.miccoli
+4	5	fb:cell.null											fb:part.null
+5	0	fb:cell.october_5_2008_15_00	October 5, 2008 – 15:00	october|5|,|2008|--|15:00	October|5|,|2008|--|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-10-05|2008-10-05|2008-10-05|2008-10-05||T15:00	52008.0		15.0	October 5|2008 – 15:00	fb:part.october_5|fb:part.2008_15_00
+5	1	fb:cell.juventus	Juventus	juventus	Juventus	NNP	O						
+5	2	fb:cell.away	Away	away	away	RB	O						
+5	3	fb:cell.won_2_1	Won 2–1	won|2|--|1	Won|2|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||1.0	2.0		1.0		
+5	4	fb:cell.miccoli_mchedlidze	Miccoli, Mchedlidze	miccoli|,|mchedlidze	Miccoli|,|Mchedlidze	NNP|,|NNP	PERSON|O|PERSON	||				Miccoli|Mchedlidze	fb:part.miccoli|fb:part.mchedlidze
+5	5	fb:cell.null											fb:part.null
+6	0	fb:cell.october_19_2008_15_00	October 19, 2008 - 15:00	october|19|,|2008|-|15:00	October|19|,|2008|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-10-19|2008-10-19|2008-10-19|2008-10-19||T15:00	192008.0		15.0	October 19|2008 - 15:00	fb:part.october_19|fb:part.2008_15_00
+6	1	fb:cell.catania	Catania	catania	Catania	NNP	LOCATION						
+6	2	fb:cell.away	Away	away	away	RB	O						
+6	3	fb:cell.lost_0_2	Lost 0–2	lost|0|--|2	lose|0|--|2	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||2.0	0.0		2.0		
+6	4	fb:cell.null											fb:part.null
+6	5	fb:cell.report	Report	report	Report	NNP	O						
+7	0	fb:cell.october_26_2008_20_30	October 26, 2008 - 20:30	october|26|,|2008|-|20:30	October|26|,|2008|-|20:30	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-10-26|2008-10-26|2008-10-26|2008-10-26||T20:30	262008.0		20.0	October 26|2008 - 20:30	fb:part.october_26|fb:part.2008_20_30
+7	1	fb:cell.fiorentina	Fiorentina	fiorentina	Fiorentina	NNP	ORGANIZATION						
+7	2	fb:cell.home	Home	home	home	NN	O						
+7	3	fb:cell.lost_1_3	Lost 1–3	lost|1|--|3	lose|1|--|3	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|1.0||3.0	1.0		3.0		
+7	4	fb:cell.simplicio	Simplício	simplício	Simplício	NNP	PERSON					Simplício	fb:part.simplicio
+7	5	fb:cell.report	Report	report	Report	NNP	O						
+8	0	fb:cell.october_29_2008_20_30	October 29, 2008 – 20:30	october|29|,|2008|--|20:30	October|29|,|2008|--|20:30	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-10-29|2008-10-29|2008-10-29|2008-10-29||T20:30	292008.0		20.0	October 29|2008 – 20:30	fb:part.october_29|fb:part.2008_20_30
+8	1	fb:cell.lecce	Lecce	lecce	Lecce	NNP	LOCATION						
+8	2	fb:cell.away	Away	away	away	RB	O						
+8	3	fb:cell.drew_1_1	Drew 1–1	drew|1|--|1	Drew|1|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|1.0||1.0	1.0		1.0		
+8	4	fb:cell.cavani	Cavani	cavani	Cavani	NNP	PERSON					Cavani	fb:part.cavani
+8	5	fb:cell.report	Report	report	Report	NNP	O						
+9	0	fb:cell.november_2_2008_15_00	November 2, 2008 - 15:00	november|2|,|2008|-|15:00	November|2|,|2008|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-11-02|2008-11-02|2008-11-02|2008-11-02||T15:00	22008.0		15.0	November 2|2008 - 15:00	fb:part.november_2|fb:part.2008_15_00
+9	1	fb:cell.chievo	Chievo	chievo	Chievo	NNP	LOCATION						
+9	2	fb:cell.home	Home	home	home	NN	O						
+9	3	fb:cell.won_3_0	Won 3–0	won|3|--|0	Won|3|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|3.0||0.0	3.0		0.0		
+9	4	fb:cell.miccoli_kj_r_cavani	Miccoli, Kjær, Cavani	miccoli|,|kjær|,|cavani	Miccoli|,|Kjær|,|Cavani	NNP|,|NNP|,|NNP	PERSON|O|O|O|PERSON	||||				Miccoli|Kjær|Cavani	fb:part.miccoli|fb:part.kj_r|fb:part.cavani
+9	5	fb:cell.null											fb:part.null
+10	0	fb:cell.november_8_2008_18_00	November 8, 2008 - 18:00	november|8|,|2008|-|18:00	November|8|,|2008|-|18:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-11-08|2008-11-08|2008-11-08|2008-11-08||T18:00	82008.0		18.0	November 8|2008 - 18:00	fb:part.november_8|fb:part.2008_18_00
+10	1	fb:cell.torino	Torino	torino	Torino	NNP	LOCATION						
+10	2	fb:cell.away	Away	away	away	RB	O						
+10	3	fb:cell.lost_0_1	Lost 0–1	lost|0|--|1	lose|0|--|1	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||1.0	0.0		1.0		
+10	4	fb:cell.null											fb:part.null
+10	5	fb:cell.report	Report	report	Report	NNP	O						
+11	0	fb:cell.november_15_2008_20_30	November 15, 2008 - 20:30	november|15|,|2008|-|20:30	November|15|,|2008|-|20:30	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|DATE	2008-11-15|2008-11-15|2008-11-15|2008-11-15||T20:30	152008.0		20.0	November 15|2008 - 20:30	fb:part.november_15|fb:part.2008_20_30
+11	1	fb:cell.internazionale	Internazionale	internazionale	Internazionale	NNP	ORGANIZATION						
+11	2	fb:cell.home	Home	home	home	NN	O						
+11	3	fb:cell.lost_0_2	Lost 0–2	lost|0|--|2	lose|0|--|2	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||2.0	0.0		2.0		
+11	4	fb:cell.null											fb:part.null
+11	5	fb:cell.report	Report	report	Report	NNP	O						
+12	0	fb:cell.november_23_2008_15_00	November 23, 2008 - 15:00	november|23|,|2008|-|15:00	November|23|,|2008|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-11-23|2008-11-23|2008-11-23|2008-11-23||T15:00	232008.0		15.0	November 23|2008 - 15:00	fb:part.november_23|fb:part.2008_15_00
+12	1	fb:cell.bologna	Bologna	bologna	Bologna	NNP	LOCATION						
+12	2	fb:cell.away	Away	away	away	RB	O						
+12	3	fb:cell.drew_1_1	Drew 1–1	drew|1|--|1	Drew|1|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|1.0||1.0	1.0		1.0		
+12	4	fb:cell.succi	Succi	succi	Succi	NNP	PERSON					Succi	fb:part.succi
+12	5	fb:cell.report	Report	report	Report	NNP	O						
+13	0	fb:cell.november_30_2008_20_30	November 30, 2008 - 20:30	november|30|,|2008|-|20:30	November|30|,|2008|-|20:30	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-11-30|2008-11-30|2008-11-30|2008-11-30||T20:30	302008.0		20.0	November 30|2008 - 20:30	fb:part.november_30|fb:part.2008_20_30
+13	1	fb:cell.ac_milan	AC Milan	ac|milan	ac|Milan	NN|NNP	ORGANIZATION|ORGANIZATION	|					
+13	2	fb:cell.home	Home	home	home	NN	O						
+13	3	fb:cell.won_3_1	Won 3–1	won|3|--|1	Won|3|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|3.0||1.0	3.0		1.0		
+13	4	fb:cell.miccoli_cavani_simplicio	Miccoli, Cavani, Simplício	miccoli|,|cavani|,|simplício	Miccoli|,|Cavani|,|Simplício	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Miccoli|Cavani|Simplício	fb:part.miccoli|fb:part.cavani|fb:part.simplicio
+13	5	fb:cell.report	Report	report	Report	NNP	O						
+14	0	fb:cell.december_7_2008_15_00	December 7, 2008 - 15:00	december|7|,|2008|-|15:00	December|7|,|2008|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-12-07|2008-12-07|2008-12-07|2008-12-07||T15:00	72008.0		15.0	December 7|2008 - 15:00	fb:part.december_7|fb:part.2008_15_00
+14	1	fb:cell.cagliari	Cagliari	cagliari	Cagliari	NNP	LOCATION						
+14	2	fb:cell.away	Away	away	away	RB	O						
+14	3	fb:cell.lost_0_1	Lost 0–1	lost|0|--|1	lose|0|--|1	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||1.0	0.0		1.0		
+14	4	fb:cell.null											fb:part.null
+14	5	fb:cell.report	Report	report	Report	NNP	O						
+15	0	fb:cell.december_14_2008_15_00	December 14, 2008 - 15:00	december|14|,|2008|-|15:00	December|14|,|2008|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-12-14|2008-12-14|2008-12-14|2008-12-14||T15:00	142008.0		15.0	December 14|2008 - 15:00	fb:part.december_14|fb:part.2008_15_00
+15	1	fb:cell.siena	Siena	siena	Siena	NNP	LOCATION						
+15	2	fb:cell.home	Home	home	home	NN	O						
+15	3	fb:cell.won_2_0	Won 2–0	won|2|--|0	Won|2|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||0.0	2.0		0.0		
+15	4	fb:cell.cassani_simplicio	Cassani, Simplício	cassani|,|simplício	Cassani|,|Simplício	NNP|,|NNP	PERSON|O|PERSON	||				Cassani|Simplício	fb:part.cassani|fb:part.simplicio
+15	5	fb:cell.report	Report	report	Report	NNP	O						
+16	0	fb:cell.december_20_2008_18_00	December 20, 2008 - 18:00	december|20|,|2008|-|18:00	December|20|,|2008|-|18:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2008-12-20|2008-12-20|2008-12-20|2008-12-20||T18:00	202008.0		18.0	December 20|2008 - 18:00	fb:part.december_20|fb:part.2008_18_00
+16	1	fb:cell.lazio	Lazio	lazio	Lazio	NNP	PERSON						
+16	2	fb:cell.away	Away	away	away	RB	O						
+16	3	fb:cell.lost_0_1	Lost 0–1	lost|0|--|1	lose|0|--|1	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||1.0	0.0		1.0		
+16	4	fb:cell.null											fb:part.null
+16	5	fb:cell.report	Report	report	Report	NNP	O						
+17	0	fb:cell.january_11_2009_15_00	January 11, 2009 - 15:00	january|11|,|2009|-|15:00	January|11|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-01-11|2009-01-11|2009-01-11|2009-01-11||T15:00	112009.0		15.0	January 11|2009 - 15:00	fb:part.january_11|fb:part.2009_15_00
+17	1	fb:cell.atalanta	Atalanta	atalanta	Atalanta	NNP	LOCATION						
+17	2	fb:cell.home	Home	home	home	NN	O						
+17	3	fb:cell.won_3_2	Won 3–2	won|3|--|2	Won|3|--|2	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|3.0||2.0	3.0		2.0		
+17	4	fb:cell.miccoli_bresciano_cavani	Miccoli, Bresciano, Cavani	miccoli|,|bresciano|,|cavani	Miccoli|,|Bresciano|,|Cavani	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Miccoli|Bresciano|Cavani	fb:part.miccoli|fb:part.bresciano|fb:part.cavani
+17	5	fb:cell.report	Report	report	Report	NNP	O						
+18	0	fb:cell.january_18_2009_15_00	January 18, 2009 - 15:00	january|18|,|2009|-|15:00	January|18|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-01-18|2009-01-18|2009-01-18|2009-01-18||T15:00	182009.0		15.0	January 18|2009 - 15:00	fb:part.january_18|fb:part.2009_15_00
+18	1	fb:cell.sampdoria	Sampdoria	sampdoria	Sampdoria	NNP	LOCATION						
+18	2	fb:cell.home	Home	home	home	NN	O						
+18	3	fb:cell.won_2_0	Won 2–0	won|2|--|0	Won|2|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||0.0	2.0		0.0		
+18	4	fb:cell.bresciano_2	Bresciano (2)	bresciano|-lrb-|2|-rrb-	Bresciano|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O	||2.0|	2.0			Bresciano (2)	fb:part.bresciano_2
+18	5	fb:cell.report	Report	report	Report	NNP	O						
+19	0	fb:cell.january_25_2009_15_00	January 25, 2009 - 15:00	january|25|,|2009|-|15:00	January|25|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-01-25|2009-01-25|2009-01-25|2009-01-25||T15:00	252009.0		15.0	January 25|2009 - 15:00	fb:part.january_25|fb:part.2009_15_00
+19	1	fb:cell.udinese	Udinese	udinese	Udinese	NNP	LOCATION						
+19	2	fb:cell.home	Home	home	home	NN	O						
+19	3	fb:cell.won_3_2	Won 3–2	won|3|--|2	Won|3|--|2	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|3.0||2.0	3.0		2.0		
+19	4	fb:cell.simplicio_2_cavani	Simplício (2), Cavani	simplício|-lrb-|2|-rrb-|,|cavani	simplício|-lrb-|2|-rrb-|,|Cavani	NN|-LRB-|CD|-RRB-|,|NNP	PERSON|O|NUMBER|O|O|PERSON	||2.0|||	2.0			Simplício (2)|Cavani	fb:part.simplicio_2|fb:part.cavani
+19	5	fb:cell.report	Report	report	Report	NNP	O						
+20	0	fb:cell.january_28_2009_20_30	January 28, 2009 - 20:30	january|28|,|2009|-|20:30	January|28|,|2009|-|20:30	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-01-28|2009-01-28|2009-01-28|2009-01-28||T20:30	282009.0		20.0	January 28|2009 - 20:30	fb:part.january_28|fb:part.2009_20_30
+20	1	fb:cell.as_roma	AS Roma	as|roma	as|roma	JJ|NN	O|ORGANIZATION	|					
+20	2	fb:cell.away	Away	away	away	RB	O						
+20	3	fb:cell.lost_1_2	Lost 1–2	lost|1|--|2	lose|1|--|2	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|1.0||2.0	1.0		2.0		
+20	4	fb:cell.cavani	Cavani	cavani	Cavani	NNP	PERSON					Cavani	fb:part.cavani
+20	5	fb:cell.report	Report	report	Report	NNP	O						
+21	0	fb:cell.february_1_2009_15_15	February 1, 2009 - 15:15	february|1|,|2009|-|15:15	February|1|,|2009|-|15:15	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|DATE	2009-02-01|2009-02-01|2009-02-01|2009-02-01||T15:15	12009.0		15.0	February 1|2009 - 15:15	fb:part.february_1|fb:part.2009_15_15
+21	1	fb:cell.genoa	Genoa	genoa	Genoa	NNP	LOCATION						
+21	2	fb:cell.away	Away	away	away	RB	O						
+21	3	fb:cell.lost_0_1	Lost 0–1	lost|0|--|1	lose|0|--|1	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||1.0	0.0		1.0		
+21	4	fb:cell.null											fb:part.null
+21	5	fb:cell.report	Report	report	Report	NNP	O						
+22	0	fb:cell.february_8_2009_20_30	February 8, 2009 - 20:30	february|8|,|2009|-|20:30	February|8|,|2009|-|20:30	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|DATE	2009-02-08|2009-02-08|2009-02-08|2009-02-08||T20:30	82009.0		20.0	February 8|2009 - 20:30	fb:part.february_8|fb:part.2009_20_30
+22	1	fb:cell.napoli	Napoli	napoli	Napoli	NNP	LOCATION						
+22	2	fb:cell.home	Home	home	home	NN	O						
+22	3	fb:cell.won_2_1	Won 2–1	won|2|--|1	Won|2|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||1.0	2.0		1.0		
+22	4	fb:cell.migliaccio_simplicio	Migliaccio, Simplício	migliaccio|,|simplício	Migliaccio|,|Simplício	NNP|,|NNP	PERSON|O|PERSON	||				Migliaccio|Simplício	fb:part.migliaccio|fb:part.simplicio
+22	5	fb:cell.report	Report	report	Report	NNP	O						
+23	0	fb:cell.february_15_2009_15_00	February 15, 2009 - 15:00	february|15|,|2009|-|15:00	February|15|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-02-15|2009-02-15|2009-02-15|2009-02-15||T15:00	152009.0		15.0	February 15|2009 - 15:00	fb:part.february_15|fb:part.2009_15_00
+23	1	fb:cell.reggina	Reggina	reggina	Reggina	NNP	LOCATION						
+23	2	fb:cell.away	Away	away	away	RB	O						
+23	3	fb:cell.drew_0_0	Drew 0–0	drew|0|--|0	Drew|0|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||0.0	0.0		0.0		
+23	4	fb:cell.null											fb:part.null
+23	5	fb:cell.report	Report	report	Report	NNP	O						
+24	0	fb:cell.february_21_2009_20_30	February 21, 2009 - 20:30	february|21|,|2009|-|20:30	February|21|,|2009|-|20:30	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|DATE	2009-02-21|2009-02-21|2009-02-21|2009-02-21||T20:30	212009.0		20.0	February 21|2009 - 20:30	fb:part.february_21|fb:part.2009_20_30
+24	1	fb:cell.juventus	Juventus	juventus	Juventus	NNP	O						
+24	2	fb:cell.home	Home	home	home	NN	O						
+24	3	fb:cell.lost_0_2	Lost 0–2	lost|0|--|2	lose|0|--|2	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||2.0	0.0		2.0		
+24	4	fb:cell.null											fb:part.null
+24	5	fb:cell.report	Report	report	Report	NNP	O						
+25	0	fb:cell.march_1_2009_15_00	March 1, 2009 - 15:00	march|1|,|2009|-|15:00	March|1|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-03-01|2009-03-01|2009-03-01|2009-03-01||T15:00	12009.0		15.0	March 1|2009 - 15:00	fb:part.march_1|fb:part.2009_15_00
+25	1	fb:cell.catania	Catania	catania	Catania	NNP	LOCATION						
+25	2	fb:cell.home	Home	home	home	NN	O						
+25	3	fb:cell.lost_0_4	Lost 0–4	lost|0|--|4	lose|0|--|4	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||4.0	0.0		4.0		
+25	4	fb:cell.null											fb:part.null
+25	5	fb:cell.report	Report	report	Report	NNP	O						
+26	0	fb:cell.march_8_2009_15_00	March 8, 2009 - 15:00	march|8|,|2009|-|15:00	March|8|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-03-08|2009-03-08|2009-03-08|2009-03-08||T15:00	82009.0		15.0	March 8|2009 - 15:00	fb:part.march_8|fb:part.2009_15_00
+26	1	fb:cell.fiorentina	Fiorentina	fiorentina	Fiorentina	NNP	ORGANIZATION						
+26	2	fb:cell.away	Away	away	away	RB	O						
+26	3	fb:cell.won_2_0	Won 2–0	won|2|--|0	Won|2|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||0.0	2.0		0.0		
+26	4	fb:cell.simplicio_miccoli	Simplício, Miccoli	simplício|,|miccoli	Simplício|,|Miccoli	NNP|,|NNP	PERSON|O|PERSON	||				Simplício|Miccoli	fb:part.simplicio|fb:part.miccoli
+26	5	fb:cell.report	Report	report	Report	NNP	O						
+27	0	fb:cell.march_15_2009_15_00	March 15, 2009 - 15:00	march|15|,|2009|-|15:00	March|15|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-03-15|2009-03-15|2009-03-15|2009-03-15||T15:00	152009.0		15.0	March 15|2009 - 15:00	fb:part.march_15|fb:part.2009_15_00
+27	1	fb:cell.lecce	Lecce	lecce	Lecce	NNP	LOCATION						
+27	2	fb:cell.home	Home	home	home	NN	O						
+27	3	fb:cell.won_5_2	Won 5–2	won|5|--|2	Won|5|--|2	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|5.0||2.0	5.0		2.0		
+27	4	fb:cell.cavani_2_simplicio_miccoli_kj_r	Cavani (2), Simplício, Miccoli, Kjær	cavani|-lrb-|2|-rrb-|,|simplício|,|miccoli|,|kjær	Cavani|-lrb-|2|-rrb-|,|Simplício|,|Miccoli|,|Kjær	NNP|-LRB-|LS|-RRB-|,|NNP|,|NNP|,|NNP	PERSON|O|NUMBER|O|O|PERSON|O|PERSON|O|PERSON	||2.0|||||||	2.0			Cavani (2)|Simplício|Miccoli|Kjær	fb:part.cavani_2|fb:part.simplicio|fb:part.miccoli|fb:part.kj_r
+27	5	fb:cell.report	Report	report	Report	NNP	O						
+28	0	fb:cell.march_22_2009_15_00	March 22, 2009 - 15:00	march|22|,|2009|-|15:00	March|22|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-03-22|2009-03-22|2009-03-22|2009-03-22||T15:00	222009.0		15.0	March 22|2009 - 15:00	fb:part.march_22|fb:part.2009_15_00
+28	1	fb:cell.chievo	Chievo	chievo	Chievo	NNP	LOCATION						
+28	2	fb:cell.away	Away	away	away	RB	O						
+28	3	fb:cell.lost_0_1	Lost 0–1	lost|0|--|1	lose|0|--|1	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||1.0	0.0		1.0		
+28	4	fb:cell.null											fb:part.null
+28	5	fb:cell.report	Report	report	Report	NNP	O						
+29	0	fb:cell.april_5_2009_15_00	April 5, 2009 - 15:00	april|5|,|2009|-|15:00	April|5|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-04-05|2009-04-05|2009-04-05|2009-04-05||T15:00	52009.0		15.0	April 5|2009 - 15:00	fb:part.april_5|fb:part.2009_15_00
+29	1	fb:cell.torino	Torino	torino	Torino	NNP	LOCATION						
+29	2	fb:cell.home	Home	home	home	NN	O						
+29	3	fb:cell.won_1_0	Won 1–0	won|1|--|0	Won|1|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|1.0||0.0	1.0		0.0		
+29	4	fb:cell.cavani	Cavani	cavani	Cavani	NNP	PERSON					Cavani	fb:part.cavani
+29	5	fb:cell.report	Report	report	Report	NNP	O						
+30	0	fb:cell.april_19_2009_15_00	April 19, 2009 - 15:00	april|19|,|2009|-|15:00	April|19|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-04-19|2009-04-19|2009-04-19|2009-04-19||T15:00	192009.0		15.0	April 19|2009 - 15:00	fb:part.april_19|fb:part.2009_15_00
+30	1	fb:cell.internazionale	Internazionale	internazionale	Internazionale	NNP	ORGANIZATION						
+30	2	fb:cell.away	Away	away	away	RB	O						
+30	3	fb:cell.drew_2_2	Drew 2–2	drew|2|--|2	Drew|2|--|2	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||2.0	2.0		2.0		
+30	4	fb:cell.cavani_succi	Cavani, Succi	cavani|,|succi	Cavani|,|Succi	NNP|,|NNP	PERSON|O|PERSON	||				Cavani|Succi	fb:part.cavani|fb:part.succi
+30	5	fb:cell.report	Report	report	Report	NNP	O						
+31	0	fb:cell.april_19_2009_15_00	April 19, 2009 - 15:00	april|19|,|2009|-|15:00	April|19|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-04-19|2009-04-19|2009-04-19|2009-04-19||T15:00	192009.0		15.0	April 19|2009 - 15:00	fb:part.april_19|fb:part.2009_15_00
+31	1	fb:cell.bologna	Bologna	bologna	Bologna	NNP	LOCATION						
+31	2	fb:cell.home	Home	home	home	NN	O						
+31	3	fb:cell.won_4_1	Won 4–1	won|4|--|1	Won|4|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|4.0||1.0	4.0		1.0		
+31	4	fb:cell.belleri_own_goal_kj_r_succi_cavani	Belleri (own goal), Kjær, Succi, Cavani	belleri|-lrb-|own|goal|-rrb-|,|kjær|,|succi|,|cavani	Belleri|-lrb-|own|goal|-rrb-|,|kjær|,|Succi|,|Cavani	NNP|-LRB-|JJ|NN|-RRB-|,|NN|,|NNP|,|NNP	PERSON|O|O|O|O|O|LOCATION|O|PERSON|O|PERSON	||||||||||				Belleri (own goal)|Kjær|Succi|Cavani	fb:part.belleri_own_goal|fb:part.kj_r|fb:part.succi|fb:part.cavani
+31	5	fb:cell.report	Report	report	Report	NNP	O						
+32	0	fb:cell.april_26_2009_15_00	April 26, 2009 - 15:00	april|26|,|2009|-|15:00	April|26|,|2009|-|15:00	NNP|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-04-26|2009-04-26|2009-04-26|2009-04-26||T15:00	262009.0		15.0	April 26|2009 - 15:00	fb:part.april_26|fb:part.2009_15_00
+32	1	fb:cell.ac_milan	AC Milan	ac|milan	ac|Milan	NN|NNP	ORGANIZATION|ORGANIZATION	|					
+32	2	fb:cell.away	Away	away	away	RB	O						
+32	3	fb:cell.lost_0_3	Lost 0–3	lost|0|--|3	lose|0|--|3	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||3.0	0.0		3.0		
+32	4	fb:cell.null											fb:part.null
+32	5	fb:cell.report	Report	report	Report	NNP	O						
+33	0	fb:cell.may_3_2009_15_00	May 3, 2009 - 15:00	may|3|,|2009|-|15:00	May|3|,|2009|-|15:00	VBD-AUX|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-05-03|2009-05-03|2009-05-03|2009-05-03||T15:00	32009.0		15.0	May 3|2009 - 15:00	fb:part.may_3|fb:part.2009_15_00
+33	1	fb:cell.cagliari	Cagliari	cagliari	Cagliari	NNP	LOCATION						
+33	2	fb:cell.home	Home	home	home	NN	O						
+33	3	fb:cell.won_5_1	Won 5–1	won|5|--|1	Won|5|--|1	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|5.0||1.0	5.0		1.0		
+33	4	fb:cell.migliaccio_miccoli_tedesco_cavani_succi	Migliaccio, Miccoli, Tedesco, Cavani, Succi	migliaccio|,|miccoli|,|tedesco|,|cavani|,|succi	Migliaccio|,|Miccoli|,|Tedesco|,|Cavani|,|Succi	NNP|,|NNP|,|NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON|O|PERSON|O|PERSON	||||||||				Migliaccio|Miccoli|Tedesco|Cavani|Succi	fb:part.migliaccio|fb:part.miccoli|fb:part.tedesco|fb:part.cavani|fb:part.succi
+33	5	fb:cell.report	Report	report	Report	NNP	O						
+34	0	fb:cell.may_10_2009_15_00	May 10, 2009 - 15:00	may|10|,|2009|-|15:00	May|10|,|2009|-|15:00	VBD-AUX|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-05-10|2009-05-10|2009-05-10|2009-05-10||T15:00	102009.0		15.0	May 10|2009 - 15:00	fb:part.may_10|fb:part.2009_15_00
+34	1	fb:cell.siena	Siena	siena	Siena	NNP	LOCATION						
+34	2	fb:cell.away	Away	away	away	RB	O						
+34	3	fb:cell.lost_0_1	Lost 0–1	lost|0|--|1	lose|0|--|1	VBN|CD|:|CD	O|NUMBER|O|NUMBER	|0.0||1.0	0.0		1.0		
+34	4	fb:cell.null											fb:part.null
+34	5	fb:cell.report	Report	report	Report	NNP	O						
+35	0	fb:cell.may_17_2009_15_00	May 17, 2009 - 15:00	may|17|,|2009|-|15:00	May|17|,|2009|-|15:00	VBD-AUX|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-05-17|2009-05-17|2009-05-17|2009-05-17||T15:00	172009.0		15.0	May 17|2009 - 15:00	fb:part.may_17|fb:part.2009_15_00
+35	1	fb:cell.lazio	Lazio	lazio	Lazio	NNP	PERSON						
+35	2	fb:cell.home	Home	home	home	NN	O						
+35	3	fb:cell.won_2_0	Won 2–0	won|2|--|0	Won|2|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||0.0	2.0		0.0		
+35	4	fb:cell.miccoli_migliaccio	Miccoli, Migliaccio	miccoli|,|migliaccio	Miccoli|,|Migliaccio	NNP|,|NNP	PERSON|O|PERSON	||				Miccoli|Migliaccio	fb:part.miccoli|fb:part.migliaccio
+35	5	fb:cell.report	Report	report	Report	NNP	O						
+36	0	fb:cell.may_24_2009_15_00	May 24, 2009 - 15:00	may|24|,|2009|-|15:00	May|24|,|2009|-|15:00	VBD-AUX|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-05-24|2009-05-24|2009-05-24|2009-05-24||T15:00	242009.0		15.0	May 24|2009 - 15:00	fb:part.may_24|fb:part.2009_15_00
+36	1	fb:cell.atalanta	Atalanta	atalanta	Atalanta	NNP	LOCATION						
+36	2	fb:cell.away	Away	away	away	RB	O						
+36	3	fb:cell.drew_2_2	Drew 2–2	drew|2|--|2	Drew|2|--|2	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||2.0	2.0		2.0		
+36	4	fb:cell.succi_miccoli	Succi, Miccoli	succi|,|miccoli	Succi|,|Miccoli	NNP|,|NNP	PERSON|O|PERSON	||				Succi|Miccoli	fb:part.succi|fb:part.miccoli
+36	5	fb:cell.report	Report	report	Report	NNP	O						
+37	0	fb:cell.may_31_2009_15_00	May 31, 2009 - 15:00	may|31|,|2009|-|15:00	May|31|,|2009|-|15:00	VBD-AUX|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|O|TIME	2009-05-31|2009-05-31|2009-05-31|2009-05-31||T15:00	312009.0		15.0	May 31|2009 - 15:00	fb:part.may_31|fb:part.2009_15_00
+37	1	fb:cell.sampdoria	Sampdoria	sampdoria	Sampdoria	NNP	LOCATION						
+37	2	fb:cell.home	Home	home	home	NN	O						
+37	3	fb:cell.drew_2_2	Drew 2–2	drew|2|--|2	Drew|2|--|2	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|2.0||2.0	2.0		2.0		
+37	4	fb:cell.miccoli_succi	Miccoli, Succi	miccoli|,|succi	Miccoli|,|Succi	NNP|,|NNP	PERSON|O|PERSON	||				Miccoli|Succi	fb:part.miccoli|fb:part.succi
+37	5	fb:cell.report	Report	report	Report	NNP	O						

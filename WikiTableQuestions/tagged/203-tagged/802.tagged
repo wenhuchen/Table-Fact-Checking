@@ -1,0 +1,61 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.persian_unit	Persian unit	persian|unit	persian|unit	JJ|NN	MISC|O	|					
+-1	1	fb:row.row.persian_name	Persian name	persian|name	persian|name	JJ|NN	MISC|O	|					
+-1	2	fb:row.row.relation_to_previous_unit	Relation to previous unit	relation|to|previous|unit	relation|to|previous|unit	NN|TO|JJ|NN	O|O|O|O	|||					
+-1	3	fb:row.row.metric_value	Metric Value	metric|value	Metric|Value	NNP|NNP	O|O	|					
+-1	4	fb:row.row.imperial_value	Imperial Value	imperial|value	Imperial|Value	NNP|NNP	O|O	|					
+0	0	fb:cell.finger	finger	finger	finger	NN	O					finger	fb:part.finger
+0	1	fb:cell.aiwas	aiwas	aiwas	aiwa	NNS	O						
+0	2	fb:cell.null											
+0	3	fb:cell._20_mm	≈ 20 mm	≈|20|mm	≈|20|mm	RB|CD|NN	O|NUMBER|O	|20.0|	20.0				
+0	4	fb:cell._0_8_in	≈ 0.8 in	≈|0.8|in	≈|0.8|in	NN|CD|IN	O|NUMBER|O	|0.8|	0.8				
+1	0	fb:cell.hand	hand	hand	hand	NN	O					hand	fb:part.hand
+1	1	fb:cell.dva	dva	dva	dva	NN	O						
+1	2	fb:cell.5_aiwas	5 aiwas	5|aiwas	5|aiwa	CD|NNS	NUMBER|O	5.0|	5.0				
+1	3	fb:cell._100_mm	≈ 100 mm	≈|100|mm	≈|100|mm	NN|CD|NN	O|NUMBER|O	|100.0|	100.0				
+1	4	fb:cell._4_in	≈ 4 in	≈|4|in	≈|4|in	NN|CD|IN	O|NUMBER|O	|4.0|	4.0				
+2	0	fb:cell.foot	foot	foot	foot	NN	O					foot	fb:part.foot
+2	1	fb:cell.trayas	trayas	trayas	traya	NNS	O						
+2	2	fb:cell.3_dva	3 dva	3|dva	3|dva	CD|NN	NUMBER|O	3.0|	3.0				
+2	3	fb:cell._300_mm	≈ 300 mm	≈|300|mm	≈|300|mm	NN|CD|NN	O|NUMBER|O	|300.0|	300.0				
+2	4	fb:cell._1_foot	≈ 1 foot	≈|1|foot	≈|1|foot	NN|CD|NN	O|NUMBER|O	|1.0|	1.0				
+3	0	fb:cell.four_hands	four-hands	four|hands	four|hand	CD|NNS	NUMBER|O	4.0|				four-hands	fb:part.four_hands
+3	1	fb:cell.remen	remen	remen	reman	NN	O						
+3	2	fb:cell.4_dva	4 dva	4|dva	4|dva	CD|NN	NUMBER|O	4.0|	4.0				
+3	3	fb:cell._400_mm	≈ 400 mm	≈|400|mm	≈|400|mm	NN|CD|NN	O|NUMBER|O	|400.0|	400.0				
+3	4	fb:cell._16_in	≈ 16 in	≈|16|in	≈|16|in	NN|CD|IN	O|NUMBER|O	|16.0|	16.0				
+4	0	fb:cell.cubit_five_hands	cubit (five-hands)	cubit|-lrb-|five|hands|-rrb-	cubit|-lrb-|five|hand|-rrb-	NN|-LRB-|CD|NNS|-RRB-	O|O|NUMBER|O|O	||5.0||				cubit (five-hands)	fb:part.cubit_five_hands
+4	1	fb:cell.pank_a_dva	pank'a dva	pank|'|a|dva	pank|'|a|dva	NN|''|DT|NN	O|O|O|O	|||					
+4	2	fb:cell.5_dva	5 dva	5|dva	5|dva	CD|NN	NUMBER|O	5.0|	5.0				
+4	3	fb:cell._500_mm	≈ 500 mm	≈|500|mm	≈|500|mm	NN|CD|NN	O|NUMBER|O	|500.0|	500.0				
+4	4	fb:cell._20_in	≈ 20 in	≈|20|in	≈|20|in	RB|CD|IN	O|NUMBER|O	|20.0|	20.0				
+5	0	fb:cell.great_cubit_six_hands	great cubit (six-hands)	great|cubit|-lrb-|six|hands|-rrb-	great|cubit|-lrb-|six|hand|-rrb-	JJ|NN|-LRB-|CD|NNS|-RRB-	O|O|O|NUMBER|O|O	|||6.0||				great cubit (six-hands)	fb:part.great_cubit_six_hands
+5	1	fb:cell._k_swacsh_dva	(k)swacsh dva	-lrb-|k|-rrb-|swacsh|dva	-lrb-|k|-rrb-|swacsh|dva	-LRB-|NN|-RRB-|JJ|NN	O|O|O|O|O	||||					
+5	2	fb:cell.6_dva	6 dva	6|dva	6|dva	CD|NN	NUMBER|O	6.0|	6.0				
+5	3	fb:cell._600_mm	≈ 600 mm	≈|600|mm	≈|600|mm	NN|CD|NN	O|NUMBER|O	|600.0|	600.0				
+5	4	fb:cell._2_ft	≈ 2 ft	≈|2|ft	≈|2|ft	NN|CD|NN	O|NUMBER|O	|2.0|	2.0				
+6	0	fb:cell.pace	pace	pace	pace	NN	O					pace	fb:part.pace
+6	1	fb:cell.pank_a	pank'a	pank|'|a	pank|'|a	NN|''|DT	O|O|O	||					
+6	2	fb:cell.5_trayas	5 trayas	5|trayas	5|traya	CD|NNS	NUMBER|O	5.0|	5.0				
+6	3	fb:cell._1_5_m	≈ 1.5 m	≈|1.5|m	≈|1.5|m	NN|CD|NN	O|NUMBER|O	|1.5|	1.5				
+6	4	fb:cell._5_ft	≈ 5 ft	≈|5|ft	≈|5|ft	NN|CD|NN	O|NUMBER|O	|5.0|	5.0				
+7	0	fb:cell.ten_foot	ten-foot	ten|foot	ten|foot	CD|NN	NUMBER|O	10.0|				ten-foot	fb:part.ten_foot
+7	1	fb:cell.daca_trayas	daca trayas	daca|trayas	daca|traya	NN|NNS	O|O	|					
+7	2	fb:cell.pank_a	pank'a	pank|'|a	pank|'|a	NN|''|DT	O|O|O	||					
+7	3	fb:cell._3_m	≈ 3 m	≈|3|m	≈|3|m	NN|CD|NN	O|NUMBER|O	|3.0|	3.0				
+7	4	fb:cell._10_ft	≈ 10 ft	≈|10|ft	≈|10|ft	NN|CD|NN	O|NUMBER|O	|10.0|	10.0				
+8	0	fb:cell.hundred_foot	hundred-foot	hundred|foot	hundred|foot	CD|NN	NUMBER|O	100.0|				hundred-foot	fb:part.hundred_foot
+8	1	fb:cell.chebel	chebel	chebel	chebel	NN	O						
+8	2	fb:cell.8_daca_trayas	8 daca trayas	8|daca|trayas	8|daca|traya	CD|NN|NNS	NUMBER|O|O	8.0||	8.0				
+8	3	fb:cell._24_m	≈ 24 m	≈|24|m	≈|24|m	NN|CD|NN	O|NUMBER|O	|24.0|	24.0				
+8	4	fb:cell._80_ft	≈ 80 ft	≈|80|ft	≈|80|ft	NN|CD|NN	O|NUMBER|O	|80.0|	80.0				
+9	0	fb:cell.league_the_distance_a_horse_could_walk_in_one_hour	league, the distance a horse could walk in one hour.	league|,|the|distance|a|horse|could|walk|in|one|hour|.	league|,|the|distance|a|horse|could|walk|in|one|hour|.	NN|,|DT|NN|DT|NN|VBD-AUX|VB|IN|CD|NN|.	O|O|O|O|O|O|O|O|O|DURATION|NUMBER|O	||||||||||4.0|				league|the distance a horse could walk in one hour.	fb:part.league|fb:part.the_distance_a_horse_could_walk_in_one_hour
+9	1	fb:cell.parasang	parasang	parasang	parasang	NN	O						
+9	2	fb:cell.250_chebel	250 chebel	250|chebel	250|chebel	CD|NNS	NUMBER|O	250.0|	250.0				
+9	3	fb:cell._6_km	≈ 6 km	≈|6|km	≈|6|km	NN|CD|NN	O|NUMBER|O	|6.0|	6.0				
+9	4	fb:cell._3_75_miles	≈ 3.75 miles	≈|3.75|miles	≈|3.75|mile	NN|CD|NNS	O|NUMBER|O	|3.75|	3.75				
+10	0	fb:cell.mansion_one_day_s_march_on_the_royal_road	mansion, one day's march on the Royal Road.	mansion|,|one|day|'s|march|on|the|royal|road|.	mansion|,|one|day|'s|march|on|the|Royal|Road|.	NN|,|CD|NN|POS|NN|IN|DT|NNP|NNP|.	O|O|DURATION|NUMBER|O|DATE|O|O|LOCATION|LOCATION|O	|||0.0||XXXX-03|||||				mansion|one day's march on the Royal Road.	fb:part.mansion|fb:part.one_day_s_march_on_the_royal_road
+10	1	fb:cell._greek_stathmos	(Greek stathmos)	-lrb-|greek|stathmos|-rrb-	-lrb-|greek|stathmo|-rrb-	-LRB-|JJ|NNS|-RRB-	O|MISC|O|O	|||					
+10	2	fb:cell.4_or_5_parasang	4 or 5 parasang	4|or|5|parasang	4|or|5|parasang	CD|CC|CD|NN	NUMBER|O|NUMBER|O	4.0||5.0|	4.0		5.0		
+10	3	fb:cell._24_30_km	≈ 24–30 km	≈|24|--|30|km	≈|24|--|30|km	NN|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|24.0||30.0|	24.0		30.0		
+10	4	fb:cell._14_18_miles	≈ 14–18 miles	≈|14|--|18|miles	≈|14|--|18|mile	NN|CD|:|CD|NNS	O|NUMBER|O|NUMBER|O	|14.0||18.0|	14.0		18.0		

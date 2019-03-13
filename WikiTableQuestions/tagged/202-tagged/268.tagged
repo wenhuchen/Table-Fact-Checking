@@ -1,0 +1,37 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.reading	Reading	reading	read	VBG	O						
+-1	1	fb:row.row.year_1_2013_2016_2019_2022_6_2_7_7	Year 1\n2013, 2016, 2019, 2022 . . .\n6:2–7:7	year|1|2013|,|2016|,|2019|,|2022|...|6:2|--|7:7	year|1|2013|,|2016|,|2019|,|2022|...|6:2|--|7:7	NN|CD|CD|,|CD|,|CD|,|CD|:|CD|:|CD	DURATION|NUMBER|DATE|DATE|DATE|DATE|DATE|DATE|DATE|O|NUMBER|O|NUMBER	|1.0|2013|2013|2013|2013|2013|2013|2013||||					
+-1	2	fb:row.row.year_2_2014_2017_2020_2023_7_8_8_15	Year 2\n2014, 2017, 2020, 2023 . . .\n7:8–8:15	year|2|2014|,|2017|,|2020|,|2023|...|7:8|--|8:15	year|2|2014|,|2017|,|2020|,|2023|...|7:8|--|8:15	NN|CD|CD|,|CD|,|CD|,|CD|:|CD|:|CD	DURATION|NUMBER|DATE|DATE|DATE|DATE|DATE|DATE|DATE|O|NUMBER|O|TIME	|2.0|2014|2014|2014|2014|2014|2014|2014||||T08:15					
+-1	3	fb:row.row.year_3_2015_2018_2021_2024_8_16_9_35	Year 3\n2015, 2018, 2021, 2024 . . .\n8:16–9:35	year|3|2015|,|2018|,|2021|,|2024|...|8:16|--|9:35	year|3|2015|,|2018|,|2021|,|2024|...|8:16|--|9:35	NN|CD|CD|,|CD|,|CD|,|CD|:|CD|:|CD	DURATION|NUMBER|DATE|DATE|DATE|DATE|DATE|DATE|DATE|O|TIME|O|TIME	|3.0|2015|2015|2015|2015|2015|2015|2015||T08:16||T09:35					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.6_2_5	6:2–5	6:2|--|5	6:2|--|5	CD|:|CD	NUMBER|O|NUMBER	||5.0	6.0		2.0		
+0	2	fb:cell.7_8_13	7:8–13	7:8|--|13	7:8|--|13	CD|:|CD	NUMBER|O|NUMBER	||13.0	7.0		8.0		
+0	3	fb:cell.8_16_23	8:16–23	8:16|--|23	8:16|--|23	CD|:|CD	TIME|O|NUMBER	T08:16||23.0	8.0		16.0		
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.6_6_9	6:6–9	6:6|--|9	6:6|--|9	CD|:|CD	NUMBER|O|NUMBER	||9.0	6.0		6.0		
+1	2	fb:cell.7_14_18	7:14–18	7:14|--|18	7:14|--|18	CD|:|CD	TIME|O|NUMBER	T07:14||18.0	7.0		14.0		
+1	3	fb:cell.8_24_28	8:24–28	8:24|--|28	8:24|--|28	CD|:|CD	TIME|O|NUMBER	T08:24||28.0	8.0		24.0		
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.6_10_13	6:10–13	6:10|--|13	6:10|--|13	CD|:|CD	TIME|O|NUMBER	T06:10||13.0	6.0		10.0		
+2	2	fb:cell.7_19_25	7:19–25	7:19|--|25	7:19|--|25	CD|:|CD	TIME|O|NUMBER	T07:19||25.0	7.0		19.0		
+2	3	fb:cell.9_1_7	9:1–7	9:1|--|7	9:1|--|7	CD|:|CD	NUMBER|O|NUMBER	||7.0	9.0		1.0		
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.6_14_19	6:14–19	6:14|--|19	6:14|--|19	CD|:|CD	TIME|O|NUMBER	T06:14||19.0	6.0		14.0		
+3	2	fb:cell.7_26_29	7:26–29	7:26|--|29	7:26|--|29	CD|:|CD	TIME|O|NUMBER	T07:26||29.0	7.0		26.0		
+3	3	fb:cell.9_8_16	9:8–16	9:8|--|16	9:8|--|16	CD|:|CD	NUMBER|O|NUMBER	||16.0	9.0		8.0		
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.6_20_25	6:20–25	6:20|--|25	6:20|--|25	CD|:|CD	TIME|O|NUMBER	T06:20||25.0	6.0		20.0		
+4	2	fb:cell.8_1_6	8:1–6	8:1|--|6	8:1|--|6	CD|:|CD	NUMBER|O|NUMBER	||6.0	8.0		1.0		
+4	3	fb:cell.9_17_21	9:17–21	9:17|--|21	9:17|--|21	CD|:|CD	TIME|O|NUMBER	T09:17||21.0	9.0		17.0		
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.6_26_28	6:26–28	6:26|--|28	6:26|--|28	CD|:|CD	TIME|O|NUMBER	T06:26||28.0	6.0		26.0		
+5	2	fb:cell.8_7_11	8:7–11	8:7|--|11	8:7|--|11	CD|:|CD	NUMBER|O|NUMBER	||11.0	8.0		7.0		
+5	3	fb:cell.9_22_26	9:22–26	9:22|--|26	9:22|--|26	CD|:|CD	TIME|O|NUMBER	T09:22||26.0	9.0		22.0		
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.6_29_7_7	6:29–7:7	6:29|--|7:7	6:29|--|7:7	CD|:|CD	TIME|O|NUMBER	T06:29||	6.0		29.0		
+6	2	fb:cell.8_12_15	8:12–15	8:12|--|15	8:12|--|15	CD|:|CD	TIME|O|NUMBER	T08:12||15.0	8.0		12.0		
+6	3	fb:cell.9_27_35	9:27–35	9:27|--|35	9:27|--|35	CD|:|CD	TIME|O|NUMBER	T09:27||35.0	9.0		27.0		
+7	0	fb:cell.maftir	Maftir	maftir	Maftir	NNP	O						
+7	1	fb:cell.7_5_7	7:5–7	7:5|--|7	7:5|--|7	CD|:|CD	NUMBER|O|NUMBER	||7.0	7.0		5.0		
+7	2	fb:cell.8_12_15	8:12–15	8:12|--|15	8:12|--|15	CD|:|CD	TIME|O|NUMBER	T08:12||15.0	8.0		12.0		
+7	3	fb:cell.9_33_35	9:33–35	9:33|--|35	9:33|--|35	CD|:|CD	TIME|O|NUMBER	T09:33||35.0	9.0		33.0		

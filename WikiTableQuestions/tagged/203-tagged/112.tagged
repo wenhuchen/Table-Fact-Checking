@@ -1,0 +1,51 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.choke	Choke	choke	choke	VB	O						
+-1	1	fb:row.row.constriction_inch	Constriction (Inch)	constriction|-lrb-|inch|-rrb-	constriction|-lrb-|Inch|-rrb-	NN|-LRB-|NNP|-RRB-	O|O|O|O	|||					
+-1	2	fb:row.row.percentage_of_lead_shot_in_30_inch_circle_at_40_yards	Percentage of lead shot in 30-inch circle at 40 yards	percentage|of|lead|shot|in|30|inch|circle|at|40|yards	percentage|of|lead|shot|in|30|inch|circle|at|40|yard	NN|IN|NN|NN|IN|CD|NN|NN|IN|CD|NNS	O|O|O|O|O|NUMBER|O|O|O|NUMBER|O	|||||30.0||||40.0|					
+-1	3	fb:row.row.identification_notches	Identification (Notches)	identification|-lrb-|notches|-rrb-	identification|-lrb-|notch|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.identification_stars_spanish_shotguns	Identification (Stars)\n(Spanish shotguns)	identification|-lrb-|stars|-rrb-|-lrb-|spanish|shotguns|-rrb-	identification|-lrb-|Stars|-rrb-|-lrb-|spanish|shotgun|-rrb-	NN|-LRB-|NNP|-RRB-|-LRB-|JJ|NNS|-RRB-	O|O|O|O|O|MISC|O|O	|||||||					
+0	0	fb:cell.cylinder	Cylinder	cylinder	cylinder	NN	O						
+0	1	fb:cell.0_000	0.000	0.000	0.000	CD	NUMBER	0.0	0.0				
+0	2	fb:cell.40_at_40_yd_70_at_25_yd	40 at 40 yd\n70 at 25 yd	40|at|40|yd|70|at|25|yd	40|at|40|yd|70|at|25|yd	CD|IN|CD|NN|CD|IN|CD|NN	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	40.0||40.0||70.0||25.0|	40.0		40.0	40 at 40 yd|70 at 25 yd	fb:part.40_at_40_yd|fb:part.70_at_25_yd
+0	3	fb:cell.iiiii_notches	IIIII notches	iiiii|notches	iiiii|notch	CD|NNS	NUMBER|O	0.0|					
+0	4	fb:cell._stars	***** stars	\\*\\*\\*\\*\\*|stars	\\*\\*\\*\\*\\*|star	NN|NNS	O|O	|					
+1	0	fb:cell.skeet_1	Skeet 1	skeet|1	Skeet|1	NNP|CD	O|NUMBER	|1.0	1.0				
+1	1	fb:cell.0_005	0.005	0.005	0.005	CD	NUMBER	0.005	0.005				
+1	2	fb:cell.45_at_40_yd_75_at_25_yd	45 at 40 yd\n75 at 25 yd	45|at|40|yd|75|at|25|yd	45|at|40|yd|75|at|25|yd	CD|IN|CD|NN|CD|IN|CD|NN	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O	45.0||40.0||75.0||25.0|	45.0		40.0	45 at 40 yd|75 at 25 yd	fb:part.45_at_40_yd|fb:part.75_at_25_yd
+1	3	fb:cell.null											
+1	4	fb:cell.null											
+2	0	fb:cell.improved_cylinder	Improved  Cylinder	improved|cylinder	improve|cylinder	VBN|NN	O|O	|					
+2	1	fb:cell.0_010	0.010	0.010	0.010	CD	NUMBER	0.01	0.01				
+2	2	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0			50	fb:part.50
+2	3	fb:cell.iiii_notches	IIII notches	iiii|notches	iiii|notch	NN|NNS	O|O	|					
+2	4	fb:cell._stars_2	**** stars	\\*\\*\\*\\*|stars	\\*\\*\\*\\*|star	NN|NNS	O|O	|					
+3	0	fb:cell.skeet_2_light_mod	Skeet 2 (light Mod.)	skeet|2|-lrb-|light|mod|.|-rrb-	Skeet|2|-lrb-|light|mod|.|-rrb-	NNP|CD|-LRB-|NN|NN|.|-RRB-	O|NUMBER|O|O|O|O|O	|2.0|||||	2.0				
+3	1	fb:cell.0_015	0.015	0.015	0.015	CD	NUMBER	0.015	0.015				
+3	2	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0			55	fb:part.55
+3	3	fb:cell.null											
+3	4	fb:cell.null											
+4	0	fb:cell.modified	Modified	modified	modify	VBN	O						
+4	1	fb:cell.0_020	0.020	0.020	0.020	CD	NUMBER	0.02	0.02				
+4	2	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0			60	fb:part.60
+4	3	fb:cell.iii_notches	III notches	iii|notches	III|notch	NNP|NNS	O|O	|					
+4	4	fb:cell._stars_3	*** stars	\\*\\*\\*|stars	\\*\\*\\*|star	NN|NNS	O|O	|					
+5	0	fb:cell.improved_modified	Improved Modified	improved|modified	improve|modify	VBN|VBN	O|O	|					
+5	1	fb:cell.0_025	0.025	0.025	0.025	CD	NUMBER	0.025	0.025				
+5	2	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0			65	fb:part.65
+5	3	fb:cell.ii_notches	II notches	ii|notches	ii|notch	CD|NNS	NUMBER|O	0.0|					
+5	4	fb:cell._stars_4	** stars	\\*\\*|stars	\\*\\*|star	SYM|NNS	O|O	|					
+6	0	fb:cell.full	Full	full	full	JJ	O						
+6	1	fb:cell.0_030	0.030	0.030	0.030	CD	NUMBER	0.03	0.03				
+6	2	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0			70	fb:part.70
+6	3	fb:cell.i_notch	I notch	i|notch	I|notch	PRP|VBP	O|O	|					
+6	4	fb:cell._star	* star	\\*|star	\\*|star	SYM|NN	O|O	|					
+7	0	fb:cell.extra_full	Extra Full	extra|full	Extra|full	NNP|JJ	O|O	|					
+7	1	fb:cell.0_040	0.040	0.040	0.040	CD	NUMBER	0.04	0.04				
+7	2	fb:cell.73	73	73	73	CD	NUMBER	73.0	73.0			73	fb:part.73
+7	3	fb:cell.i_notch	I notch	i|notch	I|notch	PRP|VBP	O|O	|					
+7	4	fb:cell.null											
+8	0	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+8	1	fb:cell.0_045_plus	0.045 plus	0.045|plus	0.045|plus	CD|CC	NUMBER|O	0.045|	0.045				
+8	2	fb:cell.75_plus	75 plus	75|plus	75|plus	CD|CC	NUMBER|O	75.0|	75.0			75 plus	fb:part.75_plus
+8	3	fb:cell.i_notch	I notch	i|notch	I|notch	PRP|VBP	O|O	|					
+8	4	fb:cell.null											

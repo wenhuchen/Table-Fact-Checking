@@ -1,0 +1,210 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.interferometer_and_observing_mode	Interferometer and observing mode	interferometer|and|observing|mode	Interferometer|and|observe|mode	NNP|CC|VBG|NN	O|O|O|O	|||					
+-1	1	fb:row.row.waveband	Waveband	waveband	Waveband	NNP	O						
+-1	2	fb:row.row.limiting_magnitude	Limiting magnitude	limiting|magnitude	limit|magnitude	VBG|NN	O|O	|					
+-1	3	fb:row.row.minimum_baseline_m_un_projected	Minimum baseline (m)\n(un-projected)	minimum|baseline|-lrb-|m|-rrb-|-lrb-|un|projected|-rrb-	Minimum|baseline|-lrb-|m|-rrb-|-lrb-|un|project|-rrb-	NNP|NN|-LRB-|NN|-RRB-|-LRB-|JJ|VBN|-RRB-	O|O|O|O|O|O|O|O|O	||||||||					
+-1	4	fb:row.row.maximum_baseline_m	Maximum baseline (m)	maximum|baseline|-lrb-|m|-rrb-	Maximum|baseline|-lrb-|m|-rrb-	NNP|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	5	fb:row.row.approx_no_visibility_measurements_per_year_measurements_per_night_x_nights_used_per_year	Approx. no. visibility measurements per year\n(measurements per night x nights used per year)	approx|.|no|.|visibility|measurements|per|year|-lrb-|measurements|per|night|x|nights|used|per|year|-rrb-	approx|.|no|.|visibility|measurement|per|year|-lrb-|measurement|per|night|x|night|use|per|year|-rrb-	NN|.|DT|.|NN|NNS|IN|NN|-LRB-|NNS|IN|NN|CC|NNS|VBN|IN|NN|-RRB-	O|O|O|O|O|O|O|DURATION|O|O|O|TIME|O|TIME|O|O|DURATION|O	|||||||||||TNI||TNI||||					
+-1	6	fb:row.row.max_ratio_of_no_phase_no_amplitude_measurements_measure_of_imaging_performance_0_none	Max ratio of no. phase / no. amplitude measurements\n(measure of imaging performance, 0 = none)	max|ratio|of|no|.|phase|\\/|no|.|amplitude|measurements|-lrb-|measure|of|imaging|performance|,|0|=|none|-rrb-	Max|ratio|of|no|.|phase|\\/|no|.|amplitude|measurement|-lrb-|measure|of|imaging|performance|,|0|=|none|-rrb-	NNP|NN|IN|DT|.|NN|:|DT|.|NN|NNS|-LRB-|NN|IN|NN|NN|,|CD|JJ|NN|-RRB-	PERSON|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O	|||||||||||||||||0.0|||					
+-1	7	fb:row.row.accuracy_of_amplitude2_measurements	Accuracy of amplitude2 measurements	accuracy|of|amplitude2|measurements	accuracy|of|amplitude2|measurement	NN|IN|NN|NNS	O|O|O|O	|||					
+-1	8	fb:row.row.accuracy_of_phase_measurements_milli_radians	Accuracy of phase measurements\n(milli-radians)	accuracy|of|phase|measurements|-lrb-|milli|radians|-rrb-	accuracy|of|phase|measurement|-lrb-|milli|radian|-rrb-	NN|IN|NN|NNS|-LRB-|JJ|NNS|-RRB-	O|O|O|O|O|O|O|O	|||||||					
+-1	9	fb:row.row.number_of_spectral_channels_max_in_use_simultaneously	Number of spectral channels\n(max in use simultaneously)	number|of|spectral|channels|-lrb-|max|in|use|simultaneously|-rrb-	number|of|spectral|channel|-lrb-|max|in|use|simultaneously|-rrb-	NN|IN|JJ|NNS|-LRB-|NN|IN|NN|RB|-RRB-	O|O|O|O|O|O|O|O|O|O	|||||||||					
+-1	10	fb:row.row.comments	Comments	comments	comment	NNS	O						
+0	0	fb:cell.chara_array	CHARA Array	chara|array	CHARA|Array	NNP|NNP	O|O	|				CHARA Array	fb:part.chara_array
+0	1	fb:cell.v_r_i_j_h_k	V, R, I, J, H, K	v|,|r|,|i|,|j|,|h|,|k	v|,|r|,|I|,|J|,|H|,|K	NN|,|NN|,|PRP|,|NNP|,|NNP|,|NNP	O|O|O|O|O|O|O|O|O|O|O	||||||||||				V|R|I|J|H|K	fb:part.v|fb:part.r|fb:part.i|fb:part.j|fb:part.h|fb:part.k
+0	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+0	3	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+0	4	fb:cell.330	330	330	330	CD	NUMBER	330.0	330.0				
+0	5	fb:cell.7500	7500	7500	7500	CD	NUMBER	7500.0	7500.0				
+0	6	fb:cell.0_7	0.7	0.7	0.7	CD	NUMBER	0.7	0.7				
+0	7	fb:cell.1	1%	1|%	1|%	CD|NN	PERCENT|PERCENT	%1.0|%1.0	1.0				
+0	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+0	9	fb:cell.30000	30000	30000	30000	CD	NUMBER	30000.0	30000.0				
+0	10	fb:cell.yes_30000_in_the_visible_band_maxiumum_baseline_330_m	Yes... 30000 in the visible band; maxiumum baseline 330-m	yes|...|30000|in|the|visible|band|;|maxiumum|baseline|330|m	yes|...|30000|in|the|visible|band|;|maxiumum|baseline|330|m	UH|:|CD|IN|DT|JJ|NN|:|NN|NN|CD|NN	O|O|NUMBER|O|O|O|O|O|O|O|NUMBER|O	||30000.0||||||||330.0|				Yes... 30000 in the visible band; maxiumum baseline 330-m	fb:part.yes_30000_in_the_visible_band_maxiumum_baseline_330_m
+1	0	fb:cell.coast_visible	COAST visible	coast|visible	coast|visible	NN|JJ	O|O	|				COAST visible	fb:part.coast_visible
+1	1	fb:cell.r_i	R, I	r|,|i	r|,|I	NN|,|PRP	O|O|O	||				R|I	fb:part.r|fb:part.i
+1	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+1	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+1	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+1	5	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+1	6	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+1	7	fb:cell.4_2	4%	4|%	4|%	CD|NN	PERCENT|PERCENT	%4.0|%4.0	4.0				
+1	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+1	9	fb:cell.4_3	4?	4|?	4|?	CD|.	NUMBER|O	4.0|	4.0				
+1	10	fb:cell.300_cloudy_nights_per_year_maximum_baseline_100_m	300 cloudy nights per year, maximum baseline 100-m	300|cloudy|nights|per|year|,|maximum|baseline|100|m	300|cloudy|night|per|year|,|maximum|baseline|100|m	CD|JJ|NNS|IN|NN|,|NN|NN|CD|NN	NUMBER|O|TIME|O|DURATION|O|O|O|NUMBER|O	300.0||TNI||||||100.0|	300.0		100.0	300 cloudy nights per year|maximum baseline 100-m	fb:part.300_cloudy_nights_per_year|fb:part.maximum_baseline_100_m
+2	0	fb:cell.coast_infrared	COAST infrared	coast|infrared	coast|infrare	NN|VBD	O|O	|				COAST infrared	fb:part.coast_infrared
+2	1	fb:cell.j_h	J, H	j|,|h	j|,|h	NN|,|NN	O|O|O	||				J|H	fb:part.j|fb:part.h
+2	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+2	4	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+2	5	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+2	6	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+2	7	fb:cell.20	20%	20|%	20|%	CD|NN	PERCENT|PERCENT	%20.0|%20.0	20.0				
+2	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+2	9	fb:cell.1_2	1	1	1	CD	NUMBER	1.0	1.0				
+2	10	fb:cell.300_cloudy_nights_per_year_maximum_baseline_100_m	300 cloudy nights per year, maximum baseline 100-m	300|cloudy|nights|per|year|,|maximum|baseline|100|m	300|cloudy|night|per|year|,|maximum|baseline|100|m	CD|JJ|NNS|IN|NN|,|NN|NN|CD|NN	NUMBER|O|TIME|O|DURATION|O|O|O|NUMBER|O	300.0||TNI||||||100.0|	300.0		100.0	300 cloudy nights per year|maximum baseline 100-m	fb:part.300_cloudy_nights_per_year|fb:part.maximum_baseline_100_m
+3	0	fb:cell.gi2t_visible	GI2T visible	gi2t|visible	gi2t|visible	NN|JJ	O|O	|	2.0			GI2T visible	fb:part.gi2t_visible
+3	1	fb:cell.r_i	R, I	r|,|i	r|,|I	NN|,|PRP	O|O|O	||				R|I	fb:part.r|fb:part.i
+3	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+3	3	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+3	4	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+3	5	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+3	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+3	7	fb:cell.10_2	10%	10|%	10|%	CD|NN	PERCENT|PERCENT	%10.0|%10.0	10.0				
+3	8	fb:cell.null	-	-	-	:	O						
+3	9	fb:cell.400	400?	400|?	400|?	CD|.	NUMBER|O	400.0|	400.0				
+3	10	fb:cell.closed_in_2006	CLOSED in 2006	closed|in|2006	close|in|2006	VBN|IN|CD	O|O|DATE	||2006	2006.0			CLOSED in 2006	fb:part.closed_in_2006
+4	0	fb:cell.iota	IOTA	iota	iota	NN	O					IOTA	fb:part.iota
+4	1	fb:cell.j_h_k	J, H, K	j|,|h|,|k	j|,|h|,|k	NN|,|NN|,|NN	O|O|O|O|O	||||				J|H|K	fb:part.j|fb:part.h|fb:part.k
+4	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+4	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+4	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+4	5	fb:cell.10000	10000	10000	10000	CD	NUMBER	10000.0	10000.0				
+4	6	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+4	7	fb:cell.2	2%	2|%	2|%	CD|NN	PERCENT|PERCENT	%2.0|%2.0	2.0				
+4	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+4	9	fb:cell.1_3	1?	1|?	1|?	CD|.	NUMBER|O	1.0|	1.0				
+4	10	fb:cell.integrated_optics_beam_combiner_closed	Integrated optics beam combiner. CLOSED.	integrated|optics|beam|combiner|.|closed|.	Integrated|optics|beam|combiner|.|closed|.	NNP|NNS|NN|NN|.|NN|.	O|O|O|O|O|O|O	||||||				Integrated optics beam combiner. CLOSED.	fb:part.integrated_optics_beam_combiner_closed
+5	0	fb:cell.isi	ISI	isi	isus	NN	O					ISI	fb:part.isi
+5	1	fb:cell.n	N	n	n	NN	O					N	fb:part.n
+5	2	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+5	3	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+5	4	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+5	5	fb:cell.5000	5000	5000	5000	CD	NUMBER	5000.0	5000.0				
+5	6	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+5	7	fb:cell.1	1%	1|%	1|%	CD|NN	PERCENT|PERCENT	%1.0|%1.0	1.0				
+5	8	fb:cell.1_2	1	1	1	CD	NUMBER	1.0	1.0				
+5	9	fb:cell.1000	1000	1000	1000	CD	DATE	1000	1000.0	1000-xx-xx			
+5	10	fb:cell.maximum_baseline_70_m	Maximum baseline 70-m	maximum|baseline|70|m	Maximum|baseline|70|m	NNP|NN|CD|NN	O|O|NUMBER|O	||70.0|	70.0			Maximum baseline 70-m	fb:part.maximum_baseline_70_m
+6	0	fb:cell.keck_interferometer	Keck Interferometer	keck|interferometer	Keck|Interferometer	NNP|NNP	PERSON|PERSON	|				Keck Interferometer	fb:part.keck_interferometer
+6	1	fb:cell.h_k_l_n	H, K, L, N	h|,|k|,|l|,|n	h|,|k|,|l|,|n	NN|,|NN|,|NN|,|NN	O|O|O|O|O|O|O	||||||				H|K|L|N	fb:part.h|fb:part.k|fb:part.l|fb:part.n
+6	2	fb:cell.10_3	10.3	10.3	10.3	CD	NUMBER	10.3	10.3				
+6	3	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+6	4	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+6	5	fb:cell.1000	1000	1000	1000	CD	DATE	1000	1000.0	1000-xx-xx			
+6	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+6	7	fb:cell.4_2	4%	4|%	4|%	CD|NN	PERCENT|PERCENT	%4.0|%4.0	4.0				
+6	8	fb:cell.1_2	1	1	1	CD	NUMBER	1.0	1.0				
+6	9	fb:cell.330	330	330	330	CD	NUMBER	330.0	330.0				
+6	10	fb:cell.nulling_key_science_underway_no_imaging_on_a_single_baseline_instrument_maximum_baseline_11_m_closed	Nulling Key Science Underway - No imaging on a single baseline instrument; maximum baseline 11-m. CLOSED.	nulling|key|science|underway|-|no|imaging|on|a|single|baseline|instrument|;|maximum|baseline|11|m.|closed|.	Nulling|Key|Science|Underway|-|no|imaging|on|a|single|baseline|instrument|;|maximum|baseline|11|m.|CLOSED|.	NNP|NNP|NNP|NNP|:|UH|NN|IN|DT|JJ|NN|NN|:|NN|NN|CD|NNP|NNP|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|NUMBER|O|O	|||||||||||||||11.0|11.0||	11.0			Nulling Key Science Underway - No imaging on a single baseline instrument; maximum baseline 11-m. CLOSED.	fb:part.nulling_key_science_underway_no_imaging_on_a_single_baseline_instrument_maximum_baseline_11_m_closed
+7	0	fb:cell.keck_aperture_masking	Keck Aperture Masking	keck|aperture|masking	Keck|Aperture|mask	NNP|NNP|VBG	O|O|O	||				Keck Aperture Masking	fb:part.keck_aperture_masking
+7	1	fb:cell.j_h_k_l	J, H, K, L	j|,|h|,|k|,|l	j|,|h|,|k|,|l	NN|,|NN|,|NN|,|NN	O|O|O|O|O|O|O	||||||				J|H|K|L	fb:part.j|fb:part.h|fb:part.k|fb:part.l
+7	2	fb:cell.2_2	2	2	2	CD	NUMBER	2.0	2.0				
+7	3	fb:cell.0_5	0.5	0.5	0.5	CD	NUMBER	0.5	0.5				
+7	4	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+7	5	fb:cell.20000	20000	20000	20000	CD	NUMBER	20000.0	20000.0				
+7	6	fb:cell.0_9	0.9	0.9	0.9	CD	NUMBER	0.9	0.9				
+7	7	fb:cell.20	20%	20|%	20|%	CD|NN	PERCENT|PERCENT	%20.0|%20.0	20.0				
+7	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+7	9	fb:cell.1_2	1	1	1	CD	NUMBER	1.0	1.0				
+7	10	fb:cell.closed	CLOSED.	closed|.	closed|.	NN|.	O|O	|				CLOSED.	fb:part.closed
+8	0	fb:cell.mira_1_2	MIRA 1.2	mira|1.2	MIRA|1.2	NNP|CD	ORGANIZATION|NUMBER	|1.2	1.2			MIRA 1.2	fb:part.mira_1_2
+8	1	fb:cell.r_i	R, I	r|,|i	r|,|I	NN|,|PRP	O|O|O	||				R|I	fb:part.r|fb:part.i
+8	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+8	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+8	4	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+8	5	fb:cell.500	500	500	500	CD	NUMBER	500.0	500.0				
+8	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+8	7	fb:cell.10_2	10%	10|%	10|%	CD|NN	PERCENT|PERCENT	%10.0|%10.0	10.0				
+8	8	fb:cell.null	-	-	-	:	O						
+8	9	fb:cell.1_2	1	1	1	CD	NUMBER	1.0	1.0				
+8	10	fb:cell.mid_infrared	Mid-Infrared	mid|infrared	Mid|infrared	NNP|JJ	O|O	|				Mid-Infrared	fb:part.mid_infrared
+9	0	fb:cell.navy_precision_optical_interferometer_npoi_visible	Navy Precision Optical Interferometer(NPOI) visible	navy|precision|optical|interferometer|-lrb-|npoi|-rrb-|visible	Navy|Precision|Optical|Interferometer|-lrb-|NPOI|-rrb-|visible	NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-|JJ	ORGANIZATION|O|O|O|O|ORGANIZATION|O|O	|||||||				Navy Precision Optical Interferometer(NPOI) visible	fb:part.navy_precision_optical_interferometer_npoi_visible
+9	1	fb:cell.v_r_i	V, R, I	v|,|r|,|i	v|,|r|,|I	NN|,|NN|,|PRP	O|O|O|O|O	||||				V|R|I	fb:part.v|fb:part.r|fb:part.i
+9	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+9	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+9	4	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+9	5	fb:cell.50000	50000	50000	50000	CD	NUMBER	50000.0	50000.0				
+9	6	fb:cell.0_7	0.7	0.7	0.7	CD	NUMBER	0.7	0.7				
+9	7	fb:cell.4_2	4%	4|%	4|%	CD|NN	PERCENT|PERCENT	%4.0|%4.0	4.0				
+9	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	9	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+9	10	fb:cell.at_nofs_siderstats_operational_4_x_1_8m_added_apertures_in_fy13_world_s_largest_optical_baseline_437m_6_phased	at NOFS; siderstats operational 4 x 1.8m added apertures in FY13. World's largest optical baseline-437m, 6-phased	at|nofs|;|siderstats|operational|4|x|1.8|m|added|apertures|in|fy13|.|world|'s|largest|optical|baseline-437m|,|6|phased	at|nof|;|siderstat|operational|4|x|1.8|m|add|aperture|in|fy13|.|World|'s|largest|optical|baseline-437m|,|6|phase	IN|NN|:|NNS|JJ|CD|CC|CD|NN|VBD|NNS|IN|NN|.|NNP|POS|JJS|JJ|NN|,|CD|VBD	O|O|O|O|O|NUMBER|O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O	|||||4.0||1.8|||||||||||||6.0|	4.0		1.8	at NOFS; siderstats operational 4 x 1.8m added apertures in FY13. World's largest optical baseline-437m|6-phased	fb:part.at_nofs_siderstats_operational_4_x_1_8m_added_apertures_in_fy13_world_s_largest_optical_baseline_437m|fb:part.6_phased
+10	0	fb:cell.palomar_testbed_interferometer	Palomar Testbed Interferometer	palomar|testbed|interferometer	Palomar|Testbed|Interferometer	NNP|NNP|NNP	O|O|O	||				Palomar Testbed Interferometer	fb:part.palomar_testbed_interferometer
+10	1	fb:cell.j_h_k_2	J,H,K	j|,|h|,|k	j|,|h|,|k	NN|,|NN|,|NN	O|O|O|O|O	||||				J,H,K	fb:part.j_h_k
+10	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+10	3	fb:cell.86	86	86	86	CD	NUMBER	86.0	86.0				
+10	4	fb:cell.110	110	110	110	CD	NUMBER	110.0	110.0				
+10	5	fb:cell.50000	50000	50000	50000	CD	NUMBER	50000.0	50000.0				
+10	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+10	7	fb:cell.2	2%	2|%	2|%	CD|NN	PERCENT|PERCENT	%2.0|%2.0	2.0				
+10	8	fb:cell.0_1	0.1	0.1	0.1	CD	NUMBER	0.1	0.1				
+10	9	fb:cell.5_10	5,10	5,10	5,10	CD	NUMBER	5.1	510.0				
+10	10	fb:cell._dual_star_capable_no_imaging_on_a_single_baseline_instrument_closed_2009	"dual-star" capable , No imaging on a single baseline instrument. CLOSED 2009.	``|dual|star|''|capable|,|no|imaging|on|a|single|baseline|instrument|.|closed|2009|.	``|dual|star|''|capable|,|no|imaging|on|a|single|baseline|instrument|.|close|2009|.	``|JJ|NN|''|JJ|,|DT|NN|IN|DT|JJ|NN|NN|.|VBN|CD|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|DATE|O	|||||||||||||||2009|				"dual-star" capable|No imaging on a single baseline instrument. CLOSED 2009.	fb:part._dual_star_capable|fb:part.no_imaging_on_a_single_baseline_instrument_closed_2009
+11	0	fb:cell.susi	SUSI	susi	SUSI	NNP	O					SUSI	fb:part.susi
+11	1	fb:cell.b_v_r_i	B, V, R, I	b|,|v|,|r|,|i	b|,|v|,|r|,|I	NN|,|NN|,|NN|,|PRP	O|O|O|O|O|O|O	||||||				B|V|R|I	fb:part.b|fb:part.v|fb:part.r|fb:part.i
+11	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+11	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+11	4	fb:cell.640	640	640	640	CD	NUMBER	640.0	640.0				
+11	5	fb:cell.5000	5000	5000	5000	CD	NUMBER	5000.0	5000.0				
+11	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+11	7	fb:cell.4_2	4%	4|%	4|%	CD|NN	PERCENT|PERCENT	%4.0|%4.0	4.0				
+11	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+11	9	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+11	10	fb:cell.no_imaging_on_a_single_baseline_instrument_maximum_baseline_160m	No imaging on a single baseline instrument; Maximum baseline 160m	no|imaging|on|a|single|baseline|instrument|;|maximum|baseline|160m	no|imaging|on|a|single|baseline|instrument|;|Maximum|baseline|160m	DT|NN|IN|DT|JJ|NN|NN|:|NNP|NN|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||	160.0			No imaging on a single baseline instrument; Maximum baseline 160m	fb:part.no_imaging_on_a_single_baseline_instrument_maximum_baseline_160m
+12	0	fb:cell.vlti_uts_amber	VLTI\n+UTs AMBER	vlti|+|uts|amber	VLTI|+|UTs|AMBER	NNP|CC|NNP|NNP	O|O|O|O	|||				VLTI|+UTs AMBER	fb:part.vlti|fb:part._uts_amber
+12	1	fb:cell.j_h_k_simultaneously	J, H, K simultaneously	j|,|h|,|k|simultaneously	j|,|h|,|K|simultaneously	NN|,|NN|,|NNP|RB	O|O|O|O|O|O	|||||				J|H|K simultaneously	fb:part.j|fb:part.h|fb:part.k_simultaneously
+12	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+12	3	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+12	4	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0				
+12	5	fb:cell.400_2	400	400	400	CD	NUMBER	400.0	400.0				
+12	6	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+12	7	fb:cell.1	1%	1|%	1|%	CD|NN	PERCENT|PERCENT	%1.0|%1.0	1.0				
+12	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+12	9	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+12	10	fb:cell.used_for_a_few_weeks_per_year_longest_overall_vlti_baseline_130m	Used for a few weeks per year. Longest overall VLTI Baseline 130m	used|for|a|few|weeks|per|year|.|longest|overall|vlti|baseline|130m	use|for|a|few|week|per|year|.|Longest|overall|VLTI|baseline|130m	VBN|IN|DT|JJ|NNS|IN|NN|.|NNP|JJ|NNP|NN|NN	O|O|DURATION|DURATION|DURATION|O|DURATION|O|O|O|O|O|O	||||||||||||				Used for a few weeks per year. Longest overall VLTI Baseline 130m	fb:part.used_for_a_few_weeks_per_year_longest_overall_vlti_baseline_130m
+13	0	fb:cell.vlti_ats_amber	VLTI\n+ATs AMBER	vlti|+|ats|amber	vltus|+|at|AMBER	NN|CC|NNS|NNP	O|O|O|O	|||				VLTI|+ATs AMBER	fb:part.vlti|fb:part._ats_amber
+13	1	fb:cell.j_h_k_simultaneously	J, H, K simultaneously	j|,|h|,|k|simultaneously	j|,|h|,|K|simultaneously	NN|,|NN|,|NNP|RB	O|O|O|O|O|O	|||||				J|H|K simultaneously	fb:part.j|fb:part.h|fb:part.k_simultaneously
+13	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+13	3	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+13	4	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0				
+13	5	fb:cell.400_2	400	400	400	CD	NUMBER	400.0	400.0				
+13	6	fb:cell.0_3	0.3	0.3	0.3	CD	NUMBER	0.3	0.3				
+13	7	fb:cell.1	1%	1|%	1|%	CD|NN	PERCENT|PERCENT	%1.0|%1.0	1.0				
+13	8	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+13	9	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+13	10	fb:cell.longest_overall_vlti_baseline_130m	Longest overall VLTI Baseline 130m	longest|overall|vlti|baseline|130m	Longest|overall|VLTI|baseline|130m	NNP|JJ|NNP|NN|NN	O|O|O|O|O	||||	130.0			Longest overall VLTI Baseline 130m	fb:part.longest_overall_vlti_baseline_130m
+14	0	fb:cell.vlti_uts_vinci	VLTI\n+UTs VINCI	vlti|+|uts|vinci	VLTI|+|UTs|VINCI	NNP|CC|NNP|NNP	O|O|O|O	|||				VLTI|+UTs VINCI	fb:part.vlti|fb:part._uts_vinci
+14	1	fb:cell.k	K	k	k	NN	O					K	fb:part.k
+14	2	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+14	3	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+14	4	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0				
+14	5	fb:cell.400_2	400	400	400	CD	NUMBER	400.0	400.0				
+14	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+14	7	fb:cell._1	>1%	>|1|%	>|1|%	JJR|CD|NN	O|PERCENT|PERCENT	|%1.0|%1.0	1.0				
+14	8	fb:cell.null	-	-	-	:	O						
+14	9	fb:cell.1_2	1	1	1	CD	NUMBER	1.0	1.0				
+14	10	fb:cell.integrated_optics_beam_combiner_longest_overall_vlti_baseline_130m	Integrated optics beam combiner. Longest overall VLTI Baseline 130m	integrated|optics|beam|combiner|.|longest|overall|vlti|baseline|130m	Integrated|optics|beam|combiner|.|Longest|overall|VLTI|baseline|130m	NNP|NNS|NN|NN|.|NNP|JJ|NNP|NN|NN	O|O|O|O|O|O|O|O|O|O	|||||||||				Integrated optics beam combiner. Longest overall VLTI Baseline 130m	fb:part.integrated_optics_beam_combiner_longest_overall_vlti_baseline_130m
+15	0	fb:cell.vlti_ats_vinci	VLTI\n+ATs VINCI	vlti|+|ats|vinci	vltus|+|at|vinci	NN|CC|NNS|VBP	O|O|O|O	|||				VLTI|+ATs VINCI	fb:part.vlti|fb:part._ats_vinci
+15	1	fb:cell.k	K	k	k	NN	O					K	fb:part.k
+15	2	fb:cell.never_checked	Never checked	never|checked	never|check	RB|VBN	O|O	|					
+15	3	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+15	4	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0				
+15	5	fb:cell.400_2	400	400	400	CD	NUMBER	400.0	400.0				
+15	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+15	7	fb:cell._1	>1%	>|1|%	>|1|%	JJR|CD|NN	O|PERCENT|PERCENT	|%1.0|%1.0	1.0				
+15	8	fb:cell.null	-	-	-	:	O						
+15	9	fb:cell.1_2	1	1	1	CD	NUMBER	1.0	1.0				
+15	10	fb:cell.longest_overall_vlti_baseline_130m	Longest overall VLTI Baseline 130m	longest|overall|vlti|baseline|130m	Longest|overall|VLTI|baseline|130m	NNP|JJ|NNP|NN|NN	O|O|O|O|O	||||	130.0			Longest overall VLTI Baseline 130m	fb:part.longest_overall_vlti_baseline_130m
+16	0	fb:cell.vlti_uts_midi	VLTI\n+UTs MIDI	vlti|+|uts|midi	VLTI|+|UTs|MIDI	NNP|CC|NNP|NNP	O|O|O|O	|||				VLTI|+UTs MIDI	fb:part.vlti|fb:part._uts_midi
+16	1	fb:cell.n	N	n	n	NN	O					N	fb:part.n
+16	2	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+16	3	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+16	4	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0				
+16	5	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0				
+16	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+16	7	fb:cell.10_2	10%	10|%	10|%	CD|NN	PERCENT|PERCENT	%10.0|%10.0	10.0				
+16	8	fb:cell.null	-	-	-	:	O						
+16	9	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+16	10	fb:cell.used_for_a_few_weeks_per_year_longest_overall_vlti_baseline_130m	Used for a few weeks per year. Longest overall VLTI Baseline 130m	used|for|a|few|weeks|per|year|.|longest|overall|vlti|baseline|130m	use|for|a|few|week|per|year|.|Longest|overall|VLTI|baseline|130m	VBN|IN|DT|JJ|NNS|IN|NN|.|NNP|JJ|NNP|NN|NN	O|O|DURATION|DURATION|DURATION|O|DURATION|O|O|O|O|O|O	||||||||||||				Used for a few weeks per year. Longest overall VLTI Baseline 130m	fb:part.used_for_a_few_weeks_per_year_longest_overall_vlti_baseline_130m
+17	0	fb:cell.vlti_ats_midi	VLTI\n+ATs MIDI	vlti|+|ats|midi	vltus|+|at|midi	NN|CC|NNS|NN	O|O|O|O	|||				VLTI|+ATs MIDI	fb:part.vlti|fb:part._ats_midi
+17	1	fb:cell.n	N	n	n	NN	O					N	fb:part.n
+17	2	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+17	3	fb:cell.null_2	?	?	?	.	O						
+17	4	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0				
+17	5	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0				
+17	6	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+17	7	fb:cell.10_2	10%	10|%	10|%	CD|NN	PERCENT|PERCENT	%10.0|%10.0	10.0				
+17	8	fb:cell.null	-	-	-	:	O						
+17	9	fb:cell.250	250	250	250	CD	NUMBER	250.0	250.0				
+17	10	fb:cell.vlti_inldes_world_s_largest_unfilled_apertures_siderostats_1_8_m_8_m_longest_overall_vlti_baseline_130m	VLTI inldes World's largest unfilled apertures (siderostats, 1.8-m, 8-m). Longest overall VLTI Baseline 130m	vlti|inldes|world|'s|largest|unfilled|apertures|-lrb-|siderostats|,|1.8|m|,|8|m|-rrb-|.|longest|overall|vlti|baseline|130m	vltus|inlde|World|'s|largest|unfilled|aperture|-lrb-|siderostat|,|1.8|m|,|8|m|-rrb-|.|Longest|overall|VLTI|baseline|130m	NN|VBZ|NNP|POS|JJS|JJ|NNS|-LRB-|NNS|,|CD|NN|,|CD|NN|-RRB-|.|NNP|JJ|NNP|NN|NN	ORGANIZATION|O|O|O|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|O	||||||||||1.8|||8.0||||||||	1.8		8.0	VLTI inldes World's largest unfilled apertures (siderostats|1.8-m|8-m). Longest overall VLTI Baseline 130m	fb:part.vlti_inldes_world_s_largest_unfilled_apertures_siderostats|fb:part.1_8_m|fb:part.8_m_longest_overall_vlti_baseline_130m

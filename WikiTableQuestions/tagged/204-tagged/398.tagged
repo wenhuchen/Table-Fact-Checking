@@ -1,0 +1,201 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.title	Title	title	title	NN	O						
+-1	1	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	2	fb:row.row.publisher	Publisher	publisher	publisher	NN	O						
+-1	3	fb:row.row.developer	Developer	developer	Developer	NNP	O						
+-1	4	fb:row.row.platforms	Platforms	platforms	platform	NNS	O						
+0	0	fb:cell.the_hobbit	The Hobbit	the|hobbit	the|Hobbit	DT|NNP	O|O	|					
+0	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+0	2	fb:cell.melbourne_house	Melbourne House	melbourne|house	Melbourne|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Melbourne House	fb:part.melbourne_house
+0	3	fb:cell.beam_software	Beam Software	beam|software	Beam|Software	NNP|NNP	O|O	|				Beam Software	fb:part.beam_software
+0	4	fb:cell.amstrad_cpc_zx_spectrum_commodore_64_bbc_no_graphics_dragon_32_oric_atmos_msx_apple_ii_ibm_pc	Amstrad CPC, ZX Spectrum, Commodore 64, BBC (no graphics), Dragon 32, Oric Atmos, MSX, Apple II, IBM PC	amstrad|cpc|,|zx|spectrum|,|commodore|64|,|bbc|-lrb-|no|graphics|-rrb-|,|dragon|32|,|oric|atmos|,|msx|,|apple|ii|,|ibm|pc	Amstrad|CPC|,|ZX|Spectrum|,|Commodore|64|,|BBC|-lrb-|no|graphic|-rrb-|,|Dragon|32|,|Oric|Atmos|,|MSX|,|Apple|II|,|IBM|PC	NNP|NNP|,|NNP|NNP|,|NNP|CD|,|NNP|-LRB-|DT|NNS|-RRB-|,|NNP|CD|,|NNP|NNP|,|NNP|,|NNP|NNP|,|NNP|NNP	ORGANIZATION|ORGANIZATION|O|O|O|O|ORGANIZATION|NUMBER|O|ORGANIZATION|O|O|O|O|O|ORGANIZATION|NUMBER|O|PERSON|PERSON|O|ORGANIZATION|O|O|O|O|ORGANIZATION|O	|||||||64.0|||||||||32.0|||||||||||	64.0		32.0	Amstrad CPC|ZX Spectrum|Commodore 64|BBC (no graphics)|Dragon 32|Oric Atmos|MSX|Apple II|IBM PC	fb:part.amstrad_cpc|fb:part.zx_spectrum|fb:part.commodore_64|fb:part.bbc_no_graphics|fb:part.dragon_32|fb:part.oric_atmos|fb:part.msx|fb:part.apple_ii|fb:part.ibm_pc
+1	0	fb:cell.lord_of_the_rings_game_one_aka_the_fellowship_of_the_ring	Lord of the Rings: Game One (AKA: The Fellowship of The Ring)	lord|of|the|rings|:|game|one|-lrb-|aka|:|the|fellowship|of|the|ring|-rrb-	lord|of|the|ring|:|Game|one|-lrb-|aka|:|the|Fellowship|of|the|ring|-rrb-	NN|IN|DT|NNS|:|NNP|CD|-LRB-|NN|:|DT|NNP|IN|DT|NN|-RRB-	O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O|O|O	||||||1.0|||||||||					
+1	1	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+1	2	fb:cell.melbourne_house	Melbourne House	melbourne|house	Melbourne|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Melbourne House	fb:part.melbourne_house
+1	3	fb:cell.beam_software	Beam Software	beam|software	Beam|Software	NNP|NNP	O|O	|				Beam Software	fb:part.beam_software
+1	4	fb:cell.zx_spectrum_commodore_64_bbc_dragon_32_apple_macintosh_apple_ii_ibm_pc	ZX Spectrum, Commodore 64, BBC, Dragon 32, Apple Macintosh, Apple II, IBM PC	zx|spectrum|,|commodore|64|,|bbc|,|dragon|32|,|apple|macintosh|,|apple|ii|,|ibm|pc	ZX|Spectrum|,|Commodore|64|,|BBC|,|Dragon|32|,|Apple|Macintosh|,|Apple|II|,|IBM|PC	NNP|NNP|,|NNP|CD|,|NNP|,|NNP|CD|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	O|O|O|ORGANIZATION|NUMBER|O|ORGANIZATION|O|O|NUMBER|O|ORGANIZATION|ORGANIZATION|O|O|O|O|ORGANIZATION|O	||||64.0|||||32.0|||||||||	64.0		32.0	ZX Spectrum|Commodore 64|BBC|Dragon 32|Apple Macintosh|Apple II|IBM PC	fb:part.zx_spectrum|fb:part.commodore_64|fb:part.bbc|fb:part.dragon_32|fb:part.apple_macintosh|fb:part.apple_ii|fb:part.ibm_pc
+2	0	fb:cell.the_shadows_of_mordor	The Shadows of Mordor	the|shadows|of|mordor	the|Shadows|of|Mordor	DT|NNP|IN|NNP	O|O|O|O	|||					
+2	1	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+2	2	fb:cell.melbourne_house	Melbourne House	melbourne|house	Melbourne|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Melbourne House	fb:part.melbourne_house
+2	3	fb:cell.beam_software	Beam Software	beam|software	Beam|Software	NNP|NNP	O|O	|				Beam Software	fb:part.beam_software
+2	4	fb:cell.amstrad_cpc_commodore_64_zx_spectrum_apple_ii_ibm_pc	Amstrad CPC, Commodore 64, ZX Spectrum, Apple II, IBM PC	amstrad|cpc|,|commodore|64|,|zx|spectrum|,|apple|ii|,|ibm|pc	Amstrad|CPC|,|Commodore|64|,|ZX|Spectrum|,|Apple|II|,|IBM|PC	NNP|NNP|,|NNP|CD|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	ORGANIZATION|ORGANIZATION|O|ORGANIZATION|NUMBER|O|O|O|O|O|O|O|ORGANIZATION|O	||||64.0|||||||||	64.0			Amstrad CPC|Commodore 64|ZX Spectrum|Apple II|IBM PC	fb:part.amstrad_cpc|fb:part.commodore_64|fb:part.zx_spectrum|fb:part.apple_ii|fb:part.ibm_pc
+3	0	fb:cell.war_in_middle_earth	War in Middle-earth	war|in|middle|earth	War|in|Middle|earth	NNP|IN|NNP|NN	O|O|O|O	|||					
+3	1	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+3	2	fb:cell.melbourne_house	Melbourne House	melbourne|house	Melbourne|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Melbourne House	fb:part.melbourne_house
+3	3	fb:cell.melbourne_house	Melbourne House	melbourne|house	Melbourne|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Melbourne House	fb:part.melbourne_house
+3	4	fb:cell.c64_spectrum_amstrad_cpc_amiga_atari_st_ibm_pc	C64, Spectrum, Amstrad CPC, Amiga, Atari ST, IBM PC	c64|,|spectrum|,|amstrad|cpc|,|amiga|,|atari|st|,|ibm|pc	c64|,|spectrum|,|Amstrad|CPC|,|Amiga|,|Atari|st|,|IBM|PC	NN|,|NN|,|NNP|NNP|,|NNP|,|NNP|JJ|,|NNP|NNP	O|O|O|O|ORGANIZATION|ORGANIZATION|O|LOCATION|O|ORGANIZATION|O|O|ORGANIZATION|O	|||||||||||||	64.0			C64|Spectrum|Amstrad CPC|Amiga|Atari ST|IBM PC	fb:part.c64|fb:part.spectrum|fb:part.amstrad_cpc|fb:part.amiga|fb:part.atari_st|fb:part.ibm_pc
+4	0	fb:cell.the_crack_of_doom	The Crack of Doom	the|crack|of|doom	the|crack|of|doom	DT|NN|IN|NN	O|O|O|O	|||					
+4	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+4	2	fb:cell.melbourne_house	Melbourne House	melbourne|house	Melbourne|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Melbourne House	fb:part.melbourne_house
+4	3	fb:cell.beam_software	Beam Software	beam|software	Beam|Software	NNP|NNP	O|O	|				Beam Software	fb:part.beam_software
+4	4	fb:cell.commodore_64_ibm_pc	Commodore 64, IBM PC	commodore|64|,|ibm|pc	Commodore|64|,|IBM|PC	NNP|CD|,|NNP|NNP	O|NUMBER|O|ORGANIZATION|O	|64.0|||	64.0			Commodore 64|IBM PC	fb:part.commodore_64|fb:part.ibm_pc
+5	0	fb:cell.the_lord_of_the_rings_volume_1	The Lord of the Rings Volume 1	the|lord|of|the|rings|volume|1	the|lord|of|the|Rings|volume|1	DT|NN|IN|DT|NNP|NN|CD	O|O|O|O|O|O|NUMBER	||||||1.0	1.0				
+5	1	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+5	2	fb:cell.interplay_electronic_arts	Interplay,\nElectronic Arts	interplay|,|electronic|arts	interplay|,|electronic|art	NN|,|JJ|NNS	O|O|O|O	|||				Interplay|Electronic Arts	fb:part.interplay|fb:part.electronic_arts
+5	3	fb:cell.interplay_chaos_studios_amiga	Interplay, Chaos Studios (Amiga)	interplay|,|chaos|studios|-lrb-|amiga|-rrb-	interplay|,|Chaos|Studios|-lrb-|Amiga|-rrb-	NN|,|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O	||||||				Interplay|Chaos Studios (Amiga)	fb:part.interplay|fb:part.chaos_studios_amiga
+5	4	fb:cell.amiga_ibm_pc	Amiga, IBM PC	amiga|,|ibm|pc	Amiga|,|IBM|PC	NNP|,|NNP|NNP	O|O|ORGANIZATION|O	|||				Amiga|IBM PC	fb:part.amiga|fb:part.ibm_pc
+6	0	fb:cell.the_lord_of_the_rings_volume_2	The Lord of the Rings Volume 2	the|lord|of|the|rings|volume|2	the|lord|of|the|Rings|volume|2	DT|NN|IN|DT|NNP|NN|CD	O|O|O|O|O|O|NUMBER	||||||2.0	2.0				
+6	1	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+6	2	fb:cell.interplay	Interplay	interplay	interplay	NN	O					Interplay	fb:part.interplay
+6	3	fb:cell.interplay	Interplay	interplay	interplay	NN	O					Interplay	fb:part.interplay
+6	4	fb:cell.ibm_pc	IBM PC	ibm|pc	IBM|PC	NNP|NNP	ORGANIZATION|O	|				IBM PC	fb:part.ibm_pc
+7	0	fb:cell.riders_of_rohan	Riders of Rohan	riders|of|rohan	rider|of|Rohan	NNS|IN|NNP	O|O|PERSON	||					
+7	1	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+7	2	fb:cell.konami_mirrorsoft	Konami, Mirrorsoft	konami|,|mirrorsoft	Konami|,|Mirrorsoft	NNP|,|NNP	ORGANIZATION|O|PERSON	||				Konami|Mirrorsoft	fb:part.konami|fb:part.mirrorsoft
+7	3	fb:cell.beam_software_papyrus	Beam Software, Papyrus	beam|software|,|papyrus	Beam|Software|,|Papyrus	NNP|NNP|,|NNP	O|O|O|O	|||				Beam Software|Papyrus	fb:part.beam_software|fb:part.papyrus
+7	4	fb:cell.ibm_pc	IBM PC	ibm|pc	IBM|PC	NNP|NNP	ORGANIZATION|O	|				IBM PC	fb:part.ibm_pc
+8	0	fb:cell.the_lord_of_the_rings_volume_1	The Lord of the Rings Volume 1	the|lord|of|the|rings|volume|1	the|lord|of|the|Rings|volume|1	DT|NN|IN|DT|NNP|NN|CD	O|O|O|O|O|O|NUMBER	||||||1.0	1.0				
+8	1	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+8	2	fb:cell.interplay	Interplay	interplay	interplay	NN	O					Interplay	fb:part.interplay
+8	3	fb:cell.interplay	Interplay	interplay	interplay	NN	O					Interplay	fb:part.interplay
+8	4	fb:cell.super_nes	Super NES	super|nes	Super|NES	NNP|NNP	O|O	|				Super NES	fb:part.super_nes
+9	0	fb:cell.the_lord_of_the_rings_the_fellowship_of_the_ring	The Lord of the Rings: The Fellowship of the Ring	the|lord|of|the|rings|:|the|fellowship|of|the|ring	the|lord|of|the|ring|:|the|Fellowship|of|the|ring	DT|NN|IN|DT|NNS|:|DT|NNP|IN|DT|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+9	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+9	2	fb:cell.vivendi_universal_games	Vivendi Universal Games	vivendi|universal|games	Vivendi|Universal|Games	NNP|NNP|NNPS	O|O|O	||				Vivendi Universal Games	fb:part.vivendi_universal_games
+9	3	fb:cell.surreal_software	Surreal Software	surreal|software	surreal|Software	JJ|NNP	O|O	|				Surreal Software	fb:part.surreal_software
+9	4	fb:cell.ms_windows_playstation_2	MS Windows, PlayStation 2	ms|windows|,|playstation|2	m|Windows|,|PlayStation|2	NN|NNP|,|NNP|CD	O|MISC|O|O|NUMBER	||||2.0	2.0			MS Windows|PlayStation 2	fb:part.ms_windows|fb:part.playstation_2
+10	0	fb:cell.the_lord_of_the_rings_the_fellowship_of_the_ring	The Lord of the Rings: The Fellowship of the Ring	the|lord|of|the|rings|:|the|fellowship|of|the|ring	the|lord|of|the|ring|:|the|Fellowship|of|the|ring	DT|NN|IN|DT|NNS|:|DT|NNP|IN|DT|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+10	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+10	2	fb:cell.vivendi_universal_games	Vivendi Universal Games	vivendi|universal|games	Vivendi|Universal|Games	NNP|NNP|NNPS	O|O|O	||				Vivendi Universal Games	fb:part.vivendi_universal_games
+10	3	fb:cell.the_whole_experience	The Whole Experience	the|whole|experience	the|Whole|experience	DT|NNP|NN	O|O|O	||				The Whole Experience	fb:part.the_whole_experience
+10	4	fb:cell.xbox	Xbox	xbox	xbox	NN	O					Xbox	fb:part.xbox
+11	0	fb:cell.the_lord_of_the_rings_the_fellowship_of_the_ring	The Lord of the Rings: The Fellowship of the Ring	the|lord|of|the|rings|:|the|fellowship|of|the|ring	the|lord|of|the|ring|:|the|Fellowship|of|the|ring	DT|NN|IN|DT|NNS|:|DT|NNP|IN|DT|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+11	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+11	2	fb:cell.vivendi_universal_games	Vivendi Universal Games	vivendi|universal|games	Vivendi|Universal|Games	NNP|NNP|NNPS	O|O|O	||				Vivendi Universal Games	fb:part.vivendi_universal_games
+11	3	fb:cell.pocket_studios	Pocket Studios	pocket|studios	pocket|Studios	NN|NNPS	O|O	|				Pocket Studios	fb:part.pocket_studios
+11	4	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+12	0	fb:cell.the_lord_of_the_rings_the_two_towers	The Lord of the Rings: The Two Towers	the|lord|of|the|rings|:|the|two|towers	the|lord|of|the|ring|:|the|two|Towers	DT|NN|IN|DT|NNS|:|DT|CD|NNP	O|O|O|O|O|O|O|NUMBER|O	|||||||2.0|					
+12	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+12	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+12	3	fb:cell.stormfront_studios_hypnos_entertainment_gcn	Stormfront Studios\nHypnos Entertainment (GCN)	stormfront|studios|hypnos|entertainment|-lrb-|gcn|-rrb-	Stormfront|Studios|Hypnos|Entertainment|-lrb-|GCN|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	||||||				Stormfront Studios|Hypnos Entertainment (GCN)	fb:part.stormfront_studios|fb:part.hypnos_entertainment_gcn
+12	4	fb:cell.playstation_2_xbox_nintendo_gamecube	PlayStation 2, Xbox, Nintendo GameCube	playstation|2|,|xbox|,|nintendo|gamecube	PlayStation|2|,|Xbox|,|Nintendo|GameCube	NNP|CD|,|NNP|,|NNP|NNP	O|NUMBER|O|O|O|ORGANIZATION|O	|2.0|||||	2.0			PlayStation 2|Xbox|Nintendo GameCube	fb:part.playstation_2|fb:part.xbox|fb:part.nintendo_gamecube
+13	0	fb:cell.the_lord_of_the_rings_the_two_towers	The Lord of the Rings: The Two Towers	the|lord|of|the|rings|:|the|two|towers	the|lord|of|the|ring|:|the|two|Towers	DT|NN|IN|DT|NNS|:|DT|CD|NNP	O|O|O|O|O|O|O|NUMBER|O	|||||||2.0|					
+13	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+13	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+13	3	fb:cell.griptonite_games	Griptonite Games	griptonite|games	Griptonite|Games	NNP|NNPS	O|O	|				Griptonite Games	fb:part.griptonite_games
+13	4	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+14	0	fb:cell.the_lord_of_the_rings_the_return_of_the_king	The Lord of the Rings: The Return of the King	the|lord|of|the|rings|:|the|return|of|the|king	the|lord|of|the|ring|:|the|return|of|the|King	DT|NN|IN|DT|NNS|:|DT|NN|IN|DT|NNP	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+14	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+14	2	fb:cell.electronic_arts_aspyr_mac_os_x	Electronic Arts\nAspyr (Mac OS X)	electronic|arts|aspyr|-lrb-|mac|os|x|-rrb-	electronic|art|Aspyr|-lrb-|Mac|OS|x|-rrb-	JJ|NNS|NNP|-LRB-|NNP|NNP|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||				Electronic Arts|Aspyr (Mac OS X)	fb:part.electronic_arts|fb:part.aspyr_mac_os_x
+14	3	fb:cell.electronic_arts_hypnos_entertainment_gcn_xbox_beenox_mac_os_x	Electronic Arts,Hypnos Entertainment (GCN & Xbox)\nBeenox (Mac OS X)	electronic|arts|,|hypnos|entertainment|-lrb-|gcn|&|xbox|-rrb-|beenox|-lrb-|mac|os|x|-rrb-	electronic|art|,|Hypnos|Entertainment|-lrb-|GCN|&|Xbox|-rrb-|Beenox|-lrb-|Mac|OS|x|-rrb-	JJ|NNS|,|NNP|NNP|-LRB-|NNP|CC|NNP|-RRB-|NNP|-LRB-|NNP|NNP|NN|-RRB-	O|O|O|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O	|||||||||||||||				Electronic Arts,Hypnos Entertainment (GCN & Xbox)|Beenox (Mac OS X)	fb:part.electronic_arts_hypnos_entertainment_gcn_xbox|fb:part.beenox_mac_os_x
+14	4	fb:cell.ms_windows_playstation_2_xbox_nintendo_gamecube_mac_os_x	MS Windows, PlayStation 2, Xbox, Nintendo GameCube, Mac OS X	ms|windows|,|playstation|2|,|xbox|,|nintendo|gamecube|,|mac|os|x	m|Windows|,|PlayStation|2|,|Xbox|,|Nintendo|GameCube|,|Mac|OS|x	NN|NNP|,|NNP|CD|,|NNP|,|NNP|NNP|,|NNP|NNP|NN	O|MISC|O|O|NUMBER|O|O|O|ORGANIZATION|O|O|O|O|O	||||2.0|||||||||	2.0			MS Windows|PlayStation 2|Xbox|Nintendo GameCube|Mac OS X	fb:part.ms_windows|fb:part.playstation_2|fb:part.xbox|fb:part.nintendo_gamecube|fb:part.mac_os_x
+15	0	fb:cell.the_lord_of_the_rings_the_return_of_the_king	The Lord of the Rings: The Return of the King	the|lord|of|the|rings|:|the|return|of|the|king	the|lord|of|the|ring|:|the|return|of|the|King	DT|NN|IN|DT|NNS|:|DT|NN|IN|DT|NNP	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+15	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+15	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+15	3	fb:cell.griptonite_games	Griptonite Games	griptonite|games	Griptonite|Games	NNP|NNPS	O|O	|				Griptonite Games	fb:part.griptonite_games
+15	4	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+16	0	fb:cell.the_lord_of_the_rings_war_of_the_ring	The Lord of the Rings: War of the Ring	the|lord|of|the|rings|:|war|of|the|ring	the|lord|of|the|ring|:|war|of|the|ring	DT|NN|IN|DT|NNS|:|NN|IN|DT|NN	O|O|O|O|O|O|O|O|O|O	|||||||||					
+16	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+16	2	fb:cell.sierra	Sierra	sierra	Sierra	NNP	LOCATION					Sierra	fb:part.sierra
+16	3	fb:cell.liquid_entertainment	Liquid Entertainment	liquid|entertainment	liquid|entertainment	NN|NN	O|O	|				Liquid Entertainment	fb:part.liquid_entertainment
+16	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+17	0	fb:cell.the_hobbit	The Hobbit	the|hobbit	the|Hobbit	DT|NNP	O|O	|					
+17	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+17	2	fb:cell.sierra	Sierra	sierra	Sierra	NNP	LOCATION					Sierra	fb:part.sierra
+17	3	fb:cell.midway_austin	Midway Austin	midway|austin	Midway|Austin	NNP|NNP	O|O	|				Midway Austin	fb:part.midway_austin
+17	4	fb:cell.ms_windows_playstation_2_xbox_nintendo_gamecube	MS Windows, PlayStation 2, Xbox, Nintendo GameCube	ms|windows|,|playstation|2|,|xbox|,|nintendo|gamecube	m|Windows|,|PlayStation|2|,|Xbox|,|Nintendo|GameCube	NN|NNP|,|NNP|CD|,|NNP|,|NNP|NNP	O|MISC|O|O|NUMBER|O|O|O|ORGANIZATION|O	||||2.0|||||	2.0			MS Windows|PlayStation 2|Xbox|Nintendo GameCube	fb:part.ms_windows|fb:part.playstation_2|fb:part.xbox|fb:part.nintendo_gamecube
+18	0	fb:cell.the_hobbit	The Hobbit	the|hobbit	the|Hobbit	DT|NNP	O|O	|					
+18	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+18	2	fb:cell.sierra	Sierra	sierra	Sierra	NNP	LOCATION					Sierra	fb:part.sierra
+18	3	fb:cell.saffire	Saffire	saffire	Saffire	NNP	PERSON					Saffire	fb:part.saffire
+18	4	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+19	0	fb:cell.the_lord_of_the_rings_the_third_age	The Lord of the Rings: The Third Age	the|lord|of|the|rings|:|the|third|age	the|lord|of|the|ring|:|the|third|age	DT|NN|IN|DT|NNS|:|DT|JJ|NN	O|O|O|O|O|O|O|ORDINAL|MISC	|||||||3.0|					
+19	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+19	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+19	3	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+19	4	fb:cell.playstation_2_xbox_nintendo_gamecube	PlayStation 2, Xbox, Nintendo GameCube	playstation|2|,|xbox|,|nintendo|gamecube	PlayStation|2|,|Xbox|,|Nintendo|GameCube	NNP|CD|,|NNP|,|NNP|NNP	O|NUMBER|O|O|O|ORGANIZATION|O	|2.0|||||	2.0			PlayStation 2|Xbox|Nintendo GameCube	fb:part.playstation_2|fb:part.xbox|fb:part.nintendo_gamecube
+20	0	fb:cell.the_lord_of_the_rings_the_third_age_gba	The Lord of the Rings: The Third Age (GBA)	the|lord|of|the|rings|:|the|third|age|-lrb-|gba|-rrb-	the|lord|of|the|ring|:|the|third|age|-lrb-|gba|-rrb-	DT|NN|IN|DT|NNS|:|DT|JJ|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O|ORDINAL|O|O|O|O	|||||||3.0||||					
+20	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+20	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+20	3	fb:cell.griptonite_games	Griptonite Games	griptonite|games	Griptonite|Games	NNP|NNPS	O|O	|				Griptonite Games	fb:part.griptonite_games
+20	4	fb:cell.game_boy_advance	Game Boy Advance	game|boy|advance	Game|Boy|Advance	NNP|NNP|NNP	O|O|O	||				Game Boy Advance	fb:part.game_boy_advance
+21	0	fb:cell.the_lord_of_the_rings_the_battle_for_middle_earth	The Lord of the Rings: The Battle for Middle-earth	the|lord|of|the|rings|:|the|battle|for|middle|earth	the|lord|of|the|ring|:|the|battle|for|Middle|earth	DT|NN|IN|DT|NNS|:|DT|NN|IN|NNP|NN	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+21	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+21	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+21	3	fb:cell.ea_los_angeles	EA Los Angeles	ea|los|angeles	ea|Los|Angeles	NN|NNP|NNP	O|LOCATION|LOCATION	||				EA Los Angeles	fb:part.ea_los_angeles
+21	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+22	0	fb:cell.the_lord_of_the_rings_tactics	The Lord of the Rings: Tactics	the|lord|of|the|rings|:|tactics	the|lord|of|the|ring|:|tactic	DT|NN|IN|DT|NNS|:|NNS	O|O|O|O|O|O|O	||||||					
+22	1	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+22	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+22	3	fb:cell.amaze	Amaze	amaze	amaze	VB	O					Amaze	fb:part.amaze
+22	4	fb:cell.playstation_portable	PlayStation Portable	playstation|portable	PlayStation|Portable	NNP|NNP	O|O	|				PlayStation Portable	fb:part.playstation_portable
+23	0	fb:cell.the_lord_of_the_rings_the_battle_for_middle_earth_ii	The Lord of the Rings: The Battle for Middle-earth II	the|lord|of|the|rings|:|the|battle|for|middle|earth|ii	the|lord|of|the|ring|:|the|battle|for|Middle|earth|ii	DT|NN|IN|DT|NNS|:|DT|NN|IN|NNP|NN|CD	O|O|O|O|O|O|O|O|O|O|O|NUMBER	|||||||||||0.0					
+23	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+23	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+23	3	fb:cell.ea_los_angeles	EA Los Angeles	ea|los|angeles	ea|Los|Angeles	NN|NNP|NNP	O|LOCATION|LOCATION	||				EA Los Angeles	fb:part.ea_los_angeles
+23	4	fb:cell.ms_windows_xbox_360	MS Windows, Xbox 360	ms|windows|,|xbox|360	m|Windows|,|Xbox|360	NN|NNP|,|NNP|CD	O|MISC|O|O|NUMBER	||||360.0	360.0			MS Windows|Xbox 360	fb:part.ms_windows|fb:part.xbox_360
+24	0	fb:cell.the_lord_of_the_rings_the_battle_for_middle_earth_ii_the_rise_of_the_witch_king	The Lord of the Rings: The Battle for Middle-earth II: The Rise of the Witch-king	the|lord|of|the|rings|:|the|battle|for|middle|earth|ii|:|the|rise|of|the|witch|king	the|lord|of|the|ring|:|the|battle|for|Middle|earth|ii|:|the|rise|of|the|witch|king	DT|NN|IN|DT|NNS|:|DT|NN|IN|NNP|NN|CD|:|DT|NN|IN|DT|NN|NN	O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O	|||||||||||0.0|||||||					
+24	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+24	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+24	3	fb:cell.ea_los_angeles	EA Los Angeles	ea|los|angeles	ea|Los|Angeles	NN|NNP|NNP	O|LOCATION|LOCATION	||				EA Los Angeles	fb:part.ea_los_angeles
+24	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+25	0	fb:cell.the_lord_of_the_rings_online_shadows_of_angmar	The Lord of the Rings Online: Shadows of Angmar	the|lord|of|the|rings|online|:|shadows|of|angmar	the|lord|of|the|Rings|Online|:|shadow|of|Angmar	DT|NN|IN|DT|NNP|NNP|:|NNS|IN|NNP	O|O|O|O|O|O|O|O|O|LOCATION	|||||||||					
+25	1	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+25	2	fb:cell.turbine_inc_midway	Turbine, Inc., Midway	turbine|,|inc.|,|midway	turbine|,|Inc.|,|Midway	NN|,|NNP|,|NNP	O|O|ORGANIZATION|O|O	||||				Turbine|Inc.|Midway	fb:part.turbine|fb:part.inc|fb:part.midway
+25	3	fb:cell.turbine_inc	Turbine, Inc.	turbine|,|inc.|.	turbine|,|Inc.|.	NN|,|NNP|.	O|O|ORGANIZATION|O	|||				Turbine|Inc.	fb:part.turbine|fb:part.inc
+25	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+26	0	fb:cell.the_lord_of_the_rings_online_mines_of_moria	The Lord of the Rings Online: Mines of Moria	the|lord|of|the|rings|online|:|mines|of|moria	the|lord|of|the|Rings|Online|:|Mines|of|Moria	DT|NN|IN|DT|NNP|NNP|:|NNP|IN|NNP	O|O|O|O|O|O|O|O|O|LOCATION	|||||||||					
+26	1	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+26	2	fb:cell.turbine_inc_midway	Turbine, Inc., Midway	turbine|,|inc.|,|midway	turbine|,|Inc.|,|Midway	NN|,|NNP|,|NNP	O|O|ORGANIZATION|O|O	||||				Turbine|Inc.|Midway	fb:part.turbine|fb:part.inc|fb:part.midway
+26	3	fb:cell.turbine_inc	Turbine, Inc.	turbine|,|inc.|.	turbine|,|Inc.|.	NN|,|NNP|.	O|O|ORGANIZATION|O	|||				Turbine|Inc.	fb:part.turbine|fb:part.inc
+26	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+27	0	fb:cell.the_lord_of_the_rings_conquest	The Lord of the Rings: Conquest	the|lord|of|the|rings|:|conquest	the|lord|of|the|ring|:|conquest	DT|NN|IN|DT|NNS|:|NN	O|O|O|O|O|O|O	||||||					
+27	1	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+27	2	fb:cell.electronic_arts	Electronic Arts	electronic|arts	electronic|art	JJ|NNS	O|O	|				Electronic Arts	fb:part.electronic_arts
+27	3	fb:cell.pandemic_studios	Pandemic Studios	pandemic|studios	pandemic|Studios	JJ|NNPS	O|O	|				Pandemic Studios	fb:part.pandemic_studios
+27	4	fb:cell.xbox_360_playstation_3_ms_windows_nintendo_ds	Xbox 360, PlayStation 3, MS Windows, Nintendo DS	xbox|360|,|playstation|3|,|ms|windows|,|nintendo|ds	xbox|360|,|PlayStation|3|,|m|Windows|,|Nintendo|d	NN|CD|,|NNP|CD|,|NN|NNP|,|NNP|NN	O|NUMBER|O|O|NUMBER|O|O|MISC|O|O|O	|360.0|||3.0||||||	360.0		3.0	Xbox 360|PlayStation 3|MS Windows|Nintendo DS	fb:part.xbox_360|fb:part.playstation_3|fb:part.ms_windows|fb:part.nintendo_ds
+28	0	fb:cell.the_lord_of_the_rings_online_siege_of_mirkwood	The Lord of the Rings Online: Siege of Mirkwood	the|lord|of|the|rings|online|:|siege|of|mirkwood	the|lord|of|the|Rings|Online|:|Siege|of|Mirkwood	DT|NN|IN|DT|NNP|NNP|:|NNP|IN|NNP	O|O|O|O|O|O|O|O|O|LOCATION	|||||||||					
+28	1	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+28	2	fb:cell.turbine_inc	Turbine, Inc.	turbine|,|inc.|.	turbine|,|Inc.|.	NN|,|NNP|.	O|O|ORGANIZATION|O	|||				Turbine|Inc.	fb:part.turbine|fb:part.inc
+28	3	fb:cell.turbine_inc	Turbine, Inc.	turbine|,|inc.|.	turbine|,|Inc.|.	NN|,|NNP|.	O|O|ORGANIZATION|O	|||				Turbine|Inc.	fb:part.turbine|fb:part.inc
+28	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+29	0	fb:cell.the_lord_of_the_rings_aragorn_s_quest	The Lord of the Rings: Aragorn's Quest	the|lord|of|the|rings|:|aragorn|'s|quest	the|lord|of|the|ring|:|Aragorn|'s|Quest	DT|NN|IN|DT|NNS|:|NNP|POS|NNP	O|O|O|O|O|O|LOCATION|O|O	||||||||					
+29	1	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+29	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+29	3	fb:cell.headstrong_games_tt_fusion	Headstrong Games\nTT Fusion	headstrong|games|tt|fusion	Headstrong|Games|tt|fusion	NNP|NNPS|NN|NN	O|O|O|O	|||				Headstrong Games|TT Fusion	fb:part.headstrong_games|fb:part.tt_fusion
+29	4	fb:cell.wii_nintendo_ds_playstation_2_playstation_portable_playstation_3	Wii, Nintendo DS, PlayStation 2, PlayStation Portable, PlayStation 3	wii|,|nintendo|ds|,|playstation|2|,|playstation|portable|,|playstation|3	Wii|,|Nintendo|d|,|PlayStation|2|,|PlayStation|Portable|,|PlayStation|3	NNP|,|NNP|NN|,|NNP|CD|,|NNP|NNP|,|NNP|CD	O|O|ORGANIZATION|O|O|O|NUMBER|O|O|O|O|O|NUMBER	||||||2.0||||||3.0	2.0		3.0	Wii|Nintendo DS|PlayStation 2|PlayStation Portable|PlayStation 3	fb:part.wii|fb:part.nintendo_ds|fb:part.playstation_2|fb:part.playstation_portable|fb:part.playstation_3
+30	0	fb:cell.the_lord_of_the_rings_war_in_the_north	The Lord of the Rings: War in the North	the|lord|of|the|rings|:|war|in|the|north	the|lord|of|the|ring|:|War|in|the|North	DT|NN|IN|DT|NNS|:|NNP|IN|DT|NNP	O|O|O|O|O|O|O|O|O|LOCATION	|||||||||					
+30	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+30	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+30	3	fb:cell.snowblind_studios	Snowblind Studios	snowblind|studios	Snowblind|Studios	NNP|NNP	O|O	|				Snowblind Studios	fb:part.snowblind_studios
+30	4	fb:cell.playstation_3_ms_windows_xbox_360	PlayStation 3, MS Windows, Xbox 360	playstation|3|,|ms|windows|,|xbox|360	PlayStation|3|,|m|Windows|,|Xbox|360	NNP|CD|,|NN|NNP|,|NNP|CD	O|NUMBER|O|O|MISC|O|O|NUMBER	|3.0||||||360.0	3.0		360.0	PlayStation 3|MS Windows|Xbox 360	fb:part.playstation_3|fb:part.ms_windows|fb:part.xbox_360
+31	0	fb:cell.the_lord_of_the_rings_online_rise_of_isengard	The Lord of the Rings Online: Rise of Isengard	the|lord|of|the|rings|online|:|rise|of|isengard	the|lord|of|the|Rings|Online|:|rise|of|Isengard	DT|NN|IN|DT|NNP|NNP|:|NN|IN|NNP	O|O|O|O|O|O|O|O|O|LOCATION	|||||||||					
+31	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+31	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+31	3	fb:cell.turbine_inc	Turbine, Inc.	turbine|,|inc.|.	turbine|,|Inc.|.	NN|,|NNP|.	O|O|ORGANIZATION|O	|||				Turbine|Inc.	fb:part.turbine|fb:part.inc
+31	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+32	0	fb:cell.the_lord_of_the_rings_online_riders_of_rohan	The Lord of the Rings Online: Riders of Rohan	the|lord|of|the|rings|online|:|riders|of|rohan	the|lord|of|the|Rings|Online|:|rider|of|Rohan	DT|NN|IN|DT|NNP|NNP|:|NNS|IN|NNP	O|O|O|O|O|O|O|O|O|PERSON	|||||||||					
+32	1	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+32	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+32	3	fb:cell.turbine_inc	Turbine, Inc.	turbine|,|inc.|.	turbine|,|Inc.|.	NN|,|NNP|.	O|O|ORGANIZATION|O	|||				Turbine|Inc.	fb:part.turbine|fb:part.inc
+32	4	fb:cell.ms_windows	MS Windows	ms|windows	m|Windows	NN|NNP	O|MISC	|				MS Windows	fb:part.ms_windows
+33	0	fb:cell.guardians_of_middle_earth	Guardians of Middle-earth	guardians|of|middle|earth	guardian|of|Middle|earth	NNS|IN|NNP|NN	O|O|O|O	|||					
+33	1	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+33	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+33	3	fb:cell.monolith_productions	Monolith Productions	monolith|productions	Monolith|Productions	NNP|NNPS	O|O	|				Monolith Productions	fb:part.monolith_productions
+33	4	fb:cell.xbox_360_playstation_3_ms_windows	Xbox 360, PlayStation 3, MS Windows	xbox|360|,|playstation|3|,|ms|windows	xbox|360|,|PlayStation|3|,|m|Windows	NN|CD|,|NNP|CD|,|NN|NNP	O|NUMBER|O|O|NUMBER|O|O|MISC	|360.0|||3.0|||	360.0		3.0	Xbox 360|PlayStation 3|MS Windows	fb:part.xbox_360|fb:part.playstation_3|fb:part.ms_windows
+34	0	fb:cell.lego_the_lord_of_the_rings	Lego The Lord of the Rings	lego|the|lord|of|the|rings	Lego|The|Lord|of|the|ring	NNP|NNP|NNP|IN|DT|NNS	O|O|O|O|O|O	|||||					
+34	1	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+34	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+34	3	fb:cell.traveler_s_tales	Traveler's Tales	traveler|'s|tales	traveler|'s|tale	NN|POS|NNS	O|O|O	||				Traveler's Tales	fb:part.traveler_s_tales
+34	4	fb:cell.ms_windows_wii_nintendo_3ds_playstation_vita_playstation_3_nintendo_ds_xbox_360	MS Windows, Wii, Nintendo 3DS, PlayStation Vita, PlayStation 3, Nintendo DS, Xbox 360	ms|windows|,|wii|,|nintendo|3ds|,|playstation|vita|,|playstation|3|,|nintendo|ds|,|xbox|360	m|Windows|,|Wii|,|Nintendo|3DS|,|PlayStation|Vita|,|PlayStation|3|,|Nintendo|d|,|xbox|360	NN|NNP|,|NNP|,|NNP|NNPS|,|NNP|NNP|,|NNP|CD|,|NNP|NN|,|NN|CD	O|MISC|O|O|O|ORGANIZATION|O|O|ORGANIZATION|ORGANIZATION|O|O|NUMBER|O|O|O|O|O|NUMBER	||||||||||||3.0||||||360.0	3.0		3.0	MS Windows|Wii|Nintendo 3DS|PlayStation Vita|PlayStation 3|Nintendo DS|Xbox 360	fb:part.ms_windows|fb:part.wii|fb:part.nintendo_3ds|fb:part.playstation_vita|fb:part.playstation_3|fb:part.nintendo_ds|fb:part.xbox_360
+35	0	fb:cell.the_hobbit_kingdoms_of_middle_earth	The Hobbit: Kingdoms of Middle-earth	the|hobbit|:|kingdoms|of|middle|earth	the|Hobbit|:|kingdom|of|Middle|earth	DT|NNP|:|NNS|IN|NNP|NN	O|O|O|O|O|O|O	||||||					
+35	1	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+35	2	fb:cell.null											fb:part.null
+35	3	fb:cell.kabam	Kabam	kabam	kabam	NN	PERSON					Kabam	fb:part.kabam
+35	4	fb:cell.android_apple_ios	Android, Apple iOS	android|,|apple|ios	Android|,|Apple|iOS	NNP|,|NNP|NNP	O|O|O|O	|||				Android|Apple iOS	fb:part.android|fb:part.apple_ios
+36	0	fb:cell.the_hobbit_armies_of_the_third_age	The Hobbit: Armies of the Third Age	the|hobbit|:|armies|of|the|third|age	the|Hobbit|:|army|of|the|Third|Age	DT|NNP|:|NNS|IN|DT|NNP|NNP	O|O|O|O|O|O|ORDINAL|O	||||||3.0|					
+36	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+36	2	fb:cell.null											fb:part.null
+36	3	fb:cell.kabam	Kabam	kabam	kabam	NN	PERSON					Kabam	fb:part.kabam
+36	4	fb:cell.browser_game	Browser game	browser|game	browser|game	NN|NN	O|O	|				Browser game	fb:part.browser_game
+37	0	fb:cell.the_lord_of_the_rings_online_helm_s_deep	The Lord of the Rings Online: Helm's Deep	the|lord|of|the|rings|online|:|helm|'s|deep	the|lord|of|the|Rings|Online|:|Helm|'s|Deep	DT|NN|IN|DT|NNP|NNP|:|NNP|POS|NNP	O|O|O|O|O|O|O|O|O|O	|||||||||					
+37	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+37	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+37	3	fb:cell.turbine_inc	Turbine, Inc.	turbine|,|inc.|.	turbine|,|Inc.|.	NN|,|NNP|.	O|O|ORGANIZATION|O	|||				Turbine|Inc.	fb:part.turbine|fb:part.inc
+37	4	fb:cell.mac_os_x_ms_windows	Mac OS X, MS Windows	mac|os|x|,|ms|windows	Mac|OS|X|,|m|Windows	NNP|NNP|NNP|,|NN|NNP	O|O|O|O|O|MISC	|||||				Mac OS X|MS Windows	fb:part.mac_os_x|fb:part.ms_windows
+38	0	fb:cell.middle_earth_shadow_of_mordor	Middle-earth: Shadow of Mordor	middle|earth|:|shadow|of|mordor	Middle|earth|:|Shadow|of|Mordor	NNP|NN|:|NNP|IN|NNP	O|O|O|O|O|O	|||||					
+38	1	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+38	2	fb:cell.warner_bros_interactive_entertainment	Warner Bros. Interactive Entertainment	warner|bros.|.|interactive|entertainment	Warner|Bros.|.|interactive|entertainment	NNP|NNP|.|JJ|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||				Warner Bros. Interactive Entertainment	fb:part.warner_bros_interactive_entertainment
+38	3	fb:cell.monolith_productions	Monolith Productions	monolith|productions	Monolith|Productions	NNP|NNPS	O|O	|				Monolith Productions	fb:part.monolith_productions
+38	4	fb:cell.xbox_360_xbox_one_playstation_3_playstation_4_ms_windows	Xbox 360, Xbox One, PlayStation 3, PlayStation 4, MS Windows	xbox|360|,|xbox|one|,|playstation|3|,|playstation|4|,|ms|windows	xbox|360|,|Xbox|one|,|PlayStation|3|,|PlayStation|4|,|m|Windows	NN|CD|,|NNP|CD|,|NNP|CD|,|NNP|CD|,|NN|NNP	O|NUMBER|O|MISC|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|MISC	|360.0|||1.0|||3.0|||4.0|||	360.0		3.0	Xbox 360|Xbox One|PlayStation 3|PlayStation 4|MS Windows	fb:part.xbox_360|fb:part.xbox_one|fb:part.playstation_3|fb:part.playstation_4|fb:part.ms_windows

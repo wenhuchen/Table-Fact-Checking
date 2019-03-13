@@ -1,0 +1,67 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.type	Type	type	type	NN	O						
+-1	2	fb:row.row.r_a_j2000	R.A. (J2000)	r.a.|-lrb-|j2000|-rrb-	R.A.|-lrb-|j2000|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.dec_j2000	Dec. (J2000)	dec.|-lrb-|j2000|-rrb-	Dec.|-lrb-|j2000|-rrb-	NNP|-LRB-|NN|-RRB-	DATE|O|O|O	XXXX-12|||					
+-1	4	fb:row.row.redshift_km_s	Redshift (km/s)	redshift|-lrb-|km\\/s|-rrb-	redshift|-lrb-|km\\/s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.apparent_magnitude	Apparent Magnitude	apparent|magnitude	apparent|magnitude	JJ|NN	O|O	|					
+0	0	fb:cell.camelopardalis_a	Camelopardalis A	camelopardalis|a	Camelopardalis|A	NNP|NNP	MISC|MISC	|					
+0	1	fb:cell.irr	Irr	irr	irr	NN	O						
+0	2	fb:cell.04h_26m_16_3s	04h 26m 16.3s	04h|26m|16.3|s	04h|26m|16.3|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|16.3|16.3|	4.0		26.0		
+0	3	fb:cell._72_48_21	+72° 48′ 21″	+72|°|48|′|21|″	+72|°|48|′|21|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	72.0|72.0|72.0||21.0|	72.0		48.0		
+0	4	fb:cell._46_1	-46 ± 1	-46|±|1	-46|±|1	CD|NN|CD	NUMBER|O|NUMBER	-46.0||1.0	46.0		1.0		
+0	5	fb:cell.14_8	14.8	14.8	14.8	CD	NUMBER	14.8	14.8				
+1	0	fb:cell.camelopardalis_b	Camelopardalis B	camelopardalis|b	camelopardali|b	NN|NN	O|O	|					
+1	1	fb:cell.irr	Irr	irr	irr	NN	O						
+1	2	fb:cell.04h_53m_07_1s	04h 53m 07.1s	04h|53m|07.1|s	04h|53m|07.1|s	NN|NN|CD|NNS	O|O|NUMBER|O	||7.1|	4.0		53.0		
+1	3	fb:cell._67_05_57	+67° 05′ 57″	+67|°|05|′|57|″	+67|°|05|′|57|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	67.0|67.0|67.0||57.0|	67.0		5.0		
+1	4	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+1	5	fb:cell.16_1	16.1	16.1	16.1	CD	NUMBER	16.1	16.1				
+2	0	fb:cell.cassiopeia_1	Cassiopeia 1	cassiopeia|1	Cassiopeia|1	NNP|CD	O|NUMBER	|1.0	1.0				
+2	1	fb:cell.dirr	dIrr	dirr	dirr	NN	O						
+2	2	fb:cell.02h_06m_02_8s	02h 06m 02.8s	02h|06m|02.8|s	02h|06m|02.8|s	NN|NN|CD|NNS	O|O|NUMBER|O	||2.8|	2.0		6.0		
+2	3	fb:cell._68_59_59	+68° 59′ 59″	+68|°|59|′|59|″	+68|°|59|′|59|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	68.0|68.0|68.0||59.0|	68.0		59.0		
+2	4	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+2	5	fb:cell.16_4	16.4	16.4	16.4	CD	NUMBER	16.4	16.4				
+3	0	fb:cell.ic_342	IC 342	ic|342	ic|342	NN|CD	O|NUMBER	|342.0	342.0				
+3	1	fb:cell.sab_rs_cd	SAB(rs)cd	sab|-lrb-|rs|-rrb-|cd	SAB|-lrb-|r|-rrb-|cd	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||					
+3	2	fb:cell.03h_46m_48_5s	03h 46m 48.5s	03h|46m|48.5|s	03h|46m|48.5|s	NN|NN|CD|NNS	O|O|NUMBER|O	||48.5|	3.0		46.0		
+3	3	fb:cell._68_05_46	+68° 05′ 46″	+68|°|05|′|46|″	+68|°|05|′|46|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	68.0|68.0|68.0||46.0|	68.0		5.0		
+3	4	fb:cell.31_3	31 ± 3	31|±|3	31|±|3	CD|NN|CD	NUMBER|O|NUMBER	31.0||3.0	31.0		3.0		
+3	5	fb:cell.9_1	9.1	9.1	9.1	CD	NUMBER	9.1	9.1				
+4	0	fb:cell.kk_35	KK 35	kk|35	KK|35	NNP|CD	O|NUMBER	|35.0	35.0				
+4	1	fb:cell.irr	Irr	irr	irr	NN	O						
+4	2	fb:cell.03h_45m_12_6s	03h 45m 12.6s	03h|45m|12.6|s	03h|45m|12.6|s	NN|NN|CD|NNS	O|O|NUMBER|O	||12.6|	3.0		45.0		
+4	3	fb:cell._67_51_51	+67° 51′ 51″	+67|°|51|′|51|″	+67|°|51|′|51|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	67.0|67.0|67.0||51.0|	67.0		51.0		
+4	4	fb:cell.105_1	105 ± 1	105|±|1	105|±|1	CD|NN|CD	NUMBER|O|NUMBER	105.0||1.0	105.0		1.0		
+4	5	fb:cell.17_2	17.2	17.2	17.2	CD	NUMBER	17.2	17.2				
+5	0	fb:cell.ngc_1560	NGC 1560	ngc|1560	NGC|1560	NNP|CD	O|DATE	|1560	1560.0				
+5	1	fb:cell.sa_s_d	SA(s)d	sa|-lrb-|s|-rrb-|d	SA|-lrb-|s|-rrb-|d	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||					
+5	2	fb:cell.04h_32m_49_1s	04h 32m 49.1s	04h|32m|49.1|s	04h|32m|49.1|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|49.1|49.1|	4.0		32.0		
+5	3	fb:cell._71_52_59	+71° 52′ 59″	+71|°|52|′|59|″	+71|°|52|′|59|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	71.0|71.0|71.0||59.0|	71.0		52.0		
+5	4	fb:cell._36_5	-36 ± 5	-36|±|5	-36|±|5	CD|NN|CD	NUMBER|O|NUMBER	-36.0||5.0	36.0		5.0		
+5	5	fb:cell.12_2	12.2	12.2	12.2	CD	NUMBER	12.2	12.2				
+6	0	fb:cell.ngc_1569	NGC 1569	ngc|1569	NGC|1569	NNP|CD	O|DATE	|1569	1569.0				
+6	1	fb:cell.sbrst	Sbrst	sbrst	sbrst	IN	O						
+6	2	fb:cell.04h_30m_49_1s	04h 30m 49.1s	04h|30m|49.1|s	04h|30m|49.1|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|49.1|49.1|	4.0		30.0		
+6	3	fb:cell._64_50_52_6	+64° 50′ 52,6″	+64|°|50|′|52,6|″	+64|°|50|′|52,6|″	CD|CD|CD|CD|CD|NN	NUMBER|NUMBER|NUMBER|NUMBER|NUMBER|O	64.0|64.0|64.0|64.0|64.0|	64.0		50.0		
+6	4	fb:cell._104_4	-104 ± 4	-104|±|4	-104|±|4	CD|NN|CD	NUMBER|O|NUMBER	-104.0||4.0	104.0		4.0		
+6	5	fb:cell.11_2	11,2	11,2	11,2	CD	NUMBER	11.2	112.0				
+7	0	fb:cell.ugca_86	UGCA 86	ugca|86	UGCA|86	NNP|CD	ORGANIZATION|NUMBER	|86.0	86.0				
+7	1	fb:cell.im	Im	im	im	NN	O						
+7	2	fb:cell.03h_59m_50_5s	03h 59m 50.5s	03h|59m|50.5|s	03h|59m|50.5|s	NN|NN|CD|NNS	O|O|NUMBER|O	||50.5|	3.0		59.0		
+7	3	fb:cell._67_08_37	+67° 08′ 37″	+67|°|08|′|37|″	+67|°|08|′|37|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	67.0|67.0|67.0||37.0|	67.0		8.0		
+7	4	fb:cell.67_4	67 ± 4	67|±|4	67|±|4	CD|NN|CD	NUMBER|O|NUMBER	67.0||4.0	67.0		4.0		
+7	5	fb:cell.13_5	13.5	13.5	13.5	CD	NUMBER	13.5	13.5				
+8	0	fb:cell.ugca_92	UGCA 92	ugca|92	UGCA|92	NNP|CD	ORGANIZATION|NUMBER	|92.0	92.0				
+8	1	fb:cell.im	Im	im	im	NN	O						
+8	2	fb:cell.04h_32m_04_9s	04h 32m 04.9s	04h|32m|04.9|s	04h|32m|04.9|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|4.9|4.9|	4.0		32.0		
+8	3	fb:cell._63_36_49_0	+63° 36′ 49.0″	+63|°|36|′|49.0|″	+63|°|36|′|49.0|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	63.0|63.0|63.0||49.0|	63.0		36.0		
+8	4	fb:cell._99_5	-99 ± 5	-99|±|5	-99|±|5	CD|NN|CD	NUMBER|O|NUMBER	-99.0||5.0	99.0		5.0		
+8	5	fb:cell.13_8	13.8	13.8	13.8	CD	NUMBER	13.8	13.8				
+9	0	fb:cell.ugca_105	UGCA 105	ugca|105	ugca|105	NN|CD	O|NUMBER	|105.0	105.0				
+9	1	fb:cell.im	Im	im	im	NN	O						
+9	2	fb:cell.05h_14m_15_3s	05h 14m 15.3s	05h|14m|15.3|s	05h|14m|15.3|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|15.3|15.3|	5.0		14.0		
+9	3	fb:cell._62_34_48	+62° 34′ 48″	+62|°|34|′|48|″	+62|°|34|′|48|″	CD|CD|CD|NN|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|O	62.0|62.0|62.0||48.0|	62.0		34.0		
+9	4	fb:cell.111_5	111 ± 5	111|±|5	111|±|5	CD|NN|CD	NUMBER|O|NUMBER	111.0||5.0	111.0		5.0		
+9	5	fb:cell.13_9	13.9	13.9	13.9	CD	NUMBER	13.9	13.9				

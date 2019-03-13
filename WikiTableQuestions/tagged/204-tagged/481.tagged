@@ -1,0 +1,65 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.poll_source	Poll source	poll|source	Poll|source	NNP|NN	O|O	|					
+-1	1	fb:row.row.date_s_administered	Date(s)\nadministered	date|-lrb-|s|-rrb-|administered	date|-lrb-|s|-rrb-|administer	NN|-LRB-|NNS|-RRB-|VBN	O|O|O|O|O	||||					
+-1	2	fb:row.row.sample_size	Sample\nsize	sample|size	sample|size	VB|NN	O|O	|					
+-1	3	fb:row.row.margin_of_error	Margin of\nerror	margin|of|error	margin|of|error	NN|IN|NN	O|O|O	||					
+-1	4	fb:row.row.andrew_cuomo_d	Andrew\nCuomo (D)	andrew|cuomo|-lrb-|d|-rrb-	Andrew|Cuomo|-lrb-|D|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+-1	5	fb:row.row.rob_astorino_r	Rob\nAstorino (R)	rob|astorino|-lrb-|r|-rrb-	Rob|Astorino|-lrb-|R|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||					
+-1	6	fb:row.row.other	Other	other	other	JJ	O						
+-1	7	fb:row.row.undecided	Undecided	undecided	undecided	JJ	O						
+0	0	fb:cell.siena	Siena	siena	Siena	NNP	LOCATION						
+0	1	fb:cell.march_16_20_2014	March 16–20, 2014	march|16|--|20|,|2014	March|16|--|20|,|2014	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-03-16|XXXX-03-16||20.0||2014	16.0		202014.0	March 16–20|2014	fb:part.march_16_20|fb:part.2014
+0	2	fb:cell.813	813	813	813	CD	NUMBER	813.0	813.0				
+0	3	fb:cell._3_4	± 3.4%	±|3.4|%	±|3.4|%	NN|CD|NN	O|PERCENT|PERCENT	|%3.4|%3.4	3.4				
+0	4	fb:cell.61	61%	61|%	61|%	CD|NN	PERCENT|PERCENT	%61.0|%61.0	61.0				
+0	5	fb:cell.26	26%	26|%	26|%	CD|NN	PERCENT|PERCENT	%26.0|%26.0	26.0				
+0	6	fb:cell.null	—	--	--	:	O						
+0	7	fb:cell.13	13%	13|%	13|%	CD|NN	PERCENT|PERCENT	%13.0|%13.0	13.0				
+1	0	fb:cell.marist	Marist	marist	Marist	NNP	O						
+1	1	fb:cell.february_28_march_3_2014	February 28–March 3, 2014	february|28|--|march|3|,|2014	February|28|--|March|3|,|2014	NNP|CD|:|NNP|CD|,|CD	DATE|DATE|O|DATE|DATE|DATE|DATE	XXXX-02-28|XXXX-02-28||2014-03-03|2014-03-03|2014-03-03|2014-03-03	28.0		32014.0	February 28–March 3|2014	fb:part.february_28_march_3|fb:part.2014
+1	2	fb:cell.658	658	658	658	CD	NUMBER	658.0	658.0				
+1	3	fb:cell._3_8	± 3.8%	±|3.8|%	±|3.8|%	NN|CD|NN	O|PERCENT|PERCENT	|%3.8|%3.8	3.8				
+1	4	fb:cell.65	65%	65|%	65|%	CD|NN	PERCENT|PERCENT	%65.0|%65.0	65.0				
+1	5	fb:cell.25	25%	25|%	25|%	CD|NN	PERCENT|PERCENT	%25.0|%25.0	25.0				
+1	6	fb:cell.null	—	--	--	:	O						
+1	7	fb:cell.10	10%	10|%	10|%	CD|NN	PERCENT|PERCENT	%10.0|%10.0	10.0				
+2	0	fb:cell.quinnipiac	Quinnipiac	quinnipiac	Quinnipiac	NNP	O						
+2	1	fb:cell.february_6_10_2014	February 6–10, 2014	february|6|--|10|,|2014	February|6|--|10|,|2014	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-02-06|XXXX-02-06||10.0||2014	6.0		102014.0	February 6–10|2014	fb:part.february_6_10|fb:part.2014
+2	2	fb:cell.1_488	1,488	1,488	1,488	CD	NUMBER	1488.0	1488.0				
+2	3	fb:cell._2_5	± 2.5%	±|2.5|%	±|2.5|%	NN|CD|NN	O|PERCENT|PERCENT	|%2.5|%2.5	2.5				
+2	4	fb:cell.58	58%	58|%	58|%	CD|NN	PERCENT|PERCENT	%58.0|%58.0	58.0				
+2	5	fb:cell.24	24%	24|%	24|%	CD|NN	PERCENT|PERCENT	%24.0|%24.0	24.0				
+2	6	fb:cell.2	2%	2|%	2|%	CD|NN	PERCENT|PERCENT	%2.0|%2.0	2.0				
+2	7	fb:cell.16	16%	16|%	16|%	CD|NN	PERCENT|PERCENT	%16.0|%16.0	16.0				
+3	0	fb:cell.siena	Siena	siena	Siena	NNP	LOCATION						
+3	1	fb:cell.january_12_16_2014	January 12–16, 2014	january|12|--|16|,|2014	January|12|--|16|,|2014	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-01-12|XXXX-01-12||16.0||2014	12.0		162014.0	January 12–16|2014	fb:part.january_12_16|fb:part.2014
+3	2	fb:cell.808	808	808	808	CD	NUMBER	808.0	808.0				
+3	3	fb:cell._3_4	± 3.4%	±|3.4|%	±|3.4|%	NN|CD|NN	O|PERCENT|PERCENT	|%3.4|%3.4	3.4				
+3	4	fb:cell.67	67%	67|%	67|%	CD|NN	PERCENT|PERCENT	%67.0|%67.0	67.0				
+3	5	fb:cell.19	19%	19|%	19|%	CD|NN	PERCENT|PERCENT	%19.0|%19.0	19.0				
+3	6	fb:cell.3	3%	3|%	3|%	CD|NN	PERCENT|PERCENT	%3.0|%3.0	3.0				
+3	7	fb:cell.11	11%	11|%	11|%	CD|NN	PERCENT|PERCENT	%11.0|%11.0	11.0				
+4	0	fb:cell.quinnipiac	Quinnipiac	quinnipiac	Quinnipiac	NNP	O						
+4	1	fb:cell.november_20_24_2013	November 20–24, 2013	november|20|--|24|,|2013	November|20|--|24|,|2013	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-11-20|XXXX-11-20||24.0||2013	20.0		242013.0	November 20–24|2013	fb:part.november_20_24|fb:part.2013
+4	2	fb:cell.1_337	1,337	1,337	1,337	CD	NUMBER	1337.0	1337.0				
+4	3	fb:cell._2_7	± 2.7%	±|2.7|%	±|2.7|%	NN|CD|NN	O|PERCENT|PERCENT	|%2.7|%2.7	2.7				
+4	4	fb:cell.56	56%	56|%	56|%	CD|NN	PERCENT|PERCENT	%56.0|%56.0	56.0				
+4	5	fb:cell.25	25%	25|%	25|%	CD|NN	PERCENT|PERCENT	%25.0|%25.0	25.0				
+4	6	fb:cell.2	2%	2|%	2|%	CD|NN	PERCENT|PERCENT	%2.0|%2.0	2.0				
+4	7	fb:cell.17	17%	17|%	17|%	CD|NN	PERCENT|PERCENT	%17.0|%17.0	17.0				
+5	0	fb:cell.marist	Marist	marist	Marist	NNP	O						
+5	1	fb:cell.november_18_20_2013	November 18–20, 2013	november|18|--|20|,|2013	November|18|--|20|,|2013	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-11-18|XXXX-11-18||20.0||2013	18.0		202013.0	November 18–20|2013	fb:part.november_18_20|fb:part.2013
+5	2	fb:cell.675	675	675	675	CD	NUMBER	675.0	675.0				
+5	3	fb:cell._3_8	± 3.8%	±|3.8|%	±|3.8|%	NN|CD|NN	O|PERCENT|PERCENT	|%3.8|%3.8	3.8				
+5	4	fb:cell.65	65%	65|%	65|%	CD|NN	PERCENT|PERCENT	%65.0|%65.0	65.0				
+5	5	fb:cell.23	23%	23|%	23|%	CD|NN	PERCENT|PERCENT	%23.0|%23.0	23.0				
+5	6	fb:cell.null	—	--	--	:	O						
+5	7	fb:cell.12	12%	12|%	12|%	CD|NN	PERCENT|PERCENT	%12.0|%12.0	12.0				
+6	0	fb:cell.siena	Siena	siena	Siena	NNP	LOCATION						
+6	1	fb:cell.november_11_14_2013	November 11–14, 2013	november|11|--|14|,|2013	November|11|--|14|,|2013	NNP|CD|:|CD|,|CD	DATE|DATE|O|NUMBER|O|DATE	XXXX-11-11|XXXX-11-11||14.0||2013	11.0		142013.0	November 11–14|2013	fb:part.november_11_14|fb:part.2013
+6	2	fb:cell.806	806	806	806	CD	NUMBER	806.0	806.0				
+6	3	fb:cell._3_5	± 3.5%	±|3.5|%	±|3.5|%	NN|CD|NN	O|PERCENT|PERCENT	|%3.5|%3.5	3.5				
+6	4	fb:cell.63	63%	63|%	63|%	CD|NN	PERCENT|PERCENT	%63.0|%63.0	63.0				
+6	5	fb:cell.24	24%	24|%	24|%	CD|NN	PERCENT|PERCENT	%24.0|%24.0	24.0				
+6	6	fb:cell.null	—	--	--	:	O						
+6	7	fb:cell.13	13%	13|%	13|%	CD|NN	PERCENT|PERCENT	%13.0|%13.0	13.0				

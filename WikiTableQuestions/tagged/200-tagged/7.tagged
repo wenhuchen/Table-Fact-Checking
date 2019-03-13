@@ -1,0 +1,56 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.afrikaans	Afrikaans	afrikaans	afrikaans	NNS	MISC						
+-1	1	fb:row.row.ipa	IPA	ipa	ipa	NN	O						
+-1	2	fb:row.row.dutch	Dutch	dutch	dutch	JJ	MISC						
+-1	3	fb:row.row.english	English	english	English	NNP	MISC						
+-1	4	fb:row.row.german	German	german	german	JJ	MISC						
+0	0	fb:cell.hallo_hoe_gaan_dit	Hallo! Hoe gaan dit?	hallo|!|hoe|gaan|dit|?	Hallo|!|hoe|gaan|dit|?	NNP|.|VB|JJ|NN|.	O|O|O|O|O|O	|||||				Hallo! Hoe gaan dit?	fb:part.hallo_hoe_gaan_dit
+0	1	fb:cell._al_u_u_xa_n_d_t	[ɦaləu ɦu xaˑn dət]	-lsb-|ɦaləu|ɦu|xaˑn|dət|-rsb-	-lsb-|ɦaləu|ɦu|xaˑn|dət|-rsb-	-LRB-|NN|NN|NN|NN|-RRB-	O|O|O|O|O|O	|||||					
+0	2	fb:cell.hallo_hoe_gaat_het_met_je_jou_u_also_used_hallo_hoe_is_het	Hallo! Hoe gaat het (met je/jou/u)?\nAlso used: Hallo! Hoe is het?	hallo|!|hoe|gaat|het|-lrb-|met|je\\/jou\\/u|-rrb-|?|also|used|:|hallo|!|hoe|is|het|?	Hallo|!|hoe|gaat|het|-lrb-|meet|je\\/jou\\/u|-rrb-|?|also|use|:|Hallo|!|hoe|be|het|?	NNP|.|VB|NN|NN|-LRB-|VBN|NN|-RRB-|.|RB|VBN|:|NNP|.|VB|VBD-AUX|NN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||				Hallo! Hoe gaat het (met je|jou|u)?|Also used: Hallo! Hoe is het?	fb:part.hallo_hoe_gaat_het_met_je|fb:part.jou|fb:part.u|fb:part.also_used_hallo_hoe_is_het
+0	3	fb:cell.hello_how_is_it_going_hello_how_are_you	Hello! How is it going? (Hello! How are you?)	hello|!|how|is|it|going|?|-lrb-|hello|!|how|are|you|?|-rrb-	hello|!|how|be|it|go|?|-lrb-|hello|!|how|be|you|?|-rrb-	UH|.|WRB|VBD-AUX|PRP|VBG|.|-LRB-|UH|.|WRB|VBD-AUX|PRP|.|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				Hello! How is it going? (Hello! How are you?)	fb:part.hello_how_is_it_going_hello_how_are_you
+0	4	fb:cell.hallo_wie_geht_s_hallo_wie_geht_s_dir_ihnen	Hallo! Wie geht's? (Hallo! Wie geht's dir/Ihnen?)	hallo|!|wie|geht|'s|?|-lrb-|hallo|!|wie|geht|'s|dir\\/ihnen|?|-rrb-	Hallo|!|wie|geht|'s|?|-lrb-|hallo|!|wie|geht|'s|dir\\/ihnen|?|-rrb-	NNP|.|NN|NN|POS|.|-LRB-|NN|.|NN|NN|POS|NN|.|-RRB-	O|O|PERSON|O|O|O|O|O|O|PERSON|O|O|O|O|O	||||||||||||||				Hallo! Wie geht's? (Hallo! Wie geht's dir|Ihnen?)	fb:part.hallo_wie_geht_s_hallo_wie_geht_s_dir|fb:part.ihnen
+1	0	fb:cell.baie_goed_dankie	Baie goed, dankie.	baie|goed|,|dankie|.	Baie|goe|,|dankie|.	NNP|VBD|,|NN|.	MISC|O|O|O|O	||||				Baie goed|dankie.	fb:part.baie_goed|fb:part.dankie
+1	1	fb:cell._baj_xu_t_da_ki	[bajə xuˑt daŋki]	-lsb-|bajə|xuˑt|daŋki|-rsb-	-lsb-|bajə|xuˑt|daŋki|-rsb-	-LRB-|NN|NN|NN|-RRB-	O|O|O|O|O	||||					
+1	2	fb:cell.heel_goed_dank_je	Heel goed, dank je.	heel|goed|,|dank|je|.	heel|goe|,|dank|je|.	NN|VBD|,|JJ|NN|.	O|O|O|O|O|O	|||||				Heel goed|dank je.	fb:part.heel_goed|fb:part.dank_je
+1	3	fb:cell.very_well_thank_you	Very well, thank you.	very|well|,|thank|you|.	very|well|,|thank|you|.	RB|RB|,|VB|PRP|.	O|O|O|O|O|O	|||||				Very well|thank you.	fb:part.very_well|fb:part.thank_you
+1	4	fb:cell.sehr_gut_danke	Sehr gut, danke.	sehr|gut|,|danke|.	Sehr|gut|,|danke|.	NNP|NN|,|NN|.	PERSON|O|O|PERSON|O	||||				Sehr gut|danke.	fb:part.sehr_gut|fb:part.danke
+2	0	fb:cell.praat_jy_afrikaans	Praat jy Afrikaans?	praat|jy|afrikaans|?	praat|jy|Afrikaans|?	NN|NN|NNP|.	O|O|O|O	|||				Praat jy Afrikaans?	fb:part.praat_jy_afrikaans
+2	1	fb:cell._pr_t_j_i_afrik_s	[prɑˑt jəi afrikɑ̃ˑs]	-lsb-|prɑˑt|jəi|afrikɑ̃ˑs|-rsb-	-lsb-|prɑˑt|jəi|afrikɑ̃ˑs|-rsb-	-LRB-|NN|NN|NNS|-RRB-	O|O|O|O|O	||||					
+2	2	fb:cell.spreek_praat_je_jij_afrikaans	Spreek/Praat je/jij Afrikaans?	spreek\\/praat|je\\/jij|afrikaans|?	spreek\\/praat|je\\/jij|Afrikaans|?	NN|NN|NNP|.	O|O|O|O	|||				Spreek|Praat je|jij Afrikaans?	fb:part.spreek|fb:part.praat_je|fb:part.jij_afrikaans
+2	3	fb:cell.do_you_speak_afrikaans	Do you speak Afrikaans?	do|you|speak|afrikaans|?	do|you|speak|Afrikaans|?	VBD-AUX|PRP|VB|NNP|.	O|O|O|O|O	||||				Do you speak Afrikaans?	fb:part.do_you_speak_afrikaans
+2	4	fb:cell.sprichst_du_afrikaans	Sprichst du Afrikaans?	sprichst|du|afrikaans|?	Sprichst|du|Afrikaans|?	NNP|NNP|NNP|.	MISC|MISC|MISC|O	|||				Sprichst du Afrikaans?	fb:part.sprichst_du_afrikaans
+3	0	fb:cell.praat_jy_engels	Praat jy Engels?	praat|jy|engels|?	praat|jy|Engels|?	NN|NN|NNP|.	O|O|PERSON|O	|||				Praat jy Engels?	fb:part.praat_jy_engels
+3	1	fb:cell._pr_t_j_i_ls	[prɑˑt jəi ɛŋəls]	-lsb-|prɑˑt|jəi|ɛŋəls|-rsb-	-lsb-|prɑˑt|jəi|ɛŋəls|-rsb-	-LRB-|NN|NN|NNS|-RRB-	O|O|O|O|O	||||					
+3	2	fb:cell.spreek_praat_je_jij_engels	Spreek/Praat je/jij Engels?	spreek\\/praat|je\\/jij|engels|?	spreek\\/praat|je\\/jij|Engels|?	NN|NN|NNP|.	O|O|PERSON|O	|||				Spreek|Praat je|jij Engels?	fb:part.spreek|fb:part.praat_je|fb:part.jij_engels
+3	3	fb:cell.do_you_speak_english	Do you speak English?	do|you|speak|english|?	do|you|speak|English|?	VBD-AUX|PRP|VB|NNP|.	O|O|O|MISC|O	||||				Do you speak English?	fb:part.do_you_speak_english
+3	4	fb:cell.sprichst_du_englisch	Sprichst du Englisch?	sprichst|du|englisch|?	Sprichst|du|Englisch|?	NNP|NNP|NNP|.	MISC|MISC|MISC|O	|||				Sprichst du Englisch?	fb:part.sprichst_du_englisch
+4	0	fb:cell.ja	Ja.	ja|.	ja|.	NN|.	O|O	|				Ja.	fb:part.ja
+4	1	fb:cell._j	[jɑˑ]	-lsb-|jɑˑ|-rsb-	-lsb-|jɑˑ|-rsb-	-LRB-|NN|-RRB-	O|O|O	||					
+4	2	fb:cell.ja	Ja.	ja|.	ja|.	NN|.	O|O	|				Ja.	fb:part.ja
+4	3	fb:cell.yes	Yes.	yes|.	yes|.	UH|.	O|O	|				Yes.	fb:part.yes
+4	4	fb:cell.ja	Ja.	ja|.	ja|.	NN|.	O|O	|				Ja.	fb:part.ja
+5	0	fb:cell.nee	Nee.	nee|.	Nee|.	NNP|.	PERSON|O	|				Nee.	fb:part.nee
+5	1	fb:cell._ne	[neˑə]	-lsb-|neˑə|-rsb-	-lsb-|neˑə|-rsb-	-LRB-|NN|-RRB-	O|O|O	||					
+5	2	fb:cell.nee	Nee.	nee|.	Nee|.	NNP|.	PERSON|O	|				Nee.	fb:part.nee
+5	3	fb:cell.no	No.	no|.	no|.	DT|.	O|O	|				No.	fb:part.no
+5	4	fb:cell.nein	Nein.	nein|.	Nein|.	NNP|.	O|O	|				Nein.	fb:part.nein
+6	0	fb:cell._n_bietjie	'n Bietjie.	'n|bietjie|.	'n|Bietjie|.	CC|NNP|.	O|O|O	||				'n Bietjie.	fb:part._n_bietjie
+6	1	fb:cell._biki	[ə biki]	-lsb-|ə|biki|-rsb-	-lsb-|ə|bikus|-rsb-	-LRB-|NN|NN|-RRB-	O|O|O|O	|||					
+6	2	fb:cell.een_beetje	Een beetje.	een|beetje|.	een|beetje|.	NN|NN|.	O|O|O	||				Een beetje.	fb:part.een_beetje
+6	3	fb:cell.a_bit	A bit.	a|bit|.	a|bit|.	DT|NN|.	O|O|O	||				A bit.	fb:part.a_bit
+6	4	fb:cell.ein_bisschen	Ein bisschen.	ein|bisschen|.	ein|bisschen|.	NN|NN|.	O|O|O	||				Ein bisschen.	fb:part.ein_bisschen
+7	0	fb:cell.wat_is_jou_naam	Wat is jou naam?	wat|is|jou|naam|?	Wat|be|jou|naam|?	NNP|VBD-AUX|FW|FW|.	O|O|O|O|O	||||				Wat is jou naam?	fb:part.wat_is_jou_naam
+7	1	fb:cell._vat_s_j_u_n_m	[vat əs jəu nɑˑm]	-lsb-|vat|əs|jəu|nɑˑm|-rsb-	-lsb-|vat|əs|jəu|nɑˑm|-rsb-	-LRB-|NN|NN|NN|NN|-RRB-	O|O|O|O|O|O	|||||					
+7	2	fb:cell.hoe_heet_je_wat_is_jouw_naam	Hoe heet je? / Wat is jouw naam?	hoe|heet|je|?|\\/|wat|is|jouw|naam|?	hoe|heet|je|?|\\/|wat|be|jouw|naam|?	VB|NN|NN|.|:|NN|VBD-AUX|JJ|NN|.	O|O|O|O|O|O|O|O|O|O	|||||||||				Hoe heet je?|Wat is jouw naam?	fb:part.hoe_heet_je|fb:part.wat_is_jouw_naam
+7	3	fb:cell.what_is_your_name	What is your name?	what|is|your|name|?	what|be|you|name|?	WP|VBD-AUX|PRP$|NN|.	O|O|O|O|O	||||				What is your name?	fb:part.what_is_your_name
+7	4	fb:cell.wie_hei_t_du_wie_ist_dein_name	Wie heißt du? / Wie ist dein Name?	wie|heißt|du|?|\\/|wie|ist|dein|name|?	wie|heißt|du|?|\\/|wie|ist|dein|name|?	NN|NN|NNP|.|:|NN|NN|NN|VB|.	PERSON|O|O|O|O|PERSON|O|O|O|O	|||||||||				Wie heißt du?|Wie ist dein Name?	fb:part.wie_hei_t_du|fb:part.wie_ist_dein_name
+8	0	fb:cell.die_kinders_praat_afrikaans	Die kinders praat Afrikaans.	die|kinders|praat|afrikaans|.	die|kinder|praat|Afrikaans|.	VB|NNS|VB|NNP|.	O|O|O|O|O	||||				Die kinders praat Afrikaans.	fb:part.die_kinders_praat_afrikaans
+8	1	fb:cell._di_k_n_rs_pr_t_afrik_ns	[di kənərs prɑˑt afrikɑ̃ˑns]	-lsb-|di|kənərs|prɑˑt|afrikɑ̃ˑns|-rsb-	-lsb-|di|kənərs|prɑˑt|afrikɑ̃ˑns|-rsb-	-LRB-|FW|FW|FW|NNS|-RRB-	O|O|O|O|O|O	|||||					
+8	2	fb:cell.de_kinderen_spreken_praten_afrikaans	De kinderen spreken/praten Afrikaans.	de|kinderen|spreken\\/praten|afrikaans|.	De|kinderen|spreken\\/praten|afrikaans|.	NNP|NN|NN|NNS|.	O|O|O|O|O	||||				De kinderen spreken|praten Afrikaans.	fb:part.de_kinderen_spreken|fb:part.praten_afrikaans
+8	3	fb:cell.the_children_speak_afrikaans	The children speak Afrikaans.	the|children|speak|afrikaans|.	the|child|speak|Afrikaans|.	DT|NNS|VBP|NNP|.	O|O|O|O|O	||||				The children speak Afrikaans.	fb:part.the_children_speak_afrikaans
+8	4	fb:cell.die_kinder_sprechen_afrikaans	Die Kinder sprechen Afrikaans.	die|kinder|sprechen|afrikaans|.	die|kinder|sprechen|Afrikaans|.	VB|FW|FW|NNPS|.	O|O|O|O|O	||||				Die Kinder sprechen Afrikaans.	fb:part.die_kinder_sprechen_afrikaans
+9	0	fb:cell.ek_is_lief_vir_jou_less_common_ek_het_jou_lief	Ek is lief vir jou.\nLess common: Ek het jou lief.	ek|is|lief|vir|jou|.|less|common|:|ek|het|jou|lief|.	Ek|be|lief|vir|jou|.|less|common|:|ek|het|jou|lief|.	NNP|VBD-AUX|NN|NN|NN|.|RBR|JJ|:|NN|NN|NN|NN|.	PERSON|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||				Ek is lief vir jou.|Less common: Ek het jou lief.	fb:part.ek_is_lief_vir_jou|fb:part.less_common_ek_het_jou_lief
+9	1	fb:cell._k_s_lif_v_r_j	[æk əs lif vɯr jəʊ]	-lsb-|æk|əs|lif|vɯr|jəʊ|-rsb-	-lsb-|æk|əs|lif|vɯr|jəʊ|-rsb-	-LRB-|NN|NN|NN|NN|NN|-RRB-	O|O|O|O|O|O|O	||||||					
+9	2	fb:cell.ik_hou_van_je_jou_common_in_southern_dutch_ik_heb_je_jou_u_lief	Ik hou van je/jou.\nCommon in Southern Dutch: Ik heb je/jou/u lief.	ik|hou|van|je\\/jou|.|common|in|southern|dutch|:|ik|heb|je\\/jou\\/u|lief|.	ik|hou|van|je\\/jou|.|common|in|Southern|Dutch|:|ik|heb|je\\/jou\\/u|lief|.	NN|NN|NN|NN|.|JJ|IN|NNP|NNPS|:|NN|NN|NN|NN|.	O|O|O|O|O|O|O|MISC|MISC|O|O|O|O|O|O	||||||||||||||				Ik hou van je|jou.|Common in Southern Dutch: Ik heb je|jou|u lief.	fb:part.ik_hou_van_je|fb:part.jou_2|fb:part.common_in_southern_dutch_ik_heb_je|fb:part.jou|fb:part.u_lief
+9	3	fb:cell.i_love_you	I love you.	i|love|you|.	I|love|you|.	PRP|VBP|PRP|.	O|O|O|O	|||				I love you.	fb:part.i_love_you
+9	4	fb:cell.ich_liebe_dich_also_ich_habe_dich_lieb_colloquial_virtually_no_romantic_connotation	Ich liebe dich.\nAlso: Ich habe dich lieb. (Colloquial; virtually no romantic connotation)	ich|liebe|dich|.|also|:|ich|habe|dich|lieb|.|-lrb-|colloquial|;|virtually|no|romantic|connotation|-rrb-	ich|liebe|dich|.|also|:|ich|habe|dich|lieb|.|-lrb-|colloquial|;|virtually|no|romantic|connotation|-rrb-	NN|NN|NNS|.|RB|:|NN|NN|VBP|NN|.|-LRB-|JJ|:|RB|DT|JJ|NN|-RRB-	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||				Ich liebe dich.|Also: Ich habe dich lieb. (Colloquial; virtually no romantic connotation)	fb:part.ich_liebe_dich|fb:part.also_ich_habe_dich_lieb_colloquial_virtually_no_romantic_connotation

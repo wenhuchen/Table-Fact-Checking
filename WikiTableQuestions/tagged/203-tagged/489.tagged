@@ -1,0 +1,81 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.system	System	system	System	NNP	O						
+-1	3	fb:row.row.developer	Developer	developer	Developer	NNP	O						
+-1	4	fb:row.row.publisher	Publisher	publisher	publisher	NN	O						
+0	0	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+0	1	fb:cell.ghostbusters	Ghostbusters	ghostbusters	ghostbuster	NNS	O						
+0	2	fb:cell.atari_800_commodore_64_msx_zx_spectrum_amstrad_cpc	Atari 800, Commodore 64, MSX, ZX Spectrum, Amstrad CPC	atari|800|,|commodore|64|,|msx|,|zx|spectrum|,|amstrad|cpc	Atari|800|,|Commodore|64|,|MSX|,|ZX|Spectrum|,|Amstrad|CPC	NNP|CD|,|NNP|CD|,|NNP|,|NNP|NNP|,|NNP|NNP	ORGANIZATION|NUMBER|O|ORGANIZATION|NUMBER|O|ORGANIZATION|O|O|O|O|ORGANIZATION|ORGANIZATION	|800.0|||64.0||||||||	800.0		64.0	Atari 800|Commodore 64|MSX|ZX Spectrum|Amstrad CPC	fb:part.atari_800|fb:part.commodore_64|fb:part.msx|fb:part.zx_spectrum|fb:part.amstrad_cpc
+0	3	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+0	4	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+1	0	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+1	1	fb:cell.ghostbusters	Ghostbusters	ghostbusters	ghostbuster	NNS	O						
+1	2	fb:cell.atari_2600_apple_ii	Atari 2600, Apple II	atari|2600|,|apple|ii	Atari|2600|,|Apple|II	NNP|CD|,|NNP|NNP	O|DATE|O|O|O	|2600|||	2600.0			Atari 2600|Apple II	fb:part.atari_2600|fb:part.apple_ii
+1	3	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+1	4	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+2	0	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+2	1	fb:cell.the_real_ghostbusters	The Real Ghostbusters	the|real|ghostbusters	the|real|ghostbuster	DT|JJ|NNS	O|O|O	||					
+2	2	fb:cell.arcade	Arcade	arcade	arcade	NN	O					Arcade	fb:part.arcade
+2	3	fb:cell.data_east	Data East	data|east	Data|East	NNP|NNP	O|O	|				Data East	fb:part.data_east
+2	4	fb:cell.data_east	Data East	data|east	Data|East	NNP|NNP	O|O	|				Data East	fb:part.data_east
+3	0	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+3	1	fb:cell.ghostbusters	Ghostbusters	ghostbusters	ghostbuster	NNS	O						
+3	2	fb:cell.sega_master_system	Sega Master System	sega|master|system	Sega|Master|System	NNP|NNP|NNP	O|O|O	||				Sega Master System	fb:part.sega_master_system
+3	3	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+3	4	fb:cell.sega	Sega	sega	Sega	NNP	O					Sega	fb:part.sega
+4	0	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+4	1	fb:cell.ghostbusters	Ghostbusters	ghostbusters	ghostbuster	NNS	O						
+4	2	fb:cell.nes	NES	nes	ne	NN	O					NES	fb:part.nes
+4	3	fb:cell.bits_laboratory	Bits Laboratory	bits|laboratory	bit|laboratory	NNS|NN	O|O	|				Bits Laboratory	fb:part.bits_laboratory
+4	4	fb:cell.activision_tokuma_shoten	Activision/Tokuma Shoten	activision\\/tokuma|shoten	Activision\\/Tokuma|Shoten	NNP|NNP	O|O	|				Activision|Tokuma Shoten	fb:part.activision|fb:part.tokuma_shoten
+5	0	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+5	1	fb:cell.the_real_ghostbusters	The Real Ghostbusters	the|real|ghostbusters	the|real|ghostbuster	DT|JJ|NNS	O|O|O	||					
+5	2	fb:cell.commodore_64_amiga_zx_spectrum_amstrad_cpc_atari_st	Commodore 64, Amiga, ZX Spectrum, Amstrad CPC, Atari ST	commodore|64|,|amiga|,|zx|spectrum|,|amstrad|cpc|,|atari|st	Commodore|64|,|Amiga|,|ZX|Spectrum|,|Amstrad|CPC|,|Atari|st	NNP|CD|,|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|JJ	ORGANIZATION|NUMBER|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O	|64.0|||||||||||	64.0			Commodore 64|Amiga|ZX Spectrum|Amstrad CPC|Atari ST	fb:part.commodore_64|fb:part.amiga|fb:part.zx_spectrum|fb:part.amstrad_cpc|fb:part.atari_st
+5	3	fb:cell.data_east	Data East	data|east	Data|East	NNP|NNP	O|O	|				Data East	fb:part.data_east
+5	4	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+6	0	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+6	1	fb:cell.ghostbusters_ii	Ghostbusters II	ghostbusters|ii	Ghostbusters|II	NNP|NNP	O|O	|					
+6	2	fb:cell.atari_2600_amiga_commodore_64_msx_pc_zx_spectrum_amstrad_cpc	Atari 2600, Amiga, Commodore 64, MSX, PC, ZX Spectrum, Amstrad CPC	atari|2600|,|amiga|,|commodore|64|,|msx|,|pc|,|zx|spectrum|,|amstrad|cpc	Atari|2600|,|Amiga|,|Commodore|64|,|MSX|,|PC|,|ZX|Spectrum|,|Amstrad|CPC	NNP|CD|,|NNP|,|NNP|CD|,|NNP|,|NNP|,|NNP|NNP|,|NNP|NNP	O|DATE|O|PERSON|O|ORGANIZATION|NUMBER|O|ORGANIZATION|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION	|2600|||||64.0||||||||||	2600.0		64.0	Atari 2600|Amiga|Commodore 64|MSX|PC|ZX Spectrum|Amstrad CPC	fb:part.atari_2600|fb:part.amiga|fb:part.commodore_64|fb:part.msx|fb:part.pc|fb:part.zx_spectrum|fb:part.amstrad_cpc
+6	3	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+6	4	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+7	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+7	1	fb:cell.ghostbusters_ii	Ghostbusters II	ghostbusters|ii	Ghostbusters|II	NNP|NNP	O|O	|					
+7	2	fb:cell.nes	NES	nes	ne	NN	O					NES	fb:part.nes
+7	3	fb:cell.kemco	Kemco	kemco	Kemco	NNP	PERSON					Kemco	fb:part.kemco
+7	4	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+8	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+8	1	fb:cell.ghostbusters	Ghostbusters	ghostbusters	ghostbuster	NNS	O						
+8	2	fb:cell.sega_mega_drive_genesis	Sega Mega Drive/Genesis	sega|mega|drive\\/genesis	Sega|mega|drive\\/genesis	NNP|JJ|NN	O|O|O	||				Sega Mega Drive|Genesis	fb:part.sega_mega_drive|fb:part.genesis
+8	3	fb:cell.sega	Sega	sega	Sega	NNP	O					Sega	fb:part.sega
+8	4	fb:cell.sega	Sega	sega	Sega	NNP	O					Sega	fb:part.sega
+9	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+9	1	fb:cell.new_ghostbusters_2	New Ghostbusters 2	new|ghostbusters|2	New|Ghostbusters|2	NNP|NNP|CD	O|O|NUMBER	||2.0	2.0				
+9	2	fb:cell.game_boy_nes	Game Boy, NES	game|boy|,|nes	Game|Boy|,|NES	NNP|NNP|,|NNP	O|O|O|O	|||				Game Boy|NES	fb:part.game_boy|fb:part.nes
+9	3	fb:cell.hal_laboratory	Hal Laboratory	hal|laboratory	Hal|Laboratory	NNP|NNP	PERSON|PERSON	|				Hal Laboratory	fb:part.hal_laboratory
+9	4	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+10	0	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+10	1	fb:cell.the_real_ghostbusters	The Real Ghostbusters	the|real|ghostbusters	the|real|ghostbuster	DT|JJ|NNS	O|O|O	||					
+10	2	fb:cell.game_boy	Game Boy	game|boy	Game|Boy	NNP|NNP	O|O	|				Game Boy	fb:part.game_boy
+10	3	fb:cell.kemco	Kemco	kemco	Kemco	NNP	PERSON					Kemco	fb:part.kemco
+10	4	fb:cell.activision	Activision	activision	Activision	NNP	O					Activision	fb:part.activision
+11	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+11	1	fb:cell.ghostbusters_the_video_game	Ghostbusters: The Video Game	ghostbusters|:|the|video|game	ghostbuster|:|the|Video|Game	NNS|:|DT|NNP|NNP	O|O|O|O|O	||||					
+11	2	fb:cell.playstation_3_playstation_2_playstation_portable_xbox_360_nintendo_ds_wii_pc	PlayStation 3, PlayStation 2, PlayStation Portable, Xbox 360, Nintendo DS, Wii, PC	playstation|3|,|playstation|2|,|playstation|portable|,|xbox|360|,|nintendo|ds|,|wii|,|pc	PlayStation|3|,|PlayStation|2|,|PlayStation|Portable|,|Xbox|360|,|Nintendo|d|,|Wii|,|PC	NNP|CD|,|NNP|CD|,|NNP|NNP|,|NNP|CD|,|NNP|NN|,|NNP|,|NNP	O|NUMBER|O|O|NUMBER|O|O|O|O|O|NUMBER|O|ORGANIZATION|O|O|O|O|O	|3.0|||2.0||||||360.0|||||||	3.0		2.0	PlayStation 3|PlayStation 2|PlayStation Portable|Xbox 360|Nintendo DS|Wii|PC	fb:part.playstation_3|fb:part.playstation_2|fb:part.playstation_portable|fb:part.xbox_360|fb:part.nintendo_ds|fb:part.wii|fb:part.pc
+11	3	fb:cell.terminal_reality_red_fly_studios_zen_studios	Terminal Reality, Red Fly Studios, Zen Studios	terminal|reality|,|red|fly|studios|,|zen|studios	terminal|reality|,|Red|fly|Studios|,|Zen|Studios	JJ|NN|,|NNP|VB|NNP|,|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O	||||||||				Terminal Reality|Red Fly Studios|Zen Studios	fb:part.terminal_reality|fb:part.red_fly_studios|fb:part.zen_studios
+11	4	fb:cell.atari_sony_computer_entertainment_europe_only_ps2_and_ps3_versions	Atari,\nSony Computer Entertainment (Europe only, PS2 and PS3 versions)	atari|,|sony|computer|entertainment|-lrb-|europe|only|,|ps2|and|ps3|versions|-rrb-	Atari|,|Sony|Computer|Entertainment|-lrb-|Europe|only|,|ps2|and|PS3|version|-rrb-	NNP|,|NNP|NNP|NNP|-LRB-|NNP|RB|,|NN|CC|NNP|NNS|-RRB-	ORGANIZATION|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O|O|O|O|O|O	|||||||||||||	2.0		3.0	Atari|Sony Computer Entertainment (Europe only|PS2 and PS3 versions)	fb:part.atari|fb:part.sony_computer_entertainment_europe_only|fb:part.ps2_and_ps3_versions
+12	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+12	1	fb:cell.ghostbusters_sanctum_of_slime	Ghostbusters: Sanctum of Slime	ghostbusters|:|sanctum|of|slime	ghostbuster|:|Sanctum|of|Slime	NNS|:|NNP|IN|NNP	O|O|O|O|O	||||					
+12	2	fb:cell.playstation_network_xbox_live_pc	PlayStation Network, Xbox Live, PC	playstation|network|,|xbox|live|,|pc	PlayStation|Network|,|Xbox|Live|,|PC	NNP|NNP|,|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|O|O|O|O	||||||				PlayStation Network|Xbox Live|PC	fb:part.playstation_network|fb:part.xbox_live|fb:part.pc
+12	3	fb:cell.behaviour_interactive	Behaviour Interactive	behaviour|interactive	Behaviour|Interactive	NNP|NNP	O|O	|				Behaviour Interactive	fb:part.behaviour_interactive
+12	4	fb:cell.atari	Atari	atari	Atari	NNP	ORGANIZATION					Atari	fb:part.atari
+13	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+13	1	fb:cell.ghostbusters_paranormal_blast	Ghostbusters: Paranormal Blast	ghostbusters|:|paranormal|blast	ghostbuster|:|Paranormal|blast	NNS|:|NNP|NN	O|O|O|O	|||					
+13	2	fb:cell.android_ios	Android, iOS	android|,|ios	Android|,|iOS	NNP|,|NNP	O|O|O	||				Android|iOS	fb:part.android|fb:part.ios
+13	3	fb:cell.xmg_studio	XMG Studio	xmg|studio	XMG|Studio	NNP|NNP	O|O	|				XMG Studio	fb:part.xmg_studio
+13	4	fb:cell.null											fb:part.null
+14	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+14	1	fb:cell.ghostbusters	Ghostbusters	ghostbusters	ghostbuster	NNS	O						
+14	2	fb:cell.ios	iOS	ios	iOS	NNP	O					iOS	fb:part.ios
+14	3	fb:cell.beeline_interactive	Beeline Interactive	beeline|interactive	Beeline|Interactive	NNP|NNP	O|O	|				Beeline Interactive	fb:part.beeline_interactive
+14	4	fb:cell.capcom	Capcom	capcom	Capcom	NNP	ORGANIZATION					Capcom	fb:part.capcom

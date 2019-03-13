@@ -1,0 +1,66 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	2	fb:row.row.rank	Rank#	rank|#	Rank|#	NNP|#	O|O	|					
+-1	3	fb:row.row.site	Site	site	site	NN	O						
+-1	4	fb:row.row.result	Result	result	result	NN	O						
+0	0	fb:cell.september_5	September 5	september|5	September|5	NNP|CD	DATE|DATE	XXXX-09-05|XXXX-09-05	5.0	xxxx-09-05			
+0	1	fb:cell.maryland	Maryland	maryland	Maryland	NNP	LOCATION						
+0	2	fb:cell.null											
+0	3	fb:cell.carrier_dome_syracuse_ny	Carrier Dome • Syracuse, NY	carrier|dome|•|syracuse|,|ny	carrier|Dome|•|Syracuse|,|NY	NN|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O	|||||				Carrier Dome • Syracuse|NY	fb:part.carrier_dome_syracuse|fb:part.ny
+0	4	fb:cell.w_35_11	W 35–11	w|35|--|11	W|35|--|11	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|35.0||11.0	35.0		11.0		
+1	0	fb:cell.september_12	September 12	september|12	September|12	NNP|CD	DATE|DATE	XXXX-09-12|XXXX-09-12	12.0	xxxx-09-12			
+1	1	fb:cell.rutgers	Rutgers	rutgers	Rutgers	NNP	O						
+1	2	fb:cell.null											
+1	3	fb:cell.rutgers_stadium_piscataway_nj	Rutgers Stadium • Piscataway, NJ	rutgers|stadium|•|piscataway|,|nj	Rutgers|Stadium|•|Piscataway|,|NJ	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Rutgers Stadium • Piscataway|NJ	fb:part.rutgers_stadium_piscataway|fb:part.nj
+1	4	fb:cell.w_20_3	W 20-3	w|20-3	W|20-3	NNP|CD	O|NUMBER	|20.0 - 3.0	20.0		3.0		
+2	0	fb:cell.september_19	September 19	september|19	September|19	NNP|CD	DATE|DATE	XXXX-09-19|XXXX-09-19	19.0	xxxx-09-19			
+2	1	fb:cell.miami_oh	Miami (OH)	miami|-lrb-|oh|-rrb-	Miami|-lrb-|oh|-rrb-	NNP|-LRB-|NN|-RRB-	LOCATION|O|O|O	|||					
+2	2	fb:cell.null											
+2	3	fb:cell.carrier_dome_syracuse_ny	Carrier Dome • Syracuse, NY	carrier|dome|•|syracuse|,|ny	carrier|Dome|•|Syracuse|,|NY	NN|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O	|||||				Carrier Dome • Syracuse|NY	fb:part.carrier_dome_syracuse|fb:part.ny
+2	4	fb:cell.w_24_10	W 24-10	w|24-10	W|24-10	NNP|CD	O|NUMBER	|24.0 - 10.0	24.0		10.0		
+3	0	fb:cell.september_26	September 26	september|26	September|26	NNP|CD	DATE|DATE	XXXX-09-26|XXXX-09-26	26.0	xxxx-09-26			
+3	1	fb:cell.at_virginia_tech	at Virginia Tech	at|virginia|tech	at|Virginia|Tech	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+3	2	fb:cell.null											
+3	3	fb:cell.lane_stadium_blacksburg_va	Lane Stadium • Blacksburg, VA	lane|stadium|•|blacksburg|,|va	Lane|Stadium|•|Blacksburg|,|VA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Lane Stadium • Blacksburg|VA	fb:part.lane_stadium_blacksburg|fb:part.va
+3	4	fb:cell.w_35_21	W 35–21	w|35|--|21	W|35|--|21	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|35.0||21.0	35.0		21.0		
+4	0	fb:cell.october_3	October 3	october|3	October|3	NNP|CD	DATE|DATE	XXXX-10-03|XXXX-10-03	3.0	xxxx-10-03			
+4	1	fb:cell.at_missouri	at Missouri	at|missouri	at|Missouri	IN|NNP	O|LOCATION	|					
+4	2	fb:cell.null											
+4	3	fb:cell.memorial_stadium_columbia_mo	Memorial Stadium • Columbia, MO	memorial|stadium|•|columbia|,|mo	Memorial|Stadium|•|Columbia|,|MO	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Memorial Stadium • Columbia|MO	fb:part.memorial_stadium_columbia|fb:part.mo
+4	4	fb:cell.w_24_13	W 24-13	w|24-13	W|24-13	NNP|CD	O|DATE	|******24/******13	24.0		13.0		
+5	0	fb:cell.october_17	October 17	october|17	October|17	NNP|CD	DATE|DATE	XXXX-10-17|XXXX-10-17	17.0	xxxx-10-17			
+5	1	fb:cell._10_penn_state	#10 Penn State	#|10|penn|state	#|10|Penn|State	#|CD|NNP|NNP	MONEY|MONEY|ORGANIZATION|ORGANIZATION	£10.0|£10.0||	10.0				
+5	2	fb:cell._13	#13	#|13	#|13	#|CD	MONEY|MONEY	£13.0|£13.0	13.0				
+5	3	fb:cell.carrier_dome_syracuse_ny	Carrier Dome • Syracuse, NY	carrier|dome|•|syracuse|,|ny	carrier|Dome|•|Syracuse|,|NY	NN|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O	|||||				Carrier Dome • Syracuse|NY	fb:part.carrier_dome_syracuse|fb:part.ny
+5	4	fb:cell.w_48_21	W 48-21	w|48-21	W|48-21	NNP|CD	O|NUMBER	|48.0 - 21.0	48.0		21.0		
+6	0	fb:cell.october_24	October 24	october|24	October|24	NNP|CD	DATE|DATE	XXXX-10-24|XXXX-10-24	24.0	xxxx-10-24			
+6	1	fb:cell.colgate	Colgate	colgate	Colgate	NNP	ORGANIZATION						
+6	2	fb:cell._9	#9	#|9	#|9	#|CD	MONEY|MONEY	£9.0|£9.0	9.0				
+6	3	fb:cell.carrier_dome_syracuse_ny	Carrier Dome • Syracuse, NY	carrier|dome|•|syracuse|,|ny	carrier|Dome|•|Syracuse|,|NY	NN|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O	|||||				Carrier Dome • Syracuse|NY	fb:part.carrier_dome_syracuse|fb:part.ny
+6	4	fb:cell.w_52_6	W 52-6	w|52-6	W|52-6	NNP|CD	O|NUMBER	|52.0 - 6.0	52.0		6.0		
+7	0	fb:cell.october_31	October 31	october|31	October|31	NNP|CD	DATE|DATE	XXXX-10-31|XXXX-10-31	31.0	xxxx-10-31			
+7	1	fb:cell.at_pittsburgh	at Pittsburgh	at|pittsburgh	at|Pittsburgh	IN|NNP	O|LOCATION	|					
+7	2	fb:cell._8	#8	#|8	#|8	#|CD	MONEY|MONEY	£8.0|£8.0	8.0				
+7	3	fb:cell.pitt_stadium_pittsburgh_pa	Pitt Stadium • Pittsburgh, PA	pitt|stadium|•|pittsburgh|,|pa	Pitt|Stadium|•|Pittsburgh|,|pa	NNP|NNP|NNP|NNP|,|NN	PERSON|O|O|LOCATION|O|LOCATION	|||||				Pitt Stadium • Pittsburgh|PA	fb:part.pitt_stadium_pittsburgh|fb:part.pa
+7	4	fb:cell.w_24_10	W 24-10	w|24-10	W|24-10	NNP|CD	O|NUMBER	|24.0 - 10.0	24.0		10.0		
+8	0	fb:cell.november_7	November 7	november|7	November|7	NNP|CD	DATE|DATE	XXXX-11-07|XXXX-11-07	7.0	xxxx-11-07			
+8	1	fb:cell.at_navy	at Navy	at|navy	at|Navy	IN|NNP	O|ORGANIZATION	|					
+8	2	fb:cell._8	#8	#|8	#|8	#|CD	MONEY|MONEY	£8.0|£8.0	8.0				
+8	3	fb:cell.navy_marine_corps_memorial_stadium_annapolis_md	Navy-Marine Corps Memorial Stadium • Annapolis, MD	navy|marine|corps|memorial|stadium|•|annapolis|,|md	Navy|Marine|Corps|Memorial|Stadium|•|Annapolis|,|md	NNP|NNP|NNP|NNP|NNP|NNP|NNP|,|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|LOCATION|O|O	||||||||				Navy-Marine Corps Memorial Stadium • Annapolis|MD	fb:part.navy_marine_corps_memorial_stadium_annapolis|fb:part.md
+8	4	fb:cell.w_34_10	W 34-10	w|34-10	W|34-10	NNP|CD	O|NUMBER	|34.0 - 10.0	34.0		10.0		
+9	0	fb:cell.november_14	November 14	november|14	November|14	NNP|CD	DATE|DATE	XXXX-11-14|XXXX-11-14	14.0	xxxx-11-14			
+9	1	fb:cell.boston_college	Boston College	boston|college	Boston|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+9	2	fb:cell._6	#6	#|6	#|6	#|CD	MONEY|MONEY	£6.0|£6.0	6.0				
+9	3	fb:cell.carrier_dome_syracuse_ny	Carrier Dome • Syracuse, NY	carrier|dome|•|syracuse|,|ny	carrier|Dome|•|Syracuse|,|NY	NN|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O	|||||				Carrier Dome • Syracuse|NY	fb:part.carrier_dome_syracuse|fb:part.ny
+9	4	fb:cell.w_45_17	W 45-17	w|45-17	W|45-17	NNP|CD	O|NUMBER	|45.0 - 17.0	45.0		17.0		
+10	0	fb:cell.november_21	November 21	november|21	November|21	NNP|CD	DATE|DATE	XXXX-11-21|XXXX-11-21	21.0	xxxx-11-21			
+10	1	fb:cell.west_virginia	West Virginia	west|virginia	West|Virginia	NNP|NNP	LOCATION|LOCATION	|					
+10	2	fb:cell._6	#6	#|6	#|6	#|CD	MONEY|MONEY	£6.0|£6.0	6.0				
+10	3	fb:cell.carrier_dome_syracuse_ny	Carrier Dome • Syracuse, NY	carrier|dome|•|syracuse|,|ny	carrier|Dome|•|Syracuse|,|NY	NN|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O	|||||				Carrier Dome • Syracuse|NY	fb:part.carrier_dome_syracuse|fb:part.ny
+10	4	fb:cell.w_32_31	W 32-31	w|32-31	W|32-31	NNP|CD	O|NUMBER	|32.0 - 31.0	32.0		31.0		
+11	0	fb:cell.january_1	January 1	january|1	January|1	NNP|CD	DATE|DATE	XXXX-01-01|XXXX-01-01	1.0	xxxx-01-01			
+11	1	fb:cell.vs_6_auburn	vs. #6 Auburn	vs.|#|6|auburn	vs.|#|6|Auburn	CC|#|CD|NNP	O|MONEY|MONEY|ORGANIZATION	|£6.0|£6.0|					
+11	2	fb:cell._4	#4	#|4	#|4	#|CD	MONEY|MONEY	£4.0|£4.0	4.0				
+11	3	fb:cell.louisiana_superdome_new_orleans_la_sugar_bowl	Louisiana Superdome • New Orleans, LA (Sugar Bowl)	louisiana|superdome|•|new|orleans|,|la|-lrb-|sugar|bowl|-rrb-	Louisiana|Superdome|•|New|Orleans|,|LA|-lrb-|Sugar|Bowl|-rrb-	NNP|NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|O|LOCATION|O|O|O|O	||||||||||				Louisiana Superdome • New Orleans|LA (Sugar Bowl)	fb:part.louisiana_superdome_new_orleans|fb:part.la_sugar_bowl
+11	4	fb:cell.t_16_16	T 16-16	t|16-16	t|16-16	NN|CD	O|DATE	|******16/******16	16.0		16.0		

@@ -1,0 +1,190 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.president	President	president	President	NNP	O						
+-1	1	fb:row.row.became_oldest_living_president	Became Oldest Living President	became|oldest|living|president	Became|Oldest|live|President	NNP|NNP|VBG|NNP	O|O|O|O	|||					
+-1	2	fb:row.row.ceased_to_be_oldest_living_president	Ceased to Be Oldest Living President	ceased|to|be|oldest|living|president	cease|to|be|oldest|live|President	VBN|TO|VBD-AUX|JJ|VBG|NNP	O|O|O|O|O|O	|||||					
+-1	3	fb:row.row.age_at_start_date	Age at Start Date	age|at|start|date	age|at|Start|Date	NN|IN|NNP|NNP	O|O|O|O	|||					
+-1	4	fb:row.row.age_at_end_date	Age at End Date	age|at|end|date	Age|at|End|Date	NNP|IN|NNP|NNP	O|O|O|O	|||					
+-1	5	fb:row.row.duration_years_days	Duration (Years, Days)	duration|-lrb-|years|,|days|-rrb-	duration|-lrb-|year|,|day|-rrb-	NN|-LRB-|NNS|,|NNS|-RRB-	O|O|DURATION|O|DURATION|O	|||||					
+-1	6	fb:row.row.duration_days	Duration (Days)	duration|-lrb-|days|-rrb-	duration|-lrb-|day|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|DURATION|O	|||					
+0	0	fb:cell.george_washington	George Washington	george|washington	George|Washington	NNP|NNP	PERSON|PERSON	|					
+0	1	fb:cell.april_30_1789	April 30, 1789	april|30|,|1789	April|30|,|1789	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1789-04-30|1789-04-30|1789-04-30|1789-04-30	301789.0	1789-04-30		April 30|1789	fb:part.april_30|fb:part.1789
+0	2	fb:cell.december_14_1799	December 14, 1799	december|14|,|1799	December|14|,|1799	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1799-12-14|1799-12-14|1799-12-14|1799-12-14	141799.0	1799-12-14		December 14|1799	fb:part.december_14|fb:part.1799
+0	3	fb:cell.57_years_67_days	57 years, 67 days	57|years|,|67|days	57|year|,|67|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	57.0|57.0||67.0|0.0	57.0		67.0	57 years|67 days	fb:part.57_years|fb:part.67_days
+0	4	fb:cell.67_years_295_days	67 years, 295 days	67|years|,|295|days	67|year|,|295|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	67.0|67.0||295.0|0.0	67.0		295.0	67 years|295 days	fb:part.67_years|fb:part.295_days
+0	5	fb:cell.10_years_228_days	10 years, 228 days	10|years|,|228|days	10|year|,|228|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	10.0|10.0||228.0|0.0	10.0		228.0	10 years|228 days	fb:part.10_years|fb:part.228_days
+0	6	fb:cell.3_880_days	3,880 days	3,880|days	3,880|day	CD|NNS	DURATION|DURATION	3880.0|3880.0	3880.0				
+1	0	fb:cell.john_adams	John Adams	john|adams	John|Adams	NNP|NNP	PERSON|PERSON	|					
+1	1	fb:cell.december_14_1799	December 14, 1799	december|14|,|1799	December|14|,|1799	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1799-12-14|1799-12-14|1799-12-14|1799-12-14	141799.0	1799-12-14		December 14|1799	fb:part.december_14|fb:part.1799
+1	2	fb:cell.july_4_1826	July 4, 1826	july|4|,|1826	July|4|,|1826	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1826-07-04|1826-07-04|1826-07-04|1826-07-04	41826.0	1826-07-04		July 4|1826	fb:part.july_4|fb:part.1826
+1	3	fb:cell.64_years_45_days	64 years, 45 days	64|years|,|45|days	64|year|,|45|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	64.0|64.0||45.0|0.0	64.0		45.0	64 years|45 days	fb:part.64_years|fb:part.45_days
+1	4	fb:cell.90_years_247_days	90 years, 247 days	90|years|,|247|days	90|year|,|247|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	90.0|90.0||247.0|0.0	90.0		247.0	90 years|247 days	fb:part.90_years|fb:part.247_days
+1	5	fb:cell.26_years_202_days	26 years, 202 days	26|years|,|202|days	26|year|,|202|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	26.0|26.0||202.0|0.0	26.0		202.0	26 years|202 days	fb:part.26_years|fb:part.202_days
+1	6	fb:cell.9_698_days	9,698 days	9,698|days	9,698|day	CD|NNS	DURATION|DURATION	9698.0|9698.0	9698.0				
+2	0	fb:cell.james_madison	James Madison	james|madison	James|Madison	NNP|NNP	PERSON|PERSON	|					
+2	1	fb:cell.july_4_1826	July 4, 1826	july|4|,|1826	July|4|,|1826	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1826-07-04|1826-07-04|1826-07-04|1826-07-04	41826.0	1826-07-04		July 4|1826	fb:part.july_4|fb:part.1826
+2	2	fb:cell.june_28_1836	June 28, 1836	june|28|,|1836	June|28|,|1836	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1836-06-28|1836-06-28|1836-06-28|1836-06-28	281836.0	1836-06-28		June 28|1836	fb:part.june_28|fb:part.1836
+2	3	fb:cell.75_years_110_days	75 years, 110 days	75|years|,|110|days	75|year|,|110|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	75.0|75.0||110.0|0.0	75.0		110.0	75 years|110 days	fb:part.75_years|fb:part.110_days
+2	4	fb:cell.85_years_104_days	85 years, 104 days	85|years|,|104|days	85|year|,|104|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	85.0|85.0||104.0|0.0	85.0		104.0	85 years|104 days	fb:part.85_years|fb:part.104_days
+2	5	fb:cell.9_years_360_days	9 years, 360 days	9|years|,|360|days	9|year|,|360|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	9.0|9.0||360.0|0.0	9.0		360.0	9 years|360 days	fb:part.9_years|fb:part.360_days
+2	6	fb:cell.3_647_days	3,647 days	3,647|days	3,647|day	CD|NNS	DURATION|DURATION	3647.0|3647.0	3647.0				
+3	0	fb:cell.andrew_jackson	Andrew Jackson	andrew|jackson	Andrew|Jackson	NNP|NNP	PERSON|PERSON	|					
+3	1	fb:cell.june_28_1836	June 28, 1836	june|28|,|1836	June|28|,|1836	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1836-06-28|1836-06-28|1836-06-28|1836-06-28	281836.0	1836-06-28		June 28|1836	fb:part.june_28|fb:part.1836
+3	2	fb:cell.june_8_1845	June 8, 1845	june|8|,|1845	June|8|,|1845	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1845-06-08|1845-06-08|1845-06-08|1845-06-08	81845.0	1845-06-08		June 8|1845	fb:part.june_8|fb:part.1845
+3	3	fb:cell.69_years_105_days	69 years, 105 days	69|years|,|105|days	69|year|,|105|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	69.0|69.0||105.0|0.0	69.0		105.0	69 years|105 days	fb:part.69_years|fb:part.105_days
+3	4	fb:cell.78_years_85_days	78 years, 85 days	78|years|,|85|days	78|year|,|85|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	78.0|78.0||85.0|0.0	78.0		85.0	78 years|85 days	fb:part.78_years|fb:part.85_days
+3	5	fb:cell.8_years_345_days	8 years, 345 days	8|years|,|345|days	8|year|,|345|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	8.0|8.0||345.0|0.0	8.0		345.0	8 years|345 days	fb:part.8_years|fb:part.345_days
+3	6	fb:cell.3_267_days	3,267 days	3,267|days	3,267|day	CD|NNS	DURATION|DURATION	3267.0|3267.0	3267.0				
+4	0	fb:cell.john_quincy_adams	John Quincy Adams	john|quincy|adams	John|Quincy|Adams	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+4	1	fb:cell.june_8_1845	June 8, 1845	june|8|,|1845	June|8|,|1845	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1845-06-08|1845-06-08|1845-06-08|1845-06-08	81845.0	1845-06-08		June 8|1845	fb:part.june_8|fb:part.1845
+4	2	fb:cell.february_23_1848	February 23, 1848	february|23|,|1848	February|23|,|1848	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1848-02-23|1848-02-23|1848-02-23|1848-02-23	231848.0	1848-02-23		February 23|1848	fb:part.february_23|fb:part.1848
+4	3	fb:cell.77_years_332_days	77 years, 332 days	77|years|,|332|days	77|year|,|332|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	77.0|77.0||332.0|0.0	77.0		332.0	77 years|332 days	fb:part.77_years|fb:part.332_days
+4	4	fb:cell.80_years_227_days	80 years, 227 days	80|years|,|227|days	80|year|,|227|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	80.0|80.0||227.0|0.0	80.0		227.0	80 years|227 days	fb:part.80_years|fb:part.227_days
+4	5	fb:cell.2_years_260_days	2 years, 260 days	2|years|,|260|days	2|year|,|260|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	2.0|2.0||260.0|0.0	2.0		260.0	2 years|260 days	fb:part.2_years|fb:part.260_days
+4	6	fb:cell.990_days	990 days	990|days	990|day	CD|NNS	DURATION|DURATION	990.0|990.0	990.0				
+5	0	fb:cell.martin_van_buren	Martin Van Buren	martin|van|buren	Martin|Van|Buren	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+5	1	fb:cell.february_23_1848	February 23, 1848	february|23|,|1848	February|23|,|1848	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1848-02-23|1848-02-23|1848-02-23|1848-02-23	231848.0	1848-02-23		February 23|1848	fb:part.february_23|fb:part.1848
+5	2	fb:cell.july_24_1862	July 24, 1862	july|24|,|1862	July|24|,|1862	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1862-07-24|1862-07-24|1862-07-24|1862-07-24	241862.0	1862-07-24		July 24|1862	fb:part.july_24|fb:part.1862
+5	3	fb:cell.65_years_80_days	65 years, 80 days	65|years|,|80|days	65|year|,|80|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	65.0|65.0||80.0|0.0	65.0		80.0	65 years|80 days	fb:part.65_years|fb:part.80_days
+5	4	fb:cell.79_years_231_days	79 years, 231 days	79|years|,|231|days	79|year|,|231|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	79.0|79.0||231.0|0.0	79.0		231.0	79 years|231 days	fb:part.79_years|fb:part.231_days
+5	5	fb:cell.14_years_151_days	14 years, 151 days	14|years|,|151|days	14|year|,|151|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	14.0|14.0||151.0|0.0	14.0		151.0	14 years|151 days	fb:part.14_years|fb:part.151_days
+5	6	fb:cell.5_265_days	5,265 days	5,265|days	5,265|day	CD|NNS	DURATION|DURATION	5265.0|5265.0	5265.0				
+6	0	fb:cell.james_buchanan	James Buchanan	james|buchanan	James|Buchanan	NNP|NNP	PERSON|PERSON	|					
+6	1	fb:cell.july_24_1862	July 24, 1862	july|24|,|1862	July|24|,|1862	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1862-07-24|1862-07-24|1862-07-24|1862-07-24	241862.0	1862-07-24		July 24|1862	fb:part.july_24|fb:part.1862
+6	2	fb:cell.june_1_1868	June 1, 1868	june|1|,|1868	June|1|,|1868	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1868-06-01|1868-06-01|1868-06-01|1868-06-01	11868.0	1868-06-01		June 1|1868	fb:part.june_1|fb:part.1868
+6	3	fb:cell.71_years_92_days	71 years, 92 days	71|years|,|92|days	71|year|,|92|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	71.0|71.0||92.0|0.0	71.0		92.0	71 years|92 days	fb:part.71_years|fb:part.92_days
+6	4	fb:cell.77_years_39_days	77 years, 39 days	77|years|,|39|days	77|year|,|39|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	77.0|77.0||39.0|0.0	77.0		39.0	77 years|39 days	fb:part.77_years|fb:part.39_days
+6	5	fb:cell.5_years_313_days	5 years, 313 days	5|years|,|313|days	5|year|,|313|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	5.0|5.0||313.0|0.0	5.0		313.0	5 years|313 days	fb:part.5_years|fb:part.313_days
+6	6	fb:cell.2_139_days	2,139 days	2,139|days	2,139|day	CD|NNS	DURATION|DURATION	2139.0|2139.0	2139.0				
+7	0	fb:cell.millard_fillmore	Millard Fillmore	millard|fillmore	Millard|Fillmore	NNP|NNP	PERSON|PERSON	|					
+7	1	fb:cell.june_1_1868	June 1, 1868	june|1|,|1868	June|1|,|1868	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1868-06-01|1868-06-01|1868-06-01|1868-06-01	11868.0	1868-06-01		June 1|1868	fb:part.june_1|fb:part.1868
+7	2	fb:cell.march_8_1874	March 8, 1874	march|8|,|1874	March|8|,|1874	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1874-03-08|1874-03-08|1874-03-08|1874-03-08	81874.0	1874-03-08		March 8|1874	fb:part.march_8|fb:part.1874
+7	3	fb:cell.68_years_146_days	68 years, 146 days	68|years|,|146|days	68|year|,|146|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	68.0|68.0||146.0|0.0	68.0		146.0	68 years|146 days	fb:part.68_years|fb:part.146_days
+7	4	fb:cell.74_years_60_days	74 years, 60 days	74|years|,|60|days	74|year|,|60|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	74.0|74.0||60.0|0.0	74.0		60.0	74 years|60 days	fb:part.74_years|fb:part.60_days
+7	5	fb:cell.5_years_280_days	5 years, 280 days	5|years|,|280|days	5|year|,|280|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	5.0|5.0||280.0|0.0	5.0		280.0	5 years|280 days	fb:part.5_years|fb:part.280_days
+7	6	fb:cell.2_106_days	2,106 days	2,106|days	2,106|day	CD|NNS	DURATION|DURATION	2106.0|2106.0	2106.0				
+8	0	fb:cell.andrew_johnson	Andrew Johnson	andrew|johnson	Andrew|Johnson	NNP|NNP	PERSON|PERSON	|					
+8	1	fb:cell.march_8_1874	March 8, 1874	march|8|,|1874	March|8|,|1874	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1874-03-08|1874-03-08|1874-03-08|1874-03-08	81874.0	1874-03-08		March 8|1874	fb:part.march_8|fb:part.1874
+8	2	fb:cell.july_31_1875	July 31, 1875	july|31|,|1875	July|31|,|1875	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1875-07-31|1875-07-31|1875-07-31|1875-07-31	311875.0	1875-07-31		July 31|1875	fb:part.july_31|fb:part.1875
+8	3	fb:cell.65_years_69_days	65 years, 69 days	65|years|,|69|days	65|year|,|69|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	65.0|65.0||69.0|0.0	65.0		69.0	65 years|69 days	fb:part.65_years|fb:part.69_days
+8	4	fb:cell.66_years_214_days	66 years, 214 days	66|years|,|214|days	66|year|,|214|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	66.0|66.0||214.0|0.0	66.0		214.0	66 years|214 days	fb:part.66_years|fb:part.214_days
+8	5	fb:cell.1_year_145_days	1 year, 145 days	1|year|,|145|days	1|year|,|145|day	CD|NN|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	1.0|1.0||145.0|0.0	1.0		145.0	1 year|145 days	fb:part.1_year|fb:part.145_days
+8	6	fb:cell.510_days	510 days	510|days	510|day	CD|NNS	DURATION|DURATION	510.0|510.0	510.0				
+9	0	fb:cell.ulysses_s_grant	Ulysses S. Grant	ulysses|s.|grant	Ulysses|S.|Grant	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+9	1	fb:cell.july_31_1875	July 31, 1875	july|31|,|1875	July|31|,|1875	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1875-07-31|1875-07-31|1875-07-31|1875-07-31	311875.0	1875-07-31		July 31|1875	fb:part.july_31|fb:part.1875
+9	2	fb:cell.july_23_1885	July 23, 1885	july|23|,|1885	July|23|,|1885	NNP|CD|,|NNP	DATE|DATE|DATE|DATE	1885-07-23|1885-07-23|1885-07-23|1885-07-23	231885.0	1885-07-23		July 23|1885	fb:part.july_23|fb:part.1885
+9	3	fb:cell.53_years_95_days	53 years, 95 days	53|years|,|95|days	53|year|,|95|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	53.0|53.0||95.0|0.0	53.0		95.0	53 years|95 days	fb:part.53_years|fb:part.95_days
+9	4	fb:cell.63_years_87_days	63 years, 87 days	63|years|,|87|days	63|year|,|87|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	63.0|63.0||87.0|0.0	63.0		87.0	63 years|87 days	fb:part.63_years|fb:part.87_days
+9	5	fb:cell.9_years_357_days	9 years, 357 days	9|years|,|357|days	9|year|,|357|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	9.0|9.0||357.0|0.0	9.0		357.0	9 years|357 days	fb:part.9_years|fb:part.357_days
+9	6	fb:cell.3_645_days	3,645 days	3,645|days	3,645|day	CD|NNS	DURATION|DURATION	3645.0|3645.0	3645.0				
+10	0	fb:cell.rutherford_b_hayes	Rutherford B. Hayes	rutherford|b.|hayes	Rutherford|B.|Hayes	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+10	1	fb:cell.july_23_1885	July 23, 1885	july|23|,|1885	July|23|,|1885	NNP|CD|,|NNP	DATE|DATE|DATE|DATE	1885-07-23|1885-07-23|1885-07-23|1885-07-23	231885.0	1885-07-23		July 23|1885	fb:part.july_23|fb:part.1885
+10	2	fb:cell.january_17_1893	January 17, 1893	january|17|,|1893	January|17|,|1893	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1893-01-17|1893-01-17|1893-01-17|1893-01-17	171893.0	1893-01-17		January 17|1893	fb:part.january_17|fb:part.1893
+10	3	fb:cell.62_years_292_days	62 years, 292 days	62|years|,|292|days	62|year|,|292|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	62.0|62.0||292.0|0.0	62.0		292.0	62 years|292 days	fb:part.62_years|fb:part.292_days
+10	4	fb:cell.70_years_105_days	70 years, 105 days	70|years|,|105|days	70|year|,|105|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	70.0|70.0||105.0|0.0	70.0		105.0	70 years|105 days	fb:part.70_years|fb:part.105_days
+10	5	fb:cell.7_years_178_days	7 years, 178 days	7|years|,|178|days	7|year|,|178|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	7.0|7.0||178.0|0.0	7.0		178.0	7 years|178 days	fb:part.7_years|fb:part.178_days
+10	6	fb:cell.2_735_days	2,735 days	2,735|days	2,735|day	CD|NNS	DURATION|DURATION	2735.0|2735.0	2735.0				
+11	0	fb:cell.benjamin_harrison	Benjamin Harrison	benjamin|harrison	Benjamin|Harrison	NNP|NNP	PERSON|PERSON	|					
+11	1	fb:cell.january_17_1893	January 17, 1893	january|17|,|1893	January|17|,|1893	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1893-01-17|1893-01-17|1893-01-17|1893-01-17	171893.0	1893-01-17		January 17|1893	fb:part.january_17|fb:part.1893
+11	2	fb:cell.march_13_1901	March 13, 1901	march|13|,|1901	March|13|,|1901	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1901-03-13|1901-03-13|1901-03-13|1901-03-13	131901.0	1901-03-13		March 13|1901	fb:part.march_13|fb:part.1901
+11	3	fb:cell.59_years_150_days	59 years, 150 days	59|years|,|150|days	59|year|,|150|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	59.0|59.0||150.0|0.0	59.0		150.0	59 years|150 days	fb:part.59_years|fb:part.150_days
+11	4	fb:cell.67_years_205_days	67 years, 205 days	67|years|,|205|days	67|year|,|205|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	67.0|67.0||205.0|0.0	67.0		205.0	67 years|205 days	fb:part.67_years|fb:part.205_days
+11	5	fb:cell.8_years_55_days	8 years, 55 days	8|years|,|55|days	8|year|,|55|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	8.0|8.0||55.0|0.0	8.0		55.0	8 years|55 days	fb:part.8_years|fb:part.55_days
+11	6	fb:cell.2_976_days	2,976 days	2,976|days	2,976|day	CD|NNS	DURATION|DURATION	2976.0|2976.0	2976.0				
+12	0	fb:cell.grover_cleveland	Grover Cleveland	grover|cleveland	Grover|Cleveland	NNP|NNP	PERSON|PERSON	|					
+12	1	fb:cell.march_13_1901	March 13, 1901	march|13|,|1901	March|13|,|1901	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1901-03-13|1901-03-13|1901-03-13|1901-03-13	131901.0	1901-03-13		March 13|1901	fb:part.march_13|fb:part.1901
+12	2	fb:cell.june_24_1908	June 24, 1908	june|24|,|1908	June|24|,|1908	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1908-06-24|1908-06-24|1908-06-24|1908-06-24	241908.0	1908-06-24		June 24|1908	fb:part.june_24|fb:part.1908
+12	3	fb:cell.63_years_360_days	63 years, 360 days	63|years|,|360|days	63|year|,|360|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	63.0|63.0||360.0|0.0	63.0		360.0	63 years|360 days	fb:part.63_years|fb:part.360_days
+12	4	fb:cell.71_years_98_days	71 years, 98 days	71|years|,|98|days	71|year|,|98|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	71.0|71.0||98.0|0.0	71.0		98.0	71 years|98 days	fb:part.71_years|fb:part.98_days
+12	5	fb:cell.7_years_103_days	7 years, 103 days	7|years|,|103|days	7|year|,|103|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	7.0|7.0||103.0|0.0	7.0		103.0	7 years|103 days	fb:part.7_years|fb:part.103_days
+12	6	fb:cell.2_660_days	2,660 days	2,660|days	2,660|day	CD|NNS	DURATION|DURATION	2660.0|2660.0	2660.0				
+13	0	fb:cell.theodore_roosevelt	Theodore Roosevelt	theodore|roosevelt	Theodore|Roosevelt	NNP|NNP	PERSON|PERSON	|					
+13	1	fb:cell.june_24_1908	June 24, 1908	june|24|,|1908	June|24|,|1908	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1908-06-24|1908-06-24|1908-06-24|1908-06-24	241908.0	1908-06-24		June 24|1908	fb:part.june_24|fb:part.1908
+13	2	fb:cell.march_4_1909	March 4, 1909	march|4|,|1909	March|4|,|1909	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1909-03-04|1909-03-04|1909-03-04|1909-03-04	41909.0	1909-03-04		March 4|1909	fb:part.march_4|fb:part.1909
+13	3	fb:cell.49_years_241_days	49 years, 241 days	49|years|,|241|days	49|year|,|241|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	49.0|49.0||241.0|0.0	49.0		241.0	49 years|241 days	fb:part.49_years|fb:part.241_days
+13	4	fb:cell.50_years_128_days	50 years, 128 days	50|years|,|128|days	50|year|,|128|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	50.0|50.0||128.0|0.0	50.0		128.0	50 years|128 days	fb:part.50_years|fb:part.128_days
+13	5	fb:cell.0_years_253_days	0 years, 253 days	0|years|,|253|days	0|year|,|253|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	0.0|0.0||253.0|0.0	0.0		253.0	0 years|253 days	fb:part.0_years|fb:part.253_days
+13	6	fb:cell.253_days	253 days	253|days	253|day	CD|NNS	DURATION|DURATION	253.0|253.0	253.0				
+14	0	fb:cell.william_howard_taft	William Howard Taft	william|howard|taft	William|Howard|Taft	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+14	1	fb:cell.march_4_1909	March 4, 1909	march|4|,|1909	March|4|,|1909	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1909-03-04|1909-03-04|1909-03-04|1909-03-04	41909.0	1909-03-04		March 4|1909	fb:part.march_4|fb:part.1909
+14	2	fb:cell.march_4_1913	March 4, 1913	march|4|,|1913	March|4|,|1913	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1913-03-04|1913-03-04|1913-03-04|1913-03-04	41913.0	1913-03-04		March 4|1913	fb:part.march_4|fb:part.1913
+14	3	fb:cell.51_years_170_days	51 years, 170 days	51|years|,|170|days	51|year|,|170|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	51.0|51.0||170.0|0.0	51.0		170.0	51 years|170 days	fb:part.51_years|fb:part.170_days
+14	4	fb:cell.55_years_170_days	55 years, 170 days	55|years|,|170|days	55|year|,|170|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	55.0|55.0||170.0|0.0	55.0		170.0	55 years|170 days	fb:part.55_years|fb:part.170_days
+14	5	fb:cell.4_years_0_days	4 years, 0 days	4|years|,|0|days	4|year|,|0|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	4.0|4.0||0.0|0.0	4.0		0.0	4 years|0 days	fb:part.4_years|fb:part.0_days
+14	6	fb:cell.1_461_days	1,461 days	1,461|days	1,461|day	CD|NNS	DURATION|DURATION	1461.0|1461.0	1461.0				
+15	0	fb:cell.woodrow_wilson	Woodrow Wilson	woodrow|wilson	Woodrow|Wilson	NNP|NNP	PERSON|PERSON	|					
+15	1	fb:cell.march_4_1913	March 4, 1913	march|4|,|1913	March|4|,|1913	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1913-03-04|1913-03-04|1913-03-04|1913-03-04	41913.0	1913-03-04		March 4|1913	fb:part.march_4|fb:part.1913
+15	2	fb:cell.february_3_1924	February 3, 1924	february|3|,|1924	February|3|,|1924	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1924-02-03|1924-02-03|1924-02-03|1924-02-03	31924.0	1924-02-03		February 3|1924	fb:part.february_3|fb:part.1924
+15	3	fb:cell.56_years_66_days	56 years, 66 days	56|years|,|66|days	56|year|,|66|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	56.0|56.0||66.0|0.0	56.0		66.0	56 years|66 days	fb:part.56_years|fb:part.66_days
+15	4	fb:cell.67_years_37_days	67 years, 37 days	67|years|,|37|days	67|year|,|37|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	67.0|67.0||37.0|0.0	67.0		37.0	67 years|37 days	fb:part.67_years|fb:part.37_days
+15	5	fb:cell.10_years_336_days	10 years, 336 days	10|years|,|336|days	10|year|,|336|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	10.0|10.0||336.0|0.0	10.0		336.0	10 years|336 days	fb:part.10_years|fb:part.336_days
+15	6	fb:cell.3_988_days	3,988 days	3,988|days	3,988|day	CD|NNS	DURATION|DURATION	3988.0|3988.0	3988.0				
+16	0	fb:cell.william_howard_taft	William Howard Taft	william|howard|taft	William|Howard|Taft	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+16	1	fb:cell.february_3_1924	February 3, 1924	february|3|,|1924	February|3|,|1924	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1924-02-03|1924-02-03|1924-02-03|1924-02-03	31924.0	1924-02-03		February 3|1924	fb:part.february_3|fb:part.1924
+16	2	fb:cell.march_8_1930	March 8, 1930	march|8|,|1930	March|8|,|1930	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1930-03-08|1930-03-08|1930-03-08|1930-03-08	81930.0	1930-03-08		March 8|1930	fb:part.march_8|fb:part.1930
+16	3	fb:cell.66_years_141_days	66 years, 141 days	66|years|,|141|days	66|year|,|141|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	66.0|66.0||141.0|0.0	66.0		141.0	66 years|141 days	fb:part.66_years|fb:part.141_days
+16	4	fb:cell.72_years_174_days	72 years, 174 days	72|years|,|174|days	72|year|,|174|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	72.0|72.0||174.0|0.0	72.0		174.0	72 years|174 days	fb:part.72_years|fb:part.174_days
+16	5	fb:cell.6_years_33_days	6 years, 33 days	6|years|,|33|days	6|year|,|33|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	6.0|6.0||33.0|0.0	6.0		33.0	6 years|33 days	fb:part.6_years|fb:part.33_days
+16	6	fb:cell.2_225_days	2,225 days	2,225|days	2,225|day	CD|NNS	DURATION|DURATION	2225.0|2225.0	2225.0				
+17	0	fb:cell.calvin_coolidge	Calvin Coolidge	calvin|coolidge	Calvin|Coolidge	NNP|NNP	PERSON|PERSON	|					
+17	1	fb:cell.march_8_1930	March 8, 1930	march|8|,|1930	March|8|,|1930	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1930-03-08|1930-03-08|1930-03-08|1930-03-08	81930.0	1930-03-08		March 8|1930	fb:part.march_8|fb:part.1930
+17	2	fb:cell.january_5_1933	January 5, 1933	january|5|,|1933	January|5|,|1933	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1933-01-05|1933-01-05|1933-01-05|1933-01-05	51933.0	1933-01-05		January 5|1933	fb:part.january_5|fb:part.1933
+17	3	fb:cell.57_years_247_days	57 years, 247 days	57|years|,|247|days	57|year|,|247|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	57.0|57.0||247.0|0.0	57.0		247.0	57 years|247 days	fb:part.57_years|fb:part.247_days
+17	4	fb:cell.60_years_185_days	60 years, 185 days	60|years|,|185|days	60|year|,|185|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	60.0|60.0||185.0|0.0	60.0		185.0	60 years|185 days	fb:part.60_years|fb:part.185_days
+17	5	fb:cell.2_years_303_days	2 years, 303 days	2|years|,|303|days	2|year|,|303|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	2.0|2.0||303.0|0.0	2.0		303.0	2 years|303 days	fb:part.2_years|fb:part.303_days
+17	6	fb:cell.1_034_days	1,034 days	1,034|days	1,034|day	CD|NNS	DURATION|DURATION	1034.0|1034.0	1034.0				
+18	0	fb:cell.herbert_hoover	Herbert Hoover	herbert|hoover	Herbert|Hoover	NNP|NNP	PERSON|PERSON	|					
+18	1	fb:cell.january_5_1933	January 5, 1933	january|5|,|1933	January|5|,|1933	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1933-01-05|1933-01-05|1933-01-05|1933-01-05	51933.0	1933-01-05		January 5|1933	fb:part.january_5|fb:part.1933
+18	2	fb:cell.october_20_1964	October 20, 1964	october|20|,|1964	October|20|,|1964	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1964-10-20|1964-10-20|1964-10-20|1964-10-20	201964.0	1964-10-20		October 20|1964	fb:part.october_20|fb:part.1964
+18	3	fb:cell.58_years_148_days	58 years, 148 days	58|years|,|148|days	58|year|,|148|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	58.0|58.0||148.0|0.0	58.0		148.0	58 years|148 days	fb:part.58_years|fb:part.148_days
+18	4	fb:cell.90_years_71_days	90 years, 71 days	90|years|,|71|days	90|year|,|71|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	90.0|90.0||71.0|0.0	90.0		71.0	90 years|71 days	fb:part.90_years|fb:part.71_days
+18	5	fb:cell.31_years_289_days	31 years, 289 days	31|years|,|289|days	31|year|,|289|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	31.0|31.0||289.0|0.0	31.0		289.0	31 years|289 days	fb:part.31_years|fb:part.289_days
+18	6	fb:cell.11_611_days	11,611 days	11,611|days	11,611|day	CD|NNS	DURATION|DURATION	11611.0|11611.0	11611.0				
+19	0	fb:cell.harry_s_truman	Harry S. Truman	harry|s.|truman	Harry|S.|Truman	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+19	1	fb:cell.october_20_1964	October 20, 1964	october|20|,|1964	October|20|,|1964	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1964-10-20|1964-10-20|1964-10-20|1964-10-20	201964.0	1964-10-20		October 20|1964	fb:part.october_20|fb:part.1964
+19	2	fb:cell.december_26_1972	December 26, 1972	december|26|,|1972	December|26|,|1972	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1972-12-26|1972-12-26|1972-12-26|1972-12-26	261972.0	1972-12-26		December 26|1972	fb:part.december_26|fb:part.1972
+19	3	fb:cell.80_years_165_days	80 years, 165 days	80|years|,|165|days	80|year|,|165|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	80.0|80.0||165.0|0.0	80.0		165.0	80 years|165 days	fb:part.80_years|fb:part.165_days
+19	4	fb:cell.88_years_232_days	88 years, 232 days	88|years|,|232|days	88|year|,|232|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	88.0|88.0||232.0|0.0	88.0		232.0	88 years|232 days	fb:part.88_years|fb:part.232_days
+19	5	fb:cell.8_years_67_days	8 years, 67 days	8|years|,|67|days	8|year|,|67|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	8.0|8.0||67.0|0.0	8.0		67.0	8 years|67 days	fb:part.8_years|fb:part.67_days
+19	6	fb:cell.2_989_days	2,989 days	2,989|days	2,989|day	CD|NNS	DURATION|DURATION	2989.0|2989.0	2989.0				
+20	0	fb:cell.lyndon_b_johnson	Lyndon B. Johnson	lyndon|b.|johnson	Lyndon|B.|Johnson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+20	1	fb:cell.december_26_1972	December 26, 1972	december|26|,|1972	December|26|,|1972	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1972-12-26|1972-12-26|1972-12-26|1972-12-26	261972.0	1972-12-26		December 26|1972	fb:part.december_26|fb:part.1972
+20	2	fb:cell.january_22_1973	January 22, 1973	january|22|,|1973	January|22|,|1973	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1973-01-22|1973-01-22|1973-01-22|1973-01-22	221973.0	1973-01-22		January 22|1973	fb:part.january_22|fb:part.1973
+20	3	fb:cell.64_years_121_days	64 years, 121 days	64|years|,|121|days	64|year|,|121|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	64.0|64.0||121.0|0.0	64.0		121.0	64 years|121 days	fb:part.64_years|fb:part.121_days
+20	4	fb:cell.64_years_148_days	64 years, 148 days	64|years|,|148|days	64|year|,|148|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	64.0|64.0||148.0|0.0	64.0		148.0	64 years|148 days	fb:part.64_years|fb:part.148_days
+20	5	fb:cell.0_years_27_days	0 years, 27 days	0|years|,|27|days	0|year|,|27|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	0.0|0.0||27.0|0.0	0.0		27.0	0 years|27 days	fb:part.0_years|fb:part.27_days
+20	6	fb:cell.27_days	27 days	27|days	27|day	CD|NNS	DURATION|DURATION	27.0|27.0	27.0				
+21	0	fb:cell.richard_nixon	Richard Nixon	richard|nixon	Richard|Nixon	NNP|NNP	PERSON|PERSON	|					
+21	1	fb:cell.january_22_1973	January 22, 1973	january|22|,|1973	January|22|,|1973	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1973-01-22|1973-01-22|1973-01-22|1973-01-22	221973.0	1973-01-22		January 22|1973	fb:part.january_22|fb:part.1973
+21	2	fb:cell.january_20_1981	January 20, 1981	january|20|,|1981	January|20|,|1981	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1981-01-20|1981-01-20|1981-01-20|1981-01-20	201981.0	1981-01-20		January 20|1981	fb:part.january_20|fb:part.1981
+21	3	fb:cell.60_years_13_days	60 years, 13 days	60|years|,|13|days	60|year|,|13|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	60.0|60.0||13.0|0.0	60.0		13.0	60 years|13 days	fb:part.60_years|fb:part.13_days
+21	4	fb:cell.68_years_11_days	68 years, 11 days	68|years|,|11|days	68|year|,|11|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	68.0|68.0||11.0|0.0	68.0		11.0	68 years|11 days	fb:part.68_years|fb:part.11_days
+21	5	fb:cell.7_years_364_days	7 years, 364 days	7|years|,|364|days	7|year|,|364|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	7.0|7.0||364.0|0.0	7.0		364.0	7 years|364 days	fb:part.7_years|fb:part.364_days
+21	6	fb:cell.2_920_days	2,920 days	2,920|days	2,920|day	CD|NNS	DURATION|DURATION	2920.0|2920.0	2920.0				
+22	0	fb:cell.ronald_reagan	Ronald Reagan	ronald|reagan	Ronald|Reagan	NNP|NNP	PERSON|PERSON	|					
+22	1	fb:cell.january_20_1981	January 20, 1981	january|20|,|1981	January|20|,|1981	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1981-01-20|1981-01-20|1981-01-20|1981-01-20	201981.0	1981-01-20		January 20|1981	fb:part.january_20|fb:part.1981
+22	2	fb:cell.june_5_2004	June 5, 2004	june|5|,|2004	June|5|,|2004	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2004-06-05|2004-06-05|2004-06-05|2004-06-05	52004.0	2004-06-05		June 5|2004	fb:part.june_5|fb:part.2004
+22	3	fb:cell.69_years_349_days	69 years, 349 days	69|years|,|349|days	69|year|,|349|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	69.0|69.0||349.0|0.0	69.0		349.0	69 years|349 days	fb:part.69_years|fb:part.349_days
+22	4	fb:cell.93_years_120_days	93 years, 120 days	93|years|,|120|days	93|year|,|120|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	93.0|93.0||120.0|0.0	93.0		120.0	93 years|120 days	fb:part.93_years|fb:part.120_days
+22	5	fb:cell.23_years_137_days	23 years, 137 days	23|years|,|137|days	23|year|,|137|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	23.0|23.0||137.0|0.0	23.0		137.0	23 years|137 days	fb:part.23_years|fb:part.137_days
+22	6	fb:cell.8_537_days	8,537 days	8,537|days	8,537|day	CD|NNS	DURATION|DURATION	8537.0|8537.0	8537.0				
+23	0	fb:cell.gerald_ford	Gerald Ford	gerald|ford	Gerald|Ford	NNP|NNP	PERSON|PERSON	|					
+23	1	fb:cell.june_5_2004	June 5, 2004	june|5|,|2004	June|5|,|2004	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2004-06-05|2004-06-05|2004-06-05|2004-06-05	52004.0	2004-06-05		June 5|2004	fb:part.june_5|fb:part.2004
+23	2	fb:cell.december_26_2006	December 26, 2006	december|26|,|2006	December|26|,|2006	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2006-12-26|2006-12-26|2006-12-26|2006-12-26	262006.0	2006-12-26		December 26|2006	fb:part.december_26|fb:part.2006
+23	3	fb:cell.90_years_327_days	90 years, 327 days	90|years|,|327|days	90|year|,|327|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	90.0|90.0||327.0|0.0	90.0		327.0	90 years|327 days	fb:part.90_years|fb:part.327_days
+23	4	fb:cell.93_years_165_days	93 years, 165 days	93|years|,|165|days	93|year|,|165|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	93.0|93.0||165.0|0.0	93.0		165.0	93 years|165 days	fb:part.93_years|fb:part.165_days
+23	5	fb:cell.2_years_204_days	2 years, 204 days	2|years|,|204|days	2|year|,|204|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	2.0|2.0||204.0|0.0	2.0		204.0	2 years|204 days	fb:part.2_years|fb:part.204_days
+23	6	fb:cell.934_days	934 days	934|days	934|day	CD|NNS	DURATION|DURATION	934.0|934.0	934.0				
+24	0	fb:cell.george_h_w_bush	George H. W. Bush	george|h.|w.|bush	George|H.|W.|Bush	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+24	1	fb:cell.december_26_2006	December 26, 2006	december|26|,|2006	December|26|,|2006	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2006-12-26|2006-12-26|2006-12-26|2006-12-26	262006.0	2006-12-26		December 26|2006	fb:part.december_26|fb:part.2006
+24	2	fb:cell.current_oldest_living_president	Current oldest living president	current|oldest|living|president	current|oldest|living|president	JJ|JJS|NN|NN	DATE|O|O|O	PRESENT_REF|||				Current oldest living president	fb:part.current_oldest_living_president
+24	3	fb:cell.82_years_197_days	82 years, 197 days	82|years|,|197|days	82|year|,|197|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	82.0|82.0||197.0|0.0	82.0		197.0	82 years|197 days	fb:part.82_years|fb:part.197_days
+24	4	fb:cell.current_oldest_living_president	Current oldest living president	current|oldest|living|president	current|oldest|living|president	JJ|JJS|NN|NN	DATE|O|O|O	PRESENT_REF|||				Current oldest living president	fb:part.current_oldest_living_president
+24	5	fb:cell.7_years_173_days	7 years, 173 days	7|years|,|173|days	7|year|,|173|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	7.0|7.0||173.0|0.0	7.0		173.0	7 years|173 days	fb:part.7_years|fb:part.173_days
+24	6	fb:cell.2_730_days	2,730 days	2,730|days	2,730|day	CD|NNS	DURATION|DURATION	2730.0|2730.0	2730.0				
+25	0	fb:cell.president	President	president	President	NNP	O						
+25	1	fb:cell.became_oldest_living_president	Became Oldest Living President	became|oldest|living|president	Became|Oldest|live|President	NNP|NNP|VBG|NNP	O|O|O|O	|||				Became Oldest Living President	fb:part.became_oldest_living_president
+25	2	fb:cell.ceased_to_be_oldest_living_president	Ceased to Be Oldest Living President	ceased|to|be|oldest|living|president	cease|to|be|oldest|live|President	VBN|TO|VBD-AUX|JJ|VBG|NNP	O|O|O|O|O|O	|||||				Ceased to Be Oldest Living President	fb:part.ceased_to_be_oldest_living_president
+25	3	fb:cell.age_at_start_date	Age at Start Date	age|at|start|date	age|at|Start|Date	NN|IN|NNP|NNP	O|O|O|O	|||				Age at Start Date	fb:part.age_at_start_date
+25	4	fb:cell.age_at_end_date	Age at End Date	age|at|end|date	Age|at|End|Date	NNP|IN|NNP|NNP	O|O|O|O	|||				Age at End Date	fb:part.age_at_end_date
+25	5	fb:cell.duration_years_days	Duration (Years, Days)	duration|-lrb-|years|,|days|-rrb-	duration|-lrb-|year|,|day|-rrb-	NN|-LRB-|NNS|,|NNS|-RRB-	O|O|DURATION|O|DURATION|O	|||||				Duration (Years|Days)	fb:part.duration_years|fb:part.days
+25	6	fb:cell.duration_days	Duration (Days)	duration|-lrb-|days|-rrb-	duration|-lrb-|day|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|DURATION|O	|||					

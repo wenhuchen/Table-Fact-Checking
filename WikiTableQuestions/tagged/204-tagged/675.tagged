@@ -1,0 +1,289 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.game_of_the_year	Game of the Year	game|of|the|year	game|of|the|year	NN|IN|DT|NN	O|O|DATE|DATE	||THIS P1Y|THIS P1Y					
+-1	2	fb:row.row.abstract_strategy	Abstract strategy	abstract|strategy	abstract|strategy	JJ|NN	O|O	|					
+-1	3	fb:row.row.advanced_strategy	Advanced strategy	advanced|strategy	Advanced|strategy	NNP|NN	O|O	|					
+-1	4	fb:row.row.family	Family	family	Family	NNP	O						
+-1	5	fb:row.row.family_card	Family card	family|card	Family|card	NNP|NN	O|O	|					
+-1	6	fb:row.row.family_strategy	Family strategy	family|strategy	Family|strategy	NNP|NN	O|O	|					
+-1	7	fb:row.row.party	Party	party	Party	NNP	O						
+-1	8	fb:row.row.puzzle	Puzzle	puzzle	puzzle	NN	O						
+-1	9	fb:row.row.word	Word	word	word	NN	O						
+-1	10	fb:row.row.historical_simulation	Historical simulation	historical|simulation	historical|simulation	JJ|NN	O|O	|					
+-1	11	fb:row.row.other	Other	other	other	JJ	O						
+0	0	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+0	1	fb:cell.trumpet	Trumpet	trumpet	trumpet	NN	O					Trumpet	fb:part.trumpet
+0	2	fb:cell.master_labyrinth	Master Labyrinth	master|labyrinth	master|labyrinth	NN|NN	O|O	|					
+0	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+0	4	fb:cell.stack	Stack	stack	stack	VB	O						
+0	5	fb:cell.arcade_wing_commander	Arcade: Wing Commander	arcade|:|wing|commander	Arcade|:|wing|Commander	NNP|:|NN|NNP	O|O|O|O	|||				Arcade: Wing Commander	fb:part.arcade_wing_commander
+0	6	fb:cell.real_life_strategy_sherlock_holmes_consulting_detective	Real-Life Strategy: Sherlock Holmes Consulting Detective	real|life|strategy|:|sherlock|holmes|consulting|detective	Real|Life|Strategy|:|Sherlock|Holmes|Consulting|Detective	NNP|NNP|NNP|:|NNP|NNP|NNP|NNP	O|O|O|O|PERSON|PERSON|O|O	|||||||				Real-Life Strategy: Sherlock Holmes Consulting Detective	fb:part.real_life_strategy_sherlock_holmes_consulting_detective
+0	7	fb:cell.tabloid_teasers	Tabloid Teasers	tabloid|teasers	tabloid|teaser	JJ|NNS	O|O	|				Tabloid Teasers	fb:part.tabloid_teasers
+0	8	fb:cell.3_in_three	3 In Three	3|in|three	3|in|three	CD|IN|CD	NUMBER|O|NUMBER	3.0||3.0	3.0				
+0	9	fb:cell.swoggle	Swoggle	swoggle	swoggle	NN	O						
+0	10	fb:cell.war_adventure_heroquest	War/Adventure: HeroQuest	war\\/adventure|:|heroquest	War\\/Adventure|:|HeroQuest	NNP|:|NNP	O|O|O	||				War|Adventure: HeroQuest	fb:part.war|fb:part.adventure_heroquest
+0	11	fb:cell.trivia_play_it_by_ear	Trivia: Play It By Ear	trivia|:|play|it|by|ear	Trivia|:|Play|it|by|ear	NNP|:|NNP|PRP|IN|NN	O|O|O|O|O|O	|||||				Trivia: Play It By Ear	fb:part.trivia_play_it_by_ear
+1	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+1	1	fb:cell.pipeline	Pipeline	pipeline	Pipeline	NNP	O					Pipeline	fb:part.pipeline
+1	2	fb:cell.terrace	Terrace	terrace	Terrace	NNP	O						
+1	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+1	4	fb:cell.showdown_yahtzee	Showdown Yahtzee	showdown|yahtzee	Showdown|Yahtzee	NNP|NNP	O|O	|					
+1	5	fb:cell.arcade_super_tetris	Arcade: Super Tetris	arcade|:|super|tetris	Arcade|:|Super|Tetris	NNP|:|NNP|NNP	O|O|O|O	|||				Arcade: Super Tetris	fb:part.arcade_super_tetris
+1	6	fb:cell.real_life_strategy_d_day	Real-Life Strategy: D-Day	real|life|strategy|:|d|day	Real|Life|Strategy|:|D|Day	NNP|NNP|NNP|:|NNP|NNP	O|O|O|O|O|DURATION	|||||				Real-Life Strategy: D-Day	fb:part.real_life_strategy_d_day
+1	7	fb:cell.humm_ble	Humm…ble	humm|...|ble	Humm|...|ble	NNP|:|NN	PERSON|O|O	||				Humm…ble	fb:part.humm_ble
+1	8	fb:cell.heaven_earth	Heaven & Earth	heaven|&|earth	Heaven|&|Earth	NNP|CC|NNP	O|O|O	||					
+1	9	fb:cell.wordsters	Wordsters	wordsters	wordster	NNS	O						
+1	10	fb:cell.adventure_the_lost_files_of_sherlock_holmes	Adventure: The Lost Files of Sherlock Holmes	adventure|:|the|lost|files|of|sherlock|holmes	adventure|:|the|lose|file|of|Sherlock|Holmes	NN|:|DT|VBN|NNS|IN|NNP|NNP	O|O|O|O|O|O|PERSON|PERSON	|||||||				Adventure: The Lost Files of Sherlock Holmes	fb:part.adventure_the_lost_files_of_sherlock_holmes
+1	11	fb:cell.trivia_times_to_remember	Trivia: Times To Remember	trivia|:|times|to|remember	Trivia|:|Times|to|remember	NNP|:|NNP|TO|VB	O|O|O|O|O	||||				Trivia: Times To Remember	fb:part.trivia_times_to_remember
+2	0	fb:cell.1993_citation_needed	1993[citation needed]	1993|-lsb-|citation|needed|-rsb-	1993|-lsb-|citation|need|-rsb-	CD|-LRB-|NN|VBN|-RRB-	DATE|O|O|O|O	1993||||	1993.0				
+2	1	fb:cell.inklings	Inklings	inklings	inkling	NNS	O					Inklings	fb:part.inklings
+2	2	fb:cell.char	Char	char	Char	NNP	PERSON						
+2	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+2	4	fb:cell.perpetual_notion	Perpetual Notion	perpetual|notion	perpetual|notion	JJ|NN	O|O	|					
+2	5	fb:cell.arcade_ecco_the_dolphin	Arcade: Ecco the Dolphin	arcade|:|ecco|the|dolphin	Arcade|:|Ecco|the|Dolphin	NNP|:|NNP|DT|NNP	O|O|O|O|MISC	||||				Arcade: Ecco the Dolphin	fb:part.arcade_ecco_the_dolphin
+2	6	fb:cell.real_life_civilization	Real-Life: Civilization	real|life|:|civilization	Real|Life|:|civilization	NNP|NNP|:|NN	O|O|O|O	|||				Real-Life: Civilization	fb:part.real_life_civilization
+2	7	fb:cell.oodles	Oodles	oodles	oodles	NNS	O					Oodles	fb:part.oodles
+2	8	fb:cell.the_incredible_machine	The Incredible Machine	the|incredible|machine	the|incredible|machine	DT|JJ|NN	O|O|O	||					
+2	9	fb:cell.pick_two	Pick Two!	pick|two|!	pick|two|!	VB|CD|.	O|NUMBER|O	|2.0|					
+2	10	fb:cell.adventure_return_to_zork	Adventure: Return to Zork	adventure|:|return|to|zork	adventure|:|return|to|Zork	NN|:|NN|TO|NNP	O|O|O|O|PERSON	||||				Adventure: Return to Zork	fb:part.adventure_return_to_zork
+2	11	fb:cell.trivia_celebrity_challenge	Trivia: Celebrity Challenge	trivia|:|celebrity|challenge	Trivia|:|Celebrity|Challenge	NNP|:|NNP|NNP	O|O|O|O	|||				Trivia: Celebrity Challenge	fb:part.trivia_celebrity_challenge
+3	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+3	1	fb:cell.myst	Myst	myst	myst	IN	O					Myst	fb:part.myst
+3	2	fb:cell.the_game_of_y	The Game of Y	the|game|of|y	the|game|of|y	DT|NN|IN|NN	O|O|O|O	|||					
+3	3	fb:cell.wargames_v_for_victory	Wargames: V for Victory	wargames|:|v|for|victory	wargame|:|v|for|Victory	NNS|:|NN|IN|NNP	O|O|O|O|O	||||					
+3	4	fb:cell.peg_poker	Peg Poker	peg|poker	Peg|Poker	NNP|NNP	O|O	|					
+3	5	fb:cell.arcade_lode_runner_the_legend_returns	Arcade: Lode Runner: The Legend Returns	arcade|:|lode|runner|:|the|legend|returns	Arcade|:|Lode|Runner|:|the|Legend|Returns	NNP|:|NNP|NNP|:|DT|NNP|NNP	O|O|O|O|O|O|O|O	|||||||				Arcade: Lode Runner: The Legend Returns	fb:part.arcade_lode_runner_the_legend_returns
+3	6	fb:cell.real_life_strategy_x_com_ufo_defense	Real-Life Strategy: X-Com: UFO Defense	real|life|strategy|:|x|com|:|ufo|defense	Real|Life|Strategy|:|x|Com|:|UFO|Defense	NNP|NNP|NNP|:|NN|NNP|:|NNP|NNP	O|O|O|O|O|O|O|O|O	||||||||				Real-Life Strategy: X-Com: UFO Defense	fb:part.real_life_strategy_x_com_ufo_defense
+3	7	fb:cell.the_doonesbury_game	The Doonesbury Game	the|doonesbury|game	the|Doonesbury|Game	DT|NNP|NNP	O|O|O	||				The Doonesbury Game	fb:part.the_doonesbury_game
+3	8	fb:cell.breakthru	Breakthru!	breakthru|!	Breakthru|!	NNP|.	O|O	|					
+3	9	fb:cell.boggle_master	Boggle Master	boggle|master	Boggle|Master	NNP|NNP	O|O	|					
+3	10	fb:cell.adventure_the_elder_scrolls_arena	Adventure: The Elder Scrolls: Arena	adventure|:|the|elder|scrolls|:|arena	adventure|:|the|Elder|Scrolls|:|arena	NN|:|DT|NNP|NNP|:|NN	O|O|O|O|O|O|O	||||||				Adventure: The Elder Scrolls: Arena	fb:part.adventure_the_elder_scrolls_arena
+3	11	fb:cell.trivia_quote_unquote	Trivia: Quote Unquote	trivia|:|quote|unquote	Trivia|:|Quote|Unquote	NNP|:|NNP|NNP	O|O|O|O	|||				Trivia: Quote Unquote	fb:part.trivia_quote_unquote
+4	0	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+4	1	fb:cell.sharp_shooters	Sharp Shooters	sharp|shooters	sharp|shooter	JJ|NNS	O|O	|				Sharp Shooters	fb:part.sharp_shooters
+4	2	fb:cell.strategy_quixo	Strategy: Quixo	strategy|:|quixo	strategy|:|Quixo	NN|:|NNP	O|O|O	||					
+4	3	fb:cell.conflict_colonial_diplomacy	Conflict: Colonial Diplomacy	conflict|:|colonial|diplomacy	conflict|:|Colonial|Diplomacy	NN|:|NNP|NNP	O|O|O|O	|||					
+4	4	fb:cell.touche	Touché	touché	Touché	NNP	O						
+4	5	fb:cell.phantoms_of_the_ice	Phantoms of the Ice	phantoms|of|the|ice	phantom|of|the|ice	NNS|IN|DT|NN	O|O|O|O	|||				Phantoms of the Ice	fb:part.phantoms_of_the_ice
+4	6	fb:cell.sports_dynasty_league_baseball	Sports: Dynasty League Baseball	sports|:|dynasty|league|baseball	Sports|:|Dynasty|League|Baseball	NNPS|:|NNP|NNP|NNP	O|O|MISC|MISC|MISC	||||				Sports: Dynasty League Baseball	fb:part.sports_dynasty_league_baseball
+4	7	fb:cell.catch_phrase	Catch Phrase	catch|phrase	catch|phrase	VB|NN	O|O	|				Catch Phrase	fb:part.catch_phrase
+4	8	fb:cell.lights_out	Lights Out	lights|out	light|out	NNS|IN	O|O	|					
+4	9	fb:cell.pre_fix	Pre.fix	pre.fix	pre.fix	NN	O						
+4	10	fb:cell.adventure_role_playing_dragon_dice_battle_box	Adventure & Role Playing: Dragon Dice: Battle Box	adventure|&|role|playing|:|dragon|dice|:|battle|box	adventure|&|role|play|:|Dragon|Dice|:|Battle|Box	NN|CC|NN|VBG|:|NNP|NNP|:|NNP|NNP	O|O|O|O|O|O|O|O|O|O	|||||||||				Adventure & Role Playing: Dragon Dice: Battle Box	fb:part.adventure_role_playing_dragon_dice_battle_box
+4	11	fb:cell.trivia_chronicles_ccg_on_the_edge_ccg_standard_starter_deck	Trivia: Chronicles\nCCG: On the Edge CCG: Standard Starter Deck	trivia|:|chronicles|ccg|:|on|the|edge|ccg|:|standard|starter|deck	Trivia|:|chronicle|CCG|:|on|the|Edge|CCG|:|Standard|Starter|Deck	NNP|:|NNS|NNP|:|IN|DT|NNP|NNP|:|NNP|NNP|NNP	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				Trivia: Chronicles|CCG: On the Edge CCG: Standard Starter Deck	fb:part.trivia_chronicles|fb:part.ccg_on_the_edge_ccg_standard_starter_deck
+5	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+5	1	fb:cell.25_words_or_less	25 Words or Less	25|words|or|less	25|word|or|less	CD|NNS|CC|RBR	NUMBER|O|O|O	25.0|||	25.0			25 Words or Less	fb:part.25_words_or_less
+5	2	fb:cell.transpose	Transpose	transpose	transpose	VB	O						
+5	3	fb:cell.strategy_conflict_field_command	Strategy & Conflict: Field Command	strategy|&|conflict|:|field|command	Strategy|&|Conflict|:|Field|command	NNP|CC|NNP|:|NNP|NN	O|O|O|O|O|O	|||||					
+5	4	fb:cell.mole_in_the_hole	Mole in the Hole	mole|in|the|hole	Mole|in|the|hole	NNP|IN|DT|NN	O|O|O|O	|||					
+5	5	fb:cell.take_6	Take 6	take|6	take|6	VB|CD	O|NUMBER	|6.0	6.0			Take 6	fb:part.take_6
+5	6	fb:cell.priceless	Priceless	priceless	priceless	JJ	O					Priceless	fb:part.priceless
+5	7	fb:cell.last_chance	Last Chance	last|chance	last|chance	JJ|NN	O|O	|				Last Chance	fb:part.last_chance
+5	8	fb:cell.deluxe_lights_out	Deluxe Lights Out	deluxe|lights|out	Deluxe|Lights|out	NNP|NNP|IN	O|O|O	||					
+5	9	fb:cell.bethump_d_with_words	Bethump'd With Words	bethump|'d|with|words	Bethump|would|with|word	NNP|MD|IN|NNS	O|O|O|O	|||					
+5	10	fb:cell.adventure_role_playing_dragonlance_fifth_age	Adventure & Role-Playing: Dragonlance: Fifth Age	adventure|&|role|playing|:|dragonlance|:|fifth|age	adventure|&|role|play|:|Dragonlance|:|Fifth|Age	NN|CC|NN|VBG|:|NNP|:|NNP|NNP	O|O|O|O|O|O|O|ORDINAL|O	|||||||5.0|				Adventure & Role-Playing: Dragonlance: Fifth Age	fb:part.adventure_role_playing_dragonlance_fifth_age
+5	11	fb:cell.trivia_origins	Trivia: Origins	trivia|:|origins	Trivia|:|origin	NNP|:|NNS	O|O|O	||				Trivia: Origins	fb:part.trivia_origins
+6	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+6	1	fb:cell.quoridor	Quoridor	quoridor	Quoridor	NNP	O					Quoridor	fb:part.quoridor
+6	2	fb:cell.balanx	Balanx	balanx	balanx	NN	PERSON						
+6	3	fb:cell.strategy_conflict_princess_ryan_s_star_marines	Strategy & Conflict: Princess Ryan's Star Marines	strategy|&|conflict|:|princess|ryan|'s|star|marines	Strategy|&|Conflict|:|Princess|Ryan|'s|Star|Marines	NNP|CC|NNP|:|NNP|NNP|POS|NNP|NNPS	O|O|O|O|O|PERSON|O|O|O	||||||||					
+6	4	fb:cell.take_it_easy	Take It Easy	take|it|easy	take|it|Easy	VB|PRP|NNP	O|O|O	||					
+6	5	fb:cell.get_the_goods	Get the Goods	get|the|goods	get|the|Goods	VB|DT|NNP	O|O|O	||				Get the Goods	fb:part.get_the_goods
+6	6	fb:cell.quandary	Quandary	quandary	quandary	NN	O					Quandary	fb:part.quandary
+6	7	fb:cell.wise_and_otherwise	Wise and Otherwise	wise|and|otherwise	Wise|and|otherwise	NNP|CC|RB	O|O|O	||				Wise and Otherwise	fb:part.wise_and_otherwise
+6	8	fb:cell.lost_in_a_jigsaw	Lost in a Jigsaw	lost|in|a|jigsaw	lose|in|a|jigsaw	VBN|IN|DT|NN	O|O|O|MISC	|||					
+6	9	fb:cell.a_to_z	A to Z	a|to|z	a|to|z	DT|TO|NN	O|O|O	||					
+6	10	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	11	fb:cell.trivia_director_s_cut_ccg_magic_the_gathering_portal	Trivia: Director's Cut\nCCG: Magic: The Gathering - Portal	trivia|:|director|'s|cut|ccg|:|magic|:|the|gathering|-|portal	Trivia|:|Director|'s|Cut|CCG|:|Magic|:|the|gathering|-|portal	NNP|:|NNP|POS|NNP|NNP|:|NNP|:|DT|NN|:|NN	O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||				Trivia: Director's Cut|CCG: Magic: The Gathering - Portal	fb:part.trivia_director_s_cut|fb:part.ccg_magic_the_gathering_portal
+7	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+7	1	fb:cell.fossil	Fossil	fossil	fossil	NN	O					Fossil	fb:part.fossil
+7	2	fb:cell.gipf	GIPF	gipf	gipf	NN	O						
+7	3	fb:cell.conflict_atlantic_storm	Conflict: Atlantic Storm	conflict|:|atlantic|storm	conflict|:|Atlantic|storm	NN|:|NNP|NN	O|O|O|O	|||					
+7	4	fb:cell.montgolfiere	Montgolfiere	montgolfiere	Montgolfiere	NNP	O						
+7	5	fb:cell.bohnanza	Bohnanza	bohnanza	Bohnanza	NNP	PERSON					Bohnanza	fb:part.bohnanza
+7	6	fb:cell.el_grande	El Grande	el|grande	El|Grande	NNP|NNP	O|O	|				El Grande	fb:part.el_grande
+7	7	fb:cell.say_when	Say When!!	say|when|!!	say|when|!!	VB|WRB|NN	O|O|O	||				Say When!!	fb:part.say_when
+7	8	fb:cell.stormy_seas	Stormy Seas	stormy|seas	stormy|sea	JJ|NNS	O|O	|					
+7	9	fb:cell.alpha_blitz	Alpha Blitz	alpha|blitz	alpha|blitz	NN|NN	O|O	|					
+7	10	fb:cell.null	-	-	-	:	O					-	fb:part.null
+7	11	fb:cell.trivia_where_in_time_is_carmen_sandiego_ccg_c_23	Trivia: Where in Time is Carmen Sandiego?\nCCG: C 23	trivia|:|where|in|time|is|carmen|sandiego|?|ccg|:|c|23	Trivia|:|where|in|Time|be|Carmen|Sandiego|?|CCG|:|c|23	NNP|:|WRB|IN|NNP|VBD-AUX|NNP|NNP|.|NNP|:|NN|CD	O|O|O|O|O|O|PERSON|PERSON|O|O|O|O|NUMBER	||||||||||||23.0	23.0			Trivia: Where in Time is Carmen Sandiego?|CCG: C 23	fb:part.trivia_where_in_time_is_carmen_sandiego|fb:part.ccg_c_23
+8	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+8	1	fb:cell.torres	Torres	torres	Torres	NNP	PERSON					Torres	fb:part.torres
+8	2	fb:cell.octi	Octi	octi	octus	NNS	O						
+8	3	fb:cell.memory_mamma_mia	Memory: Mamma Mia	memory|:|mamma|mia	memory|:|Mamma|Mia	NN|:|NNP|NNP	O|O|PERSON|PERSON	|||					
+8	4	fb:cell.moonshot	Moonshot	moonshot	moonshot	NN	PERSON						
+8	5	fb:cell.buried_treasure	Buried Treasure	buried|treasure	bury|treasure	VBN|NN	O|O	|				Buried Treasure	fb:part.buried_treasure
+8	6	fb:cell.tikal	Tikal	tikal	Tikal	NNP	LOCATION					Tikal	fb:part.tikal
+8	7	fb:cell.apples_to_apples	Apples to Apples	apples|to|apples	apple|to|apple	NNS|TO|NNS	O|O|O	||				Apples to Apples	fb:part.apples_to_apples
+8	8	fb:cell.ricochet_robot	Ricochet Robot	ricochet|robot	Ricochet|Robot	NNP|NNP	O|O	|					
+8	9	fb:cell.double_quick	Double Quick!	double|quick|!	double|quick|!	JJ|RB|.	O|O|O	||					
+8	10	fb:cell.null	-	-	-	:	O					-	fb:part.null
+8	11	fb:cell.trivia_bioviva_ccg_pokemon_dexterity_spintrek	Trivia: Bioviva\nCCG: Pokémon\nDexterity: Spintrek	trivia|:|bioviva|ccg|:|pokémon|dexterity|:|spintrek	Trivia|:|Bioviva|CCG|:|Pokémon|Dexterity|:|spintrek	NNP|:|NNP|NNP|:|NNP|NNP|:|NN	O|O|O|O|O|O|O|O|O	||||||||				Trivia: Bioviva|CCG: Pokémon|Dexterity: Spintrek	fb:part.trivia_bioviva|fb:part.ccg_pokemon|fb:part.dexterity_spintrek
+9	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+9	1	fb:cell.aladdin_s_dragons	Aladdin's Dragons	aladdin|'s|dragons	Aladdin|'s|Dragons	NNP|POS|NNPS	PERSON|O|O	||				Aladdin's Dragons	fb:part.aladdin_s_dragons
+9	2	fb:cell.zertz	ZÈRTZ	zèrtz	zèrtz	NN	O						
+9	3	fb:cell.the_princes_of_florence	The Princes of Florence	the|princes|of|florence	the|Princes|of|Florence	DT|NNPS|IN|NNP	O|O|O|LOCATION	|||					
+9	4	fb:cell.cafe_international	Café International	café|international	Café|International	NNP|NNP	O|O	|					
+9	5	fb:cell.hellrail	Hellrail	hellrail	hellrail	NN	PERSON					Hellrail	fb:part.hellrail
+9	6	fb:cell.web_of_power	Web of Power	web|of|power	web|of|power	NN|IN|NN	O|O|O	||				Web of Power	fb:part.web_of_power
+9	7	fb:cell.democrazy	Democrazy	democrazy	Democrazy	NNP	MISC					Democrazy	fb:part.democrazy
+9	8	fb:cell.lunar_lockout	Lunar Lockout	lunar|lockout	Lunar|Lockout	NNP|NNP	O|O	|					
+9	9	fb:cell.null	-	-	-	:	O					-	fb:part.null
+9	10	fb:cell.paths_of_glory	Paths of Glory	paths|of|glory	path|of|glory	NNS|IN|NN	O|O|O	||				Paths of Glory	fb:part.paths_of_glory
+9	11	fb:cell.two_player_card_caesar_cleopatra_dexterity_carabande	Two-Player Card: Caesar & Cleopatra\nDexterity: Carabande	two|player|card|:|caesar|&|cleopatra|dexterity|:|carabande	two|Player|Card|:|Caesar|&|Cleopatra|dexterity|:|carabande	CD|NNP|NNP|:|NNP|CC|NNP|NN|:|NN	NUMBER|O|O|O|O|O|O|O|O|O	2.0|||||||||				Two-Player Card: Caesar & Cleopatra|Dexterity: Carabande	fb:part.two_player_card_caesar_cleopatra|fb:part.dexterity_carabande
+10	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+10	1	fb:cell.evo	Evo	evo	Evo	NNP	PERSON					Evo	fb:part.evo
+10	2	fb:cell.morisi	Morisi	morisi	morisus	NNS	PERSON						
+10	3	fb:cell.java	Java	java	Java	NNP	MISC						
+10	4	fb:cell.africa	Africa	africa	Africa	NNP	LOCATION						
+10	5	fb:cell.babel	Babel	babel	Babel	NNP	O					Babel	fb:part.babel
+10	6	fb:cell.lord_of_the_rings	Lord of the Rings	lord|of|the|rings	lord|of|the|ring	NN|IN|DT|NNS	O|O|O|O	|||				Lord of the Rings	fb:part.lord_of_the_rings
+10	7	fb:cell.hilarium	Hilarium	hilarium	hilarium	NN	O					Hilarium	fb:part.hilarium
+10	8	fb:cell.flip_it	Flip-It!	flip|it|!	flip|it|!	VB|PRP|.	O|O|O	||					
+10	9	fb:cell.my_word	My Word!	my|word|!	my|word|!	PRP$|NN|.	O|O|O	||					
+10	10	fb:cell.drive_on_paris	Drive on Paris	drive|on|paris	drive|on|Paris	VB|IN|NNP	O|O|LOCATION	||				Drive on Paris	fb:part.drive_on_paris
+10	11	fb:cell.manual_dexterity_space_game	Manual Dexterity: Space Game	manual|dexterity|:|space|game	Manual|Dexterity|:|Space|Game	NNP|NNP|:|NNP|NNP	O|O|O|O|O	||||				Manual Dexterity: Space Game	fb:part.manual_dexterity_space_game
+11	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+11	1	fb:cell.dvonn	DVONN	dvonn	dvonn	NN	O					DVONN	fb:part.dvonn
+11	2	fb:cell.pueblo	Pueblo	pueblo	pueblo	NN	O						
+11	3	fb:cell.puerto_rico	Puerto Rico	puerto|rico	Puerto|Rico	NNP|NNP	LOCATION|LOCATION	|					
+11	4	fb:cell.emerald	Emerald	emerald	emerald	JJ	O						
+11	5	fb:cell.vom_kap_bis_kairo_from_cape_to_cairo	Vom Kap Bis Kairo (From Cape to Cairo)	vom|kap|bis|kairo|-lrb-|from|cape|to|cairo|-rrb-	Vom|Kap|bi|Kairo|-lrb-|from|Cape|to|Cairo|-rrb-	NNP|NNP|NN|NNP|-LRB-|IN|NNP|TO|NNP|-RRB-	PERSON|PERSON|PERSON|PERSON|O|O|O|O|LOCATION|O	|||||||||				Vom Kap Bis Kairo (From Cape to Cairo)	fb:part.vom_kap_bis_kairo_from_cape_to_cairo
+11	6	fb:cell.mexica	Mexica	mexica	Mexica	NNP	LOCATION					Mexica	fb:part.mexica
+11	7	fb:cell.moods	Moods	moods	mood	NNS	O					Moods	fb:part.moods
+11	8	fb:cell.nemesis_factor	Nemesis Factor	nemesis|factor	nemesis|factor	NN|NN	O|O	|					
+11	9	fb:cell.null	-	-	-	:	O					-	fb:part.null
+11	10	fb:cell.wilderness_war	Wilderness War	wilderness|war	Wilderness|War	NNP|NNP	O|O	|				Wilderness War	fb:part.wilderness_war
+11	11	fb:cell.manual_dexterity_villa_paletti	Manual Dexterity: Villa Paletti	manual|dexterity|:|villa|paletti	Manual|Dexterity|:|Villa|Paletti	NNP|NNP|:|NNP|NNP	O|O|O|PERSON|PERSON	||||				Manual Dexterity: Villa Paletti	fb:part.manual_dexterity_villa_paletti
+12	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+12	1	fb:cell.new_england	New England	new|england	New|England	NNP|NNP	LOCATION|LOCATION	|				New England	fb:part.new_england
+12	2	fb:cell.clans	Clans	clans	clan	NNS	MISC						
+12	3	fb:cell.wildlife	Wildlife	wildlife	Wildlife	NNP	O						
+12	4	fb:cell.i_m_the_boss	I'm the Boss!	i|'m|the|boss|!	I|be|the|Boss|!	PRP|VBP|DT|NNP|.	O|O|O|O|O	||||					
+12	5	fb:cell.queen_s_necklace	Queen's Necklace	queen|'s|necklace	Queen|'s|Necklace	NNP|POS|NNP	O|O|O	||				Queen's Necklace	fb:part.queen_s_necklace
+12	6	fb:cell.zoosim	Zoosim	zoosim	Zoosim	NNP	O					Zoosim	fb:part.zoosim
+12	7	fb:cell.party_trivia_dibs	Party/Trivia: Dibs	party\\/trivia|:|dibs	Party\\/Trivia|:|dib	NNP|:|NNS	O|O|O	||				Party|Trivia: Dibs	fb:part.party|fb:part.trivia_dibs
+12	8	fb:cell.river_crossing	River Crossing	river|crossing	River|Crossing	NNP|NNP	O|O	|					
+12	9	fb:cell.crossword_pyramids	Crossword Pyramids	crossword|pyramids	crossword|pyramid	NN|NNS	O|O	|					
+12	10	fb:cell.hammer_of_the_scots	Hammer of the Scots	hammer|of|the|scots	Hammer|of|the|Scots	NNP|IN|DT|NNPS	O|O|O|O	|||				Hammer of the Scots	fb:part.hammer_of_the_scots
+12	11	fb:cell.two_player_card_balloon_cup	Two-Player Card: Balloon Cup	two|player|card|:|balloon|cup	two|Player|Card|:|Balloon|Cup	CD|NNP|NNP|:|NNP|NNP	NUMBER|MISC|MISC|MISC|MISC|MISC	2.0|||||				Two-Player Card: Balloon Cup	fb:part.two_player_card_balloon_cup
+13	0	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+13	1	fb:cell.buyword	BuyWord	buyword	buyword	NN	O					BuyWord	fb:part.buyword
+13	2	fb:cell.yinsh	YINSH	yinsh	yinsh	NN	O						
+13	3	fb:cell.tahuantinsuyu_the_rise_of_the_inca_empire	Tahuantinsuyu: The Rise of the Inca Empire	tahuantinsuyu|:|the|rise|of|the|inca|empire	Tahuantinsuyu|:|the|rise|of|the|Inca|Empire	NNP|:|DT|NN|IN|DT|NNP|NNP	O|O|O|O|O|O|O|O	|||||||					
+13	4	fb:cell.vanished_planet	Vanished Planet	vanished|planet	vanish|planet	VBN|NN	O|O	|					
+13	5	fb:cell.victory_honor	Victory & Honor	victory|&|honor	Victory|&|honor	NNP|CC|NN	O|O|O	||				Victory & Honor	fb:part.victory_honor
+13	6	fb:cell.alexandros	Alexandros	alexandros	alexandro	NNS	PERSON					Alexandros	fb:part.alexandros
+13	7	fb:cell.party_trivia_cranium_hoopla	Party/Trivia: Cranium Hoopla	party\\/trivia|:|cranium|hoopla	Party\\/Trivia|:|Cranium|Hoopla	NNP|:|NNP|NNP	O|O|O|O	|||				Party|Trivia: Cranium Hoopla	fb:part.party|fb:part.trivia_cranium_hoopla
+13	8	fb:cell.null	-	-	-	:	O					-	fb:part.null
+13	9	fb:cell.null	-	-	-	:	O					-	fb:part.null
+13	10	fb:cell.memoir_44	Memoir '44	memoir|'|44	memoir|'|44	NN|''|CD	O|DATE|DATE	|XX44|XX44	44.0			Memoir '44	fb:part.memoir_44
+13	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+14	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+14	1	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION					Australia	fb:part.australia
+14	2	fb:cell.project_kells	Project Kells	project|kells	project|kell	NN|NNS	O|PERSON	|					
+14	3	fb:cell.louis_xiv	Louis XIV	louis|xiv	Louis|XIV	NNP|NNP	PERSON|O	|					
+14	4	fb:cell.der_untergang_von_pompeji_escape_from_pompeii	Der Untergang von Pompeji (Escape from Pompeii)	der|untergang|von|pompeji|-lrb-|escape|from|pompeii|-rrb-	Der|Untergang|von|Pompeji|-lrb-|escape|from|Pompeii|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NN|IN|NNP|-RRB-	PERSON|PERSON|PERSON|PERSON|O|O|O|LOCATION|O	||||||||					
+14	5	fb:cell.die_weinhandler_the_wine_merchants	Die Weinhändler (The Wine Merchants)	die|weinhändler|-lrb-|the|wine|merchants|-rrb-	die|Weinhändler|-lrb-|the|wine|merchant|-rrb-	VB|NNP|-LRB-|DT|NN|NNS|-RRB-	O|O|O|O|O|O|O	||||||				Die Weinhändler (The Wine Merchants)	fb:part.die_weinhandler_the_wine_merchants
+14	6	fb:cell.primordial_soup_a_k_a_ursuppe	Primordial Soup (a.k.a. Ursuppe)	primordial|soup|-lrb-|a.k.a.|ursuppe|-rrb-	primordial|Soup|-lrb-|a.k.a.|Ursuppe|-rrb-	JJ|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|O|O|O	|||||				Primordial Soup (a.k.a. Ursuppe)	fb:part.primordial_soup_a_k_a_ursuppe
+14	7	fb:cell.party_trivia_snorta	Party/Trivia: Snorta!	party\\/trivia|:|snorta|!	Party\\/Trivia|:|Snorta|!	NNP|:|NNP|.	O|O|O|O	|||				Party|Trivia: Snorta!	fb:part.party|fb:part.trivia_snorta
+14	8	fb:cell.tipover	Tipover	tipover	Tipover	NNP	O						
+14	9	fb:cell.null	-	-	-	:	O					-	fb:part.null
+14	10	fb:cell.friedrich	Friedrich	friedrich	Friedrich	NNP	PERSON					Friedrich	fb:part.friedrich
+14	11	fb:cell.two_player_jambo	Two-Player: Jambo	two|player|:|jambo	two|Player|:|Jambo	CD|NNP|:|NNP	NUMBER|O|O|O	2.0|||				Two-Player: Jambo	fb:part.two_player_jambo
+15	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+15	1	fb:cell.vegas_showdown	Vegas Showdown	vegas|showdown	Vegas|Showdown	NNP|NNP	O|O	|				Vegas Showdown	fb:part.vegas_showdown
+15	2	fb:cell.punct	PÜNCT	pünct	pünct	NN	O						
+15	3	fb:cell.reef_encounter	Reef Encounter	reef|encounter	reef|encounter	NN|NN	O|O	|					
+15	4	fb:cell.tricky_town	Tricky Town	tricky|town	Tricky|Town	NNP|NNP	O|O	|					
+15	5	fb:cell.trump_tricks_game	Trump, Tricks, Game!	trump|,|tricks|,|game|!	Trump|,|Tricks|,|Game|!	NNP|,|NNP|,|NNP|.	PERSON|O|O|O|O|O	|||||				Trump|Tricks|Game!	fb:part.trump|fb:part.tricks|fb:part.game
+15	6	fb:cell.hacienda	Hacienda	hacienda	Hacienda	NNP	O					Hacienda	fb:part.hacienda
+15	7	fb:cell.wits_and_wagers	Wits and Wagers	wits|and|wagers	wit|and|wager	NNS|CC|NNS	O|O|O	||				Wits and Wagers	fb:part.wits_and_wagers
+15	8	fb:cell.gordian_s_knot	Gordian's Knot	gordian|'s|knot	Gordian|'s|knot	NNP|POS|NN	O|O|O	||					
+15	9	fb:cell.parlay	Parlay	parlay	Parlay	NNP	O						
+15	10	fb:cell.silent_war	Silent War	silent|war	silent|war	JJ|NN	O|O	|				Silent War	fb:part.silent_war
+15	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+16	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+16	1	fb:cell.pillars_of_the_earth	Pillars of the Earth	pillars|of|the|earth	pillar|of|the|Earth	NNS|IN|DT|NNP	O|O|O|LOCATION	|||				Pillars of the Earth	fb:part.pillars_of_the_earth
+16	2	fb:cell.easter_island	Easter Island	easter|island	Easter|Island	NNP|NNP	LOCATION|LOCATION	|					
+16	3	fb:cell.khronos	Khronos	khronos	khrono	NNS	PERSON						
+16	4	fb:cell.if_wishes_were_fishes	If Wishes Were Fishes	if|wishes|were|fishes	if|wish|be|fish	IN|VBZ|VBD-AUX|NNS	O|O|O|O	|||					
+16	5	fb:cell.bull_in_a_china_shop	Bull in a China Shop	bull|in|a|china|shop	bull|in|a|China|Shop	NN|IN|DT|NNP|NNP	O|O|O|LOCATION|O	||||				Bull in a China Shop	fb:part.bull_in_a_china_shop
+16	6	fb:cell.shear_panic	Shear Panic	shear|panic	shear|panic	NN|NN	O|O	|				Shear Panic	fb:part.shear_panic
+16	7	fb:cell.gift_trap	Gift Trap	gift|trap	gift|trap	NN|NN	O|O	|				Gift Trap	fb:part.gift_trap
+16	8	fb:cell.sacred_myths_and_legends_series	Sacred Myths and Legends Series	sacred|myths|and|legends|series	sacred|myth|and|Legends|Series	JJ|NNS|CC|NNP|NNP	O|O|O|MISC|MISC	||||					
+16	9	fb:cell.unspeakable_words	Unspeakable Words	unspeakable|words	unspeakable|word	JJ|NNS	O|O	|					
+16	10	fb:cell.ran	Ran	ran	ran	NN	O					Ran	fb:part.ran
+16	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+17	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+17	1	fb:cell.tzaar	Tzaar	tzaar	tzaar	NN	O					Tzaar	fb:part.tzaar
+17	2	fb:cell.ponte_del_diavolo	Ponte del Diavolo	ponte|del|diavolo	Ponte|del|Diavolo	NNP|NNP|NNP	O|O|O	||					
+17	3	fb:cell.key_harvest	Key Harvest	key|harvest	key|harvest	NN|NN	O|O	|					
+17	4	fb:cell.pandemic	Pandemic	pandemic	pandemic	JJ	O						
+17	5	fb:cell.palast_gefluster_palace_whisperings	Palast Geflüster (Palace Whisperings)	palast|geflüster|-lrb-|palace|whisperings|-rrb-	Palast|Geflüster|-lrb-|Palace|Whisperings|-rrb-	NNP|NNP|-LRB-|NNP|NNP|-RRB-	O|O|O|O|O|O	|||||				Palast Geflüster (Palace Whisperings)	fb:part.palast_gefluster_palace_whisperings
+17	6	fb:cell.stone_age	Stone Age	stone|age	Stone|Age	NNP|NNP	O|O	|				Stone Age	fb:part.stone_age
+17	7	fb:cell.go_nuts	Go Nuts!	go|nuts|!	go|nut|!	VB|NNS|.	O|O|O	||				Go Nuts!	fb:part.go_nuts
+17	8	fb:cell.doris	Doris	doris	Doris	NNP	PERSON						
+17	9	fb:cell.jumbulaya	Jumbulaya	jumbulaya	jumbulaya	NN	LOCATION						
+17	10	fb:cell.pacific_typhoon	Pacific Typhoon	pacific|typhoon	Pacific|Typhoon	NNP|NNP	O|O	|				Pacific Typhoon	fb:part.pacific_typhoon
+17	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+18	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+18	1	fb:cell.small_world	Small World	small|world	small|world	JJ|NN	O|O	|				Small World	fb:part.small_world
+18	2	fb:cell.blox	Blox	blox	blox	NN	PERSON						
+18	3	fb:cell.le_havre	Le Havre	le|havre	Le|Havre	NNP|NNP	PERSON|PERSON	|					
+18	4	fb:cell.roll_through_the_ages_the_bronze_age	Roll Through the Ages: The Bronze Age	roll|through|the|ages|:|the|bronze|age	Roll|through|the|Ages|:|the|bronze|age	NNP|IN|DT|NNPS|:|DT|NN|NN	O|O|O|O|O|O|O|O	|||||||					
+18	5	fb:cell.amerigo	Amerigo	amerigo	Amerigo	NNP	LOCATION					Amerigo	fb:part.amerigo
+18	6	fb:cell.dominion_dominion_intrigue_expansion	Dominion/Dominion Intrigue (Expansion)	dominion\\/dominion|intrigue|-lrb-|expansion|-rrb-	Dominion\\/Dominion|Intrigue|-lrb-|expansion|-rrb-	NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Dominion|Dominion Intrigue (Expansion)	fb:part.dominion|fb:part.dominion_intrigue_expansion
+18	7	fb:cell.dixit	Dixit	dixit	Dixit	NNP	PERSON					Dixit	fb:part.dixit
+18	8	fb:cell.la_ora_stelo	La Ora Stelo	la|ora|stelo	La|Ora|Stelo	NNP|NNP|NNP	O|PERSON|PERSON	||					
+18	9	fb:cell.null	-	-	-	:	O					-	fb:part.null
+18	10	fb:cell.fields_of_fire	Fields of Fire	fields|of|fire	Fields|of|Fire	NNP|IN|NNP	O|O|O	||				Fields of Fire	fb:part.fields_of_fire
+18	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+19	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+19	1	fb:cell.jump_gate	Jump Gate	jump|gate	jump|gate	NN|NN	O|O	|				Jump Gate	fb:part.jump_gate
+19	2	fb:cell.arimaa	Arimaa	arimaa	arimaa	FW	O						
+19	3	fb:cell.egizia	Egizia	egizia	egizium	NN	LOCATION						
+19	4	fb:cell.burger_joint	Burger Joint	burger|joint	Burger|Joint	NNP|NNP	O|O	|					
+19	5	fb:cell.jaipur	Jaipur	jaipur	Jaipur	NNP	LOCATION					Jaipur	fb:part.jaipur
+19	6	fb:cell.valdora	Valdora	valdora	Valdora	NNP	LOCATION					Valdora	fb:part.valdora
+19	7	fb:cell.telestrations	Telestrations	telestrations	telestration	NNS	O					Telestrations	fb:part.telestrations
+19	8	fb:cell.anti_virus	Anti-Virus	anti|virus	Anti|virus	NNP|NN	O|O	|					
+19	9	fb:cell.null	-	-	-	:	O					-	fb:part.null
+19	10	fb:cell.battles_of_napoleon_the_eagle_and_the_lion	Battles of Napoleon: The Eagle and the Lion	battles|of|napoleon|:|the|eagle|and|the|lion	battle|of|Napoleon|:|the|Eagle|and|the|Lion	NNS|IN|NNP|:|DT|NNP|CC|DT|NNP	O|O|PERSON|O|O|O|O|O|O	||||||||				Battles of Napoleon: The Eagle and the Lion	fb:part.battles_of_napoleon_the_eagle_and_the_lion
+19	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+20	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+20	1	fb:cell.tikal_ii_the_lost_temple	Tikal II: The Lost Temple	tikal|ii|:|the|lost|temple	Tikal|II|:|the|lose|Temple	NNP|NNP|:|DT|VBN|NNP	LOCATION|O|O|O|O|O	|||||				Tikal II: The Lost Temple	fb:part.tikal_ii_the_lost_temple
+20	2	fb:cell.confusion_espionage_and_deception_in_the_cold_war	Confusion: Espionage and Deception in the Cold War	confusion|:|espionage|and|deception|in|the|cold|war	confusion|:|espionage|and|deception|in|the|Cold|War	NN|:|NN|CC|NN|IN|DT|NNP|NNP	O|O|O|O|MISC|O|O|MISC|MISC	||||||||					
+20	3	fb:cell.die_burgen_von_burgund_the_castles_of_burgundy	Die Burgen von Burgund (The Castles of Burgundy)	die|burgen|von|burgund|-lrb-|the|castles|of|burgundy|-rrb-	die|Burgen|von|Burgund|-lrb-|the|Castles|of|Burgundy|-rrb-	VB|NNP|NNP|NNP|-LRB-|DT|NNPS|IN|NNP|-RRB-	PERSON|PERSON|PERSON|PERSON|O|O|O|O|O|O	|||||||||					
+20	4	fb:cell.lemming_mafia	Lemming Mafia	lemming|mafia	Lemming|Mafia	NNP|NNP	PERSON|PERSON	|					
+20	5	fb:cell.hey_waiter	Hey Waiter!	hey|waiter|!	hey|Waiter|!	UH|NNP|.	O|O|O	||				Hey Waiter!	fb:part.hey_waiter
+20	6	fb:cell.glen_more	Glen More	glen|more	Glen|more	NNP|RBR	PERSON|PERSON	|				Glen More	fb:part.glen_more
+20	7	fb:cell.funfair	Funfair	funfair	Funfair	NNP	O					Funfair	fb:part.funfair
+20	8	fb:cell.iq_twist	IQ Twist	iq|twist	IQ|twist	NNP|NN	O|O	|					
+20	9	fb:cell.pathwords	Pathwords	pathwords	Pathwords	NNPS	O						
+20	10	fb:cell.command_and_colors_napoleonics	Command and Colors: Napoleonics	command|and|colors|:|napoleonics	command|and|Colors|:|napoleonic	NN|CC|NNP|:|NNS	O|O|O|O|PERSON	||||				Command and Colors: Napoleonics	fb:part.command_and_colors_napoleonics
+20	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+21	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+21	1	fb:cell.trajan	Trajan	trajan	Trajan	NNP	PERSON					Trajan	fb:part.trajan
+21	2	fb:cell.matter	Matter	matter	matter	NN	O						
+21	3	fb:cell.village	Village	village	Village	NNP	O						
+21	4	fb:cell.takenoko	Takenoko	takenoko	Takenoko	NNP	PERSON						
+21	5	fb:cell.decktet_decktet_book	Decktet/Decktet Book	decktet\\/decktet|book	Decktet\\/Decktet|Book	NNP|NNP	O|O	|				Decktet|Decktet Book	fb:part.decktet|fb:part.decktet_book
+21	6	fb:cell.zong_shi	Zong Shi	zong|shi	Zong|Shi	NNP|NNP	PERSON|PERSON	|				Zong Shi	fb:part.zong_shi
+21	7	fb:cell.pluckin_pairs	Pluckin' Pairs	pluckin|'|pairs	pluckin|'|Pairs	VBG|''|NNPS	O|O|O	||				Pluckin' Pairs	fb:part.pluckin_pairs
+21	8	fb:cell.cool_circuits	Cool Circuits	cool|circuits	cool|circuit	JJ|NNS	O|O	|					
+21	9	fb:cell.kerflip	Kerflip!	kerflip|!	kerflip|!	NN|.	O|O	|					
+21	10	fb:cell.null	-	-	-	:	O					-	fb:part.null
+21	11	fb:cell.null	-	-	-	:	O					-	fb:part.null
+22	0	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+22	1	fb:cell.garden_dice_the_card_expansion	Garden Dice/The Card Expansion	garden|dice\\/the|card|expansion	Garden|Dice\\/The|Card|expansion	NNP|NNP|NNP|NN	O|O|O|O	|||				Garden Dice|The Card Expansion	fb:part.garden_dice|fb:part.the_card_expansion
+22	2	fb:cell.kulami	Kulami	kulami	Kulami	NNP	LOCATION						
+22	3	fb:cell.tzolk_in_the_mayan_calendar	Tzolk'in: The Mayan Calendar	tzolk|`|in|:|the|mayan|calendar	Tzolk|`|in|:|the|mayan|calendar	NNP|``|IN|:|DT|JJ|NN	O|O|O|O|O|MISC|MISC	||||||					
+22	4	fb:cell.via_appia	Via Appia	via|appia	Via|Appia	NNP|NNP	O|O	|					
+22	5	fb:cell.morels	Morels	morels	morel	NNS	O					Morels	fb:part.morels
+22	6	fb:cell.triassic_terror	Triassic Terror	triassic|terror	Triassic|terror	NNP|NN	O|O	|				Triassic Terror	fb:part.triassic_terror
+22	7	fb:cell.homestretch_race_to_the_finish	Homestretch: Race to the Finish	homestretch|:|race|to|the|finish	Homestretch|:|race|to|the|Finish	NNP|:|NN|TO|DT|NNP	O|O|O|O|O|O	|||||				Homestretch: Race to the Finish	fb:part.homestretch_race_to_the_finish
+22	8	fb:cell.laser_maze	Laser Maze	laser|maze	Laser|maze	NNP|NN	O|O	|					
+22	9	fb:cell.null	-	-	-	:	O					-	fb:part.null
+22	10	fb:cell.null	-	-	-	:	O					-	fb:part.null
+22	11	fb:cell.null	-	-	-	:	O					-	fb:part.null

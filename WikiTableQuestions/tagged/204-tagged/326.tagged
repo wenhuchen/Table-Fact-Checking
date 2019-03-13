@@ -1,0 +1,56 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.decimal32	decimal32	decimal32	decimal32	NN	O						
+-1	1	fb:row.row.decimal64	decimal64	decimal64	decimal64	NN	O						
+-1	2	fb:row.row.decimal128	decimal128	decimal128	decimal128	NN	O						
+-1	3	fb:row.row.decimal_32k	decimal(32k)	decimal|-lrb-|32k|-rrb-	decimal|-lrb-|32k|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.format	Format	format	format	NN	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	4	fb:cell.sign_field_bits	Sign field (bits)	sign|field|-lrb-|bits|-rrb-	sign|field|-lrb-|bit|-rrb-	NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O	||||					
+1	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+1	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+1	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+1	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+1	4	fb:cell.combination_field_bits	Combination field (bits)	combination|field|-lrb-|bits|-rrb-	combination|field|-lrb-|bit|-rrb-	NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O	||||					
+2	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+2	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+2	2	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+2	3	fb:cell.w_2_k_4	w = 2×k + 4	w|=|2|×|k|+|4	w|=|2|×|k|+|4	NN|JJ|CD|CD|NN|CC|CD	O|O|NUMBER|NUMBER|O|O|NUMBER	||2.0|2.0|||4.0	2.0		4.0	w = 2×k + 4	fb:part.w_2_k_4
+2	4	fb:cell.exponent_continuation_field_bits	Exponent continuation field (bits)	exponent|continuation|field|-lrb-|bits|-rrb-	exponent|continuation|field|-lrb-|bit|-rrb-	JJ|NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O|O	|||||					
+3	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+3	1	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+3	2	fb:cell.110	110	110	110	CD	NUMBER	110.0	110.0				
+3	3	fb:cell.t_30_k_10	t = 30×k−10	t|=|30|×|k|−|10	t|=|30|×|k|−|10	NN|JJ|CD|NN|NN|CD|CD	O|O|NUMBER|O|O|NUMBER|NUMBER	||30.0|||10.0|10.0	30.0		10.0	t = 30×k−10	fb:part.t_30_k_10
+3	4	fb:cell.coefficient_continuation_field_bits	Coefficient continuation field (bits)	coefficient|continuation|field|-lrb-|bits|-rrb-	coefficient|continuation|field|-lrb-|bit|-rrb-	NN|NN|NN|-LRB-|NNS|-RRB-	O|O|O|O|O|O	|||||					
+4	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+4	1	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0				
+4	2	fb:cell.128	128	128	128	CD	NUMBER	128.0	128.0				
+4	3	fb:cell.32_k	32×k	32|×|k	32|×|k	CD|NN|NN	NUMBER|O|O	32.0||	32.0			32×k	fb:part.32_k
+4	4	fb:cell.total_size_bits	Total size (bits)	total|size|-lrb-|bits|-rrb-	total|size|-lrb-|bit|-rrb-	JJ|NN|-LRB-|NNS|-RRB-	O|O|O|O|O	||||					
+5	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+5	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+5	2	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+5	3	fb:cell.p_3_t_10_1_9_k_2	p = 3×t/10+1 = 9×k−2	p|=|3|×|t\\/10|+1|=|9|×|k|−|2	p|=|3|×|t\\/10|+1|=|9|×|k|−|2	NN|JJ|CD|NN|NN|NN|JJ|CD|NN|NN|NN|CD	O|O|NUMBER|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER	||3.0|||1.0||9.0||||2.0	3.0		10.0	p = 3×t|10+1 = 9×k−2	fb:part.p_3_t|fb:part.10_1_9_k_2
+5	4	fb:cell.coefficient_size_decimal_digits	Coefficient size (decimal digits)	coefficient|size|-lrb-|decimal|digits|-rrb-	coefficient|size|-lrb-|decimal|digit|-rrb-	NN|NN|-LRB-|JJ|NNS|-RRB-	O|O|O|O|O|O	|||||					
+6	0	fb:cell.192	192	192	192	CD	NUMBER	192.0	192.0				
+6	1	fb:cell.768	768	768	768	CD	NUMBER	768.0	768.0				
+6	2	fb:cell.12288	12288	12288	12288	CD	NUMBER	12288.0	12288.0				
+6	3	fb:cell.3_2w_48_4k	3×2w = 48×4k	3|×|2w|=|48|×|4k	3|×|2w|=|48|×|4k	CD|NN|NN|JJ|CD|CD|NN	NUMBER|O|O|O|NUMBER|NUMBER|O	3.0||||48.0|48.0|	3.0		2.0	3×2w = 48×4k	fb:part.3_2w_48_4k
+6	4	fb:cell.exponent_range	Exponent range	exponent|range	exponent|range	JJ|NN	O|O	|					
+7	0	fb:cell.96	96	96	96	CD	NUMBER	96.0	96.0				
+7	1	fb:cell.384	384	384	384	CD	NUMBER	384.0	384.0				
+7	2	fb:cell.6144	6144	6144	6144	CD	NUMBER	6144.0	6144.0				
+7	3	fb:cell.emax_3_2w_1	Emax = 3×2w−1	emax|=|3|×|2w|−|1	emax|=|3|×|2w|−|1	NN|JJ|CD|NN|NN|NN|CD	O|O|NUMBER|O|O|O|NUMBER	||3.0||||1.0	3.0		2.0	Emax = 3×2w−1	fb:part.emax_3_2w_1
+7	4	fb:cell.largest_value_is_9_99_10emax	Largest value is 9.99...×10Emax	largest|value|is|9.99|...|×|10emax	largest|value|be|9.99|...|×|10emax	JJ|NN|VBD-AUX|CD|:|CD|NN	O|O|O|NUMBER|O|NUMBER|O	|||9.99|||	9.99				
+8	0	fb:cell._95	−95	−|95	−|95	NN|CD	O|NUMBER	|95.0	95.0				
+8	1	fb:cell._383	−383	−|383	−|383	NN|CD	O|NUMBER	|383.0	383.0				
+8	2	fb:cell._6143	−6143	−|6143	−|6143	RB|CD	O|NUMBER	|6143.0	6143.0				
+8	3	fb:cell.emin_1_emax	Emin = 1−Emax	emin|=|1|−|emax	emin|=|1|−|emax	NN|JJ|CD|CD|NN	PERSON|O|NUMBER|NUMBER|O	||1.0|1.0|	1.0			Emin = 1−Emax	fb:part.emin_1_emax
+8	4	fb:cell.smallest_normalized_value_is_1_00_10emin	Smallest normalized value is 1.00...×10Emin	smallest|normalized|value|is|1.00|...|×|10emin	smallest|normalize|value|be|1.00|...|×|10emin	JJS|VBN|NN|VBD-AUX|CD|:|CD|NN	O|O|O|O|NUMBER|O|NUMBER|O	||||1.0|||	1.0				
+9	0	fb:cell._101	−101	−|101	−|101	NN|CD	O|NUMBER	|101.0	101.0				
+9	1	fb:cell._398	−398	−|398	−|398	NN|CD	O|NUMBER	|398.0	398.0				
+9	2	fb:cell._6176	−6176	−|6176	−|6176	RB|CD	O|DATE	|6176	6176.0				
+9	3	fb:cell.etiny_2_p_emax	Etiny = 2−p−Emax	etiny|=|2|−|p|−|emax	etiny|=|2|−|p|−|emax	NN|JJ|CD|CD|NN|CD|NN	O|O|NUMBER|NUMBER|O|NUMBER|O	||2.0|2.0|||	2.0			Etiny = 2−p−Emax	fb:part.etiny_2_p_emax
+9	4	fb:cell.smallest_non_zero_value_is_1_10etiny	Smallest non-zero value is 1×10Etiny	smallest|non|zero|value|is|1|×|10etiny	smallest|non|zero|value|be|1|×|10etiny	JJS|JJ|CD|NN|VBD-AUX|CD|CD|NN	O|O|NUMBER|O|O|NUMBER|NUMBER|O	||0.0|||1.0|1.0|	1.0		10.0		

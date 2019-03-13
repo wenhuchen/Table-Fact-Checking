@@ -1,0 +1,81 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.film_title	Film Title	film|title	Film|Title	NNP|NNP	O|O	|					
+-1	2	fb:row.row.genre	Genre	genre	genre	NN	O						
+-1	3	fb:row.row.cast	Cast	cast	cast	VBN	O						
+-1	4	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+0	1	fb:cell.tarka	Tarka	tarka	tarka	FW	PERSON						
+0	2	fb:cell.a_murder_mystery	A murder mystery	a|murder|mystery	a|murder|mystery	DT|NN|NN	O|O|O	||					
+0	3	fb:cell.shankar_nag_devaraj	Shankar Nag, Devaraj	shankar|nag|,|devaraj	Shankar|Nag|,|Devaraj	NNP|NNP|,|NNP	PERSON|PERSON|O|PERSON	|||				Shankar Nag|Devaraj	fb:part.shankar_nag|fb:part.devaraj
+0	4	fb:cell.filmfare_award_for_best_director_kannada	Filmfare Award for Best Director – Kannada	filmfare|award|for|best|director|--|kannada	Filmfare|award|for|best|director|--|Kannada	NNP|NN|IN|JJS|NN|:|NNP	O|O|O|O|O|O|LOCATION	||||||				Filmfare Award for Best Director – Kannada	fb:part.filmfare_award_for_best_director_kannada
+1	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+1	1	fb:cell.utkarsha	Utkarsha	utkarsha	utkarsha	NN	O						
+1	2	fb:cell.thriller	Thriller	thriller	thriller	NN	O						
+1	3	fb:cell.dr_ambareesh_devaraj	Dr.Ambareesh, Devaraj	dr.ambareesh|,|devaraj	Dr.Ambareesh|,|Devaraj	NNP|,|NNP	O|O|PERSON	||				Dr.Ambareesh|Devaraj	fb:part.dr_ambareesh|fb:part.devaraj
+1	4	fb:cell.null											fb:part.null
+2	0	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+2	1	fb:cell.sangarsha	Sangarsha	sangarsha	sangarsha	FW	PERSON						
+2	2	fb:cell.thriller	Thriller	thriller	thriller	NN	O						
+2	3	fb:cell.dr_vishnuvardhan_geetha	Dr.Vishnuvardhan, Geetha	dr.vishnuvardhan|,|geetha	Dr.Vishnuvardhan|,|Geetha	NNP|,|NNP	O|O|PERSON	||				Dr.Vishnuvardhan|Geetha	fb:part.dr_vishnuvardhan|fb:part.geetha
+2	4	fb:cell.null											fb:part.null
+3	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+3	1	fb:cell.nishkarsha	Nishkarsha	nishkarsha	nishkarsha	NN	O						
+3	2	fb:cell.real_time_thriller	Real time thriller	real|time|thriller	real|time|thriller	JJ|NN|NN	O|O|O	||					
+3	3	fb:cell.dr_vishnuvardhan_ananth_nag	Dr.Vishnuvardhan, Ananth Nag	dr.vishnuvardhan|,|ananth|nag	Dr.Vishnuvardhan|,|Ananth|Nag	NNP|,|NNP|NNP	O|O|PERSON|PERSON	|||				Dr.Vishnuvardhan|Ananth Nag	fb:part.dr_vishnuvardhan|fb:part.ananth_nag
+3	4	fb:cell.karnataka_state_film_award_for_best_screenplay	Karnataka State Film Award for Best Screenplay	karnataka|state|film|award|for|best|screenplay	Karnataka|State|Film|award|for|best|screenplay	NNP|NNP|NNP|NN|IN|JJS|NN	LOCATION|O|O|O|O|O|O	||||||				Karnataka State Film Award for Best Screenplay	fb:part.karnataka_state_film_award_for_best_screenplay
+4	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+4	1	fb:cell.beladingala_baale	Beladingala Baale	beladingala|baale	Beladingala|Baale	NNP|NNP	PERSON|PERSON	|					
+4	2	fb:cell.love_story	Love story	love|story	love|story	NN|NN	O|O	|					
+4	3	fb:cell.ananth_nag	Ananth Nag	ananth|nag	Ananth|Nag	NNP|NNP	PERSON|PERSON	|				Ananth Nag	fb:part.ananth_nag
+4	4	fb:cell.filmfare_award_for_best_director_kannada_karnataka_state_film_award_for_best_screenplay	Filmfare Award for Best Director – Kannada\nKarnataka State Film Award for Best Screenplay	filmfare|award|for|best|director|--|kannada|karnataka|state|film|award|for|best|screenplay	Filmfare|award|for|best|director|--|Kannada|Karnataka|State|Film|award|for|best|screenplay	NNP|NN|IN|JJS|NN|:|NNP|NNP|NNP|NNP|NN|IN|JJS|NN	O|O|O|O|O|O|LOCATION|LOCATION|O|O|O|O|O|O	|||||||||||||				Filmfare Award for Best Director – Kannada|Karnataka State Film Award for Best Screenplay	fb:part.filmfare_award_for_best_director_kannada|fb:part.karnataka_state_film_award_for_best_screenplay
+5	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+5	1	fb:cell.nammoora_mandara_hoove	Nammoora Mandara Hoove	nammoora|mandara|hoove	Nammoora|Mandara|Hoove	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+5	2	fb:cell.love_story	Love story	love|story	love|story	NN|NN	O|O	|					
+5	3	fb:cell.ramesh_aravind_shivrajkumar_prema	Ramesh Aravind, Shivrajkumar, Prema	ramesh|aravind|,|shivrajkumar|,|prema	Ramesh|Aravind|,|Shivrajkumar|,|Prema	NNP|NNP|,|NNP|,|NNP	PERSON|PERSON|O|O|O|PERSON	|||||				Ramesh Aravind|Shivrajkumar|Prema	fb:part.ramesh_aravind|fb:part.shivrajkumar|fb:part.prema
+5	4	fb:cell.karnataka_state_film_award_for_best_screenplay	Karnataka State Film Award for Best Screenplay	karnataka|state|film|award|for|best|screenplay	Karnataka|State|Film|award|for|best|screenplay	NNP|NNP|NNP|NN|IN|JJS|NN	LOCATION|O|O|O|O|O|O	||||||				Karnataka State Film Award for Best Screenplay	fb:part.karnataka_state_film_award_for_best_screenplay
+6	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+6	1	fb:cell.prema_raaga_haadu_gelati	Prema Raaga Haadu Gelati	prema|raaga|haadu|gelati	Prema|Raaga|Haadu|Gelati	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+6	2	fb:cell.love_story	Love story	love|story	love|story	NN|NN	O|O	|					
+6	3	fb:cell.shivrajkumar_nivedita_jain_srinath	Shivrajkumar, Nivedita Jain, Srinath	shivrajkumar|,|nivedita|jain|,|srinath	Shivrajkumar|,|Nivedita|Jain|,|Srinath	NNP|,|NNP|NNP|,|NNP	PERSON|O|PERSON|PERSON|O|PERSON	|||||				Shivrajkumar|Nivedita Jain|Srinath	fb:part.shivrajkumar|fb:part.nivedita_jain|fb:part.srinath
+6	4	fb:cell.null											fb:part.null
+7	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+7	1	fb:cell.pratyartha	Pratyartha	pratyartha	pratyartha	NN	PERSON						
+7	2	fb:cell.thriller	Thriller	thriller	thriller	NN	O						
+7	3	fb:cell.ramesh_aravind_raghuvaran_sudeep	Ramesh Aravind, Raghuvaran, Sudeep	ramesh|aravind|,|raghuvaran|,|sudeep	Ramesh|Aravind|,|Raghuvaran|,|Sudeep	NNP|NNP|,|NNP|,|NNP	PERSON|PERSON|O|O|O|O	|||||				Ramesh Aravind|Raghuvaran|Sudeep	fb:part.ramesh_aravind|fb:part.raghuvaran|fb:part.sudeep
+7	4	fb:cell.null											fb:part.null
+8	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+8	1	fb:cell.sparsha	Sparsha	sparsha	sparsha	NN	PERSON						
+8	2	fb:cell.love_story	Love story	love|story	love|story	NN|NN	O|O	|					
+8	3	fb:cell.sudeep_sudha_rani	Sudeep, Sudha Rani	sudeep|,|sudha|rani	Sudeep|,|Sudha|Rani	NNP|,|NNP|NNP	O|O|PERSON|PERSON	|||				Sudeep|Sudha Rani	fb:part.sudeep|fb:part.sudha_rani
+8	4	fb:cell.filmfare_award_for_best_director_kannada	Filmfare Award for Best Director – Kannada	filmfare|award|for|best|director|--|kannada	Filmfare|award|for|best|director|--|Kannada	NNP|NN|IN|JJS|NN|:|NNP	O|O|O|O|O|O|LOCATION	||||||				Filmfare Award for Best Director – Kannada	fb:part.filmfare_award_for_best_director_kannada
+9	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+9	1	fb:cell.parva	Parva	parva	Parva	NNP	O						
+9	2	fb:cell.a_musical_love_story	A musical love Story	a|musical|love|story	a|musical|love|Story	DT|JJ|NN|NNP	O|O|O|O	|||					
+9	3	fb:cell.dr_vishnuvardhan_prema	Dr.Vishnuvardhan, Prema	dr.vishnuvardhan|,|prema	Dr.Vishnuvardhan|,|Prema	NNP|,|NNP	O|O|PERSON	||				Dr.Vishnuvardhan|Prema	fb:part.dr_vishnuvardhan|fb:part.prema
+9	4	fb:cell.null											fb:part.null
+10	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+10	1	fb:cell.marma	Marma	marma	Marma	NNP	PERSON						
+10	2	fb:cell.suspense_thriller	Suspense thriller	suspense|thriller	suspense|thriller	NN|NN	O|O	|					
+10	3	fb:cell.prema	Prema	prema	prema	NN	O					Prema	fb:part.prema
+10	4	fb:cell.null											fb:part.null
+11	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+11	1	fb:cell.ramya_chaitrakaala	Ramya Chaitrakaala	ramya|chaitrakaala	Ramya|Chaitrakaala	NNP|NNP	PERSON|PERSON	|					
+11	2	fb:cell.a_village_love_story	A village love story	a|village|love|story	a|village|love|story	DT|NN|NN|NN	O|O|O|O	|||					
+11	3	fb:cell.sandeep_nanditha_manasi	Sandeep, Nanditha, Manasi	sandeep|,|nanditha|,|manasi	Sandeep|,|Nanditha|,|Manasi	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Sandeep|Nanditha|Manasi	fb:part.sandeep|fb:part.nanditha|fb:part.manasi
+11	4	fb:cell.null											fb:part.null
+12	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+12	1	fb:cell.kshana_kshana	Kshana Kshana	kshana|kshana	Kshana|Kshana	NNP|NNP	PERSON|PERSON	|					
+12	2	fb:cell.a_suspense_thriller	A suspense thriller	a|suspense|thriller	a|suspense|thriller	DT|NN|NN	O|O|O	||					
+12	3	fb:cell.dr_vishnuvardhan_aditya_prema	Dr.Vishnuvardhan, Aditya, Prema	dr.vishnuvardhan|,|aditya|,|prema	Dr.Vishnuvardhan|,|Aditya|,|Prema	NNP|,|NNP|,|NNP	O|O|O|O|PERSON	||||				Dr.Vishnuvardhan|Aditya|Prema	fb:part.dr_vishnuvardhan|fb:part.aditya|fb:part.prema
+12	4	fb:cell.null											fb:part.null
+13	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+13	1	fb:cell.sarigama	Sarigama	sarigama	sarigama	FW	PERSON						
+13	2	fb:cell.romance	Romance	romance	romance	NN	O						
+13	3	fb:cell.prajwal_devaraj_sunil_raoh	Prajwal Devaraj, Sunil Raoh	prajwal|devaraj|,|sunil|raoh	Prajwal|Devaraj|,|Sunil|Raoh	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Prajwal Devaraj|Sunil Raoh	fb:part.prajwal_devaraj|fb:part.sunil_raoh
+13	4	fb:cell.filming	Filming	filming	film	VBG	O					Filming	fb:part.filming
+14	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+14	1	fb:cell.tanana_tandanana	Tanana Tandanana	tanana|tandanana	Tanana|Tandanana	NNP|NNP	PERSON|PERSON	|					
+14	2	fb:cell.drama	Drama	drama	drama	NN	O						
+14	3	fb:cell.ramesh_aravind_ananth_nag	Ramesh Aravind, Ananth Nag	ramesh|aravind|,|ananth|nag	Ramesh|Aravind|,|Ananth|Nag	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Ramesh Aravind|Ananth Nag	fb:part.ramesh_aravind|fb:part.ananth_nag
+14	4	fb:cell.filming	Filming	filming	film	VBG	O					Filming	fb:part.filming

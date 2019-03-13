@@ -1,0 +1,103 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.ship	Ship	ship	ship	NN	O						
+-1	1	fb:row.row.built	Built	built	build	VBN	O						
+-1	2	fb:row.row.in_service_for_cunard	In service for Cunard	in|service|for|cunard	in|service|for|Cunard	IN|NN|IN|NNP	O|O|O|ORGANIZATION	|||					
+-1	3	fb:row.row.type	Type	type	type	NN	O						
+-1	4	fb:row.row.tonnage	Tonnage	tonnage	tonnage	NN	O						
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.queen_mary	Queen Mary	queen|mary	Queen|Mary	NNP|NNP	O|PERSON	|				Queen Mary	fb:part.queen_mary
+0	1	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx			
+0	2	fb:cell.1936_1967	1936–1967	1936|--|1967	1936|--|1967	CD|:|CD	DATE|DATE|DATE	1936|1936|1967	1936.0		1967.0	1936–1967	fb:part.1936_1967
+0	3	fb:cell.express	express	express	express	VB	O					express	fb:part.express
+0	4	fb:cell.80_750_grt	80,750 GRT	80,750|grt	80,750|grt	CD|NN	NUMBER|O	80750.0|	80750.0			80,750 GRT	fb:part.80_750_grt
+0	5	fb:cell.blue_riband_sold_1967_now_a_stationary_hotel_ship	Blue Riband, sold 1967, now a stationary hotel ship	blue|riband|,|sold|1967|,|now|a|stationary|hotel|ship	Blue|Riband|,|sell|1967|,|now|a|stationary|hotel|ship	NNP|NNP|,|VBD|CD|,|RB|DT|JJ|NN|NN	O|O|O|O|DATE|DATE|DATE|O|O|O|O	||||1967|1967|1967||||	1967.0			Blue Riband|sold 1967|now a stationary hotel ship	fb:part.blue_riband|fb:part.sold_1967|fb:part.now_a_stationary_hotel_ship
+1	0	fb:cell.mauretania	Mauretania	mauretania	Mauretania	NNP	LOCATION					Mauretania	fb:part.mauretania
+1	1	fb:cell.1939	1939	1939	1939	CD	DATE	1939	1939.0	1939-xx-xx			
+1	2	fb:cell.1939_1965	1939–1965	1939|--|1965	1939|--|1965	CD|:|CD	DATE|DATE|DATE	1939|1939|1965	1939.0		1965.0	1939–1965	fb:part.1939_1965
+1	3	fb:cell.express	express	express	express	VB	O					express	fb:part.express
+1	4	fb:cell.37_750_grt	37,750 GRT	37,750|grt	37,750|grt	CD|NN	NUMBER|O	37750.0|	37750.0			37,750 GRT	fb:part.37_750_grt
+1	5	fb:cell.scrapped_1965	scrapped 1965	scrapped|1965	scrap|1965	VBN|CD	O|DATE	|1965	1965.0			scrapped 1965	fb:part.scrapped_1965
+2	0	fb:cell.queen_elizabeth	Queen Elizabeth	queen|elizabeth	Queen|Elizabeth	NNP|NNP	O|PERSON	|				Queen Elizabeth	fb:part.queen_elizabeth
+2	1	fb:cell.1940	1940	1940	1940	CD	DATE	1940	1940.0	1940-xx-xx			
+2	2	fb:cell.1946_1968	1946–1968	1946|--|1968	1946|--|1968	CD|:|CD	DATE|DATE|DATE	1946|1946|1968	1946.0		1968.0	1946–1968	fb:part.1946_1968
+2	3	fb:cell.express	express	express	express	VB	O					express	fb:part.express
+2	4	fb:cell.83_650_grt	83,650 GRT	83,650|grt	83,650|grt	CD|NN	NUMBER|O	83650.0|	83650.0			83,650 GRT	fb:part.83_650_grt
+2	5	fb:cell.wwii_troopship_1940_1945_sold_1968_destroyed_by_fire_1972	WWII troopship 1940–1945, sold 1968, destroyed by fire 1972	wwii|troopship|1940|--|1945|,|sold|1968|,|destroyed|by|fire|1972	WWII|troopship|1940|--|1945|,|sell|1968|,|destroy|by|fire|1972	NNP|NN|CD|:|CD|,|VBN|CD|,|VBN|IN|NN|CD	ORGANIZATION|O|DATE|DATE|DATE|O|O|DATE|O|O|O|O|DATE	||1940|1940|1945|||1968|||||1972	1940.0		1945.0	WWII troopship 1940–1945|sold 1968|destroyed by fire 1972	fb:part.wwii_troopship_1940_1945|fb:part.sold_1968|fb:part.destroyed_by_fire_1972
+3	0	fb:cell.media	Media	media	Media	NNP	O					Media	fb:part.media
+3	1	fb:cell.1947	1947	1947	1947	CD	DATE	1947	1947.0	1947-xx-xx			
+3	2	fb:cell.1947_1961	1947–1961	1947|--|1961	1947|--|1961	CD|:|CD	DATE|DATE|DATE	1947|1947|1961	1947.0		1961.0	1947–1961	fb:part.1947_1961
+3	3	fb:cell.cargo_liner	cargo liner	cargo|liner	cargo|liner	NN|NN	O|O	|				cargo liner	fb:part.cargo_liner
+3	4	fb:cell.13_350_grt	13,350 GRT	13,350|grt	13,350|grt	CD|NN	NUMBER|O	13350.0|	13350.0			13,350 GRT	fb:part.13_350_grt
+3	5	fb:cell.sold_to_cogedar_line_1961_scrapped_1989	sold to Cogedar Line 1961, scrapped 1989	sold|to|cogedar|line|1961|,|scrapped|1989	sell|to|Cogedar|Line|1961|,|scrap|1989	VBN|TO|NNP|NNP|CD|,|VBD|CD	O|O|O|O|DATE|O|O|DATE	||||1961|||1989	1961.0		1989.0	sold to Cogedar Line 1961|scrapped 1989	fb:part.sold_to_cogedar_line_1961|fb:part.scrapped_1989
+4	0	fb:cell.parthia	Parthia	parthia	parthium	NN	LOCATION					Parthia	fb:part.parthia
+4	1	fb:cell.1947	1947	1947	1947	CD	DATE	1947	1947.0	1947-xx-xx			
+4	2	fb:cell.1947_1961	1947–1961	1947|--|1961	1947|--|1961	CD|:|CD	DATE|DATE|DATE	1947|1947|1961	1947.0		1961.0	1947–1961	fb:part.1947_1961
+4	3	fb:cell.cargo_liner	cargo liner	cargo|liner	cargo|liner	NN|NN	O|O	|				cargo liner	fb:part.cargo_liner
+4	4	fb:cell.13_350_grt	13,350 GRT	13,350|grt	13,350|grt	CD|NN	NUMBER|O	13350.0|	13350.0			13,350 GRT	fb:part.13_350_grt
+4	5	fb:cell.sold_to_p_o_1961_renamed_remuera_scrapped_1969	sold to P&O 1961, renamed Remuera, scrapped 1969	sold|to|p&o|1961|,|renamed|remuera|,|scrapped|1969	sell|to|P&O|1961|,|rename|Remuera|,|scrap|1969	VBN|TO|NNP|CD|,|VBN|NNP|,|VBD|CD	O|O|ORGANIZATION|DATE|O|O|O|O|O|DATE	|||1961||||||1969	1961.0		1969.0	sold to P&O 1961|renamed Remuera|scrapped 1969	fb:part.sold_to_p_o_1961|fb:part.renamed_remuera|fb:part.scrapped_1969
+5	0	fb:cell.caronia	Caronia	caronia	Caronia	NNP	PERSON					Caronia	fb:part.caronia
+5	1	fb:cell.1949	1949	1949	1949	CD	DATE	1949	1949.0	1949-xx-xx			
+5	2	fb:cell.1949_1968	1949–1968	1949|--|1968	1949|--|1968	CD|:|CD	DATE|DATE|DATE	1949|1949|1968	1949.0		1968.0	1949–1968	fb:part.1949_1968
+5	3	fb:cell.cruise	cruise	cruise	cruise	NN	O					cruise	fb:part.cruise
+5	4	fb:cell.34_200_grt	34,200 GRT	34,200|grt	34,200|grt	CD|NN	NUMBER|O	34200.0|	34200.0			34,200 GRT	fb:part.34_200_grt
+5	5	fb:cell.sold_1968_wrecked_1974	sold 1968, wrecked 1974	sold|1968|,|wrecked|1974	sell|1968|,|wreck|1974	VBN|CD|,|VBN|CD	O|DATE|O|O|DATE	|1968|||1974	1968.0		1974.0	sold 1968|wrecked 1974	fb:part.sold_1968|fb:part.wrecked_1974
+6	0	fb:cell.britannic	Britannic	britannic	Britannic	NNP	O					Britannic	fb:part.britannic
+6	1	fb:cell.1929	1929	1929	1929	CD	DATE	1929	1929.0	1929-xx-xx			
+6	2	fb:cell.1950_1960	1950–1960	1950|--|1960	1950|--|1960	CD|:|CD	DATE|DATE|DATE	1950|1950|1960	1950.0		1960.0	1950–1960	fb:part.1950_1960
+6	3	fb:cell.intermediate	intermediate	intermediate	intermediate	JJ	O					intermediate	fb:part.intermediate
+6	4	fb:cell.26_943_grt	26,943 GRT	26,943|grt	26,943|grt	CD|NN	NUMBER|O	26943.0|	26943.0			26,943 GRT	fb:part.26_943_grt
+6	5	fb:cell.built_for_white_star_line_scrapped_1960	built for White Star Line, scrapped 1960	built|for|white|star|line|,|scrapped|1960	build|for|White|Star|Line|,|scrap|1960	VBN|IN|NNP|NNP|NNP|,|VBD|CD	O|O|O|O|O|O|O|DATE	|||||||1960	1960.0			built for White Star Line|scrapped 1960	fb:part.built_for_white_star_line|fb:part.scrapped_1960
+7	0	fb:cell.georgic	Georgic	georgic	georgic	JJ	PERSON					Georgic	fb:part.georgic
+7	1	fb:cell.1932	1932	1932	1932	CD	DATE	1932	1932.0	1932-xx-xx			
+7	2	fb:cell.1950_1956	1950–1956	1950|--|1956	1950|--|1956	CD|:|CD	DATE|DATE|DATE	1950|1950|1956	1950.0		1956.0	1950–1956	fb:part.1950_1956
+7	3	fb:cell.intermediate	intermediate	intermediate	intermediate	JJ	O					intermediate	fb:part.intermediate
+7	4	fb:cell.27_759_grt	27,759 GRT	27,759|grt	27,759|grt	CD|NN	NUMBER|O	27759.0|	27759.0			27,759 GRT	fb:part.27_759_grt
+7	5	fb:cell.built_for_white_star_line_scrapped_1956	built for White Star Line, scrapped 1956	built|for|white|star|line|,|scrapped|1956	build|for|White|Star|Line|,|scrap|1956	VBN|IN|NNP|NNP|NNP|,|VBD|CD	O|O|O|O|O|O|O|DATE	|||||||1956	1956.0			built for White Star Line|scrapped 1956	fb:part.built_for_white_star_line|fb:part.scrapped_1956
+8	0	fb:cell.saxonia_carmania	Saxonia\nCarmania	saxonia|carmania	Saxonia|Carmania	NNP|NNP	LOCATION|LOCATION	|				Saxonia|Carmania	fb:part.saxonia|fb:part.carmania
+8	1	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+8	2	fb:cell.1954_1962_1962_1973	1954–1962\n1962–1973	1954|--|1962|1962|--|1973	1954|--|1962|1962|--|1973	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1954|1954|1962|1962|1962|1973	1954.0		1962.0	1954–1962|1962–1973	fb:part.1954_1962|fb:part.1962_1973
+8	3	fb:cell.intermediate_cruise	intermediate\ncruise	intermediate|cruise	intermediate|cruise	JJ|NN	O|O	|				intermediate|cruise	fb:part.intermediate|fb:part.cruise
+8	4	fb:cell.21_637_grt_21_370_grt	21,637 GRT\n21,370 GRT	21,637|grt|21,370|grt	21,637|GRT|21,370|GRT	CD|NNP|CD|NNP	NUMBER|O|NUMBER|O	21637.0||21370.0|	21637.0		21370.0	21,637 GRT|21,370 GRT	fb:part.21_637_grt|fb:part.21_370_grt
+8	5	fb:cell.sold_to_the_black_sea_shipping_company_soviet_union_1973	Sold to the Black Sea Shipping Company, Soviet Union 1973	sold|to|the|black|sea|shipping|company|,|soviet|union|1973	sell|to|the|Black|Sea|Shipping|Company|,|Soviet|Union|1973	VBN|TO|DT|NNP|NNP|NNP|NNP|,|NNP|NNP|CD	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|DATE	||||||||||1973	1973.0			Sold to the Black Sea Shipping Company|Soviet Union 1973	fb:part.sold_to_the_black_sea_shipping_company|fb:part.soviet_union_1973
+9	0	fb:cell.ivernia_franconia	Ivernia\nFranconia	ivernia|franconia	Ivernia|Franconia	NNP|NNP	LOCATION|LOCATION	|				Ivernia|Franconia	fb:part.ivernia|fb:part.franconia
+9	1	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+9	2	fb:cell.1955_1963_1963_1973	1955–1963\n1963–1973	1955|--|1963|1963|--|1973	1955|--|1963|1963|--|1973	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1955|1955|1963|1963|1963|1973	1955.0		1963.0	1955–1963|1963–1973	fb:part.1955_1963|fb:part.1963_1973
+9	3	fb:cell.intermediate_cruise	intermediate\ncruise	intermediate|cruise	intermediate|cruise	JJ|NN	O|O	|				intermediate|cruise	fb:part.intermediate|fb:part.cruise
+9	4	fb:cell.21_800_grt	21,800 GRT	21,800|grt	21,800|grt	CD|NN	NUMBER|O	21800.0|	21800.0			21,800 GRT	fb:part.21_800_grt
+9	5	fb:cell.sold_to_the_far_eastern_shipping_company_soviet_union_1973_scrapped_2004	Sold to the Far Eastern Shipping Company, Soviet Union 1973, scrapped 2004	sold|to|the|far|eastern|shipping|company|,|soviet|union|1973|,|scrapped|2004	sell|to|the|Far|Eastern|Shipping|Company|,|Soviet|Union|1973|,|scrap|2004	VBN|TO|DT|NNP|NNP|NNP|NNP|,|NNP|NNP|CD|,|VBD|CD	O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|LOCATION|DATE|O|O|DATE	||||||||||1973|||2004	1973.0		2004.0	Sold to the Far Eastern Shipping Company|Soviet Union 1973|scrapped 2004	fb:part.sold_to_the_far_eastern_shipping_company|fb:part.soviet_union_1973|fb:part.scrapped_2004
+10	0	fb:cell.carinthia	Carinthia	carinthia	Carinthia	NNP	LOCATION					Carinthia	fb:part.carinthia
+10	1	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+10	2	fb:cell.1956_1968	1956–1968	1956|--|1968	1956|--|1968	CD|:|CD	DATE|DATE|DATE	1956|1956|1968	1956.0		1968.0	1956–1968	fb:part.1956_1968
+10	3	fb:cell.intermediate	intermediate	intermediate	intermediate	JJ	O					intermediate	fb:part.intermediate
+10	4	fb:cell.21_800_grt	21,800 GRT	21,800|grt	21,800|grt	CD|NN	NUMBER|O	21800.0|	21800.0			21,800 GRT	fb:part.21_800_grt
+10	5	fb:cell.sold_to_sitmar_line_1968_scrapped_2005	sold to Sitmar Line 1968, scrapped 2005	sold|to|sitmar|line|1968|,|scrapped|2005	sell|to|Sitmar|Line|1968|,|scrap|2005	VBN|TO|NNP|NNP|CD|,|VBD|CD	O|O|O|O|DATE|O|O|DATE	||||1968|||2005	1968.0		2005.0	sold to Sitmar Line 1968|scrapped 2005	fb:part.sold_to_sitmar_line_1968|fb:part.scrapped_2005
+11	0	fb:cell.sylvania	Sylvania	sylvania	Sylvania	NNP	LOCATION					Sylvania	fb:part.sylvania
+11	1	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+11	2	fb:cell.1957_1968	1957–1968	1957|--|1968	1957|--|1968	CD|:|CD	DATE|DATE|DATE	1957|1957|1968	1957.0		1968.0	1957–1968	fb:part.1957_1968
+11	3	fb:cell.intermediate	intermediate	intermediate	intermediate	JJ	O					intermediate	fb:part.intermediate
+11	4	fb:cell.21_800_grt	21,800 GRT	21,800|grt	21,800|grt	CD|NN	NUMBER|O	21800.0|	21800.0			21,800 GRT	fb:part.21_800_grt
+11	5	fb:cell.sold_to_sitmar_line_1968_scrapped_2004	sold to Sitmar Line 1968, scrapped 2004	sold|to|sitmar|line|1968|,|scrapped|2004	sell|to|Sitmar|Line|1968|,|scrap|2004	VBN|TO|NNP|NNP|CD|,|VBD|CD	O|O|O|O|DATE|O|O|DATE	||||1968|||2004	1968.0		2004.0	sold to Sitmar Line 1968|scrapped 2004	fb:part.sold_to_sitmar_line_1968|fb:part.scrapped_2004
+12	0	fb:cell.alaunia	Alaunia	alaunia	Alaunia	NNP	LOCATION					Alaunia	fb:part.alaunia
+12	1	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+12	2	fb:cell.1960_1969	1960–1969	1960|--|1969	1960|--|1969	CD|:|CD	DATE|DATE|DATE	1960|1960|1969	1960.0		1969.0	1960–1969	fb:part.1960_1969
+12	3	fb:cell.cargo_liner	cargo liner	cargo|liner	cargo|liner	NN|NN	O|O	|				cargo liner	fb:part.cargo_liner
+12	4	fb:cell.7_004_grt	7,004 GRT	7,004|grt	7,004|grt	CD|NN	NUMBER|O	7004.0|	7004.0			7,004 GRT	fb:part.7_004_grt
+12	5	fb:cell.sold_to_brocklebank_line_in_1969	sold to Brocklebank Line in 1969	sold|to|brocklebank|line|in|1969	sell|to|Brocklebank|Line|in|1969	VBN|TO|NNP|NNP|IN|CD	O|O|ORGANIZATION|ORGANIZATION|O|DATE	|||||1969	1969.0			sold to Brocklebank Line in 1969	fb:part.sold_to_brocklebank_line_in_1969
+13	0	fb:cell.queen_elizabeth_2	Queen Elizabeth 2	queen|elizabeth|2	Queen|Elizabeth|2	NNP|NNP|CD	O|PERSON|NUMBER	||2.0	2.0			Queen Elizabeth 2	fb:part.queen_elizabeth_2
+13	1	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+13	2	fb:cell.1969_2008	1969–2008	1969|--|2008	1969|--|2008	CD|:|CD	DATE|DATE|DATE	1969|1969|2008	1969.0		2008.0	1969–2008	fb:part.1969_2008
+13	3	fb:cell.express	express	express	express	VB	O					express	fb:part.express
+13	4	fb:cell.70_300_grt	70,300 GRT	70,300|grt	70,300|grt	CD|NN	NUMBER|O	70300.0|	70300.0			70,300 GRT	fb:part.70_300_grt
+13	5	fb:cell.sold_2008_laid_up_in_port_rashid	sold 2008, laid up in Port Rashid	sold|2008|,|laid|up|in|port|rashid	sell|2008|,|lay|up|in|Port|Rashid	VBN|CD|,|VBN|RP|IN|NNP|NNP	O|DATE|O|O|O|O|LOCATION|LOCATION	|2008||||||	2008.0			sold 2008|laid up in Port Rashid	fb:part.sold_2008|fb:part.laid_up_in_port_rashid
+14	0	fb:cell.atlantic_causeway	Atlantic Causeway	atlantic|causeway	Atlantic|Causeway	NNP|NNP	LOCATION|LOCATION	|				Atlantic Causeway	fb:part.atlantic_causeway
+14	1	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+14	2	fb:cell.1970_1986	1970–1986	1970|--|1986	1970|--|1986	CD|:|CD	DATE|DATE|DATE	1970|1970|1986	1970.0		1986.0	1970–1986	fb:part.1970_1986
+14	3	fb:cell.container_ship	container ship	container|ship	container|ship	NN|NN	O|O	|				container ship	fb:part.container_ship
+14	4	fb:cell.14_950_grt	14,950 GRT	14,950|grt	14,950|grt	CD|NN	NUMBER|O	14950.0|	14950.0			14,950 GRT	fb:part.14_950_grt
+14	5	fb:cell.scrapped_in_1986	scrapped in 1986	scrapped|in|1986	scrap|in|1986	VBN|IN|CD	O|O|DATE	||1986	1986.0			scrapped in 1986	fb:part.scrapped_in_1986
+15	0	fb:cell.atlantic_conveyor	Atlantic Conveyor	atlantic|conveyor	Atlantic|Conveyor	NNP|NNP	O|O	|				Atlantic Conveyor	fb:part.atlantic_conveyor
+15	1	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+15	2	fb:cell.1970_1982	1970–1982	1970|--|1982	1970|--|1982	CD|:|CD	DATE|DATE|DATE	1970|1970|1982	1970.0		1982.0	1970–1982	fb:part.1970_1982
+15	3	fb:cell.container_ship	container ship	container|ship	container|ship	NN|NN	O|O	|				container ship	fb:part.container_ship
+15	4	fb:cell.14_946_grt	14,946 GRT	14,946|grt	14,946|grt	CD|NN	NUMBER|O	14946.0|	14946.0			14,946 GRT	fb:part.14_946_grt
+15	5	fb:cell.sunk_in_falklands_war_1982	sunk in Falklands War 1982	sunk|in|falklands|war|1982	sink|in|Falklands|War|1982	VBN|IN|NNPS|NNP|CD	O|O|MISC|MISC|DATE	||||1982	1982.0			sunk in Falklands War 1982	fb:part.sunk_in_falklands_war_1982

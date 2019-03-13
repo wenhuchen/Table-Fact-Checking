@@ -1,0 +1,137 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.role	Role	role	role	NN	O						
+-1	3	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+0	1	fb:cell.things_we_did_last_summer	Things We Did Last Summer	things|we|did|last|summer	thing|we|do|last|summer	NNS|PRP|VBD-AUX|JJ|NN	O|O|O|DATE|DATE	|||XXXX-SU OFFSET P-1Y|XXXX-SU OFFSET P-1Y				Things We Did Last Summer	fb:part.things_we_did_last_summer
+0	2	fb:cell.paul_oberon	Paul Oberon	paul|oberon	Paul|Oberon	NNP|NNP	PERSON|PERSON	|				Paul Oberon	fb:part.paul_oberon
+0	3	fb:cell.tv_movie	TV Movie	tv|movie	tv|movie	NN|NN	O|O	|				TV Movie	fb:part.tv_movie
+1	0	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+1	1	fb:cell.working_stiffs	Working Stiffs	working|stiffs	work|stiff	VBG|NNS	O|O	|				Working Stiffs	fb:part.working_stiffs
+1	2	fb:cell.heimlich	Heimlich	heimlich	Heimlich	NNP	PERSON					Heimlich	fb:part.heimlich
+1	3	fb:cell.3_episodes	3 episodes	3|episodes	3|episode	CD|NNS	NUMBER|O	3.0|	3.0			3 episodes	fb:part.3_episodes
+2	0	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+2	1	fb:cell.the_flintstone_comedy_hour	The Flintstone Comedy Hour	the|flintstone|comedy|hour	the|Flintstone|Comedy|Hour	DT|NNP|NNP|NNP	O|O|O|DURATION	|||				The Flintstone Comedy Hour	fb:part.the_flintstone_comedy_hour
+2	2	fb:cell.freaky_frankenstone	Freaky Frankenstone	freaky|frankenstone	Freaky|Frankenstone	NNP|NNP	O|O	|				Freaky Frankenstone	fb:part.freaky_frankenstone
+2	3	fb:cell.voice_episode_rv_fever_birthday_boy_clownfoot_fred_goes_ape_flying_mouse_ghost_sitters	Voice\nEpisode: "RV Fever/Birthday Boy/Clownfoot/Fred Goes Ape/Flying Mouse/Ghost-sitters"	voice|episode|:|``|rv|fever\\/birthday|boy\\/clownfoot\\/fred|goes|ape\\/flying|mouse\\/ghost|sitters|''	Voice|Episode|:|``|rv|fever\\/birthday|boy\\/clownfoot\\/fred|go|ape\\/flying|mouse\\/ghost|sitter|''	NNP|NNP|:|``|NN|NN|VBD|VBZ|JJ|NN|NNS|''	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Voice|Episode: "RV Fever|Birthday Boy|Clownfoot|Fred Goes Ape|Flying Mouse|Ghost-sitters"	fb:part.voice|fb:part.episode_rv_fever|fb:part.birthday_boy|fb:part.clownfoot|fb:part.fred_goes_ape|fb:part.flying_mouse|fb:part.ghost_sitters
+3	0	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+3	1	fb:cell.steve_martin_comedy_is_not_pretty	Steve Martin: Comedy Is Not Pretty	steve|martin|:|comedy|is|not|pretty	Steve|Martin|:|comedy|be|not|Pretty	NNP|NNP|:|NN|VBD-AUX|RB|NNP	PERSON|PERSON|O|O|O|O|O	||||||				Steve Martin: Comedy Is Not Pretty	fb:part.steve_martin_comedy_is_not_pretty
+3	2	fb:cell.unnamed_terrorist	Unnamed Terrorist	unnamed|terrorist	Unnamed|Terrorist	NNP|NNP	O|O	|				Unnamed Terrorist	fb:part.unnamed_terrorist
+3	3	fb:cell.reubens_played_an_unnamed_terrorist_that_shoplifted_nuclear_weapons_fuel_from_a_convenience_store_in_a_skit_in_this_steve_martin_comedy_special	Reubens played an unnamed terrorist that shoplifted nuclear weapons fuel from a convenience store in a skit in this Steve Martin comedy special.	reubens|played|an|unnamed|terrorist|that|shoplifted|nuclear|weapons|fuel|from|a|convenience|store|in|a|skit|in|this|steve|martin|comedy|special|.	Reubens|play|a|unnamed|terrorist|that|shoplift|nuclear|weapon|fuel|from|a|convenience|store|in|a|skit|in|this|Steve|Martin|comedy|special|.	NNP|VBD|DT|JJ|NN|WDT|VBD|JJ|NNS|NN|IN|DT|NN|NN|IN|DT|NN|IN|DT|NNP|NNP|NN|JJ|.	PERSON|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||||||||||||				Reubens played an unnamed terrorist that shoplifted nuclear weapons fuel from a convenience store in a skit in this Steve Martin comedy special.	fb:part.reubens_played_an_unnamed_terrorist_that_shoplifted_nuclear_weapons_fuel_from_a_convenience_store_in_a_skit_in_this_steve_martin_comedy_special
+4	0	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+4	1	fb:cell.steve_martin_all_commercials	Steve Martin: All Commercials	steve|martin|:|all|commercials	Steve|Martin|:|all|commercial	NNP|NNP|:|DT|NNS	PERSON|PERSON|O|O|O	||||				Steve Martin: All Commercials	fb:part.steve_martin_all_commercials
+4	2	fb:cell.multiple_roles	Multiple Roles	multiple|roles	multiple|role	JJ|NNS	O|O	|				Multiple Roles	fb:part.multiple_roles
+4	3	fb:cell.reubens_played_multiple_roles_in_multiple_skits_in_this_steve_martin_comedy_special	Reubens played multiple roles in multiple skits in this Steve Martin comedy special.	reubens|played|multiple|roles|in|multiple|skits|in|this|steve|martin|comedy|special|.	Reubens|play|multiple|role|in|multiple|skit|in|this|Steve|Martin|comedy|special|.	NNP|VBD|JJ|NNS|IN|JJ|NNS|IN|DT|NNP|NNP|NN|JJ|.	PERSON|O|O|O|O|O|O|O|O|PERSON|PERSON|O|O|O	|||||||||||||				Reubens played multiple roles in multiple skits in this Steve Martin comedy special.	fb:part.reubens_played_multiple_roles_in_multiple_skits_in_this_steve_martin_comedy_special
+5	0	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+5	1	fb:cell.mork_mindy	Mork & Mindy	mork|&|mindy	Mork|&|Mindy	NNP|CC|NNP	O|O|PERSON	||				Mork & Mindy	fb:part.mork_mindy
+5	2	fb:cell.dickie_nimitz	Dickie Nimitz	dickie|nimitz	Dickie|Nimitz	NNP|NNP	PERSON|PERSON	|				Dickie Nimitz	fb:part.dickie_nimitz
+5	3	fb:cell.episode_long_before_we_met	Episode: "Long Before We Met"	episode|:|``|long|before|we|met|''	episode|:|``|long|before|we|Met|''	NN|:|``|JJ|IN|PRP|NNP|''	O|O|O|O|O|O|O|O	|||||||				Episode: "Long Before We Met"	fb:part.episode_long_before_we_met
+6	0	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+6	1	fb:cell.the_pee_wee_herman_show	The Pee-wee Herman Show	the|pee|wee|herman|show	the|Pee|wee|Herman|Show	DT|NNP|NNP|NNP|NNP	O|O|O|PERSON|PERSON	||||				The Pee-wee Herman Show	fb:part.the_pee_wee_herman_show
+6	2	fb:cell.pee_wee_herman	Pee-wee Herman	pee|wee|herman	Pee|wee|Herman	NNP|NNP|NNP	O|O|PERSON	||				Pee-wee Herman	fb:part.pee_wee_herman
+6	3	fb:cell.tv_movie	TV Movie	tv|movie	tv|movie	NN|NN	O|O	|				TV Movie	fb:part.tv_movie
+7	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+7	1	fb:cell.madame_s_place	Madame's Place	madame|'s|place	Madame|'s|place	NNP|POS|NN	O|O|O	||				Madame's Place	fb:part.madame_s_place
+7	2	fb:cell.pee_wee_herman	Pee-wee Herman	pee|wee|herman	Pee|wee|Herman	NNP|NNP|NNP	O|O|PERSON	||				Pee-wee Herman	fb:part.pee_wee_herman
+7	3	fb:cell.episode_episode_1_34	Episode: "Episode #1.34"	episode|:|``|episode|#|1.34|''	episode|:|``|Episode|#|1.34|''	NN|:|``|NNP|#|CD|''	O|O|O|O|MONEY|MONEY|O	||||£1.34|£1.34|	1.34			Episode: "Episode #1.34"	fb:part.episode_episode_1_34
+8	0	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+8	1	fb:cell.faerie_tale_theatre	Faerie Tale Theatre	faerie|tale|theatre	Faerie|Tale|Theatre	NNP|NNP|NNP	O|O|O	||				Faerie Tale Theatre	fb:part.faerie_tale_theatre
+8	2	fb:cell.pinocchio	Pinocchio	pinocchio	Pinocchio	NNP	O					Pinocchio	fb:part.pinocchio
+8	3	fb:cell.episode_pinocchio	Episode: "Pinocchio"	episode|:|``|pinocchio|''	episode|:|``|Pinocchio|''	NN|:|``|NNP|''	O|O|O|O|O	||||				Episode: "Pinocchio"	fb:part.episode_pinocchio
+9	0	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+9	1	fb:cell.saturday_night_live	Saturday Night Live	saturday|night|live	Saturday|Night|Live	NNP|NNP|NNP	DATE|TIME|O	XXXX-WXX-6TNI|XXXX-WXX-6TNI|				Saturday Night Live	fb:part.saturday_night_live
+9	2	fb:cell.pee_wee_herman	Pee-wee Herman	pee|wee|herman	Pee|wee|Herman	NNP|NNP|NNP	O|O|PERSON	||				Pee-wee Herman	fb:part.pee_wee_herman
+9	3	fb:cell.host_episode_pee_wee_herman_queen_ida_the_bon_temps_zydeco_band	Host\nEpisode: "Pee-wee Herman/Queen Ida & The Bon Temps Zydeco Band"	host|episode|:|``|pee|wee|herman\\/queen|ida|&|the|bon|temps|zydeco|band|''	Host|Episode|:|``|Pee|wee|Herman\\/Queen|Ida|&|The|Bon|Temps|Zydeco|Band|''	NNP|NNP|:|``|NNP|NNP|NNP|NNP|CC|NNP|NNP|NNP|NNP|NNP|''	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				Host|Episode: "Pee-wee Herman|Queen Ida & The Bon Temps Zydeco Band"	fb:part.host|fb:part.episode_pee_wee_herman|fb:part.queen_ida_the_bon_temps_zydeco_band
+10	0	fb:cell.1986_1990	1986–1990	1986|--|1990	1986|--|1990	CD|:|CD	DATE|DATE|DATE	1986|1986|1990	1986.0		1990.0		
+10	1	fb:cell.pee_wee_s_playhouse	Pee-wee's Playhouse	pee|wee|'s|playhouse	Pee|wee|'s|Playhouse	NNP|NNP|POS|NNP	O|O|O|O	|||				Pee-wee's Playhouse	fb:part.pee_wee_s_playhouse
+10	2	fb:cell.pee_wee_herman	Pee-wee Herman	pee|wee|herman	Pee|wee|Herman	NNP|NNP|NNP	O|O|PERSON	||				Pee-wee Herman	fb:part.pee_wee_herman
+10	3	fb:cell.creator_writer_director_of_3_episodes_daytime_emmy_award_for_outstanding_achievement_in_art_direction_set_direction_scenic_design_1988_daytime_emmy_award_for_outstanding_achievement_in_graphics_and_title_design_1991_nominated_daytime_emmy_award_for_outstanding_performer_in_children_s_programming_1987_1988_1990_1991_nominated_daytime_emmy_award_for_outstanding_children_s_series_1987_1990_1991_nominated_daytime_emmy_award_for_outstanding_directing_in_children_s_programming_1988_1990_1991_nominated_daytime_emmy_award_for_outstanding_achievement_in_art_direction_set_decoration_scenic_design_1989_1990_1991_nominated_daytime_emmy_award_for_outstanding_writing_in_a_children_s_series_1987_1988	Creator, writer, director of 3 episodes\nDaytime Emmy Award for Outstanding Achievement in Art Direction/Set Direction/Scenic Design (1988)\nDaytime Emmy Award for Outstanding Achievement in Graphics and Title Design (1991)\nNominated - Daytime Emmy Award for Outstanding Performer in Children's Programming (1987, 1988, 1990, 1991)\nNominated - Daytime Emmy Award for Outstanding Children's Series (1987, 1990, 1991)\nNominated - Daytime Emmy Award for Outstanding Directing in Children's Programming (1988, 1990, 1991)\nNominated - Daytime Emmy Award for Outstanding Achievement in Art Direction/Set Decoration/Scenic Design (1989, 1990, 1991)\nNominated - Daytime Emmy Award for Outstanding Writing in a Children's Series (1987, 1988)	creator|,|writer|,|director|of|3|episodes|daytime|emmy|award|for|outstanding|achievement|in|art|direction\\/set|direction\\/scenic|design|-lrb-|1988|-rrb-|daytime|emmy|award|for|outstanding|achievement|in|graphics|and|title|design|-lrb-|1991|-rrb-|nominated|-|daytime|emmy|award|for|outstanding|performer|in|children|'s|programming|-lrb-|1987|,|1988|,|1990|,|1991|-rrb-|nominated|-|daytime|emmy|award|for|outstanding|children|'s|series|-lrb-|1987|,|1990|,|1991|-rrb-|nominated|-|daytime|emmy|award|for|outstanding|directing|in|children|'s|programming|-lrb-|1988|,|1990|,|1991|-rrb-|nominated|-|daytime|emmy|award|for|outstanding|achievement|in|art|direction\\/set|decoration\\/scenic|design|-lrb-|1989|,|1990|,|1991|-rrb-|nominated|-|daytime|emmy|award|for|outstanding|writing|in|a|children|'s|series|-lrb-|1987|,|1988|-rrb-	Creator|,|writer|,|director|of|3|episode|daytime|Emmy|award|for|outstanding|Achievement|in|Art|Direction\\/Set|Direction\\/Scenic|design|-lrb-|1988|-rrb-|Daytime|Emmy|award|for|outstanding|Achievement|in|Graphics|and|Title|Design|-lrb-|1991|-rrb-|nominate|-|daytime|Emmy|award|for|outstanding|performer|in|Children|'s|Programming|-lrb-|1987|,|1988|,|1990|,|1991|-rrb-|nominate|-|daytime|Emmy|award|for|outstanding|Children|'s|Series|-lrb-|1987|,|1990|,|1991|-rrb-|nominate|-|daytime|Emmy|award|for|outstanding|direct|in|Children|'s|Programming|-lrb-|1988|,|1990|,|1991|-rrb-|nominate|-|daytime|Emmy|award|for|outstanding|Achievement|in|Art|Direction\\/Set|Decoration\\/Scenic|design|-lrb-|1989|,|1990|,|1991|-rrb-|nominate|-|daytime|Emmy|award|for|outstanding|write|in|a|Children|'s|Series|-lrb-|1987|,|1988|-rrb-	NNP|,|NN|,|NN|IN|CD|NNS|JJ|NNP|NN|IN|JJ|NNP|IN|NNP|NNP|NNP|NN|-LRB-|CD|-RRB-|NNP|NNP|NN|IN|JJ|NNP|IN|NNP|CC|NNP|NNP|-LRB-|CD|-RRB-|VBN|:|JJ|NNP|NN|IN|JJ|NN|IN|NNP|POS|NNP|-LRB-|CD|,|CD|,|CD|,|CD|-RRB-|VBN|:|JJ|NNP|NN|IN|JJ|NNP|POS|NNP|-LRB-|CD|,|CD|,|CD|-RRB-|VBN|:|JJ|NNP|NN|IN|JJ|VBG|IN|NNP|POS|NNP|-LRB-|CD|,|CD|,|CD|-RRB-|VBN|:|JJ|NNP|NN|IN|JJ|NNP|IN|NNP|NNP|NNP|NN|-LRB-|CD|,|CD|,|CD|-RRB-|VBN|:|JJ|NNP|NN|IN|JJ|VBG|IN|DT|NNP|POS|NNP|-LRB-|CD|,|CD|-RRB-	O|O|O|O|O|O|NUMBER|O|TIME|O|O|O|O|O|O|O|O|O|O|O|DATE|O|TIME|O|O|O|O|O|O|O|O|O|O|O|DATE|O|O|O|TIME|O|O|O|O|O|O|O|O|O|O|DATE|DATE|DATE|DATE|DATE|DATE|DATE|O|O|O|TIME|O|O|O|O|O|O|O|O|DATE|DATE|DATE|DATE|DATE|O|O|O|TIME|O|O|O|O|O|O|O|O|O|O|DATE|DATE|DATE|DATE|DATE|O|O|O|TIME|O|O|O|O|O|O|O|O|O|O|O|DATE|DATE|DATE|DATE|DATE|O|O|O|TIME|O|O|O|O|O|O|O|O|O|O|O|DATE|DATE|DATE|O	||||||3.0||TDT||||||||||||1988||TDT||||||||||||1991||||TDT|||||||||||1987|1987|1987|1987|1987|1987|1987||||TDT|||||||||1987|1987|1987|1987|1987||||TDT|||||||||||1988|1988|1988|1988|1988||||TDT||||||||||||1989|1989|1989|1989|1989||||TDT||||||||||||1987|1987|1987|	3.0		1988.0	Creator|writer|director of 3 episodes|Daytime Emmy Award for Outstanding Achievement in Art Direction|Set Direction|Scenic Design (1988)|Daytime Emmy Award for Outstanding Achievement in Graphics and Title Design (1991)|Nominated - Daytime Emmy Award for Outstanding Performer in Children's Programming (1987|1988|1990|1991)|Nominated - Daytime Emmy Award for Outstanding Children's Series (1987|1990|1991)|Nominated - Daytime Emmy Award for Outstanding Directing in Children's Programming (1988|1990|1991)|Nominated - Daytime Emmy Award for Outstanding Achievement in Art Direction|Set Decoration|Scenic Design (1989|1990|1991)|Nominated - Daytime Emmy Award for Outstanding Writing in a Children's Series (1987|1988)	fb:part.creator|fb:part.writer|fb:part.director_of_3_episodes|fb:part.daytime_emmy_award_for_outstanding_achievement_in_art_direction|fb:part.set_direction|fb:part.scenic_design_1988|fb:part.daytime_emmy_award_for_outstanding_achievement_in_graphics_and_title_design_1991|fb:part.nominated_daytime_emmy_award_for_outstanding_performer_in_children_s_programming_1987|fb:part.1988|fb:part.1990|fb:part.1991|fb:part.nominated_daytime_emmy_award_for_outstanding_children_s_series_1987|fb:part.1990|fb:part.1991|fb:part.nominated_daytime_emmy_award_for_outstanding_directing_in_children_s_programming_1988|fb:part.1990|fb:part.1991|fb:part.nominated_daytime_emmy_award_for_outstanding_achievement_in_art_direction|fb:part.set_decoration|fb:part.scenic_design_1989|fb:part.1990|fb:part.1991|fb:part.nominated_daytime_emmy_award_for_outstanding_writing_in_a_children_s_series_1987|fb:part.1988_2
+11	0	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+11	1	fb:cell.sesame_street	Sesame Street	sesame|street	Sesame|Street	NNP|NNP	O|O	|				Sesame Street	fb:part.sesame_street
+11	2	fb:cell.pee_wee_herman	Pee-wee Herman	pee|wee|herman	Pee|wee|Herman	NNP|NNP|NNP	O|O|PERSON	||				Pee-wee Herman	fb:part.pee_wee_herman
+11	3	fb:cell.episode_put_down_the_duckie	Episode:"Put Down the Duckie"	episode|:|``|put|down|the|duckie|''	episode|:|``|put|down|the|Duckie|''	NN|:|``|VB|IN|DT|NNP|''	O|O|O|O|O|O|O|O	|||||||				Episode:"Put Down the Duckie"	fb:part.episode_put_down_the_duckie
+12	0	fb:cell.1995_1997	1995–1997	1995|--|1997	1995|--|1997	CD|:|CD	DATE|DATE|DATE	1995|1995|1997	1995.0		1997.0		
+12	1	fb:cell.murphy_brown	Murphy Brown	murphy|brown	Murphy|Brown	NNP|NNP	PERSON|PERSON	|				Murphy Brown	fb:part.murphy_brown
+12	2	fb:cell.andrew_j_lansing_iii	Andrew J. Lansing III	andrew|j.|lansing|iii	Andrew|J.|Lansing|III	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Andrew J. Lansing III	fb:part.andrew_j_lansing_iii
+12	3	fb:cell.6_episodes_nominated_primetime_emmy_award_for_outstanding_guest_actor_in_a_comedy_series_1995	6 episodes\nNominated - Primetime Emmy Award for Outstanding Guest Actor in a Comedy Series (1995)	6|episodes|nominated|-|primetime|emmy|award|for|outstanding|guest|actor|in|a|comedy|series|-lrb-|1995|-rrb-	6|episode|nominate|-|primetime|Emmy|award|for|outstanding|guest|actor|in|a|Comedy|Series|-lrb-|1995|-rrb-	CD|NNS|VBN|:|JJ|NNP|NN|IN|JJ|NN|NN|IN|DT|NNP|NNP|-LRB-|CD|-RRB-	NUMBER|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|DATE|O	6.0||||||||||||||||1995|	6.0		1995.0	6 episodes|Nominated - Primetime Emmy Award for Outstanding Guest Actor in a Comedy Series (1995)	fb:part.6_episodes|fb:part.nominated_primetime_emmy_award_for_outstanding_guest_actor_in_a_comedy_series_1995
+13	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+13	1	fb:cell.everyone_loves_raymond	Everyone Loves Raymond	everyone|loves|raymond	everyone|love|Raymond	NN|VBZ|NNP	O|O|PERSON	||				Everyone Loves Raymond	fb:part.everyone_loves_raymond
+13	2	fb:cell.russell	Russell	russell	Russell	NNP	PERSON					Russell	fb:part.russell
+13	3	fb:cell.episode_hackidu	Episode: "Hackidu"	episode|:|``|hackidu|''	episode|:|``|hackidu|''	NN|:|``|FW|''	O|O|O|O|O	||||				Episode: "Hackidu"	fb:part.episode_hackidu
+14	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+14	1	fb:cell.ally_mcbeal	Ally McBeal	ally|mcbeal	Ally|McBeal	NNP|NNP	O|O	|				Ally McBeal	fb:part.ally_mcbeal
+14	2	fb:cell.louis	Louis	louis	Louis	NNP	PERSON					Louis	fb:part.louis
+14	3	fb:cell.episode_cloudy_skies_chance_of_parade	Episode: "Cloudy Skies, Chance of Parade"	episode|:|``|cloudy|skies|,|chance|of|parade|''	episode|:|``|Cloudy|Skies|,|chance|of|parade|''	NN|:|``|NNP|NNP|,|NN|IN|NN|''	O|O|O|O|O|O|O|O|O|O	|||||||||				Episode: "Cloudy Skies|Chance of Parade"	fb:part.episode_cloudy_skies|fb:part.chance_of_parade
+15	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+15	1	fb:cell.rugrats	Rugrats	rugrats	rugrat	NNS	O					Rugrats	fb:part.rugrats
+15	2	fb:cell.hermie_the_elf	Hermie the Elf	hermie|the|elf	Hermie|the|Elf	NNP|DT|NNP	PERSON|O|O	||				Hermie the Elf	fb:part.hermie_the_elf
+15	3	fb:cell.voice_episode_babies_in_toyland	Voice\nEpisode: "Babies in Toyland"	voice|episode|:|``|babies|in|toyland|''	Voice|Episode|:|``|baby|in|Toyland|''	NNP|NNP|:|``|NNS|IN|NNP|''	O|O|O|O|O|O|LOCATION|O	|||||||				Voice|Episode: "Babies in Toyland"	fb:part.voice|fb:part.episode_babies_in_toyland
+16	0	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+16	1	fb:cell.tripping_the_rift	Tripping the Rift	tripping|the|rift	trip|the|rift	VBG|DT|NN	O|O|O	||				Tripping the Rift	fb:part.tripping_the_rift
+16	2	fb:cell.god_devil	God\nDevil	god|devil	God|Devil	NNP|NNP	O|O	|				God|Devil	fb:part.god|fb:part.devil
+16	3	fb:cell.voice_episode_chode_s_near_death_experience	Voice\nEpisode: "Chode's Near Death-Experience"	voice|episode|:|``|chode|'s|near|death|experience|''	Voice|Episode|:|``|Chode|'s|near|Death|experience|''	NNP|NNP|:|``|NNP|POS|IN|NNP|NN|''	O|O|O|O|O|O|O|O|O|O	|||||||||				Voice|Episode: "Chode's Near Death-Experience"	fb:part.voice|fb:part.episode_chode_s_near_death_experience
+17	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+17	1	fb:cell.campus_ladies	Campus Ladies	campus|ladies	Campus|Ladies	NNP|NNP	O|O	|				Campus Ladies	fb:part.campus_ladies
+17	2	fb:cell.drama_instructor	Drama instructor	drama|instructor	drama|instructor	NN|NN	O|O	|				Drama instructor	fb:part.drama_instructor
+17	3	fb:cell.episode_drama_class	Episode: "Drama Class"	episode|:|``|drama|class|''	episode|:|``|Drama|Class|''	NN|:|``|NNP|NNP|''	O|O|O|O|O|O	|||||				Episode: "Drama Class"	fb:part.episode_drama_class
+18	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+18	1	fb:cell.reno_911	Reno 911!	reno|911|!	Reno|911|!	NNP|CD|.	O|NUMBER|O	|911.0|	911.0			Reno 911!	fb:part.reno_911
+18	2	fb:cell.rick	Rick	rick	Rick	NNP	PERSON					Rick	fb:part.rick
+18	3	fb:cell.episode_rick_s_on_it	Episode: "Rick's On It"	episode|:|``|rick|'s|on|it|''	episode|:|``|Rick|'s|on|it|''	NN|:|``|NNP|POS|IN|PRP|''	O|O|O|PERSON|O|O|O|O	|||||||				Episode: "Rick's On It"	fb:part.episode_rick_s_on_it
+19	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+19	1	fb:cell.tom_goes_to_the_mayor	Tom Goes to the Mayor	tom|goes|to|the|mayor	Tom|go|to|the|Mayor	NNP|VBZ|TO|DT|NNP	PERSON|O|O|O|O	||||				Tom Goes to the Mayor	fb:part.tom_goes_to_the_mayor
+19	2	fb:cell.paul	Paul	paul	Paul	NNP	PERSON					Paul	fb:part.paul
+19	3	fb:cell.voice_episode_puddins	Voice\nEpisode: "Puddins"	voice|episode|:|``|puddins|''	Voice|Episode|:|``|puddin|''	NNP|NNP|:|``|NNS|''	O|O|O|O|O|O	|||||				Voice|Episode: "Puddins"	fb:part.voice|fb:part.episode_puddins
+20	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+20	1	fb:cell.re_animated	Re-Animated	re|animated	Re|Animated	NNP|NNP	O|O	|				Re-Animated	fb:part.re_animated
+20	2	fb:cell.golly_gopher	Golly Gopher	golly|gopher	Golly|Gopher	NNP|NNP	O|O	|				Golly Gopher	fb:part.golly_gopher
+20	3	fb:cell.voice_tv_movie	Voice\nTV Movie	voice|tv|movie	Voice|TV|Movie	NNP|NNP|NNP	O|O|O	||				Voice|TV Movie	fb:part.voice|fb:part.tv_movie
+21	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+21	1	fb:cell.area_57	Area 57	area|57	Area|57	NNP|CD	O|NUMBER	|57.0	57.0			Area 57	fb:part.area_57
+21	2	fb:cell.alien	Alien	alien	alien	JJ	O					Alien	fb:part.alien
+21	3	fb:cell.unaired_pilot	Unaired pilot	unaired|pilot	unaired|pilot	JJ|NN	O|O	|				Unaired pilot	fb:part.unaired_pilot
+22	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+22	1	fb:cell.30_rock	30 Rock	30|rock	30|Rock	CD|NNP	NUMBER|O	30.0|	30.0			30 Rock	fb:part.30_rock
+22	2	fb:cell.gerhardt_hapsburg	Gerhardt Hapsburg	gerhardt|hapsburg	Gerhardt|Hapsburg	NNP|NNP	PERSON|PERSON	|				Gerhardt Hapsburg	fb:part.gerhardt_hapsburg
+22	3	fb:cell.episode_black_tie	Episode: "Black Tie"	episode|:|``|black|tie|''	episode|:|``|black|tie|''	NN|:|``|JJ|NN|''	O|O|O|O|O|O	|||||				Episode: "Black Tie"	fb:part.episode_black_tie
+23	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+23	1	fb:cell.dirt	Dirt	dirt	dirt	NN	O					Dirt	fb:part.dirt
+23	2	fb:cell.chuck_lafoon	Chuck Lafoon	chuck|lafoon	Chuck|Lafoon	NNP|NNP	PERSON|PERSON	|				Chuck Lafoon	fb:part.chuck_lafoon
+23	3	fb:cell.3_episodes	3 episodes	3|episodes	3|episode	CD|NNS	NUMBER|O	3.0|	3.0			3 episodes	fb:part.3_episodes
+24	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+24	1	fb:cell.tim_and_eric_awesome_show_great_job	Tim and Eric Awesome Show, Great Job!	tim|and|eric|awesome|show|,|great|job|!	Tim|and|Eric|Awesome|Show|,|Great|Job|!	NNP|CC|NNP|NNP|NNP|,|NNP|NNP|.	PERSON|O|PERSON|O|O|O|O|O|O	||||||||				Tim and Eric Awesome Show|Great Job!	fb:part.tim_and_eric_awesome_show|fb:part.great_job
+24	2	fb:cell.the_moon	The Moon	the|moon	the|Moon	DT|NNP	O|O	|				The Moon	fb:part.the_moon
+24	3	fb:cell.episode_cats	Episode: "Cats"	episode|:|``|cats|''	episode|:|``|cat|''	NN|:|``|NNS|''	O|O|O|O|O	||||				Episode: "Cats"	fb:part.episode_cats
+25	0	fb:cell.2007_2009	2007-2009	2007-2009	2007-2009	CD	DATE	2007/2009	2007.0		2009.0		
+25	1	fb:cell.chowder	Chowder	chowder	Chowder	NNP	O					Chowder	fb:part.chowder
+25	2	fb:cell.reuben	Reuben	reuben	Reuben	NNP	PERSON					Reuben	fb:part.reuben
+25	3	fb:cell.voice_3_episodes	Voice\n3 episodes	voice|3|episodes	Voice|3|episode	NNP|CD|NNS	O|NUMBER|O	|3.0|	3.0			Voice|3 episodes	fb:part.voice|fb:part.3_episodes
+26	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+26	1	fb:cell.pushing_daisies	Pushing Daisies	pushing|daisies	push|daisy	VBG|NNS	O|O	|				Pushing Daisies	fb:part.pushing_daisies
+26	2	fb:cell.oscar_vibenius	Oscar Vibenius	oscar|vibenius	Oscar|Vibenius	NNP|NNP	PERSON|PERSON	|				Oscar Vibenius	fb:part.oscar_vibenius
+26	3	fb:cell.2_episodes	2 episodes	2|episodes	2|episode	CD|NNS	NUMBER|O	2.0|	2.0			2 episodes	fb:part.2_episodes
+27	0	fb:cell.2009_2011	2009-2011	2009-2011	2009-2011	CD	DATE	2009/2011	2009.0		2011.0		
+27	1	fb:cell.batman_the_brave_and_the_bold	Batman: The Brave and the Bold	batman|:|the|brave|and|the|bold	Batman|:|the|Brave|and|the|bold	NNP|:|DT|NNP|CC|DT|JJ	O|O|O|O|O|O|O	||||||				Batman: The Brave and the Bold	fb:part.batman_the_brave_and_the_bold
+27	2	fb:cell.bat_mite	Bat-Mite	bat|mite	Bat|Mite	NNP|NNP	O|O	|				Bat-Mite	fb:part.bat_mite
+27	3	fb:cell.voice_4_episodes	Voice\n4 episodes	voice|4|episodes	Voice|4|episode	NNP|CD|NNS	O|NUMBER|O	|4.0|	4.0			Voice|4 episodes	fb:part.voice|fb:part.4_episodes
+28	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+28	1	fb:cell.adventure_time	Adventure Time	adventure|time	adventure|time	NN|NN	O|O	|				Adventure Time	fb:part.adventure_time
+28	2	fb:cell.gnome_ruler	Gnome Ruler	gnome|ruler	Gnome|Ruler	NNP|NNP	O|O	|				Gnome Ruler	fb:part.gnome_ruler
+28	3	fb:cell.voice_episode_power_animal	Voice\nEpisode: "Power Animal"	voice|episode|:|``|power|animal|''	Voice|Episode|:|``|Power|Animal|''	NNP|NNP|:|``|NNP|NNP|''	O|O|O|O|O|O|O	||||||				Voice|Episode: "Power Animal"	fb:part.voice|fb:part.episode_power_animal
+29	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+29	1	fb:cell.the_pee_wee_herman_show	The Pee-wee Herman Show	the|pee|wee|herman|show	the|Pee|wee|Herman|Show	DT|NNP|NNP|NNP|NNP	O|O|O|PERSON|PERSON	||||				The Pee-wee Herman Show	fb:part.the_pee_wee_herman_show
+29	2	fb:cell.pee_wee_herman	Pee-wee Herman	pee|wee|herman	Pee|wee|Herman	NNP|NNP|NNP	O|O|PERSON	||				Pee-wee Herman	fb:part.pee_wee_herman
+29	3	fb:cell.tv_movie_nominated_primetime_emmy_award_for_outstanding_variety_music_or_comedy_special	TV Movie\nNominated - Primetime Emmy Award for Outstanding Variety, Music or Comedy Special	tv|movie|nominated|-|primetime|emmy|award|for|outstanding|variety|,|music|or|comedy|special	tv|Movie|Nominated|-|Primetime|Emmy|award|for|outstanding|Variety|,|Music|or|Comedy|special	NN|NNP|NNP|:|NNP|NNP|NN|IN|JJ|NNP|,|NNP|CC|NNP|JJ	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				TV Movie|Nominated - Primetime Emmy Award for Outstanding Variety|Music or Comedy Special	fb:part.tv_movie|fb:part.nominated_primetime_emmy_award_for_outstanding_variety|fb:part.music_or_comedy_special
+30	0	fb:cell.2012_2013	2012–2013	2012|--|2013	2012|--|2013	CD|:|CD	DATE|DATE|DATE	2012|2012|2013	2012.0		2013.0		
+30	1	fb:cell.tron_uprising	Tron: Uprising	tron|:|uprising	Tron|:|uprising	NNP|:|NN	O|O|O	||				Tron: Uprising	fb:part.tron_uprising
+30	2	fb:cell.pavel	Pavel	pavel	Pavel	NNP	PERSON					Pavel	fb:part.pavel
+30	3	fb:cell.voice_17_episodes	Voice\n17 episodes	voice|17|episodes	Voice|17|episode	NNP|CD|NNS	O|NUMBER|O	|17.0|	17.0			Voice|17 episodes	fb:part.voice|fb:part.17_episodes
+31	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+31	1	fb:cell.robot_chicken_dc_comics_special	Robot Chicken DC Comics Special	robot|chicken|dc|comics|special	Robot|Chicken|DC|Comics|special	NNP|NNP|NNP|NNPS|JJ	O|O|O|O|O	||||				Robot Chicken DC Comics Special	fb:part.robot_chicken_dc_comics_special
+31	2	fb:cell.the_riddler	The Riddler	the|riddler	the|riddler	DT|NN	O|O	|				The Riddler	fb:part.the_riddler
+31	3	fb:cell.voice_tv_movie	Voice\nTV Movie	voice|tv|movie	Voice|TV|Movie	NNP|NNP|NNP	O|O|O	||				Voice|TV Movie	fb:part.voice|fb:part.tv_movie
+32	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+32	1	fb:cell.comedy_bang_bang	Comedy Bang! Bang!	comedy|bang|!|bang|!	comedy|Bang|!|Bang|!	NN|NNP|.|NNP|.	O|O|O|O|O	||||				Comedy Bang! Bang!	fb:part.comedy_bang_bang
+32	2	fb:cell.pee_wee_herman	Pee-wee Herman	pee|wee|herman	Pee|wee|Herman	NNP|NNP|NNP	O|O|PERSON	||				Pee-wee Herman	fb:part.pee_wee_herman
+32	3	fb:cell.episode_pee_wee_herman_wears_a_halloween_costume	Episode: "Pee Wee Herman Wears a Halloween Costume"	episode|:|``|pee|wee|herman|wears|a|halloween|costume|''	episode|:|``|Pee|Wee|Herman|wear|a|Halloween|Costume|''	NN|:|``|NNP|NNP|NNP|VBZ|DT|NNP|NNP|''	O|O|O|O|O|PERSON|O|O|DATE|O|O	||||||||XXXX-10-31||				Episode: "Pee Wee Herman Wears a Halloween Costume"	fb:part.episode_pee_wee_herman_wears_a_halloween_costume

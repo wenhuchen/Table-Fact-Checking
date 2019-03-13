@@ -1,0 +1,981 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.full_name	Full name	full|name	full|name	JJ|NN	O|O	|					
+-1	2	fb:row.row.caps	Caps	caps	cap	NNS	O						
+-1	3	fb:row.row.goals	Goals	goals	goal	NNS	O						
+-1	4	fb:row.row.first_cap	First cap	first|cap	First|cap	NNP|NN	ORDINAL|O	1.0|					
+-1	5	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	6	fb:row.row.club	Club	club	Club	NNP	O						
+0	0	fb:cell.cafu	Cafu	cafu	Cafu	NNP	PERSON						
+0	1	fb:cell.marcos_evangelista_de_moraes	Marcos Evangelista de Moraes	marcos|evangelista|de|moraes	Marcos|Evangelista|de|Moraes	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+0	2	fb:cell.142	142	142	142	CD	NUMBER	142.0	142.0				
+0	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+0	4	fb:cell.12_september_1990	12 September 1990	12|september|1990	12|September|1990	CD|NNP|CD	DATE|DATE|DATE	1990-09-12|1990-09-12|1990-09-12	12.0	1990-09-12	1990.0		
+0	5	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+0	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+1	0	fb:cell.roberto_carlos	Roberto Carlos	roberto|carlos	Roberto|Carlos	NNP|NNP	PERSON|PERSON	|					
+1	1	fb:cell.roberto_carlos_da_silva_rocha	Roberto Carlos da Silva Rocha	roberto|carlos|da|silva|rocha	Roberto|Carlos|da|Silva|Rocha	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+1	2	fb:cell.125	125	125	125	CD	NUMBER	125.0	125.0				
+1	3	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+1	4	fb:cell.26_february_1992	26 February 1992	26|february|1992	26|February|1992	CD|NNP|CD	DATE|DATE|DATE	1992-02-26|1992-02-26|1992-02-26	26.0	1992-02-26	1992.0		
+1	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+1	6	fb:cell.uniao_sao_joao	União São João	união|são|joão	União|São|João	NNP|NNP|NNP	O|O|O	||					
+2	0	fb:cell.ronaldo	Ronaldo	ronaldo	Ronaldo	NNP	PERSON						
+2	1	fb:cell.ronaldo_luis_nazario_de_lima	Ronaldo Luís Nazário de Lima	ronaldo|luís|nazário|de|lima	Ronaldo|Luís|Nazário|de|Lima	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+2	2	fb:cell.98	98	98	98	CD	NUMBER	98.0	98.0				
+2	3	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+2	4	fb:cell.23_march_1994	23 March 1994	23|march|1994	23|March|1994	CD|NNP|CD	DATE|DATE|DATE	1994-03-23|1994-03-23|1994-03-23	23.0	1994-03-23	1994.0		
+2	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+2	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+3	0	fb:cell.dida	Dida	dida	Dida	NNP	PERSON						
+3	1	fb:cell.nelson_de_jesus_silva	Nélson de Jesus Silva	nélson|de|jesus|silva	Nélson|de|Jesus|Silva	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||					
+3	2	fb:cell.91	91	91	91	CD	NUMBER	91.0	91.0				
+3	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+3	4	fb:cell.7_july_1995	7 July 1995	7|july|1995	7|July|1995	CD|NNP|CD	DATE|DATE|DATE	1995-07-07|1995-07-07|1995-07-07	7.0	1995-07-07	1995.0		
+3	5	fb:cell.ecuador	Ecuador	ecuador	Ecuador	NNP	LOCATION						
+3	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+4	0	fb:cell.ze_roberto	Zé Roberto	zé|roberto	Zé|Roberto	NNP|NNP	O|PERSON	|					
+4	1	fb:cell.jose_roberto_da_silva_junior	José Roberto da Silva Júnior	josé|roberto|da|silva|júnior	José|Roberto|da|Silva|Júnior	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+4	2	fb:cell.84	84	84	84	CD	NUMBER	84.0	84.0				
+4	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+4	4	fb:cell.12_august_1995	12 August 1995	12|august|1995	12|August|1995	CD|NNP|CD	DATE|DATE|DATE	1995-08-12|1995-08-12|1995-08-12	12.0	1995-08-12	1995.0		
+4	5	fb:cell.south_korea	South Korea	south|korea	South|Korea	NNP|NNP	LOCATION|LOCATION	|					
+4	6	fb:cell.portuguesa	Portuguesa	portuguesa	portuguesa	NN	LOCATION						
+5	0	fb:cell.emerson	Emerson	emerson	Emerson	NNP	PERSON						
+5	1	fb:cell.emerson_ferreira_da_rosa	Émerson Ferreira da Rosa	émerson|ferreira|da|rosa	Émerson|Ferreira|da|Rosa	NNP|NNP|NN|NNP	PERSON|PERSON|O|O	|||					
+5	2	fb:cell.73	73	73	73	CD	NUMBER	73.0	73.0				
+5	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	4	fb:cell.10_september_1997	10 September 1997	10|september|1997	10|September|1997	CD|NNP|CD	DATE|DATE|DATE	1997-09-10|1997-09-10|1997-09-10	10.0	1997-09-10	1997.0		
+5	5	fb:cell.ecuador	Ecuador	ecuador	Ecuador	NNP	LOCATION						
+5	6	fb:cell.bayer_leverkusen	Bayer Leverkusen	bayer|leverkusen	Bayer|Leverkusen	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	0	fb:cell.rogerio_ceni	Rogério Ceni	rogério|ceni	Rogério|Ceni	NNP|NNP	PERSON|PERSON	|					
+6	1	fb:cell.rogerio_ceni	Rogério Ceni	rogério|ceni	Rogério|Ceni	NNP|NNP	PERSON|PERSON	|					
+6	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+6	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+6	4	fb:cell.16_december_1997	16 December 1997	16|december|1997	16|December|1997	CD|NNP|CD	DATE|DATE|DATE	1997-12-16|1997-12-16|1997-12-16	16.0	1997-12-16	1997.0		
+6	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+6	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+7	0	fb:cell.juninho	Juninho	juninho	Juninho	NNP	PERSON						
+7	1	fb:cell.antonio_augusto_ribeiro_reis_junior	Antônio Augusto Ribeiro Reis Júnior	antônio|augusto|ribeiro|reis|júnior	Antônio|Augusto|Ribeiro|Reis|Júnior	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+7	2	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+7	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+7	4	fb:cell.28_march_1999	28 March 1999	28|march|1999	28|March|1999	CD|NNP|CD	DATE|DATE|DATE	1999-03-28|1999-03-28|1999-03-28	28.0	1999-03-28	1999.0		
+7	5	fb:cell.south_korea	South Korea	south|korea	South|Korea	NNP|NNP	LOCATION|LOCATION	|					
+7	6	fb:cell.vasco_da_gama	Vasco da Gama	vasco|da|gama	Vasco|da|Gama	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+8	0	fb:cell.ronaldinho	Ronaldinho	ronaldinho	Ronaldinho	NNP	LOCATION						
+8	1	fb:cell.ronaldo_de_assis_moreira	Ronaldo de Assis Moreira	ronaldo|de|assis|moreira	Ronaldo|de|Assis|Moreira	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+8	2	fb:cell.97	97	97	97	CD	NUMBER	97.0	97.0				
+8	3	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+8	4	fb:cell.26_june_1999	26 June 1999	26|june|1999	26|June|1999	CD|NNP|CD	DATE|DATE|DATE	1999-06-26|1999-06-26|1999-06-26	26.0	1999-06-26	1999.0		
+8	5	fb:cell.latvia	Latvia	latvia	Latvia	NNP	LOCATION						
+8	6	fb:cell.gremio	Grêmio	grêmio	Grêmio	NNP	PERSON						
+9	0	fb:cell.ricardinho	Ricardinho	ricardinho	Ricardinho	NNP	PERSON						
+9	1	fb:cell.ricardo_luiz_pozzi_rodrigues	Ricardo Luiz Pozzi Rodrigues	ricardo|luiz|pozzi|rodrigues	Ricardo|Luiz|Pozzi|Rodrigues	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+9	2	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+9	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+9	4	fb:cell.28_march_2000	28 March 2000	28|march|2000	28|March|2000	CD|NNP|CD	DATE|DATE|DATE	2000-03-28|2000-03-28|2000-03-28	28.0	2000-03-28	2000.0		
+9	5	fb:cell.colombia	Colombia	colombia	Colombia	NNP	LOCATION						
+9	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+10	0	fb:cell.edmilson	Edmilson	edmilson	Edmilson	NNP	PERSON						
+10	1	fb:cell.edmilson_jose_gomes_de_moraes	Edmílson José Gomes de Moraes	edmílson|josé|gomes|de|moraes	Edmílson|José|Gomes|de|Moraes	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+10	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+10	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+10	4	fb:cell.18_july_2000	18 July 2000	18|july|2000	18|July|2000	CD|NNP|CD	DATE|DATE|DATE	2000-07-18|2000-07-18|2000-07-18	18.0	2000-07-18	2000.0		
+10	5	fb:cell.paraguay	Paraguay	paraguay	Paraguay	NNP	LOCATION						
+10	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+11	0	fb:cell.lucio	Lucio	lucio	Lucio	NNP	PERSON						
+11	1	fb:cell.lucimar_ferreira_da_silva	Lucimar Ferreira da Silva	lucimar|ferreira|da|silva	Lucimar|Ferreira|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+11	2	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+11	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+11	4	fb:cell.15_november_2000	15 November 2000	15|november|2000	15|November|2000	CD|NNP|CD	DATE|DATE|DATE	2000-11-15|2000-11-15|2000-11-15	15.0	2000-11-15	2000.0		
+11	5	fb:cell.colombia	Colombia	colombia	Colombia	NNP	LOCATION						
+11	6	fb:cell.internacional	Internacional	internacional	Internacional	NNP	O						
+12	0	fb:cell.adriano	Adriano	adriano	Adriano	NNP	PERSON						
+12	1	fb:cell.adriano_leite_ribeiro	Adriano Leite Ribeiro	adriano|leite|ribeiro	Adriano|Leite|Ribeiro	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+12	2	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+12	3	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+12	4	fb:cell.15_november_2000	15 November 2000	15|november|2000	15|November|2000	CD|NNP|CD	DATE|DATE|DATE	2000-11-15|2000-11-15|2000-11-15	15.0	2000-11-15	2000.0		
+12	5	fb:cell.colombia	Colombia	colombia	Colombia	NNP	LOCATION						
+12	6	fb:cell.flamengo	Flamengo	flamengo	Flamengo	NNP	LOCATION						
+13	0	fb:cell.mineiro	Mineiro	mineiro	Mineiro	NNP	O						
+13	1	fb:cell.carlos_luciano_da_silva	Carlos Luciano da Silva	carlos|luciano|da|silva	Carlos|Luciano|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+13	2	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+13	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+13	4	fb:cell.25_april_2001	25 April 2001	25|april|2001	25|April|2001	CD|NNP|CD	DATE|DATE|DATE	2001-04-25|2001-04-25|2001-04-25	25.0	2001-04-25	2001.0		
+13	5	fb:cell.peru	Peru	peru	Peru	NNP	LOCATION						
+13	6	fb:cell.ponte_preta	Ponte Preta	ponte|preta	Ponte|Preta	NNP|NNP	LOCATION|LOCATION	|					
+14	0	fb:cell.julio_baptista	Júlio Baptista	júlio|baptista	Júlio|Baptista	NNP|NNP	PERSON|PERSON	|					
+14	1	fb:cell.julio_cesar_baptista	Júlio César Baptista	júlio|césar|baptista	Júlio|César|Baptista	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+14	2	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+14	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+14	4	fb:cell.14_june_2001	14 June 2001	14|june|2001	14|June|2001	CD|NNP|CD	DATE|DATE|DATE	2001-06-14|2001-06-14|2001-06-14	14.0	2001-06-14	2001.0		
+14	5	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+14	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+15	0	fb:cell.cris	Cris	cris	Cris	NNP	PERSON						
+15	1	fb:cell.cristiano_marques_gomes	Cristiano Marques Gomes	cristiano|marques|gomes	Cristiano|Marques|Gomes	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+15	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+15	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+15	4	fb:cell.1_july_2001	1 July 2001	1|july|2001	1|July|2001	CD|NNP|CD	DATE|DATE|DATE	2001-07-01|2001-07-01|2001-07-01	1.0	2001-07-01	2001.0		
+15	5	fb:cell.uruguay	Uruguay	uruguay	Uruguay	NNP	LOCATION						
+15	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+16	0	fb:cell.juan	Juan	juan	Juan	NNP	PERSON						
+16	1	fb:cell.juan_silveira_dos_santos	Juan Silveira dos Santos	juan|silveira|dos|santos	Juan|Silveira|do|Santos	NNP|NNP|VBZ|NNP	PERSON|PERSON|O|O	|||					
+16	2	fb:cell.79	79	79	79	CD	NUMBER	79.0	79.0				
+16	3	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+16	4	fb:cell.15_july_2001	15 July 2001	15|july|2001	15|July|2001	CD|NNP|CD	DATE|DATE|DATE	2001-07-15|2001-07-15|2001-07-15	15.0	2001-07-15	2001.0		
+16	5	fb:cell.peru	Peru	peru	Peru	NNP	LOCATION						
+16	6	fb:cell.flamengo	Flamengo	flamengo	Flamengo	NNP	LOCATION						
+17	0	fb:cell.luisao	Luisão	luisão	Luisão	NNP	PERSON						
+17	1	fb:cell.anderson_luis_da_silva	Ânderson Luís da Silva	ânderson|luís|da|silva	Ânderson|Luís|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+17	2	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+17	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+17	4	fb:cell.23_july_2001	23 July 2001	23|july|2001	23|July|2001	CD|NNP|CD	DATE|DATE|DATE	2001-07-23|2001-07-23|2001-07-23	23.0	2001-07-23	2001.0		
+17	5	fb:cell.honduras	Honduras	honduras	Honduras	NNP	LOCATION						
+17	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+18	0	fb:cell.tinga	Tinga	tinga	Tinga	NNP	O						
+18	1	fb:cell.paulo_cesar_fonseca_do_nascimento	Paulo César Fonseca do Nascimento	paulo|césar|fonseca|do|nascimento	Paulo|César|Fonseca|do|Nascimento	NNP|NNP|NNP|VBD-AUX|NNP	PERSON|PERSON|PERSON|O|O	||||					
+18	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+18	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+18	4	fb:cell.9_august_2001	9 August 2001	9|august|2001	9|August|2001	CD|NNP|CD	DATE|DATE|DATE	2001-08-09|2001-08-09|2001-08-09	9.0	2001-08-09	2001.0		
+18	5	fb:cell.panama	Panama	panama	Panama	NNP	LOCATION						
+18	6	fb:cell.gremio	Grêmio	grêmio	Grêmio	NNP	PERSON						
+19	0	fb:cell.gilberto_silva	Gilberto Silva	gilberto|silva	Gilberto|Silva	NNP|NNP	PERSON|PERSON	|					
+19	1	fb:cell.gilberto_aparecido_da_silva	Gilberto Aparecido da Silva	gilberto|aparecido|da|silva	Gilberto|Aparecido|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+19	2	fb:cell.93	93	93	93	CD	NUMBER	93.0	93.0				
+19	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+19	4	fb:cell.7_november_2001	7 November 2001	7|november|2001	7|November|2001	CD|NNP|CD	DATE|DATE|DATE	2001-11-07|2001-11-07|2001-11-07	7.0	2001-11-07	2001.0		
+19	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+19	6	fb:cell.atletico_mineiro	Atletico Mineiro	atletico|mineiro	Atletico|Mineiro	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+20	0	fb:cell.kaka	Kaká	kaká	kaká	NN	O						
+20	1	fb:cell.ricardo_izecson_dos_santos_leite	Ricardo Izecson dos Santos Leite	ricardo|izecson|dos|santos|leite	Ricardo|Izecson|do|Santos|Leite	NNP|NNP|VBZ|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+20	2	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+20	3	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+20	4	fb:cell.31_january_2002	31 January 2002	31|january|2002	31|January|2002	CD|NNP|CD	DATE|DATE|DATE	2002-01-31|2002-01-31|2002-01-31	31.0	2002-01-31	2002.0		
+20	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+20	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+21	0	fb:cell.kleberson	Kléberson	kléberson	kléberson	NN	LOCATION						
+21	1	fb:cell.jose_kleberson_pereira	José Kléberson Pereira	josé|kléberson|pereira	José|Kléberson|Pereira	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+21	2	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+21	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+21	4	fb:cell.31_january_2002	31 January 2002	31|january|2002	31|January|2002	CD|NNP|CD	DATE|DATE|DATE	2002-01-31|2002-01-31|2002-01-31	31.0	2002-01-31	2002.0		
+21	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+21	6	fb:cell.atletico_paranaense	Atletico Paranaense	atletico|paranaense	Atletico|Paranaense	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+22	0	fb:cell.kleber	Kléber	kléber	Kléber	NNP	O						
+22	1	fb:cell.kleber_de_carvalho_correa	Kléber de Carvalho Corrêa	kléber|de|carvalho|corrêa	Kléber|de|Carvalho|Corrêa	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||					
+22	2	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+22	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+22	4	fb:cell.31_january_2002	31 January 2002	31|january|2002	31|January|2002	CD|NNP|CD	DATE|DATE|DATE	2002-01-31|2002-01-31|2002-01-31	31.0	2002-01-31	2002.0		
+22	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+22	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+23	0	fb:cell.diego	Diego	diego	Diego	NNP	PERSON						
+23	1	fb:cell.diego_ribas_da_cunha	Diego Ribas da Cunha	diego|ribas|da|cunha	diego|Ribas|da|Cunha	JJ|NNP|NNP|NNP	PERSON|PERSON|O|PERSON	|||					
+23	2	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+23	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+23	4	fb:cell.30_april_2003	30 April 2003	30|april|2003	30|April|2003	CD|NNP|CD	DATE|DATE|DATE	2003-04-30|2003-04-30|2003-04-30	30.0	2003-04-30	2003.0		
+23	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+23	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+24	0	fb:cell.luis_fabiano	Luis Fabiano	luis|fabiano	Luis|Fabiano	NNP|NNP	PERSON|PERSON	|					
+24	1	fb:cell.luis_fabiano_clemente	Luís Fabiano Clemente	luís|fabiano|clemente	Luís|Fabiano|Clemente	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+24	2	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+24	3	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+24	4	fb:cell.11_june_2003	11 June 2003	11|june|2003	11|June|2003	CD|NNP|CD	DATE|DATE|DATE	2003-06-11|2003-06-11|2003-06-11	11.0	2003-06-11	2003.0		
+24	5	fb:cell.nigeria	Nigeria	nigeria	Nigeria	NNP	LOCATION						
+24	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+25	0	fb:cell.gilberto	Gilberto	gilberto	Gilberto	NNP	PERSON						
+25	1	fb:cell.gilberto_da_silva_melo	Gilberto da Silva Melo'	gilberto|da|silva|melo|'	Gilberto|da|Silva|Melo|'	NNP|NNP|NNP|NNP|POS	PERSON|PERSON|PERSON|PERSON|O	||||					
+25	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+25	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+25	4	fb:cell.11_june_2003	11 June 2003	11|june|2003	11|June|2003	CD|NNP|CD	DATE|DATE|DATE	2003-06-11|2003-06-11|2003-06-11	11.0	2003-06-11	2003.0		
+25	5	fb:cell.nigeria	Nigeria	nigeria	Nigeria	NNP	LOCATION						
+25	6	fb:cell.gremio	Grêmio	grêmio	Grêmio	NNP	PERSON						
+26	0	fb:cell.robinho	Robinho	robinho	Robinho	NNP	LOCATION						
+26	1	fb:cell.robson_de_souza	Róbson de Souza	róbson|de|souza	Róbson|de|Souza	NNP|NNP|NNP	O|O|O	||					
+26	2	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+26	3	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+26	4	fb:cell.13_july_2003	13 July 2003	13|july|2003	13|July|2003	CD|NNP|CD	DATE|DATE|DATE	2003-07-13|2003-07-13|2003-07-13	13.0	2003-07-13	2003.0		
+26	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+26	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+27	0	fb:cell.maicon	Maicon	maicon	Maicon	NNP	O						
+27	1	fb:cell.maicon_douglas_sisenando	Maicon Douglas Sisenando	maicon|douglas|sisenando	Maicon|Douglas|Sisenando	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+27	2	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+27	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+27	4	fb:cell.13_july_2003	13 July 2003	13|july|2003	13|July|2003	CD|NNP|CD	DATE|DATE|DATE	2003-07-13|2003-07-13|2003-07-13	13.0	2003-07-13	2003.0		
+27	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+27	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+28	0	fb:cell.nilmar	Nilmar	nilmar	nilmar	NN	O						
+28	1	fb:cell.nilmar_honorato_da_silva	Nilmar Honorato da Silva	nilmar|honorato|da|silva	Nilmar|Honorato|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+28	2	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+28	3	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+28	4	fb:cell.13_july_2003	13 July 2003	13|july|2003	13|July|2003	CD|NNP|CD	DATE|DATE|DATE	2003-07-13|2003-07-13|2003-07-13	13.0	2003-07-13	2003.0		
+28	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+28	6	fb:cell.internacional	Internacional	internacional	Internacional	NNP	O						
+29	0	fb:cell.alex	Alex	alex	Alex	NNP	PERSON						
+29	1	fb:cell.alex_rodrigo_dias_da_costa	Alex Rodrigo Dias da Costa	alex|rodrigo|dias|da|costa	Alex|Rodrigo|Dias|da|Costa	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|O	||||					
+29	2	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+29	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+29	4	fb:cell.13_july_2003	13 July 2003	13|july|2003	13|July|2003	CD|NNP|CD	DATE|DATE|DATE	2003-07-13|2003-07-13|2003-07-13	13.0	2003-07-13	2003.0		
+29	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+29	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+30	0	fb:cell.adriano	Adriano	adriano	Adriano	NNP	PERSON						
+30	1	fb:cell.adriano_correia_claro	Adriano Correia Claro	adriano|correia|claro	Adriano|Correia|Claro	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+30	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+30	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+30	4	fb:cell.13_july_2003	13 July 2003	13|july|2003	13|July|2003	CD|NNP|CD	DATE|DATE|DATE	2003-07-13|2003-07-13|2003-07-13	13.0	2003-07-13	2003.0		
+30	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+30	6	fb:cell.coritiba	Coritiba	coritiba	Coritiba	NNP	LOCATION						
+31	0	fb:cell.gomes	Gomes	gomes	Gomes	NNP	PERSON						
+31	1	fb:cell.heurelho_da_silva_gomes	Heurelho da Silva Gomes	heurelho|da|silva|gomes	Heurelho|da|Silva|Gomes	NNP|NNP|NNP|NNP	O|O|PERSON|PERSON	|||					
+31	2	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+31	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+31	4	fb:cell.13_july_2003	13 July 2003	13|july|2003	13|July|2003	CD|NNP|CD	DATE|DATE|DATE	2003-07-13|2003-07-13|2003-07-13	13.0	2003-07-13	2003.0		
+31	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+31	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+32	0	fb:cell.mancini	Mancini	mancini	Mancini	NNP	PERSON						
+32	1	fb:cell.alessandro_faiolhe_amantino	Alessandro Faiolhe Amantino	alessandro|faiolhe|amantino	Alessandro|Faiolhe|Amantino	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+32	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+32	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+32	4	fb:cell.28_april_2004	28 April 2004	28|april|2004	28|April|2004	CD|NNP|CD	DATE|DATE|DATE	2004-04-28|2004-04-28|2004-04-28	28.0	2004-04-28	2004.0		
+32	5	fb:cell.hungary	Hungary	hungary	Hungary	NNP	LOCATION						
+32	6	fb:cell.as_roma	AS Roma	as|roma	as|roma	JJ|NN	O|ORGANIZATION	|					
+33	0	fb:cell.edu_dracena	Edu Dracena	edu|dracena	Edu|Dracena	NNP|NNP	PERSON|PERSON	|					
+33	1	fb:cell.eduardo_luis_abonizio_de_souza	Eduardo Luis Abonízio de Souza	eduardo|luis|abonízio|de|souza	Eduardo|Luis|Abonízio|de|Souza	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+33	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+33	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+33	4	fb:cell.20_may_2004	20 May 2004	20|may|2004	20|May|2004	CD|VBD-AUX|CD	DATE|DATE|DATE	2004-05-20|2004-05-20|2004-05-20	20.0	2004-05-20	2004.0		
+33	5	fb:cell.france	France	france	France	NNP	LOCATION						
+33	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+34	0	fb:cell.julio_cesar	Júlio César	júlio|césar	Júlio|César	NNP|NNP	PERSON|PERSON	|					
+34	1	fb:cell.julio_cesar_soares_de_espindola	Júlio César Soares de Espíndola	júlio|césar|soares|de|espíndola	Júlio|César|Soares|de|Espíndola	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+34	2	fb:cell.74	74	74	74	CD	NUMBER	74.0	74.0				
+34	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+34	4	fb:cell.8_july_2004	8 July 2004	8|july|2004	8|July|2004	CD|NNP|CD	DATE|DATE|DATE	2004-07-08|2004-07-08|2004-07-08	8.0	2004-07-08	2004.0		
+34	5	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+34	6	fb:cell.flamengo	Flamengo	flamengo	Flamengo	NNP	LOCATION						
+35	0	fb:cell.ricardo_oliveira	Ricardo Oliveira	ricardo|oliveira	Ricardo|Oliveira	NNP|NNP	PERSON|PERSON	|					
+35	1	fb:cell.ricardo_oliveira	Ricardo Oliveira	ricardo|oliveira	Ricardo|Oliveira	NNP|NNP	PERSON|PERSON	|					
+35	2	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+35	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+35	4	fb:cell.8_july_2004	8 July 2004	8|july|2004	8|July|2004	CD|NNP|CD	DATE|DATE|DATE	2004-07-08|2004-07-08|2004-07-08	8.0	2004-07-08	2004.0		
+35	5	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+35	6	fb:cell.valencia_fc	Valencia FC	valencia|fc	Valencia|FC	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+36	0	fb:cell.dudu_cearense	Dudu Cearense	dudu|cearense	Dudu|Cearense	NNP|NNP	PERSON|PERSON	|					
+36	1	fb:cell.alexandro_silva_de_sousa	Alexandro Silva de Sousa	alexandro|silva|de|sousa	Alexandro|Silva|de|Sousa	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+36	2	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+36	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+36	4	fb:cell.8_july_2004	8 July 2004	8|july|2004	8|July|2004	CD|NNP|CD	DATE|DATE|DATE	2004-07-08|2004-07-08|2004-07-08	8.0	2004-07-08	2004.0		
+36	5	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+36	6	fb:cell.vitoria	Vitoria	vitoria	Vitoria	NNP	LOCATION						
+37	0	fb:cell.gustavo_nery	Gustavo Nery	gustavo|nery	Gustavo|Nery	NNP|NNP	PERSON|PERSON	|					
+37	1	fb:cell.gustavo_nery_de_sa_da_silva	Gustavo Nery de Sá da Silva	gustavo|nery|de|sá|da|silva	Gustavo|Nery|de|Sá|da|Silva	NNP|NNP|IN|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	|||||					
+37	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+37	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+37	4	fb:cell.8_july_2004	8 July 2004	8|july|2004	8|July|2004	CD|NNP|CD	DATE|DATE|DATE	2004-07-08|2004-07-08|2004-07-08	8.0	2004-07-08	2004.0		
+37	5	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+37	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+38	0	fb:cell.vagner_love	Vagner Love	vagner|love	Vagner|Love	NNP|NNP	PERSON|PERSON	|					
+38	1	fb:cell.vagner_silva_de_souza	Vágner Silva de Souza	vágner|silva|de|souza	Vágner|Silva|de|Souza	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+38	2	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+38	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+38	4	fb:cell.11_july_2004	11 July 2004	11|july|2004	11|July|2004	CD|NNP|CD	DATE|DATE|DATE	2004-07-11|2004-07-11|2004-07-11	11.0	2004-07-11	2004.0		
+38	5	fb:cell.costa_rica	Costa Rica	costa|rica	Costa|Rica	NNP|NNP	LOCATION|LOCATION	|					
+38	6	fb:cell.palmeiras	Palmeiras	palmeiras	Palmeiras	NNP	LOCATION						
+39	0	fb:cell.elano	Elano	elano	elano	NN	PERSON						
+39	1	fb:cell.elano_ralph_blumer	Elano Ralph Blumer	elano|ralph|blumer	Elano|Ralph|Blumer	NNP|NNP|NNP	O|PERSON|PERSON	||					
+39	2	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+39	3	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+39	4	fb:cell.13_october_2004	13 October 2004	13|october|2004	13|October|2004	CD|NNP|CD	DATE|DATE|DATE	2004-10-13|2004-10-13|2004-10-13	13.0	2004-10-13	2004.0		
+39	5	fb:cell.colombia	Colombia	colombia	Colombia	NNP	LOCATION						
+39	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+40	0	fb:cell.fred	Fred	fred	Fred	NNP	PERSON						
+40	1	fb:cell.frederico_chaves_guedes	Frederico Chaves Guedes	frederico|chaves|guedes	Frederico|Chaves|Guedes	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+40	2	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+40	3	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+40	4	fb:cell.27_april_2005	27 April 2005	27|april|2005	27|April|2005	CD|NNP|CD	DATE|DATE|DATE	2005-04-27|2005-04-27|2005-04-27	27.0	2005-04-27	2005.0		
+40	5	fb:cell.guatemala	Guatemala	guatemala	Guatemala	NNP	LOCATION						
+40	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+41	0	fb:cell.cicinho	Cicinho	cicinho	Cicinho	NNP	O						
+41	1	fb:cell.cicero_joao_de_cezare	Cícero João de Cézare	cícero|joão|de|cézare	Cícero|João|de|Cézare	NNP|NNP|IN|NNP	O|O|O|O	|||					
+41	2	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+41	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+41	4	fb:cell.27_april_2005	27 April 2005	27|april|2005	27|April|2005	CD|NNP|CD	DATE|DATE|DATE	2005-04-27|2005-04-27|2005-04-27	27.0	2005-04-27	2005.0		
+41	5	fb:cell.guatemala	Guatemala	guatemala	Guatemala	NNP	LOCATION						
+41	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+42	0	fb:cell.grafite	Grafite	grafite	grafite	NN	PERSON						
+42	1	fb:cell.edinaldo_batista_libanio	Edinaldo Batista Libânio	edinaldo|batista|libânio	Edinaldo|Batista|Libânio	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+42	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+42	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+42	4	fb:cell.27_april_2005	27 April 2005	27|april|2005	27|April|2005	CD|NNP|CD	DATE|DATE|DATE	2005-04-27|2005-04-27|2005-04-27	27.0	2005-04-27	2005.0		
+42	5	fb:cell.guatemala	Guatemala	guatemala	Guatemala	NNP	LOCATION						
+42	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+43	0	fb:cell.daniel_carvalho	Daniel Carvalho	daniel|carvalho	Daniel|Carvalho	NNP|NNP	PERSON|PERSON	|					
+43	1	fb:cell.daniel_da_silva_carvalho	Daniel da Silva Carvalho	daniel|da|silva|carvalho	Daniel|da|Silva|Carvalho	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+43	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+43	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+43	4	fb:cell.16_august_2006	16 August 2006	16|august|2006	16|August|2006	CD|NNP|CD	DATE|DATE|DATE	2006-08-16|2006-08-16|2006-08-16	16.0	2006-08-16	2006.0		
+43	5	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+43	6	fb:cell.cska_moscow	CSKA Moscow	cska|moscow	CSKA|Moscow	NNP|NNP	ORGANIZATION|LOCATION	|					
+44	0	fb:cell.rafael_sobis	Rafael Sóbis	rafael|sóbis	Rafael|Sóbis	NNP|NNP	PERSON|PERSON	|					
+44	1	fb:cell.rafael_augusto_sobis_do_nascimento	Rafael Augusto Sóbis do Nascimento	rafael|augusto|sóbis|do|nascimento	Rafael|Augusto|Sóbis|do|Nascimento	NNP|NNP|NNP|VBD-AUX|NNP	PERSON|PERSON|PERSON|O|O	||||					
+44	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+44	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+44	4	fb:cell.3_september_2006	3 September 2006	3|september|2006	3|September|2006	CD|NNP|CD	DATE|DATE|DATE	2006-09-03|2006-09-03|2006-09-03	3.0	2006-09-03	2006.0		
+44	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+44	6	fb:cell.betis_sevilla	Betis Sevilla	betis|sevilla	Betis|Sevilla	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+45	0	fb:cell.marcelo	Marcelo	marcelo	Marcelo	NNP	PERSON						
+45	1	fb:cell.marcelo_vieira_da_silva_junior	Marcelo Vieira da Silva Júnior	marcelo|vieira|da|silva|júnior	Marcelo|Vieira|da|Silva|Júnior	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||					
+45	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+45	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+45	4	fb:cell.5_september_2006	5 September 2006	5|september|2006	5|September|2006	CD|NNP|CD	DATE|DATE|DATE	2006-09-05|2006-09-05|2006-09-05	5.0	2006-09-05	2006.0		
+45	5	fb:cell.wales	Wales	wales	Wales	NNP	LOCATION						
+45	6	fb:cell.fluminense	Fluminense	fluminense	Fluminense	NNP	LOCATION						
+46	0	fb:cell.daniel_alves	Daniel Alves	daniel|alves	Daniel|Alves	NNP|NNP	PERSON|PERSON	|					
+46	1	fb:cell.daniel_alves_da_silva	Daniel Alves da Silva	daniel|alves|da|silva	Daniel|Alves|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+46	2	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+46	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+46	4	fb:cell.10_october_2006	10 October 2006	10|october|2006	10|October|2006	CD|NNP|CD	DATE|DATE|DATE	2006-10-10|2006-10-10|2006-10-10	10.0	2006-10-10	2006.0		
+46	5	fb:cell.ecuador	Ecuador	ecuador	Ecuador	NNP	LOCATION						
+46	6	fb:cell.sevilla_fc	Sevilla FC	sevilla|fc	Sevilla|FC	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+47	0	fb:cell.fernando	Fernando	fernando	Fernando	NNP	PERSON						
+47	1	fb:cell.fernando_menegazzo	Fernando Menegazzo	fernando|menegazzo	Fernando|Menegazzo	NNP|NNP	PERSON|PERSON	|					
+47	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+47	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+47	4	fb:cell.15_november_2006	15 November 2006	15|november|2006	15|November|2006	CD|NNP|CD	DATE|DATE|DATE	2006-11-15|2006-11-15|2006-11-15	15.0	2006-11-15	2006.0		
+47	5	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION						
+47	6	fb:cell.bordeaux	Bordeaux	bordeaux	Bordeaux	NNP	LOCATION						
+48	0	fb:cell.helton	Helton	helton	Helton	NNP	PERSON						
+48	1	fb:cell.helton_da_silva_arruda	Helton da Silva Arruda	helton|da|silva|arruda	Helton|da|Silva|Arruda	NNP|NNP|NNP|NNP	PERSON|O|PERSON|PERSON	|||					
+48	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+48	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+48	4	fb:cell.15_november_2006	15 November 2006	15|november|2006	15|November|2006	CD|NNP|CD	DATE|DATE|DATE	2006-11-15|2006-11-15|2006-11-15	15.0	2006-11-15	2006.0		
+48	5	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION						
+48	6	fb:cell.fc_porto	FC Porto	fc|porto	FC|Porto	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+49	0	fb:cell.josue	Josué	josué	Josué	NNP	PERSON						
+49	1	fb:cell.josue_anunciado_de_oliveira	Josué Anunciado de Oliveira	josué|anunciado|de|oliveira	Josué|Anunciado|de|Oliveira	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+49	2	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+49	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+49	4	fb:cell.27_march_2007	27 March 2007	27|march|2007	27|March|2007	CD|NNP|CD	DATE|DATE|DATE	2007-03-27|2007-03-27|2007-03-27	27.0	2007-03-27	2007.0		
+49	5	fb:cell.ghana	Ghana	ghana	Ghana	NNP	LOCATION						
+49	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+50	0	fb:cell.ilsinho	Ilsinho	ilsinho	ilsinho	NN	O						
+50	1	fb:cell.ilson_pereira_dias_junior	Ilson Pereira Dias Júnior	ilson|pereira|dias|júnior	Ilson|Pereira|Dias|Júnior	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+50	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+50	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+50	4	fb:cell.27_march_2007	27 March 2007	27|march|2007	27|March|2007	CD|NNP|CD	DATE|DATE|DATE	2007-03-27|2007-03-27|2007-03-27	27.0	2007-03-27	2007.0		
+50	5	fb:cell.ghana	Ghana	ghana	Ghana	NNP	LOCATION						
+50	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+51	0	fb:cell.anderson	Anderson	anderson	Anderson	NNP	PERSON						
+51	1	fb:cell.anderson_luis_de_abreu_oliveira	Anderson Luís de Abreu Oliveira	anderson|luís|de|abreu|oliveira	Anderson|Luís|de|Abreu|Oliveira	NNP|NNP|IN|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+51	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+51	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+51	4	fb:cell.27_june_2007	27 June 2007	27|june|2007	27|June|2007	CD|NNP|CD	DATE|DATE|DATE	2007-06-27|2007-06-27|2007-06-27	27.0	2007-06-27	2007.0		
+51	5	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+51	6	fb:cell.fc_porto	FC Porto	fc|porto	FC|Porto	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+52	0	fb:cell.afonso_alves	Afonso Alves	afonso|alves	Afonso|Alves	NNP|NNP	PERSON|PERSON	|					
+52	1	fb:cell.afonso_alves_martins_junior	Afonso Alves Martins Júnior	afonso|alves|martins|júnior	Afonso|Alves|Martins|Júnior	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+52	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+52	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+52	4	fb:cell.1_june_2007	1 June 2007	1|june|2007	1|June|2007	CD|NNP|CD	DATE|DATE|DATE	2007-06-01|2007-06-01|2007-06-01	1.0	2007-06-01	2007.0		
+52	5	fb:cell.england	England	england	England	NNP	LOCATION						
+52	6	fb:cell.sc_heerenveen	sc Heerenveen	sc|heerenveen	sc|heerenveen	NN|NN	O|O	|					
+53	0	fb:cell.naldo	Naldo	naldo	naldo	NN	PERSON						
+53	1	fb:cell.ronaldo_aparecido_rodrigues	Ronaldo Aparecido Rodrigues	ronaldo|aparecido|rodrigues	Ronaldo|Aparecido|Rodrigues	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+53	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+53	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+53	4	fb:cell.1_june_2007	1 June 2007	1|june|2007	1|June|2007	CD|NNP|CD	DATE|DATE|DATE	2007-06-01|2007-06-01|2007-06-01	1.0	2007-06-01	2007.0		
+53	5	fb:cell.england	England	england	England	NNP	LOCATION						
+53	6	fb:cell.werder_bremen	Werder Bremen	werder|bremen	Werder|Bremen	NNP|NNP	PERSON|PERSON	|					
+54	0	fb:cell.doni	Doni	doni	Doni	NNP	PERSON						
+54	1	fb:cell.donieber_alexander_marangon	Doniéber Alexander Marangon	doniéber|alexander|marangon	Doniéber|Alexander|Marangon	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+54	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+54	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+54	4	fb:cell.5_june_2007	5 June 2007	5|june|2007	5|June|2007	CD|NNP|CD	DATE|DATE|DATE	2007-06-05|2007-06-05|2007-06-05	5.0	2007-06-05	2007.0		
+54	5	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+54	6	fb:cell.as_roma	AS Roma	as|roma	as|roma	JJ|NN	O|ORGANIZATION	|					
+55	0	fb:cell.jo	Jô	jô	jô	NN	O						
+55	1	fb:cell.joao_alves_de_assis_silva	João Alves de Assis Silva	joão|alves|de|assis|silva	João|Alves|de|Assis|Silva	NNP|NNP|IN|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+55	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+55	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+55	4	fb:cell.5_june_2007	5 June 2007	5|june|2007	5|June|2007	CD|NNP|CD	DATE|DATE|DATE	2007-06-05|2007-06-05|2007-06-05	5.0	2007-06-05	2007.0		
+55	5	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+55	6	fb:cell.cska_moscow	CSKA Moscow	cska|moscow	CSKA|Moscow	NNP|NNP	ORGANIZATION|LOCATION	|					
+56	0	fb:cell.alex_silva	Alex Silva	alex|silva	Alex|Silva	NNP|NNP	PERSON|PERSON	|					
+56	1	fb:cell.alex_sandro_da_silva	Alex Sandro da Silva	alex|sandro|da|silva	Alex|Sandro|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+56	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+56	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+56	4	fb:cell.4_july_2007	4 July 2007	4|july|2007	4|July|2007	CD|NNP|CD	DATE|DATE|DATE	2007-07-04|2007-07-04|2007-07-04	4.0	2007-07-04	2007.0		
+56	5	fb:cell.ecuador	Ecuador	ecuador	Ecuador	NNP	LOCATION						
+56	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+57	0	fb:cell.lucas_leiva	Lucas Leiva	lucas|leiva	Lucas|Leiva	NNP|NNP	PERSON|PERSON	|					
+57	1	fb:cell.lucas_pezzini_leiva	Lucas Pezzini Leiva	lucas|pezzini|leiva	Lucas|Pezzini|Leiva	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+57	2	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+57	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+57	4	fb:cell.22_august_2007	22 August 2007	22|august|2007	22|August|2007	CD|NNP|CD	DATE|DATE|DATE	2007-08-22|2007-08-22|2007-08-22	22.0	2007-08-22	2007.0		
+57	5	fb:cell.algeria	Algeria	algeria	Algeria	NNP	LOCATION						
+57	6	fb:cell.gremio	Grêmio	grêmio	Grêmio	NNP	PERSON						
+58	0	fb:cell.richarlyson	Richarlyson	richarlyson	richarlyson	NN	PERSON						
+58	1	fb:cell.richarlyson_barbosa_felisbino	Richarlyson Barbosa Felisbino	richarlyson|barbosa|felisbino	Richarlyson|Barbosa|Felisbino	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+58	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+58	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+58	4	fb:cell.6_february_2008	6 February 2008	6|february|2008	6|February|2008	CD|NNP|CD	DATE|DATE|DATE	2008-02-06|2008-02-06|2008-02-06	6.0	2008-02-06	2008.0		
+58	5	fb:cell.republic_of_ireland	Republic of Ireland	republic|of|ireland	Republic|of|Ireland	NNP|IN|NNP	O|O|LOCATION	||					
+58	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+59	0	fb:cell.leonardo_moura	Leonardo Moura	leonardo|moura	Leonardo|Moura	NNP|NNP	PERSON|PERSON	|					
+59	1	fb:cell.leonardo_da_silva_moura	Leonardo da Silva Moura	leonardo|da|silva|moura	Leonardo|da|Silva|Moura	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+59	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+59	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+59	4	fb:cell.6_february_2008	6 February 2008	6|february|2008	6|February|2008	CD|NNP|CD	DATE|DATE|DATE	2008-02-06|2008-02-06|2008-02-06	6.0	2008-02-06	2008.0		
+59	5	fb:cell.republic_of_ireland	Republic of Ireland	republic|of|ireland	Republic|of|Ireland	NNP|IN|NNP	O|O|LOCATION	||					
+59	6	fb:cell.flamengo	Flamengo	flamengo	Flamengo	NNP	LOCATION						
+60	0	fb:cell.alexandre_pato	Alexandre Pato	alexandre|pato	Alexandre|Pato	NNP|NNP	PERSON|PERSON	|					
+60	1	fb:cell.alexandre_rodrigues_da_silva	Alexandre Rodrigues da Silva	alexandre|rodrigues|da|silva	Alexandre|Rodrigues|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+60	2	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+60	3	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+60	4	fb:cell.26_march_2008	26 March 2008	26|march|2008	26|March|2008	CD|NNP|CD	DATE|DATE|DATE	2008-03-26|2008-03-26|2008-03-26	26.0	2008-03-26	2008.0		
+60	5	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+60	6	fb:cell.ac_milan	AC Milan	ac|milan	ac|Milan	NN|NNP	ORGANIZATION|ORGANIZATION	|					
+61	0	fb:cell.hernanes	Hernanes	hernanes	hernane	NNS	O						
+61	1	fb:cell.anderson_hernanes_de_carvalho_andrade_lima	Anderson Hernanes de Carvalho Andrade Lima	anderson|hernanes|de|carvalho|andrade|lima	Anderson|Hernanes|de|Carvalho|Andrade|Lima	NNP|NNP|IN|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	|||||					
+61	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+61	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+61	4	fb:cell.26_march_2008	26 March 2008	26|march|2008	26|March|2008	CD|NNP|CD	DATE|DATE|DATE	2008-03-26|2008-03-26|2008-03-26	26.0	2008-03-26	2008.0		
+61	5	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+61	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+62	0	fb:cell.thiago_neves	Thiago Neves	thiago|neves	Thiago|Neves	NNP|NNP	PERSON|PERSON	|					
+62	1	fb:cell.thiago_neves_augusto	Thiago Neves Augusto	thiago|neves|augusto	Thiago|Neves|Augusto	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+62	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+62	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+62	4	fb:cell.26_march_2008	26 March 2008	26|march|2008	26|March|2008	CD|NNP|CD	DATE|DATE|DATE	2008-03-26|2008-03-26|2008-03-26	26.0	2008-03-26	2008.0		
+62	5	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+62	6	fb:cell.fluminense	Fluminense	fluminense	Fluminense	NNP	LOCATION						
+63	0	fb:cell.rafinha	Rafinha	rafinha	rafinha	NN	PERSON						
+63	1	fb:cell.marcio_rafael_ferreira_de_souza	Márcio Rafael Ferreira de Souza	márcio|rafael|ferreira|de|souza	Márcio|Rafael|Ferreira|de|Souza	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+63	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+63	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+63	4	fb:cell.26_march_2008	26 March 2008	26|march|2008	26|March|2008	CD|NNP|CD	DATE|DATE|DATE	2008-03-26|2008-03-26|2008-03-26	26.0	2008-03-26	2008.0		
+63	5	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+63	6	fb:cell.schalke_04	Schalke 04	schalke|04	Schalke|04	NNP|CD	ORGANIZATION|NUMBER	|4.0	4.0				
+64	0	fb:cell.henrique	Henrique	henrique	Henrique	NNP	PERSON						
+64	1	fb:cell.henrique_adriano_buss	Henrique Adriano Buss	henrique|adriano|buss	Henrique|Adriano|Buss	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+64	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+64	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+64	4	fb:cell.6_june_2008	6 June 2008	6|june|2008	6|June|2008	CD|NNP|CD	DATE|DATE|DATE	2008-06-06|2008-06-06|2008-06-06	6.0	2008-06-06	2008.0		
+64	5	fb:cell.wales	Wales	wales	Wales	NNP	LOCATION						
+64	6	fb:cell.palmeiras	Palmeiras	palmeiras	Palmeiras	NNP	LOCATION						
+65	0	fb:cell.thiago_silva	Thiago Silva	thiago|silva	Thiago|Silva	NNP|NNP	PERSON|PERSON	|					
+65	1	fb:cell.thiago_emiliano_da_silva	Thiago Emiliano da Silva	thiago|emiliano|da|silva	Thiago|Emiliano|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+65	2	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+65	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+65	4	fb:cell.12_october_2008	12 October 2008	12|october|2008	12|October|2008	CD|NNP|CD	DATE|DATE|DATE	2008-10-12|2008-10-12|2008-10-12	12.0	2008-10-12	2008.0		
+65	5	fb:cell.venezuela	Venezuela	venezuela	Venezuela	NNP	LOCATION						
+65	6	fb:cell.fluminense	Fluminense	fluminense	Fluminense	NNP	LOCATION						
+66	0	fb:cell.alex	Alex	alex	Alex	NNP	PERSON						
+66	1	fb:cell.alexandre_raphael_meschini	Alexandre Raphael Meschini	alexandre|raphael|meschini	Alexandre|Raphael|Meschini	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+66	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+66	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+66	4	fb:cell.12_october_2008	12 October 2008	12|october|2008	12|October|2008	CD|NNP|CD	DATE|DATE|DATE	2008-10-12|2008-10-12|2008-10-12	12.0	2008-10-12	2008.0		
+66	5	fb:cell.venezuela	Venezuela	venezuela	Venezuela	NNP	LOCATION						
+66	6	fb:cell.internacional	Internacional	internacional	Internacional	NNP	O						
+67	0	fb:cell.felipe_melo	Felipe Melo	felipe|melo	Felipe|Melo	NNP|NNP	PERSON|PERSON	|					
+67	1	fb:cell.felipe_melo_de_carvalho	Felipe Melo de Carvalho	felipe|melo|de|carvalho	Felipe|Melo|de|Carvalho	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+67	2	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+67	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+67	4	fb:cell.10_february_2009	10 February 2009	10|february|2009	10|February|2009	CD|NNP|CD	DATE|DATE|DATE	2009-02-10|2009-02-10|2009-02-10	10.0	2009-02-10	2009.0		
+67	5	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+67	6	fb:cell.fiorentina	Fiorentina	fiorentina	Fiorentina	NNP	ORGANIZATION						
+68	0	fb:cell.joao_miranda	Joao Miranda	joao|miranda	Joao|Miranda	NNP|NNP	PERSON|PERSON	|					
+68	1	fb:cell.joao_miranda_de_souza_filho	João Miranda de Souza Filho	joão|miranda|de|souza|filho	João|Miranda|de|Souza|Filho	NNP|NNP|IN|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+68	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+68	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+68	4	fb:cell.1_april_2009	1 April 2009	1|april|2009	1|April|2009	CD|NNP|CD	DATE|DATE|DATE	2009-04-01|2009-04-01|2009-04-01	1.0	2009-04-01	2009.0		
+68	5	fb:cell.peru	Peru	peru	Peru	NNP	LOCATION						
+68	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+69	0	fb:cell.ramires	Ramires	ramires	Ramires	NNP	PERSON						
+69	1	fb:cell.ramires_santos_do_nascimento	Ramires Santos do Nascimento	ramires|santos|do|nascimento	Ramires|Santos|do|Nascimento	NNP|NNP|VBD-AUX|NNP	PERSON|PERSON|O|O	|||					
+69	2	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+69	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+69	4	fb:cell.6_june_2009	6 June 2009	6|june|2009	6|June|2009	CD|NNP|CD	DATE|DATE|DATE	2009-06-06|2009-06-06|2009-06-06	6.0	2009-06-06	2009.0		
+69	5	fb:cell.uruguay	Uruguay	uruguay	Uruguay	NNP	LOCATION						
+69	6	fb:cell.cruzeiro	Cruzeiro	cruzeiro	Cruzeiro	NNP	LOCATION						
+70	0	fb:cell.andre_santos	André Santos	andré|santos	André|Santos	NNP|NNP	PERSON|PERSON	|					
+70	1	fb:cell.andre_clarindo_dos_santos	André Clarindo dos Santos	andré|clarindo|dos|santos	André|Clarindo|do|Santos	NNP|NNP|VBZ|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+70	2	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+70	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+70	4	fb:cell.15_june_2009	15 June 2009	15|june|2009	15|June|2009	CD|NNP|CD	DATE|DATE|DATE	2009-06-15|2009-06-15|2009-06-15	15.0	2009-06-15	2009.0		
+70	5	fb:cell.egypt	Egypt	egypt	Egypt	NNP	LOCATION						
+70	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+71	0	fb:cell.diego_tardelli	Diego Tardelli	diego|tardelli	Diego|Tardelli	NNP|NNP	PERSON|PERSON	|					
+71	1	fb:cell.diego_tardelli_martins	Diego Tardelli Martins	diego|tardelli|martins	diego|Tardelli|Martins	JJ|NNP|NNP	PERSON|PERSON|PERSON	||					
+71	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+71	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+71	4	fb:cell.12_august_2009	12 August 2009	12|august|2009	12|August|2009	CD|NNP|CD	DATE|DATE|DATE	2009-08-12|2009-08-12|2009-08-12	12.0	2009-08-12	2009.0		
+71	5	fb:cell.estonia	Estonia	estonia	Estonia	NNP	LOCATION						
+71	6	fb:cell.atletico_mineiro	Atletico Mineiro	atletico|mineiro	Atletico|Mineiro	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+72	0	fb:cell.sandro	Sandro	sandro	Sandro	NNP	PERSON						
+72	1	fb:cell.sandro_raniere_guimaraes_cordeiro	Sandro Raniere Guimarães Cordeiro	sandro|raniere|guimarães|cordeiro	Sandro|Raniere|Guimarães|Cordeiro	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+72	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+72	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+72	4	fb:cell.9_september_2009	9 September 2009	9|september|2009	9|September|2009	CD|NNP|CD	DATE|DATE|DATE	2009-09-09|2009-09-09|2009-09-09	9.0	2009-09-09	2009.0		
+72	5	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+72	6	fb:cell.internacional	Internacional	internacional	Internacional	NNP	O						
+73	0	fb:cell.diego_souza	Diego Souza	diego|souza	diego|Souza	JJ|NNP	PERSON|PERSON	|					
+73	1	fb:cell.diego_de_souza_andrade	Diego de Souza Andrade	diego|de|souza|andrade	Diego|de|Souza|Andrade	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+73	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+73	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+73	4	fb:cell.11_october_2009	11 October 2009	11|october|2009	11|October|2009	CD|NNP|CD	DATE|DATE|DATE	2009-10-11|2009-10-11|2009-10-11	11.0	2009-10-11	2009.0		
+73	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+73	6	fb:cell.palmeiras	Palmeiras	palmeiras	Palmeiras	NNP	LOCATION						
+74	0	fb:cell.filipe_luis	Filipe Luis	filipe|luis	Filipe|Luis	NNP|NNP	PERSON|PERSON	|					
+74	1	fb:cell.filipe_luis_kasmirski	Filipe Luís Kasmirski	filipe|luís|kasmirski	Filipe|Luís|Kasmirski	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+74	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+74	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+74	4	fb:cell.14_october_2009	14 October 2009	14|october|2009	14|October|2009	CD|NNP|CD	DATE|DATE|DATE	2009-10-14|2009-10-14|2009-10-14	14.0	2009-10-14	2009.0		
+74	5	fb:cell.venezuela	Venezuela	venezuela	Venezuela	NNP	LOCATION						
+74	6	fb:cell.deportivo_de_la_coruna	Deportivo de La Coruña	deportivo|de|la|coruña	Deportivo|de|La|Coruña	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+75	0	fb:cell.hulk	Hulk	hulk	hulk	NN	O						
+75	1	fb:cell.givanildo_vieira_de_souza	Givanildo Vieira de Souza	givanildo|vieira|de|souza	Givanildo|Vieira|de|Souza	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+75	2	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+75	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+75	4	fb:cell.14_november_2009	14 November 2009	14|november|2009	14|November|2009	CD|NNP|CD	DATE|DATE|DATE	2009-11-14|2009-11-14|2009-11-14	14.0	2009-11-14	2009.0		
+75	5	fb:cell.england	England	england	England	NNP	LOCATION						
+75	6	fb:cell.fc_porto	FC Porto	fc|porto	FC|Porto	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+76	0	fb:cell.michel_bastos	Michel Bastos	michel|bastos	Michel|Bastos	NNP|NNP	PERSON|PERSON	|					
+76	1	fb:cell.michel_fernandes_bastos	Michel Fernandes Bastos	michel|fernandes|bastos	Michel|Fernandes|Bastos	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+76	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+76	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+76	4	fb:cell.14_november_2009	14 November 2009	14|november|2009	14|November|2009	CD|NNP|CD	DATE|DATE|DATE	2009-11-14|2009-11-14|2009-11-14	14.0	2009-11-14	2009.0		
+76	5	fb:cell.england	England	england	England	NNP	LOCATION						
+76	6	fb:cell.lyon	Lyon	lyon	Lyon	NNP	LOCATION						
+77	0	fb:cell.carlos_eduardo	Carlos Eduardo	carlos|eduardo	Carlos|Eduardo	NNP|NNP	PERSON|PERSON	|					
+77	1	fb:cell.carlos_eduardo_marques	Carlos Eduardo Marques	carlos|eduardo|marques	Carlos|Eduardo|Marques	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+77	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+77	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+77	4	fb:cell.14_november_2009	14 November 2009	14|november|2009	14|November|2009	CD|NNP|CD	DATE|DATE|DATE	2009-11-14|2009-11-14|2009-11-14	14.0	2009-11-14	2009.0		
+77	5	fb:cell.england	England	england	England	NNP	LOCATION						
+77	6	fb:cell.hoffenheim	Hoffenheim	hoffenheim	Hoffenheim	NNP	PERSON						
+78	0	fb:cell.fabio_simplicio	Fábio Simplício	fábio|simplício	Fábio|Simplício	NNP|NNP	PERSON|PERSON	|					
+78	1	fb:cell.fabio_henrique_simplicio	Fábio Henrique Simplício	fábio|henrique|simplício	Fábio|Henrique|Simplício	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+78	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+78	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+78	4	fb:cell.17_november_2009	17 November 2009	17|november|2009	17|November|2009	CD|NNP|CD	DATE|DATE|DATE	2009-11-17|2009-11-17|2009-11-17	17.0	2009-11-17	2009.0		
+78	5	fb:cell.oman	Oman	oman	Oman	NNP	LOCATION						
+78	6	fb:cell.palermo	Palermo	palermo	Palermo	NNP	LOCATION						
+79	0	fb:cell.neymar	Neymar	neymar	Neymar	NNP	O						
+79	1	fb:cell.neymar_da_silva_santos_junior	Neymar da Silva Santos Júnior	neymar|da|silva|santos|júnior	Neymar|da|Silva|Santos|Júnior	NNP|NNP|NNP|NNP|NNP	O|O|PERSON|PERSON|PERSON	||||					
+79	2	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+79	3	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+79	4	fb:cell.10_august_2010	10 August 2010	10|august|2010	10|August|2010	CD|NNP|CD	DATE|DATE|DATE	2010-08-10|2010-08-10|2010-08-10	10.0	2010-08-10	2010.0		
+79	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+79	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+80	0	fb:cell.david_luiz	David Luiz	david|luiz	David|Luiz	NNP|NNP	PERSON|PERSON	|					
+80	1	fb:cell.david_luiz_moreira_marinho	David Luiz Moreira Marinho	david|luiz|moreira|marinho	David|Luiz|Moreira|Marinho	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+80	2	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+80	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+80	4	fb:cell.10_august_2010	10 August 2010	10|august|2010	10|August|2010	CD|NNP|CD	DATE|DATE|DATE	2010-08-10|2010-08-10|2010-08-10	10.0	2010-08-10	2010.0		
+80	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+80	6	fb:cell.benfica	Benfica	benfica	Benfica	NNP	LOCATION						
+81	0	fb:cell.ganso	Ganso	ganso	ganso	NN	PERSON						
+81	1	fb:cell.paulo_henrique_chagas_de_lima	Paulo Henrique Chagas de Lima	paulo|henrique|chagas|de|lima	Paulo|Henrique|Chagas|de|Lima	NNP|NNP|NNP|IN|NNP	O|O|O|O|LOCATION	||||					
+81	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+81	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+81	4	fb:cell.10_august_2010	10 August 2010	10|august|2010	10|August|2010	CD|NNP|CD	DATE|DATE|DATE	2010-08-10|2010-08-10|2010-08-10	10.0	2010-08-10	2010.0		
+81	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+81	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+82	0	fb:cell.victor	Victor	victor	Victor	NNP	PERSON						
+82	1	fb:cell.victor_leandro_bagy	Victor Leandro Bagy	victor|leandro|bagy	Victor|Leandro|Bagy	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+82	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+82	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+82	4	fb:cell.10_august_2010	10 August 2010	10|august|2010	10|August|2010	CD|NNP|CD	DATE|DATE|DATE	2010-08-10|2010-08-10|2010-08-10	10.0	2010-08-10	2010.0		
+82	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+82	6	fb:cell.gremio	Grêmio	grêmio	Grêmio	NNP	PERSON						
+83	0	fb:cell.andre	André	andré	André	NNP	PERSON						
+83	1	fb:cell.andre_felipe_ribeiro_de_souza	André Felipe Ribeiro de Souza	andré|felipe|ribeiro|de|souza	André|Felipe|Ribeiro|de|Souza	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+83	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+83	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+83	4	fb:cell.10_august_2010	10 August 2010	10|august|2010	10|August|2010	CD|NNP|CD	DATE|DATE|DATE	2010-08-10|2010-08-10|2010-08-10	10.0	2010-08-10	2010.0		
+83	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+83	6	fb:cell.dynamo_kyiv	Dynamo Kyiv	dynamo|kyiv	Dynamo|Kyiv	NNP|NNP	O|O	|					
+84	0	fb:cell.jucilei	Jucilei	jucilei	jucileus	NN	PERSON						
+84	1	fb:cell.jucilei_da_silva	Jucilei da Silva	jucilei|da|silva	Jucilei|da|Silva	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+84	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+84	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+84	4	fb:cell.10_august_2010	10 August 2010	10|august|2010	10|August|2010	CD|NNP|CD	DATE|DATE|DATE	2010-08-10|2010-08-10|2010-08-10	10.0	2010-08-10	2010.0		
+84	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+84	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+85	0	fb:cell.ederson	Ederson	ederson	Ederson	NNP	O						
+85	1	fb:cell.ederson_honorato_campos	Ederson Honorato Campos	ederson|honorato|campos	Ederson|Honorato|Campos	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+85	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+85	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+85	4	fb:cell.10_august_2010	10 August 2010	10|august|2010	10|August|2010	CD|NNP|CD	DATE|DATE|DATE	2010-08-10|2010-08-10|2010-08-10	10.0	2010-08-10	2010.0		
+85	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+85	6	fb:cell.lyon	Lyon	lyon	Lyon	NNP	LOCATION						
+86	0	fb:cell.elias	Elías	elías	elías	NNS	O						
+86	1	fb:cell.elias_mendes_trindade	Elías Mendes Trindade	elías|mendes|trindade	Elías|Mendes|Trindade	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+86	2	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+86	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+86	4	fb:cell.3_october_2010	3 October 2010	3|october|2010	3|October|2010	CD|NNP|CD	DATE|DATE|DATE	2010-10-03|2010-10-03|2010-10-03	3.0	2010-10-03	2010.0		
+86	5	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION						
+86	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+87	0	fb:cell.rever	Réver	réver	réver	NN	O						
+87	1	fb:cell.rever_humberto_alves_de_araujo	Réver Humberto Alves de Araújo	réver|humberto|alves|de|araújo	Réver|Humberto|Alves|de|Araújo	NNP|NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+87	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+87	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+87	4	fb:cell.3_october_2010	3 October 2010	3|october|2010	3|October|2010	CD|NNP|CD	DATE|DATE|DATE	2010-10-03|2010-10-03|2010-10-03	3.0	2010-10-03	2010.0		
+87	5	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION						
+87	6	fb:cell.atletico_mineiro	Atletico Mineiro	atletico|mineiro	Atletico|Mineiro	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+88	0	fb:cell.giuliano	Giuliano	giuliano	Giuliano	NNP	PERSON						
+88	1	fb:cell.giuliano_victor_de_paula	Giuliano Victor de Paula	giuliano|victor|de|paula	Giuliano|Victor|de|Paula	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+88	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+88	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+88	4	fb:cell.3_october_2010	3 October 2010	3|october|2010	3|October|2010	CD|NNP|CD	DATE|DATE|DATE	2010-10-03|2010-10-03|2010-10-03	3.0	2010-10-03	2010.0		
+88	5	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION						
+88	6	fb:cell.internacional	Internacional	internacional	Internacional	NNP	O						
+89	0	fb:cell.wesley	Wesley	wesley	Wesley	NNP	PERSON						
+89	1	fb:cell.wesley_lopes_beltrame	Wesley Lopes Beltrame	wesley|lopes|beltrame	Wesley|Lopes|Beltrame	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+89	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+89	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+89	4	fb:cell.3_october_2010	3 October 2010	3|october|2010	3|October|2010	CD|NNP|CD	DATE|DATE|DATE	2010-10-03|2010-10-03|2010-10-03	3.0	2010-10-03	2010.0		
+89	5	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION						
+89	6	fb:cell.werder_bremen	Werder Bremen	werder|bremen	Werder|Bremen	NNP|NNP	PERSON|PERSON	|					
+90	0	fb:cell.coutinho	Coutinho	coutinho	Coutinho	NNP	PERSON						
+90	1	fb:cell.philippe_coutinho_correia	Philippe Coutinho Correia	philippe|coutinho|correia	Philippe|Coutinho|Correia	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+90	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+90	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+90	4	fb:cell.3_october_2010	3 October 2010	3|october|2010	3|October|2010	CD|NNP|CD	DATE|DATE|DATE	2010-10-03|2010-10-03|2010-10-03	3.0	2010-10-03	2010.0		
+90	5	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION						
+90	6	fb:cell.inter_milan	Inter Milan	inter|milan	Inter|Milan	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+91	0	fb:cell.douglas	Douglas	douglas	Douglas	NNP	PERSON						
+91	1	fb:cell.douglas_dos_santos	Douglas dos Santos	douglas|dos|santos	Douglas|do|Santos	NNP|VBZ|NNP	PERSON|PERSON|PERSON	||					
+91	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+91	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+91	4	fb:cell.17_november_2010	17 November 2010	17|november|2010	17|November|2010	CD|NNP|CD	DATE|DATE|DATE	2010-11-17|2010-11-17|2010-11-17	17.0	2010-11-17	2010.0		
+91	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+91	6	fb:cell.gremio	Grêmio	grêmio	Grêmio	NNP	PERSON						
+92	0	fb:cell.jadson	Jádson	jádson	jádson	NN	PERSON						
+92	1	fb:cell.jadson_rodrigues_da_silva	Jádson Rodrigues da Silva	jádson|rodrigues|da|silva	Jádson|Rodrigues|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+92	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+92	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+92	4	fb:cell.9_february_2011	9 February 2011	9|february|2011	9|February|2011	CD|NNP|CD	DATE|DATE|DATE	2011-02-09|2011-02-09|2011-02-09	9.0	2011-02-09	2011.0		
+92	5	fb:cell.france	France	france	France	NNP	LOCATION						
+92	6	fb:cell.shakhtar_donetsk	Shakhtar Donetsk	shakhtar|donetsk	Shakhtar|Donetsk	NNP|NNP	PERSON|PERSON	|					
+93	0	fb:cell.renato_augusto	Renato Augusto	renato|augusto	Renato|Augusto	NNP|NNP	PERSON|PERSON	|					
+93	1	fb:cell.renato_soares_de_oliveira_augusto	Renato Soares de Oliveira Augusto	renato|soares|de|oliveira|augusto	Renato|Soares|de|Oliveira|Augusto	NNP|NNP|IN|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+93	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+93	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+93	4	fb:cell.9_february_2011	9 February 2011	9|february|2011	9|February|2011	CD|NNP|CD	DATE|DATE|DATE	2011-02-09|2011-02-09|2011-02-09	9.0	2011-02-09	2011.0		
+93	5	fb:cell.france	France	france	France	NNP	LOCATION						
+93	6	fb:cell.bayer_leverkusen	Bayer Leverkusen	bayer|leverkusen	Bayer|Leverkusen	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+94	0	fb:cell.lucas	Lucas	lucas	Lucas	NNP	PERSON						
+94	1	fb:cell.lucas_rodrigues_moura_da_silva	Lucas Rodrigues Moura da Silva	lucas|rodrigues|moura|da|silva	Lucas|Rodrigues|Moura|da|Silva	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+94	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+94	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+94	4	fb:cell.27_march_2011	27 March 2011	27|march|2011	27|March|2011	CD|NNP|CD	DATE|DATE|DATE	2011-03-27|2011-03-27|2011-03-27	27.0	2011-03-27	2011.0		
+94	5	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+94	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+95	0	fb:cell.leandro_damiao	Leandro Damião	leandro|damião	Leandro|Damião	NNP|NNP	PERSON|PERSON	|					
+95	1	fb:cell.leandro_damiao_da_silva_dos_santos	Leandro Damião da Silva dos Santos	leandro|damião|da|silva|dos|santos	Leandro|Damião|da|Silva|do|Santos	NNP|NNP|NNP|NNP|VBZ|NNP	PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	|||||					
+95	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+95	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+95	4	fb:cell.27_march_2011	27 March 2011	27|march|2011	27|March|2011	CD|NNP|CD	DATE|DATE|DATE	2011-03-27|2011-03-27|2011-03-27	27.0	2011-03-27	2011.0		
+95	5	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+95	6	fb:cell.internacional	Internacional	internacional	Internacional	NNP	O						
+96	0	fb:cell.jonas	Jonas	jonas	Jonas	NNP	PERSON						
+96	1	fb:cell.jonas_goncalves_oliveira	Jonas Gonçalves Oliveira	jonas|gonçalves|oliveira	Jonas|Gonçalves|Oliveira	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+96	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+96	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+96	4	fb:cell.27_march_2011	27 March 2011	27|march|2011	27|March|2011	CD|NNP|CD	DATE|DATE|DATE	2011-03-27|2011-03-27|2011-03-27	27.0	2011-03-27	2011.0		
+96	5	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+96	6	fb:cell.fc_valencia	FC Valencia	fc|valencia	FC|Valencia	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+97	0	fb:cell.juan_jesus	Juan Jesus	juan|jesus	Juan|Jesus	NNP|NNP	PERSON|PERSON	|					
+97	1	fb:cell.juan_guilherme_nunes_jesus	Juan Guilherme Nunes Jesus	juan|guilherme|nunes|jesus	Juan|Guilherme|Nunes|Jesus	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+97	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+97	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+97	4	fb:cell.26_may_2011	26 May 2011	26|may|2011	26|May|2011	CD|VBD-AUX|CD	DATE|DATE|DATE	2011-05-26|2011-05-26|2011-05-26	26.0	2011-05-26	2011.0		
+97	5	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+97	6	fb:cell.inter_milan	Inter Milan	inter|milan	Inter|Milan	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+98	0	fb:cell.wellington_nem	Wellington Nem	wellington|nem	Wellington|Nem	NNP|NNP	LOCATION|O	|					
+98	1	fb:cell.wellington_nem	Wellington Nem	wellington|nem	Wellington|Nem	NNP|NNP	LOCATION|O	|					
+98	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+98	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+98	4	fb:cell.26_may_2011	26 May 2011	26|may|2011	26|May|2011	CD|VBD-AUX|CD	DATE|DATE|DATE	2011-05-26|2011-05-26|2011-05-26	26.0	2011-05-26	2011.0		
+98	5	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+98	6	fb:cell.fluminense	Fluminense	fluminense	Fluminense	NNP	LOCATION						
+99	0	fb:cell.bruno_uvini	Bruno Uvini	bruno|uvini	Bruno|Uvini	NNP|NNP	PERSON|PERSON	|					
+99	1	fb:cell.bruno_uvini_bortolanca	Bruno Uvini Bortolança	bruno|uvini|bortolança	Bruno|Uvini|Bortolança	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+99	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+99	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+99	4	fb:cell.26_may_2011	26 May 2011	26|may|2011	26|May|2011	CD|VBD-AUX|CD	DATE|DATE|DATE	2011-05-26|2011-05-26|2011-05-26	26.0	2011-05-26	2011.0		
+99	5	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+99	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+100	0	fb:cell.rafael	Rafael	rafael	Rafael	NNP	PERSON						
+100	1	fb:cell.rafael_pereira_da_silva	Rafael Pereira Da Silva	rafael|pereira|da|silva	Rafael|Pereira|da|silva	NNP|NNP|NN|NN	PERSON|PERSON|PERSON|PERSON	|||					
+100	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+100	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+100	4	fb:cell.26_may_2011	26 May 2011	26|may|2011	26|May|2011	CD|VBD-AUX|CD	DATE|DATE|DATE	2011-05-26|2011-05-26|2011-05-26	26.0	2011-05-26	2011.0		
+100	5	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+100	6	fb:cell.manchester_united	Manchester United	manchester|united	Manchester|United	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+101	0	fb:cell.luiz_gustavo	Luiz Gustavo	luiz|gustavo	Luiz|Gustavo	NNP|NNP	PERSON|PERSON	|					
+101	1	fb:cell.luis_gustavo_dias	Luis Gustavo Dias	luis|gustavo|dias	Luis|Gustavo|Dias	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+101	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+101	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+101	4	fb:cell.10_august_2011	10 August 2011	10|august|2011	10|August|2011	CD|NNP|CD	DATE|DATE|DATE	2011-08-10|2011-08-10|2011-08-10	10.0	2011-08-10	2011.0		
+101	5	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+101	6	fb:cell.bayern_munich	Bayern Munich	bayern|munich	Bayern|Munich	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+102	0	fb:cell.ralf	Ralf	ralf	ralf	NN	PERSON						
+102	1	fb:cell.ralf_de_souza_teles	Ralf de Souza Teles	ralf|de|souza|teles	Ralf|de|Souza|Teles	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+102	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+102	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+102	4	fb:cell.10_august_2011	10 August 2011	10|august|2011	10|August|2011	CD|NNP|CD	DATE|DATE|DATE	2011-08-10|2011-08-10|2011-08-10	10.0	2011-08-10	2011.0		
+102	5	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+102	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+103	0	fb:cell.fernandinho	Fernandinho	fernandinho	Fernandinho	NNP	O						
+103	1	fb:cell.fernando_luiz_rosa	Fernando Luiz Rosa	fernando|luiz|rosa	Fernando|Luiz|Rosa	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+103	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+103	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+103	4	fb:cell.10_august_2011	10 August 2011	10|august|2011	10|August|2011	CD|NNP|CD	DATE|DATE|DATE	2011-08-10|2011-08-10|2011-08-10	10.0	2011-08-10	2011.0		
+103	5	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+103	6	fb:cell.shakhtar_donetsk	Shakhtar Donetsk	shakhtar|donetsk	Shakhtar|Donetsk	NNP|NNP	PERSON|PERSON	|					
+104	0	fb:cell.arouca	Arouca	arouca	Arouca	NNP	PERSON						
+104	1	fb:cell.marcos_arouca_da_silva	Marcos Arouca da Silva	marcos|arouca|da|silva	Marcos|Arouca|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+104	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+104	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+104	4	fb:cell.7_september_2011	7 September 2011	7|september|2011	7|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-07|2011-09-07|2011-09-07	7.0	2011-09-07	2011.0		
+104	5	fb:cell.south_africa	South Africa	south|africa	South|Africa	NNP|NNP	LOCATION|LOCATION	|					
+104	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+105	0	fb:cell.oscar	Oscar	oscar	Oscar	NNP	O						
+105	1	fb:cell.oscar_dos_santos_emboaba_junior	Oscar dos Santos Emboaba Júnior	oscar|dos|santos|emboaba|júnior	Oscar|do|Santos|Emboaba|Júnior	NNP|VBZ|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+105	2	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+105	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+105	4	fb:cell.14_september_2011	14 September 2011	14|september|2011	14|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-14|2011-09-14|2011-09-14	14.0	2011-09-14	2011.0		
+105	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+105	6	fb:cell.internacional	Internacional	internacional	Internacional	NNP	O						
+106	0	fb:cell.paulinho	Paulinho	paulinho	Paulinho	NNP	PERSON						
+106	1	fb:cell.jose_paulo_bezerra_maciel_junior	José Paulo Bezerra Maciel Júnior	josé|paulo|bezerra|maciel|júnior	José|Paulo|Bezerra|Maciel|Júnior	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||					
+106	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+106	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+106	4	fb:cell.14_september_2011	14 September 2011	14|september|2011	14|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-14|2011-09-14|2011-09-14	14.0	2011-09-14	2011.0		
+106	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+106	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+107	0	fb:cell.dede	Dédé	dédé	dédé	NN	O						
+107	1	fb:cell.anderson_vital_da_silva	Anderson Vital da Silva	anderson|vital|da|silva	Anderson|vital|da|silva	NNP|JJ|NN|NN	PERSON|PERSON|PERSON|PERSON	|||					
+107	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+107	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+107	4	fb:cell.14_september_2011	14 September 2011	14|september|2011	14|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-14|2011-09-14|2011-09-14	14.0	2011-09-14	2011.0		
+107	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+107	6	fb:cell.vasco_da_gama	Vasco da Gama	vasco|da|gama	Vasco|da|Gama	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+108	0	fb:cell.jefferson	Jefferson	jefferson	Jefferson	NNP	PERSON						
+108	1	fb:cell.jefferson_de_oliveira_galvao	Jefferson de Oliveira Galvão	jefferson|de|oliveira|galvão	Jefferson|de|Oliveira|Galvão	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+108	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+108	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+108	4	fb:cell.14_september_2011	14 September 2011	14|september|2011	14|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-14|2011-09-14|2011-09-14	14.0	2011-09-14	2011.0		
+108	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+108	6	fb:cell.botafogo	Botafogo	botafogo	Botafogo	NNP	LOCATION						
+109	0	fb:cell.danilo	Danilo	danilo	Danilo	NNP	PERSON						
+109	1	fb:cell.danilo_luiz_da_silva	Danilo Luiz da Silva	danilo|luiz|da|silva	Danilo|Luiz|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+109	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+109	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+109	4	fb:cell.14_september_2011	14 September 2011	14|september|2011	14|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-14|2011-09-14|2011-09-14	14.0	2011-09-14	2011.0		
+109	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+109	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+110	0	fb:cell.casemiro	Casemiro	casemiro	Casemiro	NNP	PERSON						
+110	1	fb:cell.carlos_henrique_casimiro	Carlos Henrique Casimiro	carlos|henrique|casimiro	Carlos|Henrique|Casimiro	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+110	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+110	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+110	4	fb:cell.14_september_2011	14 September 2011	14|september|2011	14|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-14|2011-09-14|2011-09-14	14.0	2011-09-14	2011.0		
+110	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+110	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+111	0	fb:cell.renato_abreu	Renato Abreu	renato|abreu	Renato|Abreu	NNP|NNP	PERSON|PERSON	|					
+111	1	fb:cell.carlos_renato_de_abreu	Carlos Renato de Abreu	carlos|renato|de|abreu	Carlos|Renato|de|Abreu	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+111	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+111	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+111	4	fb:cell.14_september_2011	14 September 2011	14|september|2011	14|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-14|2011-09-14|2011-09-14	14.0	2011-09-14	2011.0		
+111	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+111	6	fb:cell.flamengo	Flamengo	flamengo	Flamengo	NNP	LOCATION						
+112	0	fb:cell.romulo	Rômulo	rômulo	rômulo	NN	O						
+112	1	fb:cell.romulo_borges_monteiro	Rômulo Borges Monteiro	rômulo|borges|monteiro	Rômulo|Borges|Monteiro	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+112	2	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+112	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+112	4	fb:cell.28_september_2011	28 September 2011	28|september|2011	28|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-28|2011-09-28|2011-09-28	28.0	2011-09-28	2011.0		
+112	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+112	6	fb:cell.vasco_da_gama	Vasco da Gama	vasco|da|gama	Vasco|da|Gama	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+113	0	fb:cell.bruno_cortes	Bruno Cortês	bruno|cortês	Bruno|Cortês	NNP|NNP	PERSON|PERSON	|					
+113	1	fb:cell.bruno_cortes_barbosa	Bruno Cortês Barbosa	bruno|cortês|barbosa	Bruno|Cortês|Barbosa	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+113	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+113	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+113	4	fb:cell.28_september_2011	28 September 2011	28|september|2011	28|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-28|2011-09-28|2011-09-28	28.0	2011-09-28	2011.0		
+113	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+113	6	fb:cell.botafogo	Botafogo	botafogo	Botafogo	NNP	LOCATION						
+114	0	fb:cell.borges	Borges	borges	Borges	NNP	PERSON						
+114	1	fb:cell.humberlito_borges_teixeira	Humberlito Borges Teixeira	humberlito|borges|teixeira	Humberlito|Borges|Teixeira	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+114	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+114	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+114	4	fb:cell.28_september_2011	28 September 2011	28|september|2011	28|September|2011	CD|NNP|CD	DATE|DATE|DATE	2011-09-28|2011-09-28|2011-09-28	28.0	2011-09-28	2011.0		
+114	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+114	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+115	0	fb:cell.fabio	Fabio	fabio	fabio	NN	PERSON						
+115	1	fb:cell.fabio_pereira_da_silva	Fábio Pereira Da Silva	fábio|pereira|da|silva	Fábio|Pereira|da|silva	NNP|NNP|NN|NN	PERSON|PERSON|PERSON|PERSON	|||					
+115	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+115	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+115	4	fb:cell.7_october_2011	7 October 2011	7|october|2011	7|October|2011	CD|NNP|CD	DATE|DATE|DATE	2011-10-07|2011-10-07|2011-10-07	7.0	2011-10-07	2011.0		
+115	5	fb:cell.costa_rica	Costa Rica	costa|rica	Costa|Rica	NNP|NNP	LOCATION|LOCATION	|					
+115	6	fb:cell.manchester_united	Manchester United	manchester|united	Manchester|United	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+116	0	fb:cell.diego_alves	Diego Alves	diego|alves	diego|alve	JJ|NNS	PERSON|PERSON	|					
+116	1	fb:cell.diego_alves_carreira	Diego Alves Carreira	diego|alves|carreira	diego|Alves|Carreira	JJ|NNP|NNP	PERSON|PERSON|PERSON	||					
+116	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+116	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+116	4	fb:cell.10_november_2011	10 November 2011	10|november|2011	10|November|2011	CD|NNP|CD	DATE|DATE|DATE	2011-11-10|2011-11-10|2011-11-10	10.0	2011-11-10	2011.0		
+116	5	fb:cell.gabon	Gabon	gabon	Gabon	NNP	LOCATION						
+116	6	fb:cell.fc_valencia	FC Valencia	fc|valencia	FC|Valencia	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+117	0	fb:cell.alex_sandro	Alex Sandro	alex|sandro	Alex|Sandro	NNP|NNP	PERSON|PERSON	|					
+117	1	fb:cell.alex_sandro_lobo_silva	Alex Sandro Lobo Silva	alex|sandro|lobo|silva	Alex|Sandro|Lobo|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+117	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+117	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+117	4	fb:cell.10_november_2011	10 November 2011	10|november|2011	10|November|2011	CD|NNP|CD	DATE|DATE|DATE	2011-11-10|2011-11-10|2011-11-10	10.0	2011-11-10	2011.0		
+117	5	fb:cell.gabon	Gabon	gabon	Gabon	NNP	LOCATION						
+117	6	fb:cell.fc_porto	FC Porto	fc|porto	FC|Porto	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+118	0	fb:cell.willian	Willian	willian	willian	NN	PERSON						
+118	1	fb:cell.willian_borges_da_silva	Willian Borges da Silva	willian|borges|da|silva	Willian|Borges|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+118	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+118	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+118	4	fb:cell.10_november_2011	10 November 2011	10|november|2011	10|November|2011	CD|NNP|CD	DATE|DATE|DATE	2011-11-10|2011-11-10|2011-11-10	10.0	2011-11-10	2011.0		
+118	5	fb:cell.gabon	Gabon	gabon	Gabon	NNP	LOCATION						
+118	6	fb:cell.shakhtar_donetsk	Shakhtar Donetsk	shakhtar|donetsk	Shakhtar|Donetsk	NNP|NNP	PERSON|PERSON	|					
+119	0	fb:cell.bruno_cesar	Bruno César	bruno|césar	Bruno|César	NNP|NNP	PERSON|PERSON	|					
+119	1	fb:cell.bruno_cesar_zanaki	Bruno César Zanaki	bruno|césar|zanaki	Bruno|César|Zanaki	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+119	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+119	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+119	4	fb:cell.10_november_2011	10 November 2011	10|november|2011	10|November|2011	CD|NNP|CD	DATE|DATE|DATE	2011-11-10|2011-11-10|2011-11-10	10.0	2011-11-10	2011.0		
+119	5	fb:cell.gabon	Gabon	gabon	Gabon	NNP	LOCATION						
+119	6	fb:cell.benfica	Benfica	benfica	Benfica	NNP	LOCATION						
+120	0	fb:cell.dudu	Dudu	dudu	Dudu	NNP	PERSON						
+120	1	fb:cell.eduardo_pereira_rodrigues	Eduardo Pereira Rodrigues	eduardo|pereira|rodrigues	Eduardo|Pereira|Rodrigues	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+120	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+120	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+120	4	fb:cell.10_november_2011	10 November 2011	10|november|2011	10|November|2011	CD|NNP|CD	DATE|DATE|DATE	2011-11-10|2011-11-10|2011-11-10	10.0	2011-11-10	2011.0		
+120	5	fb:cell.gabon	Gabon	gabon	Gabon	NNP	LOCATION						
+120	6	fb:cell.dynamo_kyiv	Dynamo Kyiv	dynamo|kyiv	Dynamo|Kyiv	NNP|NNP	O|O	|					
+121	0	fb:cell.kleber	Kléber	kléber	Kléber	NNP	O						
+121	1	fb:cell.kleber_laude_pinheiro	Kléber Laude Pinheiro	kléber|laude|pinheiro	Kléber|Laude|Pinheiro	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+121	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+121	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+121	4	fb:cell.10_november_2011	10 November 2011	10|november|2011	10|November|2011	CD|NNP|CD	DATE|DATE|DATE	2011-11-10|2011-11-10|2011-11-10	10.0	2011-11-10	2011.0		
+121	5	fb:cell.gabon	Gabon	gabon	Gabon	NNP	LOCATION						
+121	6	fb:cell.fc_porto	FC Porto	fc|porto	FC|Porto	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+122	0	fb:cell.rafael	Rafael	rafael	Rafael	NNP	PERSON						
+122	1	fb:cell.rafael_cabral_barbosa	Rafael Cabral Barbosa	rafael|cabral|barbosa	Rafael|Cabral|Barbosa	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+122	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+122	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+122	4	fb:cell.30_may_2012	30 May 2012	30|may|2012	30|May|2012	CD|VBD-AUX|CD	DATE|DATE|DATE	2012-05-30|2012-05-30|2012-05-30	30.0	2012-05-30	2012.0		
+122	5	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+122	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+123	0	fb:cell.gabriel	Gabriel	gabriel	Gabriel	NNP	PERSON						
+123	1	fb:cell.gabriel_vasconcelos_ferreira	Gabriel Vasconcelos Ferreira	gabriel|vasconcelos|ferreira	Gabriel|Vasconcelos|Ferreira	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+123	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+123	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+123	4	fb:cell.15_august_2012	15 August 2012	15|august|2012	15|August|2012	CD|NNP|CD	DATE|DATE|DATE	2012-08-15|2012-08-15|2012-08-15	15.0	2012-08-15	2012.0		
+123	5	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+123	6	fb:cell.ac_milan	AC Milan	ac|milan	ac|Milan	NN|NNP	ORGANIZATION|ORGANIZATION	|					
+124	0	fb:cell.lucas	Lucas	lucas	Lucas	NNP	PERSON						
+124	1	fb:cell.lucas_rios_marques	Lucas Rios Marques	lucas|rios|marques	Lucas|Rios|Marques	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+124	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+124	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+124	4	fb:cell.19_september_2012	19 September 2012	19|september|2012	19|September|2012	CD|NNP|CD	DATE|DATE|DATE	2012-09-19|2012-09-19|2012-09-19	19.0	2012-09-19	2012.0		
+124	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+124	6	fb:cell.botafogo	Botafogo	botafogo	Botafogo	NNP	LOCATION						
+125	0	fb:cell.fernando	Fernando	fernando	Fernando	NNP	PERSON						
+125	1	fb:cell.fernando_lucas_martins	Fernando Lucas Martins	fernando|lucas|martins	Fernando|Lucas|Martins	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+125	2	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+125	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+125	4	fb:cell.11_october_2012	11 October 2012	11|october|2012	11|October|2012	CD|NNP|CD	DATE|DATE|DATE	2012-10-11|2012-10-11|2012-10-11	11.0	2012-10-11	2012.0		
+125	5	fb:cell.iraq	Iraq	iraq	Iraq	NNP	LOCATION						
+125	6	fb:cell.gremio	Grêmio	grêmio	Grêmio	NNP	PERSON						
+126	0	fb:cell.leandro_castan	Leandro Castan	leandro|castan	Leandro|Castan	NNP|NNP	PERSON|PERSON	|					
+126	1	fb:cell.leandro_castan_da_silva	Leandro Castán da Silva	leandro|castán|da|silva	Leandro|Castán|da|Silva	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+126	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+126	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+126	4	fb:cell.16_october_2012	16 October 2012	16|october|2012	16|October|2012	CD|NNP|CD	DATE|DATE|DATE	2012-10-16|2012-10-16|2012-10-16	16.0	2012-10-16	2012.0		
+126	5	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+126	6	fb:cell.as_roma	AS Roma	as|roma	as|roma	JJ|NN	O|ORGANIZATION	|					
+127	0	fb:cell.bernard	Bernard	bernard	Bernard	NNP	PERSON						
+127	1	fb:cell.bernard_anicio_caldeira_duarte	Bernard Anicio Caldeira Duarte	bernard|anicio|caldeira|duarte	Bernard|Anicio|Caldeira|Duarte	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+127	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+127	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+127	4	fb:cell.21_november_2012	21 November 2012	21|november|2012	21|November|2012	CD|NNP|CD	DATE|DATE|DATE	2012-11-21|2012-11-21|2012-11-21	21.0	2012-11-21	2012.0		
+127	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+127	6	fb:cell.atletico_mineiro	Atletico Mineiro	atletico|mineiro	Atletico|Mineiro	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+128	0	fb:cell.jean	Jean	jean	Jean	NNP	PERSON						
+128	1	fb:cell.jean_raphael_vanderlei_moreira	Jean Raphael Vanderlei Moreira	jean|raphael|vanderlei|moreira	Jean|Raphael|Vanderlei|Moreira	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+128	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+128	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+128	4	fb:cell.21_november_2012	21 November 2012	21|november|2012	21|November|2012	CD|NNP|CD	DATE|DATE|DATE	2012-11-21|2012-11-21|2012-11-21	21.0	2012-11-21	2012.0		
+128	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+128	6	fb:cell.fluminense	Fluminense	fluminense	Fluminense	NNP	LOCATION						
+129	0	fb:cell.fabio_santos	Fábio Santos	fábio|santos	Fábio|Santos	NNP|NNP	PERSON|PERSON	|					
+129	1	fb:cell.fabio_santos_romeu	Fábio Santos Romeu	fábio|santos|romeu	Fábio|Santos|Romeu	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+129	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+129	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+129	4	fb:cell.21_november_2012	21 November 2012	21|november|2012	21|November|2012	CD|NNP|CD	DATE|DATE|DATE	2012-11-21|2012-11-21|2012-11-21	21.0	2012-11-21	2012.0		
+129	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+129	6	fb:cell.corinthians	Corinthians	corinthians	corinthian	NNS	O						
+130	0	fb:cell.diego_cavalieri	Diego Cavalieri	diego|cavalieri	diego|Cavalieri	JJ|NNP	PERSON|PERSON	|					
+130	1	fb:cell.diego_cavalieri	Diego Cavalieri	diego|cavalieri	diego|Cavalieri	JJ|NNP	PERSON|PERSON	|					
+130	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+130	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+130	4	fb:cell.21_november_2012	21 November 2012	21|november|2012	21|November|2012	CD|NNP|CD	DATE|DATE|DATE	2012-11-21|2012-11-21|2012-11-21	21.0	2012-11-21	2012.0		
+130	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+130	6	fb:cell.fluminense	Fluminense	fluminense	Fluminense	NNP	LOCATION						
+131	0	fb:cell.carlinhos	Carlinhos	carlinhos	Carlinhos	NNP	PERSON						
+131	1	fb:cell.carlos_andrade_souza	Carlos Andrade Souza	carlos|andrade|souza	Carlos|Andrade|Souza	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+131	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+131	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+131	4	fb:cell.21_november_2012	21 November 2012	21|november|2012	21|November|2012	CD|NNP|CD	DATE|DATE|DATE	2012-11-21|2012-11-21|2012-11-21	21.0	2012-11-21	2012.0		
+131	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+131	6	fb:cell.fluminense	Fluminense	fluminense	Fluminense	NNP	LOCATION						
+132	0	fb:cell.durval	Durval	durval	durval	JJ	PERSON						
+132	1	fb:cell.severino_dos_ramos_durval_da_silva	Severino dos Ramos Durval da Silva	severino|dos|ramos|durval|da|silva	Severino|do|ramo|durval|da|silva	NNP|VBZ|NN|JJ|NN|NN	PERSON|O|PERSON|PERSON|PERSON|PERSON	|||||					
+132	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+132	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+132	4	fb:cell.21_november_2012	21 November 2012	21|november|2012	21|November|2012	CD|NNP|CD	DATE|DATE|DATE	2012-11-21|2012-11-21|2012-11-21	21.0	2012-11-21	2012.0		
+132	5	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+132	6	fb:cell.santos	Santos	santos	santo	NNS	PERSON						
+133	0	fb:cell.dante	Dante	dante	Dante	NNP	PERSON						
+133	1	fb:cell.dante_bonfim_costa_santos	Dante Bonfim Costa Santos	dante|bonfim|costa|santos	Dante|Bonfim|Costa|Santos	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+133	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+133	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+133	4	fb:cell.6_february_2013	6 February 2013	6|february|2013	6|February|2013	CD|NNP|CD	DATE|DATE|DATE	2013-02-06|2013-02-06|2013-02-06	6.0	2013-02-06	2013.0		
+133	5	fb:cell.england	England	england	England	NNP	LOCATION						
+133	6	fb:cell.bayern_munich	Bayern Munich	bayern|munich	Bayern|Munich	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+134	0	fb:cell.diego_costa	Diego Costa	diego|costa	Diego|Costa	NNP|NNP	O|O	|					
+134	1	fb:cell.diego_da_silva_costa	Diego Da Silva Costa	diego|da|silva|costa	diego|da|Silva|Costa	JJ|NN|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+134	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+134	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+134	4	fb:cell.21_march_2013	21 March 2013	21|march|2013	21|March|2013	CD|NNP|CD	DATE|DATE|DATE	2013-03-21|2013-03-21|2013-03-21	21.0	2013-03-21	2013.0		
+134	5	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+134	6	fb:cell.atletico_madrid	Atletico Madrid	atletico|madrid	Atletico|Madrid	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+135	0	fb:cell.osvaldo	Osvaldo	osvaldo	Osvaldo	NNP	PERSON						
+135	1	fb:cell.osvaldo_lourenco_filho	Osvaldo Lourenço Filho	osvaldo|lourenço|filho	Osvaldo|Lourenço|Filho	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+135	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+135	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+135	4	fb:cell.6_april_2013	6 April 2013	6|april|2013	6|April|2013	CD|NNP|CD	DATE|DATE|DATE	2013-04-06|2013-04-06|2013-04-06	6.0	2013-04-06	2013.0		
+135	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+135	6	fb:cell.sao_paulo	São Paulo	são|paulo	São|Paulo	NNP|NNP	LOCATION|LOCATION	|					
+136	0	fb:cell.leandro	Leandro	leandro	Leandro	NNP	PERSON						
+136	1	fb:cell.weverson_leandro_oliveira_moura	Weverson Leandro Oliveira Moura	weverson|leandro|oliveira|moura	Weverson|Leandro|Oliveira|Moura	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+136	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+136	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+136	4	fb:cell.6_april_2013	6 April 2013	6|april|2013	6|April|2013	CD|NNP|CD	DATE|DATE|DATE	2013-04-06|2013-04-06|2013-04-06	6.0	2013-04-06	2013.0		
+136	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+136	6	fb:cell.palmeiras	Palmeiras	palmeiras	Palmeiras	NNP	LOCATION						
+137	0	fb:cell.doria	Dória	dória	dória	NN	LOCATION						
+137	1	fb:cell.matheus_doria_macedo	Matheus Dória Macedo	matheus|dória|macedo	Matheus|Dória|Macedo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+137	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+137	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+137	4	fb:cell.6_april_2013	6 April 2013	6|april|2013	6|April|2013	CD|NNP|CD	DATE|DATE|DATE	2013-04-06|2013-04-06|2013-04-06	6.0	2013-04-06	2013.0		
+137	5	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+137	6	fb:cell.botafogo	Botafogo	botafogo	Botafogo	NNP	LOCATION						
+138	0	fb:cell.marcos_rocha	Marcos Rocha	marcos|rocha	Marcos|Rocha	NNP|NNP	PERSON|PERSON	|					
+138	1	fb:cell.marcos_luis_rocha_aquino	Marcos Luis Rocha Aquino	marcos|luis|rocha|aquino	Marcos|Luis|Rocha|Aquino	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+138	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+138	3	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+138	4	fb:cell.24_april_2013	24 April 2013	24|april|2013	24|April|2013	CD|NNP|CD	DATE|DATE|DATE	2013-04-24|2013-04-24|2013-04-24	24.0	2013-04-24	2013.0		
+138	5	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+138	6	fb:cell.atletico_mineiro	Atletico Mineiro	atletico|mineiro	Atletico|Mineiro	NNP|NNP	ORGANIZATION|ORGANIZATION	|					

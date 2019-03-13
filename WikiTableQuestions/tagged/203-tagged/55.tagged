@@ -1,0 +1,85 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.japanese_title	Japanese Title	japanese|title	japanese|title	JJ|NN	MISC|O	|					
+-1	1	fb:row.row.western_title	Western Title	western|title	Western|Title	NNP|NNP	MISC|MISC	|					
+-1	2	fb:row.row.regions	Regions	regions	region	NNS	O						
+-1	3	fb:row.row.release	Release	release	Release	NNP	O						
+-1	4	fb:row.row.platform_s	Platform(s)	platform|-lrb-|s|-rrb-	platform|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.genre	Genre	genre	genre	NN	O						
+0	0	fb:cell.chinese_hero	Chinese Hero	chinese|hero	chinese|hero	JJ|NN	MISC|O	|					
+0	1	fb:cell.null	-	-	-	:	O						
+0	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+0	3	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+0	4	fb:cell.arcade	Arcade	arcade	arcade	NN	O					Arcade	fb:part.arcade
+0	5	fb:cell.action	Action	action	Action	NNP	O						
+1	0	fb:cell.super_chinese	Super Chinese	super|chinese	Super|Chinese	NNP|NNP	O|MISC	|					
+1	1	fb:cell.kung_fu_heroes	Kung-Fu Heroes	kung|fu|heroes	Kung|Fu|Heroes	NNP|NNP|NNPS	O|O|O	||					
+1	2	fb:cell.jp_na	JP, NA	jp|,|na	JP|,|NA	NNP|,|NNP	O|O|O	||				JP|NA	fb:part.jp|fb:part.na
+1	3	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+1	4	fb:cell.fc_nes	FC/NES	fc\\/nes	fc\\/nes	NN	O					FC|NES	fb:part.fc|fb:part.nes
+1	5	fb:cell.action	Action	action	Action	NNP	O						
+2	0	fb:cell.super_chinese_2	Super Chinese 2	super|chinese|2	Super|Chinese|2	NNP|NNP|CD	O|MISC|NUMBER	||2.0	2.0				
+2	1	fb:cell.little_ninja_brothers	Little Ninja Brothers	little|ninja|brothers	little|Ninja|Brothers	JJ|NNP|NNPS	O|O|O	||					
+2	2	fb:cell.jp_na	JP, NA	jp|,|na	JP|,|NA	NNP|,|NNP	O|O|O	||				JP|NA	fb:part.jp|fb:part.na
+2	3	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+2	4	fb:cell.fc_nes	FC/NES	fc\\/nes	fc\\/nes	NN	O					FC|NES	fb:part.fc|fb:part.nes
+2	5	fb:cell.role_playing	Role-Playing	role|playing	role|play	NN|VBG	O|O	|					
+3	0	fb:cell.super_chinese_3	Super Chinese 3	super|chinese|3	Super|Chinese|3	NNP|NNP|CD	O|MISC|NUMBER	||3.0	3.0				
+3	1	fb:cell.null	-	-	-	:	O						
+3	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+3	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+3	4	fb:cell.fc	FC	fc	fc	NN	O					FC	fb:part.fc
+3	5	fb:cell.role_playing	Role-Playing	role|playing	role|play	NN|VBG	O|O	|					
+4	0	fb:cell.super_chinese_land	Super Chinese Land	super|chinese|land	Super|Chinese|Land	NNP|NNP|NNP	O|O|O	||					
+4	1	fb:cell.ninja_boy	Ninja Boy	ninja|boy	Ninja|boy	NNP|NN	MISC|MISC	|					
+4	2	fb:cell.jp_na	JP, NA	jp|,|na	JP|,|NA	NNP|,|NNP	O|O|O	||				JP|NA	fb:part.jp|fb:part.na
+4	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+4	4	fb:cell.gb	GB	gb	gb	NN	O					GB	fb:part.gb
+4	5	fb:cell.action	Action	action	Action	NNP	O						
+5	0	fb:cell.super_chinese_land_2	Super Chinese Land 2	super|chinese|land|2	Super|Chinese|Land|2	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+5	1	fb:cell.ninja_boy_2	Ninja Boy 2	ninja|boy|2	Ninja|boy|2	NNP|NN|CD	O|O|NUMBER	||2.0	2.0				
+5	2	fb:cell.jp_na	JP, NA	jp|,|na	JP|,|NA	NNP|,|NNP	O|O|O	||				JP|NA	fb:part.jp|fb:part.na
+5	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+5	4	fb:cell.gb	GB	gb	gb	NN	O					GB	fb:part.gb
+5	5	fb:cell.role_playing	Role-Playing	role|playing	role|play	NN|VBG	O|O	|					
+6	0	fb:cell.super_chinese_land_3	Super Chinese Land 3	super|chinese|land|3	Super|Chinese|Land|3	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||3.0	3.0				
+6	1	fb:cell.null	-	-	-	:	O						
+6	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+6	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+6	4	fb:cell.gb	GB	gb	gb	NN	O					GB	fb:part.gb
+6	5	fb:cell.role_playing	Role-Playing	role|playing	role|play	NN|VBG	O|O	|					
+7	0	fb:cell.super_chinese_world	Super Chinese World	super|chinese|world	Super|Chinese|World	NNP|NNP|NNP	O|MISC|MISC	||					
+7	1	fb:cell.super_ninja_boy	Super Ninja Boy	super|ninja|boy	Super|Ninja|boy	NNP|NNP|NN	O|MISC|MISC	||					
+7	2	fb:cell.jp_na	JP, NA	jp|,|na	JP|,|NA	NNP|,|NNP	O|O|O	||				JP|NA	fb:part.jp|fb:part.na
+7	3	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+7	4	fb:cell.sfc_snes	SFC/SNES	sfc\\/snes	sfc\\/snes	NN	O					SFC|SNES	fb:part.sfc|fb:part.snes
+7	5	fb:cell.role_playing	Role-Playing	role|playing	role|play	NN|VBG	O|O	|					
+8	0	fb:cell.super_chinese_world_2	Super Chinese World 2	super|chinese|world|2	Super|Chinese|World|2	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+8	1	fb:cell.null	-	-	-	:	O						
+8	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+8	3	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+8	4	fb:cell.sfc	SFC	sfc	sfc	NN	O					SFC	fb:part.sfc
+8	5	fb:cell.role_playing	Role-Playing	role|playing	role|play	NN|VBG	O|O	|					
+9	0	fb:cell.super_chinese_world_3	Super Chinese World 3	super|chinese|world|3	Super|Chinese|World|3	NNP|NNP|NNP|CD	O|MISC|O|NUMBER	|||3.0	3.0				
+9	1	fb:cell.null	-	-	-	:	O						
+9	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+9	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+9	4	fb:cell.sfc	SFC	sfc	sfc	NN	O					SFC	fb:part.sfc
+9	5	fb:cell.role_playing	Role-Playing	role|playing	role|play	NN|VBG	O|O	|					
+10	0	fb:cell.super_chinese_fighter	Super Chinese Fighter	super|chinese|fighter	Super|Chinese|Fighter	NNP|NNP|NNP	O|MISC|MISC	||					
+10	1	fb:cell.null	-	-	-	:	O						
+10	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+10	3	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+10	4	fb:cell.sfc	SFC	sfc	sfc	NN	O					SFC	fb:part.sfc
+10	5	fb:cell.fighting	Fighting	fighting	fighting	NN	O						
+11	0	fb:cell.super_chinese_fighter_gb	Super Chinese Fighter GB	super|chinese|fighter|gb	Super|Chinese|Fighter|GB	NNP|NNP|NNP|NNP	O|MISC|O|O	|||					
+11	1	fb:cell.null	-	-	-	:	O						
+11	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+11	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+11	4	fb:cell.gb	GB	gb	gb	NN	O					GB	fb:part.gb
+11	5	fb:cell.fighting	Fighting	fighting	fighting	NN	O						
+12	0	fb:cell.super_chinese_fighter_ex	Super Chinese Fighter EX	super|chinese|fighter|ex	Super|Chinese|Fighter|EX	NNP|NNP|NNP|NNP	O|MISC|MISC|MISC	|||					
+12	1	fb:cell.null	-	-	-	:	O						
+12	2	fb:cell.jp	JP	jp	JP	NNP	O					JP	fb:part.jp
+12	3	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+12	4	fb:cell.gbc	GBC	gbc	gbc	NN	O					GBC	fb:part.gbc
+12	5	fb:cell.fighting	Fighting	fighting	fighting	NN	O						

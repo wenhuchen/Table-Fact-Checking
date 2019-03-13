@@ -1,0 +1,491 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.round	Round	round	Round	NNP	O						
+-1	2	fb:row.row.against	Against	against	against	IN	O						
+-1	3	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+-1	4	fb:row.row.scorers	Scorers	scorers	scorer	NNS	O						
+0	0	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx			
+0	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+0	2	fb:cell.yugoslavia	Yugoslavia	yugoslavia	Yugoslavia	NNP	LOCATION						
+0	3	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+0	4	fb:cell.preguinho	Preguinho	preguinho	Preguinho	NNP	O					Preguinho	fb:part.preguinho
+1	0	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx			
+1	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+1	2	fb:cell.bolivia	Bolivia	bolivia	Bolivia	NNP	LOCATION						
+1	3	fb:cell.4_0	4–0	4|--|0	4|--|0	CD|:|CD	NUMBER|O|NUMBER	4.0||0.0	4.0		0.0		
+1	4	fb:cell.moderato_2_preguinho_2	Moderato (2), Preguinho (2)	moderato|-lrb-|2|-rrb-|,|preguinho|-lrb-|2|-rrb-	Moderato|-lrb-|2|-rrb-|,|preguinho|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|O|O|NUMBER|O	||2.0|||||2.0|	2.0		2.0	Moderato (2)|Preguinho (2)	fb:part.moderato_2|fb:part.preguinho_2
+2	0	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx			
+2	1	fb:cell.round_1	Round 1	round|1	Round|1	NNP|CD	O|NUMBER	|1.0	1.0				
+2	2	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+2	3	fb:cell.1_3	1–3	1|--|3	1|--|3	CD|:|CD	NUMBER|O|NUMBER	1.0||3.0	1.0		3.0		
+2	4	fb:cell.leonidas	Leônidas	leônidas	Leônidas	NNP	PERSON					Leônidas	fb:part.leonidas
+3	0	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+3	1	fb:cell.round_1	Round 1	round|1	Round|1	NNP|CD	O|NUMBER	|1.0	1.0				
+3	2	fb:cell.poland	Poland	poland	Poland	NNP	LOCATION						
+3	3	fb:cell.6_5_aet	6–5 (AET)	6|--|5|-lrb-|aet|-rrb-	6|--|5|-lrb-|aet|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	6.0||5.0|||	6.0		5.0		
+3	4	fb:cell.leonidas_3_romeu_peracio_2	Leônidas (3), Romeu, Perácio (2)	leônidas|-lrb-|3|-rrb-|,|romeu|,|perácio|-lrb-|2|-rrb-	leônidas|-lrb-|3|-rrb-|,|Romeu|,|Perácio|-lrb-|2|-rrb-	NN|-LRB-|CD|-RRB-|,|NNP|,|NNP|-LRB-|LS|-RRB-	O|O|NUMBER|O|O|PERSON|O|O|O|NUMBER|O	||3.0|||||||2.0|	3.0		2.0	Leônidas (3)|Romeu|Perácio (2)	fb:part.leonidas_3|fb:part.romeu|fb:part.peracio_2
+4	0	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+4	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+4	2	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+4	3	fb:cell.1_1_aet	1–1 (AET)	1|--|1|-lrb-|aet|-rrb-	1|--|1|-lrb-|aet|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	1.0||1.0|||	1.0		1.0		
+4	4	fb:cell.leonidas	Leônidas	leônidas	Leônidas	NNP	PERSON					Leônidas	fb:part.leonidas
+5	0	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+5	1	fb:cell.quarter_final_replay	Quarter-Final (replay)	quarter|final|-lrb-|replay|-rrb-	quarter|final|-lrb-|replay|-rrb-	NN|JJ|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+5	2	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+5	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+5	4	fb:cell.leonidas_roberto	Leônidas, Roberto	leônidas|,|roberto	Leônidas|,|Roberto	NNP|,|NNP	PERSON|O|PERSON	||				Leônidas|Roberto	fb:part.leonidas|fb:part.roberto
+6	0	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+6	1	fb:cell.semi_final	Semi-Final	semi|final	Semi|Final	NNP|NNP	O|O	|					
+6	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+6	3	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+6	4	fb:cell.romeu	Romeu	romeu	Romeu	NNP	PERSON					Romeu	fb:part.romeu
+7	0	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+7	1	fb:cell.bronze_final	Bronze Final	bronze|final	bronze|final	NN|JJ	O|O	|					
+7	2	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+7	3	fb:cell.4_2	4–2	4|--|2	4|--|2	CD|:|CD	NUMBER|O|NUMBER	4.0||2.0	4.0		2.0		
+7	4	fb:cell.romeu_leonidas_2_peracio	Romeu, Leônidas (2), Perácio	romeu|,|leônidas|-lrb-|2|-rrb-|,|perácio	Romeu|,|Leônidas|-lrb-|2|-rrb-|,|Perácio	NNP|,|NNP|-LRB-|LS|-RRB-|,|NNP	PERSON|O|PERSON|O|NUMBER|O|O|LOCATION	||||2.0|||	2.0			Romeu|Leônidas (2)|Perácio	fb:part.romeu|fb:part.leonidas_2|fb:part.peracio
+8	0	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+8	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+8	2	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+8	3	fb:cell.4_0	4–0	4|--|0	4|--|0	CD|:|CD	NUMBER|O|NUMBER	4.0||0.0	4.0		0.0		
+8	4	fb:cell.ademir_2_jair_baltazar	Ademir (2), Jair, Baltazar	ademir|-lrb-|2|-rrb-|,|jair|,|baltazar	Ademir|-lrb-|2|-rrb-|,|Jair|,|Baltazar	NNP|-LRB-|LS|-RRB-|,|NNP|,|NNP	PERSON|O|NUMBER|O|O|PERSON|O|PERSON	||2.0|||||	2.0			Ademir (2)|Jair|Baltazar	fb:part.ademir_2|fb:part.jair|fb:part.baltazar
+9	0	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+9	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+9	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION						
+9	3	fb:cell.2_2	2–2	2|--|2	2|--|2	CD|:|CD	NUMBER|O|NUMBER	2.0||2.0	2.0		2.0		
+9	4	fb:cell.alfredo_baltazar	Alfredo, Baltazar	alfredo|,|baltazar	Alfredo|,|Baltazar	NNP|,|NNP	PERSON|O|PERSON	||				Alfredo|Baltazar	fb:part.alfredo|fb:part.baltazar
+10	0	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+10	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+10	2	fb:cell.yugoslavia	Yugoslavia	yugoslavia	Yugoslavia	NNP	LOCATION						
+10	3	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+10	4	fb:cell.ademir_zizinho	Ademir, Zizinho	ademir|,|zizinho	Ademir|,|Zizinho	NNP|,|NNP	PERSON|O|PERSON	||				Ademir|Zizinho	fb:part.ademir|fb:part.zizinho
+11	0	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+11	1	fb:cell.final_round	Final Round	final|round	final|Round	JJ|NNP	O|O	|					
+11	2	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+11	3	fb:cell.7_1	7–1	7|--|1	7|--|1	CD|:|CD	NUMBER|O|NUMBER	7.0||1.0	7.0		1.0		
+11	4	fb:cell.ademir_4_chico_2_maneca	Ademir (4), Chico (2), Maneca	ademir|-lrb-|4|-rrb-|,|chico|-lrb-|2|-rrb-|,|maneca	Ademir|-lrb-|4|-rrb-|,|Chico|-lrb-|2|-rrb-|,|maneca	NNP|-LRB-|LS|-RRB-|,|NNP|-LRB-|LS|-RRB-|,|NN	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|LOCATION	||4.0|||||2.0|||	4.0		2.0	Ademir (4)|Chico (2)|Maneca	fb:part.ademir_4|fb:part.chico_2|fb:part.maneca
+12	0	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+12	1	fb:cell.final_round	Final Round	final|round	final|Round	JJ|NNP	O|O	|					
+12	2	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+12	3	fb:cell.6_1	6–1	6|--|1	6|--|1	CD|:|CD	NUMBER|O|NUMBER	6.0||1.0	6.0		1.0		
+12	4	fb:cell.ademir_2_jair_chico_2_zizinho	Ademir (2), Jair, Chico (2), Zizinho	ademir|-lrb-|2|-rrb-|,|jair|,|chico|-lrb-|2|-rrb-|,|zizinho	Ademir|-lrb-|2|-rrb-|,|Jair|,|Chico|-lrb-|2|-rrb-|,|zizinho	NNP|-LRB-|LS|-RRB-|,|NNP|,|NNP|-LRB-|LS|-RRB-|,|NN	PERSON|O|NUMBER|O|O|PERSON|O|PERSON|O|NUMBER|O|O|PERSON	||2.0|||||||2.0|||	2.0		2.0	Ademir (2)|Jair|Chico (2)|Zizinho	fb:part.ademir_2|fb:part.jair|fb:part.chico_2|fb:part.zizinho
+13	0	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+13	1	fb:cell.final_round	Final Round	final|round	final|Round	JJ|NNP	O|O	|					
+13	2	fb:cell.uruguay	Uruguay	uruguay	Uruguay	NNP	LOCATION						
+13	3	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+13	4	fb:cell.friaca	Friaça	friaça	friaça	NN	O					Friaça	fb:part.friaca
+14	0	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+14	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+14	2	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+14	3	fb:cell.5_0	5–0	5|--|0	5|--|0	CD|:|CD	NUMBER|O|NUMBER	5.0||0.0	5.0		0.0		
+14	4	fb:cell.baltazar_didi_pinga_2_julinho	Baltazar, Didi, Pinga (2), Julinho	baltazar|,|didi|,|pinga|-lrb-|2|-rrb-|,|julinho	Baltazar|,|Didi|,|Pinga|-lrb-|2|-rrb-|,|Julinho	NNP|,|NNP|,|NNP|-LRB-|LS|-RRB-|,|NNP	PERSON|O|PERSON|O|O|O|NUMBER|O|O|PERSON	||||||2.0|||	2.0			Baltazar|Didi|Pinga (2)|Julinho	fb:part.baltazar|fb:part.didi|fb:part.pinga_2|fb:part.julinho
+15	0	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+15	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+15	2	fb:cell.yugoslavia	Yugoslavia	yugoslavia	Yugoslavia	NNP	LOCATION						
+15	3	fb:cell.1_1_aet	1–1 (AET)	1|--|1|-lrb-|aet|-rrb-	1|--|1|-lrb-|aet|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	1.0||1.0|||	1.0		1.0		
+15	4	fb:cell.didi	Didi	didi	Didi	NNP	PERSON					Didi	fb:part.didi
+16	0	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+16	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+16	2	fb:cell.hungary	Hungary	hungary	Hungary	NNP	LOCATION						
+16	3	fb:cell.2_4	2–4	2|--|4	2|--|4	CD|:|CD	NUMBER|O|NUMBER	2.0||4.0	2.0		4.0		
+16	4	fb:cell.djalma_santos_julinho	Djalma Santos, Julinho	djalma|santos|,|julinho	Djalma|Santos|,|Julinho	NNP|NNP|,|NNP	PERSON|PERSON|O|PERSON	|||				Djalma Santos|Julinho	fb:part.djalma_santos|fb:part.julinho
+17	0	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+17	1	fb:cell.group_d	Group D	group|d	group|d	NN|NN	O|O	|					
+17	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION						
+17	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+17	4	fb:cell.mazzola_2_nilton_santos	Mazzola (2), Nilton Santos	mazzola|-lrb-|2|-rrb-|,|nilton|santos	Mazzola|-lrb-|2|-rrb-|,|Nilton|Santos	NNP|-LRB-|LS|-RRB-|,|NNP|NNP	PERSON|O|NUMBER|O|O|PERSON|PERSON	||2.0||||	2.0			Mazzola (2)|Nilton Santos	fb:part.mazzola_2|fb:part.nilton_santos
+18	0	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+18	1	fb:cell.group_d	Group D	group|d	group|d	NN|NN	O|O	|					
+18	2	fb:cell.england	England	england	England	NNP	LOCATION						
+18	3	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+18	4	fb:cell.null											fb:part.null
+19	0	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+19	1	fb:cell.group_d	Group D	group|d	group|d	NN|NN	O|O	|					
+19	2	fb:cell.soviet_union	Soviet Union	soviet|union	Soviet|Union	NNP|NNP	LOCATION|LOCATION	|					
+19	3	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+19	4	fb:cell.vava_2	Vavá (2)	vavá|-lrb-|2|-rrb-	vavá|-lrb-|2|-rrb-	NN|-LRB-|CD|-RRB-	O|O|NUMBER|O	||2.0|	2.0			Vavá (2)	fb:part.vava_2
+20	0	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+20	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+20	2	fb:cell.wales	Wales	wales	Wales	NNP	LOCATION						
+20	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+20	4	fb:cell.pele	Pelé	pelé	Pelé	NNP	O					Pelé	fb:part.pele
+21	0	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+21	1	fb:cell.semi_final	Semi-Final	semi|final	Semi|Final	NNP|NNP	O|O	|					
+21	2	fb:cell.france	France	france	France	NNP	LOCATION						
+21	3	fb:cell.5_2	5–2	5|--|2	5|--|2	CD|:|CD	NUMBER|O|NUMBER	5.0||2.0	5.0		2.0		
+21	4	fb:cell.vava_didi_pele_3	Vavá, Didi, Pelé (3)	vavá|,|didi|,|pelé|-lrb-|3|-rrb-	Vavá|,|Didi|,|Pelé|-lrb-|3|-rrb-	NNP|,|NNP|,|NNP|-LRB-|LS|-RRB-	O|O|PERSON|O|O|O|NUMBER|O	||||||3.0|	3.0			Vavá|Didi|Pelé (3)	fb:part.vava|fb:part.didi|fb:part.pele_3
+22	0	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+22	1	fb:cell.final	Final	final	final	JJ	O						
+22	2	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+22	3	fb:cell.5_2	5–2	5|--|2	5|--|2	CD|:|CD	NUMBER|O|NUMBER	5.0||2.0	5.0		2.0		
+22	4	fb:cell.vava_2_pele_2_zagallo	Vavá (2), Pelé (2), Zagallo	vavá|-lrb-|2|-rrb-|,|pelé|-lrb-|2|-rrb-|,|zagallo	vavá|-lrb-|2|-rrb-|,|pelé|-lrb-|2|-rrb-|,|Zagallo	NN|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|,|NNP	O|O|NUMBER|O|O|O|O|NUMBER|O|O|PERSON	||2.0|||||2.0|||	2.0		2.0	Vavá (2)|Pelé (2)|Zagallo	fb:part.vava_2|fb:part.pele_2|fb:part.zagallo
+23	0	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+23	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+23	2	fb:cell.mexico	Mexico	mexico	Mexico	NNP	LOCATION						
+23	3	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+23	4	fb:cell.pele_zagallo	Pelé, Zagallo	pelé|,|zagallo	Pelé|,|Zagallo	NNP|,|NNP	O|O|PERSON	||				Pelé|Zagallo	fb:part.pele|fb:part.zagallo
+24	0	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+24	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+24	2	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+24	3	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+24	4	fb:cell.null											fb:part.null
+25	0	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+25	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+25	2	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+25	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+25	4	fb:cell.amarildo_2	Amarildo (2)	amarildo|-lrb-|2|-rrb-	Amarildo|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O	||2.0|	2.0			Amarildo (2)	fb:part.amarildo_2
+26	0	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+26	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+26	2	fb:cell.england	England	england	England	NNP	LOCATION						
+26	3	fb:cell.3_1	3–1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+26	4	fb:cell.garrincha_2_vava	Garrincha (2), Vavá	garrincha|-lrb-|2|-rrb-|,|vavá	Garrincha|-lrb-|2|-rrb-|,|vavá	NNP|-LRB-|LS|-RRB-|,|NN	PERSON|O|NUMBER|O|O|O	||2.0|||	2.0			Garrincha (2)|Vavá	fb:part.garrincha_2|fb:part.vava
+27	0	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+27	1	fb:cell.semi_final	Semi-Final	semi|final	Semi|Final	NNP|NNP	O|O	|					
+27	2	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+27	3	fb:cell.4_2	4–2	4|--|2	4|--|2	CD|:|CD	NUMBER|O|NUMBER	4.0||2.0	4.0		2.0		
+27	4	fb:cell.garrincha_2_vava_2	Garrincha (2), Vavá (2)	garrincha|-lrb-|2|-rrb-|,|vavá|-lrb-|2|-rrb-	Garrincha|-lrb-|2|-rrb-|,|vavá|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-|,|NN|-LRB-|CD|-RRB-	PERSON|O|NUMBER|O|O|O|O|NUMBER|O	||2.0|||||2.0|	2.0		2.0	Garrincha (2)|Vavá (2)	fb:part.garrincha_2|fb:part.vava_2
+28	0	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+28	1	fb:cell.final	Final	final	final	JJ	O						
+28	2	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+28	3	fb:cell.3_1	3–1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+28	4	fb:cell.amarildo_zito_vava	Amarildo, Zito, Vavá	amarildo|,|zito|,|vavá	Amarildo|,|Zito|,|Vavá	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|O	||||				Amarildo|Zito|Vavá	fb:part.amarildo|fb:part.zito|fb:part.vava
+29	0	fb:cell.1966	1966	1966	1966	CD	DATE	1966	1966.0	1966-xx-xx			
+29	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+29	2	fb:cell.bulgaria	Bulgaria	bulgaria	Bulgaria	NNP	LOCATION						
+29	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+29	4	fb:cell.pele_garrincha	Pelé, Garrincha	pelé|,|garrincha	Pelé|,|Garrincha	NNP|,|NNP	O|O|PERSON	||				Pelé|Garrincha	fb:part.pele|fb:part.garrincha
+30	0	fb:cell.1966	1966	1966	1966	CD	DATE	1966	1966.0	1966-xx-xx			
+30	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+30	2	fb:cell.hungary	Hungary	hungary	Hungary	NNP	LOCATION						
+30	3	fb:cell.1_3	1–3	1|--|3	1|--|3	CD|:|CD	NUMBER|O|NUMBER	1.0||3.0	1.0		3.0		
+30	4	fb:cell.tostao	Tostão	tostão	Tostão	NNP	O					Tostão	fb:part.tostao
+31	0	fb:cell.1966	1966	1966	1966	CD	DATE	1966	1966.0	1966-xx-xx			
+31	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+31	2	fb:cell.portugal	Portugal	portugal	Portugal	NNP	LOCATION						
+31	3	fb:cell.1_3	1–3	1|--|3	1|--|3	CD|:|CD	NUMBER|O|NUMBER	1.0||3.0	1.0		3.0		
+31	4	fb:cell.rildo	Rildo	rildo	Rildo	NNP	PERSON					Rildo	fb:part.rildo
+32	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+32	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+32	2	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+32	3	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+32	4	fb:cell.rivelino_pele_jairzinho_2	Rivelino, Pelé, Jairzinho (2)	rivelino|,|pelé|,|jairzinho|-lrb-|2|-rrb-	Rivelino|,|Pelé|,|Jairzinho|-lrb-|2|-rrb-	NNP|,|NNP|,|NNP|-LRB-|LS|-RRB-	PERSON|O|O|O|PERSON|O|NUMBER|O	||||||2.0|	2.0			Rivelino|Pelé|Jairzinho (2)	fb:part.rivelino|fb:part.pele|fb:part.jairzinho_2
+33	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+33	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+33	2	fb:cell.england	England	england	England	NNP	LOCATION						
+33	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+33	4	fb:cell.jairzinho	Jairzinho	jairzinho	Jairzinho	NNP	PERSON					Jairzinho	fb:part.jairzinho
+34	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+34	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+34	2	fb:cell.romania	Romania	romania	Romania	NNP	LOCATION						
+34	3	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+34	4	fb:cell.pele_2_jairzinho	Pelé (2), Jairzinho	pelé|-lrb-|2|-rrb-|,|jairzinho	pelé|-lrb-|2|-rrb-|,|Jairzinho	NN|-LRB-|CD|-RRB-|,|NNP	O|O|NUMBER|O|O|PERSON	||2.0|||	2.0			Pelé (2)|Jairzinho	fb:part.pele_2|fb:part.jairzinho
+35	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+35	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+35	2	fb:cell.peru	Peru	peru	Peru	NNP	LOCATION						
+35	3	fb:cell.4_2	4–2	4|--|2	4|--|2	CD|:|CD	NUMBER|O|NUMBER	4.0||2.0	4.0		2.0		
+35	4	fb:cell.rivelino_tostao_2_jairzinho	Rivelino, Tostão (2), Jairzinho	rivelino|,|tostão|-lrb-|2|-rrb-|,|jairzinho	Rivelino|,|Tostão|-lrb-|2|-rrb-|,|Jairzinho	NNP|,|NNP|-LRB-|LS|-RRB-|,|NNP	PERSON|O|PERSON|O|NUMBER|O|O|PERSON	||||2.0|||	2.0			Rivelino|Tostão (2)|Jairzinho	fb:part.rivelino|fb:part.tostao_2|fb:part.jairzinho
+36	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+36	1	fb:cell.semi_final	Semi-Final	semi|final	Semi|Final	NNP|NNP	O|O	|					
+36	2	fb:cell.uruguay	Uruguay	uruguay	Uruguay	NNP	LOCATION						
+36	3	fb:cell.3_1	3–1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+36	4	fb:cell.clodoaldo_jairzinho_rivelino	Clodoaldo, Jairzinho, Rivelino	clodoaldo|,|jairzinho|,|rivelino	Clodoaldo|,|Jairzinho|,|Rivelino	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Clodoaldo|Jairzinho|Rivelino	fb:part.clodoaldo|fb:part.jairzinho|fb:part.rivelino
+37	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+37	1	fb:cell.final	Final	final	final	JJ	O						
+37	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+37	3	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+37	4	fb:cell.pele_gerson_jairzinho_carlos_alberto	Pelé, Gérson, Jairzinho, Carlos Alberto	pelé|,|gérson|,|jairzinho|,|carlos|alberto	Pelé|,|Gérson|,|Jairzinho|,|Carlos|Alberto	NNP|,|NNP|,|NNP|,|NNP|NNP	O|O|PERSON|O|PERSON|O|PERSON|PERSON	|||||||				Pelé|Gérson|Jairzinho|Carlos Alberto	fb:part.pele|fb:part.gerson|fb:part.jairzinho|fb:part.carlos_alberto
+38	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+38	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+38	2	fb:cell.yugoslavia	Yugoslavia	yugoslavia	Yugoslavia	NNP	LOCATION						
+38	3	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+38	4	fb:cell.null											fb:part.null
+39	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+39	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+39	2	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+39	3	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+39	4	fb:cell.null											fb:part.null
+40	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+40	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+40	2	fb:cell.zaire	Zaire	zaire	Zaire	NNP	LOCATION						
+40	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+40	4	fb:cell.jairzinho_rivelino_valdomiro	Jairzinho, Rivelino, Valdomiro	jairzinho|,|rivelino|,|valdomiro	Jairzinho|,|Rivelino|,|Valdomiro	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Jairzinho|Rivelino|Valdomiro	fb:part.jairzinho|fb:part.rivelino|fb:part.valdomiro
+41	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+41	1	fb:cell.group_a_round_2	Group A Round 2	group|a|round|2	Group|A|Round|2	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+41	2	fb:cell.east_germany	East Germany	east|germany	East|Germany	NNP|NNP	LOCATION|LOCATION	|					
+41	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+41	4	fb:cell.rivelino	Rivelino	rivelino	rivelino	NN	PERSON					Rivelino	fb:part.rivelino
+42	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+42	1	fb:cell.group_a_round_2	Group A Round 2	group|a|round|2	Group|A|Round|2	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+42	2	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+42	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+42	4	fb:cell.rivelino_jairzinho	Rivelino, Jairzinho	rivelino|,|jairzinho	Rivelino|,|Jairzinho	NNP|,|NNP	PERSON|O|PERSON	||				Rivelino|Jairzinho	fb:part.rivelino|fb:part.jairzinho
+43	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+43	1	fb:cell.group_a_round_2	Group A Round 2	group|a|round|2	Group|A|Round|2	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+43	2	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+43	3	fb:cell.0_2	0–2	0|--|2	0|--|2	CD|:|CD	NUMBER|O|NUMBER	0.0||2.0	0.0		2.0		
+43	4	fb:cell.null											fb:part.null
+44	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+44	1	fb:cell.bronze_final	Bronze Final	bronze|final	bronze|final	NN|JJ	O|O	|					
+44	2	fb:cell.poland	Poland	poland	Poland	NNP	LOCATION						
+44	3	fb:cell.0_1	0–1	0|--|1	0|--|1	CD|:|CD	NUMBER|O|NUMBER	0.0||1.0	0.0		1.0		
+44	4	fb:cell.null											fb:part.null
+45	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+45	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+45	2	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+45	3	fb:cell.1_1	1–1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+45	4	fb:cell.reinaldo	Reinaldo	reinaldo	Reinaldo	NNP	PERSON					Reinaldo	fb:part.reinaldo
+46	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+46	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+46	2	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+46	3	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+46	4	fb:cell.null											fb:part.null
+47	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+47	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+47	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION						
+47	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+47	4	fb:cell.roberto_dinamite	Roberto Dinamite	roberto|dinamite	Roberto|Dinamite	NNP|NNP	PERSON|PERSON	|				Roberto Dinamite	fb:part.roberto_dinamite
+48	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+48	1	fb:cell.group_b_round_2	Group B Round 2	group|b|round|2	group|b|Round|2	NN|NN|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+48	2	fb:cell.peru	Peru	peru	Peru	NNP	LOCATION						
+48	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+48	4	fb:cell.dirceu_2_zico	Dirceu (2), Zico	dirceu|-lrb-|2|-rrb-|,|zico	Dirceu|-lrb-|2|-rrb-|,|Zico	NNP|-LRB-|LS|-RRB-|,|NNP	PERSON|O|NUMBER|O|O|PERSON	||2.0|||	2.0			Dirceu (2)|Zico	fb:part.dirceu_2|fb:part.zico
+49	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+49	1	fb:cell.group_b_round_2	Group B Round 2	group|b|round|2	group|b|Round|2	NN|NN|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+49	2	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+49	3	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+49	4	fb:cell.null											fb:part.null
+50	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+50	1	fb:cell.group_b_round_2	Group B Round 2	group|b|round|2	group|b|Round|2	NN|NN|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+50	2	fb:cell.poland	Poland	poland	Poland	NNP	LOCATION						
+50	3	fb:cell.3_1	3–1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+50	4	fb:cell.nelinho_roberto_dinamite_2	Nelinho, Roberto Dinamite (2)	nelinho|,|roberto|dinamite|-lrb-|2|-rrb-	Nelinho|,|Roberto|Dinamite|-lrb-|2|-rrb-	NNP|,|NNP|NNP|-LRB-|LS|-RRB-	PERSON|O|PERSON|PERSON|O|NUMBER|O	|||||2.0|	2.0			Nelinho|Roberto Dinamite (2)	fb:part.nelinho|fb:part.roberto_dinamite_2
+51	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+51	1	fb:cell.bronze_final	Bronze Final	bronze|final	bronze|final	NN|JJ	O|O	|					
+51	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+51	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+51	4	fb:cell.nelinho_dirceu	Nelinho, Dirceu	nelinho|,|dirceu	Nelinho|,|Dirceu	NNP|,|NNP	PERSON|O|PERSON	||				Nelinho|Dirceu	fb:part.nelinho|fb:part.dirceu
+52	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+52	1	fb:cell.group_f	Group F	group|f	Group|f	NNP|NN	O|O	|					
+52	2	fb:cell.soviet_union	Soviet Union	soviet|union	Soviet|Union	NNP|NNP	LOCATION|LOCATION	|					
+52	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+52	4	fb:cell.socrates_eder	Sócrates, Éder	sócrates|,|éder	Sócrates|,|Éder	NNP|,|NNP	O|O|O	||				Sócrates|Éder	fb:part.socrates|fb:part.eder
+53	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+53	1	fb:cell.group_f	Group F	group|f	Group|f	NNP|NN	O|O	|					
+53	2	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+53	3	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+53	4	fb:cell.zico_oscar_eder_falcao	Zico, Oscar, Éder, Falcão	zico|,|oscar|,|éder|,|falcão	Zico|,|Oscar|,|Éder|,|Falcão	NNP|,|NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|O|O|PERSON	||||||				Zico|Oscar|Éder|Falcão	fb:part.zico|fb:part.oscar|fb:part.eder|fb:part.falcao
+54	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+54	1	fb:cell.group_f	Group F	group|f	Group|f	NNP|NN	O|O	|					
+54	2	fb:cell.new_zealand	New Zealand	new|zealand	New|Zealand	NNP|NNP	LOCATION|LOCATION	|					
+54	3	fb:cell.4_0	4–0	4|--|0	4|--|0	CD|:|CD	NUMBER|O|NUMBER	4.0||0.0	4.0		0.0		
+54	4	fb:cell.zico_2_falcao_serginho	Zico (2), Falcão, Serginho	zico|-lrb-|2|-rrb-|,|falcão|,|serginho	Zico|-lrb-|2|-rrb-|,|Falcão|,|Serginho	NNP|-LRB-|LS|-RRB-|,|NNP|,|NNP	PERSON|O|NUMBER|O|O|LOCATION|O|PERSON	||2.0|||||	2.0			Zico (2)|Falcão|Serginho	fb:part.zico_2|fb:part.falcao|fb:part.serginho
+55	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+55	1	fb:cell.group_c_round_2	Group C Round 2	group|c|round|2	Group|C|Round|2	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+55	2	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+55	3	fb:cell.3_1	3–1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+55	4	fb:cell.zico_serginho_junior	Zico, Serginho, Júnior	zico|,|serginho|,|júnior	Zico|,|Serginho|,|Júnior	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Zico|Serginho|Júnior	fb:part.zico|fb:part.serginho|fb:part.junior
+56	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+56	1	fb:cell.group_c_round_2	Group C Round 2	group|c|round|2	Group|C|Round|2	NNP|NNP|NNP|CD	O|O|O|NUMBER	|||2.0	2.0				
+56	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+56	3	fb:cell.2_3	2–3	2|--|3	2|--|3	CD|:|CD	NUMBER|O|NUMBER	2.0||3.0	2.0		3.0		
+56	4	fb:cell.socrates_falcao	Sócrates, Falcão	sócrates|,|falcão	Sócrates|,|Falcão	NNP|,|NNP	O|O|PERSON	||				Sócrates|Falcão	fb:part.socrates|fb:part.falcao
+57	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+57	1	fb:cell.group_d	Group D	group|d	group|d	NN|NN	O|O	|					
+57	2	fb:cell.spain	Spain	spain	Spain	NNP	LOCATION						
+57	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+57	4	fb:cell.socrates	Sócrates	sócrates	sócrates	NNS	O					Sócrates	fb:part.socrates
+58	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+58	1	fb:cell.group_d	Group D	group|d	group|d	NN|NN	O|O	|					
+58	2	fb:cell.algeria	Algeria	algeria	Algeria	NNP	LOCATION						
+58	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+58	4	fb:cell.careca	Careca	careca	Careca	NNP	PERSON					Careca	fb:part.careca
+59	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+59	1	fb:cell.group_d	Group D	group|d	group|d	NN|NN	O|O	|					
+59	2	fb:cell.northern_ireland	Northern Ireland	northern|ireland	northern|Ireland	JJ|NNP	LOCATION|LOCATION	|					
+59	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+59	4	fb:cell.careca_2_josimar	Careca (2), Josimar	careca|-lrb-|2|-rrb-|,|josimar	Careca|-lrb-|2|-rrb-|,|Josimar	NNP|-LRB-|LS|-RRB-|,|NNP	PERSON|O|NUMBER|O|O|PERSON	||2.0|||	2.0			Careca (2)|Josimar	fb:part.careca_2|fb:part.josimar
+60	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+60	1	fb:cell.round_of_16	Round of 16	round|of|16	Round|of|16	NNP|IN|CD	O|O|NUMBER	||16.0	16.0				
+60	2	fb:cell.poland	Poland	poland	Poland	NNP	LOCATION						
+60	3	fb:cell.4_0	4–0	4|--|0	4|--|0	CD|:|CD	NUMBER|O|NUMBER	4.0||0.0	4.0		0.0		
+60	4	fb:cell.socrates_josimar_edinho_careca	Sócrates, Josimar, Edinho, Careca	sócrates|,|josimar|,|edinho|,|careca	Sócrates|,|Josimar|,|Edinho|,|Careca	NNP|,|NNP|,|NNP|,|NNP	O|O|PERSON|O|PERSON|O|PERSON	||||||				Sócrates|Josimar|Edinho|Careca	fb:part.socrates|fb:part.josimar|fb:part.edinho|fb:part.careca
+61	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+61	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+61	2	fb:cell.france	France	france	France	NNP	LOCATION						
+61	3	fb:cell.1_1_aet	1–1 (AET)	1|--|1|-lrb-|aet|-rrb-	1|--|1|-lrb-|aet|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	1.0||1.0|||	1.0		1.0		
+61	4	fb:cell.careca	Careca	careca	Careca	NNP	PERSON					Careca	fb:part.careca
+62	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+62	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+62	2	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+62	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+62	4	fb:cell.careca_2	Careca (2)	careca|-lrb-|2|-rrb-	Careca|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O	||2.0|	2.0			Careca (2)	fb:part.careca_2
+63	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+63	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+63	2	fb:cell.costa_rica	Costa Rica	costa|rica	Costa|Rica	NNP|NNP	LOCATION|LOCATION	|					
+63	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+63	4	fb:cell.muller	Müller	müller	müller	NN	O					Müller	fb:part.muller
+64	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+64	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+64	2	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+64	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+64	4	fb:cell.muller	Müller	müller	müller	NN	O					Müller	fb:part.muller
+65	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+65	1	fb:cell.round_of_16	Round of 16	round|of|16	Round|of|16	NNP|IN|CD	O|O|NUMBER	||16.0	16.0				
+65	2	fb:cell.argentina	Argentina	argentina	Argentina	NNP	LOCATION						
+65	3	fb:cell.0_1	0–1	0|--|1	0|--|1	CD|:|CD	NUMBER|O|NUMBER	0.0||1.0	0.0		1.0		
+65	4	fb:cell.null											fb:part.null
+66	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+66	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+66	2	fb:cell.russia	Russia	russia	Russia	NNP	LOCATION						
+66	3	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+66	4	fb:cell.romario_rai	Romário, Raí	romário|,|raí	Romário|,|raí	NNP|,|NN	PERSON|O|O	||				Romário|Raí	fb:part.romario|fb:part.rai
+67	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+67	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+67	2	fb:cell.cameroon	Cameroon	cameroon	Cameroon	NNP	LOCATION						
+67	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+67	4	fb:cell.romario_marcio_santos_bebeto	Romário, Márcio Santos, Bebeto	romário|,|márcio|santos|,|bebeto	Romário|,|Márcio|Santos|,|Bebeto	NNP|,|NNP|NNP|,|NNP	PERSON|O|PERSON|PERSON|O|PERSON	|||||				Romário|Márcio Santos|Bebeto	fb:part.romario|fb:part.marcio_santos|fb:part.bebeto
+68	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+68	1	fb:cell.group_b	Group B	group|b	group|b	NN|NN	O|O	|					
+68	2	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+68	3	fb:cell.1_1	1–1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+68	4	fb:cell.romario	Romário	romário	Romário	NNP	PERSON					Romário	fb:part.romario
+69	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+69	1	fb:cell.round_of_16	Round of 16	round|of|16	Round|of|16	NNP|IN|CD	O|O|NUMBER	||16.0	16.0				
+69	2	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+69	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+69	4	fb:cell.bebeto	Bebeto	bebeto	Bebeto	NNP	PERSON					Bebeto	fb:part.bebeto
+70	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+70	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+70	2	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+70	3	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+70	4	fb:cell.romario_bebeto_branco	Romário, Bebeto, Branco	romário|,|bebeto|,|branco	Romário|,|Bebeto|,|Branco	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Romário|Bebeto|Branco	fb:part.romario|fb:part.bebeto|fb:part.branco
+71	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+71	1	fb:cell.semi_final	Semi-Final	semi|final	Semi|Final	NNP|NNP	O|O	|					
+71	2	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+71	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+71	4	fb:cell.romario	Romário	romário	Romário	NNP	PERSON					Romário	fb:part.romario
+72	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+72	1	fb:cell.final	Final	final	final	JJ	O						
+72	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION						
+72	3	fb:cell.0_0_aet	0–0 (AET)	0|--|0|-lrb-|aet|-rrb-	0|--|0|-lrb-|aet|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	0.0||0.0|||	0.0		0.0		
+72	4	fb:cell.null											fb:part.null
+73	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+73	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+73	2	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+73	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+73	4	fb:cell.cesar_sampaio_boyd_og	César Sampaio, Boyd (OG)	césar|sampaio|,|boyd|-lrb-|og|-rrb-	César|Sampaio|,|Boyd|-lrb-|OG|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|PERSON|O|O|O	||||||				César Sampaio|Boyd (OG)	fb:part.cesar_sampaio|fb:part.boyd_og
+74	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+74	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+74	2	fb:cell.morocco	Morocco	morocco	Morocco	NNP	LOCATION						
+74	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+74	4	fb:cell.ronaldo_rivaldo_bebeto	Ronaldo, Rivaldo, Bebeto	ronaldo|,|rivaldo|,|bebeto	Ronaldo|,|Rivaldo|,|Bebeto	NNP|,|NNP|,|NNP	PERSON|O|LOCATION|O|PERSON	||||				Ronaldo|Rivaldo|Bebeto	fb:part.ronaldo|fb:part.rivaldo|fb:part.bebeto
+75	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+75	1	fb:cell.group_a	Group A	group|a	Group|A	NNP|NNP	O|O	|					
+75	2	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+75	3	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+75	4	fb:cell.bebeto	Bebeto	bebeto	Bebeto	NNP	PERSON					Bebeto	fb:part.bebeto
+76	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+76	1	fb:cell.round_of_16	Round of 16	round|of|16	Round|of|16	NNP|IN|CD	O|O|NUMBER	||16.0	16.0				
+76	2	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+76	3	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+76	4	fb:cell.ronaldo_2_cesar_sampaio_2	Ronaldo (2), César Sampaio (2)	ronaldo|-lrb-|2|-rrb-|,|césar|sampaio|-lrb-|2|-rrb-	Ronaldo|-lrb-|2|-rrb-|,|César|Sampaio|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-|,|NNP|NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O|O|PERSON|PERSON|O|NUMBER|O	||2.0||||||2.0|	2.0		2.0	Ronaldo (2)|César Sampaio (2)	fb:part.ronaldo_2|fb:part.cesar_sampaio_2
+77	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+77	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+77	2	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+77	3	fb:cell.3_2	3–2	3|--|2	3|--|2	CD|:|CD	NUMBER|O|NUMBER	3.0||2.0	3.0		2.0		
+77	4	fb:cell.bebeto_rivaldo_2	Bebeto, Rivaldo (2)	bebeto|,|rivaldo|-lrb-|2|-rrb-	Bebeto|,|Rivaldo|-lrb-|2|-rrb-	NNP|,|NNP|-LRB-|LS|-RRB-	PERSON|O|ORGANIZATION|O|NUMBER|O	||||2.0|	2.0			Bebeto|Rivaldo (2)	fb:part.bebeto|fb:part.rivaldo_2
+78	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+78	1	fb:cell.semi_final	Semi-Final	semi|final	Semi|Final	NNP|NNP	O|O	|					
+78	2	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+78	3	fb:cell.1_1_aet	1–1 (AET)	1|--|1|-lrb-|aet|-rrb-	1|--|1|-lrb-|aet|-rrb-	CD|:|CD|-LRB-|NN|-RRB-	NUMBER|O|NUMBER|O|O|O	1.0||1.0|||	1.0		1.0		
+78	4	fb:cell.ronaldo	Ronaldo	ronaldo	Ronaldo	NNP	PERSON					Ronaldo	fb:part.ronaldo
+79	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+79	1	fb:cell.final	Final	final	final	JJ	O						
+79	2	fb:cell.france	France	france	France	NNP	LOCATION						
+79	3	fb:cell.0_3	0–3	0|--|3	0|--|3	CD|:|CD	NUMBER|O|NUMBER	0.0||3.0	0.0		3.0		
+79	4	fb:cell.null											fb:part.null
+80	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+80	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+80	2	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+80	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+80	4	fb:cell.ronaldo_rivaldo	Ronaldo, Rivaldo	ronaldo|,|rivaldo	Ronaldo|,|Rivaldo	NNP|,|NNP	PERSON|O|LOCATION	||				Ronaldo|Rivaldo	fb:part.ronaldo|fb:part.rivaldo
+81	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+81	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+81	2	fb:cell.china_pr	China PR	china|pr	China|pr	NNP|NN	LOCATION|O	|					
+81	3	fb:cell.4_0	4–0	4|--|0	4|--|0	CD|:|CD	NUMBER|O|NUMBER	4.0||0.0	4.0		0.0		
+81	4	fb:cell.roberto_carlos_rivaldo_ronaldinho_ronaldo	Roberto Carlos, Rivaldo, Ronaldinho, Ronaldo	roberto|carlos|,|rivaldo|,|ronaldinho|,|ronaldo	Roberto|Carlos|,|Rivaldo|,|Ronaldinho|,|Ronaldo	NNP|NNP|,|NNP|,|NNP|,|NNP	PERSON|PERSON|O|LOCATION|O|LOCATION|O|PERSON	|||||||				Roberto Carlos|Rivaldo|Ronaldinho|Ronaldo	fb:part.roberto_carlos|fb:part.rivaldo|fb:part.ronaldinho|fb:part.ronaldo
+82	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+82	1	fb:cell.group_c	Group C	group|c	Group|C	NNP|NNP	O|O	|					
+82	2	fb:cell.costa_rica	Costa Rica	costa|rica	Costa|Rica	NNP|NNP	LOCATION|LOCATION	|					
+82	3	fb:cell.5_2	5–2	5|--|2	5|--|2	CD|:|CD	NUMBER|O|NUMBER	5.0||2.0	5.0		2.0		
+82	4	fb:cell.ronaldo_2_edmilson_rivaldo_junior	Ronaldo (2), Edmílson, Rivaldo, Júnior	ronaldo|-lrb-|2|-rrb-|,|edmílson|,|rivaldo|,|júnior	Ronaldo|-lrb-|2|-rrb-|,|Edmílson|,|Rivaldo|,|Júnior	NNP|-LRB-|LS|-RRB-|,|NNP|,|NNP|,|NNP	PERSON|O|NUMBER|O|O|PERSON|O|LOCATION|O|PERSON	||2.0|||||||	2.0			Ronaldo (2)|Edmílson|Rivaldo|Júnior	fb:part.ronaldo_2|fb:part.edmilson|fb:part.rivaldo|fb:part.junior
+83	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+83	1	fb:cell.round_of_16	Round of 16	round|of|16	Round|of|16	NNP|IN|CD	O|O|NUMBER	||16.0	16.0				
+83	2	fb:cell.belgium	Belgium	belgium	Belgium	NNP	LOCATION						
+83	3	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+83	4	fb:cell.rivaldo_ronaldo	Rivaldo, Ronaldo	rivaldo|,|ronaldo	Rivaldo|,|Ronaldo	NNP|,|NNP	LOCATION|O|PERSON	||				Rivaldo|Ronaldo	fb:part.rivaldo|fb:part.ronaldo
+84	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+84	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+84	2	fb:cell.england	England	england	England	NNP	LOCATION						
+84	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+84	4	fb:cell.rivaldo_ronaldinho	Rivaldo, Ronaldinho	rivaldo|,|ronaldinho	Rivaldo|,|Ronaldinho	NNP|,|NNP	LOCATION|O|LOCATION	||				Rivaldo|Ronaldinho	fb:part.rivaldo|fb:part.ronaldinho
+85	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+85	1	fb:cell.semi_final	Semi-Final	semi|final	Semi|Final	NNP|NNP	O|O	|					
+85	2	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+85	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+85	4	fb:cell.ronaldo	Ronaldo	ronaldo	Ronaldo	NNP	PERSON					Ronaldo	fb:part.ronaldo
+86	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+86	1	fb:cell.final	Final	final	final	JJ	O						
+86	2	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+86	3	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+86	4	fb:cell.ronaldo_2	Ronaldo (2)	ronaldo|-lrb-|2|-rrb-	Ronaldo|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O	||2.0|	2.0			Ronaldo (2)	fb:part.ronaldo_2
+87	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+87	1	fb:cell.group_f	Group F	group|f	Group|f	NNP|NN	O|O	|					
+87	2	fb:cell.croatia	Croatia	croatia	Croatia	NNP	LOCATION						
+87	3	fb:cell.1_0	1–0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+87	4	fb:cell.kaka	Kaká	kaká	kaká	NN	O					Kaká	fb:part.kaka
+88	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+88	1	fb:cell.group_f	Group F	group|f	Group|f	NNP|NN	O|O	|					
+88	2	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+88	3	fb:cell.2_0	2–0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+88	4	fb:cell.adriano_fred	Adriano, Fred	adriano|,|fred	Adriano|,|Fred	NNP|,|NNP	PERSON|O|PERSON	||				Adriano|Fred	fb:part.adriano|fb:part.fred
+89	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+89	1	fb:cell.group_f	Group F	group|f	Group|f	NNP|NN	O|O	|					
+89	2	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+89	3	fb:cell.4_1	4–1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+89	4	fb:cell.ronaldo_2_juninho_gilberto	Ronaldo (2), Juninho, Gilberto	ronaldo|-lrb-|2|-rrb-|,|juninho|,|gilberto	Ronaldo|-lrb-|2|-rrb-|,|Juninho|,|Gilberto	NNP|-LRB-|LS|-RRB-|,|NNP|,|NNP	PERSON|O|NUMBER|O|O|PERSON|O|PERSON	||2.0|||||	2.0			Ronaldo (2)|Juninho|Gilberto	fb:part.ronaldo_2|fb:part.juninho|fb:part.gilberto
+90	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+90	1	fb:cell.round_of_16	Round of 16	round|of|16	Round|of|16	NNP|IN|CD	O|O|NUMBER	||16.0	16.0				
+90	2	fb:cell.ghana	Ghana	ghana	Ghana	NNP	LOCATION						
+90	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+90	4	fb:cell.adriano_ronaldo_ze_roberto	Adriano, Ronaldo, Zé Roberto	adriano|,|ronaldo|,|zé|roberto	Adriano|,|Ronaldo|,|Zé|Roberto	NNP|,|NNP|,|NNP|NNP	PERSON|O|PERSON|O|O|PERSON	|||||				Adriano|Ronaldo|Zé Roberto	fb:part.adriano|fb:part.ronaldo|fb:part.ze_roberto
+91	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+91	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+91	2	fb:cell.france	France	france	France	NNP	LOCATION						
+91	3	fb:cell.0_1	0–1	0|--|1	0|--|1	CD|:|CD	NUMBER|O|NUMBER	0.0||1.0	0.0		1.0		
+91	4	fb:cell.null											fb:part.null
+92	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+92	1	fb:cell.group_g	Group G	group|g	Group|G	NNP|NNP	O|O	|					
+92	2	fb:cell.north_korea	North Korea	north|korea	North|Korea	NNP|NNP	LOCATION|LOCATION	|					
+92	3	fb:cell.2_1	2–1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+92	4	fb:cell.maicon_elano	Maicon, Elano	maicon|,|elano	Maicon|,|Elano	NNP|,|NNP	O|O|PERSON	||				Maicon|Elano	fb:part.maicon|fb:part.elano
+93	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+93	1	fb:cell.group_g	Group G	group|g	Group|G	NNP|NNP	O|O	|					
+93	2	fb:cell.ivory_coast	Ivory Coast	ivory|coast	Ivory|Coast	NNP|NNP	LOCATION|LOCATION	|					
+93	3	fb:cell.3_1	3–1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+93	4	fb:cell.luis_fabiano_2_elano	Luis Fabiano (2), Elano	luis|fabiano|-lrb-|2|-rrb-|,|elano	Luis|Fabiano|-lrb-|2|-rrb-|,|elano	NNP|NNP|-LRB-|LS|-RRB-|,|NN	PERSON|PERSON|O|NUMBER|O|O|LOCATION	|||2.0|||	2.0			Luis Fabiano (2)|Elano	fb:part.luis_fabiano_2|fb:part.elano
+94	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+94	1	fb:cell.group_g	Group G	group|g	Group|G	NNP|NNP	O|O	|					
+94	2	fb:cell.portugal	Portugal	portugal	Portugal	NNP	LOCATION						
+94	3	fb:cell.0_0	0–0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+94	4	fb:cell.null											fb:part.null
+95	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+95	1	fb:cell.round_of_16	Round of 16	round|of|16	Round|of|16	NNP|IN|CD	O|O|NUMBER	||16.0	16.0				
+95	2	fb:cell.chile	Chile	chile	Chile	NNP	LOCATION						
+95	3	fb:cell.3_0	3–0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+95	4	fb:cell.juan_luis_fabianho_robinho	Juan, Luis Fabianho, Robinho	juan|,|luis|fabianho|,|robinho	Juan|,|Luis|Fabianho|,|Robinho	NNP|,|NNP|NNP|,|NNP	PERSON|O|PERSON|PERSON|O|LOCATION	|||||				Juan|Luis Fabianho|Robinho	fb:part.juan|fb:part.luis_fabianho|fb:part.robinho
+96	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+96	1	fb:cell.quarter_final	Quarter-Final	quarter|final	quarter|final	NN|JJ	O|O	|					
+96	2	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+96	3	fb:cell.1_2	1–2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+96	4	fb:cell.robinho	Robinho	robinho	Robinho	NNP	LOCATION					Robinho	fb:part.robinho

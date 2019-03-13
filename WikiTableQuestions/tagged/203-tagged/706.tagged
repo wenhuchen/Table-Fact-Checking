@@ -1,0 +1,955 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.numbers_tops	Numbers\nTOPS	numbers|tops	number|top	NNS|NNS	O|O	|					
+-1	1	fb:row.row.numbers_tops_2	Numbers\nTOPS	numbers|tops	number|top	NNS|NNS	O|O	|					
+-1	2	fb:row.row.numbers_pre_tops	Numbers\nPre-TOPS	numbers|pre|tops	number|pre|top	NNS|VBP|NNS	O|O|O	||					
+-1	3	fb:row.row.name_s	Name(s)	name|-lrb-|s|-rrb-	name|-lrb-|s|-rrb-	VB|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.dates	Dates	dates	date	NNS	O						
+-1	5	fb:row.row.final_livery	Final Livery	final|livery	final|livery	JJ|NN	O|O	|					
+-1	6	fb:row.row.operator	Operator	operator	operator	NN	O						
+-1	7	fb:row.row.withdrawn	Withdrawn	withdrawn	withdraw	VBN	O						
+-1	8	fb:row.row.status	Status	status	status	NN	O						
+0	0	fb:cell.86101	86101	86101	86101	CD	NUMBER	86101.0	86101.0				
+0	1	fb:cell.86201	86201	86201	86201	CD	NUMBER	86201.0	86201.0				
+0	2	fb:cell.e3191	E3191	e3191	e3191	NN	O		3191.0				
+0	3	fb:cell.sir_william_a_stanier_frs	Sir William A Stanier FRS	sir|william|a|stanier|frs	Sir|William|A|Stanier|fr	NNP|NNP|NNP|NNP|NN	O|PERSON|PERSON|PERSON|O	||||				Sir William A Stanier FRS	fb:part.sir_william_a_stanier_frs
+0	4	fb:cell.1978_2005_2006	1978–2005\n2006-	1978|--|2005|2006|-	1978|--|2005|2006|-	CD|:|CD|CD|:	DATE|DATE|DATE|DATE|O	1978|1978|2005|2005|	1978.0		2005.0	1978–2005|2006-	fb:part.1978_2005|fb:part.2006
+0	5	fb:cell.british_rail_blue	British Rail Blue	british|rail|blue	british|Rail|Blue	JJ|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||				British Rail Blue	fb:part.british_rail_blue
+0	6	fb:cell.ac_locomotive_group	AC Locomotive Group	ac|locomotive|group	ac|Locomotive|Group	NN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+0	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+0	8	fb:cell.stored_at_willesden_tmd	Stored at Willesden TMD	stored|at|willesden|tmd	store|at|Willesden|tmd	VBN|IN|NNP|NN	O|O|LOCATION|O	|||				Stored at Willesden TMD	fb:part.stored_at_willesden_tmd
+1	0	fb:cell.86102	86102	86102	86102	CD	NUMBER	86102.0	86102.0				
+1	1	fb:cell.86202	86202	86202	86202	CD	NUMBER	86202.0	86202.0				
+1	2	fb:cell.e3150	E3150	e3150	e3150	NN	O		3150.0				
+1	3	fb:cell.robert_a_riddles	Robert A Riddles	robert|a|riddles	Robert|A|Riddles	NNP|NNP|NNPS	PERSON|O|O	||				Robert A Riddles	fb:part.robert_a_riddles
+1	4	fb:cell.1981_2002	1981–2002	1981|--|2002	1981|--|2002	CD|:|CD	DATE|DATE|DATE	1981|1981|2002	1981.0		2002.0	1981–2002	fb:part.1981_2002
+1	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+1	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+1	7	fb:cell.04_2002	04/2002	04\\/2002	04\\/2002	NN	O		4.0		2002.0	04|2002	fb:part.04|fb:part.2002_2
+1	8	fb:cell.scrapped_at_mod_caerwent_04_2005	Scrapped at MoD Caerwent (04/2005)	scrapped|at|mod|caerwent|-lrb-|04\\/2005|-rrb-	scrap|at|mod|caerwent|-lrb-|04\\/2005|-rrb-	VBN|IN|NN|NN|-LRB-|CD|-RRB-	O|O|O|O|O|NUMBER|O	||||||	4.0		2005.0	Scrapped at MoD Caerwent (04|2005)	fb:part.scrapped_at_mod_caerwent_04|fb:part.2005_3
+2	0	fb:cell.86103	86103	86103	86103	CD	NUMBER	86103.0	86103.0				
+2	1	fb:cell.86203	86203	86203	86203	CD	NUMBER	86203.0	86203.0				
+2	2	fb:cell.e3143	E3143	e3143	e3143	NN	O		3143.0				
+2	3	fb:cell.andre_chapelon	André Chapelon	andré|chapelon	André|Chapelon	NNP|NNP	PERSON|PERSON	|				André Chapelon	fb:part.andre_chapelon
+2	4	fb:cell.1981_1995	1981–1995	1981|--|1995	1981|--|1995	CD|:|CD	DATE|DATE|DATE	1981|1981|1995	1981.0		1995.0	1981–1995	fb:part.1981_1995
+2	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+2	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+2	7	fb:cell.05_1995	05/1995	05\\/1995	05\\/1995	CD	NUMBER		5.0		1995.0	05|1995	fb:part.05|fb:part.1995
+2	8	fb:cell.scrapped_at_immingham_rft_11_2002	Scrapped at Immingham RFT (11/2002)	scrapped|at|immingham|rft|-lrb-|11\\/2002|-rrb-	scrap|at|Immingham|RFT|-lrb-|11\\/2002|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	11.0		2002.0	Scrapped at Immingham RFT (11|2002)	fb:part.scrapped_at_immingham_rft_11|fb:part.2002_3
+3	0	fb:cell.86204	86204	86204	86204	CD	NUMBER	86204.0	86204.0				
+3	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	2	fb:cell.e3173	E3173	e3173	e3173	NN	O		3173.0				
+3	3	fb:cell.city_of_carlisle	City of Carlisle	city|of|carlisle	City|of|Carlisle	NNP|IN|NNP	O|O|LOCATION	||				City of Carlisle	fb:part.city_of_carlisle
+3	4	fb:cell.1978_1998	1978–1998	1978|--|1998	1978|--|1998	CD|:|CD	DATE|DATE|DATE	1978|1978|1998	1978.0		1998.0	1978–1998	fb:part.1978_1998
+3	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+3	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+3	7	fb:cell.08_1998	08/1998	08\\/1998	08\\/1998	CD	NUMBER		8.0		1998.0	08|1998	fb:part.08|fb:part.1998_2
+3	8	fb:cell.scrapped_at_immingham_rft_07_2003	Scrapped at Immingham RFT (07/2003)	scrapped|at|immingham|rft|-lrb-|07\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|07\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	7.0		2003.0	Scrapped at Immingham RFT (07|2003)	fb:part.scrapped_at_immingham_rft_07|fb:part.2003_2
+4	0	fb:cell.86205	86205	86205	86205	CD	NUMBER	86205.0	86205.0				
+4	1	fb:cell.86503	86503	86503	86503	CD	NUMBER	86503.0	86503.0				
+4	2	fb:cell.e3129	E3129	e3129	e3129	NN	O		3129.0				
+4	3	fb:cell.city_of_lancaster	City of Lancaster	city|of|lancaster	City|of|Lancaster	NNP|IN|NNP	O|O|LOCATION	||				City of Lancaster	fb:part.city_of_lancaster
+4	4	fb:cell.1979_2003	1979–2003	1979|--|2003	1979|--|2003	CD|:|CD	DATE|DATE|DATE	1979|1979|2003	1979.0		2003.0	1979–2003	fb:part.1979_2003
+4	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+4	6	fb:cell.virgin_west_coast	Virgin West Coast	virgin|west|coast	virgin|West|Coast	JJ|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+4	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+4	8	fb:cell.converted_to_86701_08_2009	Converted to 86701 (08/2009)	converted|to|86701|-lrb-|08\\/2009|-rrb-	convert|to|86701|-lrb-|08\\/2009|-rrb-	VBN|TO|CD|-LRB-|CD|-RRB-	O|O|NUMBER|O|NUMBER|O	||86701.0|||	86701.0		8.0	Converted to 86701 (08|2009)	fb:part.converted_to_86701_08|fb:part.2009_2
+5	0	fb:cell.86206	86206	86206	86206	CD	NUMBER	86206.0	86206.0				
+5	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+5	2	fb:cell.e3184	E3184	e3184	e3184	NN	O		3184.0				
+5	3	fb:cell.city_of_stoke_on_trent	City of Stoke on Trent	city|of|stoke|on|trent	City|of|Stoke|on|Trent	NNP|IN|NNP|IN|NNP	O|O|O|O|O	||||				City of Stoke on Trent	fb:part.city_of_stoke_on_trent
+5	4	fb:cell.1978_2002	1978–2002	1978|--|2002	1978|--|2002	CD|:|CD	DATE|DATE|DATE	1978|1978|2002	1978.0		2002.0	1978–2002	fb:part.1978_2002
+5	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+5	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+5	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+5	8	fb:cell.scrapped_at_cardiff_02_2004	Scrapped at Cardiff (02/2004)	scrapped|at|cardiff|-lrb-|02\\/2004|-rrb-	scrap|at|Cardiff|-lrb-|02\\/2004|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|NUMBER|O	|||||	2.0		2004.0	Scrapped at Cardiff (02|2004)	fb:part.scrapped_at_cardiff_02|fb:part.2004_2
+6	0	fb:cell.86207	86207	86207	86207	CD	NUMBER	86207.0	86207.0				
+6	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	2	fb:cell.e3179	E3179	e3179	e3179	NN	O		3179.0				
+6	3	fb:cell.city_of_lichfield	City of Lichfield	city|of|lichfield	City|of|Lichfield	NNP|IN|NNP	O|O|LOCATION	||				City of Lichfield	fb:part.city_of_lichfield
+6	4	fb:cell.1981_2002	1981–2002	1981|--|2002	1981|--|2002	CD|:|CD	DATE|DATE|DATE	1981|1981|2002	1981.0		2002.0	1981–2002	fb:part.1981_2002
+6	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+6	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+6	7	fb:cell.07_2002	07/2002	07\\/2002	07\\/2002	NN	O		7.0		2002.0	07|2002	fb:part.07|fb:part.2002_2
+6	8	fb:cell.scrapped_at_rotherham_04_2006	Scrapped at Rotherham (04/2006)	scrapped|at|rotherham|-lrb-|04\\/2006|-rrb-	scrap|at|Rotherham|-lrb-|04\\/2006|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|O|NUMBER|O	|||||	4.0		2006.0	Scrapped at Rotherham (04|2006)	fb:part.scrapped_at_rotherham_04|fb:part.2006_2
+7	0	fb:cell.86208	86208	86208	86208	CD	NUMBER	86208.0	86208.0				
+7	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+7	2	fb:cell.e3141	E3141	e3141	e3141	NN	O		3141.0				
+7	3	fb:cell.city_of_chester	City of Chester	city|of|chester	City|of|Chester	NNP|IN|NNP	O|O|LOCATION	||				City of Chester	fb:part.city_of_chester
+7	4	fb:cell.1979_2000	1979–2000	1979|--|2000	1979|--|2000	CD|:|CD	DATE|DATE|DATE	1979|1979|2000	1979.0		2000.0	1979–2000	fb:part.1979_2000
+7	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+7	6	fb:cell.ews	EWS	ews	ew	NN	O						
+7	7	fb:cell.03_2002	03/2002	03\\/2002	03\\/2002	NN	O		3.0		2002.0	03|2002	fb:part.03|fb:part.2002_2
+7	8	fb:cell.scrapped_at_crewe_electric_tmd_07_2003	Scrapped at Crewe Electric TMD (07/2003)	scrapped|at|crewe|electric|tmd|-lrb-|07\\/2003|-rrb-	scrap|at|Crewe|Electric|tmd|-lrb-|07\\/2003|-rrb-	VBN|IN|NNP|NNP|NN|-LRB-|CD|-RRB-	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O	|||||||	7.0		2003.0	Scrapped at Crewe Electric TMD (07|2003)	fb:part.scrapped_at_crewe_electric_tmd_07|fb:part.2003_2
+8	0	fb:cell.86209	86209	86209	86209	CD	NUMBER	86209.0	86209.0				
+8	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+8	2	fb:cell.e3125	E3125	e3125	e3125	CD	NUMBER	3125.0	3125.0				
+8	3	fb:cell.city_of_coventry	City of Coventry	city|of|coventry	City|of|Coventry	NNP|IN|NNP	O|O|O	||				City of Coventry	fb:part.city_of_coventry
+8	4	fb:cell.1979_2004	1979–2004	1979|--|2004	1979|--|2004	CD|:|CD	DATE|DATE|DATE	1979|1979|2004	1979.0		2004.0	1979–2004	fb:part.1979_2004
+8	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+8	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+8	7	fb:cell.10_2004	10/2004	10\\/2004	10\\/2004	CD	NUMBER		10.0		2004.0	10|2004	fb:part.10|fb:part.2004
+8	8	fb:cell.scrapped_at_boreham_essex_07_2005	Scrapped at Boreham, Essex (07/2005)	scrapped|at|boreham|,|essex|-lrb-|07\\/2005|-rrb-	scrap|at|Boreham|,|Essex|-lrb-|07\\/2005|-rrb-	VBN|IN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|ORGANIZATION|O|NUMBER|O	|||||||	7.0		2005.0	Scrapped at Boreham|Essex (07|2005)	fb:part.scrapped_at_boreham|fb:part.essex_07|fb:part.2005_3
+9	0	fb:cell.86210	86210	86210	86210	CD	NUMBER	86210.0	86210.0				
+9	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+9	2	fb:cell.e3179	E3179	e3179	e3179	NN	O		3179.0				
+9	3	fb:cell.city_of_edinburgh_c_i_t_75th_anniversary	City of Edinburgh\nC.I.T. 75th Anniversary	city|of|edinburgh|c.i.t.|75th|anniversary	City|of|Edinburgh|C.I.T.|75th|anniversary	NNP|IN|NNP|NNP|JJ|NN	O|O|LOCATION|O|ORDINAL|O	||||75.0|				City of Edinburgh|C.I.T. 75th Anniversary	fb:part.city_of_edinburgh|fb:part.c_i_t_75th_anniversary
+9	4	fb:cell.1981_1995_1995_2003	1981–1995\n1995–2003	1981|--|1995|1995|--|2003	1981|--|1995|1995|--|2003	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1981|1981|1995|1995|1995|2003	1981.0		1995.0	1981–1995|1995–2003	fb:part.1981_1995|fb:part.1995_2003
+9	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+9	6	fb:cell.ews	EWS	ews	ew	NN	O						
+9	7	fb:cell.12_2002	12/2002	12\\/2002	12\\/2002	CD	NUMBER		12.0		2002.0	12|2002	fb:part.12|fb:part.2002_2
+9	8	fb:cell.converted_to_86902_12_2004	Converted to 86902 (12/2004)	converted|to|86902|-lrb-|12\\/2004|-rrb-	convert|to|86902|-lrb-|12\\/2004|-rrb-	VBN|TO|CD|-LRB-|CD|-RRB-	O|O|NUMBER|O|NUMBER|O	||86902.0|||	86902.0		12.0	Converted to 86902 (12|2004)	fb:part.converted_to_86902_12|fb:part.2004_2
+10	0	fb:cell.86211	86211	86211	86211	CD	NUMBER	86211.0	86211.0				
+10	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+10	2	fb:cell.e3147	E3147	e3147	e3147	NN	O		3147.0				
+10	3	fb:cell.city_of_milton_keynes	City of Milton Keynes	city|of|milton|keynes	City|of|Milton|Keynes	NNP|IN|NNP|NNP	O|O|PERSON|PERSON	|||				City of Milton Keynes	fb:part.city_of_milton_keynes
+10	4	fb:cell.1982_1986	1982–1986	1982|--|1986	1982|--|1986	CD|:|CD	DATE|DATE|DATE	1982|1982|1986	1982.0		1986.0	1982–1986	fb:part.1982_1986
+10	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+10	6	fb:cell.british_rail	British Rail	british|rail	british|Rail	JJ|NNP	O|O	|					
+10	7	fb:cell.11_1986	11/1986	11\\/1986	11\\/1986	CD	NUMBER		11.0		1986.0	11|1986	fb:part.11|fb:part.1986
+10	8	fb:cell.written_off_in_colwich_accident_scrapped_at_crewe_works_09_1987	Written-off in Colwich accident\nScrapped at Crewe Works (09/1987)	written|off|in|colwich|accident|scrapped|at|crewe|works|-lrb-|09\\/1987|-rrb-	write|off|in|Colwich|accident|scrap|at|Crewe|Works|-lrb-|09\\/1987|-rrb-	VBN|RP|IN|NNP|NN|VBD|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|O|LOCATION|O|O|O|ORGANIZATION|ORGANIZATION|O|NUMBER|O	|||||||||||	9.0		1987.0	Written-off in Colwich accident|Scrapped at Crewe Works (09|1987)	fb:part.written_off_in_colwich_accident|fb:part.scrapped_at_crewe_works_09|fb:part.1987
+11	0	fb:cell.86212	86212	86212	86212	CD	NUMBER	86212.0	86212.0				
+11	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+11	2	fb:cell.e3151	E3151	e3151	e3151	NN	O		3151.0				
+11	3	fb:cell.preston_guild_preston_guild_1328_1992	Preston Guild\nPreston Guild 1328-1992	preston|guild|preston|guild|1328-1992	Preston|Guild|Preston|Guild|1328-1992	NNP|NNP|NNP|NNP|CD	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|DATE	||||1328/1992	1328.0		1992.0	Preston Guild|Preston Guild 1328-1992	fb:part.preston_guild|fb:part.preston_guild_1328_1992
+11	4	fb:cell.1979_1992_1992_2003	1979–1992\n1992–2003	1979|--|1992|1992|--|2003	1979|--|1992|1992|--|2003	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1979|1979|1992|1992|1992|2003	1979.0		1992.0	1979–1992|1992–2003	fb:part.1979_1992|fb:part.1992_2003
+11	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+11	6	fb:cell.fm_rail	FM Rail	fm|rail	FM|Rail	NNP|NNP	O|O	|					
+11	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+11	8	fb:cell.scrapped_at_emr_kingsbury_02_2011	Scrapped at EMR Kingsbury 02/2011	scrapped|at|emr|kingsbury|02\\/2011	scrap|at|EMR|Kingsbury|02\\/2011	VBN|IN|NNP|NNP|CD	O|O|O|PERSON|NUMBER	||||	2.0		2011.0	Scrapped at EMR Kingsbury 02|2011	fb:part.scrapped_at_emr_kingsbury_02|fb:part.2011
+12	0	fb:cell.86213	86213	86213	86213	CD	NUMBER	86213.0	86213.0				
+12	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+12	2	fb:cell.e3193	E3193	e3193	e3193	NN	O		3193.0				
+12	3	fb:cell.lancashire_witch	Lancashire Witch	lancashire|witch	Lancashire|witch	NNP|NN	ORGANIZATION|ORGANIZATION	|				Lancashire Witch	fb:part.lancashire_witch
+12	4	fb:cell.1981	1981-	1981|-	1981|-	CD|:	DATE|O	1981|	1981.0			1981-	fb:part.1981
+12	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+12	6	fb:cell.ac_locomotive_group	AC Locomotive Group	ac|locomotive|group	ac|Locomotive|Group	NN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+12	7	fb:cell.09_1998	09/1998	09\\/1998	09\\/1998	CD	NUMBER		9.0		1998.0	09|1998	fb:part.09|fb:part.1998_2
+12	8	fb:cell.stored_at_barrow_hill_engine_shed	Stored at Barrow Hill Engine Shed.	stored|at|barrow|hill|engine|shed|.	store|at|Barrow|Hill|Engine|Shed|.	VBN|IN|NNP|NNP|NNP|NNP|.	O|O|O|O|O|O|O	||||||				Stored at Barrow Hill Engine Shed.	fb:part.stored_at_barrow_hill_engine_shed
+13	0	fb:cell.86214	86214	86214	86214	CD	NUMBER	86214.0	86214.0				
+13	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+13	2	fb:cell.e3106	E3106	e3106	e3106	NN	O		3106.0				
+13	3	fb:cell.sans_pareil	Sans Pareil	sans|pareil	Sans|Pareil	NNP|NNP	O|O	|				Sans Pareil	fb:part.sans_pareil
+13	4	fb:cell.1980_2002	1980–2002	1980|--|2002	1980|--|2002	CD|:|CD	DATE|DATE|DATE	1980|1980|2002	1980.0		2002.0	1980–2002	fb:part.1980_2002
+13	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+13	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+13	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+13	8	fb:cell.scrapped_at_rotherham_03_2006	Scrapped at Rotherham (03/2006)	scrapped|at|rotherham|-lrb-|03\\/2006|-rrb-	scrap|at|Rotherham|-lrb-|03\\/2006|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|O|NUMBER|O	|||||	3.0		2006.0	Scrapped at Rotherham (03|2006)	fb:part.scrapped_at_rotherham_03|fb:part.2006_2
+14	0	fb:cell.86215	86215	86215	86215	CD	NUMBER	86215.0	86215.0				
+14	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+14	2	fb:cell.e3165	E3165	e3165	e3165	NN	O		3165.0				
+14	3	fb:cell.joseph_chamberlain_norwich_cathedral_norfolk_and_norwich_festival_the_round_tabler	Joseph Chamberlain\nNorwich Cathedral\nNorfolk and Norwich Festival\nThe Round Tabler	joseph|chamberlain|norwich|cathedral|norfolk|and|norwich|festival|the|round|tabler	Joseph|Chamberlain|Norwich|Cathedral|Norfolk|and|Norwich|Festival|The|Round|Tabler	NNP|NNP|NNP|NNP|NNP|CC|NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O|O|PERSON	||||||||||				Joseph Chamberlain|Norwich Cathedral|Norfolk and Norwich Festival|The Round Tabler	fb:part.joseph_chamberlain|fb:part.norwich_cathedral|fb:part.norfolk_and_norwich_festival|fb:part.the_round_tabler
+14	4	fb:cell.1981_1996_1996_1997_1998_1999_2003_2004	1981–1996\n1996–1997\n1998–1999\n2003–2004	1981|--|1996|1996|--|1997|1998|--|1999|2003|--|2004	1981|--|1996|1996|--|1997|1998|--|1999|2003|--|2004	CD|:|CD|CD|:|CD|CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1981|1981|1996|1996|1996|1997|1997|1997|1999|1999|1999|2004	1981.0		1996.0	1981–1996|1996–1997|1998–1999|2003–2004	fb:part.1981_1996|fb:part.1996_1997|fb:part.1998_1999|fb:part.2003_2004
+14	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+14	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+14	7	fb:cell.10_2004	10/2004	10\\/2004	10\\/2004	CD	NUMBER		10.0		2004.0	10|2004	fb:part.10|fb:part.2004
+14	8	fb:cell.exported_hungary_05_2012_export_number_0450_005_8_operated_floyd_zrt	Exported Hungary. (05/2012) Export Number 0450 005-8. Operated Floyd ZRt.	exported|hungary|.|-lrb-|05\\/2012|-rrb-|export|number|0450|005-8|.|operated|floyd|zrt|.	export|Hungary|.|-lrb-|05\\/2012|-rrb-|Export|Number|0450|005-8|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|VBN|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|O|O|O|O	||||||||0450|5.0 - 8.0|||||				Exported Hungary. (05|2012) Export Number 0450 005-8. Operated Floyd ZRt.	fb:part.exported_hungary_05|fb:part.2012_export_number_0450_005_8_operated_floyd_zrt
+15	0	fb:cell.86216	86216	86216	86216	CD	NUMBER	86216.0	86216.0				
+15	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+15	2	fb:cell.e3166	E3166	e3166	e3166	NN	O		3166.0				
+15	3	fb:cell.meteor	Meteor	meteor	Meteor	NNP	O					Meteor	fb:part.meteor
+15	4	fb:cell.1978_2002	1978–2002	1978|--|2002	1978|--|2002	CD|:|CD	DATE|DATE|DATE	1978|1978|2002	1978.0		2002.0	1978–2002	fb:part.1978_2002
+15	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+15	6	fb:cell.virgin_west_coast	Virgin West Coast	virgin|west|coast	virgin|West|Coast	JJ|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+15	7	fb:cell.04_1998	04/1998	04\\/1998	04\\/1998	CD	NUMBER		4.0		1998.0	04|1998	fb:part.04|fb:part.1998_2
+15	8	fb:cell.scrapped_at_immingham_rft_03_2003	Scrapped at Immingham RFT (03/2003)	scrapped|at|immingham|rft|-lrb-|03\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|03\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	3.0		2003.0	Scrapped at Immingham RFT (03|2003)	fb:part.scrapped_at_immingham_rft_03|fb:part.2003_2
+16	0	fb:cell.86217	86217	86217	86217	CD	NUMBER	86217.0	86217.0				
+16	1	fb:cell.86504	86504	86504	86504	CD	NUMBER	86504.0	86504.0				
+16	2	fb:cell.e3177	E3177	e3177	e3177	NN	O		3177.0				
+16	3	fb:cell.comet_halley_s_comet_city_university	Comet\nHalley's Comet\nCity University	comet|halley|'s|comet|city|university	Comet|Halley|'s|Comet|City|University	NNP|NNP|POS|NNP|NNP|NNP	PERSON|PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Comet|Halley's Comet|City University	fb:part.comet|fb:part.halley_s_comet|fb:part.city_university
+16	4	fb:cell.1980_1985_1985_1994_1994_2004	1980–1985\n1985–1994\n1994–2004	1980|--|1985|1985|--|1994|1994|--|2004	1980|--|1985|1985|--|1994|1994|--|2004	CD|:|CD|CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1980|1980|1985|1985|1985|1994|1994|1994|2004	1980.0		1985.0	1980–1985|1985–1994|1994–2004	fb:part.1980_1985|fb:part.1985_1994|fb:part.1994_2004
+16	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+16	6	fb:cell.fm_rail	FM Rail	fm|rail	FM|Rail	NNP|NNP	O|O	|					
+16	7	fb:cell.04_2004	04/2004	04\\/2004	04\\/2004	NN	O		4.0		2004.0	04|2004	fb:part.04|fb:part.2004
+16	8	fb:cell.exported_hungary_02_2013_export_number_0450_006_operated_floyd_zrt	Exported Hungary. (02/2013) Export Number 0450 006. Operated Floyd ZRt.	exported|hungary|.|-lrb-|02\\/2013|-rrb-|export|number|0450|006|.|operated|floyd|zrt|.	export|Hungary|.|-lrb-|02\\/2013|-rrb-|Export|Number|0450|006|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|VBN|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|O|O|O|O	||||||||0450|6.0|||||				Exported Hungary. (02|2013) Export Number 0450 006. Operated Floyd ZRt.	fb:part.exported_hungary_02|fb:part.2013_export_number_0450_006_operated_floyd_zrt
+17	0	fb:cell.86218	86218	86218	86218	CD	NUMBER	86218.0	86218.0				
+17	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+17	2	fb:cell.e3175	E3175	e3175	e3175	NN	O		3175.0				
+17	3	fb:cell.planet_harold_macmillan_year_of_opera_and_musical_theatre_1997_nhs_50	Planet\nHarold Macmillan\nYear of Opera and\nMusical Theatre 1997\nNHS 50	planet|harold|macmillan|year|of|opera|and|musical|theatre|1997|nhs|50	planet|Harold|Macmillan|year|of|Opera|and|musical|Theatre|1997|NHS|50	NN|NNP|NNP|NN|IN|NNP|CC|JJ|NNP|CD|NNP|CD	O|PERSON|PERSON|DURATION|O|O|O|O|O|DATE|O|NUMBER	|||||||||1997||50.0	1997.0		50.0	Planet|Harold Macmillan|Year of Opera and|Musical Theatre 1997|NHS 50	fb:part.planet|fb:part.harold_macmillan|fb:part.year_of_opera_and|fb:part.musical_theatre_1997|fb:part.nhs_50
+17	4	fb:cell.1979_1993_1993_1997_1997_1998_1998	1979–1993\n1993–1997\n1997–1998\n1998-	1979|--|1993|1993|--|1997|1997|--|1998|1998|-	1979|--|1993|1993|--|1997|1997|--|1998|1998|-	CD|:|CD|CD|:|CD|CD|:|CD|CD|:	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|O	1979|1979|1993|1993|1993|1997|1997|1997|1998|1998|	1979.0		1993.0	1979–1993|1993–1997|1997–1998|1998-	fb:part.1979_1993|fb:part.1993_1997|fb:part.1997_1998|fb:part.1998
+17	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+17	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+17	7	fb:cell.09_2004	09/2004	09\\/2004	09\\/2004	NN	O		9.0		2004.0	09|2004	fb:part.09|fb:part.2004
+17	8	fb:cell.exported_hungary_02_2011_export_number_0450_004_1_operated_floyd_zrt	Exported Hungary. (02/2011) Export Number 0450 004-1. Operated Floyd ZRt.	exported|hungary|.|-lrb-|02\\/2011|-rrb-|export|number|0450|004-1|.|operated|floyd|zrt|.	export|Hungary|.|-lrb-|02\\/2011|-rrb-|Export|Number|0450|004-1|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|VBN|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|O|O|O|O	||||||||0450|4.0 - 1.0|||||				Exported Hungary. (02|2011) Export Number 0450 004-1. Operated Floyd ZRt.	fb:part.exported_hungary_02|fb:part.2011_export_number_0450_004_1_operated_floyd_zrt
+18	0	fb:cell.86219	86219	86219	86219	CD	NUMBER	86219.0	86219.0				
+18	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+18	2	fb:cell.e3196	E3196	e3196	e3196	NN	O		3196.0				
+18	3	fb:cell.phoenix	Phoenix	phoenix	Phoenix	NNP	LOCATION					Phoenix	fb:part.phoenix
+18	4	fb:cell.1978_2002	1978–2002	1978|--|2002	1978|--|2002	CD|:|CD	DATE|DATE|DATE	1978|1978|2002	1978.0		2002.0	1978–2002	fb:part.1978_2002
+18	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+18	6	fb:cell.virgin_west_coast	Virgin West Coast	virgin|west|coast	virgin|West|Coast	JJ|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+18	7	fb:cell.05_1996	05/1996	05\\/1996	05\\/1996	CD	NUMBER		5.0		1996.0	05|1996	fb:part.05|fb:part.1996
+18	8	fb:cell.scrapped_at_immingham_rft_05_2002	Scrapped at Immingham RFT (05/2002)	scrapped|at|immingham|rft|-lrb-|05\\/2002|-rrb-	scrap|at|Immingham|RFT|-lrb-|05\\/2002|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	5.0		2002.0	Scrapped at Immingham RFT (05|2002)	fb:part.scrapped_at_immingham_rft_05|fb:part.2002_3
+19	0	fb:cell.86220	86220	86220	86220	CD	NUMBER	86220.0	86220.0				
+19	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+19	2	fb:cell.e3156	E3156	e3156	e3156	NN	O		3156.0				
+19	3	fb:cell.goliath_the_round_tabler	Goliath\nThe Round Tabler	goliath|the|round|tabler	Goliath|The|Round|Tabler	NNP|NNP|NNP|NNP	O|O|O|PERSON	|||				Goliath|The Round Tabler	fb:part.goliath|fb:part.the_round_tabler
+19	4	fb:cell.1979_1987_1987_2002	1979–1987\n1987–2002	1979|--|1987|1987|--|2002	1979|--|1987|1987|--|2002	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1979|1979|1987|1987|1987|2002	1979.0		1987.0	1979–1987|1987–2002	fb:part.1979_1987|fb:part.1987_2002
+19	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+19	6	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+19	7	fb:cell.05_2002	05/2002	05\\/2002	05\\/2002	NN	O		5.0		2002.0	05|2002	fb:part.05|fb:part.2002_2
+19	8	fb:cell.scrapped_at_immingham_rft_11_2003	Scrapped at Immingham RFT (11/2003)	scrapped|at|immingham|rft|-lrb-|11\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|11\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	11.0		2003.0	Scrapped at Immingham RFT (11|2003)	fb:part.scrapped_at_immingham_rft_11|fb:part.2003_2
+20	0	fb:cell.86221	86221	86221	86221	CD	NUMBER	86221.0	86221.0				
+20	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+20	2	fb:cell.e3132	E3132	e3132	e3132	NN	O		3132.0				
+20	3	fb:cell.vesta_bbc_look_east	Vesta\nBBC Look East	vesta|bbc|look|east	Vesta|BBC|look|East	NNP|NNP|VB|NNP	ORGANIZATION|ORGANIZATION|O|O	|||				Vesta|BBC Look East	fb:part.vesta|fb:part.bbc_look_east
+20	4	fb:cell.1979_1987_1987_2003	1979–1987\n1987–2003	1979|--|1987|1987|--|2003	1979|--|1987|1987|--|2003	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1979|1979|1987|1987|1987|2003	1979.0		1987.0	1979–1987|1987–2003	fb:part.1979_1987|fb:part.1987_2003
+20	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+20	6	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+20	7	fb:cell.05_2003	05/2003	05\\/2003	05\\/2003	CD	NUMBER		5.0		2003.0	05|2003	fb:part.05|fb:part.2003
+20	8	fb:cell.scrapped_at_immingham_rft_11_2003	Scrapped at Immingham RFT (11/2003)	scrapped|at|immingham|rft|-lrb-|11\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|11\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	11.0		2003.0	Scrapped at Immingham RFT (11|2003)	fb:part.scrapped_at_immingham_rft_11|fb:part.2003_2
+21	0	fb:cell.86222	86222	86222	86222	CD	NUMBER	86222.0	86222.0				
+21	1	fb:cell.86502	86502	86502	86502	CD	NUMBER	86502.0	86502.0				
+21	2	fb:cell.e3131	E3131	e3131	e3131	NN	O		3131.0				
+21	3	fb:cell.fury_lloyd_s_list_lloyd_s_list_250th_anniversary_clothes_show_live	Fury\nLloyd's List\nLloyd's List 250th Anniversary\nClothes Show Live	fury|lloyd|'s|list|lloyd|'s|list|250th|anniversary|clothes|show|live	fury|Lloyd|'s|list|Lloyd|'s|list|250th|anniversary|Clothes|Show|Live	NN|NNP|POS|NN|NNP|POS|NN|NN|NN|NNPS|NNP|NNP	O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O	|||||||||||	250.0			Fury|Lloyd's List|Lloyd's List 250th Anniversary|Clothes Show Live	fb:part.fury|fb:part.lloyd_s_list|fb:part.lloyd_s_list_250th_anniversary|fb:part.clothes_show_live
+21	4	fb:cell.1979_1987_1987_1989_1989_1994_1994_2002	1979–1987\n1987–1989\n1989–1994\n1994–2002	1979|--|1987|1987|--|1989|1989|--|1994|1994|--|2002	1979|--|1987|1987|--|1989|1989|--|1994|1994|--|2002	CD|:|CD|CD|:|CD|CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1979|1979|1987|1987|1987|1989|1989|1989|1994|1994|1994|2002	1979.0		1987.0	1979–1987|1987–1989|1989–1994|1994–2002	fb:part.1979_1987|fb:part.1987_1989|fb:part.1989_1994|fb:part.1994_2002
+21	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+21	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+21	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+21	8	fb:cell.scrapped_at_immingham_rft_12_2003	Scrapped at Immingham RFT (12/2003)	scrapped|at|immingham|rft|-lrb-|12\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|12\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	12.0		2003.0	Scrapped at Immingham RFT (12|2003)	fb:part.scrapped_at_immingham_rft_12|fb:part.2003_2
+22	0	fb:cell.86223	86223	86223	86223	CD	NUMBER	86223.0	86223.0				
+22	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+22	2	fb:cell.e3158	E3158	e3158	e3158	NN	O		3158.0				
+22	3	fb:cell.hector_norwich_union	Hector\nNorwich Union	hector|norwich|union	Hector|Norwich|Union	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Hector|Norwich Union	fb:part.hector|fb:part.norwich_union
+22	4	fb:cell.1979_1987_1987_2004	1979–1987\n1987–2004	1979|--|1987|1987|--|2004	1979|--|1987|1987|--|2004	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1979|1979|1987|1987|1987|2004	1979.0		1987.0	1979–1987|1987–2004	fb:part.1979_1987|fb:part.1987_2004
+22	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+22	6	fb:cell.fm_rail	FM Rail	fm|rail	FM|Rail	NNP|NNP	O|O	|					
+22	7	fb:cell.04_2004	04/2004	04\\/2004	04\\/2004	NN	O		4.0		2004.0	04|2004	fb:part.04|fb:part.2004
+22	8	fb:cell.scrapped_at_emr_kingsbury_04_2011	Scrapped at EMR Kingsbury 04/2011	scrapped|at|emr|kingsbury|04\\/2011	scrap|at|EMR|Kingsbury|04\\/2011	VBN|IN|NNP|NNP|CD	O|O|O|PERSON|NUMBER	||||	4.0		2011.0	Scrapped at EMR Kingsbury 04|2011	fb:part.scrapped_at_emr_kingsbury_04|fb:part.2011
+23	0	fb:cell.86224	86224	86224	86224	CD	NUMBER	86224.0	86224.0				
+23	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+23	2	fb:cell.e3134	E3134	e3134	e3134	NN	O		3134.0				
+23	3	fb:cell.caledonian	Caledonian	caledonian	caledonian	JJ	MISC					Caledonian	fb:part.caledonian
+23	4	fb:cell.1979_1988	1979–1988	1979|--|1988	1979|--|1988	CD|:|CD	DATE|DATE|DATE	1979|1979|1988	1979.0		1988.0	1979–1988	fb:part.1979_1988
+23	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+23	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+23	7	fb:cell.07_2002	07/2002	07\\/2002	07\\/2002	NN	O		7.0		2002.0	07|2002	fb:part.07|fb:part.2002_2
+23	8	fb:cell.scrapped_at_rotherham_05_2006	Scrapped at Rotherham (05/2006)	scrapped|at|rotherham|-lrb-|05\\/2006|-rrb-	scrap|at|Rotherham|-lrb-|05\\/2006|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|O|NUMBER|O	|||||	5.0		2006.0	Scrapped at Rotherham (05|2006)	fb:part.scrapped_at_rotherham_05|fb:part.2006_2
+24	0	fb:cell.86225	86225	86225	86225	CD	NUMBER	86225.0	86225.0				
+24	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+24	2	fb:cell.e3164	E3164	e3164	e3164	NN	O		3164.0				
+24	3	fb:cell.hardwicke	Hardwicke	hardwicke	Hardwicke	NNP	PERSON					Hardwicke	fb:part.hardwicke
+24	4	fb:cell.1980_2003	1980–2003	1980|--|2003	1980|--|2003	CD|:|CD	DATE|DATE|DATE	1980|1980|2003	1980.0		2003.0	1980–2003	fb:part.1980_2003
+24	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+24	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+24	7	fb:cell.07_2002	07/2002	07\\/2002	07\\/2002	NN	O		7.0		2002.0	07|2002	fb:part.07|fb:part.2002_2
+24	8	fb:cell.scrapped_at_rotherham_04_2006	Scrapped at Rotherham (04/2006)	scrapped|at|rotherham|-lrb-|04\\/2006|-rrb-	scrap|at|Rotherham|-lrb-|04\\/2006|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|O|NUMBER|O	|||||	4.0		2006.0	Scrapped at Rotherham (04|2006)	fb:part.scrapped_at_rotherham_04|fb:part.2006_2
+25	0	fb:cell.86226	86226	86226	86226	CD	NUMBER	86226.0	86226.0				
+25	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+25	2	fb:cell.e3162	E3162	e3162	e3162	NN	O		3162.0				
+25	3	fb:cell.mail_royal_mail_midlands_charles_rennie_mackintosh	Mail\nRoyal Mail Midlands\nCharles Rennie Mackintosh	mail|royal|mail|midlands|charles|rennie|mackintosh	Mail|Royal|Mail|Midlands|Charles|Rennie|Mackintosh	NNP|NNP|NNP|NNP|NNP|NNP|NNP	O|O|O|O|PERSON|PERSON|PERSON	||||||				Mail|Royal Mail Midlands|Charles Rennie Mackintosh	fb:part.mail|fb:part.royal_mail_midlands|fb:part.charles_rennie_mackintosh
+25	4	fb:cell.1979_1984_1984_1996_1996_2002	1979–1984\n1984–1996\n1996–2002	1979|--|1984|1984|--|1996|1996|--|2002	1979|--|1984|1984|--|1996|1996|--|2002	CD|:|CD|CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1979|1979|1984|1984|1984|1996|1996|1996|2002	1979.0		1984.0	1979–1984|1984–1996|1996–2002	fb:part.1979_1984|fb:part.1984_1996|fb:part.1996_2002
+25	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+25	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+25	7	fb:cell.07_2002	07/2002	07\\/2002	07\\/2002	NN	O		7.0		2002.0	07|2002	fb:part.07|fb:part.2002_2
+25	8	fb:cell.scrapped_at_emr_kingsbury_04_2011	Scrapped at EMR Kingsbury 04/2011	scrapped|at|emr|kingsbury|04\\/2011	scrap|at|EMR|Kingsbury|04\\/2011	VBN|IN|NNP|NNP|CD	O|O|O|PERSON|NUMBER	||||	4.0		2011.0	Scrapped at EMR Kingsbury 04|2011	fb:part.scrapped_at_emr_kingsbury_04|fb:part.2011
+26	0	fb:cell.86227	86227	86227	86227	CD	NUMBER	86227.0	86227.0				
+26	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+26	2	fb:cell.e3117	E3117	e3117	e3117	NN	O		3117.0				
+26	3	fb:cell.sir_henry_johnson_golden_jubilee	Sir Henry Johnson\nGolden Jubilee	sir|henry|johnson|golden|jubilee	Sir|Henry|Johnson|Golden|Jubilee	NNP|NNP|NNP|NNP|NNP	O|PERSON|PERSON|PERSON|PERSON	||||				Sir Henry Johnson|Golden Jubilee	fb:part.sir_henry_johnson|fb:part.golden_jubilee
+26	4	fb:cell.1981_2002_2002_2004	1981–2002\n2002–2004	1981|--|2002|2002|--|2004	1981|--|2002|2002|--|2004	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1981|1981|2002|2002|2002|2004	1981.0		2002.0	1981–2002|2002–2004	fb:part.1981_2002|fb:part.2002_2004
+26	5	fb:cell.anglia_railways_with_union_flag	Anglia Railways\n(with Union Flag)	anglia|railways|-lrb-|with|union|flag|-rrb-	Anglia|Railways|-lrb-|with|Union|Flag|-rrb-	NNP|NNP|-LRB-|IN|NNP|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O|O|O	||||||				Anglia Railways|(with Union Flag)	fb:part.anglia_railways|fb:part._with_union_flag
+26	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+26	7	fb:cell.10_2004	10/2004	10\\/2004	10\\/2004	CD	NUMBER		10.0		2004.0	10|2004	fb:part.10|fb:part.2004
+26	8	fb:cell.scrapped_at_rotherham_07_2005	Scrapped at Rotherham (07/2005)	scrapped|at|rotherham|-lrb-|07\\/2005|-rrb-	scrap|at|Rotherham|-lrb-|07\\/2005|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|O|NUMBER|O	|||||	7.0		2005.0	Scrapped at Rotherham (07|2005)	fb:part.scrapped_at_rotherham_07|fb:part.2005_3
+27	0	fb:cell.86228	86228	86228	86228	CD	NUMBER	86228.0	86228.0				
+27	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+27	2	fb:cell.e3167	E3167	e3167	e3167	NN	O		3167.0				
+27	3	fb:cell.vulcan_heritage	Vulcan Heritage	vulcan|heritage	Vulcan|Heritage	NNP|NNP	O|O	|				Vulcan Heritage	fb:part.vulcan_heritage
+27	4	fb:cell.1980	1980-	1980|-	1980|-	CD|:	DATE|O	1980|	1980.0			1980-	fb:part.1980
+27	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+27	6	fb:cell.virgin_west_coast	Virgin West Coast	virgin|west|coast	virgin|West|Coast	JJ|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+27	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+27	8	fb:cell.exported_hungary_07_2013_export_number_0450_007_operating_floyd_zrt	Exported Hungary. (07/2013) Export number: 0450 007. Operating Floyd ZRt.	exported|hungary|.|-lrb-|07\\/2013|-rrb-|export|number|:|0450|007|.|operating|floyd|zrt|.	export|Hungary|.|-lrb-|07\\/2013|-rrb-|Export|number|:|0450|007|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NN|:|CD|CD|.|VBG|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|O|DATE|NUMBER|O|O|O|O|O	|||||||||0450|7.0|||||				Exported Hungary. (07|2013) Export number: 0450 007. Operating Floyd ZRt.	fb:part.exported_hungary_07|fb:part.2013_export_number_0450_007_operating_floyd_zrt
+28	0	fb:cell.86229	86229	86229	86229	CD	NUMBER	86229.0	86229.0				
+28	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+28	2	fb:cell.e3119	E3119	e3119	e3119	NN	O		3119.0				
+28	3	fb:cell.sir_john_betjeman_lions_club_international	Sir John Betjeman\nLions Club International	sir|john|betjeman|lions|club|international	Sir|John|Betjeman|Lions|Club|International	NNP|NNP|NNP|NNPS|NNP|NNP	O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				Sir John Betjeman|Lions Club International	fb:part.sir_john_betjeman|fb:part.lions_club_international
+28	4	fb:cell.1983_1998_1998_2003	1983–1998\n1998–2003	1983|--|1998|1998|--|2003	1983|--|1998|1998|--|2003	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1983|1983|1998|1998|1998|2003	1983.0		1998.0	1983–1998|1998–2003	fb:part.1983_1998|fb:part.1998_2003
+28	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+28	6	fb:cell.fm_rail	FM Rail	fm|rail	FM|Rail	NNP|NNP	O|O	|					
+28	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+28	8	fb:cell.stored_at_long_marston	Stored at Long Marston	stored|at|long|marston	store|at|Long|Marston	VBN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||				Stored at Long Marston	fb:part.stored_at_long_marston
+29	0	fb:cell.86230	86230	86230	86230	CD	NUMBER	86230.0	86230.0				
+29	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+29	2	fb:cell.e3168	E3168	e3168	e3168	NN	O		3168.0				
+29	3	fb:cell.the_duke_of_wellington	The Duke of Wellington	the|duke|of|wellington	the|Duke|of|Wellington	DT|NNP|IN|NNP	O|O|O|LOCATION	|||				The Duke of Wellington	fb:part.the_duke_of_wellington
+29	4	fb:cell.1981_1997	1981–1997	1981|--|1997	1981|--|1997	CD|:|CD	DATE|DATE|DATE	1981|1981|1997	1981.0		1997.0	1981–1997	fb:part.1981_1997
+29	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+29	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+29	7	fb:cell.10_2004	10/2004	10\\/2004	10\\/2004	CD	NUMBER		10.0		2004.0	10|2004	fb:part.10|fb:part.2004
+29	8	fb:cell.scrapped_at_emr_kingsbury_05_2011	Scrapped at EMR Kingsbury 05/2011	scrapped|at|emr|kingsbury|05\\/2011	scrap|at|EMR|Kingsbury|05\\/2011	VBN|IN|NNP|NNP|CD	O|O|O|PERSON|NUMBER	||||	5.0		2011.0	Scrapped at EMR Kingsbury 05|2011	fb:part.scrapped_at_emr_kingsbury_05|fb:part.2011
+30	0	fb:cell.86231	86231	86231	86231	CD	NUMBER	86231.0	86231.0				
+30	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+30	2	fb:cell.e3126	E3126	e3126	e3126	NN	O		3126.0				
+30	3	fb:cell.starlight_express	Starlight Express	starlight|express	Starlight|Express	NNP|NNP	O|O	|				Starlight Express	fb:part.starlight_express
+30	4	fb:cell.1984_2002	1984–2002	1984|--|2002	1984|--|2002	CD|:|CD	DATE|DATE|DATE	1984|1984|2002	1984.0		2002.0	1984–2002	fb:part.1984_2002
+30	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+30	6	fb:cell.fm_rail	FM Rail	fm|rail	FM|Rail	NNP|NNP	O|O	|					
+30	7	fb:cell.07_2002	07/2002	07\\/2002	07\\/2002	NN	O		7.0		2002.0	07|2002	fb:part.07|fb:part.2002_2
+30	8	fb:cell.stored_at_long_marston	Stored at Long Marston	stored|at|long|marston	store|at|Long|Marston	VBN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||				Stored at Long Marston	fb:part.stored_at_long_marston
+31	0	fb:cell.86232	86232	86232	86232	CD	NUMBER	86232.0	86232.0				
+31	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+31	2	fb:cell.e3113	E3113	e3113	e3113	NN	O		3113.0				
+31	3	fb:cell.harold_macmillan_norfolk_and_norwich_festival_norfolk_and_norwich_festival	Harold Macmillan\nNorfolk and Norwich Festival\nNorfolk and Norwich Festival	harold|macmillan|norfolk|and|norwich|festival|norfolk|and|norwich|festival	Harold|Macmillan|Norfolk|and|Norwich|Festival|Norfolk|and|Norwich|Festival	NNP|NNP|NNP|CC|NNP|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|PERSON|O|LOCATION|LOCATION|LOCATION|O|LOCATION|LOCATION	|||||||||				Harold Macmillan|Norfolk and Norwich Festival|Norfolk and Norwich Festival	fb:part.harold_macmillan|fb:part.norfolk_and_norwich_festival|fb:part.norfolk_and_norwich_festival
+31	4	fb:cell.1979_1990_1990_1995_2001_2005	1979–1990\n1990–1995\n2001–2005	1979|--|1990|1990|--|1995|2001|--|2005	1979|--|1990|1990|--|1995|2001|--|2005	CD|:|CD|CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE|DATE	1979|1979|1990|1990|1990|1995|1995|1995|2005	1979.0		1990.0	1979–1990|1990–1995|2001–2005	fb:part.1979_1990|fb:part.1990_1995|fb:part.2001_2005
+31	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+31	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+31	7	fb:cell.07_2005	07/2005	07\\/2005	07\\/2005	CD	NUMBER		7.0		2005.0	07|2005	fb:part.07|fb:part.2005_2
+31	8	fb:cell.exported_hungary_04_2010_export_number_0450_003_3_operated_floyd_zrt	Exported Hungary. (04/2010) Export Number 0450 003-3. Operated Floyd ZRt.	exported|hungary|.|-lrb-|04\\/2010|-rrb-|export|number|0450|003-3|.|operated|floyd|zrt|.	export|Hungary|.|-lrb-|04\\/2010|-rrb-|Export|Number|0450|003-3|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|VBN|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|O|O|O|O	||||||||0450|3.0 - 3.0|||||				Exported Hungary. (04|2010) Export Number 0450 003-3. Operated Floyd ZRt.	fb:part.exported_hungary_04|fb:part.2010_export_number_0450_003_3_operated_floyd_zrt
+32	0	fb:cell.86233	86233	86233	86233	CD	NUMBER	86233.0	86233.0				
+32	1	fb:cell.86506	86506	86506	86506	CD	NUMBER	86506.0	86506.0				
+32	2	fb:cell.e3172	E3172	e3172	e3172	NN	O		3172.0				
+32	3	fb:cell.laurence_olivier_alstom_heritage	Laurence Olivier\nAlstom Heritage	laurence|olivier|alstom|heritage	Laurence|Olivier|Alstom|Heritage	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Laurence Olivier|Alstom Heritage	fb:part.laurence_olivier|fb:part.alstom_heritage
+32	4	fb:cell.1980_2002_2002_2003	1980–2002\n2002–2003	1980|--|2002|2002|--|2003	1980|--|2002|2002|--|2003	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1980|1980|2002|2002|2002|2003	1980.0		2002.0	1980–2002|2002–2003	fb:part.1980_2002|fb:part.2002_2003
+32	5	fb:cell.br_electric_blue	BR Electric Blue	br|electric|blue	BR|Electric|Blue	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				BR Electric Blue	fb:part.br_electric_blue
+32	6	fb:cell.swift_rail_ltd	Swift Rail Ltd	swift|rail|ltd	Swift|Rail|Ltd	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+32	7	fb:cell.11_2007	11/2007	11\\/2007	11\\/2007	CD	NUMBER		11.0		2007.0	11|2007	fb:part.11|fb:part.2007
+32	8	fb:cell.exported_bulgaria_11_2012_bulmarket_as_a_spares_donor	Exported Bulgaria. (11/2012) Bulmarket as a spares donor.	exported|bulgaria|.|-lrb-|11\\/2012|-rrb-|bulmarket|as|a|spares|donor|.	export|Bulgaria|.|-lrb-|11\\/2012|-rrb-|Bulmarket|as|a|spare|donor|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|IN|DT|NNS|NN|.	O|LOCATION|O|O|NUMBER|O|PERSON|O|O|O|O|O	|||||||||||				Exported Bulgaria. (11|2012) Bulmarket as a spares donor.	fb:part.exported_bulgaria_11|fb:part.2012_bulmarket_as_a_spares_donor
+33	0	fb:cell.86234	86234	86234	86234	CD	NUMBER	86234.0	86234.0				
+33	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+33	2	fb:cell.e3155	E3155	e3155	e3155	NN	O		3155.0				
+33	3	fb:cell.j_b_priestley_om_suffolk_relax_refresh_return	J B Priestley OM\nSuffolk - Relax Refresh Return	j|b|priestley|om|suffolk|-|relax|refresh|return	j|b|priestley|OM|Suffolk|-|relax|Refresh|return	NN|NN|NN|NNP|NNP|:|VB|NNP|NN	O|O|O|O|LOCATION|O|O|O|O	||||||||				J B Priestley OM|Suffolk - Relax Refresh Return	fb:part.j_b_priestley_om|fb:part.suffolk_relax_refresh_return
+33	4	fb:cell.1980_2002_2002	1980–2002\n2002-	1980|--|2002|2002|-	1980|--|2002|2002|-	CD|:|CD|CD|:	DATE|DATE|DATE|DATE|O	1980|1980|2002|2002|	1980.0		2002.0	1980–2002|2002-	fb:part.1980_2002|fb:part.2002
+33	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+33	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+33	7	fb:cell.04_2005	04/2005	04\\/2005	04\\/2005	CD	NUMBER		4.0		2005.0	04|2005	fb:part.04|fb:part.2005_2
+33	8	fb:cell.stored_at_long_marston	Stored at Long Marston	stored|at|long|marston	store|at|Long|Marston	VBN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||				Stored at Long Marston	fb:part.stored_at_long_marston
+34	0	fb:cell.86235	86235	86235	86235	CD	NUMBER	86235.0	86235.0				
+34	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+34	2	fb:cell.e3194	E3194	e3194	e3194	NN	O		3194.0				
+34	3	fb:cell.novelty_harold_macmillan_crown_point	Novelty\nHarold Macmillan\nCrown Point	novelty|harold|macmillan|crown|point	Novelty|Harold|Macmillan|Crown|point	NNP|NNP|NNP|NNP|NN	O|PERSON|PERSON|O|O	||||				Novelty|Harold Macmillan|Crown Point	fb:part.novelty|fb:part.harold_macmillan|fb:part.crown_point
+34	4	fb:cell.1979_1990_1990_1992_1992	1979–1990\n1990–1992\n1992-	1979|--|1990|1990|--|1992|1992|-	1979|--|1990|1990|--|1992|1992|-	CD|:|CD|CD|:|CD|CD|:	DATE|DATE|DATE|DATE|DATE|DATE|DATE|O	1979|1979|1990|1990|1990|1992|1992|	1979.0		1990.0	1979–1990|1990–1992|1992-	fb:part.1979_1990|fb:part.1990_1992|fb:part.1992
+34	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+34	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+34	7	fb:cell.09_2005	09/2005	09\\/2005	09\\/2005	CD	NUMBER		9.0		2005.0	09|2005	fb:part.09|fb:part.2005_2
+34	8	fb:cell.stored_at_long_marston	Stored at Long Marston	stored|at|long|marston	store|at|Long|Marston	VBN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||				Stored at Long Marston	fb:part.stored_at_long_marston
+35	0	fb:cell.86236	86236	86236	86236	CD	NUMBER	86236.0	86236.0				
+35	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+35	2	fb:cell.e3133	E3133	e3133	e3133	NN	O		3133.0				
+35	3	fb:cell.josiah_wedgwood_master_potter_1736_1795	Josiah Wedgwood\nMaster Potter 1736-1795	josiah|wedgwood|master|potter|1736-1795	Josiah|Wedgwood|Master|Potter|1736-1795	NNP|NNP|NNP|NNP|CD	PERSON|PERSON|PERSON|PERSON|DATE	||||1736/1795	1736.0		1795.0	Josiah Wedgwood|Master Potter 1736-1795	fb:part.josiah_wedgwood|fb:part.master_potter_1736_1795
+35	4	fb:cell.1978_2002	1978–2002	1978|--|2002	1978|--|2002	CD|:|CD	DATE|DATE|DATE	1978|1978|2002	1978.0		2002.0	1978–2002	fb:part.1978_2002
+35	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+35	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+35	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+35	8	fb:cell.scrapped_at_immingham_rft_12_2003	Scrapped at Immingham RFT (12/2003)	scrapped|at|immingham|rft|-lrb-|12\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|12\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	12.0		2003.0	Scrapped at Immingham RFT (12|2003)	fb:part.scrapped_at_immingham_rft_12|fb:part.2003_2
+36	0	fb:cell.86237	86237	86237	86237	CD	NUMBER	86237.0	86237.0				
+36	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+36	2	fb:cell.e3197	E3197	e3197	e3197	NN	O		3197.0				
+36	3	fb:cell.sir_charles_halle_university_of_east_anglia	Sir Charles Hallé\nUniversity of East Anglia	sir|charles|hallé|university|of|east|anglia	Sir|Charles|Hallé|University|of|East|Anglia	NNP|NNP|NNP|NNP|IN|NNP|NNP	O|PERSON|PERSON|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				Sir Charles Hallé|University of East Anglia	fb:part.sir_charles_halle|fb:part.university_of_east_anglia
+36	4	fb:cell.1983_1993_1993_2004	1983–1993\n1993–2004	1983|--|1993|1993|--|2004	1983|--|1993|1993|--|2004	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1983|1983|1993|1993|1993|2004	1983.0		1993.0	1983–1993|1993–2004	fb:part.1983_1993|fb:part.1993_2004
+36	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+36	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+36	7	fb:cell.04_2004	04/2004	04\\/2004	04\\/2004	NN	O		4.0		2004.0	04|2004	fb:part.04|fb:part.2004
+36	8	fb:cell.scrapped_at_cardiff_10_2004	Scrapped at Cardiff (10/2004)	scrapped|at|cardiff|-lrb-|10\\/2004|-rrb-	scrap|at|Cardiff|-lrb-|10\\/2004|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|NUMBER|O	|||||	10.0		2004.0	Scrapped at Cardiff (10|2004)	fb:part.scrapped_at_cardiff_10|fb:part.2004_2
+37	0	fb:cell.86238	86238	86238	86238	CD	NUMBER	86238.0	86238.0				
+37	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+37	2	fb:cell.e3116	E3116	e3116	e3116	NN	O		3116.0				
+37	3	fb:cell.european_community	European Community	european|community	European|Community	NNP|NNP	O|O	|				European Community	fb:part.european_community
+37	4	fb:cell.1986_2004	1986–2004	1986|--|2004	1986|--|2004	CD|:|CD	DATE|DATE|DATE	1986|1986|2004	1986.0		2004.0	1986–2004	fb:part.1986_2004
+37	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+37	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+37	7	fb:cell.10_2004	10/2004	10\\/2004	10\\/2004	CD	NUMBER		10.0		2004.0	10|2004	fb:part.10|fb:part.2004
+37	8	fb:cell.scrapped_at_boreham_essex_05_2005	Scrapped at Boreham, Essex (05/2005)	scrapped|at|boreham|,|essex|-lrb-|05\\/2005|-rrb-	scrap|at|Boreham|,|Essex|-lrb-|05\\/2005|-rrb-	VBN|IN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|ORGANIZATION|O|NUMBER|O	|||||||	5.0		2005.0	Scrapped at Boreham|Essex (05|2005)	fb:part.scrapped_at_boreham|fb:part.essex_05|fb:part.2005_3
+38	0	fb:cell.86239	86239	86239	86239	CD	NUMBER	86239.0	86239.0				
+38	1	fb:cell.86507	86507	86507	86507	CD	NUMBER	86507.0	86507.0				
+38	2	fb:cell.e3169	E3169	e3169	e3169	NN	O		3169.0				
+38	3	fb:cell.l_s_lowry	L. S. Lowry	l.|s.|lowry	L.|S.|Lowry	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				L. S. Lowry	fb:part.l_s_lowry
+38	4	fb:cell.1980_1996	1980–1996	1980|--|1996	1980|--|1996	CD|:|CD	DATE|DATE|DATE	1980|1980|1996	1980.0		1996.0	1980–1996	fb:part.1980_1996
+38	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+38	6	fb:cell.ews	EWS	ews	ew	NN	O						
+38	7	fb:cell.04_1996	04/1996	04\\/1996	04\\/1996	CD	NUMBER		4.0		1996.0	04|1996	fb:part.04|fb:part.1996
+38	8	fb:cell.written_off_in_stafford_accident_scrapped_at_crewe_electric_tmd_04_1997	Written-off in Stafford accident\nScrapped at Crewe Electric TMD (04/1997)	written|off|in|stafford|accident|scrapped|at|crewe|electric|tmd|-lrb-|04\\/1997|-rrb-	write|off|in|Stafford|accident|scrap|at|Crewe|Electric|tmd|-lrb-|04\\/1997|-rrb-	VBN|RP|IN|NNP|NN|VBD|IN|NNP|NNP|NN|-LRB-|CD|-RRB-	O|O|O|LOCATION|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O	||||||||||||	4.0		1997.0	Written-off in Stafford accident|Scrapped at Crewe Electric TMD (04|1997)	fb:part.written_off_in_stafford_accident|fb:part.scrapped_at_crewe_electric_tmd_04|fb:part.1997
+39	0	fb:cell.86240	86240	86240	86240	CD	NUMBER	86240.0	86240.0				
+39	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+39	2	fb:cell.e3127	E3127	e3127	e3127	NN	O		3127.0				
+39	3	fb:cell.bishop_eric_treacy	Bishop Eric Treacy	bishop|eric|treacy	Bishop|Eric|Treacy	NNP|NNP|NNP	O|PERSON|PERSON	||				Bishop Eric Treacy	fb:part.bishop_eric_treacy
+39	4	fb:cell.1979_2002	1979–2002	1979|--|2002	1979|--|2002	CD|:|CD	DATE|DATE|DATE	1979|1979|2002	1979.0		2002.0	1979–2002	fb:part.1979_2002
+39	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+39	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+39	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+39	8	fb:cell.scrapped_at_rotherham_04_2005	Scrapped at Rotherham (04/2005)	scrapped|at|rotherham|-lrb-|04\\/2005|-rrb-	scrap|at|Rotherham|-lrb-|04\\/2005|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|O|NUMBER|O	|||||	4.0		2005.0	Scrapped at Rotherham (04|2005)	fb:part.scrapped_at_rotherham_04|fb:part.2005_3
+40	0	fb:cell.86241	86241	86241	86241	CD	NUMBER	86241.0	86241.0				
+40	1	fb:cell.86508	86508	86508	86508	CD	NUMBER	86508.0	86508.0				
+40	2	fb:cell.e3121	E3121	e3121	e3121	NN	O		3121.0				
+40	3	fb:cell.glenfiddich	Glenfiddich	glenfiddich	glenfiddich	NN	O					Glenfiddich	fb:part.glenfiddich
+40	4	fb:cell.1979_2003	1979–2003	1979|--|2003	1979|--|2003	CD|:|CD	DATE|DATE|DATE	1979|1979|2003	1979.0		2003.0	1979–2003	fb:part.1979_2003
+40	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+40	6	fb:cell.ews	EWS	ews	ew	NN	O						
+40	7	fb:cell.01_2000	01/2000	01\\/2000	01\\/2000	CD	NUMBER		1.0		2000.0	01|2000	fb:part.01|fb:part.2000
+40	8	fb:cell.scrapped_at_crewe_electric_tmd_02_2003	Scrapped at Crewe Electric TMD (02/2003)	scrapped|at|crewe|electric|tmd|-lrb-|02\\/2003|-rrb-	scrap|at|Crewe|Electric|tmd|-lrb-|02\\/2003|-rrb-	VBN|IN|NNP|NNP|NN|-LRB-|CD|-RRB-	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O	|||||||	2.0		2003.0	Scrapped at Crewe Electric TMD (02|2003)	fb:part.scrapped_at_crewe_electric_tmd_02|fb:part.2003_2
+41	0	fb:cell.86242	86242	86242	86242	CD	NUMBER	86242.0	86242.0				
+41	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+41	2	fb:cell.e3138	E3138	e3138	e3138	NN	O		3138.0				
+41	3	fb:cell.james_kennedy_gc_colchester_castle	James Kennedy GC\nColchester Castle	james|kennedy|gc|colchester|castle	James|Kennedy|gc|Colchester|Castle	NNP|NNP|NN|NNP|NNP	PERSON|PERSON|O|LOCATION|LOCATION	||||				James Kennedy GC|Colchester Castle	fb:part.james_kennedy_gc|fb:part.colchester_castle
+41	4	fb:cell.1981_2002_2002_2004	1981–2002\n2002–2004	1981|--|2002|2002|--|2004	1981|--|2002|2002|--|2004	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1981|1981|2002|2002|2002|2004	1981.0		2002.0	1981–2002|2002–2004	fb:part.1981_2002|fb:part.2002_2004
+41	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+41	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+41	7	fb:cell.10_2004	10/2004	10\\/2004	10\\/2004	CD	NUMBER		10.0		2004.0	10|2004	fb:part.10|fb:part.2004
+41	8	fb:cell.exported_hungary_07_2013_export_number_0450_008_2_operating_floyd_zrt	Exported Hungary. (07/2013) Export Number 0450 008-2. Operating Floyd ZRt.	exported|hungary|.|-lrb-|07\\/2013|-rrb-|export|number|0450|008-2|.|operating|floyd|zrt|.	export|Hungary|.|-lrb-|07\\/2013|-rrb-|Export|Number|0450|008-2|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|VBG|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|O|O|O|O	||||||||0450|8.0 - 2.0|||||				Exported Hungary. (07|2013) Export Number 0450 008-2. Operating Floyd ZRt.	fb:part.exported_hungary_07|fb:part.2013_export_number_0450_008_2_operating_floyd_zrt
+42	0	fb:cell.86243	86243	86243	86243	CD	NUMBER	86243.0	86243.0				
+42	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+42	2	fb:cell.e3181	E3181	e3181	e3181	NN	O		3181.0				
+42	3	fb:cell.the_boys_brigade	The Boys' Brigade	the|boys|'|brigade	the|Boys|'|brigade	DT|NNPS|POS|NN	O|O|O|O	|||				The Boys' Brigade	fb:part.the_boys_brigade
+42	4	fb:cell.1983_1993	1983–1993	1983|--|1993	1983|--|1993	CD|:|CD	DATE|DATE|DATE	1983|1983|1993	1983.0		1993.0	1983–1993	fb:part.1983_1993
+42	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+42	6	fb:cell.ews	EWS	ews	ew	NN	O						
+42	7	fb:cell.11_2002	11/2002	11\\/2002	11\\/2002	CD	NUMBER		11.0		2002.0	11|2002	fb:part.11|fb:part.2002_2
+42	8	fb:cell.scrapped_at_cf_booth_rotherham_09_2004	Scrapped at CF Booth, Rotherham (09/2004)	scrapped|at|cf|booth|,|rotherham|-lrb-|09\\/2004|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|09\\/2004|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	9.0		2004.0	Scrapped at CF Booth|Rotherham (09|2004)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_09|fb:part.2004_2
+43	0	fb:cell.86244	86244	86244	86244	CD	NUMBER	86244.0	86244.0				
+43	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+43	2	fb:cell.e3178	E3178	e3178	e3178	NN	O		3178.0				
+43	3	fb:cell.the_royal_british_legion	The Royal British Legion	the|royal|british|legion	the|Royal|British|Legion	DT|NNP|NNP|NNP	O|O|O|O	|||				The Royal British Legion	fb:part.the_royal_british_legion
+43	4	fb:cell.1981_2002	1981–2002	1981|--|2002	1981|--|2002	CD|:|CD	DATE|DATE|DATE	1981|1981|2002	1981.0		2002.0	1981–2002	fb:part.1981_2002
+43	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+43	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+43	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+43	8	fb:cell.scrapped_at_immingham_rft_11_2003	Scrapped at Immingham RFT (11/2003)	scrapped|at|immingham|rft|-lrb-|11\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|11\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	11.0		2003.0	Scrapped at Immingham RFT (11|2003)	fb:part.scrapped_at_immingham_rft_11|fb:part.2003_2
+44	0	fb:cell.86245	86245	86245	86245	CD	NUMBER	86245.0	86245.0				
+44	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+44	2	fb:cell.e3182	E3182	e3182	e3182	NN	O		3182.0				
+44	3	fb:cell.dudley_castle_caledonian	Dudley Castle\nCaledonian	dudley|castle|caledonian	Dudley|Castle|Caledonian	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Dudley Castle|Caledonian	fb:part.dudley_castle|fb:part.caledonian
+44	4	fb:cell.1984_1998_1998_2003	1984–1998\n1998–2003	1984|--|1998|1998|--|2003	1984|--|1998|1998|--|2003	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1984|1984|1998|1998|1998|2003	1984.0		1998.0	1984–1998|1998–2003	fb:part.1984_1998|fb:part.1998_2003
+44	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+44	6	fb:cell.virgin_west_coast	Virgin West Coast	virgin|west|coast	virgin|West|Coast	JJ|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+44	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+44	8	fb:cell.scrapped_at_emr_kingsbury_06_2010	Scrapped at EMR Kingsbury (06/2010)	scrapped|at|emr|kingsbury|-lrb-|06\\/2010|-rrb-	scrap|at|EMR|Kingsbury|-lrb-|06\\/2010|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|O|PERSON|O|NUMBER|O	||||||	6.0		2010.0	Scrapped at EMR Kingsbury (06|2010)	fb:part.scrapped_at_emr_kingsbury_06|fb:part.2010
+45	0	fb:cell.86246	86246	86246	86246	CD	NUMBER	86246.0	86246.0				
+45	1	fb:cell.86505	86505	86505	86505	CD	NUMBER	86505.0	86505.0				
+45	2	fb:cell.e3149	E3149	e3149	e3149	NN	O		3149.0				
+45	3	fb:cell.royal_anglian_regiment	Royal Anglian Regiment	royal|anglian|regiment	Royal|anglian|regiment	NNP|JJ|NN	O|O|O	||				Royal Anglian Regiment	fb:part.royal_anglian_regiment
+45	4	fb:cell.1985	1985-	1985|-	1985|-	CD|:	DATE|O	1985|	1985.0			1985-	fb:part.1985
+45	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+45	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+45	7	fb:cell.12_2004	12/2004	12\\/2004	12\\/2004	CD	NUMBER		12.0		2004.0	12|2004	fb:part.12|fb:part.2004
+45	8	fb:cell.stored_at_long_marston	Stored at Long Marston	stored|at|long|marston	store|at|Long|Marston	VBN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||				Stored at Long Marston	fb:part.stored_at_long_marston
+46	0	fb:cell.86247	86247	86247	86247	CD	NUMBER	86247.0	86247.0				
+46	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+46	2	fb:cell.e3192	E3192	e3192	e3192	NN	O		3192.0				
+46	3	fb:cell.abraham_darby	Abraham Darby	abraham|darby	Abraham|Darby	NNP|NNP	PERSON|PERSON	|				Abraham Darby	fb:part.abraham_darby
+46	4	fb:cell.1981_2003	1981–2003	1981|--|2003	1981|--|2003	CD|:|CD	DATE|DATE|DATE	1981|1981|2003	1981.0		2003.0	1981–2003	fb:part.1981_2003
+46	5	fb:cell.europhenix	Europhenix	europhenix	Europhenix	NNP	MISC					Europhenix	fb:part.europhenix
+46	6	fb:cell.europhenix	Europhenix	europhenix	Europhenix	NNP	MISC					Europhenix	fb:part.europhenix
+46	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+46	8	fb:cell.stored_at_crewe_lnwr_europhoenix_demonstrator	Stored at Crewe LNWR. Europhoenix demonstrator.	stored|at|crewe|lnwr|.|europhoenix|demonstrator|.	store|at|Crewe|LNWR|.|Europhoenix|demonstrator|.	VBN|IN|NNP|NNP|.|NNP|NN|.	O|O|ORGANIZATION|O|O|MISC|O|O	|||||||				Stored at Crewe LNWR. Europhoenix demonstrator.	fb:part.stored_at_crewe_lnwr_europhoenix_demonstrator
+47	0	fb:cell.86248	86248	86248	86248	CD	NUMBER	86248.0	86248.0				
+47	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+47	2	fb:cell.e3107	E3107	e3107	e3107	NN	O		3107.0				
+47	3	fb:cell.county_of_clwyd_sir_clwyd	County of Clwyd / Sir Clwyd	county|of|clwyd|\\/|sir|clwyd	County|of|Clwyd|\\/|Sir|Clwyd	NNP|IN|NNP|:|NNP|NNP	O|O|O|O|O|PERSON	|||||				County of Clwyd|Sir Clwyd	fb:part.county_of_clwyd|fb:part.sir_clwyd
+47	4	fb:cell.1981_2003	1981–2003	1981|--|2003	1981|--|2003	CD|:|CD	DATE|DATE|DATE	1981|1981|2003	1981.0		2003.0	1981–2003	fb:part.1981_2003
+47	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+47	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+47	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+47	8	fb:cell.exported_hungary_2_2009_export_number_0450_001_7_operated_floyd_zrt	Exported Hungary. (2/2009) Export Number 0450 001-7. Operated Floyd ZRt.	exported|hungary|.|-lrb-|2\\/2009|-rrb-|export|number|0450|001-7|.|operated|floyd|zrt|.	export|Hungary|.|-lrb-|2\\/2009|-rrb-|Export|Number|0450|001-7|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|VBN|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|O|O|O|O	||||||||0450|1.0 - 7.0|||||				Exported Hungary. (2|2009) Export Number 0450 001-7. Operated Floyd ZRt.	fb:part.exported_hungary_2|fb:part.2009_export_number_0450_001_7_operated_floyd_zrt
+48	0	fb:cell.86249	86249	86249	86249	CD	NUMBER	86249.0	86249.0				
+48	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+48	2	fb:cell.e3161	E3161	e3161	e3161	NN	O		3161.0				
+48	3	fb:cell.county_of_merseyside	County of Merseyside	county|of|merseyside	County|of|Merseyside	NNP|IN|NNP	O|O|LOCATION	||				County of Merseyside	fb:part.county_of_merseyside
+48	4	fb:cell.1981_2005	1981–2005	1981|--|2005	1981|--|2005	CD|:|CD	DATE|DATE|DATE	1981|1981|2005	1981.0		2005.0	1981–2005	fb:part.1981_2005
+48	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+48	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+48	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+48	8	fb:cell.scrapped_at_mod_caerwent_10_2005	Scrapped at MoD Caerwent (10/2005)	scrapped|at|mod|caerwent|-lrb-|10\\/2005|-rrb-	scrap|at|mod|caerwent|-lrb-|10\\/2005|-rrb-	VBN|IN|NN|NN|-LRB-|CD|-RRB-	O|O|O|O|O|NUMBER|O	||||||	10.0		2005.0	Scrapped at MoD Caerwent (10|2005)	fb:part.scrapped_at_mod_caerwent_10|fb:part.2005_3
+49	0	fb:cell.86250	86250	86250	86250	CD	NUMBER	86250.0	86250.0				
+49	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+49	2	fb:cell.e3189	E3189	e3189	e3189	NN	O		3189.0				
+49	3	fb:cell.the_glasgow_herald_sheppard_100	The Glasgow Herald\nSheppard 100	the|glasgow|herald|sheppard|100	the|Glasgow|Herald|Sheppard|100	DT|NNP|NNP|NNP|CD	O|ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER	||||100.0	100.0			The Glasgow Herald|Sheppard 100	fb:part.the_glasgow_herald|fb:part.sheppard_100
+49	4	fb:cell.1980_1998_2003_2004	1980–1998\n2003–2004	1980|--|1998|2003|--|2004	1980|--|1998|2003|--|2004	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1980|1980|1998|1998|1998|2004	1980.0		1998.0	1980–1998|2003–2004	fb:part.1980_1998|fb:part.2003_2004
+49	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+49	6	fb:cell.fm_rail	FM Rail	fm|rail	FM|Rail	NNP|NNP	O|O	|					
+49	7	fb:cell.04_2004	04/2004	04\\/2004	04\\/2004	NN	O		4.0		2004.0	04|2004	fb:part.04|fb:part.2004
+49	8	fb:cell.exported_hungary_5_2009_export_number_0450_002_5_operated_floyd_zrt	Exported Hungary. (5/2009) Export Number 0450 002-5. Operated Floyd ZRt.	exported|hungary|.|-lrb-|5\\/2009|-rrb-|export|number|0450|002-5|.|operated|floyd|zrt|.	export|Hungary|.|-lrb-|5\\/2009|-rrb-|Export|Number|0450|002-5|.|operate|Floyd|ZRt|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|VBN|NNP|NNP|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|O|O|O|O	||||||||0450|2.0 - 5.0|||||				Exported Hungary. (5|2009) Export Number 0450 002-5. Operated Floyd ZRt.	fb:part.exported_hungary_5|fb:part.2009_export_number_0450_002_5_operated_floyd_zrt
+50	0	fb:cell.86251	86251	86251	86251	CD	NUMBER	86251.0	86251.0				
+50	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+50	2	fb:cell.e3183	E3183	e3183	e3183	NN	O		3183.0				
+50	3	fb:cell.the_birmingham_post	The Birmingham Post	the|birmingham|post	the|Birmingham|Post	DT|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||				The Birmingham Post	fb:part.the_birmingham_post
+50	4	fb:cell.1984_2002	1984–2002	1984|--|2002	1984|--|2002	CD|:|CD	DATE|DATE|DATE	1984|1984|2002	1984.0		2002.0	1984–2002	fb:part.1984_2002
+50	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+50	6	fb:cell.fm_rail	FM Rail	fm|rail	FM|Rail	NNP|NNP	O|O	|					
+50	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+50	8	fb:cell.stored_at_long_marston	Stored at Long Marston	stored|at|long|marston	store|at|Long|Marston	VBN|IN|NNP|NNP	O|O|LOCATION|LOCATION	|||				Stored at Long Marston	fb:part.stored_at_long_marston
+51	0	fb:cell.86252	86252	86252	86252	CD	NUMBER	86252.0	86252.0				
+51	1	fb:cell.null	-	-	-	:	O					-	fb:part.null
+51	2	fb:cell.e3101	E3101	e3101	e3101	NN	O		3101.0				
+51	3	fb:cell.the_liverpool_daily_post_sheppard_100	The Liverpool Daily Post\nSheppard 100	the|liverpool|daily|post|sheppard|100	the|Liverpool|Daily|Post|Sheppard|100	DT|NNP|NNP|NNP|NNP|CD	O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER	|||||100.0	100.0			The Liverpool Daily Post|Sheppard 100	fb:part.the_liverpool_daily_post|fb:part.sheppard_100
+51	4	fb:cell.1980_2000_2000_2002	1980–2000\n2000–2002	1980|--|2000|2000|--|2002	1980|--|2000|2000|--|2002	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1980|1980|2000|2000|2000|2002	1980.0		2000.0	1980–2000|2000–2002	fb:part.1980_2000|fb:part.2000_2002
+51	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+51	6	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+51	7	fb:cell.05_2002	05/2002	05\\/2002	05\\/2002	NN	O		5.0		2002.0	05|2002	fb:part.05|fb:part.2002_2
+51	8	fb:cell.scrapped_at_immingham_rft_08_2002	Scrapped at Immingham RFT (08/2002)	scrapped|at|immingham|rft|-lrb-|08\\/2002|-rrb-	scrap|at|Immingham|RFT|-lrb-|08\\/2002|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	8.0		2002.0	Scrapped at Immingham RFT (08|2002)	fb:part.scrapped_at_immingham_rft_08|fb:part.2002_3
+52	0	fb:cell.86253	86253	86253	86253	CD	NUMBER	86253.0	86253.0				
+52	1	fb:cell.86044	86044	86044	86044	CD	NUMBER	86044.0	86044.0				
+52	2	fb:cell.e3136	E3136	e3136	e3136	NN	O		3136.0				
+52	3	fb:cell.the_manchester_guardian	The Manchester Guardian	the|manchester|guardian	the|Manchester|Guardian	DT|NNP|NNP	O|O|O	||				The Manchester Guardian	fb:part.the_manchester_guardian
+52	4	fb:cell.1980_2004	1980–2004	1980|--|2004	1980|--|2004	CD|:|CD	DATE|DATE|DATE	1980|1980|2004	1980.0		2004.0	1980–2004	fb:part.1980_2004
+52	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+52	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+52	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+52	8	fb:cell.converted_to_86901_11_2004	Converted to 86901 (11/2004)	converted|to|86901|-lrb-|11\\/2004|-rrb-	convert|to|86901|-lrb-|11\\/2004|-rrb-	VBN|TO|CD|-LRB-|CD|-RRB-	O|O|NUMBER|O|NUMBER|O	||86901.0|||	86901.0		11.0	Converted to 86901 (11|2004)	fb:part.converted_to_86901_11|fb:part.2004_2
+53	0	fb:cell.86254	86254	86254	86254	CD	NUMBER	86254.0	86254.0				
+53	1	fb:cell.86047	86047	86047	86047	CD	NUMBER	86047.0	86047.0				
+53	2	fb:cell.e3142	E3142	e3142	e3142	NN	O		3142.0				
+53	3	fb:cell.william_webb_ellis	William Webb Ellis	william|webb|ellis	William|Webb|Ellis	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				William Webb Ellis	fb:part.william_webb_ellis
+53	4	fb:cell.1980_1996	1980–1996	1980|--|1996	1980|--|1996	CD|:|CD	DATE|DATE|DATE	1980|1980|1996	1980.0		1996.0	1980–1996	fb:part.1980_1996
+53	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+53	6	fb:cell.ews	EWS	ews	ew	NN	O						
+53	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+53	8	fb:cell.scrapped_at_cf_booth_rotherham_08_2004	Scrapped at CF Booth, Rotherham (08/2004)	scrapped|at|cf|booth|,|rotherham|-lrb-|08\\/2004|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|08\\/2004|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	8.0		2004.0	Scrapped at CF Booth|Rotherham (08|2004)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_08|fb:part.2004_2
+54	0	fb:cell.86255	86255	86255	86255	CD	NUMBER	86255.0	86255.0				
+54	1	fb:cell.86042	86042	86042	86042	CD	NUMBER	86042.0	86042.0				
+54	2	fb:cell.e3154	E3154	e3154	e3154	NN	O		3154.0				
+54	3	fb:cell.penrith_beacon	Penrith Beacon	penrith|beacon	Penrith|Beacon	NNP|NNP	LOCATION|LOCATION	|				Penrith Beacon	fb:part.penrith_beacon
+54	4	fb:cell.1981_1999	1981–1999	1981|--|1999	1981|--|1999	CD|:|CD	DATE|DATE|DATE	1981|1981|1999	1981.0		1999.0	1981–1999	fb:part.1981_1999
+54	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+54	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+54	7	fb:cell.08_1998	08/1998	08\\/1998	08\\/1998	CD	NUMBER		8.0		1998.0	08|1998	fb:part.08|fb:part.1998_2
+54	8	fb:cell.scrapped_at_immingham_rft_09_2002	Scrapped at Immingham RFT (09/2002)	scrapped|at|immingham|rft|-lrb-|09\\/2002|-rrb-	scrap|at|Immingham|RFT|-lrb-|09\\/2002|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	9.0		2002.0	Scrapped at Immingham RFT (09|2002)	fb:part.scrapped_at_immingham_rft_09|fb:part.2002_3
+55	0	fb:cell.86256	86256	86256	86256	CD	NUMBER	86256.0	86256.0				
+55	1	fb:cell.86040	86040	86040	86040	CD	NUMBER	86040.0	86040.0				
+55	2	fb:cell.e3135	E3135	e3135	e3135	NN	O		3135.0				
+55	3	fb:cell.pebble_mill	Pebble Mill	pebble|mill	Pebble|Mill	NNP|NNP	O|O	|				Pebble Mill	fb:part.pebble_mill
+55	4	fb:cell.1981_2003	1981–2003	1981|--|2003	1981|--|2003	CD|:|CD	DATE|DATE|DATE	1981|1981|2003	1981.0		2003.0	1981–2003	fb:part.1981_2003
+55	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+55	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+55	7	fb:cell.10_2002	10/2002	10\\/2002	10\\/2002	CD	NUMBER		10.0		2002.0	10|2002	fb:part.10|fb:part.2002_2
+55	8	fb:cell.scrapped_at_rotherham_03_2006	Scrapped at Rotherham (03/2006)	scrapped|at|rotherham|-lrb-|03\\/2006|-rrb-	scrap|at|Rotherham|-lrb-|03\\/2006|-rrb-	VBN|IN|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|O|NUMBER|O	|||||	3.0		2006.0	Scrapped at Rotherham (03|2006)	fb:part.scrapped_at_rotherham_03|fb:part.2006_2
+56	0	fb:cell.86257	86257	86257	86257	CD	NUMBER	86257.0	86257.0				
+56	1	fb:cell.86043	86043	86043	86043	CD	NUMBER	86043.0	86043.0				
+56	2	fb:cell.e3139	E3139	e3139	e3139	NN	O		3139.0				
+56	3	fb:cell.snowdon	Snowdon	snowdon	Snowdon	NNP	PERSON					Snowdon	fb:part.snowdon
+56	4	fb:cell.1981_1999	1981–1999	1981|--|1999	1981|--|1999	CD|:|CD	DATE|DATE|DATE	1981|1981|1999	1981.0		1999.0	1981–1999	fb:part.1981_1999
+56	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+56	6	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+56	7	fb:cell.11_2002	11/2002	11\\/2002	11\\/2002	CD	NUMBER		11.0		2002.0	11|2002	fb:part.11|fb:part.2002_2
+56	8	fb:cell.scrapped_at_immingham_rft_11_2003	Scrapped at Immingham RFT (11/2003)	scrapped|at|immingham|rft|-lrb-|11\\/2003|-rrb-	scrap|at|Immingham|RFT|-lrb-|11\\/2003|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	11.0		2003.0	Scrapped at Immingham RFT (11|2003)	fb:part.scrapped_at_immingham_rft_11|fb:part.2003_2
+57	0	fb:cell.86258	86258	86258	86258	CD	NUMBER	86258.0	86258.0				
+57	1	fb:cell.86046	86046	86046	86046	CD	NUMBER	86046.0	86046.0				
+57	2	fb:cell.e3192	E3192	e3192	e3192	NN	O		3192.0				
+57	3	fb:cell.talyllyn_the_first_preserved_railway_talyllyn_50_years_of_railway_preservation_1951_2001	Talyllyn - The First\nPreserved Railway\nTalyllyn 50 Years of Railway\nPreservation 1951-2001	talyllyn|-|the|first|preserved|railway|talyllyn|50|years|of|railway|preservation|1951-2001	Talyllyn|-|The|First|Preserved|Railway|Talyllyn|50|year|of|railway|preservation|1951-2001	NNP|:|NNP|NNP|NNP|NNP|NNP|CD|NNS|IN|NN|NN|CD	MISC|O|O|ORDINAL|O|O|O|DURATION|DURATION|O|O|O|DATE	|||1.0||||50.0|50.0||||1951/2001	50.0		1951.0	Talyllyn - The First|Preserved Railway|Talyllyn 50 Years of Railway|Preservation 1951-2001	fb:part.talyllyn_the_first|fb:part.preserved_railway|fb:part.talyllyn_50_years_of_railway|fb:part.preservation_1951_2001
+57	4	fb:cell.1984_2001_2001_2002	1984–2001\n2001-2002	1984|--|2001|2001-2002	1984|--|2001|2001-2002	CD|:|CD|CD	DATE|DATE|DATE|DATE	1984|1984|2001|2001/2002	1984.0		2001.0	1984–2001|2001-2002	fb:part.1984_2001|fb:part.2001_2002
+57	5	fb:cell.virgin_red_black	Virgin Red/Black	virgin|red\\/black	virgin|red\\/black	JJ|NN	O|O	|				Virgin Red|Black	fb:part.virgin_red|fb:part.black
+57	6	fb:cell.virgin_cross_country	Virgin Cross-Country	virgin|cross|country	Virgin|Cross|Country	NNP|NNP|NNP	O|O|O	||					
+57	7	fb:cell.07_2002	07/2002	07\\/2002	07\\/2002	NN	O		7.0		2002.0	07|2002	fb:part.07|fb:part.2002_2
+57	8	fb:cell.conversion_to_battery_electric_locomotive_cancelled_scrapped_at_emr_kingsbury_12_2009	Conversion to battery-electric locomotive cancelled. Scrapped at EMR Kingsbury (12/2009)	conversion|to|battery|electric|locomotive|canceled|.|scrapped|at|emr|kingsbury|-lrb-|12\\/2009|-rrb-	conversion|to|battery|electric|locomotive|cancel|.|scrap|at|EMR|Kingsbury|-lrb-|12\\/2009|-rrb-	NN|TO|NN|JJ|NN|VBN|.|VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|O|O|O|O|O|PERSON|O|NUMBER|O	|||||||||||||				Conversion to battery-electric locomotive cancelled. Scrapped at EMR Kingsbury (12|2009)	fb:part.conversion_to_battery_electric_locomotive_cancelled_scrapped_at_emr_kingsbury_12|fb:part.2009_2
+58	0	fb:cell.86259	86259	86259	86259	CD	NUMBER	86259.0	86259.0				
+58	1	fb:cell.86045	86045	86045	86045	CD	NUMBER	86045.0	86045.0				
+58	2	fb:cell.e3137	E3137	e3137	e3137	NN	O		3137.0				
+58	3	fb:cell.peter_pan_greater_manchester_the_life_soul_of_britain_les_ross	Peter Pan\nGreater Manchester\nThe Life & Soul Of Britain\nLes Ross	peter|pan|greater|manchester|the|life|&|soul|of|britain|les|ross	Peter|Pan|Greater|Manchester|The|Life|&|Soul|of|Britain|Les|Ross	NNP|NNP|NNP|NNP|NNP|NNP|CC|NNP|IN|NNP|NNP|NNP	PERSON|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||||||||				Peter Pan|Greater Manchester|The Life & Soul Of Britain|Les Ross	fb:part.peter_pan|fb:part.greater_manchester|fb:part.the_life_soul_of_britain|fb:part.les_ross
+58	4	fb:cell.1979_1995_1995_2002_2002_2003	1979–1995\n1995-2002\n2002-2003	1979|--|1995|1995-2002|2002-2003	1979|--|1995|1995-2002|2002-2003	CD|:|CD|CD|CD	DATE|DATE|DATE|DATE|DATE	1979|1979|1995|1995/2002|2002/2003	1979.0		1995.0	1979–1995|1995-2002|2002-2003	fb:part.1979_1995|fb:part.1995_2002|fb:part.2002_2003
+58	5	fb:cell.br_electric_blue	BR Electric Blue	br|electric|blue	BR|Electric|Blue	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				BR Electric Blue	fb:part.br_electric_blue
+58	6	fb:cell.peter_pan_locomotive_ltd_les_ross	Peter Pan Locomotive Ltd (Les Ross)	peter|pan|locomotive|ltd|-lrb-|les|ross|-rrb-	Peter|Pan|Locomotive|Ltd|-lrb-|Les|Ross|-rrb-	NNP|NNP|NNP|NNP|-LRB-|NNP|NNP|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|PERSON|PERSON|O	|||||||					
+58	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+58	8	fb:cell.preserved_operational_at_willesden_tmd	Preserved operational at Willesden TMD	preserved|operational|at|willesden|tmd	preserve|operational|at|Willesden|tmd	VBN|JJ|IN|NNP|NN	O|O|O|LOCATION|O	||||				Preserved operational at Willesden TMD	fb:part.preserved_operational_at_willesden_tmd
+59	0	fb:cell.86260	86260	86260	86260	CD	NUMBER	86260.0	86260.0				
+59	1	fb:cell.86048	86048	86048	86048	CD	NUMBER	86048.0	86048.0				
+59	2	fb:cell.e3144	E3144	e3144	e3144	NN	O		3144.0				
+59	3	fb:cell.driver_wallace_oakes_gc	Driver Wallace Oakes GC	driver|wallace|oakes|gc	driver|Wallace|Oakes|gc	NN|NNP|NNP|NN	O|PERSON|PERSON|O	|||				Driver Wallace Oakes GC	fb:part.driver_wallace_oakes_gc
+59	4	fb:cell.1981_2003	1981–2003	1981|--|2003	1981|--|2003	CD|:|CD	DATE|DATE|DATE	1981|1981|2003	1981.0		2003.0	1981–2003	fb:part.1981_2003
+59	5	fb:cell.anglia_railways	Anglia Railways	anglia|railways	Anglia|Railways	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Anglia Railways	fb:part.anglia_railways
+59	6	fb:cell._one	'one'	`|one|'	`|one|'	``|CD|''	O|NUMBER|O	|1.0|					
+59	7	fb:cell.05_2004	05/2004	05\\/2004	05\\/2004	NN	O		5.0		2004.0	05|2004	fb:part.05|fb:part.2004
+59	8	fb:cell.converted_to_86702_08_2009	Converted to 86702 (08/2009)	converted|to|86702|-lrb-|08\\/2009|-rrb-	convert|to|86702|-lrb-|08\\/2009|-rrb-	VBN|TO|CD|-LRB-|CD|-RRB-	O|O|NUMBER|O|NUMBER|O	||86702.0|||	86702.0		8.0	Converted to 86702 (08|2009)	fb:part.converted_to_86702_08|fb:part.2009_2
+60	0	fb:cell.86261	86261	86261	86261	CD	NUMBER	86261.0	86261.0				
+60	1	fb:cell.86041	86041	86041	86041	CD	NUMBER	86041.0	86041.0				
+60	2	fb:cell.e3118	E3118	e3118	e3118	NN	O		3118.0				
+60	3	fb:cell.driver_john_axon_gc_the_rail_charter_partnership	Driver John Axon GC\nThe Rail Charter Partnership	driver|john|axon|gc|the|rail|charter|partnership	driver|John|Axon|gc|the|Rail|Charter|Partnership	NN|NNP|NNP|NN|DT|NNP|NNP|NNP	O|PERSON|PERSON|O|O|O|O|O	|||||||				Driver John Axon GC|The Rail Charter Partnership	fb:part.driver_john_axon_gc|fb:part.the_rail_charter_partnership
+60	4	fb:cell.1981_1992_1997_2004	1981–1992\n1997–2004	1981|--|1992|1997|--|2004	1981|--|1992|1997|--|2004	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1981|1981|1992|1992|1992|2004	1981.0		1992.0	1981–1992|1997–2004	fb:part.1981_1992|fb:part.1997_2004
+60	5	fb:cell.ews_red_gold	EWS Red/Gold	ews|red\\/gold	ew|red\\/gold	NN|NN	O|O	|				EWS Red|Gold	fb:part.ews_red|fb:part.gold
+60	6	fb:cell.ews	EWS	ews	ew	NN	O						
+60	7	fb:cell.11_2002	11/2002	11\\/2002	11\\/2002	CD	NUMBER		11.0		2002.0	11|2002	fb:part.11|fb:part.2002_2
+60	8	fb:cell.scrapped_at_cf_booth_rotherham_12_2004	Scrapped at CF Booth, Rotherham (12/2004)	scrapped|at|cf|booth|,|rotherham|-lrb-|12\\/2004|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|12\\/2004|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	12.0		2004.0	Scrapped at CF Booth|Rotherham (12|2004)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_12|fb:part.2004_2
+61	0	fb:cell.86401	86401	86401	86401	CD	NUMBER	86401.0	86401.0				
+61	1	fb:cell.86001	86001	86001	86001	CD	NUMBER	86001.0	86001.0				
+61	2	fb:cell.e3199	E3199	e3199	e3199	NN	O		3199.0				
+61	3	fb:cell.northampton_town_hertfordshire_rail_tours_northampton_town	Northampton Town\nHertfordshire Rail Tours\nNorthampton Town	northampton|town|hertfordshire|rail|tours|northampton|town	Northampton|Town|Hertfordshire|Rail|Tours|Northampton|Town	NNP|NNP|NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||||				Northampton Town|Hertfordshire Rail Tours|Northampton Town	fb:part.northampton_town|fb:part.hertfordshire_rail_tours|fb:part.northampton_town
+61	4	fb:cell.1989_1991_1998_2002_2005_present	1989–1991\n1998–2002\n2005–present	1989|--|1991|1998|--|2002|2005|--|present	1989|--|1991|1998|--|2002|2005|--|present	CD|:|CD|CD|:|CD|CD|:|JJ	DATE|DATE|DATE|DATE|DATE|DATE|DATE|O|DATE	1989|1989|1991|1991|1991|2002|2002||PRESENT_REF	1989.0		1991.0	1989–1991|1998–2002|2005–present	fb:part.1989_1991|fb:part.1998_2002|fb:part.2005_present
+61	5	fb:cell.network_southeast	Network SouthEast	network|southeast	Network|SouthEast	NNP|NNP	O|O	|				Network SouthEast	fb:part.network_southeast
+61	6	fb:cell.ac_locomotive_group	AC Locomotive Group	ac|locomotive|group	ac|Locomotive|Group	NN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+61	7	fb:cell.12_2002	12/2002	12\\/2002	12\\/2002	CD	NUMBER		12.0		2002.0	12|2002	fb:part.12|fb:part.2002_2
+61	8	fb:cell.stored_at_willesden_tmd_2	Stored at Willesden TMD.	stored|at|willesden|tmd|.	store|at|Willesden|tmd|.	VBN|IN|NNP|NN|.	O|O|LOCATION|O|O	||||				Stored at Willesden TMD.	fb:part.stored_at_willesden_tmd_2
+62	0	fb:cell.86416	86416	86416	86416	CD	NUMBER	86416.0	86416.0				
+62	1	fb:cell.86316	86316	86316	86316	CD	NUMBER	86316.0	86316.0				
+62	2	fb:cell.e3109	E3109	e3109	e3109	NN	O		3109.0				
+62	3	fb:cell.wigan_pier	Wigan Pier	wigan|pier	Wigan|Pier	NNP|NNP	O|O	|				Wigan Pier	fb:part.wigan_pier
+62	4	fb:cell.1984_1992	1984–1992	1984|--|1992	1984|--|1992	CD|:|CD	DATE|DATE|DATE	1984|1984|1992	1984.0		1992.0	1984–1992	fb:part.1984_1992
+62	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+62	6	fb:cell.ews	EWS	ews	ew	NN	O						
+62	7	fb:cell.02_2002	02/2002	02\\/2002	02\\/2002	NN	O		2.0		2002.0	02|2002	fb:part.02|fb:part.2002_2
+62	8	fb:cell.scrapped_at_cf_booth_rotherham_07_2005	Scrapped at CF Booth, Rotherham (07/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|07\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|07\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	7.0		2005.0	Scrapped at CF Booth|Rotherham (07|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_07|fb:part.2005_3
+63	0	fb:cell.86417	86417	86417	86417	CD	NUMBER	86417.0	86417.0				
+63	1	fb:cell.86317	86317	86317	86317	CD	NUMBER	86317.0	86317.0				
+63	2	fb:cell.e3146	E3146	e3146	e3146	NN	O		3146.0				
+63	3	fb:cell.the_kingsman	The Kingsman	the|kingsman	the|Kingsman	DT|NNP	O|O	|				The Kingsman	fb:part.the_kingsman
+63	4	fb:cell.1985_1993	1985–1993	1985|--|1993	1985|--|1993	CD|:|CD	DATE|DATE|DATE	1985|1985|1993	1985.0		1993.0	1985–1993	fb:part.1985_1993
+63	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+63	6	fb:cell.ews	EWS	ews	ew	NN	O						
+63	7	fb:cell.09_2001	09/2001	09\\/2001	09\\/2001	NN	O		9.0		2001.0	09|2001	fb:part.09|fb:part.2001
+63	8	fb:cell.scrapped_at_cf_booth_rotherham_11_2004	Scrapped at CF Booth, Rotherham (11/2004)	scrapped|at|cf|booth|,|rotherham|-lrb-|11\\/2004|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|11\\/2004|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	11.0		2004.0	Scrapped at CF Booth|Rotherham (11|2004)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_11|fb:part.2004_2
+64	0	fb:cell.86419	86419	86419	86419	CD	NUMBER	86419.0	86419.0				
+64	1	fb:cell.86319	86319	86319	86319	CD	NUMBER	86319.0	86319.0				
+64	2	fb:cell.e3120	E3120	e3120	e3120	NN	O		3120.0				
+64	3	fb:cell.post_haste_150_years_of_the_travelling_post_office	Post Haste 150 Years of\nthe Travelling Post Office	post|haste|150|years|of|the|travelling|post|office	Post|haste|150|year|of|the|Travelling|Post|Office	NNP|NN|CD|NNS|IN|DT|NNP|NNP|NNP	O|O|DURATION|DURATION|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||150.0|150.0|||||	150.0			Post Haste 150 Years of|the Travelling Post Office	fb:part.post_haste_150_years_of|fb:part.the_travelling_post_office
+64	4	fb:cell.1990_1993	1990–1993	1990|--|1993	1990|--|1993	CD|:|CD	DATE|DATE|DATE	1990|1990|1993	1990.0		1993.0	1990–1993	fb:part.1990_1993
+64	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+64	6	fb:cell.ews	EWS	ews	ew	NN	O						
+64	7	fb:cell.03_1999	03/1999	03\\/1999	03\\/1999	CD	NUMBER		3.0		1999.0	03|1999	fb:part.03|fb:part.1999
+64	8	fb:cell.scrapped_at_crewe_electric_tmd_03_2003	Scrapped at Crewe Electric TMD (03/2003)	scrapped|at|crewe|electric|tmd|-lrb-|03\\/2003|-rrb-	scrap|at|Crewe|Electric|tmd|-lrb-|03\\/2003|-rrb-	VBN|IN|NNP|NNP|NN|-LRB-|CD|-RRB-	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|NUMBER|O	|||||||	3.0		2003.0	Scrapped at Crewe Electric TMD (03|2003)	fb:part.scrapped_at_crewe_electric_tmd_03|fb:part.2003_2
+65	0	fb:cell.86424	86424	86424	86424	CD	NUMBER	86424.0	86424.0				
+65	1	fb:cell.86324	86324	86324	86324	CD	NUMBER	86324.0	86324.0				
+65	2	fb:cell.e3111	E3111	e3111	e3111	NN	O		3111.0				
+65	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+65	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+65	5	fb:cell.nr_yellow	NR Yellow	nr|yellow	NR|Yellow	NNP|NNP	MISC|MISC	|				NR Yellow	fb:part.nr_yellow
+65	6	fb:cell.network_rail	Network Rail	network|rail	Network|Rail	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+65	7	fb:cell.12_2002	12/2002	12\\/2002	12\\/2002	CD	NUMBER		12.0		2002.0	12|2002	fb:part.12|fb:part.2002_2
+65	8	fb:cell.exported_hungary_08_2013_export_number_0450_009_floyd_zrt_as_a_spares_donor	Exported Hungary. (08/2013) Export Number 0450 009. Floyd ZRt as a spares donor.	exported|hungary|.|-lrb-|08\\/2013|-rrb-|export|number|0450|009|.|floyd|zrt|as|a|spares|donor|.	export|Hungary|.|-lrb-|08\\/2013|-rrb-|Export|Number|0450|009|.|Floyd|ZRt|as|a|spare|donor|.	VBN|NNP|.|-LRB-|CD|-RRB-|NNP|NNP|CD|CD|.|NNP|NNP|IN|DT|NNS|NN|.	O|LOCATION|O|O|NUMBER|O|O|O|DATE|NUMBER|O|PERSON|PERSON|O|O|O|O|O	||||||||0450|9.0||||||||				Exported Hungary. (08|2013) Export Number 0450 009. Floyd ZRt as a spares donor.	fb:part.exported_hungary_08|fb:part.2013_export_number_0450_009_floyd_zrt_as_a_spares_donor
+66	0	fb:cell.86425	86425	86425	86425	CD	NUMBER	86425.0	86425.0				
+66	1	fb:cell.86325	86325	86325	86325	CD	NUMBER	86325.0	86325.0				
+66	2	fb:cell.e3186	E3186	e3186	e3186	NN	O		3186.0				
+66	3	fb:cell.saint_mungo	Saint Mungo	saint|mungo	Saint|Mungo	NNP|NNP	O|PERSON	|				Saint Mungo	fb:part.saint_mungo
+66	4	fb:cell.1995_2003	1995–2003	1995|--|2003	1995|--|2003	CD|:|CD	DATE|DATE|DATE	1995|1995|2003	1995.0		2003.0	1995–2003	fb:part.1995_2003
+66	5	fb:cell.rail_express_systems	Rail Express Systems	rail|express|systems	Rail|Express|Systems	NNP|NNP|NNPS	O|O|O	||				Rail Express Systems	fb:part.rail_express_systems
+66	6	fb:cell.ews	EWS	ews	ew	NN	O						
+66	7	fb:cell.02_2002	02/2002	02\\/2002	02\\/2002	NN	O		2.0		2002.0	02|2002	fb:part.02|fb:part.2002_2
+66	8	fb:cell.scrapped_at_cf_booth_rotherham_01_2005	Scrapped at CF Booth, Rotherham (01/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|01\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|01\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	1.0		2005.0	Scrapped at CF Booth|Rotherham (01|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_01|fb:part.2005_3
+67	0	fb:cell.86426	86426	86426	86426	CD	NUMBER	86426.0	86426.0				
+67	1	fb:cell.86326	86326	86326	86326	CD	NUMBER	86326.0	86326.0				
+67	2	fb:cell.e3195	E3195	e3195	e3195	NN	O		3195.0				
+67	3	fb:cell.pride_of_the_nation	Pride of the Nation	pride|of|the|nation	pride|of|the|nation	NN|IN|DT|NN	O|O|O|O	|||				Pride of the Nation	fb:part.pride_of_the_nation
+67	4	fb:cell.1998_2002	1998–2002	1998|--|2002	1998|--|2002	CD|:|CD	DATE|DATE|DATE	1998|1998|2002	1998.0		2002.0	1998–2002	fb:part.1998_2002
+67	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+67	6	fb:cell.ews	EWS	ews	ew	NN	O						
+67	7	fb:cell.06_2004	06/2004	06\\/2004	06\\/2004	NN	O		6.0		2004.0	06|2004	fb:part.06|fb:part.2004
+67	8	fb:cell.scrapped_at_cf_booth_rotherham_11_2005	Scrapped at CF Booth, Rotherham (11/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|11\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|11\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	11.0		2005.0	Scrapped at CF Booth|Rotherham (11|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_11|fb:part.2005_3
+68	0	fb:cell.86429	86429	86429	86429	CD	NUMBER	86429.0	86429.0				
+68	1	fb:cell.86329	86329	86329	86329	CD	NUMBER	86329.0	86329.0				
+68	2	fb:cell.e3200	E3200	e3200	e3200	NN	O		3200.0				
+68	3	fb:cell.the_times	The Times	the|times	the|Times	DT|NNP	O|O	|				The Times	fb:part.the_times
+68	4	fb:cell.1982_1986	1982–1986	1982|--|1986	1982|--|1986	CD|:|CD	DATE|DATE|DATE	1982|1982|1986	1982.0		1986.0	1982–1986	fb:part.1982_1986
+68	5	fb:cell.intercity	InterCity	intercity	InterCity	NNP	O					InterCity	fb:part.intercity
+68	6	fb:cell.british_rail	British Rail	british|rail	british|Rail	JJ|NNP	O|O	|					
+68	7	fb:cell.11_1986	11/1986	11\\/1986	11\\/1986	CD	NUMBER		11.0		1986.0	11|1986	fb:part.11|fb:part.1986
+68	8	fb:cell.written_off_in_colwich_accident_scrapped_at_crewe_works_11_1986	Written-off in Colwich accident\nScrapped at Crewe Works (11/1986)	written|off|in|colwich|accident|scrapped|at|crewe|works|-lrb-|11\\/1986|-rrb-	write|off|in|Colwich|accident|scrap|at|Crewe|Works|-lrb-|11\\/1986|-rrb-	VBN|RP|IN|NNP|NN|VBD|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|O|LOCATION|O|O|O|ORGANIZATION|ORGANIZATION|O|NUMBER|O	|||||||||||	11.0		1986.0	Written-off in Colwich accident|Scrapped at Crewe Works (11|1986)	fb:part.written_off_in_colwich_accident|fb:part.scrapped_at_crewe_works_11|fb:part.1986_2
+69	0	fb:cell.86430	86430	86430	86430	CD	NUMBER	86430.0	86430.0				
+69	1	fb:cell.86030	86030	86030	86030	CD	NUMBER	86030.0	86030.0				
+69	2	fb:cell.e3105	E3105	e3105	e3105	NN	O		3105.0				
+69	3	fb:cell.scottish_national_orchestra_saint_edmund	Scottish National Orchestra\nSaint Edmund	scottish|national|orchestra|saint|edmund	Scottish|National|Orchestra|Saint|Edmund	NNP|NNP|NNP|NNP|NNP	O|O|O|O|PERSON	||||				Scottish National Orchestra|Saint Edmund	fb:part.scottish_national_orchestra|fb:part.saint_edmund
+69	4	fb:cell.1987_1991_1996_2002	1987–1991\n1996–2002	1987|--|1991|1996|--|2002	1987|--|1991|1996|--|2002	CD|:|CD|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE	1987|1987|1991|1991|1991|2002	1987.0		1991.0	1987–1991|1996–2002	fb:part.1987_1991|fb:part.1996_2002
+69	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+69	6	fb:cell.ews	EWS	ews	ew	NN	O						
+69	7	fb:cell.06_2004	06/2004	06\\/2004	06\\/2004	NN	O		6.0		2004.0	06|2004	fb:part.06|fb:part.2004
+69	8	fb:cell.scrapped_at_cf_booth_rotherham_12_2005	Scrapped at CF Booth, Rotherham (12/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|12\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|12\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	12.0		2005.0	Scrapped at CF Booth|Rotherham (12|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_12|fb:part.2005_3
+70	0	fb:cell.86501	86501	86501	86501	CD	NUMBER	86501.0	86501.0				
+70	1	fb:cell.86608	86608	86608	86608	CD	NUMBER	86608.0	86608.0				
+70	2	fb:cell.e3180	E3180	e3180	e3180	NN	O		3180.0				
+70	3	fb:cell.crewe_basford_hall	Crewe Basford Hall	crewe|basford|hall	Crewe|Basford|Hall	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Crewe Basford Hall	fb:part.crewe_basford_hall
+70	4	fb:cell.2000_2000	2000–2000	2000|--|2000	2000|--|2000	CD|:|CD	DATE|DATE|DATE	2000|2000|2000	2000.0	2000-xx-xx	2000.0	2000–2000	fb:part.2000_2000
+70	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+70	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+70	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+70	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+71	0	fb:cell.86602	86602	86602	86602	CD	NUMBER	86602.0	86602.0				
+71	1	fb:cell.86402	86402	86402	86402	CD	NUMBER	86402.0	86402.0				
+71	2	fb:cell.e3170	E3170	e3170	e3170	NN	O		3170.0				
+71	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+71	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+71	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+71	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+71	7	fb:cell.03_2005	03/2005	03\\/2005	03\\/2005	CD	NUMBER		3.0		2005.0	03|2005	fb:part.03|fb:part.2005_2
+71	8	fb:cell.scrapped_at_sandbach_car_commercial_dismantlers_at_crewe_lnwr_01_2010	Scrapped at Sandbach Car & Commercial Dismantlers at Crewe LNWR (01/2010)	scrapped|at|sandbach|car|&|commercial|dismantlers|at|crewe|lnwr|-lrb-|01\\/2010|-rrb-	scrap|at|Sandbach|Car|&|Commercial|Dismantlers|at|Crewe|LNWR|-lrb-|01\\/2010|-rrb-	VBN|IN|NNP|NNP|CC|NNP|NNPS|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O|NUMBER|O	||||||||||||	1.0		2010.0	Scrapped at Sandbach Car & Commercial Dismantlers at Crewe LNWR (01|2010)	fb:part.scrapped_at_sandbach_car_commercial_dismantlers_at_crewe_lnwr_01|fb:part.2010
+72	0	fb:cell.86603	86603	86603	86603	CD	NUMBER	86603.0	86603.0				
+72	1	fb:cell.86403	86403	86403	86403	CD	NUMBER	86403.0	86403.0				
+72	2	fb:cell.e3115	E3115	e3115	e3115	NN	O		3115.0				
+72	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+72	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+72	5	fb:cell.revised_railfreight_distribution	Revised Railfreight\nDistribution	revised|railfreight|distribution	revise|Railfreight|distribution	VBN|NNP|NN	O|O|O	||				Revised Railfreight|Distribution	fb:part.revised_railfreight|fb:part.distribution
+72	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+72	7	fb:cell.09_1999	09/1999	09\\/1999	09\\/1999	CD	NUMBER		9.0		1999.0	09|1999	fb:part.09|fb:part.1999
+72	8	fb:cell.scrapped_at_cf_booth_rotherham_11_2005	Scrapped at CF Booth, Rotherham (11/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|11\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|11\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	11.0		2005.0	Scrapped at CF Booth|Rotherham (11|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_11|fb:part.2005_3
+73	0	fb:cell.86604	86604	86604	86604	CD	NUMBER	86604.0	86604.0				
+73	1	fb:cell.86404	86404	86404	86404	CD	NUMBER	86404.0	86404.0				
+73	2	fb:cell.e3103	E3103	e3103	e3103	NN	O		3103.0				
+73	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+73	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+73	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+73	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+73	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+73	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+74	0	fb:cell.86605	86605	86605	86605	CD	NUMBER	86605.0	86605.0				
+74	1	fb:cell.86405	86405	86405	86405	CD	NUMBER	86405.0	86405.0				
+74	2	fb:cell.e3185	E3185	e3185	e3185	NN	O		3185.0				
+74	3	fb:cell.intercontainer	Intercontainer	intercontainer	Intercontainer	NNP	O					Intercontainer	fb:part.intercontainer
+74	4	fb:cell.1992_1996	1992–1996	1992|--|1996	1992|--|1996	CD|:|CD	DATE|DATE|DATE	1992|1992|1996	1992.0		1996.0	1992–1996	fb:part.1992_1996
+74	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+74	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+74	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+74	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+75	0	fb:cell.86606	86606	86606	86606	CD	NUMBER	86606.0	86606.0				
+75	1	fb:cell.86406	86406	86406	86406	CD	NUMBER	86406.0	86406.0				
+75	2	fb:cell.e3112	E3112	e3112	e3112	NN	O		3112.0				
+75	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+75	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+75	5	fb:cell.freightliner_grey	Freightliner grey	freightliner|gray	Freightliner|gray	NNP|JJ	O|O	|				Freightliner grey	fb:part.freightliner_grey
+75	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+75	7	fb:cell.11_2003	11/2003	11\\/2003	11\\/2003	CD	NUMBER		11.0		2003.0	11|2003	fb:part.11|fb:part.2003
+75	8	fb:cell.scrapped_at_ron_hull_jr_rotherham_06_2007	Scrapped at Ron Hull Jr, Rotherham (06/2007)	scrapped|at|ron|hull|jr|,|rotherham|-lrb-|06\\/2007|-rrb-	scrap|at|Ron|Hull|Jr|,|Rotherham|-lrb-|06\\/2007|-rrb-	VBN|IN|NNP|NNP|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|PERSON|PERSON|O|O|ORGANIZATION|O|NUMBER|O	|||||||||	6.0		2007.0	Scrapped at Ron Hull Jr|Rotherham (06|2007)	fb:part.scrapped_at_ron_hull_jr|fb:part.rotherham_06|fb:part.2007_2
+76	0	fb:cell.86607	86607	86607	86607	CD	NUMBER	86607.0	86607.0				
+76	1	fb:cell.86407	86407	86407	86407	CD	NUMBER	86407.0	86407.0				
+76	2	fb:cell.e3176	E3176	e3176	e3176	NN	O		3176.0				
+76	3	fb:cell.the_institution_of_electrical_engineers	The Institution of\nElectrical Engineers	the|institution|of|electrical|engineers	the|Institution|of|electrical|engineer	DT|NNP|IN|JJ|NNS	O|O|O|O|O	||||				The Institution of|Electrical Engineers	fb:part.the_institution_of|fb:part.electrical_engineers
+76	4	fb:cell.1987_2000	1987–2000	1987|--|2000	1987|--|2000	CD|:|CD	DATE|DATE|DATE	1987|1987|2000	1987.0		2000.0	1987–2000	fb:part.1987_2000
+76	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+76	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+76	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+76	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+77	0	fb:cell.86608	86608	86608	86608	CD	NUMBER	86608.0	86608.0				
+77	1	fb:cell.86408	86408	86408	86408	CD	NUMBER	86408.0	86408.0				
+77	2	fb:cell.e3180	E3180	e3180	e3180	NN	O		3180.0				
+77	3	fb:cell.st_john_ambulance	St. John Ambulance	st.|john|ambulance	St.|John|Ambulance	NNP|NNP|NNP	O|PERSON|PERSON	||				St. John Ambulance	fb:part.st_john_ambulance
+77	4	fb:cell.1987_1999	1987–1999	1987|--|1999	1987|--|1999	CD|:|CD	DATE|DATE|DATE	1987|1987|1999	1987.0		1999.0	1987–1999	fb:part.1987_1999
+77	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+77	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+77	7	fb:cell.05_2000	05/2000	05\\/2000	05\\/2000	CD	NUMBER		5.0		2000.0	05|2000	fb:part.05|fb:part.2000
+77	8	fb:cell.converted_to_86501_05_2000	Converted to 86501 (05/2000)	converted|to|86501|-lrb-|05\\/2000|-rrb-	convert|to|86501|-lrb-|05\\/2000|-rrb-	VBN|TO|CD|-LRB-|CD|-RRB-	O|O|NUMBER|O|NUMBER|O	||86501.0|||	86501.0		5.0	Converted to 86501 (05|2000)	fb:part.converted_to_86501_05|fb:part.2000_2
+78	0	fb:cell.86609	86609	86609	86609	CD	NUMBER	86609.0	86609.0				
+78	1	fb:cell.86409	86409	86409	86409	CD	NUMBER	86409.0	86409.0				
+78	2	fb:cell.e3102	E3102	e3102	e3102	NN	O		3102.0				
+78	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+78	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+78	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+78	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+78	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+78	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+79	0	fb:cell.86610	86610	86610	86610	CD	NUMBER	86610.0	86610.0				
+79	1	fb:cell.86410	86410	86410	86410	CD	NUMBER	86410.0	86410.0				
+79	2	fb:cell.e3104	E3104	e3104	e3104	NN	O		3104.0				
+79	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+79	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+79	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+79	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+79	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+79	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+80	0	fb:cell.86611	86611	86611	86611	CD	NUMBER	86611.0	86611.0				
+80	1	fb:cell.86411	86411	86411	86411	CD	NUMBER	86411.0	86411.0				
+80	2	fb:cell.e3171	E3171	e3171	e3171	NN	O		3171.0				
+80	3	fb:cell.airey_neave	Airey Neave	airey|neave	Airey|Neave	NNP|NNP	PERSON|PERSON	|				Airey Neave	fb:part.airey_neave
+80	4	fb:cell.1983_2003	1983–2003	1983|--|2003	1983|--|2003	CD|:|CD	DATE|DATE|DATE	1983|1983|2003	1983.0		2003.0	1983–2003	fb:part.1983_2003
+80	5	fb:cell.freightliner_grey	Freightliner grey	freightliner|gray	Freightliner|gray	NNP|JJ	O|O	|				Freightliner grey	fb:part.freightliner_grey
+80	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+80	7	fb:cell.11_2003	11/2003	11\\/2003	11\\/2003	CD	NUMBER		11.0		2003.0	11|2003	fb:part.11|fb:part.2003
+80	8	fb:cell.written_off_in_norton_bridge_accident_scrapped_at_crewe_works_by_hnrc_02_2005	Written-off in Norton Bridge accident\nScrapped at Crewe Works by HNRC (02/2005)	written|off|in|norton|bridge|accident|scrapped|at|crewe|works|by|hnrc|-lrb-|02\\/2005|-rrb-	write|off|in|Norton|Bridge|accident|scrap|at|Crewe|Works|by|HNRC|-lrb-|02\\/2005|-rrb-	VBN|RP|IN|NNP|NNP|NN|VBD|IN|NNP|NNP|IN|NNP|-LRB-|CD|-RRB-	O|O|O|LOCATION|LOCATION|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|NUMBER|O	||||||||||||||	2.0		2005.0	Written-off in Norton Bridge accident|Scrapped at Crewe Works by HNRC (02|2005)	fb:part.written_off_in_norton_bridge_accident|fb:part.scrapped_at_crewe_works_by_hnrc_02|fb:part.2005_3
+81	0	fb:cell.86612	86612	86612	86612	CD	NUMBER	86612.0	86612.0				
+81	1	fb:cell.86412	86412	86412	86412	CD	NUMBER	86412.0	86412.0				
+81	2	fb:cell.e3122	E3122	e3122	e3122	NN	O		3122.0				
+81	3	fb:cell.elizabeth_garrett_anderson	Elizabeth Garrett Anderson	elizabeth|garrett|anderson	Elizabeth|Garrett|Anderson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Elizabeth Garrett Anderson	fb:part.elizabeth_garrett_anderson
+81	4	fb:cell.1983_2004	1983–2004	1983|--|2004	1983|--|2004	CD|:|CD	DATE|DATE|DATE	1983|1983|2004	1983.0		2004.0	1983–2004	fb:part.1983_2004
+81	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+81	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+81	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+81	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+82	0	fb:cell.86613	86613	86613	86613	CD	NUMBER	86613.0	86613.0				
+82	1	fb:cell.86413	86413	86413	86413	CD	NUMBER	86413.0	86413.0				
+82	2	fb:cell.e3128	E3128	e3128	e3128	NN	O		3128.0				
+82	3	fb:cell.county_of_lancashire	County of Lancashire	county|of|lancashire	County|of|Lancashire	NNP|IN|NNP	O|O|LOCATION	||				County of Lancashire	fb:part.county_of_lancashire
+82	4	fb:cell.1985_1999	1985–1999	1985|--|1999	1985|--|1999	CD|:|CD	DATE|DATE|DATE	1985|1985|1999	1985.0		1999.0	1985–1999	fb:part.1985_1999
+82	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+82	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+82	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+82	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+83	0	fb:cell.86614	86614	86614	86614	CD	NUMBER	86614.0	86614.0				
+83	1	fb:cell.86414	86414	86414	86414	CD	NUMBER	86414.0	86414.0				
+83	2	fb:cell.e3145	E3145	e3145	e3145	NN	O		3145.0				
+83	3	fb:cell.frank_hornby	Frank Hornby	frank|hornby	Frank|Hornby	NNP|NNP	PERSON|PERSON	|				Frank Hornby	fb:part.frank_hornby
+83	4	fb:cell.1986_2001	1986–2001	1986|--|2001	1986|--|2001	CD|:|CD	DATE|DATE|DATE	1986|1986|2001	1986.0		2001.0	1986–2001	fb:part.1986_2001
+83	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+83	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+83	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+83	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+84	0	fb:cell.86615	86615	86615	86615	CD	NUMBER	86615.0	86615.0				
+84	1	fb:cell.86415	86415	86415	86415	CD	NUMBER	86415.0	86415.0				
+84	2	fb:cell.e3123	E3123	e3123	e3123	NN	O		3123.0				
+84	3	fb:cell.rotary_international	Rotary International	rotary|international	rotary|International	JJ|NNP	O|O	|				Rotary International	fb:part.rotary_international
+84	4	fb:cell.1984_2005	1984–2005	1984|--|2005	1984|--|2005	CD|:|CD	DATE|DATE|DATE	1984|1984|2005	1984.0		2005.0	1984–2005	fb:part.1984_2005
+84	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+84	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+84	7	fb:cell.04_2005	04/2005	04\\/2005	04\\/2005	CD	NUMBER		4.0		2005.0	04|2005	fb:part.04|fb:part.2005_2
+84	8	fb:cell.scrapped_at_ron_hull_jr_rotherham_07_2007	Scrapped at Ron Hull Jr, Rotherham (07/2007)	scrapped|at|ron|hull|jr|,|rotherham|-lrb-|07\\/2007|-rrb-	scrap|at|Ron|Hull|Jr|,|Rotherham|-lrb-|07\\/2007|-rrb-	VBN|IN|NNP|NNP|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|PERSON|PERSON|O|O|ORGANIZATION|O|NUMBER|O	|||||||||	7.0		2007.0	Scrapped at Ron Hull Jr|Rotherham (07|2007)	fb:part.scrapped_at_ron_hull_jr|fb:part.rotherham_07|fb:part.2007_2
+85	0	fb:cell.86618	86618	86618	86618	CD	NUMBER	86618.0	86618.0				
+85	1	fb:cell.86418	86418	86418	86418	CD	NUMBER	86418.0	86418.0				
+85	2	fb:cell.e3163	E3163	e3163	e3163	NN	O		3163.0				
+85	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+85	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+85	5	fb:cell.freightliner_grey	Freightliner grey	freightliner|gray	Freightliner|gray	NNP|JJ	O|O	|				Freightliner grey	fb:part.freightliner_grey
+85	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+85	7	fb:cell.08_2001	08/2001	08\\/2001	08\\/2001	NN	O		8.0		2001.0	08|2001	fb:part.08|fb:part.2001
+85	8	fb:cell.scrapped_at_cf_booth_rotherham_03_2005	Scrapped at CF Booth, Rotherham (03/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|03\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|03\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	3.0		2005.0	Scrapped at CF Booth|Rotherham (03|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_03|fb:part.2005_3
+86	0	fb:cell.86620	86620	86620	86620	CD	NUMBER	86620.0	86620.0				
+86	1	fb:cell.86420	86420	86420	86420	CD	NUMBER	86420.0	86420.0				
+86	2	fb:cell.e3114	E3114	e3114	e3114	NN	O		3114.0				
+86	3	fb:cell.philip_g_walton	Philip G Walton	philip|g|walton	Philip|G|Walton	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Philip G Walton	fb:part.philip_g_walton
+86	4	fb:cell.1998	1998-	1998|-	1998|-	CD|:	DATE|O	1998|	1998.0			1998-	fb:part.1998
+86	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+86	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+86	7	fb:cell.09_2005	09/2005	09\\/2005	09\\/2005	CD	NUMBER		9.0		2005.0	09|2005	fb:part.09|fb:part.2005_2
+86	8	fb:cell.scrapped_at_ron_hull_jr_rotherham_06_2007	Scrapped at Ron Hull Jr, Rotherham (06/2007)	scrapped|at|ron|hull|jr|,|rotherham|-lrb-|06\\/2007|-rrb-	scrap|at|Ron|Hull|Jr|,|Rotherham|-lrb-|06\\/2007|-rrb-	VBN|IN|NNP|NNP|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|PERSON|PERSON|O|O|ORGANIZATION|O|NUMBER|O	|||||||||	6.0		2007.0	Scrapped at Ron Hull Jr|Rotherham (06|2007)	fb:part.scrapped_at_ron_hull_jr|fb:part.rotherham_06|fb:part.2007_2
+87	0	fb:cell.86621	86621	86621	86621	CD	NUMBER	86621.0	86621.0				
+87	1	fb:cell.86421	86421	86421	86421	CD	NUMBER	86421.0	86421.0				
+87	2	fb:cell.e3157	E3157	e3157	e3157	NN	O		3157.0				
+87	3	fb:cell.london_school_of_economics	London School of Economics	london|school|of|economics	London|School|of|Economics	NNP|NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				London School of Economics	fb:part.london_school_of_economics
+87	4	fb:cell.1985_2004	1985–2004	1985|--|2004	1985|--|2004	CD|:|CD	DATE|DATE|DATE	1985|1985|2004	1985.0		2004.0	1985–2004	fb:part.1985_2004
+87	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+87	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+87	7	fb:cell.04_2011	04/2011	04\\/2011	04\\/2011	NN	O		4.0		2011.0	04|2011	fb:part.04|fb:part.2011
+87	8	fb:cell.scrapped_at_crewe_lnwr_03_2013	Scrapped at Crewe LNWR (03/2013)	scrapped|at|crewe|lnwr|-lrb-|03\\/2013|-rrb-	scrap|at|Crewe|LNWR|-lrb-|03\\/2013|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	3.0		2013.0	Scrapped at Crewe LNWR (03|2013)	fb:part.scrapped_at_crewe_lnwr_03|fb:part.2013_2
+88	0	fb:cell.86622	86622	86622	86622	CD	NUMBER	86622.0	86622.0				
+88	1	fb:cell.86422	86422	86422	86422	CD	NUMBER	86422.0	86422.0				
+88	2	fb:cell.e3174	E3174	e3174	e3174	NN	O		3174.0				
+88	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+88	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+88	5	fb:cell.freightliner_powerhaul	Freightliner Powerhaul	freightliner|powerhaul	Freightliner|Powerhaul	NNP|NNP	PERSON|PERSON	|				Freightliner Powerhaul	fb:part.freightliner_powerhaul
+88	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+88	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+88	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+89	0	fb:cell.86623	86623	86623	86623	CD	NUMBER	86623.0	86623.0				
+89	1	fb:cell.86423	86423	86423	86423	CD	NUMBER	86423.0	86423.0				
+89	2	fb:cell.e3152	E3152	e3152	e3152	NN	O		3152.0				
+89	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+89	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+89	5	fb:cell.freightliner_grey	Freightliner grey	freightliner|gray	Freightliner|gray	NNP|JJ	O|O	|				Freightliner grey	fb:part.freightliner_grey
+89	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+89	7	fb:cell.10_2003	10/2003	10\\/2003	10\\/2003	CD	NUMBER		10.0		2003.0	10|2003	fb:part.10|fb:part.2003
+89	8	fb:cell.scrapped_at_sandbach_car_commercial_dismantlers_at_crewe_lnwr_01_2010	Scrapped at Sandbach Car & Commercial Dismantlers at Crewe LNWR (01/2010)	scrapped|at|sandbach|car|&|commercial|dismantlers|at|crewe|lnwr|-lrb-|01\\/2010|-rrb-	scrap|at|Sandbach|Car|&|Commercial|Dismantlers|at|Crewe|LNWR|-lrb-|01\\/2010|-rrb-	VBN|IN|NNP|NNP|CC|NNP|NNPS|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION|O|O|NUMBER|O	||||||||||||	1.0		2010.0	Scrapped at Sandbach Car & Commercial Dismantlers at Crewe LNWR (01|2010)	fb:part.scrapped_at_sandbach_car_commercial_dismantlers_at_crewe_lnwr_01|fb:part.2010
+90	0	fb:cell.86627	86627	86627	86627	CD	NUMBER	86627.0	86627.0				
+90	1	fb:cell.86427	86427	86427	86427	CD	NUMBER	86427.0	86427.0				
+90	2	fb:cell.e3110	E3110	e3110	e3110	NN	O		3110.0				
+90	3	fb:cell.the_industrial_society	The Industrial Society	the|industrial|society	the|Industrial|Society	DT|NNP|NNP	O|O|O	||				The Industrial Society	fb:part.the_industrial_society
+90	4	fb:cell.1985_1999	1985–1999	1985|--|1999	1985|--|1999	CD|:|CD	DATE|DATE|DATE	1985|1985|1999	1985.0		1999.0	1985–1999	fb:part.1985_1999
+90	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+90	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+90	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+90	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+91	0	fb:cell.86628	86628	86628	86628	CD	NUMBER	86628.0	86628.0				
+91	1	fb:cell.86428	86428	86428	86428	CD	NUMBER	86428.0	86428.0				
+91	2	fb:cell.e3159	E3159	e3159	e3159	NN	O		3159.0				
+91	3	fb:cell.aldaniti	Aldaniti	aldaniti	Aldaniti	NNP	PERSON					Aldaniti	fb:part.aldaniti
+91	4	fb:cell.1984_2004	1984–2004	1984|--|2004	1984|--|2004	CD|:|CD	DATE|DATE|DATE	1984|1984|2004	1984.0		2004.0	1984–2004	fb:part.1984_2004
+91	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+91	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+91	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+91	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+92	0	fb:cell.86631	86631	86631	86631	CD	NUMBER	86631.0	86631.0				
+92	1	fb:cell.86431	86431	86431	86431	CD	NUMBER	86431.0	86431.0				
+92	2	fb:cell.e3188	E3188	e3188	e3188	NN	O		3188.0				
+92	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+92	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+92	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+92	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+92	7	fb:cell.11_2003	11/2003	11\\/2003	11\\/2003	CD	NUMBER		11.0		2003.0	11|2003	fb:part.11|fb:part.2003
+92	8	fb:cell.written_off_in_norton_bridge_accident_scrapped_at_crewe_works_by_hnrc_03_2005	Written-off in Norton Bridge accident\nScrapped at Crewe Works by HNRC (03/2005)	written|off|in|norton|bridge|accident|scrapped|at|crewe|works|by|hnrc|-lrb-|03\\/2005|-rrb-	write|off|in|Norton|Bridge|accident|scrap|at|Crewe|Works|by|HNRC|-lrb-|03\\/2005|-rrb-	VBN|RP|IN|NNP|NNP|NN|VBD|IN|NNP|NNP|IN|NNP|-LRB-|CD|-RRB-	O|O|O|LOCATION|LOCATION|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|NUMBER|O	||||||||||||||	3.0		2005.0	Written-off in Norton Bridge accident|Scrapped at Crewe Works by HNRC (03|2005)	fb:part.written_off_in_norton_bridge_accident|fb:part.scrapped_at_crewe_works_by_hnrc_03|fb:part.2005_3
+93	0	fb:cell.86632	86632	86632	86632	CD	NUMBER	86632.0	86632.0				
+93	1	fb:cell.86432	86432	86432	86432	CD	NUMBER	86432.0	86432.0				
+93	2	fb:cell.e3148	E3148	e3148	e3148	NN	O		3148.0				
+93	3	fb:cell.brookside	Brookside	brookside	Brookside	NNP	O					Brookside	fb:part.brookside
+93	4	fb:cell.1987_1999	1987–1999	1987|--|1999	1987|--|1999	CD|:|CD	DATE|DATE|DATE	1987|1987|1999	1987.0		1999.0	1987–1999	fb:part.1987_1999
+93	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+93	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+93	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+93	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+94	0	fb:cell.86633	86633	86633	86633	CD	NUMBER	86633.0	86633.0				
+94	1	fb:cell.86433	86433	86433	86433	CD	NUMBER	86433.0	86433.0				
+94	2	fb:cell.e3198	E3198	e3198	e3198	NN	O		3198.0				
+94	3	fb:cell.wulfruna	Wulfruna	wulfruna	Wulfruna	NNP	PERSON					Wulfruna	fb:part.wulfruna
+94	4	fb:cell.1985_2004	1985–2004	1985|--|2004	1985|--|2004	CD|:|CD	DATE|DATE|DATE	1985|1985|2004	1985.0		2004.0	1985–2004	fb:part.1985_2004
+94	5	fb:cell.freightliner_grey	Freightliner grey	freightliner|gray	Freightliner|gray	NNP|JJ	O|O	|				Freightliner grey	fb:part.freightliner_grey
+94	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+94	7	fb:cell.02_2004	02/2004	02\\/2004	02\\/2004	NN	O		2.0		2004.0	02|2004	fb:part.02|fb:part.2004
+94	8	fb:cell.scrapped_at_crewe_lnwr_03_2013	Scrapped at Crewe LNWR (03/2013)	scrapped|at|crewe|lnwr|-lrb-|03\\/2013|-rrb-	scrap|at|Crewe|LNWR|-lrb-|03\\/2013|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	3.0		2013.0	Scrapped at Crewe LNWR (03|2013)	fb:part.scrapped_at_crewe_lnwr_03|fb:part.2013_2
+95	0	fb:cell.86634	86634	86634	86634	CD	NUMBER	86634.0	86634.0				
+95	1	fb:cell.86434	86434	86434	86434	CD	NUMBER	86434.0	86434.0				
+95	2	fb:cell.e3187	E3187	e3187	e3187	NN	O		3187.0				
+95	3	fb:cell.university_of_london	University of London	university|of|london	University|of|London	NNP|IN|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				University of London	fb:part.university_of_london
+95	4	fb:cell.1986_1999	1986–1999	1986|--|1999	1986|--|1999	CD|:|CD	DATE|DATE|DATE	1986|1986|1999	1986.0		1999.0	1986–1999	fb:part.1986_1999
+95	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+95	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+95	7	fb:cell.05_2002	05/2002	05\\/2002	05\\/2002	NN	O		5.0		2002.0	05|2002	fb:part.05|fb:part.2002_2
+95	8	fb:cell.scrapped_at_cf_booth_rotherham_03_2005	Scrapped at CF Booth, Rotherham (03/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|03\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|03\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	3.0		2005.0	Scrapped at CF Booth|Rotherham (03|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_03|fb:part.2005_3
+96	0	fb:cell.86635	86635	86635	86635	CD	NUMBER	86635.0	86635.0				
+96	1	fb:cell.86435	86435	86435	86435	CD	NUMBER	86435.0	86435.0				
+96	2	fb:cell.e3124	E3124	e3124	e3124	NN	O		3124.0				
+96	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+96	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+96	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+96	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+96	7	fb:cell.02_2004	02/2004	02\\/2004	02\\/2004	NN	O		2.0		2004.0	02|2004	fb:part.02|fb:part.2004
+96	8	fb:cell.scrapped_at_crewe_lnwr_03_2013	Scrapped at Crewe LNWR (03/2013)	scrapped|at|crewe|lnwr|-lrb-|03\\/2013|-rrb-	scrap|at|Crewe|LNWR|-lrb-|03\\/2013|-rrb-	VBN|IN|NNP|NNP|-LRB-|CD|-RRB-	O|O|LOCATION|O|O|NUMBER|O	||||||	3.0		2013.0	Scrapped at Crewe LNWR (03|2013)	fb:part.scrapped_at_crewe_lnwr_03|fb:part.2013_2
+97	0	fb:cell.86636	86636	86636	86636	CD	NUMBER	86636.0	86636.0				
+97	1	fb:cell.86436	86436	86436	86436	CD	NUMBER	86436.0	86436.0				
+97	2	fb:cell.e3160	E3160	e3160	e3160	NN	O		3160.0				
+97	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+97	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+97	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+97	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+97	7	fb:cell.03_2000	03/2000	03\\/2000	03\\/2000	CD	NUMBER		3.0		2000.0	03|2000	fb:part.03|fb:part.2000
+97	8	fb:cell.scrapped_at_cf_booth_rotherham_01_2005	Scrapped at CF Booth, Rotherham (01/2005)	scrapped|at|cf|booth|,|rotherham|-lrb-|01\\/2005|-rrb-	scrap|at|cf|Booth|,|Rotherham|-lrb-|01\\/2005|-rrb-	VBN|IN|NN|NNP|,|NNP|-LRB-|CD|-RRB-	O|O|O|O|O|ORGANIZATION|O|NUMBER|O	||||||||	1.0		2005.0	Scrapped at CF Booth|Rotherham (01|2005)	fb:part.scrapped_at_cf_booth|fb:part.rotherham_01|fb:part.2005_3
+98	0	fb:cell.86637	86637	86637	86637	CD	NUMBER	86637.0	86637.0				
+98	1	fb:cell.86437	86437	86437	86437	CD	NUMBER	86437.0	86437.0				
+98	2	fb:cell.e3130	E3130	e3130	e3130	NN	O		3130.0				
+98	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+98	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+98	5	fb:cell.freightliner_powerhaul	Freightliner Powerhaul	freightliner|powerhaul	Freightliner|Powerhaul	NNP|NNP	PERSON|PERSON	|				Freightliner Powerhaul	fb:part.freightliner_powerhaul
+98	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+98	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+98	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+99	0	fb:cell.86638	86638	86638	86638	CD	NUMBER	86638.0	86638.0				
+99	1	fb:cell.86438	86438	86438	86438	CD	NUMBER	86438.0	86438.0				
+99	2	fb:cell.e3108	E3108	e3108	e3108	NN	O		3108.0				
+99	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+99	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+99	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+99	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+99	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+99	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+100	0	fb:cell.86639	86639	86639	86639	CD	NUMBER	86639.0	86639.0				
+100	1	fb:cell.86439	86439	86439	86439	CD	NUMBER	86439.0	86439.0				
+100	2	fb:cell.e3153	E3153	e3153	e3153	NN	O		3153.0				
+100	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+100	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+100	5	fb:cell.freightliner_green	Freightliner Green	freightliner|green	Freightliner|Green	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Freightliner Green	fb:part.freightliner_green
+100	6	fb:cell.freightliner	Freightliner	freightliner	Freightliner	NNP	O						
+100	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+100	8	fb:cell.in_service	In service	in|service	in|service	IN|NN	O|O	|				In service	fb:part.in_service
+101	0	fb:cell.86701	86701	86701	86701	CD	NUMBER	86701.0	86701.0				
+101	1	fb:cell.86205	86205	86205	86205	CD	NUMBER	86205.0	86205.0				
+101	2	fb:cell.e3129	E3129	e3129	e3129	NN	O		3129.0				
+101	3	fb:cell.orion	Orion	orion	Orion	NNP	O					Orion	fb:part.orion
+101	4	fb:cell.2009	2009-	2009|-	2009|-	CD|:	DATE|O	2009|	2009.0			2009-	fb:part.2009
+101	5	fb:cell.colas_rail_yellow_orange	Colas Rail Yellow & Orange	colas|rail|yellow|&|orange	Colas|Rail|Yellow|&|Orange	NNP|NNP|NNP|CC|NNP	O|O|O|O|O	||||				Colas Rail Yellow & Orange	fb:part.colas_rail_yellow_orange
+101	6	fb:cell.europhoenix	Europhoenix	europhoenix	Europhoenix	NNP	MISC						
+101	7	fb:cell.01_2013	01/2013	01\\/2013	01\\/2013	NN	O		1.0		2013.0	01|2013	fb:part.01|fb:part.2013
+101	8	fb:cell.stored_at_barrow_hill_engine_shed_2	Stored at Barrow Hill Engine Shed	stored|at|barrow|hill|engine|shed	store|at|Barrow|Hill|Engine|shed	VBN|IN|NNP|NNP|NNP|VBD	O|O|O|O|O|O	|||||				Stored at Barrow Hill Engine Shed	fb:part.stored_at_barrow_hill_engine_shed_2
+102	0	fb:cell.86702	86702	86702	86702	CD	NUMBER	86702.0	86702.0				
+102	1	fb:cell.86260	86260	86260	86260	CD	NUMBER	86260.0	86260.0				
+102	2	fb:cell.e3144	E3144	e3144	e3144	NN	O		3144.0				
+102	3	fb:cell.cassiopeia	Cassiopeia	cassiopeia	Cassiopeia	NNP	O					Cassiopeia	fb:part.cassiopeia
+102	4	fb:cell.2009	2009-	2009|-	2009|-	CD|:	DATE|O	2009|	2009.0			2009-	fb:part.2009
+102	5	fb:cell.electric_traction_limited_red_and_grey	Electric Traction Limited Red and Grey	electric|traction|limited|red|and|grey	Electric|Traction|Limited|Red|and|Grey	NNP|NNP|NNP|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	|||||				Electric Traction Limited Red and Grey	fb:part.electric_traction_limited_red_and_grey
+102	6	fb:cell.europhoenix	Europhoenix	europhoenix	Europhoenix	NNP	MISC						
+102	7	fb:cell.01_2013	01/2013	01\\/2013	01\\/2013	NN	O		1.0		2013.0	01|2013	fb:part.01|fb:part.2013
+102	8	fb:cell.stored_at_barrow_hill_engine_shed_2	Stored at Barrow Hill Engine Shed	stored|at|barrow|hill|engine|shed	store|at|Barrow|Hill|Engine|shed	VBN|IN|NNP|NNP|NNP|VBD	O|O|O|O|O|O	|||||				Stored at Barrow Hill Engine Shed	fb:part.stored_at_barrow_hill_engine_shed_2
+103	0	fb:cell.86901	86901	86901	86901	CD	NUMBER	86901.0	86901.0				
+103	1	fb:cell.86253	86253	86253	86253	CD	NUMBER	86253.0	86253.0				
+103	2	fb:cell.e3136	E3136	e3136	e3136	NN	O		3136.0				
+103	3	fb:cell.chief_engineer	Chief Engineer	chief|engineer	Chief|Engineer	NNP|NNP	O|O	|				Chief Engineer	fb:part.chief_engineer
+103	4	fb:cell.2005	2005-	2005|-	2005|-	CD|:	DATE|O	2005|	2005.0			2005-	fb:part.2005
+103	5	fb:cell.nr_yellow	NR Yellow	nr|yellow	NR|Yellow	NNP|NNP	MISC|MISC	|				NR Yellow	fb:part.nr_yellow
+103	6	fb:cell.network_rail	Network Rail	network|rail	Network|Rail	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+103	7	fb:cell.03_2011	03/2011	03\\/2011	03\\/2011	NN	O		3.0		2011.0	03|2011	fb:part.03|fb:part.2011
+103	8	fb:cell.stored_at_derby_rtc	Stored at Derby RTC	stored|at|derby|rtc	store|at|Derby|RTC	VBN|IN|NNP|NNP	O|O|LOCATION|O	|||				Stored at Derby RTC	fb:part.stored_at_derby_rtc
+104	0	fb:cell.86902	86902	86902	86902	CD	NUMBER	86902.0	86902.0				
+104	1	fb:cell.86210	86210	86210	86210	CD	NUMBER	86210.0	86210.0				
+104	2	fb:cell.e3190	E3190	e3190	e3190	NN	O		3190.0				
+104	3	fb:cell.rail_vehicle_engineering	Rail Vehicle Engineering	rail|vehicle|engineering	Rail|Vehicle|Engineering	NNP|NNP|NNP	O|O|O	||				Rail Vehicle Engineering	fb:part.rail_vehicle_engineering
+104	4	fb:cell.2005	2005-	2005|-	2005|-	CD|:	DATE|O	2005|	2005.0			2005-	fb:part.2005
+104	5	fb:cell.nr_yellow	NR Yellow	nr|yellow	NR|Yellow	NNP|NNP	MISC|MISC	|				NR Yellow	fb:part.nr_yellow
+104	6	fb:cell.network_rail	Network Rail	network|rail	Network|Rail	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+104	7	fb:cell.03_2011	03/2011	03\\/2011	03\\/2011	NN	O		3.0		2011.0	03|2011	fb:part.03|fb:part.2011
+104	8	fb:cell.stored_at_derby_rtc	Stored at Derby RTC	stored|at|derby|rtc	store|at|Derby|RTC	VBN|IN|NNP|NNP	O|O|LOCATION|O	|||				Stored at Derby RTC	fb:part.stored_at_derby_rtc

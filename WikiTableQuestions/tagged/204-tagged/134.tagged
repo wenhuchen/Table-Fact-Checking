@@ -1,0 +1,141 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.specifications	Specifications	specifications	specification	NNS	O						
+-1	1	fb:row.row.foundation	Foundation	foundation	Foundation	NNP	O						
+-1	2	fb:row.row.essentials	Essentials	essentials	essential	NNS	O						
+-1	3	fb:row.row.standard	Standard	standard	Standard	NNP	O						
+-1	4	fb:row.row.datacenter	Datacenter	datacenter	Datacenter	NNP	PERSON						
+0	0	fb:cell.distribution	Distribution	distribution	distribution	NN	O						
+0	1	fb:cell.oem_only	OEM only	oem|only	OEM|only	NNP|RB	O|O	|				OEM only	fb:part.oem_only
+0	2	fb:cell.retail_volume_licensing_oem	Retail, volume licensing, OEM	retail|,|volume|licensing|,|oem	Retail|,|volume|licensing|,|oem	NNP|,|NN|NN|,|NN	O|O|O|O|O|O	|||||				Retail|volume licensing|OEM	fb:part.retail|fb:part.volume_licensing|fb:part.oem
+0	3	fb:cell.retail_volume_licensing_oem	Retail, volume licensing, OEM	retail|,|volume|licensing|,|oem	Retail|,|volume|licensing|,|oem	NNP|,|NN|NN|,|NN	O|O|O|O|O|O	|||||				Retail|volume licensing|OEM	fb:part.retail|fb:part.volume_licensing|fb:part.oem
+0	4	fb:cell.volume_licensing_and_oem	Volume licensing and OEM	volume|licensing|and|oem	volume|licensing|and|oem	NN|NN|CC|NN	O|O|O|O	|||					
+1	0	fb:cell.licensing_model	Licensing model	licensing|model	licensing|model	NN|NN	O|O	|					
+1	1	fb:cell.per_server	Per server	per|server	per|server	IN|NN	O|O	|				Per server	fb:part.per_server
+1	2	fb:cell.per_server	Per server	per|server	per|server	IN|NN	O|O	|				Per server	fb:part.per_server
+1	3	fb:cell.per_cpu_pair_cal	Per CPU pair + CAL	per|cpu|pair|+|cal	per|CPU|pair|+|cal	IN|NNP|NN|CC|NN	O|O|O|O|O	||||				Per CPU pair + CAL	fb:part.per_cpu_pair_cal
+1	4	fb:cell.per_cpu_pair_cal	Per CPU pair + CAL	per|cpu|pair|+|cal	per|CPU|pair|+|cal	IN|NNP|NN|CC|NN	O|O|O|O|O	||||				Per CPU pair + CAL	fb:part.per_cpu_pair_cal
+2	0	fb:cell.processor_chip_limit	Processor chip limit	processor|chip|limit	Processor|chip|limit	NNP|NN|NN	O|O|O	||					
+2	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0			1	fb:part.1
+2	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0			2	fb:part.2
+2	3	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0			64	fb:part.64
+2	4	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0			64	fb:part.64
+3	0	fb:cell.memory_limit	Memory limit	memory|limit	memory|limit	NN|NN	O|O	|					
+3	1	fb:cell.32_gb	32 GB	32|gb	32|gb	CD|NN	NUMBER|O	32.0|	32.0			32 GB	fb:part.32_gb
+3	2	fb:cell.64_gb	64 GB	64|gb	64|gb	CD|NN	NUMBER|O	64.0|	64.0			64 GB	fb:part.64_gb
+3	3	fb:cell.4_tb	4 TB	4|tb	4|tb	CD|NN	NUMBER|O	4.0|	4.0			4 TB	fb:part.4_tb
+3	4	fb:cell.4_tb	4 TB	4|tb	4|tb	CD|NN	NUMBER|O	4.0|	4.0			4 TB	fb:part.4_tb
+4	0	fb:cell.user_limit	User limit	user|limit	user|limit	NN|NN	O|O	|					
+4	1	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0			15	fb:part.15
+4	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0			25	fb:part.25
+4	3	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+4	4	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+5	0	fb:cell.file_services_limits	File Services limits	file|services|limits	File|Services|limit	NNP|NNPS|NNS	O|O|O	||					
+5	1	fb:cell.1_standalone_dfs_root	1 standalone DFS root	1|standalone|dfs|root	1|standalone|df|root	CD|JJ|NN|NN	NUMBER|O|O|O	1.0|||	1.0			1 standalone DFS root	fb:part.1_standalone_dfs_root
+5	2	fb:cell.1_standalone_dfs_root	1 standalone DFS root	1|standalone|dfs|root	1|standalone|df|root	CD|JJ|NN|NN	NUMBER|O|O|O	1.0|||	1.0			1 standalone DFS root	fb:part.1_standalone_dfs_root
+5	3	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+5	4	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+6	0	fb:cell.network_policy_and_access_services_limits	Network Policy and Access Services limits	network|policy|and|access|services|limits	Network|Policy|and|access|Services|limit	NNP|NNP|CC|NN|NNPS|NNS	O|O|O|O|O|O	|||||					
+6	1	fb:cell.50_rras_connections_and_10_ias_connections	50 RRAS connections and 10 IAS connections	50|rras|connections|and|10|ias|connections	50|rra|connection|and|10|ia|connection	CD|NNS|NNS|CC|CD|NN|NNS	NUMBER|O|O|O|NUMBER|O|O	50.0||||10.0||	50.0		10.0	50 RRAS connections and 10 IAS connections	fb:part.50_rras_connections_and_10_ias_connections
+6	2	fb:cell.250_rras_connections_50_ias_connections_and_2_ias_server_groups	250 RRAS connections, 50 IAS connections, and 2 IAS Server Groups	250|rras|connections|,|50|ias|connections|,|and|2|ias|server|groups	250|rra|connection|,|50|ia|connection|,|and|2|IAS|server|group	CD|NNS|NNS|,|CD|NNS|NNS|,|CC|CD|NNP|NN|NNS	NUMBER|O|O|O|NUMBER|O|O|O|O|NUMBER|O|O|O	250.0||||50.0|||||2.0|||	250.0		50.0	250 RRAS connections|50 IAS connections|and 2 IAS Server Groups	fb:part.250_rras_connections|fb:part.50_ias_connections|fb:part.and_2_ias_server_groups
+6	3	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+6	4	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+7	0	fb:cell.remote_desktop_services_limits	Remote Desktop Services limits	remote|desktop|services|limits	remote|Desktop|Services|limit	JJ|NNP|NNPS|NNS	O|O|O|O	|||					
+7	1	fb:cell.50_remote_desktop_services_connections	50 Remote Desktop Services connections	50|remote|desktop|services|connections	50|remote|Desktop|Services|connection	CD|JJ|NNP|NNPS|NNS	NUMBER|O|O|O|O	50.0||||	50.0			50 Remote Desktop Services connections	fb:part.50_remote_desktop_services_connections
+7	2	fb:cell.gateway_only	Gateway only	gateway|only	gateway|only	NN|RB	O|O	|				Gateway only	fb:part.gateway_only
+7	3	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+7	4	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+8	0	fb:cell.virtualization_rights	Virtualization rights	virtualization|rights	virtualization|rights	NN|NNS	O|O	|					
+8	1	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+8	2	fb:cell.either_in_1_vm_or_1_physical_server_but_not_both_at_once	Either in 1 VM or 1 physical server, but not both at once	either|in|1|vm|or|1|physical|server|,|but|not|both|at|once	either|in|1|vm|or|1|physical|server|,|but|not|both|at|once	CC|IN|CD|NN|CC|CD|JJ|NN|,|CC|RB|DT|IN|RB	O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|DATE	||1.0|||1.0||||||||PAST_REF	1.0		1.0	Either in 1 VM or 1 physical server|but not both at once	fb:part.either_in_1_vm_or_1_physical_server|fb:part.but_not_both_at_once
+8	3	fb:cell.2_vms	2 VMs	2|vms	2|vm	CD|NNS	NUMBER|O	2.0|	2.0			2 VMs	fb:part.2_vms
+8	4	fb:cell.unlimited	Unlimited	unlimited	unlimited	JJ	O					Unlimited	fb:part.unlimited
+9	0	fb:cell.dhcp_role	DHCP role	dhcp|role	DHCP|role	NNP|NN	ORGANIZATION|O	|					
+9	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+9	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+9	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+9	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+10	0	fb:cell.dns_server_role	DNS server role	dns|server|role	dn|server|role	NN|NN|NN	O|O|O	||					
+10	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+10	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+10	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+10	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	0	fb:cell.fax_server_role	Fax server role	fax|server|role	fax|server|role	NN|NN|NN	O|O|O	||					
+11	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	0	fb:cell.uddi_services	UDDI Services	uddi|services	UDDI|Services	NNP|NNPS	ORGANIZATION|O	|					
+12	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+13	0	fb:cell.print_and_document_services	Print and Document Services	print|and|document|services	print|and|Document|Services	NN|CC|NNP|NNPS	O|O|O|O	|||					
+13	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+13	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+13	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+13	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+14	0	fb:cell.web_services_internet_information_services	Web Services (Internet Information Services)	web|services|-lrb-|internet|information|services|-rrb-	web|Services|-lrb-|Internet|Information|Services|-rrb-	NN|NNP|-LRB-|NNP|NNP|NNP|-RRB-	O|O|O|O|O|O|O	||||||					
+14	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+14	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+14	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+14	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+15	0	fb:cell.windows_deployment_services	Windows Deployment Services	windows|deployment|services	Windows|Deployment|Services	NNP|NNP|NNPS	MISC|MISC|MISC	||					
+15	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+15	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+15	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+15	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+16	0	fb:cell.windows_server_update_services	Windows Server Update Services	windows|server|update|services	Windows|server|Update|Services	NNP|NN|NNP|NNPS	MISC|MISC|MISC|MISC	|||					
+16	1	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+16	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+16	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+17	0	fb:cell.active_directory_lightweight_directory_services	Active Directory Lightweight Directory Services	active|directory|lightweight|directory|services	active|Directory|Lightweight|Directory|Services	JJ|NNP|NNP|NNP|NNPS	O|O|O|O|O	||||					
+17	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+17	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+17	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+17	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	0	fb:cell.active_directory_rights_management_services	Active Directory Rights Management Services	active|directory|rights|management|services	active|Directory|Rights|Management|Services	JJ|NNP|NNP|NNP|NNP	O|O|O|O|O	||||					
+18	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+19	0	fb:cell.application_server_role	Application server role	application|server|role	application|server|role	NN|NN|NN	O|O|O	||					
+19	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+19	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+19	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+19	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+20	0	fb:cell.server_manager	Server Manager	server|manager	server|manager	NN|NN	O|O	|					
+20	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+20	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+20	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+20	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+21	0	fb:cell.windows_powershell	Windows Powershell	windows|powershell	Windows|Powershell	NNP|NNP	MISC|MISC	|					
+21	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+21	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+21	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+21	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+22	0	fb:cell.active_directory_domain_services	Active Directory Domain Services	active|directory|domain|services	active|Directory|domain|Services	JJ|NNP|NN|NNPS	O|O|O|O	|||					
+22	1	fb:cell.must_be_root_of_forest_and_domain	Must be root of forest and domain	must|be|root|of|forest|and|domain	must|be|root|of|forest|and|domain	VBD-AUX|VBD-AUX|NN|IN|NN|CC|NN	O|O|O|O|O|O|O	||||||				Must be root of forest and domain	fb:part.must_be_root_of_forest_and_domain
+22	2	fb:cell.must_be_root_of_forest_and_domain	Must be root of forest and domain	must|be|root|of|forest|and|domain	must|be|root|of|forest|and|domain	VBD-AUX|VBD-AUX|NN|IN|NN|CC|NN	O|O|O|O|O|O|O	||||||				Must be root of forest and domain	fb:part.must_be_root_of_forest_and_domain
+22	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+22	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+23	0	fb:cell.active_directory_certificate_services	Active Directory Certificate Services	active|directory|certificate|services	active|Directory|Certificate|Services	JJ|NNP|NNP|NNPS	O|O|O|O	|||					
+23	1	fb:cell.certificate_authorities_only	Certificate Authorities only	certificate|authorities|only	Certificate|Authorities|only	NNP|NNP|RB	O|O|O	||				Certificate Authorities only	fb:part.certificate_authorities_only
+23	2	fb:cell.certificate_authorities_only	Certificate Authorities only	certificate|authorities|only	Certificate|Authorities|only	NNP|NNP|RB	O|O|O	||				Certificate Authorities only	fb:part.certificate_authorities_only
+23	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+23	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+24	0	fb:cell.active_directory_federation_services	Active Directory Federation Services	active|directory|federation|services	active|Directory|Federation|Services	JJ|NNP|NNP|NNPS	O|O|O|O	|||					
+24	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+24	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+24	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+25	0	fb:cell.server_core_mode	Server Core mode	server|core|mode	server|core|mode	NN|NN|NN	O|O|O	||					
+25	1	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+25	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+26	0	fb:cell.hyper_v	Hyper-V	hyper|v	hyper|v	JJ|NN	O|O	|					
+26	1	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+26	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes

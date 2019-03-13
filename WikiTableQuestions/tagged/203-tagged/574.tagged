@@ -1,0 +1,86 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.track_number	Track number	track|number	Track|number	NNP|NN	O|O	|					
+-1	1	fb:row.row.russian_title	Russian title	russian|title	russian|title	JJ|NN	MISC|O	|					
+-1	2	fb:row.row.english_title	English title	english|title	English|title	NNP|NN	MISC|O	|					
+-1	3	fb:row.row.music	Music	music	music	NN	O						
+-1	4	fb:row.row.lyrics	Lyrics	lyrics	lyric	NNS	O						
+0	0	fb:cell.01	01	01	01	NN	NUMBER	1.0	1.0				
+0	1	fb:cell.null	Улыбнись	улыбнись	улыбнись	NN	O						
+0	2	fb:cell.smile	Smile!	smile|!	smile|!	NN|.	O|O	|					
+0	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+0	4	fb:cell.d_plachkovsky	D. Plachkovsky	d.|plachkovsky	D.|Plachkovsky	NNP|NNP	PERSON|PERSON	|				D. Plachkovsky	fb:part.d_plachkovsky
+1	0	fb:cell.02	02	02	02	NN	NUMBER	2.0	2.0				
+1	1	fb:cell.null_2	Блаженный Гуру	блаженный|гуру	Блаженный|Гуру	NNP|NNP	O|O	|					
+1	2	fb:cell.blessed_guru	Blessed Guru	blessed|guru	blessed|guru	JJ|NN	O|O	|					
+1	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+1	4	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+2	0	fb:cell.03	03	03	03	NN	NUMBER	3.0	3.0				
+2	1	fb:cell.null_3	Восковые фигуры	восковые|фигуры	восковые|фигуры	NN|NN	O|O	|					
+2	2	fb:cell.wax_figures	Wax Figures	wax|figures	Wax|figure	NNP|NNS	O|O	|					
+2	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+2	4	fb:cell.d_plachkovsky_vitas_s_pudovkin	D. Plachkovsky, Vitas, S. Pudovkin	d.|plachkovsky|,|vitas|,|s.|pudovkin	D.|Plachkovsky|,|Vitas|,|S.|Pudovkin	NNP|NNP|,|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|O|PERSON|PERSON	||||||				D. Plachkovsky|Vitas|S. Pudovkin	fb:part.d_plachkovsky|fb:part.vitas|fb:part.s_pudovkin
+3	0	fb:cell.04	04	04	04	NN	NUMBER	4.0	4.0				
+3	1	fb:cell.null_4	Плачет чужая тоска	плачет|чужая|тоска	плачет|чужая|тоска	NN|NN|NN	O|O|O	||					
+3	2	fb:cell.someone_s_melancholy_is_crying	Someone's Melancholy Is Crying	someone|'s|melancholy|is|crying	someone|'s|melancholy|be|cry	NN|POS|JJ|VBD-AUX|VBG	O|O|O|O|O	||||					
+3	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+3	4	fb:cell.d_plachovsky	D. Plachovsky	d.|plachovsky	D.|Plachovsky	NNP|NNP	PERSON|PERSON	|				D. Plachovsky	fb:part.d_plachovsky
+4	0	fb:cell.05	05	05	05	NN	NUMBER	5.0	5.0				
+4	1	fb:cell.null_5	Аве Мария	аве|мария	аве|мария	NN|NN	O|O	|					
+4	2	fb:cell.ave_maria	Ave Maria	ave|maria	Ave|Maria	NNP|NNP	O|O	|					
+4	3	fb:cell.franz_schubert	Franz Schubert	franz|schubert	Franz|Schubert	NNP|NNP	PERSON|PERSON	|					
+4	4	fb:cell.traditional_prayer	Traditional prayer	traditional|prayer	traditional|prayer	JJ|NN	O|O	|				Traditional prayer	fb:part.traditional_prayer
+5	0	fb:cell.06	06	06	06	NN	NUMBER	6.0	6.0				
+5	1	fb:cell.null_6	Холодный мир	холодный|мир	Холодный|мир	NNP|NN	O|O	|					
+5	2	fb:cell.the_cold_world	The Cold World	the|cold|world	the|Cold|World	DT|NNP|NNP	O|O|O	||					
+5	3	fb:cell.v_molchanov	V. Molchanov	v.|molchanov	V.|Molchanov	NNP|NNP	PERSON|PERSON	|					
+5	4	fb:cell.d_plachkovsky	D. Plachkovsky	d.|plachkovsky	D.|Plachkovsky	NNP|NNP	PERSON|PERSON	|				D. Plachkovsky	fb:part.d_plachkovsky
+6	0	fb:cell.07	07	07	07	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.null_7	Остров затонувших кораблей	остров|затонувших|кораблей	остров|затонувших|кораблей	NN|NN|NN	O|O|O	||					
+6	2	fb:cell.the_island_of_sunken_ships	The Island Of Sunken Ships	the|island|of|sunken|ships	the|Island|of|Sunken|ship	DT|NNP|IN|NNP|NNS	O|O|O|O|O	||||					
+6	3	fb:cell.o_gazmanov	O. Gazmanov	o.|gazmanov	O.|Gazmanov	NNP|NNP	PERSON|PERSON	|					
+6	4	fb:cell.e_nebylova	E. Nebylova	e.|nebylova	E.|Nebylova	NNP|NNP	PERSON|PERSON	|				E. Nebylova	fb:part.e_nebylova
+7	0	fb:cell.08	08	08	08	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.null_8	Фантастические сны	фантастические|сны	Фантастические|сны	NNP|NN	O|O	|					
+7	2	fb:cell.fantastic_dreams	Fantastic Dreams	fantastic|dreams	fantastic|dream	JJ|NNS	O|O	|					
+7	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+7	4	fb:cell.vitas_d_plachkovsky	Vitas, D. Plachkovsky	vitas|,|d.|plachkovsky	Vitas|,|D.|Plachkovsky	NNP|,|NNP|NNP	PERSON|O|PERSON|PERSON	|||				Vitas|D. Plachkovsky	fb:part.vitas|fb:part.d_plachkovsky
+8	0	fb:cell.09	09	09	09	NN	NUMBER	9.0	9.0				
+8	1	fb:cell.good_bye	Good-bye	good|bye	good|bye	JJ|NN	O|O	|					
+8	2	fb:cell.good_bye	Good-bye	good|bye	good|bye	JJ|NN	O|O	|					
+8	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+8	4	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.null_9	Счастье	счастье	счастье	NN	O						
+9	2	fb:cell.happiness	Happiness	happiness	happiness	NN	O						
+9	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+9	4	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.null_10	Отцвели хризантемы	отцвели|хризантемы	отцвели|хризантемы	NN|NN	O|O	|					
+10	2	fb:cell.chrysanthemums_have_faded_out	Chrysanthemums Have Faded Out	chrysanthemums|have|faded|out	chrysanthemum|have|fade|out	NNS|VBD-AUX|VBN|IN	O|O|O|O	|||					
+10	3	fb:cell.n_harito	N. Harito	n.|harito	N.|Harito	NNP|NNP	PERSON|PERSON	|					
+10	4	fb:cell.v_shumsky	V. Shumsky	v.|shumsky	V.|Shumsky	NNP|NNP	PERSON|PERSON	|				V. Shumsky	fb:part.v_shumsky
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.null_11	Дождь в Тбилиси	дождь|в|тбилиси	дождь|в|тбилиси	NN|NN|NN	O|O|O	||					
+11	2	fb:cell.rain_in_tbilisi	Rain in Tbilisi	rain|in|tbilisi	rain|in|Tbilisi	NN|IN|NNP	O|O|LOCATION	||					
+11	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+11	4	fb:cell.ratner	Ratner	ratner	Ratner	NNP	PERSON					Ratner	fb:part.ratner
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.null_12	Слепой художник	слепой|художник	слепой|художник	NN|NN	O|O	|					
+12	2	fb:cell.blind_painter	Blind Painter	blind|painter	Blind|Painter	NNP|NNP	O|O	|					
+12	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+12	4	fb:cell.d_plachkovsky_vitas_s_pudovkin	D. Plachkovsky, Vitas, S. Pudovkin	d.|plachkovsky|,|vitas|,|s.|pudovkin	D.|Plachkovsky|,|Vitas|,|S.|Pudovkin	NNP|NNP|,|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|O|PERSON|PERSON	||||||				D. Plachkovsky|Vitas|S. Pudovkin	fb:part.d_plachkovsky|fb:part.vitas|fb:part.s_pudovkin
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.null_13	Милая музыка	милая|музыка	милая|музыка	NN|NN	O|O	|					
+13	2	fb:cell.lovely_music	Lovely Music	lovely|music	lovely|music	JJ|NN	O|O	|					
+13	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+13	4	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.null_14	Белоруссия	белоруссия	белоруссия	NN	O						
+14	2	fb:cell.byelorussia	Byelorussia	byelorussia	Byelorussia	NNP	LOCATION						
+14	3	fb:cell.alexandra_pakhmutova	Alexandra Pakhmutova	alexandra|pakhmutova	Alexandra|Pakhmutova	NNP|NNP	PERSON|PERSON	|					
+14	4	fb:cell.n_dobronravov	N. Dobronravov	n.|dobronravov	N.|Dobronravov	NNP|NNP	PERSON|PERSON	|				N. Dobronravov	fb:part.n_dobronravov
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.null_15	До свидания	до|свидания	до|свидания	NN|NN	O|O	|					
+15	2	fb:cell.see_you_later_do_svidaniya	See You Later (Do Svidaniya)	see|you|later|-lrb-|do|svidaniya|-rrb-	see|you|later|-lrb-|do|svidaniya|-rrb-	VB|PRP|RB|-LRB-|VBD-AUX|NN|-RRB-	O|O|O|O|O|O|O	||||||					
+15	3	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas
+15	4	fb:cell.vitas	Vitas	vitas	Vitas	NNP	PERSON					Vitas	fb:part.vitas

@@ -1,0 +1,55 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.district	District	district	District	NNP	O						
+-1	1	fb:row.row.incumbent	Incumbent	incumbent	incumbent	JJ	O						
+-1	2	fb:row.row.party	Party	party	Party	NNP	O						
+-1	3	fb:row.row.first_elected	First\nelected	first|elected	First|elect	NNP|VBD	ORDINAL|O	1.0|					
+-1	4	fb:row.row.result	Result	result	result	NN	O						
+-1	5	fb:row.row.candidates	Candidates	candidates	candidate	NNS	O						
+0	0	fb:cell.maryland_1	Maryland 1	maryland|1	Maryland|1	NNP|CD	LOCATION|NUMBER	|1.0	1.0				
+0	1	fb:cell.wayne_gilchrest	Wayne Gilchrest	wayne|gilchrest	Wayne|Gilchrest	NNP|NNP	PERSON|PERSON	|					
+0	2	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+0	3	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+0	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+0	5	fb:cell.wayne_gilchrest_r_76_67_ann_tamlyn_d_23_16	Wayne Gilchrest (R) 76.67%\nAnn Tamlyn (D) 23.16%	wayne|gilchrest|-lrb-|r|-rrb-|76.67|%|ann|tamlyn|-lrb-|d|-rrb-|23.16|%	Wayne|Gilchrest|-lrb-|R|-rrb-|76.67|%|Ann|Tamlyn|-lrb-|D|-rrb-|23.16|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%76.67|%76.67||||||%23.16|%23.16	76.67		23.16	Wayne Gilchrest (R) 76.67%|Ann Tamlyn (D) 23.16%	fb:part.wayne_gilchrest_r_76_67|fb:part.ann_tamlyn_d_23_16
+1	0	fb:cell.maryland_2	Maryland 2	maryland|2	Maryland|2	NNP|CD	ORGANIZATION|NUMBER	|2.0	2.0				
+1	1	fb:cell.robert_ehrlich	Robert Ehrlich	robert|ehrlich	Robert|Ehrlich	NNP|NNP	PERSON|PERSON	|					
+1	2	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+1	3	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+1	4	fb:cell.retired_to_run_for_governor_democratic_gain	Retired to run for Governor\nDemocratic gain	retired|to|run|for|governor|democratic|gain	retire|to|run|for|Governor|democratic|gain	VBN|TO|VB|IN|NNP|JJ|NN	O|O|O|O|O|MISC|O	||||||				Retired to run for Governor|Democratic gain	fb:part.retired_to_run_for_governor|fb:part.democratic_gain
+1	5	fb:cell.dutch_ruppersberger_d_54_16_helen_bentley_r_45_57	Dutch Ruppersberger (D) 54.16%\nHelen Bentley (R) 45.57%	dutch|ruppersberger|-lrb-|d|-rrb-|54.16|%|helen|bentley|-lrb-|r|-rrb-|45.57|%	dutch|ruppersberger|-lrb-|d|-rrb-|54.16|%|Helen|Bentley|-lrb-|R|-rrb-|45.57|%	JJ|NN|-LRB-|NN|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	MISC|O|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%54.16|%54.16||||||%45.57|%45.57	54.16		45.57	Dutch Ruppersberger (D) 54.16%|Helen Bentley (R) 45.57%	fb:part.dutch_ruppersberger_d_54_16|fb:part.helen_bentley_r_45_57
+2	0	fb:cell.maryland_3	Maryland 3	maryland|3	Maryland|3	NNP|CD	ORGANIZATION|NUMBER	|3.0	3.0				
+2	1	fb:cell.ben_cardin	Ben Cardin	ben|cardin	Ben|Cardin	NNP|NNP	PERSON|PERSON	|					
+2	2	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+2	3	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+2	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+2	5	fb:cell.ben_cardin_d_65_72_scott_conwell_r_34_18	Ben Cardin (D) 65.72%\nScott Conwell (R) 34.18%	ben|cardin|-lrb-|d|-rrb-|65.72|%|scott|conwell|-lrb-|r|-rrb-|34.18|%	Ben|Cardin|-lrb-|D|-rrb-|65.72|%|Scott|Conwell|-lrb-|R|-rrb-|34.18|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%65.72|%65.72||||||%34.18|%34.18	65.72		34.18	Ben Cardin (D) 65.72%|Scott Conwell (R) 34.18%	fb:part.ben_cardin_d_65_72|fb:part.scott_conwell_r_34_18
+3	0	fb:cell.maryland_4	Maryland 4	maryland|4	Maryland|4	NNP|CD	ORGANIZATION|NUMBER	|4.0	4.0				
+3	1	fb:cell.albert_wynn	Albert Wynn	albert|wynn	Albert|Wynn	NNP|NNP	PERSON|PERSON	|					
+3	2	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+3	3	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+3	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+3	5	fb:cell.albert_wynn_d_78_57_john_kimble_r_20_82	Albert Wynn (D) 78.57%\nJohn Kimble (R) 20.82%	albert|wynn|-lrb-|d|-rrb-|78.57|%|john|kimble|-lrb-|r|-rrb-|20.82|%	Albert|Wynn|-lrb-|D|-rrb-|78.57|%|John|Kimble|-lrb-|R|-rrb-|20.82|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%78.57|%78.57||||||%20.82|%20.82	78.57		20.82	Albert Wynn (D) 78.57%|John Kimble (R) 20.82%	fb:part.albert_wynn_d_78_57|fb:part.john_kimble_r_20_82
+4	0	fb:cell.maryland_5	Maryland 5	maryland|5	Maryland|5	NNP|CD	ORGANIZATION|NUMBER	|5.0	5.0				
+4	1	fb:cell.steny_hoyer	Steny Hoyer	steny|hoyer	Steny|Hoyer	NNP|NNP	PERSON|PERSON	|					
+4	2	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+4	3	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+4	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+4	5	fb:cell.steny_hoyer_d_69_27_joseph_crawford_r_30_52	Steny Hoyer (D) 69.27%\nJoseph Crawford (R) 30.52%	steny|hoyer|-lrb-|d|-rrb-|69.27|%|joseph|crawford|-lrb-|r|-rrb-|30.52|%	Steny|Hoyer|-lrb-|D|-rrb-|69.27|%|Joseph|Crawford|-lrb-|R|-rrb-|30.52|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%69.27|%69.27||||||%30.52|%30.52	69.27		30.52	Steny Hoyer (D) 69.27%|Joseph Crawford (R) 30.52%	fb:part.steny_hoyer_d_69_27|fb:part.joseph_crawford_r_30_52
+5	0	fb:cell.maryland_6	Maryland 6	maryland|6	Maryland|6	NNP|CD	ORGANIZATION|NUMBER	|6.0	6.0				
+5	1	fb:cell.roscoe_bartlett	Roscoe Bartlett	roscoe|bartlett	Roscoe|Bartlett	NNP|NNP	PERSON|PERSON	|					
+5	2	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+5	3	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+5	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+5	5	fb:cell.roscoe_bartlett_r_66_11_donald_dearmon_d_33_80	Roscoe Bartlett (R) 66.11%\nDonald DeArmon (D) 33.80%	roscoe|bartlett|-lrb-|r|-rrb-|66.11|%|donald|dearmon|-lrb-|d|-rrb-|33.80|%	Roscoe|Bartlett|-lrb-|R|-rrb-|66.11|%|Donald|DeArmon|-lrb-|D|-rrb-|33.80|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%66.11|%66.11||||||%33.8|%33.8	66.11		33.8	Roscoe Bartlett (R) 66.11%|Donald DeArmon (D) 33.80%	fb:part.roscoe_bartlett_r_66_11|fb:part.donald_dearmon_d_33_80
+6	0	fb:cell.maryland_7	Maryland 7	maryland|7	Maryland|7	NNP|CD	ORGANIZATION|NUMBER	|7.0	7.0				
+6	1	fb:cell.elijah_cummings	Elijah Cummings	elijah|cummings	Elijah|Cummings	NNP|NNP	PERSON|PERSON	|					
+6	2	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+6	3	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+6	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+6	5	fb:cell.elijah_cummings_d_73_53_joseph_ward_r_26_38	Elijah Cummings (D) 73.53%\nJoseph Ward (R) 26.38%	elijah|cummings|-lrb-|d|-rrb-|73.53|%|joseph|ward|-lrb-|r|-rrb-|26.38|%	Elijah|Cummings|-lrb-|D|-rrb-|73.53|%|Joseph|Ward|-lrb-|R|-rrb-|26.38|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%73.53|%73.53||||||%26.38|%26.38	73.53		26.38	Elijah Cummings (D) 73.53%|Joseph Ward (R) 26.38%	fb:part.elijah_cummings_d_73_53|fb:part.joseph_ward_r_26_38
+7	0	fb:cell.maryland_8	Maryland 8	maryland|8	Maryland|8	NNP|CD	LOCATION|NUMBER	|8.0	8.0				
+7	1	fb:cell.connie_morella	Connie Morella	connie|morella	Connie|Morella	NNP|NNP	PERSON|PERSON	|					
+7	2	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+7	3	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+7	4	fb:cell.lost_re_election_democratic_gain	Lost re-election\nDemocratic gain	lost|re|election|democratic|gain	lose|re|election|democratic|gain	VBN|JJ|NN|JJ|NN	O|O|O|MISC|O	||||				Lost re-election|Democratic gain	fb:part.lost_re_election|fb:part.democratic_gain
+7	5	fb:cell.chris_van_hollen_d_51_71_connie_morella_r_47_49_stephen_bassett_un_0_73	Chris Van Hollen (D) 51.71%\nConnie Morella (R) 47.49%\nStephen Bassett (UN) 0.73%	chris|van|hollen|-lrb-|d|-rrb-|51.71|%|connie|morella|-lrb-|r|-rrb-|47.49|%|stephen|bassett|-lrb-|un|-rrb-|0.73|%	Chris|Van|Hollen|-lrb-|D|-rrb-|51.71|%|Connie|Morella|-lrb-|R|-rrb-|47.49|%|Stephen|Bassett|-lrb-|UN|-rrb-|0.73|%	NNP|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT|O|O|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|ORGANIZATION|O|PERCENT|PERCENT	||||||%51.71|%51.71||||||%47.49|%47.49||||||%0.73|%0.73	51.71		47.49	Chris Van Hollen (D) 51.71%|Connie Morella (R) 47.49%|Stephen Bassett (UN) 0.73%	fb:part.chris_van_hollen_d_51_71|fb:part.connie_morella_r_47_49|fb:part.stephen_bassett_un_0_73

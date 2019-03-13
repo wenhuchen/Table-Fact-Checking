@@ -1,0 +1,82 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.institution	Institution	institution	Institution	NNP	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.athletic_nickname	Athletic nickname	athletic|nickname	athletic|nickname	JJ|NN	O|O	|					
+-1	3	fb:row.row.undergraduate_enrollment	Undergraduate enrollment	undergraduate|enrollment	undergraduate|enrollment	JJ|NN	O|O	|					
+-1	4	fb:row.row.graduate_enrollment	Graduate enrollment	graduate|enrollment	graduate|enrollment	NN|NN	O|O	|					
+-1	5	fb:row.row.total_enrollment	Total enrollment	total|enrollment	total|enrollment	JJ|NN	O|O	|					
+-1	6	fb:row.row.2013_endowment_and_us_rank	2013 Endowment\n(and US rank)	2013|endowment|-lrb-|and|us|rank|-rrb-	2013|endowment|-lrb-|and|US|rank|-rrb-	CD|NN|-LRB-|CC|NNP|NN|-RRB-	DATE|O|O|O|LOCATION|O|O	2013||||||					
+-1	7	fb:row.row.academic_staff	Academic staff	academic|staff	Academic|staff	NNP|NN	O|O	|					
+-1	8	fb:row.row.motto	Motto	motto	motto	NN	O						
+0	0	fb:cell.brown_university	Brown University	brown|university	Brown|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+0	1	fb:cell.providence_rhode_island	Providence,\nRhode Island	providence|,|rhode|island	Providence|,|Rhode|Island	NNP|,|NNP|NNP	O|O|LOCATION|LOCATION	|||				Providence|Rhode Island	fb:part.providence|fb:part.rhode_island
+0	2	fb:cell.bears	Bears	bears	bear	NNS	O						
+0	3	fb:cell.6_316	6,316	6,316	6,316	CD	NUMBER	6316.0	6316.0				
+0	4	fb:cell.2_333	2,333	2,333	2,333	CD	NUMBER	2333.0	2333.0				
+0	5	fb:cell.8_649	8,649	8,649	8,649	CD	NUMBER	8649.0	8649.0				
+0	6	fb:cell._2_7_billion_30th	$2.7 billion (30th)	$|2.7|billion|-lrb-|30th|-rrb-	$|2.7|billion|-lrb-|30th|-rrb-	$|CD|CD|-LRB-|JJ|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$2.7E9|$2.7E9|$2.7E9||30.0|	2.7		30.0		
+0	7	fb:cell.736	736	736	736	CD	NUMBER	736.0	736.0				
+0	8	fb:cell.in_deo_speramus_in_god_we_hope	In Deo Speramus\n(In God We Hope)	in|deo|speramus|-lrb-|in|god|we|hope|-rrb-	in|Deo|Speramus|-lrb-|in|God|we|Hope|-rrb-	IN|NNP|NNP|-LRB-|IN|NNP|PRP|NNP|-RRB-	O|O|O|O|O|O|O|O|O	||||||||				In Deo Speramus|(In God We Hope)	fb:part.in_deo_speramus|fb:part._in_god_we_hope
+1	0	fb:cell.columbia_university	Columbia University	columbia|university	Columbia|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+1	1	fb:cell.new_york_new_york	New York,\nNew York	new|york|,|new|york	New|York|,|New|York	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				New York|New York	fb:part.new_york|fb:part.new_york
+1	2	fb:cell.lions	Lions	lions	lion	NNS	O						
+1	3	fb:cell.7_160	7,160	7,160	7,160	CD	NUMBER	7160.0	7160.0				
+1	4	fb:cell.15_760	15,760	15,760	15,760	CD	NUMBER	15760.0	15760.0				
+1	5	fb:cell.22_920	22,920	22,920	22,920	CD	NUMBER	22920.0	22920.0				
+1	6	fb:cell._8_2_billion_9th	$8.2 billion (9th)	$|8.2|billion|-lrb-|9th|-rrb-	$|8.2|billion|-lrb-|9th|-rrb-	$|CD|CD|-LRB-|JJ|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$8.199999999999999E9|$8.199999999999999E9|$8.199999999999999E9||9.0|	8.2		9.0		
+1	7	fb:cell.3_763	3,763	3,763	3,763	CD	NUMBER	3763.0	3763.0				
+1	8	fb:cell.in_lumine_tuo_videbimus_lumen_in_thy_light_shall_we_see_the_light	In lumine Tuo videbimus lumen\n(In Thy light shall we see the light)	in|lumine|tuo|videbimus|lumen|-lrb-|in|thy|light|shall|we|see|the|light|-rrb-	in|lumine|tuo|videbimus|luman|-lrb-|in|Thy|light|shall|we|see|the|light|-rrb-	IN|NN|NN|NN|NN|-LRB-|IN|NNP|NN|VBD-AUX|PRP|VB|DT|NN|-RRB-	O|O|PERSON|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				In lumine Tuo videbimus lumen|(In Thy light shall we see the light)	fb:part.in_lumine_tuo_videbimus_lumen|fb:part._in_thy_light_shall_we_see_the_light
+2	0	fb:cell.cornell_university	Cornell University	cornell|university	Cornell|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+2	1	fb:cell.ithaca_new_york	Ithaca,\nNew York	ithaca|,|new|york	Ithaca|,|New|York	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Ithaca|New York	fb:part.ithaca|fb:part.new_york
+2	2	fb:cell.big_red	Big Red	big|red	Big|Red	NNP|NNP	O|O	|					
+2	3	fb:cell.13_931	13,931	13,931	13,931	CD	NUMBER	13931.0	13931.0				
+2	4	fb:cell.6_702	6,702	6,702	6,702	CD	NUMBER	6702.0	6702.0				
+2	5	fb:cell.20_633	20,633	20,633	20,633	CD	NUMBER	20633.0	20633.0				
+2	6	fb:cell._5_3_billion_18th	$5.3 billion (18th)	$|5.3|billion|-lrb-|18th|-rrb-	$|5.3|billion|-lrb-|18th|-rrb-	$|CD|CD|-LRB-|JJ|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$5.3E9|$5.3E9|$5.3E9||18.0|	5.3		18.0		
+2	7	fb:cell.2_908	2,908	2,908	2,908	CD	NUMBER	2908.0	2908.0				
+2	8	fb:cell.i_would_found_an_institution_where_any_person_can_find_instruction_in_any_study	I would found an institution where any person can find instruction in any study.	i|would|found|an|institution|where|any|person|can|find|instruction|in|any|study|.	I|would|find|a|institution|where|any|person|can|find|instruction|in|any|study|.	PRP|VBD-AUX|VBD|DT|NN|WRB|DT|NN|VBD-AUX|VB|NN|IN|DT|NN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||				I would found an institution where any person can find instruction in any study.	fb:part.i_would_found_an_institution_where_any_person_can_find_instruction_in_any_study
+3	0	fb:cell.dartmouth_college	Dartmouth College	dartmouth|college	Dartmouth|College	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+3	1	fb:cell.hanover_new_hampshire	Hanover,\nNew Hampshire	hanover|,|new|hampshire	Hanover|,|New|Hampshire	NNP|,|NNP|NNP	O|O|LOCATION|LOCATION	|||				Hanover|New Hampshire	fb:part.hanover|fb:part.new_hampshire
+3	2	fb:cell.big_green	Big Green	big|green	Big|Green	NNP|NNP	O|O	|					
+3	3	fb:cell.4_248	4,248	4,248	4,248	CD	NUMBER	4248.0	4248.0				
+3	4	fb:cell.1_893	1,893	1,893	1,893	CD	NUMBER	1893.0	1893.0				
+3	5	fb:cell.6_141	6,141	6,141	6,141	CD	NUMBER	6141.0	6141.0				
+3	6	fb:cell._3_7_billion_22nd	$3.7 billion (22nd)	$|3.7|billion|-lrb-|22nd|-rrb-	$|3.7|billion|-lrb-|22nd|-rrb-	$|CD|CD|-LRB-|CD|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$3.7E9|$3.7E9|$3.7E9||22.0|	3.7		22.0		
+3	7	fb:cell.571	571	571	571	CD	NUMBER	571.0	571.0				
+3	8	fb:cell.vox_clamantis_in_deserto_the_voice_of_one_crying_in_the_wilderness	Vox clamantis in deserto\n(The voice of one crying in the wilderness)	vox|clamantis|in|deserto|-lrb-|the|voice|of|one|crying|in|the|wilderness|-rrb-	vox|clamanti|in|deserto|-lrb-|the|voice|of|one|cry|in|the|wilderness|-rrb-	NN|NN|IN|NN|-LRB-|DT|NN|IN|CD|VBG|IN|DT|NN|-RRB-	ORGANIZATION|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O	||||||||1.0|||||				Vox clamantis in deserto|(The voice of one crying in the wilderness)	fb:part.vox_clamantis_in_deserto|fb:part._the_voice_of_one_crying_in_the_wilderness
+4	0	fb:cell.harvard_university	Harvard University	harvard|university	Harvard|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+4	1	fb:cell.cambridge_massachusetts	Cambridge,\nMassachusetts	cambridge|,|massachusetts	Cambridge|,|Massachusetts	NNP|,|NNP	LOCATION|O|LOCATION	||				Cambridge|Massachusetts	fb:part.cambridge|fb:part.massachusetts
+4	2	fb:cell.crimson	Crimson	crimson	crimson	JJ	MISC						
+4	3	fb:cell.7_181	7,181	7,181	7,181	CD	NUMBER	7181.0	7181.0				
+4	4	fb:cell.14_044	14,044	14,044	14,044	CD	NUMBER	14044.0	14044.0				
+4	5	fb:cell.21_225	21,225	21,225	21,225	CD	NUMBER	21225.0	21225.0				
+4	6	fb:cell._32_3_billion_1st	$32.3 billion (1st)	$|32.3|billion|-lrb-|1st|-rrb-	$|32.3|billion|-lrb-|1st|-rrb-	$|CD|CD|-LRB-|CD|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$3.2299999999999996E10|$3.2299999999999996E10|$3.2299999999999996E10||1.0|	32.3		1.0		
+4	7	fb:cell.4_671	4,671	4,671	4,671	CD	NUMBER	4671.0	4671.0				
+4	8	fb:cell.veritas_truth	Veritas\n(Truth)	veritas|-lrb-|truth|-rrb-	Veritas|-lrb-|Truth|-rrb-	NNP|-LRB-|NNP|-RRB-	O|O|O|O	|||				Veritas|(Truth)	fb:part.veritas|fb:part._truth
+5	0	fb:cell.princeton_university	Princeton University	princeton|university	Princeton|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+5	1	fb:cell.princeton_new_jersey	Princeton,\nNew Jersey	princeton|,|new|jersey	Princeton|,|New|Jersey	NNP|,|NNP|NNP	ORGANIZATION|O|LOCATION|LOCATION	|||				Princeton|New Jersey	fb:part.princeton|fb:part.new_jersey
+5	2	fb:cell.tigers	Tigers	tigers	Tigers	NNP	O						
+5	3	fb:cell.5_113	5,113	5,113	5,113	CD	NUMBER	5113.0	5113.0				
+5	4	fb:cell.2_479	2,479	2,479	2,479	CD	NUMBER	2479.0	2479.0				
+5	5	fb:cell.7_592	7,592	7,592	7,592	CD	NUMBER	7592.0	7592.0				
+5	6	fb:cell._18_2_billion_5th	$18.2 billion (5th)	$|18.2|billion|-lrb-|5th|-rrb-	$|18.2|billion|-lrb-|5th|-rrb-	$|CD|CD|-LRB-|NN|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$1.82E10|$1.82E10|$1.82E10||5.0|	18.2		5.0		
+5	7	fb:cell.1_172	1,172	1,172	1,172	CD	NUMBER	1172.0	1172.0				
+5	8	fb:cell.dei_sub_numine_viget_under_god_s_power_she_flourishes	Dei sub numine viget\n(Under God's power she flourishes)	dei|sub|numine|viget|-lrb-|under|god|'s|power|she|flourishes|-rrb-	Dei|sub|numine|viget|-lrb-|under|God|'s|power|she|flourish|-rrb-	NNP|NN|NN|NN|-LRB-|IN|NNP|POS|NN|PRP|VBZ|-RRB-	MISC|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Dei sub numine viget|(Under God's power she flourishes)	fb:part.dei_sub_numine_viget|fb:part._under_god_s_power_she_flourishes
+6	0	fb:cell.university_of_pennsylvania	University of Pennsylvania	university|of|pennsylvania	University|of|Pennsylvania	NNP|IN|NNP	O|O|LOCATION	||					
+6	1	fb:cell.philadelphia_pennsylvania	Philadelphia,\nPennsylvania	philadelphia|,|pennsylvania	Philadelphia|,|Pennsylvania	NNP|,|NNP	LOCATION|O|LOCATION	||				Philadelphia|Pennsylvania	fb:part.philadelphia|fb:part.pennsylvania
+6	2	fb:cell.quakers	Quakers	quakers	Quakers	NNPS	O						
+6	3	fb:cell.10_337	10,337	10,337	10,337	CD	NUMBER	10337.0	10337.0				
+6	4	fb:cell.10_306	10,306	10,306	10,306	CD	NUMBER	10306.0	10306.0				
+6	5	fb:cell.20_643	20,643	20,643	20,643	CD	NUMBER	20643.0	20643.0				
+6	6	fb:cell._7_7_billion_11th	$7.7 billion (11th)	$|7.7|billion|-lrb-|11th|-rrb-	$|7.7|billion|-lrb-|11th|-rrb-	$|CD|CD|-LRB-|JJ|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$7.7E9|$7.7E9|$7.7E9||11.0|	7.7		11.0		
+6	7	fb:cell.4_464	4,464	4,464	4,464	CD	NUMBER	4464.0	4464.0				
+6	8	fb:cell.leges_sine_moribus_vanae_laws_without_morals_are_useless	Leges sine moribus vanae\n(Laws without morals are useless)	leges|sine|moribus|vanae|-lrb-|laws|without|morals|are|useless|-rrb-	Leges|sine|moribus|vana|-lrb-|law|without|moral|be|useless|-rrb-	NNP|NN|NN|NN|-LRB-|NNS|IN|NNS|VBD-AUX|JJ|-RRB-	O|O|O|O|O|O|O|O|O|O|O	||||||||||				Leges sine moribus vanae|(Laws without morals are useless)	fb:part.leges_sine_moribus_vanae|fb:part._laws_without_morals_are_useless
+7	0	fb:cell.yale_university	Yale University	yale|university	Yale|University	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+7	1	fb:cell.new_haven_connecticut	New Haven,\nConnecticut	new|haven|,|connecticut	New|Haven|,|Connecticut	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				New Haven|Connecticut	fb:part.new_haven|fb:part.connecticut
+7	2	fb:cell.bulldogs	Bulldogs	bulldogs	Bulldogs	NNPS	O						
+7	3	fb:cell.5_275	5,275	5,275	5,275	CD	NUMBER	5275.0	5275.0				
+7	4	fb:cell.6_391	6,391	6,391	6,391	CD	NUMBER	6391.0	6391.0				
+7	5	fb:cell.11_666	11,666	11,666	11,666	CD	NUMBER	11666.0	11666.0				
+7	6	fb:cell._20_8_billion_2nd	$20.8 billion (2nd)	$|20.8|billion|-lrb-|2nd|-rrb-	$|20.8|billion|-lrb-|2nd|-rrb-	$|CD|CD|-LRB-|JJ|-RRB-	MONEY|MONEY|MONEY|O|ORDINAL|O	$2.08E10|$2.08E10|$2.08E10||2.0|	20.8		2.0		
+7	7	fb:cell.4_140	4,140	4,140	4,140	CD	NUMBER	4140.0	4140.0				
+7	8	fb:cell._lux_et_veritas_light_and_truth	אורים ותומים\nLux et veritas\n(Light and truth)	אורים|ותומים|lux|et|veritas|-lrb-|light|and|truth|-rrb-	אורים|ותומים|lux|et|veritas|-lrb-|light|and|truth|-rrb-	NN|CD|FW|FW|FW|-LRB-|NN|CC|NN|-RRB-	O|NUMBER|O|O|O|O|O|O|O|O	|||||||||				אורים ותומים|Lux et veritas|(Light and truth)	fb:part.null|fb:part.lux_et_veritas|fb:part._light_and_truth

@@ -1,0 +1,115 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rank	Rank	rank	Rank	NNP	O						
+-1	1	fb:row.row.area	Area	area	area	NN	O						
+-1	2	fb:row.row.state_province	State/\nProvince	state|\\/|province	State|\\/|Province	NNP|:|NNP	O|O|O	||					
+-1	3	fb:row.row.csa_cma_2009_population	CSA/CMA\n2009 population	csa\\/cma|2009|population	CSA\\/CMA|2009|population	NNP|CD|NN	O|DATE|O	|2009|					
+-1	4	fb:row.row.projected_2025_population	Projected\n2025 population	projected|2025|population	project|2025|population	VBN|CD|NN	O|DATE|O	|2025|					
+-1	5	fb:row.row.projected_increase_2009_2025	Projected increase\n2009–2025	projected|increase|2009|--|2025	projected|increase|2009|--|2025	JJ|NN|CD|:|CD	O|O|DATE|DATE|DATE	||2009|2009|2025					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.chicago	Chicago	chicago	Chicago	NNP	LOCATION						
+0	2	fb:cell.il_in_wi	IL-IN-WI	il|in|wi	il|in|wus	NN|IN|NN	O|O|O	||					
+0	3	fb:cell.9_804_845	9,804,845	9,804,845	9,804,845	CD	NUMBER	9804845.0	9804845.0				
+0	4	fb:cell.10_935_100	10,935,100	10,935,100	10,935,100	CD	NUMBER	1.09351E7	1.09351E7			10,935,100	fb:part.10_935_100
+0	5	fb:cell.1_130_255	1,130,255	1,130,255	1,130,255	CD	NUMBER	1130255.0	1130255.0			1,130,255	fb:part.1_130_255
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.toronto	Toronto	toronto	Toronto	NNP	LOCATION						
+1	2	fb:cell.on	ON	on	on	IN	O						
+1	3	fb:cell.5_741_400	5,741,400	5,741,400	5,741,400	CD	NUMBER	5741400.0	5741400.0				
+1	4	fb:cell.7_408_000	7,408,000	7,408,000	7,408,000	CD	NUMBER	7408000.0	7408000.0			7,408,000	fb:part.7_408_000
+1	5	fb:cell.1_666_600	1,666,600	1,666,600	1,666,600	CD	NUMBER	1666600.0	1666600.0			1,666,600	fb:part.1_666_600
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.detroit	Detroit	detroit	Detroit	NNP	LOCATION						
+2	2	fb:cell.mi	MI	mi	MI	NNP	O						
+2	3	fb:cell.5_327_764	5,327,764	5,327,764	5,327,764	CD	NUMBER	5327764.0	5327764.0				
+2	4	fb:cell.6_191_000	6,191,000	6,191,000	6,191,000	CD	NUMBER	6191000.0	6191000.0			6,191,000	fb:part.6_191_000
+2	5	fb:cell.863_236	863,236	863,236	863,236	CD	NUMBER	863236.0	863236.0			863,236	fb:part.863_236
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.cleveland	Cleveland	cleveland	Cleveland	NNP	LOCATION						
+3	2	fb:cell.oh	OH	oh	oh	NN	O						
+3	3	fb:cell.2_891_988	2,891,988	2,891,988	2,891,988	CD	NUMBER	2891988.0	2891988.0				
+3	4	fb:cell.3_172_000	3,172,000	3,172,000	3,172,000	CD	NUMBER	3172000.0	3172000.0			3,172,000	fb:part.3_172_000
+3	5	fb:cell.280_012	280,012	280,012	280,012	CD	NUMBER	280012.0	280012.0			280,012	fb:part.280_012
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.milwaukee	Milwaukee	milwaukee	Milwaukee	NNP	LOCATION						
+4	2	fb:cell.wi	WI	wi	wus	NN	O						
+4	3	fb:cell.1_760_268	1,760,268	1,760,268	1,760,268	CD	NUMBER	1760268.0	1760268.0				
+4	4	fb:cell.1_913_000	1,913,000	1,913,000	1,913,000	CD	NUMBER	1913000.0	1913000.0			1,913,000	fb:part.1_913_000
+4	5	fb:cell.157_732	157,732	157,732	157,732	CD	NUMBER	157732.0	157732.0			157,732	fb:part.157_732
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.ottawa_gatineau	Ottawa – Gatineau	ottawa|--|gatineau	Ottawa|--|Gatineau	NNP|:|NNP	LOCATION|O|LOCATION	||					
+5	2	fb:cell.on_qc	ON-QC	on|qc	on|qc	IN|NN	O|O	|					
+5	3	fb:cell.1_451_415	1,451,415	1,451,415	1,451,415	CD	NUMBER	1451415.0	1451415.0				
+5	4	fb:cell.1_596_556	1,596,556	1,596,556	1,596,556	CD	NUMBER	1596556.0	1596556.0			1,596,556	fb:part.1_596_556
+5	5	fb:cell.145_141	145,141	145,141	145,141	CD	NUMBER	145141.0	145141.0			145,141	fb:part.145_141
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.grand_rapids	Grand Rapids	grand|rapids	Grand|Rapids	NNP|NNP	MISC|MISC	|					
+6	2	fb:cell.mi	MI	mi	MI	NNP	O						
+6	3	fb:cell.1_327_366	1,327,366	1,327,366	1,327,366	CD	NUMBER	1327366.0	1327366.0				
+6	4	fb:cell.1_530_000	1,530,000	1,530,000	1,530,000	CD	NUMBER	1530000.0	1530000.0			1,530,000	fb:part.1_530_000
+6	5	fb:cell.202_634	202,634	202,634	202,634	CD	NUMBER	202634.0	202634.0			202,634	fb:part.202_634
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.buffalo	Buffalo	buffalo	Buffalo	NNP	O						
+7	2	fb:cell.ny	NY	ny	NY	NNP	O						
+7	3	fb:cell.1_203_493	1,203,493	1,203,493	1,203,493	CD	NUMBER	1203493.0	1203493.0				
+7	4	fb:cell.1_040_400	1,040,400	1,040,400	1,040,400	CD	NUMBER	1040400.0	1040400.0			1,040,400	fb:part.1_040_400
+7	5	fb:cell._163_093	-163,093	-163,093	-163,093	CD	NUMBER	-163093.0	163093.0			-163,093	fb:part._163_093
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.rochester	Rochester	rochester	Rochester	NNP	LOCATION						
+8	2	fb:cell.ny	NY	ny	NY	NNP	O						
+8	3	fb:cell.1_149_653	1,149,653	1,149,653	1,149,653	CD	NUMBER	1149653.0	1149653.0				
+8	4	fb:cell.1_248_600	1,248,600	1,248,600	1,248,600	CD	NUMBER	1248600.0	1248600.0			1,248,600	fb:part.1_248_600
+8	5	fb:cell.98_947	98,947	98,947	98,947	CD	NUMBER	98947.0	98947.0			98,947	fb:part.98_947
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.hamilton	Hamilton	hamilton	Hamilton	NNP	PERSON						
+9	2	fb:cell.on	ON	on	on	IN	O						
+9	3	fb:cell.740_200	740,200	740,200	740,200	CD	NUMBER	740200.0	740200.0				
+9	4	fb:cell.954_858	954,858	954,858	954,858	CD	NUMBER	954858.0	954858.0			954,858	fb:part.954_858
+9	5	fb:cell.214_658	214,658	214,658	214,658	CD	NUMBER	214658.0	214658.0			214,658	fb:part.214_658
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.toledo	Toledo	toledo	Toledo	NNP	LOCATION						
+10	2	fb:cell.oh	OH	oh	oh	NN	O						
+10	3	fb:cell.672_220	672,220	672,220	672,220	CD	NUMBER	672220.0	672220.0				
+10	4	fb:cell.672_220	672,220	672,220	672,220	CD	NUMBER	672220.0	672220.0				
+10	5	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0			0	fb:part.0
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.lansing	Lansing	lansing	Lansing	NNP	PERSON						
+11	2	fb:cell.mi	MI	mi	MI	NNP	O						
+11	3	fb:cell.523_609	523,609	523,609	523,609	CD	NUMBER	523609.0	523609.0				
+11	4	fb:cell.547_325	547,325	547,325	547,325	CD	NUMBER	547325.0	547325.0			547,325	fb:part.547_325
+11	5	fb:cell.23_716	23,716	23,716	23,716	CD	NUMBER	23716.0	23716.0			23,716	fb:part.23_716
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.kitchener_cambridge_waterloo	Kitchener – Cambridge – Waterloo	kitchener|--|cambridge|--|waterloo	Kitchener|--|Cambridge|--|Waterloo	NNP|:|NNP|:|NNP	LOCATION|O|LOCATION|O|LOCATION	||||					
+12	2	fb:cell.on	ON	on	on	IN	O						
+12	3	fb:cell.492_400	492,400	492,400	492,400	CD	NUMBER	492400.0	492400.0				
+12	4	fb:cell.635_196	635,196	635,196	635,196	CD	NUMBER	635196.0	635196.0			635,196	fb:part.635_196
+12	5	fb:cell.142_796	142,796	142,796	142,796	CD	NUMBER	142796.0	142796.0			142,796	fb:part.142_796
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.london	London	london	London	NNP	LOCATION						
+13	2	fb:cell.on	ON	on	on	IN	O						
+13	3	fb:cell.492_200	492,200	492,200	492,200	CD	NUMBER	492200.0	492200.0				
+13	4	fb:cell.634_938	634,938	634,938	634,938	CD	NUMBER	634938.0	634938.0			634,938	fb:part.634_938
+13	5	fb:cell.142_738	142,738	142,738	142,738	CD	NUMBER	142738.0	142738.0			142,738	fb:part.142_738
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.fort_wayne	Fort Wayne	fort|wayne	Fort|Wayne	NNP|NNP	LOCATION|LOCATION	|					
+14	2	fb:cell.in	IN	in	in	IN	O						
+14	3	fb:cell.414_315	414,315	414,315	414,315	CD	NUMBER	414315.0	414315.0				
+14	4	fb:cell.455_623	455,623	455,623	455,623	CD	NUMBER	455623.0	455623.0			455,623	fb:part.455_623
+14	5	fb:cell.39_366	39,366	39,366	39,366	CD	NUMBER	39366.0	39366.0			39,366	fb:part.39_366
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.st_catharines_niagara	St. Catharines – Niagara	st.|catharines|--|niagara	St.|Catharines|--|Niagara	NNP|NNP|:|NNP	LOCATION|LOCATION|O|LOCATION	|||					
+15	2	fb:cell.on	ON	on	on	IN	O						
+15	3	fb:cell.404_400	404,400	404,400	404,400	CD	NUMBER	404400.0	404400.0				
+15	4	fb:cell.521_676	521,676	521,676	521,676	CD	NUMBER	521676.0	521676.0			521,676	fb:part.521_676
+15	5	fb:cell.117_276	117,276	117,276	117,276	CD	NUMBER	117276.0	117276.0			117,276	fb:part.117_276
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.windsor	Windsor	windsor	Windsor	NNP	LOCATION						
+16	2	fb:cell.on	ON	on	on	IN	O						
+16	3	fb:cell.330_900	330,900	330,900	330,900	CD	NUMBER	330900.0	330900.0				
+16	4	fb:cell.426_861	426,861	426,861	426,861	CD	NUMBER	426861.0	426861.0			426,861	fb:part.426_861
+16	5	fb:cell.95_961	95,961	95,961	95,961	CD	NUMBER	95961.0	95961.0			95,961	fb:part.95_961
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.erie	Erie	erie	Erie	NNP	O						
+17	2	fb:cell.pa	PA	pa	pa	NN	O						
+17	3	fb:cell.280_985	280,985	280,985	280,985	CD	NUMBER	280985.0	280985.0				
+17	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+17	5	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a

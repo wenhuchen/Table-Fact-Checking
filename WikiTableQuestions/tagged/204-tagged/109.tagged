@@ -1,0 +1,139 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.district	District	district	District	NNP	O						
+-1	1	fb:row.row.incumbent	Incumbent	incumbent	incumbent	JJ	O						
+-1	2	fb:row.row.party	Party	party	Party	NNP	O						
+-1	3	fb:row.row.first_elected	First\nelected	first|elected	First|elect	NNP|VBD	ORDINAL|O	1.0|					
+-1	4	fb:row.row.result	Result	result	result	NN	O						
+-1	5	fb:row.row.candidates	Candidates	candidates	candidate	NNS	O						
+0	0	fb:cell.virginia_1	Virginia 1	virginia|1	Virginia|1	NNP|CD	LOCATION|NUMBER	|1.0	1.0				
+0	1	fb:cell.thomas_newton_jr	Thomas Newton, Jr.	thomas|newton|,|jr.|.	Thomas|Newton|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Thomas Newton|Jr.	fb:part.thomas_newton|fb:part.jr
+0	2	fb:cell.adams_clay_republican	Adams-Clay Republican	adams|clay|republican	Adams|Clay|Republican	NNP|NNP|NNP	O|O|MISC	||					
+0	3	fb:cell.1801	1801	1801	1801	CD	DATE	1801	1801.0	1801-xx-xx		1801	fb:part.1801
+0	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+0	5	fb:cell.thomas_newton_jr	Thomas Newton, Jr.	thomas|newton|,|jr.|.	Thomas|Newton|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Thomas Newton|Jr.	fb:part.thomas_newton|fb:part.jr
+1	0	fb:cell.virginia_2	Virginia 2	virginia|2	Virginia|2	NNP|CD	O|NUMBER	|2.0	2.0				
+1	1	fb:cell.arthur_smith	Arthur Smith	arthur|smith	Arthur|Smith	NNP|NNP	PERSON|PERSON	|				Arthur Smith	fb:part.arthur_smith
+1	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+1	3	fb:cell.1821	1821	1821	1821	CD	DATE	1821	1821.0	1821-xx-xx		1821	fb:part.1821
+1	4	fb:cell.retired_jacksonian_gain	Retired\nJacksonian gain	retired|jacksonian|gain	retire|jacksonian|gain	VBN|JJ|NN	O|MISC|O	||				Retired|Jacksonian gain	fb:part.retired|fb:part.jacksonian_gain
+1	5	fb:cell.james_trezvant_j_75_7_richard_eppes_dr_24_3	James Trezvant (J) 75.7%\nRichard Eppes (DR) 24.3%	james|trezvant|-lrb-|j|-rrb-|75.7|%|richard|eppes|-lrb-|dr|-rrb-|24.3|%	James|Trezvant|-lrb-|J|-rrb-|75.7|%|Richard|Eppes|-lrb-|dr|-rrb-|24.3|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%75.7|%75.7||||||%24.3|%24.3	75.7		24.3	James Trezvant (J) 75.7%|Richard Eppes (DR) 24.3%	fb:part.james_trezvant_j_75_7|fb:part.richard_eppes_dr_24_3
+2	0	fb:cell.virginia_3	Virginia 3	virginia|3	Virginia|3	NNP|CD	O|NUMBER	|3.0	3.0				
+2	1	fb:cell.william_s_archer	William S. Archer	william|s.|archer	William|S.|Archer	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				William S. Archer	fb:part.william_s_archer
+2	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+2	3	fb:cell.1820_special	1820 (special)	1820|-lrb-|special|-rrb-	1820|-lrb-|special|-rrb-	NN|-LRB-|JJ|-RRB-	DATE|O|O|O	1820|||	1820.0			1820 (special)	fb:part.1820_special
+2	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+2	5	fb:cell.william_s_archer_j_100	William S. Archer (J) 100%	william|s.|archer|-lrb-|j|-rrb-|100|%	William|S.|Archer|-lrb-|J|-rrb-|100|%	NNP|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT	||||||%100.0|%100.0				William S. Archer (J) 100%	fb:part.william_s_archer_j_100
+3	0	fb:cell.virginia_4	Virginia 4	virginia|4	Virginia|4	NNP|CD	O|NUMBER	|4.0	4.0				
+3	1	fb:cell.mark_alexander	Mark Alexander	mark|alexander	Mark|Alexander	NNP|NNP	PERSON|PERSON	|				Mark Alexander	fb:part.mark_alexander
+3	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+3	3	fb:cell.1819	1819	1819	1819	CD	DATE	1819	1819.0	1819-xx-xx		1819	fb:part.1819
+3	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+3	5	fb:cell.mark_alexander_j	Mark Alexander (J)	mark|alexander|-lrb-|j|-rrb-	Mark|Alexander|-lrb-|J|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O	||||				Mark Alexander (J)	fb:part.mark_alexander_j
+4	0	fb:cell.virginia_5	Virginia 5	virginia|5	Virginia|5	NNP|CD	O|NUMBER	|5.0	5.0				
+4	1	fb:cell.john_randolph	John Randolph	john|randolph	John|Randolph	NNP|NNP	PERSON|PERSON	|				John Randolph	fb:part.john_randolph
+4	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+4	3	fb:cell.1799_1819	1799\n1819	1799|1819	1799|1819	CD|CD	DATE|DATE	1799|1799	1799.0	1799-xx-xx	1819.0	1799|1819	fb:part.1799|fb:part.1819
+4	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+4	5	fb:cell.john_randolph_j_100	John Randolph (J) 100%	john|randolph|-lrb-|j|-rrb-|100|%	John|Randolph|-lrb-|J|-rrb-|100|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%100.0|%100.0	100.0			John Randolph (J) 100%	fb:part.john_randolph_j_100
+5	0	fb:cell.virginia_6	Virginia 6	virginia|6	Virginia|6	NNP|CD	O|NUMBER	|6.0	6.0				
+5	1	fb:cell.george_tucker	George Tucker	george|tucker	George|Tucker	NNP|NNP	PERSON|PERSON	|				George Tucker	fb:part.george_tucker
+5	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+5	3	fb:cell.1819	1819	1819	1819	CD	DATE	1819	1819.0	1819-xx-xx		1819	fb:part.1819
+5	4	fb:cell.retired_jacksonian_gain	Retired\nJacksonian gain	retired|jacksonian|gain	retire|jacksonian|gain	VBN|JJ|NN	O|MISC|O	||				Retired|Jacksonian gain	fb:part.retired|fb:part.jacksonian_gain
+5	5	fb:cell.thomas_davenport_j_53_9_james_lanier_22_6_barzillai_graves_16_3_john_d_urquhart_7_2	Thomas Davenport (J) 53.9%\nJames Lanier 22.6%\nBarzillai Graves 16.3%\nJohn D. Urquhart 7.2%	thomas|davenport|-lrb-|j|-rrb-|53.9|%|james|lanier|22.6|%|barzillai|graves|16.3|%|john|d.|urquhart|7.2|%	Thomas|Davenport|-lrb-|J|-rrb-|53.9|%|James|Lanier|22.6|%|Barzillai|Graves|16.3|%|John|D.|Urquhart|7.2|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|CD|NN|NNP|NNP|CD|NN|NNP|NNP|NNP|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|PERCENT|PERCENT|ORGANIZATION|ORGANIZATION|PERCENT|PERCENT|PERSON|PERSON|PERSON|PERCENT|PERCENT	|||||%53.9|%53.9|||%22.6|%22.6|||%16.3|%16.3||||%7.2|%7.2	53.9		22.6	Thomas Davenport (J) 53.9%|James Lanier 22.6%|Barzillai Graves 16.3%|John D. Urquhart 7.2%	fb:part.thomas_davenport_j_53_9|fb:part.james_lanier_22_6|fb:part.barzillai_graves_16_3|fb:part.john_d_urquhart_7_2
+6	0	fb:cell.virginia_7	Virginia 7	virginia|7	Virginia|7	NNP|CD	O|NUMBER	|7.0	7.0				
+6	1	fb:cell.jabez_leftwich	Jabez Leftwich	jabez|leftwich	Jabez|Leftwich	NNP|NNP	PERSON|PERSON	|				Jabez Leftwich	fb:part.jabez_leftwich
+6	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+6	3	fb:cell.1821	1821	1821	1821	CD	DATE	1821	1821.0	1821-xx-xx		1821	fb:part.1821
+6	4	fb:cell.lost_re_election_jacksonian_gain	Lost re-election\nJacksonian gain	lost|re|election|jacksonian|gain	lose|re|election|jacksonian|gain	VBN|JJ|NN|JJ|NN	O|O|O|MISC|O	||||				Lost re-election|Jacksonian gain	fb:part.lost_re_election|fb:part.jacksonian_gain
+6	5	fb:cell.nathaniel_h_claiborne_j_51_4_jabez_leftwich_c_dr_48_6	Nathaniel H. Claiborne (J) 51.4%\nJabez Leftwich (C-DR) 48.6%	nathaniel|h.|claiborne|-lrb-|j|-rrb-|51.4|%|jabez|leftwich|-lrb-|c|dr|-rrb-|48.6|%	Nathaniel|H.|Claiborne|-lrb-|J|-rrb-|51.4|%|Jabez|Leftwich|-lrb-|C|dr|-rrb-|48.6|%	NNP|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NNP|NN|-RRB-|CD|NN	PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT|O|O|O|O|O|O|PERCENT|PERCENT	||||||%51.4|%51.4|||||||%48.6|%48.6				Nathaniel H. Claiborne (J) 51.4%|Jabez Leftwich (C-DR) 48.6%	fb:part.nathaniel_h_claiborne_j_51_4|fb:part.jabez_leftwich_c_dr_48_6
+7	0	fb:cell.virginia_8	Virginia 8	virginia|8	Virginia|8	NNP|CD	O|NUMBER	|8.0	8.0				
+7	1	fb:cell.burwell_bassett	Burwell Bassett	burwell|bassett	Burwell|Bassett	NNP|NNP	PERSON|PERSON	|				Burwell Bassett	fb:part.burwell_bassett
+7	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+7	3	fb:cell.1805_1821	1805\n1821	1805|1821	1805|1821	CD|CD	DATE|DATE	1805|1805	1805.0	1805-xx-xx	1821.0	1805|1821	fb:part.1805|fb:part.1821
+7	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+7	5	fb:cell.burwell_bassett_j_95_3_servant_jones_dr_4_5_reuben_washer_0_2	Burwell Bassett (J) 95.3%\nServant Jones (DR) 4.5%\nReuben Washer 0.2%	burwell|bassett|-lrb-|j|-rrb-|95.3|%|servant|jones|-lrb-|dr|-rrb-|4.5|%|reuben|washer|0.2|%	Burwell|Bassett|-lrb-|J|-rrb-|95.3|%|Servant|Jones|-lrb-|dr|-rrb-|4.5|%|Reuben|Washer|0.2|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN|NNP|NNP|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|O|O|O|O|O|PERCENT|PERCENT|O|O|PERCENT|PERCENT	|||||%95.3|%95.3||||||%4.5|%4.5|||%0.2|%0.2	95.3		4.5	Burwell Bassett (J) 95.3%|Servant Jones (DR) 4.5%|Reuben Washer 0.2%	fb:part.burwell_bassett_j_95_3|fb:part.servant_jones_dr_4_5|fb:part.reuben_washer_0_2
+8	0	fb:cell.virginia_9	Virginia 9	virginia|9	Virginia|9	NNP|CD	O|NUMBER	|9.0	9.0				
+8	1	fb:cell.andrew_stevenson	Andrew Stevenson	andrew|stevenson	Andrew|Stevenson	NNP|NNP	PERSON|PERSON	|				Andrew Stevenson	fb:part.andrew_stevenson
+8	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+8	3	fb:cell.1821	1821	1821	1821	CD	DATE	1821	1821.0	1821-xx-xx		1821	fb:part.1821
+8	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+8	5	fb:cell.andrew_stevenson_j_100	Andrew Stevenson (J) 100%	andrew|stevenson|-lrb-|j|-rrb-|100|%	Andrew|Stevenson|-lrb-|J|-rrb-|100|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%100.0|%100.0	100.0			Andrew Stevenson (J) 100%	fb:part.andrew_stevenson_j_100
+9	0	fb:cell.virginia_10	Virginia 10	virginia|10	Virginia|10	NNP|CD	LOCATION|NUMBER	|10.0	10.0				
+9	1	fb:cell.william_c_rives	William C. Rives	william|c.|rives	William|C.|Rives	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				William C. Rives	fb:part.william_c_rives
+9	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+9	3	fb:cell.1823	1823	1823	1823	CD	DATE	1823	1823.0	1823-xx-xx		1823	fb:part.1823
+9	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+9	5	fb:cell.william_c_rives_j_100	William C. Rives (J) 100%	william|c.|rives|-lrb-|j|-rrb-|100|%	William|C.|Rives|-lrb-|J|-rrb-|100|%	NNP|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT	||||||%100.0|%100.0				William C. Rives (J) 100%	fb:part.william_c_rives_j_100
+10	0	fb:cell.virginia_11	Virginia 11	virginia|11	Virginia|11	NNP|CD	O|NUMBER	|11.0	11.0				
+10	1	fb:cell.philip_p_barbour	Philip P. Barbour	philip|p.|barbour	Philip|P.|Barbour	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Philip P. Barbour	fb:part.philip_p_barbour
+10	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+10	3	fb:cell.1814_special	1814 (special)	1814|-lrb-|special|-rrb-	1814|-lrb-|special|-rrb-	NN|-LRB-|JJ|-RRB-	DATE|O|O|O	1814|||	1814.0			1814 (special)	fb:part.1814_special
+10	4	fb:cell.retired_adams_gain	Retired\nAdams gain	retired|adams|gain	Retired|Adams|gain	NNP|NNP|NN	O|PERSON|O	||				Retired|Adams gain	fb:part.retired|fb:part.adams_gain
+10	5	fb:cell.robert_taylor_a_100	Robert Taylor (A) 100%	robert|taylor|-lrb-|a|-rrb-|100|%	Robert|Taylor|-lrb-|A|-rrb-|100|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%100.0|%100.0	100.0			Robert Taylor (A) 100%	fb:part.robert_taylor_a_100
+11	0	fb:cell.virginia_12	Virginia 12	virginia|12	Virginia|12	NNP|CD	O|NUMBER	|12.0	12.0				
+11	1	fb:cell.robert_s_garnett	Robert S. Garnett	robert|s.|garnett	Robert|S.|Garnett	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Robert S. Garnett	fb:part.robert_s_garnett
+11	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+11	3	fb:cell.1817	1817	1817	1817	CD	DATE	1817	1817.0	1817-xx-xx		1817	fb:part.1817
+11	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+11	5	fb:cell.robert_s_garnett_j_68_5_john_h_upshaw_31_5	Robert S. Garnett (J) 68.5%\nJohn H. Upshaw 31.5%	robert|s.|garnett|-lrb-|j|-rrb-|68.5|%|john|h.|upshaw|31.5|%	Robert|S.|Garnett|-lrb-|J|-rrb-|68.5|%|John|H.|Upshaw|31.5|%	NNP|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|NNP|CD|NN	PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|PERSON|PERCENT|PERCENT	||||||%68.5|%68.5||||%31.5|%31.5				Robert S. Garnett (J) 68.5%|John H. Upshaw 31.5%	fb:part.robert_s_garnett_j_68_5|fb:part.john_h_upshaw_31_5
+12	0	fb:cell.virginia_13	Virginia 13	virginia|13	Virginia|13	NNP|CD	O|NUMBER	|13.0	13.0				
+12	1	fb:cell.john_taliaferro	John Taliaferro	john|taliaferro	John|Taliaferro	NNP|NNP	PERSON|PERSON	|				John Taliaferro	fb:part.john_taliaferro
+12	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+12	3	fb:cell.1824_special	1824 (special)	1824|-lrb-|special|-rrb-	1824|-lrb-|special|-rrb-	NN|-LRB-|JJ|-RRB-	DATE|O|O|O	1824|||	1824.0			1824 (special)	fb:part.1824_special
+12	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+12	5	fb:cell.john_taliaferro_a_63_3_john_hooe_f_26_7	John Taliaferro (A) 63.3%\nJohn Hooe (F) 26.7%	john|taliaferro|-lrb-|a|-rrb-|63.3|%|john|hooe|-lrb-|f|-rrb-|26.7|%	John|Taliaferro|-lrb-|A|-rrb-|63.3|%|John|Hooe|-lrb-|f|-rrb-|26.7|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%63.3|%63.3||||||%26.7|%26.7	63.3		26.7	John Taliaferro (A) 63.3%|John Hooe (F) 26.7%	fb:part.john_taliaferro_a_63_3|fb:part.john_hooe_f_26_7
+13	0	fb:cell.virginia_14	Virginia 14	virginia|14	Virginia|14	NNP|CD	O|NUMBER	|14.0	14.0				
+13	1	fb:cell.charles_f_mercer	Charles F. Mercer	charles|f.|mercer	Charles|F.|Mercer	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Charles F. Mercer	fb:part.charles_f_mercer
+13	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+13	3	fb:cell.1817	1817	1817	1817	CD	DATE	1817	1817.0	1817-xx-xx		1817	fb:part.1817
+13	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+13	5	fb:cell.charles_f_mercer_a	Charles F. Mercer (A)	charles|f.|mercer|-lrb-|a|-rrb-	Charles|F.|Mercer|-lrb-|A|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|PERSON|O|O|O	|||||				Charles F. Mercer (A)	fb:part.charles_f_mercer_a
+14	0	fb:cell.virginia_15	Virginia 15	virginia|15	Virginia|15	NNP|CD	O|NUMBER	|15.0	15.0				
+14	1	fb:cell.john_s_barbour	John S. Barbour	john|s.|barbour	John|S.|Barbour	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John S. Barbour	fb:part.john_s_barbour
+14	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+14	3	fb:cell.1823	1823	1823	1823	CD	DATE	1823	1823.0	1823-xx-xx		1823	fb:part.1823
+14	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+14	5	fb:cell.john_s_barbour_j_53_7_thomas_marshall_f_46_3	John S. Barbour (J) 53.7%\nThomas Marshall (F) 46.3%	john|s.|barbour|-lrb-|j|-rrb-|53.7|%|thomas|marshall|-lrb-|f|-rrb-|46.3|%	John|S.|Barbour|-lrb-|J|-rrb-|53.7|%|Thomas|Marshall|-lrb-|f|-rrb-|46.3|%	NNP|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	||||||%53.7|%53.7||||||%46.3|%46.3				John S. Barbour (J) 53.7%|Thomas Marshall (F) 46.3%	fb:part.john_s_barbour_j_53_7|fb:part.thomas_marshall_f_46_3
+15	0	fb:cell.virginia_16	Virginia 16	virginia|16	Virginia|16	NNP|CD	O|NUMBER	|16.0	16.0				
+15	1	fb:cell.james_stephenson	James Stephenson	james|stephenson	James|Stephenson	NNP|NNP	PERSON|PERSON	|				James Stephenson	fb:part.james_stephenson
+15	2	fb:cell.federalist	Federalist	federalist	Federalist	NNP	O						
+15	3	fb:cell.1821	1821	1821	1821	CD	DATE	1821	1821.0	1821-xx-xx		1821	fb:part.1821
+15	4	fb:cell.retired_adams_gain	Retired\nAdams gain	retired|adams|gain	Retired|Adams|gain	NNP|NNP|NN	O|PERSON|O	||				Retired|Adams gain	fb:part.retired|fb:part.adams_gain
+15	5	fb:cell.william_armstrong_a_57_1_edward_colston_f_42_9	William Armstrong (A) 57.1%\nEdward Colston (F) 42.9%	william|armstrong|-lrb-|a|-rrb-|57.1|%|edward|colston|-lrb-|f|-rrb-|42.9|%	William|Armstrong|-lrb-|A|-rrb-|57.1|%|Edward|Colston|-lrb-|f|-rrb-|42.9|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%57.1|%57.1||||||%42.9|%42.9	57.1		42.9	William Armstrong (A) 57.1%|Edward Colston (F) 42.9%	fb:part.william_armstrong_a_57_1|fb:part.edward_colston_f_42_9
+16	0	fb:cell.virginia_17	Virginia 17	virginia|17	Virginia|17	NNP|CD	O|NUMBER	|17.0	17.0				
+16	1	fb:cell.jared_williams	Jared Williams	jared|williams	Jared|Williams	NNP|NNP	PERSON|PERSON	|				Jared Williams	fb:part.jared_williams
+16	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+16	3	fb:cell.1819	1819	1819	1819	CD	DATE	1819	1819.0	1819-xx-xx		1819	fb:part.1819
+16	4	fb:cell.retired_adams_gain	Retired\nAdams gain	retired|adams|gain	Retired|Adams|gain	NNP|NNP|NN	O|PERSON|O	||				Retired|Adams gain	fb:part.retired|fb:part.adams_gain
+16	5	fb:cell.alfred_h_powell_a_42_0_william_steenergen_dr_21_5_augustine_c_smith_dr_20_3_samuel_kercheval_dr_13_6_robert_allen_dr_2_6	Alfred H. Powell (A) 42.0%\nWilliam Steenergen (DR) 21.5%\nAugustine C. Smith (DR) 20.3%\nSamuel Kercheval (DR) 13.6%\nRobert Allen (DR) 2.6%	alfred|h.|powell|-lrb-|a|-rrb-|42.0|%|william|steenergen|-lrb-|dr|-rrb-|21.5|%|augustine|c.|smith|-lrb-|dr|-rrb-|20.3|%|samuel|kercheval|-lrb-|dr|-rrb-|13.6|%|robert|allen|-lrb-|dr|-rrb-|2.6|%	Alfred|H.|Powell|-lrb-|A|-rrb-|42.0|%|William|Steenergen|-lrb-|dr|-rrb-|21.5|%|Augustine|C.|Smith|-lrb-|dr|-rrb-|20.3|%|Samuel|Kercheval|-lrb-|dr|-rrb-|13.6|%|Robert|Allen|-lrb-|dr|-rrb-|2.6|%	NNP|NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN|NNP|NNP|NNP|-LRB-|NN|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	||||||%42.0|%42.0||||||%21.5|%21.5|||||||%20.3|%20.3||||||%13.6|%13.6||||||%2.6|%2.6				Alfred H. Powell (A) 42.0%|William Steenergen (DR) 21.5%|Augustine C. Smith (DR) 20.3%|Samuel Kercheval (DR) 13.6%|Robert Allen (DR) 2.6%	fb:part.alfred_h_powell_a_42_0|fb:part.william_steenergen_dr_21_5|fb:part.augustine_c_smith_dr_20_3|fb:part.samuel_kercheval_dr_13_6|fb:part.robert_allen_dr_2_6
+17	0	fb:cell.virginia_18	Virginia 18	virginia|18	Virginia|18	NNP|CD	O|NUMBER	|18.0	18.0				
+17	1	fb:cell.joseph_johnson	Joseph Johnson	joseph|johnson	Joseph|Johnson	NNP|NNP	PERSON|PERSON	|				Joseph Johnson	fb:part.joseph_johnson
+17	2	fb:cell.jackson_republican	Jackson Republican	jackson|republican	Jackson|Republican	NNP|NNP	PERSON|MISC	|					
+17	3	fb:cell.1823	1823	1823	1823	CD	DATE	1823	1823.0	1823-xx-xx		1823	fb:part.1823
+17	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+17	5	fb:cell.joseph_johnson_j_62_0_phillip_doddridge_f_38_0	Joseph Johnson (J) 62.0%\nPhillip Doddridge (F) 38.0%	joseph|johnson|-lrb-|j|-rrb-|62.0|%|phillip|doddridge|-lrb-|f|-rrb-|38.0|%	Joseph|Johnson|-lrb-|J|-rrb-|62.0|%|Phillip|Doddridge|-lrb-|f|-rrb-|38.0|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%62.0|%62.0||||||%38.0|%38.0	62.0		38.0	Joseph Johnson (J) 62.0%|Phillip Doddridge (F) 38.0%	fb:part.joseph_johnson_j_62_0|fb:part.phillip_doddridge_f_38_0
+18	0	fb:cell.virginia_19	Virginia 19	virginia|19	Virginia|19	NNP|CD	O|DATE	|******19	19.0				
+18	1	fb:cell.william_mccoy	William McCoy	william|mccoy	William|McCoy	NNP|NNP	PERSON|PERSON	|				William McCoy	fb:part.william_mccoy
+18	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+18	3	fb:cell.1811	1811	1811	1811	CD	DATE	1811	1811.0	1811-xx-xx		1811	fb:part.1811
+18	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+18	5	fb:cell.william_mccoy_j_70_2_daniel_sheffey_f_29_8	William McCoy (J) 70.2%\nDaniel Sheffey (F) 29.8%	william|mccoy|-lrb-|j|-rrb-|70.2|%|daniel|sheffey|-lrb-|f|-rrb-|29.8|%	William|McCoy|-lrb-|J|-rrb-|70.2|%|Daniel|Sheffey|-lrb-|f|-rrb-|29.8|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%70.2|%70.2||||||%29.8|%29.8	70.2		29.8	William McCoy (J) 70.2%|Daniel Sheffey (F) 29.8%	fb:part.william_mccoy_j_70_2|fb:part.daniel_sheffey_f_29_8
+19	0	fb:cell.virginia_20	Virginia 20	virginia|20	Virginia|20	NNP|CD	ORGANIZATION|NUMBER	|20.0	20.0				
+19	1	fb:cell.john_floyd	John Floyd	john|floyd	John|Floyd	NNP|NNP	PERSON|PERSON	|				John Floyd	fb:part.john_floyd
+19	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+19	3	fb:cell.1817	1817	1817	1817	CD	DATE	1817	1817.0	1817-xx-xx		1817	fb:part.1817
+19	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+19	5	fb:cell.john_floyd_j_84_7_allen_taylor_f_15_3	John Floyd (J) 84.7%\nAllen Taylor (F) 15.3%	john|floyd|-lrb-|j|-rrb-|84.7|%|allen|taylor|-lrb-|f|-rrb-|15.3|%	John|Floyd|-lrb-|J|-rrb-|84.7|%|Allen|Taylor|-lrb-|f|-rrb-|15.3|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%84.7|%84.7||||||%15.3|%15.3	84.7		15.3	John Floyd (J) 84.7%|Allen Taylor (F) 15.3%	fb:part.john_floyd_j_84_7|fb:part.allen_taylor_f_15_3
+20	0	fb:cell.virginia_21	Virginia 21	virginia|21	Virginia|21	NNP|CD	ORGANIZATION|NUMBER	|21.0	21.0				
+20	1	fb:cell.william_smith	William Smith	william|smith	William|Smith	NNP|NNP	PERSON|PERSON	|				William Smith	fb:part.william_smith
+20	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+20	3	fb:cell.1821	1821	1821	1821	CD	DATE	1821	1821.0	1821-xx-xx		1821	fb:part.1821
+20	4	fb:cell.re_elected	Re-elected	re|elected	Re|elect	NNP|VBD	O|O	|				Re-elected	fb:part.re_elected
+20	5	fb:cell.william_smith_j_55_2_james_lovell_dr_44_8	William Smith (J) 55.2%\nJames Lovell (DR) 44.8%	william|smith|-lrb-|j|-rrb-|55.2|%|james|lovell|-lrb-|dr|-rrb-|44.8|%	William|Smith|-lrb-|J|-rrb-|55.2|%|James|Lovell|-lrb-|dr|-rrb-|44.8|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%55.2|%55.2||||||%44.8|%44.8	55.2		44.8	William Smith (J) 55.2%|James Lovell (DR) 44.8%	fb:part.william_smith_j_55_2|fb:part.james_lovell_dr_44_8
+21	0	fb:cell.virginia_22	Virginia 22	virginia|22	Virginia|22	NNP|CD	O|NUMBER	|22.0	22.0				
+21	1	fb:cell.alexander_smyth	Alexander Smyth	alexander|smyth	Alexander|Smyth	NNP|NNP	PERSON|PERSON	|				Alexander Smyth	fb:part.alexander_smyth
+21	2	fb:cell.crawford_republican	Crawford Republican	crawford|republican	Crawford|Republican	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+21	3	fb:cell.1817	1817	1817	1817	CD	DATE	1817	1817.0	1817-xx-xx		1817	fb:part.1817
+21	4	fb:cell.retired_adams_gain	Retired\nAdams gain	retired|adams|gain	Retired|Adams|gain	NNP|NNP|NN	O|PERSON|O	||				Retired|Adams gain	fb:part.retired|fb:part.adams_gain
+21	5	fb:cell.benjamin_estil_a_58_9_joseph_crockett_dr_32_0_william_graham_dr_9_1	Benjamin Estil (A) 58.9%\nJoseph Crockett (DR) 32.0%\nWilliam Graham (DR) 9.1%	benjamin|estil|-lrb-|a|-rrb-|58.9|%|joseph|crockett|-lrb-|dr|-rrb-|32.0|%|william|graham|-lrb-|dr|-rrb-|9.1|%	Benjamin|Estil|-lrb-|A|-rrb-|58.9|%|Joseph|Crockett|-lrb-|dr|-rrb-|32.0|%|William|Graham|-lrb-|dr|-rrb-|9.1|%	NNP|NNP|-LRB-|NNP|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN|NNP|NNP|-LRB-|NN|-RRB-|CD|NN	PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT|PERSON|PERSON|O|O|O|PERCENT|PERCENT	|||||%58.9|%58.9||||||%32.0|%32.0||||||%9.1|%9.1	58.9		32.0	Benjamin Estil (A) 58.9%|Joseph Crockett (DR) 32.0%|William Graham (DR) 9.1%	fb:part.benjamin_estil_a_58_9|fb:part.joseph_crockett_dr_32_0|fb:part.william_graham_dr_9_1

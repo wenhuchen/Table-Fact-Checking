@@ -1,0 +1,256 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.completed	Completed	completed	complete	VBN	O						
+-1	2	fb:row.row.architect	Architect	architect	architect	NN	O						
+-1	3	fb:row.row.location	Location	location	Location	NNP	O						
+-1	4	fb:row.row.year_of_listing_ref_s	Year of listing & ref(s)	year|of|listing|&|ref|-lrb-|s|-rrb-	year|of|list|&|ref|-lrb-|s|-rrb-	NN|IN|VBG|CC|NN|-LRB-|NNS|-RRB-	DURATION|O|O|O|O|O|O|O	|||||||					
+0	0	fb:cell.1_booth_street	1 Booth Street	1|booth|street	1|Booth|Street	CD|NNP|NNP	NUMBER|O|O	1.0||	1.0			1 Booth Street	fb:part.1_booth_street
+0	1	fb:cell.circa_1850s	Circa 1850s	circa|1850s	Circa|1850	NNP|NNS	O|SET	|	1850.0				
+0	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+0	3	fb:cell.booth_street	Booth Street	booth|street	Booth|Street	NNP|NNP	O|O	|				Booth Street	fb:part.booth_street
+0	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+1	0	fb:cell.8_lower_park_road	8 Lower Park Road	8|lower|park|road	8|Lower|Park|Road	CD|NNP|NNP|NNP	NUMBER|O|O|O	8.0|||	8.0			8 Lower Park Road	fb:part.8_lower_park_road
+1	1	fb:cell.circa_1875	circa 1875	circa|1875	circa|1875	NN|CD	O|DATE	|1875	1875.0				
+1	2	fb:cell.alfred_waterhouse	Alfred Waterhouse	alfred|waterhouse	Alfred|Waterhouse	NNP|NNP	PERSON|O	|				Alfred Waterhouse	fb:part.alfred_waterhouse
+1	3	fb:cell.lower_park_road_rusholme	Lower Park Road, Rusholme	lower|park|road|,|rusholme	Lower|Park|Road|,|Rusholme	NNP|NNP|NNP|,|NNP	O|O|O|O|O	||||				Lower Park Road|Rusholme	fb:part.lower_park_road|fb:part.rusholme
+1	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+2	0	fb:cell.29_swan_street	29 Swan Street	29|swan|street	29|swan|street	CD|NN|NN	NUMBER|O|O	29.0||	29.0			29 Swan Street	fb:part.29_swan_street
+2	1	fb:cell.circa_1865s	circa 1865s	circa|1865s	circa|1865	NN|NNS	O|O	|	1865.0				
+2	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+2	3	fb:cell.swan_street_ancoats	Swan Street, Ancoats	swan|street|,|ancoats	swan|street|,|ancoat	NN|NN|,|NNS	O|O|O|O	|||				Swan Street|Ancoats	fb:part.swan_street|fb:part.ancoats
+2	4	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+3	0	fb:cell.46_48_brown_street	46-48 Brown Street	46-48|brown|street	46-48|Brown|Street	CD|NNP|NNP	NUMBER|O|O	46.0 - 48.0||	46.0		48.0	46-48 Brown Street	fb:part.46_48_brown_street
+3	1	fb:cell.1868	1868	1868	1868	CD	DATE	1868	1868.0	1868-xx-xx			
+3	2	fb:cell.george_truefitt	George Truefitt	george|truefitt	George|Truefitt	NNP|NNP	PERSON|PERSON	|				George Truefitt	fb:part.george_truefitt
+3	3	fb:cell.null											fb:part.null
+3	4	fb:cell.null											fb:part.null
+4	0	fb:cell.50_newton_street	50 Newton Street	50|newton|street	50|Newton|Street	CD|NNP|NNP	NUMBER|LOCATION|LOCATION	50.0||	50.0			50 Newton Street	fb:part.50_newton_street
+4	1	fb:cell.circa_1900	Circa 1900	circa|1900	Circa|1900	NNP|CD	O|DATE	|1900	1900.0				
+4	2	fb:cell.clegg_knowles	Clegg & Knowles	clegg|&|knowles	Clegg|&|Knowles	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Clegg & Knowles	fb:part.clegg_knowles
+4	3	fb:cell.newton_street_piccadilly	Newton Street, Piccadilly	newton|street|,|piccadilly	Newton|Street|,|Piccadilly	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Newton Street|Piccadilly	fb:part.newton_street|fb:part.piccadilly
+4	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+5	0	fb:cell.53_king_street	53 King Street	53|king|street	53|King|Street	CD|NNP|NNP	NUMBER|O|O	53.0||	53.0			53 King Street	fb:part.53_king_street
+5	1	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx			
+5	2	fb:cell.charles_heathcote	Charles Heathcote	charles|heathcote	Charles|Heathcote	NNP|NNP	PERSON|PERSON	|				Charles Heathcote	fb:part.charles_heathcote
+5	3	fb:cell.king_street	King Street	king|street	King|Street	NNP|NNP	O|O	|				King Street	fb:part.king_street
+5	4	fb:cell.null											fb:part.null
+6	0	fb:cell.107_piccadilly	107 Piccadilly	107|piccadilly	107|Piccadilly	CD|NNP	NUMBER|O	107.0|	107.0			107 Piccadilly	fb:part.107_piccadilly
+6	1	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx			
+6	2	fb:cell.charles_heathcote	Charles Heathcote	charles|heathcote	Charles|Heathcote	NNP|NNP	PERSON|PERSON	|				Charles Heathcote	fb:part.charles_heathcote
+6	3	fb:cell.piccadilly	Piccadilly	piccadilly	Piccadilly	NNP	O					Piccadilly	fb:part.piccadilly
+6	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+7	0	fb:cell.235_291_deansgate	235-291 Deansgate	235-291|deansgate	235-291|deansgate	CD|NN	NUMBER|O	235.0 - 291.0|	235.0		291.0	235-291 Deansgate	fb:part.235_291_deansgate
+7	1	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx			
+7	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+7	3	fb:cell.deansgate	Deansgate	deansgate	deansgate	NN	O					Deansgate	fb:part.deansgate
+7	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+8	0	fb:cell.albert_hall	Albert Hall	albert|hall	Albert|Hall	NNP|NNP	PERSON|PERSON	|				Albert Hall	fb:part.albert_hall
+8	1	fb:cell.1910	1910	1910	1910	CD	DATE	1910	1910.0	1910-xx-xx			
+8	2	fb:cell.w_j_morley	W. J. Morley	w.|j.|morley	W.|J.|Morley	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				W. J. Morley	fb:part.w_j_morley
+8	3	fb:cell.peter_street	Peter Street	peter|street	Peter|Street	NNP|NNP	PERSON|PERSON	|				Peter Street	fb:part.peter_street
+8	4	fb:cell.null											fb:part.null
+9	0	fb:cell.ancoats_hospital	Ancoats Hospital	ancoats|hospital	Ancoats|Hospital	NNP|NNP	LOCATION|LOCATION	|				Ancoats Hospital	fb:part.ancoats_hospital
+9	1	fb:cell.1891	1891	1891	1891	CD	DATE	1891	1891.0	1891-xx-xx			
+9	2	fb:cell.lewis_and_crawcroft	Lewis and Crawcroft	lewis|and|crawcroft	Lewis|and|Crawcroft	NNP|CC|NNP	PERSON|O|PERSON	||				Lewis and Crawcroft	fb:part.lewis_and_crawcroft
+9	3	fb:cell.ancoats	Ancoats	ancoats	ancoat	NNS	O					Ancoats	fb:part.ancoats
+9	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+10	0	fb:cell.arkwright_house	Arkwright House	arkwright|house	Arkwright|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Arkwright House	fb:part.arkwright_house
+10	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+10	2	fb:cell.harry_s_fairhurst	Harry S. Fairhurst	harry|s.|fairhurst	Harry|S.|Fairhurst	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Harry S. Fairhurst	fb:part.harry_s_fairhurst
+10	3	fb:cell.parsonage_gardens	Parsonage Gardens	parsonage|gardens	Parsonage|Gardens	NNP|NNPS	O|O	|				Parsonage Gardens	fb:part.parsonage_gardens
+10	4	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+11	0	fb:cell.apollo_theatre	Apollo Theatre	apollo|theatre	Apollo|Theatre	NNP|NNP	O|O	|				Apollo Theatre	fb:part.apollo_theatre
+11	1	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx			
+11	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+11	3	fb:cell.ardwick	Ardwick	ardwick	ardwick	NN	O					Ardwick	fb:part.ardwick
+11	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+12	0	fb:cell.barlow_hall	Barlow Hall	barlow|hall	Barlow|Hall	NNP|NNP	PERSON|PERSON	|				Barlow Hall	fb:part.barlow_hall
+12	1	fb:cell.15th_century_altered_since	15th century (altered since)	15th|century|-lrb-|altered|since|-rrb-	15th|century|-lrb-|altered|since|-rrb-	JJ|NN|-LRB-|JJ|IN|-RRB-	DATE|DATE|O|O|O|O	14XX|14XX||||	15.0				
+12	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+12	3	fb:cell.chorlton_cum_hardy	Chorlton-cum-Hardy	chorlton|cum|hardy	Chorlton|cum|Hardy	NNP|FW|NNP	O|O|PERSON	||				Chorlton-cum-Hardy	fb:part.chorlton_cum_hardy
+12	4	fb:cell.1974_downgraded_in_1994	1974 (downgraded in 1994)	1974|-lrb-|downgraded|in|1994|-rrb-	1974|-lrb-|downgrade|in|1994|-rrb-	CD|-LRB-|VBN|IN|CD|-RRB-	DATE|O|O|O|DATE|O	1974||||1994|	1974.0		1994.0		
+13	0	fb:cell.barnes_hospital	Barnes Hospital	barnes|hospital	Barnes|Hospital	NNP|NNP	LOCATION|LOCATION	|				Barnes Hospital	fb:part.barnes_hospital
+13	1	fb:cell.1875	1875	1875	1875	CD	DATE	1875	1875.0	1875-xx-xx			
+13	2	fb:cell.lawrence_booth	Lawrence Booth	lawrence|booth	Lawrence|Booth	NNP|NNP	PERSON|PERSON	|				Lawrence Booth	fb:part.lawrence_booth
+13	3	fb:cell.didsbury	Didsbury	didsbury	Didsbury	NNP	O					Didsbury	fb:part.didsbury
+13	4	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+14	0	fb:cell.bridgewater_house	Bridgewater House	bridgewater|house	Bridgewater|House	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Bridgewater House	fb:part.bridgewater_house
+14	1	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx			
+14	2	fb:cell.harry_fairhurst	Harry Fairhurst	harry|fairhurst	Harry|Fairhurst	NNP|NNP	PERSON|PERSON	|				Harry Fairhurst	fb:part.harry_fairhurst
+14	3	fb:cell.whitworth_street	Whitworth Street	whitworth|street	Whitworth|Street	NNP|NNP	LOCATION|LOCATION	|				Whitworth Street	fb:part.whitworth_street
+14	4	fb:cell.null											fb:part.null
+15	0	fb:cell.castlefield_congregational_chapel	Castlefield Congregational Chapel	castlefield|congregational|chapel	Castlefield|Congregational|chapel	NNP|NNP|NN	O|O|O	||				Castlefield Congregational Chapel	fb:part.castlefield_congregational_chapel
+15	1	fb:cell.1858	1858	1858	1858	CD	DATE	1858	1858.0	1858-xx-xx			
+15	2	fb:cell.edward_walters	Edward Walters	edward|walters	Edward|Walters	NNP|NNP	PERSON|PERSON	|				Edward Walters	fb:part.edward_walters
+15	3	fb:cell.deansgate_castlefield	Deansgate, Castlefield	deansgate|,|castlefield	Deansgate|,|Castlefield	NNP|,|NNP	O|O|LOCATION	||				Deansgate|Castlefield	fb:part.deansgate|fb:part.castlefield
+15	4	fb:cell.null											fb:part.null
+16	0	fb:cell.cis_tower	CIS Tower	cis|tower	ci|tower	NN|NN	O|O	|				CIS Tower	fb:part.cis_tower
+16	1	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+16	2	fb:cell.gordon_tait	Gordon Tait	gordon|tait	Gordon|Tait	NNP|NNP	PERSON|PERSON	|				Gordon Tait	fb:part.gordon_tait
+16	3	fb:cell.miller_street	Miller Street	miller|street	Miller|Street	NNP|NNP	O|O	|				Miller Street	fb:part.miller_street
+16	4	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+17	0	fb:cell.chancellors_hotel_conference_centre_the_firs	Chancellors Hotel & Conference Centre (The Firs)	chancellors|hotel|&|conference|centre|-lrb-|the|firs|-rrb-	chancellor|Hotel|&|Conference|Centre|-lrb-|the|Firs|-rrb-	NNS|NNP|CC|NNP|NNP|-LRB-|DT|NNPS|-RRB-	O|O|O|O|O|O|O|O|O	||||||||				Chancellors Hotel & Conference Centre (The Firs)	fb:part.chancellors_hotel_conference_centre_the_firs
+17	1	fb:cell.1851	1851	1851	1851	CD	DATE	1851	1851.0	1851-xx-xx			
+17	2	fb:cell.edward_walters	Edward Walters	edward|walters	Edward|Walters	NNP|NNP	PERSON|PERSON	|				Edward Walters	fb:part.edward_walters
+17	3	fb:cell.fallowfield	Fallowfield	fallowfield	Fallowfield	NNP	LOCATION					Fallowfield	fb:part.fallowfield
+17	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+18	0	fb:cell.chancellors_hotel_conference_centre_the_firs_gate_lodge	Chancellors Hotel & Conference Centre (The Firs Gate Lodge)	chancellors|hotel|&|conference|centre|-lrb-|the|firs|gate|lodge|-rrb-	chancellor|Hotel|&|Conference|Centre|-lrb-|the|Firs|Gate|Lodge|-rrb-	NNS|NNP|CC|NNP|NNP|-LRB-|DT|NNP|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O|O|O|O	||||||||||				Chancellors Hotel & Conference Centre (The Firs Gate Lodge)	fb:part.chancellors_hotel_conference_centre_the_firs_gate_lodge
+18	1	fb:cell.1851	1851	1851	1851	CD	DATE	1851	1851.0	1851-xx-xx			
+18	2	fb:cell.edward_walters	Edward Walters	edward|walters	Edward|Walters	NNP|NNP	PERSON|PERSON	|				Edward Walters	fb:part.edward_walters
+18	3	fb:cell.fallowfield	Fallowfield	fallowfield	Fallowfield	NNP	LOCATION					Fallowfield	fb:part.fallowfield
+18	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+19	0	fb:cell.cooperative_press	Cooperative Press	cooperative|press	Cooperative|Press	NNP|NNP	O|O	|				Cooperative Press	fb:part.cooperative_press
+19	1	fb:cell.late_19th_century	Late 19th century	late|19th|century	late|19th|century	RB|JJ|NN	DATE|DATE|DATE	18XX|18XX|18XX	19.0				
+19	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+19	3	fb:cell.naples_street_ancoats	Naples Street, Ancoats	naples|street|,|ancoats	Naples|Street|,|Ancoats	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Naples Street|Ancoats	fb:part.naples_street|fb:part.ancoats
+19	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+20	0	fb:cell.corn_exchange	Corn Exchange	corn|exchange	Corn|Exchange	NNP|NNP	O|O	|				Corn Exchange	fb:part.corn_exchange
+20	1	fb:cell.1903	1903	1903	1903	CD	DATE	1903	1903.0	1903-xx-xx			
+20	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+20	3	fb:cell.exchange_square	Exchange Square	exchange|square	Exchange|Square	NNP|NNP	O|O	|				Exchange Square	fb:part.exchange_square
+20	4	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+21	0	fb:cell.canada_house_manchester	Canada House, Manchester	canada|house|,|manchester	Canada|House|,|Manchester	NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|O|LOCATION	|||				Canada House|Manchester	fb:part.canada_house|fb:part.manchester
+21	1	fb:cell.1905	1905	1905	1905	CD	DATE	1905	1905.0	1905-xx-xx			
+21	2	fb:cell.null											fb:part.null
+21	3	fb:cell.chepstow_street	Chepstow Street	chepstow|street	Chepstow|Street	NNP|NNP	LOCATION|LOCATION	|				Chepstow Street	fb:part.chepstow_street
+21	4	fb:cell.null											fb:part.null
+22	0	fb:cell.dalton_ellis_hall	Dalton Ellis Hall	dalton|ellis|hall	Dalton|Ellis|Hall	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Dalton Ellis Hall	fb:part.dalton_ellis_hall
+22	1	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx			
+22	2	fb:cell.g_t_redmayne	G. T. Redmayne	g.|t.|redmayne	G.|T.|Redmayne	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				G. T. Redmayne	fb:part.g_t_redmayne
+22	3	fb:cell.conygham_road	Conygham Road	conygham|road	Conygham|Road	NNP|NNP	LOCATION|LOCATION	|				Conygham Road	fb:part.conygham_road
+22	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+23	0	fb:cell.derros_building	Derros Building	derros|building	Derros|Building	NNP|NNP	O|O	|				Derros Building	fb:part.derros_building
+23	1	fb:cell.1899	1899	1899	1899	CD	DATE	1899	1899.0	1899-xx-xx			
+23	2	fb:cell.william_sharpe	William Sharpe	william|sharpe	William|Sharpe	NNP|NNP	PERSON|PERSON	|				William Sharpe	fb:part.william_sharpe
+23	3	fb:cell.great_ancoats_street	Great Ancoats Street	great|ancoats|street	great|Ancoats|Street	JJ|NNP|NNP	O|O|O	||				Great Ancoats Street	fb:part.great_ancoats_street
+23	4	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+24	0	fb:cell.greenhayes_centre	Greenhayes Centre	greenhayes|centre	Greenhayes|Centre	NNP|NNP	O|O	|				Greenhayes Centre	fb:part.greenhayes_centre
+24	1	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx			
+24	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+24	3	fb:cell.moss_side	Moss Side	moss|side	Moss|Side	NNP|NNP	PERSON|O	|				Moss Side	fb:part.moss_side
+24	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+25	0	fb:cell.hanover_building	Hanover Building	hanover|building	Hanover|Building	NNP|NNP	O|O	|				Hanover Building	fb:part.hanover_building
+25	1	fb:cell.1909	1909	1909	1909	CD	DATE	1909	1909.0	1909-xx-xx			
+25	2	fb:cell.f_e_l_harris	F.E.L Harris	f.e.l|harris	F.E.L|Harris	NNP|NNP	O|PERSON	|				F.E.L Harris	fb:part.f_e_l_harris
+25	3	fb:cell.corporation_street	Corporation Street	corporation|street	Corporation|Street	NNP|NNP	O|O	|				Corporation Street	fb:part.corporation_street
+25	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+26	0	fb:cell.holyoake_house	Holyoake House	holyoake|house	Holyoake|House	NNP|NNP	PERSON|PERSON	|				Holyoake House	fb:part.holyoake_house
+26	1	fb:cell.1911	1911	1911	1911	CD	DATE	1911	1911.0	1911-xx-xx			
+26	2	fb:cell.f_e_l_harris	F.E.L Harris	f.e.l|harris	F.E.L|Harris	NNP|NNP	O|PERSON	|				F.E.L Harris	fb:part.f_e_l_harris
+26	3	fb:cell.dantzic_street	Dantzic Street	dantzic|street	Dantzic|Street	NNP|NNP	O|O	|				Dantzic Street	fb:part.dantzic_street
+26	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+27	0	fb:cell.national_and_provoncial_building_society	National and Provoncial Building Society	national|and|provoncial|building|society	National|and|Provoncial|Building|Society	NNP|CC|NNP|NNP|NNP	O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				National and Provoncial Building Society	fb:part.national_and_provoncial_building_society
+27	1	fb:cell.circa_1910	Circa. 1910	circa|.|1910	Circa|.|1910	NNP|.|CD	O|O|DATE	||1910	0.191				
+27	2	fb:cell.c_r_cockerell	C. R. Cockerell	c.|r.|cockerell	C.|R.|Cockerell	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				C. R. Cockerell	fb:part.c_r_cockerell
+27	3	fb:cell.king_street	King Street	king|street	King|Street	NNP|NNP	O|O	|				King Street	fb:part.king_street
+27	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+28	0	fb:cell.new_century_house	New Century House	new|century|house	New|Century|House	NNP|NNP|NNP	O|DURATION|O	||				New Century House	fb:part.new_century_house
+28	1	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+28	2	fb:cell.g_s_hay_gordon_tait	G. S. Hay & Gordon Tait	g.|s.|hay|&|gordon|tait	G.|S.|Hay|&|Gordon|Tait	NNP|NNP|NNP|CC|NNP|NNP	O|O|O|O|PERSON|PERSON	|||||				G. S. Hay & Gordon Tait	fb:part.g_s_hay_gordon_tait
+28	3	fb:cell.miller_street	Miller Street	miller|street	Miller|Street	NNP|NNP	O|O	|				Miller Street	fb:part.miller_street
+28	4	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+29	0	fb:cell.manchester_deansgate_railway_station	Manchester Deansgate railway station	manchester|deansgate|railway|station	Manchester|Deansgate|railway|station	NNP|NNP|NN|NN	LOCATION|O|O|O	|||				Manchester Deansgate railway station	fb:part.manchester_deansgate_railway_station
+29	1	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx			
+29	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+29	3	fb:cell.null											fb:part.null
+29	4	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+30	0	fb:cell.manchester_opera_house	Manchester Opera House	manchester|opera|house	Manchester|Opera|House	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Manchester Opera House	fb:part.manchester_opera_house
+30	1	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx			
+30	2	fb:cell.richardson_and_gill_with_farquarson	Richardson and Gill with Farquarson	richardson|and|gill|with|farquarson	Richardson|and|Gill|with|Farquarson	NNP|CC|NNP|IN|NNP	PERSON|O|PERSON|O|PERSON	||||				Richardson and Gill with Farquarson	fb:part.richardson_and_gill_with_farquarson
+30	3	fb:cell.quay_street	Quay Street	quay|street	Quay|Street	NNP|NNP	O|O	|				Quay Street	fb:part.quay_street
+30	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+31	0	fb:cell.manchester_oxford_road_railway_station	Manchester Oxford Road railway station	manchester|oxford|road|railway|station	Manchester|Oxford|Road|railway|station	NNP|NNP|NNP|NN|NN	LOCATION|LOCATION|LOCATION|O|O	||||				Manchester Oxford Road railway station	fb:part.manchester_oxford_road_railway_station
+31	1	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+31	2	fb:cell.w_r_headley_and_max_glendinning	W. R. Headley and Max Glendinning	w.|r.|headley|and|max|glendinning	W.|R.|Headley|and|Max|Glendinning	NNP|NNP|NNP|CC|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON	|||||				W. R. Headley and Max Glendinning	fb:part.w_r_headley_and_max_glendinning
+31	3	fb:cell.oxford_road	Oxford Road	oxford|road	Oxford|Road	NNP|NNP	LOCATION|LOCATION	|				Oxford Road	fb:part.oxford_road
+31	4	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+32	0	fb:cell.manchester_piccadilly_station_store_street_train_shed	Manchester Piccadilly station Store Street train shed	manchester|piccadilly|station|store|street|train|shed	Manchester|Piccadilly|station|Store|Street|train|shed	NNP|NNP|NN|NNP|NNP|NN|VBD	LOCATION|O|O|O|O|O|O	||||||				Manchester Piccadilly station Store Street train shed	fb:part.manchester_piccadilly_station_store_street_train_shed
+32	1	fb:cell.1881	1881	1881	1881	CD	DATE	1881	1881.0	1881-xx-xx			
+32	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+32	3	fb:cell.piccadilly	Piccadilly	piccadilly	Piccadilly	NNP	O					Piccadilly	fb:part.piccadilly
+32	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+33	0	fb:cell.manchester_victoria_station	Manchester Victoria station	manchester|victoria|station	Manchester|Victoria|station	NNP|NNP|NN	LOCATION|LOCATION|O	||				Manchester Victoria station	fb:part.manchester_victoria_station
+33	1	fb:cell.1844	1844	1844	1844	CD	DATE	1844	1844.0	1844-xx-xx			
+33	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+33	3	fb:cell.hunts_bank	Hunts Bank	hunts|bank	Hunts|Bank	NNP|NNP	O|O	|				Hunts Bank	fb:part.hunts_bank
+33	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+34	0	fb:cell.palace_theatre	Palace Theatre	palace|theatre	Palace|Theatre	NNP|NNP	O|O	|				Palace Theatre	fb:part.palace_theatre
+34	1	fb:cell.1891	1891	1891	1891	CD	DATE	1891	1891.0	1891-xx-xx			
+34	2	fb:cell.alfred_derbyshire_and_f_bennett_smith	Alfred Derbyshire and F.Bennett Smith	alfred|derbyshire|and|f.bennett|smith	Alfred|Derbyshire|and|F.Bennett|Smith	NNP|NNP|CC|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Alfred Derbyshire and F.Bennett Smith	fb:part.alfred_derbyshire_and_f_bennett_smith
+34	3	fb:cell.oxford_street	Oxford Street	oxford|street	Oxford|Street	NNP|NNP	LOCATION|LOCATION	|				Oxford Street	fb:part.oxford_street
+34	4	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+35	0	fb:cell.the_ritz	The Ritz	the|ritz	the|Ritz	DT|NNP	O|O	|				The Ritz	fb:part.the_ritz
+35	1	fb:cell.1927	1927	1927	1927	CD	DATE	1927	1927.0	1927-xx-xx			
+35	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+35	3	fb:cell.whitworth_street	Whitworth Street	whitworth|street	Whitworth|Street	NNP|NNP	LOCATION|LOCATION	|				Whitworth Street	fb:part.whitworth_street
+35	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+36	0	fb:cell.royal_exchange	Royal Exchange	royal|exchange	Royal|Exchange	NNP|NNP	O|O	|				Royal Exchange	fb:part.royal_exchange
+36	1	fb:cell.1921	1921	1921	1921	CD	DATE	1921	1921.0	1921-xx-xx			
+36	2	fb:cell.bradshaw_gass_hope	Bradshaw, Gass & Hope	bradshaw|,|gass|&|hope	Bradshaw|,|Gass|&|Hope	NNP|,|NNP|CC|NNP	PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Bradshaw|Gass & Hope	fb:part.bradshaw|fb:part.gass_hope
+36	3	fb:cell.cross_street	Cross Street	cross|street	Cross|Street	NNP|NNP	O|O	|				Cross Street	fb:part.cross_street
+36	4	fb:cell.null											fb:part.null
+37	0	fb:cell.redfern_building	Redfern Building	redfern|building	Redfern|Building	NNP|NNP	O|O	|				Redfern Building	fb:part.redfern_building
+37	1	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx			
+37	2	fb:cell.w_a_johnson_and_j_w_cooper	W. A. Johnson and J. W. Cooper	w.|a.|johnson|and|j.|w.|cooper	W.|A.|Johnson|and|J.|W.|Cooper	NNP|NNP|NNP|CC|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON	||||||				W. A. Johnson and J. W. Cooper	fb:part.w_a_johnson_and_j_w_cooper
+37	3	fb:cell.dantzic_street	Dantzic Street	dantzic|street	Dantzic|Street	NNP|NNP	O|O	|				Dantzic Street	fb:part.dantzic_street
+37	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+38	0	fb:cell.sackville_street_building	Sackville Street Building	sackville|street|building	Sackville|Street|Building	NNP|NNP|NNP	LOCATION|O|O	||				Sackville Street Building	fb:part.sackville_street_building
+38	1	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx			
+38	2	fb:cell.spalding_and_cross	Spalding and Cross	spalding|and|cross	Spalding|and|Cross	NNP|CC|NNP	PERSON|O|O	||				Spalding and Cross	fb:part.spalding_and_cross
+38	3	fb:cell.sackville_street	Sackville Street	sackville|street	Sackville|Street	NNP|NNP	LOCATION|LOCATION	|				Sackville Street	fb:part.sackville_street
+38	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+39	0	fb:cell.st_james_buildings	St. James Buildings	st.|james|buildings	St.|James|building	NNP|NNP|NNS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				St. James Buildings	fb:part.st_james_buildings
+39	1	fb:cell.1912	1912	1912	1912	CD	DATE	1912	1912.0	1912-xx-xx			
+39	2	fb:cell.clegg_fryer_penman	Clegg, Fryer & Penman	clegg|,|fryer|&|penman	Clegg|,|Fryer|&|Penman	NNP|,|NNP|CC|NNP	PERSON|O|ORGANIZATION|ORGANIZATION|ORGANIZATION	||||				Clegg|Fryer & Penman	fb:part.clegg|fb:part.fryer_penman
+39	3	fb:cell.65_95_oxford_street	65-95 Oxford Street	65-95|oxford|street	65-95|Oxford|Street	CD|NNP|NNP	NUMBER|O|O	65.0 - 95.0||	65.0		95.0	65-95 Oxford Street	fb:part.65_95_oxford_street
+39	4	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+40	0	fb:cell.st_mary_s_hospital	St Mary's Hospital	st|mary|'s|hospital	St|Mary|'s|hospital	NNP|NNP|POS|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				St Mary's Hospital	fb:part.st_mary_s_hospital
+40	1	fb:cell.1909	1909	1909	1909	CD	DATE	1909	1909.0	1909-xx-xx			
+40	2	fb:cell.john_ely	John Ely	john|ely	John|Ely	NNP|NNP	PERSON|PERSON	|				John Ely	fb:part.john_ely
+40	3	fb:cell.wilmslow_road	Wilmslow Road	wilmslow|road	Wilmslow|Road	NNP|NNP	LOCATION|LOCATION	|				Wilmslow Road	fb:part.wilmslow_road
+40	4	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+41	0	fb:cell.samuel_alexander_building	Samuel Alexander Building	samuel|alexander|building	Samuel|Alexander|Building	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Samuel Alexander Building	fb:part.samuel_alexander_building
+41	1	fb:cell.1919	1919	1919	1919	CD	DATE	1919	1919.0	1919-xx-xx			
+41	2	fb:cell.percy_scott_worthington	Percy Scott Worthington	percy|scott|worthington	Percy|Scott|Worthington	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Percy Scott Worthington	fb:part.percy_scott_worthington
+41	3	fb:cell.oxford_road	Oxford Road	oxford|road	Oxford|Road	NNP|NNP	LOCATION|LOCATION	|				Oxford Road	fb:part.oxford_road
+41	4	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+42	0	fb:cell.ship_canal_house	Ship Canal House	ship|canal|house	ship|Canal|House	NN|NNP|NNP	O|O|O	||				Ship Canal House	fb:part.ship_canal_house
+42	1	fb:cell.1927	1927	1927	1927	CD	DATE	1927	1927.0	1927-xx-xx			
+42	2	fb:cell.harry_s_fairhurst	Harry S. Fairhurst	harry|s.|fairhurst	Harry|S.|Fairhurst	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Harry S. Fairhurst	fb:part.harry_s_fairhurst
+42	3	fb:cell.king_street	King Street	king|street	King|Street	NNP|NNP	O|O	|				King Street	fb:part.king_street
+42	4	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+43	0	fb:cell.smithfield_market_hall	Smithfield Market Hall	smithfield|market|hall	Smithfield|Market|Hall	NNP|NNP|NNP	ORGANIZATION|O|O	||				Smithfield Market Hall	fb:part.smithfield_market_hall
+43	1	fb:cell.1857	1857	1857	1857	CD	DATE	1857	1857.0	1857-xx-xx			
+43	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+43	3	fb:cell.swan_street_ancoats	Swan Street, Ancoats	swan|street|,|ancoats	swan|street|,|ancoat	NN|NN|,|NNS	O|O|O|O	|||				Swan Street|Ancoats	fb:part.swan_street|fb:part.ancoats
+43	4	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+44	0	fb:cell.strangeways_gaol_gatehouse	Strangeways Gaol Gatehouse	strangeways|gaol|gatehouse	Strangeways|Gaol|Gatehouse	NNP|NNP|NNP	O|O|O	||				Strangeways Gaol Gatehouse	fb:part.strangeways_gaol_gatehouse
+44	1	fb:cell.1868	1868	1868	1868	CD	DATE	1868	1868.0	1868-xx-xx			
+44	2	fb:cell.alfred_waterhouse	Alfred Waterhouse	alfred|waterhouse	Alfred|Waterhouse	NNP|NNP	PERSON|O	|				Alfred Waterhouse	fb:part.alfred_waterhouse
+44	3	fb:cell.sherborne_street	Sherborne Street	sherborne|street	Sherborne|Street	NNP|NNP	LOCATION|LOCATION	|				Sherborne Street	fb:part.sherborne_street
+44	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+45	0	fb:cell.strangeways_prison_ventilation_and_watch_tower	Strangeways Prison ventilation and watch tower	strangeways|prison|ventilation|and|watch|tower	Strangeways|Prison|ventilation|and|watch|tower	NNP|NNP|NN|CC|NN|NN	O|O|O|O|O|O	|||||				Strangeways Prison ventilation and watch tower	fb:part.strangeways_prison_ventilation_and_watch_tower
+45	1	fb:cell.1868	1868	1868	1868	CD	DATE	1868	1868.0	1868-xx-xx			
+45	2	fb:cell.alfred_waterhouse	Alfred Waterhouse	alfred|waterhouse	Alfred|Waterhouse	NNP|NNP	PERSON|O	|				Alfred Waterhouse	fb:part.alfred_waterhouse
+45	3	fb:cell.sherborne_street	Sherborne Street	sherborne|street	Sherborne|Street	NNP|NNP	LOCATION|LOCATION	|				Sherborne Street	fb:part.sherborne_street
+45	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+46	0	fb:cell.theatre_royal	Theatre Royal	theatre|royal	Theatre|Royal	NNP|NNP	O|O	|				Theatre Royal	fb:part.theatre_royal
+46	1	fb:cell.1845	1845	1845	1845	CD	DATE	1845	1845.0	1845-xx-xx			
+46	2	fb:cell.irwin_and_chester	Irwin and Chester	irwin|and|chester	Irwin|and|Chester	NNP|CC|NNP	PERSON|O|PERSON	||				Irwin and Chester	fb:part.irwin_and_chester
+46	3	fb:cell.peter_street	Peter Street	peter|street	Peter|Street	NNP|NNP	PERSON|PERSON	|				Peter Street	fb:part.peter_street
+46	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+47	0	fb:cell.toast_rack	Toast Rack	toast|rack	toast|rack	NN|NN	O|O	|				Toast Rack	fb:part.toast_rack
+47	1	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+47	2	fb:cell.l_c_howitt	L. C. Howitt	l.|c.|howitt	L.|C.|Howitt	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				L. C. Howitt	fb:part.l_c_howitt
+47	3	fb:cell.fallowfield	Fallowfield	fallowfield	Fallowfield	NNP	LOCATION					Fallowfield	fb:part.fallowfield
+47	4	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+48	0	fb:cell.the_old_wellington_inn	The Old Wellington Inn	the|old|wellington|inn	the|Old|Wellington|Inn	DT|NNP|NNP|NNP	O|O|LOCATION|O	|||				The Old Wellington Inn	fb:part.the_old_wellington_inn
+48	1	fb:cell.mid_16th_century	Mid-16th century	mid-16th|century	mid-16th|century	JJ|NN	O|DURATION	|	16.0				
+48	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+48	3	fb:cell.shambles_square	Shambles Square	shambles|square	Shambles|Square	NNP|NNP	O|O	|				Shambles Square	fb:part.shambles_square
+48	4	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+49	0	fb:cell.whitworth_park_mansions	Whitworth Park Mansions	whitworth|park|mansions	Whitworth|Park|Mansions	NNP|NNP|NNPS	O|O|O	||				Whitworth Park Mansions	fb:part.whitworth_park_mansions
+49	1	fb:cell.circa_1840s	Circa 1840s	circa|1840s	Circa|1840	NNP|NNS	O|SET	|	1840.0				
+49	2	fb:cell.unknown	Unknown	unknown	unknown	JJ	O					Unknown	fb:part.unknown
+49	3	fb:cell.whitworth_park	Whitworth Park	whitworth|park	Whitworth|Park	NNP|NNP	LOCATION|LOCATION	|				Whitworth Park	fb:part.whitworth_park
+49	4	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			

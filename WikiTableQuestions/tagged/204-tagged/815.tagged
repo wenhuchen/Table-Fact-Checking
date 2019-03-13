@@ -1,0 +1,886 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.model	Model	model	Model	NNP	O						
+-1	1	fb:row.row.fuel_type	Fuel Type	fuel|type	fuel|type	NN|NN	O|O	|					
+-1	2	fb:row.row.mpg_us_gallons	mpg (US gallons)	mpg|-lrb-|us|gallons|-rrb-	mpg|-lrb-|US|gallon|-rrb-	NN|-LRB-|NNP|NNS|-RRB-	O|O|LOCATION|O|O	||||					
+-1	3	fb:row.row.l_100_km	L/100 km	l\\/100|km	l\\/100|km	NN|NN	O|O	|					
+-1	4	fb:row.row.nz_rating_stars	NZ Rating\n(Stars)	nz|rating|-lrb-|stars|-rrb-	NZ|Rating|-lrb-|Stars|-rrb-	NNP|NNP|-LRB-|NNP|-RRB-	LOCATION|O|O|O|O	||||					
+0	0	fb:cell.volkswagen_polo_1_4_tdi_bluemotion	Volkswagen Polo 1.4 TDI BLUEMOTION	volkswagen|polo|1.4|tdi|bluemotion	Volkswagen|Polo|1.4|TDI|BLUEMOTION	NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|NUMBER|O|O	||1.4||	1.4				
+0	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+0	2	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+0	3	fb:cell.3_8	3.8	3.8	3.8	CD	NUMBER	3.8	3.8				
+0	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+1	0	fb:cell.volkswagen_polo_1_4_tdi_5m	Volkswagen Polo 1.4 TDI 5M	volkswagen|polo|1.4|tdi|5m	Volkswagen|Polo|1.4|TDI|5m	NNP|NNP|CD|NNP|NN	ORGANIZATION|O|NUMBER|O|O	||1.4||	1.4		5.0		
+1	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+1	2	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+1	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+1	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+2	0	fb:cell.volkswagen_polo_1_4_man	Volkswagen Polo 1.4 MAN	volkswagen|polo|1.4|man	Volkswagen|Polo|1.4|man	NNP|NNP|CD|NN	ORGANIZATION|O|NUMBER|O	||1.4|	1.4				
+2	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+2	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+2	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+2	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+3	0	fb:cell.volkswagen_polo_1_4_6a	Volkswagen Polo 1.4 6A	volkswagen|polo|1.4|6a	Volkswagen|Polo|1.4|6a	NNP|NNP|CD|NN	ORGANIZATION|O|NUMBER|O	||1.4|	1.46				
+3	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+3	2	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+3	3	fb:cell.6_9	6.9	6.9	6.9	CD	NUMBER	6.9	6.9				
+3	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+4	0	fb:cell.fiat_500_1_3_jtd_pop	Fiat 500 1.3 JTD POP	fiat|500|1.3|jtd|pop	Fiat|500|1.3|jtd|POP	NNP|CD|CD|NN|NNP	ORGANIZATION|NUMBER|NUMBER|O|O	|500.0|500.0||	5001.3				
+4	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+4	2	fb:cell.56	56	56	56	CD	NUMBER	56.0	56.0				
+4	3	fb:cell.4_2	4.2	4.2	4.2	CD	NUMBER	4.2	4.2				
+4	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+5	0	fb:cell.fiat_500_1_2_pop	Fiat 500 1.2 POP	fiat|500|1.2|pop	Fiat|500|1.2|POP	NNP|CD|CD|NNP	ORGANIZATION|NUMBER|NUMBER|O	|500.0|500.0|	5001.2				
+5	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+5	2	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+5	3	fb:cell.5_1	5.1	5.1	5.1	CD	NUMBER	5.1	5.1				
+5	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+6	0	fb:cell.fiat_500_1_4_lounge_3d	Fiat 500 1.4 LOUNGE 3D	fiat|500|1.4|lounge|3d	Fiat|500|1.4|lounge|3d	NNP|CD|CD|NN|NN	ORGANIZATION|NUMBER|NUMBER|O|O	|500.0|500.0||	5001.4		3.0		
+6	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+6	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+6	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+6	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+7	0	fb:cell.fiat_500_1_4_pop	Fiat 500 1.4 POP	fiat|500|1.4|pop	Fiat|500|1.4|POP	NNP|CD|CD|NNP	ORGANIZATION|NUMBER|NUMBER|O	|500.0|500.0|	5001.4				
+7	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+7	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+7	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+7	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+8	0	fb:cell.fiat_500_1_4_sport	Fiat 500 1.4 SPORT	fiat|500|1.4|sport	Fiat|500|1.4|sport	NNP|CD|CD|NN	ORGANIZATION|NUMBER|NUMBER|O	|500.0|500.0|	5001.4				
+8	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+8	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+8	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+8	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+9	0	fb:cell.mini_cooper_hatch_6m_2dr_1_5l_diesel	Mini Cooper HATCH 6M 2DR 1.5L Diesel	mini|cooper|hatch|6m|2dr|1.5|l|diesel	Mini|Cooper|HATCH|6m|2dr|1.5|l|Diesel	NNP|NNP|NNP|NN|NN|CD|NN|NNP	PERSON|PERSON|O|O|O|NUMBER|O|O	|||||1.5||	6.0		2.0		
+9	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+9	2	fb:cell.53	53	53	53	CD	NUMBER	53.0	53.0				
+9	3	fb:cell.4_4	4.4	4.4	4.4	CD	NUMBER	4.4	4.4				
+9	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+10	0	fb:cell.mini_cooper_coupe_6m_3dr_1_6l_diesel	Mini Cooper COUPE 6M 3DR 1.6L Diesel	mini|cooper|coupe|6m|3dr|1.6|l|diesel	Mini|Cooper|COUPE|6m|3dr|1.6|l|Diesel	NNP|NNP|NNP|NN|NN|CD|NN|NNP	O|O|O|O|O|NUMBER|O|O	|||||1.6||	6.0		3.0		
+10	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+10	2	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+10	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+10	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+11	0	fb:cell.mini_cooper_coupe_6a_3dr_1_6l_diesel	Mini Cooper COUPE 6A 3DR 1.6L Diesel	mini|cooper|coupe|6a|3dr|1.6|l|diesel	Mini|Cooper|COUPE|6a|3dr|1.6|l|Diesel	NNP|NNP|NNP|NN|NN|CD|NN|NNP	O|O|O|O|O|NUMBER|O|O	|||||1.6||	6.0		3.0		
+11	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+11	2	fb:cell.43_5	43.5	43.5	43.5	CD	NUMBER	43.5	43.5				
+11	3	fb:cell.5_4	5.4	5.4	5.4	CD	NUMBER	5.4	5.4				
+11	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+12	0	fb:cell.mini_cooper_hatch_6m_2dr_1_6i	Mini Cooper HATCH 6M 2DR 1.6I	mini|cooper|hatch|6m|2dr|1.6|i	Mini|Cooper|HATCH|6m|2dr|1.6|I	NNP|NNP|NNP|NN|NN|CD|PRP	PERSON|PERSON|O|O|O|NUMBER|O	|||||1.6|	6.0		2.0		
+12	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+12	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+12	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+12	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+13	0	fb:cell.mini_cooper_coupe_6m_3dr_1_6l	Mini Cooper COUPE 6M 3DR 1.6L	mini|cooper|coupe|6m|3dr|1.6|l	Mini|Cooper|COUPE|6m|3dr|1.6|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||1.6|	6.0		3.0		
+13	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+13	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+13	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+13	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+14	0	fb:cell.mini_cooper_hatch_6m_2dr_1_5l	Mini Cooper HATCH 6M 2DR 1.5L	mini|cooper|hatch|6m|2dr|1.5|l	Mini|Cooper|HATCH|6m|2dr|1.5|l	NNP|NNP|NNP|NN|NN|CD|NN	PERSON|PERSON|O|O|O|NUMBER|O	|||||1.5|	6.0		2.0		
+14	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+14	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+14	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+14	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+15	0	fb:cell.mini_cooper_coupe_6a_3dr_1_6l	Mini Cooper COUPE 6A 3DR 1.6L	mini|cooper|coupe|6a|3dr|1.6|l	Mini|Cooper|COUPE|6a|3dr|1.6|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||1.6|	6.0		3.0		
+15	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+15	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+15	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+15	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+16	0	fb:cell.citroen_c4_1_6_hdi_6a_egs_5dr	Citroen C4 1.6 HDI 6A EGS 5DR	citroen|c4|1.6|hdi|6a|egs|5dr	Citroen|c4|1.6|hdus|6a|eg|5dr	NNP|NN|CD|NN|NN|NN|NN	O|O|NUMBER|O|O|O|O	||1.6||||	41.6		6.0		
+16	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+16	2	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+16	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+16	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+17	0	fb:cell.citroen_c4_1_6_sx_5dr_5sp_m_d	Citroen C4 1.6 SX 5DR 5SP M D	citroen|c4|1.6|sx|5dr|5sp|m|d	Citroen|c4|1.6|SX|5dr|5sp|m|d	NNP|NN|CD|NNP|NN|NN|NN|NN	O|O|NUMBER|O|O|O|O|O	||1.6|||||	41.6		5.0		
+17	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+17	2	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+17	3	fb:cell.4_7	4.7	4.7	4.7	CD	NUMBER	4.7	4.7				
+17	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+18	0	fb:cell.citroen_c4_2_0_sx_5dr_6sp_a_d	Citroen C4 2.0 SX 5DR 6SP A D	citroen|c4|2.0|sx|5dr|6sp|a|d	Citroen|c4|2.0|SX|5dr|6sp|a|d	NNP|NN|CD|NNP|NN|NN|NN|NN	O|O|NUMBER|O|O|O|O|O	||2.0|||||	42.0		5.0		
+18	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+18	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+18	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+18	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+19	0	fb:cell.hyundai_getz_1_5d_crdi_5d_m5	Hyundai Getz 1.5D CRDI 5D M5	hyundai|getz|1.5|d|crdi|5d|m5	Hyundai|Getz|1.5|D|CRDI|5d|m5	NNP|NNP|CD|NNP|NNP|NN|NN	PERSON|PERSON|NUMBER|O|O|O|O	||1.5||||	1.5		5.0		
+19	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+19	2	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+19	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+19	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+20	0	fb:cell.hyundai_getz_1_4_5d_m5	Hyundai Getz 1.4 5D M5	hyundai|getz|1.4|5d|m5	Hyundai|Getz|1.4|5d|m5	NNP|NNP|CD|NN|NN	PERSON|PERSON|NUMBER|O|O	||1.4||	1.45		5.0		
+20	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+20	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+20	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+20	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+21	0	fb:cell.kia_rio_1_5_diesel_hatch_man	Kia Rio 1.5 DIESEL HATCH MAN	kia|rio|1.5|diesel|hatch|man	Kia|Rio|1.5|DIESEL|HATCH|man	NNP|NNP|CD|NNP|NNP|NN	O|O|NUMBER|O|O|O	||1.5|||	1.5				
+21	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+21	2	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+21	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+21	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+22	0	fb:cell.kia_rio_1_5_diesel_sedan_man	Kia Rio 1.5 DIESEL SEDAN MAN	kia|rio|1.5|diesel|sedan|man	Kia|Rio|1.5|DIESEL|SEDAN|man	NNP|NNP|CD|NNP|NNP|NN	O|O|NUMBER|O|O|O	||1.5|||	1.5				
+22	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+22	2	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+22	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+22	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+23	0	fb:cell.kia_rio_1_6_hatch_manual	Kia Rio 1.6 HATCH MANUAL	kia|rio|1.6|hatch|manual	Kia|Rio|1.6|HATCH|manual	NNP|NNP|CD|NNP|NN	O|O|NUMBER|O|O	||1.6||	1.6				
+23	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+23	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+23	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+23	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+24	0	fb:cell.volkswagen_golf_1_9_tdi_bluemotion	Volkswagen Golf 1.9 TDI BLUEMOTION	volkswagen|golf|1.9|tdi|bluemotion	Volkswagen|Golf|1.9|TDI|BLUEMOTION	NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|NUMBER|O|O	||1.9||	1.9				
+24	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+24	2	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+24	3	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+24	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+25	0	fb:cell.volkswagen_golf_1_9_tdi_7dsg	Volkswagen Golf 1.9 TDI 7DSG	volkswagen|golf|1.9|tdi|7dsg	Volkswagen|Golf|1.9|TDI|7DSG	NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|NUMBER|O|O	||1.9||	1.9		7.0		
+25	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+25	2	fb:cell.44_3	44.3	44.3	44.3	CD	NUMBER	44.3	44.3				
+25	3	fb:cell.5_3	5.3	5.3	5.3	CD	NUMBER	5.3	5.3				
+25	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+26	0	fb:cell.volkswagen_golf_90kw_tsi_7dsg	Volkswagen Golf 90KW TSI 7DSG	volkswagen|golf|90kw|tsi|7dsg	Volkswagen|Golf|90KW|TSI|7DSG	NNP|NNP|NNP|NNP|NNP	ORGANIZATION|O|O|O|O	||||	90.0		7.0		
+26	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+26	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+26	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+26	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+27	0	fb:cell.volkswagen_golf_1_9_tdi_6dsg	Volkswagen Golf 1.9 TDI 6DSG	volkswagen|golf|1.9|tdi|6dsg	Volkswagen|Golf|1.9|TDI|6dsg	NNP|NNP|CD|NNP|NN	ORGANIZATION|O|NUMBER|O|O	||1.9||	1.9		6.0		
+27	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+27	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+27	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+27	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+28	0	fb:cell.volkswagen_golf_2_0_tdi_4_motion_man	Volkswagen Golf 2.0 TDI 4 MOTION MAN	volkswagen|golf|2.0|tdi|4|motion|man	Volkswagen|Golf|2.0|TDI|4|MOTION|man	NNP|NNP|CD|NNP|CD|NNP|NN	ORGANIZATION|ORGANIZATION|NUMBER|O|NUMBER|O|O	||2.0||4.0||	2.0		4.0		
+28	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+28	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+28	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+28	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+29	0	fb:cell.volkswagen_golf_2_0_tdi_dsg	Volkswagen Golf 2.0 TDI DSG	volkswagen|golf|2.0|tdi|dsg	Volkswagen|Golf|2.0|TDI|DSG	NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|NUMBER|O|O	||2.0||	2.0				
+29	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+29	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+29	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+29	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+30	0	fb:cell.volkswagen_golf_tdi_103kw_6dsg	Volkswagen Golf TDI 103KW 6DSG	volkswagen|golf|tdi|103kw|6dsg	Volkswagen|Golf|TDI|103KW|6dsg	NNP|NNP|NNP|NNP|NN	ORGANIZATION|O|O|O|O	||||	103.0		6.0		
+30	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+30	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+30	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+30	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+31	0	fb:cell.volkswagen_golf_tdi_103kw_4motion	Volkswagen Golf TDI 103KW 4MOTION	volkswagen|golf|tdi|103kw|4motion	Volkswagen|Golf|TDI|103KW|4motion	NNP|NNP|NNP|NNP|NN	ORGANIZATION|O|O|O|O	||||	103.0		4.0		
+31	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+31	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+31	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+31	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+32	0	fb:cell.fiat_grande_punto_1_3_jtd_5d_6sp	Fiat Grande Punto 1.3 JTD 5D 6SP	fiat|grande|punto|1.3|jtd|5d|6sp	Fiat|Grande|Punto|1.3|jtd|5d|6sp	NNP|NNP|NNP|CD|NN|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER|O|O|O	|||1.3|||	1.3		5.0		
+32	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+32	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+32	3	fb:cell.4_6	4.6	4.6	4.6	CD	NUMBER	4.6	4.6				
+32	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+33	0	fb:cell.fiat_grande_punto_1_3_jtd_5d_dualogic	Fiat Grande Punto 1.3 JTD 5D DUALOGIC	fiat|grande|punto|1.3|jtd|5d|dualogic	Fiat|Grande|Punto|1.3|jtd|5d|dualogic	NNP|NNP|NNP|CD|NN|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER|O|O|O	|||1.3|||	1.3		5.0		
+33	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+33	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+33	3	fb:cell.4_6	4.6	4.6	4.6	CD	NUMBER	4.6	4.6				
+33	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+34	0	fb:cell.fiat_grande_punto_1_3_jtd_dual_logic	Fiat Grande Punto 1.3 JTD DUAL LOGIC	fiat|grande|punto|1.3|jtd|dual|logic	Fiat|Grande|Punto|1.3|JTD|DUAL|logic	NNP|NNP|NNP|CD|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER|O|O|O	|||1.3|||	1.3				
+34	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+34	2	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+34	3	fb:cell.5_1	5.1	5.1	5.1	CD	NUMBER	5.1	5.1				
+34	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+35	0	fb:cell.fiat_grande_punto_1_9_jtd_sport_3d_6sp	Fiat Grande Punto 1.9 JTD SPORT 3D 6SP	fiat|grande|punto|1.9|jtd|sport|3d|6sp	Fiat|Grande|Punto|1.9|JTD|SPORT|3d|6sp	NNP|NNP|NNP|CD|NNP|NNP|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER|O|O|O|O	|||1.9||||	1.9		3.0		
+35	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+35	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+35	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+35	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+36	0	fb:cell.fiat_grande_punto_1_9_emotion_5dr_6spd	Fiat Grande Punto 1.9 EMOTION 5DR 6SPD	fiat|grande|punto|1.9|emotion|5dr|6spd	Fiat|Grande|Punto|1.9|emotion|5dr|6spd	NNP|NNP|NNP|CD|NN|NN|NN	ORGANIZATION|O|O|NUMBER|O|O|O	|||1.9|||	1.9		5.0		
+36	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+36	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+36	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+36	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+37	0	fb:cell.fiat_grande_punto_1_9_jtd_5d_6speed	Fiat Grande Punto 1.9 JTD 5D 6SPEED	fiat|grande|punto|1.9|jtd|5d|6speed	Fiat|Grande|Punto|1.9|jtd|5d|6speed	NNP|NNP|NNP|CD|NN|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER|O|O|O	|||1.9|||	1.9		5.0		
+37	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+37	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+37	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+37	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+38	0	fb:cell.fiat_grande_punto_1_4_dynamic_5_speed	Fiat Grande Punto 1.4 DYNAMIC 5 SPEED	fiat|grande|punto|1.4|dynamic|5|speed	Fiat|Grande|Punto|1.4|DYNAMIC|5|speed	NNP|NNP|NNP|CD|NNP|CD|NN	ORGANIZATION|O|O|NUMBER|O|NUMBER|O	|||1.4||5.0|	1.4		5.0		
+38	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+38	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+38	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+38	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+39	0	fb:cell.fiat_grande_punto_1_4_5d_dual_logic	Fiat Grande Punto 1.4 5D DUAL LOGIC	fiat|grande|punto|1.4|5d|dual|logic	Fiat|Grande|Punto|1.4|5d|dual|logic	NNP|NNP|NNP|CD|NN|JJ|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER|O|O|O	|||1.4|||	1.45				
+39	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+39	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+39	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+39	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+40	0	fb:cell.honda_civic_hybrid	Honda Civic Hybrid	honda|civic|hybrid	Honda|Civic|hybrid	NNP|NNP|NN	O|O|O	||					
+40	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+40	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+40	3	fb:cell.4_6	4.6	4.6	4.6	CD	NUMBER	4.6	4.6				
+40	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+41	0	fb:cell.hyundai_accent_1_5_crdi_4d_m5_sedan	Hyundai Accent 1.5 CRDI 4D M5 SEDAN	hyundai|accent|1.5|crdi|4d|m5|sedan	Hyundai|Accent|1.5|CRDI|4d|m5|sedan	NNP|NNP|CD|NNP|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O|O	||1.5||||	1.5		4.0		
+41	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+41	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+41	3	fb:cell.4_6	4.6	4.6	4.6	CD	NUMBER	4.6	4.6				
+41	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+42	0	fb:cell.hyundai_accent_1_6_gls_4d_m5	Hyundai Accent 1.6 GLS 4D M5	hyundai|accent|1.6|gls|4d|m5	Hyundai|Accent|1.6|GLS|4d|m5	NNP|NNP|CD|NNP|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||1.6|||	1.6		4.0		
+42	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+42	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+42	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+42	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+43	0	fb:cell.peugeot_308_hdi_at_1_6	Peugeot 308 HDI AT 1.6	peugeot|308|hdi|at|1.6	Peugeot|308|hdus|at|1.6	NNP|CD|NN|IN|CD	O|NUMBER|O|O|NUMBER	|308.0|||1.6	308.0		1.6		
+43	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+43	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+43	3	fb:cell.4_6	4.6	4.6	4.6	CD	NUMBER	4.6	4.6				
+43	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+44	0	fb:cell.peugeot_308_xs_manual	Peugeot 308 XS MANUAL	peugeot|308|xs|manual	Peugeot|308|XS|MANUAL	NNP|CD|NNP|NNP	O|NUMBER|O|O	|308.0||	308.0				
+44	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+44	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+44	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+44	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+45	0	fb:cell.peugeot_308_hdi_auto	Peugeot 308 HDI AUTO	peugeot|308|hdi|auto	Peugeot|308|HDI|AUTO	NNP|CD|NNP|NNP	O|NUMBER|O|O	|308.0||	308.0				
+45	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+45	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+45	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+45	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+46	0	fb:cell.skoda_fabia_1_4_tdi	Skoda Fabia 1.4 TDI	skoda|fabia|1.4|tdi	Skoda|Fabia|1.4|TDI	NNP|NNP|CD|NNP	O|O|NUMBER|O	||1.4|	1.4				
+46	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+46	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+46	3	fb:cell.4_6	4.6	4.6	4.6	CD	NUMBER	4.6	4.6				
+46	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+47	0	fb:cell.skoda_fabia_1_9_tdi_combi	Skoda Fabia 1.9 TDI COMBI	skoda|fabia|1.9|tdi|combi	Skoda|Fabia|1.9|TDI|COMBI	NNP|NNP|CD|NNP|NNP	O|O|NUMBER|O|O	||1.9||	1.9				
+47	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+47	2	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+47	3	fb:cell.4_9	4.9	4.9	4.9	CD	NUMBER	4.9	4.9				
+47	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+48	0	fb:cell.volkswagen_jetta_1_9_tdi_7dsg	Volkswagen Jetta 1.9 TDI 7DSG	volkswagen|jetta|1.9|tdi|7dsg	Volkswagen|Jetta|1.9|TDI|7DSG	NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|NUMBER|O|O	||1.9||	1.9		7.0		
+48	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+48	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+48	3	fb:cell.4_6	4.6	4.6	4.6	CD	NUMBER	4.6	4.6				
+48	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+49	0	fb:cell.volkswagen_jetta_2_0_tdi_dsg	Volkswagen Jetta 2.0 TDI DSG	volkswagen|jetta|2.0|tdi|dsg	Volkswagen|Jetta|2.0|TDI|DSG	NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|NUMBER|O|O	||2.0||	2.0				
+49	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+49	2	fb:cell.43_5	43.5	43.5	43.5	CD	NUMBER	43.5	43.5				
+49	3	fb:cell.5_4	5.4	5.4	5.4	CD	NUMBER	5.4	5.4				
+49	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+50	0	fb:cell.volkswagen_jetta_tdi_103kw_6dsg	Volkswagen Jetta TDI 103KW 6DSG	volkswagen|jetta|tdi|103kw|6dsg	Volkswagen|Jetta|TDI|103KW|6dsg	NNP|NNP|NNP|NNP|NN	ORGANIZATION|O|O|O|O	||||	103.0		6.0		
+50	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+50	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+50	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+50	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+51	0	fb:cell.hyundai_i30_1_6_crdi_elite_m5	Hyundai i30 1.6 CRDI ELITE M5	hyundai|i30|1.6|crdi|elite|m5	Hyundai|i30|1.6|crdus|elite|m5	NNP|NN|CD|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||1.6|||	301.6		5.0		
+51	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+51	2	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+51	3	fb:cell.4_7	4.7	4.7	4.7	CD	NUMBER	4.7	4.7				
+51	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+52	0	fb:cell.hyundai_i30_1_6_crdi_5d_m5	Hyundai i30 1.6 CRDI 5D M5	hyundai|i30|1.6|crdi|5d|m5	Hyundai|i30|1.6|crdus|5d|m5	NNP|NN|CD|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||1.6|||	301.6		5.0		
+52	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+52	2	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+52	3	fb:cell.4_7	4.7	4.7	4.7	CD	NUMBER	4.7	4.7				
+52	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+53	0	fb:cell.hyundai_i30_1_6_crdi_elite_a4	Hyundai i30 1.6 CRDI ELITE A4	hyundai|i30|1.6|crdi|elite|a4	Hyundai|i30|1.6|crdus|elite|a4	NNP|NN|CD|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||1.6|||	301.6		4.0		
+53	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+53	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+53	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+53	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+54	0	fb:cell.hyundai_i30_1_6_5d_m5	Hyundai i30 1.6 5D M5	hyundai|i30|1.6|5d|m5	Hyundai|i30|1.6|5d|m5	NNP|NN|CD|NN|NN	ORGANIZATION|O|NUMBER|O|O	||1.6||	301.65		5.0		
+54	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+54	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+54	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+54	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+55	0	fb:cell.peugeot_207_hdi_1_6_5dr_5_sp_m_d	Peugeot 207 HDI 1.6 5DR 5 SP M D	peugeot|207|hdi|1.6|5dr|5|sp|m|d	Peugeot|207|hdus|1.6|5dr|5|sp|m|d	NNP|CD|NN|CD|NN|CD|NN|NN|NN	ORGANIZATION|NUMBER|O|NUMBER|O|NUMBER|O|O|O	|207.0||1.6||5.0|||	207.0		1.65		
+55	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+55	2	fb:cell.49	49	49	49	CD	NUMBER	49.0	49.0				
+55	3	fb:cell.4_8	4.8	4.8	4.8	CD	NUMBER	4.8	4.8				
+55	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+56	0	fb:cell.peugeot_207_xs_1_4_5dr_5spd_m_p	Peugeot 207 XS 1.4 5DR 5SPD M P	peugeot|207|xs|1.4|5dr|5spd|m|p	Peugeot|207|x|1.4|5dr|5spd|m|p	NNP|CD|NN|CD|NN|NN|NN|NN	O|NUMBER|O|NUMBER|O|O|O|O	|207.0||1.4||||	207.0		1.45		
+56	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+56	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+56	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+56	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+57	0	fb:cell.citroen_c3_1_6_hdi_5dr_5spd	Citroen C3 1.6 HDI 5DR 5SPD	citroen|c3|1.6|hdi|5dr|5spd	Citroen|c3|1.6|hdus|5dr|5spd	NNP|NN|CD|NN|NN|NN	O|O|NUMBER|O|O|O	||1.6|||	31.6		5.0		
+57	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+57	2	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+57	3	fb:cell.4_9	4.9	4.9	4.9	CD	NUMBER	4.9	4.9				
+57	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+58	0	fb:cell.citroen_c3_1_6_5dr_5spd	Citroen C3 1.6 5DR 5SPD	citroen|c3|1.6|5dr|5spd	Citroen|c3|1.6|5dr|5spd	NNP|NN|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	31.65		5.0		
+58	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+58	2	fb:cell.36_2	36.2	36.2	36.2	CD	NUMBER	36.2	36.2				
+58	3	fb:cell.6_5	6.5	6.5	6.5	CD	NUMBER	6.5	6.5				
+58	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+59	0	fb:cell.kia_cerato_1_6_diesel_5m_sedan	Kia Cerato 1.6 DIESEL 5M SEDAN	kia|cerato|1.6|diesel|5m|sedan	Kia|Cerato|1.6|diesel|5m|sedan	NNP|NNP|CD|NN|NN|NN	O|O|NUMBER|O|O|O	||1.6|||	1.6		5.0		
+59	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+59	2	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+59	3	fb:cell.4_9	4.9	4.9	4.9	CD	NUMBER	4.9	4.9				
+59	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+60	0	fb:cell.daihatsu_sirion_1_0_hatch_5mt	Daihatsu Sirion 1.0 HATCH 5MT	daihatsu|sirion|1.0|hatch|5mt	Daihatsu|Sirion|1.0|HATCH|5mt	NNP|NNP|CD|NNP|NN	O|O|NUMBER|O|O	||1.0||	1.0		5.0		
+60	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+60	2	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+60	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+60	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+61	0	fb:cell.daihatsu_sirion_1_3p_hatch_5m	Daihatsu Sirion 1.3P HATCH 5M	daihatsu|sirion|1.3|p|hatch|5m	Daihatsu|Sirion|1.3|p|hatch|5m	NNP|NNP|CD|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||1.3|||	1.3		5.0		
+61	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+61	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+61	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+61	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+62	0	fb:cell.daihatsu_sirion_1_3p_hatch_4a	Daihatsu Sirion 1.3P HATCH 4A	daihatsu|sirion|1.3|p|hatch|4a	Daihatsu|Sirion|1.3|p|hatch|4a	NNP|NNP|CD|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||1.3|||	1.3		4.0		
+62	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+62	2	fb:cell.36_2	36.2	36.2	36.2	CD	NUMBER	36.2	36.2				
+62	3	fb:cell.6_5	6.5	6.5	6.5	CD	NUMBER	6.5	6.5				
+62	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+63	0	fb:cell.daihatsu_sirion_1_5p_sx_hatch_4at	Daihatsu Sirion 1.5P SX HATCH 4AT	daihatsu|sirion|1.5|p|sx|hatch|4at	Daihatsu|Sirion|1.5|p|SX|HATCH|4at	NNP|NNP|CD|NN|NNP|NNP|NN	ORGANIZATION|O|NUMBER|O|O|O|O	||1.5||||	1.5		4.0		
+63	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+63	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+63	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+63	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+64	0	fb:cell.smart_fortwo_cab	Smart Fortwo CAB	smart|fortwo|cab	Smart|Fortwo|CAB	NNP|NNP|NNP	O|O|O	||					
+64	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+64	2	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+64	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+64	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+65	0	fb:cell.smart_fortwo_coupe	Smart Fortwo COUPE	smart|fortwo|coupe	Smart|Fortwo|COUPE	NNP|NNP|NNP	O|O|O	||					
+65	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+65	2	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+65	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+65	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+66	0	fb:cell.toyota_corolla_1_4d_hatch5_5m	Toyota Corolla 1.4D HATCH5 5M	toyota|corolla|1.4|d|hatch5|5m	Toyota|Corolla|1.4|d|hatch5|5m	NNP|NNP|CD|NN|NN|NN	O|O|NUMBER|O|O|O	||1.4|||	1.4		55.0		
+66	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+66	2	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+66	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+66	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+67	0	fb:cell.toyota_corolla_2_0d_hatch5_6m	Toyota Corolla 2.0D HATCH5 6M	toyota|corolla|2.0|d|hatch5|6m	Toyota|Corolla|2.0|d|hatch5|6m	NNP|NNP|CD|NN|NN|NN	O|O|NUMBER|O|O|O	||2.0|||	2.0		56.0		
+67	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+67	2	fb:cell.43_5	43.5	43.5	43.5	CD	NUMBER	43.5	43.5				
+67	3	fb:cell.5_4	5.4	5.4	5.4	CD	NUMBER	5.4	5.4				
+67	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+68	0	fb:cell.toyota_corolla_1_5p_wagon_5dr_5m	Toyota Corolla 1.5P WAGON 5DR 5M	toyota|corolla|1.5|p|wagon|5dr|5m	Toyota|Corolla|1.5|p|wagon|5dr|5m	NNP|NNP|CD|NN|NN|NN|NN	O|O|NUMBER|O|O|O|O	||1.5||||	1.5		5.0		
+68	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+68	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+68	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+68	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+69	0	fb:cell.volkswagen_passat_tdi_bluemotion_sed	Volkswagen Passat TDI BLUEMOTION SED	volkswagen|passat|tdi|bluemotion|sed	Volkswagen|Passat|TDI|BLUEMOTION|sed	NNP|NNP|NNP|NNP|VBD	ORGANIZATION|O|O|O|O	||||					
+69	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+69	2	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+69	3	fb:cell.5_1	5.1	5.1	5.1	CD	NUMBER	5.1	5.1				
+69	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+70	0	fb:cell.volkswagen_passat_tdi_bluemotion_var	Volkswagen Passat TDI BLUEMOTION VAR	volkswagen|passat|tdi|bluemotion|var	Volkswagen|Passat|TDI|BLUEMOTION|var	NNP|NNP|NNP|NNP|NN	ORGANIZATION|O|O|O|O	||||					
+70	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+70	2	fb:cell.44_3	44.3	44.3	44.3	CD	NUMBER	44.3	44.3				
+70	3	fb:cell.5_3	5.3	5.3	5.3	CD	NUMBER	5.3	5.3				
+70	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+71	0	fb:cell.volkswagen_passat_2_0_tdi_dsg_sedan	Volkswagen Passat 2.0 TDI DSG SEDAN	volkswagen|passat|2.0|tdi|dsg|sedan	Volkswagen|Passat|2.0|TDI|DSG|SEDAN	NNP|NNP|CD|NNP|NNP|NNP	ORGANIZATION|O|NUMBER|O|O|O	||2.0|||	2.0				
+71	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+71	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+71	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+71	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+72	0	fb:cell.volkswagen_passat_2_0_tdi_dsg_variant	Volkswagen Passat 2.0 TDI DSG VARIANT	volkswagen|passat|2.0|tdi|dsg|variant	Volkswagen|Passat|2.0|TDI|DSG|VARIANT	NNP|NNP|CD|NNP|NNP|NNP	ORGANIZATION|O|NUMBER|O|O|O	||2.0|||	2.0				
+72	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+72	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+72	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+72	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+73	0	fb:cell.volkswagen_passat_tdi_125kw_6dsg_sed	Volkswagen Passat TDI 125KW 6DSG SED	volkswagen|passat|tdi|125kw|6dsg|sed	Volkswagen|Passat|TDI|125kw|6dsg|sed	NNP|NNP|NNP|NN|NN|NN	ORGANIZATION|O|O|O|O|O	|||||	125.0		6.0		
+73	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+73	2	fb:cell.36_2	36.2	36.2	36.2	CD	NUMBER	36.2	36.2				
+73	3	fb:cell.6_5	6.5	6.5	6.5	CD	NUMBER	6.5	6.5				
+73	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+74	0	fb:cell.volkswagen_passat_tdi_125kw_6dsg_var	Volkswagen Passat TDI 125KW 6DSG VAR	volkswagen|passat|tdi|125kw|6dsg|var	Volkswagen|Passat|TDI|125kw|6dsg|var	NNP|NNP|NNP|NN|NN|NN	ORGANIZATION|O|O|O|O|O	|||||	125.0		6.0		
+74	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+74	2	fb:cell.35_6	35.6	35.6	35.6	CD	NUMBER	35.6	35.6				
+74	3	fb:cell.6_6	6.6	6.6	6.6	CD	NUMBER	6.6	6.6				
+74	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+75	0	fb:cell.volkswagen_passat_tdi_103kw_4m_var	Volkswagen Passat TDI 103KW 4M VAR	volkswagen|passat|tdi|103kw|4m|var	Volkswagen|Passat|TDI|103KW|4m|var	NNP|NNP|NNP|NNP|NN|NN	ORGANIZATION|O|O|O|O|O	|||||	103.0		4.0		
+75	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+75	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+75	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+75	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+76	0	fb:cell.kia_picanto_1_1_manual	Kia Picanto 1.1 MANUAL	kia|picanto|1.1|manual	Kia|Picanto|1.1|MANUAL	NNP|NNP|CD|NNP	O|O|NUMBER|O	||1.1|	1.1				
+76	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+76	2	fb:cell.45_2	45.2	45.2	45.2	CD	NUMBER	45.2	45.2				
+76	3	fb:cell.5_2	5.2	5.2	5.2	CD	NUMBER	5.2	5.2				
+76	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+77	0	fb:cell.kia_picanto_1_1_auto	Kia Picanto 1.1 AUTO	kia|picanto|1.1|auto	Kia|Picanto|1.1|AUTO	NNP|NNP|CD|NNP	O|O|NUMBER|O	||1.1|	1.1				
+77	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+77	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+77	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+77	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+78	0	fb:cell.skoda_octavia_1_9_tdi_man_combi	Skoda Octavia 1.9 TDI MAN COMBI	skoda|octavia|1.9|tdi|man|combi	Skoda|Octavia|1.9|TDI|MAN|COMBI	NNP|NNP|CD|NNP|NNP|NNP	O|O|NUMBER|MISC|MISC|MISC	||1.9|||	1.9				
+78	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+78	2	fb:cell.45_2	45.2	45.2	45.2	CD	NUMBER	45.2	45.2				
+78	3	fb:cell.5_2	5.2	5.2	5.2	CD	NUMBER	5.2	5.2				
+78	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+79	0	fb:cell.skoda_octavia_rs_2_0_tdi_sedan_man	Skoda Octavia RS 2.0 TDI SEDAN MAN	skoda|octavia|rs|2.0|tdi|sedan|man	Skoda|Octavia|r|2.0|TDI|SEDAN|man	NNP|NNP|NN|CD|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|O|NUMBER|O|O|O	|||2.0|||	2.0				
+79	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+79	2	fb:cell.41_2	41.2	41.2	41.2	CD	NUMBER	41.2	41.2				
+79	3	fb:cell.5_7	5.7	5.7	5.7	CD	NUMBER	5.7	5.7				
+79	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+80	0	fb:cell.skoda_octavia_rs_2_0_tdi_combi_man	Skoda Octavia RS 2.0 TDI COMBI MAN	skoda|octavia|rs|2.0|tdi|combi|man	Skoda|Octavia|r|2.0|TDI|COMBI|MAN	NNP|NNP|NN|CD|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|O|NUMBER|MISC|MISC|MISC	|||2.0|||	2.0				
+80	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+80	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+80	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+80	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+81	0	fb:cell.skoda_octavia_1_9_tdi_auto	Skoda Octavia 1.9 TDI AUTO	skoda|octavia|1.9|tdi|auto	Skoda|Octavia|1.9|TDI|AUTO	NNP|NNP|CD|NNP|NNP	O|O|NUMBER|O|O	||1.9||	1.9				
+81	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+81	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+81	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+81	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+82	0	fb:cell.skoda_octavia_1_9_tdi_combi_auto	Skoda Octavia 1.9 TDI COMBI AUTO	skoda|octavia|1.9|tdi|combi|auto	Skoda|Octavia|1.9|TDI|COMBI|AUTO	NNP|NNP|CD|NNP|NNP|NNP	O|O|NUMBER|O|O|O	||1.9|||	1.9				
+82	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+82	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+82	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+82	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+83	0	fb:cell.skoda_octavia_4x4_2_0_tdi_combi_m	Skoda Octavia 4X4 2.0 TDI COMBI M	skoda|octavia|4x4|2.0|tdi|combi|m	Skoda|Octavia|4x4|2.0|TDI|COMBI|m	NNP|NNP|NN|CD|NNP|NNP|NN	O|O|O|NUMBER|O|O|O	|||2.0|||	4.0		42.0		
+83	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+83	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+83	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+83	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+84	0	fb:cell.skoda_octavia_scout_2_0_tdi	Skoda Octavia SCOUT 2.0 TDI	skoda|octavia|scout|2.0|tdi	Skoda|Octavia|SCOUT|2.0|TDI	NNP|NNP|NNP|CD|NNP	O|O|O|NUMBER|O	|||2.0|	2.0				
+84	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+84	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+84	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+84	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+85	0	fb:cell.bmw_118d_hatch_6m_5dr_1_8l	BMW 118D HATCH 6M 5DR 1.8L	bmw|118d|hatch|6m|5dr|1.8|l	BMW|118D|HATCH|6m|5dr|1.8|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||1.8|	118.0		6.0		
+85	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+85	2	fb:cell.44_3	44.3	44.3	44.3	CD	NUMBER	44.3	44.3				
+85	3	fb:cell.5_3	5.3	5.3	5.3	CD	NUMBER	5.3	5.3				
+85	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+86	0	fb:cell.bmw_118d_hatch_6a_5dr_1_8l	BMW 118D HATCH 6A 5DR 1.8L	bmw|118d|hatch|6a|5dr|1.8|l	BMW|118D|HATCH|6a|5dr|1.8|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||1.8|	118.0		6.0		
+86	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+86	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+86	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+86	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+87	0	fb:cell.ford_focus_1_8td_wagon	Ford Focus 1.8TD WAGON	ford|focus|1.8|td|wagon	Ford|Focus|1.8|TD|WAGON	NNP|NNP|CD|NNP|NNP	O|O|NUMBER|O|O	||1.8||	1.8				
+87	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+87	2	fb:cell.44_3	44.3	44.3	44.3	CD	NUMBER	44.3	44.3				
+87	3	fb:cell.5_3	5.3	5.3	5.3	CD	NUMBER	5.3	5.3				
+87	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+88	0	fb:cell.ford_focus_1_6_m_hatch	Ford Focus 1.6 M HATCH	ford|focus|1.6|m|hatch	Ford|Focus|1.6|m|hatch	NNP|NNP|CD|NN|NN	O|O|NUMBER|O|O	||1.6||	1.6				
+88	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+88	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+88	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+88	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+89	0	fb:cell.ford_focus_wag_1_6_man	Ford Focus WAG 1.6 MAN	ford|focus|wag|1.6|man	Ford|Focus|WAG|1.6|man	NNP|NNP|NNP|CD|NN	O|O|O|NUMBER|O	|||1.6|	1.6				
+89	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+89	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+89	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+89	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+90	0	fb:cell.mercedes_benz_a_180_cdi_classic	Mercedes Benz A 180 CDI CLASSIC	mercedes|benz|a|180|cdi|classic	Mercedes|Benz|A|180|CDI|classic	NNP|NNP|NNP|CD|NNP|NN	O|O|O|NUMBER|MISC|MISC	|||180.0||	180.0				
+90	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+90	2	fb:cell.44_3	44.3	44.3	44.3	CD	NUMBER	44.3	44.3				
+90	3	fb:cell.5_3	5.3	5.3	5.3	CD	NUMBER	5.3	5.3				
+90	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+91	0	fb:cell.mercedes_benz_a_180_cdi_elegance	Mercedes Benz A 180 CDI ELEGANCE	mercedes|benz|a|180|cdi|elegance	Mercedes|Benz|A|180|CDI|elegance	NNP|NNP|NNP|CD|NNP|NN	O|O|O|NUMBER|O|O	|||180.0||	180.0				
+91	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+91	2	fb:cell.44_3	44.3	44.3	44.3	CD	NUMBER	44.3	44.3				
+91	3	fb:cell.5_3	5.3	5.3	5.3	CD	NUMBER	5.3	5.3				
+91	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+92	0	fb:cell.mercedes_benz_a_180_cdi_avantgarde	Mercedes Benz A 180 CDI AVANTGARDE	mercedes|benz|a|180|cdi|avantgarde	Mercedes|Benz|A|180|CDI|AVANTGARDE	NNP|NNP|NNP|CD|NNP|NNP	O|O|O|NUMBER|O|O	|||180.0||	180.0				
+92	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+92	2	fb:cell.44_3	44.3	44.3	44.3	CD	NUMBER	44.3	44.3				
+92	3	fb:cell.5_3	5.3	5.3	5.3	CD	NUMBER	5.3	5.3				
+92	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+93	0	fb:cell.mercedes_benz_a_200_cdi_avantgarde	Mercedes Benz A 200 CDI AVANTGARDE	mercedes|benz|a|200|cdi|avantgarde	Mercedes|Benz|A|200|CDI|AVANTGARDE	NNP|NNP|NNP|CD|NNP|NNP	O|O|O|NUMBER|O|O	|||200.0||	200.0				
+93	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+93	2	fb:cell.43_5	43.5	43.5	43.5	CD	NUMBER	43.5	43.5				
+93	3	fb:cell.5_4	5.4	5.4	5.4	CD	NUMBER	5.4	5.4				
+93	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+94	0	fb:cell.skoda_roomster_1_9_tdi_comfort	Skoda Roomster 1.9 TDI COMFORT	skoda|roomster|1.9|tdi|comfort	Skoda|Roomster|1.9|TDI|COMFORT	NNP|NNP|CD|NNP|NNP	O|O|NUMBER|O|O	||1.9||	1.9				
+94	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+94	2	fb:cell.43_5	43.5	43.5	43.5	CD	NUMBER	43.5	43.5				
+94	3	fb:cell.5_4	5.4	5.4	5.4	CD	NUMBER	5.4	5.4				
+94	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+95	0	fb:cell.skoda_roomster_1_9_tdi_style	Skoda Roomster 1.9 TDI STYLE	skoda|roomster|1.9|tdi|style	Skoda|Roomster|1.9|TDI|style	NNP|NNP|CD|NNP|NN	O|O|NUMBER|O|O	||1.9||	1.9				
+95	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+95	2	fb:cell.43_5	43.5	43.5	43.5	CD	NUMBER	43.5	43.5				
+95	3	fb:cell.5_4	5.4	5.4	5.4	CD	NUMBER	5.4	5.4				
+95	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+96	0	fb:cell.audi_a4_2_0_tdi_multi_sedan	Audi A4 2.0 TDI MULTI SEDAN	audi|a4|2.0|tdi|multi|sedan	Audi|a4|2.0|TDI|MULTI|SEDAN	NNP|NN|CD|NNP|NNP|NNP	ORGANIZATION|O|NUMBER|O|O|O	||2.0|||	42.0				
+96	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+96	2	fb:cell.42_7	42.7	42.7	42.7	CD	NUMBER	42.7	42.7				
+96	3	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+96	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+97	0	fb:cell.audi_a4_2_0_tdi_multi	Audi A4 2.0 TDI MULTI	audi|a4|2.0|tdi|multi	Audi|a4|2.0|TDI|MULTI	NNP|NN|CD|NNP|NNP	ORGANIZATION|O|NUMBER|O|O	||2.0||	42.0				
+97	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+97	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+97	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+97	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+98	0	fb:cell.audi_a4_2_0_tdi_multi_avant	Audi A4 2.0 TDI MULTI AVANT	audi|a4|2.0|tdi|multi|avant	Audi|a4|2.0|TDI|MULTI|AVANT	NNP|NN|CD|NNP|NNP|NNP	ORGANIZATION|O|NUMBER|O|O|O	||2.0|||	42.0				
+98	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+98	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+98	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+98	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+99	0	fb:cell.audi_a4_2_7_tdi_multi_sedan	Audi A4 2.7 TDI MULTI SEDAN	audi|a4|2.7|tdi|multi|sedan	Audi|a4|2.7|TDI|MULTI|SEDAN	NNP|NN|CD|NNP|NNP|NNP	ORGANIZATION|O|NUMBER|O|O|O	||2.7|||	42.7				
+99	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+99	2	fb:cell.35_6	35.6	35.6	35.6	CD	NUMBER	35.6	35.6				
+99	3	fb:cell.6_6	6.6	6.6	6.6	CD	NUMBER	6.6	6.6				
+99	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+100	0	fb:cell.bmw_120d_5_door_m_e87	BMW 120D 5 DOOR M E87	bmw|120d|5|door|m|e87	BMW|120d|5|door|m|e87	NNP|NN|CD|NN|NN|NN	O|O|NUMBER|O|O|O	||5.0|||	120.0		5.0		
+100	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+100	2	fb:cell.42_7	42.7	42.7	42.7	CD	NUMBER	42.7	42.7				
+100	3	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+100	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+101	0	fb:cell.bmw_120d_5_door_a_e87	BMW 120D 5 DOOR A E87	bmw|120d|5|door|a|e87	BMW|120d|5|door|a|e87	NNP|NN|CD|NN|DT|NN	O|O|NUMBER|O|O|O	||5.0|||	120.0		5.0		
+101	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+101	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+101	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+101	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+102	0	fb:cell.fiat_bravo_sport_jtd_16v_5dr	Fiat Bravo SPORT JTD 16V 5DR	fiat|bravo|sport|jtd|16v|5dr	Fiat|Bravo|SPORT|JTD|16v|5dr	NNP|NNP|NNP|NNP|NN|NN	O|O|O|O|O|O	|||||	16.0		5.0		
+102	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+102	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+102	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+102	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+103	0	fb:cell.mitsubishi_colt_1_5p_ls_5dr_hatch_a	Mitsubishi Colt 1.5P LS 5DR HATCH A	mitsubishi|colt|1.5|p|ls|5dr|hatch|a	Mitsubishi|Colt|1.5|p|l|5dr|hatch|a	NNP|NNP|CD|NN|NN|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O|O|O	||1.5|||||	1.5		5.0		
+103	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+103	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+103	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+103	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+104	0	fb:cell.mitsubishi_colt_1_5p_vrx_5dr_hatch	Mitsubishi Colt 1.5P VRX 5DR HATCH	mitsubishi|colt|1.5|p|vrx|5dr|hatch	Mitsubishi|Colt|1.5|p|vrx|5dr|hatch	NNP|NNP|CD|NN|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O|O	||1.5||||	1.5		5.0		
+104	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+104	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+104	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+104	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+105	0	fb:cell.mitsubishi_colt_1_5p_vrx_5dr_hatch_a	Mitsubishi Colt 1.5P VRX 5DR HATCH A	mitsubishi|colt|1.5|p|vrx|5dr|hatch|a	Mitsubishi|Colt|1.5|p|vrx|5dr|hatch|a	NNP|NNP|CD|NN|NN|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O|O|O	||1.5|||||	1.5		5.0		
+105	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+105	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+105	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+105	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+106	0	fb:cell.mitsubishi_colt_1_5p_vrx_5dr_hatcha	Mitsubishi Colt 1.5P VRX 5DR HATCHA	mitsubishi|colt|1.5|p|vrx|5dr|hatcha	Mitsubishi|Colt|1.5|p|vrx|5dr|hatcha	NNP|NNP|CD|NN|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O|O	||1.5||||	1.5		5.0		
+106	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+106	2	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+106	3	fb:cell.5_6	5.6	5.6	5.6	CD	NUMBER	5.6	5.6				
+106	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+107	0	fb:cell.mitsubishi_colt_1_5p_ls_5dr_hatch_m	Mitsubishi Colt 1.5P LS 5DR HATCH M	mitsubishi|colt|1.5|p|ls|5dr|hatch|m	Mitsubishi|Colt|1.5|p|l|5dr|hatch|m	NNP|NNP|CD|NN|NN|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O|O|O	||1.5|||||	1.5		5.0		
+107	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+107	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+107	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+107	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+108	0	fb:cell.bmw_520d_sedan_6a_4dr_2_0l	BMW 520D SEDAN 6A 4DR 2.0L	bmw|520d|sedan|6a|4dr|2.0|l	BMW|520D|SEDAN|6a|4dr|2.0|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||2.0|	520.0		6.0		
+108	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+108	2	fb:cell.41_2	41.2	41.2	41.2	CD	NUMBER	41.2	41.2				
+108	3	fb:cell.5_7	5.7	5.7	5.7	CD	NUMBER	5.7	5.7				
+108	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+109	0	fb:cell.holden_astra_my8_5_cdti_wagon_man	Holden Astra MY8.5 CDTI WAGON MAN	holden|astra|my8|.5|cdti|wagon|man	Holden|Astra|my8|.5|CDTI|WAGON|man	NNP|NNP|NN|CD|NNP|NNP|NN	PERSON|O|O|NUMBER|O|O|O	|||0.5|||	8.5				
+109	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+109	2	fb:cell.41_2	41.2	41.2	41.2	CD	NUMBER	41.2	41.2				
+109	3	fb:cell.5_7	5.7	5.7	5.7	CD	NUMBER	5.7	5.7				
+109	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+110	0	fb:cell.holden_astra_my8_5_cdti_hatch_man	Holden Astra MY8.5 CDTI HATCH MAN	holden|astra|my8|.5|cdti|hatch|man	Holden|Astra|my8|.5|CDTI|HATCH|man	NNP|NNP|NN|CD|NNP|NNP|NN	PERSON|O|O|NUMBER|O|O|O	|||0.5|||	8.5				
+110	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+110	2	fb:cell.41_2	41.2	41.2	41.2	CD	NUMBER	41.2	41.2				
+110	3	fb:cell.5_7	5.7	5.7	5.7	CD	NUMBER	5.7	5.7				
+110	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+111	0	fb:cell.holden_astra_cdti_5dr_hatch_mt	Holden Astra CDTI 5DR HATCH MT	holden|astra|cdti|5dr|hatch|mt	Holden|Astra|CDTI|5dr|HATCH|MT	NNP|NNP|NNP|NN|NNP|NNP	PERSON|O|O|O|O|O	|||||	5.0				
+111	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+111	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+111	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+111	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+112	0	fb:cell.holden_astra_cdti_5dr_man	Holden Astra CDTI 5DR MAN	holden|astra|cdti|5dr|man	Holden|Astra|CDTI|5dr|man	NNP|NNP|NNP|NN|NN	PERSON|O|O|O|O	||||	5.0				
+112	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+112	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+112	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+112	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+113	0	fb:cell.mini_one_hatch_6m_2dr_1_4i	Mini One HATCH 6M 2DR 1.4I	mini|one|hatch|6m|2dr|1.4|i	Mini|one|HATCH|6m|2dr|1.4|I	NNP|CD|NNP|NN|NN|CD|PRP	O|NUMBER|O|O|O|NUMBER|O	|1.0||||1.4|	6.0		2.0		
+113	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+113	2	fb:cell.41_2	41.2	41.2	41.2	CD	NUMBER	41.2	41.2				
+113	3	fb:cell.5_7	5.7	5.7	5.7	CD	NUMBER	5.7	5.7				
+113	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+114	0	fb:cell.mini_one_hatch_6a_2dr_1_4i	Mini One HATCH 6A 2DR 1.4I	mini|one|hatch|6a|2dr|1.4|i	Mini|one|HATCH|6a|2dr|1.4|I	NNP|CD|NNP|NN|NN|CD|PRP	O|NUMBER|O|O|O|NUMBER|O	|1.0||||1.4|	6.0		2.0		
+114	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+114	2	fb:cell.35_6	35.6	35.6	35.6	CD	NUMBER	35.6	35.6				
+114	3	fb:cell.6_6	6.6	6.6	6.6	CD	NUMBER	6.6	6.6				
+114	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+115	0	fb:cell.subaru_legacy_wagon_2_0_td_manual	Subaru Legacy WAGON 2.0 TD MANUAL	subaru|legacy|wagon|2.0|td|manual	Subaru|Legacy|WAGON|2.0|TD|MANUAL	NNP|NNP|NNP|CD|NNP|NNP	O|O|O|NUMBER|O|O	|||2.0||	2.0				
+115	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+115	2	fb:cell.41_2	41.2	41.2	41.2	CD	NUMBER	41.2	41.2				
+115	3	fb:cell.5_7	5.7	5.7	5.7	CD	NUMBER	5.7	5.7				
+115	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+116	0	fb:cell.audi_a3_2_0_tdi_s_tronic	Audi A3 2.0 TDI S TRONIC	audi|a3|2.0|tdi|s|tronic	Audi|A3|2.0|TDI|s|tronic	NNP|NNP|CD|NNP|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||2.0|||	32.0				
+116	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+116	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+116	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+116	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+117	0	fb:cell.audi_a3_sportback_1_4t_fsi	Audi A3 SPORTBACK 1.4T FSI	audi|a3|sportback|1.4|t|fsi	Audi|A3|SPORTBACK|1.4|t|fsus	NNP|NNP|NNP|CD|NN|NN	ORGANIZATION|O|O|NUMBER|O|O	|||1.4||	3.0		1.4		
+117	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+117	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+117	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+117	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+118	0	fb:cell.audi_a3_2_0_tdi_sp_a_tronic	Audi A3 2.0 TDI SP A TRONIC	audi|a3|2.0|tdi|sp|a|tronic	Audi|A3|2.0|TDI|sp|a|tronic	NNP|NNP|CD|NNP|NN|DT|NN	ORGANIZATION|O|NUMBER|O|O|O|O	||2.0||||	32.0				
+118	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+118	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+118	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+118	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+119	0	fb:cell.subaru_outback_wagon_2_0_td_manual	Subaru Outback WAGON 2.0 TD MANUAL	subaru|outback|wagon|2.0|td|manual	Subaru|Outback|WAGON|2.0|TD|MANUAL	NNP|NNP|NNP|CD|NNP|NNP	O|O|O|NUMBER|O|O	|||2.0||	2.0				
+119	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+119	2	fb:cell.40_5	40.5	40.5	40.5	CD	NUMBER	40.5	40.5				
+119	3	fb:cell.5_8	5.8	5.8	5.8	CD	NUMBER	5.8	5.8				
+119	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+120	0	fb:cell.bmw_123d_coupe_6m_3dr_2_0l	BMW 123D COUPE 6M 3DR 2.0L	bmw|123d|coupe|6m|3dr|2.0|l	BMW|123D|COUPE|6m|3dr|2.0|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||2.0|	123.0		6.0		
+120	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+120	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+120	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+120	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+121	0	fb:cell.bmw_123d_saloon_6m_5dr_2_3l	BMW 123D Saloon 6M 5DR 2.3L	bmw|123d|saloon|6m|5dr|2.3|l	BMW|123D|Saloon|6M|5dr|2.3|l	NNP|NNP|NNP|NNP|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||2.3|	123.0		6.0		
+121	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+121	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+121	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+121	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+122	0	fb:cell.bmw_123d_hatch_6m_5dr_2_3l	BMW 123D HATCH 6M 5DR 2.3L	bmw|123d|hatch|6m|5dr|2.3|l	BMW|123D|HATCH|6m|5dr|2.3|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||2.3|	123.0		6.0		
+122	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+122	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+122	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+122	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+123	0	fb:cell.bmw_123d_2_3l_6a_3dr_coupe	BMW 123D 2.3L 6A 3DR COUPE	bmw|123d|2.3|l|6a|3dr|coupe	BMW|123d|2.3|l|6a|3dr|coupe	NNP|NN|CD|NN|NN|NN|NN	O|O|NUMBER|O|O|O|O	||2.3||||	123.0		2.3		
+123	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+123	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+123	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+123	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+124	0	fb:cell.daihatsu_charade_1_0p_hatch5_4a	Daihatsu Charade 1.0P HATCH5 4A	daihatsu|charade|1.0|p|hatch5|4a	Daihatsu|Charade|1.0|p|hatch5|4a	NNP|NNP|CD|NN|NN|NN	ORGANIZATION|O|NUMBER|O|O|O	||1.0|||	1.0		54.0		
+124	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+124	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+124	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+124	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+125	0	fb:cell.saab_9_3_linear_spcombi1_9mt	Saab 9-3 Linear SPCOMBI1.9MT	saab|9-3|linear|spcombi1|.9|mt	Saab|9-3|linear|spcombi1|.9|mt	NNP|CD|JJ|NN|CD|NN	ORGANIZATION|NUMBER|O|O|NUMBER|O	|9.0 - 3.0|||0.9|	9.0		3.0		
+125	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+125	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+125	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+125	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+126	0	fb:cell.saab_9_3_linear_convertible_1_9tid_m	Saab 9-3 Linear CONVERTIBLE 1.9TID M	saab|9-3|linear|convertible|1.9|tid|m	Saab|9-3|linear|convertible|1.9|tid|m	NNP|CD|JJ|NN|CD|NN|NN	ORGANIZATION|NUMBER|O|O|NUMBER|O|O	|9.0 - 3.0|||1.9||	9.0		3.0		
+126	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+126	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+126	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+126	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+127	0	fb:cell.volkswagen_caddy_delivery_1_9tdi_dsg	Volkswagen Caddy DELIVERY 1.9TDI DSG	volkswagen|caddy|delivery|1.9|tdi|dsg	Volkswagen|Caddy|DELIVERY|1.9|TDI|DSG	NNP|NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|O|NUMBER|O|O	|||1.9||	1.9				
+127	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+127	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+127	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+127	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+128	0	fb:cell.volkswagen_caddy_delivery_1_9tdi_man	Volkswagen Caddy DELIVERY 1.9TDI MAN	volkswagen|caddy|delivery|1.9|tdi|man	Volkswagen|Caddy|DELIVERY|1.9|TDI|man	NNP|NNP|NNP|CD|NNP|NN	ORGANIZATION|O|O|NUMBER|O|O	|||1.9||	1.9				
+128	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+128	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+128	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+128	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+129	0	fb:cell.volkswagen_caddy_life_1_9_tdi_dsg	Volkswagen Caddy LIFE 1.9 TDI DSG	volkswagen|caddy|life|1.9|tdi|dsg	Volkswagen|Caddy|LIFE|1.9|TDI|DSG	NNP|NNP|NNP|CD|NNP|NNP	ORGANIZATION|O|O|NUMBER|O|O	|||1.9||	1.9				
+129	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+129	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+129	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+129	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+130	0	fb:cell.volkswagen_caddy_life_1_9_tdi_man	Volkswagen Caddy LIFE 1.9 TDI MAN	volkswagen|caddy|life|1.9|tdi|man	Volkswagen|Caddy|LIFE|1.9|TDI|man	NNP|NNP|NNP|CD|NNP|NN	ORGANIZATION|O|O|NUMBER|O|O	|||1.9||	1.9				
+130	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+130	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+130	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+130	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+131	0	fb:cell.alfa_romeo_147_1_9_jtd_16v_5dr_6_sp	Alfa Romeo 147 1.9 JTD 16V 5DR 6 SP	alfa|romeo|147|1.9|jtd|16v|5dr|6|sp	Alfa|Romeo|147|1.9|jtd|16v|5dr|6|sp	NNP|NNP|CD|CD|NN|NN|NN|CD|NN	PERSON|PERSON|NUMBER|NUMBER|O|O|O|NUMBER|O	||147.0|147.0||||6.0|	1471.9		16.0		
+131	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+131	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+131	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+131	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+132	0	fb:cell.alfa_romeo_159_1_9_jtd_4d_6sp_sedan	Alfa Romeo 159 1.9 JTD 4D 6SP SEDAN	alfa|romeo|159|1.9|jtd|4d|6sp|sedan	Alfa|Romeo|159|1.9|jtd|4d|6sp|sedan	NNP|NNP|CD|CD|NN|NN|NN|NN	PERSON|PERSON|NUMBER|NUMBER|O|O|O|O	||159.0|159.0||||	1591.9		4.0		
+132	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+132	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+132	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+132	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+133	0	fb:cell.alfa_romeo_159_2_4_jtd_4d_6sp_sedan	Alfa Romeo 159 2.4 JTD 4D 6SP SEDAN	alfa|romeo|159|2.4|jtd|4d|6sp|sedan	Alfa|Romeo|159|2.4|jtd|4d|6sp|sedan	NNP|NNP|CD|CD|NN|NN|NN|NN	PERSON|PERSON|NUMBER|NUMBER|O|O|O|O	||159.0|159.0||||	1592.4		4.0		
+133	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+133	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+133	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+133	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+134	0	fb:cell.bmw_320d_sedan_6a_4dr_2_0l	BMW 320D SEDAN 6A 4DR 2.0L	bmw|320d|sedan|6a|4dr|2.0|l	BMW|320D|SEDAN|6a|4dr|2.0|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||2.0|	320.0		6.0		
+134	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+134	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+134	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+134	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+135	0	fb:cell.bmw_320d_touring_6a_5dr_2_0l	BMW 320D TOURING 6A 5DR 2.0L	bmw|320d|touring|6a|5dr|2.0|l	BMW|320D|TOURING|6a|5dr|2.0|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||2.0|	320.0		6.0		
+135	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+135	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+135	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+135	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+136	0	fb:cell.daihatsu_copen_1_3p_coupe_conv_5m	Daihatsu Copen 1.3P COUPE CONV 5M	daihatsu|copen|1.3|p|coupe|conv|5m	Daihatsu|Copen|1.3|p|coupe|conv|5m	NNP|NNP|CD|NN|NN|NN|NN	PERSON|PERSON|NUMBER|O|O|O|O	||1.3||||	1.3		5.0		
+136	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+136	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+136	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+136	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+137	0	fb:cell.hyundai_sonata_2_0_crdi_m6	Hyundai Sonata 2.0 CRDI M6	hyundai|sonata|2.0|crdi|m6	Hyundai|Sonata|2.0|CRDI|m6	NNP|NNP|CD|NNP|NN	ORGANIZATION|O|NUMBER|O|O	||2.0||	2.0		6.0		
+137	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+137	2	fb:cell.39_2	39.2	39.2	39.2	CD	NUMBER	39.2	39.2				
+137	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+137	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+138	0	fb:cell.dodge_caliber_sxt_crd	Dodge Caliber SXT CRD	dodge|caliber|sxt|crd	Dodge|Caliber|SXT|CRD	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+138	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+138	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+138	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+138	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+139	0	fb:cell.honda_jazz_sport	Honda Jazz SPORT	honda|jazz|sport	Honda|jazz|sport	NNP|NN|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+139	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+139	2	fb:cell.38_5	38.5	38.5	38.5	CD	NUMBER	38.5	38.5				
+139	3	fb:cell.6_1	6.1	6.1	6.1	CD	NUMBER	6.1	6.1				
+139	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+140	0	fb:cell.holden_combo_xc_1_4_manual	Holden Combo XC 1.4 MANUAL	holden|combo|xc|1.4|manual	Holden|Combo|XC|1.4|MANUAL	NNP|NNP|NNP|CD|NNP	PERSON|O|O|NUMBER|O	|||1.4|	1.4				
+140	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+140	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+140	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+140	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+141	0	fb:cell.mercedes_benz_b_200_cdi	Mercedes Benz B 200 CDI	mercedes|benz|b|200|cdi	Mercedes|Benz|B|200|CDI	NNP|NNP|NNP|CD|NNP	O|O|O|NUMBER|O	|||200.0|	200.0				
+141	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+141	2	fb:cell.37_9	37.9	37.9	37.9	CD	NUMBER	37.9	37.9				
+141	3	fb:cell.6_2	6.2	6.2	6.2	CD	NUMBER	6.2	6.2				
+141	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+142	0	fb:cell.suzuki_swift_glx_1_5_5dr	Suzuki Swift GLX 1.5 5DR	suzuki|swift|glx|1.5|5dr	Suzuki|Swift|GLX|1.5|5dr	NNP|NNP|NNP|CD|NN	PERSON|PERSON|O|NUMBER|O	|||1.5|	1.55				
+142	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+142	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+142	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+142	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+143	0	fb:cell.suzuki_swift_glxh_1_5_5dr	Suzuki Swift GLXH 1.5 5DR	suzuki|swift|glxh|1.5|5dr	Suzuki|Swift|GLXH|1.5|5dr	NNP|NNP|NNP|CD|NN	PERSON|PERSON|O|NUMBER|O	|||1.5|	1.55				
+143	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+143	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+143	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+143	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+144	0	fb:cell.suzuki_swift_glxh2_1_5_5dr	Suzuki Swift GLXH2 1.5 5DR	suzuki|swift|glxh2|1.5|5dr	Suzuki|Swift|glxh2|1.5|5dr	NNP|NNP|NN|CD|NN	PERSON|PERSON|O|NUMBER|O	|||1.5|	21.55				
+144	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+144	2	fb:cell.37_3	37.3	37.3	37.3	CD	NUMBER	37.3	37.3				
+144	3	fb:cell.6_3	6.3	6.3	6.3	CD	NUMBER	6.3	6.3				
+144	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+145	0	fb:cell.suzuki_swift_glxa_1_5_5dr	Suzuki Swift GLXA 1.5 5DR	suzuki|swift|glxa|1.5|5dr	Suzuki|Swift|GLXA|1.5|5dr	NNP|NNP|NNP|CD|NN	PERSON|PERSON|O|NUMBER|O	|||1.5|	1.55				
+145	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+145	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+145	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+145	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+146	0	fb:cell.suzuki_swift_glxha_1_5_5dr	Suzuki Swift GLXHA 1.5 5DR	suzuki|swift|glxha|1.5|5dr	Suzuki|Swift|GLXHA|1.5|5dr	NNP|NNP|NNP|CD|NN	PERSON|PERSON|O|NUMBER|O	|||1.5|	1.55				
+146	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+146	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+146	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+146	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+147	0	fb:cell.suzuki_swift_glxha2_1_5_5dr	Suzuki Swift GLXHA2 1.5 5DR	suzuki|swift|glxha2|1.5|5dr	Suzuki|Swift|glxha2|1.5|5dr	NNP|NNP|NN|CD|NN	PERSON|PERSON|O|NUMBER|O	|||1.5|	21.55				
+147	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+147	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+147	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+147	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+148	0	fb:cell.fiat_multipla_dynamic_1_9_jtd_5d	Fiat Multipla DYNAMIC 1.9 JTD 5D	fiat|multipla|dynamic|1.9|jtd|5d	Fiat|Multipla|DYNAMIC|1.9|jtd|5d	NNP|NNP|NNP|CD|NN|NN	O|O|O|NUMBER|O|O	|||1.9||	1.9		5.0		
+148	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+148	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+148	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+148	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+149	0	fb:cell.mazda_mazda2_classic_5dr_1_5_m5	Mazda Mazda2 CLASSIC 5DR 1.5 M5	mazda|mazda2|classic|5dr|1.5|m5	Mazda|Mazda2|CLASSIC|5dr|1.5|m5	NNP|NNP|NNP|NN|CD|NN	ORGANIZATION|O|O|O|NUMBER|O	||||1.5|	2.0		5.0		
+149	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+149	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+149	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+149	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+150	0	fb:cell.mazda_mazda2_sport_5_dr_1_5_m_5	Mazda Mazda2 SPORT 5 DR 1.5 M 5	mazda|mazda2|sport|5|dr|1.5|m|5	Mazda|Mazda2|SPORT|5|dr|1.5|m|5	NNP|NNP|NNP|CD|NN|CD|NN|CD	ORGANIZATION|O|O|NUMBER|O|NUMBER|O|NUMBER	|||5.0||1.5||5.0	2.0		5.0		
+150	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+150	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+150	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+150	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+151	0	fb:cell.mazda_mazda2_sport_5_dr_1_5_4at	Mazda Mazda2 SPORT 5 DR 1.5 4AT	mazda|mazda2|sport|5|dr|1.5|4at	Mazda|Mazda2|SPORT|5|dr|1.5|4at	NNP|NNP|NNP|CD|NN|CD|NN	ORGANIZATION|O|O|NUMBER|O|NUMBER|O	|||5.0||1.5|	2.0		5.0		
+151	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+151	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+151	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+151	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+152	0	fb:cell.mazda_mazda2_classic_5dr_1_5_4at	Mazda Mazda2 CLASSIC 5DR 1.5 4AT	mazda|mazda2|classic|5dr|1.5|4at	Mazda|Mazda2|CLASSIC|5dr|1.5|4at	NNP|NNP|NNP|NN|CD|NN	ORGANIZATION|O|O|O|NUMBER|O	||||1.5|	2.0		5.0		
+152	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+152	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+152	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+152	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+153	0	fb:cell.mitsubishi_colt_plus_1_5p_ralliart_turbo	Mitsubishi Colt Plus 1.5P RALLIART TURBO	mitsubishi|colt|plus|1.5|p|ralliart|turbo	Mitsubishi|Colt|Plus|1.5|p|RALLIART|TURBO	NNP|NNP|NNP|CD|NN|NNP|NNP	ORGANIZATION|O|O|NUMBER|O|O|O	|||1.5|||	1.5				
+153	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+153	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+153	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+153	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+154	0	fb:cell.peugeot_307_xs_1_6_5dr_4spd_a_p	Peugeot 307 XS 1.6 5DR 4SPD A P	peugeot|307|xs|1.6|5dr|4spd|a|p	Peugeot|307|x|1.6|5dr|4spd|a|p	NNP|CD|NN|CD|NN|NN|DT|NN	O|NUMBER|O|NUMBER|O|O|O|O	|307.0||1.6||||	307.0		1.65		
+154	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+154	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+154	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+154	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+155	0	fb:cell.peugeot_307_xsp_2_0_5dr_5spd_m_p	Peugeot 307 XSP 2.0 5DR 5SPD M P	peugeot|307|xsp|2.0|5dr|5spd|m|p	Peugeot|307|xsp|2.0|5dr|5spd|m|p	NNP|CD|NN|CD|NN|NN|NN|NN	ORGANIZATION|NUMBER|O|NUMBER|O|O|O|O	|307.0||2.0||||	307.0		2.05		
+155	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+155	2	fb:cell.36_2	36.2	36.2	36.2	CD	NUMBER	36.2	36.2				
+155	3	fb:cell.6_5	6.5	6.5	6.5	CD	NUMBER	6.5	6.5				
+155	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+156	0	fb:cell.peugeot_307_hdi_2_0_5dr_6spd_a_d	Peugeot 307 HDI 2.0 5DR 6SPD A D	peugeot|307|hdi|2.0|5dr|6spd|a|d	Peugeot|307|hdus|2.0|5dr|6spd|a|d	NNP|CD|NN|CD|NN|NN|NN|NN	ORGANIZATION|NUMBER|O|NUMBER|O|O|O|O	|307.0||2.0||||	307.0		2.05		
+156	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+156	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+156	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+156	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+157	0	fb:cell.peugeot_307_hdi_2_0_5dr_6spd_m_d	Peugeot 307 HDI 2.0 5DR 6SPD M D	peugeot|307|hdi|2.0|5dr|6spd|m|d	Peugeot|307|hdus|2.0|5dr|6spd|m|d	NNP|CD|NN|CD|NN|CD|NN|NN	ORGANIZATION|NUMBER|O|NUMBER|O|NUMBER|O|O	|307.0||2.0||6.0||	307.0		2.05		
+157	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+157	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+157	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+157	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+158	0	fb:cell.peugeot_607_hdi_2_2_5dr_6spm_p	Peugeot 607 HDI 2.2 5DR 6SPM P	peugeot|607|hdi|2.2|5dr|6spm|p	Peugeot|607|hdus|2.2|5dr|6spm|p	NNP|CD|NN|CD|NN|NN|NN	ORGANIZATION|NUMBER|O|NUMBER|O|O|O	|607.0||2.2|||	607.0		2.25		
+158	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+158	2	fb:cell.36_7	36.7	36.7	36.7	CD	NUMBER	36.7	36.7				
+158	3	fb:cell.6_4	6.4	6.4	6.4	CD	NUMBER	6.4	6.4				
+158	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+159	0	fb:cell.bmw_330d_sedan_6m_4dr_3_0l	BMW 330D SEDAN 6M 4DR 3.0L	bmw|330d|sedan|6m|4dr|3.0|l	BMW|330D|SEDAN|6m|4dr|3.0|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||3.0|	330.0		6.0		
+159	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+159	2	fb:cell.36_2	36.2	36.2	36.2	CD	NUMBER	36.2	36.2				
+159	3	fb:cell.6_5	6.5	6.5	6.5	CD	NUMBER	6.5	6.5				
+159	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+160	0	fb:cell.jeep_compass_ltd_2_0l_crd	Jeep Compass LTD 2.0L CRD	jeep|compass|ltd|2.0|l|crd	Jeep|Compass|ltd|2.0|l|crd	NNP|NNP|NN|CD|NN|NN	O|O|O|NUMBER|O|O	|||2.0||	2.0				
+160	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+160	2	fb:cell.36_2	36.2	36.2	36.2	CD	NUMBER	36.2	36.2				
+160	3	fb:cell.6_5	6.5	6.5	6.5	CD	NUMBER	6.5	6.5				
+160	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+161	0	fb:cell.ford_fiesta_5dr_1_6_m	Ford Fiesta 5DR 1.6 M	ford|fiesta|5dr|1.6|m	Ford|Fiesta|5dr|1.6|m	NNP|NNP|NN|CD|NN	O|O|O|NUMBER|O	|||1.6|	5.0		1.6		
+161	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+161	2	fb:cell.35_6	35.6	35.6	35.6	CD	NUMBER	35.6	35.6				
+161	3	fb:cell.6_6	6.6	6.6	6.6	CD	NUMBER	6.6	6.6				
+161	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+162	0	fb:cell.mitsubishi_i_car_660p_5dr_a	Mitsubishi I-car 660P 5DR A	mitsubishi|i|car|660p|5dr|a	Mitsubishi|I|car|660p|5dr|a	NNP|PRP|NN|NN|NN|NN	O|O|O|O|O|O	|||||	660.0		5.0		
+162	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+162	2	fb:cell.39_8	39.8	39.8	39.8	CD	NUMBER	39.8	39.8				
+162	3	fb:cell.5_9	5.9	5.9	5.9	CD	NUMBER	5.9	5.9				
+162	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+163	0	fb:cell.toyota_rav4_2_2d_wagon_6m_l1	Toyota RAV4 2.2D WAGON 6M L1	toyota|rav4|2.2|d|wagon|6m|l1	Toyota|rav4|2.2|d|wagon|6m|l1	NNP|NN|CD|NN|NN|NN|NN	O|O|NUMBER|O|O|O|O	||2.2||||	42.2		6.0		
+163	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+163	2	fb:cell.35_6	35.6	35.6	35.6	CD	NUMBER	35.6	35.6				
+163	3	fb:cell.6_6	6.6	6.6	6.6	CD	NUMBER	6.6	6.6				
+163	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+164	0	fb:cell.bmw_118i_5_door_m_e87	BMW 118I 5 DOOR M E87	bmw|118i|5|door|m|e87	BMW|118I|5|door|m|e87	NNP|NNP|CD|NN|NN|NN	O|O|NUMBER|O|O|O	||5.0|||	118.0		5.0		
+164	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+164	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+164	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+164	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+165	0	fb:cell.jeep_patriot_2_0l_crd_high_line	Jeep Patriot 2.0L CRD HIGH LINE	jeep|patriot|2.0|l|crd|high|line	Jeep|Patriot|2.0|l|CRD|HIGH|LINE	NNP|NNP|CD|NN|NNP|NNP|NNP	O|O|NUMBER|O|O|O|O	||2.0||||	2.0				
+165	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+165	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+165	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+165	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+166	0	fb:cell.renault_clio_1_6_3dr_4sp_a_p	Renault Clio 1.6 3DR 4SP A P	renault|clio|1.6|3dr|4sp|a|p	Renault|Clio|1.6|3dr|4sp|a|p	NNP|NNP|CD|NN|NN|DT|NN	O|O|NUMBER|O|O|O|O	||1.6||||	1.63		4.0		
+166	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+166	2	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+166	3	fb:cell.6_7	6.7	6.7	6.7	CD	NUMBER	6.7	6.7				
+166	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+167	0	fb:cell.alfa_romeo_brera_2_4_jtd_3d_6_speed	Alfa Romeo Brera 2.4 JTD 3D 6 SPEED	alfa|romeo|brera|2.4|jtd|3d|6|speed	Alfa|Romeo|Brera|2.4|jtd|3d|6|speed	NNP|NNP|NNP|CD|NN|NN|CD|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|NUMBER|O|O|NUMBER|O	|||2.4|||6.0|	2.4		3.0		
+167	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+167	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+167	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+167	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+168	0	fb:cell.audi_a6_2_7_tdi_quattro_tip	Audi A6 2.7 TDI QUATTRO TIP	audi|a6|2.7|tdi|quattro|tip	Audi|A6|2.7|TDI|QUATTRO|tip	NNP|NNP|CD|NNP|NNP|NN	ORGANIZATION|O|NUMBER|O|O|O	||2.7|||	62.7				
+168	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+168	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+168	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+168	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+169	0	fb:cell.bmw_535d_sedan_6a_4d_3_0l	BMW 535D SEDAN 6A 4D 3.0L	bmw|535d|sedan|6a|4d|3.0|l	BMW|535D|SEDAN|6a|4d|3.0|l	NNP|NNP|NNP|NN|NN|CD|NN	O|O|O|O|O|NUMBER|O	|||||3.0|	535.0		6.0		
+169	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+169	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+169	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+169	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+170	0	fb:cell.suzuki_sx4_glxf_1_6_5dr	Suzuki SX4 GLXF 1.6 5DR	suzuki|sx4|glxf|1.6|5dr	Suzuki|sx4|glxf|1.6|5dr	NNP|NN|NN|CD|NN	PERSON|O|O|NUMBER|O	|||1.6|	4.0		1.65		
+170	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+170	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+170	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+170	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+171	0	fb:cell.suzuki_sx4_glxh2_1_6_5dr	Suzuki SX4 GLXH2 1.6 5DR	suzuki|sx4|glxh2|1.6|5dr	Suzuki|sx4|glxh2|1.6|5dr	NNP|NN|NN|CD|NN	PERSON|O|O|NUMBER|O	|||1.6|	4.0		21.65		
+171	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+171	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+171	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+171	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+172	0	fb:cell.volkswagen_crosstouran_103kw_tdi_6dsg	Volkswagen Crosstouran 103KW TDI 6DSG	volkswagen|crosstouran|103kw|tdi|6dsg	Volkswagen|Crosstouran|103KW|TDI|6dsg	NNP|NNP|NNP|NNP|NN	ORGANIZATION|O|O|O|O	||||	103.0		6.0		
+172	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+172	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+172	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+172	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+173	0	fb:cell.volkswagen_touran_103kw_tdi_6dsg	Volkswagen Touran 103KW TDI 6DSG	volkswagen|touran|103kw|tdi|6dsg	Volkswagen|Touran|103KW|TDI|6dsg	NNP|NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|O|O|O	||||	103.0		6.0		
+173	1	fb:cell.diesel	diesel	diesel	diesel	NN	O						
+173	2	fb:cell.34_6	34.6	34.6	34.6	CD	NUMBER	34.6	34.6				
+173	3	fb:cell.6_8	6.8	6.8	6.8	CD	NUMBER	6.8	6.8				
+173	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+174	0	fb:cell.holden_barina_3dr_hatch_manual	Holden Barina 3DR HATCH MANUAL	holden|barina|3dr|hatch|manual	Holden|Barina|3DR|HATCH|MANUAL	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|O|O|O	||||	3.0				
+174	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+174	2	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+174	3	fb:cell.6_9	6.9	6.9	6.9	CD	NUMBER	6.9	6.9				
+174	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				
+175	0	fb:cell.holden_barina_5dr_hatch_manual	Holden Barina 5DR HATCH MANUAL	holden|barina|5dr|hatch|manual	Holden|Barina|5dr|HATCH|MANUAL	NNP|NNP|NN|NNP|NNP	PERSON|PERSON|O|O|O	||||	5.0				
+175	1	fb:cell.petrol	petrol	petrol	petrol	NN	O						
+175	2	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+175	3	fb:cell.6_9	6.9	6.9	6.9	CD	NUMBER	6.9	6.9				
+175	4	fb:cell.4_5	4.5	4.5	4.5	CD	NUMBER	4.5	4.5				

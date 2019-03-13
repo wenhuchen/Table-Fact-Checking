@@ -1,0 +1,225 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.iec_world_plugs_type1	IEC\nWorld Plugs\nType1	iec|world|plugs|type1	IEC|World|Plugs|type1	NNP|NNP|NNP|NN	O|O|O|O	|||					
+-1	1	fb:row.row.standard	Standard	standard	Standard	NNP	O						
+-1	2	fb:row.row.power_rating	Power\nrating	power|rating	Power|rating	NNP|NN	O|O	|					
+-1	3	fb:row.row.earthed	Earthed	earthed	earth	VBN	O						
+-1	4	fb:row.row.polarised	Polarised	polarised	polarise	VBN	O						
+-1	5	fb:row.row.fused	Fused	fused	fuse	VBN	O						
+-1	6	fb:row.row.insulated_pins	Insulated\npins	insulated|pins	insulate|pin	VBN|NNS	O|O	|					
+-1	7	fb:row.row.europlug_compatible	Europlug\nCompatible	europlug|compatible	Europlug|Compatible	NNP|NNP	O|O	|					
+0	0	fb:cell.a	A	a	a	DT	O						
+0	1	fb:cell.nema_1_15_unpolarised	NEMA 1-15 unpolarised	nema|1-15|unpolarised	nema|1-15|unpolarised	NN|CD|JJ	O|NUMBER|O	|1.0 - 15.0|	1.0		15.0	NEMA 1-15 unpolarised	fb:part.nema_1_15_unpolarised
+0	2	fb:cell.15_a_125_v	15 A/125 V	15|a\\/125|v	15|a\\/125|v	CD|CD|NN	NUMBER|NUMBER|O	15.0|15.0|	15.0		125.0	15 A|125 V	fb:part.15_a|fb:part.125_v
+0	3	fb:cell.no	No	no	no	DT	O						
+0	4	fb:cell.no	No	no	no	DT	O						
+0	5	fb:cell.no	No	no	no	DT	O						
+0	6	fb:cell.no	No	no	no	DT	O						
+0	7	fb:cell.no	No	no	no	DT	O						
+1	0	fb:cell.a	A	a	a	DT	O						
+1	1	fb:cell.nema_1_15_polarised	NEMA 1-15 polarised	nema|1-15|polarised	nema|1-15|polarise	NN|CD|VBN	O|NUMBER|O	|1.0 - 15.0|	1.0		15.0	NEMA 1-15 polarised	fb:part.nema_1_15_polarised
+1	2	fb:cell.15_a_125_v	15 A/125 V	15|a\\/125|v	15|a\\/125|v	CD|CD|NN	NUMBER|NUMBER|O	15.0|15.0|	15.0		125.0	15 A|125 V	fb:part.15_a|fb:part.125_v
+1	3	fb:cell.no	No	no	no	DT	O						
+1	4	fb:cell.yes	Yes	yes	yes	UH	O						
+1	5	fb:cell.no	No	no	no	DT	O						
+1	6	fb:cell.no	No	no	no	DT	O						
+1	7	fb:cell.no	No	no	no	DT	O						
+2	0	fb:cell.a	A	a	a	DT	O						
+2	1	fb:cell.jis_c_8303_class_ii	JIS C 8303, Class II	jis|c|8303|,|class|ii	ji|c|8303|,|Class|II	NN|NN|CD|,|NNP|NNP	O|O|DATE|O|O|O	||8303|||	8303.0			JIS C 8303|Class II	fb:part.jis_c_8303|fb:part.class_ii
+2	2	fb:cell.15_a_100_v	15 A/100 V	15|a\\/100|v	15|a\\/100|v	CD|NN|NN	NUMBER|O|O	15.0||	15.0		100.0	15 A|100 V	fb:part.15_a|fb:part.100_v
+2	3	fb:cell.no	No	no	no	DT	O						
+2	4	fb:cell.no	No	no	no	DT	O						
+2	5	fb:cell.no	No	no	no	DT	O						
+2	6	fb:cell.no	No	no	no	DT	O						
+2	7	fb:cell.no	No	no	no	DT	O						
+3	0	fb:cell.b	B	b	b	NN	O						
+3	1	fb:cell.nema_5_15	NEMA 5-15	nema|5-15	nema|5-15	NN|CD	O|NUMBER	|5.0 - 15.0	5.0		15.0	NEMA 5-15	fb:part.nema_5_15
+3	2	fb:cell.15_a_125_v	15 A/125 V	15|a\\/125|v	15|a\\/125|v	CD|CD|NN	NUMBER|NUMBER|O	15.0|15.0|	15.0		125.0	15 A|125 V	fb:part.15_a|fb:part.125_v
+3	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+3	4	fb:cell.yes	Yes	yes	yes	UH	O						
+3	5	fb:cell.no	No	no	no	DT	O						
+3	6	fb:cell.no	No	no	no	DT	O						
+3	7	fb:cell.no	No	no	no	DT	O						
+4	0	fb:cell.b	B	b	b	NN	O						
+4	1	fb:cell.nema_5_20	NEMA 5-20	nema|5-20	nema|5-20	NN|CD	O|NUMBER	|5.0 - 20.0	5.0		20.0	NEMA 5-20	fb:part.nema_5_20
+4	2	fb:cell.20_a_125_v	20 A/125 V	20|a\\/125|v	20|a\\/125|v	CD|CD|NN	NUMBER|NUMBER|O	20.0|20.0|	20.0		125.0	20 A|125 V	fb:part.20_a|fb:part.125_v
+4	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+4	4	fb:cell.yes	Yes	yes	yes	UH	O						
+4	5	fb:cell.no	No	no	no	DT	O						
+4	6	fb:cell.no	No	no	no	DT	O						
+4	7	fb:cell.no	No	no	no	DT	O						
+5	0	fb:cell.b	B	b	b	NN	O						
+5	1	fb:cell.jis_c_8303_class_i	JIS C 8303, Class I	jis|c|8303|,|class|i	ji|c|8303|,|Class|I	NN|NN|CD|,|NNP|NNP	O|O|DATE|O|O|O	||8303|||	8303.0			JIS C 8303|Class I	fb:part.jis_c_8303|fb:part.class_i
+5	2	fb:cell.15_a_100_v	15 A/100 V	15|a\\/100|v	15|a\\/100|v	CD|NN|NN	NUMBER|O|O	15.0||	15.0		100.0	15 A|100 V	fb:part.15_a|fb:part.100_v
+5	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+5	4	fb:cell.yes	Yes	yes	yes	UH	O						
+5	5	fb:cell.no	No	no	no	DT	O						
+5	6	fb:cell.no	No	no	no	DT	O						
+5	7	fb:cell.no	No	no	no	DT	O						
+6	0	fb:cell.c	C	c	c	NN	O						
+6	1	fb:cell.cee_7_16_europlug	CEE 7/16 (Europlug)	cee|7\\/16|-lrb-|europlug|-rrb-	cee|7\\/16|-lrb-|europlug|-rrb-	NN|CD|-LRB-|NN|-RRB-	O|NUMBER|O|O|O	||||	7.0		16.0	CEE 7|16 (Europlug)	fb:part.cee_7|fb:part.16_europlug
+6	2	fb:cell.2_5_a_250_v	2.5 A/250 V	2.5|a\\/250|v	2.5|a\\/250|v	CD|NN|NN	NUMBER|O|O	2.5||	2.5		250.0	2.5 A|250 V	fb:part.2_5_a|fb:part.250_v
+6	3	fb:cell.no	No	no	no	DT	O						
+6	4	fb:cell.no	No	no	no	DT	O						
+6	5	fb:cell.no	No	no	no	DT	O						
+6	6	fb:cell.yes	Yes	yes	yes	UH	O						
+6	7	fb:cell.yes	Yes	yes	yes	UH	O						
+7	0	fb:cell.null	-	-	-	:	O						
+7	1	fb:cell.cee_7_17	CEE 7/17	cee|7\\/17	cee|7\\/17	NN|CD	O|NUMBER	|	7.0		17.0	CEE 7|17	fb:part.cee_7|fb:part.17
+7	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+7	3	fb:cell.no	No	no	no	DT	O						
+7	4	fb:cell.no2	No2	no2	no2	NN	O		2.0				
+7	5	fb:cell.no	No	no	no	DT	O						
+7	6	fb:cell.no	No	no	no	DT	O						
+7	7	fb:cell.yes	Yes	yes	yes	UH	O						
+8	0	fb:cell.null	-	-	-	:	O						
+8	1	fb:cell.gost_7396_c_1	GOST 7396 C 1	gost|7396|c|1	gost|7396|c|1	JJ|CD|NN|CD	O|NUMBER|O|NUMBER	|7396.0||1.0	7396.0		1.0	GOST 7396 C 1	fb:part.gost_7396_c_1
+8	2	fb:cell.6_a_250_v_16_a_250_v	6 A/250 V\n16 A/250 V	6|a\\/250|v|16|a\\/250|v	6|a\\/250|v|16|a\\/250|v	CD|NN|NN|CD|NN|NN	NUMBER|O|O|NUMBER|O|O	6.0|||16.0||	6.0		250.0	6 A|250 V|16 A|250 V	fb:part.6_a|fb:part.250_v|fb:part.16_a|fb:part.250_v
+8	3	fb:cell.no	No	no	no	DT	O						
+8	4	fb:cell.no	No	no	no	DT	O						
+8	5	fb:cell.no	No	no	no	DT	O						
+8	6	fb:cell.no	No	no	no	DT	O						
+8	7	fb:cell.yes	Yes	yes	yes	UH	O						
+9	0	fb:cell.null	-	-	-	:	O						
+9	1	fb:cell.bs_4573	BS 4573	bs|4573	b|4573	NN|CD	O|DATE	|4573	4573.0			BS 4573	fb:part.bs_4573
+9	2	fb:cell.socket_0_2_a_250_v_plug_unspecified7	Socket\n0.2 A/250 V\nPlug\nUnspecified7	socket|0.2|a\\/250|v|plug|unspecified7	socket|0.2|a\\/250|v|plug|unspecified7	NN|CD|NN|NN|NN|NN	O|NUMBER|O|O|O|O	|0.2||||	0.2		250.0	Socket|0.2 A|250 V|Plug|Unspecified7	fb:part.socket|fb:part.0_2_a|fb:part.250_v|fb:part.plug|fb:part.unspecified7
+9	3	fb:cell.no	No	no	no	DT	O						
+9	4	fb:cell.no	No	no	no	DT	O						
+9	5	fb:cell.no	No	no	no	DT	O						
+9	6	fb:cell.yes	Yes	yes	yes	UH	O						
+9	7	fb:cell.no	No	no	no	DT	O						
+10	0	fb:cell.d	D	d	d	NN	O						
+10	1	fb:cell.bs_546	BS 546	bs|546	b|546	NN|CD	O|NUMBER	|546.0	546.0			BS 546	fb:part.bs_546
+10	2	fb:cell.2_a_250_v_5_a_250_v_15_a_250_v_30_a_250_v	2 A/250 V\n5 A/250 V\n15 A/250 V\n30 A/250 V	2|a\\/250|v|5|a\\/250|v|15|a\\/250|v|30|a\\/250|v	2|a\\/250|v|5|a\\/250|v|15|a\\/250|v|30|a\\/250|v	CD|NN|NN|CD|NN|NN|CD|NN|NN|CD|NN|NN	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	2.0|||5.0|||15.0|||30.0||	2.0		250.0	2 A|250 V|5 A|250 V|15 A|250 V|30 A|250 V	fb:part.2_a|fb:part.250_v|fb:part.5_a|fb:part.250_v|fb:part.15_a|fb:part.250_v|fb:part.30_a|fb:part.250_v
+10	3	fb:cell.yes	Yes	yes	yes	UH	O						
+10	4	fb:cell.yes	Yes	yes	yes	UH	O						
+10	5	fb:cell.optional	Optional	optional	optional	JJ	O						
+10	6	fb:cell.optional	Optional	optional	optional	JJ	O						
+10	7	fb:cell.no	No	no	no	DT	O						
+11	0	fb:cell.e	E	e	e	NN	O						
+11	1	fb:cell.cee_7_5	CEE 7/5 ‡	cee|7\\/5|‡	cee|7\\/5|‡	NN|CD|NN	O|NUMBER|O	||	7.0		5.0	CEE 7|5 ‡	fb:part.cee_7|fb:part.5
+11	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+11	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+11	4	fb:cell.yes4	Yes4	yes4	yes4	NN	O		4.0				
+11	5	fb:cell.no	No	no	no	DT	O						
+11	6	fb:cell.no	No	no	no	DT	O						
+11	7	fb:cell.yes	Yes	yes	yes	UH	O						
+12	0	fb:cell.f	F	f	f	NN	O						
+12	1	fb:cell.cee_7_4_schuko	CEE 7/4 Schuko ‡	cee|7\\/4|schuko|‡	cee|7\\/4|Schuko|‡	NN|CD|NNP|CD	O|NUMBER|O|NUMBER	|||	7.0		4.0	CEE 7|4 Schuko ‡	fb:part.cee_7|fb:part.4_schuko
+12	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+12	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+12	4	fb:cell.no	No	no	no	DT	O						
+12	5	fb:cell.no	No	no	no	DT	O						
+12	6	fb:cell.no	No	no	no	DT	O						
+12	7	fb:cell.yes	Yes	yes	yes	UH	O						
+13	0	fb:cell.g	G	g	g	NN	O						
+13	1	fb:cell.bs_1363_is_401_411_ms_589_ss_145	BS 1363, IS 401 & 411, MS 589, SS 145	bs|1363|,|is|401|&|411|,|ms|589|,|ss|145	b|1363|,|be|401|&|411|,|m|589|,|ss|145	NN|CD|,|VBD-AUX|CD|CC|CD|,|NN|CD|,|NN|CD	O|DATE|O|O|NUMBER|O|NUMBER|O|O|NUMBER|O|O|NUMBER	|1363|||401.0||411.0|||589.0|||145.0	1363.0		401.0	BS 1363|IS 401 & 411|MS 589|SS 145	fb:part.bs_1363|fb:part.is_401_411|fb:part.ms_589|fb:part.ss_145
+13	2	fb:cell.13_a_250_v	13 A/250 V	13|a\\/250|v	13|a\\/250|v	CD|NN|NN	NUMBER|O|O	13.0||	13.0		250.0	13 A|250 V	fb:part.13_a|fb:part.250_v
+13	3	fb:cell.yes	Yes	yes	yes	UH	O						
+13	4	fb:cell.yes	Yes	yes	yes	UH	O						
+13	5	fb:cell.yes	Yes	yes	yes	UH	O						
+13	6	fb:cell.yes	Yes	yes	yes	UH	O						
+13	7	fb:cell.no	No	no	no	DT	O						
+14	0	fb:cell.h	H	h	h	NN	O						
+14	1	fb:cell.si_32	SI 32	si|32	SI|32	NNP|CD	O|NUMBER	|32.0	32.0			SI 32	fb:part.si_32
+14	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+14	3	fb:cell.yes5	Yes5	yes5	yes5	NN	O		5.0				
+14	4	fb:cell.yes	Yes	yes	yes	UH	O						
+14	5	fb:cell.no	No	no	no	DT	O						
+14	6	fb:cell.no	No	no	no	DT	O						
+14	7	fb:cell.yes	Yes	yes	yes	UH	O						
+15	0	fb:cell.null	-	-	-	:	O						
+15	1	fb:cell.tis_166_2549	TIS 166-2549	tis|166-2549	TIS|166-2549	NNP|CD	O|NUMBER	|166.0 - 2549.0	166.0		2549.0	TIS 166-2549	fb:part.tis_166_2549
+15	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+15	3	fb:cell.yes	Yes	yes	yes	UH	O						
+15	4	fb:cell.yes	Yes	yes	yes	UH	O						
+15	5	fb:cell.no	No	no	no	DT	O						
+15	6	fb:cell.yes	Yes	yes	yes	UH	O						
+15	7	fb:cell.yes	Yes	yes	yes	UH	O						
+16	0	fb:cell.i	I	i	I	PRP	O						
+16	1	fb:cell.as_nzs_3112	AS/NZS 3112	as\\/nzs|3112	as\\/nzs|3112	NN|CD	O|NUMBER	|3112.0	3112.0			AS|NZS 3112	fb:part.as|fb:part.nzs_3112
+16	2	fb:cell.10_a_240_v_15_a_240_v_20_a_240_v_25_a_240_v_32_a_240_v	10 A/240 V\n15 A/240 V\n20 A/240 V\n25 A/240 V\n32 A/240 V	10|a\\/240|v|15|a\\/240|v|20|a\\/240|v|25|a\\/240|v|32|a\\/240|v	10|a\\/240|v|15|a\\/240|v|20|a\\/240|v|25|a\\/240|v|32|a\\/240|v	CD|NN|NN|CD|NN|NN|CD|NN|NN|CD|NN|NN|CD|NN|NN	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	10.0|||15.0|||20.0|||25.0|||32.0||	10.0		240.0	10 A|240 V|15 A|240 V|20 A|240 V|25 A|240 V|32 A|240 V	fb:part.10_a|fb:part.240_v|fb:part.15_a|fb:part.240_v|fb:part.20_a|fb:part.240_v|fb:part.25_a|fb:part.240_v|fb:part.32_a|fb:part.240_v
+16	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+16	4	fb:cell.yes	Yes	yes	yes	UH	O						
+16	5	fb:cell.no	No	no	no	DT	O						
+16	6	fb:cell.yes	Yes	yes	yes	UH	O						
+16	7	fb:cell.no	No	no	no	DT	O						
+17	0	fb:cell.i	I	i	I	PRP	O						
+17	1	fb:cell.cpcs_ccc	CPCS-CCC	cpcs|ccc	CPCS|CCC	NNP|NNP	ORGANIZATION|O	|				CPCS-CCC	fb:part.cpcs_ccc
+17	2	fb:cell.10_a_250_v	10 A/250 V	10|a\\/250|v	10|a\\/250|v	CD|NN|NN	NUMBER|O|O	10.0||	10.0		250.0	10 A|250 V	fb:part.10_a|fb:part.250_v
+17	3	fb:cell.yes	Yes	yes	yes	UH	O						
+17	4	fb:cell.yes	Yes	yes	yes	UH	O						
+17	5	fb:cell.no	No	no	no	DT	O						
+17	6	fb:cell.no	No	no	no	DT	O						
+17	7	fb:cell.no	No	no	no	DT	O						
+18	0	fb:cell.i	I	i	I	PRP	O						
+18	1	fb:cell.iram_2073	IRAM 2073	iram|2073	IRAM|2073	NNP|CD	O|DATE	|2073	2073.0			IRAM 2073	fb:part.iram_2073
+18	2	fb:cell.10_a_250_v	10 A/250 V	10|a\\/250|v	10|a\\/250|v	CD|NN|NN	NUMBER|O|O	10.0||	10.0		250.0	10 A|250 V	fb:part.10_a|fb:part.250_v
+18	3	fb:cell.yes	Yes	yes	yes	UH	O						
+18	4	fb:cell.yes	Yes	yes	yes	UH	O						
+18	5	fb:cell.no	No	no	no	DT	O						
+18	6	fb:cell.no	No	no	no	DT	O						
+18	7	fb:cell.no	No	no	no	DT	O						
+19	0	fb:cell.j	J	j	j	NN	O						
+19	1	fb:cell.swiss_sev_1011	Swiss SEV 1011	swiss|sev|1011	swiss|sev|1011	JJ|NN|CD	MISC|O|DATE	||1011	1011.0			Swiss SEV 1011	fb:part.swiss_sev_1011
+19	2	fb:cell.10_a_250_v_16_a_250_v	10 A/250 V\n16 A/250 V	10|a\\/250|v|16|a\\/250|v	10|a\\/250|v|16|a\\/250|v	CD|NN|NN|CD|NN|NN	NUMBER|O|O|NUMBER|O|O	10.0|||16.0||	10.0		250.0	10 A|250 V|16 A|250 V	fb:part.10_a|fb:part.250_v|fb:part.16_a|fb:part.250_v
+19	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+19	4	fb:cell.yes	Yes	yes	yes	UH	O						
+19	5	fb:cell.optional5	Optional5	optional5	optional5	NN	O		5.0				
+19	6	fb:cell.optional6	Optional6	optional6	optional6	NN	O		6.0				
+19	7	fb:cell.yes	Yes	yes	yes	UH	O						
+20	0	fb:cell.k	K	k	k	NN	O						
+20	1	fb:cell.danish_107_2_d1	Danish 107-2-D1	danish|107-2|d1	danish|107-2|d1	JJ|CD|NN	MISC|NUMBER|O	|107.0 - 2.0|	107.0		2.0	Danish 107-2-D1	fb:part.danish_107_2_d1
+20	2	fb:cell.13_a_250_v	13 A/250 V	13|a\\/250|v	13|a\\/250|v	CD|NN|NN	NUMBER|O|O	13.0||	13.0		250.0	13 A|250 V	fb:part.13_a|fb:part.250_v
+20	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+20	4	fb:cell.yes	Yes	yes	yes	UH	O						
+20	5	fb:cell.no	No	no	no	DT	O						
+20	6	fb:cell.no	No	no	no	DT	O						
+20	7	fb:cell.yes	Yes	yes	yes	UH	O						
+21	0	fb:cell.l	L	l	l	NN	O						
+21	1	fb:cell.cei_23_16_vii	CEI 23-16/VII	cei|23-16|\\/|vii	CEI|23-16|\\/|vii	NNP|CD|:|NN	O|NUMBER|O|O	|23.0 - 16.0||	23.0		16.0	CEI 23-16|VII	fb:part.cei_23_16|fb:part.vii
+21	2	fb:cell.10_a_250_v_16_a_250_v	10 A/250 V\n16 A/250 V	10|a\\/250|v|16|a\\/250|v	10|a\\/250|v|16|a\\/250|v	CD|NN|NN|CD|NN|NN	NUMBER|O|O|NUMBER|O|O	10.0|||16.0||	10.0		250.0	10 A|250 V|16 A|250 V	fb:part.10_a|fb:part.250_v|fb:part.16_a|fb:part.250_v
+21	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+21	4	fb:cell.no	No	no	no	DT	O						
+21	5	fb:cell.no	No	no	no	DT	O						
+21	6	fb:cell.yes	Yes	yes	yes	UH	O						
+21	7	fb:cell.yes	Yes	yes	yes	UH	O						
+22	0	fb:cell.m	M	m	m	NN	O						
+22	1	fb:cell.south_africa_sabs_164_1	South Africa SABS 164-1	south|africa|sabs|164-1	South|Africa|SABS|164-1	NNP|NNP|NNP|CD	LOCATION|LOCATION|O|NUMBER	|||164.0 - 1.0	164.0		1.0	South Africa SABS 164-1	fb:part.south_africa_sabs_164_1
+22	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+22	3	fb:cell.yes	Yes	yes	yes	UH	O						
+22	4	fb:cell.yes	Yes	yes	yes	UH	O						
+22	5	fb:cell.optional	Optional	optional	optional	JJ	O						
+22	6	fb:cell.optional	Optional	optional	optional	JJ	O						
+22	7	fb:cell.no	No	no	no	DT	O						
+23	0	fb:cell.n	N	n	n	NN	O						
+23	1	fb:cell.brazilian_nbr_14136_2_pin	Brazilian NBR 14136 (2 pin)	brazilian|nbr|14136|-lrb-|2|pin|-rrb-	brazilian|nbr|14136|-lrb-|2|pin|-rrb-	JJ|NN|CD|-LRB-|CD|NN|-RRB-	MISC|O|NUMBER|O|NUMBER|O|O	||14136.0||2.0||	14136.0		2.0	Brazilian NBR 14136 (2 pin)	fb:part.brazilian_nbr_14136_2_pin
+23	2	fb:cell.10_a_250_v_20_a_250_v	10 A/250 V\n20 A/250 V	10|a\\/250|v|20|a\\/250|v	10|a\\/250|v|20|a\\/250|v	CD|NN|NN|CD|NN|NN	NUMBER|O|O|NUMBER|O|O	10.0|||20.0||	10.0		250.0	10 A|250 V|20 A|250 V	fb:part.10_a|fb:part.250_v|fb:part.20_a|fb:part.250_v
+23	3	fb:cell.no	No	no	no	DT	O						
+23	4	fb:cell.no	No	no	no	DT	O						
+23	5	fb:cell.no	No	no	no	DT	O						
+23	6	fb:cell.yes	Yes	yes	yes	UH	O						
+23	7	fb:cell.yes	Yes	yes	yes	UH	O						
+24	0	fb:cell.n	N	n	n	NN	O						
+24	1	fb:cell.brazilian_nbr_14136_3_pin	Brazilian NBR 14136 (3 pin)	brazilian|nbr|14136|-lrb-|3|pin|-rrb-	brazilian|nbr|14136|-lrb-|3|pin|-rrb-	JJ|NN|CD|-LRB-|CD|NN|-RRB-	MISC|O|NUMBER|O|NUMBER|O|O	||14136.0||3.0||	14136.0		3.0	Brazilian NBR 14136 (3 pin)	fb:part.brazilian_nbr_14136_3_pin
+24	2	fb:cell.10_a_250_v_20_a_250_v	10 A/250 V\n20 A/250 V	10|a\\/250|v|20|a\\/250|v	10|a\\/250|v|20|a\\/250|v	CD|NN|NN|CD|NN|NN	NUMBER|O|O|NUMBER|O|O	10.0|||20.0||	10.0		250.0	10 A|250 V|20 A|250 V	fb:part.10_a|fb:part.250_v|fb:part.20_a|fb:part.250_v
+24	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+24	4	fb:cell.yes	Yes	yes	yes	UH	O						
+24	5	fb:cell.no	No	no	no	DT	O						
+24	6	fb:cell.yes	Yes	yes	yes	UH	O						
+24	7	fb:cell.yes	Yes	yes	yes	UH	O						
+25	0	fb:cell.n	N	n	n	NN	O						
+25	1	fb:cell.south_africa_sabs_164_2_2_pin	South Africa SABS 164-2 (2 pin)	south|africa|sabs|164-2|-lrb-|2|pin|-rrb-	South|Africa|SABS|164-2|-lrb-|2|pin|-rrb-	NNP|NNP|NNP|CD|-LRB-|CD|NN|-RRB-	LOCATION|LOCATION|O|NUMBER|O|NUMBER|O|O	|||164.0 - 2.0||2.0||	164.0		2.0	South Africa SABS 164-2 (2 pin)	fb:part.south_africa_sabs_164_2_2_pin
+25	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+25	3	fb:cell.no	No	no	no	DT	O						
+25	4	fb:cell.no	No	no	no	DT	O						
+25	5	fb:cell.no	No	no	no	DT	O						
+25	6	fb:cell.yes	Yes	yes	yes	UH	O						
+25	7	fb:cell.yes	Yes	yes	yes	UH	O						
+26	0	fb:cell.n	N	n	n	NN	O						
+26	1	fb:cell.south_africa_sabs_164_2_3_pin	South Africa SABS 164-2 (3 pin)	south|africa|sabs|164-2|-lrb-|3|pin|-rrb-	South|Africa|SABS|164-2|-lrb-|3|pin|-rrb-	NNP|NNP|NNP|CD|-LRB-|CD|NN|-RRB-	LOCATION|LOCATION|O|NUMBER|O|NUMBER|O|O	|||164.0 - 2.0||3.0||	164.0		2.0	South Africa SABS 164-2 (3 pin)	fb:part.south_africa_sabs_164_2_3_pin
+26	2	fb:cell.16_a_250_v	16 A/250 V	16|a\\/250|v	16|a\\/250|v	CD|NN|NN	NUMBER|O|O	16.0||	16.0		250.0	16 A|250 V	fb:part.16_a|fb:part.250_v
+26	3	fb:cell.yes_2	Yes*	yes|\\*	yes|\\*	UH|SYM	O|O	|					
+26	4	fb:cell.yes	Yes	yes	yes	UH	O						
+26	5	fb:cell.no	No	no	no	DT	O						
+26	6	fb:cell.yes	Yes	yes	yes	UH	O						
+26	7	fb:cell.yes	Yes	yes	yes	UH	O						

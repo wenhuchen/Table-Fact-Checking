@@ -1,0 +1,361 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.no	No	no	no	DT	O						
+-1	1	fb:row.row.peak	Peak	peak	peak	JJ	O						
+-1	2	fb:row.row.location	Location	location	Location	NNP	O						
+-1	3	fb:row.row.elevation_m	Elevation (m)	elevation|-lrb-|m|-rrb-	elevation|-lrb-|m|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.prominence_m	Prominence (m)	prominence|-lrb-|m|-rrb-	prominence|-lrb-|m|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.col_height_m	Col height (m)	col|height|-lrb-|m|-rrb-	col|height|-lrb-|m|-rrb-	NN|NN|-LRB-|NN|-RRB-	O|O|O|O|O	||||					
+-1	6	fb:row.row.col_location	Col location	col|location	col|location	NN|NN	O|O	|					
+-1	7	fb:row.row.parent	Parent	parent	Parent	NNP	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+0	2	fb:cell.france_italy	France/ Italy	france|\\/|italy	France|\\/|Italy	NNP|:|NNP	LOCATION|O|LOCATION	||				France|Italy	fb:part.france|fb:part.italy
+0	3	fb:cell.4_810	4,810	4,810	4,810	CD	NUMBER	4810.0	4810.0				
+0	4	fb:cell.4_697	4,697	4,697	4,697	CD	NUMBER	4697.0	4697.0				
+0	5	fb:cell.113	113	113	113	CD	NUMBER	113.0	113.0				
+0	6	fb:cell.near_lake_kubenskoye	near Lake Kubenskoye	near|lake|kubenskoye	near|Lake|Kubenskoye	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+0	7	fb:cell.everest	Everest	everest	Everest	NNP	LOCATION					Everest	fb:part.everest
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.gro_glockner	Großglockner	großglockner	großglockner	NN	O					Großglockner	fb:part.gro_glockner
+1	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+1	3	fb:cell.3_798	3,798	3,798	3,798	CD	NUMBER	3798.0	3798.0				
+1	4	fb:cell.2_423	2,423	2,423	2,423	CD	NUMBER	2423.0	2423.0				
+1	5	fb:cell.1375	1375	1375	1375	CD	DATE	1375	1375.0	1375-xx-xx			
+1	6	fb:cell.brenner_pass	Brenner Pass	brenner|pass	Brenner|pass	NNP|NN	PERSON|O	|					
+1	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.finsteraarhorn	Finsteraarhorn	finsteraarhorn	Finsteraarhorn	NNP	MISC					Finsteraarhorn	fb:part.finsteraarhorn
+2	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+2	3	fb:cell.4_274	4,274	4,274	4,274	CD	NUMBER	4274.0	4274.0				
+2	4	fb:cell.2_280	2,280	2,280	2,280	CD	NUMBER	2280.0	2280.0				
+2	5	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+2	6	fb:cell.near_simplon_pass	near Simplon Pass	near|simplon|pass	near|Simplon|pass	IN|NNP|NN	O|LOCATION|LOCATION	||					
+2	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.wildspitze	Wildspitze	wildspitze	wildspitze	NN	PERSON					Wildspitze	fb:part.wildspitze
+3	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+3	3	fb:cell.3_768	3,768	3,768	3,768	CD	NUMBER	3768.0	3768.0				
+3	4	fb:cell.2_261	2,261	2,261	2,261	CD	NUMBER	2261.0	2261.0				
+3	5	fb:cell.1507	1507	1507	1507	CD	DATE	1507	1507.0	1507-xx-xx			
+3	6	fb:cell.reschen_pass	Reschen Pass	reschen|pass	Reschen|pass	NNP|NN	O|O	|					
+3	7	fb:cell.finsteraarhorn1_mb2	Finsteraarhorn1 / MB2	finsteraarhorn1|\\/|mb2	finsteraarhorn1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Finsteraarhorn1|MB2	fb:part.finsteraarhorn1|fb:part.mb2
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.piz_bernina	Piz Bernina	piz|bernina	Piz|Bernina	NNP|NNP	PERSON|PERSON	|				Piz Bernina	fb:part.piz_bernina
+4	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+4	3	fb:cell.4_049	4,049	4,049	4,049	CD	NUMBER	4049.0	4049.0				
+4	4	fb:cell.2_234	2,234	2,234	2,234	CD	NUMBER	2234.0	2234.0				
+4	5	fb:cell.1815	1815	1815	1815	CD	DATE	1815	1815.0	1815-xx-xx			
+4	6	fb:cell.maloja_pass	Maloja Pass	maloja|pass	Maloja|pass	NNP|NN	LOCATION|O	|					
+4	7	fb:cell.finsteraarhorn1_mb2	Finsteraarhorn1 / MB2	finsteraarhorn1|\\/|mb2	finsteraarhorn1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Finsteraarhorn1|MB2	fb:part.finsteraarhorn1|fb:part.mb2
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.hochkonig	Hochkönig	hochkönig	Hochkönig	NNP	O					Hochkönig	fb:part.hochkonig
+5	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+5	3	fb:cell.2_941	2,941	2,941	2,941	CD	NUMBER	2941.0	2941.0				
+5	4	fb:cell.2_181	2,181	2,181	2,181	CD	NUMBER	2181.0	2181.0				
+5	5	fb:cell.760	760	760	760	CD	NUMBER	760.0	760.0				
+5	6	fb:cell.near_maishofen	near Maishofen	near|maishofen	near|Maishofen	IN|NNP	O|LOCATION	|					
+5	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.monte_rosa	Monte Rosa	monte|rosa	Monte|Rosa	NNP|NNP	PERSON|PERSON	|				Monte Rosa	fb:part.monte_rosa
+6	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+6	3	fb:cell.4_634	4,634	4,634	4,634	CD	NUMBER	4634.0	4634.0				
+6	4	fb:cell.2_165	2,165	2,165	2,165	CD	NUMBER	2165.0	2165.0				
+6	5	fb:cell.2469	2469	2469	2469	CD	DATE	2469	2469.0	2469-xx-xx			
+6	6	fb:cell.great_st_bernard_pass	Great St Bernard Pass	great|st|bernard|pass	great|St|Bernard|pass	JJ|NNP|NNP|NN	O|O|PERSON|PERSON	|||					
+6	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.hoher_dachstein	Hoher Dachstein	hoher|dachstein	Hoher|Dachstein	NNP|NNP	PERSON|PERSON	|				Hoher Dachstein	fb:part.hoher_dachstein
+7	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+7	3	fb:cell.2_995	2,995	2,995	2,995	CD	NUMBER	2995.0	2995.0				
+7	4	fb:cell.2_136	2,136	2,136	2,136	CD	NUMBER	2136.0	2136.0				
+7	5	fb:cell.859	859	859	859	CD	NUMBER	859.0	859.0				
+7	6	fb:cell.eben_im_pongau	Eben im Pongau	eben|im|pongau	Eben|im|Pongau	NNP|NNP|NNP	PERSON|O|O	||					
+7	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.marmolada	Marmolada	marmolada	Marmolada	NNP	PERSON					Marmolada	fb:part.marmolada
+8	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+8	3	fb:cell.3_343	3,343	3,343	3,343	CD	NUMBER	3343.0	3343.0				
+8	4	fb:cell.2_131	2,131	2,131	2,131	CD	NUMBER	2131.0	2131.0				
+8	5	fb:cell.1212	1212	1212	1212	CD	DATE	1212	1212.0	1212-xx-xx			
+8	6	fb:cell.toblach	Toblach	toblach	Toblach	NNP	O						
+8	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.monte_viso	Monte Viso	monte|viso	Monte|Viso	NNP|NNP	PERSON|PERSON	|				Monte Viso	fb:part.monte_viso
+9	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+9	3	fb:cell.3_841	3,841	3,841	3,841	CD	NUMBER	3841.0	3841.0				
+9	4	fb:cell.2_062	2,062	2,062	2,062	CD	NUMBER	2062.0	2062.0				
+9	5	fb:cell.1779	1779	1779	1779	CD	DATE	1779	1779.0	1779-xx-xx			
+9	6	fb:cell.le_mauvais_pass	Le Mauvais Pass	le|mauvais|pass	Le|Mauvais|pass	NNP|NNP|NN	O|O|O	||					
+9	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.triglav	Triglav	triglav	Triglav	NNP	O					Triglav	fb:part.triglav
+10	2	fb:cell.slovenia	Slovenia	slovenia	Slovenia	NNP	LOCATION					Slovenia	fb:part.slovenia
+10	3	fb:cell.2_864	2,864	2,864	2,864	CD	NUMBER	2864.0	2864.0				
+10	4	fb:cell.2_052	2,052	2,052	2,052	CD	NUMBER	2052.0	2052.0				
+10	5	fb:cell.812	812	812	812	CD	NUMBER	812.0	812.0				
+10	6	fb:cell.camporosso_pass	Camporosso Pass	camporosso|pass	Camporosso|pass	NNP|NN	O|O	|					
+10	7	fb:cell.marmolada1_mb2	Marmolada1 / MB2	marmolada1|\\/|mb2	marmolada1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Marmolada1|MB2	fb:part.marmolada1|fb:part.mb2
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.barre_des_ecrins	Barre des Écrins	barre|des|écrins	Barre|des|Écrins	NNP|NNP|NNP	PERSON|O|O	||				Barre des Écrins	fb:part.barre_des_ecrins
+11	2	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+11	3	fb:cell.4_102	4,102	4,102	4,102	CD	NUMBER	4102.0	4102.0				
+11	4	fb:cell.2_045	2,045	2,045	2,045	CD	NUMBER	2045.0	2045.0				
+11	5	fb:cell.2057	2057	2057	2057	CD	DATE	2057	2057.0	2057-xx-xx			
+11	6	fb:cell.col_du_lautaret	Col du Lautaret	col|du|lautaret	Col|du|Lautaret	NNP|NNP|NNP	MISC|MISC|MISC	||					
+11	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.santis	Säntis	säntis	säntis	FW	O					Säntis	fb:part.santis
+12	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+12	3	fb:cell.2_503	2,503	2,503	2,503	CD	NUMBER	2503.0	2503.0				
+12	4	fb:cell.2_021	2,021	2,021	2,021	CD	NUMBER	2021.0	2021.0				
+12	5	fb:cell.482	482	482	482	CD	NUMBER	482.0	482.0				
+12	6	fb:cell.heiligkreuz_bei_mels	Heiligkreuz bei Mels	heiligkreuz|bei|mels	Heiligkreuz|bei|Mels	NNP|FW|NNP	PERSON|O|O	||					
+12	7	fb:cell.finsteraarhorn1_mb2	Finsteraarhorn1 / MB2	finsteraarhorn1|\\/|mb2	finsteraarhorn1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Finsteraarhorn1|MB2	fb:part.finsteraarhorn1|fb:part.mb2
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.ortler	Ortler	ortler	Ortler	NNP	O					Ortler	fb:part.ortler
+13	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+13	3	fb:cell.3_905	3,905	3,905	3,905	CD	NUMBER	3905.0	3905.0				
+13	4	fb:cell.1_953	1,953	1,953	1,953	CD	NUMBER	1953.0	1953.0				
+13	5	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+13	6	fb:cell.fraele_pass_in_the_livigno_alps	Fraele Pass in the Livigno Alps	fraele|pass|in|the|livigno|alps	Fraele|pass|in|the|Livigno|Alps	NNP|NN|IN|DT|NNP|NNP	O|O|O|O|LOCATION|LOCATION	|||||					
+13	7	fb:cell.piz_bernina	Piz Bernina	piz|bernina	Piz|Bernina	NNP|NNP	PERSON|PERSON	|				Piz Bernina	fb:part.piz_bernina
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.monte_baldo_cima_valdritta	Monte Baldo/Cima Valdritta	monte|baldo\\/cima|valdritta	Monte|Baldo\\/Cima|Valdritta	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				Monte Baldo|Cima Valdritta	fb:part.monte_baldo|fb:part.cima_valdritta
+14	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+14	3	fb:cell.2_218	2,218	2,218	2,218	CD	NUMBER	2218.0	2218.0				
+14	4	fb:cell.1_950	1,950	1,950	1,950	CD	NUMBER	1950.0	1950.0				
+14	5	fb:cell.268	268	268	268	CD	NUMBER	268.0	268.0				
+14	6	fb:cell.near_san_giovanni_pass_in_nago_torbole	near San Giovanni Pass in Nago–Torbole	near|san|giovanni|pass|in|nago|--|torbole	near|San|Giovanni|pass|in|Nago|--|Torbole	IN|NNP|NNP|NN|IN|NNP|:|NNP	O|LOCATION|LOCATION|LOCATION|O|LOCATION|O|O	|||||||					
+14	7	fb:cell.ortler1_mb2	Ortler1 / MB2	ortler1|\\/|mb2	ortler1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Ortler1|MB2	fb:part.ortler1|fb:part.mb2
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.gran_paradiso	Gran Paradiso	gran|paradiso	Gran|Paradiso	NNP|NNP	O|O	|				Gran Paradiso	fb:part.gran_paradiso
+15	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+15	3	fb:cell.4_061	4,061	4,061	4,061	CD	NUMBER	4061.0	4061.0				
+15	4	fb:cell.1_891	1,891	1,891	1,891	CD	NUMBER	1891.0	1891.0				
+15	5	fb:cell.2170	2170	2170	2170	CD	DATE	2170	2170.0	2170-xx-xx			
+15	6	fb:cell.near_little_st_bernard_pass	near Little St Bernard Pass	near|little|st|bernard|pass	near|little|St|Bernard|pass	IN|JJ|NNP|NNP|NN	O|LOCATION|LOCATION|LOCATION|LOCATION	||||					
+15	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.pizzo_di_coca	Pizzo di Coca	pizzo|di|coca	Pizzo|di|Coca	NNP|NNP|NNP	PERSON|O|O	||				Pizzo di Coca	fb:part.pizzo_di_coca
+16	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+16	3	fb:cell.3_050	3,050	3,050	3,050	CD	NUMBER	3050.0	3050.0				
+16	4	fb:cell.1_878	1,878	1,878	1,878	CD	NUMBER	1878.0	1878.0				
+16	5	fb:cell.1172	1172	1172	1172	CD	DATE	1172	1172.0	1172-xx-xx			
+16	6	fb:cell.aprica	Aprica	aprica	Aprica	NNP	LOCATION						
+16	7	fb:cell.ortler1_mb2	Ortler1 / MB2	ortler1|\\/|mb2	ortler1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Ortler1|MB2	fb:part.ortler1|fb:part.mb2
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.cima_dodici	Cima Dodici	cima|dodici	Cima|Dodici	NNP|NNP	PERSON|PERSON	|				Cima Dodici	fb:part.cima_dodici
+17	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+17	3	fb:cell.2_336	2,336	2,336	2,336	CD	NUMBER	2336.0	2336.0				
+17	4	fb:cell.1_874	1,874	1,874	1,874	CD	NUMBER	1874.0	1874.0				
+17	5	fb:cell.462	462	462	462	CD	NUMBER	462.0	462.0				
+17	6	fb:cell.pergine_valsugana	Pergine Valsugana	pergine|valsugana	Pergine|Valsugana	NNP|NNP	PERSON|PERSON	|					
+17	7	fb:cell.marmolada1_mb2	Marmolada1 / MB2	marmolada1|\\/|mb2	marmolada1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Marmolada1|MB2	fb:part.marmolada1|fb:part.mb2
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell.dents_du_midi	Dents du Midi	dents|du|midi	dent|du|Midi	NNS|NNP|NNP	MISC|MISC|MISC	||				Dents du Midi	fb:part.dents_du_midi
+18	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+18	3	fb:cell.3_257	3,257	3,257	3,257	CD	NUMBER	3257.0	3257.0				
+18	4	fb:cell.1_796	1,796	1,796	1,796	CD	NUMBER	1796.0	1796.0				
+18	5	fb:cell.1461	1461	1461	1461	CD	DATE	1461	1461.0	1461-xx-xx			
+18	6	fb:cell.col_des_montets	Col des Montets	col|des|montets	Col|des|Montets	NNP|NNP|NNPS	O|O|O	||					
+18	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell.chamechaude	Chamechaude	chamechaude	Chamechaude	NNP	O					Chamechaude	fb:part.chamechaude
+19	2	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+19	3	fb:cell.2_082	2,082	2,082	2,082	CD	NUMBER	2082.0	2082.0				
+19	4	fb:cell.1_771	1,771	1,771	1,771	CD	NUMBER	1771.0	1771.0				
+19	5	fb:cell.311	311	311	311	CD	NUMBER	311.0	311.0				
+19	6	fb:cell.chambery	Chambéry	chambéry	Chambéry	NNP	O						
+19	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell.zugspitze	Zugspitze	zugspitze	zugspitze	NN	O					Zugspitze	fb:part.zugspitze
+20	2	fb:cell.germany_austria	Germany/ Austria	germany|\\/|austria	Germany|\\/|Austria	NNP|:|NNP	LOCATION|O|LOCATION	||				Germany|Austria	fb:part.germany|fb:part.austria
+20	3	fb:cell.2_962	2,962	2,962	2,962	CD	NUMBER	2962.0	2962.0				
+20	4	fb:cell.1_746	1,746	1,746	1,746	CD	NUMBER	1746.0	1746.0				
+20	5	fb:cell.1216	1216	1216	1216	CD	DATE	1216	1216.0	1216-xx-xx			
+20	6	fb:cell.near_fern_pass	near Fern Pass	near|fern|pass	near|Fern|pass	IN|NNP|NN	O|O|O	||					
+20	7	fb:cell.finsteraarhorn1_mb2	Finsteraarhorn1 / MB2	finsteraarhorn1|\\/|mb2	finsteraarhorn1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Finsteraarhorn1|MB2	fb:part.finsteraarhorn1|fb:part.mb2
+21	0	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+21	1	fb:cell.monte_antelao	Monte Antelao	monte|antelao	Monte|Antelao	NNP|NNP	PERSON|PERSON	|				Monte Antelao	fb:part.monte_antelao
+21	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+21	3	fb:cell.3_264	3,264	3,264	3,264	CD	NUMBER	3264.0	3264.0				
+21	4	fb:cell.1_735	1,735	1,735	1,735	CD	NUMBER	1735.0	1735.0				
+21	5	fb:cell.1529	1529	1529	1529	CD	DATE	1529	1529.0	1529-xx-xx			
+21	6	fb:cell.passo_cimabanche	Passo Cimabanche	passo|cimabanche	Passo|Cimabanche	NNP|NNP	O|O	|					
+21	7	fb:cell.marmolada	Marmolada	marmolada	Marmolada	NNP	PERSON					Marmolada	fb:part.marmolada
+22	0	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	1	fb:cell.arcalod	Arcalod	arcalod	Arcalod	NNP	O					Arcalod	fb:part.arcalod
+22	2	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+22	3	fb:cell.2_217	2,217	2,217	2,217	CD	NUMBER	2217.0	2217.0				
+22	4	fb:cell.1_713	1,713	1,713	1,713	CD	NUMBER	1713.0	1713.0				
+22	5	fb:cell.504	504	504	504	CD	NUMBER	504.0	504.0				
+22	6	fb:cell.viuz_in_faverges	Viuz in Faverges	viuz|in|faverges	Viuz|in|Faverges	NNP|IN|NNP	O|O|LOCATION	||					
+22	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+23	0	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+23	1	fb:cell.grintovec	Grintovec	grintovec	Grintovec	NNP	PERSON					Grintovec	fb:part.grintovec
+23	2	fb:cell.slovenia	Slovenia	slovenia	Slovenia	NNP	LOCATION					Slovenia	fb:part.slovenia
+23	3	fb:cell.2_558	2,558	2,558	2,558	CD	NUMBER	2558.0	2558.0				
+23	4	fb:cell.1_706	1,706	1,706	1,706	CD	NUMBER	1706.0	1706.0				
+23	5	fb:cell.852	852	852	852	CD	NUMBER	852.0	852.0				
+23	6	fb:cell.ratece	Rateče	rateče	rateče	NN	O						
+23	7	fb:cell.triglav	Triglav	triglav	Triglav	NNP	O					Triglav	fb:part.triglav
+24	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+24	1	fb:cell.gro_er_priel	Großer Priel	großer|priel	Großer|Priel	NNP|NNP	O|O	|				Großer Priel	fb:part.gro_er_priel
+24	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+24	3	fb:cell.2_515	2,515	2,515	2,515	CD	NUMBER	2515.0	2515.0				
+24	4	fb:cell.1_700	1,700	1,700	1,700	CD	NUMBER	1700.0	1700.0				
+24	5	fb:cell.810	810	810	810	CD	NUMBER	810.0	810.0				
+24	6	fb:cell.near_pichl_kainisch	near Pichl-Kainisch	near|pichl|kainisch	near|Pichl|Kainisch	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+24	7	fb:cell.hoher_dachstein1_mb2	Hoher Dachstein1 / MB2	hoher|dachstein1|\\/|mb2	Hoher|dachstein1|\\/|mb2	NNP|NN|:|NN	O|O|O|O	|||	1.0		2.0	Hoher Dachstein1|MB2	fb:part.hoher_dachstein1|fb:part.mb2
+25	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+25	1	fb:cell.grigna_settentrionale	Grigna Settentrionale	grigna|settentrionale	Grigna|Settentrionale	NNP|NNP	PERSON|PERSON	|				Grigna Settentrionale	fb:part.grigna_settentrionale
+25	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+25	3	fb:cell.2_409	2,409	2,409	2,409	CD	NUMBER	2409.0	2409.0				
+25	4	fb:cell.1_686	1,686	1,686	1,686	CD	NUMBER	1686.0	1686.0				
+25	5	fb:cell.723	723	723	723	CD	NUMBER	723.0	723.0				
+25	6	fb:cell.balisio_in_ballabio	Balisio in Ballabio	balisio|in|ballabio	Balisio|in|Ballabio	NNP|IN|NNP	O|O|LOCATION	||					
+25	7	fb:cell.pizzo_di_coca1_mb2	Pizzo di Coca1 / MB2	pizzo|di|coca1|\\/|mb2	Pizzo|di|Coca1|\\/|mb2	NNP|FW|NNP|:|NN	PERSON|O|O|O|O	||||	1.0		2.0	Pizzo di Coca1|MB2	fb:part.pizzo_di_coca1|fb:part.mb2
+26	0	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+26	1	fb:cell.monte_bondone	Monte Bondone	monte|bondone	Monte|Bondone	NNP|NNP	PERSON|PERSON	|				Monte Bondone	fb:part.monte_bondone
+26	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+26	3	fb:cell.2_180	2,180	2,180	2,180	CD	NUMBER	2180.0	2180.0				
+26	4	fb:cell.1_679	1,679	1,679	1,679	CD	NUMBER	1679.0	1679.0				
+26	5	fb:cell.501	501	501	501	CD	NUMBER	501.0	501.0				
+26	6	fb:cell.near_cadine_in_trento	near Cadine in Trento	near|cadine|in|trento	near|Cadine|in|Trento	IN|NNP|IN|NNP	O|LOCATION|O|LOCATION	|||					
+26	7	fb:cell.ortler1_mb2	Ortler1 / MB2	ortler1|\\/|mb2	ortler1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Ortler1|MB2	fb:part.ortler1|fb:part.mb2
+27	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+27	1	fb:cell.presanella	Presanella	presanella	presanellum	NN	O					Presanella	fb:part.presanella
+27	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+27	3	fb:cell.3_558	3,558	3,558	3,558	CD	NUMBER	3558.0	3558.0				
+27	4	fb:cell.1_676	1,676	1,676	1,676	CD	NUMBER	1676.0	1676.0				
+27	5	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx			
+27	6	fb:cell.tonale_pass	Tonale Pass	tonale|pass	Tonale|pass	NNP|NN	O|O	|					
+27	7	fb:cell.ortler	Ortler	ortler	Ortler	NNP	O					Ortler	fb:part.ortler
+28	0	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+28	1	fb:cell.birnhorn	Birnhorn	birnhorn	Birnhorn	NNP	O					Birnhorn	fb:part.birnhorn
+28	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+28	3	fb:cell.2_634	2,634	2,634	2,634	CD	NUMBER	2634.0	2634.0				
+28	4	fb:cell.1_665	1,665	1,665	1,665	CD	NUMBER	1665.0	1665.0				
+28	5	fb:cell.969	969	969	969	CD	NUMBER	969.0	969.0				
+28	6	fb:cell.hochfilzen	Hochfilzen	hochfilzen	Hochfilzen	NNP	PERSON						
+28	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+29	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	1	fb:cell.col_nudo	Col Nudo	col|nudo	Col|Nudo	NNP|NNP	O|O	|				Col Nudo	fb:part.col_nudo
+29	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+29	3	fb:cell.2_471	2,471	2,471	2,471	CD	NUMBER	2471.0	2471.0				
+29	4	fb:cell.1_644	1,644	1,644	1,644	CD	NUMBER	1644.0	1644.0				
+29	5	fb:cell.827	827	827	827	CD	NUMBER	827.0	827.0				
+29	6	fb:cell.passo_di_sant_osvaldo	Passo di Sant'Osvaldo	passo|di|sant|`|osvaldo	Passo|di|Sant|`|Osvaldo	NNP|NNP|NNP|``|NNP	O|O|O|O|PERSON	||||					
+29	7	fb:cell.antelao1_mb2	Antelao1 / MB2	antelao1|\\/|mb2	antelao1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Antelao1|MB2	fb:part.antelao1|fb:part.mb2
+30	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+30	1	fb:cell.pointe_percee	Pointe Percée	pointe|percée	Pointe|Percée	NNP|NNP	PERSON|PERSON	|				Pointe Percée	fb:part.pointe_percee
+30	2	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+30	3	fb:cell.2_750	2,750	2,750	2,750	CD	NUMBER	2750.0	2750.0				
+30	4	fb:cell.1_643	1,643	1,643	1,643	CD	NUMBER	1643.0	1643.0				
+30	5	fb:cell.1107	1107	1107	1107	CD	DATE	1107	1107.0	1107-xx-xx			
+30	6	fb:cell.near_pont_d_arbon_near_megeve	near Pont d'Arbon near Megève	near|pont|d'arbon|near|megève	near|Pont|d'Arbon|near|Megève	IN|NNP|NNP|IN|NNP	O|O|O|O|LOCATION	||||					
+30	7	fb:cell.mont_blanc	Mont Blanc	mont|blanc	Mont|Blanc	NNP|NNP	PERSON|PERSON	|				Mont Blanc	fb:part.mont_blanc
+31	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+31	1	fb:cell.jof_di_montasio	Jôf di Montasio	jôf|di|montasio	jôf|di|montasio	NN|FW|FW	PERSON|O|O	||				Jôf di Montasio	fb:part.jof_di_montasio
+31	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+31	3	fb:cell.2_753	2,753	2,753	2,753	CD	NUMBER	2753.0	2753.0				
+31	4	fb:cell.1_597	1,597	1,597	1,597	CD	NUMBER	1597.0	1597.0				
+31	5	fb:cell.1156	1156	1156	1156	CD	DATE	1156	1156.0	1156-xx-xx			
+31	6	fb:cell.predil_pass	Predil Pass	predil|pass	Predil|pass	NNP|NN	O|O	|					
+31	7	fb:cell.triglav	Triglav	triglav	Triglav	NNP	O					Triglav	fb:part.triglav
+32	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+32	1	fb:cell.molltaler_polinik	Mölltaler Polinik	mölltaler|polinik	Mölltaler|Polinik	NNP|NNP	O|O	|				Mölltaler Polinik	fb:part.molltaler_polinik
+32	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+32	3	fb:cell.2_784	2,784	2,784	2,784	CD	NUMBER	2784.0	2784.0				
+32	4	fb:cell.1_579	1,579	1,579	1,579	CD	NUMBER	1579.0	1579.0				
+32	5	fb:cell.1205	1205	1205	1205	CD	DATE	1205	1205.0	1205-xx-xx			
+32	6	fb:cell.iselsberg_pass	Iselsberg Pass	iselsberg|pass	Iselsberg|pass	NNP|NN	O|O	|					
+32	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+33	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+33	1	fb:cell.todi	Tödi	tödi	tödi	NN	MISC					Tödi	fb:part.todi
+33	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+33	3	fb:cell.3_614	3,614	3,614	3,614	CD	NUMBER	3614.0	3614.0				
+33	4	fb:cell.1_570	1,570	1,570	1,570	CD	NUMBER	1570.0	1570.0				
+33	5	fb:cell.2044	2044	2044	2044	CD	DATE	2044	2044.0	2044-xx-xx			
+33	6	fb:cell.oberalp_pass	Oberalp Pass	oberalp|pass	Oberalp|pass	NNP|NN	O|O	|					
+33	7	fb:cell.finsteraarhorn	Finsteraarhorn	finsteraarhorn	Finsteraarhorn	NNP	MISC					Finsteraarhorn	fb:part.finsteraarhorn
+34	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+34	1	fb:cell.birkkarspitze	Birkkarspitze	birkkarspitze	birkkarspitze	NN	O					Birkkarspitze	fb:part.birkkarspitze
+34	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+34	3	fb:cell.2_749	2,749	2,749	2,749	CD	NUMBER	2749.0	2749.0				
+34	4	fb:cell.1_569	1,569	1,569	1,569	CD	NUMBER	1569.0	1569.0				
+34	5	fb:cell.1180	1180	1180	1180	CD	DATE	1180	1180.0	1180-xx-xx			
+34	6	fb:cell.seefeld_in_tirol	Seefeld in Tirol	seefeld|in|tirol	Seefeld|in|Tirol	NNP|IN|NNP	O|O|LOCATION	||					
+34	7	fb:cell.zugspitze1_mb2	Zugspitze1 / MB2	zugspitze1|\\/|mb2	zugspitze1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Zugspitze1|MB2	fb:part.zugspitze1|fb:part.mb2
+35	0	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+35	1	fb:cell.ellmauer_halt	Ellmauer Halt	ellmauer|halt	Ellmauer|Halt	NNP|NNP	O|O	|				Ellmauer Halt	fb:part.ellmauer_halt
+35	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+35	3	fb:cell.2_344	2,344	2,344	2,344	CD	NUMBER	2344.0	2344.0				
+35	4	fb:cell.1_551	1,551	1,551	1,551	CD	NUMBER	1551.0	1551.0				
+35	5	fb:cell.793	793	793	793	CD	NUMBER	793.0	793.0				
+35	6	fb:cell.near_ellmau	near Ellmau	near|ellmau	near|Ellmau	IN|NNP	O|LOCATION	|					
+35	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+36	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+36	1	fb:cell.grande_tete_de_l_obiou	Grande Tête de l'Obiou	grande|tête|de|l'obiou	Grande|Tête|de|l'Obiou	NNP|NNP|IN|NNP	O|O|O|O	|||				Grande Tête de l'Obiou	fb:part.grande_tete_de_l_obiou
+36	2	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+36	3	fb:cell.2_790	2,790	2,790	2,790	CD	NUMBER	2790.0	2790.0				
+36	4	fb:cell.1_542	1,542	1,542	1,542	CD	NUMBER	1542.0	1542.0				
+36	5	fb:cell.1248	1248	1248	1248	CD	DATE	1248	1248.0	1248-xx-xx			
+36	6	fb:cell.col_bayard	Col Bayard	col|bayard	Col|Bayard	NNP|NNP	LOCATION|LOCATION	|					
+36	7	fb:cell.barre_des_ecrins1_mb2	Barre des Écrins1 / MB2	barre|des|écrins1|\\/|mb2	Barre|des|Écrins1|\\/|mb2	NNP|NNP|NNP|:|NN	PERSON|O|O|O|O	||||	1.0		2.0	Barre des Écrins1|MB2	fb:part.barre_des_ecrins1|fb:part.mb2
+37	0	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+37	1	fb:cell.cima_tosa	Cima Tosa	cima|tosa	Cima|Tosa	NNP|NNP	PERSON|PERSON	|				Cima Tosa	fb:part.cima_tosa
+37	2	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+37	3	fb:cell.3_173	3,173	3,173	3,173	CD	NUMBER	3173.0	3173.0				
+37	4	fb:cell.1_521	1,521	1,521	1,521	CD	NUMBER	1521.0	1521.0				
+37	5	fb:cell.1652	1652	1652	1652	CD	DATE	1652	1652.0	1652-xx-xx			
+37	6	fb:cell.near_campo_carlo_magno	near Campo Carlo Magno	near|campo|carlo|magno	near|Campo|Carlo|Magno	IN|NNP|NNP|NNP	O|LOCATION|LOCATION|LOCATION	|||					
+37	7	fb:cell.presanella1_mb2	Presanella1 / MB2	presanella1|\\/|mb2	presanella1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Presanella1|MB2	fb:part.presanella1|fb:part.mb2
+38	0	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+38	1	fb:cell.hochtor	Hochtor	hochtor	Hochtor	NNP	O					Hochtor	fb:part.hochtor
+38	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+38	3	fb:cell.2_369	2,369	2,369	2,369	CD	NUMBER	2369.0	2369.0				
+38	4	fb:cell.1_520	1,520	1,520	1,520	CD	NUMBER	1520.0	1520.0				
+38	5	fb:cell.849	849	849	849	CD	NUMBER	849.0	849.0				
+38	6	fb:cell.schober_pass	Schober Pass	schober|pass	Schober|pass	NNP|NN	O|O	|					
+38	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+39	0	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	1	fb:cell.grimming	Grimming	grimming	grimm	VBG	O					Grimming	fb:part.grimming
+39	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+39	3	fb:cell.2_351	2,351	2,351	2,351	CD	NUMBER	2351.0	2351.0				
+39	4	fb:cell.1_518	1,518	1,518	1,518	CD	NUMBER	1518.0	1518.0				
+39	5	fb:cell.833	833	833	833	CD	NUMBER	833.0	833.0				
+39	6	fb:cell.near_schrodis_near_tauplitz	near Schrödis near Tauplitz	near|schrödis|near|tauplitz	near|Schrödis|near|Tauplitz	IN|NNP|IN|NNP	O|O|O|LOCATION	|||					
+39	7	fb:cell.gro_er_priel	Großer Priel	großer|priel	Großer|Priel	NNP|NNP	O|O	|				Großer Priel	fb:part.gro_er_priel
+40	0	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+40	1	fb:cell.grand_combin	Grand Combin	grand|combin	Grand|Combin	NNP|NNP	MISC|MISC	|				Grand Combin	fb:part.grand_combin
+40	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+40	3	fb:cell.4_314	4,314	4,314	4,314	CD	NUMBER	4314.0	4314.0				
+40	4	fb:cell.1_517	1,517	1,517	1,517	CD	NUMBER	1517.0	1517.0				
+40	5	fb:cell.2797	2797	2797	2797	CD	DATE	2797	2797.0	2797-xx-xx			
+40	6	fb:cell.fenetre_de_durand	Fenêtre de Durand	fenêtre|de|durand	Fenêtre|de|Durand	NNP|NNP|NNP	O|O|O	||					
+40	7	fb:cell.monte_rosa	Monte Rosa	monte|rosa	Monte|Rosa	NNP|NNP	PERSON|PERSON	|				Monte Rosa	fb:part.monte_rosa
+41	0	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+41	1	fb:cell.la_tournette	La Tournette	la|tournette	La|Tournette	NNP|NNP	O|O	|				La Tournette	fb:part.la_tournette
+41	2	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+41	3	fb:cell.2_351	2,351	2,351	2,351	CD	NUMBER	2351.0	2351.0				
+41	4	fb:cell.1_514	1,514	1,514	1,514	CD	NUMBER	1514.0	1514.0				
+41	5	fb:cell.837	837	837	837	CD	NUMBER	837.0	837.0				
+41	6	fb:cell.col_du_marais	Col du Marais	col|du|marais	Col|du|Marais	NNP|NNP|NNP	O|O|O	||					
+41	7	fb:cell.pointe_percee1_mb2	Pointe Percée1 / MB2	pointe|percée1|\\/|mb2	Pointe|Percée1|\\/|mb2	NNP|NNP|:|NN	O|O|O|O	|||	1.0		2.0	Pointe Percée1|MB2	fb:part.pointe_percee1|fb:part.mb2
+42	0	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+42	1	fb:cell.zirbitzkogel	Zirbitzkogel	zirbitzkogel	zirbitzkogel	NN	PERSON					Zirbitzkogel	fb:part.zirbitzkogel
+42	2	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION					Austria	fb:part.austria
+42	3	fb:cell.2_396	2,396	2,396	2,396	CD	NUMBER	2396.0	2396.0				
+42	4	fb:cell.1_502	1,502	1,502	1,502	CD	NUMBER	1502.0	1502.0				
+42	5	fb:cell.894	894	894	894	CD	NUMBER	894.0	894.0				
+42	6	fb:cell.neumarkter_sattel	Neumarkter Sattel	neumarkter|sattel	Neumarkter|Sattel	NNP|NNP	O|O	|					
+42	7	fb:cell.gro_glockner1_mb2	Großglockner1 / MB2	großglockner1|\\/|mb2	großglockner1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Großglockner1|MB2	fb:part.gro_glockner1|fb:part.mb2
+43	0	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+43	1	fb:cell.piz_kesch	Piz Kesch	piz|kesch	Piz|Kesch	NNP|NNP	PERSON|PERSON	|				Piz Kesch	fb:part.piz_kesch
+43	2	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION					Switzerland	fb:part.switzerland
+43	3	fb:cell.3_418	3,418	3,418	3,418	CD	NUMBER	3418.0	3418.0				
+43	4	fb:cell.1_502	1,502	1,502	1,502	CD	NUMBER	1502.0	1502.0				
+43	5	fb:cell.1916	1916	1916	1916	CD	DATE	1916	1916.0	1916-xx-xx			
+43	6	fb:cell.lukmanier_pass	Lukmanier Pass	lukmanier|pass	Lukmanier|pass	NNP|NN	O|O	|					
+43	7	fb:cell.finsteraarhorn1_mb2	Finsteraarhorn1 / MB2	finsteraarhorn1|\\/|mb2	finsteraarhorn1|\\/|mb2	NN|:|NN	O|O|O	||	1.0		2.0	Finsteraarhorn1|MB2	fb:part.finsteraarhorn1|fb:part.mb2

@@ -1,0 +1,61 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.opponent	Opponent#	opponent|#	opponent|#	NN|#	O|O	|					
+-1	2	fb:row.row.rank	Rank#	rank|#	Rank|#	NNP|#	O|O	|					
+-1	3	fb:row.row.site	Site	site	site	NN	O						
+-1	4	fb:row.row.result	Result	result	result	NN	O						
+0	0	fb:cell.september_12	September 12	september|12	September|12	NNP|CD	DATE|DATE	XXXX-09-12|XXXX-09-12	12.0	xxxx-09-12			
+0	1	fb:cell.at_colorado	at Colorado*	at|colorado|\\*	at|Colorado|\\*	IN|NNP|SYM	O|LOCATION|O	||					
+0	2	fb:cell.null											
+0	3	fb:cell.folsom_field_boulder_co	Folsom Field • Boulder, CO	folsom|field|•|boulder|,|co	Folsom|Field|•|Boulder|,|CO	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|LOCATION	|||||				Folsom Field • Boulder|CO	fb:part.folsom_field_boulder|fb:part.co
+0	4	fb:cell.w_44_6	W 44–6	w|44|--|6	W|44|--|6	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|44.0||6.0	44.0		6.0		
+1	0	fb:cell.september_19	September 19	september|19	September|19	NNP|CD	DATE|DATE	XXXX-09-19|XXXX-09-19	19.0	xxxx-09-19			
+1	1	fb:cell.at_5_ohio_state	at #5 Ohio State*	at|#|5|ohio|state|\\*	at|#|5|Ohio|State|\\*	IN|#|CD|NNP|NNP|SYM	O|MONEY|MONEY|ORGANIZATION|ORGANIZATION|O	|£5.0|£5.0|||	5.0				
+1	2	fb:cell.null											
+1	3	fb:cell.ohio_stadium_columbus_oh	Ohio Stadium • Columbus, OH	ohio|stadium|•|columbus|,|oh	Ohio|Stadium|•|Columbus|,|oh	NNP|NNP|NNP|NNP|,|NN	O|O|O|LOCATION|O|O	|||||				Ohio Stadium • Columbus|OH	fb:part.ohio_stadium_columbus|fb:part.oh
+1	4	fb:cell.l_14_24	L 14–24	l|14|--|24	l|14|--|24	NN|CD|:|CD	O|NUMBER|O|NUMBER	|14.0||24.0	14.0		24.0		
+2	0	fb:cell.september_26	September 26	september|26	September|26	NNP|CD	DATE|DATE	XXXX-09-26|XXXX-09-26	26.0	xxxx-09-26			
+2	1	fb:cell.san_diego_state	San Diego State*	san|diego|state|\\*	San|Diego|State|\\*	NNP|NNP|NNP|SYM	LOCATION|LOCATION|O|O	|||					
+2	2	fb:cell.null											
+2	3	fb:cell.autzen_stadium_eugene_or	Autzen Stadium • Eugene, OR	autzen|stadium|•|eugene|,|or	Autzen|Stadium|•|Eugene|,|or	NNP|NNP|NNP|NNP|,|NN	O|O|O|PERSON|O|O	|||||				Autzen Stadium • Eugene|OR	fb:part.autzen_stadium_eugene|fb:part.or
+2	4	fb:cell.w_25_20	W 25–20	w|25|--|20	W|25|--|20	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|25.0||20.0	25.0		20.0		
+3	0	fb:cell.october_3	October 3	october|3	October|3	NNP|CD	DATE|DATE	XXXX-10-03|XXXX-10-03	3.0	xxxx-10-03			
+3	1	fb:cell._16_washington	#16 Washington	#|16|washington	#|16|Washington	#|CD|NNP	MONEY|MONEY|LOCATION	£16.0|£16.0|	16.0				
+3	2	fb:cell.null											
+3	3	fb:cell.autzen_stadium_eugene_or_rivalry	Autzen Stadium • Eugene, OR (Rivalry)	autzen|stadium|•|eugene|,|or|-lrb-|rivalry|-rrb-	Autzen|Stadium|•|Eugene|,|or|-lrb-|rivalry|-rrb-	NNP|NNP|NNP|NNP|,|NN|-LRB-|NN|-RRB-	O|O|O|PERSON|O|O|O|O|O	||||||||				Autzen Stadium • Eugene|OR (Rivalry)	fb:part.autzen_stadium_eugene|fb:part.or_rivalry
+3	4	fb:cell.w_29_22	W 29–22	w|29|--|22	W|29|--|22	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|29.0||22.0	29.0		22.0		
+4	0	fb:cell.october_10	October 10	october|10	October|10	NNP|CD	DATE|DATE	XXXX-10-10|XXXX-10-10	10.0	xxxx-10-10			
+4	1	fb:cell.usc	USC	usc	USC	NNP	O						
+4	2	fb:cell.null											
+4	3	fb:cell.autzen_stadium_eugene_or	Autzen Stadium • Eugene, OR	autzen|stadium|•|eugene|,|or	Autzen|Stadium|•|Eugene|,|or	NNP|NNP|NNP|NNP|,|NN	O|O|O|PERSON|O|O	|||||				Autzen Stadium • Eugene|OR	fb:part.autzen_stadium_eugene|fb:part.or
+4	4	fb:cell.w_34_27	W 34–27	w|34|--|27	W|34|--|27	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|34.0||27.0	34.0		27.0		
+5	0	fb:cell.october_17	October 17	october|17	October|17	NNP|CD	DATE|DATE	XXXX-10-17|XXXX-10-17	17.0	xxxx-10-17			
+5	1	fb:cell.at_9_ucla	at #9 UCLA	at|#|9|ucla	at|#|9|UCLA	IN|#|CD|NNP	O|MONEY|MONEY|ORGANIZATION	|£9.0|£9.0|	9.0				
+5	2	fb:cell._16	#16	#|16	#|16	#|CD	MONEY|MONEY	£16.0|£16.0	16.0				
+5	3	fb:cell.rose_bowl_pasadena_ca	Rose Bowl • Pasadena, CA	rose|bowl|•|pasadena|,|ca	Rose|Bowl|•|Pasadena|,|CA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|LOCATION|O|O	|||||				Rose Bowl • Pasadena|CA	fb:part.rose_bowl_pasadena|fb:part.ca
+5	4	fb:cell.l_10_41	L 10–41	l|10|--|41	l|10|--|41	NN|CD|:|CD	O|NUMBER|O|NUMBER	|10.0||41.0	10.0		41.0		
+6	0	fb:cell.october_24	October 24	october|24	October|24	NNP|CD	DATE|DATE	XXXX-10-24|XXXX-10-24	24.0	xxxx-10-24			
+6	1	fb:cell.at_stanford	at Stanford	at|stanford	at|Stanford	IN|NNP	O|LOCATION	|					
+6	2	fb:cell.null											
+6	3	fb:cell.stanford_stadium_stanford_ca	Stanford Stadium • Stanford, CA	stanford|stadium|•|stanford|,|ca	Stanford|Stadium|•|Stanford|,|CA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|ORGANIZATION|O|LOCATION	|||||				Stanford Stadium • Stanford|CA	fb:part.stanford_stadium_stanford|fb:part.ca
+6	4	fb:cell.l_10_13	L 10–13	l|10|--|13	l|10|--|13	NN|CD|:|CD	O|NUMBER|O|NUMBER	|10.0||13.0	10.0		13.0		
+7	0	fb:cell.october_31	October 31	october|31	October|31	NNP|CD	DATE|DATE	XXXX-10-31|XXXX-10-31	31.0	xxxx-10-31			
+7	1	fb:cell.california	California	california	California	NNP	LOCATION						
+7	2	fb:cell.null											
+7	3	fb:cell.autzen_stadium_eugene_or	Autzen Stadium • Eugene, OR	autzen|stadium|•|eugene|,|or	Autzen|Stadium|•|Eugene|,|or	NNP|NNP|NNP|NNP|,|NN	O|O|O|PERSON|O|O	|||||				Autzen Stadium • Eugene|OR	fb:part.autzen_stadium_eugene|fb:part.or
+7	4	fb:cell.l_6_20	L 6–20	l|6|--|20	l|6|--|20	NN|CD|:|CD	O|NUMBER|O|NUMBER	|6.0||20.0	6.0		20.0		
+8	0	fb:cell.november_7	November 7	november|7	November|7	NNP|CD	DATE|DATE	XXXX-11-07|XXXX-11-07	7.0	xxxx-11-07			
+8	1	fb:cell.at_arizona_state	at Arizona State	at|arizona|state	at|Arizona|State	IN|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||					
+8	2	fb:cell.null											
+8	3	fb:cell.sun_devil_stadium_tempe_az	Sun Devil Stadium • Tempe, AZ	sun|devil|stadium|•|tempe|,|az	Sun|Devil|Stadium|•|Tempe|,|AZ	NNP|NNP|NNP|NNP|NNP|,|NNP	O|O|O|O|O|O|LOCATION	||||||				Sun Devil Stadium • Tempe|AZ	fb:part.sun_devil_stadium_tempe|fb:part.az
+8	4	fb:cell.l_17_37	L 17–37	l|17|--|37	l|17|--|37	NN|CD|:|CD	O|NUMBER|O|NUMBER	|17.0||37.0	17.0		37.0		
+9	0	fb:cell.november_14	November 14	november|14	November|14	NNP|CD	DATE|DATE	XXXX-11-14|XXXX-11-14	14.0	xxxx-11-14			
+9	1	fb:cell.at_washington_state	at Washington State	at|washington|state	at|Washington|State	IN|NNP|NNP	O|LOCATION|LOCATION	||					
+9	2	fb:cell.null											
+9	3	fb:cell.martin_stadium_pullman_wa	Martin Stadium • Pullman, WA	martin|stadium|•|pullman|,|wa	Martin|Stadium|•|Pullman|,|WA	NNP|NNP|NNP|NNP|,|NNP	O|O|O|PERSON|O|LOCATION	|||||				Martin Stadium • Pullman|WA	fb:part.martin_stadium_pullman|fb:part.wa
+9	4	fb:cell.w_31_17	W 31–17	w|31|--|17	W|31|--|17	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|31.0||17.0	31.0		17.0		
+10	0	fb:cell.november_21	November 21	november|21	November|21	NNP|CD	DATE|DATE	XXXX-11-21|XXXX-11-21	21.0	xxxx-11-21			
+10	1	fb:cell.oregon_state	Oregon State	oregon|state	Oregon|State	NNP|NNP	O|O	|					
+10	2	fb:cell.null											
+10	3	fb:cell.autzen_stadium_eugene_or_civil_war	Autzen Stadium • Eugene, OR (Civil War)	autzen|stadium|•|eugene|,|or|-lrb-|civil|war|-rrb-	Autzen|Stadium|•|Eugene|,|or|-lrb-|civil|war|-rrb-	NNP|NNP|NNP|NNP|,|NN|-LRB-|JJ|NN|-RRB-	O|O|O|PERSON|O|O|O|O|O|O	|||||||||				Autzen Stadium • Eugene|OR (Civil War)	fb:part.autzen_stadium_eugene|fb:part.or_civil_war
+10	4	fb:cell.w_44_0	W 44–0	w|44|--|0	W|44|--|0	NNP|CD|:|CD	O|NUMBER|O|NUMBER	|44.0||0.0	44.0		0.0		

@@ -1,0 +1,56 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.model_name	Model name	model|name	Model|name	NNP|NN	O|O	|					
+-1	1	fb:row.row.date	Date	date	date	NN	O						
+-1	2	fb:row.row.type	Type	type	type	NN	O						
+-1	3	fb:row.row.thrust_kg_power_eshp	Thrust (kg) / Power (eshp)	thrust|-lrb-|kg|-rrb-|\\/|power|-lrb-|eshp|-rrb-	thrust|-lrb-|kg|-rrb-|\\/|power|-lrb-|eshp|-rrb-	NN|-LRB-|NN|-RRB-|:|NN|-LRB-|NN|-RRB-	O|O|O|O|O|O|O|O|O	||||||||					
+-1	4	fb:row.row.fitted_to	Fitted to	fitted|to	fit|to	VBN|TO	O|O	|					
+0	0	fb:cell.rtd_1_vdr_2	RTD-1/VDR-2	rtd-1|\\/|vdr-2	rtd-1|\\/|vdr-2	NN|:|NN	O|O|O	||	1.0		2.0	RTD-1|VDR-2	fb:part.rtd_1|fb:part.vdr_2
+0	1	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+0	2	fb:cell.two_stage_centrifugal_compressor_turbojet	Two-stage centrifugal compressor Turbojet	two|stage|centrifugal|compressor|turbojet	two|stage|centrifugal|compressor|Turbojet	CD|NN|JJ|NN|NNP	NUMBER|O|O|O|O	2.0||||					
+0	3	fb:cell.500_kg_estimated	500 kg estimated	500|kg|estimated	500|kg|estimate	CD|NN|VBN	NUMBER|O|O	500.0||	500.0				
+0	4	fb:cell.test_bed_only	Test-bed only	test|bed|only	test|bed|only	NN|NN|RB	O|O|O	||				Test-bed only	fb:part.test_bed_only
+1	0	fb:cell.s_18_vdr_3	S-18/VDR-3	s-18|\\/|vdr-3	s-18|\\/|vdr-3	NN|:|NN	O|O|O	||	18.0		3.0	S-18|VDR-3	fb:part.s_18|fb:part.vdr_3
+1	1	fb:cell.1945	1945	1945	1945	CD	DATE	1945	1945.0	1945-xx-xx			
+1	2	fb:cell.axial_flow_compressor_turbojet	Axial flow compressor Turbojet	axial|flow|compressor|turbojet	axial|flow|compressor|Turbojet	JJ|NN|NN|NNP	MISC|O|O|O	|||					
+1	3	fb:cell.1_250_kg	1,250 kg	1,250|kg	1,250|kg	CD|NN	NUMBER|O	1250.0|	1250.0				
+1	4	fb:cell.gu_vrd_project	Gu-VRD project	gu|vrd|project	Gu|VRD|project	NNP|NNP|NN	O|O|O	||				Gu-VRD project	fb:part.gu_vrd_project
+2	0	fb:cell.tr_1	TR-1	tr-1	tr-1	NN	O		1.0			TR-1	fb:part.tr_1
+2	1	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx			
+2	2	fb:cell.8_stage_axial_flow_compressor_turbojet	8-stage Axial flow compressor Turbojet	8|stage|axial|flow|compressor|turbojet	8|stage|Axial|flow|compressor|Turbojet	CD|NN|NNP|NN|NN|NNP	NUMBER|O|MISC|O|O|O	8.0|||||	8.0				
+2	3	fb:cell.1_300_kg	1,300 kg	1,300|kg	1,300|kg	CD|NN	NUMBER|O	1300.0|	1300.0				
+2	4	fb:cell.alekseyev_i_21_ilyushin_il_22_sukhoi_su_10_sukhoi_su_11	Alekseyev I-21, Ilyushin Il-22, Sukhoi Su-10, Sukhoi Su-11	alekseyev|i-21|,|ilyushin|il-22|,|sukhoi|su-10|,|sukhoi|su-11	Alekseyev|I-21|,|Ilyushin|il-22|,|Sukhoi|Su-10|,|Sukhoi|su-11	NNP|NNP|,|NNP|NN|,|NNP|NNP|,|NNP|NN	PERSON|O|O|PERSON|O|O|O|O|O|O|O	||||||||||	21.0		22.0	Alekseyev I-21|Ilyushin Il-22|Sukhoi Su-10|Sukhoi Su-11	fb:part.alekseyev_i_21|fb:part.ilyushin_il_22|fb:part.sukhoi_su_10|fb:part.sukhoi_su_11
+3	0	fb:cell.tr_1a	TR-1A	tr-1a	tr-1a	NN	O		1.0			TR-1A	fb:part.tr_1a
+3	1	fb:cell.1947	1947	1947	1947	CD	DATE	1947	1947.0	1947-xx-xx			
+3	2	fb:cell.8_stage_axial_flow_compressor_turbojet	8-stage Axial flow compressor Turbojet	8|stage|axial|flow|compressor|turbojet	8|stage|Axial|flow|compressor|Turbojet	CD|NN|NNP|NN|NN|NNP	NUMBER|O|MISC|O|O|O	8.0|||||	8.0				
+3	3	fb:cell.1_500_kg	1,500 kg	1,500|kg	1,500|kg	CD|NN	NUMBER|O	1500.0|	1500.0				
+3	4	fb:cell.null											fb:part.null
+4	0	fb:cell.tr_2	TR-2	tr-2	tr-2	NN	O		2.0			TR-2	fb:part.tr_2
+4	1	fb:cell.1947	1947	1947	1947	CD	DATE	1947	1947.0	1947-xx-xx			
+4	2	fb:cell.null											fb:part.null
+4	3	fb:cell.null											fb:part.null
+4	4	fb:cell.projected_growth_version_of_tr_1	projected growth version of TR-1	projected|growth|version|of|tr-1	project|growth|version|of|tr-1	VBN|NN|NN|IN|NN	O|O|O|O|O	||||	1.0			projected growth version of TR-1	fb:part.projected_growth_version_of_tr_1
+5	0	fb:cell.tr_3_and_al_5	TR-3 and AL-5	tr-3|and|al-5	tr-3|and|al-5	NN|CC|NN	O|O|O	||	3.0		5.0	TR-3 and AL-5	fb:part.tr_3_and_al_5
+5	1	fb:cell.1949	1949	1949	1949	CD	DATE	1949	1949.0	1949-xx-xx			
+5	2	fb:cell.7_stage_axial_flow_turbojet	7-stage Axial-flow Turbojet	7|stage|axial|flow|turbojet	7|stage|Axial|flow|Turbojet	CD|NN|NNP|NN|NNP	NUMBER|O|MISC|O|O	7.0||||	7.0				
+5	3	fb:cell.4_600_kg_at_qualification_in_1950	4,600 kg (at qualification in 1950)	4,600|kg|-lrb-|at|qualification|in|1950|-rrb-	4,600|kg|-lrb-|at|qualification|in|1950|-rrb-	CD|NN|-LRB-|IN|NN|IN|CD|-RRB-	NUMBER|O|O|O|O|O|DATE|O	4600.0||||||1950|	4600.0		1950.0		
+5	4	fb:cell.il_30_il_46_lavochkin_aircraft_190_tu_86_yak_1000_su_17_1949_aircraft_150	Il-30, Il-46, Lavochkin Aircraft 190, Tu-86, Yak-1000, Su-17(1949), "Aircraft 150"	il-30|,|il-46|,|lavochkin|aircraft|190|,|tu-86|,|yak-1000|,|su-17|-lrb-|1949|-rrb-|,|``|aircraft|150|''	il-30|,|il-46|,|Lavochkin|Aircraft|190|,|tu-86|,|yak-1000|,|su-17|-lrb-|1949|-rrb-|,|``|Aircraft|150|''	NN|,|NN|,|NNP|NNP|CD|,|NN|,|NN|,|NN|-LRB-|CD|-RRB-|,|``|NNP|CD|''	O|O|O|O|MISC|O|NUMBER|O|O|O|O|O|O|O|DATE|O|O|O|O|NUMBER|O	||||||190.0||||||||1949|||||150.0|	30.0		46.0	Il-30|Il-46|Lavochkin Aircraft 190|Tu-86|Yak-1000|Su-17(1949)|"Aircraft 150"	fb:part.il_30|fb:part.il_46|fb:part.lavochkin_aircraft_190|fb:part.tu_86|fb:part.yak_1000|fb:part.su_17_1949|fb:part._aircraft_150
+6	0	fb:cell.tr_7	TR-7	tr-7	tr-7	NN	O		7.0			TR-7	fb:part.tr_7
+6	1	fb:cell.1950s	1950s	1950s	1950	NNS	SET		1950.0				
+6	2	fb:cell.supersonic_compressor_prototype_of_the_al_7	supersonic compressor prototype of the AL-7	supersonic|compressor|prototype|of|the|al-7	supersonic|compressor|prototype|of|the|al-7	JJ|NN|NN|IN|DT|NN	O|O|O|O|O|O	|||||	7.0				
+6	3	fb:cell.null											fb:part.null
+6	4	fb:cell.prototype_for_al_7	Prototype for AL-7	prototype|for|al-7	prototype|for|al-7	NN|IN|NN	O|O|O	||	7.0			Prototype for AL-7	fb:part.prototype_for_al_7
+7	0	fb:cell.al_7	AL-7	al-7	al-7	NN	O		7.0			AL-7	fb:part.al_7
+7	1	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+7	2	fb:cell.9_stage_supersonic_compressor_turbojet	9-stage supersonic compressor Turbojet	9|stage|supersonic|compressor|turbojet	9|stage|supersonic|compressor|Turbojet	CD|NN|JJ|NN|NNP	NUMBER|O|O|O|O	9.0||||	9.0				
+7	3	fb:cell.6_500_kg	6,500 kg	6,500|kg	6,500|kg	CD|NN	NUMBER|O	6500.0|	6500.0				
+7	4	fb:cell.il_54_su_7b_tu_98_su	Il-54, Su-7B, Tu-98, Su	il-54|,|su-7b|,|tu-98|,|su	il-54|,|su-7b|,|tu-98|,|su	NN|,|NN|,|NN|,|FW	O|O|O|O|O|O|O	||||||	54.0		7.0	Il-54|Su-7B|Tu-98|Su	fb:part.il_54|fb:part.su_7b|fb:part.tu_98|fb:part.su
+8	0	fb:cell.al_21	AL-21	al-21	al-21	NN	O		21.0			AL-21	fb:part.al_21
+8	1	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+8	2	fb:cell.14_stage_axial_compressor_with_variable_stator_blades	14-stage Axial compressor with variable stator blades	14|stage|axial|compressor|with|variable|stator|blades	14|stage|Axial|compressor|with|variable|stator|blade	CD|NN|NNP|NN|IN|JJ|NN|NNS	NUMBER|O|MISC|O|O|O|O|O	14.0|||||||	14.0				
+8	3	fb:cell.11_000_kg	11,000 kg	11,000|kg	11,000|kg	CD|NN	NUMBER|O	11000.0|	11000.0				
+8	4	fb:cell.yak_38_tu_28_tu_128_su_17_su_24	Yak-38, Tu-28/Tu-128, Su-17, Su-24	yak-38|,|tu-28|\\/|tu-128|,|su-17|,|su-24	yak-38|,|tu-28|\\/|tu-128|,|su-17|,|su-24	NN|,|NN|:|NN|,|NN|,|NN	O|O|O|O|O|O|O|O|O	||||||||	38.0		28.0	Yak-38|Tu-28|Tu-128|Su-17|Su-24	fb:part.yak_38|fb:part.tu_28|fb:part.tu_128|fb:part.su_17|fb:part.su_24
+9	0	fb:cell.al_31	AL-31	al-31	al-31	NN	O		31.0			AL-31	fb:part.al_31
+9	1	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+9	2	fb:cell.twin_spool_turbofan_0_6_bypass_ratio	Twin-spool Turbofan 0.6 bypass ratio.	twin|spool|turbofan|0.6|bypass|ratio|.	twin|spool|Turbofan|0.6|bypass|ratio|.	JJ|NN|NNP|CD|NN|NN|.	O|O|MISC|NUMBER|O|O|O	|||0.6|||	0.6				
+9	3	fb:cell.13_300_kg	13,300 kg	13,300|kg	13,300|kg	CD|NN	NUMBER|O	13300.0|	13300.0				
+9	4	fb:cell.su_27_su_30_su_34_su_35_su_47_berkut	Su-27, Su-30, Su-34, Su-35, Su-47 Berkut	su-27|,|su-30|,|su-34|,|su-35|,|su-47|berkut	su-27|,|su-30|,|su-34|,|su-35|,|su-47|berkut	NN|,|NN|,|NN|,|NN|,|NN|NN	O|O|O|O|O|O|O|O|O|O	|||||||||	27.0		30.0	Su-27|Su-30|Su-34|Su-35|Su-47 Berkut	fb:part.su_27|fb:part.su_30|fb:part.su_34|fb:part.su_35|fb:part.su_47_berkut

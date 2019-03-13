@@ -1,0 +1,65 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.uk	UK	uk	UK	NNP	LOCATION						
+-1	3	fb:row.row.us_billboard_hot_100	US:\nBillboard\nHot 100	us|:|billboard|hot|100	US|:|Billboard|Hot|100	NNP|:|NNP|NNP|CD	LOCATION|O|O|O|NUMBER	||||100.0					
+-1	4	fb:row.row.us_billboard_r_b	US:\nBillboard\nR&B	us|:|billboard|r&b	US|:|Billboard|R&B	NNP|:|NNP|NNP	LOCATION|O|O|O	|||					
+-1	5	fb:row.row.us_billboard_a_c	US:\nBillboard\nA/C	us|:|billboard|a\\/c	US|:|Billboard|A\\/C	NNP|:|NNP|NNP	LOCATION|O|O|O	|||					
+-1	6	fb:row.row.australia	Australia	australia	Australia	NNP	LOCATION						
+-1	7	fb:row.row.various	Various	various	various	JJ	O						
+0	0	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+0	1	fb:cell._right_back_where_we_started_from	"Right Back Where We Started From"	``|right|back|where|we|started|from|''	``|right|back|where|we|start|from|''	``|RB|RB|WRB|PRP|VBD|IN|''	O|O|O|O|O|O|O|O	|||||||					
+0	2	fb:cell._75_8	('75) #8	-lrb-|'|75|-rrb-|#|8	-lrb-|'|75|-rrb-|#|8	-LRB-|''|CD|-RRB-|#|CD	O|DATE|DATE|O|MONEY|MONEY	|XX75|XX75||£8.0|£8.0	75.0		8.0		
+0	3	fb:cell._2	#2	#|2	#|2	#|CD	MONEY|MONEY	£2.0|£2.0	2.0				
+0	4	fb:cell._46	#46	#|46	#|46	#|CD	MONEY|MONEY	£46.0|£46.0	46.0				
+0	5	fb:cell._5	#5	#|5	#|5	#|CD	MONEY|MONEY	£5.0|£5.0	5.0				
+0	6	fb:cell._4	#4	#|4	#|4	#|CD	MONEY|MONEY	£4.0|£4.0	4.0				
+0	7	fb:cell._3_netherlands_2_belgium_12_canada_10_france_38_germany_14_ireland_6_new_zealand_78_9_sweden	#3 (Netherlands), #2 (Belgium)\n#12 (Canada), #10 (France), #38 (Germany)\n#14 (Ireland), #6 (New Zealand)\n('78) #9 (Sweden)	#|3|-lrb-|netherlands|-rrb-|,|#|2|-lrb-|belgium|-rrb-|#|12|-lrb-|canada|-rrb-|,|#|10|-lrb-|france|-rrb-|,|#|38|-lrb-|germany|-rrb-|#|14|-lrb-|ireland|-rrb-|,|#|6|-lrb-|new|zealand|-rrb-|-lrb-|'|78|-rrb-|#|9|-lrb-|sweden|-rrb-	#|3|-lrb-|Netherlands|-rrb-|,|#|2|-lrb-|belgium|-rrb-|#|12|-lrb-|Canada|-rrb-|,|#|10|-lrb-|France|-rrb-|,|#|38|-lrb-|Germany|-rrb-|#|14|-lrb-|Ireland|-rrb-|,|#|6|-lrb-|New|Zealand|-rrb-|-lrb-|'|78|-rrb-|#|9|-lrb-|Sweden|-rrb-	#|CD|-LRB-|NNP|-RRB-|,|#|CD|-LRB-|NN|-RRB-|#|CD|-LRB-|NNP|-RRB-|,|#|CD|-LRB-|NNP|-RRB-|,|#|CD|-LRB-|NNP|-RRB-|#|CD|-LRB-|NNP|-RRB-|,|#|CD|-LRB-|NNP|NNP|-RRB-|-LRB-|''|CD|-RRB-|#|CD|-LRB-|NNP|-RRB-	MONEY|MONEY|O|LOCATION|O|O|MONEY|MONEY|O|LOCATION|O|MONEY|MONEY|O|LOCATION|O|O|MONEY|MONEY|O|LOCATION|O|O|MONEY|MONEY|O|LOCATION|O|MONEY|MONEY|O|LOCATION|O|O|MONEY|MONEY|O|LOCATION|LOCATION|O|O|DATE|DATE|O|MONEY|MONEY|O|LOCATION|O	£3.0|£3.0|||||£2.0|£2.0||||£12.0|£12.0|||||£10.0|£10.0|||||£38.0|£38.0||||£14.0|£14.0|||||£6.0|£6.0||||||XX78|XX78||£9.0|£9.0|||	3.0		2.0	#3 (Netherlands)|#2 (Belgium)|#12 (Canada)|#10 (France)|#38 (Germany)|#14 (Ireland)|#6 (New Zealand)|('78) #9 (Sweden)	fb:part._3_netherlands|fb:part._2_belgium|fb:part._12_canada|fb:part._10_france|fb:part._38_germany|fb:part._14_ireland|fb:part._6_new_zealand|fb:part._78_9_sweden
+1	0	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+1	1	fb:cell._gotta_be_the_one	"Gotta Be the One"	``|got|ta|be|the|one|''	``|get|ta|be|the|one|''	``|VBD|NN|VBD-AUX|DT|CD|''	O|O|O|O|O|NUMBER|O	|||||1.0|					
+1	2	fb:cell.null	-	-	-	:	O					-	fb:part.null
+1	3	fb:cell._53	#53	#|53	#|53	#|CD	MONEY|MONEY	£53.0|£53.0	53.0				
+1	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+1	5	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+1	6	fb:cell._12	#12	#|12	#|12	#|CD	MONEY|MONEY	£12.0|£12.0	12.0				
+1	7	fb:cell._19_new_zealand	#19 (New Zealand)	#|19|-lrb-|new|zealand|-rrb-	#|19|-lrb-|New|Zealand|-rrb-	#|CD|-LRB-|NNP|NNP|-RRB-	MONEY|MONEY|O|LOCATION|LOCATION|O	£19.0|£19.0||||	19.0			#19 (New Zealand)	fb:part._19_new_zealand
+2	0	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+2	1	fb:cell._love_hit_me	"Love Hit Me"	``|love|hit|me|''	``|Love|hit|I|''	``|NNP|VBD|PRP|''	O|O|O|O|O	||||					
+2	2	fb:cell._11	#11	#|11	#|11	#|CD	MONEY|MONEY	£11.0|£11.0	11.0				
+2	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+2	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+2	5	fb:cell.null	-	-	-	:	O					-	fb:part.null
+2	6	fb:cell._22	#22	#|22	#|22	#|CD	MONEY|MONEY	£22.0|£22.0	22.0				
+2	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	0	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+3	1	fb:cell._will_you_be_my_lover	"Will You Be My Lover"	``|will|you|be|my|lover|''	``|will|you|be|my|lover|''	``|VBD-AUX|PRP|VBD-AUX|PRP$|NN|''	O|O|O|O|O|O|O	||||||					
+3	2	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	5	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	6	fb:cell.null	-	-	-	:	O					-	fb:part.null
+3	7	fb:cell._44_france	#44 (France)	#|44|-lrb-|france|-rrb-	#|44|-lrb-|France|-rrb-	#|CD|-LRB-|NNP|-RRB-	MONEY|MONEY|O|LOCATION|O	£44.0|£44.0|||	44.0			#44 (France)	fb:part._44_france
+4	0	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+4	1	fb:cell._lead_me_on	"Lead Me On"	``|lead|me|on|''	``|lead|I|on|''	``|JJ|PRP|IN|''	O|O|O|O|O	||||					
+4	2	fb:cell.null	-	-	-	:	O					-	fb:part.null
+4	3	fb:cell._5	#5	#|5	#|5	#|CD	MONEY|MONEY	£5.0|£5.0	5.0				
+4	4	fb:cell._37	#37	#|37	#|37	#|CD	MONEY|MONEY	£37.0|£37.0	37.0				
+4	5	fb:cell._1	#1	#|1	#|1	#|CD	MONEY|MONEY	£1.0|£1.0	1.0				
+4	6	fb:cell._58	#58	#|58	#|58	#|CD	MONEY|MONEY	£58.0|£58.0	58.0				
+4	7	fb:cell._2_canada_8_new_zealand	#2 (Canada), #8 (New Zealand)	#|2|-lrb-|canada|-rrb-|,|#|8|-lrb-|new|zealand|-rrb-	#|2|-lrb-|Canada|-rrb-|,|#|8|-lrb-|New|Zealand|-rrb-	#|CD|-LRB-|NNP|-RRB-|,|#|CD|-LRB-|NNP|NNP|-RRB-	MONEY|MONEY|O|LOCATION|O|O|MONEY|MONEY|O|LOCATION|LOCATION|O	£2.0|£2.0|||||£8.0|£8.0||||	2.0		8.0	#2 (Canada)|#8 (New Zealand)	fb:part._2_canada|fb:part._8_new_zealand
+5	0	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+5	1	fb:cell._bringin_out_the_girl_in_me	"(Bringin' Out) The Girl in Me"	''|-lrb-|bringin|'|out|-rrb-|the|girl|in|me|''	''|-lrb-|Bringin|'|out|-rrb-|the|Girl|in|I|''	''|-LRB-|NNP|POS|IN|-RRB-|DT|NNP|IN|PRP|''	O|O|O|O|O|O|O|O|O|O|O	||||||||||					
+5	2	fb:cell.null	-	-	-	:	O					-	fb:part.null
+5	3	fb:cell._73	#73	#|73	#|73	#|CD	MONEY|MONEY	£73.0|£73.0	73.0				
+5	4	fb:cell.null	-	-	-	:	O					-	fb:part.null
+5	5	fb:cell.null	-	-	-	:	O					-	fb:part.null
+5	6	fb:cell.null	-	-	-	:	O					-	fb:part.null
+5	7	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+6	1	fb:cell._turn_to_me_with_jimmy_ruffin	"Turn to Me" (with Jimmy Ruffin)	``|turn|to|me|''|-lrb-|with|jimmy|ruffin|-rrb-	``|turn|to|I|''|-lrb-|with|Jimmy|Ruffin|-rrb-	``|VB|TO|PRP|''|-LRB-|IN|NNP|NNP|-RRB-	O|O|O|O|O|O|O|PERSON|PERSON|O	|||||||||					
+6	2	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	3	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	4	fb:cell._17	#17	#|17	#|17	#|CD	MONEY|MONEY	£17.0|£17.0	17.0				
+6	5	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	6	fb:cell.null	-	-	-	:	O					-	fb:part.null
+6	7	fb:cell.null	-	-	-	:	O					-	fb:part.null

@@ -1,0 +1,101 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.medal	Medal	medal	medal	NN	O						
+-1	1	fb:row.row.name	Name	name	name	VB	O						
+-1	2	fb:row.row.sport	Sport	sport	Sport	NNP	O						
+-1	3	fb:row.row.event	Event	event	event	NN	O						
+-1	4	fb:row.row.date	Date	date	date	NN	O						
+0	0	fb:cell.gold	Gold	gold	gold	NN	O						
+0	1	fb:cell.louis_chaillot_maurice_perrin	Louis Chaillot, Maurice Perrin	louis|chaillot|,|maurice|perrin	Louis|Chaillot|,|Maurice|Perrin	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Louis Chaillot|Maurice Perrin	fb:part.louis_chaillot|fb:part.maurice_perrin
+0	2	fb:cell.cycling	Cycling	cycling	Cycling	NNP	O						
+0	3	fb:cell.men_s_tandem	Men's tandem	men|'s|tandem	Men|'s|tandem	NNP|POS|JJ	O|O|O	||					
+0	4	fb:cell.august_3	August 3	august|3	August|3	NNP|CD	DATE|DATE	XXXX-08-03|XXXX-08-03	3.0	xxxx-08-03			
+1	0	fb:cell.gold	Gold	gold	gold	NN	O						
+1	1	fb:cell.xavier_lesage	Xavier Lesage	xavier|lesage	Xavier|Lesage	NNP|NNP	PERSON|PERSON	|				Xavier Lesage	fb:part.xavier_lesage
+1	2	fb:cell.equestrian	Equestrian	equestrian	Equestrian	NNP	O						
+1	3	fb:cell.individual_dressage	Individual dressage	individual|dressage	individual|dressage	JJ|NN	O|O	|					
+1	4	fb:cell.august_10	August 10	august|10	August|10	NNP|CD	DATE|DATE	XXXX-08-10|XXXX-08-10	10.0	xxxx-08-10			
+2	0	fb:cell.gold	Gold	gold	gold	NN	O						
+2	1	fb:cell.andre_jousseaume_xavier_lesage_charles_marion	André Jousseaume, Xavier Lesage,\nCharles Marion	andré|jousseaume|,|xavier|lesage|,|charles|marion	André|Jousseaume|,|Xavier|Lesage|,|Charles|Marion	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				André Jousseaume|Xavier Lesage|Charles Marion	fb:part.andre_jousseaume|fb:part.xavier_lesage|fb:part.charles_marion
+2	2	fb:cell.equestrian	Equestrian	equestrian	Equestrian	NNP	O						
+2	3	fb:cell.team_dressage	Team dressage	team|dressage	Team|dressage	NNP|NN	O|O	|					
+2	4	fb:cell.august_10	August 10	august|10	August|10	NNP|CD	DATE|DATE	XXXX-08-10|XXXX-08-10	10.0	xxxx-08-10			
+3	0	fb:cell.gold	Gold	gold	gold	NN	O						
+3	1	fb:cell.georges_buchard_philippe_cattiau_fernand_jourdant_jean_piot_bernard_schmetz_georges_tainturier	Georges Buchard, Philippe Cattiau,\nFernand Jourdant, Jean Piot,\nBernard Schmetz, Georges Tainturier	georges|buchard|,|philippe|cattiau|,|fernand|jourdant|,|jean|piot|,|bernard|schmetz|,|georges|tainturier	Georges|Buchard|,|Philippe|Cattiau|,|Fernand|Jourdant|,|Jean|Piot|,|Bernard|Schmetz|,|Georges|Tainturier	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||||				Georges Buchard|Philippe Cattiau|Fernand Jourdant|Jean Piot|Bernard Schmetz|Georges Tainturier	fb:part.georges_buchard|fb:part.philippe_cattiau|fb:part.fernand_jourdant|fb:part.jean_piot|fb:part.bernard_schmetz|fb:part.georges_tainturier
+3	2	fb:cell.fencing	Fencing	fencing	fencing	NN	O						
+3	3	fb:cell.men_s_team_epee	Men's team épée	men|'s|team|épée	man|'s|team|épée	NN|POS|NN|NN	O|O|O|O	|||					
+3	4	fb:cell.august_7	August 7	august|7	August|7	NNP|CD	DATE|DATE	XXXX-08-07|XXXX-08-07	7.0	xxxx-08-07			
+4	0	fb:cell.gold	Gold	gold	gold	NN	O						
+4	1	fb:cell.rene_bondoux_rene_bougnol_philippe_cattiau_edward_gardere_rene_lemoine_jean_piot	René Bondoux, René Bougnol,\nPhilippe Cattiau, Edward Gardère,\nRené Lemoine, Jean Piot	rené|bondoux|,|rené|bougnol|,|philippe|cattiau|,|edward|gardère|,|rené|lemoine|,|jean|piot	René|Bondoux|,|René|Bougnol|,|Philippe|Cattiau|,|Edward|Gardère|,|René|Lemoine|,|Jean|Piot	NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||||||||				René Bondoux|René Bougnol|Philippe Cattiau|Edward Gardère|René Lemoine|Jean Piot	fb:part.rene_bondoux|fb:part.rene_bougnol|fb:part.philippe_cattiau|fb:part.edward_gardere|fb:part.rene_lemoine|fb:part.jean_piot
+4	2	fb:cell.fencing	Fencing	fencing	fencing	NN	O						
+4	3	fb:cell.men_s_team_foil	Men's team foil	men|'s|team|foil	man|'s|team|foil	NN|POS|NN|NN	O|O|O|O	|||					
+4	4	fb:cell.august_1	August 1	august|1	August|1	NNP|CD	DATE|DATE	XXXX-08-01|XXXX-08-01	1.0	xxxx-08-01			
+5	0	fb:cell.gold	Gold	gold	gold	NN	O						
+5	1	fb:cell.jacques_lebrun	Jacques Lebrun	jacques|lebrun	Jacques|Lebrun	NNP|NNP	PERSON|PERSON	|				Jacques Lebrun	fb:part.jacques_lebrun
+5	2	fb:cell.sailing	Sailing	sailing	Sailing	NNP	O						
+5	3	fb:cell.snowbird_class	Snowbird class	snowbird|class	Snowbird|class	NNP|NN	O|O	|					
+5	4	fb:cell.august_12	August 12	august|12	August|12	NNP|CD	DATE|DATE	XXXX-08-12|XXXX-08-12	12.0	xxxx-08-12			
+6	0	fb:cell.gold	Gold	gold	gold	NN	O						
+6	1	fb:cell.raymond_suvigny	Raymond Suvigny	raymond|suvigny	Raymond|Suvigny	NNP|NNP	PERSON|PERSON	|				Raymond Suvigny	fb:part.raymond_suvigny
+6	2	fb:cell.weightlifting	Weightlifting	weightlifting	weightlift	VBG	O						
+6	3	fb:cell.men_s_60_kg	Men's 60 kg	men|'s|60|kg	man|'s|60|kg	NN|POS|CD|NN	O|O|NUMBER|O	||60.0|	60.0				
+6	4	fb:cell.july_31	July 31	july|31	July|31	NNP|CD	DATE|DATE	XXXX-07-31|XXXX-07-31	31.0	xxxx-07-31			
+7	0	fb:cell.gold	Gold	gold	gold	NN	O						
+7	1	fb:cell.rene_duverger	René Duverger	rené|duverger	René|Duverger	NNP|NNP	O|O	|				René Duverger	fb:part.rene_duverger
+7	2	fb:cell.weightlifting	Weightlifting	weightlifting	weightlift	VBG	O						
+7	3	fb:cell.men_s_67_5_kg	Men's 67.5 kg	men|'s|67.5|kg	man|'s|67.5|kg	NN|POS|CD|NN	O|O|NUMBER|O	||67.5|	67.5				
+7	4	fb:cell.july_30	July 30	july|30	July|30	NNP|CD	DATE|DATE	XXXX-07-30|XXXX-07-30	30.0	xxxx-07-30			
+8	0	fb:cell.gold	Gold	gold	gold	NN	O						
+8	1	fb:cell.louis_hostin	Louis Hostin	louis|hostin	Louis|Hostin	NNP|NNP	PERSON|PERSON	|				Louis Hostin	fb:part.louis_hostin
+8	2	fb:cell.weightlifting	Weightlifting	weightlifting	weightlift	VBG	O						
+8	3	fb:cell.men_s_82_5_kg	Men's 82.5 kg	men|'s|82.5|kg	man|'s|82.5|kg	NN|POS|CD|NN	O|O|NUMBER|O	||82.5|	82.5				
+8	4	fb:cell.july_30	July 30	july|30	July|30	NNP|CD	DATE|DATE	XXXX-07-30|XXXX-07-30	30.0	xxxx-07-30			
+9	0	fb:cell.gold	Gold	gold	gold	NN	O						
+9	1	fb:cell.charles_pacome	Charles Pacôme	charles|pacôme	Charles|Pacôme	NNP|NNP	PERSON|PERSON	|				Charles Pacôme	fb:part.charles_pacome
+9	2	fb:cell.wrestling	Wrestling	wrestling	wrestle	VBG	O						
+9	3	fb:cell.men_s_freestyle_lightweight	Men's freestyle lightweight	men|'s|freestyle|lightweight	man|'s|freestyle|lightweight	NN|POS|NN|JJ	O|O|O|O	|||					
+9	4	fb:cell.august_3	August 3	august|3	August|3	NNP|CD	DATE|DATE	XXXX-08-03|XXXX-08-03	3.0	xxxx-08-03			
+10	0	fb:cell.silver	Silver	silver	silver	NN	O						
+10	1	fb:cell.louis_chaillot	Louis Chaillot	louis|chaillot	Louis|Chaillot	NNP|NNP	PERSON|PERSON	|				Louis Chaillot	fb:part.louis_chaillot
+10	2	fb:cell.cycling	Cycling	cycling	Cycling	NNP	O						
+10	3	fb:cell.men_s_sprint	Men's sprint	men|'s|sprint	man|'s|sprint	NN|POS|NN	O|O|O	||					
+10	4	fb:cell.august_3	August 3	august|3	August|3	NNP|CD	DATE|DATE	XXXX-08-03|XXXX-08-03	3.0	xxxx-08-03			
+11	0	fb:cell.silver	Silver	silver	silver	NN	O						
+11	1	fb:cell.paul_chocque_amedee_fournier_rene_le_greves_henri_mouillefarine	Paul Chocque, Amédée Fournier,\nRené Le Grèves, Henri Mouillefarine	paul|chocque|,|amédée|fournier|,|rené|le|grèves|,|henri|mouillefarine	Paul|Chocque|,|Amédée|Fournier|,|René|Le|Grèves|,|Henri|Mouillefarine	NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|O|O|O|O|PERSON|PERSON	|||||||||||				Paul Chocque|Amédée Fournier|René Le Grèves|Henri Mouillefarine	fb:part.paul_chocque|fb:part.amedee_fournier|fb:part.rene_le_greves|fb:part.henri_mouillefarine
+11	2	fb:cell.cycling	Cycling	cycling	Cycling	NNP	O						
+11	3	fb:cell.men_s_team_pursuit	Men's team pursuit	men|'s|team|pursuit	man|'s|team|pursuit	NN|POS|NN|NN	O|O|O|O	|||					
+11	4	fb:cell.august_2	August 2	august|2	August|2	NNP|CD	DATE|DATE	XXXX-08-02|XXXX-08-02	2.0	xxxx-08-02			
+12	0	fb:cell.silver	Silver	silver	silver	NN	O						
+12	1	fb:cell.charles_marion	Charles Marion	charles|marion	Charles|Marion	NNP|NNP	PERSON|PERSON	|				Charles Marion	fb:part.charles_marion
+12	2	fb:cell.equestrian	Equestrian	equestrian	Equestrian	NNP	O						
+12	3	fb:cell.individual_dressage	Individual dressage	individual|dressage	individual|dressage	JJ|NN	O|O	|					
+12	4	fb:cell.august_10	August 10	august|10	August|10	NNP|CD	DATE|DATE	XXXX-08-10|XXXX-08-10	10.0	xxxx-08-10			
+13	0	fb:cell.silver	Silver	silver	silver	NN	O						
+13	1	fb:cell.georges_buchard	Georges Buchard	georges|buchard	Georges|Buchard	NNP|NNP	PERSON|PERSON	|				Georges Buchard	fb:part.georges_buchard
+13	2	fb:cell.fencing	Fencing	fencing	fencing	NN	O						
+13	3	fb:cell.men_s_epee	Men's épée	men|'s|épée	man|'s|épée	NN|POS|NN	O|O|O	||					
+13	4	fb:cell.august_9	August 9	august|9	August|9	NNP|CD	DATE|DATE	XXXX-08-09|XXXX-08-09	9.0	xxxx-08-09			
+14	0	fb:cell.silver	Silver	silver	silver	NN	O						
+14	1	fb:cell.jean_taris	Jean Taris	jean|taris	Jean|Taris	NNP|NNP	PERSON|PERSON	|				Jean Taris	fb:part.jean_taris
+14	2	fb:cell.swimming	Swimming	swimming	swimming	NN	O						
+14	3	fb:cell.men_s_400_m_freestyle	Men's 400 m freestyle	men|'s|400|m|freestyle	man|'s|400|m|freestyle	NN|POS|CD|NN|NN	O|O|NUMBER|O|O	||400.0||	400.0				
+14	4	fb:cell.august_10	August 10	august|10	August|10	NNP|CD	DATE|DATE	XXXX-08-10|XXXX-08-10	10.0	xxxx-08-10			
+15	0	fb:cell.bronze	Bronze	bronze	bronze	NN	O						
+15	1	fb:cell.paul_winter	Paul Winter	paul|winter	Paul|Winter	NNP|NNP	PERSON|PERSON	|				Paul Winter	fb:part.paul_winter
+15	2	fb:cell.athletics	Athletics	athletics	Athletics	NNP	O						
+15	3	fb:cell.men_s_discus_throw	Men's discus throw	men|'s|discus|throw	man|'s|discus|throw	NN|POS|NN|VBP	O|O|O|O	|||					
+15	4	fb:cell.august_3	August 3	august|3	August|3	NNP|CD	DATE|DATE	XXXX-08-03|XXXX-08-03	3.0	xxxx-08-03			
+16	0	fb:cell.bronze	Bronze	bronze	bronze	NN	O						
+16	1	fb:cell.charles_rampelberg	Charles Rampelberg	charles|rampelberg	Charles|Rampelberg	NNP|NNP	PERSON|PERSON	|				Charles Rampelberg	fb:part.charles_rampelberg
+16	2	fb:cell.cycling	Cycling	cycling	Cycling	NNP	O						
+16	3	fb:cell.men_s_1000_m_time_trial	Men's 1000 m time trial	men|'s|1000|m|time|trial	man|'s|1000|m|time|trial	NN|POS|CD|NN|NN|NN	O|O|DATE|O|O|O	||1000|||	1000.0				
+16	4	fb:cell.august_1	August 1	august|1	August|1	NNP|CD	DATE|DATE	XXXX-08-01|XXXX-08-01	1.0	xxxx-08-01			
+17	0	fb:cell.bronze	Bronze	bronze	bronze	NN	O						
+17	1	fb:cell.pierre_brunet_anselme_brusa_andre_giriat	Pierre Brunet, Anselme Brusa,\nAndré Giriat	pierre|brunet|,|anselme|brusa|,|andré|giriat	Pierre|Brunet|,|Anselme|Brusa|,|André|Giriat	NNP|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	|||||||				Pierre Brunet|Anselme Brusa|André Giriat	fb:part.pierre_brunet|fb:part.anselme_brusa|fb:part.andre_giriat
+17	2	fb:cell.rowing	Rowing	rowing	rowing	NN	O						
+17	3	fb:cell.men_s_coxed_pair	Men's coxed pair	men|'s|coxed|pair	man|'s|cox|pair	NN|POS|VBN|NN	O|O|O|O	|||					
+17	4	fb:cell.august_13	August 13	august|13	August|13	NNP|CD	DATE|DATE	XXXX-08-13|XXXX-08-13	13.0	xxxx-08-13			
+18	0	fb:cell.bronze	Bronze	bronze	bronze	NN	O						
+18	1	fb:cell.louis_francois	Louis François	louis|françois	Louis|François	NNP|NNP	PERSON|PERSON	|				Louis François	fb:part.louis_francois
+18	2	fb:cell.wrestling	Wrestling	wrestling	wrestle	VBG	O						
+18	3	fb:cell.men_s_greco_roman_bantamweight	Men's Greco-Roman bantamweight	men|'s|greco|roman|bantamweight	man|'s|Greco|Roman|bantamweight	NN|POS|NNP|NNP|NN	O|O|PERSON|O|O	||||					
+18	4	fb:cell.august_7	August 7	august|7	August|7	NNP|CD	DATE|DATE	XXXX-08-07|XXXX-08-07	7.0	xxxx-08-07			

@@ -1,0 +1,1181 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rank	Rank	rank	Rank	NNP	O						
+-1	1	fb:row.row.mountain	Mountain	mountain	Mountain	NNP	O						
+-1	2	fb:row.row.height_m	Height (m)	height|-lrb-|m|-rrb-	height|-lrb-|m|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.height_ft	Height (ft)	height|-lrb-|ft|-rrb-	height|-lrb-|ft|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.range	Range	range	Range	NNP	O						
+-1	5	fb:row.row.coordinates	Coordinates	coordinates	coordinate	VBZ	O						
+-1	6	fb:row.row.prominence_m	Prominence (m)	prominence|-lrb-|m|-rrb-	prominence|-lrb-|m|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	7	fb:row.row.parent_mountain	Parent mountain	parent|mountain	Parent|mountain	NNP|NN	O|O	|					
+-1	8	fb:row.row.first_ascent	First ascent	first|ascent	First|ascent	NNP|NN	ORDINAL|O	1.0|					
+-1	9	fb:row.row.ascents_failed_attempts_bef_2004	Ascents (Failed attempts) bef.2004	ascents|-lrb-|failed|attempts|-rrb-|bef|.2004	ascent|-lrb-|fail|attempt|-rrb-|bef|.2004	NNS|-LRB-|VBD|NNS|-RRB-|FW|FW	O|O|O|O|O|O|NUMBER	||||||0.2004					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.mount_everest_sagarmatha_chomolungma	Mount Everest/\nSagarmatha/\nChomolungma	mount|everest|\\/|sagarmatha|\\/|chomolungma	Mount|Everest|\\/|Sagarmatha|\\/|Chomolungma	NNP|NNP|:|NNP|:|NNP	LOCATION|LOCATION|O|ORGANIZATION|O|LOCATION	|||||				Mount Everest|Sagarmatha|Chomolungma	fb:part.mount_everest|fb:part.sagarmatha|fb:part.chomolungma
+0	2	fb:cell.8_848	8,848	8,848	8,848	CD	NUMBER	8848.0	8848.0				
+0	3	fb:cell.29_029	29,029	29,029	29,029	CD	NUMBER	29029.0	29029.0				
+0	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+0	5	fb:cell.27_59_17_n_86_55_31_e_27_98806_n_86_92528_e	27°59′17″N 86°55′31″E﻿ / ﻿27.98806°N 86.92528°E	27|°|59|′|17|″|n|86|°|55|′|31|″|e|\\/|27.98806|°|n|86.92528|°|e	27|°|59|′|17|″|n|86|°|55|′|31|″|e|\\/|27.98806|°|n|86.92528|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||17.0|17.0||86.0|86.0|86.0||31.0|31.0|||27.98806|27.98806||86.92528|86.92528|	27.0		59.0	27°59′17″N 86°55′31″E﻿|﻿27.98806°N 86.92528°E	fb:part.27_59_17_n_86_55_31_e|fb:part.27_98806_n_86_92528_e
+0	6	fb:cell.8_848	8,848	8,848	8,848	CD	NUMBER	8848.0	8848.0				
+0	7	fb:cell.none	none	none	none	NN	O						
+0	8	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx			
+0	9	fb:cell._145_121	>>145 (121)	>>|145|-lrb-|121|-rrb-	>>|145|-lrb-|121|-rrb-	NN|CD|-LRB-|CD|-RRB-	O|NUMBER|O|NUMBER|O	|145.0||121.0|	145.0		121.0		
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.k2_qogir_godwin_austen	K2/Qogir/\nGodwin Austen	k2\\/qogir|\\/|godwin|austen	k2\\/qogir|\\/|Godwin|Austen	NN|:|NNP|NNP	O|O|PERSON|PERSON	|||	2.0			K2|Qogir|Godwin Austen	fb:part.k2|fb:part.qogir|fb:part.godwin_austen
+1	2	fb:cell.8_611	8,611	8,611	8,611	CD	NUMBER	8611.0	8611.0				
+1	3	fb:cell.28_251	28,251	28,251	28,251	CD	NUMBER	28251.0	28251.0				
+1	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+1	5	fb:cell.35_52_53_n_76_30_48_e_35_88139_n_76_51333_e	35°52′53″N 76°30′48″E﻿ / ﻿35.88139°N 76.51333°E	35|°|52|′|53|″|n|76|°|30|′|48|″|e|\\/|35.88139|°|n|76.51333|°|e	35|°|52|′|53|″|n|76|°|30|′|48|″|e|\\/|35.88139|°|n|76.51333|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||53.0|53.0||76.0|76.0|76.0||48.0|48.0|||35.88139|35.88139||76.51333|76.51333|	35.0		52.0	35°52′53″N 76°30′48″E﻿|﻿35.88139°N 76.51333°E	fb:part.35_52_53_n_76_30_48_e|fb:part.35_88139_n_76_51333_e
+1	6	fb:cell.4_017	4,017	4,017	4,017	CD	NUMBER	4017.0	4017.0				
+1	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+1	8	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+1	9	fb:cell.45_44	45 (44)	45|-lrb-|44|-rrb-	45|-lrb-|44|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	45.0||44.0|	45.0		44.0		
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+2	2	fb:cell.8_586	8,586	8,586	8,586	CD	NUMBER	8586.0	8586.0				
+2	3	fb:cell.28_169	28,169	28,169	28,169	CD	NUMBER	28169.0	28169.0				
+2	4	fb:cell.kangchenjunga_himalaya	Kangchenjunga Himalaya	kangchenjunga|himalaya	Kangchenjunga|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+2	5	fb:cell.27_42_12_n_88_08_51_e_27_70333_n_88_14750_e	27°42′12″N 88°08′51″E﻿ / ﻿27.70333°N 88.14750°E *	27|°|42|′|12|″|n|88|°|08|′|51|″|e|\\/|27.70333|°|n|88.14750|°|e|\\*	27|°|42|′|12|″|n|88|°|08|′|51|″|e|\\/|27.70333|°|n|88.14750|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	27.0|27.0|27.0||12.0|12.0||88.0|88.0|88.0||51.0|51.0|||27.70333|27.70333||88.1475|88.1475||	27.0		42.0	27°42′12″N 88°08′51″E﻿|﻿27.70333°N 88.14750°E *	fb:part.27_42_12_n_88_08_51_e|fb:part.27_70333_n_88_14750_e
+2	6	fb:cell.3_922	3,922	3,922	3,922	CD	NUMBER	3922.0	3922.0				
+2	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+2	8	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+2	9	fb:cell.38_24	38 (24)	38|-lrb-|24|-rrb-	38|-lrb-|24|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	38.0||24.0|	38.0		24.0		
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.lhotse	Lhotse	lhotse	Lhotse	NNP	PERSON					Lhotse	fb:part.lhotse
+3	2	fb:cell.8_516	8,516	8,516	8,516	CD	NUMBER	8516.0	8516.0				
+3	3	fb:cell.27_940	27,940	27,940	27,940	CD	NUMBER	27940.0	27940.0				
+3	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+3	5	fb:cell.27_57_42_n_86_55_59_e_27_96167_n_86_93306_e	27°57′42″N 86°55′59″E﻿ / ﻿27.96167°N 86.93306°E	27|°|57|′|42|″|n|86|°|55|′|59|″|e|\\/|27.96167|°|n|86.93306|°|e	27|°|57|′|42|″|n|86|°|55|′|59|″|e|\\/|27.96167|°|n|86.93306|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||42.0|42.0||86.0|86.0|86.0||59.0|59.0|||27.96167|27.96167||86.93306|86.93306|	27.0		57.0	27°57′42″N 86°55′59″E﻿|﻿27.96167°N 86.93306°E	fb:part.27_57_42_n_86_55_59_e|fb:part.27_96167_n_86_93306_e
+3	6	fb:cell.610	610	610	610	CD	NUMBER	610.0	610.0				
+3	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+3	8	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+3	9	fb:cell.26_26	26 (26)	26|-lrb-|26|-rrb-	26|-lrb-|26|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	26.0||26.0|	26.0		26.0		
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.makalu	Makalu	makalu	Makalu	NNP	O					Makalu	fb:part.makalu
+4	2	fb:cell.8_485	8,485	8,485	8,485	CD	NUMBER	8485.0	8485.0				
+4	3	fb:cell.27_838	27,838	27,838	27,838	CD	NUMBER	27838.0	27838.0				
+4	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+4	5	fb:cell.27_53_23_n_87_5_20_e_27_88972_n_87_08889_e	27°53′23″N 87°5′20″E﻿ / ﻿27.88972°N 87.08889°E	27|°|53|′|23|″|n|87|°|5|′|20|″|e|\\/|27.88972|°|n|87.08889|°|e	27|°|53|′|23|″|n|87|°|5|′|20|″|e|\\/|27.88972|°|n|87.08889|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||23.0|23.0||87.0||5.0|5.0|5.0||||27.88972|27.88972||87.08889|87.08889|	27.0		53.0	27°53′23″N 87°5′20″E﻿|﻿27.88972°N 87.08889°E	fb:part.27_53_23_n_87_5_20_e|fb:part.27_88972_n_87_08889_e
+4	6	fb:cell.2_386	2,386	2,386	2,386	CD	NUMBER	2386.0	2386.0				
+4	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+4	8	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+4	9	fb:cell.45_52	45 (52)	45|-lrb-|52|-rrb-	45|-lrb-|52|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	45.0||52.0|	45.0		52.0		
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+5	2	fb:cell.8_188	8,188	8,188	8,188	CD	NUMBER	8188.0	8188.0				
+5	3	fb:cell.26_864	26,864	26,864	26,864	CD	NUMBER	26864.0	26864.0				
+5	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+5	5	fb:cell.28_05_39_n_86_39_39_e_28_09417_n_86_66083_e	28°05′39″N 86°39′39″E﻿ / ﻿28.09417°N 86.66083°E	28|°|05|′|39|″|n|86|°|39|′|39|″|e|\\/|28.09417|°|n|86.66083|°|e	28|°|05|′|39|″|n|86|°|39|′|39|″|e|\\/|28.09417|°|n|86.66083|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||39.0|39.0||86.0|86.0|86.0||39.0|39.0|||28.09417|28.09417||86.66083|86.66083|	28.0		5.0	28°05′39″N 86°39′39″E﻿|﻿28.09417°N 86.66083°E	fb:part.28_05_39_n_86_39_39_e|fb:part.28_09417_n_86_66083_e
+5	6	fb:cell.2_340	2,340	2,340	2,340	CD	NUMBER	2340.0	2340.0				
+5	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+5	8	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+5	9	fb:cell.79_28	79 (28)	79|-lrb-|28|-rrb-	79|-lrb-|28|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	79.0||28.0|	79.0		28.0		
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.dhaulagiri_i	Dhaulagiri I	dhaulagiri|i	Dhaulagiri|I	NNP|PRP	O|O	|				Dhaulagiri I	fb:part.dhaulagiri_i
+6	2	fb:cell.8_167	8,167	8,167	8,167	CD	NUMBER	8167.0	8167.0				
+6	3	fb:cell.26_795	26,795	26,795	26,795	CD	NUMBER	26795.0	26795.0				
+6	4	fb:cell.dhaulagiri_himalaya	Dhaulagiri Himalaya	dhaulagiri|himalaya	Dhaulagiri|Himalaya	NNP|NNP	PERSON|PERSON	|					
+6	5	fb:cell.28_41_48_n_83_29_35_e_28_69667_n_83_49306_e	28°41′48″N 83°29′35″E﻿ / ﻿28.69667°N 83.49306°E	28|°|41|′|48|″|n|83|°|29|′|35|″|e|\\/|28.69667|°|n|83.49306|°|e	28|°|41|′|48|″|n|83|°|29|′|35|″|e|\\/|28.69667|°|n|83.49306|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||48.0|48.0||83.0|83.0|83.0||35.0|35.0|||28.69667|28.69667||83.49306|83.49306|	28.0		41.0	28°41′48″N 83°29′35″E﻿|﻿28.69667°N 83.49306°E	fb:part.28_41_48_n_83_29_35_e|fb:part.28_69667_n_83_49306_e
+6	6	fb:cell.3_357	3,357	3,357	3,357	CD	NUMBER	3357.0	3357.0				
+6	7	fb:cell.k2	K2	k2	k2	NN	O		2.0				
+6	8	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+6	9	fb:cell.51_39	51 (39)	51|-lrb-|39|-rrb-	51|-lrb-|39|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	51.0||39.0|	51.0		39.0		
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.manaslu	Manaslu	manaslu	Manaslu	NNP	PERSON					Manaslu	fb:part.manaslu
+7	2	fb:cell.8_163	8,163	8,163	8,163	CD	NUMBER	8163.0	8163.0				
+7	3	fb:cell.26_781	26,781	26,781	26,781	CD	NUMBER	26781.0	26781.0				
+7	4	fb:cell.manaslu_himalaya	Manaslu Himalaya	manaslu|himalaya	Manaslu|Himalaya	NNP|NNP	PERSON|PERSON	|					
+7	5	fb:cell.28_33_00_n_84_33_35_e_28_55000_n_84_55972_e	28°33′00″N 84°33′35″E﻿ / ﻿28.55000°N 84.55972°E	28|°|33|′|00|″|n|84|°|33|′|35|″|e|\\/|28.55000|°|n|84.55972|°|e	28|°|33|′|00|″|n|84|°|33|′|35|″|e|\\/|28.55000|°|n|84.55972|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||0.0|0.0||84.0|84.0|84.0||35.0|35.0|||28.55|28.55||84.55972|84.55972|	28.0		33.0	28°33′00″N 84°33′35″E﻿|﻿28.55000°N 84.55972°E	fb:part.28_33_00_n_84_33_35_e|fb:part.28_55000_n_84_55972_e
+7	6	fb:cell.3_092	3,092	3,092	3,092	CD	NUMBER	3092.0	3092.0				
+7	7	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+7	8	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+7	9	fb:cell.49_45	49 (45)	49|-lrb-|45|-rrb-	49|-lrb-|45|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	49.0||45.0|	49.0		45.0		
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.nanga_parbat	Nanga Parbat	nanga|parbat	Nanga|Parbat	NNP|NNP	PERSON|PERSON	|				Nanga Parbat	fb:part.nanga_parbat
+8	2	fb:cell.8_126	8,126	8,126	8,126	CD	NUMBER	8126.0	8126.0				
+8	3	fb:cell.26_660	26,660	26,660	26,660	CD	NUMBER	26660.0	26660.0				
+8	4	fb:cell.nanga_parbat_himalaya	Nanga Parbat Himalaya	nanga|parbat|himalaya	Nanga|Parbat|Himalaya	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+8	5	fb:cell.35_14_14_n_74_35_21_e_35_23722_n_74_58917_e	35°14′14″N 74°35′21″E﻿ / ﻿35.23722°N 74.58917°E	35|°|14|′|14|″|n|74|°|35|′|21|″|e|\\/|35.23722|°|n|74.58917|°|e	35|°|14|′|14|″|n|74|°|35|′|21|″|e|\\/|35.23722|°|n|74.58917|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||14.0|14.0||74.0|74.0|74.0||21.0|21.0|||35.23722|35.23722||74.58917|74.58917|	35.0		14.0	35°14′14″N 74°35′21″E﻿|﻿35.23722°N 74.58917°E	fb:part.35_14_14_n_74_35_21_e|fb:part.35_23722_n_74_58917_e
+8	6	fb:cell.4_608	4,608	4,608	4,608	CD	NUMBER	4608.0	4608.0				
+8	7	fb:cell.dhaulagiri	Dhaulagiri	dhaulagiri	Dhaulagiri	NNP	PERSON						
+8	8	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx			
+8	9	fb:cell.52_67	52 (67)	52|-lrb-|67|-rrb-	52|-lrb-|67|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	52.0||67.0|	52.0		67.0		
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.annapurna_i	Annapurna I	annapurna|i	Annapurna|I	NNP|PRP	O|O	|				Annapurna I	fb:part.annapurna_i
+9	2	fb:cell.8_091	8,091	8,091	8,091	CD	NUMBER	8091.0	8091.0				
+9	3	fb:cell.26_545	26,545	26,545	26,545	CD	NUMBER	26545.0	26545.0				
+9	4	fb:cell.annapurna_himalaya	Annapurna Himalaya	annapurna|himalaya	Annapurna|Himalaya	NNP|NNP	PERSON|PERSON	|					
+9	5	fb:cell.28_35_44_n_83_49_13_e_28_59556_n_83_82028_e	28°35′44″N 83°49′13″E﻿ / ﻿28.59556°N 83.82028°E	28|°|35|′|44|″|n|83|°|49|′|13|″|e|\\/|28.59556|°|n|83.82028|°|e	28|°|35|′|44|″|n|83|°|49|′|13|″|e|\\/|28.59556|°|n|83.82028|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||44.0|44.0||83.0||49.0|49.0|49.0||||28.59556|28.59556||83.82028|83.82028|	28.0		35.0	28°35′44″N 83°49′13″E﻿|﻿28.59556°N 83.82028°E	fb:part.28_35_44_n_83_49_13_e|fb:part.28_59556_n_83_82028_e
+9	6	fb:cell.2_984	2,984	2,984	2,984	CD	NUMBER	2984.0	2984.0				
+9	7	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+9	8	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+9	9	fb:cell.36_47	36 (47)	36|-lrb-|47|-rrb-	36|-lrb-|47|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	36.0||47.0|	36.0		47.0		
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.gasherbrum_i_hidden_peak_k5	Gasherbrum I/\nHidden Peak/K5	gasherbrum|i|\\/|hidden|peak\\/k5	Gasherbrum|I|\\/|hidden|peak\\/k5	NNP|PRP|:|JJ|NN	O|O|O|O|O	||||	5.0			Gasherbrum I|Hidden Peak|K5	fb:part.gasherbrum_i|fb:part.hidden_peak|fb:part.k5
+10	2	fb:cell.8_080	8,080	8,080	8,080	CD	NUMBER	8080.0	8080.0				
+10	3	fb:cell.26_509	26,509	26,509	26,509	CD	NUMBER	26509.0	26509.0				
+10	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+10	5	fb:cell.35_43_28_n_76_41_47_e_35_72444_n_76_69639_e	35°43′28″N 76°41′47″E﻿ / ﻿35.72444°N 76.69639°E	35|°|43|′|28|″|n|76|°|41|′|47|″|e|\\/|35.72444|°|n|76.69639|°|e	35|°|43|′|28|″|n|76|°|41|′|47|″|e|\\/|35.72444|°|n|76.69639|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||28.0|28.0||76.0|76.0|76.0||47.0|47.0|||35.72444|35.72444||76.69639|76.69639|	35.0		43.0	35°43′28″N 76°41′47″E﻿|﻿35.72444°N 76.69639°E	fb:part.35_43_28_n_76_41_47_e|fb:part.35_72444_n_76_69639_e
+10	6	fb:cell.2_155	2,155	2,155	2,155	CD	NUMBER	2155.0	2155.0				
+10	7	fb:cell.k2	K2	k2	k2	NN	O		2.0				
+10	8	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+10	9	fb:cell.31_16	31 (16)	31|-lrb-|16|-rrb-	31|-lrb-|16|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	31.0||16.0|	31.0		16.0		
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.broad_peak_k3	Broad Peak/K3	broad|peak\\/k3	Broad|peak\\/k3	NNP|NN	O|O	|	3.0			Broad Peak|K3	fb:part.broad_peak|fb:part.k3
+11	2	fb:cell.8_051	8,051	8,051	8,051	CD	NUMBER	8051.0	8051.0				
+11	3	fb:cell.26_414	26,414	26,414	26,414	CD	NUMBER	26414.0	26414.0				
+11	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+11	5	fb:cell.35_48_38_n_76_34_06_e_35_81056_n_76_56833_e	35°48′38″N 76°34′06″E﻿ / ﻿35.81056°N 76.56833°E	35|°|48|′|38|″|n|76|°|34|′|06|″|e|\\/|35.81056|°|n|76.56833|°|e	35|°|48|′|38|″|n|76|°|34|′|06|″|e|\\/|35.81056|°|n|76.56833|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||38.0|38.0||76.0|76.0|76.0||6.0|6.0|||35.81056|35.81056||76.56833|76.56833|	35.0		48.0	35°48′38″N 76°34′06″E﻿|﻿35.81056°N 76.56833°E	fb:part.35_48_38_n_76_34_06_e|fb:part.35_81056_n_76_56833_e
+11	6	fb:cell.1_701	1,701	1,701	1,701	CD	NUMBER	1701.0	1701.0				
+11	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+11	8	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+11	9	fb:cell.39_19	39 (19)	39|-lrb-|19|-rrb-	39|-lrb-|19|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	39.0||19.0|	39.0		19.0		
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.gasherbrum_ii_k4	Gasherbrum II/K4	gasherbrum|ii\\/k4	Gasherbrum|ii\\/k4	NNP|NN	O|O	|	4.0			Gasherbrum II|K4	fb:part.gasherbrum_ii|fb:part.k4
+12	2	fb:cell.8_034	8,034	8,034	8,034	CD	NUMBER	8034.0	8034.0				
+12	3	fb:cell.26_362	26,362	26,362	26,362	CD	NUMBER	26362.0	26362.0				
+12	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+12	5	fb:cell.35_45_28_n_76_39_12_e_35_75778_n_76_65333_e	35°45′28″N 76°39′12″E﻿ / ﻿35.75778°N 76.65333°E	35|°|45|′|28|″|n|76|°|39|′|12|″|e|\\/|35.75778|°|n|76.65333|°|e	35|°|45|′|28|″|n|76|°|39|′|12|″|e|\\/|35.75778|°|n|76.65333|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||28.0|28.0||76.0|76.0|76.0||12.0|12.0|||35.75778|35.75778||76.65333|76.65333|	35.0		45.0	35°45′28″N 76°39′12″E﻿|﻿35.75778°N 76.65333°E	fb:part.35_45_28_n_76_39_12_e|fb:part.35_75778_n_76_65333_e
+12	6	fb:cell.1_523	1,523	1,523	1,523	CD	NUMBER	1523.0	1523.0				
+12	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+12	8	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+12	9	fb:cell.54_12	54 (12)	54|-lrb-|12|-rrb-	54|-lrb-|12|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	54.0||12.0|	54.0		12.0		
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.shishapangma	Shishapangma	shishapangma	shishapangma	NN	PERSON					Shishapangma	fb:part.shishapangma
+13	2	fb:cell.8_027	8,027	8,027	8,027	CD	NUMBER	8027.0	8027.0				
+13	3	fb:cell.26_335	26,335	26,335	26,335	CD	NUMBER	26335.0	26335.0				
+13	4	fb:cell.jugal_himalaya	Jugal Himalaya	jugal|himalaya	jugal|himalaya	JJ|NN	PERSON|PERSON	|					
+13	5	fb:cell.28_21_12_n_85_46_43_e_28_35333_n_85_77861_e	28°21′12″N 85°46′43″E﻿ / ﻿28.35333°N 85.77861°E	28|°|21|′|12|″|n|85|°|46|′|43|″|e|\\/|28.35333|°|n|85.77861|°|e	28|°|21|′|12|″|n|85|°|46|′|43|″|e|\\/|28.35333|°|n|85.77861|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||12.0|12.0||85.0|85.0|85.0||43.0|43.0|||28.35333|28.35333||85.77861|85.77861|	28.0		21.0	28°21′12″N 85°46′43″E﻿|﻿28.35333°N 85.77861°E	fb:part.28_21_12_n_85_46_43_e|fb:part.28_35333_n_85_77861_e
+13	6	fb:cell.2_897	2,897	2,897	2,897	CD	NUMBER	2897.0	2897.0				
+13	7	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+13	8	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+13	9	fb:cell.43_19	43 (19)	43|-lrb-|19|-rrb-	43|-lrb-|19|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	43.0||19.0|	43.0		19.0		
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.gyachung_kang	Gyachung Kang	gyachung|kang	Gyachung|Kang	NNP|NNP	PERSON|PERSON	|				Gyachung Kang	fb:part.gyachung_kang
+14	2	fb:cell.7_952	7,952	7,952	7,952	CD	NUMBER	7952.0	7952.0				
+14	3	fb:cell.26_089	26,089	26,089	26,089	CD	NUMBER	26089.0	26089.0				
+14	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+14	5	fb:cell.28_05_53_n_86_44_42_e_28_09806_n_86_74500_e	28°05′53″N 86°44′42″E﻿ / ﻿28.09806°N 86.74500°E	28|°|05|′|53|″|n|86|°|44|′|42|″|e|\\/|28.09806|°|n|86.74500|°|e	28|°|05|′|53|″|n|86|°|44|′|42|″|e|\\/|28.09806|°|n|86.74500|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||53.0|53.0||86.0|86.0|86.0||42.0|42.0|||28.09806|28.09806||86.745|86.745|	28.0		5.0	28°05′53″N 86°44′42″E﻿|﻿28.09806°N 86.74500°E	fb:part.28_05_53_n_86_44_42_e|fb:part.28_09806_n_86_74500_e
+14	6	fb:cell.700	700	700	700	CD	NUMBER	700.0	700.0				
+14	7	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+14	8	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+14	9	fb:cell.5_3	5 (3)	5|-lrb-|3|-rrb-	5|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5.0||3.0|	5.0		3.0		
+15	0	fb:cell.null											
+15	1	fb:cell.gasherbrum_iii	Gasherbrum III	gasherbrum|iii	Gasherbrum|III	NNP|NNP	PERSON|PERSON	|				Gasherbrum III	fb:part.gasherbrum_iii
+15	2	fb:cell.7_946	7,946	7,946	7,946	CD	NUMBER	7946.0	7946.0				
+15	3	fb:cell.26_070	26,070	26,070	26,070	CD	NUMBER	26070.0	26070.0				
+15	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+15	5	fb:cell.35_45_33_n_76_38_30_e_35_75917_n_76_64167_e	35°45′33″N 76°38′30″E﻿ / ﻿35.75917°N 76.64167°E	35|°|45|′|33|″|n|76|°|38|′|30|″|e|\\/|35.75917|°|n|76.64167|°|e	35|°|45|′|33|″|n|76|°|38|′|30|″|e|\\/|35.75917|°|n|76.64167|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||33.0|33.0||76.0||38.0|38.0|38.0||||35.75917|35.75917||76.64167|76.64167|	35.0		45.0	35°45′33″N 76°38′30″E﻿|﻿35.75917°N 76.64167°E	fb:part.35_45_33_n_76_38_30_e|fb:part.35_75917_n_76_64167_e
+15	6	fb:cell.355	355	355	355	CD	NUMBER	355.0	355.0				
+15	7	fb:cell.gasherbrum_ii	Gasherbrum II	gasherbrum|ii	Gasherbrum|II	NNP|NNP	O|O	|					
+15	8	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+15	9	fb:cell.2_2	2 (2)	2|-lrb-|2|-rrb-	2|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||2.0|	2.0		2.0		
+16	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+16	1	fb:cell.annapurna_ii	Annapurna II	annapurna|ii	Annapurna|II	NNP|NNP	O|O	|				Annapurna II	fb:part.annapurna_ii
+16	2	fb:cell.7_937	7,937	7,937	7,937	CD	NUMBER	7937.0	7937.0				
+16	3	fb:cell.26_040	26,040	26,040	26,040	CD	NUMBER	26040.0	26040.0				
+16	4	fb:cell.annapurna_himalaya	Annapurna Himalaya	annapurna|himalaya	Annapurna|Himalaya	NNP|NNP	PERSON|PERSON	|					
+16	5	fb:cell.28_32_05_n_84_07_19_e_28_53472_n_84_12194_e	28°32′05″N 84°07′19″E﻿ / ﻿28.53472°N 84.12194°E	28|°|32|′|05|″|n|84|°|07|′|19|″|e|\\/|28.53472|°|n|84.12194|°|e	28|°|32|′|05|″|n|84|°|07|′|19|″|e|\\/|28.53472|°|n|84.12194|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||5.0|5.0||84.0|84.0|84.0||19.0|19.0|||28.53472|28.53472||84.12194|84.12194|	28.0		32.0	28°32′05″N 84°07′19″E﻿|﻿28.53472°N 84.12194°E	fb:part.28_32_05_n_84_07_19_e|fb:part.28_53472_n_84_12194_e
+16	6	fb:cell.2_437	2,437	2,437	2,437	CD	NUMBER	2437.0	2437.0				
+16	7	fb:cell.annapurna_i	Annapurna I	annapurna|i	Annapurna|I	NNP|PRP	O|O	|				Annapurna I	fb:part.annapurna_i
+16	8	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+16	9	fb:cell.6_19	6 (19)	6|-lrb-|19|-rrb-	6|-lrb-|19|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6.0||19.0|	6.0		19.0		
+17	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+17	1	fb:cell.gasherbrum_iv	Gasherbrum IV	gasherbrum|iv	Gasherbrum|iv	NNP|CD	O|NUMBER	|0.0				Gasherbrum IV	fb:part.gasherbrum_iv
+17	2	fb:cell.7_932	7,932	7,932	7,932	CD	NUMBER	7932.0	7932.0				
+17	3	fb:cell.26_024	26,024	26,024	26,024	CD	NUMBER	26024.0	26024.0				
+17	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+17	5	fb:cell.35_45_38_n_76_36_58_e_35_76056_n_76_61611_e	35°45′38″N 76°36′58″E﻿ / ﻿35.76056°N 76.61611°E	35|°|45|′|38|″|n|76|°|36|′|58|″|e|\\/|35.76056|°|n|76.61611|°|e	35|°|45|′|38|″|n|76|°|36|′|58|″|e|\\/|35.76056|°|n|76.61611|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||38.0|38.0||76.0|76.0|76.0||58.0|58.0|||35.76056|35.76056||76.61611|76.61611|	35.0		45.0	35°45′38″N 76°36′58″E﻿|﻿35.76056°N 76.61611°E	fb:part.35_45_38_n_76_36_58_e|fb:part.35_76056_n_76_61611_e
+17	6	fb:cell.715	715	715	715	CD	NUMBER	715.0	715.0				
+17	7	fb:cell.gasherbrum_iii	Gasherbrum III	gasherbrum|iii	Gasherbrum|III	NNP|NNP	PERSON|PERSON	|				Gasherbrum III	fb:part.gasherbrum_iii
+17	8	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+17	9	fb:cell.4_11	4 (11)	4|-lrb-|11|-rrb-	4|-lrb-|11|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||11.0|	4.0		11.0		
+18	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+18	1	fb:cell.himalchuli	Himalchuli	himalchuli	himalchulus	NNS	PERSON					Himalchuli	fb:part.himalchuli
+18	2	fb:cell.7_893	7,893	7,893	7,893	CD	NUMBER	7893.0	7893.0				
+18	3	fb:cell.25_896	25,896	25,896	25,896	CD	NUMBER	25896.0	25896.0				
+18	4	fb:cell.manaslu_himalaya	Manaslu Himalaya	manaslu|himalaya	Manaslu|Himalaya	NNP|NNP	PERSON|PERSON	|					
+18	5	fb:cell.28_26_12_n_84_38_23_e_28_43667_n_84_63972_e	28°26′12″N 84°38′23″E﻿ / ﻿28.43667°N 84.63972°E *	28|°|26|′|12|″|n|84|°|38|′|23|″|e|\\/|28.43667|°|n|84.63972|°|e|\\*	28|°|26|′|12|″|n|84|°|38|′|23|″|e|\\/|28.43667|°|n|84.63972|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	28.0|28.0|28.0||12.0|12.0||84.0|84.0|84.0||23.0|23.0|||28.43667|28.43667||84.63972|84.63972||	28.0		26.0	28°26′12″N 84°38′23″E﻿|﻿28.43667°N 84.63972°E *	fb:part.28_26_12_n_84_38_23_e|fb:part.28_43667_n_84_63972_e
+18	6	fb:cell.1_633	1,633	1,633	1,633	CD	NUMBER	1633.0	1633.0				
+18	7	fb:cell.manaslu	Manaslu	manaslu	Manaslu	NNP	PERSON					Manaslu	fb:part.manaslu
+18	8	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+18	9	fb:cell.6_12	6 (12)	6|-lrb-|12|-rrb-	6|-lrb-|12|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6.0||12.0|	6.0		12.0		
+19	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+19	1	fb:cell.distaghil_sar	Distaghil Sar	distaghil|sar	Distaghil|Sar	NNP|NNP	O|O	|				Distaghil Sar	fb:part.distaghil_sar
+19	2	fb:cell.7_884	7,884	7,884	7,884	CD	NUMBER	7884.0	7884.0				
+19	3	fb:cell.25_866	25,866	25,866	25,866	CD	NUMBER	25866.0	25866.0				
+19	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+19	5	fb:cell.36_19_33_n_75_11_16_e_36_32583_n_75_18778_e	36°19′33″N 75°11′16″E﻿ / ﻿36.32583°N 75.18778°E	36|°|19|′|33|″|n|75|°|11|′|16|″|e|\\/|36.32583|°|n|75.18778|°|e	36|°|19|′|33|″|n|75|°|11|′|16|″|e|\\/|36.32583|°|n|75.18778|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||33.0|33.0||75.0||11.0||16.0|16.0|||36.32583|36.32583||75.18778|75.18778|	36.0		19.0	36°19′33″N 75°11′16″E﻿|﻿36.32583°N 75.18778°E	fb:part.36_19_33_n_75_11_16_e|fb:part.36_32583_n_75_18778_e
+19	6	fb:cell.2_525	2,525	2,525	2,525	CD	NUMBER	2525.0	2525.0				
+19	7	fb:cell.k2	K2	k2	k2	NN	O		2.0				
+19	8	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+19	9	fb:cell.3_5	3 (5)	3|-lrb-|5|-rrb-	3|-lrb-|5|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||5.0|	3.0		5.0		
+20	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+20	1	fb:cell.ngadi_chuli	Ngadi Chuli	ngadi|chuli	Ngadi|Chuli	NNP|NNP	PERSON|PERSON	|				Ngadi Chuli	fb:part.ngadi_chuli
+20	2	fb:cell.7_871	7,871	7,871	7,871	CD	NUMBER	7871.0	7871.0				
+20	3	fb:cell.25_823	25,823	25,823	25,823	CD	NUMBER	25823.0	25823.0				
+20	4	fb:cell.manaslu_himalaya	Manaslu Himalaya	manaslu|himalaya	Manaslu|Himalaya	NNP|NNP	PERSON|PERSON	|					
+20	5	fb:cell.28_30_12_n_84_34_00_e_28_50333_n_84_56667_e	28°30′12″N 84°34′00″E﻿ / ﻿28.50333°N 84.56667°E	28|°|30|′|12|″|n|84|°|34|′|00|″|e|\\/|28.50333|°|n|84.56667|°|e	28|°|30|′|12|″|n|84|°|34|′|00|″|e|\\/|28.50333|°|n|84.56667|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||12.0|12.0||84.0|84.0|84.0||0.0|0.0|||28.50333|28.50333||84.56667|84.56667|	28.0		30.0	28°30′12″N 84°34′00″E﻿|﻿28.50333°N 84.56667°E	fb:part.28_30_12_n_84_34_00_e|fb:part.28_50333_n_84_56667_e
+20	6	fb:cell.1_020	1,020	1,020	1,020	CD	NUMBER	1020.0	1020.0				
+20	7	fb:cell.manaslu	Manaslu	manaslu	Manaslu	NNP	PERSON					Manaslu	fb:part.manaslu
+20	8	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+20	9	fb:cell.2_6	2 (6)	2|-lrb-|6|-rrb-	2|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||6.0|	2.0		6.0		
+21	0	fb:cell.null											
+21	1	fb:cell.nuptse	Nuptse	nuptse	Nuptse	NNP	O					Nuptse	fb:part.nuptse
+21	2	fb:cell.7_864	7,864	7,864	7,864	CD	NUMBER	7864.0	7864.0				
+21	3	fb:cell.25_801	25,801	25,801	25,801	CD	NUMBER	25801.0	25801.0				
+21	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+21	5	fb:cell.27_58_03_n_86_53_13_e_27_96750_n_86_88694_e	27°58′03″N 86°53′13″E﻿ / ﻿27.96750°N 86.88694°E	27|°|58|′|03|″|n|86|°|53|′|13|″|e|\\/|27.96750|°|n|86.88694|°|e	27|°|58|′|03|″|n|86|°|53|′|13|″|e|\\/|27.96750|°|n|86.88694|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||3.0|3.0||86.0||53.0|53.0|53.0||||27.9675|27.9675||86.88694|86.88694|	27.0		58.0	27°58′03″N 86°53′13″E﻿|﻿27.96750°N 86.88694°E	fb:part.27_58_03_n_86_53_13_e|fb:part.27_96750_n_86_88694_e
+21	6	fb:cell.319	319	319	319	CD	NUMBER	319.0	319.0				
+21	7	fb:cell.lhotse	Lhotse	lhotse	Lhotse	NNP	PERSON					Lhotse	fb:part.lhotse
+21	8	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+21	9	fb:cell.5_12	5 (12)	5|-lrb-|12|-rrb-	5|-lrb-|12|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5.0||12.0|	5.0		12.0		
+22	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+22	1	fb:cell.khunyang_chhish	Khunyang Chhish	khunyang|chhish	Khunyang|Chhish	NNP|NNP	PERSON|PERSON	|				Khunyang Chhish	fb:part.khunyang_chhish
+22	2	fb:cell.7_823	7,823	7,823	7,823	CD	NUMBER	7823.0	7823.0				
+22	3	fb:cell.25_666	25,666	25,666	25,666	CD	NUMBER	25666.0	25666.0				
+22	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+22	5	fb:cell.36_12_19_n_75_12_28_e_36_20528_n_75_20778_e	36°12′19″N 75°12′28″E﻿ / ﻿36.20528°N 75.20778°E *	36|°|12|′|19|″|n|75|°|12|′|28|″|e|\\/|36.20528|°|n|75.20778|°|e|\\*	36|°|12|′|19|″|n|75|°|12|′|28|″|e|\\/|36.20528|°|n|75.20778|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	36.0|36.0|36.0||19.0|19.0||75.0|75.0|75.0||28.0|28.0|||36.20528|36.20528||75.20778|75.20778||	36.0		12.0	36°12′19″N 75°12′28″E﻿|﻿36.20528°N 75.20778°E *	fb:part.36_12_19_n_75_12_28_e|fb:part.36_20528_n_75_20778_e
+22	6	fb:cell.1_765	1,765	1,765	1,765	CD	NUMBER	1765.0	1765.0				
+22	7	fb:cell.distaghil_sar	Distaghil Sar	distaghil|sar	Distaghil|Sar	NNP|NNP	O|O	|				Distaghil Sar	fb:part.distaghil_sar
+22	8	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+22	9	fb:cell.2_6	2 (6)	2|-lrb-|6|-rrb-	2|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||6.0|	2.0		6.0		
+23	0	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+23	1	fb:cell.masherbrum_k1	Masherbrum/K1	masherbrum\\/k1	masherbrum\\/k1	NN	O		1.0			Masherbrum|K1	fb:part.masherbrum|fb:part.k1
+23	2	fb:cell.7_821	7,821	7,821	7,821	CD	NUMBER	7821.0	7821.0				
+23	3	fb:cell.25_659	25,659	25,659	25,659	CD	NUMBER	25659.0	25659.0				
+23	4	fb:cell.masherbrum_karakoram	Masherbrum Karakoram	masherbrum|karakoram	Masherbrum|Karakoram	NNP|NNP	PERSON|PERSON	|					
+23	5	fb:cell.35_38_28_n_76_18_21_e_35_64111_n_76_30583_e	35°38′28″N 76°18′21″E﻿ / ﻿35.64111°N 76.30583°E	35|°|38|′|28|″|n|76|°|18|′|21|″|e|\\/|35.64111|°|n|76.30583|°|e	35|°|38|′|28|″|n|76|°|18|′|21|″|e|\\/|35.64111|°|n|76.30583|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||28.0|28.0||76.0|76.0|76.0||21.0|21.0|||35.64111|35.64111||76.30583|76.30583|	35.0		38.0	35°38′28″N 76°18′21″E﻿|﻿35.64111°N 76.30583°E	fb:part.35_38_28_n_76_18_21_e|fb:part.35_64111_n_76_30583_e
+23	6	fb:cell.2_457	2,457	2,457	2,457	CD	NUMBER	2457.0	2457.0				
+23	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+23	8	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+23	9	fb:cell.4_9	4 (9)	4|-lrb-|9|-rrb-	4|-lrb-|9|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||9.0|	4.0		9.0		
+24	0	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+24	1	fb:cell.nanda_devi	Nanda Devi	nanda|devi	Nanda|Devi	NNP|NNP	PERSON|PERSON	|				Nanda Devi	fb:part.nanda_devi
+24	2	fb:cell.7_816	7,816	7,816	7,816	CD	NUMBER	7816.0	7816.0				
+24	3	fb:cell.25_643	25,643	25,643	25,643	CD	NUMBER	25643.0	25643.0				
+24	4	fb:cell.garhwal_himalaya	Garhwal Himalaya	garhwal|himalaya	Garhwal|Himalaya	NNP|NNP	PERSON|PERSON	|					
+24	5	fb:cell.30_22_33_n_79_58_15_e_30_37583_n_79_97083_e	30°22′33″N 79°58′15″E﻿ / ﻿30.37583°N 79.97083°E	30|°|22|′|33|″|n|79|°|58|′|15|″|e|\\/|30.37583|°|n|79.97083|°|e	30|°|22|′|33|″|n|79|°|58|′|15|″|e|\\/|30.37583|°|n|79.97083|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	30.0|30.0|30.0||33.0|33.0||79.0||58.0|58.0|58.0||||30.37583|30.37583||79.97083|79.97083|	30.0		22.0	30°22′33″N 79°58′15″E﻿|﻿30.37583°N 79.97083°E	fb:part.30_22_33_n_79_58_15_e|fb:part.30_37583_n_79_97083_e
+24	6	fb:cell.3_139	3,139	3,139	3,139	CD	NUMBER	3139.0	3139.0				
+24	7	fb:cell.dhaulagiri	Dhaulagiri	dhaulagiri	Dhaulagiri	NNP	PERSON						
+24	8	fb:cell.1936	1936	1936	1936	CD	DATE	1936	1936.0	1936-xx-xx			
+24	9	fb:cell.14_12	14 (12)	14|-lrb-|12|-rrb-	14|-lrb-|12|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	14.0||12.0|	14.0		12.0		
+25	0	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+25	1	fb:cell.chomo_lonzo	Chomo Lonzo	chomo|lonzo	Chomo|Lonzo	NNP|NNP	PERSON|PERSON	|				Chomo Lonzo	fb:part.chomo_lonzo
+25	2	fb:cell.7_804	7,804	7,804	7,804	CD	NUMBER	7804.0	7804.0				
+25	3	fb:cell.25_604	25,604	25,604	25,604	CD	NUMBER	25604.0	25604.0				
+25	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+25	5	fb:cell.27_55_50_n_87_06_28_e_27_93056_n_87_10778_e	27°55′50″N 87°06′28″E﻿ / ﻿27.93056°N 87.10778°E	27|°|55|′|50|″|n|87|°|06|′|28|″|e|\\/|27.93056|°|n|87.10778|°|e	27|°|55|′|50|″|n|87|°|06|′|28|″|e|\\/|27.93056|°|n|87.10778|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||50.0|50.0||87.0|87.0|87.0||28.0|28.0|||27.93056|27.93056||87.10778|87.10778|	27.0		55.0	27°55′50″N 87°06′28″E﻿|﻿27.93056°N 87.10778°E	fb:part.27_55_50_n_87_06_28_e|fb:part.27_93056_n_87_10778_e
+25	6	fb:cell.590	590	590	590	CD	NUMBER	590.0	590.0				
+25	7	fb:cell.makalu	Makalu	makalu	Makalu	NNP	O					Makalu	fb:part.makalu
+25	8	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+25	9	fb:cell.3_1	3 (1)	3|-lrb-|1|-rrb-	3|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||1.0|	3.0		1.0		
+26	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+26	1	fb:cell.batura_sar	Batura Sar	batura|sar	Batura|Sar	NNP|NNP	PERSON|PERSON	|				Batura Sar	fb:part.batura_sar
+26	2	fb:cell.7_795	7,795	7,795	7,795	CD	NUMBER	7795.0	7795.0				
+26	3	fb:cell.25_574	25,574	25,574	25,574	CD	NUMBER	25574.0	25574.0				
+26	4	fb:cell.batura_karakoram	Batura Karakoram	batura|karakoram	Batura|Karakoram	NNP|NNP	PERSON|PERSON	|					
+26	5	fb:cell.36_30_37_n_74_31_21_e_36_51028_n_74_52250_e	36°30′37″N 74°31′21″E﻿ / ﻿36.51028°N 74.52250°E	36|°|30|′|37|″|n|74|°|31|′|21|″|e|\\/|36.51028|°|n|74.52250|°|e	36|°|30|′|37|″|n|74|°|31|′|21|″|e|\\/|36.51028|°|n|74.52250|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||37.0|37.0||74.0|74.0|74.0||21.0|21.0|||36.51028|36.51028||74.5225|74.5225|	36.0		30.0	36°30′37″N 74°31′21″E﻿|﻿36.51028°N 74.52250°E	fb:part.36_30_37_n_74_31_21_e|fb:part.36_51028_n_74_52250_e
+26	6	fb:cell.3_118	3,118	3,118	3,118	CD	NUMBER	3118.0	3118.0				
+26	7	fb:cell.distaghil_sar	Distaghil Sar	distaghil|sar	Distaghil|Sar	NNP|NNP	O|O	|				Distaghil Sar	fb:part.distaghil_sar
+26	8	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+26	9	fb:cell.4_6	4 (6)	4|-lrb-|6|-rrb-	4|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||6.0|	4.0		6.0		
+27	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+27	1	fb:cell.kanjut_sar	Kanjut Sar	kanjut|sar	Kanjut|Sar	NNP|NNP	O|O	|				Kanjut Sar	fb:part.kanjut_sar
+27	2	fb:cell.7_790	7,790	7,790	7,790	CD	NUMBER	7790.0	7790.0				
+27	3	fb:cell.25_558	25,558	25,558	25,558	CD	NUMBER	25558.0	25558.0				
+27	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+27	5	fb:cell.36_12_20_n_75_25_01_e_36_20556_n_75_41694_e	36°12′20″N 75°25′01″E﻿ / ﻿36.20556°N 75.41694°E	36|°|12|′|20|″|n|75|°|25|′|01|″|e|\\/|36.20556|°|n|75.41694|°|e	36|°|12|′|20|″|n|75|°|25|′|01|″|e|\\/|36.20556|°|n|75.41694|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||20.0|20.0||75.0|75.0|75.0||1.0|1.0|||36.20556|36.20556||75.41694|75.41694|	36.0		12.0	36°12′20″N 75°25′01″E﻿|﻿36.20556°N 75.41694°E	fb:part.36_12_20_n_75_25_01_e|fb:part.36_20556_n_75_41694_e
+27	6	fb:cell.1_690	1,690	1,690	1,690	CD	NUMBER	1690.0	1690.0				
+27	7	fb:cell.khunyang_chhish	Khunyang Chhish	khunyang|chhish	Khunyang|Chhish	NNP|NNP	PERSON|PERSON	|				Khunyang Chhish	fb:part.khunyang_chhish
+27	8	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx			
+27	9	fb:cell.2_1	2 (1)	2|-lrb-|1|-rrb-	2|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||1.0|	2.0		1.0		
+28	0	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+28	1	fb:cell.rakaposhi	Rakaposhi	rakaposhi	rakaposhus	NN	PERSON					Rakaposhi	fb:part.rakaposhi
+28	2	fb:cell.7_788	7,788	7,788	7,788	CD	NUMBER	7788.0	7788.0				
+28	3	fb:cell.25_551	25,551	25,551	25,551	CD	NUMBER	25551.0	25551.0				
+28	4	fb:cell.rakaposhi_haramosh_karakoram	Rakaposhi-Haramosh Karakoram	rakaposhi|haramosh|karakoram	Rakaposhi|Haramosh|Karakoram	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+28	5	fb:cell.36_08_33_n_74_29_22_e_36_14250_n_74_48944_e	36°08′33″N 74°29′22″E﻿ / ﻿36.14250°N 74.48944°E	36|°|08|′|33|″|n|74|°|29|′|22|″|e|\\/|36.14250|°|n|74.48944|°|e	36|°|08|′|33|″|n|74|°|29|′|22|″|e|\\/|36.14250|°|n|74.48944|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||33.0|33.0||74.0|74.0|74.0||22.0|22.0|||36.1425|36.1425||74.48944|74.48944|	36.0		8.0	36°08′33″N 74°29′22″E﻿|﻿36.14250°N 74.48944°E	fb:part.36_08_33_n_74_29_22_e|fb:part.36_14250_n_74_48944_e
+28	6	fb:cell.2_818	2,818	2,818	2,818	CD	NUMBER	2818.0	2818.0				
+28	7	fb:cell.khunyang_chhish	Khunyang Chhish	khunyang|chhish	Khunyang|Chhish	NNP|NNP	PERSON|PERSON	|				Khunyang Chhish	fb:part.khunyang_chhish
+28	8	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+28	9	fb:cell.8_13	8 (13)	8|-lrb-|13|-rrb-	8|-lrb-|13|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	8.0||13.0|	8.0		13.0		
+29	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+29	1	fb:cell.namcha_barwa	Namcha Barwa	namcha|barwa	Namcha|Barwa	NNP|NNP	PERSON|PERSON	|				Namcha Barwa	fb:part.namcha_barwa
+29	2	fb:cell.7_782	7,782	7,782	7,782	CD	NUMBER	7782.0	7782.0				
+29	3	fb:cell.25_531	25,531	25,531	25,531	CD	NUMBER	25531.0	25531.0				
+29	4	fb:cell.assam_himalaya	Assam Himalaya	assam|himalaya	Assam|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+29	5	fb:cell.29_37_52_n_95_03_19_e_29_63111_n_95_05528_e	29°37′52″N 95°03′19″E﻿ / ﻿29.63111°N 95.05528°E	29|°|37|′|52|″|n|95|°|03|′|19|″|e|\\/|29.63111|°|n|95.05528|°|e	29|°|37|′|52|″|n|95|°|03|′|19|″|e|\\/|29.63111|°|n|95.05528|°|e	CD|NN|CD|CD|CD|NN|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	29.0||37.0|37.0|37.0|||95.0|95.0|95.0||19.0|19.0|||29.63111|29.63111||95.05528|95.05528|	29.0		37.0	29°37′52″N 95°03′19″E﻿|﻿29.63111°N 95.05528°E	fb:part.29_37_52_n_95_03_19_e|fb:part.29_63111_n_95_05528_e
+29	6	fb:cell.4_106	4,106	4,106	4,106	CD	NUMBER	4106.0	4106.0				
+29	7	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+29	8	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+29	9	fb:cell.1_2	1 (2)	1|-lrb-|2|-rrb-	1|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||2.0|	1.0		2.0		
+30	0	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+30	1	fb:cell.kamet	Kamet	kamet	Kamet	NNP	PERSON					Kamet	fb:part.kamet
+30	2	fb:cell.7_756	7,756	7,756	7,756	CD	NUMBER	7756.0	7756.0				
+30	3	fb:cell.25_446	25,446	25,446	25,446	CD	NUMBER	25446.0	25446.0				
+30	4	fb:cell.garhwal_himalaya	Garhwal Himalaya	garhwal|himalaya	Garhwal|Himalaya	NNP|NNP	PERSON|PERSON	|					
+30	5	fb:cell.30_55_12_n_79_35_30_e_30_92000_n_79_59167_e	30°55′12″N 79°35′30″E﻿ / ﻿30.92000°N 79.59167°E *	30|°|55|′|12|″|n|79|°|35|′|30|″|e|\\/|30.92000|°|n|79.59167|°|e|\\*	30|°|55|′|12|″|n|79|°|35|′|30|″|e|\\/|30.92000|°|n|79.59167|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	30.0|30.0|30.0||12.0|12.0||79.0||35.0|35.0|35.0||||30.92|30.92||79.59167|79.59167||	30.0		55.0	30°55′12″N 79°35′30″E﻿|﻿30.92000°N 79.59167°E *	fb:part.30_55_12_n_79_35_30_e|fb:part.30_92000_n_79_59167_e
+30	6	fb:cell.2_825	2,825	2,825	2,825	CD	NUMBER	2825.0	2825.0				
+30	7	fb:cell.nanda_devi	Nanda Devi	nanda|devi	Nanda|Devi	NNP|NNP	PERSON|PERSON	|				Nanda Devi	fb:part.nanda_devi
+30	8	fb:cell.1931	1931	1931	1931	CD	DATE	1931	1931.0	1931-xx-xx			
+30	9	fb:cell.23_14	23 (14)	23|-lrb-|14|-rrb-	23|-lrb-|14|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	23.0||14.0|	23.0		14.0		
+31	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+31	1	fb:cell.dhaulagiri_ii	Dhaulagiri II	dhaulagiri|ii	Dhaulagiri|II	NNP|NNP	O|O	|				Dhaulagiri II	fb:part.dhaulagiri_ii
+31	2	fb:cell.7_751	7,751	7,751	7,751	CD	NUMBER	7751.0	7751.0				
+31	3	fb:cell.25_430	25,430	25,430	25,430	CD	NUMBER	25430.0	25430.0				
+31	4	fb:cell.dhaulagiri_himalaya	Dhaulagiri Himalaya	dhaulagiri|himalaya	Dhaulagiri|Himalaya	NNP|NNP	PERSON|PERSON	|					
+31	5	fb:cell.28_45_46_n_83_23_18_e_28_76278_n_83_38833_e	28°45′46″N 83°23′18″E﻿ / ﻿28.76278°N 83.38833°E	28|°|45|′|46|″|n|83|°|23|′|18|″|e|\\/|28.76278|°|n|83.38833|°|e	28|°|45|′|46|″|n|83|°|23|′|18|″|e|\\/|28.76278|°|n|83.38833|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||46.0|46.0||83.0|83.0|83.0||18.0|18.0|||28.76278|28.76278||83.38833|83.38833|	28.0		45.0	28°45′46″N 83°23′18″E﻿|﻿28.76278°N 83.38833°E	fb:part.28_45_46_n_83_23_18_e|fb:part.28_76278_n_83_38833_e
+31	6	fb:cell.2_396	2,396	2,396	2,396	CD	NUMBER	2396.0	2396.0				
+31	7	fb:cell.dhaulagiri	Dhaulagiri	dhaulagiri	Dhaulagiri	NNP	PERSON						
+31	8	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+31	9	fb:cell.4_11	4 (11)	4|-lrb-|11|-rrb-	4|-lrb-|11|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||11.0|	4.0		11.0		
+32	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+32	1	fb:cell.saltoro_kangri_k10	Saltoro Kangri/K10	saltoro|kangri\\/k10	saltoro|kangri\\/k10	FW|NN	O|O	|	10.0			Saltoro Kangri|K10	fb:part.saltoro_kangri|fb:part.k10
+32	2	fb:cell.7_742	7,742	7,742	7,742	CD	NUMBER	7742.0	7742.0				
+32	3	fb:cell.25_400	25,400	25,400	25,400	CD	NUMBER	25400.0	25400.0				
+32	4	fb:cell.saltoro_karakoram	Saltoro Karakoram	saltoro|karakoram	Saltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+32	5	fb:cell.35_23_57_n_76_50_53_e_35_39917_n_76_84806_e	35°23′57″N 76°50′53″E﻿ / ﻿35.39917°N 76.84806°E *	35|°|23|′|57|″|n|76|°|50|′|53|″|e|\\/|35.39917|°|n|76.84806|°|e|\\*	35|°|23|′|57|″|n|76|°|50|′|53|″|e|\\/|35.39917|°|n|76.84806|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	35.0|35.0|35.0||57.0|57.0||76.0||50.0|50.0|50.0||||35.39917|35.39917||76.84806|76.84806||	35.0		23.0	35°23′57″N 76°50′53″E﻿|﻿35.39917°N 76.84806°E *	fb:part.35_23_57_n_76_50_53_e|fb:part.35_39917_n_76_84806_e
+32	6	fb:cell.2_160	2,160	2,160	2,160	CD	NUMBER	2160.0	2160.0				
+32	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+32	8	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+32	9	fb:cell.2_1	2 (1)	2|-lrb-|1|-rrb-	2|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||1.0|	2.0		1.0		
+33	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+33	1	fb:cell.jannu	Jannu	jannu	jannu	FW	PERSON					Jannu	fb:part.jannu
+33	2	fb:cell.7_711	7,711	7,711	7,711	CD	NUMBER	7711.0	7711.0				
+33	3	fb:cell.25_299	25,299	25,299	25,299	CD	NUMBER	25299.0	25299.0				
+33	4	fb:cell.kangchenjunga_himalaya	Kangchenjunga Himalaya	kangchenjunga|himalaya	Kangchenjunga|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+33	5	fb:cell.27_40_56_n_88_02_40_e_27_68222_n_88_04444_e	27°40′56″N 88°02′40″E﻿ / ﻿27.68222°N 88.04444°E *	27|°|40|′|56|″|n|88|°|02|′|40|″|e|\\/|27.68222|°|n|88.04444|°|e|\\*	27|°|40|′|56|″|n|88|°|02|′|40|″|e|\\/|27.68222|°|n|88.04444|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	27.0|27.0|27.0||56.0|56.0||88.0||2.0|2.0|2.0||||27.68222|27.68222||88.04444|88.04444||	27.0		40.0	27°40′56″N 88°02′40″E﻿|﻿27.68222°N 88.04444°E *	fb:part.27_40_56_n_88_02_40_e|fb:part.27_68222_n_88_04444_e
+33	6	fb:cell.1_036	1,036	1,036	1,036	CD	NUMBER	1036.0	1036.0				
+33	7	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+33	8	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+33	9	fb:cell.17_12	17 (12)	17|-lrb-|12|-rrb-	17|-lrb-|12|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	17.0||12.0|	17.0		12.0		
+34	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+34	1	fb:cell.tirich_mir	Tirich Mir	tirich|mir	Tirich|mir	NNP|NNS	O|O	|				Tirich Mir	fb:part.tirich_mir
+34	2	fb:cell.7_708	7,708	7,708	7,708	CD	NUMBER	7708.0	7708.0				
+34	3	fb:cell.25_289	25,289	25,289	25,289	CD	NUMBER	25289.0	25289.0				
+34	4	fb:cell.hindu_kush	Hindu Kush	hindu|kush	Hindu|Kush	NNP|NNP	PERSON|PERSON	|					
+34	5	fb:cell.36_15_19_n_71_50_30_e_36_25528_n_71_84167_e	36°15′19″N 71°50′30″E﻿ / ﻿36.25528°N 71.84167°E *	36|°|15|′|19|″|n|71|°|50|′|30|″|e|\\/|36.25528|°|n|71.84167|°|e|\\*	36|°|15|′|19|″|n|71|°|50|′|30|″|e|\\/|36.25528|°|n|71.84167|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	36.0|36.0|36.0||19.0|19.0||71.0||50.0|50.0|50.0||||36.25528|36.25528||71.84167|71.84167||	36.0		15.0	36°15′19″N 71°50′30″E﻿|﻿36.25528°N 71.84167°E *	fb:part.36_15_19_n_71_50_30_e|fb:part.36_25528_n_71_84167_e
+34	6	fb:cell.3_910	3,910	3,910	3,910	CD	NUMBER	3910.0	3910.0				
+34	7	fb:cell.batura_sar	Batura Sar	batura|sar	Batura|Sar	NNP|NNP	PERSON|PERSON	|				Batura Sar	fb:part.batura_sar
+34	8	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+34	9	fb:cell.20_11	20 (11)	20|-lrb-|11|-rrb-	20|-lrb-|11|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	20.0||11.0|	20.0		11.0		
+35	0	fb:cell.null											
+35	1	fb:cell.molamenqing	Molamenqing	molamenqing	molamenq	VBG	O					Molamenqing	fb:part.molamenqing
+35	2	fb:cell.7_703	7,703	7,703	7,703	CD	NUMBER	7703.0	7703.0				
+35	3	fb:cell.25_272	25,272	25,272	25,272	CD	NUMBER	25272.0	25272.0				
+35	4	fb:cell.langtang_himalaya	Langtang Himalaya	langtang|himalaya	Langtang|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+35	5	fb:cell.28_21_18_n_85_48_35_e_28_35500_n_85_80972_e	28°21′18″N 85°48′35″E﻿ / ﻿28.35500°N 85.80972°E	28|°|21|′|18|″|n|85|°|48|′|35|″|e|\\/|28.35500|°|n|85.80972|°|e	28|°|21|′|18|″|n|85|°|48|′|35|″|e|\\/|28.35500|°|n|85.80972|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||18.0|18.0||85.0|85.0|85.0||35.0|35.0|||28.355|28.355||85.80972|85.80972|	28.0		21.0	28°21′18″N 85°48′35″E﻿|﻿28.35500°N 85.80972°E	fb:part.28_21_18_n_85_48_35_e|fb:part.28_35500_n_85_80972_e
+35	6	fb:cell.430	430	430	430	CD	NUMBER	430.0	430.0				
+35	7	fb:cell.shishapangma	Shishapangma	shishapangma	shishapangma	NN	PERSON					Shishapangma	fb:part.shishapangma
+35	8	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+35	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+36	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+36	1	fb:cell.gurla_mandhata	Gurla Mandhata	gurla|mandhata	Gurla|Mandhata	NNP|NNP	PERSON|PERSON	|				Gurla Mandhata	fb:part.gurla_mandhata
+36	2	fb:cell.7_694	7,694	7,694	7,694	CD	NUMBER	7694.0	7694.0				
+36	3	fb:cell.25_243	25,243	25,243	25,243	CD	NUMBER	25243.0	25243.0				
+36	4	fb:cell.nalakankar_himalaya	Nalakankar Himalaya	nalakankar|himalaya	Nalakankar|Himalaya	NNP|NNP	PERSON|PERSON	|					
+36	5	fb:cell.30_26_19_n_81_17_48_e_30_43861_n_81_29667_e	30°26′19″N 81°17′48″E﻿ / ﻿30.43861°N 81.29667°E	30|°|26|′|19|″|n|81|°|17|′|48|″|e|\\/|30.43861|°|n|81.29667|°|e	30|°|26|′|19|″|n|81|°|17|′|48|″|e|\\/|30.43861|°|n|81.29667|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	30.0|30.0|30.0||19.0|19.0||81.0||17.0||48.0|48.0|||30.43861|30.43861||81.29667|81.29667|	30.0		26.0	30°26′19″N 81°17′48″E﻿|﻿30.43861°N 81.29667°E	fb:part.30_26_19_n_81_17_48_e|fb:part.30_43861_n_81_29667_e
+36	6	fb:cell.2_788	2,788	2,788	2,788	CD	NUMBER	2788.0	2788.0				
+36	7	fb:cell.dhaulagiri	Dhaulagiri	dhaulagiri	Dhaulagiri	NNP	PERSON						
+36	8	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+36	9	fb:cell.6_4	6 (4)	6|-lrb-|4|-rrb-	6|-lrb-|4|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6.0||4.0|	6.0		4.0		
+37	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+37	1	fb:cell.saser_kangri_i_k22	Saser Kangri I/K22	saser|kangri|i\\/k22	Saser|Kangri|i\\/k22	NNP|NNP|NN	O|O|O	||	22.0			Saser Kangri I|K22	fb:part.saser_kangri_i|fb:part.k22
+37	2	fb:cell.7_672	7,672	7,672	7,672	CD	NUMBER	7672.0	7672.0				
+37	3	fb:cell.25_171	25,171	25,171	25,171	CD	NUMBER	25171.0	25171.0				
+37	4	fb:cell.saser_karakoram	Saser Karakoram	saser|karakoram	Saser|Karakoram	NNP|NNP	PERSON|PERSON	|					
+37	5	fb:cell.34_52_00_n_77_45_09_e_34_86667_n_77_75250_e	34°52′00″N 77°45′09″E﻿ / ﻿34.86667°N 77.75250°E	34|°|52|′|00|″|n|77|°|45|′|09|″|e|\\/|34.86667|°|n|77.75250|°|e	34|°|52|′|00|″|n|77|°|45|′|09|″|e|\\/|34.86667|°|n|77.75250|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	34.0|34.0|34.0||0.0|0.0||77.0|77.0|77.0||9.0|9.0|||34.86667|34.86667||77.7525|77.7525|	34.0		52.0	34°52′00″N 77°45′09″E﻿|﻿34.86667°N 77.75250°E	fb:part.34_52_00_n_77_45_09_e|fb:part.34_86667_n_77_75250_e
+37	6	fb:cell.2_304	2,304	2,304	2,304	CD	NUMBER	2304.0	2304.0				
+37	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+37	8	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+37	9	fb:cell.6_4	6 (4)	6|-lrb-|4|-rrb-	6|-lrb-|4|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6.0||4.0|	6.0		4.0		
+38	0	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+38	1	fb:cell.chogolisa	Chogolisa	chogolisa	Chogolisa	NNP	PERSON					Chogolisa	fb:part.chogolisa
+38	2	fb:cell.7_665	7,665	7,665	7,665	CD	NUMBER	7665.0	7665.0				
+38	3	fb:cell.25_148	25,148	25,148	25,148	CD	NUMBER	25148.0	25148.0				
+38	4	fb:cell.masherbrum_karakoram	Masherbrum Karakoram	masherbrum|karakoram	Masherbrum|Karakoram	NNP|NNP	PERSON|PERSON	|					
+38	5	fb:cell.35_36_47_n_76_34_29_e_35_61306_n_76_57472_e	35°36′47″N 76°34′29″E﻿ / ﻿35.61306°N 76.57472°E	35|°|36|′|47|″|n|76|°|34|′|29|″|e|\\/|35.61306|°|n|76.57472|°|e	35|°|36|′|47|″|n|76|°|34|′|29|″|e|\\/|35.61306|°|n|76.57472|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||47.0|47.0||76.0|76.0|76.0||29.0|29.0|||35.61306|35.61306||76.57472|76.57472|	35.0		36.0	35°36′47″N 76°34′29″E﻿|﻿35.61306°N 76.57472°E	fb:part.35_36_47_n_76_34_29_e|fb:part.35_61306_n_76_57472_e
+38	6	fb:cell.1_624	1,624	1,624	1,624	CD	NUMBER	1624.0	1624.0				
+38	7	fb:cell.masherbrum	Masherbrum	masherbrum	masherbrum	NN	O						
+38	8	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+38	9	fb:cell.4_2	4 (2)	4|-lrb-|2|-rrb-	4|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||2.0|	4.0		2.0		
+39	0	fb:cell.null											
+39	1	fb:cell.dhaulagiri_iv	Dhaulagiri IV	dhaulagiri|iv	Dhaulagiri|iv	NNP|CD	O|NUMBER	|0.0				Dhaulagiri IV	fb:part.dhaulagiri_iv
+39	2	fb:cell.7_661	7,661	7,661	7,661	CD	NUMBER	7661.0	7661.0				
+39	3	fb:cell.25_135	25,135	25,135	25,135	CD	NUMBER	25135.0	25135.0				
+39	4	fb:cell.dhaulagiri_himalaya	Dhaulagiri Himalaya	dhaulagiri|himalaya	Dhaulagiri|Himalaya	NNP|NNP	PERSON|PERSON	|					
+39	5	fb:cell.28_44_09_n_83_18_55_e_28_73583_n_83_31528_e	28°44′09″N 83°18′55″E﻿ / ﻿28.73583°N 83.31528°E	28|°|44|′|09|″|n|83|°|18|′|55|″|e|\\/|28.73583|°|n|83.31528|°|e	28|°|44|′|09|″|n|83|°|18|′|55|″|e|\\/|28.73583|°|n|83.31528|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||9.0|9.0||83.0|83.0|83.0||55.0|55.0|||28.73583|28.73583||83.31528|83.31528|	28.0		44.0	28°44′09″N 83°18′55″E﻿|﻿28.73583°N 83.31528°E	fb:part.28_44_09_n_83_18_55_e|fb:part.28_73583_n_83_31528_e
+39	6	fb:cell.469	469	469	469	CD	NUMBER	469.0	469.0				
+39	7	fb:cell.dhaulagiri_ii	Dhaulagiri II	dhaulagiri|ii	Dhaulagiri|II	NNP|NNP	O|O	|				Dhaulagiri II	fb:part.dhaulagiri_ii
+39	8	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+39	9	fb:cell.2_10	2 (10)	2|-lrb-|10|-rrb-	2|-lrb-|10|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||10.0|	2.0		10.0		
+40	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+40	1	fb:cell.kongur_tagh	Kongur Tagh	kongur|tagh	Kongur|Tagh	NNP|NNP	O|O	|				Kongur Tagh	fb:part.kongur_tagh
+40	2	fb:cell.7_649	7,649	7,649	7,649	CD	NUMBER	7649.0	7649.0				
+40	3	fb:cell.25_095	25,095	25,095	25,095	CD	NUMBER	25095.0	25095.0				
+40	4	fb:cell.kongur_shan_kunlun	Kongur Shan Kunlun	kongur|shan|kunlun	Kongur|Shan|Kunlun	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+40	5	fb:cell.38_35_36_n_75_18_48_e_38_59333_n_75_31333_e	38°35′36″N 75°18′48″E﻿ / ﻿38.59333°N 75.31333°E	38|°|35|′|36|″|n|75|°|18|′|48|″|e|\\/|38.59333|°|n|75.31333|°|e	38|°|35|′|36|″|n|75|°|18|′|48|″|e|\\/|38.59333|°|n|75.31333|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0|38.0|38.0||36.0|36.0||75.0|75.0|75.0||48.0|48.0|||38.59333|38.59333||75.31333|75.31333|	38.0		35.0	38°35′36″N 75°18′48″E﻿|﻿38.59333°N 75.31333°E	fb:part.38_35_36_n_75_18_48_e|fb:part.38_59333_n_75_31333_e
+40	6	fb:cell.3_585	3,585	3,585	3,585	CD	NUMBER	3585.0	3585.0				
+40	7	fb:cell.distaghil_sar	Distaghil Sar	distaghil|sar	Distaghil|Sar	NNP|NNP	O|O	|				Distaghil Sar	fb:part.distaghil_sar
+40	8	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+40	9	fb:cell.2_4	2 (4)	2|-lrb-|4|-rrb-	2|-lrb-|4|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||4.0|	2.0		4.0		
+41	0	fb:cell.null											
+41	1	fb:cell.dhaulagiri_v	Dhaulagiri V	dhaulagiri|v	Dhaulagiri|V	NNP|NNP	O|O	|				Dhaulagiri V	fb:part.dhaulagiri_v
+41	2	fb:cell.7_618	7,618	7,618	7,618	CD	NUMBER	7618.0	7618.0				
+41	3	fb:cell.24_993	24,993	24,993	24,993	CD	NUMBER	24993.0	24993.0				
+41	4	fb:cell.dhaulagiri_himalaya	Dhaulagiri Himalaya	dhaulagiri|himalaya	Dhaulagiri|Himalaya	NNP|NNP	PERSON|PERSON	|					
+41	5	fb:cell.28_44_02_n_83_21_41_e_28_73389_n_83_36139_e	28°44′02″N 83°21′41″E﻿ / ﻿28.73389°N 83.36139°E *	28|°|44|′|02|″|n|83|°|21|′|41|″|e|\\/|28.73389|°|n|83.36139|°|e|\\*	28|°|44|′|02|″|n|83|°|21|′|41|″|e|\\/|28.73389|°|n|83.36139|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	28.0|28.0|28.0||2.0|2.0||83.0|83.0|83.0||41.0|41.0|||28.73389|28.73389||83.36139|83.36139||	28.0		44.0	28°44′02″N 83°21′41″E﻿|﻿28.73389°N 83.36139°E *	fb:part.28_44_02_n_83_21_41_e|fb:part.28_73389_n_83_36139_e
+41	6	fb:cell.340	340	340	340	CD	NUMBER	340.0	340.0				
+41	7	fb:cell.dhaulagiri_iv	Dhaulagiri IV	dhaulagiri|iv	Dhaulagiri|iv	NNP|CD	O|NUMBER	|0.0				Dhaulagiri IV	fb:part.dhaulagiri_iv
+41	8	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+41	9	fb:cell.2_3	2 (3)	2|-lrb-|3|-rrb-	2|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||3.0|	2.0		3.0		
+42	0	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+42	1	fb:cell.shispare	Shispare	shispare	shispare	NN	O					Shispare	fb:part.shispare
+42	2	fb:cell.7_611	7,611	7,611	7,611	CD	NUMBER	7611.0	7611.0				
+42	3	fb:cell.24_970	24,970	24,970	24,970	CD	NUMBER	24970.0	24970.0				
+42	4	fb:cell.batura_karakoram	Batura Karakoram	batura|karakoram	Batura|Karakoram	NNP|NNP	PERSON|PERSON	|					
+42	5	fb:cell.36_26_26_n_74_40_51_e_36_44056_n_74_68083_e	36°26′26″N 74°40′51″E﻿ / ﻿36.44056°N 74.68083°E	36|°|26|′|26|″|n|74|°|40|′|51|″|e|\\/|36.44056|°|n|74.68083|°|e	36|°|26|′|26|″|n|74|°|40|′|51|″|e|\\/|36.44056|°|n|74.68083|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||26.0|26.0||74.0|74.0|74.0||51.0|51.0|||36.44056|36.44056||74.68083|74.68083|	36.0		26.0	36°26′26″N 74°40′51″E﻿|﻿36.44056°N 74.68083°E	fb:part.36_26_26_n_74_40_51_e|fb:part.36_44056_n_74_68083_e
+42	6	fb:cell.1_240	1,240	1,240	1,240	CD	NUMBER	1240.0	1240.0				
+42	7	fb:cell.batura_sar	Batura Sar	batura|sar	Batura|Sar	NNP|NNP	PERSON|PERSON	|				Batura Sar	fb:part.batura_sar
+42	8	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+42	9	fb:cell.3_1	3 (1)	3|-lrb-|1|-rrb-	3|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||1.0|	3.0		1.0		
+43	0	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+43	1	fb:cell.trivor	Trivor	trivor	trivor	FW	O					Trivor	fb:part.trivor
+43	2	fb:cell.7_577	7,577	7,577	7,577	CD	NUMBER	7577.0	7577.0				
+43	3	fb:cell.24_859	24,859	24,859	24,859	CD	NUMBER	24859.0	24859.0				
+43	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+43	5	fb:cell.36_17_15_n_75_05_06_e_36_28750_n_75_08500_e	36°17′15″N 75°05′06″E﻿ / ﻿36.28750°N 75.08500°E *	36|°|17|′|15|″|n|75|°|05|′|06|″|e|\\/|36.28750|°|n|75.08500|°|e|\\*	36|°|17|′|15|″|n|75|°|05|′|06|″|e|\\/|36.28750|°|n|75.08500|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	36.0|36.0|36.0||15.0|15.0||75.0|75.0|75.0||6.0|6.0|||36.2875|36.2875||75.085|75.085||	36.0		17.0	36°17′15″N 75°05′06″E﻿|﻿36.28750°N 75.08500°E *	fb:part.36_17_15_n_75_05_06_e|fb:part.36_28750_n_75_08500_e
+43	6	fb:cell.980	980	980	980	CD	NUMBER	980.0	980.0				
+43	7	fb:cell.distaghil_sar	Distaghil Sar	distaghil|sar	Distaghil|Sar	NNP|NNP	O|O	|				Distaghil Sar	fb:part.distaghil_sar
+43	8	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+43	9	fb:cell.2_5	2 (5)	2|-lrb-|5|-rrb-	2|-lrb-|5|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||5.0|	2.0		5.0		
+44	0	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+44	1	fb:cell.gangkhar_puensum	Gangkhar Puensum	gangkhar|puensum	Gangkhar|Puensum	NNP|NNP	PERSON|PERSON	|				Gangkhar Puensum	fb:part.gangkhar_puensum
+44	2	fb:cell.7_570	7,570	7,570	7,570	CD	NUMBER	7570.0	7570.0				
+44	3	fb:cell.24_836	24,836	24,836	24,836	CD	NUMBER	24836.0	24836.0				
+44	4	fb:cell.kula_kangri_himalaya	Kula Kangri Himalaya	kula|kangri|himalaya	Kula|Kangri|Himalaya	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+44	5	fb:cell.28_02_50_n_90_27_19_e_28_04722_n_90_45528_e	28°02′50″N 90°27′19″E﻿ / ﻿28.04722°N 90.45528°E *	28|°|02|′|50|″|n|90|°|27|′|19|″|e|\\/|28.04722|°|n|90.45528|°|e|\\*	28|°|02|′|50|″|n|90|°|27|′|19|″|e|\\/|28.04722|°|n|90.45528|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	28.0|28.0|28.0||50.0|50.0||90.0|90.0|90.0||19.0|19.0|||28.04722|28.04722||90.45528|90.45528||	28.0		2.0	28°02′50″N 90°27′19″E﻿|﻿28.04722°N 90.45528°E *	fb:part.28_02_50_n_90_27_19_e|fb:part.28_04722_n_90_45528_e
+44	6	fb:cell.2_995	2,995	2,995	2,995	CD	NUMBER	2995.0	2995.0				
+44	7	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+44	8	fb:cell.unclimbed	unclimbed	unclimbed	unclimbed	JJ	O						
+44	9	fb:cell.0_3	0 (3)	0|-lrb-|3|-rrb-	0|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||3.0|	0.0		3.0		
+45	0	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+45	1	fb:cell.gongga_shan_minya_konka	Gongga Shan/\nMinya Konka	gongga|shan|\\/|minya|konka	Gongga|Shan|\\/|Minya|Konka	NNP|NNP|:|NNP|NNP	PERSON|PERSON|O|LOCATION|LOCATION	||||				Gongga Shan|Minya Konka	fb:part.gongga_shan|fb:part.minya_konka
+45	2	fb:cell.7_556	7,556	7,556	7,556	CD	NUMBER	7556.0	7556.0				
+45	3	fb:cell.24_790	24,790	24,790	24,790	CD	NUMBER	24790.0	24790.0				
+45	4	fb:cell.daxue_shan	Daxue Shan	daxue|shan	Daxue|Shan	NNP|NNP	PERSON|PERSON	|					
+45	5	fb:cell.29_35_43_n_101_52_47_e_29_59528_n_101_87972_e	29°35′43″N 101°52′47″E﻿ / ﻿29.59528°N 101.87972°E	29|°|35|′|43|″|n|101|°|52|′|47|″|e|\\/|29.59528|°|n|101.87972|°|e	29|°|35|′|43|″|n|101|°|52|′|47|″|e|\\/|29.59528|°|n|101.87972|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	29.0|29.0|29.0||43.0|43.0||101.0||52.0||47.0|47.0|||29.59528|29.59528||101.87972|101.87972|	29.0		35.0	29°35′43″N 101°52′47″E﻿|﻿29.59528°N 101.87972°E	fb:part.29_35_43_n_101_52_47_e|fb:part.29_59528_n_101_87972_e
+45	6	fb:cell.3_642	3,642	3,642	3,642	CD	NUMBER	3642.0	3642.0				
+45	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+45	8	fb:cell.1932	1932	1932	1932	CD	DATE	1932	1932.0	1932-xx-xx			
+45	9	fb:cell.6_7	6 (7)	6|-lrb-|7|-rrb-	6|-lrb-|7|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6.0||7.0|	6.0		7.0		
+46	0	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+46	1	fb:cell.annapurna_iii	Annapurna III	annapurna|iii	Annapurna|III	NNP|NNP	PERSON|PERSON	|				Annapurna III	fb:part.annapurna_iii
+46	2	fb:cell.7_555	7,555	7,555	7,555	CD	NUMBER	7555.0	7555.0				
+46	3	fb:cell.24_787	24,787	24,787	24,787	CD	NUMBER	24787.0	24787.0				
+46	4	fb:cell.annapurna_himalaya	Annapurna Himalaya	annapurna|himalaya	Annapurna|Himalaya	NNP|NNP	PERSON|PERSON	|					
+46	5	fb:cell.28_35_06_n_83_59_24_e_28_58500_n_83_99000_e	28°35′06″N 83°59′24″E﻿ / ﻿28.58500°N 83.99000°E	28|°|35|′|06|″|n|83|°|59|′|24|″|e|\\/|28.58500|°|n|83.99000|°|e	28|°|35|′|06|″|n|83|°|59|′|24|″|e|\\/|28.58500|°|n|83.99000|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||6.0|6.0||83.0|83.0|83.0||24.0|24.0|||28.585|28.585||83.99|83.99|	28.0		35.0	28°35′06″N 83°59′24″E﻿|﻿28.58500°N 83.99000°E	fb:part.28_35_06_n_83_59_24_e|fb:part.28_58500_n_83_99000_e
+46	6	fb:cell.703	703	703	703	CD	NUMBER	703.0	703.0				
+46	7	fb:cell.annapurna_i	Annapurna I	annapurna|i	Annapurna|I	NNP|PRP	O|O	|				Annapurna I	fb:part.annapurna_i
+46	8	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+46	9	fb:cell.10_17	10 (17)	10|-lrb-|17|-rrb-	10|-lrb-|17|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	10.0||17.0|	10.0		17.0		
+47	0	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+47	1	fb:cell.muztagh_ata	Muztagh Ata	muztagh|ata	Muztagh|Ata	NNP|NNP	O|O	|				Muztagh Ata	fb:part.muztagh_ata
+47	2	fb:cell.7_546	7,546	7,546	7,546	CD	NUMBER	7546.0	7546.0				
+47	3	fb:cell.24_757	24,757	24,757	24,757	CD	NUMBER	24757.0	24757.0				
+47	4	fb:cell.muztagata_kunlun	Muztagata Kunlun	muztagata|kunlun	Muztagata|Kunlun	NNP|NNP	PERSON|PERSON	|					
+47	5	fb:cell.38_16_33_n_75_06_58_e_38_27583_n_75_11611_e	38°16′33″N 75°06′58″E﻿ / ﻿38.27583°N 75.11611°E	38|°|16|′|33|″|n|75|°|06|′|58|″|e|\\/|38.27583|°|n|75.11611|°|e	38|°|16|′|33|″|n|75|°|06|′|58|″|e|\\/|38.27583|°|n|75.11611|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0|38.0|38.0||33.0|33.0||75.0|75.0|75.0||58.0|58.0|||38.27583|38.27583||75.11611|75.11611|	38.0		16.0	38°16′33″N 75°06′58″E﻿|﻿38.27583°N 75.11611°E	fb:part.38_16_33_n_75_06_58_e|fb:part.38_27583_n_75_11611_e
+47	6	fb:cell.2_735	2,735	2,735	2,735	CD	NUMBER	2735.0	2735.0				
+47	7	fb:cell.kongur_tagh	Kongur Tagh	kongur|tagh	Kongur|Tagh	NNP|NNP	O|O	|				Kongur Tagh	fb:part.kongur_tagh
+47	8	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+47	9	fb:cell.many	Many	many	many	JJ	O						
+48	0	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+48	1	fb:cell.skyang_kangri	Skyang Kangri	skyang|kangri	Skyang|Kangri	NNP|NNP	PERSON|PERSON	|				Skyang Kangri	fb:part.skyang_kangri
+48	2	fb:cell.7_545	7,545	7,545	7,545	CD	NUMBER	7545.0	7545.0				
+48	3	fb:cell.24_754	24,754	24,754	24,754	CD	NUMBER	24754.0	24754.0				
+48	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+48	5	fb:cell.35_55_35_n_76_34_03_e_35_92639_n_76_56750_e	35°55′35″N 76°34′03″E﻿ / ﻿35.92639°N 76.56750°E	35|°|55|′|35|″|n|76|°|34|′|03|″|e|\\/|35.92639|°|n|76.56750|°|e	35|°|55|′|35|″|n|76|°|34|′|03|″|e|\\/|35.92639|°|n|76.56750|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||35.0|35.0||76.0|76.0|76.0||3.0|3.0|||35.92639|35.92639||76.5675|76.5675|	35.0		55.0	35°55′35″N 76°34′03″E﻿|﻿35.92639°N 76.56750°E	fb:part.35_55_35_n_76_34_03_e|fb:part.35_92639_n_76_56750_e
+48	6	fb:cell.1_085	1,085	1,085	1,085	CD	NUMBER	1085.0	1085.0				
+48	7	fb:cell.k2	K2	k2	k2	NN	O		2.0				
+48	8	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+48	9	fb:cell.1_2	1 (2)	1|-lrb-|2|-rrb-	1|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||2.0|	1.0		2.0		
+49	0	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+49	1	fb:cell.changtse	Changtse	changtse	changtse	NN	O					Changtse	fb:part.changtse
+49	2	fb:cell.7_543	7,543	7,543	7,543	CD	NUMBER	7543.0	7543.0				
+49	3	fb:cell.24_747	24,747	24,747	24,747	CD	NUMBER	24747.0	24747.0				
+49	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+49	5	fb:cell.28_01_29_n_86_54_51_e_28_02472_n_86_91417_e	28°01′29″N 86°54′51″E﻿ / ﻿28.02472°N 86.91417°E	28|°|01|′|29|″|n|86|°|54|′|51|″|e|\\/|28.02472|°|n|86.91417|°|e	28|°|01|′|29|″|n|86|°|54|′|51|″|e|\\/|28.02472|°|n|86.91417|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||29.0|29.0||86.0|86.0|86.0||51.0|51.0|||28.02472|28.02472||86.91417|86.91417|	28.0		1.0	28°01′29″N 86°54′51″E﻿|﻿28.02472°N 86.91417°E	fb:part.28_01_29_n_86_54_51_e|fb:part.28_02472_n_86_91417_e
+49	6	fb:cell.520	520	520	520	CD	NUMBER	520.0	520.0				
+49	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+49	8	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+49	9	fb:cell.9_9	9 (9)	9|-lrb-|9|-rrb-	9|-lrb-|9|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	9.0||9.0|	9.0		9.0		
+50	0	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+50	1	fb:cell.kula_kangri	Kula Kangri	kula|kangri	Kula|Kangri	NNP|NNP	LOCATION|LOCATION	|				Kula Kangri	fb:part.kula_kangri
+50	2	fb:cell.7_538	7,538	7,538	7,538	CD	NUMBER	7538.0	7538.0				
+50	3	fb:cell.24_731	24,731	24,731	24,731	CD	NUMBER	24731.0	24731.0				
+50	4	fb:cell.kula_kangri_himalaya	Kula Kangri Himalaya	kula|kangri|himalaya	Kula|Kangri|Himalaya	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+50	5	fb:cell.28_13_37_n_90_36_59_e_28_22694_n_90_61639_e	28°13′37″N 90°36′59″E﻿ / ﻿28.22694°N 90.61639°E	28|°|13|′|37|″|n|90|°|36|′|59|″|e|\\/|28.22694|°|n|90.61639|°|e	28|°|13|′|37|″|n|90|°|36|′|59|″|e|\\/|28.22694|°|n|90.61639|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||37.0|37.0||90.0|90.0|90.0||59.0|59.0|||28.22694|28.22694||90.61639|90.61639|	28.0		13.0	28°13′37″N 90°36′59″E﻿|﻿28.22694°N 90.61639°E	fb:part.28_13_37_n_90_36_59_e|fb:part.28_22694_n_90_61639_e
+50	6	fb:cell.1_650	1,650	1,650	1,650	CD	NUMBER	1650.0	1650.0				
+50	7	fb:cell.gangkhar_puensum	Gangkhar Puensum	gangkhar|puensum	Gangkhar|Puensum	NNP|NNP	PERSON|PERSON	|				Gangkhar Puensum	fb:part.gangkhar_puensum
+50	8	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+50	9	fb:cell.3_2	3 (2)	3|-lrb-|2|-rrb-	3|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||2.0|	3.0		2.0		
+51	0	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+51	1	fb:cell.kongur_tiube	Kongur Tiube	kongur|tiube	Kongur|Tiube	NNP|NNP	O|O	|				Kongur Tiube	fb:part.kongur_tiube
+51	2	fb:cell.7_530	7,530	7,530	7,530	CD	NUMBER	7530.0	7530.0				
+51	3	fb:cell.24_705	24,705	24,705	24,705	CD	NUMBER	24705.0	24705.0				
+51	4	fb:cell.kongur_shan_kunlun	Kongur Shan Kunlun	kongur|shan|kunlun	Kongur|Shan|Kunlun	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+51	5	fb:cell.38_36_57_n_75_11_45_e_38_61583_n_75_19583_e	38°36′57″N 75°11′45″E﻿ / ﻿38.61583°N 75.19583°E	38|°|36|′|57|″|n|75|°|11|′|45|″|e|\\/|38.61583|°|n|75.19583|°|e	38|°|36|′|57|″|n|75|°|11|′|45|″|e|\\/|38.61583|°|n|75.19583|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0|38.0|38.0||57.0|57.0||75.0||11.0||45.0|45.0|||38.61583|38.61583||75.19583|75.19583|	38.0		36.0	38°36′57″N 75°11′45″E﻿|﻿38.61583°N 75.19583°E	fb:part.38_36_57_n_75_11_45_e|fb:part.38_61583_n_75_19583_e
+51	6	fb:cell.840	840	840	840	CD	NUMBER	840.0	840.0				
+51	7	fb:cell.kongur_tagh	Kongur Tagh	kongur|tagh	Kongur|Tagh	NNP|NNP	O|O	|				Kongur Tagh	fb:part.kongur_tagh
+51	8	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+51	9	fb:cell.2_3	2 (3)	2|-lrb-|3|-rrb-	2|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||3.0|	2.0		3.0		
+52	0	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+52	1	fb:cell.mamostong_kangri	Mamostong Kangri	mamostong|kangri	Mamostong|Kangri	NNP|NNP	PERSON|PERSON	|				Mamostong Kangri	fb:part.mamostong_kangri
+52	2	fb:cell.7_516	7,516	7,516	7,516	CD	NUMBER	7516.0	7516.0				
+52	3	fb:cell.24_659	24,659	24,659	24,659	CD	NUMBER	24659.0	24659.0				
+52	4	fb:cell.rimo_karakoram	Rimo Karakoram	rimo|karakoram	Rimo|Karakoram	NNP|NNP	PERSON|PERSON	|					
+52	5	fb:cell.35_08_31_n_77_34_39_e_35_14194_n_77_57750_e	35°08′31″N 77°34′39″E﻿ / ﻿35.14194°N 77.57750°E	35|°|08|′|31|″|n|77|°|34|′|39|″|e|\\/|35.14194|°|n|77.57750|°|e	35|°|08|′|31|″|n|77|°|34|′|39|″|e|\\/|35.14194|°|n|77.57750|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||31.0|31.0||77.0|77.0|77.0||39.0|39.0|||35.14194|35.14194||77.5775|77.5775|	35.0		8.0	35°08′31″N 77°34′39″E﻿|﻿35.14194°N 77.57750°E	fb:part.35_08_31_n_77_34_39_e|fb:part.35_14194_n_77_57750_e
+52	6	fb:cell.1_803	1,803	1,803	1,803	CD	NUMBER	1803.0	1803.0				
+52	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+52	8	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+52	9	fb:cell.5_0	5 (0)	5|-lrb-|0|-rrb-	5|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5.0||0.0|	5.0		0.0		
+53	0	fb:cell.49	49	49	49	CD	NUMBER	49.0	49.0				
+53	1	fb:cell.saser_kangri_ii_e	Saser Kangri II E	saser|kangri|ii|e	Saser|Kangri|II|e	NNP|NNP|NNP|NN	O|O|O|O	|||				Saser Kangri II E	fb:part.saser_kangri_ii_e
+53	2	fb:cell.7_513	7,513	7,513	7,513	CD	NUMBER	7513.0	7513.0				
+53	3	fb:cell.24_649	24,649	24,649	24,649	CD	NUMBER	24649.0	24649.0				
+53	4	fb:cell.saser_karakoram	Saser Karakoram	saser|karakoram	Saser|Karakoram	NNP|NNP	PERSON|PERSON	|					
+53	5	fb:cell.34_48_17_n_77_48_24_e_34_80472_n_77_80667_e	34°48′17″N 77°48′24″E﻿ / ﻿34.80472°N 77.80667°E	34|°|48|′|17|″|n|77|°|48|′|24|″|e|\\/|34.80472|°|n|77.80667|°|e	34|°|48|′|17|″|n|77|°|48|′|24|″|e|\\/|34.80472|°|n|77.80667|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	34.0|34.0|34.0||17.0|17.0||77.0|77.0|77.0||24.0|24.0|||34.80472|34.80472||77.80667|77.80667|	34.0		48.0	34°48′17″N 77°48′24″E﻿|﻿34.80472°N 77.80667°E	fb:part.34_48_17_n_77_48_24_e|fb:part.34_80472_n_77_80667_e
+53	6	fb:cell.1_450	1,450	1,450	1,450	CD	NUMBER	1450.0	1450.0				
+53	7	fb:cell.saser_kangri_i	Saser Kangri I	saser|kangri|i	Saser|Kangri|I	NNP|NNP|PRP	O|O|O	||					
+53	8	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+53	9	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+54	0	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+54	1	fb:cell.ismoil_somoni_peak	Ismoil Somoni Peak	ismoil|somoni|peak	Ismoil|Somoni|Peak	NNP|NNP|NNP	O|O|O	||				Ismoil Somoni Peak	fb:part.ismoil_somoni_peak
+54	2	fb:cell.7_495	7,495	7,495	7,495	CD	NUMBER	7495.0	7495.0				
+54	3	fb:cell.24_590	24,590	24,590	24,590	CD	NUMBER	24590.0	24590.0				
+54	4	fb:cell.pamir_akademiya_nauk_range	Pamir (Akademiya Nauk Range)	pamir|-lrb-|akademiya|nauk|range|-rrb-	Pamir|-lrb-|Akademiya|Nauk|Range|-rrb-	NNP|-LRB-|NNP|NNP|NNP|-RRB-	LOCATION|O|O|O|O|O	|||||					
+54	5	fb:cell.38_56_35_n_72_00_57_e_38_94306_n_72_01583_e	38°56′35″N 72°00′57″E﻿ / ﻿38.94306°N 72.01583°E	38|°|56|′|35|″|n|72|°|00|′|57|″|e|\\/|38.94306|°|n|72.01583|°|e	38|°|56|′|35|″|n|72|°|00|′|57|″|e|\\/|38.94306|°|n|72.01583|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0|38.0|38.0||35.0|35.0||72.0|72.0|72.0||57.0|57.0|||38.94306|38.94306||72.01583|72.01583|	38.0		56.0	38°56′35″N 72°00′57″E﻿|﻿38.94306°N 72.01583°E	fb:part.38_56_35_n_72_00_57_e|fb:part.38_94306_n_72_01583_e
+54	6	fb:cell.3_402	3,402	3,402	3,402	CD	NUMBER	3402.0	3402.0				
+54	7	fb:cell.muztagh_ata	Muztagh Ata	muztagh|ata	Muztagh|Ata	NNP|NNP	O|O	|				Muztagh Ata	fb:part.muztagh_ata
+54	8	fb:cell.1933	1933	1933	1933	CD	DATE	1933	1933.0	1933-xx-xx			
+54	9	fb:cell.null											
+55	0	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+55	1	fb:cell.saser_kangri_iii	Saser Kangri III	saser|kangri|iii	Saser|Kangri|III	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Saser Kangri III	fb:part.saser_kangri_iii
+55	2	fb:cell.7_495	7,495	7,495	7,495	CD	NUMBER	7495.0	7495.0				
+55	3	fb:cell.24_590	24,590	24,590	24,590	CD	NUMBER	24590.0	24590.0				
+55	4	fb:cell.saser_karakoram	Saser Karakoram	saser|karakoram	Saser|Karakoram	NNP|NNP	PERSON|PERSON	|					
+55	5	fb:cell.34_50_44_n_77_47_06_e_34_84556_n_77_78500_e	34°50′44″N 77°47′06″E﻿ / ﻿34.84556°N 77.78500°E	34|°|50|′|44|″|n|77|°|47|′|06|″|e|\\/|34.84556|°|n|77.78500|°|e	34|°|50|′|44|″|n|77|°|47|′|06|″|e|\\/|34.84556|°|n|77.78500|°|e	CD|CD|CD|CD|CD|NN|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	34.0|34.0|34.0|34.0|34.0|||77.0|77.0|77.0||6.0|6.0|||34.84556|34.84556||77.785|77.785|	34.0		50.0	34°50′44″N 77°47′06″E﻿|﻿34.84556°N 77.78500°E	fb:part.34_50_44_n_77_47_06_e|fb:part.34_84556_n_77_78500_e
+55	6	fb:cell.850	850	850	850	CD	NUMBER	850.0	850.0				
+55	7	fb:cell.saser_kangri_i	Saser Kangri I	saser|kangri|i	Saser|Kangri|I	NNP|NNP|PRP	O|O|O	||					
+55	8	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+55	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+56	0	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+56	1	fb:cell.noshaq	Noshaq	noshaq	Noshaq	NNP	PERSON					Noshaq	fb:part.noshaq
+56	2	fb:cell.7_492	7,492	7,492	7,492	CD	NUMBER	7492.0	7492.0				
+56	3	fb:cell.24_580	24,580	24,580	24,580	CD	NUMBER	24580.0	24580.0				
+56	4	fb:cell.hindu_kush	Hindu Kush	hindu|kush	Hindu|Kush	NNP|NNP	PERSON|PERSON	|					
+56	5	fb:cell.36_25_56_n_71_49_43_e_36_43222_n_71_82861_e	36°25′56″N 71°49′43″E﻿ / ﻿36.43222°N 71.82861°E	36|°|25|′|56|″|n|71|°|49|′|43|″|e|\\/|36.43222|°|n|71.82861|°|e	36|°|25|′|56|″|n|71|°|49|′|43|″|e|\\/|36.43222|°|n|71.82861|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||56.0|56.0||71.0|71.0|71.0||43.0|43.0|||36.43222|36.43222||71.82861|71.82861|	36.0		25.0	36°25′56″N 71°49′43″E﻿|﻿36.43222°N 71.82861°E	fb:part.36_25_56_n_71_49_43_e|fb:part.36_43222_n_71_82861_e
+56	6	fb:cell.2_024	2,024	2,024	2,024	CD	NUMBER	2024.0	2024.0				
+56	7	fb:cell.tirich_mir	Tirich Mir	tirich|mir	Tirich|mir	NNP|NNS	O|O	|				Tirich Mir	fb:part.tirich_mir
+56	8	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+56	9	fb:cell.33_3	33 (3)	33|-lrb-|3|-rrb-	33|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	33.0||3.0|	33.0		3.0		
+57	0	fb:cell.53	53	53	53	CD	NUMBER	53.0	53.0				
+57	1	fb:cell.pumari_chhish	Pumari Chhish	pumari|chhish	Pumari|Chhish	NNP|NNP	PERSON|PERSON	|				Pumari Chhish	fb:part.pumari_chhish
+57	2	fb:cell.7_492	7,492	7,492	7,492	CD	NUMBER	7492.0	7492.0				
+57	3	fb:cell.24_580	24,580	24,580	24,580	CD	NUMBER	24580.0	24580.0				
+57	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+57	5	fb:cell.36_12_41_n_75_15_01_e_36_21139_n_75_25028_e	36°12′41″N 75°15′01″E﻿ / ﻿36.21139°N 75.25028°E	36|°|12|′|41|″|n|75|°|15|′|01|″|e|\\/|36.21139|°|n|75.25028|°|e	36|°|12|′|41|″|n|75|°|15|′|01|″|e|\\/|36.21139|°|n|75.25028|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||41.0|41.0||75.0|75.0|75.0||1.0|1.0|||36.21139|36.21139||75.25028|75.25028|	36.0		12.0	36°12′41″N 75°15′01″E﻿|﻿36.21139°N 75.25028°E	fb:part.36_12_41_n_75_15_01_e|fb:part.36_21139_n_75_25028_e
+57	6	fb:cell.890	890	890	890	CD	NUMBER	890.0	890.0				
+57	7	fb:cell.khunyang_chhish	Khunyang Chhish	khunyang|chhish	Khunyang|Chhish	NNP|NNP	PERSON|PERSON	|				Khunyang Chhish	fb:part.khunyang_chhish
+57	8	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+57	9	fb:cell.1_2	1 (2)	1|-lrb-|2|-rrb-	1|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||2.0|	1.0		2.0		
+58	0	fb:cell.54	54	54	54	CD	NUMBER	54.0	54.0				
+58	1	fb:cell.pasu_sar	Pasu Sar	pasu|sar	Pasu|Sar	NNP|NNP	PERSON|PERSON	|				Pasu Sar	fb:part.pasu_sar
+58	2	fb:cell.7_476	7,476	7,476	7,476	CD	NUMBER	7476.0	7476.0				
+58	3	fb:cell.24_528	24,528	24,528	24,528	CD	NUMBER	24528.0	24528.0				
+58	4	fb:cell.batura_karakoram	Batura Karakoram	batura|karakoram	Batura|Karakoram	NNP|NNP	PERSON|PERSON	|					
+58	5	fb:cell.36_29_16_n_74_35_16_e_36_48778_n_74_58778_e	36°29′16″N 74°35′16″E﻿ / ﻿36.48778°N 74.58778°E	36|°|29|′|16|″|n|74|°|35|′|16|″|e|\\/|36.48778|°|n|74.58778|°|e	36|°|29|′|16|″|n|74|°|35|′|16|″|e|\\/|36.48778|°|n|74.58778|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||16.0|16.0||74.0|74.0|74.0||16.0|16.0|||36.48778|36.48778||74.58778|74.58778|	36.0		29.0	36°29′16″N 74°35′16″E﻿|﻿36.48778°N 74.58778°E	fb:part.36_29_16_n_74_35_16_e|fb:part.36_48778_n_74_58778_e
+58	6	fb:cell.645	645	645	645	CD	NUMBER	645.0	645.0				
+58	7	fb:cell.batura_sar	Batura Sar	batura|sar	Batura|Sar	NNP|NNP	PERSON|PERSON	|				Batura Sar	fb:part.batura_sar
+58	8	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+58	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+59	0	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+59	1	fb:cell.yukshin_gardan_sar	Yukshin Gardan Sar	yukshin|gardan|sar	Yukshin|Gardan|Sar	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Yukshin Gardan Sar	fb:part.yukshin_gardan_sar
+59	2	fb:cell.7_469	7,469	7,469	7,469	CD	NUMBER	7469.0	7469.0				
+59	3	fb:cell.24_505	24,505	24,505	24,505	CD	NUMBER	24505.0	24505.0				
+59	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+59	5	fb:cell.36_15_04_n_75_22_29_e_36_25111_n_75_37472_e	36°15′04″N 75°22′29″E﻿ / ﻿36.25111°N 75.37472°E	36|°|15|′|04|″|n|75|°|22|′|29|″|e|\\/|36.25111|°|n|75.37472|°|e	36|°|15|′|04|″|n|75|°|22|′|29|″|e|\\/|36.25111|°|n|75.37472|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||4.0|4.0||75.0|75.0|75.0||29.0|29.0|||36.25111|36.25111||75.37472|75.37472|	36.0		15.0	36°15′04″N 75°22′29″E﻿|﻿36.25111°N 75.37472°E	fb:part.36_15_04_n_75_22_29_e|fb:part.36_25111_n_75_37472_e
+59	6	fb:cell.1_313	1,313	1,313	1,313	CD	NUMBER	1313.0	1313.0				
+59	7	fb:cell.pumari_chhish	Pumari Chhish	pumari|chhish	Pumari|Chhish	NNP|NNP	PERSON|PERSON	|				Pumari Chhish	fb:part.pumari_chhish
+59	8	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+59	9	fb:cell.4_1	4 (1)	4|-lrb-|1|-rrb-	4|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||1.0|	4.0		1.0		
+60	0	fb:cell.56	56	56	56	CD	NUMBER	56.0	56.0				
+60	1	fb:cell.teram_kangri_i	Teram Kangri I	teram|kangri|i	Teram|Kangri|I	NNP|NNP|PRP	PERSON|PERSON|O	||				Teram Kangri I	fb:part.teram_kangri_i
+60	2	fb:cell.7_462	7,462	7,462	7,462	CD	NUMBER	7462.0	7462.0				
+60	3	fb:cell.24_482	24,482	24,482	24,482	CD	NUMBER	24482.0	24482.0				
+60	4	fb:cell.siachen_karakoram	Siachen Karakoram	siachen|karakoram	Siachen|Karakoram	NNP|NNP	PERSON|PERSON	|					
+60	5	fb:cell.35_34_48_n_77_04_42_e_35_58000_n_77_07833_e	35°34′48″N 77°04′42″E﻿ / ﻿35.58000°N 77.07833°E	35|°|34|′|48|″|n|77|°|04|′|42|″|e|\\/|35.58000|°|n|77.07833|°|e	35|°|34|′|48|″|n|77|°|04|′|42|″|e|\\/|35.58000|°|n|77.07833|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||48.0|48.0||77.0||4.0||42.0|42.0|||35.58|35.58||77.07833|77.07833|	35.0		34.0	35°34′48″N 77°04′42″E﻿|﻿35.58000°N 77.07833°E	fb:part.35_34_48_n_77_04_42_e|fb:part.35_58000_n_77_07833_e
+60	6	fb:cell.1_702	1,702	1,702	1,702	CD	NUMBER	1702.0	1702.0				
+60	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+60	8	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+60	9	fb:cell.2_0	2 (0)	2|-lrb-|0|-rrb-	2|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||0.0|	2.0		0.0		
+61	0	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+61	1	fb:cell.jongsong_peak	Jongsong Peak	jongsong|peak	Jongsong|Peak	NNP|NNP	O|O	|				Jongsong Peak	fb:part.jongsong_peak
+61	2	fb:cell.7_462	7,462	7,462	7,462	CD	NUMBER	7462.0	7462.0				
+61	3	fb:cell.24_482	24,482	24,482	24,482	CD	NUMBER	24482.0	24482.0				
+61	4	fb:cell.kangchenjunga_himalaya	Kangchenjunga Himalaya	kangchenjunga|himalaya	Kangchenjunga|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+61	5	fb:cell.27_52_54_n_88_08_09_e_27_88167_n_88_13583_e	27°52′54″N 88°08′09″E﻿ / ﻿27.88167°N 88.13583°E	27|°|52|′|54|″|n|88|°|08|′|09|″|e|\\/|27.88167|°|n|88.13583|°|e	27|°|52|′|54|″|n|88|°|08|′|09|″|e|\\/|27.88167|°|n|88.13583|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||54.0|54.0||88.0|88.0|88.0||9.0|9.0|||27.88167|27.88167||88.13583|88.13583|	27.0		52.0	27°52′54″N 88°08′09″E﻿|﻿27.88167°N 88.13583°E	fb:part.27_52_54_n_88_08_09_e|fb:part.27_88167_n_88_13583_e
+61	6	fb:cell.1_298	1,298	1,298	1,298	CD	NUMBER	1298.0	1298.0				
+61	7	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+61	8	fb:cell.1930	1930	1930	1930	CD	DATE	1930	1930.0	1930-xx-xx			
+61	9	fb:cell.2_3	2 (3)	2|-lrb-|3|-rrb-	2|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||3.0|	2.0		3.0		
+62	0	fb:cell.58	58	58	58	CD	NUMBER	58.0	58.0				
+62	1	fb:cell.malubiting	Malubiting	malubiting	malubit	VBG	O					Malubiting	fb:part.malubiting
+62	2	fb:cell.7_458	7,458	7,458	7,458	CD	NUMBER	7458.0	7458.0				
+62	3	fb:cell.24_469	24,469	24,469	24,469	CD	NUMBER	24469.0	24469.0				
+62	4	fb:cell.rakaposhi_haramosh_karakoram	Rakaposhi-Haramosh Karakoram	rakaposhi|haramosh|karakoram	Rakaposhi|Haramosh|Karakoram	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+62	5	fb:cell.36_00_12_n_74_52_31_e_36_00333_n_74_87528_e	36°00′12″N 74°52′31″E﻿ / ﻿36.00333°N 74.87528°E	36|°|00|′|12|″|n|74|°|52|′|31|″|e|\\/|36.00333|°|n|74.87528|°|e	36|°|00|′|12|″|n|74|°|52|′|31|″|e|\\/|36.00333|°|n|74.87528|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||12.0|12.0||74.0|74.0|74.0||31.0|31.0|||36.00333|36.00333||74.87528|74.87528|	36.0		0.0	36°00′12″N 74°52′31″E﻿|﻿36.00333°N 74.87528°E	fb:part.36_00_12_n_74_52_31_e|fb:part.36_00333_n_74_87528_e
+62	6	fb:cell.2_193	2,193	2,193	2,193	CD	NUMBER	2193.0	2193.0				
+62	7	fb:cell.rakaposhi	Rakaposhi	rakaposhi	rakaposhus	NN	PERSON					Rakaposhi	fb:part.rakaposhi
+62	8	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+62	9	fb:cell.2_6	2 (6)	2|-lrb-|6|-rrb-	2|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||6.0|	2.0		6.0		
+63	0	fb:cell.59	59	59	59	CD	NUMBER	59.0	59.0				
+63	1	fb:cell.gangapurna	Gangapurna	gangapurna	gangapurna	NN	PERSON					Gangapurna	fb:part.gangapurna
+63	2	fb:cell.7_455	7,455	7,455	7,455	CD	NUMBER	7455.0	7455.0				
+63	3	fb:cell.24_459	24,459	24,459	24,459	CD	NUMBER	24459.0	24459.0				
+63	4	fb:cell.annapurna_himalaya	Annapurna Himalaya	annapurna|himalaya	Annapurna|Himalaya	NNP|NNP	PERSON|PERSON	|					
+63	5	fb:cell.28_36_18_n_83_57_49_e_28_60500_n_83_96361_e	28°36′18″N 83°57′49″E﻿ / ﻿28.60500°N 83.96361°E	28|°|36|′|18|″|n|83|°|57|′|49|″|e|\\/|28.60500|°|n|83.96361|°|e	28|°|36|′|18|″|n|83|°|57|′|49|″|e|\\/|28.60500|°|n|83.96361|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||18.0|18.0||83.0|83.0|83.0||49.0|49.0|||28.605|28.605||83.96361|83.96361|	28.0		36.0	28°36′18″N 83°57′49″E﻿|﻿28.60500°N 83.96361°E	fb:part.28_36_18_n_83_57_49_e|fb:part.28_60500_n_83_96361_e
+63	6	fb:cell.563	563	563	563	CD	NUMBER	563.0	563.0				
+63	7	fb:cell.annapurna_iii	Annapurna III	annapurna|iii	Annapurna|III	NNP|NNP	PERSON|PERSON	|				Annapurna III	fb:part.annapurna_iii
+63	8	fb:cell.1965	1965	1965	1965	CD	DATE	1965	1965.0	1965-xx-xx			
+63	9	fb:cell.8_13	8 (13)	8|-lrb-|13|-rrb-	8|-lrb-|13|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	8.0||13.0|	8.0		13.0		
+64	0	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+64	1	fb:cell.jengish_chokusu_tomur_pk_pobeda	Jengish Chokusu/\nTömür/Pk Pobeda	jengish|chokusu|\\/|tömür|\\/|pk|pobeda	jengish|chokusu|\\/|Tömür|\\/|Pk|Pobeda	JJ|NN|:|NNP|:|NNP|NNP	PERSON|PERSON|O|O|O|O|O	||||||				Jengish Chokusu|Tömür|Pk Pobeda	fb:part.jengish_chokusu|fb:part.tomur|fb:part.pk_pobeda
+64	2	fb:cell.7_439	7,439	7,439	7,439	CD	NUMBER	7439.0	7439.0				
+64	3	fb:cell.24_406	24,406	24,406	24,406	CD	NUMBER	24406.0	24406.0				
+64	4	fb:cell.tian_shan	Tian Shan	tian|shan	Tian|Shan	NNP|NNP	PERSON|PERSON	|					
+64	5	fb:cell.42_02_05_n_80_07_47_e_42_03472_n_80_12972_e	42°02′05″N 80°07′47″E﻿ / ﻿42.03472°N 80.12972°E	42|°|02|′|05|″|n|80|°|07|′|47|″|e|\\/|42.03472|°|n|80.12972|°|e	42|°|02|′|05|″|n|80|°|07|′|47|″|e|\\/|42.03472|°|n|80.12972|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	42.0|42.0|42.0||5.0|5.0||80.0|80.0|80.0||47.0|47.0|||42.03472|42.03472||80.12972|80.12972|	42.0		2.0	42°02′05″N 80°07′47″E﻿|﻿42.03472°N 80.12972°E	fb:part.42_02_05_n_80_07_47_e|fb:part.42_03472_n_80_12972_e
+64	6	fb:cell.4_148	4,148	4,148	4,148	CD	NUMBER	4148.0	4148.0				
+64	7	fb:cell.ismail_samani_peak	Ismail Samani Peak	ismail|samani|peak	Ismail|Samani|Peak	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+64	8	fb:cell.1938	1938	1938	1938	CD	DATE	1938	1938.0	1938-xx-xx			
+64	9	fb:cell.null											
+65	0	fb:cell.61	61	61	61	CD	NUMBER	61.0	61.0				
+65	1	fb:cell.k12	K12	k12	k12	NN	O		12.0			K12	fb:part.k12
+65	2	fb:cell.7_428	7,428	7,428	7,428	CD	NUMBER	7428.0	7428.0				
+65	3	fb:cell.24_370	24,370	24,370	24,370	CD	NUMBER	24370.0	24370.0				
+65	4	fb:cell.saltoro_karakoram	Saltoro Karakoram	saltoro|karakoram	Saltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+65	5	fb:cell.35_17_45_n_77_01_20_e_35_29583_n_77_02222_e	35°17′45″N 77°01′20″E﻿ / ﻿35.29583°N 77.02222°E	35|°|17|′|45|″|n|77|°|01|′|20|″|e|\\/|35.29583|°|n|77.02222|°|e	35|°|17|′|45|″|n|77|°|01|′|20|″|e|\\/|35.29583|°|n|77.02222|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||45.0|45.0||77.0||1.0|1.0|1.0||||35.29583|35.29583||77.02222|77.02222|	35.0		17.0	35°17′45″N 77°01′20″E﻿|﻿35.29583°N 77.02222°E	fb:part.35_17_45_n_77_01_20_e|fb:part.35_29583_n_77_02222_e
+65	6	fb:cell.1_978	1,978	1,978	1,978	CD	NUMBER	1978.0	1978.0				
+65	7	fb:cell.saltoro_kangri	Saltoro Kangri	saltoro|kangri	saltoro|kangri	FW|FW	PERSON|PERSON	|					
+65	8	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+65	9	fb:cell.4_2	4 (2)	4|-lrb-|2|-rrb-	4|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||2.0|	4.0		2.0		
+66	0	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+66	1	fb:cell.yangra_ganesh_i	Yangra/\nGanesh I	yangra|\\/|ganesh|i	Yangra|\\/|Ganesh|I	NNP|:|NNP|PRP	O|O|O|O	|||				Yangra|Ganesh I	fb:part.yangra|fb:part.ganesh_i
+66	2	fb:cell.7_422	7,422	7,422	7,422	CD	NUMBER	7422.0	7422.0				
+66	3	fb:cell.24_350	24,350	24,350	24,350	CD	NUMBER	24350.0	24350.0				
+66	4	fb:cell.ganesh_himalaya	Ganesh Himalaya	ganesh|himalaya	Ganesh|Himalaya	NNP|NNP	PERSON|PERSON	|					
+66	5	fb:cell.28_23_29_n_85_07_38_e_28_39139_n_85_12722_e	28°23′29″N 85°07′38″E﻿ / ﻿28.39139°N 85.12722°E	28|°|23|′|29|″|n|85|°|07|′|38|″|e|\\/|28.39139|°|n|85.12722|°|e	28|°|23|′|29|″|n|85|°|07|′|38|″|e|\\/|28.39139|°|n|85.12722|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||29.0|29.0||85.0|85.0|85.0||38.0|38.0|||28.39139|28.39139||85.12722|85.12722|	28.0		23.0	28°23′29″N 85°07′38″E﻿|﻿28.39139°N 85.12722°E	fb:part.28_23_29_n_85_07_38_e|fb:part.28_39139_n_85_12722_e
+66	6	fb:cell.2_352	2,352	2,352	2,352	CD	NUMBER	2352.0	2352.0				
+66	7	fb:cell.manaslu	Manaslu	manaslu	Manaslu	NNP	PERSON					Manaslu	fb:part.manaslu
+66	8	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+66	9	fb:cell.1_6	1 (6)	1|-lrb-|6|-rrb-	1|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||6.0|	1.0		6.0		
+67	0	fb:cell.63	63	63	63	CD	NUMBER	63.0	63.0				
+67	1	fb:cell.sia_kangri	Sia Kangri	sia|kangri	Sia|Kangri	NNP|NNP	LOCATION|LOCATION	|				Sia Kangri	fb:part.sia_kangri
+67	2	fb:cell.7_422	7,422	7,422	7,422	CD	NUMBER	7422.0	7422.0				
+67	3	fb:cell.24_350	24,350	24,350	24,350	CD	NUMBER	24350.0	24350.0				
+67	4	fb:cell.siachen_karakoram	Siachen Karakoram	siachen|karakoram	Siachen|Karakoram	NNP|NNP	PERSON|PERSON	|					
+67	5	fb:cell.35_39_48_n_76_45_42_e_35_66333_n_76_76167_e	35°39′48″N 76°45′42″E﻿ / ﻿35.66333°N 76.76167°E	35|°|39|′|48|″|n|76|°|45|′|42|″|e|\\/|35.66333|°|n|76.76167|°|e	35|°|39|′|48|″|n|76|°|45|′|42|″|e|\\/|35.66333|°|n|76.76167|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||48.0|48.0||76.0|76.0|76.0||42.0|42.0|||35.66333|35.66333||76.76167|76.76167|	35.0		39.0	35°39′48″N 76°45′42″E﻿|﻿35.66333°N 76.76167°E	fb:part.35_39_48_n_76_45_42_e|fb:part.35_66333_n_76_76167_e
+67	6	fb:cell.640	640	640	640	CD	NUMBER	640.0	640.0				
+67	7	fb:cell.gasherbrum_i	Gasherbrum I	gasherbrum|i	Gasherbrum|I	NNP|PRP	O|O	|					
+67	8	fb:cell.1934	1934	1934	1934	CD	DATE	1934	1934.0	1934-xx-xx			
+67	9	fb:cell.6_0	6 (0)	6|-lrb-|0|-rrb-	6|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6.0||0.0|	6.0		0.0		
+68	0	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0				
+68	1	fb:cell.momhil_sar	Momhil Sar	momhil|sar	Momhil|Sar	NNP|NNP	O|O	|				Momhil Sar	fb:part.momhil_sar
+68	2	fb:cell.7_414	7,414	7,414	7,414	CD	NUMBER	7414.0	7414.0				
+68	3	fb:cell.24_324	24,324	24,324	24,324	CD	NUMBER	24324.0	24324.0				
+68	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+68	5	fb:cell.36_19_04_n_75_02_11_e_36_31778_n_75_03639_e	36°19′04″N 75°02′11″E﻿ / ﻿36.31778°N 75.03639°E *	36|°|19|′|04|″|n|75|°|02|′|11|″|e|\\/|36.31778|°|n|75.03639|°|e|\\*	36|°|19|′|04|″|n|75|°|02|′|11|″|e|\\/|36.31778|°|n|75.03639|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	36.0|36.0|36.0||4.0|4.0||75.0||2.0||11.0|11.0|||36.31778|36.31778||75.03639|75.03639||	36.0		19.0	36°19′04″N 75°02′11″E﻿|﻿36.31778°N 75.03639°E *	fb:part.36_19_04_n_75_02_11_e|fb:part.36_31778_n_75_03639_e
+68	6	fb:cell.980	980	980	980	CD	NUMBER	980.0	980.0				
+68	7	fb:cell.trivor	Trivor	trivor	trivor	FW	O					Trivor	fb:part.trivor
+68	8	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+68	9	fb:cell.2_6	2 (6)	2|-lrb-|6|-rrb-	2|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||6.0|	2.0		6.0		
+69	0	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+69	1	fb:cell.kabru_n	Kabru N	kabru|n	kabru|n	FW|NN	PERSON|O	|				Kabru N	fb:part.kabru_n
+69	2	fb:cell.7_412	7,412	7,412	7,412	CD	NUMBER	7412.0	7412.0				
+69	3	fb:cell.24_318	24,318	24,318	24,318	CD	NUMBER	24318.0	24318.0				
+69	4	fb:cell.kangchenjunga_himalaya	Kangchenjunga Himalaya	kangchenjunga|himalaya	Kangchenjunga|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+69	5	fb:cell.27_38_02_n_88_07_00_e_27_63389_n_88_11667_e	27°38′02″N 88°07′00″E﻿ / ﻿27.63389°N 88.11667°E	27|°|38|′|02|″|n|88|°|07|′|00|″|e|\\/|27.63389|°|n|88.11667|°|e	27|°|38|′|02|″|n|88|°|07|′|00|″|e|\\/|27.63389|°|n|88.11667|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||2.0|2.0||88.0|88.0|88.0||0.0|0.0|||27.63389|27.63389||88.11667|88.11667|	27.0		38.0	27°38′02″N 88°07′00″E﻿|﻿27.63389°N 88.11667°E	fb:part.27_38_02_n_88_07_00_e|fb:part.27_63389_n_88_11667_e
+69	6	fb:cell.780	780	780	780	CD	NUMBER	780.0	780.0				
+69	7	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+69	8	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+69	9	fb:cell.1_2	1 (2)	1|-lrb-|2|-rrb-	1|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||2.0|	1.0		2.0		
+70	0	fb:cell.66	66	66	66	CD	NUMBER	66.0	66.0				
+70	1	fb:cell.skil_brum	Skil Brum	skil|brum	Skil|Brum	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Skil Brum	fb:part.skil_brum
+70	2	fb:cell.7_410	7,410	7,410	7,410	CD	NUMBER	7410.0	7410.0				
+70	3	fb:cell.24_311	24,311	24,311	24,311	CD	NUMBER	24311.0	24311.0				
+70	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+70	5	fb:cell.35_51_03_n_76_25_43_e_35_85083_n_76_42861_e	35°51′03″N 76°25′43″E﻿ / ﻿35.85083°N 76.42861°E	35|°|51|′|03|″|n|76|°|25|′|43|″|e|\\/|35.85083|°|n|76.42861|°|e	35|°|51|′|03|″|n|76|°|25|′|43|″|e|\\/|35.85083|°|n|76.42861|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||3.0|3.0||76.0|76.0|76.0||43.0|43.0|||35.85083|35.85083||76.42861|76.42861|	35.0		51.0	35°51′03″N 76°25′43″E﻿|﻿35.85083°N 76.42861°E	fb:part.35_51_03_n_76_25_43_e|fb:part.35_85083_n_76_42861_e
+70	6	fb:cell.1_152	1,152	1,152	1,152	CD	NUMBER	1152.0	1152.0				
+70	7	fb:cell.k2	K2	k2	k2	NN	O		2.0				
+70	8	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+70	9	fb:cell.2_1	2 (1)	2|-lrb-|1|-rrb-	2|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||1.0|	2.0		1.0		
+71	0	fb:cell.67	67	67	67	CD	NUMBER	67.0	67.0				
+71	1	fb:cell.haramosh	Haramosh	haramosh	haramosh	JJ	PERSON					Haramosh	fb:part.haramosh
+71	2	fb:cell.7_409	7,409	7,409	7,409	CD	NUMBER	7409.0	7409.0				
+71	3	fb:cell.24_308	24,308	24,308	24,308	CD	NUMBER	24308.0	24308.0				
+71	4	fb:cell.rakaposhi_karakoram	Rakaposhi Karakoram	rakaposhi|karakoram	Rakaposhi|Karakoram	NNP|NNP	PERSON|PERSON	|					
+71	5	fb:cell.35_50_24_n_74_53_51_e_35_84000_n_74_89750_e	35°50′24″N 74°53′51″E﻿ / ﻿35.84000°N 74.89750°E	35|°|50|′|24|″|n|74|°|53|′|51|″|e|\\/|35.84000|°|n|74.89750|°|e	35|°|50|′|24|″|n|74|°|53|′|51|″|e|\\/|35.84000|°|n|74.89750|°|e	CD|CD|CD|CD|CD|NN|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0|35.0|35.0|||74.0|74.0|74.0||51.0|51.0|||35.84|35.84||74.8975|74.8975|	35.0		50.0	35°50′24″N 74°53′51″E﻿|﻿35.84000°N 74.89750°E	fb:part.35_50_24_n_74_53_51_e|fb:part.35_84000_n_74_89750_e
+71	6	fb:cell.2_277	2,277	2,277	2,277	CD	NUMBER	2277.0	2277.0				
+71	7	fb:cell.malubiting	Malubiting	malubiting	malubit	VBG	O					Malubiting	fb:part.malubiting
+71	8	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+71	9	fb:cell.4_3	4 (3)	4|-lrb-|3|-rrb-	4|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||3.0|	4.0		3.0		
+72	0	fb:cell.68	68	68	68	CD	NUMBER	68.0	68.0				
+72	1	fb:cell.istor_o_nal	Istor-o-Nal	istor|o|nal	istor|o|nal	NN|NN|NN	O|O|O	||				Istor-o-Nal	fb:part.istor_o_nal
+72	2	fb:cell.7_403	7,403	7,403	7,403	CD	NUMBER	7403.0	7403.0				
+72	3	fb:cell.24_288	24,288	24,288	24,288	CD	NUMBER	24288.0	24288.0				
+72	4	fb:cell.hindu_kush	Hindu Kush	hindu|kush	Hindu|Kush	NNP|NNP	PERSON|PERSON	|					
+72	5	fb:cell.36_22_32_n_71_53_54_e_36_37556_n_71_89833_e	36°22′32″N 71°53′54″E﻿ / ﻿36.37556°N 71.89833°E	36|°|22|′|32|″|n|71|°|53|′|54|″|e|\\/|36.37556|°|n|71.89833|°|e	36|°|22|′|32|″|n|71|°|53|′|54|″|e|\\/|36.37556|°|n|71.89833|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||32.0|32.0||71.0|71.0|71.0||54.0|54.0|||36.37556|36.37556||71.89833|71.89833|	36.0		22.0	36°22′32″N 71°53′54″E﻿|﻿36.37556°N 71.89833°E	fb:part.36_22_32_n_71_53_54_e|fb:part.36_37556_n_71_89833_e
+72	6	fb:cell.1_040	1,040	1,040	1,040	CD	NUMBER	1040.0	1040.0				
+72	7	fb:cell.noshaq	Noshaq	noshaq	Noshaq	NNP	PERSON					Noshaq	fb:part.noshaq
+72	8	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+72	9	fb:cell.4_5	4 (5)	4|-lrb-|5|-rrb-	4|-lrb-|5|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||5.0|	4.0		5.0		
+73	0	fb:cell.69	69	69	69	CD	NUMBER	69.0	69.0				
+73	1	fb:cell.ghent_kangri	Ghent Kangri	ghent|kangri	Ghent|Kangri	NNP|NNP	PERSON|PERSON	|				Ghent Kangri	fb:part.ghent_kangri
+73	2	fb:cell.7_401	7,401	7,401	7,401	CD	NUMBER	7401.0	7401.0				
+73	3	fb:cell.24_281	24,281	24,281	24,281	CD	NUMBER	24281.0	24281.0				
+73	4	fb:cell.saltoro_karakoram	Saltoro Karakoram	saltoro|karakoram	Saltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+73	5	fb:cell.35_31_04_n_76_48_02_e_35_51778_n_76_80056_e	35°31′04″N 76°48′02″E﻿ / ﻿35.51778°N 76.80056°E	35|°|31|′|04|″|n|76|°|48|′|02|″|e|\\/|35.51778|°|n|76.80056|°|e	35|°|31|′|04|″|n|76|°|48|′|02|″|e|\\/|35.51778|°|n|76.80056|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||4.0|4.0||76.0|76.0|76.0||2.0|2.0|||35.51778|35.51778||76.80056|76.80056|	35.0		31.0	35°31′04″N 76°48′02″E﻿|﻿35.51778°N 76.80056°E	fb:part.35_31_04_n_76_48_02_e|fb:part.35_51778_n_76_80056_e
+73	6	fb:cell.1_493	1,493	1,493	1,493	CD	NUMBER	1493.0	1493.0				
+73	7	fb:cell.saltoro_kangri	Saltoro Kangri	saltoro|kangri	saltoro|kangri	FW|FW	PERSON|PERSON	|					
+73	8	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+73	9	fb:cell.4_0	4 (0)	4|-lrb-|0|-rrb-	4|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||0.0|	4.0		0.0		
+74	0	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+74	1	fb:cell.ultar_sar	Ultar Sar	ultar|sar	Ultar|Sar	NNP|NNP	O|O	|				Ultar Sar	fb:part.ultar_sar
+74	2	fb:cell.7_388	7,388	7,388	7,388	CD	NUMBER	7388.0	7388.0				
+74	3	fb:cell.24_239	24,239	24,239	24,239	CD	NUMBER	24239.0	24239.0				
+74	4	fb:cell.batura_karakoram	Batura Karakoram	batura|karakoram	Batura|Karakoram	NNP|NNP	PERSON|PERSON	|					
+74	5	fb:cell.36_23_27_n_74_43_00_e_36_39083_n_74_71667_e	36°23′27″N 74°43′00″E﻿ / ﻿36.39083°N 74.71667°E	36|°|23|′|27|″|n|74|°|43|′|00|″|e|\\/|36.39083|°|n|74.71667|°|e	36|°|23|′|27|″|n|74|°|43|′|00|″|e|\\/|36.39083|°|n|74.71667|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||27.0|27.0||74.0|74.0|74.0||0.0|0.0|||36.39083|36.39083||74.71667|74.71667|	36.0		23.0	36°23′27″N 74°43′00″E﻿|﻿36.39083°N 74.71667°E	fb:part.36_23_27_n_74_43_00_e|fb:part.36_39083_n_74_71667_e
+74	6	fb:cell.700	700	700	700	CD	NUMBER	700.0	700.0				
+74	7	fb:cell.shispare	Shispare	shispare	shispare	NN	O					Shispare	fb:part.shispare
+74	8	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+74	9	fb:cell.2_5	2 (5)	2|-lrb-|5|-rrb-	2|-lrb-|5|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||5.0|	2.0		5.0		
+75	0	fb:cell.71	71	71	71	CD	NUMBER	71.0	71.0				
+75	1	fb:cell.rimo_i	Rimo I	rimo|i	Rimo|I	NNP|PRP	O|O	|				Rimo I	fb:part.rimo_i
+75	2	fb:cell.7_385	7,385	7,385	7,385	CD	NUMBER	7385.0	7385.0				
+75	3	fb:cell.24_229	24,229	24,229	24,229	CD	NUMBER	24229.0	24229.0				
+75	4	fb:cell.rimo_karakoram	Rimo Karakoram	rimo|karakoram	Rimo|Karakoram	NNP|NNP	PERSON|PERSON	|					
+75	5	fb:cell.35_21_18_n_77_22_08_e_35_35500_n_77_36889_e	35°21′18″N 77°22′08″E﻿ / ﻿35.35500°N 77.36889°E	35|°|21|′|18|″|n|77|°|22|′|08|″|e|\\/|35.35500|°|n|77.36889|°|e	35|°|21|′|18|″|n|77|°|22|′|08|″|e|\\/|35.35500|°|n|77.36889|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||18.0|18.0||77.0|77.0|77.0||8.0|8.0|||35.355|35.355||77.36889|77.36889|	35.0		21.0	35°21′18″N 77°22′08″E﻿|﻿35.35500°N 77.36889°E	fb:part.35_21_18_n_77_22_08_e|fb:part.35_35500_n_77_36889_e
+75	6	fb:cell.1_438	1,438	1,438	1,438	CD	NUMBER	1438.0	1438.0				
+75	7	fb:cell.teram_kangri_i	Teram Kangri I	teram|kangri|i	Teram|Kangri|I	NNP|NNP|PRP	PERSON|PERSON|O	||				Teram Kangri I	fb:part.teram_kangri_i
+75	8	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+75	9	fb:cell.1_3	1 (3)	1|-lrb-|3|-rrb-	1|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||3.0|	1.0		3.0		
+76	0	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+76	1	fb:cell.churen_himal	Churen Himal	churen|himal	Churen|Himal	NNP|NNP	PERSON|PERSON	|				Churen Himal	fb:part.churen_himal
+76	2	fb:cell.7_385	7,385	7,385	7,385	CD	NUMBER	7385.0	7385.0				
+76	3	fb:cell.24_229	24,229	24,229	24,229	CD	NUMBER	24229.0	24229.0				
+76	4	fb:cell.dhaulagiri_himalaya	Dhaulagiri Himalaya	dhaulagiri|himalaya	Dhaulagiri|Himalaya	NNP|NNP	PERSON|PERSON	|					
+76	5	fb:cell.28_44_05_n_83_13_03_e_28_73472_n_83_21750_e	28°44′05″N 83°13′03″E﻿ / ﻿28.73472°N 83.21750°E	28|°|44|′|05|″|n|83|°|13|′|03|″|e|\\/|28.73472|°|n|83.21750|°|e	28|°|44|′|05|″|n|83|°|13|′|03|″|e|\\/|28.73472|°|n|83.21750|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||5.0|5.0||83.0|83.0|83.0||3.0|3.0|||28.73472|28.73472||83.2175|83.2175|	28.0		44.0	28°44′05″N 83°13′03″E﻿|﻿28.73472°N 83.21750°E	fb:part.28_44_05_n_83_13_03_e|fb:part.28_73472_n_83_21750_e
+76	6	fb:cell.600	600	600	600	CD	NUMBER	600.0	600.0				
+76	7	fb:cell.dhaulagiri_iv	Dhaulagiri IV	dhaulagiri|iv	Dhaulagiri|iv	NNP|CD	O|NUMBER	|0.0				Dhaulagiri IV	fb:part.dhaulagiri_iv
+76	8	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+76	9	fb:cell.3_0	3 (0)	3|-lrb-|0|-rrb-	3|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||0.0|	3.0		0.0		
+77	0	fb:cell.73	73	73	73	CD	NUMBER	73.0	73.0				
+77	1	fb:cell.teram_kangri_iii	Teram Kangri III	teram|kangri|iii	Teram|Kangri|III	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Teram Kangri III	fb:part.teram_kangri_iii
+77	2	fb:cell.7_382	7,382	7,382	7,382	CD	NUMBER	7382.0	7382.0				
+77	3	fb:cell.24_219	24,219	24,219	24,219	CD	NUMBER	24219.0	24219.0				
+77	4	fb:cell.siachen_karakoram	Siachen Karakoram	siachen|karakoram	Siachen|Karakoram	NNP|NNP	PERSON|PERSON	|					
+77	5	fb:cell.35_35_59_n_77_02_53_e_35_59972_n_77_04806_e	35°35′59″N 77°02′53″E﻿ / ﻿35.59972°N 77.04806°E	35|°|35|′|59|″|n|77|°|02|′|53|″|e|\\/|35.59972|°|n|77.04806|°|e	35|°|35|′|59|″|n|77|°|02|′|53|″|e|\\/|35.59972|°|n|77.04806|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||59.0|59.0||77.0||2.0||53.0|53.0|||35.59972|35.59972||77.04806|77.04806|	35.0		35.0	35°35′59″N 77°02′53″E﻿|﻿35.59972°N 77.04806°E	fb:part.35_35_59_n_77_02_53_e|fb:part.35_59972_n_77_04806_e
+77	6	fb:cell.520	520	520	520	CD	NUMBER	520.0	520.0				
+77	7	fb:cell.teram_kangri_i	Teram Kangri I	teram|kangri|i	Teram|Kangri|I	NNP|NNP|PRP	PERSON|PERSON|O	||				Teram Kangri I	fb:part.teram_kangri_i
+77	8	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+77	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+78	0	fb:cell.74	74	74	74	CD	NUMBER	74.0	74.0				
+78	1	fb:cell.sherpi_kangri	Sherpi Kangri	sherpi|kangri	Sherpi|Kangri	NNP|NNP	PERSON|PERSON	|				Sherpi Kangri	fb:part.sherpi_kangri
+78	2	fb:cell.7_380	7,380	7,380	7,380	CD	NUMBER	7380.0	7380.0				
+78	3	fb:cell.24_213	24,213	24,213	24,213	CD	NUMBER	24213.0	24213.0				
+78	4	fb:cell.saltoro_karakoram	Saltoro Karakoram	saltoro|karakoram	Saltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+78	5	fb:cell.35_27_58_n_76_46_53_e_35_46611_n_76_78139_e	35°27′58″N 76°46′53″E﻿ / ﻿35.46611°N 76.78139°E *	35|°|27|′|58|″|n|76|°|46|′|53|″|e|\\/|35.46611|°|n|76.78139|°|e|\\*	35|°|27|′|58|″|n|76|°|46|′|53|″|e|\\/|35.46611|°|n|76.78139|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	35.0|35.0|35.0||58.0|58.0||76.0|76.0|76.0||53.0|53.0|||35.46611|35.46611||76.78139|76.78139||	35.0		27.0	35°27′58″N 76°46′53″E﻿|﻿35.46611°N 76.78139°E *	fb:part.35_27_58_n_76_46_53_e|fb:part.35_46611_n_76_78139_e
+78	6	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+78	7	fb:cell.ghent_kangri	Ghent Kangri	ghent|kangri	Ghent|Kangri	NNP|NNP	PERSON|PERSON	|				Ghent Kangri	fb:part.ghent_kangri
+78	8	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+78	9	fb:cell.1_1	1 (1)	1|-lrb-|1|-rrb-	1|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||1.0|	1.0		1.0		
+79	0	fb:cell.75	75	75	75	CD	NUMBER	75.0	75.0				
+79	1	fb:cell.labuche_kang	Labuche Kang	labuche|kang	Labuche|Kang	NNP|NNP	PERSON|PERSON	|				Labuche Kang	fb:part.labuche_kang
+79	2	fb:cell.7_367	7,367	7,367	7,367	CD	NUMBER	7367.0	7367.0				
+79	3	fb:cell.24_170	24,170	24,170	24,170	CD	NUMBER	24170.0	24170.0				
+79	4	fb:cell.labuche_himalaya	Labuche Himalaya	labuche|himalaya	Labuche|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+79	5	fb:cell.28_18_15_n_86_21_03_e_28_30417_n_86_35083_e	28°18′15″N 86°21′03″E﻿ / ﻿28.30417°N 86.35083°E	28|°|18|′|15|″|n|86|°|21|′|03|″|e|\\/|28.30417|°|n|86.35083|°|e	28|°|18|′|15|″|n|86|°|21|′|03|″|e|\\/|28.30417|°|n|86.35083|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||15.0|15.0||86.0|86.0|86.0||3.0|3.0|||28.30417|28.30417||86.35083|86.35083|	28.0		18.0	28°18′15″N 86°21′03″E﻿|﻿28.30417°N 86.35083°E	fb:part.28_18_15_n_86_21_03_e|fb:part.28_30417_n_86_35083_e
+79	6	fb:cell.1_957	1,957	1,957	1,957	CD	NUMBER	1957.0	1957.0				
+79	7	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+79	8	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+79	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+80	0	fb:cell.76	76	76	76	CD	NUMBER	76.0	76.0				
+80	1	fb:cell.kirat_chuli	Kirat Chuli	kirat|chuli	Kirat|Chuli	NNP|NNP	PERSON|PERSON	|				Kirat Chuli	fb:part.kirat_chuli
+80	2	fb:cell.7_362	7,362	7,362	7,362	CD	NUMBER	7362.0	7362.0				
+80	3	fb:cell.24_153	24,153	24,153	24,153	CD	NUMBER	24153.0	24153.0				
+80	4	fb:cell.kangchenjunga_himalaya	Kangchenjunga Himalaya	kangchenjunga|himalaya	Kangchenjunga|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+80	5	fb:cell.27_47_16_n_88_11_43_e_27_78778_n_88_19528_e	27°47′16″N 88°11′43″E﻿ / ﻿27.78778°N 88.19528°E	27|°|47|′|16|″|n|88|°|11|′|43|″|e|\\/|27.78778|°|n|88.19528|°|e	27|°|47|′|16|″|n|88|°|11|′|43|″|e|\\/|27.78778|°|n|88.19528|°|e	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||16.0|16.0||88.0||11.0||43.0|43.0|||27.78778|27.78778||88.19528|88.19528|	27.0		47.0	27°47′16″N 88°11′43″E﻿|﻿27.78778°N 88.19528°E	fb:part.27_47_16_n_88_11_43_e|fb:part.27_78778_n_88_19528_e
+80	6	fb:cell.1_168	1,168	1,168	1,168	CD	NUMBER	1168.0	1168.0				
+80	7	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+80	8	fb:cell.1939	1939	1939	1939	CD	DATE	1939	1939.0	1939-xx-xx			
+80	9	fb:cell.1_6	1 (6)	1|-lrb-|6|-rrb-	1|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||6.0|	1.0		6.0		
+81	0	fb:cell.null											
+81	1	fb:cell.abi_gamin	Abi Gamin	abi|gamin	Abi|Gamin	NNP|NNP	LOCATION|LOCATION	|				Abi Gamin	fb:part.abi_gamin
+81	2	fb:cell.7_355	7,355	7,355	7,355	CD	NUMBER	7355.0	7355.0				
+81	3	fb:cell.24_131	24,131	24,131	24,131	CD	NUMBER	24131.0	24131.0				
+81	4	fb:cell.garhwal_himalaya	Garhwal Himalaya	garhwal|himalaya	Garhwal|Himalaya	NNP|NNP	PERSON|PERSON	|					
+81	5	fb:cell.30_55_57_n_79_36_09_e_30_93250_n_79_60250_e	30°55′57″N 79°36′09″E﻿ / ﻿30.93250°N 79.60250°E	30|°|55|′|57|″|n|79|°|36|′|09|″|e|\\/|30.93250|°|n|79.60250|°|e	30|°|55|′|57|″|n|79|°|36|′|09|″|e|\\/|30.93250|°|n|79.60250|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	30.0|30.0|30.0||57.0|57.0||79.0|79.0|79.0||9.0|9.0|||30.9325|30.9325||79.6025|79.6025|	30.0		55.0	30°55′57″N 79°36′09″E﻿|﻿30.93250°N 79.60250°E	fb:part.30_55_57_n_79_36_09_e|fb:part.30_93250_n_79_60250_e
+81	6	fb:cell.217	217	217	217	CD	NUMBER	217.0	217.0				
+81	7	fb:cell.kamet	Kamet	kamet	Kamet	NNP	PERSON					Kamet	fb:part.kamet
+81	8	fb:cell.1950	1950	1950	1950	CD	DATE	1950	1950.0	1950-xx-xx			
+81	9	fb:cell.17_2	17 (2)	17|-lrb-|2|-rrb-	17|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	17.0||2.0|	17.0		2.0		
+82	0	fb:cell.77	77	77	77	CD	NUMBER	77.0	77.0				
+82	1	fb:cell.nangpai_gosum	Nangpai Gosum	nangpai|gosum	Nangpai|Gosum	NNP|NNP	PERSON|PERSON	|				Nangpai Gosum	fb:part.nangpai_gosum
+82	2	fb:cell.7_350	7,350	7,350	7,350	CD	NUMBER	7350.0	7350.0				
+82	3	fb:cell.24_114	24,114	24,114	24,114	CD	NUMBER	24114.0	24114.0				
+82	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+82	5	fb:cell.28_04_24_n_86_36_51_e_28_07333_n_86_61417_e	28°04′24″N 86°36′51″E﻿ / ﻿28.07333°N 86.61417°E	28|°|04|′|24|″|n|86|°|36|′|51|″|e|\\/|28.07333|°|n|86.61417|°|e	28|°|04|′|24|″|n|86|°|36|′|51|″|e|\\/|28.07333|°|n|86.61417|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||24.0|24.0||86.0|86.0|86.0||51.0|51.0|||28.07333|28.07333||86.61417|86.61417|	28.0		4.0	28°04′24″N 86°36′51″E﻿|﻿28.07333°N 86.61417°E	fb:part.28_04_24_n_86_36_51_e|fb:part.28_07333_n_86_61417_e
+82	6	fb:cell.500	500	500	500	CD	NUMBER	500.0	500.0				
+82	7	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+82	8	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+82	9	fb:cell.3_1	3 (1)	3|-lrb-|1|-rrb-	3|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||1.0|	3.0		1.0		
+83	0	fb:cell.null											
+83	1	fb:cell.gimmigela_the_twins	Gimmigela/\nThe Twins	gimmigela|\\/|the|twins	Gimmigela|\\/|the|twin	NNP|:|DT|NNS	O|O|O|O	|||				Gimmigela|The Twins	fb:part.gimmigela|fb:part.the_twins
+83	2	fb:cell.7_350	7,350	7,350	7,350	CD	NUMBER	7350.0	7350.0				
+83	3	fb:cell.24_114	24,114	24,114	24,114	CD	NUMBER	24114.0	24114.0				
+83	4	fb:cell.kangchenjunga_himalaya	Kangchenjunga Himalaya	kangchenjunga|himalaya	Kangchenjunga|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+83	5	fb:cell.27_44_27_n_88_09_31_e_27_74083_n_88_15861_e	27°44′27″N 88°09′31″E﻿ / ﻿27.74083°N 88.15861°E	27|°|44|′|27|″|n|88|°|09|′|31|″|e|\\/|27.74083|°|n|88.15861|°|e	27|°|44|′|27|″|n|88|°|09|′|31|″|e|\\/|27.74083|°|n|88.15861|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||27.0|27.0||88.0|88.0|88.0||31.0|31.0|||27.74083|27.74083||88.15861|88.15861|	27.0		44.0	27°44′27″N 88°09′31″E﻿|﻿27.74083°N 88.15861°E	fb:part.27_44_27_n_88_09_31_e|fb:part.27_74083_n_88_15861_e
+83	6	fb:cell.432	432	432	432	CD	NUMBER	432.0	432.0				
+83	7	fb:cell.kangchenjunga	Kangchenjunga	kangchenjunga	Kangchenjunga	NNP	LOCATION					Kangchenjunga	fb:part.kangchenjunga
+83	8	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+83	9	fb:cell.3_1	3 (1)	3|-lrb-|1|-rrb-	3|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||1.0|	3.0		1.0		
+84	0	fb:cell.78	78	78	78	CD	NUMBER	78.0	78.0				
+84	1	fb:cell.saraghrar	Saraghrar	saraghrar	Saraghrar	NNP	PERSON					Saraghrar	fb:part.saraghrar
+84	2	fb:cell.7_349	7,349	7,349	7,349	CD	NUMBER	7349.0	7349.0				
+84	3	fb:cell.24_111	24,111	24,111	24,111	CD	NUMBER	24111.0	24111.0				
+84	4	fb:cell.hindu_kush	Hindu Kush	hindu|kush	Hindu|Kush	NNP|NNP	PERSON|PERSON	|					
+84	5	fb:cell.36_32_51_n_72_06_54_e_36_54750_n_72_11500_e	36°32′51″N 72°06′54″E﻿ / ﻿36.54750°N 72.11500°E	36|°|32|′|51|″|n|72|°|06|′|54|″|e|\\/|36.54750|°|n|72.11500|°|e	36|°|32|′|51|″|n|72|°|06|′|54|″|e|\\/|36.54750|°|n|72.11500|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||51.0|51.0||72.0|72.0|72.0||54.0|54.0|||36.5475|36.5475||72.115|72.115|	36.0		32.0	36°32′51″N 72°06′54″E﻿|﻿36.54750°N 72.11500°E	fb:part.36_32_51_n_72_06_54_e|fb:part.36_54750_n_72_11500_e
+84	6	fb:cell.1_979	1,979	1,979	1,979	CD	NUMBER	1979.0	1979.0				
+84	7	fb:cell.noshaq	Noshaq	noshaq	Noshaq	NNP	PERSON					Noshaq	fb:part.noshaq
+84	8	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx			
+84	9	fb:cell.2_3	2 (3)	2|-lrb-|3|-rrb-	2|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||3.0|	2.0		3.0		
+85	0	fb:cell.79	79	79	79	CD	NUMBER	79.0	79.0				
+85	1	fb:cell.jomolhari	Jomolhari	jomolhari	Jomolhari	NNP	PERSON					Jomolhari	fb:part.jomolhari
+85	2	fb:cell.7_326	7,326	7,326	7,326	CD	NUMBER	7326.0	7326.0				
+85	3	fb:cell.24_035	24,035	24,035	24,035	CD	NUMBER	24035.0	24035.0				
+85	4	fb:cell.jomolhari_himalaya	Jomolhari Himalaya	jomolhari|himalaya	Jomolhari|Himalaya	NNP|NNP	PERSON|PERSON	|					
+85	5	fb:cell.27_49_36_n_89_16_04_e_27_82667_n_89_26778_e	27°49′36″N 89°16′04″E﻿ / ﻿27.82667°N 89.26778°E *	27|°|49|′|36|″|n|89|°|16|′|04|″|e|\\/|27.82667|°|n|89.26778|°|e|\\*	27|°|49|′|36|″|n|89|°|16|′|04|″|e|\\/|27.82667|°|n|89.26778|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	27.0|27.0|27.0||36.0|36.0||89.0|89.0|89.0||4.0|4.0|||27.82667|27.82667||89.26778|89.26778||	27.0		49.0	27°49′36″N 89°16′04″E﻿|﻿27.82667°N 89.26778°E *	fb:part.27_49_36_n_89_16_04_e|fb:part.27_82667_n_89_26778_e
+85	6	fb:cell.2_077	2,077	2,077	2,077	CD	NUMBER	2077.0	2077.0				
+85	7	fb:cell.gangkhar_puensum	Gangkhar Puensum	gangkhar|puensum	Gangkhar|Puensum	NNP|NNP	PERSON|PERSON	|				Gangkhar Puensum	fb:part.gangkhar_puensum
+85	8	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx			
+85	9	fb:cell.4_0	4 (0)	4|-lrb-|0|-rrb-	4|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||0.0|	4.0		0.0		
+86	0	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+86	1	fb:cell.chamlang	Chamlang	chamlang	Chamlang	NNP	O					Chamlang	fb:part.chamlang
+86	2	fb:cell.7_321	7,321	7,321	7,321	CD	NUMBER	7321.0	7321.0				
+86	3	fb:cell.24_019	24,019	24,019	24,019	CD	NUMBER	24019.0	24019.0				
+86	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+86	5	fb:cell.27_46_30_n_86_58_47_e_27_77500_n_86_97972_e	27°46′30″N 86°58′47″E﻿ / ﻿27.77500°N 86.97972°E	27|°|46|′|30|″|n|86|°|58|′|47|″|e|\\/|27.77500|°|n|86.97972|°|e	27|°|46|′|30|″|n|86|°|58|′|47|″|e|\\/|27.77500|°|n|86.97972|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	27.0|27.0|27.0||30.0|30.0||86.0|86.0|86.0||47.0|47.0|||27.775|27.775||86.97972|86.97972|	27.0		46.0	27°46′30″N 86°58′47″E﻿|﻿27.77500°N 86.97972°E	fb:part.27_46_30_n_86_58_47_e|fb:part.27_77500_n_86_97972_e
+86	6	fb:cell.1_240	1,240	1,240	1,240	CD	NUMBER	1240.0	1240.0				
+86	7	fb:cell.lhotse	Lhotse	lhotse	Lhotse	NNP	PERSON					Lhotse	fb:part.lhotse
+86	8	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+86	9	fb:cell.7_1	7 (1)	7|-lrb-|1|-rrb-	7|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	7.0||1.0|	7.0		1.0		
+87	0	fb:cell.81	81	81	81	CD	NUMBER	81.0	81.0				
+87	1	fb:cell.chongtar	Chongtar	chongtar	Chongtar	NNP	O					Chongtar	fb:part.chongtar
+87	2	fb:cell.7_315	7,315	7,315	7,315	CD	NUMBER	7315.0	7315.0				
+87	3	fb:cell.23_999	23,999	23,999	23,999	CD	NUMBER	23999.0	23999.0				
+87	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+87	5	fb:cell.35_54_55_n_76_25_45_e_35_91528_n_76_42917_e	35°54′55″N 76°25′45″E﻿ / ﻿35.91528°N 76.42917°E	35|°|54|′|55|″|n|76|°|25|′|45|″|e|\\/|35.91528|°|n|76.42917|°|e	35|°|54|′|55|″|n|76|°|25|′|45|″|e|\\/|35.91528|°|n|76.42917|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||55.0|55.0||76.0|76.0|76.0||45.0|45.0|||35.91528|35.91528||76.42917|76.42917|	35.0		54.0	35°54′55″N 76°25′45″E﻿|﻿35.91528°N 76.42917°E	fb:part.35_54_55_n_76_25_45_e|fb:part.35_91528_n_76_42917_e
+87	6	fb:cell.1_300	1,300	1,300	1,300	CD	NUMBER	1300.0	1300.0				
+87	7	fb:cell.skil_brum	Skil Brum	skil|brum	Skil|Brum	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Skil Brum	fb:part.skil_brum
+87	8	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+87	9	fb:cell.1_1	1 (1)	1|-lrb-|1|-rrb-	1|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||1.0|	1.0		1.0		
+88	0	fb:cell.82	82	82	82	CD	NUMBER	82.0	82.0				
+88	1	fb:cell.baltoro_kangri	Baltoro Kangri	baltoro|kangri	Baltoro|Kangri	NNP|NNP	PERSON|PERSON	|				Baltoro Kangri	fb:part.baltoro_kangri
+88	2	fb:cell.7_312	7,312	7,312	7,312	CD	NUMBER	7312.0	7312.0				
+88	3	fb:cell.23_990	23,990	23,990	23,990	CD	NUMBER	23990.0	23990.0				
+88	4	fb:cell.masherbrum_karakoram	Masherbrum Karakoram	masherbrum|karakoram	Masherbrum|Karakoram	NNP|NNP	PERSON|PERSON	|					
+88	5	fb:cell.35_38_21_n_76_40_24_e_35_63917_n_76_67333_e	35°38′21″N 76°40′24″E﻿ / ﻿35.63917°N 76.67333°E	35|°|38|′|21|″|n|76|°|40|′|24|″|e|\\/|35.63917|°|n|76.67333|°|e	35|°|38|′|21|″|n|76|°|40|′|24|″|e|\\/|35.63917|°|n|76.67333|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||21.0|21.0||76.0|76.0|76.0||24.0|24.0|||35.63917|35.63917||76.67333|76.67333|	35.0		38.0	35°38′21″N 76°40′24″E﻿|﻿35.63917°N 76.67333°E	fb:part.35_38_21_n_76_40_24_e|fb:part.35_63917_n_76_67333_e
+88	6	fb:cell.1_200	1,200	1,200	1,200	CD	NUMBER	1200.0	1200.0				
+88	7	fb:cell.chogolisa	Chogolisa	chogolisa	Chogolisa	NNP	PERSON					Chogolisa	fb:part.chogolisa
+88	8	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+88	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+89	0	fb:cell.83	83	83	83	CD	NUMBER	83.0	83.0				
+89	1	fb:cell.siguang_ri	Siguang Ri	siguang|ri	Siguang|Ri	NNP|NNP	O|O	|				Siguang Ri	fb:part.siguang_ri
+89	2	fb:cell.7_309	7,309	7,309	7,309	CD	NUMBER	7309.0	7309.0				
+89	3	fb:cell.23_980	23,980	23,980	23,980	CD	NUMBER	23980.0	23980.0				
+89	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+89	5	fb:cell.28_08_50_n_86_41_06_e_28_14722_n_86_68500_e	28°08′50″N 86°41′06″E﻿ / ﻿28.14722°N 86.68500°E	28|°|08|′|50|″|n|86|°|41|′|06|″|e|\\/|28.14722|°|n|86.68500|°|e	28|°|08|′|50|″|n|86|°|41|′|06|″|e|\\/|28.14722|°|n|86.68500|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||50.0|50.0||86.0|86.0|86.0||6.0|6.0|||28.14722|28.14722||86.685|86.685|	28.0		8.0	28°08′50″N 86°41′06″E﻿|﻿28.14722°N 86.68500°E	fb:part.28_08_50_n_86_41_06_e|fb:part.28_14722_n_86_68500_e
+89	6	fb:cell.650	650	650	650	CD	NUMBER	650.0	650.0				
+89	7	fb:cell.cho_oyu	Cho Oyu	cho|oyu	Cho|Oyu	NNP|NNP	PERSON|PERSON	|				Cho Oyu	fb:part.cho_oyu
+89	8	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+89	9	fb:cell.2_1	2 (1)	2|-lrb-|1|-rrb-	2|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||1.0|	2.0		1.0		
+90	0	fb:cell.84	84	84	84	CD	NUMBER	84.0	84.0				
+90	1	fb:cell.the_crown_huang_guan	The Crown/\nHuang Guan	the|crown|\\/|huang|guan	the|Crown|\\/|Huang|Guan	DT|NNP|:|NNP|NNP	O|O|O|PERSON|PERSON	||||				The Crown|Huang Guan	fb:part.the_crown|fb:part.huang_guan
+90	2	fb:cell.7_295	7,295	7,295	7,295	CD	NUMBER	7295.0	7295.0				
+90	3	fb:cell.23_934	23,934	23,934	23,934	CD	NUMBER	23934.0	23934.0				
+90	4	fb:cell.yengisogat_karakoram	Yengisogat Karakoram	yengisogat|karakoram	Yengisogat|Karakoram	NNP|NNP	PERSON|PERSON	|					
+90	5	fb:cell.36_06_24_n_76_12_21_e_36_10667_n_76_20583_e	36°06′24″N 76°12′21″E﻿ / ﻿36.10667°N 76.20583°E	36|°|06|′|24|″|n|76|°|12|′|21|″|e|\\/|36.10667|°|n|76.20583|°|e	36|°|06|′|24|″|n|76|°|12|′|21|″|e|\\/|36.10667|°|n|76.20583|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||24.0|24.0||76.0|76.0|76.0||21.0|21.0|||36.10667|36.10667||76.20583|76.20583|	36.0		6.0	36°06′24″N 76°12′21″E﻿|﻿36.10667°N 76.20583°E	fb:part.36_06_24_n_76_12_21_e|fb:part.36_10667_n_76_20583_e
+90	6	fb:cell.1_919	1,919	1,919	1,919	CD	NUMBER	1919.0	1919.0				
+90	7	fb:cell.skil_brum_k2	Skil Brum (K2)	skil|brum|-lrb-|k2|-rrb-	Skil|Brum|-lrb-|k2|-rrb-	NNP|NNP|-LRB-|NN|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O	||||	2.0				
+90	8	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+90	9	fb:cell.1_3	1 (3)	1|-lrb-|3|-rrb-	1|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||3.0|	1.0		3.0		
+91	0	fb:cell.85	85	85	85	CD	NUMBER	85.0	85.0				
+91	1	fb:cell.gyala_peri	Gyala Peri	gyala|peri	Gyala|Peri	NNP|NNP	PERSON|PERSON	|				Gyala Peri	fb:part.gyala_peri
+91	2	fb:cell.7_294	7,294	7,294	7,294	CD	NUMBER	7294.0	7294.0				
+91	3	fb:cell.23_930	23,930	23,930	23,930	CD	NUMBER	23930.0	23930.0				
+91	4	fb:cell.assam_himalaya	Assam Himalaya	assam|himalaya	Assam|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+91	5	fb:cell.29_48_52_n_94_58_07_e_29_81444_n_94_96861_e	29°48′52″N 94°58′07″E﻿ / ﻿29.81444°N 94.96861°E	29|°|48|′|52|″|n|94|°|58|′|07|″|e|\\/|29.81444|°|n|94.96861|°|e	29|°|48|′|52|″|n|94|°|58|′|07|″|e|\\/|29.81444|°|n|94.96861|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	29.0|29.0|29.0||52.0|52.0||94.0|94.0|94.0||7.0|7.0|||29.81444|29.81444||94.96861|94.96861|	29.0		48.0	29°48′52″N 94°58′07″E﻿|﻿29.81444°N 94.96861°E	fb:part.29_48_52_n_94_58_07_e|fb:part.29_81444_n_94_96861_e
+91	6	fb:cell.2_942	2,942	2,942	2,942	CD	NUMBER	2942.0	2942.0				
+91	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+91	8	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+91	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+92	0	fb:cell.86	86	86	86	CD	NUMBER	86.0	86.0				
+92	1	fb:cell.porong_ri	Porong Ri	porong|ri	Porong|Ri	NNP|NNP	O|O	|				Porong Ri	fb:part.porong_ri
+92	2	fb:cell.7_292	7,292	7,292	7,292	CD	NUMBER	7292.0	7292.0				
+92	3	fb:cell.23_924	23,924	23,924	23,924	CD	NUMBER	23924.0	23924.0				
+92	4	fb:cell.langtang_himalaya	Langtang Himalaya	langtang|himalaya	Langtang|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+92	5	fb:cell.28_23_22_n_85_43_12_e_28_38944_n_85_72000_e	28°23′22″N 85°43′12″E﻿ / ﻿28.38944°N 85.72000°E	28|°|23|′|22|″|n|85|°|43|′|12|″|e|\\/|28.38944|°|n|85.72000|°|e	28|°|23|′|22|″|n|85|°|43|′|12|″|e|\\/|28.38944|°|n|85.72000|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||22.0|22.0||85.0|85.0|85.0||12.0|12.0|||28.38944|28.38944||85.72|85.72|	28.0		23.0	28°23′22″N 85°43′12″E﻿|﻿28.38944°N 85.72000°E	fb:part.28_23_22_n_85_43_12_e|fb:part.28_38944_n_85_72000_e
+92	6	fb:cell.520	520	520	520	CD	NUMBER	520.0	520.0				
+92	7	fb:cell.shisha_pangma	Shisha Pangma	shisha|pangma	Shisha|Pangma	NNP|NNP	PERSON|PERSON	|					
+92	8	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+92	9	fb:cell.5_0	5 (0)	5|-lrb-|0|-rrb-	5|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5.0||0.0|	5.0		0.0		
+93	0	fb:cell.87	87	87	87	CD	NUMBER	87.0	87.0				
+93	1	fb:cell.baintha_brakk_the_ogre	Baintha Brakk/\nThe Ogre	baintha|brakk|\\/|the|ogre	Baintha|Brakk|\\/|the|ogre	NNP|NNP|:|DT|NN	PERSON|PERSON|O|O|O	||||				Baintha Brakk|The Ogre	fb:part.baintha_brakk|fb:part.the_ogre
+93	2	fb:cell.7_285	7,285	7,285	7,285	CD	NUMBER	7285.0	7285.0				
+93	3	fb:cell.23_901	23,901	23,901	23,901	CD	NUMBER	23901.0	23901.0				
+93	4	fb:cell.panmah_karakoram	Panmah Karakoram	panmah|karakoram	Panmah|Karakoram	NNP|NNP	PERSON|PERSON	|					
+93	5	fb:cell.35_56_51_n_75_45_12_e_35_94750_n_75_75333_e	35°56′51″N 75°45′12″E﻿ / ﻿35.94750°N 75.75333°E *	35|°|56|′|51|″|n|75|°|45|′|12|″|e|\\/|35.94750|°|n|75.75333|°|e|\\*	35|°|56|′|51|″|n|75|°|45|′|12|″|e|\\/|35.94750|°|n|75.75333|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	35.0|35.0|35.0||51.0|51.0||75.0|75.0|75.0||12.0|12.0|||35.9475|35.9475||75.75333|75.75333||	35.0		56.0	35°56′51″N 75°45′12″E﻿|﻿35.94750°N 75.75333°E *	fb:part.35_56_51_n_75_45_12_e|fb:part.35_94750_n_75_75333_e
+93	6	fb:cell.1_891	1,891	1,891	1,891	CD	NUMBER	1891.0	1891.0				
+93	7	fb:cell.kanjut_sar	Kanjut Sar	kanjut|sar	Kanjut|Sar	NNP|NNP	O|O	|				Kanjut Sar	fb:part.kanjut_sar
+93	8	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+93	9	fb:cell.3_13	3 (13)	3|-lrb-|13|-rrb-	3|-lrb-|13|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||13.0|	3.0		13.0		
+94	0	fb:cell.88	88	88	88	CD	NUMBER	88.0	88.0				
+94	1	fb:cell.yutmaru_sar	Yutmaru Sar	yutmaru|sar	Yutmaru|Sar	NNP|NNP	PERSON|PERSON	|				Yutmaru Sar	fb:part.yutmaru_sar
+94	2	fb:cell.7_283	7,283	7,283	7,283	CD	NUMBER	7283.0	7283.0				
+94	3	fb:cell.23_894	23,894	23,894	23,894	CD	NUMBER	23894.0	23894.0				
+94	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+94	5	fb:cell.36_13_35_n_75_22_02_e_36_22639_n_75_36722_e	36°13′35″N 75°22′02″E﻿ / ﻿36.22639°N 75.36722°E	36|°|13|′|35|″|n|75|°|22|′|02|″|e|\\/|36.22639|°|n|75.36722|°|e	36|°|13|′|35|″|n|75|°|22|′|02|″|e|\\/|36.22639|°|n|75.36722|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||35.0|35.0||75.0|75.0|75.0||2.0|2.0|||36.22639|36.22639||75.36722|75.36722|	36.0		13.0	36°13′35″N 75°22′02″E﻿|﻿36.22639°N 75.36722°E	fb:part.36_13_35_n_75_22_02_e|fb:part.36_22639_n_75_36722_e
+94	6	fb:cell.620	620	620	620	CD	NUMBER	620.0	620.0				
+94	7	fb:cell.yukshin_gardan_sar	Yukshin Gardan Sar	yukshin|gardan|sar	Yukshin|Gardan|Sar	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Yukshin Gardan Sar	fb:part.yukshin_gardan_sar
+94	8	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+94	9	fb:cell.1_1	1 (1)	1|-lrb-|1|-rrb-	1|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||1.0|	1.0		1.0		
+95	0	fb:cell.89	89	89	89	CD	NUMBER	89.0	89.0				
+95	1	fb:cell.baltistan_peak_k6	Baltistan Peak/K6	baltistan|peak\\/k6	Baltistan|Peak\\/K6	NNP|NNP	LOCATION|O	|	6.0			Baltistan Peak|K6	fb:part.baltistan_peak|fb:part.k6
+95	2	fb:cell.7_282	7,282	7,282	7,282	CD	NUMBER	7282.0	7282.0				
+95	3	fb:cell.23_891	23,891	23,891	23,891	CD	NUMBER	23891.0	23891.0				
+95	4	fb:cell.masherbrum_karakoram	Masherbrum Karakoram	masherbrum|karakoram	Masherbrum|Karakoram	NNP|NNP	PERSON|PERSON	|					
+95	5	fb:cell.35_25_06_n_76_33_06_e_35_41833_n_76_55167_e	35°25′06″N 76°33′06″E﻿ / ﻿35.41833°N 76.55167°E	35|°|25|′|06|″|n|76|°|33|′|06|″|e|\\/|35.41833|°|n|76.55167|°|e	35|°|25|′|06|″|n|76|°|33|′|06|″|e|\\/|35.41833|°|n|76.55167|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||6.0|6.0||76.0|76.0|76.0||6.0|6.0|||35.41833|35.41833||76.55167|76.55167|	35.0		25.0	35°25′06″N 76°33′06″E﻿|﻿35.41833°N 76.55167°E	fb:part.35_25_06_n_76_33_06_e|fb:part.35_41833_n_76_55167_e
+95	6	fb:cell.1_962	1,962	1,962	1,962	CD	NUMBER	1962.0	1962.0				
+95	7	fb:cell.chogolisa	Chogolisa	chogolisa	Chogolisa	NNP	PERSON					Chogolisa	fb:part.chogolisa
+95	8	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+95	9	fb:cell.1_3	1 (3)	1|-lrb-|3|-rrb-	1|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||3.0|	1.0		3.0		
+96	0	fb:cell.90	90	90	90	CD	NUMBER	90.0	90.0				
+96	1	fb:cell.kangpenqing_gang_benchhen	Kangpenqing/\nGang Benchhen	kangpenqing|\\/|gang|benchhen	kangpenq|\\/|gang|benchhen	VBG|:|NN|NN	O|O|O|O	|||				Kangpenqing|Gang Benchhen	fb:part.kangpenqing|fb:part.gang_benchhen
+96	2	fb:cell.7_281	7,281	7,281	7,281	CD	NUMBER	7281.0	7281.0				
+96	3	fb:cell.23_888	23,888	23,888	23,888	CD	NUMBER	23888.0	23888.0				
+96	4	fb:cell.baiku_himalaya	Baiku Himalaya	baiku|himalaya	Baiku|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+96	5	fb:cell.28_33_03_n_85_32_44_e_28_55083_n_85_54556_e	28°33′03″N 85°32′44″E﻿ / ﻿28.55083°N 85.54556°E	28|°|33|′|03|″|n|85|°|32|′|44|″|e|\\/|28.55083|°|n|85.54556|°|e	28|°|33|′|03|″|n|85|°|32|′|44|″|e|\\/|28.55083|°|n|85.54556|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||3.0|3.0||85.0|85.0|85.0||44.0|44.0|||28.55083|28.55083||85.54556|85.54556|	28.0		33.0	28°33′03″N 85°32′44″E﻿|﻿28.55083°N 85.54556°E	fb:part.28_33_03_n_85_32_44_e|fb:part.28_55083_n_85_54556_e
+96	6	fb:cell.1_340	1,340	1,340	1,340	CD	NUMBER	1340.0	1340.0				
+96	7	fb:cell.shisha_pangma	Shisha Pangma	shisha|pangma	Shisha|Pangma	NNP|NNP	PERSON|PERSON	|					
+96	8	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+96	9	fb:cell.1_1	1 (1)	1|-lrb-|1|-rrb-	1|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||1.0|	1.0		1.0		
+97	0	fb:cell.91	91	91	91	CD	NUMBER	91.0	91.0				
+97	1	fb:cell.muztagh_tower	Muztagh Tower	muztagh|tower	Muztagh|Tower	NNP|NNP	O|O	|				Muztagh Tower	fb:part.muztagh_tower
+97	2	fb:cell.7_276	7,276	7,276	7,276	CD	NUMBER	7276.0	7276.0				
+97	3	fb:cell.23_871	23,871	23,871	23,871	CD	NUMBER	23871.0	23871.0				
+97	4	fb:cell.baltoro_karakoram	Baltoro Karakoram	baltoro|karakoram	Baltoro|Karakoram	NNP|NNP	PERSON|PERSON	|					
+97	5	fb:cell.35_49_40_n_76_21_40_e_35_82778_n_76_36111_e	35°49′40″N 76°21′40″E﻿ / ﻿35.82778°N 76.36111°E	35|°|49|′|40|″|n|76|°|21|′|40|″|e|\\/|35.82778|°|n|76.36111|°|e	35|°|49|′|40|″|n|76|°|21|′|40|″|e|\\/|35.82778|°|n|76.36111|°|e	CD|CD|CD|CD|CD|NN|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0|35.0|35.0|||76.0||21.0|21.0|21.0||||35.82778|35.82778||76.36111|76.36111|	35.0		49.0	35°49′40″N 76°21′40″E﻿|﻿35.82778°N 76.36111°E	fb:part.35_49_40_n_76_21_40_e|fb:part.35_82778_n_76_36111_e
+97	6	fb:cell.1_710	1,710	1,710	1,710	CD	NUMBER	1710.0	1710.0				
+97	7	fb:cell.skil_brum	Skil Brum	skil|brum	Skil|Brum	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Skil Brum	fb:part.skil_brum
+97	8	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+97	9	fb:cell.4_2	4 (2)	4|-lrb-|2|-rrb-	4|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||2.0|	4.0		2.0		
+98	0	fb:cell.92	92	92	92	CD	NUMBER	92.0	92.0				
+98	1	fb:cell.mana	Mana	mana	Mana	NNP	O					Mana	fb:part.mana
+98	2	fb:cell.7_272	7,272	7,272	7,272	CD	NUMBER	7272.0	7272.0				
+98	3	fb:cell.23_858	23,858	23,858	23,858	CD	NUMBER	23858.0	23858.0				
+98	4	fb:cell.garhwal_himalaya	Garhwal Himalaya	garhwal|himalaya	Garhwal|Himalaya	NNP|NNP	PERSON|PERSON	|					
+98	5	fb:cell.30_52_50_n_79_36_55_e_30_88056_n_79_61528_e	30°52′50″N 79°36′55″E﻿ / ﻿30.88056°N 79.61528°E	30|°|52|′|50|″|n|79|°|36|′|55|″|e|\\/|30.88056|°|n|79.61528|°|e	30|°|52|′|50|″|n|79|°|36|′|55|″|e|\\/|30.88056|°|n|79.61528|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	30.0|30.0|30.0||50.0|50.0||79.0|79.0|79.0||55.0|55.0|||30.88056|30.88056||79.61528|79.61528|	30.0		52.0	30°52′50″N 79°36′55″E﻿|﻿30.88056°N 79.61528°E	fb:part.30_52_50_n_79_36_55_e|fb:part.30_88056_n_79_61528_e
+98	6	fb:cell.730	730	730	730	CD	NUMBER	730.0	730.0				
+98	7	fb:cell.kamet	Kamet	kamet	Kamet	NNP	PERSON					Kamet	fb:part.kamet
+98	8	fb:cell.1937	1937	1937	1937	CD	DATE	1937	1937.0	1937-xx-xx			
+98	9	fb:cell.7_3	7 (3)	7|-lrb-|3|-rrb-	7|-lrb-|3|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	7.0||3.0|	7.0		3.0		
+99	0	fb:cell.null											
+99	1	fb:cell.dhaulagiri_vi	Dhaulagiri VI	dhaulagiri|vi	Dhaulagiri|VI	NNP|NNP	O|O	|				Dhaulagiri VI	fb:part.dhaulagiri_vi
+99	2	fb:cell.7_268	7,268	7,268	7,268	CD	NUMBER	7268.0	7268.0				
+99	3	fb:cell.23_845	23,845	23,845	23,845	CD	NUMBER	23845.0	23845.0				
+99	4	fb:cell.dhaulagiri_himalaya	Dhaulagiri Himalaya	dhaulagiri|himalaya	Dhaulagiri|Himalaya	NNP|NNP	PERSON|PERSON	|					
+99	5	fb:cell.28_42_31_n_83_16_27_e_28_70861_n_83_27417_e	28°42′31″N 83°16′27″E﻿ / ﻿28.70861°N 83.27417°E	28|°|42|′|31|″|n|83|°|16|′|27|″|e|\\/|28.70861|°|n|83.27417|°|e	28|°|42|′|31|″|n|83|°|16|′|27|″|e|\\/|28.70861|°|n|83.27417|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||31.0|31.0||83.0|83.0|83.0||27.0|27.0|||28.70861|28.70861||83.27417|83.27417|	28.0		42.0	28°42′31″N 83°16′27″E﻿|﻿28.70861°N 83.27417°E	fb:part.28_42_31_n_83_16_27_e|fb:part.28_70861_n_83_27417_e
+99	6	fb:cell.485	485	485	485	CD	NUMBER	485.0	485.0				
+99	7	fb:cell.dhaulagiri_iv	Dhaulagiri IV	dhaulagiri|iv	Dhaulagiri|iv	NNP|CD	O|NUMBER	|0.0				Dhaulagiri IV	fb:part.dhaulagiri_iv
+99	8	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+99	9	fb:cell.5_0	5 (0)	5|-lrb-|0|-rrb-	5|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5.0||0.0|	5.0		0.0		
+100	0	fb:cell.93	93	93	93	CD	NUMBER	93.0	93.0				
+100	1	fb:cell.diran	Diran	diran	Diran	NNP	O					Diran	fb:part.diran
+100	2	fb:cell.7_266	7,266	7,266	7,266	CD	NUMBER	7266.0	7266.0				
+100	3	fb:cell.23_839	23,839	23,839	23,839	CD	NUMBER	23839.0	23839.0				
+100	4	fb:cell.rakaposhi_haramosh_karakoram	Rakaposhi-Haramosh Karakoram	rakaposhi|haramosh|karakoram	Rakaposhi|Haramosh|Karakoram	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+100	5	fb:cell.36_07_13_n_74_39_42_e_36_12028_n_74_66167_e	36°07′13″N 74°39′42″E﻿ / ﻿36.12028°N 74.66167°E	36|°|07|′|13|″|n|74|°|39|′|42|″|e|\\/|36.12028|°|n|74.66167|°|e	36|°|07|′|13|″|n|74|°|39|′|42|″|e|\\/|36.12028|°|n|74.66167|°|e	CD|CD|CD|CD|CD|NN|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0|36.0|36.0|||74.0|74.0|74.0||42.0|42.0|||36.12028|36.12028||74.66167|74.66167|	36.0		7.0	36°07′13″N 74°39′42″E﻿|﻿36.12028°N 74.66167°E	fb:part.36_07_13_n_74_39_42_e|fb:part.36_12028_n_74_66167_e
+100	6	fb:cell.1_325	1,325	1,325	1,325	CD	NUMBER	1325.0	1325.0				
+100	7	fb:cell.malubiting	Malubiting	malubiting	malubit	VBG	O					Malubiting	fb:part.malubiting
+100	8	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+100	9	fb:cell.12_8	12 (8)	12|-lrb-|8|-rrb-	12|-lrb-|8|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	12.0||8.0|	12.0		8.0		
+101	0	fb:cell.94	94	94	94	CD	NUMBER	94.0	94.0				
+101	1	fb:cell.labuche_kang_iii_east	Labuche Kang III/East	labuche|kang|iii\\/east	Labuche|Kang|III\\/East	NNP|NNP|NNP	PERSON|PERSON|O	||				Labuche Kang III|East	fb:part.labuche_kang_iii|fb:part.east
+101	2	fb:cell.7_250	7,250	7,250	7,250	CD	NUMBER	7250.0	7250.0				
+101	3	fb:cell.23_786	23,786	23,786	23,786	CD	NUMBER	23786.0	23786.0				
+101	4	fb:cell.labuche_himalaya	Labuche Himalaya	labuche|himalaya	Labuche|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+101	5	fb:cell.28_18_05_n_86_23_02_e_28_30139_n_86_38389_e	28°18′05″N 86°23′02″E﻿ / ﻿28.30139°N 86.38389°E	28|°|18|′|05|″|n|86|°|23|′|02|″|e|\\/|28.30139|°|n|86.38389|°|e	28|°|18|′|05|″|n|86|°|23|′|02|″|e|\\/|28.30139|°|n|86.38389|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||5.0|5.0||86.0|86.0|86.0||2.0|2.0|||28.30139|28.30139||86.38389|86.38389|	28.0		18.0	28°18′05″N 86°23′02″E﻿|﻿28.30139°N 86.38389°E	fb:part.28_18_05_n_86_23_02_e|fb:part.28_30139_n_86_38389_e
+101	6	fb:cell.570	570	570	570	CD	NUMBER	570.0	570.0				
+101	7	fb:cell.labuche_kang	Labuche Kang	labuche|kang	Labuche|Kang	NNP|NNP	PERSON|PERSON	|				Labuche Kang	fb:part.labuche_kang
+101	8	fb:cell.unclimbed	unclimbed	unclimbed	unclimbed	JJ	O						
+101	9	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+102	0	fb:cell.95	95	95	95	CD	NUMBER	95.0	95.0				
+102	1	fb:cell.putha_hiunchuli	Putha Hiunchuli	putha|hiunchuli	Putha|Hiunchuli	NNP|NNP	PERSON|PERSON	|				Putha Hiunchuli	fb:part.putha_hiunchuli
+102	2	fb:cell.7_246	7,246	7,246	7,246	CD	NUMBER	7246.0	7246.0				
+102	3	fb:cell.23_773	23,773	23,773	23,773	CD	NUMBER	23773.0	23773.0				
+102	4	fb:cell.dhaulagiri_himalaya	Dhaulagiri Himalaya	dhaulagiri|himalaya	Dhaulagiri|Himalaya	NNP|NNP	PERSON|PERSON	|					
+102	5	fb:cell.28_44_52_n_83_08_46_e_28_74778_n_83_14611_e	28°44′52″N 83°08′46″E﻿ / ﻿28.74778°N 83.14611°E	28|°|44|′|52|″|n|83|°|08|′|46|″|e|\\/|28.74778|°|n|83.14611|°|e	28|°|44|′|52|″|n|83|°|08|′|46|″|e|\\/|28.74778|°|n|83.14611|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||52.0|52.0||83.0|83.0|83.0||46.0|46.0|||28.74778|28.74778||83.14611|83.14611|	28.0		44.0	28°44′52″N 83°08′46″E﻿|﻿28.74778°N 83.14611°E	fb:part.28_44_52_n_83_08_46_e|fb:part.28_74778_n_83_14611_e
+102	6	fb:cell.1_151	1,151	1,151	1,151	CD	NUMBER	1151.0	1151.0				
+102	7	fb:cell.churen_himal	Churen Himal	churen|himal	Churen|Himal	NNP|NNP	PERSON|PERSON	|				Churen Himal	fb:part.churen_himal
+102	8	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+102	9	fb:cell.11_5	11 (5)	11|-lrb-|5|-rrb-	11|-lrb-|5|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	11.0||5.0|	11.0		5.0		
+103	0	fb:cell.96	96	96	96	CD	NUMBER	96.0	96.0				
+103	1	fb:cell.apsarasas_kangri	Apsarasas Kangri	apsarasas|kangri	Apsarasas|Kangri	NNP|NNP	PERSON|PERSON	|				Apsarasas Kangri	fb:part.apsarasas_kangri
+103	2	fb:cell.7_245	7,245	7,245	7,245	CD	NUMBER	7245.0	7245.0				
+103	3	fb:cell.23_770	23,770	23,770	23,770	CD	NUMBER	23770.0	23770.0				
+103	4	fb:cell.siachen_karakoram	Siachen Karakoram	siachen|karakoram	Siachen|Karakoram	NNP|NNP	PERSON|PERSON	|					
+103	5	fb:cell.35_32_19_n_77_08_55_e_35_53861_n_77_14861_e	35°32′19″N 77°08′55″E﻿ / ﻿35.53861°N 77.14861°E	35|°|32|′|19|″|n|77|°|08|′|55|″|e|\\/|35.53861|°|n|77.14861|°|e	35|°|32|′|19|″|n|77|°|08|′|55|″|e|\\/|35.53861|°|n|77.14861|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||19.0|19.0||77.0|77.0|77.0||55.0|55.0|||35.53861|35.53861||77.14861|77.14861|	35.0		32.0	35°32′19″N 77°08′55″E﻿|﻿35.53861°N 77.14861°E	fb:part.35_32_19_n_77_08_55_e|fb:part.35_53861_n_77_14861_e
+103	6	fb:cell.635	635	635	635	CD	NUMBER	635.0	635.0				
+103	7	fb:cell.teram_kangri_i	Teram Kangri I	teram|kangri|i	Teram|Kangri|I	NNP|NNP|PRP	PERSON|PERSON|O	||				Teram Kangri I	fb:part.teram_kangri_i
+103	8	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+103	9	fb:cell.2_0	2 (0)	2|-lrb-|0|-rrb-	2|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||0.0|	2.0		0.0		
+104	0	fb:cell.97	97	97	97	CD	NUMBER	97.0	97.0				
+104	1	fb:cell.mukut_parbat	Mukut Parbat	mukut|parbat	Mukut|Parbat	NNP|NNP	O|O	|				Mukut Parbat	fb:part.mukut_parbat
+104	2	fb:cell.7_242	7,242	7,242	7,242	CD	NUMBER	7242.0	7242.0				
+104	3	fb:cell.23_760	23,760	23,760	23,760	CD	NUMBER	23760.0	23760.0				
+104	4	fb:cell.garhwal_himalaya	Garhwal Himalaya	garhwal|himalaya	Garhwal|Himalaya	NNP|NNP	PERSON|PERSON	|					
+104	5	fb:cell.30_56_57_n_79_34_12_e_30_94917_n_79_57000_e	30°56′57″N 79°34′12″E﻿ / ﻿30.94917°N 79.57000°E	30|°|56|′|57|″|n|79|°|34|′|12|″|e|\\/|30.94917|°|n|79.57000|°|e	30|°|56|′|57|″|n|79|°|34|′|12|″|e|\\/|30.94917|°|n|79.57000|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	30.0|30.0|30.0||57.0|57.0||79.0|79.0|79.0||12.0|12.0|||30.94917|30.94917||79.57|79.57|	30.0		56.0	30°56′57″N 79°34′12″E﻿|﻿30.94917°N 79.57000°E	fb:part.30_56_57_n_79_34_12_e|fb:part.30_94917_n_79_57000_e
+104	6	fb:cell.840	840	840	840	CD	NUMBER	840.0	840.0				
+104	7	fb:cell.kamet	Kamet	kamet	Kamet	NNP	PERSON					Kamet	fb:part.kamet
+104	8	fb:cell.1951	1951	1951	1951	CD	DATE	1951	1951.0	1951-xx-xx			
+104	9	fb:cell.2_1	2 (1)	2|-lrb-|1|-rrb-	2|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||1.0|	2.0		1.0		
+105	0	fb:cell.98	98	98	98	CD	NUMBER	98.0	98.0				
+105	1	fb:cell.rimo_iii	Rimo III	rimo|iii	Rimo|III	NNP|NNP	O|O	|				Rimo III	fb:part.rimo_iii
+105	2	fb:cell.7_233	7,233	7,233	7,233	CD	NUMBER	7233.0	7233.0				
+105	3	fb:cell.23_730	23,730	23,730	23,730	CD	NUMBER	23730.0	23730.0				
+105	4	fb:cell.rimo_karakoram	Rimo Karakoram	rimo|karakoram	Rimo|Karakoram	NNP|NNP	PERSON|PERSON	|					
+105	5	fb:cell.35_22_31_n_77_21_42_e_35_37528_n_77_36167_e	35°22′31″N 77°21′42″E﻿ / ﻿35.37528°N 77.36167°E	35|°|22|′|31|″|n|77|°|21|′|42|″|e|\\/|35.37528|°|n|77.36167|°|e	35|°|22|′|31|″|n|77|°|21|′|42|″|e|\\/|35.37528|°|n|77.36167|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||31.0|31.0||77.0|77.0|77.0||42.0|42.0|||35.37528|35.37528||77.36167|77.36167|	35.0		22.0	35°22′31″N 77°21′42″E﻿|﻿35.37528°N 77.36167°E	fb:part.35_22_31_n_77_21_42_e|fb:part.35_37528_n_77_36167_e
+105	6	fb:cell.615	615	615	615	CD	NUMBER	615.0	615.0				
+105	7	fb:cell.rimo_i	Rimo I	rimo|i	Rimo|I	NNP|PRP	O|O	|				Rimo I	fb:part.rimo_i
+105	8	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+105	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+106	0	fb:cell.99	99	99	99	CD	NUMBER	99.0	99.0				
+106	1	fb:cell.langtang_lirung	Langtang Lirung	langtang|lirung	Langtang|Lirung	NNP|NNP	PERSON|PERSON	|				Langtang Lirung	fb:part.langtang_lirung
+106	2	fb:cell.7_227	7,227	7,227	7,227	CD	NUMBER	7227.0	7227.0				
+106	3	fb:cell.23_711	23,711	23,711	23,711	CD	NUMBER	23711.0	23711.0				
+106	4	fb:cell.langtang_himalaya	Langtang Himalaya	langtang|himalaya	Langtang|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+106	5	fb:cell.28_15_22_n_85_31_01_e_28_25611_n_85_51694_e	28°15′22″N 85°31′01″E﻿ / ﻿28.25611°N 85.51694°E	28|°|15|′|22|″|n|85|°|31|′|01|″|e|\\/|28.25611|°|n|85.51694|°|e	28|°|15|′|22|″|n|85|°|31|′|01|″|e|\\/|28.25611|°|n|85.51694|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||22.0|22.0||85.0|85.0|85.0||1.0|1.0|||28.25611|28.25611||85.51694|85.51694|	28.0		15.0	28°15′22″N 85°31′01″E﻿|﻿28.25611°N 85.51694°E	fb:part.28_15_22_n_85_31_01_e|fb:part.28_25611_n_85_51694_e
+106	6	fb:cell.1_525	1,525	1,525	1,525	CD	NUMBER	1525.0	1525.0				
+106	7	fb:cell.shisha_pangma	Shisha Pangma	shisha|pangma	Shisha|Pangma	NNP|NNP	PERSON|PERSON	|					
+106	8	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+106	9	fb:cell.14_13	14 (13)	14|-lrb-|13|-rrb-	14|-lrb-|13|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	14.0||13.0|	14.0		13.0		
+107	0	fb:cell.100	100	100	100	CD	NUMBER	100.0	100.0				
+107	1	fb:cell.karjiang	Karjiang	karjiang	karjiang	NN	PERSON					Karjiang	fb:part.karjiang
+107	2	fb:cell.7_221	7,221	7,221	7,221	CD	NUMBER	7221.0	7221.0				
+107	3	fb:cell.23_691	23,691	23,691	23,691	CD	NUMBER	23691.0	23691.0				
+107	4	fb:cell.kula_kangri_himalaya	Kula Kangri Himalaya	kula|kangri|himalaya	Kula|Kangri|Himalaya	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||					
+107	5	fb:cell.28_15_27_n_90_38_49_e_28_25750_n_90_64694_e	28°15′27″N 90°38′49″E﻿ / ﻿28.25750°N 90.64694°E	28|°|15|′|27|″|n|90|°|38|′|49|″|e|\\/|28.25750|°|n|90.64694|°|e	28|°|15|′|27|″|n|90|°|38|′|49|″|e|\\/|28.25750|°|n|90.64694|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||27.0|27.0||90.0|90.0|90.0||49.0|49.0|||28.2575|28.2575||90.64694|90.64694|	28.0		15.0	28°15′27″N 90°38′49″E﻿|﻿28.25750°N 90.64694°E	fb:part.28_15_27_n_90_38_49_e|fb:part.28_25750_n_90_64694_e
+107	6	fb:cell.880	880	880	880	CD	NUMBER	880.0	880.0				
+107	7	fb:cell.kula_kangri	Kula Kangri	kula|kangri	Kula|Kangri	NNP|NNP	LOCATION|LOCATION	|				Kula Kangri	fb:part.kula_kangri
+107	8	fb:cell.unclimbed	unclimbed	unclimbed	unclimbed	JJ	O						
+107	9	fb:cell.0_2	0 (2)	0|-lrb-|2|-rrb-	0|-lrb-|2|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||2.0|	0.0		2.0		
+108	0	fb:cell.101	101	101	101	CD	NUMBER	101.0	101.0				
+108	1	fb:cell.annapurna_dakshin	Annapurna Dakshin	annapurna|dakshin	Annapurna|Dakshin	NNP|NNP	PERSON|PERSON	|				Annapurna Dakshin	fb:part.annapurna_dakshin
+108	2	fb:cell.7_219	7,219	7,219	7,219	CD	NUMBER	7219.0	7219.0				
+108	3	fb:cell.23_684	23,684	23,684	23,684	CD	NUMBER	23684.0	23684.0				
+108	4	fb:cell.annapurna_himalaya	Annapurna Himalaya	annapurna|himalaya	Annapurna|Himalaya	NNP|NNP	PERSON|PERSON	|					
+108	5	fb:cell.28_31_06_n_83_48_22_e_28_51833_n_83_80611_e	28°31′06″N 83°48′22″E﻿ / ﻿28.51833°N 83.80611°E	28|°|31|′|06|″|n|83|°|48|′|22|″|e|\\/|28.51833|°|n|83.80611|°|e	28|°|31|′|06|″|n|83|°|48|′|22|″|e|\\/|28.51833|°|n|83.80611|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||6.0|6.0||83.0|83.0|83.0||22.0|22.0|||28.51833|28.51833||83.80611|83.80611|	28.0		31.0	28°31′06″N 83°48′22″E﻿|﻿28.51833°N 83.80611°E	fb:part.28_31_06_n_83_48_22_e|fb:part.28_51833_n_83_80611_e
+108	6	fb:cell.775	775	775	775	CD	NUMBER	775.0	775.0				
+108	7	fb:cell.annapurna	Annapurna	annapurna	Annapurna	NNP	PERSON						
+108	8	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+108	9	fb:cell.10_16	10 (16)	10|-lrb-|16|-rrb-	10|-lrb-|16|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	10.0||16.0|	10.0		16.0		
+109	0	fb:cell.102	102	102	102	CD	NUMBER	102.0	102.0				
+109	1	fb:cell.khartaphu	Khartaphu	khartaphu	Khartaphu	NNP	PERSON					Khartaphu	fb:part.khartaphu
+109	2	fb:cell.7_213	7,213	7,213	7,213	CD	NUMBER	7213.0	7213.0				
+109	3	fb:cell.23_665	23,665	23,665	23,665	CD	NUMBER	23665.0	23665.0				
+109	4	fb:cell.mahalangur_himalaya	Mahalangur Himalaya	mahalangur|himalaya	Mahalangur|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+109	5	fb:cell.28_03_49_n_86_58_39_e_28_06361_n_86_97750_e	28°03′49″N 86°58′39″E﻿ / ﻿28.06361°N 86.97750°E	28|°|03|′|49|″|n|86|°|58|′|39|″|e|\\/|28.06361|°|n|86.97750|°|e	28|°|03|′|49|″|n|86|°|58|′|39|″|e|\\/|28.06361|°|n|86.97750|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||49.0|49.0||86.0|86.0|86.0||39.0|39.0|||28.06361|28.06361||86.9775|86.9775|	28.0		3.0	28°03′49″N 86°58′39″E﻿|﻿28.06361°N 86.97750°E	fb:part.28_03_49_n_86_58_39_e|fb:part.28_06361_n_86_97750_e
+109	6	fb:cell.712	712	712	712	CD	NUMBER	712.0	712.0				
+109	7	fb:cell.mount_everest	Mount Everest	mount|everest	Mount|Everest	NNP|NNP	LOCATION|LOCATION	|					
+109	8	fb:cell.1935	1935	1935	1935	CD	DATE	1935	1935.0	1935-xx-xx			
+109	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+110	0	fb:cell.103	103	103	103	CD	NUMBER	103.0	103.0				
+110	1	fb:cell.tongshanjiabu	Tongshanjiabu	tongshanjiabu	Tongshanjiabu	NNP	PERSON					Tongshanjiabu	fb:part.tongshanjiabu
+110	2	fb:cell.7_207	7,207	7,207	7,207	CD	NUMBER	7207.0	7207.0				
+110	3	fb:cell.23_645	23,645	23,645	23,645	CD	NUMBER	23645.0	23645.0				
+110	4	fb:cell.lunana_himalaya	Lunana Himalaya	lunana|himalaya	Lunana|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+110	5	fb:cell.28_11_12_n_89_57_27_e_28_18667_n_89_95750_e	28°11′12″N 89°57′27″E﻿ / ﻿28.18667°N 89.95750°E	28|°|11|′|12|″|n|89|°|57|′|27|″|e|\\/|28.18667|°|n|89.95750|°|e	28|°|11|′|12|″|n|89|°|57|′|27|″|e|\\/|28.18667|°|n|89.95750|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||12.0|12.0||89.0|89.0|89.0||27.0|27.0|||28.18667|28.18667||89.9575|89.9575|	28.0		11.0	28°11′12″N 89°57′27″E﻿|﻿28.18667°N 89.95750°E	fb:part.28_11_12_n_89_57_27_e|fb:part.28_18667_n_89_95750_e
+110	6	fb:cell.1_757	1,757	1,757	1,757	CD	NUMBER	1757.0	1757.0				
+110	7	fb:cell.gangkar_puensum	Gangkar Puensum	gangkar|puensum	Gangkar|Puensum	NNP|NNP	PERSON|PERSON	|					
+110	8	fb:cell.unclimbed	unclimbed	unclimbed	unclimbed	JJ	O						
+110	9	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+111	0	fb:cell.104	104	104	104	CD	NUMBER	104.0	104.0				
+111	1	fb:cell.malangutti_sar	Malangutti Sar	malangutti|sar	Malangutti|Sar	NNP|NNP	PERSON|PERSON	|				Malangutti Sar	fb:part.malangutti_sar
+111	2	fb:cell.7_207	7,207	7,207	7,207	CD	NUMBER	7207.0	7207.0				
+111	3	fb:cell.23_645	23,645	23,645	23,645	CD	NUMBER	23645.0	23645.0				
+111	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+111	5	fb:cell.36_21_47_n_75_08_57_e_36_36306_n_75_14917_e	36°21′47″N 75°08′57″E﻿ / ﻿36.36306°N 75.14917°E	36|°|21|′|47|″|n|75|°|08|′|57|″|e|\\/|36.36306|°|n|75.14917|°|e	36|°|21|′|47|″|n|75|°|08|′|57|″|e|\\/|36.36306|°|n|75.14917|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	36.0|36.0|36.0||47.0|47.0||75.0|75.0|75.0||57.0|57.0|||36.36306|36.36306||75.14917|75.14917|	36.0		21.0	36°21′47″N 75°08′57″E﻿|﻿36.36306°N 75.14917°E	fb:part.36_21_47_n_75_08_57_e|fb:part.36_36306_n_75_14917_e
+111	6	fb:cell.515	515	515	515	CD	NUMBER	515.0	515.0				
+111	7	fb:cell.distaghil_sar	Distaghil Sar	distaghil|sar	Distaghil|Sar	NNP|NNP	O|O	|				Distaghil Sar	fb:part.distaghil_sar
+111	8	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+111	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+112	0	fb:cell.105	105	105	105	CD	NUMBER	105.0	105.0				
+112	1	fb:cell.noijin_kangsang_norin_kang	Noijin Kangsang/\nNorin Kang	noijin|kangsang|\\/|norin|kang	Noijin|Kangsang|\\/|Norin|Kang	NNP|NNP|:|NNP|NNP	O|O|O|PERSON|PERSON	||||				Noijin Kangsang|Norin Kang	fb:part.noijin_kangsang|fb:part.norin_kang
+112	2	fb:cell.7_206	7,206	7,206	7,206	CD	NUMBER	7206.0	7206.0				
+112	3	fb:cell.23_642	23,642	23,642	23,642	CD	NUMBER	23642.0	23642.0				
+112	4	fb:cell.nagarze_himalaya	Nagarze Himalaya	nagarze|himalaya	Nagarze|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+112	5	fb:cell.28_56_48_n_90_10_42_e_28_94667_n_90_17833_e	28°56′48″N 90°10′42″E﻿ / ﻿28.94667°N 90.17833°E	28|°|56|′|48|″|n|90|°|10|′|42|″|e|\\/|28.94667|°|n|90.17833|°|e	28|°|56|′|48|″|n|90|°|10|′|42|″|e|\\/|28.94667|°|n|90.17833|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||48.0|48.0||90.0|90.0|90.0||42.0|42.0|||28.94667|28.94667||90.17833|90.17833|	28.0		56.0	28°56′48″N 90°10′42″E﻿|﻿28.94667°N 90.17833°E	fb:part.28_56_48_n_90_10_42_e|fb:part.28_94667_n_90_17833_e
+112	6	fb:cell.2_160	2,160	2,160	2,160	CD	NUMBER	2160.0	2160.0				
+112	7	fb:cell.tongshanjiabu	Tongshanjiabu	tongshanjiabu	Tongshanjiabu	NNP	PERSON					Tongshanjiabu	fb:part.tongshanjiabu
+112	8	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+112	9	fb:cell.4_1	4 (1)	4|-lrb-|1|-rrb-	4|-lrb-|1|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||1.0|	4.0		1.0		
+113	0	fb:cell.106	106	106	106	CD	NUMBER	106.0	106.0				
+113	1	fb:cell.langtang_ri	Langtang Ri	langtang|ri	Langtang|Ri	NNP|NNP	O|O	|				Langtang Ri	fb:part.langtang_ri
+113	2	fb:cell.7_205	7,205	7,205	7,205	CD	NUMBER	7205.0	7205.0				
+113	3	fb:cell.23_638	23,638	23,638	23,638	CD	NUMBER	23638.0	23638.0				
+113	4	fb:cell.langtang_himalaya	Langtang Himalaya	langtang|himalaya	Langtang|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+113	5	fb:cell.28_22_53_n_85_41_01_e_28_38139_n_85_68361_e	28°22′53″N 85°41′01″E﻿ / ﻿28.38139°N 85.68361°E	28|°|22|′|53|″|n|85|°|41|′|01|″|e|\\/|28.38139|°|n|85.68361|°|e	28|°|22|′|53|″|n|85|°|41|′|01|″|e|\\/|28.38139|°|n|85.68361|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||53.0|53.0||85.0|85.0|85.0||1.0|1.0|||28.38139|28.38139||85.68361|85.68361|	28.0		22.0	28°22′53″N 85°41′01″E﻿|﻿28.38139°N 85.68361°E	fb:part.28_22_53_n_85_41_01_e|fb:part.28_38139_n_85_68361_e
+113	6	fb:cell.650	650	650	650	CD	NUMBER	650.0	650.0				
+113	7	fb:cell.porong_ri	Porong Ri	porong|ri	Porong|Ri	NNP|NNP	O|O	|				Porong Ri	fb:part.porong_ri
+113	8	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+113	9	fb:cell.4_0	4 (0)	4|-lrb-|0|-rrb-	4|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||0.0|	4.0		0.0		
+114	0	fb:cell.107	107	107	107	CD	NUMBER	107.0	107.0				
+114	1	fb:cell.kangphu_kang	Kangphu Kang	kangphu|kang	Kangphu|Kang	NNP|NNP	PERSON|PERSON	|				Kangphu Kang	fb:part.kangphu_kang
+114	2	fb:cell.7_204	7,204	7,204	7,204	CD	NUMBER	7204.0	7204.0				
+114	3	fb:cell.23_635	23,635	23,635	23,635	CD	NUMBER	23635.0	23635.0				
+114	4	fb:cell.lunana_himalaya	Lunana Himalaya	lunana|himalaya	Lunana|Himalaya	NNP|NNP	LOCATION|LOCATION	|					
+114	5	fb:cell.28_09_20_n_90_03_48_e_28_15556_n_90_06333_e	28°09′20″N 90°03′48″E﻿ / ﻿28.15556°N 90.06333°E	28|°|09|′|20|″|n|90|°|03|′|48|″|e|\\/|28.15556|°|n|90.06333|°|e	28|°|09|′|20|″|n|90|°|03|′|48|″|e|\\/|28.15556|°|n|90.06333|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	28.0|28.0|28.0||20.0|20.0||90.0|90.0|90.0||48.0|48.0|||28.15556|28.15556||90.06333|90.06333|	28.0		9.0	28°09′20″N 90°03′48″E﻿|﻿28.15556°N 90.06333°E	fb:part.28_09_20_n_90_03_48_e|fb:part.28_15556_n_90_06333_e
+114	6	fb:cell.1_200	1,200	1,200	1,200	CD	NUMBER	1200.0	1200.0				
+114	7	fb:cell.tongshanjiabu	Tongshanjiabu	tongshanjiabu	Tongshanjiabu	NNP	PERSON					Tongshanjiabu	fb:part.tongshanjiabu
+114	8	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+114	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+115	0	fb:cell.108	108	108	108	CD	NUMBER	108.0	108.0				
+115	1	fb:cell.singhi_kangri	Singhi Kangri	singhi|kangri	Singhi|Kangri	NNP|NNP	PERSON|PERSON	|				Singhi Kangri	fb:part.singhi_kangri
+115	2	fb:cell.7_202	7,202	7,202	7,202	CD	NUMBER	7202.0	7202.0				
+115	3	fb:cell.23_629	23,629	23,629	23,629	CD	NUMBER	23629.0	23629.0				
+115	4	fb:cell.siachen_karakoram	Siachen Karakoram	siachen|karakoram	Siachen|Karakoram	NNP|NNP	PERSON|PERSON	|					
+115	5	fb:cell.35_35_59_n_76_59_01_e_35_59972_n_76_98361_e	35°35′59″N 76°59′01″E﻿ / ﻿35.59972°N 76.98361°E	35|°|35|′|59|″|n|76|°|59|′|01|″|e|\\/|35.59972|°|n|76.98361|°|e	35|°|35|′|59|″|n|76|°|59|′|01|″|e|\\/|35.59972|°|n|76.98361|°|e	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	35.0|35.0|35.0||59.0|59.0||76.0|76.0|76.0||1.0|1.0|||35.59972|35.59972||76.98361|76.98361|	35.0		35.0	35°35′59″N 76°59′01″E﻿|﻿35.59972°N 76.98361°E	fb:part.35_35_59_n_76_59_01_e|fb:part.35_59972_n_76_98361_e
+115	6	fb:cell.790	790	790	790	CD	NUMBER	790.0	790.0				
+115	7	fb:cell.teram_kangri_iii	Teram Kangri III	teram|kangri|iii	Teram|Kangri|III	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Teram Kangri III	fb:part.teram_kangri_iii
+115	8	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+115	9	fb:cell.2_0	2 (0)	2|-lrb-|0|-rrb-	2|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||0.0|	2.0		0.0		
+116	0	fb:cell.109	109	109	109	CD	NUMBER	109.0	109.0				
+116	1	fb:cell.lupghar_sar	Lupghar Sar	lupghar|sar	Lupghar|Sar	NNP|NNP	PERSON|PERSON	|				Lupghar Sar	fb:part.lupghar_sar
+116	2	fb:cell.7_200	7,200	7,200	7,200	CD	NUMBER	7200.0	7200.0				
+116	3	fb:cell.23_622	23,622	23,622	23,622	CD	NUMBER	23622.0	23622.0				
+116	4	fb:cell.hispar_karakoram	Hispar Karakoram	hispar|karakoram	Hispar|Karakoram	NNP|NNP	PERSON|PERSON	|					
+116	5	fb:cell.36_21_01_n_75_02_13_e_36_35028_n_75_03694_e	36°21′01″N 75°02′13″E﻿ / ﻿36.35028°N 75.03694°E *	36|°|21|′|01|″|n|75|°|02|′|13|″|e|\\/|36.35028|°|n|75.03694|°|e|\\*	36|°|21|′|01|″|n|75|°|02|′|13|″|e|\\/|36.35028|°|n|75.03694|°|e|\\*	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN|SYM	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O	36.0|36.0|36.0||1.0|1.0||75.0||2.0|2.0|2.0||||36.35028|36.35028||75.03694|75.03694||	36.0		21.0	36°21′01″N 75°02′13″E﻿|﻿36.35028°N 75.03694°E *	fb:part.36_21_01_n_75_02_13_e|fb:part.36_35028_n_75_03694_e
+116	6	fb:cell.730	730	730	730	CD	NUMBER	730.0	730.0				
+116	7	fb:cell.momhil_sar	Momhil Sar	momhil|sar	Momhil|Sar	NNP|NNP	O|O	|				Momhil Sar	fb:part.momhil_sar
+116	8	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+116	9	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		

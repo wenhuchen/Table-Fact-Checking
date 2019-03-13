@@ -1,0 +1,163 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.type	Type	type	type	NN	O						
+-1	2	fb:row.row.r_a_j2000	R.A. (J2000)	r.a.|-lrb-|j2000|-rrb-	R.A.|-lrb-|j2000|-rrb-	NNP|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.dec_j2000	Dec. (J2000)	dec.|-lrb-|j2000|-rrb-	Dec.|-lrb-|j2000|-rrb-	NNP|-LRB-|NN|-RRB-	DATE|O|O|O	XXXX-12|||					
+-1	4	fb:row.row.redshift_km_s	Redshift (km/s)	redshift|-lrb-|km\\/s|-rrb-	redshift|-lrb-|km\\/s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	5	fb:row.row.apparent_magnitude	Apparent Magnitude	apparent|magnitude	apparent|magnitude	JJ|NN	O|O	|					
+0	0	fb:cell.ic_2049	IC 2049	ic|2049	ic|2049	NN|CD	O|DATE	|2049	2049.0				
+0	1	fb:cell.sab_s_d	SAB(s)d?	sab|-lrb-|s|-rrb-|d|?	SAB|-lrb-|s|-rrb-|d|?	NNP|-LRB-|NNS|-RRB-|NN|.	O|O|O|O|O|O	|||||				SAB(s)d?	fb:part.sab_s_d
+0	2	fb:cell.04h_12m_04_3s	04h 12m 04.3s	04h|12m|04.3|s	04h|12m|04.3|s	NN|NN|CD|NNS	O|O|NUMBER|O	||4.3|	4.0		12.0		
+0	3	fb:cell._58_33_25	−58° 33′ 25″	−|58|°|33|′|25|″	−|58|°|33|′|25|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|58.0|58.0|58.0||25.0|	58.0		33.0		
+0	4	fb:cell.1469_7	1469 ± 7	1469|±|7	1469|±|7	CD|NN|CD	DATE|O|NUMBER	1469||7.0	1469.0		7.0		
+0	5	fb:cell.14_5	14.5	14.5	14.5	CD	NUMBER	14.5	14.5				
+1	0	fb:cell.ngc_1536	NGC 1536	ngc|1536	NGC|1536	NNP|CD	O|DATE	|1536	1536.0				
+1	1	fb:cell.sb_s_c_pec	SB(s)c pec	sb|-lrb-|s|-rrb-|c|pec	sb|-lrb-|s|-rrb-|c|pec	NN|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				SB(s)c pec	fb:part.sb_s_c_pec
+1	2	fb:cell.04h_10m_59_8s	04h 10m 59.8s	04h|10m|59.8|s	04h|10m|59.8|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|59.8|59.8|	4.0		10.0		
+1	3	fb:cell._56_28_50	−56° 28′ 50″	−|56|°|28|′|50|″	−|56|°|28|′|50|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|56.0|56.0|56.0||50.0|	56.0		28.0		
+1	4	fb:cell.1217_13	1217 ± 13	1217|±|13	1217|±|13	CD|CD|CD	DATE|NUMBER|NUMBER	1217|13.0|13.0	1217.0		13.0		
+1	5	fb:cell.13_2	13.2	13.2	13.2	CD	NUMBER	13.2	13.2				
+2	0	fb:cell.ngc_1543	NGC 1543	ngc|1543	NGC|1543	NNP|CD	O|DATE	|1543	1543.0				
+2	1	fb:cell._r_sb_l_00	(R)SB(l)00	-lrb-|r|-rrb-|sb|-lrb-|l|-rrb-|00	-lrb-|r|-rrb-|sb|-lrb-|l|-rrb-|00	-LRB-|NN|-RRB-|NN|-LRB-|NN|-RRB-|CD	O|O|O|O|O|O|O|NUMBER	|||||||0.0	0.0			(R)SB(l)00	fb:part._r_sb_l_00
+2	2	fb:cell.04h_12m_43_2s	04h 12m 43.2s	04h|12m|43.2|s	04h|12m|43.2|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|43.2|43.2|	4.0		12.0		
+2	3	fb:cell._57_44_17	−57° 44′ 17″	−|57|°|44|′|17|″	−|57|°|44|′|17|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|57.0|57.0|57.0||17.0|	57.0		44.0		
+2	4	fb:cell.1176_7	1176 ± 7	1176|±|7	1176|±|7	CD|NN|CD	DATE|O|NUMBER	1176||7.0	1176.0		7.0		
+2	5	fb:cell.11_5	11.5	11.5	11.5	CD	NUMBER	11.5	11.5				
+3	0	fb:cell.lsbg_f157_081	LSBG F157-081	lsbg|f157-081	lsbg|f157-081	NN|NN	O|O	|	157.0		81.0		
+3	1	fb:cell.irregular	Irregular	irregular	irregular	JJ	O					Irregular	fb:part.irregular
+3	2	fb:cell.04h_27m_13_7s	04h 27m 13.7s	04h|27m|13.7|s	04h|27m|13.7|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|13.7|13.7|	4.0		27.0		
+3	3	fb:cell._57_25_42	−57° 25′ 42″	−|57|°|25|′|42|″	−|57|°|25|′|42|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|57.0|57.0|57.0||42.0|	57.0		25.0		
+3	4	fb:cell.1215_7	1215 ± 7	1215|±|7	1215|±|7	CD|NN|CD	DATE|O|NUMBER	1215||7.0	1215.0		7.0		
+3	5	fb:cell.16_7	16.7	16.7	16.7	CD	NUMBER	16.7	16.7				
+4	0	fb:cell.ngc_1533	NGC 1533	ngc|1533	NGC|1533	NNP|CD	O|DATE	|1533	1533.0				
+4	1	fb:cell._l_sb_rs_00	(L)SB(rs)00	-lrb-|l|-rrb-|sb|-lrb-|rs|-rrb-|00	-lrb-|l|-rrb-|sb|-lrb-|r|-rrb-|00	-LRB-|NN|-RRB-|NN|-LRB-|NNS|-RRB-|CD	O|O|O|O|O|O|O|NUMBER	|||||||0.0	0.0			(L)SB(rs)00	fb:part._l_sb_rs_00
+4	2	fb:cell.04h_09m_51_8s	04h 09m 51.8s	04h|09m|51.8|s	04h|09m|51.8|s	NN|NN|CD|NNS	O|O|NUMBER|O	||51.8|	4.0		9.0		
+4	3	fb:cell._56_07_06	−56° 07′ 06″	−|56|°|07|′|06|″	−|56|°|07|′|06|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|56.0|56.0|56.0||6.0|	56.0		7.0		
+4	4	fb:cell.790_5	790 ± 5	790|±|5	790|±|5	CD|NN|CD	NUMBER|O|NUMBER	790.0||5.0	790.0		5.0		
+4	5	fb:cell.11_7	11.7	11.7	11.7	CD	NUMBER	11.7	11.7				
+5	0	fb:cell.ic_2038	IC 2038	ic|2038	ic|2038	NN|CD	O|DATE	|2038	2038.0				
+5	1	fb:cell.sd_pec	Sd pec	sd|pec	sd|pec	NN|NN	O|O	|				Sd pec	fb:part.sd_pec
+5	2	fb:cell.04h_08m_53_7s	04h 08m 53.7s	04h|08m|53.7|s	04h|08m|53.7|s	NN|NN|CD|NNS	O|O|NUMBER|O	||53.7|	4.0		8.0		
+5	3	fb:cell._55_59_22	−55° 59′ 22″	−|55|°|59|′|22|″	−|55|°|59|′|22|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|55.0|55.0|55.0||22.0|	55.0		59.0		
+5	4	fb:cell.712_52	712 ± 52	712|±|52	712|±|52	CD|NN|CD	NUMBER|O|NUMBER	712.0||52.0	712.0		52.0		
+5	5	fb:cell.15_5	15.5	15.5	15.5	CD	NUMBER	15.5	15.5				
+6	0	fb:cell.apmbgc_157_016_068	APMBGC 157+016+068	apmbgc|157|+016|+068	apmbgc|157|+016|+068	NN|CD|CD|CD	O|NUMBER|NUMBER|NUMBER	|157.0|157.0|157.0	157.0		16.0		
+6	1	fb:cell.irregular	Irregular	irregular	irregular	JJ	O					Irregular	fb:part.irregular
+6	2	fb:cell.04h_22m_51_7s	04h 22m 51.7s	04h|22m|51.7|s	04h|22m|51.7|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|51.7|51.7|	4.0		22.0		
+6	3	fb:cell._56_13_39	−56° 13′ 39″	−|56|°|13|′|39|″	−|56|°|13|′|39|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|56.0|56.0|56.0||39.0|	56.0		13.0		
+6	4	fb:cell.1350_4	1350 ± 4	1350|±|4	1350|±|4	CD|CD|CD	DATE|NUMBER|NUMBER	1350|4.0|4.0	1350.0		4.0		
+6	5	fb:cell.16_3	16.3	16.3	16.3	CD	NUMBER	16.3	16.3				
+7	0	fb:cell.ngc_1546	NGC 1546	ngc|1546	NGC|1546	NNP|CD	O|DATE	|1546	1546.0				
+7	1	fb:cell.sa0	SA0+?	sa0|+|?	sa0|+|?	NN|CC|.	O|O|O	||	0.0			SA0+?	fb:part.sa0
+7	2	fb:cell.04h_14m_36_5s	04h 14m 36.5s	04h|14m|36.5|s	04h|14m|36.5|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|36.5|36.5|	4.0		14.0		
+7	3	fb:cell._56_03_39	−56° 03′ 39″	−|56|°|03|′|39|″	−|56|°|03|′|39|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|56.0|56.0|56.0||39.0|	56.0		3.0		
+7	4	fb:cell.1284_14	1284 ± 14	1284|±|14	1284|±|14	CD|CD|CD	DATE|NUMBER|NUMBER	1284|14.0|14.0	1284.0		14.0		
+7	5	fb:cell.11_8	11.8	11.8	11.8	CD	NUMBER	11.8	11.8				
+8	0	fb:cell.ic_2058	IC 2058	ic|2058	ic|2058	NN|CD	O|DATE	|2058	2058.0				
+8	1	fb:cell.sc	Sc	sc	sc	NN	O					Sc	fb:part.sc
+8	2	fb:cell.04h_17m_54_3s	04h 17m 54.3s	04h|17m|54.3|s	04h|17m|54.3|s	NN|NN|CD|NNS	O|O|NUMBER|O	||54.3|	4.0		17.0		
+8	3	fb:cell._55_55_58	−55° 55′ 58″	−|55|°|55|′|58|″	−|55|°|55|′|58|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|55.0|55.0|55.0||58.0|	55.0		55.0		
+8	4	fb:cell.1379_1	1379 ± 1	1379|±|1	1379|±|1	CD|NN|CD	DATE|O|NUMBER	1379||1.0	1379.0		1.0		
+8	5	fb:cell.13_9	13.9	13.9	13.9	CD	NUMBER	13.9	13.9				
+9	0	fb:cell.ic_2032	IC 2032	ic|2032	ic|2032	NN|CD	O|DATE	|2032	2032.0				
+9	1	fb:cell.iab_s_m_pec	IAB(s)m pec	iab|-lrb-|s|-rrb-|m|pec	iab|-lrb-|s|-rrb-|m|pec	NN|-LRB-|NNS|-RRB-|NN|NN	O|O|O|O|O|O	|||||				IAB(s)m pec	fb:part.iab_s_m_pec
+9	2	fb:cell.04h_07m_03_0s	04h 07m 03.0s	04h|07m|03.0|s	04h|07m|03.0|s	NN|NN|CD|NNS	O|O|NUMBER|O	||3.0|	4.0		7.0		
+9	3	fb:cell._55_19_26	−55° 19′ 26″	−|55|°|19|′|26|″	−|55|°|19|′|26|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|55.0|55.0|55.0||26.0|	55.0		19.0		
+9	4	fb:cell.1068_7	1068 ± 7	1068|±|7	1068|±|7	CD|NN|CD	DATE|O|NUMBER	1068||7.0	1068.0		7.0		
+9	5	fb:cell.14_7	14.7	14.7	14.7	CD	NUMBER	14.7	14.7				
+10	0	fb:cell.ngc_1566	NGC 1566	ngc|1566	NGC|1566	NNP|CD	O|DATE	|1566	1566.0				
+10	1	fb:cell._r_1_sab_rs_bcsy1	(R'_1)SAB(rs)bcSy1	-lrb-|r|'|_|1|-rrb-|sab|-lrb-|rs|-rrb-|bcsy1	-lrb-|r|'|_|1|-rrb-|SAB|-lrb-|r|-rrb-|bcsy1	-LRB-|NN|''|NN|CD|-RRB-|NNP|-LRB-|NNS|-RRB-|NN	O|ORGANIZATION|O|O|NUMBER|O|O|O|O|O|O	||||1.0||||||	1.0		1.0	(R'_1)SAB(rs)bcSy1	fb:part._r_1_sab_rs_bcsy1
+10	2	fb:cell.04h_20m_00_4s	04h 20m 00.4s	04h|20m|00.4|s	04h|20m|00.4|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|0.4|0.4|	4.0		20.0		
+10	3	fb:cell._54_56_16	−54° 56′ 16″	−|54|°|56|′|16|″	−|54|°|56|′|16|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|54.0|54.0|54.0||16.0|	54.0		56.0		
+10	4	fb:cell.1504_2	1504 ± 2	1504|±|2	1504|±|2	CD|NN|CD	DATE|O|NUMBER	1504||2.0	1504.0		2.0		
+10	5	fb:cell.10_3	10.3	10.3	10.3	CD	NUMBER	10.3	10.3				
+11	0	fb:cell.ngc_1596	NGC 1596	ngc|1596	NGC|1596	NNP|CD	O|DATE	|1596	1596.0				
+11	1	fb:cell.sa0_sp	SA0: sp	sa0|:|sp	sa0|:|sp	NN|:|NN	O|O|O	||	0.0			SA0: sp	fb:part.sa0_sp
+11	2	fb:cell.04h_27m_38_1s	04h 27m 38.1s	04h|27m|38.1|s	04h|27m|38.1|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|38.1|38.1|	4.0		27.0		
+11	3	fb:cell._55_01_40	−55° 01′ 40″	−|55|°|01|′|40|″	−|55|°|01|′|40|″	NN|CD|NN|CD|CD|CD|NN	O|NUMBER|O|NUMBER|NUMBER|NUMBER|O	|55.0||1.0|1.0|1.0|	55.0		1.0		
+11	4	fb:cell.1510_8	1510 ± 8	1510|±|8	1510|±|8	CD|CD|CD	DATE|NUMBER|NUMBER	1510|8.0|8.0	1510.0		8.0		
+11	5	fb:cell.12_1	12.1	12.1	12.1	CD	NUMBER	12.1	12.1				
+12	0	fb:cell.ngc_1602	NGC 1602	ngc|1602	NGC|1602	NNP|CD	O|DATE	|1602	1602.0				
+12	1	fb:cell.ib_s_m_pec	IB(s)m pec	ib|-lrb-|s|-rrb-|m|pec	ib|-lrb-|s|-rrb-|m|pec	NN|-LRB-|NNS|-RRB-|NN|NN	ORGANIZATION|O|O|O|O|O	|||||				IB(s)m pec	fb:part.ib_s_m_pec
+12	2	fb:cell.04h_27m_55_0s	04h 27m 55.0s	04h|27m|55.0|s	04h|27m|55.0|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|55.0|55.0|	4.0		27.0		
+12	3	fb:cell._55_03_28	−55° 03′ 28″	−|55|°|03|′|28|″	−|55|°|03|′|28|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|55.0|55.0|55.0||28.0|	55.0		3.0		
+12	4	fb:cell.1568_8	1568 ± 8	1568|±|8	1568|±|8	CD|CD|CD	DATE|NUMBER|NUMBER	1568|8.0|8.0	1568.0		8.0		
+12	5	fb:cell.13_3	13.3	13.3	13.3	CD	NUMBER	13.3	13.3				
+13	0	fb:cell.ngc_1515	NGC 1515	ngc|1515	NGC|1515	NNP|CD	O|DATE	|1515	1515.0				
+13	1	fb:cell.sab_s_bc	SAB(s)bc	sab|-lrb-|s|-rrb-|bc	SAB|-lrb-|s|-rrb-|bc	NNP|-LRB-|NNS|-RRB-|NN	O|O|O|O|O	||||				SAB(s)bc	fb:part.sab_s_bc
+13	2	fb:cell.04h_04m_02_7s	04h 04m 02.7s	04h|04m|02.7|s	04h|04m|02.7|s	NN|NN|CD|NNS	O|O|NUMBER|O	||2.7|	4.0		4.0		
+13	3	fb:cell._54_06_00	−54° 06′ 00″	−|54|°|06|′|00|″	−|54|°|06|′|00|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|54.0|54.0|54.0||0.0|	54.0		6.0		
+13	4	fb:cell.1175_7	1175 ± 7	1175|±|7	1175|±|7	CD|NN|CD	DATE|O|NUMBER	1175||7.0	1175.0		7.0		
+13	5	fb:cell.12_1	12.1	12.1	12.1	CD	NUMBER	12.1	12.1				
+14	0	fb:cell.ngc_1522	NGC 1522	ngc|1522	NGC|1522	NNP|CD	O|DATE	|1522	1522.0				
+14	1	fb:cell._r_s00_pec	(R')S00: pec	-lrb-|r|'|-rrb-|s00|:|pec	-lrb-|r|'|-rrb-|s00|:|pec	-LRB-|NN|''|-RRB-|NN|:|NN	O|O|O|O|O|O|O	||||||	0.0			(R')S00: pec	fb:part._r_s00_pec
+14	2	fb:cell.04h_06m_07_9s	04h 06m 07.9s	04h|06m|07.9|s	04h|06m|07.9|s	NN|NN|CD|NNS	O|O|NUMBER|O	||7.9|	4.0		6.0		
+14	3	fb:cell._52_40_06	−52° 40′ 06″	−|52|°|40|′|06|″	−|52|°|40|′|06|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|52.0|52.0|52.0||6.0|	52.0		40.0		
+14	4	fb:cell.898_7	898 ± 7	898|±|7	898|±|7	CD|NN|CD	NUMBER|O|NUMBER	898.0||7.0	898.0		7.0		
+14	5	fb:cell.13_9	13.9	13.9	13.9	CD	NUMBER	13.9	13.9				
+15	0	fb:cell.eso_118_019	ESO 118-019	eso|118-019	ESO|118-019	NNP|CD	O|NUMBER	|118.0 - 19.0	118.0		19.0		
+15	1	fb:cell.s00_pec	S00 pec	s00|pec	s00|pec	NN|NN	O|O	|	0.0			S00 pec	fb:part.s00_pec
+15	2	fb:cell.04h_18m_59_5s	04h 18m 59.5s	04h|18m|59.5|s	04h|18m|59.5|s	NN|NN|CD|NNS	O|O|NUMBER|O	||59.5|	4.0		18.0		
+15	3	fb:cell._58_15_27	−58° 15′ 27″	−|58|°|15|′|27|″	−|58|°|15|′|27|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|58.0|58.0|58.0||27.0|	58.0		15.0		
+15	4	fb:cell.1239	1239	1239	1239	CD	DATE	1239	1239.0	1239-xx-xx			
+15	5	fb:cell.14_9	14.9	14.9	14.9	CD	NUMBER	14.9	14.9				
+16	0	fb:cell.eso_157_030	ESO 157-030	eso|157-030	ESO|157-030	NNP|CD	O|NUMBER	|157.0 - 30.0	157.0		30.0		
+16	1	fb:cell.e4	E4	e4	e4	NN	O		4.0			E4	fb:part.e4
+16	2	fb:cell.04h_27m_32_6s	04h 27m 32.6s	04h|27m|32.6|s	04h|27m|32.6|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|32.6|32.6|	4.0		27.0		
+16	3	fb:cell._54_11_48	−54° 11′ 48″	−|54|°|11|′|48|″	−|54|°|11|′|48|″	NN|CD|NN|CD|NN|CD|NN	O|NUMBER|O|NUMBER|O|NUMBER|O	|54.0||11.0||48.0|	54.0		11.0		
+16	4	fb:cell.1471_28	1471 ± 28	1471|±|28	1471|±|28	CD|CD|CD	DATE|NUMBER|NUMBER	1471|28.0|28.0	1471.0		28.0		
+16	5	fb:cell.14_7	14.7	14.7	14.7	CD	NUMBER	14.7	14.7				
+17	0	fb:cell.eso_157_047	ESO 157-047	eso|157-047	ESO|157-047	NNP|CD	O|NUMBER	|157.0 - 47.0	157.0		47.0		
+17	1	fb:cell.s0_a_pec_sp	S0/a? pec sp	s0\\/a|?|pec|sp	s0\\/a|?|pec|sp	NN|.|NN|NN	O|O|O|O	|||	0.0			S0|a? pec sp	fb:part.s0|fb:part.a_pec_sp
+17	2	fb:cell.04h_39m_19_1s	04h 39m 19.1s	04h|39m|19.1|s	04h|39m|19.1|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|19.1|19.1|	4.0		39.0		
+17	3	fb:cell._54_12_41	−54° 12′ 41″	−|54|°|12|′|41|″	−|54|°|12|′|41|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|54.0|54.0|54.0||41.0|	54.0		12.0		
+17	4	fb:cell.1655_10	1655 ± 10	1655|±|10	1655|±|10	CD|CD|CD	DATE|NUMBER|NUMBER	1655|10.0|10.0	1655.0		10.0		
+17	5	fb:cell.15_5	15.5	15.5	15.5	CD	NUMBER	15.5	15.5				
+18	0	fb:cell.eso_157_049	ESO 157-049	eso|157-049	ESO|157-049	NNP|CD	O|NUMBER	|157.0 - 49.0	157.0		49.0		
+18	1	fb:cell.s	S?	s|?	s|?	NN|.	O|O	|				S?	fb:part.s
+18	2	fb:cell.04h_39m_36_9s	04h 39m 36.9s	04h|39m|36.9|s	04h|39m|36.9|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|36.9|36.9|	4.0		39.0		
+18	3	fb:cell._53_00_46	−53° 00′ 46″	−|53|°|00|′|46|″	−|53|°|00|′|46|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|53.0|53.0|53.0||46.0|	53.0		0.0		
+18	4	fb:cell.1678_5	1678 ± 5	1678|±|5	1678|±|5	CD|CD|CD	DATE|NUMBER|NUMBER	1678|5.0|5.0	1678.0		5.0		
+18	5	fb:cell.14_3	14.3	14.3	14.3	CD	NUMBER	14.3	14.3				
+19	0	fb:cell.ic_2085	IC 2085	ic|2085	ic|2085	NN|CD	O|DATE	|2085	2085.0				
+19	1	fb:cell.s00_pec_sp	S00 pec sp	s00|pec|sp	s00|pec|sp	NN|NN|NN	O|O|O	||	0.0			S00 pec sp	fb:part.s00_pec_sp
+19	2	fb:cell.04h_31m_24_2s	04h 31m 24.2s	04h|31m|24.2|s	04h|31m|24.2|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|24.2|24.2|	4.0		31.0		
+19	3	fb:cell._54_25_01	−54° 25′ 01″	−|54|°|25|′|01|″	−|54|°|25|′|01|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|54.0|54.0|54.0||1.0|	54.0		25.0		
+19	4	fb:cell.982_10	982 ± 10	982|±|10	982|±|10	CD|NN|CD	NUMBER|O|NUMBER	982.0||10.0	982.0		10.0		
+19	5	fb:cell.13_9	13.9	13.9	13.9	CD	NUMBER	13.9	13.9				
+20	0	fb:cell.ngc_1549	NGC 1549	ngc|1549	NGC|1549	NNP|CD	O|DATE	|1549	1549.0				
+20	1	fb:cell.e0_1	E0−1	e0|−|1	e0|−|1	NN|NN|CD	O|O|NUMBER	||1.0	0.0		1.0	E0−1	fb:part.e0_1
+20	2	fb:cell.04h_15m_45_1s	04h 15m 45.1s	04h|15m|45.1|s	04h|15m|45.1|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|45.1|45.1|	4.0		15.0		
+20	3	fb:cell._55_35_32	−55° 35′ 32″	−|55|°|35|′|32|″	−|55|°|35|′|32|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|55.0|55.0|55.0||32.0|	55.0		35.0		
+20	4	fb:cell.1220_15	1220 ± 15	1220|±|15	1220|±|15	CD|CD|CD	DATE|NUMBER|NUMBER	1220|15.0|15.0	1220.0		15.0		
+20	5	fb:cell.10_7	10.7	10.7	10.7	CD	NUMBER	10.7	10.7				
+21	0	fb:cell.ngc_1553	NGC 1553	ngc|1553	NGC|1553	NNP|CD	O|DATE	|1553	1553.0				
+21	1	fb:cell.sa_rl_00	SA(rl)00	sa|-lrb-|rl|-rrb-|00	SA|-lrb-|rl|-rrb-|00	NNP|-LRB-|NN|-RRB-|CD	O|O|O|O|NUMBER	||||0.0	0.0			SA(rl)00	fb:part.sa_rl_00
+21	2	fb:cell.04h_16m_10_5s	04h 16m 10.5s	04h|16m|10.5|s	04h|16m|10.5|s	NN|NN|CD|NNS	O|O|NUMBER|O	||10.5|	4.0		16.0		
+21	3	fb:cell._55_46_49	−55° 46′ 49″	−|55|°|46|′|49|″	−|55|°|46|′|49|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|55.0|55.0|55.0||49.0|	55.0		46.0		
+21	4	fb:cell.1080_11	1080 ± 11	1080|±|11	1080|±|11	CD|CD|CD	DATE|NUMBER|NUMBER	1080|11.0|11.0	1080.0		11.0		
+21	5	fb:cell.10_3	10.3	10.3	10.3	CD	NUMBER	10.3	10.3				
+22	0	fb:cell.ngc_1574	NGC 1574	ngc|1574	NGC|1574	NNP|CD	O|DATE	|1574	1574.0				
+22	1	fb:cell.sa0_2	SA0-	sa0|-	sa0|-	SYM|:	O|O	|	0.0			SA0-	fb:part.sa0_2
+22	2	fb:cell.04h_21m_58_8s	04h 21m 58.8s	04h|21m|58.8|s	04h|21m|58.8|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|58.8|58.8|	4.0		21.0		
+22	3	fb:cell._56_58_29	−56° 58′ 29″	−|56|°|58|′|29|″	−|56|°|58|′|29|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|56.0|56.0|56.0||29.0|	56.0		58.0		
+22	4	fb:cell.1050_25	1050 ± 25	1050|±|25	1050|±|25	CD|CD|CD	DATE|NUMBER|NUMBER	1050|25.0|25.0	1050.0		25.0		
+22	5	fb:cell.11_4	11.4	11.4	11.4	CD	NUMBER	11.4	11.4				
+23	0	fb:cell.ngc_1581	NGC 1581	ngc|1581	NGC|1581	NNP|CD	O|DATE	|1581	1581.0				
+23	1	fb:cell.s0	S0-	s0|-	s0|-	SYM|:	O|O	|	0.0			S0-	fb:part.s0_2
+23	2	fb:cell.04h_24m_44_9s	04h 24m 44.9s	04h|24m|44.9|s	04h|24m|44.9|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|44.9|44.9|	4.0		24.0		
+23	3	fb:cell._54_56_31	−54° 56′ 31″	−|54|°|56|′|31|″	−|54|°|56|′|31|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|54.0|54.0|54.0||31.0|	54.0		56.0		
+23	4	fb:cell.1600_27	1600 ± 27	1600|±|27	1600|±|27	CD|CD|CD	DATE|NUMBER|NUMBER	1600|27.0|27.0	1600.0		27.0		
+23	5	fb:cell.13_6	13.6	13.6	13.6	CD	NUMBER	13.6	13.6				
+24	0	fb:cell.ngc_1617	NGC 1617	ngc|1617	NGC|1617	NNP|CD	O|DATE	|1617	1617.0				
+24	1	fb:cell._r_sab_rs_a	(R')SAB(rs)a	-lrb-|r|'|-rrb-|sab|-lrb-|rs|-rrb-|a	-lrb-|r|'|-rrb-|sab|-lrb-|r|-rrb-|a	-LRB-|NN|''|-RRB-|NN|-LRB-|NNS|-RRB-|DT	O|O|O|O|O|O|O|O|O	||||||||				(R')SAB(rs)a	fb:part._r_sab_rs_a
+24	2	fb:cell.04h_31m_39_5s	04h 31m 39.5s	04h|31m|39.5|s	04h|31m|39.5|s	NN|CD|CD|NNS	O|NUMBER|NUMBER|O	|39.5|39.5|	4.0		31.0		
+24	3	fb:cell._54_36_08	−54° 36′ 08″	−|54|°|36|′|08|″	−|54|°|36|′|08|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|54.0|54.0|54.0||8.0|	54.0		36.0		
+24	4	fb:cell.1063_21	1063 ± 21	1063|±|21	1063|±|21	CD|CD|CD	DATE|NUMBER|NUMBER	1063|21.0|21.0	1063.0		21.0		
+24	5	fb:cell.11_4	11.4	11.4	11.4	CD	NUMBER	11.4	11.4				
+25	0	fb:cell.abell_3202	Abell 3202	abell|3202	Abell|3202	NNP|CD	O|NUMBER	|3202.0	3202.0				
+25	1	fb:cell.irregular	Irregular	irregular	irregular	JJ	O					Irregular	fb:part.irregular
+25	2	fb:cell.04h_01m_15_2s	04h 01m 15.2s	04h|01m|15.2|s	04h|01m|15.2|s	NN|NN|CD|NNS	O|O|NUMBER|O	||15.2|	4.0		1.0		
+25	3	fb:cell._53_29_23	−53° 29′ 23″	−|53|°|29|′|23|″	−|53|°|29|′|23|″	NN|CD|CD|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|O|NUMBER|O	|53.0|53.0|53.0||23.0|	53.0		29.0		
+25	4	fb:cell.1135_40	1135 ± 40	1135|±|40	1135|±|40	CD|CD|CD	DATE|NUMBER|NUMBER	1135|40.0|40.0	1135.0		40.0		
+25	5	fb:cell.16_9	16.9	16.9	16.9	CD	NUMBER	16.9	16.9				

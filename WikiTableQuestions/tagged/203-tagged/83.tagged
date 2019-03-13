@@ -1,0 +1,671 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.ranking	Ranking	ranking	ranking	NN	O						
+-1	1	fb:row.row.company	Company	company	company	NN	O						
+-1	2	fb:row.row.industry	Industry	industry	industry	NN	O						
+-1	3	fb:row.row.revenue_usd_billions	Revenue (USD billions)	revenue|-lrb-|usd|billions|-rrb-	revenue|-lrb-|usd|billion|-rrb-	NN|-LRB-|NN|NNS|-RRB-	O|O|O|O|O	||||					
+-1	4	fb:row.row.fy	FY	fy	fy	NN	O						
+-1	5	fb:row.row.capitalization_usd_billions	Capitalization (USD billions)	capitalization|-lrb-|usd|billions|-rrb-	capitalization|-lrb-|usd|billion|-rrb-	NN|-LRB-|NN|NNS|-RRB-	O|O|O|O|O	||||					
+-1	6	fb:row.row.employees	Employees	employees	employee	NNS	O						
+-1	7	fb:row.row.listing	Listing	listing	listing	NN	O						
+-1	8	fb:row.row.headquarters	Headquarters	headquarters	headquarters	NN	O						
+-1	9	fb:row.row.ceo	CEO	ceo	CEO	NNP	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.wal_mart_stores_inc	Wal-Mart Stores, Inc.	wal|mart|stores|,|inc.|.	Wal|Mart|Stores|,|Inc.|.	NNP|NNP|NNPS|,|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Wal-Mart Stores|Inc.	fb:part.wal_mart_stores|fb:part.inc
+0	2	fb:cell.retail	Retail	retail	retail	JJ	O						
+0	3	fb:cell._469	$469	$|469	$|469	$|CD	MONEY|MONEY	$469.0|$469.0	469.0				
+0	4	fb:cell.january_31_2013	January 31, 2013	january|31|,|2013	January|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-01-31|2013-01-31|2013-01-31|2013-01-31	312013.0	2013-01-31		January 31|2013	fb:part.january_31|fb:part.2013
+0	5	fb:cell._248	$248	$|248	$|248	$|CD	MONEY|MONEY	$248.0|$248.0	248.0				
+0	6	fb:cell.2_200_000	2,200,000	2,200,000	2,200,000	CD	NUMBER	2200000.0	2200000.0				
+0	7	fb:cell.nyse_wmt	NYSE: WMT	nyse|:|wmt	NYSE|:|wmt	NNP|:|NN	O|O|O	||					
+0	8	fb:cell.bentonville_arkansas	Bentonville, Arkansas	bentonville|,|arkansas	Bentonville|,|Arkansas	NNP|,|NNP	LOCATION|O|LOCATION	||				Bentonville|Arkansas	fb:part.bentonville|fb:part.arkansas
+0	9	fb:cell.doug_mcmillon	Doug Mcmillon	doug|mcmillon	Doug|Mcmillon	NNP|NNP	PERSON|PERSON	|					
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.royal_dutch_shell	Royal Dutch Shell	royal|dutch|shell	Royal|Dutch|Shell	NNP|NNP|NNP	O|O|O	||				Royal Dutch Shell	fb:part.royal_dutch_shell
+1	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+1	3	fb:cell._467	$467	$|467	$|467	$|CD	MONEY|MONEY	$467.0|$467.0	467.0				
+1	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+1	5	fb:cell._132	$132	$|132	$|132	$|CD	MONEY|MONEY	$132.0|$132.0	132.0				
+1	6	fb:cell.90_000	90,000	90,000	90,000	CD	NUMBER	90000.0	90000.0				
+1	7	fb:cell.lse_rdsa	LSE: RDSA	lse|:|rdsa	LSE|:|rdsa	NNP|:|NN	O|O|O	||					
+1	8	fb:cell.the_hague_london	The Hague;  London	the|hague|;|london	the|hague|;|London	DT|NN|:|NNP	O|O|O|LOCATION	|||				The Hague;  London	fb:part.the_hague_london
+1	9	fb:cell.ben_van_beurden	Ben van Beurden	ben|van|beurden	Ben|van|Beurden	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.exxon_mobil_corporation	Exxon Mobil Corporation	exxon|mobil|corporation	Exxon|Mobil|Corporation	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Exxon Mobil Corporation	fb:part.exxon_mobil_corporation
+2	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+2	3	fb:cell._453	$453	$|453	$|453	$|CD	MONEY|MONEY	$453.0|$453.0	453.0				
+2	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+2	5	fb:cell._406	$406	$|406	$|406	$|CD	MONEY|MONEY	$406.0|$406.0	406.0				
+2	6	fb:cell.76_900	76,900	76,900	76,900	CD	NUMBER	76900.0	76900.0				
+2	7	fb:cell.nyse_xom	NYSE: XOM	nyse|:|xom	NYSE|:|xom	NNP|:|NN	O|O|O	||					
+2	8	fb:cell.irving_texas	Irving, Texas	irving|,|texas	Irving|,|Texas	NNP|,|NNP	PERSON|O|LOCATION	||				Irving|Texas	fb:part.irving|fb:part.texas
+2	9	fb:cell.rex_w_tillerson	Rex W. Tillerson	rex|w.|tillerson	Rex|W.|Tillerson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.china_national_petroleum_corporation	China National Petroleum Corporation	china|national|petroleum|corporation	China|National|Petroleum|Corporation	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				China National Petroleum Corporation	fb:part.china_national_petroleum_corporation
+3	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+3	3	fb:cell._425	$425	$|425	$|425	$|CD	MONEY|MONEY	$425.0|$425.0	425.0				
+3	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+3	5	fb:cell.null											
+3	6	fb:cell.1_668_072	1,668,072	1,668,072	1,668,072	CD	NUMBER	1668072.0	1668072.0				
+3	7	fb:cell.null_2	—	--	--	:	O						
+3	8	fb:cell.beijing	Beijing	beijing	Beijing	NNP	LOCATION					Beijing	fb:part.beijing
+3	9	fb:cell.zhou_jiping	Zhou Jiping	zhou|jiping	Zhou|Jiping	NNP|NNP	PERSON|PERSON	|					
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.sinopec_group	Sinopec Group	sinopec|group	Sinopec|Group	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Sinopec Group	fb:part.sinopec_group
+4	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+4	3	fb:cell._411	$411	$|411	$|411	$|CD	MONEY|MONEY	$411.0|$411.0	411.0				
+4	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+4	5	fb:cell._81	$81	$|81	$|81	$|CD	MONEY|MONEY	$81.0|$81.0	81.0				
+4	6	fb:cell.401_000	401,000	401,000	401,000	CD	NUMBER	401000.0	401000.0				
+4	7	fb:cell.nyse_snp	NYSE: SNP	nyse|:|snp	NYSE|:|snp	NNP|:|NN	O|O|O	||					
+4	8	fb:cell.beijing	Beijing	beijing	Beijing	NNP	LOCATION					Beijing	fb:part.beijing
+4	9	fb:cell.wang_tianpu	Wang Tianpu	wang|tianpu	Wang|Tianpu	NNP|NNP	PERSON|PERSON	|					
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.bp	BP	bp	bp	NN	O					BP	fb:part.bp
+5	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+5	3	fb:cell._379	$379	$|379	$|379	$|CD	MONEY|MONEY	$379.0|$379.0	379.0				
+5	4	fb:cell.december_31_2013	December 31, 2013	december|31|,|2013	December|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-12-31|2013-12-31|2013-12-31|2013-12-31	312013.0	2013-12-31		December 31|2013	fb:part.december_31|fb:part.2013
+5	5	fb:cell._89	$89	$|89	$|89	$|CD	MONEY|MONEY	$89.0|$89.0	89.0				
+5	6	fb:cell.83_900	83,900	83,900	83,900	CD	NUMBER	83900.0	83900.0				
+5	7	fb:cell.lse_bp	LSE: BP	lse|:|bp	LSE|:|bp	NNP|:|NN	O|O|O	||					
+5	8	fb:cell.london	London	london	London	NNP	LOCATION					London	fb:part.london
+5	9	fb:cell.bob_dudley	Bob Dudley	bob|dudley	Bob|Dudley	NNP|NNP	PERSON|PERSON	|					
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.saudi_aramco	Saudi Aramco	saudi|aramco	Saudi|Aramco	NNP|NNP	O|O	|				Saudi Aramco	fb:part.saudi_aramco
+6	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+6	3	fb:cell._311	$311	$|311	$|311	$|CD	MONEY|MONEY	$311.0|$311.0	311.0				
+6	4	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx		2012	fb:part.2012
+6	5	fb:cell.null											
+6	6	fb:cell.54_041	54,041	54,041	54,041	CD	NUMBER	54041.0	54041.0				
+6	7	fb:cell.null_2	—	--	--	:	O						
+6	8	fb:cell.dhahran	Dhahran	dhahran	Dhahran	NNP	LOCATION					Dhahran	fb:part.dhahran
+6	9	fb:cell.khalid_a_al_falih	Khalid A. Al-Falih	khalid|a.|al|falih	Khalid|A.|Al|Falih	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.vitol	Vitol	vitol	Vitol	NNP	ORGANIZATION					Vitol	fb:part.vitol
+7	2	fb:cell.commodities	Commodities	commodities	commodity	NNS	O						
+7	3	fb:cell._303	$303	$|303	$|303	$|CD	MONEY|MONEY	$303.0|$303.0	303.0				
+7	4	fb:cell.january_10_2013	January 10, 2013	january|10|,|2013	January|10|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-01-10|2013-01-10|2013-01-10|2013-01-10	102013.0	2013-01-10		January 10|2013	fb:part.january_10|fb:part.2013
+7	5	fb:cell.null											
+7	6	fb:cell.2_800	2,800	2,800	2,800	CD	NUMBER	2800.0	2800.0				
+7	7	fb:cell.null_2	—	--	--	:	O						
+7	8	fb:cell.rotterdam_geneva	Rotterdam;  Geneva	rotterdam|;|geneva	Rotterdam|;|Geneva	NNP|:|NNP	LOCATION|O|LOCATION	||				Rotterdam;  Geneva	fb:part.rotterdam_geneva
+7	9	fb:cell.ian_taylor	Ian Taylor	ian|taylor	Ian|Taylor	NNP|NNP	PERSON|PERSON	|					
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.state_grid_corporation_of_china	State Grid Corporation of China	state|grid|corporation|of|china	State|Grid|Corporation|of|China	NNP|NNP|NNP|IN|NNP	O|O|O|O|LOCATION	||||				State Grid Corporation of China	fb:part.state_grid_corporation_of_china
+8	2	fb:cell.electric_utility	Electric utility	electric|utility	Electric|utility	NNP|NN	O|O	|					
+8	3	fb:cell._290	$290	$|290	$|290	$|CD	MONEY|MONEY	$290.0|$290.0	290.0				
+8	4	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx		2012	fb:part.2012
+8	5	fb:cell.null											
+8	6	fb:cell.1_564_000	1,564,000	1,564,000	1,564,000	CD	NUMBER	1564000.0	1564000.0				
+8	7	fb:cell.null_2	—	--	--	:	O						
+8	8	fb:cell.beijing	Beijing	beijing	Beijing	NNP	LOCATION					Beijing	fb:part.beijing
+8	9	fb:cell.liu_zhenya	Liu Zhenya	liu|zhenya	Liu|Zhenya	NNP|NNP	PERSON|PERSON	|					
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.samsung	Samsung	samsung	Samsung	NNP	PERSON					Samsung	fb:part.samsung
+9	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+9	3	fb:cell._268	$268	$|268	$|268	$|CD	MONEY|MONEY	$268.0|$268.0	268.0				
+9	4	fb:cell.december_31_2014	December 31, 2014	december|31|,|2014	December|31|,|2014	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2014-12-31|2014-12-31|2014-12-31|2014-12-31	312014.0	2014-12-31		December 31|2014	fb:part.december_31|fb:part.2014
+9	5	fb:cell.null											
+9	6	fb:cell.427_000	427,000	427,000	427,000	CD	NUMBER	427000.0	427000.0				
+9	7	fb:cell.krx_005930_krx_005935	KRX: 005930; KRX: 005935	krx|:|005930|;|krx|:|005935	KRX|:|005930|;|KRX|:|005935	NNP|:|CD|:|NNP|:|CD	O|O|NUMBER|O|O|O|NUMBER	||5930.0||||5935.0	5930.0		5935.0		
+9	8	fb:cell.samsung_town	Samsung Town	samsung|town	Samsung|Town	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Samsung Town	fb:part.samsung_town
+9	9	fb:cell.lee_kun_hee	Lee Kun-hee	lee|kun|hee	Lee|Kun|hee	NNP|NNP|NN	PERSON|PERSON|O	||					
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.volkswagen_group	Volkswagen Group	volkswagen|group	Volkswagen|Group	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Volkswagen Group	fb:part.volkswagen_group
+10	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+10	3	fb:cell._254	$254	$|254	$|254	$|CD	MONEY|MONEY	$254.0|$254.0	254.0				
+10	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+10	5	fb:cell._77	$77	$|77	$|77	$|CD	MONEY|MONEY	$77.0|$77.0	77.0				
+10	6	fb:cell.502_000	502,000	502,000	502,000	CD	NUMBER	502000.0	502000.0				
+10	7	fb:cell.isin_de0007664005	ISIN: DE0007664005	isin|:|de0007664005	ISIN|:|de0007664005	NNP|:|NN	O|O|O	||	7664005.0				
+10	8	fb:cell.wolfsburg	Wolfsburg	wolfsburg	Wolfsburg	NNP	LOCATION					Wolfsburg	fb:part.wolfsburg
+10	9	fb:cell.martin_winterkorn	Martin Winterkorn	martin|winterkorn	Martin|Winterkorn	NNP|NNP	PERSON|PERSON	|					
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.chevron	Chevron	chevron	Chevron	NNP	LOCATION					Chevron	fb:part.chevron
+11	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+11	3	fb:cell._242	$242	$|242	$|242	$|CD	MONEY|MONEY	$242.0|$242.0	242.0				
+11	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+11	5	fb:cell._211	$211	$|211	$|211	$|CD	MONEY|MONEY	$211.0|$211.0	211.0				
+11	6	fb:cell.61_000	61,000	61,000	61,000	CD	NUMBER	61000.0	61000.0				
+11	7	fb:cell.nyse_cvx	NYSE: CVX	nyse|:|cvx	NYSE|:|CVX	NNP|:|NNP	O|O|O	||					
+11	8	fb:cell.san_ramon_california	San Ramon, California	san|ramon|,|california	San|Ramon|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Ramon|California	fb:part.san_ramon|fb:part.california
+11	9	fb:cell.john_watson	John Watson	john|watson	John|Watson	NNP|NNP	PERSON|PERSON	|					
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.total	Total	total	total	JJ	O					Total	fb:part.total
+12	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+12	3	fb:cell._240	$240	$|240	$|240	$|CD	MONEY|MONEY	$240.0|$240.0	240.0				
+12	4	fb:cell.december_31_2013	December 31, 2013	december|31|,|2013	December|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-12-31|2013-12-31|2013-12-31|2013-12-31	312013.0	2013-12-31		December 31|2013	fb:part.december_31|fb:part.2013
+12	5	fb:cell._120	$120	$|120	$|120	$|CD	MONEY|MONEY	$120.0|$120.0	120.0				
+12	6	fb:cell.111_000	111,000	111,000	111,000	CD	NUMBER	111000.0	111000.0				
+12	7	fb:cell.euronext_fp	Euronext: FP	euronext|:|fp	Euronext|:|fp	NNP|:|NN	O|O|O	||					
+12	8	fb:cell.courbevoie	Courbevoie	courbevoie	courbevoie	NN	O					Courbevoie	fb:part.courbevoie
+12	9	fb:cell.christophe_de_margerie	Christophe de Margerie	christophe|de|margerie	Christophe|de|Margerie	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.toyota	Toyota	toyota	Toyota	NNP	O					Toyota	fb:part.toyota
+13	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+13	3	fb:cell._222	$222	$|222	$|222	$|CD	MONEY|MONEY	$222.0|$222.0	222.0				
+13	4	fb:cell.march_31_2013	March 31, 2013	march|31|,|2013	March|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-31|2013-03-31|2013-03-31|2013-03-31	312013.0	2013-03-31		March 31|2013	fb:part.march_31|fb:part.2013
+13	5	fb:cell._149	$149	$|149	$|149	$|CD	MONEY|MONEY	$149.0|$149.0	149.0				
+13	6	fb:cell.326_000	326,000	326,000	326,000	CD	NUMBER	326000.0	326000.0				
+13	7	fb:cell.tyo_7203_nyse_tm	TYO: 7203; NYSE: TM	tyo|:|7203|;|nyse|:|tm	TYO|:|7203|;|NYSE|:|tm	NNP|:|CD|:|NNP|:|NN	O|O|NUMBER|O|O|O|MISC	||7203.0||||	7203.0				
+13	8	fb:cell.toyota_aichi	Toyota, Aichi	toyota|,|aichi	Toyota|,|Aichi	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				Toyota|Aichi	fb:part.toyota|fb:part.aichi
+13	9	fb:cell.akio_toyoda	Akio Toyoda	akio|toyoda	Akio|Toyoda	NNP|NNP	PERSON|PERSON	|					
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.glencore_xstrata	Glencore Xstrata	glencore|xstrata	Glencore|Xstrata	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Glencore Xstrata	fb:part.glencore_xstrata
+14	2	fb:cell.commodities	Commodities	commodities	commodity	NNS	O						
+14	3	fb:cell._214	$214	$|214	$|214	$|CD	MONEY|MONEY	$214.0|$214.0	214.0				
+14	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+14	5	fb:cell._41_66	$41.66	$|41.66	$|41.66	$|CD	MONEY|MONEY	$41.66|$41.66	41.66				
+14	6	fb:cell.58_000	58,000	58,000	58,000	CD	NUMBER	58000.0	58000.0				
+14	7	fb:cell.lse_glen_sehk_0805	LSE: GLEN; SEHK: 0805	lse|:|glen|;|sehk|:|0805	LSE|:|GLEN|;|SEHK|:|0805	NNP|:|NNP|:|NNP|:|CD	O|O|O|O|O|O|DATE	||||||0805	805.0				
+14	8	fb:cell.baar	Baar	baar	Baar	NNP	PERSON					Baar	fb:part.baar
+14	9	fb:cell.ivan_glasenberg	Ivan Glasenberg	ivan|glasenberg	Ivan|Glasenberg	NNP|NNP	PERSON|PERSON	|					
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.phillips_66	Phillips 66	phillips|66	Phillips|66	NNP|CD	PERSON|NUMBER	|66.0	66.0			Phillips 66	fb:part.phillips_66
+15	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+15	3	fb:cell._182	$182	$|182	$|182	$|CD	MONEY|MONEY	$182.0|$182.0	182.0				
+15	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+15	5	fb:cell._39	$39	$|39	$|39	$|CD	MONEY|MONEY	$39.0|$39.0	39.0				
+15	6	fb:cell.13_500	13,500	13,500	13,500	CD	NUMBER	13500.0	13500.0				
+15	7	fb:cell.nyse_psx	NYSE: PSX	nyse|:|psx	NYSE|:|psx	NNP|:|NN	O|O|O	||					
+15	8	fb:cell.houston_texas	Houston, Texas	houston|,|texas	Houston|,|Texas	NNP|,|NNP	LOCATION|O|LOCATION	||				Houston|Texas	fb:part.houston|fb:part.texas
+15	9	fb:cell.greg_garland	Greg Garland	greg|garland	Greg|Garland	NNP|NNP	PERSON|PERSON	|					
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.e_on	E.ON	e.on	e.on	NN	O					E.ON	fb:part.e_on
+16	2	fb:cell.electric_utility	Electric utility	electric|utility	Electric|utility	NNP|NN	O|O	|					
+16	3	fb:cell._174	$174	$|174	$|174	$|CD	MONEY|MONEY	$174.0|$174.0	174.0				
+16	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+16	5	fb:cell._47	$47	$|47	$|47	$|CD	MONEY|MONEY	$47.0|$47.0	47.0				
+16	6	fb:cell.79_000	79,000	79,000	79,000	CD	NUMBER	79000.0	79000.0				
+16	7	fb:cell.fwb_eoan	FWB: EOAN	fwb|:|eoan	FWB|:|eoan	NNP|:|NN	O|O|O	||					
+16	8	fb:cell.dusseldorf	Düsseldorf	düsseldorf	düsseldorf	NN	PERSON					Düsseldorf	fb:part.dusseldorf
+16	9	fb:cell.johannes_teyssen	Johannes Teyssen	johannes|teyssen	Johannes|Teyssen	NNP|NNP	PERSON|PERSON	|					
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.apple	Apple	apple	Apple	NNP	O					Apple	fb:part.apple
+17	2	fb:cell.electronics	Electronics	electronics	Electronics	NNP	O						
+17	3	fb:cell._170	$170	$|170	$|170	$|CD	MONEY|MONEY	$170.0|$170.0	170.0				
+17	4	fb:cell.september_28_2013	September 28, 2013	september|28|,|2013	September|28|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-09-28|2013-09-28|2013-09-28|2013-09-28	282013.0	2013-09-28		September 28|2013	fb:part.september_28|fb:part.2013
+17	5	fb:cell._410	$410	$|410	$|410	$|CD	MONEY|MONEY	$410.0|$410.0	410.0				
+17	6	fb:cell.76_000	76,000	76,000	76,000	CD	NUMBER	76000.0	76000.0				
+17	7	fb:cell.nasdaq_aapl	NASDAQ: AAPL	nasdaq|:|aapl	NASDAQ|:|aapl	NNP|:|NN	MISC|O|O	||					
+17	8	fb:cell.cupertino_california	Cupertino, California	cupertino|,|california	Cupertino|,|California	NNP|,|NNP	LOCATION|O|LOCATION	||				Cupertino|California	fb:part.cupertino|fb:part.california
+17	9	fb:cell.tim_cook	Tim Cook	tim|cook	Tim|Cook	NNP|NNP	PERSON|PERSON	|					
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell.japan_post_holdings	Japan Post Holdings	japan|post|holdings	Japan|Post|Holdings	NNP|NNP|NNPS	LOCATION|O|O	||				Japan Post Holdings	fb:part.japan_post_holdings
+18	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+18	3	fb:cell._168	$168	$|168	$|168	$|CD	MONEY|MONEY	$168.0|$168.0	168.0				
+18	4	fb:cell.march_31_2013	March 31, 2013	march|31|,|2013	March|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-31|2013-03-31|2013-03-31|2013-03-31	312013.0	2013-03-31		March 31|2013	fb:part.march_31|fb:part.2013
+18	5	fb:cell.null											
+18	6	fb:cell.229_000	229,000	229,000	229,000	CD	NUMBER	229000.0	229000.0				
+18	7	fb:cell.null_2	—	--	--	:	O						
+18	8	fb:cell.tokyo	Tokyo	tokyo	Tokyo	NNP	LOCATION					Tokyo	fb:part.tokyo
+18	9	fb:cell.jiro_saito	Jiro Saito	jiro|saito	Jiro|Saito	NNP|NNP	PERSON|PERSON	|					
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell.eni	Eni	eni	enus	NNS	O					Eni	fb:part.eni
+19	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+19	3	fb:cell._167	$167	$|167	$|167	$|CD	MONEY|MONEY	$167.0|$167.0	167.0				
+19	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+19	5	fb:cell._94	$94	$|94	$|94	$|CD	MONEY|MONEY	$94.0|$94.0	94.0				
+19	6	fb:cell.78_000	78,000	78,000	78,000	CD	NUMBER	78000.0	78000.0				
+19	7	fb:cell.bit_eni	BIT: ENI	bit|:|eni	bit|:|ENI	NN|:|NNP	O|O|O	||					
+19	8	fb:cell.rome	Rome	rome	Rome	NNP	LOCATION					Rome	fb:part.rome
+19	9	fb:cell.paolo_scaroni	Paolo Scaroni	paolo|scaroni	Paolo|Scaroni	NNP|NNP	PERSON|PERSON	|					
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell.gazprom	Gazprom	gazprom	Gazprom	NNP	ORGANIZATION					Gazprom	fb:part.gazprom
+20	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+20	3	fb:cell._164	$164	$|164	$|164	$|CD	MONEY|MONEY	$164.0|$164.0	164.0				
+20	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+20	5	fb:cell._145	$145	$|145	$|145	$|CD	MONEY|MONEY	$145.0|$145.0	145.0				
+20	6	fb:cell.432_000	432,000	432,000	432,000	CD	NUMBER	432000.0	432000.0				
+20	7	fb:cell.mcx_gazp	MCX: GAZP	mcx|:|gazp	MCX|:|gazp	NNP|:|NN	O|O|O	||					
+20	8	fb:cell.moscow	Moscow	moscow	Moscow	NNP	LOCATION					Moscow	fb:part.moscow
+20	9	fb:cell.alexei_miller	Alexei Miller	alexei|miller	Alexei|Miller	NNP|NNP	PERSON|PERSON	|					
+21	0	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+21	1	fb:cell.berkshire_hathaway	Berkshire Hathaway	berkshire|hathaway	Berkshire|Hathaway	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Berkshire Hathaway	fb:part.berkshire_hathaway
+21	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+21	3	fb:cell._162	$162	$|162	$|162	$|CD	MONEY|MONEY	$162.0|$162.0	162.0				
+21	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+21	5	fb:cell._201	$201	$|201	$|201	$|CD	MONEY|MONEY	$201.0|$201.0	201.0				
+21	6	fb:cell.217_000	217,000	217,000	217,000	CD	NUMBER	217000.0	217000.0				
+21	7	fb:cell.nyse_brka_nyse_brkb	NYSE: BRKA; NYSE: BRKB	nyse|:|brka|;|nyse|:|brkb	NYSE|:|BRKA|;|NYSE|:|brkb	NNP|:|NNP|:|NNP|:|NN	ORGANIZATION|O|O|O|O|O|O	||||||					
+21	8	fb:cell.omaha_nebraska	Omaha, Nebraska	omaha|,|nebraska	Omaha|,|Nebraska	NNP|,|NNP	LOCATION|O|LOCATION	||				Omaha|Nebraska	fb:part.omaha|fb:part.nebraska
+21	9	fb:cell.warren_buffett	Warren Buffett	warren|buffett	Warren|Buffett	NNP|NNP	PERSON|PERSON	|					
+22	0	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	1	fb:cell.general_motors	General Motors	general|motors	General|Motors	NNP|NNPS	O|O	|				General Motors	fb:part.general_motors
+22	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+22	3	fb:cell._152	$152	$|152	$|152	$|CD	MONEY|MONEY	$152.0|$152.0	152.0				
+22	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+22	5	fb:cell._40	$40	$|40	$|40	$|CD	MONEY|MONEY	$40.0|$40.0	40.0				
+22	6	fb:cell.284_000	284,000	284,000	284,000	CD	NUMBER	284000.0	284000.0				
+22	7	fb:cell.nyse_gm	NYSE: GM	nyse|:|gm	NYSE|:|GM	NNP|:|NNP	ORGANIZATION|O|O	||					
+22	8	fb:cell.detroit_michigan	Detroit, Michigan	detroit|,|michigan	Detroit|,|Michigan	NNP|,|NNP	LOCATION|O|LOCATION	||				Detroit|Michigan	fb:part.detroit|fb:part.michigan
+22	9	fb:cell.daniel_akerson	Daniel Akerson	daniel|akerson	Daniel|Akerson	NNP|NNP	PERSON|PERSON	|					
+23	0	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+23	1	fb:cell.daimler	Daimler	daimler	Daimler	NNP	PERSON					Daimler	fb:part.daimler
+23	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+23	3	fb:cell._150	$150	$|150	$|150	$|CD	MONEY|MONEY	$150.0|$150.0	150.0				
+23	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+23	5	fb:cell._64	$64	$|64	$|64	$|CD	MONEY|MONEY	$64.0|$64.0	64.0				
+23	6	fb:cell.275_087	275,087	275,087	275,087	CD	NUMBER	275087.0	275087.0				
+23	7	fb:cell.fwb_dai	FWB: DAI	fwb|:|dai	FWB|:|DAI	NNP|:|NNP	O|O|O	||					
+23	8	fb:cell.stuttgart	Stuttgart	stuttgart	Stuttgart	NNP	LOCATION					Stuttgart	fb:part.stuttgart
+23	9	fb:cell.dieter_zetsche	Dieter Zetsche	dieter|zetsche	Dieter|Zetsche	NNP|NNP	PERSON|PERSON	|					
+24	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+24	1	fb:cell.general_electric	General Electric	general|electric	General|Electric	NNP|NNP	O|O	|				General Electric	fb:part.general_electric
+24	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+24	3	fb:cell._147	$147	$|147	$|147	$|CD	MONEY|MONEY	$147.0|$147.0	147.0				
+24	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+24	5	fb:cell._212	$212	$|212	$|212	$|CD	MONEY|MONEY	$212.0|$212.0	212.0				
+24	6	fb:cell.287_000	287,000	287,000	287,000	CD	NUMBER	287000.0	287000.0				
+24	7	fb:cell.nyse_ge	NYSE: GE	nyse|:|ge	NYSE|:|GE	NNP|:|NNP	O|O|O	||					
+24	8	fb:cell.fairfield_connecticut	Fairfield, Connecticut	fairfield|,|connecticut	Fairfield|,|Connecticut	NNP|,|NNP	LOCATION|O|LOCATION	||				Fairfield|Connecticut	fb:part.fairfield|fb:part.connecticut
+24	9	fb:cell.jeffrey_immelt	Jeffrey Immelt	jeffrey|immelt	Jeffrey|Immelt	NNP|NNP	PERSON|PERSON	|					
+25	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+25	1	fb:cell.kuwait_petroleum_corporation	Kuwait Petroleum Corporation	kuwait|petroleum|corporation	Kuwait|Petroleum|Corporation	NNP|NNP|NNP	LOCATION|O|O	||				Kuwait Petroleum Corporation	fb:part.kuwait_petroleum_corporation
+25	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+25	3	fb:cell._145	$145	$|145	$|145	$|CD	MONEY|MONEY	$145.0|$145.0	145.0				
+25	4	fb:cell.march_31_2012	March 31, 2012	march|31|,|2012	March|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-03-31|2012-03-31|2012-03-31|2012-03-31	312012.0	2012-03-31		March 31|2012	fb:part.march_31|fb:part.2012
+25	5	fb:cell.null											
+25	6	fb:cell.17_927	17,927	17,927	17,927	CD	NUMBER	17927.0	17927.0				
+25	7	fb:cell.null											
+25	8	fb:cell.kuwait_city	Kuwait City	kuwait|city	Kuwait|City	NNP|NNP	LOCATION|LOCATION	|				Kuwait City	fb:part.kuwait_city
+25	9	fb:cell.saad_al_shuwaib	Saad Al Shuwaib	saad|al|shuwaib	Saad|Al|Shuwaib	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+26	0	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+26	1	fb:cell.petrobras	Petrobras	petrobras	Petrobras	NNP	O					Petrobras	fb:part.petrobras
+26	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+26	3	fb:cell._144	$144	$|144	$|144	$|CD	MONEY|MONEY	$144.0|$144.0	144.0				
+26	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+26	5	fb:cell._171	$171	$|171	$|171	$|CD	MONEY|MONEY	$171.0|$171.0	171.0				
+26	6	fb:cell.81_000	81,000	81,000	81,000	CD	NUMBER	81000.0	81000.0				
+26	7	fb:cell.bovespa_petr3_bovespa_4	Bovespa: PETR3; Bovespa: 4	bovespa|:|petr3|;|bovespa|:|4	Bovespa|:|petr3|;|Bovespa|:|4	NNP|:|NN|:|NNP|:|CD	O|O|O|O|O|O|NUMBER	||||||4.0	3.0		4.0		
+26	8	fb:cell.rio_de_janeiro	Rio de Janeiro	rio|de|janeiro	Rio|de|Janeiro	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				Rio de Janeiro	fb:part.rio_de_janeiro
+26	9	fb:cell.maria_das_gracas_foster	Maria das Graças Foster	maria|das|graças|foster	Maria|das|Graças|Foster	NNP|FW|NNP|NNP	PERSON|O|O|O	|||					
+27	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+27	1	fb:cell.allianz	Allianz	allianz	Allianz	NNP	PERSON					Allianz	fb:part.allianz
+27	2	fb:cell.financial_services	Financial services	financial|services	Financial|service	NNP|NNS	O|O	|					
+27	3	fb:cell._140	$140	$|140	$|140	$|CD	MONEY|MONEY	$140.0|$140.0	140.0				
+27	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+27	5	fb:cell._54	$54	$|54	$|54	$|CD	MONEY|MONEY	$54.0|$54.0	54.0				
+27	6	fb:cell.142_000	142,000	142,000	142,000	CD	NUMBER	142000.0	142000.0				
+27	7	fb:cell.isin_de0008404005	ISIN: DE0008404005	isin|:|de0008404005	ISIN|:|de0008404005	NNP|:|NN	O|O|O	||	8404005.0				
+27	8	fb:cell.munich	Munich	munich	Munich	NNP	LOCATION					Munich	fb:part.munich
+27	9	fb:cell.michael_diekmann	Michael Diekmann	michael|diekmann	Michael|Diekmann	NNP|NNP	PERSON|PERSON	|					
+28	0	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+28	1	fb:cell.valero_energy	Valero Energy	valero|energy	Valero|Energy	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Valero Energy	fb:part.valero_energy
+28	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+28	3	fb:cell._139	$139	$|139	$|139	$|CD	MONEY|MONEY	$139.0|$139.0	139.0				
+28	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+28	5	fb:cell._16	$16	$|16	$|16	$|CD	MONEY|MONEY	$16.0|$16.0	16.0				
+28	6	fb:cell.22_000	22,000	22,000	22,000	CD	NUMBER	22000.0	22000.0				
+28	7	fb:cell.nyse_vlo	NYSE: VLO	nyse|:|vlo	NYSE|:|vlo	NNP|:|NN	O|O|O	||					
+28	8	fb:cell.san_antonio_texas	San Antonio, Texas	san|antonio|,|texas	San|Antonio|,|Texas	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Antonio|Texas	fb:part.san_antonio|fb:part.texas
+28	9	fb:cell.william_r_klesse	William R. Klesse	william|r.|klesse	William|R.|Klesse	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+29	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	1	fb:cell.lukoil	Lukoil	lukoil	Lukoil	NNP	PERSON					Lukoil	fb:part.lukoil
+29	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+29	3	fb:cell._139	$139	$|139	$|139	$|CD	MONEY|MONEY	$139.0|$139.0	139.0				
+29	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+29	5	fb:cell._51	$51	$|51	$|51	$|CD	MONEY|MONEY	$51.0|$51.0	51.0				
+29	6	fb:cell.120_000	120,000	120,000	120,000	CD	NUMBER	120000.0	120000.0				
+29	7	fb:cell.mcx_lkoh	MCX: LKOH	mcx|:|lkoh	MCX|:|lkoh	NNP|:|NN	O|O|O	||					
+29	8	fb:cell.moscow	Moscow	moscow	Moscow	NNP	LOCATION					Moscow	fb:part.moscow
+29	9	fb:cell.vagit_alekperov	Vagit Alekperov	vagit|alekperov	Vagit|Alekperov	NNP|NNP	PERSON|PERSON	|					
+30	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+30	1	fb:cell.cargill	Cargill	cargill	Cargill	NNP	PERSON					Cargill	fb:part.cargill
+30	2	fb:cell.food_processing	Food processing	food|processing	Food|processing	NNP|NN	O|O	|					
+30	3	fb:cell._136	$136	$|136	$|136	$|CD	MONEY|MONEY	$136.0|$136.0	136.0				
+30	4	fb:cell.may_31_2013	May 31, 2013	may|31|,|2013	May|31|,|2013	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	2013-05-31|2013-05-31|2013-05-31|2013-05-31	312013.0	2013-05-31		May 31|2013	fb:part.may_31|fb:part.2013
+30	5	fb:cell.null											
+30	6	fb:cell.158_000	158,000	158,000	158,000	CD	NUMBER	158000.0	158000.0				
+30	7	fb:cell.null_2	—	--	--	:	O						
+30	8	fb:cell.wayzata_minnesota	Wayzata, Minnesota	wayzata|,|minnesota	Wayzata|,|Minnesota	NNP|,|NNP	LOCATION|O|LOCATION	||				Wayzata|Minnesota	fb:part.wayzata|fb:part.minnesota
+30	9	fb:cell.gregory_r_page	Gregory R. Page	gregory|r.|page	Gregory|R.|Page	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+31	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+31	1	fb:cell.hon_hai_precision_industry	Hon Hai Precision Industry	hon|hai|precision|industry	Hon|Hai|Precision|Industry	NNP|NNP|NNP|NNP	PERSON|PERSON|O|O	|||				Hon Hai Precision Industry	fb:part.hon_hai_precision_industry
+31	2	fb:cell.electronics	Electronics	electronics	Electronics	NNP	O						
+31	3	fb:cell._134	$134	$|134	$|134	$|CD	MONEY|MONEY	$134.0|$134.0	134.0				
+31	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+31	5	fb:cell._41	$41	$|41	$|41	$|CD	MONEY|MONEY	$41.0|$41.0	41.0				
+31	6	fb:cell.1_290_000	1,290,000	1,290,000	1,290,000	CD	NUMBER	1290000.0	1290000.0				
+31	7	fb:cell.twse_2317	TWSE: 2317	twse|:|2317	TWSE|:|2317	NNP|:|CD	O|O|DATE	||2317	2317.0				
+31	8	fb:cell.tucheng	Tucheng	tucheng	tucheng	NN	O					Tucheng	fb:part.tucheng
+31	9	fb:cell.terry_gou	Terry Gou	terry|gou	Terry|Gou	NNP|NNP	PERSON|PERSON	|					
+32	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+32	1	fb:cell.ford_motor_company	Ford Motor Company	ford|motor|company	Ford|Motor|Company	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Ford Motor Company	fb:part.ford_motor_company
+32	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+32	3	fb:cell._134	$134	$|134	$|134	$|CD	MONEY|MONEY	$134.0|$134.0	134.0				
+32	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+32	5	fb:cell._47	$47	$|47	$|47	$|CD	MONEY|MONEY	$47.0|$47.0	47.0				
+32	6	fb:cell.164_000	164,000	164,000	164,000	CD	NUMBER	164000.0	164000.0				
+32	7	fb:cell.nyse_f	NYSE: F	nyse|:|f	NYSE|:|f	NNP|:|NN	O|O|O	||					
+32	8	fb:cell.dearborn_michigan	Dearborn, Michigan	dearborn|,|michigan	Dearborn|,|Michigan	NNP|,|NNP	LOCATION|O|LOCATION	||				Dearborn|Michigan	fb:part.dearborn|fb:part.michigan
+32	9	fb:cell.alan_mulally	Alan Mulally	alan|mulally	Alan|Mulally	NNP|NNP	PERSON|PERSON	|					
+33	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+33	1	fb:cell.trafigura	Trafigura	trafigura	Trafigura	NNP	ORGANIZATION					Trafigura	fb:part.trafigura
+33	2	fb:cell.commodities	Commodities	commodities	commodity	NNS	O						
+33	3	fb:cell._133	$133	$|133	$|133	$|CD	MONEY|MONEY	$133.0|$133.0	133.0				
+33	4	fb:cell.september_30_2013	September 30, 2013	september|30|,|2013	September|30|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-09-30|2013-09-30|2013-09-30|2013-09-30	302013.0	2013-09-30		September 30|2013	fb:part.september_30|fb:part.2013
+33	5	fb:cell.null											
+33	6	fb:cell.8_773	8,773	8,773	8,773	CD	NUMBER	8773.0	8773.0				
+33	7	fb:cell.null_2	—	--	--	:	O						
+33	8	fb:cell.lucerne	Lucerne	lucerne	Lucerne	NNP	LOCATION					Lucerne	fb:part.lucerne
+33	9	fb:cell.claude_dauphin	Claude Dauphin	claude|dauphin	Claude|Dauphin	NNP|NNP	PERSON|PERSON	|					
+34	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+34	1	fb:cell.statoil	Statoil	statoil	Statoil	NNP	O					Statoil	fb:part.statoil
+34	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+34	3	fb:cell._130	$130	$|130	$|130	$|CD	MONEY|MONEY	$130.0|$130.0	130.0				
+34	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+34	5	fb:cell._86	$86	$|86	$|86	$|CD	MONEY|MONEY	$86.0|$86.0	86.0				
+34	6	fb:cell.23_000	23,000	23,000	23,000	CD	NUMBER	23000.0	23000.0				
+34	7	fb:cell.ose_stl	OSE: STL	ose|:|stl	OSE|:|stl	NNP|:|NN	O|O|O	||					
+34	8	fb:cell.stavanger	Stavanger	stavanger	Stavanger	NNP	LOCATION					Stavanger	fb:part.stavanger
+34	9	fb:cell.helge_lund	Helge Lund	helge|lund	Helge|Lund	NNP|NNP	PERSON|PERSON	|					
+35	0	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+35	1	fb:cell.gdf_suez	GDF Suez	gdf|suez	GDF|Suez	NNP|NNP	O|O	|				GDF Suez	fb:part.gdf_suez
+35	2	fb:cell.electricity_and_gas_utility	Electricity and gas utility	electricity|and|gas|utility	Electricity|and|gas|utility	NNP|CC|NN|NN	O|O|O|O	|||					
+35	3	fb:cell._128	$128	$|128	$|128	$|CD	MONEY|MONEY	$128.0|$128.0	128.0				
+35	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+35	5	fb:cell._58	$58	$|58	$|58	$|CD	MONEY|MONEY	$58.0|$58.0	58.0				
+35	6	fb:cell.161_000	161,000	161,000	161,000	CD	NUMBER	161000.0	161000.0				
+35	7	fb:cell.euronext_sze	Euronext: SZE	euronext|:|sze	Euronext|:|SZE	NNP|:|NNP	O|O|O	||					
+35	8	fb:cell.paris	Paris	paris	Paris	NNP	LOCATION					Paris	fb:part.paris
+35	9	fb:cell.gerard_mestrallet	Gérard Mestrallet	gérard|mestrallet	Gérard|Mestrallet	NNP|NNP	PERSON|PERSON	|					
+36	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+36	1	fb:cell.at_t	AT&T	at&t	AT&T	NNP	ORGANIZATION					AT&T	fb:part.at_t
+36	2	fb:cell.telecommunications	Telecommunications	telecommunications	Telecommunications	NNPS	O						
+36	3	fb:cell._127	$127	$|127	$|127	$|CD	MONEY|MONEY	$127.0|$127.0	127.0				
+36	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+36	5	fb:cell._185	$185	$|185	$|185	$|CD	MONEY|MONEY	$185.0|$185.0	185.0				
+36	6	fb:cell.256_000	256,000	256,000	256,000	CD	NUMBER	256000.0	256000.0				
+36	7	fb:cell.nyse_t	NYSE: T	nyse|:|t	NYSE|:|t	NNP|:|NN	O|O|O	||					
+36	8	fb:cell.dallas_texas	Dallas, Texas	dallas|,|texas	Dallas|,|Texas	NNP|,|NNP	LOCATION|O|LOCATION	||				Dallas|Texas	fb:part.dallas|fb:part.texas
+36	9	fb:cell.randall_l_stephenson	Randall L. Stephenson	randall|l.|stephenson	Randall|L.|Stephenson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+37	0	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+37	1	fb:cell.pemex	Pemex	pemex	Pemex	NNP	ORGANIZATION					Pemex	fb:part.pemex
+37	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+37	3	fb:cell._127	$127	$|127	$|127	$|CD	MONEY|MONEY	$127.0|$127.0	127.0				
+37	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+37	5	fb:cell.null											
+37	6	fb:cell.138_000	138,000	138,000	138,000	CD	NUMBER	138000.0	138000.0				
+37	7	fb:cell.null_2	—	--	--	:	O						
+37	8	fb:cell.mexico_city	Mexico City	mexico|city	Mexico|City	NNP|NNP	LOCATION|LOCATION	|				Mexico City	fb:part.mexico_city
+37	9	fb:cell.juan_jose_suarez_coppel	Juan José Suárez Coppel	juan|josé|suárez|coppel	Juan|José|Suárez|Coppel	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+38	0	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+38	1	fb:cell.pdvsa	PDVSA	pdvsa	PDVSA	NNP	ORGANIZATION					PDVSA	fb:part.pdvsa
+38	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+38	3	fb:cell._124	$124	$|124	$|124	$|CD	MONEY|MONEY	$124.0|$124.0	124.0				
+38	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+38	5	fb:cell.null											
+38	6	fb:cell.121_000	121,000	121,000	121,000	CD	NUMBER	121000.0	121000.0				
+38	7	fb:cell.null_2	—	--	--	:	O						
+38	8	fb:cell.caracas	Caracas	caracas	Caracas	NNP	LOCATION					Caracas	fb:part.caracas
+38	9	fb:cell.rafael_ramirez	Rafael Ramírez	rafael|ramírez	Rafael|Ramírez	NNP|NNP	PERSON|PERSON	|					
+39	0	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	1	fb:cell.cvs_caremark	CVS Caremark	cvs|caremark	CVS|Caremark	NNP|NNP	ORGANIZATION|ORGANIZATION	|				CVS Caremark	fb:part.cvs_caremark
+39	2	fb:cell.retail	Retail	retail	retail	JJ	O						
+39	3	fb:cell._123	$123	$|123	$|123	$|CD	MONEY|MONEY	$123.0|$123.0	123.0				
+39	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+39	5	fb:cell._59	$59	$|59	$|59	$|CD	MONEY|MONEY	$59.0|$59.0	59.0				
+39	6	fb:cell.202_000	202,000	202,000	202,000	CD	NUMBER	202000.0	202000.0				
+39	7	fb:cell.nyse_cvs	NYSE: CVS	nyse|:|cvs	NYSE|:|cv	NNP|:|NNS	O|O|O	||					
+39	8	fb:cell.woonsocket_rhode_island	Woonsocket, Rhode Island	woonsocket|,|rhode|island	Woonsocket|,|Rhode|Island	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Woonsocket|Rhode Island	fb:part.woonsocket|fb:part.rhode_island
+39	9	fb:cell.larry_j_merlo	Larry J. Merlo	larry|j.|merlo	Larry|J.|Merlo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+40	0	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+40	1	fb:cell.mckesson	McKesson	mckesson	McKesson	NNP	ORGANIZATION					McKesson	fb:part.mckesson
+40	2	fb:cell.pharmaceuticals	Pharmaceuticals	pharmaceuticals	pharmaceutical	NNS	O						
+40	3	fb:cell._122	$122	$|122	$|122	$|CD	MONEY|MONEY	$122.0|$122.0	122.0				
+40	4	fb:cell.march_31_2013	March 31, 2013	march|31|,|2013	March|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-31|2013-03-31|2013-03-31|2013-03-31	312013.0	2013-03-31		March 31|2013	fb:part.march_31|fb:part.2013
+40	5	fb:cell._22	$22	$|22	$|22	$|CD	MONEY|MONEY	$22.0|$22.0	22.0				
+40	6	fb:cell.32_000	32,000	32,000	32,000	CD	NUMBER	32000.0	32000.0				
+40	7	fb:cell.nyse_mck	NYSE: MCK	nyse|:|mck	NYSE|:|mck	NNP|:|NN	O|O|O	||					
+40	8	fb:cell.san_francisco_california	San Francisco, California	san|francisco|,|california	San|Francisco|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Francisco|California	fb:part.san_francisco|fb:part.california
+40	9	fb:cell.john_hammergren	John Hammergren	john|hammergren	John|Hammergren	NNP|NNP	PERSON|PERSON	|					
+41	0	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+41	1	fb:cell.jx_holdings	JX Holdings	jx|holdings	JX|Holdings	NNP|NNPS	O|O	|				JX Holdings	fb:part.jx_holdings
+41	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+41	3	fb:cell._119	$119	$|119	$|119	$|CD	MONEY|MONEY	$119.0|$119.0	119.0				
+41	4	fb:cell.march_31_2013	March 31, 2013	march|31|,|2013	March|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-31|2013-03-31|2013-03-31|2013-03-31	312013.0	2013-03-31		March 31|2013	fb:part.march_31|fb:part.2013
+41	5	fb:cell._16	$16	$|16	$|16	$|CD	MONEY|MONEY	$16.0|$16.0	16.0				
+41	6	fb:cell.24_000	24,000	24,000	24,000	CD	NUMBER	24000.0	24000.0				
+41	7	fb:cell.tyo_5020	TYO: 5020	tyo|:|5020	TYO|:|5020	NNP|:|CD	O|O|NUMBER	||5020.0	5020.0				
+41	8	fb:cell.tokyo	Tokyo	tokyo	Tokyo	NNP	LOCATION					Tokyo	fb:part.tokyo
+41	9	fb:cell.null_2	—	--	--	:	O						
+42	0	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+42	1	fb:cell.axa	AXA	axa	AXA	NNP	O					AXA	fb:part.axa
+42	2	fb:cell.financial_services	Financial services	financial|services	Financial|service	NNP|NNS	O|O	|					
+42	3	fb:cell._118	$118	$|118	$|118	$|CD	MONEY|MONEY	$118.0|$118.0	118.0				
+42	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+42	5	fb:cell._39	$39	$|39	$|39	$|CD	MONEY|MONEY	$39.0|$39.0	39.0				
+42	6	fb:cell.240_000	240,000	240,000	240,000	CD	NUMBER	240000.0	240000.0				
+42	7	fb:cell.euronext_cs	Euronext: CS	euronext|:|cs	Euronext|:|CS	NNP|:|NNP	O|O|O	||					
+42	8	fb:cell.paris	Paris	paris	Paris	NNP	LOCATION					Paris	fb:part.paris
+42	9	fb:cell.henri_de_castries	Henri de Castries	henri|de|castries	Henri|de|Castries	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+43	0	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+43	1	fb:cell.assicurazioni_generali	Assicurazioni Generali	assicurazioni|generali	Assicurazioni|Generali	NNP|NNP	PERSON|PERSON	|				Assicurazioni Generali	fb:part.assicurazioni_generali
+43	2	fb:cell.financial_services	Financial services	financial|services	Financial|service	NNP|NNS	O|O	|					
+43	3	fb:cell._116	$116	$|116	$|116	$|CD	MONEY|MONEY	$116.0|$116.0	116.0				
+43	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+43	5	fb:cell._24	$24	$|24	$|24	$|CD	MONEY|MONEY	$24.0|$24.0	24.0				
+43	6	fb:cell.85_000	85,000	85,000	85,000	CD	NUMBER	85000.0	85000.0				
+43	7	fb:cell.bit_g	BIT: G	bit|:|g	bit|:|g	NN|:|NN	O|O|O	||					
+43	8	fb:cell.trieste	Trieste	trieste	Trieste	NNP	LOCATION					Trieste	fb:part.trieste
+43	9	fb:cell.sergio_balbinot_giovanni_perissinotto	Sergio Balbinot; Giovanni Perissinotto	sergio|balbinot|;|giovanni|perissinotto	Sergio|Balbinot|;|Giovanni|Perissinotto	NNP|NNP|:|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||					
+44	0	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+44	1	fb:cell.verizon	Verizon	verizon	Verizon	NNP	O					Verizon	fb:part.verizon
+44	2	fb:cell.telecommunications	Telecommunications	telecommunications	Telecommunications	NNPS	O						
+44	3	fb:cell._115	$115	$|115	$|115	$|CD	MONEY|MONEY	$115.0|$115.0	115.0				
+44	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+44	5	fb:cell._108	$108	$|108	$|108	$|CD	MONEY|MONEY	$108.0|$108.0	108.0				
+44	6	fb:cell.203_000	203,000	203,000	203,000	CD	NUMBER	203000.0	203000.0				
+44	7	fb:cell.nyse_vz	NYSE: VZ	nyse|:|vz	NYSE|:|vz	NNP|:|NN	O|O|O	||					
+44	8	fb:cell.new_york_city_new_york	New York City, New York	new|york|city|,|new|york	New|York|City|,|New|York	NNP|NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|LOCATION|O|LOCATION|LOCATION	|||||				New York City|New York	fb:part.new_york_city|fb:part.new_york
+44	9	fb:cell.ivan_seidenberg	Ivan Seidenberg	ivan|seidenberg	Ivan|Seidenberg	NNP|NNP	PERSON|PERSON	|					
+45	0	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+45	1	fb:cell.koch_industries	Koch Industries	koch|industries	Koch|Industries	NNP|NNPS	ORGANIZATION|ORGANIZATION	|				Koch Industries	fb:part.koch_industries
+45	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+45	3	fb:cell._115	$115	$|115	$|115	$|CD	MONEY|MONEY	$115.0|$115.0	115.0				
+45	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+45	5	fb:cell.null											
+45	6	fb:cell.60_000	60,000	60,000	60,000	CD	NUMBER	60000.0	60000.0				
+45	7	fb:cell.null_2	—	--	--	:	O						
+45	8	fb:cell.wichita_kansas	Wichita, Kansas	wichita|,|kansas	Wichita|,|Kansas	NNP|,|NNP	LOCATION|O|LOCATION	||				Wichita|Kansas	fb:part.wichita|fb:part.kansas
+45	9	fb:cell.charles_koch	Charles Koch	charles|koch	Charles|Koch	NNP|NNP	PERSON|PERSON	|					
+46	0	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+46	1	fb:cell.nippon_telegraph_and_telephone	Nippon Telegraph and Telephone	nippon|telegraph|and|telephone	Nippon|Telegraph|and|Telephone	NNP|NNP|CC|NNP	ORGANIZATION|ORGANIZATION|O|O	|||				Nippon Telegraph and Telephone	fb:part.nippon_telegraph_and_telephone
+46	2	fb:cell.telecommunications	Telecommunications	telecommunications	Telecommunications	NNPS	O						
+46	3	fb:cell._113	$113	$|113	$|113	$|CD	MONEY|MONEY	$113.0|$113.0	113.0				
+46	4	fb:cell.march_31_2013	March 31, 2013	march|31|,|2013	March|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-31|2013-03-31|2013-03-31|2013-03-31	312013.0	2013-03-31		March 31|2013	fb:part.march_31|fb:part.2013
+46	5	fb:cell._73	$73	$|73	$|73	$|CD	MONEY|MONEY	$73.0|$73.0	73.0				
+46	6	fb:cell.205_000	205,000	205,000	205,000	CD	NUMBER	205000.0	205000.0				
+46	7	fb:cell.tyo_9432	TYO: 9432	tyo|:|9432	TYO|:|9432	NNP|:|CD	O|O|DATE	||9432	9432.0				
+46	8	fb:cell.tokyo	Tokyo	tokyo	Tokyo	NNP	LOCATION					Tokyo	fb:part.tokyo
+46	9	fb:cell.norio_wada	Norio Wada	norio|wada	Norio|Wada	NNP|NNP	PERSON|PERSON	|					
+47	0	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+47	1	fb:cell.sk_group	SK Group	sk|group	SK|Group	NNP|NNP	O|O	|				SK Group	fb:part.sk_group
+47	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+47	3	fb:cell._112	$112	$|112	$|112	$|CD	MONEY|MONEY	$112.0|$112.0	112.0				
+47	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+47	5	fb:cell.null											
+47	6	fb:cell.52_377	52,377	52,377	52,377	CD	NUMBER	52377.0	52377.0				
+47	7	fb:cell.krx_003600	KRX: 003600	krx|:|003600	KRX|:|003600	NNP|:|CD	O|O|NUMBER	||3600.0	3600.0				
+47	8	fb:cell.seoul	Seoul	seoul	Seoul	NNP	LOCATION					Seoul	fb:part.seoul
+47	9	fb:cell.choi_tae_won	Choi Tae-Won	choi|tae|won	Choi|Tae|Won	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+48	0	fb:cell.49	49	49	49	CD	NUMBER	49.0	49.0				
+48	1	fb:cell.hewlett_packard	Hewlett-Packard	hewlett|packard	Hewlett|Packard	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Hewlett-Packard	fb:part.hewlett_packard
+48	2	fb:cell.information_technology	Information Technology	information|technology	Information|Technology	NNP|NNP	O|O	|					
+48	3	fb:cell._112	$112	$|112	$|112	$|CD	MONEY|MONEY	$112.0|$112.0	112.0				
+48	4	fb:cell.october_31_2013	October 31, 2013	october|31|,|2013	October|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-10-31|2013-10-31|2013-10-31|2013-10-31	312013.0	2013-10-31		October 31|2013	fb:part.october_31|fb:part.2013
+48	5	fb:cell._47	$47	$|47	$|47	$|CD	MONEY|MONEY	$47.0|$47.0	47.0				
+48	6	fb:cell.267_000	267,000	267,000	267,000	CD	NUMBER	267000.0	267000.0				
+48	7	fb:cell.nyse_hpq	NYSE: HPQ	nyse|:|hpq	NYSE|:|hpq	NNP|:|NN	O|O|O	||					
+48	8	fb:cell.palo_alto_california	Palo Alto, California	palo|alto|,|california	Palo|Alto|,|California	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Palo Alto|California	fb:part.palo_alto|fb:part.california
+48	9	fb:cell.meg_whitman	Meg Whitman	meg|whitman	Meg|Whitman	NNP|NNP	PERSON|PERSON	|					
+49	0	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+49	1	fb:cell.enel	Enel	enel	Enel	NNP	ORGANIZATION					Enel	fb:part.enel
+49	2	fb:cell.electric_utility	Electric utility	electric|utility	Electric|utility	NNP|NN	O|O	|					
+49	3	fb:cell._111	$111	$|111	$|111	$|CD	MONEY|MONEY	$111.0|$111.0	111.0				
+49	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+49	5	fb:cell._34	$34	$|34	$|34	$|CD	MONEY|MONEY	$34.0|$34.0	34.0				
+49	6	fb:cell.59_000	59,000	59,000	59,000	CD	NUMBER	59000.0	59000.0				
+49	7	fb:cell.bit_enel	BIT: ENEL	bit|:|enel	bit|:|ENEL	NN|:|NNP	O|O|ORGANIZATION	||					
+49	8	fb:cell.rome	Rome	rome	Rome	NNP	LOCATION					Rome	fb:part.rome
+49	9	fb:cell.fulvio_conti	Fulvio Conti	fulvio|conti	Fulvio|Conti	NNP|NNP	PERSON|PERSON	|					
+50	0	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+50	1	fb:cell.fiat	Fiat	fiat	Fiat	NNP	ORGANIZATION					Fiat	fb:part.fiat
+50	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+50	3	fb:cell._110	$110	$|110	$|110	$|CD	MONEY|MONEY	$110.0|$110.0	110.0				
+50	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+50	5	fb:cell._7	$7	$|7	$|7	$|CD	MONEY|MONEY	$7.0|$7.0	7.0				
+50	6	fb:cell.214_836	214,836	214,836	214,836	CD	NUMBER	214836.0	214836.0				
+50	7	fb:cell.bit_f	BIT: F	bit|:|f	bit|:|f	NN|:|NN	O|O|O	||					
+50	8	fb:cell.turin	Turin	turin	Turin	NNP	LOCATION					Turin	fb:part.turin
+50	9	fb:cell.sergio_marchionne	Sergio Marchionne	sergio|marchionne	Sergio|Marchionne	NNP|NNP	PERSON|PERSON	|					
+51	0	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+51	1	fb:cell.unitedhealth_group	UnitedHealth Group	unitedhealth|group	UnitedHealth|Group	NNP|NNP	ORGANIZATION|ORGANIZATION	|				UnitedHealth Group	fb:part.unitedhealth_group
+51	2	fb:cell.health_care	Health care	health|care	Health|care	NNP|NN	O|O	|					
+51	3	fb:cell._110	$110	$|110	$|110	$|CD	MONEY|MONEY	$110.0|$110.0	110.0				
+51	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+51	5	fb:cell._62	$62	$|62	$|62	$|CD	MONEY|MONEY	$62.0|$62.0	62.0				
+51	6	fb:cell.99_000	99,000	99,000	99,000	CD	NUMBER	99000.0	99000.0				
+51	7	fb:cell.nyse_unh	NYSE: UNH	nyse|:|unh	NYSE|:|UNH	NNP|:|NNP	O|O|O	||					
+51	8	fb:cell.minnetonka_minnesota	Minnetonka, Minnesota	minnetonka|,|minnesota	Minnetonka|,|Minnesota	NNP|,|NNP	LOCATION|O|LOCATION	||				Minnetonka|Minnesota	fb:part.minnetonka|fb:part.minnesota
+51	9	fb:cell.stephen_hemsley	Stephen Hemsley	stephen|hemsley	Stephen|Hemsley	NNP|NNP	PERSON|PERSON	|					
+52	0	fb:cell.53	53	53	53	CD	NUMBER	53.0	53.0				
+52	1	fb:cell.tesco	Tesco	tesco	Tesco	NNP	ORGANIZATION					Tesco	fb:part.tesco
+52	2	fb:cell.retail	Retail	retail	retail	JJ	O						
+52	3	fb:cell._110	$110	$|110	$|110	$|CD	MONEY|MONEY	$110.0|$110.0	110.0				
+52	4	fb:cell.february_23_2013	February 23, 2013	february|23|,|2013	February|23|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-02-23|2013-02-23|2013-02-23|2013-02-23	232013.0	2013-02-23		February 23|2013	fb:part.february_23|fb:part.2013
+52	5	fb:cell._42	$42	$|42	$|42	$|CD	MONEY|MONEY	$42.0|$42.0	42.0				
+52	6	fb:cell.493_000	493,000	493,000	493,000	CD	NUMBER	493000.0	493000.0				
+52	7	fb:cell.lse_tsco	LSE: TSCO	lse|:|tsco	LSE|:|tsco	NNP|:|NN	O|O|O	||					
+52	8	fb:cell.cheshunt_hertfordshire	Cheshunt, Hertfordshire	cheshunt|,|hertfordshire	Cheshunt|,|Hertfordshire	NNP|,|NNP	LOCATION|O|LOCATION	||				Cheshunt|Hertfordshire	fb:part.cheshunt|fb:part.hertfordshire
+52	9	fb:cell.philip_clarke	Philip Clarke	philip|clarke	Philip|Clarke	NNP|NNP	PERSON|PERSON	|					
+53	0	fb:cell.54	54	54	54	CD	NUMBER	54.0	54.0				
+53	1	fb:cell.national_iranian_oil_company	National Iranian Oil Company	national|iranian|oil|company	National|Iranian|Oil|Company	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||				National Iranian Oil Company	fb:part.national_iranian_oil_company
+53	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+53	3	fb:cell._110	$110	$|110	$|110	$|CD	MONEY|MONEY	$110.0|$110.0	110.0				
+53	4	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx		2011	fb:part.2011
+53	5	fb:cell.null											
+53	6	fb:cell.36_000	36,000	36,000	36,000	CD	NUMBER	36000.0	36000.0				
+53	7	fb:cell.null_2	—	--	--	:	O						
+53	8	fb:cell.tehran	Tehran	tehran	Tehran	NNP	LOCATION					Tehran	fb:part.tehran
+53	9	fb:cell.bijan_namdar_zangeneh	Bijan Namdar Zangeneh	bijan|namdar|zangeneh	Bijan|Namdar|Zangeneh	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+54	0	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+54	1	fb:cell.tata_group	Tata Group	tata|group	Tata|Group	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Tata Group	fb:part.tata_group
+54	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+54	3	fb:cell._105	$105	$|105	$|105	$|CD	MONEY|MONEY	$105.0|$105.0	105.0				
+54	4	fb:cell.march_31_2014	March 31, 2014	march|31|,|2014	March|31|,|2014	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2014-03-31|2014-03-31|2014-03-31|2014-03-31	312014.0	2014-03-31		March 31|2014	fb:part.march_31|fb:part.2014
+54	5	fb:cell._109	$109	$|109	$|109	$|CD	MONEY|MONEY	$109.0|$109.0	109.0				
+54	6	fb:cell.455_000	455,000	455,000	455,000	CD	NUMBER	455000.0	455000.0				
+54	7	fb:cell.fwb_bmw	FWB: BMW	fwb|:|bmw	FWB|:|BMW	NNP|:|NNP	O|O|O	||					
+54	8	fb:cell.mumbai	Mumbai	mumbai	Mumbai	NNP	LOCATION					Mumbai	fb:part.mumbai
+54	9	fb:cell.cyrus_pallonji_mistry	Cyrus Pallonji Mistry	cyrus|pallonji|mistry	Cyrus|Pallonji|Mistry	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+55	0	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+55	1	fb:cell.honda	Honda	honda	Honda	NNP	ORGANIZATION					Honda	fb:part.honda
+55	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+55	3	fb:cell._104	$104	$|104	$|104	$|CD	MONEY|MONEY	$104.0|$104.0	104.0				
+55	4	fb:cell.march_31_2013	March 31, 2013	march|31|,|2013	March|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-31|2013-03-31|2013-03-31|2013-03-31	312013.0	2013-03-31		March 31|2013	fb:part.march_31|fb:part.2013
+55	5	fb:cell._69	$69	$|69	$|69	$|CD	MONEY|MONEY	$69.0|$69.0	69.0				
+55	6	fb:cell.181_876	181,876	181,876	181,876	CD	NUMBER	181876.0	181876.0				
+55	7	fb:cell.tyo_7267	TYO: 7267	tyo|:|7267	TYO|:|7267	NNP|:|CD	O|O|DATE	||7267	7267.0				
+55	8	fb:cell.tokyo	Tokyo	tokyo	Tokyo	NNP	LOCATION					Tokyo	fb:part.tokyo
+55	9	fb:cell.takanobu_ito	Takanobu Ito	takanobu|ito	Takanobu|Ito	NNP|NNP	PERSON|PERSON	|					
+56	0	fb:cell.56	56	56	56	CD	NUMBER	56.0	56.0				
+56	1	fb:cell.ibm	IBM	ibm	IBM	NNP	ORGANIZATION					IBM	fb:part.ibm
+56	2	fb:cell.information_technology	Information Technology	information|technology	Information|Technology	NNP|NNP	O|O	|					
+56	3	fb:cell._104	$104	$|104	$|104	$|CD	MONEY|MONEY	$104.0|$104.0	104.0				
+56	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+56	5	fb:cell._242	$242	$|242	$|242	$|CD	MONEY|MONEY	$242.0|$242.0	242.0				
+56	6	fb:cell.433_000	433,000	433,000	433,000	CD	NUMBER	433000.0	433000.0				
+56	7	fb:cell.nyse_ibm	NYSE: IBM	nyse|:|ibm	NYSE|:|IBM	NNP|:|NNP	O|O|ORGANIZATION	||					
+56	8	fb:cell.armonk_new_york	Armonk, New York	armonk|,|new|york	Armonk|,|New|York	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Armonk|New York	fb:part.armonk|fb:part.new_york
+56	9	fb:cell.ginni_rometty	Ginni Rometty	ginni|rometty	Ginni|Rometty	NNP|NNP	PERSON|PERSON	|					
+57	0	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+57	1	fb:cell.basf	BASF	basf	BASF	NNP	ORGANIZATION					BASF	fb:part.basf
+57	2	fb:cell.chemicals	Chemicals	chemicals	chemical	NNS	O						
+57	3	fb:cell._103	$103	$|103	$|103	$|CD	MONEY|MONEY	$103.0|$103.0	103.0				
+57	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+57	5	fb:cell._80	$80	$|80	$|80	$|CD	MONEY|MONEY	$80.0|$80.0	80.0				
+57	6	fb:cell.113_262	113,262	113,262	113,262	CD	NUMBER	113262.0	113262.0				
+57	7	fb:cell.fwb_bas	FWB: BAS	fwb|:|bas	FWB|:|ba	NNP|:|NNS	O|O|O	||					
+57	8	fb:cell.ludwigshafen	Ludwigshafen	ludwigshafen	Ludwigshafen	NNP	LOCATION					Ludwigshafen	fb:part.ludwigshafen
+57	9	fb:cell.kurt_bock	Kurt Bock	kurt|bock	Kurt|Bock	NNP|NNP	PERSON|PERSON	|					
+58	0	fb:cell.58	58	58	58	CD	NUMBER	58.0	58.0				
+58	1	fb:cell.costco	Costco	costco	Costco	NNP	ORGANIZATION					Costco	fb:part.costco
+58	2	fb:cell.retail	Retail	retail	retail	JJ	O						
+58	3	fb:cell._102	$102	$|102	$|102	$|CD	MONEY|MONEY	$102.0|$102.0	102.0				
+58	4	fb:cell.september_1_2013	September 1, 2013	september|1|,|2013	September|1|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-09-01|2013-09-01|2013-09-01|2013-09-01	12013.0	2013-09-01		September 1|2013	fb:part.september_1|fb:part.2013
+58	5	fb:cell._39	$39	$|39	$|39	$|CD	MONEY|MONEY	$39.0|$39.0	39.0				
+58	6	fb:cell.132_000	132,000	132,000	132,000	CD	NUMBER	132000.0	132000.0				
+58	7	fb:cell.nasdaq_cost	NASDAQ: COST	nasdaq|:|cost	NASDAQ|:|cost	NNP|:|NN	MISC|O|O	||					
+58	8	fb:cell.issaquah_washington	Issaquah, Washington	issaquah|,|washington	Issaquah|,|Washington	NNP|,|NNP	LOCATION|O|LOCATION	||				Issaquah|Washington	fb:part.issaquah|fb:part.washington
+58	9	fb:cell.w_craig_jelinek	W. Craig Jelinek	w.|craig|jelinek	W.|Craig|Jelinek	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+59	0	fb:cell.59	59	59	59	CD	NUMBER	59.0	59.0				
+59	1	fb:cell.siemens	Siemens	siemens	Siemens	NNP	ORGANIZATION					Siemens	fb:part.siemens
+59	2	fb:cell.conglomerate	Conglomerate	conglomerate	conglomerate	NN	O						
+59	3	fb:cell._102	$102	$|102	$|102	$|CD	MONEY|MONEY	$102.0|$102.0	102.0				
+59	4	fb:cell.september_30_2013	September 30, 2013	september|30|,|2013	September|30|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-09-30|2013-09-30|2013-09-30|2013-09-30	302013.0	2013-09-30		September 30|2013	fb:part.september_30|fb:part.2013
+59	5	fb:cell._92	$92	$|92	$|92	$|CD	MONEY|MONEY	$92.0|$92.0	92.0				
+59	6	fb:cell.405_000	405,000	405,000	405,000	CD	NUMBER	405000.0	405000.0				
+59	7	fb:cell.fwb_sie	FWB: SIE	fwb|:|sie	FWB|:|sie	NNP|:|NN	O|O|O	||					
+59	8	fb:cell.munich	Munich	munich	Munich	NNP	LOCATION					Munich	fb:part.munich
+59	9	fb:cell.josef_kaser	Josef Käser	josef|käser	Josef|Käser	NNP|NNP	PERSON|PERSON	|					
+60	0	fb:cell.60	60	60	60	CD	NUMBER	60.0	60.0				
+60	1	fb:cell.nissan_motor_company	Nissan Motor Company	nissan|motor|company	Nissan|Motor|Company	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Nissan Motor Company	fb:part.nissan_motor_company
+60	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+60	3	fb:cell._102	$102	$|102	$|102	$|CD	MONEY|MONEY	$102.0|$102.0	102.0				
+60	4	fb:cell.march_31_2013	March 31, 2013	march|31|,|2013	March|31|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-31|2013-03-31|2013-03-31|2013-03-31	312013.0	2013-03-31		March 31|2013	fb:part.march_31|fb:part.2013
+60	5	fb:cell._48	$48	$|48	$|48	$|CD	MONEY|MONEY	$48.0|$48.0	48.0				
+60	6	fb:cell.128_000	128,000	128,000	128,000	CD	NUMBER	128000.0	128000.0				
+60	7	fb:cell.tyo_7201	TYO: 7201	tyo|:|7201	TYO|:|7201	NNP|:|CD	O|O|DATE	||7201	7201.0				
+60	8	fb:cell.yokohama	Yokohama	yokohama	Yokohama	NNP	LOCATION					Yokohama	fb:part.yokohama
+60	9	fb:cell.carlos_ghosn	Carlos Ghosn	carlos|ghosn	Carlos|Ghosn	NNP|NNP	PERSON|PERSON	|					
+61	0	fb:cell.61	61	61	61	CD	NUMBER	61.0	61.0				
+61	1	fb:cell.carrefour	Carrefour	carrefour	Carrefour	NNP	O					Carrefour	fb:part.carrefour
+61	2	fb:cell.retail	Retail	retail	retail	JJ	O						
+61	3	fb:cell._101	$101	$|101	$|101	$|CD	MONEY|MONEY	$101.0|$101.0	101.0				
+61	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+61	5	fb:cell._17	$17	$|17	$|17	$|CD	MONEY|MONEY	$17.0|$17.0	17.0				
+61	6	fb:cell.476_000	476,000	476,000	476,000	CD	NUMBER	476000.0	476000.0				
+61	7	fb:cell.euronext_ca	Euronext: CA	euronext|:|ca	Euronext|:|CA	NNP|:|NNP	O|O|O	||					
+61	8	fb:cell.levallois_perret	Levallois-Perret	levallois|perret	Levallois|Perret	NNP|NNP	PERSON|PERSON	|				Levallois-Perret	fb:part.levallois_perret
+61	9	fb:cell.georges_plassat	Georges Plassat	georges|plassat	Georges|Plassat	NNP|NNP	PERSON|PERSON	|					
+62	0	fb:cell.62	62	62	62	CD	NUMBER	62.0	62.0				
+62	1	fb:cell.rosneft	Rosneft	rosneft	Rosneft	NNP	PERSON					Rosneft	fb:part.rosneft
+62	2	fb:cell.oil_and_gas	Oil and gas	oil|and|gas	oil|and|gas	NN|CC|NN	O|O|O	||					
+62	3	fb:cell._101	$101	$|101	$|101	$|CD	MONEY|MONEY	$101.0|$101.0	101.0				
+62	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+62	5	fb:cell._75	$75	$|75	$|75	$|CD	MONEY|MONEY	$75.0|$75.0	75.0				
+62	6	fb:cell.166_100	166,100	166,100	166,100	CD	NUMBER	166100.0	166100.0				
+62	7	fb:cell.mcx_rosn	MCX: ROSN	mcx|:|rosn	MCX|:|rosn	NNP|:|NN	O|O|O	||					
+62	8	fb:cell.moscow	Moscow	moscow	Moscow	NNP	LOCATION					Moscow	fb:part.moscow
+62	9	fb:cell.igor_sechin	Igor Sechin	igor|sechin	Igor|Sechin	NNP|NNP	PERSON|PERSON	|					
+63	0	fb:cell.63	63	63	63	CD	NUMBER	63.0	63.0				
+63	1	fb:cell.cardinal_health	Cardinal Health	cardinal|health	Cardinal|Health	NNP|NNP	O|O	|				Cardinal Health	fb:part.cardinal_health
+63	2	fb:cell.pharmaceuticals	Pharmaceuticals	pharmaceuticals	pharmaceutical	NNS	O						
+63	3	fb:cell._101	$101	$|101	$|101	$|CD	MONEY|MONEY	$101.0|$101.0	101.0				
+63	4	fb:cell.june_30_2013	June 30, 2013	june|30|,|2013	June|30|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-06-30|2013-06-30|2013-06-30|2013-06-30	302013.0	2013-06-30		June 30|2013	fb:part.june_30|fb:part.2013
+63	5	fb:cell._14	$14	$|14	$|14	$|CD	MONEY|MONEY	$14.0|$14.0	14.0				
+63	6	fb:cell.40_000	40,000	40,000	40,000	CD	NUMBER	40000.0	40000.0				
+63	7	fb:cell.nyse_cah	NYSE: CAH	nyse|:|cah	NYSE|:|cah	NNP|:|NN	O|O|O	||					
+63	8	fb:cell.dublin_ohio	Dublin, Ohio	dublin|,|ohio	Dublin|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Dublin|Ohio	fb:part.dublin|fb:part.ohio
+63	9	fb:cell.george_barrett	George Barrett	george|barrett	George|Barrett	NNP|NNP	PERSON|PERSON	|					
+64	0	fb:cell.64	64	64	64	CD	NUMBER	64.0	64.0				
+64	1	fb:cell.bmw	BMW	bmw	BMW	NNP	O					BMW	fb:part.bmw
+64	2	fb:cell.automotive	Automotive	automotive	Automotive	NNP	O						
+64	3	fb:cell._100	$100	$|100	$|100	$|CD	MONEY|MONEY	$100.0|$100.0	100.0				
+64	4	fb:cell.march_17_2013	March 17, 2013	march|17|,|2013	March|17|,|2013	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2013-03-17|2013-03-17|2013-03-17|2013-03-17	172013.0	2013-03-17		March 17|2013	fb:part.march_17|fb:part.2013
+64	5	fb:cell._58_8	$58.8	$|58.8	$|58.8	$|CD	MONEY|MONEY	$58.8|$58.8	58.8				
+64	6	fb:cell.105_876	105,876	105,876	105,876	CD	NUMBER	105876.0	105876.0				
+64	7	fb:cell.fwb_bmw	FWB: BMW	fwb|:|bmw	FWB|:|BMW	NNP|:|NNP	O|O|O	||					
+64	8	fb:cell.munich	Munich	munich	Munich	NNP	LOCATION					Munich	fb:part.munich
+64	9	fb:cell.norbert_reithofer	Norbert Reithofer	norbert|reithofer	Norbert|Reithofer	NNP|NNP	PERSON|PERSON	|					
+65	0	fb:cell.65	65	65	65	CD	NUMBER	65.0	65.0				
+65	1	fb:cell.nestle	Nestlé	nestlé	Nestlé	NNP	O					Nestlé	fb:part.nestle
+65	2	fb:cell.food_processing	Food processing	food|processing	Food|processing	NNP|NN	O|O	|					
+65	3	fb:cell._100	$100	$|100	$|100	$|CD	MONEY|MONEY	$100.0|$100.0	100.0				
+65	4	fb:cell.december_31_2012	December 31, 2012	december|31|,|2012	December|31|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-12-31|2012-12-31|2012-12-31|2012-12-31	312012.0	2012-12-31		December 31|2012	fb:part.december_31|fb:part.2012
+65	5	fb:cell._207	$207	$|207	$|207	$|CD	MONEY|MONEY	$207.0|$207.0	207.0				
+65	6	fb:cell.339_000	339,000	339,000	339,000	CD	NUMBER	339000.0	339000.0				
+65	7	fb:cell.six_nesn	SIX: NESN	six|:|nesn	six|:|NESN	CD|:|NNP	NUMBER|O|O	6.0||					
+65	8	fb:cell.vevey	Vevey	vevey	Vevey	NNP	LOCATION					Vevey	fb:part.vevey
+65	9	fb:cell.paul_bulcke	Paul Bulcke	paul|bulcke	Paul|Bulcke	NNP|NNP	PERSON|PERSON	|					

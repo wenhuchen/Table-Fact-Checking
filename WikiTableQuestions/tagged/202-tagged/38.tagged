@@ -1,0 +1,65 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.role	Role	role	role	NN	O						
+-1	3	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+0	1	fb:cell.new_york_undercover	New York Undercover	new|york|undercover	New|York|Undercover	NNP|NNP|NNP	O|O|O	||					
+0	2	fb:cell.herself	Herself	herself	herself	JJ	O					Herself	fb:part.herself
+0	3	fb:cell._private_enemy_no_1_episode_14_season_1_tag_you_re_dead_episode_2_season_2_music_performance	"Private Enemy No. 1" (episode 14, season 1), "Tag You're Dead" (episode 2, season 2) [music performance]	``|private|enemy|no.|1|''|-lrb-|episode|14|,|season|1|-rrb-|,|``|tag|you|'re|dead|''|-lrb-|episode|2|,|season|2|-rrb-|-lsb-|music|performance|-rsb-	``|private|enemy|no.|1|''|-lrb-|episode|14|,|season|1|-rrb-|,|``|Tag|you|be|dead|''|-lrb-|episode|2|,|season|2|-rrb-|-lsb-|music|performance|-rsb-	``|JJ|NN|NN|CD|''|-LRB-|NN|CD|,|NN|CD|-RRB-|,|``|NNP|PRP|VBP|JJ|''|-LRB-|NN|CD|,|NN|CD|-RRB-|-LRB-|NN|NN|-RRB-	O|O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O	||||1.0||||14.0|||1.0|||||||||||2.0|||2.0|||||	0.1		14.0	"Private Enemy No. 1" (episode 14|season 1)|"Tag You're Dead" (episode 2|season 2) [music performance]	fb:part._private_enemy_no_1_episode_14|fb:part.season_1|fb:part._tag_you_re_dead_episode_2|fb:part.season_2_music_performance
+1	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+1	1	fb:cell.the_jamie_foxx_show	The Jamie Foxx Show	the|jamie|foxx|show	the|Jamie|Foxx|Show	DT|NNP|NNP|NNP	O|PERSON|PERSON|O	|||					
+1	2	fb:cell.ola_mae	Ola Mae	ola|mae	Ola|Mae	NNP|NNP	O|O	|				Ola Mae	fb:part.ola_mae
+1	3	fb:cell._papa_don_t_preach_episode_14_season_2	"Papa Don't Preach" (episode 14, season 2)	``|papa|do|n't|preach|''|-lrb-|episode|14|,|season|2|-rrb-	``|papa|do|not|preach|''|-lrb-|episode|14|,|season|2|-rrb-	``|NN|VBD-AUX|RB|VB|''|-LRB-|NN|CD|,|NN|CD|-RRB-	O|O|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O	||||||||14.0|||2.0|	14.0		2.0	"Papa Don't Preach" (episode 14|season 2)	fb:part._papa_don_t_preach_episode_14|fb:part.season_2
+2	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+2	1	fb:cell.moesha	Moesha	moesha	Moesha	NNP	PERSON						
+2	2	fb:cell.herself	Herself	herself	herself	JJ	O					Herself	fb:part.herself
+2	3	fb:cell._good_vibrations_episode_1_season_5	"Good Vibrations?" (episode 1, season 5)	``|good|vibrations|?|''|-lrb-|episode|1|,|season|5|-rrb-	``|good|vibration|?|''|-lrb-|episode|1|,|season|5|-rrb-	``|JJ|NNS|.|''|-LRB-|NN|CD|,|NN|CD|-RRB-	O|O|O|O|O|O|O|NUMBER|O|O|NUMBER|O	|||||||1.0|||5.0|	1.0		5.0	"Good Vibrations?" (episode 1|season 5)	fb:part._good_vibrations_episode_1|fb:part.season_5
+3	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+3	1	fb:cell.angel_one_more_road_to_cross	Angel: One More Road to Cross	angel|:|one|more|road|to|cross	Angel|:|one|more|Road|to|Cross	NNP|:|CD|JJR|NNP|TO|NNP	O|O|NUMBER|O|O|O|O	||1.0||||					
+3	2	fb:cell.guardian_angel	Guardian Angel	guardian|angel	Guardian|Angel	NNP|NNP	O|O	|				Guardian Angel	fb:part.guardian_angel
+3	3	fb:cell.direct_to_dvd	Direct to DVD	direct|to|dvd	direct|to|dvd	JJ|TO|NN	O|O|O	||				Direct to DVD	fb:part.direct_to_dvd
+4	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+4	1	fb:cell.prison_song	Prison Song	prison|song	prison|song	NN|NN	O|O	|					
+4	2	fb:cell.mrs_butler	Mrs. Butler	mrs.|butler	Mrs.|Butler	NNP|NNP	O|PERSON	|				Mrs. Butler	fb:part.mrs_butler
+4	3	fb:cell.main_role	Main Role	main|role	Main|role	NNP|NN	O|O	|				Main Role	fb:part.main_role
+5	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+5	1	fb:cell.strong_medicine	Strong Medicine	strong|medicine	strong|medicine	JJ|NN	O|O	|					
+5	2	fb:cell.simone_fellows	Simone Fellows	simone|fellows	Simone|Fellows	NNP|NNPS	PERSON|PERSON	|				Simone Fellows	fb:part.simone_fellows
+5	3	fb:cell._history_episode_4_season_2	"History" (episode 4, season 2)	``|history|''|-lrb-|episode|4|,|season|2|-rrb-	``|history|''|-lrb-|episode|4|,|season|2|-rrb-	``|NN|''|-LRB-|NN|CD|,|NN|CD|-RRB-	O|O|O|O|O|NUMBER|O|O|NUMBER|O	|||||4.0|||2.0|	4.0		2.0	"History" (episode 4|season 2)	fb:part._history_episode_4|fb:part.season_2
+6	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+6	1	fb:cell.ghost_whisperer	Ghost Whisperer	ghost|whisperer	ghost|whisperer	NN|NN	O|O	|					
+6	2	fb:cell.jackie_boyd	Jackie Boyd	jackie|boyd	Jackie|Boyd	NNP|NNP	PERSON|PERSON	|				Jackie Boyd	fb:part.jackie_boyd
+6	3	fb:cell._mean_ghost_episode_15_season_2	"Mean Ghost" (episode 15, season 2)	``|mean|ghost|''|-lrb-|episode|15|,|season|2|-rrb-	``|mean|ghost|''|-lrb-|episode|15|,|season|2|-rrb-	``|NN|NN|''|-LRB-|NN|CD|,|NN|CD|-RRB-	O|O|O|O|O|O|NUMBER|O|O|NUMBER|O	||||||15.0|||2.0|	15.0		2.0	"Mean Ghost" (episode 15|season 2)	fb:part._mean_ghost_episode_15|fb:part.season_2
+7	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+7	1	fb:cell.entourage	Entourage	entourage	entourage	NN	O						
+7	2	fb:cell.herself	Herself	herself	herself	JJ	O					Herself	fb:part.herself
+7	3	fb:cell._gary_s_desk_episode_8_season_4	"Gary's Desk" (episode 8, season 4)	``|gary|'s|desk|''|-lrb-|episode|8|,|season|4|-rrb-	``|Gary|'s|desk|''|-lrb-|episode|8|,|season|4|-rrb-	``|NNP|POS|NN|''|-LRB-|NN|CD|,|NN|CD|-RRB-	O|PERSON|O|O|O|O|O|NUMBER|O|O|NUMBER|O	|||||||8.0|||4.0|	8.0		4.0	"Gary's Desk" (episode 8|season 4)	fb:part._gary_s_desk_episode_8|fb:part.season_4
+8	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+8	1	fb:cell.i_can_do_bad_all_by_myself	I Can Do Bad All By Myself	i|can|do|bad|all|by|myself	I|can|do|bad|all|by|myself	PRP|VBD-AUX|VBD-AUX|JJ|DT|IN|NN	O|O|O|O|O|O|O	||||||					
+8	2	fb:cell.tanya	Tanya	tanya	Tanya	NNP	PERSON					Tanya	fb:part.tanya
+8	3	fb:cell.supporting_role	Supporting Role	supporting|role	support|role	VBG|NN	O|O	|				Supporting Role	fb:part.supporting_role
+9	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+9	1	fb:cell.30_rock	30 Rock	30|rock	30|Rock	CD|NNP	NUMBER|O	30.0|	30.0				
+9	2	fb:cell.herself	Herself	herself	herself	JJ	O					Herself	fb:part.herself
+9	3	fb:cell.guest	Guest	guest	guest	NN	O					Guest	fb:part.guest
+10	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+10	1	fb:cell.american_idol	American Idol	american|idol	american|idol	JJ|NN	MISC|MISC	|					
+10	2	fb:cell.guest_judge_herself	Guest judge/Herself	guest|judge\\/herself	guest|judge\\/herself	NN|NN	O|O	|				Guest judge|Herself	fb:part.guest_judge|fb:part.herself
+10	3	fb:cell.auditions_were_held_in_atlanta_georgia_at_the_georgia_dome_when_blige_guest_judged	Auditions were held in Atlanta, Georgia at the Georgia Dome when Blige guest judged.	auditions|were|held|in|atlanta|,|georgia|at|the|georgia|dome|when|blige|guest|judged|.	audition|be|hold|in|Atlanta|,|Georgia|at|the|Georgia|Dome|when|Blige|guest|judge|.	NNS|VBD-AUX|VBN|IN|NNP|,|NNP|IN|DT|NNP|NNP|WRB|NNP|NN|VBN|.	O|O|O|O|LOCATION|O|LOCATION|O|O|LOCATION|O|O|PERSON|O|O|O	|||||||||||||||				Auditions were held in Atlanta|Georgia at the Georgia Dome when Blige guest judged.	fb:part.auditions_were_held_in_atlanta|fb:part.georgia_at_the_georgia_dome_when_blige_guest_judged
+11	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+11	1	fb:cell.rock_of_ages	Rock of Ages	rock|of|ages	Rock|of|Ages	NNP|IN|NNPS	O|O|O	||					
+11	2	fb:cell.justice_charlier	Justice Charlier	justice|charlier	Justice|Charlier	NNP|NNP	O|PERSON	|				Justice Charlier	fb:part.justice_charlier
+11	3	fb:cell.null											fb:part.null
+12	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+12	1	fb:cell.betty_and_coretta	Betty and Coretta	betty|and|coretta	Betty|and|Coretta	NNP|CC|NNP	PERSON|O|O	||					
+12	2	fb:cell.dr_betty_shabazz	Dr. Betty Shabazz	dr.|betty|shabazz	Dr.|Betty|Shabazz	NNP|NNP|NNP	O|PERSON|PERSON	||				Dr. Betty Shabazz	fb:part.dr_betty_shabazz
+12	3	fb:cell.an_original_lifetime_movie	An original Lifetime movie	an|original|lifetime|movie	a|original|Lifetime|movie	DT|JJ|NNP|NN	O|O|O|O	|||				An original Lifetime movie	fb:part.an_original_lifetime_movie
+13	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+13	1	fb:cell.the_x_factor	The X Factor	the|x|factor	the|x|factor	DT|NN|NN	O|O|O	||					
+13	2	fb:cell.guest_judge_herself	Guest judge/Herself	guest|judge\\/herself	guest|judge\\/herself	NN|NN	O|O	|				Guest judge|Herself	fb:part.guest_judge|fb:part.herself
+13	3	fb:cell.blige_assisted_nicole_scherzinger_at_her_judge_s_house_in_antigua	Blige assisted Nicole Scherzinger at her judge's house in Antigua	blige|assisted|nicole|scherzinger|at|her|judge|'s|house|in|antigua	Blige|assist|Nicole|Scherzinger|at|she|judge|'s|house|in|Antigua	NNP|VBD|NNP|NNP|IN|PRP$|NN|POS|NN|IN|NNP	PERSON|O|PERSON|PERSON|O|O|O|O|O|O|LOCATION	||||||||||				Blige assisted Nicole Scherzinger at her judge's house in Antigua	fb:part.blige_assisted_nicole_scherzinger_at_her_judge_s_house_in_antigua
+14	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+14	1	fb:cell.black_nativity	Black Nativity	black|nativity	black|nativity	JJ|NN	O|O	|					
+14	2	fb:cell.platinum_fro	Platinum Fro	platinum|fro	platinum|fro	NN|NN	O|O	|				Platinum Fro	fb:part.platinum_fro
+14	3	fb:cell.null											fb:part.null

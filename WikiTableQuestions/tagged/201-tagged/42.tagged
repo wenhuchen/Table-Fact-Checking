@@ -1,0 +1,33 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.title	Title	title	title	NN	O						
+-1	2	fb:row.row.role	Role	role	role	NN	O						
+-1	3	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+0	1	fb:cell.hawaii_five_o	Hawaii Five-O	hawaii|five|o	Hawaii|five|o	NNP|CD|NN	LOCATION|NUMBER|O	|5.0|					
+0	2	fb:cell.neal_forrester	Neal Forrester	neal|forrester	Neal|Forrester	NNP|NNP	PERSON|PERSON	|					
+0	3	fb:cell.episode_the_flight_of_the_jewels	Episode: "The Flight of the Jewels"	episode|:|``|the|flight|of|the|jewels|''	episode|:|``|the|flight|of|the|Jewels|''	NN|:|``|DT|NN|IN|DT|NNPS|''	O|O|O|O|O|O|O|O|O	||||||||				Episode: "The Flight of the Jewels"	fb:part.episode_the_flight_of_the_jewels
+1	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+1	1	fb:cell.american_playhouse	American Playhouse	american|playhouse	american|Playhouse	JJ|NNP	MISC|MISC	|					
+1	2	fb:cell.jed_jenkins	Jed Jenkins	jed|jenkins	Jed|Jenkins	NNP|NNP	PERSON|PERSON	|					
+1	3	fb:cell.episode_the_fifth_of_july	Episode: "The Fifth of July"	episode|:|``|the|fifth|of|july|''	episode|:|``|the|Fifth|of|July|''	NN|:|``|DT|NNP|IN|NNP|''	O|O|O|DATE|DATE|DATE|DATE|O	|||XXXX-07-05|XXXX-07-05|XXXX-07-05|XXXX-07-05|				Episode: "The Fifth of July"	fb:part.episode_the_fifth_of_july
+2	0	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+2	1	fb:cell.saturday_night_live	Saturday Night Live	saturday|night|live	Saturday|Night|Live	NNP|NNP|NNP	DATE|TIME|O	XXXX-WXX-6TNI|XXXX-WXX-6TNI|					
+2	2	fb:cell.host	Host	host	host	NN	O						
+2	3	fb:cell.episode_jeff_daniels_color_me_badd	Episode: Jeff Daniels/Color Me Badd	episode|:|jeff|daniels\\/color|me|badd	episode|:|Jeff|Daniels\\/Color|I|badd	NN|:|NNP|NNP|PRP|RB	O|O|PERSON|PERSON|O|O	|||||				Episode: Jeff Daniels|Color Me Badd	fb:part.episode_jeff_daniels|fb:part.color_me_badd
+3	0	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+3	1	fb:cell.frasier	Frasier	frasier	Frasier	NNP	O						
+3	2	fb:cell.doug	Doug	doug	Doug	NNP	PERSON						
+3	3	fb:cell.episode_here_s_looking_at_you	Episode: "Here's Looking at You"	episode|:|``|here|'s|looking|at|you|''	episode|:|``|here|'s|look|at|you|''	NN|:|``|RB|POS|VBG|IN|PRP|''	O|O|O|O|O|O|O|O|O	||||||||				Episode: "Here's Looking at You"	fb:part.episode_here_s_looking_at_you
+4	0	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+4	1	fb:cell.saturday_night_live	Saturday Night Live	saturday|night|live	Saturday|Night|Live	NNP|NNP|NNP	DATE|TIME|O	XXXX-WXX-6TNI|XXXX-WXX-6TNI|					
+4	2	fb:cell.host	Host	host	host	NN	O						
+4	3	fb:cell.episode_jeff_daniels_luscious_jackson	Episode: Jeff Daniels/Luscious Jackson	episode|:|jeff|daniels\\/luscious|jackson	episode|:|Jeff|Daniels\\/Luscious|Jackson	NN|:|NNP|NNP|NNP	O|O|PERSON|PERSON|PERSON	||||				Episode: Jeff Daniels|Luscious Jackson	fb:part.episode_jeff_daniels|fb:part.luscious_jackson
+5	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+5	1	fb:cell.planet_sheen	Planet Sheen	planet|sheen	planet|sheen	NN|NN	O|O	|					
+5	2	fb:cell.glonb	Glonb	glonb	glonb	NN	O						
+5	3	fb:cell.episode_what_s_up_chock	Episode: "What's Up Chock?"	episode|:|``|what|'s|up|chock|?|''	episode|:|``|what|be|up|Chock|?|''	NN|:|``|WP|VBZ|RP|NNP|.|''	O|O|O|O|O|O|O|O|O	||||||||				Episode: "What's Up Chock?"	fb:part.episode_what_s_up_chock
+6	0	fb:cell.2012_present	2012–present	2012|--|present	2012|--|present	CD|:|JJ	DATE|O|DATE	2012||PRESENT_REF	2012.0				
+6	1	fb:cell.the_newsroom	The Newsroom	the|newsroom	the|newsroom	DT|NN	O|O	|					
+6	2	fb:cell.will_mcavoy	Will McAvoy	will|mcavoy	will|McAvoy	VBD-AUX|NNP	PERSON|PERSON	|					
+6	3	fb:cell.19_episodes_primetime_emmy_award_for_outstanding_lead_actor_in_a_drama_series_2013_nominated_golden_globe_award_for_best_actor_television_series_drama_2012_nominated_satellite_award_for_best_actor_television_series_drama_2013_2014_nominated_screen_actors_guild_award_for_outstanding_performance_by_a_male_actor_in_a_drama_series_2013_2014	19 episodes\nPrimetime Emmy Award for Outstanding Lead Actor in a Drama Series (2013)\nNominated—Golden Globe Award for Best Actor – Television Series Drama (2012)\nNominated—Satellite Award for Best Actor – Television Series Drama (2013, 2014)\nNominated—Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series (2013, 2014)	19|episodes|primetime|emmy|award|for|outstanding|lead|actor|in|a|drama|series|-lrb-|2013|-rrb-|nominated|--|golden|globe|award|for|best|actor|--|television|series|drama|-lrb-|2012|-rrb-|nominated|--|satellite|award|for|best|actor|--|television|series|drama|-lrb-|2013|,|2014|-rrb-|nominated|--|screen|actors|guild|award|for|outstanding|performance|by|a|male|actor|in|a|drama|series|-lrb-|2013|,|2014|-rrb-	19|episode|primetime|Emmy|award|for|outstanding|lead|actor|in|a|Drama|Series|-lrb-|2013|-rrb-|nominate|--|golden|Globe|award|for|best|actor|--|Television|Series|Drama|-lrb-|2012|-rrb-|nominate|--|Satellite|award|for|best|actor|--|Television|Series|Drama|-lrb-|2013|,|2014|-rrb-|nominate|--|Screen|Actors|Guild|award|for|outstanding|Performance|by|a|male|actor|in|a|Drama|Series|-lrb-|2013|,|2014|-rrb-	CD|NNS|JJ|NNP|NN|IN|JJ|JJ|NN|IN|DT|NNP|NNP|-LRB-|CD|-RRB-|VBN|:|JJ|NNP|NN|IN|JJS|NN|:|NNP|NNP|NNP|-LRB-|CD|-RRB-|VBN|:|NNP|NN|IN|JJS|NN|:|NNP|NNP|NNP|-LRB-|CD|,|CD|-RRB-|VBN|:|NNP|NNPS|NNP|NN|IN|JJ|NNP|IN|DT|JJ|NN|IN|DT|NNP|NNP|-LRB-|CD|,|CD|-RRB-	NUMBER|O|O|O|O|O|O|O|O|O|O|MISC|MISC|O|DATE|O|O|O|O|O|O|O|O|O|O|O|O|O|O|DATE|O|O|O|O|O|O|O|O|O|O|O|O|O|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|MISC|MISC|O|DATE|DATE|DATE|O	19.0||||||||||||||2013|||||||||||||||2012||||||||||||||2013|2013|2013||||||||||||||||||||2013|2013|2013|	19.0		2013.0	19 episodes|Primetime Emmy Award for Outstanding Lead Actor in a Drama Series (2013)|Nominated—Golden Globe Award for Best Actor – Television Series Drama (2012)|Nominated—Satellite Award for Best Actor – Television Series Drama (2013|2014)|Nominated—Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series (2013|2014)	fb:part.19_episodes|fb:part.primetime_emmy_award_for_outstanding_lead_actor_in_a_drama_series_2013|fb:part.nominated_golden_globe_award_for_best_actor_television_series_drama_2012|fb:part.nominated_satellite_award_for_best_actor_television_series_drama_2013|fb:part.2014|fb:part.nominated_screen_actors_guild_award_for_outstanding_performance_by_a_male_actor_in_a_drama_series_2013|fb:part.2014

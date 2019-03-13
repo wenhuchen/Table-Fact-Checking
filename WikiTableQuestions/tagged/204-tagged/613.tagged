@@ -1,0 +1,37 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.title	Title	title	title	NN	O						
+-1	1	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	2	fb:row.row.peak_chart_positions_us	Peak chart positions\nUS	peak|chart|positions|us	peak|chart|position|US	JJ|NN|NNS|NNP	O|O|O|LOCATION	|||					
+-1	3	fb:row.row.peak_chart_positions_us_r_b	Peak chart positions\nUS\nR&B	peak|chart|positions|us|r&b	peak|chart|position|US|r&b	JJ|NN|NNS|NNP|NN	O|O|O|LOCATION|O	||||					
+-1	4	fb:row.row.peak_chart_positions_us_rap	Peak chart positions\nUS\nRap	peak|chart|positions|us|rap	peak|chart|position|US|rap	JJ|NN|NNS|NNP|NN	O|O|O|LOCATION|O	||||					
+-1	5	fb:row.row.album	Album	album	album	NN	O						
+0	0	fb:cell._believe_me_featuring_dave_patten	"Believe Me"\n(featuring Dave Patten)	``|believe|me|''|-lrb-|featuring|dave|patten|-rrb-	``|believe|I|''|-lrb-|feature|Dave|Patten|-rrb-	``|VB|PRP|''|-LRB-|VBG|NNP|NNP|-RRB-	O|O|O|O|O|O|PERSON|PERSON|O	||||||||				"Believe Me"|(featuring Dave Patten)	fb:part._believe_me|fb:part._featuring_dave_patten
+0	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+0	2	fb:cell.null	—	--	--	:	O						
+0	3	fb:cell.null	—	--	--	:	O						
+0	4	fb:cell.null	—	--	--	:	O						
+0	5	fb:cell.non_album_singles	Non-album singles	non|album|singles	non|album|singles	JJ|NN|NNS	O|O|O	||					
+1	0	fb:cell._ima_boss_remix_featuring_dj_khaled_t_i_rick_ross_lil_wayne_birdman_and_swizz_beatz	"Ima Boss" (Remix)\n(featuring DJ Khaled, T.I., Rick Ross, Lil Wayne, Birdman and Swizz Beatz)	``|ima|boss|''|-lrb-|remix|-rrb-|-lrb-|featuring|dj|khaled|,|t.i.|,|rick|ross|,|lil|wayne|,|birdman|and|swizz|beatz|-rrb-	``|Ima|Boss|''|-lrb-|Remix|-rrb-|-lrb-|feature|DJ|Khaled|,|T.I.|,|Rick|Ross|,|Lil|Wayne|,|Birdman|and|Swizz|Beatz|-rrb-	``|NNP|NNP|''|-LRB-|NNP|-RRB-|-LRB-|VBG|NNP|NNP|,|NNP|,|NNP|NNP|,|NNP|NNP|,|NNP|CC|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O|O|PERSON|PERSON|O|ORGANIZATION|O|PERSON|PERSON|O|PERSON|PERSON|O|PERSON|O|PERSON|PERSON|O	||||||||||||||||||||||||				"Ima Boss" (Remix)|(featuring DJ Khaled|T.I.|Rick Ross|Lil Wayne|Birdman and Swizz Beatz)	fb:part._ima_boss_remix|fb:part._featuring_dj_khaled|fb:part.t_i|fb:part.rick_ross|fb:part.lil_wayne|fb:part.birdman_and_swizz_beatz
+1	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+1	2	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+1	3	fb:cell.null	—	--	--	:	O						
+1	4	fb:cell.null	—	--	--	:	O						
+1	5	fb:cell.non_album_singles	Non-album singles	non|album|singles	non|album|singles	JJ|NN|NNS	O|O|O	||					
+2	0	fb:cell._house_party_featuring_young_chris	"House Party"\n(featuring Young Chris)	``|house|party|''|-lrb-|featuring|young|chris|-rrb-	``|House|Party|''|-lrb-|feature|young|Chris|-rrb-	``|NNP|NNP|''|-LRB-|VBG|JJ|NNP|-RRB-	O|O|O|O|O|O|O|PERSON|O	||||||||				"House Party"|(featuring Young Chris)	fb:part._house_party|fb:part._featuring_young_chris
+2	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+2	2	fb:cell.null	—	--	--	:	O						
+2	3	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+2	4	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+2	5	fb:cell.dreamchasers	Dreamchasers	dreamchasers	dreamchaser	NNS	O						
+3	0	fb:cell._wild_boy_remix_mgk_featuring_steve_o_2_chainz_meek_mill_mystikal_french_montana_and_yo_gotti	"Wild Boy" (Remix)\n(MGK featuring Steve-O, 2 Chainz, Meek Mill, Mystikal, French Montana and Yo Gotti)	``|wild|boy|''|-lrb-|remix|-rrb-|-lrb-|mgk|featuring|steve|o|,|2|chainz|,|meek|mill|,|mystikal|,|french|montana|and|yo|gotti|-rrb-	``|Wild|Boy|''|-lrb-|Remix|-rrb-|-lrb-|mgk|feature|Steve|O|,|2|Chainz|,|Meek|Mill|,|Mystikal|,|French|Montana|and|Yo|Gotti|-rrb-	``|NNP|NNP|''|-LRB-|NNP|-RRB-|-LRB-|NN|VBG|NNP|NNP|,|CD|NNP|,|NNP|NNP|,|NNP|,|NNP|NNP|CC|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O|ORGANIZATION|O|PERSON|PERSON|O|NUMBER|O|O|ORGANIZATION|ORGANIZATION|O|ORGANIZATION|O|LOCATION|LOCATION|O|PERSON|PERSON|O	|||||||||||||2.0|||||||||||||	2.0			"Wild Boy" (Remix)|(MGK featuring Steve-O|2 Chainz|Meek Mill|Mystikal|French Montana and Yo Gotti)	fb:part._wild_boy_remix|fb:part._mgk_featuring_steve_o|fb:part.2_chainz|fb:part.meek_mill|fb:part.mystikal|fb:part.french_montana_and_yo_gotti
+3	1	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+3	2	fb:cell.null	—	--	--	:	O						
+3	3	fb:cell.null	—	--	--	:	O						
+3	4	fb:cell.null	—	--	--	:	O						
+3	5	fb:cell.non_album_singles	Non-album singles	non|album|singles	non|album|singles	JJ|NN|NNS	O|O|O	||					
+4	0	fb:cell._my_nigga_remix_yg_featuring_lil_wayne_rich_homie_quan_meek_mill_and_nicki_minaj	"My Nigga" (Remix)\n(YG featuring Lil Wayne, Rich Homie Quan, Meek Mill and Nicki Minaj)	``|my|nigga|''|-lrb-|remix|-rrb-|-lrb-|yg|featuring|lil|wayne|,|rich|homie|quan|,|meek|mill|and|nicki|minaj|-rrb-	``|my|nigga|''|-lrb-|Remix|-rrb-|-lrb-|yg|feature|Lil|Wayne|,|Rich|Homie|Quan|,|Meek|Mill|and|Nicki|Minaj|-rrb-	``|PRP$|NN|''|-LRB-|NNP|-RRB-|-LRB-|NN|VBG|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|CC|NNP|NNP|-RRB-	O|O|O|O|O|O|O|O|O|O|LOCATION|LOCATION|O|PERSON|PERSON|PERSON|O|O|O|O|PERSON|PERSON|O	||||||||||||||||||||||				"My Nigga" (Remix)|(YG featuring Lil Wayne|Rich Homie Quan|Meek Mill and Nicki Minaj)	fb:part._my_nigga_remix|fb:part._yg_featuring_lil_wayne|fb:part.rich_homie_quan|fb:part.meek_mill_and_nicki_minaj
+4	1	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+4	2	fb:cell.null	—	--	--	:	O						
+4	3	fb:cell.null	—	--	--	:	O						
+4	4	fb:cell.null	—	--	--	:	O						
+4	5	fb:cell.my_krazy_life	My Krazy Life	my|krazy|life	my|Krazy|Life	PRP$|NNP|NNP	O|O|O	||					

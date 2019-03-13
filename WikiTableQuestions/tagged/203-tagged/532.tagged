@@ -1,0 +1,449 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.rebounds	Rebounds	rebounds	rebound	NNS	O						
+-1	1	fb:row.row.off	Off	off	off	IN	O						
+-1	2	fb:row.row.def	Def	def	def	NN	O						
+-1	3	fb:row.row.player	Player	player	Player	NNP	O						
+-1	4	fb:row.row.team	Team	team	Team	NNP	O						
+-1	5	fb:row.row.date	Date	date	date	NN	O						
+-1	6	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	7	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+-1	8	fb:row.row.minutes_played	Minutes played	minutes|played	Minutes|play	NNPS|VBD	DURATION|O	|					
+-1	9	fb:row.row.points	Points	points	point	NNS	O						
+-1	10	fb:row.row.assists	Assists	assists	assist	NNS	O						
+-1	11	fb:row.row.steals	Steals	steals	steal	VBZ	O						
+-1	12	fb:row.row.blocks	Blocks	blocks	block	NNS	O						
+-1	13	fb:row.row.20_20	20-20	20-20	20-20	NN	O						
+-1	14	fb:row.row.led_the_league_in_rebounding	Led the league in rebounding	led|the|league|in|rebounding	lead|the|league|in|rebound	VBN|DT|NN|IN|VBG	O|O|O|O|O	||||					
+-1	15	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+0	1	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+0	2	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+0	3	fb:cell.moses_malone	Moses Malone*	moses|malone|\\*	Moses|Malone|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+0	4	fb:cell.houston_rockets	Houston Rockets	houston|rockets	Houston|Rockets	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+0	5	fb:cell.february_9_1979	February 9, 1979	february|9|,|1979	February|9|,|1979	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1979-02-09|1979-02-09|1979-02-09|1979-02-09	91979.0	1979-02-09		February 9|1979	fb:part.february_9|fb:part.1979
+0	6	fb:cell.new_orleans_jazz	New Orleans Jazz	new|orleans|jazz	New|Orleans|jazz	NNP|NNP|NN	MISC|MISC|MISC	||					
+0	7	fb:cell.106_99	106–99	106|--|99	106|--|99	CD|:|CD	NUMBER|O|NUMBER	106.0||99.0	106.0		99.0		
+0	8	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+0	9	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+0	10	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+0	11	fb:cell.null											fb:part.null
+0	12	fb:cell.null											fb:part.null
+0	13	fb:cell.yes	Yes	yes	yes	UH	O						
+0	14	fb:cell.yes	Yes	yes	yes	UH	O						
+0	15	fb:cell.14_rebounds_in_the_first_quarter	14 rebounds in the first quarter.	14|rebounds|in|the|first|quarter|.	14|rebound|in|the|first|quarter|.	CD|NNS|IN|DT|JJ|NN|.	NUMBER|O|O|DATE|DATE|DATE|O	14.0|||XXXX-Q1|XXXX-Q1|XXXX-Q1|	14.0			14 rebounds in the first quarter.	fb:part.14_rebounds_in_the_first_quarter
+1	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+1	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+1	2	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+1	3	fb:cell.charles_oakley	Charles Oakley	charles|oakley	Charles|Oakley	NNP|NNP	PERSON|PERSON	|					
+1	4	fb:cell.chicago_bulls	Chicago Bulls	chicago|bulls	Chicago|Bulls	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+1	5	fb:cell.april_22_1988	April 22, 1988	april|22|,|1988	April|22|,|1988	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1988-04-22|1988-04-22|1988-04-22|1988-04-22	221988.0	1988-04-22		April 22|1988	fb:part.april_22|fb:part.1988
+1	6	fb:cell.cleveland_cavaliers	Cleveland Cavaliers	cleveland|cavaliers	Cleveland|Cavaliers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+1	7	fb:cell.103_107	103–107	103|--|107	103|--|107	CD|:|CD	NUMBER|O|NUMBER	103.0||107.0	103.0		107.0		
+1	8	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+1	9	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+1	10	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+1	11	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	12	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+1	13	fb:cell.yes	Yes	yes	yes	UH	O						
+1	14	fb:cell.no	No	no	no	DT	O						
+1	15	fb:cell.second_to_last_game_of_season_in_a_season_rebounding_title_battle_which_he_lost_by_a_03_margin_to_michael_cage	Second to last game of season, in a season rebounding title battle, which he lost by a .03 margin to Michael Cage.	second|to|last|game|of|season|,|in|a|season|rebounding|title|battle|,|which|he|lost|by|a|.03|margin|to|michael|cage|.	second|to|last|game|of|season|,|in|a|season|rebound|title|battle|,|which|he|lose|by|a|.03|margin|to|Michael|Cage|.	JJ|TO|JJ|NN|IN|NN|,|IN|DT|NN|VBG|NN|NN|,|WDT|PRP|VBD|IN|DT|CD|NN|TO|NNP|NNP|.	ORDINAL|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|PERSON|PERSON|O	2.0|||||||||||||||||||0.03|||||	0.03			Second to last game of season|in a season rebounding title battle|which he lost by a .03 margin to Michael Cage.	fb:part.second_to_last_game_of_season|fb:part.in_a_season_rebounding_title_battle|fb:part.which_he_lost_by_a_03_margin_to_michael_cage
+2	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+2	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+2	2	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+2	3	fb:cell.kareem_abdul_jabbar	Kareem Abdul-Jabbar*	kareem|abdul|jabbar|\\*	Kareem|Abdul|Jabbar|\\*	NNP|NNP|NNP|SYM	PERSON|PERSON|PERSON|O	|||					
+2	4	fb:cell.los_angeles_lakers	Los Angeles Lakers	los|angeles|lakers	Los|Angeles|Lakers	NNP|NNP|NNPS	O|O|O	||					
+2	5	fb:cell.december_14_1975	December 14, 1975	december|14|,|1975	December|14|,|1975	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1975-12-14|1975-12-14|1975-12-14|1975-12-14	141975.0	1975-12-14		December 14|1975	fb:part.december_14|fb:part.1975
+2	6	fb:cell.detroit_pistons	Detroit Pistons	detroit|pistons	Detroit|Pistons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+2	7	fb:cell.110_100	110–100	110|--|100	110|--|100	CD|:|CD	NUMBER|O|NUMBER	110.0||100.0	110.0		100.0		
+2	8	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+2	9	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+2	10	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+2	11	fb:cell.null											fb:part.null
+2	12	fb:cell.null											fb:part.null
+2	13	fb:cell.yes	Yes	yes	yes	UH	O						
+2	14	fb:cell.yes	Yes	yes	yes	UH	O						
+2	15	fb:cell.nba_single_game_record_for_defensive_rebounds	NBA single-game record for defensive rebounds.	nba|single|game|record|for|defensive|rebounds|.	NBA|single|game|record|for|defensive|rebound|.	NNP|JJ|NN|NN|IN|JJ|NNS|.	ORGANIZATION|O|O|O|O|O|O|O	|||||||				NBA single-game record for defensive rebounds.	fb:part.nba_single_game_record_for_defensive_rebounds
+3	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+3	1	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+3	2	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+3	3	fb:cell.dennis_rodman	Dennis Rodman*	dennis|rodman|\\*	Dennis|Rodman|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+3	4	fb:cell.detroit_pistons	Detroit Pistons	detroit|pistons	Detroit|Pistons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+3	5	fb:cell.march_4_1992	March 4, 1992	march|4|,|1992	March|4|,|1992	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1992-03-04|1992-03-04|1992-03-04|1992-03-04	41992.0	1992-03-04		March 4|1992	fb:part.march_4|fb:part.1992
+3	6	fb:cell.indiana_pacers	Indiana Pacers	indiana|pacers	Indiana|Pacers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+3	7	fb:cell.110_107	110–107	110|--|107	110|--|107	CD|:|CD	NUMBER|O|NUMBER	110.0||107.0	110.0		107.0		
+3	8	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+3	9	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+3	10	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+3	11	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+3	12	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+3	13	fb:cell.no	No	no	no	DT	O						
+3	14	fb:cell.yes	Yes	yes	yes	UH	O						
+3	15	fb:cell.overtime_21_rebounds_in_the_second_half_including_11_offensive_rebounds	Overtime. 21 rebounds in the second half, including 11 offensive rebounds.	overtime|.|21|rebounds|in|the|second|half|,|including|11|offensive|rebounds|.	overtime|.|21|rebound|in|the|second|half|,|include|11|offensive|rebound|.	NN|.|CD|NNS|IN|DT|JJ|NN|,|VBG|CD|JJ|NNS|.	O|O|NUMBER|O|O|O|DATE|DATE|O|O|NUMBER|O|O|O	||21.0||||******02|******02|||11.0|||	0.21		11.0	Overtime. 21 rebounds in the second half|including 11 offensive rebounds.	fb:part.overtime_21_rebounds_in_the_second_half|fb:part.including_11_offensive_rebounds
+4	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+4	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+4	2	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+4	3	fb:cell.rony_seikaly	Rony Seikaly	rony|seikaly	Rony|Seikaly	NNP|NNP	PERSON|PERSON	|					
+4	4	fb:cell.miami_heat	Miami Heat	miami|heat	Miami|Heat	NNP|NNP	O|O	|					
+4	5	fb:cell.march_3_1993	March 3, 1993	march|3|,|1993	March|3|,|1993	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1993-03-03|1993-03-03|1993-03-03|1993-03-03	31993.0	1993-03-03		March 3|1993	fb:part.march_3|fb:part.1993
+4	6	fb:cell.washington_bullets	Washington Bullets	washington|bullets	Washington|Bullets	NNP|NNPS	LOCATION|O	|					
+4	7	fb:cell.125_106	125–106	125|--|106	125|--|106	CD|:|CD	NUMBER|O|NUMBER	125.0||106.0	125.0		106.0		
+4	8	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+4	9	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+4	10	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+4	11	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+4	12	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+4	13	fb:cell.no	No	no	no	DT	O						
+4	14	fb:cell.no	No	no	no	DT	O						
+4	15	fb:cell.seikaly_outrebounded_the_opposing_team_34_30	Seikaly outrebounded the opposing team, 34–30.	seikaly|outrebounded|the|opposing|team|,|34|--|30|.	Seikaly|outrebound|the|oppose|team|,|34|--|30|.	NNP|VBD|DT|VBG|NN|,|CD|:|CD|.	PERSON|O|O|O|O|O|NUMBER|O|NUMBER|O	||||||34.0||30.0|	34.0		30.0	Seikaly outrebounded the opposing team|34–30.	fb:part.seikaly_outrebounded_the_opposing_team|fb:part.34_30
+5	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+5	1	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+5	2	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+5	3	fb:cell.swen_nater	Swen Nater	swen|nater	Swen|Nater	NNP|NNP	PERSON|PERSON	|					
+5	4	fb:cell.milwaukee_bucks	Milwaukee Bucks	milwaukee|bucks	Milwaukee|Bucks	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+5	5	fb:cell.december_19_1976	December 19, 1976	december|19|,|1976	December|19|,|1976	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1976-12-19|1976-12-19|1976-12-19|1976-12-19	191976.0	1976-12-19		December 19|1976	fb:part.december_19|fb:part.1976
+5	6	fb:cell.atlanta_hawks	Atlanta Hawks	atlanta|hawks	Atlanta|Hawks	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+5	7	fb:cell.126_109	126–109	126|--|109	126|--|109	CD|:|CD	NUMBER|O|NUMBER	126.0||109.0	126.0		109.0		
+5	8	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+5	9	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+5	10	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+5	11	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	12	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+5	13	fb:cell.yes	Yes	yes	yes	UH	O						
+5	14	fb:cell.no	No	no	no	DT	O						
+5	15	fb:cell.null											fb:part.null
+6	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+6	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+6	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+6	3	fb:cell.kevin_willis	Kevin Willis	kevin|willis	Kevin|Willis	NNP|NNP	PERSON|PERSON	|					
+6	4	fb:cell.atlanta_hawks	Atlanta Hawks	atlanta|hawks	Atlanta|Hawks	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+6	5	fb:cell.february_19_1992	February 19, 1992	february|19|,|1992	February|19|,|1992	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1992-02-19|1992-02-19|1992-02-19|1992-02-19	191992.0	1992-02-19		February 19|1992	fb:part.february_19|fb:part.1992
+6	6	fb:cell.washington_bullets	Washington Bullets	washington|bullets	Washington|Bullets	NNP|NNPS	LOCATION|O	|					
+6	7	fb:cell.102_103	102–103	102|--|103	102|--|103	CD|:|CD	NUMBER|O|NUMBER	102.0||103.0	102.0		103.0		
+6	8	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+6	9	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+6	10	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+6	11	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+6	12	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+6	13	fb:cell.yes	Yes	yes	yes	UH	O						
+6	14	fb:cell.no	No	no	no	DT	O						
+6	15	fb:cell.overtime_11_offensive_rebounds_in_a_half	Overtime. 11 offensive rebounds in a half.	overtime|.|11|offensive|rebounds|in|a|half|.	overtime|.|11|offensive|rebound|in|a|half|.	NN|.|CD|JJ|NNS|IN|DT|NN|.	O|O|NUMBER|O|O|O|O|O|O	||11.0||||||	0.11			Overtime. 11 offensive rebounds in a half.	fb:part.overtime_11_offensive_rebounds_in_a_half
+7	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+7	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+7	3	fb:cell.charles_barkley	Charles Barkley*	charles|barkley|\\*	Charles|Barkley|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+7	4	fb:cell.houston_rockets	Houston Rockets	houston|rockets	Houston|Rockets	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+7	5	fb:cell.november_2_1996	November 2, 1996	november|2|,|1996	November|2|,|1996	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1996-11-02|1996-11-02|1996-11-02|1996-11-02	21996.0	1996-11-02		November 2|1996	fb:part.november_2|fb:part.1996
+7	6	fb:cell.phoenix_suns	Phoenix Suns	phoenix|suns	Phoenix|Suns	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+7	7	fb:cell.110_95	110–95	110|--|95	110|--|95	CD|:|CD	NUMBER|O|NUMBER	110.0||95.0	110.0		95.0		
+7	8	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+7	9	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+7	10	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+7	11	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+7	12	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+7	13	fb:cell.yes	Yes	yes	yes	UH	O						
+7	14	fb:cell.no	No	no	no	DT	O						
+7	15	fb:cell.barkley_outrebounded_the_opposing_team_33_30_and_played_against_his_previous_team_for_the_first_time	Barkley outrebounded the opposing team 33–30, and played against his previous team for the first time.	barkley|outrebounded|the|opposing|team|33|--|30|,|and|played|against|his|previous|team|for|the|first|time|.	Barkley|outrebound|the|oppose|team|33|--|30|,|and|play|against|he|previous|team|for|the|first|time|.	NNP|VBD|DT|VBG|NN|CD|:|CD|,|CC|VBN|IN|PRP$|JJ|NN|IN|DT|JJ|NN|.	PERSON|O|O|O|O|NUMBER|O|NUMBER|O|O|O|O|O|O|O|O|O|ORDINAL|O|O	|||||33.0||30.0||||||||||1.0||	33.0		30.0	Barkley outrebounded the opposing team 33–30|and played against his previous team for the first time.	fb:part.barkley_outrebounded_the_opposing_team_33_30|fb:part.and_played_against_his_previous_team_for_the_first_time
+8	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+8	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+8	2	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+8	3	fb:cell.elvin_hayes	Elvin Hayes*	elvin|hayes|\\*	Elvin|Hayes|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+8	4	fb:cell.capital_bullets	Capital Bullets	capital|bullets	Capital|Bullets	NNP|NNPS	O|O	|					
+8	5	fb:cell.november_17_1973	November 17, 1973	november|17|,|1973	November|17|,|1973	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1973-11-17|1973-11-17|1973-11-17|1973-11-17	171973.0	1973-11-17		November 17|1973	fb:part.november_17|fb:part.1973
+8	6	fb:cell.atlanta_hawks	Atlanta Hawks	atlanta|hawks	Atlanta|Hawks	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+8	7	fb:cell.115_109	115–109	115|--|109	115|--|109	CD|:|CD	NUMBER|O|NUMBER	115.0||109.0	115.0		109.0		
+8	8	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+8	9	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+8	10	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+8	11	fb:cell.null											fb:part.null
+8	12	fb:cell.null											fb:part.null
+8	13	fb:cell.yes	Yes	yes	yes	UH	O						
+8	14	fb:cell.yes	Yes	yes	yes	UH	O						
+8	15	fb:cell.on_hayes_s_28th_birthday	On Hayes's 28th birthday.	on|hayes|'s|28th|birthday|.	on|Hayes|'s|28th|birthday|.	IN|NNP|POS|JJ|NN|.	O|PERSON|O|ORDINAL|O|O	|||28.0||	28.0			On Hayes's 28th birthday.	fb:part.on_hayes_s_28th_birthday
+9	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+9	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+9	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+9	3	fb:cell.robert_parish	Robert Parish*	robert|parish|\\*	Robert|Parish|\\*	NNP|NNP|SYM	O|O|O	||					
+9	4	fb:cell.golden_state_warriors	Golden State Warriors	golden|state|warriors	Golden|State|warrior	NNP|NNP|NNS	O|O|O	||					
+9	5	fb:cell.march_30_1979	March 30, 1979	march|30|,|1979	March|30|,|1979	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1979-03-30|1979-03-30|1979-03-30|1979-03-30	301979.0	1979-03-30		March 30|1979	fb:part.march_30|fb:part.1979
+9	6	fb:cell.new_york_knicks	New York Knicks	new|york|knicks	New|York|Knicks	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+9	7	fb:cell.114_98	114–98	114|--|98	114|--|98	CD|:|CD	NUMBER|O|NUMBER	114.0||98.0	114.0		98.0		
+9	8	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+9	9	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+9	10	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+9	11	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+9	12	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+9	13	fb:cell.yes	Yes	yes	yes	UH	O						
+9	14	fb:cell.no	No	no	no	DT	O						
+9	15	fb:cell.11_rebounds_in_the_first_quarter_15_rebounds_in_the_first_half_17_rebounds_in_the_second_half	11 rebounds in the first quarter. 15 rebounds in the first half, 17 rebounds in the second half.	11|rebounds|in|the|first|quarter|.|15|rebounds|in|the|first|half|,|17|rebounds|in|the|second|half|.	11|rebound|in|the|first|quarter|.|15|rebound|in|the|first|half|,|17|rebound|in|the|second|half|.	CD|NNS|IN|DT|JJ|NN|.|CD|NNS|IN|DT|JJ|NN|,|CD|NNS|IN|DT|JJ|NN|.	NUMBER|O|O|DATE|DATE|DATE|O|NUMBER|O|O|O|ORDINAL|O|O|NUMBER|O|O|O|ORDINAL|O|O	11.0|||XXXX-Q1|XXXX-Q1|XXXX-Q1||15.0||||1.0|||17.0||||2.0||	11.0		0.15	11 rebounds in the first quarter. 15 rebounds in the first half|17 rebounds in the second half.	fb:part.11_rebounds_in_the_first_quarter_15_rebounds_in_the_first_half|fb:part.17_rebounds_in_the_second_half
+10	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+10	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+10	2	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+10	3	fb:cell.swen_nater_2	Swen Nater (2)	swen|nater|-lrb-|2|-rrb-	Swen|Nater|-lrb-|2|-rrb-	NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|NUMBER|O	|||2.0|	2.0				
+10	4	fb:cell.san_diego_clippers	San Diego Clippers	san|diego|clippers	San|Diego|Clippers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+10	5	fb:cell.december_14_1979	December 14, 1979	december|14|,|1979	December|14|,|1979	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1979-12-14|1979-12-14|1979-12-14|1979-12-14	141979.0	1979-12-14		December 14|1979	fb:part.december_14|fb:part.1979
+10	6	fb:cell.denver_nuggets	Denver Nuggets	denver|nuggets	Denver|Nuggets	NNP|NNPS	O|O	|					
+10	7	fb:cell.112_108	112–108	112|--|108	112|--|108	CD|:|CD	NUMBER|O|NUMBER	112.0||108.0	112.0		108.0		
+10	8	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+10	9	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+10	10	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+10	11	fb:cell.null											fb:part.null
+10	12	fb:cell.null											fb:part.null
+10	13	fb:cell.no	No	no	no	DT	O						
+10	14	fb:cell.yes	Yes	yes	yes	UH	O						
+10	15	fb:cell.21_rebounds_in_the_second_half_18_defensive_rebounds_in_the_second_half_setting_the_nba_record_11_defensive_rebounds_in_the_fourth_quarter	21 rebounds in the second half. 18 defensive rebounds in the second half, setting the NBA record. 11 defensive rebounds in the fourth quarter.	21|rebounds|in|the|second|half|.|18|defensive|rebounds|in|the|second|half|,|setting|the|nba|record|.|11|defensive|rebounds|in|the|fourth|quarter|.	21|rebound|in|the|second|half|.|18|defensive|rebound|in|the|second|half|,|set|the|NBA|record|.|11|defensive|rebound|in|the|fourth|quarter|.	CD|NNS|IN|DT|JJ|NN|.|CD|JJ|NNS|IN|DT|JJ|NN|,|VBG|DT|NNP|NN|.|CD|JJ|NNS|IN|DT|JJ|NN|.	NUMBER|O|O|O|DATE|DATE|O|NUMBER|O|O|O|O|DATE|DATE|O|O|O|ORGANIZATION|O|O|NUMBER|O|O|O|DATE|DATE|DATE|O	21.0||||******02|******02||18.0|||||******02|******02|||||||11.0||||XXXX-Q4|XXXX-Q4|XXXX-Q4|	21.0		0.18	21 rebounds in the second half. 18 defensive rebounds in the second half|setting the NBA record. 11 defensive rebounds in the fourth quarter.	fb:part.21_rebounds_in_the_second_half_18_defensive_rebounds_in_the_second_half|fb:part.setting_the_nba_record_11_defensive_rebounds_in_the_fourth_quarter
+11	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+11	1	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+11	2	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+11	3	fb:cell.moses_malone_2	Moses Malone* (2)	moses|malone|\\*|-lrb-|2|-rrb-	Moses|Malone|\\*|-lrb-|2|-rrb-	NNP|NNP|SYM|-LRB-|LS|-RRB-	PERSON|PERSON|O|O|NUMBER|O	||||2.0|	2.0				
+11	4	fb:cell.houston_rockets	Houston Rockets	houston|rockets	Houston|Rockets	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+11	5	fb:cell.february_11_1982	February 11, 1982	february|11|,|1982	February|11|,|1982	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1982-02-11|1982-02-11|1982-02-11|1982-02-11	111982.0	1982-02-11		February 11|1982	fb:part.february_11|fb:part.1982
+11	6	fb:cell.seattle_supersonics	Seattle SuperSonics	seattle|supersonics	Seattle|SuperSonics	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+11	7	fb:cell.117_100	117–100	117|--|100	117|--|100	CD|:|CD	NUMBER|O|NUMBER	117.0||100.0	117.0		100.0		
+11	8	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+11	9	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+11	10	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+11	11	fb:cell.null											fb:part.null
+11	12	fb:cell.null											fb:part.null
+11	13	fb:cell.yes	Yes	yes	yes	UH	O						
+11	14	fb:cell.yes	Yes	yes	yes	UH	O						
+11	15	fb:cell.nba_single_game_record_for_offensive_rebounds_11_offensive_rebounds_in_one_half_10_in_the_other_half_15_total_rebounds_in_the_first_half_17_rebounds_in_the_second_half_malone_outrebounded_the_opposing_team_32_29	NBA single-game record for offensive rebounds; 11 offensive rebounds in one half, 10 in the other half. 15 total rebounds in the first half, 17 rebounds in the second half. Malone outrebounded the opposing team, 32–29.	nba|single|game|record|for|offensive|rebounds|;|11|offensive|rebounds|in|one|half|,|10|in|the|other|half|.|15|total|rebounds|in|the|first|half|,|17|rebounds|in|the|second|half|.|malone|outrebounded|the|opposing|team|,|32|--|29|.	NBA|single|game|record|for|offensive|rebound|;|11|offensive|rebound|in|one|half|,|10|in|the|other|half|.|15|total|rebound|in|the|first|half|,|17|rebound|in|the|second|half|.|Malone|outrebound|the|oppose|team|,|32|--|29|.	NNP|JJ|NN|NN|IN|JJ|NNS|:|CD|JJ|NNS|IN|CD|NN|,|CD|IN|DT|JJ|NN|.|CD|JJ|NNS|IN|DT|JJ|NN|,|CD|NNS|IN|DT|JJ|NN|.|NNP|VBD|DT|VBG|NN|,|CD|:|CD|.	ORGANIZATION|O|O|O|O|O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|O|ORDINAL|O|O|NUMBER|O|O|O|ORDINAL|O|O|PERSON|O|O|O|O|O|NUMBER|O|NUMBER|O	||||||||11.0||||1.0|||10.0||||||15.0|||||1.0|||17.0||||2.0|||||||||32.0||29.0|	11.0		10.0	NBA single-game record for offensive rebounds; 11 offensive rebounds in one half|10 in the other half. 15 total rebounds in the first half|17 rebounds in the second half. Malone outrebounded the opposing team|32–29.	fb:part.nba_single_game_record_for_offensive_rebounds_11_offensive_rebounds_in_one_half|fb:part.10_in_the_other_half_15_total_rebounds_in_the_first_half|fb:part.17_rebounds_in_the_second_half_malone_outrebounded_the_opposing_team|fb:part.32_29
+12	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+12	1	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+12	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+12	3	fb:cell.dennis_rodman_2	Dennis Rodman* (2)	dennis|rodman|\\*|-lrb-|2|-rrb-	Dennis|Rodman|\\*|-lrb-|2|-rrb-	NNP|NNP|SYM|-LRB-|LS|-RRB-	PERSON|PERSON|O|O|NUMBER|O	||||2.0|	2.0				
+12	4	fb:cell.detroit_pistons	Detroit Pistons	detroit|pistons	Detroit|Pistons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+12	5	fb:cell.january_28_1992	January 28, 1992	january|28|,|1992	January|28|,|1992	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1992-01-28|1992-01-28|1992-01-28|1992-01-28	281992.0	1992-01-28		January 28|1992	fb:part.january_28|fb:part.1992
+12	6	fb:cell.charlotte_hornets	Charlotte Hornets	charlotte|hornets	Charlotte|Hornets	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+12	7	fb:cell.100_95	100–95	100|--|95	100|--|95	CD|:|CD	NUMBER|O|NUMBER	100.0||95.0	100.0		95.0		
+12	8	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+12	9	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+12	10	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+12	11	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+12	12	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+12	13	fb:cell.no	No	no	no	DT	O						
+12	14	fb:cell.yes	Yes	yes	yes	UH	O						
+12	15	fb:cell.overtime	Overtime.	overtime|.	overtime|.	NN|.	O|O	|				Overtime.	fb:part.overtime
+13	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+13	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+13	2	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+13	3	fb:cell.dennis_rodman_3	Dennis Rodman* (3)	dennis|rodman|\\*|-lrb-|3|-rrb-	Dennis|Rodman|\\*|-lrb-|3|-rrb-	NNP|NNP|SYM|-LRB-|LS|-RRB-	PERSON|PERSON|O|O|NUMBER|O	||||3.0|	3.0				
+13	4	fb:cell.san_antonio_spurs	San Antonio Spurs	san|antonio|spurs	San|Antonio|Spurs	NNP|NNP|NNPS	LOCATION|LOCATION|LOCATION	||					
+13	5	fb:cell.january_22_1994	January 22, 1994	january|22|,|1994	January|22|,|1994	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1994-01-22|1994-01-22|1994-01-22|1994-01-22	221994.0	1994-01-22		January 22|1994	fb:part.january_22|fb:part.1994
+13	6	fb:cell.dallas_mavericks	Dallas Mavericks	dallas|mavericks	Dallas|Mavericks	NNP|NNPS	PERSON|PERSON	|					
+13	7	fb:cell.103_83	103–83	103|--|83	103|--|83	CD|:|CD	NUMBER|O|NUMBER	103.0||83.0	103.0		83.0		
+13	8	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+13	9	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+13	10	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+13	11	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+13	12	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+13	13	fb:cell.no	No	no	no	DT	O						
+13	14	fb:cell.yes	Yes	yes	yes	UH	O						
+13	15	fb:cell.13_defensive_rebounds_in_the_first_half	13 defensive rebounds in the first half.	13|defensive|rebounds|in|the|first|half|.	13|defensive|rebound|in|the|first|half|.	CD|JJ|NNS|IN|DT|JJ|NN|.	NUMBER|O|O|O|O|ORDINAL|O|O	13.0|||||1.0||	13.0			13 defensive rebounds in the first half.	fb:part.13_defensive_rebounds_in_the_first_half
+14	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+14	1	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+14	2	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+14	3	fb:cell.larry_smith	Larry Smith	larry|smith	Larry|Smith	NNP|NNP	PERSON|PERSON	|					
+14	4	fb:cell.golden_state_warriors	Golden State Warriors	golden|state|warriors	Golden|State|warrior	NNP|NNP|NNS	O|O|O	||					
+14	5	fb:cell.march_28_1981	March 28, 1981	march|28|,|1981	March|28|,|1981	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1981-03-28|1981-03-28|1981-03-28|1981-03-28	281981.0	1981-03-28		March 28|1981	fb:part.march_28|fb:part.1981
+14	6	fb:cell.denver_nuggets	Denver Nuggets	denver|nuggets	Denver|Nuggets	NNP|NNPS	O|O	|					
+14	7	fb:cell.139_142	139–142	139|--|142	139|--|142	CD|:|CD	NUMBER|O|NUMBER	139.0||142.0	139.0		142.0		
+14	8	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+14	9	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+14	10	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+14	11	fb:cell.null											fb:part.null
+14	12	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+14	13	fb:cell.yes	Yes	yes	yes	UH	O						
+14	14	fb:cell.no	No	no	no	DT	O						
+14	15	fb:cell.rookie_last_warriors_home_game_of_season	Rookie. Last Warriors home game of season.	rookie|.|last|warriors|home|game|of|season|.	rookie|.|last|warrior|home|game|of|season|.	NN|.|JJ|NNS|NN|NN|IN|NN|.	O|O|O|O|O|O|O|O|O	||||||||				Rookie. Last Warriors home game of season.	fb:part.rookie_last_warriors_home_game_of_season
+15	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+15	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+15	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+15	3	fb:cell.kevin_willis_2	Kevin Willis (2)	kevin|willis|-lrb-|2|-rrb-	Kevin|Willis|-lrb-|2|-rrb-	NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|NUMBER|O	|||2.0|	2.0				
+15	4	fb:cell.atlanta_hawks	Atlanta Hawks	atlanta|hawks	Atlanta|Hawks	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+15	5	fb:cell.december_3_1991	December 3, 1991	december|3|,|1991	December|3|,|1991	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1991-12-03|1991-12-03|1991-12-03|1991-12-03	31991.0	1991-12-03		December 3|1991	fb:part.december_3|fb:part.1991
+15	6	fb:cell.dallas_mavericks	Dallas Mavericks	dallas|mavericks	Dallas|Mavericks	NNP|NNPS	PERSON|PERSON	|					
+15	7	fb:cell.103_99	103–99	103|--|99	103|--|99	CD|:|CD	NUMBER|O|NUMBER	103.0||99.0	103.0		99.0		
+15	8	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+15	9	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+15	10	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+15	11	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+15	12	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+15	13	fb:cell.yes	Yes	yes	yes	UH	O						
+15	14	fb:cell.no	No	no	no	DT	O						
+15	15	fb:cell.null											fb:part.null
+16	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+16	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+16	2	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+16	3	fb:cell.dennis_rodman_4	Dennis Rodman* (4)	dennis|rodman|\\*|-lrb-|4|-rrb-	Dennis|Rodman|\\*|-lrb-|4|-rrb-	NNP|NNP|SYM|-LRB-|LS|-RRB-	PERSON|PERSON|O|O|NUMBER|O	||||4.0|	4.0				
+16	4	fb:cell.detroit_pistons	Detroit Pistons	detroit|pistons	Detroit|Pistons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+16	5	fb:cell.march_14_1992	March 14, 1992	march|14|,|1992	March|14|,|1992	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1992-03-14|1992-03-14|1992-03-14|1992-03-14	141992.0	1992-03-14		March 14|1992	fb:part.march_14|fb:part.1992
+16	6	fb:cell.sacramento_kings	Sacramento Kings	sacramento|kings	Sacramento|Kings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+16	7	fb:cell.89_83	89–83	89|--|83	89|--|83	CD|:|CD	NUMBER|O|NUMBER	89.0||83.0	89.0		83.0		
+16	8	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+16	9	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+16	10	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+16	11	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+16	12	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+16	13	fb:cell.no	No	no	no	DT	O						
+16	14	fb:cell.yes	Yes	yes	yes	UH	O						
+16	15	fb:cell.null											fb:part.null
+17	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+17	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+17	2	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+17	3	fb:cell.dikembe_mutombo	Dikembe Mutombo	dikembe|mutombo	Dikembe|Mutombo	NNP|NNP	PERSON|PERSON	|					
+17	4	fb:cell.denver_nuggets	Denver Nuggets	denver|nuggets	Denver|Nuggets	NNP|NNPS	O|O	|					
+17	5	fb:cell.march_26_1996	March 26, 1996	march|26|,|1996	March|26|,|1996	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1996-03-26|1996-03-26|1996-03-26|1996-03-26	261996.0	1996-03-26		March 26|1996	fb:part.march_26|fb:part.1996
+17	6	fb:cell.charlotte_hornets	Charlotte Hornets	charlotte|hornets	Charlotte|Hornets	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+17	7	fb:cell.112_119	112–119	112|--|119	112|--|119	CD|:|CD	NUMBER|O|NUMBER	112.0||119.0	112.0		119.0		
+17	8	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+17	9	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+17	10	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+17	11	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+17	12	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+17	13	fb:cell.no	No	no	no	DT	O						
+17	14	fb:cell.no	No	no	no	DT	O						
+17	15	fb:cell.double_overtime	Double overtime.	double|overtime|.	double|overtime|.	JJ|NN|.	O|O|O	||				Double overtime.	fb:part.double_overtime
+18	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+18	1	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+18	2	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	3	fb:cell.kevin_love	Kevin Love^	kevin|love|^	Kevin|Love|^	NNP|NNP|IN	PERSON|PERSON|O	||					
+18	4	fb:cell.minnesota_timberwolves	Minnesota Timberwolves	minnesota|timberwolves	Minnesota|Timberwolves	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+18	5	fb:cell.november_12_2010	November 12, 2010	november|12|,|2010	November|12|,|2010	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2010-11-12|2010-11-12|2010-11-12|2010-11-12	122010.0	2010-11-12		November 12|2010	fb:part.november_12|fb:part.2010
+18	6	fb:cell.new_york_knicks	New York Knicks	new|york|knicks	New|York|Knicks	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+18	7	fb:cell.112_103	112–103	112|--|103	112|--|103	CD|:|CD	NUMBER|O|NUMBER	112.0||103.0	112.0		103.0		
+18	8	fb:cell.40_39	40:39	40:39	40:39	CD	NUMBER		40.0		39.0		
+18	9	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+18	10	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+18	11	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+18	12	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+18	13	fb:cell.yes	Yes	yes	yes	UH	O						
+18	14	fb:cell.yes	Yes	yes	yes	UH	O						
+18	15	fb:cell.15_rebounds_in_the_third_quarter_and_22_rebounds_in_the_second_half_13_defensive_rebounds_in_the_second_half	15 rebounds in the third quarter, and 22 rebounds in the second half. 13 defensive rebounds in the second half.	15|rebounds|in|the|third|quarter|,|and|22|rebounds|in|the|second|half|.|13|defensive|rebounds|in|the|second|half|.	15|rebound|in|the|third|quarter|,|and|22|rebound|in|the|second|half|.|13|defensive|rebound|in|the|second|half|.	CD|NNS|IN|DT|JJ|NN|,|CC|CD|NNS|IN|DT|JJ|NN|.|CD|JJ|NNS|IN|DT|JJ|NN|.	NUMBER|O|O|DATE|DATE|DATE|O|O|NUMBER|O|O|O|DATE|DATE|O|NUMBER|O|O|O|O|DATE|DATE|O	15.0|||XXXX-Q3|XXXX-Q3|XXXX-Q3|||22.0||||******02|******02||13.0|||||******02|******02|	15.0		22.0	15 rebounds in the third quarter|and 22 rebounds in the second half. 13 defensive rebounds in the second half.	fb:part.15_rebounds_in_the_third_quarter|fb:part.and_22_rebounds_in_the_second_half_13_defensive_rebounds_in_the_second_half
+19	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+19	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+19	2	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+19	3	fb:cell.jim_fox	Jim Fox	jim|fox	Jim|Fox	NNP|NNP	PERSON|PERSON	|					
+19	4	fb:cell.seattle_supersonics	Seattle SuperSonics	seattle|supersonics	Seattle|SuperSonics	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+19	5	fb:cell.december_26_1973	December 26, 1973	december|26|,|1973	December|26|,|1973	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1973-12-26|1973-12-26|1973-12-26|1973-12-26	261973.0	1973-12-26		December 26|1973	fb:part.december_26|fb:part.1973
+19	6	fb:cell.los_angeles_lakers	Los Angeles Lakers	los|angeles|lakers	Los|Angeles|Lakers	NNP|NNP|NNPS	O|O|O	||					
+19	7	fb:cell.129_105	129–105	129|--|105	129|--|105	CD|:|CD	NUMBER|O|NUMBER	129.0||105.0	129.0		105.0		
+19	8	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+19	9	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+19	10	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+19	11	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+19	12	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+19	13	fb:cell.yes	Yes	yes	yes	UH	O						
+19	14	fb:cell.no	No	no	no	DT	O						
+19	15	fb:cell.null											fb:part.null
+20	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+20	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+20	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+20	3	fb:cell.george_t_johnson	George T. Johnson	george|t.|johnson	George|T.|Johnson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+20	4	fb:cell.golden_state_warriors	Golden State Warriors	golden|state|warriors	Golden|State|warrior	NNP|NNP|NNS	O|O|O	||					
+20	5	fb:cell.march_15_1974	March 15, 1974	march|15|,|1974	March|15|,|1974	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1974-03-15|1974-03-15|1974-03-15|1974-03-15	151974.0	1974-03-15		March 15|1974	fb:part.march_15|fb:part.1974
+20	6	fb:cell.los_angeles_lakers	Los Angeles Lakers	los|angeles|lakers	Los|Angeles|Lakers	NNP|NNP|NNPS	O|O|O	||					
+20	7	fb:cell.112_107	112–107	112|--|107	112|--|107	CD|:|CD	NUMBER|O|NUMBER	112.0||107.0	112.0		107.0		
+20	8	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+20	9	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+20	10	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+20	11	fb:cell.null											fb:part.null
+20	12	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+20	13	fb:cell.no	No	no	no	DT	O						
+20	14	fb:cell.no	No	no	no	DT	O						
+20	15	fb:cell.elmore_smith_of_the_lakers_had_11_blocks_in_the_same_game	Elmore Smith of the Lakers had 11 blocks in the same game.	elmore|smith|of|the|lakers|had|11|blocks|in|the|same|game|.	Elmore|Smith|of|the|Lakers|have|11|block|in|the|same|game|.	NNP|NNP|IN|DT|NNPS|VBD-AUX|CD|NNS|IN|DT|JJ|NN|.	PERSON|PERSON|O|O|ORGANIZATION|O|NUMBER|O|O|O|O|O|O	||||||11.0||||||	11.0			Elmore Smith of the Lakers had 11 blocks in the same game.	fb:part.elmore_smith_of_the_lakers_had_11_blocks_in_the_same_game
+21	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+21	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+21	2	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+21	3	fb:cell.wes_unseld	Wes Unseld*	wes|unseld|\\*	Wes|Unseld|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+21	4	fb:cell.washington_bullets	Washington Bullets	washington|bullets	Washington|Bullets	NNP|NNPS	LOCATION|O	|					
+21	5	fb:cell.april_6_1975	April 6, 1975	april|6|,|1975	April|6|,|1975	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1975-04-06|1975-04-06|1975-04-06|1975-04-06	61975.0	1975-04-06		April 6|1975	fb:part.april_6|fb:part.1975
+21	6	fb:cell.new_orleans_jazz	New Orleans Jazz	new|orleans|jazz	New|Orleans|jazz	NNP|NNP|NN	MISC|MISC|MISC	||					
+21	7	fb:cell.119_103	119–103	119|--|103	119|--|103	CD|:|CD	NUMBER|O|NUMBER	119.0||103.0	119.0		103.0		
+21	8	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+21	9	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+21	10	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+21	11	fb:cell.null											fb:part.null
+21	12	fb:cell.null											fb:part.null
+21	13	fb:cell.no	No	no	no	DT	O						
+21	14	fb:cell.yes	Yes	yes	yes	UH	O						
+21	15	fb:cell.last_game_of_season_won_season_rebounding_title_over_dave_cowens_by_a_01_margin_14_rebounds_in_the_first_half_16_rebounds_in_the_second_half	Last game of season; won season rebounding title over Dave Cowens by a .01 margin. 14 rebounds in the first half, 16 rebounds in the second half.	last|game|of|season|;|won|season|rebounding|title|over|dave|cowens|by|a|.01|margin|.|14|rebounds|in|the|first|half|,|16|rebounds|in|the|second|half|.	last|game|of|season|;|win|season|rebound|title|over|Dave|Cowens|by|a|.01|margin|.|14|rebound|in|the|first|half|,|16|rebound|in|the|second|half|.	JJ|NN|IN|NN|:|VBD|NN|VBG|NN|IN|NNP|NNP|IN|DT|CD|NN|.|CD|NNS|IN|DT|JJ|NN|,|CD|NNS|IN|DT|JJ|NN|.	O|O|O|O|O|O|O|O|O|O|PERSON|PERSON|O|O|NUMBER|O|O|NUMBER|O|O|O|ORDINAL|O|O|NUMBER|O|O|O|DATE|DATE|O	||||||||||||||0.01|||14.0||||1.0|||16.0||||******02|******02|	0.01		0.14	Last game of season; won season rebounding title over Dave Cowens by a .01 margin. 14 rebounds in the first half|16 rebounds in the second half.	fb:part.last_game_of_season_won_season_rebounding_title_over_dave_cowens_by_a_01_margin_14_rebounds_in_the_first_half|fb:part.16_rebounds_in_the_second_half
+22	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+22	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+22	2	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	3	fb:cell.kareem_abdul_jabbar_2	Kareem Abdul-Jabbar* (2)	kareem|abdul|jabbar|\\*|-lrb-|2|-rrb-	Kareem|Abdul|Jabbar|\\*|-lrb-|2|-rrb-	NNP|NNP|NNP|SYM|-LRB-|LS|-RRB-	PERSON|PERSON|PERSON|O|O|NUMBER|O	|||||2.0|	2.0				
+22	4	fb:cell.los_angeles_lakers	Los Angeles Lakers	los|angeles|lakers	Los|Angeles|Lakers	NNP|NNP|NNPS	O|O|O	||					
+22	5	fb:cell.february_3_1978	February 3, 1978	february|3|,|1978	February|3|,|1978	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1978-02-03|1978-02-03|1978-02-03|1978-02-03	31978.0	1978-02-03		February 3|1978	fb:part.february_3|fb:part.1978
+22	6	fb:cell.new_jersey_nets	New Jersey Nets	new|jersey|nets	New|Jersey|net	NNP|NNP|NNS	O|O|O	||					
+22	7	fb:cell.105_99	105–99	105|--|99	105|--|99	CD|:|CD	NUMBER|O|NUMBER	105.0||99.0	105.0		99.0		
+22	8	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+22	9	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+22	10	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+22	11	fb:cell.null											fb:part.null
+22	12	fb:cell.null											fb:part.null
+22	13	fb:cell.yes	Yes	yes	yes	UH	O						
+22	14	fb:cell.no	No	no	no	DT	O						
+22	15	fb:cell.overtime	Overtime.	overtime|.	overtime|.	NN|.	O|O	|				Overtime.	fb:part.overtime
+23	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+23	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+23	2	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+23	3	fb:cell.swen_nater_3	Swen Nater (3)	swen|nater|-lrb-|3|-rrb-	Swen|Nater|-lrb-|3|-rrb-	NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|NUMBER|O	|||3.0|	3.0				
+23	4	fb:cell.buffalo_braves	Buffalo Braves	buffalo|braves	Buffalo|Braves	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+23	5	fb:cell.march_4_1978	March 4, 1978	march|4|,|1978	March|4|,|1978	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1978-03-04|1978-03-04|1978-03-04|1978-03-04	41978.0	1978-03-04		March 4|1978	fb:part.march_4|fb:part.1978
+23	6	fb:cell.new_jersey_nets	New Jersey Nets	new|jersey|nets	New|Jersey|net	NNP|NNP|NNS	O|O|O	||					
+23	7	fb:cell.111_107	111–107	111|--|107	111|--|107	CD|:|CD	NUMBER|O|NUMBER	111.0||107.0	111.0		107.0		
+23	8	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+23	9	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+23	10	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+23	11	fb:cell.null											fb:part.null
+23	12	fb:cell.null											fb:part.null
+23	13	fb:cell.yes	Yes	yes	yes	UH	O						
+23	14	fb:cell.no	No	no	no	DT	O						
+23	15	fb:cell.null											fb:part.null
+24	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+24	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+24	2	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+24	3	fb:cell.michael_cage	Michael Cage	michael|cage	Michael|Cage	NNP|NNP	PERSON|PERSON	|					
+24	4	fb:cell.los_angeles_clippers	Los Angeles Clippers	los|angeles|clippers	Los|Angeles|Clippers	NNP|NNP|NNPS	O|O|O	||					
+24	5	fb:cell.april_24_1988	April 24, 1988	april|24|,|1988	April|24|,|1988	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1988-04-24|1988-04-24|1988-04-24|1988-04-24	241988.0	1988-04-24		April 24|1988	fb:part.april_24|fb:part.1988
+24	6	fb:cell.seattle_supersonics	Seattle SuperSonics	seattle|supersonics	Seattle|SuperSonics	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+24	7	fb:cell.100_109	100–109	100|--|109	100|--|109	CD|:|CD	NUMBER|O|NUMBER	100.0||109.0	100.0		109.0		
+24	8	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+24	9	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+24	10	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+24	11	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+24	12	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+24	13	fb:cell.no	No	no	no	DT	O						
+24	14	fb:cell.yes	Yes	yes	yes	UH	O						
+24	15	fb:cell.last_game_of_season_won_season_rebounding_title_over_charles_oakley_by_a_03_margin	Last game of season; won season rebounding title over Charles Oakley by a .03 margin.	last|game|of|season|;|won|season|rebounding|title|over|charles|oakley|by|a|.03|margin|.	last|game|of|season|;|win|season|rebound|title|over|Charles|Oakley|by|a|.03|margin|.	JJ|NN|IN|NN|:|VBD|NN|VBG|NN|IN|NNP|NNP|IN|DT|CD|NN|.	O|O|O|O|O|O|O|O|O|O|PERSON|PERSON|O|O|NUMBER|O|O	||||||||||||||0.03||	0.03			Last game of season; won season rebounding title over Charles Oakley by a .03 margin.	fb:part.last_game_of_season_won_season_rebounding_title_over_charles_oakley_by_a_03_margin
+25	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+25	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+25	2	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+25	3	fb:cell.dennis_rodman_5	Dennis Rodman* (5)	dennis|rodman|\\*|-lrb-|5|-rrb-	Dennis|Rodman|\\*|-lrb-|5|-rrb-	NNP|NNP|SYM|-LRB-|CD|-RRB-	PERSON|PERSON|O|O|NUMBER|O	||||5.0|	5.0				
+25	4	fb:cell.san_antonio_spurs	San Antonio Spurs	san|antonio|spurs	San|Antonio|Spurs	NNP|NNP|NNPS	LOCATION|LOCATION|LOCATION	||					
+25	5	fb:cell.february_21_1995	February 21, 1995	february|21|,|1995	February|21|,|1995	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1995-02-21|1995-02-21|1995-02-21|1995-02-21	211995.0	1995-02-21		February 21|1995	fb:part.february_21|fb:part.1995
+25	6	fb:cell.houston_rockets	Houston Rockets	houston|rockets	Houston|Rockets	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+25	7	fb:cell.98_97	98–97	98|--|97	98|--|97	CD|:|CD	NUMBER|O|NUMBER	98.0||97.0	98.0		97.0		
+25	8	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+25	9	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+25	10	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+25	11	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+25	12	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+25	13	fb:cell.no	No	no	no	DT	O						
+25	14	fb:cell.yes	Yes	yes	yes	UH	O						
+25	15	fb:cell.null											fb:part.null
+26	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+26	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+26	2	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+26	3	fb:cell.andrew_bynum	Andrew Bynum^	andrew|bynum|^	Andrew|Bynum|^	NNP|NNP|IN	PERSON|PERSON|O	||					
+26	4	fb:cell.los_angeles_lakers	Los Angeles Lakers	los|angeles|lakers	Los|Angeles|Lakers	NNP|NNP|NNPS	O|O|O	||					
+26	5	fb:cell.april_11_2012	April 11, 2012	april|11|,|2012	April|11|,|2012	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2012-04-11|2012-04-11|2012-04-11|2012-04-11	112012.0	2012-04-11		April 11|2012	fb:part.april_11|fb:part.2012
+26	6	fb:cell.san_antonio_spurs	San Antonio Spurs	san|antonio|spurs	San|Antonio|Spurs	NNP|NNP|NNPS	LOCATION|LOCATION|LOCATION	||					
+26	7	fb:cell.98_84	98–84	98|--|84	98|--|84	CD|:|CD	NUMBER|O|NUMBER	98.0||84.0	98.0		84.0		
+26	8	fb:cell.36_41	36:41	36:41	36:41	CD	NUMBER		36.0		41.0		
+26	9	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+26	10	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+26	11	fb:cell.0	0	0	0	CD	NUMBER	0.0	0.0				
+26	12	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+26	13	fb:cell.no	No	no	no	DT	O						
+26	14	fb:cell.no	No	no	no	DT	O						
+26	15	fb:cell.19_rebounds_in_the_first_half	19 rebounds in the first half.	19|rebounds|in|the|first|half|.	19|rebound|in|the|first|half|.	CD|NNS|IN|DT|JJ|NN|.	NUMBER|O|O|O|ORDINAL|O|O	19.0||||1.0||	19.0			19 rebounds in the first half.	fb:part.19_rebounds_in_the_first_half

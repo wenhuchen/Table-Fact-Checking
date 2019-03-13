@@ -1,0 +1,645 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.founded	Founded	founded	found	VBN	O						
+-1	2	fb:row.row.defunct	Defunct	defunct	defunct	JJ	O						
+-1	3	fb:row.row.country	Country	country	country	NN	O						
+-1	4	fb:row.row.publisher	Publisher	publisher	publisher	NN	O						
+-1	5	fb:row.row.topics	Topics	topics	topic	NNS	O						
+-1	6	fb:row.row.external_link	External Link	external|link	external|link	JJ|NN	O|O	|					
+0	0	fb:cell.ace	ACE	ace	ace	NN	O					ACE	fb:part.ace
+0	1	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+0	2	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+0	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+0	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+0	5	fb:cell.atari_st_amiga_c64_zx_spectrum_amstrad_cpc_and_newly_released_machines	Atari ST, Amiga, C64, ZX Spectrum, Amstrad CPC, and newly released machines	atari|st|,|amiga|,|c64|,|zx|spectrum|,|amstrad|cpc|,|and|newly|released|machines	Atari|st|,|Amiga|,|c64|,|ZX|Spectrum|,|Amstrad|CPC|,|and|newly|release|machine	NNP|JJ|,|NNP|,|NN|,|NNP|NNP|,|NNP|NNP|,|CC|RB|VBN|NNS	ORGANIZATION|ORGANIZATION|O|PERSON|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|O|O|O|O	||||||||||||||||	64.0			Atari ST|Amiga|C64|ZX Spectrum|Amstrad CPC|and newly released machines	fb:part.atari_st|fb:part.amiga|fb:part.c64|fb:part.zx_spectrum|fb:part.amstrad_cpc|fb:part.and_newly_released_machines
+0	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+1	0	fb:cell.amiga_action	Amiga Action	amiga|action	Amiga|Action	NNP|NNP	O|O	|				Amiga Action	fb:part.amiga_action
+1	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+1	2	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+1	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+1	4	fb:cell.europress	Europress	europress	europress	NN	O					Europress	fb:part.europress
+1	5	fb:cell.amiga_games_magazine_which_merged_with_amiga_computing_in_1996	Amiga games magazine which merged with Amiga Computing in 1996.	amiga|games|magazine|which|merged|with|amiga|computing|in|1996|.	Amiga|game|magazine|which|merge|with|Amiga|Computing|in|1996|.	NNP|NNS|NN|WDT|VBD|IN|NNP|NNP|IN|CD|.	O|O|O|O|O|O|ORGANIZATION|ORGANIZATION|O|DATE|O	|||||||||1996|	1996.0			Amiga games magazine which merged with Amiga Computing in 1996.	fb:part.amiga_games_magazine_which_merged_with_amiga_computing_in_1996
+1	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+2	0	fb:cell.amiga_active	Amiga Active	amiga|active	Amiga|active	NNP|JJ	O|O	|				Amiga Active	fb:part.amiga_active
+2	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+2	2	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+2	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+2	4	fb:cell.pinprint_publishing	Pinprint Publishing	pinprint|publishing	Pinprint|Publishing	NNP|NNP	O|O	|				Pinprint Publishing	fb:part.pinprint_publishing
+2	5	fb:cell.amiga_magazine_with_cu_amiga_staff	Amiga magazine with CU Amiga staff.	amiga|magazine|with|cu|amiga|staff|.	Amiga|magazine|with|CU|Amiga|staff|.	NNP|NN|IN|NNP|NNP|NN|.	O|O|O|PERSON|PERSON|O|O	||||||				Amiga magazine with CU Amiga staff.	fb:part.amiga_magazine_with_cu_amiga_staff
+2	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+3	0	fb:cell.amiga_computing	Amiga Computing	amiga|computing	Amiga|Computing	NNP|NNP	O|O	|				Amiga Computing	fb:part.amiga_computing
+3	1	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+3	2	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+3	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+3	4	fb:cell.europress	Europress	europress	europress	NN	O					Europress	fb:part.europress
+3	5	fb:cell.amiga_hardware_magazine_with_a_games_section_called_gamer_when_amiga_action_was_incorporated_it_became_the_games_section	Amiga hardware magazine with a games section called Gamer. When Amiga Action was incorporated it became the games section.	amiga|hardware|magazine|with|a|games|section|called|gamer|.|when|amiga|action|was|incorporated|it|became|the|games|section|.	Amiga|hardware|magazine|with|a|game|section|call|Gamer|.|when|Amiga|Action|be|incorporate|it|become|the|game|section|.	NNP|NN|NN|IN|DT|NNS|NN|VBN|NNP|.|WRB|NNP|NNP|VBD-AUX|VBN|PRP|VBD|DT|NNS|NN|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||||				Amiga hardware magazine with a games section called Gamer. When Amiga Action was incorporated it became the games section.	fb:part.amiga_hardware_magazine_with_a_games_section_called_gamer_when_amiga_action_was_incorporated_it_became_the_games_section
+3	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+4	0	fb:cell.amiga_force	Amiga Force	amiga|force	Amiga|Force	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Amiga Force	fb:part.amiga_force
+4	1	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+4	2	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+4	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+4	4	fb:cell.europress_impact	Europress Impact	europress|impact	Europress|Impact	NNP|NNP	O|O	|				Europress Impact	fb:part.europress_impact
+4	5	fb:cell.amiga_games_magazine	Amiga games magazine	amiga|games|magazine	Amiga|game|magazine	NNP|NNS|NN	O|O|O	||				Amiga games magazine	fb:part.amiga_games_magazine
+4	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+5	0	fb:cell.amiga_format	Amiga Format	amiga|format	Amiga|Format	NNP|NNP	O|O	|				Amiga Format	fb:part.amiga_format
+5	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+5	2	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+5	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+5	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+5	5	fb:cell.amiga_magazine_with_hardware_focus	Amiga magazine with hardware focus.	amiga|magazine|with|hardware|focus|.	Amiga|magazine|with|hardware|focus|.	NNP|NN|IN|NN|NN|.	O|O|O|O|O|O	|||||				Amiga magazine with hardware focus.	fb:part.amiga_magazine_with_hardware_focus
+5	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+6	0	fb:cell.amiga_power	Amiga Power	amiga|power	Amiga|Power	NNP|NNP	O|O	|				Amiga Power	fb:part.amiga_power
+6	1	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+6	2	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+6	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+6	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+6	5	fb:cell.amiga_games_magazine	Amiga games magazine	amiga|games|magazine	Amiga|game|magazine	NNP|NNS|NN	O|O|O	||				Amiga games magazine	fb:part.amiga_games_magazine
+6	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+7	0	fb:cell.amiga_survivor	Amiga Survivor	amiga|survivor	Amiga|Survivor	NNP|NNP	O|O	|				Amiga Survivor	fb:part.amiga_survivor
+7	1	fb:cell.null	?	?	?	.	O					?	fb:part.null
+7	2	fb:cell.null	?	?	?	.	O					?	fb:part.null
+7	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+7	4	fb:cell.crystal_software	Crystal Software	crystal|software	Crystal|Software	NNP|NNP	O|O	|				Crystal Software	fb:part.crystal_software
+7	5	fb:cell.amiga_magazine_which_started_life_as_a_fanzine_called_the_domain	Amiga magazine which started life as a fanzine called The Domain.	amiga|magazine|which|started|life|as|a|fanzine|called|the|domain|.	Amiga|magazine|which|start|life|as|a|fanzine|call|the|domain|.	NNP|NN|WDT|VBD|NN|IN|DT|NN|VBN|DT|NN|.	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				Amiga magazine which started life as a fanzine called The Domain.	fb:part.amiga_magazine_which_started_life_as_a_fanzine_called_the_domain
+7	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+8	0	fb:cell.amiga_user_international	Amiga User International	amiga|user|international	Amiga|user|International	NNP|NN|NNP	O|O|O	||				Amiga User International	fb:part.amiga_user_international
+8	1	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+8	2	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+8	3	fb:cell.europe	Europe	europe	Europe	NNP	LOCATION					Europe	fb:part.europe
+8	4	fb:cell.aui_limited	AUI Limited	aui|limited	AUI|Limited	NNP|NNP	O|O	|				AUI Limited	fb:part.aui_limited
+8	5	fb:cell.amiga_magazine_later_published_by_aui_limited	Amiga magazine later published by AUI Limited.	amiga|magazine|later|published|by|aui|limited|.	Amiga|magazine|later|publish|by|AUI|Limited|.	NNP|NN|RB|VBN|IN|NNP|NNP|.	O|O|O|O|O|O|O|O	|||||||				Amiga magazine later published by AUI Limited.	fb:part.amiga_magazine_later_published_by_aui_limited
+8	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+9	0	fb:cell.amtix	Amtix!	amtix|!	Amtix|!	NNP|.	O|O	|				Amtix!	fb:part.amtix
+9	1	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+9	2	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+9	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+9	4	fb:cell.newsfield_publications_ltd	Newsfield Publications Ltd.	newsfield|publications|ltd.|.	Newsfield|Publications|Ltd.|.	NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||				Newsfield Publications Ltd.	fb:part.newsfield_publications_ltd
+9	5	fb:cell.amstrad_cpc_games_magazine_merged_with_computing_with_the_amstrad	Amstrad CPC games magazine; merged with Computing With The Amstrad.	amstrad|cpc|games|magazine|;|merged|with|computing|with|the|amstrad|.	Amstrad|CPC|game|magazine|;|merge|with|Computing|with|the|Amstrad|.	NNP|NNP|NNS|NN|:|VBN|IN|NNP|IN|DT|NNP|.	ORGANIZATION|ORGANIZATION|O|O|O|O|O|O|O|O|O|O	|||||||||||				Amstrad CPC games magazine; merged with Computing With The Amstrad.	fb:part.amstrad_cpc_games_magazine_merged_with_computing_with_the_amstrad
+9	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+10	0	fb:cell.atari_age	Atari Age	atari|age	Atari|Age	NNP|NNP	O|O	|				Atari Age	fb:part.atari_age
+10	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+10	2	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+10	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+10	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+10	5	fb:cell.atari_related_topics	Atari related topics	atari|related|topics	Atari|related|topic	NNP|JJ|NNS	ORGANIZATION|O|O	||				Atari related topics	fb:part.atari_related_topics
+10	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+11	0	fb:cell.atari_user	Atari User	atari|user	Atari|user	NNP|NN	O|O	|				Atari User	fb:part.atari_user
+11	1	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+11	2	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+11	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+11	4	fb:cell.database_publications_ltd_later_known_as_europress	Database Publications Ltd.(later known as Europress)	database|publications|ltd.|-lrb-|later|known|as|europress|-rrb-	database|Publications|Ltd.|-lrb-|later|know|as|europress|-rrb-	NN|NNPS|NNP|-LRB-|RB|VBN|IN|NN|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O	||||||||				Database Publications Ltd.(later known as Europress)	fb:part.database_publications_ltd_later_known_as_europress
+11	5	fb:cell.atari_atari_st_when_released_its_spin_off_was_atari_st_user	Atari, Atari ST when released; its spin-off was Atari ST User	atari|,|atari|st|when|released|;|its|spin|off|was|atari|st|user	Atari|,|Atari|st|when|release|;|its|spin|off|be|Atari|st|user	NNP|,|NNP|JJ|WRB|VBN|:|PRP$|NN|RP|VBD-AUX|NNP|JJ|NN	ORGANIZATION|O|ORGANIZATION|O|O|O|O|O|O|O|O|ORGANIZATION|O|O	|||||||||||||				Atari|Atari ST when released; its spin-off was Atari ST User	fb:part.atari|fb:part.atari_st_when_released_its_spin_off_was_atari_st_user
+11	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+12	0	fb:cell.atari_st_user	Atari ST User	atari|st|user	Atari|st|user	NNP|JJ|NN	ORGANIZATION|O|O	||				Atari ST User	fb:part.atari_st_user
+12	1	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+12	2	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+12	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+12	4	fb:cell.database_publications_ltd_later_known_as_europress	Database Publications Ltd.(later known as Europress)	database|publications|ltd.|-lrb-|later|known|as|europress|-rrb-	database|Publications|Ltd.|-lrb-|later|know|as|europress|-rrb-	NN|NNPS|NNP|-LRB-|RB|VBN|IN|NN|-RRB-	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O|O	||||||||				Database Publications Ltd.(later known as Europress)	fb:part.database_publications_ltd_later_known_as_europress
+12	5	fb:cell.atari_st_magazine_with_hardware_focus_merged_with_st_action	Atari ST magazine with hardware focus; merged with ST Action	atari|st|magazine|with|hardware|focus|;|merged|with|st|action	Atari|st|magazine|with|hardware|focus|;|merge|with|st|Action	NNP|JJ|NN|IN|NN|NN|:|VBN|IN|JJ|NNP	ORGANIZATION|O|O|O|O|O|O|O|O|ORGANIZATION|ORGANIZATION	||||||||||				Atari ST magazine with hardware focus; merged with ST Action	fb:part.atari_st_magazine_with_hardware_focus_merged_with_st_action
+12	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+13	0	fb:cell.bazinama	Bazinama	bazinama	bazinama	NN	PERSON					Bazinama	fb:part.bazinama
+13	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+13	2	fb:cell.null_2											fb:part.null_2
+13	3	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION					Iran	fb:part.iran
+13	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+13	5	fb:cell.iranian_video_game_magazine	Iranian video game magazine	iranian|video|game|magazine	iranian|video|game|magazine	JJ|NN|NN|NN	MISC|O|O|O	|||				Iranian video game magazine	fb:part.iranian_video_game_magazine
+13	6	fb:cell.http_www_bazinama_com	http://www.bazinama.com/	http:\\/\\/www.bazinama.com\\/	http:\\/\\/www.bazinama.com\\/	NN	O					http:||www.bazinama.com	fb:part.http|fb:part.null_2|fb:part.www_bazinama_com
+14	0	fb:cell.bazy_rayaneh	Bazy Rayaneh	bazy|rayaneh	Bazy|Rayaneh	NNP|NNP	PERSON|PERSON	|				Bazy Rayaneh	fb:part.bazy_rayaneh
+14	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+14	2	fb:cell.null_2											fb:part.null_2
+14	3	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION					Iran	fb:part.iran
+14	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+14	5	fb:cell.iranian_video_game_magazine	Iranian video game magazine	iranian|video|game|magazine	iranian|video|game|magazine	JJ|NN|NN|NN	MISC|O|O|O	|||				Iranian video game magazine	fb:part.iranian_video_game_magazine
+14	6	fb:cell.http_www_bazyrayaneh_com	http://www.bazyrayaneh.com/	http:\\/\\/www.bazyrayaneh.com\\/	http:\\/\\/www.bazyrayaneh.com\\/	NN	O					http:||www.bazyrayaneh.com	fb:part.http|fb:part.null_2|fb:part.www_bazyrayaneh_com
+15	0	fb:cell.bgamer	BGamer	bgamer	bgamer	NN	O					BGamer	fb:part.bgamer
+15	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+15	2	fb:cell.null_2											fb:part.null_2
+15	3	fb:cell.portugal	Portugal	portugal	Portugal	NNP	LOCATION					Portugal	fb:part.portugal
+15	4	fb:cell.goody_sa	Goody, SA	goody|,|sa	Goody|,|SA	NNP|,|NNP	O|O|O	||				Goody|SA	fb:part.goody|fb:part.sa
+15	5	fb:cell.general_video_gaming_hardware	General video gaming, Hardware	general|video|gaming|,|hardware	General|video|gaming|,|hardware	NNP|NN|NN|,|NN	O|O|O|O|O	||||				General video gaming|Hardware	fb:part.general_video_gaming|fb:part.hardware
+15	6	fb:cell.http_www_bgamer_pt	http://www.bgamer.pt	http:\\/\\/www.bgamer.pt	http:\\/\\/www.bgamer.pt	NN	O					http:||www.bgamer.pt	fb:part.http|fb:part.null_2|fb:part.www_bgamer_pt
+16	0	fb:cell.biogamer_girl_magazine	BioGamer Girl Magazine	biogamer|girl|magazine	BioGamer|Girl|Magazine	NNP|NNP|NNP	O|O|O	||				BioGamer Girl Magazine	fb:part.biogamer_girl_magazine
+16	1	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+16	2	fb:cell.null_2											fb:part.null_2
+16	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+16	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+16	5	fb:cell.horror_gaming_females	Horror, Gaming, Females	horror|,|gaming|,|females	horror|,|gaming|,|female	NN|,|NN|,|NNS	O|O|O|O|O	||||				Horror|Gaming|Females	fb:part.horror|fb:part.gaming|fb:part.females
+16	6	fb:cell.http_www_biogamergirl_com	http://www.biogamergirl.com	http:\\/\\/www.biogamergirl.com	http:\\/\\/www.biogamergirl.com	NNP	O					http:||www.biogamergirl.com	fb:part.http|fb:part.null_2|fb:part.www_biogamergirl_com
+17	0	fb:cell.commodore_force	Commodore Force	commodore|force	Commodore|Force	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Commodore Force	fb:part.commodore_force
+17	1	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+17	2	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+17	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+17	4	fb:cell.europress_impact	Europress Impact	europress|impact	Europress|Impact	NNP|NNP	O|O	|				Europress Impact	fb:part.europress_impact
+17	5	fb:cell.commodore_64_games_originally_named_zzap_64	Commodore 64 games; originally named Zzap!64	commodore|64|games|;|originally|named|zzap|!|64	Commodore|64|game|;|originally|name|zzap|!|64	NNP|CD|NNS|:|RB|VBN|NN|.|CD	O|NUMBER|O|O|O|O|O|O|NUMBER	|64.0|||||||64.0	64.0		64.0	Commodore 64 games; originally named Zzap!64	fb:part.commodore_64_games_originally_named_zzap_64
+17	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+18	0	fb:cell.commodore_user	Commodore User	commodore|user	Commodore|user	NNP|NN	O|O	|				Commodore User	fb:part.commodore_user
+18	1	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+18	2	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+18	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+18	4	fb:cell.emap	EMAP	emap	emap	NN	ORGANIZATION					EMAP	fb:part.emap
+18	5	fb:cell.commodore_vic_20_at_first_renamed_cu_amiga_in_1990_to_concentrate_on_commodore_amiga_machine	Commodore, Vic 20 (at first); renamed CU Amiga in 1990 to concentrate on Commodore Amiga machine.	commodore|,|vic|20|-lrb-|at|first|-rrb-|;|renamed|cu|amiga|in|1990|to|concentrate|on|commodore|amiga|machine|.	Commodore|,|Vic|20|-lrb-|at|first|-rrb-|;|rename|CU|Amiga|in|1990|to|concentrate|on|Commodore|Amiga|machine|.	NNP|,|NNP|CD|-LRB-|IN|JJ|-RRB-|:|VBN|NNP|NNP|IN|CD|TO|VB|IN|NNP|NNP|NN|.	O|O|PERSON|NUMBER|O|O|ORDINAL|O|O|O|ORGANIZATION|ORGANIZATION|O|DATE|O|O|O|O|O|O|O	|||20.0|||1.0|||||||1990|||||||	20.0		1990.0	Commodore|Vic 20 (at first); renamed CU Amiga in 1990 to concentrate on Commodore Amiga machine.	fb:part.commodore|fb:part.vic_20_at_first_renamed_cu_amiga_in_1990_to_concentrate_on_commodore_amiga_machine
+18	6	fb:cell.http_www_cu_amiga_co_uk	http://www.cu-amiga.co.uk/	http:\\/\\/www.cu|amiga.co.uk|\\/	http:\\/\\/www.cu|amiga.co.uk|\\/	NN|NN|:	O|O|O	||				http:||www.cu-amiga.co.uk	fb:part.http|fb:part.null_2|fb:part.www_cu_amiga_co_uk
+19	0	fb:cell.computer_and_video_games	Computer and Video Games	computer|and|video|games	computer|and|Video|Games	NN|CC|NNP|NNPS	O|O|O|O	|||				Computer and Video Games	fb:part.computer_and_video_games
+19	1	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+19	2	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+19	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+19	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+19	5	fb:cell.home_computing_arcade_games_video_games	Home computing, arcade games, video games.	home|computing|,|arcade|games|,|video|games|.	Home|computing|,|arcade|game|,|video|game|.	NNP|NN|,|NN|NNS|,|NN|NNS|.	O|O|O|O|O|O|O|O|O	||||||||				Home computing|arcade games|video games.	fb:part.home_computing|fb:part.arcade_games|fb:part.video_games
+19	6	fb:cell.http_computerandvideogames_com	http://ComputerAndVideoGames.com	http:\\/\\/computerandvideogames.com	http:\\/\\/ComputerAndVideoGames.com	NNP	O					http:||ComputerAndVideoGames.com	fb:part.http|fb:part.null_2|fb:part.computerandvideogames_com
+20	0	fb:cell.computer_gaming_world	Computer Gaming World	computer|gaming|world	computer|gaming|world	NN|NN|NN	O|O|O	||				Computer Gaming World	fb:part.computer_gaming_world
+20	1	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+20	2	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+20	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+20	4	fb:cell.ziff_davis	Ziff Davis	ziff|davis	Ziff|Davis	NNP|NNP	PERSON|PERSON	|				Ziff Davis	fb:part.ziff_davis
+20	5	fb:cell.pc_game_topics_occasional_console_game_topics	PC game topics, occasional console game topics	pc|game|topics|,|occasional|console|game|topics	pc|game|topic|,|occasional|console|game|topic	NN|NN|NNS|,|JJ|NN|NN|NNS	O|O|O|O|O|O|O|O	|||||||				PC game topics|occasional console game topics	fb:part.pc_game_topics|fb:part.occasional_console_game_topics
+20	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+21	0	fb:cell.computing_with_the_amstrad	Computing With The Amstrad	computing|with|the|amstrad	Computing|with|the|Amstrad	NNP|IN|DT|NNP	O|O|O|O	|||				Computing With The Amstrad	fb:part.computing_with_the_amstrad
+21	1	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+21	2	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+21	3	fb:cell.united_kingdom_australia	United Kingdom, Australia	united|kingdom|,|australia	United|Kingdom|,|Australia	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				United Kingdom|Australia	fb:part.united_kingdom|fb:part.australia
+21	4	fb:cell.database_publications	Database Publications	database|publications	database|Publications	NN|NNPS	O|O	|				Database Publications	fb:part.database_publications
+21	5	fb:cell.computing_with_the_amstrad_or_cwta_was_renamed_cpc_computing_then_merged_into_amstrad_computer_user_an_australian_version_ran_from_1986_87_it_also_incorporated_amtix	Computing With The Amstrad or CWTA was renamed CPC Computing then merged into Amstrad Computer User. An Australian version ran from 1986-87. It also incorporated Amtix!	computing|with|the|amstrad|or|cwta|was|renamed|cpc|computing|then|merged|into|amstrad|computer|user|.|an|australian|version|ran|from|1986-87|.|it|also|incorporated|amtix|!	Computing|with|the|Amstrad|or|CWTA|be|rename|CPC|Computing|then|merge|into|Amstrad|Computer|user|.|a|australian|version|run|from|1986-87|.|it|also|incorporate|Amtix|!	NNP|IN|DT|NNP|CC|NNP|VBD-AUX|VBN|NNP|NNP|RB|VBD|IN|NNP|NNP|NN|.|DT|JJ|NN|VBD|IN|CD|.|PRP|RB|VBD|NNP|.	O|O|O|O|O|ORGANIZATION|O|O|ORGANIZATION|ORGANIZATION|O|O|O|ORGANIZATION|O|O|O|O|MISC|O|O|O|NUMBER|O|O|O|O|O|O	||||||||||||||||||||||1986.0 - 87.0||||||				Computing With The Amstrad or CWTA was renamed CPC Computing then merged into Amstrad Computer User. An Australian version ran from 1986-87. It also incorporated Amtix!	fb:part.computing_with_the_amstrad_or_cwta_was_renamed_cpc_computing_then_merged_into_amstrad_computer_user_an_australian_version_ran_from_1986_87_it_also_incorporated_amtix
+21	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+22	0	fb:cell.crash	CRASH	crash	crash	NN	O					CRASH	fb:part.crash
+22	1	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+22	2	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+22	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+22	4	fb:cell.newsfield_europress	Newsfield & Europress	newsfield|&|europress	Newsfield|&|Europress	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Newsfield & Europress	fb:part.newsfield_europress
+22	5	fb:cell.sinclair_spectrum	Sinclair Spectrum	sinclair|spectrum	Sinclair|Spectrum	NNP|NNP	O|O	|				Sinclair Spectrum	fb:part.sinclair_spectrum
+22	6	fb:cell.http_www_crashonline_org_uk	http://www.crashonline.org.uk/	http:\\/\\/www.crashonline.org.uk\\/	http:\\/\\/www.crashonline.org.uk\\/	NN	O					http:||www.crashonline.org.uk	fb:part.http|fb:part.null_2|fb:part.www_crashonline_org_uk
+23	0	fb:cell.donya_ye_bazi	Donya ye Bazi	donya|ye|bazi	Donya|ye|Bazi	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Donya ye Bazi	fb:part.donya_ye_bazi
+23	1	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+23	2	fb:cell.null_2											fb:part.null_2
+23	3	fb:cell.iran	Iran	iran	Iran	NNP	LOCATION					Iran	fb:part.iran
+23	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+23	5	fb:cell.first_official_iranian_game_magazine	First Official Iranian Game Magazine	first|official|iranian|game|magazine	First|Official|Iranian|Game|Magazine	NNP|NNP|NNP|NNP|NNP	ORDINAL|O|O|O|O	1.0||||				First Official Iranian Game Magazine	fb:part.first_official_iranian_game_magazine
+23	6	fb:cell.http_www_dbazinews_com	http://www.dbazinews.com/	http:\\/\\/www.dbazinews.com\\/	http:\\/\\/www.dbazinews.com\\/	NN	O					http:||www.dbazinews.com	fb:part.http|fb:part.null_2|fb:part.www_dbazinews_com
+24	0	fb:cell.dragon_user	Dragon User	dragon|user	Dragon|user	NNP|NN	O|O	|				Dragon User	fb:part.dragon_user
+24	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+24	2	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+24	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+24	4	fb:cell.sunshine_publications	Sunshine Publications	sunshine|publications	Sunshine|Publications	NNP|NNPS	O|O	|				Sunshine Publications	fb:part.sunshine_publications
+24	5	fb:cell.dragon_32_64_computers	Dragon 32/64 computers	dragon|32\\/64|computers	Dragon|32\\/64|computer	NNP|CD|NNS	O|NUMBER|O	||	32.0		64.0	Dragon 32|64 computers	fb:part.dragon_32|fb:part.64_computers
+24	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+25	0	fb:cell.edge	EDGE	edge	edge	NN	O					EDGE	fb:part.edge
+25	1	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+25	2	fb:cell.null_2											fb:part.null_2
+25	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+25	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+25	5	fb:cell.console_pc_arcade_mobile_games	Console, Pc, Arcade, Mobile games	console|,|pc|,|arcade|,|mobile|games	Console|,|Pc|,|Arcade|,|Mobile|game	NNP|,|NNP|,|NNP|,|NNP|NNS	O|O|O|O|O|O|O|O	|||||||				Console|Pc|Arcade|Mobile games	fb:part.console|fb:part.pc|fb:part.arcade|fb:part.mobile_games
+25	6	fb:cell.http_www_edge_online_com	http://www.edge-online.com/	http:\\/\\/www.edge|online.com|\\/	http:\\/\\/www.edge|online.com|\\/	NN|NNP|:	O|O|O	||				http:||www.edge-online.com	fb:part.http|fb:part.null_2|fb:part.www_edge_online_com
+26	0	fb:cell.egaming_review	eGaming Review	egaming|review	egame|review	VBG|NN	O|O	|				eGaming Review	fb:part.egaming_review
+26	1	fb:cell.null	?	?	?	.	O					?	fb:part.null
+26	2	fb:cell.null_2											fb:part.null_2
+26	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+26	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+26	5	fb:cell.uk_based_focuses_on_online_gambling_business_and_regulation	UK-based; focuses on online gambling business and regulation	uk|based|;|focuses|on|online|gambling|business|and|regulation	UK|base|;|focus|on|online|gambling|business|and|regulation	NNP|VBN|:|VBZ|IN|NN|NN|NN|CC|NN	LOCATION|O|O|O|O|O|O|O|O|O	|||||||||				UK-based; focuses on online gambling business and regulation	fb:part.uk_based_focuses_on_online_gambling_business_and_regulation
+26	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+27	0	fb:cell.electronic_games	Electronic Games	electronic|games	electronic|Games	JJ|NNPS	MISC|MISC	|				Electronic Games	fb:part.electronic_games
+27	1	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+27	2	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+27	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+27	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+27	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+27	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+28	0	fb:cell.electronic_gaming_monthly	Electronic Gaming Monthly	electronic|gaming|monthly	electronic|gaming|monthly	JJ|NN|JJ	O|O|SET	||				Electronic Gaming Monthly	fb:part.electronic_gaming_monthly
+28	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+28	2	fb:cell.null_2											fb:part.null_2
+28	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+28	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+28	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+28	6	fb:cell.http_www_egmnow_com	http://www.egmnow.com/	http:\\/\\/www.egmnow.com\\/	http:\\/\\/www.egmnow.com\\/	NN	O					http:||www.egmnow.com	fb:part.http|fb:part.null_2|fb:part.www_egmnow_com
+29	0	fb:cell.egm	EGM²	egm|²	egm|²	NN|SYM	O|O	|				EGM²	fb:part.egm
+29	1	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+29	2	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+29	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+29	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+29	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+30	0	fb:cell.electronic_fun_with_computers_games	Electronic Fun with Computers & Games	electronic|fun|with|computers|&|games	electronic|fun|with|Computers|&|Games	JJ|NN|IN|NNP|CC|NNPS	O|O|O|O|O|O	|||||				Electronic Fun with Computers & Games	fb:part.electronic_fun_with_computers_games
+30	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+30	2	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+30	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+30	4	fb:cell.fun_games_publishing_inc	Fun & Games Publishing Inc.	fun|&|games|publishing|inc.|.	fun|&|Games|Publishing|Inc.|.	NN|CC|NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Fun & Games Publishing Inc.	fb:part.fun_games_publishing_inc
+30	5	fb:cell.video_computer_and_arcade_games	video, computer and arcade games	video|,|computer|and|arcade|games	video|,|computer|and|arcade|game	NN|,|NN|CC|NN|NNS	O|O|O|O|O|O	|||||				video|computer and arcade games	fb:part.video|fb:part.computer_and_arcade_games
+30	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+31	0	fb:cell.expert_gamer	Expert Gamer	expert|gamer	expert|gamer	NN|NN	O|O	|				Expert Gamer	fb:part.expert_gamer
+31	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+31	2	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+31	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+31	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+31	5	fb:cell.the_bulk_of_xg_s_content_was_video_game_strategy_guides_and_cheat_codes_there_were_no_reviews_and_only_occasional_light_hearted_features	The bulk of XG's content was video game strategy guides and cheat codes. There were no reviews and only occasional light-hearted features.	the|bulk|of|xg|'s|content|was|video|game|strategy|guides|and|cheat|codes|.|there|were|no|reviews|and|only|occasional|light|hearted|features|.	the|bulk|of|XG|'s|content|be|video|game|strategy|guide|and|cheat|code|.|there|be|no|review|and|only|occasional|light|hearted|feature|.	DT|NN|IN|NNP|POS|NN|VBD-AUX|JJ|NN|NN|NNS|CC|VB|NNS|.|EX|VBD-AUX|DT|NNS|CC|RB|JJ|JJ|JJ|NNS|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||||||||||||				The bulk of XG's content was video game strategy guides and cheat codes. There were no reviews and only occasional light-hearted features.	fb:part.the_bulk_of_xg_s_content_was_video_game_strategy_guides_and_cheat_codes_there_were_no_reviews_and_only_occasional_light_hearted_features
+31	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	0	fb:cell.fun_online_games_magazine	FUN! Online Games Magazine	fun|!|online|games|magazine	fun|!|Online|Games|Magazine	NN|.|NNP|NNP|NNP	O|O|O|O|O	||||				FUN! Online Games Magazine	fb:part.fun_online_games_magazine
+32	1	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+32	2	fb:cell.null_2											fb:part.null_2
+32	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+32	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+32	5	fb:cell.children_s_online_games	Children's online games	children|'s|online|games	Children|'s|online|game	NNP|POS|JJ|NNS	O|O|O|O	|||				Children's online games	fb:part.children_s_online_games
+32	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+33	0	fb:cell.gamemunition	Gamemunition	gamemunition	gamemunition	NN	O					Gamemunition	fb:part.gamemunition
+33	1	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+33	2	fb:cell.null_2											fb:part.null_2
+33	3	fb:cell.pakistan	Pakistan	pakistan	Pakistan	NNP	LOCATION					Pakistan	fb:part.pakistan
+33	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+33	5	fb:cell.we_speak_games	We Speak Games	we|speak|games	we|speak|Games	PRP|VBP|NNPS	O|O|O	||				We Speak Games	fb:part.we_speak_games
+33	6	fb:cell.http_www_gamemunition_com	http://www.gamemunition.com/	http:\\/\\/www.gamemunition.com\\/	http:\\/\\/www.gamemunition.com\\/	NN	O					http:||www.gamemunition.com	fb:part.http|fb:part.null_2|fb:part.www_gamemunition_com
+34	0	fb:cell.gamepro	GamePro	gamepro	GamePro	NNP	O					GamePro	fb:part.gamepro
+34	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+34	2	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+34	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+34	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+34	5	fb:cell.general_video_gaming	General video gaming	general|video|gaming	General|video|gaming	NNP|NN|NN	O|O|O	||				General video gaming	fb:part.general_video_gaming
+34	6	fb:cell.http_www_gamepro_com	http://www.gamepro.com	http:\\/\\/www.gamepro.com	http:\\/\\/www.gamepro.com	NNP	O					http:||www.gamepro.com	fb:part.http|fb:part.null_2|fb:part.www_gamepro_com
+35	0	fb:cell.giochi_per_il_mio_computer	Giochi per il mio computer	giochi|per|il|mio|computer	Giochi|per|il|mio|computer	NNP|IN|NN|NN|NN	PERSON|O|O|O|O	||||				Giochi per il mio computer	fb:part.giochi_per_il_mio_computer
+35	1	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+35	2	fb:cell.null_2											fb:part.null_2
+35	3	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+35	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+35	5	fb:cell.italian_video_game_magazine	Italian video game magazine	italian|video|game|magazine	italian|video|game|magazine	JJ|NN|NN|NN	MISC|O|O|O	|||				Italian video game magazine	fb:part.italian_video_game_magazine
+35	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	0	fb:cell.game_developer_magazine	Game Developer (magazine)	game|developer|-lrb-|magazine|-rrb-	Game|Developer|-lrb-|magazine|-rrb-	NNP|NNP|-LRB-|NN|-RRB-	O|O|O|O|O	||||				Game Developer (magazine)	fb:part.game_developer_magazine
+36	1	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+36	2	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+36	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+36	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+36	5	fb:cell.the_premier_magazine_for_working_and_aspiring_video_game_creators	The premier magazine for working (and aspiring) video game creators	the|premier|magazine|for|working|-lrb-|and|aspiring|-rrb-|video|game|creators	the|premier|magazine|for|work|-lrb-|and|aspire|-rrb-|video|game|creator	DT|JJ|NN|IN|VBG|-LRB-|CC|VBG|-RRB-|NN|NN|NNS	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				The premier magazine for working (and aspiring) video game creators	fb:part.the_premier_magazine_for_working_and_aspiring_video_game_creators
+36	6	fb:cell.http_www_gdmag_com	http://www.gdmag.com	http:\\/\\/www.gdmag.com	http:\\/\\/www.gdmag.com	NNP	O					http:||www.gdmag.com	fb:part.http|fb:part.null_2|fb:part.www_gdmag_com
+37	0	fb:cell.games_for_windows_the_official_magazine	Games for Windows: The Official Magazine	games|for|windows|:|the|official|magazine	Games|for|Windows|:|the|Official|Magazine	NNPS|IN|NNP|:|DT|NNP|NNP	O|O|O|O|O|O|O	||||||				Games for Windows: The Official Magazine	fb:part.games_for_windows_the_official_magazine
+37	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+37	2	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+37	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+37	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+37	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+38	0	fb:cell.game_informer	Game Informer	game|informer	Game|Informer	NNP|NNP	O|O	|				Game Informer	fb:part.game_informer
+38	1	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+38	2	fb:cell.null_2											fb:part.null_2
+38	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+38	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+38	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+38	6	fb:cell.http_gameinformer_com	http://gameinformer.com	http:\\/\\/gameinformer.com	http:\\/\\/gameinformer.com	NNP	O					http:||gameinformer.com	fb:part.http|fb:part.null_2|fb:part.gameinformer_com
+39	0	fb:cell.gamestar	GameStar	gamestar	gamestar	NN	O					GameStar	fb:part.gamestar
+39	1	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+39	2	fb:cell.null_2											fb:part.null_2
+39	3	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION					Germany	fb:part.germany
+39	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+39	5	fb:cell.pc_games	PC games	pc|games	pc|game	NN|NNS	O|O	|				PC games	fb:part.pc_games
+39	6	fb:cell.http_www_gamestar_de	http://www.gamestar.de/	http:\\/\\/www.gamestar.de\\/	http:\\/\\/www.gamestar.de\\/	NN	O					http:||www.gamestar.de	fb:part.http|fb:part.null_2|fb:part.www_gamestar_de
+40	0	fb:cell.gamenow	GameNOW	gamenow	gamenow	NN	O					GameNOW	fb:part.gamenow
+40	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+40	2	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+40	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+40	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+40	6	fb:cell.null_2											fb:part.null_2
+41	0	fb:cell.gamestm	gamesTM	gamestm	gamestm	NN	O					gamesTM	fb:part.gamestm
+41	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+41	2	fb:cell.null_2											fb:part.null_2
+41	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+41	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+41	5	fb:cell.uk_based_computer_and_video_games_magazine	UK-based computer and video games magazine	uk|based|computer|and|video|games|magazine	UK|base|computer|and|video|game|magazine	NNP|VBN|NN|CC|NN|NNS|NN	LOCATION|O|O|O|O|O|O	||||||				UK-based computer and video games magazine	fb:part.uk_based_computer_and_video_games_magazine
+41	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	0	fb:cell.hoog_spel	Hoog Spel	hoog|spel	Hoog|Spel	NNP|NNP	PERSON|PERSON	|				Hoog Spel	fb:part.hoog_spel
+42	1	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+42	2	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+42	3	fb:cell.the_netherlands	The Netherlands	the|netherlands	the|Netherlands	DT|NNP	O|LOCATION	|				The Netherlands	fb:part.the_netherlands
+42	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+42	5	fb:cell.dutch_gaming_magazine	Dutch gaming magazine	dutch|gaming|magazine	dutch|gaming|magazine	JJ|NN|NN	MISC|O|O	||				Dutch gaming magazine	fb:part.dutch_gaming_magazine
+42	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	0	fb:cell.level	LeveL	level	level	NN	O					LeveL	fb:part.level
+43	1	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+43	2	fb:cell.null_2											fb:part.null_2
+43	3	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION					Turkey	fb:part.turkey
+43	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+43	5	fb:cell.pc_ps3_xbox360_wii_psp_nintendo_ds	PC, PS3, XBOX360, Wii, PSP, Nintendo DS	pc|,|ps3|,|xbox360|,|wii|,|psp|,|nintendo|ds	pc|,|PS3|,|xbox360|,|Wii|,|PSP|,|Nintendo|d	NN|,|NNP|,|NN|,|NNP|,|NNP|,|NNP|NN	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||	3.0		360.0	PC|PS3|XBOX360|Wii|PSP|Nintendo DS	fb:part.pc|fb:part.ps3|fb:part.xbox360|fb:part.wii|fb:part.psp|fb:part.nintendo_ds
+43	6	fb:cell.http_www_level_com_tr	http://www.level.com.tr/	http:\\/\\/www.level.com.tr\\/	http:\\/\\/www.level.com.tr\\/	NN	O					http:||www.level.com.tr	fb:part.http|fb:part.null_2|fb:part.www_level_com_tr
+44	0	fb:cell.meeveo	meeveo	meeveo	meeveo	NN	O					meeveo	fb:part.meeveo
+44	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+44	2	fb:cell.null_2											fb:part.null_2
+44	3	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION					Germany	fb:part.germany
+44	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+44	5	fb:cell.news_and_information_about_games_and_hardware	News and information about Games and Hardware	news|and|information|about|games|and|hardware	News|and|information|about|Games|and|Hardware	NNP|CC|NN|IN|NNPS|CC|NNP	O|O|O|O|O|O|O	||||||				News and information about Games and Hardware	fb:part.news_and_information_about_games_and_hardware
+44	6	fb:cell.http_www_meeveo_eu	http://www.meeveo.eu	http:\\/\\/www.meeveo.eu	http:\\/\\/www.meeveo.eu	NN	O					http:||www.meeveo.eu	fb:part.http|fb:part.null_2|fb:part.www_meeveo_eu
+45	0	fb:cell.micro_adventurer	Micro Adventurer	micro|adventurer	Micro|Adventurer	NNP|NNP	O|O	|				Micro Adventurer	fb:part.micro_adventurer
+45	1	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+45	2	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+45	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+45	4	fb:cell.sunshine_publications	Sunshine Publications	sunshine|publications	Sunshine|Publications	NNP|NNPS	O|O	|				Sunshine Publications	fb:part.sunshine_publications
+45	5	fb:cell.adventure_games_focused_magazine_for_all_formats_including_spectrum_vic_20_bbc_dragon_apple_c64	Adventure games focused magazine for all formats, including Spectrum, Vic 20, BBC, Dragon, Apple, C64	adventure|games|focused|magazine|for|all|formats|,|including|spectrum|,|vic|20|,|bbc|,|dragon|,|apple|,|c64	adventure|game|focus|magazine|for|all|format|,|include|spectrum|,|Vic|20|,|BBC|,|Dragon|,|Apple|,|c64	NN|NNS|VBD|NN|IN|DT|NNS|,|VBG|NN|,|NNP|CD|,|NNP|,|NNP|,|NNP|,|NN	O|O|O|O|O|O|O|O|O|O|O|PERSON|NUMBER|O|ORGANIZATION|O|O|O|ORGANIZATION|O|O	||||||||||||20.0||||||||	20.0		64.0	Adventure games focused magazine for all formats|including Spectrum|Vic 20|BBC|Dragon|Apple|C64	fb:part.adventure_games_focused_magazine_for_all_formats|fb:part.including_spectrum|fb:part.vic_20|fb:part.bbc|fb:part.dragon|fb:part.apple|fb:part.c64
+45	6	fb:cell.null_2											fb:part.null_2
+46	0	fb:cell.ngamer	NGamer	ngamer	ngamer	NN	O					NGamer	fb:part.ngamer
+46	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+46	2	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+46	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+46	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+46	5	fb:cell.british_magazine_mainly_covering_nintendo_products	British magazine mainly covering Nintendo products	british|magazine|mainly|covering|nintendo|products	british|magazine|mainly|cover|Nintendo|product	JJ|NN|RB|VBG|NNP|NNS	MISC|O|O|O|O|O	|||||				British magazine mainly covering Nintendo products	fb:part.british_magazine_mainly_covering_nintendo_products
+46	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+47	0	fb:cell.newbez	Newbez	newbez	Newbez	NNP	PERSON					Newbez	fb:part.newbez
+47	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+47	2	fb:cell.null_2											fb:part.null_2
+47	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+47	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+47	5	fb:cell.american_magazine_covering_the_gamer_s_voice_gaming_products	American Magazine Covering the Gamer's Voice Gaming products	american|magazine|covering|the|gamer|'s|voice|gaming|products	American|Magazine|Covering|the|Gamer|'s|Voice|gaming|product	NNP|NNP|NNP|DT|NNP|POS|NNP|NN|NNS	O|O|O|O|O|O|O|O|O	||||||||				American Magazine Covering the Gamer's Voice Gaming products	fb:part.american_magazine_covering_the_gamer_s_voice_gaming_products
+47	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+48	0	fb:cell.nintendo_force	Nintendo Force	nintendo|force	Nintendo|Force	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Nintendo Force	fb:part.nintendo_force
+48	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+48	2	fb:cell.null_2											fb:part.null_2
+48	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+48	4	fb:cell.magcloud_nf_publishing_llc	MagCloud/NF Publishing LLC	magcloud\\/nf|publishing|llc	MagCloud\\/NF|Publishing|LLC	NNP|NNP|NNP	O|O|O	||				MagCloud|NF Publishing LLC	fb:part.magcloud|fb:part.nf_publishing_llc
+48	5	fb:cell.spiritual_successor_to_nintendo_power	Spiritual successor to Nintendo Power	spiritual|successor|to|nintendo|power	spiritual|successor|to|Nintendo|Power	JJ|NN|TO|NNP|NNP	O|O|O|ORGANIZATION|ORGANIZATION	||||				Spiritual successor to Nintendo Power	fb:part.spiritual_successor_to_nintendo_power
+48	6	fb:cell.http_www_nfmagazine_com	http://www.nfmagazine.com/	http:\\/\\/www.nfmagazine.com\\/	http:\\/\\/www.nfmagazine.com\\/	NN	O					http:||www.nfmagazine.com	fb:part.http|fb:part.null_2|fb:part.www_nfmagazine_com
+49	0	fb:cell.nintendo_la_rivista_ufficiale	Nintendo La Rivista Ufficiale	nintendo|la|rivista|ufficiale	Nintendo|La|Rivista|Ufficiale	NNP|NNP|NNP|NNP	O|O|O|O	|||				Nintendo La Rivista Ufficiale	fb:part.nintendo_la_rivista_ufficiale
+49	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+49	2	fb:cell.null_2											fb:part.null_2
+49	3	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+49	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+49	5	fb:cell.italian_nintendo_related_topics	Italian Nintendo related topics	italian|nintendo|related|topics	italian|Nintendo|related|topic	JJ|NNP|JJ|NNS	MISC|O|O|O	|||				Italian Nintendo related topics	fb:part.italian_nintendo_related_topics
+49	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+50	0	fb:cell.nintendo_magazine_system_australia	Nintendo Magazine System (Australia)	nintendo|magazine|system|-lrb-|australia|-rrb-	Nintendo|Magazine|System|-lrb-|Australia|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|LOCATION|O	|||||				Nintendo Magazine System (Australia)	fb:part.nintendo_magazine_system_australia
+50	1	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+50	2	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+50	3	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION					Australia	fb:part.australia
+50	4	fb:cell.catalyst_publishing	Catalyst Publishing	catalyst|publishing	Catalyst|Publishing	NNP|NNP	O|O	|				Catalyst Publishing	fb:part.catalyst_publishing
+50	5	fb:cell.australian_nintendo_related_topics	Australian Nintendo related topics	australian|nintendo|related|topics	australian|Nintendo|related|topic	JJ|NNP|JJ|NNS	MISC|O|O|O	|||				Australian Nintendo related topics	fb:part.australian_nintendo_related_topics
+50	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+51	0	fb:cell.nintendo_power	Nintendo Power	nintendo|power	Nintendo|Power	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Nintendo Power	fb:part.nintendo_power
+51	1	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+51	2	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+51	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+51	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+51	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+51	6	fb:cell.http_www_nintendopower_com	http://www.nintendopower.com	http:\\/\\/www.nintendopower.com	http:\\/\\/www.nintendopower.com	NNP	O					http:||www.nintendopower.com	fb:part.http|fb:part.null_2|fb:part.www_nintendopower_com
+52	0	fb:cell.official_dreamcast_magazine_uk	Official Dreamcast Magazine (UK)	official|dreamcast|magazine|-lrb-|uk|-rrb-	Official|Dreamcast|Magazine|-lrb-|UK|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|LOCATION|O	|||||				Official Dreamcast Magazine (UK)	fb:part.official_dreamcast_magazine_uk
+52	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+52	2	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+52	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+52	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+52	5	fb:cell.uk_dreamcast_related_topics	UK Dreamcast related topics	uk|dreamcast|related|topics	UK|Dreamcast|related|topic	NNP|NNP|JJ|NNS	LOCATION|O|O|O	|||				UK Dreamcast related topics	fb:part.uk_dreamcast_related_topics
+52	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	0	fb:cell.official_dreamcast_magazine_us	Official Dreamcast Magazine (US)	official|dreamcast|magazine|-lrb-|us|-rrb-	Official|Dreamcast|Magazine|-lrb-|US|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|LOCATION|O	|||||				Official Dreamcast Magazine (US)	fb:part.official_dreamcast_magazine_us
+53	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+53	2	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+53	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+53	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+53	5	fb:cell.us_dreamcast_related_topics	US Dreamcast related topics	us|dreamcast|related|topics	US|Dreamcast|related|topic	NNP|NNP|JJ|NNS	LOCATION|O|O|O	|||				US Dreamcast related topics	fb:part.us_dreamcast_related_topics
+53	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+54	0	fb:cell.official_nintendo_magazine	Official Nintendo Magazine	official|nintendo|magazine	Official|Nintendo|Magazine	NNP|NNP|NNP	O|ORGANIZATION|ORGANIZATION	||				Official Nintendo Magazine	fb:part.official_nintendo_magazine
+54	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+54	2	fb:cell.null_2											fb:part.null_2
+54	3	fb:cell.united_kingdom_australia	United Kingdom, Australia	united|kingdom|,|australia	United|Kingdom|,|Australia	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				United Kingdom|Australia	fb:part.united_kingdom|fb:part.australia
+54	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+54	5	fb:cell.uk_australia_nintendo_related_topics	UK, Australia Nintendo related topics	uk|,|australia|nintendo|related|topics	UK|,|Australia|Nintendo|related|topic	NNP|,|NNP|NNP|JJ|NNS	LOCATION|O|LOCATION|O|O|O	|||||				UK|Australia Nintendo related topics	fb:part.uk|fb:part.australia_nintendo_related_topics
+54	6	fb:cell.http_www_officialnintendomagazine_co_uk	http://www.officialnintendomagazine.co.uk/	http:\\/\\/www.officialnintendomagazine.co.uk\\/	http:\\/\\/www.officialnintendomagazine.co.uk\\/	NN	O					http:||www.officialnintendomagazine.co.uk	fb:part.http|fb:part.null_2|fb:part.www_officialnintendomagazine_co_uk
+55	0	fb:cell.official_playstation_magazine_australia	Official PlayStation Magazine (Australia)	official|playstation|magazine|-lrb-|australia|-rrb-	official|PlayStation|Magazine|-lrb-|Australia|-rrb-	JJ|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|LOCATION|O	|||||				Official PlayStation Magazine (Australia)	fb:part.official_playstation_magazine_australia
+55	1	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+55	2	fb:cell.null_2											fb:part.null_2
+55	3	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION					Australia	fb:part.australia
+55	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+55	5	fb:cell.australian_playstation_related_topics	Australian PlayStation related topics	australian|playstation|related|topics	australian|PlayStation|related|topic	JJ|NNP|JJ|NNS	MISC|O|O|O	|||				Australian PlayStation related topics	fb:part.australian_playstation_related_topics
+55	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	0	fb:cell.official_uk_playstation_magazine	Official UK PlayStation Magazine	official|uk|playstation|magazine	Official|UK|PlayStation|Magazine	NNP|NNP|NNP|NNP	O|O|O|O	|||				Official UK PlayStation Magazine	fb:part.official_uk_playstation_magazine
+56	1	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+56	2	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+56	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+56	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+56	5	fb:cell.uk_playstation_related_topics	UK PlayStation related topics	uk|playstation|related|topics	UK|PlayStation|related|topic	NNP|NNP|JJ|NNS	LOCATION|O|O|O	|||				UK PlayStation related topics	fb:part.uk_playstation_related_topics
+56	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	0	fb:cell.official_u_s_playstation_magazine	Official U.S. PlayStation Magazine	official|u.s.|playstation|magazine	official|U.S.|PlayStation|Magazine	JJ|NNP|NNP|NNP	O|LOCATION|O|O	|||				Official U.S. PlayStation Magazine	fb:part.official_u_s_playstation_magazine
+57	1	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+57	2	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+57	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+57	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+57	5	fb:cell.us_playstation_related_topics	US PlayStation related topics	us|playstation|related|topics	US|PlayStation|related|topic	NNP|NNP|JJ|NNS	LOCATION|O|O|O	|||				US PlayStation related topics	fb:part.us_playstation_related_topics
+57	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+58	0	fb:cell.official_xbox_magazine	Official Xbox Magazine	official|xbox|magazine	Official|Xbox|Magazine	NNP|NNP|NNP	O|O|O	||				Official Xbox Magazine	fb:part.official_xbox_magazine
+58	1	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+58	2	fb:cell.null_2											fb:part.null_2
+58	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+58	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+58	5	fb:cell.xbox_related_topics	Xbox related topics	xbox|related|topics	xbox|related|topic	NN|JJ|NNS	O|O|O	||				Xbox related topics	fb:part.xbox_related_topics
+58	6	fb:cell.http_oxmonline_com	http://oxmonline.com/	http:\\/\\/oxmonline.com\\/	http:\\/\\/oxmonline.com\\/	NN	O					http:||oxmonline.com	fb:part.http|fb:part.null_2|fb:part.oxmonline_com
+59	0	fb:cell.oyungezer	Oyungezer	oyungezer	oyungezer	NN	O					Oyungezer	fb:part.oyungezer
+59	1	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+59	2	fb:cell.null_2											fb:part.null_2
+59	3	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION					Turkey	fb:part.turkey
+59	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+59	5	fb:cell.pc_ps3_xbox360_wii_psp_nintendo_ds	PC, PS3, XBOX360, Wii, PSP, Nintendo DS	pc|,|ps3|,|xbox360|,|wii|,|psp|,|nintendo|ds	pc|,|PS3|,|xbox360|,|Wii|,|PSP|,|Nintendo|d	NN|,|NNP|,|NN|,|NNP|,|NNP|,|NNP|NN	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||	3.0		360.0	PC|PS3|XBOX360|Wii|PSP|Nintendo DS	fb:part.pc|fb:part.ps3|fb:part.xbox360|fb:part.wii|fb:part.psp|fb:part.nintendo_ds
+59	6	fb:cell.http_oyungezer_com_tr	http://oyungezer.com.tr/	http:\\/\\/oyungezer.com.tr\\/	http:\\/\\/oyungezer.com.tr\\/	NN	O					http:||oyungezer.com.tr	fb:part.http|fb:part.null_2|fb:part.oyungezer_com_tr
+60	0	fb:cell.page_6	Page 6	page|6	Page|6	NNP|CD	O|NUMBER	|6.0	6.0			Page 6	fb:part.page_6
+60	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+60	2	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+60	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+60	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+60	5	fb:cell.the_atari_8_bit_range_and_atari_st	The Atari 8-bit range and Atari ST	the|atari|8|bit|range|and|atari|st	the|Atari|8|bit|range|and|Atari|st	DT|NNP|CD|NN|NN|CC|NNP|JJ	O|ORGANIZATION|NUMBER|O|O|O|ORGANIZATION|O	||8.0|||||	8.0			The Atari 8-bit range and Atari ST	fb:part.the_atari_8_bit_range_and_atari_st
+60	6	fb:cell.http_www_page6_org	http://www.page6.org/	http:\\/\\/www.page6.org\\/	http:\\/\\/www.page6.org\\/	NN	O					http:||www.page6.org	fb:part.http|fb:part.null_2|fb:part.www_page6_org
+61	0	fb:cell.pc_gamer	PC Gamer	pc|gamer	pc|gamer	NN|NN	O|O	|				PC Gamer	fb:part.pc_gamer
+61	1	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+61	2	fb:cell.null_2											fb:part.null_2
+61	3	fb:cell.united_kingdom_united_states	United Kingdom\nUnited States	united|kingdom|united|states	United|Kingdom|United|States	NNP|NNP|NNP|NNPS	LOCATION|LOCATION|LOCATION|LOCATION	|||				United Kingdom|United States	fb:part.united_kingdom|fb:part.united_states
+61	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+61	5	fb:cell.pc_games	PC games	pc|games	pc|game	NN|NNS	O|O	|				PC games	fb:part.pc_games
+61	6	fb:cell.http_www_pcgamer_com	http://www.pcgamer.com	http:\\/\\/www.pcgamer.com	http:\\/\\/www.pcgamer.com	NNP	O					http:||www.pcgamer.com	fb:part.http|fb:part.null_2|fb:part.www_pcgamer_com
+62	0	fb:cell.pc_games	PC games	pc|games	pc|game	NN|NNS	O|O	|				PC games	fb:part.pc_games
+62	1	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+62	2	fb:cell.null_2											fb:part.null_2
+62	3	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION					Germany	fb:part.germany
+62	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+62	5	fb:cell.pc_games	PC games	pc|games	pc|game	NN|NNS	O|O	|				PC games	fb:part.pc_games
+62	6	fb:cell.http_www_pcgames_de	http://www.pcgames.de/	http:\\/\\/www.pcgames.de\\/	http:\\/\\/www.pcgames.de\\/	NN	O					http:||www.pcgames.de	fb:part.http|fb:part.null_2|fb:part.www_pcgames_de
+63	0	fb:cell.pc_accelerator	PC Accelerator	pc|accelerator	pc|accelerator	NN|NN	O|O	|				PC Accelerator	fb:part.pc_accelerator
+63	1	fb:cell.null_2											fb:part.null_2
+63	2	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+63	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+63	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+63	5	fb:cell.pc_games	PC games	pc|games	pc|game	NN|NNS	O|O	|				PC games	fb:part.pc_games
+63	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+64	0	fb:cell.pc_mania	PC Mania	pc|mania	pc|mania	NN|NN	O|O	|				PC Mania	fb:part.pc_mania
+64	1	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+64	2	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+64	3	fb:cell.bulgaria	Bulgaria	bulgaria	Bulgaria	NNP	LOCATION					Bulgaria	fb:part.bulgaria
+64	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+64	5	fb:cell.pc_games	PC games	pc|games	pc|game	NN|NNS	O|O	|				PC games	fb:part.pc_games
+64	6	fb:cell.http_www_pcmania_bg	http://www.pcmania.bg/	http:\\/\\/www.pcmania.bg\\/	http:\\/\\/www.pcmania.bg\\/	NN	O					http:||www.pcmania.bg	fb:part.http|fb:part.null_2|fb:part.www_pcmania_bg
+65	0	fb:cell.pelit	Pelit	pelit	pelit	NN	PERSON					Pelit	fb:part.pelit
+65	1	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+65	2	fb:cell.null_2											fb:part.null_2
+65	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION					Finland	fb:part.finland
+65	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+65	5	fb:cell.the_oldest_and_most_popular_videogame_magazine_of_finland	The oldest and most popular videogame magazine of Finland.	the|oldest|and|most|popular|videogame|magazine|of|finland|.	the|oldest|and|most|popular|videogame|magazine|of|Finland|.	DT|JJS|CC|RBS|JJ|JJ|NN|IN|NNP|.	O|O|O|O|O|O|O|O|LOCATION|O	|||||||||				The oldest and most popular videogame magazine of Finland.	fb:part.the_oldest_and_most_popular_videogame_magazine_of_finland
+65	6	fb:cell.http_www_pelit_fi	http://www.pelit.fi	http:\\/\\/www.pelit.fi	http:\\/\\/www.pelit.fi	NNS	O					http:||www.pelit.fi	fb:part.http|fb:part.null_2|fb:part.www_pelit_fi
+66	0	fb:cell.play	Play	play	Play	NNP	O					Play	fb:part.play
+66	1	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+66	2	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+66	3	fb:cell.people_s_republic_of_china	People's Republic of China	people|'s|republic|of|china	people|'s|republic|of|China	NNS|POS|NN|IN|NNP	O|O|O|O|LOCATION	||||				People's Republic of China	fb:part.people_s_republic_of_china
+66	4	fb:cell.science_popularization_publication	Science Popularization Publication	science|popularization|publication	Science|Popularization|publication	NNP|NNP|NN	O|O|O	||				Science Popularization Publication	fb:part.science_popularization_publication
+66	5	fb:cell.null_2											fb:part.null_2
+66	6	fb:cell.http_www_playmediacompany_it_edicola_edicola_01_asp_id_2482	http://www.playmediacompany.it/edicola/edicola-01.asp?Id=2482	http:\\/\\/www.playmediacompany.it\\/edicola\\/edicola-01.asp?id=2482	http:\\/\\/www.playmediacompany.it\\/edicola\\/edicola-01.asp?id=2482	NN	O					http:||www.playmediacompany.it|edicola|edicola-01.asp?Id=2482	fb:part.http|fb:part.null_2|fb:part.www_playmediacompany_it|fb:part.edicola|fb:part.edicola_01_asp_id_2482
+67	0	fb:cell.playstation_magazine_ufficiale	PlayStation Magazine Ufficiale	playstation|magazine|ufficiale	PlayStation|Magazine|Ufficiale	NNP|NNP|NNP	O|O|O	||				PlayStation Magazine Ufficiale	fb:part.playstation_magazine_ufficiale
+67	1	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+67	2	fb:cell.null_2											fb:part.null_2
+67	3	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+67	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+67	5	fb:cell.italian_playstation_related_topics	Italian PlayStation related topics	italian|playstation|related|topics	italian|PlayStation|related|topic	JJ|NNP|JJ|NNS	MISC|O|O|O	|||				Italian PlayStation related topics	fb:part.italian_playstation_related_topics
+67	6	fb:cell.http_www_joyplay_cn	http://www.joyplay.cn	http:\\/\\/www.joyplay.cn	http:\\/\\/www.joyplay.cn	NN	O					http:||www.joyplay.cn	fb:part.http|fb:part.null_2|fb:part.www_joyplay_cn
+68	0	fb:cell.playstation_official_magazine_uk	PlayStation Official Magazine (UK)	playstation|official|magazine|-lrb-|uk|-rrb-	PlayStation|Official|Magazine|-lrb-|UK|-rrb-	NNP|NNP|NNP|-LRB-|NNP|-RRB-	O|O|O|O|LOCATION|O	|||||				PlayStation Official Magazine (UK)	fb:part.playstation_official_magazine_uk
+68	1	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+68	2	fb:cell.null_2											fb:part.null_2
+68	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+68	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+68	5	fb:cell.uk_playstation_related_topics	UK PlayStation related topics	uk|playstation|related|topics	UK|PlayStation|related|topic	NNP|NNP|JJ|NNS	LOCATION|O|O|O	|||				UK PlayStation related topics	fb:part.uk_playstation_related_topics
+68	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	0	fb:cell.playstation_the_official_magazine	PlayStation: The Official Magazine	playstation|:|the|official|magazine	PlayStation|:|the|Official|Magazine	NNP|:|DT|NNP|NNP	O|O|O|O|O	||||				PlayStation: The Official Magazine	fb:part.playstation_the_official_magazine
+69	1	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+69	2	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+69	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+69	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+69	5	fb:cell.playstation_related_topics	PlayStation related topics	playstation|related|topics	PlayStation|related|topic	NNP|JJ|NNS	O|O|O	||				PlayStation related topics	fb:part.playstation_related_topics
+69	6	fb:cell.http_playstationthemagazine_com	http://playstationthemagazine.com/	http:\\/\\/playstationthemagazine.com\\/	http:\\/\\/playstationthemagazine.com\\/	NN	O					http:||playstationthemagazine.com	fb:part.http|fb:part.null_2|fb:part.playstationthemagazine_com
+70	0	fb:cell.planet_pc	Planet PC	planet|pc	planet|pc	NN|NN	O|O	|				Planet PC	fb:part.planet_pc
+70	1	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+70	2	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+70	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+70	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+70	5	fb:cell.pc_games	PC games	pc|games	pc|game	NN|NNS	O|O	|				PC games	fb:part.pc_games
+70	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	0	fb:cell.popsoft	Popsoft	popsoft	popsoft	NN	PERSON					Popsoft	fb:part.popsoft
+71	1	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+71	2	fb:cell.null_2											fb:part.null_2
+71	3	fb:cell.people_s_republic_of_china	People's Republic of China	people|'s|republic|of|china	people|'s|republic|of|China	NNS|POS|NN|IN|NNP	O|O|O|O|LOCATION	||||				People's Republic of China	fb:part.people_s_republic_of_china
+71	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+71	5	fb:cell.pc_games_and_software	PC games and software	pc|games|and|software	pc|game|and|software	NN|NNS|CC|NN	O|O|O|O	|||				PC games and software	fb:part.pc_games_and_software
+71	6	fb:cell.http_www_popsoft_com_cn	http://www.popsoft.com.cn/	http:\\/\\/www.popsoft.com.cn\\/	http:\\/\\/www.popsoft.com.cn\\/	NN	O					http:||www.popsoft.com.cn	fb:part.http|fb:part.null_2|fb:part.www_popsoft_com_cn
+72	0	fb:cell.power_unlimited	Power Unlimited	power|unlimited	Power|Unlimited	NNP|NNP	O|O	|				Power Unlimited	fb:part.power_unlimited
+72	1	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+72	2	fb:cell.null_2											fb:part.null_2
+72	3	fb:cell.the_netherlands	The Netherlands	the|netherlands	the|Netherlands	DT|NNP	O|LOCATION	|				The Netherlands	fb:part.the_netherlands
+72	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+72	5	fb:cell.dutch_gaming_magazine	Dutch gaming magazine	dutch|gaming|magazine	dutch|gaming|magazine	JJ|NN|NN	MISC|O|O	||				Dutch gaming magazine	fb:part.dutch_gaming_magazine
+72	6	fb:cell.http_www_pu_nl	http://www.pu.nl/	http:\\/\\/www.pu.nl\\/	http:\\/\\/www.pu.nl\\/	NN	O					http:||www.pu.nl	fb:part.http|fb:part.null_2|fb:part.www_pu_nl
+73	0	fb:cell.psm3	PSM3	psm3	psm3	NN	O		3.0			PSM3	fb:part.psm3
+73	1	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+73	2	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+73	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+73	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+73	5	fb:cell.sony_video_game_consoles_and_playstation_games	Sony video game consoles and PlayStation games	sony|video|game|consoles|and|playstation|games	Sony|video|game|console|and|PlayStation|game	NNP|NN|NN|VBZ|CC|NNP|NNS	ORGANIZATION|O|O|O|O|O|O	||||||				Sony video game consoles and PlayStation games	fb:part.sony_video_game_consoles_and_playstation_games
+73	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+74	0	fb:cell.pnm_pure_nintendo	PNM (Pure Nintendo)	pnm|-lrb-|pure|nintendo|-rrb-	pnm|-lrb-|pure|Nintendo|-rrb-	NN|-LRB-|JJ|NNP|-RRB-	O|O|O|O|O	||||				PNM (Pure Nintendo)	fb:part.pnm_pure_nintendo
+74	1	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+74	2	fb:cell.null_2											fb:part.null_2
+74	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+74	4	fb:cell.magcloud_pure_media_llc	MagCloud/Pure Media LLC	magcloud\\/pure|media|llc	MagCloud\\/Pure|Media|LLC	NNP|NNP|NNP	O|O|O	||				MagCloud|Pure Media LLC	fb:part.magcloud|fb:part.pure_media_llc
+74	5	fb:cell.all_things_nintendo_related	All things Nintendo related	all|things|nintendo|related	all|thing|Nintendo|related	DT|NNS|NNP|JJ	O|O|ORGANIZATION|O	|||				All things Nintendo related	fb:part.all_things_nintendo_related
+74	6	fb:cell.http_purenintendo_com_magazine	http://purenintendo.com/magazine	http:\\/\\/purenintendo.com\\/magazine	http:\\/\\/purenintendo.com\\/magazine	NN	O					http:||purenintendo.com|magazine	fb:part.http|fb:part.null_2|fb:part.purenintendo_com|fb:part.magazine
+75	0	fb:cell.retro	Retro	retro	Retro	NNP	O					Retro	fb:part.retro
+75	1	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+75	2	fb:cell.null_2											fb:part.null_2
+75	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+75	4	fb:cell.gamegavel_llc	GameGavel LLC	gamegavel|llc	GameGavel|LLC	NNP|NNP	O|O	|				GameGavel LLC	fb:part.gamegavel_llc
+75	5	fb:cell.retro_and_retro_inspired_games_and_topics	Retro and retro-inspired games and topics	retro|and|retro|inspired|games|and|topics	Retro|and|retro|inspire|game|and|topic	NNP|CC|NN|VBD|NNS|CC|NNS	O|O|O|O|O|O|O	||||||				Retro and retro-inspired games and topics	fb:part.retro_and_retro_inspired_games_and_topics
+75	6	fb:cell.http_readretro_com	http://readretro.com	http:\\/\\/readretro.com	http:\\/\\/readretro.com	NNP	O					http:||readretro.com	fb:part.http|fb:part.null_2|fb:part.readretro_com
+76	0	fb:cell.retro_gamer	Retro Gamer	retro|gamer	Retro|Gamer	NNP|NNP	O|O	|				Retro Gamer	fb:part.retro_gamer
+76	1	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+76	2	fb:cell.null_2											fb:part.null_2
+76	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+76	4	fb:cell.imagine_publishing	Imagine Publishing	imagine|publishing	imagine|publishing	VB|NN	O|O	|				Imagine Publishing	fb:part.imagine_publishing
+76	5	fb:cell.retro_games_from_multiple_platforms_often_via_an_emulator	Retro games from multiple platforms, often via an Emulator	retro|games|from|multiple|platforms|,|often|via|an|emulator	Retro|game|from|multiple|platform|,|often|via|a|emulator	NNP|NNS|IN|JJ|NNS|,|RB|IN|DT|NN	O|O|O|O|O|O|O|O|O|MISC	|||||||||				Retro games from multiple platforms|often via an Emulator	fb:part.retro_games_from_multiple_platforms|fb:part.often_via_an_emulator
+76	6	fb:cell.http_www_retrogamer_net	http://www.retrogamer.net/	http:\\/\\/www.retrogamer.net\\/	http:\\/\\/www.retrogamer.net\\/	NN	O					http:||www.retrogamer.net	fb:part.http|fb:part.null_2|fb:part.www_retrogamer_net
+77	0	fb:cell.st_amiga_format	ST/Amiga Format	st\\/amiga|format	st\\/amiga|format	NN|NN	O|O	|				ST|Amiga Format	fb:part.st|fb:part.amiga_format
+77	1	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+77	2	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+77	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+77	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+77	5	fb:cell.amiga_and_atari_st_magazine_with_hardware_focus_split_into_st_format_and_amiga_format_in_1989	Amiga and Atari ST magazine with hardware focus. Split into ST Format and Amiga Format in 1989.	amiga|and|atari|st|magazine|with|hardware|focus|.|split|into|st|format|and|amiga|format|in|1989|.	Amiga|and|Atari|st|magazine|with|hardware|focus|.|split|into|st|format|and|Amiga|Format|in|1989|.	NNP|CC|NNP|JJ|NN|IN|NN|NN|.|NN|IN|JJ|NN|CC|NNP|NNP|IN|CD|.	PERSON|O|ORGANIZATION|O|O|O|O|O|O|O|O|O|O|O|O|O|O|DATE|O	|||||||||||||||||1989|				Amiga and Atari ST magazine with hardware focus. Split into ST Format and Amiga Format in 1989.	fb:part.amiga_and_atari_st_magazine_with_hardware_focus_split_into_st_format_and_amiga_format_in_1989
+77	6	fb:cell.http_www_amigahistory_co_uk_aformat_html	http://www.amigahistory.co.uk/aformat.html	http:\\/\\/www.amigahistory.co.uk\\/aformat.html	http:\\/\\/www.amigahistory.co.uk\\/aformat.html	NN	O					http:||www.amigahistory.co.uk|aformat.html	fb:part.http|fb:part.null_2|fb:part.www_amigahistory_co_uk|fb:part.aformat_html
+78	0	fb:cell.st_format	ST Format	st|format	st|format	JJ|NN	O|O	|				ST Format	fb:part.st_format
+78	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+78	2	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+78	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+78	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+78	5	fb:cell.atari_st_magazine_with_hardware_focus	Atari ST magazine with hardware focus.	atari|st|magazine|with|hardware|focus|.	Atari|st|magazine|with|hardware|focus|.	NNP|JJ|NN|IN|NN|NN|.	ORGANIZATION|O|O|O|O|O|O	||||||				Atari ST magazine with hardware focus.	fb:part.atari_st_magazine_with_hardware_focus
+78	6	fb:cell.http_www_stformat_com	http://www.stformat.com/	http:\\/\\/www.stformat.com\\/	http:\\/\\/www.stformat.com\\/	NN	O					http:||www.stformat.com	fb:part.http|fb:part.null_2|fb:part.www_stformat_com
+79	0	fb:cell.sega_force	Sega Force	sega|force	Sega|Force	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Sega Force	fb:part.sega_force
+79	1	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+79	2	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+79	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+79	4	fb:cell.europress_impact	Europress Impact	europress|impact	Europress|Impact	NNP|NNP	O|O	|				Europress Impact	fb:part.europress_impact
+79	5	fb:cell.sega_games_magazine	Sega games magazine	sega|games|magazine	Sega|game|magazine	NNP|NNS|NN	O|O|O	||				Sega games magazine	fb:part.sega_games_magazine
+79	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+80	0	fb:cell.sega_power	Sega Power	sega|power	Sega|Power	NNP|NNP	O|O	|				Sega Power	fb:part.sega_power
+80	1	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+80	2	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+80	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+80	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+80	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+80	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+81	0	fb:cell.sega_saturn_magazine	Sega Saturn Magazine	sega|saturn|magazine	Sega|Saturn|Magazine	NNP|NNP|NNP	O|O|O	||				Sega Saturn Magazine	fb:part.sega_saturn_magazine
+81	1	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+81	2	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+81	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+81	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+81	5	fb:cell.null	?	?	?	.	O					?	fb:part.null
+81	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+82	0	fb:cell.sinclair_user	Sinclair User	sinclair|user	Sinclair|user	NNP|NN	O|O	|				Sinclair User	fb:part.sinclair_user
+82	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+82	2	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+82	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+82	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+82	5	fb:cell.sinclair_spectrum	Sinclair Spectrum	sinclair|spectrum	Sinclair|Spectrum	NNP|NNP	O|O	|				Sinclair Spectrum	fb:part.sinclair_spectrum
+82	6	fb:cell.http_www_sincuser_f9_co_uk	http://www.sincuser.f9.co.uk/	http:\\/\\/www.sincuser.f9.co.uk\\/	http:\\/\\/www.sincuser.f9.co.uk\\/	NN	O					http:||www.sincuser.f9.co.uk	fb:part.http|fb:part.null_2|fb:part.www_sincuser_f9_co_uk
+83	0	fb:cell.skoar	SKOAR!	skoar|!	skoar|!	NNS|.	O|O	|				SKOAR!	fb:part.skoar
+83	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+83	2	fb:cell.null_2											fb:part.null_2
+83	3	fb:cell.india	India	india	India	NNP	LOCATION					India	fb:part.india
+83	4	fb:cell.jasubhai_digital_media_pvt_ltd	Jasubhai Digital Media Pvt. Ltd.	jasubhai|digital|media|pvt.|ltd.|.	Jasubhai|Digital|Media|Pvt.|Ltd.|.	NNP|NNP|NNP|NNP|NNP|.	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||||				Jasubhai Digital Media Pvt. Ltd.	fb:part.jasubhai_digital_media_pvt_ltd
+83	5	fb:cell.an_indian_game_magazine	An Indian game magazine	an|indian|game|magazine	a|indian|game|magazine	DT|JJ|NN|NN	O|MISC|O|O	|||				An Indian game magazine	fb:part.an_indian_game_magazine
+83	6	fb:cell.http_skoar_thinkdigit_com	http://skoar.thinkdigit.com/	http:\\/\\/skoar.thinkdigit.com\\/	http:\\/\\/skoar.thinkdigit.com\\/	NN	O					http:||skoar.thinkdigit.com	fb:part.http|fb:part.null_2|fb:part.skoar_thinkdigit_com
+84	0	fb:cell.thirteen1	Thirteen1	thirteen1	thirteen1	NN	O		1.0			Thirteen1	fb:part.thirteen1
+84	1	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+84	2	fb:cell.null_2											fb:part.null_2
+84	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+84	4	fb:cell.t1_publishing_ltd	T1 Publishing Ltd	t1|publishing|ltd	t1|publishing|Ltd	NN|NN|NNP	O|O|O	||	1.0			T1 Publishing Ltd	fb:part.t1_publishing_ltd
+84	5	fb:cell.a_free_online_based_game_magazine	A free online-based game magazine	a|free|online|based|game|magazine	a|free|online|base|game|magazine	DT|JJ|NN|VBN|NN|NN	O|O|O|O|O|O	|||||				A free online-based game magazine	fb:part.a_free_online_based_game_magazine
+84	6	fb:cell.http_www_thirteen1_com	http://www.thirteen1.com/	http:\\/\\/www.thirteen1.com\\/	http:\\/\\/www.thirteen1.com\\/	NN	O					http:||www.thirteen1.com	fb:part.http|fb:part.null_2|fb:part.www_thirteen1_com
+85	0	fb:cell.videogaming_illustrated	Videogaming Illustrated	videogaming|illustrated	videogame|Illustrated	VBG|NNP	O|O	|				Videogaming Illustrated	fb:part.videogaming_illustrated
+85	1	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+85	2	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+85	3	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+85	4	fb:cell.ion_international_inc	Ion International, Inc.	ion|international|,|inc.|.	Ion|International|,|Inc.|.	NNP|NNP|,|NNP|.	O|O|O|ORGANIZATION|O	||||				Ion International|Inc.	fb:part.ion_international|fb:part.inc
+85	5	fb:cell.video_games	Video games	video|games	Video|game	NNP|NNS	O|O	|				Video games	fb:part.video_games_2
+85	6	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+86	0	fb:cell.xbox_magazine_ufficiale	Xbox Magazine Ufficiale	xbox|magazine|ufficiale	Xbox|Magazine|Ufficiale	NNP|NNP|NNP	O|O|O	||				Xbox Magazine Ufficiale	fb:part.xbox_magazine_ufficiale
+86	1	fb:cell.null	?	?	?	.	O					?	fb:part.null
+86	2	fb:cell.null_2											fb:part.null_2
+86	3	fb:cell.italy	Italy	italy	Italy	NNP	LOCATION					Italy	fb:part.italy
+86	4	fb:cell.null	?	?	?	.	O					?	fb:part.null
+86	5	fb:cell.italian_xbox_related_topics	Italian Xbox related topics	italian|xbox|related|topics	italian|xbox|related|topic	JJ|NN|JJ|NNS	MISC|MISC|O|O	|||				Italian Xbox related topics	fb:part.italian_xbox_related_topics
+86	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+87	0	fb:cell.xbox_world	Xbox World	xbox|world	Xbox|World	NNP|NNP	O|O	|				Xbox World	fb:part.xbox_world
+87	1	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+87	2	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+87	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+87	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+87	5	fb:cell.xbox_video_game_consoles_and_xbox_games	Xbox video game consoles and Xbox games	xbox|video|game|consoles|and|xbox|games	Xbox|video|game|console|and|Xbox|game	NNP|NN|NN|VBZ|CC|NNP|NNS	O|O|O|O|O|O|O	||||||				Xbox video game consoles and Xbox games	fb:part.xbox_video_game_consoles_and_xbox_games
+87	6	fb:cell.null	?	?	?	.	O					?	fb:part.null
+88	0	fb:cell.your_sinclair	Your Sinclair	your|sinclair	you|Sinclair	PRP$|NNP	O|O	|				Your Sinclair	fb:part.your_sinclair
+88	1	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+88	2	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+88	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+88	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+88	5	fb:cell.sinclair_spectrum	Sinclair Spectrum	sinclair|spectrum	Sinclair|Spectrum	NNP|NNP	O|O	|				Sinclair Spectrum	fb:part.sinclair_spectrum
+88	6	fb:cell.http_www_ysrnry_co_uk	http://www.ysrnry.co.uk/	http:\\/\\/www.ysrnry.co.uk\\/	http:\\/\\/www.ysrnry.co.uk\\/	NN	O					http:||www.ysrnry.co.uk	fb:part.http|fb:part.null_2|fb:part.www_ysrnry_co_uk
+89	0	fb:cell.your_spectrum	Your Spectrum	your|spectrum	you|spectrum	PRP$|NN	O|O	|				Your Spectrum	fb:part.your_spectrum
+89	1	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+89	2	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+89	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+89	4	fb:cell.sportscene_specialist_press	Sportscene Specialist Press	sportscene|specialist|press	Sportscene|Specialist|Press	NNP|NNP|NNP	O|O|O	||				Sportscene Specialist Press	fb:part.sportscene_specialist_press
+89	5	fb:cell.sinclair_spectrum	Sinclair Spectrum	sinclair|spectrum	Sinclair|Spectrum	NNP|NNP	O|O	|				Sinclair Spectrum	fb:part.sinclair_spectrum
+89	6	fb:cell.http_www_users_globalnet_co_uk_jg27paw4	http://www.users.globalnet.co.uk/~jg27paw4/	http:\\/\\/www.users.globalnet.co.uk\\/~jg27paw4\\/	http:\\/\\/www.users.globalnet.co.uk\\/~jg27paw4\\/	NN	O					http:||www.users.globalnet.co.uk|~jg27paw4	fb:part.http|fb:part.null_2|fb:part.www_users_globalnet_co_uk|fb:part._jg27paw4
+90	0	fb:cell.zzap_64	Zzap!64	zzap|!|64	zzap|!|64	NN|.|CD	O|O|NUMBER	||64.0	64.0			Zzap!64	fb:part.zzap_64
+90	1	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+90	2	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+90	3	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|				United Kingdom	fb:part.united_kingdom
+90	4	fb:cell.future_publishing	Future Publishing	future|publishing	future|publishing	JJ|NN	DATE|O	FUTURE_REF|				Future Publishing	fb:part.future_publishing
+90	5	fb:cell.commodore_64_games_renamed_commodore_force_in_1992	Commodore 64 games; renamed Commodore Force in 1992	commodore|64|games|;|renamed|commodore|force|in|1992	Commodore|64|game|;|rename|Commodore|Force|in|1992	NNP|CD|NNS|:|VBN|NNP|NNP|IN|CD	O|NUMBER|O|O|O|ORGANIZATION|ORGANIZATION|O|DATE	|64.0|||||||1992	64.0		1992.0	Commodore 64 games; renamed Commodore Force in 1992	fb:part.commodore_64_games_renamed_commodore_force_in_1992
+90	6	fb:cell.null	?	?	?	.	O					?	fb:part.null

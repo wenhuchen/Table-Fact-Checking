@@ -1,0 +1,129 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.township	Township	township	Township	NNP	MISC						
+-1	1	fb:row.row.fips	FIPS	fips	fip	NNS	O						
+-1	2	fb:row.row.population	Population	population	Population	NNP	O						
+-1	3	fb:row.row.population_density_km_sq_mi	Population\ndensity\n/km² (/sq mi)	population|density|\\/|km|²|-lrb-|\\/|sq|mi|-rrb-	Population|density|\\/|km|²|-lrb-|\\/|sq|mi|-rrb-	NNP|NN|:|NN|NN|-LRB-|:|NN|NN|-RRB-	O|O|O|O|O|O|O|O|O|O	|||||||||					
+-1	4	fb:row.row.land_area_km_sq_mi	Land area\nkm² (sq mi)	land|area|km|²|-lrb-|sq|mi|-rrb-	Land|area|km|²|-lrb-|sq|mi|-rrb-	NNP|NN|NN|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||					
+-1	5	fb:row.row.water_area_km_sq_mi	Water area\nkm² (sq mi)	water|area|km|²|-lrb-|sq|mi|-rrb-	water|area|km|²|-lrb-|sq|mi|-rrb-	NN|NN|NN|NN|-LRB-|NN|NN|-RRB-	O|O|O|O|O|O|O|O	|||||||					
+-1	6	fb:row.row.water	Water %	water|%	water|%	NN|NN	O|O	|					
+-1	7	fb:row.row.geographic_coordinates	Geographic coordinates	geographic|coordinates	geographic|coordinate	JJ|VBZ	O|O	|					
+0	0	fb:cell.alta	Alta	alta	Alta	NNP	LOCATION						
+0	1	fb:cell.01500	01500	01500	01500	CD	DATE	1500	1500.0	1500-xx-xx			
+0	2	fb:cell.221	221	221	221	CD	NUMBER	221.0	221.0				
+0	3	fb:cell.2_6	2 (6)	2|-lrb-|6|-rrb-	2|-lrb-|6|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||6.0|	2.0		6.0		
+0	4	fb:cell.93_36	93 (36)	93|-lrb-|36|-rrb-	93|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	93.0||36.0|	93.0		36.0		
+0	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+0	6	fb:cell.0_48	0.48%	0.48|%	0.48|%	CD|NN	PERCENT|PERCENT	%0.48|%0.48	0.48				
+0	7	fb:cell.38_7_27_n_97_38_44_w_38_12417_n_97_64556_w	38°7′27″N 97°38′44″W﻿ / ﻿38.12417°N 97.64556°W	38|°|7|′|27|″|n|97|°|38|′|44|″|w|\\/|38.12417|°|n|97.64556|°|w	38|°|7|′|27|″|n|97|°|38|′|44|″|w|\\/|38.12417|°|n|97.64556|°|w	CD|NN|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||7.0||27.0|27.0||97.0||38.0|38.0|38.0||||38.12417|38.12417||97.64556|97.64556|	38.0		7.0	38°7′27″N 97°38′44″W﻿|﻿38.12417°N 97.64556°W	fb:part.38_7_27_n_97_38_44_w|fb:part.38_12417_n_97_64556_w
+1	0	fb:cell.burrton	Burrton	burrton	burrton	NN	LOCATION						
+1	1	fb:cell.09600	09600	09600	09600	CD	NUMBER	9600.0	9600.0				
+1	2	fb:cell.1_143	1,143	1,143	1,143	CD	NUMBER	1143.0	1143.0				
+1	3	fb:cell.12_32	12 (32)	12|-lrb-|32|-rrb-	12|-lrb-|32|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	12.0||32.0|	12.0		32.0		
+1	4	fb:cell.93_36	93 (36)	93|-lrb-|36|-rrb-	93|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	93.0||36.0|	93.0		36.0		
+1	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+1	6	fb:cell.0_17	0.17%	0.17|%	0.17|%	CD|NN	PERCENT|PERCENT	%0.17|%0.17	0.17				
+1	7	fb:cell.38_1_32_n_97_39_55_w_38_02556_n_97_66528_w	38°1′32″N 97°39′55″W﻿ / ﻿38.02556°N 97.66528°W	38|°|1|′|32|″|n|97|°|39|′|55|″|w|\\/|38.02556|°|n|97.66528|°|w	38|°|1|′|32|″|n|97|°|39|′|55|″|w|\\/|38.02556|°|n|97.66528|°|w	CD|NN|CD|CD|CD|NN|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||1.0|1.0|1.0|||97.0||39.0|39.0|39.0||||38.02556|38.02556||97.66528|97.66528|	38.0		1.0	38°1′32″N 97°39′55″W﻿|﻿38.02556°N 97.66528°W	fb:part.38_1_32_n_97_39_55_w|fb:part.38_02556_n_97_66528_w
+2	0	fb:cell.darlington	Darlington	darlington	Darlington	NNP	LOCATION						
+2	1	fb:cell.17025	17025	17025	17025	CD	NUMBER	17025.0	17025.0				
+2	2	fb:cell.601	601	601	601	CD	NUMBER	601.0	601.0				
+2	3	fb:cell.7_17	7 (17)	7|-lrb-|17|-rrb-	7|-lrb-|17|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	7.0||17.0|	7.0		17.0		
+2	4	fb:cell.92_35	92 (35)	92|-lrb-|35|-rrb-	92|-lrb-|35|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	92.0||35.0|	92.0		35.0		
+2	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+2	6	fb:cell.0_10	0.10%	0.10|%	0.10|%	CD|NN	PERCENT|PERCENT	%0.1|%0.1	0.1				
+2	7	fb:cell.37_57_5_n_97_19_32_w_37_95139_n_97_32556_w	37°57′5″N 97°19′32″W﻿ / ﻿37.95139°N 97.32556°W	37|°|57|′|5|″|n|97|°|19|′|32|″|w|\\/|37.95139|°|n|97.32556|°|w	37|°|57|′|5|″|n|97|°|19|′|32|″|w|\\/|37.95139|°|n|97.32556|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||5.0|5.0||97.0||19.0|19.0|19.0||||37.95139|37.95139||97.32556|97.32556|	37.0		57.0	37°57′5″N 97°19′32″W﻿|﻿37.95139°N 97.32556°W	fb:part.37_57_5_n_97_19_32_w|fb:part.37_95139_n_97_32556_w
+3	0	fb:cell.emma	Emma	emma	Emma	NNP	PERSON						
+3	1	fb:cell.21025	21025	21025	21025	CD	NUMBER	21025.0	21025.0				
+3	2	fb:cell.4_181	4,181	4,181	4,181	CD	NUMBER	4181.0	4181.0				
+3	3	fb:cell.45_116	45 (116)	45|-lrb-|116|-rrb-	45|-lrb-|116|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	45.0||116.0|	45.0		116.0		
+3	4	fb:cell.93_36	93 (36)	93|-lrb-|36|-rrb-	93|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	93.0||36.0|	93.0		36.0		
+3	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+3	6	fb:cell.0	0%	0|%	0|%	CD|NN	PERCENT|PERCENT	%0.0|%0.0	0.0				
+3	7	fb:cell.38_8_10_n_97_25_46_w_38_13611_n_97_42944_w	38°8′10″N 97°25′46″W﻿ / ﻿38.13611°N 97.42944°W	38|°|8|′|10|″|n|97|°|25|′|46|″|w|\\/|38.13611|°|n|97.42944|°|w	38|°|8|′|10|″|n|97|°|25|′|46|″|w|\\/|38.13611|°|n|97.42944|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0|38.0|38.0||10.0|10.0||97.0||25.0|25.0|25.0||||38.13611|38.13611||97.42944|97.42944|	38.0		8.0	38°8′10″N 97°25′46″W﻿|﻿38.13611°N 97.42944°W	fb:part.38_8_10_n_97_25_46_w|fb:part.38_13611_n_97_42944_w
+4	0	fb:cell.garden	Garden	garden	Garden	NNP	O						
+4	1	fb:cell.25300	25300	25300	25300	CD	NUMBER	25300.0	25300.0				
+4	2	fb:cell.294	294	294	294	CD	NUMBER	294.0	294.0				
+4	3	fb:cell.3_8	3 (8)	3|-lrb-|8|-rrb-	3|-lrb-|8|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	3.0||8.0|	3.0		8.0		
+4	4	fb:cell.93_36	93 (36)	93|-lrb-|36|-rrb-	93|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	93.0||36.0|	93.0		36.0		
+4	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+4	6	fb:cell.0	0%	0|%	0|%	CD|NN	PERCENT|PERCENT	%0.0|%0.0	0.0				
+4	7	fb:cell.38_7_44_n_97_32_14_w_38_12889_n_97_53722_w	38°7′44″N 97°32′14″W﻿ / ﻿38.12889°N 97.53722°W	38|°|7|′|44|″|n|97|°|32|′|14|″|w|\\/|38.12889|°|n|97.53722|°|w	38|°|7|′|44|″|n|97|°|32|′|14|″|w|\\/|38.12889|°|n|97.53722|°|w	CD|NN|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||7.0||44.0|44.0||97.0||32.0|32.0|32.0||||38.12889|38.12889||97.53722|97.53722|	38.0		7.0	38°7′44″N 97°32′14″W﻿|﻿38.12889°N 97.53722°W	fb:part.38_7_44_n_97_32_14_w|fb:part.38_12889_n_97_53722_w
+5	0	fb:cell.halstead	Halstead	halstead	Halstead	NNP	PERSON						
+5	1	fb:cell.29625	29625	29625	29625	CD	NUMBER	29625.0	29625.0				
+5	2	fb:cell.353	353	353	353	CD	NUMBER	353.0	353.0				
+5	3	fb:cell.4_10	4 (10)	4|-lrb-|10|-rrb-	4|-lrb-|10|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||10.0|	4.0		10.0		
+5	4	fb:cell.92_35	92 (35)	92|-lrb-|35|-rrb-	92|-lrb-|35|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	92.0||35.0|	92.0		35.0		
+5	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+5	6	fb:cell.0_07	0.07%	0.07|%	0.07|%	CD|NN	PERCENT|PERCENT	%0.07|%0.07	0.07				
+5	7	fb:cell.38_2_9_n_97_31_51_w_38_03583_n_97_53083_w	38°2′9″N 97°31′51″W﻿ / ﻿38.03583°N 97.53083°W	38|°|2|′|9|″|n|97|°|31|′|51|″|w|\\/|38.03583|°|n|97.53083|°|w	38|°|2|′|9|″|n|97|°|31|′|51|″|w|\\/|38.03583|°|n|97.53083|°|w	CD|NN|CD|CD|CD|NN|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||2.0|2.0|2.0|||97.0||31.0|31.0|31.0||||38.03583|38.03583||97.53083|97.53083|	38.0		2.0	38°2′9″N 97°31′51″W﻿|﻿38.03583°N 97.53083°W	fb:part.38_2_9_n_97_31_51_w|fb:part.38_03583_n_97_53083_w
+6	0	fb:cell.highland	Highland	highland	Highland	NNP	LOCATION						
+6	1	fb:cell.31875	31875	31875	31875	CD	NUMBER	31875.0	31875.0				
+6	2	fb:cell.415	415	415	415	CD	NUMBER	415.0	415.0				
+6	3	fb:cell.5_12	5 (12)	5|-lrb-|12|-rrb-	5|-lrb-|12|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5.0||12.0|	5.0		12.0		
+6	4	fb:cell.92_35	92 (35)	92|-lrb-|35|-rrb-	92|-lrb-|35|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	92.0||35.0|	92.0		35.0		
+6	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+6	6	fb:cell.0_19	0.19%	0.19|%	0.19|%	CD|NN	PERCENT|PERCENT	%0.19|%0.19	0.19				
+6	7	fb:cell.38_7_38_n_97_19_9_w_38_12722_n_97_31917_w	38°7′38″N 97°19′9″W﻿ / ﻿38.12722°N 97.31917°W	38|°|7|′|38|″|n|97|°|19|′|9|″|w|\\/|38.12722|°|n|97.31917|°|w	38|°|7|′|38|″|n|97|°|19|′|9|″|w|\\/|38.12722|°|n|97.31917|°|w	CD|NN|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||7.0||38.0|38.0||97.0||19.0|19.0|19.0||||38.12722|38.12722||97.31917|97.31917|	38.0		7.0	38°7′38″N 97°19′9″W﻿|﻿38.12722°N 97.31917°W	fb:part.38_7_38_n_97_19_9_w|fb:part.38_12722_n_97_31917_w
+7	0	fb:cell.lake	Lake	lake	Lake	NNP	O						
+7	1	fb:cell.37825	37825	37825	37825	CD	NUMBER	37825.0	37825.0				
+7	2	fb:cell.173	173	173	173	CD	NUMBER	173.0	173.0				
+7	3	fb:cell.2_5	2 (5)	2|-lrb-|5|-rrb-	2|-lrb-|5|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	2.0||5.0|	2.0		5.0		
+7	4	fb:cell.92_36	92 (36)	92|-lrb-|36|-rrb-	92|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	92.0||36.0|	92.0		36.0		
+7	5	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+7	6	fb:cell.1_05	1.05%	1.05|%	1.05|%	CD|NN	PERCENT|PERCENT	%1.05|%1.05	1.05				
+7	7	fb:cell.37_57_46_n_97_39_7_w_37_96278_n_97_65194_w	37°57′46″N 97°39′7″W﻿ / ﻿37.96278°N 97.65194°W	37|°|57|′|46|″|n|97|°|39|′|7|″|w|\\/|37.96278|°|n|97.65194|°|w	37|°|57|′|46|″|n|97|°|39|′|7|″|w|\\/|37.96278|°|n|97.65194|°|w	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||46.0|46.0||97.0|97.0|97.0||7.0||||37.96278|37.96278||97.65194|97.65194|	37.0		57.0	37°57′46″N 97°39′7″W﻿|﻿37.96278°N 97.65194°W	fb:part.37_57_46_n_97_39_7_w|fb:part.37_96278_n_97_65194_w
+8	0	fb:cell.lakin	Lakin	lakin	Lakin	NNP	PERSON						
+8	1	fb:cell.38150	38150	38150	38150	CD	NUMBER	38150.0	38150.0				
+8	2	fb:cell.357	357	357	357	CD	NUMBER	357.0	357.0				
+8	3	fb:cell.4_10	4 (10)	4|-lrb-|10|-rrb-	4|-lrb-|10|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||10.0|	4.0		10.0		
+8	4	fb:cell.92_35	92 (35)	92|-lrb-|35|-rrb-	92|-lrb-|35|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	92.0||35.0|	92.0		35.0		
+8	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+8	6	fb:cell.0_06	0.06%	0.06|%	0.06|%	CD|NN	PERCENT|PERCENT	%0.06|%0.06	0.06				
+8	7	fb:cell.37_57_18_n_97_32_20_w_37_95500_n_97_53889_w	37°57′18″N 97°32′20″W﻿ / ﻿37.95500°N 97.53889°W	37|°|57|′|18|″|n|97|°|32|′|20|″|w|\\/|37.95500|°|n|97.53889|°|w	37|°|57|′|18|″|n|97|°|32|′|20|″|w|\\/|37.95500|°|n|97.53889|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||18.0|18.0||97.0||32.0|32.0|32.0||||37.955|37.955||97.53889|97.53889|	37.0		57.0	37°57′18″N 97°32′20″W﻿|﻿37.95500°N 97.53889°W	fb:part.37_57_18_n_97_32_20_w|fb:part.37_95500_n_97_53889_w
+9	0	fb:cell.macon	Macon	macon	Macon	NNP	LOCATION						
+9	1	fb:cell.43925	43925	43925	43925	CD	NUMBER	43925.0	43925.0				
+9	2	fb:cell.1_056	1,056	1,056	1,056	CD	NUMBER	1056.0	1056.0				
+9	3	fb:cell.11_30	11 (30)	11|-lrb-|30|-rrb-	11|-lrb-|30|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	11.0||30.0|	11.0		30.0		
+9	4	fb:cell.92_36	92 (36)	92|-lrb-|36|-rrb-	92|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	92.0||36.0|	92.0		36.0		
+9	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+9	6	fb:cell.0	0%	0|%	0|%	CD|NN	PERCENT|PERCENT	%0.0|%0.0	0.0				
+9	7	fb:cell.38_2_8_n_97_24_58_w_38_03556_n_97_41611_w	38°2′8″N 97°24′58″W﻿ / ﻿38.03556°N 97.41611°W	38|°|2|′|8|″|n|97|°|24|′|58|″|w|\\/|38.03556|°|n|97.41611|°|w	38|°|2|′|8|″|n|97|°|24|′|58|″|w|\\/|38.03556|°|n|97.41611|°|w	CD|NN|CD|CD|CD|NN|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||2.0|2.0|2.0|||97.0||24.0|24.0|24.0||||38.03556|38.03556||97.41611|97.41611|	38.0		2.0	38°2′8″N 97°24′58″W﻿|﻿38.03556°N 97.41611°W	fb:part.38_2_8_n_97_24_58_w|fb:part.38_03556_n_97_41611_w
+10	0	fb:cell.newton	Newton	newton	Newton	NNP	LOCATION						
+10	1	fb:cell.50500	50500	50500	50500	CD	NUMBER	50500.0	50500.0				
+10	2	fb:cell.1_950	1,950	1,950	1,950	CD	NUMBER	1950.0	1950.0				
+10	3	fb:cell.28_73	28 (73)	28|-lrb-|73|-rrb-	28|-lrb-|73|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	28.0||73.0|	28.0		73.0		
+10	4	fb:cell.69_27	69 (27)	69|-lrb-|27|-rrb-	69|-lrb-|27|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	69.0||27.0|	69.0		27.0		
+10	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+10	6	fb:cell.0_07	0.07%	0.07|%	0.07|%	CD|NN	PERCENT|PERCENT	%0.07|%0.07	0.07				
+10	7	fb:cell.38_3_27_n_97_19_31_w_38_05750_n_97_32528_w	38°3′27″N 97°19′31″W﻿ / ﻿38.05750°N 97.32528°W	38|°|3|′|27|″|n|97|°|19|′|31|″|w|\\/|38.05750|°|n|97.32528|°|w	38|°|3|′|27|″|n|97|°|19|′|31|″|w|\\/|38.05750|°|n|97.32528|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0|38.0|38.0||27.0|27.0||97.0||19.0|19.0|19.0||||38.0575|38.0575||97.32528|97.32528|	38.0		3.0	38°3′27″N 97°19′31″W﻿|﻿38.05750°N 97.32528°W	fb:part.38_3_27_n_97_19_31_w|fb:part.38_05750_n_97_32528_w
+11	0	fb:cell.pleasant	Pleasant	pleasant	Pleasant	NNP	O						
+11	1	fb:cell.56250	56250	56250	56250	CD	NUMBER	56250.0	56250.0				
+11	2	fb:cell.439	439	439	439	CD	NUMBER	439.0	439.0				
+11	3	fb:cell.5_12	5 (12)	5|-lrb-|12|-rrb-	5|-lrb-|12|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	5.0||12.0|	5.0		12.0		
+11	4	fb:cell.93_36	93 (36)	93|-lrb-|36|-rrb-	93|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	93.0||36.0|	93.0		36.0		
+11	5	fb:cell.1_0	1 (0)	1|-lrb-|0|-rrb-	1|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	1.0||0.0|	1.0		0.0		
+11	6	fb:cell.0_81	0.81%	0.81|%	0.81|%	CD|NN	PERCENT|PERCENT	%0.81|%0.81	0.81				
+11	7	fb:cell.38_2_27_n_97_12_8_w_38_04083_n_97_20222_w	38°2′27″N 97°12′8″W﻿ / ﻿38.04083°N 97.20222°W	38|°|2|′|27|″|n|97|°|12|′|8|″|w|\\/|38.04083|°|n|97.20222|°|w	38|°|2|′|27|″|n|97|°|12|′|8|″|w|\\/|38.04083|°|n|97.20222|°|w	CD|NN|CD|CD|CD|NN|NN|CD|CD|CD|NN|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|NUMBER|NUMBER|NUMBER|O|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||2.0|2.0|2.0|||97.0|97.0|97.0||8.0||||38.04083|38.04083||97.20222|97.20222|	38.0		2.0	38°2′27″N 97°12′8″W﻿|﻿38.04083°N 97.20222°W	fb:part.38_2_27_n_97_12_8_w|fb:part.38_04083_n_97_20222_w
+12	0	fb:cell.richland	Richland	richland	Richland	NNP	LOCATION						
+12	1	fb:cell.59350	59350	59350	59350	CD	NUMBER	59350.0	59350.0				
+12	2	fb:cell.360	360	360	360	CD	NUMBER	360.0	360.0				
+12	3	fb:cell.4_10	4 (10)	4|-lrb-|10|-rrb-	4|-lrb-|10|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	4.0||10.0|	4.0		10.0		
+12	4	fb:cell.94_36	94 (36)	94|-lrb-|36|-rrb-	94|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	94.0||36.0|	94.0		36.0		
+12	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+12	6	fb:cell.0_20	0.20%	0.20|%	0.20|%	CD|NN	PERCENT|PERCENT	%0.2|%0.2	0.2				
+12	7	fb:cell.37_57_39_n_97_12_1_w_37_96083_n_97_20028_w	37°57′39″N 97°12′1″W﻿ / ﻿37.96083°N 97.20028°W	37|°|57|′|39|″|n|97|°|12|′|1|″|w|\\/|37.96083|°|n|97.20028|°|w	37|°|57|′|39|″|n|97|°|12|′|1|″|w|\\/|37.96083|°|n|97.20028|°|w	CD|CD|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||39.0|39.0||97.0|97.0|97.0||1.0|1.0|||37.96083|37.96083||97.20028|97.20028|	37.0		57.0	37°57′39″N 97°12′1″W﻿|﻿37.96083°N 97.20028°W	fb:part.37_57_39_n_97_12_1_w|fb:part.37_96083_n_97_20028_w
+13	0	fb:cell.sedgwick	Sedgwick	sedgwick	Sedgwick	NNP	PERSON						
+13	1	fb:cell.63825	63825	63825	63825	CD	NUMBER	63825.0	63825.0				
+13	2	fb:cell.1_711	1,711	1,711	1,711	CD	NUMBER	1711.0	1711.0				
+13	3	fb:cell.18_48	18 (48)	18|-lrb-|48|-rrb-	18|-lrb-|48|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	18.0||48.0|	18.0		48.0		
+13	4	fb:cell.93_36	93 (36)	93|-lrb-|36|-rrb-	93|-lrb-|36|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	93.0||36.0|	93.0		36.0		
+13	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+13	6	fb:cell.0	0%	0|%	0|%	CD|NN	PERCENT|PERCENT	%0.0|%0.0	0.0				
+13	7	fb:cell.37_56_24_n_97_25_22_w_37_94000_n_97_42278_w	37°56′24″N 97°25′22″W﻿ / ﻿37.94000°N 97.42278°W	37|°|56|′|24|″|n|97|°|25|′|22|″|w|\\/|37.94000|°|n|97.42278|°|w	37|°|56|′|24|″|n|97|°|25|′|22|″|w|\\/|37.94000|°|n|97.42278|°|w	CD|CD|CD|NN|CD|CD|NN|CD|NN|CD|CD|CD|NN|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|NUMBER|O|NUMBER|NUMBER|NUMBER|O|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	37.0|37.0|37.0||24.0|24.0||97.0||25.0|25.0|25.0||||37.94|37.94||97.42278|97.42278|	37.0		56.0	37°56′24″N 97°25′22″W﻿|﻿37.94000°N 97.42278°W	fb:part.37_56_24_n_97_25_22_w|fb:part.37_94000_n_97_42278_w
+14	0	fb:cell.walton	Walton	walton	Walton	NNP	PERSON						
+14	1	fb:cell.75225	75225	75225	75225	CD	NUMBER	75225.0	75225.0				
+14	2	fb:cell.552	552	552	552	CD	NUMBER	552.0	552.0				
+14	3	fb:cell.6_15	6 (15)	6|-lrb-|15|-rrb-	6|-lrb-|15|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	6.0||15.0|	6.0		15.0		
+14	4	fb:cell.95_37	95 (37)	95|-lrb-|37|-rrb-	95|-lrb-|37|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	95.0||37.0|	95.0		37.0		
+14	5	fb:cell.0_0	0 (0)	0|-lrb-|0|-rrb-	0|-lrb-|0|-rrb-	CD|-LRB-|CD|-RRB-	NUMBER|O|NUMBER|O	0.0||0.0|	0.0		0.0		
+14	6	fb:cell.0_06	0.06%	0.06|%	0.06|%	CD|NN	PERCENT|PERCENT	%0.06|%0.06	0.06				
+14	7	fb:cell.38_7_26_n_97_13_1_w_38_12389_n_97_21694_w	38°7′26″N 97°13′1″W﻿ / ﻿38.12389°N 97.21694°W	38|°|7|′|26|″|n|97|°|13|′|1|″|w|\\/|38.12389|°|n|97.21694|°|w	38|°|7|′|26|″|n|97|°|13|′|1|″|w|\\/|38.12389|°|n|97.21694|°|w	CD|NN|CD|NN|CD|CD|NN|CD|CD|CD|NN|CD|CD|NN|:|CD|CD|NN|CD|CD|NN	NUMBER|O|NUMBER|O|NUMBER|NUMBER|O|NUMBER|NUMBER|NUMBER|O|NUMBER|NUMBER|O|O|NUMBER|NUMBER|O|NUMBER|NUMBER|O	38.0||7.0||26.0|26.0||97.0|97.0|97.0||1.0|1.0|||38.12389|38.12389||97.21694|97.21694|	38.0		7.0	38°7′26″N 97°13′1″W﻿|﻿38.12389°N 97.21694°W	fb:part.38_7_26_n_97_13_1_w|fb:part.38_12389_n_97_21694_w

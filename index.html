@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            table, td, th {  
+              border: 1px solid black;
+              padding: 5px;
+              color: black;
+              font-family: verdana;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1 id='first'>GETTING STARTED WITH BRACKETS</h1>
+        <div id="table"></div>
+        <!--<div id="employee_table"></div>-->
+        <!--<div id="qa"></div>-->
+        
+        <!--<div id="form-group">
+            <label for="description">Description:</label>
+            <input type="text" class="form-control" id="description">
+        </div>-->
+    </body>
+</html>
+
+<script>
+jQuery.ajaxSetup({async:false});
+$(document).ready(function(){
+  /*
+  $.ajax({
+   url:"WikiTableQuestions/csv/200-csv/0.html",
+   dataType:"text",
+   success:function(data)
+   {
+
+    var employee_data = data.split(/\r?\n|\r/);
+    var table_data = '<table class="table table-bordered table-striped">';
+    for(var count = 0; count<employee_data.length; count++)
+    {
+     var cell_data = employee_data[count].split("\t");
+     table_data += '<tr>';
+     for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+     {
+      if(count === 0)
+      {
+       let val = cell_data[cell_count]
+       table_data += `<th onclick='simple(${val})'>`+'<a href="#">' + val + '</a>' + '</th>';
+      }
+      else
+      {
+       let val = cell_data[cell_count]
+       table_data += `<td onclick='simple(${val})'>`+'<a href="#">' + val + '</a>' + '</td>';
+      }
+     }
+     table_data += '</tr>';
+    }
+    table_data += '</table>';
+    console.log($('#employee_table'));
+    $("#panel").html(table_data)
+   }
+  });
+  */
+    var table;
+    $.get('WikiTableQuestions/data/training.tsv', function(data){
+        table = parseDSV(data, '\t');
+    });
+    var generated = ""
+    for (var i = 0; i < 50; i++){
+        // Generate Table Content
+        $.get(`WikiTableQuestions/csv/200-csv/${i}.html`, function(data){
+            generated += data;
+            //$(`#table${i}`).html(data + '<div id=' + `qa${i}` + '></div>');
+        }, 'text');
+        // Generate QA pairs
+        t = getElem(table, 'context', `csv/200-csv/${i}.csv`);
+        var qa = "<div>";
+        table.forEach(function(t){
+            qa += "<p> Question: \t " + t['utterance'] + "<br>" + "Ansewer: \t " + t['targetValue'] + "<\p>";
+        });
+        qa += "</div>";
+        var next = i + 1;
+        //$(`#qa${i}`).html(qa + '<div id=' + `table${next}` + '></div>');
+        generated += qa;
+    };
+    $("#table").html(generated);    
+});
+    
+function parseCSV(data) {
+    return parseDSV(data, ",");
+}
+
+// Tabulation-separated values to JSON
+function parseTSV(data) {
+    return parseDSV(data, "\t");
+}
+
+function getElem(data, name, value){
+    result = [];
+    data.forEach(function(t){
+        if(t[name] == value){
+            result.push(t);
+        }
+    });
+    return result;
+}
+    
+// Delimiter-separated values to JSON
+function parseDSV(data, separator) {
+  var lines = data.split("\n");
+  var headers = lines[0].split(separator);
+  var result = [];
+  for (var i = 1, len = lines.length; i < lines.length; i++) {
+	  var obj = {};
+	  var line = lines[i].split(separator);
+    
+	  for (var j = 0, len = headers.length; j < headers.length; j++) {
+		  obj[headers[j]] = line[j];
+	  }
+      result.push(obj);
+  }
+  return result;
+}
+</script>

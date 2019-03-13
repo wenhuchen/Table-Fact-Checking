@@ -1,0 +1,406 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.season	Season	season	season	NN	O						
+-1	1	fb:row.row.team	Team	team	Team	NNP	O						
+-1	2	fb:row.row.record	Record	record	record	VB	O						
+-1	3	fb:row.row.head_coach	Head Coach	head|coach	Head|coach	NNP|VBP	O|O	|					
+-1	4	fb:row.row.quarterback	Quarterback	quarterback	quarterback	NN	O						
+-1	5	fb:row.row.leading_rusher	Leading Rusher	leading|rusher	lead|rusher	VBG|NN	O|O	|					
+-1	6	fb:row.row.leading_receiver	Leading Receiver	leading|receiver	lead|receiver	VBG|NN	O|O	|					
+-1	7	fb:row.row.all_pros	All-Pros	all|pros	all|pro	DT|NNS	O|O	|					
+-1	8	fb:row.row.runner_up	Runner Up	runner|up	Runner|up	NNP|IN	O|O	|					
+0	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+0	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+0	2	fb:cell.10_4	10–4	10|--|4	10|--|4	CD|:|CD	NUMBER|O|NUMBER	10.0||4.0	10.0		4.0		
+0	3	fb:cell.tom_landry	Tom Landry*	tom|landry|\\*	Tom|Landry|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+0	4	fb:cell.craig_morton	Craig Morton	craig|morton	Craig|Morton	NNP|NNP	PERSON|PERSON	|					
+0	5	fb:cell.duane_thomas	Duane Thomas	duane|thomas	Duane|Thomas	NNP|NNP	PERSON|PERSON	|					
+0	6	fb:cell.bob_hayes	Bob Hayes*	bob|hayes|\\*	Bob|Hayes|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+0	7	fb:cell.howley	Howley	howley	Howley	NNP	PERSON					Howley	fb:part.howley
+0	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+1	0	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+1	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+1	2	fb:cell.11_3	11–3	11|--|3	11|--|3	CD|:|CD	NUMBER|O|NUMBER	11.0||3.0	11.0		3.0		
+1	3	fb:cell.tom_landry	Tom Landry*	tom|landry|\\*	Tom|Landry|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+1	4	fb:cell.roger_staubach	Roger Staubach*	roger|staubach|\\*	Roger|Staubach|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+1	5	fb:cell.duane_thomas	Duane Thomas	duane|thomas	Duane|Thomas	NNP|NNP	PERSON|PERSON	|					
+1	6	fb:cell.bob_hayes	Bob Hayes*	bob|hayes|\\*	Bob|Hayes|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+1	7	fb:cell.lilly_niland_wright	Lilly*, Niland, Wright*	lilly|\\*|,|niland|,|wright|\\*	Lilly|\\*|,|Niland|,|Wright|\\*	NNP|SYM|,|NNP|,|NNP|SYM	PERSON|O|O|PERSON|O|PERSON|O	||||||				Lilly*|Niland|Wright*	fb:part.lilly|fb:part.niland|fb:part.wright
+1	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+2	0	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+2	1	fb:cell.washington_redskins	Washington Redskins	washington|redskins	Washington|Redskins	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+2	2	fb:cell.11_3	11–3	11|--|3	11|--|3	CD|:|CD	NUMBER|O|NUMBER	11.0||3.0	11.0		3.0		
+2	3	fb:cell.george_allen	George Allen*	george|allen|\\*	George|Allen|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+2	4	fb:cell.billy_kilmer	Billy Kilmer	billy|kilmer	Billy|Kilmer	NNP|NNP	PERSON|PERSON	|					
+2	5	fb:cell.larry_brown	Larry Brown	larry|brown	Larry|Brown	NNP|NNP	PERSON|PERSON	|					
+2	6	fb:cell.charley_taylor	Charley Taylor*	charley|taylor|\\*	Charley|Taylor|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+2	7	fb:cell.brown_hanburger	Brown, Hanburger*	brown|,|hanburger|\\*	Brown|,|Hanburger|\\*	NNP|,|NNP|SYM	PERSON|O|O|O	|||				Brown|Hanburger*	fb:part.brown|fb:part.hanburger
+2	8	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+3	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+3	1	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+3	2	fb:cell.12_2	12–2	12|--|2	12|--|2	CD|:|CD	NUMBER|O|NUMBER	12.0||2.0	12.0		2.0		
+3	3	fb:cell.bud_grant	Bud Grant*	bud|grant|\\*	Bud|Grant|\\*	NNP|NNP|SYM	O|O|O	||					
+3	4	fb:cell.fran_tarkenton	Fran Tarkenton*	fran|tarkenton|\\*	Fran|Tarkenton|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+3	5	fb:cell.chuck_foreman	Chuck Foreman	chuck|foreman	Chuck|Foreman	NNP|NNP	PERSON|PERSON	|					
+3	6	fb:cell.john_gilliam	John Gilliam	john|gilliam	John|Gilliam	NNP|NNP	PERSON|PERSON	|					
+3	7	fb:cell.eller_page_yary	Eller*, Page*, Yary*	eller|\\*|,|page|\\*|,|yary|\\*	Eller|\\*|,|Page|\\*|,|Yary|\\*	NNP|SYM|,|NNP|SYM|,|NNP|SYM	PERSON|O|O|O|O|O|PERSON|O	|||||||				Eller*|Page*|Yary*	fb:part.eller|fb:part.page|fb:part.yary
+3	8	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+4	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+4	1	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+4	2	fb:cell.10_4	10–4	10|--|4	10|--|4	CD|:|CD	NUMBER|O|NUMBER	10.0||4.0	10.0		4.0		
+4	3	fb:cell.bud_grant	Bud Grant*	bud|grant|\\*	Bud|Grant|\\*	NNP|NNP|SYM	O|O|O	||					
+4	4	fb:cell.fran_tarkenton	Fran Tarkenton*	fran|tarkenton|\\*	Fran|Tarkenton|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+4	5	fb:cell.chuck_foreman	Chuck Foreman	chuck|foreman	Chuck|Foreman	NNP|NNP	PERSON|PERSON	|					
+4	6	fb:cell.jim_lash	Jim Lash	jim|lash	Jim|Lash	NNP|NNP	PERSON|PERSON	|					
+4	7	fb:cell.page_yary	Page*, Yary*	page|\\*|,|yary|\\*	Page|\\*|,|Yary|\\*	NNP|SYM|,|NNP|SYM	O|O|O|PERSON|O	||||				Page*|Yary*	fb:part.page|fb:part.yary
+4	8	fb:cell.los_angeles_rams	Los Angeles Rams	los|angeles|rams	Los|Angeles|Rams	NNP|NNP|NNPS	O|O|O	||					
+5	0	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+5	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+5	2	fb:cell.10_4	10–4	10|--|4	10|--|4	CD|:|CD	NUMBER|O|NUMBER	10.0||4.0	10.0		4.0		
+5	3	fb:cell.tom_landry	Tom Landry*	tom|landry|\\*	Tom|Landry|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+5	4	fb:cell.roger_staubach	Roger Staubach*	roger|staubach|\\*	Roger|Staubach|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+5	5	fb:cell.robert_newhouse	Robert Newhouse	robert|newhouse	Robert|Newhouse	NNP|NNP	PERSON|PERSON	|					
+5	6	fb:cell.drew_pearson	Drew Pearson	drew|pearson	Drew|Pearson	NNP|NNP	PERSON|PERSON	|					
+5	7	fb:cell.none	none	none	none	NN	O					none	fb:part.none
+5	8	fb:cell.los_angeles_rams	Los Angeles Rams	los|angeles|rams	Los|Angeles|Rams	NNP|NNP|NNPS	O|O|O	||					
+6	0	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+6	1	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+6	2	fb:cell.11_2_1	11–2–1	11|--|2|--|1	11|--|2|--|1	CD|:|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER	11.0||2.0||1.0	11.0		2.0		
+6	3	fb:cell.bud_grant	Bud Grant*	bud|grant|\\*	Bud|Grant|\\*	NNP|NNP|SYM	O|O|O	||					
+6	4	fb:cell.fran_tarkenton	Fran Tarkenton*	fran|tarkenton|\\*	Fran|Tarkenton|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+6	5	fb:cell.chuck_foreman	Chuck Foreman	chuck|foreman	Chuck|Foreman	NNP|NNP	PERSON|PERSON	|					
+6	6	fb:cell.sammy_white	Sammy White	sammy|white	Sammy|White	NNP|NNP	PERSON|PERSON	|					
+6	7	fb:cell.yary	Yary*	yary|\\*	Yary|\\*	NNP|SYM	PERSON|O	|				Yary*	fb:part.yary
+6	8	fb:cell.los_angeles_rams	Los Angeles Rams	los|angeles|rams	Los|Angeles|Rams	NNP|NNP|NNPS	O|O|O	||					
+7	0	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+7	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+7	2	fb:cell.12_2	12–2	12|--|2	12|--|2	CD|:|CD	NUMBER|O|NUMBER	12.0||2.0	12.0		2.0		
+7	3	fb:cell.tom_landry	Tom Landry*	tom|landry|\\*	Tom|Landry|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+7	4	fb:cell.roger_staubach	Roger Staubach*	roger|staubach|\\*	Roger|Staubach|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+7	5	fb:cell.tony_dorsett	Tony Dorsett*	tony|dorsett|\\*	Tony|Dorsett|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+7	6	fb:cell.drew_pearson	Drew Pearson	drew|pearson	Drew|Pearson	NNP|NNP	PERSON|PERSON	|					
+7	7	fb:cell.harris_herrera_martin_pearson	Harris, Herrera, Martin, Pearson	harris|,|herrera|,|martin|,|pearson	Harris|,|Herrera|,|Martin|,|Pearson	NNP|,|NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON|O|PERSON	||||||				Harris|Herrera|Martin|Pearson	fb:part.harris|fb:part.herrera|fb:part.martin|fb:part.pearson
+7	8	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+8	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+8	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+8	2	fb:cell.12_4	12–4	12|--|4	12|--|4	CD|:|CD	NUMBER|O|NUMBER	12.0||4.0	12.0		4.0		
+8	3	fb:cell.tom_landry	Tom Landry*	tom|landry|\\*	Tom|Landry|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+8	4	fb:cell.roger_staubach	Roger Staubach*	roger|staubach|\\*	Roger|Staubach|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+8	5	fb:cell.tony_dorsett	Tony Dorsett*	tony|dorsett|\\*	Tony|Dorsett|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+8	6	fb:cell.tony_hill	Tony Hill	tony|hill	Tony|Hill	NNP|NNP	PERSON|PERSON	|					
+8	7	fb:cell.harris_white	Harris, White*	harris|,|white|\\*	Harris|,|White|\\*	NNP|,|NNP|SYM	PERSON|O|O|O	|||				Harris|White*	fb:part.harris|fb:part.white
+8	8	fb:cell.los_angeles_rams	Los Angeles Rams	los|angeles|rams	Los|Angeles|Rams	NNP|NNP|NNPS	O|O|O	||					
+9	0	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+9	1	fb:cell.los_angeles_rams	Los Angeles Rams	los|angeles|rams	Los|Angeles|Rams	NNP|NNP|NNPS	O|O|O	||					
+9	2	fb:cell.9_7	9–7	9|--|7	9|--|7	CD|:|CD	NUMBER|O|NUMBER	9.0||7.0	9.0		7.0		
+9	3	fb:cell.ray_malavasi	Ray Malavasi	ray|malavasi	Ray|Malavasi	NNP|NNP	PERSON|PERSON	|					
+9	4	fb:cell.pat_haden	Pat Haden	pat|haden	Pat|Haden	NNP|NNP	PERSON|PERSON	|					
+9	5	fb:cell.wendell_tyler	Wendell Tyler	wendell|tyler	Wendell|Tyler	NNP|NNP	PERSON|PERSON	|					
+9	6	fb:cell.preston_dennard	Preston Dennard	preston|dennard	Preston|Dennard	NNP|NNP	PERSON|PERSON	|					
+9	7	fb:cell.brooks_youngblood	Brooks, Youngblood*	brooks|,|youngblood|\\*	Brooks|,|Youngblood|\\*	NNP|,|NNP|SYM	PERSON|O|PERSON|O	|||				Brooks|Youngblood*	fb:part.brooks|fb:part.youngblood
+9	8	fb:cell.tampa_bay_buccaneers	Tampa Bay Buccaneers	tampa|bay|buccaneers	Tampa|Bay|Buccaneers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+10	0	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+10	1	fb:cell.philadelphia_eagles	Philadelphia Eagles	philadelphia|eagles	Philadelphia|Eagles	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+10	2	fb:cell.12_4	12–4	12|--|4	12|--|4	CD|:|CD	NUMBER|O|NUMBER	12.0||4.0	12.0		4.0		
+10	3	fb:cell.dick_vermeil	Dick Vermeil	dick|vermeil	Dick|Vermeil	NNP|NNP	PERSON|PERSON	|					
+10	4	fb:cell.ron_jaworski	Ron Jaworski	ron|jaworski	Ron|Jaworski	NNP|NNP	PERSON|PERSON	|					
+10	5	fb:cell.wilbert_montgomery	Wilbert Montgomery	wilbert|montgomery	Wilbert|Montgomery	NNP|NNP	PERSON|PERSON	|					
+10	6	fb:cell.charlie_smith	Charlie Smith	charlie|smith	Charlie|Smith	NNP|NNP	PERSON|PERSON	|					
+10	7	fb:cell.johnson	Johnson	johnson	Johnson	NNP	PERSON					Johnson	fb:part.johnson
+10	8	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+11	0	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+11	1	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+11	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+11	3	fb:cell.bill_walsh	Bill Walsh*	bill|walsh|\\*	Bill|Walsh|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+11	4	fb:cell.joe_montana	Joe Montana*	joe|montana|\\*	Joe|Montana|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+11	5	fb:cell.ricky_patton	Ricky Patton	ricky|patton	Ricky|Patton	NNP|NNP	PERSON|PERSON	|					
+11	6	fb:cell.dwight_clark	Dwight Clark	dwight|clark	Dwight|Clark	NNP|NNP	PERSON|PERSON	|					
+11	7	fb:cell.dean_lott	Dean*, Lott*	dean|\\*|,|lott|\\*	Dean|\\*|,|Lott|\\*	NNP|SYM|,|NNP|SYM	O|O|O|PERSON|O	||||				Dean*|Lott*	fb:part.dean|fb:part.lott
+11	8	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+12	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+12	1	fb:cell.washington_redskins	Washington Redskins	washington|redskins	Washington|Redskins	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+12	2	fb:cell.8_1	8–1	8|--|1	8|--|1	CD|:|CD	NUMBER|O|NUMBER	8.0||1.0	8.0		1.0		
+12	3	fb:cell.joe_gibbs	Joe Gibbs*	joe|gibbs|\\*	Joe|Gibbs|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+12	4	fb:cell.joe_theismann	Joe Theismann	joe|theismann	Joe|Theismann	NNP|NNP	PERSON|PERSON	|					
+12	5	fb:cell.john_riggins	John Riggins*	john|riggins|\\*	John|Riggins|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+12	6	fb:cell.charlie_brown	Charlie Brown	charlie|brown	Charlie|Brown	NNP|NNP	PERSON|PERSON	|					
+12	7	fb:cell.moseley	Moseley	moseley	Moseley	NNP	PERSON					Moseley	fb:part.moseley
+12	8	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+13	0	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+13	1	fb:cell.washington_redskins	Washington Redskins	washington|redskins	Washington|Redskins	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+13	2	fb:cell.14_2	14–2	14|--|2	14|--|2	CD|:|CD	NUMBER|O|NUMBER	14.0||2.0	14.0		2.0		
+13	3	fb:cell.joe_gibbs	Joe Gibbs*	joe|gibbs|\\*	Joe|Gibbs|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+13	4	fb:cell.joe_theismann	Joe Theismann	joe|theismann	Joe|Theismann	NNP|NNP	PERSON|PERSON	|					
+13	5	fb:cell.john_riggins	John Riggins*	john|riggins|\\*	John|Riggins|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+13	6	fb:cell.charlie_brown	Charlie Brown	charlie|brown	Charlie|Brown	NNP|NNP	PERSON|PERSON	|					
+13	7	fb:cell.butz_grimm_jacoby_murphy_nelms_riggins_theismann	Butz, Grimm*, Jacoby, Murphy, Nelms, Riggins*, Theismann	butz|,|grimm|\\*|,|jacoby|,|murphy|,|nelms|,|riggins|\\*|,|theismann	Butz|,|Grimm|\\*|,|Jacoby|,|Murphy|,|Nelms|,|Riggins|\\*|,|Theismann	NNP|,|NNP|SYM|,|NNP|,|NNP|,|NNP|,|NNP|SYM|,|NNP	PERSON|O|PERSON|O|O|PERSON|O|PERSON|O|PERSON|O|PERSON|O|O|PERSON	||||||||||||||				Butz|Grimm*|Jacoby|Murphy|Nelms|Riggins*|Theismann	fb:part.butz|fb:part.grimm|fb:part.jacoby|fb:part.murphy|fb:part.nelms|fb:part.riggins|fb:part.theismann
+13	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+14	0	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+14	1	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+14	2	fb:cell.15_1	15–1	15|--|1	15|--|1	CD|:|CD	NUMBER|O|NUMBER	15.0||1.0	15.0		1.0		
+14	3	fb:cell.bill_walsh	Bill Walsh*	bill|walsh|\\*	Bill|Walsh|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+14	4	fb:cell.joe_montana	Joe Montana*	joe|montana|\\*	Joe|Montana|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+14	5	fb:cell.wendell_tyler	Wendell Tyler	wendell|tyler	Wendell|Tyler	NNP|NNP	PERSON|PERSON	|					
+14	6	fb:cell.dwight_clark	Dwight Clark	dwight|clark	Dwight|Clark	NNP|NNP	PERSON|PERSON	|					
+14	7	fb:cell.fahnhorst	Fahnhorst	fahnhorst	Fahnhorst	NNP	PERSON					Fahnhorst	fb:part.fahnhorst
+14	8	fb:cell.chicago_bears	Chicago Bears	chicago|bears	Chicago|Bears	NNP|NNPS	LOCATION|O	|					
+15	0	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+15	1	fb:cell.chicago_bears	Chicago Bears	chicago|bears	Chicago|Bears	NNP|NNPS	LOCATION|O	|					
+15	2	fb:cell.15_1	15–1	15|--|1	15|--|1	CD|:|CD	NUMBER|O|NUMBER	15.0||1.0	15.0		1.0		
+15	3	fb:cell.mike_ditka	Mike Ditka*	mike|ditka|\\*	Mike|Ditka|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+15	4	fb:cell.jim_mcmahon	Jim McMahon	jim|mcmahon	Jim|McMahon	NNP|NNP	PERSON|PERSON	|					
+15	5	fb:cell.walter_payton	Walter Payton*	walter|payton|\\*	Walter|Payton|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+15	6	fb:cell.willie_gault	Willie Gault	willie|gault	Willie|Gault	NNP|NNP	PERSON|PERSON	|					
+15	7	fb:cell.covert_dent_mcmichael_payton_singletary	Covert, Dent*, McMichael, Payton*, Singletary*	covert|,|dent|\\*|,|mcmichael|,|payton|\\*|,|singletary|\\*	Covert|,|Dent|\\*|,|McMichael|,|Payton|\\*|,|Singletary|\\*	NNP|,|NNP|SYM|,|NNP|,|NNP|SYM|,|NNP|SYM	O|O|O|O|O|PERSON|O|PERSON|O|O|PERSON|O	|||||||||||				Covert|Dent*|McMichael|Payton*|Singletary*	fb:part.covert|fb:part.dent|fb:part.mcmichael|fb:part.payton|fb:part.singletary
+15	8	fb:cell.los_angeles_rams	Los Angeles Rams	los|angeles|rams	Los|Angeles|Rams	NNP|NNP|NNPS	O|O|O	||					
+16	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+16	1	fb:cell.new_york_giants	New York Giants†	new|york|giants|†	New|York|Giants|†	NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+16	2	fb:cell.14_2	14–2	14|--|2	14|--|2	CD|:|CD	NUMBER|O|NUMBER	14.0||2.0	14.0		2.0		
+16	3	fb:cell.bill_parcells	Bill Parcells*	bill|parcells|\\*	Bill|Parcells|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+16	4	fb:cell.phil_simms	Phil Simms	phil|simms	Phil|Simms	NNP|NNP	PERSON|PERSON	|					
+16	5	fb:cell.joe_morris	Joe Morris	joe|morris	Joe|Morris	NNP|NNP	PERSON|PERSON	|					
+16	6	fb:cell.mark_bavaro	Mark Bavaro	mark|bavaro	Mark|Bavaro	NNP|NNP	PERSON|PERSON	|					
+16	7	fb:cell.bavaro_landeta_morris_taylor	Bavaro, Landeta, Morris, Taylor*	bavaro|,|landeta|,|morris|,|taylor|\\*	Bavaro|,|Landeta|,|Morris|,|Taylor|\\*	NNP|,|NNP|,|NNP|,|NNP|SYM	PERSON|O|PERSON|O|PERSON|O|PERSON|O	|||||||				Bavaro|Landeta|Morris|Taylor*	fb:part.bavaro|fb:part.landeta|fb:part.morris|fb:part.taylor
+16	8	fb:cell.washington_redskins	Washington Redskins	washington|redskins	Washington|Redskins	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+17	0	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+17	1	fb:cell.washington_redskins	Washington Redskins	washington|redskins	Washington|Redskins	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+17	2	fb:cell.11_4	11–4	11|--|4	11|--|4	CD|:|CD	NUMBER|O|NUMBER	11.0||4.0	11.0		4.0		
+17	3	fb:cell.joe_gibbs	Joe Gibbs*	joe|gibbs|\\*	Joe|Gibbs|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+17	4	fb:cell.jay_schroeder	Jay Schroeder	jay|schroeder	Jay|Schroeder	NNP|NNP	PERSON|PERSON	|					
+17	5	fb:cell.george_rogers	George Rogers	george|rogers	George|Rogers	NNP|NNP	PERSON|PERSON	|					
+17	6	fb:cell.gary_clark	Gary Clark	gary|clark	Gary|Clark	NNP|NNP	PERSON|PERSON	|					
+17	7	fb:cell.clark_wilburn	Clark, Wilburn	clark|,|wilburn	Clark|,|Wilburn	NNP|,|NNP	PERSON|O|PERSON	||				Clark|Wilburn	fb:part.clark|fb:part.wilburn
+17	8	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+18	0	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+18	1	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+18	2	fb:cell.10_6	10–6	10|--|6	10|--|6	CD|:|CD	NUMBER|O|NUMBER	10.0||6.0	10.0		6.0		
+18	3	fb:cell.bill_walsh	Bill Walsh*	bill|walsh|\\*	Bill|Walsh|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+18	4	fb:cell.joe_montana	Joe Montana*	joe|montana|\\*	Joe|Montana|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+18	5	fb:cell.roger_craig	Roger Craig	roger|craig	Roger|Craig	NNP|NNP	PERSON|PERSON	|					
+18	6	fb:cell.jerry_rice	Jerry Rice*	jerry|rice|\\*	Jerry|Rice|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+18	7	fb:cell.craig_rice	Craig, Rice*	craig|,|rice|\\*	Craig|,|Rice|\\*	NNP|,|NNP|SYM	PERSON|O|O|O	|||				Craig|Rice*	fb:part.craig|fb:part.rice
+18	8	fb:cell.chicago_bears	Chicago Bears	chicago|bears	Chicago|Bears	NNP|NNPS	LOCATION|O	|					
+19	0	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+19	1	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+19	2	fb:cell.14_2	14–2	14|--|2	14|--|2	CD|:|CD	NUMBER|O|NUMBER	14.0||2.0	14.0		2.0		
+19	3	fb:cell.george_seifert	George Seifert	george|seifert	George|Seifert	NNP|NNP	PERSON|PERSON	|					
+19	4	fb:cell.joe_montana	Joe Montana*	joe|montana|\\*	Joe|Montana|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+19	5	fb:cell.roger_craig	Roger Craig	roger|craig	Roger|Craig	NNP|NNP	PERSON|PERSON	|					
+19	6	fb:cell.jerry_rice	Jerry Rice*	jerry|rice|\\*	Jerry|Rice|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+19	7	fb:cell.cofer_lott_montana_rice	Cofer, Lott*, Montana*, Rice*,	cofer|,|lott|\\*|,|montana|\\*|,|rice|\\*|,	Cofer|,|Lott|\\*|,|Montana|\\*|,|Rice|\\*|,	NNP|,|NNP|SYM|,|NNP|SYM|,|NNP|SYM|,	PERSON|O|PERSON|O|O|LOCATION|O|O|O|O|O	||||||||||				Cofer|Lott*|Montana*|Rice*,	fb:part.cofer|fb:part.lott|fb:part.montana|fb:part.rice_2
+19	8	fb:cell.los_angeles_rams	Los Angeles Rams	los|angeles|rams	Los|Angeles|Rams	NNP|NNP|NNPS	O|O|O	||					
+20	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+20	1	fb:cell.new_york_giants	New York Giants†	new|york|giants|†	New|York|Giants|†	NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+20	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+20	3	fb:cell.bill_parcells	Bill Parcells*	bill|parcells|\\*	Bill|Parcells|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+20	4	fb:cell.phil_simms	Phil Simms	phil|simms	Phil|Simms	NNP|NNP	PERSON|PERSON	|					
+20	5	fb:cell.ottis_anderson	Ottis Anderson	ottis|anderson	Ottis|Anderson	NNP|NNP	PERSON|PERSON	|					
+20	6	fb:cell.stephen_baker	Stephen Baker	stephen|baker	Stephen|Baker	NNP|NNP	PERSON|PERSON	|					
+20	7	fb:cell.johnson_landeta	Johnson, Landeta	johnson|,|landeta	Johnson|,|Landeta	NNP|,|NNP	PERSON|O|PERSON	||				Johnson|Landeta	fb:part.johnson|fb:part.landeta
+20	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+21	0	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+21	1	fb:cell.washington_redskins	Washington Redskins	washington|redskins	Washington|Redskins	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+21	2	fb:cell.14_2	14–2	14|--|2	14|--|2	CD|:|CD	NUMBER|O|NUMBER	14.0||2.0	14.0		2.0		
+21	3	fb:cell.joe_gibbs	Joe Gibbs*	joe|gibbs|\\*	Joe|Gibbs|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+21	4	fb:cell.mark_rypien	Mark Rypien	mark|rypien	Mark|Rypien	NNP|NNP	PERSON|PERSON	|					
+21	5	fb:cell.earnest_byner	Earnest Byner	earnest|byner	Earnest|Byner	NNP|NNP	O|O	|					
+21	6	fb:cell.gary_clark	Gary Clark	gary|clark	Gary|Clark	NNP|NNP	PERSON|PERSON	|					
+21	7	fb:cell.green_lachey	Green*, Lachey	green|\\*|,|lachey	Green|\\*|,|Lachey	NNP|SYM|,|NNP	O|O|O|PERSON	|||				Green*|Lachey	fb:part.green|fb:part.lachey
+21	8	fb:cell.detroit_lions	Detroit Lions	detroit|lions	Detroit|Lions	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+22	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+22	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+22	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+22	3	fb:cell.jimmy_johnson	Jimmy Johnson	jimmy|johnson	Jimmy|Johnson	NNP|NNP	PERSON|PERSON	|					
+22	4	fb:cell.troy_aikman	Troy Aikman*	troy|aikman|\\*	Troy|Aikman|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+22	5	fb:cell.emmitt_smith	Emmitt Smith*	emmitt|smith|\\*	Emmitt|Smith|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+22	6	fb:cell.michael_irvin	Michael Irvin*	michael|irvin|\\*	Michael|Irvin|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+22	7	fb:cell.novacek_smith	Novacek, Smith*	novacek|,|smith|\\*	Novacek|,|Smith|\\*	NNP|,|NNP|SYM	PERSON|O|PERSON|O	|||				Novacek|Smith*	fb:part.novacek|fb:part.smith
+22	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+23	0	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+23	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+23	2	fb:cell.12_4	12–4	12|--|4	12|--|4	CD|:|CD	NUMBER|O|NUMBER	12.0||4.0	12.0		4.0		
+23	3	fb:cell.jimmy_johnson	Jimmy Johnson	jimmy|johnson	Jimmy|Johnson	NNP|NNP	PERSON|PERSON	|					
+23	4	fb:cell.troy_aikman	Troy Aikman*	troy|aikman|\\*	Troy|Aikman|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+23	5	fb:cell.emmitt_smith	Emmitt Smith*	emmitt|smith|\\*	Emmitt|Smith|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+23	6	fb:cell.michael_irvin	Michael Irvin*	michael|irvin|\\*	Michael|Irvin|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+23	7	fb:cell.smith_williams	Smith*, Williams	smith|\\*|,|williams	Smith|\\*|,|Williams	NNP|SYM|,|NNP	PERSON|O|O|PERSON	|||				Smith*|Williams	fb:part.smith|fb:part.williams
+23	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+24	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+24	1	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+24	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+24	3	fb:cell.george_seifert	George Seifert	george|seifert	George|Seifert	NNP|NNP	PERSON|PERSON	|					
+24	4	fb:cell.steve_young	Steve Young*	steve|young|\\*	Steve|Young|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+24	5	fb:cell.ricky_watters	Ricky Watters	ricky|watters	Ricky|Watters	NNP|NNP	PERSON|PERSON	|					
+24	6	fb:cell.jerry_rice	Jerry Rice*	jerry|rice|\\*	Jerry|Rice|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+24	7	fb:cell.rice_sanders_young	Rice*, Sanders*, Young*	rice|\\*|,|sanders|\\*|,|young|\\*	Rice|\\*|,|Sanders|\\*|,|Young|\\*	NNP|SYM|,|NNP|SYM|,|NNP|SYM	O|O|O|PERSON|O|O|O|O	|||||||				Rice*|Sanders*|Young*	fb:part.rice|fb:part.sanders|fb:part.young
+24	8	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+25	0	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+25	1	fb:cell.dallas_cowboys	Dallas Cowboys	dallas|cowboys	Dallas|Cowboys	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+25	2	fb:cell.12_4	12–4	12|--|4	12|--|4	CD|:|CD	NUMBER|O|NUMBER	12.0||4.0	12.0		4.0		
+25	3	fb:cell.barry_switzer	Barry Switzer	barry|switzer	Barry|Switzer	NNP|NNP	PERSON|PERSON	|					
+25	4	fb:cell.troy_aikman	Troy Aikman*	troy|aikman|\\*	Troy|Aikman|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+25	5	fb:cell.emmitt_smith	Emmitt Smith*	emmitt|smith|\\*	Emmitt|Smith|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+25	6	fb:cell.michael_irvin	Michael Irvin*	michael|irvin|\\*	Michael|Irvin|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+25	7	fb:cell.newton_smith_woodson	Newton, Smith*, Woodson	newton|,|smith|\\*|,|woodson	Newton|,|Smith|\\*|,|Woodson	NNP|,|NNP|SYM|,|NNP	PERSON|O|PERSON|O|O|PERSON	|||||				Newton|Smith*|Woodson	fb:part.newton|fb:part.smith|fb:part.woodson
+25	8	fb:cell.green_bay_packers	Green Bay Packers	green|bay|packers	Green|Bay|Packers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+26	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+26	1	fb:cell.green_bay_packers	Green Bay Packers	green|bay|packers	Green|Bay|Packers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+26	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+26	3	fb:cell.mike_holmgren	Mike Holmgren	mike|holmgren	Mike|Holmgren	NNP|NNP	PERSON|PERSON	|					
+26	4	fb:cell.brett_favre	Brett Favre	brett|favre	Brett|Favre	NNP|NNP	PERSON|PERSON	|					
+26	5	fb:cell.edgar_bennett	Edgar Bennett	edgar|bennett	Edgar|Bennett	NNP|NNP	PERSON|PERSON	|					
+26	6	fb:cell.antonio_freeman	Antonio Freeman	antonio|freeman	Antonio|Freeman	NNP|NNP	PERSON|PERSON	|					
+26	7	fb:cell.butler_favre	Butler, Favre	butler|,|favre	Butler|,|Favre	NNP|,|NNP	PERSON|O|PERSON	||				Butler|Favre	fb:part.butler|fb:part.favre
+26	8	fb:cell.carolina_panthers	Carolina Panthers	carolina|panthers	Carolina|Panthers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+27	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+27	1	fb:cell.green_bay_packers	Green Bay Packers	green|bay|packers	Green|Bay|Packers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+27	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+27	3	fb:cell.mike_holmgren	Mike Holmgren	mike|holmgren	Mike|Holmgren	NNP|NNP	PERSON|PERSON	|					
+27	4	fb:cell.brett_favre	Brett Favre	brett|favre	Brett|Favre	NNP|NNP	PERSON|PERSON	|					
+27	5	fb:cell.dorsey_levens	Dorsey Levens	dorsey|levens	Dorsey|Levens	NNP|NNP	PERSON|PERSON	|					
+27	6	fb:cell.antonio_freeman	Antonio Freeman	antonio|freeman	Antonio|Freeman	NNP|NNP	PERSON|PERSON	|					
+27	7	fb:cell.butler_favre	Butler, Favre	butler|,|favre	Butler|,|Favre	NNP|,|NNP	PERSON|O|PERSON	||				Butler|Favre	fb:part.butler|fb:part.favre
+27	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+28	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+28	1	fb:cell.atlanta_falcons	Atlanta Falcons	atlanta|falcons	Atlanta|Falcons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+28	2	fb:cell.14_2	14–2	14|--|2	14|--|2	CD|:|CD	NUMBER|O|NUMBER	14.0||2.0	14.0		2.0		
+28	3	fb:cell.dan_reeves	Dan Reeves	dan|reeves	Dan|Reeves	NNP|NNP	PERSON|PERSON	|					
+28	4	fb:cell.chris_chandler	Chris Chandler	chris|chandler	Chris|Chandler	NNP|NNP	PERSON|PERSON	|					
+28	5	fb:cell.jamal_anderson	Jamal Anderson	jamal|anderson	Jamal|Anderson	NNP|NNP	PERSON|PERSON	|					
+28	6	fb:cell.tony_martin	Tony Martin	tony|martin	Tony|Martin	NNP|NNP	PERSON|PERSON	|					
+28	7	fb:cell.anderson	Anderson	anderson	Anderson	NNP	PERSON					Anderson	fb:part.anderson
+28	8	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+29	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+29	1	fb:cell.st_louis_rams	St. Louis Rams†	st.|louis|rams|†	St.|Louis|Rams|†	NNP|NNP|NNPS|SYM	LOCATION|LOCATION|O|O	|||					
+29	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+29	3	fb:cell.dick_vermeil	Dick Vermeil	dick|vermeil	Dick|Vermeil	NNP|NNP	PERSON|PERSON	|					
+29	4	fb:cell.kurt_warner	Kurt Warner	kurt|warner	Kurt|Warner	NNP|NNP	PERSON|PERSON	|					
+29	5	fb:cell.marshall_faulk	Marshall Faulk*	marshall|faulk|\\*	Marshall|Faulk|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+29	6	fb:cell.isaac_bruce	Isaac Bruce	isaac|bruce	Isaac|Bruce	NNP|NNP	PERSON|PERSON	|					
+29	7	fb:cell.carter_faulk_pace_warner	Carter, Faulk*, Pace, Warner	carter|,|faulk|\\*|,|pace|,|warner	Carter|,|Faulk|\\*|,|Pace|,|Warner	NNP|,|NNP|SYM|,|NNP|,|NNP	PERSON|O|PERSON|O|O|O|O|ORGANIZATION	|||||||				Carter|Faulk*|Pace|Warner	fb:part.carter|fb:part.faulk|fb:part.pace|fb:part.warner
+29	8	fb:cell.tampa_bay_buccaneers	Tampa Bay Buccaneers	tampa|bay|buccaneers	Tampa|Bay|Buccaneers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+30	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+30	1	fb:cell.new_york_giants	New York Giants†	new|york|giants|†	New|York|Giants|†	NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+30	2	fb:cell.12_4	12–4	12|--|4	12|--|4	CD|:|CD	NUMBER|O|NUMBER	12.0||4.0	12.0		4.0		
+30	3	fb:cell.jim_fassel	Jim Fassel	jim|fassel	Jim|Fassel	NNP|NNP	PERSON|PERSON	|					
+30	4	fb:cell.kerry_collins	Kerry Collins	kerry|collins	Kerry|Collins	NNP|NNP	PERSON|PERSON	|					
+30	5	fb:cell.tiki_barber	Tiki Barber	tiki|barber	Tiki|Barber	NNP|NNP	PERSON|PERSON	|					
+30	6	fb:cell.amani_toomer	Amani Toomer	amani|toomer	Amani|Toomer	NNP|NNP	PERSON|PERSON	|					
+30	7	fb:cell.none	none	none	none	NN	O					none	fb:part.none
+30	8	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+31	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+31	1	fb:cell.st_louis_rams	St. Louis Rams†	st.|louis|rams|†	St.|Louis|Rams|†	NNP|NNP|NNPS|SYM	LOCATION|LOCATION|O|O	|||					
+31	2	fb:cell.14_2	14–2	14|--|2	14|--|2	CD|:|CD	NUMBER|O|NUMBER	14.0||2.0	14.0		2.0		
+31	3	fb:cell.mike_martz	Mike Martz	mike|martz	Mike|Martz	NNP|NNP	PERSON|PERSON	|					
+31	4	fb:cell.kurt_warner	Kurt Warner	kurt|warner	Kurt|Warner	NNP|NNP	PERSON|PERSON	|					
+31	5	fb:cell.marshall_faulk	Marshall Faulk*	marshall|faulk|\\*	Marshall|Faulk|\\*	NNP|NNP|SYM	PERSON|PERSON|O	||					
+31	6	fb:cell.torry_holt	Torry Holt	torry|holt	Torry|Holt	NNP|NNP	PERSON|PERSON	|					
+31	7	fb:cell.faulk_pace_warner_williams	Faulk*, Pace, Warner, Williams*	faulk|\\*|,|pace|,|warner|,|williams|\\*	Faulk|\\*|,|Pace|,|Warner|,|Williams|\\*	NNP|SYM|,|NNP|,|NNP|,|NNP|SYM	PERSON|O|O|O|O|ORGANIZATION|O|PERSON|O	||||||||				Faulk*|Pace|Warner|Williams*	fb:part.faulk|fb:part.pace|fb:part.warner|fb:part.williams_2
+31	8	fb:cell.philadelphia_eagles	Philadelphia Eagles	philadelphia|eagles	Philadelphia|Eagles	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+32	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+32	1	fb:cell.tampa_bay_buccaneers	Tampa Bay Buccaneers	tampa|bay|buccaneers	Tampa|Bay|Buccaneers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+32	2	fb:cell.12_4	12–4	12|--|4	12|--|4	CD|:|CD	NUMBER|O|NUMBER	12.0||4.0	12.0		4.0		
+32	3	fb:cell.jon_gruden	Jon Gruden	jon|gruden	Jon|Gruden	NNP|NNP	PERSON|PERSON	|					
+32	4	fb:cell.brad_johnson	Brad Johnson	brad|johnson	Brad|Johnson	NNP|NNP	PERSON|PERSON	|					
+32	5	fb:cell.michael_pittman	Michael Pittman	michael|pittman	Michael|Pittman	NNP|NNP	PERSON|PERSON	|					
+32	6	fb:cell.keyshawn_johnson	Keyshawn Johnson	keyshawn|johnson	Keyshawn|Johnson	NNP|NNP	PERSON|PERSON	|					
+32	7	fb:cell.brooks_rice_sapp	Brooks*, Rice, Sapp*	brooks|\\*|,|rice|,|sapp|\\*	Brooks|\\*|,|Rice|,|Sapp|\\*	NNP|SYM|,|NNP|,|NNP|SYM	PERSON|O|O|PERSON|O|PERSON|O	||||||				Brooks*|Rice|Sapp*	fb:part.brooks_2|fb:part.rice_3|fb:part.sapp
+32	8	fb:cell.philadelphia_eagles	Philadelphia Eagles	philadelphia|eagles	Philadelphia|Eagles	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+33	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+33	1	fb:cell.carolina_panthers	Carolina Panthers	carolina|panthers	Carolina|Panthers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+33	2	fb:cell.11_5	11–5	11|--|5	11|--|5	CD|:|CD	NUMBER|O|NUMBER	11.0||5.0	11.0		5.0		
+33	3	fb:cell.john_fox	John Fox	john|fox	John|Fox	NNP|NNP	PERSON|PERSON	|					
+33	4	fb:cell.jake_delhomme	Jake Delhomme	jake|delhomme	Jake|Delhomme	NNP|NNP	PERSON|PERSON	|					
+33	5	fb:cell.stephen_davis	Stephen Davis	stephen|davis	Stephen|Davis	NNP|NNP	PERSON|PERSON	|					
+33	6	fb:cell.steve_smith	Steve Smith	steve|smith	Steve|Smith	NNP|NNP	PERSON|PERSON	|					
+33	7	fb:cell.jenkins	Jenkins	jenkins	Jenkins	NNP	PERSON					Jenkins	fb:part.jenkins
+33	8	fb:cell.philadelphia_eagles	Philadelphia Eagles	philadelphia|eagles	Philadelphia|Eagles	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+34	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+34	1	fb:cell.philadelphia_eagles	Philadelphia Eagles	philadelphia|eagles	Philadelphia|Eagles	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+34	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+34	3	fb:cell.andy_reid	Andy Reid	andy|reid	Andy|Reid	NNP|NNP	PERSON|PERSON	|					
+34	4	fb:cell.donovan_mcnabb	Donovan McNabb	donovan|mcnabb	Donovan|McNabb	NNP|NNP	PERSON|PERSON	|					
+34	5	fb:cell.brian_westbrook	Brian Westbrook	brian|westbrook	Brian|Westbrook	NNP|NNP	PERSON|PERSON	|					
+34	6	fb:cell.terrell_owens	Terrell Owens	terrell|owens	Terrell|Owens	NNP|NNP	PERSON|PERSON	|					
+34	7	fb:cell.dawkins_owens_sheppard	Dawkins, Owens, Sheppard	dawkins|,|owens|,|sheppard	dawkin|,|Owens|,|Sheppard	NNS|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Dawkins|Owens|Sheppard	fb:part.dawkins|fb:part.owens|fb:part.sheppard
+34	8	fb:cell.atlanta_falcons	Atlanta Falcons	atlanta|falcons	Atlanta|Falcons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+35	0	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+35	1	fb:cell.seattle_seahawks	Seattle Seahawks	seattle|seahawks	Seattle|Seahawks	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+35	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+35	3	fb:cell.mike_holmgren	Mike Holmgren	mike|holmgren	Mike|Holmgren	NNP|NNP	PERSON|PERSON	|					
+35	4	fb:cell.matt_hasselbeck	Matt Hasselbeck	matt|hasselbeck	Matt|Hasselbeck	NNP|NNP	PERSON|PERSON	|					
+35	5	fb:cell.shaun_alexander	Shaun Alexander	shaun|alexander	Shaun|Alexander	NNP|NNP	PERSON|PERSON	|					
+35	6	fb:cell.bobby_engram	Bobby Engram	bobby|engram	Bobby|Engram	NNP|NNP	PERSON|PERSON	|					
+35	7	fb:cell.alexander_hutchinson_jones_strong	Alexander, Hutchinson, Jones*, Strong	alexander|,|hutchinson|,|jones|\\*|,|strong	Alexander|,|Hutchinson|,|Jones|\\*|,|strong	NNP|,|NNP|,|NNP|SYM|,|JJ	PERSON|O|PERSON|O|PERSON|O|O|O	|||||||				Alexander|Hutchinson|Jones*|Strong	fb:part.alexander|fb:part.hutchinson|fb:part.jones|fb:part.strong
+35	8	fb:cell.carolina_panthers	Carolina Panthers	carolina|panthers	Carolina|Panthers	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+36	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+36	1	fb:cell.chicago_bears	Chicago Bears	chicago|bears	Chicago|Bears	NNP|NNPS	LOCATION|O	|					
+36	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+36	3	fb:cell.lovie_smith	Lovie Smith	lovie|smith	Lovie|Smith	NNP|NNP	PERSON|PERSON	|					
+36	4	fb:cell.rex_grossman	Rex Grossman	rex|grossman	rex|Grossman	NN|NNP	PERSON|PERSON	|					
+36	5	fb:cell.thomas_jones	Thomas Jones	thomas|jones	Thomas|Jones	NNP|NNP	PERSON|PERSON	|					
+36	6	fb:cell.muhsin_muhammad	Muhsin Muhammad	muhsin|muhammad	Muhsin|Muhammad	NNP|NNP	PERSON|PERSON	|					
+36	7	fb:cell.gould_hester_kreutz_urlacher	Gould, Hester, Kreutz, Urlacher	gould|,|hester|,|kreutz|,|urlacher	Gould|,|Hester|,|Kreutz|,|Urlacher	NNP|,|NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON|O|PERSON	||||||				Gould|Hester|Kreutz|Urlacher	fb:part.gould|fb:part.hester|fb:part.kreutz|fb:part.urlacher
+36	8	fb:cell.new_orleans_saints	New Orleans Saints	new|orleans|saints	New|Orleans|Saints	NNP|NNP|NNP	O|O|O	||					
+37	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+37	1	fb:cell.new_york_giants	New York Giants†	new|york|giants|†	New|York|Giants|†	NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+37	2	fb:cell.10_6	10–6	10|--|6	10|--|6	CD|:|CD	NUMBER|O|NUMBER	10.0||6.0	10.0		6.0		
+37	3	fb:cell.tom_coughlin	Tom Coughlin	tom|coughlin	Tom|Coughlin	NNP|NNP	PERSON|PERSON	|					
+37	4	fb:cell.eli_manning	Eli Manning	eli|manning	Eli|Manning	NNP|NNP	PERSON|PERSON	|					
+37	5	fb:cell.brandon_jacobs	Brandon Jacobs	brandon|jacobs	Brandon|Jacobs	NNP|NNP	PERSON|PERSON	|					
+37	6	fb:cell.plaxico_burress	Plaxico Burress	plaxico|burress	Plaxico|Burress	NNP|NNP	PERSON|PERSON	|					
+37	7	fb:cell.none	none	none	none	NN	O					none	fb:part.none
+37	8	fb:cell.green_bay_packers	Green Bay Packers	green|bay|packers	Green|Bay|Packers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+38	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+38	1	fb:cell.arizona_cardinals	Arizona Cardinals	arizona|cardinals	Arizona|Cardinals	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+38	2	fb:cell.9_7	9–7	9|--|7	9|--|7	CD|:|CD	NUMBER|O|NUMBER	9.0||7.0	9.0		7.0		
+38	3	fb:cell.ken_whisenhunt	Ken Whisenhunt	ken|whisenhunt	Ken|Whisenhunt	NNP|NNP	PERSON|PERSON	|					
+38	4	fb:cell.kurt_warner	Kurt Warner	kurt|warner	Kurt|Warner	NNP|NNP	PERSON|PERSON	|					
+38	5	fb:cell.edgerrin_james	Edgerrin James	edgerrin|james	Edgerrin|James	NNP|NNP	O|PERSON	|					
+38	6	fb:cell.larry_fitzgerald	Larry Fitzgerald	larry|fitzgerald	Larry|Fitzgerald	NNP|NNP	PERSON|PERSON	|					
+38	7	fb:cell.fitzgerald	Fitzgerald	fitzgerald	Fitzgerald	NNP	PERSON					Fitzgerald	fb:part.fitzgerald
+38	8	fb:cell.philadelphia_eagles	Philadelphia Eagles	philadelphia|eagles	Philadelphia|Eagles	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+39	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+39	1	fb:cell.new_orleans_saints	New Orleans Saints	new|orleans|saints	New|Orleans|Saints	NNP|NNP|NNP	O|O|O	||					
+39	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+39	3	fb:cell.sean_payton	Sean Payton	sean|payton	Sean|Payton	NNP|NNP	PERSON|PERSON	|					
+39	4	fb:cell.drew_brees	Drew Brees	drew|brees	Drew|Brees	NNP|NNP	O|PERSON	|					
+39	5	fb:cell.pierre_thomas	Pierre Thomas	pierre|thomas	Pierre|Thomas	NNP|NNP	PERSON|PERSON	|					
+39	6	fb:cell.marques_colston	Marques Colston	marques|colston	Marques|Colston	NNP|NNP	PERSON|PERSON	|					
+39	7	fb:cell.evans	Evans	evans	Evans	NNP	PERSON					Evans	fb:part.evans
+39	8	fb:cell.minnesota_vikings	Minnesota Vikings	minnesota|vikings	Minnesota|Vikings	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+40	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+40	1	fb:cell.green_bay_packers	Green Bay Packers	green|bay|packers	Green|Bay|Packers	NNP|NNP|NNPS	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+40	2	fb:cell.10_6	10–6	10|--|6	10|--|6	CD|:|CD	NUMBER|O|NUMBER	10.0||6.0	10.0		6.0		
+40	3	fb:cell.mike_mccarthy	Mike McCarthy	mike|mccarthy	Mike|McCarthy	NNP|NNP	PERSON|PERSON	|					
+40	4	fb:cell.aaron_rodgers	Aaron Rodgers	aaron|rodgers	Aaron|Rodgers	NNP|NNP	PERSON|PERSON	|					
+40	5	fb:cell.brandon_jackson	Brandon Jackson	brandon|jackson	Brandon|Jackson	NNP|NNP	PERSON|PERSON	|					
+40	6	fb:cell.greg_jennings	Greg Jennings	greg|jennings	Greg|Jennings	NNP|NNP	PERSON|PERSON	|					
+40	7	fb:cell.clifton_collins_jennings_matthews_woodson	Clifton, Collins, Jennings, Matthews, Woodson	clifton|,|collins|,|jennings|,|matthews|,|woodson	Clifton|,|Collins|,|Jennings|,|Matthews|,|Woodson	NNP|,|NNP|,|NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON|O|PERSON|O|PERSON	||||||||				Clifton|Collins|Jennings|Matthews|Woodson	fb:part.clifton|fb:part.collins|fb:part.jennings|fb:part.matthews|fb:part.woodson
+40	8	fb:cell.chicago_bears	Chicago Bears	chicago|bears	Chicago|Bears	NNP|NNPS	LOCATION|O	|					
+41	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+41	1	fb:cell.new_york_giants	New York Giants†	new|york|giants|†	New|York|Giants|†	NNP|NNP|NNP|NN	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+41	2	fb:cell.9_7	9–7	9|--|7	9|--|7	CD|:|CD	NUMBER|O|NUMBER	9.0||7.0	9.0		7.0		
+41	3	fb:cell.tom_coughlin	Tom Coughlin	tom|coughlin	Tom|Coughlin	NNP|NNP	PERSON|PERSON	|					
+41	4	fb:cell.eli_manning	Eli Manning	eli|manning	Eli|Manning	NNP|NNP	PERSON|PERSON	|					
+41	5	fb:cell.ahmad_bradshaw	Ahmad Bradshaw	ahmad|bradshaw	Ahmad|Bradshaw	NNP|NNP	PERSON|PERSON	|					
+41	6	fb:cell.victor_cruz	Victor Cruz	victor|cruz	Victor|Cruz	NNP|NNP	PERSON|PERSON	|					
+41	7	fb:cell.pierre_paul	Pierre-Paul	pierre|paul	Pierre|Paul	NNP|NNP	PERSON|PERSON	|				Pierre-Paul	fb:part.pierre_paul
+41	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+42	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+42	1	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				
+42	2	fb:cell.11_4_1	11–4–1	11|--|4|--|1	11|--|4|--|1	CD|:|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER	11.0||4.0||1.0	11.0		4.0		
+42	3	fb:cell.jim_harbaugh	Jim Harbaugh	jim|harbaugh	Jim|Harbaugh	NNP|NNP	PERSON|PERSON	|					
+42	4	fb:cell.colin_kaepernick	Colin Kaepernick	colin|kaepernick	Colin|Kaepernick	NNP|NNP	PERSON|PERSON	|					
+42	5	fb:cell.frank_gore	Frank Gore	frank|gore	Frank|Gore	NNP|NNP	PERSON|PERSON	|					
+42	6	fb:cell.michael_crabtree	Michael Crabtree	michael|crabtree	Michael|Crabtree	NNP|NNP	PERSON|PERSON	|					
+42	7	fb:cell.bowman_goldson_iupati_lee_smith_willis	Bowman, Goldson, Iupati, Lee, Smith, Willis	bowman|,|goldson|,|iupati|,|lee|,|smith|,|willis	Bowman|,|Goldson|,|Iupati|,|Lee|,|Smith|,|Willis	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON|O|PERSON|O|PERSON|O|PERSON	||||||||||				Bowman|Goldson|Iupati|Lee|Smith|Willis	fb:part.bowman|fb:part.goldson|fb:part.iupati|fb:part.lee|fb:part.smith_2|fb:part.willis
+42	8	fb:cell.atlanta_falcons	Atlanta Falcons	atlanta|falcons	Atlanta|Falcons	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+43	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+43	1	fb:cell.seattle_seahawks	Seattle Seahawks	seattle|seahawks	Seattle|Seahawks	NNP|NNPS	ORGANIZATION|ORGANIZATION	|					
+43	2	fb:cell.13_3	13–3	13|--|3	13|--|3	CD|:|CD	NUMBER|O|NUMBER	13.0||3.0	13.0		3.0		
+43	3	fb:cell.pete_carroll	Pete Carroll	pete|carroll	Pete|Carroll	NNP|NNP	PERSON|PERSON	|					
+43	4	fb:cell.russell_wilson	Russell Wilson	russell|wilson	Russell|Wilson	NNP|NNP	PERSON|PERSON	|					
+43	5	fb:cell.marshawn_lynch	Marshawn Lynch	marshawn|lynch	Marshawn|Lynch	NNP|NNP	PERSON|PERSON	|					
+43	6	fb:cell.golden_tate	Golden Tate	golden|tate	Golden|Tate	NNP|NNP	O|O	|					
+43	7	fb:cell.sherman_thomas	Sherman, Thomas	sherman|,|thomas	Sherman|,|Thomas	NNP|,|NNP	PERSON|O|PERSON	||				Sherman|Thomas	fb:part.sherman|fb:part.thomas
+43	8	fb:cell.san_francisco_49ers	San Francisco 49ers	san|francisco|49ers	San|Francisco|49ers	NNP|NNP|NNPS	LOCATION|LOCATION|O	||	49.0				

@@ -1,0 +1,86 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.team	Team	team	Team	NNP	O						
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.venue	Venue	venue	venue	NN	O						
+-1	3	fb:row.row.capacity	Capacity	capacity	capacity	NN	O						
+-1	4	fb:row.row.position_in_1993_94	Position in 1993–94	position|in|1993|--|94	position|in|1993|--|94	NN|IN|CD|:|CD	O|O|DATE|O|NUMBER	||1993||94.0					
+0	0	fb:cell.dinamo_minsk	Dinamo Minsk	dinamo|minsk	Dinamo|Minsk	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+0	1	fb:cell.minsk	Minsk	minsk	Minsk	NNP	LOCATION						
+0	2	fb:cell.dinamo_minsk_2	Dinamo, Minsk	dinamo|,|minsk	Dinamo|,|Minsk	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				Dinamo|Minsk	fb:part.dinamo|fb:part.minsk
+0	3	fb:cell.41_040	41,040	41,040	41,040	CD	NUMBER	41040.0	41040.0				
+0	4	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0			1	fb:part.1
+1	0	fb:cell.dinamo_93	Dinamo-93	dinamo-93	dinamo-93	NN	O		93.0				
+1	1	fb:cell.minsk	Minsk	minsk	Minsk	NNP	LOCATION						
+1	2	fb:cell.dinamo_minsk_2	Dinamo, Minsk	dinamo|,|minsk	Dinamo|,|Minsk	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				Dinamo|Minsk	fb:part.dinamo|fb:part.minsk
+1	3	fb:cell.41_040	41,040	41,040	41,040	CD	NUMBER	41040.0	41040.0				
+1	4	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0			2	fb:part.2
+2	0	fb:cell.dvina	Dvina	dvina	Dvina	NNP	PERSON						
+2	1	fb:cell.vitebsk	Vitebsk	vitebsk	Vitebsk	NNP	LOCATION						
+2	2	fb:cell.central_vitebsk	Central, Vitebsk	central|,|vitebsk	Central|,|Vitebsk	NNP|,|NNP	O|O|LOCATION	||				Central|Vitebsk	fb:part.central|fb:part.vitebsk
+2	3	fb:cell.8_300	8,300	8,300	8,300	CD	NUMBER	8300.0	8300.0				
+2	4	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0			3	fb:part.3
+3	0	fb:cell.dnepr	Dnepr	dnepr	Dnepr	NNP	O						
+3	1	fb:cell.mogilev	Mogilev	mogilev	Mogilev	NNP	MISC						
+3	2	fb:cell.spartak_mogilev	Spartak, Mogilev	spartak|,|mogilev	Spartak|,|Mogilev	NNP|,|NNP	LOCATION|O|O	||				Spartak|Mogilev	fb:part.spartak|fb:part.mogilev
+3	3	fb:cell.11_200	11,200	11,200	11,200	CD	NUMBER	11200.0	11200.0				
+3	4	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0			4	fb:part.4
+4	0	fb:cell.bobruisk	Bobruisk	bobruisk	Bobruisk	NNP	LOCATION						
+4	1	fb:cell.bobruisk	Bobruisk	bobruisk	Bobruisk	NNP	LOCATION						
+4	2	fb:cell.spartak_bobruisk	Spartak, Bobruisk	spartak|,|bobruisk	Spartak|,|Bobruisk	NNP|,|NNP	LOCATION|O|LOCATION	||				Spartak|Bobruisk	fb:part.spartak|fb:part.bobruisk
+4	3	fb:cell.3_550	3,550	3,550	3,550	CD	NUMBER	3550.0	3550.0				
+4	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0			5	fb:part.5
+5	0	fb:cell.torpedo_minsk	Torpedo Minsk	torpedo|minsk	Torpedo|Minsk	NNP|NNP	O|LOCATION	|					
+5	1	fb:cell.minsk	Minsk	minsk	Minsk	NNP	LOCATION						
+5	2	fb:cell.torpedo_minsk_2	Torpedo, Minsk	torpedo|,|minsk	Torpedo|,|Minsk	NNP|,|NNP	MISC|O|LOCATION	||				Torpedo|Minsk	fb:part.torpedo|fb:part.minsk
+5	3	fb:cell.5_200	5,200	5,200	5,200	CD	NUMBER	5200.0	5200.0				
+5	4	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0			6	fb:part.6
+6	0	fb:cell.shinnik	Shinnik	shinnik	Shinnik	NNP	O						
+6	1	fb:cell.bobruisk	Bobruisk	bobruisk	Bobruisk	NNP	LOCATION						
+6	2	fb:cell.spartak_bobruisk	Spartak, Bobruisk	spartak|,|bobruisk	Spartak|,|Bobruisk	NNP|,|NNP	LOCATION|O|LOCATION	||				Spartak|Bobruisk	fb:part.spartak|fb:part.bobruisk
+6	3	fb:cell.3_550	3,550	3,550	3,550	CD	NUMBER	3550.0	3550.0				
+6	4	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0			7	fb:part.7
+7	0	fb:cell.dinamo_brest	Dinamo Brest	dinamo|brest	Dinamo|Brest	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+7	1	fb:cell.brest	Brest	brest	Brest	NNP	LOCATION						
+7	2	fb:cell.dinamo_brest_2	Dinamo, Brest	dinamo|,|brest	Dinamo|,|Brest	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				Dinamo|Brest	fb:part.dinamo|fb:part.brest
+7	3	fb:cell.10_080	10,080	10,080	10,080	CD	NUMBER	10080.0	10080.0				
+7	4	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0			8	fb:part.8
+8	0	fb:cell.molodechno	Molodechno	molodechno	Molodechno	NNP	O						
+8	1	fb:cell.molodechno	Molodechno	molodechno	Molodechno	NNP	O						
+8	2	fb:cell.city_stadium_molodechno	City Stadium, Molodechno	city|stadium|,|molodechno	City|Stadium|,|Molodechno	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				City Stadium|Molodechno	fb:part.city_stadium|fb:part.molodechno
+8	3	fb:cell.5_500	5,500	5,500	5,500	CD	NUMBER	5500.0	5500.0				
+8	4	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0			9	fb:part.9
+9	0	fb:cell.lokomotiv	Lokomotiv	lokomotiv	Lokomotiv	NNP	O						
+9	1	fb:cell.vitebsk	Vitebsk	vitebsk	Vitebsk	NNP	LOCATION						
+9	2	fb:cell.central_vitebsk	Central, Vitebsk	central|,|vitebsk	Central|,|Vitebsk	NNP|,|NNP	O|O|LOCATION	||				Central|Vitebsk	fb:part.central|fb:part.vitebsk
+9	3	fb:cell.8_300	8,300	8,300	8,300	CD	NUMBER	8300.0	8300.0				
+9	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0			10	fb:part.10
+10	0	fb:cell.neman	Neman	neman	Neman	NNP	O					Neman	fb:part.neman
+10	1	fb:cell.grodno	Grodno	grodno	Grodno	NNP	LOCATION						
+10	2	fb:cell.neman	Neman	neman	Neman	NNP	O					Neman	fb:part.neman
+10	3	fb:cell.6_300	6,300	6,300	6,300	CD	NUMBER	6300.0	6300.0				
+10	4	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0			11	fb:part.11
+11	0	fb:cell.vedrich	Vedrich	vedrich	Vedrich	NNP	O						
+11	1	fb:cell.rechytsa	Rechytsa	rechytsa	Rechytsa	NNP	O						
+11	2	fb:cell.central_rechytsa	Central, Rechytsa	central|,|rechytsa	Central|,|Rechytsa	NNP|,|NNP	O|O|PERSON	||				Central|Rechytsa	fb:part.central|fb:part.rechytsa
+11	3	fb:cell.3_550	3,550	3,550	3,550	CD	NUMBER	3550.0	3550.0				
+11	4	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0			12	fb:part.12
+12	0	fb:cell.shakhtyor	Shakhtyor	shakhtyor	Shakhtyor	NNP	O						
+12	1	fb:cell.soligorsk	Soligorsk	soligorsk	soligorsk	NN	O						
+12	2	fb:cell.stroitel	Stroitel	stroitel	Stroitel	NNP	PERSON					Stroitel	fb:part.stroitel
+12	3	fb:cell.5_000	5,000	5,000	5,000	CD	NUMBER	5000.0	5000.0				
+12	4	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0			13	fb:part.13
+13	0	fb:cell.torpedo_mogilev	Torpedo Mogilev	torpedo|mogilev	Torpedo|Mogilev	NNP|NNP	O|O	|					
+13	1	fb:cell.mogilev	Mogilev	mogilev	Mogilev	NNP	MISC						
+13	2	fb:cell.torpedo_mogilev_2	Torpedo, Mogilev	torpedo|,|mogilev	Torpedo|,|Mogilev	NNP|,|NNP	MISC|O|O	||				Torpedo|Mogilev	fb:part.torpedo|fb:part.mogilev
+13	3	fb:cell.3_500	3,500	3,500	3,500	CD	NUMBER	3500.0	3500.0				
+13	4	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0			14	fb:part.14
+14	0	fb:cell.gomselmash	Gomselmash	gomselmash	Gomselmash	NNP	O						
+14	1	fb:cell.gomel	Gomel	gomel	Gomel	NNP	LOCATION						
+14	2	fb:cell.central_gomel	Central, Gomel	central|,|gomel	Central|,|Gomel	NNP|,|NNP	O|O|LOCATION	||				Central|Gomel	fb:part.central|fb:part.gomel
+14	3	fb:cell.11_800	11,800	11,800	11,800	CD	NUMBER	11800.0	11800.0				
+14	4	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0			15	fb:part.15
+15	0	fb:cell.obuvshchik	Obuvshchik	obuvshchik	Obuvshchik	NNP	O						
+15	1	fb:cell.lida	Lida	lida	Lida	NNP	LOCATION						
+15	2	fb:cell.city_stadium_lida	City Stadium, Lida	city|stadium|,|lida	City|Stadium|,|Lida	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				City Stadium|Lida	fb:part.city_stadium|fb:part.lida
+15	3	fb:cell.4_000	4,000	4,000	4,000	CD	NUMBER	4000.0	4000.0				
+15	4	fb:cell.first_league_1	First league, 1	first|league|,|1	First|league|,|1	NNP|NN|,|CD	ORDINAL|O|O|NUMBER	1.0|||1.0	1.0			First league|1	fb:part.first_league|fb:part.1

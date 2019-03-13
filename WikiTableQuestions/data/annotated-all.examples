@@ -1,0 +1,2515 @@
+(metadata (last_update (date 2016 1 13)))
+############################## ex 0 ##############################
+(example
+  (id nt-0)
+  (utterance "what was the last year where this team was a part of the usl a-league?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/590.csv))
+  (targetValue (list (description "2004")))
+  (targetFormula (@!p.num (!r.year (argmax 1 1 (r.league c.usl_a_league) @index))))
+)
+############################## ex 1 ##############################
+(example
+  (id nt-1)
+  (utterance "in what city did piotr's last 1st place finish occur?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/622.csv))
+  (targetValue (list (description "Bangkok, Thailand")))
+  (targetFormula (!r.venue (argmax 1 1 (r.position c.1st) @index)))
+)
+############################## ex 2 ##############################
+(example
+  (id nt-2)
+  (utterance "which team won previous to crettyard?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/772.csv))
+  (targetValue (list (description "Wolfe Tones")))
+  (targetFormula (!r.team (@!next (r.team c.crettyard))))
+)
+############################## ex 3 ##############################
+(example
+  (id nt-3)
+  (utterance "how many more passengers flew to los angeles than to saskatoon from manzanillo airport in 2013?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/515.csv))
+  (targetValue (list (description "12,467")))
+  (targetFormula (- (@!p.num (!r.passengers (r.city c.united_states_los_angeles))) (@!p.num (!r.passengers (r.city c.canada_saskatoon)))))
+)
+############################## ex 4 ##############################
+(example
+  (id nt-4)
+  (utterance "who was the opponent in the first game of the season?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/495.csv))
+  (targetValue (list (description "Derby County")))
+  (targetFormula (!r.opponent (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 5 ##############################
+(example
+  (id nt-5)
+  (utterance "how many people stayed at least 3 years in office?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/705.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (!r.name (and (@type @row)
+                                      (mark x (: (and (- (@!p.date (!r.left_office (var x)))
+                                                         (@!p.date (!r.took_office (var x))))
+                                                      (>= 3))))))))
+)
+############################## ex 6 ##############################
+(example
+  (id nt-6)
+  (utterance "who is the first away team on the chart")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/361.csv))
+  (targetValue (list (description "Varbergs GIF")))
+  (targetFormula (!r.away_team (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 7 ##############################
+(example
+  (id nt-7)
+  (utterance "which is deeper, lake tuz or lake palas tuzla?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/341.csv))
+  (targetValue (list (description "Lake Palas Tuzla")))
+  (targetFormula (argmax 1 1 (or c.lake_tuz c.lake_palas_tuzla)
+                         (reverse (lambda x (@!p.num (!r.depth (r.name_in_english (var x))))))))
+)
+############################## ex 8 ##############################
+(example
+  (id nt-8)
+  (utterance "after winning on four credits with a full house, what is your payout?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/564.csv))
+  (targetValue (list (description "32")))
+  (targetFormula (@!p.num (!r.4_credits (r.hand c.full_house))))
+)
+############################## ex 9 ##############################
+(example
+  (id nt-9)
+  (utterance "which players played the same position as ardo kreek?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/116.csv))
+  (targetValue (list (description "Siim Ennemuist") (description "Andri Aganits")))
+  (targetFormula (and (!= c.ardo_kreek) (!r.player (r.position (!r.position (r.player c.ardo_kreek))))))
+)
+############################## ex 10 ##############################
+(example
+  (id nt-10)
+  (utterance "how many times did an italian cyclist win a round?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/253.csv))
+  (targetValue (list (description "6")))
+  (error "Flag image")
+)
+############################## ex 11 ##############################
+(example
+  (id nt-11)
+  (utterance "what was the first venue for the asian games?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/646.csv))
+  (targetValue (list (description "Bangkok, Thailand")))
+  (targetFormula (!r.venue (argmin 1 1 (r.competition c.asian_games) @index)))
+)
+############################## ex 12 ##############################
+(example
+  (id nt-12)
+  (utterance "what is the difference in the number of temples between imabari and matsuyama?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/841.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (- (count (r.city_town_village c.matsuyama))
+                    (count (r.city_town_village c.imabari))))
+)
+############################## ex 13 ##############################
+(example
+  (id nt-13)
+  (utterance "what was the only year keene won class aa?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/133.csv))
+  (targetValue (list (description "1999-2000")))
+  (targetFormula (!r.school_year (r.class_aa c.keene)))
+)
+############################## ex 14 ##############################
+(example
+  (id nt-14)
+  (utterance "which athlete was from south korea after the year 2010?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/104.csv))
+  (targetValue (list (description "Kim Yu-na")))
+  (targetFormula (!r.athlete (and (r.nation c.south_korea_kor) (r.olympics (@p.num (>= 2010))))))
+)
+############################## ex 15 ##############################
+(example
+  (id nt-15)
+  (utterance "what was the venue when he placed first?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/706.csv))
+  (targetValue (list (description "New Delhi, India")))
+  (targetFormula (!r.venue (r.position c.1st)))
+  (alternativeFormula (!r.venue (r.position (@p.num 1))))
+)
+############################## ex 16 ##############################
+(example
+  (id nt-16)
+  (utterance "how many total points did the bombers score against the bc lions?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/227.csv))
+  (targetValue (list (description "58")))
+  (targetFormula (sum (@!p.num (!r.score (r.opponent (or c.vs_bc_lions c.at_bc_lions))))))
+  (alternativeFormula (sum ((reverse @p.num) ((reverse r.score) (r.opponent (or c.vs_bc_lions c.at_bc_lions))))))
+)
+############################## ex 17 ##############################
+(example
+  (id nt-17)
+  (utterance "which is the first city listed alphabetically?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/299.csv))
+  (targetValue (list (description "Abbott")))
+  (targetFormula (!r.name_of_place (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 18 ##############################
+(example
+  (id nt-18)
+  (utterance "how many movies have links to other wikipedia pages about them?")
+  (context (graph tables.TableKnowledgeGraph csv/201-csv/21.csv))
+  (targetValue (list (description "20")))
+  (error "Information not included in table")
+)
+############################## ex 19 ##############################
+(example
+  (id nt-19)
+  (utterance "in how many games did the winning team score more than 4 points?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/475.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (or (r.score (@p.num (> 4))) (r.score (@p.num2 (> 4))))))
+)
+############################## ex 20 ##############################
+(example
+  (id nt-20)
+  (utterance "which album released by the band schnell fenster produced the most singles appearing on the australian peak chart?")
+  (context (graph tables.TableKnowledgeGraph csv/202-csv/184.csv))
+  (targetValue (list (description "The Sound Of Trees")))
+  (targetFormula (argmax 1 1 (!r.album (@type @row)) (reverse (lambda x (count (and (r.album (var x)) (r.peak_chart_positions_aus (!= c.null))))))))
+)
+############################## ex 21 ##############################
+(example
+  (id nt-21)
+  (utterance "which model has the most in service?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/430.csv))
+  (targetValue (list (description "KM-45 Series")))
+  (targetFormula (!r.model (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.in_service (var x))))))))
+)
+############################## ex 22 ##############################
+(example
+  (id nt-22)
+  (utterance "which ship in auckland had the fastest speed in knots?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/774.csv))
+  (targetValue (list (description "Manawanui i")))
+  (targetFormula (!r.name (argmax 1 1 (r.port c.auckland) (reverse (lambda x (@!p.num2 (!r.propulsion (var x))))))))
+  (alternativeFormula (argmax 1 1 (!r.name (r.port c.auckland)) (reverse (lambda x (@!p.num2 (!r.propulsion (r.name (var x))))))))
+)
+############################## ex 23 ##############################
+(example
+  (id nt-23)
+  (utterance "what counties had the least participants for the race?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/849.csv))
+  (targetValue (list (description "Morocco") (description "France") (description "Spain")))
+  (targetFormula (argmin 1 1 (!r.nationality (@type @row)) (reverse (lambda x (count (r.nationality (var x)))))))
+)
+############################## ex 24 ##############################
+(example
+  (id nt-24)
+  (utterance "who ranked right after turkey?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/812.csv))
+  (targetValue (list (description "Sweden")))
+  (targetFormula (!r.nation (@!next (r.nation c.turkey))))
+)
+############################## ex 25 ##############################
+(example
+  (id nt-25)
+  (utterance "what's the number of parishes founded in the 1800s?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/36.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (and (r.founded (@p.num (>= 1800))) (r.founded (@p.num (< 1900))))))
+  (alternativeFormula (count (r.founded (@p.num (and (>= 1800) (< 1900))))))
+)
+############################## ex 26 ##############################
+(example
+  (id nt-26)
+  (utterance "what club scored the only a total of 79 points?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/256.csv))
+  (targetValue (list (description "Málaga CF")))
+  (targetFormula (!r.club (r.points (@p.num 79))))
+)
+############################## ex 27 ##############################
+(example
+  (id nt-27)
+  (utterance "in 1996 the sc house of representatives had a republican majority. how many years had passed since the last time this happened?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/95.csv))
+  (targetValue (list (description "122")))
+  (targetFormula (- 1996
+                    (@!p.num (!r.year (argmax 1 1
+                                              (and (r.year (@p.num (< 1996)))
+                                                   (mark x (: (and (@!p.num (!r.democratic_party (var x)))
+                                                                   (< (@!p.num (!r.republican_party (var x))))))))
+                                              @index)))))
+)
+############################## ex 28 ##############################
+(example
+  (id nt-28)
+  (utterance "which kind of computer can most of the games be played on?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/580.csv))
+  (targetValue (list (description "Windows")))
+  (targetFormula (argmax 1 1 (@!p.part (!r.computer (@type @row)))
+                             (reverse (lambda x (count (r.computer (@p.part (var x))))))))
+)
+############################## ex 29 ##############################
+(example
+  (id nt-29)
+  (utterance "what is the total population in dzhebariki-khaya?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/6.csv))
+  (targetValue (list (description "1694")))
+  (targetFormula (@!p.num (!r.population (r.urban_settlements c.dzhebariki_khaya))))
+)
+############################## ex 30 ##############################
+(example
+  (id nt-30)
+  (utterance "what was the average number of years served by a coach?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/577.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (avg (@!p.num (!r.years (r.tenure (!= c.totals))))))
+)
+############################## ex 31 ##############################
+(example
+  (id nt-31)
+  (utterance "how many beta versions were released before the first full release?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/743.csv))
+  (targetValue (list (description "9")))
+  (targetFormula (count (r.development_cycle (or c.beta c.beta_pre))))
+)
+############################## ex 32 ##############################
+(example
+  (id nt-32)
+  (utterance "which name is first on the chart")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/873.csv))
+  (targetValue (list (description "Jiang Qing")))
+  (targetFormula (!r.name (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 33 ##############################
+(example
+  (id nt-33)
+  (utterance "what is the last constellation featured on this table?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/569.csv))
+  (targetValue (list (description "Draco")))
+  (targetFormula (!r.constellation (argmax 1 1 (@type @row) @index)))
+)
+############################## ex 34 ##############################
+(example
+  (id nt-34)
+  (utterance "who was the top ranked competitor in this race?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/552.csv))
+  (targetValue (list (description "Iryna Shpylova")))
+  (targetFormula (!r.cyclist (r.rank (@p.num 1))))
+  (alternativeFormula (!r.cyclist (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 35 ##############################
+(example
+  (id nt-35)
+  (utterance "who is the other person who is 24 years old besides reyna royo?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/144.csv))
+  (targetValue (list (description "Marisela Moreno Montero")))
+  (targetFormula (and (!r.contestant (r.age (@p.num 24))) (!= c.reyna_royo)))
+  (alternativeFormula (!r.contestant (and (r.age (@p.num 24)) (r.contestant (!= c.reyna_royo)))))
+)
+############################## ex 36 ##############################
+(example
+  (id nt-36)
+  (utterance "who was the top winner in 2002 of the division 1 undergraduate?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/879.csv))
+  (targetValue (list (description "Princeton")))
+  (targetFormula (!r.division_i_undergraduate (r.year (@p.num 2002))))
+)
+############################## ex 37 ##############################
+(example
+  (id nt-37)
+  (utterance "what is the total amount of processors that have both an integrated color display and an enhanced keyboard?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/136.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (and (r.case c.desktop_with_integrated_color_display) (r.notes (@p.part q.enhanced_keyboard)))))
+)
+############################## ex 38 ##############################
+(example
+  (id nt-38)
+  (utterance "how many consecutive friendly competitions did chalupny score in?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/920.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (max (!fb:row.consecutive.competition (r.competition c.friendly))))
+)
+############################## ex 39 ##############################
+(example
+  (id nt-39)
+  (utterance "how many finished all 225 laps?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/946.csv))
+  (targetValue (list (description "8")))
+  (targetFormula (count (r.laps (@p.num 225))))
+)
+############################## ex 40 ##############################
+(example
+  (id nt-40)
+  (utterance "what was the number of silver medals won by ukraine?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/175.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (@!p.num (!r.silver (r.nation c.ukraine_ukr))))
+)
+############################## ex 41 ##############################
+(example
+  (id nt-41)
+  (utterance "in what year did miss pokhara last win the miss nepal award?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/172.csv))
+  (targetValue (list (description "1997")))
+  (targetFormula (@!p.num (!r.year 
+      (argmax 1 1 (and
+           (r.placement_in_miss_nepal c.winner)
+           (r.placement_in_miss_pokhara c.winner)) @index))))
+)
+############################## ex 42 ##############################
+(example
+  (id nt-42)
+  (utterance "what is the total number of popular votes cast in 2003?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/558.csv))
+  (targetValue (list (description "459,640")))
+  (targetFormula (@!p.num (!r.number_of_popular_votes (r.election (@p.num 2003)))))
+)
+############################## ex 43 ##############################
+(example
+  (id nt-43)
+  (utterance "which division three team also played in the division two season during the 1980s?")
+  (context (graph tables.TableKnowledgeGraph csv/202-csv/73.csv))
+  (targetValue (list (description "Seaford Town")))
+  (targetFormula (and (!r.division_two   (r.season (and (@p.num (>= 1980)) (@p.num (< 1990)))))
+                      (!r.division_three (r.season (and (@p.num (>= 1980)) (@p.num (< 1990)))))))
+)
+############################## ex 44 ##############################
+(example
+  (id nt-44)
+  (utterance "what is the difference in league debut date between farrell and carne?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/387.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (- (@!p.num (!r.rugby_league_debut (r.name c.andy_farrell)))
+                    (@!p.num (!r.rugby_league_debut (r.name c.willie_carne)))))
+)
+############################## ex 45 ##############################
+(example
+  (id nt-45)
+  (utterance "what film was released before \"devakanya?\"")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/961.csv))
+  (targetValue (list (description "Dhaasippen or Jothi Malar")))
+  (targetFormula (!r.title (@next (r.title c.devakanya))))
+)
+############################## ex 46 ##############################
+(example
+  (id nt-46)
+  (utterance "what is the largest penalty?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/664.csv))
+  (targetValue (list (description "10")))
+  (targetFormula (max (@!p.num (!r.penalties_p_p_s_s (@type @row)))))
+)
+############################## ex 47 ##############################
+(example
+  (id nt-47)
+  (utterance "who has the most and best score?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/363.csv))
+  (targetValue (list (description "Shane Carwin")))
+  (targetFormula (!r.opponent (argmax 1 1 (@type @row) (reverse (lambda x (- (@!p.num (!r.record (var x)))
+                                                                             (@!p.num2 (!r.record (var x)))))))))
+)
+############################## ex 48 ##############################
+(example
+  (id nt-48)
+  (utterance "what is the current total number of seats in the federal parliament?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/698.csv))
+  (targetValue (list (description "630")))
+  (targetFormula (@!p.num2 (!r._of_overall_seats_won (argmax 1 1 (@type @row) @index))))
+)
+############################## ex 49 ##############################
+(example
+  (id nt-49)
+  (utterance "what number of games did new zealand win in 2010?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/634.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (and (r.victor c.new_zealand)
+                             (r.date (and (@p.date (>= (date 2010 1 1))) (@p.date (< (date 2011 1 1))))))))
+  (alternativeFormula (count (and (r.victor c.new_zealand) (r.date (@p.date (date 2010 -1 -1))))))
+  (alternativeFormula (count (and (r.victor (or (or (or c.1997_new_zealand_rugby_union_tour_of_britain_and_ireland c.new_zealand) c.1989_new_zealand_rugby_union_tour) c.1967_new_zealand_rugby_union_tour_of_britain_france_and_canada)) (r.date (@p.date (date 2010 -1 -1))))))
+)
+############################## ex 50 ##############################
+(example
+  (id nt-50)
+  (utterance "who earned more medals--vietnam or indonesia?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/725.csv))
+  (targetValue (list (description "Indonesia (INA)")))
+  (targetFormula (argmax 1 1 (or c.vietnam_vie c.indonesia_ina)
+                         (reverse (lambda x (@!p.num (!r.total (r.nation (var x))))))))
+)
+############################## ex 51 ##############################
+(example
+  (id nt-51)
+  (utterance "how many competitions had a score of 1-0 at most?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/652.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (r.score c.1_0)))
+)
+############################## ex 52 ##############################
+(example
+  (id nt-52)
+  (utterance "which club had the most losses?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/322.csv))
+  (targetValue (list (description "RC Toulonnais")))
+  (targetFormula (!r.club (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.lost (var x))))))))
+)
+############################## ex 53 ##############################
+(example
+  (id nt-53)
+  (utterance "what is the total number of pylons listed?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/375.csv))
+  (targetValue (list (description "17")))
+  (targetFormula (count (@type @row)))
+)
+############################## ex 54 ##############################
+(example
+  (id nt-54)
+  (utterance "does theodis or david play center?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/847.csv))
+  (targetValue (list (description "Theodis Tarver")))
+  (targetFormula (and (or c.theodis_tarver c.david_watson) (!r.name (r.position c.center))))
+  (alternativeFormula (!r.name (and (r.name (or c.theodis_tarver c.david_watson)) (r.position c.center))))
+)
+############################## ex 55 ##############################
+(example
+  (id nt-55)
+  (utterance "what was whitney's best year for her album whitney in which she won the most rewards?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/799.csv))
+  (targetValue (list (description "1987")))
+  (targetFormula (argmax 1 1 (@!p.num (!r.year (@type @row)))
+                         (reverse (lambda x (count (r.year (@p.num (var x))))))))
+)
+############################## ex 56 ##############################
+(example
+  (id nt-56)
+  (utterance "which member of the 500 club has the least amount of home runs?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/611.csv))
+  (targetValue (list (description "Eddie Murray")))
+  (targetFormula (!r.player (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.hr (var x))))))))
+)
+############################## ex 57 ##############################
+(example
+  (id nt-57)
+  (utterance "how many miss northern ireland winners have made it to the top 30 placement at miss world since 2000?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/727.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (r.placement_at_miss_world (!= c.non_finalist))))
+  (alternativeFormula (count (r.placement_at_miss_world (@p.num (<= 30)))))
+)
+############################## ex 58 ##############################
+(example
+  (id nt-58)
+  (utterance "how many games did at least 1500 people attend?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/615.csv))
+  (targetValue (list (description "11")))
+  (targetFormula (count (r.attendance (@p.num (>= 1500)))))
+)
+############################## ex 59 ##############################
+(example
+  (id nt-59)
+  (utterance "what is the next model listed after disk'o?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/873.csv))
+  (targetValue (list (description "Surf's Up")))
+  (targetFormula (!r.model_name (@!next (r.model_name c.disk_o))))
+)
+############################## ex 60 ##############################
+(example
+  (id nt-60)
+  (utterance "how many matches were in may 2010?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/260.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (count (r.date (and (@p.date (>= (date 2010 5 1))) (@p.date (< (date 2010 6 1)))))))
+  (alternativeFormula (count (r.date (@p.date (date 2010 5 -1)))))
+)
+############################## ex 61 ##############################
+(example
+  (id nt-61)
+  (utterance "what is the total amount of senators i all departments?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/246.csv))
+  (targetValue (list (description "36")))
+  (targetFormula (@!p.num (!r.senators (r.department c.total))))
+  (alternativeFormula (sum (@!p.num (!r.senators (r.department (!= c.total))))))
+)
+############################## ex 62 ##############################
+(example
+  (id nt-62)
+  (utterance "who directed the film rajanna?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/393.csv))
+  (targetValue (list (description "Vijayendra Prasad")))
+  (targetFormula (!r.director (r.film c.rajanna)))
+)
+############################## ex 63 ##############################
+(example
+  (id nt-63)
+  (utterance "is the are of saint helena more than that of nightingale island?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/332.csv))
+  (targetValue (list (description "yes")))
+  (error "Yes/No Question")
+)
+############################## ex 64 ##############################
+(example
+  (id nt-64)
+  (utterance "how many districts are there in virginia?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/109.csv))
+  (targetValue (list (description "22")))
+  (targetFormula (count (@type @row)))
+)
+############################## ex 65 ##############################
+(example
+  (id nt-65)
+  (utterance "which alumni in the 1990's has the least number of international caps?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/312.csv))
+  (targetValue (list (description "Clint Bolton")))
+  (targetFormula (!r.name (argmin 1 1 (r.years (and (@p.num (>= 1990)) (@p.num (< 2000))))
+                                  (reverse (lambda x (@!p.num (!r.international_caps (var x))))))))
+  (alternativeFormula (!r.name (argmin 1 1 (r.years (@p.num (and (>= 1990) (< 2000))))
+                                    (reverse (lambda x (@!p.num (!r.international_caps (var x))))))))
+)
+############################## ex 66 ##############################
+(example
+  (id nt-66)
+  (utterance "what title is at the top of the table?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/570.csv))
+  (targetValue (list (description "The Name of the Game")))
+  (targetFormula (!r.title (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 67 ##############################
+(example
+  (id nt-67)
+  (utterance "what is the number of tv shows that charmaine sheh has appeared on?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/631.csv))
+  (targetValue (list (description "9")))
+  (targetFormula (count (@type @row)))
+)
+############################## ex 68 ##############################
+(example
+  (id nt-68)
+  (utterance "amazon is at the top of the chart, but what is the name below it?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/568.csv))
+  (targetValue (list (description "Antelope")))
+  (targetFormula (!r.name (@!next (r.name c.amazon))))
+)
+############################## ex 69 ##############################
+(example
+  (id nt-69)
+  (utterance "when was the last time kansas state lost with 0 points in manhattan?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/703.csv))
+  (targetValue (list (description "1964")))
+  (targetFormula (@!p.num (!r.year (argmax 1 1 (and (r.site c.manhattan)
+                                                    (r.losing_team c.kansas_state_0)) @index))))
+  (alternativeFormula (max (@!p.num (!r.year (and (r.site c.manhattan)
+                                                  (r.losing_team c.kansas_state_0))))))
+)
+############################## ex 70 ##############################
+(example
+  (id nt-70)
+  (utterance "how long was joseph black a coach?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/577.csv))
+  (targetValue (list (description "1 year")))
+  (targetFormula (@!p.num (!r.years (r.coach c.joseph_black))))
+)
+############################## ex 71 ##############################
+(example
+  (id nt-71)
+  (utterance "which month were the least amount of games held in?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/470.csv))
+  (targetValue (list (description "April")))
+  (error "Need to answer month")
+)
+############################## ex 72 ##############################
+(example
+  (id nt-72)
+  (utterance "what is the number of formula one series races that cochet has been in?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/198.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (count (r.series c.formula_one)))
+)
+############################## ex 73 ##############################
+(example
+  (id nt-73)
+  (utterance "how many matches took place in the first premier?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/246.csv))
+  (targetValue (list (description "27")))
+  (targetFormula (@!p.num (!r.matches (argmin 1 1 (r.league c.v_premier) @index)))) 
+)
+############################## ex 74 ##############################
+(example
+  (id nt-74)
+  (utterance "which driver appears the most?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/367.csv))
+  (targetValue (list (description "Jim Clark")))
+  (targetFormula (argmax 1 1 (@!p.part (!r.driver (@type @row))) (reverse (lambda x (count (r.driver (@p.part (var x))))))))
+)
+############################## ex 75 ##############################
+(example
+  (id nt-75)
+  (utterance "how many places list no zip code in either the lower or upper zip code?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/356.csv))
+  (targetValue (list (description "18")))
+  (targetFormula (count (r.lower_zip_code c.null)))
+)
+############################## ex 76 ##############################
+(example
+  (id nt-76)
+  (utterance "how many populations at most have any notes?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/891.csv))
+  (targetValue (list (description "0")))
+  (error "What?")
+)
+############################## ex 77 ##############################
+(example
+  (id nt-77)
+  (utterance "what is the number of christian radio stations broadcasted by mxr yorkshire?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/603.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (count (r.description c.christian)))
+)
+############################## ex 78 ##############################
+(example
+  (id nt-78)
+  (utterance "what is the most compilation albums released in one year?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/471.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (r.year (argmax 1 1 (!r.year (@type @row)) (reverse (lambda x (count (r.year (var x)))))))))
+)
+############################## ex 79 ##############################
+(example
+  (id nt-79)
+  (utterance "what are the number of times antonov is listed as the manufacturer?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/601.csv))
+  (targetValue (list (description "8")))
+  (targetFormula (count (r.manufacturer c.antonov)))
+)
+############################## ex 80 ##############################
+(example
+  (id nt-80)
+  (utterance "has the dominican republic won more or less medals than china?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/535.csv))
+  (targetValue (list (description "less")))
+  (error "More or less than <-> yes/no question")
+)
+############################## ex 81 ##############################
+(example
+  (id nt-81)
+  (utterance "what vehicle maker other than dodge has the most vehicles in the roster?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/89.csv))
+  (targetValue (list (description "Chevrolet")))
+  (error "Need to normalize Chevrolet Silverado --> Chevrolet")
+)
+############################## ex 82 ##############################
+(example
+  (id nt-82)
+  (utterance "how many top selling brands target dermatology?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/610.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (r.therapeutic_area c.dermatology)))
+)
+############################## ex 83 ##############################
+(example
+  (id nt-83)
+  (utterance "which ethnicity is previous from dungan")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/984.csv))
+  (targetValue (list (description "Belorussian")))
+  (targetFormula (!r.ethnicity (@next (r.ethnicity c.dungan))))
+)
+############################## ex 84 ##############################
+(example
+  (id nt-84)
+  (utterance "which year had the most titles released?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/643.csv))
+  (targetValue (list (description "2005")))
+  (targetFormula (@!p.num (argmax 1 1 (!r.release (@type @row))
+                                  (reverse (lambda x (count (r.release (var x))))))))
+  (alternativeFormula (argmax 1 1 (@!p.num (!r.release (@type @row)))
+                                  (reverse (lambda x (count (r.release (@p.num (var x))))))))
+)
+############################## ex 85 ##############################
+(example
+  (id nt-85)
+  (utterance "name someone else from scotland inducted before alan brazil.")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/650.csv))
+  (targetValue (list (description "George Burley")))
+  (targetFormula (!r.name (and (r.nationality c.scotland)
+                               (@index (< (@!index (r.name c.alan_brazil)))))))
+)
+############################## ex 86 ##############################
+(example
+  (id nt-86)
+  (utterance "what party has the most mp's?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/139.csv))
+  (targetValue (list (description "Serbian Progressive Party Српска напредна странка / Srpska napredna stranka")))
+  (targetFormula (!r.name (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.mps (var x))))))))
+)
+############################## ex 87 ##############################
+(example
+  (id nt-87)
+  (utterance "who was the only judge appointed by mckinley?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/563.csv))
+  (targetValue (list (description "David Davie Shelby")))
+  (targetFormula (!r.judge (r.appointed_by c.mckinley)))
+)
+############################## ex 88 ##############################
+(example
+  (id nt-88)
+  (utterance "how many times was jim mcmanus jim osborne's partner?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/335.csv))
+  (targetValue (list (description "7")))
+  (targetFormula (count (r.partner c.jim_mcmanus)))
+)
+############################## ex 89 ##############################
+(example
+  (id nt-89)
+  (utterance "what was the number of days of the denver open?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/536.csv))
+  (targetValue (list (description "5")))
+  (error "Need to parse date range")
+)
+############################## ex 90 ##############################
+(example
+  (id nt-90)
+  (utterance "who is the only person to score in the march 6 game against videoton this season?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/605.csv))
+  (targetValue (list (description "Stapleton")))
+  (targetFormula (!r.scorers (and (r.date (@p.date (date -1 3 6))) (r.opponents c.videoton))))
+  (alternativeFormula (!r.scorers (r.date (@p.date (date -1 3 6)))))
+)
+############################## ex 91 ##############################
+(example
+  (id nt-91)
+  (utterance "how many songs charted above the 10th position on any chart?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/654.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (or (r.u_s (@p.num (< 10)))
+                            (or (r.u_s_r_b (@p.num (< 10)))
+                                (or (r.u_s_ac (@p.num (< 10)))
+                                    (r.uk (@p.num (< 10))))))))
+)
+############################## ex 92 ##############################
+(example
+  (id nt-92)
+  (utterance "who was the first to take office?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/668.csv))
+  (targetValue (list (description "Jaafar Mohamed")))
+  (targetFormula (!r.menteri_besar (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 93 ##############################
+(example
+  (id nt-93)
+  (utterance "count how many of these members were unionists.")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/608.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (count (r.elected_party c.unionist)))
+)
+############################## ex 94 ##############################
+(example
+  (id nt-94)
+  (utterance "what is the next event after hardcore tv #15?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/23.csv))
+  (targetValue (list (description "Hardcore TV #21")))
+  (targetFormula (!r.event (r.null (@p.num (+ 1 (@!p.num (!r.null (r.event c.hardcore_tv_15))))))))
+)
+############################## ex 95 ##############################
+(example
+  (id nt-95)
+  (utterance "how long was the race in the all-africa games (distance)?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/189.csv))
+  (targetValue (list (description "10,000 m")))
+  (error "Wrong annotation -- Impossible to answer since there are 2 numbers.")
+)
+############################## ex 96 ##############################
+(example
+  (id nt-96)
+  (utterance "how many towns have a population higher than 1000?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/568.csv))
+  (targetValue (list (description "9")))
+  (targetFormula (count (r.population (@p.num (> 1000)))))
+)
+############################## ex 97 ##############################
+(example
+  (id nt-97)
+  (utterance "which rifle has the longest barrel?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/343.csv))
+  (targetValue (list (description "Rifle 1889")))
+  (targetFormula (!r.model (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.barrel_length (var x))))))))
+)
+############################## ex 98 ##############################
+(example
+  (id nt-98)
+  (utterance "how many received a gold or silver medal in cycling?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/4.csv))
+  (targetValue (list (description "6")))
+  (targetFormula (count (@!p.part (!r.name (and (r.medal (or c.gold c.silver)) (r.sport c.cycling))))))
+)
+############################## ex 99 ##############################
+(example
+  (id nt-99)
+  (utterance "how many elections had at least a 0.2 percentage of constituency votes?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/698.csv))
+  (targetValue (list (description "9")))
+  (targetFormula (count (r._of_constituency_votes_2 (@p.num (>= 0.2)))))
+)
+############################## ex 100 ##############################
+(example
+  (id nt-100)
+  (utterance "what is the least number of concerts given in a season")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/288.csv))
+  (targetValue (list (description "9")))
+  (targetFormula (min (@!p.num (!r.number_of_concerts (@type @row)))))
+)
+############################## ex 101 ##############################
+(example
+  (id nt-101)
+  (utterance "name the countries with the least amount if silver medals?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/314.csv))
+  (targetValue (list (description "Belgium") (description "Hungary") (description "Netherlands") (description "Spain") (description "Czechoslovakia") (description "Italy") (description "Denmark")))
+  (targetFormula (!r.nation (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.silver (var x))))))))
+)
+############################## ex 102 ##############################
+(example
+  (id nt-102)
+  (utterance "other than ulm, what is the name of the other imperial city listed?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/190.csv))
+  (targetValue (list (description "Überlingen")))
+  (targetFormula (and (!r.name (r.type c.imperial_city)) (!= c.ulm)))
+  (alternativeFormula (!r.name (and (r.type c.imperial_city) (r.name (!= c.ulm)))))
+)
+############################## ex 103 ##############################
+(example
+  (id nt-103)
+  (utterance "at the women's 200 meter individual medley sm10 event at the 2012 summer paralympics, how long did it take aurelie rivard to finish?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/422.csv))
+  (targetValue (list (description "2:37.70")))
+  (targetFormula (!r.time (r.name c.aurelie_rivard)))
+)
+############################## ex 104 ##############################
+(example
+  (id nt-104)
+  (utterance "which composer produced his title after 2001?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/969.csv))
+  (targetValue (list (description "Pete Doherty")))
+  (targetFormula (!r.composer (r.date (@p.num (> 2001)))))
+)
+############################## ex 105 ##############################
+(example
+  (id nt-105)
+  (utterance "what is the total of conservatives")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/223.csv))
+  (targetValue (list (description "94")))
+  (error "This is hard. Sum with or will collapse identical values.")
+)
+############################## ex 106 ##############################
+(example
+  (id nt-106)
+  (utterance "other than parry, name an athlete from wales.")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/575.csv))
+  (targetValue (list (description "Darren Jones")))
+  (error "Information not in the table")
+)
+############################## ex 107 ##############################
+(example
+  (id nt-107)
+  (utterance "which player ranked the most?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/952.csv))
+  (targetValue (list (description "Nicky English")))
+  (targetFormula (!r.player (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.rank (var x))))))))
+)
+############################## ex 108 ##############################
+(example
+  (id nt-108)
+  (utterance "what are the number of times model 25 is listed on this chart?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/136.csv))
+  (targetValue (list (description "8")))
+  (targetFormula (count (r.name c.model_25)))
+)
+############################## ex 109 ##############################
+(example
+  (id nt-109)
+  (utterance "how many total points did russia win in this competition?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/809.csv))
+  (targetValue (list (description "119")))
+  (targetFormula (@!p.num (!r.points (r.country c.russia))))
+)
+############################## ex 110 ##############################
+(example
+  (id nt-110)
+  (utterance "what style was the chateau de brissac rebuilt in after it was damaged during the french wars of religion?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/806.csv))
+  (targetValue (list (description "baroque style")))
+  (error "Answer is in running text")
+)
+############################## ex 111 ##############################
+(example
+  (id nt-111)
+  (utterance "how long after fairfield was no. 1 built?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/476.csv))
+  (targetValue (list (description "33 years")))
+  (targetFormula (- (@!p.num (!r.date_built (r.name c.no_1)))
+                    (@!p.num (!r.date_built (r.name c.fairfield)))))
+)
+############################## ex 112 ##############################
+(example
+  (id nt-112)
+  (utterance "what is the first airbase listed on the chart?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/102.csv))
+  (targetValue (list (description "Abu al-Duhur Military Airbase")))
+  (targetFormula (!r.name (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 113 ##############################
+(example
+  (id nt-113)
+  (utterance "which university has the least in endowment?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/592.csv))
+  (targetValue (list (description "Brown University")))
+  (targetFormula (!r.institution (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.2013_endowment_and_us_rank (var x))))))))
+)
+############################## ex 114 ##############################
+(example
+  (id nt-114)
+  (utterance "name one county that only received 1,935 votes total.")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/956.csv))
+  (targetValue (list (description "Hidalgo")))
+  (targetFormula (!r.county (r.total (@p.num 1935))))
+)
+############################## ex 115 ##############################
+(example
+  (id nt-115)
+  (utterance "who was the next ranked competitor after dior delophont and ligia grozav?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/741.csv))
+  (targetValue (list (description "Iryna Herashchenko")))
+  (targetFormula (!r.name (@!next (r.name c.ligia_grozav))))
+)
+############################## ex 116 ##############################
+(example
+  (id nt-116)
+  (utterance "what is the difference in runners-up from coleraine academical institution and royal school dungannon?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/362.csv))
+  (targetValue (list (description "20")))
+  (targetFormula (- (@!p.num (!r.runners_up (r.school c.coleraine_academical_institution)))
+                    (@!p.num (!r.runners_up (r.school c.royal_school_dungannon)))))
+)
+############################## ex 117 ##############################
+(example
+  (id nt-117)
+  (utterance "what year was the first to reach 1,000 or more live births?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/668.csv))
+  (targetValue (list (description "1985")))
+  (targetFormula (@!p.num (!r.null (argmin 1 1 (r.live_births (@p.num (>= 1000))) @index))))
+  (alternativeFormula (@!p.num (!r.null (r.live_births (@p.num (>= 1000))))))
+)
+############################## ex 118 ##############################
+(example
+  (id nt-118)
+  (utterance "what is the first party listed on this chart?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/223.csv))
+  (targetValue (list (description "Conservatives")))
+  (targetFormula (!r.party (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 119 ##############################
+(example
+  (id nt-119)
+  (utterance "how many defensive (df) players are there on the national team?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/121.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (r.pos c.df)))
+)
+############################## ex 120 ##############################
+(example
+  (id nt-120)
+  (utterance "which opponent has the most wins")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/836.csv))
+  (targetValue (list (description "Bahrain")))
+  (targetFormula (argmax 1 1 (!r.opponent (@type @row))
+                             (reverse (lambda x (count (and (r.opponent (var x)) (r.result c.lost)))))))
+)
+############################## ex 121 ##############################
+(example
+  (id nt-121)
+  (utterance "what property comes before tensile elongation?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/229.csv))
+  (targetValue (list (description "Tensile Modulus")))
+  (targetFormula (!r.property (@next (r.property c.tensile_elongation))))
+)
+############################## ex 122 ##############################
+(example
+  (id nt-122)
+  (utterance "the team's record in 2011 was the same was it's record in what year")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/32.csv))
+  (targetValue (list (description "2009")))
+  (targetFormula (and (!= 2011)
+                      (@!p.num (!r.season (r.w_l (!r.w_l (r.season (@p.num 2011))))))))
+)
+############################## ex 123 ##############################
+(example
+  (id nt-123)
+  (utterance "which district has the greatest total number of electorates?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/255.csv))
+  (targetValue (list (description "Tikamgarh")))
+  (targetFormula (argmax 1 1 (!r.district (@type @row))
+                             (reverse (lambda x (sum (@!p.num (!r.number_of_electorates_2009 (r.district (var x)))))))))
+)
+############################## ex 124 ##############################
+(example
+  (id nt-124)
+  (utterance "how many times has germany won bronze?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/554.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (count (r.bronze (@p.part (or q.federal_republic_of_germany q.germany)))))
+)
+############################## ex 125 ##############################
+(example
+  (id nt-125)
+  (utterance "list two pylons that are at most, 80 m in height.")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/375.csv))
+  (targetValue (list (description "Mittersill goods aerial tramway") (description "Singapore cable car")))
+  (error "Multiple ways to answer")
+)
+############################## ex 126 ##############################
+(example
+  (id nt-126)
+  (utterance "what two teams only have two titles?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/502.csv))
+  (targetValue (list (description "Western Michigan") (description "North Dakota")))
+  (targetFormula (!r.team (r.titles (@p.num 2))))
+)
+############################## ex 127 ##############################
+(example
+  (id nt-127)
+  (utterance "what is the name of the first club on this chart?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/145.csv))
+  (targetValue (list (description "UE Lleida")))
+  (targetFormula (!r.club (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 128 ##############################
+(example
+  (id nt-128)
+  (utterance "in 2008 in track and field events who broke more world records, usain bolt or haile gebrselassie?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/102.csv))
+  (targetValue (list (description "Usain Bolt")))
+  (targetFormula (argmax 1 1 (or c.usain_bolt c.haile_gebrselassie)
+                         (reverse (lambda x (count (r.athlete (var x)))))))
+)
+############################## ex 129 ##############################
+(example
+  (id nt-129)
+  (utterance "which election was the first to reach over 40% of the popular vote?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/558.csv))
+  (targetValue (list (description "2003")))
+  (targetFormula (@!p.num (!r.election (argmin 1 1 (r._of_popular_votes (@p.num (> 40))) @index))))
+  (alternativeFormula (@!p.num (!r.election (r._of_popular_votes (@p.num (> 40))))))
+)
+############################## ex 130 ##############################
+(example
+  (id nt-130)
+  (utterance "why type of genre was peter maxwell davies' work that was the same as emil petrovics'")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/969.csv))
+  (targetValue (list (description "ballet")))
+  (targetFormula (and (!r.genre (r.composer c.peter_maxwell_davies))
+                      (!r.genre (r.composer c.emil_petrovics))))
+)
+############################## ex 131 ##############################
+(example
+  (id nt-131)
+  (utterance "what week had the most attendance?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/691.csv))
+  (targetValue (list (description "15")))
+  (targetFormula (@!p.num (!r.week (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.attendance (var x)))))))))
+)
+############################## ex 132 ##############################
+(example
+  (id nt-132)
+  (utterance "what is the difference (in years) between when the royal blue began and the year the crusader began?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/336.csv))
+  (targetValue (list (description "47")))
+  (targetFormula (- (@!p.num (!r.year_begun (r.named_trains c.crusader)))
+                    (@!p.num (!r.year_begun (r.named_trains c.royal_blue)))))
+)
+############################## ex 133 ##############################
+(example
+  (id nt-133)
+  (utterance "what are the number of years maine has participated?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/502.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (@!p.num (!r.years_participated (r.team c.maine))))
+)
+############################## ex 134 ##############################
+(example
+  (id nt-134)
+  (utterance "what is the last iec world plugs type in the list?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/794.csv))
+  (targetValue (list (description "N")))
+  (targetFormula (!r.iec_world_plugs_type1 (argmax 1 1 (@type @row) @index)))
+)
+############################## ex 135 ##############################
+(example
+  (id nt-135)
+  (utterance "what is the least number of meters habte jifar has run?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/189.csv))
+  (targetValue (list (description "5,000 m")))
+  (targetFormula (min (@!p.num (!r.notes (@type @row)))))
+)
+############################## ex 136 ##############################
+(example
+  (id nt-136)
+  (utterance "how many times, total, was the result \"won\"")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/948.csv))
+  (targetValue (list (description "24")))
+  (targetFormula (count (r.result c.won)))
+)
+############################## ex 137 ##############################
+(example
+  (id nt-137)
+  (utterance "what country had the least gdp growth from 2007-2011?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/296.csv))
+  (targetValue (list (description "Zimbabwe")))
+  (targetFormula (!r.country (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.gdp_growth_2007_2011_in (var x))))))))
+)
+############################## ex 138 ##############################
+(example
+  (id nt-138)
+  (utterance "in which country did thierry tulasne win his last singles title?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/60.csv))
+  (targetValue (list (description "Switzerland")))
+  (error "Wrong annotation -- the correct answer is France")
+)
+############################## ex 139 ##############################
+(example
+  (id nt-139)
+  (utterance "what was the last event held?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/413.csv))
+  (targetValue (list (description "Men's 25 m rapid fire pistol")))
+  (targetFormula (!r.event (argmax 1 1 (@type @row) (reverse (lambda x (@!p.date (!r.date (var x))))))))
+)
+############################## ex 140 ##############################
+(example
+  (id nt-140)
+  (utterance "what was the first award he was nominated for?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/643.csv))
+  (targetValue (list (description "Black Reel Awards")))
+  (targetFormula (!r.award (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 141 ##############################
+(example
+  (id nt-141)
+  (utterance "what is the number of games the senators have played?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/517.csv))
+  (targetValue (list (description "18")))
+  (targetFormula (count (@type @row)))
+  (alternativeFormula (count (or (r.visitor c.ottawa_senators) (r.home c.ottawa_senators))))
+)
+############################## ex 142 ##############################
+(example
+  (id nt-142)
+  (utterance "what was the first team that toronto lost to?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/557.csv))
+  (targetValue (list (description "Toronto 228th Battalion")))
+  (error "Wrong annotation")
+)
+############################## ex 143 ##############################
+(example
+  (id nt-143)
+  (utterance "who is taller, the delegate from jalapa or from villa nueva?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/20.csv))
+  (targetValue (list (description "Villa Nueva")))
+  (targetFormula (argmax 1 1 (or c.jalapa c.villa_nueva)
+                         (reverse (lambda x (@!p.num (!r.height (r.hometown (var x))))))))
+)
+############################## ex 144 ##############################
+(example
+  (id nt-144)
+  (utterance "what was the best position achieved at the olympic games after the 1996 atlanta games?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/646.csv))
+  (targetValue (list (description "11th")))
+  (targetFormula (!r.position (argmin 1 1 (r.competition c.olympic_games)
+                                      (reverse (lambda x (@!p.num (!r.position (var x))))))))
+)
+############################## ex 145 ##############################
+(example
+  (id nt-145)
+  (utterance "how many academy awards have been won posthumously?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/17.csv))
+  (targetValue (list (description "16")))
+  (targetFormula (count (r.winner c.won)))
+)
+############################## ex 146 ##############################
+(example
+  (id nt-146)
+  (utterance "number of goals manchester united scored against preston north end in the season")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/467.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (sum (@!p.num (!r.result_f_a (r.opponents c.preston_north_end)))))
+)
+############################## ex 147 ##############################
+(example
+  (id nt-147)
+  (utterance "how many times does \"friendly\" appear in the competition column?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/346.csv))
+  (targetValue (list (description "5")))
+  (targetFormula (count (r.competition c.friendly)))
+)
+############################## ex 148 ##############################
+(example
+  (id nt-148)
+  (utterance "who received the least amount of votes?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/786.csv))
+  (targetValue (list (description "Karen Olsson")))
+  (targetFormula (!r.candidate (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.votes (var x))))))))
+)
+############################## ex 149 ##############################
+(example
+  (id nt-149)
+  (utterance "which locomotive was built after 1915?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/223.csv))
+  (targetValue (list (description "No.774")))
+  (targetFormula (!r.name (r.date (@p.num (> 1915)))))
+)
+############################## ex 150 ##############################
+(example
+  (id nt-150)
+  (utterance "funningsfjørður and fuglafjørður are located on the same island as...?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/568.csv))
+  (targetValue (list (description "Funningur")))
+  (error "Multiple ways to answer")
+)
+############################## ex 151 ##############################
+(example
+  (id nt-151)
+  (utterance "which province in andalusia has the largest population?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/3.csv))
+  (targetValue (list (description "Seville")))
+  (targetFormula (!r.province (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.population (var x))))))))
+)
+############################## ex 152 ##############################
+(example
+  (id nt-152)
+  (utterance "what is the next highest hard drive available after the 30gb model?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/451.csv))
+  (targetValue (list (description "64GB SSD")))
+  (error "Too difficult")
+)
+############################## ex 153 ##############################
+(example
+  (id nt-153)
+  (utterance "the total number of helipads at hama military airport?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/102.csv))
+  (targetValue (list (description "10")))
+  (targetFormula (@!p.num (!r.helipads (r.name c.hama_military_airport))))
+)
+############################## ex 154 ##############################
+(example
+  (id nt-154)
+  (utterance "what are the only species with 99% sequence identity?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/358.csv))
+  (targetValue (list (description "Pan troglodytes") (description "Nomascus leucogenys")))
+  (targetFormula (!r.species (r.sequence_identity (@p.num 99))))
+)
+############################## ex 155 ##############################
+(example
+  (id nt-155)
+  (utterance "what was the month and year when the rutgers-eagleton poll first showed 50 percent in favor of same-sex marriage in new jersey?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/43.csv))
+  (targetValue (list (description "November 2009")))
+  (targetFormula (@!p.date (!r.month (argmin 1 1 (and (r.polling_firm c.rutgers_eagleton)
+                                                      (r.favor (@p.num 50)))
+                                             (reverse (lambda x (@!p.date (!r.month (var x)))))))))
+  (alternativeFormula (@!p.date (!r.month (argmax 1 1 (and (r.polling_firm c.rutgers_eagleton)
+                                                      (r.favor (@p.num 50))) @index))))
+  (alternativeFormula (@!p.date (!r.month (and (r.polling_firm c.rutgers_eagleton)
+                                               (r.favor (@p.num 50))))))
+)
+############################## ex 156 ##############################
+(example
+  (id nt-156)
+  (utterance "how many times did the home team have a score of only one against the away team?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/475.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (count (r.score (@p.num 1))))
+)
+############################## ex 157 ##############################
+(example
+  (id nt-157)
+  (utterance "other than lake ercek, name a lake in van.")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/341.csv))
+  (targetValue (list (description "Lake Van")))
+  (targetFormula (!r.name_in_english (r.location_districts_and_or_provinces c.van_bitlis)))
+)
+############################## ex 158 ##############################
+(example
+  (id nt-158)
+  (utterance "which mountain peak has a prominence more than 10,000 ft?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/25.csv))
+  (targetValue (list (description "Mount Whitney")))
+  (targetFormula (!r.mountain_peak (r.prominence (@p.num (> 10000)))))
+)
+############################## ex 159 ##############################
+(example
+  (id nt-159)
+  (utterance "how many mines were in temagami?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/944.csv))
+  (targetValue (list (description "10")))
+  (targetFormula (count (r.town c.temagami)))
+)
+############################## ex 160 ##############################
+(example
+  (id nt-160)
+  (utterance "how many gold medals did this country win during these olympics?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/884.csv))
+  (targetValue (list (description "10")))
+  (targetFormula (count (r.medal c.gold)))
+)
+############################## ex 161 ##############################
+(example
+  (id nt-161)
+  (utterance "what peter widen's is the highest finish in all indoor championships?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/445.csv))
+  (targetValue (list (description "5th")))
+  (targetFormula (!r.position (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.position (var x))))))))
+)
+############################## ex 162 ##############################
+(example
+  (id nt-162)
+  (utterance "how many audio versions are less than five minutes long?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/804.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (r.length (@p.num (< 5)))))
+)
+############################## ex 163 ##############################
+(example
+  (id nt-163)
+  (utterance "who was the top scorer after sukhrob nematov?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/357.csv))
+  (targetValue (list (description "Vokhid Shodiev")))
+  (targetFormula (!r.top_scorer_league (@!next (r.top_scorer_league c.sukhrob_nematov_7))))
+)
+############################## ex 164 ##############################
+(example
+  (id nt-164)
+  (utterance "how many articles were published in the 6th volume?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/843.csv))
+  (targetValue (list (description "3,108")))
+  (targetFormula (@!p.num (!r.articles (r.volume (@p.num 6)))))
+)
+############################## ex 165 ##############################
+(example
+  (id nt-165)
+  (utterance "what is the total number of awards the lion king has won?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/592.csv))
+  (targetValue (list (description "15")))
+  (error "Answer is in running text.")
+)
+############################## ex 166 ##############################
+(example
+  (id nt-166)
+  (utterance "how long did it take this competitor to finish the 4x400 meter relay at universiade in 2005?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/622.csv))
+  (targetValue (list (description "3:02.57")))
+  (targetFormula (!r.notes (and (r.year (@p.num 2005))
+                                (and (r.competition c.universiade)
+                                     (r.event c.4x400_m_relay)))))
+)
+############################## ex 167 ##############################
+(example
+  (id nt-167)
+  (utterance "which is the oldest locomotive?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/816.csv))
+  (targetValue (list (description "BL26")))
+  (targetFormula (!r.locomotive (argmin 1 1 (@type @row) (reverse (lambda x (@!p.date (!r.entered_service (var x))))))))
+)
+############################## ex 168 ##############################
+(example
+  (id nt-168)
+  (utterance "what year did the album \"jezebel\" on blockshok records release?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/928.csv))
+  (targetValue (list (description "1995")))
+  (targetFormula (@!p.num (!r.year (r.album c.jezebel))))
+)
+############################## ex 169 ##############################
+(example
+  (id nt-169)
+  (utterance "which schools have the largest number of shared titles?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/362.csv))
+  (targetValue (list (description "Royal Belfast Academical Institution") (description "Campbell College")))
+  (targetFormula (!r.school (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.shared_titles (var x))))))))
+)
+############################## ex 170 ##############################
+(example
+  (id nt-170)
+  (utterance "what name comes next fairfield?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/476.csv))
+  (targetValue (list (description "Waverley")))
+  (targetFormula (!r.name (@!next (r.name c.fairfield))))
+)
+############################## ex 171 ##############################
+(example
+  (id nt-171)
+  (utterance "how many games were only won by 20 points or less?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/157.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (count (and (@type @row)
+                             (mark x (: (and (- (@!p.num (!r.result (var x)))
+                                                (@!p.num2 (!r.result (var x))))
+                                             (and (> 0) (<= 20))))))))
+)
+############################## ex 172 ##############################
+(example
+  (id nt-172)
+  (utterance "what was her peak ranking in the us for the single \"it wasn't god who made honky tonk angles\"?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/500.csv))
+  (targetValue (list (description "27")))
+  (targetFormula (@!p.num (!r.peak_chart_positions_us (r.title c._it_wasn_t_god_who_made_honky_tonk_angels))))
+)
+############################## ex 173 ##############################
+(example
+  (id nt-173)
+  (utterance "when was bobbie phillips first role in tv?")
+  (context (graph tables.TableKnowledgeGraph csv/202-csv/178.csv))
+  (targetValue (list (description "1991")))
+  (targetFormula (@!p.num (!r.year (argmin 1 1 (@type @row) @index))))
+)
+############################## ex 174 ##############################
+(example
+  (id nt-174)
+  (utterance "give the total number of riders listed.")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/162.csv))
+  (targetValue (list (description "26")))
+  (targetFormula (count (@type @row)))
+)
+############################## ex 175 ##############################
+(example
+  (id nt-175)
+  (utterance "which one is the last on the chart")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/679.csv))
+  (targetValue (list (description "Sam Snead")))
+  (targetFormula (!r.player (argmax 1 1 (@type @row) @index)))
+)
+############################## ex 176 ##############################
+(example
+  (id nt-176)
+  (utterance "how long was the marathon for camilla benjaminsson?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/31.csv))
+  (targetValue (list (description "1:20:00")))
+  (targetFormula (!r.time_h_m_s_2 (r.women_s_winner c.camilla_benjaminsson_swe)))
+)
+############################## ex 177 ##############################
+(example
+  (id nt-177)
+  (utterance "which is the most recent source for the name?")
+  (context (graph tables.TableKnowledgeGraph csv/202-csv/250.csv))
+  (targetValue (list (description "Clavijo")))
+  (targetFormula (!r.source (argmax 1 1 (@type @row) @index)))
+)
+############################## ex 178 ##############################
+(example
+  (id nt-178)
+  (utterance "which province is the top consumer of wine?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/533.csv))
+  (targetValue (list (description "Yukon")))
+  (targetFormula (!r.null (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.wine (var x))))))))
+)
+############################## ex 179 ##############################
+(example
+  (id nt-179)
+  (utterance "which chords does not have a sharp or flat note?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/324.csv))
+  (targetValue (list (description "G7")))
+  (error "Require string matching")
+)
+############################## ex 180 ##############################
+(example
+  (id nt-180)
+  (utterance "how long did ian armstrong serve?")
+  (context (graph tables.TableKnowledgeGraph csv/202-csv/76.csv))
+  (targetValue (list (description "26 years")))
+  (targetFormula (- (@!p.num2 (!r.term (r.member c.ian_armstrong)))
+                    (@!p.num (!r.term (r.member c.ian_armstrong)))))
+)
+############################## ex 181 ##############################
+(example
+  (id nt-181)
+  (utterance "habte jifar is a marathon runner representing his home country of ____?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/189.csv))
+  (targetValue (list (description "Ethiopia")))
+  (error "Need normalization with comma")
+)
+############################## ex 182 ##############################
+(example
+  (id nt-182)
+  (utterance "how many games did the senators play in january?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/517.csv))
+  (targetValue (list (description "10")))
+  (targetFormula (count (r.date (@p.date (date -1 1 -1)))))
+)
+############################## ex 183 ##############################
+(example
+  (id nt-183)
+  (utterance "what material has the top or best thermal conductivity based on the information in the table?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/385.csv))
+  (targetValue (list (description "Diamond")))
+  (targetFormula (!r.material (r.thermal_cond c.excellent)))
+)
+############################## ex 184 ##############################
+(example
+  (id nt-184)
+  (utterance "which month had more games played, january or december?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/967.csv))
+  (targetValue (list (description "January")))
+  (error "Not answerable by the table")
+)
+############################## ex 185 ##############################
+(example
+  (id nt-185)
+  (utterance "how many total towns on the list are in montgomery county?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/299.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (r.principal_county c.montgomery_county)))
+)
+############################## ex 186 ##############################
+(example
+  (id nt-186)
+  (utterance "what is the total number of fdrcs that the ppopp has been a part of?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/916.csv))
+  (targetValue (list (description "3")))
+  (error "Column-based table")
+)
+############################## ex 187 ##############################
+(example
+  (id nt-187)
+  (utterance "what is the name of the first jockey on this chart?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/330.csv))
+  (targetValue (list (description "Tom Kiley")))
+  (targetFormula (!r.jockey (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 188 ##############################
+(example
+  (id nt-188)
+  (utterance "what was the first non volume game released in 2004?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/583.csv))
+  (targetValue (list (description "Gunbird Special Edition / Gunbird 1&2")))
+  (targetFormula (!r.title (argmin 1 1 (r.release (@p.num 2004)) @index)))
+)
+############################## ex 189 ##############################
+(example
+  (id nt-189)
+  (utterance "what is the top place listed on the chart?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/550.csv))
+  (targetValue (list (description "Brisbane, Australia")))
+  (targetFormula (!r.place (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 190 ##############################
+(example
+  (id nt-190)
+  (utterance "who became commissioner after george p. larrick?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/559.csv))
+  (targetValue (list (description "James Lee Goddard, M.D.")))
+  (targetFormula (!r.name (@!next (r.name c.george_p_larrick))))
+)
+############################## ex 191 ##############################
+(example
+  (id nt-191)
+  (utterance "how many airlines have a steady ranking?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/515.csv))
+  (targetValue (list (description "4")))
+  (error "Need list normalization")
+)
+############################## ex 192 ##############################
+(example
+  (id nt-192)
+  (utterance "how many top scorers do not appear twice?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/357.csv))
+  (targetValue (list (description "4")))
+  (error "Need normalization 'Name - number' --> name")
+)
+############################## ex 193 ##############################
+(example
+  (id nt-193)
+  (utterance "in 2007, what is the largest number of consecutive games won by the nebraska football team?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/294.csv))
+  (targetValue (list (description "2")))
+  (error "Need normalization 'W 10-20' --> 'W'")
+)
+############################## ex 194 ##############################
+(example
+  (id nt-194)
+  (utterance "in terms of gross what movie is above toy story 3?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/174.csv))
+  (targetValue (list (description "Pirates of the Caribbean: At World's End")))
+  (targetFormula (!r.film (@next (r.film c.toy_story_3))))
+)
+############################## ex 195 ##############################
+(example
+  (id nt-195)
+  (utterance "which three artists had a single at number 1 for at least 7 weeks on the australian singles charts in 1977?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/197.csv))
+  (targetValue (list (description "Julie Covington") (description "Pussyfoot") (description "Andy Gibb")))
+  (targetFormula (!r.artist (r.weeks_at_no_1 (@p.num 7))))
+)
+############################## ex 196 ##############################
+(example
+  (id nt-196)
+  (utterance "in what year did the fiba south america under-17 championship for women first begin?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/360.csv))
+  (targetValue (list (description "1976")))
+  (targetFormula (min (@!p.num (!r.year (@type @row)))))
+  (alternativeFormula (@!p.num (!r.year (argmin 1 1 (@type @row) @index))))
+)
+############################## ex 197 ##############################
+(example
+  (id nt-197)
+  (utterance "which movies were number 1 for at least two consecutive weeks?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/7.csv))
+  (targetValue (list (description "Frozen") (description "Cásese Quien Pueda") (description "300: Rise of an Empire")))
+  (targetFormula (!r.film (fb:row.consecutive.film (>= 2))))
+)
+############################## ex 198 ##############################
+(example
+  (id nt-198)
+  (utterance "where was the only site that both team ever tied the game in?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/209.csv))
+  (targetValue (list (description "Columbia")))
+  (targetFormula (!r.site (mark x (r.winning_team_2 (!r.losing_team_2 (var x))))))
+  (alternativeFormula (!r.site (and (@type @row)
+                                    (mark x (: (and (@!p.num (!r.winning_team_2 (var x)))
+                                                    (@!p.num (!r.losing_team_2 (var x)))))))))
+  (alternativeFormula (!r.site (and (@type @row)
+                                    (mark x (: (and (!r.winning_team_2 (var x))
+                                                    (!r.losing_team_2 (var x))))))))
+)
+############################## ex 199 ##############################
+(example
+  (id nt-199)
+  (utterance "how many players with an assist did not play the position of mf or fw?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/575.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (count (and (r.position (!= c.mf)) (r.position (!= c.fw)))))
+)
+############################## ex 200 ##############################
+(example
+  (id nt-200)
+  (utterance "what is the number of symbol zn?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/39.csv))
+  (targetValue (list (description "30")))
+  (targetFormula (@!p.num (!r.number (r.symbol c.zn))))
+)
+############################## ex 201 ##############################
+(example
+  (id nt-201)
+  (utterance "which two counties have the larger populations when combined - park and missoula or judith basin and madison?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/572.csv))
+  (targetValue (list (description "Park and Missoula")))
+  (error "Cannot generate an answer like this")
+)
+############################## ex 202 ##############################
+(example
+  (id nt-202)
+  (utterance "what is the last city/town/village listed in the table?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/841.csv))
+  (targetValue (list (description "Sanuki")))
+  (targetFormula (!r.city_town_village (argmax 1 1 (@type @row) @index)))
+)
+############################## ex 203 ##############################
+(example
+  (id nt-203)
+  (utterance "which candidate got the least votes in the entire districts?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/226.csv))
+  (targetValue (list (description "Nezir Jaupaj (PKSH) (2.63 %)")))
+  (targetFormula (argmin 1 1 (or (!r.coalition_for_the_citizen (@type @row))
+                                 (or (!r.coalition_for_the_future (@type @row))
+                                     (!r.other_independent (@type @row)))) @p.num))
+)
+############################## ex 204 ##############################
+(example
+  (id nt-204)
+  (utterance "how many teams had at least 15 wins?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/145.csv))
+  (targetValue (list (description "8")))
+  (targetFormula (count (r.wins (@p.num (>= 15)))))
+)
+############################## ex 205 ##############################
+(example
+  (id nt-205)
+  (utterance "what is the difference in tom power's number and jon wood's number?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/89.csv))
+  (targetValue (list (description "5")))
+  (targetFormula (- (@!p.num (!r.null (r.driver_s c.tom_powers)))
+                    (@!p.num (!r.null (r.driver_s c.jon_wood)))))
+)
+############################## ex 206 ##############################
+(example
+  (id nt-206)
+  (utterance "what car achieved the highest qual?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/339.csv))
+  (targetValue (list (description "40")))
+  (targetFormula (@!p.num (!r.car (argmax 1 1 (@type @row)
+                                          (reverse (lambda x (@!p.num (!r.qual (var x)))))))))
+)
+############################## ex 207 ##############################
+(example
+  (id nt-207)
+  (utterance "what was the first computer to use a decimal numeral system?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/577.csv))
+  (targetValue (list (description "Harvard Mark I - IBM ASCC")))
+  (targetFormula (!r.name (argmin 1 1 (r.numeral_system c.decimal) @index)))
+)
+############################## ex 208 ##############################
+(example
+  (id nt-208)
+  (utterance "which secretary of state came after jack pkckersgill?")
+  (context (graph tables.TableKnowledgeGraph csv/201-csv/27.csv))
+  (targetValue (list (description "Roch Pinard")))
+  (targetFormula (!r.secretary_of_state (@!next (r.secretary_of_state c.jack_pickersgill))))
+)
+############################## ex 209 ##############################
+(example
+  (id nt-209)
+  (utterance "which album did she produce before good rain?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/529.csv))
+  (targetValue (list (description "Pixiedust")))
+  (targetFormula (!r.album (@next (r.album c.good_rain))))
+)
+############################## ex 210 ##############################
+(example
+  (id nt-210)
+  (utterance "how many athletes are not ranked?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/713.csv))
+  (targetValue (list (description "21")))
+  (error "The first 3 ranks are images. Extracting image alt should solve the problem.")
+)
+############################## ex 211 ##############################
+(example
+  (id nt-211)
+  (utterance "how far did they make it in the fa cup after 2009?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/179.csv))
+  (targetValue (list (description "Round of 16")))
+  (error "Need to know that Round of 16 is better than Round of 32 (in a way that generalizes to 'Quarter-final')")
+)
+############################## ex 212 ##############################
+(example
+  (id nt-212)
+  (utterance "how many consecutive songs were by the album leaf?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/357.csv))
+  (targetValue (list (description "6")))
+  (targetFormula (count (r.artist c.the_album_leaf)))
+  (alternativeFormula (max (!fb:row.consecutive.artist (r.artist c.the_album_leaf))))
+)
+############################## ex 213 ##############################
+(example
+  (id nt-213)
+  (utterance "what team scored the least opposition strength?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/837.csv))
+  (targetValue (list (description "Amplistan")))
+  (error "Require @str1")
+)
+############################## ex 214 ##############################
+(example
+  (id nt-214)
+  (utterance "which party finished last in the election?")
+  (context (graph tables.TableKnowledgeGraph csv/202-csv/231.csv))
+  (targetValue (list (description "Sweden Democrats")))
+  (targetFormula (!r.party (argmin 1 1 (@type @row) 
+                                   (reverse (lambda x (@!p.num (!r.votes (var x))))))))
+)
+############################## ex 215 ##############################
+(example
+  (id nt-215)
+  (utterance "in their first 20 games, which team did the tigers play the most?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/536.csv))
+  (targetValue (list (description "CHW")))
+  (targetFormula (argmax 1 1 (!r.opponent (@type @row))
+                         (reverse (lambda x (count (r.opponent (var x)))))))
+)
+############################## ex 216 ##############################
+(example
+  (id nt-216)
+  (utterance "which track is at the top of the us chart?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/830.csv))
+  (targetValue (list (description "\"You're Gettin' to Me Again\"")))
+  (targetFormula (!r.song (argmin 1 1 (@type @row)
+                                  (reverse (lambda x (@!p.num (!r.chart_positions_us_country (var x))))))))
+)
+############################## ex 217 ##############################
+(example
+  (id nt-217)
+  (utterance "which castle is considered second fortress of anjou, after angers?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/806.csv))
+  (targetValue (list (description "Château de Pouancé")))
+  (targetFormula (!r.name (r.notes c.considered_second_fortress_of_anjou_after_angers)))
+)
+############################## ex 218 ##############################
+(example
+  (id nt-218)
+  (utterance "the team placed 1st in 1992/93. how did they place the previous year?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/35.csv))
+  (targetValue (list (description "18th")))
+  (targetFormula (!r.place (@next (r.season c.1992_93))))
+)
+############################## ex 219 ##############################
+(example
+  (id nt-219)
+  (utterance "what award was won previously just before the medaglia pontificia anno xiii was awarded?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/769.csv))
+  (targetValue (list (description "Indira Gandhi Peace Prize for Disarmament and Development")))
+  (targetFormula (!r.honour_award_title (@next (r.honour_award_title
+                                                c.medaglia_pontificia_pope_s_medal_anno_xiii))))
+)
+############################## ex 220 ##############################
+(example
+  (id nt-220)
+  (utterance "who was the only person that scheider lost against?")
+  (context (graph tables.TableKnowledgeGraph csv/200-csv/31.csv))
+  (targetValue (list (description "Myron Greenberg")))
+  (targetFormula (!r.opponent (r.result c.loss)))
+)
+############################## ex 221 ##############################
+(example
+  (id nt-221)
+  (utterance "which driver and co-driver finished at 3:59 but with 8 points?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/399.csv))
+  (targetValue (list (description "Dani Sordo") (description "Marc Marti")))
+  (targetFormula ((lambda x (or (!r.driver (var x)) (!r.co_driver (var x))))
+                  (and (r.time (or c.3_59_18_9 c.3_59_36_4)) (r.points (@p.num 8)))))
+)
+############################## ex 222 ##############################
+(example
+  (id nt-222)
+  (utterance "what was the name of the ship that was built after the jule in this yard?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/781.csv))
+  (targetValue (list (description "United States lightship LV-72")))
+  (targetFormula (!r.name_s (@!next (r.name_s c.jule))))
+)
+############################## ex 223 ##############################
+(example
+  (id nt-223)
+  (utterance "when was the benetton b198 chassis used?")
+  (context (graph tables.TableKnowledgeGraph csv/202-csv/294.csv))
+  (targetValue (list (description "1998")))
+  (targetFormula (@!p.num (!r.year (r.chassis c.benetton_b198))))
+)
+############################## ex 224 ##############################
+(example
+  (id nt-224)
+  (utterance "which institution has the most undergraduate enrollment?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/592.csv))
+  (targetValue (list (description "Cornell University")))
+  (targetFormula (!r.institution (argmax 1 1 (@type @row)
+                                         (reverse (lambda x (@!p.num (!r.undergraduate_enrollment (var x))))))))
+  (alternativeFormula (argmax 1 1 (!r.institution (@type @row))
+                              (reverse (lambda x (@!p.num (!r.undergraduate_enrollment (r.institution (var x))))))))
+)
+############################## ex 225 ##############################
+(example
+  (id nt-225)
+  (utterance "other than chimaltenango's contestant, which region also had a 19-year-old contestant?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/20.csv))
+  (targetValue (list (description "Ciudad Capital")))
+  (targetFormula (and (!= c.chimaltenango)
+                      (!r.represent (r.age (@p.num 19)))))
+)
+############################## ex 226 ##############################
+(example
+  (id nt-226)
+  (utterance "what date was the first game played?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/517.csv))
+  (targetValue (list (description "December 21")))
+  (targetFormula (@!p.date (!r.date (argmin 1 1 (@type @row) @index))))
+)
+############################## ex 227 ##############################
+(example
+  (id nt-227)
+  (utterance "when was the last super chinese game released?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/55.csv))
+  (targetValue (list (description "1999")))
+  (targetFormula (@!p.num (!r.release (argmax 1 1 (@type @row) @index))))
+)
+############################## ex 228 ##############################
+(example
+  (id nt-228)
+  (utterance "is the rf for wivm-ld 39 or 29?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/793.csv))
+  (targetValue (list (description "39")))
+  (targetFormula (@!p.num (!r.rf (r.call_sign c.wivm_ld))))
+  (alternativeFormula (and (or 39 29) (@!p.num (!r.rf (r.call_sign c.wivm_ld)))))
+)
+############################## ex 229 ##############################
+(example
+  (id nt-229)
+  (utterance "who held the position longer, t.v sivaraopantulu or l. suryalingam?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/593.csv))
+  (targetValue (list (description "T.V. SivaraoPantulu")))
+  (error "Non-standard table orientation")
+)
+############################## ex 230 ##############################
+(example
+  (id nt-230)
+  (utterance "which players came in a place before lukas bauer?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/81.csv))
+  (targetValue (list (description "Iivo Niskanen") (description "Daniel Richardsson") (description "Johan Olsson") (description "Dario Cologna")))
+  (targetFormula (!r.name (@index (< (@!index (r.name c.lukas_bauer))))))
+)
+############################## ex 231 ##############################
+(example
+  (id nt-231)
+  (utterance "what year did monaco ratify more international human rights treaties than they did in 1979?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/109.csv))
+  (targetValue (list (description "1993")))
+  (targetFormula (@!p.num (and (!r.ratified (@type @row))
+                               (mark x (: (and (count (r.ratified (var x))) (> (count (r.ratified (@p.num 1979))))))))))
+)
+############################## ex 232 ##############################
+(example
+  (id nt-232)
+  (utterance "how many consecutive games did dejan damjanovic score a goal in during the 2013 season?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/375.csv))
+  (targetValue (list (description "3")))
+  (error "Need consecutive on part")
+)
+############################## ex 233 ##############################
+(example
+  (id nt-233)
+  (utterance "what is the number of democratic victories?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/95.csv))
+  (targetValue (list (description "20")))
+  (targetFormula (count (and (@type @row)
+                             (mark x (: (and (@!p.num (!r.democratic_party (var x))) (> (@!p.num (!r.republican_party (var x))))))))))
+)
+############################## ex 234 ##############################
+(example
+  (id nt-234)
+  (utterance "where was the match held immediately before 2014's at guizhou olympic stadium?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/770.csv))
+  (targetValue (list (description "Tianhe Stadium, Guangzhou")))
+  (targetFormula (!r.stadium (@next (r.stadium c.guizhou_olympic_stadium_guiyang))))
+)
+############################## ex 235 ##############################
+(example
+  (id nt-235)
+  (utterance "what is the first club listed in the chart?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/985.csv))
+  (targetValue (list (description "WIT Georgia")))
+  (targetFormula (!r.club (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 236 ##############################
+(example
+  (id nt-236)
+  (utterance "which jockey is before tm jones")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/561.csv))
+  (targetValue (list (description "Willie Robinson")))
+  (targetFormula (!r.jockey (@next (r.jockey c.tm_jones))))
+)
+############################## ex 237 ##############################
+(example
+  (id nt-237)
+  (utterance "how many songs did ishaan dev create for the movies kai thunindavan and thaazhvaarakaatu?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/546.csv))
+  (targetValue (list (description "5")))
+  (targetFormula (or (@!p.num (!r.song (r.film c.kai_thunindavan))) (@!p.num (!r.song (r.film c.thaazhvaarakaatu)))))
+  (alternativeFormula (@!p.num (!r.song (r.film (or c.kai_thunindavan c.thaazhvaarakaatu)))))
+)
+############################## ex 238 ##############################
+(example
+  (id nt-238)
+  (utterance "did jim osborne win any titles at least once on a grass court?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/335.csv))
+  (targetValue (list (description "yes")))
+  (error "yes/no question")
+)
+############################## ex 239 ##############################
+(example
+  (id nt-239)
+  (utterance "what year had a total of 2 titles released?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/836.csv))
+  (targetValue (list (description "2010")))
+  (error "Must read the notes to realize that some titles were not released")
+)
+############################## ex 240 ##############################
+(example
+  (id nt-240)
+  (utterance "what is the only building in canada to have more than 60 floors?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/777.csv))
+  (targetValue (list (description "First Canadian Place")))
+  (targetFormula (!r.building (r.floors (@p.num (> 60)))))
+)
+############################## ex 241 ##############################
+(example
+  (id nt-241)
+  (utterance "what year has no place indicated?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/231.csv))
+  (targetValue (list (description "1982/83")))
+  (targetFormula (!r.season (r.place c.null)))
+)
+############################## ex 242 ##############################
+(example
+  (id nt-242)
+  (utterance "which locomotive weighs the least?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/850.csv))
+  (targetValue (list (description "Re 4/4")))
+  (targetFormula (!r.name (argmin 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.weight (var x))))))))
+  (alternativeFormula (argmin 1 1 (!r.name (@type @row)) (reverse (lambda x (@!p.num (!r.weight (r.name (var x))))))))
+)
+############################## ex 243 ##############################
+(example
+  (id nt-243)
+  (utterance "what is the average score of all home team members for all dates?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/24.csv))
+  (targetValue (list (description "1.75")))
+  (targetFormula (avg (@!p.num (!r.score (@type @row)))))
+)
+############################## ex 244 ##############################
+(example
+  (id nt-244)
+  (utterance "how many of the listed senators were at least 90 years old when they died?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/145.csv))
+  (targetValue (list (description "5")))
+  (targetFormula (count (r.age (@p.num (>= 90)))))
+)
+############################## ex 245 ##############################
+(example
+  (id nt-245)
+  (utterance "what role did mischa barton play in the movie \"octane\"?")
+  (context (graph tables.TableKnowledgeGraph csv/200-csv/1.csv))
+  (targetValue (list (description "Natasha 'Nat' Wilson")))
+  (targetFormula (!r.role (r.title c.octane)))
+)
+############################## ex 246 ##############################
+(example
+  (id nt-246)
+  (utterance "what nation leads the medal count?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/724.csv))
+  (targetValue (list (description "Russia")))
+  (targetFormula (!r.nation (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.total (var x))))))))
+  (alternativeFormula (argmax 1 1 (!r.nation (@type @row)) (reverse (lambda x (@!p.num (!r.total (r.nation (var x))))))))
+)
+############################## ex 247 ##############################
+(example
+  (id nt-247)
+  (utterance "how long has neha been acting?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/157.csv))
+  (targetValue (list (description "7 years")))
+  (targetFormula (- (@!p.num (!r.year (argmax 1 1 (@type @row) @index)))
+                    (@!p.num (!r.year (argmin 1 1 (@type @row) @index)))))
+  (alternativeFormula (- (max (@!p.num (!r.year (@type @row))))
+                         (min (@!p.num (!r.year (@type @row))))))
+)
+############################## ex 248 ##############################
+(example
+  (id nt-248)
+  (utterance "what is the number of games played against vietnam?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/913.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (count (r.opponent c.vietnam)))
+)
+############################## ex 249 ##############################
+(example
+  (id nt-249)
+  (utterance "how many games were attended by at least 60,000 people?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/443.csv))
+  (targetValue (list (description "6")))
+  (targetFormula (count (r.attendance (@p.num (>= 60000)))))
+)
+############################## ex 250 ##############################
+(example
+  (id nt-250)
+  (utterance "what is the number of points scored on 6 february 1922?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/267.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (sum (or (@!p.num (!r.score (r.date (@p.date (date 1922 2 6)))))
+                          (@!p.num2 (!r.score (r.date (@p.date (date 1922 2 6))))))))
+  (alternativeFormula (+ (@!p.num (!r.score (r.date (@p.date (date 1922 2 6)))))
+                         (@!p.num2 (!r.score (r.date (@p.date (date 1922 2 6)))))))
+)
+############################## ex 251 ##############################
+(example
+  (id nt-251)
+  (utterance "what is the total number of gold medals awarded?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/785.csv))
+  (targetValue (list (description "33")))
+  (targetFormula (@!p.num (!r.gold (r.nation c.total))))
+  (alternativeFormula (sum (@!p.num (!r.gold (r.nation (!= c.total))))))
+)
+############################## ex 252 ##############################
+(example
+  (id nt-252)
+  (utterance "how many tournaments did sergio garcia win on the 2002 pga tour?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/531.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (count (r.winner c.sergio_garcia_3)))
+)
+############################## ex 253 ##############################
+(example
+  (id nt-253)
+  (utterance "how many of the contestants were students?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/446.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (r.occupation (or c.student c.student_lifeguard))))
+  (alternativeFormula (count (r.occupation (@p.part q.student))))
+)
+############################## ex 254 ##############################
+(example
+  (id nt-254)
+  (utterance "we will rock you and we are the champions where played at which venue?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/855.csv))
+  (targetValue (list (description "RTÉ Studios")))
+  (targetFormula (!r.venue (r.performance c._1_we_will_rock_you_2_we_are_the_champions)))
+  (alternativeFormula (!r.venue (r.performance (@p.part (or q._1_we_will_rock_you q._2_we_are_the_champions)))))
+)
+############################## ex 255 ##############################
+(example
+  (id nt-255)
+  (utterance "which year had the largest agricultural volume?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/666.csv))
+  (targetValue (list (description "2010/11")))
+  (error "Row-based table")
+)
+############################## ex 256 ##############################
+(example
+  (id nt-256)
+  (utterance "what is the total number of wins for macau?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/14.csv))
+  (targetValue (list (description "6")))
+  (targetFormula (@!p.num (!r.score (r.opponent c.macau))))
+)
+############################## ex 257 ##############################
+(example
+  (id nt-257)
+  (utterance "what title appears before \"the self-preservation society\"?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/570.csv))
+  (targetValue (list (description "Herogasm")))
+  (targetFormula (!r.title (@next (r.title c.the_self_preservation_society))))
+)
+############################## ex 258 ##############################
+(example
+  (id nt-258)
+  (utterance "how many spanish champions have there been?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/351.csv))
+  (targetValue (list (description "3")))
+  (error "Information not in the table")
+)
+############################## ex 259 ##############################
+(example
+  (id nt-259)
+  (utterance "what was the first song that this producer helped write?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/927.csv))
+  (targetValue (list (description "\"Cheat on you\"")))
+  (targetFormula (!r.title (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 260 ##############################
+(example
+  (id nt-260)
+  (utterance "which illustrator was responsible for the last award winner?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/788.csv))
+  (targetValue (list (description "Helen Oxenbury")))
+  (targetFormula (!r.illustrator (argmax 1 1 (@type @row) @index)))
+)
+############################## ex 261 ##############################
+(example
+  (id nt-261)
+  (utterance "what episode had the most viewers?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/449.csv))
+  (targetValue (list (description "\"Episode Ten\"")))
+  (targetFormula (!r.title (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.viewers (var x))))))))
+  (alternativeFormula (argmax 1 1 (!r.title (@type @row)) (reverse (lambda x (@!p.num (!r.viewers (r.title (var x))))))))
+)
+############################## ex 262 ##############################
+(example
+  (id nt-262)
+  (utterance "does december or january have more snow days?")
+  (context (graph tables.TableKnowledgeGraph csv/201-csv/3.csv))
+  (targetValue (list (description "January")))
+  (error "The word 'January' is not in the table + row-based table")
+)
+############################## ex 263 ##############################
+(example
+  (id nt-263)
+  (utterance "what is the average number of points scored by opponents in the five games lost this season?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/227.csv))
+  (targetValue (list (description "29.2")))
+  (targetFormula (avg (@!p.num (!r.score (r.result c.loss)))))
+)
+############################## ex 264 ##############################
+(example
+  (id nt-264)
+  (utterance "what is the number of buildings under 200 ft?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/837.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (count (r.height_ft_m (@p.num (< 200)))))
+)
+############################## ex 265 ##############################
+(example
+  (id nt-265)
+  (utterance "what was the finishing place of the team before the 2007-2008?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/186.csv))
+  (targetValue (list (description "3rd")))
+  (targetFormula (!r.place (@next (r.season c.2007_08))))
+)
+############################## ex 266 ##############################
+(example
+  (id nt-266)
+  (utterance "which are they only two names that have spain as their country of origin?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/573.csv))
+  (targetValue (list (description "García") (description "Rodríguez")))
+  (targetFormula (!r.name (r.country_of_origin c.spain)))
+)
+############################## ex 267 ##############################
+(example
+  (id nt-267)
+  (utterance "total number of players whose home town was in north carolina (nc)")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/526.csv))
+  (targetValue (list (description "7")))
+  (targetFormula (count (r.home_town (@p.part q.nc))))
+)
+############################## ex 268 ##############################
+(example
+  (id nt-268)
+  (utterance "what was the first playstation 3 release date?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/587.csv))
+  (targetValue (list (description "28 February 2012")))
+  (targetFormula (@!p.date (!r.playstation_3_release_date (argmin 1 1 (@type @row) @index))))
+  (alternativeFormula (min (@!p.date (!r.playstation_3_release_date (@type @row)))))
+)
+############################## ex 269 ##############################
+(example
+  (id nt-269)
+  (utterance "which team did the rangers play first in november of 1992 in the uefa champions league?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/691.csv))
+  (targetValue (list (description "Leeds United")))
+  (targetFormula (!r.opponent (argmin 1 1 (r.date (@p.date (date 1992 11 -1))) @index)))
+)
+############################## ex 270 ##############################
+(example
+  (id nt-270)
+  (utterance "is the united stated or scotland better?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/396.csv))
+  (targetValue (list (description "United States")))
+  (targetFormula (argmax 1 1 (or c.united_states c.scotland)
+                         (reverse (lambda x (@!p.num (!r.total (r.country (var x))))))))
+)
+############################## ex 271 ##############################
+(example
+  (id nt-271)
+  (utterance "in what year was the lake compounce carousel moved to its present home?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/806.csv))
+  (targetValue (list (description "1911")))
+  (error "The answer is in running text")
+)
+############################## ex 272 ##############################
+(example
+  (id nt-272)
+  (utterance "what was the first mercedez to win world green car?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/838.csv))
+  (targetValue (list (description "Mercedes-Benz E320 Bluetec")))
+  (error "I don't know how to do this")
+)
+############################## ex 273 ##############################
+(example
+  (id nt-273)
+  (utterance "which model has a thrust of at least 12,000 kg?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/823.csv))
+  (targetValue (list (description "AL-31")))
+  (targetFormula (!r.model_name (r.thrust_kg_power_eshp (@p.num (>= 12000)))))
+)
+############################## ex 274 ##############################
+(example
+  (id nt-274)
+  (utterance "what is the total number of seasons?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/532.csv))
+  (targetValue (list (description "10")))
+  (targetFormula (count (@type @row)))
+)
+############################## ex 275 ##############################
+(example
+  (id nt-275)
+  (utterance "what is the most wins?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/314.csv))
+  (targetValue (list (description "14")))
+  (targetFormula (max (@!p.num (!r.won (@type @row)))))
+  (alternativeFormula (@!p.num (!r.won (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.won (var x)))))))))
+)
+############################## ex 276 ##############################
+(example
+  (id nt-276)
+  (utterance "how many films were directed by sridhar after the year 1961?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/204.csv))
+  (targetValue (list (description "48")))
+  (targetFormula (count (r.year (@p.num (> 1961)))))
+)
+############################## ex 277 ##############################
+(example
+  (id nt-277)
+  (utterance "how many matches were held in the netherlands?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/53.csv))
+  (targetValue (list (description "10")))
+  (targetFormula (count (r.location (@p.part q.netherlands))))
+)
+############################## ex 278 ##############################
+(example
+  (id nt-278)
+  (utterance "how many people were born in 1976?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/935.csv))
+  (targetValue (list (description "2")))
+  (targetFormula (count (r.birth_date (@p.date (date 1976 -1 -1)))))
+)
+############################## ex 279 ##############################
+(example
+  (id nt-279)
+  (utterance "what were the total number of license plates that featured the black embossed numbers on it?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/379.csv))
+  (targetValue (list (description "11")))
+  (error "Pretty difficult to distinguish black emboss from other colors")
+)
+############################## ex 280 ##############################
+(example
+  (id nt-280)
+  (utterance "how many rebounds were there by all miami heat players?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/532.csv))
+  (targetValue (list (description "34")))
+  (targetFormula (@!p.num (!r.rebounds (r.team c.miami_heat))))
+)
+############################## ex 281 ##############################
+(example
+  (id nt-281)
+  (utterance "how many ships were launched in the year 1944?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/313.csv))
+  (targetValue (list (description "9")))
+  (targetFormula (count (r.launched (@p.date (date 1944 -1 -1)))))
+)
+############################## ex 282 ##############################
+(example
+  (id nt-282)
+  (utterance "the drawwith the larges total")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/430.csv))
+  (targetValue (list (description "6")))
+  (targetFormula (@!p.num (!r.draw (argmax 1 1 (@type @row) (reverse (lambda x (@!p.num (!r.total (var x)))))))))
+)
+############################## ex 283 ##############################
+(example
+  (id nt-283)
+  (utterance "how long has internacional de madrid cf been playing in the 3ª division?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/783.csv))
+  (targetValue (list (description "3")))
+  (targetFormula (count (r.division c.3)))
+)
+############################## ex 284 ##############################
+(example
+  (id nt-284)
+  (utterance "how many total medals has the united states won in women's figure skating?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/104.csv))
+  (targetValue (list (description "16")))
+  (targetFormula (sum (@!p.num (!r.total (r.nation c.united_states_usa)))))
+)
+############################## ex 285 ##############################
+(example
+  (id nt-285)
+  (utterance "who was the next rider after tetsuya harada?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/35.csv))
+  (targetValue (list (description "Jean-Philippe Ruggia")))
+  (targetFormula (!r.rider (@!next (r.rider c.tetsuya_harada))))
+)
+############################## ex 286 ##############################
+(example
+  (id nt-286)
+  (utterance "are the most trains operational or do they have another status listed?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/717.csv))
+  (targetValue (list (description "Operational")))
+  (error "Will be impossible if there are fewer operational trains")
+)
+############################## ex 287 ##############################
+(example
+  (id nt-287)
+  (utterance "tell me the number of gold medals the dominican republic won.")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/785.csv))
+  (targetValue (list (description "1")))
+  (targetFormula (@!p.num (!r.gold (r.nation c.dominican_republic))))
+)
+############################## ex 288 ##############################
+(example
+  (id nt-288)
+  (utterance "greek revival and peony plantings are most commonly associated with what house in canton?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/831.csv))
+  (targetValue (list (description "John and Eliza Barr Patterson House")))
+  (error "Cell content too long")
+)
+############################## ex 289 ##############################
+(example
+  (id nt-289)
+  (utterance "opponent for highest attended home game")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/207.csv))
+  (targetValue (list (description "New York Jets")))
+  (error "Need to know that 'at' indicates away game")
+)
+############################## ex 290 ##############################
+(example
+  (id nt-290)
+  (utterance "which hispanic population had the greatest growth from 2000 to 2005?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/990.csv))
+  (targetValue (list (description "White")))
+  (error "Column-based table")
+)
+############################## ex 291 ##############################
+(example
+  (id nt-291)
+  (utterance "how many number were in service in 1910?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/882.csv))
+  (targetValue (list (description "8")))
+  (targetFormula (count (and (r.entered_service (@p.date (<= (date 1910 -1 -1))))
+                             (r.withdrawn (@p.date (>= (date 1910 -1 -1)))))))
+)
+############################## ex 292 ##############################
+(example
+  (id nt-292)
+  (utterance "what is the total number of gold medals won by jamaica?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/595.csv))
+  (targetValue (list (description "4")))
+  (targetFormula (@!p.num (!r.gold (r.nation c.jamaica))))
+)
+############################## ex 293 ##############################
+(example
+  (id nt-293)
+  (utterance "the green bay packers after miami dolphins chose which player?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/229.csv))
+  (targetValue (list (description "John Mack")))
+  (targetFormula (!r.player (r.nfl_team c.green_bay_packers)))
+)
+############################## ex 294 ##############################
+(example
+  (id nt-294)
+  (utterance "what is difference in points between c.d. aguila and chalatenango?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/67.csv))
+  (targetValue (list (description "14")))
+  (targetFormula (- (@!p.num (!r.points (r.team c.c_d_aguila)))
+                    (@!p.num (!r.points (r.team c.chalatenango)))))
+)
+############################## ex 295 ##############################
+(example
+  (id nt-295)
+  (utterance "how many division 1 teams were founded before 1950?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/959.csv))
+  (targetValue (list (description "5")))
+  (targetFormula (count (r.founded (@p.num (< 1950)))))
+)
+############################## ex 296 ##############################
+(example
+  (id nt-296)
+  (utterance "what tournament is at the top?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/202.csv))
+  (targetValue (list (description "World Championships")))
+  (targetFormula (!r.tournament (argmin 1 1 (@type @row) @index)))
+)
+############################## ex 297 ##############################
+(example
+  (id nt-297)
+  (utterance "jones won best actress in a play in 2005. which other award did she win that year?")
+  (context (graph tables.TableKnowledgeGraph csv/203-csv/146.csv))
+  (targetValue (list (description "Outstanding Actress in a Play")))
+  (targetFormula (and (!= c.best_actress_in_a_play) (!r.category (r.year (@p.num 2005)))))
+)
+############################## ex 298 ##############################
+(example
+  (id nt-298)
+  (utterance "what number countries received gold medals?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/761.csv))
+  (targetValue (list (description "12")))
+  (error "Need to ignore the total row")
+)
+############################## ex 299 ##############################
+(example
+  (id nt-299)
+  (utterance "was the next game after august 31 home or away?")
+  (context (graph tables.TableKnowledgeGraph csv/204-csv/495.csv))
+  (targetValue (list (description "Away")))
+  (targetFormula (!r.venue (@!next (r.date (@p.date (date -1 8 31))))))
+)

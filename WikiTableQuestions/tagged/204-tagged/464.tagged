@@ -1,0 +1,46 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.model	Model	model	Model	NNP	O						
+-1	2	fb:row.row.denomination	Denomination	denomination	denomination	NN	O						
+-1	3	fb:row.row.metal_composition	Metal composition	metal|composition	metal|composition	NN|NN	O|O	|					
+-1	4	fb:row.row.dimensions	Dimensions	dimensions	dimension	NNS	O						
+0	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+0	1	fb:cell.re_establishment_of_kroon_28_august_1992	Re-establishment of kroon, 28 August 1992	re|establishment|of|kroon|,|28|august|1992	Re|establishment|of|kroon|,|28|August|1992	NNP|NN|IN|NN|,|CD|NNP|CD	O|O|O|O|O|DATE|DATE|DATE	|||||1992-08-28|1992-08-28|1992-08-28	28.0		1992.0	Re-establishment of kroon|28 August 1992	fb:part.re_establishment_of_kroon|fb:part.28_august_1992
+0	2	fb:cell.100_krooni	100 krooni	100|krooni	100|kroonus	CD|NNS	NUMBER|O	100.0|	100.0				
+0	3	fb:cell._900_silver	.900 silver	.900|silver	.900|silver	CD|NN	NUMBER|O	0.9|	0.9				
+0	4	fb:cell.23_grams_0_81_oz_36_millimetres_1_4_in	23 grams (0.81 oz)36 millimetres (1.4 in)	23|grams|-lrb-|0.81|oz|-rrb-|36|millimetres|-lrb-|1.4|in|-rrb-	23|gram|-lrb-|0.81|oz|-rrb-|36|millimetre|-lrb-|1.4|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	23.0|||0.81|||36.0|||1.4||	23.0		0.81		
+1	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+1	1	fb:cell.atlanta_olympics_100th_anniversary_of_modern_olympiad	Atlanta Olympics, 100th anniversary of Modern Olympiad	atlanta|olympics|,|100th|anniversary|of|modern|olympiad	Atlanta|Olympics|,|100th|anniversary|of|Modern|Olympiad	NNP|NNPS|,|JJ|NN|IN|NNP|NNP	LOCATION|O|O|ORDINAL|O|O|MISC|MISC	|||100.0||||	100.0			Atlanta Olympics|100th anniversary of Modern Olympiad	fb:part.atlanta_olympics|fb:part.100th_anniversary_of_modern_olympiad
+1	2	fb:cell.100_krooni	100 krooni	100|krooni	100|kroonus	CD|NNS	NUMBER|O	100.0|	100.0				
+1	3	fb:cell._925_silver	.925 silver	.925|silver	.925|silver	CD|NN	NUMBER|O	0.925|	0.925				
+1	4	fb:cell.25_grams_0_88_oz_38_millimetres_1_5_in	25 grams (0.88 oz)38 millimetres (1.5 in)	25|grams|-lrb-|0.88|oz|-rrb-|38|millimetres|-lrb-|1.5|in|-rrb-	25|gram|-lrb-|0.88|oz|-rrb-|38|millimetre|-lrb-|1.5|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	25.0|||0.88|||38.0|||1.5||	25.0		0.88		
+2	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+2	1	fb:cell.80th_anniversary_of_declaration_of_independence_1918_1998	80th anniversary of declaration of Independence, 1918–1998	80th|anniversary|of|declaration|of|independence|,|1918|--|1998	80th|anniversary|of|declaration|of|independence|,|1918|--|1998	JJ|NN|IN|NN|IN|NN|,|CD|:|CD	ORDINAL|O|O|O|O|O|O|DATE|DATE|DATE	80.0|||||||1918|1918|1998	80.0		1918.0	80th anniversary of declaration of Independence|1918–1998	fb:part.80th_anniversary_of_declaration_of_independence|fb:part.1918_1998
+2	2	fb:cell.100_krooni	100 krooni	100|krooni	100|kroonus	CD|NNS	NUMBER|O	100.0|	100.0				
+2	3	fb:cell._925_silver	.925 silver	.925|silver	.925|silver	CD|NN	NUMBER|O	0.925|	0.925				
+2	4	fb:cell.25_grams_0_88_oz_38_millimetres_1_5_in	25 grams (0.88 oz)38 millimetres (1.5 in)	25|grams|-lrb-|0.88|oz|-rrb-|38|millimetres|-lrb-|1.5|in|-rrb-	25|gram|-lrb-|0.88|oz|-rrb-|38|millimetre|-lrb-|1.5|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	25.0|||0.88|||38.0|||1.5||	25.0		0.88		
+3	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+3	1	fb:cell.re_establishment_of_krooni_currency	Re-establishment of Krooni currency	re|establishment|of|krooni|currency	Re|establishment|of|krooni|currency	NNP|NN|IN|JJ|NN	O|O|O|O|O	||||				Re-establishment of Krooni currency	fb:part.re_establishment_of_krooni_currency
+3	2	fb:cell.10_krooni	10 krooni	10|krooni	10|kroonus	CD|NNS	NUMBER|O	10.0|	10.0				
+3	3	fb:cell._925_silver	.925 silver	.925|silver	.925|silver	CD|NN	NUMBER|O	0.925|	0.925				
+3	4	fb:cell.25_grams_0_88_oz_38_millimetres_1_5_in	25 grams (0.88 oz)38 millimetres (1.5 in)	25|grams|-lrb-|0.88|oz|-rrb-|38|millimetres|-lrb-|1.5|in|-rrb-	25|gram|-lrb-|0.88|oz|-rrb-|38|millimetre|-lrb-|1.5|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	25.0|||0.88|||38.0|||1.5||	25.0		0.88		
+4	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+4	1	fb:cell.barcelona_olympics	Barcelona Olympics	barcelona|olympics	Barcelona|Olympics	NNP|NNPS	O|O	|				Barcelona Olympics	fb:part.barcelona_olympics
+4	2	fb:cell.10_krooni	10 krooni	10|krooni	10|kroonus	CD|NNS	NUMBER|O	10.0|	10.0				
+4	3	fb:cell._925_silver	.925 silver	.925|silver	.925|silver	CD|NN	NUMBER|O	0.925|	0.925				
+4	4	fb:cell.25_grams_0_88_oz_38_millimetres_1_5_in	25 grams (0.88 oz)38 millimetres (1.5 in)	25|grams|-lrb-|0.88|oz|-rrb-|38|millimetres|-lrb-|1.5|in|-rrb-	25|gram|-lrb-|0.88|oz|-rrb-|38|millimetre|-lrb-|1.5|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	25.0|||0.88|||38.0|||1.5||	25.0		0.88		
+5	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+5	1	fb:cell.80th_anniversary_of_declaration_of_independence_1918_1998	80th anniversary of declaration of Independence, 1918–1998	80th|anniversary|of|declaration|of|independence|,|1918|--|1998	80th|anniversary|of|declaration|of|independence|,|1918|--|1998	JJ|NN|IN|NN|IN|NN|,|CD|:|CD	ORDINAL|O|O|O|O|O|O|DATE|DATE|DATE	80.0|||||||1918|1918|1998	80.0		1918.0	80th anniversary of declaration of Independence|1918–1998	fb:part.80th_anniversary_of_declaration_of_independence|fb:part.1918_1998
+5	2	fb:cell.10_krooni	10 krooni	10|krooni	10|kroonus	CD|NNS	NUMBER|O	10.0|	10.0				
+5	3	fb:cell._925_silver	.925 silver	.925|silver	.925|silver	CD|NN	NUMBER|O	0.925|	0.925				
+5	4	fb:cell.25_grams_0_88_oz_38_millimetres_1_5_in	25 grams (0.88 oz)38 millimetres (1.5 in)	25|grams|-lrb-|0.88|oz|-rrb-|38|millimetres|-lrb-|1.5|in|-rrb-	25|gram|-lrb-|0.88|oz|-rrb-|38|millimetre|-lrb-|1.5|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	25.0|||0.88|||38.0|||1.5||	25.0		0.88		
+6	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+6	1	fb:cell.370th_anniversary_of_the_founding_of_tartu_university	370th anniversary of the founding of Tartu University	370th|anniversary|of|the|founding|of|tartu|university	370th|anniversary|of|the|founding|of|Tartu|University	JJ|NN|IN|DT|NN|IN|NNP|NNP	O|O|O|O|O|O|ORGANIZATION|ORGANIZATION	|||||||	370.0			370th anniversary of the founding of Tartu University	fb:part.370th_anniversary_of_the_founding_of_tartu_university
+6	2	fb:cell.10_krooni	10 krooni	10|krooni	10|kroonus	CD|NNS	NUMBER|O	10.0|	10.0				
+6	3	fb:cell._925_silver	.925 silver	.925|silver	.925|silver	CD|NN	NUMBER|O	0.925|	0.925				
+6	4	fb:cell.25_grams_0_88_oz_38_millimetres_1_5_in	25 grams (0.88 oz)38 millimetres (1.5 in)	25|grams|-lrb-|0.88|oz|-rrb-|38|millimetres|-lrb-|1.5|in|-rrb-	25|gram|-lrb-|0.88|oz|-rrb-|38|millimetre|-lrb-|1.5|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	25.0|||0.88|||38.0|||1.5||	25.0		0.88		
+7	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+7	1	fb:cell.the_flag_of_estonia_2004	The Flag of Estonia – 2004	the|flag|of|estonia|--|2004	the|flag|of|Estonia|--|2004	DT|NN|IN|NNP|:|CD	O|O|O|LOCATION|O|DATE	|||||2004	2004.0			The Flag of Estonia – 2004	fb:part.the_flag_of_estonia_2004
+7	2	fb:cell.10_krooni	10 krooni	10|krooni	10|kroonus	CD|NNS	NUMBER|O	10.0|	10.0				
+7	3	fb:cell._925_silver	.925 silver	.925|silver	.925|silver	CD|NN	NUMBER|O	0.925|	0.925				
+7	4	fb:cell.25_grams_0_88_oz_38_millimetres_1_5_in	25 grams (0.88 oz)38 millimetres (1.5 in)	25|grams|-lrb-|0.88|oz|-rrb-|38|millimetres|-lrb-|1.5|in|-rrb-	25|gram|-lrb-|0.88|oz|-rrb-|38|millimetre|-lrb-|1.5|in|-rrb-	CD|NNS|-LRB-|CD|NN|-RRB-|CD|NNS|-LRB-|CD|IN|-RRB-	NUMBER|O|O|NUMBER|O|O|NUMBER|O|O|NUMBER|O|O	25.0|||0.88|||38.0|||1.5||	25.0		0.88		

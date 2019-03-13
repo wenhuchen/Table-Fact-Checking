@@ -1,0 +1,257 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.outcome	Outcome	outcome	outcome	NN	O						
+-1	1	fb:row.row.no	No.	no|.	no|.	DT|.	O|O	|					
+-1	2	fb:row.row.date	Date	date	date	NN	O						
+-1	3	fb:row.row.championship	Championship	championship	Championship	NNP	O						
+-1	4	fb:row.row.surface	Surface	surface	surface	NN	O						
+-1	5	fb:row.row.partner	Partner	partner	Partner	NNP	O						
+-1	6	fb:row.row.opponents_in_the_final	Opponents in the final	opponents|in|the|final	opponent|in|the|final	NNS|IN|DT|JJ	O|O|O|O	|||					
+-1	7	fb:row.row.score_in_the_final	Score in the final	score|in|the|final	score|in|the|final	NN|IN|DT|JJ	NUMBER|O|O|O	20.0|||					
+0	0	fb:cell.winner	Winner	winner	winner	NN	O						
+0	1	fb:cell.1	1.	1|.	1|.	LS|.	NUMBER|O	1.0|	1.0				
+0	2	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+0	3	fb:cell.wimbledon_london	Wimbledon, London	wimbledon|,|london	Wimbledon|,|London	NNP|,|NNP	MISC|O|LOCATION	||				Wimbledon|London	fb:part.wimbledon|fb:part.london
+0	4	fb:cell.grass	Grass	grass	grass	NN	O						
+0	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+0	6	fb:cell.ken_rosewall_fred_stolle	Ken Rosewall\n Fred Stolle	ken|rosewall|fred|stolle	Ken|Rosewall|Fred|Stolle	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ken Rosewall|Fred Stolle	fb:part.ken_rosewall|fb:part.fred_stolle
+0	7	fb:cell.3_6_8_6_5_7_14_12_6_3	3–6, 8–6, 5–7, 14–12, 6–3	3|--|6|,|8|--|6|,|5|--|7|,|14|--|12|,|6|--|3	3|--|6|,|8|--|6|,|5|--|7|,|14|--|12|,|6|--|3	CD|:|CD|,|CD|:|CD|,|CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||8.0||6.0||5.0||7.0||14.0||12.0||6.0||3.0	3.0		68.0	3–6|8–6|5–7|14–12|6–3	fb:part.3_6|fb:part.8_6|fb:part.5_7|fb:part.14_12|fb:part.6_3
+1	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+1	1	fb:cell.1	1.	1|.	1|.	LS|.	NUMBER|O	1.0|	1.0				
+1	2	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+1	3	fb:cell.hamburg_germany	Hamburg, Germany	hamburg|,|germany	Hamburg|,|Germany	NNP|,|NNP	LOCATION|O|LOCATION	||				Hamburg|Germany	fb:part.hamburg|fb:part.germany
+1	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+1	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+1	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+1	7	fb:cell.4_6_4_6_5_7	4–6, 4–6, 5–7	4|--|6|,|4|--|6|,|5|--|7	4|--|6|,|4|--|6|,|5|--|7	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||4.0||6.0||5.0||7.0	4.0		64.0	4–6|4–6|5–7	fb:part.4_6|fb:part.4_6|fb:part.5_7
+2	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+2	1	fb:cell.2	2.	2|.	2|.	LS|.	NUMBER|O	2.0|	2.0				
+2	2	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+2	3	fb:cell.hobart_australia	Hobart, Australia	hobart|,|australia	Hobart|,|Australia	NNP|,|NNP	LOCATION|O|LOCATION	||				Hobart|Australia	fb:part.hobart|fb:part.australia
+2	4	fb:cell.grass	Grass	grass	grass	NN	O						
+2	5	fb:cell.fred_stolle	Fred Stolle	fred|stolle	Fred|Stolle	NNP|NNP	PERSON|PERSON	|					
+2	6	fb:cell.mal_anderson_roger_taylor	Mal Anderson\n Roger Taylor	mal|anderson|roger|taylor	Mal|Anderson|Roger|Taylor	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Mal Anderson|Roger Taylor	fb:part.mal_anderson|fb:part.roger_taylor
+2	7	fb:cell.5_7_3_6_6_4_6_1_4_6	5–7, 3–6, 6–4, 6–1, 4–6	5|--|7|,|3|--|6|,|6|--|4|,|6|--|1|,|4|--|6	5|--|7|,|3|--|6|,|6|--|4|,|6|--|1|,|4|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	5.0||7.0||3.0||6.0||6.0||4.0||6.0||1.0||4.0||6.0	5.0		73.0	5–7|3–6|6–4|6–1|4–6	fb:part.5_7|fb:part.3_6|fb:part.6_4|fb:part.6_1|fb:part.4_6
+3	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+3	1	fb:cell.3	3.	3|.	3|.	LS|.	NUMBER|O	3.0|	3.0				
+3	2	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+3	3	fb:cell.philadelphia_wct_u_s	Philadelphia WCT, U.S.	philadelphia|wct|,|u.s.	Philadelphia|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Philadelphia WCT|U.S.	fb:part.philadelphia_wct|fb:part.u_s
+3	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+3	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+3	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+3	7	fb:cell.6_8_4_6	6–8, 4–6	6|--|8|,|4|--|6	6|--|8|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||8.0||4.0||6.0	6.0		84.0	6–8|4–6	fb:part.6_8|fb:part.4_6
+4	0	fb:cell.winner	Winner	winner	winner	NN	O						
+4	1	fb:cell.2	2.	2|.	2|.	LS|.	NUMBER|O	2.0|	2.0				
+4	2	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+4	3	fb:cell.french_open_paris	French Open, Paris	french|open|,|paris	french|Open|,|Paris	JJ|NNP|,|NNP	MISC|MISC|O|LOCATION	|||				French Open|Paris	fb:part.french_open|fb:part.paris
+4	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+4	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+4	6	fb:cell.roy_emerson_rod_laver	Roy Emerson\n Rod Laver	roy|emerson|rod|laver	Roy|Emerson|Rod|Laver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Roy Emerson|Rod Laver	fb:part.roy_emerson|fb:part.rod_laver
+4	7	fb:cell.4_6_6_1_3_6_6_4_6_4	4–6, 6–1, 3–6, 6–4, 6–4	4|--|6|,|6|--|1|,|3|--|6|,|6|--|4|,|6|--|4	4|--|6|,|6|--|1|,|3|--|6|,|6|--|4|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||6.0||1.0||3.0||6.0||6.0||4.0||6.0||4.0	4.0		66.0	4–6|6–1|3–6|6–4|6–4	fb:part.4_6|fb:part.6_1|fb:part.3_6|fb:part.6_4|fb:part.6_4
+5	0	fb:cell.winner	Winner	winner	winner	NN	O						
+5	1	fb:cell.3	3.	3|.	3|.	LS|.	NUMBER|O	3.0|	3.0				
+5	2	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+5	3	fb:cell.wimbledon_london	Wimbledon, London	wimbledon|,|london	Wimbledon|,|London	NNP|,|NNP	MISC|O|LOCATION	||				Wimbledon|London	fb:part.wimbledon|fb:part.london
+5	4	fb:cell.grass	Grass	grass	grass	NN	O						
+5	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+5	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+5	7	fb:cell.7_5_11_9_6_3	7–5, 11–9, 6–3	7|--|5|,|11|--|9|,|6|--|3	7|--|5|,|11|--|9|,|6|--|3	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||5.0||11.0||9.0||6.0||3.0	7.0		511.0	7–5|11–9|6–3	fb:part.7_5|fb:part.11_9|fb:part.6_3
+6	0	fb:cell.winner	Winner	winner	winner	NN	O						
+6	1	fb:cell.4	4.	4|.	4|.	LS|.	NUMBER|O	4.0|	4.0				
+6	2	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+6	3	fb:cell.wimbledon_london	Wimbledon, London	wimbledon|,|london	Wimbledon|,|London	NNP|,|NNP	MISC|O|LOCATION	||				Wimbledon|London	fb:part.wimbledon|fb:part.london
+6	4	fb:cell.grass	Grass	grass	grass	NN	O						
+6	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+6	6	fb:cell.ken_rosewall_fred_stolle	Ken Rosewall\n Fred Stolle	ken|rosewall|fred|stolle	Ken|Rosewall|Fred|Stolle	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Ken Rosewall|Fred Stolle	fb:part.ken_rosewall|fb:part.fred_stolle
+6	7	fb:cell.10_8_6_3_6_1	10–8, 6–3, 6–1	10|--|8|,|6|--|3|,|6|--|1	10|--|8|,|6|--|3|,|6|--|1	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	10.0||8.0||6.0||3.0||6.0||1.0	10.0		86.0	10–8|6–3|6–1	fb:part.10_8|fb:part.6_3|fb:part.6_1
+7	0	fb:cell.winner	Winner	winner	winner	NN	O						
+7	1	fb:cell.5	5.	5|.	5|.	CD|.	NUMBER|O	5.0|	5.0				
+7	2	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+7	3	fb:cell.louisville_u_s	Louisville, U.S.	louisville|,|u.s.	Louisville|,|U.S.	NNP|,|NNP	LOCATION|O|LOCATION	||				Louisville|U.S.	fb:part.louisville|fb:part.u_s
+7	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+7	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+7	6	fb:cell.roy_emerson_rod_laver	Roy Emerson\n Rod Laver	roy|emerson|rod|laver	Roy|Emerson|Rod|Laver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Roy Emerson|Rod Laver	fb:part.roy_emerson|fb:part.rod_laver
+7	7	fb:cell.8_6_5_7_6_4	8–6, 5–7, 6–4	8|--|6|,|5|--|7|,|6|--|4	8|--|6|,|5|--|7|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	8.0||6.0||5.0||7.0||6.0||4.0	8.0		65.0	8–6|5–7|6–4	fb:part.8_6|fb:part.5_7|fb:part.6_4
+8	0	fb:cell.winner	Winner	winner	winner	NN	O						
+8	1	fb:cell.6	6.	6|.	6|.	CD|.	NUMBER|O	6.0|	6.0				
+8	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+8	3	fb:cell.australian_open_melbourne	Australian Open, Melbourne	australian|open|,|melbourne	australian|Open|,|Melbourne	JJ|NNP|,|NNP	MISC|MISC|O|LOCATION	|||				Australian Open|Melbourne	fb:part.australian_open|fb:part.melbourne
+8	4	fb:cell.grass	Grass	grass	grass	NN	O						
+8	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+8	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+8	7	fb:cell.6_2_7_6	6–2, 7–6	6|--|2|,|7|--|6	6|--|2|,|7|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||2.0||7.0||6.0	6.0		27.0	6–2|7–6	fb:part.6_2|fb:part.7_6
+9	0	fb:cell.winner	Winner	winner	winner	NN	O						
+9	1	fb:cell.7	7.	7|.	7|.	CD|.	NUMBER|O	7.0|	7.0				
+9	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+9	3	fb:cell.miami_wct_u_s	Miami WCT, U.S.	miami|wct|,|u.s.	Miami|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Miami WCT|U.S.	fb:part.miami_wct|fb:part.u_s
+9	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+9	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+9	6	fb:cell.roy_emerson_rod_laver	Roy Emerson\n Rod Laver	roy|emerson|rod|laver	Roy|Emerson|Rod|Laver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Roy Emerson|Rod Laver	fb:part.roy_emerson|fb:part.rod_laver
+9	7	fb:cell.7_6_7_6	7–6, 7–6	7|--|6|,|7|--|6	7|--|6|,|7|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||7.0||6.0	7.0		67.0	7–6|7–6	fb:part.7_6|fb:part.7_6
+10	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+10	1	fb:cell.4	4.	4|.	4|.	LS|.	NUMBER|O	4.0|	4.0				
+10	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+10	3	fb:cell.chicago_wct_u_s	Chicago WCT, U.S.	chicago|wct|,|u.s.	Chicago|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Chicago WCT|U.S.	fb:part.chicago_wct|fb:part.u_s
+10	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+10	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+10	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+10	7	fb:cell.6_7_6_4_6_7	6–7, 6–4, 6–7	6|--|7|,|6|--|4|,|6|--|7	6|--|7|,|6|--|4|,|6|--|7	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||4.0||6.0||7.0	6.0		76.0	6–7|6–4|6–7	fb:part.6_7|fb:part.6_4|fb:part.6_7
+11	0	fb:cell.winner	Winner	winner	winner	NN	O						
+11	1	fb:cell.8	8.	8|.	8|.	CD|.	NUMBER|O	8.0|	8.0				
+11	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+11	3	fb:cell.rome_italy	Rome, Italy	rome|,|italy	Rome|,|Italy	NNP|,|NNP	LOCATION|O|LOCATION	||				Rome|Italy	fb:part.rome|fb:part.italy
+11	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+11	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+11	6	fb:cell.andres_gimeno_roger_taylor	Andrés Gimeno\n Roger Taylor	andrés|gimeno|roger|taylor	Andrés|Gimeno|Roger|Taylor	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Andrés Gimeno|Roger Taylor	fb:part.andres_gimeno|fb:part.roger_taylor
+11	7	fb:cell.6_4_6_4	6–4, 6–4	6|--|4|,|6|--|4	6|--|4|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||4.0	6.0		46.0	6–4|6–4	fb:part.6_4|fb:part.6_4
+12	0	fb:cell.winner	Winner	winner	winner	NN	O						
+12	1	fb:cell.9	9.	9|.	9|.	CD|.	NUMBER|O	9.0|	9.0				
+12	2	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+12	3	fb:cell.tehran_wct_iran	Tehran WCT, Iran	tehran|wct|,|iran	Tehran|WCT|,|Iran	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Tehran WCT|Iran	fb:part.tehran_wct|fb:part.iran
+12	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+12	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+12	6	fb:cell.bob_carmichael_ray_ruffels	Bob Carmichael\n Ray Ruffels	bob|carmichael|ray|ruffels	Bob|Carmichael|Ray|Ruffels	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Bob Carmichael|Ray Ruffels	fb:part.bob_carmichael|fb:part.ray_ruffels
+12	7	fb:cell.6_4_6_7_6_1	6–4, 6–7, 6–1	6|--|4|,|6|--|7|,|6|--|1	6|--|4|,|6|--|7|,|6|--|1	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||7.0||6.0||1.0	6.0		46.0	6–4|6–7|6–1	fb:part.6_4|fb:part.6_7|fb:part.6_1
+13	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+13	1	fb:cell.5	5.	5|.	5|.	CD|.	NUMBER|O	5.0|	5.0				
+13	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+13	3	fb:cell.richmond_wct_u_s	Richmond WCT, U.S.	richmond|wct|,|u.s.	Richmond|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Richmond WCT|U.S.	fb:part.richmond_wct|fb:part.u_s
+13	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+13	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+13	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+13	7	fb:cell.6_7_6_7	6–7, 6–7	6|--|7|,|6|--|7	6|--|7|,|6|--|7	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||7.0	6.0		76.0	6–7|6–7	fb:part.6_7|fb:part.6_7
+14	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+14	1	fb:cell.6	6.	6|.	6|.	CD|.	NUMBER|O	6.0|	6.0				
+14	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+14	3	fb:cell.philadelphia_wct_u_s	Philadelphia WCT, U.S.	philadelphia|wct|,|u.s.	Philadelphia|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Philadelphia WCT|U.S.	fb:part.philadelphia_wct|fb:part.u_s
+14	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+14	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+14	6	fb:cell.arthur_ashe_robert_lutz	Arthur Ashe\n Robert Lutz	arthur|ashe|robert|lutz	Arthur|Ashe|Robert|Lutz	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Arthur Ashe|Robert Lutz	fb:part.arthur_ashe|fb:part.robert_lutz
+14	7	fb:cell.3_6_7_6_3_6	3–6, 7–6, 3–6	3|--|6|,|7|--|6|,|3|--|6	3|--|6|,|7|--|6|,|3|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	3.0||6.0||7.0||6.0||3.0||6.0	3.0		67.0	3–6|7–6|3–6	fb:part.3_6|fb:part.7_6|fb:part.3_6
+15	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+15	1	fb:cell.7	7.	7|.	7|.	CD|.	NUMBER|O	7.0|	7.0				
+15	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+15	3	fb:cell.charlotte_wct_u_s	Charlotte WCT, U.S.	charlotte|wct|,|u.s.	Charlotte|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Charlotte WCT|U.S.	fb:part.charlotte_wct|fb:part.u_s
+15	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+15	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+15	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+15	7	fb:cell.4_6_6_4_6_7	4–6, 6–4, 6–7	4|--|6|,|6|--|4|,|6|--|7	4|--|6|,|6|--|4|,|6|--|7	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||6.0||4.0||6.0||7.0	4.0		66.0	4–6|6–4|6–7	fb:part.4_6|fb:part.6_4|fb:part.6_7
+16	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+16	1	fb:cell.8	8.	8|.	8|.	CD|.	NUMBER|O	8.0|	8.0				
+16	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+16	3	fb:cell.las_vegas_wct_u_s	Las Vegas WCT, U.S.	las|vegas|wct|,|u.s.	Las|Vegas|WCT|,|U.S.	NNP|NNP|NNP|,|NNP	O|O|O|O|LOCATION	||||				Las Vegas WCT|U.S.	fb:part.las_vegas_wct|fb:part.u_s
+16	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+16	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+16	6	fb:cell.roy_emerson_rod_laver	Roy Emerson\n Rod Laver	roy|emerson|rod|laver	Roy|Emerson|Rod|Laver	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Roy Emerson|Rod Laver	fb:part.roy_emerson|fb:part.rod_laver
+16	7	fb:cell.def	DEF	def	def	NN	O					DEF	fb:part.def
+17	0	fb:cell.winner	Winner	winner	winner	NN	O						
+17	1	fb:cell.10	10.	10|.	10|.	CD|.	NUMBER|O	10.0|	10.0				
+17	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+17	3	fb:cell.st_louis_wct_u_s	St. Louis WCT, U.S.	st.|louis|wct|,|u.s.	St.|Louis|WCT|,|U.S.	NNP|NNP|NNP|,|NNP	LOCATION|LOCATION|O|O|LOCATION	||||				St. Louis WCT|U.S.	fb:part.st_louis_wct|fb:part.u_s
+17	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+17	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+17	6	fb:cell.john_alexander_phil_dent	John Alexander\n Phil Dent	john|alexander|phil|dent	John|Alexander|Phil|Dent	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Alexander|Phil Dent	fb:part.john_alexander|fb:part.phil_dent
+17	7	fb:cell.7_6_6_2	7–6, 6–2	7|--|6|,|6|--|2	7|--|6|,|6|--|2	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||6.0||2.0	7.0		66.0	7–6|6–2	fb:part.7_6|fb:part.6_2
+18	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+18	1	fb:cell.9	9.	9|.	9|.	CD|.	NUMBER|O	9.0|	9.0				
+18	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+18	3	fb:cell.washington_wct_u_s	Washington WCT, U.S.	washington|wct|,|u.s.	Washington|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Washington WCT|U.S.	fb:part.washington_wct|fb:part.u_s
+18	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+18	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+18	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+18	7	fb:cell.6_3_3_6_2_6	6–3, 3–6, 2–6	6|--|3|,|3|--|6|,|2|--|6	6|--|3|,|3|--|6|,|2|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||3.0||6.0||2.0||6.0	6.0		33.0	6–3|3–6|2–6	fb:part.6_3|fb:part.3_6|fb:part.2_6
+19	0	fb:cell.winner	Winner	winner	winner	NN	O						
+19	1	fb:cell.11	11.	11|.	11|.	CD|.	NUMBER|O	11.0|	11.0				
+19	2	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+19	3	fb:cell.boston_wct_u_s	Boston WCT, U.S.	boston|wct|,|u.s.	Boston|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Boston WCT|U.S.	fb:part.boston_wct|fb:part.u_s
+19	4	fb:cell.hard	Hard	hard	hard	JJ	O						
+19	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+19	6	fb:cell.arthur_ashe_robert_lutz	Arthur Ashe\n Robert Lutz	arthur|ashe|robert|lutz	Arthur|Ashe|Robert|Lutz	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Arthur Ashe|Robert Lutz	fb:part.arthur_ashe|fb:part.robert_lutz
+19	7	fb:cell.6_3_1_6_7_6	6–3, 1–6, 7–6	6|--|3|,|1|--|6|,|7|--|6	6|--|3|,|1|--|6|,|7|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||1.0||6.0||7.0||6.0	6.0		31.0	6–3|1–6|7–6	fb:part.6_3|fb:part.1_6|fb:part.7_6
+20	0	fb:cell.winner	Winner	winner	winner	NN	O						
+20	1	fb:cell.12	12.	12|.	12|.	CD|.	NUMBER|O	12.0|	12.0				
+20	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+20	3	fb:cell.toronto_wct_canada	Toronto WCT, Canada	toronto|wct|,|canada	Toronto|WCT|,|Canada	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Toronto WCT|Canada	fb:part.toronto_wct|fb:part.canada
+20	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+20	5	fb:cell.raul_ramirez	Raúl Ramírez	raúl|ramírez	Raúl|Ramírez	NNP|NNP	PERSON|PERSON	|					
+20	6	fb:cell.tom_okker_marty_riessen	Tom Okker\n Marty Riessen	tom|okker|marty|riessen	Tom|Okker|Marty|Riessen	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Tom Okker|Marty Riessen	fb:part.tom_okker|fb:part.marty_riessen
+20	7	fb:cell.6_3_2_6_6_4	6–3, 2–6, 6–4	6|--|3|,|2|--|6|,|6|--|4	6|--|3|,|2|--|6|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||2.0||6.0||6.0||4.0	6.0		32.0	6–3|2–6|6–4	fb:part.6_3|fb:part.2_6|fb:part.6_4
+21	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+21	1	fb:cell.10	10.	10|.	10|.	CD|.	NUMBER|O	10.0|	10.0				
+21	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+21	3	fb:cell.monte_carlo_wct_monaco	Monte Carlo WCT, Monaco	monte|carlo|wct|,|monaco	Monte|Carlo|WCT|,|Monaco	NNP|NNP|NNP|,|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|O|LOCATION	||||				Monte Carlo WCT|Monaco	fb:part.monte_carlo_wct|fb:part.monaco
+21	4	fb:cell.clay	Clay	clay	Clay	NNP	O						
+21	5	fb:cell.manuel_orantes	Manuel Orantes	manuel|orantes	Manuel|Orantes	NNP|NNP	PERSON|PERSON	|					
+21	6	fb:cell.john_alexander_phil_dent	John Alexander\n Phil Dent	john|alexander|phil|dent	John|Alexander|Phil|Dent	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				John Alexander|Phil Dent	fb:part.john_alexander|fb:part.phil_dent
+21	7	fb:cell.6_7_6_4_6_7_3_6	6–7, 6–4, 6–7, 3–6	6|--|7|,|6|--|4|,|6|--|7|,|3|--|6	6|--|7|,|6|--|4|,|6|--|7|,|3|--|6	CD|:|CD|,|CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||4.0||6.0||7.0||3.0||6.0	6.0		76.0	6–7|6–4|6–7|3–6	fb:part.6_7|fb:part.6_4|fb:part.6_7|fb:part.3_6
+22	0	fb:cell.winner	Winner	winner	winner	NN	O						
+22	1	fb:cell.13	13.	13|.	13|.	CD|.	NUMBER|O	13.0|	13.0				
+22	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+22	3	fb:cell.wimbledon_london	Wimbledon, London	wimbledon|,|london	Wimbledon|,|London	NNP|,|NNP	MISC|O|LOCATION	||				Wimbledon|London	fb:part.wimbledon|fb:part.london
+22	4	fb:cell.grass	Grass	grass	grass	NN	O						
+22	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+22	6	fb:cell.robert_lutz_stan_smith	Robert Lutz\n Stan Smith	robert|lutz|stan|smith	Robert|Lutz|Stan|Smith	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Robert Lutz|Stan Smith	fb:part.robert_lutz|fb:part.stan_smith
+22	7	fb:cell.8_6_6_4_6_4	8–6, 6–4, 6–4	8|--|6|,|6|--|4|,|6|--|4	8|--|6|,|6|--|4|,|6|--|4	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	8.0||6.0||6.0||4.0||6.0||4.0	8.0		66.0	8–6|6–4|6–4	fb:part.8_6|fb:part.6_4|fb:part.6_4
+23	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+23	1	fb:cell.11	11.	11|.	11|.	CD|.	NUMBER|O	11.0|	11.0				
+23	2	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+23	3	fb:cell.sydney_indoor_australia	Sydney Indoor, Australia	sydney|indoor|,|australia	Sydney|Indoor|,|Australia	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Sydney Indoor|Australia	fb:part.sydney_indoor|fb:part.australia
+23	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+23	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+23	6	fb:cell.ross_case_geoff_masters	Ross Case\n Geoff Masters	ross|case|geoff|masters	Ross|Case|Geoff|master	NNP|NNP|NNP|NN	PERSON|O|PERSON|PERSON	|||				Ross Case|Geoff Masters	fb:part.ross_case|fb:part.geoff_masters
+23	7	fb:cell.4_6_4_6	4–6, 4–6	4|--|6|,|4|--|6	4|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||4.0||6.0	4.0		64.0	4–6|4–6	fb:part.4_6|fb:part.4_6
+24	0	fb:cell.winner	Winner	winner	winner	NN	O						
+24	1	fb:cell.14	14.	14|.	14|.	CD|.	NUMBER|O	14.0|	14.0				
+24	2	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+24	3	fb:cell.australian_open_melbourne	Australian Open, Melbourne	australian|open|,|melbourne	australian|Open|,|Melbourne	JJ|NNP|,|NNP	MISC|MISC|O|LOCATION	|||				Australian Open|Melbourne	fb:part.australian_open|fb:part.melbourne
+24	4	fb:cell.grass	Grass	grass	grass	NN	O						
+24	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+24	6	fb:cell.ross_case_geoff_masters	Ross Case\n Geoff Masters	ross|case|geoff|masters	Ross|Case|Geoff|master	NNP|NNP|NNP|NN	PERSON|O|PERSON|PERSON	|||				Ross Case|Geoff Masters	fb:part.ross_case|fb:part.geoff_masters
+24	7	fb:cell.7_6_6_4	7–6, 6–4	7|--|6|,|6|--|4	7|--|6|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	7.0||6.0||6.0||4.0	7.0		66.0	7–6|6–4	fb:part.7_6|fb:part.6_4
+25	0	fb:cell.winner	Winner	winner	winner	NN	O						
+25	1	fb:cell.15	15.	15|.	15|.	CD|.	NUMBER|O	15.0|	15.0				
+25	2	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+25	3	fb:cell.charlotte_wct_u_s	Charlotte WCT, U.S.	charlotte|wct|,|u.s.	Charlotte|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Charlotte WCT|U.S.	fb:part.charlotte_wct|fb:part.u_s
+25	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+25	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+25	6	fb:cell.vitas_gerulaitis_gene_mayer	Vitas Gerulaitis\n Gene Mayer	vitas|gerulaitis|gene|mayer	Vitas|Gerulaitis|Gene|Mayer	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Vitas Gerulaitis|Gene Mayer	fb:part.vitas_gerulaitis|fb:part.gene_mayer
+25	7	fb:cell.6_3_7_5	6–3, 7–5	6|--|3|,|7|--|5	6|--|3|,|7|--|5	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||3.0||7.0||5.0	6.0		37.0	6–3|7–5	fb:part.6_3|fb:part.7_5
+26	0	fb:cell.winner	Winner	winner	winner	NN	O						
+26	1	fb:cell.16	16.	16|.	16|.	CD|.	NUMBER|O	16.0|	16.0				
+26	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+26	3	fb:cell.australian_open_melbourne	Australian Open, Melbourne	australian|open|,|melbourne	australian|Open|,|Melbourne	JJ|NNP|,|NNP	MISC|MISC|O|LOCATION	|||				Australian Open|Melbourne	fb:part.australian_open|fb:part.melbourne
+26	4	fb:cell.grass	Grass	grass	grass	NN	O						
+26	5	fb:cell.arthur_ashe	Arthur Ashe	arthur|ashe	Arthur|Ashe	NNP|NNP	PERSON|PERSON	|					
+26	6	fb:cell.charlie_pasarell_erik_van_dillen	Charlie Pasarell\n Erik Van Dillen	charlie|pasarell|erik|van|dillen	Charlie|Pasarell|Erik|Van|Dillen	NNP|NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON|PERSON	||||				Charlie Pasarell|Erik Van Dillen	fb:part.charlie_pasarell|fb:part.erik_van_dillen
+26	7	fb:cell.6_4_6_4	6–4, 6–4	6|--|4|,|6|--|4	6|--|4|,|6|--|4	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||4.0	6.0		46.0	6–4|6–4	fb:part.6_4|fb:part.6_4
+27	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+27	1	fb:cell.12	12.	12|.	12|.	CD|.	NUMBER|O	12.0|	12.0				
+27	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+27	3	fb:cell.richmond_wct_u_s	Richmond WCT, U.S.	richmond|wct|,|u.s.	Richmond|WCT|,|U.S.	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Richmond WCT|U.S.	fb:part.richmond_wct|fb:part.u_s
+27	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+27	5	fb:cell.ross_case	Ross Case	ross|case	Ross|Case	NNP|NNP	PERSON|O	|					
+27	6	fb:cell.wojtek_fibak_tom_okker	Wojtek Fibak\n Tom Okker	wojtek|fibak|tom|okker	Wojtek|Fibak|Tom|Okker	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Wojtek Fibak|Tom Okker	fb:part.wojtek_fibak|fb:part.tom_okker
+27	7	fb:cell.4_6_4_6	4–6, 4–6	4|--|6|,|4|--|6	4|--|6|,|4|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||4.0||6.0	4.0		64.0	4–6|4–6	fb:part.4_6|fb:part.4_6
+28	0	fb:cell.runner_up	Runner-up	runner|up	Runner|up	NNP|RB	O|O	|					
+28	1	fb:cell.13	13.	13|.	13|.	CD|.	NUMBER|O	13.0|	13.0				
+28	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+28	3	fb:cell.toronto_indoor_wct_canada	Toronto Indoor WCT, Canada	toronto|indoor|wct|,|canada	Toronto|Indoor|WCT|,|Canada	NNP|NNP|NNP|,|NNP	LOCATION|O|O|O|LOCATION	||||				Toronto Indoor WCT|Canada	fb:part.toronto_indoor_wct|fb:part.canada
+28	4	fb:cell.carpet	Carpet	carpet	carpet	NN	O						
+28	5	fb:cell.ross_case	Ross Case	ross|case	Ross|Case	NNP|NNP	PERSON|O	|					
+28	6	fb:cell.wojtek_fibak_tom_okker	Wojtek Fibak\n Tom Okker	wojtek|fibak|tom|okker	Wojtek|Fibak|Tom|Okker	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Wojtek Fibak|Tom Okker	fb:part.wojtek_fibak|fb:part.tom_okker
+28	7	fb:cell.4_6_1_6	4–6, 1–6	4|--|6|,|1|--|6	4|--|6|,|1|--|6	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	4.0||6.0||1.0||6.0	4.0		61.0	4–6|1–6	fb:part.4_6|fb:part.1_6
+29	0	fb:cell.winner	Winner	winner	winner	NN	O						
+29	1	fb:cell.17	17.	17|.	17|.	CD|.	NUMBER|O	17.0|	17.0				
+29	2	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+29	3	fb:cell.sydney_indoor_australia	Sydney Indoor, Australia	sydney|indoor|,|australia	Sydney|Indoor|,|Australia	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Sydney Indoor|Australia	fb:part.sydney_indoor|fb:part.australia
+29	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+29	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+29	6	fb:cell.ross_case_geoff_masters	Ross Case\n Geoff Masters	ross|case|geoff|masters	Ross|Case|Geoff|master	NNP|NNP|NNP|NN	PERSON|O|PERSON|PERSON	|||				Ross Case|Geoff Masters	fb:part.ross_case|fb:part.geoff_masters
+29	7	fb:cell.6_7_6_3_6_1	6–7, 6–3, 6–1	6|--|7|,|6|--|3|,|6|--|1	6|--|7|,|6|--|3|,|6|--|1	CD|:|CD|,|CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||6.0||3.0||6.0||1.0	6.0		76.0	6–7|6–3|6–1	fb:part.6_7|fb:part.6_3|fb:part.6_1
+30	0	fb:cell.winner	Winner	winner	winner	NN	O						
+30	1	fb:cell.18	18.	18|.	18|.	CD|.	NUMBER|O	18.0|	18.0				
+30	2	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+30	3	fb:cell.sydney_indoor_australia	Sydney Indoor, Australia	sydney|indoor|,|australia	Sydney|Indoor|,|Australia	NNP|NNP|,|NNP	LOCATION|O|O|LOCATION	|||				Sydney Indoor|Australia	fb:part.sydney_indoor|fb:part.australia
+30	4	fb:cell.hard_i	Hard (i)	hard|-lrb-|i|-rrb-	hard|-lrb-|i|-rrb-	JJ|-LRB-|LS|-RRB-	O|O|O|O	|||					
+30	5	fb:cell.john_newcombe	John Newcombe	john|newcombe	John|Newcombe	NNP|NNP	PERSON|PERSON	|					
+30	6	fb:cell.mark_edmondson_john_marks	Mark Edmondson\n John Marks	mark|edmondson|john|marks	Mark|Edmondson|John|Marks	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Mark Edmondson|John Marks	fb:part.mark_edmondson|fb:part.john_marks
+30	7	fb:cell.6_4_6_3	6–4, 6–3	6|--|4|,|6|--|3	6|--|4|,|6|--|3	CD|:|CD|,|CD|:|CD	NUMBER|O|NUMBER|O|NUMBER|O|NUMBER	6.0||4.0||6.0||3.0	6.0		46.0	6–4|6–3	fb:part.6_4|fb:part.6_3

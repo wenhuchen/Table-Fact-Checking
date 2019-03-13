@@ -1,0 +1,79 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.model	Model	model	Model	NNP	O						
+-1	1	fb:row.row.origin	Origin	origin	origin	NN	O						
+-1	2	fb:row.row.type	Type	type	type	NN	O						
+-1	3	fb:row.row.version	Version	version	version	NN	O						
+-1	4	fb:row.row.in_service	In Service	in|service	in|Service	IN|NNP	O|O	|					
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.larc_v	LARC-V	larc|v	LARC|V	NNP|NNP	ORGANIZATION|O	|				LARC-V	fb:part.larc_v
+0	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+0	2	fb:cell.amphibious_support_vehicle	Amphibious Support Vehicle	amphibious|support|vehicle	Amphibious|support|Vehicle	NNP|NN|NNP	O|O|O	||				Amphibious Support Vehicle	fb:part.amphibious_support_vehicle
+0	3	fb:cell.larc_v	LARC-V	larc|v	LARC|V	NNP|NNP	ORGANIZATION|O	|				LARC-V	fb:part.larc_v
+0	4	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+0	5	fb:cell.most_refurbished_in_2006	Most refurbished in 2006.	most|refurbished|in|2006|.	most|refurbish|in|2006|.	JJS|VBN|IN|CD|.	O|O|O|DATE|O	|||2006|	2006.0			Most refurbished in 2006.	fb:part.most_refurbished_in_2006
+1	0	fb:cell.gkn_aquatrack	GKN Aquatrack	gkn|aquatrack	GKN|Aquatrack	NNP|NNP	O|O	|					
+1	1	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|					
+1	2	fb:cell.amphibious_support_vehicle	Amphibious Support Vehicle	amphibious|support|vehicle	Amphibious|support|Vehicle	NNP|NN|NNP	O|O|O	||				Amphibious Support Vehicle	fb:part.amphibious_support_vehicle
+1	3	fb:cell.aquatrack	Aquatrack	aquatrack	aquatrack	NN	O					Aquatrack	fb:part.aquatrack
+1	4	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	5	fb:cell.introduced_in_mid_1990s_originally_owned_by_the_office_of_civil_defense_but_under_pmc_stewardship	Introduced in mid 1990s. Originally owned by the Office of Civil Defense but under PMC stewardship.	introduced|in|mid|1990s|.|originally|owned|by|the|office|of|civil|defense|but|under|pmc|stewardship|.	introduce|in|mid|1990|.|originally|own|by|the|Office|of|Civil|Defense|but|under|PMC|stewardship|.	VBN|IN|JJ|NNS|.|RB|VBN|IN|DT|NNP|IN|NNP|NNP|CC|IN|NNP|NN|.	O|O|O|DATE|O|O|O|O|O|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|O|O|O|O|O	|||199X||||||||||||||	1990.0			Introduced in mid 1990s. Originally owned by the Office of Civil Defense but under PMC stewardship.	fb:part.introduced_in_mid_1990s_originally_owned_by_the_office_of_civil_defense_but_under_pmc_stewardship
+2	0	fb:cell.am_general_hmmwv	AM General HMMWV	am|general|hmmwv	AM|General|HMMWV	VBD-AUX|NNP|NNP	O|O|O	||					
+2	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+2	2	fb:cell.light_utility_vehicle	Light Utility Vehicle	light|utility|vehicle	light|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Light Utility Vehicle	fb:part.light_utility_vehicle
+2	3	fb:cell.m998a1_m1038a1_m1025a1	M998A1\n\nM1038A1\n\nM1025A1	m998a1|m1038a1|m1025a1	m998a1|m1038a1|m1025a1	NN|NN|NN	O|O|O	||	998.0		1.0	M998A1|M1038A1|M1025A1	fb:part.m998a1|fb:part.m1038a1|fb:part.m1025a1
+2	4	fb:cell.null	-	-	-	:	O						
+2	5	fb:cell.divided_into_several_variants_and_series	Divided into several variants and series	divided|into|several|variants|and|series	divide|into|several|variant|and|series	VBN|IN|JJ|NNS|CC|NN	O|O|O|O|O|O	|||||				Divided into several variants and series	fb:part.divided_into_several_variants_and_series
+3	0	fb:cell.maxi_ambulance	Maxi-Ambulance	maxi|ambulance	Maxi|Ambulance	NNP|NNP	O|O	|					
+3	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+3	2	fb:cell.light_utility_vehicle	Light Utility Vehicle	light|utility|vehicle	light|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Light Utility Vehicle	fb:part.light_utility_vehicle
+3	3	fb:cell.m997a2	M997A2	m997a2	m997a2	NN	O		997.0		2.0	M997A2	fb:part.m997a2
+3	4	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	5	fb:cell.150_delivered_to_afp_on_november_2011_pmc_received_50_units	150 delivered to AFP on November 2011, PMC received 50 units.	150|delivered|to|afp|on|november|2011|,|pmc|received|50|units|.	150|deliver|to|afp|on|November|2011|,|PMC|receive|50|unit|.	CD|VBN|TO|NN|IN|NNP|CD|,|NNP|VBD|CD|NNS|.	NUMBER|O|O|O|O|DATE|DATE|O|ORGANIZATION|O|NUMBER|O|O	150.0|||||2011-11|2011-11||||50.0||	150.0		2011.0	150 delivered to AFP on November 2011|PMC received 50 units.	fb:part.150_delivered_to_afp_on_november_2011|fb:part.pmc_received_50_units
+4	0	fb:cell.m939_truck	M939 truck	m939|truck	m939|truck	NN|NN	O|O	|	939.0				
+4	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+4	2	fb:cell.heavy_utility_vehicle	Heavy Utility Vehicle	heavy|utility|vehicle	heavy|utility|Vehicle	JJ|NN|NNP	O|O|O	||				Heavy Utility Vehicle	fb:part.heavy_utility_vehicle
+4	3	fb:cell.m923	M923	m923	m923	NN	O		923.0			M923	fb:part.m923
+4	4	fb:cell.null	-	-	-	:	O						
+4	5	fb:cell.several_delivered_to_afp_in_2013_several_units_for_the_marines	Several delivered to AFP in 2013, several units for the Marines.	several|delivered|to|afp|in|2013|,|several|units|for|the|marines|.	several|deliver|to|AFP|in|2013|,|several|unit|for|the|Marines|.	JJ|VBN|TO|NNP|IN|CD|,|JJ|NNS|IN|DT|NNPS|.	O|O|O|O|O|DATE|O|O|O|O|O|O|O	|||||2013|||||||	2013.0			Several delivered to AFP in 2013|several units for the Marines.	fb:part.several_delivered_to_afp_in_2013|fb:part.several_units_for_the_marines
+5	0	fb:cell.m35_truck	M35 Truck	m35|truck	M35|Truck	NNP|NNP	O|O	|	35.0				
+5	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+5	2	fb:cell.2_1_2_ton_utility_vehicle	2 1/2-ton Utility Vehicle	2 1\\/2|ton|utility|vehicle	2 1\\/2|ton|utility|Vehicle	CD|NN|NN|NNP	NUMBER|O|O|O	|||	21.0		2.0	2 1|2-ton Utility Vehicle	fb:part.2_1|fb:part.2_ton_utility_vehicle
+5	3	fb:cell.m35	M35	m35	m35	NN	O		35.0			M35	fb:part.m35
+5	4	fb:cell.null	-	-	-	:	O						
+5	5	fb:cell.divided_into_several_variants_and_series_more_delivered_in_2013	Divided into several variants and series. More delivered in 2013.	divided|into|several|variants|and|series|.|more|delivered|in|2013|.	divide|into|several|variant|and|series|.|more|deliver|in|2013|.	VBN|IN|JJ|NNS|CC|NN|.|RBR|VBN|IN|CD|.	O|O|O|O|O|O|O|O|O|O|DATE|O	||||||||||2013|				Divided into several variants and series. More delivered in 2013.	fb:part.divided_into_several_variants_and_series_more_delivered_in_2013
+6	0	fb:cell.m151	M151	m151	m151	NN	O		151.0				
+6	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+6	2	fb:cell.1_4_ton_light_utility_vehicle_and_weapons_carrier	1/4-ton Light Utility Vehicle and Weapons Carrier	1\\/4|ton|light|utility|vehicle|and|weapons|carrier	1\\/4|ton|light|utility|Vehicle|and|Weapons|carrier	CD|NN|NN|NN|NNP|CC|NNP|NN	NUMBER|O|O|O|O|O|O|O	|||||||	1.0		4.0	1|4-ton Light Utility Vehicle and Weapons Carrier	fb:part.1|fb:part.4_ton_light_utility_vehicle_and_weapons_carrier
+6	3	fb:cell.standard	Standard	standard	Standard	NNP	O					Standard	fb:part.standard
+6	4	fb:cell.null	-	-	-	:	O						
+6	5	fb:cell.in_service_several_carrying_m40_106mm_recoilless_rifle	In Service, several carrying M40 106mm recoilless rifle	in|service|,|several|carrying|m40|106mm|recoilless|rifle	in|Service|,|several|carry|m40|106mm|recoilless|rifle	IN|NNP|,|JJ|VBG|NN|CD|JJ|NN	O|O|O|O|O|O|NUMBER|O|O	||||||106.0||	40106.0			In Service|several carrying M40 106mm recoilless rifle	fb:part.in_service|fb:part.several_carrying_m40_106mm_recoilless_rifle
+7	0	fb:cell.delta_mini_cruiser	Delta Mini Cruiser	delta|mini|cruiser	Delta|Mini|Cruiser	NNP|NNP|NNP	O|O|O	||					
+7	1	fb:cell.philippines	Philippines	philippines	Philippines	NNPS	LOCATION						
+7	2	fb:cell.1_4_ton_light_utility_vehicle	1/4-ton Light Utility Vehicle	1\\/4|ton|light|utility|vehicle	1\\/4|ton|light|utility|Vehicle	CD|NN|NN|NN|NNP	NUMBER|O|O|O|O	||||	1.0		4.0	1|4-ton Light Utility Vehicle	fb:part.1|fb:part.4_ton_light_utility_vehicle
+7	3	fb:cell.m1777	M1777	m1777	m1777	NN	O		1777.0			M1777	fb:part.m1777
+7	4	fb:cell.null	-	-	-	:	O						
+7	5	fb:cell.divided_into_several_variants_and_series_including_short_and_stretched_utility_and_armed_variants_and_modified_variants_for_specialized_units	Divided into several variants and series, including short and stretched utility and armed variants, and modified variants for specialized units.	divided|into|several|variants|and|series|,|including|short|and|stretched|utility|and|armed|variants|,|and|modified|variants|for|specialized|units|.	divide|into|several|variant|and|series|,|include|short|and|stretch|utility|and|armed|variant|,|and|modify|variant|for|specialize|unit|.	VBN|IN|JJ|NNS|CC|NN|,|VBG|JJ|CC|VBD|NN|CC|JJ|NNS|,|CC|VBN|NNS|IN|VBN|NNS|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	||||||||||||||||||||||				Divided into several variants and series|including short and stretched utility and armed variants|and modified variants for specialized units.	fb:part.divided_into_several_variants_and_series|fb:part.including_short_and_stretched_utility_and_armed_variants|fb:part.and_modified_variants_for_specialized_units
+8	0	fb:cell.marine_multi_purpose_vehicle	Marine Multi-purpose Vehicle	marine|multi|purpose|vehicle	Marine|Multi|purpose|Vehicle	NNP|NNP|NN|NNP	O|O|O|O	|||					
+8	1	fb:cell.philippines	Philippines	philippines	Philippines	NNPS	LOCATION						
+8	2	fb:cell.light_utility_vehicle_and_weapons_carrier	Light Utility Vehicle and Weapons Carrier	light|utility|vehicle|and|weapons|carrier	light|utility|Vehicle|and|Weapons|carrier	JJ|NN|NNP|CC|NNP|NN	O|O|O|O|O|O	|||||				Light Utility Vehicle and Weapons Carrier	fb:part.light_utility_vehicle_and_weapons_carrier
+8	3	fb:cell.standard	Standard	standard	Standard	NNP	O					Standard	fb:part.standard
+8	4	fb:cell.null	-	-	-	:	O						
+8	5	fb:cell.to_replace_the_m151_mutt_usually_armed_with_an_m40_106mm_recoilless_rifle_or_as_a_cheaper_alternative_to_the_humvee	To replace the M151 MUTT, usually armed with an M40 106mm recoilless rifle, or as a cheaper alternative to the Humvee.	to|replace|the|m151|mutt|,|usually|armed|with|an|m40|106mm|recoilless|rifle|,|or|as|a|cheaper|alternative|to|the|humvee|.	to|replace|the|m151|mutt|,|usually|arm|with|a|m40|106mm|recoilless|rifle|,|or|as|a|cheaper|alternative|to|the|Humvee|.	TO|VB|DT|NN|NN|,|RB|VBN|IN|DT|NN|CD|JJ|NN|,|CC|IN|DT|JJR|NN|TO|DT|NNP|.	O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||106.0||||||||||||	151.0		40106.0	To replace the M151 MUTT|usually armed with an M40 106mm recoilless rifle|or as a cheaper alternative to the Humvee.	fb:part.to_replace_the_m151_mutt|fb:part.usually_armed_with_an_m40_106mm_recoilless_rifle|fb:part.or_as_a_cheaper_alternative_to_the_humvee
+9	0	fb:cell.km_50_series	KM-50 Series	km-50|series	KM-50|Series	NNP|NNP	O|O	|	50.0				
+9	1	fb:cell.republic_of_korea	Republic of Korea	republic|of|korea	Republic|of|Korea	NNP|IN|NNP	O|O|LOCATION	||					
+9	2	fb:cell.5_ton_utility_vehicle	5-ton Utility Vehicle	5|ton|utility|vehicle	5|ton|utility|Vehicle	CD|NN|NN|NNP	NUMBER|O|O|O	5.0|||	5.0			5-ton Utility Vehicle	fb:part.5_ton_utility_vehicle
+9	3	fb:cell.km_500	KM-500	km-500	km-500	CD	NUMBER	-500.0	500.0			KM-500	fb:part.km_500
+9	4	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+9	5	fb:cell.155mm_artillery_prime_mover_1st_batch_of_6_delivered_2012	155mm Artillery prime mover. 1st batch of 6 delivered 2012.	155mm|artillery|prime|mover|.|1st|batch|of|6|delivered|2012|.	155mm|Artillery|prime|mover|.|1st|batch|of|6|deliver|2012|.	CD|NNP|JJ|NN|.|JJ|NN|IN|CD|VBN|CD|.	NUMBER|O|O|O|O|ORDINAL|O|O|NUMBER|O|DATE|O	155.0|||||1.0|||6.0||2012|	155.0		0.1	155mm Artillery prime mover. 1st batch of 6 delivered 2012.	fb:part.155mm_artillery_prime_mover_1st_batch_of_6_delivered_2012
+10	0	fb:cell.km_45_series	KM-45 Series	km-45|series	KM-45|Series	NNP|NNP	O|O	|	45.0				
+10	1	fb:cell.republic_of_korea	Republic of Korea	republic|of|korea	Republic|of|Korea	NNP|IN|NNP	O|O|LOCATION	||					
+10	2	fb:cell.1_1_2_ton_utility_vehicle	1 1/2-ton Utility Vehicle	1 1\\/2|ton|utility|vehicle	1 1\\/2|ton|utility|Vehicle	CD|NN|NN|NNP	NUMBER|O|O|O	|||	11.0		2.0	1 1|2-ton Utility Vehicle	fb:part.1_1|fb:part.2_ton_utility_vehicle
+10	3	fb:cell.km_450	KM-450	km-450	km-450	NN	O		450.0			KM-450	fb:part.km_450
+10	4	fb:cell._50	>50	>|50	>|50	JJR|CD	O|NUMBER	|50.0	50.0				
+10	5	fb:cell.3000_purchased_by_afp_on_2007_1000_units_shared_by_navy_marines_and_air_force	3000 purchased by AFP on 2007, 1000 units shared by Navy/Marines and Air Force	3000|purchased|by|afp|on|2007|,|1000|units|shared|by|navy\\/marines|and|air|force	3000|purchase|by|afp|on|2007|,|1000|unit|share|by|navy\\/marines|and|Air|Force	CD|VBN|IN|NN|IN|CD|,|CD|NNS|VBN|IN|NNS|CC|NNP|NNP	NUMBER|O|O|O|O|DATE|DATE|DATE|O|O|O|ORGANIZATION|O|ORGANIZATION|ORGANIZATION	3000.0|||||2007|2007|1000|||||||	3000.0		2.0071E7	3000 purchased by AFP on 2007|1000 units shared by Navy|Marines and Air Force	fb:part.3000_purchased_by_afp_on_2007|fb:part.1000_units_shared_by_navy|fb:part.marines_and_air_force
+11	0	fb:cell.km_45_series	KM-45 Series	km-45|series	KM-45|Series	NNP|NNP	O|O	|	45.0				
+11	1	fb:cell.republic_of_korea	Republic of Korea	republic|of|korea	Republic|of|Korea	NNP|IN|NNP	O|O|LOCATION	||					
+11	2	fb:cell.field_ambulance	Field Ambulance	field|ambulance	field|ambulance	NN|NN	O|O	|				Field Ambulance	fb:part.field_ambulance
+11	3	fb:cell.km_451	KM-451	km-451	km-451	NN	O		451.0			KM-451	fb:part.km_451
+11	4	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	5	fb:cell.500_purchased_by_afp_in_2012_200_went_to_the_marines	500 purchased by AFP in 2012, 200 went to the Marines.	500|purchased|by|afp|in|2012|,|200|went|to|the|marines|.	500|purchase|by|afp|in|2012|,|200|go|to|the|Marines|.	CD|VBN|IN|NN|IN|CD|,|CD|VBD|TO|DT|NNPS|.	NUMBER|O|O|O|O|DATE|O|NUMBER|O|O|O|O|O	500.0|||||2012||200.0|||||	500.0		2012200.0	500 purchased by AFP in 2012|200 went to the Marines.	fb:part.500_purchased_by_afp_in_2012|fb:part.200_went_to_the_marines

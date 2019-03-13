@@ -1,0 +1,51 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.et	ET	et	ET	NNP	O						
+-1	1	fb:row.row.days_available	Days available	days|available	day|available	NNS|JJ	DURATION|O	|					
+-1	2	fb:row.row.program	Program	program	program	NN	O						
+-1	3	fb:row.row.host_s	Host(s)	host|-lrb-|s|-rrb-	host|-lrb-|s|-rrb-	NN|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	4	fb:row.row.description	Description	description	description	NN	O						
+0	0	fb:cell.9am_10am	9am–10am	9am|--|10am	9am|--|10am	NN|:|CD	TIME|O|TIME	T09||T10	9.0		10.0		
+0	1	fb:cell.monday_friday	Monday–Friday	monday|--|friday	Monday|--|Friday	NNP|:|NNP	DATE|O|DATE	XXXX-WXX-1||XXXX-WXX-5					
+0	2	fb:cell.the_morning_click	The Morning Click	the|morning|click	the|morning|click	DT|NN|NN	O|TIME|O	|TMO|					
+0	3	fb:cell.jamie_colby_m_t_harris_faulkner_w_f	Jamie Colby (M,T), Harris Faulkner (W–F)	jamie|colby|-lrb-|m|,|t|-rrb-|,|harris|faulkner|-lrb-|w|--|f|-rrb-	Jamie|Colby|-lrb-|M|,|t|-rrb-|,|Harris|Faulkner|-lrb-|W|--|f|-rrb-	NNP|NNP|-LRB-|NNP|,|NN|-RRB-|,|NNP|NNP|-LRB-|NNP|:|NN|-RRB-	PERSON|PERSON|O|O|O|O|O|O|PERSON|PERSON|O|O|O|O|O	||||||||||||||				Jamie Colby (M,T)|Harris Faulkner (W–F)	fb:part.jamie_colby_m_t|fb:part.harris_faulkner_w_f
+0	4	fb:cell.current_events	Current events.	current|events|.	current|event|.	JJ|NNS|.	DATE|O|O	PRESENT_REF||				Current events.	fb:part.current_events
+1	0	fb:cell.10am_10_30am	10am–10:30am	10am|--|10:30|am	10am|--|10:30|be	NN|:|CD|VBD-AUX	TIME|O|TIME|TIME	T10||T10:30|T10:30	10.0		10.0		
+1	1	fb:cell.monday_friday	Monday–Friday	monday|--|friday	Monday|--|Friday	NNP|:|NNP	DATE|O|DATE	XXXX-WXX-1||XXXX-WXX-5					
+1	2	fb:cell.null											
+1	3	fb:cell.lauren_green_m_uma_pemmaraju_t_gregg_jarrett_w_arthel_neville_f_rick_folbaum_f_heather_childers	Lauren Green (M), Uma Pemmaraju (T), Gregg Jarrett (W), Arthel Neville (F), Rick Folbaum (F), Heather Childers	lauren|green|-lrb-|m|-rrb-|,|uma|pemmaraju|-lrb-|t|-rrb-|,|gregg|jarrett|-lrb-|w|-rrb-|,|arthel|neville|-lrb-|f|-rrb-|,|rick|folbaum|-lrb-|f|-rrb-|,|heather|childers	Lauren|Green|-lrb-|m|-rrb-|,|Uma|Pemmaraju|-lrb-|t|-rrb-|,|Gregg|Jarrett|-lrb-|W|-rrb-|,|Arthel|Neville|-lrb-|f|-rrb-|,|Rick|Folbaum|-lrb-|f|-rrb-|,|Heather|Childers	NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP|-LRB-|NNP|-RRB-|,|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP|-LRB-|NN|-RRB-|,|NNP|NNP	PERSON|PERSON|O|O|O|O|PERSON|PERSON|O|O|O|O|PERSON|PERSON|O|O|O|O|PERSON|PERSON|O|O|O|O|PERSON|PERSON|O|O|O|O|PERSON|PERSON	|||||||||||||||||||||||||||||||				Lauren Green (M)|Uma Pemmaraju (T)|Gregg Jarrett (W)|Arthel Neville (F)|Rick Folbaum (F)|Heather Childers	fb:part.lauren_green_m|fb:part.uma_pemmaraju_t|fb:part.gregg_jarrett_w|fb:part.arthel_neville_f|fb:part.rick_folbaum_f|fb:part.heather_childers
+1	4	fb:cell.current_events	Current events.	current|events|.	current|event|.	JJ|NNS|.	DATE|O|O	PRESENT_REF||				Current events.	fb:part.current_events
+2	0	fb:cell.11am_11_30am	11am–11:30am	11am|--|11:30|am	11am|--|11:30|be	NN|:|CD|VBD-AUX	TIME|O|TIME|TIME	T11||T11:30|T11:30	11.0		11.0		
+2	1	fb:cell.monday_friday	Monday–Friday	monday|--|friday	Monday|--|Friday	NNP|:|NNP	DATE|O|DATE	XXXX-WXX-1||XXXX-WXX-5					
+2	2	fb:cell.fbn_live	FBN Live	fbn|live	FBN|Live	NNP|NNP	O|O	|					
+2	3	fb:cell.lauren_simonetti	Lauren Simonetti	lauren|simonetti	Lauren|Simonetti	NNP|NNP	PERSON|PERSON	|				Lauren Simonetti	fb:part.lauren_simonetti
+2	4	fb:cell.business_news_and_information	Business news and information.	business|news|and|information|.	Business|news|and|information|.	NNP|NN|CC|NN|.	O|O|O|O|O	||||				Business news and information.	fb:part.business_news_and_information
+3	0	fb:cell.12pm_1pm	12pm–1pm	12pm|--|1pm	12pm|--|1pm	NN|:|CD	TIME|O|TIME	T12||T13	12.0		1.0		
+3	1	fb:cell.monday_friday	Monday–Friday	monday|--|friday	Monday|--|Friday	NNP|:|NNP	DATE|O|DATE	XXXX-WXX-1||XXXX-WXX-5					
+3	2	fb:cell.on_the_hunt	On the Hunt	on|the|hunt	on|the|Hunt	IN|DT|NNP	O|O|O	||					
+3	3	fb:cell.jonathan_hunt	Jonathan Hunt	jonathan|hunt	Jonathan|Hunt	NNP|NNP	PERSON|PERSON	|				Jonathan Hunt	fb:part.jonathan_hunt
+3	4	fb:cell.current_events	Current events.	current|events|.	current|event|.	JJ|NNS|.	DATE|O|O	PRESENT_REF||				Current events.	fb:part.current_events
+4	0	fb:cell.2pm_3pm	2pm–3pm	2pm|--|3pm	2pm|--|3pm	RB|:|JJ	TIME|O|TIME	T14||T15	2.0		3.0		
+4	1	fb:cell.monday	Monday	monday	Monday	NNP	DATE	XXXX-WXX-1					
+4	2	fb:cell.entertainment_hour	Entertainment Hour	entertainment|hour	Entertainment|Hour	NNP|NNP	O|DURATION	|					
+4	3	fb:cell.ashley_dvorkin	Ashley Dvorkin	ashley|dvorkin	Ashley|Dvorkin	NNP|NNP	PERSON|PERSON	|				Ashley Dvorkin	fb:part.ashley_dvorkin
+4	4	fb:cell.entertainment_news_musical_performances	Entertainment news, musical performances.	entertainment|news|,|musical|performances|.	Entertainment|news|,|musical|performance|.	NNP|NN|,|JJ|NNS|.	O|O|O|O|O|O	|||||				Entertainment news|musical performances.	fb:part.entertainment_news|fb:part.musical_performances
+5	0	fb:cell.2pm_3pm	2pm–3pm	2pm|--|3pm	2pm|--|3pm	RB|:|JJ	TIME|O|TIME	T14||T15	2.0		3.0		
+5	1	fb:cell.tuesday	Tuesday	tuesday	Tuesday	NNP	DATE	XXXX-WXX-2					
+5	2	fb:cell.null											
+5	3	fb:cell.kimberly_guilfoyle	Kimberly Guilfoyle	kimberly|guilfoyle	Kimberly|Guilfoyle	NNP|NNP	PERSON|PERSON	|				Kimberly Guilfoyle	fb:part.kimberly_guilfoyle
+5	4	fb:cell.crime_and_legal_news	Crime and legal news.	crime|and|legal|news|.	crime|and|legal|news|.	NN|CC|JJ|NN|.	O|O|O|O|O	||||				Crime and legal news.	fb:part.crime_and_legal_news
+6	0	fb:cell.2pm_3pm	2pm–3pm	2pm|--|3pm	2pm|--|3pm	RB|:|JJ	TIME|O|TIME	T14||T15	2.0		3.0		
+6	1	fb:cell.wednesday	Wednesday	wednesday	Wednesday	NNP	DATE	XXXX-WXX-3					
+6	2	fb:cell.defcon_3	Defcon 3	defcon|3	Defcon|3	NNP|CD	O|NUMBER	|3.0	3.0				
+6	3	fb:cell.kathleen_troia_mcfarland	Kathleen Troia McFarland	kathleen|troia|mcfarland	Kathleen|Troia|McFarland	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Kathleen Troia McFarland	fb:part.kathleen_troia_mcfarland
+6	4	fb:cell.military_news_and_information	Military news and information.	military|news|and|information|.	military|news|and|information|.	JJ|NN|CC|NN|.	O|O|O|O|O	||||				Military news and information.	fb:part.military_news_and_information
+7	0	fb:cell.2pm_3pm	2pm–3pm	2pm|--|3pm	2pm|--|3pm	RB|:|JJ	TIME|O|TIME	T14||T15	2.0		3.0		
+7	1	fb:cell.thursday	Thursday	thursday	Thursday	NNP	DATE	XXXX-WXX-4					
+7	2	fb:cell.fox_car_report	Fox Car Report	fox|car|report	Fox|Car|Report	NNP|NNP|NNP	O|O|O	||					
+7	3	fb:cell.gary_gastelu	Gary Gastelu	gary|gastelu	Gary|Gastelu	NNP|NNP	PERSON|PERSON	|				Gary Gastelu	fb:part.gary_gastelu
+7	4	fb:cell.automotive_news_and_information	Automotive news and information.	automotive|news|and|information|.	Automotive|news|and|information|.	NNP|NN|CC|NN|.	O|O|O|O|O	||||				Automotive news and information.	fb:part.automotive_news_and_information
+8	0	fb:cell.2pm_3pm	2pm–3pm	2pm|--|3pm	2pm|--|3pm	RB|:|JJ	TIME|O|TIME	T14||T15	2.0		3.0		
+8	1	fb:cell.friday	Friday	friday	Friday	NNP	DATE	XXXX-WXX-5					
+8	2	fb:cell.spirited_debate	Spirited Debate	spirited|debate	spirited|debate	JJ|NN	O|O	|					
+8	3	fb:cell.lauren_green	Lauren Green	lauren|green	Lauren|Green	NNP|NNP	PERSON|PERSON	|				Lauren Green	fb:part.lauren_green
+8	4	fb:cell.discussion_on_religious_topics	Discussion on religious topics.	discussion|on|religious|topics|.	discussion|on|religious|topic|.	NN|IN|JJ|NNS|.	O|O|O|O|O	||||				Discussion on religious topics.	fb:part.discussion_on_religious_topics

@@ -1,0 +1,349 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.null	#	#	#	#	O						
+-1	1	fb:row.row.stadium	Stadium	stadium	stadium	NN	O						
+-1	2	fb:row.row.capacity	Capacity	capacity	capacity	NN	O						
+-1	3	fb:row.row.city	City	city	City	NNP	O						
+-1	4	fb:row.row.country	Country	country	country	NN	O						
+-1	5	fb:row.row.domed_or_retractable_roof	Domed or Retractable roof	domed|or|retractable|roof	domed|or|retractable|roof	JJ|CC|JJ|NN	O|O|O|O	|||					
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.wembley_stadium	Wembley Stadium	wembley|stadium	Wembley|Stadium	NNP|NNP	LOCATION|LOCATION	|				Wembley Stadium	fb:part.wembley_stadium
+0	2	fb:cell.90_000	90,000	90,000	90,000	CD	NUMBER	90000.0	90000.0				
+0	3	fb:cell.london_england	London, England	london|,|england	London|,|England	NNP|,|NNP	LOCATION|O|LOCATION	||				London|England	fb:part.london|fb:part.england
+0	4	fb:cell.united_kingdom	United Kingdom	united|kingdom	United|Kingdom	NNP|NNP	LOCATION|LOCATION	|					
+0	5	fb:cell.rr_only_covers_seats_playing_surface_uncovered_at_all_times	RR *only covers seats, playing surface uncovered at all times	rr|\\*|only|covers|seats|,|playing|surface|uncovered|at|all|times	rr|\\*|only|cover|seat|,|play|surface|uncover|at|all|time	NN|SYM|RB|VBZ|NNS|,|VBG|NN|VBN|IN|DT|NNS	O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||				RR *only covers seats|playing surface uncovered at all times	fb:part.rr_only_covers_seats|fb:part.playing_surface_uncovered_at_all_times
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.at_t_stadium	AT&T Stadium	at&t|stadium	AT&T|Stadium	NNP|NNP	O|O	|				AT&T Stadium	fb:part.at_t_stadium
+1	2	fb:cell.80_000	80,000	80,000	80,000	CD	NUMBER	80000.0	80000.0				
+1	3	fb:cell.arlington_texas	Arlington, Texas	arlington|,|texas	Arlington|,|Texas	NNP|,|NNP	LOCATION|O|LOCATION	||				Arlington|Texas	fb:part.arlington|fb:part.texas
+1	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+1	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.millennium_stadium	Millennium Stadium	millennium|stadium	Millennium|Stadium	NNP|NNP	DURATION|O	|				Millennium Stadium	fb:part.millennium_stadium
+2	2	fb:cell.74_500	74,500	74,500	74,500	CD	NUMBER	74500.0	74500.0				
+2	3	fb:cell.cardiff	Cardiff	cardiff	Cardiff	NNP	LOCATION					Cardiff	fb:part.cardiff
+2	4	fb:cell.wales	Wales	wales	Wales	NNP	LOCATION						
+2	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.university_of_phoenix_stadium	University of Phoenix Stadium	university|of|phoenix|stadium	University|of|Phoenix|Stadium	NNP|IN|NNP|NNP	O|O|O|O	|||				University of Phoenix Stadium	fb:part.university_of_phoenix_stadium
+3	2	fb:cell.73_719	73,719	73,719	73,719	CD	NUMBER	73719.0	73719.0				
+3	3	fb:cell.glendale_arizona	Glendale, Arizona	glendale|,|arizona	Glendale|,|Arizona	NNP|,|NNP	LOCATION|O|LOCATION	||				Glendale|Arizona	fb:part.glendale|fb:part.arizona
+3	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+3	5	fb:cell.rr_retractable_playing_surface	RR; retractable playing surface	rr|;|retractable|playing|surface	rr|;|retractable|playing|surface	NN|:|JJ|NN|NN	O|O|O|O|O	||||				RR; retractable playing surface	fb:part.rr_retractable_playing_surface
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.mercedes_benz_superdome	Mercedes-Benz Superdome	mercedes|benz|superdome	Mercedes|Benz|Superdome	NNP|NNP|NNP	O|O|O	||				Mercedes-Benz Superdome	fb:part.mercedes_benz_superdome
+4	2	fb:cell.73_208	73,208	73,208	73,208	CD	NUMBER	73208.0	73208.0				
+4	3	fb:cell.new_orleans_louisiana	New Orleans, Louisiana	new|orleans|,|louisiana	New|Orleans|,|Louisiana	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				New Orleans|Louisiana	fb:part.new_orleans|fb:part.louisiana
+4	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+4	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.reliant_stadium	Reliant Stadium	reliant|stadium	Reliant|Stadium	NNP|NNP	O|O	|				Reliant Stadium	fb:part.reliant_stadium
+5	2	fb:cell.71_500	71,500	71,500	71,500	CD	NUMBER	71500.0	71500.0				
+5	3	fb:cell.houston_texas	Houston, Texas	houston|,|texas	Houston|,|Texas	NNP|,|NNP	LOCATION|O|LOCATION	||				Houston|Texas	fb:part.houston|fb:part.texas
+5	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+5	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.georgia_dome	Georgia Dome	georgia|dome	Georgia|Dome	NNP|NNP	LOCATION|O	|				Georgia Dome	fb:part.georgia_dome
+6	2	fb:cell.71_228	71,228	71,228	71,228	CD	NUMBER	71228.0	71228.0				
+6	3	fb:cell.atlanta_georgia	Atlanta, Georgia	atlanta|,|georgia	Atlanta|,|Georgia	NNP|,|NNP	LOCATION|O|LOCATION	||				Atlanta|Georgia	fb:part.atlanta|fb:part.georgia
+6	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+6	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.lucas_oil_stadium	Lucas Oil Stadium	lucas|oil|stadium	Lucas|Oil|Stadium	NNP|NNP|NNP	O|O|O	||				Lucas Oil Stadium	fb:part.lucas_oil_stadium
+7	2	fb:cell.70_000	70,000	70,000	70,000	CD	NUMBER	70000.0	70000.0				
+7	3	fb:cell.indianapolis_indiana	Indianapolis, Indiana	indianapolis|,|indiana	Indianapolis|,|Indiana	NNP|,|NNP	LOCATION|O|LOCATION	||				Indianapolis|Indiana	fb:part.indianapolis|fb:part.indiana
+7	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+7	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.stade_olympique_de_montreal	Stade olympique de Montréal	stade|olympique|de|montréal	stade|olympique|de|montréal	FW|FW|FW|FW	O|O|O|O	|||				Stade olympique de Montréal	fb:part.stade_olympique_de_montreal
+8	2	fb:cell.66_308	66,308	66,308	66,308	CD	NUMBER	66308.0	66308.0				
+8	3	fb:cell.montreal_quebec	Montreal, Quebec	montreal|,|quebec	Montreal|,|Quebec	NNP|,|NNP	LOCATION|O|LOCATION	||				Montreal|Quebec	fb:part.montreal|fb:part.quebec
+8	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+8	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.edward_jones_dome	Edward Jones Dome	edward|jones|dome	Edward|Jones|Dome	NNP|NNP|NNP	PERSON|PERSON|O	||				Edward Jones Dome	fb:part.edward_jones_dome
+9	2	fb:cell.66_000	66,000	66,000	66,000	CD	NUMBER	66000.0	66000.0				
+9	3	fb:cell.st_louis_missouri	St. Louis, Missouri	st.|louis|,|missouri	St.|Louis|,|Missouri	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				St. Louis|Missouri	fb:part.st_louis|fb:part.missouri
+9	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+9	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.alamodome	Alamodome	alamodome	alamodome	NN	O					Alamodome	fb:part.alamodome
+10	2	fb:cell.65_000	65,000	65,000	65,000	CD	NUMBER	65000.0	65000.0				
+10	3	fb:cell.san_antonio_texas	San Antonio, Texas	san|antonio|,|texas	San|Antonio|,|Texas	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Antonio|Texas	fb:part.san_antonio|fb:part.texas
+10	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+10	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.ford_field	Ford Field	ford|field	Ford|Field	NNP|NNP	O|O	|				Ford Field	fb:part.ford_field
+11	2	fb:cell.65_000	65,000	65,000	65,000	CD	NUMBER	65000.0	65000.0				
+11	3	fb:cell.detroit_michigan	Detroit, Michigan	detroit|,|michigan	Detroit|,|Michigan	NNP|,|NNP	LOCATION|O|LOCATION	||				Detroit|Michigan	fb:part.detroit|fb:part.michigan
+11	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+11	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.stadion_narodowy_im_kazimierza_gorskiego	Stadion Narodowy im. Kazimierza Górskiego	stadion|narodowy|im|.|kazimierza|górskiego	Stadion|Narodowy|im|.|Kazimierza|Górskiego	NNP|NNP|NN|.|NNP|NNP	O|O|O|O|PERSON|PERSON	|||||				Stadion Narodowy im. Kazimierza Górskiego	fb:part.stadion_narodowy_im_kazimierza_gorskiego
+12	2	fb:cell.58_145	58,145	58,145	58,145	CD	NUMBER	58145.0	58145.0				
+12	3	fb:cell.warszawa	Warszawa	warszawa	warszawa	NNS	LOCATION					Warszawa	fb:part.warszawa
+12	4	fb:cell.poland	Poland	poland	Poland	NNP	LOCATION						
+12	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.etihad_stadium	Etihad Stadium	etihad|stadium	Etihad|Stadium	NNP|NNP	O|O	|				Etihad Stadium	fb:part.etihad_stadium
+13	2	fb:cell.56_347	56,347	56,347	56,347	CD	NUMBER	56347.0	56347.0				
+13	3	fb:cell.melbourne	Melbourne	melbourne	Melbourne	NNP	LOCATION					Melbourne	fb:part.melbourne
+13	4	fb:cell.australia	Australia	australia	Australia	NNP	LOCATION						
+13	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.arena_nationala	Arena Națională	arena|națională	arena|națională	NN|NN	PERSON|PERSON	|				Arena Națională	fb:part.arena_nationala
+14	2	fb:cell.55_600	55,600	55,600	55,600	CD	NUMBER	55600.0	55600.0				
+14	3	fb:cell.bucharest	Bucharest	bucharest	Bucharest	NNP	LOCATION					Bucharest	fb:part.bucharest
+14	4	fb:cell.romania	Romania	romania	Romania	NNP	LOCATION						
+14	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.tokyo_dome	Tokyo Dome	tokyo|dome	Tokyo|Dome	NNP|NNP	LOCATION|O	|				Tokyo Dome	fb:part.tokyo_dome
+15	2	fb:cell.55_000	55,000	55,000	55,000	CD	NUMBER	55000.0	55000.0				
+15	3	fb:cell.tokyo	Tokyo	tokyo	Tokyo	NNP	LOCATION					Tokyo	fb:part.tokyo
+15	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+15	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.bc_place	BC Place	bc|place	BC|Place	NNP|NNP	O|O	|				BC Place	fb:part.bc_place
+16	2	fb:cell.54_500	54,500	54,500	54,500	CD	NUMBER	54500.0	54500.0				
+16	3	fb:cell.vancouver_british_columbia	Vancouver, British Columbia	vancouver|,|british|columbia	Vancouver|,|British|Columbia	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Vancouver|British Columbia	fb:part.vancouver|fb:part.british_columbia
+16	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+16	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.friends_arena	Friends Arena	friends|arena	Friends|Arena	NNPS|NNP	O|O	|				Friends Arena	fb:part.friends_arena
+17	2	fb:cell.54_329	54,329	54,329	54,329	CD	NUMBER	54329.0	54329.0				
+17	3	fb:cell.solna_stockholm	Solna, Stockholm	solna|,|stockholm	Solna|,|Stockholm	NNP|,|NNP	LOCATION|O|LOCATION	||				Solna|Stockholm	fb:part.solna|fb:part.stockholm
+17	4	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+17	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell.safeco_field	Safeco Field	safeco|field	Safeco|Field	NNP|NNP	LOCATION|LOCATION	|				Safeco Field	fb:part.safeco_field
+18	2	fb:cell.54_097	54,097	54,097	54,097	CD	NUMBER	54097.0	54097.0				
+18	3	fb:cell.seattle_washington	Seattle, Washington	seattle|,|washington	Seattle|,|Washington	NNP|,|NNP	LOCATION|O|LOCATION	||				Seattle|Washington	fb:part.seattle|fb:part.washington
+18	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+18	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell.veltins_arena	Veltins-Arena	veltins|arena	Veltins|Arena	NNP|NNP	O|O	|				Veltins-Arena	fb:part.veltins_arena
+19	2	fb:cell.53_951	53,951	53,951	53,951	CD	NUMBER	53951.0	53951.0				
+19	3	fb:cell.gelsenkirchen	Gelsenkirchen	gelsenkirchen	Gelsenkirchen	NNP	LOCATION					Gelsenkirchen	fb:part.gelsenkirchen
+19	4	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+19	5	fb:cell.rr_retractable_playing_surface	RR; retractable playing surface	rr|;|retractable|playing|surface	rr|;|retractable|playing|surface	NN|:|JJ|NN|NN	O|O|O|O|O	||||				RR; retractable playing surface	fb:part.rr_retractable_playing_surface
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell.sapporo_dome	Sapporo Dome	sapporo|dome	Sapporo|Dome	NNP|NNP	O|O	|				Sapporo Dome	fb:part.sapporo_dome
+20	2	fb:cell.53_845	53,845	53,845	53,845	CD	NUMBER	53845.0	53845.0				
+20	3	fb:cell.sapporo	Sapporo	sapporo	Sapporo	NNP	LOCATION					Sapporo	fb:part.sapporo
+20	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+20	5	fb:cell.d_retractable_playing_surface	D; retractable playing surface	d|;|retractable|playing|surface	d|;|retractable|playing|surface	NN|:|JJ|NN|NN	O|O|O|O|O	||||				D; retractable playing surface	fb:part.d_retractable_playing_surface
+21	0	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+21	1	fb:cell.turk_telekom_arena	Türk Telekom Arena	türk|telekom|arena	Türk|Telekom|Arena	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Türk Telekom Arena	fb:part.turk_telekom_arena
+21	2	fb:cell.52_647	52,647	52,647	52,647	CD	NUMBER	52647.0	52647.0				
+21	3	fb:cell.istanbul	Istanbul	istanbul	Istanbul	NNP	LOCATION					Istanbul	fb:part.istanbul
+21	4	fb:cell.turkey	Turkey	turkey	Turkey	NNP	LOCATION						
+21	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+22	0	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	1	fb:cell.commerzbank_arena	Commerzbank-Arena	commerzbank|arena	Commerzbank|Arena	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Commerzbank-Arena	fb:part.commerzbank_arena
+22	2	fb:cell.52_300	52,300	52,300	52,300	CD	NUMBER	52300.0	52300.0				
+22	3	fb:cell.frankfurt	Frankfurt	frankfurt	Frankfurt	NNP	LOCATION					Frankfurt	fb:part.frankfurt
+22	4	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+22	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+23	0	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+23	1	fb:cell.rogers_centre	Rogers Centre	rogers|centre	Rogers|Centre	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Rogers Centre	fb:part.rogers_centre
+23	2	fb:cell.52_230	52,230	52,230	52,230	CD	NUMBER	52230.0	52230.0				
+23	3	fb:cell.toronto_ontario	Toronto, Ontario	toronto|,|ontario	Toronto|,|Ontario	NNP|,|NNP	LOCATION|O|LOCATION	||				Toronto|Ontario	fb:part.toronto|fb:part.ontario
+23	4	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION						
+23	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+24	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+24	1	fb:cell.amsterdam_arena	Amsterdam ArenA	amsterdam|arena	Amsterdam|ArenA	NNP|NNP	LOCATION|O	|				Amsterdam ArenA	fb:part.amsterdam_arena
+24	2	fb:cell.51_628	51,628	51,628	51,628	CD	NUMBER	51628.0	51628.0				
+24	3	fb:cell.amsterdam	Amsterdam	amsterdam	Amsterdam	NNP	LOCATION					Amsterdam	fb:part.amsterdam
+24	4	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+24	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+25	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+25	1	fb:cell.esprit_arena	Esprit Arena	esprit|arena	Esprit|Arena	NNP|NNP	O|O	|				Esprit Arena	fb:part.esprit_arena
+25	2	fb:cell.51_500	51,500	51,500	51,500	CD	NUMBER	51500.0	51500.0				
+25	3	fb:cell.dusseldorf	Düsseldorf	düsseldorf	düsseldorf	NN	PERSON					Düsseldorf	fb:part.dusseldorf
+25	4	fb:cell.germany	Germany	germany	Germany	NNP	LOCATION						
+25	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+26	0	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+26	1	fb:cell.stade_pierre_mauroy	Stade Pierre-Mauroy	stade|pierre|mauroy	Stade|Pierre|Mauroy	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Stade Pierre-Mauroy	fb:part.stade_pierre_mauroy
+26	2	fb:cell.50_186	50,186	50,186	50,186	CD	NUMBER	50186.0	50186.0				
+26	3	fb:cell.lille	Lille	lille	Lille	NNP	LOCATION					Lille	fb:part.lille
+26	4	fb:cell.france	France	france	France	NNP	LOCATION						
+26	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+27	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+27	1	fb:cell.carrier_dome	Carrier Dome	carrier|dome	carrier|Dome	NN|NNP	O|O	|				Carrier Dome	fb:part.carrier_dome
+27	2	fb:cell.49_262	49,262	49,262	49,262	CD	NUMBER	49262.0	49262.0				
+27	3	fb:cell.syracuse_new_york	Syracuse, New York	syracuse|,|new|york	Syracuse|,|New|York	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Syracuse|New York	fb:part.syracuse|fb:part.new_york
+27	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+27	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+28	0	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+28	1	fb:cell.chase_field	Chase Field	chase|field	Chase|Field	NNP|NNP	O|O	|				Chase Field	fb:part.chase_field
+28	2	fb:cell.49_033	49,033	49,033	49,033	CD	NUMBER	49033.0	49033.0				
+28	3	fb:cell.phoenix_arizona	Phoenix, Arizona	phoenix|,|arizona	Phoenix|,|Arizona	NNP|,|NNP	LOCATION|O|LOCATION	||				Phoenix|Arizona	fb:part.phoenix|fb:part.arizona
+28	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+28	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+29	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	1	fb:cell.tropicana_field	Tropicana Field	tropicana|field	Tropicana|Field	NNP|NNP	LOCATION|LOCATION	|				Tropicana Field	fb:part.tropicana_field
+29	2	fb:cell.45_369	45,369	45,369	45,369	CD	NUMBER	45369.0	45369.0				
+29	3	fb:cell.st_petersburg_florida	St. Petersburg, Florida	st.|petersburg|,|florida	St.|Petersburg|,|Florida	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				St. Petersburg|Florida	fb:part.st_petersburg|fb:part.florida
+29	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+29	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+30	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+30	1	fb:cell.toyota_stadium	Toyota Stadium	toyota|stadium	Toyota|Stadium	NNP|NNP	O|O	|				Toyota Stadium	fb:part.toyota_stadium
+30	2	fb:cell.45_000	45,000	45,000	45,000	CD	NUMBER	45000.0	45000.0				
+30	3	fb:cell.toyota	Toyota	toyota	Toyota	NNP	O					Toyota	fb:part.toyota
+30	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+30	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+31	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+31	1	fb:cell.miller_park	Miller Park	miller|park	Miller|Park	NNP|NNP	O|O	|				Miller Park	fb:part.miller_park
+31	2	fb:cell.42_200	42,200	42,200	42,200	CD	NUMBER	42200.0	42200.0				
+31	3	fb:cell.milwaukee_wisconsin	Milwaukee, Wisconsin	milwaukee|,|wisconsin	Milwaukee|,|Wisconsin	NNP|,|NNP	LOCATION|O|LOCATION	||				Milwaukee|Wisconsin	fb:part.milwaukee|fb:part.wisconsin
+31	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+31	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+32	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+32	1	fb:cell.minute_maid_park	Minute Maid Park	minute|maid|park	Minute|Maid|Park	NNP|NNP|NNP	DURATION|O|O	||				Minute Maid Park	fb:part.minute_maid_park
+32	2	fb:cell.40_950	40,950	40,950	40,950	CD	NUMBER	40950.0	40950.0				
+32	3	fb:cell.houston_texas	Houston, Texas	houston|,|texas	Houston|,|Texas	NNP|,|NNP	LOCATION|O|LOCATION	||				Houston|Texas	fb:part.houston|fb:part.texas
+32	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+32	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+33	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+33	1	fb:cell.nagoya_dome	Nagoya Dome	nagoya|dome	Nagoya|Dome	NNP|NNP	O|O	|				Nagoya Dome	fb:part.nagoya_dome
+33	2	fb:cell.40_500	40,500	40,500	40,500	CD	NUMBER	40500.0	40500.0				
+33	3	fb:cell.nagoya	Nagoya	nagoya	Nagoya	NNP	LOCATION					Nagoya	fb:part.nagoya
+33	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+33	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+34	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+34	1	fb:cell.oita_stadium	Ōita Stadium	ōita|stadium	Ōita|Stadium	NNP|NNP	O|O	|				Ōita Stadium	fb:part.oita_stadium
+34	2	fb:cell.40_000	40,000	40,000	40,000	CD	NUMBER	40000.0	40000.0				
+34	3	fb:cell.oita	Ōita	ōita	ōita	NN	O					Ōita	fb:part.oita
+34	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+34	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+35	0	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+35	1	fb:cell.marlins_ballpark	Marlins Ballpark	marlins|ballpark	Marlins|Ballpark	NNP|NNP	O|O	|				Marlins Ballpark	fb:part.marlins_ballpark
+35	2	fb:cell.37_000	37,000	37,000	37,000	CD	NUMBER	37000.0	37000.0				
+35	3	fb:cell.miami_florida	Miami, Florida	miami|,|florida	Miami|,|Florida	NNP|,|NNP	LOCATION|O|LOCATION	||				Miami|Florida	fb:part.miami|fb:part.florida
+35	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+35	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+36	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+36	1	fb:cell.osaka_dome	Osaka Dome	osaka|dome	Osaka|Dome	NNP|NNP	LOCATION|O	|				Osaka Dome	fb:part.osaka_dome
+36	2	fb:cell.36_477	36,477	36,477	36,477	CD	NUMBER	36477.0	36477.0				
+36	3	fb:cell.osaka	Osaka	osaka	Osaka	NNP	LOCATION					Osaka	fb:part.osaka
+36	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+36	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+37	0	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+37	1	fb:cell.fukuoka_dome	Fukuoka Dome	fukuoka|dome	Fukuoka|Dome	NNP|NNP	LOCATION|O	|				Fukuoka Dome	fb:part.fukuoka_dome
+37	2	fb:cell.35_695	35,695	35,695	35,695	CD	NUMBER	35695.0	35695.0				
+37	3	fb:cell.fukuoka	Fukuoka	fukuoka	Fukuoka	NNP	LOCATION					Fukuoka	fb:part.fukuoka
+37	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+37	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+38	0	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+38	1	fb:cell.seibu_dome	Seibu Dome	seibu|dome	Seibu|Dome	NNP|NNP	O|O	|				Seibu Dome	fb:part.seibu_dome
+38	2	fb:cell.35_655	35,655	35,655	35,655	CD	NUMBER	35655.0	35655.0				
+38	3	fb:cell.tokorozawa	Tokorozawa	tokorozawa	Tokorozawa	NNP	LOCATION					Tokorozawa	fb:part.tokorozawa
+38	4	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION						
+38	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+39	0	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	1	fb:cell.ordos_stadium	Ordos Stadium	ordos|stadium	Ordos|Stadium	NNP|NNP	O|O	|				Ordos Stadium	fb:part.ordos_stadium
+39	2	fb:cell.35_107	35,107	35,107	35,107	CD	NUMBER	35107.0	35107.0				
+39	3	fb:cell.ordos	Ordos	ordos	Ordos	NNP	O					Ordos	fb:part.ordos
+39	4	fb:cell.china	China	china	China	NNP	LOCATION						
+39	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+40	0	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+40	1	fb:cell.parken_stadion	Parken Stadion	parken|stadion	Parken|Stadion	NNP|NNP	O|O	|				Parken Stadion	fb:part.parken_stadion
+40	2	fb:cell.38_065	38,065	38,065	38,065	CD	NUMBER	38065.0	38065.0				
+40	3	fb:cell.copenhagen	Copenhagen	copenhagen	Copenhagen	NNP	LOCATION					Copenhagen	fb:part.copenhagen
+40	4	fb:cell.denmark	Denmark	denmark	Denmark	NNP	LOCATION						
+40	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+41	0	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+41	1	fb:cell.gelredome	GelreDome	gelredome	GelreDome	NNP	O					GelreDome	fb:part.gelredome
+41	2	fb:cell.32_500	32,500	32,500	32,500	CD	NUMBER	32500.0	32500.0				
+41	3	fb:cell.arnhem	Arnhem	arnhem	Arnhem	NNP	O					Arnhem	fb:part.arnhem
+41	4	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+41	5	fb:cell.rr_retractable_playing_surface	RR; retractable playing surface	rr|;|retractable|playing|surface	rr|;|retractable|playing|surface	NN|:|JJ|NN|NN	O|O|O|O|O	||||				RR; retractable playing surface	fb:part.rr_retractable_playing_surface
+42	0	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+42	1	fb:cell.nantong_stadium	Nantong Stadium	nantong|stadium	Nantong|Stadium	NNP|NNP	LOCATION|LOCATION	|				Nantong Stadium	fb:part.nantong_stadium
+42	2	fb:cell.32_244	32,244	32,244	32,244	CD	NUMBER	32244.0	32244.0				
+42	3	fb:cell.nantong	Nantong	nantong	Nantong	NNP	LOCATION					Nantong	fb:part.nantong
+42	4	fb:cell.china	China	china	China	NNP	LOCATION						
+42	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+43	0	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+43	1	fb:cell.forsyth_barr_stadium_at_university_plaza	Forsyth Barr Stadium at University Plaza	forsyth|barr|stadium|at|university|plaza	Forsyth|Barr|Stadium|at|University|Plaza	NNP|NNP|NNP|IN|NNP|NNP	O|O|O|O|O|O	|||||				Forsyth Barr Stadium at University Plaza	fb:part.forsyth_barr_stadium_at_university_plaza
+43	2	fb:cell.30_748	30,748	30,748	30,748	CD	NUMBER	30748.0	30748.0				
+43	3	fb:cell.dunedin	Dunedin	dunedin	Dunedin	NNP	LOCATION					Dunedin	fb:part.dunedin
+43	4	fb:cell.new_zealand	New Zealand	new|zealand	New|Zealand	NNP|NNP	LOCATION|LOCATION	|					
+43	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+44	0	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+44	1	fb:cell.astana_arena	Astana Arena	astana|arena	Astana|Arena	NNP|NNP	LOCATION|LOCATION	|				Astana Arena	fb:part.astana_arena
+44	2	fb:cell.30_000	30,000	30,000	30,000	CD	NUMBER	30000.0	30000.0				
+44	3	fb:cell.astana	Astana	astana	Astana	NNP	LOCATION					Astana	fb:part.astana
+44	4	fb:cell.kazakhstan	Kazakhstan	kazakhstan	Kazakhstan	NNP	LOCATION						
+44	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+45	0	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+45	1	fb:cell.tele2_arena	Tele2 Arena	tele2|arena	tele2|arena	NN|NN	O|O	|	2.0			Tele2 Arena	fb:part.tele2_arena
+45	2	fb:cell.30_000	30,000	30,000	30,000	CD	NUMBER	30000.0	30000.0				
+45	3	fb:cell.stockholm	Stockholm	stockholm	Stockholm	NNP	O					Stockholm	fb:part.stockholm
+45	4	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+45	5	fb:cell.rr	RR	rr	rr	NN	O					RR	fb:part.rr
+46	0	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+46	1	fb:cell.tacoma_dome	Tacoma Dome	tacoma|dome	Tacoma|Dome	NNP|NNP	O|O	|				Tacoma Dome	fb:part.tacoma_dome
+46	2	fb:cell.23_000	23,000	23,000	23,000	CD	NUMBER	23000.0	23000.0				
+46	3	fb:cell.tacoma_washington	Tacoma, Washington	tacoma|,|washington	Tacoma|,|Washington	NNP|,|NNP	LOCATION|O|LOCATION	||				Tacoma|Washington	fb:part.tacoma|fb:part.washington
+46	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+46	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+47	0	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+47	1	fb:cell.fargodome	Fargodome	fargodome	Fargodome	NNP	O					Fargodome	fb:part.fargodome
+47	2	fb:cell.19_000	19,000	19,000	19,000	CD	NUMBER	19000.0	19000.0				
+47	3	fb:cell.fargo_north_dakota	Fargo, North Dakota	fargo|,|north|dakota	Fargo|,|North|Dakota	NNP|,|NNP|NNP	PERSON|O|LOCATION|LOCATION	|||				Fargo|North Dakota	fb:part.fargo|fb:part.north_dakota
+47	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+47	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+48	0	fb:cell.49	49	49	49	CD	NUMBER	49.0	49.0				
+48	1	fb:cell.walkup_skydome	Walkup Skydome	walkup|skydome	Walkup|Skydome	NNP|NNP	O|O	|				Walkup Skydome	fb:part.walkup_skydome
+48	2	fb:cell.16_230	16,230	16,230	16,230	CD	NUMBER	16230.0	16230.0				
+48	3	fb:cell.flagstaff_arizona	Flagstaff, Arizona	flagstaff|,|arizona	Flagstaff|,|Arizona	NNP|,|NNP	LOCATION|O|LOCATION	||				Flagstaff|Arizona	fb:part.flagstaff|fb:part.arizona
+48	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+48	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+49	0	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+49	1	fb:cell.kibbie_dome	Kibbie Dome	kibbie|dome	Kibbie|Dome	NNP|NNP	O|O	|				Kibbie Dome	fb:part.kibbie_dome
+49	2	fb:cell.16_000	16,000	16,000	16,000	CD	NUMBER	16000.0	16000.0				
+49	3	fb:cell.moscow_idaho	Moscow, Idaho	moscow|,|idaho	Moscow|,|Idaho	NNP|,|NNP	LOCATION|O|LOCATION	||				Moscow|Idaho	fb:part.moscow|fb:part.idaho
+49	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+49	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+50	0	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+50	1	fb:cell.alerus_center	Alerus Center	alerus|center	Alerus|Center	NNP|NNP	O|O	|				Alerus Center	fb:part.alerus_center
+50	2	fb:cell.13_500	13,500	13,500	13,500	CD	NUMBER	13500.0	13500.0				
+50	3	fb:cell.grand_forks_north_dakota	Grand Forks, North Dakota	grand|forks|,|north|dakota	Grand|Forks|,|North|Dakota	NNP|NNP|,|NNP|NNP	MISC|MISC|O|LOCATION|LOCATION	||||				Grand Forks|North Dakota	fb:part.grand_forks|fb:part.north_dakota
+50	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+50	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+51	0	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+51	1	fb:cell.holt_arena	Holt Arena	holt|arena	Holt|Arena	NNP|NNP	PERSON|PERSON	|				Holt Arena	fb:part.holt_arena
+51	2	fb:cell.12_000	12,000	12,000	12,000	CD	NUMBER	12000.0	12000.0				
+51	3	fb:cell.pocatello_idaho	Pocatello, Idaho	pocatello|,|idaho	Pocatello|,|Idaho	NNP|,|NNP	LOCATION|O|LOCATION	||				Pocatello|Idaho	fb:part.pocatello|fb:part.idaho
+51	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+51	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+52	0	fb:cell.53	53	53	53	CD	NUMBER	53.0	53.0				
+52	1	fb:cell.dakotadome	DakotaDome	dakotadome	dakotadome	NN	O					DakotaDome	fb:part.dakotadome
+52	2	fb:cell.10_000	10,000	10,000	10,000	CD	NUMBER	10000.0	10000.0				
+52	3	fb:cell.vermillion_south_dakota	Vermillion, South Dakota	vermillion|,|south|dakota	Vermillion|,|South|Dakota	NNP|,|NNP|NNP	PERSON|O|LOCATION|LOCATION	|||				Vermillion|South Dakota	fb:part.vermillion|fb:part.south_dakota
+52	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+52	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+53	0	fb:cell.54	54	54	54	CD	NUMBER	54.0	54.0				
+53	1	fb:cell.uni_dome	UNI-Dome	uni|dome	UNI|Dome	NNP|NNP	O|O	|				UNI-Dome	fb:part.uni_dome
+53	2	fb:cell.10_000	10,000	10,000	10,000	CD	NUMBER	10000.0	10000.0				
+53	3	fb:cell.cedar_falls_iowa	Cedar Falls, Iowa	cedar|falls|,|iowa	Cedar|Falls|,|Iowa	NNP|NNP|,|NNP	O|DATE|O|LOCATION	|XXXX-FA||				Cedar Falls|Iowa	fb:part.cedar_falls|fb:part.iowa
+53	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+53	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+54	0	fb:cell.55	55	55	55	CD	NUMBER	55.0	55.0				
+54	1	fb:cell.etsu_mountain_states_health_alliance_athletic_center	ETSU/Mountain States Health Alliance Athletic Center	etsu\\/mountain|states|health|alliance|athletic|center	ETSU\\/Mountain|States|Health|Alliance|Athletic|Center	NNP|NNP|NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||||				ETSU|Mountain States Health Alliance Athletic Center	fb:part.etsu|fb:part.mountain_states_health_alliance_athletic_center
+54	2	fb:cell.8_539	8,539	8,539	8,539	CD	NUMBER	8539.0	8539.0				
+54	3	fb:cell.johnson_city_tennessee	Johnson City, Tennessee	johnson|city|,|tennessee	Johnson|City|,|Tennessee	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Johnson City|Tennessee	fb:part.johnson_city|fb:part.tennessee
+54	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+54	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+55	0	fb:cell.56	56	56	56	CD	NUMBER	56.0	56.0				
+55	1	fb:cell.superior_dome	Superior Dome	superior|dome	Superior|Dome	NNP|NNP	O|O	|				Superior Dome	fb:part.superior_dome
+55	2	fb:cell.8_432	8,432	8,432	8,432	CD	NUMBER	8432.0	8432.0				
+55	3	fb:cell.marquette_michigan	Marquette, Michigan	marquette|,|michigan	Marquette|,|Michigan	NNP|,|NNP	ORGANIZATION|O|LOCATION	||				Marquette|Michigan	fb:part.marquette|fb:part.michigan
+55	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+55	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d
+56	0	fb:cell.57	57	57	57	CD	NUMBER	57.0	57.0				
+56	1	fb:cell.round_valley_ensphere	Round Valley Ensphere	round|valley|ensphere	Round|Valley|Ensphere	NNP|NNP|NNP	O|O|O	||				Round Valley Ensphere	fb:part.round_valley_ensphere
+56	2	fb:cell.5_500	5,500	5,500	5,500	CD	NUMBER	5500.0	5500.0				
+56	3	fb:cell.eagar_arizona	Eagar, Arizona	eagar|,|arizona	Eagar|,|Arizona	NNP|,|NNP	LOCATION|O|LOCATION	||				Eagar|Arizona	fb:part.eagar|fb:part.arizona
+56	4	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|					
+56	5	fb:cell.d	D	d	d	NN	O					D	fb:part.d

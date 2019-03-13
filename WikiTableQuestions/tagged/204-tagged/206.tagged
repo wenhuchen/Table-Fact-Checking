@@ -1,0 +1,518 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.saros	Saros	saros	saro	NNS	PERSON						
+-1	1	fb:row.row.member	Member	member	Member	NNP	O						
+-1	2	fb:row.row.date	Date	date	date	NN	O						
+-1	3	fb:row.row.time_greatest_utc	Time\n(Greatest)\nUTC	time|-lrb-|greatest|-rrb-|utc	Time|-lrb-|Greatest|-rrb-|UTC	NNP|-LRB-|NNP|-RRB-|NNP	O|O|O|O|O	||||					
+-1	4	fb:row.row.type	Type	type	type	NN	O						
+-1	5	fb:row.row.location_lat_long	Location\nLat,Long	location|lat|,|long	Location|Lat|,|Long	NNP|NNP|,|NNP	O|O|O|O	|||					
+-1	6	fb:row.row.gamma	Gamma	gamma	gamma	NN	O						
+-1	7	fb:row.row.mag	Mag.	mag|.	mag|.	NN|.	O|O	|					
+-1	8	fb:row.row.width_km	Width\n(km)	width|-lrb-|km|-rrb-	width|-lrb-|km|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	9	fb:row.row.duration_min_sec	Duration\n(min:sec)	duration|-lrb-|min|:|sec|-rrb-	duration|-lrb-|min|:|sec|-rrb-	NN|-LRB-|NN|:|NN|-RRB-	O|O|DURATION|O|DURATION|O	|||||					
+-1	10	fb:row.row.ref	Ref	ref	ref	NN	O						
+0	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+0	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	2	fb:cell.may_13_2181	May 13, 2181	may|13|,|2181	May|13|,|2181	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	2181-05-13|2181-05-13|2181-05-13|2181-05-13	132181.0	2181-05-13		May 13|2181	fb:part.may_13|fb:part.2181
+0	3	fb:cell.14_55_43	14:55:43	14:55:43	14:55:43	CD	TIME	T14:55:43	14.0		55.0		
+0	4	fb:cell.partial	Partial	partial	partial	JJ	O						
+0	5	fb:cell.69_4s_16_9w	69.4S 16.9W	69.4|s|16.9|w	69.4|s|16.9|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	69.4||16.9|	69.4		16.9		
+0	6	fb:cell._1_5323	-1.5323	-1.5323	-1.5323	CD	NUMBER	-1.5323	1.5323				
+0	7	fb:cell.0_051	0.051	0.051	0.051	CD	NUMBER	0.051	0.051				
+0	8	fb:cell.null											
+0	9	fb:cell.null											
+0	10	fb:cell._1	[1]	-lsb-|1|-rsb-	-lsb-|1|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|1.0|	1.0				
+1	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+1	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	2	fb:cell.may_24_2199	May 24, 2199	may|24|,|2199	May|24|,|2199	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	2199-05-24|2199-05-24|2199-05-24|2199-05-24	242199.0	2199-05-24		May 24|2199	fb:part.may_24|fb:part.2199
+1	3	fb:cell.21_42_07	21:42:07	21:42:07	21:42:07	CD	TIME	T21:42:07	21.0		42.0		
+1	4	fb:cell.partial	Partial	partial	partial	JJ	O						
+1	5	fb:cell.68_5s_130_1w	68.5S 130.1W	68.5|s|130.1|w	68.5|s|130.1|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	68.5||130.1|	68.5		130.1		
+1	6	fb:cell._1_4596	-1.4596	-1.4596	-1.4596	CD	NUMBER	-1.4596	1.4596				
+1	7	fb:cell.0_1742	0.1742	0.1742	0.1742	CD	NUMBER	0.1742	0.1742				
+1	8	fb:cell.null											
+1	9	fb:cell.null											
+1	10	fb:cell._2	[2]	-lsb-|2|-rsb-	-lsb-|2|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|2.0|	2.0				
+2	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+2	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	2	fb:cell.june_5_2217	June 5, 2217	june|5|,|2217	June|5|,|2217	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2217-06-05|2217-06-05|2217-06-05|2217-06-05	52217.0	2217-06-05		June 5|2217	fb:part.june_5|fb:part.2217
+2	3	fb:cell.4_22_21	4:22:21	4:22:21	4:22:21	CD	TIME	T04:22:21	4.0		22.0		
+2	4	fb:cell.partial	Partial	partial	partial	JJ	O						
+2	5	fb:cell.67_5s_118_9e	67.5S 118.9E	67.5|s|118.9|e	67.5|s|118.9|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	67.5||118.9|	67.5		118.9		
+2	6	fb:cell._1_3807	-1.3807	-1.3807	-1.3807	CD	NUMBER	-1.3807	1.3807				
+2	7	fb:cell.0_3094	0.3094	0.3094	0.3094	CD	NUMBER	0.3094	0.3094				
+2	8	fb:cell.null											
+2	9	fb:cell.null											
+2	10	fb:cell._3	[3]	-lsb-|3|-rsb-	-lsb-|3|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|3.0|	3.0				
+3	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+3	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	2	fb:cell.june_16_2235	June 16, 2235	june|16|,|2235	June|16|,|2235	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2235-06-16|2235-06-16|2235-06-16|2235-06-16	162235.0	2235-06-16		June 16|2235	fb:part.june_16|fb:part.2235
+3	3	fb:cell.11_00_36	11:00:36	11:00:36	11:00:36	CD	TIME	T11:00:36	11.0		0.0		
+3	4	fb:cell.partial	Partial	partial	partial	JJ	O						
+3	5	fb:cell.66_5s_8_8e	66.5S 8.8E	66.5|s|8.8|e	66.5|s|8.8|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	66.5||8.8|	66.5		8.8		
+3	6	fb:cell._1_299	-1.299	-1.299	-1.299	CD	NUMBER	-1.299	1.299				
+3	7	fb:cell.0_4502	0.4502	0.4502	0.4502	CD	NUMBER	0.4502	0.4502				
+3	8	fb:cell.null											
+3	9	fb:cell.null											
+3	10	fb:cell._4	[4]	-lsb-|4|-rsb-	-lsb-|4|-rsb-	-LRB-|LS|-RRB-	O|NUMBER|O	|4.0|	4.0				
+4	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+4	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	2	fb:cell.june_26_2253	June 26, 2253	june|26|,|2253	June|26|,|2253	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2253-06-26|2253-06-26|2253-06-26|2253-06-26	262253.0	2253-06-26		June 26|2253	fb:part.june_26|fb:part.2253
+4	3	fb:cell.17_36_11	17:36:11	17:36:11	17:36:11	CD	TIME	T17:36:11	17.0		36.0		
+4	4	fb:cell.partial	Partial	partial	partial	JJ	O						
+4	5	fb:cell.65_5s_100_1w	65.5S 100.1W	65.5|s|100.1|w	65.5|s|100.1|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	65.5||100.1|	65.5		100.1		
+4	6	fb:cell._1_2139	-1.2139	-1.2139	-1.2139	CD	NUMBER	-1.2139	1.2139				
+4	7	fb:cell.0_5981	0.5981	0.5981	0.5981	CD	NUMBER	0.5981	0.5981				
+4	8	fb:cell.null											
+4	9	fb:cell.null											
+4	10	fb:cell._5	[5]	-lsb-|5|-rsb-	-lsb-|5|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|5.0|	5.0				
+5	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+5	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	2	fb:cell.july_8_2271	July 8, 2271	july|8|,|2271	July|8|,|2271	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2271-07-08|2271-07-08|2271-07-08|2271-07-08	82271.0	2271-07-08		July 8|2271	fb:part.july_8|fb:part.2271
+5	3	fb:cell.0_13_02	0:13:02	0:13:02	0:13:02	NN	TIME	T00:13:02	0.0		13.0		
+5	4	fb:cell.partial	Partial	partial	partial	JJ	O						
+5	5	fb:cell.64_5s_151_1e	64.5S 151.1E	64.5|s|151.1|e	64.5|s|151.1|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	64.5||151.1|	64.5		151.1		
+5	6	fb:cell._1_1284	-1.1284	-1.1284	-1.1284	CD	NUMBER	-1.1284	1.1284				
+5	7	fb:cell.0_7474	0.7474	0.7474	0.7474	CD	NUMBER	0.7474	0.7474				
+5	8	fb:cell.null											
+5	9	fb:cell.null											
+5	10	fb:cell._6	[6]	-lsb-|6|-rsb-	-lsb-|6|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|6.0|	6.0				
+6	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+6	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	2	fb:cell.july_18_2289	July 18, 2289	july|18|,|2289	July|18|,|2289	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2289-07-18|2289-07-18|2289-07-18|2289-07-18	182289.0	2289-07-18		July 18|2289	fb:part.july_18|fb:part.2289
+6	3	fb:cell.6_50_58	6:50:58	6:50:58	6:50:58	CD	TIME	T06:50:58	6.0		50.0		
+6	4	fb:cell.partial	Partial	partial	partial	JJ	O						
+6	5	fb:cell.63_6s_42_3e	63.6S 42.3E	63.6|s|42.3|e	63.6|s|42.3|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	63.6||42.3|	63.6		42.3		
+6	6	fb:cell._1_0426	-1.0426	-1.0426	-1.0426	CD	NUMBER	-1.0426	1.0426				
+6	7	fb:cell.0_898	0.898	0.898	0.898	CD	NUMBER	0.898	0.898				
+6	8	fb:cell.null											
+6	9	fb:cell.null											
+6	10	fb:cell._7	[7]	-lsb-|7|-rsb-	-lsb-|7|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|7.0|	7.0				
+7	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+7	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	2	fb:cell.july_30_2307	July 30, 2307	july|30|,|2307	July|30|,|2307	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2307-07-30|2307-07-30|2307-07-30|2307-07-30	302307.0	2307-07-30		July 30|2307	fb:part.july_30|fb:part.2307
+7	3	fb:cell.13_31_16	13:31:16	13:31:16	13:31:16	CD	TIME	T13:31:16	13.0		31.0		
+7	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+7	5	fb:cell.50s_48_7w	50S 48.7W	50s|48.7|w	50s|48.7|w	CD|CD|NN	NUMBER|NUMBER|O	48.7|48.7|	50.0		48.7		
+7	6	fb:cell._0_9574	-0.9574	-0.9574	-0.9574	CD	NUMBER	-0.9574	0.9574				
+7	7	fb:cell.0_9602	0.9602	0.9602	0.9602	CD	NUMBER	0.9602	0.9602				
+7	8	fb:cell.501	501	501	501	CD	NUMBER	501.0	501.0				
+7	9	fb:cell.3m_37s	3m 37s	3m|37s	3m|37	NN|NNS	O|O	|	3.0		37.0		
+7	10	fb:cell._8	[8]	-lsb-|8|-rsb-	-lsb-|8|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|8.0|	8.0				
+8	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+8	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	2	fb:cell.august_9_2325	August 9, 2325	august|9|,|2325	August|9|,|2325	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2325-08-09|2325-08-09|2325-08-09|2325-08-09	92325.0	2325-08-09		August 9|2325	fb:part.august_9|fb:part.2325
+8	3	fb:cell.20_16_24	20:16:24	20:16:24	20:16:24	CD	TIME	T20:16:24	20.0		16.0		
+8	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+8	5	fb:cell.40_3s_146_1w	40.3S 146.1W	40.3|s|146.1|w	40.3|s|146.1|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	40.3||146.1|	40.3		146.1		
+8	6	fb:cell._0_8749	-0.8749	-0.8749	-0.8749	CD	NUMBER	-0.8749	0.8749				
+8	7	fb:cell.0_9648	0.9648	0.9648	0.9648	CD	NUMBER	0.9648	0.9648				
+8	8	fb:cell.256	256	256	256	CD	NUMBER	256.0	256.0				
+8	9	fb:cell.3m_24s	3m 24s	3m|24s	3m|24	NN|NNS	O|O	|	3.0		24.0		
+8	10	fb:cell._9	[9]	-lsb-|9|-rsb-	-lsb-|9|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|9.0|	9.0				
+9	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+9	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	2	fb:cell.august_21_2343	August 21, 2343	august|21|,|2343	August|21|,|2343	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2343-08-21|2343-08-21|2343-08-21|2343-08-21	212343.0	2343-08-21		August 21|2343	fb:part.august_21|fb:part.2343
+9	3	fb:cell.3_07_05	3:07:05	3:07:05	3:07:05	CD	TIME	T03:07:05	3.0		7.0		
+9	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+9	5	fb:cell.35_1s_112_8e	35.1S 112.8E	35.1|s|112.8|e	35.1|s|112.8|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	35.1||112.8|	35.1		112.8		
+9	6	fb:cell._0_7957	-0.7957	-0.7957	-0.7957	CD	NUMBER	-0.7957	0.7957				
+9	7	fb:cell.0_9679	0.9679	0.9679	0.9679	CD	NUMBER	0.9679	0.9679				
+9	8	fb:cell.186	186	186	186	CD	NUMBER	186.0	186.0				
+9	9	fb:cell.3m_9s	3m 9s	3m|9s	3m|9	NN|NNS	O|O	|	3.0		9.0		
+9	10	fb:cell._10	[10]	-lsb-|10|-rsb-	-lsb-|10|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|10.0|	10.0				
+10	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+10	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	2	fb:cell.august_31_2361	August 31, 2361	august|31|,|2361	August|31|,|2361	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2361-08-31|2361-08-31|2361-08-31|2361-08-31	312361.0	2361-08-31		August 31|2361	fb:part.august_31|fb:part.2361
+10	3	fb:cell.10_04_30	10:04:30	10:04:30	10:04:30	CD	TIME	T10:04:30	10.0		4.0		
+10	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+10	5	fb:cell.32_2s_9_7e	32.2S 9.7E	32.2|s|9.7|e	32.2|s|9.7|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	32.2||9.7|	32.2		9.7		
+10	6	fb:cell._0_7211	-0.7211	-0.7211	-0.7211	CD	NUMBER	-0.7211	0.7211				
+10	7	fb:cell.0_9701	0.9701	0.9701	0.9701	CD	NUMBER	0.9701	0.9701				
+10	8	fb:cell.151	151	151	151	CD	NUMBER	151.0	151.0				
+10	9	fb:cell.2m_54s	2m 54s	2m|54s	2m|54	NN|NNS	O|O	|	2.0		54.0		
+10	10	fb:cell._11	[11]	-lsb-|11|-rsb-	-lsb-|11|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|11.0|	11.0				
+11	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+11	1	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	2	fb:cell.september_11_2379	September 11, 2379	september|11|,|2379	September|11|,|2379	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2379-09-11|2379-09-11|2379-09-11|2379-09-11	112379.0	2379-09-11		September 11|2379	fb:part.september_11|fb:part.2379
+11	3	fb:cell.17_09_32	17:09:32	17:09:32	17:09:32	CD	TIME	T17:09:32	17.0		9.0		
+11	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+11	5	fb:cell.30_9s_95_4w	30.9S 95.4W	30.9|s|95.4|w	30.9|s|95.4|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	30.9||95.4|	30.9		95.4		
+11	6	fb:cell._0_6518	-0.6518	-0.6518	-0.6518	CD	NUMBER	-0.6518	0.6518				
+11	7	fb:cell.0_9717	0.9717	0.9717	0.9717	CD	NUMBER	0.9717	0.9717				
+11	8	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0				
+11	9	fb:cell.2m_42s	2m 42s	2m|42s	2m|42	NN|NNS	O|O	|	2.0		42.0		
+11	10	fb:cell._12	[12]	-lsb-|12|-rsb-	-lsb-|12|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|12.0|	12.0				
+12	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+12	1	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	2	fb:cell.september_22_2397	September 22, 2397	september|22|,|2397	September|22|,|2397	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2397-09-22|2397-09-22|2397-09-22|2397-09-22	222397.0	2397-09-22		September 22|2397	fb:part.september_22|fb:part.2397
+12	3	fb:cell.0_23_55	0:23:55	0:23:55	0:23:55	CD	TIME	T00:23:55	0.0		23.0		
+12	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+12	5	fb:cell.30_9s_157_2e	30.9S 157.2E	30.9|s|157.2|e	30.9|s|157.2|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	30.9||157.2|	30.9		157.2		
+12	6	fb:cell._0_5892	-0.5892	-0.5892	-0.5892	CD	NUMBER	-0.5892	0.5892				
+12	7	fb:cell.0_9728	0.9728	0.9728	0.9728	CD	NUMBER	0.9728	0.9728				
+12	8	fb:cell.118	118	118	118	CD	NUMBER	118.0	118.0				
+12	9	fb:cell.2m_34s	2m 34s	2m|34s	2m|34	NN|NNS	O|O	|	2.0		34.0		
+12	10	fb:cell._13	[13]	-lsb-|13|-rsb-	-lsb-|13|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|13.0|	13.0				
+13	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+13	1	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	2	fb:cell.october_3_2415	October 3, 2415	october|3|,|2415	October|3|,|2415	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2415-10-03|2415-10-03|2415-10-03|2415-10-03	32415.0	2415-10-03		October 3|2415	fb:part.october_3|fb:part.2415
+13	3	fb:cell.7_47_48	7:47:48	7:47:48	7:47:48	CD	TIME	T07:47:48	7.0		47.0		
+13	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+13	5	fb:cell.31_8s_47_4e	31.8S 47.4E	31.8|s|47.4|e	31.8|s|47.4|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	31.8||47.4|	31.8		47.4		
+13	6	fb:cell._0_5335	-0.5335	-0.5335	-0.5335	CD	NUMBER	-0.5335	0.5335				
+13	7	fb:cell.0_9736	0.9736	0.9736	0.9736	CD	NUMBER	0.9736	0.9736				
+13	8	fb:cell.110	110	110	110	CD	NUMBER	110.0	110.0				
+13	9	fb:cell.2m_27s	2m 27s	2m|27s	2m|27	NN|NNS	O|O	|	2.0		27.0		
+13	10	fb:cell._14	[14]	-lsb-|14|-rsb-	-lsb-|14|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|14.0|	14.0				
+14	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+14	1	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	2	fb:cell.october_13_2433	October 13, 2433	october|13|,|2433	October|13|,|2433	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2433-10-13|2433-10-13|2433-10-13|2433-10-13	132433.0	2433-10-13		October 13|2433	fb:part.october_13|fb:part.2433
+14	3	fb:cell.15_20_16	15:20:16	15:20:16	15:20:16	CD	TIME	T15:20:16	15.0		20.0		
+14	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+14	5	fb:cell.33_4s_64_2w	33.4S 64.2W	33.4|s|64.2|w	33.4|s|64.2|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	33.4||64.2|	33.4		64.2		
+14	6	fb:cell._0_484	-0.484	-0.484	-0.484	NN	NUMBER	-0.484	0.484				
+14	7	fb:cell.0_9742	0.9742	0.9742	0.9742	CD	NUMBER	0.9742	0.9742				
+14	8	fb:cell.104	104	104	104	CD	NUMBER	104.0	104.0				
+14	9	fb:cell.2m_23s	2m 23s	2m|23s	2m|23	NN|NNS	O|O	|	2.0		23.0		
+14	10	fb:cell._15	[15]	-lsb-|15|-rsb-	-lsb-|15|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|15.0|	15.0				
+15	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+15	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	2	fb:cell.october_24_2451	October 24, 2451	october|24|,|2451	October|24|,|2451	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2451-10-24|2451-10-24|2451-10-24|2451-10-24	242451.0	2451-10-24		October 24|2451	fb:part.october_24|fb:part.2451
+15	3	fb:cell.23_03_09	23:03:09	23:03:09	23:03:09	CD	TIME	T23:03:09	23.0		3.0		
+15	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+15	5	fb:cell.35_3s_178_3w	35.3S 178.3W	35.3|s|178.3|w	35.3|s|178.3|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	35.3||178.3|	35.3		178.3		
+15	6	fb:cell._0_4424	-0.4424	-0.4424	-0.4424	CD	NUMBER	-0.4424	0.4424				
+15	7	fb:cell.0_9746	0.9746	0.9746	0.9746	CD	NUMBER	0.9746	0.9746				
+15	8	fb:cell.101	101	101	101	CD	NUMBER	101.0	101.0				
+15	9	fb:cell.2m_21s	2m 21s	2m|21s	2m|21	NN|NNS	O|O	|	2.0		21.0		
+15	10	fb:cell._16	[16]	-lsb-|16|-rsb-	-lsb-|16|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|16.0|	16.0				
+16	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+16	1	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	2	fb:cell.november_4_2469	November 4, 2469	november|4|,|2469	November|4|,|2469	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2469-11-04|2469-11-04|2469-11-04|2469-11-04	42469.0	2469-11-04		November 4|2469	fb:part.november_4|fb:part.2469
+16	3	fb:cell.6_55_37	6:55:37	6:55:37	6:55:37	CD	TIME	T06:55:37	6.0		55.0		
+16	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+16	5	fb:cell.37_5s_65_7e	37.5S 65.7E	37.5|s|65.7|e	37.5|s|65.7|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	37.5||65.7|	37.5		65.7		
+16	6	fb:cell._0_4081	-0.4081	-0.4081	-0.4081	CD	NUMBER	-0.4081	0.4081				
+16	7	fb:cell.0_975	0.975	0.975	0.975	CD	NUMBER	0.975	0.975				
+16	8	fb:cell.97	97	97	97	CD	NUMBER	97.0	97.0				
+16	9	fb:cell.2m_19s	2m 19s	2m|19s	2m|19	NN|NNS	O|O	|	2.0		19.0		
+16	10	fb:cell._17	[17]	-lsb-|17|-rsb-	-lsb-|17|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|17.0|	17.0				
+17	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+17	1	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	2	fb:cell.november_15_2487	November 15, 2487	november|15|,|2487	November|15|,|2487	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2487-11-15|2487-11-15|2487-11-15|2487-11-15	152487.0	2487-11-15		November 15|2487	fb:part.november_15|fb:part.2487
+17	3	fb:cell.14_57_35	14:57:35	14:57:35	14:57:35	CD	TIME	T14:57:35	14.0		57.0		
+17	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+17	5	fb:cell.39_5s_52_3w	39.5S 52.3W	39.5|s|52.3|w	39.5|s|52.3|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	39.5||52.3|	39.5		52.3		
+17	6	fb:cell._0_3807	-0.3807	-0.3807	-0.3807	CD	NUMBER	-0.3807	0.3807				
+17	7	fb:cell.0_9756	0.9756	0.9756	0.9756	CD	NUMBER	0.9756	0.9756				
+17	8	fb:cell.94	94	94	94	CD	NUMBER	94.0	94.0				
+17	9	fb:cell.2m_16s	2m 16s	2m|16s	2m|16	NN|NNS	O|O	|	2.0		16.0		
+17	10	fb:cell._18	[18]	-lsb-|18|-rsb-	-lsb-|18|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|18.0|	18.0				
+18	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+18	1	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	2	fb:cell.november_26_2505	November 26, 2505	november|26|,|2505	November|26|,|2505	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2505-11-26|2505-11-26|2505-11-26|2505-11-26	262505.0	2505-11-26		November 26|2505	fb:part.november_26|fb:part.2505
+18	3	fb:cell.23_07_04	23:07:04	23:07:04	23:07:04	CD	TIME	T23:07:04	23.0		7.0		
+18	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+18	5	fb:cell.41_2s_171_6w	41.2S 171.6W	41.2|s|171.6|w	41.2|s|171.6|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	41.2||171.6|	41.2		171.6		
+18	6	fb:cell._0_3588	-0.3588	-0.3588	-0.3588	CD	NUMBER	-0.3588	0.3588				
+18	7	fb:cell.0_9763	0.9763	0.9763	0.9763	CD	NUMBER	0.9763	0.9763				
+18	8	fb:cell.91	91	91	91	CD	NUMBER	91.0	91.0				
+18	9	fb:cell.2m_13s	2m 13s	2m|13s	2m|13	NN|NNS	O|O	|	2.0		13.0		
+18	10	fb:cell._19	[19]	-lsb-|19|-rsb-	-lsb-|19|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|19.0|	19.0				
+19	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+19	1	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	2	fb:cell.december_8_2523	December 8, 2523	december|8|,|2523	December|8|,|2523	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2523-12-08|2523-12-08|2523-12-08|2523-12-08	82523.0	2523-12-08		December 8|2523	fb:part.december_8|fb:part.2523
+19	3	fb:cell.7_24_54	7:24:54	7:24:54	7:24:54	CD	TIME	T07:24:54	7.0		24.0		
+19	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+19	5	fb:cell.42_4s_67_5e	42.4S 67.5E	42.4|s|67.5|e	42.4|s|67.5|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	42.4||67.5|	42.4		67.5		
+19	6	fb:cell._0_3431	-0.3431	-0.3431	-0.3431	CD	NUMBER	-0.3431	0.3431				
+19	7	fb:cell.0_9774	0.9774	0.9774	0.9774	CD	NUMBER	0.9774	0.9774				
+19	8	fb:cell.86	86	86	86	CD	NUMBER	86.0	86.0				
+19	9	fb:cell.2m_8s	2m 8s	2m|8s	2m|8	NN|NNS	O|O	|	2.0		8.0		
+19	10	fb:cell._20	[20]	-lsb-|20|-rsb-	-lsb-|20|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|20.0|	20.0				
+20	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+20	1	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	2	fb:cell.december_18_2541	December 18, 2541	december|18|,|2541	December|18|,|2541	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2541-12-18|2541-12-18|2541-12-18|2541-12-18	182541.0	2541-12-18		December 18|2541	fb:part.december_18|fb:part.2541
+20	3	fb:cell.15_48_55	15:48:55	15:48:55	15:48:55	CD	TIME	T15:48:55	15.0		48.0		
+20	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+20	5	fb:cell.42_8s_54_7w	42.8S 54.7W	42.8|s|54.7|w	42.8|s|54.7|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	42.8||54.7|	42.8		54.7		
+20	6	fb:cell._0_3319	-0.3319	-0.3319	-0.3319	CD	NUMBER	-0.3319	0.3319				
+20	7	fb:cell.0_9788	0.9788	0.9788	0.9788	CD	NUMBER	0.9788	0.9788				
+20	8	fb:cell.80	80	80	80	CD	NUMBER	80.0	80.0				
+20	9	fb:cell.2m_1s	2m 1s	2m|1s	2m|1	NN|NNS	O|O	|	2.0		1.0		
+20	10	fb:cell._21	[21]	-lsb-|21|-rsb-	-lsb-|21|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|21.0|	21.0				
+21	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+21	1	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+21	2	fb:cell.december_30_2559	December 30, 2559	december|30|,|2559	December|30|,|2559	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2559-12-30|2559-12-30|2559-12-30|2559-12-30	302559.0	2559-12-30		December 30|2559	fb:part.december_30|fb:part.2559
+21	3	fb:cell.0_17_19	0:17:19	0:17:19	0:17:19	CD	TIME	T00:17:19	0.0		17.0		
+21	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+21	5	fb:cell.42_2s_177_9w	42.2S 177.9W	42.2|s|177.9|w	42.2|s|177.9|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	42.2||177.9|	42.2		177.9		
+21	6	fb:cell._0_3237	-0.3237	-0.3237	-0.3237	CD	NUMBER	-0.3237	0.3237				
+21	7	fb:cell.0_9808	0.9808	0.9808	0.9808	CD	NUMBER	0.9808	0.9808				
+21	8	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+21	9	fb:cell.1m_50s	1m 50s	1m|50s	1m|50s	NN|CD	O|NUMBER	|50.0	1.0		50.0		
+21	10	fb:cell._22	[22]	-lsb-|22|-rsb-	-lsb-|22|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|22.0|	22.0				
+22	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+22	1	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	2	fb:cell.january_9_2578	January 9, 2578	january|9|,|2578	January|9|,|2578	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2578-01-09|2578-01-09|2578-01-09|2578-01-09	92578.0	2578-01-09		January 9|2578	fb:part.january_9|fb:part.2578
+22	3	fb:cell.8_49_00	8:49:00	8:49:00	8:49:00	CD	TIME	T08:49:00	8.0		49.0		
+22	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+22	5	fb:cell.40_7s_57_7e	40.7S 57.7E	40.7|s|57.7|e	40.7|s|57.7|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	40.7||57.7|	40.7		57.7		
+22	6	fb:cell._0_3176	-0.3176	-0.3176	-0.3176	CD	NUMBER	-0.3176	0.3176				
+22	7	fb:cell.0_9831	0.9831	0.9831	0.9831	CD	NUMBER	0.9831	0.9831				
+22	8	fb:cell.63	63	63	63	CD	NUMBER	63.0	63.0				
+22	9	fb:cell.1m_37s	1m 37s	1m|37s	1m|37	NN|NNS	O|O	|	1.0		37.0		
+22	10	fb:cell._23	[23]	-lsb-|23|-rsb-	-lsb-|23|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|23.0|	23.0				
+23	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+23	1	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+23	2	fb:cell.january_20_2596	January 20, 2596	january|20|,|2596	January|20|,|2596	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2596-01-20|2596-01-20|2596-01-20|2596-01-20	202596.0	2596-01-20		January 20|2596	fb:part.january_20|fb:part.2596
+23	3	fb:cell.17_22_01	17:22:01	17:22:01	17:22:01	CD	TIME	T17:22:01	17.0		22.0		
+23	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+23	5	fb:cell.38_3s_67_6w	38.3S 67.6W	38.3|s|67.6|w	38.3|s|67.6|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	38.3||67.6|	38.3		67.6		
+23	6	fb:cell._0_3119	-0.3119	-0.3119	-0.3119	CD	NUMBER	-0.3119	0.3119				
+23	7	fb:cell.0_9862	0.9862	0.9862	0.9862	CD	NUMBER	0.9862	0.9862				
+23	8	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+23	9	fb:cell.1m_20s	1m 20s	1m|20s	1m|20s	NN|CD	O|NUMBER	|20.0	1.0		20.0		
+23	10	fb:cell._24	[24]	-lsb-|24|-rsb-	-lsb-|24|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|24.0|	24.0				
+24	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+24	1	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+24	2	fb:cell.february_1_2614	February 1, 2614	february|1|,|2614	February|1|,|2614	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2614-02-01|2614-02-01|2614-02-01|2614-02-01	12614.0	2614-02-01		February 1|2614	fb:part.february_1|fb:part.2614
+24	3	fb:cell.1_55_16	1:55:16	1:55:16	1:55:16	CD	TIME	T01:55:16	1.0		55.0		
+24	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+24	5	fb:cell.35s_166_3e	35S 166.3E	35s|166.3|e	35|166.3|e	NN|CD|NN	O|NUMBER|O	|166.3|	35.0		166.3		
+24	6	fb:cell._0_3058	-0.3058	-0.3058	-0.3058	CD	NUMBER	-0.3058	0.3058				
+24	7	fb:cell.0_9897	0.9897	0.9897	0.9897	CD	NUMBER	0.9897	0.9897				
+24	8	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+24	9	fb:cell.1m_0s	1m 0s	1m|0s	1m|0	NN|NNS	O|O	|	1.0		0.0		
+24	10	fb:cell._25	[25]	-lsb-|25|-rsb-	-lsb-|25|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|25.0|	25.0				
+25	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+25	1	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+25	2	fb:cell.february_12_2632	February 12, 2632	february|12|,|2632	February|12|,|2632	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2632-02-12|2632-02-12|2632-02-12|2632-02-12	122632.0	2632-02-12		February 12|2632	fb:part.february_12|fb:part.2632
+25	3	fb:cell.10_25_37	10:25:37	10:25:37	10:25:37	CD	TIME	T10:25:37	10.0		25.0		
+25	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+25	5	fb:cell.30_9s_40_1e	30.9S 40.1E	30.9|s|40.1|e	30.9|s|40.1|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	30.9||40.1|	30.9		40.1		
+25	6	fb:cell._0_2969	-0.2969	-0.2969	-0.2969	CD	NUMBER	-0.2969	0.2969				
+25	7	fb:cell.0_9938	0.9938	0.9938	0.9938	CD	NUMBER	0.9938	0.9938				
+25	8	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+25	9	fb:cell.0m_36s	0m 36s	0m|36s	0m|36	NN|NNS	O|O	|	0.0		36.0		
+25	10	fb:cell._26	[26]	-lsb-|26|-rsb-	-lsb-|26|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|26.0|	26.0				
+26	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+26	1	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+26	2	fb:cell.february_22_2650	February 22, 2650	february|22|,|2650	February|22|,|2650	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2650-02-22|2650-02-22|2650-02-22|2650-02-22	222650.0	2650-02-22		February 22|2650	fb:part.february_22|fb:part.2650
+26	3	fb:cell.18_53_59	18:53:59	18:53:59	18:53:59	CD	TIME	T18:53:59	18.0		53.0		
+26	4	fb:cell.annular	Annular	annular	annular	JJ	O						
+26	5	fb:cell.26_2s_86_4w	26.2S 86.4W	26.2|s|86.4|w	26.2|s|86.4|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	26.2||86.4|	26.2		86.4		
+26	6	fb:cell._0_2856	-0.2856	-0.2856	-0.2856	CD	NUMBER	-0.2856	0.2856				
+26	7	fb:cell.0_9984	0.9984	0.9984	0.9984	NN	NUMBER	0.9984	0.9984				
+26	8	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+26	9	fb:cell.0m_9s	0m 9s	0m|9s	0m|9	NN|NNS	O|O	|	0.0		9.0		
+26	10	fb:cell._27	[27]	-lsb-|27|-rsb-	-lsb-|27|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|27.0|	27.0				
+27	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+27	1	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+27	2	fb:cell.march_5_2668	March 5, 2668	march|5|,|2668	March|5|,|2668	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2668-03-05|2668-03-05|2668-03-05|2668-03-05	52668.0	2668-03-05		March 5|2668	fb:part.march_5|fb:part.2668
+27	3	fb:cell.3_17_08	3:17:08	3:17:08	3:17:08	CD	TIME	T03:17:08	3.0		17.0		
+27	4	fb:cell.hybrid	Hybrid	hybrid	hybrid	NN	O						
+27	5	fb:cell.21s_147_7e	21S 147.7E	21s|147.7|e	21s|147.7|e	CD|CD|NN	NUMBER|NUMBER|O	147.7|147.7|	21.0		147.7		
+27	6	fb:cell._0_2697	-0.2697	-0.2697	-0.2697	CD	NUMBER	-0.2697	0.2697				
+27	7	fb:cell.1_0035	1.0035	1.0035	1.0035	CD	NUMBER	1.0035	1.0035				
+27	8	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+27	9	fb:cell.0m_21s	0m 21s	0m|21s	0m|21	NN|NNS	O|O	|	0.0		21.0		
+27	10	fb:cell._28	[28]	-lsb-|28|-rsb-	-lsb-|28|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|28.0|	28.0				
+28	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+28	1	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+28	2	fb:cell.march_16_2686	March 16, 2686	march|16|,|2686	March|16|,|2686	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2686-03-16|2686-03-16|2686-03-16|2686-03-16	162686.0	2686-03-16		March 16|2686	fb:part.march_16|fb:part.2686
+28	3	fb:cell.11_34_58	11:34:58	11:34:58	11:34:58	CD	TIME	T11:34:58	11.0		34.0		
+28	4	fb:cell.hybrid	Hybrid	hybrid	hybrid	NN	O						
+28	5	fb:cell.15_4s_22_6e	15.4S 22.6E	15.4|s|22.6|e	15.4|s|22.6|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	15.4||22.6|	15.4		22.6		
+28	6	fb:cell._0_2486	-0.2486	-0.2486	-0.2486	CD	NUMBER	-0.2486	0.2486				
+28	7	fb:cell.1_009	1.009	1.009	1.009	CD	NUMBER	1.009	1.009				
+28	8	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+28	9	fb:cell.0m_54s	0m 54s	0m|54s	0m|54	NN|NNS	O|O	|	0.0		54.0		
+28	10	fb:cell._29	[29]	-lsb-|29|-rsb-	-lsb-|29|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|29.0|	29.0				
+29	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+29	1	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	2	fb:cell.march_27_2704	March 27, 2704	march|27|,|2704	March|27|,|2704	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2704-03-27|2704-03-27|2704-03-27|2704-03-27	272704.0	2704-03-27		March 27|2704	fb:part.march_27|fb:part.2704
+29	3	fb:cell.19_45_56	19:45:56	19:45:56	19:45:56	CD	TIME	T19:45:56	19.0		45.0		
+29	4	fb:cell.hybrid	Hybrid	hybrid	hybrid	NN	O						
+29	5	fb:cell.9_5s_101_1w	9.5S 101.1W	9.5|s|101.1|w	9.5|s|101.1|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	9.5||101.1|	9.5		101.1		
+29	6	fb:cell._0_2211	-0.2211	-0.2211	-0.2211	CD	NUMBER	-0.2211	0.2211				
+29	7	fb:cell.1_0148	1.0148	1.0148	1.0148	CD	NUMBER	1.0148	1.0148				
+29	8	fb:cell.52	52	52	52	CD	NUMBER	52.0	52.0				
+29	9	fb:cell.1m_29s	1m 29s	1m|29s	1m|29	NN|NNS	O|O	|	1.0		29.0		
+29	10	fb:cell._30	[30]	-lsb-|30|-rsb-	-lsb-|30|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|30.0|	30.0				
+30	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+30	1	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+30	2	fb:cell.april_8_2722	April 8, 2722	april|8|,|2722	April|8|,|2722	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2722-04-08|2722-04-08|2722-04-08|2722-04-08	82722.0	2722-04-08		April 8|2722	fb:part.april_8|fb:part.2722
+30	3	fb:cell.3_51_03	3:51:03	3:51:03	3:51:03	CD	TIME	T03:51:03	3.0		51.0		
+30	4	fb:cell.total	Total	total	total	JJ	O						
+30	5	fb:cell.3_5s_136_6e	3.5S 136.6E	3.5|s|136.6|e	3.5|s|136.6|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	3.5||136.6|	3.5		136.6		
+30	6	fb:cell._0_1881	-0.1881	-0.1881	-0.1881	CD	NUMBER	-0.1881	0.1881				
+30	7	fb:cell.1_0208	1.0208	1.0208	1.0208	CD	NUMBER	1.0208	1.0208				
+30	8	fb:cell.72	72	72	72	CD	NUMBER	72.0	72.0				
+30	9	fb:cell.2m_6s	2m 6s	2m|6s	2m|6	NN|NNS	O|O	|	2.0		6.0		
+30	10	fb:cell._31	[31]	-lsb-|31|-rsb-	-lsb-|31|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|31.0|	31.0				
+31	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+31	1	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+31	2	fb:cell.april_18_2740	April 18, 2740	april|18|,|2740	April|18|,|2740	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2740-04-18|2740-04-18|2740-04-18|2740-04-18	182740.0	2740-04-18		April 18|2740	fb:part.april_18|fb:part.2740
+31	3	fb:cell.11_49_23	11:49:23	11:49:23	11:49:23	CD	TIME	T11:49:23	11.0		49.0		
+31	4	fb:cell.total	Total	total	total	JJ	O						
+31	5	fb:cell.2_7n_15_9e	2.7N 15.9E	2.7|n|15.9|e	2.7|n|15.9|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	2.7||15.9|	2.7		15.9		
+31	6	fb:cell._0_1487	-0.1487	-0.1487	-0.1487	CD	NUMBER	-0.1487	0.1487				
+31	7	fb:cell.1_0268	1.0268	1.0268	1.0268	CD	NUMBER	1.0268	1.0268				
+31	8	fb:cell.92	92	92	92	CD	NUMBER	92.0	92.0				
+31	9	fb:cell.2m_43s	2m 43s	2m|43s	2m|43	NN|NNS	O|O	|	2.0		43.0		
+31	10	fb:cell._32	[32]	-lsb-|32|-rsb-	-lsb-|32|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|32.0|	32.0				
+32	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+32	1	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+32	2	fb:cell.april_29_2758	April 29, 2758	april|29|,|2758	April|29|,|2758	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2758-04-29|2758-04-29|2758-04-29|2758-04-29	292758.0	2758-04-29		April 29|2758	fb:part.april_29|fb:part.2758
+32	3	fb:cell.19_40_31	19:40:31	19:40:31	19:40:31	CD	TIME	T19:40:31	19.0		40.0		
+32	4	fb:cell.total	Total	total	total	JJ	O						
+32	5	fb:cell.8_9n_102_7w	8.9N 102.7W	8.9|n|102.7|w	8.9|n|102.7|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	8.9||102.7|	8.9		102.7		
+32	6	fb:cell._0_1026	-0.1026	-0.1026	-0.1026	CD	NUMBER	-0.1026	0.1026				
+32	7	fb:cell.1_0328	1.0328	1.0328	1.0328	CD	NUMBER	1.0328	1.0328				
+32	8	fb:cell.111	111	111	111	CD	NUMBER	111.0	111.0				
+32	9	fb:cell.3m_18s	3m 18s	3m|18s	3m|18	NN|NNS	O|O	|	3.0		18.0		
+32	10	fb:cell._33	[33]	-lsb-|33|-rsb-	-lsb-|33|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|33.0|	33.0				
+33	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+33	1	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+33	2	fb:cell.may_10_2776	May 10, 2776	may|10|,|2776	May|10|,|2776	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	2776-05-10|2776-05-10|2776-05-10|2776-05-10	102776.0	2776-05-10		May 10|2776	fb:part.may_10|fb:part.2776
+33	3	fb:cell.3_25_50	3:25:50	3:25:50	3:25:50	CD	TIME	T03:25:50	3.0		25.0		
+33	4	fb:cell.total	Total	total	total	JJ	O						
+33	5	fb:cell.14_9n_140_5e	14.9N 140.5E	14.9|n|140.5|e	14.9|n|140.5|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	14.9||140.5|	14.9		140.5		
+33	6	fb:cell._0_0507	-0.0507	-0.0507	-0.0507	CD	NUMBER	-0.0507	0.0507				
+33	7	fb:cell.1_0386	1.0386	1.0386	1.0386	CD	NUMBER	1.0386	1.0386				
+33	8	fb:cell.130	130	130	130	CD	NUMBER	130.0	130.0				
+33	9	fb:cell.3m_50s	3m 50s	3m|50s	3m|50s	NN|CD	O|NUMBER	|50.0	3.0		50.0		
+33	10	fb:cell._34	[34]	-lsb-|34|-rsb-	-lsb-|34|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|34.0|	34.0				
+34	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+34	1	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+34	2	fb:cell.may_21_2794	May 21, 2794	may|21|,|2794	May|21|,|2794	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	2794-05-21|2794-05-21|2794-05-21|2794-05-21	212794.0	2794-05-21		May 21|2794	fb:part.may_21|fb:part.2794
+34	3	fb:cell.11_05_18	11:05:18	11:05:18	11:05:18	CD	TIME	T11:05:18	11.0		5.0		
+34	4	fb:cell.total	Total	total	total	JJ	O						
+34	5	fb:cell.20_7n_25_6e	20.7N 25.6E	20.7|n|25.6|e	20.7|n|25.6|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	20.7||25.6|	20.7		25.6		
+34	6	fb:cell.0_007	0.007	0.007	0.007	CD	NUMBER	0.007	0.007				
+34	7	fb:cell.1_0441	1.0441	1.0441	1.0441	CD	NUMBER	1.0441	1.0441				
+34	8	fb:cell.147	147	147	147	CD	NUMBER	147.0	147.0				
+34	9	fb:cell.4m_16s	4m 16s	4m|16s	4m|16	NN|NNS	O|O	|	4.0		16.0		
+34	10	fb:cell._35	[35]	-lsb-|35|-rsb-	-lsb-|35|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|35.0|	35.0				
+35	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+35	1	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+35	2	fb:cell.may_31_2812	May 31, 2812	may|31|,|2812	May|31|,|2812	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	2812-05-31|2812-05-31|2812-05-31|2812-05-31	312812.0	2812-05-31		May 31|2812	fb:part.may_31|fb:part.2812
+35	3	fb:cell.18_39_58	18:39:58	18:39:58	18:39:58	CD	TIME	T18:39:58	18.0		39.0		
+35	4	fb:cell.total	Total	total	total	JJ	O						
+35	5	fb:cell.26_2n_87_3w	26.2N 87.3W	26.2|n|87.3|w	26.2|n|87.3|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	26.2||87.3|	26.2		87.3		
+35	6	fb:cell.0_0694	0.0694	0.0694	0.0694	CD	NUMBER	0.0694	0.0694				
+35	7	fb:cell.1_0493	1.0493	1.0493	1.0493	CD	NUMBER	1.0493	1.0493				
+35	8	fb:cell.164	164	164	164	CD	NUMBER	164.0	164.0				
+35	9	fb:cell.4m_36s	4m 36s	4m|36s	4m|36	NN|NNS	O|O	|	4.0		36.0		
+35	10	fb:cell._36	[36]	-lsb-|36|-rsb-	-lsb-|36|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|36.0|	36.0				
+36	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+36	1	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+36	2	fb:cell.june_12_2830	June 12, 2830	june|12|,|2830	June|12|,|2830	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2830-06-12|2830-06-12|2830-06-12|2830-06-12	122830.0	2830-06-12		June 12|2830	fb:part.june_12|fb:part.2830
+36	3	fb:cell.2_09_55	2:09:55	2:09:55	2:09:55	CD	TIME	T02:09:55	2.0		9.0		
+36	4	fb:cell.total	Total	total	total	JJ	O						
+36	5	fb:cell.31_1n_161_8e	31.1N 161.8E	31.1|n|161.8|e	31.1|n|161.8|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	31.1||161.8|	31.1		161.8		
+36	6	fb:cell.0_1365	0.1365	0.1365	0.1365	CD	NUMBER	0.1365	0.1365				
+36	7	fb:cell.1_0538	1.0538	1.0538	1.0538	CD	NUMBER	1.0538	1.0538				
+36	8	fb:cell.180	180	180	180	CD	NUMBER	180.0	180.0				
+36	9	fb:cell.4m_50s	4m 50s	4m|50s	4m|50s	NN|CD	O|NUMBER	|50.0	4.0		50.0		
+36	10	fb:cell._37	[37]	-lsb-|37|-rsb-	-lsb-|37|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|37.0|	37.0				
+37	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+37	1	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+37	2	fb:cell.june_22_2848	June 22, 2848	june|22|,|2848	June|22|,|2848	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2848-06-22|2848-06-22|2848-06-22|2848-06-22	222848.0	2848-06-22		June 22|2848	fb:part.june_22|fb:part.2848
+37	3	fb:cell.9_37_37	9:37:37	9:37:37	9:37:37	CD	TIME	T09:37:37	9.0		37.0		
+37	4	fb:cell.total	Total	total	total	JJ	O						
+37	5	fb:cell.35_3n_52_3e	35.3N 52.3E	35.3|n|52.3|e	35.3|n|52.3|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	35.3||52.3|	35.3		52.3		
+37	6	fb:cell.0_2062	0.2062	0.2062	0.2062	CD	NUMBER	0.2062	0.2062				
+37	7	fb:cell.1_0578	1.0578	1.0578	1.0578	CD	NUMBER	1.0578	1.0578				
+37	8	fb:cell.195	195	195	195	CD	NUMBER	195.0	195.0				
+37	9	fb:cell.4m_57s	4m 57s	4m|57s	4m|57	NN|NNS	O|O	|	4.0		57.0		
+37	10	fb:cell._38	[38]	-lsb-|38|-rsb-	-lsb-|38|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|38.0|	38.0				
+38	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+38	1	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+38	2	fb:cell.july_3_2866	July 3, 2866	july|3|,|2866	July|3|,|2866	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2866-07-03|2866-07-03|2866-07-03|2866-07-03	32866.0	2866-07-03		July 3|2866	fb:part.july_3|fb:part.2866
+38	3	fb:cell.17_03_16	17:03:16	17:03:16	17:03:16	CD	TIME	T17:03:16	17.0		3.0		
+38	4	fb:cell.total	Total	total	total	JJ	O						
+38	5	fb:cell.38_7n_55_8w	38.7N 55.8W	38.7|n|55.8|w	38.7|n|55.8|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	38.7||55.8|	38.7		55.8		
+38	6	fb:cell.0_2785	0.2785	0.2785	0.2785	CD	NUMBER	0.2785	0.2785				
+38	7	fb:cell.1_061	1.061	1.061	1.061	CD	NUMBER	1.061	1.061				
+38	8	fb:cell.209	209	209	209	CD	NUMBER	209.0	209.0				
+38	9	fb:cell.4m_59s	4m 59s	4m|59s	4m|59	NN|NNS	O|O	|	4.0		59.0		
+38	10	fb:cell._39	[39]	-lsb-|39|-rsb-	-lsb-|39|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|39.0|	39.0				
+39	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+39	1	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	2	fb:cell.july_14_2884	July 14, 2884	july|14|,|2884	July|14|,|2884	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2884-07-14|2884-07-14|2884-07-14|2884-07-14	142884.0	2884-07-14		July 14|2884	fb:part.july_14|fb:part.2884
+39	3	fb:cell.0_27_39	0:27:39	0:27:39	0:27:39	CD	TIME	T00:27:39	0.0		27.0		
+39	4	fb:cell.total	Total	total	total	JJ	O						
+39	5	fb:cell.41_3n_162_8w	41.3N 162.8W	41.3|n|162.8|w	41.3|n|162.8|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	41.3||162.8|	41.3		162.8		
+39	6	fb:cell.0_3523	0.3523	0.3523	0.3523	CD	NUMBER	0.3523	0.3523				
+39	7	fb:cell.1_0635	1.0635	1.0635	1.0635	CD	NUMBER	1.0635	1.0635				
+39	8	fb:cell.222	222	222	222	CD	NUMBER	222.0	222.0				
+39	9	fb:cell.4m_58s	4m 58s	4m|58s	4m|58	NN|NNS	O|O	|	4.0		58.0		
+39	10	fb:cell._40	[40]	-lsb-|40|-rsb-	-lsb-|40|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|40.0|	40.0				
+40	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+40	1	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+40	2	fb:cell.july_26_2902	July 26, 2902	july|26|,|2902	July|26|,|2902	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2902-07-26|2902-07-26|2902-07-26|2902-07-26	262902.0	2902-07-26		July 26|2902	fb:part.july_26|fb:part.2902
+40	3	fb:cell.7_52_48	7:52:48	7:52:48	7:52:48	CD	TIME	T07:52:48	7.0		52.0		
+40	4	fb:cell.total	Total	total	total	JJ	O						
+40	5	fb:cell.42_9n_90_4e	42.9N 90.4E	42.9|n|90.4|e	42.9|n|90.4|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	42.9||90.4|	42.9		90.4		
+40	6	fb:cell.0_426	0.426	0.426	0.426	CD	NUMBER	0.426	0.426				
+40	7	fb:cell.1_0651	1.0651	1.0651	1.0651	CD	NUMBER	1.0651	1.0651				
+40	8	fb:cell.235	235	235	235	CD	NUMBER	235.0	235.0				
+40	9	fb:cell.4m_54s	4m 54s	4m|54s	4m|54	NN|NNS	O|O	|	4.0		54.0		
+40	10	fb:cell._41	[41]	-lsb-|41|-rsb-	-lsb-|41|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|41.0|	41.0				
+41	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+41	1	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+41	2	fb:cell.august_5_2920	August 5, 2920	august|5|,|2920	August|5|,|2920	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2920-08-05|2920-08-05|2920-08-05|2920-08-05	52920.0	2920-08-05		August 5|2920	fb:part.august_5|fb:part.2920
+41	3	fb:cell.15_19_10	15:19:10	15:19:10	15:19:10	CD	TIME	T15:19:10	15.0		19.0		
+41	4	fb:cell.total	Total	total	total	JJ	O						
+41	5	fb:cell.43_8n_16_6w	43.8N 16.6W	43.8|n|16.6|w	43.8|n|16.6|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	43.8||16.6|	43.8		16.6		
+41	6	fb:cell.0_4991	0.4991	0.4991	0.4991	CD	NUMBER	0.4991	0.4991				
+41	7	fb:cell.1_066	1.066	1.066	1.066	CD	NUMBER	1.066	1.066				
+41	8	fb:cell.248	248	248	248	CD	NUMBER	248.0	248.0				
+41	9	fb:cell.4m_48s	4m 48s	4m|48s	4m|48	NN|NNS	O|O	|	4.0		48.0		
+41	10	fb:cell._42	[42]	-lsb-|42|-rsb-	-lsb-|42|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|42.0|	42.0				
+42	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+42	1	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+42	2	fb:cell.august_16_2938	August 16, 2938	august|16|,|2938	August|16|,|2938	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2938-08-16|2938-08-16|2938-08-16|2938-08-16	162938.0	2938-08-16		August 16|2938	fb:part.august_16|fb:part.2938
+42	3	fb:cell.22_49_03	22:49:03	22:49:03	22:49:03	CD	TIME	T22:49:03	22.0		49.0		
+42	4	fb:cell.total	Total	total	total	JJ	O						
+42	5	fb:cell.43_9n_124_7w	43.9N 124.7W	43.9|n|124.7|w	43.9|n|124.7|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	43.9||124.7|	43.9		124.7		
+42	6	fb:cell.0_5697	0.5697	0.5697	0.5697	CD	NUMBER	0.5697	0.5697				
+42	7	fb:cell.1_066	1.066	1.066	1.066	CD	NUMBER	1.066	1.066				
+42	8	fb:cell.261	261	261	261	CD	NUMBER	261.0	261.0				
+42	9	fb:cell.4m_42s	4m 42s	4m|42s	4m|42	NN|NNS	O|O	|	4.0		42.0		
+42	10	fb:cell._43	[43]	-lsb-|43|-rsb-	-lsb-|43|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|43.0|	43.0				
+43	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+43	1	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+43	2	fb:cell.august_27_2956	August 27, 2956	august|27|,|2956	August|27|,|2956	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2956-08-27|2956-08-27|2956-08-27|2956-08-27	272956.0	2956-08-27		August 27|2956	fb:part.august_27|fb:part.2956
+43	3	fb:cell.6_20_57	6:20:57	6:20:57	6:20:57	CD	TIME	T06:20:57	6.0		20.0		
+43	4	fb:cell.total	Total	total	total	JJ	O						
+43	5	fb:cell.43_8n_126_2e	43.8N 126.2E	43.8|n|126.2|e	43.8|n|126.2|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	43.8||126.2|	43.8		126.2		
+43	6	fb:cell.0_6387	0.6387	0.6387	0.6387	CD	NUMBER	0.6387	0.6387				
+43	7	fb:cell.1_0653	1.0653	1.0653	1.0653	CD	NUMBER	1.0653	1.0653				
+43	8	fb:cell.274	274	274	274	CD	NUMBER	274.0	274.0				
+43	9	fb:cell.4m_34s	4m 34s	4m|34s	4m|34	NN|NNS	O|O	|	4.0		34.0		
+43	10	fb:cell._44	[44]	-lsb-|44|-rsb-	-lsb-|44|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|44.0|	44.0				
+44	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+44	1	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+44	2	fb:cell.september_7_2974	September 7, 2974	september|7|,|2974	September|7|,|2974	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2974-09-07|2974-09-07|2974-09-07|2974-09-07	72974.0	2974-09-07		September 7|2974	fb:part.september_7|fb:part.2974
+44	3	fb:cell.13_59_21	13:59:21	13:59:21	13:59:21	CD	TIME	T13:59:21	13.0		59.0		
+44	4	fb:cell.total	Total	total	total	JJ	O						
+44	5	fb:cell.43_5n_14_9e	43.5N 14.9E	43.5|n|14.9|e	43.5|n|14.9|e	CD|NN|CD|NN	NUMBER|O|NUMBER|O	43.5||14.9|	43.5		14.9		
+44	6	fb:cell.0_7028	0.7028	0.7028	0.7028	CD	NUMBER	0.7028	0.7028				
+44	7	fb:cell.1_0638	1.0638	1.0638	1.0638	CD	NUMBER	1.0638	1.0638				
+44	8	fb:cell.289	289	289	289	CD	NUMBER	289.0	289.0				
+44	9	fb:cell.4m_25s	4m 25s	4m|25s	4m|25	NN|NNS	O|O	|	4.0		25.0		
+44	10	fb:cell._45	[45]	-lsb-|45|-rsb-	-lsb-|45|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|45.0|	45.0				
+45	0	fb:cell.160	160	160	160	CD	NUMBER	160.0	160.0				
+45	1	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+45	2	fb:cell.september_17_2992	September 17, 2992	september|17|,|2992	September|17|,|2992	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2992-09-17|2992-09-17|2992-09-17|2992-09-17	172992.0	2992-09-17		September 17|2992	fb:part.september_17|fb:part.2992
+45	3	fb:cell.21_42_08	21:42:08	21:42:08	21:42:08	CD	TIME	T21:42:08	21.0		42.0		
+45	4	fb:cell.total	Total	total	total	JJ	O						
+45	5	fb:cell.43_5n_98_1w	43.5N 98.1W	43.5|n|98.1|w	43.5|n|98.1|w	CD|NN|CD|NN	NUMBER|O|NUMBER|O	43.5||98.1|	43.5		98.1		
+45	6	fb:cell.0_7636	0.7636	0.7636	0.7636	CD	NUMBER	0.7636	0.7636				
+45	7	fb:cell.1_0617	1.0617	1.0617	1.0617	CD	NUMBER	1.0617	1.0617				
+45	8	fb:cell.307	307	307	307	CD	NUMBER	307.0	307.0				
+45	9	fb:cell.4m_16s	4m 16s	4m|16s	4m|16	NN|NNS	O|O	|	4.0		16.0		
+45	10	fb:cell._46	[46]	-lsb-|46|-rsb-	-lsb-|46|-rsb-	-LRB-|CD|-RRB-	O|NUMBER|O	|46.0|	46.0				

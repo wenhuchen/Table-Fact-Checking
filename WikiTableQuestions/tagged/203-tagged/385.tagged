@@ -1,0 +1,97 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.material	Material	material	material	NN	O						
+-1	1	fb:row.row.formula	Formula	formula	formulum	NN	O						
+-1	2	fb:row.row.refractive_index_es_589_3_nm	Refractive\nindex(es)\n589.3 nm	refractive|index|-lrb-|es|-rrb-|589.3|nm	refractive|index|-lrb-|e|-rrb-|589.3|nm	JJ|NN|-LRB-|NNS|-RRB-|CD|NN	MISC|O|O|O|O|NUMBER|O	|||||589.3|					
+-1	3	fb:row.row.dispersion_431_687_nm	Dispersion\n431 – 687 nm	dispersion|431|--|687|nm	dispersion|431|--|687|nm	NN|CD|:|CD|NN	O|NUMBER|O|NUMBER|O	|431.0||687.0|					
+-1	4	fb:row.row.hardness_mohs_scale	Hardness\n(Mohs'\nscale)	hardness|-lrb-|mohs|'|scale|-rrb-	hardness|-lrb-|moh|'|scale|-rrb-	NN|-LRB-|NN|''|NN|-RRB-	O|O|O|O|O|O	|||||					
+-1	5	fb:row.row.density_g_cm3	Density\n(g/cm3)	density|-lrb-|g\\/cm3|-rrb-	density|-lrb-|g\\/cm3|-rrb-	NN|-LRB-|NN|-RRB-	O|O|O|O	|||					
+-1	6	fb:row.row.thermal_cond	Thermal\nCond.	thermal|cond|.	thermal|cond|.	JJ|NN|.	O|O|O	||					
+-1	7	fb:row.row.state_of_the_art	State of\nthe art	state|of|the|art	state|of|the|art	NN|IN|DT|NN	O|O|O|O	|||					
+0	0	fb:cell.diamond	Diamond	diamond	Diamond	NNP	O						
+0	1	fb:cell.c	C	c	c	NN	O					C	fb:part.c
+0	2	fb:cell.2_417	2.417	2.417	2.417	CD	NUMBER	2.417	2.417				
+0	3	fb:cell.0_044	0.044	0.044	0.044	CD	NUMBER	0.044	0.044				
+0	4	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+0	5	fb:cell.3_52	3.52	3.52	3.52	CD	NUMBER	3.52	3.52				
+0	6	fb:cell.excellent	Excellent	excellent	excellent	JJ	O						
+0	7	fb:cell._natural	(Natural)	-lrb-|natural|-rrb-	-lrb-|natural|-rrb-	-LRB-|JJ|-RRB-	O|O|O	||					
+1	0	fb:cell.glasses	Glasses	glasses	glass	NNS	O						
+1	1	fb:cell.silica_with_pb_al_or_tl	Silica with Pb, Al, &/or Tl	silica|with|pb|,|al|,|&|\\/|or|tl	silica|with|pb|,|Al|,|&|\\/|or|tl	NN|IN|NN|,|NNP|,|CC|:|CC|NN	O|O|O|O|PERSON|O|O|O|O|O	|||||||||				Silica with Pb|Al|&|or Tl	fb:part.silica_with_pb|fb:part.al|fb:part.null|fb:part.or_tl
+1	2	fb:cell._1_6	~ 1.6	~|1.6	~|1.6	NN|CD	O|NUMBER	|1.6	1.6				
+1	3	fb:cell._0_020	> 0.020	>|0.020	>|0.020	JJR|CD	O|NUMBER	|0.02	0.02				
+1	4	fb:cell._6	< 6	<|6	<|6	JJR|CD	O|NUMBER	|6.0	6.0				
+1	5	fb:cell.2_4_4_2	2.4 – 4.2	2.4|--|4.2	2.4|--|4.2	CD|:|CD	NUMBER|O|NUMBER	2.4||4.2	2.4		4.2		
+1	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+1	7	fb:cell.1700	1700 –	1700|--	1700|--	CD|:	DATE|O	1700|	1700.0				
+2	0	fb:cell.white_sapphire	White Sapphire	white|sapphire	White|Sapphire	NNP|NNP	O|O	|					
+2	1	fb:cell.al2o3	Al2O3	al2o3	al2o3	NN	O		2.0		3.0	Al2O3	fb:part.al2o3
+2	2	fb:cell.1_762_1_770	1.762 – 1.770	1.762|--|1.770	1.762|--|1.770	CD|:|CD	NUMBER|O|NUMBER	1.762||1.77	1.762		1.77		
+2	3	fb:cell.0_018	0.018	0.018	0.018	CD	NUMBER	0.018	0.018				
+2	4	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+2	5	fb:cell.3_97	3.97	3.97	3.97	CD	NUMBER	3.97	3.97				
+2	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+2	7	fb:cell.1900_1947	1900–1947	1900|--|1947	1900|--|1947	CD|:|CD	DATE|DATE|DATE	1900|1900|1947	1900.0		1947.0		
+3	0	fb:cell.spinel	Spinel	spinel	Spinel	NNP	O						
+3	1	fb:cell.mgo_al2o3	MgO·Al2O3	mgo|·|al2o3	mgo|·|al2o3	NN|NN|NN	O|O|O	||	2.0		3.0	MgO·Al2O3	fb:part.mgo_al2o3
+3	2	fb:cell.1_727	1.727	1.727	1.727	CD	NUMBER	1.727	1.727				
+3	3	fb:cell.0_020	0.020	0.020	0.020	CD	NUMBER	0.02	0.02				
+3	4	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+3	5	fb:cell._3_6	~ 3.6	~|3.6	~|3.6	NN|CD	O|NUMBER	|3.6	3.6				
+3	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+3	7	fb:cell.1920_1947	1920–1947	1920|--|1947	1920|--|1947	CD|:|CD	DATE|DATE|DATE	1920|1920|1947	1920.0		1947.0		
+4	0	fb:cell.rutile	Rutile	rutile	Rutile	NNP	O						
+4	1	fb:cell.tio2	TiO2	tio2	tio2	NN	O		2.0			TiO2	fb:part.tio2
+4	2	fb:cell.2_62_2_9	2.62 – 2.9	2.62|--|2.9	2.62|--|2.9	CD|:|CD	NUMBER|O|NUMBER	2.62||2.9	2.62		2.9		
+4	3	fb:cell.0_33	0.33	0.33	0.33	CD	NUMBER	0.33	0.33				
+4	4	fb:cell._6_2	~ 6	~|6	~|6	NN|CD	O|NUMBER	|6.0	6.0				
+4	5	fb:cell.4_25	4.25	4.25	4.25	CD	NUMBER	4.25	4.25				
+4	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+4	7	fb:cell.1947_1955	1947–1955	1947|--|1955	1947|--|1955	CD|:|CD	DATE|DATE|DATE	1947|1947|1955	1947.0		1955.0		
+5	0	fb:cell.strontium_titanate	Strontium titanate	strontium|titanate	strontium|titanate	NN|NN	O|O	|					
+5	1	fb:cell.srtio3	SrTiO3	srtio3	srtio3	NN	O		3.0			SrTiO3	fb:part.srtio3
+5	2	fb:cell.2_41	2.41	2.41	2.41	CD	NUMBER	2.41	2.41				
+5	3	fb:cell.0_19	0.19	0.19	0.19	CD	NUMBER	0.19	0.19				
+5	4	fb:cell.5_5	5.5	5.5	5.5	CD	NUMBER	5.5	5.5				
+5	5	fb:cell.5_13	5.13	5.13	5.13	CD	NUMBER	5.13	5.13				
+5	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+5	7	fb:cell.1955_1970	1955–1970	1955|--|1970	1955|--|1970	CD|:|CD	DATE|DATE|DATE	1955|1955|1970	1955.0		1970.0		
+6	0	fb:cell.yag	YAG	yag	yag	NN	O						
+6	1	fb:cell.y3al5o12	Y3Al5O12	y3al5o12	y3al5o12	NN	O		3.0		5.0	Y3Al5O12	fb:part.y3al5o12
+6	2	fb:cell.1_83	1.83	1.83	1.83	CD	NUMBER	1.83	1.83				
+6	3	fb:cell.0_028	0.028	0.028	0.028	CD	NUMBER	0.028	0.028				
+6	4	fb:cell.8_25	8.25	8.25	8.25	CD	NUMBER	8.25	8.25				
+6	5	fb:cell.4_55_4_65	4.55 – 4.65	4.55|--|4.65	4.55|--|4.65	CD|:|CD	NUMBER|O|NUMBER	4.55||4.65	4.55		4.65		
+6	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+6	7	fb:cell.1970_1975	1970–1975	1970|--|1975	1970|--|1975	CD|:|CD	DATE|DATE|DATE	1970|1970|1975	1970.0		1975.0		
+7	0	fb:cell.ggg	GGG	ggg	ggg	NN	O						
+7	1	fb:cell.gd3ga5o12	Gd3Ga5O12	gd3ga5o12	gd3ga5o12	NN	O		3.0		5.0	Gd3Ga5O12	fb:part.gd3ga5o12
+7	2	fb:cell.1_97	1.97	1.97	1.97	CD	NUMBER	1.97	1.97				
+7	3	fb:cell.0_045	0.045	0.045	0.045	CD	NUMBER	0.045	0.045				
+7	4	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+7	5	fb:cell.7_02	7.02	7.02	7.02	CD	NUMBER	7.02	7.02				
+7	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+7	7	fb:cell.1973_1975	1973–1975	1973|--|1975	1973|--|1975	CD|:|CD	DATE|DATE|DATE	1973|1973|1975	1973.0		1975.0		
+8	0	fb:cell.cubic_zirconia	Cubic Zirconia	cubic|zirconia	cubic|zirconium	JJ|NN	O|O	|					
+8	1	fb:cell.zro2_rare_earths	ZrO2(+ rare earths)	zro2|-lrb-|+|rare|earths|-rrb-	zro2|-lrb-|+|rare|earth|-rrb-	NN|-LRB-|CC|JJ|NNS|-RRB-	O|O|O|O|O|O	|||||	2.0			ZrO2(+ rare earths)	fb:part.zro2_rare_earths
+8	2	fb:cell._2_2	~ 2.2	~|2.2	~|2.2	NN|CD	O|NUMBER	|2.2	2.2				
+8	3	fb:cell._0_06	~ 0.06	~|0.06	~|0.06	NN|CD	O|NUMBER	|0.06	0.06				
+8	4	fb:cell._8_3	~ 8.3	~|8.3	~|8.3	NN|CD	O|NUMBER	|8.3	8.3				
+8	5	fb:cell._5_7	~ 5.7	~|5.7	~|5.7	NN|CD	O|NUMBER	|5.7	5.7				
+8	6	fb:cell.poor	Poor	poor	Poor	NNP	O						
+8	7	fb:cell.1976	1976 –	1976|--	1976|--	CD|:	DATE|O	1976|	1976.0				
+9	0	fb:cell.moissanite	Moissanite	moissanite	moissanite	NN	O						
+9	1	fb:cell.sic	SiC	sic	sic	NN	O					SiC	fb:part.sic
+9	2	fb:cell.2_648_2_691	2.648 – 2.691	2.648|--|2.691	2.648|--|2.691	CD|:|CD	NUMBER|O|NUMBER	2.648||2.691	2.648		2.691		
+9	3	fb:cell.0_104	0.104	0.104	0.104	CD	NUMBER	0.104	0.104				
+9	4	fb:cell.8_5_9_25	8.5–9.25	8.5|--|9.25	8.5|--|9.25	CD|:|CD	NUMBER|O|NUMBER	8.5||9.25	8.5		9.25		
+9	5	fb:cell.3_2	3.2	3.2	3.2	CD	NUMBER	3.2	3.2				
+9	6	fb:cell.high	High	high	high	JJ	O						
+9	7	fb:cell.1998	1998 –	1998|--	1998|--	CD|:	DATE|O	1998|	1998.0				
+10	0	fb:cell.quartz	Quartz	quartz	Quartz	NNP	O						
+10	1	fb:cell.silica	Silica	silica	silica	NN	O					Silica	fb:part.silica
+10	2	fb:cell.1_543_1_554	1.543 – 1.554	1.543|--|1.554	1.543|--|1.554	CD|:|CD	NUMBER|O|NUMBER	1.543||1.554	1.543		1.554		
+10	3	fb:cell.null											
+10	4	fb:cell.7_2	7-	7|-	7|-	CD|:	NUMBER|O	7.0|	7.0				
+10	5	fb:cell.2_50_2_65	2.50 – 2.65	2.50|--|2.65	2.50|--|2.65	CD|:|CD	NUMBER|O|NUMBER	2.5||2.65	2.5		2.65		
+10	6	fb:cell.null											
+10	7	fb:cell.ancient	Ancient	ancient	ancient	JJ	O						

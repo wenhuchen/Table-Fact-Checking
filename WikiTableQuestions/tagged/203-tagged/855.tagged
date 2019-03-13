@@ -1,0 +1,49 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.date	Date	date	date	NN	O						
+-1	1	fb:row.row.city	City	city	City	NNP	O						
+-1	2	fb:row.row.venue	Venue	venue	venue	NN	O						
+-1	3	fb:row.row.member	Member	member	Member	NNP	O						
+-1	4	fb:row.row.performance	Performance	performance	Performance	NNP	O						
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.15_january	15 January	15|january	15|January	CD|NNP	DATE|DATE	XXXX-01-15|XXXX-01-15	15.0	xxxx-01-15			
+0	1	fb:cell.dublin	Dublin	dublin	Dublin	NNP	LOCATION						
+0	2	fb:cell.rte_studios	RTÉ Studios	rté|studios	RTÉ|Studios	NNP|NNP	O|O	|				RTÉ Studios	fb:part.rte_studios
+0	3	fb:cell.brian_roger	Brian & Roger	brian|&|roger	Brian|&|Roger	NNP|CC|NNP	O|O|PERSON	||					
+0	4	fb:cell._1_we_will_rock_you_2_we_are_the_champions	(1) "We Will Rock You"\n(2) "We Are the Champions"	-lrb-|1|-rrb-|``|we|will|rock|you|''|-lrb-|2|-rrb-|``|we|are|the|champions|''	-lrb-|1|-rrb-|``|we|will|rock|you|''|-lrb-|2|-rrb-|``|we|be|the|Champions|''	-LRB-|LS|-RRB-|``|PRP|VBD-AUX|VB|PRP|''|-LRB-|LS|-RRB-|``|PRP|VBD-AUX|DT|NNPS|''	O|NUMBER|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|O	|1.0|||||||||2.0|||||||	1.0		2.0	(1) "We Will Rock You"|(2) "We Are the Champions"	fb:part._1_we_will_rock_you|fb:part._2_we_are_the_champions
+0	5	fb:cell.the_late_late_show	The Late Late Show	the|late|late|show	the|late|late|show	DT|JJ|JJ|NN	O|O|O|O	|||					
+1	0	fb:cell.31_january	31 January	31|january	31|January	CD|NNP	DATE|DATE	XXXX-01-31|XXXX-01-31	31.0	xxxx-01-31			
+1	1	fb:cell.dublin	Dublin	dublin	Dublin	NNP	LOCATION						
+1	2	fb:cell.the_o2	The O2	the|o2	the|o2	DT|CD	O|NUMBER	|2.0	2.0			The O2	fb:part.the_o2
+1	3	fb:cell.brian	Brian	brian	Brian	NNP	PERSON						
+1	4	fb:cell._1_bohemian_rhapsody	(1) "Bohemian Rhapsody"	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-LRB-|LS|-RRB-|``|JJ|NN|''	O|NUMBER|O|O|O|O|O	|1.0|||||	1.0			(1) "Bohemian Rhapsody"	fb:part._1_bohemian_rhapsody
+1	5	fb:cell.matinee_and_evening_performances_roger_attended_but_did_not_perform	Matinee and Evening performances. Roger attended but did not perform.	matinee|and|evening|performances|.|roger|attended|but|did|not|perform|.	Matinee|and|Evening|performance|.|Roger|attend|but|do|not|perform|.	NNP|CC|NNP|NNS|.|NNP|VBD|CC|VBD-AUX|RB|VB|.	O|O|TIME|O|O|PERSON|O|O|O|O|O|O	||TEV|||||||||					
+2	0	fb:cell.10_may	10 May	10|may	10|May	CD|VBD-AUX	DATE|DATE	XXXX-05-10|XXXX-05-10	10.0	xxxx-05-10			
+2	1	fb:cell.london	London	london	London	NNP	LOCATION						
+2	2	fb:cell.dominion_theatre	Dominion Theatre	dominion|theatre	Dominion|Theatre	NNP|NNP	O|O	|				Dominion Theatre	fb:part.dominion_theatre
+2	3	fb:cell.brian_roger	Brian & Roger	brian|&|roger	Brian|&|Roger	NNP|CC|NNP	O|O|PERSON	||					
+2	4	fb:cell._1_bohemian_rhapsody	(1) "Bohemian Rhapsody"	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-LRB-|LS|-RRB-|``|JJ|NN|''	O|NUMBER|O|O|O|O|O	|1.0|||||	1.0			(1) "Bohemian Rhapsody"	fb:part._1_bohemian_rhapsody
+2	5	fb:cell.8th_anniversary	8th anniversary.	8th|anniversary|.	8th|anniversary|.	JJ|NN|.	ORDINAL|O|O	8.0||	8.0				
+3	0	fb:cell.3_september	3 September	3|september	3|September	CD|NNP	DATE|DATE	XXXX-09-03|XXXX-09-03	3.0	xxxx-09-03			
+3	1	fb:cell.utrecht	Utrecht	utrecht	Utrecht	NNP	O						
+3	2	fb:cell.beatrix_theatre	Beatrix\nTheatre	beatrix|theatre	Beatrix|Theatre	NNP|NNP	O|O	|				Beatrix|Theatre	fb:part.beatrix|fb:part.theatre
+3	3	fb:cell.brian	Brian	brian	Brian	NNP	PERSON						
+3	4	fb:cell._1_bohemian_rhapsody	(1) "Bohemian Rhapsody"	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-LRB-|LS|-RRB-|``|JJ|NN|''	O|NUMBER|O|O|O|O|O	|1.0|||||	1.0			(1) "Bohemian Rhapsody"	fb:part._1_bohemian_rhapsody
+3	5	fb:cell.null											
+4	0	fb:cell.4_september	4 September	4|september	4|September	CD|NNP	DATE|DATE	XXXX-09-04|XXXX-09-04	4.0	xxxx-09-04			
+4	1	fb:cell.london	London	london	London	NNP	LOCATION						
+4	2	fb:cell.dominion_theatre	Dominion Theatre	dominion|theatre	Dominion|Theatre	NNP|NNP	O|O	|				Dominion Theatre	fb:part.dominion_theatre
+4	3	fb:cell.brian	Brian	brian	Brian	NNP	PERSON						
+4	4	fb:cell._1_bohemian_rhapsody	(1) "Bohemian Rhapsody"	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-LRB-|LS|-RRB-|``|JJ|NN|''	O|NUMBER|O|O|O|O|O	|1.0|||||	1.0			(1) "Bohemian Rhapsody"	fb:part._1_bohemian_rhapsody
+4	5	fb:cell.matinee_and_evening_performances	Matinee and Evening performances	matinee|and|evening|performances	Matinee|and|Evening|performance	NNP|CC|NNP|NNS	O|O|TIME|O	||TEV|					
+5	0	fb:cell.12_september	12 September	12|september	12|September	CD|NNP	DATE|DATE	XXXX-09-12|XXXX-09-12	12.0	xxxx-09-12			
+5	1	fb:cell.stockholm	Stockholm	stockholm	Stockholm	NNP	O						
+5	2	fb:cell.cirkus_arena_restaurang	Cirkus Arena Restaurang	cirkus|arena|restaurang	Cirkus|Arena|Restaurang	NNP|NNP|NNP	O|O|O	||				Cirkus Arena Restaurang	fb:part.cirkus_arena_restaurang
+5	3	fb:cell.brian	Brian	brian	Brian	NNP	PERSON						
+5	4	fb:cell._1_bohemian_rhapsody	(1) "Bohemian Rhapsody"	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-LRB-|LS|-RRB-|``|JJ|NN|''	O|NUMBER|O|O|O|O|O	|1.0|||||	1.0			(1) "Bohemian Rhapsody"	fb:part._1_bohemian_rhapsody
+5	5	fb:cell.null											
+6	0	fb:cell.21_october	21 October	21|october	21|October	CD|NNP	DATE|DATE	XXXX-10-21|XXXX-10-21	21.0	xxxx-10-21			
+6	1	fb:cell.berlin	Berlin	berlin	Berlin	NNP	LOCATION						
+6	2	fb:cell.theater_des_westens	Theater des Westens	theater|des|westens	Theater|des|Westens	NNP|NNP|NNP	O|O|PERSON	||				Theater des Westens	fb:part.theater_des_westens
+6	3	fb:cell.brian	Brian	brian	Brian	NNP	PERSON						
+6	4	fb:cell._1_bohemian_rhapsody	(1) "Bohemian Rhapsody"	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-lrb-|1|-rrb-|``|bohemian|rhapsody|''	-LRB-|LS|-RRB-|``|JJ|NN|''	O|NUMBER|O|O|O|O|O	|1.0|||||	1.0			(1) "Bohemian Rhapsody"	fb:part._1_bohemian_rhapsody
+6	5	fb:cell.null											

@@ -1,0 +1,484 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.region	Region	region	region	NN	O						
+-1	1	fb:row.row.seed	Seed	seed	seed	NN	O						
+-1	2	fb:row.row.team	Team	team	Team	NNP	O						
+-1	3	fb:row.row.coach	Coach	coach	coach	VB	O						
+-1	4	fb:row.row.finished	Finished	finished	finish	VBN	O						
+-1	5	fb:row.row.final_opponent	Final opponent	final|opponent	final|opponent	JJ|NN	O|O	|					
+-1	6	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+0	0	fb:cell.west	West	west	West	NNP	O						
+0	1	fb:cell.null											fb:part.null
+0	2	fb:cell.null											fb:part.null
+0	3	fb:cell.null											fb:part.null
+0	4	fb:cell.null											fb:part.null
+0	5	fb:cell.null											fb:part.null
+0	6	fb:cell.null											fb:part.null
+1	0	fb:cell.west	West	west	West	NNP	O						
+1	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+1	2	fb:cell.st_john_s	St. John's	st.|john|'s	St.|John|'s	NNP|NNP|POS	PERSON|PERSON|O	||				St. John's	fb:part.st_john_s
+1	3	fb:cell.lou_carnesecca	Lou Carnesecca	lou|carnesecca	Lou|Carnesecca	NNP|NNP	PERSON|PERSON	|					
+1	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+1	5	fb:cell.8_auburn	8 Auburn	8|auburn	8|Auburn	CD|NNP	NUMBER|O	8.0|	8.0				
+1	6	fb:cell.l_81_65	L 81-65	l|81-65	l|81-65	NN|CD	O|DATE	|1965	81.0		65.0		
+2	0	fb:cell.west	West	west	West	NNP	O						
+2	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+2	2	fb:cell.louisville	Louisville	louisville	Louisville	NNP	LOCATION					Louisville	fb:part.louisville
+2	3	fb:cell.denny_crum	Denny Crum	denny|crum	Denny|Crum	NNP|NNP	PERSON|PERSON	|					
+2	4	fb:cell.champion	Champion	champion	Champion	NNP	O						
+2	5	fb:cell.1_duke	1 Duke	1|duke	1|Duke	CD|NNP	NUMBER|ORGANIZATION	1.0|	1.0				
+2	6	fb:cell.w_72_69	W 72-69	w|72-69	W|72-69	NNP|CD	O|DATE	|1969	72.0		69.0		
+3	0	fb:cell.west	West	west	West	NNP	O						
+3	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+3	2	fb:cell.north_carolina	North Carolina	north|carolina	North|Carolina	NNP|NNP	LOCATION|LOCATION	|				North Carolina	fb:part.north_carolina
+3	3	fb:cell.dean_smith	Dean Smith	dean|smith	Dean|Smith	NNP|NNP	PERSON|PERSON	|					
+3	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+3	5	fb:cell.2_louisville	2 Louisville	2|louisville	2|Louisville	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+3	6	fb:cell.l_94_79	L 94-79	l|94-79	l|94-79	NN|CD	O|DATE	|1979	94.0		79.0		
+4	0	fb:cell.west	West	west	West	NNP	O						
+4	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+4	2	fb:cell.unlv	UNLV	unlv	unlv	NN	ORGANIZATION					UNLV	fb:part.unlv
+4	3	fb:cell.jerry_tarkanian	Jerry Tarkanian	jerry|tarkanian	Jerry|Tarkanian	NNP|NNP	PERSON|PERSON	|					
+4	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+4	5	fb:cell.8_auburn	8 Auburn	8|auburn	8|Auburn	CD|NNP	NUMBER|O	8.0|	8.0				
+4	6	fb:cell.l_70_63	L 70-63	l|70-63	l|70-63	NN|CD	O|NUMBER	|70.0 - 63.0	70.0		63.0		
+5	0	fb:cell.west	West	west	West	NNP	O						
+5	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+5	2	fb:cell.maryland	Maryland	maryland	Maryland	NNP	LOCATION					Maryland	fb:part.maryland
+5	3	fb:cell.lefty_driesell	Lefty Driesell	lefty|driesell	Lefty|Driesell	NNP|NNP	O|PERSON	|					
+5	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+5	5	fb:cell.4_unlv	4 UNLV	4|unlv	4|unlv	LS|NN	NUMBER|ORGANIZATION	4.0|	4.0				
+5	6	fb:cell.l_70_64	L 70-64	l|70-64	l|70-64	NN|CD	O|NUMBER	|70.0 - 64.0	70.0		64.0		
+6	0	fb:cell.west	West	west	West	NNP	O						
+6	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+6	2	fb:cell.uab	UAB	uab	uab	NN	O					UAB	fb:part.uab
+6	3	fb:cell.gene_bartow	Gene Bartow	gene|bartow	Gene|Bartow	NNP|NNP	PERSON|PERSON	|					
+6	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+6	5	fb:cell.3_north_carolina	3 North Carolina	3|north|carolina	3|North|Carolina	CD|NNP|NNP	NUMBER|LOCATION|LOCATION	3.0||	3.0				
+6	6	fb:cell.l_77_59	L 77-59	l|77-59	l|77-59	NN|CD	O|DATE	|1959	77.0		59.0		
+7	0	fb:cell.west	West	west	West	NNP	O						
+7	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+7	2	fb:cell.bradley	Bradley	bradley	Bradley	NNP	PERSON					Bradley	fb:part.bradley
+7	3	fb:cell.dick_versace	Dick Versace	dick|versace	Dick|Versace	NNP|NNP	PERSON|PERSON	|					
+7	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+7	5	fb:cell.2_louisville	2 Louisville	2|louisville	2|Louisville	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+7	6	fb:cell.l_82_68	L 82-68	l|82-68	l|82-68	NN|CD	O|DATE	|1968	82.0		68.0		
+8	0	fb:cell.west	West	west	West	NNP	O						
+8	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+8	2	fb:cell.auburn	Auburn	auburn	Auburn	NNP	O					Auburn	fb:part.auburn
+8	3	fb:cell.sonny_smith	Sonny Smith	sonny|smith	Sonny|Smith	NNP|NNP	PERSON|PERSON	|					
+8	4	fb:cell.regional_runner_up	Regional Runner-up	regional|runner|up	Regional|Runner|up	NNP|NNP|IN	O|O|O	||					
+8	5	fb:cell.2_louisville	2 Louisville	2|louisville	2|Louisville	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+8	6	fb:cell.l_84_76	L 84-76	l|84-76	l|84-76	NN|CD	O|DATE	|1976	84.0		76.0		
+9	0	fb:cell.west	West	west	West	NNP	O						
+9	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+9	2	fb:cell.arizona	Arizona	arizona	Arizona	NNP	LOCATION					Arizona	fb:part.arizona
+9	3	fb:cell.lute_olson	Lute Olson	lute|olson	Lute|Olson	NNP|NNP	PERSON|PERSON	|					
+9	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+9	5	fb:cell.8_auburn	8 Auburn	8|auburn	8|Auburn	CD|NNP	NUMBER|O	8.0|	8.0				
+9	6	fb:cell.l_73_63	L 73-63	l|73-63	l|73-63	NN|CD	O|NUMBER	|73.0 - 63.0	73.0		63.0		
+10	0	fb:cell.west	West	west	West	NNP	O						
+10	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+10	2	fb:cell.utep	UTEP	utep	utep	NN	ORGANIZATION					UTEP	fb:part.utep
+10	3	fb:cell.don_haskins	Don Haskins	don|haskins	Don|Haskins	NNP|NNP	PERSON|PERSON	|					
+10	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+10	5	fb:cell.7_bradley	7 Bradley	7|bradley	7|Bradley	CD|NNP	NUMBER|PERSON	7.0|	7.0				
+10	6	fb:cell.l_83_65	L 83-65	l|83-65	l|83-65	NN|CD	O|DATE	|1965	83.0		65.0		
+11	0	fb:cell.west	West	west	West	NNP	O						
+11	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+11	2	fb:cell.missouri	Missouri	missouri	Missouri	NNP	LOCATION					Missouri	fb:part.missouri
+11	3	fb:cell.norm_stewart	Norm Stewart	norm|stewart	Norm|Stewart	NNP|NNP	PERSON|PERSON	|					
+11	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+11	5	fb:cell.6_uab	6 UAB	6|uab	6|uab	CD|NN	NUMBER|ORGANIZATION	6.0|	6.0				
+11	6	fb:cell.l_66_64	L 66-64	l|66-64	l|66-64	NN|CD	O|NUMBER	|66.0 - 64.0	66.0		64.0		
+12	0	fb:cell.west	West	west	West	NNP	O						
+12	1	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+12	2	fb:cell.pepperdine	Pepperdine	pepperdine	Pepperdine	NNP	LOCATION					Pepperdine	fb:part.pepperdine
+12	3	fb:cell.jim_harrick	Jim Harrick	jim|harrick	Jim|Harrick	NNP|NNP	PERSON|PERSON	|					
+12	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+12	5	fb:cell.5_maryland	5 Maryland	5|maryland	5|Maryland	CD|NNP	NUMBER|LOCATION	5.0|	5.0				
+12	6	fb:cell.l_69_64	L 69-64	l|69-64	l|69-64	NN|CD	O|NUMBER	|69.0 - 64.0	69.0		64.0		
+13	0	fb:cell.west	West	west	West	NNP	O						
+13	1	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+13	2	fb:cell.northeast_louisiana	Northeast Louisiana	northeast|louisiana	Northeast|Louisiana	NNP|NNP	O|LOCATION	|				Northeast Louisiana	fb:part.northeast_louisiana
+13	3	fb:cell.mike_vining	Mike Vining	mike|vining	Mike|Vining	NNP|NNP	PERSON|PERSON	|					
+13	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+13	5	fb:cell.4_unlv	4 UNLV	4|unlv	4|unlv	LS|NN	NUMBER|ORGANIZATION	4.0|	4.0				
+13	6	fb:cell.l_74_51	L 74-51	l|74-51	l|74-51	NN|CD	O|NUMBER	|74.0 - 51.0	74.0		51.0		
+14	0	fb:cell.west	West	west	West	NNP	O						
+14	1	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+14	2	fb:cell.utah	Utah	utah	Utah	NNP	LOCATION					Utah	fb:part.utah
+14	3	fb:cell.lynn_archibald	Lynn Archibald	lynn|archibald	Lynn|Archibald	NNP|NNP	PERSON|PERSON	|					
+14	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+14	5	fb:cell.3_north_carolina	3 North Carolina	3|north|carolina	3|North|Carolina	CD|NNP|NNP	NUMBER|LOCATION|LOCATION	3.0||	3.0				
+14	6	fb:cell.l_84_72	L 84-72	l|84-72	l|84-72	NN|CD	O|NUMBER	|84.0 - 72.0	84.0		72.0		
+15	0	fb:cell.west	West	west	West	NNP	O						
+15	1	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+15	2	fb:cell.drexel	Drexel	drexel	Drexel	NNP	ORGANIZATION					Drexel	fb:part.drexel
+15	3	fb:cell.eddie_burke	Eddie Burke	eddie|burke	Eddie|Burke	NNP|NNP	PERSON|PERSON	|					
+15	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+15	5	fb:cell.2_louisville	2 Louisville	2|louisville	2|Louisville	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+15	6	fb:cell.l_93_73	L 93-73	l|93-73	l|93-73	NN|CD	O|DATE	|1973	93.0		73.0		
+16	0	fb:cell.west	West	west	West	NNP	O						
+16	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+16	2	fb:cell.montana_state	Montana State	montana|state	Montana|State	NNP|NNP	LOCATION|O	|				Montana State	fb:part.montana_state
+16	3	fb:cell.stu_starner	Stu Starner	stu|starner	Stu|Starner	NNP|NNP	PERSON|PERSON	|					
+16	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+16	5	fb:cell.1_st_john_s	1 St. John's	1|st.|john|'s	1|St.|John|'s	CD|NNP|NNP|POS	NUMBER|O|PERSON|O	1.0|||	1.0				
+16	6	fb:cell.l_83_74	L 83-74	l|83-74	l|83-74	NN|CD	O|NUMBER	|83.0 - 74.0	83.0		74.0		
+17	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+17	1	fb:cell.null											fb:part.null
+17	2	fb:cell.null											fb:part.null
+17	3	fb:cell.null											fb:part.null
+17	4	fb:cell.null											fb:part.null
+17	5	fb:cell.null											fb:part.null
+17	6	fb:cell.null											fb:part.null
+18	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+18	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+18	2	fb:cell.kansas	Kansas	kansas	Kansas	NNP	LOCATION					Kansas	fb:part.kansas
+18	3	fb:cell.larry_brown	Larry Brown	larry|brown	Larry|Brown	NNP|NNP	PERSON|PERSON	|					
+18	4	fb:cell.national_semifinals	National Semifinals	national|semifinals	National|Semifinals	NNP|NNP	O|O	|					
+18	5	fb:cell.1_duke	1 Duke	1|duke	1|Duke	CD|NNP	NUMBER|ORGANIZATION	1.0|	1.0				
+18	6	fb:cell.l_71_67	L 71-67	l|71-67	l|71-67	NN|CD	O|NUMBER	|71.0 - 67.0	71.0		67.0		
+19	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+19	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+19	2	fb:cell.michigan	Michigan	michigan	Michigan	NNP	LOCATION					Michigan	fb:part.michigan
+19	3	fb:cell.bill_frieder	Bill Frieder	bill|frieder	Bill|Frieder	NNP|NNP	PERSON|PERSON	|					
+19	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+19	5	fb:cell.7_iowa_state	7 Iowa State	7|iowa|state	7|Iowa|State	CD|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION	7.0||	7.0				
+19	6	fb:cell.l_72_69	L 72-69	l|72-69	l|72-69	NN|CD	O|DATE	|1969	72.0		69.0		
+20	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+20	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+20	2	fb:cell.notre_dame	Notre Dame	notre|dame	Notre|Dame	NNP|NNP	O|O	|				Notre Dame	fb:part.notre_dame
+20	3	fb:cell.digger_phelps	Digger Phelps	digger|phelps	Digger|Phelps	NNP|NNP	PERSON|PERSON	|					
+20	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+20	5	fb:cell.14_arkansas_little_rock	14 Arkansas-Little Rock	14|arkansas|little|rock	14|Arkansas|Little|Rock	CD|NNP|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION|ORGANIZATION	14.0|||	14.0				
+20	6	fb:cell.l_90_83	L 90-83	l|90-83	l|90-83	NN|CD	O|DATE	|1983	90.0		83.0		
+21	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+21	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+21	2	fb:cell.georgetown	Georgetown	georgetown	Georgetown	NNP	LOCATION					Georgetown	fb:part.georgetown
+21	3	fb:cell.john_thompson	John Thompson	john|thompson	John|Thompson	NNP|NNP	PERSON|PERSON	|					
+21	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+21	5	fb:cell.5_michigan_state	5 Michigan State	5|michigan|state	5|Michigan|State	CD|NNP|NNP	NUMBER|LOCATION|O	5.0||	5.0				
+21	6	fb:cell.l_80_68	L 80-68	l|80-68	l|80-68	NN|CD	O|DATE	|1968	80.0		68.0		
+22	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+22	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+22	2	fb:cell.michigan_state	Michigan State	michigan|state	Michigan|State	NNP|NNP	LOCATION|O	|				Michigan State	fb:part.michigan_state
+22	3	fb:cell.jud_heathcote	Jud Heathcote	jud|heathcote	Jud|Heathcote	NNP|NNP	PERSON|PERSON	|					
+22	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+22	5	fb:cell.1_kansas	1 Kansas	1|kansas	1|Kansas	CD|NNP	NUMBER|LOCATION	1.0|	1.0				
+22	6	fb:cell.l_96_86	L 96-86	l|96-86	l|96-86	NN|CD	O|DATE	|1986	96.0		86.0		
+23	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+23	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+23	2	fb:cell.north_carolina_state	North Carolina State	north|carolina|state	North|Carolina|State	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				North Carolina State	fb:part.north_carolina_state
+23	3	fb:cell.jim_valvano	Jim Valvano	jim|valvano	Jim|Valvano	NNP|NNP	PERSON|PERSON	|					
+23	4	fb:cell.regional_runner_up	Regional Runner-up	regional|runner|up	Regional|Runner|up	NNP|NNP|IN	O|O|O	||					
+23	5	fb:cell.1_kansas	1 Kansas	1|kansas	1|Kansas	CD|NNP	NUMBER|LOCATION	1.0|	1.0				
+23	6	fb:cell.l_75_67	L 75-67	l|75-67	l|75-67	NN|CD	O|DATE	|1967	75.0		67.0		
+24	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+24	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+24	2	fb:cell.iowa_state	Iowa State	iowa|state	Iowa|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Iowa State	fb:part.iowa_state
+24	3	fb:cell.johnny_orr	Johnny Orr	johnny|orr	Johnny|Orr	NNP|NNP	PERSON|PERSON	|					
+24	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+24	5	fb:cell.6_north_carolina_state	6 North Carolina State	6|north|carolina|state	6|North|Carolina|State	CD|NNP|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION|ORGANIZATION	6.0|||	6.0				
+24	6	fb:cell.l_70_66	L 70-66	l|70-66	l|70-66	NN|CD	O|DATE	|1966	70.0		66.0		
+25	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+25	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+25	2	fb:cell.jacksonville	Jacksonville	jacksonville	Jacksonville	NNP	LOCATION					Jacksonville	fb:part.jacksonville
+25	3	fb:cell.bob_wenzel	Bob Wenzel	bob|wenzel	Bob|Wenzel	NNP|NNP	PERSON|PERSON	|					
+25	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+25	5	fb:cell.9_temple	9 Temple	9|temple	9|Temple	CD|NNP	NUMBER|O	9.0|	9.0				
+25	6	fb:cell.l_61_50	L 61-50	l|61-50	l|61-50	NN|CD	O|NUMBER	|61.0 - 50.0	61.0		50.0		
+26	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+26	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+26	2	fb:cell.temple	Temple	temple	Temple	NNP	O					Temple	fb:part.temple
+26	3	fb:cell.john_chaney	John Chaney	john|chaney	John|Chaney	NNP|NNP	PERSON|PERSON	|					
+26	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+26	5	fb:cell.1_kansas	1 Kansas	1|kansas	1|Kansas	CD|NNP	NUMBER|LOCATION	1.0|	1.0				
+26	6	fb:cell.l_65_43	L 65-43	l|65-43	l|65-43	NN|CD	O|NUMBER	|65.0 - 43.0	65.0		43.0		
+27	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+27	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+27	2	fb:cell.miami_ohio	Miami, Ohio	miami|,|ohio	Miami|,|Ohio	NNP|,|NNP	LOCATION|O|LOCATION	||				Miami|Ohio	fb:part.miami|fb:part.ohio
+27	3	fb:cell.jerry_peirson	Jerry Peirson	jerry|peirson	Jerry|Peirson	NNP|NNP	PERSON|PERSON	|					
+27	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+27	5	fb:cell.7_iowa_state	7 Iowa State	7|iowa|state	7|Iowa|State	CD|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION	7.0||	7.0				
+27	6	fb:cell.l_81_79	L 81-79	l|81-79	l|81-79	NN|CD	O|DATE	|1979	81.0		79.0		
+28	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+28	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+28	2	fb:cell.iowa	Iowa	iowa	Iowa	NNP	LOCATION					Iowa	fb:part.iowa
+28	3	fb:cell.george_raveling	George Raveling	george|raveling	George|Raveling	NNP|NNP	PERSON|PERSON	|					
+28	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+28	5	fb:cell.6_north_carolina_state	6 North Carolina State	6|north|carolina|state	6|North|Carolina|State	CD|NNP|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION|ORGANIZATION	6.0|||	6.0				
+28	6	fb:cell.l_66_64	L 66-64	l|66-64	l|66-64	NN|CD	O|NUMBER	|66.0 - 64.0	66.0		64.0		
+29	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+29	1	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+29	2	fb:cell.washington	Washington	washington	Washington	NNP	LOCATION					Washington	fb:part.washington
+29	3	fb:cell.andy_russo	Andy Russo	andy|russo	Andy|Russo	NNP|NNP	PERSON|PERSON	|					
+29	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+29	5	fb:cell.5_michigan_state	5 Michigan State	5|michigan|state	5|Michigan|State	CD|NNP|NNP	NUMBER|LOCATION|O	5.0||	5.0				
+29	6	fb:cell.l_72_70	L 72-70	l|72-70	l|72-70	NN|CD	O|NUMBER	|72.0 - 70.0	72.0		70.0		
+30	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+30	1	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+30	2	fb:cell.texas_tech	Texas Tech	texas|tech	Texas|Tech	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Texas Tech	fb:part.texas_tech
+30	3	fb:cell.gerald_myers	Gerald Myers	gerald|myers	Gerald|Myers	NNP|NNP	PERSON|PERSON	|					
+30	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+30	5	fb:cell.4_georgetown	4 Georgetown	4|georgetown	4|Georgetown	CD|NNP	NUMBER|LOCATION	4.0|	4.0				
+30	6	fb:cell.l_70_64	L 70-64	l|70-64	l|70-64	NN|CD	O|NUMBER	|70.0 - 64.0	70.0		64.0		
+31	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+31	1	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+31	2	fb:cell.arkansas_little_rock	Arkansas-Little Rock	arkansas|little|rock	Arkansas|Little|Rock	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				Arkansas-Little Rock	fb:part.arkansas_little_rock
+31	3	fb:cell.mike_newell	Mike Newell	mike|newell	Mike|Newell	NNP|NNP	PERSON|PERSON	|					
+31	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+31	5	fb:cell.6_north_carolina_state	6 North Carolina State	6|north|carolina|state	6|North|Carolina|State	CD|NNP|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION|ORGANIZATION	6.0|||	6.0				
+31	6	fb:cell.l_80_66	L 80-66	l|80-66	l|80-66	NN|CD	O|DATE	|1966	80.0		66.0		
+32	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+32	1	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+32	2	fb:cell.akron	Akron	akron	Akron	NNP	LOCATION					Akron	fb:part.akron
+32	3	fb:cell.bob_huggins	Bob Huggins	bob|huggins	Bob|Huggins	NNP|NNP	PERSON|PERSON	|					
+32	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+32	5	fb:cell.2_michigan	2 Michigan	2|michigan	2|Michigan	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+32	6	fb:cell.l_70_64	L 70-64	l|70-64	l|70-64	NN|CD	O|NUMBER	|70.0 - 64.0	70.0		64.0		
+33	0	fb:cell.midwest	Midwest	midwest	Midwest	NNP	LOCATION						
+33	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+33	2	fb:cell.north_carolina_a_t	North Carolina A&T	north|carolina|a&t	North|Carolina|A&T	NNP|NNP|NNP	LOCATION|LOCATION|O	||				North Carolina A&T	fb:part.north_carolina_a_t
+33	3	fb:cell.don_corbett	Don Corbett	don|corbett	Don|Corbett	NNP|NNP	PERSON|PERSON	|					
+33	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+33	5	fb:cell.1_kansas	1 Kansas	1|kansas	1|Kansas	CD|NNP	NUMBER|LOCATION	1.0|	1.0				
+33	6	fb:cell.l_71_46	L 71-46	l|71-46	l|71-46	NN|CD	O|DATE	|2046	71.0		46.0		
+34	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+34	1	fb:cell.null											fb:part.null
+34	2	fb:cell.null											fb:part.null
+34	3	fb:cell.null											fb:part.null
+34	4	fb:cell.null											fb:part.null
+34	5	fb:cell.null											fb:part.null
+34	6	fb:cell.null											fb:part.null
+35	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+35	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+35	2	fb:cell.kentucky	Kentucky	kentucky	Kentucky	NNP	LOCATION					Kentucky	fb:part.kentucky
+35	3	fb:cell.eddie_sutton	Eddie Sutton	eddie|sutton	Eddie|Sutton	NNP|NNP	PERSON|PERSON	|					
+35	4	fb:cell.regional_runner_up	Regional Runner-up	regional|runner|up	Regional|Runner|up	NNP|NNP|IN	O|O|O	||					
+35	5	fb:cell.11_lsu	11 LSU	11|lsu	11|lsu	CD|NN	NUMBER|O	11.0|	11.0				
+35	6	fb:cell.l_59_57	L 59-57	l|59-57	l|59-57	NN|CD	O|NUMBER	|59.0 - 57.0	59.0		57.0		
+36	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+36	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+36	2	fb:cell.georgia_tech	Georgia Tech	georgia|tech	Georgia|Tech	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Georgia Tech	fb:part.georgia_tech
+36	3	fb:cell.bobby_cremins	Bobby Cremins	bobby|cremins	Bobby|Cremins	NNP|NNP	PERSON|PERSON	|					
+36	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+36	5	fb:cell.11_lsu	11 LSU	11|lsu	11|lsu	CD|NN	NUMBER|O	11.0|	11.0				
+36	6	fb:cell.l_70_64	L 70-64	l|70-64	l|70-64	NN|CD	O|NUMBER	|70.0 - 64.0	70.0		64.0		
+37	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+37	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+37	2	fb:cell.memphis_state_vacated	Memphis State (Vacated)	memphis|state|-lrb-|vacated|-rrb-	Memphis|State|-lrb-|vacate|-rrb-	NNP|NNP|-LRB-|VBN|-RRB-	O|O|O|O|O	||||				Memphis State (Vacated)	fb:part.memphis_state_vacated
+37	3	fb:cell.dana_kirk	Dana Kirk	dana|kirk	Dana|Kirk	NNP|NNP	PERSON|PERSON	|					
+37	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+37	5	fb:cell.11_lsu	11 LSU	11|lsu	11|lsu	CD|NN	NUMBER|O	11.0|	11.0				
+37	6	fb:cell.l_83_81	L 83-81	l|83-81	l|83-81	NN|CD	O|NUMBER	|83.0 - 81.0	83.0		81.0		
+38	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+38	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+38	2	fb:cell.illinois	Illinois	illinois	Illinois	NNP	LOCATION					Illinois	fb:part.illinois
+38	3	fb:cell.lou_henson	Lou Henson	lou|henson	Lou|Henson	NNP|NNP	PERSON|PERSON	|					
+38	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+38	5	fb:cell.5_alabama	5 Alabama	5|alabama	5|Alabama	CD|NNP	NUMBER|LOCATION	5.0|	5.0				
+38	6	fb:cell.l_58_56	L 58-56	l|58-56	l|58-56	NN|CD	O|DATE	|1956	58.0		56.0		
+39	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+39	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+39	2	fb:cell.alabama	Alabama	alabama	Alabama	NNP	LOCATION					Alabama	fb:part.alabama
+39	3	fb:cell.wimp_sanderson	Wimp Sanderson	wimp|sanderson	Wimp|Sanderson	NNP|NNP	PERSON|PERSON	|					
+39	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+39	5	fb:cell.1_kentucky	1 Kentucky	1|kentucky	1|Kentucky	CD|NNP	NUMBER|LOCATION	1.0|	1.0				
+39	6	fb:cell.l_68_63	L 68-63	l|68-63	l|68-63	NN|CD	O|NUMBER	|68.0 - 63.0	68.0		63.0		
+40	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+40	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+40	2	fb:cell.purdue	Purdue	purdue	Purdue	NNP	LOCATION					Purdue	fb:part.purdue
+40	3	fb:cell.gene_keady	Gene Keady	gene|keady	Gene|Keady	NNP|NNP	PERSON|PERSON	|					
+40	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+40	5	fb:cell.11_lsu	11 LSU	11|lsu	11|lsu	CD|NN	NUMBER|O	11.0|	11.0				
+40	6	fb:cell.l_94_87	L 94-87	l|94-87	l|94-87	NN|CD	O|DATE	|1987	94.0		87.0		
+41	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+41	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+41	2	fb:cell.virginia_tech	Virginia Tech	virginia|tech	Virginia|Tech	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Virginia Tech	fb:part.virginia_tech
+41	3	fb:cell.charles_moir	Charles Moir	charles|moir	Charles|Moir	NNP|NNP	PERSON|PERSON	|					
+41	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+41	5	fb:cell.10_villanova	10 Villanova	10|villanova	10|villanova	CD|NN	NUMBER|ORGANIZATION	10.0|	10.0				
+41	6	fb:cell.l_71_62	L 71-62	l|71-62	l|71-62	NN|CD	O|NUMBER	|71.0 - 62.0	71.0		62.0		
+42	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+42	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+42	2	fb:cell.western_kentucky	Western Kentucky	western|kentucky	western|Kentucky	JJ|NNP	O|LOCATION	|				Western Kentucky	fb:part.western_kentucky
+42	3	fb:cell.clem_haskins	Clem Haskins	clem|haskins	Clem|Haskins	NNP|NNP	PERSON|PERSON	|					
+42	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+42	5	fb:cell.1_kentucky	1 Kentucky	1|kentucky	1|Kentucky	CD|NNP	NUMBER|LOCATION	1.0|	1.0				
+42	6	fb:cell.l_71_64	L 71-64	l|71-64	l|71-64	NN|CD	O|NUMBER	|71.0 - 64.0	71.0		64.0		
+43	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+43	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+43	2	fb:cell.nebraska	Nebraska	nebraska	Nebraska	NNP	LOCATION					Nebraska	fb:part.nebraska
+43	3	fb:cell.moe_iba	Moe Iba	moe|iba	Moe|Iba	NNP|NNP	PERSON|PERSON	|					
+43	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+43	5	fb:cell.8_western_kentucky	8 Western Kentucky	8|western|kentucky	8|western|Kentucky	CD|JJ|NNP	NUMBER|O|LOCATION	8.0||	8.0				
+43	6	fb:cell.l_67_59	L 67-59	l|67-59	l|67-59	NN|CD	O|DATE	|1959	67.0		59.0		
+44	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+44	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+44	2	fb:cell.villanova	Villanova	villanova	Villanova	NNP	PERSON					Villanova	fb:part.villanova
+44	3	fb:cell.rollie_massimino	Rollie Massimino	rollie|massimino	Rollie|Massimino	NNP|NNP	PERSON|PERSON	|					
+44	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+44	5	fb:cell.2_georgia_tech	2 Georgia Tech	2|georgia|tech	2|Georgia|Tech	CD|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION	2.0||	2.0				
+44	6	fb:cell.l_66_61	L 66-61	l|66-61	l|66-61	NN|CD	O|NUMBER	|66.0 - 61.0	66.0		61.0		
+45	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+45	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+45	2	fb:cell.lsu	LSU	lsu	LSU	NNP	O					LSU	fb:part.lsu
+45	3	fb:cell.dale_brown	Dale Brown	dale|brown	Dale|Brown	NNP|NNP	PERSON|PERSON	|					
+45	4	fb:cell.national_semifinals	National Semifinals	national|semifinals	National|Semifinals	NNP|NNP	O|O	|					
+45	5	fb:cell.2_louisville	2 Louisville	2|louisville	2|Louisville	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+45	6	fb:cell.l_88_77	L 88-77	l|88-77	l|88-77	NN|CD	O|DATE	|1977	88.0		77.0		
+46	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+46	1	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+46	2	fb:cell.xavier	Xavier	xavier	Xavier	NNP	PERSON					Xavier	fb:part.xavier
+46	3	fb:cell.pete_gillen	Pete Gillen	pete|gillen	Pete|Gillen	NNP|NNP	PERSON|PERSON	|					
+46	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+46	5	fb:cell.5_alabama	5 Alabama	5|alabama	5|Alabama	CD|NNP	NUMBER|LOCATION	5.0|	5.0				
+46	6	fb:cell.l_97_80	L 97-80	l|97-80	l|97-80	NN|CD	O|NUMBER	|97.0 - 80.0	97.0		80.0		
+47	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+47	1	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+47	2	fb:cell.fairfield	Fairfield	fairfield	Fairfield	NNP	LOCATION					Fairfield	fb:part.fairfield
+47	3	fb:cell.mitch_buonaguro	Mitch Buonaguro	mitch|buonaguro	Mitch|Buonaguro	NNP|NNP	PERSON|PERSON	|					
+47	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+47	5	fb:cell.4_illinois	4 Illinois	4|illinois	4|Illinois	CD|NNP	NUMBER|LOCATION	4.0|	4.0				
+47	6	fb:cell.l_75_51	L 75-51	l|75-51	l|75-51	NN|CD	O|DATE	|1951	75.0		51.0		
+48	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+48	1	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+48	2	fb:cell.ball_state	Ball State	ball|state	Ball|State	NNP|NNP	O|O	|				Ball State	fb:part.ball_state
+48	3	fb:cell.al_brown	Al Brown	al|brown	Al|Brown	NNP|NNP	PERSON|PERSON	|					
+48	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+48	5	fb:cell.3_memphis	3 Memphis	3|memphis	3|Memphis	CD|NNP	NUMBER|LOCATION	3.0|	3.0				
+48	6	fb:cell.l_95_63	L 95-63	l|95-63	l|95-63	NN|CD	O|DATE	|1963	95.0		63.0		
+49	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+49	1	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+49	2	fb:cell.marist	Marist	marist	Marist	NNP	O					Marist	fb:part.marist
+49	3	fb:cell.matt_furjanic	Matt Furjanic	matt|furjanic	Matt|Furjanic	NNP|NNP	PERSON|PERSON	|					
+49	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+49	5	fb:cell.2_georgia_tech	2 Georgia Tech	2|georgia|tech	2|Georgia|Tech	CD|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION	2.0||	2.0				
+49	6	fb:cell.l_68_53	L 68-53	l|68-53	l|68-53	NN|CD	O|NUMBER	|68.0 - 53.0	68.0		53.0		
+50	0	fb:cell.southeast	Southeast	southeast	Southeast	NNP	O						
+50	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+50	2	fb:cell.davidson	Davidson	davidson	Davidson	NNP	PERSON					Davidson	fb:part.davidson
+50	3	fb:cell.bobby_hussey	Bobby Hussey	bobby|hussey	Bobby|Hussey	NNP|NNP	PERSON|PERSON	|					
+50	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+50	5	fb:cell.1_kentucky	1 Kentucky	1|kentucky	1|Kentucky	CD|NNP	NUMBER|LOCATION	1.0|	1.0				
+50	6	fb:cell.l_75_55	L 75-55	l|75-55	l|75-55	NN|CD	O|DATE	|1955	75.0		55.0		
+51	0	fb:cell.east	East	east	East	NNP	O						
+51	1	fb:cell.null											fb:part.null
+51	2	fb:cell.null											fb:part.null
+51	3	fb:cell.null											fb:part.null
+51	4	fb:cell.null											fb:part.null
+51	5	fb:cell.null											fb:part.null
+51	6	fb:cell.null											fb:part.null
+52	0	fb:cell.east	East	east	East	NNP	O						
+52	1	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+52	2	fb:cell.duke	Duke	duke	Duke	NNP	PERSON					Duke	fb:part.duke
+52	3	fb:cell.mike_krzyzewski	Mike Krzyzewski	mike|krzyzewski	Mike|Krzyzewski	NNP|NNP	PERSON|PERSON	|					
+52	4	fb:cell.runner_up	Runner Up	runner|up	Runner|up	NNP|IN	O|O	|					
+52	5	fb:cell.2_louisville	2 Louisville	2|louisville	2|Louisville	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+52	6	fb:cell.l_72_69	L 72-69	l|72-69	l|72-69	NN|CD	O|DATE	|1969	72.0		69.0		
+53	0	fb:cell.east	East	east	East	NNP	O						
+53	1	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+53	2	fb:cell.syracuse	Syracuse	syracuse	Syracuse	NNP	LOCATION					Syracuse	fb:part.syracuse
+53	3	fb:cell.jim_boeheim	Jim Boeheim	jim|boeheim	Jim|Boeheim	NNP|NNP	PERSON|PERSON	|					
+53	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+53	5	fb:cell.7_navy	7 Navy	7|navy	7|Navy	CD|NNP	NUMBER|ORGANIZATION	7.0|	7.0				
+53	6	fb:cell.l_97_85	L 97-85	l|97-85	l|97-85	NN|CD	O|DATE	|1985	97.0		85.0		
+54	0	fb:cell.east	East	east	East	NNP	O						
+54	1	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+54	2	fb:cell.indiana	Indiana	indiana	Indiana	NNP	LOCATION					Indiana	fb:part.indiana
+54	3	fb:cell.bob_knight	Bob Knight	bob|knight	Bob|Knight	NNP|NNP	PERSON|PERSON	|					
+54	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+54	5	fb:cell.14_cleveland_state	14 Cleveland State	14|cleveland|state	14|Cleveland|State	CD|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION	14.0||	14.0				
+54	6	fb:cell.l_83_79	L 83-79	l|83-79	l|83-79	NN|CD	O|DATE	|1979	83.0		79.0		
+55	0	fb:cell.east	East	east	East	NNP	O						
+55	1	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+55	2	fb:cell.oklahoma	Oklahoma	oklahoma	Oklahoma	NNP	LOCATION					Oklahoma	fb:part.oklahoma
+55	3	fb:cell.billy_tubbs	Billy Tubbs	billy|tubbs	Billy|Tubbs	NNP|NNP	PERSON|PERSON	|					
+55	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+55	5	fb:cell.12_depaul	12 DePaul	12|depaul	12|DePaul	CD|NNP	NUMBER|O	12.0|	12.0				
+55	6	fb:cell.l_74_69	L 74-69	l|74-69	l|74-69	NN|CD	O|DATE	|1969	74.0		69.0		
+56	0	fb:cell.east	East	east	East	NNP	O						
+56	1	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+56	2	fb:cell.virginia	Virginia	virginia	Virginia	NNP	LOCATION					Virginia	fb:part.virginia
+56	3	fb:cell.terry_holland	Terry Holland	terry|holland	Terry|Holland	NNP|NNP	PERSON|PERSON	|					
+56	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+56	5	fb:cell.12_depaul	12 DePaul	12|depaul	12|DePaul	CD|NNP	NUMBER|O	12.0|	12.0				
+56	6	fb:cell.l_72_68	L 72-68	l|72-68	l|72-68	NN|CD	O|NUMBER	|72.0 - 68.0	72.0		68.0		
+57	0	fb:cell.east	East	east	East	NNP	O						
+57	1	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+57	2	fb:cell.saint_joseph_s	Saint Joseph's	saint|joseph|'s	Saint|Joseph|'s	NNP|NNP|POS	O|PERSON|O	||				Saint Joseph's	fb:part.saint_joseph_s
+57	3	fb:cell.jim_boyle	Jim Boyle	jim|boyle	Jim|Boyle	NNP|NNP	PERSON|PERSON	|					
+57	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+57	5	fb:cell.14_cleveland_state	14 Cleveland State	14|cleveland|state	14|Cleveland|State	CD|NNP|NNP	NUMBER|ORGANIZATION|ORGANIZATION	14.0||	14.0				
+57	6	fb:cell.l_75_69	L 75-69	l|75-69	l|75-69	NN|CD	O|DATE	|1969	75.0		69.0		
+58	0	fb:cell.east	East	east	East	NNP	O						
+58	1	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+58	2	fb:cell.navy	Navy	navy	Navy	NNP	ORGANIZATION					Navy	fb:part.navy
+58	3	fb:cell.paul_evans	Paul Evans	paul|evans	Paul|Evans	NNP|NNP	PERSON|PERSON	|					
+58	4	fb:cell.regional_runner_up	Regional Runner-up	regional|runner|up	Regional|Runner|up	NNP|NNP|IN	O|O|O	||					
+58	5	fb:cell.1_duke	1 Duke	1|duke	1|Duke	CD|NNP	NUMBER|ORGANIZATION	1.0|	1.0				
+58	6	fb:cell.l_71_50	L 71-50	l|71-50	l|71-50	NN|CD	O|NUMBER	|71.0 - 50.0	71.0		50.0		
+59	0	fb:cell.east	East	east	East	NNP	O						
+59	1	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+59	2	fb:cell.old_dominion	Old Dominion	old|dominion	Old|Dominion	NNP|NNP	O|O	|				Old Dominion	fb:part.old_dominion
+59	3	fb:cell.tom_young	Tom Young	tom|young	Tom|Young	NNP|NNP	PERSON|PERSON	|					
+59	4	fb:cell.round_of_32	Round of 32	round|of|32	Round|of|32	NNP|IN|CD	O|O|NUMBER	||32.0	32.0				
+59	5	fb:cell.1_duke	1 Duke	1|duke	1|Duke	CD|NNP	NUMBER|ORGANIZATION	1.0|	1.0				
+59	6	fb:cell.l_89_61	L 89-61	l|89-61	l|89-61	NN|CD	O|NUMBER	|89.0 - 61.0	89.0		61.0		
+60	0	fb:cell.east	East	east	East	NNP	O						
+60	1	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+60	2	fb:cell.west_virginia	West Virginia	west|virginia	West|Virginia	NNP|NNP	LOCATION|LOCATION	|				West Virginia	fb:part.west_virginia
+60	3	fb:cell.gale_catlett	Gale Catlett	gale|catlett	Gale|Catlett	NNP|NNP	PERSON|PERSON	|					
+60	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+60	5	fb:cell.8_old_dominion	8 Old Dominion	8|old|dominion	8|Old|Dominion	CD|NNP|NNP	NUMBER|O|O	8.0||	8.0				
+60	6	fb:cell.l_72_64	L 72-64	l|72-64	l|72-64	NN|CD	O|NUMBER	|72.0 - 64.0	72.0		64.0		
+61	0	fb:cell.east	East	east	East	NNP	O						
+61	1	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+61	2	fb:cell.tulsa	Tulsa	tulsa	Tulsa	NNP	LOCATION					Tulsa	fb:part.tulsa
+61	3	fb:cell.j_d_barnett	J. D. Barnett	j.|d.|barnett	J.|D.|Barnett	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+61	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+61	5	fb:cell.7_navy	7 Navy	7|navy	7|Navy	CD|NNP	NUMBER|ORGANIZATION	7.0|	7.0				
+61	6	fb:cell.l_87_68	L 87-68	l|87-68	l|87-68	NN|CD	O|DATE	|1968	87.0		68.0		
+62	0	fb:cell.east	East	east	East	NNP	O						
+62	1	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+62	2	fb:cell.richmond	Richmond	richmond	Richmond	NNP	LOCATION					Richmond	fb:part.richmond
+62	3	fb:cell.dick_tarrant	Dick Tarrant	dick|tarrant	Dick|Tarrant	NNP|NNP	PERSON|PERSON	|					
+62	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+62	5	fb:cell.6_saint_joseph_s	6 Saint Joseph's	6|saint|joseph|'s	6|Saint|Joseph|'s	CD|NNP|NNP|POS	NUMBER|O|PERSON|O	6.0|||	6.0				
+62	6	fb:cell.l_60_59	L 60-59	l|60-59	l|60-59	NN|CD	O|DATE	|1959	60.0		59.0		
+63	0	fb:cell.east	East	east	East	NNP	O						
+63	1	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+63	2	fb:cell.depaul	DePaul	depaul	DePaul	NNP	ORGANIZATION					DePaul	fb:part.depaul
+63	3	fb:cell.joey_meyer	Joey Meyer	joey|meyer	Joey|Meyer	NNP|NNP	PERSON|PERSON	|					
+63	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+63	5	fb:cell.1_duke	1 Duke	1|duke	1|Duke	CD|NNP	NUMBER|ORGANIZATION	1.0|	1.0				
+63	6	fb:cell.l_74_67	L 74-67	l|74-67	l|74-67	NN|CD	O|NUMBER	|74.0 - 67.0	74.0		67.0		
+64	0	fb:cell.east	East	east	East	NNP	O						
+64	1	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+64	2	fb:cell.northeastern	Northeastern	northeastern	northeastern	JJ	O					Northeastern	fb:part.northeastern
+64	3	fb:cell.jim_calhoun	Jim Calhoun	jim|calhoun	Jim|Calhoun	NNP|NNP	PERSON|PERSON	|					
+64	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+64	5	fb:cell.4_oklahoma	4 Oklahoma	4|oklahoma	4|Oklahoma	CD|NNP	NUMBER|LOCATION	4.0|	4.0				
+64	6	fb:cell.l_80_74	L 80-74	l|80-74	l|80-74	NN|CD	O|NUMBER	|80.0 - 74.0	80.0		74.0		
+65	0	fb:cell.east	East	east	East	NNP	O						
+65	1	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+65	2	fb:cell.cleveland_state	Cleveland State	cleveland|state	Cleveland|State	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Cleveland State	fb:part.cleveland_state
+65	3	fb:cell.kevin_mackey	Kevin Mackey	kevin|mackey	Kevin|Mackey	NNP|NNP	PERSON|PERSON	|					
+65	4	fb:cell.sweet_sixteen	Sweet Sixteen	sweet|sixteen	Sweet|sixteen	NNP|CD	O|NUMBER	|16.0					
+65	5	fb:cell.7_navy	7 Navy	7|navy	7|Navy	CD|NNP	NUMBER|ORGANIZATION	7.0|	7.0				
+65	6	fb:cell.l_71_70	L 71-70	l|71-70	l|71-70	NN|CD	O|NUMBER	|71.0 - 70.0	71.0		70.0		
+66	0	fb:cell.east	East	east	East	NNP	O						
+66	1	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+66	2	fb:cell.brown	Brown	brown	Brown	NNP	PERSON					Brown	fb:part.brown
+66	3	fb:cell.mike_cingiser	Mike Cingiser	mike|cingiser	Mike|Cingiser	NNP|NNP	PERSON|PERSON	|					
+66	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+66	5	fb:cell.2_syracuse	2 Syracuse	2|syracuse	2|Syracuse	CD|NNP	NUMBER|LOCATION	2.0|	2.0				
+66	6	fb:cell.l_101_52	L 101-52	l|101-52	l|101-52	NN|CD	O|NUMBER	|101.0 - 52.0	101.0		52.0		
+67	0	fb:cell.east	East	east	East	NNP	O						
+67	1	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+67	2	fb:cell.mississippi_valley_state	Mississippi Valley State	mississippi|valley|state	Mississippi|Valley|State	NNP|NNP|NNP	LOCATION|LOCATION|LOCATION	||				Mississippi Valley State	fb:part.mississippi_valley_state
+67	3	fb:cell.lafayette_stribling	Lafayette Stribling	lafayette|stribling	Lafayette|Stribling	NNP|NNP	PERSON|PERSON	|					
+67	4	fb:cell.round_of_64	Round of 64	round|of|64	Round|of|64	NNP|IN|CD	O|O|NUMBER	||64.0	64.0				
+67	5	fb:cell.1_duke	1 Duke	1|duke	1|Duke	CD|NNP	NUMBER|ORGANIZATION	1.0|	1.0				
+67	6	fb:cell.l_85_78	L 85-78	l|85-78	l|85-78	NN|CD	O|DATE	|1978	85.0		78.0		

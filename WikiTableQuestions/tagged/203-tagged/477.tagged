@@ -1,0 +1,577 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.distribution	Distribution	distribution	distribution	NN	O						
+-1	1	fb:row.row.x86	x86	x86	x86	NN	O						
+-1	2	fb:row.row.x86_64	x86-64	x86-64	x86-64	NN	O						
+-1	3	fb:row.row.ia64	ia64	ia64	ia64	NN	O						
+-1	4	fb:row.row.ppc	ppc	ppc	ppc	NN	O						
+-1	5	fb:row.row.ppc64	ppc64	ppc64	ppc64	NN	O						
+-1	6	fb:row.row.sparc32	sparc32	sparc32	sparc32	NN	O						
+-1	7	fb:row.row.sparc64	sparc64	sparc64	sparc64	NN	O						
+-1	8	fb:row.row.arm	arm	arm	arm	NN	O						
+-1	9	fb:row.row.hppa	hppa	hppa	hppa	NN	O						
+-1	10	fb:row.row.mips	mips	mips	mips	NNS	O						
+-1	11	fb:row.row.sh	sh	sh	sh	NN	O						
+-1	12	fb:row.row.s390	s390	s390	s390	NN	O						
+-1	13	fb:row.row.s390x	s390x	s390x	s390x	NN	O						
+-1	14	fb:row.row.alpha	alpha	alpha	alpha	NN	O						
+-1	15	fb:row.row.m68k	m68k	m68k	m68k	NN	O						
+0	0	fb:cell.arch_linux	Arch Linux	arch|linux	Arch|Linux	NNP|NNP	O|O	|				Arch Linux	fb:part.arch_linux
+0	1	fb:cell.yes_i686	Yes (>=i686)	yes|-lrb-|>|=|i686|-rrb-	yes|-lrb-|>|=|i686|-rrb-	UH|-LRB-|JJR|JJ|NN|-RRB-	O|O|O|O|O|O	|||||	686.0			Yes (>=i686)	fb:part.yes_i686
+0	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+0	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	4	fb:cell.discontinued_unofficial_port	Discontinued unofficial port	discontinued|unofficial|port	discontinue|unofficial|port	VBN|JJ|NN	O|O|O	||				Discontinued unofficial port	fb:part.discontinued_unofficial_port
+0	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	8	fb:cell.yes_unofficial	Yes\nUnofficial	yes|unofficial	yes|Unofficial	UH|NNP	O|O	|				Yes|Unofficial	fb:part.yes|fb:part.unofficial
+0	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+0	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	0	fb:cell.backtrack	BackTrack	backtrack	BackTrack	NNP	O					BackTrack	fb:part.backtrack
+1	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+1	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+1	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+1	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+1	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	0	fb:cell.bodhi_linux	Bodhi Linux	bodhi|linux	Bodhi|Linux	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Bodhi Linux	fb:part.bodhi_linux
+2	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+2	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+2	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+2	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+2	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	0	fb:cell.boss_linux	BOSS Linux	boss|linux	boss|linux	NN|NN	O|O	|				BOSS Linux	fb:part.boss_linux
+3	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+3	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+3	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+3	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+3	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+3	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+3	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+4	0	fb:cell.centos	CentOS	centos	cento	NN	O					CentOS	fb:part.centos
+4	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+4	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+4	3	fb:cell.discontinued_3_5_3_8_4_1_4_7	Discontinued\n3.5-3.8\n4.1-4.7	discontinued|3.5-3|.8|4.1-4|.7	discontinue|3.5-3|.8|4.1-4|.7	VBN|CD|CD|CD|NN	O|NUMBER|NUMBER|NUMBER|NUMBER	|0.8|0.8|0.8|0.8	3.5		3.8	Discontinued|3.5-3.8|4.1-4.7	fb:part.discontinued|fb:part.3_5_3_8|fb:part.4_1_4_7
+4	4	fb:cell.beta_4_0	Beta\n4.0	beta|4.0	beta|4.0	NN|CD	O|NUMBER	|4.0	4.0			Beta|4.0	fb:part.beta|fb:part.4_0_2
+4	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+4	6	fb:cell.beta_4_2	Beta\n4.2	beta|4.2	beta|4.2	NN|CD	O|NUMBER	|4.2	4.2			Beta|4.2	fb:part.beta|fb:part.4_2
+4	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+4	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+4	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+4	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+4	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+4	12	fb:cell.discontinued_3_5_3_8_4_1_4_7	Discontinued\n3.5-3.8\n4.1-4.7	discontinued|3.5-3|.8|4.1-4|.7	discontinue|3.5-3|.8|4.1-4|.7	VBN|CD|CD|CD|NN	O|NUMBER|NUMBER|NUMBER|NUMBER	|0.8|0.8|0.8|0.8	3.5		3.8	Discontinued|3.5-3.8|4.1-4.7	fb:part.discontinued|fb:part.3_5_3_8|fb:part.4_1_4_7
+4	13	fb:cell.discontinued_3_5_3_8_4_1_4_7	Discontinued\n3.5-3.8\n4.1-4.7	discontinued|3.5-3|.8|4.1-4|.7	discontinue|3.5-3|.8|4.1-4|.7	VBN|CD|CD|CD|NN	O|NUMBER|NUMBER|NUMBER|NUMBER	|0.8|0.8|0.8|0.8	3.5		3.8	Discontinued|3.5-3.8|4.1-4.7	fb:part.discontinued|fb:part.3_5_3_8|fb:part.4_1_4_7
+4	14	fb:cell.discontinued_4_2_4_3	Discontinued\n4.2-4.3	discontinued|4.2-4|.3	discontinue|4.2-4|.3	VBN|CD|NN	O|NUMBER|NUMBER	|0.3|0.3	4.2		4.3	Discontinued|4.2-4.3	fb:part.discontinued|fb:part.4_2_4_3
+4	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	0	fb:cell.chakra	Chakra	chakra	Chakra	NNP	O					Chakra	fb:part.chakra
+5	1	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+5	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	8	fb:cell.null	?	?	?	.	O					?	fb:part.null
+5	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+5	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	0	fb:cell.crux	CRUX	crux	crux	NN	O					CRUX	fb:part.crux
+6	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+6	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+6	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+6	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+6	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+7	0	fb:cell.debian	Debian	debian	debian	JJ	O					Debian	fb:part.debian
+7	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+7	2	fb:cell.yes_4_0	Yes\n4.0+	yes|4.0|+	yes|4.0|+	UH|CD|CC	O|NUMBER|O	|4.0|	4.0			Yes|4.0+	fb:part.yes|fb:part.4_0
+7	3	fb:cell.discontinued_3_0_7_0	Discontinued\n3.0-7.0	discontinued|3.0-7|.0	discontinue|3.0-7|.0	VBN|CD|CD	O|NUMBER|NUMBER	|0.0|0.0	3.0		7.0	Discontinued|3.0-7.0	fb:part.discontinued|fb:part.3_0_7_0
+7	4	fb:cell.yes_2_2	Yes\n2.2+	yes|2.2|+	yes|2.2|+	RB|CD|CC	O|NUMBER|O	|2.2|	2.2			Yes|2.2+	fb:part.yes|fb:part.2_2
+7	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+7	6	fb:cell.discontinued_on_lenny	Discontinued on Lenny	discontinued|on|lenny	discontinue|on|Lenny	VBN|IN|NNP	O|O|PERSON	||				Discontinued on Lenny	fb:part.discontinued_on_lenny
+7	7	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+7	8	fb:cell.yes_2_2	Yes\n2.2+	yes|2.2|+	yes|2.2|+	RB|CD|CC	O|NUMBER|O	|2.2|	2.2			Yes|2.2+	fb:part.yes|fb:part.2_2
+7	9	fb:cell.discontinued_3_0_5_0	Discontinued\n3.0-5.0	discontinued|3.0-5|.0	discontinue|3.0-5|.0	VBN|CD|CD	O|NUMBER|NUMBER	|0.0|0.0	3.0		5.0	Discontinued|3.0-5.0	fb:part.discontinued|fb:part.3_0_5_0
+7	10	fb:cell.yes_3_0	Yes\n3.0+	yes|3.0|+	yes|3.0|+	UH|CD|CC	O|NUMBER|O	|3.0|	3.0			Yes|3.0+	fb:part.yes|fb:part.3_0
+7	11	fb:cell.in_progress	In progress	in|progress	in|progress	IN|NN	O|O	|					
+7	12	fb:cell.discontinued_3_0_7	Discontinued\n3.0-7	discontinued|3.0-7	discontinue|3.0-7	VBN|CD	O|NUMBER	|	3.0		7.0	Discontinued|3.0-7	fb:part.discontinued|fb:part.3_0_7
+7	13	fb:cell.yes_7	Yes\n7+	yes|7|+	yes|7|+	UH|CD|CC	O|NUMBER|O	|7.0|	7.0			Yes|7+	fb:part.yes|fb:part.7
+7	14	fb:cell.discontinued_2_1_5_0	Discontinued\n2.1-5.0	discontinued|2.1-5|.0	discontinue|2.1-5|.0	VBN|CD|CD	O|NUMBER|NUMBER	|0.0|0.0	2.1		5.0	Discontinued|2.1-5.0	fb:part.discontinued|fb:part.2_1_5_0
+7	15	fb:cell.discontinued_2_0_3_1	Discontinued\n2.0-3.1	discontinued|2.0-3|.1	discontinue|2.0-3|.1	VBN|CD|NN	O|NUMBER|NUMBER	|0.1|0.1	2.0		3.1	Discontinued|2.0-3.1	fb:part.discontinued|fb:part.2_0_3_1
+8	0	fb:cell.fedora	Fedora	fedora	Fedora	NNP	O					Fedora	fb:part.fedora
+8	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+8	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+8	3	fb:cell.discontinued_from_fedora_9	Discontinued from\nFedora 9	discontinued|from|fedora|9	discontinue|from|Fedora|9	VBN|IN|NNP|CD	O|O|O|NUMBER	|||9.0	9.0			Discontinued from|Fedora 9	fb:part.discontinued_from|fb:part.fedora_9
+8	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+8	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+8	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+8	7	fb:cell.still_active_but_slow_in_development_last_available_is_fedora_12_working_on_fedora_18	Still active but slow in development, Last available is\nFedora 12\n, Working on\nFedora 18	still|active|but|slow|in|development|,|last|available|is|fedora|12|,|working|on|fedora|18	still|active|but|slow|in|development|,|last|available|be|Fedora|12|,|work|on|Fedora|18	RB|JJ|CC|JJ|IN|NN|,|JJ|JJ|VBD-AUX|NNP|CD|,|VBG|IN|NNP|CD	O|O|O|O|O|O|O|O|O|O|O|NUMBER|O|O|O|O|NUMBER	|||||||||||12.0|||||18.0	12.0		18.0	Still active but slow in development|Last available is|Fedora 12|Working on|Fedora 18	fb:part.still_active_but_slow_in_development|fb:part.last_available_is|fb:part.fedora_12|fb:part.working_on|fb:part.fedora_18
+8	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+8	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+8	10	fb:cell.inactive_from_fedora_13	Inactive from\nFedora 13	inactive|from|fedora|13	inactive|from|Fedora|13	JJ|IN|NNP|CD	O|O|O|NUMBER	|||13.0	13.0			Inactive from|Fedora 13	fb:part.inactive_from|fb:part.fedora_13
+8	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+8	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+8	13	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+8	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+8	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	0	fb:cell.finnix	Finnix	finnix	Finnix	NNP	O					Finnix	fb:part.finnix
+9	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+9	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+9	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+9	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+9	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+9	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	0	fb:cell.frugalware	Frugalware	frugalware	frugalware	NN	O					Frugalware	fb:part.frugalware
+10	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+10	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+10	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+10	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+11	0	fb:cell.gentoo	Gentoo	gentoo	Gentoo	NNP	LOCATION					Gentoo	fb:part.gentoo
+11	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	6	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	7	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	9	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	10	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	11	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	12	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	13	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	14	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+11	15	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	0	fb:cell.kali_linux	Kali Linux	kali|linux	Kali|Linux	NNP|NNP	O|O	|				Kali Linux	fb:part.kali_linux
+12	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+12	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+12	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	0	fb:cell.mepis	MEPIS	mepis	mepi	NN	O					MEPIS	fb:part.mepis
+13	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+13	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+13	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+13	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+13	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	0	fb:cell.mintppc	MintPPC	mintppc	mintppc	NN	O					MintPPC	fb:part.mintppc
+14	1	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+14	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+14	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+14	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	0	fb:cell.oes2_linux	OES2-Linux	oes2|linux	oes2|linux	NN|NN	O|O	|	2.0			OES2-Linux	fb:part.oes2_linux
+15	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+15	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+15	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+15	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	0	fb:cell.openelec	OpenELEC	openelec	openelec	NN	O					OpenELEC	fb:part.openelec
+16	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+16	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+16	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+16	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+16	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	0	fb:cell.opensuse	openSUSE	opensuse	opensuse	NN	O					openSUSE	fb:part.opensuse
+17	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+17	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+17	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	7	fb:cell.partial	partial	partial	partial	JJ	O					partial	fb:part.partial
+17	8	fb:cell.partial	partial	partial	partial	JJ	O					partial	fb:part.partial
+17	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+17	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	0	fb:cell.openwrt	OpenWrt	openwrt	OpenWrt	NNP	O					OpenWrt	fb:part.openwrt
+18	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	10	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	11	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+18	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+18	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	0	fb:cell.oracle_linux	Oracle Linux	oracle|linux	Oracle|Linux	NNP|NNP	O|O	|				Oracle Linux	fb:part.oracle_linux
+19	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+19	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+19	3	fb:cell.discontinued_5	Discontinued\n5	discontinued|5	discontinue|5	VBN|CD	O|NUMBER	|5.0	5.0			Discontinued|5	fb:part.discontinued|fb:part.5
+19	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+19	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	0	fb:cell.red_flag_linux	Red Flag Linux	red|flag|linux	Red|Flag|Linux	NNP|NNP|NNP	O|O|O	||				Red Flag Linux	fb:part.red_flag_linux
+20	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+20	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+20	3	fb:cell.discontinued_3	Discontinued\n3	discontinued|3	discontinue|3	VBN|CD	O|NUMBER	|3.0	3.0			Discontinued|3	fb:part.discontinued|fb:part.3_2
+20	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	5	fb:cell.discontinued_3	Discontinued\n3	discontinued|3	discontinue|3	VBN|CD	O|NUMBER	|3.0	3.0			Discontinued|3	fb:part.discontinued|fb:part.3_2
+20	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+20	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+21	0	fb:cell.red_hat_linux	Red Hat Linux	red|hat|linux	Red|Hat|Linux	NNP|NNP|NNP	O|O|O	||				Red Hat Linux	fb:part.red_hat_linux
+21	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+21	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+21	3	fb:cell.discontinued_7_1_7_2	Discontinued\n7.1-7.2	discontinued|7.1-7|.2	discontinue|7.1-7|.2	VBN|CD|NN	O|NUMBER|NUMBER	|0.2|0.2	7.1		7.2	Discontinued|7.1-7.2	fb:part.discontinued|fb:part.7_1_7_2
+21	4	fb:cell.test_release_5_1	Test release\n5.1	test|release|5.1	test|release|5.1	NN|NN|CD	O|O|NUMBER	||5.1	5.1			Test release|5.1	fb:part.test_release|fb:part.5_1
+21	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+21	6	fb:cell.discontinued_4_0_4_2_5_1_6_2	Discontinued\n4.0-4.2\n5.1-6.2	discontinued|4.0-4|.2|5.1-6|.2	discontinue|4.0-4|.2|5.1-6|.2	VBN|CD|NN|CD|NN	O|NUMBER|NUMBER|NUMBER|NUMBER	|0.2|0.2|0.2|0.2	4.0		4.2	Discontinued|4.0-4.2|5.1-6.2	fb:part.discontinued|fb:part.4_0_4_2|fb:part.5_1_6_2
+21	7	fb:cell.test_release_5_1	Test release\n5.1	test|release|5.1	test|release|5.1	NN|NN|CD	O|O|NUMBER	||5.1	5.1			Test release|5.1	fb:part.test_release|fb:part.5_1
+21	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+21	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+21	10	fb:cell.test_release_5_1	Test release\n5.1	test|release|5.1	test|release|5.1	NN|NN|CD	O|O|NUMBER	||5.1	5.1			Test release|5.1	fb:part.test_release|fb:part.5_1
+21	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+21	12	fb:cell.discontinued_7_2	Discontinued\n7.2	discontinued|7.2	discontinue|7.2	VBN|CD	O|NUMBER	|7.2	7.2			Discontinued|7.2	fb:part.discontinued|fb:part.7_2
+21	13	fb:cell.discontinued_7_1	Discontinued\n7.1	discontinued|7.1	discontinue|7.1	VBN|CD	O|NUMBER	|7.1	7.1			Discontinued|7.1	fb:part.discontinued|fb:part.7_1
+21	14	fb:cell.discontinued_2_1_7_1	Discontinued\n2.1-7.1	discontinued|2.1-7|.1	discontinue|2.1-7|.1	VBN|CD|NN	O|NUMBER|NUMBER	|0.1|0.1	2.1		7.1	Discontinued|2.1-7.1	fb:part.discontinued|fb:part.2_1_7_1
+21	15	fb:cell.test_release_5_1	Test release\n5.1	test|release|5.1	test|release|5.1	NN|NN|CD	O|O|NUMBER	||5.1	5.1			Test release|5.1	fb:part.test_release|fb:part.5_1
+22	0	fb:cell.red_hat_enterprise_linux	Red Hat Enterprise Linux	red|hat|enterprise|linux	Red|Hat|Enterprise|Linux	NNP|NNP|NNP|NNP	O|O|O|O	|||				Red Hat Enterprise Linux	fb:part.red_hat_enterprise_linux
+22	1	fb:cell.discontinued_2_1_6	Discontinued\n2.1-6	discontinued|2.1-6	discontinue|2.1-6	VBN|CD	O|NUMBER	|	2.1		6.0	Discontinued|2.1-6	fb:part.discontinued|fb:part.2_1_6
+22	2	fb:cell.yes_3	Yes\n3+	yes|3|+	yes|3|+	UH|CD|CC	O|NUMBER|O	|3.0|	3.0			Yes|3+	fb:part.yes|fb:part.3
+22	3	fb:cell.discontinued_2_1_5	Discontinued\n2.1-5	discontinued|2.1-5	discontinue|2.1-5	VBN|CD	O|NUMBER	|	2.1		5.0	Discontinued|2.1-5	fb:part.discontinued|fb:part.2_1_5
+22	4	fb:cell.yes_3	Yes\n3+	yes|3|+	yes|3|+	UH|CD|CC	O|NUMBER|O	|3.0|	3.0			Yes|3+	fb:part.yes|fb:part.3
+22	5	fb:cell.yes_3	Yes\n3+	yes|3|+	yes|3|+	UH|CD|CC	O|NUMBER|O	|3.0|	3.0			Yes|3+	fb:part.yes|fb:part.3
+22	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+22	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+22	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+22	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+22	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+22	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+22	12	fb:cell.discontinued_3_4	Discontinued\n3-4	discontinued|3-4	discontinue|3-4	VBN|CD	O|NUMBER	|3.0 - 4.0	3.0		4.0	Discontinued|3-4	fb:part.discontinued|fb:part.3_4
+22	13	fb:cell.yes_3	Yes\n3+	yes|3|+	yes|3|+	UH|CD|CC	O|NUMBER|O	|3.0|	3.0			Yes|3+	fb:part.yes|fb:part.3
+22	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+22	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	0	fb:cell.rxart_desktop	Rxart Desktop	rxart|desktop	Rxart|Desktop	NNP|NNP	O|O	|				Rxart Desktop	fb:part.rxart_desktop
+23	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+23	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+23	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	0	fb:cell.porteus	Porteus	porteus	Porteus	NNP	PERSON					Porteus	fb:part.porteus
+24	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+24	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+24	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+24	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	0	fb:cell.scientific_linux	Scientific Linux	scientific|linux	Scientific|Linux	NNP|NNP	O|O	|				Scientific Linux	fb:part.scientific_linux
+25	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+25	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+25	3	fb:cell.discontinued_3_4	Discontinued\n3-4	discontinued|3-4	discontinue|3-4	VBN|CD	O|NUMBER	|3.0 - 4.0	3.0		4.0	Discontinued|3-4	fb:part.discontinued|fb:part.3_4
+25	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+25	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	0	fb:cell.shr	SHR	shr	shr	NN	O					SHR	fb:part.shr
+26	1	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+26	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+26	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	0	fb:cell.slackware	Slackware	slackware	slackware	NN	O					Slackware	fb:part.slackware
+27	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+27	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+27	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	6	fb:cell.discontinued	Discontinued\n?	discontinued|?	discontinue|?	VBN|.	O|O	|				Discontinued|?	fb:part.discontinued|fb:part.null
+27	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+27	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+27	12	fb:cell.discontinued	Discontinued\n?	discontinued|?	discontinue|?	VBN|.	O|O	|				Discontinued|?	fb:part.discontinued|fb:part.null
+27	13	fb:cell.discontinued	Discontinued\n?	discontinued|?	discontinue|?	VBN|.	O|O	|				Discontinued|?	fb:part.discontinued|fb:part.null
+27	14	fb:cell.discontinued_8_1	Discontinued\n8.1	discontinued|8.1	discontinue|8.1	VBN|CD	O|NUMBER	|8.1	8.1			Discontinued|8.1	fb:part.discontinued|fb:part.8_1
+27	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	0	fb:cell.source_mage_gnu_linux	Source Mage GNU/Linux	source|mage|gnu\\/linux	source|mage|gnu\\/linux	NN|NN|NN	O|O|O	||				Source Mage GNU|Linux	fb:part.source_mage_gnu|fb:part.linux
+28	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+28	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+28	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+28	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+28	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	0	fb:cell.suse_linux_enterprise_server	SUSE Linux Enterprise Server	suse|linux|enterprise|server	SUSE|Linux|Enterprise|server	NNP|NNP|NNP|NN	O|O|O|O	|||				SUSE Linux Enterprise Server	fb:part.suse_linux_enterprise_server
+29	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+29	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+29	3	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+29	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+29	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+29	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	13	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+29	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+29	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	0	fb:cell.tor_ramdisk	Tor-ramdisk	tor|ramdisk	tor|ramdisk	NN|NN	O|O	|				Tor-ramdisk	fb:part.tor_ramdisk
+30	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+30	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+30	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	10	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+30	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+30	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	0	fb:cell.ubuntu_kubuntu_xubuntu_lubuntu	Ubuntu/Kubuntu/Xubuntu/Lubuntu	ubuntu\\/kubuntu\\/xubuntu|\\/|lubuntu	Ubuntu\\/Kubuntu\\/Xubuntu|\\/|Lubuntu	NNP|:|NNP	O|O|PERSON	||				Ubuntu|Kubuntu|Xubuntu|Lubuntu	fb:part.ubuntu|fb:part.kubuntu|fb:part.xubuntu|fb:part.lubuntu
+31	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+31	2	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+31	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+31	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+31	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+31	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	0	fb:cell.xbmc	XBMC	xbmc	xbmc	NN	O					XBMC	fb:part.xbmc
+32	1	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+32	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	4	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	5	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	8	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+32	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+32	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	0	fb:cell.yellow_dog_linux	Yellow Dog Linux	yellow|dog|linux	yellow|dog|linux	JJ|NN|NN	O|O|O	||				Yellow Dog Linux	fb:part.yellow_dog_linux
+33	1	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	2	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	3	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	4	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+33	5	fb:cell.yes	Yes	yes	yes	UH	O					Yes	fb:part.yes
+33	6	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	7	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	8	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	9	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	10	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	11	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	12	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	13	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	14	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+33	15	fb:cell.no	No	no	no	DT	O					No	fb:part.no
+34	0	fb:cell.distribution	Distribution	distribution	distribution	NN	O					Distribution	fb:part.distribution
+34	1	fb:cell.x86	x86	x86	x86	NN	O		86.0			x86	fb:part.x86
+34	2	fb:cell.x86_64	x86-64	x86-64	x86-64	NN	O		86.0		64.0	x86-64	fb:part.x86_64
+34	3	fb:cell.ia64	ia64	ia64	ia64	NN	O		64.0			ia64	fb:part.ia64
+34	4	fb:cell.ppc	ppc	ppc	ppc	NN	O					ppc	fb:part.ppc
+34	5	fb:cell.ppc64	ppc64	ppc64	ppc64	NN	O		64.0			ppc64	fb:part.ppc64
+34	6	fb:cell.sparc32	sparc32	sparc32	sparc32	NN	O		32.0			sparc32	fb:part.sparc32
+34	7	fb:cell.sparc64	sparc64	sparc64	sparc64	NN	O		64.0			sparc64	fb:part.sparc64
+34	8	fb:cell.arm	arm	arm	arm	NN	O					arm	fb:part.arm
+34	9	fb:cell.hppa	hppa	hppa	hppa	NN	O					hppa	fb:part.hppa
+34	10	fb:cell.mips	mips	mips	mips	NNS	O					mips	fb:part.mips
+34	11	fb:cell.sh	sh	sh	sh	NN	O						
+34	12	fb:cell.s390	s390	s390	s390	NN	O		390.0			s390	fb:part.s390
+34	13	fb:cell.s390x	s390x	s390x	s390x	NN	O		390.0			s390x	fb:part.s390x
+34	14	fb:cell.alpha	alpha	alpha	alpha	NN	O					alpha	fb:part.alpha
+34	15	fb:cell.m68k	m68k	m68k	m68k	NN	O		68.0			m68k	fb:part.m68k

@@ -1,0 +1,305 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.representative	Representative	representative	Representative	NNP	O						
+-1	1	fb:row.row.state	State	state	state	NN	O						
+-1	2	fb:row.row.district_s	District(s)	district|-lrb-|s|-rrb-	District|-lrb-|s|-rrb-	NNP|-LRB-|NNS|-RRB-	O|O|O|O	|||					
+-1	3	fb:row.row.served	Served	served	serve	VBN	O						
+-1	4	fb:row.row.party	Party	party	Party	NNP	O						
+-1	5	fb:row.row.date_of_birth	Date of birth	date|of|birth	date|of|birth	NN|IN|NN	O|O|O	||					
+-1	6	fb:row.row.date_of_death	Date of death	date|of|death	date|of|death	NN|IN|NN	O|O|O	||					
+-1	7	fb:row.row.age	Age	age	age	NN	O						
+0	0	fb:cell.william_r_poage	William R. Poage	william|r.|poage	William|R.|Poage	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+0	1	fb:cell.texas	Texas	texas	Texas	NNP	LOCATION						
+0	2	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0			11	fb:part.11
+0	3	fb:cell.1937_1978	1937–1978	1937|--|1978	1937|--|1978	CD|:|CD	DATE|DATE|DATE	1937|1937|1978	1937.0		1978.0	1937–1978	fb:part.1937_1978
+0	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+0	5	fb:cell.december_29_1899	December 29, 1899	december|29|,|1899	December|29|,|1899	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1899-12-29|1899-12-29|1899-12-29|1899-12-29	291899.0	1899-12-29		December 29|1899	fb:part.december_29|fb:part.1899
+0	6	fb:cell.january_3_1987	January 3, 1987	january|3|,|1987	January|3|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-01-03|1987-01-03|1987-01-03|1987-01-03	31987.0	1987-01-03		January 3|1987	fb:part.january_3|fb:part.1987
+0	7	fb:cell.87_years_5_days	87 years, 5 days	87|years|,|5|days	87|year|,|5|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	87.0|87.0||5.0|0.0	87.0		5.0	87 years|5 days	fb:part.87_years|fb:part.5_days
+1	0	fb:cell.aubert_c_dunn	Aubert C. Dunn	aubert|c.|dunn	Aubert|C.|Dunn	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+1	1	fb:cell.mississippi	Mississippi	mississippi	Mississippi	NNP	LOCATION						
+1	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0			5	fb:part.5
+1	3	fb:cell.1935_1937	1935–1937	1935|--|1937	1935|--|1937	CD|:|CD	DATE|DATE|DATE	1935|1935|1937	1935.0		1937.0	1935–1937	fb:part.1935_1937
+1	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+1	5	fb:cell.november_20_1896	November 20, 1896	november|20|,|1896	November|20|,|1896	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1896-11-20|1896-11-20|1896-11-20|1896-11-20	201896.0	1896-11-20		November 20|1896	fb:part.november_20|fb:part.1896
+1	6	fb:cell.january_4_1987	January 4, 1987	january|4|,|1987	January|4|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-01-04|1987-01-04|1987-01-04|1987-01-04	41987.0	1987-01-04		January 4|1987	fb:part.january_4|fb:part.1987
+1	7	fb:cell.90_years_45_days	90 years, 45 days	90|years|,|45|days	90|year|,|45|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	90.0|90.0||45.0|0.0	90.0		45.0	90 years|45 days	fb:part.90_years|fb:part.45_days
+2	0	fb:cell.charles_goodell	Charles Goodell	charles|goodell	Charles|Goodell	NNP|NNP	PERSON|PERSON	|					
+2	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+2	2	fb:cell.43_38	43, 38	43|,|38	43|,|38	CD|,|CD	NUMBER|O|NUMBER	43.0||38.0	4338.0			43|38	fb:part.43|fb:part.38
+2	3	fb:cell.1959_1968	1959–1968	1959|--|1968	1959|--|1968	CD|:|CD	DATE|DATE|DATE	1959|1959|1968	1959.0		1968.0	1959–1968	fb:part.1959_1968
+2	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+2	5	fb:cell.march_16_1926	March 16, 1926	march|16|,|1926	March|16|,|1926	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1926-03-16|1926-03-16|1926-03-16|1926-03-16	161926.0	1926-03-16		March 16|1926	fb:part.march_16|fb:part.1926
+2	6	fb:cell.january_21_1987	January 21, 1987	january|21|,|1987	January|21|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-01-21|1987-01-21|1987-01-21|1987-01-21	211987.0	1987-01-21		January 21|1987	fb:part.january_21|fb:part.1987
+2	7	fb:cell.60_years_311_days	60 years, 311 days	60|years|,|311|days	60|year|,|311|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	60.0|60.0||311.0|0.0	60.0		311.0	60 years|311 days	fb:part.60_years|fb:part.311_days
+3	0	fb:cell.sala_burton	Sala Burton	sala|burton	Sala|Burton	NNP|NNP	PERSON|PERSON	|					
+3	1	fb:cell.california	California	california	California	NNP	LOCATION						
+3	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0			5	fb:part.5
+3	3	fb:cell.1983_1987	1983–1987	1983|--|1987	1983|--|1987	CD|:|CD	DATE|DATE|DATE	1983|1983|1987	1983.0		1987.0	1983–1987	fb:part.1983_1987
+3	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+3	5	fb:cell.april_1_1925	April 1, 1925	april|1|,|1925	April|1|,|1925	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1925-04-01|1925-04-01|1925-04-01|1925-04-01	11925.0	1925-04-01		April 1|1925	fb:part.april_1|fb:part.1925
+3	6	fb:cell.february_1_1987	February 1, 1987	february|1|,|1987	February|1|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-02-01|1987-02-01|1987-02-01|1987-02-01	11987.0	1987-02-01		February 1|1987	fb:part.february_1|fb:part.1987
+3	7	fb:cell.61_years_306_days	61 years, 306 days	61|years|,|306|days	61|year|,|306|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	61.0|61.0||306.0|0.0	61.0		306.0	61 years|306 days	fb:part.61_years|fb:part.306_days
+4	0	fb:cell.harold_earthman	Harold Earthman	harold|earthman	Harold|Earthman	NNP|NNP	PERSON|PERSON	|					
+4	1	fb:cell.tennessee	Tennessee	tennessee	Tennessee	NNP	LOCATION						
+4	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0			5	fb:part.5
+4	3	fb:cell.1947_1949	1947–1949	1947|--|1949	1947|--|1949	CD|:|CD	DATE|DATE|DATE	1947|1947|1949	1947.0		1949.0	1947–1949	fb:part.1947_1949
+4	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+4	5	fb:cell.april_13_1900	April 13, 1900	april|13|,|1900	April|13|,|1900	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1900-04-13|1900-04-13|1900-04-13|1900-04-13	131900.0	1900-04-13		April 13|1900	fb:part.april_13|fb:part.1900
+4	6	fb:cell.february_26_1987	February 26, 1987	february|26|,|1987	February|26|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-02-26|1987-02-26|1987-02-26|1987-02-26	261987.0	1987-02-26		February 26|1987	fb:part.february_26|fb:part.1987
+4	7	fb:cell.86_years_319_days	86 years, 319 days	86|years|,|319|days	86|year|,|319|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	86.0|86.0||319.0|0.0	86.0		319.0	86 years|319 days	fb:part.86_years|fb:part.319_days
+5	0	fb:cell.lafayette_l_patterson	LaFayette L. Patterson	lafayette|l.|patterson	LaFayette|L.|Patterson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+5	1	fb:cell.alabama	Alabama	alabama	Alabama	NNP	LOCATION						
+5	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0			5	fb:part.5
+5	3	fb:cell.1928_1933	1928–1933	1928|--|1933	1928|--|1933	CD|:|CD	DATE|DATE|DATE	1928|1928|1933	1928.0		1933.0	1928–1933	fb:part.1928_1933
+5	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+5	5	fb:cell.august_23_1888	August 23, 1888	august|23|,|1888	August|23|,|1888	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1888-08-23|1888-08-23|1888-08-23|1888-08-23	231888.0	1888-08-23		August 23|1888	fb:part.august_23|fb:part.1888
+5	6	fb:cell.march_3_1987	March 3, 1987	march|3|,|1987	March|3|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-03-03|1987-03-03|1987-03-03|1987-03-03	31987.0	1987-03-03		March 3|1987	fb:part.march_3|fb:part.1987
+5	7	fb:cell.98_years_192_days	98 years, 192 days	98|years|,|192|days	98|year|,|192|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	98.0|98.0||192.0|0.0	98.0		192.0	98 years|192 days	fb:part.98_years|fb:part.192_days
+6	0	fb:cell.w_sterling_cole	W. Sterling Cole	w.|sterling|cole	W.|Sterling|Cole	NNP|NNP|NNP	O|O|O	||					
+6	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+6	2	fb:cell.37_39	37, 39	37|,|39	37|,|39	CD|,|CD	NUMBER|O|NUMBER	37.0||39.0	3739.0			37|39	fb:part.37|fb:part.39
+6	3	fb:cell.1935_1957	1935–1957	1935|--|1957	1935|--|1957	CD|:|CD	DATE|DATE|DATE	1935|1935|1957	1935.0		1957.0	1935–1957	fb:part.1935_1957
+6	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+6	5	fb:cell.april_18_1904	April 18, 1904	april|18|,|1904	April|18|,|1904	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1904-04-18|1904-04-18|1904-04-18|1904-04-18	181904.0	1904-04-18		April 18|1904	fb:part.april_18|fb:part.1904
+6	6	fb:cell.march_15_1987	March 15, 1987	march|15|,|1987	March|15|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-03-15|1987-03-15|1987-03-15|1987-03-15	151987.0	1987-03-15		March 15|1987	fb:part.march_15|fb:part.1987
+6	7	fb:cell.82_years_331_days	82 years, 331 days	82|years|,|331|days	82|year|,|331|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	82.0|82.0||331.0|0.0	82.0		331.0	82 years|331 days	fb:part.82_years|fb:part.331_days
+7	0	fb:cell.claude_i_bakewell	Claude I. Bakewell	claude|i.|bakewell	Claude|I.|Bakewell	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+7	1	fb:cell.missouri	Missouri	missouri	Missouri	NNP	LOCATION						
+7	2	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0			11	fb:part.11
+7	3	fb:cell.1947_1949_1951_1953	1947–1949, 1951–1953	1947|--|1949|,|1951|--|1953	1947|--|1949|,|1951|--|1953	CD|:|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE	1947|1947|1949|1949|1949|1949|1953	1947.0		1.9491951E7	1947–1949|1951–1953	fb:part.1947_1949|fb:part.1951_1953
+7	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+7	5	fb:cell.august_9_1912	August 9, 1912	august|9|,|1912	August|9|,|1912	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1912-08-09|1912-08-09|1912-08-09|1912-08-09	91912.0	1912-08-09		August 9|1912	fb:part.august_9|fb:part.1912
+7	6	fb:cell.march_18_1987	March 18, 1987	march|18|,|1987	March|18|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-03-18|1987-03-18|1987-03-18|1987-03-18	181987.0	1987-03-18		March 18|1987	fb:part.march_18|fb:part.1987
+7	7	fb:cell.74_years_221_days	74 years, 221 days	74|years|,|221|days	74|year|,|221|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	74.0|74.0||221.0|0.0	74.0		221.0	74 years|221 days	fb:part.74_years|fb:part.221_days
+8	0	fb:cell.tim_l_carter	Tim L. Carter	tim|l.|carter	Tim|L.|Carter	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+8	1	fb:cell.kentucky	Kentucky	kentucky	Kentucky	NNP	LOCATION						
+8	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0			5	fb:part.5
+8	3	fb:cell.1965_1981	1965–1981	1965|--|1981	1965|--|1981	CD|:|CD	DATE|DATE|DATE	1965|1965|1981	1965.0		1981.0	1965–1981	fb:part.1965_1981
+8	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+8	5	fb:cell.september_2_1910	September 2, 1910	september|2|,|1910	September|2|,|1910	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1910-09-02|1910-09-02|1910-09-02|1910-09-02	21910.0	1910-09-02		September 2|1910	fb:part.september_2|fb:part.1910
+8	6	fb:cell.march_27_1987	March 27, 1987	march|27|,|1987	March|27|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-03-27|1987-03-27|1987-03-27|1987-03-27	271987.0	1987-03-27		March 27|1987	fb:part.march_27|fb:part.1987
+8	7	fb:cell.76_years_206_days	76 years, 206 days	76|years|,|206|days	76|year|,|206|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	76.0|76.0||206.0|0.0	76.0		206.0	76 years|206 days	fb:part.76_years|fb:part.206_days
+9	0	fb:cell.james_g_donovan	James G. Donovan	james|g.|donovan	James|G.|Donovan	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+9	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+9	2	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0			18	fb:part.18
+9	3	fb:cell.1951_1957	1951–1957	1951|--|1957	1951|--|1957	CD|:|CD	DATE|DATE|DATE	1951|1951|1957	1951.0		1957.0	1951–1957	fb:part.1951_1957
+9	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+9	5	fb:cell.december_15_1898	December 15, 1898	december|15|,|1898	December|15|,|1898	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1898-12-15|1898-12-15|1898-12-15|1898-12-15	151898.0	1898-12-15		December 15|1898	fb:part.december_15|fb:part.1898
+9	6	fb:cell.april_6_1987	April 6, 1987	april|6|,|1987	April|6|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-04-06|1987-04-06|1987-04-06|1987-04-06	61987.0	1987-04-06		April 6|1987	fb:part.april_6|fb:part.1987
+9	7	fb:cell.88_years_112_days	88 years, 112 days	88|years|,|112|days	88|year|,|112|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	88.0|88.0||112.0|0.0	88.0		112.0	88 years|112 days	fb:part.88_years|fb:part.112_days
+10	0	fb:cell.orland_k_armstrong	Orland K. Armstrong	orland|k.|armstrong	Orland|K.|Armstrong	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+10	1	fb:cell.missouri	Missouri	missouri	Missouri	NNP	LOCATION						
+10	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0			6	fb:part.6
+10	3	fb:cell.1951_1953	1951–1953	1951|--|1953	1951|--|1953	CD|:|CD	DATE|DATE|DATE	1951|1951|1953	1951.0		1953.0	1951–1953	fb:part.1951_1953
+10	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+10	5	fb:cell.october_2_1893	October 2, 1893	october|2|,|1893	October|2|,|1893	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1893-10-02|1893-10-02|1893-10-02|1893-10-02	21893.0	1893-10-02		October 2|1893	fb:part.october_2|fb:part.1893
+10	6	fb:cell.april_15_1987	April 15, 1987	april|15|,|1987	April|15|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-04-15|1987-04-15|1987-04-15|1987-04-15	151987.0	1987-04-15		April 15|1987	fb:part.april_15|fb:part.1987
+10	7	fb:cell.93_years_195_days	93 years, 195 days	93|years|,|195|days	93|year|,|195|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	93.0|93.0||195.0|0.0	93.0		195.0	93 years|195 days	fb:part.93_years|fb:part.195_days
+11	0	fb:cell.albert_l_reeves_jr	Albert L. Reeves Jr.	albert|l.|reeves|jr.|.	Albert|L.|Reeves|Jr.|.	NNP|NNP|NNP|NNP|.	PERSON|PERSON|PERSON|PERSON|O	||||					
+11	1	fb:cell.missouri	Missouri	missouri	Missouri	NNP	LOCATION						
+11	2	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0			5	fb:part.5
+11	3	fb:cell.1947_1949	1947–1949	1947|--|1949	1947|--|1949	CD|:|CD	DATE|DATE|DATE	1947|1947|1949	1947.0		1949.0	1947–1949	fb:part.1947_1949
+11	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+11	5	fb:cell.may_31_1906	May 31, 1906	may|31|,|1906	May|31|,|1906	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1906-05-31|1906-05-31|1906-05-31|1906-05-31	311906.0	1906-05-31		May 31|1906	fb:part.may_31|fb:part.1906
+11	6	fb:cell.april_15_1987	April 15, 1987	april|15|,|1987	April|15|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-04-15|1987-04-15|1987-04-15|1987-04-15	151987.0	1987-04-15		April 15|1987	fb:part.april_15|fb:part.1987
+11	7	fb:cell.80_years_319_days	80 years, 319 days	80|years|,|319|days	80|year|,|319|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	80.0|80.0||319.0|0.0	80.0		319.0	80 years|319 days	fb:part.80_years|fb:part.319_days
+12	0	fb:cell.edith_green	Edith Green	edith|green	Edith|Green	NNP|NNP	PERSON|PERSON	|					
+12	1	fb:cell.oregon	Oregon	oregon	Oregon	NNP	O						
+12	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0			3	fb:part.3
+12	3	fb:cell.1955_1974	1955–1974	1955|--|1974	1955|--|1974	CD|:|CD	DATE|DATE|DATE	1955|1955|1974	1955.0		1974.0	1955–1974	fb:part.1955_1974
+12	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+12	5	fb:cell.january_17_1910	January 17, 1910	january|17|,|1910	January|17|,|1910	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1910-01-17|1910-01-17|1910-01-17|1910-01-17	171910.0	1910-01-17		January 17|1910	fb:part.january_17|fb:part.1910
+12	6	fb:cell.april_21_1987	April 21, 1987	april|21|,|1987	April|21|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-04-21|1987-04-21|1987-04-21|1987-04-21	211987.0	1987-04-21		April 21|1987	fb:part.april_21|fb:part.1987
+12	7	fb:cell.77_years_94_days	77 years, 94 days	77|years|,|94|days	77|year|,|94|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	77.0|77.0||94.0|0.0	77.0		94.0	77 years|94 days	fb:part.77_years|fb:part.94_days
+13	0	fb:cell.antonio_borja_won_pat	Antonio Borja Won Pat	antonio|borja|won|pat	Antonio|Borja|Won|Pat	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||					
+13	1	fb:cell.guam	Guam	guam	Guam	NNP	O						
+13	2	fb:cell.at_large	At-large	at|large	at|large	IN|JJ	O|O	|				At-large	fb:part.at_large
+13	3	fb:cell.1973_1985	1973–1985	1973|--|1985	1973|--|1985	CD|:|CD	DATE|DATE|DATE	1973|1973|1985	1973.0		1985.0	1973–1985	fb:part.1973_1985
+13	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+13	5	fb:cell.december_10_1908	December 10, 1908	december|10|,|1908	December|10|,|1908	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1908-12-10|1908-12-10|1908-12-10|1908-12-10	101908.0	1908-12-10		December 10|1908	fb:part.december_10|fb:part.1908
+13	6	fb:cell.may_1_1987	May 1, 1987	may|1|,|1987	May|1|,|1987	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1987-05-01|1987-05-01|1987-05-01|1987-05-01	11987.0	1987-05-01		May 1|1987	fb:part.may_1|fb:part.1987
+13	7	fb:cell.78_years_142_days	78 years, 142 days	78|years|,|142|days	78|year|,|142|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	78.0|78.0||142.0|0.0	78.0		142.0	78 years|142 days	fb:part.78_years|fb:part.142_days
+14	0	fb:cell.stewart_mckinney	Stewart McKinney	stewart|mckinney	Stewart|McKinney	NNP|NNP	PERSON|PERSON	|					
+14	1	fb:cell.connecticut	Connecticut	connecticut	Connecticut	NNP	LOCATION						
+14	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0			4	fb:part.4
+14	3	fb:cell.1971_1987	1971–1987	1971|--|1987	1971|--|1987	CD|:|CD	DATE|DATE|DATE	1971|1971|1987	1971.0		1987.0	1971–1987	fb:part.1971_1987
+14	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+14	5	fb:cell.january_30_1931	January 30, 1931	january|30|,|1931	January|30|,|1931	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1931-01-30|1931-01-30|1931-01-30|1931-01-30	301931.0	1931-01-30		January 30|1931	fb:part.january_30|fb:part.1931
+14	6	fb:cell.may_7_1987	May 7, 1987	may|7|,|1987	May|7|,|1987	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1987-05-07|1987-05-07|1987-05-07|1987-05-07	71987.0	1987-05-07		May 7|1987	fb:part.may_7|fb:part.1987
+14	7	fb:cell.56_years_97_days	56 years, 97 days	56|years|,|97|days	56|year|,|97|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	56.0|56.0||97.0|0.0	56.0		97.0	56 years|97 days	fb:part.56_years|fb:part.97_days
+15	0	fb:cell.james_j_delaney	James J. Delaney	james|j.|delaney	James|J.|Delaney	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+15	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+15	2	fb:cell.6_7_9	6, 7, 9	6|,|7|,|9	6|,|7|,|9	CD|,|CD|,|CD	NUMBER|O|NUMBER|O|NUMBER	6.0||7.0||9.0	679.0			6|7|9	fb:part.6|fb:part.7|fb:part.9
+15	3	fb:cell.1945_1947_1949_1978	1945–1947, 1949–1978	1945|--|1947|,|1949|--|1978	1945|--|1947|,|1949|--|1978	CD|:|CD|,|CD|:|CD	DATE|DATE|DATE|DATE|DATE|DATE|DATE	1945|1945|1947|1947|1947|1947|1978	1945.0		1.9471949E7	1945–1947|1949–1978	fb:part.1945_1947|fb:part.1949_1978
+15	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+15	5	fb:cell.march_19_1901	March 19, 1901	march|19|,|1901	March|19|,|1901	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1901-03-19|1901-03-19|1901-03-19|1901-03-19	191901.0	1901-03-19		March 19|1901	fb:part.march_19|fb:part.1901
+15	6	fb:cell.may_24_1987	May 24, 1987	may|24|,|1987	May|24|,|1987	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1987-05-24|1987-05-24|1987-05-24|1987-05-24	241987.0	1987-05-24		May 24|1987	fb:part.may_24|fb:part.1987
+15	7	fb:cell.86_years_66_days	86 years, 66 days	86|years|,|66|days	86|year|,|66|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	86.0|86.0||66.0|0.0	86.0		66.0	86 years|66 days	fb:part.86_years|fb:part.66_days
+16	0	fb:cell.frank_carlson	Frank Carlson	frank|carlson	Frank|Carlson	NNP|NNP	PERSON|PERSON	|					
+16	1	fb:cell.kansas	Kansas	kansas	Kansas	NNP	LOCATION						
+16	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0			6	fb:part.6
+16	3	fb:cell.1935_1947	1935–1947	1935|--|1947	1935|--|1947	CD|:|CD	DATE|DATE|DATE	1935|1935|1947	1935.0		1947.0	1935–1947	fb:part.1935_1947
+16	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+16	5	fb:cell.january_23_1893	January 23, 1893	january|23|,|1893	January|23|,|1893	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1893-01-23|1893-01-23|1893-01-23|1893-01-23	231893.0	1893-01-23		January 23|1893	fb:part.january_23|fb:part.1893
+16	6	fb:cell.may_30_1987	May 30, 1987	may|30|,|1987	May|30|,|1987	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1987-05-30|1987-05-30|1987-05-30|1987-05-30	301987.0	1987-05-30		May 30|1987	fb:part.may_30|fb:part.1987
+16	7	fb:cell.94_years_127_days	94 years, 127 days	94|years|,|127|days	94|year|,|127|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	94.0|94.0||127.0|0.0	94.0		127.0	94 years|127 days	fb:part.94_years|fb:part.127_days
+17	0	fb:cell.robert_n_c_nix_sr	Robert N.C. Nix Sr.	robert|n.c.|nix|sr.|.	Robert|N.C.|Nix|Sr.|.	NNP|NNP|NNP|NNP|.	PERSON|PERSON|PERSON|O|O	||||					
+17	1	fb:cell.pennsylvania	Pennsylvania	pennsylvania	Pennsylvania	NNP	LOCATION						
+17	2	fb:cell.4_2	4, 2	4|,|2	4|,|2	CD|,|CD	NUMBER|O|NUMBER	4.0||2.0	42.0			4|2	fb:part.4|fb:part.2
+17	3	fb:cell.1958_1979	1958–1979	1958|--|1979	1958|--|1979	CD|:|CD	DATE|DATE|DATE	1958|1958|1979	1958.0		1979.0	1958–1979	fb:part.1958_1979
+17	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+17	5	fb:cell.august_9_1898	August 9, 1898	august|9|,|1898	August|9|,|1898	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1898-08-09|1898-08-09|1898-08-09|1898-08-09	91898.0	1898-08-09		August 9|1898	fb:part.august_9|fb:part.1898
+17	6	fb:cell.june_22_1987	June 22, 1987	june|22|,|1987	June|22|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-06-22|1987-06-22|1987-06-22|1987-06-22	221987.0	1987-06-22		June 22|1987	fb:part.june_22|fb:part.1987
+17	7	fb:cell.88_years_317_days	88 years, 317 days	88|years|,|317|days	88|year|,|317|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	88.0|88.0||317.0|0.0	88.0		317.0	88 years|317 days	fb:part.88_years|fb:part.317_days
+18	0	fb:cell.alvin_o_konski	Alvin O'Konski	alvin|o'konski	Alvin|O'Konski	NNP|NNP	PERSON|PERSON	|					
+18	1	fb:cell.wisconsin	Wisconsin	wisconsin	Wisconsin	NNP	LOCATION						
+18	2	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0			10	fb:part.10
+18	3	fb:cell.1943_1973	1943–1973	1943|--|1973	1943|--|1973	CD|:|CD	DATE|DATE|DATE	1943|1943|1973	1943.0		1973.0	1943–1973	fb:part.1943_1973
+18	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+18	5	fb:cell.may_26_1904	May 26, 1904	may|26|,|1904	May|26|,|1904	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1904-05-26|1904-05-26|1904-05-26|1904-05-26	261904.0	1904-05-26		May 26|1904	fb:part.may_26|fb:part.1904
+18	6	fb:cell.july_8_1987	July 8, 1987	july|8|,|1987	July|8|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-07-08|1987-07-08|1987-07-08|1987-07-08	81987.0	1987-07-08		July 8|1987	fb:part.july_8|fb:part.1987
+18	7	fb:cell.83_years_43_days	83 years, 43 days	83|years|,|43|days	83|year|,|43|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	83.0|83.0||43.0|0.0	83.0		43.0	83 years|43 days	fb:part.83_years|fb:part.43_days
+19	0	fb:cell.dominick_v_daniels	Dominick V. Daniels	dominick|v.|daniels	Dominick|V.|Daniels	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+19	1	fb:cell.new_jersey	New Jersey	new|jersey	New|Jersey	NNP|NNP	LOCATION|LOCATION	|					
+19	2	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0			14	fb:part.14
+19	3	fb:cell.1959_1977	1959–1977	1959|--|1977	1959|--|1977	CD|:|CD	DATE|DATE|DATE	1959|1959|1977	1959.0		1977.0	1959–1977	fb:part.1959_1977
+19	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+19	5	fb:cell.october_18_1908	October 18, 1908	october|18|,|1908	October|18|,|1908	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1908-10-18|1908-10-18|1908-10-18|1908-10-18	181908.0	1908-10-18		October 18|1908	fb:part.october_18|fb:part.1908
+19	6	fb:cell.july_17_1987	July 17, 1987	july|17|,|1987	July|17|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-07-17|1987-07-17|1987-07-17|1987-07-17	171987.0	1987-07-17		July 17|1987	fb:part.july_17|fb:part.1987
+19	7	fb:cell.78_years_272_days	78 years, 272 days	78|years|,|272|days	78|year|,|272|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	78.0|78.0||272.0|0.0	78.0		272.0	78 years|272 days	fb:part.78_years|fb:part.272_days
+20	0	fb:cell.william_s_moorhead	William S. Moorhead	william|s.|moorhead	William|S.|Moorhead	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+20	1	fb:cell.pennsylvania	Pennsylvania	pennsylvania	Pennsylvania	NNP	LOCATION						
+20	2	fb:cell.28_14	28, 14	28|,|14	28|,|14	CD|,|CD	NUMBER|O|NUMBER	28.0||14.0	2814.0			28|14	fb:part.28|fb:part.14
+20	3	fb:cell.1959_1981	1959–1981	1959|--|1981	1959|--|1981	CD|:|CD	DATE|DATE|DATE	1959|1959|1981	1959.0		1981.0	1959–1981	fb:part.1959_1981
+20	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+20	5	fb:cell.april_8_1923	April 8, 1923	april|8|,|1923	April|8|,|1923	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1923-04-08|1923-04-08|1923-04-08|1923-04-08	81923.0	1923-04-08		April 8|1923	fb:part.april_8|fb:part.1923
+20	6	fb:cell.august_3_1987	August 3, 1987	august|3|,|1987	August|3|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-08-03|1987-08-03|1987-08-03|1987-08-03	31987.0	1987-08-03		August 3|1987	fb:part.august_3|fb:part.1987
+20	7	fb:cell.64_years_117_days	64 years, 117 days	64|years|,|117|days	64|year|,|117|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	64.0|64.0||117.0|0.0	64.0		117.0	64 years|117 days	fb:part.64_years|fb:part.117_days
+21	0	fb:cell.john_w_wydler	John W. Wydler	john|w.|wydler	John|W.|Wydler	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+21	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+21	2	fb:cell.4_5	4, 5	4|,|5	4|,|5	CD|,|CD	NUMBER|O|NUMBER	4.0||5.0	45.0			4|5	fb:part.4|fb:part.5
+21	3	fb:cell.1963_1981	1963–1981	1963|--|1981	1963|--|1981	CD|:|CD	DATE|DATE|DATE	1963|1963|1981	1963.0		1981.0	1963–1981	fb:part.1963_1981
+21	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+21	5	fb:cell.june_9_1924	June 9, 1924	june|9|,|1924	June|9|,|1924	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1924-06-09|1924-06-09|1924-06-09|1924-06-09	91924.0	1924-06-09		June 9|1924	fb:part.june_9|fb:part.1924
+21	6	fb:cell.august_4_1987	August 4, 1987	august|4|,|1987	August|4|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-08-04|1987-08-04|1987-08-04|1987-08-04	41987.0	1987-08-04		August 4|1987	fb:part.august_4|fb:part.1987
+21	7	fb:cell.63_years_56_days	63 years, 56 days	63|years|,|56|days	63|year|,|56|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	63.0|63.0||56.0|0.0	63.0		56.0	63 years|56 days	fb:part.63_years|fb:part.56_days
+22	0	fb:cell.thomas_d_alesandro_jr	Thomas D'Alesandro Jr.	thomas|d'alesandro|jr.|.	Thomas|D'Alesandro|Jr.|.	NNP|NNP|NNP|.	PERSON|PERSON|PERSON|O	|||					
+22	1	fb:cell.maryland	Maryland	maryland	Maryland	NNP	LOCATION						
+22	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0			3	fb:part.3
+22	3	fb:cell.1939_1947	1939–1947	1939|--|1947	1939|--|1947	CD|:|CD	DATE|DATE|DATE	1939|1939|1947	1939.0		1947.0	1939–1947	fb:part.1939_1947
+22	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+22	5	fb:cell.august_1_1903	August 1, 1903	august|1|,|1903	August|1|,|1903	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1903-08-01|1903-08-01|1903-08-01|1903-08-01	11903.0	1903-08-01		August 1|1903	fb:part.august_1|fb:part.1903
+22	6	fb:cell.august_23_1987	August 23, 1987	august|23|,|1987	August|23|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-08-23|1987-08-23|1987-08-23|1987-08-23	231987.0	1987-08-23		August 23|1987	fb:part.august_23|fb:part.1987
+22	7	fb:cell.84_years_22_days	84 years, 22 days	84|years|,|22|days	84|year|,|22|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	84.0|84.0||22.0|0.0	84.0		22.0	84 years|22 days	fb:part.84_years|fb:part.22_days
+23	0	fb:cell.francis_e_dorn	Francis E. Dorn	francis|e.|dorn	Francis|E.|Dorn	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+23	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+23	2	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0			12	fb:part.12
+23	3	fb:cell.1953_1961	1953–1961	1953|--|1961	1953|--|1961	CD|:|CD	DATE|DATE|DATE	1953|1953|1961	1953.0		1961.0	1953–1961	fb:part.1953_1961
+23	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+23	5	fb:cell.april_8_1911	April 8, 1911	april|8|,|1911	April|8|,|1911	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1911-04-08|1911-04-08|1911-04-08|1911-04-08	81911.0	1911-04-08		April 8|1911	fb:part.april_8|fb:part.1911
+23	6	fb:cell.september_17_1987	September 17, 1987	september|17|,|1987	September|17|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-09-17|1987-09-17|1987-09-17|1987-09-17	171987.0	1987-09-17		September 17|1987	fb:part.september_17|fb:part.1987
+23	7	fb:cell.76_years_162_days	76 years, 162 days	76|years|,|162|days	76|year|,|162|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	76.0|76.0||162.0|0.0	76.0		162.0	76 years|162 days	fb:part.76_years|fb:part.162_days
+24	0	fb:cell.harold_r_gross	Harold R. Gross	harold|r.|gross	Harold|R.|Gross	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+24	1	fb:cell.iowa	Iowa	iowa	Iowa	NNP	LOCATION						
+24	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0			6	fb:part.6
+24	3	fb:cell.1949_1975	1949–1975	1949|--|1975	1949|--|1975	CD|:|CD	DATE|DATE|DATE	1949|1949|1975	1949.0		1975.0	1949–1975	fb:part.1949_1975
+24	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+24	5	fb:cell.june_30_1899	June 30, 1899	june|30|,|1899	June|30|,|1899	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1899-06-30|1899-06-30|1899-06-30|1899-06-30	301899.0	1899-06-30		June 30|1899	fb:part.june_30|fb:part.1899
+24	6	fb:cell.september_22_1987	September 22, 1987	september|22|,|1987	September|22|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-09-22|1987-09-22|1987-09-22|1987-09-22	221987.0	1987-09-22		September 22|1987	fb:part.september_22|fb:part.1987
+24	7	fb:cell.88_years_84_days	88 years, 84 days	88|years|,|84|days	88|year|,|84|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	88.0|88.0||84.0|0.0	88.0		84.0	88 years|84 days	fb:part.88_years|fb:part.84_days
+25	0	fb:cell.howard_w_robison	Howard W. Robison	howard|w.|robison	Howard|W.|Robison	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+25	1	fb:cell.new_york	New York	new|york	New|York	NNP|NNP	LOCATION|LOCATION	|					
+25	2	fb:cell.37_33_27	37, 33, 27	37|,|33|,|27	37|,|33|,|27	CD|,|CD|,|CD	NUMBER|O|NUMBER|O|NUMBER	37.0||33.0||27.0	373327.0			37|33|27	fb:part.37|fb:part.33|fb:part.27
+25	3	fb:cell.1958_1975	1958–1975	1958|--|1975	1958|--|1975	CD|:|CD	DATE|DATE|DATE	1958|1958|1975	1958.0		1975.0	1958–1975	fb:part.1958_1975
+25	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+25	5	fb:cell.october_30_1915	October 30, 1915	october|30|,|1915	October|30|,|1915	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1915-10-30|1915-10-30|1915-10-30|1915-10-30	301915.0	1915-10-30		October 30|1915	fb:part.october_30|fb:part.1915
+25	6	fb:cell.september_26_1987	September 26, 1987	september|26|,|1987	September|26|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-09-26|1987-09-26|1987-09-26|1987-09-26	261987.0	1987-09-26		September 26|1987	fb:part.september_26|fb:part.1987
+25	7	fb:cell.71_years_331_days	71 years, 331 days	71|years|,|331|days	71|year|,|331|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	71.0|71.0||331.0|0.0	71.0		331.0	71 years|331 days	fb:part.71_years|fb:part.331_days
+26	0	fb:cell.john_n_camp	John N. Camp	john|n.|camp	John|N.|Camp	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+26	1	fb:cell.oklahoma	Oklahoma	oklahoma	Oklahoma	NNP	LOCATION						
+26	2	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0			6	fb:part.6
+26	3	fb:cell.1969_1975	1969–1975	1969|--|1975	1969|--|1975	CD|:|CD	DATE|DATE|DATE	1969|1969|1975	1969.0		1975.0	1969–1975	fb:part.1969_1975
+26	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+26	5	fb:cell.may_11_1908	May 11, 1908	may|11|,|1908	May|11|,|1908	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1908-05-11|1908-05-11|1908-05-11|1908-05-11	111908.0	1908-05-11		May 11|1908	fb:part.may_11|fb:part.1908
+26	6	fb:cell.september_27_1987	September 27, 1987	september|27|,|1987	September|27|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-09-27|1987-09-27|1987-09-27|1987-09-27	271987.0	1987-09-27		September 27|1987	fb:part.september_27|fb:part.1987
+26	7	fb:cell.79_years_139_days	79 years, 139 days	79|years|,|139|days	79|year|,|139|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	79.0|79.0||139.0|0.0	79.0		139.0	79 years|139 days	fb:part.79_years|fb:part.139_days
+27	0	fb:cell.ray_j_madden	Ray J. Madden	ray|j.|madden	Ray|J.|Madden	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+27	1	fb:cell.indiana	Indiana	indiana	Indiana	NNP	LOCATION						
+27	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0			1	fb:part.1
+27	3	fb:cell.1943_1977	1943–1977	1943|--|1977	1943|--|1977	CD|:|CD	DATE|DATE|DATE	1943|1943|1977	1943.0		1977.0	1943–1977	fb:part.1943_1977
+27	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+27	5	fb:cell.february_25_1892	February 25, 1892	february|25|,|1892	February|25|,|1892	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1892-02-25|1892-02-25|1892-02-25|1892-02-25	251892.0	1892-02-25		February 25|1892	fb:part.february_25|fb:part.1892
+27	6	fb:cell.september_28_1987	September 28, 1987	september|28|,|1987	September|28|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-09-28|1987-09-28|1987-09-28|1987-09-28	281987.0	1987-09-28		September 28|1987	fb:part.september_28|fb:part.1987
+27	7	fb:cell.95_years_215_days	95 years, 215 days	95|years|,|215|days	95|year|,|215|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	95.0|95.0||215.0|0.0	95.0		215.0	95 years|215 days	fb:part.95_years|fb:part.215_days
+28	0	fb:cell.raymond_w_karst	Raymond W. Karst	raymond|w.|karst	Raymond|W.|Karst	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+28	1	fb:cell.missouri	Missouri	missouri	Missouri	NNP	LOCATION						
+28	2	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0			12	fb:part.12
+28	3	fb:cell.1949_1951	1949–1951	1949|--|1951	1949|--|1951	CD|:|CD	DATE|DATE|DATE	1949|1949|1951	1949.0		1951.0	1949–1951	fb:part.1949_1951
+28	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+28	5	fb:cell.december_31_1902	December 31, 1902	december|31|,|1902	December|31|,|1902	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1902-12-31|1902-12-31|1902-12-31|1902-12-31	311902.0	1902-12-31		December 31|1902	fb:part.december_31|fb:part.1902
+28	6	fb:cell.october_4_1987	October 4, 1987	october|4|,|1987	October|4|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-10-04|1987-10-04|1987-10-04|1987-10-04	41987.0	1987-10-04		October 4|1987	fb:part.october_4|fb:part.1987
+28	7	fb:cell.84_years_277_days	84 years, 277 days	84|years|,|277|days	84|year|,|277|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	84.0|84.0||277.0|0.0	84.0		277.0	84 years|277 days	fb:part.84_years|fb:part.277_days
+29	0	fb:cell.charles_j_carney	Charles J. Carney	charles|j.|carney	Charles|J.|Carney	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+29	1	fb:cell.ohio	Ohio	ohio	Ohio	NNP	LOCATION						
+29	2	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0			19	fb:part.19
+29	3	fb:cell.1970_1979	1970–1979	1970|--|1979	1970|--|1979	CD|:|CD	DATE|DATE|DATE	1970|1970|1979	1970.0		1979.0	1970–1979	fb:part.1970_1979
+29	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+29	5	fb:cell.april_17_1913	April 17, 1913	april|17|,|1913	April|17|,|1913	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1913-04-17|1913-04-17|1913-04-17|1913-04-17	171913.0	1913-04-17		April 17|1913	fb:part.april_17|fb:part.1913
+29	6	fb:cell.october_7_1987	October 7, 1987	october|7|,|1987	October|7|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-10-07|1987-10-07|1987-10-07|1987-10-07	71987.0	1987-10-07		October 7|1987	fb:part.october_7|fb:part.1987
+29	7	fb:cell.74_years_173_days	74 years, 173 days	74|years|,|173|days	74|year|,|173|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	74.0|74.0||173.0|0.0	74.0		173.0	74 years|173 days	fb:part.74_years|fb:part.173_days
+30	0	fb:cell.clare_boothe_luce	Clare Boothe Luce	clare|boothe|luce	Clare|Boothe|Luce	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+30	1	fb:cell.connecticut	Connecticut	connecticut	Connecticut	NNP	LOCATION						
+30	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0			4	fb:part.4
+30	3	fb:cell.1943_1947	1943–1947	1943|--|1947	1943|--|1947	CD|:|CD	DATE|DATE|DATE	1943|1943|1947	1943.0		1947.0	1943–1947	fb:part.1943_1947
+30	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+30	5	fb:cell.march_10_1903	March 10, 1903	march|10|,|1903	March|10|,|1903	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1903-03-10|1903-03-10|1903-03-10|1903-03-10	101903.0	1903-03-10		March 10|1903	fb:part.march_10|fb:part.1903
+30	6	fb:cell.october_9_1987	October 9, 1987	october|9|,|1987	October|9|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-10-09|1987-10-09|1987-10-09|1987-10-09	91987.0	1987-10-09		October 9|1987	fb:part.october_9|fb:part.1987
+30	7	fb:cell.84_years_213_days	84 years, 213 days	84|years|,|213|days	84|year|,|213|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	84.0|84.0||213.0|0.0	84.0		213.0	84 years|213 days	fb:part.84_years|fb:part.213_days
+31	0	fb:cell.john_e_sheridan	John E. Sheridan	john|e.|sheridan	John|E.|Sheridan	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+31	1	fb:cell.pennsylvania	Pennsylvania	pennsylvania	Pennsylvania	NNP	LOCATION						
+31	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0			4	fb:part.4
+31	3	fb:cell.1939_1947	1939–1947	1939|--|1947	1939|--|1947	CD|:|CD	DATE|DATE|DATE	1939|1939|1947	1939.0		1947.0	1939–1947	fb:part.1939_1947
+31	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+31	5	fb:cell.september_15_1902	September 15, 1902	september|15|,|1902	September|15|,|1902	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1902-09-15|1902-09-15|1902-09-15|1902-09-15	151902.0	1902-09-15		September 15|1902	fb:part.september_15|fb:part.1902
+31	6	fb:cell.november_12_1987	November 12, 1987	november|12|,|1987	November|12|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-11-12|1987-11-12|1987-11-12|1987-11-12	121987.0	1987-11-12		November 12|1987	fb:part.november_12|fb:part.1987
+31	7	fb:cell.85_years_58_days	85 years, 58 days	85|years|,|58|days	85|year|,|58|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	85.0|85.0||58.0|0.0	85.0		58.0	85 years|58 days	fb:part.85_years|fb:part.58_days
+32	0	fb:cell.harold_washington	Harold Washington	harold|washington	Harold|Washington	NNP|NNP	PERSON|PERSON	|					
+32	1	fb:cell.illinois	Illinois	illinois	Illinois	NNP	LOCATION						
+32	2	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0			1	fb:part.1
+32	3	fb:cell.1981_1983	1981–1983	1981|--|1983	1981|--|1983	CD|:|CD	DATE|DATE|DATE	1981|1981|1983	1981.0		1983.0	1981–1983	fb:part.1981_1983
+32	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+32	5	fb:cell.april_15_1922	April 15, 1922	april|15|,|1922	April|15|,|1922	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1922-04-15|1922-04-15|1922-04-15|1922-04-15	151922.0	1922-04-15		April 15|1922	fb:part.april_15|fb:part.1922
+32	6	fb:cell.november_25_1987	November 25, 1987	november|25|,|1987	November|25|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-11-25|1987-11-25|1987-11-25|1987-11-25	251987.0	1987-11-25		November 25|1987	fb:part.november_25|fb:part.1987
+32	7	fb:cell.65_years_224_days	65 years, 224 days	65|years|,|224|days	65|year|,|224|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	65.0|65.0||224.0|0.0	65.0		224.0	65 years|224 days	fb:part.65_years|fb:part.224_days
+33	0	fb:cell.abraham_kazen	Abraham Kazen	abraham|kazen	Abraham|Kazen	NNP|NNP	PERSON|PERSON	|					
+33	1	fb:cell.texas	Texas	texas	Texas	NNP	LOCATION						
+33	2	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0			23	fb:part.23
+33	3	fb:cell.1967_1985	1967–1985	1967|--|1985	1967|--|1985	CD|:|CD	DATE|DATE|DATE	1967|1967|1985	1967.0		1985.0	1967–1985	fb:part.1967_1985
+33	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+33	5	fb:cell.january_17_1919	January 17, 1919	january|17|,|1919	January|17|,|1919	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1919-01-17|1919-01-17|1919-01-17|1919-01-17	171919.0	1919-01-17		January 17|1919	fb:part.january_17|fb:part.1919
+33	6	fb:cell.november_29_1987	November 29, 1987	november|29|,|1987	November|29|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-11-29|1987-11-29|1987-11-29|1987-11-29	291987.0	1987-11-29		November 29|1987	fb:part.november_29|fb:part.1987
+33	7	fb:cell.68_years_316_days	68 years, 316 days	68|years|,|316|days	68|year|,|316|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	68.0|68.0||316.0|0.0	68.0		316.0	68 years|316 days	fb:part.68_years|fb:part.316_days
+34	0	fb:cell.eugene_siler	Eugene Siler	eugene|siler	Eugene|Siler	NNP|NNP	PERSON|PERSON	|					
+34	1	fb:cell.kentucky	Kentucky	kentucky	Kentucky	NNP	LOCATION						
+34	2	fb:cell.8_5	8, 5	8|,|5	8|,|5	CD|,|CD	NUMBER|O|NUMBER	8.0||5.0	85.0			8|5	fb:part.8|fb:part.5
+34	3	fb:cell.1970_1979	1970–1979	1970|--|1979	1970|--|1979	CD|:|CD	DATE|DATE|DATE	1970|1970|1979	1970.0		1979.0	1970–1979	fb:part.1970_1979
+34	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+34	5	fb:cell.june_26_1900	June 26, 1900	june|26|,|1900	June|26|,|1900	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1900-06-26|1900-06-26|1900-06-26|1900-06-26	261900.0	1900-06-26		June 26|1900	fb:part.june_26|fb:part.1900
+34	6	fb:cell.december_5_1987	December 5, 1987	december|5|,|1987	December|5|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-12-05|1987-12-05|1987-12-05|1987-12-05	51987.0	1987-12-05		December 5|1987	fb:part.december_5|fb:part.1987
+34	7	fb:cell.87_years_162_days	87 years, 162 days	87|years|,|162|days	87|year|,|162|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	87.0|87.0||162.0|0.0	87.0		162.0	87 years|162 days	fb:part.87_years|fb:part.162_days
+35	0	fb:cell.albert_p_morano	Albert P. Morano	albert|p.|morano	Albert|P.|Morano	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+35	1	fb:cell.connecticut	Connecticut	connecticut	Connecticut	NNP	LOCATION						
+35	2	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0			4	fb:part.4
+35	3	fb:cell.1951_1959	1951–1959	1951|--|1959	1951|--|1959	CD|:|CD	DATE|DATE|DATE	1951|1951|1959	1951.0		1959.0	1951–1959	fb:part.1951_1959
+35	4	fb:cell.republican	Republican	republican	Republican	NNP	MISC						
+35	5	fb:cell.january_18_1908	January 18, 1908	january|18|,|1908	January|18|,|1908	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1908-01-18|1908-01-18|1908-01-18|1908-01-18	181908.0	1908-01-18		January 18|1908	fb:part.january_18|fb:part.1908
+35	6	fb:cell.december_16_1987	December 16, 1987	december|16|,|1987	December|16|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-12-16|1987-12-16|1987-12-16|1987-12-16	161987.0	1987-12-16		December 16|1987	fb:part.december_16|fb:part.1987
+35	7	fb:cell.79_years_332_days	79 years, 332 days	79|years|,|332|days	79|year|,|332|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	79.0|79.0||332.0|0.0	79.0		332.0	79 years|332 days	fb:part.79_years|fb:part.332_days
+36	0	fb:cell.monroe_m_redden	Monroe M. Redden	monroe|m.|redden	Monroe|M.|Redden	NNP|NNP|NNP	PERSON|PERSON|PERSON	||					
+36	1	fb:cell.north_carolina	North Carolina	north|carolina	North|Carolina	NNP|NNP	LOCATION|LOCATION	|					
+36	2	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0			12	fb:part.12
+36	3	fb:cell.1947_1953	1947–1953	1947|--|1953	1947|--|1953	CD|:|CD	DATE|DATE|DATE	1947|1947|1953	1947.0		1953.0	1947–1953	fb:part.1947_1953
+36	4	fb:cell.democratic	Democratic	democratic	democratic	JJ	MISC						
+36	5	fb:cell.september_24_1901	September 24, 1901	september|24|,|1901	September|24|,|1901	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1901-09-24|1901-09-24|1901-09-24|1901-09-24	241901.0	1901-09-24		September 24|1901	fb:part.september_24|fb:part.1901
+36	6	fb:cell.december_16_1987	December 16, 1987	december|16|,|1987	December|16|,|1987	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1987-12-16|1987-12-16|1987-12-16|1987-12-16	161987.0	1987-12-16		December 16|1987	fb:part.december_16|fb:part.1987
+36	7	fb:cell.86_years_83_days	86 years, 83 days	86|years|,|83|days	86|year|,|83|day	CD|NNS|,|CD|NNS	DURATION|DURATION|O|DURATION|NUMBER	86.0|86.0||83.0|0.0	86.0		83.0	86 years|83 days	fb:part.86_years|fb:part.83_days

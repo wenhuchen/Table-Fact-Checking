@@ -1,0 +1,226 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.alumni_chapters_and_clubs	Alumni Chapters and Clubs	alumni|chapters|and|clubs	alumnus|chapter|and|club	NNS|NNS|CC|NNS	O|O|O|O	|||					
+-1	1	fb:row.row.location	Location	location	Location	NNP	O						
+-1	2	fb:row.row.founding_date	Founding Date	founding|date	found|date	VBG|NN	O|O	|					
+-1	3	fb:row.row.years_active	Years Active	years|active	year|active	NNS|JJ	DURATION|O	|					
+-1	4	fb:row.row.province	Province	province	Province	NNP	O						
+0	0	fb:cell.zeta_alpha	Zeta Alpha	zeta|alpha	Zeta|Alpha	NNP|NNP	O|O	|					
+0	1	fb:cell.detroit_mi	Detroit, MI	detroit|,|mi	Detroit|,|MI	NNP|,|NNP	LOCATION|O|O	||				Detroit|MI	fb:part.detroit|fb:part.mi
+0	2	fb:cell.1925	1925	1925	1925	CD	DATE	1925	1925.0	1925-xx-xx		1925	fb:part.1925
+0	3	fb:cell.null											fb:part.null
+0	4	fb:cell.beta	Beta	beta	beta	NN	O						
+1	0	fb:cell.zeta_beta	Zeta Beta *	zeta|beta|\\*	Zeta|Beta|\\*	NNP|NNP|SYM	O|O|O	||					
+1	1	fb:cell.columbus_oh	Columbus, OH	columbus|,|oh	Columbus|,|oh	NNP|,|NN	O|O|O	||				Columbus|OH	fb:part.columbus|fb:part.oh
+1	2	fb:cell.december_14_1926	December 14, 1926	december|14|,|1926	December|14|,|1926	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1926-12-14|1926-12-14|1926-12-14|1926-12-14	141926.0	1926-12-14		December 14|1926	fb:part.december_14|fb:part.1926
+1	3	fb:cell.null											fb:part.null
+1	4	fb:cell.alpha_north	Alpha North	alpha|north	alpha|north	NN|NN	O|O	|					
+2	0	fb:cell.zeta_gamma	Zeta Gamma	zeta|gamma	Zeta|Gamma	NNP|NNP	O|O	|					
+2	1	fb:cell.cincinnati_oh	Cincinnati, OH	cincinnati|,|oh	Cincinnati|,|oh	NNP|,|NN	LOCATION|O|O	||				Cincinnati|OH	fb:part.cincinnati|fb:part.oh
+2	2	fb:cell.december_14_1926	December 14, 1926	december|14|,|1926	December|14|,|1926	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1926-12-14|1926-12-14|1926-12-14|1926-12-14	141926.0	1926-12-14		December 14|1926	fb:part.december_14|fb:part.1926
+2	3	fb:cell.null											fb:part.null
+2	4	fb:cell.alpha_south	Alpha South	alpha|south	Alpha|South	NNP|NNP	O|O	|					
+3	0	fb:cell.zeta_delta	Zeta Delta	zeta|delta	Zeta|Delta	NNP|NNP	O|O	|					
+3	1	fb:cell.milwaukee_wi	Milwaukee, WI	milwaukee|,|wi	Milwaukee|,|WI	NNP|,|NNP	LOCATION|O|O	||				Milwaukee|WI	fb:part.milwaukee|fb:part.wi
+3	2	fb:cell.february_7_1927	February 7, 1927	february|7|,|1927	February|7|,|1927	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1927-02-07|1927-02-07|1927-02-07|1927-02-07	71927.0	1927-02-07		February 7|1927	fb:part.february_7|fb:part.1927
+3	3	fb:cell.1927_present	1927–present	1927|--|present	1927|--|present	CD|:|JJ	DATE|O|DATE	1927||PRESENT_REF	1927.0				
+3	4	fb:cell.mu	Mu	mu	mu	NN	O						
+4	0	fb:cell.zeta_epsilon	Zeta Epsilon *	zeta|epsilon|\\*	Zeta|Epsilon|\\*	NNP|NNP|SYM	O|O|O	||					
+4	1	fb:cell.chicago_il	Chicago, IL	chicago|,|il	Chicago|,|il	NNP|,|NN	LOCATION|O|O	||				Chicago|IL	fb:part.chicago|fb:part.il
+4	2	fb:cell.may_21_1928	May 21, 1928	may|21|,|1928	May|21|,|1928	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1928-05-21|1928-05-21|1928-05-21|1928-05-21	211928.0	1928-05-21		May 21|1928	fb:part.may_21|fb:part.1928
+4	3	fb:cell.null											fb:part.null
+4	4	fb:cell.null											fb:part.null
+5	0	fb:cell.zeta_zeta	Zeta Zeta	zeta|zeta	Zeta|Zeta	NNP|NNP	O|O	|					
+5	1	fb:cell.denver_co	Denver, CO	denver|,|co	Denver|,|CO	NNP|,|NNP	LOCATION|O|O	||				Denver|CO	fb:part.denver|fb:part.co
+5	2	fb:cell.november_23_1940	November 23, 1940	november|23|,|1940	November|23|,|1940	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1940-11-23|1940-11-23|1940-11-23|1940-11-23	231940.0	1940-11-23		November 23|1940	fb:part.november_23|fb:part.1940
+5	3	fb:cell.null											fb:part.null
+5	4	fb:cell.gamma	Gamma	gamma	gamma	NN	O						
+6	0	fb:cell.zeta_eta	Zeta Eta	zeta|eta	Zeta|Eta	NNP|NNP	O|O	|					
+6	1	fb:cell.bloomington_normal_il	Bloomington-Normal, IL	bloomington|normal|,|il	Bloomington|normal|,|il	NNP|JJ|,|NN	O|O|O|O	|||				Bloomington-Normal|IL	fb:part.bloomington_normal|fb:part.il
+6	2	fb:cell.december_13_1941	December 13, 1941	december|13|,|1941	December|13|,|1941	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1941-12-13|1941-12-13|1941-12-13|1941-12-13	131941.0	1941-12-13		December 13|1941	fb:part.december_13|fb:part.1941
+6	3	fb:cell.null											fb:part.null
+6	4	fb:cell.delta	Delta	delta	delta	NN	O						
+7	0	fb:cell.zeta_theta	Zeta Theta *	zeta|theta|\\*	Zeta|Theta|\\*	NNP|NNP|SYM	O|O|O	||					
+7	1	fb:cell.los_angeles_ca	Los Angeles, CA	los|angeles|,|ca	Los|Angeles|,|CA	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Los Angeles|CA	fb:part.los_angeles|fb:part.ca
+7	2	fb:cell.1943	1943	1943	1943	CD	DATE	1943	1943.0	1943-xx-xx		1943	fb:part.1943
+7	3	fb:cell.null											fb:part.null
+7	4	fb:cell.null											fb:part.null
+8	0	fb:cell.zeta_iota	Zeta Iota *	zeta|iota|\\*	Zeta|Iota|\\*	NNP|NNP|SYM	O|O|O	||					
+8	1	fb:cell.louisville_ky	Louisville, KY	louisville|,|ky	Louisville|,|KY	NNP|,|NNP	LOCATION|O|O	||				Louisville|KY	fb:part.louisville|fb:part.ky
+8	2	fb:cell.1944	1944	1944	1944	CD	DATE	1944	1944.0	1944-xx-xx		1944	fb:part.1944
+8	3	fb:cell._2013	?-2013	?|-2013	?|-2013	.|CD	O|NUMBER	|-2013.0	2013.0				
+8	4	fb:cell.alpha_south	Alpha South	alpha|south	Alpha|South	NNP|NNP	O|O	|					
+9	0	fb:cell.zeta_kappa	Zeta Kappa *	zeta|kappa|\\*	Zeta|Kappa|\\*	NNP|NNP|SYM	O|O|O	||					
+9	1	fb:cell.cincinnati_oh	Cincinnati, OH	cincinnati|,|oh	Cincinnati|,|oh	NNP|,|NN	LOCATION|O|O	||				Cincinnati|OH	fb:part.cincinnati|fb:part.oh
+9	2	fb:cell.may_16_1946	May 16, 1946	may|16|,|1946	May|16|,|1946	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1946-05-16|1946-05-16|1946-05-16|1946-05-16	161946.0	1946-05-16		May 16|1946	fb:part.may_16|fb:part.1946
+9	3	fb:cell.null											fb:part.null
+9	4	fb:cell.null											fb:part.null
+10	0	fb:cell.zeta_lambda	Zeta Lambda *	zeta|lambda|\\*	Zeta|Lambda|\\*	NNP|NNP|SYM	O|O|O	||					
+10	1	fb:cell.baton_rouge_la	Baton Rouge, LA	baton|rouge|,|la	Baton|Rouge|,|LA	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Baton Rouge|LA	fb:part.baton_rouge|fb:part.la
+10	2	fb:cell.1946	1946	1946	1946	CD	DATE	1946	1946.0	1946-xx-xx		1946	fb:part.1946
+10	3	fb:cell.null											fb:part.null
+10	4	fb:cell.null											fb:part.null
+11	0	fb:cell.zeta_mu	Zeta Mu *	zeta|mu|\\*	Zeta|Mu|\\*	NNP|NNP|SYM	O|O|O	||					
+11	1	fb:cell.lincoln_ne	Lincoln, NE	lincoln|,|ne	Lincoln|,|ne	NNP|,|NN	PERSON|O|O	||				Lincoln|NE	fb:part.lincoln|fb:part.ne
+11	2	fb:cell.february_22_1947	February 22, 1947	february|22|,|1947	February|22|,|1947	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1947-02-22|1947-02-22|1947-02-22|1947-02-22	221947.0	1947-02-22		February 22|1947	fb:part.february_22|fb:part.1947
+11	3	fb:cell.null											fb:part.null
+11	4	fb:cell.null											fb:part.null
+12	0	fb:cell.zeta_nu	Zeta Nu *	zeta|nu|\\*	Zeta|Nu|\\*	NNP|NNP|SYM	O|O|O	||					
+12	1	fb:cell.ann_arbor_mi	Ann Arbor, MI	ann|arbor|,|mi	Ann|Arbor|,|MI	NNP|NNP|,|NNP	PERSON|PERSON|O|O	|||				Ann Arbor|MI	fb:part.ann_arbor|fb:part.mi
+12	2	fb:cell.december_1948	December 1948	december|1948	December|1948	NNP|CD	DATE|DATE	1948-12|1948-12	1948.0	1948-12-xx		December 1948	fb:part.december_1948
+12	3	fb:cell.null											fb:part.null
+12	4	fb:cell.null											fb:part.null
+13	0	fb:cell.zeta_xi	Zeta Xi *	zeta|xi|\\*	Zeta|xi|\\*	NNP|NN|SYM	O|O|O	||					
+13	1	fb:cell.oakland_county_mi	Oakland County, MI	oakland|county|,|mi	Oakland|County|,|MI	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Oakland County|MI	fb:part.oakland_county|fb:part.mi
+13	2	fb:cell.july_7_1953	July 7, 1953	july|7|,|1953	July|7|,|1953	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1953-07-07|1953-07-07|1953-07-07|1953-07-07	71953.0	1953-07-07		July 7|1953	fb:part.july_7|fb:part.1953
+13	3	fb:cell.null											fb:part.null
+13	4	fb:cell.null											fb:part.null
+14	0	fb:cell.zeta_omicron	Zeta Omicron	zeta|omicron	Zeta|Omicron	NNP|NNP	O|O	|					
+14	1	fb:cell.akron_kent_oh	Akron-Kent, OH	akron|kent|,|oh	Akron|Kent|,|oh	NNP|NNP|,|NN	PERSON|PERSON|O|O	|||				Akron-Kent|OH	fb:part.akron_kent|fb:part.oh
+14	2	fb:cell.may_27_1956	May 27, 1956	may|27|,|1956	May|27|,|1956	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1956-05-27|1956-05-27|1956-05-27|1956-05-27	271956.0	1956-05-27		May 27|1956	fb:part.may_27|fb:part.1956
+14	3	fb:cell.1956_present	1956–present	1956|--|present	1956|--|present	CD|:|JJ	DATE|O|DATE	1956||PRESENT_REF	1956.0				
+14	4	fb:cell.alpha_north	Alpha North	alpha|north	alpha|north	NN|NN	O|O	|					
+15	0	fb:cell.zeta_pi	Zeta Pi *	zeta|pi|\\*	Zeta|Pi|\\*	NNP|NNP|SYM	O|O|O	||					
+15	1	fb:cell.columbia_sc	Columbia, SC	columbia|,|sc	Columbia|,|SC	NNP|,|NNP	LOCATION|O|O	||				Columbia|SC	fb:part.columbia|fb:part.sc
+15	2	fb:cell.december_7_1958	December 7, 1958	december|7|,|1958	December|7|,|1958	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1958-12-07|1958-12-07|1958-12-07|1958-12-07	71958.0	1958-12-07		December 7|1958	fb:part.december_7|fb:part.1958
+15	3	fb:cell.null											fb:part.null
+15	4	fb:cell.null											fb:part.null
+16	0	fb:cell.zeta_rho	Zeta Rho *	zeta|rho|\\*	Zeta|rho|\\*	NNP|NN|SYM	O|O|O	||					
+16	1	fb:cell.kearney_ne	Kearney, NE	kearney|,|ne	Kearney|,|ne	NNP|,|NN	PERSON|O|O	||				Kearney|NE	fb:part.kearney|fb:part.ne
+16	2	fb:cell.march_7_1959	March 7, 1959	march|7|,|1959	March|7|,|1959	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1959-03-07|1959-03-07|1959-03-07|1959-03-07	71959.0	1959-03-07		March 7|1959	fb:part.march_7|fb:part.1959
+16	3	fb:cell.null											fb:part.null
+16	4	fb:cell.null											fb:part.null
+17	0	fb:cell.zeta_sigma	Zeta Sigma	zeta|sigma	Zeta|Sigma	NNP|NNP	O|O	|					
+17	1	fb:cell.cleveland_oh	Cleveland, OH	cleveland|,|oh	Cleveland|,|oh	NNP|,|NN	LOCATION|O|O	||				Cleveland|OH	fb:part.cleveland|fb:part.oh
+17	2	fb:cell.may_15_1960	May 15, 1960	may|15|,|1960	May|15|,|1960	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1960-05-15|1960-05-15|1960-05-15|1960-05-15	151960.0	1960-05-15		May 15|1960	fb:part.may_15|fb:part.1960
+17	3	fb:cell.null											fb:part.null
+17	4	fb:cell.alpha_north	Alpha North	alpha|north	alpha|north	NN|NN	O|O	|					
+18	0	fb:cell.zeta_tau	Zeta Tau *	zeta|tau|\\*	Zeta|Tau|\\*	NNP|NNP|SYM	O|O|O	||					
+18	1	fb:cell.st_petersburg_fl	St. Petersburg, FL	st.|petersburg|,|fl	St.|Petersburg|,|fl	NNP|NNP|,|NN	LOCATION|LOCATION|O|LOCATION	|||				St. Petersburg|FL	fb:part.st_petersburg|fb:part.fl
+18	2	fb:cell.december_10_1960	December 10, 1960	december|10|,|1960	December|10|,|1960	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1960-12-10|1960-12-10|1960-12-10|1960-12-10	101960.0	1960-12-10		December 10|1960	fb:part.december_10|fb:part.1960
+18	3	fb:cell.null											fb:part.null
+18	4	fb:cell.null											fb:part.null
+19	0	fb:cell.zeta_upsilon	Zeta Upsilon *	zeta|upsilon|\\*	Zeta|Upsilon|\\*	NNP|NNP|SYM	O|O|O	||					
+19	1	fb:cell.washington_d_c	Washington, D.C.	washington|,|d.c.	Washington|,|D.C.	NNP|,|NNP	LOCATION|O|LOCATION	||				Washington|D.C.	fb:part.washington|fb:part.d_c
+19	2	fb:cell.december_18_1961	December 18, 1961	december|18|,|1961	December|18|,|1961	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1961-12-18|1961-12-18|1961-12-18|1961-12-18	181961.0	1961-12-18		December 18|1961	fb:part.december_18|fb:part.1961
+19	3	fb:cell.null											fb:part.null
+19	4	fb:cell.null											fb:part.null
+20	0	fb:cell.zeta_phi	Zeta Phi *	zeta|phi|\\*	Zeta|Phi|\\*	NNP|NNP|SYM	O|O|O	||					
+20	1	fb:cell.beaumont_tx	Beaumont, TX	beaumont|,|tx	Beaumont|,|TX	NNP|,|NNP	O|O|LOCATION	||				Beaumont|TX	fb:part.beaumont|fb:part.tx
+20	2	fb:cell.march_25_1962	March 25, 1962	march|25|,|1962	March|25|,|1962	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1962-03-25|1962-03-25|1962-03-25|1962-03-25	251962.0	1962-03-25		March 25|1962	fb:part.march_25|fb:part.1962
+20	3	fb:cell.null											fb:part.null
+20	4	fb:cell.null											fb:part.null
+21	0	fb:cell.zeta_chi	Zeta Chi	zeta|chi	Zeta|Chi	NNP|NNP	O|O	|					
+21	1	fb:cell.dayton_oh	Dayton, OH	dayton|,|oh	Dayton|,|oh	NNP|,|NN	O|O|O	||				Dayton|OH	fb:part.dayton|fb:part.oh
+21	2	fb:cell.february_14_1967	February 14, 1967	february|14|,|1967	February|14|,|1967	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1967-02-14|1967-02-14|1967-02-14|1967-02-14	141967.0	1967-02-14		February 14|1967	fb:part.february_14|fb:part.1967
+21	3	fb:cell.1967_present	1967–present	1967|--|present	1967|--|present	CD|:|JJ	DATE|O|DATE	1967||PRESENT_REF	1967.0				
+21	4	fb:cell.alpha_south	Alpha South	alpha|south	Alpha|South	NNP|NNP	O|O	|					
+22	0	fb:cell.zeta_psi	Zeta Psi *	zeta|psi|\\*	Zeta|Psi|\\*	NNP|NNP|SYM	O|O|O	||					
+22	1	fb:cell.philadelphia_pa	Philadelphia, PA	philadelphia|,|pa	Philadelphia|,|pa	NNP|,|NN	LOCATION|O|O	||				Philadelphia|PA	fb:part.philadelphia|fb:part.pa
+22	2	fb:cell.june_4_1967	June 4, 1967	june|4|,|1967	June|4|,|1967	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1967-06-04|1967-06-04|1967-06-04|1967-06-04	41967.0	1967-06-04		June 4|1967	fb:part.june_4|fb:part.1967
+22	3	fb:cell.null											fb:part.null
+22	4	fb:cell.null											fb:part.null
+23	0	fb:cell.zeta_omega	Zeta Omega *	zeta|omega|\\*	Zeta|Omega|\\*	NNP|NNP|SYM	O|O|O	||					
+23	1	fb:cell.spartanburg_greenville_sc	Spartanburg-Greenville, SC	spartanburg|greenville|,|sc	Spartanburg|Greenville|,|SC	NNP|NNP|,|NNP	LOCATION|LOCATION|O|O	|||				Spartanburg-Greenville|SC	fb:part.spartanburg_greenville|fb:part.sc
+23	2	fb:cell.april_12_1969	April 12, 1969	april|12|,|1969	April|12|,|1969	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1969-04-12|1969-04-12|1969-04-12|1969-04-12	121969.0	1969-04-12		April 12|1969	fb:part.april_12|fb:part.1969
+23	3	fb:cell.null											fb:part.null
+23	4	fb:cell.null											fb:part.null
+24	0	fb:cell.eta_alpha	Eta Alpha *	eta|alpha|\\*	Eta|Alpha|\\*	NNP|NNP|SYM	O|O|O	||					
+24	1	fb:cell.pueblo_co	Pueblo, CO	pueblo|,|co	Pueblo|,|CO	NNP|,|NNP	O|O|O	||				Pueblo|CO	fb:part.pueblo|fb:part.co
+24	2	fb:cell.may_25_1969	May 25, 1969	may|25|,|1969	May|25|,|1969	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1969-05-25|1969-05-25|1969-05-25|1969-05-25	251969.0	1969-05-25		May 25|1969	fb:part.may_25|fb:part.1969
+24	3	fb:cell.null											fb:part.null
+24	4	fb:cell.null											fb:part.null
+25	0	fb:cell.eta_beta	Eta Beta *	eta|beta|\\*	eta|beta|\\*	NN|NN|SYM	O|O|O	||					
+25	1	fb:cell.brownwood_tx	Brownwood, TX	brownwood|,|tx	Brownwood|,|TX	NNP|,|NNP	LOCATION|O|LOCATION	||				Brownwood|TX	fb:part.brownwood|fb:part.tx
+25	2	fb:cell.november_14_1969	November 14, 1969	november|14|,|1969	November|14|,|1969	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1969-11-14|1969-11-14|1969-11-14|1969-11-14	141969.0	1969-11-14		November 14|1969	fb:part.november_14|fb:part.1969
+25	3	fb:cell.null											fb:part.null
+25	4	fb:cell.null											fb:part.null
+26	0	fb:cell.eta_gamma	Eta Gamma *	eta|gamma|\\*	Eta|Gamma|\\*	NNP|NNP|SYM	O|O|O	||					
+26	1	fb:cell.ft_collins_co	Ft. Collins, Co	ft.|collins|,|co	Ft.|Collins|,|Co	NNP|NNP|,|NNP	O|PERSON|O|O	|||				Ft. Collins|Co	fb:part.ft_collins|fb:part.co
+26	2	fb:cell.march_7_1970	March 7, 1970	march|7|,|1970	March|7|,|1970	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1970-03-07|1970-03-07|1970-03-07|1970-03-07	71970.0	1970-03-07		March 7|1970	fb:part.march_7|fb:part.1970
+26	3	fb:cell.null											fb:part.null
+26	4	fb:cell.null											fb:part.null
+27	0	fb:cell.eta_delta	Eta Delta *	eta|delta|\\*	eta|delta|\\*	NN|NN|SYM	O|O|O	||					
+27	1	fb:cell.san_antonio_tx	San Antonio, TX	san|antonio|,|tx	San|Antonio|,|TX	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				San Antonio|TX	fb:part.san_antonio|fb:part.tx
+27	2	fb:cell.february_20_1971	February 20, 1971	february|20|,|1971	February|20|,|1971	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1971-02-20|1971-02-20|1971-02-20|1971-02-20	201971.0	1971-02-20		February 20|1971	fb:part.february_20|fb:part.1971
+27	3	fb:cell.null											fb:part.null
+27	4	fb:cell.null											fb:part.null
+28	0	fb:cell.eta_epsilon	Eta Epsilon *	eta|epsilon|\\*	Eta|Epsilon|\\*	NNP|NNP|SYM	O|O|O	||					
+28	1	fb:cell.atlanta_ga	Atlanta, GA	atlanta|,|ga	Atlanta|,|GA	NNP|,|NNP	LOCATION|O|O	||				Atlanta|GA	fb:part.atlanta|fb:part.ga
+28	2	fb:cell.february_23_1971	February 23, 1971	february|23|,|1971	February|23|,|1971	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1971-02-23|1971-02-23|1971-02-23|1971-02-23	231971.0	1971-02-23		February 23|1971	fb:part.february_23|fb:part.1971
+28	3	fb:cell.null											fb:part.null
+28	4	fb:cell.null											fb:part.null
+29	0	fb:cell.eta_zeta	Eta Zeta *	eta|zeta|\\*	eta|Zeta|\\*	NN|NNP|SYM	O|O|O	||					
+29	1	fb:cell.buffalo_ny	Buffalo, NY	buffalo|,|ny	Buffalo|,|NY	NNP|,|NNP	O|O|O	||				Buffalo|NY	fb:part.buffalo|fb:part.ny
+29	2	fb:cell.may_2_1971	May 2, 1971	may|2|,|1971	May|2|,|1971	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1971-05-02|1971-05-02|1971-05-02|1971-05-02	21971.0	1971-05-02		May 2|1971	fb:part.may_2|fb:part.1971
+29	3	fb:cell.null											fb:part.null
+29	4	fb:cell.null											fb:part.null
+30	0	fb:cell.eta_eta	Eta Eta *	eta|eta|\\*	eta|eta|\\*	NN|NN|SYM	O|O|O	||					
+30	1	fb:cell.jacksonville_al	Jacksonville, AL	jacksonville|,|al	Jacksonville|,|AL	NNP|,|NNP	LOCATION|O|O	||				Jacksonville|AL	fb:part.jacksonville|fb:part.al
+30	2	fb:cell.may_13_1972	May 13, 1972	may|13|,|1972	May|13|,|1972	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	1972-05-13|1972-05-13|1972-05-13|1972-05-13	131972.0	1972-05-13		May 13|1972	fb:part.may_13|fb:part.1972
+30	3	fb:cell.null											fb:part.null
+30	4	fb:cell.null											fb:part.null
+31	0	fb:cell.eta_theta	Eta Theta *	eta|theta|\\*	eta|Theta|\\*	NN|NNP|SYM	O|O|O	||					
+31	1	fb:cell.dallas_tx	Dallas, TX	dallas|,|tx	Dallas|,|TX	NNP|,|NNP	LOCATION|O|LOCATION	||				Dallas|TX	fb:part.dallas|fb:part.tx
+31	2	fb:cell.november_9_1975	November 9, 1975	november|9|,|1975	November|9|,|1975	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1975-11-09|1975-11-09|1975-11-09|1975-11-09	91975.0	1975-11-09		November 9|1975	fb:part.november_9|fb:part.1975
+31	3	fb:cell.null											fb:part.null
+31	4	fb:cell.null											fb:part.null
+32	0	fb:cell.eta_iota	Eta Iota *	eta|iota|\\*	eta|Iota|\\*	NN|NNP|SYM	O|O|O	||					
+32	1	fb:cell.huntsville_al	Huntsville, AL	huntsville|,|al	Huntsville|,|AL	NNP|,|NNP	LOCATION|O|O	||				Huntsville|AL	fb:part.huntsville|fb:part.al
+32	2	fb:cell.september_24_1978	September 24, 1978	september|24|,|1978	September|24|,|1978	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1978-09-24|1978-09-24|1978-09-24|1978-09-24	241978.0	1978-09-24		September 24|1978	fb:part.september_24|fb:part.1978
+32	3	fb:cell.null											fb:part.null
+32	4	fb:cell.null											fb:part.null
+33	0	fb:cell.eta_kappa	Eta Kappa *	eta|kappa|\\*	eta|kappa|\\*	NN|NN|SYM	O|O|O	||					
+33	1	fb:cell.phoenix_az	Phoenix, AZ	phoenix|,|az	Phoenix|,|AZ	NNP|,|NNP	LOCATION|O|LOCATION	||				Phoenix|AZ	fb:part.phoenix|fb:part.az
+33	2	fb:cell.january_26_1980	January 26, 1980	january|26|,|1980	January|26|,|1980	NNP|CD|,|CD	DATE|DATE|DATE|DATE	1980-01-26|1980-01-26|1980-01-26|1980-01-26	261980.0	1980-01-26		January 26|1980	fb:part.january_26|fb:part.1980
+33	3	fb:cell.null											fb:part.null
+33	4	fb:cell.null											fb:part.null
+34	0	fb:cell.eta_lambda	Eta Lambda *	eta|lambda|\\*	eta|Lambda|\\*	NN|NNP|SYM	O|O|O	||					
+34	1	fb:cell.lithonia_ga	Lithonia, GA	lithonia|,|ga	Lithonia|,|GA	NNP|,|NNP	LOCATION|O|O	||				Lithonia|GA	fb:part.lithonia|fb:part.ga
+34	2	fb:cell.may_18_2003	May 18, 2003	may|18|,|2003	May|18|,|2003	VBD-AUX|CD|,|CD	DATE|DATE|DATE|DATE	2003-05-18|2003-05-18|2003-05-18|2003-05-18	182003.0	2003-05-18		May 18|2003	fb:part.may_18|fb:part.2003
+34	3	fb:cell.2004_2011	2004–2011	2004|--|2011	2004|--|2011	CD|:|CD	DATE|DATE|DATE	2004|2004|2011	2004.0		2011.0		
+34	4	fb:cell.iota	Iota	iota	iota	NN	O						
+35	0	fb:cell.eta_mu	Eta Mu *	eta|mu|\\*	eta|mu|\\*	NN|NN|SYM	O|O|O	||					
+35	1	fb:cell.atlanta_ga	Atlanta, GA	atlanta|,|ga	Atlanta|,|GA	NNP|,|NNP	LOCATION|O|O	||				Atlanta|GA	fb:part.atlanta|fb:part.ga
+35	2	fb:cell.july_18_2004	July 18, 2004	july|18|,|2004	July|18|,|2004	NNP|CD|,|CD	DATE|DATE|DATE|DATE	2004-07-18|2004-07-18|2004-07-18|2004-07-18	182004.0	2004-07-18		July 18|2004	fb:part.july_18|fb:part.2004
+35	3	fb:cell.2004_2011	2004–2011	2004|--|2011	2004|--|2011	CD|:|CD	DATE|DATE|DATE	2004|2004|2011	2004.0		2011.0		
+35	4	fb:cell.iota	Iota	iota	iota	NN	O						
+36	0	fb:cell.champaign_urbana_alumni_club	Champaign-Urbana Alumni Club	champaign|urbana|alumni|club	Champaign|Urbana|Alumni|Club	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+36	1	fb:cell.chambaign_urbana_il	Chambaign-Urbana, IL	chambaign|urbana|,|il	Chambaign|Urbana|,|il	NNP|NNP|,|NN	LOCATION|LOCATION|O|O	|||				Chambaign-Urbana|IL	fb:part.chambaign_urbana|fb:part.il
+36	2	fb:cell.null											fb:part.null
+36	3	fb:cell.null											fb:part.null
+36	4	fb:cell.delta	Delta	delta	delta	NN	O						
+37	0	fb:cell.lincoln_alumni_club	Lincoln Alumni Club	lincoln|alumni|club	Lincoln|Alumni|Club	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+37	1	fb:cell.lincoln_ne	Lincoln, NE	lincoln|,|ne	Lincoln|,|ne	NNP|,|NN	PERSON|O|O	||				Lincoln|NE	fb:part.lincoln|fb:part.ne
+37	2	fb:cell.null											fb:part.null
+37	3	fb:cell.null											fb:part.null
+37	4	fb:cell.theta	Theta	theta	Theta	NNP	O						
+38	0	fb:cell.kearney_alumni_club	Kearney Alumni Club	kearney|alumni|club	Kearney|Alumni|Club	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+38	1	fb:cell.kearney_ne	Kearney, NE	kearney|,|ne	Kearney|,|ne	NNP|,|NN	PERSON|O|O	||				Kearney|NE	fb:part.kearney|fb:part.ne
+38	2	fb:cell.null											fb:part.null
+38	3	fb:cell.null											fb:part.null
+38	4	fb:cell.theta	Theta	theta	Theta	NNP	O						
+39	0	fb:cell.georgia_alumni_club	Georgia Alumni Club *	georgia|alumni|club|\\*	Georgia|Alumni|Club|\\*	NNP|NNP|NNP|SYM	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+39	1	fb:cell.decatur_ga	Decatur, GA	decatur|,|ga	Decatur|,|GA	NNP|,|NNP	LOCATION|O|O	||				Decatur|GA	fb:part.decatur|fb:part.ga
+39	2	fb:cell.null											fb:part.null
+39	3	fb:cell._2012	?-2012	?|-2012	?|-2012	.|CD	O|NUMBER	|-2012.0	2012.0				
+39	4	fb:cell.iota	Iota	iota	iota	NN	O						
+40	0	fb:cell.frostburg_alumni_club	Frostburg Alumni Club	frostburg|alumni|club	Frostburg|Alumni|Club	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+40	1	fb:cell.frostburg_md	Frostburg, MD	frostburg|,|md	Frostburg|,|md	NNP|,|NN	LOCATION|O|O	||				Frostburg|MD	fb:part.frostburg|fb:part.md
+40	2	fb:cell.null											fb:part.null
+40	3	fb:cell.null											fb:part.null
+40	4	fb:cell.lambda	Lambda	lambda	Lambda	NNP	O						
+41	0	fb:cell.cincinnati_alumni_club	Cincinnati Alumni Club *	cincinnati|alumni|club|\\*	Cincinnati|Alumni|Club|\\*	NNP|NNP|NNP|SYM	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+41	1	fb:cell.cincinnati_oh	Cincinnati, OH	cincinnati|,|oh	Cincinnati|,|oh	NNP|,|NN	LOCATION|O|O	||				Cincinnati|OH	fb:part.cincinnati|fb:part.oh
+41	2	fb:cell.null											fb:part.null
+41	3	fb:cell._2010	?-2010	?|-2010	?|-2010	.|CD	O|NUMBER	|-2010.0	2010.0				
+41	4	fb:cell.eta_south	Eta South	eta|south	Eta|South	NNP|NNP	O|O	|					
+42	0	fb:cell.atlanta_alumni_club	Atlanta Alumni Club *	atlanta|alumni|club|\\*	Atlanta|Alumni|Club|\\*	NNP|NNP|NNP|SYM	ORGANIZATION|ORGANIZATION|ORGANIZATION|O	|||					
+42	1	fb:cell.atlanta_ga	Atlanta, GA	atlanta|,|ga	Atlanta|,|GA	NNP|,|NNP	LOCATION|O|O	||				Atlanta|GA	fb:part.atlanta|fb:part.ga
+42	2	fb:cell.null											fb:part.null
+42	3	fb:cell._2012	?-2012	?|-2012	?|-2012	.|CD	O|NUMBER	|-2012.0	2012.0				
+42	4	fb:cell.iota	Iota	iota	iota	NN	O						
+43	0	fb:cell.middle_tennessee_alumni_club	Middle Tennessee Alumni Club	middle|tennessee|alumni|club	Middle|Tennessee|Alumni|Club	NNP|NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+43	1	fb:cell.murfreesboro_tn	Murfreesboro, TN	murfreesboro|,|tn	Murfreesboro|,|tn	NNP|,|NN	LOCATION|O|O	||				Murfreesboro|TN	fb:part.murfreesboro|fb:part.tn
+43	2	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx		2013	fb:part.2013
+43	3	fb:cell.2013_present	2013-present	2013|present	2013|present	CD|JJ	DATE|DATE	2013|2013	2013.0	2013-xx-xx			
+43	4	fb:cell.zeta_west	Zeta West	zeta|west	Zeta|West	NNP|NNP	O|O	|					

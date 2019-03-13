@@ -1,0 +1,651 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.year	Year	year	year	NN	DURATION						
+-1	1	fb:row.row.winner	Winner	winner	winner	NN	O						
+-1	2	fb:row.row.age	Age	age	age	NN	O						
+-1	3	fb:row.row.jockey	Jockey	jockey	jockey	NN	O						
+-1	4	fb:row.row.trainer	Trainer	trainer	trainer	NN	O						
+-1	5	fb:row.row.owner	Owner	owner	Owner	NNP	O						
+-1	6	fb:row.row.distance_miles	Distance\n(Miles)	distance|-lrb-|miles|-rrb-	Distance|-lrb-|Miles|-rrb-	NNP|-LRB-|NNP|-RRB-	O|O|O|O	|||					
+-1	7	fb:row.row.time	Time	time	Time	NNP	O						
+-1	8	fb:row.row.purse	Purse	purse	purse	NN	O						
+-1	9	fb:row.row.gr	Gr	gr	gr	NN	O						
+0	0	fb:cell.2014	2014	2014	2014	CD	DATE	2014	2014.0	2014-xx-xx			
+0	1	fb:cell.constitution	Constitution	constitution	Constitution	NNP	O						
+0	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+0	3	fb:cell.javier_castellano	Javier Castellano	javier|castellano	Javier|Castellano	NNP|NNP	PERSON|PERSON	|				Javier Castellano	fb:part.javier_castellano
+0	4	fb:cell.todd_pletcher	Todd Pletcher	todd|pletcher	Todd|Pletcher	NNP|NNP	PERSON|PERSON	|				Todd Pletcher	fb:part.todd_pletcher
+0	5	fb:cell.winstar_farm	Winstar Farm	winstar|farm	Winstar|Farm	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Winstar Farm	fb:part.winstar_farm
+0	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+0	7	fb:cell.1_49_17	1:49.17	1:49.17	1:49.17	CD	TIME	T01:49	1.0		49.17		
+0	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+0	9	fb:cell.i	I	i	I	PRP	O						
+1	0	fb:cell.2013	2013	2013	2013	CD	DATE	2013	2013.0	2013-xx-xx			
+1	1	fb:cell.orb	Orb	orb	orb	NN	O						
+1	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+1	3	fb:cell.john_velazquez	John Velazquez	john|velazquez	John|Velazquez	NNP|NNP	PERSON|PERSON	|				John Velazquez	fb:part.john_velazquez
+1	4	fb:cell.claude_mcgaughey_iii	Claude McGaughey III	claude|mcgaughey|iii	Claude|McGaughey|III	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Claude McGaughey III	fb:part.claude_mcgaughey_iii
+1	5	fb:cell.janney_phipps_stable	Janney/Phipps Stable	janney\\/phipps|stable	Janney\\/Phipps|stable	NNP|JJ	O|O	|				Janney|Phipps Stable	fb:part.janney|fb:part.phipps_stable
+1	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+1	7	fb:cell.1_50_87	1:50.87	1:50.87	1:50.87	CD	TIME	T01:50	1.0		50.87		
+1	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+1	9	fb:cell.i	I	i	I	PRP	O						
+2	0	fb:cell.2012	2012	2012	2012	CD	DATE	2012	2012.0	2012-xx-xx			
+2	1	fb:cell.take_charge_indy	Take Charge Indy	take|charge|indy	take|Charge|Indy	VB|NNP|NNP	O|O|O	||					
+2	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	3	fb:cell.calvin_borel	Calvin Borel	calvin|borel	Calvin|Borel	NNP|NNP	PERSON|PERSON	|				Calvin Borel	fb:part.calvin_borel
+2	4	fb:cell.patrick_b_byrne	Patrick B. Byrne	patrick|b.|byrne	Patrick|B.|Byrne	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Patrick B. Byrne	fb:part.patrick_b_byrne
+2	5	fb:cell.c_m_sandford	C & M Sandford	c|&|m|sandford	C|&|M|Sandford	NNP|CC|NNP|NNP	O|O|O|PERSON	|||				C & M Sandford	fb:part.c_m_sandford
+2	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+2	7	fb:cell.1_48_79	1:48.79	1:48.79	1:48.79	CD	TIME	T01:48	1.0		48.79		
+2	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+2	9	fb:cell.i	I	i	I	PRP	O						
+3	0	fb:cell.2011	2011	2011	2011	CD	DATE	2011	2011.0	2011-xx-xx			
+3	1	fb:cell.dialed_in	Dialed In	dialed|in	dial|in	VBN|IN	O|O	|					
+3	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+3	3	fb:cell.julien_r_leparoux	Julien R. Leparoux	julien|r.|leparoux	Julien|R.|Leparoux	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Julien R. Leparoux	fb:part.julien_r_leparoux
+3	4	fb:cell.nick_zito	Nick Zito	nick|zito	Nick|Zito	NNP|NNP	PERSON|PERSON	|				Nick Zito	fb:part.nick_zito
+3	5	fb:cell.robert_v_lapenta	Robert V. LaPenta	robert|v.|lapenta	Robert|V.|LaPenta	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Robert V. LaPenta	fb:part.robert_v_lapenta
+3	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+3	7	fb:cell.1_50_74	1:50.74	1:50.74	1:50.74	CD	TIME	T01:50	1.0		50.74		
+3	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+3	9	fb:cell.i	I	i	I	PRP	O						
+4	0	fb:cell.2010	2010	2010	2010	CD	DATE	2010	2010.0	2010-xx-xx			
+4	1	fb:cell.ice_box	Ice Box	ice|box	ice|Box	NN|NNP	O|O	|					
+4	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+4	3	fb:cell.jose_lezcano	Jose Lezcano	jose|lezcano	Jose|Lezcano	NNP|NNP	PERSON|PERSON	|				Jose Lezcano	fb:part.jose_lezcano
+4	4	fb:cell.nick_zito	Nick Zito	nick|zito	Nick|Zito	NNP|NNP	PERSON|PERSON	|				Nick Zito	fb:part.nick_zito
+4	5	fb:cell.robert_v_lapenta	Robert V. LaPenta	robert|v.|lapenta	Robert|V.|LaPenta	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Robert V. LaPenta	fb:part.robert_v_lapenta
+4	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+4	7	fb:cell.1_49_19	1:49.19	1:49.19	1:49.19	CD	TIME	T01:49	1.0		49.19		
+4	8	fb:cell._750_000	$750,000	$|750,000	$|750,000	$|CD	MONEY|MONEY	$750000.0|$750000.0	750000.0				
+4	9	fb:cell.i	I	i	I	PRP	O						
+5	0	fb:cell.2009	2009	2009	2009	CD	DATE	2009	2009.0	2009-xx-xx			
+5	1	fb:cell.quality_road	Quality Road	quality|road	Quality|Road	NNP|NNP	O|O	|					
+5	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+5	3	fb:cell.john_velazquez	John Velazquez	john|velazquez	John|Velazquez	NNP|NNP	PERSON|PERSON	|				John Velazquez	fb:part.john_velazquez
+5	4	fb:cell.james_a_jerkens	James A. Jerkens	james|a.|jerkens	James|A.|Jerkens	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				James A. Jerkens	fb:part.james_a_jerkens
+5	5	fb:cell.edward_p_evans	Edward P. Evans	edward|p.|evans	Edward|P.|Evans	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Edward P. Evans	fb:part.edward_p_evans
+5	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+5	7	fb:cell.1_47_72	1:47.72	1:47.72	1:47.72	CD	TIME	T01:47	1.0		47.72		
+5	8	fb:cell._750_000	$750,000	$|750,000	$|750,000	$|CD	MONEY|MONEY	$750000.0|$750000.0	750000.0				
+5	9	fb:cell.i	I	i	I	PRP	O						
+6	0	fb:cell.2008	2008	2008	2008	CD	DATE	2008	2008.0	2008-xx-xx			
+6	1	fb:cell.big_brown	Big Brown	big|brown	Big|Brown	NNP|NNP	O|O	|					
+6	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+6	3	fb:cell.kent_desormeaux	Kent Desormeaux	kent|desormeaux	Kent|Desormeaux	NNP|NNP	PERSON|PERSON	|				Kent Desormeaux	fb:part.kent_desormeaux
+6	4	fb:cell.richard_e_dutrow	Richard E. Dutrow	richard|e.|dutrow	Richard|E.|Dutrow	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Richard E. Dutrow	fb:part.richard_e_dutrow
+6	5	fb:cell.ieah_stables_paul_pompa	IEAH Stables/Paul Pompa	ieah|stables\\/paul|pompa	IEAH|Stables\\/Paul|Pompa	NNP|NNP|NNP	ORGANIZATION|O|PERSON	||				IEAH Stables|Paul Pompa	fb:part.ieah_stables|fb:part.paul_pompa
+6	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+6	7	fb:cell.1_48_16	1:48.16	1:48.16	1:48.16	CD	TIME	T01:48	1.0		48.16		
+6	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+6	9	fb:cell.i	I	i	I	PRP	O						
+7	0	fb:cell.2007	2007	2007	2007	CD	DATE	2007	2007.0	2007-xx-xx			
+7	1	fb:cell.scat_daddy	Scat Daddy	scat|daddy	Scat|Daddy	NNP|NNP	O|O	|					
+7	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+7	3	fb:cell.edgar_prado	Edgar Prado	edgar|prado	Edgar|Prado	NNP|NNP	PERSON|PERSON	|				Edgar Prado	fb:part.edgar_prado
+7	4	fb:cell.todd_a_pletcher	Todd A. Pletcher	todd|a.|pletcher	Todd|A.|Pletcher	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Todd A. Pletcher	fb:part.todd_a_pletcher
+7	5	fb:cell.j_scatuorchio_m_tabor	J. Scatuorchio / M. Tabor	j.|scatuorchio|\\/|m.|tabor	J.|Scatuorchio|\\/|M.|Tabor	NNP|NNP|:|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				J. Scatuorchio|M. Tabor	fb:part.j_scatuorchio|fb:part.m_tabor
+7	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+7	7	fb:cell.1_49_00	1:49.00	1:49.00	1:49.00	CD	TIME	T01:49	1.0		49.0		
+7	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+7	9	fb:cell.i	I	i	I	PRP	O						
+8	0	fb:cell.2006	2006	2006	2006	CD	DATE	2006	2006.0	2006-xx-xx			
+8	1	fb:cell.barbaro	Barbaro	barbaro	Barbaro	NNP	O						
+8	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+8	3	fb:cell.edgar_prado	Edgar Prado	edgar|prado	Edgar|Prado	NNP|NNP	PERSON|PERSON	|				Edgar Prado	fb:part.edgar_prado
+8	4	fb:cell.michael_matz	Michael Matz	michael|matz	Michael|Matz	NNP|NNP	PERSON|PERSON	|				Michael Matz	fb:part.michael_matz
+8	5	fb:cell.lael_stables	Lael Stables	lael|stables	Lael|Stables	NNP|NNP	PERSON|PERSON	|				Lael Stables	fb:part.lael_stables
+8	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+8	7	fb:cell.1_49_01	1:49.01	1:49.01	1:49.01	CD	TIME	T01:49	1.0		49.01		
+8	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+8	9	fb:cell.i	I	i	I	PRP	O						
+9	0	fb:cell.2005	2005	2005	2005	CD	DATE	2005	2005.0	2005-xx-xx			
+9	1	fb:cell.high_fly	High Fly	high|fly	high|fly	JJ|VB	O|O	|					
+9	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+9	3	fb:cell.jerry_bailey	Jerry Bailey	jerry|bailey	Jerry|Bailey	NNP|NNP	PERSON|PERSON	|				Jerry Bailey	fb:part.jerry_bailey
+9	4	fb:cell.nick_zito	Nick Zito	nick|zito	Nick|Zito	NNP|NNP	PERSON|PERSON	|				Nick Zito	fb:part.nick_zito
+9	5	fb:cell.live_oak_plantation	Live Oak Plantation	live|oak|plantation	Live|Oak|Plantation	NNP|NNP|NNP	O|O|O	||				Live Oak Plantation	fb:part.live_oak_plantation
+9	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+9	7	fb:cell.1_49_43	1:49.43	1:49.43	1:49.43	CD	TIME	T01:49	1.0		49.43		
+9	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+9	9	fb:cell.i	I	i	I	PRP	O						
+10	0	fb:cell.2004	2004	2004	2004	CD	DATE	2004	2004.0	2004-xx-xx			
+10	1	fb:cell.friends_lake	Friends Lake	friends|lake	Friends|Lake	NNPS|NNP	O|O	|					
+10	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+10	3	fb:cell.richard_migliore	Richard Migliore	richard|migliore	Richard|Migliore	NNP|NNP	PERSON|PERSON	|				Richard Migliore	fb:part.richard_migliore
+10	4	fb:cell.john_c_kimmel	John C. Kimmel	john|c.|kimmel	John|C.|Kimmel	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John C. Kimmel	fb:part.john_c_kimmel
+10	5	fb:cell.chester_mary_broman	Chester & Mary Broman	chester|&|mary|broman	Chester|&|Mary|Broman	NNP|CC|NNP|NNP	PERSON|O|PERSON|PERSON	|||				Chester & Mary Broman	fb:part.chester_mary_broman
+10	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+10	7	fb:cell.1_51_38	1:51.38	1:51.38	1:51.38	CD	TIME	T01:51	1.0		51.38		
+10	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+10	9	fb:cell.i	I	i	I	PRP	O						
+11	0	fb:cell.2003	2003	2003	2003	CD	DATE	2003	2003.0	2003-xx-xx			
+11	1	fb:cell.empire_maker	Empire Maker	empire|maker	Empire|Maker	NNP|NNP	O|O	|					
+11	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+11	3	fb:cell.jerry_bailey	Jerry Bailey	jerry|bailey	Jerry|Bailey	NNP|NNP	PERSON|PERSON	|				Jerry Bailey	fb:part.jerry_bailey
+11	4	fb:cell.robert_frankel	Robert Frankel	robert|frankel	Robert|Frankel	NNP|NNP	PERSON|PERSON	|				Robert Frankel	fb:part.robert_frankel
+11	5	fb:cell.juddmonte_farms	Juddmonte Farms	juddmonte|farms	Juddmonte|Farms	NNP|NNPS	O|O	|				Juddmonte Farms	fb:part.juddmonte_farms
+11	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+11	7	fb:cell.1_49_05	1:49.05	1:49.05	1:49.05	CD	TIME	T01:49	1.0		49.05		
+11	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+11	9	fb:cell.i	I	i	I	PRP	O						
+12	0	fb:cell.2002	2002	2002	2002	CD	DATE	2002	2002.0	2002-xx-xx			
+12	1	fb:cell.harlan_s_holiday	Harlan's Holiday	harlan|'s|holiday	Harlan|'s|Holiday	NNP|POS|NNP	PERSON|O|O	||					
+12	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+12	3	fb:cell.edgar_prado	Edgar Prado	edgar|prado	Edgar|Prado	NNP|NNP	PERSON|PERSON	|				Edgar Prado	fb:part.edgar_prado
+12	4	fb:cell.kenneth_mcpeek	Kenneth McPeek	kenneth|mcpeek	Kenneth|McPeek	NNP|NNP	PERSON|PERSON	|				Kenneth McPeek	fb:part.kenneth_mcpeek
+12	5	fb:cell.starlight_stable	Starlight Stable	starlight|stable	Starlight|stable	NNP|JJ	O|O	|				Starlight Stable	fb:part.starlight_stable
+12	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+12	7	fb:cell.1_48_80	1:48.80	1:48.80	1:48.80	CD	TIME	T01:48	1.0		48.8		
+12	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+12	9	fb:cell.i	I	i	I	PRP	O						
+13	0	fb:cell.2001	2001	2001	2001	CD	DATE	2001	2001.0	2001-xx-xx			
+13	1	fb:cell.monarchos	Monarchos	monarchos	monarcho	NNS	PERSON						
+13	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+13	3	fb:cell.jorge_chavez	Jorge Chavez	jorge|chavez	Jorge|Chavez	NNP|NNP	PERSON|PERSON	|				Jorge Chavez	fb:part.jorge_chavez
+13	4	fb:cell.john_t_ward_jr	John T. Ward, Jr.	john|t.|ward|,|jr.|.	John|T.|Ward|,|Jr.|.	NNP|NNP|NNP|,|NNP|.	PERSON|PERSON|PERSON|O|O|O	|||||				John T. Ward|Jr.	fb:part.john_t_ward|fb:part.jr
+13	5	fb:cell.john_c_oxley	John C. Oxley	john|c.|oxley	John|C.|Oxley	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John C. Oxley	fb:part.john_c_oxley
+13	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+13	7	fb:cell.1_49_95	1:49.95	1:49.95	1:49.95	CD	TIME	T01:49	1.0		49.95		
+13	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+13	9	fb:cell.i	I	i	I	PRP	O						
+14	0	fb:cell.2000	2000	2000	2000	CD	DATE	2000	2000.0	2000-xx-xx			
+14	1	fb:cell.hal_s_hope	Hal's Hope	hal|'s|hope	Hal|'s|Hope	NNP|POS|NNP	PERSON|O|O	||					
+14	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+14	3	fb:cell.roger_velez	Roger Velez	roger|velez	Roger|Velez	NNP|NNP	PERSON|PERSON	|				Roger Velez	fb:part.roger_velez
+14	4	fb:cell.harold_rose	Harold Rose	harold|rose	Harold|Rose	NNP|NNP	PERSON|PERSON	|				Harold Rose	fb:part.harold_rose
+14	5	fb:cell.rose_family_stable	Rose Family Stable	rose|family|stable	Rose|Family|stable	NNP|NNP|JJ	O|O|O	||				Rose Family Stable	fb:part.rose_family_stable
+14	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+14	7	fb:cell.1_51_49	1:51.49	1:51.49	1:51.49	CD	TIME	T01:51	1.0		51.49		
+14	8	fb:cell._1_000_000	$1,000,000	$|1,000,000	$|1,000,000	$|CD	MONEY|MONEY	$1000000.0|$1000000.0	1000000.0				
+14	9	fb:cell.i	I	i	I	PRP	O						
+15	0	fb:cell.1999	1999	1999	1999	CD	DATE	1999	1999.0	1999-xx-xx			
+15	1	fb:cell.vicar	Vicar	vicar	Vicar	NNP	O						
+15	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+15	3	fb:cell.shane_sellers	Shane Sellers	shane|sellers	Shane|Sellers	NNP|NNPS	PERSON|PERSON	|				Shane Sellers	fb:part.shane_sellers
+15	4	fb:cell.carl_nafzger	Carl Nafzger	carl|nafzger	Carl|Nafzger	NNP|NNP	PERSON|PERSON	|				Carl Nafzger	fb:part.carl_nafzger
+15	5	fb:cell.james_b_tafel	James B. Tafel	james|b.|tafel	James|B.|Tafel	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				James B. Tafel	fb:part.james_b_tafel
+15	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+15	7	fb:cell.1_50_83	1:50.83	1:50.83	1:50.83	CD	TIME	T01:50	1.0		50.83		
+15	8	fb:cell._750_000	$750,000	$|750,000	$|750,000	$|CD	MONEY|MONEY	$750000.0|$750000.0	750000.0				
+15	9	fb:cell.i	I	i	I	PRP	O						
+16	0	fb:cell.1998	1998	1998	1998	CD	DATE	1998	1998.0	1998-xx-xx			
+16	1	fb:cell.cape_town	Cape Town †	cape|town|†	Cape|Town|†	NNP|NNP|NN	LOCATION|LOCATION|O	||					
+16	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+16	3	fb:cell.shane_sellers	Shane Sellers	shane|sellers	Shane|Sellers	NNP|NNPS	PERSON|PERSON	|				Shane Sellers	fb:part.shane_sellers
+16	4	fb:cell.d_wayne_lukas	D. Wayne Lukas	d.|wayne|lukas	D.|Wayne|Lukas	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				D. Wayne Lukas	fb:part.d_wayne_lukas
+16	5	fb:cell.overbrook_farm	Overbrook Farm	overbrook|farm	Overbrook|Farm	NNP|NNP	O|O	|				Overbrook Farm	fb:part.overbrook_farm
+16	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+16	7	fb:cell.1_49_21	1:49.21	1:49.21	1:49.21	CD	TIME	T01:49	1.0		49.21		
+16	8	fb:cell._750_000	$750,000	$|750,000	$|750,000	$|CD	MONEY|MONEY	$750000.0|$750000.0	750000.0				
+16	9	fb:cell.i	I	i	I	PRP	O						
+17	0	fb:cell.1997	1997	1997	1997	CD	DATE	1997	1997.0	1997-xx-xx			
+17	1	fb:cell.captain_bodgit	Captain Bodgit	captain|bodgit	Captain|Bodgit	NNP|NNP	O|PERSON	|					
+17	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+17	3	fb:cell.alex_solis	Alex Solis	alex|solis	Alex|Solis	NNP|NNP	PERSON|PERSON	|				Alex Solis	fb:part.alex_solis
+17	4	fb:cell.gary_capuano	Gary Capuano	gary|capuano	Gary|Capuano	NNP|NNP	PERSON|PERSON	|				Gary Capuano	fb:part.gary_capuano
+17	5	fb:cell.team_valor	Team Valor	team|valor	Team|Valor	NNP|NNP	O|O	|				Team Valor	fb:part.team_valor
+17	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+17	7	fb:cell.1_50_60	1:50.60	1:50.60	1:50.60	CD	TIME	T01:50	1.0		50.6		
+17	8	fb:cell._750_000	$750,000	$|750,000	$|750,000	$|CD	MONEY|MONEY	$750000.0|$750000.0	750000.0				
+17	9	fb:cell.i	I	i	I	PRP	O						
+18	0	fb:cell.1996	1996	1996	1996	CD	DATE	1996	1996.0	1996-xx-xx			
+18	1	fb:cell.unbridled_s_song	Unbridled's Song	unbridled|'s|song	Unbridled|'s|song	NNP|POS|NN	O|O|O	||					
+18	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+18	3	fb:cell.mike_smith	Mike Smith	mike|smith	Mike|Smith	NNP|NNP	PERSON|PERSON	|				Mike Smith	fb:part.mike_smith
+18	4	fb:cell.james_t_ryerson	James T. Ryerson	james|t.|ryerson	James|T.|Ryerson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				James T. Ryerson	fb:part.james_t_ryerson
+18	5	fb:cell.paraneck_stable	Paraneck Stable	paraneck|stable	Paraneck|stable	NNP|JJ	O|O	|				Paraneck Stable	fb:part.paraneck_stable
+18	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+18	7	fb:cell.1_47_85	1:47.85	1:47.85	1:47.85	CD	TIME	T01:47	1.0		47.85		
+18	8	fb:cell._750_000	$750,000	$|750,000	$|750,000	$|CD	MONEY|MONEY	$750000.0|$750000.0	750000.0				
+18	9	fb:cell.i	I	i	I	PRP	O						
+19	0	fb:cell.1995	1995	1995	1995	CD	DATE	1995	1995.0	1995-xx-xx			
+19	1	fb:cell.thunder_gulch	Thunder Gulch	thunder|gulch	thunder|Gulch	NN|NNP	O|O	|					
+19	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+19	3	fb:cell.mike_smith	Mike Smith	mike|smith	Mike|Smith	NNP|NNP	PERSON|PERSON	|				Mike Smith	fb:part.mike_smith
+19	4	fb:cell.d_wayne_lukas	D. Wayne Lukas	d.|wayne|lukas	D.|Wayne|Lukas	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				D. Wayne Lukas	fb:part.d_wayne_lukas
+19	5	fb:cell.michael_tabor	Michael Tabor	michael|tabor	Michael|Tabor	NNP|NNP	PERSON|PERSON	|				Michael Tabor	fb:part.michael_tabor
+19	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+19	7	fb:cell.1_49_70	1:49.70	1:49.70	1:49.70	CD	TIME	T01:49	1.0		49.7		
+19	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+19	9	fb:cell.i	I	i	I	PRP	O						
+20	0	fb:cell.1994	1994	1994	1994	CD	DATE	1994	1994.0	1994-xx-xx			
+20	1	fb:cell.holy_bull	Holy Bull	holy|bull	holy|bull	JJ|NN	O|O	|					
+20	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+20	3	fb:cell.mike_smith	Mike Smith	mike|smith	Mike|Smith	NNP|NNP	PERSON|PERSON	|				Mike Smith	fb:part.mike_smith
+20	4	fb:cell.warren_a_croll_jr	Warren A. Croll, Jr.	warren|a.|croll|,|jr.|.	Warren|A.|Croll|,|Jr.|.	NNP|NNP|NNP|,|NNP|.	PERSON|PERSON|PERSON|O|O|O	|||||				Warren A. Croll|Jr.	fb:part.warren_a_croll|fb:part.jr
+20	5	fb:cell.warren_a_croll_jr	Warren A. Croll, Jr.	warren|a.|croll|,|jr.|.	Warren|A.|Croll|,|Jr.|.	NNP|NNP|NNP|,|NNP|.	PERSON|PERSON|PERSON|O|O|O	|||||				Warren A. Croll|Jr.	fb:part.warren_a_croll|fb:part.jr
+20	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+20	7	fb:cell.1_47_66	1:47.66	1:47.66	1:47.66	CD	TIME	T01:47	1.0		47.66		
+20	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+20	9	fb:cell.i	I	i	I	PRP	O						
+21	0	fb:cell.1993	1993	1993	1993	CD	DATE	1993	1993.0	1993-xx-xx			
+21	1	fb:cell.bull_in_the_heather	Bull In the Heather	bull|in|the|heather	bull|in|the|Heather	NN|IN|DT|NNP	O|O|O|PERSON	|||					
+21	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+21	3	fb:cell.wigberto_ramos	Wigberto Ramos	wigberto|ramos	Wigberto|Ramos	NNP|NNP	PERSON|PERSON	|				Wigberto Ramos	fb:part.wigberto_ramos
+21	4	fb:cell.howard_m_tesher	Howard M. Tesher	howard|m.|tesher	Howard|M.|Tesher	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Howard M. Tesher	fb:part.howard_m_tesher
+21	5	fb:cell.arthur_klein	Arthur Klein	arthur|klein	Arthur|Klein	NNP|NNP	PERSON|PERSON	|				Arthur Klein	fb:part.arthur_klein
+21	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+21	7	fb:cell.1_51_38	1:51.38	1:51.38	1:51.38	CD	TIME	T01:51	1.0		51.38		
+21	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+21	9	fb:cell.i	I	i	I	PRP	O						
+22	0	fb:cell.1992	1992	1992	1992	CD	DATE	1992	1992.0	1992-xx-xx			
+22	1	fb:cell.technology	Technology	technology	technology	NN	O						
+22	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+22	3	fb:cell.jerry_bailey	Jerry Bailey	jerry|bailey	Jerry|Bailey	NNP|NNP	PERSON|PERSON	|				Jerry Bailey	fb:part.jerry_bailey
+22	4	fb:cell.hubert_hine	Hubert Hine	hubert|hine	Hubert|Hine	NNP|NNP	PERSON|PERSON	|				Hubert Hine	fb:part.hubert_hine
+22	5	fb:cell.scott_savin	Scott Savin	scott|savin	Scott|Savin	NNP|NNP	PERSON|PERSON	|				Scott Savin	fb:part.scott_savin
+22	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+22	7	fb:cell.1_50_72	1:50.72	1:50.72	1:50.72	CD	TIME	T01:50	1.0		50.72		
+22	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+22	9	fb:cell.i	I	i	I	PRP	O						
+23	0	fb:cell.1991	1991	1991	1991	CD	DATE	1991	1991.0	1991-xx-xx			
+23	1	fb:cell.fly_so_free	Fly So Free	fly|so|free	fly|so|free	VB|RB|JJ	O|O|O	||					
+23	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+23	3	fb:cell.jose_santos	Jose Santos	jose|santos	Jose|Santos	NNP|NNP	PERSON|PERSON	|				Jose Santos	fb:part.jose_santos
+23	4	fb:cell.scotty_schulhofer	Scotty Schulhofer	scotty|schulhofer	Scotty|Schulhofer	NNP|NNP	PERSON|PERSON	|				Scotty Schulhofer	fb:part.scotty_schulhofer
+23	5	fb:cell.tommy_valando	Tommy Valando	tommy|valando	Tommy|Valando	NNP|NNP	PERSON|PERSON	|				Tommy Valando	fb:part.tommy_valando
+23	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+23	7	fb:cell.1_50_44	1:50.44	1:50.44	1:50.44	CD	TIME	T01:50	1.0		50.44		
+23	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+23	9	fb:cell.i	I	i	I	PRP	O						
+24	0	fb:cell.1990	1990	1990	1990	CD	DATE	1990	1990.0	1990-xx-xx			
+24	1	fb:cell.unbridled	Unbridled	unbridled	unbridled	JJ	O						
+24	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+24	3	fb:cell.pat_day	Pat Day	pat|day	Pat|Day	NNP|NNP	MISC|DURATION	|				Pat Day	fb:part.pat_day
+24	4	fb:cell.carl_nafzger	Carl Nafzger	carl|nafzger	Carl|Nafzger	NNP|NNP	PERSON|PERSON	|				Carl Nafzger	fb:part.carl_nafzger
+24	5	fb:cell.genter_stable	Genter Stable	genter|stable	Genter|stable	NNP|JJ	O|O	|				Genter Stable	fb:part.genter_stable
+24	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+24	7	fb:cell.1_52_00	1:52.00	1:52.00	1:52.00	CD	TIME	T01:52	1.0		52.0		
+24	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+24	9	fb:cell.i	I	i	I	PRP	O						
+25	0	fb:cell.1989	1989	1989	1989	CD	DATE	1989	1989.0	1989-xx-xx			
+25	1	fb:cell.mercedes_won	Mercedes Won	mercedes|won	Mercedes|Won	NNP|NNP	O|O	|					
+25	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+25	3	fb:cell.earlie_fires	Earlie Fires	earlie|fires	Earlie|fire	NNP|VBZ	O|O	|				Earlie Fires	fb:part.earlie_fires
+25	4	fb:cell.arnold_fink	Arnold Fink	arnold|fink	Arnold|Fink	NNP|NNP	PERSON|PERSON	|				Arnold Fink	fb:part.arnold_fink
+25	5	fb:cell.christopher_spencer	Christopher Spencer	christopher|spencer	Christopher|Spencer	NNP|NNP	PERSON|PERSON	|				Christopher Spencer	fb:part.christopher_spencer
+25	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+25	7	fb:cell.1_49_60	1:49.60	1:49.60	1:49.60	CD	TIME	T01:49	1.0		49.6		
+25	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+25	9	fb:cell.i	I	i	I	PRP	O						
+26	0	fb:cell.1988	1988	1988	1988	CD	DATE	1988	1988.0	1988-xx-xx			
+26	1	fb:cell.brian_s_time	Brian's Time	brian|'s|time	Brian|'s|Time	NNP|POS|NNP	PERSON|O|O	||					
+26	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+26	3	fb:cell.randy_romero	Randy Romero	randy|romero	Randy|Romero	NNP|NNP	PERSON|PERSON	|				Randy Romero	fb:part.randy_romero
+26	4	fb:cell.john_m_veitch	John M. Veitch	john|m.|veitch	John|M.|Veitch	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John M. Veitch	fb:part.john_m_veitch
+26	5	fb:cell.james_w_phillips	James W. Phillips	james|w.|phillips	James|W.|Phillips	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				James W. Phillips	fb:part.james_w_phillips
+26	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+26	7	fb:cell.1_49_80	1:49.80	1:49.80	1:49.80	CD	TIME	T01:49	1.0		49.8		
+26	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+26	9	fb:cell.i	I	i	I	PRP	O						
+27	0	fb:cell.1987	1987	1987	1987	CD	DATE	1987	1987.0	1987-xx-xx			
+27	1	fb:cell.cryptoclearance	Cryptoclearance	cryptoclearance	Cryptoclearance	NNP	O						
+27	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+27	3	fb:cell.jose_santos	Jose Santos	jose|santos	Jose|Santos	NNP|NNP	PERSON|PERSON	|				Jose Santos	fb:part.jose_santos
+27	4	fb:cell.scotty_schulhofer	Scotty Schulhofer	scotty|schulhofer	Scotty|Schulhofer	NNP|NNP	PERSON|PERSON	|				Scotty Schulhofer	fb:part.scotty_schulhofer
+27	5	fb:cell.phil_teinowitz	Phil Teinowitz	phil|teinowitz	Phil|Teinowitz	NNP|NNP	PERSON|PERSON	|				Phil Teinowitz	fb:part.phil_teinowitz
+27	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+27	7	fb:cell.1_49_60	1:49.60	1:49.60	1:49.60	CD	TIME	T01:49	1.0		49.6		
+27	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+27	9	fb:cell.i	I	i	I	PRP	O						
+28	0	fb:cell.1986	1986	1986	1986	CD	DATE	1986	1986.0	1986-xx-xx			
+28	1	fb:cell.snow_chief	Snow Chief	snow|chief	Snow|Chief	NNP|NNP	O|O	|					
+28	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+28	3	fb:cell.alex_solis	Alex Solis	alex|solis	Alex|Solis	NNP|NNP	PERSON|PERSON	|				Alex Solis	fb:part.alex_solis
+28	4	fb:cell.melvin_f_stute	Melvin F. Stute	melvin|f.|stute	Melvin|F.|Stute	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Melvin F. Stute	fb:part.melvin_f_stute
+28	5	fb:cell.rochelle_grinstead	Rochelle/Grinstead	rochelle\\/grinstead	rochelle\\/grinstead	NN	O					Rochelle|Grinstead	fb:part.rochelle|fb:part.grinstead
+28	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+28	7	fb:cell.1_51_80	1:51.80	1:51.80	1:51.80	CD	TIME	T01:51	1.0		51.8		
+28	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+28	9	fb:cell.i	I	i	I	PRP	O						
+29	0	fb:cell.1985	1985	1985	1985	CD	DATE	1985	1985.0	1985-xx-xx			
+29	1	fb:cell.proud_truth	Proud Truth	proud|truth	proud|truth	JJ|NN	O|O	|					
+29	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+29	3	fb:cell.jorge_velasquez	Jorge Velasquez	jorge|velasquez	Jorge|Velasquez	NNP|NNP	PERSON|PERSON	|				Jorge Velasquez	fb:part.jorge_velasquez
+29	4	fb:cell.john_m_veitch	John M. Veitch	john|m.|veitch	John|M.|Veitch	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John M. Veitch	fb:part.john_m_veitch
+29	5	fb:cell.darby_dan_farm	Darby Dan Farm	darby|dan|farm	Darby|Dan|Farm	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Darby Dan Farm	fb:part.darby_dan_farm
+29	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+29	7	fb:cell.1_50_00	1:50.00	1:50.00	1:50.00	CD	TIME	T01:50	1.0		50.0		
+29	8	fb:cell._500_000	$500,000	$|500,000	$|500,000	$|CD	MONEY|MONEY	$500000.0|$500000.0	500000.0				
+29	9	fb:cell.i	I	i	I	PRP	O						
+30	0	fb:cell.1984	1984	1984	1984	CD	DATE	1984	1984.0	1984-xx-xx			
+30	1	fb:cell.swale	Swale	swale	swale	NN	O						
+30	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+30	3	fb:cell.laffit_pincay_jr	Laffit Pincay, Jr.	laffit|pincay|,|jr.|.	Laffit|Pincay|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Laffit Pincay|Jr.	fb:part.laffit_pincay|fb:part.jr
+30	4	fb:cell.woody_stephens	Woody Stephens	woody|stephens	Woody|Stephens	NNP|NNP	PERSON|PERSON	|				Woody Stephens	fb:part.woody_stephens
+30	5	fb:cell.claiborne_farm	Claiborne Farm	claiborne|farm	Claiborne|Farm	NNP|NNP	O|O	|				Claiborne Farm	fb:part.claiborne_farm
+30	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+30	7	fb:cell.1_47_60	1:47.60	1:47.60	1:47.60	CD	TIME	T01:47	1.0		47.6		
+30	8	fb:cell._300_000	$300,000	$|300,000	$|300,000	$|CD	MONEY|MONEY	$300000.0|$300000.0	300000.0				
+30	9	fb:cell.i	I	i	I	PRP	O						
+31	0	fb:cell.1983	1983	1983	1983	CD	DATE	1983	1983.0	1983-xx-xx			
+31	1	fb:cell.croeso	Croeso	croeso	Croeso	NNP	O						
+31	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+31	3	fb:cell.frank_olivares	Frank Olivares	frank|olivares	Frank|Olivares	NNP|NNP	PERSON|PERSON	|				Frank Olivares	fb:part.frank_olivares
+31	4	fb:cell.jerry_m_fanning	Jerry M. Fanning	jerry|m.|fanning	Jerry|M.|Fanning	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Jerry M. Fanning	fb:part.jerry_m_fanning
+31	5	fb:cell.joyce_roy_fowler	Joyce & Roy Fowler	joyce|&|roy|fowler	Joyce|&|Roy|Fowler	NNP|CC|NNP|NNP	PERSON|O|PERSON|PERSON	|||				Joyce & Roy Fowler	fb:part.joyce_roy_fowler
+31	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+31	7	fb:cell.1_49_80	1:49.80	1:49.80	1:49.80	CD	TIME	T01:49	1.0		49.8		
+31	8	fb:cell._300_000	$300,000	$|300,000	$|300,000	$|CD	MONEY|MONEY	$300000.0|$300000.0	300000.0				
+31	9	fb:cell.i	I	i	I	PRP	O						
+32	0	fb:cell.1982	1982	1982	1982	CD	DATE	1982	1982.0	1982-xx-xx			
+32	1	fb:cell.timely_writer	Timely Writer	timely|writer	timely|writer	JJ|NN	O|O	|					
+32	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+32	3	fb:cell.jeffrey_fell	Jeffrey Fell	jeffrey|fell	Jeffrey|Fell	NNP|NNP	PERSON|PERSON	|				Jeffrey Fell	fb:part.jeffrey_fell
+32	4	fb:cell.dominic_imprescia	Dominic Imprescia	dominic|imprescia	Dominic|Imprescia	NNP|NNP	PERSON|PERSON	|				Dominic Imprescia	fb:part.dominic_imprescia
+32	5	fb:cell.peter_francis_martin	Peter & Francis Martin	peter|&|francis|martin	Peter|&|Francis|Martin	NNP|CC|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				Peter & Francis Martin	fb:part.peter_francis_martin
+32	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+32	7	fb:cell.1_49_60	1:49.60	1:49.60	1:49.60	CD	TIME	T01:49	1.0		49.6		
+32	8	fb:cell._250_000	$250,000	$|250,000	$|250,000	$|CD	MONEY|MONEY	$250000.0|$250000.0	250000.0				
+32	9	fb:cell.i	I	i	I	PRP	O						
+33	0	fb:cell.1981	1981	1981	1981	CD	DATE	1981	1981.0	1981-xx-xx			
+33	1	fb:cell.lord_avie	Lord Avie	lord|avie	Lord|Avie	NNP|NNP	O|PERSON	|					
+33	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+33	3	fb:cell.chris_mccarron	Chris McCarron	chris|mccarron	Chris|McCarron	NNP|NNP	PERSON|PERSON	|				Chris McCarron	fb:part.chris_mccarron
+33	4	fb:cell.daniel_perlsweig	Daniel Perlsweig	daniel|perlsweig	Daniel|Perlsweig	NNP|NNP	PERSON|PERSON	|				Daniel Perlsweig	fb:part.daniel_perlsweig
+33	5	fb:cell.david_simon	David Simon	david|simon	David|Simon	NNP|NNP	PERSON|PERSON	|				David Simon	fb:part.david_simon
+33	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+33	7	fb:cell.1_50_40	1:50.40	1:50.40	1:50.40	CD	TIME	T01:50	1.0		50.4		
+33	8	fb:cell._250_000	$250,000	$|250,000	$|250,000	$|CD	MONEY|MONEY	$250000.0|$250000.0	250000.0				
+33	9	fb:cell.i	I	i	I	PRP	O						
+34	0	fb:cell.1980	1980	1980	1980	CD	DATE	1980	1980.0	1980-xx-xx			
+34	1	fb:cell.plugged_nickle	Plugged Nickle	plugged|nickle	plug|Nickle	VBN|NNP	O|O	|					
+34	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+34	3	fb:cell.buck_thornburg	Buck Thornburg	buck|thornburg	Buck|Thornburg	NNP|NNP	O|O	|				Buck Thornburg	fb:part.buck_thornburg
+34	4	fb:cell.thomas_j_kelly	Thomas J. Kelly	thomas|j.|kelly	Thomas|J.|Kelly	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Thomas J. Kelly	fb:part.thomas_j_kelly
+34	5	fb:cell.john_m_schiff	John M. Schiff	john|m.|schiff	John|M.|Schiff	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John M. Schiff	fb:part.john_m_schiff
+34	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+34	7	fb:cell.1_50_20	1:50.20	1:50.20	1:50.20	CD	TIME	T01:50	1.0		50.2		
+34	8	fb:cell._250_000	$250,000	$|250,000	$|250,000	$|CD	MONEY|MONEY	$250000.0|$250000.0	250000.0				
+34	9	fb:cell.i	I	i	I	PRP	O						
+35	0	fb:cell.1979	1979	1979	1979	CD	DATE	1979	1979.0	1979-xx-xx			
+35	1	fb:cell.spectacular_bid	Spectacular Bid	spectacular|bid	spectacular|bid	JJ|NN	O|O	|					
+35	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+35	3	fb:cell.ronnie_franklin	Ronnie Franklin	ronnie|franklin	Ronnie|Franklin	NNP|NNP	PERSON|PERSON	|				Ronnie Franklin	fb:part.ronnie_franklin
+35	4	fb:cell.bud_delp	Bud Delp	bud|delp	Bud|Delp	NNP|NNP	PERSON|PERSON	|				Bud Delp	fb:part.bud_delp
+35	5	fb:cell.hawksworth_farm	Hawksworth Farm	hawksworth|farm	Hawksworth|Farm	NNP|NNP	ORGANIZATION|ORGANIZATION	|				Hawksworth Farm	fb:part.hawksworth_farm
+35	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+35	7	fb:cell.1_48_80	1:48.80	1:48.80	1:48.80	CD	TIME	T01:48	1.0		48.8		
+35	8	fb:cell._200_000	$200,000	$|200,000	$|200,000	$|CD	MONEY|MONEY	$200000.0|$200000.0	200000.0				
+35	9	fb:cell.i	I	i	I	PRP	O						
+36	0	fb:cell.1978	1978	1978	1978	CD	DATE	1978	1978.0	1978-xx-xx			
+36	1	fb:cell.alydar	Alydar	alydar	Alydar	NNP	LOCATION						
+36	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+36	3	fb:cell.jorge_velasquez	Jorge Velasquez	jorge|velasquez	Jorge|Velasquez	NNP|NNP	PERSON|PERSON	|				Jorge Velasquez	fb:part.jorge_velasquez
+36	4	fb:cell.john_m_veitch	John M. Veitch	john|m.|veitch	John|M.|Veitch	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John M. Veitch	fb:part.john_m_veitch
+36	5	fb:cell.calumet_farm	Calumet Farm	calumet|farm	Calumet|Farm	NNP|NNP	O|O	|				Calumet Farm	fb:part.calumet_farm
+36	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+36	7	fb:cell.1_47_00	1:47.00	1:47.00	1:47.00	CD	TIME	T01:47	1.0		47.0		
+36	8	fb:cell._200_000	$200,000	$|200,000	$|200,000	$|CD	MONEY|MONEY	$200000.0|$200000.0	200000.0				
+36	9	fb:cell.i	I	i	I	PRP	O						
+37	0	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+37	1	fb:cell.ruthie_s_native	Ruthie's Native	ruthie|'s|native	Ruthie|'s|native	NNP|POS|JJ	PERSON|O|O	||					
+37	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+37	3	fb:cell.craig_perret	Craig Perret	craig|perret	Craig|Perret	NNP|NNP	PERSON|PERSON	|				Craig Perret	fb:part.craig_perret
+37	4	fb:cell.eugene_jacobs	Eugene Jacobs	eugene|jacobs	Eugene|Jacobs	NNP|NNP	PERSON|PERSON	|				Eugene Jacobs	fb:part.eugene_jacobs
+37	5	fb:cell.ruth_a_perlmutter	Ruth A. Perlmutter	ruth|a.|perlmutter	Ruth|A.|Perlmutter	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Ruth A. Perlmutter	fb:part.ruth_a_perlmutter
+37	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+37	7	fb:cell.1_50_20	1:50.20	1:50.20	1:50.20	CD	TIME	T01:50	1.0		50.2		
+37	8	fb:cell._125_000	$125,000	$|125,000	$|125,000	$|CD	MONEY|MONEY	$125000.0|$125000.0	125000.0				
+37	9	fb:cell.i	I	i	I	PRP	O						
+38	0	fb:cell.1977	1977	1977	1977	CD	DATE	1977	1977.0	1977-xx-xx			
+38	1	fb:cell.coined_silver	Coined Silver	coined|silver	coin|silver	VBN|NN	O|O	|					
+38	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+38	3	fb:cell.buck_thornburg	Buck Thornburg	buck|thornburg	Buck|Thornburg	NNP|NNP	O|O	|				Buck Thornburg	fb:part.buck_thornburg
+38	4	fb:cell.george_t_poole_iii	George T. Poole III	george|t.|poole|iii	George|T.|Poole|III	NNP|NNP|NNP|NNP	PERSON|PERSON|PERSON|PERSON	|||				George T. Poole III	fb:part.george_t_poole_iii
+38	5	fb:cell.c_v_whitney	C. V. Whitney	c.|v.|whitney	C.|V.|Whitney	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				C. V. Whitney	fb:part.c_v_whitney
+38	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+38	7	fb:cell.1_48_80	1:48.80	1:48.80	1:48.80	CD	TIME	T01:48	1.0		48.8		
+38	8	fb:cell._125_000	$125,000	$|125,000	$|125,000	$|CD	MONEY|MONEY	$125000.0|$125000.0	125000.0				
+38	9	fb:cell.i	I	i	I	PRP	O						
+39	0	fb:cell.1976	1976	1976	1976	CD	DATE	1976	1976.0	1976-xx-xx			
+39	1	fb:cell.honest_pleasure	Honest Pleasure	honest|pleasure	honest|pleasure	JJ|NN	O|O	|					
+39	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+39	3	fb:cell.braulio_baeza	Braulio Baeza	braulio|baeza	Braulio|Baeza	NNP|NNP	PERSON|PERSON	|				Braulio Baeza	fb:part.braulio_baeza
+39	4	fb:cell.leroy_jolley	LeRoy Jolley	leroy|jolley	LeRoy|Jolley	NNP|NNP	PERSON|PERSON	|				LeRoy Jolley	fb:part.leroy_jolley
+39	5	fb:cell.bertram_r_firestone	Bertram R. Firestone	bertram|r.|firestone	Bertram|R.|Firestone	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Bertram R. Firestone	fb:part.bertram_r_firestone
+39	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+39	7	fb:cell.1_47_80	1:47.80	1:47.80	1:47.80	CD	TIME	T01:47	1.0		47.8		
+39	8	fb:cell._125_000	$125,000	$|125,000	$|125,000	$|CD	MONEY|MONEY	$125000.0|$125000.0	125000.0				
+39	9	fb:cell.i	I	i	I	PRP	O						
+40	0	fb:cell.1975	1975	1975	1975	CD	DATE	1975	1975.0	1975-xx-xx			
+40	1	fb:cell.prince_thou_art	Prince Thou Art	prince|thou|art	Prince|Thou|Art	NNP|NNP|NNP	O|O|O	||					
+40	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+40	3	fb:cell.braulio_baeza	Braulio Baeza	braulio|baeza	Braulio|Baeza	NNP|NNP	PERSON|PERSON	|				Braulio Baeza	fb:part.braulio_baeza
+40	4	fb:cell.lou_rondinello	Lou Rondinello	lou|rondinello	Lou|Rondinello	NNP|NNP	PERSON|PERSON	|				Lou Rondinello	fb:part.lou_rondinello
+40	5	fb:cell.darby_dan_farm	Darby Dan Farm	darby|dan|farm	Darby|Dan|Farm	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Darby Dan Farm	fb:part.darby_dan_farm
+40	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+40	7	fb:cell.1_50_40	1:50.40	1:50.40	1:50.40	CD	TIME	T01:50	1.0		50.4		
+40	8	fb:cell._150_000	$150,000	$|150,000	$|150,000	$|CD	MONEY|MONEY	$150000.0|$150000.0	150000.0				
+40	9	fb:cell.i	I	i	I	PRP	O						
+41	0	fb:cell.1974	1974	1974	1974	CD	DATE	1974	1974.0	1974-xx-xx			
+41	1	fb:cell.judger	Judger	judger	judger	NN	O						
+41	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+41	3	fb:cell.laffit_pincay_jr	Laffit Pincay, Jr.	laffit|pincay|,|jr.|.	Laffit|Pincay|,|Jr.|.	NNP|NNP|,|NNP|.	PERSON|PERSON|O|O|O	||||				Laffit Pincay|Jr.	fb:part.laffit_pincay|fb:part.jr
+41	4	fb:cell.woody_stephens	Woody Stephens	woody|stephens	Woody|Stephens	NNP|NNP	PERSON|PERSON	|				Woody Stephens	fb:part.woody_stephens
+41	5	fb:cell.claiborne_farm	Claiborne Farm	claiborne|farm	Claiborne|Farm	NNP|NNP	O|O	|				Claiborne Farm	fb:part.claiborne_farm
+41	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+41	7	fb:cell.1_49_00	1:49.00	1:49.00	1:49.00	CD	TIME	T01:49	1.0		49.0		
+41	8	fb:cell._150_000	$150,000	$|150,000	$|150,000	$|CD	MONEY|MONEY	$150000.0|$150000.0	150000.0				
+41	9	fb:cell.i	I	i	I	PRP	O						
+42	0	fb:cell.1973	1973	1973	1973	CD	DATE	1973	1973.0	1973-xx-xx			
+42	1	fb:cell.royal_and_regal	Royal and Regal	royal|and|regal	Royal|and|Regal	NNP|CC|NNP	O|O|PERSON	||					
+42	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+42	3	fb:cell.walter_blum	Walter Blum	walter|blum	Walter|Blum	NNP|NNP	PERSON|PERSON	|				Walter Blum	fb:part.walter_blum
+42	4	fb:cell.warren_a_croll_jr	Warren A. Croll, Jr.	warren|a.|croll|,|jr.|.	Warren|A.|Croll|,|Jr.|.	NNP|NNP|NNP|,|NNP|.	PERSON|PERSON|PERSON|O|O|O	|||||				Warren A. Croll|Jr.	fb:part.warren_a_croll|fb:part.jr
+42	5	fb:cell.aisco_stable	Aisco Stable	aisco|stable	Aisco|stable	NNP|JJ	O|O	|				Aisco Stable	fb:part.aisco_stable
+42	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+42	7	fb:cell.1_47_40	1:47.40	1:47.40	1:47.40	CD	TIME	T01:47	1.0		47.4		
+42	8	fb:cell._130_000	$130,000	$|130,000	$|130,000	$|CD	MONEY|MONEY	$130000.0|$130000.0	130000.0				
+42	9	fb:cell.i	I	i	I	PRP	O						
+43	0	fb:cell.1972	1972	1972	1972	CD	DATE	1972	1972.0	1972-xx-xx			
+43	1	fb:cell.upper_case	Upper Case	upper|case	Upper|Case	NNP|NNP	O|O	|					
+43	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+43	3	fb:cell.ron_turcotte	Ron Turcotte	ron|turcotte	Ron|Turcotte	NNP|NNP	PERSON|PERSON	|				Ron Turcotte	fb:part.ron_turcotte
+43	4	fb:cell.lucien_laurin	Lucien Laurin	lucien|laurin	Lucien|Laurin	NNP|NNP	PERSON|PERSON	|				Lucien Laurin	fb:part.lucien_laurin
+43	5	fb:cell.meadow_stable	Meadow Stable	meadow|stable	Meadow|stable	NNP|JJ	O|O	|				Meadow Stable	fb:part.meadow_stable
+43	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+43	7	fb:cell.1_50_00	1:50.00	1:50.00	1:50.00	CD	TIME	T01:50	1.0		50.0		
+43	8	fb:cell._130_000	$130,000	$|130,000	$|130,000	$|CD	MONEY|MONEY	$130000.0|$130000.0	130000.0				
+43	9	fb:cell.null											
+44	0	fb:cell.1971	1971	1971	1971	CD	DATE	1971	1971.0	1971-xx-xx			
+44	1	fb:cell.eastern_fleet	Eastern Fleet	eastern|fleet	Eastern|Fleet	NNP|NNP	O|O	|					
+44	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+44	3	fb:cell.eddie_maple	Eddie Maple	eddie|maple	Eddie|Maple	NNP|NNP	PERSON|PERSON	|				Eddie Maple	fb:part.eddie_maple
+44	4	fb:cell.reggie_cornell	Reggie Cornell	reggie|cornell	Reggie|Cornell	NNP|NNP	PERSON|PERSON	|				Reggie Cornell	fb:part.reggie_cornell
+44	5	fb:cell.calumet_farm	Calumet Farm	calumet|farm	Calumet|Farm	NNP|NNP	O|O	|				Calumet Farm	fb:part.calumet_farm
+44	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+44	7	fb:cell.1_47_40	1:47.40	1:47.40	1:47.40	CD	TIME	T01:47	1.0		47.4		
+44	8	fb:cell.null											
+44	9	fb:cell.null											
+45	0	fb:cell.1970	1970	1970	1970	CD	DATE	1970	1970.0	1970-xx-xx			
+45	1	fb:cell.my_dad_george	My Dad George	my|dad|george	my|Dad|George	PRP$|NNP|NNP	O|O|PERSON	||					
+45	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+45	3	fb:cell.ray_broussard	Ray Broussard	ray|broussard	Ray|Broussard	NNP|NNP	PERSON|PERSON	|				Ray Broussard	fb:part.ray_broussard
+45	4	fb:cell.frank_j_mcmanus	Frank J. McManus	frank|j.|mcmanus	Frank|J.|McManus	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Frank J. McManus	fb:part.frank_j_mcmanus
+45	5	fb:cell.raymond_m_curtis	Raymond M. Curtis	raymond|m.|curtis	Raymond|M.|Curtis	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Raymond M. Curtis	fb:part.raymond_m_curtis
+45	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+45	7	fb:cell.1_50_80	1:50.80	1:50.80	1:50.80	CD	TIME	T01:50	1.0		50.8		
+45	8	fb:cell.null											
+45	9	fb:cell.null											
+46	0	fb:cell.1969	1969	1969	1969	CD	DATE	1969	1969.0	1969-xx-xx			
+46	1	fb:cell.top_knight	Top Knight	top|knight	top|Knight	JJ|NNP	O|O	|					
+46	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+46	3	fb:cell.manuel_ycaza	Manuel Ycaza	manuel|ycaza	Manuel|Ycaza	NNP|NNP	PERSON|PERSON	|				Manuel Ycaza	fb:part.manuel_ycaza
+46	4	fb:cell.ray_metcalf	Ray Metcalf	ray|metcalf	Ray|Metcalf	NNP|NNP	PERSON|PERSON	|				Ray Metcalf	fb:part.ray_metcalf
+46	5	fb:cell.steven_b_wilson	Steven B. Wilson	steven|b.|wilson	Steven|B.|Wilson	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Steven B. Wilson	fb:part.steven_b_wilson
+46	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+46	7	fb:cell.1_48_40	1:48.40	1:48.40	1:48.40	CD	TIME	T01:48	1.0		48.4		
+46	8	fb:cell.null											
+46	9	fb:cell.null											
+47	0	fb:cell.1968	1968	1968	1968	CD	DATE	1968	1968.0	1968-xx-xx			
+47	1	fb:cell.forward_pass	Forward Pass	forward|pass	forward|pass	RB|NN	O|O	|					
+47	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+47	3	fb:cell.don_brumfield	Don Brumfield	don|brumfield	Don|Brumfield	NNP|NNP	PERSON|PERSON	|				Don Brumfield	fb:part.don_brumfield
+47	4	fb:cell.henry_forrest	Henry Forrest	henry|forrest	Henry|Forrest	NNP|NNP	PERSON|PERSON	|				Henry Forrest	fb:part.henry_forrest
+47	5	fb:cell.calumet_farm	Calumet Farm	calumet|farm	Calumet|Farm	NNP|NNP	O|O	|				Calumet Farm	fb:part.calumet_farm
+47	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+47	7	fb:cell.1_49_00	1:49.00	1:49.00	1:49.00	CD	TIME	T01:49	1.0		49.0		
+47	8	fb:cell.null											
+47	9	fb:cell.null											
+48	0	fb:cell.1967	1967	1967	1967	CD	DATE	1967	1967.0	1967-xx-xx			
+48	1	fb:cell.in_reality	In Reality	in|reality	in|reality	IN|NN	O|O	|					
+48	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+48	3	fb:cell.earlie_fires	Earlie Fires	earlie|fires	Earlie|fire	NNP|VBZ	O|O	|				Earlie Fires	fb:part.earlie_fires
+48	4	fb:cell.melvin_calvert	Melvin Calvert	melvin|calvert	Melvin|Calvert	NNP|NNP	PERSON|PERSON	|				Melvin Calvert	fb:part.melvin_calvert
+48	5	fb:cell.frances_a_genter	Frances A. Genter	frances|a.|genter	Frances|A.|Genter	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Frances A. Genter	fb:part.frances_a_genter
+48	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+48	7	fb:cell.1_50_20	1:50.20	1:50.20	1:50.20	CD	TIME	T01:50	1.0		50.2		
+48	8	fb:cell.null											
+48	9	fb:cell.null											
+49	0	fb:cell.1966	1966	1966	1966	CD	DATE	1966	1966.0	1966-xx-xx			
+49	1	fb:cell.williamston_kid	Williamston Kid †	williamston|kid|†	Williamston|Kid|†	NNP|NNP|IN	LOCATION|O|O	||					
+49	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+49	3	fb:cell.robert_stevenson	Robert Stevenson	robert|stevenson	Robert|Stevenson	NNP|NNP	PERSON|PERSON	|				Robert Stevenson	fb:part.robert_stevenson
+49	4	fb:cell.james_bartlett	James Bartlett	james|bartlett	James|Bartlett	NNP|NNP	PERSON|PERSON	|				James Bartlett	fb:part.james_bartlett
+49	5	fb:cell.ternes_bartlett	Ternes & Bartlett	ternes|&|bartlett	Ternes|&|Bartlett	NNP|CC|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Ternes & Bartlett	fb:part.ternes_bartlett
+49	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+49	7	fb:cell.1_50_60	1:50.60	1:50.60	1:50.60	CD	TIME	T01:50	1.0		50.6		
+49	8	fb:cell.null											
+49	9	fb:cell.null											
+50	0	fb:cell.1965	1965	1965	1965	CD	DATE	1965	1965.0	1965-xx-xx			
+50	1	fb:cell.native_charger	Native Charger	native|charger	native|charger	JJ|NN	O|O	|					
+50	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+50	3	fb:cell.john_l_rotz	John L. Rotz	john|l.|rotz	John|L.|Rotz	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				John L. Rotz	fb:part.john_l_rotz
+50	4	fb:cell.ray_metcalf	Ray Metcalf	ray|metcalf	Ray|Metcalf	NNP|NNP	PERSON|PERSON	|				Ray Metcalf	fb:part.ray_metcalf
+50	5	fb:cell.warner_stable	Warner Stable	warner|stable	Warner|stable	NNP|JJ	ORGANIZATION|ORGANIZATION	|				Warner Stable	fb:part.warner_stable
+50	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+50	7	fb:cell.1_51_20	1:51.20	1:51.20	1:51.20	CD	TIME	T01:51	1.0		51.2		
+50	8	fb:cell.null											
+50	9	fb:cell.null											
+51	0	fb:cell.1964	1964	1964	1964	CD	DATE	1964	1964.0	1964-xx-xx			
+51	1	fb:cell.northern_dancer	Northern Dancer	northern|dancer	northern|dancer	JJ|NN	O|O	|					
+51	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+51	3	fb:cell.bill_shoemaker	Bill Shoemaker	bill|shoemaker	Bill|Shoemaker	NNP|NNP	PERSON|PERSON	|				Bill Shoemaker	fb:part.bill_shoemaker
+51	4	fb:cell.horatio_luro	Horatio Luro	horatio|luro	Horatio|Luro	NNP|NNP	PERSON|PERSON	|				Horatio Luro	fb:part.horatio_luro
+51	5	fb:cell.windfields_farm	Windfields Farm	windfields|farm	Windfields|Farm	NNP|NNP	MISC|MISC	|				Windfields Farm	fb:part.windfields_farm
+51	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+51	7	fb:cell.1_50_80	1:50.80	1:50.80	1:50.80	CD	TIME	T01:50	1.0		50.8		
+51	8	fb:cell.null											
+51	9	fb:cell.null											
+52	0	fb:cell.1963	1963	1963	1963	CD	DATE	1963	1963.0	1963-xx-xx			
+52	1	fb:cell.candy_spots	Candy Spots	candy|spots	candy|spot	NN|NNS	O|O	|					
+52	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+52	3	fb:cell.bill_shoemaker	Bill Shoemaker	bill|shoemaker	Bill|Shoemaker	NNP|NNP	PERSON|PERSON	|				Bill Shoemaker	fb:part.bill_shoemaker
+52	4	fb:cell.mesh_tenney	Mesh Tenney	mesh|tenney	Mesh|Tenney	NNP|NNP	O|PERSON	|				Mesh Tenney	fb:part.mesh_tenney
+52	5	fb:cell.rex_c_ellsworth	Rex C. Ellsworth	rex|c.|ellsworth	Rex|C.|Ellsworth	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Rex C. Ellsworth	fb:part.rex_c_ellsworth
+52	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+52	7	fb:cell.1_50_60	1:50.60	1:50.60	1:50.60	CD	TIME	T01:50	1.0		50.6		
+52	8	fb:cell.null											
+52	9	fb:cell.null											
+53	0	fb:cell.1962	1962	1962	1962	CD	DATE	1962	1962.0	1962-xx-xx			
+53	1	fb:cell.ridan	Ridan	ridan	ridan	NN	PERSON						
+53	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+53	3	fb:cell.manuel_ycaza	Manuel Ycaza	manuel|ycaza	Manuel|Ycaza	NNP|NNP	PERSON|PERSON	|				Manuel Ycaza	fb:part.manuel_ycaza
+53	4	fb:cell.leroy_jolley	LeRoy Jolley	leroy|jolley	LeRoy|Jolley	NNP|NNP	PERSON|PERSON	|				LeRoy Jolley	fb:part.leroy_jolley
+53	5	fb:cell.jolley_woods_greer	Jolley / Woods / Greer	jolley|\\/|woods|\\/|greer	Jolley|\\/|Woods|\\/|Greer	NNP|:|NNP|:|NNP	PERSON|O|O|O|PERSON	||||				Jolley|Woods|Greer	fb:part.jolley|fb:part.woods|fb:part.greer
+53	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+53	7	fb:cell.1_50_40	1:50.40	1:50.40	1:50.40	CD	TIME	T01:50	1.0		50.4		
+53	8	fb:cell.null											
+53	9	fb:cell.null											
+54	0	fb:cell.1961	1961	1961	1961	CD	DATE	1961	1961.0	1961-xx-xx			
+54	1	fb:cell.carry_back	Carry Back	carry|back	carry|back	VB|RB	O|O	|					
+54	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+54	3	fb:cell.johnny_sellers	Johnny Sellers	johnny|sellers	Johnny|Sellers	NNP|NNPS	PERSON|PERSON	|				Johnny Sellers	fb:part.johnny_sellers
+54	4	fb:cell.jack_a_price	Jack A. Price	jack|a.|price	Jack|A.|Price	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Jack A. Price	fb:part.jack_a_price
+54	5	fb:cell.mrs_katherine_price	Mrs. Katherine Price	mrs.|katherine|price	Mrs.|Katherine|Price	NNP|NNP|NNP	O|PERSON|PERSON	||				Mrs. Katherine Price	fb:part.mrs_katherine_price
+54	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+54	7	fb:cell.1_48_80	1:48.80	1:48.80	1:48.80	CD	TIME	T01:48	1.0		48.8		
+54	8	fb:cell.null											
+54	9	fb:cell.null											
+55	0	fb:cell.1960	1960	1960	1960	CD	DATE	1960	1960.0	1960-xx-xx			
+55	1	fb:cell.bally_ache	Bally Ache	bally|ache	Bally|Ache	NNP|NNP	O|O	|					
+55	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+55	3	fb:cell.bobby_ussery	Bobby Ussery	bobby|ussery	Bobby|Ussery	NNP|NNP	PERSON|PERSON	|				Bobby Ussery	fb:part.bobby_ussery
+55	4	fb:cell.homer_pitt	Homer Pitt	homer|pitt	Homer|Pitt	NNP|NNP	PERSON|PERSON	|				Homer Pitt	fb:part.homer_pitt
+55	5	fb:cell.edgehill_farm	Edgehill Farm	edgehill|farm	Edgehill|Farm	NNP|NNP	O|O	|				Edgehill Farm	fb:part.edgehill_farm
+55	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+55	7	fb:cell.1_47_60	1:47.60	1:47.60	1:47.60	CD	TIME	T01:47	1.0		47.6		
+55	8	fb:cell.null											
+55	9	fb:cell.null											
+56	0	fb:cell.1959	1959	1959	1959	CD	DATE	1959	1959.0	1959-xx-xx			
+56	1	fb:cell.easy_spur	Easy Spur	easy|spur	Easy|Spur	NNP|NNP	O|O	|					
+56	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+56	3	fb:cell.bill_hartack	Bill Hartack	bill|hartack	Bill|Hartack	NNP|NNP	PERSON|PERSON	|				Bill Hartack	fb:part.bill_hartack
+56	4	fb:cell.paul_l_kelley	Paul L. Kelley	paul|l.|kelley	Paul|L.|Kelley	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Paul L. Kelley	fb:part.paul_l_kelley
+56	5	fb:cell.spring_hill_farm	Spring Hill Farm	spring|hill|farm	spring|Hill|Farm	NN|NNP|NNP	DATE|O|O	XXXX-SP||				Spring Hill Farm	fb:part.spring_hill_farm
+56	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+56	7	fb:cell.1_47_20	1:47.20	1:47.20	1:47.20	CD	TIME	T01:47	1.0		47.2		
+56	8	fb:cell.null											
+56	9	fb:cell.null											
+57	0	fb:cell.1958	1958	1958	1958	CD	DATE	1958	1958.0	1958-xx-xx			
+57	1	fb:cell.tim_tam	Tim Tam	tim|tam	Tim|Tam	NNP|NNP	PERSON|PERSON	|					
+57	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+57	3	fb:cell.bill_hartack	Bill Hartack	bill|hartack	Bill|Hartack	NNP|NNP	PERSON|PERSON	|				Bill Hartack	fb:part.bill_hartack
+57	4	fb:cell.horace_a_jones	Horace A. Jones	horace|a.|jones	Horace|A.|Jones	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Horace A. Jones	fb:part.horace_a_jones
+57	5	fb:cell.calumet_farm	Calumet Farm	calumet|farm	Calumet|Farm	NNP|NNP	O|O	|				Calumet Farm	fb:part.calumet_farm
+57	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+57	7	fb:cell.1_49_20	1:49.20	1:49.20	1:49.20	CD	TIME	T01:49	1.0		49.2		
+57	8	fb:cell.null											
+57	9	fb:cell.null											
+58	0	fb:cell.1957	1957	1957	1957	CD	DATE	1957	1957.0	1957-xx-xx			
+58	1	fb:cell.gen_duke	Gen. Duke	gen.|duke	Gen.|Duke	NNP|NNP	O|PERSON	|					
+58	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+58	3	fb:cell.bill_hartack	Bill Hartack	bill|hartack	Bill|Hartack	NNP|NNP	PERSON|PERSON	|				Bill Hartack	fb:part.bill_hartack
+58	4	fb:cell.horace_a_jones	Horace A. Jones	horace|a.|jones	Horace|A.|Jones	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Horace A. Jones	fb:part.horace_a_jones
+58	5	fb:cell.calumet_farm	Calumet Farm	calumet|farm	Calumet|Farm	NNP|NNP	O|O	|				Calumet Farm	fb:part.calumet_farm
+58	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+58	7	fb:cell.1_46_80	1:46.80	1:46.80	1:46.80	CD	TIME	T01:46	1.0		46.8		
+58	8	fb:cell.null											
+58	9	fb:cell.null											
+59	0	fb:cell.1956	1956	1956	1956	CD	DATE	1956	1956.0	1956-xx-xx			
+59	1	fb:cell.needles	Needles	needles	needle	NNS	O						
+59	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+59	3	fb:cell.david_erb	David Erb	david|erb	David|Erb	NNP|NNP	PERSON|PERSON	|				David Erb	fb:part.david_erb
+59	4	fb:cell.hugh_l_fontaine	Hugh L. Fontaine	hugh|l.|fontaine	Hugh|L.|Fontaine	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Hugh L. Fontaine	fb:part.hugh_l_fontaine
+59	5	fb:cell.d_h_stable	D & H Stable	d|&|h|stable	D|&|H|stable	NNP|CC|NNP|JJ	O|O|O|O	|||				D & H Stable	fb:part.d_h_stable
+59	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+59	7	fb:cell.1_48_60	1:48.60	1:48.60	1:48.60	CD	TIME	T01:48	1.0		48.6		
+59	8	fb:cell.null											
+59	9	fb:cell.null											
+60	0	fb:cell.1955	1955	1955	1955	CD	DATE	1955	1955.0	1955-xx-xx			
+60	1	fb:cell.nashua	Nashua	nashua	Nashua	NNP	LOCATION						
+60	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+60	3	fb:cell.eddie_arcaro	Eddie Arcaro	eddie|arcaro	Eddie|Arcaro	NNP|NNP	PERSON|PERSON	|				Eddie Arcaro	fb:part.eddie_arcaro
+60	4	fb:cell.jim_fitzsimmons	Jim Fitzsimmons	jim|fitzsimmons	Jim|Fitzsimmons	NNP|NNP	PERSON|PERSON	|				Jim Fitzsimmons	fb:part.jim_fitzsimmons
+60	5	fb:cell.belair_stud	Belair Stud	belair|stud	Belair|Stud	NNP|NNP	PERSON|PERSON	|				Belair Stud	fb:part.belair_stud
+60	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+60	7	fb:cell.1_53_20	1:53.20	1:53.20	1:53.20	CD	TIME	T01:53	1.0		53.2		
+60	8	fb:cell.null											
+60	9	fb:cell.null											
+61	0	fb:cell.1954	1954	1954	1954	CD	DATE	1954	1954.0	1954-xx-xx			
+61	1	fb:cell.correlation	Correlation	correlation	correlation	NN	O						
+61	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+61	3	fb:cell.bill_shoemaker	Bill Shoemaker	bill|shoemaker	Bill|Shoemaker	NNP|NNP	PERSON|PERSON	|				Bill Shoemaker	fb:part.bill_shoemaker
+61	4	fb:cell.noble_threewitt	Noble Threewitt	noble|threewitt	Noble|Threewitt	NNP|NNP	O|PERSON	|				Noble Threewitt	fb:part.noble_threewitt
+61	5	fb:cell.robert_s_lytle	Robert S. Lytle	robert|s.|lytle	Robert|S.|Lytle	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Robert S. Lytle	fb:part.robert_s_lytle
+61	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+61	7	fb:cell.1_55_20	1:55.20	1:55.20	1:55.20	CD	TIME	T01:55	1.0		55.2		
+61	8	fb:cell.null											
+61	9	fb:cell.null											
+62	0	fb:cell.1953	1953	1953	1953	CD	DATE	1953	1953.0	1953-xx-xx			
+62	1	fb:cell.money_broker	Money Broker	money|broker	Money|Broker	NNP|NNP	O|O	|					
+62	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+62	3	fb:cell.alfred_popara	Alfred Popara	alfred|popara	Alfred|Popara	NNP|NNP	PERSON|PERSON	|				Alfred Popara	fb:part.alfred_popara
+62	4	fb:cell.vester_r_wright	Vester R. Wright	vester|r.|wright	Vester|R.|Wright	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Vester R. Wright	fb:part.vester_r_wright
+62	5	fb:cell.g_g_stable	G. & G. Stable	g.|&|g.|stable	G.|&|G.|stable	NNP|CC|NNP|JJ	O|O|O|O	|||				G. & G. Stable	fb:part.g_g_stable
+62	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+62	7	fb:cell.1_53_80	1:53.80	1:53.80	1:53.80	CD	TIME	T01:53	1.0		53.8		
+62	8	fb:cell.null											
+62	9	fb:cell.null											
+63	0	fb:cell.1952	1952	1952	1952	CD	DATE	1952	1952.0	1952-xx-xx			
+63	1	fb:cell.sky_ship	Sky Ship	sky|ship	Sky|Ship	NNP|NNP	O|O	|					
+63	2	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+63	3	fb:cell.ronnie_nash	Ronnie Nash	ronnie|nash	Ronnie|Nash	NNP|NNP	PERSON|PERSON	|				Ronnie Nash	fb:part.ronnie_nash
+63	4	fb:cell.preston_m_burch	Preston M. Burch	preston|m.|burch	Preston|M.|Burch	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Preston M. Burch	fb:part.preston_m_burch
+63	5	fb:cell.brookmeade_stable	Brookmeade Stable	brookmeade|stable	Brookmeade|stable	NNP|JJ	O|O	|				Brookmeade Stable	fb:part.brookmeade_stable
+63	6	fb:cell.1_1_8	1-1/8	1-1\\/8	1-1\\/8	CD	NUMBER		1.0		1.0	1-1|8	fb:part.1_1|fb:part.8
+63	7	fb:cell.1_50_80	1:50.80	1:50.80	1:50.80	CD	TIME	T01:50	1.0		50.8		
+63	8	fb:cell.null											
+63	9	fb:cell.null											

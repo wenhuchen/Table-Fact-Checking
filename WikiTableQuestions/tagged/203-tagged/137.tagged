@@ -1,0 +1,61 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.title	Title	title	title	NN	O						
+-1	1	fb:row.row.album_details	Album details	album|details	album|detail	NN|NNS	O|O	|					
+-1	2	fb:row.row.peak_chart_positions_us	Peak chart positions\nUS	peak|chart|positions|us	peak|chart|position|US	JJ|NN|NNS|NNP	O|O|O|LOCATION	|||					
+-1	3	fb:row.row.peak_chart_positions_us_r_b	Peak chart positions\nUS R&B	peak|chart|positions|us|r&b	peak|chart|position|US|r&b	JJ|NN|NNS|NNP|NN	O|O|O|LOCATION|O	||||					
+-1	4	fb:row.row.certifications	Certifications	certifications	certification	NNS	MISC						
+0	0	fb:cell.can_i_bus	Can-I-Bus	can|i|bus	can|I|bus	VBD-AUX|PRP|NN	O|O|O	||					
+0	1	fb:cell.released_september_8_1998_label_universal_format_cd_cassette_digital_download	Released: September 8, 1998\nLabel: Universal\nFormat: CD, cassette, digital download	released|:|september|8|,|1998|label|:|universal|format|:|cd|,|cassette|,|digital|download	release|:|September|8|,|1998|label|:|Universal|Format|:|CD|,|cassette|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|:|NNP|,|NN|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O|O	||1998-09-08|1998-09-08|1998-09-08|1998-09-08|||||||||||	81998.0			Released: September 8|1998|Label: Universal|Format: CD|cassette|digital download	fb:part.released_september_8|fb:part.1998|fb:part.label_universal|fb:part.format_cd|fb:part.cassette|fb:part.digital_download
+0	2	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+0	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+0	4	fb:cell.riaa_gold	RIAA: Gold	riaa|:|gold	RIAA|:|Gold	NNP|:|NNP	ORGANIZATION|O|O	||					
+1	0	fb:cell.2000_b_c_before_can_i_bus	2000 B.C. (Before Can-I-Bus)	2000|b.c.|-lrb-|before|can|i|bus|-rrb-	2000|B.C.|-lrb-|before|can|I|bus|-rrb-	CD|NNP|-LRB-|IN|VBD-AUX|PRP|NN|-RRB-	DATE|DATE|O|O|O|O|O|O	2000|2000||||||	2000.0				
+1	1	fb:cell.released_july_18_2000_label_universal_format_cd_cassette_digital_download	Released: July 18, 2000\nLabel: Universal\nFormat: CD, cassette, digital download	released|:|july|18|,|2000|label|:|universal|format|:|cd|,|cassette|,|digital|download	release|:|July|18|,|2000|label|:|Universal|Format|:|CD|,|cassette|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|:|NNP|,|NN|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O|O	||2000-07-18|2000-07-18|2000-07-18|2000-07-18|||||||||||	182000.0			Released: July 18|2000|Label: Universal|Format: CD|cassette|digital download	fb:part.released_july_18|fb:part.2000|fb:part.label_universal|fb:part.format_cd|fb:part.cassette|fb:part.digital_download
+1	2	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+1	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+1	4	fb:cell.null											
+2	0	fb:cell.c_true_hollywood_stories	C! True Hollywood Stories	c|!|true|hollywood|stories	c|!|true|Hollywood|Stories	NN|.|JJ|NNP|NNP	O|O|O|O|O	||||					
+2	1	fb:cell.released_november_13_2001_label_archives_music_format_cd_digital_download	Released: November 13, 2001\nLabel: Archives Music\nFormat: CD, digital download	released|:|november|13|,|2001|label|:|archives|music|format|:|cd|,|digital|download	release|:|November|13|,|2001|label|:|archive|Music|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNS|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O	||2001-11-13|2001-11-13|2001-11-13|2001-11-13||||||||||	132001.0			Released: November 13|2001|Label: Archives Music|Format: CD|digital download	fb:part.released_november_13|fb:part.2001|fb:part.label_archives_music|fb:part.format_cd|fb:part.digital_download
+2	2	fb:cell.null_2	—	--	--	:	O						
+2	3	fb:cell.71	71	71	71	CD	NUMBER	71.0	71.0				
+2	4	fb:cell.null											
+3	0	fb:cell.mic_club_the_curriculum	Mic Club: The Curriculum	mic|club|:|the|curriculum	Mic|Club|:|the|curriculum	NNP|NNP|:|DT|NN	O|O|O|O|MISC	||||					
+3	1	fb:cell.released_november_19_2002_label_mic_club_format_cd_digital_download	Released: November 19, 2002\nLabel: Mic Club\nFormat: CD, digital download	released|:|november|19|,|2002|label|:|mic|club|format|:|cd|,|digital|download	release|:|November|19|,|2002|label|:|Mic|Club|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O	||2002-11-19|2002-11-19|2002-11-19|2002-11-19||||||||||	192002.0			Released: November 19|2002|Label: Mic Club|Format: CD|digital download	fb:part.released_november_19|fb:part.2002|fb:part.label_mic_club|fb:part.format_cd|fb:part.digital_download
+3	2	fb:cell.null_2	—	--	--	:	O						
+3	3	fb:cell.null_2	—	--	--	:	O						
+3	4	fb:cell.null											
+4	0	fb:cell.rip_the_jacker	Rip the Jacker	rip|the|jacker	Rip|the|Jacker	NNP|DT|NNP	O|O|O	||					
+4	1	fb:cell.released_july_22_2003_label_babygrande_format_cd_digital_download	Released: July 22, 2003\nLabel: Babygrande\nFormat: CD, digital download	released|:|july|22|,|2003|label|:|babygrande|format|:|cd|,|digital|download	release|:|July|22|,|2003|label|:|Babygrande|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O	||2003-07-22|2003-07-22|2003-07-22|2003-07-22|||||||||	222003.0			Released: July 22|2003|Label: Babygrande|Format: CD|digital download	fb:part.released_july_22|fb:part.2003|fb:part.label_babygrande|fb:part.format_cd|fb:part.digital_download
+4	2	fb:cell.194	194	194	194	CD	NUMBER	194.0	194.0				
+4	3	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+4	4	fb:cell.null											
+5	0	fb:cell.mind_control	Mind Control	mind|control	Mind|Control	NNP|NNP	O|O	|					
+5	1	fb:cell.released_june_21_2005_label_tommy_boy_format_cd_digital_download	Released: June 21, 2005\nLabel: Tommy Boy\nFormat: CD, digital download	released|:|june|21|,|2005|label|:|tommy|boy|format|:|cd|,|digital|download	release|:|June|21|,|2005|label|:|Tommy|Boy|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|PERSON|O|O|O|O|O|O|O	||2005-06-21|2005-06-21|2005-06-21|2005-06-21||||||||||	212005.0			Released: June 21|2005|Label: Tommy Boy|Format: CD|digital download	fb:part.released_june_21|fb:part.2005|fb:part.label_tommy_boy|fb:part.format_cd|fb:part.digital_download
+5	2	fb:cell.null_2	—	--	--	:	O						
+5	3	fb:cell.79	79	79	79	CD	NUMBER	79.0	79.0				
+5	4	fb:cell.null											
+6	0	fb:cell.hip_hop_for_sale	Hip-Hop for Sale	hip|hop|for|sale	hip|hop|for|Sale	NN|NN|IN|NNP	O|O|O|O	|||					
+6	1	fb:cell.released_november_22_2005_label_babygrande_format_cd_digital_download	Released: November 22, 2005\nLabel: Babygrande\nFormat: CD, digital download	released|:|november|22|,|2005|label|:|babygrande|format|:|cd|,|digital|download	release|:|November|22|,|2005|label|:|Babygrande|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O	||2005-11-22|2005-11-22|2005-11-22|2005-11-22|||||||||	222005.0			Released: November 22|2005|Label: Babygrande|Format: CD|digital download	fb:part.released_november_22|fb:part.2005|fb:part.label_babygrande|fb:part.format_cd|fb:part.digital_download
+6	2	fb:cell.null_2	—	--	--	:	O						
+6	3	fb:cell.null_2	—	--	--	:	O						
+6	4	fb:cell.null											
+7	0	fb:cell.for_whom_the_beat_tolls	For Whom the Beat Tolls	for|whom|the|beat|tolls	for|whom|the|beat|toll	IN|WP|DT|NN|NNS	O|O|O|O|O	||||					
+7	1	fb:cell.released_june_5_2007_label_mic_club_format_cd_digital_download	Released: June 5, 2007\nLabel: Mic Club\nFormat: CD, digital download	released|:|june|5|,|2007|label|:|mic|club|format|:|cd|,|digital|download	release|:|June|5|,|2007|label|:|Mic|Club|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O	||2007-06-05|2007-06-05|2007-06-05|2007-06-05||||||||||	52007.0			Released: June 5|2007|Label: Mic Club|Format: CD|digital download	fb:part.released_june_5|fb:part.2007|fb:part.label_mic_club|fb:part.format_cd|fb:part.digital_download
+7	2	fb:cell.null_2	—	--	--	:	O						
+7	3	fb:cell.null_2	—	--	--	:	O						
+7	4	fb:cell.null											
+8	0	fb:cell.melatonin_magik	Melatonin Magik	melatonin|magik	Melatonin|Magik	NNP|NNP	O|O	|					
+8	1	fb:cell.released_february_2_2010_label_war_lab_format_cd_digital_download	Released: February 2, 2010\nLabel: War Lab\nFormat: CD, digital download	released|:|february|2|,|2010|label|:|war|lab|format|:|cd|,|digital|download	release|:|February|2|,|2010|label|:|War|Lab|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O	||2010-02-02|2010-02-02|2010-02-02|2010-02-02||||||||||	22010.0			Released: February 2|2010|Label: War Lab|Format: CD|digital download	fb:part.released_february_2|fb:part.2010|fb:part.label_war_lab|fb:part.format_cd|fb:part.digital_download
+8	2	fb:cell.null_2	—	--	--	:	O						
+8	3	fb:cell.91	91	91	91	CD	NUMBER	91.0	91.0				
+8	4	fb:cell.null											
+9	0	fb:cell.c_of_tranquility	C of Tranquility	c|of|tranquility	c|of|tranquility	NN|IN|NN	O|O|O	||					
+9	1	fb:cell.released_october_5_2010_label_interdependent_media_format_cd_digital_download	Released: October 5, 2010\nLabel: Interdependent Media\nFormat: CD, digital download	released|:|october|5|,|2010|label|:|interdependent|media|format|:|cd|,|digital|download	release|:|October|5|,|2010|label|:|Interdependent|Media|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O|O	||2010-10-05|2010-10-05|2010-10-05|2010-10-05||||||||||	52010.0			Released: October 5|2010|Label: Interdependent Media|Format: CD|digital download	fb:part.released_october_5|fb:part.2010|fb:part.label_interdependent_media|fb:part.format_cd|fb:part.digital_download
+9	2	fb:cell.null_2	—	--	--	:	O						
+9	3	fb:cell.70	70	70	70	CD	NUMBER	70.0	70.0				
+9	4	fb:cell.null											
+10	0	fb:cell.lyrical_law	Lyrical Law	lyrical|law	lyrical|law	JJ|NN	O|O	|					
+10	1	fb:cell.released_june_24_2011_label_canibus_format_cd_digital_download	Released: June 24, 2011\nLabel: Canibus\nFormat: CD, digital download	released|:|june|24|,|2011|label|:|canibus|format|:|cd|,|digital|download	release|:|June|24|,|2011|label|:|Canibus|Format|:|CD|,|digital|download	VBN|:|NNP|CD|,|CD|NN|:|NNP|NNP|:|NNP|,|JJ|NN	O|O|DATE|DATE|DATE|DATE|O|O|O|O|O|O|O|O|O	||2011-06-24|2011-06-24|2011-06-24|2011-06-24|||||||||	242011.0			Released: June 24|2011|Label: Canibus|Format: CD|digital download	fb:part.released_june_24|fb:part.2011|fb:part.label_canibus|fb:part.format_cd|fb:part.digital_download
+10	2	fb:cell.null_2	—	--	--	:	O						
+10	3	fb:cell.null_2	—	--	--	:	O						
+10	4	fb:cell.null											

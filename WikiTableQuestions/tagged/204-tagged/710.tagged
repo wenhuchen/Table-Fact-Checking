@@ -1,0 +1,121 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.model	Model	model	Model	NNP	O						
+-1	1	fb:row.row.origin	Origin	origin	origin	NN	O						
+-1	2	fb:row.row.type	Type	type	type	NN	O						
+-1	3	fb:row.row.versions	Versions	versions	version	NNS	O						
+-1	4	fb:row.row.in_service	In Service	in|service	in|Service	IN|NNP	O|O	|					
+-1	5	fb:row.row.notes	Notes	notes	note	NNS	O						
+0	0	fb:cell.vought_f_8_crusader	Vought F-8 Crusader	vought|f-8|crusader	Vought|F-8|Crusader	NNP|NNP|NNP	O|O|O	||	8.0				
+0	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+0	2	fb:cell.air_superiority_fighter_interceptor_aircraft	Air superiority fighter/Interceptor aircraft	air|superiority|fighter\\/interceptor|aircraft	Air|superiority|fighter\\/interceptor|aircraft	NNP|NN|NN|NN	O|O|O|O	|||				Air superiority fighter|Interceptor aircraft	fb:part.air_superiority_fighter|fb:part.interceptor_aircraft
+0	3	fb:cell.f_8p	F-8P	f-8p	f-8p	NN	O		8.0			F-8P	fb:part.f_8p
+0	4	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0			35	fb:part.35
+0	5	fb:cell.placed_in_open_storage_1988_01_23_at_basa_air_base_they_suffered_irreparable_damage_from_mt_pinatubo_s_eruption_on_1991_06_15	Placed in open storage 1988-01-23 at Basa Air Base. They suffered irreparable damage from Mt. Pinatubo's eruption on 1991-06-15.	placed|in|open|storage|1988-01-23|at|basa|air|base|.|they|suffered|irreparable|damage|from|mt.|pinatubo|'s|eruption|on|1991-06-15|.	place|in|open|storage|1988-01-23|at|Basa|Air|Base|.|they|suffer|irreparable|damage|from|Mt.|Pinatubo|'s|eruption|on|1991-06-15|.	VBN|IN|JJ|NN|CD|IN|NNP|NNP|NNP|.|PRP|VBD|JJ|NN|IN|NNP|NNP|POS|NN|IN|CD|.	O|O|O|O|DATE|O|LOCATION|LOCATION|LOCATION|O|O|O|O|O|O|O|PERSON|O|O|O|DATE|O	||||1988-01-23||||||||||||||||1991-06-15|	1988.0		1.0	Placed in open storage 1988-01-23 at Basa Air Base. They suffered irreparable damage from Mt. Pinatubo's eruption on 1991-06-15.	fb:part.placed_in_open_storage_1988_01_23_at_basa_air_base_they_suffered_irreparable_damage_from_mt_pinatubo_s_eruption_on_1991_06_15
+1	0	fb:cell.northrop_f_5_freedom_fighter	Northrop F-5 Freedom Fighter	northrop|f-5|freedom|fighter	Northrop|F-5|Freedom|Fighter	NNP|NNP|NNP|NNP	ORGANIZATION|O|MISC|MISC	|||	5.0				
+1	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+1	2	fb:cell.fighter_bomber	Fighter/Bomber	fighter\\/bomber	Fighter\\/Bomber	NNP	O					Fighter|Bomber	fb:part.fighter|fb:part.bomber
+1	3	fb:cell.f_5a_f_5b	F-5A\nF-5B	f-5a|f-5b	f-5a|f-5b	NN|NN	O|O	|	5.0		5.0	F-5A|F-5B	fb:part.f_5a|fb:part.f_5b
+1	4	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0			37	fb:part.37
+1	5	fb:cell.retired_the_10_remaining_f_5s_out_of_a_total_of_37_acquired_by_the_philippine_government_from_1967_to_1998_were_decommissioned_in_a_ceremony_in_september_2005	Retired. The 10 remaining F-5s, out of a total of 37 acquired by the Philippine government from 1967 to 1998, were decommissioned in a ceremony in September 2005	retired|.|the|10|remaining|f-5s|,|out|of|a|total|of|37|acquired|by|the|philippine|government|from|1967|to|1998|,|were|decommissioned|in|a|ceremony|in|september|2005	retire|.|the|10|remain|f-5|,|out|of|a|total|of|37|acquire|by|the|philippine|government|from|1967|to|1998|,|be|decommission|in|a|ceremony|in|September|2005	VBN|.|DT|CD|VBG|NNS|,|IN|IN|DT|NN|IN|CD|VBN|IN|DT|JJ|NN|IN|CD|TO|CD|,|VBD-AUX|VBN|IN|DT|NN|IN|NNP|CD	O|O|O|NUMBER|O|O|O|O|O|O|O|O|NUMBER|O|O|O|LOCATION|O|O|DATE|DATE|DATE|O|O|O|O|O|O|O|DATE|DATE	|||10.0|||||||||37.0|||||||1967/1998|1967/1998|1967/1998||||||||2005-09|2005-09				Retired. The 10 remaining F-5s|out of a total of 37 acquired by the Philippine government from 1967 to 1998|were decommissioned in a ceremony in September 2005	fb:part.retired_the_10_remaining_f_5s|fb:part.out_of_a_total_of_37_acquired_by_the_philippine_government_from_1967_to_1998|fb:part.were_decommissioned_in_a_ceremony_in_september_2005
+2	0	fb:cell.north_american_f_86_sabre	North American F-86 Sabre	north|american|f-86|sabre	north|american|F-86|Sabre	JJ|JJ|NNP|NNP	MISC|MISC|O|O	|||	86.0				
+2	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+2	2	fb:cell.fighter_bomber	Fighter/Bomber	fighter\\/bomber	Fighter\\/Bomber	NNP	O					Fighter|Bomber	fb:part.fighter|fb:part.bomber
+2	3	fb:cell.f_86f_f_86d	F-86F\nF-86D	f-86f|f-86d	f-86f|f-86d	NN|NN	O|O	|	86.0		86.0	F-86F|F-86D	fb:part.f_86f|fb:part.f_86d
+2	4	fb:cell.50_20	50\n20	50|20	50|20	CD|CD	NUMBER|NUMBER	50.0|50.0	50.0		20.0	50|20	fb:part.50|fb:part.20
+2	5	fb:cell.replaced_by_the_northrop_f_5a	Replaced by the Northrop F-5A	replaced|by|the|northrop|f-5a	replace|by|the|Northrop|f-5a	VBN|IN|DT|NNP|NN	O|O|O|O|O	||||	5.0			Replaced by the Northrop F-5A	fb:part.replaced_by_the_northrop_f_5a
+3	0	fb:cell.north_american_p_51_mustang	North American P-51 Mustang	north|american|p-51|mustang	north|american|P-51|Mustang	JJ|JJ|NNP|NNP	MISC|MISC|O|O	|||	51.0				
+3	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+3	2	fb:cell.fighter	Fighter	fighter	Fighter	NNP	O					Fighter	fb:part.fighter
+3	3	fb:cell.p_51d	P-51D	p-51d	p-51d	NN	O		51.0			P-51D	fb:part.p_51d
+3	4	fb:cell.103	103	103	103	CD	NUMBER	103.0	103.0			103	fb:part.103
+3	5	fb:cell.paf_s_1950s_fighter_replaced_by_f_86_sabre	PAF's 1950s Fighter, replaced by F-86 Sabre	paf|'s|1950s|fighter|,|replaced|by|f-86|sabre	paf|'s|1950s|Fighter|,|replace|by|F-86|Sabre	NN|POS|CD|NNP|,|VBN|IN|NNP|NNP	ORGANIZATION|O|DATE|O|O|O|O|O|O	||195X||||||	1950.0		86.0	PAF's 1950s Fighter|replaced by F-86 Sabre	fb:part.paf_s_1950s_fighter|fb:part.replaced_by_f_86_sabre
+4	0	fb:cell.north_american_t_28_trojan	North American T-28 Trojan	north|american|t-28|trojan	north|american|T-28|Trojan	JJ|JJ|NNP|NNP	MISC|MISC|MISC|MISC	|||	28.0				
+4	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+4	2	fb:cell.trainer_light_strike_aircraft	Trainer/Light strike aircraft	trainer\\/light|strike|aircraft	trainer\\/light|strike|aircraft	JJ|NN|NN	O|O|O	||				Trainer|Light strike aircraft	fb:part.trainer|fb:part.light_strike_aircraft
+4	3	fb:cell.t_28a_t_28d	T-28A\nT-28D	t-28a|t-28d	t-28a|t-28d	JJ|NN	O|O	|	28.0		28.0	T-28A|T-28D	fb:part.t_28a|fb:part.t_28d
+4	4	fb:cell.20_24	20\n24	20|24	20|24	CD|CD	NUMBER|NUMBER	20.0|20.0	20.0		24.0	20|24	fb:part.20|fb:part.24
+4	5	fb:cell.replaced_by_ov_10_bronco	Replaced by OV-10 Bronco	replaced|by|ov-10|bronco	replace|by|OV-10|Bronco	VBN|IN|NNP|NNP	O|O|O|O	|||	10.0			Replaced by OV-10 Bronco	fb:part.replaced_by_ov_10_bronco
+5	0	fb:cell.north_american_t_6_texan	North American T-6 Texan	north|american|t-6|texan	north|american|T-6|Texan	JJ|JJ|NNP|NNP	MISC|MISC|MISC|MISC	|||	6.0				
+5	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+5	2	fb:cell.trainer_aircraft	Trainer aircraft	trainer|aircraft	trainer|aircraft	NN|NN	O|O	|				Trainer aircraft	fb:part.trainer_aircraft
+5	3	fb:cell.null											fb:part.null
+5	4	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0			38	fb:part.38
+5	5	fb:cell.null											fb:part.null
+6	0	fb:cell.beechcraft_t_34_mentor	Beechcraft T-34 Mentor	beechcraft|t-34|mentor	Beechcraft|T-34|Mentor	NNP|NNP|NNP	O|O|O	||	34.0				
+6	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+6	2	fb:cell.trainer_aircraft	Trainer aircraft	trainer|aircraft	trainer|aircraft	NN|NN	O|O	|				Trainer aircraft	fb:part.trainer_aircraft
+6	3	fb:cell.null											fb:part.null
+6	4	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0			36	fb:part.36
+6	5	fb:cell.replaced_by_the_sf_260	Replaced by the SF-260	replaced|by|the|sf-260	replace|by|the|sf-260	VBN|IN|DT|NN	O|O|O|O	|||	260.0			Replaced by the SF-260	fb:part.replaced_by_the_sf_260
+7	0	fb:cell.lockheed_t_33_shooting_star	Lockheed T-33 Shooting Star	lockheed|t-33|shooting|star	Lockheed|T-33|shooting|star	NNP|NNP|NN|NN	ORGANIZATION|O|O|O	|||	33.0				
+7	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+7	2	fb:cell.trainer_aircraft	Trainer aircraft	trainer|aircraft	trainer|aircraft	NN|NN	O|O	|				Trainer aircraft	fb:part.trainer_aircraft
+7	3	fb:cell.t_33a_rt_33a	T-33A\nRT-33A	t-33a|rt-33a	t-33a|rt-33a	JJ|NN	O|O	|	33.0		33.0	T-33A|RT-33A	fb:part.t_33a|fb:part.rt_33a
+7	4	fb:cell.25_2	25\n2	25|2	25|2	CD|CD	NUMBER|NUMBER	25.0|25.0	25.0		2.0	25|2	fb:part.25|fb:part.2
+7	5	fb:cell.replaced_by_the_s_211	Replaced by the S-211	replaced|by|the|s-211	replace|by|the|s-211	VBN|IN|DT|NN	O|O|O|O	|||	211.0			Replaced by the S-211	fb:part.replaced_by_the_s_211
+8	0	fb:cell.douglas_ac_47_spooky	Douglas AC-47 Spooky	douglas|ac-47|spooky	Douglas|AC-47|Spooky	NNP|NNP|NNP	PERSON|O|O	||	47.0				
+8	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+8	2	fb:cell.close_air_support_aircraft	Close air support aircraft	close|air|support|aircraft	close|air|support|aircraft	JJ|NN|NN|NN	O|O|O|O	|||				Close air support aircraft	fb:part.close_air_support_aircraft
+8	3	fb:cell.null											fb:part.null
+8	4	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0			11	fb:part.11
+8	5	fb:cell.null											fb:part.null
+9	0	fb:cell.douglas_c_47_skytrain	Douglas C-47 Skytrain	douglas|c-47|skytrain	Douglas|C-47|Skytrain	NNP|NNP|NNP	PERSON|O|O	||	47.0				
+9	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+9	2	fb:cell.military_transport_aircraft	Military transport aircraft	military|transport|aircraft	military|transport|aircraft	JJ|NN|NN	O|O|O	||				Military transport aircraft	fb:part.military_transport_aircraft
+9	3	fb:cell.null											fb:part.null
+9	4	fb:cell.null_2	?	?	?	.	O					?	fb:part.null_2
+9	5	fb:cell.replaced_by_the_c_130	Replaced by the C-130	replaced|by|the|c-130	replace|by|the|c-130	VBN|IN|DT|NN	O|O|O|O	|||	130.0			Replaced by the C-130	fb:part.replaced_by_the_c_130
+10	0	fb:cell.de_havilland_canada_dhc_2_beaver	de Havilland Canada DHC-2 Beaver	de|havilland|canada|dhc-2|beaver	de|Havilland|Canada|DHC-2|Beaver	IN|NNP|NNP|NNP|NNP	O|O|LOCATION|O|O	||||	2.0				
+10	1	fb:cell.canada	Canada	canada	Canada	NNP	LOCATION					Canada	fb:part.canada
+10	2	fb:cell.military_transport_aircraft	Military transport aircraft	military|transport|aircraft	military|transport|aircraft	JJ|NN|NN	O|O|O	||				Military transport aircraft	fb:part.military_transport_aircraft
+10	3	fb:cell.null											fb:part.null
+10	4	fb:cell.null_2	?	?	?	.	O					?	fb:part.null_2
+10	5	fb:cell.replaced_by_the_c_130	Replaced by the C-130	replaced|by|the|c-130	replace|by|the|c-130	VBN|IN|DT|NN	O|O|O|O	|||	130.0			Replaced by the C-130	fb:part.replaced_by_the_c_130
+11	0	fb:cell.grumman_hu_16_albatross	Grumman HU-16 Albatross	grumman|hu-16|albatross	Grumman|HU-16|Albatross	NNP|NNP|NNP	O|O|O	||	16.0				
+11	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+11	2	fb:cell.military_transport_aircraft	Military transport aircraft	military|transport|aircraft	military|transport|aircraft	JJ|NN|NN	O|O|O	||				Military transport aircraft	fb:part.military_transport_aircraft
+11	3	fb:cell.hu_16b	HU-16B	hu-16b	hu-16b	NN	O		16.0			HU-16B	fb:part.hu_16b
+11	4	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0			6	fb:part.6
+11	5	fb:cell.null											fb:part.null
+12	0	fb:cell.namc_ys_11	NAMC YS-11	namc|ys-11	NAMC|ys-11	NNP|NN	ORGANIZATION|O	|	11.0				
+12	1	fb:cell.japan	Japan	japan	Japan	NNP	LOCATION					Japan	fb:part.japan
+12	2	fb:cell.vip_transport	VIP transport	vip|transport	vip|transport	NN|NN	O|O	|				VIP transport	fb:part.vip_transport
+12	3	fb:cell.null											fb:part.null
+12	4	fb:cell.null_2	?	?	?	.	O					?	fb:part.null_2
+12	5	fb:cell.null											fb:part.null
+13	0	fb:cell.stinson_l_5_sentinel	Stinson L-5 Sentinel	stinson|l-5|sentinel	Stinson|L-5|Sentinel	NNP|NNP|NNP	PERSON|O|O	||	5.0				
+13	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+13	2	fb:cell.liaison_aircraft	Liaison aircraft	liaison|aircraft	Liaison|aircraft	NNP|NN	O|O	|				Liaison aircraft	fb:part.liaison_aircraft
+13	3	fb:cell.null											fb:part.null
+13	4	fb:cell.null_2	?	?	?	.	O					?	fb:part.null_2
+13	5	fb:cell.null											fb:part.null
+14	0	fb:cell.sikorsky_s_62	Sikorsky S-62	sikorsky|s-62	Sikorsky|S-62	NNP|NNP	O|O	|	62.0				
+14	1	fb:cell.united_states_japan	United States\n\n Japan	united|states|japan	United|States|Japan	NNP|NNPS|NNP	LOCATION|LOCATION|LOCATION	||				United States|Japan	fb:part.united_states|fb:part.japan
+14	2	fb:cell.multipurpose_utility_helicopter_multipurpose_utility_helicopter_vip_transport	Multipurpose utility helicopter\n\nMultipurpose utility helicopter\n\nVIP transport	multipurpose|utility|helicopter|multipurpose|utility|helicopter|vip|transport	multipurpose|utility|helicopter|multipurpose|utility|helicopter|vip|transport	JJ|NN|NN|JJ|NN|NN|NN|NN	O|O|O|O|O|O|O|O	|||||||				Multipurpose utility helicopter|Multipurpose utility helicopter|VIP transport	fb:part.multipurpose_utility_helicopter|fb:part.multipurpose_utility_helicopter|fb:part.vip_transport
+14	3	fb:cell.s_62a_s_62j	S-62A\n\nS-62J	s-62a|s-62j	s-62a|s-62j	NN|NN	O|O	|	62.0		62.0	S-62A|S-62J	fb:part.s_62a|fb:part.s_62j
+14	4	fb:cell.1_2	1\n\n2	1|2	1|2	CD|CD	NUMBER|NUMBER	1.0|1.0	1.0		2.0	1|2	fb:part.1|fb:part.2
+14	5	fb:cell.null											fb:part.null
+15	0	fb:cell.sikorsky_h_34	Sikorsky H-34	sikorsky|h-34	Sikorsky|H-34	NNP|NNP	O|O	|	34.0				
+15	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+15	2	fb:cell.sar_helicopter	SAR Helicopter	sar|helicopter	SAR|Helicopter	NNP|NNP	O|O	|				SAR Helicopter	fb:part.sar_helicopter
+15	3	fb:cell.null											fb:part.null
+15	4	fb:cell.null_2	?	?	?	.	O					?	fb:part.null_2
+15	5	fb:cell.null											fb:part.null
+16	0	fb:cell.sikorsky_h_19	Sikorsky H-19	sikorsky|h-19	Sikorsky|H-19	NNP|NNP	O|O	|	19.0				
+16	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+16	2	fb:cell.null											fb:part.null
+16	3	fb:cell.null											fb:part.null
+16	4	fb:cell.null_2	?	?	?	.	O					?	fb:part.null_2
+16	5	fb:cell.null											fb:part.null
+17	0	fb:cell.bell_212	Bell 212	bell|212	Bell|212	NNP|CD	O|NUMBER	|212.0	212.0				
+17	1	fb:cell.united_states	United States	united|states	United|States	NNP|NNPS	LOCATION|LOCATION	|				United States	fb:part.united_states
+17	2	fb:cell.utility_helicopter	Utility helicopter	utility|helicopter	utility|helicopter	NN|NN	O|O	|				Utility helicopter	fb:part.utility_helicopter
+17	3	fb:cell.null											fb:part.null
+17	4	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0			1	fb:part.1
+17	5	fb:cell.a_presidential_aircraft_that_crashed_in_benguet_province	A presidential aircraft that crashed in Benguet Province.	a|presidential|aircraft|that|crashed|in|benguet|province|.	a|presidential|aircraft|that|crash|in|Benguet|Province|.	DT|JJ|NN|WDT|VBD|IN|NNP|NNP|.	O|O|O|O|O|O|O|O|O	||||||||				A presidential aircraft that crashed in Benguet Province.	fb:part.a_presidential_aircraft_that_crashed_in_benguet_province
+18	0	fb:cell.aerospatiale_sa_330_puma	Aérospatiale SA 330 Puma	aérospatiale|sa|330|puma	Aérospatiale|SA|330|Puma	NNP|NNP|CD|NNP	O|O|NUMBER|O	||330.0|	330.0				
+18	1	fb:cell.france	France	france	France	NNP	LOCATION					France	fb:part.france
+18	2	fb:cell.presidential_helicopter	Presidential helicopter	presidential|helicopter	presidential|helicopter	JJ|NN	O|O	|				Presidential helicopter	fb:part.presidential_helicopter
+18	3	fb:cell.sa_330l	SA 330L	sa|330l	SA|330L	NNP|NNP	O|O	|	330.0			SA 330L	fb:part.sa_330l
+18	4	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0			2	fb:part.2
+18	5	fb:cell.null											fb:part.null

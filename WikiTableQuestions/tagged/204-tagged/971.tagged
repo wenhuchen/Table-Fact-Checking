@@ -1,0 +1,521 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.m	M	m	m	NN	O						
+-1	1	fb:row.row.date	Date	date	date	NN	O						
+-1	2	fb:row.row.tournament	Tournament	tournament	tournament	NN	O						
+-1	3	fb:row.row.round	Round	round	Round	NNP	O						
+-1	4	fb:row.row.ground	Ground	ground	ground	NN	O						
+-1	5	fb:row.row.opponent	Opponent	opponent	opponent	NN	O						
+-1	6	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+-1	7	fb:row.row.attendance	Attendance	attendance	attendance	NN	O						
+-1	8	fb:row.row.dinamo_scorers	Dinamo Scorers	dinamo|scorers	Dinamo|Scorers	NNP|NNP	ORGANIZATION|ORGANIZATION	|					
+-1	9	fb:row.row.report	Report	report	Report	NNP	O						
+0	0	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+0	1	fb:cell.13_jul	13 Jul	13|jul	13|Jul	CD|NNP	DATE|DATE	XXXX-07-13|XXXX-07-13	13.0	xxxx-07-13			
+0	2	fb:cell.ucl	UCL	ucl	ucl	NN	O						
+0	3	fb:cell.qr2	QR2	qr2	qr2	NN	O		2.0			QR2	fb:part.qr2
+0	4	fb:cell.h	H	h	h	NN	O						
+0	5	fb:cell.koper	Koper	koper	Koper	NNP	PERSON						
+0	6	fb:cell.5_1	5 – 1	5|--|1	5|--|1	CD|:|CD	NUMBER|O|NUMBER	5.0||1.0	5.0		1.0		
+0	7	fb:cell.7_000	7,000	7,000	7,000	CD	NUMBER	7000.0	7000.0				
+0	8	fb:cell.mandzukic_2_slepicka_sammir_etto	Mandžukić (2), Slepička, Sammir, Etto	mandžukić|-lrb-|2|-rrb-|,|slepička|,|sammir|,|etto	mandžukić|-lrb-|2|-rrb-|,|slepička|,|Sammir|,|Etto	NN|-LRB-|CD|-RRB-|,|FW|,|NNP|,|NNP	O|O|NUMBER|O|O|LOCATION|O|PERSON|O|O	||2.0|||||||	2.0			Mandžukić (2)|Slepička|Sammir|Etto	fb:part.mandzukic_2|fb:part.slepicka|fb:part.sammir|fb:part.etto
+0	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+1	0	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+1	1	fb:cell.17_jul	17 Jul	17|jul	17|Jul	CD|NNP	DATE|DATE	XXXX-07-17|XXXX-07-17	17.0	xxxx-07-17			
+1	2	fb:cell.supercup	Supercup	supercup	Supercup	NNP	MISC						
+1	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+1	4	fb:cell.h	H	h	h	NN	O						
+1	5	fb:cell.hajduk_split	Hajduk Split	hajduk|split	Hajduk|Split	NNP|NNP	LOCATION|LOCATION	|					
+1	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+1	7	fb:cell.8_000	8,000	8,000	8,000	CD	NUMBER	8000.0	8000.0				
+1	8	fb:cell.biscan	Bišćan	bišćan	Bišćan	NNP	MISC					Bišćan	fb:part.biscan
+1	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+2	0	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+2	1	fb:cell.20_jul	20 Jul	20|jul	20|Jul	CD|NNP	DATE|DATE	XXXX-07-20|XXXX-07-20	20.0	xxxx-07-20			
+2	2	fb:cell.ucl	UCL	ucl	ucl	NN	O						
+2	3	fb:cell.qr2	QR2	qr2	qr2	NN	O		2.0			QR2	fb:part.qr2
+2	4	fb:cell.ar	AR	ar	ar	NNS	O						
+2	5	fb:cell.koper	Koper	koper	Koper	NNP	PERSON						
+2	6	fb:cell.0_3	0 – 3	0|--|3	0|--|3	CD|:|CD	NUMBER|O|NUMBER	0.0||3.0	0.0		3.0		
+2	7	fb:cell.2_000	2,000	2,000	2,000	CD	NUMBER	2000.0	2000.0				
+2	8	fb:cell.null											fb:part.null
+2	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+3	0	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+3	1	fb:cell.24_jul	24 Jul	24|jul	24|Jul	CD|NNP	DATE|DATE	XXXX-07-24|XXXX-07-24	24.0	xxxx-07-24			
+3	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+3	3	fb:cell.1	1	1	1	CD	NUMBER	1.0	1.0				
+3	4	fb:cell.h	H	h	h	NN	O						
+3	5	fb:cell.hrvatski_dragovoljac	Hrvatski Dragovoljac	hrvatski|dragovoljac	Hrvatski|Dragovoljac	NNP|NNP	PERSON|PERSON	|					
+3	6	fb:cell.4_1	4 – 1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+3	7	fb:cell.350	350	350	350	CD	NUMBER	350.0	350.0				
+3	8	fb:cell.morales_sammir_slepicka_mesaric	Morales, Sammir, Slepička, Mesarić	morales|,|sammir|,|slepička|,|mesarić	Morales|,|Sammir|,|Slepička|,|Mesarić	NNP|,|NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON|O|PERSON	||||||				Morales|Sammir|Slepička|Mesarić	fb:part.morales|fb:part.sammir|fb:part.slepicka|fb:part.mesaric
+3	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+4	0	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+4	1	fb:cell.27_jul	27 Jul	27|jul	27|Jul	CD|NNP	DATE|DATE	XXXX-07-27|XXXX-07-27	27.0	xxxx-07-27			
+4	2	fb:cell.ucl	UCL	ucl	ucl	NN	O						
+4	3	fb:cell.qr3	QR3	qr3	qr3	NN	O		3.0			QR3	fb:part.qr3
+4	4	fb:cell.a	A	a	a	DT	O						
+4	5	fb:cell.sheriff_tiraspol	Sheriff Tiraspol	sheriff|tiraspol	Sheriff|Tiraspol	NNP|NNP	O|LOCATION	|					
+4	6	fb:cell.1_1	1 – 1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+4	7	fb:cell.10_000	10,000	10,000	10,000	CD	NUMBER	10000.0	10000.0				
+4	8	fb:cell.sammir	Sammir	sammir	sammir	FW	PERSON					Sammir	fb:part.sammir
+4	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+5	0	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+5	1	fb:cell.31_jul	31 Jul	31|jul	31|Jul	CD|NNP	DATE|DATE	XXXX-07-31|XXXX-07-31	31.0	xxxx-07-31			
+5	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+5	3	fb:cell.2	2	2	2	CD	NUMBER	2.0	2.0				
+5	4	fb:cell.h	H	h	h	NN	O						
+5	5	fb:cell.rijeka	Rijeka	rijeka	Rijeka	NNP	LOCATION						
+5	6	fb:cell.1_2	1 – 2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+5	7	fb:cell.3_500	3,500	3,500	3,500	CD	NUMBER	3500.0	3500.0				
+5	8	fb:cell.sammir	Sammir	sammir	sammir	FW	PERSON					Sammir	fb:part.sammir
+5	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+6	0	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+6	1	fb:cell.04_aug	04 Aug	04|aug	04|aug	NN|NN	DATE|DATE	XXXX-08-04|XXXX-08-04	4.0	xxxx-08-04			
+6	2	fb:cell.ucl	UCL	ucl	ucl	NN	O						
+6	3	fb:cell.qr3	QR3	qr3	qr3	NN	O		3.0			QR3	fb:part.qr3
+6	4	fb:cell.h	H	h	h	NN	O						
+6	5	fb:cell.sheriff_tiraspol	Sheriff Tiraspol	sheriff|tiraspol	Sheriff|Tiraspol	NNP|NNP	O|LOCATION	|					
+6	6	fb:cell.1_1	1 – 1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+6	7	fb:cell.10_000	10,000	10,000	10,000	CD	NUMBER	10000.0	10000.0				
+6	8	fb:cell.sammir	Sammir	sammir	sammir	FW	PERSON					Sammir	fb:part.sammir
+6	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+7	0	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+7	1	fb:cell.07_aug	07 Aug	07|aug	07|aug	CD|NN	DATE|DATE	XXXX-08-07|XXXX-08-07	7.0	xxxx-08-07			
+7	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+7	3	fb:cell.3	3	3	3	CD	NUMBER	3.0	3.0				
+7	4	fb:cell.a	A	a	a	DT	O						
+7	5	fb:cell.varazdin	Varaždin	varaždin	Varaždin	NNP	PERSON						
+7	6	fb:cell.1_1	1 – 1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+7	7	fb:cell.3_000	3,000	3,000	3,000	CD	NUMBER	3000.0	3000.0				
+7	8	fb:cell.rukavina	Rukavina	rukavina	Rukavina	NNP	PERSON					Rukavina	fb:part.rukavina
+7	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+8	0	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+8	1	fb:cell.14_aug	14 Aug	14|aug	14|aug	CD|NN	DATE|DATE	XXXX-08-14|XXXX-08-14	14.0	xxxx-08-14			
+8	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+8	3	fb:cell.4	4	4	4	CD	NUMBER	4.0	4.0				
+8	4	fb:cell.h	H	h	h	NN	O						
+8	5	fb:cell.karlovac	Karlovac	karlovac	Karlovac	NNP	LOCATION						
+8	6	fb:cell.4_2	4 – 2	4|--|2	4|--|2	CD|:|CD	NUMBER|O|NUMBER	4.0||2.0	4.0		2.0		
+8	7	fb:cell.400	400	400	400	CD	NUMBER	400.0	400.0				
+8	8	fb:cell.sammir_2_kramaric_rukavina	Sammir (2), Kramarić, Rukavina	sammir|-lrb-|2|-rrb-|,|kramarić|,|rukavina	sammir|-lrb-|2|-rrb-|,|kramarić|,|Rukavina	NN|-LRB-|CD|-RRB-|,|NN|,|NNP	PERSON|O|NUMBER|O|O|LOCATION|O|PERSON	||2.0|||||	2.0			Sammir (2)|Kramarić|Rukavina	fb:part.sammir_2|fb:part.kramaric|fb:part.rukavina
+8	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+9	0	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+9	1	fb:cell.19_aug	19 Aug	19|aug	19|aug	CD|NN	DATE|DATE	XXXX-08-19|XXXX-08-19	19.0	xxxx-08-19			
+9	2	fb:cell.uel	UEL	uel	uel	NN	O						
+9	3	fb:cell.play_off	Play-off	play|off	Play|off	NNP|IN	O|O	|				Play-off	fb:part.play_off
+9	4	fb:cell.a	A	a	a	DT	O						
+9	5	fb:cell.gyori_eto	Győri ETO	győri|eto	Győri|ETO	NNP|NNP	PERSON|PERSON	|					
+9	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+9	7	fb:cell.8_000	8,000	8,000	8,000	CD	NUMBER	8000.0	8000.0				
+9	8	fb:cell.rukavina_2	Rukavina (2)	rukavina|-lrb-|2|-rrb-	Rukavina|-lrb-|2|-rrb-	NNP|-LRB-|LS|-RRB-	PERSON|O|NUMBER|O	||2.0|	2.0			Rukavina (2)	fb:part.rukavina_2
+9	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+10	0	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+10	1	fb:cell.22_aug	22 Aug	22|aug	22|aug	CD|NN	DATE|DATE	XXXX-08-22|XXXX-08-22	22.0	xxxx-08-22			
+10	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+10	3	fb:cell.5	5	5	5	CD	NUMBER	5.0	5.0				
+10	4	fb:cell.a	A	a	a	DT	O						
+10	5	fb:cell.slaven_belupo	Slaven Belupo	slaven|belupo	Slaven|Belupo	NNP|NNP	PERSON|PERSON	|					
+10	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+10	7	fb:cell.4_000	4,000	4,000	4,000	CD	NUMBER	4000.0	4000.0				
+10	8	fb:cell.rukavina_sammir	Rukavina, Sammir	rukavina|,|sammir	Rukavina|,|Sammir	NNP|,|NNP	PERSON|O|PERSON	||				Rukavina|Sammir	fb:part.rukavina|fb:part.sammir
+10	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+11	0	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+11	1	fb:cell.26_aug	26 Aug	26|aug	26|aug	CD|NN	DATE|DATE	XXXX-08-26|XXXX-08-26	26.0	xxxx-08-26			
+11	2	fb:cell.uel	UEL	uel	uel	NN	O						
+11	3	fb:cell.play_off	Play-off	play|off	Play|off	NNP|IN	O|O	|				Play-off	fb:part.play_off
+11	4	fb:cell.h	H	h	h	NN	O						
+11	5	fb:cell.gyori_eto	Győri ETO	győri|eto	Győri|ETO	NNP|NNP	PERSON|PERSON	|					
+11	6	fb:cell.2_1	2 – 1	2|--|1	2|--|1	CD|:|CD	NUMBER|O|NUMBER	2.0||1.0	2.0		1.0		
+11	7	fb:cell.8_000	8,000	8,000	8,000	CD	NUMBER	8000.0	8000.0				
+11	8	fb:cell.sammir_2	Sammir (2)	sammir|-lrb-|2|-rrb-	sammir|-lrb-|2|-rrb-	NN|-LRB-|CD|-RRB-	O|O|NUMBER|O	||2.0|	2.0			Sammir (2)	fb:part.sammir_2
+11	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+12	0	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+12	1	fb:cell.28_aug	28 Aug	28|aug	28|aug	CD|NN	DATE|DATE	XXXX-08-28|XXXX-08-28	28.0	xxxx-08-28			
+12	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+12	3	fb:cell.6	6	6	6	CD	NUMBER	6.0	6.0				
+12	4	fb:cell.h	H	h	h	NN	O						
+12	5	fb:cell.cibalia	Cibalia	cibalia	Cibalia	NNP	LOCATION						
+12	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+12	7	fb:cell.3_500	3,500	3,500	3,500	CD	NUMBER	3500.0	3500.0				
+12	8	fb:cell.vrsaljko_tomecak	Vrsaljko, Tomečak	vrsaljko|,|tomečak	Vrsaljko|,|Tomečak	NNP|,|NNP	PERSON|O|PERSON	||				Vrsaljko|Tomečak	fb:part.vrsaljko|fb:part.tomecak
+12	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+13	0	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+13	1	fb:cell.11_sep	11 Sep	11|sep	11|sep	CD|NN	DATE|DATE	XXXX-09-11|XXXX-09-11	11.0	xxxx-09-11			
+13	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+13	3	fb:cell.7	7	7	7	CD	NUMBER	7.0	7.0				
+13	4	fb:cell.a	A	a	a	DT	O						
+13	5	fb:cell.hajduk_split	Hajduk Split	hajduk|split	Hajduk|Split	NNP|NNP	LOCATION|LOCATION	|					
+13	6	fb:cell.1_1	1 – 1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+13	7	fb:cell.30_000	30,000	30,000	30,000	CD	NUMBER	30000.0	30000.0				
+13	8	fb:cell.sammir	Sammir	sammir	sammir	FW	PERSON					Sammir	fb:part.sammir
+13	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+14	0	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+14	1	fb:cell.16_sep	16 Sep	16|sep	16|sep	CD|NN	DATE|DATE	XXXX-09-16|XXXX-09-16	16.0	xxxx-09-16			
+14	2	fb:cell.uel	UEL	uel	uel	NN	O						
+14	3	fb:cell.group	Group	group	Group	NNP	O					Group	fb:part.group
+14	4	fb:cell.h	H	h	h	NN	O						
+14	5	fb:cell.villarreal	Villarreal	villarreal	Villarreal	NNP	PERSON						
+14	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+14	7	fb:cell.21_000	21,000	21,000	21,000	CD	NUMBER	21000.0	21000.0				
+14	8	fb:cell.rukavina_sammir	Rukavina, Sammir	rukavina|,|sammir	Rukavina|,|Sammir	NNP|,|NNP	PERSON|O|PERSON	||				Rukavina|Sammir	fb:part.rukavina|fb:part.sammir
+14	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+15	0	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+15	1	fb:cell.19_sep	19 Sep	19|sep	19|sep	CD|NN	DATE|DATE	XXXX-09-19|XXXX-09-19	19.0	xxxx-09-19			
+15	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+15	3	fb:cell.8	8	8	8	CD	NUMBER	8.0	8.0				
+15	4	fb:cell.h	H	h	h	NN	O						
+15	5	fb:cell.nk_zagreb	NK Zagreb	nk|zagreb	nk|Zagreb	NN|NNP	O|LOCATION	|					
+15	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+15	7	fb:cell.11_000	11,000	11,000	11,000	CD	NUMBER	11000.0	11000.0				
+15	8	fb:cell.barbaric	Barbarić	barbarić	Barbarić	NNP	O					Barbarić	fb:part.barbaric
+15	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+16	0	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+16	1	fb:cell.22_sep	22 Sep	22|sep	22|sep	CD|NN	DATE|DATE	XXXX-09-22|XXXX-09-22	22.0	xxxx-09-22			
+16	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+16	3	fb:cell.r1	R1	r1	r1	NN	O		1.0			R1	fb:part.r1
+16	4	fb:cell.a	A	a	a	DT	O						
+16	5	fb:cell.zadrugar	Zadrugar	zadrugar	Zadrugar	NNP	O						
+16	6	fb:cell.6_0	6 – 0	6|--|0	6|--|0	CD|:|CD	NUMBER|O|NUMBER	6.0||0.0	6.0		0.0		
+16	7	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+16	8	fb:cell.beciraj_2_kramaric_3_sylvestr	Bećiraj (2), Kramarić (3), Sylvestr	bećiraj|-lrb-|2|-rrb-|,|kramarić|-lrb-|3|-rrb-|,|sylvestr	bećiraj|-lrb-|2|-rrb-|,|kramarić|-lrb-|3|-rrb-|,|Sylvestr	NN|-LRB-|CD|-RRB-|,|NN|-LRB-|CD|-RRB-|,|NNP	PERSON|O|NUMBER|O|O|PERSON|O|NUMBER|O|O|O	||2.0|||||3.0|||	2.0		3.0	Bećiraj (2)|Kramarić (3)|Sylvestr	fb:part.beciraj_2|fb:part.kramaric_3|fb:part.sylvestr
+16	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+17	0	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+17	1	fb:cell.26_sep	26 Sep	26|sep	26|sep	CD|NN	DATE|DATE	XXXX-09-26|XXXX-09-26	26.0	xxxx-09-26			
+17	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+17	3	fb:cell.9	9	9	9	CD	NUMBER	9.0	9.0				
+17	4	fb:cell.ar	AR	ar	ar	NNS	O						
+17	5	fb:cell.lokomotiva	Lokomotiva	lokomotiva	lokomotiva	NN	O						
+17	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+17	7	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+17	8	fb:cell.chago_tonel	Chago, Tonel	chago|,|tonel	Chago|,|Tonel	NNP|,|NNP	O|O|PERSON	||				Chago|Tonel	fb:part.chago|fb:part.tonel
+17	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+18	0	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+18	1	fb:cell.30_sep	30 Sep	30|sep	30|sep	CD|NN	DATE|DATE	XXXX-09-30|XXXX-09-30	30.0	xxxx-09-30			
+18	2	fb:cell.uel	UEL	uel	uel	NN	O						
+18	3	fb:cell.group	Group	group	Group	NNP	O					Group	fb:part.group
+18	4	fb:cell.a	A	a	a	DT	O						
+18	5	fb:cell.paok	PAOK	paok	paok	NN	ORGANIZATION						
+18	6	fb:cell.0_1	0 – 1	0|--|1	0|--|1	CD|:|CD	NUMBER|O|NUMBER	0.0||1.0	0.0		1.0		
+18	7	fb:cell.25_000	25,000	25,000	25,000	CD	NUMBER	25000.0	25000.0				
+18	8	fb:cell.null											fb:part.null
+18	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+19	0	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+19	1	fb:cell.03_oct	03 Oct	03|oct	03|oct	NN|NN	DATE|DATE	XXXX-10-03|XXXX-10-03	3.0	xxxx-10-03			
+19	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+19	3	fb:cell.10	10	10	10	CD	NUMBER	10.0	10.0				
+19	4	fb:cell.h	H	h	h	NN	O						
+19	5	fb:cell.istra_1961	Istra 1961	istra|1961	Istra|1961	NNP|CD	O|DATE	|1961	1961.0				
+19	6	fb:cell.4_0	4 – 0	4|--|0	4|--|0	CD|:|CD	NUMBER|O|NUMBER	4.0||0.0	4.0		0.0		
+19	7	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+19	8	fb:cell.sylvestr_beciraj_sammir_2	Sylvestr, Bećiraj, Sammir (2)	sylvestr|,|bećiraj|,|sammir|-lrb-|2|-rrb-	Sylvestr|,|Bećiraj|,|Sammir|-lrb-|2|-rrb-	NNP|,|NNP|,|NNP|-LRB-|LS|-RRB-	O|O|O|O|PERSON|O|NUMBER|O	||||||2.0|	2.0			Sylvestr|Bećiraj|Sammir (2)	fb:part.sylvestr|fb:part.beciraj|fb:part.sammir_2
+19	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+20	0	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+20	1	fb:cell.16_oct	16 Oct	16|oct	16|oct	CD|NN	DATE|DATE	XXXX-10-16|XXXX-10-16	16.0	xxxx-10-16			
+20	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+20	3	fb:cell.11	11	11	11	CD	NUMBER	11.0	11.0				
+20	4	fb:cell.a	A	a	a	DT	O						
+20	5	fb:cell.osijek	Osijek	osijek	Osijek	NNP	LOCATION						
+20	6	fb:cell.3_1	3 – 1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+20	7	fb:cell.5_000	5,000	5,000	5,000	CD	NUMBER	5000.0	5000.0				
+20	8	fb:cell.sammir_badelj_beciraj	Sammir, Badelj, Bećiraj	sammir|,|badelj|,|bećiraj	Sammir|,|Badelj|,|Bećiraj	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Sammir|Badelj|Bećiraj	fb:part.sammir|fb:part.badelj|fb:part.beciraj
+20	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+21	0	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+21	1	fb:cell.21_oct	21 Oct	21|oct	21|oct	CD|NN	DATE|DATE	XXXX-10-21|XXXX-10-21	21.0	xxxx-10-21			
+21	2	fb:cell.uel	UEL	uel	uel	NN	O						
+21	3	fb:cell.group	Group	group	Group	NNP	O					Group	fb:part.group
+21	4	fb:cell.h	H	h	h	NN	O						
+21	5	fb:cell.club_brugge	Club Brugge	club|brugge	Club|Brugge	NNP|NNP	O|O	|					
+21	6	fb:cell.0_0	0 – 0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+21	7	fb:cell.22_000	22,000	22,000	22,000	CD	NUMBER	22000.0	22000.0				
+21	8	fb:cell.null											fb:part.null
+21	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+22	0	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+22	1	fb:cell.23_oct	23 Oct	23|oct	23|oct	CD|NN	DATE|DATE	XXXX-10-23|XXXX-10-23	23.0	xxxx-10-23			
+22	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+22	3	fb:cell.12	12	12	12	CD	NUMBER	12.0	12.0				
+22	4	fb:cell.h	H	h	h	NN	O						
+22	5	fb:cell.sibenik	Šibenik	šibenik	Šibenik	NNP	O						
+22	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+22	7	fb:cell.3_000	3,000	3,000	3,000	CD	NUMBER	3000.0	3000.0				
+22	8	fb:cell.tomecak	Tomečak	tomečak	Tomečak	NNP	PERSON					Tomečak	fb:part.tomecak
+22	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+23	0	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+23	1	fb:cell.27_oct	27 Oct	27|oct	27|oct	CD|NN	DATE|DATE	XXXX-10-27|XXXX-10-27	27.0	xxxx-10-27			
+23	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+23	3	fb:cell.r2	R2	r2	r2	NN	O		2.0			R2	fb:part.r2
+23	4	fb:cell.a	A	a	a	DT	O						
+23	5	fb:cell.karlovac	Karlovac	karlovac	Karlovac	NNP	LOCATION						
+23	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+23	7	fb:cell.1_500	1,500	1,500	1,500	CD	NUMBER	1500.0	1500.0				
+23	8	fb:cell.beciraj_cufre	Bećiraj, Cufré	bećiraj|,|cufré	Bećiraj|,|Cufré	NNP|,|NNP	PERSON|O|O	||				Bećiraj|Cufré	fb:part.beciraj|fb:part.cufre
+23	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+24	0	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+24	1	fb:cell.30_oct	30 Oct	30|oct	30|oct	CD|NN	DATE|DATE	XXXX-10-30|XXXX-10-30	30.0	xxxx-10-30			
+24	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+24	3	fb:cell.13	13	13	13	CD	NUMBER	13.0	13.0				
+24	4	fb:cell.a	A	a	a	DT	O						
+24	5	fb:cell.inter_zapresic	Inter Zaprešić	inter|zaprešić	Inter|Zaprešić	NNP|NNP	O|O	|					
+24	6	fb:cell.3_0	3 – 0	3|--|0	3|--|0	CD|:|CD	NUMBER|O|NUMBER	3.0||0.0	3.0		0.0		
+24	7	fb:cell.3_000	3,000	3,000	3,000	CD	NUMBER	3000.0	3000.0				
+24	8	fb:cell.tonel_sammir_ibanez	Tonel, Sammir, Ibáñez	tonel|,|sammir|,|ibáñez	Tonel|,|Sammir|,|Ibáñez	NNP|,|NNP|,|NNP	O|O|PERSON|O|PERSON	||||				Tonel|Sammir|Ibáñez	fb:part.tonel|fb:part.sammir|fb:part.ibanez
+24	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+25	0	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+25	1	fb:cell.04_nov	04 Nov	04|nov	04|Nov	NN|NNP	DATE|DATE	XXXX-11-04|XXXX-11-04	4.0	xxxx-11-04			
+25	2	fb:cell.uel	UEL	uel	uel	NN	O						
+25	3	fb:cell.group	Group	group	Group	NNP	O					Group	fb:part.group
+25	4	fb:cell.a	A	a	a	DT	O						
+25	5	fb:cell.club_brugge	Club Brugge	club|brugge	Club|Brugge	NNP|NNP	O|O	|					
+25	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+25	7	fb:cell.15_000	15,000	15,000	15,000	CD	NUMBER	15000.0	15000.0				
+25	8	fb:cell.sammir_biscan	Sammir, Bišćan	sammir|,|bišćan	Sammir|,|Bišćan	NNP|,|NNP	PERSON|O|PERSON	||				Sammir|Bišćan	fb:part.sammir|fb:part.biscan
+25	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+26	0	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+26	1	fb:cell.07_nov	07 Nov	07|nov	07|Nov	CD|NNP	DATE|DATE	XXXX-11-07|XXXX-11-07	7.0	xxxx-11-07			
+26	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+26	3	fb:cell.14	14	14	14	CD	NUMBER	14.0	14.0				
+26	4	fb:cell.h	H	h	h	NN	O						
+26	5	fb:cell.zadar	Zadar	zadar	Zadar	NNP	LOCATION						
+26	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+26	7	fb:cell.4_000	4,000	4,000	4,000	CD	NUMBER	4000.0	4000.0				
+26	8	fb:cell.tomecak	Tomečak	tomečak	Tomečak	NNP	PERSON					Tomečak	fb:part.tomecak
+26	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+27	0	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+27	1	fb:cell.13_nov	13 Nov	13|nov	13|Nov	CD|NNP	DATE|DATE	XXXX-11-13|XXXX-11-13	13.0	xxxx-11-13			
+27	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+27	3	fb:cell.15	15	15	15	CD	NUMBER	15.0	15.0				
+27	4	fb:cell.a	A	a	a	DT	O						
+27	5	fb:cell.rnk_split	RNK Split	rnk|split	RNK|Split	NNP|NNP	O|O	|					
+27	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+27	7	fb:cell.4_000	4,000	4,000	4,000	CD	NUMBER	4000.0	4000.0				
+27	8	fb:cell.calello	Calello	calello	calello	NN	PERSON					Calello	fb:part.calello
+27	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+28	0	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+28	1	fb:cell.20_nov	20 Nov	20|nov	20|Nov	CD|NNP	DATE|DATE	XXXX-11-20|XXXX-11-20	20.0	xxxx-11-20			
+28	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+28	3	fb:cell.16	16	16	16	CD	NUMBER	16.0	16.0				
+28	4	fb:cell.a	A	a	a	DT	O						
+28	5	fb:cell.hrvatski_dragovoljac	Hrvatski Dragovoljac	hrvatski|dragovoljac	Hrvatski|Dragovoljac	NNP|NNP	PERSON|PERSON	|					
+28	6	fb:cell.6_0	6 – 0	6|--|0	6|--|0	CD|:|CD	NUMBER|O|NUMBER	6.0||0.0	6.0		0.0		
+28	7	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+28	8	fb:cell.tomecak_chago_ibanez_kovacic_badelj_beciraj	Tomečak, Chago, Ibáñez, Kovačić, Badelj, Bećiraj	tomečak|,|chago|,|ibáñez|,|kovačić|,|badelj|,|bećiraj	Tomečak|,|Chago|,|Ibáñez|,|Kovačić|,|Badelj|,|Bećiraj	NNP|,|NNP|,|NNP|,|NNP|,|NNP|,|NNP	PERSON|O|O|O|PERSON|O|O|O|O|O|PERSON	||||||||||				Tomečak|Chago|Ibáñez|Kovačić|Badelj|Bećiraj	fb:part.tomecak|fb:part.chago|fb:part.ibanez|fb:part.kovacic|fb:part.badelj|fb:part.beciraj
+28	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+29	0	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+29	1	fb:cell.23_nov	23 Nov	23|nov	23|Nov	CD|NNP	DATE|DATE	XXXX-11-23|XXXX-11-23	23.0	xxxx-11-23			
+29	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+29	3	fb:cell.qf	QF	qf	qf	NN	O					QF	fb:part.qf
+29	4	fb:cell.h	H	h	h	NN	O						
+29	5	fb:cell.osijek	Osijek	osijek	Osijek	NNP	LOCATION						
+29	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+29	7	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+29	8	fb:cell.tonel_kramaric	Tonel, Kramarić	tonel|,|kramarić	Tonel|,|Kramarić	NNP|,|NNP	O|O|PERSON	||				Tonel|Kramarić	fb:part.tonel|fb:part.kramaric
+29	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+30	0	fb:cell.31	31	31	31	CD	NUMBER	31.0	31.0				
+30	1	fb:cell.27_nov	27 Nov	27|nov	27|Nov	CD|NNP	DATE|DATE	XXXX-11-27|XXXX-11-27	27.0	xxxx-11-27			
+30	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+30	3	fb:cell.17	17	17	17	CD	NUMBER	17.0	17.0				
+30	4	fb:cell.a	A	a	a	DT	O						
+30	5	fb:cell.rijeka	Rijeka	rijeka	Rijeka	NNP	LOCATION						
+30	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+30	7	fb:cell.2_500	2,500	2,500	2,500	CD	NUMBER	2500.0	2500.0				
+30	8	fb:cell.beciraj_badelj	Bećiraj, Badelj	bećiraj|,|badelj	Bećiraj|,|Badelj	NNP|,|NNP	PERSON|O|PERSON	||				Bećiraj|Badelj	fb:part.beciraj|fb:part.badelj
+30	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+31	0	fb:cell.32	32	32	32	CD	NUMBER	32.0	32.0				
+31	1	fb:cell.02_dec	02 Dec	02|dec	02|Dec	NN|NNP	DATE|DATE	XXXX-12-02|XXXX-12-02	2.0	xxxx-12-02			
+31	2	fb:cell.uel	UEL	uel	uel	NN	O						
+31	3	fb:cell.group	Group	group	Group	NNP	O					Group	fb:part.group
+31	4	fb:cell.a	A	a	a	DT	O						
+31	5	fb:cell.villarreal	Villarreal	villarreal	Villarreal	NNP	PERSON						
+31	6	fb:cell.0_3	0 – 3	0|--|3	0|--|3	CD|:|CD	NUMBER|O|NUMBER	0.0||3.0	0.0		3.0		
+31	7	fb:cell.null											fb:part.null
+31	8	fb:cell.null											fb:part.null
+31	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+32	0	fb:cell.33	33	33	33	CD	NUMBER	33.0	33.0				
+32	1	fb:cell.05_dec	05 Dec	05|dec	05|Dec	CD|NNP	DATE|DATE	XXXX-12-05|XXXX-12-05	5.0	xxxx-12-05			
+32	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+32	3	fb:cell.18	18	18	18	CD	NUMBER	18.0	18.0				
+32	4	fb:cell.h	H	h	h	NN	O						
+32	5	fb:cell.varazdin	Varaždin	varaždin	Varaždin	NNP	PERSON						
+32	6	fb:cell.1_1	1 – 1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+32	7	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+32	8	fb:cell.morales	Morales	morales	morale	NNS	PERSON					Morales	fb:part.morales
+32	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+33	0	fb:cell.34	34	34	34	CD	NUMBER	34.0	34.0				
+33	1	fb:cell.09_dec	09 Dec	09|dec	09|Dec	CD|NNP	DATE|DATE	XXXX-12-09|XXXX-12-09	9.0	xxxx-12-09			
+33	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+33	3	fb:cell.qf	QF	qf	qf	NN	O					QF	fb:part.qf
+33	4	fb:cell.a	A	a	a	DT	O						
+33	5	fb:cell.osijek	Osijek	osijek	Osijek	NNP	LOCATION						
+33	6	fb:cell.3_1	3 – 1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+33	7	fb:cell.300	300	300	300	CD	NUMBER	300.0	300.0				
+33	8	fb:cell.beciraj_2_biscan	Bećiraj (2), Bišćan	bećiraj|-lrb-|2|-rrb-|,|bišćan	bećiraj|-lrb-|2|-rrb-|,|bišćan	NN|-LRB-|CD|-RRB-|,|NN	PERSON|O|NUMBER|O|O|LOCATION	||2.0|||	2.0			Bećiraj (2)|Bišćan	fb:part.beciraj_2|fb:part.biscan
+33	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+34	0	fb:cell.35	35	35	35	CD	NUMBER	35.0	35.0				
+34	1	fb:cell.15_dec	15 Dec	15|dec	15|Dec	CD|NNP	DATE|DATE	XXXX-12-15|XXXX-12-15	15.0	xxxx-12-15			
+34	2	fb:cell.uel	UEL	uel	uel	NN	O						
+34	3	fb:cell.group	Group	group	Group	NNP	O					Group	fb:part.group
+34	4	fb:cell.h	H	h	h	NN	O						
+34	5	fb:cell.paok	PAOK	paok	paok	NN	ORGANIZATION						
+34	6	fb:cell.0_1	0 – 1	0|--|1	0|--|1	CD|:|CD	NUMBER|O|NUMBER	0.0||1.0	0.0		1.0		
+34	7	fb:cell.25_000	25,000	25,000	25,000	CD	NUMBER	25000.0	25000.0				
+34	8	fb:cell.null											fb:part.null
+34	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+35	0	fb:cell.36	36	36	36	CD	NUMBER	36.0	36.0				
+35	1	fb:cell.26_feb	26 Feb	26|feb	26|Feb	CD|NNP	DATE|DATE	XXXX-02-26|XXXX-02-26	26.0	xxxx-02-26			
+35	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+35	3	fb:cell.19	19	19	19	CD	NUMBER	19.0	19.0				
+35	4	fb:cell.a	A	a	a	DT	O						
+35	5	fb:cell.karlovac	Karlovac	karlovac	Karlovac	NNP	LOCATION						
+35	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+35	7	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+35	8	fb:cell.situm	Šitum	šitum	šitum	NN	O					Šitum	fb:part.situm
+35	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+36	0	fb:cell.37	37	37	37	CD	NUMBER	37.0	37.0				
+36	1	fb:cell.05_mar	05 Mar	05|mar	05|Mar	CD|NNP	DATE|DATE	XXXX-03-05|XXXX-03-05	5.0	xxxx-03-05			
+36	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+36	3	fb:cell.20	20	20	20	CD	NUMBER	20.0	20.0				
+36	4	fb:cell.h	H	h	h	NN	O						
+36	5	fb:cell.slaven_belupo	Slaven Belupo	slaven|belupo	Slaven|Belupo	NNP|NNP	PERSON|PERSON	|					
+36	6	fb:cell.0_0	0 – 0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+36	7	fb:cell.500	500	500	500	CD	NUMBER	500.0	500.0				
+36	8	fb:cell.null											fb:part.null
+36	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+37	0	fb:cell.38	38	38	38	CD	NUMBER	38.0	38.0				
+37	1	fb:cell.12_mar	12 Mar	12|mar	12|Mar	CD|NNP	DATE|DATE	XXXX-03-12|XXXX-03-12	12.0	xxxx-03-12			
+37	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+37	3	fb:cell.21	21	21	21	CD	NUMBER	21.0	21.0				
+37	4	fb:cell.a	A	a	a	DT	O						
+37	5	fb:cell.cibalia	Cibalia	cibalia	Cibalia	NNP	LOCATION						
+37	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+37	7	fb:cell.6_000	6,000	6,000	6,000	CD	NUMBER	6000.0	6000.0				
+37	8	fb:cell.beciraj	Bećiraj	bećiraj	Bećiraj	NNP	PERSON					Bećiraj	fb:part.beciraj
+37	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+38	0	fb:cell.39	39	39	39	CD	NUMBER	39.0	39.0				
+38	1	fb:cell.19_mar	19 Mar	19|mar	19|Mar	CD|NNP	DATE|DATE	XXXX-03-19|XXXX-03-19	19.0	xxxx-03-19			
+38	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+38	3	fb:cell.22	22	22	22	CD	NUMBER	22.0	22.0				
+38	4	fb:cell.h	H	h	h	NN	O						
+38	5	fb:cell.hajduk_split	Hajduk Split	hajduk|split	Hajduk|Split	NNP|NNP	LOCATION|LOCATION	|					
+38	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+38	7	fb:cell.15_000	15,000	15,000	15,000	CD	NUMBER	15000.0	15000.0				
+38	8	fb:cell.badelj_beciraj	Badelj, Bećiraj	badelj|,|bećiraj	Badelj|,|Bećiraj	NNP|,|NNP	PERSON|O|PERSON	||				Badelj|Bećiraj	fb:part.badelj|fb:part.beciraj
+38	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+39	0	fb:cell.40	40	40	40	CD	NUMBER	40.0	40.0				
+39	1	fb:cell.02_apr	02 Apr	02|apr	02|apr	NN|NN	DATE|DATE	XXXX-04-02|XXXX-04-02	2.0	xxxx-04-02			
+39	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+39	3	fb:cell.23	23	23	23	CD	NUMBER	23.0	23.0				
+39	4	fb:cell.a	A	a	a	DT	O						
+39	5	fb:cell.nk_zagreb	NK Zagreb	nk|zagreb	nk|Zagreb	NN|NNP	O|LOCATION	|					
+39	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+39	7	fb:cell.3_000	3,000	3,000	3,000	CD	NUMBER	3000.0	3000.0				
+39	8	fb:cell.calello	Calello	calello	calello	NN	PERSON					Calello	fb:part.calello
+39	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+40	0	fb:cell.41	41	41	41	CD	NUMBER	41.0	41.0				
+40	1	fb:cell.06_apr	06 Apr	06|apr	06|apr	CD|NN	DATE|DATE	XXXX-04-06|XXXX-04-06	6.0	xxxx-04-06			
+40	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+40	3	fb:cell.sf	SF	sf	sf	NN	O					SF	fb:part.sf
+40	4	fb:cell.h	H	h	h	NN	O						
+40	5	fb:cell.slaven_belupo	Slaven Belupo	slaven|belupo	Slaven|Belupo	NNP|NNP	PERSON|PERSON	|					
+40	6	fb:cell.4_1	4 – 1	4|--|1	4|--|1	CD|:|CD	NUMBER|O|NUMBER	4.0||1.0	4.0		1.0		
+40	7	fb:cell.1_000	1,000	1,000	1,000	CD	NUMBER	1000.0	1000.0				
+40	8	fb:cell.sammir_sylvestr_badelj_tomecak	Sammir, Sylvestr, Badelj, Tomečak	sammir|,|sylvestr|,|badelj|,|tomečak	Sammir|,|Sylvestr|,|Badelj|,|Tomečak	NNP|,|NNP|,|NNP|,|NNP	PERSON|O|O|O|PERSON|O|PERSON	||||||				Sammir|Sylvestr|Badelj|Tomečak	fb:part.sammir|fb:part.sylvestr|fb:part.badelj|fb:part.tomecak
+40	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+41	0	fb:cell.42	42	42	42	CD	NUMBER	42.0	42.0				
+41	1	fb:cell.09_apr	09 Apr	09|apr	09|apr	CD|NN	DATE|DATE	XXXX-04-09|XXXX-04-09	9.0	xxxx-04-09			
+41	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+41	3	fb:cell.24	24	24	24	CD	NUMBER	24.0	24.0				
+41	4	fb:cell.h	H	h	h	NN	O						
+41	5	fb:cell.lokomotiva	Lokomotiva	lokomotiva	lokomotiva	NN	O						
+41	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+41	7	fb:cell.1_693	1,693	1,693	1,693	CD	NUMBER	1693.0	1693.0				
+41	8	fb:cell.sylvestr	Sylvestr	sylvestr	Sylvestr	NNP	O					Sylvestr	fb:part.sylvestr
+41	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+42	0	fb:cell.43	43	43	43	CD	NUMBER	43.0	43.0				
+42	1	fb:cell.16_apr	16 Apr	16|apr	16|apr	CD|NN	DATE|DATE	XXXX-04-16|XXXX-04-16	16.0	xxxx-04-16			
+42	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+42	3	fb:cell.25	25	25	25	CD	NUMBER	25.0	25.0				
+42	4	fb:cell.a	A	a	a	DT	O						
+42	5	fb:cell.istra_1961	Istra 1961	istra|1961	Istra|1961	NNP|CD	O|DATE	|1961	1961.0				
+42	6	fb:cell.1_2	1 – 2	1|--|2	1|--|2	CD|:|CD	NUMBER|O|NUMBER	1.0||2.0	1.0		2.0		
+42	7	fb:cell.2_500	2,500	2,500	2,500	CD	NUMBER	2500.0	2500.0				
+42	8	fb:cell.beciraj	Bećiraj	bećiraj	Bećiraj	NNP	PERSON					Bećiraj	fb:part.beciraj
+42	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+43	0	fb:cell.44	44	44	44	CD	NUMBER	44.0	44.0				
+43	1	fb:cell.20_apr	20 Apr	20|apr	20|apr	CD|NN	DATE|DATE	XXXX-04-20|XXXX-04-20	20.0	xxxx-04-20			
+43	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+43	3	fb:cell.sf	SF	sf	sf	NN	O					SF	fb:part.sf
+43	4	fb:cell.a	A	a	a	DT	O						
+43	5	fb:cell.slaven_belupo	Slaven Belupo	slaven|belupo	Slaven|Belupo	NNP|NNP	PERSON|PERSON	|					
+43	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+43	7	fb:cell.3_000	3,000	3,000	3,000	CD	NUMBER	3000.0	3000.0				
+43	8	fb:cell.tomecak	Tomečak	tomečak	Tomečak	NNP	PERSON					Tomečak	fb:part.tomecak
+43	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+44	0	fb:cell.45	45	45	45	CD	NUMBER	45.0	45.0				
+44	1	fb:cell.23_apr	23 Apr	23|apr	23|apr	CD|NN	DATE|DATE	XXXX-04-23|XXXX-04-23	23.0	xxxx-04-23			
+44	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+44	3	fb:cell.26	26	26	26	CD	NUMBER	26.0	26.0				
+44	4	fb:cell.h	H	h	h	NN	O						
+44	5	fb:cell.osijek	Osijek	osijek	Osijek	NNP	LOCATION						
+44	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+44	7	fb:cell.1_850	1,850	1,850	1,850	CD	NUMBER	1850.0	1850.0				
+44	8	fb:cell.badelj	Badelj	badelj	Badelj	NNP	PERSON					Badelj	fb:part.badelj
+44	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+45	0	fb:cell.46	46	46	46	CD	NUMBER	46.0	46.0				
+45	1	fb:cell.30_apr	30 Apr	30|apr	30|apr	CD|NN	DATE|DATE	XXXX-04-30|XXXX-04-30	30.0	xxxx-04-30			
+45	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+45	3	fb:cell.27	27	27	27	CD	NUMBER	27.0	27.0				
+45	4	fb:cell.a	A	a	a	DT	O						
+45	5	fb:cell.sibenik	Šibenik	šibenik	Šibenik	NNP	O						
+45	6	fb:cell.2_0	2 – 0	2|--|0	2|--|0	CD|:|CD	NUMBER|O|NUMBER	2.0||0.0	2.0		0.0		
+45	7	fb:cell.2_000	2,000	2,000	2,000	CD	NUMBER	2000.0	2000.0				
+45	8	fb:cell.morales_rukavina	Morales, Rukavina	morales|,|rukavina	Morales|,|Rukavina	NNP|,|NNP	PERSON|O|PERSON	||				Morales|Rukavina	fb:part.morales|fb:part.rukavina
+45	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+46	0	fb:cell.47	47	47	47	CD	NUMBER	47.0	47.0				
+46	1	fb:cell.6_may	6 May	6|may	6|May	CD|VBD-AUX	DATE|DATE	XXXX-05-06|XXXX-05-06	6.0	xxxx-05-06			
+46	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+46	3	fb:cell.28	28	28	28	CD	NUMBER	28.0	28.0				
+46	4	fb:cell.h	H	h	h	NN	O						
+46	5	fb:cell.inter_zapresic	Inter Zaprešić	inter|zaprešić	Inter|Zaprešić	NNP|NNP	O|O	|					
+46	6	fb:cell.1_0	1 – 0	1|--|0	1|--|0	CD|:|CD	NUMBER|O|NUMBER	1.0||0.0	1.0		0.0		
+46	7	fb:cell.600	600	600	600	CD	NUMBER	600.0	600.0				
+46	8	fb:cell.beciraj	Bećiraj	bećiraj	Bećiraj	NNP	PERSON					Bećiraj	fb:part.beciraj
+46	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+47	0	fb:cell.48	48	48	48	CD	NUMBER	48.0	48.0				
+47	1	fb:cell.11_may	11 May	11|may	11|May	CD|VBD-AUX	DATE|DATE	XXXX-05-11|XXXX-05-11	11.0	xxxx-05-11			
+47	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+47	3	fb:cell.final	Final	final	final	JJ	O					Final	fb:part.final
+47	4	fb:cell.h	H	h	h	NN	O						
+47	5	fb:cell.varazdin	Varaždin	varaždin	Varaždin	NNP	PERSON						
+47	6	fb:cell.5_1	5 – 1	5|--|1	5|--|1	CD|:|CD	NUMBER|O|NUMBER	5.0||1.0	5.0		1.0		
+47	7	fb:cell.5_000	5,000	5,000	5,000	CD	NUMBER	5000.0	5000.0				
+47	8	fb:cell.sammir_tonel_beciraj_2_badelj	Sammir, Tonel, Bećiraj (2), Badelj	sammir|,|tonel|,|bećiraj|-lrb-|2|-rrb-|,|badelj	Sammir|,|Tonel|,|Bećiraj|-lrb-|2|-rrb-|,|badelj	NNP|,|NNP|,|NNP|-LRB-|LS|-RRB-|,|NN	PERSON|O|O|O|PERSON|O|NUMBER|O|O|LOCATION	||||||2.0|||	2.0			Sammir|Tonel|Bećiraj (2)|Badelj	fb:part.sammir|fb:part.tonel|fb:part.beciraj_2|fb:part.badelj
+47	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+48	0	fb:cell.49	49	49	49	CD	NUMBER	49.0	49.0				
+48	1	fb:cell.14_may	14 May	14|may	14|May	CD|VBD-AUX	DATE|DATE	XXXX-05-14|XXXX-05-14	14.0	xxxx-05-14			
+48	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+48	3	fb:cell.29	29	29	29	CD	NUMBER	29.0	29.0				
+48	4	fb:cell.a	A	a	a	DT	O						
+48	5	fb:cell.zadar	Zadar	zadar	Zadar	NNP	LOCATION						
+48	6	fb:cell.0_0	0 – 0	0|--|0	0|--|0	CD|:|CD	NUMBER|O|NUMBER	0.0||0.0	0.0		0.0		
+48	7	fb:cell.2_500	2,500	2,500	2,500	CD	NUMBER	2500.0	2500.0				
+48	8	fb:cell.null											fb:part.null
+48	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+49	0	fb:cell.50	50	50	50	CD	NUMBER	50.0	50.0				
+49	1	fb:cell.21_may	21 May	21|may	21|May	CD|VBD-AUX	DATE|DATE	XXXX-05-21|XXXX-05-21	21.0	xxxx-05-21			
+49	2	fb:cell.1_hnl	1. HNL	1|.|hnl	1|.|hnl	LS|.|NN	NUMBER|O|O	1.0||	1.0				
+49	3	fb:cell.30	30	30	30	CD	NUMBER	30.0	30.0				
+49	4	fb:cell.h	H	h	h	NN	O						
+49	5	fb:cell.rnk_split	RNK Split	rnk|split	RNK|Split	NNP|NNP	O|O	|					
+49	6	fb:cell.1_1	1 – 1	1|--|1	1|--|1	CD|:|CD	NUMBER|O|NUMBER	1.0||1.0	1.0		1.0		
+49	7	fb:cell.3_000	3,000	3,000	3,000	CD	NUMBER	3000.0	3000.0				
+49	8	fb:cell.badelj	Badelj	badelj	Badelj	NNP	PERSON					Badelj	fb:part.badelj
+49	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						
+50	0	fb:cell.51	51	51	51	CD	NUMBER	51.0	51.0				
+50	1	fb:cell.25_may	25 May	25|may	25|May	CD|VBD-AUX	DATE|DATE	XXXX-05-25|XXXX-05-25	25.0	xxxx-05-25			
+50	2	fb:cell.cup	Cup	cup	Cup	NNP	MISC						
+50	3	fb:cell.final	Final	final	final	JJ	O					Final	fb:part.final
+50	4	fb:cell.a	A	a	a	DT	O						
+50	5	fb:cell.varazdin	Varaždin	varaždin	Varaždin	NNP	PERSON						
+50	6	fb:cell.3_1	3 – 1	3|--|1	3|--|1	CD|:|CD	NUMBER|O|NUMBER	3.0||1.0	3.0		1.0		
+50	7	fb:cell.3_500	3,500	3,500	3,500	CD	NUMBER	3500.0	3500.0				
+50	8	fb:cell.ibanez_badelj_beciraj	Ibáñez, Badelj, Bećiraj	ibáñez|,|badelj|,|bećiraj	Ibáñez|,|Badelj|,|Bećiraj	NNP|,|NNP|,|NNP	PERSON|O|PERSON|O|PERSON	||||				Ibáñez|Badelj|Bećiraj	fb:part.ibanez|fb:part.badelj|fb:part.beciraj
+50	9	fb:cell.sportnet_hr	Sportnet.hr	sportnet.hr	sportnet.hr	NN	O						

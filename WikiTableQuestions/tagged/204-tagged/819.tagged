@@ -1,0 +1,301 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.event	Event	event	event	NN	O						
+-1	1	fb:row.row.record	Record	record	record	VB	O						
+-1	2	fb:row.row.athlete	Athlete	athlete	athlete	NN	O						
+-1	3	fb:row.row.date	Date	date	date	NN	O						
+-1	4	fb:row.row.meet	Meet	meet	meet	VB	O						
+-1	5	fb:row.row.place	Place	place	place	NN	O						
+0	0	fb:cell.100_m	100 m	100|m	100|m	CD|NN	NUMBER|O	100.0|	100.0				
+0	1	fb:cell.10_21_0_1_m_s	10.21 (+0.1 m/s)	10.21|-lrb-|+0.1|m\\/s|-rrb-	10.21|-lrb-|+0.1|m\\/s|-rrb-	NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|NUMBER|O|O	10.21||0.1||	10.21		0.1	10.21 (+0.1 m|s)	fb:part.10_21_0_1_m|fb:part.s
+0	2	fb:cell.carlos_villasenor_garcia	Carlos Villaseñor García	carlos|villaseñor|garcía	Carlos|Villaseñor|García	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Carlos Villaseñor García	fb:part.carlos_villasenor_garcia
+0	3	fb:cell.11_july_1997	11 July 1997	11|july|1997	11|July|1997	CD|NNP|CD	DATE|DATE|DATE	1997-07-11|1997-07-11|1997-07-11	11.0	1997-07-11	1997.0	11 July 1997	fb:part.11_july_1997
+0	4	fb:cell.mexican_championships	Mexican Championships	mexican|championships	mexican|championship	JJ|NNS	MISC|MISC	|				Mexican Championships	fb:part.mexican_championships
+0	5	fb:cell.toluca_mexico	Toluca, Mexico	toluca|,|mexico	Toluca|,|Mexico	NNP|,|NNP	LOCATION|O|LOCATION	||				Toluca|Mexico	fb:part.toluca|fb:part.mexico
+1	0	fb:cell.200_m	200 m	200|m	200|m	CD|NN	NUMBER|O	200.0|	200.0				
+1	1	fb:cell.20_36_0_3_m_s	20.36 (+0.3 m/s)	20.36|-lrb-|+0.3|m\\/s|-rrb-	20.36|-lrb-|+0.3|m\\/s|-rrb-	NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|NUMBER|O|O	20.36||0.3||	20.36		0.3	20.36 (+0.3 m|s)	fb:part.20_36_0_3_m|fb:part.s
+1	2	fb:cell.jose_carlos_herrera	José Carlos Herrera	josé|carlos|herrera	José|Carlos|Herrera	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				José Carlos Herrera	fb:part.jose_carlos_herrera
+1	3	fb:cell.23_march_2014	23 March 2014	23|march|2014	23|March|2014	CD|NNP|CD	DATE|DATE|DATE	2014-03-23|2014-03-23|2014-03-23	23.0	2014-03-23	2014.0	23 March 2014	fb:part.23_march_2014
+1	4	fb:cell.relevos_del_tec	Relevos del Tec	relevos|del|tec	Relevos|del|tec	NNP|NNP|NN	O|O|O	||				Relevos del Tec	fb:part.relevos_del_tec
+1	5	fb:cell.monterrey_mexico	Monterrey, Mexico	monterrey|,|mexico	Monterrey|,|Mexico	NNP|,|NNP	LOCATION|O|LOCATION	||				Monterrey|Mexico	fb:part.monterrey|fb:part.mexico
+2	0	fb:cell.300_m	300 m	300|m	300|m	CD|NN	NUMBER|O	300.0|	300.0				
+2	1	fb:cell.32_87	32.87	32.87	32.87	CD	NUMBER	32.87	32.87			32.87	fb:part.32_87
+2	2	fb:cell.juan_pedro_toledo	Juan Pedro Toledo	juan|pedro|toledo	Juan|Pedro|Toledo	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Juan Pedro Toledo	fb:part.juan_pedro_toledo
+2	3	fb:cell.14_september_2000	14 September 2000	14|september|2000	14|September|2000	CD|NNP|CD	DATE|DATE|DATE	2000-09-14|2000-09-14|2000-09-14	14.0	2000-09-14	2000.0	14 September 2000	fb:part.14_september_2000
+2	4	fb:cell.null											fb:part.null
+2	5	fb:cell.sydney_australia	Sydney, Australia	sydney|,|australia	Sydney|,|Australia	NNP|,|NNP	LOCATION|O|LOCATION	||				Sydney|Australia	fb:part.sydney|fb:part.australia
+3	0	fb:cell.400_m	400 m	400|m	400|m	CD|NN	NUMBER|O	400.0|	400.0				
+3	1	fb:cell.44_31	44.31	44.31	44.31	CD	NUMBER	44.31	44.31			44.31	fb:part.44_31
+3	2	fb:cell.alejandro_cardenas	Alejandro Cárdenas	alejandro|cárdenas	Alejandro|Cárdenas	NNP|NNP	PERSON|PERSON	|				Alejandro Cárdenas	fb:part.alejandro_cardenas
+3	3	fb:cell.26_august_1999	26 August 1999	26|august|1999	26|August|1999	CD|NNP|CD	DATE|DATE|DATE	1999-08-26|1999-08-26|1999-08-26	26.0	1999-08-26	1999.0	26 August 1999	fb:part.26_august_1999
+3	4	fb:cell.world_championships	World Championships	world|championships	World|Championships	NNP|NNP	MISC|MISC	|				World Championships	fb:part.world_championships
+3	5	fb:cell.seville_spain	Seville, Spain	seville|,|spain	Seville|,|Spain	NNP|,|NNP	LOCATION|O|LOCATION	||				Seville|Spain	fb:part.seville|fb:part.spain
+4	0	fb:cell.800_m	800 m	800|m	800|m	CD|NN	NUMBER|O	800.0|	800.0				
+4	1	fb:cell.1_45_88	1:45.88	1:45.88	1:45.88	CD	TIME	T01:45	1.0		45.88	1:45.88	fb:part.1_45_88
+4	2	fb:cell.james_eichberger	James Eichberger	james|eichberger	James|Eichberger	NNP|NNP	PERSON|PERSON	|				James Eichberger	fb:part.james_eichberger
+4	3	fb:cell.27_july_2013	27 July 2013	27|july|2013	27|July|2013	CD|NNP|CD	DATE|DATE|DATE	2013-07-27|2013-07-27|2013-07-27	27.0	2013-07-27	2013.0	27 July 2013	fb:part.27_july_2013
+4	4	fb:cell.memorial_rasschaert_flanders_cup	Memorial Rasschaert – Flanders Cup	memorial|rasschaert|--|flanders|cup	memorial|rasschaert|--|Flanders|Cup	NN|NN|:|NNP|NNP	O|O|O|MISC|MISC	||||				Memorial Rasschaert – Flanders Cup	fb:part.memorial_rasschaert_flanders_cup
+4	5	fb:cell.ninove_belgium	Ninove, Belgium	ninove|,|belgium	Ninove|,|Belgium	NNP|,|NNP	O|O|LOCATION	||				Ninove|Belgium	fb:part.ninove|fb:part.belgium
+5	0	fb:cell.1500_m	1500 m	1500|m	1500|m	CD|NN	DATE|O	1500|	1500.0				
+5	1	fb:cell.3_36_67	3:36.67	3:36.67	3:36.67	CD	TIME	T03:36	3.0		36.67	3:36.67	fb:part.3_36_67
+5	2	fb:cell.pablo_solares	Pablo Solares	pablo|solares	Pablo|Solares	NNP|NNP	PERSON|PERSON	|				Pablo Solares	fb:part.pablo_solares
+5	3	fb:cell.30_may_2009	30 May 2009	30|may|2009	30|May|2009	CD|VBD-AUX|CD	DATE|DATE|DATE	2009-05-30|2009-05-30|2009-05-30	30.0	2009-05-30	2009.0	30 May 2009	fb:part.30_may_2009
+5	4	fb:cell.reebok_grand_prix	Reebok Grand Prix	reebok|grand|prix	Reebok|Grand|Prix	NNP|NNP|NNP	ORGANIZATION|O|O	||				Reebok Grand Prix	fb:part.reebok_grand_prix
+5	5	fb:cell.new_york_city_united_states	New York City, United States	new|york|city|,|united|states	New|York|City|,|United|States	NNP|NNP|NNP|,|NNP|NNPS	LOCATION|LOCATION|LOCATION|O|LOCATION|LOCATION	|||||				New York City|United States	fb:part.new_york_city|fb:part.united_states
+6	0	fb:cell.mile	Mile	mile	Mile	NNP	O						
+6	1	fb:cell.3_58_18	3:58.18	3:58.18	3:58.18	CD	TIME	T03:58	3.0		58.18	3:58.18	fb:part.3_58_18
+6	2	fb:cell.juan_luis_barrios	Juan Luis Barrios	juan|luis|barrios	Juan|Luis|Barrios	NNP|NNP|NNPS	PERSON|PERSON|PERSON	||				Juan Luis Barrios	fb:part.juan_luis_barrios
+6	3	fb:cell.15_april_2007	15 April 2007	15|april|2007	15|April|2007	CD|NNP|CD	DATE|DATE|DATE	2007-04-15|2007-04-15|2007-04-15	15.0	2007-04-15	2007.0	15 April 2007	fb:part.15_april_2007
+6	4	fb:cell.mt_sac_relays	Mt. SAC Relays	mt.|sac|relays	Mt.|sac|relay	NNP|NN|NNS	O|O|O	||				Mt. SAC Relays	fb:part.mt_sac_relays
+6	5	fb:cell.walnut_united_states	Walnut, United States	walnut|,|united|states	Walnut|,|United|States	NNP|,|NNP|NNPS	O|O|LOCATION|LOCATION	|||				Walnut|United States	fb:part.walnut|fb:part.united_states
+7	0	fb:cell.2000_m	2000 m	2000|m	2000|m	CD|NN	DATE|O	2000|	2000.0				
+7	1	fb:cell.5_03_4	5:03.4+ #	5:03.4|+|#	5:03.4|+|#	NN|CC|#	TIME|O|O	T05:03||	5.0		3.4	5:03.4+ #	fb:part.5_03_4
+7	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+7	3	fb:cell.10_july_1989	10 July 1989	10|july|1989	10|July|1989	CD|NNP|CD	DATE|DATE|DATE	1989-07-10|1989-07-10|1989-07-10	10.0	1989-07-10	1989.0	10 July 1989	fb:part.10_july_1989
+7	4	fb:cell.null											fb:part.null
+7	5	fb:cell.nice_france	Nice, France	nice|,|france	nice|,|France	JJ|,|NNP	O|O|LOCATION	||				Nice|France	fb:part.nice|fb:part.france
+8	0	fb:cell.3000_m	3000 m	3000|m	3000|m	CD|NN	NUMBER|O	3000.0|	3000.0				
+8	1	fb:cell.7_35_71	7:35.71	7:35.71	7:35.71	CD	TIME	T07:35	7.0		35.71	7:35.71	fb:part.7_35_71
+8	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+8	3	fb:cell.10_july_1989	10 July 1989	10|july|1989	10|July|1989	CD|NNP|CD	DATE|DATE|DATE	1989-07-10|1989-07-10|1989-07-10	10.0	1989-07-10	1989.0	10 July 1989	fb:part.10_july_1989
+8	4	fb:cell.null											fb:part.null
+8	5	fb:cell.nice_france	Nice, France	nice|,|france	nice|,|France	JJ|,|NNP	O|O|LOCATION	||				Nice|France	fb:part.nice|fb:part.france
+9	0	fb:cell.two_miles	Two miles	two|miles	two|mile	CD|NNS	NUMBER|O	2.0|					
+9	1	fb:cell.8_23_81	8:23.81	8:23.81	8:23.81	CD	TIME	T08:23	8.0		23.81	8:23.81	fb:part.8_23_81
+9	2	fb:cell.juan_luis_barrios	Juan Luis Barrios	juan|luis|barrios	Juan|Luis|Barrios	NNP|NNP|NNPS	PERSON|PERSON|PERSON	||				Juan Luis Barrios	fb:part.juan_luis_barrios
+9	3	fb:cell.10_june_2007	10 June 2007	10|june|2007	10|June|2007	CD|NNP|CD	DATE|DATE|DATE	2007-06-10|2007-06-10|2007-06-10	10.0	2007-06-10	2007.0	10 June 2007	fb:part.10_june_2007
+9	4	fb:cell.prefontaine_classic	Prefontaine Classic	prefontaine|classic	Prefontaine|Classic	NNP|NNP	MISC|MISC	|				Prefontaine Classic	fb:part.prefontaine_classic
+9	5	fb:cell.eugene_united_states	Eugene, United States	eugene|,|united|states	Eugene|,|United|States	NNP|,|NNP|NNPS	PERSON|O|LOCATION|LOCATION	|||				Eugene|United States	fb:part.eugene|fb:part.united_states
+10	0	fb:cell.5000_m	5000 m	5000|m	5000|m	CD|NN	NUMBER|O	5000.0|	5000.0				
+10	1	fb:cell.13_07_79	13:07.79	13:07.79	13:07.79	CD	TIME	T13:07	13.0		7.79	13:07.79	fb:part.13_07_79
+10	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+10	3	fb:cell.14_july_1989	14 July 1989	14|july|1989	14|July|1989	CD|NNP|CD	DATE|DATE|DATE	1989-07-14|1989-07-14|1989-07-14	14.0	1989-07-14	1989.0	14 July 1989	fb:part.14_july_1989
+10	4	fb:cell.null											fb:part.null
+10	5	fb:cell.london_united_kingdom	London, United Kingdom	london|,|united|kingdom	London|,|United|Kingdom	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				London|United Kingdom	fb:part.london|fb:part.united_kingdom
+11	0	fb:cell.10000_m	10000 m	10000|m	10000|m	CD|NN	NUMBER|O	10000.0|	10000.0				
+11	1	fb:cell.27_08_23	27:08.23	27:08.23	27:08.23	CD	NUMBER		27.0		8.23	27:08.23	fb:part.27_08_23
+11	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+11	3	fb:cell.18_august_1989	18 August 1989	18|august|1989	18|August|1989	CD|NNP|CD	DATE|DATE|DATE	1989-08-18|1989-08-18|1989-08-18	18.0	1989-08-18	1989.0	18 August 1989	fb:part.18_august_1989
+11	4	fb:cell.istaf	ISTAF	istaf	istaf	NN	O					ISTAF	fb:part.istaf
+11	5	fb:cell.berlin_germany	Berlin, Germany	berlin|,|germany	Berlin|,|Germany	NNP|,|NNP	LOCATION|O|LOCATION	||				Berlin|Germany	fb:part.berlin|fb:part.germany
+12	0	fb:cell.10_km_road	10 km (road)	10|km|-lrb-|road|-rrb-	10|km|-lrb-|road|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	10.0||||	10.0				
+12	1	fb:cell.27_41	27:41 #	27:41|#	27:41|#	CD|#	MONEY|MONEY	|	27.0		41.0	27:41 #	fb:part.27_41
+12	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+12	3	fb:cell.1_march_1986	1 March 1986	1|march|1986	1|March|1986	CD|NNP|CD	DATE|DATE|DATE	1986-03-01|1986-03-01|1986-03-01	1.0	1986-03-01	1986.0	1 March 1986	fb:part.1_march_1986
+12	4	fb:cell.continental_homes_10k	Continental Homes 10K	continental|homes|10k	Continental|Homes|10k	NNP|NNPS|CD	O|O|NUMBER	||10.0	10.0			Continental Homes 10K	fb:part.continental_homes_10k
+12	5	fb:cell.phoenix_united_states	Phoenix, United States	phoenix|,|united|states	Phoenix|,|United|States	NNP|,|NNP|NNPS	LOCATION|O|LOCATION|LOCATION	|||				Phoenix|United States	fb:part.phoenix|fb:part.united_states
+13	0	fb:cell.15_km_road	15 km (road)	15|km|-lrb-|road|-rrb-	15|km|-lrb-|road|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	15.0||||	15.0				
+13	1	fb:cell.42_36	42:36 #	42:36|#	42:36|#	CD|#	MONEY|MONEY	|	42.0		36.0	42:36 #	fb:part.42_36
+13	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+13	3	fb:cell.29_june_1986	29 June 1986	29|june|1986	29|June|1986	CD|NNP|CD	DATE|DATE|DATE	1986-06-29|1986-06-29|1986-06-29	29.0	1986-06-29	1986.0	29 June 1986	fb:part.29_june_1986
+13	4	fb:cell.cascade_run_off	Cascade Run Off	cascade|run|off	Cascade|Run|off	NNP|NNP|IN	MISC|MISC|MISC	||				Cascade Run Off	fb:part.cascade_run_off
+13	5	fb:cell.portland_united_states	Portland, United States	portland|,|united|states	Portland|,|United|States	NNP|,|NNP|NNPS	LOCATION|O|LOCATION|LOCATION	|||				Portland|United States	fb:part.portland|fb:part.united_states
+14	0	fb:cell.20000_m_track	20000 m (track)	20000|m|-lrb-|track|-rrb-	20000|m|-lrb-|track|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	20000.0||||	20000.0				
+14	1	fb:cell.56_55_6	56:55.6	56:55.6	56:55.6	CD	NUMBER		56.0		55.6	56:55.6	fb:part.56_55_6
+14	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+14	3	fb:cell.30_march_1991	30 March 1991	30|march|1991	30|March|1991	CD|NNP|CD	DATE|DATE|DATE	1991-03-30|1991-03-30|1991-03-30	30.0	1991-03-30	1991.0	30 March 1991	fb:part.30_march_1991
+14	4	fb:cell.null											fb:part.null
+14	5	fb:cell.la_fleche_france	La Fleche, France	la|fleche|,|france	La|Fleche|,|France	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				La Fleche|France	fb:part.la_fleche|fb:part.france
+15	0	fb:cell.20_km_road	20 km (road)	20|km|-lrb-|road|-rrb-	20|km|-lrb-|road|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	20.0||||	20.0				
+15	1	fb:cell.58_26	58:26+ #	58:26|+|#	58:26|+|#	NN|CC|#	O|O|O	||	58.0		26.0	58:26+ #	fb:part.58_26
+15	2	fb:cell.juan_carlos_romero	Juan Carlos Romero	juan|carlos|romero	Juan|Carlos|Romero	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Juan Carlos Romero	fb:part.juan_carlos_romero
+15	3	fb:cell.11_october_2009	11 October 2009	11|october|2009	11|October|2009	CD|NNP|CD	DATE|DATE|DATE	2009-10-11|2009-10-11|2009-10-11	11.0	2009-10-11	2009.0	11 October 2009	fb:part.11_october_2009
+15	4	fb:cell.world_half_marathon_championships	World Half Marathon Championships	world|half|marathon|championships	World|half|Marathon|Championships	NNP|NN|NNP|NNP	MISC|MISC|MISC|MISC	|||				World Half Marathon Championships	fb:part.world_half_marathon_championships
+15	5	fb:cell.birmingham_united_kingdom	Birmingham, United Kingdom	birmingham|,|united|kingdom	Birmingham|,|United|Kingdom	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				Birmingham|United Kingdom	fb:part.birmingham|fb:part.united_kingdom
+16	0	fb:cell.one_hour	One hour	one|hour	one|hour	CD|NN	DURATION|DURATION	|					
+16	1	fb:cell.21101_m	21101 m	21101|m	21101|m	CD|NN	NUMBER|O	21101.0|	21101.0			21101 m	fb:part.21101_m
+16	2	fb:cell.arturo_barrios	Arturo Barrios	arturo|barrios	Arturo|Barrios	NNP|NNPS	PERSON|PERSON	|				Arturo Barrios	fb:part.arturo_barrios
+16	3	fb:cell.30_march_1991	30 March 1991	30|march|1991	30|March|1991	CD|NNP|CD	DATE|DATE|DATE	1991-03-30|1991-03-30|1991-03-30	30.0	1991-03-30	1991.0	30 March 1991	fb:part.30_march_1991
+16	4	fb:cell.null											fb:part.null
+16	5	fb:cell.la_fleche_france	La Fleche, France	la|fleche|,|france	La|Fleche|,|France	NNP|NNP|,|NNP	O|O|O|LOCATION	|||				La Fleche|France	fb:part.la_fleche|fb:part.france
+17	0	fb:cell.half_marathon	Half marathon	half|marathon	half|marathon	NN|NN	O|O	|					
+17	1	fb:cell.1_00_14_a	1:00:14 a #	1:00:14|a|#	1:00:14|a|#	CD|DT|#	TIME|O|O	T01:00:14||	1.0		0.0	1:00:14 a #	fb:part.1_00_14_a
+17	2	fb:cell.armando_quintanilla	Armando Quintanilla	armando|quintanilla	Armando|Quintanilla	NNP|NNP	PERSON|PERSON	|				Armando Quintanilla	fb:part.armando_quintanilla
+17	3	fb:cell.21_january_1996	21 January 1996	21|january|1996	21|January|1996	CD|NNP|CD	DATE|DATE|DATE	1996-01-21|1996-01-21|1996-01-21	21.0	1996-01-21	1996.0	21 January 1996	fb:part.21_january_1996
+17	4	fb:cell.tokyo_half_marathon	Tokyo Half Marathon	tokyo|half|marathon	Tokyo|half|Marathon	NNP|NN|NNP	LOCATION|O|O	||				Tokyo Half Marathon	fb:part.tokyo_half_marathon
+17	5	fb:cell.tokyo_japan	Tokyo, Japan	tokyo|,|japan	Tokyo|,|Japan	NNP|,|NNP	LOCATION|O|LOCATION	||				Tokyo|Japan	fb:part.tokyo|fb:part.japan
+18	0	fb:cell.half_marathon	Half marathon	half|marathon	half|marathon	NN|NN	O|O	|					
+18	1	fb:cell.1_00_28	1:00:28 #	1:00:28|#	1:00:28|#	CD|#	MONEY|MONEY	|	1.0		0.0	1:00:28 #	fb:part.1_00_28
+18	2	fb:cell.german_silva	Germán Silva	germán|silva	Germán|Silva	NNP|NNP	PERSON|PERSON	|				Germán Silva	fb:part.german_silva
+18	3	fb:cell.24_september_1994	24 September 1994	24|september|1994	24|September|1994	CD|NNP|CD	DATE|DATE|DATE	1994-09-24|1994-09-24|1994-09-24	24.0	1994-09-24	1994.0	24 September 1994	fb:part.24_september_1994
+18	4	fb:cell.world_half_marathon_championships	World Half Marathon Championships	world|half|marathon|championships	World|half|Marathon|Championships	NNP|NN|NNP|NNP	MISC|MISC|MISC|MISC	|||				World Half Marathon Championships	fb:part.world_half_marathon_championships
+18	5	fb:cell.oslo_norway	Oslo, Norway	oslo|,|norway	Oslo|,|Norway	NNP|,|NNP	LOCATION|O|LOCATION	||				Oslo|Norway	fb:part.oslo|fb:part.norway
+19	0	fb:cell.25_km_road	25 km (road)	25|km|-lrb-|road|-rrb-	25|km|-lrb-|road|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	25.0||||	25.0				
+19	1	fb:cell.1_16_26	1:16:26+	1:16:26|+	1:16:26|+	CD|CC	TIME|O	T01:16:26|	1.0		16.0	1:16:26+	fb:part.1_16_26
+19	2	fb:cell.andres_espinosa	Andrés Espinosa	andrés|espinosa	Andrés|Espinosa	NNP|NNP	PERSON|PERSON	|				Andrés Espinosa	fb:part.andres_espinosa
+19	3	fb:cell.28_september_2003	28 September 2003	28|september|2003	28|September|2003	CD|NNP|CD	DATE|DATE|DATE	2003-09-28|2003-09-28|2003-09-28	28.0	2003-09-28	2003.0	28 September 2003	fb:part.28_september_2003
+19	4	fb:cell.berlin_marathon	Berlin Marathon	berlin|marathon	Berlin|Marathon	NNP|NNP	LOCATION|LOCATION	|				Berlin Marathon	fb:part.berlin_marathon
+19	5	fb:cell.berlin_berlin	Berlin, Berlin	berlin|,|berlin	Berlin|,|Berlin	NNP|,|NNP	LOCATION|O|LOCATION	||				Berlin|Berlin	fb:part.berlin|fb:part.berlin
+20	0	fb:cell.25_km_road	25 km (road)	25|km|-lrb-|road|-rrb-	25|km|-lrb-|road|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	25.0||||	25.0				
+20	1	fb:cell.1_14_54	1:14:54+ #	1:14:54|+|#	1:14:54|+|#	CD|CC|#	TIME|O|O	T01:14:54||	1.0		14.0	1:14:54+ #	fb:part.1_14_54
+20	2	fb:cell.juan_luis_barrios	Juan Luis Barrios	juan|luis|barrios	Juan|Luis|Barrios	NNP|NNP|NNPS	PERSON|PERSON|PERSON	||				Juan Luis Barrios	fb:part.juan_luis_barrios
+20	3	fb:cell.6_march_2011	6 March 2011	6|march|2011	6|March|2011	CD|NNP|CD	DATE|DATE|DATE	2011-03-06|2011-03-06|2011-03-06	6.0	2011-03-06	2011.0	6 March 2011	fb:part.6_march_2011
+20	4	fb:cell.lala_marathon	Lala Marathon	lala|marathon	Lala|Marathon	NNP|NNP	PERSON|PERSON	|				Lala Marathon	fb:part.lala_marathon
+20	5	fb:cell.torreon_mexico	Torreón, Mexico	torreón|,|mexico	Torreón|,|Mexico	NNP|,|NNP	O|O|LOCATION	||				Torreón|Mexico	fb:part.torreon|fb:part.mexico
+21	0	fb:cell.30_km_road	30 km (road)	30|km|-lrb-|road|-rrb-	30|km|-lrb-|road|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	30.0||||	30.0				
+21	1	fb:cell.1_30_19	1:30:19+	1:30:19|+	1:30:19|+	CD|CC	TIME|O	T01:30:19|	1.0		30.0	1:30:19+	fb:part.1_30_19
+21	2	fb:cell.juan_luis_barrios	Juan Luis Barrios	juan|luis|barrios	Juan|Luis|Barrios	NNP|NNP|NNPS	PERSON|PERSON|PERSON	||				Juan Luis Barrios	fb:part.juan_luis_barrios
+21	3	fb:cell.6_march_2011	6 March 2011	6|march|2011	6|March|2011	CD|NNP|CD	DATE|DATE|DATE	2011-03-06|2011-03-06|2011-03-06	6.0	2011-03-06	2011.0	6 March 2011	fb:part.6_march_2011
+21	4	fb:cell.lala_marathon	Lala Marathon	lala|marathon	Lala|Marathon	NNP|NNP	PERSON|PERSON	|				Lala Marathon	fb:part.lala_marathon
+21	5	fb:cell.torreon_mexico	Torreón, Mexico	torreón|,|mexico	Torreón|,|Mexico	NNP|,|NNP	O|O|LOCATION	||				Torreón|Mexico	fb:part.torreon|fb:part.mexico
+22	0	fb:cell.30_km_road	30 km (road)	30|km|-lrb-|road|-rrb-	30|km|-lrb-|road|-rrb-	CD|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	30.0||||	30.0				
+22	1	fb:cell.1_31_46	1:31:46+ #	1:31:46|+|#	1:31:46|+|#	CD|CC|#	TIME|O|O	T01:31:46||	1.0		31.0	1:31:46+ #	fb:part.1_31_46
+22	2	fb:cell.andres_espinosa	Andrés Espinosa	andrés|espinosa	Andrés|Espinosa	NNP|NNP	PERSON|PERSON	|				Andrés Espinosa	fb:part.andres_espinosa
+22	3	fb:cell.28_september_2003	28 September 2003	28|september|2003	28|September|2003	CD|NNP|CD	DATE|DATE|DATE	2003-09-28|2003-09-28|2003-09-28	28.0	2003-09-28	2003.0	28 September 2003	fb:part.28_september_2003
+22	4	fb:cell.berlin_marathon	Berlin Marathon	berlin|marathon	Berlin|Marathon	NNP|NNP	LOCATION|LOCATION	|				Berlin Marathon	fb:part.berlin_marathon
+22	5	fb:cell.berlin_germany	Berlin, Germany	berlin|,|germany	Berlin|,|Germany	NNP|,|NNP	LOCATION|O|LOCATION	||				Berlin|Germany	fb:part.berlin|fb:part.germany
+23	0	fb:cell.marathon	Marathon	marathon	Marathon	NNP	O						
+23	1	fb:cell.2_07_19_a	2:07:19 a	2:07:19|a	2:07:19|a	CD|DT	TIME|O	T02:07:19|	2.0		7.0	2:07:19 a	fb:part.2_07_19_a
+23	2	fb:cell.andres_espinosa	Andrés Espinosa	andrés|espinosa	Andrés|Espinosa	NNP|NNP	PERSON|PERSON	|				Andrés Espinosa	fb:part.andres_espinosa
+23	3	fb:cell.18_april_1994	18 April 1994	18|april|1994	18|April|1994	CD|NNP|CD	DATE|DATE|DATE	1994-04-18|1994-04-18|1994-04-18	18.0	1994-04-18	1994.0	18 April 1994	fb:part.18_april_1994
+23	4	fb:cell.boston_marathon	Boston Marathon	boston|marathon	Boston|Marathon	NNP|NNP	LOCATION|LOCATION	|				Boston Marathon	fb:part.boston_marathon
+23	5	fb:cell.boston_united_states	Boston, United States	boston|,|united|states	Boston|,|United|States	NNP|,|NNP|NNPS	LOCATION|O|LOCATION|LOCATION	|||				Boston|United States	fb:part.boston|fb:part.united_states
+24	0	fb:cell.marathon	Marathon	marathon	Marathon	NNP	O						
+24	1	fb:cell.2_08_30	2:08:30 #	2:08:30|#	2:08:30|#	CD|#	MONEY|MONEY	|	2.0		8.0	2:08:30 #	fb:part.2_08_30
+24	2	fb:cell.dionicio_ceron_pizarro	Dionicio Cerón Pizarro	dionicio|cerón|pizarro	Dionicio|Cerón|Pizarro	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Dionicio Cerón Pizarro	fb:part.dionicio_ceron_pizarro
+24	3	fb:cell.2_april_1995	2 April 1995	2|april|1995	2|April|1995	CD|NNP|CD	DATE|DATE|DATE	1995-04-02|1995-04-02|1995-04-02	2.0	1995-04-02	1995.0	2 April 1995	fb:part.2_april_1995
+24	4	fb:cell.london_marathon	London Marathon	london|marathon	London|Marathon	NNP|NNP	LOCATION|LOCATION	|				London Marathon	fb:part.london_marathon
+24	5	fb:cell.london_united_kingdom	London, United Kingdom	london|,|united|kingdom	London|,|United|Kingdom	NNP|,|NNP|NNP	LOCATION|O|LOCATION|LOCATION	|||				London|United Kingdom	fb:part.london|fb:part.united_kingdom
+25	0	fb:cell.110_m_hurdles	110 m hurdles	110|m|hurdles	110|m|hurdle	CD|NN|NNS	NUMBER|O|O	110.0||	110.0				
+25	1	fb:cell.13_81_0_8_m_s	13.81 (+0.8 m/s)	13.81|-lrb-|+0.8|m\\/s|-rrb-	13.81|-lrb-|+0.8|m\\/s|-rrb-	CD|-LRB-|CD|NNS|-RRB-	NUMBER|O|NUMBER|O|O	13.81||0.8||	13.81		0.8	13.81 (+0.8 m|s)	fb:part.13_81_0_8_m|fb:part.s
+25	2	fb:cell.roberto_carmona	Roberto Carmona	roberto|carmona	Roberto|Carmona	NNP|NNP	PERSON|PERSON	|				Roberto Carmona	fb:part.roberto_carmona
+25	3	fb:cell.22_july_1988	22 July 1988	22|july|1988	22|July|1988	CD|NNP|CD	DATE|DATE|DATE	1988-07-22|1988-07-22|1988-07-22	22.0	1988-07-22	1988.0	22 July 1988	fb:part.22_july_1988
+25	4	fb:cell.ibero_american_championships	Ibero-American Championships	ibero|american|championships	Ibero|American|Championships	NNP|NNP|NNP	MISC|MISC|MISC	||				Ibero-American Championships	fb:part.ibero_american_championships
+25	5	fb:cell.mexico_city_mexico	Mexico City, Mexico	mexico|city|,|mexico	Mexico|City|,|Mexico	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Mexico City|Mexico	fb:part.mexico_city|fb:part.mexico
+26	0	fb:cell.400_m_hurdles	400 m hurdles	400|m|hurdles	400|m|hurdle	CD|NN|NNS	NUMBER|O|O	400.0||	400.0				
+26	1	fb:cell.49_41	49.41	49.41	49.41	CD	NUMBER	49.41	49.41			49.41	fb:part.49_41
+26	2	fb:cell.jesus_aguilasocho	Jesús Aguilasocho	jesús|aguilasocho	Jesús|Aguilasocho	NNP|NNP	PERSON|PERSON	|				Jesús Aguilasocho	fb:part.jesus_aguilasocho
+26	3	fb:cell.20_september_1985	20 September 1985	20|september|1985	20|September|1985	CD|NNP|CD	DATE|DATE|DATE	1985-09-20|1985-09-20|1985-09-20	20.0	1985-09-20	1985.0	20 September 1985	fb:part.20_september_1985
+26	4	fb:cell.copa_de_las_americas	Copa de las Américas	copa|de|las|américas	Copa|de|las|américas	NNP|IN|FW|FW	O|O|O|O	|||				Copa de las Américas	fb:part.copa_de_las_americas
+26	5	fb:cell.san_juan_puerto_rico	San Juan, Puerto Rico	san|juan|,|puerto|rico	San|Juan|,|Puerto|Rico	NNP|NNP|,|NNP|NNP	LOCATION|LOCATION|O|LOCATION|LOCATION	||||				San Juan|Puerto Rico	fb:part.san_juan|fb:part.puerto_rico
+27	0	fb:cell.3000_m_steeplechase	3000 m steeplechase	3000|m|steeplechase	3000|m|steeplechase	CD|NN|NN	NUMBER|O|O	3000.0||	3000.0				
+27	1	fb:cell.8_25_69	8:25.69	8:25.69	8:25.69	CD	TIME	T08:25	8.0		25.69	8:25.69	fb:part.8_25_69
+27	2	fb:cell.salvador_miranda	Salvador Miranda	salvador|miranda	Salvador|Miranda	NNP|NNP	PERSON|PERSON	|				Salvador Miranda	fb:part.salvador_miranda
+27	3	fb:cell.8_july_2000	8 July 2000	8|july|2000	8|July|2000	CD|NNP|CD	DATE|DATE|DATE	2000-07-08|2000-07-08|2000-07-08	8.0	2000-07-08	2000.0	8 July 2000	fb:part.8_july_2000
+27	4	fb:cell.encuentro_nacional_de_fondo	Encuentro Nacional de Fondo	encuentro|nacional|de|fondo	Encuentro|Nacional|de|Fondo	NNP|NNP|IN|NNP	PERSON|PERSON|PERSON|PERSON	|||				Encuentro Nacional de Fondo	fb:part.encuentro_nacional_de_fondo
+27	5	fb:cell.barakaldo_spain	Barakaldo, Spain	barakaldo|,|spain	Barakaldo|,|Spain	NNP|,|NNP	PERSON|O|LOCATION	||				Barakaldo|Spain	fb:part.barakaldo|fb:part.spain
+28	0	fb:cell.high_jump	High jump	high|jump	high|jump	JJ|NN	O|O	|					
+28	1	fb:cell.2_30_m	2.30 m	2.30|m	2.30|m	CD|NN	NUMBER|O	2.3|	2.3			2.30 m	fb:part.2_30_m
+28	2	fb:cell.gerardo_martinez	Gerardo Martinez	gerardo|martinez	Gerardo|Martinez	NNP|NNP	PERSON|PERSON	|				Gerardo Martinez	fb:part.gerardo_martinez
+28	3	fb:cell.15_april_2007	15 April 2007	15|april|2007	15|April|2007	CD|NNP|CD	DATE|DATE|DATE	2007-04-15|2007-04-15|2007-04-15	15.0	2007-04-15	2007.0	15 April 2007	fb:part.15_april_2007
+28	4	fb:cell.mt_sac_relays	Mt. SAC Relays	mt.|sac|relays	Mt.|sac|relay	NNP|NN|NNS	O|O|O	||				Mt. SAC Relays	fb:part.mt_sac_relays
+28	5	fb:cell.walnut_united_states	Walnut, United States	walnut|,|united|states	Walnut|,|United|States	NNP|,|NNP|NNPS	O|O|LOCATION|LOCATION	|||				Walnut|United States	fb:part.walnut|fb:part.united_states
+29	0	fb:cell.pole_vault	Pole vault	pole|vault	Pole|vault	NNP|NN	O|O	|					
+29	1	fb:cell.5_82_m	5.82 m	5.82|m	5.82|m	CD|NN	NUMBER|O	5.82|	5.82			5.82 m	fb:part.5_82_m
+29	2	fb:cell.giovanni_lanaro	Giovanni Lanaro	giovanni|lanaro	Giovanni|Lanaro	NNP|NNP	PERSON|PERSON	|				Giovanni Lanaro	fb:part.giovanni_lanaro
+29	3	fb:cell.15_april_2007	15 April 2007	15|april|2007	15|April|2007	CD|NNP|CD	DATE|DATE|DATE	2007-04-15|2007-04-15|2007-04-15	15.0	2007-04-15	2007.0	15 April 2007	fb:part.15_april_2007
+29	4	fb:cell.mt_sac_relays	Mt. SAC Relays	mt.|sac|relays	Mt.|sac|relay	NNP|NN|NNS	O|O|O	||				Mt. SAC Relays	fb:part.mt_sac_relays
+29	5	fb:cell.walnut_united_states	Walnut, United States	walnut|,|united|states	Walnut|,|United|States	NNP|,|NNP|NNPS	O|O|LOCATION|LOCATION	|||				Walnut|United States	fb:part.walnut|fb:part.united_states
+30	0	fb:cell.long_jump	Long jump	long|jump	long|jump	JJ|NN	O|O	|					
+30	1	fb:cell.8_46_m_1_3_m_s	8.46 m (+1.3 m/s)	8.46|m|-lrb-|+1.3|m\\/s|-rrb-	8.46|m|-lrb-|+1.3|m\\/s|-rrb-	CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O	8.46|||1.3||	8.46		1.3	8.46 m (+1.3 m|s)	fb:part.8_46_m_1_3_m|fb:part.s
+30	2	fb:cell.luis_rivera	Luis Rivera	luis|rivera	Luis|Rivera	NNP|NNP	PERSON|PERSON	|				Luis Rivera	fb:part.luis_rivera
+30	3	fb:cell.12_july_2013	12 July 2013	12|july|2013	12|July|2013	CD|NNP|CD	DATE|DATE|DATE	2013-07-12|2013-07-12|2013-07-12	12.0	2013-07-12	2013.0	12 July 2013	fb:part.12_july_2013
+30	4	fb:cell.universiade	Universiade	universiade	Universiade	NNP	O					Universiade	fb:part.universiade
+30	5	fb:cell.kazan_russia	Kazan, Russia	kazan|,|russia	Kazan|,|Russia	NNP|,|NNP	PERSON|O|LOCATION	||				Kazan|Russia	fb:part.kazan|fb:part.russia
+31	0	fb:cell.triple_jump	Triple jump	triple|jump	triple|jump	JJ|NN	O|O	|					
+31	1	fb:cell.16_63_m_0_1_m_s	16.63 m (-0.1 m/s)	16.63|m|-lrb-|-0.1|m\\/s|-rrb-	16.63|m|-lrb-|-0.1|m\\/s|-rrb-	CD|NN|-LRB-|CD|NNS|-RRB-	NUMBER|O|O|NUMBER|O|O	16.63|||-0.1||	16.63		0.1	16.63 m (-0.1 m|s)	fb:part.16_63_m_0_1_m|fb:part.s
+31	2	fb:cell.alberto_alvarez	Alberto Alvarez	alberto|alvarez	Alberto|Alvarez	NNP|NNP	PERSON|PERSON	|				Alberto Alvarez	fb:part.alberto_alvarez
+31	3	fb:cell.23_march_2014	23 March 2014	23|march|2014	23|March|2014	CD|NNP|CD	DATE|DATE|DATE	2014-03-23|2014-03-23|2014-03-23	23.0	2014-03-23	2014.0	23 March 2014	fb:part.23_march_2014
+31	4	fb:cell.relevos_del_tec	Relevos del Tec	relevos|del|tec	Relevos|del|tec	NNP|NNP|NN	O|O|O	||				Relevos del Tec	fb:part.relevos_del_tec
+31	5	fb:cell.monterrey_mexico	Monterrey, Mexico	monterrey|,|mexico	Monterrey|,|Mexico	NNP|,|NNP	LOCATION|O|LOCATION	||				Monterrey|Mexico	fb:part.monterrey|fb:part.mexico
+32	0	fb:cell.shot_put	Shot put	shot|put	shot|put	NN|VBD	O|O	|					
+32	1	fb:cell.19_91_m	19.91 m	19.91|m	19.91|m	CD|NN	NUMBER|O	19.91|	19.91			19.91 m	fb:part.19_91_m
+32	2	fb:cell.stephen_saenz	Stephen Saenz	stephen|saenz	Stephen|Saenz	NNP|NNP	PERSON|PERSON	|				Stephen Saenz	fb:part.stephen_saenz
+32	3	fb:cell.26_may_2012	26 May 2012	26|may|2012	26|May|2012	CD|VBD-AUX|CD	DATE|DATE|DATE	2012-05-26|2012-05-26|2012-05-26	26.0	2012-05-26	2012.0	26 May 2012	fb:part.26_may_2012
+32	4	fb:cell.ncaa_division_i_east_preliminary_round	NCAA Division I East Preliminary Round	ncaa|division|i|east|preliminary|round	NCAA|Division|I|East|preliminary|Round	NNP|NNP|NNP|NNP|JJ|NNP	ORGANIZATION|O|O|O|O|O	|||||				NCAA Division I East Preliminary Round	fb:part.ncaa_division_i_east_preliminary_round
+32	5	fb:cell.jacksonville_united_states	Jacksonville, United States	jacksonville|,|united|states	Jacksonville|,|United|States	NNP|,|NNP|NNPS	LOCATION|O|LOCATION|LOCATION	|||				Jacksonville|United States	fb:part.jacksonville|fb:part.united_states
+33	0	fb:cell.discus_throw	Discus throw	discus|throw	Discus|throw	NNP|VB	O|O	|					
+33	1	fb:cell.60_45_m	60.45 m	60.45|m	60.45|m	CD|NN	NUMBER|O	60.45|	60.45			60.45 m	fb:part.60_45_m
+33	2	fb:cell.mario_cota	Mario Cota	mario|cota	Mario|Cota	NNP|NNP	PERSON|PERSON	|				Mario Cota	fb:part.mario_cota
+33	3	fb:cell.20_april_2012	20 April 2012	20|april|2012	20|April|2012	CD|NNP|CD	DATE|DATE|DATE	2012-04-20|2012-04-20|2012-04-20	20.0	2012-04-20	2012.0	20 April 2012	fb:part.20_april_2012
+33	4	fb:cell.mt_sac_relays	Mt. SAC Relays	mt.|sac|relays	Mt.|sac|relay	NNP|NN|NNS	O|O|O	||				Mt. SAC Relays	fb:part.mt_sac_relays
+33	5	fb:cell.walnut_united_states	Walnut, United States	walnut|,|united|states	Walnut|,|United|States	NNP|,|NNP|NNPS	O|O|LOCATION|LOCATION	|||				Walnut|United States	fb:part.walnut|fb:part.united_states
+34	0	fb:cell.hammer_throw	Hammer throw	hammer|throw	Hammer|throw	NNP|VB	O|O	|					
+34	1	fb:cell.71_46_m	71.46 m	71.46|m	71.46|m	CD|NN	NUMBER|O	71.46|	71.46			71.46 m	fb:part.71_46_m
+34	2	fb:cell.guillermo_guzman	Guillermo Guzmán	guillermo|guzmán	Guillermo|Guzmán	NNP|NNP	PERSON|PERSON	|				Guillermo Guzmán	fb:part.guillermo_guzman
+34	3	fb:cell.14_june_1992	14 June 1992	14|june|1992	14|June|1992	CD|NNP|CD	DATE|DATE|DATE	1992-06-14|1992-06-14|1992-06-14	14.0	1992-06-14	1992.0	14 June 1992	fb:part.14_june_1992
+34	4	fb:cell.null											fb:part.null
+34	5	fb:cell.mexico_city_mexico	Mexico City, Mexico	mexico|city|,|mexico	Mexico|City|,|Mexico	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Mexico City|Mexico	fb:part.mexico_city|fb:part.mexico
+35	0	fb:cell.javelin_throw	Javelin throw	javelin|throw	Javelin|throw	NNP|VB	O|O	|					
+35	1	fb:cell.80_46_m	80.46 m	80.46|m	80.46|m	CD|NN	NUMBER|O	80.46|	80.46			80.46 m	fb:part.80_46_m
+35	2	fb:cell.juan_de_la_garza	Juan de la Garza	juan|de|la|garza	Juan|de|la|Garza	NNP|FW|FW|NNP	PERSON|PERSON|PERSON|PERSON	|||				Juan de la Garza	fb:part.juan_de_la_garza
+35	3	fb:cell.28_june_1992	28 June 1992	28|june|1992	28|June|1992	CD|NNP|CD	DATE|DATE|DATE	1992-06-28|1992-06-28|1992-06-28	28.0	1992-06-28	1992.0	28 June 1992	fb:part.28_june_1992
+35	4	fb:cell.null											fb:part.null
+35	5	fb:cell.mexico_city_mexico	Mexico City, Mexico	mexico|city|,|mexico	Mexico|City|,|Mexico	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Mexico City|Mexico	fb:part.mexico_city|fb:part.mexico
+36	0	fb:cell.decathlon	Decathlon	decathlon	decathlon	NN	O						
+36	1	fb:cell.7614_pts_ht	7614 pts (ht)	7614|pts|-lrb-|ht|-rrb-	7614|pt|-lrb-|ht|-rrb-	CD|NNS|-LRB-|NN|-RRB-	NUMBER|O|O|O|O	7614.0||||	7614.0			7614 pts (ht)	fb:part.7614_pts_ht
+36	2	fb:cell.alejandro_cardenas	Alejandro Cárdenas	alejandro|cárdenas	Alejandro|Cárdenas	NNP|NNP	PERSON|PERSON	|				Alejandro Cárdenas	fb:part.alejandro_cardenas
+36	3	fb:cell.10_11_may_1996	10–11 May 1996	10|--|11|may|1996	10|--|11|May|1996	CD|:|CD|VBD-AUX|CD	NUMBER|O|DATE|DATE|DATE	10.0||1996-05-11|1996-05-11|1996-05-11	10.0		11.0	10–11 May 1996	fb:part.10_11_may_1996
+36	4	fb:cell.ibero_american_championships	Ibero-American Championships	ibero|american|championships	Ibero|American|Championships	NNP|NNP|NNP	MISC|MISC|MISC	||				Ibero-American Championships	fb:part.ibero_american_championships
+36	5	fb:cell.medellin_colombia	Medellín, Colombia	medellín|,|colombia	Medellín|,|Colombia	NNP|,|NNP	O|O|LOCATION	||				Medellín|Colombia	fb:part.medellin|fb:part.colombia
+37	0	fb:cell.decathlon	Decathlon	decathlon	decathlon	NN	O						
+37	1	fb:cell.10_2_0_1_m_s_100_m_7_72_m_1_3_m_s_long_jump_12_55_m_shot_put_1_74_m_high_jump_46_33_400_m_15_73_0_0_m_s_110_m_hurdles_38_32_m_discus_4_40_m_pole_vault_57_28_m_javelin_4_52_35_1500_m	10.2 (+0.1 m/s) (100 m), 7.72 m (+1.3 m/s) (long jump), 12.55 m (shot put), 1.74 m (high jump), 46.33 (400 m) /\n15.73 (0.0 m/s) (110 m hurdles), 38.32 m (discus), 4.40 m (pole vault), 57.28 m (javelin), 4:52.35 (1500 m)	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdles|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdle|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|-RRB-|,|CD|NN|-LRB-|CD|NNS|-RRB-|-LRB-|JJ|NN|-RRB-|,|CD|NN|-LRB-|NN|VBN|-RRB-|,|CD|NN|-LRB-|JJ|NN|-RRB-|,|NN|-LRB-|CD|NN|-RRB-|:|CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|NNS|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|NN|-LRB-|NN|NN|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|TIME|O|DATE|O|O	10.2||0.1||||100.0||||7.72|||1.3||||||||12.55|||||||1.74|||||||46.33||400.0||||15.73||0.0||||110.0|||||38.32||||||4.4|||||||57.28||||||T04:52||1500||	10.2		0.1	10.2 (+0.1 m|s) (100 m)|7.72 m (+1.3 m|s) (long jump)|12.55 m (shot put)|1.74 m (high jump)|46.33 (400 m)|15.73 (0.0 m|s) (110 m hurdles)|38.32 m (discus)|4.40 m (pole vault)|57.28 m (javelin)|4:52.35 (1500 m)	fb:part.10_2_0_1_m|fb:part.s_100_m|fb:part.7_72_m_1_3_m|fb:part.s_long_jump|fb:part.12_55_m_shot_put|fb:part.1_74_m_high_jump|fb:part.46_33_400_m|fb:part.15_73_0_0_m|fb:part.s_110_m_hurdles|fb:part.38_32_m_discus|fb:part.4_40_m_pole_vault|fb:part.57_28_m_javelin|fb:part.4_52_35_1500_m
+37	2	fb:cell.10_2_0_1_m_s_100_m_7_72_m_1_3_m_s_long_jump_12_55_m_shot_put_1_74_m_high_jump_46_33_400_m_15_73_0_0_m_s_110_m_hurdles_38_32_m_discus_4_40_m_pole_vault_57_28_m_javelin_4_52_35_1500_m	10.2 (+0.1 m/s) (100 m), 7.72 m (+1.3 m/s) (long jump), 12.55 m (shot put), 1.74 m (high jump), 46.33 (400 m) /\n15.73 (0.0 m/s) (110 m hurdles), 38.32 m (discus), 4.40 m (pole vault), 57.28 m (javelin), 4:52.35 (1500 m)	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdles|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdle|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|-RRB-|,|CD|NN|-LRB-|CD|NNS|-RRB-|-LRB-|JJ|NN|-RRB-|,|CD|NN|-LRB-|NN|VBN|-RRB-|,|CD|NN|-LRB-|JJ|NN|-RRB-|,|NN|-LRB-|CD|NN|-RRB-|:|CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|NNS|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|NN|-LRB-|NN|NN|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|TIME|O|DATE|O|O	10.2||0.1||||100.0||||7.72|||1.3||||||||12.55|||||||1.74|||||||46.33||400.0||||15.73||0.0||||110.0|||||38.32||||||4.4|||||||57.28||||||T04:52||1500||	10.2		0.1	10.2 (+0.1 m|s) (100 m)|7.72 m (+1.3 m|s) (long jump)|12.55 m (shot put)|1.74 m (high jump)|46.33 (400 m)|15.73 (0.0 m|s) (110 m hurdles)|38.32 m (discus)|4.40 m (pole vault)|57.28 m (javelin)|4:52.35 (1500 m)	fb:part.10_2_0_1_m|fb:part.s_100_m|fb:part.7_72_m_1_3_m|fb:part.s_long_jump|fb:part.12_55_m_shot_put|fb:part.1_74_m_high_jump|fb:part.46_33_400_m|fb:part.15_73_0_0_m|fb:part.s_110_m_hurdles|fb:part.38_32_m_discus|fb:part.4_40_m_pole_vault|fb:part.57_28_m_javelin|fb:part.4_52_35_1500_m
+37	3	fb:cell.10_2_0_1_m_s_100_m_7_72_m_1_3_m_s_long_jump_12_55_m_shot_put_1_74_m_high_jump_46_33_400_m_15_73_0_0_m_s_110_m_hurdles_38_32_m_discus_4_40_m_pole_vault_57_28_m_javelin_4_52_35_1500_m	10.2 (+0.1 m/s) (100 m), 7.72 m (+1.3 m/s) (long jump), 12.55 m (shot put), 1.74 m (high jump), 46.33 (400 m) /\n15.73 (0.0 m/s) (110 m hurdles), 38.32 m (discus), 4.40 m (pole vault), 57.28 m (javelin), 4:52.35 (1500 m)	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdles|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdle|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|-RRB-|,|CD|NN|-LRB-|CD|NNS|-RRB-|-LRB-|JJ|NN|-RRB-|,|CD|NN|-LRB-|NN|VBN|-RRB-|,|CD|NN|-LRB-|JJ|NN|-RRB-|,|NN|-LRB-|CD|NN|-RRB-|:|CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|NNS|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|NN|-LRB-|NN|NN|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|TIME|O|DATE|O|O	10.2||0.1||||100.0||||7.72|||1.3||||||||12.55|||||||1.74|||||||46.33||400.0||||15.73||0.0||||110.0|||||38.32||||||4.4|||||||57.28||||||T04:52||1500||	10.2		0.1	10.2 (+0.1 m|s) (100 m)|7.72 m (+1.3 m|s) (long jump)|12.55 m (shot put)|1.74 m (high jump)|46.33 (400 m)|15.73 (0.0 m|s) (110 m hurdles)|38.32 m (discus)|4.40 m (pole vault)|57.28 m (javelin)|4:52.35 (1500 m)	fb:part.10_2_0_1_m|fb:part.s_100_m|fb:part.7_72_m_1_3_m|fb:part.s_long_jump|fb:part.12_55_m_shot_put|fb:part.1_74_m_high_jump|fb:part.46_33_400_m|fb:part.15_73_0_0_m|fb:part.s_110_m_hurdles|fb:part.38_32_m_discus|fb:part.4_40_m_pole_vault|fb:part.57_28_m_javelin|fb:part.4_52_35_1500_m
+37	4	fb:cell.10_2_0_1_m_s_100_m_7_72_m_1_3_m_s_long_jump_12_55_m_shot_put_1_74_m_high_jump_46_33_400_m_15_73_0_0_m_s_110_m_hurdles_38_32_m_discus_4_40_m_pole_vault_57_28_m_javelin_4_52_35_1500_m	10.2 (+0.1 m/s) (100 m), 7.72 m (+1.3 m/s) (long jump), 12.55 m (shot put), 1.74 m (high jump), 46.33 (400 m) /\n15.73 (0.0 m/s) (110 m hurdles), 38.32 m (discus), 4.40 m (pole vault), 57.28 m (javelin), 4:52.35 (1500 m)	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdles|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdle|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|-RRB-|,|CD|NN|-LRB-|CD|NNS|-RRB-|-LRB-|JJ|NN|-RRB-|,|CD|NN|-LRB-|NN|VBN|-RRB-|,|CD|NN|-LRB-|JJ|NN|-RRB-|,|NN|-LRB-|CD|NN|-RRB-|:|CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|NNS|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|NN|-LRB-|NN|NN|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|TIME|O|DATE|O|O	10.2||0.1||||100.0||||7.72|||1.3||||||||12.55|||||||1.74|||||||46.33||400.0||||15.73||0.0||||110.0|||||38.32||||||4.4|||||||57.28||||||T04:52||1500||	10.2		0.1	10.2 (+0.1 m|s) (100 m)|7.72 m (+1.3 m|s) (long jump)|12.55 m (shot put)|1.74 m (high jump)|46.33 (400 m)|15.73 (0.0 m|s) (110 m hurdles)|38.32 m (discus)|4.40 m (pole vault)|57.28 m (javelin)|4:52.35 (1500 m)	fb:part.10_2_0_1_m|fb:part.s_100_m|fb:part.7_72_m_1_3_m|fb:part.s_long_jump|fb:part.12_55_m_shot_put|fb:part.1_74_m_high_jump|fb:part.46_33_400_m|fb:part.15_73_0_0_m|fb:part.s_110_m_hurdles|fb:part.38_32_m_discus|fb:part.4_40_m_pole_vault|fb:part.57_28_m_javelin|fb:part.4_52_35_1500_m
+37	5	fb:cell.10_2_0_1_m_s_100_m_7_72_m_1_3_m_s_long_jump_12_55_m_shot_put_1_74_m_high_jump_46_33_400_m_15_73_0_0_m_s_110_m_hurdles_38_32_m_discus_4_40_m_pole_vault_57_28_m_javelin_4_52_35_1500_m	10.2 (+0.1 m/s) (100 m), 7.72 m (+1.3 m/s) (long jump), 12.55 m (shot put), 1.74 m (high jump), 46.33 (400 m) /\n15.73 (0.0 m/s) (110 m hurdles), 38.32 m (discus), 4.40 m (pole vault), 57.28 m (javelin), 4:52.35 (1500 m)	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdles|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	10.2|-lrb-|+0.1|m\\/s|-rrb-|-lrb-|100|m|-rrb-|,|7.72|m|-lrb-|+1.3|m\\/s|-rrb-|-lrb-|long|jump|-rrb-|,|12.55|m|-lrb-|shot|put|-rrb-|,|1.74|m|-lrb-|high|jump|-rrb-|,|46.33|-lrb-|400|m|-rrb-|\\/|15.73|-lrb-|0.0|m\\/s|-rrb-|-lrb-|110|m|hurdle|-rrb-|,|38.32|m|-lrb-|discus|-rrb-|,|4.40|m|-lrb-|pole|vault|-rrb-|,|57.28|m|-lrb-|javelin|-rrb-|,|4:52.35|-lrb-|1500|m|-rrb-	CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|-RRB-|,|CD|NN|-LRB-|CD|NNS|-RRB-|-LRB-|JJ|NN|-RRB-|,|CD|NN|-LRB-|NN|VBN|-RRB-|,|CD|NN|-LRB-|JJ|NN|-RRB-|,|NN|-LRB-|CD|NN|-RRB-|:|CD|-LRB-|CD|NNS|-RRB-|-LRB-|CD|NN|NNS|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|NN|-LRB-|NN|NN|-RRB-|,|CD|NN|-LRB-|NN|-RRB-|,|CD|-LRB-|CD|NN|-RRB-	NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|NUMBER|O|O|NUMBER|O|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|NUMBER|O|O|O|NUMBER|O|O|O|O|NUMBER|O|O|O|O|O|NUMBER|O|O|O|O|O|O|NUMBER|O|O|O|O|O|TIME|O|DATE|O|O	10.2||0.1||||100.0||||7.72|||1.3||||||||12.55|||||||1.74|||||||46.33||400.0||||15.73||0.0||||110.0|||||38.32||||||4.4|||||||57.28||||||T04:52||1500||	10.2		0.1	10.2 (+0.1 m|s) (100 m)|7.72 m (+1.3 m|s) (long jump)|12.55 m (shot put)|1.74 m (high jump)|46.33 (400 m)|15.73 (0.0 m|s) (110 m hurdles)|38.32 m (discus)|4.40 m (pole vault)|57.28 m (javelin)|4:52.35 (1500 m)	fb:part.10_2_0_1_m|fb:part.s_100_m|fb:part.7_72_m_1_3_m|fb:part.s_long_jump|fb:part.12_55_m_shot_put|fb:part.1_74_m_high_jump|fb:part.46_33_400_m|fb:part.15_73_0_0_m|fb:part.s_110_m_hurdles|fb:part.38_32_m_discus|fb:part.4_40_m_pole_vault|fb:part.57_28_m_javelin|fb:part.4_52_35_1500_m
+38	0	fb:cell.5000_m_walk_track	5000 m walk (track)	5000|m|walk|-lrb-|track|-rrb-	5000|m|walk|-lrb-|track|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	5000.0|||||	5000.0				
+38	1	fb:cell.18_40_11	18:40.11	18:40.11	18:40.11	CD	TIME	T18:40	18.0		40.11	18:40.11	fb:part.18_40_11
+38	2	fb:cell.eder_sanchez	Eder Sánchez	eder|sánchez	Eder|Sánchez	NNP|NNP	PERSON|PERSON	|				Eder Sánchez	fb:part.eder_sanchez
+38	3	fb:cell.28_february_2009	28 February 2009	28|february|2009	28|February|2009	CD|NNP|CD	DATE|DATE|DATE	2009-02-28|2009-02-28|2009-02-28	28.0	2009-02-28	2009.0	28 February 2009	fb:part.28_february_2009
+38	4	fb:cell.sydney_track_classic	Sydney Track Classic	sydney|track|classic	Sydney|Track|Classic	NNP|NNP|NNP	LOCATION|MISC|MISC	||				Sydney Track Classic	fb:part.sydney_track_classic
+38	5	fb:cell.sydney_australia	Sydney, Australia	sydney|,|australia	Sydney|,|Australia	NNP|,|NNP	LOCATION|O|LOCATION	||				Sydney|Australia	fb:part.sydney|fb:part.australia
+39	0	fb:cell.5_km_walk_road	5 km walk (road)	5|km|walk|-lrb-|road|-rrb-	5|km|walk|-lrb-|road|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	5.0|||||	5.0				
+39	1	fb:cell.19_17	19:17	19:17	19:17	CD	TIME	T19:17	19.0		17.0	19:17	fb:part.19_17
+39	2	fb:cell.eder_sanchez	Eder Sánchez	eder|sánchez	Eder|Sánchez	NNP|NNP	PERSON|PERSON	|				Eder Sánchez	fb:part.eder_sanchez
+39	3	fb:cell.8_december_2006	8 December 2006	8|december|2006	8|December|2006	CD|NNP|CD	DATE|DATE|DATE	2006-12-08|2006-12-08|2006-12-08	8.0	2006-12-08	2006.0	8 December 2006	fb:part.8_december_2006
+39	4	fb:cell.gran_premio_internacional	Gran Premio Internacional	gran|premio|internacional	Gran|Premio|Internacional	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||				Gran Premio Internacional	fb:part.gran_premio_internacional
+39	5	fb:cell.granada_spain	Granada, Spain	granada|,|spain	Granada|,|Spain	NNP|,|NNP	PERSON|O|LOCATION	||				Granada|Spain	fb:part.granada|fb:part.spain
+40	0	fb:cell.10000_m_walk_track	10000 m walk (track)	10000|m|walk|-lrb-|track|-rrb-	10000|m|walk|-lrb-|track|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	10000.0|||||	10000.0				
+40	1	fb:cell.38_24_0	38:24.0	38:24.0	38:24.0	CD	NUMBER		38.0		24.0	38:24.0	fb:part.38_24_0
+40	2	fb:cell.bernardo_segura_rivera	Bernardo Segura Rivera	bernardo|segura|rivera	Bernardo|Segura|Rivera	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Bernardo Segura Rivera	fb:part.bernardo_segura_rivera
+40	3	fb:cell.7_may_1994	7 May 1994	7|may|1994	7|May|1994	CD|VBD-AUX|CD	DATE|DATE|DATE	1994-05-07|1994-05-07|1994-05-07	7.0	1994-05-07	1994.0	7 May 1994	fb:part.7_may_1994
+40	4	fb:cell.null											fb:part.null
+40	5	fb:cell.fana_norway	Fana, Norway	fana|,|norway	Fana|,|Norway	NNP|,|NNP	O|O|LOCATION	||				Fana|Norway	fb:part.fana|fb:part.norway
+41	0	fb:cell.10000_m_walk_track	10000 m walk (track)	10000|m|walk|-lrb-|track|-rrb-	10000|m|walk|-lrb-|track|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	10000.0|||||	10000.0				
+41	1	fb:cell.38_26_4	38:26.4	38:26.4	38:26.4	CD	NUMBER		38.0		26.4	38:26.4	fb:part.38_26_4
+41	2	fb:cell.daniel_garcia	Daniel García	daniel|garcía	Daniel|García	NNP|NNP	PERSON|PERSON	|				Daniel García	fb:part.daniel_garcia
+41	3	fb:cell.17_may_1997	17 May 1997	17|may|1997	17|May|1997	CD|VBD-AUX|CD	DATE|DATE|DATE	1997-05-17|1997-05-17|1997-05-17	17.0	1997-05-17	1997.0	17 May 1997	fb:part.17_may_1997
+41	4	fb:cell.null											fb:part.null
+41	5	fb:cell.s_nder_omme_denmark	Sønder-Omme, Denmark	sønder|omme|,|denmark	sønder|omme|,|Denmark	FW|FW|,|NNP	O|O|O|LOCATION	|||				Sønder-Omme|Denmark	fb:part.s_nder_omme|fb:part.denmark
+42	0	fb:cell.10_km_walk_road	10 km walk (road)	10|km|walk|-lrb-|road|-rrb-	10|km|walk|-lrb-|road|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	10.0|||||	10.0				
+42	1	fb:cell.38_31	38:31	38:31	38:31	CD	NUMBER		38.0		31.0	38:31	fb:part.38_31
+42	2	fb:cell.eder_sanchez	Eder Sánchez	eder|sánchez	Eder|Sánchez	NNP|NNP	PERSON|PERSON	|				Eder Sánchez	fb:part.eder_sanchez
+42	3	fb:cell.19_september_2009	19 September 2009	19|september|2009	19|September|2009	CD|NNP|CD	DATE|DATE|DATE	2009-09-19|2009-09-19|2009-09-19	19.0	2009-09-19	2009.0	19 September 2009	fb:part.19_september_2009
+42	4	fb:cell.iaaf_world_race_walking_challenge	IAAF World Race Walking Challenge	iaaf|world|race|walking|challenge	IAAF|World|Race|walk|challenge	NNP|NNP|NNP|VBG|NN	ORGANIZATION|O|O|O|O	||||				IAAF World Race Walking Challenge	fb:part.iaaf_world_race_walking_challenge
+42	5	fb:cell.saransk_russia	Saransk, Russia	saransk|,|russia	Saransk|,|Russia	NNP|,|NNP	LOCATION|O|LOCATION	||				Saransk|Russia	fb:part.saransk|fb:part.russia
+43	0	fb:cell.20000_m_walk_track	20000 m walk (track)	20000|m|walk|-lrb-|track|-rrb-	20000|m|walk|-lrb-|track|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	20000.0|||||	20000.0				
+43	1	fb:cell.1_17_25_6	1:17:25.6	1:17:25.6	1:17:25.6	CD	TIME	T01:17:25	1.0		17.0	1:17:25.6	fb:part.1_17_25_6
+43	2	fb:cell.bernardo_segura	Bernardo Segura	bernardo|segura	Bernardo|Segura	NNP|NNP	PERSON|PERSON	|				Bernardo Segura	fb:part.bernardo_segura
+43	3	fb:cell.7_may_1994	7 May 1994	7|may|1994	7|May|1994	CD|VBD-AUX|CD	DATE|DATE|DATE	1994-05-07|1994-05-07|1994-05-07	7.0	1994-05-07	1994.0	7 May 1994	fb:part.7_may_1994
+43	4	fb:cell.null											fb:part.null
+43	5	fb:cell.bergen_norway	Bergen, Norway	bergen|,|norway	Bergen|,|Norway	NNP|,|NNP	LOCATION|O|LOCATION	||				Bergen|Norway	fb:part.bergen|fb:part.norway
+44	0	fb:cell.20_km_walk_road	20 km walk (road)	20|km|walk|-lrb-|road|-rrb-	20|km|walk|-lrb-|road|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	20.0|||||	20.0				
+44	1	fb:cell.1_17_26	1:17:26	1:17:26	1:17:26	CD	TIME	T01:17:26	1.0		17.0	1:17:26	fb:part.1_17_26
+44	2	fb:cell.bernardo_segura	Bernardo Segura	bernardo|segura	Bernardo|Segura	NNP|NNP	PERSON|PERSON	|				Bernardo Segura	fb:part.bernardo_segura
+44	3	fb:cell.7_may_1994	7 May 1994	7|may|1994	7|May|1994	CD|VBD-AUX|CD	DATE|DATE|DATE	1994-05-07|1994-05-07|1994-05-07	7.0	1994-05-07	1994.0	7 May 1994	fb:part.7_may_1994
+44	4	fb:cell.null											fb:part.null
+44	5	fb:cell.fana_norway	Fana, Norway	fana|,|norway	Fana|,|Norway	NNP|,|NNP	O|O|LOCATION	||				Fana|Norway	fb:part.fana|fb:part.norway
+45	0	fb:cell.50000_m_walk_track	50000 m walk (track)	50000|m|walk|-lrb-|track|-rrb-	50000|m|walk|-lrb-|track|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	50000.0|||||	50000.0				
+45	1	fb:cell.3_41_38_4	3:41:38.4	3:41:38.4	3:41:38.4	CD	TIME	T03:41:38	3.0		41.0	3:41:38.4	fb:part.3_41_38_4
+45	2	fb:cell.raul_gonzalez	Raúl González	raúl|gonzález	Raúl|González	NNP|NNP	PERSON|PERSON	|				Raúl González	fb:part.raul_gonzalez
+45	3	fb:cell.25_may_1979	25 May 1979	25|may|1979	25|May|1979	CD|VBD-AUX|CD	DATE|DATE|DATE	1979-05-25|1979-05-25|1979-05-25	25.0	1979-05-25	1979.0	25 May 1979	fb:part.25_may_1979
+45	4	fb:cell.null											fb:part.null
+45	5	fb:cell.bergen_norway	Bergen, Norway	bergen|,|norway	Bergen|,|Norway	NNP|,|NNP	LOCATION|O|LOCATION	||				Bergen|Norway	fb:part.bergen|fb:part.norway
+46	0	fb:cell.50_km_walk_road	50 km walk (road)	50|km|walk|-lrb-|road|-rrb-	50|km|walk|-lrb-|road|-rrb-	CD|NN|NN|-LRB-|NN|-RRB-	NUMBER|O|O|O|O|O	50.0|||||	50.0				
+46	1	fb:cell.3_41_20	3:41:20	3:41:20	3:41:20	CD	TIME	T03:41:20	3.0		41.0	3:41:20	fb:part.3_41_20
+46	2	fb:cell.raul_gonzalez	Raúl González	raúl|gonzález	Raúl|González	NNP|NNP	PERSON|PERSON	|				Raúl González	fb:part.raul_gonzalez
+46	3	fb:cell.11_june_1978	11 June 1978	11|june|1978	11|June|1978	CD|NNP|CD	DATE|DATE|DATE	1978-06-11|1978-06-11|1978-06-11	11.0	1978-06-11	1978.0	11 June 1978	fb:part.11_june_1978
+46	4	fb:cell.null											fb:part.null
+46	5	fb:cell.podebrady_czech_republic	Podebrady, Czech Republic	podebrady|,|czech|republic	Podebrady|,|Czech|Republic	NNP|,|NNP|NNP	O|O|LOCATION|LOCATION	|||				Podebrady|Czech Republic	fb:part.podebrady|fb:part.czech_republic
+47	0	fb:cell.4x100_m_relay	4x100 m relay	4x100|m|relay	4x100|m|relay	NN|NN|NN	O|O|O	||	4.0		100.0		
+47	1	fb:cell.39_32	39.32	39.32	39.32	CD	NUMBER	39.32	39.32			39.32	fb:part.39_32
+47	2	fb:cell.mexico_genaro_rojas_eduardo_nava_herman_adam_alejandro_cardenas	Mexico\nGenaro Rojas\nEduardo Nava\nHerman Adam\nAlejandro Cárdenas	mexico|genaro|rojas|eduardo|nava|herman|adam|alejandro|cárdenas	Mexico|Genaro|Rojas|Eduardo|Nava|Herman|Adam|Alejandro|Cárdenas	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP	LOCATION|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	||||||||				Mexico|Genaro Rojas|Eduardo Nava|Herman Adam|Alejandro Cárdenas	fb:part.mexico|fb:part.genaro_rojas|fb:part.eduardo_nava|fb:part.herman_adam|fb:part.alejandro_cardenas
+47	3	fb:cell.21_june_1992	21 June 1992	21|june|1992	21|June|1992	CD|NNP|CD	DATE|DATE|DATE	1992-06-21|1992-06-21|1992-06-21	21.0	1992-06-21	1992.0	21 June 1992	fb:part.21_june_1992
+47	4	fb:cell.null											fb:part.null
+47	5	fb:cell.mexico_city_mexico	Mexico City, Mexico	mexico|city|,|mexico	Mexico|City|,|Mexico	NNP|NNP|,|NNP	LOCATION|LOCATION|O|LOCATION	|||				Mexico City|Mexico	fb:part.mexico_city|fb:part.mexico
+48	0	fb:cell.4x400_m_relay	4x400 m relay	4x400|m|relay	4x400|m|relay	NN|NN|NN	O|O|O	||	4.0		400.0		
+48	1	fb:cell.3_03_19	3:03.19	3:03.19	3:03.19	CD	TIME	T03:03	3.0		3.19	3:03.19	fb:part.3_03_19
+48	2	fb:cell.mexico_alejandro_cardenas_oscar_juanz_roberto_carvajal_juan_pedro_toledo	Mexico\nAlejandro Cárdenas\nOscar Juanz\nRoberto Carvajal\nJuan Pedro Toledo	mexico|alejandro|cárdenas|oscar|juanz|roberto|carvajal|juan|pedro|toledo	Mexico|Alejandro|Cárdenas|Oscar|Juanz|Roberto|Carvajal|Juan|Pedro|Toledo	NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP|NNP	LOCATION|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON|PERSON	|||||||||				Mexico|Alejandro Cárdenas|Oscar Juanz|Roberto Carvajal|Juan Pedro Toledo	fb:part.mexico|fb:part.alejandro_cardenas|fb:part.oscar_juanz|fb:part.roberto_carvajal|fb:part.juan_pedro_toledo
+48	3	fb:cell.11_august_2001	11 August 2001	11|august|2001	11|August|2001	CD|NNP|CD	DATE|DATE|DATE	2001-08-11|2001-08-11|2001-08-11	11.0	2001-08-11	2001.0	11 August 2001	fb:part.11_august_2001
+48	4	fb:cell.world_championships	World Championships	world|championships	World|Championships	NNP|NNP	MISC|MISC	|				World Championships	fb:part.world_championships
+48	5	fb:cell.edmonton_canada	Edmonton, Canada	edmonton|,|canada	Edmonton|,|Canada	NNP|,|NNP	LOCATION|O|LOCATION	||				Edmonton|Canada	fb:part.edmonton|fb:part.canada

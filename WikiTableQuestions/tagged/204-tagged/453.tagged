@@ -1,0 +1,512 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.null	#	#	#	#	O						
+-1	1	fb:row.row.date	Date	date	date	NN	O						
+-1	2	fb:row.row.venue	Venue	venue	venue	NN	O						
+-1	3	fb:row.row.opponents	Opponents	opponents	opponent	NNS	O						
+-1	4	fb:row.row.score	Score	score	score	NN	NUMBER	20.0					
+-1	5	fb:row.row.comp	Comp	comp	comp	NN	O						
+-1	6	fb:row.row.denmark_scorers	Denmark scorers	denmark|scorers	Denmark|scorer	NNP|NNS	LOCATION|O	|					
+0	0	fb:cell.162	162	162	162	CD	NUMBER	162.0	162.0				
+0	1	fb:cell.1950_05_28	1950-05-28	1950-05-28	1950-05-28	CD	DATE	1950-05-28	1950.0	1950-05-28	5.0		
+0	2	fb:cell.jna_stadium_belgrade_a	JNA Stadium, Belgrade (A)	jna|stadium|,|belgrade|-lrb-|a|-rrb-	JNA|Stadium|,|Belgrade|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				JNA Stadium|Belgrade (A)	fb:part.jna_stadium|fb:part.belgrade_a
+0	3	fb:cell.yugoslavia	Yugoslavia	yugoslavia	Yugoslavia	NNP	LOCATION						
+0	4	fb:cell.1_5	1-5	1-5	1-5	CD	NUMBER	1.0 - 5.0	1.0		5.0	1-5	fb:part.1_5
+0	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+0	6	fb:cell.axel_pilmark	Axel Pilmark	axel|pilmark	Axel|Pilmark	NNP|NNP	PERSON|PERSON	|				Axel Pilmark	fb:part.axel_pilmark
+1	0	fb:cell.163	163	163	163	CD	NUMBER	163.0	163.0				
+1	1	fb:cell.1950_06_22	1950-06-22	1950-06-22	1950-06-22	CD	DATE	1950-06-22	1950.0	1950-06-22	6.0		
+1	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+1	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+1	4	fb:cell.4_0	4-0	4-0	4-0	JJ	O		4.0		0.0	4-0	fb:part.4_0
+1	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+1	6	fb:cell.poul_erik_popper_petersen_edwin_hansen_jens_peter_hansen_aage_rou_jensen	Poul Erik "Popper" Petersen, Edwin Hansen, Jens Peter Hansen, Aage Rou Jensen	poul|erik|``|popper|''|petersen|,|edwin|hansen|,|jens|peter|hansen|,|aage|rou|jensen	Poul|Erik|``|Popper|''|Petersen|,|Edwin|Hansen|,|Jens|Peter|Hansen|,|Aage|Rou|Jensen	NNP|NNP|``|NNP|''|NNP|,|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|NNP	PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON	||||||||||||||||				Poul Erik "Popper" Petersen|Edwin Hansen|Jens Peter Hansen|Aage Rou Jensen	fb:part.poul_erik_popper_petersen|fb:part.edwin_hansen|fb:part.jens_peter_hansen|fb:part.aage_rou_jensen
+2	0	fb:cell.164	164	164	164	CD	NUMBER	164.0	164.0				
+2	1	fb:cell.1950_06_25	1950-06-25	1950-06-25	1950-06-25	CD	DATE	1950-06-25	1950.0	1950-06-25	6.0		
+2	2	fb:cell.aarhus_stadion_aarhus_h	Aarhus Stadion, Aarhus (H)	aarhus|stadion|,|aarhus|-lrb-|h|-rrb-	Aarhus|Stadion|,|Aarhus|-lrb-|H|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O|O|O	||||||				Aarhus Stadion|Aarhus (H)	fb:part.aarhus_stadion|fb:part.aarhus_h
+2	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+2	4	fb:cell.1_4	1-4	1-4	1-4	CD	NUMBER	1.0 - 4.0	1.0		4.0	1-4	fb:part.1_4
+2	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+2	6	fb:cell.aage_rou_jensen	Aage Rou Jensen	aage|rou|jensen	Aage|Rou|Jensen	NNP|NNP|NNP	O|O|O	||				Aage Rou Jensen	fb:part.aage_rou_jensen
+3	0	fb:cell.165	165	165	165	CD	NUMBER	165.0	165.0				
+3	1	fb:cell.1950_08_27	1950-08-27	1950-08-27	1950-08-27	CD	DATE	1950-08-27	1950.0	1950-08-27	8.0		
+3	2	fb:cell.olympic_stadium_helsinki_a	Olympic Stadium, Helsinki (A)	olympic|stadium|,|helsinki|-lrb-|a|-rrb-	Olympic|Stadium|,|Helsinki|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Helsinki (A)	fb:part.olympic_stadium|fb:part.helsinki_a
+3	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+3	4	fb:cell.2_1	2-1	2-1	2-1	CD	NUMBER	2.0 - 1.0	2.0		1.0	2-1	fb:part.2_1
+3	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+3	6	fb:cell.poul_erik_popper_petersen_holger_seebach	Poul Erik "Popper" Petersen, Holger Seebach	poul|erik|``|popper|''|petersen|,|holger|seebach	Poul|Erik|``|Popper|''|Petersen|,|Holger|Seebach	NNP|NNP|``|NNP|''|NNP|,|NNP|NNP	PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON	||||||||				Poul Erik "Popper" Petersen|Holger Seebach	fb:part.poul_erik_popper_petersen|fb:part.holger_seebach
+4	0	fb:cell.166	166	166	166	CD	NUMBER	166.0	166.0				
+4	1	fb:cell.1950_09_10	1950-09-10	1950-09-10	1950-09-10	CD	DATE	1950-09-10	1950.0	1950-09-10	9.0		
+4	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+4	3	fb:cell.yugoslavia	Yugoslavia	yugoslavia	Yugoslavia	NNP	LOCATION						
+4	4	fb:cell.1_4	1-4	1-4	1-4	CD	NUMBER	1.0 - 4.0	1.0		4.0	1-4	fb:part.1_4
+4	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+4	6	fb:cell.edwin_hansen	Edwin Hansen	edwin|hansen	Edwin|Hansen	NNP|NNP	PERSON|PERSON	|				Edwin Hansen	fb:part.edwin_hansen
+5	0	fb:cell.167	167	167	167	CD	NUMBER	167.0	167.0				
+5	1	fb:cell.1950_10_15	1950-10-15	1950-10-15	1950-10-15	CD	DATE	1950-10-15	1950.0	1950-10-15	10.0		
+5	2	fb:cell.rasunda_stadium_stockholm_a	Råsunda Stadium, Stockholm (A)	råsunda|stadium|,|stockholm|-lrb-|a|-rrb-	Råsunda|Stadium|,|Stockholm|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|O|O|O|O	||||||				Råsunda Stadium|Stockholm (A)	fb:part.rasunda_stadium|fb:part.stockholm_a
+5	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+5	4	fb:cell.0_4	0-4	0-4	0-4	NN	O		0.0		4.0	0-4	fb:part.0_4
+5	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+5	6	fb:cell.null											fb:part.null
+6	0	fb:cell.168	168	168	168	CD	NUMBER	168.0	168.0				
+6	1	fb:cell.1950_11_05	1950-11-05	1950-11-05	1950-11-05	CD	DATE	1950-11-05	1950.0	1950-11-05	11.0		
+6	2	fb:cell.prater_stadium_vienna_a	Prater Stadium, Vienna (A)	prater|stadium|,|vienna|-lrb-|a|-rrb-	Prater|Stadium|,|Vienna|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|LOCATION|O|O|O	||||||				Prater Stadium|Vienna (A)	fb:part.prater_stadium|fb:part.vienna_a
+6	3	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION						
+6	4	fb:cell.1_5	1-5	1-5	1-5	CD	NUMBER	1.0 - 5.0	1.0		5.0	1-5	fb:part.1_5
+6	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+6	6	fb:cell.erik_kuld_jensen	Erik Kuld Jensen	erik|kuld|jensen	Erik|Kuld|Jensen	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Erik Kuld Jensen	fb:part.erik_kuld_jensen
+7	0	fb:cell.169	169	169	169	CD	NUMBER	169.0	169.0				
+7	1	fb:cell.1951_05_12	1951-05-12	1951-05-12	1951-05-12	CD	DATE	1951-05-12	1951.0	1951-05-12	5.0		
+7	2	fb:cell.hampden_park_glasgow_a	Hampden Park, Glasgow (A)	hampden|park|,|glasgow|-lrb-|a|-rrb-	Hampden|Park|,|Glasgow|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|LOCATION|O|O|O	||||||				Hampden Park|Glasgow (A)	fb:part.hampden_park|fb:part.glasgow_a
+7	3	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+7	4	fb:cell.1_3	1-3	1-3	1-3	CD	NUMBER	1.0 - 3.0	1.0		3.0	1-3	fb:part.1_3
+7	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+7	6	fb:cell.j_rgen_w_hansen	Jørgen W. Hansen	jørgen|w.|hansen	Jørgen|W.|Hansen	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Jørgen W. Hansen	fb:part.j_rgen_w_hansen
+8	0	fb:cell.170	170	170	170	CD	NUMBER	170.0	170.0				
+8	1	fb:cell.1951_06_17	1951-06-17	1951-06-17	1951-06-17	CD	DATE	1951-06-17	1951.0	1951-06-17	6.0		
+8	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+8	3	fb:cell.austria	Austria	austria	Austria	NNP	LOCATION						
+8	4	fb:cell.3_3	3-3	3-3	3-3	CD	NUMBER	3.0 - 3.0	3.0		3.0	3-3	fb:part.3_3
+8	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+8	6	fb:cell.aage_rou_jensen_2_knud_lundberg	Aage Rou Jensen (2), Knud Lundberg	aage|rou|jensen|-lrb-|2|-rrb-|,|knud|lundberg	Aage|Rou|Jensen|-lrb-|2|-rrb-|,|Knud|Lundberg	NNP|NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP	O|O|PERSON|O|NUMBER|O|O|PERSON|PERSON	||||2.0||||	2.0			Aage Rou Jensen (2)|Knud Lundberg	fb:part.aage_rou_jensen_2|fb:part.knud_lundberg
+9	0	fb:cell.171	171	171	171	CD	NUMBER	171.0	171.0				
+9	1	fb:cell.1951_09_16	1951-09-16	1951-09-16	1951-09-16	CD	DATE	1951-09-16	1951.0	1951-09-16	9.0		
+9	2	fb:cell.ullevaal_stadion_oslo_a	Ullevaal Stadion, Oslo (A)	ullevaal|stadion|,|oslo|-lrb-|a|-rrb-	Ullevaal|Stadion|,|Oslo|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Ullevaal Stadion|Oslo (A)	fb:part.ullevaal_stadion|fb:part.oslo_a
+9	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+9	4	fb:cell.0_2	0-2	0-2	0-2	NN	O		0.0		2.0	0-2	fb:part.0_2
+9	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+9	6	fb:cell.null											fb:part.null
+10	0	fb:cell.172	172	172	172	CD	NUMBER	172.0	172.0				
+10	1	fb:cell.1951_09_30	1951-09-30	1951-09-30	1951-09-30	CD	DATE	1951-09-30	1951.0	1951-09-30	9.0		
+10	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+10	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+10	4	fb:cell.1_0	1-0	1-0	1-0	CD	NUMBER	1.0 - 0.0	1.0		0.0	1-0	fb:part.1_0
+10	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+10	6	fb:cell.hilmar_staalgaard	Hilmar Staalgaard	hilmar|staalgaard	Hilmar|Staalgaard	NNP|NNP	PERSON|PERSON	|				Hilmar Staalgaard	fb:part.hilmar_staalgaard
+11	0	fb:cell.173	173	173	173	CD	NUMBER	173.0	173.0				
+11	1	fb:cell.1951_10_21	1951-10-21	1951-10-21	1951-10-21	CD	DATE	1951-10-21	1951.0	1951-10-21	10.0		
+11	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+11	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+11	4	fb:cell.3_1	3-1	3-1	3-1	CD	NUMBER	3.0 - 1.0	3.0		1.0	3-1	fb:part.3_1
+11	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+11	6	fb:cell.poul_rassi_rasmussen_knud_lundberg_hilmar_staalgaard	Poul "Rassi" Rasmussen, Knud Lundberg, Hilmar Staalgaard	poul|``|rassi|''|rasmussen|,|knud|lundberg|,|hilmar|staalgaard	Poul|``|Rassi|''|Rasmussen|,|Knud|Lundberg|,|Hilmar|Staalgaard	NNP|``|NNP|''|NNP|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|O|PERSON|PERSON|O|PERSON|PERSON	||||||||||				Poul "Rassi" Rasmussen|Knud Lundberg|Hilmar Staalgaard	fb:part.poul_rassi_rasmussen|fb:part.knud_lundberg|fb:part.hilmar_staalgaard
+12	0	fb:cell.174	174	174	174	CD	NUMBER	174.0	174.0				
+12	1	fb:cell.1952_05_25	1952-05-25	1952-05-25	1952-05-25	CD	DATE	1952-05-25	1952.0	1952-05-25	5.0		
+12	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+12	3	fb:cell.scotland	Scotland	scotland	Scotland	NNP	LOCATION						
+12	4	fb:cell.1_2	1-2	1-2	1-2	CD	NUMBER	1.0 - 2.0	1.0		2.0	1-2	fb:part.1_2
+12	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+12	6	fb:cell.poul_rassi_rasmussen	Poul "Rassi" Rasmussen	poul|``|rassi|''|rasmussen	Poul|``|Rassi|''|Rasmussen	NNP|``|NNP|''|NNP	PERSON|O|O|O|PERSON	||||				Poul "Rassi" Rasmussen	fb:part.poul_rassi_rasmussen
+13	0	fb:cell.175	175	175	175	CD	NUMBER	175.0	175.0				
+13	1	fb:cell.1952_06_11	1952-06-11	1952-06-11	1952-06-11	CD	DATE	1952-06-11	1952.0	1952-06-11	6.0		
+13	2	fb:cell.bislett_stadium_oslo_n	Bislett Stadium, Oslo (N)	bislett|stadium|,|oslo|-lrb-|n|-rrb-	Bislett|Stadium|,|Oslo|-lrb-|N|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Bislett Stadium|Oslo (N)	fb:part.bislett_stadium|fb:part.oslo_n
+13	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+13	4	fb:cell.0_2	0-2	0-2	0-2	NN	O		0.0		2.0	0-2	fb:part.0_2
+13	5	fb:cell.ot	OT	ot	ot	NN	O					OT	fb:part.ot
+13	6	fb:cell.null											fb:part.null
+14	0	fb:cell.176	176	176	176	CD	NUMBER	176.0	176.0				
+14	1	fb:cell.1952_06_22	1952-06-22	1952-06-22	1952-06-22	CD	DATE	1952-06-22	1952.0	1952-06-22	6.0		
+14	2	fb:cell.rasunda_stadium_stockholm_a	Råsunda Stadium, Stockholm (A)	råsunda|stadium|,|stockholm|-lrb-|a|-rrb-	Råsunda|Stadium|,|Stockholm|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|O|O|O|O	||||||				Råsunda Stadium|Stockholm (A)	fb:part.rasunda_stadium|fb:part.stockholm_a
+14	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+14	4	fb:cell.3_4	3-4	3-4	3-4	CD	NUMBER	3.0 - 4.0	3.0		4.0	3-4	fb:part.3_4
+14	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+14	6	fb:cell.poul_rassi_rasmussen_poul_erik_popper_petersen_holger_seebach	Poul "Rassi" Rasmussen, Poul Erik "Popper" Petersen, Holger Seebach	poul|``|rassi|''|rasmussen|,|poul|erik|``|popper|''|petersen|,|holger|seebach	Poul|``|Rassi|''|Rasmussen|,|Poul|Erik|``|Popper|''|Petersen|,|Holger|Seebach	NNP|``|NNP|''|NNP|,|NNP|NNP|``|NNP|''|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|O|PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON	||||||||||||||				Poul "Rassi" Rasmussen|Poul Erik "Popper" Petersen|Holger Seebach	fb:part.poul_rassi_rasmussen|fb:part.poul_erik_popper_petersen|fb:part.holger_seebach
+15	0	fb:cell.177	177	177	177	CD	NUMBER	177.0	177.0				
+15	1	fb:cell.1952_07_15	1952-07-15	1952-07-15	1952-07-15	CD	DATE	1952-07-15	1952.0	1952-07-15	7.0		
+15	2	fb:cell.tammela_stadion_tampere_n	Tammela Stadion, Tampere (N)	tammela|stadion|,|tampere|-lrb-|n|-rrb-	Tammela|Stadion|,|Tampere|-lrb-|N|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Tammela Stadion|Tampere (N)	fb:part.tammela_stadion|fb:part.tampere_n
+15	3	fb:cell.greece	Greece	greece	Greece	NNP	LOCATION						
+15	4	fb:cell.2_1	2-1	2-1	2-1	CD	NUMBER	2.0 - 1.0	2.0		1.0	2-1	fb:part.2_1
+15	5	fb:cell.og	OG	og	og	NN	O					OG	fb:part.og
+15	6	fb:cell.poul_erik_popper_petersen_holger_seebach	Poul Erik "Popper" Petersen, Holger Seebach	poul|erik|``|popper|''|petersen|,|holger|seebach	Poul|Erik|``|Popper|''|Petersen|,|Holger|Seebach	NNP|NNP|``|NNP|''|NNP|,|NNP|NNP	PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON	||||||||				Poul Erik "Popper" Petersen|Holger Seebach	fb:part.poul_erik_popper_petersen|fb:part.holger_seebach
+16	0	fb:cell.178	178	178	178	CD	NUMBER	178.0	178.0				
+16	1	fb:cell.1952_07_21	1952-07-21	1952-07-21	1952-07-21	CD	DATE	1952-07-21	1952.0	1952-07-21	7.0		
+16	2	fb:cell.kupittaa_stadion_turku_n	Kupittaa Stadion, Turku (N)	kupittaa|stadion|,|turku|-lrb-|n|-rrb-	Kupittaa|Stadion|,|Turku|-lrb-|N|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Kupittaa Stadion|Turku (N)	fb:part.kupittaa_stadion|fb:part.turku_n
+16	3	fb:cell.poland	Poland	poland	Poland	NNP	LOCATION						
+16	4	fb:cell.2_0	2-0	2-0	2-0	CD	NUMBER	2.0 - 0.0	2.0		0.0	2-0	fb:part.2_0
+16	5	fb:cell.og	OG	og	og	NN	O					OG	fb:part.og
+16	6	fb:cell.holger_seebach_svend_boston_nielsen	Holger Seebach, Svend "Boston" Nielsen	holger|seebach|,|svend|``|boston|''|nielsen	Holger|Seebach|,|Svend|``|Boston|''|Nielsen	NNP|NNP|,|NNP|``|NNP|''|NNP	PERSON|PERSON|O|PERSON|O|LOCATION|O|PERSON	|||||||				Holger Seebach|Svend "Boston" Nielsen	fb:part.holger_seebach|fb:part.svend_boston_nielsen
+17	0	fb:cell.179	179	179	179	CD	NUMBER	179.0	179.0				
+17	1	fb:cell.1952_07_25	1952-07-25	1952-07-25	1952-07-25	CD	DATE	1952-07-25	1952.0	1952-07-25	7.0		
+17	2	fb:cell.pallokentta_helsinki_n	Pallokenttä, Helsinki (N)	pallokenttä|,|helsinki|-lrb-|n|-rrb-	Pallokenttä|,|Helsinki|-lrb-|N|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|LOCATION|O|O|O	|||||				Pallokenttä|Helsinki (N)	fb:part.pallokentta|fb:part.helsinki_n
+17	3	fb:cell.yugoslavia	Yugoslavia	yugoslavia	Yugoslavia	NNP	LOCATION						
+17	4	fb:cell.3_5	3-5	3-5	3-5	CD	NUMBER	3.0 - 5.0	3.0		5.0	3-5	fb:part.3_5
+17	5	fb:cell.og	OG	og	og	NN	O					OG	fb:part.og
+17	6	fb:cell.knud_lundberg_holger_seebach_jens_peter_hansen	Knud Lundberg, Holger Seebach, Jens Peter Hansen	knud|lundberg|,|holger|seebach|,|jens|peter|hansen	Knud|Lundberg|,|Holger|Seebach|,|Jens|Peter|Hansen	NNP|NNP|,|NNP|NNP|,|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|PERSON	||||||||				Knud Lundberg|Holger Seebach|Jens Peter Hansen	fb:part.knud_lundberg|fb:part.holger_seebach|fb:part.jens_peter_hansen
+18	0	fb:cell.180	180	180	180	CD	NUMBER	180.0	180.0				
+18	1	fb:cell.1952_09_21	1952-09-21	1952-09-21	1952-09-21	CD	DATE	1952-09-21	1952.0	1952-09-21	9.0		
+18	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+18	3	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+18	4	fb:cell.3_2	3-2	3-2	3-2	CD	NUMBER	3.0 - 2.0	3.0		2.0	3-2	fb:part.3_2
+18	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+18	6	fb:cell.kurt_nikkelaj_nielsen_poul_erik_popper_petersen	Kurt "Nikkelaj" Nielsen, Poul Erik "Popper" Petersen	kurt|``|nikkelaj|''|nielsen|,|poul|erik|``|popper|''|petersen	Kurt|``|Nikkelaj|''|Nielsen|,|Poul|Erik|``|Popper|''|Petersen	NNP|``|NNP|''|NNP|,|NNP|NNP|``|NNP|''|NNP	PERSON|O|MISC|O|PERSON|O|PERSON|PERSON|O|O|O|PERSON	|||||||||||				Kurt "Nikkelaj" Nielsen|Poul Erik "Popper" Petersen	fb:part.kurt_nikkelaj_nielsen|fb:part.poul_erik_popper_petersen
+19	0	fb:cell.181	181	181	181	CD	NUMBER	181.0	181.0				
+19	1	fb:cell.1952_10_05	1952-10-05	1952-10-05	1952-10-05	CD	DATE	1952-10-05	1952.0	1952-10-05	10.0		
+19	2	fb:cell.olympic_stadium_helsinki_a	Olympic Stadium, Helsinki (A)	olympic|stadium|,|helsinki|-lrb-|a|-rrb-	Olympic|Stadium|,|Helsinki|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Helsinki (A)	fb:part.olympic_stadium|fb:part.helsinki_a
+19	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+19	4	fb:cell.1_2	1-2	1-2	1-2	CD	NUMBER	1.0 - 2.0	1.0		2.0	1-2	fb:part.1_2
+19	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+19	6	fb:cell.per_jensen	Per Jensen	per|jensen	per|Jensen	IN|NNP	O|O	|				Per Jensen	fb:part.per_jensen
+20	0	fb:cell.182	182	182	182	CD	NUMBER	182.0	182.0				
+20	1	fb:cell.1952_10_19	1952-10-19	1952-10-19	1952-10-19	CD	DATE	1952-10-19	1952.0	1952-10-19	10.0		
+20	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+20	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+20	4	fb:cell.1_3	1-3	1-3	1-3	CD	NUMBER	1.0 - 3.0	1.0		3.0	1-3	fb:part.1_3
+20	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+20	6	fb:cell.per_jensen	Per Jensen	per|jensen	per|Jensen	IN|NNP	O|O	|				Per Jensen	fb:part.per_jensen
+21	0	fb:cell.183	183	183	183	CD	NUMBER	183.0	183.0				
+21	1	fb:cell.1953_06_21	1953-06-21	1953-06-21	1953-06-21	CD	DATE	1953-06-21	1953.0	1953-06-21	6.0		
+21	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+21	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+21	4	fb:cell.1_3	1-3	1-3	1-3	CD	NUMBER	1.0 - 3.0	1.0		3.0	1-3	fb:part.1_3
+21	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+21	6	fb:cell.holger_seebach	Holger Seebach	holger|seebach	Holger|Seebach	NNP|NNP	PERSON|PERSON	|				Holger Seebach	fb:part.holger_seebach
+22	0	fb:cell.184	184	184	184	CD	NUMBER	184.0	184.0				
+22	1	fb:cell.1953_06_27	1953-06-27	1953-06-27	1953-06-27	CD	DATE	1953-06-27	1953.0	1953-06-27	6.0		
+22	2	fb:cell.st_jakob_park_basel_a	St. Jakob-Park, Basel (A)	st.|jakob|park|,|basel|-lrb-|a|-rrb-	St.|Jakob|Park|,|Basel|-lrb-|A|-rrb-	NNP|NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|LOCATION|O|LOCATION|O|O|O	|||||||				St. Jakob-Park|Basel (A)	fb:part.st_jakob_park|fb:part.basel_a
+22	3	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION						
+22	4	fb:cell.4_1	4-1	4-1	4-1	CD	NUMBER	4.0 - 1.0	4.0		1.0	4-1	fb:part.4_1
+22	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+22	6	fb:cell.knud_ove_s_rensen_aage_rou_jensen_2_jens_peter_hansen	Knud Ove Sørensen, Aage Rou Jensen (2), Jens Peter Hansen	knud|ove|sørensen|,|aage|rou|jensen|-lrb-|2|-rrb-|,|jens|peter|hansen	Knud|Ove|Sørensen|,|Aage|Rou|Jensen|-lrb-|2|-rrb-|,|Jens|Peter|Hansen	NNP|NNP|NNP|,|NNP|NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON|PERSON	||||||||2.0|||||	2.0			Knud Ove Sørensen|Aage Rou Jensen (2)|Jens Peter Hansen	fb:part.knud_ove_s_rensen|fb:part.aage_rou_jensen_2|fb:part.jens_peter_hansen
+23	0	fb:cell.185	185	185	185	CD	NUMBER	185.0	185.0				
+23	1	fb:cell.1953_08_09	1953-08-09	1953-08-09	1953-08-09	CD	DATE	1953-08-09	1953.0	1953-08-09	8.0		
+23	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+23	3	fb:cell.iceland	Iceland	iceland	Iceland	NNP	LOCATION						
+23	4	fb:cell.4_0	4-0	4-0	4-0	JJ	O		4.0		0.0	4-0	fb:part.4_0
+23	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+23	6	fb:cell.holger_seebach_2_erik_nielsen_erik_hansen	Holger Seebach (2), Erik Nielsen, Erik Hansen	holger|seebach|-lrb-|2|-rrb-|,|erik|nielsen|,|erik|hansen	Holger|Seebach|-lrb-|2|-rrb-|,|Erik|Nielsen|,|Erik|Hansen	NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON|O|PERSON|PERSON	|||2.0|||||||	2.0			Holger Seebach (2)|Erik Nielsen|Erik Hansen	fb:part.holger_seebach_2|fb:part.erik_nielsen|fb:part.erik_hansen
+24	0	fb:cell.186	186	186	186	CD	NUMBER	186.0	186.0				
+24	1	fb:cell.1953_09_13	1953-09-13	1953-09-13	1953-09-13	CD	DATE	1953-09-13	1953.0	1953-09-13	9.0		
+24	2	fb:cell.ullevaal_stadion_oslo_a	Ullevaal Stadion, Oslo (A)	ullevaal|stadion|,|oslo|-lrb-|a|-rrb-	Ullevaal|Stadion|,|Oslo|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Ullevaal Stadion|Oslo (A)	fb:part.ullevaal_stadion|fb:part.oslo_a
+24	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+24	4	fb:cell.1_0	1-0	1-0	1-0	CD	NUMBER	1.0 - 0.0	1.0		0.0	1-0	fb:part.1_0
+24	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+24	6	fb:cell.bent_s_rensen	Bent Sørensen	bent|sørensen	Bent|Sørensen	NNP|NNP	O|O	|				Bent Sørensen	fb:part.bent_s_rensen
+25	0	fb:cell.187	187	187	187	CD	NUMBER	187.0	187.0				
+25	1	fb:cell.1953_10_04	1953-10-04	1953-10-04	1953-10-04	CD	DATE	1953-10-04	1953.0	1953-10-04	10.0		
+25	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+25	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+25	4	fb:cell.6_1	6-1	6-1	6-1	CD	NUMBER	6.0 - 1.0	6.0		1.0	6-1	fb:part.6_1
+25	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+25	6	fb:cell.jens_peter_hansen_2_poul_erik_popper_petersen_bent_s_rensen_kurt_nikkelaj_nielsen_2	Jens Peter Hansen (2), Poul Erik "Popper" Petersen, Bent Sørensen, Kurt "Nikkelaj" Nielsen (2)	jens|peter|hansen|-lrb-|2|-rrb-|,|poul|erik|``|popper|''|petersen|,|bent|sørensen|,|kurt|``|nikkelaj|''|nielsen|-lrb-|2|-rrb-	Jens|Peter|Hansen|-lrb-|2|-rrb-|,|Poul|Erik|``|Popper|''|Petersen|,|Bent|Sørensen|,|Kurt|``|Nikkelaj|''|Nielsen|-lrb-|2|-rrb-	NNP|NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP|``|NNP|''|NNP|,|NNP|NNP|,|NNP|``|NNP|''|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON|O|O|O|PERSON|O|PERSON|PERSON|O|PERSON|O|O|O|O|O|NUMBER|O	||||2.0|||||||||||||||||||2.0|	2.0		2.0	Jens Peter Hansen (2)|Poul Erik "Popper" Petersen|Bent Sørensen|Kurt "Nikkelaj" Nielsen (2)	fb:part.jens_peter_hansen_2|fb:part.poul_erik_popper_petersen|fb:part.bent_s_rensen|fb:part.kurt_nikkelaj_nielsen_2
+26	0	fb:cell.188	188	188	188	CD	NUMBER	188.0	188.0				
+26	1	fb:cell.1954_06_04	1954-06-04	1954-06-04	1954-06-04	CD	DATE	1954-06-04	1954.0	1954-06-04	6.0		
+26	2	fb:cell.malmo_idrottsplats_malmo_n	Malmö Idrottsplats, Malmö (N)	malmö|idrottsplats|,|malmö|-lrb-|n|-rrb-	Malmö|Idrottsplats|,|Malmö|-lrb-|N|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O|O	||||||				Malmö Idrottsplats|Malmö (N)	fb:part.malmo_idrottsplats|fb:part.malmo_n
+26	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+26	4	fb:cell.1_2_aet	1-2\n(aet)	1-2|-lrb-|aet|-rrb-	1-2|-lrb-|aet|-rrb-	CD|-LRB-|NN|-RRB-	NUMBER|O|O|O	1.0 - 2.0|||	1.0		2.0	1-2|(aet)	fb:part.1_2|fb:part._aet
+26	5	fb:cell.ot	OT	ot	ot	NN	O					OT	fb:part.ot
+26	6	fb:cell.valdemar_kendzior	Valdemar Kendzior	valdemar|kendzior	Valdemar|Kendzior	NNP|NNP	PERSON|PERSON	|				Valdemar Kendzior	fb:part.valdemar_kendzior
+27	0	fb:cell.189	189	189	189	CD	NUMBER	189.0	189.0				
+27	1	fb:cell.1954_06_13	1954-06-13	1954-06-13	1954-06-13	CD	DATE	1954-06-13	1954.0	1954-06-13	6.0		
+27	2	fb:cell.olympic_stadium_helsinki_a	Olympic Stadium, Helsinki (A)	olympic|stadium|,|helsinki|-lrb-|a|-rrb-	Olympic|Stadium|,|Helsinki|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Helsinki (A)	fb:part.olympic_stadium|fb:part.helsinki_a
+27	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+27	4	fb:cell.2_2	2-2	2-2	2-2	CD	NUMBER	2.0 - 2.0	2.0		2.0	2-2	fb:part.2_2
+27	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+27	6	fb:cell.valdemar_kendzior_2	Valdemar Kendzior (2)	valdemar|kendzior|-lrb-|2|-rrb-	Valdemar|Kendzior|-lrb-|2|-rrb-	NNP|NNP|-LRB-|LS|-RRB-	O|O|O|NUMBER|O	|||2.0|	2.0			Valdemar Kendzior (2)	fb:part.valdemar_kendzior_2
+28	0	fb:cell.190	190	190	190	CD	NUMBER	190.0	190.0				
+28	1	fb:cell.1954_09_19	1954-09-19	1954-09-19	1954-09-19	CD	DATE	1954-09-19	1954.0	1954-09-19	9.0		
+28	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+28	3	fb:cell.switzerland	Switzerland	switzerland	Switzerland	NNP	LOCATION						
+28	4	fb:cell.1_1	1-1	1-1	1-1	CD	NUMBER	1.0 - 1.0	1.0		1.0	1-1	fb:part.1_1
+28	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+28	6	fb:cell.j_rgen_olesen	Jørgen Olesen	jørgen|olesen	Jørgen|Olesen	NNP|NNP	PERSON|PERSON	|				Jørgen Olesen	fb:part.j_rgen_olesen
+29	0	fb:cell.191	191	191	191	CD	NUMBER	191.0	191.0				
+29	1	fb:cell.1954_10_10	1954-10-10	1954-10-10	1954-10-10	CD	DATE	1954-10-10	1954.0	1954-10-10	10.0		
+29	2	fb:cell.rasunda_stadium_stockholm_a	Råsunda Stadium, Stockholm (A)	råsunda|stadium|,|stockholm|-lrb-|a|-rrb-	Råsunda|Stadium|,|Stockholm|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|O|O|O|O	||||||				Råsunda Stadium|Stockholm (A)	fb:part.rasunda_stadium|fb:part.stockholm_a
+29	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+29	4	fb:cell.2_5	2-5	2-5	2-5	CD	NUMBER	2.0 - 5.0	2.0		5.0	2-5	fb:part.2_5
+29	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+29	6	fb:cell.jens_peter_hansen_bent_s_rensen	Jens Peter Hansen, Bent Sørensen	jens|peter|hansen|,|bent|sørensen	Jens|Peter|Hansen|,|Bent|Sørensen	NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|O|O	|||||				Jens Peter Hansen|Bent Sørensen	fb:part.jens_peter_hansen|fb:part.bent_s_rensen
+30	0	fb:cell.192	192	192	192	CD	NUMBER	192.0	192.0				
+30	1	fb:cell.1954_10_31	1954-10-31	1954-10-31	1954-10-31	CD	DATE	1954-10-31	1954.0	1954-10-31	10.0		
+30	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+30	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+30	4	fb:cell.0_1	0-1	0-1	0-1	NN	O		0.0		1.0	0-1	fb:part.0_1
+30	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+30	6	fb:cell.null											fb:part.null
+31	0	fb:cell.193	193	193	193	CD	NUMBER	193.0	193.0				
+31	1	fb:cell.1955_03_13	1955-03-13	1955-03-13	1955-03-13	CD	DATE	1955-03-13	1955.0	1955-03-13	3.0		
+31	2	fb:cell.olympic_stadium_amsterdam_a	Olympic Stadium, Amsterdam (A)	olympic|stadium|,|amsterdam|-lrb-|a|-rrb-	Olympic|Stadium|,|Amsterdam|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Amsterdam (A)	fb:part.olympic_stadium|fb:part.amsterdam_a
+31	3	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+31	4	fb:cell.1_1	1-1	1-1	1-1	CD	NUMBER	1.0 - 1.0	1.0		1.0	1-1	fb:part.1_1
+31	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+31	6	fb:cell.vagn_birkeland	Vagn Birkeland	vagn|birkeland	Vagn|Birkeland	NNP|NNP	PERSON|PERSON	|				Vagn Birkeland	fb:part.vagn_birkeland
+32	0	fb:cell.194	194	194	194	CD	NUMBER	194.0	194.0				
+32	1	fb:cell.1955_05_15	1955-05-15	1955-05-15	1955-05-15	CD	DATE	1955-05-15	1955.0	1955-05-15	5.0		
+32	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+32	3	fb:cell.hungary	Hungary	hungary	Hungary	NNP	LOCATION						
+32	4	fb:cell.0_6	0-6	0-6	0-6	CD	NUMBER	0.0 - 6.0	0.0		6.0	0-6	fb:part.0_6
+32	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+32	6	fb:cell.null											fb:part.null
+33	0	fb:cell.195	195	195	195	CD	NUMBER	195.0	195.0				
+33	1	fb:cell.1955_06_19	1955-06-19	1955-06-19	1955-06-19	CD	DATE	1955-06-19	1955.0	1955-06-19	6.0		
+33	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+33	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+33	4	fb:cell.2_1	2-1	2-1	2-1	CD	NUMBER	2.0 - 1.0	2.0		1.0	2-1	fb:part.2_1
+33	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+33	6	fb:cell.jens_peter_hansen_2	Jens Peter Hansen (2)	jens|peter|hansen|-lrb-|2|-rrb-	Jens|Peter|Hansen|-lrb-|2|-rrb-	NNP|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|PERSON|O|NUMBER|O	||||2.0|	2.0			Jens Peter Hansen (2)	fb:part.jens_peter_hansen_2
+34	0	fb:cell.196	196	196	196	CD	NUMBER	196.0	196.0				
+34	1	fb:cell.1955_06_03	1955-06-03	1955-06-03	1955-06-03	CD	DATE	1955-06-03	1955.0	1955-06-03	6.0		
+34	2	fb:cell.melavollur_reykjavik_a	Melavollur, Reykjavík (A)	melavollur|,|reykjavík|-lrb-|a|-rrb-	Melavollur|,|Reykjavík|-lrb-|A|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O	|||||				Melavollur|Reykjavík (A)	fb:part.melavollur|fb:part.reykjavik_a
+34	3	fb:cell.iceland	Iceland	iceland	Iceland	NNP	LOCATION						
+34	4	fb:cell.4_0	4-0	4-0	4-0	JJ	O		4.0		0.0	4-0	fb:part.4_0
+34	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+34	6	fb:cell.aage_rou_jensen_jens_peter_hansen_poul_pedersen_2	Aage Rou Jensen, Jens Peter Hansen, Poul Pedersen (2)	aage|rou|jensen|,|jens|peter|hansen|,|poul|pedersen|-lrb-|2|-rrb-	Aage|Rou|Jensen|,|Jens|Peter|Hansen|,|Poul|Pedersen|-lrb-|2|-rrb-	NNP|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON|O|NUMBER|O	|||||||||||2.0|	2.0			Aage Rou Jensen|Jens Peter Hansen|Poul Pedersen (2)	fb:part.aage_rou_jensen|fb:part.jens_peter_hansen|fb:part.poul_pedersen_2
+35	0	fb:cell.197	197	197	197	CD	NUMBER	197.0	197.0				
+35	1	fb:cell.1955_09_11	1955-09-11	1955-09-11	1955-09-11	CD	DATE	1955-09-11	1955.0	1955-09-11	9.0		
+35	2	fb:cell.ullevaal_stadion_oslo_a	Ullevaal Stadion, Oslo (A)	ullevaal|stadion|,|oslo|-lrb-|a|-rrb-	Ullevaal|Stadion|,|Oslo|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Ullevaal Stadion|Oslo (A)	fb:part.ullevaal_stadion|fb:part.oslo_a
+35	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+35	4	fb:cell.1_1	1-1	1-1	1-1	CD	NUMBER	1.0 - 1.0	1.0		1.0	1-1	fb:part.1_1
+35	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+35	6	fb:cell.j_rgen_jacobsen	Jørgen Jacobsen	jørgen|jacobsen	Jørgen|Jacobsen	NNP|NNP	PERSON|PERSON	|				Jørgen Jacobsen	fb:part.j_rgen_jacobsen
+36	0	fb:cell.198	198	198	198	CD	NUMBER	198.0	198.0				
+36	1	fb:cell.1955_10_02	1955-10-02	1955-10-02	1955-10-02	CD	DATE	1955-10-02	1955.0	1955-10-02	10.0		
+36	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+36	3	fb:cell.england	England	england	England	NNP	LOCATION						
+36	4	fb:cell.1_5	1-5	1-5	1-5	CD	NUMBER	1.0 - 5.0	1.0		5.0	1-5	fb:part.1_5
+36	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+36	6	fb:cell.knud_lundberg	Knud Lundberg	knud|lundberg	Knud|Lundberg	NNP|NNP	PERSON|PERSON	|				Knud Lundberg	fb:part.knud_lundberg
+37	0	fb:cell.199	199	199	199	CD	NUMBER	199.0	199.0				
+37	1	fb:cell.1955_10_16	1955-10-16	1955-10-16	1955-10-16	CD	DATE	1955-10-16	1955.0	1955-10-16	10.0		
+37	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+37	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+37	4	fb:cell.3_3	3-3	3-3	3-3	CD	NUMBER	3.0 - 3.0	3.0		3.0	3-3	fb:part.3_3
+37	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+37	6	fb:cell.ove_andersen_2_knud_lundberg	Ove Andersen (2), Knud Lundberg	ove|andersen|-lrb-|2|-rrb-|,|knud|lundberg	Ove|Andersen|-lrb-|2|-rrb-|,|Knud|Lundberg	NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP	PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON	|||2.0||||	2.0			Ove Andersen (2)|Knud Lundberg	fb:part.ove_andersen_2|fb:part.knud_lundberg
+38	0	fb:cell.200	200	200	200	CD	NUMBER	200.0	200.0				
+38	1	fb:cell.1956_05_23	1956-05-23	1956-05-23	1956-05-23	CD	DATE	1956-05-23	1956.0	1956-05-23	5.0		
+38	2	fb:cell.dynamo_stadium_moscow_a	Dynamo Stadium, Moscow (A)	dynamo|stadium|,|moscow|-lrb-|a|-rrb-	Dynamo|Stadium|,|Moscow|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|LOCATION|O|O|O	||||||				Dynamo Stadium|Moscow (A)	fb:part.dynamo_stadium|fb:part.moscow_a
+38	3	fb:cell.ussr	USSR	ussr	ussr	NN	ORGANIZATION						
+38	4	fb:cell.1_5	1-5	1-5	1-5	CD	NUMBER	1.0 - 5.0	1.0		5.0	1-5	fb:part.1_5
+38	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+38	6	fb:cell.knud_lundberg	Knud Lundberg	knud|lundberg	Knud|Lundberg	NNP|NNP	PERSON|PERSON	|				Knud Lundberg	fb:part.knud_lundberg
+39	0	fb:cell.201	201	201	201	CD	NUMBER	201.0	201.0				
+39	1	fb:cell.1956_06_24	1956-06-24	1956-06-24	1956-06-24	CD	DATE	1956-06-24	1956.0	1956-06-24	6.0		
+39	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+39	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+39	4	fb:cell.2_3	2-3	2-3	2-3	CD	NUMBER	2.0 - 3.0	2.0		3.0	2-3	fb:part.2_3
+39	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+39	6	fb:cell.knud_lundberg_poul_pedersen	Knud Lundberg, Poul Pedersen	knud|lundberg|,|poul|pedersen	Knud|Lundberg|,|Poul|Pedersen	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Knud Lundberg|Poul Pedersen	fb:part.knud_lundberg|fb:part.poul_pedersen
+40	0	fb:cell.202	202	202	202	CD	NUMBER	202.0	202.0				
+40	1	fb:cell.1956_07_01	1956-07-01	1956-07-01	1956-07-01	CD	DATE	1956-07-01	1956.0	1956-07-01	7.0		
+40	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+40	3	fb:cell.ussr	USSR	ussr	ussr	NN	ORGANIZATION						
+40	4	fb:cell.2_5	2-5	2-5	2-5	CD	NUMBER	2.0 - 5.0	2.0		5.0	2-5	fb:part.2_5
+40	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+40	6	fb:cell.ove_andersen_aage_rou_jensen	Ove Andersen, Aage Rou Jensen	ove|andersen|,|aage|rou|jensen	Ove|Andersen|,|Aage|Rou|Jensen	NNP|NNP|,|NNP|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|PERSON	|||||				Ove Andersen|Aage Rou Jensen	fb:part.ove_andersen|fb:part.aage_rou_jensen
+41	0	fb:cell.203	203	203	203	CD	NUMBER	203.0	203.0				
+41	1	fb:cell.1956_09_16	1956-09-16	1956-09-16	1956-09-16	CD	DATE	1956-09-16	1956.0	1956-09-16	9.0		
+41	2	fb:cell.olympic_stadium_helsinki_a	Olympic Stadium, Helsinki (A)	olympic|stadium|,|helsinki|-lrb-|a|-rrb-	Olympic|Stadium|,|Helsinki|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Helsinki (A)	fb:part.olympic_stadium|fb:part.helsinki_a
+41	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+41	4	fb:cell.4_0	4-0	4-0	4-0	JJ	O		4.0		0.0	4-0	fb:part.4_0
+41	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+41	6	fb:cell.poul_pedersen_j_rgen_hansen_ove_andersen_2	Poul Pedersen, Jørgen Hansen, Ove Andersen (2)	poul|pedersen|,|jørgen|hansen|,|ove|andersen|-lrb-|2|-rrb-	Poul|Pedersen|,|Jørgen|Hansen|,|Ove|Andersen|-lrb-|2|-rrb-	NNP|NNP|,|NNP|NNP|,|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|NUMBER|O	|||||||||2.0|	2.0			Poul Pedersen|Jørgen Hansen|Ove Andersen (2)	fb:part.poul_pedersen|fb:part.j_rgen_hansen|fb:part.ove_andersen_2
+42	0	fb:cell.204	204	204	204	CD	NUMBER	204.0	204.0				
+42	1	fb:cell.1956_10_03	1956-10-03	1956-10-03	1956-10-03	CD	DATE	1956-10-03	1956.0	1956-10-03	10.0		
+42	2	fb:cell.dalymount_park_dublin_a	Dalymount Park, Dublin (A)	dalymount|park|,|dublin|-lrb-|a|-rrb-	Dalymount|Park|,|Dublin|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|LOCATION|O|O|O	||||||				Dalymount Park|Dublin (A)	fb:part.dalymount_park|fb:part.dublin_a
+42	3	fb:cell.republic_of_ireland	Republic of Ireland	republic|of|ireland	Republic|of|Ireland	NNP|IN|NNP	O|O|LOCATION	||					
+42	4	fb:cell.1_2	1-2	1-2	1-2	CD	NUMBER	1.0 - 2.0	1.0		2.0	1-2	fb:part.1_2
+42	5	fb:cell.wcq	WCQ	wcq	wcq	NN	O					WCQ	fb:part.wcq
+42	6	fb:cell.aage_rou_jensen	Aage Rou Jensen	aage|rou|jensen	Aage|Rou|Jensen	NNP|NNP|NNP	O|O|O	||				Aage Rou Jensen	fb:part.aage_rou_jensen
+43	0	fb:cell.205	205	205	205	CD	NUMBER	205.0	205.0				
+43	1	fb:cell.1956_10_21	1956-10-21	1956-10-21	1956-10-21	CD	DATE	1956-10-21	1956.0	1956-10-21	10.0		
+43	2	fb:cell.rasunda_stadium_stockholm_a	Råsunda Stadium, Stockholm (A)	råsunda|stadium|,|stockholm|-lrb-|a|-rrb-	Råsunda|Stadium|,|Stockholm|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|O|O|O|O	||||||				Råsunda Stadium|Stockholm (A)	fb:part.rasunda_stadium|fb:part.stockholm_a
+43	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+43	4	fb:cell.1_1	1-1	1-1	1-1	CD	NUMBER	1.0 - 1.0	1.0		1.0	1-1	fb:part.1_1
+43	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+43	6	fb:cell.jens_peter_hansen	Jens Peter Hansen	jens|peter|hansen	Jens|Peter|Hansen	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Jens Peter Hansen	fb:part.jens_peter_hansen
+44	0	fb:cell.206	206	206	206	CD	NUMBER	206.0	206.0				
+44	1	fb:cell.1956_11_04	1956-11-04	1956-11-04	1956-11-04	CD	DATE	1956-11-04	1956.0	1956-11-04	11.0		
+44	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+44	3	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+44	4	fb:cell.2_2	2-2	2-2	2-2	CD	NUMBER	2.0 - 2.0	2.0		2.0	2-2	fb:part.2_2
+44	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+44	6	fb:cell.j_rgen_olesen_knud_lundberg	Jørgen Olesen, Knud Lundberg	jørgen|olesen|,|knud|lundberg	Jørgen|Olesen|,|Knud|Lundberg	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Jørgen Olesen|Knud Lundberg	fb:part.j_rgen_olesen|fb:part.knud_lundberg
+45	0	fb:cell.207	207	207	207	CD	NUMBER	207.0	207.0				
+45	1	fb:cell.1956_12_05	1956-12-05	1956-12-05	1956-12-05	CD	DATE	1956-12-05	1956.0	1956-12-05	12.0		
+45	2	fb:cell.molineux_wolverhampton_a	Molineux, Wolverhampton (A)	molineux|,|wolverhampton|-lrb-|a|-rrb-	Molineux|,|Wolverhampton|-lrb-|A|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|O|ORGANIZATION|O|O|O	|||||				Molineux|Wolverhampton (A)	fb:part.molineux|fb:part.wolverhampton_a
+45	3	fb:cell.england	England	england	England	NNP	LOCATION						
+45	4	fb:cell.2_5	2-5	2-5	2-5	CD	NUMBER	2.0 - 5.0	2.0		5.0	2-5	fb:part.2_5
+45	5	fb:cell.wcq	WCQ	wcq	wcq	NN	O					WCQ	fb:part.wcq
+45	6	fb:cell.ove_bech_nielsen_2	Ove Bech Nielsen (2)	ove|bech|nielsen|-lrb-|2|-rrb-	Ove|Bech|Nielsen|-lrb-|2|-rrb-	NNP|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|PERSON|O|NUMBER|O	||||2.0|	2.0			Ove Bech Nielsen (2)	fb:part.ove_bech_nielsen_2
+46	0	fb:cell.208	208	208	208	CD	NUMBER	208.0	208.0				
+46	1	fb:cell.1957_05_15	1957-05-15	1957-05-15	1957-05-15	CD	DATE	1957-05-15	1957.0	1957-05-15	5.0		
+46	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+46	3	fb:cell.england	England	england	England	NNP	LOCATION						
+46	4	fb:cell.1_4	1-4	1-4	1-4	CD	NUMBER	1.0 - 4.0	1.0		4.0	1-4	fb:part.1_4
+46	5	fb:cell.wcq	WCQ	wcq	wcq	NN	O					WCQ	fb:part.wcq
+46	6	fb:cell.john_jensen	John Jensen	john|jensen	John|Jensen	NNP|NNP	PERSON|PERSON	|				John Jensen	fb:part.john_jensen
+47	0	fb:cell.209	209	209	209	CD	NUMBER	209.0	209.0				
+47	1	fb:cell.1957_05_26	1957-05-26	1957-05-26	1957-05-26	CD	DATE	1957-05-26	1957.0	1957-05-26	5.0		
+47	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+47	3	fb:cell.bulgaria	Bulgaria	bulgaria	Bulgaria	NNP	LOCATION						
+47	4	fb:cell.1_1	1-1	1-1	1-1	CD	NUMBER	1.0 - 1.0	1.0		1.0	1-1	fb:part.1_1
+47	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+47	6	fb:cell.aage_rou_jensen	Aage Rou Jensen	aage|rou|jensen	Aage|Rou|Jensen	NNP|NNP|NNP	O|O|O	||				Aage Rou Jensen	fb:part.aage_rou_jensen
+48	0	fb:cell.210	210	210	210	CD	NUMBER	210.0	210.0				
+48	1	fb:cell.1957_06_18	1957-06-18	1957-06-18	1957-06-18	CD	DATE	1957-06-18	1957.0	1957-06-18	6.0		
+48	2	fb:cell.olympic_stadium_helsinki_a	Olympic Stadium, Helsinki (A)	olympic|stadium|,|helsinki|-lrb-|a|-rrb-	Olympic|Stadium|,|Helsinki|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Helsinki (A)	fb:part.olympic_stadium|fb:part.helsinki_a
+48	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+48	4	fb:cell.0_2	0-2	0-2	0-2	NN	O		0.0		2.0	0-2	fb:part.0_2
+48	5	fb:cell.ot	OT	ot	ot	NN	O					OT	fb:part.ot
+48	6	fb:cell.null											fb:part.null
+49	0	fb:cell.211	211	211	211	CD	NUMBER	211.0	211.0				
+49	1	fb:cell.1957_06_19	1957-06-19	1957-06-19	1957-06-19	CD	DATE	1957-06-19	1957.0	1957-06-19	6.0		
+49	2	fb:cell.tammela_stadion_tampere_n	Tammela Stadion, Tampere (N)	tammela|stadion|,|tampere|-lrb-|n|-rrb-	Tammela|Stadion|,|Tampere|-lrb-|N|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Tammela Stadion|Tampere (N)	fb:part.tammela_stadion|fb:part.tampere_n
+49	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+49	4	fb:cell.2_0	2-0	2-0	2-0	CD	NUMBER	2.0 - 0.0	2.0		0.0	2-0	fb:part.2_0
+49	5	fb:cell.ot	OT	ot	ot	NN	O					OT	fb:part.ot
+49	6	fb:cell.egon_jensen_j_rgen_hansen	Egon Jensen, Jørgen Hansen	egon|jensen|,|jørgen|hansen	Egon|Jensen|,|Jørgen|Hansen	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Egon Jensen|Jørgen Hansen	fb:part.egon_jensen|fb:part.j_rgen_hansen
+50	0	fb:cell.212	212	212	212	CD	NUMBER	212.0	212.0				
+50	1	fb:cell.1957_06_30	1957-06-30	1957-06-30	1957-06-30	CD	DATE	1957-06-30	1957.0	1957-06-30	6.0		
+50	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+50	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+50	4	fb:cell.1_2	1-2	1-2	1-2	CD	NUMBER	1.0 - 2.0	1.0		2.0	1-2	fb:part.1_2
+50	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+50	6	fb:cell.jens_peter_hansen	Jens Peter Hansen	jens|peter|hansen	Jens|Peter|Hansen	NNP|NNP|NNP	PERSON|PERSON|PERSON	||				Jens Peter Hansen	fb:part.jens_peter_hansen
+51	0	fb:cell.213	213	213	213	CD	NUMBER	213.0	213.0				
+51	1	fb:cell.1957_07_10	1957-07-10	1957-07-10	1957-07-10	CD	DATE	1957-07-10	1957.0	1957-07-10	7.0		
+51	2	fb:cell.laugardalsvollur_reykjavik_a	Laugardalsvöllur, Reykjavík (A)	laugardalsvöllur|,|reykjavík|-lrb-|a|-rrb-	Laugardalsvöllur|,|Reykjavík|-lrb-|A|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O	|||||				Laugardalsvöllur|Reykjavík (A)	fb:part.laugardalsvollur|fb:part.reykjavik_a
+51	3	fb:cell.iceland	Iceland	iceland	Iceland	NNP	LOCATION						
+51	4	fb:cell.6_2	6-2	6-2	6-2	CD	NUMBER	6.0 - 2.0	6.0		2.0	6-2	fb:part.6_2
+51	5	fb:cell.ot	OT	ot	ot	NN	O					OT	fb:part.ot
+51	6	fb:cell.egon_jensen_3_poul_pedersen_jens_peter_hansen_2	Egon Jensen (3), Poul Pedersen, Jens Peter Hansen (2)	egon|jensen|-lrb-|3|-rrb-|,|poul|pedersen|,|jens|peter|hansen|-lrb-|2|-rrb-	Egon|Jensen|-lrb-|3|-rrb-|,|Poul|Pedersen|,|Jens|Peter|Hansen|-lrb-|2|-rrb-	NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP|,|NNP|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|NUMBER|O	|||3.0||||||||||2.0|	3.0		2.0	Egon Jensen (3)|Poul Pedersen|Jens Peter Hansen (2)	fb:part.egon_jensen_3|fb:part.poul_pedersen|fb:part.jens_peter_hansen_2
+52	0	fb:cell.214	214	214	214	CD	NUMBER	214.0	214.0				
+52	1	fb:cell.1957_09_22	1957-09-22	1957-09-22	1957-09-22	CD	DATE	1957-09-22	1957.0	1957-09-22	9.0		
+52	2	fb:cell.ullevaal_stadion_oslo_a	Ullevaal Stadion, Oslo (A)	ullevaal|stadion|,|oslo|-lrb-|a|-rrb-	Ullevaal|Stadion|,|Oslo|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Ullevaal Stadion|Oslo (A)	fb:part.ullevaal_stadion|fb:part.oslo_a
+52	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+52	4	fb:cell.2_2	2-2	2-2	2-2	CD	NUMBER	2.0 - 2.0	2.0		2.0	2-2	fb:part.2_2
+52	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+52	6	fb:cell.poul_pedersen_peder_kj_r	Poul Pedersen, Peder Kjær	poul|pedersen|,|peder|kjær	Poul|Pedersen|,|Peder|Kjær	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON	||||				Poul Pedersen|Peder Kjær	fb:part.poul_pedersen|fb:part.peder_kj_r
+53	0	fb:cell.215	215	215	215	CD	NUMBER	215.0	215.0				
+53	1	fb:cell.1957_10_02	1957-10-02	1957-10-02	1957-10-02	CD	DATE	1957-10-02	1957.0	1957-10-02	10.0		
+53	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+53	3	fb:cell.republic_of_ireland	Republic of Ireland	republic|of|ireland	Republic|of|Ireland	NNP|IN|NNP	O|O|LOCATION	||					
+53	4	fb:cell.0_2	0-2	0-2	0-2	NN	O		0.0		2.0	0-2	fb:part.0_2
+53	5	fb:cell.wcq	WCQ	wcq	wcq	NN	O					WCQ	fb:part.wcq
+53	6	fb:cell.null											fb:part.null
+54	0	fb:cell.216	216	216	216	CD	NUMBER	216.0	216.0				
+54	1	fb:cell.1957_10_13	1957-10-13	1957-10-13	1957-10-13	CD	DATE	1957-10-13	1957.0	1957-10-13	10.0		
+54	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+54	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+54	4	fb:cell.3_0	3-0	3-0	3-0	CD	NUMBER	3.0 - 0.0	3.0		0.0	3-0	fb:part.3_0
+54	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+54	6	fb:cell.finn_alfred_hansen_ove_bech_nielsen_mogens_machon	Finn Alfred Hansen, Ove Bech Nielsen, Mogens Machon	finn|alfred|hansen|,|ove|bech|nielsen|,|mogens|machon	Finn|Alfred|Hansen|,|Ove|Bech|Nielsen|,|Mogens|Machon	NNP|NNP|NNP|,|NNP|NNP|NNP|,|NNP|NNP	PERSON|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|PERSON|PERSON	|||||||||				Finn Alfred Hansen|Ove Bech Nielsen|Mogens Machon	fb:part.finn_alfred_hansen|fb:part.ove_bech_nielsen|fb:part.mogens_machon
+55	0	fb:cell.217	217	217	217	CD	NUMBER	217.0	217.0				
+55	1	fb:cell.1958_05_15	1958-05-15	1958-05-15	1958-05-15	CD	DATE	1958-05-15	1958.0	1958-05-15	5.0		
+55	2	fb:cell.aarhus_stadion_aarhus_h	Aarhus Stadion, Aarhus (H)	aarhus|stadion|,|aarhus|-lrb-|h|-rrb-	Aarhus|Stadion|,|Aarhus|-lrb-|H|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	ORGANIZATION|ORGANIZATION|O|O|O|O|O	||||||				Aarhus Stadion|Aarhus (H)	fb:part.aarhus_stadion|fb:part.aarhus_h
+55	3	fb:cell.curacao	Curaçao	curaçao	Curaçao	NNP	O						
+55	4	fb:cell.3_2	3-2	3-2	3-2	CD	NUMBER	3.0 - 2.0	3.0		2.0	3-2	fb:part.3_2
+55	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+55	6	fb:cell.poul_pedersen_henning_enoksen_2	Poul Pedersen, Henning Enoksen (2)	poul|pedersen|,|henning|enoksen|-lrb-|2|-rrb-	Poul|Pedersen|,|Henning|Enoksen|-lrb-|2|-rrb-	NNP|NNP|,|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|PERSON|PERSON|O|NUMBER|O	||||||2.0|	2.0			Poul Pedersen|Henning Enoksen (2)	fb:part.poul_pedersen|fb:part.henning_enoksen_2
+56	0	fb:cell.218	218	218	218	CD	NUMBER	218.0	218.0				
+56	1	fb:cell.1958_05_25	1958-05-25	1958-05-25	1958-05-25	CD	DATE	1958-05-25	1958.0	1958-05-25	5.0		
+56	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+56	3	fb:cell.poland	Poland	poland	Poland	NNP	LOCATION						
+56	4	fb:cell.3_2	3-2	3-2	3-2	CD	NUMBER	3.0 - 2.0	3.0		2.0	3-2	fb:part.3_2
+56	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+56	6	fb:cell.j_rn_s_rensen_poul_pedersen_2	Jørn Sørensen, Poul Pedersen (2)	jørn|sørensen|,|poul|pedersen|-lrb-|2|-rrb-	Jørn|Sørensen|,|Poul|Pedersen|-lrb-|2|-rrb-	NNP|NNP|,|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|PERSON|PERSON|O|NUMBER|O	||||||2.0|	2.0			Jørn Sørensen|Poul Pedersen (2)	fb:part.j_rn_s_rensen|fb:part.poul_pedersen_2
+57	0	fb:cell.219	219	219	219	CD	NUMBER	219.0	219.0				
+57	1	fb:cell.1958_06_29	1958-06-29	1958-06-29	1958-06-29	CD	DATE	1958-06-29	1958.0	1958-06-29	6.0		
+57	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+57	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+57	4	fb:cell.1_2	1-2	1-2	1-2	CD	NUMBER	1.0 - 2.0	1.0		2.0	1-2	fb:part.1_2
+57	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+57	6	fb:cell.poul_pedersen	Poul Pedersen	poul|pedersen	Poul|Pedersen	NNP|NNP	PERSON|PERSON	|				Poul Pedersen	fb:part.poul_pedersen
+58	0	fb:cell.220	220	220	220	CD	NUMBER	220.0	220.0				
+58	1	fb:cell.1958_09_14	1958-09-14	1958-09-14	1958-09-14	CD	DATE	1958-09-14	1958.0	1958-09-14	9.0		
+58	2	fb:cell.olympic_stadium_helsinki_a	Olympic Stadium, Helsinki (A)	olympic|stadium|,|helsinki|-lrb-|a|-rrb-	Olympic|Stadium|,|Helsinki|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Helsinki (A)	fb:part.olympic_stadium|fb:part.helsinki_a
+58	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+58	4	fb:cell.4_1	4-1	4-1	4-1	CD	NUMBER	4.0 - 1.0	4.0		1.0	4-1	fb:part.4_1
+58	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+58	6	fb:cell.poul_pedersen_mogens_machon_john_danielsen_2	Poul Pedersen, Mogens Machon, John Danielsen (2)	poul|pedersen|,|mogens|machon|,|john|danielsen|-lrb-|2|-rrb-	Poul|Pedersen|,|Mogens|Machon|,|John|Danielsen|-lrb-|2|-rrb-	NNP|NNP|,|NNP|NNP|,|NNP|NNP|-LRB-|LS|-RRB-	PERSON|PERSON|O|PERSON|PERSON|O|PERSON|PERSON|O|NUMBER|O	|||||||||2.0|	2.0			Poul Pedersen|Mogens Machon|John Danielsen (2)	fb:part.poul_pedersen|fb:part.mogens_machon|fb:part.john_danielsen_2
+59	0	fb:cell.221	221	221	221	CD	NUMBER	221.0	221.0				
+59	1	fb:cell.1958_09_24	1958-09-24	1958-09-24	1958-09-24	CD	DATE	1958-09-24	1958.0	1958-09-24	9.0		
+59	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+59	3	fb:cell.west_germany	West Germany	west|germany	West|Germany	NNP|NNP	LOCATION|LOCATION	|					
+59	4	fb:cell.1_1	1-1	1-1	1-1	CD	NUMBER	1.0 - 1.0	1.0		1.0	1-1	fb:part.1_1
+59	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+59	6	fb:cell.henning_enoksen	Henning Enoksen	henning|enoksen	Henning|Enoksen	NNP|NNP	PERSON|PERSON	|				Henning Enoksen	fb:part.henning_enoksen
+60	0	fb:cell.222	222	222	222	CD	NUMBER	222.0	222.0				
+60	1	fb:cell.1958_10_15	1958-10-15	1958-10-15	1958-10-15	CD	DATE	1958-10-15	1958.0	1958-10-15	10.0		
+60	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+60	3	fb:cell.netherlands	Netherlands	netherlands	Netherlands	NNP	LOCATION						
+60	4	fb:cell.1_5	1-5	1-5	1-5	CD	NUMBER	1.0 - 5.0	1.0		5.0	1-5	fb:part.1_5
+60	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+60	6	fb:cell.henning_enoksen	Henning Enoksen	henning|enoksen	Henning|Enoksen	NNP|NNP	PERSON|PERSON	|				Henning Enoksen	fb:part.henning_enoksen
+61	0	fb:cell.223	223	223	223	CD	NUMBER	223.0	223.0				
+61	1	fb:cell.1958_10_26	1958-10-26	1958-10-26	1958-10-26	CD	DATE	1958-10-26	1958.0	1958-10-26	10.0		
+61	2	fb:cell.rasunda_stadium_stockholm_a	Råsunda Stadium, Stockholm (A)	råsunda|stadium|,|stockholm|-lrb-|a|-rrb-	Råsunda|Stadium|,|Stockholm|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	LOCATION|LOCATION|O|O|O|O|O	||||||				Råsunda Stadium|Stockholm (A)	fb:part.rasunda_stadium|fb:part.stockholm_a
+61	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+61	4	fb:cell.4_4	4-4	4-4	4-4	CD	NUMBER	4.0 - 4.0	4.0		4.0	4-4	fb:part.4_4
+61	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+61	6	fb:cell.ole_madsen_2_henning_enoksen_j_rn_s_rensen	Ole Madsen (2), Henning Enoksen, Jørn Sørensen	ole|madsen|-lrb-|2|-rrb-|,|henning|enoksen|,|jørn|sørensen	ole|madsen|-lrb-|2|-rrb-|,|Henning|Enoksen|,|Jørn|Sørensen	JJ|NN|-LRB-|CD|-RRB-|,|NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON|O|PERSON|PERSON	|||2.0|||||||	2.0			Ole Madsen (2)|Henning Enoksen|Jørn Sørensen	fb:part.ole_madsen_2|fb:part.henning_enoksen|fb:part.j_rn_s_rensen
+62	0	fb:cell.224	224	224	224	CD	NUMBER	224.0	224.0				
+62	1	fb:cell.1959_06_21	1959-06-21	1959-06-21	1959-06-21	CD	DATE	1959-06-21	1959.0	1959-06-21	6.0		
+62	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+62	3	fb:cell.sweden	Sweden	sweden	Sweden	NNP	LOCATION						
+62	4	fb:cell.0_6	0-6	0-6	0-6	CD	NUMBER	0.0 - 6.0	0.0		6.0	0-6	fb:part.0_6
+62	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+62	6	fb:cell.null											fb:part.null
+63	0	fb:cell.225	225	225	225	CD	NUMBER	225.0	225.0				
+63	1	fb:cell.1959_06_26	1959-06-26	1959-06-26	1959-06-26	CD	DATE	1959-06-26	1959.0	1959-06-26	6.0		
+63	2	fb:cell.laugardalsvollur_reykjavik_a	Laugardalsvöllur, Reykjavík (A)	laugardalsvöllur|,|reykjavík|-lrb-|a|-rrb-	Laugardalsvöllur|,|Reykjavík|-lrb-|A|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|O|O|O	|||||				Laugardalsvöllur|Reykjavík (A)	fb:part.laugardalsvollur|fb:part.reykjavik_a
+63	3	fb:cell.iceland	Iceland	iceland	Iceland	NNP	LOCATION						
+63	4	fb:cell.4_2	4-2	4-2	4-2	CD	NUMBER	4.0 - 2.0	4.0		2.0	4-2	fb:part.4_2
+63	5	fb:cell.ogq	OGQ	ogq	ogq	NN	O					OGQ	fb:part.ogq
+63	6	fb:cell.jens_peter_hansen_2_ole_madsen_2	Jens Peter Hansen (2), Ole Madsen (2)	jens|peter|hansen|-lrb-|2|-rrb-|,|ole|madsen|-lrb-|2|-rrb-	Jens|Peter|Hansen|-lrb-|2|-rrb-|,|ole|madsen|-lrb-|2|-rrb-	NNP|NNP|NNP|-LRB-|LS|-RRB-|,|JJ|NN|-LRB-|CD|-RRB-	PERSON|PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON|O|NUMBER|O	||||2.0||||||2.0|	2.0		2.0	Jens Peter Hansen (2)|Ole Madsen (2)	fb:part.jens_peter_hansen_2|fb:part.ole_madsen_2
+64	0	fb:cell.226	226	226	226	CD	NUMBER	226.0	226.0				
+64	1	fb:cell.1959_07_02	1959-07-02	1959-07-02	1959-07-02	CD	DATE	1959-07-02	1959.0	1959-07-02	7.0		
+64	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+64	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+64	4	fb:cell.2_1	2-1	2-1	2-1	CD	NUMBER	2.0 - 1.0	2.0		1.0	2-1	fb:part.2_1
+64	5	fb:cell.ogq	OGQ	ogq	ogq	NN	O					OGQ	fb:part.ogq
+64	6	fb:cell.henning_enoksen_ole_madsen	Henning Enoksen, Ole Madsen	henning|enoksen|,|ole|madsen	Henning|Enoksen|,|ole|madsen	NNP|NNP|,|JJ|NN	PERSON|PERSON|O|PERSON|PERSON	||||				Henning Enoksen|Ole Madsen	fb:part.henning_enoksen|fb:part.ole_madsen
+65	0	fb:cell.227	227	227	227	CD	NUMBER	227.0	227.0				
+65	1	fb:cell.1959_08_18	1959-08-18	1959-08-18	1959-08-18	CD	DATE	1959-08-18	1959.0	1959-08-18	8.0		
+65	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+65	3	fb:cell.iceland	Iceland	iceland	Iceland	NNP	LOCATION						
+65	4	fb:cell.1_1	1-1	1-1	1-1	CD	NUMBER	1.0 - 1.0	1.0		1.0	1-1	fb:part.1_1
+65	5	fb:cell.ogq	OGQ	ogq	ogq	NN	O					OGQ	fb:part.ogq
+65	6	fb:cell.henning_enoksen	Henning Enoksen	henning|enoksen	Henning|Enoksen	NNP|NNP	PERSON|PERSON	|				Henning Enoksen	fb:part.henning_enoksen
+66	0	fb:cell.228	228	228	228	CD	NUMBER	228.0	228.0				
+66	1	fb:cell.1959_09_13	1959-09-13	1959-09-13	1959-09-13	CD	DATE	1959-09-13	1959.0	1959-09-13	9.0		
+66	2	fb:cell.ullevaal_stadion_oslo_a	Ullevaal Stadion, Oslo (A)	ullevaal|stadion|,|oslo|-lrb-|a|-rrb-	Ullevaal|Stadion|,|Oslo|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|O|LOCATION|O|O|O	||||||				Ullevaal Stadion|Oslo (A)	fb:part.ullevaal_stadion|fb:part.oslo_a
+66	3	fb:cell.norway	Norway	norway	Norway	NNP	LOCATION						
+66	4	fb:cell.4_2	4-2	4-2	4-2	CD	NUMBER	4.0 - 2.0	4.0		2.0	4-2	fb:part.4_2
+66	5	fb:cell.ogq_nc	OGQ\nNC	ogq|nc	ogq|nc	NN|NN	O|O	|				OGQ|NC	fb:part.ogq|fb:part.nc
+66	6	fb:cell.harald_nielsen_henning_enoksen_2_poul_pedersen	Harald Nielsen, Henning Enoksen (2), Poul Pedersen	harald|nielsen|,|henning|enoksen|-lrb-|2|-rrb-|,|poul|pedersen	Harald|Nielsen|,|Henning|Enoksen|-lrb-|2|-rrb-|,|Poul|Pedersen	NNP|NNP|,|NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP	PERSON|PERSON|O|PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON	||||||2.0||||	2.0			Harald Nielsen|Henning Enoksen (2)|Poul Pedersen	fb:part.harald_nielsen|fb:part.henning_enoksen_2|fb:part.poul_pedersen
+67	0	fb:cell.229	229	229	229	CD	NUMBER	229.0	229.0				
+67	1	fb:cell.1959_09_23	1959-09-23	1959-09-23	1959-09-23	CD	DATE	1959-09-23	1959.0	1959-09-23	9.0		
+67	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+67	3	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+67	4	fb:cell.2_2	2-2	2-2	2-2	CD	NUMBER	2.0 - 2.0	2.0		2.0	2-2	fb:part.2_2
+67	5	fb:cell.enq	ENQ	enq	enq	NN	O					ENQ	fb:part.enq
+67	6	fb:cell.poul_pedersen_bent_hansen	Poul Pedersen, Bent Hansen	poul|pedersen|,|bent|hansen	Poul|Pedersen|,|Bent|Hansen	NNP|NNP|,|NNP|NNP	PERSON|PERSON|O|O|PERSON	||||				Poul Pedersen|Bent Hansen	fb:part.poul_pedersen|fb:part.bent_hansen
+68	0	fb:cell.230	230	230	230	CD	NUMBER	230.0	230.0				
+68	1	fb:cell.1959_10_04	1959-10-04	1959-10-04	1959-10-04	CD	DATE	1959-10-04	1959.0	1959-10-04	10.0		
+68	2	fb:cell.idr_tsparken_copenhagen_h	Idrætsparken, Copenhagen (H)	idrætsparken|,|copenhagen|-lrb-|h|-rrb-	Idrætsparken|,|Copenhagen|-lrb-|H|-rrb-	NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|O|LOCATION|O|O|O	|||||				Idrætsparken|Copenhagen (H)	fb:part.idr_tsparken|fb:part.copenhagen_h
+68	3	fb:cell.finland	Finland	finland	Finland	NNP	LOCATION						
+68	4	fb:cell.4_0	4-0	4-0	4-0	JJ	O		4.0		0.0	4-0	fb:part.4_0
+68	5	fb:cell.nc	NC	nc	nc	NN	O					NC	fb:part.nc
+68	6	fb:cell.harald_nielsen_3_john_kramer	Harald Nielsen (3), John Kramer	harald|nielsen|-lrb-|3|-rrb-|,|john|kramer	Harald|Nielsen|-lrb-|3|-rrb-|,|John|Kramer	NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP	PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON	|||3.0||||	3.0			Harald Nielsen (3)|John Kramer	fb:part.harald_nielsen_3|fb:part.john_kramer
+69	0	fb:cell.231	231	231	231	CD	NUMBER	231.0	231.0				
+69	1	fb:cell.1959_10_18	1959-10-18	1959-10-18	1959-10-18	CD	DATE	1959-10-18	1959.0	1959-10-18	10.0		
+69	2	fb:cell.stadion_za_luzankami_brno_a	Stadion Za Lužánkami, Brno (A)	stadion|za|lužánkami|,|brno|-lrb-|a|-rrb-	Stadion|Za|Lužánkami|,|Brno|-lrb-|A|-rrb-	NNP|NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	O|O|LOCATION|O|O|O|O|O	|||||||				Stadion Za Lužánkami|Brno (A)	fb:part.stadion_za_luzankami|fb:part.brno_a
+69	3	fb:cell.czechoslovakia	Czechoslovakia	czechoslovakia	Czechoslovakia	NNP	LOCATION						
+69	4	fb:cell.1_5	1-5	1-5	1-5	CD	NUMBER	1.0 - 5.0	1.0		5.0	1-5	fb:part.1_5
+69	5	fb:cell.enq	ENQ	enq	enq	NN	O					ENQ	fb:part.enq
+69	6	fb:cell.john_kramer	John Kramer	john|kramer	John|Kramer	NNP|NNP	PERSON|PERSON	|				John Kramer	fb:part.john_kramer
+70	0	fb:cell.232	232	232	232	CD	NUMBER	232.0	232.0				
+70	1	fb:cell.1959_12_02	1959-12-02	1959-12-02	1959-12-02	CD	DATE	1959-12-02	1959.0	1959-12-02	12.0		
+70	2	fb:cell.olympic_stadium_athens_a	Olympic Stadium, Athens (A)	olympic|stadium|,|athens|-lrb-|a|-rrb-	Olympic|Stadium|,|Athens|-lrb-|A|-rrb-	NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	MISC|MISC|O|LOCATION|O|O|O	||||||				Olympic Stadium|Athens (A)	fb:part.olympic_stadium|fb:part.athens_a
+70	3	fb:cell.greece	Greece	greece	Greece	NNP	LOCATION						
+70	4	fb:cell.3_1	3-1	3-1	3-1	CD	NUMBER	3.0 - 1.0	3.0		1.0	3-1	fb:part.3_1
+70	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+70	6	fb:cell.henning_enoksen_2_poul_pedersen	Henning Enoksen (2), Poul Pedersen	henning|enoksen|-lrb-|2|-rrb-|,|poul|pedersen	Henning|Enoksen|-lrb-|2|-rrb-|,|Poul|Pedersen	NNP|NNP|-LRB-|LS|-RRB-|,|NNP|NNP	PERSON|PERSON|O|NUMBER|O|O|PERSON|PERSON	|||2.0||||	2.0			Henning Enoksen (2)|Poul Pedersen	fb:part.henning_enoksen_2|fb:part.poul_pedersen
+71	0	fb:cell.233	233	233	233	CD	NUMBER	233.0	233.0				
+71	1	fb:cell.1959_12_06	1959-12-06	1959-12-06	1959-12-06	CD	DATE	1959-12-06	1959.0	1959-12-06	12.0		
+71	2	fb:cell.vasil_levski_national_stadium_sofia_a	Vasil Levski National Stadium, Sofia (A)	vasil|levski|national|stadium|,|sofia|-lrb-|a|-rrb-	Vasil|Levski|National|Stadium|,|Sofia|-lrb-|A|-rrb-	NNP|NNP|NNP|NNP|,|NNP|-LRB-|NNP|-RRB-	PERSON|PERSON|O|O|O|LOCATION|O|O|O	||||||||				Vasil Levski National Stadium|Sofia (A)	fb:part.vasil_levski_national_stadium|fb:part.sofia_a
+71	3	fb:cell.bulgaria	Bulgaria	bulgaria	Bulgaria	NNP	LOCATION						
+71	4	fb:cell.1_2	1-2	1-2	1-2	CD	NUMBER	1.0 - 2.0	1.0		2.0	1-2	fb:part.1_2
+71	5	fb:cell.f	F	f	f	NN	O					F	fb:part.f
+71	6	fb:cell.henning_enoksen	Henning Enoksen	henning|enoksen	Henning|Enoksen	NNP|NNP	PERSON|PERSON	|				Henning Enoksen	fb:part.henning_enoksen

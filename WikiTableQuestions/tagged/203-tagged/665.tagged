@@ -1,0 +1,120 @@
+row	col	id	content	tokens	lemmaTokens	posTags	nerTags	nerValues	number	date	num2	list	listId
+-1	0	fb:row.row.name	Name	name	name	VB	O						
+-1	1	fb:row.row.municipality	Municipality	municipality	municipality	NN	O						
+-1	2	fb:row.row.established	Established	established	establish	VBN	O						
+-1	3	fb:row.row.tower_height_in_meters_ft	Tower height\nin meters (ft)	tower|height|in|meters|-lrb-|ft|-rrb-	Tower|height|in|meter|-lrb-|ft|-rrb-	NNP|NN|IN|NNS|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||					
+-1	4	fb:row.row.focal_plane_in_meters_ft	Focal plane\nin meters (ft)	focal|plane|in|meters|-lrb-|ft|-rrb-	focal|plane|in|meter|-lrb-|ft|-rrb-	JJ|NN|IN|NNS|-LRB-|NN|-RRB-	O|O|O|O|O|O|O	||||||					
+-1	5	fb:row.row.current_status	Current status	current|status	current|status	JJ|NN	DATE|O	PRESENT_REF|					
+-1	6	fb:row.row.current_condition	Current condition	current|condition	current|condition	JJ|NN	DATE|O	PRESENT_REF|					
+0	0	fb:cell.los_morrillos_light	Los Morrillos Light	los|morrillos|light	Los|Morrillos|Light	NNP|NNP|NNP	O|O|O	||					
+0	1	fb:cell.cabo_rojo	Cabo Rojo	cabo|rojo	Cabo|Rojo	NNP|NNP	PERSON|PERSON	|				Cabo Rojo	fb:part.cabo_rojo
+0	2	fb:cell.1882	1882	1882	1882	CD	DATE	1882	1882.0	1882-xx-xx			
+0	3	fb:cell.12_m_40_ft	12 m (40 ft.)	12|m|-lrb-|40|ft.|-rrb-	12|m|-lrb-|40|ft.|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	12.0|||40.0||	12.0		40.0	12 m (40 ft.)	fb:part.12_m_40_ft
+0	4	fb:cell.37_m_121_ft	37 m (121 ft)	37|m|-lrb-|121|ft|-rrb-	37|m|-lrb-|121|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	37.0|||121.0||	37.0		121.0	37 m (121 ft)	fb:part.37_m_121_ft
+0	5	fb:cell.active	Active	active	active	JJ	O						
+0	6	fb:cell.restored_for_tourism	Restored for tourism	restored|for|tourism	restore|for|tourism	VBN|IN|NN	O|O|O	||				Restored for tourism	fb:part.restored_for_tourism
+1	0	fb:cell.punta_higuero_light	Punta Higuero Light	punta|higuero|light	Punta|Higuero|Light	NNP|NNP|NNP	O|O|O	||					
+1	1	fb:cell.rincon	Rincón	rincón	rincón	NN	PERSON					Rincón	fb:part.rincon
+1	2	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx			
+1	3	fb:cell.21_m_69_ft	21 m (69 ft)	21|m|-lrb-|69|ft|-rrb-	21|m|-lrb-|69|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	21.0|||69.0||	21.0		69.0	21 m (69 ft)	fb:part.21_m_69_ft
+1	4	fb:cell.27_m_90_ft	27 m (90 ft)	27|m|-lrb-|90|ft|-rrb-	27|m|-lrb-|90|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	27.0|||90.0||	27.0		90.0	27 m (90 ft)	fb:part.27_m_90_ft
+1	5	fb:cell.active	Active	active	active	JJ	O						
+1	6	fb:cell.it_has_been_fully_restored_and_is_part_of_the_el_faro_park_a_tourist_and_recreation_center	It has been fully restored and is part of the El Faro Park, a tourist and recreation center.	it|has|been|fully|restored|and|is|part|of|the|el|faro|park|,|a|tourist|and|recreation|center|.	it|have|be|fully|restore|and|be|part|of|the|El|Faro|Park|,|a|tourist|and|recreation|center|.	PRP|VBD-AUX|VBD-AUX|RB|VBN|CC|VBD-AUX|NN|IN|DT|NNP|NNP|NNP|,|DT|NN|CC|NN|NN|.	O|O|O|O|O|O|O|O|O|O|LOCATION|LOCATION|LOCATION|O|O|O|O|O|O|O	|||||||||||||||||||				It has been fully restored and is part of the El Faro Park|a tourist and recreation center.	fb:part.it_has_been_fully_restored_and_is_part_of_the_el_faro_park|fb:part.a_tourist_and_recreation_center
+2	0	fb:cell.punta_borinquen_light	Punta Borinquen Light	punta|borinquen|light	Punta|Borinquen|Light	NNP|NNP|NNP	O|O|O	||					
+2	1	fb:cell.aguadilla	Aguadilla	aguadilla	Aguadilla	NNP	LOCATION					Aguadilla	fb:part.aguadilla
+2	2	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx			
+2	3	fb:cell.18_m_60_ft	18 m (60 ft)	18|m|-lrb-|60|ft|-rrb-	18|m|-lrb-|60|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	18.0|||60.0||	18.0		60.0	18 m (60 ft)	fb:part.18_m_60_ft
+2	4	fb:cell.89_m_292_ft	89 m (292 ft)	89|m|-lrb-|292|ft|-rrb-	89|m|-lrb-|292|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	89.0|||292.0||	89.0		292.0	89 m (292 ft)	fb:part.89_m_292_ft
+2	5	fb:cell.active	Active	active	active	JJ	O						
+2	6	fb:cell.operational	Operational	operational	operational	JJ	O					Operational	fb:part.operational
+3	0	fb:cell.arecibo_light	Arecibo Light	arecibo|light	Arecibo|Light	NNP|NNP	O|O	|					
+3	1	fb:cell.arecibo	Arecibo	arecibo	Arecibo	NNP	LOCATION					Arecibo	fb:part.arecibo
+3	2	fb:cell.1898	1898	1898	1898	CD	DATE	1898	1898.0	1898-xx-xx			
+3	3	fb:cell.14_m_46_ft	14 m (46 ft)	14|m|-lrb-|46|ft|-rrb-	14|m|-lrb-|46|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	14.0|||46.0||	14.0		46.0	14 m (46 ft)	fb:part.14_m_46_ft
+3	4	fb:cell.36_m_120_ft	36 m (120 ft)	36|m|-lrb-|120|ft|-rrb-	36|m|-lrb-|120|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	36.0|||120.0||	36.0		120.0	36 m (120 ft)	fb:part.36_m_120_ft
+3	5	fb:cell.active	Active	active	active	JJ	O						
+3	6	fb:cell.restored_for_tourism	Restored for tourism	restored|for|tourism	restore|for|tourism	VBN|IN|NN	O|O|O	||				Restored for tourism	fb:part.restored_for_tourism
+4	0	fb:cell.port_san_juan_light	Port San Juan Light	port|san|juan|light	Port|San|Juan|Light	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+4	1	fb:cell.san_juan	San Juan	san|juan	San|Juan	NNP|NNP	LOCATION|LOCATION	|				San Juan	fb:part.san_juan
+4	2	fb:cell.1846	1846	1846	1846	CD	DATE	1846	1846.0	1846-xx-xx			
+4	3	fb:cell.15_5_m_51_ft	15.5 m (51 ft)	15.5|m|-lrb-|51|ft|-rrb-	15.5|m|-lrb-|51|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	15.5|||51.0||	15.5		51.0	15.5 m (51 ft)	fb:part.15_5_m_51_ft
+4	4	fb:cell.55_m_181_ft	55 m (181 ft)	55|m|-lrb-|181|ft|-rrb-	55|m|-lrb-|181|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	55.0|||181.0||	55.0		181.0	55 m (181 ft)	fb:part.55_m_181_ft
+4	5	fb:cell.active	Active	active	active	JJ	O						
+4	6	fb:cell.restored_for_tourism_also_known_as_el_morro_faro_de_morro_or_faro_del_castillo_del_morro_or_puerto_san_juan_light	Restored for tourism. Also known as El Morro, Faro de Morro or Faro del Castillo del Morro or Puerto San Juan Light.	restored|for|tourism|.|also|known|as|el|morro|,|faro|de|morro|or|faro|del|castillo|del|morro|or|puerto|san|juan|light|.	restore|for|tourism|.|also|know|as|El|Morro|,|Faro|de|Morro|or|Faro|del|Castillo|del|Morro|or|Puerto|San|Juan|Light|.	VBN|IN|NN|.|RB|VBN|IN|NNP|NNP|,|NNP|IN|NNP|CC|NNP|NNP|NNP|NNP|NNP|CC|NNP|NNP|NNP|NNP|.	O|O|O|O|O|O|O|PERSON|PERSON|O|PERSON|PERSON|PERSON|O|LOCATION|LOCATION|LOCATION|LOCATION|LOCATION|O|O|O|O|O|O	||||||||||||||||||||||||				Restored for tourism. Also known as El Morro|Faro de Morro or Faro del Castillo del Morro or Puerto San Juan Light.	fb:part.restored_for_tourism_also_known_as_el_morro|fb:part.faro_de_morro_or_faro_del_castillo_del_morro_or_puerto_san_juan_light
+5	0	fb:cell.cape_san_juan_light	Cape San Juan Light	cape|san|juan|light	Cape|San|Juan|Light	NNP|NNP|NNP|NNP	O|O|O|O	|||					
+5	1	fb:cell.fajardo	Fajardo	fajardo	Fajardo	NNP	PERSON					Fajardo	fb:part.fajardo
+5	2	fb:cell.1880	1880	1880	1880	NNP	DATE	1880	1880.0	1880-xx-xx			
+5	3	fb:cell.14_m_45_ft	14 m (45 ft)	14|m|-lrb-|45|ft|-rrb-	14|m|-lrb-|45|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	14.0|||45.0||	14.0		45.0	14 m (45 ft)	fb:part.14_m_45_ft
+5	4	fb:cell.79_m_260_ft	79 m (260 ft)	79|m|-lrb-|260|ft|-rrb-	79|m|-lrb-|260|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	79.0|||260.0||	79.0		260.0	79 m (260 ft)	fb:part.79_m_260_ft
+5	5	fb:cell.active	Active	active	active	JJ	O						
+5	6	fb:cell.restored_for_tourism	Restored for tourism	restored|for|tourism	restore|for|tourism	VBN|IN|NN	O|O|O	||				Restored for tourism	fb:part.restored_for_tourism
+6	0	fb:cell.guanica_light	Guánica Light	guánica|light	Guánica|Light	NNP|NNP	O|O	|					
+6	1	fb:cell.guanica	Guanica	guanica	Guanica	NNP	LOCATION					Guanica	fb:part.guanica
+6	2	fb:cell.1893	1893	1893	1893	CD	DATE	1893	1893.0	1893-xx-xx			
+6	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+6	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+6	5	fb:cell.inactive	Inactive	inactive	inactive	JJ	O						
+6	6	fb:cell.ruins	Ruins	ruins	ruin	NNS	MISC					Ruins	fb:part.ruins
+7	0	fb:cell.cardona_island_light	Cardona Island Light	cardona|island|light	Cardona|Island|Light	NNP|NNP|NNP	PERSON|O|O	||					
+7	1	fb:cell.ponce	Ponce	ponce	Ponce	NNP	LOCATION					Ponce	fb:part.ponce
+7	2	fb:cell.1889	1889	1889	1889	CD	DATE	1889	1889.0	1889-xx-xx			
+7	3	fb:cell.11_m_36_ft	11 m (36 ft)	11|m|-lrb-|36|ft|-rrb-	11|m|-lrb-|36|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	11.0|||36.0||	11.0		36.0	11 m (36 ft)	fb:part.11_m_36_ft
+7	4	fb:cell.14_m_46_ft	14 m (46 ft)	14|m|-lrb-|46|ft|-rrb-	14|m|-lrb-|46|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	14.0|||46.0||	14.0		46.0	14 m (46 ft)	fb:part.14_m_46_ft
+7	5	fb:cell.active	Active	active	active	JJ	O						
+7	6	fb:cell.good	Good	good	good	JJ	O					Good	fb:part.good
+8	0	fb:cell.caja_de_muertos_light	Caja de Muertos Light	caja|de|muertos|light	Caja|de|Muertos|Light	NNP|IN|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION|ORGANIZATION	|||					
+8	1	fb:cell.ponce	Ponce	ponce	Ponce	NNP	LOCATION					Ponce	fb:part.ponce
+8	2	fb:cell.1887	1887	1887	1887	CD	DATE	1887	1887.0	1887-xx-xx			
+8	3	fb:cell.19_m_63_ft	19 m (63 ft)	19|m|-lrb-|63|ft|-rrb-	19|m|-lrb-|63|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	19.0|||63.0||	19.0		63.0	19 m (63 ft)	fb:part.19_m_63_ft
+8	4	fb:cell.91_m_297_ft	91 m (297 ft)	91|m|-lrb-|297|ft|-rrb-	91|m|-lrb-|297|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	91.0|||297.0||	91.0		297.0	91 m (297 ft)	fb:part.91_m_297_ft
+8	5	fb:cell.active	Active	active	active	JJ	O						
+8	6	fb:cell.restored_for_tourism	Restored for tourism	restored|for|tourism	restore|for|tourism	VBN|IN|NN	O|O|O	||				Restored for tourism	fb:part.restored_for_tourism
+9	0	fb:cell.punta_de_las_figuras_light	Punta de las Figuras Light	punta|de|las|figuras|light	punta|de|las|figuras|light	FW|FW|FW|FW|NN	O|O|O|O|O	||||					
+9	1	fb:cell.arroyo	Arroyo	arroyo	Arroyo	NNP	PERSON					Arroyo	fb:part.arroyo
+9	2	fb:cell.1893	1893	1893	1893	CD	DATE	1893	1893.0	1893-xx-xx			
+9	3	fb:cell.15_m_50_ft	15 m (50 ft)	15|m|-lrb-|50|ft|-rrb-	15|m|-lrb-|50|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	15.0|||50.0||	15.0		50.0	15 m (50 ft)	fb:part.15_m_50_ft
+9	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+9	5	fb:cell.inactive	Inactive	inactive	inactive	JJ	O						
+9	6	fb:cell.restored_for_tourism	Restored for tourism	restored|for|tourism	restore|for|tourism	VBN|IN|NN	O|O|O	||				Restored for tourism	fb:part.restored_for_tourism
+10	0	fb:cell.punta_tuna_light	Punta Tuna Light	punta|tuna|light	Punta|Tuna|Light	NNP|NNP|NNP	O|O|O	||					
+10	1	fb:cell.maunabo	Maunabo	maunabo	Maunabo	NNP	PERSON					Maunabo	fb:part.maunabo
+10	2	fb:cell.1892	1892	1892	1892	CD	DATE	1892	1892.0	1892-xx-xx			
+10	3	fb:cell.15_m_49_ft	15 m (49 ft)	15|m|-lrb-|49|ft|-rrb-	15|m|-lrb-|49|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	15.0|||49.0||	15.0		49.0	15 m (49 ft)	fb:part.15_m_49_ft
+10	4	fb:cell.34_m_111_ft	34 m (111 ft)	34|m|-lrb-|111|ft|-rrb-	34|m|-lrb-|111|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	34.0|||111.0||	34.0		111.0	34 m (111 ft)	fb:part.34_m_111_ft
+10	5	fb:cell.active	Active	active	active	JJ	O						
+10	6	fb:cell.restored_for_tourism	Restored for tourism	restored|for|tourism	restore|for|tourism	VBN|IN|NN	O|O|O	||				Restored for tourism	fb:part.restored_for_tourism
+11	0	fb:cell.mona_island_light	Mona Island Light	mona|island|light	Mona|Island|Light	NNP|NNP|NNP	PERSON|O|O	||					
+11	1	fb:cell.mayaguez_mona_island	Mayagüez\n(Mona Island)	mayagüez|-lrb-|mona|island|-rrb-	mayagüez|-lrb-|Mona|Island|-rrb-	NN|-LRB-|NNP|NNP|-RRB-	O|O|LOCATION|LOCATION|O	||||				Mayagüez|(Mona Island)	fb:part.mayaguez|fb:part._mona_island
+11	2	fb:cell.1900	1900	1900	1900	CD	DATE	1900	1900.0	1900-xx-xx			
+11	3	fb:cell.16_m_52_ft	16 m (52 ft)	16|m|-lrb-|52|ft|-rrb-	16|m|-lrb-|52|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	16.0|||52.0||	16.0		52.0	16 m (52 ft)	fb:part.16_m_52_ft
+11	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+11	5	fb:cell.inactive	Inactive	inactive	inactive	JJ	O						
+11	6	fb:cell.its_condition_is_considered_dire_unless_restored_soon_many_considered_the_lighthouse_lost	Its condition is considered dire. Unless restored soon, many considered the lighthouse lost.	its|condition|is|considered|dire|.|unless|restored|soon|,|many|considered|the|lighthouse|lost|.	its|condition|be|consider|dire|.|unless|restore|soon|,|many|consider|the|lighthouse|lose|.	PRP$|NN|VBD-AUX|VBN|JJ|.|IN|VBN|RB|,|JJ|VBD|DT|NNP|VBD|.	O|O|O|O|O|O|O|O|O|O|O|O|O|O|O|O	|||||||||||||||				Its condition is considered dire. Unless restored soon|many considered the lighthouse lost.	fb:part.its_condition_is_considered_dire_unless_restored_soon|fb:part.many_considered_the_lighthouse_lost
+12	0	fb:cell.punta_mulas_light	Punta Mulas Light	punta|mulas|light	Punta|Mulas|Light	NNP|NNP|NNP	ORGANIZATION|ORGANIZATION|ORGANIZATION	||					
+12	1	fb:cell.vieques	Vieques	vieques	Vieques	NNP	LOCATION					Vieques	fb:part.vieques
+12	2	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx			
+12	3	fb:cell.10_m_32_ft	10 m (32 ft)	10|m|-lrb-|32|ft|-rrb-	10|m|-lrb-|32|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	10.0|||32.0||	10.0		32.0	10 m (32 ft)	fb:part.10_m_32_ft
+12	4	fb:cell.21_m_68_ft	21 m (68 ft.)	21|m|-lrb-|68|ft.|-rrb-	21|m|-lrb-|68|ft.|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	21.0|||68.0||	21.0		68.0	21 m (68 ft.)	fb:part.21_m_68_ft
+12	5	fb:cell.active	Active	active	active	JJ	O						
+12	6	fb:cell.restored_for_tourism	Restored for tourism	restored|for|tourism	restore|for|tourism	VBN|IN|NN	O|O|O	||				Restored for tourism	fb:part.restored_for_tourism
+13	0	fb:cell.puerto_ferro_light	Puerto Ferro Light	puerto|ferro|light	Puerto|Ferro|Light	NNP|NNP|NNP	O|O|O	||					
+13	1	fb:cell.vieques	Vieques	vieques	Vieques	NNP	LOCATION					Vieques	fb:part.vieques
+13	2	fb:cell.1896	1896	1896	1896	CD	DATE	1896	1896.0	1896-xx-xx			
+13	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+13	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+13	5	fb:cell.inactive	Inactive	inactive	inactive	JJ	O						
+13	6	fb:cell.abandoned_and_deteriorating_rapidly	Abandoned and deteriorating rapidly	abandoned|and|deteriorating|rapidly	abandon|and|deteriorate|rapidly	VBN|CC|VBG|RB	O|O|O|O	|||				Abandoned and deteriorating rapidly	fb:part.abandoned_and_deteriorating_rapidly
+14	0	fb:cell.culebrita_island_light	Culebrita Island Light	culebrita|island|light	Culebrita|Island|Light	NNP|NNP|NNP	O|O|O	||					
+14	1	fb:cell.culebra	Culebra	culebra	Culebra	NNP	LOCATION					Culebra	fb:part.culebra
+14	2	fb:cell.1886	1886	1886	1886	CD	DATE	1886	1886.0	1886-xx-xx			
+14	3	fb:cell.13_m_43_ft	13 m (43 ft)	13|m|-lrb-|43|ft|-rrb-	13|m|-lrb-|43|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	13.0|||43.0||	13.0		43.0	13 m (43 ft)	fb:part.13_m_43_ft
+14	4	fb:cell.93_m_305_ft	93 m (305 ft)	93|m|-lrb-|305|ft|-rrb-	93|m|-lrb-|305|ft|-rrb-	CD|NN|-LRB-|CD|NN|-RRB-	NUMBER|O|O|NUMBER|O|O	93.0|||305.0||	93.0		305.0	93 m (305 ft)	fb:part.93_m_305_ft
+14	5	fb:cell.active	Active	active	active	JJ	O						
+14	6	fb:cell.in_ruins	In Ruins	in|ruins	in|ruin	IN|NNS	O|MISC	|				In Ruins	fb:part.in_ruins
+15	0	fb:cell.cabras_island_light	Cabras Island Light	cabras|island|light	Cabras|Island|Light	NNP|NNP|NNP	O|O|O	||					
+15	1	fb:cell.ceiba	Ceiba	ceiba	Ceiba	NNP	PERSON					Ceiba	fb:part.ceiba
+15	2	fb:cell.1908	1908	1908	1908	CD	DATE	1908	1908.0	1908-xx-xx			
+15	3	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+15	4	fb:cell.n_a	N/A	n\\/a	n\\/a	NN	O					N|A	fb:part.n|fb:part.a
+15	5	fb:cell.destroyed	Destroyed	destroyed	destroy	VBN	O						
+15	6	fb:cell.abandoned_in_1965_and_destroyed_in_1966	Abandoned in 1965 and destroyed in 1966	abandoned|in|1965|and|destroyed|in|1966	abandon|in|1965|and|destroy|in|1966	VBN|IN|CD|CC|VBN|IN|CD	O|O|DATE|O|O|O|DATE	||1965||||1966	1965.0		1966.0	Abandoned in 1965 and destroyed in 1966	fb:part.abandoned_in_1965_and_destroyed_in_1966
