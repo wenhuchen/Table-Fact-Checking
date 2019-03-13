@@ -11,10 +11,11 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style>
             table, td, th {  
-              border: 1px solid black;
-              padding: 5px;
-              color: black;
-              font-family: verdana;
+                border: 1px solid black;
+                padding: 5px;
+                color: black;
+                font-family: verdana;
+                background-color: white;
             }
             
         </style>
@@ -71,21 +72,21 @@ $(document).ready(function(){
   });
   */
     var table;
-    $.get('https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/data/training.tsv', function(data){
+    $.get('https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/data/all_training.tsv', function(data){
         table = parseDSV(data, '\t');
     });
     var generated = ""
-    for (var i = 0; i < 50; i++){
+    for (var i = 0; i < 20; i++){
         // Generate Table Content
         $.get(`https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/csv/200-csv/${i}.html`, function(data){
             generated += data;
             //$(`#table${i}`).html(data + '<div id=' + `qa${i}` + '></div>');
         }, 'text');
         // Generate QA pairs
-        t = getElem(table, 'context', `csv/200-csv/${i}.csv`);
+        entries = getElem(table, 'context', `csv/200-csv/${i}.csv`);
         var qa = "<div>";
-        table.forEach(function(t){
-            qa += "<p> Question: \t " + t['utterance'] + "<br>" + "Ansewer: \t " + t['targetValue'] + "<\p>";
+        entries.forEach(function(val){
+            qa += "<p> Question: \t " + val['utterance'] + "<br>" + "Ansewer: \t " + val['targetValue'] + "<\p>";
         });
         qa += "</div>";
         var next = i + 1;
