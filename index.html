@@ -26,7 +26,9 @@
     <body>
         
         <h1 id='first'>GETTING STARTED WITH BRACKETS</h1>
-        <div id="table" class="panel panel-default"></div>
+        <!--<div id="table" class="panel panel-default"></div>-->
+
+        <div id="new_table" data-source="https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/csv/200-csv/1.html"></div>
         <!--<div id="employee_table"></div>-->
         <!--<div id="qa"></div>-->
         
@@ -79,7 +81,7 @@ $(document).ready(function(){
         table = parseDSV(data, '\t');
     });
     var generated = ""
-    for (var i = 0; i < 50; i++){
+    for (var i = 0; i < 1; i++){
         // Generate Table Content
         $.get(`https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/csv/200-csv/${i}.html`, function(data){
             data = data.replace(/ÿ/gi, "")
@@ -97,7 +99,15 @@ $(document).ready(function(){
         //$(`#qa${i}`).html(qa + '<div id=' + `table${next}` + '></div>');
         generated += qa;
     };
-    $("#table").html(generated);    
+    $("#table").html(generated);
+    //jQuery.each($('a'), function(i, val){val.target="_blank"})
+    $('a').each(function(i, val){
+        console.log(val.href)
+        if(val.href.match(/wikipedia/g))
+            val.target="_blank";
+        else
+            val.href = "#"
+    });
 });
     
 function parseCSV(data) {
