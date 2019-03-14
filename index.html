@@ -16,6 +16,7 @@
                 color: black;
                 font-family: verdana;
                 background-color: white;
+                font-size: smaller;
             }
             .panel {
                 display: inline-block;
@@ -26,10 +27,7 @@
     <body>
         
         <h1 id='first'>GETTING STARTED WITH BRACKETS</h1>
-        <!--<div id="table" class="panel panel-default"></div>-->
-
-        <div id="new_table" data-source="https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/csv/200-csv/1.html"></div>
-        <!--<div id="employee_table"></div>-->
+        <div id="employee_table"></div>
         <!--<div id="qa"></div>-->
         
         <!--<div id="form-group">
@@ -41,41 +39,8 @@
 
 <script>
 jQuery.ajaxSetup({async:false});
+/*
 $(document).ready(function(){
-  /*
-  $.ajax({
-   url:"WikiTableQuestions/csv/200-csv/0.html",
-   dataType:"text",
-   success:function(data)
-   {
-
-    var employee_data = data.split(/\r?\n|\r/);
-    var table_data = '<table class="table table-bordered table-striped">';
-    for(var count = 0; count<employee_data.length; count++)
-    {
-     var cell_data = employee_data[count].split("\t");
-     table_data += '<tr>';
-     for(var cell_count=0; cell_count<cell_data.length; cell_count++)
-     {
-      if(count === 0)
-      {
-       let val = cell_data[cell_count]
-       table_data += `<th onclick='simple(${val})'>`+'<a href="#">' + val + '</a>' + '</th>';
-      }
-      else
-      {
-       let val = cell_data[cell_count]
-       table_data += `<td onclick='simple(${val})'>`+'<a href="#">' + val + '</a>' + '</td>';
-      }
-     }
-     table_data += '</tr>';
-    }
-    table_data += '</table>';
-    console.log($('#employee_table'));
-    $("#panel").html(table_data)
-   }
-  });
-  */
     var table;
     $.get('https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/data/all_training.tsv', function(data){
         table = parseDSV(data, '\t');
@@ -109,6 +74,12 @@ $(document).ready(function(){
             val.href = "#"
     });
 });
+*/
+$(document).ready(function(){
+    $.get('WikiTableQuestions/csv/all-csv/204-553.html', function(data){
+        $('#employee_table').html(data)
+    });
+})
     
 function parseCSV(data) {
     return parseDSV(data, ",");
