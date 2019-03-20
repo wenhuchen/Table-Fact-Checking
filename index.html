@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>GETTING STARTED WITH BRACKETS</title>
+        <title>Visualization</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -22,12 +22,17 @@
                 display: inline-block;
                 background: white;
             }
+            p {
+              margin-left: 15px;
+            }
         </style>
     </head>
     <body>
         
-        <h1 id='first'>GETTING STARTED WITH BRACKETS</h1>
-        <div id="employee_table"></div>
+        <h1 id='first'>Table-Text Visualization</h1>
+        <div id='table' class="panel panel-default">
+            
+        </div>
         <!--<div id="qa"></div>-->
         
         <!--<div id="form-group">
@@ -76,10 +81,29 @@ $(document).ready(function(){
 });
 */
 $(document).ready(function(){
-    $.get('WikiTableQuestions/wikidata/all_html/1-1000181-1.html', function(data){
-        $('#employee_table').html(data)
+    //var url = "https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/wikidata/all_html/2-1871428-1.html"
+    //$.get(url, function(data){
+    //    $('#employee_table').html(data)
+    //});
+    var prev = ""
+    $.getJSON("v2_results.json", function(json) {
+        str = ''
+        for(var i = 0; i < 500; i++){
+            var url = json[i][0]; // this will show the info it in firebug console
+            var fields = url.split('/')
+            var filename = 'WikiTableQuestions/wikidata/all_html_back/' + fields[fields.length - 1]
+            console.log(filename)
+            if(url != prev){
+                $.get(filename, function(data){
+                    str = str + "<p>" +json[i][0] + "</p>" + `<div id="table${i}" class="panel-body">` + data + "</div>"
+                });
+                prev = url;
+            }
+            str += "<p>" + json[i][3] + "</p>"
+        }
+        $("#table").html(str);
     });
-})
+});
     
 function parseCSV(data) {
     return parseDSV(data, ",");
