@@ -82,23 +82,27 @@ $(document).ready(function(){
 */
 $(document).ready(function(){
     var prev = ""
-    $.getJSON("v2_rewrite.json", function(json) {
+    console.log("Start Loading")
+    $.getJSON("v2_rewrite.json", function(json){
         str = ''
-        for(var i = 0; i < 150; i++){
-            console.log(json[i])
+        for(var i = 0; i < 20; i++){
+            console.log(json[i][0]);
             var url = json[i][0]; // this will show the info it in firebug console
             //var fields = url.split('/')
             //var filename = 'WikiTableQuestions/wikidata/all_html_back/' + fields[fields.length - 1]
             console.log(url)
             if(url != prev){
                 $.get(url, function(data){
-                    str = str + "<p>" +json[i][0] + "</p>" + `<div id="table${i}" class="panel-body">` + data + "</div>"
+                    str = str + `<div id="table${i}" class="panel-body">` + data + "</div>"
                 });
                 prev = url;
             }
             str += "<p>" + json[i][3] + "</p>"
         }
         $("#table").html(str);
+    })
+    .fail(function(e){
+        console.log(e);  
     });
 });
     
