@@ -81,20 +81,17 @@ $(document).ready(function(){
 });
 */
 $(document).ready(function(){
-    //var url = "https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/wikidata/all_html/2-1871428-1.html"
-    //$.get(url, function(data){
-    //    $('#employee_table').html(data)
-    //});
     var prev = ""
-    $.getJSON("v2_results.json", function(json) {
+    $.getJSON("v2_rewrite.json", function(json) {
         str = ''
-        for(var i = 0; i < 500; i++){
+        for(var i = 0; i < 150; i++){
+            console.log(json[i])
             var url = json[i][0]; // this will show the info it in firebug console
-            var fields = url.split('/')
-            var filename = 'WikiTableQuestions/wikidata/all_html_back/' + fields[fields.length - 1]
-            console.log(filename)
+            //var fields = url.split('/')
+            //var filename = 'WikiTableQuestions/wikidata/all_html_back/' + fields[fields.length - 1]
+            console.log(url)
             if(url != prev){
-                $.get(filename, function(data){
+                $.get(url, function(data){
                     str = str + "<p>" +json[i][0] + "</p>" + `<div id="table${i}" class="panel-body">` + data + "</div>"
                 });
                 prev = url;
