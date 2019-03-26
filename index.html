@@ -15,7 +15,6 @@
                 padding: 5px;
                 color: black;
                 font-family: verdana;
-                background-color: white;
                 font-size: smaller;
             }
             .panel {
@@ -23,16 +22,43 @@
                 background: white;
             }
             p {
-              margin-left: 15px;
+                margin-left: 15px;
+            }
+            .row {
+                margin-left: 15px;
+            }
+            .h2 {
+                margin-left: 15px;
             }
         </style>
     </head>
     <body>
         
-        <h1 id='first'>Table-Text Visualization</h1>
-        <div id='table' class="panel panel-default">
-            
+        <h2 id='first' align="center"> Data Visualization</h2>
+        
+        <div class="row">
+            <div id="table1" class="col-lg-6" align="left"></div>
+            <div id="text1" class="col-lg-6"></div>
         </div>
+        <br>
+        <div class="row">
+            <div id="neg_table1" class="col-lg-6" align="left"></div>
+            <div id="neg_text1" class="col-lg-6"></div>
+        </div>
+        <br>
+        <div align="center">
+        <button type="button" onclick="prev()">Prev</button> <button type="button" onclick="next()">Next</button>
+        </div>
+        <!--<div class="row">
+            <div id="table2" class="col-lg-6" align="left"></div>
+            <div id="text2" class="col-lg-6"></div>
+        </div>
+        
+        <br>
+        <div class="row">    
+            <div id="table3" class="col-lg-6" align="left"></div>
+            <div id="text3" class="col-lg-6"></div>
+        </div>-->
         <!--<div id="qa"></div>-->
         
         <!--<div id="form-group">
@@ -80,31 +106,139 @@ $(document).ready(function(){
     });
 });
 */
-$(document).ready(function(){
-    var prev = ""
-    console.log("Start Loading")
-    $.getJSON("v2_rewrite.json", function(json){
-        str = ''
-        for(var i = 0; i < 20; i++){
-            console.log(json[i][0]);
-            var url = json[i][0]; // this will show the info it in firebug console
-            //var fields = url.split('/')
-            //var filename = 'WikiTableQuestions/wikidata/all_html_back/' + fields[fields.length - 1]
-            console.log(url)
-            if(url != prev){
-                $.get(url, function(data){
-                    str = str + `<div id="table${i}" class="panel-body">` + data + "</div>"
-                });
-                prev = url;
-            }
-            str += "<p>" + json[i][3] + "</p>"
-        }
-        $("#table").html(str);
-    })
-    .fail(function(e){
-        console.log(e);  
-    });
+var hist = [0];
+var json;
+var neg_json;
+var total = 1;
+$.getJSON("READY-POS/level1_instances.json", function(data){
+    json = data
 });
+
+$.getJSON("READY-NEG/level1_instances.json", function(data){
+    neg_json = data
+});
+    
+$(document).ready(function(){
+    var idx = hist[hist.length - 1]
+    r = extract(idx)
+    url_list = r[0]
+    text_list = r[1]
+    for (var i = 0; i < total; i++){
+        $.get(url_list[i], function(data){
+            $(`#table${i+1}`).html(data)
+        });
+        $(`#text${i+1}`).html(text_list[i])
+    }
+    r_neg = extract_neg(idx)
+    url_list = r_neg[0]
+    text_list = r_neg[1]   
+    for (var i = 0; i < total; i++){
+        $.get(url_list[i], function(data){
+            $(`#neg_table${i+1}`).html(data)
+        });
+        $(`#neg_text${i+1}`).html(text_list[i])
+    }
+    hist.push(r[2])
+});
+    
+function prev() {
+    if(hist.length > 1){
+        hist.pop();
+        idx = hist[hist.length - 1] 
+        r = extract(idx)
+        url_list = r[0]
+        text_list = r[1]
+        for (var i = 0; i < total; i++){
+            $.get(url_list[i], function(data){
+                $(`#table${i+1}`).html(data)
+            });
+            $(`#text${i+1}`).html(text_list[i])
+        }
+        r_neg = extract_neg(idx)
+        url_list = r_neg[0]
+        text_list = r_neg[1]   
+        for (var i = 0; i < total; i++){
+            $.get(url_list[i], function(data){
+                $(`#neg_table${i+1}`).html(data)
+            });
+            $(`#neg_text${i+1}`).html(text_list[i])
+        }
+    }
+}
+
+function next() {
+    idx = hist[hist.length - 1];
+    r = extract(idx)
+    url_list = r[0]
+    text_list = r[1]
+    for (var i = 0; i < total; i++){
+        $.get(url_list[i], function(data){
+            $(`#table${i+1}`).html(data);
+        });
+        $(`#text${i+1}`).html(text_list[i]);
+    }
+    r_neg = extract_neg(idx)
+    url_list = r_neg[0]
+    text_list = r_neg[1]   
+    for (var i = 0; i < total; i++){
+        $.get(url_list[i], function(data){
+            $(`#neg_table${i+1}`).html(data)
+        });
+        $(`#neg_text${i+1}`).html(text_list[i])
+    }
+    hist.push(r[2]);
+    console.log(hist)
+}
+
+function extract(idx) {
+    var url_list = [];
+    var text_list = [];
+    var prev = '';
+    while(true){
+        var url = json[idx][0];
+        if(url != prev){
+            //num += 1;
+            url_list.push(url);
+            text_list.push("<p>" + json[idx][1] + "</p>");
+        }
+        else{
+            var r = text_list.pop();
+            r += "<p>" + json[idx][1] + "</p>";
+            text_list.push(r);
+        }
+        idx += 1;
+        prev = url;
+        if(url_list.length == total && json[idx][0] != prev){
+            break;
+        }
+    }
+    return [url_list, text_list, idx]
+}
+    
+function extract_neg(idx) {
+    var url_list = [];
+    var text_list = [];
+    var prev = '';
+    while(true){
+        var url = neg_json[idx][0];
+        if(url != prev){
+            //num += 1;
+            url_list.push(url);
+            text_list.push("<p>" + neg_json[idx][1] + "</p>");
+        }
+        else{
+            var r = text_list.pop();
+            r += "<p>" + neg_json[idx][1] + "</p>";
+            text_list.push(r);
+        }
+        idx += 1;
+        prev = url;
+        if(url_list.length == total && neg_json[idx][0] != prev){
+            break;
+        }
+    }
+    return [url_list, text_list, idx]
+}    
     
 function parseCSV(data) {
     return parseDSV(data, ",");
