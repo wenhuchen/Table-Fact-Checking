@@ -108,138 +108,83 @@ $(document).ready(function(){
 */
 var hist = [0];
 var json;
-var neg_json;
 var total = 1;
-$.getJSON("READY-POS/level1_instances.json", function(data){
+$.getJSON("READY/prelim.json", function(data){
     json = data
 });
-
-$.getJSON("READY-NEG/level1_instances.json", function(data){
-    neg_json = data
-});
-    
+var all_htmls = Object.keys(json);
+var prefix = "https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/wikidata/all_html/"
 $(document).ready(function(){
     var idx = hist[hist.length - 1]
-    r = extract(idx)
-    url_list = r[0]
-    text_list = r[1]
-    for (var i = 0; i < total; i++){
-        $.get(url_list[i], function(data){
-            $(`#table${i+1}`).html(data)
-        });
-        $(`#text${i+1}`).html(text_list[i])
+    //r = extract(idx)
+    var url = all_htmls[idx]
+    var r = json[url]
+    text_list = r['text']
+    label_list = r['label']
+    //for (var i = 0; i < total; i++){
+    $.get(prefix + url, function(data){
+        $(`#table1`).html(data)
+    });
+    var text_str = ""
+    for (var i=0; i < text_list.length; i++){
+        if(label_list[i] == -1){
+            text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
+        }
+        else
+            text_str += '<p>' + text_list[i] + "</p>";
     }
-    r_neg = extract_neg(idx)
-    url_list = r_neg[0]
-    text_list = r_neg[1]   
-    for (var i = 0; i < total; i++){
-        $.get(url_list[i], function(data){
-            $(`#neg_table${i+1}`).html(data)
-        });
-        $(`#neg_text${i+1}`).html(text_list[i])
-    }
-    hist.push(r[2])
+    $(`#text1`).html(text_str);
 });
     
 function prev() {
     if(hist.length > 1){
         hist.pop();
-        idx = hist[hist.length - 1] 
-        r = extract(idx)
-        url_list = r[0]
-        text_list = r[1]
-        for (var i = 0; i < total; i++){
-            $.get(url_list[i], function(data){
-                $(`#table${i+1}`).html(data)
-            });
-            $(`#text${i+1}`).html(text_list[i])
+        idx = hist[hist.length - 1];
+        
+        var url = all_htmls[idx];
+        var r = json[url];
+        text_list = r['text'];
+        label_list = r['label'];
+        //for (var i = 0; i < total; i++){
+        $.get(prefix + url, function(data){
+            $(`#table1`).html(data)
+        });
+        var text_str = ""
+        for (var i=0; i < text_list.length; i++){
+            if(label_list[i] == -1){
+                text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
+            }
+            else
+                text_str += '<p>' + text_list[i] + "</p>";
         }
-        r_neg = extract_neg(idx)
-        url_list = r_neg[0]
-        text_list = r_neg[1]   
-        for (var i = 0; i < total; i++){
-            $.get(url_list[i], function(data){
-                $(`#neg_table${i+1}`).html(data)
-            });
-            $(`#neg_text${i+1}`).html(text_list[i])
-        }
+        $(`#text1`).html(text_str);
     }
 }
 
 function next() {
-    idx = hist[hist.length - 1];
-    r = extract(idx)
-    url_list = r[0]
-    text_list = r[1]
-    for (var i = 0; i < total; i++){
-        $.get(url_list[i], function(data){
-            $(`#table${i+1}`).html(data);
-        });
-        $(`#text${i+1}`).html(text_list[i]);
+    var idx = hist[hist.length - 1] + 1;
+    
+    var url = all_htmls[idx];
+    var r = json[url];
+    text_list = r['text'];
+    label_list = r['label'];
+    //for (var i = 0; i < total; i++){
+    $.get(prefix + url, function(data){
+        $(`#table1`).html(data)
+    });
+    var text_str = ""
+    for (var i=0; i < text_list.length; i++){
+        if(label_list[i] == -1){
+            text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
+        }
+        else
+            text_str += '<p>' + text_list[i] + "</p>";
     }
-    r_neg = extract_neg(idx)
-    url_list = r_neg[0]
-    text_list = r_neg[1]   
-    for (var i = 0; i < total; i++){
-        $.get(url_list[i], function(data){
-            $(`#neg_table${i+1}`).html(data)
-        });
-        $(`#neg_text${i+1}`).html(text_list[i])
-    }
-    hist.push(r[2]);
-    console.log(hist)
+    $(`#text1`).html(text_str);
+    hist.push(idx);
+    console.log(hist);
 }
 
-function extract(idx) {
-    var url_list = [];
-    var text_list = [];
-    var prev = '';
-    while(true){
-        var url = json[idx][0];
-        if(url != prev){
-            //num += 1;
-            url_list.push(url);
-            text_list.push("<p>" + json[idx][1] + "</p>");
-        }
-        else{
-            var r = text_list.pop();
-            r += "<p>" + json[idx][1] + "</p>";
-            text_list.push(r);
-        }
-        idx += 1;
-        prev = url;
-        if(url_list.length == total && json[idx][0] != prev){
-            break;
-        }
-    }
-    return [url_list, text_list, idx]
-}
-    
-function extract_neg(idx) {
-    var url_list = [];
-    var text_list = [];
-    var prev = '';
-    while(true){
-        var url = neg_json[idx][0];
-        if(url != prev){
-            //num += 1;
-            url_list.push(url);
-            text_list.push("<p>" + neg_json[idx][1] + "</p>");
-        }
-        else{
-            var r = text_list.pop();
-            r += "<p>" + neg_json[idx][1] + "</p>";
-            text_list.push(r);
-        }
-        idx += 1;
-        prev = url;
-        if(url_list.length == total && neg_json[idx][0] != prev){
-            break;
-        }
-    }
-    return [url_list, text_list, idx]
-}    
-    
 function parseCSV(data) {
     return parseDSV(data, ",");
 }
