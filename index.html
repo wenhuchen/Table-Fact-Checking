@@ -126,7 +126,7 @@ $(document).ready(function(){
     $.get(prefix + url + ".csv", function(data){
         $(`#table1`).html(CSV2Table(data));
     });
-    var text_str = ""
+    var text_str = `<p>source : ${prefix + url + ".csv"}<p>`
     for (var i=0; i < text_list.length; i++){
         if(label_list[i] == 0){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
@@ -150,7 +150,7 @@ function prev() {
         $.get(prefix + url + ".csv", function(data){
             $(`#table1`).html(CSV2Table(data));
         });
-        var text_str = ""
+        var text_str = `<p>source : ${prefix + url + ".csv"}<p>`
         for (var i=0; i < text_list.length; i++){
             if(label_list[i] == 0){
                 text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
@@ -174,7 +174,7 @@ function next() {
         console.log(CSV2Table(data));
         $(`#table1`).html(CSV2Table(data));
     });
-    var text_str = ""
+    var text_str = `<p>source : ${prefix + url + ".csv"}<p>`
     for (var i=0; i < text_list.length; i++){
         if(label_list[i] == 0){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
