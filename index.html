@@ -109,7 +109,7 @@ $(document).ready(function(){
 var hist = [0];
 var json;
 var total = 1;
-$.getJSON("READY/prelim.json", function(data){
+$.getJSON("READY/training_all.json", function(data){
     json = data
 });
 var all_htmls = Object.keys(json);
@@ -119,15 +119,15 @@ $(document).ready(function(){
     //r = extract(idx)
     var url = all_htmls[idx]
     var r = json[url]
-    text_list = r['text']
-    label_list = r['label']
+    text_list = r[0];
+    label_list = r[1];
     //for (var i = 0; i < total; i++){
     $.get(prefix + url, function(data){
         $(`#table1`).html(data)
     });
     var text_str = ""
     for (var i=0; i < text_list.length; i++){
-        if(label_list[i] == -1){
+        if(label_list[i] == 0){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
         }
         else
@@ -143,15 +143,15 @@ function prev() {
         
         var url = all_htmls[idx];
         var r = json[url];
-        text_list = r['text'];
-        label_list = r['label'];
+        text_list = r[0];
+        label_list = r[1];
         //for (var i = 0; i < total; i++){
         $.get(prefix + url, function(data){
             $(`#table1`).html(data)
         });
         var text_str = ""
         for (var i=0; i < text_list.length; i++){
-            if(label_list[i] == -1){
+            if(label_list[i] == 0){
                 text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
             }
             else
@@ -166,15 +166,15 @@ function next() {
     
     var url = all_htmls[idx];
     var r = json[url];
-    text_list = r['text'];
-    label_list = r['label'];
+    text_list = r[0];
+    label_list = r[1];
     //for (var i = 0; i < total; i++){
     $.get(prefix + url, function(data){
         $(`#table1`).html(data)
     });
     var text_str = ""
     for (var i=0; i < text_list.length; i++){
-        if(label_list[i] == -1){
+        if(label_list[i] == 0){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
         }
         else
