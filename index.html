@@ -113,7 +113,8 @@ $.getJSON("READY/training_all.json", function(data){
     json = data
 });
 var all_htmls = Object.keys(json);
-var prefix = "https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/wikidata/all_html/"
+//var prefix = "https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/wikidata/all_html/"
+var prefix = "WikiTableQuestions/wikidata/all_csv/"
 $(document).ready(function(){
     var idx = hist[hist.length - 1]
     //r = extract(idx)
@@ -122,8 +123,8 @@ $(document).ready(function(){
     text_list = r[0];
     label_list = r[1];
     //for (var i = 0; i < total; i++){
-    $.get(prefix + url, function(data){
-        $(`#table1`).html(data)
+    $.get(prefix + url + ".csv", function(data){
+        $(`#table1`).html(CSV2Table(data));
     });
     var text_str = ""
     for (var i=0; i < text_list.length; i++){
@@ -146,8 +147,8 @@ function prev() {
         text_list = r[0];
         label_list = r[1];
         //for (var i = 0; i < total; i++){
-        $.get(prefix + url, function(data){
-            $(`#table1`).html(data)
+        $.get(prefix + url + ".csv", function(data){
+            $(`#table1`).html(CSV2Table(data));
         });
         var text_str = ""
         for (var i=0; i < text_list.length; i++){
@@ -169,8 +170,9 @@ function next() {
     text_list = r[0];
     label_list = r[1];
     //for (var i = 0; i < total; i++){
-    $.get(prefix + url, function(data){
-        $(`#table1`).html(data)
+    $.get(prefix + url + ".csv", function(data){
+        console.log(CSV2Table(data));
+        $(`#table1`).html(CSV2Table(data));
     });
     var text_str = ""
     for (var i=0; i < text_list.length; i++){
@@ -185,8 +187,26 @@ function next() {
     console.log(hist);
 }
 
+function CSV2Table(data) {
+    var lines = data.split("\n");
+    lines.pop();
+    //var headers = lines[0].split(separator);
+    var output = []
+    for (i = 0; i < lines.length; i++){
+        //var fields = lines[i].split("#");
+        if(i == 0){
+            output.push("<tr><th>" + lines[i].slice(0,-1).split("#").join("</th><th>") + "</th></tr>");
+        }
+        else{
+            output.push("<tr><td>" + lines[i].slice(0,-1).split("#").join("</td><td>") + "</td></tr>");            
+        }
+    }
+    output = "<table class='wikitable'>" + output.join("") + "</table>";
+    return output
+}
+    
 function parseCSV(data) {
-    return parseDSV(data, ",");
+    return parseDSV(data, "#");
 }
 
 // Tabulation-separated values to JSON
