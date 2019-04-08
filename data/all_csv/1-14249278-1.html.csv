@@ -1,0 +1,22 @@
+bit 15#bits 14 - 12#bits 11 - 0#mnemonic#description
+0#0#(direct address)#and#and direct memory to accumulator
+0#2#(direct address)#lda#load direct memory to accumulator
+0#3#(direct address)#sta#store accumulator to direct memory
+0#4#(direct address)#bun#unconditionally branch to direct memory
+0#7#800#cla#clear the accumulator
+0#7#400#cle#clear the carry bit
+0#7#200#cma#complement the accumulator
+0#7#100#cme#complement the carry bit
+0#7#080#cir#circulate accumulator right (through carry bit)
+0#7#040#cil#circulate accumulator left (through carry bit)
+0#7#020#inc#increment accumulator (does not affect carry bit)
+0#7#010#spa#skip next instruction if accumulator is positive
+0#7#008#sna#skip next instruction if accumulator is negative
+0#7#004#sza#skip next instruction if accumulator is zero
+0#7#002#sze#skip next instruction if carry bit is zero
+0#7#001#hlt#halt computer by clearing the halt bit latch
+1#7#800#inp#input from character bus to accumulator
+1#7#400#out#output from accumulator to character bus
+1#7#200#ski#skip next instruction if input flag is set
+1#7#100#sko#skip next instruction if output flag is set
+1#7#080#ion#enable interrupts
