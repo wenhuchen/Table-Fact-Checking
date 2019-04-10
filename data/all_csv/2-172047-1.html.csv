@@ -1,0 +1,6 @@
+class#leading bits#size of network number bit field#size of rest bit field#number of networks#addresses per network#start address#end address
+class a#0#8#24#128 (2 7 )#16777216 (2 24 )#0.0.0.0#127.255.255.255
+class b#10#16#16#16384 (2 14 )#65536 (2 16 )#128.0.0.0#191.255.255.255
+class c#110#24#8#2097152 (2 21 )#256 (2 8 )#192.0.0.0#223.255.255.255
+class d ( multicast )#1110#not defined#not defined#not defined#not defined#224.0.0.0#239.255.255.255
+class e (reserved)#1111#not defined#not defined#not defined#not defined#240.0.0.0#255.255.255.255

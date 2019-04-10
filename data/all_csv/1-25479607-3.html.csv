@@ -1,0 +1,28 @@
+user#unit (kwh) / time range#tariff ( rs. / kwh)#fixed charge ( rs. / kwh)#fuel adjustment charge (% of total energy charge)#max. demand charge ( rs. / kva)
+religious (r - 1)#000 - 030#1.90#30.00#n / a#n / a
+religious (r - 1)#031 - 090#2.80#60.00#n / a#n / a
+religious (r - 1)#091 - 120#6.75#180.00#n / a#n / a
+religious (r - 1)#121 - 180#7.50#180.00#n / a#n / a
+religious (r - 1)#≥181#9.40#240.00#n / a#n / a
+general purpose (gp)#gp - 1: ≤210#19.50#240.00#25#n / a
+general purpose (gp)#gp - 1: ≥211#21.50#240.00#25#n / a
+general purpose (gp)#gp - 2: day (05:30 - 18:30)#20.50#3000.00#25#1100
+general purpose (gp)#gp - 2: peak (18:30 - 22:30)#25.00#3000.00#25#1100
+general purpose (gp)#gp - 2: off - peak (22:30 - 05:30)#14.50#3000.00#25#1100
+general purpose (gp)#gp - 3: day (05:30 - 18:30)#19.50#3000.00#25#1000
+general purpose (gp)#gp - 3: peak (18:30 - 22:30)#24.00#3000.00#25#1000
+general purpose (gp)#gp - 3: off - peak (22:30 - 05:30)#13.50#3000.00#25#1000
+hotel (h)#h - 1: ∞#22.00#600.00#15#n / a
+hotel (h)#h - 2: day (05:30 - 18:30)#15.00#3000.00#15#1100
+hotel (h)#h - 2: peak (18:30 - 22:30)#24.00#3000.00#15#1100
+hotel (h)#h - 2: off - peak (22:30 - 05:30)#10.00#3000.00#15#1100
+hotel (h)#h - 3: day (05:30 - 18:30)#12.60#3000.00#15#1000
+hotel (h)#h - 3: peak (18:30 - 22:30)#16.40#3000.00#15#1000
+hotel (h)#h - 3: off - peak (22:30 - 05:30)#8.85#3000.00#15#1000
+industry (i)#i - 1: ∞#12.50#600.00#15#n / a
+industry (i)#i - 2: day (05:30 - 18:30)#11.30#3000.00#15#1100
+industry (i)#i - 2: peak (18:30 - 22:30)#21.00#3000.00#15#1100
+industry (i)#i - 2: off - peak (22:30 - 05:30)#7.00#3000.00#15#1100
+industry (i)#i - 3: day (05:30 - 18:30)#10.50#3000.00#15#1000
+industry (i)#i - 3: peak (18:30 - 22:30)#24.00#3000.00#15#1000
+industry (i)#i - 3: off - peak (22:30 - 05:30)#6.00#3000.00#15#1000
