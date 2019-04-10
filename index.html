@@ -109,7 +109,7 @@ $(document).ready(function(){
 var hist = [0];
 var json;
 var total = 1;
-$.getJSON("READY/training_all.json", function(data){
+$.getJSON("READY/cleaned.json", function(data){
     json = data
 });
 var all_htmls = Object.keys(json);
@@ -123,16 +123,19 @@ $(document).ready(function(){
     text_list = r[0];
     label_list = r[1];
     //for (var i = 0; i < total; i++){
-    $.get(prefix + url + ".csv", function(data){
+    $.get(prefix + url, function(data){
         $(`#table1`).html(CSV2Table(data));
     });
-    var text_str = `<p>source : ${prefix + url + ".csv"}<p>`
+    var text_str = `<p>source : ${prefix + url}<p>`
     for (var i=0; i < text_list.length; i++){
-        if(label_list[i] == 0){
+        if(label_list[i] == "Entailed"){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
         }
-        else
+        else if(label_list[i] == "Neutral"){
             text_str += '<p>' + text_list[i] + "</p>";
+        }
+        else
+            text_str += '<p style="color:green;">' + text_list[i] + "</p>";
     }
     $(`#text1`).html(text_str);
 });
@@ -147,16 +150,19 @@ function prev() {
         text_list = r[0];
         label_list = r[1];
         //for (var i = 0; i < total; i++){
-        $.get(prefix + url + ".csv", function(data){
+        $.get(prefix + url, function(data){
             $(`#table1`).html(CSV2Table(data));
         });
-        var text_str = `<p>source : ${prefix + url + ".csv"}<p>`
+        var text_str = `<p>source : ${prefix + url}<p>`
         for (var i=0; i < text_list.length; i++){
-            if(label_list[i] == 0){
+            if(label_list[i] == "Entailed"){
                 text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
             }
-            else
+            else if(label_list[i] == "Neutral"){
                 text_str += '<p>' + text_list[i] + "</p>";
+            }
+            else
+                text_str += '<p style="color:green;">' + text_list[i] + "</p>";
         }
         $(`#text1`).html(text_str);
     }
@@ -170,16 +176,19 @@ function next() {
     text_list = r[0];
     label_list = r[1];
     //for (var i = 0; i < total; i++){
-    $.get(prefix + url + ".csv", function(data){
+    $.get(prefix + url, function(data){
         $(`#table1`).html(CSV2Table(data));
     });
-    var text_str = `<p>source : ${prefix + url + ".csv"}<p>`
+    var text_str = `<p>source : ${prefix + url}<p>`
     for (var i=0; i < text_list.length; i++){
-        if(label_list[i] == 0){
+        if(label_list[i] == "Entailed"){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
         }
-        else
+        else if(label_list[i] == "Neutral"){
             text_str += '<p>' + text_list[i] + "</p>";
+        }
+        else
+            text_str += '<p style="color:green;">' + text_list[i] + "</p>";
     }
     $(`#text1`).html(text_str);
     hist.push(idx);
