@@ -114,7 +114,7 @@ $.getJSON("READY/training_all.json", function(data){
 });
 var all_htmls = Object.keys(json);
 //var prefix = "https://raw.githubusercontent.com/wenhuchen/Interface/master/WikiTableQuestions/wikidata/all_html/"
-var prefix = "WikiTableQuestions/wikidata/all_csv/"
+var prefix = "data/all_csv/"
 $(document).ready(function(){
     var idx = hist[hist.length - 1]
     //r = extract(idx)
@@ -171,7 +171,6 @@ function next() {
     label_list = r[1];
     //for (var i = 0; i < total; i++){
     $.get(prefix + url + ".csv", function(data){
-        console.log(CSV2Table(data));
         $(`#table1`).html(CSV2Table(data));
     });
     var text_str = `<p>source : ${prefix + url + ".csv"}<p>`
@@ -184,7 +183,6 @@ function next() {
     }
     $(`#text1`).html(text_str);
     hist.push(idx);
-    console.log(hist);
 }
 
 function CSV2Table(data) {
