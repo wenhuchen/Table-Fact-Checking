@@ -110,7 +110,7 @@ $(document).ready(function(){
 var hist = [0];
 var json;
 var total = 1;
-$.getJSON("READY/round2.json", function(data){
+$.getJSON("READY/verify.json", function(data){
     json = data
 });
 var all_htmls = Object.keys(json);
@@ -131,7 +131,7 @@ $(document).ready(function(){
     $('#wiki1').html(r[2]);
     var text_str = `<p>source : ${prefix + url}<p>`
     for (var i=0; i < text_list.length; i++){
-        if(label_list[i] == 1){
+        if(label_list[i] == 1 || label_list[i] == "Entailed"){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";          
         }
         //else if(label_list[i] == "Neutral"){
@@ -159,7 +159,7 @@ function prev() {
         $('#wiki1').html(r[2]);
         var text_str = `<p>source : ${prefix + url}<p>`
         for (var i=0; i < text_list.length; i++){
-            if(label_list[i] == 1){
+            if(label_list[i] == 1 || label_list[i] == "Entailed"){
                 text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
             }
             //else if(label_list[i] == "Neutral"){
@@ -186,7 +186,7 @@ function next() {
     $('#wiki1').html(r[2]);
     var text_str = `<p>source : ${prefix + url}<p>`
     for (var i=0; i < text_list.length; i++){
-        if(label_list[i] == 1){
+        if(label_list[i] == 1 || label_list[i] == "Entailed"){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
         }
         //else if(label_list[i] == "Neutral"){
