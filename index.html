@@ -49,6 +49,7 @@
         <br>
         <div align="center">
         <button type="button" onclick="prev()">Prev</button> <button type="button" onclick="next()">Next</button>
+        <input type="text" name="firstname" id="csv"><button type="button" id="goto">GOTO</button>
         </div>
         <!--<div class="row">
             <div id="table2" class="col-lg-6" align="left"></div>
@@ -110,7 +111,7 @@ $(document).ready(function(){
 var hist = [0];
 var json;
 var total = 1;
-$.getJSON("READY/verify.json", function(data){
+$.getJSON("READY/cleaned_positive.json", function(data){
     json = data
 });
 var all_htmls = Object.keys(json);
@@ -127,7 +128,7 @@ $(document).ready(function(){
     $.get(prefix + url, function(data){
         $(`#table1`).html(CSV2Table(data));
     });
-    console.log(r[2]);
+    //console.log(r[2]);
     $('#wiki1').html(r[2]);
     var text_str = `<p>source : ${prefix + url}<p>`
     for (var i=0; i < text_list.length; i++){
@@ -142,6 +143,38 @@ $(document).ready(function(){
     }
     $(`#text1`).html(text_str);
 });
+    
+$('#goto').click(function(){
+    var csv_file = $('#csv').val();
+    //console.log(csv_file);
+    if (csv_file in json){
+        var r = json[csv_file];
+        
+        text_list = r[0];
+        label_list = r[1];
+        //for (var i = 0; i < total; i++){
+        $.get(prefix + csv_file, function(data){
+            $(`#table1`).html(CSV2Table(data));
+        });
+        $('#wiki1').html(r[2]);
+        var text_str = `<p>source : ${prefix + csv_file}<p>`
+        for (var i=0; i < text_list.length; i++){
+            if(label_list[i] == 1 || label_list[i] == "Entailed"){
+                text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
+            }
+            //else if(label_list[i] == "Neutral"){
+            //    text_str += '<p>' + text_list[i] + "</p>";
+            //}
+            else
+                text_str += '<p style="color:green;">' + text_list[i] + "</p>";
+        }
+        $(`#text1`).html(text_str);
+        //hist.push(idx);       
+    }
+    else{
+        console.log("No such file");
+    }
+})
     
 function prev() {
     if(hist.length > 1){
