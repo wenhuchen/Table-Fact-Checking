@@ -104,15 +104,30 @@ def postprocess(inp, backbone, tabs):
 def get_lemmatize(inp, return_pos):
     words = nltk.word_tokenize(inp)
     pos_tags = [_[1] for _ in nltk.pos_tag(words)]
+    word_roots = []
+    for w, p in zip(words, pos_tags):
+        if is_ascii(w) and p in tag_dict:
+            word_roots.append(lemmatizer.lemmatize(w, tag_dict[p]))
+        else:
+            word_roots.append(w)
     if return_pos:
-        return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in zip(words, pos_tags) if is_ascii(w)], pos_tags
+        return word_roots, pos_tags
     else:
-        return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in zip(words, pos_tags) if is_ascii(w)]
+        return word_roots
 
-tag_dict = {"J": wordnet.ADJ,
-            "N": wordnet.NOUN,
-            "V": wordnet.VERB,
-            "R": wordnet.ADV}
+tag_dict = {"JJ": wordnet.ADJ,
+            "NN": wordnet.NOUN,
+            "NNS": wordnet.NOUN,
+            "NNP": wordnet.NOUN,
+            "NNPS": wordnet.NOUN,
+            "VB": wordnet.VERB,
+            "VBD": wordnet.VERB,
+            "VBG": wordnet.VERB,
+            "VBN": wordnet.VERB,
+            "VBP": wordnet.VERB,
+            "VBZ": wordnet.VERB,
+            "RB": wordnet.ADV,
+            "RP": wordnet.ADV}
 
 lemmatizer = WordNetLemmatizer()
 
@@ -232,6 +247,8 @@ else:
                 sent, tag = postprocess(entry[0][i], backbone, tabs)
                 results[name] = [[sent], [entry[1][i]], [tag]]
 
+        if len(results) // 10 > 1:
+            break
     print count
 
     with open('READY/r2_training_cleaned.json', 'w') as f:
