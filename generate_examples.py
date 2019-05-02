@@ -101,8 +101,9 @@ def postprocess(inp, backbone, tabs):
         new_tags.append("ENT")
     return " ".join(new_str), " ".join(new_tags)
 
-def get_lemmatize(inp, return_pos):
-    words = nltk.word_tokenize(inp)
+def get_lemmatize(words, return_pos):
+    #words = nltk.word_tokenize(words)
+    words = words.split(' ')
     pos_tags = [_[1] for _ in nltk.pos_tag(words)]
     word_roots = []
     for w, p in zip(words, pos_tags):
@@ -135,6 +136,7 @@ with open('data/short_subset.txt') as f:
     limit_length = [_.strip() for _ in f.readlines()]
 
 round1 = False
+"""
 if round1:
     t = pandas.read_csv('data/clean/positive.csv')
     t = t[t.AssignmentStatus=="Approved"]
@@ -215,6 +217,45 @@ if round1:
 
     with open('READY/r1_training_cleaned.json', 'w') as f:
         json.dump(results, f, indent=2)
+"""
+if round1:
+    with open('READY/r1_training_all.json') as f:
+        data = json.load(f)
+    results = {}
+    count = 0
+    for name in data:
+        entry = data[name]
+        for i in range(len(entry[0])):
+            backbone = {}
+            tabs = []
+            with open('data/all_csv/' + name, 'r') as f:
+                for k, _ in enumerate(f.readlines()):
+                    tabs.append([])
+                    for l, w in enumerate(_.strip().split('#')):
+                        tabs[-1].append(w)
+                        w = get_lemmatize(w, False)
+                        for sub in w:
+                            if sub not in backbone:
+                                backbone[sub] = [(k, l)]
+                            else:
+                                backbone[sub].append((k, l))
+
+            count += 1
+            if name in results:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                results[name][0].append(sent)
+                results[name][1].append(entry[1][i])
+                results[name][2].append(tag)
+            else:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                results[name] = [[sent], [entry[1][i]], [tag]]
+
+        if len(results) // 10 > 1:
+            break
+    print count
+
+    with open('READY/r1_training_cleaned.json', 'w') as f:
+        json.dump(results, f, indent=2)   
 else:
     with open('READY/r2_training_all.json') as f:
         data = json.load(f)
