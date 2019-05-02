@@ -115,83 +115,120 @@ with open('data/short_subset.txt') as f:
     
 #def is_ascii(s):
 #    return all(ord(c) < 128 for c in s)
+round1 = False
+if round1:
+    t = pandas.read_csv('data/clean/positive.csv')
+    t = t[t.AssignmentStatus=="Approved"]
 
-t = pandas.read_csv('data/clean/positive.csv')
-t = t[t.AssignmentStatus=="Approved"]
+    print len(t) * 10
+    num = 10
+    results = {}
+    count = 0
+    for i, row in t.iterrows():
+        for j in range(1, num + 1):
+            if row['Answer.A{}'.format(j)] == "Entailed":
+                name = row['Input.url{}'.format(j)].split('/')[-1]
+                if name in limit_length:
+                    backbone = {}
+                    tabs = []
+                    with open('data/all_csv/' + name, 'r') as f:
+                        for k, _ in enumerate(f.readlines()):
+                            tabs.append([])
+                            for l, w in enumerate(_.strip().split('#')):
+                                tabs[-1].append(w)
+                                w = get_lemmatize(w, False)
+                                for sub in w:
+                                    if sub not in backbone:
+                                        backbone[sub] = [(k, l)]
+                                    else:
+                                        backbone[sub].append((k, l))
+                    count += 1
+                    if name in results:
+                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
+                        results[name][0].append(sent)
+                        results[name][1].append(1)
+                        results[name][2].append(tag)
+                    else:
+                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
+                        results[name] = [[sent], [1], [tag]]
+        if i // 100 == 1:
+            print "finished {}/{}".format(i, len(t))
+        #    break
 
-print len(t) * 10
-num = 10
-results = {}
-count = 0
-for i, row in t.iterrows():
-    for j in range(1, num + 1):
-        if row['Answer.A{}'.format(j)] == "Entailed":
-            name = row['Input.url{}'.format(j)].split('/')[-1]
-            if name in limit_length:
-                backbone = {}
-                tabs = []
-                with open('data/all_csv/' + name, 'r') as f:
-                    for k, _ in enumerate(f.readlines()):
-                        tabs.append([])
-                        for l, w in enumerate(_.strip().split('#')):
-                            tabs[-1].append(w)
-                            w = get_lemmatize(w, False)
-                            for sub in w:
-                                if sub not in backbone:
-                                    backbone[sub] = [(k, l)]
-                                else:
-                                    backbone[sub].append((k, l))
-                count += 1
-                if name in results:
-                    sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                    results[name][0].append(sent)
-                    results[name][1].append(1)
-                    results[name][2].append(tag)
-                else:
-                    sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                    results[name] = [[sent], [1], [tag]]
-    if i // 100 == 1:
-        print "finished {}/{}".format(i, len(t))
-    #    break
+    print count
 
-print count
+    t = pandas.read_csv('data/clean/negative.csv')
+    t = t[t.AssignmentStatus=="Approved"]
 
-t = pandas.read_csv('data/clean/negative.csv')
-t = t[t.AssignmentStatus=="Approved"]
+    print len(t) * 10
+    count = 0
+    for i, row in t.iterrows():
+        for j in range(1, num + 1):
+            if row['Answer.A{}'.format(j)] == "Refuted":
+                name = row['Input.url{}'.format(j)].split('/')[-1]
+                if name in limit_length:
+                    backbone = {}
+                    tabs = []
+                    with open('data/all_csv/' + name, 'r') as f:
+                        for k, _ in enumerate(f.readlines()):
+                            tabs.append([])
+                            for l, w in enumerate(_.strip().split('#')):
+                                tabs[-1].append(w)
+                                w = get_lemmatize(w, False)
+                                for sub in w:
+                                    if sub not in backbone:
+                                        backbone[sub] = [(k, l)]
+                                    else:
+                                        backbone[sub].append((k, l))
+                    count += 1
+                    if name in results:
+                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
+                        results[name][0].append(sent)
+                        results[name][1].append(0)
+                        results[name][2].append(tag)
+                    else:
+                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
+                        results[name] = [[sent], [0], [tag]]
+        #if i // 100 == 1:
+        #    break
 
-print len(t) * 10
-count = 0
-for i, row in t.iterrows():
-    for j in range(1, num + 1):
-        if row['Answer.A{}'.format(j)] == "Refuted":
-            name = row['Input.url{}'.format(j)].split('/')[-1]
-            if name in limit_length:
-                backbone = {}
-                tabs = []
-                with open('data/all_csv/' + name, 'r') as f:
-                    for k, _ in enumerate(f.readlines()):
-                        tabs.append([])
-                        for l, w in enumerate(_.strip().split('#')):
-                            tabs[-1].append(w)
-                            w = get_lemmatize(w, False)
-                            for sub in w:
-                                if sub not in backbone:
-                                    backbone[sub] = [(k, l)]
-                                else:
-                                    backbone[sub].append((k, l))
-                count += 1
-                if name in results:
-                    sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                    results[name][0].append(sent)
-                    results[name][1].append(0)
-                    results[name][2].append(tag)
-                else:
-                    sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                    results[name] = [[sent], [0], [tag]]
-    #if i // 100 == 1:
-    #    break
+    print count
 
-print count
+    with open('READY/r1_training_cleaned.json', 'w') as f:
+        json.dump(results, f, indent=2)
+else:
+    with open('READY/r2_training_all.json') as f:
+        data = json.load(f)
+    results = {}
+    count = 0
+    for name in data:
+        entry = data[name]
+        for i in range(len(entry[0])):
+            backbone = {}
+            tabs = []
+            with open('data/all_csv/' + name, 'r') as f:
+                for k, _ in enumerate(f.readlines()):
+                    tabs.append([])
+                    for l, w in enumerate(_.strip().split('#')):
+                        tabs[-1].append(w)
+                        w = get_lemmatize(w, False)
+                        for sub in w:
+                            if sub not in backbone:
+                                backbone[sub] = [(k, l)]
+                            else:
+                                backbone[sub].append((k, l))
 
-with open('READY/cleaned_positive.json', 'w') as f:
-    json.dump(results, f, indent=2)
+            count += 1
+            if name in results:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                results[name][0].append(sent)
+                results[name][1].append(entry[1][i])
+                results[name][2].append(tag)
+            else:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                results[name] = [[entry[0][i]], [entry[1][i]], [tag]]
+
+    print count
+
+    with open('READY/r2_training_cleaned.json', 'w') as f:
+        json.dump(results, f, indent=2)
