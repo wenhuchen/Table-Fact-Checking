@@ -1,8 +1,5 @@
 # encoding=utf8
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
-
 import nltk
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
@@ -10,6 +7,8 @@ import pandas
 import json
 import re
 import string
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '-', 'also', 'will', 'would', 'this', 'that',
              'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
@@ -33,8 +32,7 @@ def get_closest(string, indexes, tab):
             dist = abs(len_tab - len_string)
     return minimum
 
-def postprocess(inp, backbone, tabs):
-    inp = re.sub(r'([^0-9])\.', r'\1', inp)
+def replace_number(inp):
     inp = re.sub(r'(\b)one(\b)', r'\g<1>1\g<2>', inp)
     inp = re.sub(r'(\b)is one(\b)', r'\g<1>is 1\g<2>', inp)
     inp = re.sub(r'(\b)two(\b)', '\g<1>2\g<2>', inp)
@@ -56,6 +54,10 @@ def postprocess(inp, backbone, tabs):
     inp = re.sub(r'(\b)eighteen(\b)', '\g<1>18\g<2>', inp)
     inp = re.sub(r'(\b)nineteen(\b)', '\g<1>19\g<2>', inp)
     inp = re.sub(r'(\b)twenty(\b)', '\g<1>20\g<2>', inp)
+    return inp
+
+def postprocess(inp, backbone, tabs):
+    inp = re.sub(r'([^0-9])\.', r'\1', inp)
     new_str = []
     new_tags = []
     buf = ""
@@ -88,7 +90,7 @@ def postprocess(inp, backbone, tabs):
                 new_tags.append('ENT')
             buf = ""
             last = set()
-            new_str.append(w)
+            new_str.append(replace_number(w))
             new_tags.append(p)
     
     if buf != "":
@@ -228,7 +230,7 @@ else:
                 results[name][2].append(tag)
             else:
                 sent, tag = postprocess(entry[0][i], backbone, tabs)
-                results[name] = [[entry[0][i]], [entry[1][i]], [tag]]
+                results[name] = [[sent], [entry[1][i]], [tag]]
 
     print count
 
