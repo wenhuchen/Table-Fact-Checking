@@ -17,6 +17,10 @@ stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '
              'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
              'both', 'above', 'only']
 
+    
+def is_ascii(s):
+    return all(ord(c) < 128 for c in s)
+
 def get_closest(string, indexes, tab):
     dist = 10000
     len_string = len(string)
@@ -95,6 +99,14 @@ def postprocess(inp, backbone, tabs):
         new_tags.append("ENT")
     return " ".join(new_str), " ".join(new_tags)
 
+def get_lemmatize(inp, return_pos):
+    words = nltk.word_tokenize(inp)
+    pos_tags = [_[1] for _ in nltk.pos_tag(words)]
+    if return_pos:
+        return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in zip(words, pos_tags) if is_ascii(w)], pos_tags
+    else:
+        return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in zip(words, pos_tags) if is_ascii(w)]
+
 tag_dict = {"J": wordnet.ADJ,
             "N": wordnet.NOUN,
             "V": wordnet.VERB,
@@ -102,19 +114,9 @@ tag_dict = {"J": wordnet.ADJ,
 
 lemmatizer = WordNetLemmatizer()
 
-def get_lemmatize(inp, return_pos):
-    words = nltk.word_tokenize(inp)
-    pos_tags = [_[1] for _ in nltk.pos_tag(words)]
-    if return_pos:
-        return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in zip(words, pos_tags)], pos_tags
-    else:
-        return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in zip(words, pos_tags)]
-
 with open('data/short_subset.txt') as f:
     limit_length = [_.strip() for _ in f.readlines()]
-    
-#def is_ascii(s):
-#    return all(ord(c) < 128 for c in s)
+
 round1 = False
 if round1:
     t = pandas.read_csv('data/clean/positive.csv')
