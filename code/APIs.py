@@ -16,20 +16,20 @@ APIs['inc_str'] = {"argument":['str'], 'output': 'str',
               "tostr": lambda t : "inc({})".format(t)}
 
 APIs['within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                "function": lambda t, col, val: len(t.query('{}=="{}"'.format(col, val))) > 0,
-                "tostr": lambda t, col, val : "within({}, {}, {})".format(t, col, val)}
+                "function": lambda t, col, value: len(t[t[col] == value]) > 0,
+                "tostr": lambda t, col, value : "within({}, {}, {})".format(t, col, value)}
 
 APIs['within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bool',
-                "function": lambda t, col, val : len(t.query('{}=={}'.format(col, val))) > 0,
-                "tostr": lambda t, col, val : "within({}, {}, {})".format(t, col, val)}
+                "function": lambda t, col, value : len(t[t[col] == value]) > 0,
+                "tostr": lambda t, col, value : "within({}, {}, {})".format(t, col, value)}
 
 APIs['not_within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                          "function": lambda t, col, val: len(t.query('{}=="{}"'.format(col, val))) == 0,
-                          "tostr": lambda t, col, val : "not_within({}, {}, {})".format(t, col, val)}
+                          "function": lambda t, col, value: len(t[t[col] == value]) == 0,
+                          "tostr": lambda t, col, value : "not_within({}, {}, {})".format(t, col, value)}
 
 APIs['not_within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bool',
-                "function": lambda t, col, val : len(t.query('{}=={}'.format(col, val))) == 0,
-                "tostr": lambda t, col, val : "not_within({}, {}, {})".format(t, col, val)}
+                "function": lambda t, col, value : len(t[t[col] == value]) == 0,
+                "tostr": lambda t, col, value : "not_within({}, {}, {})".format(t, col, value)}
 
 APIs['next'] = {"argument":['row', 'row'], 'output': 'row',
                 "function": lambda t, t1 : row_select(t, t1, 1),
@@ -130,60 +130,60 @@ APIs['not_str_eq'] = {"argument":['str', 'str'], 'output': 'bool',
 
 # With only three argument and the first is row
 APIs["filter_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t.query('{} == "{}"'.format(col, value)),
+                        "function": lambda t, col, value: t[t[col] == value],
                         "tostr":lambda t, col, value: "filter_str_eq({}, {}, {})".format(t, col, value)}
 APIs["filter_str_not_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t.query('{} != "{}"'.format(col, value)),
+                        "function": lambda t, col, value: t[t[col] != value],
                         "tostr":lambda t, col, value: "filter_str_not_eq({}, {}, {})".format(t, col, value)}
 
 
 APIs["filter_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "row", 
-                    "function": lambda t, col, value: t.query('{} == {}'.format(col, value)),
+                    "function": lambda t, col, value: t[t[col] == value],
                     "tostr":lambda t, col, value: "filter_eq({}, {}, {})".format(t, col, value)}
 
 APIs["filter_not_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "row", 
-                    "function": lambda t, col, value: t.query('{} != {}'.format(col, value)),
+                    "function": lambda t, col, value: t[t[col] != value],
                     "tostr":lambda t, col, value: "filter_not_eq({}, {}, {})".format(t, col, value)}
 
 APIs["filter_less"] = {"argument": ['row', ['header_num', 'num']], "output": "row", 
-                        "function": lambda t, col, value: t.query('{} < {}'.format(col, value)),
+                        "function": lambda t, col, value: t[t[col] < value],
                         "tostr":lambda t, col, value: "filter_less({}, {}, {})".format(t, col, value)}
 
 APIs["filter_greater"] = {"argument": ['row', ['header_num', 'num']], "output": "row",
-                        "function": lambda t, col, value: t.query('{} > {}'.format(col, value)),
+                        "function": lambda t, col, value: t[t[col] > value],
                         "tostr":lambda t, col, value: "filter_greater({}, {}, {})".format(t, col, value)}
 
 APIs["filter_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "row",
-                                  "function": lambda t, col, value: t.query('{} >= {}'.format(col, value)),
+                                  "function": lambda t, col, value: t[t[col] >= value],
                                   "tostr":lambda t, col, value: "filter_greater_eq({}, {}, {})".format(t, col, value)}
 
 APIs["filter_less_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "row",
-                                  "function": lambda t, col, value: t.query('{} <= {}'.format(col, value)),
+                                  "function": lambda t, col, value: t[t[col] <= value],
                                   "tostr":lambda t, col, value: "filter_less_eq({}, {}, {})".format(t, col, value)}
 
 
 APIs["all_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t.query('{} == {}'.format(col, value))),
+                        "function": lambda t, col, value: len(t) == len(t[t[col] == value]),
                         "tostr":lambda t, col, value: "all_eq({}, {}, {})".format(t, col, value)}
 
 APIs["all_less"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t.query('{} < {}'.format(col, value))),
+                        "function": lambda t, col, value: len(t) == len(t[t[col] < value]),
                         "tostr":lambda t, col, value: "all_less({}, {}, {})".format(t, col, value)}
 
 APIs["all_less_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t.query('{} <= {}'.format(col, value))),
+                        "function": lambda t, col, value: len(t) == len(t[t[col] <= value]),
                         "tostr":lambda t, col, value: "all_less_eq({}, {}, {})".format(t, col, value)}
 
 APIs["all_greater"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t.query('{} > {}'.format(col, value))),
+                        "function": lambda t, col, value: len(t) == len(t[t[col] > value]),
                         "tostr":lambda t, col, value: "all_greater({}, {}, {})".format(t, col, value)}
 
 APIs["all_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t.query('{} >= {}'.format(col, value))),
+                        "function": lambda t, col, value: len(t) == len(t[t[col] >= value]),
                         "tostr":lambda t, col, value: "all_greater_eq({}, {}, {})".format(t, col, value)}
 
 APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t.query('{} == "{}"'.format(col, value))),
+                        "function": lambda t, col, value: len(t) == len(t[t[col] == value]),
                         "tostr":lambda t, col, value: "all_eq({}, {}, {})".format(t, col, value)}
 
 #APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",

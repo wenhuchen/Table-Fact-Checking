@@ -16,6 +16,8 @@ stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '
              'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
              'both', 'above', 'only']
 
+useless_words = [',', '.']
+
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
@@ -67,7 +69,10 @@ def postprocess(inp, backbone, tabs):
                 last = set(backbone[w])
                 buf = w
             else:
-                proposed = set(backbone[w]) & last
+                if w in useless_words:
+                    proposed = last
+                else:
+                    proposed = set(backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
                         closest = get_closest(buf, last, tabs)
@@ -78,7 +83,7 @@ def postprocess(inp, backbone, tabs):
                     last = set(backbone[w])
                 else:
                     buf += " " + w
-                    last = proposed
+                    last = proposed 
         else:
             if buf != "":
                 if buf not in stop_words:
