@@ -102,8 +102,12 @@ def postprocess(inp, backbone, tabs):
 
 def get_lemmatize(words, return_pos):
     #words = nltk.word_tokenize(words)
-    words = words.split(' ')
-    pos_tags = [_[1] for _ in nltk.pos_tag(words)]
+    words = words.strip().split(' ')
+    try:
+        pos_tags = [_[1] for _ in nltk.pos_tag(words)]
+    except Exception:
+        import pdb
+        pdb.set_trace()
     word_roots = []
     for w, p in zip(words, pos_tags):
         if is_ascii(w) and p in tag_dict:
@@ -231,12 +235,13 @@ for name in data:
                 tabs.append([])
                 for l, w in enumerate(_.strip().split('#')):
                     tabs[-1].append(w)
-                    w = get_lemmatize(w, False)
-                    for sub in w:
-                        if sub not in backbone:
-                            backbone[sub] = [(k, l)]
-                        else:
-                            backbone[sub].append((k, l))
+                    if len(w) > 0:
+                        w = get_lemmatize(w, False)
+                        for sub in w:
+                            if sub not in backbone:
+                                backbone[sub] = [(k, l)]
+                            else:
+                                backbone[sub].append((k, l))
 
         count += 1
         if name in r1_results:
@@ -272,12 +277,13 @@ for name in data:
                 tabs.append([])
                 for l, w in enumerate(_.strip().split('#')):
                     tabs[-1].append(w)
-                    w = get_lemmatize(w, False)
-                    for sub in w:
-                        if sub not in backbone:
-                            backbone[sub] = [(k, l)]
-                        else:
-                            backbone[sub].append((k, l))
+                    if len(w) > 0:
+                        w = get_lemmatize(w, False)
+                        for sub in w:
+                            if sub not in backbone:
+                                backbone[sub] = [(k, l)]
+                            else:
+                                backbone[sub].append((k, l))
 
         count += 1
         if name in r2_results:
