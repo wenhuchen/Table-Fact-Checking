@@ -221,58 +221,37 @@ if round1:
     with open('READY/r1_training_cleaned.json', 'w') as f:
         json.dump(results, f, indent=2)
 """
-with open('READY/r1_training_all.json') as f:
-    data = json.load(f)
-r1_results = {}
-count = 0
-for name in data:
-    entry = data[name]
-    for i in range(len(entry[0])):
-        backbone = {}
-        tabs = []
-        with open('data/all_csv/' + name, 'r') as f:
-            for k, _ in enumerate(f.readlines()):
-                tabs.append([])
-                for l, w in enumerate(_.strip().split('#')):
-                    tabs[-1].append(w)
-                    if len(w) > 0:
-                        w = get_lemmatize(w, False)
-                        for sub in w:
-                            if sub not in backbone:
-                                backbone[sub] = [(k, l)]
-                            else:
-                                backbone[sub].append((k, l))
-
-        count += 1
-        if name in r1_results:
-            sent, tag = postprocess(entry[0][i], backbone, tabs)
-            r1_results[name][0].append(sent)
-            r1_results[name][1].append(entry[1][i])
-            r1_results[name][2].append(tag)
-        else:
-            sent, tag = postprocess(entry[0][i], backbone, tabs)
-            r1_results[name] = [[sent], [entry[1][i]], [tag]]
-
-        if len(r1_results) % 1000 == 0:
-            print "finished {}".format(len(r1_results))
-
-    #if len(r1_results) // 10 > 1:
-    #    break
-print "Easy Set: ", count
-
-with open('READY/r1_training_cleaned.json', 'w') as f:
-    json.dump(r1_results, f, indent=2)   
-
-with open('READY/r2_training_all.json') as f:
-    data = json.load(f)
-r2_results = {}
-count = 0
-for name in data:
-    #if name == "2-15295737-110.html.csv":
-    #    import pdb
-    #    pdb.set_trace()
-    entry = data[name]
-    for i in range(len(entry[0])):
+debug = False
+if debug:
+    with open('READY/r1_training_all.json') as f:
+        data = json.load(f)
+    backbone = {}
+    tabs = []
+    count = 0
+    table = 'data/all_csv/2-18540104-2.html.csv'
+    with open(table) as f:
+        for k, _ in enumerate(f.readlines()):
+            _ = _.decode('utf8')
+            tabs.append([])
+            for l, w in enumerate(_.strip().split('#')):
+                tabs[-1].append(w)
+                if len(w) > 0:
+                    w = get_lemmatize(w, False)
+                    for sub in w:
+                        if sub not in backbone:
+                            backbone[sub] = [(k, l)]
+                        else:
+                            backbone[sub].append((k, l))
+    for d1, d2 in zip(*data['2-18540104-2.html.csv']):
+        sent, tag = postprocess(d1, backbone, tabs)
+        print sent
+else:
+    with open('READY/r1_training_all.json') as f:
+        data = json.load(f)
+    r1_results = {}
+    count = 0
+    for name in data:
+        entry = data[name]
         backbone = {}
         tabs = []
         with open('data/all_csv/' + name, 'r') as f:
@@ -288,28 +267,70 @@ for name in data:
                                 backbone[sub] = [(k, l)]
                             else:
                                 backbone[sub].append((k, l))
+        for i in range(len(entry[0])):
+            count += 1
+            if name in r1_results:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                r1_results[name][0].append(sent)
+                r1_results[name][1].append(entry[1][i])
+                r1_results[name][2].append(tag)
+            else:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                r1_results[name] = [[sent], [entry[1][i]], [tag]]
 
-        count += 1
-        if name in r2_results:
-            sent, tag = postprocess(entry[0][i], backbone, tabs)
-            r2_results[name][0].append(sent)
-            r2_results[name][1].append(entry[1][i])
-            r2_results[name][2].append(tag)
-        else:
-            sent, tag = postprocess(entry[0][i], backbone, tabs)
-            r2_results[name] = [[sent], [entry[1][i]], [tag]]
-        
-        if len(r2_results) % 1000 == 0:
-            print "finished {}".format(len(r2_results))
+            if len(r1_results) % 1000 == 0:
+                print "finished {}".format(len(r1_results))
 
-    #if len(r2_results) // 10 > 1:
-    #    break
-print "Hard Set: ", count
+        #if len(r1_results) // 10 > 1:
+        #    break
+    print "Easy Set: ", count
 
-with open('READY/r2_training_cleaned.json', 'w') as f:
-    json.dump(r2_results, f, indent=2)
+    with open('READY/r1_training_cleaned.json', 'w') as f:
+        json.dump(r1_results, f, indent=2)   
 
-r2_results.update(r1_results)
-with open('READY/full_cleaned.json', 'w') as f:
-    json.dump(r2_results, f, indent=2)
+    with open('READY/r2_training_all.json') as f:
+        data = json.load(f)
+    r2_results = {}
+    count = 0
+    for name in data:
+        backbone = {}
+        tabs = []
+        with open('data/all_csv/' + name, 'r') as f:
+            for k, _ in enumerate(f.readlines()):
+                _ = _.decode('utf8')
+                tabs.append([])
+                for l, w in enumerate(_.strip().split('#')):
+                    tabs[-1].append(w)
+                    if len(w) > 0:
+                        w = get_lemmatize(w, False)
+                        for sub in w:
+                            if sub not in backbone:
+                                backbone[sub] = [(k, l)]
+                            else:
+                                backbone[sub].append((k, l))
+        entry = data[name]
+        for i in range(len(entry[0])):
+            count += 1
+            if name in r2_results:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                r2_results[name][0].append(sent)
+                r2_results[name][1].append(entry[1][i])
+                r2_results[name][2].append(tag)
+            else:
+                sent, tag = postprocess(entry[0][i], backbone, tabs)
+                r2_results[name] = [[sent], [entry[1][i]], [tag]]
+            
+            if len(r2_results) % 1000 == 0:
+                print "finished {}".format(len(r2_results))
+
+        #if len(r2_results) // 10 > 1:
+        #    break
+    print "Hard Set: ", count
+
+    with open('READY/r2_training_cleaned.json', 'w') as f:
+        json.dump(r2_results, f, indent=2)
+
+    r2_results.update(r1_results)
+    with open('READY/full_cleaned.json', 'w') as f:
+        json.dump(r2_results, f, indent=2)
 
