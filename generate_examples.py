@@ -256,8 +256,8 @@ for name in data:
         if len(r1_results) % 1000 == 0:
             print "finished {}".format(len(r1_results))
 
-    if len(r1_results) // 10 > 1:
-        break
+    #if len(r1_results) // 10 > 1:
+    #    break
 print "Easy Set: ", count
 
 with open('READY/r1_training_cleaned.json', 'w') as f:
@@ -290,9 +290,6 @@ for name in data:
                                 backbone[sub].append((k, l))
 
         count += 1
-        if "paula" in entry[0][i]:
-            import pdb
-            pdb.set_trace()
         if name in r2_results:
             sent, tag = postprocess(entry[0][i], backbone, tabs)
             r2_results[name][0].append(sent)
@@ -305,8 +302,8 @@ for name in data:
         if len(r2_results) % 1000 == 0:
             print "finished {}".format(len(r2_results))
 
-    if len(r2_results) // 10 > 1:
-        break
+    #if len(r2_results) // 10 > 1:
+    #    break
 print "Hard Set: ", count
 
 with open('READY/r2_training_cleaned.json', 'w') as f:
