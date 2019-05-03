@@ -16,7 +16,6 @@ stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '
              'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
              'both', 'above', 'only']
 
-#test = sys.argv[1]   
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
@@ -72,7 +71,7 @@ def postprocess(inp, backbone, tabs):
                 if not proposed:
                     if buf not in stop_words:
                         closest = get_closest(buf, last, tabs)
-                        buf = '#' + buf + '#' + json.dumps(closest)
+                        buf = '#{};{}#'.format(buf, json.dumps(closest))
                     new_str.append(buf)
                     new_tags.append('ENT')
                     buf = w
@@ -84,7 +83,7 @@ def postprocess(inp, backbone, tabs):
             if buf != "":
                 if buf not in stop_words:
                     closest = get_closest(buf, last, tabs)
-                    buf = '#' + buf + '#' + json.dumps(closest)
+                    buf = '#{};{}#'.format(buf, json.dumps(closest))
                 new_str.append(buf)
                 new_tags.append('ENT')
             buf = ""
@@ -95,7 +94,7 @@ def postprocess(inp, backbone, tabs):
     if buf != "":
         if buf not in stop_words:
             closest = get_closest(buf, last, tabs)
-            buf = '#' + buf + '#' + json.dumps(closest)
+            buf = '#{};{}#'.format(buf, json.dumps(closest))
         new_str.append(buf)
         new_tags.append("ENT")
     return " ".join(new_str), " ".join(new_tags)
