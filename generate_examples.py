@@ -16,7 +16,7 @@ stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '
              'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
              'both', 'above', 'only']
 
-    
+#test = sys.argv[1]   
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
@@ -256,8 +256,8 @@ for name in data:
         if len(r1_results) % 1000 == 0:
             print "finished {}".format(len(r1_results))
 
-    #if len(r1_results) // 10 > 1:
-    #    break
+    if len(r1_results) // 10 > 1:
+        break
 print "Easy Set: ", count
 
 with open('READY/r1_training_cleaned.json', 'w') as f:
@@ -268,12 +268,16 @@ with open('READY/r2_training_all.json') as f:
 r2_results = {}
 count = 0
 for name in data:
+    #if name == "2-15295737-110.html.csv":
+    #    import pdb
+    #    pdb.set_trace()
     entry = data[name]
     for i in range(len(entry[0])):
         backbone = {}
         tabs = []
         with open('data/all_csv/' + name, 'r') as f:
             for k, _ in enumerate(f.readlines()):
+                _ = _.decode('utf8')
                 tabs.append([])
                 for l, w in enumerate(_.strip().split('#')):
                     tabs[-1].append(w)
@@ -286,6 +290,9 @@ for name in data:
                                 backbone[sub].append((k, l))
 
         count += 1
+        if "paula" in entry[0][i]:
+            import pdb
+            pdb.set_trace()
         if name in r2_results:
             sent, tag = postprocess(entry[0][i], backbone, tabs)
             r2_results[name][0].append(sent)
@@ -298,8 +305,8 @@ for name in data:
         if len(r2_results) % 1000 == 0:
             print "finished {}".format(len(r2_results))
 
-    #if len(r2_results) // 10 > 1:
-    #    break
+    if len(r2_results) // 10 > 1:
+        break
 print "Hard Set: ", count
 
 with open('READY/r2_training_cleaned.json', 'w') as f:
