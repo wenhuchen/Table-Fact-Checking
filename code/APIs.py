@@ -198,102 +198,6 @@ APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "boo
 #                        "function": lambda t, col1, value1, col2, value2: len(t.query('{} == "{}" & {} == "{}"'.format(col1, value1, col2, value2))) > 0,
 #                        "tostr":lambda col1, value1, col2 , value2: "same_row({}, {}, {}, {})".format(col1, value1, col2, value2)}
 
-"""
-triggers = {}
-f = ['count']
-triggers['there is'] = f
-triggers['there are'] = f
-triggers["there 're"] = f
-triggers["there was"] = f
-triggers["there were"] = f
-triggers["only"] = f
-
-f = ['average']
-triggers['average'] = f
-
-f = ['diff']
-triggers['difference'] = f
-triggers['gap'] = f
-
-f = ['sum', 'count']
-triggers['sum'] = f
-triggers['summation'] = f
-triggers['combined'] = f
-triggers['combine'] = f
-triggers['total'] =f
-
-f = ['max', 'argmax']
-triggers['maximum'] = f
-triggers['max'] = f
-triggers['largest'] = f
-triggers['biggest'] = f
-triggers['greatest'] = f
-
-f = ['min', 'argmin']
-triggers['min'] = f
-triggers['minimum'] = f
-triggers['smallest'] = f
-triggers['fewest'] = f
-
-
-f = ['min', 'argmin', 'max', 'argmax', 'first', 'last']
-triggers['top'] = f
-triggers['bottom'] = f
-triggers['best'] = f
-triggers['worst'] = f
-triggers['highest'] = f
-triggers['lowest'] = f
-triggers['lastest'] = f
-triggers['oldest'] = f
-triggers['earliest'] = f
-triggers['quickest'] = f
-triggers['slowest'] = f
-triggers['first'] = f
-triggers['last'] = f
-triggers['most'] = f
-
-
-f = ['filter_eq', 'str_eq', 'eq', 'str_not_eq', 'not_eq', 'filter_str_not_eq', \
-    'filter_less', 'less', 'filter_greater', 'greater', 'filter_less_eq', \
-    'filter_greater_eq', 'all_less_eq', 'all_greater_eq']
-triggers['same'] = f
-triggers['as many as'] = f
-triggers['as much as'] = f
-triggers['equal'] = f
-triggers['equivalent'] = f
-triggers['identical'] = f
-triggers['not'] = f
-triggers['no'] = f
-triggers["'nt"] = f
-triggers['neither'] = f
-triggers['none'] = f
-triggers['never'] = f
-triggers['than'] = f
-triggers['at least'] = f
-triggers['at most'] = f
-triggers['less or equal'] = f
-triggers['greater or equal'] = f
-triggers["less"] = f
-triggers["lesser"] = f
-triggers["below"] = f
-triggers["under"] = f
-triggers["before"] = f
-triggers["more"] = f
-triggers["greater"] = f
-triggers["larger"] = f
-triggers["above"] = f
-triggers["after"] = f
-triggers["further"] = f
-
-f = ['all_eq', 'all_less', 'all_greater', 'all_str_eq', 'and', 'inc_num', 'inc_str', 'neither']
-triggers['all'] = f
-triggers['every'] = f
-triggers['and'] = f
-triggers['both'] = f
-triggers['while'] = f
-triggers['neither'] = f
-triggers['none'] = f
-"""
 def row_select(t, t1, bias):
   col1, col2, col3 = t.columns[0], t.columns[1], t.columns[2]
   val1, val2, val3 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0]
@@ -315,17 +219,18 @@ non_triggers = {}
 
 non_triggers['avg'] = ['average']
 non_triggers['diff'] = ['difference', 'gap', 'than', 'separate', 'all but']
-non_triggers['sum'] = ['sum', 'summation', 'combine', 'total', 'add', 'all', 'there are']
+non_triggers['add'] = ['sum', 'summation', 'combine', 'combined', 'total', 'add', 'all', 'there are']
+non_triggers['sum'] = non_triggers['add']
 
 #non_triggers['str_not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none']
 #non_triggers['not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none']
-non_triggers['not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none', 'unable', 'fail', 'different', 'outside']
-non_triggers['not_str_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none', 'unable', 'fail', 'different', 'outside']
-non_triggers['not_within_s_s'] = ['not', 'no', 'never', "'nt", 'neither', 'none', 'unable', 'fail', 'different', 'outside']
-non_triggers['not_within_n_n'] = ['not', 'no', 'never', "'nt", 'neither', 'none', 'unable', 'fail', 'different', 'outside']
-
-non_triggers['filter_str_not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none', 'unable', 'fail', 'different', 'outside', 'rather than']
-non_triggers['filter_not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none', 'unable', 'fail', 'different', 'outside', 'rather than']
+non_triggers['not_eq'] = ['not', 'no', 'never', "didn't", "won't", "wasn't", "isn't", "haven't", "weren't",
+                          "won't", 'neither', 'none', 'unable', 'fail', 'different', 'outside', 'unable', 'fail']
+non_triggers['not_str_eq'] = non_triggers['not_eq']
+non_triggers['not_within_s_s'] = non_triggers['not_eq']
+non_triggers['not_within_n_n'] = non_triggers['not_eq']
+non_triggers['filter_str_not_eq'] = non_triggers['not_eq']
+non_triggers['filter_not_eq'] = non_triggers['not_eq']
 
 non_triggers['first'] = ['first', 'top', 'latest', 'most']
 non_triggers['last'] = ['last', 'bottom', 'latest', 'most']
@@ -341,24 +246,21 @@ non_triggers['all_greater'] = [['all', 'equal', 'while', 'every', 'each'], ['RBR
 non_triggers['all_str_eq'] = ['all', 'equal', 'while', 'every', 'each']
 
 non_triggers['filter_less_eq'] = ['or', 'at most', 'than']
-non_triggers['filter_greater_eq'] = ['or', 'at most', 'than']
+non_triggers['filter_greater_eq'] = non_triggers['filter_less_eq'] 
 
 non_triggers['all_less_eq'] = [['or', 'at least', 'than'], ['all', 'equal', 'while', 'every', 'each']]
-non_triggers['all_greater_eq'] = [['or', 'at least', 'than'], ['all', 'equal', 'while', 'every', 'each']]
-
-#non_triggers['and'] = ['and', 'while', 'when', ',', 'neither', 'none', 'all', 'both']
-#non_triggers['neither'] = ['neither', 'none', 'not', "'nt", 'both']
+non_triggers['all_greater_eq'] = non_triggers['all_less_eq']
 
 non_triggers['inc_num'] = ['and', 'while', 'when', ',', 'both', 'neither', 'none', 'all', 'which', 'who', 'that', 'whose']
-non_triggers['inc_str'] = ['and', 'while', 'when', ',', 'both', 'neither', 'none', 'all', 'which', 'who', 'that', 'whose']
+non_triggers['inc_str'] = non_triggers['inc_num']
 
 non_triggers['max'] = ['RBR', 'RBS', 'JJR', 'JJS']
-non_triggers['min'] = ['RBR', 'RBS','JJR', 'JJS']
+non_triggers['min'] = non_triggers['max']
 non_triggers['argmax'] = ['JJR', 'JJS', 'RBR', 'RBS', 'top', 'first', 'bottom', 'last']
-non_triggers['argmin'] = ['JJR', 'JJS', 'RBR', 'RBS', 'top', 'first', 'bottom', 'last']
+non_triggers['argmin'] = non_triggers['argmax']
 
-non_triggers['within_s'] = ['within', 'one', 'of', 'among', 'is', 'are', 'were', 'was']
-non_triggers['within_n'] = ['within', 'one', 'of', 'among', 'is', 'are', 'were', 'was']
+non_triggers['within_s_s'] = ['within', 'one', 'of', 'among', 'is', 'are', 'were', 'was']
+non_triggers['within_n_n'] = non_triggers['within_s']
 
 non_triggers['next'] = ['follow', 'following', 'followed', 'under', 'after']
 non_triggers['prev'] = ['before', 'above', 'precede', 'preceded', 'preceding']
@@ -369,4 +271,5 @@ non_triggers['most_freq'] = ['RBS', 'JJS', 'than any other']
 #non_triggers['count'] = ['there', 'num', 'amount', 'have', 'has', 'had', 'are', 'more']
 #non_triggers['max'] = [k for k, v in triggers.iteritems() if v == 'max']
 #non_triggers['argmax'] = [k for k, v in triggers.iteritems() if v == 'argmax']
-
+#non_triggers['and'] = ['and', 'while', 'when', ',', 'neither', 'none', 'all', 'both']
+#non_triggers['neither'] = ['neither', 'none', 'not', "'nt", 'both']
