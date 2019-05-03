@@ -45,10 +45,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
     #print "must have: ", must_have
     #print "Must not have: ", must_not_have
     #print "Valid functions: ", [_ for _ in APIs if _ not in must_not_have]
-
     node = Node(memory_str=mem_str, memory_num=mem_num, rows=t, 
                 header_str=head_str, header_num=head_num, must_have=must_have, must_not_have=must_not_have)
-    
+
     start_time = time.time()
     # The result storage
     finished = []
@@ -126,11 +125,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             if not root.exist(command):
                                 tmp = root.clone(command)
                                 returned = call(command, v['function'], va)
-                                try:
-                                    tmp.add_memory_str(h, returned)
-                                except Exception:
-                                    import pdb
-                                    pdb.set_trace()
+                                tmp.add_memory_str(h, returned)
                                 conditional_add(tmp, hist[i + 1])
                 
                 
@@ -174,11 +169,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 command = v['tostr'](row_h, head, va)
                                 if not root.exist(command):
                                     tmp = root.clone(command)
-                                    try:
-                                        returned = call(command, v['function'], row, head, va)
-                                    except Exception:
-                                        import pdb
-                                        pdb.set_trace()
+                                    returned = call(command, v['function'], row, head, va)
                                     tmp.delete_memory_num(tmp.memory_num.index((h, va)))
                                     if tmp.done():
                                         finished.append((tmp, returned))
@@ -220,7 +211,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             conditional_add(tmp, hist[i + 1])
                 
                 elif v['argument'] == ['row', 'row']:
-                    _, all_row = root.rows[0]
+                    _, all_rows = root.rows[0]
                     for j, (row_h, row) in enumerate(root.rows):
                         if len(row) != 1:
                             continue
@@ -228,7 +219,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                         if not root.exist(command):
                             tmp = root.clone(command)
                             tmp.inc_row_counter(j)
-                            returned = call(command, v['function'], all_row, row)
+                            returned = call(command, v['function'], all_rows, row)
                             if returned is not None:
                                 tmp.add_rows(command, returned)                     
                                 conditional_add(tmp, hist[i + 1])                    
@@ -298,7 +289,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     tmp = root.clone(command)
                                     tmp.inc_row_counter(j)
                                     returned = call(command, v['function'], row, root.header_str[l])
-                                    if v['output'] == 'str':
+                                    if v['output'] == 'str' and isinstance(returned, str):
                                         tmp.add_memory_str("tmp_" + root.header_str[l], returned)
                                         #tmp.delete_header_str(l)
                                         conditional_add(tmp, hist[i + 1])
@@ -313,7 +304,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 if not root.exist(command):
                                     tmp = root.clone(command)
                                     tmp.inc_row_counter(j)
-                                    if v['output'] == 'str':
+                                    if v['output'] == 'str' and isinstance(returned, str):
                                         tmp.add_memory_str("tmp_" + root.header_str[l], v['function'](row, root.header_str[l]))
                                         #tmp.delete_header_str(l)
                                         conditional_add(tmp, hist[i + 1])
@@ -385,7 +376,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 
                 elif v['argument'] == ['row', ['header_str', 'str']]:
                     for j, (row_h, row) in enumerate(root.rows):
-                        #if len(row) == 1:
+                        #if len(row_h) == 1:
                         #    continue
                         for h, va in root.memory_str:
                             if "tmp_" not in h:
@@ -394,11 +385,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     tmp = root.clone(command)
                                     tmp.inc_row_counter(j)
                                     tmp.delete_memory_str(tmp.memory_str.index((h, va)))
-                                    try:
-                                        returned = call(command, v['function'], row, h, va)
-                                    except Exception:
-                                        import pdb
-                                        pdb.set_trace()
+                                    returned = call(command, v['function'], row, h, va)
                                     if v['output'] == 'row':
                                         if len(returned) > 0:
                                             tmp.add_rows(command, returned)
@@ -424,7 +411,11 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 if not root.exist(command):
                                     tmp = root.clone(command)
                                     tmp.inc_row_counter(j)
-                                    tmp.delete_memory_num(tmp.memory_num.index((h, va)))
+                                    try:
+                                        tmp.delete_memory_num(tmp.memory_num.index((h, va)))
+                                    except Exception:
+                                        import pdb
+                                        pdb.set_trace()
                                     returned = call(command, v['function'], row, h, va)
                                     if v['output'] == 'row':
                                         if len(returned) > 0:
