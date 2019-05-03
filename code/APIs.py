@@ -260,7 +260,7 @@ non_triggers['argmax'] = ['JJR', 'JJS', 'RBR', 'RBS', 'top', 'first', 'bottom', 
 non_triggers['argmin'] = non_triggers['argmax']
 
 non_triggers['within_s_s'] = ['within', 'one', 'of', 'among', 'is', 'are', 'were', 'was']
-non_triggers['within_n_n'] = non_triggers['within_s']
+non_triggers['within_n_n'] = non_triggers['within_s_s']
 
 non_triggers['next'] = ['follow', 'following', 'followed', 'under', 'after']
 non_triggers['prev'] = ['before', 'above', 'precede', 'preceded', 'preceding']

@@ -133,7 +133,7 @@ class Node(object):
             raise ValueError("type error")
 
     def add_memory_str(self, header, val):
-        if isinstance(val, str):
+        if isinstance(val, unicode) or isinstance(val, str):
             self.memory_str.append((header, val))
             #self.str_counter.append(0)
         else:
