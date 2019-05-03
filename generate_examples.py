@@ -32,32 +32,31 @@ def get_closest(string, indexes, tab):
             dist = abs(len_tab - len_string)
     return minimum
 
-def replace_number(inp):
-    inp = re.sub(r'(\b)one(\b)', r'\g<1>1\g<2>', inp)
-    inp = re.sub(r'(\b)is one(\b)', r'\g<1>is 1\g<2>', inp)
-    inp = re.sub(r'(\b)two(\b)', '\g<1>2\g<2>', inp)
-    inp = re.sub(r'(\b)three(\b)', '\g<1>3\g<2>', inp)
-    inp = re.sub(r'(\b)four(\b)', '\g<1>4\g<2>', inp)
-    inp = re.sub(r'(\b)five(\b)', '\g<1>5\g<2>', inp)
-    inp = re.sub(r'(\b)six(\b)', '\g<1>6\g<2>', inp)
-    inp = re.sub(r'(\b)seven(\b)', '\g<1>7\g<2>', inp)
-    inp = re.sub(r'(\b)eight(\b)', '\g<1>8\g<2>', inp)
-    inp = re.sub(r'(\b)nine(\b)', '\g<1>9\g<2>', inp)
-    inp = re.sub(r'(\b)ten(\b)', '\g<1>10\g<2>', inp)
-    inp = re.sub(r'(\b)eleven(\b)', '\g<1>11\g<2>', inp)
-    inp = re.sub(r'(\b)twelve(\b)', '\g<1>12\g<2>', inp)
-    inp = re.sub(r'(\b)thirteen(\b)', '\g<1>13\g<2>', inp)
-    inp = re.sub(r'(\b)fourteen(\b)', '\g<1>14\g<2>', inp)
-    inp = re.sub(r'(\b)fifteen(\b)', '\g<1>15\g<2>', inp)
-    inp = re.sub(r'(\b)sixteen(\b)', '\g<1>16\g<2>', inp)
-    inp = re.sub(r'(\b)seventeen(\b)', '\g<1>17\g<2>', inp)
-    inp = re.sub(r'(\b)eighteen(\b)', '\g<1>18\g<2>', inp)
-    inp = re.sub(r'(\b)nineteen(\b)', '\g<1>19\g<2>', inp)
-    inp = re.sub(r'(\b)twenty(\b)', '\g<1>20\g<2>', inp)
-    return inp
+def replace_number(string):
+    string = re.sub(r'(\b)one(\b)', r'\g<1>1\g<2>', string)
+    string = re.sub(r'(\b)is one(\b)', r'\g<1>is 1\g<2>', string)
+    string = re.sub(r'(\b)two(\b)', '\g<1>2\g<2>', string)
+    string = re.sub(r'(\b)three(\b)', '\g<1>3\g<2>', string)
+    string = re.sub(r'(\b)four(\b)', '\g<1>4\g<2>', string)
+    string = re.sub(r'(\b)five(\b)', '\g<1>5\g<2>', string)
+    string = re.sub(r'(\b)six(\b)', '\g<1>6\g<2>', string)
+    string = re.sub(r'(\b)seven(\b)', '\g<1>7\g<2>', string)
+    string = re.sub(r'(\b)eight(\b)', '\g<1>8\g<2>', string)
+    string = re.sub(r'(\b)nine(\b)', '\g<1>9\g<2>', string)
+    string = re.sub(r'(\b)ten(\b)', '\g<1>10\g<2>', string)
+    string = re.sub(r'(\b)eleven(\b)', '\g<1>11\g<2>', string)
+    string = re.sub(r'(\b)twelve(\b)', '\g<1>12\g<2>', string)
+    string = re.sub(r'(\b)thirteen(\b)', '\g<1>13\g<2>', string)
+    string = re.sub(r'(\b)fourteen(\b)', '\g<1>14\g<2>', string)
+    string = re.sub(r'(\b)fifteen(\b)', '\g<1>15\g<2>', string)
+    string = re.sub(r'(\b)sixteen(\b)', '\g<1>16\g<2>', string)
+    string = re.sub(r'(\b)seventeen(\b)', '\g<1>17\g<2>', string)
+    string = re.sub(r'(\b)eighteen(\b)', '\g<1>18\g<2>', string)
+    string = re.sub(r'(\b)nineteen(\b)', '\g<1>19\g<2>', string)
+    string = re.sub(r'(\b)twenty(\b)', '\g<1>20\g<2>', string)
+    return string
 
 def postprocess(inp, backbone, tabs):
-    inp = re.sub(r'([^0-9])\.', r'\1', inp)
     new_str = []
     new_tags = []
     buf = ""
@@ -220,7 +219,7 @@ if round1:
 """
 with open('READY/r1_training_all.json') as f:
     data = json.load(f)
-results = {}
+r1_results = {}
 count = 0
 for name in data:
     entry = data[name]
@@ -240,25 +239,28 @@ for name in data:
                             backbone[sub].append((k, l))
 
         count += 1
-        if name in results:
+        if name in r1_results:
             sent, tag = postprocess(entry[0][i], backbone, tabs)
-            results[name][0].append(sent)
-            results[name][1].append(entry[1][i])
-            results[name][2].append(tag)
+            r1_results[name][0].append(sent)
+            r1_results[name][1].append(entry[1][i])
+            r1_results[name][2].append(tag)
         else:
             sent, tag = postprocess(entry[0][i], backbone, tabs)
-            results[name] = [[sent], [entry[1][i]], [tag]]
+            r1_results[name] = [[sent], [entry[1][i]], [tag]]
 
-    if len(results) // 10 > 1:
+        if len(r1_results) % 1000 == 0:
+            print "finished {}".format(len(r1_results))
+
+    if len(r1_results) // 10 > 1:
         break
 print "Easy Set: ", count
 
 with open('READY/r1_training_cleaned.json', 'w') as f:
-    json.dump(results, f, indent=2)   
+    json.dump(r1_results, f, indent=2)   
 
 with open('READY/r2_training_all.json') as f:
     data = json.load(f)
-results = {}
+r2_results = {}
 count = 0
 for name in data:
     entry = data[name]
@@ -278,18 +280,26 @@ for name in data:
                             backbone[sub].append((k, l))
 
         count += 1
-        if name in results:
+        if name in r2_results:
             sent, tag = postprocess(entry[0][i], backbone, tabs)
-            results[name][0].append(sent)
-            results[name][1].append(entry[1][i])
-            results[name][2].append(tag)
+            r2_results[name][0].append(sent)
+            r2_results[name][1].append(entry[1][i])
+            r2_results[name][2].append(tag)
         else:
             sent, tag = postprocess(entry[0][i], backbone, tabs)
-            results[name] = [[sent], [entry[1][i]], [tag]]
+            r2_results[name] = [[sent], [entry[1][i]], [tag]]
+        
+        if len(r2_results) % 1000 == 0:
+            print "finished {}".format(len(r2_results))
 
-    if len(results) // 10 > 1:
+    if len(r2_results) // 10 > 1:
         break
 print "Hard Set: ", count
 
 with open('READY/r2_training_cleaned.json', 'w') as f:
-    json.dump(results, f, indent=2)
+    json.dump(r2_results, f, indent=2)
+
+r2_results.update(r1_results)
+with open('READY/full_cleaned.json', 'w') as f:
+    json.dump(r2_results, f, indent=2)
+
