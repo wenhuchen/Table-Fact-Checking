@@ -319,10 +319,11 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
                                     returned = call(command, v['function'], row, root.header_str[l])
-                                    if v['output'] == 'str' and isinstance(returned, unicode):
-                                        tmp.add_memory_str("tmp_" + root.header_str[l], returned)
-                                        tmp.append_result(returned)
-                                        conditional_add(tmp, hist[i + 1])
+                                    if v['output'] == 'str':
+                                        if isinstance(returned, unicode):
+                                            tmp.add_memory_str("tmp_" + root.header_str[l], returned)
+                                            tmp.append_result(returned)
+                                            conditional_add(tmp, hist[i + 1])
                                     else:
                                         raise ValueError("error, output of scope")
                     else:
@@ -335,10 +336,11 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
                                     returned = call(command, v['function'], row, root.header_str[l])                                    
-                                    if v['output'] == 'str' and isinstance(returned, unicode):
-                                        tmp.add_memory_str("tmp_" + root.header_str[l], v['function'](row, root.header_str[l]))
-                                        tmp.append_result(returned)
-                                        conditional_add(tmp, hist[i + 1])
+                                    if v['output'] == 'str':
+                                        if isinstance(returned, unicode):
+                                            tmp.add_memory_str("tmp_" + root.header_str[l], v['function'](row, root.header_str[l]))
+                                            tmp.append_result(returned)
+                                            conditional_add(tmp, hist[i + 1])
                                     elif v['output'] == 'row':
                                         if len(returned) > 0:
                                             tmp.add_rows(command, returned)
