@@ -8,6 +8,7 @@ import multiprocessing
 import sys
 import time
 import argparse
+import os
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -142,9 +143,13 @@ else:
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
-		res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
-		with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
-			json.dump(res, f, indent=2)
+		if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
+			try:
+				res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
+				with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
+					json.dump(res, f, indent=2)
+			except Exception:
+				print "failed {}, {}".format(table_name, idx)
 		#print "finished {}".format(table_name)
 
 	#data = data[:240]
@@ -166,7 +171,7 @@ else:
 			#if arg[0] == '2-18337810-1.html.csv':
 			func(arg)
 	else:
-		cores = multiprocessing.cpu_count() - 6
+		cores = multiprocessing.cpu_count()# - 6
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
 	

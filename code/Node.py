@@ -1,7 +1,6 @@
 import pandas
 import numpy
 import copy
-from pandas.util import hash_pandas_object
 from APIs import APIs
 
 class Node(object):
