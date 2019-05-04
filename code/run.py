@@ -3,10 +3,10 @@ import json
 import pandas
 import numpy
 from beam_search import dynamic_programming
-#from pathos.multiprocessing import ProcessingPool as Pool
 from multiprocessing import Pool
 import multiprocessing
 import sys
+import time
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -39,10 +39,10 @@ def replace(string):
 	return string
 
 def list2tuple(inputs):
-    mem = []
-    for s in inputs:
-        mem.append(tuple(s))
-    return mem
+	mem = []
+	for s in inputs:
+		mem.append(tuple(s))
+	return mem
 
 debug = False
 if debug:
@@ -106,7 +106,8 @@ if debug:
 			#print masked_sent
 			#print mem_num, head_num, mem_str, head_str, pos_tag
 			#print
-			preprocessed.append((table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num))
+			preprocessed.append((table_name, sent, pos_tag, masked_sent, mem_str, 
+			                     mem_num, head_str, head_num, "nt-{}".format(len(preprocessed)),))
 			#dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, 2)
 	with open('../READY/preprocessed.json', 'w') as f:
 		json.dump(preprocessed, f, indent=2)
@@ -116,15 +117,17 @@ else:
 		data = json.load(f)
 
 	def func(args):
-		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num = args
+		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx = args
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#")
-		#print table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
-		dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num)
+		res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num)
+		with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
+			json.dump(res, f, indent=2)
+		#print "finished {}".format(table_name)
 
-	data = data[:24]
+	data = data[:5]
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
 	pos_tag = [_[2] for _ in data]
@@ -133,18 +136,22 @@ else:
 	mem_num = [list2tuple(_[5]) for _ in data]
 	head_str = [_[6] for _ in data]
 	head_num = [_[7] for _ in data]
+	idxes = [_[8] for _ in data]
 	
-	cores = multiprocessing.cpu_count()
-	print "Using {} cores".format(cores)
-	pool = Pool(cores)
-
-	res = pool.map(func, zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num))
-	#print res
+	distributed = False
 	
-	pool.close()
-	pool.join()
-	"""
-	for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num):
-		func(arg)
-		print "finished"
-	"""
+	start_time = time.time()
+	if distributed:
+		cores = multiprocessing.cpu_count()
+		print "Using {} cores".format(cores)
+		pool = Pool(cores)
+	
+		res = pool.map(func, zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes))
+		
+		pool.close()
+		pool.join()
+	else:
+		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes):
+			func(arg)
+			print "finished"		
+	print "used time {}".format(time.time() - start_time)

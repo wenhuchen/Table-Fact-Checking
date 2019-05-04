@@ -2,6 +2,7 @@ import pandas
 import numpy
 import copy
 from pandas.util import hash_pandas_object
+from APIs import APIs
 
 class Node(object):
     def __init__(self, rows, memory_str, memory_num, header_str, header_num, must_have, must_not_have):
@@ -45,11 +46,14 @@ class Node(object):
         print "header_num:", self.header_num
         print "trace:", self.cur_str       
 
-    def concat(self, new_str):
-        if self.cur_str:
-            self.cur_str += "->" + new_str
+    def concat(self, new_str, k):
+        if APIs[k]['append']:
+            if self.cur_str:
+                self.cur_str += "->" + new_str
+            else:
+                self.cur_str = new_str
         else:
-            self.cur_str = new_str
+            pass
         func = new_str.split('(')[0]
         self.cur_funcs.append(func)
         self.cur_strs.add(new_str)
@@ -59,12 +63,11 @@ class Node(object):
         #    self.must_not_have.extend(['min', 'argmin'])
 
     def exist(self, command):
-        func = command.split('(')[0]
         return command in self.cur_strs
 
-    def clone(self, command):
+    def clone(self, command, k):
         tmp = copy.deepcopy(self)
-        tmp.concat(command)
+        tmp.concat(command, k)
         return tmp
 
     @property
@@ -95,19 +98,19 @@ class Node(object):
     @property
     def hash(self):
         return hash(frozenset(self.cur_strs))
-        """
-        cache_hash = hash(tuple(self.memory_str + self.memory_num + self.memory_bool \
-                                + self.header_str + self.header_num))
-        if self.row_num:
-            r = []
-            for row in self.rows[1:]:
-                r.append(len(row))
-                r.append(row.iloc[0][0])
-            row_hash = hash(tuple(r))
-            return cache_hash + row_hash
-        else:
-            return cache_hash
-        """
+    """
+    cache_hash = hash(tuple(self.memory_str + self.memory_num + self.memory_bool \
+                            + self.header_str + self.header_num))
+    if self.row_num:
+        r = []
+        for row in self.rows[1:]:
+            r.append(len(row))
+            r.append(row.iloc[0][0])
+        row_hash = hash(tuple(r))
+        return cache_hash + row_hash
+    else:
+        return cache_hash
+    """
 
     
     def get_memory_str(self, i):
