@@ -111,8 +111,16 @@ class Node(object):
     else:
         return cache_hash
     """
-
     
+    def append_result(self, r):
+        self.cur_str += "={}".format(r)
+    
+    def append_bool(self, r):
+        if self.cur_str != "":
+            self.cur_str += ";{}".format(r)
+        else:
+            self.cur_str = "{}".format(r)
+        
     def get_memory_str(self, i):
         return self.memory_str[i][1]
 

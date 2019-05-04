@@ -4,7 +4,7 @@ import time
 from functools import wraps
 
 # prunning tricks
-def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_str, head_num, num=6):
+def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_str, head_num, label, num=6):
     must_have = []
     must_not_have = []
     #for k, v in triggers.iteritems():
@@ -162,7 +162,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     if v['output'] == "bool":
                                         tmp.delete_memory_str(tmp.memory_str.index((h, va)))
                                         if tmp.done():
-                                            finished.append((tmp, returned))
+                                            if i > 0:
+                                                tmp.append_bool(command)
+                                                tmp.append_result(returned)                                            
+                                                finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])
@@ -182,7 +185,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     if v['output'] == "bool":
                                         tmp.delete_memory_num(tmp.memory_num.index((h, va)))
                                         if tmp.done():
-                                            finished.append((tmp, returned))
+                                            if i > 0:
+                                                tmp.append_bool(command)
+                                                tmp.append_result(returned)                                            
+                                                finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])
@@ -202,7 +208,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     if v['output'] == "bool":
                                         tmp.delete_memory_bool(l, m)
                                         if tmp.done():
-                                            finished.append((tmp, returned))
+                                            if i > 0:
+                                                tmp.append_bool(command)
+                                                tmp.append_result(returned)                                            
+                                                finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])
@@ -218,7 +227,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             returned = call(command, v['function'], row)
                             if v['output'] == 'num':
                                 tmp.add_memory_num("tmp_count", returned)
-                                tmp.cur_str += "={}".format(returned)
+                                tmp.append_result(returned)
                             elif v['output'] == 'row':
                                 tmp.add_rows(command, returned)
                             else:
@@ -256,7 +265,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     returned = call(command, v['function'], row, root.header_num[l])
                                     if v['output'] == 'num':
                                         tmp.add_memory_num("tmp_" + root.header_num[l], returned)
-                                        tmp.cur_str += "={}".format(returned)
+                                        tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])
                                     else:
                                         raise ValueError("error, output of scope")
@@ -274,7 +283,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     if v['output'] == 'num':
                                         tmp.add_memory_num("tmp_" + root.header_num[l], returned)
                                         tmp.delete_header_num(l)
-                                        tmp.cur_str += "={}".format(returned)
+                                        tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])
                                     elif v['output'] == 'row':
                                         if len(returned) > 0:
@@ -296,7 +305,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 if v['output'] == 'str':
                                     if returned is not None:
                                         tmp.add_memory_str("tmp_" + root.header_str[l], returned)
-                                        tmp.cur_str += "={}".format(returned)
+                                        tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])
                                 else:
                                     raise ValueError("error, output of scope")
@@ -312,7 +321,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     returned = call(command, v['function'], row, root.header_str[l])
                                     if v['output'] == 'str' and isinstance(returned, str):
                                         tmp.add_memory_str("tmp_" + root.header_str[l], returned)
-                                        tmp.cur_str += "={}".format(returned)
+                                        tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])
                                     else:
                                         raise ValueError("error, output of scope")
@@ -328,7 +337,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     returned = call(command, v['function'], row, root.header_str[l])                                    
                                     if v['output'] == 'str' and isinstance(returned, str):
                                         tmp.add_memory_str("tmp_" + root.header_str[l], v['function'](row, root.header_str[l]))
-                                        tmp.cur_str += "={}".format(returned)
+                                        tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])
                                     elif v['output'] == 'row':
                                         if len(returned) > 0:
@@ -360,11 +369,14 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     returned = call(command, v['function'], root.get_memory_num(l), root.get_memory_num(m))
                                     if v['output'] == 'num':
                                         tmp.add_memory_num("tmp_" + root.memory_num[l][0], returned)
-                                        tmp.cur_str += "={}".format(returned)
+                                        tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])
                                     elif v['output'] == 'bool':
                                         if tmp.done():
-                                            finished.append((tmp, returned))
+                                            if i > 0:
+                                                tmp.append_bool(command)
+                                                tmp.append_result(returned)
+                                                finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])
@@ -388,7 +400,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     if v['output'] == 'bool':
                                         returned = call(command, v['function'], root.get_memory_str(m), root.get_memory_str(l))
                                         if tmp.done():
-                                            finished.append((tmp, returned))
+                                            if i > 0:
+                                                tmp.append_bool(command)
+                                                tmp.append_result(returned)                                        
+                                                finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])                                            
@@ -415,7 +430,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                             continue
                                     elif v['output'] == 'bool':
                                         if tmp.done():
-                                            finished.append((tmp, returned))
+                                            if i > 0:
+                                                tmp.append_bool(command)
+                                                tmp.append_result(returned)
+                                                finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])
@@ -432,11 +450,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
-                                    try:
-                                        tmp.delete_memory_num(tmp.memory_num.index((h, va)))
-                                    except Exception:
-                                        import pdb
-                                        pdb.set_trace()
+                                    tmp.delete_memory_num(tmp.memory_num.index((h, va)))
                                     returned = call(command, v['function'], row, h, va)
                                     if v['output'] == 'row':
                                         if len(returned) > 0:
@@ -446,7 +460,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                             continue
                                     elif v['output'] == 'bool':
                                         if tmp.done():
-                                            finished.append((tmp, returned))
+                                            if i > 0:
+                                                tmp.append_bool(command)
+                                                tmp.append_result(returned)                                            
+                                                finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])                                           
@@ -521,7 +538,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
             break
 
     #print "used time {} to get {} programs".format(time.time() - start_time, len(hist[-1]))
-    return (name, orig_sent, [_[0].cur_str for _ in finished])
+    return (name, orig_sent, label, [_[0].cur_str for _ in finished])
     #with open('/tmp/results.txt', 'w') as f:
     #    for h in hist[-1]:
     #       print >> f, h.cur_str
