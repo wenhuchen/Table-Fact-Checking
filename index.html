@@ -125,13 +125,14 @@ $(document).ready(function(){
     text_list = r[0];
     label_list = r[1];
     pos_list = r[2];
+    title = r[3]
     //for (var i = 0; i < total; i++){
     $.get(prefix + url, function(data){
         $(`#table1`).html(CSV2Table(data));
     });
     //console.log(r[2]);
     //$('#wiki1').html(r[2]);
-    var text_str = `<p>source : ${prefix + url}<p>`
+    var text_str = `<p>source : ${prefix + url} : ${title}<p>`
     for (var i=0; i < text_list.length; i++){
         if(label_list[i] == 1 || label_list[i] == "Entailed"){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";
@@ -158,12 +159,13 @@ $('#goto').click(function(){
         text_list = r[0];
         label_list = r[1];
         pos_list = r[2];
+        title = r[3]
         //for (var i = 0; i < total; i++){
         $.get(prefix + csv_file, function(data){
             $(`#table1`).html(CSV2Table(data));
         });
         //$('#wiki1').html(r[2]);
-        var text_str = `<p>source : ${prefix + csv_file}<p>`
+        var text_str = `<p>source : ${prefix + url} : ${title}<p>`
         for (var i=0; i < text_list.length; i++){
             if(label_list[i] == 1 || label_list[i] == "Entailed"){
                 text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
@@ -195,12 +197,13 @@ function prev() {
         text_list = r[0];
         label_list = r[1];
         pos_list = r[2];
+        title = r[3]
         //for (var i = 0; i < total; i++){
         $.get(prefix + url, function(data){
             $(`#table1`).html(CSV2Table(data));
         });
         //$('#wiki1').html(r[2]);
-        var text_str = `<p>source : ${prefix + url}<p>`
+        var text_str = `<p>source : ${prefix + url} : ${title}<p>`
         for (var i=0; i < text_list.length; i++){
             if(label_list[i] == 1 || label_list[i] == "Entailed"){
                 text_str += '<p style="color:red;">' + text_list[i] + "</p>";
@@ -226,12 +229,13 @@ function next() {
     text_list = r[0];
     label_list = r[1];
     pos_list = r[2];
+    title = r[3]
     //for (var i = 0; i < total; i++){
     $.get(prefix + url, function(data){
         $(`#table1`).html(CSV2Table(data));
     });
     //$('#wiki1').html(r[2]);
-    var text_str = `<p>source : ${prefix + url}<p>`
+    var text_str = `<p>source : ${prefix + url} : ${title}<p>`
     for (var i=0; i < text_list.length; i++){
         if(label_list[i] == 1 || label_list[i] == "Entailed"){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";                
