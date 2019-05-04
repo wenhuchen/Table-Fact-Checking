@@ -1,9 +1,0 @@
-[
-  "2-18705842-4.html.csv", 
-  "the #netherlands;[14, 1]# have 1 #bronze;[0, 4]# medal and #sweden;[9, 1]# have 2 #bronze;[0, 4]# medal", 
-  1, 
-  [
-    "hop(filter_str_eq(all_rows, nation, netherlands), nation)=netherlands;and(eq(1, 2), eq(netherlands, sweden))=False", 
-    "hop(filter_str_eq(all_rows, nation, sweden), nation)=sweden;and(eq(1, 2), eq(sweden, netherlands))=False"
-  ]
-]

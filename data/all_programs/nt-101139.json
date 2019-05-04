@@ -1,9 +1,0 @@
-[
-  "2-18470615-2.html.csv", 
-  "#jason romano;[8, 1]# play for #montreal expo;[13, 2]#", 
-  0, 
-  [
-    "hop(filter_str_eq(all_rows, player, jason romano), team)=texas rangers;eq(texas rangers, montreal expos)=False", 
-    "count(filter_str_eq(all_rows, player, jason romano))=1;count(filter_str_eq(all_rows, team, montreal expos))=7;eq(1, 7)=False"
-  ]
-]

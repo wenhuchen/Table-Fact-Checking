@@ -1,9 +1,0 @@
-[
-  "1-11959669-7.html.csv", 
-  "#perkins;[7, 5]# win the #high rebound;[0, 5]# in exactly 5 #game;[0, 0]#", 
-  1, 
-  [
-    "count(filter_str_eq(all_rows, high rebounds, perkins (7)))=1;eq(5, 1)=False", 
-    "hop(filter_str_eq(all_rows, high rebounds, perkins (7)), game)=64;eq(5, 64)=False"
-  ]
-]

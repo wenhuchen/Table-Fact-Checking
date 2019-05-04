@@ -1,9 +1,0 @@
-[
-  "2-17162128-5.html.csv", 
-  "every #player;[0, 1]# in the 1999 us open be from the #united state;[1, 2]#", 
-  0, 
-  [
-    "count(filter_str_eq(all_rows, country, united states))=12;eq(1999, 12)=False", 
-    "count(all_rows)=13;and(all_eq(all_rows, country, united states), eq(1999, 13))=False"
-  ]
-]

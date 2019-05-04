@@ -1,9 +1,0 @@
-[
-  "1-1341568-6.html.csv", 
-  "there be 1 #republican;[12, 2]# #incumbent;[0, 1]# representative for #california 34;[9, 0]#", 
-  0, 
-  [
-    "count(all_rows)=12;hop(filter_str_eq(all_rows, district, california 34), party)=democratic;and(eq(1, 12), eq(democratic, republican))=False", 
-    "count(filter_str_eq(all_rows, district, california 34))=1;hop(filter_str_eq(all_rows, district, california 34), party)=democratic;and(eq(1, 1), eq(democratic, republican))=False"
-  ]
-]

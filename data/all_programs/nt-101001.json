@@ -1,9 +1,0 @@
-[
-  "1-1214035-1.html.csv", 
-  "the #open cup;[0, 5]# #quarter final;[8, 5]# in in the #usl pdl;[12, 2]#", 
-  0, 
-  [
-    "hop(filter_str_eq(all_rows, open cup, quarter finals), league)=usisl a - league;eq(usisl a - league, usl pdl)=False", 
-    "count(filter_str_eq(all_rows, open cup, quarter finals))=1;count(filter_str_eq(all_rows, league, usl pdl))=10;eq(1, 10)=False"
-  ]
-]

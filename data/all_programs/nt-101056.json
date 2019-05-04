@@ -1,9 +1,0 @@
-[
-  "1-11236195-2.html.csv", 
-  "the losing team in the #1993;[6, 0]# #season;[0, 0]# be the #balmain tiger;[2, 4]#", 
-  0, 
-  [
-    "hop(filter_eq(all_rows, season, 1993), losingteam)=st george dragons;eq(st george dragons, balmain tigers)=False", 
-    "count(filter_str_eq(all_rows, losingteam, balmain tigers))=2;count(filter_eq(all_rows, season, 1993))=1;eq(2, 1)=False"
-  ]
-]

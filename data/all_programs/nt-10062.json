@@ -1,9 +1,0 @@
-[
-  "1-26591434-1.html.csv", 
-  "the #original;[0, 4]# air date for the #writer;[0, 2]# #tanaka;[9, 2]# shinicki 's #episode;[0, 0]# be #june;[10, 4]# 1st #, 2010;[5, 4]#", 
-  1, 
-  [
-    "hop(filter_str_eq(all_rows, original airdate, june 8 , 2010 22.00 - 22.54), original airdate)=june 8 , 2010 22.00 - 22.54;hop(filter_str_eq(all_rows, original airdate, june 8 , 2010 22.00 - 22.54), writer)=tomokazu tokunaga;and(eq(june 8 , 2010 22.00 - 22.54, may 4 , 2010 22.00 - 22.54), eq(tomokazu tokunaga, tanaka shinichi))=False", 
-    "hop(filter_str_eq(all_rows, original airdate, may 4 , 2010 22.00 - 22.54), original airdate)=may 4 , 2010 22.00 - 22.54;hop(filter_str_eq(all_rows, original airdate, may 4 , 2010 22.00 - 22.54), writer)=tomokazu tokunaga;and(eq(may 4 , 2010 22.00 - 22.54, june 8 , 2010 22.00 - 22.54), eq(tomokazu tokunaga, tanaka shinichi))=False"
-  ]
-]

@@ -1,9 +1,0 @@
-[
-  "1-12886178-4.html.csv", 
-  "#club;[1, 0]# #newport hsob rfc;[9, 0]# have #39;[11, 11]# #point;[0, 11]#", 
-  0, 
-  [
-    "hop(filter_str_eq(all_rows, club, club), points)=points;hop(filter_str_eq(all_rows, club, club), club)=club;and(eq(points, 39), eq(club, newport hsob rfc))=False", 
-    "hop(filter_str_eq(all_rows, club, newport hsob rfc), points)=41;hop(filter_str_eq(all_rows, club, newport hsob rfc), club)=newport hsob rfc;and(eq(41, 39), eq(newport hsob rfc, club))=False"
-  ]
-]

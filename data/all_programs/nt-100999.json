@@ -1,9 +1,0 @@
-[
-  "1-1214035-1.html.csv", 
-  "in #2002;[12, 0]# the #open cup;[0, 5]# #do not qualify;[13, 4]#", 
-  1, 
-  [
-    "hop(filter_eq(all_rows, year, 2002), playoffs)=1st round;eq(1st round, did not qualify)=False", 
-    "count(filter_str_eq(all_rows, playoffs, did not qualify))=13;count(filter_eq(all_rows, year, 2002))=1;eq(13, 1)=False"
-  ]
-]

@@ -1,9 +1,0 @@
-[
-  "2-10767641-2.html.csv", 
-  "when the #away team score;[0, 3]# 75 #(47);[3, 3]# , the #home team score;[0, 1]# 1714 #(116);[3, 1]#", 
-  1, 
-  [
-    "hop(filter_str_eq(all_rows, away team score, 7.5 (47)), home team score)=17.14 (116);and(eq(75, 1714), eq(17.14 (116), 17.14 (116)))=False", 
-    "hop(filter_str_eq(all_rows, home team score, 17.14 (116)), away team score)=7.5 (47);and(eq(75, 1714), eq(7.5 (47), 7.5 (47)))=False"
-  ]
-]

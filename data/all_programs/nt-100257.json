@@ -1,9 +1,0 @@
-[
-  "2-10887379-15.html.csv", 
-  "#st kilda;[5, 0]# play a #home;[0, 0]# game with 3291 people in the #crowd;[0, 5]#", 
-  0, 
-  [
-    "count(filter_str_eq(all_rows, home team, st kilda))=1;eq(3291, 1)=False", 
-    "hop(filter_str_eq(all_rows, home team, st kilda), crowd)=8120;eq(3291, 8120)=False"
-  ]
-]

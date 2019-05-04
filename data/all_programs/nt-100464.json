@@ -1,9 +1,0 @@
-[
-  "1-1876825-2.html.csv", 
-  "#alan j higgins;[2, 3]# #write;[0, 3]# 2 episode by himself", 
-  1, 
-  [
-    "count(filter_str_eq(all_rows, written by, alan j higgins))=2;eq(2, 2)=True", 
-    "count(all_rows)=15;and(within(all_rows, written by, alan j higgins), eq(2, 15))=False"
-  ]
-]

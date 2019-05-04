@@ -1,9 +1,0 @@
-[
-  "2-11983898-7.html.csv", 
-  "fabio fogini 's only repeat #partner;[0, 4]# in double #tournament;[0, 2]# be #simone bolelli;[6, 4]# who he play with 3 time", 
-  1, 
-  [
-    "count(filter_str_eq(all_rows, partner, simone bolelli))=3;eq(3, 3)=True", 
-    "count(filter_str_eq(filter_str_eq(all_rows, partner, simone bolelli), partner, simone bolelli))=3;eq(3, 3)=True"
-  ]
-]

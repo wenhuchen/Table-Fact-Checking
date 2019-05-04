@@ -1,9 +1,0 @@
-[
-  "2-174151-5.html.csv", 
-  "the #raw bandwidth;[0, 1]# for the #sa 150;[9, 0]# be #3000;[8, 1]# #(mbit / s);[0, 1]#", 
-  0, 
-  [
-    "hop(filter_str_eq(all_rows, name, sas 150), raw bandwidth (mbit / s))=1500;eq(1500, 3000)=False", 
-    "count(filter_str_eq(all_rows, name, sas 150))=1;count(filter_str_eq(all_rows, raw bandwidth (mbit / s), 3000))=4;eq(1, 4)=False"
-  ]
-]

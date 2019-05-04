@@ -1,9 +1,0 @@
-[
-  "2-17072227-2.html.csv", 
-  "#geylang;[3, 0]# united #fc;[11, 0]# be the only #club;[0, 0]# to have #2;[6, 4]# #champion;[0, 1]#", 
-  1, 
-  [
-    "hop(filter_str_eq(all_rows, club, geylang united fc), club)=geylang united fc;hop(filter_str_eq(all_rows, club, geylang united fc), 4th - place)=3;and(eq(geylang united fc, jurong fc), eq(2, 3))=False", 
-    "hop(filter_str_eq(all_rows, club, jurong fc), club)=jurong fc;hop(filter_str_eq(all_rows, club, jurong fc), 4th - place)=1;and(eq(jurong fc, geylang united fc), eq(2, 1))=False"
-  ]
-]

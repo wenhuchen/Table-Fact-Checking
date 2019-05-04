@@ -1,9 +1,0 @@
-[
-  "2-11514020-2.html.csv", 
-  "#1;[1, 2]# be in #attendance;[0, 4]# on #date;[0, 0]# #may 30;[28, 0]#", 
-  0, 
-  [
-    "hop(filter_str_eq(all_rows, date, may 30), score)=5 - 4;eq(5 - 4, 2 - 1)=False", 
-    "count(filter_str_eq(all_rows, score, 2 - 1))=4;count(filter_str_eq(all_rows, date, may 30))=1;eq(4, 1)=False"
-  ]
-]
