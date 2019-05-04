@@ -23,6 +23,12 @@ args = parser.parse_args()
 with open('../READY/full_cleaned.json') as f:
 	data = json.load(f)
 
+stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '-', 'also', 'will', 'would', 'this', 'that',
+             'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
+             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
+             'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
+             'both', 'above', 'only']
+
 def isnumber(string):
 	return string in [numpy.dtype('int64'), numpy.dtype('int32'), numpy.dtype('float32'), numpy.dtype('float64')]
 
@@ -64,6 +70,7 @@ if not args.synthesize:
 		t.columns = cols
 		mapping = {i: "num" if isnumber(t) else "str" for i, t in enumerate(t.dtypes)}
 		entry = data[table_name]
+		caption = entry[3].split(' ')
 		for sent, label, pos_tag in zip(entry[0], entry[1], entry[2]):
 			count += 1
 			inside = False

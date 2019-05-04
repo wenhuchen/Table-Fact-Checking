@@ -14,9 +14,9 @@ stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '
              'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
              'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
              'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
-             'both', 'above', 'only']
+             'both', 'above', 'only', ",", ".", "(", ")", "&", ":"]
 
-useless_words = [',', '.']
+useless_words = [',', '.', "'s"]
 
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
