@@ -1,0 +1,27 @@
+[
+  "2-14903491-1.html.csv", 
+  "the bulgarian national badminton championship record show yearly game of #single;[0, 1]# and #double;[0, 5]# from #1985;[1, 0]# through #2012;[28, 0]# , except #1997;[13, 0]#", 
+  0, 
+  [
+    "hop(filter_greater_eq(filter_greater_eq(all_rows, year, 1985), year, 2012), year)=2012;eq(1997, 2012)=False", 
+    "hop(filter_eq(filter_greater_eq(all_rows, year, 1985), year, 2012), year)=2012;eq(1997, 2012)=False", 
+    "hop(filter_eq(filter_greater_eq(all_rows, year, 1985), year, 1997), year)=1997;eq(2012, 1997)=False", 
+    "hop(filter_greater_eq(filter_greater_eq(all_rows, year, 2012), year, 1985), year)=2012;eq(1997, 2012)=False", 
+    "hop(filter_greater_eq(filter_greater_eq(all_rows, year, 2012), year, 1997), year)=2012;eq(1985, 2012)=False", 
+    "hop(filter_greater_eq(filter_greater_eq(all_rows, year, 1997), year, 2012), year)=2012;eq(1985, 2012)=False", 
+    "hop(filter_eq(filter_greater_eq(all_rows, year, 1997), year, 2012), year)=2012;eq(1985, 2012)=False", 
+    "hop(filter_less_eq(filter_eq(all_rows, year, 1985), year, 2012), year)=1985;eq(1997, 1985)=False", 
+    "hop(filter_less_eq(filter_eq(all_rows, year, 1985), year, 1997), year)=1985;eq(2012, 1985)=False", 
+    "hop(filter_greater_eq(filter_eq(all_rows, year, 2012), year, 1985), year)=2012;eq(1997, 2012)=False", 
+    "hop(filter_greater_eq(filter_eq(all_rows, year, 2012), year, 1997), year)=2012;eq(1985, 2012)=False", 
+    "hop(filter_greater_eq(filter_eq(all_rows, year, 1997), year, 1985), year)=1997;eq(2012, 1997)=False", 
+    "hop(filter_less_eq(filter_eq(all_rows, year, 1997), year, 2012), year)=1997;eq(1985, 1997)=False", 
+    "hop(filter_less_eq(filter_less_eq(all_rows, year, 1985), year, 2012), year)=1985;eq(1997, 1985)=False", 
+    "hop(filter_less_eq(filter_less_eq(all_rows, year, 1985), year, 1997), year)=1985;eq(2012, 1985)=False", 
+    "hop(filter_eq(filter_less_eq(all_rows, year, 2012), year, 1985), year)=1985;eq(1997, 1985)=False", 
+    "hop(filter_eq(filter_less_eq(all_rows, year, 2012), year, 1997), year)=1997;eq(1985, 1997)=False", 
+    "hop(filter_less_eq(filter_less_eq(all_rows, year, 2012), year, 1985), year)=1985;eq(1997, 1985)=False", 
+    "hop(filter_eq(filter_less_eq(all_rows, year, 1997), year, 1985), year)=1985;eq(2012, 1985)=False", 
+    "hop(filter_less_eq(filter_less_eq(all_rows, year, 1997), year, 1985), year)=1985;eq(2012, 1985)=False"
+  ]
+]

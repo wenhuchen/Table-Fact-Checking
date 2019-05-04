@@ -1,0 +1,20 @@
+[
+  "1-1341690-9.html.csv", 
+  "#robert l f sikes;[1, 1]# be #first elect;[0, 3]# in #1940;[1, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, incumbent, robert l f sikes), first elected)=1940;eq(1940, 1940)=True", 
+    "hop(filter_eq(all_rows, first elected, 1940), incumbent)=robert l f sikes;eq(robert l f sikes, robert l f sikes)=True", 
+    "count(filter_str_eq(all_rows, incumbent, robert l f sikes))=1;count(filter_eq(all_rows, first elected, 1940))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, robert l f sikes), incumbent)=robert l f sikes;hop(filter_eq(all_rows, first elected, 1940), incumbent)=robert l f sikes;eq(robert l f sikes, robert l f sikes)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, robert l f sikes), first elected)=1940;hop(filter_eq(all_rows, first elected, 1940), first elected)=1940;eq(1940, 1940)=True", 
+    "count(all_rows)=8;count(filter_eq(filter_str_eq(all_rows, incumbent, robert l f sikes), first elected, 1940))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, incumbent, robert l f sikes))=1;count(filter_eq(filter_str_eq(all_rows, incumbent, robert l f sikes), first elected, 1940))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, robert l f sikes), incumbent)=robert l f sikes;hop(filter_eq(filter_str_eq(all_rows, incumbent, robert l f sikes), first elected, 1940), incumbent)=robert l f sikes;eq(robert l f sikes, robert l f sikes)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, robert l f sikes), first elected)=1940;hop(filter_eq(filter_str_eq(all_rows, incumbent, robert l f sikes), first elected, 1940), first elected)=1940;eq(1940, 1940)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_eq(all_rows, first elected, 1940), incumbent, robert l f sikes))=1;eq(8, 1)=False", 
+    "count(filter_eq(all_rows, first elected, 1940))=1;count(filter_str_eq(filter_eq(all_rows, first elected, 1940), incumbent, robert l f sikes))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, first elected, 1940), incumbent)=robert l f sikes;hop(filter_str_eq(filter_eq(all_rows, first elected, 1940), incumbent, robert l f sikes), incumbent)=robert l f sikes;eq(robert l f sikes, robert l f sikes)=True", 
+    "hop(filter_eq(all_rows, first elected, 1940), first elected)=1940;hop(filter_str_eq(filter_eq(all_rows, first elected, 1940), incumbent, robert l f sikes), first elected)=1940;eq(1940, 1940)=True"
+  ]
+]

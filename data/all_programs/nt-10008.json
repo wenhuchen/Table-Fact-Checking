@@ -1,0 +1,14 @@
+[
+  "2-11240028-1.html.csv", 
+  "#adam ross;[6, 0]# be the only #character;[0, 0]# whose #first appearance;[0, 2]# be in the #episode;[0, 5]# title 'bad beat'", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, character, adam ross lab technician), character)=adam ross lab technician;eq(adam ross lab technician, adam ross lab technician)=True", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, character, adam ross lab technician))=1;eq(10, 1)=False", 
+    "count(all_rows)=10;count(filter_str_eq(filter_str_eq(all_rows, character, adam ross lab technician), character, adam ross lab technician))=1;eq(10, 1)=False", 
+    "count(filter_str_eq(all_rows, character, adam ross lab technician))=1;count(filter_str_eq(filter_str_eq(all_rows, character, adam ross lab technician), character, adam ross lab technician))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, character, adam ross lab technician), character)=adam ross lab technician;hop(filter_str_eq(filter_str_eq(all_rows, character, adam ross lab technician), character, adam ross lab technician), character)=adam ross lab technician;eq(adam ross lab technician, adam ross lab technician)=True", 
+    "hop(filter_str_eq(all_rows, character, adam ross lab technician), first appearance)=bad beat;hop(filter_str_eq(filter_str_eq(all_rows, character, adam ross lab technician), character, adam ross lab technician), first appearance)=bad beat;eq(bad beat, bad beat)=True", 
+    "hop(filter_str_eq(all_rows, character, adam ross lab technician), episodes)=141 4;hop(filter_str_eq(filter_str_eq(all_rows, character, adam ross lab technician), character, adam ross lab technician), episodes)=141 4;eq(141 4, 141 4)=True"
+  ]
+]

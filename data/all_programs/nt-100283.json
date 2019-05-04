@@ -1,0 +1,29 @@
+[
+  "2-17311759-4.html.csv", 
+  "#joe johnson;[6, 6]# #record;[0, 8]# the most #point;[0, 4]# in a single #game;[0, 0]# with 35", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, high assists, joe johnson (7)))=2;less(35, 2);less(35, 2)=False", 
+    "count(filter_str_eq(all_rows, high assists, joe johnson (7)))=2;eq(35, 2)=False", 
+    "count(last(filter_str_eq(all_rows, high assists, joe johnson (7))))=1;less(35, 1);less(35, 1)=False", 
+    "count(last(filter_str_eq(all_rows, high assists, joe johnson (7))))=1;eq(35, 1)=False", 
+    "hop(last(filter_str_eq(all_rows, high assists, joe johnson (7))), game)=15;less(35, 15);less(35, 15)=False", 
+    "hop(last(filter_str_eq(all_rows, high assists, joe johnson (7))), game)=15;eq(35, 15)=False", 
+    "count(first(filter_str_eq(all_rows, high assists, joe johnson (7))))=1;less(35, 1);less(35, 1)=False", 
+    "count(first(filter_str_eq(all_rows, high assists, joe johnson (7))))=1;eq(35, 1)=False", 
+    "hop(first(filter_str_eq(all_rows, high assists, joe johnson (7))), game)=7;less(35, 7);less(35, 7)=False", 
+    "hop(first(filter_str_eq(all_rows, high assists, joe johnson (7))), game)=7;eq(35, 7)=False", 
+    "count(all_rows)=15;less(35, 15);hop(last(all_rows), high assists)=mike bibby , al horford (6);and(less(35, 15), eq(mike bibby , al horford (6), joe johnson (7)))=False", 
+    "count(all_rows)=15;less(35, 15);hop(first(all_rows), high assists)=joe johnson (5);and(less(35, 15), eq(joe johnson (5), joe johnson (7)))=False", 
+    "count(all_rows)=15;hop(last(all_rows), high assists)=mike bibby , al horford (6);and(eq(35, 15), eq(mike bibby , al horford (6), joe johnson (7)))=False", 
+    "count(all_rows)=15;hop(first(all_rows), high assists)=joe johnson (5);and(eq(35, 15), eq(joe johnson (5), joe johnson (7)))=False", 
+    "count(last(all_rows))=1;less(35, 1);hop(last(all_rows), high assists)=mike bibby , al horford (6);and(less(35, 1), eq(mike bibby , al horford (6), joe johnson (7)))=False", 
+    "count(last(all_rows))=1;hop(last(all_rows), high assists)=mike bibby , al horford (6);and(eq(35, 1), eq(mike bibby , al horford (6), joe johnson (7)))=False", 
+    "hop(last(all_rows), high assists)=mike bibby , al horford (6);hop(last(all_rows), game)=16;less(35, 16);and(eq(mike bibby , al horford (6), joe johnson (7)), less(35, 16))=False", 
+    "hop(last(all_rows), high assists)=mike bibby , al horford (6);hop(last(all_rows), game)=16;and(eq(mike bibby , al horford (6), joe johnson (7)), eq(35, 16))=False", 
+    "count(first(all_rows))=1;less(35, 1);hop(first(all_rows), high assists)=joe johnson (5);and(less(35, 1), eq(joe johnson (5), joe johnson (7)))=False", 
+    "count(first(all_rows))=1;hop(first(all_rows), high assists)=joe johnson (5);and(eq(35, 1), eq(joe johnson (5), joe johnson (7)))=False", 
+    "hop(first(all_rows), high assists)=joe johnson (5);hop(first(all_rows), game)=2;less(35, 2);and(eq(joe johnson (5), joe johnson (7)), less(35, 2))=False", 
+    "hop(first(all_rows), high assists)=joe johnson (5);hop(first(all_rows), game)=2;and(eq(joe johnson (5), joe johnson (7)), eq(35, 2))=False"
+  ]
+]

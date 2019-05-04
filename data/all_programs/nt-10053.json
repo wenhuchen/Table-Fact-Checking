@@ -1,0 +1,20 @@
+[
+  "2-12206617-7.html.csv", 
+  "the toronto blue jays improve to #87 - 70;[26, 5]# on #september 30;[26, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, record, 87 - 70), date)=september 30;eq(september 30, september 30)=True", 
+    "hop(filter_str_eq(all_rows, date, september 30), record)=87 - 70;eq(87 - 70, 87 - 70)=True", 
+    "count(filter_str_eq(all_rows, record, 87 - 70))=1;count(filter_str_eq(all_rows, date, september 30))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, record, 87 - 70), record)=87 - 70;hop(filter_str_eq(all_rows, date, september 30), record)=87 - 70;eq(87 - 70, 87 - 70)=True", 
+    "hop(filter_str_eq(all_rows, record, 87 - 70), date)=september 30;hop(filter_str_eq(all_rows, date, september 30), date)=september 30;eq(september 30, september 30)=True", 
+    "count(all_rows)=26;count(filter_str_eq(filter_str_eq(all_rows, record, 87 - 70), date, september 30))=1;eq(26, 1)=False", 
+    "count(filter_str_eq(all_rows, record, 87 - 70))=1;count(filter_str_eq(filter_str_eq(all_rows, record, 87 - 70), date, september 30))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, record, 87 - 70), record)=87 - 70;hop(filter_str_eq(filter_str_eq(all_rows, record, 87 - 70), date, september 30), record)=87 - 70;eq(87 - 70, 87 - 70)=True", 
+    "hop(filter_str_eq(all_rows, record, 87 - 70), date)=september 30;hop(filter_str_eq(filter_str_eq(all_rows, record, 87 - 70), date, september 30), date)=september 30;eq(september 30, september 30)=True", 
+    "count(all_rows)=26;count(filter_str_eq(filter_str_eq(all_rows, date, september 30), record, 87 - 70))=1;eq(26, 1)=False", 
+    "count(filter_str_eq(all_rows, date, september 30))=1;count(filter_str_eq(filter_str_eq(all_rows, date, september 30), record, 87 - 70))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, september 30), record)=87 - 70;hop(filter_str_eq(filter_str_eq(all_rows, date, september 30), record, 87 - 70), record)=87 - 70;eq(87 - 70, 87 - 70)=True", 
+    "hop(filter_str_eq(all_rows, date, september 30), date)=september 30;hop(filter_str_eq(filter_str_eq(all_rows, date, september 30), record, 87 - 70), date)=september 30;eq(september 30, september 30)=True"
+  ]
+]

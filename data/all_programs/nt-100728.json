@@ -1,0 +1,20 @@
+[
+  "2-1506948-1.html.csv", 
+  "#vanness wu and michelle branch;[4, 4]# be the #host;[0, 4]# for the #2004;[4, 0]# event", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), year)=2004;eq(2004, 2004)=True", 
+    "hop(filter_str_eq(all_rows, year, 2004), hosts)=vanness wu and michelle branch;eq(vanness wu and michelle branch, vanness wu and michelle branch)=True", 
+    "count(filter_str_eq(all_rows, hosts, vanness wu and michelle branch))=1;count(filter_str_eq(all_rows, year, 2004))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), hosts)=vanness wu and michelle branch;hop(filter_str_eq(all_rows, year, 2004), hosts)=vanness wu and michelle branch;eq(vanness wu and michelle branch, vanness wu and michelle branch)=True", 
+    "hop(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), year)=2004;hop(filter_str_eq(all_rows, year, 2004), year)=2004;eq(2004, 2004)=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), year, 2004))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, hosts, vanness wu and michelle branch))=1;count(filter_str_eq(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), year, 2004))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), hosts)=vanness wu and michelle branch;hop(filter_str_eq(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), year, 2004), hosts)=vanness wu and michelle branch;eq(vanness wu and michelle branch, vanness wu and michelle branch)=True", 
+    "hop(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), year)=2004;hop(filter_str_eq(filter_str_eq(all_rows, hosts, vanness wu and michelle branch), year, 2004), year)=2004;eq(2004, 2004)=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, year, 2004), hosts, vanness wu and michelle branch))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, year, 2004))=1;count(filter_str_eq(filter_str_eq(all_rows, year, 2004), hosts, vanness wu and michelle branch))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, year, 2004), hosts)=vanness wu and michelle branch;hop(filter_str_eq(filter_str_eq(all_rows, year, 2004), hosts, vanness wu and michelle branch), hosts)=vanness wu and michelle branch;eq(vanness wu and michelle branch, vanness wu and michelle branch)=True", 
+    "hop(filter_str_eq(all_rows, year, 2004), year)=2004;hop(filter_str_eq(filter_str_eq(all_rows, year, 2004), hosts, vanness wu and michelle branch), year)=2004;eq(2004, 2004)=True"
+  ]
+]

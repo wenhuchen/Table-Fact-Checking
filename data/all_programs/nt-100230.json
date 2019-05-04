@@ -1,0 +1,11 @@
+[
+  "2-14337020-5.html.csv", 
+  "the #record;[0, 6]# on #july 31;[27, 0]# be #46 - 58;[27, 6]# with #indian;[26, 1]# as the #opponent;[0, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, july 31), record, 46 - 58), opponent)=mariners;eq(mariners, indians)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, record, 46 - 58), date, july 31), opponent)=mariners;eq(mariners, indians)=False", 
+    "hop(filter_str_eq(all_rows, date, july 31), record)=46 - 58;hop(filter_str_eq(all_rows, date, july 31), opponent)=mariners;and(eq(46 - 58, 46 - 58), eq(mariners, indians))=False", 
+    "hop(filter_str_eq(all_rows, record, 46 - 58), opponent)=mariners;hop(filter_str_eq(all_rows, record, 46 - 58), date)=july 31;and(eq(mariners, indians), eq(july 31, july 31))=False"
+  ]
+]

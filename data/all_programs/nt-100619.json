@@ -1,0 +1,14 @@
+[
+  "2-11927320-3.html.csv", 
+  "the #first match;[0, 3]# play on #24 sep 2007;[4, 3]# and the #last match;[0, 4]# be #3 mar 2008;[5, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, first match, 24 sep 2007), last match)=24 feb 2008;eq(24 feb 2008, 3 mar 2008)=False", 
+    "hop(filter_str_eq(all_rows, last match, 3 mar 2008), first match)=5 jan 2008;eq(5 jan 2008, 24 sep 2007)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, first match, 24 sep 2007), first match, 24 sep 2007), last match)=24 feb 2008;eq(24 feb 2008, 3 mar 2008)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, last match, 3 mar 2008), last match, 3 mar 2008), first match)=5 jan 2008;eq(5 jan 2008, 24 sep 2007)=False", 
+    "count(filter_str_eq(all_rows, first match, 24 sep 2007))=1;count(filter_str_eq(all_rows, last match, 3 mar 2008))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, first match, 24 sep 2007), first match)=24 sep 2007;hop(filter_str_eq(all_rows, last match, 3 mar 2008), first match)=5 jan 2008;eq(5 jan 2008, 24 sep 2007)=False", 
+    "hop(filter_str_eq(all_rows, first match, 24 sep 2007), last match)=24 feb 2008;hop(filter_str_eq(all_rows, last match, 3 mar 2008), last match)=3 mar 2008;eq(3 mar 2008, 24 feb 2008)=False"
+  ]
+]

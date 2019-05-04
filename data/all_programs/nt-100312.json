@@ -1,0 +1,11 @@
+[
+  "2-11963447-6.html.csv", 
+  "the #grizzly;[13, 1]# at #home;[0, 3]# #record;[0, 5]# be #103 - 84;[15, 2]# with the lead #scorer;[0, 4]# #rudy gay (18);[15, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 103 - 84), leading scorer, rudy gay (18)), visitor)=mavericks;eq(mavericks, grizzlies)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, leading scorer, rudy gay (18)), score, 103 - 84), visitor)=mavericks;eq(mavericks, grizzlies)=False", 
+    "hop(filter_str_eq(all_rows, score, 103 - 84), leading scorer)=rudy gay (18);hop(filter_str_eq(all_rows, score, 103 - 84), visitor)=mavericks;and(eq(rudy gay (18), rudy gay (18)), eq(mavericks, grizzlies))=False", 
+    "hop(filter_str_eq(all_rows, leading scorer, rudy gay (18)), visitor)=mavericks;hop(filter_str_eq(all_rows, leading scorer, rudy gay (18)), score)=103 - 84;and(eq(mavericks, grizzlies), eq(103 - 84, 103 - 84))=False"
+  ]
+]

@@ -1,0 +1,21 @@
+[
+  "2-14337020-5.html.csv", 
+  "#indian;[26, 1]# be the #opponent;[0, 1]# with a #record;[0, 6]# of #43 - 56;[22, 6]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, record, 43 - 56), opponent)=yankees;eq(yankees, indians)=False", 
+    "and(within(all_rows, opponent, indians), within(all_rows, opponent, 43 - 56))=False", 
+    "and(within(all_rows, opponent, indians), within(all_rows, record, 43 - 56))=True", 
+    "and(within(all_rows, record, indians), within(all_rows, opponent, 43 - 56))=False", 
+    "and(within(all_rows, record, indians), within(all_rows, record, 43 - 56))=False", 
+    "count(filter_str_eq(all_rows, opponent, indians))=7;count(filter_str_eq(all_rows, record, 43 - 56))=1;eq(7, 1)=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, opponent, indians))=7;and(within(all_rows, opponent, 43 - 56), eq(27, 7))=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, opponent, indians))=7;and(within(all_rows, record, 43 - 56), eq(27, 7))=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, opponent, indians))=7;and(within(filter_str_eq(all_rows, opponent, indians), opponent, 43 - 56), eq(27, 7))=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, opponent, indians))=7;and(within(filter_str_eq(all_rows, opponent, indians), record, 43 - 56), eq(27, 7))=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, record, 43 - 56))=1;and(within(all_rows, opponent, indians), eq(27, 1))=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, record, 43 - 56))=1;and(within(all_rows, record, indians), eq(27, 1))=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, record, 43 - 56))=1;and(within(filter_str_eq(all_rows, record, 43 - 56), opponent, indians), eq(27, 1))=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, record, 43 - 56))=1;and(within(filter_str_eq(all_rows, record, 43 - 56), record, indians), eq(27, 1))=False"
+  ]
+]

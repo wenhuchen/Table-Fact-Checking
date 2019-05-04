@@ -1,0 +1,33 @@
+[
+  "2-18662049-2.html.csv", 
+  "6.2 be the most common #a score;[0, 2]# give to the competitor", 
+  1, 
+  [
+    "count(all_rows)=8;less(6.2, 8);less(6.2, 8)=True", 
+    "count(all_rows)=8;eq(6.2, 8)=False", 
+    "count(last(all_rows))=1;less(6.2, 1);less(6.2, 1)=False", 
+    "count(last(all_rows))=1;eq(6.2, 1)=False", 
+    "hop(last(all_rows), a score)=6.2;less(6.2, 6.2);less(6.2, 6.2)=False", 
+    "hop(last(all_rows), a score)=6.2;eq(6.2, 6.2)=True", 
+    "count(first(all_rows))=1;less(6.2, 1);less(6.2, 1)=False", 
+    "count(first(all_rows))=1;eq(6.2, 1)=False", 
+    "hop(first(all_rows), a score)=6.6;less(6.2, 6.6);less(6.2, 6.6)=True", 
+    "hop(first(all_rows), a score)=6.6;eq(6.2, 6.6)=False", 
+    "count(last(last(all_rows)))=1;less(6.2, 1);less(6.2, 1)=False", 
+    "count(last(last(all_rows)))=1;eq(6.2, 1)=False", 
+    "hop(last(last(all_rows)), a score)=6.2;less(6.2, 6.2);less(6.2, 6.2)=False", 
+    "hop(last(last(all_rows)), a score)=6.2;eq(6.2, 6.2)=True", 
+    "count(first(last(all_rows)))=1;less(6.2, 1);less(6.2, 1)=False", 
+    "count(first(last(all_rows)))=1;eq(6.2, 1)=False", 
+    "hop(first(last(all_rows)), a score)=6.2;less(6.2, 6.2);less(6.2, 6.2)=False", 
+    "hop(first(last(all_rows)), a score)=6.2;eq(6.2, 6.2)=True", 
+    "count(last(first(all_rows)))=1;less(6.2, 1);less(6.2, 1)=False", 
+    "count(last(first(all_rows)))=1;eq(6.2, 1)=False", 
+    "hop(last(first(all_rows)), a score)=6.6;less(6.2, 6.6);less(6.2, 6.6)=True", 
+    "hop(last(first(all_rows)), a score)=6.6;eq(6.2, 6.6)=False", 
+    "count(first(first(all_rows)))=1;less(6.2, 1);less(6.2, 1)=False", 
+    "count(first(first(all_rows)))=1;eq(6.2, 1)=False", 
+    "hop(first(first(all_rows)), a score)=6.6;less(6.2, 6.6);less(6.2, 6.6)=True", 
+    "hop(first(first(all_rows)), a score)=6.6;eq(6.2, 6.6)=False"
+  ]
+]

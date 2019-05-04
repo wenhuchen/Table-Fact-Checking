@@ -1,0 +1,20 @@
+[
+  "2-1360997-1.html.csv", 
+  "lonhro be at their heaviest #weight;[0, 6]# when racing at the #caulfield;[3, 3]# #venue;[0, 3]#", 
+  1, 
+  [
+    "most_freq(  result         date                  race  ...     time     jockey           winner / 2nd\n0    2nd  18 nov 2000        2yo restricted  ...  1:05.44    r quinn  1st - royal courtship\n1    won  27 jan 2001               2yo hcp  ...  1:05.58    r quinn       2nd - london eye\n2    won  11 feb 2001  blue diamond prelude  ...  1:03.39   bprebble          2nd - niewand\n3    4th  24 feb 2001   blue diamond stakes  ...  1:09.96   bprebble      1st - true jewels\n4    3rd  28 jul 2001        missile stakes  ...  1:06.69  l cassidy       1st - sportsbrat\n\n[5 rows x 10 columns], venue)=rosehill;eq(rosehill, caulfield)=False", 
+    "hop(argmin(all_rows, weight (kg)), venue)=rosehill;eq(rosehill, caulfield)=False", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, venue, caulfield))=2;eq(5, 2)=False", 
+    "count(argmax(all_rows, weight (kg)))=2;count(filter_str_eq(all_rows, venue, caulfield))=2;eq(2, 2)=True", 
+    "count(all_rows)=5;count(filter_str_eq(argmax(all_rows, weight (kg)), venue, caulfield))=2;eq(5, 2)=False", 
+    "count(argmax(all_rows, weight (kg)))=2;count(filter_str_eq(argmax(all_rows, weight (kg)), venue, caulfield))=2;eq(2, 2)=True", 
+    "count(all_rows)=5;count(argmax(filter_str_eq(all_rows, venue, caulfield), weight (kg)))=2;eq(5, 2)=False", 
+    "count(filter_str_eq(all_rows, venue, caulfield))=2;count(argmax(filter_str_eq(all_rows, venue, caulfield), weight (kg)))=2;eq(2, 2)=True", 
+    "count(all_rows)=5;count(argmin(filter_str_eq(all_rows, venue, caulfield), weight (kg)))=2;eq(5, 2)=False", 
+    "count(filter_str_eq(all_rows, venue, caulfield))=2;count(argmin(all_rows, weight (kg)))=1;eq(2, 1)=False", 
+    "count(filter_str_eq(all_rows, venue, caulfield))=2;count(argmin(filter_str_eq(all_rows, venue, caulfield), weight (kg)))=2;eq(2, 2)=True", 
+    "hop(argmin(all_rows, weight (kg)), weight (kg))=51.0;min(filter_str_eq(all_rows, venue, caulfield), weight (kg))=55.5;eq(51.0, 55.5)=False", 
+    "hop(argmin(all_rows, weight (kg)), weight (kg))=51.0;max(filter_str_eq(all_rows, venue, caulfield), weight (kg))=55.5;eq(51.0, 55.5)=False"
+  ]
+]

@@ -1,0 +1,21 @@
+[
+  "2-16677887-1.html.csv", 
+  "in #round;[0, 0]# #5;[8, 0]# , #keith lee;[8, 2]# get #pick;[0, 1]# 129th", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, player, keith lee), round)=5;eq(5, 5)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, player, keith lee), round, 5), round)=5;eq(5, 5)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, round, 5), player, keith lee), round)=5;eq(5, 5)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, keith lee), player, keith lee), round)=5;eq(5, 5)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, player, keith lee), round, 5), player)=keith lee;eq(keith lee, keith lee)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, round, 5), player, keith lee), player)=keith lee;eq(keith lee, keith lee)=True", 
+    "count(filter_str_eq(all_rows, player, keith lee))=1;count(filter_eq(all_rows, round, 5))=2;eq(1, 2)=False", 
+    "count(all_rows)=13;count(filter_eq(filter_str_eq(all_rows, player, keith lee), round, 5))=1;eq(13, 1)=False", 
+    "count(filter_str_eq(all_rows, player, keith lee))=1;count(filter_eq(filter_str_eq(all_rows, player, keith lee), round, 5))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, keith lee), player)=keith lee;hop(filter_eq(filter_str_eq(all_rows, player, keith lee), round, 5), player)=keith lee;eq(keith lee, keith lee)=True", 
+    "hop(filter_str_eq(all_rows, player, keith lee), round)=5;hop(filter_eq(filter_str_eq(all_rows, player, keith lee), round, 5), round)=5;eq(5, 5)=True", 
+    "hop(filter_str_eq(all_rows, player, keith lee), pick)=129;hop(filter_eq(filter_str_eq(all_rows, player, keith lee), round, 5), pick)=129;eq(129, 129)=True", 
+    "count(all_rows)=13;count(filter_str_eq(filter_eq(all_rows, round, 5), player, keith lee))=1;eq(13, 1)=False", 
+    "count(filter_eq(all_rows, round, 5))=2;count(filter_str_eq(filter_eq(all_rows, round, 5), player, keith lee))=1;eq(2, 1)=False"
+  ]
+]

@@ -1,0 +1,15 @@
+[
+  "2-12764987-1.html.csv", 
+  "out of 2 #7th;[27, 4]# #position;[0, 4]# #season;[0, 0]# , there be only one #win;[0, 2]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, position, 7th))=2;eq(2, 2)=True", 
+    "count(all_rows)=27;and(within(all_rows, position, 7th), eq(2, 27))=False", 
+    "count(all_rows)=27;and(within(all_rows, wins, 7th), eq(2, 27))=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, position, 7th), position, 7th))=2;eq(2, 2)=True", 
+    "count(filter_str_eq(all_rows, position, 7th))=2;and(within(all_rows, position, 7th), eq(2, 2))=True", 
+    "count(filter_str_eq(all_rows, position, 7th))=2;and(within(all_rows, wins, 7th), eq(2, 2))=False", 
+    "count(filter_str_eq(all_rows, position, 7th))=2;and(within(filter_str_eq(all_rows, position, 7th), position, 7th), eq(2, 2))=True", 
+    "count(filter_str_eq(all_rows, position, 7th))=2;and(within(filter_str_eq(all_rows, position, 7th), wins, 7th), eq(2, 2))=False"
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  "2-1614982-4.html.csv", 
+  "the #world cup 1990 group stage;[28, 4]# match happen in #22 june 1988;[21, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, competition, world cup 1990 group stage), date)=18 june 1990;eq(18 june 1990, 22 june 1988)=False", 
+    "hop(filter_str_eq(all_rows, date, 22 june 1988), competition)=euro 1988 semi - finals;eq(euro 1988 semi - finals, world cup 1990 group stage)=False", 
+    "count(filter_str_eq(all_rows, competition, world cup 1990 group stage))=1;count(filter_str_eq(all_rows, date, 22 june 1988))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, competition, world cup 1990 group stage), competition)=world cup 1990 group stage;hop(filter_str_eq(all_rows, date, 22 june 1988), competition)=euro 1988 semi - finals;eq(euro 1988 semi - finals, world cup 1990 group stage)=False", 
+    "hop(filter_str_eq(all_rows, competition, world cup 1990 group stage), date)=18 june 1990;hop(filter_str_eq(all_rows, date, 22 june 1988), date)=22 june 1988;eq(22 june 1988, 18 june 1990)=False"
+  ]
+]

@@ -1,0 +1,10 @@
+[
+  "2-18150755-1.html.csv", 
+  "#istanbul;[9, 0]# be the #host city;[0, 0]# 11 of the past 21 #year;[0, 1]#", 
+  1, 
+  [
+    "and(eq(11, 21), within(all_rows, host city, istanbul))=False", 
+    "count(all_rows)=21;count(filter_str_eq(all_rows, host city, istanbul))=11;and(eq(11, 21), eq(21, 11))=False", 
+    "count(all_rows)=21;count(filter_str_eq(all_rows, host city, istanbul))=11;and(eq(21, 21), eq(11, 11))=True"
+  ]
+]

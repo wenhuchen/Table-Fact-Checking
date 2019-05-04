@@ -1,0 +1,16 @@
+[
+  "1-22034853-1.html.csv", 
+  "the #film ,;[0, 1]# #mein name ist bach ,;[31, 2]# be #film in;[0, 1]# #german;[1, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, original title, mein name ist bach), language (s))=german;eq(german, german)=True", 
+    "count(filter_str_eq(all_rows, original title, mein name ist bach))=1;count(filter_str_eq(all_rows, language (s), german))=6;eq(1, 6)=False", 
+    "count(all_rows)=38;count(filter_str_eq(filter_str_eq(all_rows, original title, mein name ist bach), language (s), german))=1;eq(38, 1)=False", 
+    "count(filter_str_eq(all_rows, original title, mein name ist bach))=1;count(filter_str_eq(filter_str_eq(all_rows, original title, mein name ist bach), language (s), german))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, original title, mein name ist bach), film title used in nomination)=mein name ist bach;hop(filter_str_eq(filter_str_eq(all_rows, original title, mein name ist bach), language (s), german), film title used in nomination)=mein name ist bach;eq(mein name ist bach, mein name ist bach)=True", 
+    "hop(filter_str_eq(all_rows, original title, mein name ist bach), original title)=mein name ist bach;hop(filter_str_eq(filter_str_eq(all_rows, original title, mein name ist bach), language (s), german), original title)=mein name ist bach;eq(mein name ist bach, mein name ist bach)=True", 
+    "hop(filter_str_eq(all_rows, original title, mein name ist bach), language (s))=german;hop(filter_str_eq(filter_str_eq(all_rows, original title, mein name ist bach), language (s), german), language (s))=german;eq(german, german)=True", 
+    "count(all_rows)=38;count(filter_str_eq(filter_str_eq(all_rows, language (s), german), original title, mein name ist bach))=1;eq(38, 1)=False", 
+    "count(filter_str_eq(all_rows, language (s), german))=6;count(filter_str_eq(filter_str_eq(all_rows, language (s), german), original title, mein name ist bach))=1;eq(6, 1)=False"
+  ]
+]

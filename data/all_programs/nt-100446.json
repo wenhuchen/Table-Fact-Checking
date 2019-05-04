@@ -1,0 +1,13 @@
+[
+  "2-1507170-1.html.csv", 
+  "justin leonard 's smallest #win;[0, 2]# #margin;[0, 3]# in a #tournament;[0, 1]# be #5 stroke;[1, 3]#", 
+  0, 
+  [
+    "most_freq(             date  ...                   runner (s) - up\n0    aug 4 , 1996  ...                         chip beck\n1    jun 8 , 1997  ...                        mark wiebe\n2   jul 20 , 1997  ...   darren clarke , jesper parnevik\n3   mar 29 , 1998  ...             glen day , tom lehman\n4   sep 24 , 2000  ...                        mark wiebe\n5   sep 30 , 2001  ...           j j henry , matt kuchar\n6   apr 21 , 2002  ...                      heath slocum\n7   mar 16 , 2003  ...    chad campbell , davis love iii\n8   jan 30 , 2005  ...           tim clark , joe ogilvie\n9   may 29 , 2005  ...                        david toms\n10   oct 7 , 2007  ...                   jesper parnevik\n11   jun 8 , 2008  ...  robert allenby , trevor immelman\n\n[12 rows x 5 columns], margin of victory)=1 stroke;eq(1 stroke, 5 strokes)=False", 
+    "all_eq(filter_str_eq(all_rows, margin of victory, 5 strokes), margin of victory, 5 strokes)=True", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, margin of victory, 5 strokes))=2;eq(12, 2)=False", 
+    "most_freq(             date  ...                   runner (s) - up\n0    aug 4 , 1996  ...                         chip beck\n1    jun 8 , 1997  ...                        mark wiebe\n2   jul 20 , 1997  ...   darren clarke , jesper parnevik\n3   mar 29 , 1998  ...             glen day , tom lehman\n4   sep 24 , 2000  ...                        mark wiebe\n5   sep 30 , 2001  ...           j j henry , matt kuchar\n6   apr 21 , 2002  ...                      heath slocum\n7   mar 16 , 2003  ...    chad campbell , davis love iii\n8   jan 30 , 2005  ...           tim clark , joe ogilvie\n9   may 29 , 2005  ...                        david toms\n10   oct 7 , 2007  ...                   jesper parnevik\n11   jun 8 , 2008  ...  robert allenby , trevor immelman\n\n[12 rows x 5 columns], margin of victory)=1 stroke;and(all_eq(all_rows, margin of victory, 5 strokes), eq(1 stroke, 5 strokes))=False", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, margin of victory, 5 strokes), margin of victory, 5 strokes))=2;eq(12, 2)=False", 
+    "count(filter_str_eq(all_rows, margin of victory, 5 strokes))=2;count(filter_str_eq(filter_str_eq(all_rows, margin of victory, 5 strokes), margin of victory, 5 strokes))=2;eq(2, 2)=True"
+  ]
+]

@@ -1,0 +1,24 @@
+[
+  "1-14984078-1.html.csv", 
+  "the #opponent;[0, 2]# be the #detroit lion;[12, 2]# at the #game site;[0, 5]# of #memorial stadium;[11, 5]#", 
+  1, 
+  [
+    "and(within(all_rows, opponent, detroit lions), within(all_rows, opponent, memorial stadium))=False", 
+    "and(within(all_rows, opponent, detroit lions), within(all_rows, game site, memorial stadium))=True", 
+    "and(within(all_rows, game site, detroit lions), within(all_rows, opponent, memorial stadium))=False", 
+    "and(within(all_rows, game site, detroit lions), within(all_rows, game site, memorial stadium))=False", 
+    "count(filter_str_eq(all_rows, opponent, detroit lions))=2;count(filter_str_eq(all_rows, game site, memorial stadium))=6;eq(2, 6)=False", 
+    "count(all_rows)=13;count(filter_str_eq(filter_str_eq(all_rows, opponent, detroit lions), game site, memorial stadium))=1;eq(13, 1)=False", 
+    "count(filter_str_eq(all_rows, opponent, detroit lions))=2;count(filter_str_eq(filter_str_eq(all_rows, opponent, detroit lions), game site, memorial stadium))=1;eq(2, 1)=False", 
+    "count(all_rows)=13;count(filter_str_eq(filter_str_eq(all_rows, game site, memorial stadium), opponent, detroit lions))=1;eq(13, 1)=False", 
+    "count(filter_str_eq(all_rows, game site, memorial stadium))=6;count(filter_str_eq(filter_str_eq(all_rows, game site, memorial stadium), opponent, detroit lions))=1;eq(6, 1)=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, opponent, detroit lions))=2;and(within(all_rows, opponent, memorial stadium), eq(13, 2))=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, opponent, detroit lions))=2;and(within(all_rows, game site, memorial stadium), eq(13, 2))=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, opponent, detroit lions))=2;and(within(filter_str_eq(all_rows, opponent, detroit lions), opponent, memorial stadium), eq(13, 2))=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, opponent, detroit lions))=2;and(within(filter_str_eq(all_rows, opponent, detroit lions), game site, memorial stadium), eq(13, 2))=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, game site, memorial stadium))=6;and(within(all_rows, opponent, detroit lions), eq(13, 6))=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, game site, memorial stadium))=6;and(within(all_rows, game site, detroit lions), eq(13, 6))=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, game site, memorial stadium))=6;and(within(filter_str_eq(all_rows, game site, memorial stadium), opponent, detroit lions), eq(13, 6))=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, game site, memorial stadium))=6;and(within(filter_str_eq(all_rows, game site, memorial stadium), game site, detroit lions), eq(13, 6))=False"
+  ]
+]

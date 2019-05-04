@@ -1,0 +1,11 @@
+[
+  "2-18007167-2.html.csv", 
+  "#ralph guldahl;[9, 1]# tie with #billy burke;[6, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, player, ralph guldahl), player)=ralph guldahl;eq(ralph guldahl, billy burke)=False", 
+    "hop(filter_str_eq(all_rows, player, billy burke), player)=billy burke;eq(billy burke, ralph guldahl)=False", 
+    "count(filter_str_eq(all_rows, player, ralph guldahl))=1;count(filter_str_eq(all_rows, player, billy burke))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, ralph guldahl), player)=ralph guldahl;hop(filter_str_eq(all_rows, player, billy burke), player)=billy burke;eq(billy burke, ralph guldahl)=False"
+  ]
+]

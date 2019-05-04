@@ -1,0 +1,20 @@
+[
+  "1-16577990-1.html.csv", 
+  "the #kitechura;[9, 0]# #central forest reserve;[0, 0]# have #108;[9, 3]# #tree specie;[0, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, central forest reserve, kitechura), tree species)=108;eq(108, 108)=True", 
+    "hop(filter_eq(all_rows, tree species, 108), central forest reserve)=kitechura;eq(kitechura, kitechura)=True", 
+    "count(filter_str_eq(all_rows, central forest reserve, kitechura))=1;count(filter_eq(all_rows, tree species, 108))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, kitechura), central forest reserve)=kitechura;hop(filter_eq(all_rows, tree species, 108), central forest reserve)=kitechura;eq(kitechura, kitechura)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, kitechura), tree species)=108;hop(filter_eq(all_rows, tree species, 108), tree species)=108;eq(108, 108)=True", 
+    "count(all_rows)=9;count(filter_eq(filter_str_eq(all_rows, central forest reserve, kitechura), tree species, 108))=1;eq(9, 1)=False", 
+    "count(filter_str_eq(all_rows, central forest reserve, kitechura))=1;count(filter_eq(filter_str_eq(all_rows, central forest reserve, kitechura), tree species, 108))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, kitechura), central forest reserve)=kitechura;hop(filter_eq(filter_str_eq(all_rows, central forest reserve, kitechura), tree species, 108), central forest reserve)=kitechura;eq(kitechura, kitechura)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, kitechura), tree species)=108;hop(filter_eq(filter_str_eq(all_rows, central forest reserve, kitechura), tree species, 108), tree species)=108;eq(108, 108)=True", 
+    "count(all_rows)=9;count(filter_str_eq(filter_eq(all_rows, tree species, 108), central forest reserve, kitechura))=1;eq(9, 1)=False", 
+    "count(filter_eq(all_rows, tree species, 108))=1;count(filter_str_eq(filter_eq(all_rows, tree species, 108), central forest reserve, kitechura))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, tree species, 108), central forest reserve)=kitechura;hop(filter_str_eq(filter_eq(all_rows, tree species, 108), central forest reserve, kitechura), central forest reserve)=kitechura;eq(kitechura, kitechura)=True", 
+    "hop(filter_eq(all_rows, tree species, 108), tree species)=108;hop(filter_str_eq(filter_eq(all_rows, tree species, 108), central forest reserve, kitechura), tree species)=108;eq(108, 108)=True"
+  ]
+]

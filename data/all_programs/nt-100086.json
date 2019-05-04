@@ -1,0 +1,13 @@
+[
+  "1-1341568-6.html.csv", 
+  "#george miller;[3, 1]# be the #incumbent;[0, 1]# who be first #elect;[0, 3]# in #1974;[3, 3]# for the 40th #california;[3, 0]# #district;[0, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, incumbent, george miller), elected, 1974), district)=california 7;eq(california 7, california 7)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, incumbent, george miller), district, california 7), elected)=1974;eq(1974, 1974)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, elected, 1974), incumbent, george miller), district)=california 7;eq(california 7, california 7)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, elected, 1974), district, california 7), incumbent)=george miller;eq(george miller, george miller)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, district, california 7), incumbent, george miller), elected)=1974;eq(1974, 1974)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, district, california 7), elected, 1974), incumbent)=george miller;eq(george miller, george miller)=True"
+  ]
+]

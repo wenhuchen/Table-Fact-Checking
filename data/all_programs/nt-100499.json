@@ -1,0 +1,26 @@
+[
+  "1-26476336-2.html.csv", 
+  "#2008 - 2009;[7, 3]# be the #year;[0, 3]# that the #new classification;[0, 5]# be #mcla division i;[7, 5]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, years, 2008 - 2009), new classification)=mcla division i;eq(mcla division i, mcla division i)=True", 
+    "hop(filter_str_eq(all_rows, new classification, mcla division i), years)=2008 - 2009;eq(2008 - 2009, 2008 - 2009)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, years, 2008 - 2009), new classification, mcla division i), years)=2008 - 2009;eq(2008 - 2009, 2008 - 2009)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, years, 2008 - 2009), years, 2008 - 2009), new classification)=mcla division i;eq(mcla division i, mcla division i)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, new classification, mcla division i), years, 2008 - 2009), years)=2008 - 2009;eq(2008 - 2009, 2008 - 2009)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, years, 2008 - 2009), new classification, mcla division i), new classification)=mcla division i;eq(mcla division i, mcla division i)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, new classification, mcla division i), years, 2008 - 2009), new classification)=mcla division i;eq(mcla division i, mcla division i)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, new classification, mcla division i), new classification, mcla division i), years)=2008 - 2009;eq(2008 - 2009, 2008 - 2009)=True", 
+    "count(filter_str_eq(all_rows, years, 2008 - 2009))=1;count(filter_str_eq(all_rows, new classification, mcla division i))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, years, 2008 - 2009), years)=2008 - 2009;hop(filter_str_eq(all_rows, new classification, mcla division i), years)=2008 - 2009;eq(2008 - 2009, 2008 - 2009)=True", 
+    "hop(filter_str_eq(all_rows, years, 2008 - 2009), new classification)=mcla division i;hop(filter_str_eq(all_rows, new classification, mcla division i), new classification)=mcla division i;eq(mcla division i, mcla division i)=True", 
+    "count(all_rows)=10;count(filter_str_eq(filter_str_eq(all_rows, years, 2008 - 2009), new classification, mcla division i))=1;eq(10, 1)=False", 
+    "count(filter_str_eq(all_rows, years, 2008 - 2009))=1;count(filter_str_eq(filter_str_eq(all_rows, years, 2008 - 2009), new classification, mcla division i))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, years, 2008 - 2009), years)=2008 - 2009;hop(filter_str_eq(filter_str_eq(all_rows, years, 2008 - 2009), new classification, mcla division i), years)=2008 - 2009;eq(2008 - 2009, 2008 - 2009)=True", 
+    "hop(filter_str_eq(all_rows, years, 2008 - 2009), new classification)=mcla division i;hop(filter_str_eq(filter_str_eq(all_rows, years, 2008 - 2009), new classification, mcla division i), new classification)=mcla division i;eq(mcla division i, mcla division i)=True", 
+    "count(all_rows)=10;count(filter_str_eq(filter_str_eq(all_rows, new classification, mcla division i), years, 2008 - 2009))=1;eq(10, 1)=False", 
+    "count(filter_str_eq(all_rows, new classification, mcla division i))=1;count(filter_str_eq(filter_str_eq(all_rows, new classification, mcla division i), years, 2008 - 2009))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, new classification, mcla division i), years)=2008 - 2009;hop(filter_str_eq(filter_str_eq(all_rows, new classification, mcla division i), years, 2008 - 2009), years)=2008 - 2009;eq(2008 - 2009, 2008 - 2009)=True", 
+    "hop(filter_str_eq(all_rows, new classification, mcla division i), new classification)=mcla division i;hop(filter_str_eq(filter_str_eq(all_rows, new classification, mcla division i), years, 2008 - 2009), new classification)=mcla division i;eq(mcla division i, mcla division i)=True"
+  ]
+]

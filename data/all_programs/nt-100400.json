@@ -1,0 +1,9 @@
+[
+  "2-1180976-1.html.csv", 
+  "the car with #engine code;[0, 4]# #m44b19;[5, 4]# be the #316i;[2, 0]# bmw 3 series compact car", 
+  0, 
+  [
+    "count(all_rows)=7;hop(filter_str_eq(all_rows, engine code, m44b19), name)=318ti;and(eq(3, 7), eq(318ti, 316i))=False", 
+    "count(filter_str_eq(all_rows, engine code, m44b19))=1;hop(filter_str_eq(all_rows, engine code, m44b19), name)=318ti;and(eq(3, 1), eq(318ti, 316i))=False"
+  ]
+]

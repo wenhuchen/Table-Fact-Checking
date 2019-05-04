@@ -1,0 +1,16 @@
+[
+  "2-15535243-3.html.csv", 
+  "#tune;[6, 4]# performs at 3:00 #pm;[0, 1]# on #tuesday;[2, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, time, tuesday), 03:00 pm)=tunes;eq(tunes, tunes)=True", 
+    "count(filter_str_eq(all_rows, 03:00 pm, tunes))=7;count(filter_str_eq(all_rows, time, tuesday))=1;eq(7, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, 03:00 pm, tunes), time, tuesday))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, 03:00 pm, tunes))=7;count(filter_str_eq(filter_str_eq(all_rows, 03:00 pm, tunes), time, tuesday))=1;eq(7, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, time, tuesday), 03:00 pm, tunes))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, time, tuesday))=1;count(filter_str_eq(filter_str_eq(all_rows, time, tuesday), 03:00 pm, tunes))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, time, tuesday), 12:00 pm)=asian hero (vj mike);hop(filter_str_eq(filter_str_eq(all_rows, time, tuesday), 03:00 pm, tunes), 12:00 pm)=asian hero (vj mike);eq(asian hero (vj mike), asian hero (vj mike))=True", 
+    "hop(filter_str_eq(all_rows, time, tuesday), 03:00 pm)=tunes;hop(filter_str_eq(filter_str_eq(all_rows, time, tuesday), 03:00 pm, tunes), 03:00 pm)=tunes;eq(tunes, tunes)=True", 
+    "hop(filter_str_eq(all_rows, time, tuesday), time)=tuesday;hop(filter_str_eq(filter_str_eq(all_rows, time, tuesday), 03:00 pm, tunes), time)=tuesday;eq(tuesday, tuesday)=True"
+  ]
+]

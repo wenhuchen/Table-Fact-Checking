@@ -1,0 +1,26 @@
+[
+  "2-15764352-13.html.csv", 
+  "when the #broadview hawk;[3, 2]# be the #home;[0, 2]# team the #score;[0, 4]# be #130 - 56;[3, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, home, broadview hawks), score)=130 - 56;eq(130 - 56, 130 - 56)=True", 
+    "hop(filter_str_eq(all_rows, score, 130 - 56), home)=broadview hawks;eq(broadview hawks, broadview hawks)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), score, 130 - 56), home)=broadview hawks;eq(broadview hawks, broadview hawks)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), home, broadview hawks), score)=130 - 56;eq(130 - 56, 130 - 56)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), home, broadview hawks), home)=broadview hawks;eq(broadview hawks, broadview hawks)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), score, 130 - 56), score)=130 - 56;eq(130 - 56, 130 - 56)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), home, broadview hawks), score)=130 - 56;eq(130 - 56, 130 - 56)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), score, 130 - 56), home)=broadview hawks;eq(broadview hawks, broadview hawks)=True", 
+    "count(filter_str_eq(all_rows, home, broadview hawks))=1;count(filter_str_eq(all_rows, score, 130 - 56))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, home, broadview hawks), home)=broadview hawks;hop(filter_str_eq(all_rows, score, 130 - 56), home)=broadview hawks;eq(broadview hawks, broadview hawks)=True", 
+    "hop(filter_str_eq(all_rows, home, broadview hawks), score)=130 - 56;hop(filter_str_eq(all_rows, score, 130 - 56), score)=130 - 56;eq(130 - 56, 130 - 56)=True", 
+    "count(all_rows)=5;count(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), score, 130 - 56))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, home, broadview hawks))=1;count(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), score, 130 - 56))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, home, broadview hawks), home)=broadview hawks;hop(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), score, 130 - 56), home)=broadview hawks;eq(broadview hawks, broadview hawks)=True", 
+    "hop(filter_str_eq(all_rows, home, broadview hawks), score)=130 - 56;hop(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), score, 130 - 56), score)=130 - 56;eq(130 - 56, 130 - 56)=True", 
+    "count(all_rows)=5;count(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), home, broadview hawks))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, score, 130 - 56))=1;count(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), home, broadview hawks))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, score, 130 - 56), home)=broadview hawks;hop(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), home, broadview hawks), home)=broadview hawks;eq(broadview hawks, broadview hawks)=True", 
+    "hop(filter_str_eq(all_rows, score, 130 - 56), score)=130 - 56;hop(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), home, broadview hawks), score)=130 - 56;eq(130 - 56, 130 - 56)=True"
+  ]
+]

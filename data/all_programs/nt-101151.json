@@ -1,0 +1,20 @@
+[
+  "1-2581397-5.html.csv", 
+  "the #doncaster;[8, 2]# #race;[0, 2]# occur on #30 march 2002;[8, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, race, doncaster), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True", 
+    "hop(filter_str_eq(all_rows, date, 30 march 2002), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "count(filter_str_eq(all_rows, race, doncaster))=1;count(filter_str_eq(all_rows, date, 30 march 2002))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), race)=doncaster;hop(filter_str_eq(all_rows, date, 30 march 2002), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), date)=30 march 2002;hop(filter_str_eq(all_rows, date, 30 march 2002), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, race, doncaster))=1;count(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), race)=doncaster;hop(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), date)=30 march 2002;hop(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, date, 30 march 2002))=1;count(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, 30 march 2002), race)=doncaster;hop(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "hop(filter_str_eq(all_rows, date, 30 march 2002), date)=30 march 2002;hop(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True"
+  ]
+]

@@ -1,0 +1,13 @@
+[
+  "2-1011065-3.html.csv", 
+  "#italy;[15, 1]# win the most medal , and only 1 #gold;[0, 2]# , place them in the top 3", 
+  0, 
+  [
+    "less(1, 3);hop(argmax(all_rows, gold), nation)=china (chn);and(less(1, 3), eq(china (chn), italy (ita)))=False", 
+    "less(1, 3);hop(last(all_rows), nation)=united states (usa);and(less(1, 3), eq(united states (usa), italy (ita)))=False", 
+    "less(1, 3);hop(first(all_rows), nation)=china (chn);and(less(1, 3), eq(china (chn), italy (ita)))=False", 
+    "hop(argmax(all_rows, gold), nation)=china (chn);and(eq(1, 3), eq(china (chn), italy (ita)))=False", 
+    "hop(last(all_rows), nation)=united states (usa);and(eq(1, 3), eq(united states (usa), italy (ita)))=False", 
+    "hop(first(all_rows), nation)=china (chn);and(eq(1, 3), eq(china (chn), italy (ita)))=False"
+  ]
+]

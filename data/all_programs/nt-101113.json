@@ -1,0 +1,25 @@
+[
+  "1-261941-1.html.csv", 
+  "the #pirate;[8, 2]# have 286 more enrolled than do the #logger;[6, 2]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;diff(286, 1)=285;count(filter_str_eq(all_rows, nickname, loggers))=1;less(285, 1);less(285, 1)=False", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;diff(286, 1)=285;count(filter_str_eq(all_rows, nickname, loggers))=1;eq(285, 1)=False", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;diff(286, 1)=285;count(filter_str_eq(all_rows, nickname, loggers))=1;greater(285, 1)=True", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;count(filter_str_eq(all_rows, nickname, loggers))=1;diff(1, 1)=0;less(286, 0);less(286, 0)=False", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;count(filter_str_eq(all_rows, nickname, loggers))=1;diff(1, 1)=0;eq(286, 0)=False", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;count(filter_str_eq(all_rows, nickname, loggers))=1;diff(1, 1)=0;greater(286, 0)=True", 
+    "count(all_rows)=8;less(286, 8);hop(filter_str_eq(all_rows, nickname, pirates), nickname)=pirates;and(less(286, 8), eq(pirates, loggers))=False", 
+    "count(all_rows)=8;hop(filter_str_eq(all_rows, nickname, pirates), nickname)=pirates;and(eq(286, 8), eq(pirates, loggers))=False", 
+    "count(all_rows)=8;hop(filter_str_eq(all_rows, nickname, pirates), nickname)=pirates;and(greater(286, 8), eq(pirates, loggers))=False", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;less(286, 1);hop(filter_str_eq(all_rows, nickname, pirates), nickname)=pirates;and(less(286, 1), eq(pirates, loggers))=False", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;hop(filter_str_eq(all_rows, nickname, pirates), nickname)=pirates;and(eq(286, 1), eq(pirates, loggers))=False", 
+    "count(filter_str_eq(all_rows, nickname, pirates))=1;hop(filter_str_eq(all_rows, nickname, pirates), nickname)=pirates;and(greater(286, 1), eq(pirates, loggers))=False", 
+    "count(all_rows)=8;less(286, 8);hop(filter_str_eq(all_rows, nickname, loggers), nickname)=loggers;and(less(286, 8), eq(loggers, pirates))=False", 
+    "count(all_rows)=8;hop(filter_str_eq(all_rows, nickname, loggers), nickname)=loggers;and(eq(286, 8), eq(loggers, pirates))=False", 
+    "count(all_rows)=8;hop(filter_str_eq(all_rows, nickname, loggers), nickname)=loggers;and(greater(286, 8), eq(loggers, pirates))=False", 
+    "count(filter_str_eq(all_rows, nickname, loggers))=1;less(286, 1);hop(filter_str_eq(all_rows, nickname, loggers), nickname)=loggers;and(less(286, 1), eq(loggers, pirates))=False", 
+    "count(filter_str_eq(all_rows, nickname, loggers))=1;hop(filter_str_eq(all_rows, nickname, loggers), nickname)=loggers;and(eq(286, 1), eq(loggers, pirates))=False", 
+    "count(filter_str_eq(all_rows, nickname, loggers))=1;hop(filter_str_eq(all_rows, nickname, loggers), nickname)=loggers;and(greater(286, 1), eq(loggers, pirates))=False"
+  ]
+]

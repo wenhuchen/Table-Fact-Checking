@@ -1,0 +1,24 @@
+[
+  "2-1851722-38.html.csv", 
+  "the #developer;[0, 4]# of #portal;[2, 1]# be #thatgamecompany;[7, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, game, portal), developer (s))=valve corporation;eq(valve corporation, thatgamecompany)=False", 
+    "hop(filter_str_eq(all_rows, developer (s), thatgamecompany), game)=journey;eq(journey, portal)=False", 
+    "and(within(all_rows, developer (s), portal), within(all_rows, developer (s), thatgamecompany))=False", 
+    "and(within(all_rows, developer (s), portal), within(all_rows, game, thatgamecompany))=False", 
+    "and(within(all_rows, game, portal), within(all_rows, developer (s), thatgamecompany))=True", 
+    "and(within(all_rows, game, portal), within(all_rows, game, thatgamecompany))=False", 
+    "count(filter_str_eq(all_rows, game, portal))=1;count(filter_str_eq(all_rows, developer (s), thatgamecompany))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, game, portal), developer (s))=valve corporation;hop(filter_str_eq(all_rows, developer (s), thatgamecompany), developer (s))=thatgamecompany;eq(thatgamecompany, valve corporation)=False", 
+    "hop(filter_str_eq(all_rows, game, portal), game)=portal;hop(filter_str_eq(all_rows, developer (s), thatgamecompany), game)=journey;eq(journey, portal)=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, game, portal))=1;and(within(all_rows, developer (s), thatgamecompany), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, game, portal))=1;and(within(all_rows, game, thatgamecompany), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, game, portal))=1;and(within(filter_str_eq(all_rows, game, portal), developer (s), thatgamecompany), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, game, portal))=1;and(within(filter_str_eq(all_rows, game, portal), game, thatgamecompany), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, developer (s), thatgamecompany))=1;and(within(all_rows, developer (s), portal), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, developer (s), thatgamecompany))=1;and(within(all_rows, game, portal), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, developer (s), thatgamecompany))=1;and(within(filter_str_eq(all_rows, developer (s), thatgamecompany), developer (s), portal), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, developer (s), thatgamecompany))=1;and(within(filter_str_eq(all_rows, developer (s), thatgamecompany), game, portal), eq(7, 1))=False"
+  ]
+]

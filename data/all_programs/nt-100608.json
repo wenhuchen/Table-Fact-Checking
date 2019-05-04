@@ -1,0 +1,25 @@
+[
+  "2-18007167-2.html.csv", 
+  "#olin dutra;[1, 1]# #score;[0, 3]# 3 less than #macdonald smith;[7, 1]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;diff(3, 1)=2;count(filter_str_eq(all_rows, player, macdonald smith))=1;less(2, 1);less(2, 1)=False", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;diff(3, 1)=2;count(filter_str_eq(all_rows, player, macdonald smith))=1;eq(2, 1)=False", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;diff(3, 1)=2;count(filter_str_eq(all_rows, player, macdonald smith))=1;greater(2, 1)=True", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;count(filter_str_eq(all_rows, player, macdonald smith))=1;diff(1, 1)=0;less(3, 0);less(3, 0)=False", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;count(filter_str_eq(all_rows, player, macdonald smith))=1;diff(1, 1)=0;eq(3, 0)=False", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;count(filter_str_eq(all_rows, player, macdonald smith))=1;diff(1, 1)=0;greater(3, 0)=True", 
+    "count(all_rows)=11;less(3, 11);hop(filter_str_eq(all_rows, player, olin dutra), player)=olin dutra;and(less(3, 11), eq(olin dutra, macdonald smith))=False", 
+    "count(all_rows)=11;hop(filter_str_eq(all_rows, player, olin dutra), player)=olin dutra;and(eq(3, 11), eq(olin dutra, macdonald smith))=False", 
+    "count(all_rows)=11;hop(filter_str_eq(all_rows, player, olin dutra), player)=olin dutra;and(greater(3, 11), eq(olin dutra, macdonald smith))=False", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;less(3, 1);hop(filter_str_eq(all_rows, player, olin dutra), player)=olin dutra;and(less(3, 1), eq(olin dutra, macdonald smith))=False", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;hop(filter_str_eq(all_rows, player, olin dutra), player)=olin dutra;and(eq(3, 1), eq(olin dutra, macdonald smith))=False", 
+    "count(filter_str_eq(all_rows, player, olin dutra))=1;hop(filter_str_eq(all_rows, player, olin dutra), player)=olin dutra;and(greater(3, 1), eq(olin dutra, macdonald smith))=False", 
+    "count(all_rows)=11;less(3, 11);hop(filter_str_eq(all_rows, player, macdonald smith), player)=macdonald smith;and(less(3, 11), eq(macdonald smith, olin dutra))=False", 
+    "count(all_rows)=11;hop(filter_str_eq(all_rows, player, macdonald smith), player)=macdonald smith;and(eq(3, 11), eq(macdonald smith, olin dutra))=False", 
+    "count(all_rows)=11;hop(filter_str_eq(all_rows, player, macdonald smith), player)=macdonald smith;and(greater(3, 11), eq(macdonald smith, olin dutra))=False", 
+    "count(filter_str_eq(all_rows, player, macdonald smith))=1;less(3, 1);hop(filter_str_eq(all_rows, player, macdonald smith), player)=macdonald smith;and(less(3, 1), eq(macdonald smith, olin dutra))=False", 
+    "count(filter_str_eq(all_rows, player, macdonald smith))=1;hop(filter_str_eq(all_rows, player, macdonald smith), player)=macdonald smith;and(eq(3, 1), eq(macdonald smith, olin dutra))=False", 
+    "count(filter_str_eq(all_rows, player, macdonald smith))=1;hop(filter_str_eq(all_rows, player, macdonald smith), player)=macdonald smith;and(greater(3, 1), eq(macdonald smith, olin dutra))=False"
+  ]
+]

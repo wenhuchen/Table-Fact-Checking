@@ -1,0 +1,15 @@
+[
+  "1-26199130-1.html.csv", 
+  "#off the meter;[7, 2]# be among 3 episode that be co - #write by;[0, 4]# two writer", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, title, off the meter))=1;eq(3, 1)=False", 
+    "count(all_rows)=22;and(within(all_rows, written by, off the meter), eq(3, 22))=False", 
+    "count(all_rows)=22;and(within(all_rows, title, off the meter), eq(3, 22))=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, title, off the meter), title, off the meter))=1;eq(3, 1)=False", 
+    "count(filter_str_eq(all_rows, title, off the meter))=1;and(within(all_rows, written by, off the meter), eq(3, 1))=False", 
+    "count(filter_str_eq(all_rows, title, off the meter))=1;and(within(all_rows, title, off the meter), eq(3, 1))=False", 
+    "count(filter_str_eq(all_rows, title, off the meter))=1;and(within(filter_str_eq(all_rows, title, off the meter), written by, off the meter), eq(3, 1))=False", 
+    "count(filter_str_eq(all_rows, title, off the meter))=1;and(within(filter_str_eq(all_rows, title, off the meter), title, off the meter), eq(3, 1))=False"
+  ]
+]

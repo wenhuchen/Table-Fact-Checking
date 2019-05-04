@@ -1,0 +1,30 @@
+[
+  "2-12868148-1.html.csv", 
+  "the #2009 - 10;[5, 0]# #season;[0, 0]# be the last #season;[0, 0]# before cancellation", 
+  0, 
+  [
+    "hop(last(all_rows), season)=2009 - 10;eq(2009 - 10, 2009 - 10)=True", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, season, 2009 - 10))=1;less(5, 1);less(5, 1)=False", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, season, 2009 - 10))=1;eq(5, 1)=False", 
+    "next(last(all_rows));hop(next(last(all_rows)), season)=2008 - 09;eq(2008 - 09, 2009 - 10)=False", 
+    "hop(last(last(all_rows)), season)=2009 - 10;eq(2009 - 10, 2009 - 10)=True", 
+    "next(filter_str_eq(all_rows, season, 2009 - 10));count(all_rows)=5;count(next(filter_str_eq(all_rows, season, 2009 - 10)))=1;less(5, 1);less(5, 1)=False", 
+    "next(filter_str_eq(all_rows, season, 2009 - 10));count(all_rows)=5;count(next(filter_str_eq(all_rows, season, 2009 - 10)))=1;eq(5, 1)=False", 
+    "next(filter_str_eq(all_rows, season, 2009 - 10));count(filter_str_eq(all_rows, season, 2009 - 10))=1;count(next(filter_str_eq(all_rows, season, 2009 - 10)))=1;less(1, 1);less(1, 1)=False", 
+    "next(filter_str_eq(all_rows, season, 2009 - 10));count(filter_str_eq(all_rows, season, 2009 - 10))=1;count(next(filter_str_eq(all_rows, season, 2009 - 10)))=1;eq(1, 1)=True", 
+    "next(filter_str_eq(all_rows, season, 2009 - 10));hop(filter_str_eq(all_rows, season, 2009 - 10), season)=2009 - 10;hop(next(filter_str_eq(all_rows, season, 2009 - 10)), season)=2008 - 09;eq(2008 - 09, 2009 - 10)=False", 
+    "count(all_rows)=5;count(last(filter_str_eq(all_rows, season, 2009 - 10)))=1;less(5, 1);less(5, 1)=False", 
+    "count(all_rows)=5;count(last(filter_str_eq(all_rows, season, 2009 - 10)))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, season, 2009 - 10))=1;count(last(all_rows))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, season, 2009 - 10))=1;count(last(all_rows))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, season, 2009 - 10))=1;count(last(filter_str_eq(all_rows, season, 2009 - 10)))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, season, 2009 - 10))=1;count(last(filter_str_eq(all_rows, season, 2009 - 10)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, season, 2009 - 10), season)=2009 - 10;hop(last(all_rows), season)=2009 - 10;eq(2009 - 10, 2009 - 10)=True", 
+    "hop(filter_str_eq(all_rows, season, 2009 - 10), season)=2009 - 10;hop(last(filter_str_eq(all_rows, season, 2009 - 10)), season)=2009 - 10;eq(2009 - 10, 2009 - 10)=True", 
+    "count(all_rows)=5;count(filter_str_eq(last(all_rows), season, 2009 - 10))=1;less(5, 1);less(5, 1)=False", 
+    "count(all_rows)=5;count(filter_str_eq(last(all_rows), season, 2009 - 10))=1;eq(5, 1)=False", 
+    "count(last(all_rows))=1;count(filter_str_eq(last(all_rows), season, 2009 - 10))=1;less(1, 1);less(1, 1)=False", 
+    "count(last(all_rows))=1;count(filter_str_eq(last(all_rows), season, 2009 - 10))=1;eq(1, 1)=True", 
+    "hop(last(all_rows), season)=2009 - 10;hop(filter_str_eq(last(all_rows), season, 2009 - 10), season)=2009 - 10;eq(2009 - 10, 2009 - 10)=True"
+  ]
+]

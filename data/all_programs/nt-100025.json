@@ -1,0 +1,22 @@
+[
+  "2-1126627-2.html.csv", 
+  "the #french gp;[10, 2]# take place less than 1 month before the #italian gp;[15, 2]#", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, grand prix, french gp))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, grand prix, italian gp))=1;less(0, 1);less(0, 1)=True", 
+    "count(filter_str_eq(all_rows, grand prix, french gp))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, grand prix, italian gp))=1;eq(0, 1)=False", 
+    "count(filter_str_eq(all_rows, grand prix, french gp))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, grand prix, italian gp))=1;greater(0, 1)=False", 
+    "count(all_rows)=18;less(1, 18);hop(filter_str_eq(all_rows, grand prix, french gp), grand prix)=french gp;and(less(1, 18), eq(french gp, italian gp))=False", 
+    "count(all_rows)=18;hop(filter_str_eq(all_rows, grand prix, french gp), grand prix)=french gp;and(eq(1, 18), eq(french gp, italian gp))=False", 
+    "count(all_rows)=18;hop(filter_str_eq(all_rows, grand prix, french gp), grand prix)=french gp;and(greater(1, 18), eq(french gp, italian gp))=False", 
+    "count(filter_str_eq(all_rows, grand prix, french gp))=1;less(1, 1);hop(filter_str_eq(all_rows, grand prix, french gp), grand prix)=french gp;and(less(1, 1), eq(french gp, italian gp))=False", 
+    "count(filter_str_eq(all_rows, grand prix, french gp))=1;hop(filter_str_eq(all_rows, grand prix, french gp), grand prix)=french gp;and(eq(1, 1), eq(french gp, italian gp))=False", 
+    "count(filter_str_eq(all_rows, grand prix, french gp))=1;hop(filter_str_eq(all_rows, grand prix, french gp), grand prix)=french gp;and(greater(1, 1), eq(french gp, italian gp))=False", 
+    "count(all_rows)=18;less(1, 18);hop(filter_str_eq(all_rows, grand prix, italian gp), grand prix)=italian gp;and(less(1, 18), eq(italian gp, french gp))=False", 
+    "count(all_rows)=18;hop(filter_str_eq(all_rows, grand prix, italian gp), grand prix)=italian gp;and(eq(1, 18), eq(italian gp, french gp))=False", 
+    "count(all_rows)=18;hop(filter_str_eq(all_rows, grand prix, italian gp), grand prix)=italian gp;and(greater(1, 18), eq(italian gp, french gp))=False", 
+    "count(filter_str_eq(all_rows, grand prix, italian gp))=1;less(1, 1);hop(filter_str_eq(all_rows, grand prix, italian gp), grand prix)=italian gp;and(less(1, 1), eq(italian gp, french gp))=False", 
+    "count(filter_str_eq(all_rows, grand prix, italian gp))=1;hop(filter_str_eq(all_rows, grand prix, italian gp), grand prix)=italian gp;and(eq(1, 1), eq(italian gp, french gp))=False", 
+    "count(filter_str_eq(all_rows, grand prix, italian gp))=1;hop(filter_str_eq(all_rows, grand prix, italian gp), grand prix)=italian gp;and(greater(1, 1), eq(italian gp, french gp))=False"
+  ]
+]

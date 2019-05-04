@@ -1,0 +1,10 @@
+[
+  "2-10806592-17.html.csv", 
+  "15.4 (94) be #essendon;[3, 0]# 's opponent #away score;[0, 3]#", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, home team, essendon))=1;eq(15.4, 1)=False", 
+    "count(all_rows)=6;and(within(all_rows, away team score, essendon), eq(15.4, 6))=False", 
+    "count(all_rows)=6;and(within(all_rows, home team, essendon), eq(15.4, 6))=False"
+  ]
+]

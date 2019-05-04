@@ -1,0 +1,24 @@
+[
+  "2-11561331-13.html.csv", 
+  "the #platform cross - platform;[1, 3]# have an #actual version;[0, 1]# of #0.8.29;[3, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, platform, cross - platform), actual version)=0.147;eq(0.147, 0.8.29)=False", 
+    "hop(filter_str_eq(all_rows, actual version, 0.8.29), platform)=unix , beos , nextstep;eq(unix , beos , nextstep, cross - platform)=False", 
+    "and(within(all_rows, actual version, cross - platform), within(all_rows, actual version, 0.8.29))=False", 
+    "and(within(all_rows, actual version, cross - platform), within(all_rows, platform, 0.8.29))=False", 
+    "and(within(all_rows, platform, cross - platform), within(all_rows, actual version, 0.8.29))=True", 
+    "and(within(all_rows, platform, cross - platform), within(all_rows, platform, 0.8.29))=False", 
+    "count(filter_str_eq(all_rows, platform, cross - platform))=1;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, platform, cross - platform), actual version)=0.147;hop(filter_str_eq(all_rows, actual version, 0.8.29), actual version)=0.8.29;eq(0.8.29, 0.147)=False", 
+    "hop(filter_str_eq(all_rows, platform, cross - platform), platform)=cross - platform;hop(filter_str_eq(all_rows, actual version, 0.8.29), platform)=unix , beos , nextstep;eq(unix , beos , nextstep, cross - platform)=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, cross - platform))=1;and(within(all_rows, actual version, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, cross - platform))=1;and(within(all_rows, platform, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, cross - platform))=1;and(within(filter_str_eq(all_rows, platform, cross - platform), actual version, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, cross - platform))=1;and(within(filter_str_eq(all_rows, platform, cross - platform), platform, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(all_rows, actual version, cross - platform), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(all_rows, platform, cross - platform), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(filter_str_eq(all_rows, actual version, 0.8.29), actual version, cross - platform), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(filter_str_eq(all_rows, actual version, 0.8.29), platform, cross - platform), eq(7, 1))=False"
+  ]
+]

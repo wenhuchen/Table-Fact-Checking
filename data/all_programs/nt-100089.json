@@ -1,0 +1,20 @@
+[
+  "2-1398006-1.html.csv", 
+  "the #team;[0, 2]# of #player;[0, 1]# #tris speaker;[14, 1]# be #pha;[16, 2]#", 
+  0, 
+  [
+    "and(within(all_rows, team, tris speaker), within(all_rows, team, pha))=False", 
+    "and(within(all_rows, team, tris speaker), within(all_rows, player, pha))=False", 
+    "and(within(all_rows, player, tris speaker), within(all_rows, team, pha))=True", 
+    "and(within(all_rows, player, tris speaker), within(all_rows, player, pha))=False", 
+    "count(filter_str_eq(all_rows, player, tris speaker))=3;count(filter_str_eq(all_rows, team, pha))=2;eq(3, 2)=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, player, tris speaker))=3;and(within(all_rows, team, pha), eq(19, 3))=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, player, tris speaker))=3;and(within(all_rows, player, pha), eq(19, 3))=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, player, tris speaker))=3;and(within(filter_str_eq(all_rows, player, tris speaker), team, pha), eq(19, 3))=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, player, tris speaker))=3;and(within(filter_str_eq(all_rows, player, tris speaker), player, pha), eq(19, 3))=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, team, pha))=2;and(within(all_rows, team, tris speaker), eq(19, 2))=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, team, pha))=2;and(within(all_rows, player, tris speaker), eq(19, 2))=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, team, pha))=2;and(within(filter_str_eq(all_rows, team, pha), team, tris speaker), eq(19, 2))=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, team, pha))=2;and(within(filter_str_eq(all_rows, team, pha), player, tris speaker), eq(19, 2))=False"
+  ]
+]

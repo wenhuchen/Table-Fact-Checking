@@ -1,0 +1,21 @@
+[
+  "2-1004125-4.html.csv", 
+  "#pick;[0, 0]# #38;[8, 0]# and #39;[9, 0]# be both for the #team;[0, 1]# #chicago fire;[8, 1]#", 
+  1, 
+  [
+    "hop(filter_eq(filter_greater_eq(all_rows, pick, 38), pick, 39), mls team)=chicago fire;eq(chicago fire, chicago fire)=True", 
+    "hop(filter_str_eq(filter_greater_eq(all_rows, pick, 39), mls team, chicago fire), pick)=39;eq(38, 39)=False", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, mls team, chicago fire), pick, 39), pick)=39;eq(38, 39)=False", 
+    "hop(filter_eq(filter_str_eq(all_rows, mls team, chicago fire), pick, 38), pick)=38;eq(39, 38)=False", 
+    "hop(filter_eq(filter_str_eq(all_rows, mls team, chicago fire), pick, 39), pick)=39;eq(38, 39)=False", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, mls team, chicago fire), pick, 38), pick)=38;eq(39, 38)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, pick, 38), mls team, chicago fire), pick)=38;eq(39, 38)=False", 
+    "hop(filter_less_eq(filter_eq(all_rows, pick, 38), pick, 39), mls team)=chicago fire;eq(chicago fire, chicago fire)=True", 
+    "hop(filter_greater_eq(filter_eq(all_rows, pick, 39), pick, 38), mls team)=chicago fire;eq(chicago fire, chicago fire)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, pick, 39), mls team, chicago fire), pick)=39;eq(38, 39)=False", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, pick, 38), mls team, chicago fire), pick)=38;eq(39, 38)=False", 
+    "hop(filter_eq(filter_less_eq(all_rows, pick, 39), pick, 38), mls team)=chicago fire;eq(chicago fire, chicago fire)=True", 
+    "hop(filter_eq(all_rows, pick, 38), mls team)=chicago fire;hop(filter_eq(all_rows, pick, 38), pick)=38;and(eq(chicago fire, chicago fire), eq(39, 38))=False", 
+    "hop(filter_eq(all_rows, pick, 39), mls team)=chicago fire;hop(filter_eq(all_rows, pick, 39), pick)=39;and(eq(chicago fire, chicago fire), eq(38, 39))=False"
+  ]
+]

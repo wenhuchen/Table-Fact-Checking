@@ -1,0 +1,26 @@
+[
+  "1-256286-13.html.csv", 
+  "the measure number be #3;[2, 0]# when #restore capital punishment;[2, 7]# be the #description;[0, 7]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, description, restoring capital punishment), meas num)=3;eq(3, 3)=True", 
+    "hop(filter_eq(all_rows, meas num, 3), description)=restoring capital punishment;eq(restoring capital punishment, restoring capital punishment)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, description, restoring capital punishment), meas num, 3), meas num)=3;eq(3, 3)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, meas num, 3), description, restoring capital punishment), meas num)=3;eq(3, 3)=True", 
+    "hop(filter_eq(filter_eq(all_rows, meas num, 3), meas num, 3), description)=restoring capital punishment;eq(restoring capital punishment, restoring capital punishment)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, description, restoring capital punishment), description, restoring capital punishment), meas num)=3;eq(3, 3)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, description, restoring capital punishment), meas num, 3), description)=restoring capital punishment;eq(restoring capital punishment, restoring capital punishment)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, meas num, 3), description, restoring capital punishment), description)=restoring capital punishment;eq(restoring capital punishment, restoring capital punishment)=True", 
+    "count(filter_str_eq(all_rows, description, restoring capital punishment))=1;count(filter_eq(all_rows, meas num, 3))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, description, restoring capital punishment), description)=restoring capital punishment;hop(filter_eq(all_rows, meas num, 3), description)=restoring capital punishment;eq(restoring capital punishment, restoring capital punishment)=True", 
+    "hop(filter_str_eq(all_rows, description, restoring capital punishment), meas num)=3;hop(filter_eq(all_rows, meas num, 3), meas num)=3;eq(3, 3)=True", 
+    "count(all_rows)=6;count(filter_eq(filter_str_eq(all_rows, description, restoring capital punishment), meas num, 3))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, description, restoring capital punishment))=1;count(filter_eq(filter_str_eq(all_rows, description, restoring capital punishment), meas num, 3))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, description, restoring capital punishment), description)=restoring capital punishment;hop(filter_eq(filter_str_eq(all_rows, description, restoring capital punishment), meas num, 3), description)=restoring capital punishment;eq(restoring capital punishment, restoring capital punishment)=True", 
+    "hop(filter_str_eq(all_rows, description, restoring capital punishment), meas num)=3;hop(filter_eq(filter_str_eq(all_rows, description, restoring capital punishment), meas num, 3), meas num)=3;eq(3, 3)=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_eq(all_rows, meas num, 3), description, restoring capital punishment))=1;eq(6, 1)=False", 
+    "count(filter_eq(all_rows, meas num, 3))=1;count(filter_str_eq(filter_eq(all_rows, meas num, 3), description, restoring capital punishment))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, meas num, 3), description)=restoring capital punishment;hop(filter_str_eq(filter_eq(all_rows, meas num, 3), description, restoring capital punishment), description)=restoring capital punishment;eq(restoring capital punishment, restoring capital punishment)=True", 
+    "hop(filter_eq(all_rows, meas num, 3), meas num)=3;hop(filter_str_eq(filter_eq(all_rows, meas num, 3), description, restoring capital punishment), meas num)=3;eq(3, 3)=True"
+  ]
+]

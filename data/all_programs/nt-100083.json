@@ -1,0 +1,12 @@
+[
+  "1-1341568-6.html.csv", 
+  "the #opponent;[0, 5]# in #district;[0, 0]# #california 8;[4, 0]# be #pete stark;[5, 1]# and #victor romero;[5, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, incumbent, pete stark), opponent, pete stark (d) 58.4% victor romero (r) 41.6%), district)=california 9;eq(california 9, california 8)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent, pete stark (d) 58.4% victor romero (r) 41.6%), incumbent, pete stark), district)=california 9;eq(california 9, california 8)=False", 
+    "hop(filter_str_eq(all_rows, district, california 8), opponent)=ron dellums (d) 61.3% barbara galewski (r) 38.7%;hop(filter_str_eq(all_rows, district, california 8), incumbent)=ron dellums;and(eq(ron dellums (d) 61.3% barbara galewski (r) 38.7%, pete stark (d) 58.4% victor romero (r) 41.6%), eq(ron dellums, pete stark))=False", 
+    "hop(filter_str_eq(all_rows, incumbent, pete stark), opponent)=pete stark (d) 58.4% victor romero (r) 41.6%;hop(filter_str_eq(all_rows, incumbent, pete stark), district)=california 9;and(eq(pete stark (d) 58.4% victor romero (r) 41.6%, pete stark (d) 58.4% victor romero (r) 41.6%), eq(california 9, california 8))=False", 
+    "hop(filter_str_eq(all_rows, opponent, pete stark (d) 58.4% victor romero (r) 41.6%), district)=california 9;hop(filter_str_eq(all_rows, opponent, pete stark (d) 58.4% victor romero (r) 41.6%), incumbent)=pete stark;and(eq(california 9, california 8), eq(pete stark, pete stark))=False"
+  ]
+]

@@ -1,0 +1,20 @@
+[
+  "2-12010745-2.html.csv", 
+  "accord to a #2007 press release;[0, 1]# , #69;[3, 0]# be the lowest #report isn;[0, 0]# for #russia;[11, 4]#", 
+  1, 
+  [
+    "min(filter_str_eq(all_rows, country of act, russia), reported isn)=69;eq(69, 69)=True", 
+    "max(filter_str_eq(all_rows, country of act, russia), reported isn)=674;eq(69, 674)=False", 
+    "hop(filter_eq(all_rows, reported isn, 69), country of act)=russia;eq(russia, russia)=True", 
+    "hop(filter_less_eq(all_rows, reported isn, 69), country of act)=russia;eq(russia, russia)=True", 
+    "hop(filter_greater_eq(argmax(all_rows, reported isn), reported isn, 69), country of act)=afghanistan;eq(afghanistan, russia)=False", 
+    "hop(argmax(filter_greater_eq(all_rows, reported isn, 69), reported isn), country of act)=afghanistan;eq(afghanistan, russia)=False", 
+    "hop(argmin(filter_greater_eq(all_rows, reported isn, 69), reported isn), country of act)=russia;eq(russia, russia)=True", 
+    "hop(argmax(filter_str_eq(all_rows, country of act, russia), reported isn), reported isn)=674;eq(69, 674)=False", 
+    "hop(argmin(filter_str_eq(all_rows, country of act, russia), reported isn), reported isn)=69;eq(69, 69)=True", 
+    "hop(filter_greater_eq(argmin(all_rows, reported isn), reported isn, 69), country of act)=russia;eq(russia, russia)=True", 
+    "hop(filter_str_eq(argmin(all_rows, reported isn), country of act, russia), reported isn)=69;eq(69, 69)=True", 
+    "hop(filter_eq(argmin(all_rows, reported isn), reported isn, 69), country of act)=russia;eq(russia, russia)=True", 
+    "hop(filter_less_eq(argmin(all_rows, reported isn), reported isn, 69), country of act)=russia;eq(russia, russia)=True"
+  ]
+]

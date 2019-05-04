@@ -1,0 +1,20 @@
+[
+  "2-12334051-1.html.csv", 
+  "#687 210;[1, 3]# #male;[0, 3]# be speak in #polish;[1, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, males, 687 210), language)=polish;eq(polish, polish)=True", 
+    "hop(filter_str_eq(all_rows, language, polish), males)=687 210;eq(687 210, 687 210)=True", 
+    "count(filter_str_eq(all_rows, males, 687 210))=1;count(filter_str_eq(all_rows, language, polish))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, males, 687 210), males)=687 210;hop(filter_str_eq(all_rows, language, polish), males)=687 210;eq(687 210, 687 210)=True", 
+    "hop(filter_str_eq(all_rows, males, 687 210), language)=polish;hop(filter_str_eq(all_rows, language, polish), language)=polish;eq(polish, polish)=True", 
+    "count(all_rows)=13;count(filter_str_eq(filter_str_eq(all_rows, males, 687 210), language, polish))=1;eq(13, 1)=False", 
+    "count(filter_str_eq(all_rows, males, 687 210))=1;count(filter_str_eq(filter_str_eq(all_rows, males, 687 210), language, polish))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, males, 687 210), males)=687 210;hop(filter_str_eq(filter_str_eq(all_rows, males, 687 210), language, polish), males)=687 210;eq(687 210, 687 210)=True", 
+    "hop(filter_str_eq(all_rows, males, 687 210), language)=polish;hop(filter_str_eq(filter_str_eq(all_rows, males, 687 210), language, polish), language)=polish;eq(polish, polish)=True", 
+    "count(all_rows)=13;count(filter_str_eq(filter_str_eq(all_rows, language, polish), males, 687 210))=1;eq(13, 1)=False", 
+    "count(filter_str_eq(all_rows, language, polish))=1;count(filter_str_eq(filter_str_eq(all_rows, language, polish), males, 687 210))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, language, polish), males)=687 210;hop(filter_str_eq(filter_str_eq(all_rows, language, polish), males, 687 210), males)=687 210;eq(687 210, 687 210)=True", 
+    "hop(filter_str_eq(all_rows, language, polish), language)=polish;hop(filter_str_eq(filter_str_eq(all_rows, language, polish), males, 687 210), language)=polish;eq(polish, polish)=True"
+  ]
+]

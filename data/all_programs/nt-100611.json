@@ -1,0 +1,12 @@
+[
+  "2-18007167-2.html.csv", 
+  "#ralph guldahl;[9, 1]# receive the same #score;[0, 3]# as #johnny revolta;[11, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, player, ralph guldahl), player)=ralph guldahl;eq(ralph guldahl, johnny revolta)=False", 
+    "hop(filter_str_eq(all_rows, player, johnny revolta), player)=johnny revolta;eq(johnny revolta, ralph guldahl)=False", 
+    "count(filter_str_eq(all_rows, player, ralph guldahl))=1;count(filter_str_eq(all_rows, player, johnny revolta))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, ralph guldahl), score)=78 + 73 + 70 + 78 = 299;hop(filter_str_eq(all_rows, player, johnny revolta), score)=76 + 73 + 77 + 73 = 299;eq(76 + 73 + 77 + 73 = 299, 78 + 73 + 70 + 78 = 299)=False", 
+    "hop(filter_str_eq(all_rows, player, ralph guldahl), player)=ralph guldahl;hop(filter_str_eq(all_rows, player, johnny revolta), player)=johnny revolta;eq(johnny revolta, ralph guldahl)=False"
+  ]
+]

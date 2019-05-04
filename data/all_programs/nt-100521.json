@@ -1,0 +1,31 @@
+[
+  "2-14649522-2.html.csv", 
+  "#lambeau field;[8, 4]# be the #venue;[0, 4]# for #7;[7, 0]# of the #17;[17, 0]# #week;[0, 0]#", 
+  0, 
+  [
+    "hop(filter_greater_eq(filter_greater_eq(all_rows, week, 7), week, 17), venue)=hubert h humphrey metrodome;eq(hubert h humphrey metrodome, lambeau field)=False", 
+    "hop(filter_eq(filter_greater_eq(all_rows, week, 7), week, 17), venue)=hubert h humphrey metrodome;eq(hubert h humphrey metrodome, lambeau field)=False", 
+    "hop(filter_greater_eq(filter_greater_eq(all_rows, week, 17), week, 7), venue)=hubert h humphrey metrodome;eq(hubert h humphrey metrodome, lambeau field)=False", 
+    "hop(filter_less_eq(filter_eq(all_rows, week, 7), week, 17), venue)=cleveland stadium;eq(cleveland stadium, lambeau field)=False", 
+    "hop(filter_greater_eq(filter_eq(all_rows, week, 17), week, 7), venue)=hubert h humphrey metrodome;eq(hubert h humphrey metrodome, lambeau field)=False", 
+    "hop(filter_eq(filter_less_eq(all_rows, week, 17), week, 7), venue)=cleveland stadium;eq(cleveland stadium, lambeau field)=False", 
+    "and(and(within(all_rows, week, 7), within(all_rows, week, 17)), within(all_rows, venue, lambeau field))=True", 
+    "hop(filter_greater_eq(all_rows, week, 17), venue)=hubert h humphrey metrodome;and(within(all_rows, week, 7), eq(hubert h humphrey metrodome, lambeau field))=False", 
+    "hop(filter_eq(all_rows, week, 17), venue)=hubert h humphrey metrodome;and(within(all_rows, week, 7), eq(hubert h humphrey metrodome, lambeau field))=False", 
+    "and(and(within(all_rows, week, 7), within(all_rows, venue, lambeau field)), within(all_rows, week, 17))=True", 
+    "hop(filter_eq(all_rows, week, 7), venue)=cleveland stadium;and(within(all_rows, week, 17), eq(cleveland stadium, lambeau field))=False", 
+    "and(and(within(all_rows, week, 17), within(all_rows, venue, lambeau field)), within(all_rows, week, 7))=True", 
+    "hop(filter_greater_eq(all_rows, week, 17), venue)=hubert h humphrey metrodome;and(within(filter_greater_eq(all_rows, week, 17), week, 7), eq(hubert h humphrey metrodome, lambeau field))=False", 
+    "hop(filter_greater_eq(all_rows, week, 17), week)=17;and(within(all_rows, venue, lambeau field), eq(7, 17))=False", 
+    "hop(filter_greater_eq(all_rows, week, 17), week)=17;and(within(filter_greater_eq(all_rows, week, 17), venue, lambeau field), eq(7, 17))=False", 
+    "hop(filter_eq(all_rows, week, 7), venue)=cleveland stadium;and(within(filter_eq(all_rows, week, 7), week, 17), eq(cleveland stadium, lambeau field))=False", 
+    "hop(filter_eq(all_rows, week, 7), week)=7;and(within(all_rows, venue, lambeau field), eq(17, 7))=False", 
+    "hop(filter_eq(all_rows, week, 7), week)=7;and(within(filter_eq(all_rows, week, 7), venue, lambeau field), eq(17, 7))=False", 
+    "hop(filter_eq(all_rows, week, 17), venue)=hubert h humphrey metrodome;and(within(filter_eq(all_rows, week, 17), week, 7), eq(hubert h humphrey metrodome, lambeau field))=False", 
+    "hop(filter_eq(all_rows, week, 17), week)=17;and(within(all_rows, venue, lambeau field), eq(7, 17))=False", 
+    "hop(filter_eq(all_rows, week, 17), week)=17;and(within(filter_eq(all_rows, week, 17), venue, lambeau field), eq(7, 17))=False", 
+    "hop(filter_greater_eq(all_rows, week, 17), venue)=hubert h humphrey metrodome;hop(filter_greater_eq(all_rows, week, 17), week)=17;and(eq(hubert h humphrey metrodome, lambeau field), eq(7, 17))=False", 
+    "hop(filter_eq(all_rows, week, 7), venue)=cleveland stadium;hop(filter_eq(all_rows, week, 7), week)=7;and(eq(cleveland stadium, lambeau field), eq(17, 7))=False", 
+    "hop(filter_eq(all_rows, week, 17), venue)=hubert h humphrey metrodome;hop(filter_eq(all_rows, week, 17), week)=17;and(eq(hubert h humphrey metrodome, lambeau field), eq(7, 17))=False"
+  ]
+]

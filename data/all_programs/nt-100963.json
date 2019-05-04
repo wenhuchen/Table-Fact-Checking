@@ -1,0 +1,16 @@
+[
+  "1-16577990-1.html.csv", 
+  "#echuya;[4, 0]# be the second smallest #in size;[0, 1]#", 
+  0, 
+  [
+    "all_eq(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve, echuya)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve)=echuya;eq(echuya, echuya)=True", 
+    "count(all_rows)=9;count(filter_str_eq(all_rows, central forest reserve, echuya))=1;eq(9, 1)=False", 
+    "hop(filter_str_eq(all_rows, central forest reserve, echuya), size in km square)=36;sum(all_rows, size in km square)=2133;eq(36, 2133)=False", 
+    "count(all_rows)=9;count(filter_str_eq(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve, echuya))=1;eq(9, 1)=False", 
+    "count(filter_str_eq(all_rows, central forest reserve, echuya))=1;count(filter_str_eq(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve, echuya))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve)=echuya;hop(filter_str_eq(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve, echuya), central forest reserve)=echuya;eq(echuya, echuya)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, echuya), size in km square)=36;hop(filter_str_eq(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve, echuya), size in km square)=36;eq(36, 36)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, central forest reserve, echuya), central forest reserve, echuya), size in km square)=36;sum(all_rows, size in km square)=2133;eq(36, 2133)=False"
+  ]
+]

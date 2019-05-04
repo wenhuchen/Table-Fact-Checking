@@ -1,0 +1,9 @@
+[
+  "1-13657883-2.html.csv", 
+  "#88 camaro;[15, 4]# be the winning #team;[0, 5]# when the #tu win team;[0, 5]# be number #16;[1, 5]# , #2002;[1, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, tu winning team, 16 2002), tu winning team, 16 2002), to winning team)=48 mustang;eq(48 mustang, 88 camaro)=False", 
+    "hop(filter_str_eq(all_rows, tu winning team, 16 2002), tu winning team)=16 2002;hop(filter_str_eq(all_rows, tu winning team, 16 2002), to winning team)=48 mustang;and(eq(16 2002, 16 2002), eq(48 mustang, 88 camaro))=False"
+  ]
+]

@@ -1,0 +1,23 @@
+[
+  "2-1398006-1.html.csv", 
+  "#tris speaker;[14, 1]# have a #rank;[0, 0]# of #18;[19, 0]# when the #bb / so;[0, 4]# be #7.00;[19, 4]#", 
+  1, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, player, tris speaker), rank, 18), bb / so)=7.0;eq(7.0, 7.0)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, player, tris speaker), bb / so, 7.0), rank)=18;eq(18, 18)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, rank, 18), player, tris speaker), bb / so)=7.0;eq(7.0, 7.0)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, bb / so, 7.0), player, tris speaker), rank)=18;eq(18, 18)=True", 
+    "and(and(within(all_rows, rank, 18), within(all_rows, rank, 7.0)), within(all_rows, player, tris speaker))=True", 
+    "and(and(within(all_rows, rank, 18), within(all_rows, bb / so, 7.0)), within(all_rows, player, tris speaker))=True", 
+    "and(and(within(all_rows, rank, 18), within(all_rows, player, tris speaker)), within(all_rows, rank, 7.0))=True", 
+    "and(and(within(all_rows, rank, 18), within(all_rows, player, tris speaker)), within(all_rows, bb / so, 7.0))=True", 
+    "and(and(within(all_rows, bb / so, 18), within(all_rows, rank, 7.0)), within(all_rows, player, tris speaker))=False", 
+    "and(and(within(all_rows, bb / so, 18), within(all_rows, bb / so, 7.0)), within(all_rows, player, tris speaker))=False", 
+    "and(and(within(all_rows, bb / so, 18), within(all_rows, player, tris speaker)), within(all_rows, rank, 7.0))=False", 
+    "and(and(within(all_rows, bb / so, 18), within(all_rows, player, tris speaker)), within(all_rows, bb / so, 7.0))=False", 
+    "and(and(within(all_rows, rank, 7.0), within(all_rows, player, tris speaker)), within(all_rows, rank, 18))=True", 
+    "and(and(within(all_rows, rank, 7.0), within(all_rows, player, tris speaker)), within(all_rows, bb / so, 18))=False", 
+    "and(and(within(all_rows, bb / so, 7.0), within(all_rows, player, tris speaker)), within(all_rows, rank, 18))=True", 
+    "and(and(within(all_rows, bb / so, 7.0), within(all_rows, player, tris speaker)), within(all_rows, bb / so, 18))=False"
+  ]
+]

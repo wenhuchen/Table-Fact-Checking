@@ -1,0 +1,16 @@
+[
+  "1-25926120-3.html.csv", 
+  "the #hindi;[12, 2]# #language;[0, 2]# #film ,;[0, 1]# #jodhaa akbar;[13, 1]# win a #cash prize;[0, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, name of film, jodhaa akbar), language)=hindi;eq(hindi, hindi)=True", 
+    "count(filter_str_eq(all_rows, language, hindi))=9;count(filter_str_eq(all_rows, name of film, jodhaa akbar))=1;eq(9, 1)=False", 
+    "count(all_rows)=18;count(filter_str_eq(filter_str_eq(all_rows, language, hindi), name of film, jodhaa akbar))=1;eq(18, 1)=False", 
+    "count(filter_str_eq(all_rows, language, hindi))=9;count(filter_str_eq(filter_str_eq(all_rows, language, hindi), name of film, jodhaa akbar))=1;eq(9, 1)=False", 
+    "count(all_rows)=18;count(filter_str_eq(filter_str_eq(all_rows, name of film, jodhaa akbar), language, hindi))=1;eq(18, 1)=False", 
+    "count(filter_str_eq(all_rows, name of film, jodhaa akbar))=1;count(filter_str_eq(filter_str_eq(all_rows, name of film, jodhaa akbar), language, hindi))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, name of film, jodhaa akbar), language)=hindi;hop(filter_str_eq(filter_str_eq(all_rows, name of film, jodhaa akbar), language, hindi), language)=hindi;eq(hindi, hindi)=True", 
+    "hop(filter_str_eq(all_rows, name of film, jodhaa akbar), name of film)=jodhaa akbar;hop(filter_str_eq(filter_str_eq(all_rows, name of film, jodhaa akbar), language, hindi), name of film)=jodhaa akbar;eq(jodhaa akbar, jodhaa akbar)=True", 
+    "hop(filter_str_eq(all_rows, name of film, jodhaa akbar), cash prize)=50000 / -;hop(filter_str_eq(filter_str_eq(all_rows, name of film, jodhaa akbar), language, hindi), cash prize)=50000 / -;eq(50000 / -, 50000 / -)=True"
+  ]
+]

@@ -1,0 +1,21 @@
+[
+  "2-18649514-10.html.csv", 
+  "#400c honda;[5, 2]# #team;[0, 2]# #rank;[0, 0]# be lower than #4;[4, 0]# with a #speed;[0, 3]# higher than #104.574 mph;[5, 3]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_greater_eq(all_rows, rank, 4), team, 400c honda), speed)=104.574 mph;eq(104.574 mph, 104.574 mph)=True", 
+    "hop(filter_str_eq(filter_greater_eq(all_rows, rank, 4), speed, 104.574 mph), team)=400c honda;eq(400c honda, 400c honda)=True", 
+    "hop(filter_str_eq(filter_greater(all_rows, rank, 4), team, 400c honda), speed)=104.574 mph;eq(104.574 mph, 104.574 mph)=True", 
+    "hop(filter_str_eq(filter_greater(all_rows, rank, 4), speed, 104.574 mph), team)=400c honda;eq(400c honda, 400c honda)=True", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, team, 400c honda), rank, 4), speed)=104.574 mph;eq(104.574 mph, 104.574 mph)=True", 
+    "hop(filter_greater(filter_str_eq(all_rows, team, 400c honda), rank, 4), speed)=104.574 mph;eq(104.574 mph, 104.574 mph)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, team, 400c honda), speed, 104.574 mph), rank)=5;less(4, 5);less(4, 5)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, team, 400c honda), speed, 104.574 mph), rank)=5;eq(4, 5)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, team, 400c honda), speed, 104.574 mph), rank)=5;greater(4, 5)=False", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, speed, 104.574 mph), rank, 4), team)=400c honda;eq(400c honda, 400c honda)=True", 
+    "hop(filter_greater(filter_str_eq(all_rows, speed, 104.574 mph), rank, 4), team)=400c honda;eq(400c honda, 400c honda)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, speed, 104.574 mph), team, 400c honda), rank)=5;less(4, 5);less(4, 5)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, speed, 104.574 mph), team, 400c honda), rank)=5;eq(4, 5)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, speed, 104.574 mph), team, 400c honda), rank)=5;greater(4, 5)=False"
+  ]
+]

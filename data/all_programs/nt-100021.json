@@ -1,0 +1,11 @@
+[
+  "2-1126627-2.html.csv", 
+  "the #british gp;[11, 2]# take place in the same month as the #german gp;[12, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, grand prix, british gp), grand prix)=british gp;eq(british gp, german gp)=False", 
+    "hop(filter_str_eq(all_rows, grand prix, german gp), grand prix)=german gp;eq(german gp, british gp)=False", 
+    "count(filter_str_eq(all_rows, grand prix, british gp))=1;count(filter_str_eq(all_rows, grand prix, german gp))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, grand prix, british gp), grand prix)=british gp;hop(filter_str_eq(all_rows, grand prix, german gp), grand prix)=german gp;eq(german gp, british gp)=False"
+  ]
+]

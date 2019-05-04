@@ -1,0 +1,14 @@
+[
+  "1-28286776-50.html.csv", 
+  "when #chris killen;[3, 0]# be the #player ,;[0, 0]# the #international debut;[0, 3]# be on #23 may 2012 v;[2, 3]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, player, chris killen), international debut)=19 june 2000 v tahiti;eq(19 june 2000 v tahiti, 23 may 2012 v)=False", 
+    "hop(filter_str_eq(all_rows, international debut, 23 may 2012 v), player)=cameron howieson;eq(cameron howieson, chris killen)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, chris killen), player, chris killen), international debut)=19 june 2000 v tahiti;eq(19 june 2000 v tahiti, 23 may 2012 v)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, international debut, 23 may 2012 v), international debut, 23 may 2012 v), player)=cameron howieson;eq(cameron howieson, chris killen)=False", 
+    "count(filter_str_eq(all_rows, player, chris killen))=1;count(filter_str_eq(all_rows, international debut, 23 may 2012 v))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, chris killen), player)=chris killen;hop(filter_str_eq(all_rows, international debut, 23 may 2012 v), player)=cameron howieson;eq(cameron howieson, chris killen)=False", 
+    "hop(filter_str_eq(all_rows, player, chris killen), international debut)=19 june 2000 v tahiti;hop(filter_str_eq(all_rows, international debut, 23 may 2012 v), international debut)=23 may 2012 v;eq(23 may 2012 v, 19 june 2000 v tahiti)=False"
+  ]
+]

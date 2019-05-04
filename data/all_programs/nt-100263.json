@@ -1,0 +1,13 @@
+[
+  "1-11622771-1.html.csv", 
+  "the #mony senior tournament of champion;[1, 1]# be hold before the #treasure coast classic;[2, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, tournament, mony senior tournament of champions), tournament)=mony senior tournament of champions;eq(mony senior tournament of champions, treasure coast classic)=False", 
+    "hop(filter_str_eq(all_rows, tournament, treasure coast classic), tournament)=treasure coast classic;eq(treasure coast classic, mony senior tournament of champions)=False", 
+    "next(filter_str_eq(all_rows, tournament, treasure coast classic));hop(next(filter_str_eq(all_rows, tournament, treasure coast classic)), tournament)=mony senior tournament of champions;eq(mony senior tournament of champions, mony senior tournament of champions)=True", 
+    "count(filter_str_eq(all_rows, tournament, mony senior tournament of champions))=1;count(filter_str_eq(all_rows, tournament, treasure coast classic))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, tournament, mony senior tournament of champions))=1;count(filter_str_eq(all_rows, tournament, treasure coast classic))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, tournament, mony senior tournament of champions), tournament)=mony senior tournament of champions;hop(filter_str_eq(all_rows, tournament, treasure coast classic), tournament)=treasure coast classic;eq(treasure coast classic, mony senior tournament of champions)=False"
+  ]
+]

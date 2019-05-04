@@ -1,0 +1,12 @@
+[
+  "2-18256407-2.html.csv", 
+  "#ralph depalma;[7, 3]# #win;[0, 3]# the #elgin trophy;[7, 0]# with a #win constructor;[0, 4]# or #mercedes;[7, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, winning driver, ralph depalma), name, elgin trophy), winning constructor)=mercedes;eq(mercedes, mercedes)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, name, elgin trophy), winning driver, ralph depalma), winning constructor)=mercedes;eq(mercedes, mercedes)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, name, elgin trophy), winning constructor, mercedes), winning driver)=ralph depalma;eq(ralph depalma, ralph depalma)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, winning constructor, mercedes), name, elgin trophy), winning driver)=ralph depalma;eq(ralph depalma, ralph depalma)=True", 
+    "hop(filter_str_eq(all_rows, name, elgin trophy), winning driver)=ralph depalma;hop(filter_str_eq(all_rows, name, elgin trophy), winning constructor)=mercedes;and(eq(ralph depalma, ralph depalma), eq(mercedes, mercedes))=True"
+  ]
+]

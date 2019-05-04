@@ -1,0 +1,12 @@
+[
+  "1-2679061-8.html.csv", 
+  "#philadelphia flyer;[19, 4]# be associate with draft number #155;[13, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, nhl team, philadelphia flyers), pick)=161;eq(155, 161)=False", 
+    "hop(filter_eq(all_rows, pick, 155), nhl team)=washington capitals;eq(washington capitals, philadelphia flyers)=False", 
+    "count(filter_str_eq(all_rows, nhl team, philadelphia flyers))=1;count(filter_eq(all_rows, pick, 155))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, nhl team, philadelphia flyers), nhl team)=philadelphia flyers;hop(filter_eq(all_rows, pick, 155), nhl team)=washington capitals;eq(washington capitals, philadelphia flyers)=False", 
+    "hop(filter_str_eq(all_rows, nhl team, philadelphia flyers), pick)=161;hop(filter_eq(all_rows, pick, 155), pick)=155;eq(161, 155)=False"
+  ]
+]

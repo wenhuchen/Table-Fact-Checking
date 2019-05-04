@@ -1,0 +1,13 @@
+[
+  "1-26423157-2.html.csv", 
+  "#oklahoma state;[19, 0]# and kansas both #lose to;[0, 7]# #baylor;[1, 0]# in the #big 12;[1, 2]# #conference;[0, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, school, oklahoma state), conference, big 12), school)=oklahoma state;eq(oklahoma state, baylor)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, school, baylor), conference, big 12), school)=baylor;eq(baylor, oklahoma state)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, conference, big 12), school, oklahoma state), school)=oklahoma state;eq(oklahoma state, baylor)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, conference, big 12), school, baylor), school)=baylor;eq(baylor, oklahoma state)=False", 
+    "hop(filter_str_eq(all_rows, school, oklahoma state), conference)=big 12;hop(filter_str_eq(all_rows, school, oklahoma state), school)=oklahoma state;and(eq(big 12, big 12), eq(oklahoma state, baylor))=False", 
+    "hop(filter_str_eq(all_rows, school, baylor), conference)=big 12;hop(filter_str_eq(all_rows, school, baylor), school)=baylor;and(eq(big 12, big 12), eq(baylor, oklahoma state))=False"
+  ]
+]

@@ -1,0 +1,32 @@
+[
+  "2-11561331-13.html.csv", 
+  "the #various computer and console;[1, 2]# #system;[0, 2]# have a #name;[0, 0]# of #mess;[1, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, system, various computers and consoles), name)=mess;eq(mess, mess)=True", 
+    "hop(filter_str_eq(all_rows, name, mess), system)=various computers and consoles;eq(various computers and consoles, various computers and consoles)=True", 
+    "and(within(all_rows, system, various computers and consoles), within(all_rows, system, mess))=False", 
+    "and(within(all_rows, system, various computers and consoles), within(all_rows, name, mess))=True", 
+    "and(within(all_rows, name, various computers and consoles), within(all_rows, system, mess))=False", 
+    "and(within(all_rows, name, various computers and consoles), within(all_rows, name, mess))=False", 
+    "count(filter_str_eq(all_rows, system, various computers and consoles))=1;count(filter_str_eq(all_rows, name, mess))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, system, various computers and consoles), system)=various computers and consoles;hop(filter_str_eq(all_rows, name, mess), system)=various computers and consoles;eq(various computers and consoles, various computers and consoles)=True", 
+    "hop(filter_str_eq(all_rows, system, various computers and consoles), name)=mess;hop(filter_str_eq(all_rows, name, mess), name)=mess;eq(mess, mess)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, system, various computers and consoles), name, mess))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, system, various computers and consoles))=1;count(filter_str_eq(filter_str_eq(all_rows, system, various computers and consoles), name, mess))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, system, various computers and consoles), system)=various computers and consoles;hop(filter_str_eq(filter_str_eq(all_rows, system, various computers and consoles), name, mess), system)=various computers and consoles;eq(various computers and consoles, various computers and consoles)=True", 
+    "hop(filter_str_eq(all_rows, system, various computers and consoles), name)=mess;hop(filter_str_eq(filter_str_eq(all_rows, system, various computers and consoles), name, mess), name)=mess;eq(mess, mess)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, name, mess), system, various computers and consoles))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, name, mess))=1;count(filter_str_eq(filter_str_eq(all_rows, name, mess), system, various computers and consoles))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, name, mess), system)=various computers and consoles;hop(filter_str_eq(filter_str_eq(all_rows, name, mess), system, various computers and consoles), system)=various computers and consoles;eq(various computers and consoles, various computers and consoles)=True", 
+    "hop(filter_str_eq(all_rows, name, mess), name)=mess;hop(filter_str_eq(filter_str_eq(all_rows, name, mess), system, various computers and consoles), name)=mess;eq(mess, mess)=True", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, system, various computers and consoles))=1;and(within(all_rows, system, mess), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, system, various computers and consoles))=1;and(within(all_rows, name, mess), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, system, various computers and consoles))=1;and(within(filter_str_eq(all_rows, system, various computers and consoles), system, mess), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, system, various computers and consoles))=1;and(within(filter_str_eq(all_rows, system, various computers and consoles), name, mess), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, name, mess))=1;and(within(all_rows, system, various computers and consoles), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, name, mess))=1;and(within(all_rows, name, various computers and consoles), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, name, mess))=1;and(within(filter_str_eq(all_rows, name, mess), system, various computers and consoles), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, name, mess))=1;and(within(filter_str_eq(all_rows, name, mess), name, various computers and consoles), eq(7, 1))=False"
+  ]
+]

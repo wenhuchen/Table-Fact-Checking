@@ -1,0 +1,21 @@
+[
+  "2-18103106-4.html.csv", 
+  "#david gilford;[12, 1]# be 1 of 2 golfer from #england;[12, 2]# to participate in this round", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, player, david gilford), country)=england;and(eq(1, 2), eq(england, england))=False", 
+    "hop(filter_str_eq(all_rows, country, england), player)=david gilford;and(eq(1, 2), eq(david gilford, david gilford))=False", 
+    "and(and(eq(1, 2), within(all_rows, player, david gilford)), within(all_rows, player, england))=False", 
+    "and(and(eq(1, 2), within(all_rows, player, david gilford)), within(all_rows, country, england))=False", 
+    "and(and(eq(1, 2), within(all_rows, country, david gilford)), within(all_rows, player, england))=False", 
+    "and(and(eq(1, 2), within(all_rows, country, david gilford)), within(all_rows, country, england))=False", 
+    "and(and(eq(1, 2), within(all_rows, player, england)), within(all_rows, player, david gilford))=False", 
+    "and(and(eq(1, 2), within(all_rows, player, england)), within(all_rows, country, david gilford))=False", 
+    "and(and(eq(1, 2), within(all_rows, country, england)), within(all_rows, player, david gilford))=False", 
+    "and(and(eq(1, 2), within(all_rows, country, england)), within(all_rows, country, david gilford))=False", 
+    "and(and(within(all_rows, player, david gilford), within(all_rows, player, england)), eq(1, 2))=False", 
+    "and(and(within(all_rows, player, david gilford), within(all_rows, country, england)), eq(1, 2))=False", 
+    "and(and(within(all_rows, country, david gilford), within(all_rows, player, england)), eq(1, 2))=False", 
+    "and(and(within(all_rows, country, david gilford), within(all_rows, country, england)), eq(1, 2))=False"
+  ]
+]

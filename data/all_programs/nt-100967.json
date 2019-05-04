@@ -1,0 +1,16 @@
+[
+  "2-1558607-6.html.csv", 
+  "he make more #cut;[0, 6]# in the #master;[1, 0]# than the #us open;[2, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, tournament, masters tournament), tournament)=masters tournament;eq(masters tournament, us open)=False", 
+    "hop(filter_str_eq(all_rows, tournament, us open), tournament)=us open;eq(us open, masters tournament)=False", 
+    "count(filter_str_eq(all_rows, tournament, masters tournament))=1;count(filter_str_eq(all_rows, tournament, us open))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, tournament, masters tournament))=1;count(filter_str_eq(all_rows, tournament, us open))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, tournament, masters tournament))=1;count(filter_str_eq(all_rows, tournament, us open))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, tournament, masters tournament), tournament)=masters tournament;hop(filter_str_eq(all_rows, tournament, us open), tournament)=us open;eq(us open, masters tournament)=False", 
+    "hop(filter_str_eq(all_rows, tournament, masters tournament), cuts made)=5;hop(filter_str_eq(all_rows, tournament, us open), cuts made)=9;less(5, 9);less(5, 9)=True", 
+    "hop(filter_str_eq(all_rows, tournament, masters tournament), cuts made)=5;hop(filter_str_eq(all_rows, tournament, us open), cuts made)=9;eq(5, 9)=False", 
+    "hop(filter_str_eq(all_rows, tournament, masters tournament), cuts made)=5;hop(filter_str_eq(all_rows, tournament, us open), cuts made)=9;greater(5, 9)=False"
+  ]
+]

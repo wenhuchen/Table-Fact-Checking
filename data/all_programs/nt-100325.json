@@ -1,0 +1,9 @@
+[
+  "1-18894744-6.html.csv", 
+  "#mcwilliams - franklin (12);[9, 5]# do the #high rebound;[0, 5]# in the #game;[0, 0]# with a #20 - 6;[10, 8]# #record;[0, 8]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, record, 20 - 6), high rebounds)=mcwilliams - franklin (14);eq(mcwilliams - franklin (14), mcwilliams - franklin (12))=False", 
+    "count(filter_str_eq(all_rows, high rebounds, mcwilliams - franklin (12)))=2;count(filter_str_eq(all_rows, record, 20 - 6))=1;eq(2, 1)=False"
+  ]
+]

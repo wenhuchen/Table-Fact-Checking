@@ -1,0 +1,27 @@
+[
+  "2-11621915-3.html.csv", 
+  "#jim colbert;[1, 1]# have the least amount of #win;[0, 5]# and least total #earnings;[0, 3]#", 
+  0, 
+  [
+    "hop(argmax(all_rows, earnings), player)=jim colbert;eq(jim colbert, jim colbert)=True", 
+    "hop(argmin(all_rows, wins), player)=isao aoki;eq(isao aoki, jim colbert)=False", 
+    "hop(argmin(all_rows, earnings), player)=isao aoki;eq(isao aoki, jim colbert)=False", 
+    "hop(argmax(argmax(all_rows, wins), earnings), player)=jim colbert;eq(jim colbert, jim colbert)=True", 
+    "hop(argmin(argmax(all_rows, wins), earnings), player)=bob murphy;eq(bob murphy, jim colbert)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), player)=jim colbert;eq(jim colbert, jim colbert)=True", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, player, jim colbert))=1;eq(5, 1)=False", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, player, jim colbert))=1;greater(5, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), wins)=4;min(all_rows, wins)=1;eq(4, 1)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), wins)=4;min(all_rows, wins)=1;greater(4, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), wins)=4;sum(all_rows, wins)=14;eq(4, 14)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), wins)=4;sum(all_rows, wins)=14;greater(4, 14)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), wins)=4;max(all_rows, wins)=4;eq(4, 4)=True", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), wins)=4;max(all_rows, wins)=4;greater(4, 4)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), earnings)=1444386;min(all_rows, earnings)=1041766;eq(1444386, 1041766)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), earnings)=1444386;min(all_rows, earnings)=1041766;greater(1444386, 1041766)=True", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), earnings)=1444386;sum(all_rows, earnings)=6563068;eq(1444386, 6563068)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), earnings)=1444386;sum(all_rows, earnings)=6563068;greater(1444386, 6563068)=False", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), earnings)=1444386;max(all_rows, earnings)=1444386;eq(1444386, 1444386)=True", 
+    "hop(filter_str_eq(all_rows, player, jim colbert), earnings)=1444386;max(all_rows, earnings)=1444386;greater(1444386, 1444386)=False"
+  ]
+]

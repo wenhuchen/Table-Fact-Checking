@@ -1,0 +1,13 @@
+[
+  "2-10809157-1.html.csv", 
+  "more people watch the game in #moorabbin;[3, 4]# ovum than in #glenferrie oval;[2, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, venue, moorabbin oval), venue)=moorabbin oval;eq(moorabbin oval, glenferrie oval)=False", 
+    "hop(filter_str_eq(all_rows, venue, glenferrie oval), venue)=glenferrie oval;eq(glenferrie oval, moorabbin oval)=False", 
+    "count(filter_str_eq(all_rows, venue, moorabbin oval))=1;count(filter_str_eq(all_rows, venue, glenferrie oval))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, venue, moorabbin oval))=1;count(filter_str_eq(all_rows, venue, glenferrie oval))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, venue, moorabbin oval))=1;count(filter_str_eq(all_rows, venue, glenferrie oval))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, venue, moorabbin oval), venue)=moorabbin oval;hop(filter_str_eq(all_rows, venue, glenferrie oval), venue)=glenferrie oval;eq(glenferrie oval, moorabbin oval)=False"
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  "2-1851722-38.html.csv", 
+  "#mass effect 2;[5, 1]# be a #third - person shooter;[4, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, game, mass effect 2), genre)=rpg;eq(rpg, third - person shooter)=False", 
+    "hop(filter_str_eq(all_rows, genre, third - person shooter), game)=uncharted 2: among thieves;eq(uncharted 2: among thieves, mass effect 2)=False", 
+    "count(filter_str_eq(all_rows, game, mass effect 2))=1;count(filter_str_eq(all_rows, genre, third - person shooter))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, game, mass effect 2), game)=mass effect 2;hop(filter_str_eq(all_rows, genre, third - person shooter), game)=uncharted 2: among thieves;eq(uncharted 2: among thieves, mass effect 2)=False", 
+    "hop(filter_str_eq(all_rows, game, mass effect 2), genre)=rpg;hop(filter_str_eq(all_rows, genre, third - person shooter), genre)=third - person shooter;eq(third - person shooter, rpg)=False"
+  ]
+]

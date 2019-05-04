@@ -1,0 +1,24 @@
+[
+  "1-14984078-1.html.csv", 
+  "on #december;[13, 1]# 2nd #, 1962;[4, 1]# it be #week;[0, 0]# #12;[12, 0]# of the season", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, december 8 , 1962), date)=december 8 , 1962;and(within(all_rows, week, 12), eq(december 8 , 1962, october 7 , 1962))=False", 
+    "hop(filter_str_eq(all_rows, date, october 7 , 1962), date)=october 7 , 1962;and(within(all_rows, week, 12), eq(october 7 , 1962, december 8 , 1962))=False", 
+    "and(and(within(all_rows, week, 12), within(all_rows, date, december 8 , 1962)), within(all_rows, date, october 7 , 1962))=True", 
+    "and(and(within(all_rows, week, 12), within(all_rows, date, october 7 , 1962)), within(all_rows, date, december 8 , 1962))=True", 
+    "hop(filter_str_eq(all_rows, date, december 8 , 1962), date)=december 8 , 1962;and(within(filter_str_eq(all_rows, date, december 8 , 1962), week, 12), eq(december 8 , 1962, october 7 , 1962))=False", 
+    "hop(filter_str_eq(all_rows, date, december 8 , 1962), week)=13;and(within(all_rows, date, october 7 , 1962), eq(12, 13))=False", 
+    "hop(filter_str_eq(all_rows, date, december 8 , 1962), week)=13;and(within(filter_str_eq(all_rows, date, december 8 , 1962), date, october 7 , 1962), eq(12, 13))=False", 
+    "hop(filter_str_eq(all_rows, date, october 7 , 1962), date)=october 7 , 1962;and(within(filter_str_eq(all_rows, date, october 7 , 1962), week, 12), eq(october 7 , 1962, december 8 , 1962))=False", 
+    "hop(filter_str_eq(all_rows, date, october 7 , 1962), week)=4;and(within(all_rows, date, december 8 , 1962), eq(12, 4))=False", 
+    "hop(filter_str_eq(all_rows, date, october 7 , 1962), week)=4;and(within(filter_str_eq(all_rows, date, october 7 , 1962), date, december 8 , 1962), eq(12, 4))=False", 
+    "hop(filter_eq(all_rows, week, 12), date)=december 2 , 1962;and(within(all_rows, date, december 8 , 1962), eq(december 2 , 1962, october 7 , 1962))=False", 
+    "hop(filter_eq(all_rows, week, 12), date)=december 2 , 1962;and(within(all_rows, date, october 7 , 1962), eq(december 2 , 1962, december 8 , 1962))=False", 
+    "hop(filter_eq(all_rows, week, 12), date)=december 2 , 1962;and(within(filter_eq(all_rows, week, 12), date, december 8 , 1962), eq(december 2 , 1962, october 7 , 1962))=False", 
+    "hop(filter_eq(all_rows, week, 12), date)=december 2 , 1962;and(within(filter_eq(all_rows, week, 12), date, october 7 , 1962), eq(december 2 , 1962, december 8 , 1962))=False", 
+    "and(and(within(all_rows, date, december 8 , 1962), within(all_rows, date, october 7 , 1962)), within(all_rows, week, 12))=True", 
+    "hop(filter_str_eq(all_rows, date, december 8 , 1962), date)=december 8 , 1962;hop(filter_str_eq(all_rows, date, december 8 , 1962), week)=13;and(eq(december 8 , 1962, october 7 , 1962), eq(12, 13))=False", 
+    "hop(filter_str_eq(all_rows, date, october 7 , 1962), date)=october 7 , 1962;hop(filter_str_eq(all_rows, date, october 7 , 1962), week)=4;and(eq(october 7 , 1962, december 8 , 1962), eq(12, 4))=False"
+  ]
+]

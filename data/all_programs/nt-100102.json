@@ -1,0 +1,10 @@
+[
+  "1-11562143-1.html.csv", 
+  "there be #9.82;[7, 7]# #us viewer;[0, 7]# (millions) that watch #dead be dead;[12, 2]# on #march 25 , 2009;[10, 6]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, title, dead is dead), original air date)=april 8 , 2009;hop(filter_str_eq(all_rows, title, dead is dead), us viewers (million))=8.29;and(eq(april 8 , 2009, march 25 , 2009), eq(9.82, 8.29))=False", 
+    "hop(filter_str_eq(all_rows, original air date, march 25 , 2009), title)=he 's our you;hop(filter_str_eq(all_rows, original air date, march 25 , 2009), us viewers (million))=8.82;and(eq(he 's our you, dead is dead), eq(9.82, 8.82))=False", 
+    "hop(filter_eq(all_rows, us viewers (million), 9.82), title)=the life and death of jeremy bentham;hop(filter_eq(all_rows, us viewers (million), 9.82), original air date)=february 25 , 2009;and(eq(the life and death of jeremy bentham, dead is dead), eq(february 25 , 2009, march 25 , 2009))=False"
+  ]
+]

@@ -1,0 +1,20 @@
+[
+  "2-18662679-8.html.csv", 
+  "#rank;[0, 0]# be #1;[1, 0]# when #note;[0, 4]# be #fa;[3, 4]#", 
+  1, 
+  [
+    "hop(filter_eq(all_rows, rank, 1), notes)=fa;eq(fa, fa)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, notes, fa), rank, 1), rank)=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, rank, 1), notes, fa), rank)=1;eq(1, 1)=True", 
+    "hop(filter_eq(filter_eq(all_rows, rank, 1), rank, 1), notes)=fa;eq(fa, fa)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, notes, fa), rank, 1), notes)=fa;eq(fa, fa)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, rank, 1), notes, fa), notes)=fa;eq(fa, fa)=True", 
+    "count(filter_str_eq(all_rows, notes, fa))=3;count(filter_eq(all_rows, rank, 1))=1;eq(3, 1)=False", 
+    "count(all_rows)=6;count(filter_eq(filter_str_eq(all_rows, notes, fa), rank, 1))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, notes, fa))=3;count(filter_eq(filter_str_eq(all_rows, notes, fa), rank, 1))=1;eq(3, 1)=False", 
+    "count(all_rows)=6;count(filter_str_eq(filter_eq(all_rows, rank, 1), notes, fa))=1;eq(6, 1)=False", 
+    "count(filter_eq(all_rows, rank, 1))=1;count(filter_str_eq(filter_eq(all_rows, rank, 1), notes, fa))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, rank, 1), notes)=fa;hop(filter_str_eq(filter_eq(all_rows, rank, 1), notes, fa), notes)=fa;eq(fa, fa)=True", 
+    "hop(filter_eq(all_rows, rank, 1), rank)=1;hop(filter_str_eq(filter_eq(all_rows, rank, 1), notes, fa), rank)=1;eq(1, 1)=True"
+  ]
+]

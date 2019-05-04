@@ -1,0 +1,11 @@
+[
+  "2-1380811-1.html.csv", 
+  "when the #result;[0, 3]# be #2 - 2 ,;[1, 2]# the #score;[0, 2]# be #2 - 2;[1, 2]# at #podgorica city stadium , podgorica , montenegro;[5, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 2 - 1), score, 2 - 1), venue)=podgorica city stadium , podgorica , montenegro;eq(podgorica city stadium , podgorica , montenegro, podgorica city stadium , podgorica , montenegro)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 2 - 1), venue, podgorica city stadium , podgorica , montenegro), score)=2 - 1;eq(2 - 1, 2 - 1)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, venue, podgorica city stadium , podgorica , montenegro), score, 2 - 1), score)=2 - 1;eq(2 - 1, 2 - 1)=True", 
+    "hop(filter_str_eq(all_rows, score, 2 - 1), score)=2 - 1;hop(filter_str_eq(all_rows, score, 2 - 1), venue)=podgorica city stadium , podgorica , montenegro;and(eq(2 - 1, 2 - 1), eq(podgorica city stadium , podgorica , montenegro, podgorica city stadium , podgorica , montenegro))=True"
+  ]
+]

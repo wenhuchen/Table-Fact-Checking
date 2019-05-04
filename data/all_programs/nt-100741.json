@@ -1,0 +1,30 @@
+[
+  "2-12378355-3.html.csv", 
+  "#put the blame on me;[4, 4]# and #never end;[28, 4]# both have a time of 1:50", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;eq(put the blame on me, never ending)=False", 
+    "hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;eq(never ending, put the blame on me)=False", 
+    "and(within(all_rows, song title, put the blame on me), within(all_rows, song title, never ending))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, song title, put the blame on me), song title, put the blame on me), song title)=put the blame on me;eq(put the blame on me, never ending)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, song title, never ending), song title, never ending), song title)=never ending;eq(never ending, put the blame on me)=False", 
+    "count(filter_str_eq(all_rows, song title, put the blame on me))=1;count(filter_str_eq(all_rows, song title, never ending))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;eq(never ending, put the blame on me)=False", 
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;and(within(all_rows, song title, never ending), eq(put the blame on me, put the blame on me))=True", 
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;and(within(all_rows, song title, put the blame on me), eq(put the blame on me, never ending))=False", 
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;and(within(filter_str_eq(all_rows, song title, put the blame on me), song title, never ending), eq(put the blame on me, put the blame on me))=False", 
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;and(within(filter_str_eq(all_rows, song title, put the blame on me), song title, put the blame on me), eq(put the blame on me, never ending))=False", 
+    "hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;and(within(all_rows, song title, put the blame on me), eq(never ending, put the blame on me))=False", 
+    "hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;and(within(filter_str_eq(all_rows, song title, never ending), song title, put the blame on me), eq(never ending, put the blame on me))=False", 
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;and(within(all_rows, song title, never ending), eq(put the blame on me, never ending))=False", 
+    "hop(filter_str_eq(all_rows, song title, put the blame on me), song title)=put the blame on me;and(within(filter_str_eq(all_rows, song title, put the blame on me), song title, never ending), eq(put the blame on me, never ending))=False", 
+    "hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;and(within(all_rows, song title, put the blame on me), eq(never ending, never ending))=True", 
+    "hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;and(within(all_rows, song title, never ending), eq(never ending, put the blame on me))=False", 
+    "hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;and(within(filter_str_eq(all_rows, song title, never ending), song title, put the blame on me), eq(never ending, never ending))=False", 
+    "hop(filter_str_eq(all_rows, song title, never ending), song title)=never ending;and(within(filter_str_eq(all_rows, song title, never ending), song title, never ending), eq(never ending, put the blame on me))=False", 
+    "count(all_rows)=32;count(filter_str_eq(all_rows, song title, put the blame on me))=1;and(within(all_rows, song title, never ending), eq(32, 1))=False", 
+    "count(all_rows)=32;count(filter_str_eq(all_rows, song title, put the blame on me))=1;and(within(filter_str_eq(all_rows, song title, put the blame on me), song title, never ending), eq(32, 1))=False", 
+    "count(all_rows)=32;count(filter_str_eq(all_rows, song title, never ending))=1;and(within(all_rows, song title, put the blame on me), eq(32, 1))=False", 
+    "count(all_rows)=32;count(filter_str_eq(all_rows, song title, never ending))=1;and(within(filter_str_eq(all_rows, song title, never ending), song title, put the blame on me), eq(32, 1))=False"
+  ]
+]

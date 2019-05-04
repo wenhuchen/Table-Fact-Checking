@@ -1,0 +1,18 @@
+[
+  "2-10711725-1.html.csv", 
+  "the #fcc;[2, 7]# contain more #info;[0, 7]# on all the station list", 
+  1, 
+  [
+    "all_eq(filter_str_eq(all_rows, fcc info, fcc), fcc info, fcc)=True", 
+    "and(all_eq(all_rows, fcc info, fcc), within(all_rows, fcc info, fcc))=True", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, fcc info, fcc))=7;less(7, 7);less(7, 7)=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, fcc info, fcc))=7;eq(7, 7)=True", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, fcc info, fcc))=7;greater(7, 7)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, fcc info, fcc), fcc info, fcc))=7;less(7, 7);less(7, 7)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, fcc info, fcc), fcc info, fcc))=7;eq(7, 7)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, fcc info, fcc), fcc info, fcc))=7;greater(7, 7)=False", 
+    "count(filter_str_eq(all_rows, fcc info, fcc))=7;count(filter_str_eq(filter_str_eq(all_rows, fcc info, fcc), fcc info, fcc))=7;less(7, 7);less(7, 7)=False", 
+    "count(filter_str_eq(all_rows, fcc info, fcc))=7;count(filter_str_eq(filter_str_eq(all_rows, fcc info, fcc), fcc info, fcc))=7;eq(7, 7)=True", 
+    "count(filter_str_eq(all_rows, fcc info, fcc))=7;count(filter_str_eq(filter_str_eq(all_rows, fcc info, fcc), fcc info, fcc))=7;greater(7, 7)=False"
+  ]
+]

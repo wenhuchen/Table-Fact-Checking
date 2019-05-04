@@ -1,0 +1,11 @@
+[
+  "1-22034853-1.html.csv", 
+  "#dans la ville blanche;[12, 2]# #be the;[10, 1]# #title;[0, 2]# for 1 #film;[0, 1]#", 
+  1, 
+  [
+    "count(all_rows)=38;hop(filter_str_eq(all_rows, original title, dans la ville blanche), film title used in nomination)=in the white city;and(eq(1, 38), eq(in the white city, the boat is full))=False", 
+    "count(filter_str_eq(all_rows, original title, dans la ville blanche))=1;hop(filter_str_eq(all_rows, original title, dans la ville blanche), film title used in nomination)=in the white city;and(eq(1, 1), eq(in the white city, the boat is full))=False", 
+    "count(all_rows)=38;hop(filter_str_eq(all_rows, film title used in nomination, the boat is full), original title)=das boot ist voll;and(eq(1, 38), eq(das boot ist voll, dans la ville blanche))=False", 
+    "count(filter_str_eq(all_rows, film title used in nomination, the boat is full))=1;hop(filter_str_eq(all_rows, film title used in nomination, the boat is full), original title)=das boot ist voll;and(eq(1, 1), eq(das boot ist voll, dans la ville blanche))=False"
+  ]
+]

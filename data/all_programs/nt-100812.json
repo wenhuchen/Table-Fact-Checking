@@ -1,0 +1,19 @@
+[
+  "2-12838913-6.html.csv", 
+  "player #lewis edge;[34, 0]# , #vincent fernandez;[30, 0]# , and #gareth farrelly;[29, 0]# all have #3;[28, 5]# #league;[0, 1]# goal", 
+  0, 
+  [
+    "and(all_eq(filter_str_eq(all_rows, name, lewis edge), total, 3), all_eq(filter_str_eq(all_rows, name, vincent fernandez), name, gareth farrelly))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, lewis edge), total, 3), all_eq(filter_str_eq(all_rows, name, gareth farrelly), name, vincent fernandez))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, lewis edge), name, vincent fernandez), all_eq(filter_str_eq(all_rows, name, gareth farrelly), total, 3))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, lewis edge), name, vincent fernandez), all_eq(filter_eq(all_rows, total, 3), name, gareth farrelly))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, lewis edge), name, gareth farrelly), all_eq(filter_str_eq(all_rows, name, vincent fernandez), total, 3))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, lewis edge), name, gareth farrelly), all_eq(filter_eq(all_rows, total, 3), name, vincent fernandez))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, vincent fernandez), total, 3), all_eq(filter_str_eq(all_rows, name, gareth farrelly), name, lewis edge))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, vincent fernandez), name, lewis edge), all_eq(filter_str_eq(all_rows, name, gareth farrelly), total, 3))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, vincent fernandez), name, lewis edge), all_eq(filter_eq(all_rows, total, 3), name, gareth farrelly))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, vincent fernandez), name, gareth farrelly), all_eq(filter_eq(all_rows, total, 3), name, lewis edge))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, gareth farrelly), name, lewis edge), all_eq(filter_eq(all_rows, total, 3), name, vincent fernandez))=False", 
+    "and(all_eq(filter_str_eq(all_rows, name, gareth farrelly), name, vincent fernandez), all_eq(filter_eq(all_rows, total, 3), name, lewis edge))=False"
+  ]
+]

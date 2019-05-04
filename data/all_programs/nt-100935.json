@@ -1,0 +1,11 @@
+[
+  "1-12886178-4.html.csv", 
+  "#croesyceiliog rfc;[5, 0]# have fifty 8 #point;[0, 11]# total", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, club, croesyceiliog rfc))=1;eq(8, 1)=False", 
+    "count(all_rows)=13;add(8, 13)=21;count(filter_str_eq(all_rows, club, croesyceiliog rfc))=1;eq(21, 1)=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, club, croesyceiliog rfc))=1;add(8, 1)=9;eq(13, 9)=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, club, croesyceiliog rfc))=1;add(13, 1)=14;eq(8, 14)=False"
+  ]
+]

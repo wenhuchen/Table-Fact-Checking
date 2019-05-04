@@ -1,0 +1,25 @@
+[
+  "1-16577990-1.html.csv", 
+  "the #central forest reserve;[0, 0]# of #itwara;[8, 0]# be #87;[8, 1]# sq #km;[0, 1]#", 
+  1, 
+  [
+    "and(within(all_rows, size in km square, 87), within(all_rows, central forest reserve, itwara))=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, itwara), size in km square)=87;eq(87, 87)=True", 
+    "hop(filter_eq(all_rows, size in km square, 87), central forest reserve)=itwara;eq(itwara, itwara)=True", 
+    "count(filter_str_eq(all_rows, central forest reserve, itwara))=1;count(filter_eq(all_rows, size in km square, 87))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, itwara), central forest reserve)=itwara;hop(filter_eq(all_rows, size in km square, 87), central forest reserve)=itwara;eq(itwara, itwara)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, itwara), size in km square)=87;hop(filter_eq(all_rows, size in km square, 87), size in km square)=87;eq(87, 87)=True", 
+    "count(all_rows)=9;count(filter_eq(filter_str_eq(all_rows, central forest reserve, itwara), size in km square, 87))=1;eq(9, 1)=False", 
+    "count(filter_str_eq(all_rows, central forest reserve, itwara))=1;count(filter_eq(filter_str_eq(all_rows, central forest reserve, itwara), size in km square, 87))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, itwara), central forest reserve)=itwara;hop(filter_eq(filter_str_eq(all_rows, central forest reserve, itwara), size in km square, 87), central forest reserve)=itwara;eq(itwara, itwara)=True", 
+    "hop(filter_str_eq(all_rows, central forest reserve, itwara), size in km square)=87;hop(filter_eq(filter_str_eq(all_rows, central forest reserve, itwara), size in km square, 87), size in km square)=87;eq(87, 87)=True", 
+    "count(all_rows)=9;count(filter_str_eq(filter_eq(all_rows, size in km square, 87), central forest reserve, itwara))=1;eq(9, 1)=False", 
+    "count(filter_eq(all_rows, size in km square, 87))=1;count(filter_str_eq(filter_eq(all_rows, size in km square, 87), central forest reserve, itwara))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, size in km square, 87), central forest reserve)=itwara;hop(filter_str_eq(filter_eq(all_rows, size in km square, 87), central forest reserve, itwara), central forest reserve)=itwara;eq(itwara, itwara)=True", 
+    "hop(filter_eq(all_rows, size in km square, 87), size in km square)=87;hop(filter_str_eq(filter_eq(all_rows, size in km square, 87), central forest reserve, itwara), size in km square)=87;eq(87, 87)=True", 
+    "count(all_rows)=9;count(filter_str_eq(all_rows, central forest reserve, itwara))=1;and(within(all_rows, size in km square, 87), eq(9, 1))=False", 
+    "count(all_rows)=9;count(filter_str_eq(all_rows, central forest reserve, itwara))=1;and(within(filter_str_eq(all_rows, central forest reserve, itwara), size in km square, 87), eq(9, 1))=False", 
+    "count(all_rows)=9;count(filter_eq(all_rows, size in km square, 87))=1;and(within(all_rows, central forest reserve, itwara), eq(9, 1))=False", 
+    "count(all_rows)=9;count(filter_eq(all_rows, size in km square, 87))=1;and(within(filter_eq(all_rows, size in km square, 87), central forest reserve, itwara), eq(9, 1))=False"
+  ]
+]

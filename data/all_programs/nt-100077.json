@@ -1,0 +1,9 @@
+[
+  "1-1341568-6.html.csv", 
+  "there be 1 #incumbent;[0, 1]# who represent #district;[0, 0]# #california 34;[9, 0]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, district, california 34))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(filter_str_eq(all_rows, district, california 34), district, california 34))=1;eq(1, 1)=True"
+  ]
+]

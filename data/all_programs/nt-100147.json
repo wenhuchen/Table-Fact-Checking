@@ -1,0 +1,12 @@
+[
+  "2-1360997-1.html.csv", 
+  "both of lonhro 's win be in #2001;[5, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, 28 jul 2001), date)=28 jul 2001;eq(28 jul 2001, 28 jul 2001)=True", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, date, 28 jul 2001))=1;eq(5, 1)=False", 
+    "count(all_rows)=5;count(filter_str_eq(filter_str_eq(all_rows, date, 28 jul 2001), date, 28 jul 2001))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, date, 28 jul 2001))=1;count(filter_str_eq(filter_str_eq(all_rows, date, 28 jul 2001), date, 28 jul 2001))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, 28 jul 2001), date)=28 jul 2001;hop(filter_str_eq(filter_str_eq(all_rows, date, 28 jul 2001), date, 28 jul 2001), date)=28 jul 2001;eq(28 jul 2001, 28 jul 2001)=True"
+  ]
+]

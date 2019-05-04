@@ -1,0 +1,15 @@
+[
+  "2-1126627-2.html.csv", 
+  "the #canadian gp;[8, 2]# take place less than a month before the #german gp;[12, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, grand prix, canadian gp), grand prix)=canadian gp;eq(canadian gp, german gp)=False", 
+    "hop(filter_str_eq(all_rows, grand prix, german gp), grand prix)=german gp;eq(german gp, canadian gp)=False", 
+    "next(filter_str_eq(all_rows, grand prix, canadian gp));hop(next(filter_str_eq(all_rows, grand prix, canadian gp)), grand prix)=european gp;eq(european gp, german gp)=False", 
+    "next(filter_str_eq(all_rows, grand prix, german gp));hop(next(filter_str_eq(all_rows, grand prix, german gp)), grand prix)=british gp;eq(british gp, canadian gp)=False", 
+    "count(filter_str_eq(all_rows, grand prix, canadian gp))=1;count(filter_str_eq(all_rows, grand prix, german gp))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, grand prix, canadian gp))=1;count(filter_str_eq(all_rows, grand prix, german gp))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, grand prix, canadian gp))=1;count(filter_str_eq(all_rows, grand prix, german gp))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, grand prix, canadian gp), grand prix)=canadian gp;hop(filter_str_eq(all_rows, grand prix, german gp), grand prix)=german gp;eq(german gp, canadian gp)=False"
+  ]
+]

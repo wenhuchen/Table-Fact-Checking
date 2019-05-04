@@ -1,0 +1,29 @@
+[
+  "2-18501840-2.html.csv", 
+  "#pete tucci;[1, 1]# be from #north carolina state university;[2, 4]# while #matt mcclendon;[3, 1]# be from #dr phillips hs (orlando , fl);[3, 4]#", 
+  0, 
+  [
+    "and(all_eq(all_rows, player, pete tucci), all_eq(filter_str_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)), school, north carolina state university))=False", 
+    "and(all_eq(all_rows, player, pete tucci), all_eq(filter_str_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon), school, north carolina state university))=False", 
+    "and(all_eq(all_rows, school, north carolina state university), all_eq(filter_str_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)), player, pete tucci))=False", 
+    "and(all_eq(all_rows, school, north carolina state university), all_eq(filter_str_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon), player, pete tucci))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, pete tucci), school, north carolina state university), all_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, pete tucci), school, north carolina state university), all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, pete tucci), player, matt mcclendon), all_eq(filter_str_eq(all_rows, school, north carolina state university), school, dr phillips hs (orlando , fl)))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, pete tucci), player, matt mcclendon), all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), school, north carolina state university))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, pete tucci), school, dr phillips hs (orlando , fl)), all_eq(filter_str_eq(all_rows, school, north carolina state university), player, matt mcclendon))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, pete tucci), school, dr phillips hs (orlando , fl)), all_eq(filter_str_eq(all_rows, player, matt mcclendon), school, north carolina state university))=False", 
+    "and(all_eq(filter_str_eq(all_rows, school, north carolina state university), player, pete tucci), all_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)))=False", 
+    "and(all_eq(filter_str_eq(all_rows, school, north carolina state university), player, pete tucci), all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon))=False", 
+    "and(all_eq(filter_str_eq(all_rows, school, north carolina state university), player, matt mcclendon), all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, pete tucci))=False", 
+    "and(all_eq(filter_str_eq(all_rows, school, north carolina state university), school, dr phillips hs (orlando , fl)), all_eq(filter_str_eq(all_rows, player, matt mcclendon), player, pete tucci))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, matt mcclendon), player, pete tucci), all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), school, north carolina state university))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, matt mcclendon), player, pete tucci), all_eq(filter_str_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)), school, north carolina state university))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, matt mcclendon), school, north carolina state university), all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, pete tucci))=False", 
+    "and(all_eq(filter_str_eq(all_rows, player, matt mcclendon), school, north carolina state university), all_eq(filter_str_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)), player, pete tucci))=False", 
+    "and(all_eq(filter_str_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)), player, pete tucci), all_eq(filter_str_eq(filter_str_eq(all_rows, player, matt mcclendon), school, dr phillips hs (orlando , fl)), school, north carolina state university))=False", 
+    "and(all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, pete tucci), all_eq(filter_str_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon), school, north carolina state university))=False", 
+    "and(all_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), school, north carolina state university), all_eq(filter_str_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon), player, pete tucci))=False", 
+    "and(all_eq(filter_str_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon), player, pete tucci), all_eq(filter_str_eq(filter_str_eq(all_rows, school, dr phillips hs (orlando , fl)), player, matt mcclendon), school, north carolina state university))=False"
+  ]
+]

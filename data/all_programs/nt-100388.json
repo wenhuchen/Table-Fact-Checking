@@ -1,0 +1,24 @@
+[
+  "2-10806592-8.html.csv", 
+  "match by #essendon;[2, 0]# and #south melbourne;[5, 0]# have #crowd;[0, 5]# of #19000;[2, 5]#", 
+  1, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, home team, essendon), crowd, 19000), home team)=essendon;eq(essendon, south melbourne)=False", 
+    "hop(filter_eq(filter_str_eq(all_rows, home team, south melbourne), crowd, 19000), home team)=south melbourne;eq(south melbourne, essendon)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, crowd, 19000), home team, essendon), home team)=essendon;eq(essendon, south melbourne)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, crowd, 19000), home team, south melbourne), home team)=south melbourne;eq(south melbourne, essendon)=False", 
+    "hop(filter_str_eq(all_rows, home team, essendon), home team)=essendon;and(within(all_rows, crowd, 19000), eq(essendon, south melbourne))=False", 
+    "hop(filter_str_eq(all_rows, home team, south melbourne), home team)=south melbourne;and(within(all_rows, crowd, 19000), eq(south melbourne, essendon))=False", 
+    "and(and(within(all_rows, crowd, 19000), within(all_rows, home team, essendon)), within(all_rows, home team, south melbourne))=True", 
+    "and(and(within(all_rows, crowd, 19000), within(all_rows, home team, south melbourne)), within(all_rows, home team, essendon))=True", 
+    "hop(filter_str_eq(all_rows, home team, essendon), home team)=essendon;and(within(filter_str_eq(all_rows, home team, essendon), crowd, 19000), eq(essendon, south melbourne))=False", 
+    "hop(filter_str_eq(all_rows, home team, essendon), crowd)=19000;and(within(all_rows, home team, south melbourne), eq(19000, 19000))=True", 
+    "hop(filter_str_eq(all_rows, home team, essendon), crowd)=19000;and(within(filter_str_eq(all_rows, home team, essendon), home team, south melbourne), eq(19000, 19000))=False", 
+    "hop(filter_str_eq(all_rows, home team, south melbourne), home team)=south melbourne;and(within(filter_str_eq(all_rows, home team, south melbourne), crowd, 19000), eq(south melbourne, essendon))=False", 
+    "hop(filter_str_eq(all_rows, home team, south melbourne), crowd)=19000;and(within(all_rows, home team, essendon), eq(19000, 19000))=True", 
+    "hop(filter_str_eq(all_rows, home team, south melbourne), crowd)=19000;and(within(filter_str_eq(all_rows, home team, south melbourne), home team, essendon), eq(19000, 19000))=False", 
+    "and(and(within(all_rows, home team, essendon), within(all_rows, home team, south melbourne)), within(all_rows, crowd, 19000))=True", 
+    "hop(filter_str_eq(all_rows, home team, essendon), home team)=essendon;hop(filter_str_eq(all_rows, home team, essendon), crowd)=19000;and(eq(essendon, south melbourne), eq(19000, 19000))=False", 
+    "hop(filter_str_eq(all_rows, home team, south melbourne), home team)=south melbourne;hop(filter_str_eq(all_rows, home team, south melbourne), crowd)=19000;and(eq(south melbourne, essendon), eq(19000, 19000))=False"
+  ]
+]

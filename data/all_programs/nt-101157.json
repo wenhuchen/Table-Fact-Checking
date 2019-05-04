@@ -1,0 +1,31 @@
+[
+  "2-11512776-2.html.csv", 
+  "the most run #score;[0, 2]# by the rockies in a game be #11;[11, 2]#", 
+  1, 
+  [
+    "hop(last(all_rows), score)=7 - 2;eq(7 - 2, 11 - 10)=False", 
+    "hop(first(all_rows), score)=8 - 2;eq(8 - 2, 11 - 10)=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, score, 11 - 10))=1;less(19, 1);less(19, 1)=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, score, 11 - 10))=1;eq(19, 1)=False", 
+    "hop(last(last(all_rows)), score)=7 - 2;eq(7 - 2, 11 - 10)=False", 
+    "hop(first(last(all_rows)), score)=7 - 2;eq(7 - 2, 11 - 10)=False", 
+    "hop(last(first(all_rows)), score)=8 - 2;eq(8 - 2, 11 - 10)=False", 
+    "hop(first(first(all_rows)), score)=8 - 2;eq(8 - 2, 11 - 10)=False", 
+    "count(all_rows)=19;count(last(filter_str_eq(all_rows, score, 11 - 10)))=1;less(19, 1);less(19, 1)=False", 
+    "count(all_rows)=19;count(last(filter_str_eq(all_rows, score, 11 - 10)))=1;eq(19, 1)=False", 
+    "count(all_rows)=19;count(first(filter_str_eq(all_rows, score, 11 - 10)))=1;less(19, 1);less(19, 1)=False", 
+    "count(all_rows)=19;count(first(filter_str_eq(all_rows, score, 11 - 10)))=1;eq(19, 1)=False", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(last(all_rows))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(last(all_rows))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(last(filter_str_eq(all_rows, score, 11 - 10)))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(last(filter_str_eq(all_rows, score, 11 - 10)))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(first(all_rows))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(first(all_rows))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(first(filter_str_eq(all_rows, score, 11 - 10)))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, score, 11 - 10))=1;count(first(filter_str_eq(all_rows, score, 11 - 10)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, score, 11 - 10), score)=11 - 10;hop(last(all_rows), score)=7 - 2;eq(7 - 2, 11 - 10)=False", 
+    "hop(filter_str_eq(all_rows, score, 11 - 10), score)=11 - 10;hop(last(filter_str_eq(all_rows, score, 11 - 10)), score)=11 - 10;eq(11 - 10, 11 - 10)=True", 
+    "hop(filter_str_eq(all_rows, score, 11 - 10), score)=11 - 10;hop(first(all_rows), score)=8 - 2;eq(8 - 2, 11 - 10)=False", 
+    "hop(filter_str_eq(all_rows, score, 11 - 10), score)=11 - 10;hop(first(filter_str_eq(all_rows, score, 11 - 10)), score)=11 - 10;eq(11 - 10, 11 - 10)=True"
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  "2-1187902-1.html.csv", 
+  "#le bigotes;[11, 1]# be #track;[0, 0]# number #3;[3, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, title, les bigotes), track)=11;eq(3, 11)=False", 
+    "hop(filter_eq(all_rows, track, 3), title)=la parlote;eq(la parlote, les bigotes)=False", 
+    "count(filter_str_eq(all_rows, title, les bigotes))=1;count(filter_eq(all_rows, track, 3))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, title, les bigotes), title)=les bigotes;hop(filter_eq(all_rows, track, 3), title)=la parlote;eq(la parlote, les bigotes)=False", 
+    "hop(filter_str_eq(all_rows, title, les bigotes), track)=11;hop(filter_eq(all_rows, track, 3), track)=3;eq(11, 3)=False"
+  ]
+]

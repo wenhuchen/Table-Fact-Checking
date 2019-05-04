@@ -1,0 +1,9 @@
+[
+  "2-12378355-3.html.csv", 
+  "only 3 #track;[0, 0]# have a #catalogue;[0, 2]# value of #lsp 3450;[13, 2]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, catalogue, lsp 3450))=3;eq(3, 3)=True", 
+    "count(all_rows)=32;and(within(all_rows, catalogue, lsp 3450), eq(3, 32))=False"
+  ]
+]

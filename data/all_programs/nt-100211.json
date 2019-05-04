@@ -1,0 +1,14 @@
+[
+  "2-1204658-7.html.csv", 
+  "#richmond;[1, 0]# have a lower #home team score;[0, 1]# than #university;[3, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, home team, richmond), home team)=richmond;eq(richmond, university)=False", 
+    "hop(filter_str_eq(all_rows, home team, university), home team)=university;eq(university, richmond)=False", 
+    "count(filter_str_eq(all_rows, home team, richmond))=1;count(filter_str_eq(all_rows, home team, university))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, home team, richmond))=1;count(filter_str_eq(all_rows, home team, university))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, home team, richmond))=1;count(filter_str_eq(all_rows, home team, university))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, home team, richmond), home team score)=9.9 (63);hop(filter_str_eq(all_rows, home team, university), home team score)=9.7 (61);eq(9.7 (61), 9.9 (63))=False", 
+    "hop(filter_str_eq(all_rows, home team, richmond), home team)=richmond;hop(filter_str_eq(all_rows, home team, university), home team)=university;eq(university, richmond)=False"
+  ]
+]

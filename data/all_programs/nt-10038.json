@@ -1,0 +1,20 @@
+[
+  "2-11945691-4.html.csv", 
+  "on the #date;[0, 0]# #december;[3, 0]# 5th the #score;[0, 2]# be #2 - 12;[3, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, december 5), score)=2 - 12;eq(2 - 12, 2 - 12)=True", 
+    "hop(filter_str_eq(all_rows, score, 2 - 12), date)=december 5;eq(december 5, december 5)=True", 
+    "count(filter_str_eq(all_rows, date, december 5))=1;count(filter_str_eq(all_rows, score, 2 - 12))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, december 5), date)=december 5;hop(filter_str_eq(all_rows, score, 2 - 12), date)=december 5;eq(december 5, december 5)=True", 
+    "hop(filter_str_eq(all_rows, date, december 5), score)=2 - 12;hop(filter_str_eq(all_rows, score, 2 - 12), score)=2 - 12;eq(2 - 12, 2 - 12)=True", 
+    "count(all_rows)=14;count(filter_str_eq(filter_str_eq(all_rows, date, december 5), score, 2 - 12))=1;eq(14, 1)=False", 
+    "count(filter_str_eq(all_rows, date, december 5))=1;count(filter_str_eq(filter_str_eq(all_rows, date, december 5), score, 2 - 12))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, december 5), date)=december 5;hop(filter_str_eq(filter_str_eq(all_rows, date, december 5), score, 2 - 12), date)=december 5;eq(december 5, december 5)=True", 
+    "hop(filter_str_eq(all_rows, date, december 5), score)=2 - 12;hop(filter_str_eq(filter_str_eq(all_rows, date, december 5), score, 2 - 12), score)=2 - 12;eq(2 - 12, 2 - 12)=True", 
+    "count(all_rows)=14;count(filter_str_eq(filter_str_eq(all_rows, score, 2 - 12), date, december 5))=1;eq(14, 1)=False", 
+    "count(filter_str_eq(all_rows, score, 2 - 12))=1;count(filter_str_eq(filter_str_eq(all_rows, score, 2 - 12), date, december 5))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, score, 2 - 12), date)=december 5;hop(filter_str_eq(filter_str_eq(all_rows, score, 2 - 12), date, december 5), date)=december 5;eq(december 5, december 5)=True", 
+    "hop(filter_str_eq(all_rows, score, 2 - 12), score)=2 - 12;hop(filter_str_eq(filter_str_eq(all_rows, score, 2 - 12), date, december 5), score)=2 - 12;eq(2 - 12, 2 - 12)=True"
+  ]
+]

@@ -1,0 +1,15 @@
+[
+  "2-18256407-2.html.csv", 
+  "at the #elgin;[7, 1]# #circuit;[0, 1]# on #august 22;[7, 2]# the #constructor;[0, 4]# be #mercedes;[7, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, circuit, elgin), date, 22 august), winning constructor)=mercedes;eq(mercedes, mercedes)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, circuit, elgin), winning constructor, mercedes), date)=22 august;eq(22 august, 22 august)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 22 august), circuit, elgin), winning constructor)=mercedes;eq(mercedes, mercedes)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 22 august), winning constructor, mercedes), circuit)=elgin;eq(elgin, elgin)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, winning constructor, mercedes), circuit, elgin), date)=22 august;eq(22 august, 22 august)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, winning constructor, mercedes), date, 22 august), circuit)=elgin;eq(elgin, elgin)=True", 
+    "hop(filter_str_eq(all_rows, circuit, elgin), winning constructor)=mercedes;hop(filter_str_eq(all_rows, circuit, elgin), date)=22 august;and(eq(mercedes, mercedes), eq(22 august, 22 august))=True", 
+    "hop(filter_str_eq(all_rows, date, 22 august), circuit)=elgin;hop(filter_str_eq(all_rows, date, 22 august), winning constructor)=mercedes;and(eq(elgin, elgin), eq(mercedes, mercedes))=True"
+  ]
+]

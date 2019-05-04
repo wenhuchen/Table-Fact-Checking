@@ -1,0 +1,20 @@
+[
+  "2-11514020-2.html.csv", 
+  "#40322;[27, 4]# be in #attendance;[0, 4]# on #may 29;[27, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, may 29), attendance)=40322;eq(40322, 40322)=True", 
+    "hop(filter_eq(all_rows, attendance, 40322), date)=may 29;eq(may 29, may 29)=True", 
+    "count(filter_str_eq(all_rows, date, may 29))=1;count(filter_eq(all_rows, attendance, 40322))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, may 29), date)=may 29;hop(filter_eq(all_rows, attendance, 40322), date)=may 29;eq(may 29, may 29)=True", 
+    "hop(filter_str_eq(all_rows, date, may 29), attendance)=40322;hop(filter_eq(all_rows, attendance, 40322), attendance)=40322;eq(40322, 40322)=True", 
+    "count(all_rows)=29;count(filter_eq(filter_str_eq(all_rows, date, may 29), attendance, 40322))=1;eq(29, 1)=False", 
+    "count(filter_str_eq(all_rows, date, may 29))=1;count(filter_eq(filter_str_eq(all_rows, date, may 29), attendance, 40322))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, may 29), date)=may 29;hop(filter_eq(filter_str_eq(all_rows, date, may 29), attendance, 40322), date)=may 29;eq(may 29, may 29)=True", 
+    "hop(filter_str_eq(all_rows, date, may 29), attendance)=40322;hop(filter_eq(filter_str_eq(all_rows, date, may 29), attendance, 40322), attendance)=40322;eq(40322, 40322)=True", 
+    "count(all_rows)=29;count(filter_str_eq(filter_eq(all_rows, attendance, 40322), date, may 29))=1;eq(29, 1)=False", 
+    "count(filter_eq(all_rows, attendance, 40322))=1;count(filter_str_eq(filter_eq(all_rows, attendance, 40322), date, may 29))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, attendance, 40322), date)=may 29;hop(filter_str_eq(filter_eq(all_rows, attendance, 40322), date, may 29), date)=may 29;eq(may 29, may 29)=True", 
+    "hop(filter_eq(all_rows, attendance, 40322), attendance)=40322;hop(filter_str_eq(filter_eq(all_rows, attendance, 40322), date, may 29), attendance)=40322;eq(40322, 40322)=True"
+  ]
+]

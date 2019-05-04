@@ -1,0 +1,23 @@
+[
+  "2-17325937-8.html.csv", 
+  "there be 8 #game;[0, 0]# during this period where a player have at least #10;[5, 1]# #rebound;[0, 5]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, date, february 10))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, date, february 10))=1;greater(8, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, february 10), game)=50;eq(8, 50)=False", 
+    "hop(filter_str_eq(all_rows, date, february 10), game)=50;greater(8, 50)=False", 
+    "min(all_rows, game)=46;and(eq(8, 46), within(all_rows, high rebounds, february 10))=False", 
+    "min(all_rows, game)=46;and(eq(8, 46), within(all_rows, date, february 10))=False", 
+    "min(all_rows, game)=46;and(greater(8, 46), within(all_rows, high rebounds, february 10))=False", 
+    "min(all_rows, game)=46;and(greater(8, 46), within(all_rows, date, february 10))=False", 
+    "max(all_rows, game)=57;and(eq(8, 57), within(all_rows, high rebounds, february 10))=False", 
+    "max(all_rows, game)=57;and(eq(8, 57), within(all_rows, date, february 10))=False", 
+    "max(all_rows, game)=57;and(greater(8, 57), within(all_rows, high rebounds, february 10))=False", 
+    "max(all_rows, game)=57;and(greater(8, 57), within(all_rows, date, february 10))=False", 
+    "count(all_rows)=12;and(within(all_rows, high rebounds, february 10), eq(8, 12))=False", 
+    "count(all_rows)=12;and(within(all_rows, high rebounds, february 10), greater(8, 12))=False", 
+    "count(all_rows)=12;and(within(all_rows, date, february 10), eq(8, 12))=False", 
+    "count(all_rows)=12;and(within(all_rows, date, february 10), greater(8, 12))=False"
+  ]
+]

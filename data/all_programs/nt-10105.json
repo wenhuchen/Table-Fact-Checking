@@ -1,0 +1,13 @@
+[
+  "1-26423157-2.html.csv", 
+  "#missouri;[16, 0]# and #clemson;[4, 0]# #school;[0, 0]# be both #eliminate;[0, 6]# in the #first round;[16, 6]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, school, missouri), round eliminated, first round), school)=missouri;eq(missouri, clemson)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, school, clemson), round eliminated, first round), school)=clemson;eq(clemson, missouri)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, round eliminated, first round), school, missouri), school)=missouri;eq(missouri, clemson)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, round eliminated, first round), school, clemson), school)=clemson;eq(clemson, missouri)=False", 
+    "hop(filter_str_eq(all_rows, school, missouri), school)=missouri;hop(filter_str_eq(all_rows, school, missouri), round eliminated)=first round;and(eq(missouri, clemson), eq(first round, first round))=False", 
+    "hop(filter_str_eq(all_rows, school, clemson), school)=clemson;hop(filter_str_eq(all_rows, school, clemson), round eliminated)=first round;and(eq(clemson, missouri), eq(first round, first round))=False"
+  ]
+]

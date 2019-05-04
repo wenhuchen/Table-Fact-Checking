@@ -1,0 +1,18 @@
+[
+  "2-13002617-3.html.csv", 
+  "#kamloops , bc;[14, 0]# have the highest average #high;[0, 3]# temperature in #july;[0, 4]#", 
+  1, 
+  [
+    "hop(argmax(all_rows, july (avg high degree)), city)=kamloops , bc;eq(kamloops , bc, kamloops , bc)=True", 
+    "hop(argmax(all_rows, july (avg low degree)), city)=toronto , on;eq(toronto , on, kamloops , bc)=False", 
+    "hop(argmin(all_rows, july (avg high degree)), city)=iqaluit , nu;eq(iqaluit , nu, kamloops , bc)=False", 
+    "hop(argmin(all_rows, july (avg low degree)), city)=iqaluit , nu;eq(iqaluit , nu, kamloops , bc)=False", 
+    "count(all_rows)=19;count(filter_str_eq(all_rows, city, kamloops , bc))=1;eq(19, 1)=False", 
+    "hop(filter_str_eq(all_rows, city, kamloops , bc), july (avg high degree))=84.0;avg(all_rows, july (avg high degree))=74.8263157895;eq(84.0, 74.8263157895)=False", 
+    "hop(filter_str_eq(all_rows, city, kamloops , bc), july (avg high degree))=84.0;min(all_rows, july (avg high degree))=54.1;eq(84.0, 54.1)=False", 
+    "hop(filter_str_eq(all_rows, city, kamloops , bc), july (avg high degree))=84.0;max(all_rows, july (avg high degree))=84.0;eq(84.0, 84.0)=True", 
+    "hop(filter_str_eq(all_rows, city, kamloops , bc), july (avg low degree))=57.6;avg(all_rows, july (avg low degree))=55.0842105263;eq(57.6, 55.0842105263)=False", 
+    "hop(filter_str_eq(all_rows, city, kamloops , bc), july (avg low degree))=57.6;min(all_rows, july (avg low degree))=39.4;eq(57.6, 39.4)=False", 
+    "hop(filter_str_eq(all_rows, city, kamloops , bc), july (avg low degree))=57.6;max(all_rows, july (avg low degree))=64.4;eq(57.6, 64.4)=False"
+  ]
+]

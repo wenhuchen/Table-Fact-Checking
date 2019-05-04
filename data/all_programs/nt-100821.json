@@ -1,0 +1,10 @@
+[
+  "2-17516922-2.html.csv", 
+  "#rob stone;[6, 4]# be the #pregame host;[0, 4]# in #2006;[7, 0]# when #eric wynalda and julie foudy;[6, 3]# be the #color commentator;[0, 3]#", 
+  0, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, pregame host, rob stone), year, 2006), color commentator (s))=eric wynalda and bruce arena;eq(eric wynalda and bruce arena, eric wynalda and julie foudy)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, year, 2006), pregame host, rob stone), color commentator (s))=eric wynalda and bruce arena;eq(eric wynalda and bruce arena, eric wynalda and julie foudy)=False", 
+    "hop(filter_eq(all_rows, year, 2006), pregame host)=rob stone;hop(filter_eq(all_rows, year, 2006), color commentator (s))=eric wynalda and bruce arena;and(eq(rob stone, rob stone), eq(eric wynalda and bruce arena, eric wynalda and julie foudy))=False"
+  ]
+]

@@ -1,0 +1,17 @@
+[
+  "1-22078691-2.html.csv", 
+  "the number of #series in;[0, 0]# #call of silence;[6, 2]# be #44;[20, 0]#", 
+  0, 
+  [
+    "and(within(all_rows, no in series, 44), within(all_rows, title, call of silence))=True", 
+    "hop(filter_str_eq(all_rows, title, call of silence), no in series)=30;eq(44, 30)=False", 
+    "hop(filter_eq(all_rows, no in series, 44), title)=hometown hero;eq(hometown hero, call of silence)=False", 
+    "count(filter_str_eq(all_rows, title, call of silence))=1;count(filter_eq(all_rows, no in series, 44))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, title, call of silence), title)=call of silence;hop(filter_eq(all_rows, no in series, 44), title)=hometown hero;eq(hometown hero, call of silence)=False", 
+    "hop(filter_str_eq(all_rows, title, call of silence), no in series)=30;hop(filter_eq(all_rows, no in series, 44), no in series)=44;eq(30, 44)=False", 
+    "count(all_rows)=21;count(filter_str_eq(all_rows, title, call of silence))=1;and(within(all_rows, no in series, 44), eq(21, 1))=False", 
+    "count(all_rows)=21;count(filter_str_eq(all_rows, title, call of silence))=1;and(within(filter_str_eq(all_rows, title, call of silence), no in series, 44), eq(21, 1))=False", 
+    "count(all_rows)=21;count(filter_eq(all_rows, no in series, 44))=1;and(within(all_rows, title, call of silence), eq(21, 1))=False", 
+    "count(all_rows)=21;count(filter_eq(all_rows, no in series, 44))=1;and(within(filter_eq(all_rows, no in series, 44), title, call of silence), eq(21, 1))=False"
+  ]
+]

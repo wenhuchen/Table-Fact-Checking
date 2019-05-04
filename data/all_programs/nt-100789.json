@@ -1,0 +1,16 @@
+[
+  "2-147777-1.html.csv", 
+  "#others;[8, 0]# have #8.0%;[8, 1]# in #2005;[0, 1]# and #4.2%;[8, 4]# in #2012;[0, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, favorite professional sport, others), 2005, 8.0%), 2012)=4.2%;eq(4.2%, 4.2%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, favorite professional sport, others), 2012, 4.2%), 2005)=8.0%;eq(8.0%, 8.0%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, 2005, 8.0%), favorite professional sport, others), 2012)=4.2%;eq(4.2%, 4.2%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, 2005, 8.0%), 2012, 4.2%), favorite professional sport)=others;eq(others, others)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, 2012, 4.2%), favorite professional sport, others), 2005)=8.0%;eq(8.0%, 8.0%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, 2012, 4.2%), 2005, 8.0%), favorite professional sport)=others;eq(others, others)=True", 
+    "hop(filter_str_eq(all_rows, favorite professional sport, others), 2005)=8.0%;hop(filter_str_eq(all_rows, favorite professional sport, others), 2012)=4.2%;and(eq(8.0%, 8.0%), eq(4.2%, 4.2%))=True", 
+    "hop(filter_str_eq(all_rows, 2005, 8.0%), 2012)=4.2%;hop(filter_str_eq(all_rows, 2005, 8.0%), favorite professional sport)=others;and(eq(4.2%, 4.2%), eq(others, others))=True", 
+    "hop(filter_str_eq(all_rows, 2012, 4.2%), 2005)=8.0%;hop(filter_str_eq(all_rows, 2012, 4.2%), favorite professional sport)=others;and(eq(8.0%, 8.0%), eq(others, others))=True"
+  ]
+]

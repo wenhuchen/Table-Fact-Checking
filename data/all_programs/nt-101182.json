@@ -1,0 +1,13 @@
+[
+  "2-15081782-6.html.csv", 
+  "the #australian open;[2, 0]# have #1r;[3, 3]# in #2011;[0, 5]# and #2r;[2, 7]# in #2013;[0, 7]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, australian open), 2013, 2r), 2009)=2r;eq(2r, 1r)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, 2009, 1r), 2013, 2r), tournament)=french open;eq(french open, australian open)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, 2013, 2r), tournament, australian open), 2009)=2r;eq(2r, 1r)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, 2013, 2r), 2009, 1r), tournament)=french open;eq(french open, australian open)=False", 
+    "hop(filter_str_eq(all_rows, tournament, australian open), 2013)=2r;hop(filter_str_eq(all_rows, tournament, australian open), 2009)=2r;and(eq(2r, 2r), eq(2r, 1r))=False", 
+    "hop(filter_str_eq(all_rows, 2009, 1r), 2013)=2r;hop(filter_str_eq(all_rows, 2009, 1r), tournament)=french open;and(eq(2r, 2r), eq(french open, australian open))=False"
+  ]
+]

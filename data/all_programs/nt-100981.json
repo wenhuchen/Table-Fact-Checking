@@ -1,0 +1,14 @@
+[
+  "1-17641206-8.html.csv", 
+  "#animal instinct;[4, 1]# have less #viewership;[0, 6]# than #your cheat art;[5, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, original title, animal instincts), original title)=animal instincts;eq(animal instincts, your cheating art)=False", 
+    "hop(filter_str_eq(all_rows, original title, your cheating art), original title)=your cheating art;eq(your cheating art, animal instincts)=False", 
+    "count(filter_str_eq(all_rows, original title, animal instincts))=1;count(filter_str_eq(all_rows, original title, your cheating art))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, original title, animal instincts))=1;count(filter_str_eq(all_rows, original title, your cheating art))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, original title, animal instincts))=1;count(filter_str_eq(all_rows, original title, your cheating art))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, original title, animal instincts), viewership)=3.87 million;hop(filter_str_eq(all_rows, original title, your cheating art), viewership)=3.93 million;eq(3.93 million, 3.87 million)=False", 
+    "hop(filter_str_eq(all_rows, original title, animal instincts), original title)=animal instincts;hop(filter_str_eq(all_rows, original title, your cheating art), original title)=your cheating art;eq(your cheating art, animal instincts)=False"
+  ]
+]

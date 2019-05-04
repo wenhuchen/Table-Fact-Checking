@@ -1,0 +1,14 @@
+[
+  "2-1723516-7.html.csv", 
+  "wayne ferreira play in #dubai , uae;[14, 2]# before he play in #tokyo , japan;[21, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, championship, dubai , uae), championship)=dubai , uae;eq(dubai , uae, tokyo , japan)=False", 
+    "hop(filter_str_eq(all_rows, championship, tokyo , japan), championship)=tokyo , japan;eq(tokyo , japan, dubai , uae)=False", 
+    "next(filter_str_eq(all_rows, championship, dubai , uae));hop(next(filter_str_eq(all_rows, championship, dubai , uae)), championship)=tel - aviv , israel;eq(tel - aviv , israel, tokyo , japan)=False", 
+    "next(filter_str_eq(all_rows, championship, tokyo , japan));hop(next(filter_str_eq(all_rows, championship, tokyo , japan)), championship)=toronto , canada;eq(toronto , canada, dubai , uae)=False", 
+    "count(filter_str_eq(all_rows, championship, dubai , uae))=1;count(filter_str_eq(all_rows, championship, tokyo , japan))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, championship, dubai , uae))=1;count(filter_str_eq(all_rows, championship, tokyo , japan))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, championship, dubai , uae), championship)=dubai , uae;hop(filter_str_eq(all_rows, championship, tokyo , japan), championship)=tokyo , japan;eq(tokyo , japan, dubai , uae)=False"
+  ]
+]

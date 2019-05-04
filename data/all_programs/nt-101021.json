@@ -1,0 +1,16 @@
+[
+  "2-10806194-16.html.csv", 
+  "#carlton;[5, 0]# #score;[0, 1]# #12.16;[5, 1]# when they play #st kilda;[5, 2]# at #home;[0, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team, carlton), home team score, 12.16 (88)), away team)=st kilda;eq(st kilda, st kilda)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team, carlton), away team, st kilda), home team score)=12.16 (88);eq(12.16 (88), 12.16 (88))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team score, 12.16 (88)), home team, carlton), away team)=st kilda;eq(st kilda, st kilda)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team score, 12.16 (88)), away team, st kilda), home team)=carlton;eq(carlton, carlton)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team, st kilda), home team, carlton), home team score)=12.16 (88);eq(12.16 (88), 12.16 (88))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team, st kilda), home team score, 12.16 (88)), home team)=carlton;eq(carlton, carlton)=True", 
+    "hop(filter_str_eq(all_rows, home team, carlton), home team score)=12.16 (88);hop(filter_str_eq(all_rows, home team, carlton), away team)=st kilda;and(eq(12.16 (88), 12.16 (88)), eq(st kilda, st kilda))=True", 
+    "hop(filter_str_eq(all_rows, home team score, 12.16 (88)), home team)=carlton;hop(filter_str_eq(all_rows, home team score, 12.16 (88)), away team)=st kilda;and(eq(carlton, carlton), eq(st kilda, st kilda))=True", 
+    "hop(filter_str_eq(all_rows, away team, st kilda), home team score)=12.16 (88);hop(filter_str_eq(all_rows, away team, st kilda), home team)=carlton;and(eq(12.16 (88), 12.16 (88)), eq(carlton, carlton))=True"
+  ]
+]

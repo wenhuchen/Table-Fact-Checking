@@ -1,0 +1,12 @@
+[
+  "1-18894744-6.html.csv", 
+  "the victory over #new york;[8, 2]# on #july 22;[7, 1]# bring their #record;[0, 8]# to #17 - 6;[7, 8]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, july 22), record, 17 - 6), opponent)=san antonio;eq(san antonio, new york)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, record, 17 - 6), date, july 22), opponent)=san antonio;eq(san antonio, new york)=False", 
+    "hop(filter_str_eq(all_rows, opponent, new york), record)=18 - 6;hop(filter_str_eq(all_rows, opponent, new york), date)=july 24;and(eq(18 - 6, 17 - 6), eq(july 24, july 22))=False", 
+    "hop(filter_str_eq(all_rows, date, july 22), record)=17 - 6;hop(filter_str_eq(all_rows, date, july 22), opponent)=san antonio;and(eq(17 - 6, 17 - 6), eq(san antonio, new york))=False", 
+    "hop(filter_str_eq(all_rows, record, 17 - 6), opponent)=san antonio;hop(filter_str_eq(all_rows, record, 17 - 6), date)=july 22;and(eq(san antonio, new york), eq(july 22, july 22))=False"
+  ]
+]

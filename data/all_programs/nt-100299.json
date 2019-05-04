@@ -1,0 +1,15 @@
+[
+  "2-17370522-14.html.csv", 
+  "the position for #player;[0, 2]# #nigel de jong;[10, 2]# be #mf;[4, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, player, nigel de jong), pos)=mf;eq(mf, mf)=True", 
+    "count(filter_str_eq(all_rows, player, nigel de jong))=1;count(filter_str_eq(all_rows, pos, mf))=2;eq(1, 2)=False", 
+    "count(all_rows)=11;count(filter_str_eq(filter_str_eq(all_rows, player, nigel de jong), pos, mf))=1;eq(11, 1)=False", 
+    "count(filter_str_eq(all_rows, player, nigel de jong))=1;count(filter_str_eq(filter_str_eq(all_rows, player, nigel de jong), pos, mf))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, nigel de jong), player)=nigel de jong;hop(filter_str_eq(filter_str_eq(all_rows, player, nigel de jong), pos, mf), player)=nigel de jong;eq(nigel de jong, nigel de jong)=True", 
+    "hop(filter_str_eq(all_rows, player, nigel de jong), pos)=mf;hop(filter_str_eq(filter_str_eq(all_rows, player, nigel de jong), pos, mf), pos)=mf;eq(mf, mf)=True", 
+    "count(all_rows)=11;count(filter_str_eq(filter_str_eq(all_rows, pos, mf), player, nigel de jong))=1;eq(11, 1)=False", 
+    "count(filter_str_eq(all_rows, pos, mf))=2;count(filter_str_eq(filter_str_eq(all_rows, pos, mf), player, nigel de jong))=1;eq(2, 1)=False"
+  ]
+]

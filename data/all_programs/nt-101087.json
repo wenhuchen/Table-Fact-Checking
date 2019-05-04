@@ -1,0 +1,19 @@
+[
+  "1-2626564-2.html.csv", 
+  "#pearson;[5, 10]# be on #21 pearson race;[4, 10]# when his #winning;[0, 8]# be #276057;[12, 8]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), team (s))=21 pearson racing 55 foushee racing;and(within(all_rows, winnings, 276057), eq(21 pearson racing 55 foushee racing, 21 pearson racing))=False", 
+    "and(and(within(all_rows, winnings, 276057), within(all_rows, team (s), 21 pearson racing)), within(all_rows, team (s), 21 pearson racing 55 foushee racing))=True", 
+    "and(and(within(all_rows, winnings, 276057), within(all_rows, team (s), 21 pearson racing 55 foushee racing)), within(all_rows, team (s), 21 pearson racing))=True", 
+    "hop(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), team (s))=21 pearson racing 55 foushee racing;and(within(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), winnings, 276057), eq(21 pearson racing 55 foushee racing, 21 pearson racing))=False", 
+    "hop(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), winnings)=101438;and(within(all_rows, team (s), 21 pearson racing), eq(276057, 101438))=False", 
+    "hop(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), winnings)=101438;and(within(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), team (s), 21 pearson racing), eq(276057, 101438))=False", 
+    "hop(filter_eq(all_rows, winnings, 276057), team (s))=92 martin racing;and(within(all_rows, team (s), 21 pearson racing), eq(92 martin racing, 21 pearson racing 55 foushee racing))=False", 
+    "hop(filter_eq(all_rows, winnings, 276057), team (s))=92 martin racing;and(within(all_rows, team (s), 21 pearson racing 55 foushee racing), eq(92 martin racing, 21 pearson racing))=False", 
+    "hop(filter_eq(all_rows, winnings, 276057), team (s))=92 martin racing;and(within(filter_eq(all_rows, winnings, 276057), team (s), 21 pearson racing), eq(92 martin racing, 21 pearson racing 55 foushee racing))=False", 
+    "hop(filter_eq(all_rows, winnings, 276057), team (s))=92 martin racing;and(within(filter_eq(all_rows, winnings, 276057), team (s), 21 pearson racing 55 foushee racing), eq(92 martin racing, 21 pearson racing))=False", 
+    "and(and(within(all_rows, team (s), 21 pearson racing), within(all_rows, team (s), 21 pearson racing 55 foushee racing)), within(all_rows, winnings, 276057))=True", 
+    "hop(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), team (s))=21 pearson racing 55 foushee racing;hop(filter_str_eq(all_rows, team (s), 21 pearson racing 55 foushee racing), winnings)=101438;and(eq(21 pearson racing 55 foushee racing, 21 pearson racing), eq(276057, 101438))=False"
+  ]
+]

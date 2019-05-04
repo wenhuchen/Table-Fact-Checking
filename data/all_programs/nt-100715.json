@@ -1,0 +1,17 @@
+[
+  "1-28334498-3.html.csv", 
+  "the only episode #write by;[0, 4]# #david valliere;[8, 4]# have #1.42;[7, 7]# million view", 
+  0, 
+  [
+    "and(within(all_rows, us viewers (millions), 1.42), within(all_rows, written by, david valliere))=True", 
+    "hop(filter_str_eq(all_rows, written by, david valliere), us viewers (millions))=1.21;eq(1.42, 1.21)=False", 
+    "hop(filter_eq(all_rows, us viewers (millions), 1.42), written by)=jennifer glickman;eq(jennifer glickman, david valliere)=False", 
+    "count(filter_str_eq(all_rows, written by, david valliere))=1;count(filter_eq(all_rows, us viewers (millions), 1.42))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, written by, david valliere), written by)=david valliere;hop(filter_eq(all_rows, us viewers (millions), 1.42), written by)=jennifer glickman;eq(jennifer glickman, david valliere)=False", 
+    "hop(filter_str_eq(all_rows, written by, david valliere), us viewers (millions))=1.21;hop(filter_eq(all_rows, us viewers (millions), 1.42), us viewers (millions))=1.42;eq(1.21, 1.42)=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, written by, david valliere))=1;and(within(all_rows, us viewers (millions), 1.42), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, written by, david valliere))=1;and(within(filter_str_eq(all_rows, written by, david valliere), us viewers (millions), 1.42), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_eq(all_rows, us viewers (millions), 1.42))=1;and(within(all_rows, written by, david valliere), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_eq(all_rows, us viewers (millions), 1.42))=1;and(within(filter_eq(all_rows, us viewers (millions), 1.42), written by, david valliere), eq(14, 1))=False"
+  ]
+]

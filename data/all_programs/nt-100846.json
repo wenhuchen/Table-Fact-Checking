@@ -1,0 +1,15 @@
+[
+  "2-12764987-1.html.csv", 
+  "before the #2009;[17, 0]# #season;[0, 0]# , when the #series;[0, 1]# be the #gp2 series;[13, 1]# , the value for #win;[0, 2]# be #2;[8, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_less(all_rows, season, 2009), series, gp2 series), podiums)=6;eq(6, 2)=False", 
+    "hop(filter_less(filter_str_eq(all_rows, series, gp2 series), season, 2009), podiums)=6;eq(6, 2)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, series, gp2 series), podiums, 2), season)=2010;less(2009, 2010);less(2009, 2010)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, series, gp2 series), podiums, 2), season)=2010;eq(2009, 2010)=False", 
+    "hop(filter_eq(filter_str_eq(all_rows, series, gp2 series), season, 2009), podiums)=3;eq(3, 2)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, podiums, 2), series, gp2 series), season)=2010;less(2009, 2010);less(2009, 2010)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, podiums, 2), series, gp2 series), season)=2010;eq(2009, 2010)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, season, 2009), series, gp2 series), podiums)=3;eq(3, 2)=False"
+  ]
+]

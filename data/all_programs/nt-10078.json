@@ -1,0 +1,11 @@
+[
+  "2-1614982-4.html.csv", 
+  "the #euro 1988;[12, 4]# qualify match on #28 october 1987;[12, 1]# #score;[0, 2]# #1 - 0;[22, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, competition, euro 1988 qualifying), date, 28 october 1987), score)=2 - 0;eq(2 - 0, 0 - 1)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 28 october 1987), competition, euro 1988 qualifying), score)=2 - 0;eq(2 - 0, 0 - 1)=False", 
+    "hop(filter_str_eq(all_rows, competition, euro 1988 qualifying), score)=2 - 0;hop(filter_str_eq(all_rows, competition, euro 1988 qualifying), date)=28 october 1987;and(eq(2 - 0, 0 - 1), eq(28 october 1987, 28 october 1987))=False", 
+    "hop(filter_str_eq(all_rows, date, 28 october 1987), score)=2 - 0;hop(filter_str_eq(all_rows, date, 28 october 1987), competition)=euro 1988 qualifying;and(eq(2 - 0, 0 - 1), eq(euro 1988 qualifying, euro 1988 qualifying))=False"
+  ]
+]

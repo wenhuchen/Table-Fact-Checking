@@ -1,0 +1,15 @@
+[
+  "1-11622840-1.html.csv", 
+  "the biggest #1st prize;[0, 6]# #miller barber;[13, 4]# win be #36448;[10, 6]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, winner, miller barber (14)), 1st prize)=30000;eq(36448, 30000)=False", 
+    "hop(filter_eq(all_rows, 1st prize, 36448), winner)=miller barber (12);eq(miller barber (12), miller barber (14))=False", 
+    "count(filter_str_eq(all_rows, winner, miller barber (14)))=1;count(filter_eq(all_rows, 1st prize, 36448))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, winner, miller barber (14)), winner)=miller barber (14);hop(filter_eq(all_rows, 1st prize, 36448), winner)=miller barber (12);eq(miller barber (12), miller barber (14))=False", 
+    "hop(filter_str_eq(all_rows, winner, miller barber (14)), 1st prize)=30000;hop(filter_eq(all_rows, 1st prize, 36448), 1st prize)=36448;eq(30000, 36448)=False", 
+    "min(all_rows, 1st prize)=22500;hop(argmax(all_rows, 1st prize), winner)=gene littler (3);and(eq(36448, 22500), eq(gene littler (3), miller barber (14)))=False", 
+    "max(all_rows, 1st prize)=100000;hop(argmax(all_rows, 1st prize), winner)=gene littler (3);and(eq(36448, 100000), eq(gene littler (3), miller barber (14)))=False", 
+    "hop(argmax(all_rows, 1st prize), winner)=gene littler (3);hop(argmax(all_rows, 1st prize), 1st prize)=100000;and(eq(gene littler (3), miller barber (14)), eq(36448, 100000))=False"
+  ]
+]

@@ -1,0 +1,24 @@
+[
+  "2-147777-1.html.csv", 
+  "#puroresu;[7, 0]# have a popularity of #8.0%;[8, 1]# in #2005;[0, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, favorite professional sport, puroresu), 2005)=4.2%;eq(4.2%, 8.0%)=False", 
+    "hop(filter_str_eq(all_rows, 2005, 8.0%), favorite professional sport)=others;eq(others, puroresu)=False", 
+    "and(within(all_rows, 2005, puroresu), within(all_rows, 2005, 8.0%))=False", 
+    "and(within(all_rows, 2005, puroresu), within(all_rows, favorite professional sport, 8.0%))=False", 
+    "and(within(all_rows, favorite professional sport, puroresu), within(all_rows, 2005, 8.0%))=True", 
+    "and(within(all_rows, favorite professional sport, puroresu), within(all_rows, favorite professional sport, 8.0%))=False", 
+    "count(filter_str_eq(all_rows, favorite professional sport, puroresu))=1;count(filter_str_eq(all_rows, 2005, 8.0%))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, favorite professional sport, puroresu), 2005)=4.2%;hop(filter_str_eq(all_rows, 2005, 8.0%), 2005)=8.0%;eq(8.0%, 4.2%)=False", 
+    "hop(filter_str_eq(all_rows, favorite professional sport, puroresu), favorite professional sport)=puroresu;hop(filter_str_eq(all_rows, 2005, 8.0%), favorite professional sport)=others;eq(others, puroresu)=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, favorite professional sport, puroresu))=1;and(within(all_rows, 2005, 8.0%), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, favorite professional sport, puroresu))=1;and(within(all_rows, favorite professional sport, 8.0%), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, favorite professional sport, puroresu))=1;and(within(filter_str_eq(all_rows, favorite professional sport, puroresu), 2005, 8.0%), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, favorite professional sport, puroresu))=1;and(within(filter_str_eq(all_rows, favorite professional sport, puroresu), favorite professional sport, 8.0%), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, 2005, 8.0%))=1;and(within(all_rows, 2005, puroresu), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, 2005, 8.0%))=1;and(within(all_rows, favorite professional sport, puroresu), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, 2005, 8.0%))=1;and(within(filter_str_eq(all_rows, 2005, 8.0%), 2005, puroresu), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, 2005, 8.0%))=1;and(within(filter_str_eq(all_rows, 2005, 8.0%), favorite professional sport, puroresu), eq(8, 1))=False"
+  ]
+]

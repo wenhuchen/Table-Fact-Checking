@@ -1,0 +1,12 @@
+[
+  "2-12397961-11.html.csv", 
+  "on #8 august 2010 ,;[6, 1]# the #score;[0, 5]# be #6 - 4 , 6 - 2;[5, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, date, 8 august 2010), score)=6 - 2 , 7 - 6 (10 - 8);eq(6 - 2 , 7 - 6 (10 - 8), 6 - 4 , 6 - 2)=False", 
+    "hop(filter_str_eq(all_rows, score, 6 - 4 , 6 - 2), date)=6 june 2010;eq(6 june 2010, 8 august 2010)=False", 
+    "count(filter_str_eq(all_rows, date, 8 august 2010))=1;count(filter_str_eq(all_rows, score, 6 - 4 , 6 - 2))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, 8 august 2010), score)=6 - 2 , 7 - 6 (10 - 8);hop(filter_str_eq(all_rows, score, 6 - 4 , 6 - 2), score)=6 - 4 , 6 - 2;eq(6 - 4 , 6 - 2, 6 - 2 , 7 - 6 (10 - 8))=False", 
+    "hop(filter_str_eq(all_rows, date, 8 august 2010), date)=8 august 2010;hop(filter_str_eq(all_rows, score, 6 - 4 , 6 - 2), date)=6 june 2010;eq(6 june 2010, 8 august 2010)=False"
+  ]
+]

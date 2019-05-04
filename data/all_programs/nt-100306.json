@@ -1,0 +1,14 @@
+[
+  "2-17370522-14.html.csv", 
+  "when the #player;[0, 2]# be #gl\u00e1uber;[6, 2]# , the #from club;[0, 3]# be #real madrid;[7, 3]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, player, gl\u00e1uber), from club)=nuremberg;eq(nuremberg, real madrid)=False", 
+    "hop(filter_str_eq(all_rows, from club, real madrid), player)=robinho;eq(robinho, gl\u00e1uber)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, gl\u00e1uber), player, gl\u00e1uber), from club)=nuremberg;eq(nuremberg, real madrid)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, from club, real madrid), from club, real madrid), player)=robinho;eq(robinho, gl\u00e1uber)=False", 
+    "count(filter_str_eq(all_rows, player, gl\u00e1uber))=1;count(filter_str_eq(all_rows, from club, real madrid))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, gl\u00e1uber), player)=gl\u00e1uber;hop(filter_str_eq(all_rows, from club, real madrid), player)=robinho;eq(robinho, gl\u00e1uber)=False", 
+    "hop(filter_str_eq(all_rows, player, gl\u00e1uber), from club)=nuremberg;hop(filter_str_eq(all_rows, from club, real madrid), from club)=real madrid;eq(real madrid, nuremberg)=False"
+  ]
+]

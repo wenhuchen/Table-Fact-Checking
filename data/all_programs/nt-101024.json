@@ -1,0 +1,11 @@
+[
+  "2-10823719-18.html.csv", 
+  "the largest #crowd;[0, 5]# on #august 4;[2, 6]# , #1979;[2, 6]# be #30495;[4, 5]#", 
+  1, 
+  [
+    "min(filter_str_eq(filter_str_eq(all_rows, date, 4 august 1979), date, 4 august 1979), crowd)=9815;eq(30495, 9815)=False", 
+    "max(filter_str_eq(filter_str_eq(all_rows, date, 4 august 1979), date, 4 august 1979), crowd)=30495;eq(30495, 30495)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, date, 4 august 1979), crowd, 30495), date)=4 august 1979;eq(4 august 1979, 4 august 1979)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, crowd, 30495), date, 4 august 1979), date)=4 august 1979;eq(4 august 1979, 4 august 1979)=True"
+  ]
+]

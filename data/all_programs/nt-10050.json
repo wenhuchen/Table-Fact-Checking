@@ -1,0 +1,22 @@
+[
+  "2-12206617-7.html.csv", 
+  "the toronto blue jay #score;[0, 2]# 1 more run in the game play on #september 2;[2, 0]# than the game play on #september 7;[7, 0]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, date, september 2))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, date, september 7))=1;less(0, 1);less(0, 1)=True", 
+    "count(filter_str_eq(all_rows, date, september 2))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, date, september 7))=1;eq(0, 1)=False", 
+    "count(filter_str_eq(all_rows, date, september 2))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, date, september 7))=1;greater(0, 1)=False", 
+    "count(all_rows)=26;less(1, 26);hop(filter_str_eq(all_rows, date, september 2), date)=september 2;and(less(1, 26), eq(september 2, september 7))=False", 
+    "count(all_rows)=26;hop(filter_str_eq(all_rows, date, september 2), date)=september 2;and(eq(1, 26), eq(september 2, september 7))=False", 
+    "count(all_rows)=26;hop(filter_str_eq(all_rows, date, september 2), date)=september 2;and(greater(1, 26), eq(september 2, september 7))=False", 
+    "count(filter_str_eq(all_rows, date, september 2))=1;less(1, 1);hop(filter_str_eq(all_rows, date, september 2), date)=september 2;and(less(1, 1), eq(september 2, september 7))=False", 
+    "count(filter_str_eq(all_rows, date, september 2))=1;hop(filter_str_eq(all_rows, date, september 2), date)=september 2;and(eq(1, 1), eq(september 2, september 7))=False", 
+    "count(filter_str_eq(all_rows, date, september 2))=1;hop(filter_str_eq(all_rows, date, september 2), date)=september 2;and(greater(1, 1), eq(september 2, september 7))=False", 
+    "count(all_rows)=26;less(1, 26);hop(filter_str_eq(all_rows, date, september 7), date)=september 7;and(less(1, 26), eq(september 7, september 2))=False", 
+    "count(all_rows)=26;hop(filter_str_eq(all_rows, date, september 7), date)=september 7;and(eq(1, 26), eq(september 7, september 2))=False", 
+    "count(all_rows)=26;hop(filter_str_eq(all_rows, date, september 7), date)=september 7;and(greater(1, 26), eq(september 7, september 2))=False", 
+    "count(filter_str_eq(all_rows, date, september 7))=1;less(1, 1);hop(filter_str_eq(all_rows, date, september 7), date)=september 7;and(less(1, 1), eq(september 7, september 2))=False", 
+    "count(filter_str_eq(all_rows, date, september 7))=1;hop(filter_str_eq(all_rows, date, september 7), date)=september 7;and(eq(1, 1), eq(september 7, september 2))=False", 
+    "count(filter_str_eq(all_rows, date, september 7))=1;hop(filter_str_eq(all_rows, date, september 7), date)=september 7;and(greater(1, 1), eq(september 7, september 2))=False"
+  ]
+]

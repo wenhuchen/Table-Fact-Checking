@@ -1,0 +1,15 @@
+[
+  "1-21369888-4.html.csv", 
+  "#case one (part 1);[1, 1]# be #direct by;[0, 2]# #john strickland;[1, 2]# and be #view by;[0, 5]# #7.35;[1, 5]# #view figure (millions);[0, 5]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, title, case one (part 1)), directed by, john strickland), viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1)=7.35;eq(7.35, 7.35)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, title, case one (part 1)), viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1, 7.35), directed by)=john strickland;eq(john strickland, john strickland)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, directed by, john strickland), title, case one (part 1)), viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1)=7.35;eq(7.35, 7.35)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, directed by, john strickland), viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1, 7.35), title)=case one (part 1);eq(case one (part 1), case one (part 1))=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1, 7.35), title, case one (part 1)), directed by)=john strickland;eq(john strickland, john strickland)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1, 7.35), directed by, john strickland), title)=case one (part 1);eq(case one (part 1), case one (part 1))=True", 
+    "hop(filter_str_eq(all_rows, title, case one (part 1)), directed by)=john strickland;hop(filter_str_eq(all_rows, title, case one (part 1)), viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1)=7.35;and(eq(john strickland, john strickland), eq(7.35, 7.35))=True", 
+    "hop(filter_eq(all_rows, viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1, 7.35), directed by)=john strickland;hop(filter_eq(all_rows, viewing figures (millions) sourced by barb , includes itv1 hd and itv1 + 1, 7.35), title)=case one (part 1);and(eq(john strickland, john strickland), eq(case one (part 1), case one (part 1)))=True"
+  ]
+]

@@ -1,0 +1,13 @@
+[
+  "2-15764352-13.html.csv", 
+  "when the #broadview hawk;[3, 2]# defeat the #home;[0, 2]# team the #score;[0, 4]# be #130 -;[3, 4]# 76", 
+  0, 
+  [
+    "count(filter_str_eq(filter_str_eq(all_rows, home, broadview hawks), score, 130 - 56))=1;eq(76, 1)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, score, 130 - 56), home, broadview hawks))=1;eq(76, 1)=False", 
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, home, broadview hawks), score)=130 - 56;and(eq(76, 5), eq(130 - 56, 130 - 56))=False", 
+    "count(filter_str_eq(all_rows, home, broadview hawks))=1;hop(filter_str_eq(all_rows, home, broadview hawks), score)=130 - 56;and(eq(76, 1), eq(130 - 56, 130 - 56))=False", 
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, score, 130 - 56), home)=broadview hawks;and(eq(76, 5), eq(broadview hawks, broadview hawks))=False", 
+    "count(filter_str_eq(all_rows, score, 130 - 56))=1;hop(filter_str_eq(all_rows, score, 130 - 56), home)=broadview hawks;and(eq(76, 1), eq(broadview hawks, broadview hawks))=False"
+  ]
+]

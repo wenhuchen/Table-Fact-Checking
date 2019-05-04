@@ -1,0 +1,15 @@
+[
+  "2-17289732-6.html.csv", 
+  "the #album artist;[0, 3]# #mint royale;[1, 3]# sing the #song;[0, 1]# #something new (with mint royale and class a);[1, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist)=mint royale;eq(mint royale, mint royale)=True", 
+    "count(filter_str_eq(all_rows, album artist, mint royale))=2;count(filter_str_eq(all_rows, song, something new (with mint royale and class a)))=1;eq(2, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, album artist, mint royale), song, something new (with mint royale and class a)))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, album artist, mint royale))=2;count(filter_str_eq(filter_str_eq(all_rows, album artist, mint royale), song, something new (with mint royale and class a)))=1;eq(2, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist, mint royale))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, song, something new (with mint royale and class a)))=1;count(filter_str_eq(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist, mint royale))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist)=mint royale;hop(filter_str_eq(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist, mint royale), album artist)=mint royale;eq(mint royale, mint royale)=True", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), song)=something new (with mint royale and class a);hop(filter_str_eq(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist, mint royale), song)=something new (with mint royale and class a);eq(something new (with mint royale and class a), something new (with mint royale and class a))=True"
+  ]
+]

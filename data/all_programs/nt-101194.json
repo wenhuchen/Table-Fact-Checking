@@ -1,0 +1,19 @@
+[
+  "1-25926120-3.html.csv", 
+  "less than 9 #film;[0, 1]# be in #hindi;[12, 2]#", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, language, hindi))=9;less(9, 9);less(9, 9)=False", 
+    "count(filter_str_eq(all_rows, language, hindi))=9;eq(9, 9)=True", 
+    "count(filter_str_eq(all_rows, language, hindi))=9;greater(9, 9)=False", 
+    "count(all_rows)=18;diff(9, 18)=-9;count(filter_str_eq(all_rows, language, hindi))=9;less(-9, 9);less(-9, 9)=True", 
+    "count(all_rows)=18;diff(9, 18)=-9;count(filter_str_eq(all_rows, language, hindi))=9;eq(-9, 9)=False", 
+    "count(all_rows)=18;diff(9, 18)=-9;count(filter_str_eq(all_rows, language, hindi))=9;greater(-9, 9)=False", 
+    "count(all_rows)=18;count(filter_str_eq(all_rows, language, hindi))=9;diff(9, 9)=0;less(18, 0);less(18, 0)=False", 
+    "count(all_rows)=18;count(filter_str_eq(all_rows, language, hindi))=9;diff(9, 9)=0;eq(18, 0)=False", 
+    "count(all_rows)=18;count(filter_str_eq(all_rows, language, hindi))=9;diff(9, 9)=0;greater(18, 0)=True", 
+    "count(all_rows)=18;count(filter_str_eq(all_rows, language, hindi))=9;diff(18, 9)=9;less(9, 9);less(9, 9)=False", 
+    "count(all_rows)=18;count(filter_str_eq(all_rows, language, hindi))=9;diff(18, 9)=9;eq(9, 9)=True", 
+    "count(all_rows)=18;count(filter_str_eq(all_rows, language, hindi))=9;diff(18, 9)=9;greater(9, 9)=False"
+  ]
+]

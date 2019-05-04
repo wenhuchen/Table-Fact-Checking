@@ -1,0 +1,13 @@
+[
+  "1-261941-1.html.csv", 
+  "#pacific lutheran university;[5, 0]# and the #university of puget sound;[6, 0]# be both locate in #tacoma , washington;[5, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, institution, pacific lutheran university), location, tacoma , washington), institution)=pacific lutheran university;eq(pacific lutheran university, university of puget sound)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, institution, university of puget sound), location, tacoma , washington), institution)=university of puget sound;eq(university of puget sound, pacific lutheran university)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, location, tacoma , washington), institution, pacific lutheran university), institution)=pacific lutheran university;eq(pacific lutheran university, university of puget sound)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, location, tacoma , washington), institution, university of puget sound), institution)=university of puget sound;eq(university of puget sound, pacific lutheran university)=False", 
+    "hop(filter_str_eq(all_rows, institution, pacific lutheran university), institution)=pacific lutheran university;hop(filter_str_eq(all_rows, institution, pacific lutheran university), location)=tacoma , washington;and(eq(pacific lutheran university, university of puget sound), eq(tacoma , washington, tacoma , washington))=False", 
+    "hop(filter_str_eq(all_rows, institution, university of puget sound), institution)=university of puget sound;hop(filter_str_eq(all_rows, institution, university of puget sound), location)=tacoma , washington;and(eq(university of puget sound, pacific lutheran university), eq(tacoma , washington, tacoma , washington))=False"
+  ]
+]

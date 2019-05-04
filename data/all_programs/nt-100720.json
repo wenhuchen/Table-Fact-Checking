@@ -1,0 +1,15 @@
+[
+  "2-10081551-1.html.csv", 
+  "#roberto rolfo;[7, 0]# go #18;[1, 2]# #lap;[0, 2]# , end #25.165;[7, 3]# second behind the leader", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, rider, roberto rolfo), time, + 25.165), laps)=18;eq(18, 18)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, rider, roberto rolfo), laps, 18), time)=+ 25.165;eq(+ 25.165, + 25.165)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, time, + 25.165), rider, roberto rolfo), laps)=18;eq(18, 18)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, time, + 25.165), laps, 18), rider)=roberto rolfo;eq(roberto rolfo, roberto rolfo)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, laps, 18), rider, roberto rolfo), time)=+ 25.165;eq(+ 25.165, + 25.165)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, laps, 18), time, + 25.165), rider)=roberto rolfo;eq(roberto rolfo, roberto rolfo)=True", 
+    "hop(filter_str_eq(all_rows, rider, roberto rolfo), time)=+ 25.165;hop(filter_str_eq(all_rows, rider, roberto rolfo), laps)=18;and(eq(+ 25.165, + 25.165), eq(18, 18))=True", 
+    "hop(filter_str_eq(all_rows, time, + 25.165), rider)=roberto rolfo;hop(filter_str_eq(all_rows, time, + 25.165), laps)=18;and(eq(roberto rolfo, roberto rolfo), eq(18, 18))=True"
+  ]
+]

@@ -1,0 +1,17 @@
+[
+  "2-12764987-1.html.csv", 
+  "the value for #podium;[0, 3]# when the #season;[0, 0]# be after #2008;[15, 0]# and when the #series;[0, 1]# be #gp2 asia series;[24, 1]# be #2;[8, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_greater(all_rows, season, 2008), series, gp2 asia series), podiums)=2;eq(2, 2)=True", 
+    "hop(filter_greater(filter_str_eq(all_rows, series, gp2 asia series), season, 2008), podiums)=2;eq(2, 2)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, series, gp2 asia series), podiums, 2), season)=2011;eq(2008, 2011)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, series, gp2 asia series), podiums, 2), season)=2011;greater(2008, 2011)=False", 
+    "hop(filter_eq(filter_str_eq(all_rows, series, gp2 asia series), season, 2008), podiums)=5;eq(5, 2)=False", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, series, gp2 asia series), season, 2008), podiums)=5;eq(5, 2)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, podiums, 2), series, gp2 asia series), season)=2011;eq(2008, 2011)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, podiums, 2), series, gp2 asia series), season)=2011;greater(2008, 2011)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, season, 2008), series, gp2 asia series), podiums)=5;eq(5, 2)=False", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, season, 2008), series, gp2 asia series), podiums)=5;eq(5, 2)=False"
+  ]
+]

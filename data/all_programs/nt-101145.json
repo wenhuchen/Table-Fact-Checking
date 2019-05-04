@@ -1,0 +1,32 @@
+[
+  "2-18256407-2.html.csv", 
+  "#eddie pullen;[2, 3]# be the losing #driver;[0, 3]# with a lose #constructor;[0, 4]# of #mercer;[2, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor)=mercer;eq(mercer, mercer)=True", 
+    "hop(filter_str_eq(all_rows, winning constructor, mercer), winning driver)=eddie pullen;eq(eddie pullen, eddie pullen)=True", 
+    "and(within(all_rows, winning driver, eddie pullen), within(all_rows, winning driver, mercer))=False", 
+    "and(within(all_rows, winning driver, eddie pullen), within(all_rows, winning constructor, mercer))=True", 
+    "and(within(all_rows, winning constructor, eddie pullen), within(all_rows, winning driver, mercer))=False", 
+    "and(within(all_rows, winning constructor, eddie pullen), within(all_rows, winning constructor, mercer))=False", 
+    "count(filter_str_eq(all_rows, winning driver, eddie pullen))=1;count(filter_str_eq(all_rows, winning constructor, mercer))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, winning driver, eddie pullen), winning driver)=eddie pullen;hop(filter_str_eq(all_rows, winning constructor, mercer), winning driver)=eddie pullen;eq(eddie pullen, eddie pullen)=True", 
+    "hop(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor)=mercer;hop(filter_str_eq(all_rows, winning constructor, mercer), winning constructor)=mercer;eq(mercer, mercer)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor, mercer))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, winning driver, eddie pullen))=1;count(filter_str_eq(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor, mercer))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, winning driver, eddie pullen), winning driver)=eddie pullen;hop(filter_str_eq(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor, mercer), winning driver)=eddie pullen;eq(eddie pullen, eddie pullen)=True", 
+    "hop(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor)=mercer;hop(filter_str_eq(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor, mercer), winning constructor)=mercer;eq(mercer, mercer)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, winning constructor, mercer), winning driver, eddie pullen))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, winning constructor, mercer))=1;count(filter_str_eq(filter_str_eq(all_rows, winning constructor, mercer), winning driver, eddie pullen))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, winning constructor, mercer), winning driver)=eddie pullen;hop(filter_str_eq(filter_str_eq(all_rows, winning constructor, mercer), winning driver, eddie pullen), winning driver)=eddie pullen;eq(eddie pullen, eddie pullen)=True", 
+    "hop(filter_str_eq(all_rows, winning constructor, mercer), winning constructor)=mercer;hop(filter_str_eq(filter_str_eq(all_rows, winning constructor, mercer), winning driver, eddie pullen), winning constructor)=mercer;eq(mercer, mercer)=True", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning driver, eddie pullen))=1;and(within(all_rows, winning driver, mercer), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning driver, eddie pullen))=1;and(within(all_rows, winning constructor, mercer), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning driver, eddie pullen))=1;and(within(filter_str_eq(all_rows, winning driver, eddie pullen), winning driver, mercer), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning driver, eddie pullen))=1;and(within(filter_str_eq(all_rows, winning driver, eddie pullen), winning constructor, mercer), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning constructor, mercer))=1;and(within(all_rows, winning driver, eddie pullen), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning constructor, mercer))=1;and(within(all_rows, winning constructor, eddie pullen), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning constructor, mercer))=1;and(within(filter_str_eq(all_rows, winning constructor, mercer), winning driver, eddie pullen), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, winning constructor, mercer))=1;and(within(filter_str_eq(all_rows, winning constructor, mercer), winning constructor, eddie pullen), eq(7, 1))=False"
+  ]
+]

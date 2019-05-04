@@ -1,0 +1,28 @@
+[
+  "2-17289732-6.html.csv", 
+  "#mint royale;[1, 3]# be the #album artist;[0, 3]# of the #song;[0, 1]# #something new (with mint royale and class a);[1, 1]# in #2011;[7, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, album artist, mint royale), song, something new (with mint royale and class a)), year)=2005;eq(2011, 2005)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist, mint royale), year)=2005;eq(2011, 2005)=False", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist)=mint royale;and(within(all_rows, year, 2011), eq(mint royale, mint royale))=True", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, album artist, mint royale)), within(all_rows, album artist, something new (with mint royale and class a)))=False", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, album artist, mint royale)), within(all_rows, song, something new (with mint royale and class a)))=True", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, song, mint royale)), within(all_rows, album artist, something new (with mint royale and class a)))=False", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, song, mint royale)), within(all_rows, song, something new (with mint royale and class a)))=False", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, album artist, something new (with mint royale and class a))), within(all_rows, album artist, mint royale))=False", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, album artist, something new (with mint royale and class a))), within(all_rows, song, mint royale))=False", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, song, something new (with mint royale and class a))), within(all_rows, album artist, mint royale))=True", 
+    "and(and(within(all_rows, year, 2011), within(all_rows, song, something new (with mint royale and class a))), within(all_rows, song, mint royale))=False", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist)=mint royale;and(within(filter_str_eq(all_rows, song, something new (with mint royale and class a)), year, 2011), eq(mint royale, mint royale))=False", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), year)=2005;and(within(all_rows, album artist, mint royale), eq(2011, 2005))=False", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), year)=2005;and(within(all_rows, song, mint royale), eq(2011, 2005))=False", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), year)=2005;and(within(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist, mint royale), eq(2011, 2005))=False", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), year)=2005;and(within(filter_str_eq(all_rows, song, something new (with mint royale and class a)), song, mint royale), eq(2011, 2005))=False", 
+    "and(and(within(all_rows, album artist, mint royale), within(all_rows, album artist, something new (with mint royale and class a))), within(all_rows, year, 2011))=False", 
+    "and(and(within(all_rows, album artist, mint royale), within(all_rows, song, something new (with mint royale and class a))), within(all_rows, year, 2011))=True", 
+    "and(and(within(all_rows, song, mint royale), within(all_rows, album artist, something new (with mint royale and class a))), within(all_rows, year, 2011))=False", 
+    "and(and(within(all_rows, song, mint royale), within(all_rows, song, something new (with mint royale and class a))), within(all_rows, year, 2011))=False", 
+    "hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), album artist)=mint royale;hop(filter_str_eq(all_rows, song, something new (with mint royale and class a)), year)=2005;and(eq(mint royale, mint royale), eq(2011, 2005))=False"
+  ]
+]

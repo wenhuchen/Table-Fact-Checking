@@ -1,0 +1,9 @@
+[
+  "1-1590967-2.html.csv", 
+  "#lorraine kelly;[2, 2]# #be the;[5, 3]# #guest host;[0, 2]# before #christian slater;[3, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, guest host, lorraine kelly), guest host)=lorraine kelly;hop(filter_str_eq(all_rows, guest host, lorraine kelly), musical guest (song performed))=editors ( munich );and(eq(lorraine kelly, christian slater), eq(editors ( munich ), the ordinary boys ( boys will be boys )))=False", 
+    "hop(filter_str_eq(all_rows, guest host, christian slater), guest host)=christian slater;hop(filter_str_eq(all_rows, guest host, christian slater), musical guest (song performed))=the kooks ( you don't love me );and(eq(christian slater, lorraine kelly), eq(the kooks ( you don't love me ), the ordinary boys ( boys will be boys )))=False"
+  ]
+]

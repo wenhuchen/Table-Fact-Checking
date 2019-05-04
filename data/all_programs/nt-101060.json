@@ -1,0 +1,9 @@
+[
+  "2-10783853-4.html.csv", 
+  "#arden street oval;[4, 4]# #venue;[0, 4]# be 1 of the 6 #venue;[0, 4]# that be in use on #11 may;[2, 6]# , #1963;[2, 6]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, venue, arden street oval), date, 11 may 1963), date)=11 may 1963;and(eq(1, 6), eq(11 may 1963, 11 may 1963))=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 11 may 1963), venue, arden street oval), date)=11 may 1963;and(eq(1, 6), eq(11 may 1963, 11 may 1963))=False"
+  ]
+]

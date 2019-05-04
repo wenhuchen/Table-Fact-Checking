@@ -1,0 +1,13 @@
+[
+  "2-10767641-2.html.csv", 
+  "#essendon;[6, 2]# be the #home team;[0, 0]# that #score;[0, 1]# 74 at #western oval;[6, 4]#", 
+  0, 
+  [
+    "count(filter_str_eq(filter_str_eq(all_rows, away team, essendon), venue, western oval))=1;eq(74, 1)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, venue, western oval), away team, essendon))=1;eq(74, 1)=False", 
+    "count(all_rows)=6;hop(filter_str_eq(all_rows, away team, essendon), venue)=western oval;and(eq(74, 6), eq(western oval, western oval))=False", 
+    "count(filter_str_eq(all_rows, away team, essendon))=1;hop(filter_str_eq(all_rows, away team, essendon), venue)=western oval;and(eq(74, 1), eq(western oval, western oval))=False", 
+    "count(all_rows)=6;hop(filter_str_eq(all_rows, venue, western oval), away team)=essendon;and(eq(74, 6), eq(essendon, essendon))=False", 
+    "count(filter_str_eq(all_rows, venue, western oval))=1;hop(filter_str_eq(all_rows, venue, western oval), away team)=essendon;and(eq(74, 1), eq(essendon, essendon))=False"
+  ]
+]

@@ -1,0 +1,13 @@
+[
+  "2-10809157-1.html.csv", 
+  "more people watch the game in #kardinia park;[4, 4]# than in #glenferrie oval;[2, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, venue, kardinia park), venue)=kardinia park;eq(kardinia park, glenferrie oval)=False", 
+    "hop(filter_str_eq(all_rows, venue, glenferrie oval), venue)=glenferrie oval;eq(glenferrie oval, kardinia park)=False", 
+    "count(filter_str_eq(all_rows, venue, kardinia park))=1;count(filter_str_eq(all_rows, venue, glenferrie oval))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, venue, kardinia park))=1;count(filter_str_eq(all_rows, venue, glenferrie oval))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, venue, kardinia park))=1;count(filter_str_eq(all_rows, venue, glenferrie oval))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, venue, kardinia park), venue)=kardinia park;hop(filter_str_eq(all_rows, venue, glenferrie oval), venue)=glenferrie oval;eq(glenferrie oval, kardinia park)=False"
+  ]
+]

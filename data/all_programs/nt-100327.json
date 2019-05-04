@@ -1,0 +1,13 @@
+[
+  "1-18894744-6.html.csv", 
+  "the #record;[0, 8]# on the #game;[0, 0]# play on #july 1;[1, 1]# be #14 - 5;[3, 8]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, date, july 1), record)=12 - 5;eq(12 - 5, 14 - 5)=False", 
+    "hop(filter_str_eq(all_rows, record, 14 - 5), date)=july 8;eq(july 8, july 1)=False", 
+    "count(filter_str_eq(all_rows, date, july 1))=1;count(filter_str_eq(all_rows, record, 14 - 5))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, july 1), record)=12 - 5;hop(filter_str_eq(all_rows, record, 14 - 5), record)=14 - 5;eq(14 - 5, 12 - 5)=False", 
+    "hop(filter_str_eq(all_rows, date, july 1), date)=july 1;hop(filter_str_eq(all_rows, record, 14 - 5), date)=july 8;eq(july 8, july 1)=False", 
+    "hop(filter_str_eq(all_rows, date, july 1), game)=17;hop(filter_str_eq(all_rows, record, 14 - 5), game)=19;eq(17, 19)=False"
+  ]
+]

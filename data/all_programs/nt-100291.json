@@ -1,0 +1,19 @@
+[
+  "2-1723516-7.html.csv", 
+  "every time wayne ferreira play #lleyton hewitt ,;[23, 4]# the #outcome;[0, 0]# for ferreira be #winner;[18, 0]#", 
+  1, 
+  [
+    "all_eq(filter_str_eq(all_rows, opponent, lleyton hewitt), outcome, winner)=True", 
+    "all_eq(filter_str_eq(all_rows, outcome, winner), opponent, lleyton hewitt)=False", 
+    "and(all_eq(all_rows, opponent, lleyton hewitt), all_eq(all_rows, outcome, winner))=False", 
+    "count(filter_str_eq(all_rows, opponent, lleyton hewitt))=2;count(filter_str_eq(all_rows, outcome, winner))=15;eq(2, 15)=False", 
+    "count(all_rows)=23;count(filter_str_eq(filter_str_eq(all_rows, opponent, lleyton hewitt), outcome, winner))=2;eq(23, 2)=False", 
+    "count(filter_str_eq(all_rows, opponent, lleyton hewitt))=2;count(filter_str_eq(filter_str_eq(all_rows, opponent, lleyton hewitt), outcome, winner))=2;eq(2, 2)=True", 
+    "count(all_rows)=23;count(filter_str_eq(filter_str_eq(all_rows, outcome, winner), opponent, lleyton hewitt))=2;eq(23, 2)=False", 
+    "count(filter_str_eq(all_rows, outcome, winner))=15;count(filter_str_eq(filter_str_eq(all_rows, outcome, winner), opponent, lleyton hewitt))=2;eq(15, 2)=False", 
+    "count(all_rows)=23;count(filter_str_eq(all_rows, outcome, winner))=15;and(all_eq(all_rows, opponent, lleyton hewitt), eq(23, 15))=False", 
+    "count(all_rows)=23;count(filter_str_eq(all_rows, opponent, lleyton hewitt))=2;and(all_eq(all_rows, outcome, winner), eq(23, 2))=False", 
+    "count(all_rows)=23;count(filter_str_eq(all_rows, opponent, lleyton hewitt))=2;and(all_eq(filter_str_eq(all_rows, opponent, lleyton hewitt), outcome, winner), eq(23, 2))=False", 
+    "count(all_rows)=23;count(filter_str_eq(all_rows, outcome, winner))=15;and(all_eq(filter_str_eq(all_rows, outcome, winner), opponent, lleyton hewitt), eq(23, 15))=False"
+  ]
+]

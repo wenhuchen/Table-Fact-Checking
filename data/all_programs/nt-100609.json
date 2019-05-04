@@ -1,0 +1,14 @@
+[
+  "2-18007167-2.html.csv", 
+  "#wiffy cox;[4, 1]# #place;[0, 0]# third and #tom creavy;[8, 1]# #place;[0, 0]# eighth", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, player, wiffy cox), player)=wiffy cox;eq(wiffy cox, tom creavy)=False", 
+    "hop(filter_str_eq(all_rows, player, tom creavy), player)=tom creavy;eq(tom creavy, wiffy cox)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, wiffy cox), player, wiffy cox), player)=wiffy cox;eq(wiffy cox, tom creavy)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, tom creavy), player, tom creavy), player)=tom creavy;eq(tom creavy, wiffy cox)=False", 
+    "count(filter_str_eq(all_rows, player, wiffy cox))=1;count(filter_str_eq(all_rows, player, tom creavy))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, wiffy cox), place)=t3;hop(filter_str_eq(all_rows, player, tom creavy), place)=t8;eq(t8, t3)=False", 
+    "hop(filter_str_eq(all_rows, player, wiffy cox), player)=wiffy cox;hop(filter_str_eq(all_rows, player, tom creavy), player)=tom creavy;eq(tom creavy, wiffy cox)=False"
+  ]
+]

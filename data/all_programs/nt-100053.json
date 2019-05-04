@@ -1,0 +1,11 @@
+[
+  "2-1848746-1.html.csv", 
+  "#16 december;[5, 3]# , #1944;[2, 3]# , be the year the us #cambridge;[5, 1]# be #launch;[0, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, laid down, 16 december 1944), name, uss cambridge), laid down)=16 december 1944;eq(16 december 1944, 6 mar 1944)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, name, uss cambridge), laid down, 16 december 1944), laid down)=16 december 1944;eq(16 december 1944, 6 mar 1944)=False", 
+    "hop(filter_str_eq(all_rows, laid down, 16 december 1944), laid down)=16 december 1944;hop(filter_str_eq(all_rows, laid down, 16 december 1944), name)=uss cambridge;and(eq(16 december 1944, 6 mar 1944), eq(uss cambridge, uss cambridge))=False", 
+    "hop(filter_str_eq(all_rows, laid down, 6 mar 1944), laid down)=6 mar 1944;hop(filter_str_eq(all_rows, laid down, 6 mar 1944), name)=ussalbany;and(eq(6 mar 1944, 16 december 1944), eq(ussalbany, uss cambridge))=False"
+  ]
+]

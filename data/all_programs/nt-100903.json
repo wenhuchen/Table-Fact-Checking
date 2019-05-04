@@ -1,0 +1,14 @@
+[
+  "1-16388439-3.html.csv", 
+  "before #saturday , 17 february;[1, 5]# be the #date;[0, 5]# for #adelaide;[1, 0]# for #westpac stadium;[1, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, saturday , 17 february), home team, adelaide), ground)=westpac stadium;eq(westpac stadium, westpac stadium)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, saturday , 17 february), ground, westpac stadium), home team)=adelaide;eq(adelaide, adelaide)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team, adelaide), date, saturday , 17 february), ground)=westpac stadium;eq(westpac stadium, westpac stadium)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team, adelaide), ground, westpac stadium), date)=saturday , 17 february;eq(saturday , 17 february, saturday , 17 february)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, ground, westpac stadium), date, saturday , 17 february), home team)=adelaide;eq(adelaide, adelaide)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, ground, westpac stadium), home team, adelaide), date)=saturday , 17 february;eq(saturday , 17 february, saturday , 17 february)=True", 
+    "hop(filter_str_eq(all_rows, ground, westpac stadium), date)=saturday , 17 february;hop(filter_str_eq(all_rows, ground, westpac stadium), home team)=adelaide;and(eq(saturday , 17 february, saturday , 17 february), eq(adelaide, adelaide))=True"
+  ]
+]

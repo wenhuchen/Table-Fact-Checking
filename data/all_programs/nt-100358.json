@@ -1,0 +1,16 @@
+[
+  "2-11960788-1.html.csv", 
+  "#elmore waste disposal;[29, 1]# in spratanburg #county;[0, 2]# be #list;[0, 4]# on #03 / 31 / 1989;[29, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, name, elmore waste disposal), listed)=03 / 31 / 1989;eq(03 / 31 / 1989, 03 / 31 / 1989)=True", 
+    "count(filter_str_eq(all_rows, name, elmore waste disposal))=1;count(filter_str_eq(all_rows, listed, 03 / 31 / 1989))=2;eq(1, 2)=False", 
+    "count(all_rows)=31;count(filter_str_eq(filter_str_eq(all_rows, name, elmore waste disposal), listed, 03 / 31 / 1989))=1;eq(31, 1)=False", 
+    "count(filter_str_eq(all_rows, name, elmore waste disposal))=1;count(filter_str_eq(filter_str_eq(all_rows, name, elmore waste disposal), listed, 03 / 31 / 1989))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, name, elmore waste disposal), county)=spartanburg;hop(filter_str_eq(filter_str_eq(all_rows, name, elmore waste disposal), listed, 03 / 31 / 1989), county)=spartanburg;eq(spartanburg, spartanburg)=True", 
+    "hop(filter_str_eq(all_rows, name, elmore waste disposal), listed)=03 / 31 / 1989;hop(filter_str_eq(filter_str_eq(all_rows, name, elmore waste disposal), listed, 03 / 31 / 1989), listed)=03 / 31 / 1989;eq(03 / 31 / 1989, 03 / 31 / 1989)=True", 
+    "hop(filter_str_eq(all_rows, name, elmore waste disposal), name)=elmore waste disposal;hop(filter_str_eq(filter_str_eq(all_rows, name, elmore waste disposal), listed, 03 / 31 / 1989), name)=elmore waste disposal;eq(elmore waste disposal, elmore waste disposal)=True", 
+    "count(all_rows)=31;count(filter_str_eq(filter_str_eq(all_rows, listed, 03 / 31 / 1989), name, elmore waste disposal))=1;eq(31, 1)=False", 
+    "count(filter_str_eq(all_rows, listed, 03 / 31 / 1989))=2;count(filter_str_eq(filter_str_eq(all_rows, listed, 03 / 31 / 1989), name, elmore waste disposal))=1;eq(2, 1)=False"
+  ]
+]

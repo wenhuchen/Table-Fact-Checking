@@ -1,0 +1,12 @@
+[
+  "2-14337020-5.html.csv", 
+  "#lilly (3 - 3);[15, 3]# have a #loss;[0, 3]# on #july;[3, 0]# 18th at #3:11;[15, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, loss, lilly (3 - 3)), time, 3:11), date)=july 18;eq(july 18, july 4)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, time, 3:11), loss, lilly (3 - 3)), date)=july 18;eq(july 18, july 4)=False", 
+    "hop(filter_str_eq(all_rows, loss, lilly (3 - 3)), date)=july 18;hop(filter_str_eq(all_rows, loss, lilly (3 - 3)), time)=3:11;and(eq(july 18, july 4), eq(3:11, 3:11))=False", 
+    "hop(filter_str_eq(all_rows, date, july 4), loss)=bailey (1 - 1);hop(filter_str_eq(all_rows, date, july 4), time)=3:22;and(eq(bailey (1 - 1), lilly (3 - 3)), eq(3:22, 3:11))=False", 
+    "hop(filter_str_eq(all_rows, time, 3:11), loss)=lilly (3 - 3);hop(filter_str_eq(all_rows, time, 3:11), date)=july 18;and(eq(lilly (3 - 3), lilly (3 - 3)), eq(july 18, july 4))=False"
+  ]
+]

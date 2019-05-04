@@ -1,0 +1,13 @@
+[
+  "2-14891198-2.html.csv", 
+  "in #2012;[10, 0]# , there be multiple game with #no result;[0, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, year, 2012), year)=2012;eq(2012, 2012)=True", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, year, 2012))=1;eq(12, 1)=False", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, year, 2012), year, 2012))=1;eq(12, 1)=False", 
+    "count(filter_str_eq(all_rows, year, 2012))=1;count(filter_str_eq(filter_str_eq(all_rows, year, 2012), year, 2012))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, year, 2012), year)=2012;hop(filter_str_eq(filter_str_eq(all_rows, year, 2012), year, 2012), year)=2012;eq(2012, 2012)=True", 
+    "hop(filter_str_eq(all_rows, year, 2012), no result)=0;hop(filter_str_eq(filter_str_eq(all_rows, year, 2012), year, 2012), no result)=0;eq(0, 0)=True"
+  ]
+]

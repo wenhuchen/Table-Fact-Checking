@@ -1,0 +1,24 @@
+[
+  "2-17325937-8.html.csv", 
+  "the detroit piston play #miami;[10, 2]# more time than they play #orlando;[12, 2]# during this period", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, team, orlando), team)=orlando;eq(orlando, miami)=False", 
+    "and(within(all_rows, team, miami), within(all_rows, team, orlando))=True", 
+    "count(filter_str_eq(all_rows, team, miami))=2;count(filter_str_eq(all_rows, team, orlando))=1;less(2, 1);less(2, 1)=False", 
+    "count(filter_str_eq(all_rows, team, miami))=2;count(filter_str_eq(all_rows, team, orlando))=1;eq(2, 1)=False", 
+    "count(filter_str_eq(all_rows, team, miami))=2;count(filter_str_eq(all_rows, team, orlando))=1;greater(2, 1)=True", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, miami))=2;less(12, 2);and(within(all_rows, team, orlando), less(12, 2))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, miami))=2;and(within(all_rows, team, orlando), eq(12, 2))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, miami))=2;and(within(all_rows, team, orlando), greater(12, 2))=True", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, miami))=2;less(12, 2);and(within(filter_str_eq(all_rows, team, miami), team, orlando), less(12, 2))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, miami))=2;and(within(filter_str_eq(all_rows, team, miami), team, orlando), eq(12, 2))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, miami))=2;and(within(filter_str_eq(all_rows, team, miami), team, orlando), greater(12, 2))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, orlando))=1;less(12, 1);and(within(all_rows, team, miami), less(12, 1))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, orlando))=1;and(within(all_rows, team, miami), eq(12, 1))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, orlando))=1;and(within(all_rows, team, miami), greater(12, 1))=True", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, orlando))=1;less(12, 1);and(within(filter_str_eq(all_rows, team, orlando), team, miami), less(12, 1))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, orlando))=1;and(within(filter_str_eq(all_rows, team, orlando), team, miami), eq(12, 1))=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, team, orlando))=1;and(within(filter_str_eq(all_rows, team, orlando), team, miami), greater(12, 1))=False"
+  ]
+]

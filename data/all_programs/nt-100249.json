@@ -1,0 +1,9 @@
+[
+  "1-13657883-2.html.csv", 
+  "#denny long;[10, 2]# be the #gto win team;[0, 2]# at #lime rock;[8, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, gto winning team, denny long), circuit)=donnybrooke;eq(donnybrooke, lime rock)=False", 
+    "count(filter_str_eq(all_rows, gto winning team, denny long))=1;count(filter_str_eq(all_rows, circuit, lime rock))=2;eq(1, 2)=False"
+  ]
+]

@@ -1,0 +1,11 @@
+[
+  "2-1251950-1.html.csv", 
+  "bill vukovich only race on #year;[0, 0]# from #1950;[1, 0]# to #1955;[6, 0]#", 
+  0, 
+  [
+    "hop(filter_eq(all_rows, year, 1950), year)=1950;eq(1955, 1950)=False", 
+    "hop(filter_eq(all_rows, year, 1955), year)=1955;eq(1950, 1955)=False", 
+    "count(filter_eq(all_rows, year, 1950))=1;count(filter_eq(all_rows, year, 1955))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, year, 1950), year)=1950;hop(filter_eq(all_rows, year, 1955), year)=1955;eq(1950, 1955)=False"
+  ]
+]

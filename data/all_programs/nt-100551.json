@@ -1,0 +1,13 @@
+[
+  "2-14091394-4.html.csv", 
+  "#giorgio galetto;[9, 1]# and #mario kiessling;[10, 1]# have the same model #glider;[0, 2]# , #ventus 2ax;[3, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, pilot, giorgio galetto), glider, ventus 2ax), pilot)=giorgio galetto;eq(giorgio galetto, mario kiessling)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, pilot, mario kiessling), glider, ventus 2ax), pilot)=mario kiessling;eq(mario kiessling, giorgio galetto)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, glider, ventus 2ax), pilot, giorgio galetto), pilot)=giorgio galetto;eq(giorgio galetto, mario kiessling)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, glider, ventus 2ax), pilot, mario kiessling), pilot)=mario kiessling;eq(mario kiessling, giorgio galetto)=False", 
+    "hop(filter_str_eq(all_rows, pilot, giorgio galetto), glider)=ventus 2ax;hop(filter_str_eq(all_rows, pilot, giorgio galetto), pilot)=giorgio galetto;and(eq(ventus 2ax, ventus 2ax), eq(giorgio galetto, mario kiessling))=False", 
+    "hop(filter_str_eq(all_rows, pilot, mario kiessling), glider)=ventus 2ax;hop(filter_str_eq(all_rows, pilot, mario kiessling), pilot)=mario kiessling;and(eq(ventus 2ax, ventus 2ax), eq(mario kiessling, giorgio galetto))=False"
+  ]
+]

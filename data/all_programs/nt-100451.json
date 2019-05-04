@@ -1,0 +1,15 @@
+[
+  "2-1018598-4.html.csv", 
+  "#2 - 0;[4, 2]# be the #score;[0, 2]# for the #international friendly;[1, 3]# match - up on #august 17 , 2013;[4, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 2 - 0), type, international friendly), date)=17 august 2013;eq(17 august 2013, 17 august 2013)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 2 - 0), date, 17 august 2013), type)=international friendly;eq(international friendly, international friendly)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, type, international friendly), score, 2 - 0), date)=17 august 2013;eq(17 august 2013, 17 august 2013)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, type, international friendly), date, 17 august 2013), score)=2 - 0;eq(2 - 0, 2 - 0)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 17 august 2013), score, 2 - 0), type)=international friendly;eq(international friendly, international friendly)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 17 august 2013), type, international friendly), score)=2 - 0;eq(2 - 0, 2 - 0)=True", 
+    "hop(filter_str_eq(all_rows, score, 2 - 0), type)=international friendly;hop(filter_str_eq(all_rows, score, 2 - 0), date)=17 august 2013;and(eq(international friendly, international friendly), eq(17 august 2013, 17 august 2013))=True", 
+    "hop(filter_str_eq(all_rows, date, 17 august 2013), score)=2 - 0;hop(filter_str_eq(all_rows, date, 17 august 2013), type)=international friendly;and(eq(2 - 0, 2 - 0), eq(international friendly, international friendly))=True"
+  ]
+]

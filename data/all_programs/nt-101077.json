@@ -1,0 +1,12 @@
+[
+  "2-12762499-2.html.csv", 
+  "on the #berri;[1, 1]# #tournament ,;[0, 1]# the #surface;[0, 2]# be #grass;[1, 2]# and #the opponent in the final;[0, 3]# be #paul baccanello;[1, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, berri), opponent in the final, paul baccanello), surface)=grass;eq(grass, grass)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, surface, grass), opponent in the final, paul baccanello), tournament)=berri;eq(berri, berri)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent in the final, paul baccanello), tournament, berri), surface)=grass;eq(grass, grass)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent in the final, paul baccanello), surface, grass), tournament)=berri;eq(berri, berri)=True", 
+    "hop(filter_str_eq(all_rows, opponent in the final, paul baccanello), tournament)=berri;hop(filter_str_eq(all_rows, opponent in the final, paul baccanello), surface)=grass;and(eq(berri, berri), eq(grass, grass))=True"
+  ]
+]

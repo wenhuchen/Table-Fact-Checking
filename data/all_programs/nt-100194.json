@@ -1,0 +1,9 @@
+[
+  "2-16684748-2.html.csv", 
+  "#hugo bezdek;[3, 0]# and #ed dechellis;[12, 0]# both have the lowest winning percentage of any #coach;[0, 0]# with #846;[3, 4]#", 
+  0, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, coach, hugo bezdek), pct, 846), coach)=hugo bezdek;eq(hugo bezdek, ed dechellis)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, pct, 846), coach, hugo bezdek), coach)=hugo bezdek;eq(hugo bezdek, ed dechellis)=False"
+  ]
+]

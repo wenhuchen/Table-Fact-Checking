@@ -1,0 +1,17 @@
+[
+  "2-15405037-2.html.csv", 
+  "#week;[0, 0]# #6;[6, 0]# fell on the 16th of #october , 2005;[5, 1]#", 
+  1, 
+  [
+    "and(within(all_rows, week, 6), within(all_rows, date, october 9 , 2005))=True", 
+    "hop(filter_str_eq(all_rows, date, october 9 , 2005), week)=5;eq(6, 5)=False", 
+    "hop(filter_eq(all_rows, week, 6), date)=october 16 , 2005;eq(october 16 , 2005, october 9 , 2005)=False", 
+    "count(filter_str_eq(all_rows, date, october 9 , 2005))=1;count(filter_eq(all_rows, week, 6))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, october 9 , 2005), date)=october 9 , 2005;hop(filter_eq(all_rows, week, 6), date)=october 16 , 2005;eq(october 16 , 2005, october 9 , 2005)=False", 
+    "hop(filter_str_eq(all_rows, date, october 9 , 2005), week)=5;hop(filter_eq(all_rows, week, 6), week)=6;eq(5, 6)=False", 
+    "count(all_rows)=17;count(filter_str_eq(all_rows, date, october 9 , 2005))=1;and(within(all_rows, week, 6), eq(17, 1))=False", 
+    "count(all_rows)=17;count(filter_str_eq(all_rows, date, october 9 , 2005))=1;and(within(filter_str_eq(all_rows, date, october 9 , 2005), week, 6), eq(17, 1))=False", 
+    "count(all_rows)=17;count(filter_eq(all_rows, week, 6))=1;and(within(all_rows, date, october 9 , 2005), eq(17, 1))=False", 
+    "count(all_rows)=17;count(filter_eq(all_rows, week, 6))=1;and(within(filter_eq(all_rows, week, 6), date, october 9 , 2005), eq(17, 1))=False"
+  ]
+]

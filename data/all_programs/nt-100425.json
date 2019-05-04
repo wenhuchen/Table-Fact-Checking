@@ -1,0 +1,12 @@
+[
+  "2-18408905-8.html.csv", 
+  "#mong kok , kowloon;[2, 3]# be the #location;[0, 3]# for the #kwai tsing;[4, 0]# #club;[0, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, location, mong kok , kowloon), club)=kitchee;eq(kitchee, kwai tsing)=False", 
+    "hop(filter_str_eq(all_rows, club, kwai tsing), location)=tsing yi , new territories;eq(tsing yi , new territories, mong kok , kowloon)=False", 
+    "count(filter_str_eq(all_rows, location, mong kok , kowloon))=1;count(filter_str_eq(all_rows, club, kwai tsing))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, location, mong kok , kowloon), location)=mong kok , kowloon;hop(filter_str_eq(all_rows, club, kwai tsing), location)=tsing yi , new territories;eq(tsing yi , new territories, mong kok , kowloon)=False", 
+    "hop(filter_str_eq(all_rows, location, mong kok , kowloon), club)=kitchee;hop(filter_str_eq(all_rows, club, kwai tsing), club)=kwai tsing;eq(kwai tsing, kitchee)=False"
+  ]
+]

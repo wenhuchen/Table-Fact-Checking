@@ -1,0 +1,20 @@
+[
+  "2-13928473-1.html.csv", 
+  "the 5th #round;[0, 0]# be the highest #round;[0, 0]# pick from #finland;[7, 3]#", 
+  1, 
+  [
+    "most_freq(   round             player         position     nationality          college / junior / club team\n0      1       jack johnson          defense   united states  us national team development program\n1      2        nate hagemo          defense   united states        university of minnesota (wcha)\n2      3         joe barnes           center          canada                saskatoon blades (whl)\n3      4        jakub vojta          defense  czech republic            hc sparta praha jr (czech)\n4      4     ondrej otcenas  center / winger        slovakia                 tren\u010d\u00edn jr (slovakia)\n5      5          tim kunes           center   united states         new england jr falcons (ejhl)\n6      5     risto korhonen           winger         finland                k\u00e4rp\u00e4t jr (finnish jr)\n7      6  nicolas blanchard           center          canada         chicoutimi saguen\u00e9ens (qmjhl)\n8      7        kyle lawson          defense   united states  us national team development program, nationality)=united states;eq(united states, finland)=False", 
+    "hop(argmax(all_rows, round), nationality)=united states;eq(united states, finland)=False", 
+    "hop(argmin(all_rows, round), nationality)=united states;eq(united states, finland)=False", 
+    "most_freq(   round             player         position     nationality          college / junior / club team\n0      1       jack johnson          defense   united states  us national team development program\n1      2        nate hagemo          defense   united states        university of minnesota (wcha)\n2      3         joe barnes           center          canada                saskatoon blades (whl)\n3      4        jakub vojta          defense  czech republic            hc sparta praha jr (czech)\n4      4     ondrej otcenas  center / winger        slovakia                 tren\u010d\u00edn jr (slovakia)\n5      5          tim kunes           center   united states         new england jr falcons (ejhl)\n6      5     risto korhonen           winger         finland                k\u00e4rp\u00e4t jr (finnish jr)\n7      6  nicolas blanchard           center          canada         chicoutimi saguen\u00e9ens (qmjhl)\n8      7        kyle lawson          defense   united states  us national team development program, nationality)=united states;hop(filter_str_eq(all_rows, nationality, finland), nationality)=finland;eq(finland, united states)=False", 
+    "count(all_rows)=9;count(filter_str_eq(all_rows, nationality, finland))=1;eq(9, 1)=False", 
+    "hop(filter_str_eq(all_rows, nationality, finland), round)=5;min(all_rows, round)=1;eq(5, 1)=False", 
+    "hop(filter_str_eq(all_rows, nationality, finland), round)=5;max(all_rows, round)=7;eq(5, 7)=False", 
+    "count(argmax(all_rows, round))=1;count(filter_str_eq(all_rows, nationality, finland))=1;eq(1, 1)=True", 
+    "hop(argmax(all_rows, round), nationality)=united states;hop(filter_str_eq(all_rows, nationality, finland), nationality)=finland;eq(finland, united states)=False", 
+    "hop(argmax(all_rows, round), round)=7;hop(filter_str_eq(all_rows, nationality, finland), round)=5;eq(7, 5)=False", 
+    "count(filter_str_eq(all_rows, nationality, finland))=1;count(argmin(all_rows, round))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, nationality, finland), nationality)=finland;hop(argmin(all_rows, round), nationality)=united states;eq(united states, finland)=False", 
+    "hop(filter_str_eq(all_rows, nationality, finland), round)=5;hop(argmin(all_rows, round), round)=1;eq(5, 1)=False"
+  ]
+]

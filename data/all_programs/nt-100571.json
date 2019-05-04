@@ -1,0 +1,33 @@
+[
+  "2-1264114-1.html.csv", 
+  "the most #game;[0, 0]# play by a team be 18", 
+  0, 
+  [
+    "count(all_rows)=14;less(18, 14);less(18, 14)=False", 
+    "count(all_rows)=14;eq(18, 14)=False", 
+    "count(last(all_rows))=1;less(18, 1);less(18, 1)=False", 
+    "count(last(all_rows))=1;eq(18, 1)=False", 
+    "hop(last(all_rows), games)=1;less(18, 1);less(18, 1)=False", 
+    "hop(last(all_rows), games)=1;eq(18, 1)=False", 
+    "count(first(all_rows))=1;less(18, 1);less(18, 1)=False", 
+    "count(first(all_rows))=1;eq(18, 1)=False", 
+    "hop(first(all_rows), games)=15;less(18, 15);less(18, 15)=False", 
+    "hop(first(all_rows), games)=15;eq(18, 15)=False", 
+    "count(last(last(all_rows)))=1;less(18, 1);less(18, 1)=False", 
+    "count(last(last(all_rows)))=1;eq(18, 1)=False", 
+    "hop(last(last(all_rows)), games)=1;less(18, 1);less(18, 1)=False", 
+    "hop(last(last(all_rows)), games)=1;eq(18, 1)=False", 
+    "count(first(last(all_rows)))=1;less(18, 1);less(18, 1)=False", 
+    "count(first(last(all_rows)))=1;eq(18, 1)=False", 
+    "hop(first(last(all_rows)), games)=1;less(18, 1);less(18, 1)=False", 
+    "hop(first(last(all_rows)), games)=1;eq(18, 1)=False", 
+    "count(last(first(all_rows)))=1;less(18, 1);less(18, 1)=False", 
+    "count(last(first(all_rows)))=1;eq(18, 1)=False", 
+    "hop(last(first(all_rows)), games)=15;less(18, 15);less(18, 15)=False", 
+    "hop(last(first(all_rows)), games)=15;eq(18, 15)=False", 
+    "count(first(first(all_rows)))=1;less(18, 1);less(18, 1)=False", 
+    "count(first(first(all_rows)))=1;eq(18, 1)=False", 
+    "hop(first(first(all_rows)), games)=15;less(18, 15);less(18, 15)=False", 
+    "hop(first(first(all_rows)), games)=15;eq(18, 15)=False"
+  ]
+]

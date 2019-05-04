@@ -1,0 +1,11 @@
+[
+  "1-26591434-1.html.csv", 
+  "the #rating (kansai);[0, 6]# for the #original;[0, 4]# air date #may;[5, 4]# 25th #, 2010;[5, 4]# be #15.5;[8, 6]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, original airdate, may 4 , 2010 22.00 - 22.54), original airdate, may 4 , 2010 22.00 - 22.54), ratings (kansai))=14.7;eq(15.5, 14.7)=False", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, original airdate, may 4 , 2010 22.00 - 22.54), ratings (kansai), 15.5), original airdate)=may 4 , 2010 22.00 - 22.54;eq(may 4 , 2010 22.00 - 22.54, may 4 , 2010 22.00 - 22.54)=True", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, ratings (kansai), 15.5), original airdate, may 4 , 2010 22.00 - 22.54), original airdate)=may 4 , 2010 22.00 - 22.54;eq(may 4 , 2010 22.00 - 22.54, may 4 , 2010 22.00 - 22.54)=True", 
+    "hop(filter_str_eq(all_rows, original airdate, may 4 , 2010 22.00 - 22.54), original airdate)=may 4 , 2010 22.00 - 22.54;hop(filter_str_eq(all_rows, original airdate, may 4 , 2010 22.00 - 22.54), ratings (kansai))=14.7;and(eq(may 4 , 2010 22.00 - 22.54, may 4 , 2010 22.00 - 22.54), eq(15.5, 14.7))=False"
+  ]
+]

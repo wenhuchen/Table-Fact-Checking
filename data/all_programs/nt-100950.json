@@ -1,0 +1,15 @@
+[
+  "1-14984078-1.html.csv", 
+  "the #game;[0, 5]# #date;[0, 1]# in #week;[0, 0]# #13;[13, 0]# be #december 8 , 1962;[13, 1]# at #memorial stadium;[11, 5]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, december 8 , 1962), game site, memorial stadium), week)=13;eq(13, 13)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, date, december 8 , 1962), week, 13), game site)=memorial stadium;eq(memorial stadium, memorial stadium)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, game site, memorial stadium), date, december 8 , 1962), week)=13;eq(13, 13)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, game site, memorial stadium), week, 13), date)=december 8 , 1962;eq(december 8 , 1962, december 8 , 1962)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, week, 13), date, december 8 , 1962), game site)=memorial stadium;eq(memorial stadium, memorial stadium)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, week, 13), game site, memorial stadium), date)=december 8 , 1962;eq(december 8 , 1962, december 8 , 1962)=True", 
+    "hop(filter_str_eq(all_rows, date, december 8 , 1962), game site)=memorial stadium;hop(filter_str_eq(all_rows, date, december 8 , 1962), week)=13;and(eq(memorial stadium, memorial stadium), eq(13, 13))=True", 
+    "hop(filter_eq(all_rows, week, 13), game site)=memorial stadium;hop(filter_eq(all_rows, week, 13), date)=december 8 , 1962;and(eq(memorial stadium, memorial stadium), eq(december 8 , 1962, december 8 , 1962))=True"
+  ]
+]

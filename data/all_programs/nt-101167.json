@@ -1,0 +1,16 @@
+[
+  "2-12108114-7.html.csv", 
+  "#round;[0, 1]# #f;[6, 1]# be play at the #venue;[0, 3]# #n;[6, 3]# against #liverpool;[6, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, round, f), venue, n), opponent)=liverpool;eq(liverpool, liverpool)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, round, f), opponent, liverpool), venue)=n;eq(n, n)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, venue, n), round, f), opponent)=liverpool;eq(liverpool, liverpool)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, venue, n), opponent, liverpool), round)=f;eq(f, f)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent, liverpool), round, f), venue)=n;eq(n, n)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent, liverpool), venue, n), round)=f;eq(f, f)=True", 
+    "hop(filter_str_eq(all_rows, round, f), venue)=n;hop(filter_str_eq(all_rows, round, f), opponent)=liverpool;and(eq(n, n), eq(liverpool, liverpool))=True", 
+    "hop(filter_str_eq(all_rows, venue, n), round)=f;hop(filter_str_eq(all_rows, venue, n), opponent)=liverpool;and(eq(f, f), eq(liverpool, liverpool))=True", 
+    "hop(filter_str_eq(all_rows, opponent, liverpool), round)=f;hop(filter_str_eq(all_rows, opponent, liverpool), venue)=n;and(eq(f, f), eq(n, n))=True"
+  ]
+]

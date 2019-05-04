@@ -1,0 +1,32 @@
+[
+  "2-11561331-13.html.csv", 
+  "#platform;[0, 3]# #unix , beos , nextstep;[3, 3]# have an #actual version;[0, 1]# of #0.8.29;[3, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version)=0.8.29;eq(0.8.29, 0.8.29)=True", 
+    "hop(filter_str_eq(all_rows, actual version, 0.8.29), platform)=unix , beos , nextstep;eq(unix , beos , nextstep, unix , beos , nextstep)=True", 
+    "and(within(all_rows, platform, unix , beos , nextstep), within(all_rows, platform, 0.8.29))=False", 
+    "and(within(all_rows, platform, unix , beos , nextstep), within(all_rows, actual version, 0.8.29))=True", 
+    "and(within(all_rows, actual version, unix , beos , nextstep), within(all_rows, platform, 0.8.29))=False", 
+    "and(within(all_rows, actual version, unix , beos , nextstep), within(all_rows, actual version, 0.8.29))=False", 
+    "count(filter_str_eq(all_rows, platform, unix , beos , nextstep))=1;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, platform, unix , beos , nextstep), platform)=unix , beos , nextstep;hop(filter_str_eq(all_rows, actual version, 0.8.29), platform)=unix , beos , nextstep;eq(unix , beos , nextstep, unix , beos , nextstep)=True", 
+    "hop(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version)=0.8.29;hop(filter_str_eq(all_rows, actual version, 0.8.29), actual version)=0.8.29;eq(0.8.29, 0.8.29)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version, 0.8.29))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, platform, unix , beos , nextstep))=1;count(filter_str_eq(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version, 0.8.29))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, platform, unix , beos , nextstep), platform)=unix , beos , nextstep;hop(filter_str_eq(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version, 0.8.29), platform)=unix , beos , nextstep;eq(unix , beos , nextstep, unix , beos , nextstep)=True", 
+    "hop(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version)=0.8.29;hop(filter_str_eq(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version, 0.8.29), actual version)=0.8.29;eq(0.8.29, 0.8.29)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, actual version, 0.8.29), platform, unix , beos , nextstep))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, actual version, 0.8.29))=1;count(filter_str_eq(filter_str_eq(all_rows, actual version, 0.8.29), platform, unix , beos , nextstep))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, actual version, 0.8.29), platform)=unix , beos , nextstep;hop(filter_str_eq(filter_str_eq(all_rows, actual version, 0.8.29), platform, unix , beos , nextstep), platform)=unix , beos , nextstep;eq(unix , beos , nextstep, unix , beos , nextstep)=True", 
+    "hop(filter_str_eq(all_rows, actual version, 0.8.29), actual version)=0.8.29;hop(filter_str_eq(filter_str_eq(all_rows, actual version, 0.8.29), platform, unix , beos , nextstep), actual version)=0.8.29;eq(0.8.29, 0.8.29)=True", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, unix , beos , nextstep))=1;and(within(all_rows, platform, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, unix , beos , nextstep))=1;and(within(all_rows, actual version, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, unix , beos , nextstep))=1;and(within(filter_str_eq(all_rows, platform, unix , beos , nextstep), platform, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, platform, unix , beos , nextstep))=1;and(within(filter_str_eq(all_rows, platform, unix , beos , nextstep), actual version, 0.8.29), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(all_rows, platform, unix , beos , nextstep), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(all_rows, actual version, unix , beos , nextstep), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(filter_str_eq(all_rows, actual version, 0.8.29), platform, unix , beos , nextstep), eq(7, 1))=False", 
+    "count(all_rows)=7;count(filter_str_eq(all_rows, actual version, 0.8.29))=1;and(within(filter_str_eq(all_rows, actual version, 0.8.29), actual version, unix , beos , nextstep), eq(7, 1))=False"
+  ]
+]

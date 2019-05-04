@@ -1,0 +1,14 @@
+[
+  "2-12763075-2.html.csv", 
+  "#ko (flying knee);[2, 3]# be the #method;[0, 3]# under the #event;[0, 4]# #jungle fight 2;[16, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, method, ko (flying knee)), event)=the ultimate fighter 12 finale;eq(the ultimate fighter 12 finale, jungle fight 2)=False", 
+    "hop(filter_str_eq(all_rows, event, jungle fight 2), method)=decision;eq(decision, ko (flying knee))=False", 
+    "next(filter_str_eq(all_rows, method, ko (flying knee)));hop(next(filter_str_eq(all_rows, method, ko (flying knee))), event)=wec 50;eq(wec 50, jungle fight 2)=False", 
+    "count(filter_str_eq(all_rows, method, ko (flying knee)))=1;count(filter_str_eq(all_rows, event, jungle fight 2))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, method, ko (flying knee)))=1;count(filter_str_eq(all_rows, event, jungle fight 2))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, method, ko (flying knee)), method)=ko (flying knee);hop(filter_str_eq(all_rows, event, jungle fight 2), method)=decision;eq(decision, ko (flying knee))=False", 
+    "hop(filter_str_eq(all_rows, method, ko (flying knee)), event)=the ultimate fighter 12 finale;hop(filter_str_eq(all_rows, event, jungle fight 2), event)=jungle fight 2;eq(jungle fight 2, the ultimate fighter 12 finale)=False"
+  ]
+]

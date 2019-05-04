@@ -1,0 +1,20 @@
+[
+  "2-11945691-4.html.csv", 
+  "the #record;[0, 4]# for #dallas;[2, 1]# #visitor;[0, 1]# be #15 - 7 - 4;[2, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, visitor, dallas), record)=15 - 7 - 4;eq(15 - 7 - 4, 15 - 7 - 4)=True", 
+    "hop(filter_str_eq(all_rows, record, 15 - 7 - 4), visitor)=dallas;eq(dallas, dallas)=True", 
+    "count(filter_str_eq(all_rows, visitor, dallas))=1;count(filter_str_eq(all_rows, record, 15 - 7 - 4))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, visitor, dallas), record)=15 - 7 - 4;hop(filter_str_eq(all_rows, record, 15 - 7 - 4), record)=15 - 7 - 4;eq(15 - 7 - 4, 15 - 7 - 4)=True", 
+    "hop(filter_str_eq(all_rows, visitor, dallas), visitor)=dallas;hop(filter_str_eq(all_rows, record, 15 - 7 - 4), visitor)=dallas;eq(dallas, dallas)=True", 
+    "count(all_rows)=14;count(filter_str_eq(filter_str_eq(all_rows, visitor, dallas), record, 15 - 7 - 4))=1;eq(14, 1)=False", 
+    "count(filter_str_eq(all_rows, visitor, dallas))=1;count(filter_str_eq(filter_str_eq(all_rows, visitor, dallas), record, 15 - 7 - 4))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, visitor, dallas), record)=15 - 7 - 4;hop(filter_str_eq(filter_str_eq(all_rows, visitor, dallas), record, 15 - 7 - 4), record)=15 - 7 - 4;eq(15 - 7 - 4, 15 - 7 - 4)=True", 
+    "hop(filter_str_eq(all_rows, visitor, dallas), visitor)=dallas;hop(filter_str_eq(filter_str_eq(all_rows, visitor, dallas), record, 15 - 7 - 4), visitor)=dallas;eq(dallas, dallas)=True", 
+    "count(all_rows)=14;count(filter_str_eq(filter_str_eq(all_rows, record, 15 - 7 - 4), visitor, dallas))=1;eq(14, 1)=False", 
+    "count(filter_str_eq(all_rows, record, 15 - 7 - 4))=1;count(filter_str_eq(filter_str_eq(all_rows, record, 15 - 7 - 4), visitor, dallas))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, record, 15 - 7 - 4), record)=15 - 7 - 4;hop(filter_str_eq(filter_str_eq(all_rows, record, 15 - 7 - 4), visitor, dallas), record)=15 - 7 - 4;eq(15 - 7 - 4, 15 - 7 - 4)=True", 
+    "hop(filter_str_eq(all_rows, record, 15 - 7 - 4), visitor)=dallas;hop(filter_str_eq(filter_str_eq(all_rows, record, 15 - 7 - 4), visitor, dallas), visitor)=dallas;eq(dallas, dallas)=True"
+  ]
+]

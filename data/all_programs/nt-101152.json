@@ -1,0 +1,11 @@
+[
+  "1-2581397-5.html.csv", 
+  "the #doncaster;[8, 2]# #race;[0, 2]# be #march 30;[8, 1]# , #2002;[7, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002), date)=30 march 2002;eq(30 march 2002, 9 march 2002)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster), date)=30 march 2002;eq(30 march 2002, 9 march 2002)=False", 
+    "hop(filter_str_eq(all_rows, date, 30 march 2002), race)=doncaster;hop(filter_str_eq(all_rows, date, 30 march 2002), date)=30 march 2002;and(eq(doncaster, doncaster), eq(30 march 2002, 9 march 2002))=False", 
+    "hop(filter_str_eq(all_rows, date, 9 march 2002), race)=coolmore classic;hop(filter_str_eq(all_rows, date, 9 march 2002), date)=9 march 2002;and(eq(coolmore classic, doncaster), eq(9 march 2002, 30 march 2002))=False"
+  ]
+]

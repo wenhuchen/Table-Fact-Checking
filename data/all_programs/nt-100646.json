@@ -1,0 +1,24 @@
+[
+  "1-11622840-1.html.csv", 
+  "the #tournament;[0, 1]# with the biggest #purse;[0, 3]# be #seiko - tucson senior match play championship;[1, 1]#", 
+  1, 
+  [
+    "hop(argmax(all_rows, purse), tournament)=seiko - tucson senior match play championship;eq(seiko - tucson senior match play championship, seiko - tucson senior match play championship)=True", 
+    "hop(argmin(all_rows, purse), tournament)=mony senior tournament of champions;eq(mony senior tournament of champions, seiko - tucson senior match play championship)=False", 
+    "count(all_rows)=21;count(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship))=1;eq(21, 1)=False", 
+    "hop(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship), purse)=306000;min(all_rows, purse)=100000;eq(306000, 100000)=False", 
+    "hop(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship), purse)=306000;max(all_rows, purse)=306000;eq(306000, 306000)=True", 
+    "count(argmax(all_rows, purse))=1;count(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship))=1;eq(1, 1)=True", 
+    "hop(argmax(all_rows, purse), tournament)=seiko - tucson senior match play championship;hop(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship), tournament)=seiko - tucson senior match play championship;eq(seiko - tucson senior match play championship, seiko - tucson senior match play championship)=True", 
+    "hop(argmax(all_rows, purse), purse)=306000;hop(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship), purse)=306000;eq(306000, 306000)=True", 
+    "count(all_rows)=21;count(filter_str_eq(argmax(all_rows, purse), tournament, seiko - tucson senior match play championship))=1;eq(21, 1)=False", 
+    "count(argmax(all_rows, purse))=1;count(filter_str_eq(argmax(all_rows, purse), tournament, seiko - tucson senior match play championship))=1;eq(1, 1)=True", 
+    "hop(argmax(all_rows, purse), tournament)=seiko - tucson senior match play championship;hop(filter_str_eq(argmax(all_rows, purse), tournament, seiko - tucson senior match play championship), tournament)=seiko - tucson senior match play championship;eq(seiko - tucson senior match play championship, seiko - tucson senior match play championship)=True", 
+    "hop(argmax(all_rows, purse), purse)=306000;hop(filter_str_eq(argmax(all_rows, purse), tournament, seiko - tucson senior match play championship), purse)=306000;eq(306000, 306000)=True", 
+    "hop(filter_str_eq(argmax(all_rows, purse), tournament, seiko - tucson senior match play championship), purse)=306000;min(all_rows, purse)=100000;eq(306000, 100000)=False", 
+    "hop(filter_str_eq(argmax(all_rows, purse), tournament, seiko - tucson senior match play championship), purse)=306000;max(all_rows, purse)=306000;eq(306000, 306000)=True", 
+    "count(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship))=1;count(argmin(all_rows, purse))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship), tournament)=seiko - tucson senior match play championship;hop(argmin(all_rows, purse), tournament)=mony senior tournament of champions;eq(mony senior tournament of champions, seiko - tucson senior match play championship)=False", 
+    "hop(filter_str_eq(all_rows, tournament, seiko - tucson senior match play championship), purse)=306000;hop(argmin(all_rows, purse), purse)=100000;eq(306000, 100000)=False"
+  ]
+]

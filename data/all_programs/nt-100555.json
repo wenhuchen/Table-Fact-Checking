@@ -1,0 +1,9 @@
+[
+  "2-14091394-4.html.csv", 
+  "#pilot;[0, 1]# #ben flewett;[2, 1]# and #mark holliday;[7, 1]# both have model #glider;[0, 2]# , #asg 29;[6, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, pilot, ben flewett), pilot)=ben flewett;hop(filter_str_eq(all_rows, pilot, ben flewett), glider)=asw 27;and(eq(ben flewett, mark holliday), eq(asw 27, asg 29))=False", 
+    "hop(filter_str_eq(all_rows, pilot, mark holliday), pilot)=mark holliday;hop(filter_str_eq(all_rows, pilot, mark holliday), glider)=asw 27;and(eq(mark holliday, ben flewett), eq(asw 27, asg 29))=False"
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  "2-12334051-1.html.csv", 
+  "#109;[10, 4]# #female;[0, 4]# speak #russian;[3, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, females, 109), language)=belarusian;eq(belarusian, russian)=False", 
+    "hop(filter_str_eq(all_rows, language, russian), females)=1 586;eq(1 586, 109)=False", 
+    "count(filter_str_eq(all_rows, females, 109))=1;count(filter_str_eq(all_rows, language, russian))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, females, 109), females)=109;hop(filter_str_eq(all_rows, language, russian), females)=1 586;eq(1 586, 109)=False", 
+    "hop(filter_str_eq(all_rows, females, 109), language)=belarusian;hop(filter_str_eq(all_rows, language, russian), language)=russian;eq(russian, belarusian)=False"
+  ]
+]

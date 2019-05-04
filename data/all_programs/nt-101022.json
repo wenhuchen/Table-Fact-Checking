@@ -1,0 +1,12 @@
+[
+  "2-10806194-16.html.csv", 
+  "#carlton;[5, 0]# #score;[0, 1]# #21.16;[4, 1]# on average when play #st kilda;[5, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team, carlton), away team, st kilda), home team score)=12.16 (88);eq(12.16 (88), 21.16 (142))=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team, st kilda), home team, carlton), home team score)=12.16 (88);eq(12.16 (88), 21.16 (142))=False", 
+    "hop(filter_str_eq(all_rows, home team, carlton), home team score)=12.16 (88);hop(filter_str_eq(all_rows, home team, carlton), away team)=st kilda;and(eq(12.16 (88), 21.16 (142)), eq(st kilda, st kilda))=False", 
+    "hop(filter_str_eq(all_rows, home team score, 21.16 (142)), home team)=collingwood;hop(filter_str_eq(all_rows, home team score, 21.16 (142)), away team)=melbourne;and(eq(collingwood, carlton), eq(melbourne, st kilda))=False", 
+    "hop(filter_str_eq(all_rows, away team, st kilda), home team score)=12.16 (88);hop(filter_str_eq(all_rows, away team, st kilda), home team)=carlton;and(eq(12.16 (88), 21.16 (142)), eq(carlton, carlton))=False"
+  ]
+]

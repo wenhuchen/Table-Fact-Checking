@@ -1,0 +1,11 @@
+[
+  "2-17784502-1.html.csv", 
+  "#champion;[0, 2]# #masahiro kawamura;[1, 2]# 's #score;[0, 4]# be #267;[2, 4]# ( - 17) at #ibaraki country club;[1, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, champion, masahiro kawamura), tournament location, ibaraki country club), score)=275 (9);eq(275 (9), 267 (17))=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament location, ibaraki country club), champion, masahiro kawamura), score)=275 (9);eq(275 (9), 267 (17))=False", 
+    "hop(filter_str_eq(all_rows, champion, masahiro kawamura), score)=275 (9);hop(filter_str_eq(all_rows, champion, masahiro kawamura), tournament location)=ibaraki country club;and(eq(275 (9), 267 (17)), eq(ibaraki country club, ibaraki country club))=False", 
+    "hop(filter_str_eq(all_rows, score, 267 (17)), champion)=masanori kobayashi;hop(filter_str_eq(all_rows, score, 267 (17)), tournament location)=higashi hirono golf club;and(eq(masanori kobayashi, masahiro kawamura), eq(higashi hirono golf club, ibaraki country club))=False"
+  ]
+]

@@ -1,0 +1,29 @@
+[
+  "2-18103106-4.html.csv", 
+  "in this round , there be no #score;[0, 3]# above a #69;[13, 3]#", 
+  1, 
+  [
+    "and(within(all_rows, score, 69), not_within(all_rows, score, 69))=False", 
+    "count(all_rows)=17;count(filter_not_eq(all_rows, score, 69))=8;eq(17, 8)=False", 
+    "count(all_rows)=17;count(filter_not_eq(all_rows, score, 69))=8;greater(17, 8)=True", 
+    "count(all_rows)=17;count(filter_not_eq(all_rows, score, 69))=8;not_eq(17, 8)=True", 
+    "count(all_rows)=17;count(filter_eq(all_rows, score, 69))=9;eq(17, 9)=False", 
+    "count(all_rows)=17;count(filter_eq(all_rows, score, 69))=9;greater(17, 9)=True", 
+    "count(all_rows)=17;count(filter_eq(all_rows, score, 69))=9;not_eq(17, 9)=True", 
+    "count(all_rows)=17;count(filter_not_eq(filter_not_eq(all_rows, score, 69), score, 69))=8;eq(17, 8)=False", 
+    "count(all_rows)=17;count(filter_not_eq(filter_not_eq(all_rows, score, 69), score, 69))=8;greater(17, 8)=True", 
+    "count(all_rows)=17;count(filter_not_eq(filter_not_eq(all_rows, score, 69), score, 69))=8;not_eq(17, 8)=True", 
+    "count(filter_not_eq(all_rows, score, 69))=8;count(filter_not_eq(filter_not_eq(all_rows, score, 69), score, 69))=8;eq(8, 8)=True", 
+    "count(filter_not_eq(all_rows, score, 69))=8;count(filter_not_eq(filter_not_eq(all_rows, score, 69), score, 69))=8;greater(8, 8)=False", 
+    "count(filter_not_eq(all_rows, score, 69))=8;count(filter_not_eq(filter_not_eq(all_rows, score, 69), score, 69))=8;not_eq(8, 8)=False", 
+    "count(filter_not_eq(all_rows, score, 69))=8;count(filter_eq(all_rows, score, 69))=9;eq(8, 9)=False", 
+    "count(filter_not_eq(all_rows, score, 69))=8;count(filter_eq(all_rows, score, 69))=9;greater(8, 9)=False", 
+    "count(filter_not_eq(all_rows, score, 69))=8;count(filter_eq(all_rows, score, 69))=9;not_eq(8, 9)=True", 
+    "count(all_rows)=17;count(filter_eq(filter_eq(all_rows, score, 69), score, 69))=9;eq(17, 9)=False", 
+    "count(all_rows)=17;count(filter_eq(filter_eq(all_rows, score, 69), score, 69))=9;greater(17, 9)=True", 
+    "count(all_rows)=17;count(filter_eq(filter_eq(all_rows, score, 69), score, 69))=9;not_eq(17, 9)=True", 
+    "count(filter_eq(all_rows, score, 69))=9;count(filter_eq(filter_eq(all_rows, score, 69), score, 69))=9;eq(9, 9)=True", 
+    "count(filter_eq(all_rows, score, 69))=9;count(filter_eq(filter_eq(all_rows, score, 69), score, 69))=9;greater(9, 9)=False", 
+    "count(filter_eq(all_rows, score, 69))=9;count(filter_eq(filter_eq(all_rows, score, 69), score, 69))=9;not_eq(9, 9)=False"
+  ]
+]

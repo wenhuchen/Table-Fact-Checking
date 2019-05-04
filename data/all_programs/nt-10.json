@@ -1,0 +1,31 @@
+[
+  "2-1859269-1.html.csv", 
+  "during the #third round;[3, 0]# of the #turkish;[1, 5]# cup , there be no #new entry;[0, 4]# during that #stage;[6, 0]#", 
+  1, 
+  [
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, third round), leagues entering at this round, tff third league & turkish regional amateur league), round)=third round;eq(third round, group stage)=False", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, third round), leagues entering at this round, tff third league & turkish regional amateur league), round)=third round;not_eq(third round, group stage)=True", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, third round), round, group stage), leagues entering at this round)=none;eq(none, tff third league & turkish regional amateur league)=False", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, third round), round, group stage), leagues entering at this round)=none;not_eq(none, tff third league & turkish regional amateur league)=True", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, third round), round)=first round;eq(first round, group stage)=False", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, third round), round)=first round;not_eq(first round, group stage)=True", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, group stage), round)=first round;eq(first round, third round)=False", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, group stage), round)=first round;not_eq(first round, third round)=True", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, group stage), round, third round), leagues entering at this round)=none;eq(none, tff third league & turkish regional amateur league)=False", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, group stage), round, third round), leagues entering at this round)=none;not_eq(none, tff third league & turkish regional amateur league)=True", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, group stage), leagues entering at this round, tff third league & turkish regional amateur league), round)=group stage;eq(group stage, third round)=False", 
+    "hop(filter_str_not_eq(filter_str_eq(all_rows, round, group stage), leagues entering at this round, tff third league & turkish regional amateur league), round)=group stage;not_eq(group stage, third round)=True", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, third round), leagues entering at this round, tff third league & turkish regional amateur league), round)=first round;eq(first round, group stage)=False", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, third round), leagues entering at this round, tff third league & turkish regional amateur league), round)=first round;not_eq(first round, group stage)=True", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, third round), round, group stage), leagues entering at this round)=none;eq(none, tff third league & turkish regional amateur league)=False", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, third round), round, group stage), leagues entering at this round)=none;not_eq(none, tff third league & turkish regional amateur league)=True", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, third round), round)=third round;eq(third round, group stage)=False", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, third round), round)=third round;not_eq(third round, group stage)=True", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, group stage), round)=group stage;eq(group stage, third round)=False", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, leagues entering at this round, tff third league & turkish regional amateur league), round, group stage), round)=group stage;not_eq(group stage, third round)=True", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, group stage), round, third round), leagues entering at this round)=none;eq(none, tff third league & turkish regional amateur league)=False", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, group stage), round, third round), leagues entering at this round)=none;not_eq(none, tff third league & turkish regional amateur league)=True", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, group stage), leagues entering at this round, tff third league & turkish regional amateur league), round)=first round;eq(first round, third round)=False", 
+    "hop(filter_str_eq(filter_str_not_eq(all_rows, round, group stage), leagues entering at this round, tff third league & turkish regional amateur league), round)=first round;not_eq(first round, third round)=True"
+  ]
+]

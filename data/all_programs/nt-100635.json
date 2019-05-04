@@ -1,0 +1,29 @@
+[
+  "2-11122001-5.html.csv", 
+  "#lorenzo zanetti;[7, 0]# be in #grid;[0, 4]# #14;[7, 4]# while #stevie bonsey;[25, 0]# be in #grid;[0, 4]# #33;[29, 4]#", 
+  0, 
+  [
+    "and(all_eq(all_rows, grid, 33), all_eq(filter_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), rider, stevie bonsey))=False", 
+    "and(all_eq(all_rows, grid, 33), all_eq(filter_str_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti), rider, stevie bonsey))=False", 
+    "and(all_eq(all_rows, rider, stevie bonsey), all_eq(filter_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), grid, 33))=False", 
+    "and(all_eq(all_rows, rider, stevie bonsey), all_eq(filter_str_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti), grid, 33))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), all_eq(filter_str_eq(all_rows, rider, stevie bonsey), grid, 33))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), all_eq(filter_eq(all_rows, grid, 33), rider, stevie bonsey))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 33), all_eq(filter_str_eq(all_rows, rider, stevie bonsey), grid, 14))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 33), all_eq(filter_eq(all_rows, grid, 14), rider, stevie bonsey))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 33), all_eq(filter_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), rider, stevie bonsey))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), rider, stevie bonsey), all_eq(filter_eq(all_rows, grid, 14), grid, 33))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), rider, stevie bonsey), all_eq(filter_eq(all_rows, grid, 33), grid, 14))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), rider, stevie bonsey), all_eq(filter_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), grid, 33))=False", 
+    "and(all_eq(filter_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), grid, 33), all_eq(filter_eq(filter_str_eq(all_rows, rider, lorenzo zanetti), grid, 14), rider, stevie bonsey))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, stevie bonsey), grid, 14), all_eq(filter_eq(all_rows, grid, 33), rider, lorenzo zanetti))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, stevie bonsey), grid, 33), all_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, stevie bonsey), rider, lorenzo zanetti), all_eq(filter_eq(all_rows, grid, 14), grid, 33))=False", 
+    "and(all_eq(filter_str_eq(all_rows, rider, stevie bonsey), rider, lorenzo zanetti), all_eq(filter_eq(all_rows, grid, 33), grid, 14))=False", 
+    "and(all_eq(filter_eq(all_rows, grid, 14), grid, 33), all_eq(filter_str_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti), rider, stevie bonsey))=False", 
+    "and(all_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti), all_eq(filter_eq(all_rows, grid, 33), rider, stevie bonsey))=False", 
+    "and(all_eq(filter_eq(all_rows, grid, 14), rider, stevie bonsey), all_eq(filter_str_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti), grid, 33))=False", 
+    "and(all_eq(filter_eq(all_rows, grid, 14), rider, stevie bonsey), all_eq(filter_eq(all_rows, grid, 33), rider, lorenzo zanetti))=False", 
+    "and(all_eq(filter_str_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti), grid, 33), all_eq(filter_str_eq(filter_eq(all_rows, grid, 14), rider, lorenzo zanetti), rider, stevie bonsey))=False"
+  ]
+]

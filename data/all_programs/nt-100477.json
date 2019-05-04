@@ -1,0 +1,9 @@
+[
+  "2-1187902-1.html.csv", 
+  "#the last meal;[4, 2]# be #record;[0, 4]# on #1963 - 04 - 03;[7, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, translation, the last meal), recorded)=1964 - 01 - 08;eq(1964 - 01 - 08, 1963 - 04 - 03)=False", 
+    "count(filter_str_eq(all_rows, translation, the last meal))=1;count(filter_str_eq(all_rows, recorded, 1963 - 04 - 03))=3;eq(1, 3)=False"
+  ]
+]

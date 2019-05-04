@@ -1,0 +1,12 @@
+[
+  "1-22034853-1.html.csv", 
+  "#sister;[38, 1]# be from #2002;[30, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, film title used in nomination, sister), year (ceremony))=2012 (85th);eq(2012 (85th), 2002 (75th))=False", 
+    "hop(filter_str_eq(all_rows, year (ceremony), 2002 (75th)), film title used in nomination)=aime ton p\u00e8re;eq(aime ton p\u00e8re, sister)=False", 
+    "count(filter_str_eq(all_rows, film title used in nomination, sister))=1;count(filter_str_eq(all_rows, year (ceremony), 2002 (75th)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, film title used in nomination, sister), film title used in nomination)=sister;hop(filter_str_eq(all_rows, year (ceremony), 2002 (75th)), film title used in nomination)=aime ton p\u00e8re;eq(aime ton p\u00e8re, sister)=False", 
+    "hop(filter_str_eq(all_rows, film title used in nomination, sister), year (ceremony))=2012 (85th);hop(filter_str_eq(all_rows, year (ceremony), 2002 (75th)), year (ceremony))=2002 (75th);eq(2002 (75th), 2012 (85th))=False"
+  ]
+]

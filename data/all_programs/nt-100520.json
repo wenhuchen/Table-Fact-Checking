@@ -1,0 +1,12 @@
+[
+  "2-14649522-2.html.csv", 
+  "#week;[0, 0]# #6;[6, 0]# be #november 1 , 1992;[9, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, date, november 1 , 1992), week)=9;eq(6, 9)=False", 
+    "hop(filter_eq(all_rows, week, 6), date)=-;eq(-, november 1 , 1992)=False", 
+    "count(filter_str_eq(all_rows, date, november 1 , 1992))=1;count(filter_eq(all_rows, week, 6))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, november 1 , 1992), date)=november 1 , 1992;hop(filter_eq(all_rows, week, 6), date)=-;eq(-, november 1 , 1992)=False", 
+    "hop(filter_str_eq(all_rows, date, november 1 , 1992), week)=9;hop(filter_eq(all_rows, week, 6), week)=6;eq(9, 6)=False"
+  ]
+]

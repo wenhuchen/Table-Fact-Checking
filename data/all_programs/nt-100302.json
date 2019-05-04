@@ -1,0 +1,15 @@
+[
+  "2-17370522-14.html.csv", 
+  "#transfer;[0, 4]# news : #nigel de jong;[10, 2]# be #transfer;[0, 4]# out from #hamburg;[10, 3]# , #transfer fee;[0, 4]# around #16 m;[10, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, nigel de jong), from club, hamburg), transfer fee)=16 m;eq(16 m, 16 m)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, nigel de jong), transfer fee, 16 m), from club)=hamburg;eq(hamburg, hamburg)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, from club, hamburg), player, nigel de jong), transfer fee)=16 m;eq(16 m, 16 m)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, from club, hamburg), transfer fee, 16 m), player)=nigel de jong;eq(nigel de jong, nigel de jong)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, transfer fee, 16 m), player, nigel de jong), from club)=hamburg;eq(hamburg, hamburg)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, transfer fee, 16 m), from club, hamburg), player)=nigel de jong;eq(nigel de jong, nigel de jong)=True", 
+    "hop(filter_str_eq(all_rows, player, nigel de jong), transfer fee)=16 m;hop(filter_str_eq(all_rows, player, nigel de jong), from club)=hamburg;and(eq(16 m, 16 m), eq(hamburg, hamburg))=True", 
+    "hop(filter_str_eq(all_rows, transfer fee, 16 m), player)=nigel de jong;hop(filter_str_eq(all_rows, transfer fee, 16 m), from club)=hamburg;and(eq(nigel de jong, nigel de jong), eq(hamburg, hamburg))=True"
+  ]
+]

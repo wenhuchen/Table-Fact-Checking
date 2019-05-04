@@ -1,0 +1,26 @@
+[
+  "2-17993994-5.html.csv", 
+  "#brenda jones;[10, 2]# and #carrie minter;[10, 3]# be playboy cyber girl in #week 5;[0, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, week 3, brenda jones), week 4)=carrie minter;eq(carrie minter, carrie minter)=True", 
+    "hop(filter_str_eq(all_rows, week 4, carrie minter), week 3)=brenda jones;eq(brenda jones, brenda jones)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, week 3, brenda jones), week 4, carrie minter), week 3)=brenda jones;eq(brenda jones, brenda jones)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, week 3, brenda jones), week 3, brenda jones), week 4)=carrie minter;eq(carrie minter, carrie minter)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, week 4, carrie minter), week 3, brenda jones), week 3)=brenda jones;eq(brenda jones, brenda jones)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, week 3, brenda jones), week 4, carrie minter), week 4)=carrie minter;eq(carrie minter, carrie minter)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, week 4, carrie minter), week 3, brenda jones), week 4)=carrie minter;eq(carrie minter, carrie minter)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, week 4, carrie minter), week 4, carrie minter), week 3)=brenda jones;eq(brenda jones, brenda jones)=True", 
+    "count(filter_str_eq(all_rows, week 3, brenda jones))=1;count(filter_str_eq(all_rows, week 4, carrie minter))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, week 3, brenda jones), week 3)=brenda jones;hop(filter_str_eq(all_rows, week 4, carrie minter), week 3)=brenda jones;eq(brenda jones, brenda jones)=True", 
+    "hop(filter_str_eq(all_rows, week 3, brenda jones), week 4)=carrie minter;hop(filter_str_eq(all_rows, week 4, carrie minter), week 4)=carrie minter;eq(carrie minter, carrie minter)=True", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, week 3, brenda jones), week 4, carrie minter))=1;eq(12, 1)=False", 
+    "count(filter_str_eq(all_rows, week 3, brenda jones))=1;count(filter_str_eq(filter_str_eq(all_rows, week 3, brenda jones), week 4, carrie minter))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, week 3, brenda jones), week 3)=brenda jones;hop(filter_str_eq(filter_str_eq(all_rows, week 3, brenda jones), week 4, carrie minter), week 3)=brenda jones;eq(brenda jones, brenda jones)=True", 
+    "hop(filter_str_eq(all_rows, week 3, brenda jones), week 4)=carrie minter;hop(filter_str_eq(filter_str_eq(all_rows, week 3, brenda jones), week 4, carrie minter), week 4)=carrie minter;eq(carrie minter, carrie minter)=True", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, week 4, carrie minter), week 3, brenda jones))=1;eq(12, 1)=False", 
+    "count(filter_str_eq(all_rows, week 4, carrie minter))=1;count(filter_str_eq(filter_str_eq(all_rows, week 4, carrie minter), week 3, brenda jones))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, week 4, carrie minter), week 3)=brenda jones;hop(filter_str_eq(filter_str_eq(all_rows, week 4, carrie minter), week 3, brenda jones), week 3)=brenda jones;eq(brenda jones, brenda jones)=True", 
+    "hop(filter_str_eq(all_rows, week 4, carrie minter), week 4)=carrie minter;hop(filter_str_eq(filter_str_eq(all_rows, week 4, carrie minter), week 3, brenda jones), week 4)=carrie minter;eq(carrie minter, carrie minter)=True"
+  ]
+]

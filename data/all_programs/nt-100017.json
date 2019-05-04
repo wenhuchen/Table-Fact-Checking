@@ -1,0 +1,15 @@
+[
+  "2-1126627-2.html.csv", 
+  "the #japanese gp;[17, 2]# take place more than a month after the #belgian gp;[14, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, grand prix, japanese gp), grand prix)=japanese gp;eq(japanese gp, belgian gp)=False", 
+    "hop(filter_str_eq(all_rows, grand prix, belgian gp), grand prix)=belgian gp;eq(belgian gp, japanese gp)=False", 
+    "next(filter_str_eq(all_rows, grand prix, japanese gp));hop(next(filter_str_eq(all_rows, grand prix, japanese gp)), grand prix)=brazilian gp;eq(brazilian gp, belgian gp)=False", 
+    "next(filter_str_eq(all_rows, grand prix, belgian gp));hop(next(filter_str_eq(all_rows, grand prix, belgian gp)), grand prix)=italian gp;eq(italian gp, japanese gp)=False", 
+    "count(filter_str_eq(all_rows, grand prix, japanese gp))=1;count(filter_str_eq(all_rows, grand prix, belgian gp))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, grand prix, japanese gp))=1;count(filter_str_eq(all_rows, grand prix, belgian gp))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, grand prix, japanese gp))=1;count(filter_str_eq(all_rows, grand prix, belgian gp))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, grand prix, japanese gp), grand prix)=japanese gp;hop(filter_str_eq(all_rows, grand prix, belgian gp), grand prix)=belgian gp;eq(belgian gp, japanese gp)=False"
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  "2-10887379-15.html.csv", 
+  "#north melbourne;[2, 0]# play at #home;[0, 0]# against #footscray;[1, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, home team, north melbourne), away team)=melbourne;eq(melbourne, footscray)=False", 
+    "hop(filter_str_eq(all_rows, away team, footscray), home team)=fitzroy;eq(fitzroy, north melbourne)=False", 
+    "count(filter_str_eq(all_rows, home team, north melbourne))=1;count(filter_str_eq(all_rows, away team, footscray))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, home team, north melbourne), home team)=north melbourne;hop(filter_str_eq(all_rows, away team, footscray), home team)=fitzroy;eq(fitzroy, north melbourne)=False", 
+    "hop(filter_str_eq(all_rows, home team, north melbourne), away team)=melbourne;hop(filter_str_eq(all_rows, away team, footscray), away team)=footscray;eq(footscray, melbourne)=False"
+  ]
+]

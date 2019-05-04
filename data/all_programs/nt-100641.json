@@ -1,0 +1,22 @@
+[
+  "2-12819742-3.html.csv", 
+  "#bruce devlin;[1, 1]# and #bobby clampett;[3, 1]# both have a #score;[0, 3]# of #70;[1, 3]#", 
+  0, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, player, bruce devlin), score, 70), player)=bruce devlin;eq(bruce devlin, bobby clampett)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, score, 70), player, bruce devlin), player)=bruce devlin;eq(bruce devlin, bobby clampett)=False", 
+    "hop(filter_str_eq(all_rows, player, bruce devlin), player)=bruce devlin;and(within(all_rows, score, 70), eq(bruce devlin, bobby clampett))=False", 
+    "hop(filter_str_eq(all_rows, player, bobby clampett), player)=bobby clampett;and(within(all_rows, score, 70), eq(bobby clampett, bruce devlin))=False", 
+    "and(and(within(all_rows, score, 70), within(all_rows, player, bruce devlin)), within(all_rows, player, bobby clampett))=True", 
+    "and(and(within(all_rows, score, 70), within(all_rows, player, bobby clampett)), within(all_rows, player, bruce devlin))=True", 
+    "hop(filter_str_eq(all_rows, player, bruce devlin), player)=bruce devlin;and(within(filter_str_eq(all_rows, player, bruce devlin), score, 70), eq(bruce devlin, bobby clampett))=False", 
+    "hop(filter_str_eq(all_rows, player, bruce devlin), score)=70;and(within(all_rows, player, bobby clampett), eq(70, 70))=True", 
+    "hop(filter_str_eq(all_rows, player, bruce devlin), score)=70;and(within(filter_str_eq(all_rows, player, bruce devlin), player, bobby clampett), eq(70, 70))=False", 
+    "hop(filter_str_eq(all_rows, player, bobby clampett), player)=bobby clampett;and(within(filter_str_eq(all_rows, player, bobby clampett), score, 70), eq(bobby clampett, bruce devlin))=False", 
+    "hop(filter_str_eq(all_rows, player, bobby clampett), score)=71;and(within(all_rows, player, bruce devlin), eq(70, 71))=False", 
+    "hop(filter_str_eq(all_rows, player, bobby clampett), score)=71;and(within(filter_str_eq(all_rows, player, bobby clampett), player, bruce devlin), eq(70, 71))=False", 
+    "and(and(within(all_rows, player, bruce devlin), within(all_rows, player, bobby clampett)), within(all_rows, score, 70))=True", 
+    "hop(filter_str_eq(all_rows, player, bruce devlin), player)=bruce devlin;hop(filter_str_eq(all_rows, player, bruce devlin), score)=70;and(eq(bruce devlin, bobby clampett), eq(70, 70))=False", 
+    "hop(filter_str_eq(all_rows, player, bobby clampett), player)=bobby clampett;hop(filter_str_eq(all_rows, player, bobby clampett), score)=71;and(eq(bobby clampett, bruce devlin), eq(70, 71))=False"
+  ]
+]

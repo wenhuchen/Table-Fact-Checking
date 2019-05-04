@@ -1,0 +1,16 @@
+[
+  "2-11728067-4.html.csv", 
+  "#others;[5, 0]# #bva;[0, 5]# be #3%;[5, 5]# and #ipsos;[0, 8]# be #4%;[5, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, party, others), bva 6 / 1 / 09, 3%), ipsos 5 / 30 / 09)=4%;eq(4%, 4%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, party, others), ipsos 5 / 30 / 09, 4%), bva 6 / 1 / 09)=3%;eq(3%, 3%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, bva 6 / 1 / 09, 3%), party, others), ipsos 5 / 30 / 09)=4%;eq(4%, 4%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, bva 6 / 1 / 09, 3%), ipsos 5 / 30 / 09, 4%), party)=others;eq(others, others)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, ipsos 5 / 30 / 09, 4%), party, others), bva 6 / 1 / 09)=3%;eq(3%, 3%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, ipsos 5 / 30 / 09, 4%), bva 6 / 1 / 09, 3%), party)=others;eq(others, others)=True", 
+    "hop(filter_str_eq(all_rows, party, others), bva 6 / 1 / 09)=3%;hop(filter_str_eq(all_rows, party, others), ipsos 5 / 30 / 09)=4%;and(eq(3%, 3%), eq(4%, 4%))=True", 
+    "hop(filter_str_eq(all_rows, bva 6 / 1 / 09, 3%), party)=others;hop(filter_str_eq(all_rows, bva 6 / 1 / 09, 3%), ipsos 5 / 30 / 09)=4%;and(eq(others, others), eq(4%, 4%))=True", 
+    "hop(filter_str_eq(all_rows, ipsos 5 / 30 / 09, 4%), bva 6 / 1 / 09)=3%;hop(filter_str_eq(all_rows, ipsos 5 / 30 / 09, 4%), party)=others;and(eq(3%, 3%), eq(others, others))=True"
+  ]
+]

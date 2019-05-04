@@ -1,0 +1,25 @@
+[
+  "2-17993994-5.html.csv", 
+  "#vicki , sarah & rachel satterfield;[12, 1]# be the cyber girl for #week 3;[0, 2]# after #simone linsell;[12, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3)=simone linsell;eq(simone linsell, simone linsell)=True", 
+    "hop(filter_str_eq(all_rows, week 3, simone linsell), week 2)=vicki , sarah & rachel satterfield;eq(vicki , sarah & rachel satterfield, vicki , sarah & rachel satterfield)=True", 
+    "count(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield))=1;count(filter_str_eq(all_rows, week 3, simone linsell))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield))=1;count(filter_str_eq(all_rows, week 3, simone linsell))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3)=simone linsell;hop(filter_str_eq(all_rows, week 3, simone linsell), week 3)=simone linsell;eq(simone linsell, simone linsell)=True", 
+    "hop(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 2)=vicki , sarah & rachel satterfield;hop(filter_str_eq(all_rows, week 3, simone linsell), week 2)=vicki , sarah & rachel satterfield;eq(vicki , sarah & rachel satterfield, vicki , sarah & rachel satterfield)=True", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3, simone linsell))=1;eq(12, 1)=False", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3, simone linsell))=1;greater(12, 1)=True", 
+    "count(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield))=1;count(filter_str_eq(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3, simone linsell))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield))=1;count(filter_str_eq(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3, simone linsell))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3)=simone linsell;hop(filter_str_eq(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3, simone linsell), week 3)=simone linsell;eq(simone linsell, simone linsell)=True", 
+    "hop(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 2)=vicki , sarah & rachel satterfield;hop(filter_str_eq(filter_str_eq(all_rows, week 2, vicki , sarah & rachel satterfield), week 3, simone linsell), week 2)=vicki , sarah & rachel satterfield;eq(vicki , sarah & rachel satterfield, vicki , sarah & rachel satterfield)=True", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, week 3, simone linsell), week 2, vicki , sarah & rachel satterfield))=1;eq(12, 1)=False", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, week 3, simone linsell), week 2, vicki , sarah & rachel satterfield))=1;greater(12, 1)=True", 
+    "count(filter_str_eq(all_rows, week 3, simone linsell))=1;count(filter_str_eq(filter_str_eq(all_rows, week 3, simone linsell), week 2, vicki , sarah & rachel satterfield))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, week 3, simone linsell))=1;count(filter_str_eq(filter_str_eq(all_rows, week 3, simone linsell), week 2, vicki , sarah & rachel satterfield))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, week 3, simone linsell), week 3)=simone linsell;hop(filter_str_eq(filter_str_eq(all_rows, week 3, simone linsell), week 2, vicki , sarah & rachel satterfield), week 3)=simone linsell;eq(simone linsell, simone linsell)=True", 
+    "hop(filter_str_eq(all_rows, week 3, simone linsell), week 2)=vicki , sarah & rachel satterfield;hop(filter_str_eq(filter_str_eq(all_rows, week 3, simone linsell), week 2, vicki , sarah & rachel satterfield), week 2)=vicki , sarah & rachel satterfield;eq(vicki , sarah & rachel satterfield, vicki , sarah & rachel satterfield)=True"
+  ]
+]

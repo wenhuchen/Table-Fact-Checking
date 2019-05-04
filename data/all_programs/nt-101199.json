@@ -1,0 +1,17 @@
+[
+  "2-17769516-2.html.csv", 
+  "all 5 member of the california legislative lgbt caucus be member of the #democratic;[1, 2]# #party;[0, 2]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, party, democratic))=5;eq(5, 5)=True", 
+    "count(all_rows)=5;and(all_eq(all_rows, party, democratic), eq(5, 5))=True", 
+    "count(all_rows)=5;and(within(all_rows, party, democratic), eq(5, 5))=True", 
+    "count(filter_str_eq(filter_str_eq(all_rows, party, democratic), party, democratic))=5;eq(5, 5)=True", 
+    "count(all_rows)=5;add(5, 5)=10;count(filter_str_eq(all_rows, party, democratic))=5;eq(10, 5)=False", 
+    "count(filter_str_eq(all_rows, party, democratic))=5;and(all_eq(all_rows, party, democratic), eq(5, 5))=True", 
+    "count(all_rows)=5;and(all_eq(filter_str_eq(all_rows, party, democratic), party, democratic), eq(5, 5))=True", 
+    "count(filter_str_eq(all_rows, party, democratic))=5;and(all_eq(filter_str_eq(all_rows, party, democratic), party, democratic), eq(5, 5))=True", 
+    "count(filter_str_eq(all_rows, party, democratic))=5;and(within(all_rows, party, democratic), eq(5, 5))=True", 
+    "count(filter_str_eq(all_rows, party, democratic))=5;and(within(filter_str_eq(all_rows, party, democratic), party, democratic), eq(5, 5))=True"
+  ]
+]

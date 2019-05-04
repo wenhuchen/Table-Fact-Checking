@@ -1,0 +1,32 @@
+[
+  "1-26476336-2.html.csv", 
+  "from #2005 - 2010;[8, 3]# the #location;[0, 1]# be list as #omaha , nebraska;[8, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, years, 2005 - 2010), location)=omaha , nebraska;eq(omaha , nebraska, omaha , nebraska)=True", 
+    "hop(filter_str_eq(all_rows, location, omaha , nebraska), years)=2005 - 2010;eq(2005 - 2010, 2005 - 2010)=True", 
+    "and(within(all_rows, location, 2005 - 2010), within(all_rows, location, omaha , nebraska))=False", 
+    "and(within(all_rows, location, 2005 - 2010), within(all_rows, years, omaha , nebraska))=False", 
+    "and(within(all_rows, years, 2005 - 2010), within(all_rows, location, omaha , nebraska))=True", 
+    "and(within(all_rows, years, 2005 - 2010), within(all_rows, years, omaha , nebraska))=False", 
+    "count(filter_str_eq(all_rows, years, 2005 - 2010))=1;count(filter_str_eq(all_rows, location, omaha , nebraska))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, years, 2005 - 2010), location)=omaha , nebraska;hop(filter_str_eq(all_rows, location, omaha , nebraska), location)=omaha , nebraska;eq(omaha , nebraska, omaha , nebraska)=True", 
+    "hop(filter_str_eq(all_rows, years, 2005 - 2010), years)=2005 - 2010;hop(filter_str_eq(all_rows, location, omaha , nebraska), years)=2005 - 2010;eq(2005 - 2010, 2005 - 2010)=True", 
+    "count(all_rows)=10;count(filter_str_eq(filter_str_eq(all_rows, years, 2005 - 2010), location, omaha , nebraska))=1;eq(10, 1)=False", 
+    "count(filter_str_eq(all_rows, years, 2005 - 2010))=1;count(filter_str_eq(filter_str_eq(all_rows, years, 2005 - 2010), location, omaha , nebraska))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, years, 2005 - 2010), location)=omaha , nebraska;hop(filter_str_eq(filter_str_eq(all_rows, years, 2005 - 2010), location, omaha , nebraska), location)=omaha , nebraska;eq(omaha , nebraska, omaha , nebraska)=True", 
+    "hop(filter_str_eq(all_rows, years, 2005 - 2010), years)=2005 - 2010;hop(filter_str_eq(filter_str_eq(all_rows, years, 2005 - 2010), location, omaha , nebraska), years)=2005 - 2010;eq(2005 - 2010, 2005 - 2010)=True", 
+    "count(all_rows)=10;count(filter_str_eq(filter_str_eq(all_rows, location, omaha , nebraska), years, 2005 - 2010))=1;eq(10, 1)=False", 
+    "count(filter_str_eq(all_rows, location, omaha , nebraska))=1;count(filter_str_eq(filter_str_eq(all_rows, location, omaha , nebraska), years, 2005 - 2010))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, location, omaha , nebraska), location)=omaha , nebraska;hop(filter_str_eq(filter_str_eq(all_rows, location, omaha , nebraska), years, 2005 - 2010), location)=omaha , nebraska;eq(omaha , nebraska, omaha , nebraska)=True", 
+    "hop(filter_str_eq(all_rows, location, omaha , nebraska), years)=2005 - 2010;hop(filter_str_eq(filter_str_eq(all_rows, location, omaha , nebraska), years, 2005 - 2010), years)=2005 - 2010;eq(2005 - 2010, 2005 - 2010)=True", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, years, 2005 - 2010))=1;and(within(all_rows, location, omaha , nebraska), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, years, 2005 - 2010))=1;and(within(all_rows, years, omaha , nebraska), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, years, 2005 - 2010))=1;and(within(filter_str_eq(all_rows, years, 2005 - 2010), location, omaha , nebraska), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, years, 2005 - 2010))=1;and(within(filter_str_eq(all_rows, years, 2005 - 2010), years, omaha , nebraska), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, location, omaha , nebraska))=1;and(within(all_rows, location, 2005 - 2010), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, location, omaha , nebraska))=1;and(within(all_rows, years, 2005 - 2010), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, location, omaha , nebraska))=1;and(within(filter_str_eq(all_rows, location, omaha , nebraska), location, 2005 - 2010), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, location, omaha , nebraska))=1;and(within(filter_str_eq(all_rows, location, omaha , nebraska), years, 2005 - 2010), eq(10, 1))=False"
+  ]
+]

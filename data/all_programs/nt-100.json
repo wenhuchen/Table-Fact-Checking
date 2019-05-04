@@ -1,0 +1,12 @@
+[
+  "1-27397948-2.html.csv", 
+  "#unhappy medium;[7, 2]# be #write by;[0, 4]# #breen frazier;[7, 4]# and have an #original air date;[0, 5]# on #november 16 , 2007;[8, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, title, unhappy medium), written by, breen frazier), original air date)=november 9 , 2007;eq(november 9 , 2007, november 16 , 2007)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, written by, breen frazier), title, unhappy medium), original air date)=november 9 , 2007;eq(november 9 , 2007, november 16 , 2007)=False", 
+    "hop(filter_str_eq(all_rows, title, unhappy medium), written by)=breen frazier;hop(filter_str_eq(all_rows, title, unhappy medium), original air date)=november 9 , 2007;and(eq(breen frazier, breen frazier), eq(november 9 , 2007, november 16 , 2007))=False", 
+    "hop(filter_str_eq(all_rows, written by, breen frazier), original air date)=november 9 , 2007;hop(filter_str_eq(all_rows, written by, breen frazier), title)=unhappy medium;and(eq(november 9 , 2007, november 16 , 2007), eq(unhappy medium, unhappy medium))=False", 
+    "hop(filter_str_eq(all_rows, original air date, november 16 , 2007), written by)=teddy tenenbaum;hop(filter_str_eq(all_rows, original air date, november 16 , 2007), title)=bad blood;and(eq(teddy tenenbaum, breen frazier), eq(bad blood, unhappy medium))=False"
+  ]
+]

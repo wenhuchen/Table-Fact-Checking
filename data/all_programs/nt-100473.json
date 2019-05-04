@@ -1,0 +1,12 @@
+[
+  "2-1187902-1.html.csv", 
+  "#le;[7, 1]# fenetres be #record;[0, 4]# #1964 - 01 - 08;[4, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, title, les toros), recorded)=1963 - 04 - 03;eq(1963 - 04 - 03, 1964 - 01 - 08)=False", 
+    "hop(filter_str_eq(all_rows, recorded, 1964 - 01 - 08), title)=le dernier repas;eq(le dernier repas, les toros)=False", 
+    "count(filter_str_eq(all_rows, title, les toros))=1;count(filter_str_eq(all_rows, recorded, 1964 - 01 - 08))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, title, les toros), recorded)=1963 - 04 - 03;hop(filter_str_eq(all_rows, recorded, 1964 - 01 - 08), recorded)=1964 - 01 - 08;eq(1964 - 01 - 08, 1963 - 04 - 03)=False", 
+    "hop(filter_str_eq(all_rows, title, les toros), title)=les toros;hop(filter_str_eq(all_rows, recorded, 1964 - 01 - 08), title)=le dernier repas;eq(le dernier repas, les toros)=False"
+  ]
+]

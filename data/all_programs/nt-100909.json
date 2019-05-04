@@ -1,0 +1,32 @@
+[
+  "1-1341690-9.html.csv", 
+  "#don fuqua;[2, 1]# be #unopposed;[2, 5]# in his election", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, incumbent, don fuqua), candidates)=don fuqua (d) unopposed;eq(don fuqua (d) unopposed, don fuqua (d) unopposed)=True", 
+    "hop(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent)=don fuqua;eq(don fuqua, don fuqua)=True", 
+    "and(within(all_rows, incumbent, don fuqua), within(all_rows, incumbent, don fuqua (d) unopposed))=False", 
+    "and(within(all_rows, incumbent, don fuqua), within(all_rows, candidates, don fuqua (d) unopposed))=True", 
+    "and(within(all_rows, candidates, don fuqua), within(all_rows, incumbent, don fuqua (d) unopposed))=False", 
+    "and(within(all_rows, candidates, don fuqua), within(all_rows, candidates, don fuqua (d) unopposed))=False", 
+    "count(filter_str_eq(all_rows, incumbent, don fuqua))=1;count(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, don fuqua), incumbent)=don fuqua;hop(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent)=don fuqua;eq(don fuqua, don fuqua)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, don fuqua), candidates)=don fuqua (d) unopposed;hop(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), candidates)=don fuqua (d) unopposed;eq(don fuqua (d) unopposed, don fuqua (d) unopposed)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, incumbent, don fuqua), candidates, don fuqua (d) unopposed))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, incumbent, don fuqua))=1;count(filter_str_eq(filter_str_eq(all_rows, incumbent, don fuqua), candidates, don fuqua (d) unopposed))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, don fuqua), incumbent)=don fuqua;hop(filter_str_eq(filter_str_eq(all_rows, incumbent, don fuqua), candidates, don fuqua (d) unopposed), incumbent)=don fuqua;eq(don fuqua, don fuqua)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, don fuqua), candidates)=don fuqua (d) unopposed;hop(filter_str_eq(filter_str_eq(all_rows, incumbent, don fuqua), candidates, don fuqua (d) unopposed), candidates)=don fuqua (d) unopposed;eq(don fuqua (d) unopposed, don fuqua (d) unopposed)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent, don fuqua))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed))=1;count(filter_str_eq(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent, don fuqua))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent)=don fuqua;hop(filter_str_eq(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent, don fuqua), incumbent)=don fuqua;eq(don fuqua, don fuqua)=True", 
+    "hop(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), candidates)=don fuqua (d) unopposed;hop(filter_str_eq(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent, don fuqua), candidates)=don fuqua (d) unopposed;eq(don fuqua (d) unopposed, don fuqua (d) unopposed)=True", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, incumbent, don fuqua))=1;and(within(all_rows, incumbent, don fuqua (d) unopposed), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, incumbent, don fuqua))=1;and(within(all_rows, candidates, don fuqua (d) unopposed), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, incumbent, don fuqua))=1;and(within(filter_str_eq(all_rows, incumbent, don fuqua), incumbent, don fuqua (d) unopposed), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, incumbent, don fuqua))=1;and(within(filter_str_eq(all_rows, incumbent, don fuqua), candidates, don fuqua (d) unopposed), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed))=1;and(within(all_rows, incumbent, don fuqua), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed))=1;and(within(all_rows, candidates, don fuqua), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed))=1;and(within(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), incumbent, don fuqua), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed))=1;and(within(filter_str_eq(all_rows, candidates, don fuqua (d) unopposed), candidates, don fuqua), eq(8, 1))=False"
+  ]
+]

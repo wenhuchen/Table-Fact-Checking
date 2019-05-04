@@ -1,0 +1,11 @@
+[
+  "2-11512776-2.html.csv", 
+  "the rockies have a total of #2;[1, 2]# win and #3;[8, 5]# #loss;[0, 3]# versus the #padre;[8, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 8 - 2), opponent, padres), record)=1 - 0;eq(1 - 0, 3 - 5)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, record, 3 - 5), opponent, padres), score)=6 - 4;eq(6 - 4, 8 - 2)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent, padres), score, 8 - 2), record)=1 - 0;eq(1 - 0, 3 - 5)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent, padres), record, 3 - 5), score)=6 - 4;eq(6 - 4, 8 - 2)=False"
+  ]
+]

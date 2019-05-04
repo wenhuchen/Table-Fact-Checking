@@ -1,0 +1,20 @@
+[
+  "2-12763075-2.html.csv", 
+  "#decision;[16, 3]# be the #method;[0, 3]# under the #event;[0, 4]# #jungle fight 2;[16, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, event, jungle fight 2), method)=decision;eq(decision, decision)=True", 
+    "count(filter_str_eq(all_rows, method, decision))=2;count(filter_str_eq(all_rows, event, jungle fight 2))=1;less(2, 1);less(2, 1)=False", 
+    "count(filter_str_eq(all_rows, method, decision))=2;count(filter_str_eq(all_rows, event, jungle fight 2))=1;eq(2, 1)=False", 
+    "count(all_rows)=16;count(filter_str_eq(filter_str_eq(all_rows, method, decision), event, jungle fight 2))=1;less(16, 1);less(16, 1)=False", 
+    "count(all_rows)=16;count(filter_str_eq(filter_str_eq(all_rows, method, decision), event, jungle fight 2))=1;eq(16, 1)=False", 
+    "count(filter_str_eq(all_rows, method, decision))=2;count(filter_str_eq(filter_str_eq(all_rows, method, decision), event, jungle fight 2))=1;less(2, 1);less(2, 1)=False", 
+    "count(filter_str_eq(all_rows, method, decision))=2;count(filter_str_eq(filter_str_eq(all_rows, method, decision), event, jungle fight 2))=1;eq(2, 1)=False", 
+    "count(all_rows)=16;count(filter_str_eq(filter_str_eq(all_rows, event, jungle fight 2), method, decision))=1;less(16, 1);less(16, 1)=False", 
+    "count(all_rows)=16;count(filter_str_eq(filter_str_eq(all_rows, event, jungle fight 2), method, decision))=1;eq(16, 1)=False", 
+    "count(filter_str_eq(all_rows, event, jungle fight 2))=1;count(filter_str_eq(filter_str_eq(all_rows, event, jungle fight 2), method, decision))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, event, jungle fight 2))=1;count(filter_str_eq(filter_str_eq(all_rows, event, jungle fight 2), method, decision))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, event, jungle fight 2), method)=decision;hop(filter_str_eq(filter_str_eq(all_rows, event, jungle fight 2), method, decision), method)=decision;eq(decision, decision)=True", 
+    "hop(filter_str_eq(all_rows, event, jungle fight 2), event)=jungle fight 2;hop(filter_str_eq(filter_str_eq(all_rows, event, jungle fight 2), method, decision), event)=jungle fight 2;eq(jungle fight 2, jungle fight 2)=True"
+  ]
+]

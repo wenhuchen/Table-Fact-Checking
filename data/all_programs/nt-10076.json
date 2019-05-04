@@ -1,0 +1,12 @@
+[
+  "2-1614982-4.html.csv", 
+  "the #euro 1988 semi - final;[21, 4]# match happen in #1 june 1988;[19, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, competition, euro 1988 semi - finals), date)=22 june 1988;eq(22 june 1988, 1 june 1988)=False", 
+    "hop(filter_str_eq(all_rows, date, 1 june 1988), competition)=friendly;eq(friendly, euro 1988 semi - finals)=False", 
+    "count(filter_str_eq(all_rows, competition, euro 1988 semi - finals))=1;count(filter_str_eq(all_rows, date, 1 june 1988))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, competition, euro 1988 semi - finals), competition)=euro 1988 semi - finals;hop(filter_str_eq(all_rows, date, 1 june 1988), competition)=friendly;eq(friendly, euro 1988 semi - finals)=False", 
+    "hop(filter_str_eq(all_rows, competition, euro 1988 semi - finals), date)=22 june 1988;hop(filter_str_eq(all_rows, date, 1 june 1988), date)=1 june 1988;eq(1 june 1988, 22 june 1988)=False"
+  ]
+]

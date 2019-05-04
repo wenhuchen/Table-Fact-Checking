@@ -1,0 +1,16 @@
+[
+  "2-18379129-4.html.csv", 
+  "at the 13th international festival of ancient greek drama , 2 #company;[0, 2]# perform more than 1 #play;[0, 0]#", 
+  0, 
+  [
+    "diff(2, 1)=1;count(all_rows)=9;less(1, 9);less(1, 9)=True", 
+    "diff(2, 1)=1;count(all_rows)=9;eq(1, 9)=False", 
+    "diff(2, 1)=1;count(all_rows)=9;greater(1, 9)=False", 
+    "count(all_rows)=9;diff(2, 9)=-7;less(1, -7);less(1, -7)=False", 
+    "count(all_rows)=9;diff(2, 9)=-7;eq(1, -7)=False", 
+    "count(all_rows)=9;diff(2, 9)=-7;greater(1, -7)=True", 
+    "count(all_rows)=9;diff(1, 9)=-8;less(2, -8);less(2, -8)=False", 
+    "count(all_rows)=9;diff(1, 9)=-8;eq(2, -8)=False", 
+    "count(all_rows)=9;diff(1, 9)=-8;greater(2, -8)=True"
+  ]
+]

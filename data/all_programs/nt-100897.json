@@ -1,0 +1,15 @@
+[
+  "1-16388439-3.html.csv", 
+  "#adelaide;[1, 0]# be the #home team;[0, 0]# for #football park;[5, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, ground, football park), home team)=adelaide;eq(adelaide, adelaide)=True", 
+    "count(filter_str_eq(all_rows, home team, adelaide))=2;count(filter_str_eq(all_rows, ground, football park))=1;eq(2, 1)=False", 
+    "count(all_rows)=5;count(filter_str_eq(filter_str_eq(all_rows, home team, adelaide), ground, football park))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, home team, adelaide))=2;count(filter_str_eq(filter_str_eq(all_rows, home team, adelaide), ground, football park))=1;eq(2, 1)=False", 
+    "count(all_rows)=5;count(filter_str_eq(filter_str_eq(all_rows, ground, football park), home team, adelaide))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, ground, football park))=1;count(filter_str_eq(filter_str_eq(all_rows, ground, football park), home team, adelaide))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, ground, football park), home team)=adelaide;hop(filter_str_eq(filter_str_eq(all_rows, ground, football park), home team, adelaide), home team)=adelaide;eq(adelaide, adelaide)=True", 
+    "hop(filter_str_eq(all_rows, ground, football park), ground)=football park;hop(filter_str_eq(filter_str_eq(all_rows, ground, football park), home team, adelaide), ground)=football park;eq(football park, football park)=True"
+  ]
+]

@@ -1,0 +1,23 @@
+[
+  "2-10251937-1.html.csv", 
+  "the #class;[0, 3]# #gt2;[2, 3]# , have drive greater than #133;[1, 4]# #lap;[0, 4]# , place below18th position and have a #class;[0, 3]# position of #1st;[4, 6]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_less(all_rows, laps, 133), class, gt2), class pos)=dnf;eq(dnf, 1st)=False", 
+    "hop(filter_less(filter_str_eq(all_rows, class, gt2), laps, 133), class pos)=dnf;eq(dnf, 1st)=False", 
+    "min(filter_str_eq(filter_str_eq(all_rows, class, gt2), class pos, 1st), laps)=326;less(133, 326);less(133, 326)=True", 
+    "min(filter_str_eq(filter_str_eq(all_rows, class, gt2), class pos, 1st), laps)=326;eq(133, 326)=False", 
+    "min(filter_str_eq(filter_str_eq(all_rows, class, gt2), class pos, 1st), laps)=326;greater(133, 326)=False", 
+    "max(filter_str_eq(filter_str_eq(all_rows, class, gt2), class pos, 1st), laps)=329;less(133, 329);less(133, 329)=True", 
+    "max(filter_str_eq(filter_str_eq(all_rows, class, gt2), class pos, 1st), laps)=329;eq(133, 329)=False", 
+    "max(filter_str_eq(filter_str_eq(all_rows, class, gt2), class pos, 1st), laps)=329;greater(133, 329)=False", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, class, gt2), laps, 133), class pos)=dnf;eq(dnf, 1st)=False", 
+    "min(filter_str_eq(filter_str_eq(all_rows, class pos, 1st), class, gt2), laps)=326;less(133, 326);less(133, 326)=True", 
+    "min(filter_str_eq(filter_str_eq(all_rows, class pos, 1st), class, gt2), laps)=326;eq(133, 326)=False", 
+    "min(filter_str_eq(filter_str_eq(all_rows, class pos, 1st), class, gt2), laps)=326;greater(133, 326)=False", 
+    "max(filter_str_eq(filter_str_eq(all_rows, class pos, 1st), class, gt2), laps)=329;less(133, 329);less(133, 329)=True", 
+    "max(filter_str_eq(filter_str_eq(all_rows, class pos, 1st), class, gt2), laps)=329;eq(133, 329)=False", 
+    "max(filter_str_eq(filter_str_eq(all_rows, class pos, 1st), class, gt2), laps)=329;greater(133, 329)=False", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, laps, 133), class, gt2), class pos)=dnf;eq(dnf, 1st)=False"
+  ]
+]

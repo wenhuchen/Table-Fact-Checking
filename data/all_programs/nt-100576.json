@@ -1,0 +1,12 @@
+[
+  "2-1235888-1.html.csv", 
+  "#connaught type b;[4, 2]# earn #0;[6, 4]# #point;[0, 4]# in #1955;[3, 0]#", 
+  1, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, chassis, connaught type b), year, 1955), points)=0;eq(0, 0)=True", 
+    "hop(filter_eq(filter_eq(all_rows, points, 0), year, 1955), chassis)=connaught type b;eq(connaught type b, connaught type b)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, year, 1955), chassis, connaught type b), points)=0;eq(0, 0)=True", 
+    "hop(filter_eq(filter_eq(all_rows, year, 1955), points, 0), chassis)=connaught type b;eq(connaught type b, connaught type b)=True", 
+    "hop(filter_eq(all_rows, year, 1955), chassis)=connaught type b;hop(filter_eq(all_rows, year, 1955), points)=0;and(eq(connaught type b, connaught type b), eq(0, 0))=True"
+  ]
+]

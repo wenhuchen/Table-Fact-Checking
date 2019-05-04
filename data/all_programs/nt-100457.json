@@ -1,0 +1,11 @@
+[
+  "2-1833981-1.html.csv", 
+  "the ranking for #kingston;[15, 5]# in #june 2013;[15, 4]# be 14.0", 
+  0, 
+  [
+    "count(filter_str_eq(filter_str_eq(all_rows, location, kingston), date, 23 june 2013))=1;eq(14.0, 1)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, date, 23 june 2013), location, kingston))=1;eq(14.0, 1)=False", 
+    "count(all_rows)=28;hop(filter_str_eq(all_rows, location, kingston), date)=23 june 2013;and(eq(14.0, 28), eq(23 june 2013, 23 june 2013))=False", 
+    "count(filter_str_eq(all_rows, location, kingston))=1;hop(filter_str_eq(all_rows, location, kingston), date)=23 june 2013;and(eq(14.0, 1), eq(23 june 2013, 23 june 2013))=False"
+  ]
+]

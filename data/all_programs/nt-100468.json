@@ -1,0 +1,24 @@
+[
+  "2-1187902-1.html.csv", 
+  "#le dernier repas;[4, 1]# or #the last;[4, 2]# meat be #track;[0, 0]# #4;[4, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_greater_eq(all_rows, track, 4), title, le dernier repas), translation)=the last meal;eq(the last meal, the last meal)=True", 
+    "hop(filter_str_eq(filter_greater_eq(all_rows, track, 4), translation, the last meal), title)=le dernier repas;eq(le dernier repas, le dernier repas)=True", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, title, le dernier repas), track, 4), translation)=the last meal;eq(the last meal, the last meal)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, title, le dernier repas), translation, the last meal), track)=4;eq(4, 4)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, title, le dernier repas), track, 4), translation)=the last meal;eq(the last meal, the last meal)=True", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, title, le dernier repas), track, 4), translation)=the last meal;eq(the last meal, the last meal)=True", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, translation, the last meal), track, 4), title)=le dernier repas;eq(le dernier repas, le dernier repas)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, translation, the last meal), title, le dernier repas), track)=4;eq(4, 4)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, translation, the last meal), track, 4), title)=le dernier repas;eq(le dernier repas, le dernier repas)=True", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, translation, the last meal), track, 4), title)=le dernier repas;eq(le dernier repas, le dernier repas)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, track, 4), title, le dernier repas), translation)=the last meal;eq(the last meal, the last meal)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, track, 4), translation, the last meal), title)=le dernier repas;eq(le dernier repas, le dernier repas)=True", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, track, 4), title, le dernier repas), translation)=the last meal;eq(the last meal, the last meal)=True", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, track, 4), translation, the last meal), title)=le dernier repas;eq(le dernier repas, le dernier repas)=True", 
+    "hop(filter_str_eq(all_rows, title, le dernier repas), translation)=the last meal;hop(filter_str_eq(all_rows, title, le dernier repas), track)=4;and(eq(the last meal, the last meal), eq(4, 4))=True", 
+    "hop(filter_str_eq(all_rows, translation, the last meal), title)=le dernier repas;hop(filter_str_eq(all_rows, translation, the last meal), track)=4;and(eq(le dernier repas, le dernier repas), eq(4, 4))=True", 
+    "hop(filter_eq(all_rows, track, 4), title)=le dernier repas;hop(filter_eq(all_rows, track, 4), translation)=the last meal;and(eq(le dernier repas, le dernier repas), eq(the last meal, the last meal))=True"
+  ]
+]

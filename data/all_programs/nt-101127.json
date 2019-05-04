@@ -1,0 +1,11 @@
+[
+  "1-22669375-1.html.csv", 
+  "round #1;[1, 0]# on #february 28;[1, 1]# have #mike mosley;[4, 7]# as the winning #driver;[0, 7]#", 
+  0, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, date, february 28), rnd, 1), winning driver)=al unser;eq(al unser, mike mosley)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, rnd, 1), date, february 28), winning driver)=al unser;eq(al unser, mike mosley)=False", 
+    "hop(filter_str_eq(all_rows, winning driver, mike mosley), date)=april 25;hop(filter_str_eq(all_rows, winning driver, mike mosley), rnd)=4;and(eq(april 25, february 28), eq(1, 4))=False", 
+    "hop(filter_eq(all_rows, rnd, 1), winning driver)=al unser;hop(filter_eq(all_rows, rnd, 1), date)=february 28;and(eq(al unser, mike mosley), eq(february 28, february 28))=False"
+  ]
+]

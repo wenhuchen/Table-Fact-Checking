@@ -1,0 +1,9 @@
+[
+  "2-1111788-1.html.csv", 
+  "the #venue;[0, 2]# be in #estadio centenario , montevideo , uruguay;[4, 2]# after they be hold in #estadio parque central , montevideo , uruguay;[1, 2]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, venue, estadio centenario , montevideo , uruguay))=5;count(filter_str_eq(all_rows, venue, estadio parque central , montevideo , uruguay))=3;eq(5, 3)=False", 
+    "count(filter_str_eq(all_rows, venue, estadio centenario , montevideo , uruguay))=5;count(filter_str_eq(all_rows, venue, estadio parque central , montevideo , uruguay))=3;greater(5, 3)=True"
+  ]
+]

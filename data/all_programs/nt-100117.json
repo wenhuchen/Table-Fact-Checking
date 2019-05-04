@@ -1,0 +1,25 @@
+[
+  "2-17784502-1.html.csv", 
+  "#champion;[0, 2]# #hideto tanihara;[6, 2]# take home the #winner 's share;[0, 7]# of #40000000;[6, 7]#", 
+  1, 
+  [
+    "and(within(all_rows, winner 's share, 40000000), within(all_rows, champion, hideto tanihara))=True", 
+    "hop(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share)=40000000;eq(40000000, 40000000)=True", 
+    "hop(filter_eq(all_rows, winner 's share, 40000000), champion)=hideto tanihara;eq(hideto tanihara, hideto tanihara)=True", 
+    "count(filter_str_eq(all_rows, champion, hideto tanihara))=1;count(filter_eq(all_rows, winner 's share, 40000000))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, champion, hideto tanihara), champion)=hideto tanihara;hop(filter_eq(all_rows, winner 's share, 40000000), champion)=hideto tanihara;eq(hideto tanihara, hideto tanihara)=True", 
+    "hop(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share)=40000000;hop(filter_eq(all_rows, winner 's share, 40000000), winner 's share)=40000000;eq(40000000, 40000000)=True", 
+    "count(all_rows)=6;count(filter_eq(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share, 40000000))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, champion, hideto tanihara))=1;count(filter_eq(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share, 40000000))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, champion, hideto tanihara), champion)=hideto tanihara;hop(filter_eq(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share, 40000000), champion)=hideto tanihara;eq(hideto tanihara, hideto tanihara)=True", 
+    "hop(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share)=40000000;hop(filter_eq(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share, 40000000), winner 's share)=40000000;eq(40000000, 40000000)=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_eq(all_rows, winner 's share, 40000000), champion, hideto tanihara))=1;eq(6, 1)=False", 
+    "count(filter_eq(all_rows, winner 's share, 40000000))=1;count(filter_str_eq(filter_eq(all_rows, winner 's share, 40000000), champion, hideto tanihara))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, winner 's share, 40000000), champion)=hideto tanihara;hop(filter_str_eq(filter_eq(all_rows, winner 's share, 40000000), champion, hideto tanihara), champion)=hideto tanihara;eq(hideto tanihara, hideto tanihara)=True", 
+    "hop(filter_eq(all_rows, winner 's share, 40000000), winner 's share)=40000000;hop(filter_str_eq(filter_eq(all_rows, winner 's share, 40000000), champion, hideto tanihara), winner 's share)=40000000;eq(40000000, 40000000)=True", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, champion, hideto tanihara))=1;and(within(all_rows, winner 's share, 40000000), eq(6, 1))=False", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, champion, hideto tanihara))=1;and(within(filter_str_eq(all_rows, champion, hideto tanihara), winner 's share, 40000000), eq(6, 1))=False", 
+    "count(all_rows)=6;count(filter_eq(all_rows, winner 's share, 40000000))=1;and(within(all_rows, champion, hideto tanihara), eq(6, 1))=False", 
+    "count(all_rows)=6;count(filter_eq(all_rows, winner 's share, 40000000))=1;and(within(filter_eq(all_rows, winner 's share, 40000000), champion, hideto tanihara), eq(6, 1))=False"
+  ]
+]

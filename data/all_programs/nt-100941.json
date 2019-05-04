@@ -1,0 +1,12 @@
+[
+  "1-12886178-4.html.csv", 
+  "there be more than a #265;[11, 5]# #point;[0, 11]# count for the #club;[1, 0]# with #29;[11, 7]# count #try;[0, 7]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, points for, 265), tries for, 29), club)=cwmbran rfc;eq(cwmbran rfc, club)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tries for, 29), points for, 265), club)=cwmbran rfc;eq(cwmbran rfc, club)=False", 
+    "hop(filter_str_eq(all_rows, points for, 265), tries for)=29;hop(filter_str_eq(all_rows, points for, 265), club)=cwmbran rfc;and(eq(29, 29), eq(cwmbran rfc, club))=False", 
+    "hop(filter_str_eq(all_rows, club, club), tries for)=tries for;hop(filter_str_eq(all_rows, club, club), points for)=points for;and(eq(tries for, 29), eq(points for, 265))=False", 
+    "hop(filter_str_eq(all_rows, tries for, 29), points for)=265;hop(filter_str_eq(all_rows, tries for, 29), club)=cwmbran rfc;and(eq(265, 265), eq(cwmbran rfc, club))=False"
+  ]
+]

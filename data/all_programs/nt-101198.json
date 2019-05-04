@@ -1,0 +1,25 @@
+[
+  "2-17769516-2.html.csv", 
+  "both #sheila kuehl;[1, 0]# and #christine kehoe;[3, 0]# serve more than 4 #year in;[0, 4]# the #senate;[0, 4]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;diff(4, 1)=3;count(filter_str_eq(all_rows, name, christine kehoe))=1;less(3, 1);less(3, 1)=False", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;diff(4, 1)=3;count(filter_str_eq(all_rows, name, christine kehoe))=1;eq(3, 1)=False", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;diff(4, 1)=3;count(filter_str_eq(all_rows, name, christine kehoe))=1;greater(3, 1)=True", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;count(filter_str_eq(all_rows, name, christine kehoe))=1;diff(1, 1)=0;less(4, 0);less(4, 0)=False", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;count(filter_str_eq(all_rows, name, christine kehoe))=1;diff(1, 1)=0;eq(4, 0)=False", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;count(filter_str_eq(all_rows, name, christine kehoe))=1;diff(1, 1)=0;greater(4, 0)=True", 
+    "count(all_rows)=5;less(4, 5);hop(filter_str_eq(all_rows, name, sheila kuehl), name)=sheila kuehl;and(less(4, 5), eq(sheila kuehl, christine kehoe))=False", 
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, name, sheila kuehl), name)=sheila kuehl;and(eq(4, 5), eq(sheila kuehl, christine kehoe))=False", 
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, name, sheila kuehl), name)=sheila kuehl;and(greater(4, 5), eq(sheila kuehl, christine kehoe))=False", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;less(4, 1);hop(filter_str_eq(all_rows, name, sheila kuehl), name)=sheila kuehl;and(less(4, 1), eq(sheila kuehl, christine kehoe))=False", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;hop(filter_str_eq(all_rows, name, sheila kuehl), name)=sheila kuehl;and(eq(4, 1), eq(sheila kuehl, christine kehoe))=False", 
+    "count(filter_str_eq(all_rows, name, sheila kuehl))=1;hop(filter_str_eq(all_rows, name, sheila kuehl), name)=sheila kuehl;and(greater(4, 1), eq(sheila kuehl, christine kehoe))=False", 
+    "count(all_rows)=5;less(4, 5);hop(filter_str_eq(all_rows, name, christine kehoe), name)=christine kehoe;and(less(4, 5), eq(christine kehoe, sheila kuehl))=False", 
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, name, christine kehoe), name)=christine kehoe;and(eq(4, 5), eq(christine kehoe, sheila kuehl))=False", 
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, name, christine kehoe), name)=christine kehoe;and(greater(4, 5), eq(christine kehoe, sheila kuehl))=False", 
+    "count(filter_str_eq(all_rows, name, christine kehoe))=1;less(4, 1);hop(filter_str_eq(all_rows, name, christine kehoe), name)=christine kehoe;and(less(4, 1), eq(christine kehoe, sheila kuehl))=False", 
+    "count(filter_str_eq(all_rows, name, christine kehoe))=1;hop(filter_str_eq(all_rows, name, christine kehoe), name)=christine kehoe;and(eq(4, 1), eq(christine kehoe, sheila kuehl))=False", 
+    "count(filter_str_eq(all_rows, name, christine kehoe))=1;hop(filter_str_eq(all_rows, name, christine kehoe), name)=christine kehoe;and(greater(4, 1), eq(christine kehoe, sheila kuehl))=False"
+  ]
+]

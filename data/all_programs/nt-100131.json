@@ -1,0 +1,13 @@
+[
+  "2-11728067-4.html.csv", 
+  "#tns - sofres 6 / 4 / 09;[0, 9]# be #27%;[1, 8]# when #ipsos 6 / 3 / 09;[0, 8]# be #27%;[1, 8]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09)=27%;eq(27%, 27%)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09)=27%;eq(27%, 27%)=True", 
+    "count(all_rows)=11;count(filter_str_eq(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09, 27%))=1;eq(11, 1)=False", 
+    "count(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%))=1;count(filter_str_eq(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09, 27%))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), tns - sofres 6 / 4 / 09)=27%;hop(filter_str_eq(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09, 27%), tns - sofres 6 / 4 / 09)=27%;eq(27%, 27%)=True", 
+    "hop(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09)=27%;hop(filter_str_eq(filter_str_eq(all_rows, ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09, 27%), ipsos 6 / 3 / 09)=27%;eq(27%, 27%)=True"
+  ]
+]

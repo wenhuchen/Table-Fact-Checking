@@ -1,0 +1,31 @@
+[
+  "2-13002617-3.html.csv", 
+  "2 #city;[0, 0]# have an average #high;[0, 3]# temperature in #july;[0, 4]# above 80 degree", 
+  1, 
+  [
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(eq(2, 74.8263157895), eq(80, 55.0842105263))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(eq(2, 74.8263157895), greater(80, 55.0842105263))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(eq(2, 55.0842105263), eq(80, 74.8263157895))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(eq(2, 55.0842105263), greater(80, 74.8263157895))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(eq(80, 74.8263157895), greater(2, 55.0842105263))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(eq(80, 55.0842105263), greater(2, 74.8263157895))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(greater(2, 74.8263157895), greater(80, 55.0842105263))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;avg(all_rows, july (avg low degree))=55.0842105263;and(greater(2, 55.0842105263), greater(80, 74.8263157895))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(eq(2, 74.8263157895), eq(80, 19))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(eq(2, 74.8263157895), greater(80, 19))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(eq(80, 74.8263157895), eq(2, 19))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(eq(80, 74.8263157895), greater(2, 19))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(greater(2, 74.8263157895), eq(80, 19))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(greater(2, 74.8263157895), greater(80, 19))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(greater(80, 74.8263157895), eq(2, 19))=False", 
+    "avg(all_rows, july (avg high degree))=74.8263157895;count(all_rows)=19;and(greater(80, 74.8263157895), greater(2, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(eq(2, 55.0842105263), eq(80, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(eq(2, 55.0842105263), greater(80, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(eq(80, 55.0842105263), eq(2, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(eq(80, 55.0842105263), greater(2, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(greater(2, 55.0842105263), eq(80, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(greater(2, 55.0842105263), greater(80, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(greater(80, 55.0842105263), eq(2, 19))=False", 
+    "avg(all_rows, july (avg low degree))=55.0842105263;count(all_rows)=19;and(greater(80, 55.0842105263), greater(2, 19))=False"
+  ]
+]

@@ -1,0 +1,10 @@
+[
+  "2-17162128-5.html.csv", 
+  "#john huston;[8, 1]# #score;[0, 3]# lower than half the other #player;[0, 1]#", 
+  0, 
+  [
+    "count(all_rows)=13;count(filter_str_eq(all_rows, player, john huston))=1;less(13, 1);less(13, 1)=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, player, john huston))=1;eq(13, 1)=False", 
+    "count(all_rows)=13;count(filter_str_eq(all_rows, player, john huston))=1;greater(13, 1)=True"
+  ]
+]

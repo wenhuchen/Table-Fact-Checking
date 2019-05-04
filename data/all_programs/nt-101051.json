@@ -1,0 +1,30 @@
+[
+  "2-18811509-2.html.csv", 
+  "#paul lawrie;[6, 0]# get more than #+ 8;[6, 4]# #to par;[0, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, player, paul lawrie), to par)=+ 8;eq(+ 8, + 8)=True", 
+    "hop(filter_str_eq(all_rows, to par, + 8), player)=paul lawrie;eq(paul lawrie, paul lawrie)=True", 
+    "count(filter_str_eq(all_rows, player, paul lawrie))=1;count(filter_str_eq(all_rows, to par, + 8))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, player, paul lawrie))=1;count(filter_str_eq(all_rows, to par, + 8))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, player, paul lawrie))=1;count(filter_str_eq(all_rows, to par, + 8))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, player, paul lawrie), to par)=+ 8;hop(filter_str_eq(all_rows, to par, + 8), to par)=+ 8;eq(+ 8, + 8)=True", 
+    "hop(filter_str_eq(all_rows, player, paul lawrie), player)=paul lawrie;hop(filter_str_eq(all_rows, to par, + 8), player)=paul lawrie;eq(paul lawrie, paul lawrie)=True", 
+    "count(all_rows)=9;count(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8))=1;less(9, 1);less(9, 1)=False", 
+    "count(all_rows)=9;count(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8))=1;eq(9, 1)=False", 
+    "count(all_rows)=9;count(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8))=1;greater(9, 1)=True", 
+    "count(filter_str_eq(all_rows, player, paul lawrie))=1;count(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, player, paul lawrie))=1;count(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, player, paul lawrie))=1;count(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, player, paul lawrie), to par)=+ 8;hop(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8), to par)=+ 8;eq(+ 8, + 8)=True", 
+    "hop(filter_str_eq(all_rows, player, paul lawrie), player)=paul lawrie;hop(filter_str_eq(filter_str_eq(all_rows, player, paul lawrie), to par, + 8), player)=paul lawrie;eq(paul lawrie, paul lawrie)=True", 
+    "count(all_rows)=9;count(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie))=1;less(9, 1);less(9, 1)=False", 
+    "count(all_rows)=9;count(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie))=1;eq(9, 1)=False", 
+    "count(all_rows)=9;count(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie))=1;greater(9, 1)=True", 
+    "count(filter_str_eq(all_rows, to par, + 8))=1;count(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, to par, + 8))=1;count(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, to par, + 8))=1;count(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, to par, + 8), to par)=+ 8;hop(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie), to par)=+ 8;eq(+ 8, + 8)=True", 
+    "hop(filter_str_eq(all_rows, to par, + 8), player)=paul lawrie;hop(filter_str_eq(filter_str_eq(all_rows, to par, + 8), player, paul lawrie), player)=paul lawrie;eq(paul lawrie, paul lawrie)=True"
+  ]
+]

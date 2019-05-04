@@ -1,0 +1,13 @@
+[
+  "2-10776868-8.html.csv", 
+  "during the #1962;[2, 6]# vfl season , #junction oval;[6, 4]# #venue;[0, 4]# record the highest #crowd;[0, 5]# participation", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, venue, junction oval), date)=9 june 1962;eq(9 june 1962, 9 june 1962)=True", 
+    "hop(filter_str_eq(argmax(all_rows, crowd), date, 9 june 1962), venue)=junction oval;eq(junction oval, junction oval)=True", 
+    "hop(filter_str_eq(argmax(all_rows, crowd), venue, junction oval), date)=9 june 1962;eq(9 june 1962, 9 june 1962)=True", 
+    "hop(argmax(filter_str_eq(all_rows, date, 9 june 1962), crowd), venue)=junction oval;eq(junction oval, junction oval)=True", 
+    "hop(argmin(filter_str_eq(all_rows, date, 9 june 1962), crowd), venue)=brunswick street oval;eq(brunswick street oval, junction oval)=False", 
+    "hop(filter_str_eq(argmin(all_rows, crowd), date, 9 june 1962), venue)=brunswick street oval;eq(brunswick street oval, junction oval)=False"
+  ]
+]

@@ -1,0 +1,27 @@
+[
+  "2-12043034-1.html.csv", 
+  "for the #height (m);[0, 0]# of #1909;[37, 0]# , the number #of time;[0, 1]# visit be #15;[37, 1]# , and the #first time as;[0, 3]# an #hc climb;[0, 2]# be in #1987;[32, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_greater_eq(all_rows, no of times visited, 15), height (m), 1909), first time as hc climb)=1987;eq(1987, 1987)=True", 
+    "hop(filter_eq(filter_greater_eq(all_rows, no of times visited, 15), first time as hc climb, 1987), height (m))=1909;eq(1909, 1909)=True", 
+    "hop(filter_str_eq(filter_greater_eq(all_rows, first time as hc climb, 1987), height (m), 1909), no of times visited)=15;eq(15, 15)=True", 
+    "hop(filter_eq(filter_greater_eq(all_rows, first time as hc climb, 1987), no of times visited, 15), height (m))=1909;eq(1909, 1909)=True", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, height (m), 1909), no of times visited, 15), first time as hc climb)=1987;eq(1987, 1987)=True", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, height (m), 1909), first time as hc climb, 1987), no of times visited)=15;eq(15, 15)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, height (m), 1909), no of times visited, 15), first time as hc climb)=1987;eq(1987, 1987)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, height (m), 1909), first time as hc climb, 1987), no of times visited)=15;eq(15, 15)=True", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, height (m), 1909), no of times visited, 15), first time as hc climb)=1987;eq(1987, 1987)=True", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, height (m), 1909), first time as hc climb, 1987), no of times visited)=15;eq(15, 15)=True", 
+    "hop(filter_greater_eq(filter_eq(all_rows, no of times visited, 15), first time as hc climb, 1987), height (m))=1909;eq(1909, 1909)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, no of times visited, 15), height (m), 1909), first time as hc climb)=1987;eq(1987, 1987)=True", 
+    "hop(filter_eq(filter_eq(all_rows, no of times visited, 15), first time as hc climb, 1987), height (m))=1909;eq(1909, 1909)=True", 
+    "hop(filter_less_eq(filter_eq(all_rows, no of times visited, 15), first time as hc climb, 1987), height (m))=1909;eq(1909, 1909)=True", 
+    "hop(filter_greater_eq(filter_eq(all_rows, first time as hc climb, 1987), no of times visited, 15), height (m))=1909;eq(1909, 1909)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, first time as hc climb, 1987), height (m), 1909), no of times visited)=15;eq(15, 15)=True", 
+    "hop(filter_eq(filter_eq(all_rows, first time as hc climb, 1987), no of times visited, 15), height (m))=1909;eq(1909, 1909)=True", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, no of times visited, 15), height (m), 1909), first time as hc climb)=1987;eq(1987, 1987)=True", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, first time as hc climb, 1987), height (m), 1909), no of times visited)=15;eq(15, 15)=True", 
+    "hop(filter_eq(filter_less_eq(all_rows, first time as hc climb, 1987), no of times visited, 15), height (m))=1909;eq(1909, 1909)=True"
+  ]
+]

@@ -1,0 +1,9 @@
+[
+  "1-1876825-2.html.csv", 
+  "#michael glouberman & andrew orenstein;[15, 3]# #write;[0, 3]# 2 of the episode", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, written by, michael glouberman & andrew orenstein))=3;eq(2, 3)=False", 
+    "count(all_rows)=15;and(within(all_rows, written by, michael glouberman & andrew orenstein), eq(2, 15))=False"
+  ]
+]

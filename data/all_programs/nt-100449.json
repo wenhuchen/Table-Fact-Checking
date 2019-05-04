@@ -1,0 +1,14 @@
+[
+  "2-1507170-1.html.csv", 
+  "justin leonard 's highest #win score;[0, 2]# be #28;[9, 2]# under par", 
+  0, 
+  [
+    "count(all_rows)=12;count(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)))=1;less(12, 1);less(12, 1)=False", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)))=1;eq(12, 1)=False", 
+    "next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)));count(all_rows)=12;count(next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332))))=1;less(12, 1);less(12, 1)=False", 
+    "next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)));count(all_rows)=12;count(next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332))))=1;eq(12, 1)=False", 
+    "next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)));count(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)))=1;count(next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332))))=1;less(1, 1);less(1, 1)=False", 
+    "next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)));count(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)))=1;count(next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332))))=1;eq(1, 1)=True", 
+    "next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)));hop(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332)), winning score)=- 28 (66 - 67 + 68 + 64 + 67 = 332);hop(next(filter_str_eq(all_rows, winning score, - 28 (66 - 67 + 68 + 64 + 67 = 332))), winning score)=- 14 (62 + 65 + 66 + 73 = 266);eq(- 14 (62 + 65 + 66 + 73 = 266), - 28 (66 - 67 + 68 + 64 + 67 = 332))=False"
+  ]
+]

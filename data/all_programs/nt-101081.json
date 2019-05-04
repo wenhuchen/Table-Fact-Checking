@@ -1,0 +1,11 @@
+[
+  "2-12762499-2.html.csv", 
+  "#30 may 2005;[4, 0]# be the #date;[0, 0]# for #patrick schmolzer;[2, 3]# to place #ignasi villacampa;[4, 3]# #in the final;[0, 3]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 30 may 2005), opponent in the final, ignasi villacampa), opponent in the final)=ignasi villacampa;eq(ignasi villacampa, patrick schmolzer)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent in the final, ignasi villacampa), date, 30 may 2005), opponent in the final)=ignasi villacampa;eq(ignasi villacampa, patrick schmolzer)=False", 
+    "hop(filter_str_eq(all_rows, opponent in the final, patrick schmolzer), date)=2 may 2005;hop(filter_str_eq(all_rows, opponent in the final, patrick schmolzer), opponent in the final)=patrick schmolzer;and(eq(2 may 2005, 30 may 2005), eq(patrick schmolzer, ignasi villacampa))=False", 
+    "hop(filter_str_eq(all_rows, opponent in the final, ignasi villacampa), date)=30 may 2005;hop(filter_str_eq(all_rows, opponent in the final, ignasi villacampa), opponent in the final)=ignasi villacampa;and(eq(30 may 2005, 30 may 2005), eq(ignasi villacampa, patrick schmolzer))=False"
+  ]
+]

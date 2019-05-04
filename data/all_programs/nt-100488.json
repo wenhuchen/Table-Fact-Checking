@@ -1,0 +1,19 @@
+[
+  "2-13059263-1.html.csv", 
+  "when #sam snead;[10, 1]# pay in the game in the #united state;[1, 2]# , the sum of the #money;[0, 5]# be more than #450;[9, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_greater_eq(all_rows, money, 450), player, sam snead), country)=united states;eq(united states, united states)=True", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, player, sam snead), money, 450), country)=united states;eq(united states, united states)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, sam snead), country, united states), money)=450;less(450, 450);less(450, 450)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, sam snead), country, united states), money)=450;eq(450, 450)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, sam snead), country, united states), money)=450;greater(450, 450)=False", 
+    "hop(filter_eq(filter_str_eq(all_rows, player, sam snead), money, 450), country)=united states;eq(united states, united states)=True", 
+    "hop(filter_less_eq(filter_str_eq(all_rows, player, sam snead), money, 450), country)=united states;eq(united states, united states)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, country, united states), player, sam snead), money)=450;less(450, 450);less(450, 450)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, country, united states), player, sam snead), money)=450;eq(450, 450)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, country, united states), player, sam snead), money)=450;greater(450, 450)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, money, 450), player, sam snead), country)=united states;eq(united states, united states)=True", 
+    "hop(filter_str_eq(filter_less_eq(all_rows, money, 450), player, sam snead), country)=united states;eq(united states, united states)=True"
+  ]
+]

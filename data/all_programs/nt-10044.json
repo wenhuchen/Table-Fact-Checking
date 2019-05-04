@@ -1,0 +1,11 @@
+[
+  "1-167354-2.html.csv", 
+  "only 1 of the 5 #school;[0, 0]# be locate in #kharagpur;[4, 1]#", 
+  1, 
+  [
+    "and(eq(1, 5), within(all_rows, school, kharagpur))=False", 
+    "and(eq(1, 5), within(all_rows, location, kharagpur))=False", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, location, kharagpur))=1;and(eq(1, 5), eq(5, 1))=False", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, location, kharagpur))=1;and(eq(5, 5), eq(1, 1))=True"
+  ]
+]

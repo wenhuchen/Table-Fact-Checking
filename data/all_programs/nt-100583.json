@@ -1,0 +1,9 @@
+[
+  "2-11983898-7.html.csv", 
+  "fabio fognini 's only repeat #partner;[0, 4]# in double #tournament;[0, 2]# be #carlos berlocq;[1, 4]# who he #partner;[0, 4]# with 3 time", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, partner, carlos berlocq))=1;eq(3, 1)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, partner, carlos berlocq), partner, carlos berlocq))=1;eq(3, 1)=False"
+  ]
+]

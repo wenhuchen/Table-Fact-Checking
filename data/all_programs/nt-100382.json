@@ -1,0 +1,12 @@
+[
+  "2-1111788-1.html.csv", 
+  "#6 - 3;[3, 4]# be the #score;[0, 3]# as well as the #result;[0, 4]# on a game in #19 july 1930;[3, 0]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, result, 6 - 3))=3;count(filter_str_eq(all_rows, date, 19 july 1930))=3;eq(3, 3)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, result, 6 - 3), date, 19 july 1930))=3;eq(8, 3)=False", 
+    "count(filter_str_eq(all_rows, result, 6 - 3))=3;count(filter_str_eq(filter_str_eq(all_rows, result, 6 - 3), date, 19 july 1930))=3;eq(3, 3)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, date, 19 july 1930), result, 6 - 3))=3;eq(8, 3)=False", 
+    "count(filter_str_eq(all_rows, date, 19 july 1930))=3;count(filter_str_eq(filter_str_eq(all_rows, date, 19 july 1930), result, 6 - 3))=3;eq(3, 3)=True"
+  ]
+]

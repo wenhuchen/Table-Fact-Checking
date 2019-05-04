@@ -1,0 +1,15 @@
+[
+  "2-18936845-1.html.csv", 
+  "#mark corrigan;[5, 1]# be 1 of 2 #player;[0, 1]# to play #4;[4, 0]# #match;[0, 5]#", 
+  1, 
+  [
+    "and(and(within(all_rows, matches, 4), eq(1, 2)), within(all_rows, player, mark corrigan))=False", 
+    "and(and(within(all_rows, matches, 4), within(all_rows, player, mark corrigan)), eq(1, 2))=False", 
+    "and(and(within(all_rows, rank, 4), eq(1, 2)), within(all_rows, player, mark corrigan))=False", 
+    "and(and(within(all_rows, rank, 4), within(all_rows, player, mark corrigan)), eq(1, 2))=False", 
+    "hop(filter_str_eq(all_rows, player, mark corrigan), rank)=5;and(eq(1, 2), eq(4, 5))=False", 
+    "hop(filter_eq(all_rows, rank, 4), player)=joe connolly;and(eq(1, 2), eq(joe connolly, mark corrigan))=False", 
+    "and(and(eq(1, 2), within(all_rows, player, mark corrigan)), within(all_rows, matches, 4))=False", 
+    "and(and(eq(1, 2), within(all_rows, player, mark corrigan)), within(all_rows, rank, 4))=False"
+  ]
+]

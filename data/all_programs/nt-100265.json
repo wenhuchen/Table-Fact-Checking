@@ -1,0 +1,16 @@
+[
+  "1-11622771-1.html.csv", 
+  "#2;[26, 0]# #tournament;[0, 1]# be hold in #arizona;[4, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, nov 2), location)=arizona;eq(arizona, arizona)=True", 
+    "count(filter_str_eq(all_rows, date, nov 2))=1;count(filter_str_eq(all_rows, location, arizona))=2;eq(1, 2)=False", 
+    "count(all_rows)=27;count(filter_str_eq(filter_str_eq(all_rows, date, nov 2), location, arizona))=1;eq(27, 1)=False", 
+    "count(filter_str_eq(all_rows, date, nov 2))=1;count(filter_str_eq(filter_str_eq(all_rows, date, nov 2), location, arizona))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, nov 2), tournament)=seiko - tucson match play championship;hop(filter_str_eq(filter_str_eq(all_rows, date, nov 2), location, arizona), tournament)=seiko - tucson match play championship;eq(seiko - tucson match play championship, seiko - tucson match play championship)=True", 
+    "hop(filter_str_eq(all_rows, date, nov 2), date)=nov 2;hop(filter_str_eq(filter_str_eq(all_rows, date, nov 2), location, arizona), date)=nov 2;eq(nov 2, nov 2)=True", 
+    "hop(filter_str_eq(all_rows, date, nov 2), location)=arizona;hop(filter_str_eq(filter_str_eq(all_rows, date, nov 2), location, arizona), location)=arizona;eq(arizona, arizona)=True", 
+    "count(all_rows)=27;count(filter_str_eq(filter_str_eq(all_rows, location, arizona), date, nov 2))=1;eq(27, 1)=False", 
+    "count(filter_str_eq(all_rows, location, arizona))=2;count(filter_str_eq(filter_str_eq(all_rows, location, arizona), date, nov 2))=1;eq(2, 1)=False"
+  ]
+]

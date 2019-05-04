@@ -1,0 +1,21 @@
+[
+  "2-11983898-7.html.csv", 
+  "fabio fogini 's only double #tournament;[0, 2]# in which he #score;[0, 6]# zero point be in #mexico;[6, 2]# in #february 2010;[2, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, 27 february 2010), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), date, 27 february 2010), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), tournament, abierto mexicano telcel , acapulco , mexico), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), date, 27 february 2010), date)=27 february 2010;eq(27 february 2010, 27 february 2010)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), tournament, abierto mexicano telcel , acapulco , mexico), date)=27 february 2010;eq(27 february 2010, 27 february 2010)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), date, 27 february 2010), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "count(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico))=2;count(filter_str_eq(all_rows, date, 27 february 2010))=1;eq(2, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), date, 27 february 2010))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico))=2;count(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), date, 27 february 2010))=1;eq(2, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), tournament, abierto mexicano telcel , acapulco , mexico))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, date, 27 february 2010))=1;count(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), tournament, abierto mexicano telcel , acapulco , mexico))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, 27 february 2010), tournament)=abierto mexicano telcel , acapulco , mexico;hop(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), tournament, abierto mexicano telcel , acapulco , mexico), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(all_rows, date, 27 february 2010), score)=0 - 6 , 0 - 6;hop(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), tournament, abierto mexicano telcel , acapulco , mexico), score)=0 - 6 , 0 - 6;eq(0 - 6 , 0 - 6, 0 - 6 , 0 - 6)=True", 
+    "hop(filter_str_eq(all_rows, date, 27 february 2010), date)=27 february 2010;hop(filter_str_eq(filter_str_eq(all_rows, date, 27 february 2010), tournament, abierto mexicano telcel , acapulco , mexico), date)=27 february 2010;eq(27 february 2010, 27 february 2010)=True"
+  ]
+]

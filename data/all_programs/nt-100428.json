@@ -1,0 +1,21 @@
+[
+  "1-26257223-13.html.csv", 
+  "#christian meier;[5, 5]# lead #sprint classification;[0, 5]# and #chris horner;[6, 1]# lead #general classification;[0, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, winner, chris horner), sprints classification)=christian meier;eq(christian meier, christian meier)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, sprints classification, christian meier), winner, chris horner), sprints classification)=christian meier;eq(christian meier, christian meier)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), sprints classification, christian meier), sprints classification)=christian meier;eq(christian meier, christian meier)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, sprints classification, christian meier), winner, chris horner), winner)=chris horner;eq(chris horner, chris horner)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), sprints classification, christian meier), winner)=chris horner;eq(chris horner, chris horner)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), winner, chris horner), sprints classification)=christian meier;eq(christian meier, christian meier)=True", 
+    "count(filter_str_eq(all_rows, sprints classification, christian meier))=6;count(filter_str_eq(all_rows, winner, chris horner))=1;eq(6, 1)=False", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, sprints classification, christian meier), winner, chris horner))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, sprints classification, christian meier))=6;count(filter_str_eq(filter_str_eq(all_rows, sprints classification, christian meier), winner, chris horner))=1;eq(6, 1)=False", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), sprints classification, christian meier))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, winner, chris horner))=1;count(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), sprints classification, christian meier))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, winner, chris horner), sprints classification)=christian meier;hop(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), sprints classification, christian meier), sprints classification)=christian meier;eq(christian meier, christian meier)=True", 
+    "hop(filter_str_eq(all_rows, winner, chris horner), general classification)=chris horner;hop(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), sprints classification, christian meier), general classification)=chris horner;eq(chris horner, chris horner)=True", 
+    "hop(filter_str_eq(all_rows, winner, chris horner), winner)=chris horner;hop(filter_str_eq(filter_str_eq(all_rows, winner, chris horner), sprints classification, christian meier), winner)=chris horner;eq(chris horner, chris horner)=True"
+  ]
+]

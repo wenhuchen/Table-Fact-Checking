@@ -1,0 +1,24 @@
+[
+  "2-12180448-3.html.csv", 
+  "the #nation;[0, 1]# of #cuba;[10, 1]# have #1;[14, 4]# #silver;[0, 3]# medal", 
+  1, 
+  [
+    "and(within(all_rows, silver, 1), within(all_rows, nation, cuba))=True", 
+    "and(within(all_rows, bronze, 1), within(all_rows, nation, cuba))=True", 
+    "hop(filter_str_eq(all_rows, nation, cuba), bronze)=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, nation, cuba))=1;count(filter_eq(all_rows, bronze, 1))=13;eq(1, 13)=False", 
+    "count(all_rows)=22;count(filter_eq(filter_str_eq(all_rows, nation, cuba), bronze, 1))=1;eq(22, 1)=False", 
+    "count(filter_str_eq(all_rows, nation, cuba))=1;count(filter_eq(filter_str_eq(all_rows, nation, cuba), bronze, 1))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, nation, cuba), nation)=cuba;hop(filter_eq(filter_str_eq(all_rows, nation, cuba), bronze, 1), nation)=cuba;eq(cuba, cuba)=True", 
+    "hop(filter_str_eq(all_rows, nation, cuba), silver)=1;hop(filter_eq(filter_str_eq(all_rows, nation, cuba), bronze, 1), silver)=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, nation, cuba), bronze)=1;hop(filter_eq(filter_str_eq(all_rows, nation, cuba), bronze, 1), bronze)=1;eq(1, 1)=True", 
+    "count(all_rows)=22;count(filter_str_eq(filter_eq(all_rows, bronze, 1), nation, cuba))=1;eq(22, 1)=False", 
+    "count(filter_eq(all_rows, bronze, 1))=13;count(filter_str_eq(filter_eq(all_rows, bronze, 1), nation, cuba))=1;eq(13, 1)=False", 
+    "count(all_rows)=22;count(filter_str_eq(all_rows, nation, cuba))=1;and(within(all_rows, silver, 1), eq(22, 1))=False", 
+    "count(all_rows)=22;count(filter_str_eq(all_rows, nation, cuba))=1;and(within(all_rows, bronze, 1), eq(22, 1))=False", 
+    "count(all_rows)=22;count(filter_str_eq(all_rows, nation, cuba))=1;and(within(filter_str_eq(all_rows, nation, cuba), silver, 1), eq(22, 1))=False", 
+    "count(all_rows)=22;count(filter_str_eq(all_rows, nation, cuba))=1;and(within(filter_str_eq(all_rows, nation, cuba), bronze, 1), eq(22, 1))=False", 
+    "count(all_rows)=22;count(filter_eq(all_rows, bronze, 1))=13;and(within(all_rows, nation, cuba), eq(22, 13))=False", 
+    "count(all_rows)=22;count(filter_eq(all_rows, bronze, 1))=13;and(within(filter_eq(all_rows, bronze, 1), nation, cuba), eq(22, 13))=False"
+  ]
+]

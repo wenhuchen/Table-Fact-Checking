@@ -1,0 +1,9 @@
+[
+  "2-12666456-7.html.csv", 
+  "2 #eng;[9, 1]# #country;[0, 1]# #transfer window;[0, 3]# occur in the #summer;[1, 3]#", 
+  0, 
+  [
+    "count(filter_str_eq(filter_str_eq(all_rows, country, eng), transfer window, summer))=3;eq(2, 3)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, transfer window, summer), country, eng))=3;eq(2, 3)=False"
+  ]
+]

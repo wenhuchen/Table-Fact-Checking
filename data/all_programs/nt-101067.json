@@ -1,0 +1,26 @@
+[
+  "1-28286776-50.html.csv", 
+  "#tommy smith;[5, 0]# be the #player;[0, 0]# when the #cap;[0, 1]# be #16;[5, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, player, tommy smith), cap (s))=16;eq(16, 16)=True", 
+    "hop(filter_eq(all_rows, cap (s), 16), player)=tommy smith;eq(tommy smith, tommy smith)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, player, tommy smith), cap (s), 16), cap (s))=16;eq(16, 16)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, cap (s), 16), player, tommy smith), cap (s))=16;eq(16, 16)=True", 
+    "hop(filter_eq(filter_eq(all_rows, cap (s), 16), cap (s), 16), player)=tommy smith;eq(tommy smith, tommy smith)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, tommy smith), player, tommy smith), cap (s))=16;eq(16, 16)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, player, tommy smith), cap (s), 16), player)=tommy smith;eq(tommy smith, tommy smith)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, cap (s), 16), player, tommy smith), player)=tommy smith;eq(tommy smith, tommy smith)=True", 
+    "count(filter_str_eq(all_rows, player, tommy smith))=1;count(filter_eq(all_rows, cap (s), 16))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, tommy smith), player)=tommy smith;hop(filter_eq(all_rows, cap (s), 16), player)=tommy smith;eq(tommy smith, tommy smith)=True", 
+    "hop(filter_str_eq(all_rows, player, tommy smith), cap (s))=16;hop(filter_eq(all_rows, cap (s), 16), cap (s))=16;eq(16, 16)=True", 
+    "count(all_rows)=5;count(filter_eq(filter_str_eq(all_rows, player, tommy smith), cap (s), 16))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, player, tommy smith))=1;count(filter_eq(filter_str_eq(all_rows, player, tommy smith), cap (s), 16))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, tommy smith), player)=tommy smith;hop(filter_eq(filter_str_eq(all_rows, player, tommy smith), cap (s), 16), player)=tommy smith;eq(tommy smith, tommy smith)=True", 
+    "hop(filter_str_eq(all_rows, player, tommy smith), cap (s))=16;hop(filter_eq(filter_str_eq(all_rows, player, tommy smith), cap (s), 16), cap (s))=16;eq(16, 16)=True", 
+    "count(all_rows)=5;count(filter_str_eq(filter_eq(all_rows, cap (s), 16), player, tommy smith))=1;eq(5, 1)=False", 
+    "count(filter_eq(all_rows, cap (s), 16))=1;count(filter_str_eq(filter_eq(all_rows, cap (s), 16), player, tommy smith))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, cap (s), 16), player)=tommy smith;hop(filter_str_eq(filter_eq(all_rows, cap (s), 16), player, tommy smith), player)=tommy smith;eq(tommy smith, tommy smith)=True", 
+    "hop(filter_eq(all_rows, cap (s), 16), cap (s))=16;hop(filter_str_eq(filter_eq(all_rows, cap (s), 16), player, tommy smith), cap (s))=16;eq(16, 16)=True"
+  ]
+]

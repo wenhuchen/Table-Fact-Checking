@@ -1,0 +1,32 @@
+[
+  "2-10826385-19.html.csv", 
+  "#home team;[0, 0]# 's #score;[0, 1]# when the #away;[0, 2]# side #score;[0, 1]# #14.11 (95);[4, 3]# be #north melbourne;[4, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), away team)=north melbourne;eq(north melbourne, north melbourne)=True", 
+    "hop(filter_str_eq(all_rows, away team, north melbourne), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team score, 14.11 (95)), away team)=north melbourne;eq(north melbourne, north melbourne)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne), away team)=north melbourne;eq(north melbourne, north melbourne)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)), away team)=north melbourne;eq(north melbourne, north melbourne)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team, north melbourne), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "count(filter_str_eq(all_rows, away team score, 14.11 (95)))=1;count(filter_str_eq(all_rows, away team, north melbourne))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), home team)=essendon;hop(filter_str_eq(all_rows, away team, north melbourne), home team)=essendon;eq(essendon, essendon)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score)=21.14 (140);hop(filter_str_eq(all_rows, away team, north melbourne), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), away team)=north melbourne;hop(filter_str_eq(all_rows, away team, north melbourne), away team)=north melbourne;eq(north melbourne, north melbourne)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), away team score)=14.11 (95);hop(filter_str_eq(all_rows, away team, north melbourne), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, away team score, 14.11 (95)))=1;count(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), home team)=essendon;hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne), home team)=essendon;eq(essendon, essendon)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score)=21.14 (140);hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), away team)=north melbourne;hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne), away team)=north melbourne;eq(north melbourne, north melbourne)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), away team score)=14.11 (95);hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team, north melbourne), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, away team, north melbourne))=1;count(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, away team, north melbourne), home team)=essendon;hop(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)), home team)=essendon;eq(essendon, essendon)=True", 
+    "hop(filter_str_eq(all_rows, away team, north melbourne), home team score)=21.14 (140);hop(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "hop(filter_str_eq(all_rows, away team, north melbourne), away team)=north melbourne;hop(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)), away team)=north melbourne;eq(north melbourne, north melbourne)=True", 
+    "hop(filter_str_eq(all_rows, away team, north melbourne), away team score)=14.11 (95);hop(filter_str_eq(filter_str_eq(all_rows, away team, north melbourne), away team score, 14.11 (95)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True"
+  ]
+]

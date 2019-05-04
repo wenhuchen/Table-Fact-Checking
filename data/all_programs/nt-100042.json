@@ -1,0 +1,23 @@
+[
+  "2-17288411-3.html.csv", 
+  "#meshkinshahr;[20, 3]# be the #largest city;[0, 1]# in #ardabil;[20, 1]# #province;[0, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city)=ardabil;eq(ardabil, ardabil)=True", 
+    "hop(filter_str_eq(all_rows, largest city, ardabil), 3rd largest)=meshkinshahr;eq(meshkinshahr, meshkinshahr)=True", 
+    "count(filter_str_eq(all_rows, 3rd largest, meshkinshahr))=1;count(filter_str_eq(all_rows, largest city, ardabil))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city)=ardabil;hop(filter_str_eq(all_rows, largest city, ardabil), largest city)=ardabil;eq(ardabil, ardabil)=True", 
+    "hop(filter_str_eq(all_rows, 3rd largest, meshkinshahr), province)=ardabil;hop(filter_str_eq(all_rows, largest city, ardabil), province)=ardabil;eq(ardabil, ardabil)=True", 
+    "hop(filter_str_eq(all_rows, 3rd largest, meshkinshahr), 3rd largest)=meshkinshahr;hop(filter_str_eq(all_rows, largest city, ardabil), 3rd largest)=meshkinshahr;eq(meshkinshahr, meshkinshahr)=True", 
+    "count(all_rows)=31;count(filter_str_eq(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city, ardabil))=1;eq(31, 1)=False", 
+    "count(filter_str_eq(all_rows, 3rd largest, meshkinshahr))=1;count(filter_str_eq(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city, ardabil))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city)=ardabil;hop(filter_str_eq(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city, ardabil), largest city)=ardabil;eq(ardabil, ardabil)=True", 
+    "hop(filter_str_eq(all_rows, 3rd largest, meshkinshahr), province)=ardabil;hop(filter_str_eq(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city, ardabil), province)=ardabil;eq(ardabil, ardabil)=True", 
+    "hop(filter_str_eq(all_rows, 3rd largest, meshkinshahr), 3rd largest)=meshkinshahr;hop(filter_str_eq(filter_str_eq(all_rows, 3rd largest, meshkinshahr), largest city, ardabil), 3rd largest)=meshkinshahr;eq(meshkinshahr, meshkinshahr)=True", 
+    "count(all_rows)=31;count(filter_str_eq(filter_str_eq(all_rows, largest city, ardabil), 3rd largest, meshkinshahr))=1;eq(31, 1)=False", 
+    "count(filter_str_eq(all_rows, largest city, ardabil))=1;count(filter_str_eq(filter_str_eq(all_rows, largest city, ardabil), 3rd largest, meshkinshahr))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, largest city, ardabil), largest city)=ardabil;hop(filter_str_eq(filter_str_eq(all_rows, largest city, ardabil), 3rd largest, meshkinshahr), largest city)=ardabil;eq(ardabil, ardabil)=True", 
+    "hop(filter_str_eq(all_rows, largest city, ardabil), province)=ardabil;hop(filter_str_eq(filter_str_eq(all_rows, largest city, ardabil), 3rd largest, meshkinshahr), province)=ardabil;eq(ardabil, ardabil)=True", 
+    "hop(filter_str_eq(all_rows, largest city, ardabil), 3rd largest)=meshkinshahr;hop(filter_str_eq(filter_str_eq(all_rows, largest city, ardabil), 3rd largest, meshkinshahr), 3rd largest)=meshkinshahr;eq(meshkinshahr, meshkinshahr)=True"
+  ]
+]

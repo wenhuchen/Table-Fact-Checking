@@ -1,0 +1,22 @@
+[
+  "2-17162128-5.html.csv", 
+  "#tiger wood;[7, 1]# #score;[0, 3]# 1 less point than #john huston;[8, 1]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, player, tiger woods))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, player, john huston))=1;less(0, 1);less(0, 1)=True", 
+    "count(filter_str_eq(all_rows, player, tiger woods))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, player, john huston))=1;eq(0, 1)=False", 
+    "count(filter_str_eq(all_rows, player, tiger woods))=1;diff(1, 1)=0;count(filter_str_eq(all_rows, player, john huston))=1;greater(0, 1)=False", 
+    "count(all_rows)=13;less(1, 13);hop(filter_str_eq(all_rows, player, tiger woods), player)=tiger woods;and(less(1, 13), eq(tiger woods, john huston))=False", 
+    "count(all_rows)=13;hop(filter_str_eq(all_rows, player, tiger woods), player)=tiger woods;and(eq(1, 13), eq(tiger woods, john huston))=False", 
+    "count(all_rows)=13;hop(filter_str_eq(all_rows, player, tiger woods), player)=tiger woods;and(greater(1, 13), eq(tiger woods, john huston))=False", 
+    "count(filter_str_eq(all_rows, player, tiger woods))=1;less(1, 1);hop(filter_str_eq(all_rows, player, tiger woods), player)=tiger woods;and(less(1, 1), eq(tiger woods, john huston))=False", 
+    "count(filter_str_eq(all_rows, player, tiger woods))=1;hop(filter_str_eq(all_rows, player, tiger woods), player)=tiger woods;and(eq(1, 1), eq(tiger woods, john huston))=False", 
+    "count(filter_str_eq(all_rows, player, tiger woods))=1;hop(filter_str_eq(all_rows, player, tiger woods), player)=tiger woods;and(greater(1, 1), eq(tiger woods, john huston))=False", 
+    "count(all_rows)=13;less(1, 13);hop(filter_str_eq(all_rows, player, john huston), player)=john huston;and(less(1, 13), eq(john huston, tiger woods))=False", 
+    "count(all_rows)=13;hop(filter_str_eq(all_rows, player, john huston), player)=john huston;and(eq(1, 13), eq(john huston, tiger woods))=False", 
+    "count(all_rows)=13;hop(filter_str_eq(all_rows, player, john huston), player)=john huston;and(greater(1, 13), eq(john huston, tiger woods))=False", 
+    "count(filter_str_eq(all_rows, player, john huston))=1;less(1, 1);hop(filter_str_eq(all_rows, player, john huston), player)=john huston;and(less(1, 1), eq(john huston, tiger woods))=False", 
+    "count(filter_str_eq(all_rows, player, john huston))=1;hop(filter_str_eq(all_rows, player, john huston), player)=john huston;and(eq(1, 1), eq(john huston, tiger woods))=False", 
+    "count(filter_str_eq(all_rows, player, john huston))=1;hop(filter_str_eq(all_rows, player, john huston), player)=john huston;and(greater(1, 1), eq(john huston, tiger woods))=False"
+  ]
+]

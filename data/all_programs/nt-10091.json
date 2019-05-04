@@ -1,0 +1,9 @@
+[
+  "1-27756164-11.html.csv", 
+  "#darren collison;[5, 6]# have 11 #high rebound;[0, 5]# in both #game;[0, 0]# #77;[1, 0]# and #game;[0, 0]# 60", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, high assists, darren collison (5)), game)=81;and(eq(11, 60), eq(77, 81))=False", 
+    "hop(filter_eq(all_rows, game, 77), high assists)=darren collison (7);and(eq(11, 60), eq(darren collison (7), darren collison (5)))=False"
+  ]
+]

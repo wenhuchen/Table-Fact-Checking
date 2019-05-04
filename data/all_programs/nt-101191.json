@@ -1,0 +1,16 @@
+[
+  "1-25926120-3.html.csv", 
+  "there be #1;[2, 4]# #film;[0, 1]# in #assamese;[1, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, language, assamese), cash prize)=1 , 50000 / - each;eq(1 , 50000 / - each, 1 , 50000 / - each)=True", 
+    "count(filter_str_eq(all_rows, cash prize, 1 , 50000 / - each))=2;count(filter_str_eq(all_rows, language, assamese))=1;eq(2, 1)=False", 
+    "count(all_rows)=18;count(filter_str_eq(filter_str_eq(all_rows, cash prize, 1 , 50000 / - each), language, assamese))=1;eq(18, 1)=False", 
+    "count(filter_str_eq(all_rows, cash prize, 1 , 50000 / - each))=2;count(filter_str_eq(filter_str_eq(all_rows, cash prize, 1 , 50000 / - each), language, assamese))=1;eq(2, 1)=False", 
+    "count(all_rows)=18;count(filter_str_eq(filter_str_eq(all_rows, language, assamese), cash prize, 1 , 50000 / - each))=1;eq(18, 1)=False", 
+    "count(filter_str_eq(all_rows, language, assamese))=1;count(filter_str_eq(filter_str_eq(all_rows, language, assamese), cash prize, 1 , 50000 / - each))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, language, assamese), name of film)=aai kot nai;hop(filter_str_eq(filter_str_eq(all_rows, language, assamese), cash prize, 1 , 50000 / - each), name of film)=aai kot nai;eq(aai kot nai, aai kot nai)=True", 
+    "hop(filter_str_eq(all_rows, language, assamese), cash prize)=1 , 50000 / - each;hop(filter_str_eq(filter_str_eq(all_rows, language, assamese), cash prize, 1 , 50000 / - each), cash prize)=1 , 50000 / - each;eq(1 , 50000 / - each, 1 , 50000 / - each)=True", 
+    "hop(filter_str_eq(all_rows, language, assamese), language)=assamese;hop(filter_str_eq(filter_str_eq(all_rows, language, assamese), cash prize, 1 , 50000 / - each), language)=assamese;eq(assamese, assamese)=True"
+  ]
+]

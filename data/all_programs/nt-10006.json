@@ -1,0 +1,15 @@
+[
+  "2-11240028-1.html.csv", 
+  "#melina kanakaredes;[10, 1]# and #carmine;[3, 1]# giovanazzo both appear #first;[0, 2]# in the #episode;[0, 5]# title 'blink 1'", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, portrayed by, melina kanakaredes), portrayed by)=melina kanakaredes;eq(melina kanakaredes, carmine giovinazzo)=False", 
+    "hop(filter_str_eq(all_rows, portrayed by, carmine giovinazzo), portrayed by)=carmine giovinazzo;eq(carmine giovinazzo, melina kanakaredes)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, portrayed by, melina kanakaredes), portrayed by, melina kanakaredes), portrayed by)=melina kanakaredes;eq(melina kanakaredes, carmine giovinazzo)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, portrayed by, carmine giovinazzo), portrayed by, carmine giovinazzo), portrayed by)=carmine giovinazzo;eq(carmine giovinazzo, melina kanakaredes)=False", 
+    "count(filter_str_eq(all_rows, portrayed by, melina kanakaredes))=1;count(filter_str_eq(all_rows, portrayed by, carmine giovinazzo))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, portrayed by, melina kanakaredes), first appearance)=blink 1;hop(filter_str_eq(all_rows, portrayed by, carmine giovinazzo), first appearance)=blink 1;eq(blink 1, blink 1)=True", 
+    "hop(filter_str_eq(all_rows, portrayed by, melina kanakaredes), episodes)=140;hop(filter_str_eq(all_rows, portrayed by, carmine giovinazzo), episodes)=197;eq(197, 140)=False", 
+    "hop(filter_str_eq(all_rows, portrayed by, melina kanakaredes), portrayed by)=melina kanakaredes;hop(filter_str_eq(all_rows, portrayed by, carmine giovinazzo), portrayed by)=carmine giovinazzo;eq(carmine giovinazzo, melina kanakaredes)=False"
+  ]
+]

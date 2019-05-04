@@ -1,0 +1,12 @@
+[
+  "2-15764352-13.html.csv", 
+  "the #score;[0, 4]# be #92 - 18;[1, 4]# when the #etobicoke;[1, 2]# kangaroos play #toronto rebel;[3, 3]# at #home;[0, 2]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, score, 92 - 18), home, etobicoke kangaroos), away)=hamilton wildcats;eq(hamilton wildcats, toronto rebels)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home, etobicoke kangaroos), score, 92 - 18), away)=hamilton wildcats;eq(hamilton wildcats, toronto rebels)=False", 
+    "hop(filter_str_eq(all_rows, score, 92 - 18), home)=etobicoke kangaroos;hop(filter_str_eq(all_rows, score, 92 - 18), away)=hamilton wildcats;and(eq(etobicoke kangaroos, etobicoke kangaroos), eq(hamilton wildcats, toronto rebels))=False", 
+    "hop(filter_str_eq(all_rows, home, etobicoke kangaroos), score)=92 - 18;hop(filter_str_eq(all_rows, home, etobicoke kangaroos), away)=hamilton wildcats;and(eq(92 - 18, 92 - 18), eq(hamilton wildcats, toronto rebels))=False", 
+    "hop(filter_str_eq(all_rows, away, toronto rebels), score)=130 - 56;hop(filter_str_eq(all_rows, away, toronto rebels), home)=broadview hawks;and(eq(130 - 56, 92 - 18), eq(broadview hawks, etobicoke kangaroos))=False"
+  ]
+]

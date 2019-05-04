@@ -1,0 +1,27 @@
+[
+  "2-11105214-1.html.csv", 
+  "the #constituency;[0, 1]# of #aberdeen north;[5, 1]# be the #win party 2003;[0, 2]# of #snp;[1, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, constituency, aberdeen north), winning party 2003)=snp;eq(snp, snp)=True", 
+    "and(within(all_rows, constituency, aberdeen north), within(all_rows, constituency, snp))=False", 
+    "and(within(all_rows, constituency, aberdeen north), within(all_rows, winning party 2003, snp))=True", 
+    "and(within(all_rows, winning party 2003, aberdeen north), within(all_rows, constituency, snp))=False", 
+    "and(within(all_rows, winning party 2003, aberdeen north), within(all_rows, winning party 2003, snp))=False", 
+    "count(filter_str_eq(all_rows, constituency, aberdeen north))=1;count(filter_str_eq(all_rows, winning party 2003, snp))=4;eq(1, 4)=False", 
+    "count(all_rows)=10;count(filter_str_eq(filter_str_eq(all_rows, constituency, aberdeen north), winning party 2003, snp))=1;eq(10, 1)=False", 
+    "count(filter_str_eq(all_rows, constituency, aberdeen north))=1;count(filter_str_eq(filter_str_eq(all_rows, constituency, aberdeen north), winning party 2003, snp))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, constituency, aberdeen north), constituency)=aberdeen north;hop(filter_str_eq(filter_str_eq(all_rows, constituency, aberdeen north), winning party 2003, snp), constituency)=aberdeen north;eq(aberdeen north, aberdeen north)=True", 
+    "hop(filter_str_eq(all_rows, constituency, aberdeen north), winning party 2003)=snp;hop(filter_str_eq(filter_str_eq(all_rows, constituency, aberdeen north), winning party 2003, snp), winning party 2003)=snp;eq(snp, snp)=True", 
+    "count(all_rows)=10;count(filter_str_eq(filter_str_eq(all_rows, winning party 2003, snp), constituency, aberdeen north))=1;eq(10, 1)=False", 
+    "count(filter_str_eq(all_rows, winning party 2003, snp))=4;count(filter_str_eq(filter_str_eq(all_rows, winning party 2003, snp), constituency, aberdeen north))=1;eq(4, 1)=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, constituency, aberdeen north))=1;and(within(all_rows, constituency, snp), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, constituency, aberdeen north))=1;and(within(all_rows, winning party 2003, snp), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, constituency, aberdeen north))=1;and(within(filter_str_eq(all_rows, constituency, aberdeen north), constituency, snp), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, constituency, aberdeen north))=1;and(within(filter_str_eq(all_rows, constituency, aberdeen north), winning party 2003, snp), eq(10, 1))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, winning party 2003, snp))=4;and(within(all_rows, constituency, aberdeen north), eq(10, 4))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, winning party 2003, snp))=4;and(within(all_rows, winning party 2003, aberdeen north), eq(10, 4))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, winning party 2003, snp))=4;and(within(filter_str_eq(all_rows, winning party 2003, snp), constituency, aberdeen north), eq(10, 4))=False", 
+    "count(all_rows)=10;count(filter_str_eq(all_rows, winning party 2003, snp))=4;and(within(filter_str_eq(all_rows, winning party 2003, snp), winning party 2003, aberdeen north), eq(10, 4))=False"
+  ]
+]

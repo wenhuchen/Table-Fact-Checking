@@ -1,0 +1,24 @@
+[
+  "2-11945691-4.html.csv", 
+  "the #score;[0, 2]# on the 3rd of #december;[3, 0]# be #7 - 6;[2, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, december 5), score)=2 - 12;eq(2 - 12, 7 - 6)=False", 
+    "hop(filter_str_eq(all_rows, score, 7 - 6), date)=december 3;eq(december 3, december 5)=False", 
+    "and(within(all_rows, score, december 5), within(all_rows, score, 7 - 6))=False", 
+    "and(within(all_rows, score, december 5), within(all_rows, date, 7 - 6))=False", 
+    "and(within(all_rows, date, december 5), within(all_rows, score, 7 - 6))=True", 
+    "and(within(all_rows, date, december 5), within(all_rows, date, 7 - 6))=False", 
+    "count(filter_str_eq(all_rows, date, december 5))=1;count(filter_str_eq(all_rows, score, 7 - 6))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, december 5), score)=2 - 12;hop(filter_str_eq(all_rows, score, 7 - 6), score)=7 - 6;eq(7 - 6, 2 - 12)=False", 
+    "hop(filter_str_eq(all_rows, date, december 5), date)=december 5;hop(filter_str_eq(all_rows, score, 7 - 6), date)=december 3;eq(december 3, december 5)=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, date, december 5))=1;and(within(all_rows, score, 7 - 6), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, date, december 5))=1;and(within(all_rows, date, 7 - 6), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, date, december 5))=1;and(within(filter_str_eq(all_rows, date, december 5), score, 7 - 6), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, date, december 5))=1;and(within(filter_str_eq(all_rows, date, december 5), date, 7 - 6), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, score, 7 - 6))=1;and(within(all_rows, score, december 5), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, score, 7 - 6))=1;and(within(all_rows, date, december 5), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, score, 7 - 6))=1;and(within(filter_str_eq(all_rows, score, 7 - 6), score, december 5), eq(14, 1))=False", 
+    "count(all_rows)=14;count(filter_str_eq(all_rows, score, 7 - 6))=1;and(within(filter_str_eq(all_rows, score, 7 - 6), date, december 5), eq(14, 1))=False"
+  ]
+]

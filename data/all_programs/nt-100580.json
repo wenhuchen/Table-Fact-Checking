@@ -1,0 +1,16 @@
+[
+  "2-11983898-7.html.csv", 
+  "the only double #tournament;[0, 2]# that fabio fogini play on #hard;[7, 3]# #surface;[0, 3]# be in #china;[7, 2]# in #october 2013;[7, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, surface, hard), tournament, china open , beijing , china), date)=6 october 2013;eq(6 october 2013, 6 october 2013)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, surface, hard), date, 6 october 2013), tournament)=china open , beijing , china;eq(china open , beijing , china, china open , beijing , china)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, china open , beijing , china), surface, hard), date)=6 october 2013;eq(6 october 2013, 6 october 2013)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, china open , beijing , china), date, 6 october 2013), surface)=hard;eq(hard, hard)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 6 october 2013), surface, hard), tournament)=china open , beijing , china;eq(china open , beijing , china, china open , beijing , china)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 6 october 2013), tournament, china open , beijing , china), surface)=hard;eq(hard, hard)=True", 
+    "hop(filter_str_eq(all_rows, surface, hard), tournament)=china open , beijing , china;hop(filter_str_eq(all_rows, surface, hard), date)=6 october 2013;and(eq(china open , beijing , china, china open , beijing , china), eq(6 october 2013, 6 october 2013))=True", 
+    "hop(filter_str_eq(all_rows, tournament, china open , beijing , china), surface)=hard;hop(filter_str_eq(all_rows, tournament, china open , beijing , china), date)=6 october 2013;and(eq(hard, hard), eq(6 october 2013, 6 october 2013))=True", 
+    "hop(filter_str_eq(all_rows, date, 6 october 2013), tournament)=china open , beijing , china;hop(filter_str_eq(all_rows, date, 6 october 2013), surface)=hard;and(eq(china open , beijing , china, china open , beijing , china), eq(hard, hard))=True"
+  ]
+]

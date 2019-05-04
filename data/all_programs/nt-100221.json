@@ -1,0 +1,20 @@
+[
+  "2-14337020-5.html.csv", 
+  "on #july 31;[27, 0]# the #record;[0, 6]# be #46 - 58;[27, 6]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, july 31), record)=46 - 58;eq(46 - 58, 46 - 58)=True", 
+    "hop(filter_str_eq(all_rows, record, 46 - 58), date)=july 31;eq(july 31, july 31)=True", 
+    "count(filter_str_eq(all_rows, date, july 31))=1;count(filter_str_eq(all_rows, record, 46 - 58))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, july 31), record)=46 - 58;hop(filter_str_eq(all_rows, record, 46 - 58), record)=46 - 58;eq(46 - 58, 46 - 58)=True", 
+    "hop(filter_str_eq(all_rows, date, july 31), date)=july 31;hop(filter_str_eq(all_rows, record, 46 - 58), date)=july 31;eq(july 31, july 31)=True", 
+    "count(all_rows)=27;count(filter_str_eq(filter_str_eq(all_rows, date, july 31), record, 46 - 58))=1;eq(27, 1)=False", 
+    "count(filter_str_eq(all_rows, date, july 31))=1;count(filter_str_eq(filter_str_eq(all_rows, date, july 31), record, 46 - 58))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, july 31), record)=46 - 58;hop(filter_str_eq(filter_str_eq(all_rows, date, july 31), record, 46 - 58), record)=46 - 58;eq(46 - 58, 46 - 58)=True", 
+    "hop(filter_str_eq(all_rows, date, july 31), date)=july 31;hop(filter_str_eq(filter_str_eq(all_rows, date, july 31), record, 46 - 58), date)=july 31;eq(july 31, july 31)=True", 
+    "count(all_rows)=27;count(filter_str_eq(filter_str_eq(all_rows, record, 46 - 58), date, july 31))=1;eq(27, 1)=False", 
+    "count(filter_str_eq(all_rows, record, 46 - 58))=1;count(filter_str_eq(filter_str_eq(all_rows, record, 46 - 58), date, july 31))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, record, 46 - 58), record)=46 - 58;hop(filter_str_eq(filter_str_eq(all_rows, record, 46 - 58), date, july 31), record)=46 - 58;eq(46 - 58, 46 - 58)=True", 
+    "hop(filter_str_eq(all_rows, record, 46 - 58), date)=july 31;hop(filter_str_eq(filter_str_eq(all_rows, record, 46 - 58), date, july 31), date)=july 31;eq(july 31, july 31)=True"
+  ]
+]

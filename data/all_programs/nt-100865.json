@@ -1,0 +1,9 @@
+[
+  "2-18705842-4.html.csv", 
+  "#poland;[15, 1]# and #austria;[12, 1]# be both ranked number #10;[10, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, nation, poland), nation)=poland;hop(filter_str_eq(all_rows, nation, poland), rank)=15;and(eq(poland, austria), eq(15, 10))=False", 
+    "hop(filter_str_eq(all_rows, nation, austria), nation)=austria;hop(filter_str_eq(all_rows, nation, austria), rank)=12;and(eq(austria, poland), eq(12, 10))=False"
+  ]
+]

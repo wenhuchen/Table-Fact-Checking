@@ -1,0 +1,12 @@
+[
+  "2-1506948-1.html.csv", 
+  "the #host;[0, 4]# in #2004;[4, 0]# also #host;[0, 4]# in #2005;[3, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, year, 2004), year)=2004;eq(2004, 2005)=False", 
+    "hop(filter_str_eq(all_rows, year, 2005), year)=2005;eq(2005, 2004)=False", 
+    "count(filter_str_eq(all_rows, year, 2004))=1;count(filter_str_eq(all_rows, year, 2005))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, year, 2004), hosts)=vanness wu and michelle branch;hop(filter_str_eq(all_rows, year, 2005), hosts)=alicia keys;eq(alicia keys, vanness wu and michelle branch)=False", 
+    "hop(filter_str_eq(all_rows, year, 2004), year)=2004;hop(filter_str_eq(all_rows, year, 2005), year)=2005;eq(2005, 2004)=False"
+  ]
+]

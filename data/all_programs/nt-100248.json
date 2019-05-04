@@ -1,0 +1,29 @@
+[
+  "1-13657883-2.html.csv", 
+  "number #48 greenwood racing;[11, 2]# be the #gto win team;[0, 2]# for round #6;[11, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd)=6;eq(6, 6)=True", 
+    "count(filter_greater_eq(all_rows, rnd, 6))=9;count(filter_str_eq(all_rows, gto winning team, 48 greenwood racing))=1;eq(9, 1)=False", 
+    "count(all_rows)=19;count(filter_str_eq(filter_greater_eq(all_rows, rnd, 6), gto winning team, 48 greenwood racing))=1;eq(19, 1)=False", 
+    "count(filter_greater_eq(all_rows, rnd, 6))=9;count(filter_str_eq(filter_greater_eq(all_rows, rnd, 6), gto winning team, 48 greenwood racing))=1;eq(9, 1)=False", 
+    "count(all_rows)=19;count(filter_greater_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6))=1;eq(19, 1)=False", 
+    "count(filter_str_eq(all_rows, gto winning team, 48 greenwood racing))=1;count(filter_greater_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), gto winning team)=48 greenwood racing;hop(filter_greater_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6), gto winning team)=48 greenwood racing;eq(48 greenwood racing, 48 greenwood racing)=True", 
+    "hop(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd)=6;hop(filter_greater_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6), rnd)=6;eq(6, 6)=True", 
+    "count(filter_str_eq(all_rows, gto winning team, 48 greenwood racing))=1;count(filter_eq(all_rows, rnd, 6))=2;eq(1, 2)=False", 
+    "count(all_rows)=19;count(filter_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6))=1;eq(19, 1)=False", 
+    "count(filter_str_eq(all_rows, gto winning team, 48 greenwood racing))=1;count(filter_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), gto winning team)=48 greenwood racing;hop(filter_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6), gto winning team)=48 greenwood racing;eq(48 greenwood racing, 48 greenwood racing)=True", 
+    "hop(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd)=6;hop(filter_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6), rnd)=6;eq(6, 6)=True", 
+    "count(all_rows)=19;count(filter_less_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6))=1;eq(19, 1)=False", 
+    "count(filter_str_eq(all_rows, gto winning team, 48 greenwood racing))=1;count(filter_less_eq(all_rows, rnd, 6))=12;eq(1, 12)=False", 
+    "count(filter_str_eq(all_rows, gto winning team, 48 greenwood racing))=1;count(filter_less_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), gto winning team)=48 greenwood racing;hop(filter_less_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6), gto winning team)=48 greenwood racing;eq(48 greenwood racing, 48 greenwood racing)=True", 
+    "hop(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd)=6;hop(filter_less_eq(filter_str_eq(all_rows, gto winning team, 48 greenwood racing), rnd, 6), rnd)=6;eq(6, 6)=True", 
+    "count(all_rows)=19;count(filter_str_eq(filter_eq(all_rows, rnd, 6), gto winning team, 48 greenwood racing))=1;eq(19, 1)=False", 
+    "count(filter_eq(all_rows, rnd, 6))=2;count(filter_str_eq(filter_eq(all_rows, rnd, 6), gto winning team, 48 greenwood racing))=1;eq(2, 1)=False", 
+    "count(all_rows)=19;count(filter_str_eq(filter_less_eq(all_rows, rnd, 6), gto winning team, 48 greenwood racing))=1;eq(19, 1)=False", 
+    "count(filter_less_eq(all_rows, rnd, 6))=12;count(filter_str_eq(filter_less_eq(all_rows, rnd, 6), gto winning team, 48 greenwood racing))=1;eq(12, 1)=False"
+  ]
+]

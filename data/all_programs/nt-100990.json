@@ -1,0 +1,13 @@
+[
+  "2-10809157-1.html.csv", 
+  "#23.21 (159);[5, 3]# be the highest #away team score;[0, 3]# , #12.10 (82);[6, 3]# be the lowest", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, away team score, 23.21 (159)), away team score)=23.21 (159);eq(23.21 (159), 12.10 (82))=False", 
+    "hop(filter_str_eq(all_rows, away team score, 12.10 (82)), away team score)=12.10 (82);eq(12.10 (82), 23.21 (159))=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 23.21 (159)), away team score, 23.21 (159)), away team score)=23.21 (159);eq(23.21 (159), 12.10 (82))=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 12.10 (82)), away team score, 12.10 (82)), away team score)=12.10 (82);eq(12.10 (82), 23.21 (159))=False", 
+    "count(filter_str_eq(all_rows, away team score, 23.21 (159)))=1;count(filter_str_eq(all_rows, away team score, 12.10 (82)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 23.21 (159)), away team score)=23.21 (159);hop(filter_str_eq(all_rows, away team score, 12.10 (82)), away team score)=12.10 (82);eq(12.10 (82), 23.21 (159))=False"
+  ]
+]

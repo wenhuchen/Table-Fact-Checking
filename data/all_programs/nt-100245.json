@@ -1,0 +1,9 @@
+[
+  "1-22034853-1.html.csv", 
+  "only 1 #film;[0, 1]# be #title;[0, 2]# #dans la ville blanche;[12, 2]# in #turkish;[18, 3]# #language;[0, 3]#", 
+  0, 
+  [
+    "count(all_rows)=38;hop(filter_str_eq(all_rows, original title, dans la ville blanche), language (s))=french;and(eq(1, 38), eq(french, turkish))=False", 
+    "count(filter_str_eq(all_rows, original title, dans la ville blanche))=1;hop(filter_str_eq(all_rows, original title, dans la ville blanche), language (s))=french;and(eq(1, 1), eq(french, turkish))=False"
+  ]
+]

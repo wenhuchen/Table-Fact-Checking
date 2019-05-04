@@ -1,0 +1,12 @@
+[
+  "2-1851722-38.html.csv", 
+  "#portal;[2, 1]# be release in #2009;[4, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, game, portal), year)=2007;eq(2009, 2007)=False", 
+    "hop(filter_eq(all_rows, year, 2009), game)=uncharted 2: among thieves;eq(uncharted 2: among thieves, portal)=False", 
+    "count(filter_str_eq(all_rows, game, portal))=1;count(filter_eq(all_rows, year, 2009))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, game, portal), game)=portal;hop(filter_eq(all_rows, year, 2009), game)=uncharted 2: among thieves;eq(uncharted 2: among thieves, portal)=False", 
+    "hop(filter_str_eq(all_rows, game, portal), year)=2007;hop(filter_eq(all_rows, year, 2009), year)=2009;eq(2007, 2009)=False"
+  ]
+]

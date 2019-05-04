@@ -1,0 +1,20 @@
+[
+  "2-17288411-3.html.csv", 
+  "the #largest city;[0, 1]# in #south khorasan;[29, 0]# be #birjand;[29, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, province, south khorasan), largest city)=birjand;eq(birjand, birjand)=True", 
+    "hop(filter_str_eq(all_rows, largest city, birjand), province)=south khorasan;eq(south khorasan, south khorasan)=True", 
+    "count(filter_str_eq(all_rows, province, south khorasan))=1;count(filter_str_eq(all_rows, largest city, birjand))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, province, south khorasan), largest city)=birjand;hop(filter_str_eq(all_rows, largest city, birjand), largest city)=birjand;eq(birjand, birjand)=True", 
+    "hop(filter_str_eq(all_rows, province, south khorasan), province)=south khorasan;hop(filter_str_eq(all_rows, largest city, birjand), province)=south khorasan;eq(south khorasan, south khorasan)=True", 
+    "count(all_rows)=31;count(filter_str_eq(filter_str_eq(all_rows, province, south khorasan), largest city, birjand))=1;eq(31, 1)=False", 
+    "count(filter_str_eq(all_rows, province, south khorasan))=1;count(filter_str_eq(filter_str_eq(all_rows, province, south khorasan), largest city, birjand))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, province, south khorasan), largest city)=birjand;hop(filter_str_eq(filter_str_eq(all_rows, province, south khorasan), largest city, birjand), largest city)=birjand;eq(birjand, birjand)=True", 
+    "hop(filter_str_eq(all_rows, province, south khorasan), province)=south khorasan;hop(filter_str_eq(filter_str_eq(all_rows, province, south khorasan), largest city, birjand), province)=south khorasan;eq(south khorasan, south khorasan)=True", 
+    "count(all_rows)=31;count(filter_str_eq(filter_str_eq(all_rows, largest city, birjand), province, south khorasan))=1;eq(31, 1)=False", 
+    "count(filter_str_eq(all_rows, largest city, birjand))=1;count(filter_str_eq(filter_str_eq(all_rows, largest city, birjand), province, south khorasan))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, largest city, birjand), largest city)=birjand;hop(filter_str_eq(filter_str_eq(all_rows, largest city, birjand), province, south khorasan), largest city)=birjand;eq(birjand, birjand)=True", 
+    "hop(filter_str_eq(all_rows, largest city, birjand), province)=south khorasan;hop(filter_str_eq(filter_str_eq(all_rows, largest city, birjand), province, south khorasan), province)=south khorasan;eq(south khorasan, south khorasan)=True"
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  "2-10826385-19.html.csv", 
+  "when the #away team score;[0, 3]# #14.11 (95);[4, 3]# , the #home team score;[0, 1]# a #21.14 (140);[4, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "hop(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score, 21.14 (140)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), away team score, 14.11 (95)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score, 14.11 (95)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score, 21.14 (140)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score, 14.11 (95)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, home team score, 21.14 (140)), home team score, 21.14 (140)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "count(filter_str_eq(all_rows, away team score, 14.11 (95)))=1;count(filter_str_eq(all_rows, home team score, 21.14 (140)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), away team score)=14.11 (95);hop(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score)=21.14 (140);hop(filter_str_eq(all_rows, home team score, 21.14 (140)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score, 21.14 (140)))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, away team score, 14.11 (95)))=1;count(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score, 21.14 (140)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), away team score)=14.11 (95);hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score, 21.14 (140)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score)=21.14 (140);hop(filter_str_eq(filter_str_eq(all_rows, away team score, 14.11 (95)), home team score, 21.14 (140)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score, 14.11 (95)))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, home team score, 21.14 (140)))=1;count(filter_str_eq(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score, 14.11 (95)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score)=14.11 (95);hop(filter_str_eq(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score, 14.11 (95)), away team score)=14.11 (95);eq(14.11 (95), 14.11 (95))=True", 
+    "hop(filter_str_eq(all_rows, home team score, 21.14 (140)), home team score)=21.14 (140);hop(filter_str_eq(filter_str_eq(all_rows, home team score, 21.14 (140)), away team score, 14.11 (95)), home team score)=21.14 (140);eq(21.14 (140), 21.14 (140))=True"
+  ]
+]

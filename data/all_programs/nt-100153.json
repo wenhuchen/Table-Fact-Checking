@@ -1,0 +1,31 @@
+[
+  "2-18103106-4.html.csv", 
+  "4 golfer tie for the round best #score;[0, 3]# with a #69;[13, 3]# or #5;[4, 4]# under #par;[0, 4]#", 
+  1, 
+  [
+    "min(filter_str_eq(filter_less(all_rows, score, 69), to par, - 5), score)=67;less(4, 67);less(4, 67)=True", 
+    "min(filter_str_eq(filter_less(all_rows, score, 69), to par, - 5), score)=67;eq(4, 67)=False", 
+    "max(filter_str_eq(filter_less(all_rows, score, 69), to par, - 5), score)=67;less(4, 67);less(4, 67)=True", 
+    "max(filter_str_eq(filter_less(all_rows, score, 69), to par, - 5), score)=67;eq(4, 67)=False", 
+    "count(filter_str_eq(filter_less(all_rows, score, 69), to par, - 5))=4;less(4, 4);less(4, 4)=False", 
+    "count(filter_str_eq(filter_less(all_rows, score, 69), to par, - 5))=4;eq(4, 4)=True", 
+    "min(filter_less(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;less(4, 67);less(4, 67)=True", 
+    "min(filter_less(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;eq(4, 67)=False", 
+    "max(filter_less(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;less(4, 67);less(4, 67)=True", 
+    "max(filter_less(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;eq(4, 67)=False", 
+    "count(filter_less(filter_str_eq(all_rows, to par, - 5), score, 69))=4;less(4, 4);less(4, 4)=False", 
+    "count(filter_less(filter_str_eq(all_rows, to par, - 5), score, 69))=4;eq(4, 4)=True", 
+    "min(filter_less_eq(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;less(4, 67);less(4, 67)=True", 
+    "min(filter_less_eq(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;eq(4, 67)=False", 
+    "max(filter_less_eq(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;less(4, 67);less(4, 67)=True", 
+    "max(filter_less_eq(filter_str_eq(all_rows, to par, - 5), score, 69), score)=67;eq(4, 67)=False", 
+    "count(filter_less_eq(filter_str_eq(all_rows, to par, - 5), score, 69))=4;less(4, 4);less(4, 4)=False", 
+    "count(filter_less_eq(filter_str_eq(all_rows, to par, - 5), score, 69))=4;eq(4, 4)=True", 
+    "min(filter_str_eq(filter_less_eq(all_rows, score, 69), to par, - 5), score)=67;less(4, 67);less(4, 67)=True", 
+    "min(filter_str_eq(filter_less_eq(all_rows, score, 69), to par, - 5), score)=67;eq(4, 67)=False", 
+    "max(filter_str_eq(filter_less_eq(all_rows, score, 69), to par, - 5), score)=67;less(4, 67);less(4, 67)=True", 
+    "max(filter_str_eq(filter_less_eq(all_rows, score, 69), to par, - 5), score)=67;eq(4, 67)=False", 
+    "count(filter_str_eq(filter_less_eq(all_rows, score, 69), to par, - 5))=4;less(4, 4);less(4, 4)=False", 
+    "count(filter_str_eq(filter_less_eq(all_rows, score, 69), to par, - 5))=4;eq(4, 4)=True"
+  ]
+]

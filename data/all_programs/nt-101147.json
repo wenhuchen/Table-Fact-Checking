@@ -1,0 +1,19 @@
+[
+  "2-18256407-2.html.csv", 
+  "the #report;[5, 5]# of #elgin trophy;[7, 0]# be #report;[5, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, report, report), name, elgin trophy), report)=report;eq(report, report)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, name, elgin trophy), report, report), report)=report;eq(report, report)=True", 
+    "hop(filter_str_eq(all_rows, name, elgin trophy), report)=report;and(within(all_rows, report, report), eq(report, report))=True", 
+    "hop(filter_str_eq(all_rows, name, elgin trophy), report)=report;and(within(all_rows, name, report), eq(report, report))=False", 
+    "hop(filter_str_eq(all_rows, name, elgin trophy), report)=report;and(within(filter_str_eq(all_rows, name, elgin trophy), report, report), eq(report, report))=True", 
+    "hop(filter_str_eq(all_rows, name, elgin trophy), report)=report;and(within(filter_str_eq(all_rows, name, elgin trophy), name, report), eq(report, report))=False", 
+    "and(and(within(all_rows, report, report), within(all_rows, report, elgin trophy)), within(all_rows, name, report))=False", 
+    "and(and(within(all_rows, report, report), within(all_rows, name, elgin trophy)), within(all_rows, name, report))=False", 
+    "and(and(within(all_rows, report, report), within(all_rows, name, report)), within(all_rows, report, elgin trophy))=False", 
+    "and(and(within(all_rows, report, report), within(all_rows, name, report)), within(all_rows, name, elgin trophy))=False", 
+    "and(and(within(all_rows, name, report), within(all_rows, report, elgin trophy)), within(all_rows, report, report))=False", 
+    "and(and(within(all_rows, name, report), within(all_rows, name, elgin trophy)), within(all_rows, report, report))=False"
+  ]
+]

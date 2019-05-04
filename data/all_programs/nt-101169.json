@@ -1,0 +1,24 @@
+[
+  "2-12108114-7.html.csv", 
+  "the #attendance;[0, 5]# on #november;[3, 0]# 10th , #2004;[1, 0]# be the highest record of #attendance;[0, 5]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, date, 30 november 2004), date)=30 november 2004;eq(30 november 2004, 27 october 2004)=False", 
+    "hop(filter_str_eq(all_rows, date, 27 october 2004), date)=27 october 2004;eq(27 october 2004, 30 november 2004)=False", 
+    "and(within(all_rows, date, 30 november 2004), within(all_rows, date, 27 october 2004))=True", 
+    "hop(filter_str_eq(argmin(all_rows, attendance), date, 30 november 2004), date)=30 november 2004;eq(30 november 2004, 27 october 2004)=False", 
+    "hop(argmax(all_rows, attendance), date)=27 february 2005;and(within(all_rows, date, 30 november 2004), eq(27 february 2005, 27 october 2004))=False", 
+    "hop(argmax(all_rows, attendance), date)=27 february 2005;and(within(all_rows, date, 27 october 2004), eq(27 february 2005, 30 november 2004))=False", 
+    "hop(argmax(all_rows, attendance), date)=27 february 2005;and(within(argmax(all_rows, attendance), date, 30 november 2004), eq(27 february 2005, 27 october 2004))=False", 
+    "hop(argmax(all_rows, attendance), date)=27 february 2005;and(within(argmax(all_rows, attendance), date, 27 october 2004), eq(27 february 2005, 30 november 2004))=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 30 november 2004), date, 30 november 2004), date)=30 november 2004;eq(30 november 2004, 27 october 2004)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 27 october 2004), date, 27 october 2004), date)=27 october 2004;eq(27 october 2004, 30 november 2004)=False", 
+    "count(filter_str_eq(all_rows, date, 30 november 2004))=1;count(filter_str_eq(all_rows, date, 27 october 2004))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, 30 november 2004), date)=30 november 2004;hop(filter_str_eq(all_rows, date, 27 october 2004), date)=27 october 2004;eq(27 october 2004, 30 november 2004)=False", 
+    "hop(filter_str_eq(all_rows, date, 30 november 2004), attendance)=14531;hop(filter_str_eq(all_rows, date, 27 october 2004), attendance)=41774;eq(14531, 41774)=False", 
+    "hop(argmin(all_rows, attendance), date)=30 november 2004;and(within(all_rows, date, 30 november 2004), eq(30 november 2004, 27 october 2004))=False", 
+    "hop(argmin(all_rows, attendance), date)=30 november 2004;and(within(all_rows, date, 27 october 2004), eq(30 november 2004, 30 november 2004))=True", 
+    "hop(argmin(all_rows, attendance), date)=30 november 2004;and(within(argmin(all_rows, attendance), date, 30 november 2004), eq(30 november 2004, 27 october 2004))=False", 
+    "hop(argmin(all_rows, attendance), date)=30 november 2004;and(within(argmin(all_rows, attendance), date, 27 october 2004), eq(30 november 2004, 30 november 2004))=False"
+  ]
+]

@@ -1,0 +1,11 @@
+[
+  "2-1204658-7.html.csv", 
+  "the average #away team score;[0, 3]# between #south melbourne;[1, 2]# and #geelong;[2, 2]# be 6.62", 
+  1, 
+  [
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, away team, south melbourne), away team)=south melbourne;and(eq(6.62, 5), eq(south melbourne, geelong))=False", 
+    "count(filter_str_eq(all_rows, away team, south melbourne))=1;hop(filter_str_eq(all_rows, away team, south melbourne), away team)=south melbourne;and(eq(6.62, 1), eq(south melbourne, geelong))=False", 
+    "count(all_rows)=5;hop(filter_str_eq(all_rows, away team, geelong), away team)=geelong;and(eq(6.62, 5), eq(geelong, south melbourne))=False", 
+    "count(filter_str_eq(all_rows, away team, geelong))=1;hop(filter_str_eq(all_rows, away team, geelong), away team)=geelong;and(eq(6.62, 1), eq(geelong, south melbourne))=False"
+  ]
+]

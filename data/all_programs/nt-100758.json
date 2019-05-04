@@ -1,0 +1,15 @@
+[
+  "2-18662049-2.html.csv", 
+  "russia 's #anna pavlova;[7, 1]# do not #score;[0, 3]# over 9.00 as her #b score;[0, 3]#", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, gymnast, anna pavlova ( rus )))=1;eq(9.0, 1)=False", 
+    "count(filter_str_eq(all_rows, gymnast, anna pavlova ( rus )))=1;not_eq(9.0, 1)=True", 
+    "hop(filter_str_eq(all_rows, gymnast, anna pavlova ( rus )), b score)=9.225;eq(9.0, 9.225)=False", 
+    "hop(filter_str_eq(all_rows, gymnast, anna pavlova ( rus )), b score)=9.225;not_eq(9.0, 9.225)=True", 
+    "count(filter_str_not_eq(all_rows, gymnast, anna pavlova ( rus )))=7;eq(9.0, 7)=False", 
+    "count(filter_str_not_eq(all_rows, gymnast, anna pavlova ( rus )))=7;not_eq(9.0, 7)=True", 
+    "count(all_rows)=8;and(not_within(all_rows, gymnast, anna pavlova ( rus )), eq(9.0, 8))=False", 
+    "count(all_rows)=8;and(not_within(all_rows, gymnast, anna pavlova ( rus )), not_eq(9.0, 8))=False"
+  ]
+]

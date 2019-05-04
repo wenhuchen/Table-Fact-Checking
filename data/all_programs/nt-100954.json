@@ -1,0 +1,12 @@
+[
+  "1-14984078-1.html.csv", 
+  "the team play at #tiger stadium;[12, 5]# against the #washington;[13, 2]# redskins", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, game site, tiger stadium), opponent)=detroit lions;eq(detroit lions, washington redskins)=False", 
+    "hop(filter_str_eq(all_rows, opponent, washington redskins), game site)=memorial stadium;eq(memorial stadium, tiger stadium)=False", 
+    "count(filter_str_eq(all_rows, game site, tiger stadium))=1;count(filter_str_eq(all_rows, opponent, washington redskins))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, game site, tiger stadium), game site)=tiger stadium;hop(filter_str_eq(all_rows, opponent, washington redskins), game site)=memorial stadium;eq(memorial stadium, tiger stadium)=False", 
+    "hop(filter_str_eq(all_rows, game site, tiger stadium), opponent)=detroit lions;hop(filter_str_eq(all_rows, opponent, washington redskins), opponent)=washington redskins;eq(washington redskins, detroit lions)=False"
+  ]
+]

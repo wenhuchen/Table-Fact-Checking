@@ -1,0 +1,15 @@
+[
+  "2-1102696-4.html.csv", 
+  "#john walker;[8, 2]# be the only #athlete;[0, 2]# from #new zealand;[8, 3]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, athlete, john walker), nationality)=new zealand;eq(new zealand, new zealand)=True", 
+    "count(filter_str_eq(all_rows, athlete, john walker))=1;count(filter_str_eq(all_rows, nationality, new zealand))=2;eq(1, 2)=False", 
+    "count(all_rows)=30;count(filter_str_eq(filter_str_eq(all_rows, athlete, john walker), nationality, new zealand))=1;eq(30, 1)=False", 
+    "count(filter_str_eq(all_rows, athlete, john walker))=1;count(filter_str_eq(filter_str_eq(all_rows, athlete, john walker), nationality, new zealand))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, athlete, john walker), athlete)=john walker;hop(filter_str_eq(filter_str_eq(all_rows, athlete, john walker), nationality, new zealand), athlete)=john walker;eq(john walker, john walker)=True", 
+    "hop(filter_str_eq(all_rows, athlete, john walker), nationality)=new zealand;hop(filter_str_eq(filter_str_eq(all_rows, athlete, john walker), nationality, new zealand), nationality)=new zealand;eq(new zealand, new zealand)=True", 
+    "count(all_rows)=30;count(filter_str_eq(filter_str_eq(all_rows, nationality, new zealand), athlete, john walker))=1;eq(30, 1)=False", 
+    "count(filter_str_eq(all_rows, nationality, new zealand))=2;count(filter_str_eq(filter_str_eq(all_rows, nationality, new zealand), athlete, john walker))=1;eq(2, 1)=False"
+  ]
+]

@@ -1,0 +1,11 @@
+[
+  "2-10883333-1.html.csv", 
+  "on #5 april 1975;[2, 6]# , all #venue;[0, 4]# have the same attendance", 
+  0, 
+  [
+    "all_eq(filter_str_eq(all_rows, date, 5 april 1975), date, 5 april 1975)=True", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, date, 5 april 1975))=6;eq(6, 6)=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_str_eq(all_rows, date, 5 april 1975), date, 5 april 1975))=6;eq(6, 6)=True", 
+    "count(filter_str_eq(all_rows, date, 5 april 1975))=6;count(filter_str_eq(filter_str_eq(all_rows, date, 5 april 1975), date, 5 april 1975))=6;eq(6, 6)=True"
+  ]
+]

@@ -1,0 +1,19 @@
+[
+  "2-10767641-2.html.csv", 
+  "the #home team score;[0, 1]# less than 78 at #victoria park;[2, 4]#", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, venue, victoria park))=1;less(78, 1);less(78, 1)=False", 
+    "count(filter_str_eq(all_rows, venue, victoria park))=1;eq(78, 1)=False", 
+    "count(filter_str_eq(all_rows, venue, victoria park))=1;greater(78, 1)=True", 
+    "count(all_rows)=6;diff(78, 6)=72;count(filter_str_eq(all_rows, venue, victoria park))=1;less(72, 1);less(72, 1)=False", 
+    "count(all_rows)=6;diff(78, 6)=72;count(filter_str_eq(all_rows, venue, victoria park))=1;eq(72, 1)=False", 
+    "count(all_rows)=6;diff(78, 6)=72;count(filter_str_eq(all_rows, venue, victoria park))=1;greater(72, 1)=True", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, venue, victoria park))=1;diff(78, 1)=77;less(6, 77);less(6, 77)=True", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, venue, victoria park))=1;diff(78, 1)=77;eq(6, 77)=False", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, venue, victoria park))=1;diff(78, 1)=77;greater(6, 77)=False", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, venue, victoria park))=1;diff(6, 1)=5;less(78, 5);less(78, 5)=False", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, venue, victoria park))=1;diff(6, 1)=5;eq(78, 5)=False", 
+    "count(all_rows)=6;count(filter_str_eq(all_rows, venue, victoria park))=1;diff(6, 1)=5;greater(78, 5)=True"
+  ]
+]

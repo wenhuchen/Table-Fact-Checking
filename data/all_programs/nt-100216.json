@@ -1,0 +1,12 @@
+[
+  "2-14337020-5.html.csv", 
+  "a win be #record;[0, 6]# on #july;[3, 0]# 31st bring the #record;[0, 6]# #46 - 58;[27, 6]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, july 4), record)=34 - 46;eq(34 - 46, 46 - 58)=False", 
+    "hop(filter_str_eq(all_rows, record, 46 - 58), date)=july 31;eq(july 31, july 4)=False", 
+    "count(filter_str_eq(all_rows, date, july 4))=1;count(filter_str_eq(all_rows, record, 46 - 58))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, july 4), record)=34 - 46;hop(filter_str_eq(all_rows, record, 46 - 58), record)=46 - 58;eq(46 - 58, 34 - 46)=False", 
+    "hop(filter_str_eq(all_rows, date, july 4), date)=july 4;hop(filter_str_eq(all_rows, record, 46 - 58), date)=july 31;eq(july 31, july 4)=False"
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  "2-15405037-2.html.csv", 
+  "on #october 16 , 2005 ,;[6, 1]# #week;[0, 0]# #6;[6, 0]# occur against #cleveland brown;[8, 2]#", 
+  0, 
+  [
+    "hop(filter_eq(filter_str_eq(all_rows, date, october 16 , 2005), week, 6), opponent)=seattle seahawks;eq(seattle seahawks, cleveland browns)=False", 
+    "hop(filter_str_eq(filter_eq(all_rows, week, 6), date, october 16 , 2005), opponent)=seattle seahawks;eq(seattle seahawks, cleveland browns)=False", 
+    "hop(filter_str_eq(all_rows, date, october 16 , 2005), opponent)=seattle seahawks;hop(filter_str_eq(all_rows, date, october 16 , 2005), week)=6;and(eq(seattle seahawks, cleveland browns), eq(6, 6))=False", 
+    "hop(filter_str_eq(all_rows, opponent, cleveland browns), date)=october 30 , 2005;hop(filter_str_eq(all_rows, opponent, cleveland browns), week)=8;and(eq(october 30 , 2005, october 16 , 2005), eq(6, 8))=False", 
+    "hop(filter_eq(all_rows, week, 6), date)=october 16 , 2005;hop(filter_eq(all_rows, week, 6), opponent)=seattle seahawks;and(eq(october 16 , 2005, october 16 , 2005), eq(seattle seahawks, cleveland browns))=False"
+  ]
+]

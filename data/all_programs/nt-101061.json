@@ -1,0 +1,17 @@
+[
+  "2-10783853-4.html.csv", 
+  "#junction oval;[6, 4]# #venue;[0, 4]# record a lower #crowd;[0, 5]# participation than the #prince park;[3, 4]# #venue;[0, 4]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, venue, junction oval), venue)=junction oval;eq(junction oval, princes park)=False", 
+    "hop(filter_str_eq(all_rows, venue, princes park), venue)=princes park;eq(princes park, junction oval)=False", 
+    "hop(filter_str_eq(argmax(all_rows, crowd), venue, princes park), venue)=princes park;eq(princes park, junction oval)=False", 
+    "count(filter_str_eq(all_rows, venue, junction oval))=1;count(filter_str_eq(all_rows, venue, princes park))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, venue, junction oval))=1;count(filter_str_eq(all_rows, venue, princes park))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, venue, junction oval))=1;count(filter_str_eq(all_rows, venue, princes park))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, venue, junction oval), venue)=junction oval;hop(filter_str_eq(all_rows, venue, princes park), venue)=princes park;eq(princes park, junction oval)=False", 
+    "hop(filter_str_eq(all_rows, venue, junction oval), crowd)=37700;hop(filter_str_eq(all_rows, venue, princes park), crowd)=42919;less(37700, 42919);less(37700, 42919)=True", 
+    "hop(filter_str_eq(all_rows, venue, junction oval), crowd)=37700;hop(filter_str_eq(all_rows, venue, princes park), crowd)=42919;eq(37700, 42919)=False", 
+    "hop(filter_str_eq(all_rows, venue, junction oval), crowd)=37700;hop(filter_str_eq(all_rows, venue, princes park), crowd)=42919;greater(37700, 42919)=False"
+  ]
+]

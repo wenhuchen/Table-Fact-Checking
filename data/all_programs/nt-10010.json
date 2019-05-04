@@ -1,0 +1,13 @@
+[
+  "2-11240028-1.html.csv", 
+  "#stella bonasera;[10, 0]# appear #first;[0, 2]# in the same #episode;[0, 5]# as #adam ross;[6, 0]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, character, stella bonasera csi detective), character)=stella bonasera csi detective;eq(stella bonasera csi detective, adam ross lab technician)=False", 
+    "hop(filter_str_eq(all_rows, character, adam ross lab technician), character)=adam ross lab technician;eq(adam ross lab technician, stella bonasera csi detective)=False", 
+    "count(filter_str_eq(all_rows, character, stella bonasera csi detective))=1;count(filter_str_eq(all_rows, character, adam ross lab technician))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, character, stella bonasera csi detective), first appearance)=blink 1;hop(filter_str_eq(all_rows, character, adam ross lab technician), first appearance)=bad beat;eq(bad beat, blink 1)=False", 
+    "hop(filter_str_eq(all_rows, character, stella bonasera csi detective), episodes)=140;hop(filter_str_eq(all_rows, character, adam ross lab technician), episodes)=141 4;eq(141 4, 140)=False", 
+    "hop(filter_str_eq(all_rows, character, stella bonasera csi detective), character)=stella bonasera csi detective;hop(filter_str_eq(all_rows, character, adam ross lab technician), character)=adam ross lab technician;eq(adam ross lab technician, stella bonasera csi detective)=False"
+  ]
+]

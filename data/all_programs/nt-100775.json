@@ -1,0 +1,11 @@
+[
+  "2-17325937-8.html.csv", 
+  "alan #iverson;[4, 6]# lead the detroit piston in term of #point;[0, 4]# #score;[0, 3]# on 5 occasion during this period", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, high assists, allen iverson (7)))=1;eq(5, 1)=False", 
+    "count(all_rows)=12;and(within(all_rows, high points, allen iverson (7)), eq(5, 12))=False", 
+    "count(all_rows)=12;and(within(all_rows, score, allen iverson (7)), eq(5, 12))=False", 
+    "count(all_rows)=12;and(within(all_rows, high assists, allen iverson (7)), eq(5, 12))=False"
+  ]
+]

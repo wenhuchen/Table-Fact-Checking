@@ -1,0 +1,23 @@
+[
+  "1-1876825-2.html.csv", 
+  "#stock car race;[10, 1]# be the name of the episode before the episode name #funeral;[11, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, title, stock car races), title)=stock car races;eq(stock car races, funeral)=False", 
+    "hop(filter_str_eq(all_rows, title, funeral), title)=funeral;eq(funeral, stock car races)=False", 
+    "and(within(all_rows, title, stock car races), within(all_rows, title, funeral))=True", 
+    "next(filter_str_eq(all_rows, title, stock car races));hop(next(filter_str_eq(all_rows, title, stock car races)), title)=lois vs evil;eq(lois vs evil, funeral)=False", 
+    "next(filter_str_eq(all_rows, title, funeral));hop(next(filter_str_eq(all_rows, title, funeral)), title)=stock car races;eq(stock car races, stock car races)=True", 
+    "count(filter_str_eq(all_rows, title, stock car races))=1;count(filter_str_eq(all_rows, title, funeral))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, title, stock car races))=1;count(filter_str_eq(all_rows, title, funeral))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, title, stock car races), title)=stock car races;hop(filter_str_eq(all_rows, title, funeral), title)=funeral;eq(funeral, stock car races)=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, stock car races))=1;less(15, 1);and(within(all_rows, title, funeral), less(15, 1))=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, stock car races))=1;and(within(all_rows, title, funeral), eq(15, 1))=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, stock car races))=1;less(15, 1);and(within(filter_str_eq(all_rows, title, stock car races), title, funeral), less(15, 1))=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, stock car races))=1;and(within(filter_str_eq(all_rows, title, stock car races), title, funeral), eq(15, 1))=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, funeral))=1;less(15, 1);and(within(all_rows, title, stock car races), less(15, 1))=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, funeral))=1;and(within(all_rows, title, stock car races), eq(15, 1))=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, funeral))=1;less(15, 1);and(within(filter_str_eq(all_rows, title, funeral), title, stock car races), less(15, 1))=False", 
+    "count(all_rows)=15;count(filter_str_eq(all_rows, title, funeral))=1;and(within(filter_str_eq(all_rows, title, funeral), title, stock car races), eq(15, 1))=False"
+  ]
+]

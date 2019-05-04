@@ -1,0 +1,12 @@
+[
+  "2-1332313-1.html.csv", 
+  "#game;[0, 0]# #3;[3, 0]# be hold on #october;[6, 1]# 6th", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, date, october 9), game)=6;eq(3, 6)=False", 
+    "hop(filter_eq(all_rows, game, 3), date)=october 6;eq(october 6, october 9)=False", 
+    "count(filter_str_eq(all_rows, date, october 9))=1;count(filter_eq(all_rows, game, 3))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, october 9), date)=october 9;hop(filter_eq(all_rows, game, 3), date)=october 6;eq(october 6, october 9)=False", 
+    "hop(filter_str_eq(all_rows, date, october 9), game)=6;hop(filter_eq(all_rows, game, 3), game)=3;eq(6, 3)=False"
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  "2-17162128-5.html.csv", 
+  "#bob estes;[10, 1]# and #paul goydos;[11, 1]# receive the same #score;[0, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, player, bob estes), player)=bob estes;eq(bob estes, paul goydos)=False", 
+    "hop(filter_str_eq(all_rows, player, paul goydos), player)=paul goydos;eq(paul goydos, bob estes)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, bob estes), player, bob estes), player)=bob estes;eq(bob estes, paul goydos)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, player, paul goydos), player, paul goydos), player)=paul goydos;eq(paul goydos, bob estes)=False", 
+    "count(filter_str_eq(all_rows, player, bob estes))=1;count(filter_str_eq(all_rows, player, paul goydos))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, bob estes), score)=70 + 71 = 141;hop(filter_str_eq(all_rows, player, paul goydos), score)=67 + 74 = 141;eq(67 + 74 = 141, 70 + 71 = 141)=False", 
+    "hop(filter_str_eq(all_rows, player, bob estes), player)=bob estes;hop(filter_str_eq(all_rows, player, paul goydos), player)=paul goydos;eq(paul goydos, bob estes)=False"
+  ]
+]

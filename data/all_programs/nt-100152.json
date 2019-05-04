@@ -1,0 +1,19 @@
+[
+  "2-1360997-1.html.csv", 
+  "2 of the #race;[0, 2]# do not take place in #2001;[5, 1]#", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, date, 28 jul 2001))=1;eq(2, 1)=False", 
+    "count(filter_str_eq(all_rows, date, 28 jul 2001))=1;not_eq(2, 1)=True", 
+    "count(filter_str_not_eq(all_rows, date, 28 jul 2001))=4;eq(2, 4)=False", 
+    "count(filter_str_not_eq(all_rows, date, 28 jul 2001))=4;not_eq(2, 4)=True", 
+    "count(all_rows)=5;and(not_within(all_rows, race, 28 jul 2001), eq(2, 5))=False", 
+    "count(all_rows)=5;and(not_within(all_rows, race, 28 jul 2001), not_eq(2, 5))=True", 
+    "count(all_rows)=5;and(not_within(all_rows, date, 28 jul 2001), eq(2, 5))=False", 
+    "count(all_rows)=5;and(not_within(all_rows, date, 28 jul 2001), not_eq(2, 5))=False", 
+    "count(all_rows)=5;and(within(all_rows, race, 28 jul 2001), eq(2, 5))=False", 
+    "count(all_rows)=5;and(within(all_rows, race, 28 jul 2001), not_eq(2, 5))=False", 
+    "count(all_rows)=5;and(within(all_rows, date, 28 jul 2001), eq(2, 5))=False", 
+    "count(all_rows)=5;and(within(all_rows, date, 28 jul 2001), not_eq(2, 5))=True"
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  "2-1264114-1.html.csv", 
+  "the table range from #1990;[9, 1]# to #2013;[1, 2]#", 
+  1, 
+  [
+    "count(filter_eq(all_rows, first, 1990))=8;count(filter_eq(all_rows, last, 2013))=8;eq(8, 8)=True", 
+    "count(all_rows)=14;count(filter_eq(filter_eq(all_rows, first, 1990), last, 2013))=6;eq(14, 6)=False", 
+    "count(filter_eq(all_rows, first, 1990))=8;count(filter_eq(filter_eq(all_rows, first, 1990), last, 2013))=6;eq(8, 6)=False", 
+    "count(all_rows)=14;count(filter_eq(filter_eq(all_rows, last, 2013), first, 1990))=6;eq(14, 6)=False", 
+    "count(filter_eq(all_rows, last, 2013))=8;count(filter_eq(filter_eq(all_rows, last, 2013), first, 1990))=6;eq(8, 6)=False"
+  ]
+]

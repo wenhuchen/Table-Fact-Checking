@@ -1,0 +1,11 @@
+[
+  "2-1408397-3.html.csv", 
+  "#poorva bhadrapada \u0caa\u0cc2\u0cb0\u0ccd\u0cb5 \u0cad\u0cbe\u0ca6\u0ccd\u0cb0\u0caa\u0ca6;[25, 3]# do not belong to #tamil \u0ba4\u0bae\u0bbf\u0bb4\u0bcd;[0, 1]#", 
+  1, 
+  [
+    "count(all_rows)=27;count(filter_str_eq(all_rows, kannada \u0c95\u0ca8\u0ccd\u0ca8\u0ca1, poorva bhadrapada \u0caa\u0cc2\u0cb0\u0ccd\u0cb5 \u0cad\u0cbe\u0ca6\u0ccd\u0cb0\u0caa\u0ca6))=1;eq(27, 1)=False", 
+    "count(all_rows)=27;count(filter_str_eq(all_rows, kannada \u0c95\u0ca8\u0ccd\u0ca8\u0ca1, poorva bhadrapada \u0caa\u0cc2\u0cb0\u0ccd\u0cb5 \u0cad\u0cbe\u0ca6\u0ccd\u0cb0\u0caa\u0ca6))=1;not_eq(27, 1)=True", 
+    "count(all_rows)=27;count(filter_str_not_eq(all_rows, kannada \u0c95\u0ca8\u0ccd\u0ca8\u0ca1, poorva bhadrapada \u0caa\u0cc2\u0cb0\u0ccd\u0cb5 \u0cad\u0cbe\u0ca6\u0ccd\u0cb0\u0caa\u0ca6))=26;eq(27, 26)=False", 
+    "count(all_rows)=27;count(filter_str_not_eq(all_rows, kannada \u0c95\u0ca8\u0ccd\u0ca8\u0ca1, poorva bhadrapada \u0caa\u0cc2\u0cb0\u0ccd\u0cb5 \u0cad\u0cbe\u0ca6\u0ccd\u0cb0\u0caa\u0ca6))=26;not_eq(27, 26)=True"
+  ]
+]

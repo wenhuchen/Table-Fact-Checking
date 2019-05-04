@@ -1,0 +1,13 @@
+[
+  "2-18624643-4.html.csv", 
+  "#jean basson;[1, 2]# of #south africa;[1, 3]# place highest with a time of 1:46:13 and a #rank;[0, 0]# of #1;[1, 0]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, name, jean basson), nationality, south africa), rank)=1;eq(1, 1)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, name, jean basson), rank, 1), nationality)=south africa;eq(south africa, south africa)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, nationality, south africa), name, jean basson), rank)=1;eq(1, 1)=True", 
+    "hop(filter_eq(filter_str_eq(all_rows, nationality, south africa), rank, 1), name)=jean basson;eq(jean basson, jean basson)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, rank, 1), name, jean basson), nationality)=south africa;eq(south africa, south africa)=True", 
+    "hop(filter_str_eq(filter_eq(all_rows, rank, 1), nationality, south africa), name)=jean basson;eq(jean basson, jean basson)=True"
+  ]
+]

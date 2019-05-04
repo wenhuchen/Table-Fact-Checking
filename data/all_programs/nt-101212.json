@@ -1,0 +1,12 @@
+[
+  "1-2417345-3.html.csv", 
+  "in #state (class);[0, 0]# #texas (2) ,;[6, 0]# #hiram r revel (r);[4, 3]# be the #successor;[0, 3]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, state (class), texas (2)), successor)=morgan c hamilton (r);eq(morgan c hamilton (r), hiram r revels (r))=False", 
+    "hop(filter_str_eq(all_rows, successor, hiram r revels (r)), state (class))=mississippi (2);eq(mississippi (2), texas (2))=False", 
+    "count(filter_str_eq(all_rows, state (class), texas (2)))=1;count(filter_str_eq(all_rows, successor, hiram r revels (r)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, state (class), texas (2)), state (class))=texas (2);hop(filter_str_eq(all_rows, successor, hiram r revels (r)), state (class))=mississippi (2);eq(mississippi (2), texas (2))=False", 
+    "hop(filter_str_eq(all_rows, state (class), texas (2)), successor)=morgan c hamilton (r);hop(filter_str_eq(all_rows, successor, hiram r revels (r)), successor)=hiram r revels (r);eq(hiram r revels (r), morgan c hamilton (r))=False"
+  ]
+]

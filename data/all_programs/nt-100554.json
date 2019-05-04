@@ -1,0 +1,13 @@
+[
+  "2-14091394-4.html.csv", 
+  "#peter harvey;[11, 1]# and #bruce taylor;[12, 1]# fly the same model #glider;[0, 2]# , an #asw 27;[12, 2]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, pilot, peter harvey), glider, asw 27), pilot)=peter harvey;eq(peter harvey, bruce taylor)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, pilot, bruce taylor), glider, asw 27), pilot)=bruce taylor;eq(bruce taylor, peter harvey)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, glider, asw 27), pilot, peter harvey), pilot)=peter harvey;eq(peter harvey, bruce taylor)=False", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, glider, asw 27), pilot, bruce taylor), pilot)=bruce taylor;eq(bruce taylor, peter harvey)=False", 
+    "hop(filter_str_eq(all_rows, pilot, peter harvey), glider)=asw 27;hop(filter_str_eq(all_rows, pilot, peter harvey), pilot)=peter harvey;and(eq(asw 27, asw 27), eq(peter harvey, bruce taylor))=False", 
+    "hop(filter_str_eq(all_rows, pilot, bruce taylor), glider)=asw 27;hop(filter_str_eq(all_rows, pilot, bruce taylor), pilot)=bruce taylor;and(eq(asw 27, asw 27), eq(bruce taylor, peter harvey))=False"
+  ]
+]

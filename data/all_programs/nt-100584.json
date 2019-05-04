@@ -1,0 +1,20 @@
+[
+  "2-11983898-7.html.csv", 
+  "both time fabio fognini compete in double #tournament;[0, 2]# in #mexico ,;[6, 2]# he play against #oliver marach;[2, 5]# and win", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), opponents, \u0142ukasz kubot oliver marach), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament, abierto mexicano telcel , acapulco , mexico), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), opponents, \u0142ukasz kubot oliver marach), opponents)=\u0142ukasz kubot oliver marach;eq(\u0142ukasz kubot oliver marach, \u0142ukasz kubot oliver marach)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament, abierto mexicano telcel , acapulco , mexico), opponents)=\u0142ukasz kubot oliver marach;eq(\u0142ukasz kubot oliver marach, \u0142ukasz kubot oliver marach)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), opponents, \u0142ukasz kubot oliver marach), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "count(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico))=2;count(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach))=1;eq(2, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), opponents, \u0142ukasz kubot oliver marach))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico))=2;count(filter_str_eq(filter_str_eq(all_rows, tournament, abierto mexicano telcel , acapulco , mexico), opponents, \u0142ukasz kubot oliver marach))=1;eq(2, 1)=False", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament, abierto mexicano telcel , acapulco , mexico))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach))=1;count(filter_str_eq(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament, abierto mexicano telcel , acapulco , mexico))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament)=abierto mexicano telcel , acapulco , mexico;hop(filter_str_eq(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament, abierto mexicano telcel , acapulco , mexico), tournament)=abierto mexicano telcel , acapulco , mexico;eq(abierto mexicano telcel , acapulco , mexico, abierto mexicano telcel , acapulco , mexico)=True", 
+    "hop(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), opponents)=\u0142ukasz kubot oliver marach;hop(filter_str_eq(filter_str_eq(all_rows, opponents, \u0142ukasz kubot oliver marach), tournament, abierto mexicano telcel , acapulco , mexico), opponents)=\u0142ukasz kubot oliver marach;eq(\u0142ukasz kubot oliver marach, \u0142ukasz kubot oliver marach)=True"
+  ]
+]

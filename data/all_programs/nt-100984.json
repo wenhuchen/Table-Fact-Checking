@@ -1,0 +1,17 @@
+[
+  "1-1590967-2.html.csv", 
+  "there be more #episode;[0, 0]# #air;[0, 1]# in #january;[1, 1]# than #february;[5, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, air date, 6 january 2006), air date)=6 january 2006;eq(6 january 2006, 3 february 2006)=False", 
+    "hop(filter_str_eq(all_rows, air date, 3 february 2006), air date)=3 february 2006;eq(3 february 2006, 6 january 2006)=False", 
+    "hop(filter_str_eq(argmin(all_rows, episode number), air date, 6 january 2006), air date)=6 january 2006;eq(6 january 2006, 3 february 2006)=False", 
+    "count(filter_str_eq(all_rows, air date, 6 january 2006))=1;count(filter_str_eq(all_rows, air date, 3 february 2006))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(all_rows, air date, 6 january 2006))=1;count(filter_str_eq(all_rows, air date, 3 february 2006))=1;eq(1, 1)=True", 
+    "count(filter_str_eq(all_rows, air date, 6 january 2006))=1;count(filter_str_eq(all_rows, air date, 3 february 2006))=1;greater(1, 1)=False", 
+    "hop(filter_str_eq(all_rows, air date, 6 january 2006), air date)=6 january 2006;hop(filter_str_eq(all_rows, air date, 3 february 2006), air date)=3 february 2006;eq(3 february 2006, 6 january 2006)=False", 
+    "hop(filter_str_eq(all_rows, air date, 6 january 2006), episode number)=1;hop(filter_str_eq(all_rows, air date, 3 february 2006), episode number)=5;less(1, 5);less(1, 5)=True", 
+    "hop(filter_str_eq(all_rows, air date, 6 january 2006), episode number)=1;hop(filter_str_eq(all_rows, air date, 3 february 2006), episode number)=5;eq(1, 5)=False", 
+    "hop(filter_str_eq(all_rows, air date, 6 january 2006), episode number)=1;hop(filter_str_eq(all_rows, air date, 3 february 2006), episode number)=5;greater(1, 5)=False"
+  ]
+]

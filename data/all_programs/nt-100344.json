@@ -1,0 +1,20 @@
+[
+  "1-1805191-48.html.csv", 
+  "in #washington 4;[4, 0]# #district;[0, 0]# the #first elect;[0, 3]# year #1994;[4, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, district, washington 4), first elected)=1994;eq(1994, 1994)=True", 
+    "hop(filter_eq(all_rows, first elected, 1994), district)=washington 4;eq(washington 4, washington 4)=True", 
+    "count(filter_str_eq(all_rows, district, washington 4))=1;count(filter_eq(all_rows, first elected, 1994))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, district, washington 4), district)=washington 4;hop(filter_eq(all_rows, first elected, 1994), district)=washington 4;eq(washington 4, washington 4)=True", 
+    "hop(filter_str_eq(all_rows, district, washington 4), first elected)=1994;hop(filter_eq(all_rows, first elected, 1994), first elected)=1994;eq(1994, 1994)=True", 
+    "count(all_rows)=6;count(filter_eq(filter_str_eq(all_rows, district, washington 4), first elected, 1994))=1;eq(6, 1)=False", 
+    "count(filter_str_eq(all_rows, district, washington 4))=1;count(filter_eq(filter_str_eq(all_rows, district, washington 4), first elected, 1994))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, district, washington 4), district)=washington 4;hop(filter_eq(filter_str_eq(all_rows, district, washington 4), first elected, 1994), district)=washington 4;eq(washington 4, washington 4)=True", 
+    "hop(filter_str_eq(all_rows, district, washington 4), first elected)=1994;hop(filter_eq(filter_str_eq(all_rows, district, washington 4), first elected, 1994), first elected)=1994;eq(1994, 1994)=True", 
+    "count(all_rows)=6;count(filter_str_eq(filter_eq(all_rows, first elected, 1994), district, washington 4))=1;eq(6, 1)=False", 
+    "count(filter_eq(all_rows, first elected, 1994))=1;count(filter_str_eq(filter_eq(all_rows, first elected, 1994), district, washington 4))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, first elected, 1994), district)=washington 4;hop(filter_str_eq(filter_eq(all_rows, first elected, 1994), district, washington 4), district)=washington 4;eq(washington 4, washington 4)=True", 
+    "hop(filter_eq(all_rows, first elected, 1994), first elected)=1994;hop(filter_str_eq(filter_eq(all_rows, first elected, 1994), district, washington 4), first elected)=1994;eq(1994, 1994)=True"
+  ]
+]

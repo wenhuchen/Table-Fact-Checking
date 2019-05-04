@@ -1,0 +1,15 @@
+[
+  "2-11514020-2.html.csv", 
+  "on #may 8;[7, 0]# , the #marlin;[5, 1]# 's #record;[0, 5]# be #7 - 21;[7, 5]#", 
+  1, 
+  [
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, may 8), opponent, marlins), record)=7 - 21;eq(7 - 21, 7 - 21)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, may 8), record, 7 - 21), opponent)=marlins;eq(marlins, marlins)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent, marlins), date, may 8), record)=7 - 21;eq(7 - 21, 7 - 21)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, opponent, marlins), record, 7 - 21), date)=may 8;eq(may 8, may 8)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, record, 7 - 21), date, may 8), opponent)=marlins;eq(marlins, marlins)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, record, 7 - 21), opponent, marlins), date)=may 8;eq(may 8, may 8)=True", 
+    "hop(filter_str_eq(all_rows, date, may 8), record)=7 - 21;hop(filter_str_eq(all_rows, date, may 8), opponent)=marlins;and(eq(7 - 21, 7 - 21), eq(marlins, marlins))=True", 
+    "hop(filter_str_eq(all_rows, record, 7 - 21), date)=may 8;hop(filter_str_eq(all_rows, record, 7 - 21), opponent)=marlins;and(eq(may 8, may 8), eq(marlins, marlins))=True"
+  ]
+]

@@ -1,0 +1,32 @@
+[
+  "1-2581397-5.html.csv", 
+  "the #doncaster;[8, 2]# finish 3rd on #30 march 2002;[8, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, race, doncaster), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True", 
+    "hop(filter_str_eq(all_rows, date, 30 march 2002), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "and(within(all_rows, race, doncaster), within(all_rows, race, 30 march 2002))=False", 
+    "and(within(all_rows, race, doncaster), within(all_rows, date, 30 march 2002))=True", 
+    "and(within(all_rows, date, doncaster), within(all_rows, race, 30 march 2002))=False", 
+    "and(within(all_rows, date, doncaster), within(all_rows, date, 30 march 2002))=False", 
+    "count(filter_str_eq(all_rows, race, doncaster))=1;count(filter_str_eq(all_rows, date, 30 march 2002))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), race)=doncaster;hop(filter_str_eq(all_rows, date, 30 march 2002), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), date)=30 march 2002;hop(filter_str_eq(all_rows, date, 30 march 2002), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, race, doncaster))=1;count(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), race)=doncaster;hop(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "hop(filter_str_eq(all_rows, race, doncaster), date)=30 march 2002;hop(filter_str_eq(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True", 
+    "count(all_rows)=8;count(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster))=1;eq(8, 1)=False", 
+    "count(filter_str_eq(all_rows, date, 30 march 2002))=1;count(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, 30 march 2002), race)=doncaster;hop(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster), race)=doncaster;eq(doncaster, doncaster)=True", 
+    "hop(filter_str_eq(all_rows, date, 30 march 2002), date)=30 march 2002;hop(filter_str_eq(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster), date)=30 march 2002;eq(30 march 2002, 30 march 2002)=True", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, race, doncaster))=1;and(within(all_rows, race, 30 march 2002), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, race, doncaster))=1;and(within(all_rows, date, 30 march 2002), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, race, doncaster))=1;and(within(filter_str_eq(all_rows, race, doncaster), race, 30 march 2002), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, race, doncaster))=1;and(within(filter_str_eq(all_rows, race, doncaster), date, 30 march 2002), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, date, 30 march 2002))=1;and(within(all_rows, race, doncaster), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, date, 30 march 2002))=1;and(within(all_rows, date, doncaster), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, date, 30 march 2002))=1;and(within(filter_str_eq(all_rows, date, 30 march 2002), race, doncaster), eq(8, 1))=False", 
+    "count(all_rows)=8;count(filter_str_eq(all_rows, date, 30 march 2002))=1;and(within(filter_str_eq(all_rows, date, 30 march 2002), date, doncaster), eq(8, 1))=False"
+  ]
+]

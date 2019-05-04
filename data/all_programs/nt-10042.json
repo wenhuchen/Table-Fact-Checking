@@ -1,0 +1,11 @@
+[
+  "1-167354-2.html.csv", 
+  "2 of the 5 #school;[0, 0]# #location;[0, 1]# be in #mumbai;[1, 1]#", 
+  1, 
+  [
+    "and(eq(2, 5), within(all_rows, school, mumbai))=False", 
+    "and(eq(2, 5), within(all_rows, location, mumbai))=False", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, location, mumbai))=2;and(eq(2, 5), eq(5, 2))=False", 
+    "count(all_rows)=5;count(filter_str_eq(all_rows, location, mumbai))=2;and(eq(5, 5), eq(2, 2))=True"
+  ]
+]

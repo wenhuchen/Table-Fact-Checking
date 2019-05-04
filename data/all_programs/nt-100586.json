@@ -1,0 +1,29 @@
+[
+  "2-11983898-7.html.csv", 
+  "fabio fognini 's only double #tournament;[0, 2]# in which he #score;[0, 6]# zero point be in #croatia;[1, 2]# in #july 2008;[1, 1]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date)=14 july 2008;eq(14 july 2008, 14 july 2008)=True", 
+    "hop(filter_str_eq(all_rows, date, 14 july 2008), tournament)=croatia open umag , umag , croatia;eq(croatia open umag , umag , croatia, croatia open umag , umag , croatia)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date, 14 july 2008), tournament)=croatia open umag , umag , croatia;eq(croatia open umag , umag , croatia, croatia open umag , umag , croatia)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), tournament, croatia open umag , umag , croatia), date)=14 july 2008;eq(14 july 2008, 14 july 2008)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), tournament, croatia open umag , umag , croatia), tournament)=croatia open umag , umag , croatia;eq(croatia open umag , umag , croatia, croatia open umag , umag , croatia)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date, 14 july 2008), date)=14 july 2008;eq(14 july 2008, 14 july 2008)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), tournament, croatia open umag , umag , croatia), date)=14 july 2008;eq(14 july 2008, 14 july 2008)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), date, 14 july 2008), tournament)=croatia open umag , umag , croatia;eq(croatia open umag , umag , croatia, croatia open umag , umag , croatia)=True", 
+    "count(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia))=1;count(filter_str_eq(all_rows, date, 14 july 2008))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), tournament)=croatia open umag , umag , croatia;hop(filter_str_eq(all_rows, date, 14 july 2008), tournament)=croatia open umag , umag , croatia;eq(croatia open umag , umag , croatia, croatia open umag , umag , croatia)=True", 
+    "hop(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), score)=6 - 2 , 3 - 6 ,;hop(filter_str_eq(all_rows, date, 14 july 2008), score)=6 - 2 , 3 - 6 ,;eq(6 - 2 , 3 - 6 ,, 6 - 2 , 3 - 6 ,)=True", 
+    "hop(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date)=14 july 2008;hop(filter_str_eq(all_rows, date, 14 july 2008), date)=14 july 2008;eq(14 july 2008, 14 july 2008)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date, 14 july 2008))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia))=1;count(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date, 14 july 2008))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), tournament)=croatia open umag , umag , croatia;hop(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date, 14 july 2008), tournament)=croatia open umag , umag , croatia;eq(croatia open umag , umag , croatia, croatia open umag , umag , croatia)=True", 
+    "hop(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), score)=6 - 2 , 3 - 6 ,;hop(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date, 14 july 2008), score)=6 - 2 , 3 - 6 ,;eq(6 - 2 , 3 - 6 ,, 6 - 2 , 3 - 6 ,)=True", 
+    "hop(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date)=14 july 2008;hop(filter_str_eq(filter_str_eq(all_rows, tournament, croatia open umag , umag , croatia), date, 14 july 2008), date)=14 july 2008;eq(14 july 2008, 14 july 2008)=True", 
+    "count(all_rows)=7;count(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), tournament, croatia open umag , umag , croatia))=1;eq(7, 1)=False", 
+    "count(filter_str_eq(all_rows, date, 14 july 2008))=1;count(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), tournament, croatia open umag , umag , croatia))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, date, 14 july 2008), tournament)=croatia open umag , umag , croatia;hop(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), tournament, croatia open umag , umag , croatia), tournament)=croatia open umag , umag , croatia;eq(croatia open umag , umag , croatia, croatia open umag , umag , croatia)=True", 
+    "hop(filter_str_eq(all_rows, date, 14 july 2008), score)=6 - 2 , 3 - 6 ,;hop(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), tournament, croatia open umag , umag , croatia), score)=6 - 2 , 3 - 6 ,;eq(6 - 2 , 3 - 6 ,, 6 - 2 , 3 - 6 ,)=True", 
+    "hop(filter_str_eq(all_rows, date, 14 july 2008), date)=14 july 2008;hop(filter_str_eq(filter_str_eq(all_rows, date, 14 july 2008), tournament, croatia open umag , umag , croatia), date)=14 july 2008;eq(14 july 2008, 14 july 2008)=True"
+  ]
+]

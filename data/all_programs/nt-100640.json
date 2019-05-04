@@ -1,0 +1,26 @@
+[
+  "2-12819742-3.html.csv", 
+  "the total #score;[0, 3]# for #danny edward;[5, 1]# be #70;[1, 3]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;eq(70, 71)=False", 
+    "count(filter_greater_eq(all_rows, score, 70))=16;count(filter_str_eq(all_rows, player, danny edwards))=1;eq(16, 1)=False", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;sum(filter_greater_eq(all_rows, score, 70), score)=1143;eq(71, 1143)=False", 
+    "count(all_rows)=16;count(filter_str_eq(filter_greater_eq(all_rows, score, 70), player, danny edwards))=1;eq(16, 1)=False", 
+    "count(filter_greater_eq(all_rows, score, 70))=16;count(filter_str_eq(filter_greater_eq(all_rows, score, 70), player, danny edwards))=1;eq(16, 1)=False", 
+    "hop(filter_str_eq(filter_greater_eq(all_rows, score, 70), player, danny edwards), score)=71;sum(all_rows, score)=1143;eq(71, 1143)=False", 
+    "hop(filter_str_eq(filter_greater_eq(all_rows, score, 70), player, danny edwards), score)=71;sum(filter_greater_eq(all_rows, score, 70), score)=1143;eq(71, 1143)=False", 
+    "count(all_rows)=16;count(filter_greater_eq(filter_str_eq(all_rows, player, danny edwards), score, 70))=1;eq(16, 1)=False", 
+    "count(filter_str_eq(all_rows, player, danny edwards))=1;count(filter_greater_eq(filter_str_eq(all_rows, player, danny edwards), score, 70))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), player)=danny edwards;hop(filter_greater_eq(filter_str_eq(all_rows, player, danny edwards), score, 70), player)=danny edwards;eq(danny edwards, danny edwards)=True", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;hop(filter_greater_eq(filter_str_eq(all_rows, player, danny edwards), score, 70), score)=71;eq(71, 71)=True", 
+    "hop(filter_greater_eq(filter_str_eq(all_rows, player, danny edwards), score, 70), score)=71;sum(all_rows, score)=1143;eq(71, 1143)=False", 
+    "count(filter_str_eq(all_rows, player, danny edwards))=1;count(filter_eq(all_rows, score, 70))=2;eq(1, 2)=False", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;sum(filter_eq(all_rows, score, 70), score)=140;eq(71, 140)=False", 
+    "count(filter_str_eq(all_rows, player, danny edwards))=1;count(filter_less_eq(all_rows, score, 70))=2;eq(1, 2)=False", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;sum(filter_less_eq(all_rows, score, 70), score)=140;eq(71, 140)=False", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;sum(all_rows, score)=1143;add(70, 71)=141;eq(1143, 141)=False", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;sum(all_rows, score)=1143;add(70, 1143)=1213;eq(71, 1213)=False", 
+    "hop(filter_str_eq(all_rows, player, danny edwards), score)=71;sum(all_rows, score)=1143;add(71, 1143)=1214;eq(70, 1214)=False"
+  ]
+]

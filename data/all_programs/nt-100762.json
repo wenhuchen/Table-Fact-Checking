@@ -1,0 +1,10 @@
+[
+  "1-2840500-3.html.csv", 
+  "2 of the #player;[0, 1]# come from the same #college;[0, 5]# of #saint - hyacinthe laser (qmjhl);[1, 5]#", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, college / junior / club team, saint - hyacinthe laser (qmjhl)))=2;eq(2, 2)=True", 
+    "count(all_rows)=26;and(within(all_rows, player, saint - hyacinthe laser (qmjhl)), eq(2, 26))=False", 
+    "count(all_rows)=26;and(within(all_rows, college / junior / club team, saint - hyacinthe laser (qmjhl)), eq(2, 26))=False"
+  ]
+]

@@ -1,0 +1,20 @@
+[
+  "1-1341568-6.html.csv", 
+  "#george miller;[3, 1]# be #elect;[0, 3]# as #incumbent;[0, 1]# in #1974;[3, 3]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, incumbent, george miller), elected)=1974;eq(1974, 1974)=True", 
+    "hop(filter_str_eq(all_rows, elected, 1974), incumbent)=george miller;eq(george miller, george miller)=True", 
+    "count(filter_str_eq(all_rows, incumbent, george miller))=1;count(filter_str_eq(all_rows, elected, 1974))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, george miller), elected)=1974;hop(filter_str_eq(all_rows, elected, 1974), elected)=1974;eq(1974, 1974)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, george miller), incumbent)=george miller;hop(filter_str_eq(all_rows, elected, 1974), incumbent)=george miller;eq(george miller, george miller)=True", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, incumbent, george miller), elected, 1974))=1;eq(12, 1)=False", 
+    "count(filter_str_eq(all_rows, incumbent, george miller))=1;count(filter_str_eq(filter_str_eq(all_rows, incumbent, george miller), elected, 1974))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, george miller), elected)=1974;hop(filter_str_eq(filter_str_eq(all_rows, incumbent, george miller), elected, 1974), elected)=1974;eq(1974, 1974)=True", 
+    "hop(filter_str_eq(all_rows, incumbent, george miller), incumbent)=george miller;hop(filter_str_eq(filter_str_eq(all_rows, incumbent, george miller), elected, 1974), incumbent)=george miller;eq(george miller, george miller)=True", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, elected, 1974), incumbent, george miller))=1;eq(12, 1)=False", 
+    "count(filter_str_eq(all_rows, elected, 1974))=1;count(filter_str_eq(filter_str_eq(all_rows, elected, 1974), incumbent, george miller))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, elected, 1974), elected)=1974;hop(filter_str_eq(filter_str_eq(all_rows, elected, 1974), incumbent, george miller), elected)=1974;eq(1974, 1974)=True", 
+    "hop(filter_str_eq(all_rows, elected, 1974), incumbent)=george miller;hop(filter_str_eq(filter_str_eq(all_rows, elected, 1974), incumbent, george miller), incumbent)=george miller;eq(george miller, george miller)=True"
+  ]
+]

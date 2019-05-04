@@ -1,0 +1,29 @@
+[
+  "2-12206617-7.html.csv", 
+  "the toronto blue jay do not win the first or last game of the season", 
+  1, 
+  [
+    "count(all_rows)=26;count(last(all_rows))=1;eq(26, 1)=False", 
+    "count(all_rows)=26;count(last(all_rows))=1;not_eq(26, 1)=True", 
+    "count(all_rows)=26;count(first(all_rows))=1;eq(26, 1)=False", 
+    "count(all_rows)=26;count(first(all_rows))=1;not_eq(26, 1)=True", 
+    "count(all_rows)=26;count(last(last(all_rows)))=1;eq(26, 1)=False", 
+    "count(all_rows)=26;count(last(last(all_rows)))=1;not_eq(26, 1)=True", 
+    "count(all_rows)=26;count(first(last(all_rows)))=1;eq(26, 1)=False", 
+    "count(all_rows)=26;count(first(last(all_rows)))=1;not_eq(26, 1)=True", 
+    "count(all_rows)=26;count(last(first(all_rows)))=1;eq(26, 1)=False", 
+    "count(all_rows)=26;count(last(first(all_rows)))=1;not_eq(26, 1)=True", 
+    "count(all_rows)=26;count(first(first(all_rows)))=1;eq(26, 1)=False", 
+    "count(all_rows)=26;count(first(first(all_rows)))=1;not_eq(26, 1)=True", 
+    "count(last(all_rows))=1;count(last(last(all_rows)))=1;eq(1, 1)=True", 
+    "count(last(all_rows))=1;count(last(last(all_rows)))=1;not_eq(1, 1)=False", 
+    "count(last(all_rows))=1;count(first(all_rows))=1;eq(1, 1)=True", 
+    "count(last(all_rows))=1;count(first(all_rows))=1;not_eq(1, 1)=False", 
+    "count(last(all_rows))=1;count(first(last(all_rows)))=1;eq(1, 1)=True", 
+    "count(last(all_rows))=1;count(first(last(all_rows)))=1;not_eq(1, 1)=False", 
+    "count(first(all_rows))=1;count(last(first(all_rows)))=1;eq(1, 1)=True", 
+    "count(first(all_rows))=1;count(last(first(all_rows)))=1;not_eq(1, 1)=False", 
+    "count(first(all_rows))=1;count(first(first(all_rows)))=1;eq(1, 1)=True", 
+    "count(first(all_rows))=1;count(first(first(all_rows)))=1;not_eq(1, 1)=False"
+  ]
+]

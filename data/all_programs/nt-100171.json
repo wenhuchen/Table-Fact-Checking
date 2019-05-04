@@ -1,0 +1,13 @@
+[
+  "2-17993994-5.html.csv", 
+  "#alex chanler;[11, 4]# be the playboy cyber girl for all #5 week;[0, 4]#", 
+  0, 
+  [
+    "all_eq(filter_str_eq(all_rows, week 5, alex chanler), week 5, alex chanler)=True", 
+    "hop(filter_str_eq(all_rows, week 5, alex chanler), week 5)=alex chanler;eq(alex chanler, alex chanler)=True", 
+    "count(all_rows)=12;count(filter_str_eq(all_rows, week 5, alex chanler))=1;eq(12, 1)=False", 
+    "count(all_rows)=12;count(filter_str_eq(filter_str_eq(all_rows, week 5, alex chanler), week 5, alex chanler))=1;eq(12, 1)=False", 
+    "count(filter_str_eq(all_rows, week 5, alex chanler))=1;count(filter_str_eq(filter_str_eq(all_rows, week 5, alex chanler), week 5, alex chanler))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, week 5, alex chanler), week 5)=alex chanler;hop(filter_str_eq(filter_str_eq(all_rows, week 5, alex chanler), week 5, alex chanler), week 5)=alex chanler;eq(alex chanler, alex chanler)=True"
+  ]
+]

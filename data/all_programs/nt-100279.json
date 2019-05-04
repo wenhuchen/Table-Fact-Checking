@@ -1,0 +1,15 @@
+[
+  "2-17311759-4.html.csv", 
+  "#zaza pachulia;[9, 5]# #record;[0, 8]# the most #rebound;[0, 5]# in 1 #game;[0, 0]# in the entire table with #18;[9, 1]#", 
+  1, 
+  [
+    "count(filter_str_eq(filter_str_eq(all_rows, high rebounds, zaza pachulia (8)), date, november 18))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, high rebounds, zaza pachulia (8)), date, november 18))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, high rebounds, zaza pachulia (8)), date, november 18), game)=10;less(1, 10);less(1, 10)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, high rebounds, zaza pachulia (8)), date, november 18), game)=10;eq(1, 10)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, date, november 18), high rebounds, zaza pachulia (8)))=1;less(1, 1);less(1, 1)=False", 
+    "count(filter_str_eq(filter_str_eq(all_rows, date, november 18), high rebounds, zaza pachulia (8)))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, november 18), high rebounds, zaza pachulia (8)), game)=10;less(1, 10);less(1, 10)=True", 
+    "hop(filter_str_eq(filter_str_eq(all_rows, date, november 18), high rebounds, zaza pachulia (8)), game)=10;eq(1, 10)=False"
+  ]
+]

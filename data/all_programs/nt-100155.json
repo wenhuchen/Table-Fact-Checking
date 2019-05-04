@@ -1,0 +1,9 @@
+[
+  "2-18103106-4.html.csv", 
+  "8 golfer from the #united state;[1, 2]# participate in this round", 
+  1, 
+  [
+    "count(filter_str_eq(all_rows, country, united states))=9;eq(8, 9)=False", 
+    "count(all_rows)=17;and(within(all_rows, country, united states), eq(8, 17))=False"
+  ]
+]

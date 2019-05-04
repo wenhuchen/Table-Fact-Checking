@@ -1,0 +1,10 @@
+[
+  "2-1140073-2.html.csv", 
+  "#alain prost;[5, 4]# have the second slowest #lap;[0, 4]# in 3 #race;[0, 0]# in the 1984 formula 1 season", 
+  0, 
+  [
+    "count(filter_str_eq(all_rows, fastest lap, alain prost))=3;and(eq(3, 1984), eq(1, 3))=False", 
+    "count(filter_str_eq(all_rows, fastest lap, alain prost))=3;and(eq(3, 1), eq(1984, 3))=False", 
+    "count(filter_str_eq(all_rows, fastest lap, alain prost))=3;and(eq(1984, 1), eq(3, 3))=False"
+  ]
+]

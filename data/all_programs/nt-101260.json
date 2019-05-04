@@ -1,0 +1,9 @@
+[
+  "2-1380811-1.html.csv", 
+  "there be 2 #competition;[0, 4]# on #11 september 2012;[3, 0]# and both be play at #stadio olimpico , serravalle , san marino;[3, 1]#", 
+  1, 
+  [
+    "count(filter_str_eq(filter_str_eq(all_rows, date, 11 september 2012), venue, stadio olimpico , serravalle , san marino))=2;eq(2, 2)=True", 
+    "count(filter_str_eq(filter_str_eq(all_rows, venue, stadio olimpico , serravalle , san marino), date, 11 september 2012))=2;eq(2, 2)=True"
+  ]
+]

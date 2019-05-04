@@ -1,0 +1,11 @@
+[
+  "1-1341568-6.html.csv", 
+  "#california;[3, 0]# #district;[0, 0]# #34;[9, 0]# be represent by 1 #incumbent;[0, 1]#", 
+  1, 
+  [
+    "count(all_rows)=12;hop(filter_str_eq(all_rows, district, california 7), district)=california 7;and(eq(1, 12), eq(california 7, california 34))=False", 
+    "count(filter_str_eq(all_rows, district, california 7))=1;hop(filter_str_eq(all_rows, district, california 7), district)=california 7;and(eq(1, 1), eq(california 7, california 34))=False", 
+    "count(all_rows)=12;hop(filter_str_eq(all_rows, district, california 34), district)=california 34;and(eq(1, 12), eq(california 34, california 7))=False", 
+    "count(filter_str_eq(all_rows, district, california 34))=1;hop(filter_str_eq(all_rows, district, california 34), district)=california 34;and(eq(1, 1), eq(california 34, california 7))=False"
+  ]
+]

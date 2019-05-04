@@ -1,0 +1,15 @@
+[
+  "2-174151-5.html.csv", 
+  "#sata revision 3.0;[3, 0]# be the only #name;[0, 0]# #with 1 (15 with port;[4, 4]# multiplier) #device per channel;[0, 4]#", 
+  0, 
+  [
+    "hop(filter_str_eq(all_rows, name, sata revision 3.0), devices per channel)=1 (15 with port multiplier );eq(1 (15 with port multiplier ), 1 (15 with port multiplier ))=True", 
+    "count(filter_str_eq(all_rows, name, sata revision 3.0))=1;count(filter_str_eq(all_rows, devices per channel, 1 (15 with port multiplier )))=4;eq(1, 4)=False", 
+    "count(all_rows)=23;count(filter_str_eq(filter_str_eq(all_rows, name, sata revision 3.0), devices per channel, 1 (15 with port multiplier )))=1;eq(23, 1)=False", 
+    "count(filter_str_eq(all_rows, name, sata revision 3.0))=1;count(filter_str_eq(filter_str_eq(all_rows, name, sata revision 3.0), devices per channel, 1 (15 with port multiplier )))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, name, sata revision 3.0), name)=sata revision 3.0;hop(filter_str_eq(filter_str_eq(all_rows, name, sata revision 3.0), devices per channel, 1 (15 with port multiplier )), name)=sata revision 3.0;eq(sata revision 3.0, sata revision 3.0)=True", 
+    "hop(filter_str_eq(all_rows, name, sata revision 3.0), devices per channel)=1 (15 with port multiplier );hop(filter_str_eq(filter_str_eq(all_rows, name, sata revision 3.0), devices per channel, 1 (15 with port multiplier )), devices per channel)=1 (15 with port multiplier );eq(1 (15 with port multiplier ), 1 (15 with port multiplier ))=True", 
+    "count(all_rows)=23;count(filter_str_eq(filter_str_eq(all_rows, devices per channel, 1 (15 with port multiplier )), name, sata revision 3.0))=1;eq(23, 1)=False", 
+    "count(filter_str_eq(all_rows, devices per channel, 1 (15 with port multiplier )))=4;count(filter_str_eq(filter_str_eq(all_rows, devices per channel, 1 (15 with port multiplier )), name, sata revision 3.0))=1;eq(4, 1)=False"
+  ]
+]

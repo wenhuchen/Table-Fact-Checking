@@ -1,0 +1,20 @@
+[
+  "1-21369888-4.html.csv", 
+  "#episode;[0, 0]# #3;[3, 0]# have the #title;[0, 1]# #case two (part 1);[3, 1]#", 
+  1, 
+  [
+    "hop(filter_str_eq(all_rows, title, case two (part 1)), episode)=3;eq(3, 3)=True", 
+    "hop(filter_eq(all_rows, episode, 3), title)=case two (part 1);eq(case two (part 1), case two (part 1))=True", 
+    "count(filter_str_eq(all_rows, title, case two (part 1)))=1;count(filter_eq(all_rows, episode, 3))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, title, case two (part 1)), title)=case two (part 1);hop(filter_eq(all_rows, episode, 3), title)=case two (part 1);eq(case two (part 1), case two (part 1))=True", 
+    "hop(filter_str_eq(all_rows, title, case two (part 1)), episode)=3;hop(filter_eq(all_rows, episode, 3), episode)=3;eq(3, 3)=True", 
+    "count(all_rows)=5;count(filter_eq(filter_str_eq(all_rows, title, case two (part 1)), episode, 3))=1;eq(5, 1)=False", 
+    "count(filter_str_eq(all_rows, title, case two (part 1)))=1;count(filter_eq(filter_str_eq(all_rows, title, case two (part 1)), episode, 3))=1;eq(1, 1)=True", 
+    "hop(filter_str_eq(all_rows, title, case two (part 1)), title)=case two (part 1);hop(filter_eq(filter_str_eq(all_rows, title, case two (part 1)), episode, 3), title)=case two (part 1);eq(case two (part 1), case two (part 1))=True", 
+    "hop(filter_str_eq(all_rows, title, case two (part 1)), episode)=3;hop(filter_eq(filter_str_eq(all_rows, title, case two (part 1)), episode, 3), episode)=3;eq(3, 3)=True", 
+    "count(all_rows)=5;count(filter_str_eq(filter_eq(all_rows, episode, 3), title, case two (part 1)))=1;eq(5, 1)=False", 
+    "count(filter_eq(all_rows, episode, 3))=1;count(filter_str_eq(filter_eq(all_rows, episode, 3), title, case two (part 1)))=1;eq(1, 1)=True", 
+    "hop(filter_eq(all_rows, episode, 3), title)=case two (part 1);hop(filter_str_eq(filter_eq(all_rows, episode, 3), title, case two (part 1)), title)=case two (part 1);eq(case two (part 1), case two (part 1))=True", 
+    "hop(filter_eq(all_rows, episode, 3), episode)=3;hop(filter_str_eq(filter_eq(all_rows, episode, 3), title, case two (part 1)), episode)=3;eq(3, 3)=True"
+  ]
+]
