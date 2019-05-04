@@ -10,3 +10,8 @@ python run.py --part 0 --synthesize
 python run.py --part 1 --synthesize
 ```
 4. The results are stored in data/all_programs.
+5. If you want to debug, just switch to the sequential execution paradigm.
+```
+python run.py --part 0 --synthesize --sequential
+
+```
