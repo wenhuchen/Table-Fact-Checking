@@ -218,7 +218,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             returned = call(command, v['function'], row)
                             if v['output'] == 'num':
                                 tmp.add_memory_num("tmp_count", returned)
-                                tmp.cur_str = "={}".format(returned)
+                                tmp.cur_str += "={}".format(returned)
                             elif v['output'] == 'row':
                                 tmp.add_rows(command, returned)
                             else:

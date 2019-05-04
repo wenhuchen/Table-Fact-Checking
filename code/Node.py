@@ -49,7 +49,7 @@ class Node(object):
     def concat(self, new_str, k):
         if APIs[k]['append']:
             if self.cur_str:
-                self.cur_str += "->" + new_str
+                self.cur_str += ";" + new_str
             else:
                 self.cur_str = new_str
         else:
