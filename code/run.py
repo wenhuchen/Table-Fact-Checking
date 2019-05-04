@@ -171,7 +171,7 @@ else:
 			#if arg[0] == '2-18337810-1.html.csv':
 			func(arg)
 	else:
-		cores = multiprocessing.cpu_count()# - 6
+		cores = multiprocessing.cpu_count() - 6
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
 	
