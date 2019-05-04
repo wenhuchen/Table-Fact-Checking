@@ -323,7 +323,7 @@ else:
                 r2_results[name][2].append(tag)
             else:
                 sent, tag = postprocess(entry[0][i], backbone, tabs)
-                r2_results[name] = [[sent], [entry[1][i]], [tag]]
+                r2_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
             
             if len(r2_results) % 1000 == 0:
                 print "finished {}".format(len(r2_results))
