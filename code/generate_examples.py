@@ -139,7 +139,7 @@ tag_dict = {"JJ": wordnet.ADJ,
 
 lemmatizer = WordNetLemmatizer()
 
-with open('data/short_subset.txt') as f:
+with open('../data/short_subset.txt') as f:
     limit_length = [_.strip() for _ in f.readlines()]
 
 round1 = False
@@ -227,12 +227,12 @@ if round1:
 """
 debug = False
 if debug:
-    with open('READY/r1_training_all.json') as f:
+    with open('../READY/r1_training_all.json') as f:
         data = json.load(f)
     backbone = {}
     tabs = []
     count = 0
-    table = 'data/all_csv/2-18540104-2.html.csv'
+    table = '../data/all_csv/2-18540104-2.html.csv'
     with open(table) as f:
         for k, _ in enumerate(f.readlines()):
             _ = _.decode('utf8')
@@ -250,7 +250,7 @@ if debug:
         sent, tag = postprocess(d1, backbone, tabs)
         print sent
 else:
-    with open('READY/r1_training_all.json') as f:
+    with open('../READY/r1_training_all.json') as f:
         data = json.load(f)
     r1_results = {}
     count = 0
@@ -258,7 +258,7 @@ else:
         entry = data[name]
         backbone = {}
         tabs = []
-        with open('data/all_csv/' + name, 'r') as f:
+        with open('../data/all_csv/' + name, 'r') as f:
             for k, _ in enumerate(f.readlines()):
                 _ = _.decode('utf8')
                 tabs.append([])
@@ -278,9 +278,10 @@ else:
                 r1_results[name][0].append(sent)
                 r1_results[name][1].append(entry[1][i])
                 r1_results[name][2].append(tag)
+                #r1_results[name][3].append(entry[2])
             else:
                 sent, tag = postprocess(entry[0][i], backbone, tabs)
-                r1_results[name] = [[sent], [entry[1][i]], [tag]]
+                r1_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
 
             if len(r1_results) % 1000 == 0:
                 print "finished {}".format(len(r1_results))
@@ -289,17 +290,17 @@ else:
         #    break
     print "Easy Set: ", count
 
-    with open('READY/r1_training_cleaned.json', 'w') as f:
+    with open('../READY/r1_training_cleaned.json', 'w') as f:
         json.dump(r1_results, f, indent=2)   
 
-    with open('READY/r2_training_all.json') as f:
+    with open('../READY/r2_training_all.json') as f:
         data = json.load(f)
     r2_results = {}
     count = 0
     for name in data:
         backbone = {}
         tabs = []
-        with open('data/all_csv/' + name, 'r') as f:
+        with open('../data/all_csv/' + name, 'r') as f:
             for k, _ in enumerate(f.readlines()):
                 _ = _.decode('utf8')
                 tabs.append([])
@@ -331,10 +332,10 @@ else:
         #    break
     print "Hard Set: ", count
 
-    with open('READY/r2_training_cleaned.json', 'w') as f:
+    with open('../READY/r2_training_cleaned.json', 'w') as f:
         json.dump(r2_results, f, indent=2)
 
     r2_results.update(r1_results)
-    with open('READY/full_cleaned.json', 'w') as f:
+    with open('../READY/full_cleaned.json', 'w') as f:
         json.dump(r2_results, f, indent=2)
 
