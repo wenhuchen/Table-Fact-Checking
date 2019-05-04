@@ -141,14 +141,12 @@ else:
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
-		import pdb
-		pdb.set_trace()		
 		res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
 		with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
 			json.dump(res, f, indent=2)
 		#print "finished {}".format(table_name)
 
-	data = data[:240]
+	#data = data[:240]
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
 	pos_tag = [_[2] for _ in data]
