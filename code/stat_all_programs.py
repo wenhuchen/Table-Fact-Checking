@@ -6,12 +6,12 @@ success = 0
 results = []
 for prog in os.listdir('../data/all_programs/'):
 	if prog.endswith('.json'):
-		with open(prog, 'r') as f:
+		with open('../data/all_programs/' + prog, 'r') as f:
 			data = json.load(f) 
-		if len(data[3]) == 0:
-			failed += 0
+		if len(data[3]) > 5:
+			failed += 1
 		else:
-			success += 0
+			success += 1
 
 		results.append(data)
 
