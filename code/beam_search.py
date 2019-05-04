@@ -319,7 +319,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
                                     returned = call(command, v['function'], row, root.header_str[l])
-                                    if v['output'] == 'str' and isinstance(returned, str):
+                                    if v['output'] == 'str' and isinstance(returned, unicode):
                                         tmp.add_memory_str("tmp_" + root.header_str[l], returned)
                                         tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])
@@ -335,7 +335,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
                                     returned = call(command, v['function'], row, root.header_str[l])                                    
-                                    if v['output'] == 'str' and isinstance(returned, str):
+                                    if v['output'] == 'str' and isinstance(returned, unicode):
                                         tmp.add_memory_str("tmp_" + root.header_str[l], v['function'](row, root.header_str[l]))
                                         tmp.append_result(returned)
                                         conditional_add(tmp, hist[i + 1])

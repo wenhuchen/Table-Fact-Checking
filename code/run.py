@@ -14,6 +14,7 @@ sys.setdefaultencoding('utf8')
 parser = argparse.ArgumentParser()
 parser.add_argument("--synthesize", default=False, action="store_true", help="whether to synthesize data")
 parser.add_argument("--sequential", default=False, action="store_true", help="Whether to use sequential or distributed")
+parser.add_argument("--debug", default=False, action="store_true", help="Whether to use debugging mode")
 parser.add_argument("--part", type=int, default=0, help="choose a part")
 parser.add_argument("--split", type=int, default=1, help="how many splits")
 args = parser.parse_args()
@@ -58,7 +59,7 @@ if not args.synthesize:
 	for table_name in data:
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#")
 		cols = t.columns
-		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
+		#cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
 		mapping = {i: "num" if isnumber(t) else "str" for i, t in enumerate(t.dtypes)}
 		entry = data[table_name]
@@ -137,7 +138,7 @@ else:
 
 	def func(args):
 		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx, labels = args
-		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#")
+		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#", encoding = 'utf-8')
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
@@ -156,17 +157,16 @@ else:
 	head_str = [_[6] for _ in data]
 	head_num = [_[7] for _ in data]
 	idxes = [_[8] for _ in data]
-	labels = [_[9] for _ in data]
-	
-	distributed = True
-	
+	labels = [_[9] for _ in data]	
 	start_time = time.time()
 	
 	if args.sequential:
+		#if args.debug:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
+			#if arg[0] == '2-18337810-1.html.csv':
 			func(arg)
 	else:
-		cores = multiprocessing.cpu_count()
+		cores = multiprocessing.cpu_count() - 6
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
 	
