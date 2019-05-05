@@ -82,22 +82,29 @@ if not args.synthesize:
 			for n in range(len(sent)):
 				if sent[n] == '#':
 					if position:
-						pos = json.loads(position_buf)
-						if pos[0] != -1:
-							if mapping[pos[1]] == 'num':
-								if pos[0] == 0:
-									if cols[pos[1]] not in head_num:
-										head_num.append(cols[pos[1]])
-								else:
-									val = (cols[pos[1]], numpy.asscalar(t.at[pos[0] - 1, cols[pos[1]]]))
+						if position_buf.startswith('h'):
+							idx = int(position_buf[1:])
+							if mapping[idx] == 'num':
+								if cols[idx] not in head_num:
+									head_num.append(cols[idx])
+							else:
+								if cols[idx] not in head_str:
+									head_str.append(cols[idx])
+						if position_buf.startswith('c'):
+							idx = int(position_buf[1:])
+							if idx == -1:
+								pass
+							else:
+								if mapping[idx] == 'num':
+									if mention_buf.isdigit():
+										mention_buf = int(mention_buf)
+									else:
+										mention_buf = float(mention_buf)
+									val = (cols[idx], mention_buf)
 									if val not in mem_num:
 										mem_num.append(val)
-							else:
-								if pos[0] == 0:
-									if cols[pos[1]] not in head_str:
-										head_str.append(cols[pos[1]])
 								else:
-									val = (cols[pos[1]], t.at[pos[0] - 1, cols[pos[1]]])
+									val = (cols[idx], mention_buf)
 									if val not in mem_str:
 										mem_str.append(val)
 						masked_sent += "<ENTITY>"
@@ -126,10 +133,10 @@ if not args.synthesize:
 			
 			for _ in masked_sent.split():
 				if _.isdigit():
-					mem_num.append(("tmp_none", int(_)))
+					mem_num.append(("tmp_input", int(_)))
 				else:
 					try:
-						mem_num.append(("tmp_none", float(_)))
+						mem_num.append(("tmp_input", float(_)))
 					except Exception:
 						pass
 			#preprocessed.append((k, sent, masked_sent, pos, mem_num, head_num, ))
@@ -151,22 +158,24 @@ else:
 	with open('../READY/preprocessed_{}.json'.format(args.part), 'r') as f:
 		data = json.load(f)
 
-	def func(args):
-		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx, labels = args
+	def func(inputs):
+		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx, labels = inputs
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#", encoding = 'utf-8')
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
 		if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
+			#if args.sequential:
+			#	res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
+			#	print res
+			#else:	
 			try:
 				res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
 				with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
 					json.dump(res, f, indent=2)
 			except Exception:
 				print "failed {}, {}".format(table_name, idx)
-		#print "finished {}".format(table_name)
 
-	#data = data[:240]
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
 	pos_tag = [_[2] for _ in data]
@@ -185,7 +194,7 @@ else:
 			#if arg[0] == '2-18337810-1.html.csv':
 			func(arg)
 	else:
-		cores = multiprocessing.cpu_count() - 6
+		cores = multiprocessing.cpu_count() - 5
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
 	

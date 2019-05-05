@@ -10,12 +10,22 @@ APIs['count'] = {"argument":['row'], 'output': 'num',
 
 APIs['inc_num'] = {"argument":['num'], 'output': 'num',
               "function": lambda t : t,
-              "tostr": lambda t : "inc({})".format(t),
+              "tostr": lambda t : "modify({})".format(t),
+              'append': False}
+
+APIs['dec_num'] = {"argument":['num'], 'output': 'none',
+              "function": lambda t : None,
+              "tostr": lambda t : "modify({})".format(t),
               'append': False}
 
 APIs['inc_str'] = {"argument":['str'], 'output': 'str',
               "function": lambda t : t,
-              "tostr": lambda t : "inc({})".format(t),
+              "tostr": lambda t : "modify({})".format(t),
+              'append': False}
+
+APIs['dec_str'] = {"argument":['num'], 'output': 'none',
+              "function": lambda t : None,
+              "tostr": lambda t : "modify({})".format(t),
               'append': False}
 
 APIs['within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
@@ -38,7 +48,7 @@ APIs['not_within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bo
                           "tostr": lambda t, col, value : "not_within({}, {}, {})".format(t, col, value),
                           'append': None}
 
-APIs['none'] = {"argument":['str'], 'output': 'boool',
+APIs['none'] = {"argument":['str'], 'output': 'bool',
                 "function": lambda t: none(t), 
                 "tostr": lambda t : "None({})".format(t),
                 'append': None}
@@ -53,8 +63,8 @@ APIs['prev'] = {"argument":['row', 'row'], 'output': 'row',
                 "tostr": lambda t : "next({})".format(t),
                 'append': True}
 
-APIs['row'] = {"argument":['row', 'row'], 'output': 'num',
-                "function": lambda t, t1 : row_select(t, t1),
+APIs['idx'] = {"argument":['row', 'row'], 'output': 'num',
+                "function": lambda t, t1 : get_row(t, t1),
                 "tostr": lambda t : "idx({})".format(t),
                 'append': True}
 
@@ -153,12 +163,12 @@ APIs['and'] = {"argument":['bool', 'bool'], 'output': 'bool',
                 "append": None}
 
 APIs['str_eq'] = {"argument":['str', 'str'], 'output': 'bool', 
-                  'function': lambda t1, t2 :  t1 == t2,
+                  'function': lambda t1, t2 :  t1 in t2 or t2 in t1,
                   'tostr': lambda t1, t2 : "eq({}, {})".format(t1, t2),
                   "append": None}
 
 APIs['not_str_eq'] = {"argument":['str', 'str'], 'output': 'bool', 
-                     'function': lambda t1, t2 :  t1 != t2,
+                     'function': lambda t1, t2 :  t1 not in t2 and t2 not in t1,
                      'tostr': lambda t1, t2 : "not_eq({}, {})".format(t1, t2),
                      "append": None}
 
@@ -264,7 +274,7 @@ def none(t):
 def get_row(t, t1):
   col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
   val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
-  idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index
+  idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index[0]
   return idx
 
 def row_select(t, t1, bias):

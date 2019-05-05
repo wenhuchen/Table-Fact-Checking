@@ -111,48 +111,59 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 # Incrementing
                 if v['argument'] == ["num"]:
                     for h, va in root.memory_num:
-                        if "tmp_" not in h:
-                            command = v['tostr'](va)
-                            if not root.exist(command):
-                                tmp = root.clone(command, k)
-                                returned = call(command, v['function'], va)
-                                if v['output'] == 'num':
+                        if v['output'] == 'num':
+                            if "tmp_" not in h:
+                                command = v['tostr'](va)
+                                if not root.exist(command):
+                                    tmp = root.clone(command, k)
+                                    returned = call(command, v['function'], va)
                                     tmp.add_memory_num(h, returned)
                                     conditional_add(tmp, hist[i + 1])
-                                else:
-                                    raise ValueError("Returned Type Wrong")
+                        elif v['output'] == 'none':
+                            if i == 0:
+                                command = v['tostr'](va)
+                                if not root.exist(command):
+                                    tmp = root.clone(command, k)
+                                    returned = call(command, v['function'], va)
+                                    tmp.delete_memory_num(tmp.memory_num.index((h, va)))
+                                    conditional_add(tmp, hist[i + 1])
+                        else:
+                            raise ValueError("Returned Type Wrong")
                 
                 elif v['argument'] == ["str"]:
                     for h, va in root.memory_str:
-                        if "tmp_" not in h:
-                            command = v['tostr'](va)
-                            if not root.exist(command):
-                                tmp = root.clone(command, k)
-                                returned = call(command, v['function'], va)
-                                if v['output'] == 'str':
+                        if v['output'] == 'str':
+                            if "tmp_" not in h:
+                                command = v['tostr'](va)
+                                if not root.exist(command):
+                                    tmp = root.clone(command, k)
+                                    returned = call(command, v['function'], va)
                                     tmp.add_memory_str(h, returned)
                                     conditional_add(tmp, hist[i + 1])
-                                else:
-                                    raise ValueError("Returned Type Wrong")
-                # Detect None
-                elif v['argument'] == ["str"]:
-                    for h, va in root.memory_str:
-                        if "tmp_" in h:
-                            command = v['tostr'](va)
-                            if not root.exist(command):
-                                tmp = root.clone(command, k)
-                                returned = call(command, v['function'], va)
-                                if v['output'] == 'bool':
+                        elif v['output'] == 'none':
+                            if i == 0:
+                                command = v['tostr'](va)
+                                if not root.exist(command):
+                                    tmp = root.clone(command, k)
+                                    returned = call(command, v['function'], va)
+                                    tmp.delete_memory_str(tmp.memory_str.index((h, va)))
+                                    conditional_add(tmp, hist[i + 1])
+                        elif v['output'] == 'bool':
+                            if "tmp_" in h:
+                                command = v['tostr'](va)
+                                if not root.exist(command):
+                                    tmp = root.clone(command, k)
+                                    returned = call(command, v['function'], va)
                                     if tmp.done():
                                         if i > 0:
                                             tmp.append_bool(command)
                                             tmp.append_result(returned)
                                             finished.append((tmp, returned))
                                     else:
-                                        tmp.add_memory_str(command, returned)
+                                        tmp.add_memory_bool(command, returned)
                                         conditional_add(tmp, hist[i + 1])
-                                else:
-                                    raise ValueError("Returned Type Wrong")
+                        else:
+                            raise ValueError("Returned Type Wrong")
                             """
                             elif v['argument'] == ['bool']:
                                 for h, va in root.memory_bool:
@@ -171,7 +182,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 elif v['argument'] == ['row', 'header_str', 'str']:
                     for j, (row_h, row) in enumerate(root.rows):
                         for h, va in root.memory_str:
-                            if "tmp" in h:
+                            if "tmp_" in h:
                                 continue
                             for head in root.header_str:
                                 command = v['tostr'](row_h, head, va)
@@ -194,7 +205,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 elif v['argument'] == ['row', 'header_num', 'num']:
                     for j, (row_h, row) in enumerate(root.rows):
                         for h, va in root.memory_num:
-                            if "tmp" in h:
+                            if "tmp_" in h:
                                 continue
                             for head in root.header_num:
                                 command = v['tostr'](row_h, head, va)
@@ -265,10 +276,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             returned = call(command, v['function'], all_rows, row)
                             if v['output'] == 'row':
                                 if returned is not None:
-                                    tmp.add_rows(command, returned)                   
+                                    tmp.add_rows(command, returned)              
                                     conditional_add(tmp, hist[i + 1])
-                            elif v['output'] = 'num':
-                                tmp.add_rows("tmp_none", returned)
+                            elif v['output'] == 'num':
+                                tmp.add_memory_num("tmp_none", returned)
                                 tmp.append_result(returned)
                                 conditional_add(tmp, hist[i + 1])
                             else:
@@ -319,9 +330,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
 
                 elif v['argument'] == ['row', 'header_str']:
                     if "most_freq" in k:
-                        _, row = root.rows[0]
+                        row_h, row = root.rows[0]
                         for l in range(len(root.header_str)):
-                            command = v['tostr'](row, root.header_str[l])
+                            command = v['tostr'](row_h, root.header_str[l])
                             if not root.exist(command):
                                 tmp = root.clone(command, k)
                                 returned = call(command, v['function'], row, root.header_str[l])
@@ -378,35 +389,37 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                         continue
                     for l in range(0, root.memory_num_len - 1):
                         for m in range(l + 1, root.memory_num_len):
-                            if 'tmp_' not in root.memory_num[l][0] and 'tmp_' not in root.memory_num[m][0]:
-                                continue
-                            if 'tmp_none' == root.memory_num[l][0] and 'tmp_' not in root.memory_num[m][0]:
-                                continue
-                            if 'tmp_none' == root.memory_num[m][0] and 'tmp_' not in root.memory_num[l][0]:
+                            if 'tmp_' in root.memory_num[l][0] or 'tmp_' in root.memory_num[m][0]:
+                                pass
+                            else:
                                 continue
                             type_l = root.memory_num[l][0].replace('tmp_', '')
                             type_m = root.memory_num[m][0].replace('tmp_', '')
-                            if type_l == type_m or "none" in [type_l, type_m]:
-                                command = v['tostr'](root.get_memory_num(l), root.get_memory_num(m))
-                                if not root.exist(command):
+                            if v['output'] == 'num':
+                                if type_l == type_m:
+                                    command = v['tostr'](root.get_memory_num(l), root.get_memory_num(m))
                                     tmp = root.clone(command, k)
                                     tmp.delete_memory_num(l, m)
                                     returned = call(command, v['function'], root.get_memory_num(l), root.get_memory_num(m))
-                                    if v['output'] == 'num':
-                                        tmp.add_memory_num("tmp_" + root.memory_num[l][0], returned)
-                                        tmp.append_result(returned)
+                                    tmp.add_memory_num("tmp_" + type_l, returned)
+                                    tmp.append_result(returned)
+                                    conditional_add(tmp, hist[i + 1])                                    
+                            elif v['output'] == 'bool':
+                                if (type_l == type_m and type_l != "input") or (type_l == "none" or type_m == "none"):
+                                    command = v['tostr'](root.get_memory_num(l), root.get_memory_num(m))
+                                    tmp = root.clone(command, k)
+                                    tmp.delete_memory_num(l, m)
+                                    returned = call(command, v['function'], root.get_memory_num(l), root.get_memory_num(m))
+                                    if tmp.done():
+                                        if i > 0:
+                                            tmp.append_bool(command)
+                                            tmp.append_result(returned)
+                                            finished.append((tmp, returned))
+                                    elif tmp.memory_bool_len < 2:
+                                        tmp.add_memory_bool(command, returned)
                                         conditional_add(tmp, hist[i + 1])
-                                    elif v['output'] == 'bool':
-                                        if tmp.done():
-                                            if i > 0:
-                                                tmp.append_bool(command)
-                                                tmp.append_result(returned)
-                                                finished.append((tmp, returned))
-                                        elif tmp.memory_bool_len < 2:
-                                            tmp.add_memory_bool(command, returned)
-                                            conditional_add(tmp, hist[i + 1])
-                                    else:
-                                        raise ValueError("error, output of scope")
+                            else:
+                                raise ValueError("error, output of scope")
 
                 elif v['argument'] == ['str', 'str']:
                     if root.memory_str_len < 2:
