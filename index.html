@@ -151,17 +151,16 @@ $(document).ready(function(){
 });
     
 $('#goto').click(function(){
-    var csv_file = $('#csv').val();
+    var url = $('#csv').val();
     //console.log(csv_file);
-    if (csv_file in json){
-        var r = json[csv_file];
-        
+    if (url in json){
+        var r = json[url];
         text_list = r[0];
         label_list = r[1];
         pos_list = r[2];
-        title = r[3]
+        title = r[3];
         //for (var i = 0; i < total; i++){
-        $.get(prefix + csv_file, function(data){
+        $.get(prefix + url, function(data){
             $(`#table1`).html(CSV2Table(data));
         });
         //$('#wiki1').html(r[2]);
