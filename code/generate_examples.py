@@ -271,6 +271,13 @@ else:
                                 backbone[sub] = [(k, l)]
                             else:
                                 backbone[sub].append((k, l))
+        for w in entry[2].strip().split(' '):
+            if w not in backbone:
+                backbone[w] = [(-1, -1)]
+            else:
+                backbone[w].append((-1, -1))
+        tabs.append([entry[2].strip()])
+
         for i in range(len(entry[0])):
             count += 1
             if name in r1_results:
