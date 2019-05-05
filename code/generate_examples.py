@@ -73,13 +73,11 @@ def replace_number(string):
 
 def replace(w, transliterate):
     if w in transliterate:
-        import pdb
-        pdb.set_trace()
         return transliterate[w]
     else:
         return w
 
-def postprocess(inp, backbone, trans_backbone, transliterate):
+def postprocess(inp, backbone, trans_backbone, transliterate, tabs):
     new_str = []
     new_tags = []
     buf = ""
@@ -94,9 +92,12 @@ def postprocess(inp, backbone, trans_backbone, transliterate):
                 proposed = set(backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
-                        #closest = get_closest(buf, last, tabs)
-                        #if closest:
-                        buf = '#{};{}#'.format(buf, list(last)[0])
+                        closest = get_closest(buf, last, tabs)
+                        if closest is not None:
+                            if closest[0] == 0:
+                                buf = '#{};h{}#'.format(buf, closest[1])
+                            else:
+                                buf = '#{};c{}#'.format(buf, closest[1])
                     new_str.append(buf)
                     new_tags.append('ENT')
                     buf = w
@@ -112,9 +113,12 @@ def postprocess(inp, backbone, trans_backbone, transliterate):
                 proposed = set(trans_backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
-                        #closest = get_closest(buf, last, tabs)
-                        #if closest:
-                        buf = '#{};{}#'.format(buf, list(last)[0])
+                        closest = get_closest(buf, last, tabs)
+                        if closest is not None:
+                            if closest[0] == 0:
+                                buf = '#{};h{}#'.format(buf, closest[1])
+                            else:
+                                buf = '#{};c{}#'.format(buf, closest[1])
                     new_str.append(buf)
                     new_tags.append('ENT')
                     buf = transliterate[w]
@@ -125,9 +129,12 @@ def postprocess(inp, backbone, trans_backbone, transliterate):
         else:
             if buf != "":
                 if buf not in stop_words:
-                    #closest = get_closest(buf, last, tabs)
-                    #if closest:
-                    buf = '#{};{}#'.format(buf, list(last)[0])
+                    closest = get_closest(buf, last, tabs)
+                    if closest is not None:
+                        if closest[0] == 0:
+                            buf = '#{};h{}#'.format(buf, closest[1])
+                        else:
+                            buf = '#{};c{}#'.format(buf, closest[1])
                 new_str.append(buf)
                 new_tags.append('ENT')
             buf = ""
@@ -137,9 +144,12 @@ def postprocess(inp, backbone, trans_backbone, transliterate):
     
     if buf != "":
         if buf not in stop_words:
-            #closest = get_closest(buf, last, tabs)
-            #if closest:
-            buf = '#{};{}#'.format(buf, list(last)[0])
+            closest = get_closest(buf, last, tabs)
+            if closest is not None:
+                if closest[0] == 0:
+                    buf = '#{};h{}#'.format(buf, closest[1])
+                else:
+                    buf = '#{};c{}#'.format(buf, closest[1])
         new_str.append(buf)
         new_tags.append("ENT")
     return " ".join(new_str), " ".join(new_tags)
@@ -215,8 +225,8 @@ else:
             entry = data[name]
             backbone = {}
             trans_backbone = {}
-            tabs = []
             transliterate = {}
+            tabs = []
             with open('../data/all_csv/' + name, 'r') as f:
                 for k, _ in enumerate(f.readlines()):
                     _ = _.decode('utf8')
@@ -227,32 +237,33 @@ else:
                             w = get_lemmatize(w, False)
                             for sub in w:
                                 if sub not in backbone:
-                                    backbone[sub] = [l]
+                                    backbone[sub] = [(k, l)]
                                     if not is_ascii(sub):
-                                        trans_backbone[unidecode(sub)] = [l]
+                                        trans_backbone[unidecode(sub)] = [(k, l)]
                                         transliterate[unidecode(sub)] = sub
                                 else:
-                                    backbone[sub].append(l)
+                                    backbone[sub].append((k, l))
                                     if not is_ascii(sub):
-                                        trans_backbone[unidecode(sub)].append(l)
+                                        trans_backbone[unidecode(sub)].append((k, l))
                                         transliterate[unidecode(sub)] = sub
+
             for w in entry[2].strip().split(' '):
                 if w not in backbone:
-                    backbone[w] = [-1]
+                    backbone[w] = [(-1, -1)]
                 else:
-                    backbone[w].append(-1)
+                    backbone[w].append((-1, -1))
             tabs.append([entry[2].strip()])
 
             for i in range(len(entry[0])):
                 count += 1
                 if name in r1_results:
-                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate)
+                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs)
                     r1_results[name][0].append(sent)
                     r1_results[name][1].append(entry[1][i])
                     r1_results[name][2].append(tag)
                     #r1_results[name][3].append(entry[2])
                 else:
-                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate)
+                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs)
                     r1_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
 
                 if len(r1_results) % 1000 == 0:
