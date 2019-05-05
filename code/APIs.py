@@ -19,7 +19,7 @@ APIs['inc_str'] = {"argument":['str'], 'output': 'str',
               'append': False}
 
 APIs['within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                "function": lambda t, col, value: len(t[t[col] == value]) > 0,
+                "function": lambda t, col, value: len(t[t[col].str.contains(value)]) > 0,
                 "tostr": lambda t, col, value : "within({}, {}, {})".format(t, col, value),
                 'append': None}
 
@@ -29,7 +29,7 @@ APIs['within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bool',
                 'append': None}
 
 APIs['not_within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                          "function": lambda t, col, value: len(t[t[col] == value]) == 0,
+                          "function": lambda t, col, value: len(t[t[col].str.contains(value)]) == 0,
                           "tostr": lambda t, col, value : "not_within({}, {}, {})".format(t, col, value),
                           'append': None}
 
@@ -37,6 +37,11 @@ APIs['not_within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bo
                           "function": lambda t, col, value : len(t[t[col] == value]) == 0,
                           "tostr": lambda t, col, value : "not_within({}, {}, {})".format(t, col, value),
                           'append': None}
+
+APIs['none'] = {"argument":['str'], 'output': 'boool',
+                "function": lambda t: none(t), 
+                "tostr": lambda t : "None({})".format(t),
+                'append': None}
 
 APIs['next'] = {"argument":['row', 'row'], 'output': 'row',
                 "function": lambda t, t1 : row_select(t, t1, 1),
@@ -46,6 +51,11 @@ APIs['next'] = {"argument":['row', 'row'], 'output': 'row',
 APIs['prev'] = {"argument":['row', 'row'], 'output': 'row',
                 "function": lambda t, t1 : row_select(t, t1, -1),
                 "tostr": lambda t : "next({})".format(t),
+                'append': True}
+
+APIs['row'] = {"argument":['row', 'row'], 'output': 'num',
+                "function": lambda t, t1 : row_select(t, t1),
+                "tostr": lambda t : "idx({})".format(t),
                 'append': True}
 
 # With only two argument and the first is row
@@ -162,12 +172,12 @@ APIs['not_str_eq'] = {"argument":['str', 'str'], 'output': 'bool',
 
 # With only three argument and the first is row
 APIs["filter_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t[t[col] == value],
+                        "function": lambda t, col, value: t[t[col].str.contains(value)],
                         "tostr":lambda t, col, value: "filter_str_eq({}, {}, {})".format(t, col, value),
                         'append': False}
 
 APIs["filter_str_not_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t[t[col] != value],
+                        "function": lambda t, col, value: t[~t[col].str.contains(value)],
                         "tostr":lambda t, col, value: "filter_str_not_eq({}, {}, {})".format(t, col, value),
                         'append': False}
 
@@ -202,6 +212,11 @@ APIs["filter_less_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
                           "tostr":lambda t, col, value: "filter_less_eq({}, {}, {})".format(t, col, value),
                           "append": False}
 
+APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "bool",
+                        "function": lambda t, col, value: len(t) == len(t[t[col].str.contains(value)]),
+                        "tostr":lambda t, col, value: "all_eq({}, {}, {})".format(t, col, value),
+                        "append": None}
+
 APIs["all_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
                   "function": lambda t, col, value: len(t) == len(t[t[col] == value]),
                   "tostr":lambda t, col, value: "all_eq({}, {}, {})".format(t, col, value),
@@ -227,10 +242,6 @@ APIs["all_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
                           "tostr":lambda t, col, value: "all_greater_eq({}, {}, {})".format(t, col, value),
                           "append": None}
 
-APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t[t[col] == value]),
-                        "tostr":lambda t, col, value: "all_eq({}, {}, {})".format(t, col, value),
-                        "append": None}
 
 #APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",
 #                        "function": lambda t, col1, value1, col2, value2: len(t.query('{} == "{}" & {} == "{}"'.format(col1, value1, col2, value2))) > 0,
@@ -244,10 +255,22 @@ APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "boo
 #                        "function": lambda t, col1, value1, col2, value2: len(t.query('{} == "{}" & {} == "{}"'.format(col1, value1, col2, value2))) > 0,
 #                        "tostr":lambda col1, value1, col2 , value2: "same_row({}, {}, {}, {})".format(col1, value1, col2, value2)}
 
+def none(t):
+  if 'none' in t or 'n / a' in t or t == '-' or 'no information' in t or 'no' in t:
+    return True
+  else:
+    return False
+
+def get_row(t, t1):
+  col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
+  val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
+  idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index
+  return idx
+
 def row_select(t, t1, bias):
-  col1, col2, col3 = t.columns[0], t.columns[1], t.columns[2]
-  val1, val2, val3 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0]
-  idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3)].index + bias
+  col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
+  val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
+  idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index + bias
   if idx < len(t) and idx >= 0:
     return t.loc[idx]
   else:
@@ -277,6 +300,7 @@ non_triggers['not_within_s_s'] = non_triggers['not_eq']
 non_triggers['not_within_n_n'] = non_triggers['not_eq']
 non_triggers['filter_str_not_eq'] = non_triggers['not_eq']
 non_triggers['filter_not_eq'] = non_triggers['not_eq']
+non_triggers['none'] = ['not', 'no', 'none']
 
 non_triggers['first'] = ['first', 'top', 'latest', 'most']
 non_triggers['last'] = ['last', 'bottom', 'latest', 'most']

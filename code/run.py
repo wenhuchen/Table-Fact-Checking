@@ -71,6 +71,7 @@ if not args.synthesize:
 		mapping = {i: "num" if isnumber(t) else "str" for i, t in enumerate(t.dtypes)}
 		entry = data[table_name]
 		caption = entry[3].split(' ')
+		
 		for sent, label, pos_tag in zip(entry[0], entry[1], entry[2]):
 			count += 1
 			inside = False
@@ -82,18 +83,23 @@ if not args.synthesize:
 				if sent[n] == '#':
 					if position:
 						pos = json.loads(position_buf)
-						if mapping[pos[1]] == 'num':
-							if pos[0] == 0:
-								if cols[pos[1]] not in head_num:
-									head_num.append(cols[pos[1]])
+						if pos[0] != -1:
+							if mapping[pos[1]] == 'num':
+								if pos[0] == 0:
+									if cols[pos[1]] not in head_num:
+										head_num.append(cols[pos[1]])
+								else:
+									val = (cols[pos[1]], numpy.asscalar(t.at[pos[0] - 1, cols[pos[1]]]))
+									if val not in mem_num:
+										mem_num.append(val)
 							else:
-								mem_num.append((cols[pos[1]], numpy.asscalar(t.at[pos[0] - 1, cols[pos[1]]])))
-						else:
-							if pos[0] == 0:
-								if cols[pos[1]] not in head_str:
-									head_str.append(cols[pos[1]])
-							else:
-								mem_str.append((cols[pos[1]], t.at[pos[0] - 1, cols[pos[1]]]))
+								if pos[0] == 0:
+									if cols[pos[1]] not in head_str:
+										head_str.append(cols[pos[1]])
+								else:
+									val = (cols[pos[1]], t.at[pos[0] - 1, cols[pos[1]]])
+									if val not in mem_str:
+										mem_str.append(val)
 						masked_sent += "<ENTITY>"
 						position_buf = ""
 						mention_buf = ""
@@ -110,6 +116,7 @@ if not args.synthesize:
 						mention_buf += sent[n]
 					else:
 						masked_sent += sent[n]
+			
 			for k, v in mem_num:
 				if k not in head_num:
 					head_num.append(k)

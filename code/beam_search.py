@@ -4,7 +4,7 @@ import time
 from functools import wraps
 
 # prunning tricks
-def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_str, head_num, label, num=6):
+def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_str, head_num, label, num=7):
     must_have = []
     must_not_have = []
     #for k, v in triggers.iteritems():
@@ -108,6 +108,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             tmp.add_header_str(returned)
                             conditional_add(tmp, hist[i + 1])
                 """
+                # Incrementing
                 if v['argument'] == ["num"]:
                     for h, va in root.memory_num:
                         if "tmp_" not in h:
@@ -133,7 +134,25 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     conditional_add(tmp, hist[i + 1])
                                 else:
                                     raise ValueError("Returned Type Wrong")
-                            
+                # Detect None
+                elif v['argument'] == ["str"]:
+                    for h, va in root.memory_str:
+                        if "tmp_" in h:
+                            command = v['tostr'](va)
+                            if not root.exist(command):
+                                tmp = root.clone(command, k)
+                                returned = call(command, v['function'], va)
+                                if v['output'] == 'bool':
+                                    if tmp.done():
+                                        if i > 0:
+                                            tmp.append_bool(command)
+                                            tmp.append_result(returned)
+                                            finished.append((tmp, returned))
+                                    else:
+                                        tmp.add_memory_str(command, returned)
+                                        conditional_add(tmp, hist[i + 1])
+                                else:
+                                    raise ValueError("Returned Type Wrong")
                             """
                             elif v['argument'] == ['bool']:
                                 for h, va in root.memory_bool:
@@ -246,8 +265,12 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             returned = call(command, v['function'], all_rows, row)
                             if v['output'] == 'row':
                                 if returned is not None:
-                                    tmp.add_rows(command, returned)                     
+                                    tmp.add_rows(command, returned)                   
                                     conditional_add(tmp, hist[i + 1])
+                            elif v['output'] = 'num':
+                                tmp.add_rows("tmp_none", returned)
+                                tmp.append_result(returned)
+                                conditional_add(tmp, hist[i + 1])
                             else:
                                 raise ValueError("error, out of scope")
 
@@ -536,7 +559,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                         conditional_add(tmp, hist[i + 1])
                 """                                                       
 
-        if len(finished) > 100 or time.time() - start_time > 20:
+        if len(finished) > 100 or time.time() - start_time > 30:
             break
 
     #print "used time {} to get {} programs".format(time.time() - start_time, len(hist[-1]))

@@ -7,6 +7,8 @@ import pandas
 import json
 import re
 import string
+from unidecode import unidecode
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -16,21 +18,33 @@ stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '
              'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
              'both', 'above', 'only', ",", ".", "(", ")", "&", ":"]
 
-useless_words = [',', '.', "'s"]
+#useless_words = [',', '.', "'s"]
 
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
+def replace_useless(s):
+    s = s.replace(',', '')
+    s = s.replace('.', '')
+    s = s.replace('/', '')
+    s = s.replace('-', '')
+    return s
+
 def get_closest(string, indexes, tab):
     dist = 10000
-    len_string = len(string)
+    len_string = len(string.split())
     for index in indexes:
-        len_tab = len(tab[index[0]][index[1]])
+        entity = replace_useless(tab[index[0]][index[1]])
+        len_tab = len(entity.split())
         if abs(len_tab - len_string) == 0:
             return index
         elif abs(len_tab - len_string) < dist:
             minimum = index
             dist = abs(len_tab - len_string)
+
+    if dist > len_string * 3:
+        return None
+    
     return minimum
 
 def replace_number(string):
@@ -57,7 +71,15 @@ def replace_number(string):
     string = re.sub(r'(\b)twenty(\b)', '\g<1>20\g<2>', string)
     return string
 
-def postprocess(inp, backbone, tabs):
+def replace(w, transliterate):
+    if w in transliterate:
+        import pdb
+        pdb.set_trace()
+        return transliterate[w]
+    else:
+        return w
+
+def postprocess(inp, backbone, trans_backbone, transliterate):
     new_str = []
     new_tags = []
     buf = ""
@@ -69,26 +91,43 @@ def postprocess(inp, backbone, tabs):
                 last = set(backbone[w])
                 buf = w
             else:
-                if w in useless_words:
-                    proposed = last
-                else:
-                    proposed = set(backbone[w]) & last
+                proposed = set(backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
-                        closest = get_closest(buf, last, tabs)
-                        buf = '#{};{}#'.format(buf, json.dumps(closest))
+                        #closest = get_closest(buf, last, tabs)
+                        #if closest:
+                        buf = '#{};{}#'.format(buf, list(last)[0])
                     new_str.append(buf)
                     new_tags.append('ENT')
                     buf = w
                     last = set(backbone[w])
                 else:
                     buf += " " + w
-                    last = proposed 
+                    last = proposed
+        elif w in trans_backbone and w not in stop_words:
+            if buf == "":
+                last = set(trans_backbone[w])
+                buf = transliterate[w]
+            else:
+                proposed = set(trans_backbone[w]) & last
+                if not proposed:
+                    if buf not in stop_words:
+                        #closest = get_closest(buf, last, tabs)
+                        #if closest:
+                        buf = '#{};{}#'.format(buf, list(last)[0])
+                    new_str.append(buf)
+                    new_tags.append('ENT')
+                    buf = transliterate[w]
+                    last = set(trans_backbone[w])
+                else:
+                    buf += " " + transliterate[w]
+                    last = proposed
         else:
             if buf != "":
                 if buf not in stop_words:
-                    closest = get_closest(buf, last, tabs)
-                    buf = '#{};{}#'.format(buf, json.dumps(closest))
+                    #closest = get_closest(buf, last, tabs)
+                    #if closest:
+                    buf = '#{};{}#'.format(buf, list(last)[0])
                 new_str.append(buf)
                 new_tags.append('ENT')
             buf = ""
@@ -98,8 +137,9 @@ def postprocess(inp, backbone, tabs):
     
     if buf != "":
         if buf not in stop_words:
-            closest = get_closest(buf, last, tabs)
-            buf = '#{};{}#'.format(buf, json.dumps(closest))
+            #closest = get_closest(buf, last, tabs)
+            #if closest:
+            buf = '#{};{}#'.format(buf, list(last)[0])
         new_str.append(buf)
         new_tags.append("ENT")
     return " ".join(new_str), " ".join(new_tags)
@@ -107,11 +147,7 @@ def postprocess(inp, backbone, tabs):
 def get_lemmatize(words, return_pos):
     #words = nltk.word_tokenize(words)
     words = words.strip().split(' ')
-    try:
-        pos_tags = [_[1] for _ in nltk.pos_tag(words)]
-    except Exception:
-        import pdb
-        pdb.set_trace()
+    pos_tags = [_[1] for _ in nltk.pos_tag(words)]
     word_roots = []
     for w, p in zip(words, pos_tags):
         if is_ascii(w) and p in tag_dict:
@@ -142,89 +178,9 @@ lemmatizer = WordNetLemmatizer()
 with open('../data/short_subset.txt') as f:
     limit_length = [_.strip() for _ in f.readlines()]
 
-round1 = False
-"""
-if round1:
-    t = pandas.read_csv('data/clean/positive.csv')
-    t = t[t.AssignmentStatus=="Approved"]
+def is_ascii(s):
+    return all(ord(c) < 128 for c in s)
 
-    print len(t) * 10
-    num = 10
-    results = {}
-    count = 0
-    for i, row in t.iterrows():
-        for j in range(1, num + 1):
-            if row['Answer.A{}'.format(j)] == "Entailed":
-                name = row['Input.url{}'.format(j)].split('/')[-1]
-                if name in limit_length:
-                    backbone = {}
-                    tabs = []
-                    with open('data/all_csv/' + name, 'r') as f:
-                        for k, _ in enumerate(f.readlines()):
-                            tabs.append([])
-                            for l, w in enumerate(_.strip().split('#')):
-                                tabs[-1].append(w)
-                                w = get_lemmatize(w, False)
-                                for sub in w:
-                                    if sub not in backbone:
-                                        backbone[sub] = [(k, l)]
-                                    else:
-                                        backbone[sub].append((k, l))
-                    count += 1
-                    if name in results:
-                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                        results[name][0].append(sent)
-                        results[name][1].append(1)
-                        results[name][2].append(tag)
-                    else:
-                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                        results[name] = [[sent], [1], [tag]]
-        if i // 100 == 1:
-            print "finished {}/{}".format(i, len(t))
-        #    break
-
-    print count
-
-    t = pandas.read_csv('data/clean/negative.csv')
-    t = t[t.AssignmentStatus=="Approved"]
-
-    print len(t) * 10
-    count = 0
-    for i, row in t.iterrows():
-        for j in range(1, num + 1):
-            if row['Answer.A{}'.format(j)] == "Refuted":
-                name = row['Input.url{}'.format(j)].split('/')[-1]
-                if name in limit_length:
-                    backbone = {}
-                    tabs = []
-                    with open('data/all_csv/' + name, 'r') as f:
-                        for k, _ in enumerate(f.readlines()):
-                            tabs.append([])
-                            for l, w in enumerate(_.strip().split('#')):
-                                tabs[-1].append(w)
-                                w = get_lemmatize(w, False)
-                                for sub in w:
-                                    if sub not in backbone:
-                                        backbone[sub] = [(k, l)]
-                                    else:
-                                        backbone[sub].append((k, l))
-                    count += 1
-                    if name in results:
-                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                        results[name][0].append(sent)
-                        results[name][1].append(0)
-                        results[name][2].append(tag)
-                    else:
-                        sent, tag = postprocess(row['Input.s{}'.format(j)], backbone, tabs)
-                        results[name] = [[sent], [0], [tag]]
-        #if i // 100 == 1:
-        #    break
-
-    print count
-
-    with open('READY/r1_training_cleaned.json', 'w') as f:
-        json.dump(results, f, indent=2)
-"""
 debug = False
 if debug:
     with open('../READY/r1_training_all.json') as f:
@@ -258,7 +214,9 @@ else:
         for name in data:
             entry = data[name]
             backbone = {}
+            trans_backbone = {}
             tabs = []
+            transliterate = {}
             with open('../data/all_csv/' + name, 'r') as f:
                 for k, _ in enumerate(f.readlines()):
                     _ = _.decode('utf8')
@@ -269,26 +227,32 @@ else:
                             w = get_lemmatize(w, False)
                             for sub in w:
                                 if sub not in backbone:
-                                    backbone[sub] = [(k, l)]
+                                    backbone[sub] = [l]
+                                    if not is_ascii(sub):
+                                        trans_backbone[unidecode(sub)] = [l]
+                                        transliterate[unidecode(sub)] = sub
                                 else:
-                                    backbone[sub].append((k, l))
+                                    backbone[sub].append(l)
+                                    if not is_ascii(sub):
+                                        trans_backbone[unidecode(sub)].append(l)
+                                        transliterate[unidecode(sub)] = sub
             for w in entry[2].strip().split(' '):
                 if w not in backbone:
-                    backbone[w] = [(-1, -1)]
+                    backbone[w] = [-1]
                 else:
-                    backbone[w].append((-1, -1))
+                    backbone[w].append(-1)
             tabs.append([entry[2].strip()])
 
             for i in range(len(entry[0])):
                 count += 1
                 if name in r1_results:
-                    sent, tag = postprocess(entry[0][i], backbone, tabs)
+                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate)
                     r1_results[name][0].append(sent)
                     r1_results[name][1].append(entry[1][i])
                     r1_results[name][2].append(tag)
                     #r1_results[name][3].append(entry[2])
                 else:
-                    sent, tag = postprocess(entry[0][i], backbone, tabs)
+                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate)
                     r1_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
 
                 if len(r1_results) % 1000 == 0:
@@ -300,8 +264,8 @@ else:
 
         return r1_results 
     
-    #results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
-    #results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
+    results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
+    results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
     
     with open('../READY/r1_training_cleaned.json') as f:
         results1 = json.load(f)
