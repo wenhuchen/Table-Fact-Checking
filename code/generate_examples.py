@@ -232,7 +232,7 @@ if debug:
     backbone = {}
     tabs = []
     count = 0
-    table = '../data/all_csv/2-18540104-2.html.csv'
+    table = 'data/all_csv/2-1859269-1.html.csv'
     with open(table) as f:
         for k, _ in enumerate(f.readlines()):
             _ = _.decode('utf8')
@@ -250,99 +250,64 @@ if debug:
         sent, tag = postprocess(d1, backbone, tabs)
         print sent
 else:
-    with open('../READY/r1_training_all.json') as f:
-        data = json.load(f)
-    r1_results = {}
-    count = 0
-    for name in data:
-        entry = data[name]
-        backbone = {}
-        tabs = []
-        with open('../data/all_csv/' + name, 'r') as f:
-            for k, _ in enumerate(f.readlines()):
-                _ = _.decode('utf8')
-                tabs.append([])
-                for l, w in enumerate(_.strip().split('#')):
-                    tabs[-1].append(w)
-                    if len(w) > 0:
-                        w = get_lemmatize(w, False)
-                        for sub in w:
-                            if sub not in backbone:
-                                backbone[sub] = [(k, l)]
-                            else:
-                                backbone[sub].append((k, l))
-        for w in entry[2].strip().split(' '):
-            if w not in backbone:
-                backbone[w] = [(-1, -1)]
-            else:
-                backbone[w].append((-1, -1))
-        tabs.append([entry[2].strip()])
+    def get_func(filename, output):
+        with open(filename) as f:
+            data = json.load(f)
+        r1_results = {}
+        count = 0
+        for name in data:
+            entry = data[name]
+            backbone = {}
+            tabs = []
+            with open('../data/all_csv/' + name, 'r') as f:
+                for k, _ in enumerate(f.readlines()):
+                    _ = _.decode('utf8')
+                    tabs.append([])
+                    for l, w in enumerate(_.strip().split('#')):
+                        tabs[-1].append(w)
+                        if len(w) > 0:
+                            w = get_lemmatize(w, False)
+                            for sub in w:
+                                if sub not in backbone:
+                                    backbone[sub] = [(k, l)]
+                                else:
+                                    backbone[sub].append((k, l))
+            for w in entry[2].strip().split(' '):
+                if w not in backbone:
+                    backbone[w] = [(-1, -1)]
+                else:
+                    backbone[w].append((-1, -1))
+            tabs.append([entry[2].strip()])
 
-        for i in range(len(entry[0])):
-            count += 1
-            if name in r1_results:
-                sent, tag = postprocess(entry[0][i], backbone, tabs)
-                r1_results[name][0].append(sent)
-                r1_results[name][1].append(entry[1][i])
-                r1_results[name][2].append(tag)
-                #r1_results[name][3].append(entry[2])
-            else:
-                sent, tag = postprocess(entry[0][i], backbone, tabs)
-                r1_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
+            for i in range(len(entry[0])):
+                count += 1
+                if name in r1_results:
+                    sent, tag = postprocess(entry[0][i], backbone, tabs)
+                    r1_results[name][0].append(sent)
+                    r1_results[name][1].append(entry[1][i])
+                    r1_results[name][2].append(tag)
+                    #r1_results[name][3].append(entry[2])
+                else:
+                    sent, tag = postprocess(entry[0][i], backbone, tabs)
+                    r1_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
 
-            if len(r1_results) % 1000 == 0:
-                print "finished {}".format(len(r1_results))
+                if len(r1_results) % 1000 == 0:
+                    print "finished {}".format(len(r1_results))
 
-        #if len(r1_results) // 10 > 1:
-        #    break
-    print "Easy Set: ", count
+        print "Easy Set: ", count
+        with open(output, 'w') as f:
+            json.dump(r1_results, f, indent=2)  
 
-    with open('../READY/r1_training_cleaned.json', 'w') as f:
-        json.dump(r1_results, f, indent=2)   
-
-    with open('../READY/r2_training_all.json') as f:
-        data = json.load(f)
-    r2_results = {}
-    count = 0
-    for name in data:
-        backbone = {}
-        tabs = []
-        with open('../data/all_csv/' + name, 'r') as f:
-            for k, _ in enumerate(f.readlines()):
-                _ = _.decode('utf8')
-                tabs.append([])
-                for l, w in enumerate(_.strip().split('#')):
-                    tabs[-1].append(w)
-                    if len(w) > 0:
-                        w = get_lemmatize(w, False)
-                        for sub in w:
-                            if sub not in backbone:
-                                backbone[sub] = [(k, l)]
-                            else:
-                                backbone[sub].append((k, l))
-        entry = data[name]
-        for i in range(len(entry[0])):
-            count += 1
-            if name in r2_results:
-                sent, tag = postprocess(entry[0][i], backbone, tabs)
-                r2_results[name][0].append(sent)
-                r2_results[name][1].append(entry[1][i])
-                r2_results[name][2].append(tag)
-            else:
-                sent, tag = postprocess(entry[0][i], backbone, tabs)
-                r2_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
-            
-            if len(r2_results) % 1000 == 0:
-                print "finished {}".format(len(r2_results))
-
-        #if len(r2_results) // 10 > 1:
-        #    break
-    print "Hard Set: ", count
-
-    with open('../READY/r2_training_cleaned.json', 'w') as f:
-        json.dump(r2_results, f, indent=2)
-
-    r2_results.update(r1_results)
+        return r1_results 
+    
+    #results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
+    #results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
+    
+    with open('../READY/r1_training_cleaned.json') as f:
+        results1 = json.load(f)
+    with open('../READY/r2_training_cleaned.json') as f:
+        results2 = json.load(f)
+    
+    results2.update(results1)
     with open('../READY/full_cleaned.json', 'w') as f:
-        json.dump(r2_results, f, indent=2)
-
+        json.dump(results2, f, indent=2)
