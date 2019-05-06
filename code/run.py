@@ -164,11 +164,11 @@ else:
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
-		if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
-			#if args.sequential:
-			#	res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
-			#	print res
-			#else:	
+		#if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
+		if args.sequential:
+			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
+			print res
+		else:	
 			try:
 				res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
 				with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
@@ -189,10 +189,9 @@ else:
 	start_time = time.time()
 	
 	if args.sequential:
-		#if args.debug:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			#if arg[0] == '2-18337810-1.html.csv':
-			func(arg)
+			if arg[8] == 'nt-12':
+				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 5
 		print "Using {} cores".format(cores)

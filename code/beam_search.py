@@ -16,7 +16,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
             for v_sub in v:
                 flag = False
                 for trigger in v_sub:
-                    if trigger in ['RBR', 'JJR', 'JJR', 'JJS']:
+                    if trigger in ['RBR', 'RBS', 'JJR', 'JJS']:
                         if trigger in tags:
                             flag = True
                             break
@@ -30,7 +30,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
         else: 
             flag = False
             for trigger in v:
-                if trigger in ['RBR', 'JJR', 'JJR', 'JJS']:
+                if trigger in ['RBR', 'RBS', 'JJR', 'JJS']:
                     if trigger in tags:
                         flag = True
                         break
