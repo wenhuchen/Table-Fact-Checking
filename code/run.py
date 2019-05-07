@@ -168,13 +168,18 @@ else:
 		if args.sequential:
 			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
 			print res
-		else:	
-			try:
-				res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
-				with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
-					json.dump(res, f, indent=2)
-			except Exception:
-				print "failed {}, {}".format(table_name, idx)
+		else:
+            if os.path.exists('../data/all_programs/{}.json'.format(idx)):
+                with open('../data/all_programs/{}.json'.format(idx)) as f:
+                    prev = json.load(f)
+
+			if "RBS" in pos_tag:	
+			    try:
+			        res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
+			        with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
+			            json.dump(res, f, indent=2)
+			    except Exception:
+			        print "failed {}, {}".format(table_name, idx)
 
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
@@ -190,7 +195,7 @@ else:
 	
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			if arg[8] == 'nt-12':
+			if arg[8] == 'nt-86':
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 5

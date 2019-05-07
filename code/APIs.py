@@ -253,17 +253,20 @@ APIs["all_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
                           "append": None}
 
 
-#APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",
-#                        "function": lambda t, col1, value1, col2, value2: len(t.query('{} == "{}" & {} == "{}"'.format(col1, value1, col2, value2))) > 0,
-#                        "tostr":lambda col1, value1, col2 , value2: "same_row({}, {}, {}, {})".format(col1, value1, col2, value2)}
+APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",
+                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
+                        "tostr":lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
+                        "append": None}
 
-#APIs['samerow_num'] = {"argument": [['header_num', 'num'], ['header_num', 'num']], "output": "bool",
-#                        "function": lambda t, col1, value1, col2, value2: len(t.query('{} == "{}" & {} == "{}"'.format(col1, value1, col2, value2))) > 0,
-#                        "tostr":lambda col1, value1, col2 , value2: "same_row({}, {}, {}, {})".format(col1, value1, col2, value2)}
+APIs['samerow_num'] = {"argument": [['header_num', 'num'], ['header_num', 'num']], "output": "bool",
+                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
+                        "tostr":lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
+                        "append": None}
 
-#APIs['samerow_str'] = {"argument": [['header_str', 'str'], ['header_str', 'str']], "output": "bool",
-#                        "function": lambda t, col1, value1, col2, value2: len(t.query('{} == "{}" & {} == "{}"'.format(col1, value1, col2, value2))) > 0,
-#                        "tostr":lambda col1, value1, col2 , value2: "same_row({}, {}, {}, {})".format(col1, value1, col2, value2)}
+APIs['samerow_str'] = {"argument": [['header_str', 'str'], ['header_str', 'str']], "output": "bool",
+                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
+                        "tostr":lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
+                        "append": None}
 
 def none(t):
   if 'none' in t or 'n / a' in t or t == '-' or 'no information' in t or 'no' in t:
@@ -303,8 +306,10 @@ non_triggers['sum'] = non_triggers['add']
 
 #non_triggers['str_not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none']
 #non_triggers['not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none']
-non_triggers['not_eq'] = ['not', 'no', 'never', "didn't", "won't", "wasn't", "isn't", "haven't", "weren't",
-                          "won't", 'neither', 'none', 'unable', 'fail', 'different', 'outside', 'unable', 'fail']
+non_triggers['not_eq'] = ['not', 'no', 'never', "didn't", "won't", "wasn't", "isn't", 
+                          "haven't", "weren't", "won't", 'neither', 'none', 'unable', 
+                          'fail', 'different', 'outside', 'unable', 'fail']
+
 non_triggers['not_str_eq'] = non_triggers['not_eq']
 non_triggers['not_within_s_s'] = non_triggers['not_eq']
 non_triggers['not_within_n_n'] = non_triggers['not_eq']
@@ -334,9 +339,9 @@ non_triggers['all_greater_eq'] = non_triggers['all_less_eq']
 non_triggers['inc_num'] = ['and', 'while', 'when', ',', 'both', 'neither', 'none', 'all', 'which', 'who', 'that', 'whose']
 non_triggers['inc_str'] = non_triggers['inc_num']
 
-non_triggers['max'] = ['RBR', 'RBS', 'JJR', 'JJS']
+non_triggers['max'] = ['RBR', 'RBS', 'JJR', 'JJS', 'than any other']
 non_triggers['min'] = non_triggers['max']
-non_triggers['argmax'] = ['JJR', 'JJS', 'RBR', 'RBS', 'top', 'first', 'bottom', 'last']
+non_triggers['argmax'] = ['JJR', 'JJS', 'RBR', 'RBS', 'top', 'first', 'bottom', 'last', 'than any other']
 non_triggers['argmin'] = non_triggers['argmax']
 
 non_triggers['within_s_s'] = ['within', 'one', 'of', 'among', 'is', 'are', 'were', 'was']
