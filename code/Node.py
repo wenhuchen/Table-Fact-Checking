@@ -15,7 +15,7 @@ class Node(object):
         self.rows = [("all_rows", rows)]
 
         self.cur_str = ""
-        self.cur_strs = set()
+        self.cur_strs = []
         self.cur_funcs = []
         
         self.must_have = must_have
@@ -55,7 +55,7 @@ class Node(object):
             pass
         func = new_str.split('(')[0]
         self.cur_funcs.append(func)
-        self.cur_strs.add(new_str)
+        self.cur_strs.append(new_str)
         #if func == 'max':
         #    self.must_not_have.extend(['max', 'argmax'])
         #if func == 'min':

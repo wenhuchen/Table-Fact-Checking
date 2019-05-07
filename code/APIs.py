@@ -23,7 +23,7 @@ APIs['inc_str'] = {"argument":['str'], 'output': 'str',
               "tostr": lambda t : "modify({})".format(t),
               'append': False}
 
-APIs['dec_str'] = {"argument":['num'], 'output': 'none',
+APIs['dec_str'] = {"argument":['str'], 'output': 'none',
               "function": lambda t : None,
               "tostr": lambda t : "modify({})".format(t),
               'append': False}
