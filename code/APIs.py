@@ -254,18 +254,18 @@ APIs["all_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
 
 
 APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",
-                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
-                        "tostr":lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
-                        "append": None}
+                          "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
+                          "tostr": lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
+                          "append": None}
 
 APIs['samerow_num'] = {"argument": [['header_num', 'num'], ['header_num', 'num']], "output": "bool",
                         "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
-                        "tostr":lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
+                        "tostr": lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
                         "append": None}
 
 APIs['samerow_str'] = {"argument": [['header_str', 'str'], ['header_str', 'str']], "output": "bool",
                         "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
-                        "tostr":lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
+                        "tostr": lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
                         "append": None}
 
 def none(t):
@@ -300,7 +300,7 @@ triggers = {}
 non_triggers = {}
 
 non_triggers['avg'] = ['average']
-non_triggers['diff'] = ['difference', 'gap', 'than', 'separate', 'all but']
+non_triggers['diff'] = ['difference', 'gap', 'than', 'separate']
 non_triggers['add'] = ['sum', 'summation', 'combine', 'combined', 'total', 'add', 'all', 'there are']
 non_triggers['sum'] = non_triggers['add']
 
@@ -339,9 +339,9 @@ non_triggers['all_greater_eq'] = non_triggers['all_less_eq']
 non_triggers['inc_num'] = ['and', 'while', 'when', ',', 'both', 'neither', 'none', 'all', 'which', 'who', 'that', 'whose']
 non_triggers['inc_str'] = non_triggers['inc_num']
 
-non_triggers['max'] = ['RBR', 'RBS', 'JJR', 'JJS', 'than any other']
+non_triggers['max'] = ['RBR', 'RBS', 'JJR', 'JJS']
 non_triggers['min'] = non_triggers['max']
-non_triggers['argmax'] = ['JJR', 'JJS', 'RBR', 'RBS', 'top', 'first', 'bottom', 'last', 'than any other']
+non_triggers['argmax'] = ['JJR', 'JJS', 'RBR', 'RBS', 'top', 'first', 'bottom', 'last']
 non_triggers['argmin'] = non_triggers['argmax']
 
 non_triggers['within_s_s'] = ['within', 'one', 'of', 'among', 'is', 'are', 'were', 'was']
@@ -350,7 +350,7 @@ non_triggers['within_n_n'] = non_triggers['within_s_s']
 non_triggers['next'] = ['follow', 'following', 'followed', 'under', 'after']
 non_triggers['prev'] = ['before', 'above', 'precede', 'preceded', 'preceding']
 
-non_triggers['most_freq'] = ['RBS', 'JJS', 'than any other']
+non_triggers['most_freq'] = ['RBS', 'JJS', 'RBR', 'JJR']
 #non_triggers['istype_s_n'] = ['is', 'are', 'were', 'was', 'be', 'within', 'one', 'of']
 #non_triggers['istype_n_s'] = ['is', 'are', 'were', 'was', 'be', 'within', 'one', 'of']
 #non_triggers['count'] = ['there', 'num', 'amount', 'have', 'has', 'had', 'are', 'more']

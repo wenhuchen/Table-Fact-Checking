@@ -169,17 +169,12 @@ else:
 			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
 			print res
 		else:
-            if os.path.exists('../data/all_programs/{}.json'.format(idx)):
-                with open('../data/all_programs/{}.json'.format(idx)) as f:
-                    prev = json.load(f)
-
-			if "RBS" in pos_tag:	
-			    try:
-			        res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
-			        with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
-			            json.dump(res, f, indent=2)
-			    except Exception:
-			        print "failed {}, {}".format(table_name, idx)
+		    try:
+		        res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
+		        with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
+		            json.dump(res, f, indent=2)
+		    except Exception:
+		        print "failed {}, {}".format(table_name, idx)
 
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
