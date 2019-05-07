@@ -167,7 +167,7 @@ else:
 		#if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
 		if args.sequential:
 			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
-			print res
+			print idx, len(res[-1])
 		else:
 		    try:
 		        res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels)
@@ -190,8 +190,8 @@ else:
 	
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			if arg[8] == 'nt-86':
-				func(arg)
+			#if arg[8] == 'nt-86':
+			func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 5
 		print "Using {} cores".format(cores)
