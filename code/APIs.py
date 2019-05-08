@@ -29,7 +29,7 @@ APIs['dec_str'] = {"argument":['str'], 'output': 'none',
               'append': False}
 
 APIs['within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                "function": lambda t, col, value: len(t[t[col].str.contains(value)]) > 0,
+                "function": lambda t, col, value: len(t[t[col].str.contains(value, regex=False)]) > 0,
                 "tostr": lambda t, col, value : "within({}, {}, {})".format(t, col, value),
                 'append': None}
 
@@ -39,7 +39,7 @@ APIs['within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bool',
                 'append': None}
 
 APIs['not_within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                          "function": lambda t, col, value: len(t[t[col].str.contains(value)]) == 0,
+                          "function": lambda t, col, value: len(t[t[col].str.contains(value, regex=False)]) == 0,
                           "tostr": lambda t, col, value : "not_within({}, {}, {})".format(t, col, value),
                           'append': None}
 
@@ -55,12 +55,12 @@ APIs['none'] = {"argument":['str'], 'output': 'bool',
 
 APIs['next'] = {"argument":['row', 'row'], 'output': 'row',
                 "function": lambda t, t1 : row_select(t, t1, 1),
-                "tostr": lambda t : "next({})".format(t),
+                "tostr": lambda t, t1 : "next({}, {})".format(t),
                 'append': True}
 
 APIs['prev'] = {"argument":['row', 'row'], 'output': 'row',
                 "function": lambda t, t1 : row_select(t, t1, -1),
-                "tostr": lambda t : "next({})".format(t),
+                "tostr": lambda t, t1 : "prev({}, {})".format(t),
                 'append': True}
 """
 APIs['idx'] = {"argument":['row', 'row'], 'output': 'num',
@@ -69,18 +69,23 @@ APIs['idx'] = {"argument":['row', 'row'], 'output': 'num',
                 'append': True}
 """
 APIs['first'] = {"argument":['row', 'row'], 'output': 'bool',
-                  'function': lambda t, t1 : get_row(t, t1) == 0,
-                  'tostr': lambda t : "first({})".format(t),
+                  'function': lambda t, t1 : n_th(t, t1, 0),
+                  'tostr': lambda t, t1 : "first({}, {})".format(t, t1),
                   'append': None}
 
 APIs['second'] = {"argument":['row', 'row'], 'output': 'bool',
-                  'function': lambda t, t1 : get_row(t, t1) == 1,
-                  'tostr': lambda t : "second({}, {})".format(t),
+                  'function': lambda t, t1 : n_th(t, t1, 1),
+                  'tostr': lambda t, t1 : "second({}, {})".format(t, t1),
+                  'append': None}
+
+APIs['third'] = {"argument":['row', 'row'], 'output': 'bool',
+                  'function': lambda t, t1 : n_th(t, t1, 2),
+                  'tostr': lambda t, t1 : "second({}, {})".format(t, t1),
                   'append': None}
 
 APIs['last'] = {"argument":['row', 'row'], 'output': 'bool',
-                  'function': lambda t, t1 : get_row(t, t1) == len(t) - 1,
-                  'tostr': lambda t : "last({}, {})".format(t, t1),
+                  'function': lambda t, t1 : n_th(t, t1, len(t) - 1),
+                  'tostr': lambda t, t1 : "last({}, {})".format(t, t1),
                   'append': None}
 
 # With only two argument and the first is row
@@ -196,12 +201,12 @@ APIs['not_str_eq'] = {"argument":['str', 'str'], 'output': 'bool',
 
 # With only three argument and the first is row
 APIs["filter_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t[t[col].str.contains(value)],
+                        "function": lambda t, col, value: t[t[col].str.contains(value, regex=False)],
                         "tostr":lambda t, col, value: "filter_str_eq({}, {}, {})".format(t, col, value),
                         'append': False}
 
 APIs["filter_str_not_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t[~t[col].str.contains(value)],
+                        "function": lambda t, col, value: t[~t[col].str.contains(value, regex=False)],
                         "tostr":lambda t, col, value: "filter_str_not_eq({}, {}, {})".format(t, col, value),
                         'append': False}
 
@@ -237,7 +242,7 @@ APIs["filter_less_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
                           "append": False}
 
 APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t[t[col].str.contains(value)]),
+                        "function": lambda t, col, value: len(t) == len(t[t[col].str.contains(value, regex=False)]),
                         "tostr":lambda t, col, value: "all_eq({}, {}, {})".format(t, col, value),
                         "append": None}
 
@@ -268,7 +273,7 @@ APIs["all_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
 
 
 APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",
-                          "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1)) & (t[col2] == value2)]) > 0,
+                          "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1, regex=False)) & (t[col2] == value2)]) > 0,
                           "tostr": lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
                           "append": None}
 
@@ -278,7 +283,7 @@ APIs['samerow_num'] = {"argument": [['header_num', 'num'], ['header_num', 'num']
                         "append": None}
 
 APIs['samerow_str'] = {"argument": [['header_str', 'str'], ['header_str', 'str']], "output": "bool",
-                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1)) & (t[col2].str.contains(value2))]) > 0,
+                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1, regex=False)) & (t[col2].str.contains(value2, regex=False))]) > 0,
                         "tostr": lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
                         "append": None}
 
@@ -288,17 +293,28 @@ def none(t):
   else:
     return False
 
-def get_row(t, t1):
-  col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
-  val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
-  idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index[0]
-  return idx
+def n_th(t, t1, num):
+  def inner(t, t1):
+    if len(t) == 1:
+      t, t1 = t1, t
+    col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
+    val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
+    idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index
+    if len(idx) > 0:
+      return idx[0].item()
+    else:
+      return None
+  tmp = inner(t, t1)
+  if tmp is None:
+    return None
+  else:
+    return tmp == num
 
 def row_select(t, t1, bias):
   col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
   val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
   idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index + bias
-  if idx < len(t) and idx >= 0:
+  if idx[0] < len(t) and idx[0] >= 0:
     return t.loc[idx]
   else:
     return None
@@ -365,6 +381,10 @@ non_triggers['next'] = ['follow', 'following', 'followed', 'under', 'after']
 non_triggers['prev'] = ['before', 'above', 'precede', 'preceded', 'preceding']
 
 non_triggers['most_freq'] = ['RBS', 'JJS', 'RBR', 'JJR']
+non_triggers['first'] = ['first', '1st', 'top']
+non_triggers['second'] = ['second', '2nd']
+non_triggers['third'] = ['third', '3rd']
+non_triggers['last'] = ['last', 'bottom']
 #non_triggers['istype_s_n'] = ['is', 'are', 'were', 'was', 'be', 'within', 'one', 'of']
 #non_triggers['istype_n_s'] = ['is', 'are', 'were', 'was', 'be', 'within', 'one', 'of']
 #non_triggers['count'] = ['there', 'num', 'amount', 'have', 'has', 'had', 'are', 'more']
