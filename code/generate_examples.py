@@ -87,7 +87,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
         if w in backbone:
             if buf == "":
                 last = set(backbone[w])
-                buf = w
+                buf = recover_dict.get(w, w)
             else:
                 proposed = set(backbone[w]) & last
                 if not proposed:
@@ -100,10 +100,10 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                                 buf = '#{};c{}#'.format(buf, closest[1])
                     new_str.append(buf)
                     new_tags.append('ENT')
-                    buf = recover_dict[w]
+                    buf = recover_dict.get(w, w)
                     last = set(backbone[w])
                 else:
-                    buf += " " + recover_dict[w]
+                    buf += " " + recover_dict.get(w, w)
                     last = proposed
         elif w in trans_backbone and w not in stop_words:
             if buf == "":
@@ -161,9 +161,10 @@ def get_lemmatize(words, return_pos, recover_dict=None):
     word_roots = []
     for w, p in zip(words, pos_tags):
         if is_ascii(w) and p in tag_dict:
-            if recover_dict is not None:
-                recover_dict[lemmatizer.lemmatize(w, tag_dict[p])] = w
-            word_roots.append(lemmatizer.lemmatize(w, tag_dict[p]))
+            lemm = lemmatizer.lemmatize(w, tag_dict[p])
+            if recover_dict is not None and lemm != w:
+                recover_dict[lemm] = w
+            word_roots.append(lemm)
         else:
             word_roots.append(w)
     if return_pos:
