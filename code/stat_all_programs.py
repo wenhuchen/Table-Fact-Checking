@@ -4,9 +4,9 @@ import os
 failed = 0
 success = 0
 results = []
-for prog in os.listdir('../data/all_program/'):
+for prog in os.listdir('../data/all_programs/'):
 	if prog.endswith('.json'):
-		with open('../data/all_program/' + prog, 'r') as f:
+		with open('../data/all_programs/' + prog, 'r') as f:
 			data = json.load(f) 
 		if len(data[3]) == 0:
 			failed += 1

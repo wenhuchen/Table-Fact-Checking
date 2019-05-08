@@ -192,10 +192,10 @@ else:
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
 			#if arg[8] == 'nt-4766' or arg[8] == 'nt-34':
-			if arg[8] == 'nt-34':
+			if arg[8] == 'nt-4944':
 				func(arg)
 	else:
-		cores = multiprocessing.cpu_count() - 5
+		cores = multiprocessing.cpu_count() - 4
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
 	
