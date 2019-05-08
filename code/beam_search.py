@@ -537,7 +537,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                         for m in range(l + 1, len(root.memory_str)):
                             h1, va1 = root.memory_str[l]
                             h2, va2 = root.memory_str[m]
-                            if "tmp_" not in h1 and "tmp_" not in h2:
+                            if "tmp_" not in h1 and "tmp_" not in h2 and (h1 != h2):
                                 command = v['tostr'](h1, va1, h2, va2)
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
@@ -563,7 +563,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                         for m in range(l + 1, len(root.memory_num)):
                             h1, va1 = root.memory_num[l]
                             h2, va2 = root.memory_num[m]
-                            if "tmp_" not in h1 and "tmp_" not in h2:
+                            if ("tmp_" not in h1 and "tmp_" not in h2) and (h1 != h2):
                                 command = v['tostr'](h1, va1, h2, va2)
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
@@ -579,7 +579,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                             tmp.add_memory_bool(command, returned)
                                             conditional_add(tmp, hist[i + 1])
                 else:
-                    raise ValueError(k + ": error")                                                       
+                    raise ValueError(k + ": error")                                                  
 
         if len(finished) > 100 or time.time() - start_time > 40:
             break

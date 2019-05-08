@@ -62,11 +62,26 @@ APIs['prev'] = {"argument":['row', 'row'], 'output': 'row',
                 "function": lambda t, t1 : row_select(t, t1, -1),
                 "tostr": lambda t : "next({})".format(t),
                 'append': True}
-
+"""
 APIs['idx'] = {"argument":['row', 'row'], 'output': 'num',
                 "function": lambda t, t1 : get_row(t, t1),
                 "tostr": lambda t : "idx({})".format(t),
                 'append': True}
+"""
+APIs['first'] = {"argument":['row', 'row'], 'output': 'bool',
+                  'function': lambda t, t1 : get_row(t, t1) == 0,
+                  'tostr': lambda t : "first({})".format(t),
+                  'append': None}
+
+APIs['second'] = {"argument":['row', 'row'], 'output': 'bool',
+                  'function': lambda t, t1 : get_row(t, t1) == 1,
+                  'tostr': lambda t : "second({}, {})".format(t),
+                  'append': None}
+
+APIs['last'] = {"argument":['row', 'row'], 'output': 'bool',
+                  'function': lambda t, t1 : get_row(t, t1) == len(t) - 1,
+                  'tostr': lambda t : "last({}, {})".format(t, t1),
+                  'append': None}
 
 # With only two argument and the first is row
 APIs['avg'] = {"argument":['row', 'header_num'], 'output': 'num',
@@ -98,7 +113,7 @@ APIs['argmin'] = {"argument":['row', 'header_num'], 'output': 'row',
                   'function': lambda t, col :  t[t[col].values == t[col].values.min()],
                   'tostr': lambda t, col : "argmin({}, {})".format(t, col),
                   'append': False}
-
+"""
 APIs['last'] = {"argument":['row'], 'output': 'row',
                   'function': lambda t :  t.tail(1),
                   'tostr': lambda t : "last({})".format(t),
@@ -108,8 +123,7 @@ APIs['first'] = {"argument":['row'], 'output': 'row',
                   'function': lambda t :  t.head(1),
                   'tostr': lambda t : "first({})".format(t),
                   'append': False}
-
-
+"""
 APIs['str_hop'] = {"argument":['row', 'header_str'], 'output': 'str', 
                'function': lambda t, col :  t[col].values[0],
                'tostr': lambda t, col : "hop({}, {})".format(t, col),
@@ -254,7 +268,7 @@ APIs["all_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
 
 
 APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",
-                          "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
+                          "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1)) & (t[col2] == value2)]) > 0,
                           "tostr": lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
                           "append": None}
 
@@ -264,7 +278,7 @@ APIs['samerow_num'] = {"argument": [['header_num', 'num'], ['header_num', 'num']
                         "append": None}
 
 APIs['samerow_str'] = {"argument": [['header_str', 'str'], ['header_str', 'str']], "output": "bool",
-                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1] == value1) & (t[col2] == value2)]) > 0,
+                        "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1)) & (t[col2].str.contains(value2))]) > 0,
                         "tostr": lambda col1, value1, col2 , value2: "same({}, {}, {}, {})".format(col1, value1, col2, value2),
                         "append": None}
 

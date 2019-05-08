@@ -77,7 +77,7 @@ def replace(w, transliterate):
     else:
         return w
 
-def postprocess(inp, backbone, trans_backbone, transliterate, tabs):
+def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict):
     new_str = []
     new_tags = []
     buf = ""
@@ -100,10 +100,10 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs):
                                 buf = '#{};c{}#'.format(buf, closest[1])
                     new_str.append(buf)
                     new_tags.append('ENT')
-                    buf = w
+                    buf = recover_dict[w]
                     last = set(backbone[w])
                 else:
-                    buf += " " + w
+                    buf += " " + recover_dict[w]
                     last = proposed
         elif w in trans_backbone and w not in stop_words:
             if buf == "":
@@ -154,13 +154,15 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs):
         new_tags.append("ENT")
     return " ".join(new_str), " ".join(new_tags)
 
-def get_lemmatize(words, return_pos):
+def get_lemmatize(words, return_pos, recover_dict=None):
     #words = nltk.word_tokenize(words)
     words = words.strip().split(' ')
     pos_tags = [_[1] for _ in nltk.pos_tag(words)]
     word_roots = []
     for w, p in zip(words, pos_tags):
         if is_ascii(w) and p in tag_dict:
+            if recover_dict is not None:
+                recover_dict[lemmatizer.lemmatize(w, tag_dict[p])] = w
             word_roots.append(lemmatizer.lemmatize(w, tag_dict[p]))
         else:
             word_roots.append(w)
@@ -227,6 +229,7 @@ else:
             trans_backbone = {}
             transliterate = {}
             tabs = []
+            recover_dict = {}
             with open('../data/all_csv/' + name, 'r') as f:
                 for k, _ in enumerate(f.readlines()):
                     _ = _.decode('utf8')
@@ -234,7 +237,7 @@ else:
                     for l, w in enumerate(_.strip().split('#')):
                         tabs[-1].append(w)
                         if len(w) > 0:
-                            w = get_lemmatize(w, False)
+                            w = get_lemmatize(w, False, recover_dict)
                             for sub in w:
                                 if sub not in backbone:
                                     backbone[sub] = [(k, l)]
@@ -257,13 +260,13 @@ else:
             for i in range(len(entry[0])):
                 count += 1
                 if name in r1_results:
-                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs)
+                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict)
                     r1_results[name][0].append(sent)
                     r1_results[name][1].append(entry[1][i])
                     r1_results[name][2].append(tag)
                     #r1_results[name][3].append(entry[2])
                 else:
-                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs)
+                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict)
                     r1_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
 
                 if len(r1_results) % 1000 == 0:
