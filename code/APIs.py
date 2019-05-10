@@ -80,7 +80,7 @@ APIs['second'] = {"argument":['row', 'row'], 'output': 'bool',
 
 APIs['third'] = {"argument":['row', 'row'], 'output': 'bool',
                   'function': lambda t, t1 : n_th(t, t1, 2),
-                  'tostr': lambda t, t1 : "second({}, {})".format(t, t1),
+                  'tostr': lambda t, t1 : "third({}, {})".format(t, t1),
                   'append': None}
 
 APIs['last'] = {"argument":['row', 'row'], 'output': 'bool',

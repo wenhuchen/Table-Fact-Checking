@@ -40,6 +40,3 @@ if __name__ == "__main__":
     test_split = instances[:2000]
     train_split = instances[2000:]
     vocab = get_vocab(train_split)
-    
-    #print(get_vocab(pos))
-    #print(get_vocab(neg))
