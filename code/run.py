@@ -188,11 +188,11 @@ else:
 	idxes = [_[8] for _ in data]
 	labels = [_[9] for _ in data]	
 	start_time = time.time()
-	
+
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
 			#if arg[8] == 'nt-4766' or arg[8] == 'nt-34':
-			if arg[8] in ['nt-12188', '']:
+			if arg[8] in files:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 4
