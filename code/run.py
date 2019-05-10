@@ -161,6 +161,8 @@ else:
 	def func(inputs):
 		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx, labels = inputs
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#", encoding = 'utf-8')
+		t.fillna('')
+		print t
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
@@ -189,10 +191,12 @@ else:
 	labels = [_[9] for _ in data]	
 	start_time = time.time()
 	
+	with open('../data/unfinished.txt') as f:
+		files = [_.strip() for _ in f.readlines()]
+	
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			#if arg[8] == 'nt-4766' or arg[8] == 'nt-34':
-			if arg[8] in ['nt-12188', '']:
+			if arg[8] in files:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 4
