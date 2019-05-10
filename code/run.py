@@ -164,18 +164,18 @@ else:
 		cols = t.columns
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
-		#if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
 		if args.sequential:
-			#print mem_str, mem_num, head_str, head_num
+			print table_name, mem_str, mem_num, head_str, head_num
 			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
 			print idx, res
 		else:
-		    try:
-		        res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
-		        with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
-		            json.dump(res, f, indent=2)
-		    except Exception:
-		        print "failed {}, {}".format(table_name, idx)
+			if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
+			    try:
+			        res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
+			        with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
+			            json.dump(res, f, indent=2)
+			    except Exception:
+			        print "failed {}, {}".format(table_name, idx)
 
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
@@ -192,7 +192,7 @@ else:
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
 			#if arg[8] == 'nt-4766' or arg[8] == 'nt-34':
-			if arg[8] == 'nt-4944':
+			if arg[8] in ['nt-12188', '']:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 4
