@@ -41,7 +41,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
             if not flag:
                 must_not_have.append(k)
 
-    #print "must have: ", must_have
+    #back_tracking = {}
+    #for m in mem_str + mem_num:
+    #    back_tracking[m] = m[1]
+
     #print "Must not have: ", must_not_have
     #print "Valid functions: ", [_ for _ in APIs if _ not in must_not_have]
     node = Node(memory_str=mem_str, memory_num=mem_num, rows=t, 
@@ -108,93 +111,78 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             tmp.add_header_str(returned)
                             conditional_add(tmp, hist[i + 1])
                 """
-                # Incrementing
+                # Incrementing/Decrementing
                 if v['argument'] == ["num"]:
-                    for h, va in root.memory_num:
-                        if v['output'] == 'num':
-                            if step == 0:
+                    if step == 0:
+                        for i, (h, va) in enumerate(root.memory_num):
+                            if v['output'] == 'num':
                                 if "tmp_" not in h:
-                                    command = v['tostr'](va)
+                                    command = v['tostr'](root.trace_num[i])
                                     if not root.exist(command):
                                         tmp = root.clone(command, k)
                                         returned = call(command, v['function'], va)
-                                        tmp.add_memory_num(h, returned)
+                                        tmp.add_memory_num(h, returned, returned)
                                         conditional_add(tmp, hist[step + 1])
-                        elif v['output'] == 'none':
-                            if step == 0:
-                                command = v['tostr'](va)
+                            elif v['output'] == 'none':
+                                command = v['tostr'](root.trace_num[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     returned = call(command, v['function'], va)
                                     tmp.delete_memory_num(tmp.memory_num.index((h, va)))
                                     conditional_add(tmp, hist[step + 1])
-                        else:
-                            raise ValueError("Returned Type Wrong")
+                            else:
+                                raise ValueError("Returned Type Wrong")
                 
+                # Incrementing/Decrementing
                 elif v['argument'] == ["str"]:
-                    for h, va in root.memory_str:
+                    for i, (h, va) in enumerate(root.memory_str):
                         if v['output'] == 'str':
                             if step == 0:
                                 if "tmp_" not in h:
-                                    command = v['tostr'](va)
+                                    command = v['tostr'](root.trace_str[i])
                                     if not root.exist(command):
                                         tmp = root.clone(command, k)
                                         returned = call(command, v['function'], va)
-                                        tmp.add_memory_str(h, returned)
+                                        tmp.add_memory_str(h, returned, returned)
                                         conditional_add(tmp, hist[step + 1])
                         elif v['output'] == 'none':
                             if step == 0:
-                                command = v['tostr'](va)
+                                command = v['tostr'](root.trace_str[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     returned = call(command, v['function'], va)
-                                    tmp.delete_memory_str(tmp.memory_str.index((h, va)))
+                                    tmp.delete_memory_str(i)
                                     conditional_add(tmp, hist[step + 1])
                         elif v['output'] == 'bool':
                             if "tmp_" in h:
-                                command = v['tostr'](va)
+                                command = v['tostr'](root.trace_str[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     returned = call(command, v['function'], va)
                                     if tmp.done():
-                                        tmp.append_bool(command)
-                                        tmp.append_result(returned)
+                                        tmp.append_result(command, returned)
                                         finished.append((tmp, returned))
                                     else:
                                         tmp.add_memory_bool(command, returned)
                                         conditional_add(tmp, hist[step + 1])
                         else:
                             raise ValueError("Returned Type Wrong")
-                            """
-                            elif v['argument'] == ['bool']:
-                                for h, va in root.memory_bool:
-                                    if h.startswith('not'):
-                                        continue
-                                    command = v['tostr'](h)
-                                    tmp = root.clone(command, k)
-                                    returned = call(command, v['function'], va)
-                                    tmp.delete_memory_bool(tmp.memory_bool.index((h, va)))
-                                    if tmp.done():
-                                        finished.append((tmp, returned))
-                                    else:
-                                        tmp.add_memory_bool(command, returned)
-                                        conditional_add(tmp, hist[i + 1])
-                            """
+
                 elif v['argument'] == ['row', 'header_str', 'str']:
                     for j, (row_h, row) in enumerate(root.rows):
-                        for h, va in root.memory_str:
+                        for i, (h, va) in enumerate(root.memory_str):
                             if "tmp_" in h:
                                 continue
                             for head in root.header_str:
-                                command = v['tostr'](row_h, head, va)
+                                command = v['tostr'](row_h, head, root.trace_str[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     returned = call(command, v['function'], row, head, va)
                                     if v['output'] == "bool":
-                                        tmp.delete_memory_str(tmp.memory_str.index((h, va)))
+                                        tmp.inc_row_counter(j)
+                                        tmp.delete_memory_str(i)
                                         if tmp.done():
-                                            tmp.append_bool(command)
-                                            tmp.append_result(returned)                                            
+                                            tmp.append_result(command, returned)                              
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -204,19 +192,19 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 
                 elif v['argument'] == ['row', 'header_num', 'num']:
                     for j, (row_h, row) in enumerate(root.rows):
-                        for h, va in root.memory_num:
+                        for i, (h, va) in enumerate(root.memory_num):
                             if "tmp_" in h:
                                 continue
                             for head in root.header_num:
-                                command = v['tostr'](row_h, head, va)
+                                command = v['tostr'](row_h, head, root.trace_num[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     returned = call(command, v['function'], row, head, va)
                                     if v['output'] == "bool":
-                                        tmp.delete_memory_num(tmp.memory_num.index((h, va)))
+                                        tmp.inc_row_counter(j)
+                                        tmp.delete_memory_num(i)
                                         if tmp.done():
-                                            tmp.append_bool(command)
-                                            tmp.append_result(returned)                                            
+                                            tmp.append_result(command, returned)                                            
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -237,8 +225,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     if v['output'] == "bool":
                                         tmp.delete_memory_bool(l, m)
                                         if tmp.done():
-                                            tmp.append_bool(command)
-                                            tmp.append_result(returned)                                            
+                                            tmp.append_result(command, returned)
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -248,18 +235,17 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
 
                 elif v['argument'] == ['row']:
                     for j, (row_h, row) in enumerate(root.rows):
-                        if v['output'] == 'num' and row_h == 'all_rows':
-                            continue
+                        if len(row) == 1:
+                            break
                         command = v['tostr'](row_h)
                         if not root.exist(command):
                             tmp = root.clone(command, k)
                             tmp.inc_row_counter(j)
                             returned = call(command, v['function'], row)
                             if v['output'] == 'num':
-                                tmp.add_memory_num("tmp_none", returned)
-                                tmp.append_result(returned)
-                            elif v['output'] == 'row':
-                                tmp.add_rows(command, returned)
+                                tmp.add_memory_num("tmp_none", returned, command)
+                            #elif v['output'] == 'row':
+                            #    tmp.add_rows(command, returned)
                             else:
                                 raise ValueError("error, out of scope")   
                             conditional_add(tmp, hist[step + 1])
@@ -290,8 +276,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     returned = call(command, v['function'], root.rows[i][1], root.rows[j][1])
                                     if returned is not None:
                                         if tmp.done():
-                                            tmp.append_bool(command)
-                                            tmp.append_result(returned)                      
+                                            tmp.append_result(command, returned)
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -309,11 +294,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
-                                    #tmp.delete_memory_num(l)
                                     returned = call(command, v['function'], row, root.header_num[l])
                                     if v['output'] == 'num':
-                                        tmp.add_memory_num("tmp_" + root.header_num[l], returned)
-                                        tmp.append_result(returned)
+                                        tmp.add_memory_num("tmp_" + root.header_num[l], returned, command)
                                         conditional_add(tmp, hist[step + 1])
                                     else:
                                         raise ValueError("error, output of scope")
@@ -326,12 +309,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
-                                    #tmp.delete_memory_num(l)
                                     returned = call(command, v['function'], row, root.header_num[l])
                                     if v['output'] == 'num':
-                                        tmp.add_memory_num("tmp_" + root.header_num[l], returned)
-                                        tmp.delete_header_num(l)
-                                        tmp.append_result(returned)
+                                        tmp.add_memory_num("tmp_" + root.header_num[l], returned, command)
                                         conditional_add(tmp, hist[step + 1])
                                     elif v['output'] == 'row':
                                         if len(returned) > 0:
@@ -352,8 +332,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                 returned = call(command, v['function'], row, root.header_str[l])
                                 if v['output'] == 'str':
                                     if returned is not None:
-                                        tmp.add_memory_str("tmp_" + root.header_str[l], returned)
-                                        tmp.append_result(returned)
+                                        tmp.add_memory_str("tmp_" + root.header_str[l], returned, command)
                                         conditional_add(tmp, hist[step + 1])
                                 else:
                                     raise ValueError("error, output of scope")
@@ -369,8 +348,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     returned = call(command, v['function'], row, root.header_str[l])
                                     if v['output'] == 'str':
                                         if isinstance(returned, unicode):
-                                            tmp.add_memory_str("tmp_" + root.header_str[l], returned)
-                                            tmp.append_result(returned)
+                                            tmp.add_memory_str("tmp_" + root.header_str[l], returned, command)
                                             conditional_add(tmp, hist[step + 1])
                                     else:
                                         raise ValueError("error, output of scope")
@@ -386,8 +364,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     returned = call(command, v['function'], row, root.header_str[l])                                    
                                     if v['output'] == 'str':
                                         if isinstance(returned, unicode):
-                                            tmp.add_memory_str("tmp_" + root.header_str[l], v['function'](row, root.header_str[l]))
-                                            tmp.append_result(returned)
+                                            tmp.add_memory_str("tmp_" + root.header_str[l], returned, command)
                                             conditional_add(tmp, hist[step + 1])
                                     elif v['output'] == 'row':
                                         if len(returned) > 0:
@@ -411,23 +388,20 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             type_m = root.memory_num[m][0].replace('tmp_', '')
                             if v['output'] == 'num':
                                 if type_l == type_m:
-                                    command = v['tostr'](root.get_memory_num(l), root.get_memory_num(m))
+                                    command = v['tostr'](root.trace_num[l], root.trace_num[m])
                                     tmp = root.clone(command, k)
                                     tmp.delete_memory_num(l, m)
                                     returned = call(command, v['function'], root.get_memory_num(l), root.get_memory_num(m))
-                                    tmp.add_memory_num("tmp_" + type_l, returned)
-                                    tmp.append_result(returned)
+                                    tmp.add_memory_num("tmp_" + type_l, returned, command)
                                     conditional_add(tmp, hist[step + 1])                                    
                             elif v['output'] == 'bool':
                                 if (type_l == type_m and type_l != "input") or (type_l == "none" or type_m == "none"):
-                                    command = v['tostr'](root.get_memory_num(l), root.get_memory_num(m))
+                                    command = v['tostr'](root.trace_num[l], root.trace_num[m])                                    
                                     tmp = root.clone(command, k)
                                     tmp.delete_memory_num(l, m)
-
                                     returned = call(command, v['function'], root.get_memory_num(l), root.get_memory_num(m))
                                     if tmp.done():
-                                        tmp.append_bool(command)
-                                        tmp.append_result(returned)
+                                        tmp.append_result(command, returned)
                                         finished.append((tmp, returned))
                                     elif tmp.memory_bool_len < 2:
                                         tmp.add_memory_bool(command, returned)
@@ -445,15 +419,14 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             type_l = root.memory_str[l][0].replace('tmp_', '')
                             type_m = root.memory_str[m][0].replace('tmp_', '')
                             if type_l == type_m:
-                                command = v['tostr'](root.get_memory_str(m), root.get_memory_str(l))
+                                command = v['tostr'](root.trace_str[l], root.trace_str[m])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     tmp.delete_memory_str(l, m)
                                     if v['output'] == 'bool':
                                         returned = call(command, v['function'], root.get_memory_str(m), root.get_memory_str(l))
                                         if tmp.done():
-                                            tmp.append_bool(command)
-                                            tmp.append_result(returned)                                        
+                                            tmp.append_result(command, returned)                                        
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -465,9 +438,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                     for j, (row_h, row) in enumerate(root.rows):
                         #if len(row_h) == 1:
                         #    continue
-                        for h, va in root.memory_str:
+                        for i, (h, va) in enumerate(root.memory_str):
                             if "tmp_" not in h:
-                                command = v['tostr'](row_h, h, va)
+                                command = v['tostr'](row_h, h, root.trace_str[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
@@ -481,8 +454,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                             continue
                                     elif v['output'] == 'bool':
                                         if tmp.done():
-                                            tmp.append_bool(command)
-                                            tmp.append_result(returned)
+                                            tmp.append_result(command, returned)
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -492,11 +464,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     
                 elif v['argument'] == ['row', ['header_num', 'num']]:
                     for j, (row_h, row) in enumerate(root.rows):
-                        #if len(row) == 1:
-                        #    continue
-                        for h, va in root.memory_num:
+                        for i, (h, va) in enumerate(root.memory_num):
                             if "tmp_" not in h:
-                                command = v['tostr'](row_h, h, va)
+                                command = v['tostr'](row_h, h, root.trace_num[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     tmp.inc_row_counter(j)
@@ -510,8 +480,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                             continue
                                     elif v['output'] == 'bool':
                                         if tmp.done():
-                                            tmp.append_bool(command)
-                                            tmp.append_result(returned)                                            
+                                            tmp.append_result(command, returned)                                            
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -523,19 +492,18 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                     if not root.memory_str_len or not root.memory_num_len:
                         continue
                     row_h, row = root.rows[0]
-                    for h1, va1 in root.memory_str:
-                        for h2, va2 in root.memory_num:
+                    for i, (h1, va1) in enumerate(root.memory_str):
+                        for j, (h2, va2) in enumerate(root.memory_num):
                             if "tmp_" not in h1 and "tmp_" not in h2:
-                                command = v['tostr'](h1, va1, h2, va2)
+                                command = v['tostr'](h1, root.trace_str[i], h2, root.trace_num[j])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
-                                    tmp.delete_memory_str(tmp.memory_str.index((h1, va1)))
-                                    tmp.delete_memory_num(tmp.memory_num.index((h2, va2)))
+                                    tmp.delete_memory_str(i)
+                                    tmp.delete_memory_num(j)
                                     returned = call(command, v['function'], row, h1, va1, h2, va2)
                                     if v['output'] == 'bool':
                                         if tmp.done():
-                                            tmp.append_bool(command)                                         
-                                            tmp.append_result(returned)                                     
+                                            tmp.append_result(command, returned)                                     
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -552,16 +520,14 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             h1, va1 = root.memory_str[l]
                             h2, va2 = root.memory_str[m]
                             if "tmp_" not in h1 and "tmp_" not in h2 and (h1 != h2):
-                                command = v['tostr'](h1, va1, h2, va2)
+                                command = v['tostr'](h1, root.trace_str[l], h2, root.trace_str[m])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
-                                    tmp.delete_memory_str(tmp.memory_str.index((h1, va1)))
-                                    tmp.delete_memory_str(tmp.memory_str.index((h2, va2)))
+                                    tmp.delete_memory_str(l, m)
                                     returned = call(command, v['function'], row, h1, va1, h2, va2)
                                     if v['output'] == 'bool':
                                         if tmp.done():
-                                            tmp.append_bool(command)                                       
-                                            tmp.append_result(returned) 
+                                            tmp.append_result(command, returned) 
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -578,16 +544,14 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             h1, va1 = root.memory_num[l]
                             h2, va2 = root.memory_num[m]
                             if ("tmp_" not in h1 and "tmp_" not in h2) and (h1 != h2):
-                                command = v['tostr'](h1, va1, h2, va2)
+                                command = v['tostr'](h1, root.trace_num[l], h2, root.trace_num[m])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
-                                    tmp.delete_memory_num(tmp.memory_num.index((h1, va1)))
-                                    tmp.delete_memory_num(tmp.memory_num.index((h2, va2)))
+                                    tmp.delete_memory_num(l, m)
                                     returned = call(command, v['function'], row, h1, va1, h2, va2)
                                     if v['output'] == 'bool':
                                         if tmp.done():
-                                            tmp.append_bool(command)                                       
-                                            tmp.append_result(returned)
+                                            tmp.append_result(command, returned)
                                             finished.append((tmp, returned))
                                         elif tmp.memory_bool_len < 2:
                                             tmp.add_memory_bool(command, returned)
@@ -600,10 +564,10 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
             #return (name, orig_sent, label, [_[0].cur_str for _ in finished])
 
     #print "used time {} to get {} programs".format(time.time() - start_time, len(hist[-1]))
-    with open('/tmp/results.txt', 'w') as f:
-        for h in hist[-1]:
-            print >> f, h.cur_strs
-    return (name, orig_sent, label, [_[0].cur_str for _ in finished])
+    #with open('/tmp/results.txt', 'w') as f:
+    #    for h in hist[-1]:
+    #        print >> f, h.cur_strs
+    return (name, orig_sent, sent, label, [_[0].cur_str for _ in finished])
 
     #for _ in finished:
     #    print _[0].cur_str, _[1]

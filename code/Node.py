@@ -11,6 +11,8 @@ class Node(object):
         self.memory_bool = []
         self.header_str = header_str
         self.header_num = header_num
+        self.trace_str = [v for k, v in memory_str]
+        self.trace_num = [v for k, v in memory_num]
         # For intermediate data frame
         self.rows = [("all_rows", rows)]
 
@@ -46,6 +48,7 @@ class Node(object):
         print "trace:", self.cur_str       
 
     def concat(self, new_str, k):
+        """
         if APIs[k]['append']:
             if self.cur_str:
                 self.cur_str += ";" + new_str
@@ -53,6 +56,7 @@ class Node(object):
                 self.cur_str = new_str
         else:
             pass
+        """
         func = new_str.split('(')[0]
         self.cur_funcs.append(func)
         self.cur_strs.append(new_str)
@@ -111,8 +115,8 @@ class Node(object):
         return cache_hash
     """
     
-    def append_result(self, r):
-        self.cur_str += "={}".format(r)
+    def append_result(self, command, r):
+        self.cur_str = "{}={}".format(command, r)
     
     def append_bool(self, r):
         if self.cur_str != "":
@@ -126,13 +130,13 @@ class Node(object):
     def get_memory_num(self, i):
         return self.memory_num[i][1]
 
-    def add_memory_num(self, header, val):
+    def add_memory_num(self, header, val, command):
         if isinstance(val, int) or isinstance(val, float):
             if type(val) == type(1) or type(val) == type(1.2):
                 self.memory_num.append((header, val))
             else:
                 self.memory_num.append((header, numpy.asscalar(val)))
-            #self.num_counter.append(0)
+            self.trace_num.append(command)
         else:
             raise ValueError("type error")
     
@@ -142,10 +146,10 @@ class Node(object):
         else:
             raise ValueError("type error")
 
-    def add_memory_str(self, header, val):
+    def add_memory_str(self, header, val, command):
         if isinstance(val, unicode) or isinstance(val, str):
             self.memory_str.append((header, val))
-            #self.str_counter.append(0)
+            self.trace_str.append(command)
         else:
             raise ValueError("type error")
 
@@ -173,20 +177,22 @@ class Node(object):
     def delete_memory_num(self, *args):
         for i, arg in enumerate(args):
             del self.memory_num[arg - i]
+            del self.trace_num[arg - i]
 
     def delete_memory_str(self, *args):       
         for i, arg in enumerate(args):
             del self.memory_str[arg - i]
+            del self.trace_str[arg - i]
 
     def delete_memory_bool(self, *args):       
         for i, arg in enumerate(args):
             del self.memory_bool[arg - i]
     
-    def delete_header_num(self, i):
-        del self.header_num[i]
+    #def delete_header_num(self, i):
+    #    del self.header_num[i]
 
-    def delete_header_str(self, i):
-        del self.header_str[i]
+    #def delete_header_str(self, i):
+    #    del self.header_str[i]
 
     def check(self, *args):
         #print args
