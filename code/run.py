@@ -202,7 +202,7 @@ else:
 			#if arg[8] == "nt-6":
 			func(arg)
 	else:
-		cores = multiprocessing.cpu_count()
+		cores = multiprocessing.cpu_count() - 4
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
 	
