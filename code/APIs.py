@@ -53,14 +53,14 @@ APIs['none'] = {"argument":['str'], 'output': 'bool',
                 "tostr": lambda t : "none{{{}}}".format(t),
                 'append': None}
 
-APIs['next'] = {"argument":['row', 'row'], 'output': 'row',
-                "function": lambda t, t1 : row_select(t, t1, 1),
-                "tostr": lambda t, t1 : "next{{{}; {}}}".format(t),
+APIs['after'] = {"argument":['row', 'row', 'row'], 'output': 'bool',
+                "function": lambda t, t1, t2 : inner(t, t1) > inner(t, t2),
+                "tostr": lambda t1, t2 : "after{{{}; {}}}".format(t1, t2),
                 'append': True}
 
-APIs['prev'] = {"argument":['row', 'row'], 'output': 'row',
-                "function": lambda t, t1 : row_select(t, t1, -1),
-                "tostr": lambda t, t1 : "prev{{{}; {}}}".format(t),
+APIs['before'] = {"argument":['row', 'row', 'row'], 'output': 'bool',
+                "function": lambda t, t1, t2: inner(t, t1) < inner(t, t2),
+                "tostr": lambda t1, t2 : "before{{{}; {}}}".format(t1, t2),
                 'append': True}
 """
 APIs['idx'] = {"argument":['row', 'row'], 'output': 'num',
@@ -281,7 +281,6 @@ APIs["all_greater_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
                           "tostr":lambda t, col, value: "all_greater_eq{{{}; {}; {}}}".format(t, col, value),
                           "append": None}
 
-
 APIs['samerow_num_str'] = {"argument": [['header_str', 'str'], ['header_num', 'num']], "output": "bool",
                           "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1, regex=False)) & (t[col2] == value2)]) > 0,
                           "tostr": lambda col1, value1, col2 , value2: "same{{{}; {}; {}; {}}}".format(col1, value1, col2, value2),
@@ -303,17 +302,18 @@ def none(t):
   else:
     return False
 
+def inner(t, t1):
+  if len(t) == 1:
+    t, t1 = t1, t
+  col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
+  val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
+  idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index
+  if len(idx) > 0:
+    return idx[0].item()
+  else:
+    return None
+
 def n_th(t, t1, num):
-  def inner(t, t1):
-    if len(t) == 1:
-      t, t1 = t1, t
-    col1, col2, col3, col4 = t.columns[0], t.columns[1], t.columns[2], t.columns[3]
-    val1, val2, val3, val4 = t1[col1].values[0], t1[col2].values[0],  t1[col3].values[0], t1[col4].values[0]
-    idx = t.loc[(t[col1] == val1) & (t[col2] == val2) & (t[col3] == val3) & (t[col4] == val4)].index
-    if len(idx) > 0:
-      return idx[0].item()
-    else:
-      return None
   tmp = inner(t, t1)
   if tmp is None:
     return None
@@ -387,8 +387,8 @@ non_triggers['argmin'] = non_triggers['argmax']
 non_triggers['within_s_s'] = ['within', 'one', 'of', 'among']
 non_triggers['within_n_n'] = non_triggers['within_s_s']
 
-non_triggers['next'] = ['follow', 'following', 'followed', 'under', 'after']
-non_triggers['prev'] = ['before', 'above', 'precede', 'preceded', 'preceding']
+non_triggers['before'] = ['follow', 'following', 'followed', 'after', 'before', 'above', 'precede']
+non_triggers['after'] = non_triggers['before']
 
 non_triggers['most_freq'] = ['most']
 non_triggers['first'] = ['first', '1st', 'top']

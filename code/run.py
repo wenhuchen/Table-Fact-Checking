@@ -123,22 +123,80 @@ if not args.synthesize:
 						mention_buf += sent[n]
 					else:
 						masked_sent += sent[n]
-			
+
+			tokens = masked_sent.split()
+			i = 0
+			while i < len(tokens):
+				_ = tokens[i]
+				if i + 1 < len(tokens):
+					if _.isdigit() and (tokens[i + 1] not in ["thousand", "hundred"]):
+						num = int(_)
+						i += 1
+					elif _.isdigit() and tokens[i + 1] in ["thousand", "hundred"]:
+						if tokens[i + 1] == "thousand":
+							num = int(_) * 1000
+							i += 2
+						elif tokens[i + 1] == "hundred":
+							num = int(_) * 100
+							i += 2
+					elif _ == "a" and tokens[i + 1] in ["thousand", "hundred"]:
+						if tokens[i + 1] == "thousand":
+							num = 1000
+							i += 2
+						elif tokens[i + 1] == "hundred":
+							num = 100
+							i += 2
+					elif '.' in tokens[i]:
+						try:
+							num = float(_)
+							i += 1
+						except Exception:
+							i += 1
+							continue
+					else:
+						i += 1
+						continue
+				else:
+					if _.isdigit():
+						num = int(_)
+						i += 1
+					elif '.' in tokens[i]:
+						try:
+							num = float(_)
+							i += 1
+						except Exception:
+							i += 1
+							continue
+					else:
+						i += 1
+						continue
+				
+				flag = False				
+				if i > 3 and i < len(tokens):
+					if tokens[i - 2] == "than" or tokens[i - 3] == "than":
+						for h in head_num:
+							if num >= t[h].min() and num <= t[h].max():
+								mem_num.append((h, num))
+								print mem_num[-1], sent
+								del head_num[head_num.index(h)]
+								flag = True
+								break
+				
+				if not flag:
+					mem_num.append(("tmp_input", num))
+				"""
+				if num < len(t) or len(head_num) == 0 or ("JJR" not in pos_tag and "RBR" not in pos_tag):
+					mem_num.append(("tmp_input", num))
+				else:
+					
+				"""
 			for k, v in mem_num:
-				if k not in head_num:
+				if k not in head_num and k != "tmp_input":
 					head_num.append(k)
 			for k, v in mem_str:
 				if k not in head_str:
 					head_str.append(k)
-			
-			for _ in masked_sent.split():
-				if _.isdigit():
-					mem_num.append(("tmp_input", int(_)))
-				else:
-					try:
-						mem_num.append(("tmp_input", float(_)))
-					except Exception:
-						pass
+
 			#preprocessed.append((k, sent, masked_sent, pos, mem_num, head_num, ))
 			#print sent
 			#print masked_sent
@@ -167,7 +225,6 @@ else:
 		t.columns = cols
 		if args.sequential:
 			#print idx, table_name, mem_str, mem_num, head_str, head_num
-			print t
 			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
 			print idx, res[:-1]
 			for r in res[-1]:
@@ -199,7 +256,7 @@ else:
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
 			#if arg[8] in files:
-			#if arg[8] == "nt-6":
+			#if arg[8] in ["nt-0", "nt-1", "nt-2", "nt-3", "nt-20", "nt-21"]:
 			func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 4

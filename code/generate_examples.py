@@ -12,13 +12,15 @@ from unidecode import unidecode
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '-', 'also', 'will', 'would', 'this', 'that',
-             'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
-             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
-             'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
-             'both', 'above', 'only', ",", ".", "(", ")", "&", ":"]
+#stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '-', 'also', 'will', 'would', 'this', 'that',
+#             'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
+#             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
+#             'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
+#            'both', 'above', 'only', ",", ".", "(", ")", "&", ":"]
 
 #useless_words = [',', '.', "'s"]
+with open('../data/stop_words.json') as f:
+    stop_words = json.load(f)
 
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
@@ -49,7 +51,6 @@ def get_closest(string, indexes, tab):
 
 def replace_number(string):
     string = re.sub(r'(\b)one(\b)', r'\g<1>1\g<2>', string)
-    string = re.sub(r'(\b)is one(\b)', r'\g<1>is 1\g<2>', string)
     string = re.sub(r'(\b)two(\b)', '\g<1>2\g<2>', string)
     string = re.sub(r'(\b)three(\b)', '\g<1>3\g<2>', string)
     string = re.sub(r'(\b)four(\b)', '\g<1>4\g<2>', string)
@@ -257,7 +258,6 @@ else:
                 else:
                     backbone[w].append((-1, -1))
             tabs.append([entry[2].strip()])
-
             for i in range(len(entry[0])):
                 count += 1
                 if name in r1_results:
@@ -279,7 +279,7 @@ else:
 
         return r1_results 
     
-    results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
+    #results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
     results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
     
     with open('../READY/r1_training_cleaned.json') as f:
