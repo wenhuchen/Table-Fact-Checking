@@ -15,26 +15,28 @@ for idx in range(0, 118389):
 	if not os.path.exists('../data/all_programs/nt-{}.json'.format(idx)):
 		print "nt-{}".format(idx)
 """
+#with open('../READY/preprocessed_0.json'):
 
 for prog in os.listdir('../data/all_programs/'):
 	if prog.endswith('.json'):
 		with open(folder + prog, 'r') as f:
 			data = json.load(f) 
 		
-		if len(data[3]) == 0:
+		if len(data[4]) == 0:
 			failed += 1
 		else:
 			success += 1
-
-		if 'third' in data[1]:
-			new_line = []
-			for d in data[3]:
-				new_line.append(d.replace(r'second(', 'third(').lower())
-			data[3] = new_line
 		
-		masked_sent = re.sub(r'#[^#]+#', '<ENTITY>', data[1])
-		data.append(masked_sent)
-		word_counter.update(masked_sent.split(' '))
+		new_programs = []
+		for r in data[4]:
+			if "count{all_rows}" in r:
+				continue
+			r = r.replace('filter_str_eq', 'filter_eq')
+			r = r.replace('filter_str_not_eq', 'filter_not_eq')
+			new_programs.append(r)
+		data[4] = new_programs
+
+		word_counter.update(data[2].split(' '))
 		results.append(data)
 
 vocab = {"<PAD>": 0, "<UNK>": 1, "<SEP>": 2, "<CLS>": 3}
@@ -57,4 +59,4 @@ with open('../READY/all_programs.json', 'w') as f:
 	json.dump(results, f, indent=2)
 
 
-#print "success: {}, failed: {}".format(success, failed)
+print "success: {}, failed: {}".format(success, failed)

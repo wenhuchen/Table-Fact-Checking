@@ -212,12 +212,12 @@ APIs['and'] = {"argument":['bool', 'bool'], 'output': 'bool',
 # With only three argument and the first is row
 APIs["filter_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
                         "function": lambda t, col, value: t[t[col].str.contains(value, regex=False)],
-                        "tostr":lambda t, col, value: "filter_str_eq{{{}; {}; {}}}".format(t, col, value),
+                        "tostr":lambda t, col, value: "filter_eq{{{}; {}; {}}}".format(t, col, value),
                         'append': False}
 
 APIs["filter_str_not_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
                         "function": lambda t, col, value: t[~t[col].str.contains(value, regex=False)],
-                        "tostr":lambda t, col, value: "filter_str_not_eq{{{}; {}; {}}}".format(t, col, value),
+                        "tostr":lambda t, col, value: "filter_not_eq{{{}; {}; {}}}".format(t, col, value),
                         'append': False}
 
 

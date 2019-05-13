@@ -235,7 +235,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
 
                 elif v['argument'] == ['row']:
                     for j, (row_h, row) in enumerate(root.rows):
-                        if len(row) == 1:
+                        if row_h.startswith('filter'):
                             break
                         command = v['tostr'](row_h)
                         if not root.exist(command):
@@ -244,8 +244,6 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             returned = call(command, v['function'], row)
                             if v['output'] == 'num':
                                 tmp.add_memory_num("tmp_none", returned, command)
-                            #elif v['output'] == 'row':
-                            #    tmp.add_rows(command, returned)
                             else:
                                 raise ValueError("error, out of scope")   
                             conditional_add(tmp, hist[step + 1])
