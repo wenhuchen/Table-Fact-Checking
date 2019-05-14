@@ -585,8 +585,8 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 else:
                     raise ValueError(k + ": error")                                                  
 
-        #if len(finished) > 100 or time.time() - start_time > 40:
-        #    break
+        if len(finished) > 100 or time.time() - start_time > 40:
+            break
             #return (name, orig_sent, label, [_[0].cur_str for _ in finished])
 
     #print "used time {} to get {} programs".format(time.time() - start_time, len(hist[-1]))
