@@ -394,14 +394,17 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                     for l in range(0, root.memory_num_len - 1):
                         for m in range(l + 1, root.memory_num_len):
                             if 'tmp_' in root.memory_num[l][0] or 'tmp_' in root.memory_num[m][0]:
-                                pass
+                                if ("tmp_input" == root.memory_num[l][0] and "tmp_" not in root.memory_num[m][0]) or \
+                                    ("tmp_input" == root.memory_num[m][0] and "tmp_" not in root.memory_num[l][0]):
+                                    continue
+                                elif root.memory_num[l][0] == root.memory_num[m][0] == "tmp_input":
+                                    continue
                             else:
                                 continue
+
                             type_l = root.memory_num[l][0].replace('tmp_', '')
                             type_m = root.memory_num[m][0].replace('tmp_', '')
                             if v['output'] == 'num':
-                                if type_l == "input" or type_m == "input":
-                                    continue
                                 if type_l == type_m:
                                     command = v['tostr'](root.trace_num[l], root.trace_num[m])
                                     tmp = root.clone(command, k)
@@ -410,20 +413,14 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     tmp.add_memory_num("tmp_" + root.memory_num[l][0], returned, command)
                                     conditional_add(tmp, hist[step + 1])                       
                             elif v['output'] == 'bool':
-                                if type_l == type_m == "input":
-                                    continue
-                                elif type_l == type_m:
-                                    pass
-                                elif type_l == "input" or type_m == "input":
+                                if type_l == type_m or (type_l == "input" or type_m == "input"):
                                     pass
                                 else:
                                     continue
 
                                 if type_l == "count" and type_m == "input" or type_m == "count" and type_l == "input":
-                                    if max(root.get_memory_num(l), root.get_memory_num(m)) > len(root.rows[0]):
-                                        break
-                                    else:
-                                        pass
+                                    if max(root.get_memory_num(l), root.get_memory_num(m)) > len(root.rows[0][1]):
+                                        continue
 
                                 command = v['tostr'](root.trace_num[l], root.trace_num[m])                                    
                                 tmp = root.clone(command, k)
@@ -588,8 +585,8 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 else:
                     raise ValueError(k + ": error")                                                  
 
-        if len(finished) > 100 or time.time() - start_time > 40:
-            break
+        #if len(finished) > 100 or time.time() - start_time > 40:
+        #    break
             #return (name, orig_sent, label, [_[0].cur_str for _ in finished])
 
     #print "used time {} to get {} programs".format(time.time() - start_time, len(hist[-1]))
