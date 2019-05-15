@@ -236,7 +236,7 @@ else:
 		            json.dump(res, f, indent=2)
 		    except Exception:
 		        print "failed {}, {}".format(table_name, idx)
-
+		        
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
 	pos_tag = [_[2] for _ in data]
@@ -247,24 +247,18 @@ else:
 	head_num = [_[7] for _ in data]
 	idxes = [_[8] for _ in data]
 	labels = [_[9] for _ in data]	
-	start_time = time.time()
-	
 	#with open('../data/unfinished.txt') as f:
 	#	files = [_.strip() for _ in f.readlines()]
-	
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
 			#if arg[8] in files:
 			if arg[8] in ["nt-34"]:
 				func(arg)
 	else:
-		cores = multiprocessing.cpu_count() - 4
+		cores = multiprocessing.cpu_count() - 2
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
-	
 		res = pool.map(func, zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels))
 		
 		pool.close()
 		pool.join()
-	
-	print "used time {}".format(time.time() - start_time)

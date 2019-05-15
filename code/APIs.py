@@ -256,9 +256,20 @@ APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "boo
                         "tostr":lambda t, col, value: "all_eq{{{}; {}; {}}}".format(t, col, value),
                         "append": None}
 
+APIs["all_str_not_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "bool",
+                  "function": lambda t, col, value: 0 == len(t[t[col].str.contains(value, regex=False)]),
+                  "tostr":lambda t, col, value: "all_not_eq{{{}; {}; {}}}".format(t, col, value),
+                  "append": None}
+
+
 APIs["all_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
                   "function": lambda t, col, value: len(t) == len(t[t[col] == value]),
                   "tostr":lambda t, col, value: "all_eq{{{}; {}; {}}}".format(t, col, value),
+                  "append": None}
+
+APIs["all_not_eq"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",
+                  "function": lambda t, col, value: 0 == len(t[t[col] == value]),
+                  "tostr":lambda t, col, value: "all_not_eq{{{}; {}; {}}}".format(t, col, value),
                   "append": None}
 
 APIs["all_less"] = {"argument": ['row', ['header_num', 'num']], "output": "bool",

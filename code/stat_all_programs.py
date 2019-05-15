@@ -27,15 +27,6 @@ for prog in os.listdir('../data/all_programs/'):
 		else:
 			success += 1
 		
-		new_programs = []
-		for r in data[4]:
-			if "count{all_rows}" in r:
-				continue
-			r = r.replace('filter_str_eq', 'filter_eq')
-			r = r.replace('filter_str_not_eq', 'filter_not_eq')
-			new_programs.append(r)
-		data[4] = new_programs
-
 		word_counter.update(data[2].split(' '))
 		results.append(data)
 

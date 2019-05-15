@@ -21,7 +21,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             flag = True
                             break
                     else:
-                        if trigger in sent:
+                        if " " + trigger + " " in " " + sent + " ":
                             flag = True
                             break
                 flags.append(flag)
@@ -35,7 +35,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                         flag = True
                         break
                 else:
-                    if trigger in sent:
+                    if " " + trigger + " " in " " + sent + " ":
                         flag = True
                         break
             if not flag:
