@@ -279,7 +279,7 @@ else:
 
         return r1_results 
     
-    #results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
+    results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
     results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
     
     with open('../READY/r1_training_cleaned.json') as f:

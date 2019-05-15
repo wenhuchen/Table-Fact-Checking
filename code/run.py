@@ -229,14 +229,15 @@ else:
 			for r in res[-1]:
 				print r
 		else:
-			#if not os.path.exists('../data/all_programs/{}.json'.format(idx)):
-		    try:
-		        res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
-		        with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
-		            json.dump(res, f, indent=2)
-		    except Exception:
-		        print "failed {}, {}".format(table_name, idx)
-		        
+			if not os.path.exists('../data/all_programs/'):
+				os.mkdir('../data/all_programs/')
+			try:
+			    res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
+			    with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
+			        json.dump(res, f, indent=2)
+			except Exception:
+			    print "failed {}, {}".format(table_name, idx)
+
 	table_name = [_[0] for _ in data]
 	sent = [_[1] for _ in data]
 	pos_tag = [_[2] for _ in data]
@@ -251,8 +252,7 @@ else:
 	#	files = [_.strip() for _ in f.readlines()]
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			#if arg[8] in files:
-			if arg[8] in ["nt-34"]:
+			if arg[8] in ["nt-65"]:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 2
