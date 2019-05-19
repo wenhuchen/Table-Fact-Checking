@@ -376,18 +376,18 @@ non_triggers["filter_less"] = ['RBR', 'JJR', 'less', 'than', 'below', 'under']
 non_triggers['less'] = ['RBR', 'JJR', 'less', 'than', 'below', 'under']
 non_triggers['greater'] = ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'exceed']
 
-non_triggers['all_eq'] = ['all', 'equal', 'every', 'each']
-non_triggers['all_less'] = [['all', 'equal', 'every', 'each'], ['RBR', 'JJR']]
-non_triggers['all_greater'] = [['all', 'equal', 'every', 'each'], ['RBR', 'JJR']]
-non_triggers['all_str_eq'] = ['all', 'equal', 'every', 'each']
+non_triggers['all_eq'] = ['all', 'every', 'each']
+non_triggers['all_less'] = [['all', 'every', 'each'], ['RBR', 'JJR']]
+non_triggers['all_greater'] = [['all', 'every', 'each'], ['RBR', 'JJR']]
+non_triggers['all_str_eq'] = ['all', 'every', 'each']
 
-non_triggers["all_str_not_eq"] = [['all', 'equal', 'every', 'each'], ['not', 'no', 'never', "didn't", "won't", "wasn't"]]
+non_triggers["all_str_not_eq"] = [['all', 'every', 'each'], ['not', 'no', 'never', "didn't", "won't", "wasn't"]]
 non_triggers["all_not_eq"] = non_triggers["all_str_not_eq"]
 
 non_triggers['filter_less_eq'] = ['at most', 'than']
 non_triggers['filter_greater_eq'] = ['at least', 'than']
 
-non_triggers['all_less_eq'] = [['at least', 'than'], ['all', 'equal', 'while', 'every', 'each']]
+non_triggers['all_less_eq'] = [['at least', 'than'], ['all', 'while', 'every', 'each']]
 non_triggers['all_greater_eq'] = non_triggers['all_less_eq']
 
 non_triggers['inc_num'] = ['and', 'while', 'when', ',', 'both', 'neither', 'none', 'all', 'which', 'who', 'that', 'whose']

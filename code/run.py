@@ -79,6 +79,7 @@ if not args.synthesize:
 			masked_sent = ''
 			position_buf, mention_buf = '', ''
 			mem_num, head_num, mem_str, head_str = [], [], [], []
+			ent_index = 0
 			for n in range(len(sent)):
 				if sent[n] == '#':
 					if position:
@@ -107,7 +108,8 @@ if not args.synthesize:
 									val = (cols[idx], mention_buf)
 									if val not in mem_str:
 										mem_str.append(val)
-						masked_sent += "<ENTITY>"
+						masked_sent += "<ENTITY{}>".format(ent_index)
+						ent_index += 1
 						position_buf = ""
 						mention_buf = ""
 						inside = False
@@ -204,6 +206,9 @@ if not args.synthesize:
 			preprocessed.append((table_name, sent, pos_tag, masked_sent, mem_str, 
 			                     mem_num, head_str, head_num, "nt-{}".format(len(preprocessed)), label))
 			#dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, 2)
+	with open('../READY/full_preprocessed.json', 'w') as f:
+		json.dump(preprocessed, f, indent=2)
+
 	length = len(preprocessed) // args.split
 	for i in range(args.split):
 		with open('../READY/preprocessed_{}.json'.format(i), 'w') as f:
