@@ -166,7 +166,7 @@ class Node(object):
             #        return
             if any([row_h == header for row_h, row in self.rows]):
                 return
-            self.rows.append((header, val))
+            self.rows.append((header, val.reset_index()))
             self.row_counter.append(0)
         else:
             raise ValueError("type error")

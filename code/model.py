@@ -13,30 +13,34 @@ import time
 import torch.nn as nn
 
 def parse_opt():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--do_train', default=False, action="store_true", help="whether to train or test the model")
-    parser.add_argument('--do_val', default=False, action="store_true", help="whether to train or test the model")
-    parser.add_argument('--do_test', default=False, action="store_true", help="whether to train or test the model")
-    parser.add_argument('--emb_dim', type=int, default=128, help="the embedding dimension")
-    parser.add_argument('--dropout', type=float, default=0.2, help="the embedding dimension")
-    parser.add_argument('--resume', action='store_true', default=False, help="whether to resume previous run")
-    parser.add_argument('--batch_size', type=int, default=512, help="the embedding dimension")
-    parser.add_argument('--data_dir', type=str, default='data', help="the embedding dimension")
-    parser.add_argument('--max_seq_length', type=int, default=50, help="the embedding dimension")
-    parser.add_argument('--layer_num', type=int, default=3, help="the embedding dimension")
+	parser = argparse.ArgumentParser()
+	parser.add_argument('--do_train', default=False, action="store_true", help="whether to train or test the model")
+	parser.add_argument('--do_val', default=False, action="store_true", help="whether to train or test the model")
+	parser.add_argument('--do_test', default=False, action="store_true", help="whether to train or test the model")
+	parser.add_argument('--do_simple_test', default=False, action="store_true", help="whether to train or test the model")
+	parser.add_argument('--do_complex_test', default=False, action="store_true", help="whether to train or test the model")
+	parser.add_argument('--do_small_test', default=False, action="store_true", help="whether to train or test the model")
+	parser.add_argument('--emb_dim', type=int, default=128, help="the embedding dimension")
+	parser.add_argument('--dropout', type=float, default=0.2, help="the embedding dimension")
+	parser.add_argument('--resume', action='store_true', default=False, help="whether to resume previous run")
+	parser.add_argument('--batch_size', type=int, default=512, help="the embedding dimension")
+	parser.add_argument('--data_dir', type=str, default='data', help="the embedding dimension")
+	parser.add_argument('--max_seq_length', type=int, default=50, help="the embedding dimension")
+	parser.add_argument('--layer_num', type=int, default=3, help="the embedding dimension")
+	parser.add_argument('--voting', default=False, action="store_true", help="the embedding dimension")
 	#parser.add_argument('--num_epoch', type=int, default=10, help="the number of epochs for training")
-    parser.add_argument('--threshold', type=float, default=0.5, help="the threshold for the prediction")
-    parser.add_argument("--output_dir", default="checkpoints/", type=str, \
-                        help="The output directory where the model predictions and checkpoints will be written.")
-    parser.add_argument("--learning_rate", default=1e-3, type=float, help="The initial learning rate for Adam.")
-    args = parser.parse_args()
-    return args
+	parser.add_argument('--threshold', type=float, default=0.5, help="the threshold for the prediction")
+	parser.add_argument("--output_dir", default="checkpoints/", type=str, \
+		                    help="The output directory where the model predictions and checkpoints will be written.")
+	parser.add_argument("--learning_rate", default=1e-3, type=float, help="The initial learning rate for Adam.")
+	args = parser.parse_args()
+	return args
 
 args = parse_opt()
 device = torch.device('cuda')
 
 with open('../data/vocab.json') as f:
-    vocab = json.load(f)
+	vocab = json.load(f)
 
 ivocab = {w:k for k,w in vocab.iteritems()}
 start_time = time.time()
@@ -54,6 +58,24 @@ if args.do_val:
 
 if args.do_test:
 	val_examples = get_batch(option='test', data_dir='.', vocab=vocab,  max_seq_length=args.max_seq_length)
+	val_data = TensorDataset(*val_examples)
+	val_sampler = SequentialSampler(val_data)
+	val_dataloader = DataLoader(val_data, sampler=val_sampler, batch_size=args.batch_size) 
+
+if args.do_simple_test:
+	val_examples = get_batch(option='simple_test', data_dir='.', vocab=vocab,  max_seq_length=args.max_seq_length)
+	val_data = TensorDataset(*val_examples)
+	val_sampler = SequentialSampler(val_data)
+	val_dataloader = DataLoader(val_data, sampler=val_sampler, batch_size=args.batch_size) 
+
+if args.do_complex_test:
+	val_examples = get_batch(option='complex_test', data_dir='.', vocab=vocab,  max_seq_length=args.max_seq_length)
+	val_data = TensorDataset(*val_examples)
+	val_sampler = SequentialSampler(val_data)
+	val_dataloader = DataLoader(val_data, sampler=val_sampler, batch_size=args.batch_size) 
+
+if args.do_small_test:
+	val_examples = get_batch(option='small_test', data_dir='.', vocab=vocab,  max_seq_length=args.max_seq_length)
 	val_data = TensorDataset(*val_examples)
 	val_sampler = SequentialSampler(val_data)
 	val_dataloader = DataLoader(val_data, sampler=val_sampler, batch_size=args.batch_size) 
@@ -121,7 +143,7 @@ def evaluate(val_dataloader, encoder_stat, encoder_prog, classifier):
 						else:
 							mapping[i][0] += 1
 		"""
-		if False:
+		if not args.voting:
 			for i, s, p, t in zip(index, similarity, pred_lab, true_lab):
 				if i not in mapping:
 					mapping[i] = [p, s, t]
@@ -172,7 +194,7 @@ def evaluate(val_dataloader, encoder_stat, encoder_prog, classifier):
 			if success / (success + fail + 0.001) > accuracy:
 				accuracy = success / (success + fail + 0.001)	
 	"""
-	if False:
+	if not args.voting:
 		success, fail = 0, 0
 		for i, ent in mapping.iteritems():
 			if ent[0] == ent[2]:
@@ -260,7 +282,7 @@ if args.do_train:
 				encoder_prog.train()
 				classifier.train()
 
-if args.do_val or args.do_test:
+if args.do_val or args.do_test or args.do_simple_test or args.do_complex_test or args.do_small_test:
 	encoder_stat.eval()
 	encoder_prog.eval()
 	classifier.eval()

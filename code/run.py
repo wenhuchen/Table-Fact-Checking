@@ -257,7 +257,7 @@ else:
 	#	files = [_.strip() for _ in f.readlines()]
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			if arg[8] in ["nt-65"]:
+			if arg[8] in ["nt-23703"]:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 2
