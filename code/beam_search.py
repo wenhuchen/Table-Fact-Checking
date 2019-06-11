@@ -41,8 +41,6 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
             if not flag:
                 must_not_have.append(k)
 
-    if not any([_[0] == "tmp_input" for _ in mem_num]):
-        must_not_have.append("count")
     #back_tracking = {}
     #for m in mem_str + mem_num:
     #    back_tracking[m] = m[1]
