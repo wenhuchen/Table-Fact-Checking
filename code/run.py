@@ -18,6 +18,7 @@ parser.add_argument("--sequential", default=False, action="store_true", help="Wh
 parser.add_argument("--debug", default=False, action="store_true", help="Whether to use debugging mode")
 parser.add_argument("--part", type=int, default=0, help="choose a part")
 parser.add_argument("--split", type=int, default=1, help="how many splits")
+parser.add_argument("--output", type=str, default="../data/all_programs", help="which folder to store the results")
 args = parser.parse_args()
 
 with open('../READY/full_cleaned.json') as f:
@@ -221,6 +222,9 @@ else:
 	with open('../READY/preprocessed_{}.json'.format(args.part), 'r') as f:
 		data = json.load(f)
 
+	with open('../data/complex_ids.json') as f:
+		complex_ids = json.load(f)
+
 	def func(inputs):
 		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx, labels = inputs
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#", encoding = 'utf-8')
@@ -234,12 +238,13 @@ else:
 			for r in res[-1]:
 				print r
 		else:
-			if not os.path.exists('../data/all_programs/'):
-				os.mkdir('../data/all_programs/')
+			if not os.path.exists(args.output):
+				os.mkdir(args.output)
 			try:
-			    res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
-			    with open('../data/all_programs/{}.json'.format(idx), 'w') as f:
-			        json.dump(res, f, indent=2)
+				if table_name in complex_ids:
+				    res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
+				    with open('{}/{}.json'.format(args.output, idx), 'w') as f:
+				        json.dump(res, f, indent=2)
 			except Exception:
 			    print "failed {}, {}".format(table_name, idx)
 
@@ -257,7 +262,7 @@ else:
 	#	files = [_.strip() for _ in f.readlines()]
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			if arg[8] in ["nt-23703"]:
+			if arg[8] in ["nt-17455"]:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 2

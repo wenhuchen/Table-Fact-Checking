@@ -12,22 +12,22 @@ APIs['inc_num'] = {"argument":['num'], 'output': 'num',
               "function": lambda t : t,
               "tostr": lambda t : "modify{{{}}}".format(t),
               'append': False}
-
+"""
 APIs['dec_num'] = {"argument":['num'], 'output': 'none',
               "function": lambda t : None,
               "tostr": lambda t : "modify{{{}}}".format(t),
               'append': False}
-
+"""
 APIs['inc_str'] = {"argument":['str'], 'output': 'str',
               "function": lambda t : t,
               "tostr": lambda t : "modify{{{}}}".format(t),
               'append': False}
-
+"""
 APIs['dec_str'] = {"argument":['str'], 'output': 'none',
               "function": lambda t : None,
               "tostr": lambda t : "modify{{{}}}".format(t),
               'append': False}
-
+"""
 APIs['within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
                 "function": lambda t, col, value: len(t[t[col].str.contains(value, regex=False)]) > 0,
                 "tostr": lambda t, col, value : "within{{{}; {}; {}}}".format(t, col, value),
@@ -53,6 +53,11 @@ APIs['none'] = {"argument":['str'], 'output': 'bool',
                 "tostr": lambda t : "none{{{}}}".format(t),
                 'append': None}
 
+APIs['zero'] = {"argument":['num'], 'output': 'bool',
+                "function": lambda t: t == 0,
+                "tostr": lambda t : "zero{{{}}}".format(t),
+                'append': None}
+
 APIs['after'] = {"argument":['row', 'row', 'row'], 'output': 'bool',
                 "function": lambda t, t1, t2 : inner(t, t1) > inner(t, t2),
                 "tostr": lambda t1, t2 : "after{{{}; {}}}".format(t1, t2),
@@ -68,6 +73,16 @@ APIs['idx'] = {"argument":['row', 'row'], 'output': 'num',
                 "tostr": lambda t : "idx({}}}".format(t),
                 'append': True}
 """
+APIs['top'] = {"argument":['row'], 'output': 'row',
+                  'function': lambda t: t.head(1),
+                  'tostr': lambda t : "top{{{}}}".format(t),
+                  'append': None}
+
+APIs['bottom'] = {"argument":['row'], 'output': 'row',
+                  'function': lambda t: t.tail(1),
+                  'tostr': lambda t : "bottom{{{}}}".format(t),
+                  'append': None}
+
 APIs['first'] = {"argument":['row', 'row'], 'output': 'bool',
                   'function': lambda t, t1 : n_th(t, t1, 0),
                   'tostr': lambda t, t1 : "first{{{}; {}}}".format(t, t1),
@@ -128,17 +143,7 @@ APIs['argmin'] = {"argument":['row', 'header_num'], 'output': 'row',
                   'function': lambda t, col :  t[t[col].values == t[col].values.min()],
                   'tostr': lambda t, col : "argmin{{{}; {}}}".format(t, col),
                   'append': False}
-"""
-APIs['last'] = {"argument":['row'], 'output': 'row',
-                  'function': lambda t :  t.tail(1),
-                  'tostr': lambda t : "last({}}}".format(t),
-                  'append': False}
 
-APIs['first'] = {"argument":['row'], 'output': 'row',
-                  'function': lambda t :  t.head(1),
-                  'tostr': lambda t : "first({}}}".format(t),
-                  'append': False}
-"""
 APIs['str_hop'] = {"argument":['row', 'header_str'], 'output': 'str', 
                'function': lambda t, col :  t[col].values[0],
                'tostr': lambda t, col : "hop{{{}; {}}}".format(t, col),
@@ -366,9 +371,17 @@ non_triggers['not_within_s_s'] = non_triggers['not_eq']
 non_triggers['not_within_n_n'] = non_triggers['not_eq']
 non_triggers['filter_str_not_eq'] = non_triggers['not_eq']
 non_triggers['filter_not_eq'] = non_triggers['not_eq']
-non_triggers['none'] = ['not', 'no', 'none']
+non_triggers['none'] = ['not', 'no', 'none', 'neither']
+non_triggers['zero'] = ['zero', 'any', 'none', 'no', 'not', 'neither']
+
+non_triggers['top'] = ['first', 'top', 'latest']
+non_triggers['bottom'] = ['last', 'bottom', 'latest']
 
 non_triggers['first'] = ['first', 'top', 'latest', 'most']
+non_triggers['second'] = ['second', '2nd']
+non_triggers['third'] = ['third', '3rd']
+non_triggers['fourth'] = ['fourth', '4th']
+non_triggers['fifth'] = ['fifth', '5th']
 non_triggers['last'] = ['last', 'bottom', 'latest', 'most']
 
 non_triggers["filter_greater"] = ['RBR', 'JJR', 'more', 'than', 'above', 'after']
