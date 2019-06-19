@@ -61,6 +61,9 @@ def list2tuple(inputs):
 		mem.append(tuple(s))
 	return mem
 
+def column(string):
+	return string.split(',')[1]
+
 if not args.synthesize:
 	count = 0
 	preprocessed = []
@@ -85,7 +88,7 @@ if not args.synthesize:
 				if sent[n] == '#':
 					if position:
 						if position_buf.startswith('h'):
-							idx = int(position_buf[1:])
+							idx = int(column(position_buf[1:]))
 							if mapping[idx] == 'num':
 								if cols[idx] not in head_num:
 									head_num.append(cols[idx])
@@ -93,7 +96,7 @@ if not args.synthesize:
 								if cols[idx] not in head_str:
 									head_str.append(cols[idx])
 						if position_buf.startswith('c'):
-							idx = int(position_buf[1:])
+							idx = int(column(position_buf[1:]))
 							if idx == -1:
 								pass
 							else:
@@ -101,7 +104,11 @@ if not args.synthesize:
 									if mention_buf.isdigit():
 										mention_buf = int(mention_buf)
 									else:
-										mention_buf = float(mention_buf)
+										try:
+											mention_buf = float(mention_buf)
+										except Exception:
+											import pdb
+											pdb.set_trace()
 									val = (cols[idx], mention_buf)
 									if val not in mem_num:
 										mem_num.append(val)
@@ -258,11 +265,10 @@ else:
 	head_num = [_[7] for _ in data]
 	idxes = [_[8] for _ in data]
 	labels = [_[9] for _ in data]	
-	#with open('../data/unfinished.txt') as f:
-	#	files = [_.strip() for _ in f.readlines()]
+
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			if arg[8] in ["nt-17455"]:
+			if arg[8] in ["nt-5781"]:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count() - 2

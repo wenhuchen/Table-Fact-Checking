@@ -8,6 +8,8 @@ import json
 import re
 import string
 from unidecode import unidecode
+from multiprocessing import Pool
+import multiprocessing
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -17,6 +19,8 @@ sys.setdefaultencoding('utf8')
 #             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
 #             'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
 #            'both', 'above', 'only', ",", ".", "(", ")", "&", ":"]
+with open('../data/vocab.json') as f:
+    vocab = json.load(f)
 
 #useless_words = [',', '.', "'s"]
 with open('../data/stop_words.json') as f:
@@ -28,13 +32,13 @@ def is_ascii(s):
 def replace_useless(s):
     s = s.replace(',', '')
     s = s.replace('.', '')
-    s = s.replace('/', '')
-    s = s.replace('-', '')
+    #s = s.replace('/', '')
     return s
 
-def get_closest(string, indexes, tab):
+def get_closest(inp, string, indexes, tab):
     dist = 10000
     len_string = len(string.split())
+
     for index in indexes:
         entity = replace_useless(tab[index[0]][index[1]])
         len_tab = len(entity.split())
@@ -44,10 +48,77 @@ def get_closest(string, indexes, tab):
             minimum = index
             dist = abs(len_tab - len_string)
 
-    if dist > len_string * 3:
+    vocabs = []
+    for s in string.split(' '):
+        vocabs.append(vocab.get(s, 2000))
+
+    # String Length
+    feature = [len_string]
+    # Proportion
+    feature.append(-dist / (len_string + dist + 0.) * 3)
+    # Whether contain rare words
+    if max(vocabs) > 1000:
+        feature.append(2)
+    else:
+        feature.append(-2)
+    # Whether it is only a word
+    if len_string > 1:
+        feature.append(1)
+    else:
+        feature.append(0)
+    # Whether candidate has only one
+    if len(indexes) == 1:
+        feature.append(1)
+    else:
+        feature.append(0)
+    # Whether cover over half of it
+    if len_string > dist:
+        feature.append(1)
+    else:
+        feature.append(0)
+    # Whether contains alternative
+    cand = tab[minimum[0]][minimum[1]]
+    if '(' in cand and ')' in cand:
+        feature.append(2)
+    else:
+        feature.append(0)
+    # Whether it is in order
+    if string not in cand:
+        feature.append(-2)
+    else:
+        feature.append(0)
+
+    # Whether it is a header
+    if minimum[0] == 0:
+        feature.append(-1)
+    else:
+        feature.append(0)
+
+    #print string, "@", cand, "@", feature, "@", sum(feature) > 1.0, "@", " ".join(inp)
+    if sum(feature) > 1.0:
+        return minimum
+    else:
         return None
-    
-    return minimum
+    """
+    if dist < len_string:
+        return minimum
+    else:
+        if dist > len_string * 2 or len(indexes) >= 3:
+            return None
+        else:
+            use_minimum = False
+            for s in string.split(' '):
+                if vocab.get(s, 2000) >= 2000:
+                    use_minimum = True
+                    break
+                else:
+                    use_minimum = False
+
+            if use_minimum:
+                return minimum
+            else:
+                return None
+    """
 
 def replace_number(string):
     string = re.sub(r'(\b)one(\b)', r'\g<1>1\g<2>', string)
@@ -82,62 +153,84 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
     new_str = []
     new_tags = []
     buf = ""
+    pos_buf = []
     last = set()
+    prev_closest = []
     inp, pos_tags = get_lemmatize(inp, True)
     for w, p in zip(inp, pos_tags):
         if w in backbone:
             if buf == "":
                 last = set(backbone[w])
                 buf = recover_dict.get(w, w)
+                pos_buf.append(p)
             else:
                 proposed = set(backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
-                        closest = get_closest(buf, last, tabs)
-                        if closest is not None:
+                        closest = get_closest(inp, buf, last, tabs)
+                        if closest:
                             if closest[0] == 0:
-                                buf = '#{};h{}#'.format(buf, closest[1])
+                                buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
                             else:
-                                buf = '#{};c{}#'.format(buf, closest[1])
+                                buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
                     new_str.append(buf)
-                    new_tags.append('ENT')
+                    if buf.startswith("#"):
+                        new_tags.append('ENT')
+                    else:
+                        new_tags.extend(pos_buf)
+                    pos_buf = []
                     buf = recover_dict.get(w, w)
                     last = set(backbone[w])
+                    pos_buf.append(p)
                 else:
-                    buf += " " + recover_dict.get(w, w)
                     last = proposed
-        elif w in trans_backbone and w not in stop_words:
+                    buf += " " + recover_dict.get(w, w)
+                    pos_buf.append(p)
+
+        elif w in trans_backbone:
             if buf == "":
                 last = set(trans_backbone[w])
                 buf = transliterate[w]
+                pos_buf.append(p)
             else:
                 proposed = set(trans_backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
-                        closest = get_closest(buf, last, tabs)
-                        if closest is not None:
+                        closest = get_closest(inp, buf, last, tabs)
+                        if closest:
                             if closest[0] == 0:
-                                buf = '#{};h{}#'.format(buf, closest[1])
+                                buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
                             else:
-                                buf = '#{};c{}#'.format(buf, closest[1])
+                                buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
                     new_str.append(buf)
-                    new_tags.append('ENT')
+                    if buf.startswith("#"):
+                        new_tags.append('ENT')
+                    else:
+                        new_tags.extend(pos_buf)
+                    pos_buf = []
                     buf = transliterate[w]
                     last = set(trans_backbone[w])
+                    pos_buf.append(p)
                 else:
                     buf += " " + transliterate[w]
                     last = proposed
+                    pos_buf.append(p)
+        
         else:
             if buf != "":
                 if buf not in stop_words:
-                    closest = get_closest(buf, last, tabs)
-                    if closest is not None:
+                    closest = get_closest(inp, buf, last, tabs)
+                    if closest:
                         if closest[0] == 0:
-                            buf = '#{};h{}#'.format(buf, closest[1])
+                            buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
                         else:
-                            buf = '#{};c{}#'.format(buf, closest[1])
+                            buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
                 new_str.append(buf)
-                new_tags.append('ENT')
+                if buf.startswith("#"):
+                    new_tags.append('ENT')
+                else:
+                    new_tags.extend(pos_buf)
+                pos_buf = []
             buf = ""
             last = set()
             new_str.append(replace_number(w))
@@ -145,14 +238,19 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
     
     if buf != "":
         if buf not in stop_words:
-            closest = get_closest(buf, last, tabs)
-            if closest is not None:
+            closest = get_closest(inp, buf, last, tabs)
+            if closest:
                 if closest[0] == 0:
-                    buf = '#{};h{}#'.format(buf, closest[1])
+                    buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
                 else:
-                    buf = '#{};c{}#'.format(buf, closest[1])
+                    buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
         new_str.append(buf)
-        new_tags.append("ENT")
+        if buf.startswith("#"):
+            new_tags.append('ENT')
+        else:
+            new_tags.extend(pos_buf)
+        pos_buf = []
+    
     return " ".join(new_str), " ".join(new_tags)
 
 def get_lemmatize(words, return_pos, recover_dict=None):
@@ -195,6 +293,58 @@ with open('../data/short_subset.txt') as f:
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
+def merge_strings(string, tags=None):
+    buff = ""
+    inside = False
+    words = []
+
+    for c in string:
+        if c == "#" and not inside:
+            inside = True
+            buff += c
+        elif c == "#" and inside:
+            inside = False
+            buff += c
+            words.append(buff)
+            buff = ""
+        elif c == " " and not inside:
+            if buff:
+                words.append(buff)
+            buff = ""
+        elif c == " " and inside:
+            buff += c
+        else:
+            buff += c
+
+    if buff:
+        words.append(buff)
+
+    tags = tags.split(' ')
+    assert len(words) == len(tags), "{} and {}".format(words, tags)
+    i = 0
+    while i < len(words):
+        if i < 2:
+            i += 1
+        elif words[i].startswith('#') and (not words[i-1].startswith('#')) and words[i-2].startswith('#'):
+            if words[i].split(';')[0][1:].isdigit() and words[i-2].split(';')[0][1:].isdigit():
+                i += 1
+            elif words[i].split(';')[1][:-1] == words[i-2].split(';')[1][:-1]:
+                position = words[i].split(';')[1][:-1]
+                candidate = words[i - 2].split(';')[0] + " " + words[i-1] + " " + words[i].split(';')[0][1:] + ";" + position + "#"
+                words[i] = candidate
+                del words[i-1]
+                del tags[i-1]
+                i -= 1
+                del words[i-1]
+                del tags[i-1]
+                i -= 1
+            else:
+                i += 1
+        else:
+            i += 1
+    
+    return " ".join(words), " ".join(tags)
+
 debug = False
 if debug:
     with open('../READY/r1_training_all.json') as f:
@@ -202,7 +352,8 @@ if debug:
     backbone = {}
     tabs = []
     count = 0
-    table = 'data/all_csv/2-1859269-1.html.csv'
+    table_name = '2-18540104-2.html.csv'
+    table = '../data/all_csv/{}'.format(table_name)
     with open(table) as f:
         for k, _ in enumerate(f.readlines()):
             _ = _.decode('utf8')
@@ -216,76 +367,93 @@ if debug:
                             backbone[sub] = [(k, l)]
                         else:
                             backbone[sub].append((k, l))
-    for d1, d2 in zip(*data['2-18540104-2.html.csv']):
+    for d1, _ in zip(*data[table_name]):
         sent, tag = postprocess(d1, backbone, tabs)
         print sent
 else:
-    def get_func(filename, output):
-        with open(filename) as f:
-            data = json.load(f)
-        r1_results = {}
-        count = 0
-        for name in data:
-            entry = data[name]
-            backbone = {}
-            trans_backbone = {}
-            transliterate = {}
-            tabs = []
-            recover_dict = {}
-            with open('../data/all_csv/' + name, 'r') as f:
-                for k, _ in enumerate(f.readlines()):
-                    _ = _.decode('utf8')
-                    tabs.append([])
-                    for l, w in enumerate(_.strip().split('#')):
-                        tabs[-1].append(w)
-                        if len(w) > 0:
-                            w = get_lemmatize(w, False, recover_dict)
-                            for sub in w:
-                                if sub not in backbone:
-                                    backbone[sub] = [(k, l)]
-                                    if not is_ascii(sub):
-                                        trans_backbone[unidecode(sub)] = [(k, l)]
-                                        transliterate[unidecode(sub)] = sub
-                                else:
+    def sub_func(inputs):
+        name, entry = inputs
+        backbone = {}
+        trans_backbone = {}
+        transliterate = {}
+        tabs = []
+        recover_dict = {}
+        with open('../data/all_csv/' + name, 'r') as f:
+            for k, _ in enumerate(f.readlines()):
+                _ = _.decode('utf8')
+                tabs.append([])
+                for l, w in enumerate(_.strip().split('#')):
+                    #w = w.replace(',', '').replace('  ', ' ')
+                    tabs[-1].append(w)
+                    if len(w) > 0:
+                        lemmatized_w = get_lemmatize(w, False, recover_dict)
+                        for sub in lemmatized_w:
+                            if sub not in backbone:
+                                backbone[sub] = [(k, l)]
+                                if not is_ascii(sub):
+                                    trans_backbone[unidecode(sub)] = [(k, l)]
+                                    transliterate[unidecode(sub)] = sub
+                            else:
+                                backbone[sub].append((k, l))
+                                if not is_ascii(sub):
+                                    trans_backbone[unidecode(sub)].append((k, l))
+                                    transliterate[unidecode(sub)] = sub
+                        for sub in w.split(' '):
+                            if sub not in backbone:
+                                backbone[sub] = [(k, l)]
+                                if not is_ascii(sub):
+                                    trans_backbone[unidecode(sub)] = [(k, l)]
+                                    transliterate[unidecode(sub)] = sub
+                            else:
+                                if (k, l) not in backbone[sub]:
                                     backbone[sub].append((k, l))
                                     if not is_ascii(sub):
                                         trans_backbone[unidecode(sub)].append((k, l))
                                         transliterate[unidecode(sub)] = sub
+        
+        for w in entry[2].strip().split(' '):
+            if w not in backbone:
+                backbone[w] = [(-1, -1)]
+            else:
+                backbone[w].append((-1, -1))
 
-            for w in entry[2].strip().split(' '):
-                if w not in backbone:
-                    backbone[w] = [(-1, -1)]
-                else:
-                    backbone[w].append((-1, -1))
-            tabs.append([entry[2].strip()])
-            for i in range(len(entry[0])):
-                count += 1
-                if name in r1_results:
-                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict)
-                    r1_results[name][0].append(sent)
-                    r1_results[name][1].append(entry[1][i])
-                    r1_results[name][2].append(tag)
-                    #r1_results[name][3].append(entry[2])
-                else:
-                    sent, tag = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict)
-                    r1_results[name] = [[sent], [entry[1][i]], [tag], entry[2]]
+        tabs.append([entry[2].strip()])
+        for i in range(len(entry[0])):
+            sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict)
+            sent, tags = merge_strings(sent, tags)
+            if i > 0:
+                results[0].append(sent)
+                results[1].append(entry[1][i])
+                results[2].append(tags)
+            else:
+                results = [[sent], [entry[1][i]], [tags], entry[2]]
 
-                if len(r1_results) % 1000 == 0:
-                    print "finished {}".format(len(r1_results))
+        return name, results
 
-        print "Easy Set: ", count
-        with open(output, 'w') as f:
-            json.dump(r1_results, f, indent=2)  
+    def get_func(filename, output):
+        with open(filename) as f:
+            data = json.load(f)
+        r1_results = {}
+        names = []
+        entries = []
+        for name in data:
+            names.append(name)
+            entries.append(data[name])
+        
+        cores = multiprocessing.cpu_count() - 2
+        pool = Pool(cores)
 
-        return r1_results 
+        r = pool.map(sub_func, zip(names, entries))
+        #for i in range(10):
+        #    r = [sub_func((names[i], entries[i]))]
+
+        pool.close()
+        pool.join()
+        
+        return dict(r) 
     
     results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
     results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
-    
-    with open('../READY/r1_training_cleaned.json') as f:
-        results1 = json.load(f)
-    with open('../READY/r2_training_cleaned.json') as f:
-        results2 = json.load(f)
     
     results2.update(results1)
     with open('../READY/full_cleaned.json', 'w') as f:

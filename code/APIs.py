@@ -159,6 +159,15 @@ APIs['num_hop'] = {"argument":['row', 'header_num'], 'output': 'num',
                'tostr': lambda t, col : "hop{{{}; {}}}".format(t, col),
                'append': True}
 
+APIs['half'] = {"argument":['row'], 'output': 'num', 
+               'function': lambda t :  int(len(t) // 2),
+               'tostr': lambda t : "half{{{}}}".format(t),
+               'append': True}
+
+APIs['one_third'] = {"argument":['row'], 'output': 'num', 
+               'function': lambda t :  int(len(t) // 3),
+               'tostr': lambda t : "one_third{{{}}}".format(t),
+               'append': True}
 
 # With only two argument and the first is not row
 APIs['diff'] = {"argument":['num', 'num'], 'output': 'num', 
@@ -360,6 +369,9 @@ non_triggers['diff'] = ['difference', 'gap', 'than', 'separate']
 non_triggers['add'] = ['sum', 'summation', 'combine', 'combined', 'total', 'add', 'all', 'there are']
 non_triggers['sum'] = non_triggers['add']
 
+non_triggers['half'] = ['half']
+non_triggers['one_third'] = ['one third']
+
 #non_triggers['str_not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none']
 #non_triggers['not_eq'] = ['not', 'no', 'never', "'nt", 'neither', 'none']
 non_triggers['not_eq'] = ['not', 'no', 'never', "didn't", "won't", "wasn't", "isn't", 
@@ -387,7 +399,7 @@ non_triggers['last'] = ['last', 'bottom', 'latest', 'most']
 non_triggers["filter_greater"] = ['RBR', 'JJR', 'more', 'than', 'above', 'after']
 non_triggers["filter_less"] = ['RBR', 'JJR', 'less', 'than', 'below', 'under']
 non_triggers['less'] = ['RBR', 'JJR', 'less', 'than', 'below', 'under']
-non_triggers['greater'] = ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'exceed']
+non_triggers['greater'] = ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'exceed', 'over']
 
 non_triggers['all_eq'] = ['all', 'every', 'each']
 non_triggers['all_less'] = [['all', 'every', 'each'], ['RBR', 'JJR']]
