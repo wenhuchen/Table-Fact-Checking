@@ -29,6 +29,35 @@ with open('../data/stop_words.json') as f:
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
+def augment(s):
+    if 'first' in s:
+        s.append("1st")
+    elif 'second' in s:
+        s.append("2nd")
+    elif 'third' in s:
+        s.append("3rd")
+    elif 'fourth' in s:
+        s.append("4th")
+    elif 'fifth' in s:
+        s.append("5th")
+    elif 'sixth' in s:
+        s.append("6th")
+    elif '01' in s:
+        s.append("1")
+    elif '02' in s:
+        s.append("2")
+    elif '03' in s:
+        s.append("3")
+    elif '04' in s:
+        s.append("4")
+    elif '05' in s:
+        s.append("5")
+    elif '06' in s:
+        s.append("6")
+    elif 'crowd' in s:
+        s.append("people")
+    return s
+
 def replace_useless(s):
     s = s.replace(',', '')
     s = s.replace('.', '')
@@ -61,6 +90,10 @@ def get_closest(inp, string, indexes, tab, threshold):
         feature.append(2)
     else:
         feature.append(-2)
+    if max(vocabs) > 10000:
+        feature.append(1000)
+    else:
+        feature.append(0)
     # Whether it is only a word
     if len_string > 1:
         feature.append(1)
@@ -359,119 +392,94 @@ def merge_strings(string, tags=None):
     
     return " ".join(words), " ".join(tags)
 
-debug = False
-if debug:
-    with open('../READY/r1_training_all.json') as f:
-        data = json.load(f)
+def sub_func(inputs):
+    name, entry = inputs
     backbone = {}
+    trans_backbone = {}
+    transliterate = {}
     tabs = []
-    count = 0
-    table_name = '2-18540104-2.html.csv'
-    table = '../data/all_csv/{}'.format(table_name)
-    with open(table) as f:
+    recover_dict = {}
+    with open('../data/all_csv/' + name, 'r') as f:
         for k, _ in enumerate(f.readlines()):
             _ = _.decode('utf8')
             tabs.append([])
             for l, w in enumerate(_.strip().split('#')):
+                #w = w.replace(',', '').replace('  ', ' ')
                 tabs[-1].append(w)
                 if len(w) > 0:
-                    w = get_lemmatize(w, False)
-                    for sub in w:
+                    lemmatized_w = get_lemmatize(w, False, recover_dict)
+                    lemmatized_w = augment(lemmatized_w)
+                    for sub in lemmatized_w:
                         if sub not in backbone:
                             backbone[sub] = [(k, l)]
+                            if not is_ascii(sub):
+                                trans_backbone[unidecode(sub)] = [(k, l)]
+                                transliterate[unidecode(sub)] = sub
                         else:
                             backbone[sub].append((k, l))
-    for d1, _ in zip(*data[table_name]):
-        sent, tag = postprocess(d1, backbone, tabs)
-        print sent
-else:
-    def sub_func(inputs):
-        name, entry = inputs
-        backbone = {}
-        trans_backbone = {}
-        transliterate = {}
-        tabs = []
-        recover_dict = {}
-        with open('../data/all_csv/' + name, 'r') as f:
-            for k, _ in enumerate(f.readlines()):
-                _ = _.decode('utf8')
-                tabs.append([])
-                for l, w in enumerate(_.strip().split('#')):
-                    #w = w.replace(',', '').replace('  ', ' ')
-                    tabs[-1].append(w)
-                    if len(w) > 0:
-                        lemmatized_w = get_lemmatize(w, False, recover_dict)
-                        for sub in lemmatized_w:
-                            if sub not in backbone:
-                                backbone[sub] = [(k, l)]
-                                if not is_ascii(sub):
-                                    trans_backbone[unidecode(sub)] = [(k, l)]
-                                    transliterate[unidecode(sub)] = sub
-                            else:
+                            if not is_ascii(sub):
+                                trans_backbone[unidecode(sub)].append((k, l))
+                                transliterate[unidecode(sub)] = sub
+                    for sub in w.split(' '):
+                        if sub not in backbone:
+                            backbone[sub] = [(k, l)]
+                            if not is_ascii(sub):
+                                trans_backbone[unidecode(sub)] = [(k, l)]
+                                transliterate[unidecode(sub)] = sub
+                        else:
+                            if (k, l) not in backbone[sub]:
                                 backbone[sub].append((k, l))
                                 if not is_ascii(sub):
                                     trans_backbone[unidecode(sub)].append((k, l))
                                     transliterate[unidecode(sub)] = sub
-                        for sub in w.split(' '):
-                            if sub not in backbone:
-                                backbone[sub] = [(k, l)]
-                                if not is_ascii(sub):
-                                    trans_backbone[unidecode(sub)] = [(k, l)]
-                                    transliterate[unidecode(sub)] = sub
-                            else:
-                                if (k, l) not in backbone[sub]:
-                                    backbone[sub].append((k, l))
-                                    if not is_ascii(sub):
-                                        trans_backbone[unidecode(sub)].append((k, l))
-                                        transliterate[unidecode(sub)] = sub
-        
-        for w in entry[2].strip().split(' '):
-            if w not in backbone:
-                backbone[w] = [(-1, -1)]
-            else:
-                backbone[w].append((-1, -1))
-
-        tabs.append([entry[2].strip()])
-        for i in range(len(entry[0])):
-            sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=1.0)
-            if "#" not in sent:
-                sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=0.0)
-
-            sent, tags = merge_strings(sent, tags)
-            if i > 0:
-                results[0].append(sent)
-                results[1].append(entry[1][i])
-                results[2].append(tags)
-            else:
-                results = [[sent], [entry[1][i]], [tags], entry[2]]
-
-        return name, results
-
-    def get_func(filename, output):
-        with open(filename) as f:
-            data = json.load(f)
-        r1_results = {}
-        names = []
-        entries = []
-        for name in data:
-            names.append(name)
-            entries.append(data[name])
-        
-        cores = multiprocessing.cpu_count() - 2
-        pool = Pool(cores)
-
-        r = pool.map(sub_func, zip(names, entries))
-        #for i in range(100):
-        #    r = [sub_func((names[i], entries[i]))]
-
-        pool.close()
-        pool.join()
-        
-        return dict(r) 
     
-    results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
-    results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
+    for w in entry[2].strip().split(' '):
+        if w not in backbone:
+            backbone[w] = [(-1, -1)]
+        else:
+            backbone[w].append((-1, -1))
+
+    tabs.append([entry[2].strip()])
+    for i in range(len(entry[0])):
+        sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=1.0)
+        if "#" not in sent:
+            sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=0.0)
+
+        sent, tags = merge_strings(sent, tags)
+        if i > 0:
+            results[0].append(sent)
+            results[1].append(entry[1][i])
+            results[2].append(tags)
+        else:
+            results = [[sent], [entry[1][i]], [tags], entry[2]]
+
+    return name, results
+
+def get_func(filename, output):
+    with open(filename) as f:
+        data = json.load(f)
+    r1_results = {}
+    names = []
+    entries = []
+    for name in data:
+        names.append(name)
+        entries.append(data[name])
     
-    results2.update(results1)
-    with open('../READY/full_cleaned.json', 'w') as f:
-        json.dump(results2, f, indent=2)
+    cores = multiprocessing.cpu_count() - 2
+    pool = Pool(cores)
+
+    r = pool.map(sub_func, zip(names, entries))
+    #for i in range(100):
+    #    r = [sub_func((names[i], entries[i]))]
+
+    pool.close()
+    pool.join()
+    
+    return dict(r) 
+
+results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
+results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
+
+results2.update(results1)
+with open('../READY/full_cleaned.json', 'w') as f:
+    json.dump(results2, f, indent=2)
