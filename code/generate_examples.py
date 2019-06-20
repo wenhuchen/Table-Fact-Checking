@@ -54,6 +54,12 @@ def augment(s):
         s.append("5")
     elif '06' in s:
         s.append("6")
+    elif '07' in s:
+        s.append("7")
+    elif '08' in s:
+        s.append("8")
+    elif '09' in s:
+        s.append("9") 
     elif 'crowd' in s:
         s.append("people")
     return s
