@@ -52,7 +52,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
 
     count_all = False
     for k, v in mem_num:
-        if len(t) == v and "tmp_input" == k:
+        if v in range(len(t) - 2, len(t) + 2) and k == "tmp_input":
             count_all = True
 
     start_time = time.time()
@@ -128,20 +128,13 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                         returned = call(command, v['function'], va)
                                         tmp.add_memory_num(h, returned, returned)
                                         conditional_add(tmp, hist[step + 1])
-                        elif v['output'] == 'none':
-                            if step == 0:
-                                command = v['tostr'](root.trace_num[i])
-                                if not root.exist(command):
-                                    tmp = root.clone(command, k)
-                                    returned = call(command, v['function'], va)
-                                    tmp.delete_memory_num(tmp.memory_num.index((h, va)))
-                                    conditional_add(tmp, hist[step + 1])
                         elif v['output'] == 'bool':
                             if "tmp_" in h and "count" not in h:
                                 command = v['tostr'](root.trace_num[i])
                                 if not root.exist(command):
                                     tmp = root.clone(command, k)
                                     returned = call(command, v['function'], va)
+                                    tmp.delete_memory_num(i)
                                     if tmp.done():
                                         tmp.append_result(command, returned)
                                         finished.append((tmp, returned))
@@ -163,26 +156,24 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                         returned = call(command, v['function'], va)
                                         tmp.add_memory_str(h, returned, returned)
                                         conditional_add(tmp, hist[step + 1])
-                        elif v['output'] == 'none':
-                            if step == 0:
-                                command = v['tostr'](root.trace_str[i])
-                                if not root.exist(command):
-                                    tmp = root.clone(command, k)
-                                    returned = call(command, v['function'], va)
-                                    tmp.delete_memory_str(i)
-                                    conditional_add(tmp, hist[step + 1])
                         elif v['output'] == 'bool':
-                            if "tmp_" in h:
-                                command = v['tostr'](root.trace_str[i])
-                                if not root.exist(command):
-                                    tmp = root.clone(command, k)
-                                    returned = call(command, v['function'], va)
-                                    if tmp.done():
-                                        tmp.append_result(command, returned)
-                                        finished.append((tmp, returned))
-                                    else:
-                                        tmp.add_memory_bool(command, returned)
-                                        conditional_add(tmp, hist[step + 1])
+                            if k == "existing" and step == 0:
+                                pass
+                            elif k == "none" and "tmp_" in h:
+                                pass
+                            else:
+                                continue
+                            command = v['tostr'](root.trace_str[i])
+                            if not root.exist(command):
+                                tmp = root.clone(command, k)
+                                returned = call(command, v['function'], va)
+                                tmp.delete_memory_str(i)
+                                if tmp.done():
+                                    tmp.append_result(command, returned)
+                                    finished.append((tmp, returned))
+                                else:
+                                    tmp.add_memory_bool(command, returned)
+                                    conditional_add(tmp, hist[step + 1])
                         else:
                             raise ValueError("Returned Type Wrong")
 

@@ -12,22 +12,17 @@ APIs['inc_num'] = {"argument":['num'], 'output': 'num',
               "function": lambda t : t,
               "tostr": lambda t : "modify{{{}}}".format(t),
               'append': False}
-"""
-APIs['dec_num'] = {"argument":['num'], 'output': 'none',
-              "function": lambda t : None,
-              "tostr": lambda t : "modify{{{}}}".format(t),
-              'append': False}
-"""
+
 APIs['inc_str'] = {"argument":['str'], 'output': 'str',
               "function": lambda t : t,
               "tostr": lambda t : "modify{{{}}}".format(t),
               'append': False}
-"""
-APIs['dec_str'] = {"argument":['str'], 'output': 'none',
-              "function": lambda t : None,
-              "tostr": lambda t : "modify{{{}}}".format(t),
+
+APIs['existing'] = {"argument":['str'], 'output': 'bool',
+              "function": lambda t : True,
+              "tostr": lambda t : "exist{{{}}}".format(t),
               'append': False}
-"""
+
 APIs['within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
                 "function": lambda t, col, value: len(t[t[col].str.contains(value, regex=False)]) > 0,
                 "tostr": lambda t, col, value : "within{{{}; {}; {}}}".format(t, col, value),

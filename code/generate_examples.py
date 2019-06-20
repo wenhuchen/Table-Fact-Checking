@@ -35,7 +35,7 @@ def replace_useless(s):
     #s = s.replace('/', '')
     return s
 
-def get_closest(inp, string, indexes, tab):
+def get_closest(inp, string, indexes, tab, threshold):
     dist = 10000
     len_string = len(string.split())
 
@@ -57,7 +57,7 @@ def get_closest(inp, string, indexes, tab):
     # Proportion
     feature.append(-dist / (len_string + dist + 0.) * 3)
     # Whether contain rare words
-    if max(vocabs) > 1000:
+    if max(vocabs) > 600:
         feature.append(2)
     else:
         feature.append(-2)
@@ -94,8 +94,15 @@ def get_closest(inp, string, indexes, tab):
     else:
         feature.append(0)
 
+    if string in ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 
+                  'september', 'october', 'november', 'december', 'jan', 'feb', 'mar', 
+                  'apr', 'jun', 'jul', 'aug', 'oct', 'nov', 'dec']:
+        feature.append(1000)
+    else:
+        feature.append(0)
+
     #print string, "@", cand, "@", feature, "@", sum(feature) > 1.0, "@", " ".join(inp)
-    if sum(feature) > 1.0:
+    if sum(feature) > threshold:
         return minimum
     else:
         return None
@@ -149,7 +156,7 @@ def replace(w, transliterate):
     else:
         return w
 
-def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict):
+def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=1.0):
     new_str = []
     new_tags = []
     buf = ""
@@ -167,7 +174,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                 proposed = set(backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
-                        closest = get_closest(inp, buf, last, tabs)
+                        closest = get_closest(inp, buf, last, tabs, threshold)
                         if closest:
                             if closest[0] == 0:
                                 buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
@@ -196,7 +203,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                 proposed = set(trans_backbone[w]) & last
                 if not proposed:
                     if buf not in stop_words:
-                        closest = get_closest(inp, buf, last, tabs)
+                        closest = get_closest(inp, buf, last, tabs, threshold)
                         if closest:
                             if closest[0] == 0:
                                 buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
@@ -219,7 +226,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
         else:
             if buf != "":
                 if buf not in stop_words:
-                    closest = get_closest(inp, buf, last, tabs)
+                    closest = get_closest(inp, buf, last, tabs, threshold)
                     if closest:
                         if closest[0] == 0:
                             buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
@@ -238,7 +245,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
     
     if buf != "":
         if buf not in stop_words:
-            closest = get_closest(inp, buf, last, tabs)
+            closest = get_closest(inp, buf, last, tabs, threshold)
             if closest:
                 if closest[0] == 0:
                     buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
@@ -293,6 +300,13 @@ with open('../data/short_subset.txt') as f:
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
 def merge_strings(string, tags=None):
     buff = ""
     inside = False
@@ -326,7 +340,7 @@ def merge_strings(string, tags=None):
         if i < 2:
             i += 1
         elif words[i].startswith('#') and (not words[i-1].startswith('#')) and words[i-2].startswith('#'):
-            if words[i].split(';')[0][1:].isdigit() and words[i-2].split(';')[0][1:].isdigit():
+            if is_number(words[i].split(';')[0][1:]) and is_number(words[i-2].split(';')[0][1:]):
                 i += 1
             elif words[i].split(';')[1][:-1] == words[i-2].split(';')[1][:-1]:
                 position = words[i].split(';')[1][:-1]
@@ -419,7 +433,10 @@ else:
 
         tabs.append([entry[2].strip()])
         for i in range(len(entry[0])):
-            sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict)
+            sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=1.0)
+            if "#" not in sent:
+                sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=0.0)
+
             sent, tags = merge_strings(sent, tags)
             if i > 0:
                 results[0].append(sent)
@@ -444,7 +461,7 @@ else:
         pool = Pool(cores)
 
         r = pool.map(sub_func, zip(names, entries))
-        #for i in range(10):
+        #for i in range(100):
         #    r = [sub_func((names[i], entries[i]))]
 
         pool.close()
