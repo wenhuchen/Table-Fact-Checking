@@ -527,7 +527,7 @@ def sub_func(inputs):
     results = []
     for i in range(len(entry[0])):
         orig_sent = entry[0][i]
-        if "=" not in orig_sent:
+        if "=" not in orig_sent and entry[1][i] == 1:
             sent, tags = postprocess(orig_sent, backbone, trans_backbone, 
                                     transliterate, tabs, recover_dicts, repeat, threshold=1.0)
             if "#" not in sent:
