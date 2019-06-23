@@ -110,12 +110,15 @@ def get_closest(inp, string, indexes, tabs, threshold):
     rep_string = replace_useless(string)
     len_string = len(rep_string.split())
 
+    minimum = []
     for index in indexes:
         entity = replace_useless(tabs[index[0]][index[1]])
         len_tab = len(entity.split())
         if abs(len_tab - len_string) < dist:
-            minimum = index
+            minimum = [index]
             dist = abs(len_tab - len_string)
+        elif abs(len_tab - len_string) == dist:
+            minimum.append(index)
 
     vocabs = []
     for s in rep_string.split(' '):
@@ -123,7 +126,7 @@ def get_closest(inp, string, indexes, tabs, threshold):
 
     # Whether contain rare words
     if dist == 0:
-        return minimum
+        return minimum[0]
 
     # String Length
     feature = [len_string]
@@ -157,14 +160,15 @@ def get_closest(inp, string, indexes, tabs, threshold):
         feature.append(1)
     else:
         feature.append(0)
+    
     # Whether contains alternative
-    cand = tabs[minimum[0]][minimum[1]]
+    cand = replace_useless(tabs[minimum[0][0]][minimum[0][1]])
     if '(' in cand and ')' in cand:
         feature.append(2)
     else:
         feature.append(0)
     # Match more with the header
-    if minimum[0] == 0:
+    if minimum[0][0] == 0:
         feature.append(2)
     else:
         feature.append(0)
@@ -180,9 +184,14 @@ def get_closest(inp, string, indexes, tabs, threshold):
     else:
         feature.append(-5)
 
-    #print string, "@", cand, "@", feature
     if sum(feature) > threshold:
-        return minimum
+        if len(minimum) > 1:
+            if minimum[0][0] > 0:
+                return [-2, minimum[0][1]]
+            else:
+                return minimum[0]
+        else:
+            return minimum[0]
     else:
         return None
     """
@@ -397,7 +406,7 @@ def is_number(s):
     except ValueError:
         return False
 
-def merge_strings(string, tags=None):
+def merge_strings(name, string, tags=None):
     buff = ""
     inside = False
     words = []
@@ -433,18 +442,21 @@ def merge_strings(string, tags=None):
         elif words[i].startswith('#') and (not words[i-1].startswith('#')) and words[i-2].startswith('#'):
             if is_number(words[i].split(';')[0][1:]) and is_number(words[i-2].split(';')[0][1:]):
                 i += 1
-            elif words[i].split(';')[1][:-1] == words[i-2].split(';')[1][:-1]:
-                position = words[i].split(';')[1][:-1]
-                candidate = words[i - 2].split(';')[0] + " " + words[i-1] + " " + words[i].split(';')[0][1:] + ";" + position + "#"
-                words[i] = candidate
-                del words[i-1]
-                del tags[i-1]
-                i -= 1
-                del words[i-1]
-                del tags[i-1]
-                i -= 1
             else:
-                i += 1
+                prev_idx = words[i-2].split(';')[1][:-1].split(',')
+                cur_idx = words[i].split(';')[1][:-1].split(',')
+                if cur_idx == prev_idx or (prev_idx[0] == '-2' and prev_idx[1] == cur_idx[1]):
+                    position = "{},{}".format(cur_idx[0], cur_idx[1])
+                    candidate = words[i - 2].split(';')[0] + " " + words[i].split(';')[0][1:] + ";" + position + "#"
+                    words[i] = candidate
+                    del words[i-1]
+                    del tags[i-1]
+                    i -= 1
+                    del words[i-1]
+                    del tags[i-1]
+                    i -= 1
+                else:
+                    i += 1
         else:
             i += 1
     
@@ -521,7 +533,7 @@ def sub_func(inputs):
             if "#" not in sent:
                 sent, tags = postprocess(orig_sent, backbone, trans_backbone, 
                                         transliterate, tabs, recover_dicts, repeat, threshold=0.0)
-            sent, tags = merge_strings(sent, tags)
+            sent, tags = merge_strings(name, sent, tags)
             if not results:
                 results = [[sent], [entry[1][i]], [tags], entry[2]]
             else:
@@ -529,7 +541,7 @@ def sub_func(inputs):
                 results[1].append(entry[1][i])
                 results[2].append(tags)
         else:
-            print orig_sent
+            continue
 
     return name, results
 
@@ -552,7 +564,7 @@ def get_func(filename, output):
     #s_time = time.time()
     #for i in range(100):
     #    r = [sub_func((names[i], entries[i]))]
-    #r = sub_func(('2-10745921-1.html.csv', data['2-10745921-1.html.csv']))
+    #r = sub_func(('1-12221135-3.html.csv', data['1-12221135-3.html.csv']))
     #print "spent {}".format(time.time() - s_time)
 
     pool.close()
