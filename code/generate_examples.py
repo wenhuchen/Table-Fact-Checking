@@ -10,6 +10,7 @@ import string
 from unidecode import unidecode
 from multiprocessing import Pool
 import multiprocessing
+import time
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -19,87 +20,128 @@ sys.setdefaultencoding('utf8')
 #             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
 #             'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
 #            'both', 'above', 'only', ",", ".", "(", ")", "&", ":"]
-with open('../data/vocab.json') as f:
+with open('../data/freq_list.json') as f:
     vocab = json.load(f)
+
+#with open('../data/short_subset.txt') as f:
+#    files = f.readlines()
+#files = set(map(lambda x:x.strip(), files))
 
 #useless_words = [',', '.', "'s"]
 with open('../data/stop_words.json') as f:
     stop_words = json.load(f)
 
+months_a = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+months_b = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
+a2b = {a:b for a,b in zip(months_a, months_b)}
+b2a = {b:a for a,b in zip(months_a, months_b)}
+
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
 def augment(s):
+    recover_dict = {}
     if 'first' in s:
         s.append("1st")
+        recover_dict[s[-1]] = 'first'
     elif 'second' in s:
         s.append("2nd")
+        recover_dict[s[-1]] = 'second'
     elif 'third' in s:
         s.append("3rd")
+        recover_dict[s[-1]] = 'third'
     elif 'fourth' in s:
         s.append("4th")
+        recover_dict[s[-1]] = 'fourth'
     elif 'fifth' in s:
         s.append("5th")
+        recover_dict[s[-1]] = 'fifth'
     elif 'sixth' in s:
         s.append("6th")
-    elif '01' in s:
-        s.append("1")
-    elif '02' in s:
-        s.append("2")
-    elif '03' in s:
-        s.append("3")
-    elif '04' in s:
-        s.append("4")
-    elif '05' in s:
-        s.append("5")
-    elif '06' in s:
-        s.append("6")
-    elif '07' in s:
-        s.append("7")
-    elif '08' in s:
-        s.append("8")
-    elif '09' in s:
-        s.append("9") 
-    elif 'crowd' in s:
+        recover_dict[s[-1]] = 'sixth'
+
+    for i in range(1, 10):
+        if "0" + str(i) in s:
+            s.append(str(i))
+            recover_dict[s[-1]] = "0" + str(i)
+    
+    if 'crowd' in s or 'attendance' in s:
         s.append("people")
-    return s
+        recover_dict[s[-1]] = 'crowd'
+        s.append("audience")
+        recover_dict[s[-1]] = 'crowd'
+
+    if any([_ in months_a + months_b for _ in s]):
+        for i in range(1, 32):
+            if str(i) in s:
+                if i % 10 == 1:
+                    s.append(str(i) + "st")
+                elif i % 10 == 2:
+                    s.append(str(i) + "nd")
+                elif i % 10 == 3:
+                    s.append(str(i) + "rd")
+                else:
+                    s.append(str(i) + "th")
+                recover_dict[s[-1]] = str(i)
+        
+        for k in a2b:
+            if k in s:
+                s.append(a2b[k])
+                recover_dict[s[-1]] = k
+        
+        for k in b2a:
+            if k in s:
+                s.append(b2a[k])
+                recover_dict[s[-1]] = k
+    
+    return s, recover_dict
 
 def replace_useless(s):
     s = s.replace(',', '')
     s = s.replace('.', '')
-    #s = s.replace('/', '')
+    s = s.replace('/', '')
     return s
 
-def get_closest(inp, string, indexes, tab, threshold):
+def get_closest(inp, string, indexes, tabs, threshold):
+    if string in stop_words:
+        return None
+
     dist = 10000
-    len_string = len(string.split())
+    rep_string = replace_useless(string)
+    len_string = len(rep_string.split())
 
     for index in indexes:
-        entity = replace_useless(tab[index[0]][index[1]])
+        entity = replace_useless(tabs[index[0]][index[1]])
         len_tab = len(entity.split())
-        if abs(len_tab - len_string) == 0:
-            return index
-        elif abs(len_tab - len_string) < dist:
+        if abs(len_tab - len_string) < dist:
             minimum = index
             dist = abs(len_tab - len_string)
 
     vocabs = []
-    for s in string.split(' '):
-        vocabs.append(vocab.get(s, 2000))
+    for s in rep_string.split(' '):
+        vocabs.append(vocab.get(s, 10000))
+
+    # Whether contain rare words
+    if dist == 0:
+        return minimum
 
     # String Length
     feature = [len_string]
     # Proportion
-    feature.append(-dist / (len_string + dist + 0.) * 3)
-    # Whether contain rare words
-    if max(vocabs) > 600:
-        feature.append(2)
+    feature.append(-dist / (len_string + dist + 0.) * 4)
+    if any([(s.isdigit() and int(s) < 100) for s in rep_string.split()]):
+        feature.extend([0, 0])
     else:
-        feature.append(-2)
-    if max(vocabs) > 10000:
-        feature.append(1000)
-    else:
-        feature.append(0)
+        # Quite rare words
+        if max(vocabs) > 1000:
+            feature.append(1)
+        else:
+            feature.append(-1)
+        # Whether contain super rare words
+        if max(vocabs) > 5000:
+            feature.append(3)
+        else:
+            feature.append(0)           
     # Whether it is only a word
     if len_string > 1:
         feature.append(1)
@@ -116,31 +158,29 @@ def get_closest(inp, string, indexes, tab, threshold):
     else:
         feature.append(0)
     # Whether contains alternative
-    cand = tab[minimum[0]][minimum[1]]
+    cand = tabs[minimum[0]][minimum[1]]
     if '(' in cand and ')' in cand:
         feature.append(2)
     else:
         feature.append(0)
-    # Whether it is in order
-    if string not in cand:
-        feature.append(-2)
-    else:
-        feature.append(0)
-
-    # Whether it is a header
+    # Match more with the header
     if minimum[0] == 0:
-        feature.append(-1)
+        feature.append(2)
+    else:
+        feature.append(0)
+    # Whether it is a month
+    if any([" " + _ + " " in " " + rep_string + " " for _ in months_a + months_b]):
+        feature.append(5)
     else:
         feature.append(0)
 
-    if string in ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 
-                  'september', 'october', 'november', 'december', 'jan', 'feb', 'mar', 
-                  'apr', 'jun', 'jul', 'aug', 'oct', 'nov', 'dec']:
-        feature.append(1000)
-    else:
+    # Whether it matches against the candidate
+    if rep_string in cand:
         feature.append(0)
+    else:
+        feature.append(-5)
 
-    #print string, "@", cand, "@", feature, "@", sum(feature) > 1.0, "@", " ".join(inp)
+    #print string, "@", cand, "@", feature
     if sum(feature) > threshold:
         return minimum
     else:
@@ -195,45 +235,63 @@ def replace(w, transliterate):
     else:
         return w
 
-def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=1.0):
+def intersect(w_new, w_old):
+    new_set = []
+    for w_1 in w_new:
+        for w_2 in w_old:
+            if w_1[:2] == w_2[:2] and w_1[2] > w_2[2]:
+                new_set.append(w_2)
+    return new_set
+
+def recover(buf, recover_dict, content):
+    if len(recover_dict) == 0:
+        return buf
+    else:
+        new_buf = []
+        for w in buf.split(' '):
+            if w not in content:
+                new_buf.append(recover_dict.get(w, w))
+            else:
+                new_buf.append(w)
+        return ' '.join(new_buf)
+
+def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dicts, repeat, threshold=1.0):
     new_str = []
     new_tags = []
     buf = ""
     pos_buf = []
     last = set()
     prev_closest = []
-    inp, pos_tags = get_lemmatize(inp, True)
+    inp, _, pos_tags = get_lemmatize(inp, True)
     for w, p in zip(inp, pos_tags):
-        if w in backbone:
+        if (w in backbone) and ((" " + w + " " in " " + buf + " " and w in repeat) or (" " + w + " " not in " " + buf + " ")):
             if buf == "":
                 last = set(backbone[w])
-                buf = recover_dict.get(w, w)
+                buf = w
                 pos_buf.append(p)
             else:
                 proposed = set(backbone[w]) & last
                 if not proposed:
-                    if buf not in stop_words:
-                        closest = get_closest(inp, buf, last, tabs, threshold)
-                        if closest:
-                            if closest[0] == 0:
-                                buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
-                            else:
-                                buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
+                    closest = get_closest(inp, buf, last, tabs, threshold)
+                    if closest:
+                        buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+                                                tabs[closest[0]][closest[1]]), closest[0], closest[1])
+
                     new_str.append(buf)
                     if buf.startswith("#"):
                         new_tags.append('ENT')
                     else:
                         new_tags.extend(pos_buf)
                     pos_buf = []
-                    buf = recover_dict.get(w, w)
+                    buf = w
                     last = set(backbone[w])
                     pos_buf.append(p)
                 else:
                     last = proposed
-                    buf += " " + recover_dict.get(w, w)
+                    buf += " " + w
                     pos_buf.append(p)
 
-        elif w in trans_backbone:
+        elif w in trans_backbone and ((" " + w + " " in " " + buf + " " and w in repeat) or (" " + w + " " not in " " + buf + " ")):
             if buf == "":
                 last = set(trans_backbone[w])
                 buf = transliterate[w]
@@ -241,13 +299,10 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
             else:
                 proposed = set(trans_backbone[w]) & last
                 if not proposed:
-                    if buf not in stop_words:
-                        closest = get_closest(inp, buf, last, tabs, threshold)
-                        if closest:
-                            if closest[0] == 0:
-                                buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
-                            else:
-                                buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
+                    closest = get_closest(inp, buf, last, tabs, threshold)
+                    if closest:
+                        buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+                                                tabs[closest[0]][closest[1]]), closest[0], closest[1])
                     new_str.append(buf)
                     if buf.startswith("#"):
                         new_tags.append('ENT')
@@ -264,32 +319,27 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
         
         else:
             if buf != "":
-                if buf not in stop_words:
-                    closest = get_closest(inp, buf, last, tabs, threshold)
-                    if closest:
-                        if closest[0] == 0:
-                            buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
-                        else:
-                            buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
+                closest = get_closest(inp, buf, last, tabs, threshold)
+                if closest:
+                    buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+                                            tabs[closest[0]][closest[1]]), closest[0], closest[1])
                 new_str.append(buf)
                 if buf.startswith("#"):
                     new_tags.append('ENT')
                 else:
                     new_tags.extend(pos_buf)
                 pos_buf = []
+            
             buf = ""
             last = set()
             new_str.append(replace_number(w))
             new_tags.append(p)
     
     if buf != "":
-        if buf not in stop_words:
-            closest = get_closest(inp, buf, last, tabs, threshold)
-            if closest:
-                if closest[0] == 0:
-                    buf = '#{};h{},{}#'.format(buf, closest[0], closest[1])
-                else:
-                    buf = '#{};c{},{}#'.format(buf.title(), closest[0], closest[1])
+        closest = get_closest(inp, buf, last, tabs, threshold)
+        if closest:
+            buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+                                    tabs[closest[0]][closest[1]]), closest[0], closest[1])
         new_str.append(buf)
         if buf.startswith("#"):
             new_tags.append('ENT')
@@ -299,23 +349,24 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
     
     return " ".join(new_str), " ".join(new_tags)
 
-def get_lemmatize(words, return_pos, recover_dict=None):
+def get_lemmatize(words, return_pos):
     #words = nltk.word_tokenize(words)
+    recover_dict = {}
     words = words.strip().split(' ')
     pos_tags = [_[1] for _ in nltk.pos_tag(words)]
     word_roots = []
     for w, p in zip(words, pos_tags):
         if is_ascii(w) and p in tag_dict:
             lemm = lemmatizer.lemmatize(w, tag_dict[p])
-            if recover_dict is not None and lemm != w:
+            if lemm != w:
                 recover_dict[lemm] = w
             word_roots.append(lemm)
         else:
             word_roots.append(w)
     if return_pos:
-        return word_roots, pos_tags
+        return word_roots, recover_dict, pos_tags
     else:
-        return word_roots
+        return word_roots, recover_dict
 
 tag_dict = {"JJ": wordnet.ADJ,
             "NN": wordnet.NOUN,
@@ -333,8 +384,8 @@ tag_dict = {"JJ": wordnet.ADJ,
 
 lemmatizer = WordNetLemmatizer()
 
-with open('../data/short_subset.txt') as f:
-    limit_length = [_.strip() for _ in f.readlines()]
+#with open('../data/short_subset.txt') as f:
+#    limit_length = [_.strip() for _ in f.readlines()]
 
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
@@ -374,6 +425,7 @@ def merge_strings(string, tags=None):
 
     tags = tags.split(' ')
     assert len(words) == len(tags), "{} and {}".format(words, tags)
+    
     i = 0
     while i < len(words):
         if i < 2:
@@ -404,29 +456,22 @@ def sub_func(inputs):
     trans_backbone = {}
     transliterate = {}
     tabs = []
-    recover_dict = {}
+    recover_dicts = []
+    repeat = set()
     with open('../data/all_csv/' + name, 'r') as f:
         for k, _ in enumerate(f.readlines()):
             _ = _.decode('utf8')
             tabs.append([])
+            recover_dicts.append([])
             for l, w in enumerate(_.strip().split('#')):
                 #w = w.replace(',', '').replace('  ', ' ')
                 tabs[-1].append(w)
                 if len(w) > 0:
-                    lemmatized_w = get_lemmatize(w, False, recover_dict)
-                    lemmatized_w = augment(lemmatized_w)
-                    for sub in lemmatized_w:
-                        if sub not in backbone:
-                            backbone[sub] = [(k, l)]
-                            if not is_ascii(sub):
-                                trans_backbone[unidecode(sub)] = [(k, l)]
-                                transliterate[unidecode(sub)] = sub
-                        else:
-                            backbone[sub].append((k, l))
-                            if not is_ascii(sub):
-                                trans_backbone[unidecode(sub)].append((k, l))
-                                transliterate[unidecode(sub)] = sub
-                    for sub in w.split(' '):
+                    lemmatized_w, recover_dict = get_lemmatize(w, False)
+                    lemmatized_w, new_dict = augment(lemmatized_w)
+                    recover_dict.update(new_dict)
+                    recover_dicts[-1].append(recover_dict)
+                    for i, sub in enumerate(lemmatized_w):
                         if sub not in backbone:
                             backbone[sub] = [(k, l)]
                             if not is_ascii(sub):
@@ -435,29 +480,56 @@ def sub_func(inputs):
                         else:
                             if (k, l) not in backbone[sub]:
                                 backbone[sub].append((k, l))
-                                if not is_ascii(sub):
-                                    trans_backbone[unidecode(sub)].append((k, l))
-                                    transliterate[unidecode(sub)] = sub
-    
-    for w in entry[2].strip().split(' '):
+                            else:
+                                if sub not in months_a + months_b:
+                                    repeat.add(sub)
+                            if not is_ascii(sub):
+                                trans_backbone[unidecode(sub)].append((k, l))
+                                transliterate[unidecode(sub)] = sub
+                    
+                    for i, sub in enumerate(w.split(' ')):
+                        if sub not in backbone:
+                            backbone[sub] = [(k, l)]
+                            if not is_ascii(sub):
+                                trans_backbone[unidecode(sub)] = [(k, l)]
+                                transliterate[unidecode(sub)] = sub
+                        else:
+                            if (k, l) not in backbone[sub]:
+                                backbone[sub].append((k, l))
+                            if not is_ascii(sub):
+                                trans_backbone[unidecode(sub)].append((k, l))
+                                transliterate[unidecode(sub)] = sub
+                else:
+                    recover_dicts[-1].append({})
+                    #raise ValueError("Empty Cell")
+
+    # Masking the caption
+    captions, _ = get_lemmatize(entry[2].strip(), False)
+    for i, w in enumerate(captions):
         if w not in backbone:
             backbone[w] = [(-1, -1)]
         else:
             backbone[w].append((-1, -1))
-
-    tabs.append([entry[2].strip()])
+    tabs.append([" ".join(captions)])
+    
+    results = []
     for i in range(len(entry[0])):
-        sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=1.0)
-        if "#" not in sent:
-            sent, tags = postprocess(entry[0][i], backbone, trans_backbone, transliterate, tabs, recover_dict, threshold=0.0)
-
-        sent, tags = merge_strings(sent, tags)
-        if i > 0:
-            results[0].append(sent)
-            results[1].append(entry[1][i])
-            results[2].append(tags)
+        orig_sent = entry[0][i]
+        if "=" not in orig_sent:
+            sent, tags = postprocess(orig_sent, backbone, trans_backbone, 
+                                    transliterate, tabs, recover_dicts, repeat, threshold=1.0)
+            if "#" not in sent:
+                sent, tags = postprocess(orig_sent, backbone, trans_backbone, 
+                                        transliterate, tabs, recover_dicts, repeat, threshold=0.0)
+            sent, tags = merge_strings(sent, tags)
+            if not results:
+                results = [[sent], [entry[1][i]], [tags], entry[2]]
+            else:
+                results[0].append(sent)
+                results[1].append(entry[1][i])
+                results[2].append(tags)
         else:
-            results = [[sent], [entry[1][i]], [tags], entry[2]]
+            print orig_sent
 
     return name, results
 
@@ -467,16 +539,21 @@ def get_func(filename, output):
     r1_results = {}
     names = []
     entries = []
+
     for name in data:
         names.append(name)
         entries.append(data[name])
-    
-    cores = multiprocessing.cpu_count() - 2
+
+    cores = multiprocessing.cpu_count()
     pool = Pool(cores)
 
     r = pool.map(sub_func, zip(names, entries))
+    r = filter(lambda x: len(x[1]) > 0, r)
+    #s_time = time.time()
     #for i in range(100):
     #    r = [sub_func((names[i], entries[i]))]
+    #r = sub_func(('2-10745921-1.html.csv', data['2-10745921-1.html.csv']))
+    #print "spent {}".format(time.time() - s_time)
 
     pool.close()
     pool.join()
@@ -484,7 +561,9 @@ def get_func(filename, output):
     return dict(r) 
 
 results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
+print "finished part 1"
 results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
+print "finished part 2"
 
 results2.update(results1)
 with open('../READY/full_cleaned.json', 'w') as f:

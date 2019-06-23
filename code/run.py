@@ -9,6 +9,8 @@ import sys
 import time
 import argparse
 import os
+from APIs import *
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -24,11 +26,8 @@ args = parser.parse_args()
 with open('../READY/full_cleaned.json') as f:
 	data = json.load(f)
 
-stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '-', 'also', 'will', 'would', 'this', 'that',
-             'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
-             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
-             'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
-             'both', 'above', 'only']
+months_a = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+months_b = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
 
 def isnumber(string):
 	return string in [numpy.dtype('int64'), numpy.dtype('int32'), numpy.dtype('float32'), numpy.dtype('float64')]
@@ -61,13 +60,16 @@ def list2tuple(inputs):
 		mem.append(tuple(s))
 	return mem
 
-def column(string):
-	return string.split(',')[1]
+def split(string, option):
+	if option == "row":
+		return string.split(',')[0]
+	else:
+		return string.split(',')[1]
 
 if not args.synthesize:
 	count = 0
 	preprocessed = []
-	for table_name in data:
+	for idx, table_name in enumerate(data):
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#")
 		cols = t.columns
 		#cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
@@ -75,7 +77,7 @@ if not args.synthesize:
 		mapping = {i: "num" if isnumber(t) else "str" for i, t in enumerate(t.dtypes)}
 		entry = data[table_name]
 		caption = entry[3].split(' ')
-		
+				
 		for sent, label, pos_tag in zip(entry[0], entry[1], entry[2]):
 			count += 1
 			inside = False
@@ -87,16 +89,17 @@ if not args.synthesize:
 			for n in range(len(sent)):
 				if sent[n] == '#':
 					if position:
-						if position_buf.startswith('h'):
-							idx = int(column(position_buf[1:]))
+						if position_buf.startswith('0'):
+							idx = int(split(position_buf, "col"))
 							if mapping[idx] == 'num':
 								if cols[idx] not in head_num:
 									head_num.append(cols[idx])
 							else:
 								if cols[idx] not in head_str:
 									head_str.append(cols[idx])
-						if position_buf.startswith('c'):
-							idx = int(column(position_buf[1:]))
+						else:
+							row = int(split(position_buf, "row"))
+							idx = int(split(position_buf, "col"))
 							if idx == -1:
 								pass
 							else:
@@ -113,7 +116,10 @@ if not args.synthesize:
 									if val not in mem_num:
 										mem_num.append(val)
 								else:
-									val = (cols[idx], mention_buf)
+									if len(fuzzy_match(t, cols[idx], mention_buf)) == 0:
+										val = (cols[idx], mention_buf)
+									else:
+										val = (cols[idx], mention_buf)
 									if val not in mem_str:
 										mem_str.append(val)
 						masked_sent += "<ENTITY{}>".format(ent_index)
@@ -181,28 +187,63 @@ if not args.synthesize:
 						i += 1
 						continue
 				
-				flag = False				
-				if i > 3 and i < len(tokens):
-					if tokens[i - 2] == "than" or tokens[i - 3] == "than":
-						for h in head_num:
-							if num >= t[h].min() and num <= t[h].max():
-								mem_num.append((h, num))
-								print mem_num[-1], sent
-								del head_num[head_num.index(h)]
-								flag = True
-								break
-				
-				if not flag:
-					mem_num.append(("tmp_input", num))
-				"""
-				if num < len(t) or len(head_num) == 0 or ("JJR" not in pos_tag and "RBR" not in pos_tag):
-					mem_num.append(("tmp_input", num))
+				features = []
+
+				if tokens[i - 2] in months_b + months_a:
+					features.append(-6)
 				else:
-					
-				"""
+					features.append(0)
+
+				if any([_ in tokens for _ in ["than", "over", "more", "less"]]):
+					features.append(2)
+				else:
+					features.append(0)
+
+				if any([_ in pos_tag for _ in ["RBR", "JJR"]]):
+					features.append(1)
+				else:
+					features.append(0)
+
+				if num > 50:
+					if num > 1900 and num < 2020:
+						features.append(-4)
+					else:
+						features.append(2)
+				else:
+					if num > len(t):
+						features.append(2)
+					else:
+						features.append(0)
+
+				if len(head_num) > 0:
+					features.append(1)
+				else:
+					features.append(0)
+
+				flag = False
+				for h in head_num:
+					if h not in map(lambda x:x[0], mem_num):
+						flag = True
+				
+				if flag:
+					features.append(2)
+				else:
+					features.append(0)
+
+				if sum(features) >= 3:
+					for h in head_num:
+						if any([_ == h for _ in mem_num]):
+							continue
+						else:
+							mem_num.append((h, num))
+				elif sum(features) >= 0:
+					#print table_name, "@", num, "@", features, "@", " ".join(tokens)
+					mem_num.append(("tmp_input", num))
+
 			for k, v in mem_num:
 				if k not in head_num and k != "tmp_input":
 					head_num.append(k)
+			
 			for k, v in mem_str:
 				if k not in head_str:
 					head_str.append(k)
@@ -214,8 +255,8 @@ if not args.synthesize:
 			preprocessed.append((table_name, sent, pos_tag, masked_sent, mem_str, 
 			                     mem_num, head_str, head_num, "nt-{}".format(len(preprocessed)), label))
 			#dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, 2)
-	with open('../READY/full_preprocessed.json', 'w') as f:
-		json.dump(preprocessed, f, indent=2)
+
+		#print "finished {}/{}".format(idx, len(data))
 
 	length = len(preprocessed) // args.split
 	for i in range(args.split):
@@ -240,7 +281,7 @@ else:
 		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
 		t.columns = cols
 		if args.sequential:
-			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
+			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7, debug=True)
 			print idx, res[:-1]
 			for r in res[-1]:
 				print r
@@ -248,7 +289,7 @@ else:
 			if not os.path.exists(args.output):
 				os.mkdir(args.output)
 			try:
-				if table_name in complex_ids:
+				if not os.path.exists('{}/{}.json'.format(args.output, idx)):
 				    res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7)
 				    with open('{}/{}.json'.format(args.output, idx), 'w') as f:
 				        json.dump(res, f, indent=2)
@@ -264,14 +305,14 @@ else:
 	head_str = [_[6] for _ in data]
 	head_num = [_[7] for _ in data]
 	idxes = [_[8] for _ in data]
-	labels = [_[9] for _ in data]	
+	labels = [_[9] for _ in data]
 
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			if arg[8] in ["nt-5781"]:
+			if arg[8] in ["nt-94127"]:
 				func(arg)
 	else:
-		cores = multiprocessing.cpu_count() - 2
+		cores = multiprocessing.cpu_count()
 		print "Using {} cores".format(cores)
 		pool = Pool(cores)
 		res = pool.map(func, zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels))

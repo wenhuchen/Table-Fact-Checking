@@ -10,21 +10,21 @@ APIs['count'] = {"argument":['row'], 'output': 'num',
 
 APIs['inc_num'] = {"argument":['num'], 'output': 'num',
               "function": lambda t : t,
-              "tostr": lambda t : "modify{{{}}}".format(t),
+              "tostr": lambda t : "modify_num{{{}}}".format(t),
+              'append': False}
+              
+APIs['dec_num'] = {"argument":['num'], 'output': 'none',
+              "function": lambda t : None,
+              "tostr": lambda t : "modify_num{{{}}}".format(t),
               'append': False}
 
 APIs['inc_str'] = {"argument":['str'], 'output': 'str',
               "function": lambda t : t,
-              "tostr": lambda t : "modify{{{}}}".format(t),
-              'append': False}
-
-APIs['existing'] = {"argument":['str'], 'output': 'bool',
-              "function": lambda t : True,
-              "tostr": lambda t : "exist{{{}}}".format(t),
+              "tostr": lambda t : "modify_str{{{}}}".format(t),
               'append': False}
 
 APIs['within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                "function": lambda t, col, value: len(t[t[col].str.contains(value, regex=False)]) > 0,
+                "function": lambda t, col, value: len(fuzzy_match(t, col, value)) > 0,
                 "tostr": lambda t, col, value : "within{{{}; {}; {}}}".format(t, col, value),
                 'append': None}
 
@@ -34,7 +34,7 @@ APIs['within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bool',
                 'append': None}
 
 APIs['not_within_s_s'] = {"argument":['row', 'header_str', 'str'], 'output': 'bool',
-                          "function": lambda t, col, value: len(t[t[col].str.contains(value, regex=False)]) == 0,
+                          "function": lambda t, col, value: len(fuzzy_match(t, col, value, negate=False)) == 0,
                           "tostr": lambda t, col, value : "not_within{{{}; {}; {}}}".format(t, col, value),
                           'append': None}
 
@@ -46,6 +46,11 @@ APIs['not_within_n_n'] = {"argument":['row', 'header_num', 'num'], 'output': 'bo
 APIs['none'] = {"argument":['str'], 'output': 'bool',
                 "function": lambda t: none(t), 
                 "tostr": lambda t : "none{{{}}}".format(t),
+                'append': None}
+
+APIs['only'] = {"argument":['row'], 'output': 'bool',
+                "function": lambda t: len(t) == 1,
+                "tostr": lambda t : "only{{{}}}".format(t),
                 'append': None}
 
 APIs['zero'] = {"argument":['num'], 'output': 'bool',
@@ -220,12 +225,12 @@ APIs['and'] = {"argument":['bool', 'bool'], 'output': 'bool',
 
 # With only three argument and the first is row
 APIs["filter_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t[t[col].str.contains(value, regex=False)],
+                        "function": lambda t, col, value: fuzzy_match(t, col, value),
                         "tostr":lambda t, col, value: "filter_eq{{{}; {}; {}}}".format(t, col, value),
                         'append': False}
 
 APIs["filter_str_not_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "row", 
-                        "function": lambda t, col, value: t[~t[col].str.contains(value, regex=False)],
+                        "function": lambda t, col, value: fuzzy_match(t, col, value, negate=True),
                         "tostr":lambda t, col, value: "filter_not_eq{{{}; {}; {}}}".format(t, col, value),
                         'append': False}
 
@@ -261,12 +266,12 @@ APIs["filter_less_eq"] = {"argument": ['row', ['header_num', 'num']], "output": 
                           "append": False}
 
 APIs["all_str_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "bool",
-                        "function": lambda t, col, value: len(t) == len(t[t[col].str.contains(value, regex=False)]),
+                        "function": lambda t, col, value: len(t) == len(fuzzy_match(t, col, value)),
                         "tostr":lambda t, col, value: "all_eq{{{}; {}; {}}}".format(t, col, value),
                         "append": None}
 
 APIs["all_str_not_eq"] = {"argument": ['row', ['header_str', 'str']], "output": "bool",
-                  "function": lambda t, col, value: 0 == len(t[t[col].str.contains(value, regex=False)]),
+                  "function": lambda t, col, value: 0 == len(fuzzy_match(t, col, value)),
                   "tostr":lambda t, col, value: "all_not_eq{{{}; {}; {}}}".format(t, col, value),
                   "append": None}
 
@@ -315,6 +320,25 @@ APIs['samerow_str'] = {"argument": [['header_str', 'str'], ['header_str', 'str']
                         "function": lambda t, col1, value1, col2, value2: len(t[(t[col1].str.contains(value1, regex=False)) & (t[col2].str.contains(value2, regex=False))]) > 0,
                         "tostr": lambda col1, value1, col2 , value2: "same{{{}; {}; {}; {}}}".format(col1, value1, col2, value2),
                         "append": None}
+def is_ascii(s):
+    return all(ord(c) < 128 for c in s)
+
+def fuzzy_match(t, col, val, negate=False):
+  if not is_ascii(val):
+    return t[t[col].str.contains(val, regex=False)]
+  else:
+    try:
+      # Try using regular expression
+      reg_val = ["(?=.*{})".format(_) for _ in val.split(' ')]
+      reg_val = "".join(reg_val)
+      if negate:
+        returned = t[~t[col].str.contains(reg_val, regex=True)]
+      else:
+        returned = t[t[col].str.contains(reg_val, regex=True)]
+      return returned
+    except Exception:
+      # Backoff to full string matching
+      return t[t[col].str.contains(val, regex=False)]
 
 def none(t):
   if 'none' in t or 'n / a' in t or 'no information' in t or t == '-' or t == 'no':
@@ -380,6 +404,7 @@ non_triggers['filter_str_not_eq'] = non_triggers['not_eq']
 non_triggers['filter_not_eq'] = non_triggers['not_eq']
 non_triggers['none'] = ['not', 'no', 'none', 'neither']
 non_triggers['zero'] = ['zero', 'any', 'none', 'no', 'not', 'neither']
+non_triggers['only'] = ['only', 'unique']
 
 non_triggers['top'] = ['first', 'top', 'latest']
 non_triggers['bottom'] = ['last', 'bottom', 'latest']
@@ -391,14 +416,14 @@ non_triggers['fourth'] = ['fourth', '4th']
 non_triggers['fifth'] = ['fifth', '5th']
 non_triggers['last'] = ['last', 'bottom', 'latest', 'most']
 
-non_triggers["filter_greater"] = ['RBR', 'JJR', 'more', 'than', 'above', 'after']
-non_triggers["filter_less"] = ['RBR', 'JJR', 'less', 'than', 'below', 'under']
+non_triggers["filter_greater"] = ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'through', 'to']
+non_triggers["filter_less"] = ['RBR', 'JJR', 'less', 'than', 'below', 'under','through', 'to']
 non_triggers['less'] = ['RBR', 'JJR', 'less', 'than', 'below', 'under']
 non_triggers['greater'] = ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'exceed', 'over']
 
 non_triggers['all_eq'] = ['all', 'every', 'each']
-non_triggers['all_less'] = [['all', 'every', 'each'], ['RBR', 'JJR']]
-non_triggers['all_greater'] = [['all', 'every', 'each'], ['RBR', 'JJR']]
+non_triggers['all_less'] = [['all', 'every', 'each'], ['RBR', 'JJR', 'less', 'than', 'below', 'under']]
+non_triggers['all_greater'] = [['all', 'every', 'each'], ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'exceed', 'over']]
 non_triggers['all_str_eq'] = ['all', 'every', 'each']
 
 non_triggers["all_str_not_eq"] = [['all', 'every', 'each'], ['not', 'no', 'never', "didn't", "won't", "wasn't"]]

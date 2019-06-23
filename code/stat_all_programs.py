@@ -62,12 +62,12 @@ for w in words:
 	pos_triggers[w] = ['max', 'min', 'argmax', 'argmin', 'most_freq', 'filter_greater_eq', 
 					   'filter_less_eq', 'filter_greater', 'filter_less', 'less', 'greater',
 					   'all_less', 'all_greater', 'all_less_eq', 'all_greater_eq']
-fw_train = open('train.tsv', 'w')
-fw_dev = open('dev.tsv', 'w')
-fw_test = open('test.tsv', 'w')
-fw_small_test = open('small_test.tsv', 'w')
-fw_simple_test = open('simple_test.tsv', 'w')
-fw_complex_test = open('complex_test.tsv', 'w')
+fw_train = open('../data/train.tsv', 'w')
+fw_dev = open('../data/dev.tsv', 'w')
+fw_test = open('../data/test.tsv', 'w')
+fw_small_test = open('../data/small_test.tsv', 'w')
+fw_simple_test = open('../data/simple_test.tsv', 'w')
+fw_complex_test = open('../data/complex_test.tsv', 'w')
 pair_wise = []
 for prog in os.listdir('../data/all_programs/'):
 	if prog.endswith('.json'):
@@ -158,6 +158,5 @@ print "number of vocab: {}".format(len(vocab))
 
 with open('../READY/all_programs.json', 'w') as f:
 	json.dump(results, f, indent=2)
-
 
 print "success: {}, failed: {}".format(success, failed)

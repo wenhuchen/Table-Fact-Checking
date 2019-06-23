@@ -4,7 +4,7 @@ import time
 from functools import wraps
 
 # prunning tricks
-def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_str, head_num, label, num=6):
+def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_str, head_num, label, num=6, debug=False):
     must_have = []
     must_not_have = []
     #for k, v in triggers.iteritems():
@@ -120,14 +120,13 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 if v['argument'] == ["num"]:
                     for i, (h, va) in enumerate(root.memory_num):
                         if v['output'] == 'num':
-                            if step == 0:
-                                if "tmp_" not in h:
-                                    command = v['tostr'](root.trace_num[i])
-                                    if not root.exist(command):
-                                        tmp = root.clone(command, k)
-                                        returned = call(command, v['function'], va)
-                                        tmp.add_memory_num(h, returned, returned)
-                                        conditional_add(tmp, hist[step + 1])
+                            if step == 0 and "tmp" in h:
+                                command = v['tostr'](root.trace_num[i])
+                                if not root.exist(command):
+                                    tmp = root.clone(command, k)
+                                    returned = call(command, v['function'], va)
+                                    tmp.add_memory_num(h, returned, returned)
+                                    conditional_add(tmp, hist[step + 1])
                         elif v['output'] == 'bool':
                             if "tmp_" in h and "count" not in h:
                                 command = v['tostr'](root.trace_num[i])
@@ -140,7 +139,17 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                         finished.append((tmp, returned))
                                     else:
                                         tmp.add_memory_bool(command, returned)
-                                        conditional_add(tmp, hist[step + 1])                                
+                                        conditional_add(tmp, hist[step + 1])
+                        elif v['output'] == 'none':
+                            if step == 0 and "tmp" in h:
+                                command = v['tostr'](root.trace_num[i])
+                                if not root.exist(command):
+                                    tmp = root.clone(command, k)
+                                    tmp.delete_memory_num(i)
+                                    if tmp.done():
+                                        continue
+                                    else:
+                                        conditional_add(tmp, hist[step + 1])                             
                         else:
                             raise ValueError("Returned Type Wrong")
                 
@@ -183,7 +192,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             if "tmp_" in h or len(row) == 1:
                                 continue
                             for head in root.header_str:
-                                if "; " + head + ";" in row_h:
+                                if "; " + head + ";":
                                     continue
                                 command = v['tostr'](row_h, head, root.trace_str[i])
                                 if not root.exist(command):
@@ -207,7 +216,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             if "tmp_" in h or len(row) == 1:
                                 continue
                             for head in root.header_num:
-                                if "; " + head + ";" in row_h:
+                                if "; " + head + ";":
                                     continue
                                 command = v['tostr'](row_h, head, root.trace_num[i])
                                 if not root.exist(command):
@@ -256,6 +265,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                     pass
                                 else:
                                     continue
+                        elif k == "only":
+                            if not row_h.startswith('filter'):
+                                continue
                         else:
                             if not row_h == "all_rows":
                                 continue
@@ -269,6 +281,13 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             elif v['output'] == 'row':
                                 tmp.add_rows(command, returned)
                                 conditional_add(tmp, hist[step + 1])
+                            elif v['output'] == 'bool':
+                                if tmp.done():
+                                    tmp.append_result(command, returned)
+                                    finished.append((tmp, returned))
+                                elif tmp.memory_bool_len < 2:
+                                    tmp.add_memory_bool(command, returned)
+                                    conditional_add(tmp, hist[step + 1])
                             else:
                                 raise ValueError("error, out of scope")   
                             conditional_add(tmp, hist[step + 1])
@@ -619,9 +638,11 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
             #return (name, orig_sent, label, [_[0].cur_str for _ in finished])
 
     #print "used time {} to get {} programs".format(time.time() - start_time, len(hist[-1]))
-    #with open('/tmp/results.txt', 'w') as f:
-    #    for h in hist[-1]:
-    #        print >> f, h.cur_strs
+    if debug:
+        with open('/tmp/results.txt', 'w') as f:
+            for h in hist[-1]:
+                print >> f, h.cur_strs
+    
     return (name, orig_sent, sent, label, [_[0].cur_str for _ in finished])
 
     #for _ in finished:
