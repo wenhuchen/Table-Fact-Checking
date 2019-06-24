@@ -27,6 +27,12 @@ with open('short_subset.txt') as f:
     files = f.readlines()
 files = set(map(lambda x:x.strip(), files))
 
+with open('../data/complex_ids.json') as f:
+    complex_files = json.load(f)
+
+with open('../data/table_to_page.json') as f:
+    mappings = json.load(f)
+
 #useless_words = [',', '.', "'s"]
 with open('../data/stop_words.json') as f:
     stop_words = json.load(f)
@@ -576,8 +582,9 @@ def get_func(filename, output):
     names = []
     entries = []
 
+    print "total {}".format(len(data))
     for name in data:
-        if name in files:
+        if name in files and name in complex_files:
             names.append(name)
             entries.append(data[name])
 
@@ -605,9 +612,31 @@ print "finished part 1"
 results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
 print "finished part 2"
 
-
 results2.update(results1)
-print len(results2)
-with open('full_cleaned.json', 'w') as f:
-    json.dump(results2, f, indent=2)
 
+print len(results2)
+#with open('full_cleaned.json', 'w') as f:
+#    json.dump(results2, f, indent=2)
+
+import csv
+
+num = 5
+with open('input_file.csv', mode='w') as fs:
+    fields = ['url', 'wikiurl', 'title']
+    
+    for i in range(1, num+1):
+        fields.extend(['text{}'.format(i)])
+
+    writer = csv.DictWriter(fs, fieldnames=fields)
+    writer.writeheader()
+
+    for k, v in results2.iteritems():
+        title, wikiurl = mappings[k]
+        elem = {'url': 'https://raw.githubusercontent.com/wenhuchen/WikiTables/master/all_csv/{}'.format(k), 'wikiurl': wikiurl, 'title': title}
+        for i in range(0, num):
+            if i < len(v[0]):
+                elem['text{}'.format(i + 1)] = v[0][i]
+            else:
+                elem['text{}'.format(i + 1)] = "None"
+
+        writer.writerow(elem)
