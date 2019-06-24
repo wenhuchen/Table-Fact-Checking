@@ -52,8 +52,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
 
     count_all = False
     for k, v in mem_num:
-        if v in range(len(t) - 2, len(t) + 2) and k == "tmp_input":
+        if k == "tmp_input":
             count_all = True
+            break
 
     start_time = time.time()
     # The result storage

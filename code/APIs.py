@@ -53,6 +53,11 @@ APIs['only'] = {"argument":['row'], 'output': 'bool',
                 "tostr": lambda t : "only{{{}}}".format(t),
                 'append': None}
 
+APIs['several'] = {"argument":['row'], 'output': 'bool',
+                "function": lambda t: len(t) > 1,
+                "tostr": lambda t : "only{{{}}}".format(t),
+                'append': None}
+
 APIs['zero'] = {"argument":['num'], 'output': 'bool',
                 "function": lambda t: t == 0,
                 "tostr": lambda t : "zero{{{}}}".format(t),
@@ -114,6 +119,16 @@ APIs['last'] = {"argument":['row', 'row'], 'output': 'bool',
                   'append': None}
 
 # With only two argument and the first is row
+APIs['uniq_num'] = {"argument":['row', 'header_num'], 'output': 'num',
+              "function": lambda t, col : len(t[col].unique()),
+              "tostr": lambda t, col : "uniq{{{}; {}}}".format(t, col),
+              'append': True}
+
+APIs['uniq_str'] = {"argument":['row', 'header_str'], 'output': 'num',
+              "function": lambda t, col : len(t[col].unique()),
+              "tostr": lambda t, col : "uniq{{{}; {}}}".format(t, col),
+              'append': True}
+
 APIs['avg'] = {"argument":['row', 'header_num'], 'output': 'num',
               "function": lambda t, col : t[col].mean(),
               "tostr": lambda t, col : "avg{{{}; {}}}".format(t, col),
@@ -384,7 +399,10 @@ triggers = {}
 non_triggers = {}
 
 non_triggers['avg'] = ['average']
-non_triggers['diff'] = ['difference', 'gap', 'than', 'separate']
+non_triggers['uniq_num'] = ['separate', 'different', 'unique']
+non_triggers['uniq_str'] = non_triggers['uniq_num']
+
+non_triggers['diff'] = ['difference', 'gap', 'than', 'separate', 'except', 'but']
 non_triggers['add'] = ['sum', 'summation', 'combine', 'combined', 'total', 'add', 'all', 'there are']
 non_triggers['sum'] = non_triggers['add']
 
@@ -404,7 +422,8 @@ non_triggers['filter_str_not_eq'] = non_triggers['not_eq']
 non_triggers['filter_not_eq'] = non_triggers['not_eq']
 non_triggers['none'] = ['not', 'no', 'none', 'neither']
 non_triggers['zero'] = ['zero', 'any', 'none', 'no', 'not', 'neither']
-non_triggers['only'] = ['only', 'unique']
+non_triggers['only'] = ['only', 'unique', 'except']
+non_triggers['several'] = ['several', 'many']
 
 non_triggers['top'] = ['first', 'top', 'latest']
 non_triggers['bottom'] = ['last', 'bottom', 'latest']
@@ -421,7 +440,7 @@ non_triggers["filter_less"] = ['RBR', 'JJR', 'less', 'than', 'below', 'under','t
 non_triggers['less'] = ['RBR', 'JJR', 'less', 'than', 'below', 'under']
 non_triggers['greater'] = ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'exceed', 'over']
 
-non_triggers['all_eq'] = ['all', 'every', 'each']
+non_triggers['all_eq'] = ['all', 'every', 'each', 'only']
 non_triggers['all_less'] = [['all', 'every', 'each'], ['RBR', 'JJR', 'less', 'than', 'below', 'under']]
 non_triggers['all_greater'] = [['all', 'every', 'each'], ['RBR', 'JJR', 'more', 'than', 'above', 'after', 'exceed', 'over']]
 non_triggers['all_str_eq'] = ['all', 'every', 'each']
@@ -449,7 +468,7 @@ non_triggers['within_n_n'] = non_triggers['within_s_s']
 non_triggers['before'] = ['follow', 'following', 'followed', 'after', 'before', 'above', 'precede']
 non_triggers['after'] = non_triggers['before']
 
-non_triggers['most_freq'] = ['most']
+non_triggers['most_freq'] = ['most', 'majority']
 non_triggers['first'] = ['first', '1st', 'top']
 non_triggers['second'] = ['second', '2nd']
 non_triggers['third'] = ['third', '3rd']
