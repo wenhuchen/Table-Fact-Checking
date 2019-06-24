@@ -193,7 +193,7 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                             if "tmp_" in h or len(row) == 1:
                                 continue
                             for head in root.header_str:
-                                if "; " + head + ";":
+                                if "; " + head + ";" in row_h:
                                     continue
                                 command = v['tostr'](row_h, head, root.trace_str[i])
                                 if not root.exist(command):
@@ -210,14 +210,14 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                             conditional_add(tmp, hist[step + 1])
                                     else:
                                         raise ValueError("Returned Type Wrong")
-                
+                    
                 elif v['argument'] == ['row', 'header_num', 'num']:
                     for j, (row_h, row) in enumerate(root.rows):
                         for i, (h, va) in enumerate(root.memory_num):
                             if "tmp_" in h or len(row) == 1:
                                 continue
                             for head in root.header_num:
-                                if "; " + head + ";":
+                                if "; " + head + ";" in row_h:
                                     continue
                                 command = v['tostr'](row_h, head, root.trace_num[i])
                                 if not root.exist(command):
@@ -434,6 +434,9 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                                             conditional_add(tmp, hist[step + 1])
                                         else:
                                             continue
+                                    elif v['output'] == 'num':
+                                        tmp.add_memory_num("tmp_count", returned, command)
+                                        conditional_add(tmp, hist[step + 1])
                                     else:
                                         raise ValueError("error, output of scope")
                             
@@ -511,8 +514,6 @@ def dynamic_programming(name, t, orig_sent, sent, tags, mem_str, mem_num, head_s
                 
                 elif v['argument'] == ['row', ['header_str', 'str']]:
                     for j, (row_h, row) in enumerate(root.rows):
-                        #if len(row_h) == 1:
-                        #    continue
                         for i, (h, va) in enumerate(root.memory_str):
                             if "tmp_" not in h:
                                 command = v['tostr'](row_h, h, root.trace_str[i])

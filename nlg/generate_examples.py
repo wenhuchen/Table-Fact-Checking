@@ -88,6 +88,12 @@ def augment(s):
         recover_dict[s[-1]] = 'crowd'
         s.append("audience")
         recover_dict[s[-1]] = 'crowd'
+        if 'crowd' in s:
+            s.append('attendance')
+            recover_dict[s[-1]] = 'crowd'
+        elif 'attendance' in s:
+            s.append('crowd')
+            recover_dict[s[-1]] = 'attendance'
 
     if any([_ in months_a + months_b for _ in s]):
         for i in range(1, 32):
@@ -580,12 +586,12 @@ def get_func(filename, output):
     cores = multiprocessing.cpu_count()
     pool = Pool(cores)
 
-    #r = pool.map(sub_func, zip(names, entries))
-    #r = filter(lambda x: len(x[1]) > 0, r)
+    r = pool.map(sub_func, zip(names, entries))
+    r = filter(lambda x: len(x[1]) > 0, r)
     #s_time = time.time()
-    r = []
-    for i in range(100):
-        r.append(sub_func((names[i], entries[i])))
+    #r = []
+    #for i in range(100):
+    #    r.append(sub_func((names[i], entries[i])))
     #r = sub_func(('2-12784856-5.html.csv', data['2-12784856-5.html.csv']))
     #print "spent {}".format(time.time() - s_time)
 

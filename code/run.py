@@ -32,28 +32,6 @@ months_b = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct'
 def isnumber(string):
 	return string in [numpy.dtype('int64'), numpy.dtype('int32'), numpy.dtype('float32'), numpy.dtype('float64')]
 
-def replace(string):
-	"""
-	string = string.replace(' ', '_')
-	string = string.replace('/', 'or')
-	string = string.replace('(', '')
-	string = string.replace(')', '')
-	string = string.replace('=', '_eq_')
-	string = string.replace('<', '_lt_')
-	string = string.replace('>', '_gt_')
-	string = string.replace('class', 'cls')
-	string = string.replace('-', 'minus')
-	string = string.replace('+', 'plus')
-	string = string.replace(',', '')
-	string = string.replace('.', '')
-	string = string.replace("'", '')
-	string = string.replace("%", 'percent')
-	string = string.replace(":", '_')
-	if string[0].isdigit():
-		string = "_" + string
-	"""
-	return string
-
 def list2tuple(inputs):
 	mem = []
 	for s in inputs:
@@ -72,8 +50,6 @@ if not args.synthesize:
 	for idx, table_name in enumerate(data):
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#")
 		cols = t.columns
-		#cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
-		t.columns = cols
 		mapping = {i: "num" if isnumber(t) else "str" for i, t in enumerate(t.dtypes)}
 		entry = data[table_name]
 		caption = entry[3].split(' ')
@@ -277,11 +253,8 @@ else:
 		table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx, labels = inputs
 		t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#", encoding = 'utf-8')
 		t.fillna('')
-		cols = t.columns
-		cols = cols.map(lambda x: replace(x) if isinstance(x, (str, unicode)) else x)
-		t.columns = cols
 		if args.sequential:
-			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 7, debug=True)
+			res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag, mem_str, mem_num, head_str, head_num, labels, 5, debug=True)
 			print idx, res[:-1]
 			for r in res[-1]:
 				print r
@@ -309,7 +282,7 @@ else:
 
 	if args.sequential:
 		for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-			if arg[8] in ["nt-94127"]:
+			if arg[8] in ["nt-73217"]:
 				func(arg)
 	else:
 		cores = multiprocessing.cpu_count()
