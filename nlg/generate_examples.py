@@ -534,7 +534,6 @@ def sub_func(inputs):
                 sent, tags = postprocess(orig_sent, backbone, trans_backbone, 
                                         transliterate, tabs, recover_dicts, repeat, threshold=0.0)
             sent, tags = merge_strings(name, sent, tags)
-            print sent
             if not results:
                 results = [[sent], [entry[1][i]], [tags], entry[2]]
             else:
@@ -563,13 +562,13 @@ def get_func(filename, output):
     cores = multiprocessing.cpu_count()
     pool = Pool(cores)
 
-    #r = pool.map(sub_func, zip(names, entries))
-    #r = filter(lambda x: len(x[1]) > 0, r)
+    r = pool.map(sub_func, zip(names, entries))
+    r = filter(lambda x: len(x[1]) > 0, r)
     #s_time = time.time()
     #r = []
     #for i in range(100):
     #    r.append(sub_func((names[i], entries[i])))
-    r = sub_func(('2-12784856-5.html.csv', data['2-12784856-5.html.csv']))
+    #r = sub_func(('2-12784856-5.html.csv', data['2-12784856-5.html.csv']))
     #print "spent {}".format(time.time() - s_time)
 
     pool.close()
@@ -577,8 +576,8 @@ def get_func(filename, output):
     
     return dict(r) 
 
-#results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
-#print "finished part 1"
+results1 = get_func('../READY/r1_training_all.json', '../READY/r1_training_cleaned.json')    
+print "finished part 1"
 results2 = get_func('../READY/r2_training_all.json', '../READY/r2_training_cleaned.json')
 print "finished part 2"
 
