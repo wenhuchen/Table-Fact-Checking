@@ -630,6 +630,7 @@ with open('input_file.csv', mode='w') as fs:
     writer = csv.DictWriter(fs, fieldnames=fields)
     writer.writeheader()
 
+    count = 0
     for k, v in results2.iteritems():
         title, wikiurl = mappings[k]
         elem = {'url': 'https://raw.githubusercontent.com/wenhuchen/WikiTables/master/all_csv/{}'.format(k), 'wikiurl': wikiurl, 'title': title}
@@ -638,5 +639,7 @@ with open('input_file.csv', mode='w') as fs:
                 elem['text{}'.format(i + 1)] = v[0][i]
             else:
                 elem['text{}'.format(i + 1)] = "None"
-
         writer.writerow(elem)
+        count += 1
+        if count >= 500:
+            break
