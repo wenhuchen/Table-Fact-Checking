@@ -617,6 +617,23 @@ results2.update(results1)
 print len(results2)
 #with open('full_cleaned.json', 'w') as f:
 #    json.dump(results2, f, indent=2)
+def strongwords(string):
+    new_string = ""
+    idx = False
+    for c in string:
+        if c == "#":
+            if idx:
+                idx = False
+                new_string += "</strong>"
+            else:
+                new_string += "<strong>"
+        elif c == ";":
+            idx = True
+        elif idx:
+            continue
+        else:
+            new_string += c
+    return new_string
 
 import csv
 
@@ -636,7 +653,7 @@ with open('input_file.csv', mode='w') as fs:
         elem = {'url': 'https://raw.githubusercontent.com/wenhuchen/WikiTables/master/all_csv/{}'.format(k), 'wikiurl': wikiurl, 'title': title}
         for i in range(0, num):
             if i < len(v[0]):
-                elem['text{}'.format(i + 1)] = v[0][i]
+                elem['text{}'.format(i + 1)] = strongwords(v[0][i])
             else:
                 elem['text{}'.format(i + 1)] = "None"
         writer.writerow(elem)
