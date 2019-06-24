@@ -59,6 +59,24 @@ def augment(s):
     elif 'sixth' in s:
         s.append("6th")
         recover_dict[s[-1]] = 'sixth'
+    elif '1st' in s:
+        s.append("first")
+        recover_dict[s[-1]] = '1st'
+    elif '2nd' in s:
+        s.append("second")
+        recover_dict[s[-1]] = '2nd'
+    elif '3rd' in s:
+        s.append("third")
+        recover_dict[s[-1]] = '3rd'
+    elif '4th' in s:
+        s.append("fourth")
+        recover_dict[s[-1]] = '4th'
+    elif '5th' in s:
+        s.append("fifth")
+        recover_dict[s[-1]] = '5th'
+    elif '6th' in s:
+        s.append("sixth")
+        recover_dict[s[-1]] = '6th'
 
     for i in range(1, 10):
         if "0" + str(i) in s:
@@ -562,12 +580,12 @@ def get_func(filename, output):
     cores = multiprocessing.cpu_count()
     pool = Pool(cores)
 
-    r = pool.map(sub_func, zip(names, entries))
-    r = filter(lambda x: len(x[1]) > 0, r)
+    #r = pool.map(sub_func, zip(names, entries))
+    #r = filter(lambda x: len(x[1]) > 0, r)
     #s_time = time.time()
-    #r = []
-    #for i in range(100):
-    #    r.append(sub_func((names[i], entries[i])))
+    r = []
+    for i in range(100):
+        r.append(sub_func((names[i], entries[i])))
     #r = sub_func(('2-12784856-5.html.csv', data['2-12784856-5.html.csv']))
     #print "spent {}".format(time.time() - s_time)
 
