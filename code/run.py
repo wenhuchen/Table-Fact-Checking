@@ -20,10 +20,10 @@ parser.add_argument("--sequential", default=False, action="store_true", help="Wh
 parser.add_argument("--debug", default=False, action="store_true", help="Whether to use debugging mode")
 parser.add_argument("--part", type=int, default=0, help="choose a part")
 parser.add_argument("--split", type=int, default=1, help="how many splits")
-parser.add_argument("--output", type=str, default="../data/all_programs", help="which folder to store the results")
+parser.add_argument("--output", type=str, default="../all_programs", help="which folder to store the results")
 args = parser.parse_args()
 
-with open('../READY/full_cleaned.json') as f:
+with open('../tokenized_data/full_cleaned.json') as f:
 	data = json.load(f)
 
 months_a = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
@@ -236,14 +236,14 @@ if not args.synthesize:
 
 	length = len(preprocessed) // args.split
 	for i in range(args.split):
-		with open('../READY/preprocessed_{}.json'.format(i), 'w') as f:
+		with open('../preprocessed_data_program/preprocessed.json'.format(i), 'w') as f:
 			if i == args.split - 1:
 				json.dump(preprocessed[i * length :], f, indent=2)
 			else:
 				json.dump(preprocessed[i * length : (i+1) * length], f, indent=2)
 
 else:
-	with open('../READY/preprocessed_{}.json'.format(args.part), 'r') as f:
+	with open('../preprocessed_data_program/preprocessed.json'.format(args.part), 'r') as f:
 		data = json.load(f)
 
 	with open('../data/complex_ids.json') as f:

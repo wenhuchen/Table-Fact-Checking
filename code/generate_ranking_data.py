@@ -9,7 +9,7 @@ from collections import Counter
 
 #option = sys.argv[1]
 
-folder = '../data/all_programs/'
+folder = '../all_programs/'
 
 failed = 0
 success = 0
@@ -62,14 +62,15 @@ for w in words:
 	pos_triggers[w] = ['max', 'min', 'argmax', 'argmin', 'most_freq', 'filter_greater_eq', 
 					   'filter_less_eq', 'filter_greater', 'filter_less', 'less', 'greater',
 					   'all_less', 'all_greater', 'all_less_eq', 'all_greater_eq']
-fw_train = open('../data/train.tsv', 'w')
-fw_dev = open('../data/dev.tsv', 'w')
-fw_test = open('../data/test.tsv', 'w')
-fw_small_test = open('../data/small_test.tsv', 'w')
-fw_simple_test = open('../data/simple_test.tsv', 'w')
-fw_complex_test = open('../data/complex_test.tsv', 'w')
+
+fw_train = open('../preprocessed_data_program/train.tsv', 'w')
+fw_dev = open('../preprocessed_data_program/dev.tsv', 'w')
+fw_test = open('../preprocessed_data_program/test.tsv', 'w')
+fw_small_test = open('../preprocessed_data_program/small_test.tsv', 'w')
+fw_simple_test = open('../preprocessed_data_program/simple_test.tsv', 'w')
+fw_complex_test = open('../preprocessed_data_program/complex_test.tsv', 'w')
 pair_wise = []
-for prog in os.listdir('../data/all_programs/'):
+for prog in os.listdir(folder):
 	if prog.endswith('.json'):
 		with open(folder + prog, 'r') as f:
 			data = json.load(f) 
@@ -151,12 +152,12 @@ for k, v in word_counter.most_common():
 #    for i, w in enumerate(words):
 #    	API_vocab[w] = len(API_vocab)
 
-with open('../data/vocab.json', 'w') as f:
+with open('../preprocessed_data_program/vocab.json', 'w') as f:
 	json.dump(vocab, f, indent=2)
 
 print "number of vocab: {}".format(len(vocab))
 
-with open('../READY/all_programs.json', 'w') as f:
+with open('../preprocessed_data_program/all_programs.json', 'w') as f:
 	json.dump(results, f, indent=2)
 
 print "success: {}, failed: {}".format(success, failed)
