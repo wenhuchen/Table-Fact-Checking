@@ -35,5 +35,26 @@
   Table Caption
   }
   ```
-  here the enclosed snippet #xxx;idx1,idx2# denotes that the work "xxx" is linked to idx1-th row and idx2-th column, if idx1=-1, it means that it links to the caption. The entity linking step is essential for performing program search algorithm to connect these entities with known functions for semantic representation.
-  
+  here the enclosed snippet #xxx;idx1,idx2# denotes that the work "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it means that it links to the caption. The entity linking step is essential for performing program search algorithm to connect these entities with known functions for semantic representation.
+- preprocessed_data_program: This folder contains preprocessed.json, which is obtained by:
+  ```
+  python run.py
+  ```
+  this script is mainly used to perform buffer initialization, the result file looks like:
+  ```
+  [
+    [
+    Table-id,
+    Statement: xxx #xxx;idx1,idx2# (after entity linking),
+    Pos-Tagging information,
+    Statement with place-holder,
+    [linked string entity],
+    [linked number entity],
+    [linked string header],
+    [linked number header],
+    Statement-id,
+    Label
+    ],
+  ]
+  ```
+  This file is directly fed into run.py to search for program candidates using dynamic programming.
