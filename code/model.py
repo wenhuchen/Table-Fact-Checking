@@ -42,7 +42,7 @@ def parse_opt():
 args = parse_opt()
 device = torch.device('cuda')
 
-with open('../data/vocab.json') as f:
+with open('../preprocessed_data_program/vocab.json') as f:
 	vocab = json.load(f)
 
 ivocab = {w:k for k,w in vocab.iteritems()}
