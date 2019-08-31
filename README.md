@@ -1,6 +1,12 @@
 # Introduction
 We introduce a large-scale dataset called **TabFact**, which consists of 118,439 manually annotated statements with regard to 16,621 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*.
+<img src="resource/tabfact.pdf" width="600">
 
+
+## Requirements
+- Python 2.7
+- Pytorch 1.0
+- Pandas
 
 ## Data Preprocessing Pipeline
 - collected_data: This folder contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters under some tables. There are two files, the r1 file is collected in the first easy round, which contains sentences involving less reasoning. The r2 file contains the sentences involving more complex reasoning. The two files in total contains roughly 110K statements. 
