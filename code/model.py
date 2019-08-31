@@ -179,7 +179,7 @@ def evaluate(val_dataloader, encoder_stat, encoder_prog):
 
 	precision = TP / (TP + FP + 0.001)
 	recall = TP / (TP + FN + 0.001)
-	print "TP: {}, FP: {}, FN: {}, TN: {}. precision = {}: recall = {}".format(TP, FP, FN, TN, precision, recall)	
+	print("TP: {}, FP: {}, FN: {}, TN: {}. precision = {}: recall = {}".format(TP, FP, FN, TN, precision, recall))
 	
 	"""
 	if False:
@@ -218,7 +218,7 @@ def evaluate(val_dataloader, encoder_stat, encoder_prog):
 				fail += 1
 			results.append({'pred': line[1], 'gold': line[2], 'fact': line[3], 'program': line[4]})
 		
-		print "success = {}, fail = {}, accuracy = {}".format(success, fail, success / (success + fail + 0.001))
+		print("success = {}, fail = {}, accuracy = {}".format(success, fail, success / (success + fail + 0.001)))
 		accuracy = success / (success + fail + 0.001)					
 	else:
 		success, fail = 0, 0
@@ -227,7 +227,7 @@ def evaluate(val_dataloader, encoder_stat, encoder_prog):
 				success += 1
 			else:
 				fail += 1
-		print "success = {}, fail = {}, accuracy = {}".format(success, fail, success / (success + fail + 0.001))
+		print("success = {}, fail = {}, accuracy = {}".format(success, fail, success / (success + fail + 0.001)))
 		accuracy = success / (success + fail + 0.001)
 	if args.analyze:
 		if args.do_test or args.do_small_test:
