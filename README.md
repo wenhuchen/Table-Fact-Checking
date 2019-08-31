@@ -87,6 +87,6 @@ Here we provide the data we obtained after preprocessing through the above pipel
 Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
 
 ``
-cd code/
-python model.py --do_train --do_val
+  cd code/
+  python model.py --do_train --do_val
 ``
