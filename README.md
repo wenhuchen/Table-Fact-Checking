@@ -36,7 +36,7 @@
   }
   ```
   here the enclosed snippet #xxx;idx1,idx2# denotes that the work "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it means that it links to the caption. The entity linking step is essential for performing program search algorithm to connect these entities with known functions for semantic representation.
-- preprocessed_data_program: This folder contains preprocessed.json, which is obtained by:
+- preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
   ```
   python run.py
   ```
@@ -57,4 +57,18 @@
     ],
   ]
   ```
-  This file is directly fed into run.py to search for program candidates using dynamic programming.
+  This file is directly fed into run.py to search for program candidates using dynamic programming. This folder also contains the tsv files neccessary for learning the ranking algorithm.
+- all_programs: this folder contains the searched results for different statements, for each result file, the format looks like:
+  ```
+  [
+    csv_file,
+    statement,
+    placeholder-text,
+    label,
+    [
+      program1,
+      program2,
+      ...
+    ]
+  ]
+  ```
