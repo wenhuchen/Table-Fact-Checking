@@ -25,7 +25,7 @@ def parse_opt():
 	parser.add_argument('--dropout', type=float, default=0.2, help="the embedding dimension")
 	parser.add_argument('--resume', action='store_true', default=False, help="whether to resume previous run")
 	parser.add_argument('--batch_size', type=int, default=512, help="the embedding dimension")
-	parser.add_argument('--data_dir', type=str, default='../READY', help="the embedding dimension")
+	parser.add_argument('--data_dir', type=str, default='../preprocessed_data_program/', help="the embedding dimension")
 	parser.add_argument('--max_seq_length', type=int, default=100, help="the embedding dimension")
 	parser.add_argument('--layer_num', type=int, default=3, help="the embedding dimension")
 	parser.add_argument('--voting', default=False, action="store_true", help="the embedding dimension")
@@ -42,10 +42,13 @@ def parse_opt():
 args = parse_opt()
 device = torch.device('cuda')
 
+if not os.path.exists(args.output_dir):
+	os.mkdir(args.output_dir)
+
 with open('../preprocessed_data_program/vocab.json') as f:
 	vocab = json.load(f)
 
-ivocab = {w:k for k,w in vocab.iteritems()}
+ivocab = {w:k for k,w in vocab.items()}
 def back_to_words(seq):
 	return " ".join([ivocab[_.item()] for _ in seq if ivocab[_.item()] != "<PAD>"])
 
@@ -211,7 +214,7 @@ def evaluate(val_dataloader, encoder_stat, encoder_prog):
 	results = []
 	if not args.voting:
 		success, fail = 0, 0
-		for i, line in mapping.iteritems():
+		for i, line in mapping.items():
 			if line[1] == line[2]:
 				success += 1
 			else:
@@ -222,7 +225,7 @@ def evaluate(val_dataloader, encoder_stat, encoder_prog):
 		accuracy = success / (success + fail + 0.001)					
 	else:
 		success, fail = 0, 0
-		for i, ent in mapping.iteritems():
+		for i, ent in mapping.items():
 			if (ent[0] > 0 and ent[2] == 1) or (ent[0] < 0 and ent[2] == 0):
 				success += 1
 			else:
