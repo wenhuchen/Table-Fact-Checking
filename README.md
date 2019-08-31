@@ -1,4 +1,8 @@
-# Data Folder
+# Introduction
+We introduce a large-scale dataset called **TabFact**, which consists of 118,439 manually annotated statements with regard to 16,621 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*.
+
+
+# Data Preprocessing Pipeline
 - collected_data: This folder contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters under some tables. There are two files, the r1 file is collected in the first easy round, which contains sentences involving less reasoning. The r2 file contains the sentences involving more complex reasoning. The two files in total contains roughly 110K statements. 
   ```
   Table-id: {
@@ -72,3 +76,15 @@
     ]
   ]
   ```
+# Downloading the preprocessed data
+Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
+```
+  sh get_data.sh
+```
+
+# Training the ranking model
+Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
+``
+cd code/
+python model.py --do_train --do_val
+``
