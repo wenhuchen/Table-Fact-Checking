@@ -1,6 +1,6 @@
 # Introduction
 We introduce a large-scale dataset called **TabFact**, which consists of 118,439 manually annotated statements with regard to 16,621 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*.
-<img src="resource/table.pdf" width="900">
+<img src="https://github.com/wenhuchen/Table-Fact-Checking/blob/master/resource/table.pdf" width="900">
 
 
 ## Requirements
