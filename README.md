@@ -97,3 +97,11 @@ Once we have all the training and evaluating data in folder "preprocessed_data_p
   cd code/
   python model.py --do_train --do_val
 ```
+## Reproducibility
+We have put our pre-trained model in code/checkpoints/, the model can reproduce the exact number reported in the paper:
+```
+  cd code/
+  python model.py --do_test --resume
+  python model.py --do_simple --resume
+  python model.py --do_complex --resume
+```
