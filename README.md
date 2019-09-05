@@ -5,7 +5,7 @@ We introduce a large-scale dataset called [**TabFact**](https://tabfact.github.i
 </p>
 The table-based fact verification is the first dataset to perform fact verification on strctured data, which involves mixed reasoning in both symbolic and linguistic form. Therefore, we propose two models, namely Table-BERT and the Latent Program Algorithm to tackle this task.
 
-- The brief architecture of LPA looks like following:
+- The brief architecture of Latent Program Algorithm (LPA) looks like following:
 <p align="center">
 <img src="resource/program.jpg" width="700">
 </p>
@@ -107,7 +107,7 @@ The table-based fact verification is the first dataset to perform fact verificat
   python preprocess_BERT.py --scan vertical
 ```
 
-## LPA Model
+## Latent Program Algorithm
 ### Downloading the preprocessed data for LPA
 Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
 
@@ -130,7 +130,7 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
   python model.py --do_simple --resume
   python model.py --do_complex --resume
 ```
-## Table-BERT Model
+## Table-BERT
 ### Training the verification model
 ```
   python run_BERT.py --do_train [--do_eval] --scan [horizontal, vertical] --fact [first/second]
