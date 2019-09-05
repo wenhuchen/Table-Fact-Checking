@@ -40,7 +40,7 @@ The table-based fact verification is the first dataset to perform fact verificat
   Table Caption
   }
   ```
-### General Tokenization and Entity Matching
+1. General Tokenization and Entity Matching
 - tokenized_data: This folder contains the data after tokenization with preprocess_data.py by:
   ```
   python preprocess_data.py
@@ -63,7 +63,7 @@ The table-based fact verification is the first dataset to perform fact verificat
   ```
   The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
 
-### For LPA
+2. Tokenization For Latent Program Algorithm
 - preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
   ```
   python run.py
@@ -100,7 +100,7 @@ The table-based fact verification is the first dataset to perform fact verificat
     ]
   ]
   ```
-### For Table-BERT
+2. Tokenization for Table-BERT
 ```
   cd code/
   python preprocess_BERT.py --scan horizontal
@@ -108,21 +108,21 @@ The table-based fact verification is the first dataset to perform fact verificat
 ```
 
 ## Latent Program Algorithm
-### Downloading the preprocessed data for LPA
+1. Downloading the preprocessed data for LPA
 Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
 
 ```
   sh get_data.sh
 ```
 
-### Training the ranking model
+2. Training the ranking model
 Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
 
 ```
   cd code/
   python model.py --do_train --do_val
 ```
-### Evaluating the ranking model
+3. Evaluating the ranking model
 We have put our pre-trained model in code/checkpoints/, the model can reproduce the exact number reported in the paper:
 ```
   cd code/
@@ -131,11 +131,11 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
   python model.py --do_complex --resume
 ```
 ## Table-BERT
-### Training the verification model
+1. Training the verification model
 ```
   python run_BERT.py --do_train [--do_eval] --scan [horizontal, vertical] --fact [first/second]
 ```
-### Evaluating the verification model
+2. Evaluating the verification model
 ```
   python run_BERT.py --do_eval --scan [horizontal, vertical] --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
 
