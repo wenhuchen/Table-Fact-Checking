@@ -29,6 +29,7 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
   Table Caption
   }
   ```
+### General Tokenization and Entity Matching
 - tokenized_data: This folder contains the data after tokenization, the data is obtained using the script preprocess_data.py, you can simply reproduce it by:
   ```
   python preprocess_data.py
@@ -128,3 +129,5 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
   python run_BERT.py --do_eval --scan [horizontal, vertical] --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
 
 ```
+## Q&A
+If you encounter any problem, please either directly contact the first author or leave an issue in the github repo.
