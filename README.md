@@ -3,6 +3,16 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
 <p align="center">
 <img src="resource/table.jpg" width="700">
 </p>
+The table-based fact verification is the first dataset to perform fact verification on strctured data, which involves mixed reasoning in both symbolic and linguistic form. Therefore, we propose two models, namely Table-BERT and the Latent Program Algorithm to tackle this task.
+The brief architecture of LPA looks like following:
+<p align="center">
+<img src="resource/program.jpg" width="700">
+</p>
+The brief architecture of Table-BERT looks like following: 
+<p align="center">
+<img src="resource/BERT.jpg" width="700">
+</p>
+
 
 ## Requirements
 - Python 3.5
