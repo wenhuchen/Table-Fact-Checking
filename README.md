@@ -44,6 +44,7 @@ The folder "collected_data" contains the raw data collected directly from Mechni
 1. General Tokenization and Entity Matching
     - tokenized_data: This folder contains the data after tokenization with preprocess_data.py by:
       ```
+      cd code/
       python preprocess_data.py
       ```
       this script is mainly used for feature-based entity linking, the entities in the statements are linked to the longest text span in the table cell. The result file is tokenized_data/full_cleaned.json, which has a data format like:
@@ -67,6 +68,7 @@ The folder "collected_data" contains the raw data collected directly from Mechni
 2. Tokenization For Latent Program Algorithm
     - preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
       ```
+      cd code/
       python run.py
       ```
       this script is mainly used to perform cache (string, number) initialization, the result file looks like:
@@ -134,10 +136,12 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
 ## Table-BERT
 1. Training the verification model
 ```
+  cd code/
   python run_BERT.py --do_train [--do_eval] --scan [horizontal, vertical] --fact [first/second]
 ```
 2. Evaluating the verification model
 ```
+  cd code/
   python run_BERT.py --do_eval --scan [horizontal, vertical] --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
 
 ```
