@@ -50,6 +50,8 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
   }
   ```
   here the enclosed snippet #xxx;idx1,idx2# denotes that the work "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it means that it links to the caption. The entity linking step is essential for performing program search algorithm to connect these entities with known functions for semantic representation.
+
+### For LPA
 - preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
   ```
   python run.py
@@ -86,25 +88,43 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
     ]
   ]
   ```
-## Downloading the preprocessed data
+### For Table-BERT
+```
+  cd code/
+  python preprocess_BERT.py --scan horizontal
+  python preprocess_BERT.py --scan vertical
+```
+
+## LPA Model
+### Downloading the preprocessed data for LPA
 Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
 
 ```
   sh get_data.sh
 ```
 
-## Training the ranking model
+### Training the ranking model
 Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
 
 ```
   cd code/
   python model.py --do_train --do_val
 ```
-## Reproducibility
+### Evaluating the ranking model
 We have put our pre-trained model in code/checkpoints/, the model can reproduce the exact number reported in the paper:
 ```
   cd code/
   python model.py --do_test --resume
   python model.py --do_simple --resume
   python model.py --do_complex --resume
+```
+## Table-BERT Model
+### Training the verification model
+```
+  python run_BERT.py --do_train [--do_eval] --scan [horizontal, vertical] --fact [first/second]
+```
+### Evaluating the verification model
+```
+  python run_BERT.py --do_eval --scan [horizontal, vertical] --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
+
 ```
