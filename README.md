@@ -12,8 +12,8 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
 - Pytorch_Pretrained_Bert 0.6.2 (Huggingface Implementation)
 - Pandas
 
-## Data Preprocessing Pipeline
-- collected_data: This folder contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters under some tables. There are two files, the r1 file is collected in the first easy round, which contains sentences involving less reasoning. The r2 file contains the sentences involving more complex reasoning. The two files in total contains roughly 110K statements. 
+## Data Preprocessing
+- collected_data: This folder contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters in some tables. There are two files, the r1 file is collected in the first round (simple channel), which contains sentences involving less reasoning. The r2 file is collected in the second round (complex channel), which involves more complex multi-hop reasoning. These two files in total contains roughly 110K statements, the positive and negative satements are balanced. We demonstrate the data format as follows:
   ```
   Table-id: {
   [
@@ -30,11 +30,11 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
   }
   ```
 ### General Tokenization and Entity Matching
-- tokenized_data: This folder contains the data after tokenization, the data is obtained using the script preprocess_data.py, you can simply reproduce it by:
+- tokenized_data: This folder contains the data after tokenization with preprocess_data.py by:
   ```
   python preprocess_data.py
   ```
-  this script is mainly used to perform feature-based entity linking, the entities in the statements are linked to the cell values in the table, the obtained file is tokenized_data/full_cleaned.json, the data format looks like:
+  this script is mainly used for feature-based entity linking, the entities in the statements are linked to the longest text span in the table cell. The result file is tokenized_data/full_cleaned.json, which has a data format like:
   ```
   Table-id: {
   [
@@ -50,14 +50,14 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
   Table Caption
   }
   ```
-  here the enclosed snippet #xxx;idx1,idx2# denotes that the work "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it means that it links to the caption. The entity linking step is essential for performing program search algorithm to connect these entities with known functions for semantic representation.
+  The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
 
 ### For LPA
 - preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
   ```
   python run.py
   ```
-  this script is mainly used to perform buffer initialization, the result file looks like:
+  this script is mainly used to perform cache (string, number) initialization, the result file looks like:
   ```
   [
     [
@@ -74,8 +74,8 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
     ],
   ]
   ```
-  This file is directly fed into run.py to search for program candidates using dynamic programming. This folder also contains the tsv files neccessary for learning the ranking algorithm.
-- all_programs: this folder contains the searched results for different statements, for each result file, the format looks like:
+  This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm.
+- all_programs: this folder contains the searched intermediate results for different statements, we save the results in different files for different statements, the format of intermediate program results looks like:
   ```
   [
     csv_file,
