@@ -5,8 +5,11 @@ We introduce a large-scale dataset called **TabFact**, which consists of 118,439
 </p>
 
 ## Requirements
-- Python 2.7
+- Python 3.5
 - Pytorch 1.0
+- Ujson 1.35
+- Pytorch 1.0+
+- Pytorch_Pretrained_Bert 0.6.2 (Huggingface Implementation)
 - Pandas
 
 ## Data Preprocessing Pipeline
