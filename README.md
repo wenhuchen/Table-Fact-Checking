@@ -1,5 +1,5 @@
 # Introduction
-We introduce a large-scale dataset called **TabFact**, which consists of 118,439 manually annotated statements with regard to 16,621 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*.
+We introduce a large-scale dataset called [**TabFact**](https://tabfact.github.io/), which consists of 118,439 manually annotated statements with regard to 16,621 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*.
 <p align="center">
 <img src="resource/table.jpg" width="700">
 </p>
