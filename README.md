@@ -3,7 +3,7 @@ We introduce a large-scale dataset called [**TabFact**](https://tabfact.github.i
 ](https://arxiv.org/pdf/1909.02164.pdf)"
 
 <p align="center">
-<img src="resource/table.jpg" width="700">
+<img src="resource/example.png" width="700">
 </p>
 The table-based fact verification is the first dataset to perform fact verification on strctured data, which involves mixed reasoning in both symbolic and linguistic form. Therefore, we propose two models, namely Table-BERT and the Latent Program Algorithm to tackle this task.
 
@@ -12,7 +12,7 @@ The table-based fact verification is the first dataset to perform fact verificat
 <img src="resource/program.jpg" width="700">
 </p>
 
-- The brief architecture of Table-BERT looks like following: 
+- The brief architecture of Table-BERT looks like following:
 <p align="center">
 <img src="resource/BERT.jpg" width="700">
 </p>
@@ -54,7 +54,7 @@ The folder "collected_data" contains the raw data collected directly from Mechni
       Table-id: {
       [
       Statement 1: xxxxx #xxx;idx1,idx2# xxx.
-      Statement 2: xx xxx #xxx;idx1,idx2# xxx. 
+      Statement 2: xx xxx #xxx;idx1,idx2# xxx.
       ...
       ],
       [
