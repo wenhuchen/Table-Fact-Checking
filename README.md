@@ -17,6 +17,8 @@ The table-based fact verification is the first dataset to perform fact verificat
 <img src="resource/BERT.jpg" width="700">
 </p>
 
+## Explore the data
+We design an interface for you to browse and eplore the dataset in https://tabfact.github.io/explore.html
 
 ## Requirements
 - Python 3.5
@@ -147,5 +149,17 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
   python run_BERT.py --do_eval --scan [horizontal, vertical] --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
 
 ```
+
+## Reference
+Please cite the paper in the following format if you use this dataset during your research.
+```
+@inproceedings{2019TabFactA,
+  title={TabFact : A Large-scale Dataset for Table-based Fact Verification},
+  author={Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou and William Yang Wang},
+  year={2019}
+}
+```
+
 ## Q&A
 If you encounter any problem, please either directly contact the first author or leave an issue in the github repo.
+
