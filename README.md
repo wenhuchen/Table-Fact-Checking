@@ -9,7 +9,7 @@ The table-based fact verification is the first dataset to perform fact verificat
 
 - The brief architecture of Latent Program Algorithm (LPA) looks like following:
 <p align="center">
-<img src="resource/program.jpg" width="700">
+<img src="resource/program.png" width="700">
 </p>
 
 - The brief architecture of Table-BERT looks like following:
