@@ -17,6 +17,8 @@ The table-based fact verification is the first dataset to perform fact verificat
 <img src="resource/BERT.jpg" width="700">
 </p>
 
+## Explore the data
+We design an interface for you to browse and eplore the dataset in https://tabfact.github.io/explore.html
 
 ## Requirements
 - Python 3.5
