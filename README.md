@@ -150,7 +150,8 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
 
 ```
 
-## If you find this code useful, please cite the paper
+## Reference
+Please cite the paper in the following format if you use this dataset during your research.
 ```
 @inproceedings{2019TabFactA,
   title={TabFact : A Large-scale Dataset for Table-based Fact Verification},
