@@ -149,5 +149,16 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
   python run_BERT.py --do_eval --scan [horizontal, vertical] --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
 
 ```
+
+## If you find this code useful, please cite the paper
+```
+@inproceedings{2019TabFactA,
+  title={TabFact : A Large-scale Dataset for Table-based Fact Verification},
+  author={Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou and William Yang Wang},
+  year={2019}
+}
+```
+
 ## Q&A
 If you encounter any problem, please either directly contact the first author or leave an issue in the github repo.
+
