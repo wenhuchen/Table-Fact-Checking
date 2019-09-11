@@ -360,9 +360,6 @@ tag_dict = {"JJ": wordnet.ADJ,
 
 lemmatizer = WordNetLemmatizer()
 
-#with open('../data/short_subset.txt') as f:
-#    limit_length = [_.strip() for _ in f.readlines()]
-
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
