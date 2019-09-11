@@ -34,6 +34,7 @@ We design an interface for you to browse and eplore the dataset in https://tabfa
 - tqdm-4.35
 - TensorboardX
 - unidecode
+- nltk: wordnet, averaged_perceptron_tagger
 
 ## Data Preprocessing
 The folder "collected_data" contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters in some tables. There are two files, the r1 file is collected in the first round (simple channel), which contains sentences involving less reasoning. The r2 file is collected in the second round (complex channel), which involves more complex multi-hop reasoning. These two files in total contains roughly 110K statements, the positive and negative satements are balanced. We demonstrate the data format as follows:
