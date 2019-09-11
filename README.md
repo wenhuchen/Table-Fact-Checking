@@ -45,6 +45,9 @@ The folder "collected_data" contains the raw data collected directly from Mechni
   Table Caption
   }
   ```
+The folder "data" contains all the tables as csv files and the data splits, train_id.json indicates all the tables used for training, val_id.json indicates all the tables used for validation and test_id.json indicates testing split.
+
+
 1. General Tokenization and Entity Matching
     - tokenized_data: This folder contains the data after tokenization with preprocess_data.py by:
       ```
