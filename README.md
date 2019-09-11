@@ -37,8 +37,8 @@ We design an interface for you to browse and eplore the dataset in https://tabfa
 - unidecode
 - nltk: wordnet, averaged_perceptron_tagger
 
-## Direct Running on the Preprocessed Data
-## Download the synthesized program candidates
+## Direct Running: Without Preprocessing Data
+### Download the synthesized program candidates
 Downloading the preprocessed data for LPA
 Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
 
@@ -46,7 +46,7 @@ Here we provide the data we obtained after preprocessing through the above pipel
   sh get_data.sh
 ```
 
-## Latent Program Algorithm
+### Latent Program Algorithm
 1. Training the ranking model
 Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
 
@@ -62,7 +62,7 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
   python model.py --do_simple --resume
   python model.py --do_complex --resume
 ```
-## Table-BERT
+### Table-BERT
 1. Training the verification model
 ```
   cd code/
@@ -75,7 +75,7 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
 ```
 
 
-## Data Preprocessing
+## Start from scratch: data preprocessing
 The folder "collected_data" contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters in some tables. There are two files, the r1 file is collected in the first round (simple channel), which contains sentences involving less reasoning. The r2 file is collected in the second round (complex channel), which involves more complex multi-hop reasoning. These two files in total contains roughly 110K statements, the positive and negative satements are balanced. We demonstrate the data format as follows:
   ```
   Table-id: {
