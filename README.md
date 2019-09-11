@@ -180,7 +180,7 @@ The folder "data" contains all the tables as csv files and the data splits, trai
 ## Instability in Table-BERT model
 Throughout our experiments on Table-BERT, we found that the performance of Table-BERT will drop to random if we train too long enough, the accuracy does not converge to a reasonable range. We instead only save the best model which achieves the best performance on the validation set.
 <p align="center">
-<img src="resource/trend.jpg" width="700">
+<img src="resource/trend.jpg" width="550">
 </p>
 
 
