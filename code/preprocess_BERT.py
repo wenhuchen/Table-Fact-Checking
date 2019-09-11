@@ -26,6 +26,11 @@ TSV_DELIM = "\t"
 TBL_DELIM = " ; "
 
 
+def join_unicode(delim, entries):
+    #entries = [_.decode('utf8') for _ in entries]
+    return delim.join(entries)
+
+
 def parse_fact(fact):
     fact = re.sub(unk_pattern, '[UNK]', fact)
     chunks = re.split(fact_pattern, fact)
@@ -117,7 +122,7 @@ def convert_to_tsv(out_file, examples, dataset_type, meta, scan):
                             this_column = []
                             for idx, c in enumerate(column_cells):
                                 this_column.append("row {} is {}".format(idx + 1, c))
-                            this_column = TBL_DELIM.join(this_column)
+                            this_column = join_unicode(TBL_DELIM, this_column)
                             table_cells.append(this_column)
                             table_cells.append('.')
                             table_feats.append(column_type)
@@ -134,7 +139,7 @@ def convert_to_tsv(out_file, examples, dataset_type, meta, scan):
                             this_row = []
                             for col, tk in zip(table_column_names, row):
                                 this_row.append('{} is {}'.format(col, tk))
-                            this_row = TBL_DELIM.join(this_row)
+                            this_row = join_unicode(TBL_DELIM, this_row)
                             table_cells.append(this_row)
                             table_cells.append('.')
 
@@ -148,7 +153,7 @@ def convert_to_tsv(out_file, examples, dataset_type, meta, scan):
 
                     out_items = TSV_DELIM.join(out_items)
                     total += 1
-                    fout.write("{}\n".format(out_items))
+                    fout.write(out_items + "\n")
                 else:
                     if dataset_type != 'train':
                         table_feats = ['[UNK]']
@@ -162,7 +167,7 @@ def convert_to_tsv(out_file, examples, dataset_type, meta, scan):
                                      str(label)]
 
                         out_items = TSV_DELIM.join(out_items)
-                        fout.write("{}\n".format(out_items))
+                        fout.write(out_items + "\n")
                         total += 1
                     empty_table += 1
     print("Built {} instances of features in total, {}/{}={}% unseen column types, {} empty tables"
