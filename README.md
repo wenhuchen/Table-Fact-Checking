@@ -143,7 +143,14 @@ The folder "data" contains all the tables as csv files and the data splits, trai
       ]
       ```
       This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm.
-    - all_programs: this folder contains the searched intermediate results for different statements, we save the results in different files for different statements, the format of intermediate program results looks like:
+
+3. Latent Program Search Algorithm
+
+    We use the proposed latent program search algorithm in the paper to synthesize the potential candididate programs which consist with the semantics of the natural language statement. This step is based on the previous generated "preprocessed.json". The search procedure is parallelized on CPU cores, which might take a long time. Using a stronger machine with more than 48 cores is preferred. In our experiments, we use 64-core machine to search for 6 hours to obtain the results
+    ```
+      python run.py --synthesize
+    ```
+    We will save the searched intermediate results for different statements in the temporary folder "all_programs", we save the results in different files for different statements, the format of intermediate program results looks like:
       ```
       [
         csv_file,
@@ -157,12 +164,25 @@ The folder "data" contains all the tables as csv files and the data splits, trai
         ]
       ]
       ```
+   Finally, we gather all the intermeidate searched results and combine them into one files in "preprocessed_data_program" folder, you can perform this operation by:
+   ```
+     python generate_ranking_data.py 
+   ```
+   This script will save all the neccessary train/val/test/complex/simple/small into "preprocessed_data_program" for the ranking model to proceed.
+   
 2. Tokenization for Table-BERT
 ```
   cd code/
   python preprocess_BERT.py --scan horizontal
   python preprocess_BERT.py --scan vertical
 ```
+
+## Instability in Table-BERT model
+Throughout our experiments on Table-BERT, we found that the performance of Table-BERT will drop to random if we train too long enough, the accuracy does not converge to a reasonable range. We instead only save the best model which achieves the best performance on the validation set.
+<p align="center">
+<img src="resource/trend.jpg" width="700">
+</p>
+
 
 ## Reference
 Please cite the paper in the following format if you use this dataset during your research.
