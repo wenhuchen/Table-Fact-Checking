@@ -3,6 +3,7 @@ import numpy
 import copy
 from APIs import APIs
 
+
 class Node(object):
     def __init__(self, rows, memory_str, memory_num, header_str, header_num, must_have, must_not_have):
         # For intermediate results
@@ -19,17 +20,17 @@ class Node(object):
         self.cur_str = ""
         self.cur_strs = []
         self.cur_funcs = []
-        
+
         self.must_have = must_have
         self.must_not_have = must_not_have
-        
+
         self.row_counter = [1]
         #self.str_counter = [0] * len(memory_str)
         #self.num_counter = [0] * len(memory_num)
-    
+
     def done(self):
         if self.memory_str_len == 0 and self.memory_num_len == 0 and \
-            self.memory_bool_len == 0 and all([_ > 0 for _ in self.row_counter]):
+                self.memory_bool_len == 0 and all([_ > 0 for _ in self.row_counter]):
             for funcs in self.must_have:
                 if any([f in self.cur_funcs for f in funcs]):
                     continue
@@ -41,11 +42,11 @@ class Node(object):
 
     @property
     def tostring(self):
-        print "memory_str:", self.memory_str
-        print "memory_num:", self.memory_num
-        print "header_str:", self.header_str
-        print "header_num:", self.header_num
-        print "trace:", self.cur_str       
+        print("memory_str:", self.memory_str)
+        print("memory_num:", self.memory_num)
+        print("header_str:", self.header_str)
+        print("header_num:", self.header_num)
+        print("trace:", self.cur_str)
 
     def concat(self, new_str, k):
         """
@@ -60,9 +61,9 @@ class Node(object):
         func = new_str.split('(')[0]
         self.cur_funcs.append(func)
         self.cur_strs.append(new_str)
-        #if func == 'max':
+        # if func == 'max':
         #    self.must_not_have.extend(['max', 'argmax'])
-        #if func == 'min':
+        # if func == 'min':
         #    self.must_not_have.extend(['min', 'argmin'])
 
     def exist(self, command):
@@ -80,12 +81,12 @@ class Node(object):
     @property
     def memory_num_len(self):
         return len(self.memory_num)
-    
+
     @property
     def tmp_memory_num_len(self):
         return len([_ for _ in self.memory_num if "tmp_" in _ and _ != "tmp_none"])
-        #return len(self.memory_num)
-    
+        # return len(self.memory_num)
+
     @property
     def tmp_memory_str_len(self):
         return len([_ for _ in self.memory_str if "tmp_" in _])
@@ -93,11 +94,11 @@ class Node(object):
     @property
     def memory_bool_len(self):
         return len(self.memory_bool)
-    
+
     @property
     def row_num(self):
         return len(self.rows) - 1
-    
+
     @property
     def hash(self):
         return hash(frozenset(self.cur_strs))
@@ -114,16 +115,16 @@ class Node(object):
     else:
         return cache_hash
     """
-    
+
     def append_result(self, command, r):
         self.cur_str = "{}={}".format(command, r)
-    
+
     def append_bool(self, r):
         if self.cur_str != "":
             self.cur_str += ";{}".format(r)
         else:
             self.cur_str = "{}".format(r)
-        
+
     def get_memory_str(self, i):
         return self.memory_str[i][1]
 
@@ -139,7 +140,7 @@ class Node(object):
             self.trace_num.append(command)
         else:
             raise ValueError("type error")
-    
+
     def add_memory_bool(self, header, val):
         if isinstance(val, bool):
             self.memory_bool.append((header, val))
@@ -161,7 +162,7 @@ class Node(object):
 
     def add_rows(self, header, val):
         if isinstance(val, pandas.DataFrame):
-            #for row_h, row in self.rows:
+            # for row_h, row in self.rows:
             #    if len(row) == len(val) and row.iloc[0][0] == val.iloc[0][0]:
             #        return
             if any([row_h == header for row_h, row in self.rows]):
@@ -170,7 +171,7 @@ class Node(object):
             self.row_counter.append(0)
         else:
             raise ValueError("type error")
-    
+
     def inc_row_counter(self, i):
         self.row_counter[i] += 1
 
@@ -179,23 +180,16 @@ class Node(object):
             del self.memory_num[arg - i]
             del self.trace_num[arg - i]
 
-    def delete_memory_str(self, *args):       
+    def delete_memory_str(self, *args):
         for i, arg in enumerate(args):
             del self.memory_str[arg - i]
             del self.trace_str[arg - i]
 
-    def delete_memory_bool(self, *args):       
+    def delete_memory_bool(self, *args):
         for i, arg in enumerate(args):
             del self.memory_bool[arg - i]
-    
-    #def delete_header_num(self, i):
-    #    del self.header_num[i]
-
-    #def delete_header_str(self, i):
-    #    del self.header_str[i]
 
     def check(self, *args):
-        #print args
         final = {}
         for arg in args:
             if arg == 'row':
@@ -206,7 +200,7 @@ class Node(object):
                     continue
                 else:
                     return False
-            
+
             if arg == ['header_num', 'number']:
                 if any([k is not None for k, v in self.memory_num]):
                     continue
@@ -218,19 +212,19 @@ class Node(object):
                     continue
                 else:
                     return False
-                
+
             if arg == 'number':
                 if len(self.memory_num) > 0:
                     continue
                 else:
                     return False
-                
+
             if arg == 'header_str':
                 if len(self.header_str) > 0:
                     continue
                 else:
                     return False
-                
+
             if arg == 'header_num':
                 if len(self.header_num) > 0:
                     continue

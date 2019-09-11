@@ -64,7 +64,7 @@ def augment(s):
         if "0" + str(i) in s:
             s.append(str(i))
             recover_dict[s[-1]] = "0" + str(i)
-    
+
     if 'crowd' in s or 'attendance' in s:
         s.append("people")
         recover_dict[s[-1]] = 'crowd'
@@ -83,17 +83,17 @@ def augment(s):
                 else:
                     s.append(str(i) + "th")
                 recover_dict[s[-1]] = str(i)
-        
+
         for k in a2b:
             if k in s:
                 s.append(a2b[k])
                 recover_dict[s[-1]] = k
-        
+
         for k in b2a:
             if k in s:
                 s.append(b2a[k])
                 recover_dict[s[-1]] = k
-    
+
     return s, recover_dict
 
 def replace_useless(s):
@@ -144,7 +144,7 @@ def get_closest(inp, string, indexes, tabs, threshold):
         if max(vocabs) > 5000:
             feature.append(3)
         else:
-            feature.append(0)           
+            feature.append(0)
     # Whether it is only a word
     if len_string > 1:
         feature.append(1)
@@ -160,7 +160,7 @@ def get_closest(inp, string, indexes, tabs, threshold):
         feature.append(1)
     else:
         feature.append(0)
-    
+
     # Whether contains alternative
     cand = replace_useless(tabs[minimum[0][0]][minimum[0][1]])
     if '(' in cand and ')' in cand:
@@ -283,7 +283,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                 if not proposed:
                     closest = get_closest(inp, buf, last, tabs, threshold)
                     if closest:
-                        buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+                        buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
                                                 tabs[closest[0]][closest[1]]), closest[0], closest[1])
 
                     new_str.append(buf)
@@ -310,7 +310,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                 if not proposed:
                     closest = get_closest(inp, buf, last, tabs, threshold)
                     if closest:
-                        buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+                        buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
                                                 tabs[closest[0]][closest[1]]), closest[0], closest[1])
                     new_str.append(buf)
                     if buf.startswith("#"):
@@ -325,12 +325,12 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                     buf += " " + transliterate[w]
                     last = proposed
                     pos_buf.append(p)
-        
+
         else:
             if buf != "":
                 closest = get_closest(inp, buf, last, tabs, threshold)
                 if closest:
-                    buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+                    buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
                                             tabs[closest[0]][closest[1]]), closest[0], closest[1])
                 new_str.append(buf)
                 if buf.startswith("#"):
@@ -338,16 +338,16 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                 else:
                     new_tags.extend(pos_buf)
                 pos_buf = []
-            
+
             buf = ""
             last = set()
             new_str.append(replace_number(w))
             new_tags.append(p)
-    
+
     if buf != "":
         closest = get_closest(inp, buf, last, tabs, threshold)
         if closest:
-            buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]], 
+            buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
                                     tabs[closest[0]][closest[1]]), closest[0], closest[1])
         new_str.append(buf)
         if buf.startswith("#"):
@@ -355,7 +355,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
         else:
             new_tags.extend(pos_buf)
         pos_buf = []
-    
+
     return " ".join(new_str), " ".join(new_tags)
 
 def get_lemmatize(words, return_pos):
@@ -434,7 +434,7 @@ def merge_strings(name, string, tags=None):
 
     tags = tags.split(' ')
     assert len(words) == len(tags), "{} and {}".format(words, tags)
-    
+
     i = 0
     while i < len(words):
         if i < 2:
@@ -459,7 +459,7 @@ def merge_strings(name, string, tags=None):
                     i += 1
         else:
             i += 1
-    
+
     return " ".join(words), " ".join(tags)
 
 def sub_func(inputs):
@@ -498,7 +498,7 @@ def sub_func(inputs):
                             if not is_ascii(sub):
                                 trans_backbone[unidecode(sub)].append((k, l))
                                 transliterate[unidecode(sub)] = sub
-                    
+
                     for i, sub in enumerate(w.split(' ')):
                         if sub not in backbone:
                             backbone[sub] = [(k, l)]
@@ -523,15 +523,15 @@ def sub_func(inputs):
         else:
             backbone[w].append((-1, -1))
     tabs.append([" ".join(captions)])
-    
+
     results = []
     for i in range(len(entry[0])):
         orig_sent = entry[0][i]
         if "=" not in orig_sent:
-            sent, tags = postprocess(orig_sent, backbone, trans_backbone, 
+            sent, tags = postprocess(orig_sent, backbone, trans_backbone,
                                     transliterate, tabs, recover_dicts, repeat, threshold=1.0)
             if "#" not in sent:
-                sent, tags = postprocess(orig_sent, backbone, trans_backbone, 
+                sent, tags = postprocess(orig_sent, backbone, trans_backbone,
                                         transliterate, tabs, recover_dicts, repeat, threshold=0.0)
             sent, tags = merge_strings(name, sent, tags)
             if not results:
@@ -565,17 +565,17 @@ def get_func(filename, output):
     #for i in range(100):
     #    r = [sub_func((names[i], entries[i]))]
     #r = sub_func(('1-12221135-3.html.csv', data['1-12221135-3.html.csv']))
-    #print "spent {}".format(time.time() - s_time)
+    #print("spent {}".format(time.time() - s_time))
 
     pool.close()
     pool.join()
-    
-    return dict(r) 
 
-results1 = get_func('../collected_data/r1_training_all.json', '../tokenized_data/r1_training_cleaned.json')    
-print "finished part 1"
+    return dict(r)
+
+results1 = get_func('../collected_data/r1_training_all.json', '../tokenized_data/r1_training_cleaned.json')
+print("finished part 1")
 results2 = get_func('../collected_data/r2_training_all.json', '../tokenized_data/r2_training_cleaned.json')
-print "finished part 2"
+print("finished part 2")
 
 results2.update(results1)
 with open('../tokenized_data/full_cleaned.json', 'w') as f:
