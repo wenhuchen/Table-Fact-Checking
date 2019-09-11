@@ -18,8 +18,9 @@ The table-based fact verification is the first dataset to perform fact verificat
 </p>
 
 ## Bug Fixing Log:
-1. September 11: Added the freq_list.json to data/ folder, which is used for entity linking step.
-2. September 11: Remove the old README.md under data/ folder, which is not up-to-date, the current entity linking adopts #row_num, column_num# format.
+1. September 11: Clean the code run with Python 3.5.
+2. September 11: Added the freq_list.json to data/ folder, which is used for entity linking step.
+3. September 11: Remove the old README.md under data/ folder, which is not up-to-date, the current entity linking adopts #row_num, column_num# format.
 
 ## Explore the data
 We design an interface for you to browse and eplore the dataset in https://tabfact.github.io/explore.html
