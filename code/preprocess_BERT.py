@@ -19,9 +19,9 @@ logging.basicConfig(format='%(asctime)s: %(levelname)s: %(message)s')
 logging.root.setLevel(level=logging.INFO)
 L.info("Running %s" % ' '.join(sys.argv))
 
-entity_linking_pattern = re.compile('#.*?;[c,h](-*[0-9]+)#')
-fact_pattern = re.compile('#(.*?);[c,h]+-*[0-9]+#')
-unk_pattern = re.compile('#([^#]+);c-1#')
+entity_linking_pattern = re.compile('#.*?;(-*[0-9]+),-*[0-9]+#')
+fact_pattern = re.compile('#(.*?);-*[0-9]+,-*[0-9]+#')
+unk_pattern = re.compile('#([^#]+);-1,-1#')
 TSV_DELIM = "\t"
 TBL_DELIM = " ; "
 
