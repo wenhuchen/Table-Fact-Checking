@@ -11,9 +11,6 @@ import argparse
 import os
 from APIs import *
 
-reload(sys)
-sys.setdefaultencoding('utf8')
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--synthesize", default=False, action="store_true", help="whether to synthesize data")
 parser.add_argument("--sequential", default=False, action="store_true", help="Whether to use sequential or distributed")
@@ -246,6 +243,9 @@ else:
     with open('../data/complex_ids.json') as f:
         complex_ids = json.load(f)
 
+    if not os.path.exists(args.output):
+        os.mkdir(args.output)
+
     def func(inputs):
         table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idx, labels = inputs
         t = pandas.read_csv('../data/all_csv/{}'.format(table_name), delimiter="#", encoding='utf-8')
@@ -257,8 +257,6 @@ else:
             for r in res[-1]:
                 print(r)
         else:
-            if not os.path.exists(args.output):
-                os.mkdir(args.output)
             try:
                 if not os.path.exists('{}/{}.json'.format(args.output, idx)):
                     res = dynamic_programming(table_name, t, sent, masked_sent, pos_tag,
@@ -281,7 +279,7 @@ else:
 
     if args.sequential:
         for arg in zip(table_name, sent, pos_tag, masked_sent, mem_str, mem_num, head_str, head_num, idxes, labels):
-            if arg[8] in ["nt-73217"]:
+            if arg[8] in ["nt-56710"]:
                 func(arg)
     else:
         cores = multiprocessing.cpu_count()

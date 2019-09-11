@@ -132,27 +132,26 @@ class Node(object):
         return self.memory_num[i][1]
 
     def add_memory_num(self, header, val, command):
-        if isinstance(val, int) or isinstance(val, float):
-            if type(val) == type(1) or type(val) == type(1.2):
-                self.memory_num.append((header, val))
-            else:
-                self.memory_num.append((header, numpy.asscalar(val)))
-            self.trace_num.append(command)
+        if type(val) == type(1) or type(val) == type(1.2):
+            val = val
         else:
-            raise ValueError("type error")
+            val = val.item()
+
+        self.memory_num.append((header, val))
+        self.trace_num.append(command)
 
     def add_memory_bool(self, header, val):
         if isinstance(val, bool):
             self.memory_bool.append((header, val))
         else:
-            raise ValueError("type error")
+            raise ValueError("type error: {}".format(type(val)))
 
     def add_memory_str(self, header, val, command):
-        if isinstance(val, unicode) or isinstance(val, str):
+        if isinstance(val, str):
             self.memory_str.append((header, val))
             self.trace_str.append(command)
         else:
-            raise ValueError("type error")
+            raise ValueError("type error: {}".format(type(val)))
 
     def add_header_str(self, header):
         self.header_str.append(header)
