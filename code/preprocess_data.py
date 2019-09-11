@@ -12,9 +12,6 @@ from multiprocessing import Pool
 import multiprocessing
 import time
 
-reload(sys)
-sys.setdefaultencoding('utf8')
-
 #stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '-', 'also', 'will', 'would', 'this', 'that',
 #             'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
 #             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
@@ -472,7 +469,7 @@ def sub_func(inputs):
     repeat = set()
     with open('../data/all_csv/' + name, 'r') as f:
         for k, _ in enumerate(f.readlines()):
-            _ = _.decode('utf8')
+            #_ = _.decode('utf8')
             tabs.append([])
             recover_dicts.append([])
             for l, w in enumerate(_.strip().split('#')):
