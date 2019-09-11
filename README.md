@@ -17,6 +17,10 @@ The table-based fact verification is the first dataset to perform fact verificat
 <img src="resource/BERT.jpg" width="700">
 </p>
 
+## Bug Fixing Log:
+1. September 11: Added the freq_list.json to data/ folder, which is used for entity linking step.
+2. September 11: Remove the old README.md under data/ folder, which is not up-to-date, the current entity linking adopts #row_num, column_num# format.
+
 ## Explore the data
 We design an interface for you to browse and eplore the dataset in https://tabfact.github.io/explore.html
 
