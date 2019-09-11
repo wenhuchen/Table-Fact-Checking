@@ -18,13 +18,16 @@ with open('../data/freq_list.json') as f:
 with open('../data/stop_words.json') as f:
     stop_words = json.load(f)
 
-months_a = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+months_a = ['january', 'february', 'march', 'april', 'may', 'june',
+            'july', 'august', 'september', 'october', 'november', 'december']
 months_b = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
-a2b = {a:b for a,b in zip(months_a, months_b)}
-b2a = {b:a for a,b in zip(months_a, months_b)}
+a2b = {a: b for a, b in zip(months_a, months_b)}
+b2a = {b: a for a, b in zip(months_a, months_b)}
+
 
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
+
 
 def augment(s):
     recover_dict = {}
@@ -83,11 +86,13 @@ def augment(s):
 
     return s, recover_dict
 
+
 def replace_useless(s):
     s = s.replace(',', '')
     s = s.replace('.', '')
     s = s.replace('/', '')
     return s
+
 
 def get_closest(inp, string, indexes, tabs, threshold):
     if string in stop_words:
@@ -182,6 +187,7 @@ def get_closest(inp, string, indexes, tabs, threshold):
     else:
         return None
 
+
 def replace_number(string):
     string = re.sub(r'(\b)one(\b)', r'\g<1>1\g<2>', string)
     string = re.sub(r'(\b)two(\b)', '\g<1>2\g<2>', string)
@@ -205,11 +211,13 @@ def replace_number(string):
     string = re.sub(r'(\b)twenty(\b)', '\g<1>20\g<2>', string)
     return string
 
+
 def replace(w, transliterate):
     if w in transliterate:
         return transliterate[w]
     else:
         return w
+
 
 def intersect(w_new, w_old):
     new_set = []
@@ -218,6 +226,7 @@ def intersect(w_new, w_old):
             if w_1[:2] == w_2[:2] and w_1[2] > w_2[2]:
                 new_set.append(w_2)
     return new_set
+
 
 def recover(buf, recover_dict, content):
     if len(recover_dict) == 0:
@@ -230,6 +239,7 @@ def recover(buf, recover_dict, content):
             else:
                 new_buf.append(w)
         return ' '.join(new_buf)
+
 
 def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dicts, repeat, threshold=1.0):
     new_str = []
@@ -251,7 +261,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                     closest = get_closest(inp, buf, last, tabs, threshold)
                     if closest:
                         buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
-                                                tabs[closest[0]][closest[1]]), closest[0], closest[1])
+                                                          tabs[closest[0]][closest[1]]), closest[0], closest[1])
 
                     new_str.append(buf)
                     if buf.startswith("#"):
@@ -278,7 +288,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                     closest = get_closest(inp, buf, last, tabs, threshold)
                     if closest:
                         buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
-                                                tabs[closest[0]][closest[1]]), closest[0], closest[1])
+                                                          tabs[closest[0]][closest[1]]), closest[0], closest[1])
                     new_str.append(buf)
                     if buf.startswith("#"):
                         new_tags.append('ENT')
@@ -298,7 +308,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
                 closest = get_closest(inp, buf, last, tabs, threshold)
                 if closest:
                     buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
-                                            tabs[closest[0]][closest[1]]), closest[0], closest[1])
+                                                      tabs[closest[0]][closest[1]]), closest[0], closest[1])
                 new_str.append(buf)
                 if buf.startswith("#"):
                     new_tags.append('ENT')
@@ -315,7 +325,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
         closest = get_closest(inp, buf, last, tabs, threshold)
         if closest:
             buf = '#{};{},{}#'.format(recover(buf, recover_dicts[closest[0]][closest[1]],
-                                    tabs[closest[0]][closest[1]]), closest[0], closest[1])
+                                              tabs[closest[0]][closest[1]]), closest[0], closest[1])
         new_str.append(buf)
         if buf.startswith("#"):
             new_tags.append('ENT')
@@ -324,6 +334,7 @@ def postprocess(inp, backbone, trans_backbone, transliterate, tabs, recover_dict
         pos_buf = []
 
     return " ".join(new_str), " ".join(new_tags)
+
 
 def get_lemmatize(words, return_pos):
     #words = nltk.word_tokenize(words)
@@ -344,6 +355,7 @@ def get_lemmatize(words, return_pos):
     else:
         return word_roots, recover_dict
 
+
 tag_dict = {"JJ": wordnet.ADJ,
             "NN": wordnet.NOUN,
             "NNS": wordnet.NOUN,
@@ -360,8 +372,10 @@ tag_dict = {"JJ": wordnet.ADJ,
 
 lemmatizer = WordNetLemmatizer()
 
+
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
+
 
 def is_number(s):
     try:
@@ -369,6 +383,7 @@ def is_number(s):
         return True
     except ValueError:
         return False
+
 
 def merge_strings(name, string, tags=None):
     buff = ""
@@ -403,21 +418,21 @@ def merge_strings(name, string, tags=None):
     while i < len(words):
         if i < 2:
             i += 1
-        elif words[i].startswith('#') and (not words[i-1].startswith('#')) and words[i-2].startswith('#'):
-            if is_number(words[i].split(';')[0][1:]) and is_number(words[i-2].split(';')[0][1:]):
+        elif words[i].startswith('#') and (not words[i - 1].startswith('#')) and words[i - 2].startswith('#'):
+            if is_number(words[i].split(';')[0][1:]) and is_number(words[i - 2].split(';')[0][1:]):
                 i += 1
             else:
-                prev_idx = words[i-2].split(';')[1][:-1].split(',')
+                prev_idx = words[i - 2].split(';')[1][:-1].split(',')
                 cur_idx = words[i].split(';')[1][:-1].split(',')
                 if cur_idx == prev_idx or (prev_idx[0] == '-2' and prev_idx[1] == cur_idx[1]):
                     position = "{},{}".format(cur_idx[0], cur_idx[1])
                     candidate = words[i - 2].split(';')[0] + " " + words[i].split(';')[0][1:] + ";" + position + "#"
                     words[i] = candidate
-                    del words[i-1]
-                    del tags[i-1]
+                    del words[i - 1]
+                    del tags[i - 1]
                     i -= 1
-                    del words[i-1]
-                    del tags[i-1]
+                    del words[i - 1]
+                    del tags[i - 1]
                     i -= 1
                 else:
                     i += 1
@@ -425,6 +440,7 @@ def merge_strings(name, string, tags=None):
             i += 1
 
     return " ".join(words), " ".join(tags)
+
 
 def sub_func(inputs):
     name, entry = inputs
@@ -493,10 +509,10 @@ def sub_func(inputs):
         orig_sent = entry[0][i]
         if "=" not in orig_sent:
             sent, tags = postprocess(orig_sent, backbone, trans_backbone,
-                                    transliterate, tabs, recover_dicts, repeat, threshold=1.0)
+                                     transliterate, tabs, recover_dicts, repeat, threshold=1.0)
             if "#" not in sent:
                 sent, tags = postprocess(orig_sent, backbone, trans_backbone,
-                                        transliterate, tabs, recover_dicts, repeat, threshold=0.0)
+                                         transliterate, tabs, recover_dicts, repeat, threshold=0.0)
             sent, tags = merge_strings(name, sent, tags)
             if not results:
                 results = [[sent], [entry[1][i]], [tags], entry[2]]
@@ -508,6 +524,7 @@ def sub_func(inputs):
             continue
 
     return name, results
+
 
 def get_func(filename, output):
     with open(filename) as f:
@@ -524,9 +541,11 @@ def get_func(filename, output):
     pool = Pool(cores)
 
     r = pool.map(sub_func, zip(names, entries))
+    print("originally have {} statements".format(len(r)))
     r = filter(lambda x: len(x[1]) > 0, r)
+    print("after filtering have {} statements".format(len(r)))
     #s_time = time.time()
-    #for i in range(100):
+    # for i in range(100):
     #    r = [sub_func((names[i], entries[i]))]
     #r = sub_func(('1-12221135-3.html.csv', data['1-12221135-3.html.csv']))
     #print("spent {}".format(time.time() - s_time))
@@ -535,6 +554,7 @@ def get_func(filename, output):
     pool.join()
 
     return dict(r)
+
 
 results1 = get_func('../collected_data/r1_training_all.json', '../tokenized_data/r1_training_cleaned.json')
 print("finished part 1")
