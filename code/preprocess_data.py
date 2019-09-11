@@ -12,19 +12,9 @@ from multiprocessing import Pool
 import multiprocessing
 import time
 
-#stop_words = ['be', 'she', 'he', 'her', 'his', 'their', 'the', 'it', ',', '.', '-', 'also', 'will', 'would', 'this', 'that',
-#             'these', 'those', 'well', 'with', 'on', 'at', 'and', 'as', 'for', 'from', 'in', 'its', 'of', 'to', 'a',
-#             'an', 'where', 'when', 'by', 'not', "'s", "'nt", "make", 'who', 'have', 'within', 'without', 'what',
-#             'during', 'than', 'then', 'if', 'when', 'while', 'time', 'appear', 'attend', 'every', 'one', 'two', 'over',
-#            'both', 'above', 'only', ",", ".", "(", ")", "&", ":"]
 with open('../data/freq_list.json') as f:
     vocab = json.load(f)
 
-#with open('../data/short_subset.txt') as f:
-#    files = f.readlines()
-#files = set(map(lambda x:x.strip(), files))
-
-#useless_words = [',', '.', "'s"]
 with open('../data/stop_words.json') as f:
     stop_words = json.load(f)
 
@@ -191,26 +181,6 @@ def get_closest(inp, string, indexes, tabs, threshold):
             return minimum[0]
     else:
         return None
-    """
-    if dist < len_string:
-        return minimum
-    else:
-        if dist > len_string * 2 or len(indexes) >= 3:
-            return None
-        else:
-            use_minimum = False
-            for s in string.split(' '):
-                if vocab.get(s, 2000) >= 2000:
-                    use_minimum = True
-                    break
-                else:
-                    use_minimum = False
-
-            if use_minimum:
-                return minimum
-            else:
-                return None
-    """
 
 def replace_number(string):
     string = re.sub(r'(\b)one(\b)', r'\g<1>1\g<2>', string)
