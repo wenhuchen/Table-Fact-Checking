@@ -37,6 +37,44 @@ We design an interface for you to browse and eplore the dataset in https://tabfa
 - unidecode
 - nltk: wordnet, averaged_perceptron_tagger
 
+## Direct Running on the Preprocessed Data
+## Download the synthesized program candidates
+Downloading the preprocessed data for LPA
+Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
+
+```
+  sh get_data.sh
+```
+
+## Latent Program Algorithm
+1. Training the ranking model
+Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
+
+```
+  cd code/
+  python model.py --do_train --do_val
+```
+2. Evaluating the ranking model
+We have put our pre-trained model in code/checkpoints/, the model can reproduce the exact number reported in the paper:
+```
+  cd code/
+  python model.py --do_test --resume
+  python model.py --do_simple --resume
+  python model.py --do_complex --resume
+```
+## Table-BERT
+1. Training the verification model
+```
+  cd code/
+  python run_BERT.py --do_train --do_eval --scan horizontal --fact [first/second]
+```
+2. Evaluating the verification model
+```
+  cd code/
+  python run_BERT.py --do_eval --scan horizontal --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
+```
+
+
 ## Data Preprocessing
 The folder "collected_data" contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters in some tables. There are two files, the r1 file is collected in the first round (simple channel), which contains sentences involving less reasoning. The r2 file is collected in the second round (complex channel), which involves more complex multi-hop reasoning. These two files in total contains roughly 110K statements, the positive and negative satements are balanced. We demonstrate the data format as follows:
   ```
@@ -124,42 +162,6 @@ The folder "data" contains all the tables as csv files and the data splits, trai
   cd code/
   python preprocess_BERT.py --scan horizontal
   python preprocess_BERT.py --scan vertical
-```
-
-## Latent Program Algorithm
-1. Downloading the preprocessed data for LPA
-Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
-
-```
-  sh get_data.sh
-```
-
-2. Training the ranking model
-Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
-
-```
-  cd code/
-  python model.py --do_train --do_val
-```
-3. Evaluating the ranking model
-We have put our pre-trained model in code/checkpoints/, the model can reproduce the exact number reported in the paper:
-```
-  cd code/
-  python model.py --do_test --resume
-  python model.py --do_simple --resume
-  python model.py --do_complex --resume
-```
-## Table-BERT
-1. Training the verification model
-```
-  cd code/
-  python run_BERT.py --do_train [--do_eval] --scan [horizontal, vertical] --fact [first/second]
-```
-2. Evaluating the verification model
-```
-  cd code/
-  python run_BERT.py --do_eval --scan [horizontal, vertical] --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
-
 ```
 
 ## Reference
