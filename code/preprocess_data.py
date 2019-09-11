@@ -521,6 +521,7 @@ def sub_func(inputs):
                 results[1].append(entry[1][i])
                 results[2].append(tags)
         else:
+            print("drop sentence: {}".format(orig_sent))
             continue
 
     return name, results
@@ -541,9 +542,7 @@ def get_func(filename, output):
     pool = Pool(cores)
 
     r = pool.map(sub_func, zip(names, entries))
-    print("originally have {} statements".format(len(r)))
-    r = list(filter(lambda x: len(x[1]) > 0, r))
-    print("after filtering have {} statements".format(len(r)))
+    print("there are {} tables".format(len(r)))
     #s_time = time.time()
     # for i in range(100):
     #    r = [sub_func((names[i], entries[i]))]
