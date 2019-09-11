@@ -150,7 +150,7 @@ The folder "data" contains all the tables as csv files and the data splits, trai
     ```
       python run.py --synthesize
     ```
-    We will save the searched intermediate results for different statements in the temporary folder "all_programs", we save the results in different files for different statements, the format of intermediate program results looks like:
+    We will save the searched intermediate results for different statements in the temporary folder "all_programs", we save the results in different files for different statements, the format of intermediate program results look like:
       ```
       [
         csv_file,
@@ -168,7 +168,7 @@ The folder "data" contains all the tables as csv files and the data splits, trai
    ```
      python generate_ranking_data.py 
    ```
-   This script will save all the neccessary train/val/test/complex/simple/small into "preprocessed_data_program" for the ranking model to proceed.
+   This script will save all the neccessary train/val/test/complex/simple/small splits into "preprocessed_data_program" for the ranking model to proceed.
    
 2. Tokenization for Table-BERT
 ```
