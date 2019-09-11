@@ -1,5 +1,5 @@
 # Introduction
-We introduce a large-scale dataset called **TabFact**(website: https://tabfact.github.io/), which consists of 118,439 manually annotated statements with regard to 16,621 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*. The full paper is "[TabFact: A Large-scale Dataset for Table-based Fact Verification
+We introduce a large-scale dataset called **TabFact**(website: https://tabfact.github.io/), which consists of 117,853 manually annotated statements with regard to 16,573 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*. The full paper is "[TabFact: A Large-scale Dataset for Table-based Fact Verification
 ](https://arxiv.org/pdf/1909.02164.pdf)". In this project, we aim to test the existing machine learning model's capability to handle the cases where both semantic inference and symbolic inference are involved.
 
 <p align="center">
