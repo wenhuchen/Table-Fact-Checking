@@ -75,7 +75,12 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
   cd code/
   python run_BERT.py --do_eval --scan horizontal --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
 ```
-
+### Checkpoints
+1. We already put the checkpoints of LPA model under code/checkpoints, the results should be reproduced using these model files.
+2. We provide the checkpoints of Table-BERT in Amazon S3 server, you can directly download it using:
+```
+  wget https://tablefact.s3-us-west-2.amazonaws.com/snapshot.zip
+```
 
 ## Start from scratch: data preprocessing
 The folder "collected_data" contains the raw data collected directly from Mechnical Turker, all the text are lower-cased, containing foreign characters in some tables. There are two files, the r1 file is collected in the first round (simple channel), which contains sentences involving less reasoning. The r2 file is collected in the second round (complex channel), which involves more complex multi-hop reasoning. These two files in total contains roughly 110K statements, the positive and negative satements are balanced. We demonstrate the data format as follows:
