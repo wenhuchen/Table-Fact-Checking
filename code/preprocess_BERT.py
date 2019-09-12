@@ -33,8 +33,6 @@ def join_unicode(delim, entries):
 
 def parse_fact(fact):
     fact = re.sub(unk_pattern, '[UNK]', fact)
-    import pdb
-    pdb.set_trace()
     chunks = re.split(fact_pattern, fact)
     output = ' '.join([x.strip() for x in chunks if len(x.strip()) > 0])
     return output
