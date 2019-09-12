@@ -542,9 +542,7 @@ def get_func(filename, output):
     pool = Pool(cores)
 
     r = pool.map(sub_func, zip(names, entries))
-    print("there are {} table".format(len(r)))
-    #r = filter(lambda x: len(x[1]) > 0, r)
-    #print("after filtering have {} statements".format(len(r)))
+    print("there are {} tables".format(len(r)))
     #s_time = time.time()
     # for i in range(100):
     #    r = [sub_func((names[i], entries[i]))]
