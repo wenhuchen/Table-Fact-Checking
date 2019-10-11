@@ -111,7 +111,7 @@ $(document).ready(function(){
 var hist = [0];
 var json;
 var total = 1;
-$.getJSON("READY/full_cleaned.json", function(data){
+$.getJSON("nlg/full_cleaned.json", function(data){
     json = data
 });
 var all_htmls = Object.keys(json);
@@ -119,28 +119,21 @@ var all_htmls = Object.keys(json);
 var prefix = "data/all_csv/"
 $(document).ready(function(){
     var idx = hist[hist.length - 1]
-    //r = extract(idx)
     var url = all_htmls[idx]
-    var r = json[url]
+    var r = json[url];
     text_list = r[0];
     label_list = r[1];
     pos_list = r[2];
     title = r[3]
-    //for (var i = 0; i < total; i++){
     $.get(prefix + url, function(data){
         $(`#table1`).html(CSV2Table(data));
     });
-    //console.log(r[2]);
-    //$('#wiki1').html(r[2]);
     var text_str = `<p>source : ${prefix + url} : ${title}<p>`
     for (var i=0; i < text_list.length; i++){
         if(label_list[i] == 1 || label_list[i] == "Entailed"){
             text_str += '<p style="color:red;">' + text_list[i] + "</p>";
             text_str += '<p style="color:red;">' + pos_list[i] + "</p>";
         }
-        //else if(label_list[i] == "Neutral"){
-        //    text_str += '<p>' + text_list[i] + "</p>";
-        //}
         else{
             text_str += '<p style="color:green;">' + text_list[i] + "</p>";
             text_str += '<p style="color:green;">' + pos_list[i] + "</p>";            
@@ -187,7 +180,6 @@ function prev() {
     if(hist.length > 1){
         hist.pop();
         idx = hist[hist.length - 1];
-        
         var url = all_htmls[idx];
         var r = json[url];
         text_list = r[0];
@@ -218,9 +210,7 @@ function prev() {
 }
 
 function next() {
-    //var idx = hist[hist.length - 1] + 1;
-    var idx = Math.floor(Math.random() * 1000);
-    console.log(idx)
+    var idx = Math.floor(Math.random() * all_htmls.length);
     var url = all_htmls[idx];
     var r = json[url];
     text_list = r[0];

@@ -1,6 +1,6 @@
 This file is aimed to explain the data format.
 
-all_csv.zip is the zipped file for all the tables, there are totally 16K tables in the folder. All the csv files are separated with '#' separator.
+all_csv.zip is the zipped file for all the tables, there are 1000 sample tables in the folder. All the csv files are separated with '#' separator.
 
 full_cleaned.json is the file consisting of all the data, which has been cleaned and pre-processed with entity linking. A typical data frame looks like this:
 
