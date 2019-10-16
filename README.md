@@ -17,6 +17,12 @@ The table-based fact verification is the first dataset to perform fact verificat
 <img src="resource/BERT.jpg" width="700">
 </p>
 
+## News
+Our Challenge is online in [CodaLab](https://competitions.codalab.org/competitions/21611), please consider submitting your system prediction to the challenge. The blind test input is in the challenge folder, it contains roughly 9.6K statements verified against the seen tables during training. Your submission format should be in:
+```
+  {test_id: label}, setting label=1 when it's entailed, label=0 when it's refuted.
+```
+
 ## Bug Fixing Log:
 1. September 11: Clean the code run with Python 3.5.
 2. September 11: Added the freq_list.json to data/ folder, which is used for entity linking step.
