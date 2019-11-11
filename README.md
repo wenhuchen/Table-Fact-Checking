@@ -78,6 +78,8 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
 ```
   cd code/
   python run_BERT.py --do_eval --scan horizontal --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
+  or
+  python run_BERT.py --do_eval --scan horizontal --fact first --load_dir outputs_fact-first_horizontal_snapshot/save_step_12500 --eval_batch_size 16
 ```
 ### Checkpoints
 1. We already put the checkpoints of LPA model under code/checkpoints, the results should be reproduced using these model files.
