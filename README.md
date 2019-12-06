@@ -33,9 +33,8 @@ We design an interface for you to browse and eplore the dataset in https://tabfa
 
 ## Requirements
 - Python 3.5
-- Pytorch 1.0
 - Ujson 1.35
-- Pytorch 1.0+
+- Pytorch 1.2.0
 - Pytorch_Pretrained_Bert 0.6.2 (Huggingface Implementation)
 - Pandas
 - tqdm-4.35
