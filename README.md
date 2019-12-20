@@ -1,11 +1,11 @@
 # Introduction
-We introduce a large-scale dataset called **TabFact**(website: https://tabfact.github.io/), which consists of 117,854 manually annotated statements with regard to 16,573 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*. The full paper accepted to ICLR2020 "[TabFact: A Large-scale Dataset for Table-based Fact Verification
-](https://arxiv.org/pdf/1909.02164.pdf)". In this project, we aim to test the existing machine learning model's capability to handle the cases where both semantic inference and symbolic inference are involved.
+We introduce a large-scale dataset called **TabFact**(website: https://tabfact.github.io/), which consists of 117,854 manually annotated statements with regard to 16,573 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*. The full paper is accepted to ICLR2020 with openreview link "[TabFact: A Large-scale Dataset for Table-based Fact Verification
+](https://openreview.net/forum?id=rkeJRhNYDH)". In this project, we aim to challenge the deep learning model's capability to handle the cases where both semantic inference and symbolic inference are involved.
 
 <p align="center">
 <img src="resource/example.png" width="700">
 </p>
-The table-based fact verification is the first dataset to perform fact verification on strctured data, which involves mixed reasoning in both symbolic and linguistic form. Therefore, we propose two models, namely Table-BERT and the Latent Program Algorithm to tackle this task.
+TabFact is the first dataset to evalaute language inference on strctured data, which involves mixed reasoning skills in both symbolic and linguistic aspects. Therefore, we propose two separate models, namely Table-BERT and the Latent Program Algorithm to tackle this task, they both have pros and conds.
 
 - The brief architecture of Latent Program Algorithm (LPA) looks like following:
 <p align="center">
