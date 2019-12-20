@@ -205,7 +205,10 @@ Please cite the paper in the following format if you use this dataset during you
 @inproceedings{2019TabFactA,
   title={TabFact : A Large-scale Dataset for Table-based Fact Verification},
   author={Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou and William Yang Wang},
-  year={2019}
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  address = {Addis Ababa, Ethiopia},
+  month = {April},
+  year = {2020}
 }
 ```
 
