@@ -18,10 +18,11 @@ TabFact is the first dataset to evalaute language inference on strctured data, w
 </p>
 
 ## News
-Our Challenge is online in [CodaLab](https://competitions.codalab.org/competitions/21611), please consider submitting your system prediction to the challenge. The blind test input is in the challenge folder, it contains roughly 9.6K statements verified against the seen tables during training. Your submission format should be in:
+1. Our Challenge is online in [CodaLab](https://competitions.codalab.org/competitions/21611), please consider submitting your system prediction to the challenge. The blind test input is in the challenge folder, it contains roughly 9.6K statements verified against the seen tables during training. Your submission format should be in:
 ```
   {test_id: label}, setting label=1 when it's entailed, label=0 when it's refuted.
 ```
+2. We have added human-annotated semantic parses for 1000 statements in folder bootstrapped_parses/, we believe this is going to help the study of weakly-supervised algorithm on TabFact.
 
 ## Bug Fixing Log:
 1. September 11: Clean the code run with Python 3.5.
