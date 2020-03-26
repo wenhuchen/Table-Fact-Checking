@@ -1,11 +1,11 @@
 # Introduction
-We introduce a large-scale dataset called **TabFact**(website: https://tabfact.github.io/), which consists of 117,854 manually annotated statements with regard to 16,573 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*. The full paper is "[TabFact: A Large-scale Dataset for Table-based Fact Verification
-](https://arxiv.org/pdf/1909.02164.pdf)". In this project, we aim to test the existing machine learning model's capability to handle the cases where both semantic inference and symbolic inference are involved.
+We introduce a large-scale dataset called **TabFact**(website: https://tabfact.github.io/), which consists of 117,854 manually annotated statements with regard to 16,573 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*. The full paper is accepted to ICLR2020 with openreview link "[TabFact: A Large-scale Dataset for Table-based Fact Verification
+](https://openreview.net/forum?id=rkeJRhNYDH)". In this project, we aim to challenge the deep learning model's capability to handle the cases where both semantic inference and symbolic inference are involved.
 
 <p align="center">
 <img src="resource/example.png" width="700">
 </p>
-The table-based fact verification is the first dataset to perform fact verification on strctured data, which involves mixed reasoning in both symbolic and linguistic form. Therefore, we propose two models, namely Table-BERT and the Latent Program Algorithm to tackle this task.
+TabFact is the first dataset to evalaute language inference on strctured data, which involves mixed reasoning skills in both symbolic and linguistic aspects. Therefore, we propose two separate models, namely Table-BERT and the Latent Program Algorithm to tackle this task, they both have pros and conds.
 
 - The brief architecture of Latent Program Algorithm (LPA) looks like following:
 <p align="center">
@@ -18,10 +18,11 @@ The table-based fact verification is the first dataset to perform fact verificat
 </p>
 
 ## News
-Our Challenge is online in [CodaLab](https://competitions.codalab.org/competitions/21611), please consider submitting your system prediction to the challenge. The blind test input is in the challenge folder, it contains roughly 9.6K statements verified against the seen tables during training. Your submission format should be in:
+1. Our Challenge is online in [CodaLab](https://competitions.codalab.org/competitions/21611), please consider submitting your system prediction to the challenge. The blind test input is in the challenge folder, it contains roughly 9.6K statements verified against the seen tables during training. Your submission format should be in:
 ```
   {test_id: label}, setting label=1 when it's entailed, label=0 when it's refuted.
 ```
+2. We have added human-annotated semantic parses for 1000 statements in folder bootstrapped_parses/, we believe this is going to help the study of weakly-supervised algorithm on TabFact.
 
 ## Bug Fixing Log:
 1. September 11: Clean the code run with Python 3.5.
@@ -33,9 +34,8 @@ We design an interface for you to browse and eplore the dataset in https://tabfa
 
 ## Requirements
 - Python 3.5
-- Pytorch 1.0
 - Ujson 1.35
-- Pytorch 1.0+
+- Pytorch 1.2.0
 - Pytorch_Pretrained_Bert 0.6.2 (Huggingface Implementation)
 - Pandas
 - tqdm-4.35
@@ -78,6 +78,8 @@ We have put our pre-trained model in code/checkpoints/, the model can reproduce 
 ```
   cd code/
   python run_BERT.py --do_eval --scan horizontal --fact [first/second] --load_dir YOUR_TRAINED_MODEL --eval_batch_size N
+  or
+  python run_BERT.py --do_eval --scan horizontal --fact first --load_dir outputs_fact-first_horizontal_snapshot/save_step_12500 --eval_batch_size 16
 ```
 ### Checkpoints
 1. We already put the checkpoints of LPA model under code/checkpoints, the results should be reproduced using these model files.
@@ -204,7 +206,10 @@ Please cite the paper in the following format if you use this dataset during you
 @inproceedings{2019TabFactA,
   title={TabFact : A Large-scale Dataset for Table-based Fact Verification},
   author={Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou and William Yang Wang},
-  year={2019}
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  address = {Addis Ababa, Ethiopia},
+  month = {April},
+  year = {2020}
 }
 ```
 
