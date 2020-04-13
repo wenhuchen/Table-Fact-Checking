@@ -686,6 +686,7 @@ def main():
         if args.load_dir is not None:
             load_step = int(os.path.split(args.load_dir)[1].replace('save_step_', ''))
             print("load_step = {}".format(load_step))
+        model.eval()
         evaluate(args, model, device, processor, label_list, num_labels, tokenizer, output_mode, tr_loss,
                  global_step, task_name, tbwriter=tbwriter, save_dir=save_dir, load_step=load_step)
 

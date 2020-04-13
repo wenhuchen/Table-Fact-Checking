@@ -22,7 +22,9 @@ TabFact is the first dataset to evalaute language inference on strctured data, w
 ```
   {test_id: label}, setting label=1 when it's entailed, label=0 when it's refuted.
 ```
-2. We have added human-annotated semantic parses for 1000 statements in folder bootstrapped_parses/, we believe this is going to help the study of weakly-supervised algorithm on TabFact.
+2. We have added human-annotated semantic parses for 1000 statements in folder bootstrapped_parses/, we believe this is going to help the study of weakly-supervised parsing algorithm on TabFact.
+
+3. Please checkout our new GNN model in [Github](https://github.com/wenhuchen/GNN-TabFact), it can achieve the state-of-art performance on TabFact.
 
 ## Bug Fixing Log:
 1. September 11: Clean the code run with Python 3.5.
