@@ -195,12 +195,6 @@ The folder "data" contains all the tables as csv files and the data splits, trai
 ## Build Your Own Model
 If you do not want to follow the provided data preprocessing pipeline, you can directly use the provided train_examples.json, val_examples.json and test_examples.json under tokenized_data/ folder. The text are normalized without performing entity linking.
 
-## Instability in Table-BERT model
-Throughout our experiments on Table-BERT, we found that the performance of Table-BERT will drop to random if we train too long enough, the accuracy does not converge to a reasonable range. We instead only save the best model which achieves the best performance on the validation set.
-<p align="center">
-<img src="resource/trend.jpg" width="550">
-</p>
-
 
 ## Reference
 Please cite the paper in the following format if you use this dataset during your research.
