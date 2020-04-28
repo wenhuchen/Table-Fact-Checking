@@ -20,5 +20,14 @@ The data format of bootstrap.json is described below:
       "eq{count{filter_eq{filter_greater{all_rows; total; 30}; style; jive}}; 2}=True"
     ]
   ],
-  }
+  ...
+}
 ```
+Each entry has its key as the table name, the value contains the original sentence, table caption and the program. Some definitions of these functions are listed as below:
+```
+greater(A, B): A is greater than B, return True, other return False
+hop(Row, Field Name): Hop to the Field name column in the Row.
+count(C): Counting how many rows are in the given C Rows.
+...
+```
+
