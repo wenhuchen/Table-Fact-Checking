@@ -536,7 +536,7 @@ print("there are {} tables".format(len(r)))
 
 pool.close()
 pool.join()
-with open('../challenge/blind_test_preprocess.json', 'w') as f:
+with open('../challenge/blind_test_preprocess.bak.json', 'w') as f:
     json.dump(r, f, indent=2)
 """
 def get_func(filename, output):
