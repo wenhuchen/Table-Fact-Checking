@@ -1,6 +1,6 @@
 # Introduction
 We introduce a large-scale dataset called **TabFact**(website: https://tabfact.github.io/), which consists of 117,854 manually annotated statements with regard to 16,573 Wikipedia tables, their relations are classified as *ENTAILED* and *REFUTED*. The full paper is accepted to ICLR2020 with openreview link "[TabFact: A Large-scale Dataset for Table-based Fact Verification
-](https://openreview.net/forum?id=rkeJRhNYDH)". In this project, we aim to challenge the deep learning model's capability to handle the cases where both semantic inference and symbolic inference are involved.
+](https://openreview.net/forum?id=rkeJRhNYDH)". In this project, we aim to challenge the deep learning model's capability to handle both semantic inference and symbolic inference simultaneously.
 
 <p align="center">
 <img src="resource/example.png" width="700">
@@ -22,7 +22,7 @@ TabFact is the first dataset to evalaute language inference on strctured data, w
 ```
   {test_id: label}, setting label=1 when it's entailed, label=0 when it's refuted.
 ```
-2. We have added human-annotated semantic parses for 1000 statements in folder bootstrapped_parses/, we believe this is going to help the study of weakly-supervised parsing algorithm on TabFact.
+2. We have added human-annotated semantic parses ~1400 statements in folder [bootstrap](https://github.com/wenhuchen/Table-Fact-Checking/edit/master/bootstrap), we believe this can help the study of weakly-supervised parsing algorithm on TabFact.
 
 3. Please checkout our new GNN model in [Github](https://github.com/wenhuchen/GNN-TabFact), it can achieve the state-of-art performance on TabFact.
 
