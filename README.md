@@ -29,6 +29,9 @@ TabFact is the first dataset to evalaute language inference on strctured data, w
 ## Explore the data
 We design an interface for you to browse and eplore the dataset in https://tabfact.github.io/explore.html
 
+## Dataset Split
+[Training Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/train_examples.json)|[Validation Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/val_examples.json)|[Test Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/test_examples.json)
+
 ## Requirements
 - Python 3.5
 - Ujson 1.35
