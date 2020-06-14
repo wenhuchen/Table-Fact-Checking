@@ -108,7 +108,7 @@ The folder "collected_data" contains the raw data collected directly from Mechni
 The folder "data" contains all the tables as csv files and the data splits, train_id.json indicates all the tables used for training, val_id.json indicates all the tables used for validation and test_id.json indicates testing split.
 
 
-1. General Tokenization and Entity Matching
+### General Tokenization and Entity Matching
     ```
     cd code/
     python preprocess_data.py
@@ -131,14 +131,14 @@ The folder "data" contains all the tables as csv files and the data splits, trai
     ```
     The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
 
-2. Tokenization for Table-BERT (If you want to use Table-BERT Model)
+### Tokenization for Table-BERT (If you want to use Table-BERT Model)
 ```
   cd code/
   python preprocess_BERT.py --scan horizontal
   python preprocess_BERT.py --scan vertical
 ```
 
-3. Tokenization For Latent Program Algorithm (If you want to use LPA Model)
+### Tokenization For Latent Program Algorithm (If you want to use LPA Model)
   ```
   cd code/
   python run.py
@@ -160,8 +160,7 @@ The folder "data" contains all the tables as csv files and the data splits, trai
     ],
   ]
   ```
-  This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm.
-  We use the proposed latent program search algorithm in the paper to synthesize the potential candididate programs which consist with the semantics of the natural language statement. This step is based on the previous generated "preprocessed.json". The search procedure is parallelized on CPU cores, which might take a long time. Using a stronger machine with more than 48 cores is preferred. In our experiments, we use 64-core machine to search for 6 hours to obtain the results. For convience, we already add the results in "preprocessed_data_program/all_programs.json", which can be downloaded using get_data.sh script. To start the latent program synthesis, you can simply type in the following command:
+  This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm. We use the proposed latent program search algorithm in the paper to synthesize the potential candididate programs which consist with the semantics of the natural language statement. This step is based on the previous generated "preprocessed.json". The search procedure is parallelized on CPU cores, which might take a long time. Using a stronger machine with more than 48 cores is preferred. In our experiments, we use 64-core machine to search for 6 hours to obtain the results. For convience, we already add the results in "preprocessed_data_program/all_programs.json", which can be downloaded using get_data.sh script. To start the latent program synthesis, you can simply type in the following command:
   ```
     python run.py --synthesize
   ```
