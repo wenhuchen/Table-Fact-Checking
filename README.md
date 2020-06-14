@@ -30,8 +30,7 @@ TabFact is the first dataset to evalaute language inference on strctured data, w
 We design an interface for you to browse and eplore the dataset in https://tabfact.github.io/explore.html
 
 ## Download the Dataset Split
-[Training Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/train_examples.json)|[Validation Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/val_examples.json)|[Test Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/test_examples.json)
-The data has beeen tokenized and lower cased. You can directly use them to train/evaluation your model.
+[Training Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/train_examples.json)|[Validation Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/val_examples.json)|[Test Set](https://github.com/wenhuchen/Table-Fact-Checking/blob/master/tokenized_data/test_examples.json): The data has beeen tokenized and lower cased. You can directly use them to train/evaluation your model.
 
 ## Requirements
 - Python 3.5
@@ -133,7 +132,14 @@ The folder "data" contains all the tables as csv files and the data splits, trai
       ```
       The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
 
-2. Tokenization For Latent Program Algorithm
+2. Tokenization for Table-BERT (If you want to use Table-BERT Model)
+```
+  cd code/
+  python preprocess_BERT.py --scan horizontal
+  python preprocess_BERT.py --scan vertical
+```
+
+2. Tokenization For Latent Program Algorithm (If you want to use LPA Model)
     - preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
       ```
       cd code/
@@ -157,9 +163,6 @@ The folder "data" contains all the tables as csv files and the data splits, trai
       ]
       ```
       This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm.
-
-3. Latent Program Search Algorithm
-
     - We use the proposed latent program search algorithm in the paper to synthesize the potential candididate programs which consist with the semantics of the natural language statement. This step is based on the previous generated "preprocessed.json". The search procedure is parallelized on CPU cores, which might take a long time. Using a stronger machine with more than 48 cores is preferred. In our experiments, we use 64-core machine to search for 6 hours to obtain the results. For convience, we already add the results in "preprocessed_data_program/all_programs.json", which can be downloaded using get_data.sh script. To start the latent program synthesis, you can simply type in the following command:
     ```
       python run.py --synthesize
@@ -183,17 +186,6 @@ The folder "data" contains all the tables as csv files and the data splits, trai
    ```
      python generate_ranking_data.py 
    ```
-   
-2. Tokenization for Table-BERT
-```
-  cd code/
-  python preprocess_BERT.py --scan horizontal
-  python preprocess_BERT.py --scan vertical
-```
-
-## Build Your Own Model
-If you do not want to follow the provided data preprocessing pipeline, you can directly use the provided train_examples.json, val_examples.json and test_examples.json under tokenized_data/ folder. The text are normalized without performing entity linking.
-
 
 ## Reference
 Please cite the paper in the following format if you use this dataset during your research.
