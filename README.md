@@ -139,7 +139,7 @@ The folder "data" contains all the tables as csv files and the data splits, trai
   python preprocess_BERT.py --scan vertical
 ```
 
-2. Tokenization For Latent Program Algorithm (If you want to use LPA Model)
+3. Tokenization For Latent Program Algorithm (If you want to use LPA Model)
     - preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
       ```
       cd code/
