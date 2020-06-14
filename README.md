@@ -109,28 +109,27 @@ The folder "data" contains all the tables as csv files and the data splits, trai
 
 
 1. General Tokenization and Entity Matching
-    - tokenized_data: This folder contains the data after tokenization with preprocess_data.py by:
-      ```
-      cd code/
-      python preprocess_data.py
-      ```
-      this script is mainly used for feature-based entity linking, the entities in the statements are linked to the longest text span in the table cell. The result file is tokenized_data/full_cleaned.json, which has a data format like:
-      ```
-      Table-id: {
-      [
-      Statement 1: xxxxx #xxx;idx1,idx2# xxx.
-      Statement 2: xx xxx #xxx;idx1,idx2# xxx.
-      ...
-      ],
-      [
-      Label 1,
-      Label 2,
-      ...
-      ],
-      Table Caption
-      }
-      ```
-      The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
+    ```
+    cd code/
+    python preprocess_data.py
+    ```
+    The generated file will be stored in tokenized_data/, this script is mainly used for feature-based entity linking, the entities in the statements are linked to the longest text span in the table cell. The resultant file is tokenized_data/full_cleaned.json, which has a data format like:
+    ```
+    Table-id: {
+    [
+    Statement 1: xxxxx #xxx;idx1,idx2# xxx.
+    Statement 2: xx xxx #xxx;idx1,idx2# xxx.
+    ...
+    ],
+    [
+    Label 1,
+    Label 2,
+    ...
+    ],
+    Table Caption
+    }
+    ```
+    The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
 
 2. Tokenization for Table-BERT (If you want to use Table-BERT Model)
 ```
@@ -140,52 +139,50 @@ The folder "data" contains all the tables as csv files and the data splits, trai
 ```
 
 3. Tokenization For Latent Program Algorithm (If you want to use LPA Model)
-    - preprocessed_data_program: This folder contains the preprocessed.json, which is obtained by:
-      ```
-      cd code/
-      python run.py
-      ```
-      this script is mainly used to perform cache (string, number) initialization, the result file looks like:
-      ```
-      [
-        [
-        Table-id,
-        Statement: xxx #xxx;idx1,idx2# (after entity linking),
-        Pos-Tagging information,
-        Statement with place-holder,
-        [linked string entity],
-        [linked number entity],
-        [linked string header],
-        [linked number header],
-        Statement-id,
-        Label
-        ],
-      ]
-      ```
-      This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm.
-    - We use the proposed latent program search algorithm in the paper to synthesize the potential candididate programs which consist with the semantics of the natural language statement. This step is based on the previous generated "preprocessed.json". The search procedure is parallelized on CPU cores, which might take a long time. Using a stronger machine with more than 48 cores is preferred. In our experiments, we use 64-core machine to search for 6 hours to obtain the results. For convience, we already add the results in "preprocessed_data_program/all_programs.json", which can be downloaded using get_data.sh script. To start the latent program synthesis, you can simply type in the following command:
-    ```
-      python run.py --synthesize
-    ```
-    
-    - We will save the searched intermediate results for different statements in the temporary folder "all_programs", we save the results in different files for different statements, the format of intermediate program results look like:
-      ```
-      [
-        csv_file,
-        statement,
-        placeholder-text,
-        label,
-        [
-          program1,
-          program2,
-          ...
-        ]
-      ]
-      ```
-   - Finally, we gather all the intermeidate searched results and combine them into one files in "preprocessed_data_program" folder, you can perform this operation by the following command. This script will save all the neccessary train/val/test/complex/simple/small splits into "preprocessed_data_program" for the ranking model to proceed.
-   ```
-     python generate_ranking_data.py 
-   ```
+  ```
+  cd code/
+  python run.py
+  ```
+  The code will output files in preprocessed_data_program/preprocessed.json,  this script is mainly used to perform cache (string, number) initialization, the result file looks like:
+  ```
+  [
+    [
+    Table-id,
+    Statement: xxx #xxx;idx1,idx2# (after entity linking),
+    Pos-Tagging information,
+    Statement with place-holder,
+    [linked string entity],
+    [linked number entity],
+    [linked string header],
+    [linked number header],
+    Statement-id,
+    Label
+    ],
+  ]
+  ```
+  This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm.
+  We use the proposed latent program search algorithm in the paper to synthesize the potential candididate programs which consist with the semantics of the natural language statement. This step is based on the previous generated "preprocessed.json". The search procedure is parallelized on CPU cores, which might take a long time. Using a stronger machine with more than 48 cores is preferred. In our experiments, we use 64-core machine to search for 6 hours to obtain the results. For convience, we already add the results in "preprocessed_data_program/all_programs.json", which can be downloaded using get_data.sh script. To start the latent program synthesis, you can simply type in the following command:
+  ```
+    python run.py --synthesize
+  ```
+  We will save the searched intermediate results for different statements in the temporary folder "all_programs", we save the results in different files for different statements, the format of intermediate program results look like:
+  ```
+  [
+    csv_file,
+    statement,
+    placeholder-text,
+    label,
+    [
+      program1,
+      program2,
+      ...
+    ]
+  ]
+  ```
+  Finally, we gather all the intermeidate searched results and combine them into one files in "preprocessed_data_program" folder, you can perform this operation by the following command. This script will save all the neccessary train/val/test/complex/simple/small splits into "preprocessed_data_program" for the ranking model to proceed.
+  ```
+   python generate_ranking_data.py 
+  ```
 
 ## Reference
 Please cite the paper in the following format if you use this dataset during your research.
