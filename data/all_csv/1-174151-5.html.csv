@@ -1,0 +1,22 @@
+name#raw bandwidth (mbit / s)#transfer speed (mb / s)#max cable length (m)#power provided#devices per channel
+esata#3000#300#2 with esata hba (1 with passive adapter)#no#1 (15 with port multiplier )
+esatap#3000#300#2 with esata hba (1 with passive adapter)#5v / 12v#1 (15 with port multiplier )
+sata revision 3.0#6000#600#1#no#1 (15 with port multiplier )
+sata revision 2.0#3000#300#1#no#1 (15 with port multiplier )
+sata revision 1.0#1500#150#1#no#1 per line
+pata (ide) 133#1064#133.5#0.46 (18in)#5 v (44 - pin for 2.5 drives no otherwise)#2
+sas 600#6000#600#10#no#1 (>65k with expanders)
+sas 300#3000#300#10#no#1 (>65k with expanders)
+sas 150#1500#150#10#no#1 (>65k with expanders)
+ieee 1394 (firewire) 3200#3144#393#100 (more with special cables)#15w , 12 - 25v#63 (with hub)
+ieee 1394 (firewire) 800#786#98.25#100#15w , 12 - 25v#63 (with hub)
+ieee 1394 (firewire) 400#393#49.13#4.5#15w , 12 - 25v#63 (with hub)
+usb 3.1#10000#1250#3#4.5w , 5v#127 (with hub)
+usb 2.0#480#60#5#2.5w , 5v#127 (with hub)
+usb 1.0#12#1.5#3#yes#127 (with hub)
+scsi ultra - 640#5120#640#12#no#15 (plus the host bus adapter / host)
+scsi ultra - 320#2560#320#12#no#15 (plus the host bus adapter / host)
+fibre channel over optic fibre#10520#1000#2 - 50000#no#126 (16777216 with switches)
+fibre channel over copper cable#4000#400#12#no#126 (16777216 with switches)
+infiniband quad rate#10000#1000#5 (copper) <10000 (fiber)#no#1 with point to point many with switched fabric
+thunderbolt#10000#1250#3 (copper)#10w#7
