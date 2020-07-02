@@ -111,7 +111,7 @@ The folder "data" contains all the tables as csv files and the data splits, trai
     cd code/
     python preprocess_data.py
     ```
-    The generated file will be stored in tokenized_data/, this script is mainly used for feature-based entity linking, the entities in the statements are linked to the longest text span in the table cell. The resultant file is tokenized_data/full_cleaned.json, which has a data format like:
+The generated file will be stored in tokenized_data/, this script is mainly used for feature-based entity linking, the entities in the statements are linked to the longest text span in the table cell. The resultant file is tokenized_data/full_cleaned.json, which has a data format like:
     ```
     Table-id: {
     [
@@ -127,7 +127,7 @@ The folder "data" contains all the tables as csv files and the data splits, trai
     Table Caption
     }
     ```
-    The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
+The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
 
 ### Tokenization for Table-BERT (If you want to use Table-BERT Model)
 ```
