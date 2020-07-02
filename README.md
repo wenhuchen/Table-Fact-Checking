@@ -164,17 +164,17 @@ The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to th
   ```
   We will save the searched intermediate results for different statements in the temporary folder "all_programs", we save the results in different files for different statements, the format of intermediate program results look like:
   ```
-  [
-    csv_file,
-    statement,
-    placeholder-text,
-    label,
     [
-      program1,
-      program2,
-      ...
+      csv_file,
+      statement,
+      placeholder-text,
+      label,
+      [
+        program1,
+        program2,
+        ...
+      ]
     ]
-  ]
   ```
   Finally, we gather all the intermeidate searched results and combine them into one files in "preprocessed_data_program" folder, you can perform this operation by the following command. This script will save all the neccessary train/val/test/complex/simple/small splits into "preprocessed_data_program" for the ranking model to proceed.
   ```
