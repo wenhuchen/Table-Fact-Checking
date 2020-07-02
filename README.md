@@ -107,26 +107,26 @@ The folder "data" contains all the tables as csv files and the data splits, trai
 
 
 ### General Tokenization and Entity Matching
-    ```
-    cd code/
-    python preprocess_data.py
-    ```
+```
+  cd code/
+  python preprocess_data.py
+```
 The generated file will be stored in tokenized_data/, this script is mainly used for feature-based entity linking, the entities in the statements are linked to the longest text span in the table cell. The resultant file is tokenized_data/full_cleaned.json, which has a data format like:
-    ```
-    Table-id: {
-    [
-    Statement 1: xxxxx #xxx;idx1,idx2# xxx.
-    Statement 2: xx xxx #xxx;idx1,idx2# xxx.
-    ...
-    ],
-    [
-    Label 1,
-    Label 2,
-    ...
-    ],
-    Table Caption
-    }
-    ```
+```
+  Table-id: {
+  [
+  Statement 1: xxxxx #xxx;idx1,idx2# xxx.
+  Statement 2: xx xxx #xxx;idx1,idx2# xxx.
+  ...
+  ],
+  [
+  Label 1,
+  Label 2,
+  ...
+  ],
+  Table Caption
+  }
+```
 The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to the entity residing in idx1-th row and idx2-th column of table "Table-id.csv", if idx1=-1, it links to the table caption. The entity linking step is essential for performing  the following program search algorithm.
 
 ### Tokenization for Table-BERT (If you want to use Table-BERT Model)
@@ -138,25 +138,25 @@ The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to th
 
 ### Tokenization For Latent Program Algorithm (If you want to use LPA Model)
   ```
-  cd code/
-  python run.py
+    cd code/
+    python run.py
   ```
   The code will output files in preprocessed_data_program/preprocessed.json,  this script is mainly used to perform cache (string, number) initialization, the result file looks like:
   ```
-  [
     [
-    Table-id,
-    Statement: xxx #xxx;idx1,idx2# (after entity linking),
-    Pos-Tagging information,
-    Statement with place-holder,
-    [linked string entity],
-    [linked number entity],
-    [linked string header],
-    [linked number header],
-    Statement-id,
-    Label
-    ],
-  ]
+      [
+      Table-id,
+      Statement: xxx #xxx;idx1,idx2# (after entity linking),
+      Pos-Tagging information,
+      Statement with place-holder,
+      [linked string entity],
+      [linked number entity],
+      [linked string header],
+      [linked number header],
+      Statement-id,
+      Label
+      ],
+    ]
   ```
   This file is directly fed into run.py to search for program candidates using dynamic programming, which also contains the tsv files neccessary for the program ranking algorithm. We use the proposed latent program search algorithm in the paper to synthesize the potential candididate programs which consist with the semantics of the natural language statement. This step is based on the previous generated "preprocessed.json". The search procedure is parallelized on CPU cores, which might take a long time. Using a stronger machine with more than 48 cores is preferred. In our experiments, we use 64-core machine to search for 6 hours to obtain the results. For convience, we already add the results in "preprocessed_data_program/all_programs.json", which can be downloaded using get_data.sh script. To start the latent program synthesis, you can simply type in the following command:
   ```
