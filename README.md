@@ -44,15 +44,13 @@ We design an interface for you to browse and eplore the dataset in https://tabfa
 - nltk: wordnet, averaged_perceptron_tagger
 
 ## Direct Running: Without Preprocessing Data
-### Download the synthesized program candidates
-Downloading the preprocessed data for LPA
+### Latent Program Algorithm
+0. Downloading the preprocessed data for LPA
 Here we provide the data we obtained after preprocessing through the above pipeline, you can download that by running
 
 ```
   sh get_data.sh
 ```
-
-### Latent Program Algorithm
 1. Training the ranking model
 Once we have all the training and evaluating data in folder "preprocessed_data_program", we can simply run the following command to evaluate the fact verification accuracy as follows:
 
