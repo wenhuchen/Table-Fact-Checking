@@ -521,7 +521,7 @@ def sub_func(inputs):
                 results[1].append(entry[1][i])
                 results[2].append(tags)
         else:
-            print("drop sentence: {}".format(orig_sent))
+            # print("drop sentence: {}".format(orig_sent))
             continue
 
     return name, results
