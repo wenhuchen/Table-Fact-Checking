@@ -189,9 +189,10 @@ TABLE-BERT      | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164)        
 LPA-Ranking     | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164)                    | 65.1    | 65.3     |     78.7        |       58.5       | 68.9
 LFC (LPA)       | [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl-main.539/) | 71.7    | 71.6     |     85.5        |       64.8       | 74.2
 LFC (Seq2Action)| [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl-main.539/) | 71.8    | 71.7     |     85.4        |       65.1       | 74.3
-SAT  | [Zhang et al. (2020)](https://www.aclweb.org/anthology/2020.emnlp-main.126.pdf) | 73.3 | 73.2 | 85.5 | 67.2
+SAT  | [Zhang et al. (2020)](https://www.aclweb.org/anthology/2020.emnlp-main.126.pdf) | 73.3 | 73.2 | 85.5 | 67.2 | -
+ProgVGAT | [Yang et al. (2020)](https://arxiv.org/pdf/2010.03084.pdf).   |  74.9 | 74.4 |  88.3 | 65.1 | 76.2
 TAPAS | [Eisenschlos et al. (2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.27/) | 81.0 | 81.0 | 92.3 | 75.6 | 83.9 
-Human Performance | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164) | | | | | 92.1
+Human Performance | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164) | - | - | - | - | 92.1
 
 ## Reference
 Please cite the paper in the following format if you use this dataset during your research.
