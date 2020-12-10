@@ -181,6 +181,20 @@ The enclosed snippet #xxx;idx1,idx2# denotes that the word "xxx" is linked to th
    python generate_ranking_data.py 
   ```
 
+## Recent results
+
+**Model**                                     | **Reference**                                                             | **Val** | **Test** | **Test_simple** | **Test_complex** | **Test_small** 
+----------|-----------------------------------|---------------------------------------------------------------------------|---------|----------|------------------|------
+TABLE-BERT      | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164)                    | 66.1    | 65.1     |     79.1        |       58.2       | 68.1
+LPA-Ranking     | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164)                    | 65.1    | 65.3     |     78.7        |       58.5       | 68.9
+[Num-Net](https://github.com/wenhuchen/GNN-TabFact)  | [Ran et al. (2019)](https://arxiv.org/pdf/1910.06701.pdf)           | 72.1    | 72.1     |   -        |       -       | -
+LFC (LPA)       | [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl-main.539/) | 71.7    | 71.6     |     85.5        |       64.8       | 74.2
+LFC (Seq2Action)| [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl-main.539/) | 71.8    | 71.7     |     85.4        |       65.1       | 74.3
+SAT  | [Zhang et al. (2020)](https://www.aclweb.org/anthology/2020.emnlp-main.126.pdf) | 73.3 | 73.2 | 85.5 | 67.2 | -
+ProgVGAT | [Yang et al. (2020)](https://arxiv.org/pdf/2010.03084.pdf).   |  74.9 | 74.4 |  88.3 | 65.1 | 76.2
+TAPAS | [Eisenschlos et al. (2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.27/) | 81.0 | 81.0 | 92.3 | 75.6 | 83.9 
+Human Performance | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164) | - | - | - | - | 92.1
+
 ## Reference
 Please cite the paper in the following format if you use this dataset during your research.
 ```
