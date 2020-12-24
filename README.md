@@ -190,6 +190,7 @@ LPA-Ranking     | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164)        
 [Num-Net](https://github.com/wenhuchen/GNN-TabFact)  | [Ran et al. (2019)](https://arxiv.org/pdf/1910.06701.pdf)           | 72.1    | 72.1     |   -        |       -       | -
 LFC (LPA)       | [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl-main.539/) | 71.7    | 71.6     |     85.5        |       64.8       | 74.2
 LFC (Seq2Action)| [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl-main.539/) | 71.8    | 71.7     |     85.4        |       65.1       | 74.3
+HeterTFV | [Shi et al. (2020)](https://www.aclweb.org/anthology/2020.coling-main.466.pdf) | 72.5  | 72.3  | 85.9  | 65.7 | 74.2
 SAT  | [Zhang et al. (2020)](https://www.aclweb.org/anthology/2020.emnlp-main.126.pdf) | 73.3 | 73.2 | 85.5 | 67.2 | -
 ProgVGAT | [Yang et al. (2020)](https://arxiv.org/pdf/2010.03084.pdf).   |  74.9 | 74.4 |  88.3 | 65.1 | 76.2
 TAPAS | [Eisenschlos et al. (2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.27/) | 81.0 | 81.0 | 92.3 | 75.6 | 83.9 
