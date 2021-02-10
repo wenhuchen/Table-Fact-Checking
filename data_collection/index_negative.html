@@ -1,0 +1,227 @@
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<section class="container" id="Survey"><!-- Instructions -->
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-primary">
+
+<a class="panel-heading" href="javascript:void(0);" id="collapseTrigger"><strong>Survey Instructions</strong> <span class="collapse-text">(Click to expand)</span> </a>
+
+<div class="panel-body" id="instructionBody">
+<p>Please first read a table to understand its content, an example is shown below, which contains the leaderboard of a competition.</p>
+<table class="wikitable"><tr><th>Player</th><th>Original Season</th><th>Gender</th><th>Eliminated</th><th>Placing</th></tr><tr><td>Derrick Kosinski</td><td>RR: X-Treme</td><td>Male</td><td>Winner</td><td>Winner</td></tr><tr><td>Evelyn Smith</td><td>Fresh Meat</td><td>Female</td><td>Winner</td><td>Winner</td></tr><tr><td>Johnny Devenanzio</td><td>RW: Key West</td><td>Male</td><td>Winner</td><td>Winner</td></tr><tr><td>Kenny Santucci</td><td>Fresh Meat</td><td>Male</td><td>Winner</td><td>Winner</td></tr><tr><td>Jenn Grijalva</td><td>RW: Denver</td><td>Female</td><td>Episode 8</td><td>Runner-Up</td></tr><tr><td>Paula Meronek</td><td>RW: Key West</td><td>Female</td><td>Episode 8</td><td>Runner-Up</td></tr><tr><td>Robin Hibbard</td><td>RW: San Diego</td><td>Female</td><td>Episode 8</td><td>Runner-Up</td></tr><tr><td>Ryan Kehoe</td><td>Fresh Meat</td><td>Male</td><td>Episode 8</td><td>Runner-Up</td></tr><tr><td>Dunbar Merrill</td><td>RW: Sydney</td><td>Male</td><td>Episode 8</td><td>9th Place</td></tr><tr><td>Johanna Botta</td><td>RW: Austin</td><td>Female</td><td>Episode 8</td><td>10th Place</td></tr><tr><td>KellyAnne Judd</td><td>RW: Sydney</td><td>Female</td><td>Episode 8</td><td>11th Place</td></tr><tr><td>Dan Walsh</td><td>RR: Viewers' Revenge</td><td>Male</td><td>Episode 8</td><td>12th Place</td></tr><tr><td>Colie Edison</td><td>RW: Denver</td><td>Female</td><td>Episode 7</td><td>13th Place</td></tr><tr><td>Cohutta Grindstaff</td><td>RW: Sydney</td><td>Male</td><td>Episode 6</td><td>14th Place</td></tr><tr><td>Tyrie Ballard</td><td>RW: Denver</td><td>Male</td><td>Episode 5</td><td>15th Place</td></tr><tr><td>Ashli Robson</td><td>RW: Sydney</td><td>Female</td><td>Episode 4</td><td>16th Place</td></tr><tr><td>Rachel Robinson</td><td>RR: Campus Crawl</td><td>Female</td><td>Episode 3</td><td>17th Place</td></tr><tr><td>Abram Boise</td><td>RR: South Pacific</td><td>Male</td><td>Episode 2</td><td>18th Place</td></tr><tr><td>Dave Malinosky</td><td>RW: Hollywood</td><td>Male</td><td>Episode 2 (quit)</td><td>19th Place</td></tr><tr><td>Tonya Cooley</td><td>RW: Chicago</td><td>Female</td><td>Episode 1</td><td>20th Place</td></tr></table>
+<br>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+    You are given a sentence to describe a fact in the table, please follow the following two cases to finish the job:<br>
+</div>
+<div class="panel-body" id="instructionBody">
+    <strong>* If the given sentence is fluent and consistent with the table, then please re-write it to make it "fake" based on the following criteria</strong>:<br>
+    1. Contradictory: it should still be a fluent and coherent, <strong>but it needs be explicitly contrdictory to the facts in the table</strong>.<br>
+    2. Do not simply add <strong>NOT</strong> to revert the sentence meaning.<br>
+    3. Do not write <strong>neutral or non-verifiable sentences</strong>, you need to confirm it in the table.<br>
+    3. The fake statement needs to be clear, explicit and natural, do not use vague or ambiguous words like "bad", "good", "many", etc.<br>
+    4. try to use diverse fake types during annotatoin.<br><br>
+    
+    Example 1. Given statement: Ashli Robson was eliminated in episode 4.<br>
+    Good Faking: Ashli Robson survives through episode 1 to episode 5.<br>
+    Good Faking: Ashli Robson is not the only one eliminated in episode 4.<br>
+    Bad Faking (Simply add not): Ashli Robson was not eliminated on episode 4.<br>
+    Bad Faking (Ambiguous, who is Ashli?): Ashli was not eliminated on episode 4.<br>
+    Bad Faking (Irrelevant): Ashli was born in Mexico.<br>
+    Bad Faking (Too subjective, what do you mean by "early"): AshlDerrick Kosinski lost the game very early.<br>
+    Bad Faking (Not verifiable): AshlDerrick Kosinski was the most popular player.<br><br>
+    
+    
+    Example 2. Given statement: Tonya Cooley is in the 20th place.<br>
+    Good Faking: Tonya Cooley is not the last in placing.<br>
+    Good Faking: Tonya Cooley is eliminated in episode 1 but not the last in placing.<br>
+    Bad Faking: (There is nothing larger than 20th) Tonya Cooley is after the 20th place.<br>
+    Bad Faking: (Half Wrong/half Right) When the gneder is female, the player is Tonya Colley.<br> 
+    Bad Faking (Introduce values outside the table): Tonya Cooley is in the 43th place. <br>
+    Bad Faking (Typo): Tonya Cooler is in the 20th palace. <br><br>
+
+    <strong>* If the given statement is erroneous (see following), please type in N/A in the input box.</strong><br>
+    1. critical grammar error like missing verbs, nouns, etc. Do not count small errors like tense, singular/plural, case errors.<br>
+    2. serious typo, misspelling.<br>
+    3. the described fact is contradictory to the table.<br><br>
+    
+    <strong>You can use the highlight button to help you find the mentions in the table, you can use either upper or lower case, not important</strong><br>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="row" id="workContent">
+<div class="col-sm-12 col-sm-offset-0">
+<div class="panel panel-default" style="width: 100%;">
+    
+<div class="panel-heading">
+    First Read the given tables, then rewrite the statements to make them <strong>fake</strong>:
+</div>
+
+<div class="panel-body">
+Table Source: <a href=${wiki1}>${topic1}</a>
+<div id="url1">${url1}</div>
+<input type="button" id="button1" onclick="clickbutton(1)" value="Hightlight Mentions, Click Me!"/><br>
+    <div id="input1">Given Statement: ${s1}</div>
+<input name="d1" class="form-control" type="text" placeholder="Please rewrite a sentence which is contradictory to the table" required/>
+<br>
+<input type="button" id="button1" onclick="clickbutton(2)" value="Hightlight Mentions, Click Me!"/><br>
+    <div id="input2">Given Statement: ${s2}</div>
+<input name="d2" class="form-control" type="text" placeholder="Please rewrite a sentence which is contradictory to the table" required/>
+<br>
+<input type="button" id="button1" onclick="clickbutton(3)" value="Hightlight Mentions, Click Me!"/><br>
+    <div id="input3">Given Statement: ${s3}</div>
+<input name="d3" class="form-control" type="text" placeholder="Please rewrite a sentence which is contradictory to the table" required/>
+<br>
+<input type="button" id="button1" onclick="clickbutton(4)" value="Hightlight Mentions, Click Me!"/><br>
+    <div id="input4">Given Statement: ${s4}</div>
+<input name="d4" class="form-control" type="text" placeholder="Please rewrite a sentence which is contradictory to the table" required/>
+<br>
+<input type="button" id="button1" onclick="clickbutton(5)" value="Hightlight Mentions, Click Me!"/><br>
+    <div id="input5">Given Statement: ${s5}</div>
+<input name="d5" class="form-control" type="text" placeholder="Please rewrite a sentence which is contradictory to the table" required/>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<script type="text/javascript">
+jQuery.ajaxSetup({async:false});
+$(document).ready(function(){
+    var table_content = "";
+    var cur = $(`#url1`).text()
+    $.get(cur, function(data){
+        var nwe_data = CSV2Table(data);
+        table_content += nwe_data;
+    }, 'text').fail(function() {
+    });
+    $(`#url1`).html(table_content);
+    
+    $('a').each(function(i, val){
+    if(val.href.match(/wikipedia/g))
+        val.target="_blank";
+    else
+        val.href = "javascript:void(0)"
+    });
+});
+    
+function CSV2Table(data) {
+    var lines = data.split("\n");
+    lines.pop();
+    //var headers = lines[0].split(separator);
+    var output = []
+    for (i = 0; i < lines.length; i++){
+        //var fields = lines[i].split("#");
+        if(i == 0){
+            output.push("<tr><th>" + lines[i].slice(0,-1).split("#").join("</th><th>") + "</th></tr>");
+        }
+        else{
+            output.push("<tr><td>" + lines[i].slice(0,-1).split("#").join("</td><td>") + "</td></tr>");            
+        }
+    }
+    output = "<table class='wikitable'>" + output.join("") + "</table>";
+    return output
+}
+    
+function clickbutton(index) {
+    //var colors = ["blue", "red", "goldenrod", "darkcyan", "pink"]
+    //var color = colors[index - 1];
+    var color = "yellow";
+    var t_color = "red"
+    var table_name = "#url1"
+    var table_content = $(table_name + " .wikitable")[0];
+    var text_array = $("#input" + index).text().split(' ')
+    var text_label = [];
+    for(var i = 0; i < text_array.length; i++){
+        text_label.push(0);
+    }
+    for(var i = 0; i < table_content.rows.length; i++){
+        row = table_content.rows[i];
+        for (var j = 0; j < row.cells.length; j++){
+            var r = row.cells[j].innerHTML;
+            var r_array = r.split(' ');
+            var global_indicator = false;
+            for(var k = 0; k < text_array.length; k++){
+                var indicator = false;
+                if (r_array[0] == text_array[k]){
+                    indicator = true;
+                    for (var l = 0; l < r_array.length; l++){
+                        if (r_array[l] != text_array[k + l]){
+                            indicator = false;
+                            break;
+                        }
+                    }
+                }
+                if (indicator){
+                    // Get the text labels
+                    for (var l = k; l < k + r_array.length; l++){
+                        text_label[l] = 1
+                    }
+                    global_indicator = true;
+                }
+            }
+            if (global_indicator){
+                row.cells[j].style.backgroundColor = color;
+            }
+            else{
+                row.cells[j].style.backgroundColor = "white";                    
+            }
+        }
+    }
+    var output_str = []
+    for(var i=0; i < text_array.length; i++){
+        if(text_label[i] == 1){
+            output_str.push("<span style=\"color:" + t_color + "\">" + text_array[i] + "</span>"); 
+        }
+        else{
+            output_str.push(text_array[i]);
+        }
+    }
+    $("#input" + index)[0].innerHTML = output_str.join(" ");
+}
+</script>
+
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" integrity="sha384-IS73LIqjtYesmURkDE9MXKbXqYA8rvKEp/ghicjem7Vc3mGRdQRptJSz60tvrB6+" rel="stylesheet" />
+<style type="text/css">#collapseTrigger{ color:#fff; display: block; text-decoration: none; } #submitButton{ white-space: normal; } .image{ margin-bottom: 15px; }
+</style>
+        <style>
+            table, th {
+                border: 1px solid black;
+                padding: 5px;
+                color: black;
+                font-family: verdana;
+                background-color: lightyellow;
+                font-size: smaller;
+            }
+            td {
+                border: 1px solid black;
+                padding: 5px;
+                color: black;
+                font-family: verdana;
+                background-color: #F7F8FA;
+                font-size: smaller;
+            }
+            .panel {
+                display: inline-block;
+                background: white;
+            }
+            p {
+              display: block;
+              margin-top: 0em;
+              margin-bottom: 1em;
+              margin-left: 1em;
+              margin-right: 1em;
+            }
+</style>
