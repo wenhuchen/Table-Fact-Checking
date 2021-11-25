@@ -192,8 +192,9 @@ LFC (LPA)       | [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl
 LFC (Seq2Action)| [Zhong et al.(2020)](https://www.aclweb.org/anthology/2020.acl-main.539/) | 71.8    | 71.7     |     85.4        |       65.1       | 74.3
 HeterTFV | [Shi et al. (2020)](https://www.aclweb.org/anthology/2020.coling-main.466.pdf) | 72.5  | 72.3  | 85.9  | 65.7 | 74.2
 SAT  | [Zhang et al. (2020)](https://www.aclweb.org/anthology/2020.emnlp-main.126.pdf) | 73.3 | 73.2 | 85.5 | 67.2 | -
-ProgVGAT | [Yang et al. (2020)](https://arxiv.org/pdf/2010.03084.pdf).   |  74.9 | 74.4 |  88.3 | 65.1 | 76.2
+ProgVGAT | [Yang et al. (2020)](https://arxiv.org/pdf/2010.03084.pdf)   |  74.9 | 74.4 |  88.3 | 65.1 | 76.2
 TAPAS | [Eisenschlos et al. (2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.27/) | 81.0 | 81.0 | 92.3 | 75.6 | 83.9
+DecompTAPAS | [Yang et al. (2021)](https://aclanthology.org/2021.findings-emnlp.90.pdf) | 82.7 | 82.7 | 93.6 | 77.4 | 84.7
 TAPEX | [Liu et al. (2021)](https://arxiv.org/pdf/2107.07653.pdf) | 84.6 | 84.2 | 93.9 | 79.6 | 85.9 
 Human Performance | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164) | - | - | - | - | 92.1
 
