@@ -17,6 +17,20 @@ TabFact is the first dataset to evalaute language inference on strctured data, w
 <img src="resource/BERT.jpg" width="700">
 </p>
 
+## Dataset Statistics
+
+Channel | #Sentence | #Table
+----------|---------|----
+Simple (r1) | 50,244 |  9,189
+Complex (r2) |  68,031 |  7,392
+Total (r1 + r2) |  118,275 |  16,573 
+
+Split | #Sentence | #Table
+----------|---------|----
+Train | 92,283 | 13,182
+Val | 12,792 | 1,696
+Test | 12,779 | 1,695
+
 ## News
 1. Our Challenge is online in [CodaLab](https://competitions.codalab.org/competitions/21611), please consider submitting your system prediction to the challenge. The blind test input is in the challenge folder, it contains roughly 9.6K statements verified against the seen tables during training. Your submission format should be in:
 ```
