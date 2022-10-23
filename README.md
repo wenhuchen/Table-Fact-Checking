@@ -209,7 +209,8 @@ SAT  | [Zhang et al. (2020)](https://www.aclweb.org/anthology/2020.emnlp-main.12
 ProgVGAT | [Yang et al. (2020)](https://arxiv.org/pdf/2010.03084.pdf)   |  74.9 | 74.4 |  88.3 | 65.1 | 76.2
 TAPAS | [Eisenschlos et al. (2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.27/) | 81.0 | 81.0 | 92.3 | 75.6 | 83.9
 DecompTAPAS | [Yang et al. (2021)](https://aclanthology.org/2021.findings-emnlp.90.pdf) | 82.7 | 82.7 | 93.6 | 77.4 | 84.7
-TAPEX | [Liu et al. (2021)](https://arxiv.org/pdf/2107.07653.pdf) | 84.6 | 84.2 | 93.9 | 79.6 | 85.9 
+TAPEX | [Liu et al. (2021)](https://arxiv.org/pdf/2107.07653.pdf) | 84.6 | 84.2 | 93.9 | 79.6 | 85.9
+UL-20B | [Tay et al. (2022)](https://arxiv.org/abs/2205.05131) | -  | 87.1  | -  | -  | - 
 Human Performance | [Chen et al. (2020)](https://arxiv.org/abs/1909.02164) | - | - | - | - | 92.1
 
 ## Reference
